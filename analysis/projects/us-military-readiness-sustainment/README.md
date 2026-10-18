@@ -31,3 +31,9 @@ strategic demand and modernization
 
 The finding makes sustainment part of geopolitical capability rather than an
 afterthought.
+
+The [defense spending, procurement, readiness, and geopolitical leverage bridge](defense-spending-procurement-readiness-leverage-bridge-v1.md)
+extends the route through SIPRI spending and arms-transfer concentration, DoD
+contract and testing milestones, USAspending supplier structure, GAO readiness
+and international-arrangement friction, IMF fiscal trade-offs, and bounded
+public discussion.
