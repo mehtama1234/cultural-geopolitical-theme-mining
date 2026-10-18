@@ -1,5 +1,16 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. consumer rotation — 2026-10-18:** the [privacy control and
+completion audit](projects/cross-domain/us-consumer-privacy-control-completion-audit-v1.md)
+follows Walmart’s reported access, deletion, and sale-opt-out request stages,
+compares them with NBER evidence on tracking restrictions and fraud complaints,
+and adds bounded privacy-governance discussion. The evidence supports a
+completion-to-control gap: administrative closure does not prove data removal,
+constrained downstream use, no re-collection, fraud protection, or durable
+consumer agency. Next: seek a same-request or repeat-consumer trace linking
+verification effort to actual data change and later fraud, targeting, trust,
+switching, or repeat-request outcomes.
+
 **Latest U.S. industrial rotation — 2026-10-18:** the [labor remedy and
 worker-power audit](projects/cross-domain/us-industrial-labor-remedy-worker-power-audit-v1.md)
 follows a named USMCA ThyssenKrupp matter from petition and U.S. review through
