@@ -7,6 +7,25 @@ research atlas as its core, connects measured evidence to bounded public
 discussion, and independently looks for new social trends that research has
 not yet explained.
 
+## Non-negotiable corpus scope
+
+The unit of completion for the research-augmentation lane is the complete
+atlas inventory: **1,978 machine-readable research records**, not a small
+topic sample. Every atlas record must appear in the social-augmentation
+coverage manifest and end in one of three auditable states:
+
+1. **augmented** — at least one traceable public discussion item is linked to
+   the exact atlas record and research question;
+2. **documented access/platform gap** — the required public searches or
+   authorized Creator/API calls were attempted, with the query, date, platform,
+   failure mode, and reason no item could be retained; or
+3. **not socially applicable** — a documented decision explains why the record
+   is not a meaningful target for public-discussion augmentation.
+
+Topic-level social waves are useful calibration and synthesis layers, but they
+do not close the record-level requirement. The 14 themes organize the work;
+the 1,978 records are the corpus that must be accounted for.
+
 ## Why we are doing this
 
 The cultural-mining atlas already contains papers, surveys, public records,
@@ -191,6 +210,13 @@ For the long-term program, completion means the workflow remains repeatable:
 each of the 14 themes has a dated social wave or a documented platform/access
 gap, each wave is tied to the atlas evidence and open arrows, and independent
 trend candidates remain visibly separate from atlas augmentation.
+
+For the full-corpus lane, completion additionally requires a generated
+record-level coverage manifest, stable atlas-record identifiers in every
+retained social link, batch-level acquisition logs, a coverage audit showing
+all 1,978 records in a terminal state, and a final validator that rejects
+unaccounted records. No topic-wave count may be presented as completion of the
+1,978-record requirement.
 
 The result is not a popularity counter or a news feed. It is a disciplined way
 to connect what is measured, what people say, and what society may be becoming.

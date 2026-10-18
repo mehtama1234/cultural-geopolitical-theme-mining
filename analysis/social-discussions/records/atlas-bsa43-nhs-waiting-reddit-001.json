@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-bsa43-nhs-waiting-reddit-001",
+  "atlas_record_ids": ["bsa43-nhs-waiting-legitimacy-2026"],
+  "topic": "care-health-social-reproduction",
+  "platform": "reddit",
+  "item_type": "lived_example_and_audience_reaction",
+  "author_or_account": "r/ADHDUK participant; account not exposed",
+  "title": "ICB minimum waiting-time restrictions and an existing NHS wait",
+  "canonical_url": "https://www.reddit.com/r/ADHDUK/comments/1x0e3h1/anyone_here_know_if_the_icb_minimum_wait_time/",
+  "published_window": "2026 (indexed relative date)",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "A patient describes nearly four years waiting for an assessment, uncertainty about whether a new referral resets the clock, and difficulty obtaining a clear answer from the local system. Replies frame the access problem as both a time burden and a route-to-authority problem.",
+  "research_anchor_paths": ["analysis/records/bsa43-nhs-waiting-legitimacy-2026.json", "analysis/US-BROAD-CARE-SOURCE-LED-SUBTHEME-MAP_V1.md"],
+  "linked_research_question": "When care quality is trusted but access time is not, how do waiting, information, and escalation change legitimacy and practical care continuity?",
+  "classification": ["lived_example", "audience_reaction", "administrative_burden", "time_burden"],
+  "limits": ["Single self-reported UK case and self-selected subreddit", "Jurisdiction-specific rules may not transfer to the US", "No verified referral record, treatment outcome, or population wait estimate"]
+}

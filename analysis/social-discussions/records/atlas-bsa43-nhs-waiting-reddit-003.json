@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-bsa43-nhs-waiting-reddit-003",
+  "atlas_record_ids": ["bsa43-nhs-waiting-legitimacy-2026"],
+  "topic": "care-health-social-reproduction",
+  "platform": "reddit",
+  "item_type": "lived_example_and_system_discussion",
+  "author_or_account": "r/nhs participants; accounts not exposed",
+  "title": "Fragmented NHS records and repeated information work",
+  "canonical_url": "https://www.reddit.com/r/nhs/comments/1r9tzge/its_2026_how_doesnt_the_nhs_have_a_unified/",
+  "published_window": "2026 (indexed relative date)",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "A patient describes repeating measurements because a specialist and GP could not access the same information. Replies from participants describe paper records, incompatible systems, and the time and safety costs of moving information across providers; one reply disputes how widespread the most extreme claims are.",
+  "research_anchor_paths": ["analysis/records/bsa43-nhs-waiting-legitimacy-2026.json", "analysis/US-BROAD-CARE-SOURCE-LED-SUBTHEME-MAP_V1.md"],
+  "linked_research_question": "How does administrative fragmentation convert care access into repeated patient work, delay, and confidence or legitimacy judgments?",
+  "classification": ["lived_example", "audience_reaction", "repetition", "countervailing_concern"],
+  "limits": ["Self-selected forum and mixed patient/worker perspectives", "Operational and clinical claims are not independently verified", "No patient-safety or time-loss denominator is supplied"]
+}

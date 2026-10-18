@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-bsa43-nhs-waiting-reddit-002",
+  "atlas_record_ids": ["bsa43-nhs-waiting-legitimacy-2026"],
+  "topic": "care-health-social-reproduction",
+  "platform": "reddit",
+  "item_type": "lived_example_and_counter_signal",
+  "author_or_account": "r/unitedkingdom participants; accounts not exposed",
+  "title": "NHS waiting list claims and follow-up delays",
+  "canonical_url": "https://www.reddit.com/r/unitedkingdom/comments/1r2zjxp/nhs_waiting_list_at_lowest_level_in_three_years/",
+  "published_window": "2026 (indexed relative date)",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "Replies include both people reporting faster appointments and people describing rapid first appointments followed by months-long diagnostic or treatment waits. The disagreement is useful because it separates a headline waiting-list measure from continuity through actual treatment.",
+  "research_anchor_paths": ["analysis/records/bsa43-nhs-waiting-legitimacy-2026.json", "analysis/US-BROAD-CARE-SOURCE-LED-SUBTHEME-MAP_V1.md"],
+  "linked_research_question": "Does an improved access statistic translate into a usable care route, or can first-contact improvement coexist with unresolved follow-up and treatment delay?",
+  "classification": ["lived_example", "countervailing_concern", "disagreement", "continuity"],
+  "limits": ["Anecdotal replies in a self-selected forum", "The discussion does not verify the national statistic or individual clinical timelines", "The UK system is comparative context, not US population evidence"]
+}

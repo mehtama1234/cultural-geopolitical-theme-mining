@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0001",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "au-al-hussein-reactivation-deemed-work-2025",
+    "au-hotak-reactivation-continued-work-2025",
+    "au-kyei-merits-dismissal-2025",
+    "au-mansoor-platform-alternative-earnings-remedy-2025",
+    "au-rehman-platform-remedy-2026",
+    "au-waheed-interim-payment-obligation-2026",
+    "bsa43-nhs-waiting-legitimacy-2026",
+    "bsa43-welfare-deservingness-polarization-2026",
+    "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging",
+    "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+    "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection",
+    "comparative-abs-migrant-cultural-attendance-2005-06-english-country-arrival-baseline",
+    "comparative-abs-migrant-settlement-outcomes-2026-visa-stream-income-rent-language",
+    "comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport",
+    "comparative-abs-monthly-household-spending-july-2026-card-culture-volume",
+    "comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust",
+    "comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries",
+    "comparative-acled-raleigh-report-september-2026-conflict-systems-disorder",
+    "comparative-adb-key-indicators-asia-pacific-2026-within-household-deprivation",
+    "comparative-africa-sustainable-development-report-2026-infrastructure-access-delivery",
+    "comparative-africa-sustainable-development-report-2026-water-energy-cities-finance",
+    "comparative-afrobarometer-african-insights-2026-global-order-agency-trade-migration-climate",
+    "comparative-afrobarometer-east-africa-reproductive-autonomy-sexuality-education-2026",
+    "comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion",
+    "comparative-americasbarometer-pulse-democracy-2026-material-security-legitimacy"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "au-al-hussein-reactivation-deemed-work-2025",
+      "atlas_record_path": "analysis/records/au-al-hussein-reactivation-deemed-work-2025.json",
+      "canonical_theme": "ai-work-control",
+      "title": "A reactivation order and deemed-work remedy can leave payment and later access unobserved",
+      "geography": "Australia; comparative case used to test platform remedy and recovery stages in the US-centered atlas",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "reactivation order deemed-work remedy can leave payment later access unobserved one adjudicated ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "reactivation order deemed-work remedy can leave payment later access unobserved one adjudicated ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "reactivation order deemed-work remedy can leave payment later access unobserved one adjudicated ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "reactivation order deemed-work remedy can leave payment later access unobserved one adjudicated ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "au-hotak-reactivation-continued-work-2025",
+      "atlas_record_path": "analysis/records/au-hotak-reactivation-continued-work-2025.json",
+      "canonical_theme": "ai-work-control",
+      "title": "An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order",
+      "geography": "Australia",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "australian platform worker resumed work after voluntary reactivation later received formal access-restoration ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "australian platform worker resumed work after voluntary reactivation later received formal access-restoration ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "australian platform worker resumed work after voluntary reactivation later received formal access-restoration ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "australian platform worker resumed work after voluntary reactivation later received formal access-restoration ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "au-kyei-merits-dismissal-2025",
+      "atlas_record_path": "analysis/records/au-kyei-merits-dismissal-2025.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Process deficiencies can coexist with a valid platform reason and no restoration remedy",
+      "geography": "Australia; comparative case used to test procedural fairness, remedy, and recovery stages in the US-centered atlas",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "process deficiencies can coexist valid platform reason restoration remedy one adjudicated fair ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "process deficiencies can coexist valid platform reason restoration remedy one adjudicated fair ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "process deficiencies can coexist valid platform reason restoration remedy one adjudicated fair ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "process deficiencies can coexist valid platform reason restoration remedy one adjudicated fair ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "au-mansoor-platform-alternative-earnings-remedy-2025",
+      "atlas_record_path": "analysis/records/au-mansoor-platform-alternative-earnings-remedy-2025.json",
+      "canonical_theme": "ai-work-control",
+      "title": "A platform worker can show substitute earnings and a formal remedy while receipt and durable access remain open",
+      "geography": "Australia; comparative case used to test the platform-remedy stage of the US-centered atlas",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "platform worker can show substitute earnings formal remedy while receipt durable access ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "platform worker can show substitute earnings formal remedy while receipt durable access ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "platform worker can show substitute earnings formal remedy while receipt durable access ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "platform worker can show substitute earnings formal remedy while receipt durable access ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "au-rehman-platform-remedy-2026",
+      "atlas_record_path": "analysis/records/au-rehman-platform-remedy-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "An Australian platform worker received formal access-restoration and lost-remuneration orders after deactivation",
+      "geography": "Australia",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "australian platform worker received formal access-restoration lost-remuneration orders after deactivation one employee-like ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "australian platform worker received formal access-restoration lost-remuneration orders after deactivation one employee-like ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "australian platform worker received formal access-restoration lost-remuneration orders after deactivation one employee-like ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "australian platform worker received formal access-restoration lost-remuneration orders after deactivation one employee-like ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "au-waheed-interim-payment-obligation-2026",
+      "atlas_record_path": "analysis/records/au-waheed-interim-payment-obligation-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "A conditional interim-payment obligation is a distinct stage between platform remedy and worker recovery",
+      "geography": "Australia; comparative case used to test remedy implementation in the US-centered atlas",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "conditional interim-payment obligation distinct stage between platform remedy worker recovery one adjudicated ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "conditional interim-payment obligation distinct stage between platform remedy worker recovery one adjudicated ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "conditional interim-payment obligation distinct stage between platform remedy worker recovery one adjudicated ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "conditional interim-payment obligation distinct stage between platform remedy worker recovery one adjudicated ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "bsa43-nhs-waiting-legitimacy-2026",
+      "atlas_record_path": "analysis/records/bsa43-nhs-waiting-legitimacy-2026.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "NHS legitimacy is increasingly an access-time problem: care quality remains more trusted than the ability to reach it",
+      "geography": "Great Britain; BSA adult respondents, with service-performance comparisons primarily for England and historical NHS series",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "nhs legitimacy increasingly access-time problem care quality remains more trusted than ability care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "nhs legitimacy increasingly access-time problem care quality remains more trusted than ability care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "nhs legitimacy increasingly access-time problem care quality remains more trusted than ability care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "nhs legitimacy increasingly access-time problem care quality remains more trusted than ability care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "bsa43-welfare-deservingness-polarization-2026",
+      "atlas_record_path": "analysis/records/bsa43-welfare-deservingness-polarization-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Welfare opinion is not one bloc: disability support remains resilient while deservingness and political identity polarize the boundary",
+      "geography": "Great Britain; adult BSA respondents, excluding Northern Ireland and respondents under 18 in the chapter's analyses",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "welfare opinion not one bloc disability support remains resilient while deservingness political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "welfare opinion not one bloc disability support remains resilient while deservingness political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "welfare opinion not one bloc disability support remains resilient while deservingness political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "welfare opinion not one bloc disability support remains resilient while deservingness political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging",
+      "atlas_record_path": "analysis/records/comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Culture functions as everyday social infrastructure, but cost, time and accessibility still shape who can participate",
+      "geography": "King County, Washington; representative resident sample and supplementary cultural-audience sample",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "culture functions everyday social infrastructure but cost time accessibility still shape who care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "culture functions everyday social infrastructure but cost time accessibility still shape who care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "culture functions everyday social infrastructure but cost time accessibility still shape who care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "culture functions everyday social infrastructure but cost time accessibility still shape who care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+      "atlas_record_path": "analysis/records/comparative-abs-australia-time-use-2024-disability-carer-free-time-2026.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Diary-based time use shows care and disability as hidden conversion costs for free time and social life",
+      "geography": "Australia; people aged 15 years and over in in-scope private households",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "diary-based time use shows care disability hidden conversion costs free social life time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "diary-based time use shows care disability hidden conversion costs free social life time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "diary-based time use shows care disability hidden conversion costs free social life time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "diary-based time use shows care disability hidden conversion costs free social life time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection",
+      "atlas_record_path": "analysis/records/comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Cultural and social reconnection coexists with worsening household financial pressure in Australia",
+      "geography": "Australia; people aged 15 years and over for cultural participation and people aged 18 years and over for social experiences, with all-household financial-stress measures",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "cultural social reconnection coexists worsening household financial pressure australia australian bureau statistics trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "cultural social reconnection coexists worsening household financial pressure australia australian bureau statistics trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "cultural social reconnection coexists worsening household financial pressure australia australian bureau statistics trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "cultural social reconnection coexists worsening household financial pressure australia australian bureau statistics trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-abs-migrant-cultural-attendance-2005-06-english-country-arrival-baseline",
+      "atlas_record_path": "analysis/records/comparative-abs-migrant-cultural-attendance-2005-06-english-country-arrival-baseline.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Australia's older migrant cultural-attendance baseline shows large country-of-birth and arrival-cohort differences",
+      "geography": "Australia; people aged 15 years and over in the 2005-06 Multipurpose Household Survey cultural-attendance module",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "australia's older migrant cultural-attendance baseline shows large country-of-birth arrival-cohort differences australian bureau trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "australia's older migrant cultural-attendance baseline shows large country-of-birth arrival-cohort differences australian bureau trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "australia's older migrant cultural-attendance baseline shows large country-of-birth arrival-cohort differences australian bureau trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "australia's older migrant cultural-attendance baseline shows large country-of-birth arrival-cohort differences australian bureau trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-abs-migrant-settlement-outcomes-2026-visa-stream-income-rent-language",
+      "atlas_record_path": "analysis/records/comparative-abs-migrant-settlement-outcomes-2026-visa-stream-income-rent-language.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Australian migrant settlement outcomes diverge by visa stream across income, rent pressure, language, and service access",
+      "geography": "Australia; permanent migrants with linked administrative, Census, and settlement-outcome data",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "australian migrant settlement outcomes diverge visa stream across income rent pressure language housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "australian migrant settlement outcomes diverge visa stream across income rent pressure language housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "australian migrant settlement outcomes diverge visa stream across income rent pressure language housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "australian migrant settlement outcomes diverge visa stream across income rent pressure language housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport",
+      "atlas_record_path": "analysis/records/comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Australian household spending held up in August through transport while recreation and culture reversed its July rise",
+      "geography": "Australia; national and state/territory household-spending estimates",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "australian household spending held august through transport while recreation culture reversed its household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "australian household spending held august through transport while recreation culture reversed its household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "australian household spending held august through transport while recreation culture reversed its household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "australian household spending held august through transport while recreation culture reversed its household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-abs-monthly-household-spending-july-2026-card-culture-volume",
+      "atlas_record_path": "analysis/records/comparative-abs-monthly-household-spending-july-2026-card-culture-volume.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Australian household spending rose in July while recreation and culture outpaced total volume, but nominal growth still mixes prices and quantities",
+      "geography": "Australia; national and state/territory household-spending estimates",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "australian household spending rose july while recreation culture outpaced total volume but household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "australian household spending rose july while recreation culture outpaced total volume but household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "australian household spending rose july while recreation culture outpaced total volume but household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "australian household spending rose july while recreation culture outpaced total volume but household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust",
+      "atlas_record_path": "analysis/records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Professionals are adopting AI while demanding human judgment, hybrid flexibility and credible organizational purpose",
+      "geography": "Global accountancy and finance professionals, employers and leaders covered by the ACCA survey and report evidence",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "professionals are adopting while demanding human judgment hybrid flexibility credible organizational purpose ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "professionals are adopting while demanding human judgment hybrid flexibility credible organizational purpose ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "professionals are adopting while demanding human judgment hybrid flexibility credible organizational purpose ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "professionals are adopting while demanding human judgment hybrid flexibility credible organizational purpose ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries",
+      "atlas_record_path": "analysis/records/comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries.json",
+      "canonical_theme": "platform-exit",
+      "title": "Consumers are beginning to delegate shopping labor to AI agents while retaining control over purchases carrying identity, emotion, risk, or personal meaning",
+      "geography": "Consumers in 16 countries: Australia, Brazil, Canada, Chile, China, France, Germany, India, Italy, Japan, Mexico, Spain, Sweden, United Arab Emirates, United Kingdom, and United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumers are beginning delegate shopping labor agents while retaining control over purchases platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumers are beginning delegate shopping labor agents while retaining control over purchases platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumers are beginning delegate shopping labor agents while retaining control over purchases platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumers are beginning delegate shopping labor agents while retaining control over purchases platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-acled-raleigh-report-september-2026-conflict-systems-disorder",
+      "atlas_record_path": "analysis/records/comparative-acled-raleigh-report-september-2026-conflict-systems-disorder.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Conflict systems are broadening beyond battlefield violence into economic pressure, hybrid disorder, cultural disruption, alliances, and material bottlenecks",
+      "geography": "Global conflict systems, including Ukraine, the Middle East, Iran, India-China relations, China-linked materials, hybrid disorder, and conflict-affected societies",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "conflict systems are broadening beyond battlefield violence into economic pressure hybrid disorder geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "conflict systems are broadening beyond battlefield violence into economic pressure hybrid disorder geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "conflict systems are broadening beyond battlefield violence into economic pressure hybrid disorder geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "conflict systems are broadening beyond battlefield violence into economic pressure hybrid disorder geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-adb-key-indicators-asia-pacific-2026-within-household-deprivation",
+      "atlas_record_path": "analysis/records/comparative-adb-key-indicators-asia-pacific-2026-within-household-deprivation.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Household-level poverty can conceal unequal access to health, internet, property, and decision power within the same family",
+      "geography": "Asia and the Pacific; theme analysis of 23 developing economies and statistical indicators for 50 ADB regional member economies",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household-level poverty can conceal unequal access health internet property decision power within household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household-level poverty can conceal unequal access health internet property decision power within household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household-level poverty can conceal unequal access health internet property decision power within household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household-level poverty can conceal unequal access health internet property decision power within household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-africa-sustainable-development-report-2026-infrastructure-access-delivery",
+      "atlas_record_path": "analysis/records/comparative-africa-sustainable-development-report-2026-infrastructure-access-delivery.json",
+      "canonical_theme": "unequal-exposure-status",
+      "title": "Africa’s development gains are broad but infrastructure quality, financing, and delivery gaps keep access uneven",
+      "geography": "African countries and subregions, with comparisons across urban-rural settings and the 2030 Agenda and Agenda 2063 implementation system",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "africa development gains are broad but infrastructure quality financing delivery gaps keep unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "africa development gains are broad but infrastructure quality financing delivery gaps keep unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "africa development gains are broad but infrastructure quality financing delivery gaps keep unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "africa development gains are broad but infrastructure quality financing delivery gaps keep unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-africa-sustainable-development-report-2026-water-energy-cities-finance",
+      "atlas_record_path": "analysis/records/comparative-africa-sustainable-development-report-2026-water-energy-cities-finance.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Africa's development gains remain real but insufficient as water, energy, infrastructure, cities, finance, climate, and demographic pressures converge",
+      "geography": "African countries and subregions; implementation of the 2030 Agenda and African Union Agenda 2063, focused on SDGs 6, 7, 9, 11, and 17",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "africa's development gains remain real but insufficient water energy infrastructure cities finance infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "africa's development gains remain real but insufficient water energy infrastructure cities finance infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "africa's development gains remain real but insufficient water energy infrastructure cities finance infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "africa's development gains remain real but insufficient water energy infrastructure cities finance infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-afrobarometer-african-insights-2026-global-order-agency-trade-migration-climate",
+      "atlas_record_path": "analysis/records/comparative-afrobarometer-african-insights-2026-global-order-agency-trade-migration-climate.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "African publics seek integration and multi-partner agency while separating openness from practical exposure",
+      "geography": "38 African countries surveyed in Afrobarometer Round 10, 2024–2025",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "african publics seek integration multi-partner agency while separating openness practical exposure afrobarometer geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "african publics seek integration multi-partner agency while separating openness practical exposure afrobarometer geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "african publics seek integration multi-partner agency while separating openness practical exposure afrobarometer geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "african publics seek integration multi-partner agency while separating openness practical exposure afrobarometer geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-afrobarometer-east-africa-reproductive-autonomy-sexuality-education-2026",
+      "atlas_record_path": "analysis/records/comparative-afrobarometer-east-africa-reproductive-autonomy-sexuality-education-2026.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Support for women’s reproductive autonomy is broad, but access and abortion legitimacy remain conditional on age, marriage, and circumstance",
+      "geography": "Comoros, Kenya, Uganda, Tanzania, Mauritius, Madagascar, and Seychelles; 2024–2025 surveys",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "support women reproductive autonomy broad but access abortion legitimacy remain conditional age care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "support women reproductive autonomy broad but access abortion legitimacy remain conditional age care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "support women reproductive autonomy broad but access abortion legitimacy remain conditional age care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "support women reproductive autonomy broad but access abortion legitimacy remain conditional age care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion",
+      "atlas_record_path": "analysis/records/comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "African social cohesion combines broad tolerance with steep trust gradients, restrictive immigration attitudes, and weak institutional fairness",
+      "geography": "38 African countries; Afrobarometer Round 10 interviews conducted in 2024/2025",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "african social cohesion combines broad tolerance steep trust gradients restrictive immigration attitudes trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "african social cohesion combines broad tolerance steep trust gradients restrictive immigration attitudes trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "african social cohesion combines broad tolerance steep trust gradients restrictive immigration attitudes trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "african social cohesion combines broad tolerance steep trust gradients restrictive immigration attitudes trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-americasbarometer-pulse-democracy-2026-material-security-legitimacy",
+      "atlas_record_path": "analysis/records/comparative-americasbarometer-pulse-democracy-2026-material-security-legitimacy.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Democratic support is recovering modestly across the Americas as material security improves, but weak governance and representation keep legitimacy fragile",
+      "geography": "Americas; 21 countries including the United States and Canada, Latin America and Cuba",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0001",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "democratic support recovering modestly across americas material security improves but weak governance political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "democratic support recovering modestly across americas material security improves but weak governance political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "democratic support recovering modestly across americas material security improves but weak governance political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "democratic support recovering modestly across americas material security improves but weak governance political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
