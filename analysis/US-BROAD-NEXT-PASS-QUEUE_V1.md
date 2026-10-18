@@ -1,5 +1,16 @@
 # US broad program next-pass queue v1
 
+**Latest water-infrastructure rotation — 2026-10-18:** the [water
+infrastructure, funding access, household service, and health audit](projects/cross-domain/water-infrastructure-funding-household-service-audit-v1.md)
+joins NBER water-quality and mortality evidence, GAO rural and Tribal funding
+reviews, UN SDG6 coverage and financing gaps, Brazil water-security planning,
+Northern Ireland household routines, and bounded infrastructure discussion. The
+evidence supports a funding-to-service gap: capital, coverage, and construction
+do not automatically become continuous, affordable, maintained household
+service. Next: follow one community and households through application, match,
+construction, operation, connection, bill/outage, health/time effects, repair,
+and remedy.
+
 **Latest displacement-and-belonging rotation — 2026-10-18:** the [displacement,
 host capacity, livelihood conversion, and belonging audit](projects/cross-domain/displacement-host-capacity-livelihood-belonging-audit-v1.md)
 joins UNHCR global stocks and appeal architecture with World Bank/UNHCR/CEGA
