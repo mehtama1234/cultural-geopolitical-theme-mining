@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0060-imf-ai-inequality-linkedin-001",
+  "atlas_record_ids": ["us-imf-ai-adoption-inequality-2025"],
+  "topic": "unequal-exposure-status",
+  "platform": "linkedin",
+  "item_type": "research_interpretation",
+  "author_or_account": "Nicoleta Culava",
+  "title": "AI Adoption and Inequality",
+  "canonical_url": "https://www.linkedin.com/posts/nicoleta-culava_ai-adoption-and-inequality-activity-7316107222080483328-NM4-",
+  "published_window": "2025-04",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post explains the IMF model as a distinction between wage and wealth channels: AI could compress some wage differences while increasing wealth inequality when firms adopt it where high-wage tasks create the largest savings and capital returns accrue to owners. It makes the adoption decision, not only the technology, central to distributional outcomes.",
+  "research_anchor_paths": ["analysis/records/us-imf-ai-adoption-inequality-2025.json"],
+  "linked_research_question": "How do public discussions distinguish AI's wage, wealth, adoption, and capital-ownership channels when assessing inequality?",
+  "classification": ["research_interpretation", "ai-adoption", "wage-inequality", "wealth-inequality", "capital-ownership", "policy-tradeoff"],
+  "limits": ["Individual interpretation of an IMF working paper", "Model results are not observed population outcomes", "The post does not establish how firms will adopt AI in every sector", "Public search discovery is not a platform-native Creator/API export"]
+}
