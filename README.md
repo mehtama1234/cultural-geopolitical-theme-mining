@@ -32,6 +32,11 @@ companionship and trust. Discussion items are signals about meaning,
 interpretation, disagreement, and lived experience; they are not treated as
 representative surveys or causal evidence.
 
+The separate [independent trend-discovery lane](analysis/independent-trend-discovery/)
+starts with repeated public discussion, freezes provisional trend candidates,
+and only then checks research. It must not be used to create confirmation for
+an existing atlas finding.
+
 The project is explicitly not a one-household study. It maps 14 program
 themes across people, consumers, workers, households, firms, places,
 institutions, infrastructure, and states. The [full broad-program reader map](site/us-broad-program-map.html)

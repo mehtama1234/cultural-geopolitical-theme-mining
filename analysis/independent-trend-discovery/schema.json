@@ -1,0 +1,21 @@
+{
+  "schema": "independent-social-trend-candidate-v1",
+  "required": [
+    "candidate_id",
+    "candidate_phrase",
+    "provisional_trend",
+    "observation_window",
+    "discovered_at",
+    "source_record_ids",
+    "platforms_present",
+    "repetition_rule",
+    "supporting_signal",
+    "counter_signal",
+    "research_status",
+    "research_check",
+    "next_test",
+    "limits"
+  ],
+  "research_status_values": ["not_started", "confirmed", "qualified", "rejected", "open_signal"],
+  "platforms": ["youtube", "reddit", "linkedin", "x"]
+}
