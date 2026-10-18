@@ -18,6 +18,11 @@ price, income, benefit, or job change
 
 Do not assume that a bad economic view comes from a bad personal outcome. Test personal experience, party identity, news, local conditions, and policy changes separately.
 
+The [local issue, voice, response, and efficacy bridge](local-issue-voice-response-efficacy-bridge-v1.md)
+is the sixth active depth rotation in the ongoing program. It connects civic
+action to a named institutional decision and scrutiny event, while keeping
+implementation, resident experience, repeat efficacy, and durable trust open.
+
 The next executable design is the [political-response measurement specification](political-response-measurement-spec-v1.md). It keeps exposure, adjustment, interpretation, expression, and political action separate and defines the valid respondent, place, and event-study alternatives.
 
 The [ANES 2024 source record](anes-2024-political-path-source-record-v1.md) maps a current respondent-level pre/post political layer to that design. Official SDA estimates are recorded in the [ANES panel judgment and action layer](anes-2024-panel-judgment-action-layer-v1.md); local microdata reproduction remains open.
