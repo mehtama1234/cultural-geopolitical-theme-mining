@@ -5,6 +5,7 @@ This project tests whether the adaptive capacity identified in occupation-level 
 ## Initial finding
 
 - [Finding 001: Training can improve earnings for AI-exposed workers, mainly through moving to less exposed work](findings/us-nber-ai-worker-retraining-returns-2026-001.md)
+- [AI-worker retraining: from earnings return to usable control](training-access-durability-control-bridge-v1.md)
 
 ## Next test
 
