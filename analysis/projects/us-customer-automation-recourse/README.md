@@ -19,6 +19,11 @@ firm cost or growth goal
 
 This is one durable lane in the long-term atlas. Its depth increases as records show what the system did and what happened to customers afterward.
 
+The [data portability, practical choice, and remedy bridge](data-portability-practical-choice-remedy-bridge-v1.md)
+adds the Australian Consumer Data Right as an upstream option-set case. It
+keeps formal consent, data quality, comparison, switching, correction, and
+consumer benefit separate.
+
 The [Bilt bank-partner transition ledger](data/cfpb-bilt-bank-partner-transition-event-ledger-v1.json)
 adds a current consumer-system route: a firm migration produced fees and
 technical problems, followed by proactive outreach, reported reimbursement,
