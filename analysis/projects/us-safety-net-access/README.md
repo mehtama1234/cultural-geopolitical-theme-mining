@@ -224,3 +224,8 @@ gaps, digital government, AI oversight, data portability, and employment
 services. It keeps connectivity, task completion, continuity, correction, and
 trust separate and defines the episode-level ledger needed to test the missing
 middle.
+
+The [SNAP scale, route quality, household security, and remedy bridge](snap-scale-route-security-remedy-bridge-v1.md)
+adds the current USDA scale and benefit context, state route-quality variation,
+same-person SIPP transitions, WBNS food and charitable-food access, stigma
+evidence, and bounded public discussion.
