@@ -15,3 +15,9 @@ Payment is part of basic infrastructure. A household may have money but still be
 ## Decision rule
 
 Move on after one source measures payment changes in outages, one source identifies essential spending or service access, and one next dataset can follow households through the disruption. Do not treat a shift to cash as a preference without checking availability.
+
+The [payment outage, fraud, recovery, and remedy bridge](payment-outage-fraud-recovery-remedy-bridge-v1.md)
+extends the first pass from outage substitution into transaction completion,
+fraud loss, recovery time, unequal household exposure, and public-trust limits.
+It defines the named outage or fraud episode ledger needed to test resilience
+beyond uptime and payment volume.
