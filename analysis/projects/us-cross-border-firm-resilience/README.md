@@ -20,6 +20,8 @@ foreign event, supplier, ownership relationship, alternative suppliers,
 shipment, inventory, production, prices, workers, and later recovery. The
 current paper does not follow that full chain.
 
+The current [cross-border shock-buffer bridge](cross-border-shock-buffer-resilience-bridge-v1.md) places the Census firm-network result beside FAO, UK Government science, IMF, and bounded public discussion. It preserves the open test of whether purchase buffering becomes durable price, job, household, or geopolitical resilience.
+
 ## Source
 
 - [Census CES Working Paper CES-26-55](https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-55.html)
