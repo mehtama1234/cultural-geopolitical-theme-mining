@@ -2,6 +2,7 @@
   "schema": "social-augmentation-batch-v1",
   "batch_id": "atlas-batch-0018",
   "opened": "2026-10-18",
+  "closed": "2026-10-18",
   "window": "2025-10-17 through 2026-10-17",
   "record_count": 25,
   "atlas_record_ids": [
@@ -38,40 +39,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Locally rooted social-economy organizations are becoming delivery infrastructure for care, housing and community resilience as affordability gaps widen",
       "geography": "European Union with comparative member-state examples; OECD and European Commission policy analysis",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "locally rooted social-economy organizations are becoming delivery infrastructure care housing community resilience housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "locally rooted social-economy organizations are becoming delivery infrastructure care housing community resilience housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "locally rooted social-economy organizations are becoming delivery infrastructure care housing community resilience housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "locally rooted social-economy organizations are becoming delivery infrastructure care housing community resilience housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-fao-agricultural-outlook-2026-2035-production-income-diets-emissions",
@@ -79,40 +80,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Agricultural productivity can expand food supply and farm income while fertilizer shocks, unequal capacity, diet change, and emissions keep food security exposed",
       "geography": "Global, regional, and national agricultural commodities and aquatic-food markets with low-, middle-, and high-income comparisons",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "agricultural productivity can expand food supply farm income while fertilizer shocks unequal household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "agricultural productivity can expand food supply farm income while fertilizer shocks unequal household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "agricultural productivity can expand food supply farm income while fertilizer shocks unequal household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "agricultural productivity can expand food supply farm income while fertilizer shocks unequal household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-financing-social-protection-2026-ageing-work-care",
@@ -120,40 +121,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Aging, nonstandard work, and technology are changing who finances social protection and who is covered",
       "geography": "OECD and European Union countries, with comparative analysis of social-protection financing, aging, work forms, labor income, pensions, health, long-term care, and family benefits",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aging nonstandard work technology are changing who finances social protection covered oecd care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aging nonstandard work technology are changing who finances social protection covered oecd care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aging nonstandard work technology are changing who finances social protection covered oecd care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aging nonstandard work technology are changing who finances social protection covered oecd care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-finland-life-course-wellbeing-2026-intergenerational-loneliness",
@@ -161,40 +162,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Strong national well-being can coexist with an intergenerational gradient in work, mental health, and social connection",
       "geography": "Finland, benchmarked against OECD countries and examined across young, middle-aged, and older life stages",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "strong national well-being can coexist intergenerational gradient work mental health social connection care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "strong national well-being can coexist intergenerational gradient work mental health social connection care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "strong national well-being can coexist intergenerational gradient work mental health social connection care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "strong national well-being can coexist intergenerational gradient work mental health social connection care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-food-social-connectedness-2026-community-infrastructure",
@@ -202,40 +203,42 @@
       "canonical_theme": "household-room-consumption",
       "title": "Food is being used as low-stigma social infrastructure linking affordability, culture, public space, and belonging",
       "geography": "OECD policy context with eight in-depth community-led and government-supported case studies across the United States, United Kingdom, Netherlands, New Zealand, Colombia, Australia, Germany, and Japan, plus examples from other OECD countries",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food being used low-stigma social infrastructure linking affordability culture public space belonging household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food being used low-stigma social infrastructure linking affordability culture public space belonging household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "food being used low-stigma social infrastructure linking affordability culture public space belonging household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-oecd-food-social-connectedness-linkedin-001.json"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food being used low-stigma social infrastructure linking affordability culture public space belonging household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-global-health-ppr-financing-aid-dependence-resilience-2026",
@@ -243,40 +246,40 @@
       "canonical_theme": "ai-work-control",
       "title": "Preparedness is a global public good with a domestic budget problem",
       "geography": "Global; high-income, upper-middle-income, lower-middle-income and low-income country groups; OECD Development Assistance Committee financing",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "preparedness global public good domestic budget problem oecd tracking spending prevention response ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "preparedness global public good domestic budget problem oecd tracking spending prevention response ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "preparedness global public good domestic budget problem oecd tracking spending prevention response ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "preparedness global public good domestic budget problem oecd tracking spending prevention response ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-going-digital-measurement-roadmap-2026-trust-wellbeing-data",
@@ -284,40 +287,40 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Digital transformation is becoming an economy-wide social system whose trust, well-being, and distributional effects need new measurement",
       "geography": "International statistical and policy systems measuring digital economies, societies, technologies, and cross-border data flows",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital transformation becoming economy-wide social system whose trust well-being distributional effects need infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital transformation becoming economy-wide social system whose trust well-being distributional effects need infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital transformation becoming economy-wide social system whose trust well-being distributional effects need infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital transformation becoming economy-wide social system whose trust well-being distributional effects need infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-homelessness-housing-exclusion-2026-pathways-hidden",
@@ -325,40 +328,42 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Housing exclusion is a layered pathway shaped by poverty, housing markets, institutional transitions, relationships, health and hidden forms of insecurity",
       "geography": "OECD and EU countries, with cross-national evidence from the 2023 EU-SILC special module and the 2022 Canadian Housing Survey",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "housing exclusion layered pathway shaped poverty markets institutional transitions relationships health hidden housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "housing exclusion layered pathway shaped poverty markets institutional transitions relationships health hidden housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "housing exclusion layered pathway shaped poverty markets institutional transitions relationships health hidden housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-oecd-homelessness-housing-exclusion-linkedin-001.json"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "housing exclusion layered pathway shaped poverty markets institutional transitions relationships health hidden housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-idb-wapes-public-employment-services-2026-digital-shock-transition",
@@ -366,40 +371,40 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Employment transitions depend not only on jobs but on the public-service systems that match, train, protect, and reach people through shocks",
       "geography": "Public employment services across global country systems, with 78 service profiles from 74 countries and comparative policy information",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employment transitions depend not only jobs but public-service systems match train protect public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employment transitions depend not only jobs but public-service systems match train protect public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employment transitions depend not only jobs but public-service systems match train protect public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employment transitions depend not only jobs but public-service systems match train protect public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-idb-world-bank-lac-health-2026-coverage-to-effective-care",
@@ -407,40 +412,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Health-system inclusion is moving from formal coverage toward effective, equitable, and financially protected care",
       "geography": "33 Latin American and Caribbean countries; health systems, households, health workers, older people, and people facing unequal access",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-system inclusion moving formal coverage toward effective equitable financially protected care oecd care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-system inclusion moving formal coverage toward effective equitable financially protected care oecd care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-system inclusion moving formal coverage toward effective equitable financially protected care oecd care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-system inclusion moving formal coverage toward effective equitable financially protected care oecd care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-inclusive-growth-cities-2026-within-city-opportunity-gaps",
@@ -448,40 +453,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "City growth can coexist with concentrated opportunity gaps, making inclusion a productivity, mobility, and legitimacy problem",
       "geography": "More than 600 European Union cities, OECD/EC city policy survey, and selected city interventions including Barcelona, Tromsø, Lisbon, Madrid, Milan, Düsseldorf, Cluj-Napoca, and Stockholm",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "city growth can coexist concentrated opportunity gaps making inclusion productivity mobility legitimacy housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "city growth can coexist concentrated opportunity gaps making inclusion productivity mobility legitimacy housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "city growth can coexist concentrated opportunity gaps making inclusion productivity mobility legitimacy housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "city growth can coexist concentrated opportunity gaps making inclusion productivity mobility legitimacy housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-intergenerational-social-mobility-2026-parental-background-earnings-opportunity",
@@ -489,40 +494,40 @@
       "canonical_theme": "unequal-exposure-status",
       "title": "Opportunity remains patterned by family background, education, gender, and place, making mobility a cumulative systems outcome",
       "geography": "29 mainly advanced economies covered by the OECD Survey of Adult Skills, with country and subgroup comparisons",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "opportunity remains patterned family background education gender place making mobility cumulative systems unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "opportunity remains patterned family background education gender place making mobility cumulative systems unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "opportunity remains patterned family background education gender place making mobility cumulative systems unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "opportunity remains patterned family background education gender place making mobility cumulative systems unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room",
@@ -530,40 +535,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Energy shocks are being absorbed by supply substitution and reserves, but renewed inflation and depleted buffers narrow household and policy room",
       "geography": "Global, G20, OECD, United States, euro area, China, energy markets, firms, governments, and households exposed to energy and inflation shocks",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "energy shocks are being absorbed supply substitution reserves but renewed inflation depleted household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "energy shocks are being absorbed supply substitution reserves but renewed inflation depleted household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "energy shocks are being absorbed supply substitution reserves but renewed inflation depleted household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "energy shocks are being absorbed supply substitution reserves but renewed inflation depleted household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-international-student-mobility-2026-cost-housing-work-retention",
@@ -571,40 +576,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "International student mobility is becoming a negotiated package of affordability, housing, work rights, family life, and post-study belonging",
       "geography": "OECD countries and accession countries; international tertiary students, higher-education systems, housing, labor-market, migration, and family-policy environments",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "international student mobility becoming negotiated package affordability housing work rights family life household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "international student mobility becoming negotiated package affordability housing work rights family life household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "international student mobility becoming negotiated package affordability housing work rights family life household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "international student mobility becoming negotiated package affordability housing work rights family life household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-korea-wellbeing-2026-growth-life-course-social-capital",
@@ -612,40 +617,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Rapid economic and human-capital gains can coexist with fragile youth transition, high work pressure, loneliness, gender barriers, and declining trust",
       "geography": "Republic of Korea, benchmarked against OECD countries and tracked from Korea’s 1996 OECD membership where data allow, with breakdowns by gender, age, and education",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "rapid economic human-capital gains can coexist fragile youth transition high work pressure household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "rapid economic human-capital gains can coexist fragile youth transition high work pressure household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "rapid economic human-capital gains can coexist fragile youth transition high work pressure household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "rapid economic human-capital gains can coexist fragile youth transition high work pressure household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-local-identity-pride-place-transformation-2026",
@@ -653,40 +658,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Place identity is being operationalised as soft infrastructure for economic renewal, belonging, and local legitimacy",
       "geography": "OECD comparative report drawing on place-transformation research, policy practice, and cases across member and partner places",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "place identity being operationalised soft infrastructure economic renewal belonging local legitimacy oecd housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "place identity being operationalised soft infrastructure economic renewal belonging local legitimacy oecd housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "place identity being operationalised soft infrastructure economic renewal belonging local legitimacy oecd housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "place identity being operationalised soft infrastructure economic renewal belonging local legitimacy oecd housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-masculinity-gender-equality-2026-provider-authority-violence",
@@ -694,40 +699,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Provider and authority norms connect gendered work, household control, economic agency, and violence risk",
       "geography": "Côte d'Ivoire and Senegal, with comparative analysis of masculine norms, women’s economic agency, unpaid care, decision-making, and gender-based violence",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "provider authority norms connect gendered work household control economic agency violence risk care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "provider authority norms connect gendered work household control economic agency violence risk care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "provider authority norms connect gendered work household control economic agency violence risk care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "provider authority norms connect gendered work household control economic agency violence risk care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-paraguay-social-protection-financing-informality-2026",
@@ -735,40 +740,40 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Paraguay's social-protection reach is tied to financing design, informality, and whether contributory and non-contributory systems can connect",
       "geography": "Paraguay; workers, self-employed and informal workers, households, older people, health-insurance members, pensioners, and social-assistance recipients",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "paraguay's social-protection reach tied financing design informality whether contributory non-contributory systems can public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "paraguay's social-protection reach tied financing design informality whether contributory non-contributory systems can public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "paraguay's social-protection reach tied financing design informality whether contributory non-contributory systems can public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "paraguay's social-protection reach tied financing design informality whether contributory non-contributory systems can public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-people-budget-2026-fiscal-understanding-legitimacy",
@@ -776,40 +781,40 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "Fiscal repair increasingly depends on whether people can understand, contest, and shape budget trade-offs",
       "geography": "OECD countries and public-finance institutions, drawing on 2024-2025 OECD surveys and comparative institutional analysis",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "fiscal repair increasingly depends whether people can understand contest shape budget trade-offs political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "fiscal repair increasingly depends whether people can understand contest shape budget trade-offs political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "fiscal repair increasingly depends whether people can understand contest shape budget trade-offs political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "fiscal repair increasingly depends whether people can understand contest shape budget trade-offs political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-philippines-productivity-formality-climate-2026",
@@ -817,40 +822,40 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Philippine growth capacity depends on competition, formalization, social protection, and climate adaptation as one institutional package",
       "geography": "Philippines; comparative OECD and regional context",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "philippine growth capacity depends competition formalization social protection climate adaptation one institutional firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "philippine growth capacity depends competition formalization social protection climate adaptation one institutional firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "philippine growth capacity depends competition formalization social protection climate adaptation one institutional firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "philippine growth capacity depends competition formalization social protection climate adaptation one institutional firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-philippines-water-sanitation-regulation-fragmentation-data-2026",
@@ -858,40 +863,40 @@
       "canonical_theme": "ai-work-control",
       "title": "Water security is a governance and information problem before it is only an investment problem",
       "geography": "Philippines, including Metro Manila, local government units, water districts, private and community-based providers, rural and remote island communities",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "water security governance information problem before only investment oecd asia council strengthening ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "water security governance information problem before only investment oecd asia council strengthening ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "water security governance information problem before only investment oecd asia council strengthening ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "water security governance information problem before only investment oecd asia council strengthening ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-pisa-2025-future-ready-students-learning-digital-equity",
@@ -899,40 +904,42 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Education systems are facing simultaneous learning decline, socioeconomic gaps, digital distraction, and pressure to make AI use purposeful",
       "geography": "15-year-old students and education systems across 91 countries and economies, with OECD and non-OECD comparisons",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education systems are facing simultaneous learning decline socioeconomic gaps digital distraction pressure care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education systems are facing simultaneous learning decline socioeconomic gaps digital distraction pressure care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "education systems are facing simultaneous learning decline socioeconomic gaps digital distraction pressure care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-oecd-pisa-digital-learning-ai-linkedin-001.json"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education systems are facing simultaneous learning decline socioeconomic gaps digital distraction pressure care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-private-finance-mobilisation-2026-risk-sector-climate-development",
@@ -940,40 +947,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Public development-finance interventions mobilise private capital, but flows remain concentrated in middle-income markets, infrastructure, and climate mitigation",
       "geography": "Global official development finance reported through the OECD DAC framework, with focus on mobilisation from 2012 to 2024 and the 2021–2024 period",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public development-finance interventions mobilise private capital but flows remain concentrated middle-income markets geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public development-finance interventions mobilise private capital but flows remain concentrated middle-income markets geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public development-finance interventions mobilise private capital but flows remain concentrated middle-income markets geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public development-finance interventions mobilise private capital but flows remain concentrated middle-income markets geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-regional-wellbeing-2026-eleven-dimensions-place-trust-policy-targeting",
@@ -981,40 +988,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Well-being is becoming a place-based policy and trust problem rather than a national average",
       "geography": "OECD regions; the official OECD overview describes comparison across 447 regions, with region definitions and tool versions subject to update",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "well-being becoming place-based policy trust problem rather than national average oecd regional housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "well-being becoming place-based policy trust problem rather than national average oecd regional housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "well-being becoming place-based policy trust problem rather than national average oecd regional housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "well-being becoming place-based policy trust problem rather than national average oecd regional housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-oecd-research-innovation-careers-observatory-2026-talent-mobility-working-conditions",
@@ -1022,41 +1029,41 @@
       "canonical_theme": "ai-work-control",
       "title": "Research and innovation careers are expanding while STEM composition, renewal, mobility, and employment stability reveal uneven future capacity",
       "geography": "OECD countries and major research and innovation systems with comparative talent, mobility, labor-market, and working-condition indicators",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0018",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "research innovation careers are expanding while stem composition renewal mobility employment stability ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "research innovation careers are expanding while stem composition renewal mobility employment stability ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "research innovation careers are expanding while stem composition renewal mobility employment stability ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "research innovation careers are expanding while stem composition renewal mobility employment stability ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     }
   ],
-  "status": "in_review"
+  "status": "closed"
 }
