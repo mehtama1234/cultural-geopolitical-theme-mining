@@ -145,6 +145,8 @@ usable protection.
 
 The next measurement instrument is the [safety-net event ledger](../../templates/US-SAFETY-NET-EVENT-LEDGER_V1.md), which records the same program episode from notice and effort through benefit interruption, household outcomes, interpretation, and public response.
 
+The first ongoing-program social bridge is [public-system usability and public meaning](public-system-social-meaning-bridge-v1.md). It connects the existing USDA, Urban, NBER, and SIPP layers to bounded LinkedIn, Reddit, and X discussion while keeping prevalence, causality, trust, and political action separate.
+
 The [same-episode event-ledger design](same-episode-event-ledger-design-v1.md)
 turns that instrument into a population study: many people, places, channels,
 and program episodes are stratified and compared, so the public-system bridge
