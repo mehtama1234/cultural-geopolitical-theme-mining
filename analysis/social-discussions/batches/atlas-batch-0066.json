@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0066",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "us-nber-geoeconomic-coercion-government-firm-targets-2026",
+    "us-nber-gig-economy-outside-options-labor-supply-2026",
+    "us-nber-guaranteed-income-intrahousehold-dynamics-2026",
+    "us-nber-guaranteed-income-political-attitudes-behavior-2024",
+    "us-nber-head-start-full-day-maternal-work-2026",
+    "us-nber-hepatitis-c-subscription-outcomes-2026",
+    "us-nber-historical-risk-preferences-institutions-2026",
+    "us-nber-home-equity-entrepreneurship-duration-sectors-2015",
+    "us-nber-home-insurance-credit-disaster-risk-affordability-2026",
+    "us-nber-homeless-shelter-public-good-health-crime-2025",
+    "us-nber-homeownership-loss-wealth-consumption-great-recession-2025",
+    "us-nber-hope-vi-forced-relocation-welfare-2026",
+    "us-nber-housing-court-legal-representation-tenant-outcomes-2022",
+    "us-nber-housing-wealth-electoral-participation-2026",
+    "us-nber-hurricane-climate-policy-electoral-accountability-2026",
+    "us-nber-immigrant-earnings-return-migration-2026",
+    "us-nber-immigration-child-mortality-disease-spillovers-2026",
+    "us-nber-immigration-local-demand-supply-place-1980-2024",
+    "us-nber-inflation-cause-beliefs-2024",
+    "us-nber-inflation-information-homeownership-spending-2026",
+    "us-nber-international-power-negotiation-2025",
+    "us-nber-jail-healthcare-accreditation-mortality-2026",
+    "us-nber-job-search-assistance-long-run-homeownership-2018",
+    "us-nber-job-security-mobility-incomplete-markets-2026",
+    "us-nber-k12-ai-diffusion-inequality-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-nber-geoeconomic-coercion-government-firm-targets-2026",
+      "atlas_record_path": "analysis/records/us-nber-geoeconomic-coercion-government-firm-targets-2026.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Geoeconomic coercion can target foreign governments, private firms, or both",
+      "geography": "United States/China-style hegemonic relationships with foreign governments and private firms",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "geoeconomic coercion can target foreign governments private firms both nber working paper geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "geoeconomic coercion can target foreign governments private firms both nber working paper geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "geoeconomic coercion can target foreign governments private firms both nber working paper geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "geoeconomic coercion can target foreign governments private firms both nber working paper geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-gig-economy-outside-options-labor-supply-2026",
+      "atlas_record_path": "analysis/records/us-nber-gig-economy-outside-options-labor-supply-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "A competing platform can give gig workers more leverage over the first platform",
+      "geography": "United States gig-economy drivers; the public abstract does not fully specify the study-area frame",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "competing platform can give gig workers more leverage over first nber working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "competing platform can give gig workers more leverage over first nber working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "competing platform can give gig workers more leverage over first nber working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "competing platform can give gig workers more leverage over first nber working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-guaranteed-income-intrahousehold-dynamics-2026",
+      "atlas_record_path": "analysis/records/us-nber-guaranteed-income-intrahousehold-dynamics-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Cash paid to one person can change the work, care, and relationships of the whole household",
+      "geography": "United States; low-income experiment participants and their household members, with treatment and control groups observed over the experiment period",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "cash paid one person can change work care relationships whole household nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "cash paid one person can change work care relationships whole household nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "cash paid one person can change work care relationships whole household nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "cash paid one person can change work care relationships whole household nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-guaranteed-income-political-attitudes-behavior-2024",
+      "atlas_record_path": "analysis/records/us-nber-guaranteed-income-political-attitudes-behavior-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Large guaranteed-income transfers did not produce the expected political mobilization or trust shift",
+      "geography": "United States; low-income adults enrolled in a randomized guaranteed-income experiment",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "large guaranteed-income transfers did not produce expected political mobilization trust shift nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "large guaranteed-income transfers did not produce expected political mobilization trust shift nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "large guaranteed-income transfers did not produce expected political mobilization trust shift nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "large guaranteed-income transfers did not produce expected political mobilization trust shift nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-head-start-full-day-maternal-work-2026",
+      "atlas_record_path": "analysis/records/us-nber-head-start-full-day-maternal-work-2026.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Extending Head Start hours increased maternal work outcomes in targeted areas",
+      "geography": "United States; Head Start grantees and mothers in treated and untreated areas",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "extending head start hours increased maternal work outcomes targeted areas nber working care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "extending head start hours increased maternal work outcomes targeted areas nber working care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "extending head start hours increased maternal work outcomes targeted areas nber working care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "extending head start hours increased maternal work outcomes targeted areas nber working care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-hepatitis-c-subscription-outcomes-2026",
+      "atlas_record_path": "analysis/records/us-nber-hepatitis-c-subscription-outcomes-2026.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "A Medicaid drug subscription model expanded hepatitis-C treatment and produced measurable health and fiscal outcomes",
+      "geography": "Louisiana Medicaid; Louisiana Hepatitis C Elimination Plan beginning in 2019",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "medicaid drug subscription model expanded hepatitis-c treatment produced measurable health fiscal outcomes care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "medicaid drug subscription model expanded hepatitis-c treatment produced measurable health fiscal outcomes care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "medicaid drug subscription model expanded hepatitis-c treatment produced measurable health fiscal outcomes care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "medicaid drug subscription model expanded hepatitis-c treatment produced measurable health fiscal outcomes care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-historical-risk-preferences-institutions-2026",
+      "atlas_record_path": "analysis/records/us-nber-historical-risk-preferences-institutions-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Historical U.S. risk preferences shaped leverage, institutional participation, and technology adoption",
+      "geography": "United States county-level risk preferences and farmer-level Kansas estimates, 1889-1929",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "historical risk preferences shaped leverage institutional participation technology adoption nber working paper trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "historical risk preferences shaped leverage institutional participation technology adoption nber working paper trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "historical risk preferences shaped leverage institutional participation technology adoption nber working paper trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "historical risk preferences shaped leverage institutional participation technology adoption nber working paper trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-home-equity-entrepreneurship-duration-sectors-2015",
+      "atlas_record_path": "analysis/records/us-nber-home-equity-entrepreneurship-duration-sectors-2015.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Home equity can enable longer-lived and more varied entrepreneurship, but only for a small share of entry",
+      "geography": "United States local entrepreneurship, 1992–2007, with a Texas home-equity-lending reform case",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "home equity can enable longer-lived more varied entrepreneurship but only small share housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "home equity can enable longer-lived more varied entrepreneurship but only small share housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "home equity can enable longer-lived more varied entrepreneurship but only small share housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "home equity can enable longer-lived more varied entrepreneurship but only small share housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-home-insurance-credit-disaster-risk-affordability-2026",
+      "atlas_record_path": "analysis/records/us-nber-home-insurance-credit-disaster-risk-affordability-2026.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "A homeowner's credit record can raise the price of disaster protection alongside physical risk",
+      "geography": "United States homeowners insurance and mortgage-linked policies; credit-pricing natural experiment in Washington State",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "homeowner's credit can raise price disaster protection alongside physical risk nber working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "homeowner's credit can raise price disaster protection alongside physical risk nber working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "homeowner's credit can raise price disaster protection alongside physical risk nber working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "homeowner's credit can raise price disaster protection alongside physical risk nber working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-homeless-shelter-public-good-health-crime-2025",
+      "atlas_record_path": "analysis/records/us-nber-homeless-shelter-public-good-health-crime-2025.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Temporary shelter produces public health and safety benefits without clearly reducing future homelessness",
+      "geography": "Los Angeles County, California, United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "temporary shelter produces public health safety benefits without clearly reducing future homelessness housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "temporary shelter produces public health safety benefits without clearly reducing future homelessness housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "temporary shelter produces public health safety benefits without clearly reducing future homelessness housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "temporary shelter produces public health safety benefits without clearly reducing future homelessness housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-homeownership-loss-wealth-consumption-great-recession-2025",
+      "atlas_record_path": "analysis/records/us-nber-homeownership-loss-wealth-consumption-great-recession-2025.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Preserving homeownership after mortgage distress raised housing wealth without raising consumption",
+      "geography": "United States; homeowners seriously delinquent during the Great Recession and mortgage-modification eligibility",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "preserving homeownership after mortgage distress raised housing wealth without raising consumption nber housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "preserving homeownership after mortgage distress raised housing wealth without raising consumption nber housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "preserving homeownership after mortgage distress raised housing wealth without raising consumption nber housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "preserving homeownership after mortgage distress raised housing wealth without raising consumption nber housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-hope-vi-forced-relocation-welfare-2026",
+      "atlas_record_path": "analysis/records/us-nber-hope-vi-forced-relocation-welfare-2026.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Urban redevelopment can create large displacement losses while vouchers and counseling only partly offset them",
+      "geography": "Chicago public-housing developments affected by HOPE VI demolition and redevelopment",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "urban redevelopment can create large displacement losses while vouchers counseling only partly housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "urban redevelopment can create large displacement losses while vouchers counseling only partly housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "urban redevelopment can create large displacement losses while vouchers counseling only partly housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "urban redevelopment can create large displacement losses while vouchers counseling only partly housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-housing-court-legal-representation-tenant-outcomes-2022",
+      "atlas_record_path": "analysis/records/us-nber-housing-court-legal-representation-tenant-outcomes-2022.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Legal representation changes the immediate housing-court path for poor tenants",
+      "geography": "New York City tenants and housing courts; address-level court data from 2016–2019",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "legal representation changes immediate housing-court path poor tenants nber working paper new consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "legal representation changes immediate housing-court path poor tenants nber working paper new consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "legal representation changes immediate housing-court path poor tenants nber working paper new consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "legal representation changes immediate housing-court path poor tenants nber working paper new consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-housing-wealth-electoral-participation-2026",
+      "atlas_record_path": "analysis/records/us-nber-housing-wealth-electoral-participation-2026.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Homeowners with greater electoral participation also accumulate housing wealth more effectively",
+      "geography": "United States; homeowners and property transactions in a nationwide voter-property dataset",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "homeowners greater electoral participation also accumulate housing wealth more effectively nber working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "homeowners greater electoral participation also accumulate housing wealth more effectively nber working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "homeowners greater electoral participation also accumulate housing wealth more effectively nber working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "homeowners greater electoral participation also accumulate housing wealth more effectively nber working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-hurricane-climate-policy-electoral-accountability-2026",
+      "atlas_record_path": "analysis/records/us-nber-hurricane-climate-policy-electoral-accountability-2026.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Hurricane exposure can move a representative's climate-policy agenda and carry a later electoral cost",
+      "geography": "United States congressional districts affected or not affected by hurricanes, 1989–2014",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "hurricane exposure can move representative's climate-policy agenda carry later electoral cost congressional political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "hurricane exposure can move representative's climate-policy agenda carry later electoral cost congressional political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "hurricane exposure can move representative's climate-policy agenda carry later electoral cost congressional political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "hurricane exposure can move representative's climate-policy agenda carry later electoral cost congressional political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-immigrant-earnings-return-migration-2026",
+      "atlas_record_path": "analysis/records/us-nber-immigrant-earnings-return-migration-2026.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Immigrant earnings assimilation and return migration are separate outcomes",
+      "geography": "United States; immigrant arrival cohorts 1981-2010 and native-born earnings comparison",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "immigrant earnings assimilation return migration are separate outcomes nber working paper using housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "immigrant earnings assimilation return migration are separate outcomes nber working paper using housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "immigrant earnings assimilation return migration are separate outcomes nber working paper using housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "immigrant earnings assimilation return migration are separate outcomes nber working paper using housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-immigration-child-mortality-disease-spillovers-2026",
+      "atlas_record_path": "analysis/records/us-nber-immigration-child-mortality-disease-spillovers-2026.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Historical immigration exposure altered local child mortality through disease-environment spillovers",
+      "geography": "Massachusetts towns during the U.S. Age of Mass Migration, 1860-1915; historical place-level evidence rather than a contemporary national estimate",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "historical immigration exposure altered local child mortality through disease-environment spillovers nber working care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "historical immigration exposure altered local child mortality through disease-environment spillovers nber working care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "historical immigration exposure altered local child mortality through disease-environment spillovers nber working care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "historical immigration exposure altered local child mortality through disease-environment spillovers nber working care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-immigration-local-demand-supply-place-1980-2024",
+      "atlas_record_path": "analysis/records/us-nber-immigration-local-demand-supply-place-1980-2024.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "New residents can add workers and customers, while local housing and public capacity remain separate questions",
+      "geography": "United States; local labor markets and non-traded services in the 1980-2000 Census study, and national U.S. macroeconomic conditions in the 2021-2024 surge study",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "new residents can add workers customers while local housing public capacity remain housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "new residents can add workers customers while local housing public capacity remain housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "new residents can add workers customers while local housing public capacity remain housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "new residents can add workers customers while local housing public capacity remain housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-inflation-cause-beliefs-2024",
+      "atlas_record_path": "analysis/records/us-nber-inflation-cause-beliefs-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "People can agree inflation is harmful while disagreeing about its cause and remedy",
+      "geography": "United States; survey conducted March–May 2024 using the Lucid online platform, with a sample constructed to mirror the U.S. population in 2022",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "people can agree inflation harmful while disagreeing about its cause remedy nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "people can agree inflation harmful while disagreeing about its cause remedy nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "people can agree inflation harmful while disagreeing about its cause remedy nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "people can agree inflation harmful while disagreeing about its cause remedy nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-inflation-information-homeownership-spending-2026",
+      "atlas_record_path": "analysis/records/us-nber-inflation-information-homeownership-spending-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Homeowners and renters translate inflation information into different spending responses",
+      "geography": "United States; household information experiment and homeowner/renter subgroups",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "homeowners renters translate inflation information into different spending responses nber working paper household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "homeowners renters translate inflation information into different spending responses nber working paper household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "homeowners renters translate inflation information into different spending responses nber working paper household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "homeowners renters translate inflation information into different spending responses nber working paper household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-international-power-negotiation-2025",
+      "atlas_record_path": "analysis/records/us-nber-international-power-negotiation-2025.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Asymmetric import dependence can create bargaining power that changes engagement and trade adjustment",
+      "geography": "Global country pairs over roughly the prior 20 years, with implications for U.S.-linked trade and geopolitical dependence treated as comparative context",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "asymmetric import dependence can create bargaining power changes engagement trade adjustment nber geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "asymmetric import dependence can create bargaining power changes engagement trade adjustment nber geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "asymmetric import dependence can create bargaining power changes engagement trade adjustment nber geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "asymmetric import dependence can create bargaining power changes engagement trade adjustment nber geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-jail-healthcare-accreditation-mortality-2026",
+      "atlas_record_path": "analysis/records/us-nber-jail-healthcare-accreditation-mortality-2026.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Voluntary jail healthcare accreditation improves care standards and reduces mortality without added capital or labor inputs",
+      "geography": "United States; 46 midsized jails with average daily populations between 100 and 3,000",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "voluntary jail healthcare accreditation improves care standards reduces mortality without added capital care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "voluntary jail healthcare accreditation improves care standards reduces mortality without added capital care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "voluntary jail healthcare accreditation improves care standards reduces mortality without added capital care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "voluntary jail healthcare accreditation improves care standards reduces mortality without added capital care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-job-search-assistance-long-run-homeownership-2018",
+      "atlas_record_path": "analysis/records/us-nber-job-search-assistance-long-run-homeownership-2018.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Randomized job-search assistance produced long-run employment gains with heterogeneous downside and housing effects",
+      "geography": "Nevada, United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "randomized job-search assistance produced long-run employment gains heterogeneous downside housing effects nber ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "randomized job-search assistance produced long-run employment gains heterogeneous downside housing effects nber ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "randomized job-search assistance produced long-run employment gains heterogeneous downside housing effects nber ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "randomized job-search assistance produced long-run employment gains heterogeneous downside housing effects nber ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-job-security-mobility-incomplete-markets-2026",
+      "atlas_record_path": "analysis/records/us-nber-job-security-mobility-incomplete-markets-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Workers trade wage gains against layoff risk, and incomplete insurance can suppress mobility",
+      "geography": "United States; employed workers and modeled labor market",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "workers trade wage gains against layoff risk incomplete insurance can suppress mobility ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "workers trade wage gains against layoff risk incomplete insurance can suppress mobility ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "workers trade wage gains against layoff risk incomplete insurance can suppress mobility ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "workers trade wage gains against layoff risk incomplete insurance can suppress mobility ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-k12-ai-diffusion-inequality-2026",
+      "atlas_record_path": "analysis/records/us-nber-k12-ai-diffusion-inequality-2026.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "K–12 AI integration is lower in more disadvantaged schools while policy, training, and guidance lag adoption",
+      "geography": "United States; K–12 schools and school-level AI integration",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0066",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "integration lower more disadvantaged schools while policy training guidance lag adoption nber care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "integration lower more disadvantaged schools while policy training guidance lag adoption nber care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "integration lower more disadvantaged schools while policy training guidance lag adoption nber care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "integration lower more disadvantaged schools while policy training guidance lag adoption nber care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
