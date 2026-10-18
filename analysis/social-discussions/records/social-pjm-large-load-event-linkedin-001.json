@@ -1,0 +1,17 @@
+{
+  "record_id": "social-pjm-large-load-event-linkedin-001",
+  "atlas_record_ids": ["us-pjm-large-load-disconnection-response-2026"],
+  "topic": "infrastructure-technology-dependency",
+  "platform": "linkedin",
+  "item_type": "industry_relay_and_reliability_discussion",
+  "author_or_account": "Heather Eason",
+  "title": "Virginia Data Center Load Trip and Grid Reliability",
+  "canonical_url": "https://www.linkedin.com/posts/heather-eason_gridmodernization-datacenters-gridreliability-activity-7493659952805289984-8NFu",
+  "published_window": "2026-09 to 2026-10 (search index: 2 months ago)",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post describes a large Virginia computational-load event and frames it as a grid-planning problem involving power electronics, ride-through standards, and coordination among operators, utilities, regulators, and data-center owners.",
+  "research_anchor_paths": ["analysis/records/us-pjm-large-load-disconnection-response-2026.json"],
+  "linked_research_question": "How should grid operators govern large computational loads after a real operating event moves data-center dependency from forecast risk into response rules?",
+  "classification": ["industry_relay", "reliability_event", "grid_governance", "large_load", "boundary_aware"],
+  "limits": ["The post is a practitioner interpretation of an operating event", "It does not independently verify all event figures", "Search-index date is approximate", "LinkedIn audience is selected"]
+}
