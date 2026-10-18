@@ -1,5 +1,16 @@
 # US broad program next-pass queue v1
 
+**Latest displacement-and-belonging rotation — 2026-10-18:** the [displacement,
+host capacity, livelihood conversion, and belonging audit](projects/cross-domain/displacement-host-capacity-livelihood-belonging-audit-v1.md)
+joins UNHCR global stocks and appeal architecture with World Bank/UNHCR/CEGA
+Kenya panel evidence, UNHCR Uganda livelihood outputs, IOM mobility-development
+analysis, Ipsos/UNHCR attitudes, and bounded discussion. The evidence supports a
+protection-to-capacity gap: status, aid, training, land, and returns do not
+automatically become durable livelihoods, host legitimacy, or genuine choice.
+Next: follow one displaced and one host household in the same place through
+services, work/food/health, belonging, public response, and later recovery,
+return, settlement, or onward movement.
+
 **Latest firm-and-place capacity rotation — 2026-10-18:** the [local firm
 formation, survival, place capacity, and practical access audit](projects/cross-domain/local-firm-formation-survival-place-capacity-audit-v1.md)
 joins NBER application-to-employer transitions, small-firm support crowd-out,
