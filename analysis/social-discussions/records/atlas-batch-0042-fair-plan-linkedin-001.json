@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0042-fair-plan-linkedin-001",
+  "atlas_record_ids": ["us-california-fair-plan-residual-market-growth-2021-2026"],
+  "topic": "housing-place-mobility",
+  "platform": "linkedin",
+  "item_type": "market_interpretation_and_lived_access_signal",
+  "author_or_account": "Scott Fox",
+  "title": "FAIR Plan policy growth slows to 1.9% in Q2 2026",
+  "canonical_url": "https://www.linkedin.com/posts/scott-fox-insurance_california-fair-plan-policy-growth-slowed-activity-7492975213018689536-L-Wt",
+  "published_window": "2026-08",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post interprets slower FAIR Plan growth alongside policies moving back to the regular market, while emphasizing that households may not receive a clear notice that an exit route has opened. It adds an operational and informational-access dimension to residual-market growth.",
+  "research_anchor_paths": ["analysis/records/us-california-fair-plan-residual-market-growth-2021-2026.json"],
+  "linked_research_question": "How does insurance-market retreat or return change household security, information, and the ability to remain in or exit a place?",
+  "classification": ["market_signal", "household_access", "information_asymmetry", "place_security"],
+  "limits": ["The post is a broker/industry interpretation rather than a representative household survey", "The quoted counts require verification against the underlying FAIR Plan release", "Movement between markets does not identify affordability or coverage quality"]
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0042-drop-linkedin-001",
+  "atlas_record_ids": ["us-california-drop-data-broker-deletion-control-2026"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "public_program_announcement_and_reaction",
+  "author_or_account": "California Privacy Protection Agency",
+  "title": "Get ready: New resources for data brokers related to deletion request processing",
+  "canonical_url": "https://www.linkedin.com/posts/calprivacy_get-ready-new-resources-for-data-brokers-activity-7473766613427580929-iSQQ",
+  "published_window": "2026-08",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The regulator's post presents DROP as a centralized deletion route and sets a processing date for data brokers. The social signal is institutional: privacy control becomes more observable through a shared request mechanism, while the post does not establish whether broker-side deletion is durable or complete.",
+  "research_anchor_paths": ["analysis/records/us-california-drop-data-broker-deletion-control-2026.json"],
+  "linked_research_question": "When privacy rights are centralized into one request route, does that create durable consumer control or only a more visible request process?",
+  "classification": ["institutional_signal", "consumer_control", "privacy_governance", "implementation"],
+  "limits": ["An agency announcement does not measure completion rates or broker compliance", "The post does not expose individual user outcomes", "Centralized request submission is not proof of durable deletion"]
+}
