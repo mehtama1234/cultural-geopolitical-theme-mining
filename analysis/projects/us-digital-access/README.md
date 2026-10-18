@@ -18,3 +18,10 @@ shows that FCC adoption is calculated only among households where qualifying
 service is available, and that 2023 adoption at the 100/20 Mbps benchmark was
 about 53% of those households. The same FCC materials show uneven provider
 choice. Price, device, reliability, and meaningful use remain open.
+
+The [digital infrastructure, interoperability, capability, and value-capture
+bridge](digital-infrastructure-interoperability-capability-value-capture-bridge-v1.md)
+extends this access work into international payment rails, digital trade, and
+regional public goods. It separates throughput, active capability, and local
+value capture, and defines the named corridor or payment episode needed for a
+stronger test.
