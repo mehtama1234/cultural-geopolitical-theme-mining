@@ -42,6 +42,8 @@ that hardship caused political action.
 
 ## Evidence routes
 
+The second ongoing-program social bridge is [household pressure, time, care, and social meaning](household-time-care-social-meaning-bridge-v1.md). It connects the ATUS, BLS eldercare, NBER, SHED, SIPP, and MEPS layers to bounded caregiver, childcare, unpaid-work, and health-cost discussion.
+
 - [Constraint-cascade cross-source bridge](constraint-cascade-cross-source-bridge-v1.md)
 - [SIPP same-person constraint-cascade screen](sipp-constraint-cascade-screen-v1.md), with its [machine-readable output](../../records/us-sipp-constraint-cascade-screen-2024.json): utility, tenure, childcare prevention, work, housing, food, and resource endpoints in one adjacent-month frame.
 - [SIPP cascade-screen script](../../../scripts/analyze_sipp_constraint_cascade_screen.py)
