@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-ofcom-news-consumption-ai-linkedin-001",
+  "atlas_record_ids": ["comparative-ofcom-news-consumption-2026-ai-intermediaries-local-trust"],
+  "topic": "platform-exit",
+  "platform": "linkedin",
+  "item_type": "news_discovery_ai_intermediary_discussion",
+  "author_or_account": "Ofcom",
+  "title": "News Consumption 2026",
+  "canonical_url": "https://www.linkedin.com/posts/ofcom_news-consumptions-2026-activity-7505520201124278273-sO7H",
+  "published_window": "2026-10",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "Ofcom describes news discovery as increasingly fragmented across social platforms, creators, influencers, and AI while established providers retain trust and civic seriousness for many audiences.",
+  "research_anchor_paths": ["analysis/records/comparative-ofcom-news-consumption-2026-ai-intermediaries-local-trust.json"],
+  "linked_research_question": "How does intermediary-led news discovery change trust and civic seriousness when audiences still return to established providers?",
+  "classification": ["news_consumption", "ai_intermediaries", "creators", "local_trust", "media_fragmentation"],
+  "limits": ["The post summarizes Ofcom research without providing the full survey tables", "Reported discovery patterns do not establish political effects", "UK findings may not generalize to other media systems"]
+}
