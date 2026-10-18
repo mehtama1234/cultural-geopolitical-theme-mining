@@ -1,5 +1,16 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. industrial rotation — 2026-10-18:** the [labor remedy and
+worker-power audit](projects/cross-domain/us-industrial-labor-remedy-worker-power-audit-v1.md)
+follows a named USMCA ThyssenKrupp matter from petition and U.S. review through
+reported reinstatement, back pay, facility protocols, monitoring, and trade
+response, then anchors it in NLRB demand and NBER labor-power mechanisms. The
+finding is institutional remedy capacity without verified durable worker power:
+receipt, non-retaliation, bargaining, safety, and recurrence remain open. Next:
+seek post-resolution monitoring, worker/union confirmation, later complaints,
+bargaining, safety, scheduling, and repeat-enforcement evidence for the same
+facility, with a matched industrial comparator if available.
+
 **Latest Solar for All implementation rotation — 2026-10-18:** the [credit
 activation, remedy, and persistence audit](projects/cross-domain/solar-for-all-credit-remedy-persistence-audit-v1.md)
 advances the energy chain from reach and capacity to eligibility, Pepco
