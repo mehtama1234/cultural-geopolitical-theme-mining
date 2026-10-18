@@ -60,8 +60,9 @@ Validate the normalized records with:
 python3 scripts/validate_social_discussions.py
 ```
 
-The next waves rotate through the remaining 11 themes according to the
-[coverage plan](long-term-coverage-plan.md), prioritizing open middle stages
-and thin evidence rather than simply collecting popular posts. The first
-normalized records are deliberately small. They preserve links and bounded
-summaries rather than copying full posts or comments.
+The long-term rotation now has a dated social wave or documented platform gap
+for each of the 14 atlas themes. Future waves revisit all themes with new
+groups, places, open arrows, and counterexamples, prioritizing open middle
+stages and thin evidence rather than simply collecting popular posts. The
+normalized records preserve links and bounded summaries rather than copying
+full posts or comments.

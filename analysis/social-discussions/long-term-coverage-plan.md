@@ -53,7 +53,8 @@ Each wave should preserve:
    systems, and cultural meaning where open middle stages are visible.
 3. **Wave 3 — full thematic rotation:** add at least one bounded social wave to
    every remaining theme, preserving platform gaps instead of filling them
-   with weaker material.
+   with weaker material. The first rotation is now complete; later waves
+   should revisit each theme with different groups, places, and open arrows.
 4. **Wave 4 — cross-theme synthesis:** compare recurring language and
    counter-language across themes, while keeping each claim attached to its
    original source, unit, date, and research anchor.
