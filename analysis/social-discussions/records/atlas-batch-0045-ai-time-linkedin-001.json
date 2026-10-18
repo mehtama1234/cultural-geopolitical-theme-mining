@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0045-ai-time-linkedin-001",
+  "atlas_record_ids": ["us-census-htops-ai-work-task-time-savings-2026"],
+  "topic": "ai-work-control",
+  "platform": "linkedin",
+  "item_type": "survey_result_and_operational_interpretation",
+  "author_or_account": "GCM",
+  "title": "AI Saves Workers 1-2 Hours Per Week",
+  "canonical_url": "https://www.linkedin.com/posts/whoisgcm_ai-is-already-giving-workers-measurable-time-activity-7495154824984850432-bKi-",
+  "published_window": "2026-08",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post translates HTOPS time-savings responses into an operational question: whether recovered time becomes capacity, output, or simply more work. It highlights everyday uses such as information search and documentation while leaving open how uneven access and task distribution shape the gains.",
+  "research_anchor_paths": ["analysis/records/us-census-htops-ai-work-task-time-savings-2026.json"],
+  "linked_research_question": "When workers use AI and report time savings, who controls where that time goes and whether it becomes worker relief or organizational capacity?",
+  "classification": ["survey_result", "workplace_control", "time_allocation", "operational_interpretation"],
+  "limits": ["Self-reported time savings are not measured productivity", "The post does not identify worker subgroup differences", "Operational value is an interpretation, not an observed outcome"]
+}

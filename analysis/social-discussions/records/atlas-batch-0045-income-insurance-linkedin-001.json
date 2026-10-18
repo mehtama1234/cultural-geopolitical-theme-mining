@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0045-income-insurance-linkedin-001",
+  "atlas_record_ids": ["us-census-income-poverty-health-insurance-2025"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "official_release_circulation_and_measurement_discussion",
+  "author_or_account": "U.S. Census Bureau",
+  "title": "Income, poverty, and health insurance coverage in 2025",
+  "canonical_url": "https://www.linkedin.com/posts/us-census-bureau_savethedate-income-poverty-activity-7500987233055879168-iRml",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The Census announcement groups the three 2025 releases, making visible that income, poverty, and health insurance are related but separate household-security clocks. The social signal is a public measurement agenda rather than a claim that one headline measure captures lived security.",
+  "research_anchor_paths": ["analysis/records/us-census-income-poverty-health-insurance-2025.json"],
+  "linked_research_question": "How do income, poverty, and insurance measures diverge when describing household security and access to care?",
+  "classification": ["official_release", "measurement_distinction", "household_security", "public_evidence"],
+  "limits": ["The announcement is not a result summary", "It does not expose subgroup findings or audience interpretation", "Separate measures cannot be combined into one causal index without additional analysis"]
+}
