@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-thales-digital-trust-index-linkedin-001",
+  "atlas_record_ids": ["comparative-thales-digital-trust-index-2026-access-friction-ai-autonomy"],
+  "topic": "infrastructure-technology-dependency",
+  "platform": "linkedin",
+  "item_type": "digital_trust_access_friction_discussion",
+  "author_or_account": "Thales Cybersecurity Products",
+  "title": "2026 Digital Trust Index: AI Adoption vs Consumer Confidence",
+  "canonical_url": "https://www.linkedin.com/posts/thalescloudsec_digitaltrust-login-data-activity-7445094797159288832-02gj",
+  "published_window": "2026-07",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "Thales frames digital trust as an access-layer experience shaped by sign-up and login friction, data handling, authentication, AI adoption, and consumer confidence. It presents autonomy and control as conditions for trust in AI acting on users’ behalf.",
+  "research_anchor_paths": ["analysis/records/comparative-thales-digital-trust-index-2026-access-friction-ai-autonomy.json"],
+  "linked_research_question": "How do identity friction, understandable data practices, and AI autonomy shape abandonment and confidence at the point of access?",
+  "classification": ["digital_trust", "access_friction", "authentication", "ai_autonomy", "consumer_confidence"],
+  "limits": ["The post promotes a vendor-produced index", "It does not independently validate the reported consumer outcomes", "Security-product framing may favor authentication and access explanations over broader social trust factors"]
+}
