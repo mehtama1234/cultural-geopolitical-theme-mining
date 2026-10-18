@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0052-fraud-linkedin-001",
+  "atlas_record_ids": ["us-ftc-consumer-sentinel-2025-extension"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "professional_interpretation_and_counter_signal",
+  "author_or_account": "Clark Flynt-Barr",
+  "title": "FTC Reports 24% Increase in Reported Fraud Losses to $15.8B",
+  "canonical_url": "https://www.linkedin.com/posts/clark-flynt-barr_fraud-scam-losses-activity-7445562675025223680-CZRB",
+  "published_window": "2026-07",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post highlights the FTC's reported-loss increase, the concentration of losses in investment and romance scams, and the distinction between reported losses and the much larger unobserved burden. Replies add concern about a possible fourth-quarter reporting dip and emphasize underreporting, turning the official series into a discussion about visibility and measurement limits.",
+  "research_anchor_paths": ["analysis/records/us-ftc-consumer-sentinel-2025-extension.json"],
+  "linked_research_question": "How do public discussions interpret reported fraud growth, underreporting, and possible data-quality breaks when translating administrative loss data into lived risk?",
+  "classification": ["professional_interpretation", "fraud", "underreporting", "measurement_limit", "counter_signal"],
+  "limits": ["Individual professional post and selected replies", "Reply discussion is not a representative victim sample", "Reported-loss estimates cannot establish total incidence", "Public search discovery is not a platform-native Creator/API export"]
+}

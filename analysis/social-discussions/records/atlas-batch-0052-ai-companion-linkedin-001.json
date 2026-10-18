@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0052-ai-companion-linkedin-001",
+  "atlas_record_ids": ["us-ftc-ai-companion-inquiry-2025"],
+  "topic": "platform-exit",
+  "platform": "linkedin",
+  "item_type": "professional_interpretation",
+  "author_or_account": "Mindhive",
+  "title": "AI Companions Linked to Deaths, FTC Inquiry",
+  "canonical_url": "https://www.linkedin.com/posts/mindhive-ai_collectiveintelligence-activity-7495266696249757696-Z8DI",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post interprets the FTC inquiry into child-directed AI companions through accountability, emotional dependence, and retention-design concerns. It frames disclosure as insufficient when no named human owns the advice or outcome, adding a governance and responsibility layer to the atlas record's observation that an inquiry does not itself establish harm.",
+  "research_anchor_paths": ["analysis/records/us-ftc-ai-companion-inquiry-2025.json"],
+  "linked_research_question": "How does public discussion translate an information-gathering inquiry into claims about accountability, child safety, emotional dependence, and platform responsibility?",
+  "classification": ["professional_interpretation", "ai_companions", "child_safety", "accountability", "governance"],
+  "limits": ["Single organizational account", "The post discusses reported risks but does not establish causal harm or prevalence", "LinkedIn search extract is not a complete comment or audience sample", "Public search discovery is not a platform-native Creator/API export"]
+}
