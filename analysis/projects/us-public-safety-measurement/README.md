@@ -16,3 +16,7 @@ make the underlying measures interchangeable.
 The [NCVS/NIBRS comparison](findings/us-public-safety-measurement-001.md)
 shows that the two federal crime measures can move in similar directions while
 using different units, populations, definitions, and reporting paths.
+
+## Current bridge
+
+- [Victim reporting to response, safety, and trust](victim-reporting-response-safety-trust-bridge-v1.md)
