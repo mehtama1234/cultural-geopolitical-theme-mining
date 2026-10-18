@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-eurostat-generative-ai-reddit-001",
+  "atlas_record_ids": ["comparative-eurostat-generative-ai-use-age-purpose-2025"],
+  "topic": "ai-work-control",
+  "platform": "reddit",
+  "item_type": "public_data_discussion",
+  "author_or_account": "r/europe participants; accounts not exposed",
+  "title": "Generative-AI use across Europe by age and purpose",
+  "canonical_url": "https://www.reddit.com/r/MapPorn/comments/1uteuc5/oc_generative_al_use_across_europe_in_2025/",
+  "published_window": "2026-07-11",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The discussion shares Eurostat-based country and age comparisons of generative-AI use and debates whether high adoption reflects substantive capability or low-stakes content creation. It adds an audience interpretation layer to the atlas distinction between use prevalence and purpose.",
+  "research_anchor_paths": ["analysis/records/comparative-eurostat-generative-ai-use-age-purpose-2025.json"],
+  "linked_research_question": "How does generative-AI use vary by age, country, and purpose, and what does prevalence conceal about capability or work use?",
+  "classification": ["public_data_discussion", "AI_adoption", "age_gap", "purpose_boundary"],
+  "limits": ["Discussion is based on a chart and is not primary data collection", "Self-selected audience and comments are not representative", "Interpretations about capability are not measured by the survey"]
+}

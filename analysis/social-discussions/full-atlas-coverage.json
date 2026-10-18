@@ -5250,40 +5250,40 @@
       "canonical_theme": "platform-exit",
       "title": "Enterprise social-media participation is broad but strongly stratified by firm size and country",
       "geography": "European Union; enterprises with 10 or more employees or self-employed persons in covered NACE sections",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "enterprise social-media participation broad but strongly stratified firm size country eurostat survey platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "enterprise social-media participation broad but strongly stratified firm size country eurostat survey platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "enterprise social-media participation broad but strongly stratified firm size country eurostat survey platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "enterprise social-media participation broad but strongly stratified firm size country eurostat survey platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-generative-ai-use-age-purpose-2025",
@@ -5291,40 +5291,42 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Generative-AI use is widespread among younger EU internet users but much less common among older adults and remains purpose-specific",
       "geography": "European Union; individuals aged 16-74 who used the internet in the previous three months",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "generative-ai use widespread among younger internet users but much less common older infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "generative-ai use widespread among younger internet users but much less common older infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-eurostat-generative-ai-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "generative-ai use widespread among younger internet users but much less common older infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "generative-ai use widespread among younger internet users but much less common older infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-hostile-online-content-age-gender-2025",
@@ -5332,40 +5334,40 @@
       "canonical_theme": "platform-exit",
       "title": "Exposure to hostile or degrading online content is concentrated among younger EU users and differs by gender and target",
       "geography": "European Union; internet users aged 16-74",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure hostile degrading online content concentrated among younger users differs gender target platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure hostile degrading online content concentrated among younger users differs gender target platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure hostile degrading online content concentrated among younger users differs gender target platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure hostile degrading online content concentrated among younger users differs gender target platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-household-consumption-2026-essential-culture-transport",
@@ -5373,40 +5375,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "EU household budgets remain concentrated in essentials while cultural, hospitality, education, transport, and communication spending move differently",
       "geography": "European Union aggregate household consumption expenditure, January 2026 compared with January 2025",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household budgets remain concentrated essentials while cultural hospitality education transport communication spending household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household budgets remain concentrated essentials while cultural hospitality education transport communication spending household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household budgets remain concentrated essentials while cultural hospitality education transport communication spending household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household budgets remain concentrated essentials while cultural hospitality education transport communication spending household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-leisure-affordability-2025-holiday-participation-inequality",
@@ -5414,40 +5416,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Cultural and leisure supply remains materially out of reach for many European households despite long-run improvement",
       "geography": "European Union; population aged 16 years and older and EU-SILC respondents across Member States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural leisure supply remains materially out reach many european households despite long-run household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural leisure supply remains materially out reach many european households despite long-run household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural leisure supply remains materially out reach many european households despite long-run household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural leisure supply remains materially out reach many european households despite long-run household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-online-event-ticketing-2025-cultural-access-country-gap",
@@ -5455,40 +5457,40 @@
       "canonical_theme": "platform-exit",
       "title": "Online ticketing is becoming a cultural-access gateway in Europe, but digital purchase rates remain sharply place-stratified",
       "geography": "European Union; individuals across EU Member States purchasing tickets online for cultural or other events",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "online ticketing becoming cultural-access gateway europe but digital purchase rates remain sharply platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "online ticketing becoming cultural-access gateway europe but digital purchase rates remain sharply platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "online ticketing becoming cultural-access gateway europe but digital purchase rates remain sharply platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "online ticketing becoming cultural-access gateway europe but digital purchase rates remain sharply platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-online-event-ticketing-2025-cultural-consumer-gateway",
@@ -5496,40 +5498,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Online event-ticket buying is becoming a cultural-consumer gateway, with wide national access gaps",
       "geography": "European Union and member countries; individuals aged 16 to 74 in the ICT survey universe",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "online event-ticket buying becoming cultural-consumer gateway wide national access gaps eurostat ict trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "online event-ticket buying becoming cultural-consumer gateway wide national access gaps eurostat ict trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "online event-ticket buying becoming cultural-consumer gateway wide national access gaps eurostat ict trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "online event-ticket buying becoming cultural-consumer gateway wide national access gaps eurostat ict trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-paid-streaming-subscriptions-2025-cultural-consumer-access",
@@ -5537,40 +5539,40 @@
       "canonical_theme": "platform-exit",
       "title": "Paid streaming is the dominant online cultural subscription, but access remains geographically uneven",
       "geography": "European Union and member countries; internet users aged 16 to 74 who used the internet in the previous 3 months",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "paid streaming dominant online cultural subscription but access remains geographically uneven eurostat platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "paid streaming dominant online cultural subscription but access remains geographically uneven eurostat platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "paid streaming dominant online cultural subscription but access remains geographically uneven eurostat platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "paid streaming dominant online cultural subscription but access remains geographically uneven eurostat platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-retail-trade-july-2026-food-nonfood-consumer-demand",
@@ -5578,40 +5580,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "EU retail volume softened in July as non-food demand fell while food sales rose",
       "geography": "European Union and euro area; seasonally adjusted retail-trade volume and calendar-adjusted annual comparisons by sector and Member State",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "retail volume softened july non-food demand fell while food sales rose eurostat household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "retail volume softened july non-food demand fell while food sales rose eurostat household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "retail volume softened july non-food demand fell while food sales rose eurostat household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "retail volume softened july non-food demand fell while food sales rose eurostat household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-social-network-use-youth-2025-age-country-gap",
@@ -5619,40 +5621,42 @@
       "canonical_theme": "platform-exit",
       "title": "Social-network use is near-universal among young Europeans, but the age and country gaps reveal different digital social worlds",
       "geography": "European Union; people aged 16-29 and general population aged 16-74 across EU Member States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "social-network use near-universal among young europeans but age country gaps reveal different platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "social-network use near-universal among young europeans but age country gaps reveal different platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "social-network use near-universal among young europeans but age country gaps reveal different platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-eurostat-social-networks-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "social-network use near-universal among young europeans but age country gaps reveal different platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-youth-overcrowding-age-country-2025",
@@ -5660,40 +5664,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Youth cultural and consumer room is constrained by sharply unequal overcrowding across age and place",
       "geography": "European Union; young people aged 15-29 and total population",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth cultural consumer room constrained sharply unequal overcrowding across age place eurostat housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth cultural consumer room constrained sharply unequal overcrowding across age place eurostat housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth cultural consumer room constrained sharply unequal overcrowding across age place eurostat housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth cultural consumer room constrained sharply unequal overcrowding across age place eurostat housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-eurostat-youth-parental-home-exit-employment-2025",
@@ -5701,40 +5705,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Youth household autonomy arrives at very different ages across Europe and tracks employment conditions",
       "geography": "European Union; young people ages 15-34, with employment comparison for ages 20-29",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth household autonomy arrives very different ages across europe tracks employment conditions housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth household autonomy arrives very different ages across europe tracks employment conditions housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth household autonomy arrives very different ages across europe tracks employment conditions housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth household autonomy arrives very different ages across europe tracks employment conditions housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-ey-megatrends-2026-infrastructure-migration-social-trust-resources",
@@ -5742,40 +5746,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Migration, social trust, and frontier resources are becoming coupled infrastructure questions as demographic and technological pressure rises",
       "geography": "Global strategic-foresight framing spanning migration, labor markets, technology investment, trust, critical resources, the Arctic, deep earth and sea, and orbit",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "migration social trust frontier resources are becoming coupled infrastructure questions demographic technological housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "migration social trust frontier resources are becoming coupled infrastructure questions demographic technological housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "migration social trust frontier resources are becoming coupled infrastructure questions demographic technological housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "migration social trust frontier resources are becoming coupled infrastructure questions demographic technological housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-agricultural-commodity-trade-shock-transmission-2026",
@@ -5783,40 +5787,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Food-trade integration expands access and efficiency while making geopolitical, climate, and financial shocks transmit through more connected commodity networks",
       "geography": "Global food and agricultural trade networks, with emphasis on low- and middle-income countries and country vulnerability",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-trade integration expands access efficiency while making geopolitical climate financial shocks transmit geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-trade integration expands access efficiency while making geopolitical climate financial shocks transmit geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-trade integration expands access efficiency while making geopolitical climate financial shocks transmit geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-trade integration expands access efficiency while making geopolitical climate financial shocks transmit geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-cirad-climate-finance-quality-agrifood-2026-equity-governance-local-ownership",
@@ -5824,40 +5828,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Agrifood climate finance is being reframed from a volume problem into a quality, access, governance, and local-ownership problem",
       "geography": "Global agrifood systems, with attention to climate-vulnerable countries, communities, farmers, women, and local institutions",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "agrifood climate finance being reframed volume problem into quality access governance local-ownership geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "agrifood climate finance being reframed volume problem into quality access governance local-ownership geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "agrifood climate finance being reframed volume problem into quality access governance local-ownership geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "agrifood climate finance being reframed volume problem into quality access governance local-ownership geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-food-outlook-2026-geopolitical-weather-fertilizer-import-costs",
@@ -5865,40 +5869,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Food markets remain well supplied in aggregate while weather, conflict, fertilizer, shipping, and import-cost risks make access more fragile",
       "geography": "Global food commodity markets, with commodity, income-group, and trade-route analysis",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food markets remain well supplied aggregate while weather conflict fertilizer shipping import-cost household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food markets remain well supplied aggregate while weather conflict fertilizer shipping import-cost household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food markets remain well supplied aggregate while weather conflict fertilizer shipping import-cost household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food markets remain well supplied aggregate while weather conflict fertilizer shipping import-cost household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-fpma-september-2026-food-price-shocks-household-resilience",
@@ -5906,40 +5910,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Food-price pressure is being rebuilt by weather, conflict, trade logistics, and input risk even when global supply remains historically large",
       "geography": "Global food commodity markets and domestic staple-food prices, with emphasis on developing-country early warning",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-price pressure being rebuilt weather conflict trade logistics input risk even when household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-price pressure being rebuilt weather conflict trade logistics input risk even when household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-price pressure being rebuilt weather conflict trade logistics input risk even when household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-price pressure being rebuilt weather conflict trade logistics input risk even when household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-global-forest-resources-assessment-2025-restoration-livelihoods",
@@ -5947,40 +5951,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Forest loss is slowing but land, commodity, conservation, and community-use pressures remain unevenly distributed",
       "geography": "236 countries and areas, with forest extent, change, condition, management, ownership, use, disturbance, and carbon estimates for 1990-2025",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "forest loss slowing but land commodity conservation community-use pressures remain unevenly distributed household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "forest loss slowing but land commodity conservation community-use pressures remain unevenly distributed household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "forest loss slowing but land commodity conservation community-use pressures remain unevenly distributed household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "forest loss slowing but land commodity conservation community-use pressures remain unevenly distributed household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-healthy-diet-cost-food-security-2026",
@@ -5988,40 +5992,42 @@
       "canonical_theme": "household-room-consumption",
       "title": "Healthy eating is constrained by food-system costs and household affordability, not only by food supply",
       "geography": "Global food systems, with country and regional affordability variation",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "healthy eating constrained food-system costs household affordability not only food supply fao household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "healthy eating constrained food-system costs household affordability not only food supply fao household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "healthy eating constrained food-system costs household affordability not only food supply fao household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-fao-healthy-diet-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "healthy eating constrained food-system costs household affordability not only food supply fao household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-hlpe-food-systems-issues-2026-agency-governance",
@@ -6029,40 +6035,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Food-system risk is being reframed as a governance problem spanning affordability, power, technology, health, and agency",
       "geography": "Global food-security and nutrition system foresight for the CFS strategic and multiyear policy agenda",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-system risk being reframed governance problem spanning affordability power technology health agency household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-system risk being reframed governance problem spanning affordability power technology health agency household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-system risk being reframed governance problem spanning affordability power technology health agency household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food-system risk being reframed governance problem spanning affordability power technology health agency household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-soco-2026-trade-resilience-food-shocks",
@@ -6070,40 +6076,42 @@
       "canonical_theme": "household-room-consumption",
       "title": "Food trade is more interconnected and often resilient to shocks, but conflict, weather, export restrictions, and price spikes transmit instability into food security",
       "geography": "Global food and agricultural trade networks, commodity markets, and food-security consequences of shocks",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food trade more interconnected often resilient shocks but conflict weather export restrictions household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food trade more interconnected often resilient shocks but conflict weather export restrictions household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "food trade more interconnected often resilient shocks but conflict weather export restrictions household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-fao-soco-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "food trade more interconnected often resilient shocks but conflict weather export restrictions household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-sofi-2026-hunger-nutrition-regional-disparities",
@@ -6111,40 +6119,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Modest global food-security gains coexist with high healthy-diet costs, regional disparities, and unequal nutrition exposure",
       "geography": "Global and regional food insecurity, diet quality, nutrition, and healthy-diet affordability estimates",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "modest global food-security gains coexist high healthy-diet costs regional disparities unequal nutrition household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "modest global food-security gains coexist high healthy-diet costs regional disparities unequal nutrition household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "modest global food-security gains coexist high healthy-diet costs regional disparities unequal nutrition household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "modest global food-security gains coexist high healthy-diet costs regional disparities unequal nutrition household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-sofia-2026-aquatic-foods-livelihoods-trade-blue-transformation",
@@ -6152,40 +6160,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Aquatic food production and trade reach new highs while resource health, equity, livelihoods, and value-chain resilience remain contested",
       "geography": "Global marine and inland fisheries, aquaculture, aquatic-food trade, resources, livelihoods, and regional food systems",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aquatic food production trade reach new highs while resource health equity livelihoods household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aquatic food production trade reach new highs while resource health equity livelihoods household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aquatic food production trade reach new highs while resource health equity livelihoods household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aquatic food production trade reach new highs while resource health equity livelihoods household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-status-world-soil-resources-2026-degradation-adoption-resilience",
@@ -6193,40 +6201,40 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Soil degradation is worsening while adoption of proven management practices lags, turning food security and climate resilience into an implementation problem",
       "geography": "Global soils, agricultural land, agrifood systems, and seven FAO Global Soil Partnership regions",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "soil degradation worsening while adoption proven management practices lags turning food security infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "soil degradation worsening while adoption proven management practices lags turning food security infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "soil degradation worsening while adoption proven management practices lags turning food security infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "soil degradation worsening while adoption proven management practices lags turning food security infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-urban-agrifood-systems-framework-2026-city-food-governance",
@@ -6234,40 +6242,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Cities are becoming governing sites for food access, health, livelihoods, and environmental transition across the rural–urban continuum",
       "geography": "Urban and peri-urban agrifood systems, rural–urban continuums, cities, local governments, and food-system actors",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0006",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cities are becoming governing sites food access health livelihoods environmental transition across household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cities are becoming governing sites food access health livelihoods environmental transition across household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cities are becoming governing sites food access health livelihoods environmental transition across household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cities are becoming governing sites food access health livelihoods environmental transition across household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-fao-wfp-global-food-crises-2026-conflict-funding-displacement",
