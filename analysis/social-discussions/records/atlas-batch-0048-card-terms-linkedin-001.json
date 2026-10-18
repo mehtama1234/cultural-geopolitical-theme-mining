@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0048-card-terms-linkedin-001",
+  "atlas_record_ids": ["us-cfpb-tccp-card-terms-2025"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "regulatory_report_interpretation_and_counter_signal",
+  "author_or_account": "Chris Bernstein",
+  "title": "CFPB credit-card market terms and a two-tier credit system",
+  "canonical_url": "https://www.linkedin.com/posts/christopherbernstein_creditcards-financialliteracy-consumerfinance-activity-7415410777589006336-e8vi",
+  "published_window": "2026-04",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post interprets CFPB card-market findings as a split between prime borrowers receiving rewards and lower-score borrowers facing tighter access and higher costs. Replies add a counter-signal that rate caps may reduce access or shift costs into fees, showing how terms, pricing, rewards, and inclusion interact.",
+  "research_anchor_paths": ["analysis/records/us-cfpb-tccp-card-terms-2025.json"],
+  "linked_research_question": "How do card terms, credit-tier pricing, rewards, and dispute exposure distribute financial room and risk across consumers?",
+  "classification": ["consumer_finance", "market_segmentation", "counter_signal", "credit_access"],
+  "limits": ["The post is an interpretation of a CFPB report, not the underlying issuer-level panel", "Replies are not representative borrower opinion", "Policy claims about rate caps are prospective rather than observed outcomes"]
+}

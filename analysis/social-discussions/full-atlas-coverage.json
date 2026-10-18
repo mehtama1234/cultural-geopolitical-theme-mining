@@ -48805,11 +48805,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "publicly offered card terms vary across products apr credit-tier pricing fees rewards household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0048-card-terms-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -48820,7 +48822,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-cfpb-tccp-terms-trend-2024-2025",
@@ -49051,11 +49053,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "chinese dcu supplier hygon described h200 entry intensifying domestic competition responded performance geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0048-hygon-competition-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -49066,7 +49070,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-china-hygon-dcu-kimi-k3-adaptation-deployment-verification-2026",
@@ -49256,11 +49260,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "china initiated anti-dumping investigation into specified analog imports amid export-control dispute chinese geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0048-mofcom-analog-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -49271,7 +49277,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-china-mofcom-h200-shipment-nonconfirmation-2026",
@@ -49338,11 +49344,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "china opened formal anti-discrimination investigation into integrated-circuit measures chinese ministry commerce september geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0048-mofcom-ic-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -49353,7 +49361,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-china-national-supercomputing-internet-kimi-k3-public-api-service-2026",
