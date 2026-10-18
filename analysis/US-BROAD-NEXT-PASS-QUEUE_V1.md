@@ -1,5 +1,15 @@
 # US broad program next-pass queue v1
 
+**Latest firm-and-place capacity rotation — 2026-10-18:** the [local firm
+formation, survival, place capacity, and practical access audit](projects/cross-domain/local-firm-formation-survival-place-capacity-audit-v1.md)
+joins NBER application-to-employer transitions, small-firm support crowd-out,
+disaster-loan survival effects, Gallup business-owner conditions, New York Fed
+firm capacity, Pew place retention, and bounded discussion. The evidence
+supports a formation-to-capacity gap: applications and survival can move without
+durable local service, good jobs, household choice, or belonging. Next: follow
+one firm/place episode through formation, financing, customers, workers,
+service conversion, shock response, survival or relocation, and household access.
+
 **Latest education-and-AI rotation — 2026-10-18:** the [AI in education,
 learning, teacher agency, and equity audit](projects/cross-domain/ai-education-learning-agency-equity-audit-v1.md)
 joins NBER K–12 integration inequality, OECD task-performance versus learning,
