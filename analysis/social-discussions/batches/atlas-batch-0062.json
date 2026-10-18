@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0062",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "us-medical-debt-relief-rct-outcome-separation-2018-2020",
+    "us-meps-2024-between-round-event-transitions",
+    "us-meps-2024-care-delay-adaptation-2024",
+    "us-meps-2024-event-context-by-coverage",
+    "us-meps-2024-event-institutional-friction",
+    "us-meps-2024-event-payment-bands-2024",
+    "us-meps-2024-event-payment-bill-context",
+    "us-meps-2024-financial-room-care-delay-2024",
+    "us-meps-2024-friction-route-direction-comparison",
+    "us-meps-2024-full-year-release-gate",
+    "us-meps-2024-interround-payment-followup",
+    "us-meps-2024-month-ordered-event-followup",
+    "us-meps-2024-prescription-delay-outcomes",
+    "us-meps-dated-medical-event-household-work-2024",
+    "us-meps-panel27-baseline-expenditure-outcomes-2022-2023",
+    "us-meps-panel27-health-cost-longitudinal-2022-2023",
+    "us-meps-prescription-event-six-month-followup-2024",
+    "us-michigan-surveys-consumers-september-2026-sentiment-inflation-purchases",
+    "us-mpi-migration-diplomacy-transactionalism-2026-geopolitical-leverage",
+    "us-multistate-cac-subprime-auto-loan-settlement-2026",
+    "us-mycode-culture360-multicultural-pride-safety-trust-2026",
+    "us-nasbo-state-budget-buffer-adjustment-2026",
+    "us-national-academies-drought-assessment-nonstationarity-2026",
+    "us-national-restaurant-association-consumer-insights-2026-affordability-occasions-k-shaped-spending",
+    "us-nato-airspace-incidents-response-followup-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-medical-debt-relief-rct-outcome-separation-2018-2020",
+      "atlas_record_path": "analysis/records/us-medical-debt-relief-rct-outcome-separation-2018-2020.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Randomized medical-debt relief changes credit access without average health, care-use, or financial-wellness repair",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "randomized medical-debt relief changes credit access without average health care-use financial-wellness repair care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "randomized medical-debt relief changes credit access without average health care-use financial-wellness repair care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "randomized medical-debt relief changes credit access without average health care-use financial-wellness repair care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "randomized medical-debt relief changes credit access without average health care-use financial-wellness repair care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-between-round-event-transitions",
+      "atlas_record_path": "analysis/records/us-meps-2024-between-round-event-transitions.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "MEPS inter-round acute events retain baseline selection in later health and bill context",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "meps inter-round acute events retain baseline selection later health bill context person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "meps inter-round acute events retain baseline selection later health bill context person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "meps inter-round acute events retain baseline selection later health bill context person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "meps inter-round acute events retain baseline selection later health bill context person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-care-delay-adaptation-2024",
+      "atlas_record_path": "analysis/records/us-meps-2024-care-delay-adaptation-2024.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "MEPS 2024 care delay connects to payment strategy, sacrifice, work constraints, and family care context",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "meps care delay connects payment strategy sacrifice work constraints family context person-level care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "meps care delay connects payment strategy sacrifice work constraints family context person-level care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "meps care delay connects payment strategy sacrifice work constraints family context person-level care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "meps care delay connects payment strategy sacrifice work constraints family context person-level care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-event-context-by-coverage",
+      "atlas_record_path": "analysis/records/us-meps-2024-event-context-by-coverage.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Acute-event health and bill context differs by coverage group, but not uniformly",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "acute-event health bill context differs coverage group but not uniformly meps under-65 care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "acute-event health bill context differs coverage group but not uniformly meps under-65 care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "acute-event health bill context differs coverage group but not uniformly meps under-65 care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "acute-event health bill context differs coverage group but not uniformly meps under-65 care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-event-institutional-friction",
+      "atlas_record_path": "analysis/records/us-meps-2024-event-institutional-friction.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "MEPS denial and prior-authorization friction persists across observed care channels",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "meps denial prior-authorization friction persists across observed care channels people first dated care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "meps denial prior-authorization friction persists across observed care channels people first dated care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "meps denial prior-authorization friction persists across observed care channels people first dated care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "meps denial prior-authorization friction persists across observed care channels people first dated care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-event-payment-bands-2024",
+      "atlas_record_path": "analysis/records/us-meps-2024-event-payment-bands-2024.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "MEPS 2024 first-event payment bands separate payment from later bill and health context",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "meps first-event payment bands separate later bill health context person event-family records care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "meps first-event payment bands separate later bill health context person event-family records care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "meps first-event payment bands separate later bill health context person event-family records care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "meps first-event payment bands separate later bill health context person event-family records care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-event-payment-bill-context",
+      "atlas_record_path": "analysis/records/us-meps-2024-event-payment-bill-context.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Observed event payment is not a monotonic measure of annual medical-bill problems",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "observed event payment not monotonic measure annual medical-bill problems meps records linked household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "observed event payment not monotonic measure annual medical-bill problems meps records linked household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "observed event payment not monotonic measure annual medical-bill problems meps records linked household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "observed event payment not monotonic measure annual medical-bill problems meps records linked household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-financial-room-care-delay-2024",
+      "atlas_record_path": "analysis/records/us-meps-2024-financial-room-care-delay-2024.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "MEPS 2024 financial room and medical debt align with cost-related care delay measures",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "meps financial room medical debt align cost-related care delay measures person-level financial-room care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "meps financial room medical debt align cost-related care delay measures person-level financial-room care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "meps financial room medical debt align cost-related care delay measures person-level financial-room care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "meps financial room medical debt align cost-related care delay measures person-level financial-room care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-friction-route-direction-comparison",
+      "atlas_record_path": "analysis/records/us-meps-2024-friction-route-direction-comparison.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "MEPS health-direction patterns differ by institutional friction route",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "meps health-direction patterns differ institutional friction route two separate hc-256 person-level longitudinal care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "meps health-direction patterns differ institutional friction route two separate hc-256 person-level longitudinal care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "meps health-direction patterns differ institutional friction route two separate hc-256 person-level longitudinal care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "meps health-direction patterns differ institutional friction route two separate hc-256 person-level longitudinal care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-full-year-release-gate",
+      "atlas_record_path": "analysis/records/us-meps-2024-full-year-release-gate.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "MEPS 2024 full-year file supplies a newer design-based health-cost vintage",
+      "geography": "United States; civilian noninstitutionalized population",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "meps full-year file supplies newer design-based health-cost vintage ahrq household component consolidated care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "meps full-year file supplies newer design-based health-cost vintage ahrq household component consolidated care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "meps full-year file supplies newer design-based health-cost vintage ahrq household component consolidated care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "meps full-year file supplies newer design-based health-cost vintage ahrq household component consolidated care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-interround-payment-followup",
+      "atlas_record_path": "analysis/records/us-meps-2024-interround-payment-followup.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "MEPS event payment bands do not form a monotonic later-health or bill gradient",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "meps event payment bands not form monotonic later-health bill gradient person records care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "meps event payment bands not form monotonic later-health bill gradient person records care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "meps event payment bands not form monotonic later-health bill gradient person records care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "meps event payment bands not form monotonic later-health bill gradient person records care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-month-ordered-event-followup",
+      "atlas_record_path": "analysis/records/us-meps-2024-month-ordered-event-followup.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "MEPS month-ordered events sharpen health, work, and bill-context selection without identifying recovery",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "meps month-ordered events sharpen health work bill-context selection without identifying recovery person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "meps month-ordered events sharpen health work bill-context selection without identifying recovery person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "meps month-ordered events sharpen health work bill-context selection without identifying recovery person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "meps month-ordered events sharpen health work bill-context selection without identifying recovery person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-2024-prescription-delay-outcomes",
+      "atlas_record_path": "analysis/records/us-meps-2024-prescription-delay-outcomes.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Prescription-delay respondents show distinct same-round health and employment surfaces",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "prescription-delay respondents show distinct same-round health employment surfaces meps hc-256 person valid household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "prescription-delay respondents show distinct same-round health employment surfaces meps hc-256 person valid household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "prescription-delay respondents show distinct same-round health employment surfaces meps hc-256 person valid household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "prescription-delay respondents show distinct same-round health employment surfaces meps hc-256 person valid household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-dated-medical-event-household-work-2024",
+      "atlas_record_path": "analysis/records/us-meps-dated-medical-event-household-work-2024.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Dated medical events expose household and work pressure on different clocks",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "dated medical events expose household work pressure different clocks meps hc-256 hc-036brr care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "dated medical events expose household work pressure different clocks meps hc-256 hc-036brr care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "dated medical events expose household work pressure different clocks meps hc-256 hc-036brr care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "dated medical events expose household work pressure different clocks meps hc-256 hc-036brr care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-panel27-baseline-expenditure-outcomes-2022-2023",
+      "atlas_record_path": "analysis/records/us-meps-panel27-baseline-expenditure-outcomes-2022-2023.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Baseline health expenditure conditions paired health and work outcomes",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "baseline health expenditure conditions paired work outcomes meps panel longitudinal person civilian care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "baseline health expenditure conditions paired work outcomes meps panel longitudinal person civilian care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "baseline health expenditure conditions paired work outcomes meps panel longitudinal person civilian care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "baseline health expenditure conditions paired work outcomes meps panel longitudinal person civilian care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-panel27-health-cost-longitudinal-2022-2023",
+      "atlas_record_path": "analysis/records/us-meps-panel27-health-cost-longitudinal-2022-2023.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Health expenditure and out-of-pocket cost add a longitudinal material-pressure layer",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "health expenditure out-of-pocket cost add longitudinal material-pressure layer meps panel person civilian care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "health expenditure out-of-pocket cost add longitudinal material-pressure layer meps panel person civilian care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "health expenditure out-of-pocket cost add longitudinal material-pressure layer meps panel person civilian care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "health expenditure out-of-pocket cost add longitudinal material-pressure layer meps panel person civilian care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-meps-prescription-event-six-month-followup-2024",
+      "atlas_record_path": "analysis/records/us-meps-prescription-event-six-month-followup-2024.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "A dated prescription event sits beside mixed later health and employment transitions",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "dated prescription event sits beside mixed later health employment transitions meps person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "dated prescription event sits beside mixed later health employment transitions meps person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "dated prescription event sits beside mixed later health employment transitions meps person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "dated prescription event sits beside mixed later health employment transitions meps person care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-michigan-surveys-consumers-september-2026-sentiment-inflation-purchases",
+      "atlas_record_path": "analysis/records/us-michigan-surveys-consumers-september-2026-sentiment-inflation-purchases.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "September consumer sentiment weakened through personal-finance anxiety, higher inflation expectations, and shock-sensitive purchase timing",
+      "geography": "United States; monthly national consumer sentiment release",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "september consumer sentiment weakened through personal-finance anxiety higher inflation expectations shock-sensitive purchase household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "september consumer sentiment weakened through personal-finance anxiety higher inflation expectations shock-sensitive purchase household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "september consumer sentiment weakened through personal-finance anxiety higher inflation expectations shock-sensitive purchase household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "september consumer sentiment weakened through personal-finance anxiety higher inflation expectations shock-sensitive purchase household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-mpi-migration-diplomacy-transactionalism-2026-geopolitical-leverage",
+      "atlas_record_path": "analysis/records/us-mpi-migration-diplomacy-transactionalism-2026-geopolitical-leverage.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Migration is becoming a bargaining instrument linking borders to trade, aid, visas, security, labor, and geopolitical leverage",
+      "geography": "Comparative migration diplomacy with explicit analysis of United States foreign-policy retrenchment, the Americas, Europe, origin, transit, and destination countries",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "migration becoming bargaining instrument linking borders trade aid visas security labor geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "migration becoming bargaining instrument linking borders trade aid visas security labor geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "migration becoming bargaining instrument linking borders trade aid visas security labor geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "migration becoming bargaining instrument linking borders trade aid visas security labor geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-multistate-cac-subprime-auto-loan-settlement-2026",
+      "atlas_record_path": "analysis/records/us-multistate-cac-subprime-auto-loan-settlement-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Auto-loan remedy is shifting from individual repayment failure toward debt relief, disclosure, and early off-ramps",
+      "geography": "United States consumers with qualifying Credit Acceptance Corporation auto loans; multistate settlement",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "auto-loan remedy shifting individual repayment failure toward debt relief disclosure early off-ramps consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "auto-loan remedy shifting individual repayment failure toward debt relief disclosure early off-ramps consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "auto-loan remedy shifting individual repayment failure toward debt relief disclosure early off-ramps consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "auto-loan remedy shifting individual repayment failure toward debt relief disclosure early off-ramps consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-mycode-culture360-multicultural-pride-safety-trust-2026",
+      "atlas_record_path": "analysis/records/us-mycode-culture360-multicultural-pride-safety-trust-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Shared national pride coexists with unequal community safety and a gap between cultural recognition and political trust",
+      "geography": "United States; eligible voters ages 18–64, with Hispanic, Black, AANHPI, and non-multicultural comparison groups",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "shared national pride coexists unequal community safety gap between cultural recognition political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "shared national pride coexists unequal community safety gap between cultural recognition political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "shared national pride coexists unequal community safety gap between cultural recognition political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "shared national pride coexists unequal community safety gap between cultural recognition political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nasbo-state-budget-buffer-adjustment-2026",
+      "atlas_record_path": "analysis/records/us-nasbo-state-budget-buffer-adjustment-2026.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "State budgets can keep growing while using targeted adjustments and prior surplus",
+      "geography": "United States; states, territories, and District of Columbia budget-office survey, with state counts reported for selected items",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "state budgets can keep growing while using targeted adjustments prior surplus national public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "state budgets can keep growing while using targeted adjustments prior surplus national public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "state budgets can keep growing while using targeted adjustments prior surplus national public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "state budgets can keep growing while using targeted adjustments prior surplus national public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-national-academies-drought-assessment-nonstationarity-2026",
+      "atlas_record_path": "analysis/records/us-national-academies-drought-assessment-nonstationarity-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Drought governance is shifting from historical baselines toward nonstationary risk, aridification, and adaptive decision rules",
+      "geography": "United States; drought monitoring, water management, infrastructure, agriculture, public health, ecosystems, and climate adaptation",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "drought governance shifting historical baselines toward nonstationary risk aridification adaptive decision rules infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "drought governance shifting historical baselines toward nonstationary risk aridification adaptive decision rules infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "drought governance shifting historical baselines toward nonstationary risk aridification adaptive decision rules infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "drought governance shifting historical baselines toward nonstationary risk aridification adaptive decision rules infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-national-restaurant-association-consumer-insights-2026-affordability-occasions-k-shaped-spending",
+      "atlas_record_path": "analysis/records/us-national-restaurant-association-consumer-insights-2026-affordability-occasions-k-shaped-spending.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Households under pressure are preserving selected social consumption while trading down, reducing frequency, and widening the consumer divide",
+      "geography": "United States consumers and restaurant operators; third-quarter 2026 consumer-insights tracking",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "households under pressure are preserving selected social consumption while trading down reducing household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "households under pressure are preserving selected social consumption while trading down reducing household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "households under pressure are preserving selected social consumption while trading down reducing household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "households under pressure are preserving selected social consumption while trading down reducing household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nato-airspace-incidents-response-followup-2026",
+      "atlas_record_path": "analysis/records/us-nato-airspace-incidents-response-followup-2026.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Repeated airspace incidents can produce an observable alliance response without proving deterrence",
+      "geography": "Poland, Romania, NATO eastern flank, and Russia-attributed incidents",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0062",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "repeated airspace incidents can produce observable alliance response without proving deterrence nato geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "repeated airspace incidents can produce observable alliance response without proving deterrence nato geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "repeated airspace incidents can produce observable alliance response without proving deterrence nato geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "repeated airspace incidents can produce observable alliance response without proving deterrence nato geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
