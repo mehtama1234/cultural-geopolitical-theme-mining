@@ -115,8 +115,6 @@ findings/housing-place-mobility-wave-003.md.
 | X | New York rent stabilization zoning housing supply 2026 | An X trending summary presented competing frames around rent pressure, supply, zoning, immigration, and neighborhood change; normalized in records/housing-place-x-001.json. | Platform summary, not a direct post sample; underlying claims require verification. |
 | YouTube | housing rent insurance moving neighborhood 2026 | No reproducible, clearly relevant public item was retained in the restricted search. | Recorded as a platform gap; no substitute source was silently used. |
 
-This wave is a bounded signal set, not representative cross-platform evidence.
-
 The seventh Wave 003 topic is unequal exposure and status. Four public items
 were normalized in records/unequal-exposure-linkedin-001.json through
 records/unequal-exposure-x-001.json, and the topic synthesis is in
@@ -128,6 +126,20 @@ findings/unequal-exposure-status-wave-003.md.
 | Reddit | disability workplace accommodation discrimination 2026 | A public thread described a wheelchair accommodation conflict, inaccessible HR route, and peer guidance about documentation; normalized in records/unequal-exposure-reddit-001.json. | Self-selected and unverified account; legal advice is not authoritative. |
 | YouTube | disability healthcare access barriers 2026 | A public access explainer used lived healthcare examples involving facilities, equipment, communication, and provider assumptions; normalized in records/unequal-exposure-youtube-001.json. | Advocacy/education content, not representative prevalence evidence. |
 | X | disability employment inclusion wages safety 2026 | An X trending summary presented inclusion claims alongside caution about wages, safety, individual differences, and hostility; normalized in records/unequal-exposure-x-001.json. | Non-US platform summary, not a direct post sample or US outcome measure. |
+
+This wave is a bounded signal set, not representative cross-platform evidence.
+
+The eighth Wave 003 topic is political judgment and collective action. Three
+usable public items were normalized in records/political-action-linkedin-001.json
+through records/political-action-x-001.json, and the topic synthesis is in
+findings/political-judgment-collective-action-wave-003.md.
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | youth activism decentralized organizing protest 2026 | A CIVICUS post described fast, digital, decentralized youth organizing and the risk of elite capture; normalized in records/political-action-linkedin-001.json. | Global movement framing and organizational audience; no verified policy outcome. |
+| Reddit | local protest organizing voter engagement 2026 | A local meeting thread linked protest review, a site tour, a local-law campaign, phone banking, and elections; normalized in records/political-action-reddit-001.json. | Planned activity is not completed action or policy effect. |
+| X | voter registration hashtag mobilization local elections 2026 | An X trending summary described hashtag and voter-registration mobilization around a non-US local election; normalized in records/political-action-x-001.json. | Platform summary, not direct posts or US turnout evidence. |
+| YouTube | political organizing civic action community 2026 | No reproducible, clearly relevant public item was retained in the restricted search. | Recorded as a platform gap; no substitute source was silently used. |
 
 This wave is a bounded signal set, not representative cross-platform evidence.
 

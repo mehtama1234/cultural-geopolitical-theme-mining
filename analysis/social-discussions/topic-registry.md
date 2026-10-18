@@ -11,6 +11,7 @@ pass of the long-term 14-theme coverage plan.
 | AI companionship and trust | `analysis/projects/us-ai-emotional-support-apps/`; `analysis/projects/us-ai-assistant-platform-choice-trust-privacy-2026/`; `analysis/projects/us-ai-political-advice/` | Is AI described as a tool, confidant, authority, substitute for people, or a system users distrust or cannot easily leave? |
 | Infrastructure, technology, and dependency | `analysis/US-BROAD-INFRASTRUCTURE-TECHNOLOGY-DEPENDENCY-SOURCE-LED-SUBTHEME-MAP_V1.md`; `analysis/US-BROAD-FIRM-SECTOR-MARKET-POWER-SOURCE-LED-SUBTHEME-MAP_V1.md` | How do AI, data centers, energy, water, equipment, finance, and grid constraints become public cost, reliability, and legitimacy questions? |
 | Unequal exposure and status | `analysis/US-BROAD-UNEQUAL-EXPOSURE-STATUS-SOURCE-LED-SUBTHEME-MAP_V1.md`; `analysis/US-BROAD-WORK-SOURCE-LED-SUBTHEME-MAP_V1.md`; `analysis/US-BROAD-CARE-SOURCE-LED-SUBTHEME-MAP_V1.md` | Where do formal rights, status, disability, income, race, place, or institutional position become unequal exposure, treatment, voice, recovery, or usable access? |
+| Political judgment and collective action | `analysis/US-BROAD-CULTURAL-POLITICAL-MEANING-SUBTHEME-SYNTHESIS_V1.md`; `analysis/US-BROAD-PUBLIC-SYSTEMS-SOURCE-LED-SUBTHEME-MAP_V1.md` | When does private pressure or perceived injustice become organizing, protest, voting, lobbying, public demand, institutional response, capture, or withdrawal? |
 
 ## Research-to-discussion bridge
 
