@@ -1,5 +1,13 @@
 # US broad program current-status audit v1
 
+The newest AI-service depth artifact is the [AI customer service, context,
+human fallback, and remedy audit](projects/cross-domain/ai-customer-service-context-remedy-audit-v1.md).
+It joins an HBS/Management Science randomized field experiment with FTC refund
+administration, EU platform review, UK Ombudsman routing, public platform-worker
+remedy records, and bounded discussion. The finding is a context-to-remedy gap:
+faster or more pleasant replies do not by themselves prove restored money,
+access, income, recurrence prevention, or voluntary exit.
+
 The newest geoeconomic depth artifact is the [geoeconomic coercion, firm
 spillovers, household costs, and attribution audit](projects/cross-domain/geoeconomic-coercion-firm-household-attribution-audit-v1.md).
 It joins NBER coercion theory and bilateral trade-risk evidence with Census
@@ -353,7 +361,7 @@ and the gap between wanting connection and regularly participating.
 The registry contains 1975 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
-currently has 2766 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 2767 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 The latest policy-to-price addition is the [World Bank Papua New Guinea food-tax record](records/comparative-world-bank-png-food-tax-exemption-pass-through-incidence-2026.json), which follows tax exemptions, formal and informal market pass-through, rural-urban segmentation, retailer and wholesaler capture, household quintile incidence, expert prediction, cash-transfer comparison, and cost-of-living attribution. It preserves the PNG-specific quasi-experimental, product, market, static-comparison, and non-universal boundaries.
@@ -2355,7 +2363,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 1978 trend records and 5941 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
-families; 2,766 local Markdown links and 1,151 published HTML pages pass link
+families; 2,767 local Markdown links and 1,151 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 229
 connections, 93 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
