@@ -403,7 +403,8 @@ and the gap between wanting connection and regularly participating.
 The registry contains 1975 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
-currently has 2772 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 2774 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
+The newest energy implementation artifact is the [Solar for All credit activation, remedy, and persistence audit](projects/cross-domain/solar-for-all-credit-remedy-persistence-audit-v1.md). It advances the energy rotation from program reach to eligibility, Pepco activation, project-level credit receipt, billing error, proposed remedy, and persistence. The finding is that the program has crossed beyond a design-only stage, but credit receipt is not yet verified net household benefit: dollars, remaining bills, arrears, correction receipt, continuation, and household safety outcomes remain open.
 The newest energy-transition depth artifact is the [energy transition, household affordability, and public legitimacy audit](projects/cross-domain/energy-transition-affordability-household-legitimacy-audit-v1.md). It joins IEA investment and household-cost evidence, World Energy Council integration constraints, Ipsos and Eurobarometer public attitudes, EIA household framing, Census SIPP financial-room and food-sacrifice screens, extreme-heat exposure, a Solar for All conversion case, and bounded discussion. The finding is a capital-to-household conversion gap: investment and clean-energy policy do not automatically become affordable, reliable, controllable service or durable legitimacy.
 of the end-to-end causal arrows.
 
@@ -2406,7 +2407,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 1978 trend records and 5941 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
-families; 2,773 local Markdown links and 1,151 published HTML pages pass link
+families; 2,774 local Markdown links and 1,151 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 229
 connections, 93 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These

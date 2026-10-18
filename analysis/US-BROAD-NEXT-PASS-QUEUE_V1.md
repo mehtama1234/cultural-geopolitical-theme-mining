@@ -1,5 +1,16 @@
 # US broad program next-pass queue v1
 
+**Latest Solar for All implementation rotation — 2026-10-18:** the [credit
+activation, remedy, and persistence audit](projects/cross-domain/solar-for-all-credit-remedy-persistence-audit-v1.md)
+advances the energy chain from reach and capacity to eligibility, Pepco
+activation, project-level monthly credit receipt, billing error, proposed
+error-rate remedy, and continuity conditions. The evidence supports an
+implementation-stage finding: the program is beyond design-only evidence, but
+credit receipt is not verified net household benefit because customer dollars,
+remaining bills, arrears, correction receipt, continuation, and safety outcomes
+remain unobserved. Next: seek a matched de-identified month-by-household or
+account trace and compare renters, movers, arrears, and stable accounts.
+
 **Latest energy-transition rotation — 2026-10-18:** the [energy transition,
 household affordability, and public legitimacy audit](projects/cross-domain/energy-transition-affordability-household-legitimacy-audit-v1.md)
 joins IEA investment and household-cost evidence, World Energy Council integration
