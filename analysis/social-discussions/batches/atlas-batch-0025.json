@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0025",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "comparative-uk-digital-identity-sector-2026-trust-access-market",
+    "comparative-uk-dsit-childrens-online-wellbeing-2026-youth-voice-ai-safety",
+    "comparative-uk-dsit-informal-proxy-digital-support-2026-social-infrastructure",
+    "comparative-uk-financial-ombudsman-2025-26-complaints-routing-uphold-recourse",
+    "comparative-uk-gca-supplier-retailer-code-2026-power-payment-forecasting",
+    "comparative-uk-government-science-global-supply-chains-foresight-2026-network-risk-resilience",
+    "comparative-uk-institute-government-perception-gap-experience-trust-2026",
+    "comparative-uk-ipo-counterfeit-goods-wave5-2026",
+    "comparative-uk-keep-britain-working-health-work-system-2026",
+    "comparative-uk-open-banking-limited-2026-api-payments-users-fraud",
+    "comparative-uk-pathways-work-innovation-fund-co-design-evidence-2026",
+    "comparative-uk-police-foundation-digital-citizen-evidence-surveillance-participation-2026",
+    "comparative-uk-protecting-what-matters-social-cohesion-resilience-2026",
+    "comparative-uk-social-security-education-choice-age-16-2026",
+    "comparative-uk-votes-at-16-youth-political-socialization-2026",
+    "comparative-uk-young-futures-hubs-interim-evaluation-2026-implementation-data",
+    "comparative-un-beyond-gdp-progress-dashboard-2026",
+    "comparative-un-care-support-systems-2026-poverty-dignity-work-family",
+    "comparative-un-cted-propaganda-operational-infrastructure-2026-digital-extremism",
+    "comparative-un-desa-gender-ageing-world-2026-older-women-health-economic-security",
+    "comparative-un-desa-generational-economy-2026-transfers-care-fiscal-capacity",
+    "comparative-un-desa-household-size-composition-2026-living-arrangements-care-capacity",
+    "comparative-un-desa-national-inclusion-accounts-2026-life-course-distribution",
+    "comparative-un-desa-wesp-2026-growth-trade-inflation-fiscal-space",
+    "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "comparative-uk-digital-identity-sector-2026-trust-access-market",
+      "atlas_record_path": "analysis/records/comparative-uk-digital-identity-sector-2026-trust-access-market.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Digital identity is becoming an infrastructure layer for finance, work, public services, and age assurance, while trust and access remain use-case specific",
+      "geography": "United Kingdom digital-identity sector and UK residents aged 18–66 in a weighted November 2025 consumer survey",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "digital identity becoming infrastructure layer finance work public services age assurance while infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "digital identity becoming infrastructure layer finance work public services age assurance while infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "digital identity becoming infrastructure layer finance work public services age assurance while infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "digital identity becoming infrastructure layer finance work public services age assurance while infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-dsit-childrens-online-wellbeing-2026-youth-voice-ai-safety",
+      "atlas_record_path": "analysis/records/comparative-uk-dsit-childrens-online-wellbeing-2026-youth-voice-ai-safety.json",
+      "canonical_theme": "platform-exit",
+      "title": "Young people want social media redesigned and governed rather than simply removed, balancing connection and community against algorithmic pressure, AI risk, and weak trust",
+      "geography": "United Kingdom young people ages 10-21, parents, teachers, youth practitioners, public consultation participants, and youth-led hack events",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "young people want social media redesigned governed rather than simply removed balancing platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "young people want social media redesigned governed rather than simply removed balancing platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "young people want social media redesigned governed rather than simply removed balancing platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "young people want social media redesigned governed rather than simply removed balancing platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-dsit-informal-proxy-digital-support-2026-social-infrastructure",
+      "atlas_record_path": "analysis/records/comparative-uk-dsit-informal-proxy-digital-support-2026-social-infrastructure.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Informal digital help is a hidden social infrastructure: proxy access solves immediate tasks while risking dependence and credential insecurity",
+      "geography": "United Kingdom; adults providing or receiving informal digital support",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "informal digital help hidden social infrastructure proxy access solves immediate tasks while infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "informal digital help hidden social infrastructure proxy access solves immediate tasks while infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "informal digital help hidden social infrastructure proxy access solves immediate tasks while infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "informal digital help hidden social infrastructure proxy access solves immediate tasks while infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-financial-ombudsman-2025-26-complaints-routing-uphold-recourse",
+      "atlas_record_path": "analysis/records/comparative-uk-financial-ombudsman-2025-26-complaints-routing-uphold-recourse.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "A sharp fall in UK financial complaints partly reflects changed access to the ombudsman, not necessarily less consumer harm",
+      "geography": "United Kingdom; complaints referred to the Financial Ombudsman Service and Financial Ombudsman Service for Small Businesses",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sharp fall financial complaints partly reflects changed access ombudsman not necessarily less consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sharp fall financial complaints partly reflects changed access ombudsman not necessarily less consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sharp fall financial complaints partly reflects changed access ombudsman not necessarily less consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sharp fall financial complaints partly reflects changed access ombudsman not necessarily less consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-gca-supplier-retailer-code-2026-power-payment-forecasting",
+      "atlas_record_path": "analysis/records/comparative-uk-gca-supplier-retailer-code-2026-power-payment-forecasting.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "UK grocery-supplier compliance can remain high while retailer processes transfer forecasting, payment and exit risk downstream",
+      "geography": "United Kingdom; suppliers to the 14 designated grocery retailers",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "grocery-supplier compliance can remain high while retailer processes transfer forecasting payment exit firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "grocery-supplier compliance can remain high while retailer processes transfer forecasting payment exit firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "grocery-supplier compliance can remain high while retailer processes transfer forecasting payment exit firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "grocery-supplier compliance can remain high while retailer processes transfer forecasting payment exit firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-government-science-global-supply-chains-foresight-2026-network-risk-resilience",
+      "atlas_record_path": "analysis/records/comparative-uk-government-science-global-supply-chains-foresight-2026-network-risk-resilience.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Supply-chain resilience is a network, climate, geopolitical, and household-affordability problem rather than a bilateral trade problem",
+      "geography": "Global supply networks with a UK exposure lens and comparisons to other large advanced economies, including the United States, China, Japan, France, and Italy",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "supply-chain resilience network climate geopolitical household-affordability problem rather than bilateral trade government geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "supply-chain resilience network climate geopolitical household-affordability problem rather than bilateral trade government geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "supply-chain resilience network climate geopolitical household-affordability problem rather than bilateral trade government geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "supply-chain resilience network climate geopolitical household-affordability problem rather than bilateral trade government geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-institute-government-perception-gap-experience-trust-2026",
+      "atlas_record_path": "analysis/records/comparative-uk-institute-government-perception-gap-experience-trust-2026.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Positive service experience does not automatically become institutional trust: the public separates delivery from whether government acts in its interests",
+      "geography": "England, with regional comparisons and focus groups in the North East and East of England; regional-mayoral areas compared with other areas",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "positive service experience does not automatically become institutional trust public separates delivery public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "positive service experience does not automatically become institutional trust public separates delivery public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "positive service experience does not automatically become institutional trust public separates delivery public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "positive service experience does not automatically become institutional trust public separates delivery public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-ipo-counterfeit-goods-wave5-2026",
+      "atlas_record_path": "analysis/records/comparative-uk-ipo-counterfeit-goods-wave5-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Cost pressure and platform convenience sustain counterfeit purchasing while harm reporting and perceived seriousness remain low",
+      "geography": "United Kingdom adults aged 18+; nationally representative survey with qualitative and communications-testing stages",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "cost pressure platform convenience sustain counterfeit purchasing while harm reporting perceived seriousness consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "cost pressure platform convenience sustain counterfeit purchasing while harm reporting perceived seriousness consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "cost pressure platform convenience sustain counterfeit purchasing while harm reporting perceived seriousness consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "cost pressure platform convenience sustain counterfeit purchasing while harm reporting perceived seriousness consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-keep-britain-working-health-work-system-2026",
+      "atlas_record_path": "analysis/records/comparative-uk-keep-britain-working-health-work-system-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Health-related work loss is being reframed as a workplace-system and data-intelligence problem, not only a welfare or clinical problem",
+      "geography": "United Kingdom; national policy update with regional, employer, sector, and disability-inclusion routes",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "health-related work loss being reframed workplace-system data-intelligence problem not only welfare clinical ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "health-related work loss being reframed workplace-system data-intelligence problem not only welfare clinical ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "health-related work loss being reframed workplace-system data-intelligence problem not only welfare clinical ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "health-related work loss being reframed workplace-system data-intelligence problem not only welfare clinical ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-open-banking-limited-2026-api-payments-users-fraud",
+      "atlas_record_path": "analysis/records/comparative-uk-open-banking-limited-2026-api-payments-users-fraud.json",
+      "canonical_theme": "platform-exit",
+      "title": "UK open banking has moved into routine payment scale while fraud exposure remains concentrated in authorised scams",
+      "geography": "United Kingdom",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "open banking has moved into routine payment scale while fraud exposure remains platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "open banking has moved into routine payment scale while fraud exposure remains platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "open banking has moved into routine payment scale while fraud exposure remains platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "open banking has moved into routine payment scale while fraud exposure remains platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-pathways-work-innovation-fund-co-design-evidence-2026",
+      "atlas_record_path": "analysis/records/comparative-uk-pathways-work-innovation-fund-co-design-evidence-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Employment support is being redesigned as a portfolio of user-informed experiments whose legitimacy depends on learning, accessibility, and scale",
+      "geography": "United Kingdom; UK-wide employment, health, skills, disability, and long-term-condition support innovation fund",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "employment support being redesigned portfolio user-informed experiments whose legitimacy depends learning accessibility ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "employment support being redesigned portfolio user-informed experiments whose legitimacy depends learning accessibility ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "employment support being redesigned portfolio user-informed experiments whose legitimacy depends learning accessibility ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "employment support being redesigned portfolio user-informed experiments whose legitimacy depends learning accessibility ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-police-foundation-digital-citizen-evidence-surveillance-participation-2026",
+      "atlas_record_path": "analysis/records/comparative-uk-police-foundation-digital-citizen-evidence-surveillance-participation-2026.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Consumer surveillance devices are becoming civic evidence infrastructure, but fragmented police response threatens participation and trust",
+      "geography": "United Kingdom; nationally representative YouGov survey of adults, with citizen-owned surveillance technology and evidence-sharing questions",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer surveillance devices are becoming civic evidence infrastructure but fragmented police response public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer surveillance devices are becoming civic evidence infrastructure but fragmented police response public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer surveillance devices are becoming civic evidence infrastructure but fragmented police response public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer surveillance devices are becoming civic evidence infrastructure but fragmented police response public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-protecting-what-matters-social-cohesion-resilience-2026",
+      "atlas_record_path": "analysis/records/comparative-uk-protecting-what-matters-social-cohesion-resilience-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Social cohesion is being reframed as a national-resilience and security capability shaped by place, services, identity, technology, and geopolitical pressure",
+      "geography": "United Kingdom social-cohesion, integration, community-resilience, online-safety, and national-security policy",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "social cohesion being reframed national-resilience security capability shaped place services identity technology trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "social cohesion being reframed national-resilience security capability shaped place services identity technology trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "social cohesion being reframed national-resilience security capability shaped place services identity technology trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "social cohesion being reframed national-resilience security capability shaped place services identity technology trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-social-security-education-choice-age-16-2026",
+      "atlas_record_path": "analysis/records/comparative-uk-social-security-education-choice-age-16-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Social-security design can steer young people and households toward or away from culturally valued education and vocational pathways",
+      "geography": "England, with UK and international comparison of post-16 participation, benefits, apprenticeships, and monitoring systems",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "social-security design can steer young people households toward away culturally valued education household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "social-security design can steer young people households toward away culturally valued education household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "social-security design can steer young people households toward away culturally valued education household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "social-security design can steer young people households toward away culturally valued education household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-votes-at-16-youth-political-socialization-2026",
+      "atlas_record_path": "analysis/records/comparative-uk-votes-at-16-youth-political-socialization-2026.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Young people distinguish trust in elections from distrust of politicians while seeking earlier voice and better civic preparation",
+      "geography": "United Kingdom; young people aged 14–17 across England, Wales, Scotland, and Northern Ireland",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "young people distinguish trust elections distrust politicians while seeking earlier voice better political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "young people distinguish trust elections distrust politicians while seeking earlier voice better political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "young people distinguish trust elections distrust politicians while seeking earlier voice better political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "young people distinguish trust elections distrust politicians while seeking earlier voice better political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-young-futures-hubs-interim-evaluation-2026-implementation-data",
+      "atlas_record_path": "analysis/records/comparative-uk-young-futures-hubs-interim-evaluation-2026-implementation-data.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Youth hubs can connect open access to targeted support, but partnership time and data infrastructure determine whether reach becomes durable outcome",
+      "geography": "England; eight Young Futures Hubs Early Adopter sites",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "youth hubs can connect open access targeted support but partnership time data public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "youth hubs can connect open access targeted support but partnership time data public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "youth hubs can connect open access targeted support but partnership time data public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "youth hubs can connect open access targeted support but partnership time data public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-un-beyond-gdp-progress-dashboard-2026",
+      "atlas_record_path": "analysis/records/comparative-un-beyond-gdp-progress-dashboard-2026.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Global policy institutions are shifting from GDP-only progress toward dashboards that measure well-being, equity, sustainability, resilience, and social cohesion",
+      "geography": "Global framework for country-owned and universally applicable progress indicators, with UNCTAD implementation and pilot context",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "global policy institutions are shifting gdp-only progress toward dashboards measure well-being equity political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "global policy institutions are shifting gdp-only progress toward dashboards measure well-being equity political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "global policy institutions are shifting gdp-only progress toward dashboards measure well-being equity political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "global policy institutions are shifting gdp-only progress toward dashboards measure well-being equity political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-un-care-support-systems-2026-poverty-dignity-work-family",
+      "atlas_record_path": "analysis/records/comparative-un-care-support-systems-2026-poverty-dignity-work-family.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Care is emerging as foundational social infrastructure: it converts household vulnerability into participation, security, and dignity",
+      "geography": "Global; national experiences and international evidence reviewed for the Commission for Social Development",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "care emerging foundational social infrastructure converts household vulnerability into participation security dignity care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "care emerging foundational social infrastructure converts household vulnerability into participation security dignity care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "care emerging foundational social infrastructure converts household vulnerability into participation security dignity care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "care emerging foundational social infrastructure converts household vulnerability into participation security dignity care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-un-cted-propaganda-operational-infrastructure-2026-digital-extremism",
+      "atlas_record_path": "analysis/records/comparative-un-cted-propaganda-operational-infrastructure-2026-digital-extremism.json",
+      "canonical_theme": "platform-exit",
+      "title": "Digital propaganda is becoming operational infrastructure for extremist recruitment, finance, coordination, and claims to authority",
+      "geography": "Global digital ecosystems, with analysis of terrorist groups operating in Africa and Central and South Asia",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "digital propaganda becoming operational infrastructure extremist recruitment finance coordination claims authority security platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "digital propaganda becoming operational infrastructure extremist recruitment finance coordination claims authority security platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "digital propaganda becoming operational infrastructure extremist recruitment finance coordination claims authority security platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "digital propaganda becoming operational infrastructure extremist recruitment finance coordination claims authority security platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-un-desa-gender-ageing-world-2026-older-women-health-economic-security",
+      "atlas_record_path": "analysis/records/comparative-un-desa-gender-ageing-world-2026-older-women-health-economic-security.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Population ageing is increasingly a women’s issue: longer lives coexist with poorer late-life health, care burdens, and economic insecurity",
+      "geography": "Global population ageing, with comparisons across income groups and policy implications for older women, health, social protection, care, and economic participation",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "population ageing increasingly women issue longer lives coexist poorer late-life health care care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "population ageing increasingly women issue longer lives coexist poorer late-life health care care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "population ageing increasingly women issue longer lives coexist poorer late-life health care care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "population ageing increasingly women issue longer lives coexist poorer late-life health care care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-un-desa-generational-economy-2026-transfers-care-fiscal-capacity",
+      "atlas_record_path": "analysis/records/comparative-un-desa-generational-economy-2026-transfers-care-fiscal-capacity.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "The hidden generational economy links paid production, public transfers, unpaid care, and fiscal sustainability across the life course",
+      "geography": "Global demographic and social systems, with examples and methodological applications spanning low-, middle-, and high-income countries",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "hidden generational economy links paid production public transfers unpaid care fiscal sustainability care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "hidden generational economy links paid production public transfers unpaid care fiscal sustainability care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "hidden generational economy links paid production public transfers unpaid care fiscal sustainability care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "hidden generational economy links paid production public transfers unpaid care fiscal sustainability care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-un-desa-household-size-composition-2026-living-arrangements-care-capacity",
+      "atlas_record_path": "analysis/records/comparative-un-desa-household-size-composition-2026-living-arrangements-care-capacity.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Household size and living arrangements reveal how demographic change is redistributed through intergenerational care, co-residence, and social infrastructure",
+      "geography": "200 countries and areas representing approximately 98 percent of the world population, with estimates based on sources dated 1959–2025 and processing through 30 June 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household size living arrangements reveal how demographic change redistributed through intergenerational care care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household size living arrangements reveal how demographic change redistributed through intergenerational care care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household size living arrangements reveal how demographic change redistributed through intergenerational care care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household size living arrangements reveal how demographic change redistributed through intergenerational care care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-un-desa-national-inclusion-accounts-2026-life-course-distribution",
+      "atlas_record_path": "analysis/records/comparative-un-desa-national-inclusion-accounts-2026-life-course-distribution.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "National averages can be decomposed into age, education, income, and family-specific resource flows",
+      "geography": "Global methodological framework with pilot and institutional contributions from Colombia, Costa Rica, Jamaica, Lao PDR, Malaysia, Maldives, Uruguay, and Viet Nam",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "national averages can decomposed into age education income family-specific resource flows nations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "national averages can decomposed into age education income family-specific resource flows nations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "national averages can decomposed into age education income family-specific resource flows nations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "national averages can decomposed into age education income family-specific resource flows nations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-un-desa-wesp-2026-growth-trade-inflation-fiscal-space",
+      "atlas_record_path": "analysis/records/comparative-un-desa-wesp-2026-growth-trade-inflation-fiscal-space.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Slower and more uneven global growth is transmitting through trade, prices, debt, investment, and fiscal space into household and social vulnerability",
+      "geography": "Global economy with regional outlooks for major economies and regions; 2026 forecasts and 2025 context",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "slower more uneven global growth transmitting through trade prices debt investment fiscal geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "slower more uneven global growth transmitting through trade prices debt investment fiscal geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "slower more uneven global growth transmitting through trade prices debt investment fiscal geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "slower more uneven global growth transmitting through trade prices debt investment fiscal geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock",
+      "atlas_record_path": "analysis/records/comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "A geopolitical energy shock is compressing global growth, reigniting inflation, and narrowing fiscal room for social and development responses",
+      "geography": "Global economy, energy markets, trade tensions, and national fiscal space",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0025",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "geopolitical energy shock compressing global growth reigniting inflation narrowing fiscal room social geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "geopolitical energy shock compressing global growth reigniting inflation narrowing fiscal room social geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "geopolitical energy shock compressing global growth reigniting inflation narrowing fiscal room social geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "geopolitical energy shock compressing global growth reigniting inflation narrowing fiscal room social geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
