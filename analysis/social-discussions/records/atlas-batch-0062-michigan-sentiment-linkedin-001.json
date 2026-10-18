@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0062-michigan-sentiment-linkedin-001",
+  "atlas_record_ids": ["us-michigan-surveys-consumers-september-2026-sentiment-inflation-purchases"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "professional_interpretation",
+  "author_or_account": "Patrick S. Duffy / MetroIntelligence",
+  "title": "Business Booms, Consumers Worry About Inflation",
+  "canonical_url": "https://www.linkedin.com/posts/metrointelligence_consumersentiment-consumerconfidence-universityofmichigan-activity-7509306860349472769-yF_9",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post contrasts strong business activity with falling consumer sentiment, higher inflation expectations, and political differences in economic outlook. It treats the divergence between what businesses report and what households feel as the central signal, rather than assuming one aggregate economy speaks for both.",
+  "research_anchor_paths": ["analysis/records/us-michigan-surveys-consumers-september-2026-sentiment-inflation-purchases.json"],
+  "linked_research_question": "How do public interpretations connect inflation expectations, political identity, household purchasing power, and the gap between macro activity and lived confidence?",
+  "classification": ["professional_interpretation", "consumer-sentiment", "inflation-expectations", "political-difference", "macro-lived-gap"],
+  "limits": ["Individual market-analysis post", "The post compares separate surveys rather than showing a same-person panel", "Sentiment does not equal realized spending", "Public search discovery is not a platform-native Creator/API export"]
+}

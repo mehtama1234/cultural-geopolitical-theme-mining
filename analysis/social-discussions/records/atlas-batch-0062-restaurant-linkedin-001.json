@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0062-restaurant-linkedin-001",
+  "atlas_record_ids": ["us-national-restaurant-association-consumer-insights-2026-affordability-occasions-k-shaped-spending"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "industry_interpretation_and_lived-pressure_signal",
+  "author_or_account": "CORE / The Culinary Edge",
+  "title": "Every Spend Is Under Scrutiny: Restaurant Occasions in 2026",
+  "canonical_url": "https://www.linkedin.com/posts/coreawayfromhome_every-spend-is-under-scrutiny-at-the-activity-7470867544384454657-we95",
+  "published_window": "2026-06",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The discussion describes a K-shaped consumption pattern: functional restaurant occasions are traded toward cheaper grocery or beverage channels, while emotionally satisfying or ritual occasions survive when they feel worth the price. It adds a lived-value mechanism beneath the atlas record's affordability and occasion segmentation.",
+  "research_anchor_paths": ["analysis/records/us-national-restaurant-association-consumer-insights-2026-affordability-occasions-k-shaped-spending.json"],
+  "linked_research_question": "How do households under pressure distinguish replaceable food spending from social, ritual, or emotionally valuable occasions?",
+  "classification": ["industry_interpretation", "lived-pressure-signal", "k-shaped-spending", "occasion-tradeoff", "social-consumption"],
+  "limits": ["Industry consultancy discussion and transcript", "The discussion is not a representative household sample", "Occasion claims are interpretive rather than causal", "Public search discovery is not a platform-native Creator/API export"]
+}
