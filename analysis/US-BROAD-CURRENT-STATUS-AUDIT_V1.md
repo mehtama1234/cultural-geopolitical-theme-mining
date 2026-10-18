@@ -26,6 +26,14 @@ options. The current evidence supports a conversion gap: measurable AI use or
 productivity can arrive before worker discretion, bargaining power, durable
 earnings, or household security are observed.
 
+The newest housing-risk depth artifact is the [property shock, repair,
+staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md).
+It compares wildfire destruction, FEMA housing assistance, eviction orders,
+rental-assistance lotteries, insurance pricing, mortgage lock-in, and housing
+robustness. The evidence shows that a payment, repair route, or formal housing
+intervention can improve one stage while safe occupancy, return, mobility,
+household security, and durable place attachment remain unknown.
+
 The newest consumer-data depth artifact is the [privacy-request completion,
 persistence, and exit bridge](projects/us-retailer-privacy-control/privacy-request-completion-persistence-exit-bridge-v1.md).
 It compares Walmart's company-reported request stages with California's
@@ -301,7 +309,7 @@ and the gap between wanting connection and regularly participating.
 The registry contains 1975 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
-currently has 2760 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 2761 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 The latest policy-to-price addition is the [World Bank Papua New Guinea food-tax record](records/comparative-world-bank-png-food-tax-exemption-pass-through-incidence-2026.json), which follows tax exemptions, formal and informal market pass-through, rural-urban segmentation, retailer and wholesaler capture, household quintile incidence, expert prediction, cash-transfer comparison, and cost-of-living attribution. It preserves the PNG-specific quasi-experimental, product, market, static-comparison, and non-universal boundaries.
@@ -2303,7 +2311,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 1978 trend records and 5941 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
-families; 2,760 local Markdown links and 1,151 published HTML pages pass link
+families; 2,761 local Markdown links and 1,151 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 229
 connections, 93 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
