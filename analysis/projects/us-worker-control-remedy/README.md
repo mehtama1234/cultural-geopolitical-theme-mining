@@ -38,6 +38,12 @@ measured AI productivity, algorithmic-management exposure, formal rights, and
 the one dated reactivation case. It preserves the gap between faster work,
 formal review, received remedy, and durable worker power.
 
+The [AI work transition stage audit](ai-work-transition-stage-audit-v1.md)
+extends the lane with randomized time effects, task-level adoption, firm
+expectations, worker displacement concern, training returns, and bounded public
+discussion. It keeps adoption, employer expectation, worker interpretation,
+formal preparation, remedy, and later security as separate stages.
+
 ## Next test
 
 The next qualifying record is a protected same-worker or workplace episode with
