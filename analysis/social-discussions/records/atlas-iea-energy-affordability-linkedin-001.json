@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-iea-energy-affordability-linkedin-001",
+  "atlas_record_ids": ["comparative-iea-household-energy-affordability-2026"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "energy_policy_method_discussion",
+  "author_or_account": "Canan Acar",
+  "title": "Household energy affordability requires multidimensional measurement",
+  "canonical_url": "https://www.linkedin.com/posts/cananacar_household-energy-affordability-activity-7491761875467038721-0Fqy",
+  "published_window": "2026-09-07",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post discusses the IEA framework’s distinction between income, energy expenditure, and energy efficiency, while adding housing quality, geography, and household characteristics. It also highlights the gap between measuring bill payment and measuring whether households can afford upfront efficiency improvements.",
+  "research_anchor_paths": ["analysis/records/comparative-iea-household-energy-affordability-2026.json"],
+  "linked_research_question": "How should household energy affordability be measured across cost, infrastructure, health, and policy-targeting dimensions?",
+  "classification": ["energy_affordability", "measurement", "household_cost", "efficiency"],
+  "limits": ["Post is an interpretation of an IEA framework", "It does not provide household microdata", "Measurement dimensions do not themselves establish policy effects"]
+}
