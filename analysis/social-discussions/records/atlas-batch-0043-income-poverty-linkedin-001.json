@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0043-income-poverty-linkedin-001",
+  "atlas_record_ids": ["us-census-2025-income-poverty-insurance-divergence"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "official_statistic_interpretation_and_policy_discussion",
+  "author_or_account": "Lisa Gennetian",
+  "title": "Poverty in the United States: 2025",
+  "canonical_url": "https://www.linkedin.com/posts/lisa-gennetian-b8b583322_poverty-in-the-united-states-2025-activity-7505648548550737920-_JKn",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post distinguishes a historically low official child-poverty measure from a supplemental measure that did not meaningfully change, emphasizing work, childcare, medical costs, tax credits, and benefits. It translates measurement divergence into a social discussion about whether income gains become usable household security.",
+  "research_anchor_paths": ["analysis/records/us-census-2025-income-poverty-insurance-divergence.json"],
+  "linked_research_question": "When headline income and poverty improve, what happens to household security once taxes, benefits, work costs, medical costs, and insurance are included?",
+  "classification": ["official_statistic", "measurement_distinction", "household_burden", "policy_discussion"],
+  "limits": ["The post is an expert interpretation of Census releases", "It focuses on child poverty and does not represent all household groups", "The discussion does not establish causal effects of any single policy"]
+}

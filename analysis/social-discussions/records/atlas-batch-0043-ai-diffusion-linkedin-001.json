@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0043-ai-diffusion-linkedin-001",
+  "atlas_record_ids": ["us-census-ai-diffusion-firm-function-task-2026"],
+  "topic": "ai-work-control",
+  "platform": "linkedin",
+  "item_type": "research_interpretation_and_audience_reaction",
+  "author_or_account": "Toqeer Ahmed",
+  "title": "How many business functions make a company an AI adopter? One.",
+  "canonical_url": "https://www.linkedin.com/posts/itoqeerahmed_how-many-business-functions-make-a-company-activity-7502712049559334914-R6ha",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post challenges binary AI-adoption counts by separating firm adoption, business-function breadth, worker task use, weighting, and question wording. Replies preserve an important counter-signal: broader deployment correlates with employment change but does not by itself prove headcount reduction.",
+  "research_anchor_paths": ["analysis/records/us-census-ai-diffusion-firm-function-task-2026.json"],
+  "linked_research_question": "How does AI adoption alter work and control when firm-level use, business-function deployment, and worker-task use are measured as different layers?",
+  "classification": ["research_interpretation", "measurement_distinction", "counter_signal", "workplace_control"],
+  "limits": ["The post interprets survey estimates rather than reporting measured productivity or causal effects", "Audience reactions are not representative firm opinion", "Correlation between deployment breadth and employment change is not causal proof"]
+}

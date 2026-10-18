@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0043-ai-graduates-linkedin-001",
+  "atlas_record_ids": ["us-census-ai-exposed-college-graduate-entry-disruption-2026"],
+  "topic": "ai-work-control",
+  "platform": "linkedin",
+  "item_type": "research_release_and_audience_reaction",
+  "author_or_account": "Rajneesh Sharma; Lee Tucker, Senior Economist, U.S. Census Bureau",
+  "title": "AI Exposure Hits New College Grads Hardest in Job Market",
+  "canonical_url": "https://www.linkedin.com/posts/therajneeshsharma_aiexposedmajors-collegegrademployment-activity-7511903593864593408-qsGL",
+  "published_window": "2026-10",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post and researcher reply discuss weaker initial employment and earnings for graduates from highly AI-exposed majors, industry switching, and persistence at the top of the exposure distribution. The audience framing turns an empirical result into questions about degree choice, advising, and who bears transition risk.",
+  "research_anchor_paths": ["analysis/records/us-census-ai-exposed-college-graduate-entry-disruption-2026.json"],
+  "linked_research_question": "How does AI-mediated labor-market change redistribute entry opportunities, earnings, and institutional responsibility for young graduates?",
+  "classification": ["research_release", "early_career", "labor_market", "institutional_responsibility", "audience_reaction"],
+  "limits": ["The post summarizes a working paper and is not the underlying microdata", "Exposure by major does not mean every graduate performs AI-exposed work", "The observed post-ChatGPT divergence does not identify every causal mechanism"]
+}
