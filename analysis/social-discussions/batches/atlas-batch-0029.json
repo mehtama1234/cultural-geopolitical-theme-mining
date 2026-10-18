@@ -2,7 +2,8 @@
   "schema": "social-augmentation-batch-v1",
   "batch_id": "atlas-batch-0029",
   "opened": "2026-10-18",
-  "window": "2025-10-17 through 2026-10-17",
+  "closed": "2026-10-18",
+  "window": "2025-10-18 through 2026-10-18",
   "record_count": 25,
   "atlas_record_ids": [
     "comparative-unep-global-environment-outlook-7-climate-nature-pollution-consumption",
@@ -38,40 +39,42 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Climate, nature, land, pollution, and consumption pressures are converging into a planetary-health and economic-choice problem",
       "geography": "Global environmental assessment prepared by 287 scientists from 82 countries with more than 800 reviewers",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate nature land pollution consumption pressures are converging into planetary-health economic-choice problem infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate nature land pollution consumption pressures are converging into planetary-health economic-choice problem infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "climate nature land pollution consumption pressures are converging into planetary-health economic-choice problem infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0029-geo7-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate nature land pollution consumption pressures are converging into planetary-health economic-choice problem infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unep-global-resources-consumption-2024",
@@ -79,40 +82,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Material consumption is rising faster than ecological capacity, with high-income demand and built-environment systems driving unequal impacts",
       "geography": "Global; resource-use, material-footprint, income-group, regional, sectoral, and scenario comparisons as specified by the report",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "material consumption rising faster than ecological capacity high-income demand built-environment systems driving household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "material consumption rising faster than ecological capacity high-income demand built-environment systems driving household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "material consumption rising faster than ecological capacity high-income demand built-environment systems driving household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "material consumption rising faster than ecological capacity high-income demand built-environment systems driving household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unep-globalabc-buildings-construction-2025-2026-emissions-affordability-investment",
@@ -120,40 +123,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Buildings are a high-emissions economic system whose transition depends on affordability, codes, materials, and investment",
       "geography": "Global buildings and construction sector, including construction, renovation, demolition, engineering, building operations, policy, technology, and investment",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "buildings are high-emissions economic system whose transition depends affordability codes materials investment household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "buildings are high-emissions economic system whose transition depends affordability codes materials investment household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "buildings are high-emissions economic system whose transition depends affordability codes materials investment household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "buildings are high-emissions economic system whose transition depends affordability codes materials investment household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unep-limiting-overshoot-2026-climate-risk-adaptation-return",
@@ -161,40 +164,40 @@
       "canonical_theme": "unequal-exposure-status",
       "title": "Climate policy is entering an overshoot era where mitigation, adaptation, vulnerability reduction, and rapid return pathways must advance together",
       "geography": "Global climate pathways, societies, economies, ecosystems, and communities exposed to warming overshoot",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate policy entering overshoot era where mitigation adaptation vulnerability reduction rapid return unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate policy entering overshoot era where mitigation adaptation vulnerability reduction rapid return unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate policy entering overshoot era where mitigation adaptation vulnerability reduction rapid return unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate policy entering overshoot era where mitigation adaptation vulnerability reduction rapid return unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unep-state-finance-nature-2026-harmful-flows-transition",
@@ -202,40 +205,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Nature finance is dwarfed by harmful financial flows, making the ecological transition a capital-allocation and political-economy problem",
       "geography": "Global finance flows to Nature-based Solutions, nature-negative activities, climate, biodiversity, and land-restoration targets",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nature finance dwarfed harmful financial flows making ecological transition capital-allocation political-economy problem geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nature finance dwarfed harmful financial flows making ecological transition capital-allocation political-economy problem geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nature finance dwarfed harmful financial flows making ecological transition capital-allocation political-economy problem geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nature finance dwarfed harmful financial flows making ecological transition capital-allocation political-economy problem geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unep-unitar-plastic-flow-statistics-2026-circular-economy",
@@ -243,40 +246,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Plastic consumption and waste require a common life-cycle accounting system before circular-economy policy can be compared",
       "geography": "National, regional, and global plastic production, trade, consumption, and waste statistics",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "plastic consumption waste require common life-cycle accounting system before circular-economy policy can household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "plastic consumption waste require common life-cycle accounting system before circular-economy policy can household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "plastic consumption waste require common life-cycle accounting system before circular-economy policy can household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "plastic consumption waste require common life-cycle accounting system before circular-economy policy can household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-2026-youth-report-education-decision-making-voice",
@@ -284,40 +287,42 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "Youth participation is increasingly recognized in education governance, but formal consultation often stops short of influence",
       "geography": "Global education governance, youth and student participation, national policy mechanisms, and representative youth organizations",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth participation increasingly recognized education governance but formal consultation often stops short political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth participation increasingly recognized education governance but formal consultation often stops short political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "youth participation increasingly recognized education governance but formal consultation often stops short political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0029-unesco-youth-report-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "youth participation increasingly recognized education governance but formal consultation often stops short political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-ai-education-common-good-deliberative-governance-2026",
@@ -325,40 +330,42 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "AI in education is being reframed as a public-purpose and agency problem requiring deliberative governance, not merely technology adoption",
       "geography": "Global education systems and stakeholders participating in UNESCO’s September–November 2026 consultation",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education being reframed public-purpose agency problem requiring deliberative governance not merely technology public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education being reframed public-purpose agency problem requiring deliberative governance not merely technology public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "education being reframed public-purpose agency problem requiring deliberative governance not merely technology public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0029-unesco-ai-education-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education being reframed public-purpose agency problem requiring deliberative governance not merely technology public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-algorithm-room-education-ai-agency-2026",
@@ -366,40 +373,40 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Education institutions are being pushed to renegotiate agency, meaning, expression, and public accountability as algorithmic systems become ordinary infrastructure",
       "geography": "Global education systems, higher education, teachers, learners, communities, and public governance of AI",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education institutions are being pushed renegotiate agency meaning expression public accountability algorithmic infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education institutions are being pushed renegotiate agency meaning expression public accountability algorithmic infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education institutions are being pushed renegotiate agency meaning expression public accountability algorithmic infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education institutions are being pushed renegotiate agency meaning expression public accountability algorithmic infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-creative-industries-skills-employment-2026",
@@ -407,40 +414,40 @@
       "canonical_theme": "ai-work-control",
       "title": "Creative-sector growth is constrained by low pay, informality, gender gaps, and skills systems that lag changing work",
       "geography": "Global cultural and creative industries across music, fashion, film, heritage crafts, and related creative fields",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "creative-sector growth constrained low pay informality gender gaps skills systems lag changing ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "creative-sector growth constrained low pay informality gender gaps skills systems lag changing ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "creative-sector growth constrained low pay informality gender gaps skills systems lag changing ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "creative-sector growth constrained low pay informality gender gaps skills systems lag changing ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-cultural-policies-creative-economy-artistic-freedom-2026",
@@ -448,40 +455,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Culture is being recognized as development infrastructure while creative work, participation, and artistic freedom remain unevenly protected",
       "geography": "Global cultural policy, cultural and creative industries, artists and cultural professionals, digital cultural markets, and reporting Member States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture being recognized development infrastructure while creative work participation artistic freedom remain trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture being recognized development infrastructure while creative work participation artistic freedom remain trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture being recognized development infrastructure while creative work participation artistic freedom remain trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture being recognized development infrastructure while creative work participation artistic freedom remain trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-culture-el-nino-heritage-climate-resilience-2026",
@@ -489,40 +496,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Climate resilience is expanding from physical infrastructure to cultural heritage, institutions, and community meaning",
       "geography": "Countries and communities facing expected or emerging 2026–2027 El Niño impacts on culture, heritage, and cultural institutions",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate resilience expanding physical infrastructure cultural heritage institutions community meaning unesco culture trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate resilience expanding physical infrastructure cultural heritage institutions community meaning unesco culture trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate resilience expanding physical infrastructure cultural heritage institutions community meaning unesco culture trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "climate resilience expanding physical infrastructure cultural heritage institutions community meaning unesco culture trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-education-multilateralism-classroom-cooperation-2026",
@@ -530,40 +537,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Education is being imagined as everyday infrastructure for cooperation across difference, local-global knowledge exchange, and non-consensus civic life",
       "geography": "Global higher-education and classroom contexts, with local-global and non-WEIRD knowledge-production examples",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education being imagined everyday infrastructure cooperation across difference local-global knowledge exchange non-consensus trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education being imagined everyday infrastructure cooperation across difference local-global knowledge exchange non-consensus trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education being imagined everyday infrastructure cooperation across difference local-global knowledge exchange non-consensus trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education being imagined everyday infrastructure cooperation across difference local-global knowledge exchange non-consensus trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-eu-mediterranean-information-integrity-2026-trust-media-literacy",
@@ -571,40 +578,42 @@
       "canonical_theme": "platform-exit",
       "title": "Information integrity is becoming a regional resilience and social-cohesion infrastructure issue in the Mediterranean",
       "geography": "Mediterranean information ecosystems connecting Europe, North Africa, and the Middle East",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "information integrity becoming regional resilience social-cohesion infrastructure issue mediterranean unesco high-level event platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "information integrity becoming regional resilience social-cohesion infrastructure issue mediterranean unesco high-level event platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "information integrity becoming regional resilience social-cohesion infrastructure issue mediterranean unesco high-level event platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0029-unesco-media-literacy-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "information integrity becoming regional resilience social-cohesion infrastructure issue mediterranean unesco high-level event platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-gem-education-access-equity-2026",
@@ -612,40 +621,42 @@
       "canonical_theme": "unequal-exposure-status",
       "title": "Education access has expanded, but exclusion, delayed completion, and weakly targeted equity capacity are slowing progress toward 2030",
       "geography": "Global education systems, with comparisons by income, gender, location, wealth, disability, conflict exposure, and country policy context",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education access has expanded but exclusion delayed completion weakly targeted equity capacity unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education access has expanded but exclusion delayed completion weakly targeted equity capacity unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "education access has expanded but exclusion delayed completion weakly targeted equity capacity unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0029-gem-access-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education access has expanded but exclusion delayed completion weakly targeted equity capacity unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-higher-education-global-trends-2026-mobility-ai-equity",
@@ -653,40 +664,40 @@
       "canonical_theme": "ai-work-control",
       "title": "Higher education is expanding faster than completion, equitable mobility, leadership access, and institutional AI readiness",
       "geography": "Global higher-education systems across 146 countries, with comparative enrollment, completion, financing, gender, mobility, refugee access, digitalization, and AI-policy evidence",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "higher education expanding faster than completion equitable mobility leadership access institutional readiness ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "higher education expanding faster than completion equitable mobility leadership access institutional readiness ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "higher education expanding faster than completion equitable mobility leadership access institutional readiness ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "higher education expanding faster than completion equitable mobility leadership access institutional readiness ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-icom-museum-ai-adoption-governance-capacity-2026",
@@ -694,40 +705,42 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Museums are experimenting with AI faster than they are building internal policy, training, data governance, and professional capacity",
       "geography": "Museums and cultural institutions across 90 countries, with attention to regional differences in digital infrastructure, funding, technical capacity, and expertise",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "museums are experimenting faster than they building internal policy training data governance trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "museums are experimenting faster than they building internal policy training data governance trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "museums are experimenting faster than they building internal policy training data governance trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0029-museum-ai-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "museums are experimenting faster than they building internal policy training data governance trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-iep-intercultural-dialogue-2022-released-2026-peace-inclusion",
@@ -735,40 +748,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Intercultural dialogue is being treated as measurable social infrastructure connecting inclusion, conflict prevention, human rights and peace",
       "geography": "More than 160 countries across all regions, using comparative data, regional trend analysis and case studies",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "intercultural dialogue being treated measurable social infrastructure connecting inclusion conflict prevention human trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "intercultural dialogue being treated measurable social infrastructure connecting inclusion conflict prevention human trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "intercultural dialogue being treated measurable social infrastructure connecting inclusion conflict prevention human trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "intercultural dialogue being treated measurable social infrastructure connecting inclusion conflict prevention human trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-iite-smart-education-2026-ai-teachers-governance-regions",
@@ -776,40 +789,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "AI in education is becoming a governance and human-capability question, not merely a technology-adoption question",
       "geography": "Seven world regions and diverse national education systems integrating AI and digital technologies across differing social, economic, and institutional contexts",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education becoming governance human-capability question not merely technology-adoption unesco institute information technologies care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education becoming governance human-capability question not merely technology-adoption unesco institute information technologies care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education becoming governance human-capability question not merely technology-adoption unesco institute information technologies care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education becoming governance human-capability question not merely technology-adoption unesco institute information technologies care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-living-heritage-education-latin-america-2026-community-participation",
@@ -817,40 +830,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Living heritage is being used as a locally grounded education, participation, and cultural-continuity resource",
       "geography": "Latin America and the Caribbean, with educational and living-heritage practices from 15 countries",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "living heritage being used locally grounded education participation cultural-continuity resource unesco educaci trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "living heritage being used locally grounded education participation cultural-continuity resource unesco educaci trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "living heritage being used locally grounded education participation cultural-continuity resource unesco educaci trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "living heritage being used locally grounded education participation cultural-continuity resource unesco educaci trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-namati-education-justice-2026-legal-capability-trust",
@@ -858,40 +871,40 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Education can become a form of civic and legal capability when people need to navigate justice systems that are increasingly hard to access",
       "geography": "Global justice systems, education systems, disadvantaged populations, communities, and institutions concerned with rights, peace, democracy, and social cohesion",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education can become form civic legal capability when people need navigate justice public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education can become form civic legal capability when people need navigate justice public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education can become form civic legal capability when people need navigate justice public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "education can become form civic legal capability when people need navigate justice public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-reshaping-policies-creativity-2026-cultural-economy-ai-mobility",
@@ -899,40 +912,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Cultural production is becoming more digital and globally valuable while creator income, mobility, skills, and artistic freedom remain unevenly protected",
       "geography": "More than 120 reporting countries and global cultural and creative industries, with comparisons by development status",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural production becoming more digital globally valuable while creator income mobility skills trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural production becoming more digital globally valuable while creator income mobility skills trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural production becoming more digital globally valuable while creator income mobility skills trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural production becoming more digital globally valuable while creator income mobility skills trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-reshaping-policies-creativity-2026-cultural-work-platforms-freedom",
@@ -940,40 +953,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Digital cultural access is expanding faster than creator security, local visibility, and cultural power",
       "geography": "Global cultural and creative sectors, with country-level policy and capacity comparisons across more than 120 countries",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital cultural access expanding faster than creator security local visibility power unesco trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital cultural access expanding faster than creator security local visibility power unesco trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital cultural access expanding faster than creator security local visibility power unesco trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital cultural access expanding faster than creator security local visibility power unesco trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-south-africa-digital-creators-information-legitimacy-online-harm-2026",
@@ -981,40 +994,40 @@
       "canonical_theme": "platform-exit",
       "title": "Digital content creators are becoming information intermediaries faster than support systems can provide verification, ethics, safety, and platform voice",
       "geography": "South Africa; nationwide survey of digital content creators with supporting interviews and UNESCO Social Media 4 Peace context",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital content creators are becoming information intermediaries faster than support systems can platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital content creators are becoming information intermediaries faster than support systems can platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital content creators are becoming information intermediaries faster than support systems can platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "digital content creators are becoming information intermediaries faster than support systems can platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-unesco-uis-cultural-creative-ecosystem-indicators-2026-measurement-governance",
@@ -1022,41 +1035,41 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Culture is being measured as a multidimensional ecosystem linking creative work, participation, equity, infrastructure, environment, and governance",
       "geography": "Globally applicable framework for UNESCO Member States, national statistical offices, ministries of culture, researchers, practitioners, and civil society",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0029",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture being measured multidimensional ecosystem linking creative work participation equity infrastructure environment trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture being measured multidimensional ecosystem linking creative work participation equity infrastructure environment trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture being measured multidimensional ecosystem linking creative work participation equity infrastructure environment trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture being measured multidimensional ecosystem linking creative work participation equity infrastructure environment trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     }
   ],
-  "status": "in_review"
+  "status": "closed"
 }
