@@ -1,5 +1,16 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. platform-worker rotation — 2026-10-18:** the [remedy and
+work-control audit](projects/cross-domain/us-platform-worker-remedy-work-control-audit-v1.md)
+follows the Walmart Spark Driver case from complaint and court-entered $100
+million judgment through driver-relief allocation, payment processing, and a
+10-year earnings-verification program, then compares it with NBER evidence on
+competing-platform leverage. The finding is a money-to-control gap: monetary
+correction does not prove restored net earnings, schedule control, explanation,
+alternatives, trust, or practical exit. Next: seek payment-status distributions,
+driver notices, post-order verification, deactivation/human-review records, and
+matched alternative-platform outcomes.
+
 **Latest U.S. consumer rotation — 2026-10-18:** the [privacy control and
 completion audit](projects/cross-domain/us-consumer-privacy-control-completion-audit-v1.md)
 follows Walmart’s reported access, deletion, and sale-opt-out request stages,
