@@ -129,6 +129,20 @@ findings/unequal-exposure-status-wave-003.md.
 
 This wave is a bounded signal set, not representative cross-platform evidence.
 
+The tenth Wave 003 topic is geopolitical and state consequences. Four public
+items were normalized in records/geopolitical-state-linkedin-001.json through
+records/geopolitical-state-x-001.json, and the topic synthesis is in
+findings/geopolitical-state-consequences-wave-003.md.
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | strategic autonomy alliance supply chain dependence 2026 | A public strategy post linked alliance strength to industrial, technological, and supply-chain capability; normalized in records/geopolitical-state-linkedin-001.json. | Policy analysis and selected professional audience; no measured readiness. |
+| Reddit | geopolitics supply chain nearshoring security efficiency 2026 | A public supply-chain discussion connected geopolitical risk to nearshoring and security, while questioning whether firms use it to justify margins; normalized in records/geopolitical-state-reddit-001.json. | Self-selected discussion and unresolved attribution. |
+| YouTube | US China rivalry critical technology trade energy security 2026 | A public news analysis connected tariffs, critical technology, rare earths, AI, energy, and shipping; normalized in records/geopolitical-state-youtube-001.json. | Curated expert discussion, not strategic-effect evidence. |
+| X | critical minerals strategic dependence alliance resource security 2026 | An X trending summary presented rare-earth development, China dependence, Japan–US cooperation, and maritime resource claims; normalized in records/geopolitical-state-x-001.json. | Platform summary and non-US case; underlying claims require verification. |
+
+This wave is a bounded signal set, not representative cross-platform evidence.
+
 The ninth Wave 003 topic is firm, sector, and market power. Three usable
 public items were normalized in records/firm-market-power-linkedin-001.json
 through records/firm-market-power-x-001.json, and the topic synthesis is in

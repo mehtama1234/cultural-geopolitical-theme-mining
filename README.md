@@ -36,8 +36,8 @@ YouTube platform gap. Wave 003 now includes four household-room records, a
 four-record housing/place/mobility wave, and a four-record
 infrastructure/technology/dependency wave, and a four-record unequal
 exposure/status wave, a three-record political judgment/collective action
-wave, and a three-record firm/sector/market-power wave with documented
-YouTube gaps.
+wave, a three-record firm/sector/market-power wave, and a four-record
+geopolitical/state-consequences wave.
 the [long-term coverage plan](analysis/social-discussions/long-term-coverage-plan.md)
 rotates through the remaining themes and their open end-to-end arrows.
 Discussion items are signals about meaning, interpretation, disagreement, and
