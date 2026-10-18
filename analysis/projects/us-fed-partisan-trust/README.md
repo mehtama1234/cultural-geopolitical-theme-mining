@@ -24,3 +24,8 @@ An institution can give the same message to everyone while people hear different
 ## Decision rule
 
 Move on after one experiment measures trust and belief updates, one source measures actual household responses, and one next dataset can follow communication into spending, saving or public action. Do not call belief change behavior change.
+
+The [institutional trust, information processing, material expectations, and action bridge](institutional-trust-information-material-action-bridge-v1.md)
+extends the experiment with NBER's cross-design announcement evidence, repeated
+Weidenbaum trust sorting, platform-mediated news discussion, and the still-open
+message-to-behavior ledger.
