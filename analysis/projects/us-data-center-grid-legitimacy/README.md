@@ -24,6 +24,7 @@ measured household incidence and legitimacy.
 
 - [Data-center load, grid response, and public legitimacy bridge](data-center-load-grid-legitimacy-bridge-v1.md)
 - [Large-load contracts to household incidence and local consent](large-load-contract-household-incidence-realization-bridge-v1.md)
+- [Large-load operating event to household incidence stage audit](large-load-operating-event-incidence-stage-audit-v1.md)
 
 ## Next test
 
