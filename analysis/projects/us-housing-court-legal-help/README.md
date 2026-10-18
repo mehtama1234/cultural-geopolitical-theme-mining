@@ -8,6 +8,10 @@ Can legal help keep a rent dispute from becoming an eviction, and what problems 
 
 Separate legal representation, possession judgment, money judgment, eviction warrant and actual eviction. Then follow the household into credit, work, health and later housing.
 
+## Current bridge
+
+- [Legal help to eviction, household stability, and child outcomes](legal-help-eviction-child-stability-bridge-v1.md)
+
 ## Possible connection
 
 Legal help is a voice and access lever in the eviction chain. It may stop the visible court event even when the rent problem remains.
