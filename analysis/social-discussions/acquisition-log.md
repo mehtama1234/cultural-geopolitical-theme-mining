@@ -116,3 +116,17 @@ findings/housing-place-mobility-wave-003.md.
 | YouTube | housing rent insurance moving neighborhood 2026 | No reproducible, clearly relevant public item was retained in the restricted search. | Recorded as a platform gap; no substitute source was silently used. |
 
 This wave is a bounded signal set, not representative cross-platform evidence.
+
+The sixth Wave 003 topic is infrastructure, technology, and dependency. Four
+public items were normalized in records/infrastructure-dependency-linkedin-001.json
+through records/infrastructure-dependency-x-001.json, and the topic synthesis
+is in findings/infrastructure-technology-dependency-wave-003.md.
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | AI data centers power grid demand 2026 | A public industry relay described AI load arriving faster than grid equipment, labor, and permitting; normalized in records/infrastructure-dependency-linkedin-001.json. | Forecast and industry framing, not a measured household or utility outcome. |
+| Reddit | AI data centers electricity grid upgrades who pays 2026 | A public energy thread discussed measured load, rate cases, tariffs, and responsibility for upgrades; normalized in records/infrastructure-dependency-reddit-001.json. | Self-selected discussion and unverified comments. |
+| YouTube | AI infrastructure power constrained grid financing 2026 | A Milken Institute panel connected generation, grids, storage, finance, rates, affordability, and public acceptance; normalized in records/infrastructure-dependency-youtube-001.json. | Curated institutional panel, not audience or causal evidence. |
+| X | AI data centers power water land household bills 2026 | An X trending summary presented competing claims about resource burden, household costs, moratoriums, and developer responsibility; normalized in records/infrastructure-dependency-x-001.json. | Platform summary, not a direct post sample; claims require verification. |
+
+This wave is a bounded signal set, not representative cross-platform evidence.

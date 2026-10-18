@@ -1,0 +1,17 @@
+{
+  "record_id": "social-infrastructure-dependency-reddit-001",
+  "topic": "infrastructure-technology-dependency",
+  "platform": "reddit",
+  "item_type": "lived_discussion_and_policy_question",
+  "author_or_account": "r/energy",
+  "title": "Who pays for grid upgrades tied to AI data centers?",
+  "canonical_url": "https://www.reddit.com/r/energy/comments/1wcydyi/ai_data_centres_how_should_we_assess_electricity/",
+  "published_window": "2026-09 (search index)",
+  "retrieved": "2026-10-17",
+  "discussion_signal": "The thread asks how to distinguish announced data-center projects from measured consumption and who should pay for transmission and substation upgrades. Replies point toward utility rate cases, special tariffs, and the gap between public claims and actual load.",
+  "research_anchor_paths": ["analysis/US-BROAD-INFRASTRUCTURE-TECHNOLOGY-DEPENDENCY-SOURCE-LED-SUBTHEME-MAP_V1.md", "analysis/US-BROAD-FIRM-SECTOR-MARKET-POWER-SOURCE-LED-SUBTHEME-MAP_V1.md"],
+  "linked_research_question": "When new digital infrastructure creates shared network costs, how are responsibility, affordability, reliability, and public benefit allocated.",
+  "classification": ["lived_discussion", "rate_design", "cost_allocation", "measurement_gap", "counterargument"],
+  "engagement": null,
+  "limits": ["Self-selected Reddit discussion with uneven expertise", "Comments are not a verified rate-case record", "No prevalence or local public-opinion denominator"]
+}
