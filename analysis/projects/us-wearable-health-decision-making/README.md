@@ -18,3 +18,8 @@ The [GAO finding](findings/us-gao-wearable-clinical-decision-making-2026-001.md)
 shows that wearables may support faster and more personalized care, while
 reliability, integration, liability, privacy, and market-navigation problems
 remain open.
+
+The [health data, AI interpretation, trust, and remedy bridge](health-data-ai-interpretation-trust-remedy-bridge-v1.md)
+extends the route through health chatbots, diagnostic AI, misinformation,
+consumer wearables, digital-health billing, privacy, and complaints. It keeps
+measurement, interpretation, decision, continuity, and remedy separate.
