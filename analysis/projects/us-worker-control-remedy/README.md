@@ -33,6 +33,11 @@ standard, and named platform-worker remedies. It finds that adoption, formal
 review, access restoration, money, and durable work control are separate
 currencies.
 
+The new [worker-control stage audit](worker-control-stage-audit-v1.md) compares
+measured AI productivity, algorithmic-management exposure, formal rights, and
+the one dated reactivation case. It preserves the gap between faster work,
+formal review, received remedy, and durable worker power.
+
 ## Next test
 
 The next qualifying record is a protected same-worker or workplace episode with
