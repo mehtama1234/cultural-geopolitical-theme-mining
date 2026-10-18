@@ -17,6 +17,7 @@ continued without proving that the intended project worked.
 ## Current bridge
 
 - [Grant disruption to realized protection and legitimacy](grant-disruption-realized-protection-legitimacy-bridge-v1.md)
+- [BRIC pause and restart: from resilience funding to project delivery](bric-pause-restart-project-realization-bridge-v1.md)
 
 ## Ongoing question
 
