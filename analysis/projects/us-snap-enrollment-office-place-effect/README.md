@@ -28,5 +28,7 @@ need or eligibility
   -> [open] household room, trust, and later action
 ```
 
+The current [SNAP access, participation, food-security, and recovery bridge](snap-access-participation-food-security-recovery-bridge-v1.md) adds Urban interruption reports and SIPP following-resource context while preserving the missing household-level payment, adequacy, remedy, and recovery link.
+
 The study makes place part of access, but it does not follow every household
 through the whole route.
