@@ -83,6 +83,11 @@ care intensity, time allocation, work adaptation, social participation, and
 service response separate and identifies restored discretionary time as the
 missing recovery outcome.
 
+The [material time, care, work, and social-capacity bridge](material-time-care-work-social-capacity-bridge-v1.md)
+extends that route with the same-person SIPP childcare-to-hardship comparison,
+ATUS annual time measures, GAO's unpaid-work valuation, England's current carer
+service data, and bounded public discussion.
+
 ## Definition of done
 
 The project is complete only when a dated person or household episode records:
