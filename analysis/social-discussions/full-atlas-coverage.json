@@ -49697,8 +49697,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Observed card spending continued to grow in August while households remained budget-conscious and the measurement system changed",
       "geography": "United States retail spending; anonymized permissioned credit and debit card transaction data",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -49730,7 +49730,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-commerce-taiwan-semiconductor-investment-2026",
@@ -49738,8 +49738,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Allied semiconductor investment commitments convert supply dependence into a domestic-capacity promise",
       "geography": "United States and Taiwan semiconductor, energy, and artificial-intelligence production and innovation relationship",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -49771,7 +49771,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-commonwealth-coverage-denials-2026-care-delay-debt-trust",
@@ -49779,8 +49779,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Insurance coverage denials convert medical recommendations into household delay, debt, and trust loss",
       "geography": "United States; working-age adults ages 19–64 with private insurance through an employer, ACA marketplace, or individual market",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -49812,7 +49812,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-conference-board-consumer-confidence-september-2026-current-expectations-spending",
@@ -49820,8 +49820,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Consumer pessimism is splitting across current conditions, future expectations and planned spending",
       "geography": "United States; consumers in the monthly Conference Board Consumer Confidence Survey",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -49853,7 +49853,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-consumer-loss-recourse-recovery-crosssource-2020-2025",
@@ -49861,8 +49861,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Consumer protection has visible routing but unresolved recovery, remedy, and trust gaps",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -49894,7 +49894,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026",
@@ -49902,8 +49902,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Consumer protection visibility, attention cost, remedy labels, and exit remain different endpoints",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -49935,7 +49935,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cornell-ai-constituent-email-legislative-response-2020",
@@ -49943,8 +49943,8 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "State legislative offices responded to machine-generated policy emails at nearly the same rate as human-written emails",
       "geography": "United States state legislators; legislators in more than 40 states received experimental emails",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -49976,7 +49976,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cppa-drop-status-contestability-2026",
@@ -49984,8 +49984,8 @@
       "canonical_theme": "platform-exit",
       "title": "A deletion system can make requests contestable without publicly proving complete data control",
       "geography": "California residents and data brokers participating in the Delete Request and Opt-out Platform",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50017,7 +50017,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cps-voting-participation-friction-2024",
@@ -50025,8 +50025,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Political participation is segmented into distinct access and meaning routes",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50058,7 +50058,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cpsc-consumer-safety-recalls-import-surveillance-fy2024",
@@ -50066,8 +50066,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Consumer safety moves through injury surveillance, recalls, import screening, and platform removal",
       "geography": "United States; federal consumer-product safety, import, e-commerce, recall, and hospital emergency-room surveillance system",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50099,7 +50099,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cpsc-honda-talon-recall-implementation-2023-2026",
@@ -50107,8 +50107,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "A recall key links a safety notice to reported repair progress while exposure and consumer restoration remain unresolved",
       "geography": "United States product market",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50140,7 +50140,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cpsc-recall-mpr-progress-heterogeneity-2026",
@@ -50148,8 +50148,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Recall implementation reports vary widely across keys without establishing consumer recovery",
       "geography": "United States product market",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50181,7 +50181,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cpsc-vrurc-recall-implementation-2023-2026",
@@ -50189,8 +50189,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "A recall key links a dated hazard notice to reported correction progress without proving consumer recovery",
       "geography": "United States product market",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50222,7 +50222,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cross-source-gallup-world-risk-politics-safety-2021-2026",
@@ -50230,8 +50230,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Politics is unusually salient as a personal safety risk in the United States, linking polarization, government disconnection, and daily risk perception",
       "geography": "United States and 140-country World Risk Poll comparison",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50263,7 +50263,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cross-source-supreme-court-legitimacy-approval-favorability-2000-2026",
@@ -50271,8 +50271,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Supreme Court legitimacy remains historically weak while approval, favorability, ideology, and power judgments split by party and measure",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50304,7 +50304,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-crs-tariff-retaliation-foreign-response-2025",
@@ -50312,8 +50312,8 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Foreign governments answered U.S. tariff pressure with retaliation, negotiation, and partial reversals",
       "geography": "United States, China, Canada, and the European Union",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50345,7 +50345,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cssp-family-care-arrangements-2026",
@@ -50353,8 +50353,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Families assemble changing care portfolios, but affordability, trust and work design separate the care they use from the care they want",
       "geography": "United States; qualitative research in Massachusetts, North Carolina and New Mexico, with parents and primary caregivers across rural, small-city and metropolitan settings",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50386,7 +50386,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027",
@@ -50394,8 +50394,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Data-center capacity, public revenue, and utility governance do not identify household benefit",
       "geography": "United States; national, Prince William County Virginia, Virginia, Texas, and Georgia layers",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50427,7 +50427,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-data-center-electricity-tax-federalism-2026",
@@ -50435,8 +50435,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "States are turning data-center electricity growth into explicit tax and reporting bargains before household incidence is known",
       "geography": "Virginia and North Carolina, United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50468,7 +50468,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-dcpsc-solar-credit-error-rate-remedy-2025",
@@ -50476,8 +50476,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "A billing audit can expose crediting uncertainty before a proposed remedy reaches subscribers",
       "geography": "Washington, D.C.; Pepco, Solar for All subscribers, and community-renewable-energy facilities",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50509,7 +50509,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-dcpsc-solar-for-all-monthly-credit-receipt-2025",
@@ -50517,8 +50517,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "A utility filing reports monthly community-solar credit receipt at project level without exposing individual bills",
       "geography": "Washington, D.C.; Solar for All/community-renewable-energy facilities and Pepco billing",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50550,7 +50550,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-debeaumont-phwins-pulse-2026-public-health-worker-strain-retention-politics",
@@ -50558,8 +50558,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Public-health workers report worsening strain, political interference, and younger-worker exit risk",
       "geography": "United States; state and local governmental public-health workforce",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50591,7 +50591,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-defense-procurement-entity-parent-facility-reconciliation-2026",
@@ -50599,8 +50599,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Defense recipient names resolve into parent and facility hierarchies before capability can be assessed",
       "geography": "United States and UK corporate/facility records in a US defense procurement case",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50632,7 +50632,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-defense-procurement-location-capability-context-2026",
@@ -50640,8 +50640,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Reported procurement locations have independent capability context without proving work-package assignment",
       "geography": "Nashua, New Hampshire and Niceville, Florida, United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50673,7 +50673,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-defense-procurement-realization-milestones-2024-2026",
@@ -50681,8 +50681,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "JASSM/LRASM production support, capacity investment, and integration testing precede delivered inventory",
       "geography": "United States defense-industrial and integration-test records",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -50714,7 +50714,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-defense-procurement-recipient-identifier-ambiguity-2026",

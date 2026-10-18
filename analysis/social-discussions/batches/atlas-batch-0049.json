@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0049",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "us-cnbc-nrf-retail-monitor-affinity-transactions-august-2026",
+    "us-commerce-taiwan-semiconductor-investment-2026",
+    "us-commonwealth-coverage-denials-2026-care-delay-debt-trust",
+    "us-conference-board-consumer-confidence-september-2026-current-expectations-spending",
+    "us-consumer-loss-recourse-recovery-crosssource-2020-2025",
+    "us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026",
+    "us-cornell-ai-constituent-email-legislative-response-2020",
+    "us-cppa-drop-status-contestability-2026",
+    "us-cps-voting-participation-friction-2024",
+    "us-cpsc-consumer-safety-recalls-import-surveillance-fy2024",
+    "us-cpsc-honda-talon-recall-implementation-2023-2026",
+    "us-cpsc-recall-mpr-progress-heterogeneity-2026",
+    "us-cpsc-vrurc-recall-implementation-2023-2026",
+    "us-cross-source-gallup-world-risk-politics-safety-2021-2026",
+    "us-cross-source-supreme-court-legitimacy-approval-favorability-2000-2026",
+    "us-crs-tariff-retaliation-foreign-response-2025",
+    "us-cssp-family-care-arrangements-2026",
+    "us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027",
+    "us-data-center-electricity-tax-federalism-2026",
+    "us-dcpsc-solar-credit-error-rate-remedy-2025",
+    "us-dcpsc-solar-for-all-monthly-credit-receipt-2025",
+    "us-debeaumont-phwins-pulse-2026-public-health-worker-strain-retention-politics",
+    "us-defense-procurement-entity-parent-facility-reconciliation-2026",
+    "us-defense-procurement-location-capability-context-2026",
+    "us-defense-procurement-realization-milestones-2024-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-cnbc-nrf-retail-monitor-affinity-transactions-august-2026",
+      "atlas_record_path": "analysis/records/us-cnbc-nrf-retail-monitor-affinity-transactions-august-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Observed card spending continued to grow in August while households remained budget-conscious and the measurement system changed",
+      "geography": "United States retail spending; anonymized permissioned credit and debit card transaction data",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "observed card spending continued grow august while households remained budget-conscious measurement system household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "observed card spending continued grow august while households remained budget-conscious measurement system household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "observed card spending continued grow august while households remained budget-conscious measurement system household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "observed card spending continued grow august while households remained budget-conscious measurement system household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-commerce-taiwan-semiconductor-investment-2026",
+      "atlas_record_path": "analysis/records/us-commerce-taiwan-semiconductor-investment-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Allied semiconductor investment commitments convert supply dependence into a domestic-capacity promise",
+      "geography": "United States and Taiwan semiconductor, energy, and artificial-intelligence production and innovation relationship",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "allied semiconductor investment commitments convert supply dependence into domestic-capacity promise department commerce firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "allied semiconductor investment commitments convert supply dependence into domestic-capacity promise department commerce firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "allied semiconductor investment commitments convert supply dependence into domestic-capacity promise department commerce firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "allied semiconductor investment commitments convert supply dependence into domestic-capacity promise department commerce firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-commonwealth-coverage-denials-2026-care-delay-debt-trust",
+      "atlas_record_path": "analysis/records/us-commonwealth-coverage-denials-2026-care-delay-debt-trust.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Insurance coverage denials convert medical recommendations into household delay, debt, and trust loss",
+      "geography": "United States; working-age adults ages 19–64 with private insurance through an employer, ACA marketplace, or individual market",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "insurance coverage denials convert medical recommendations into household delay debt trust loss care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "insurance coverage denials convert medical recommendations into household delay debt trust loss care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "insurance coverage denials convert medical recommendations into household delay debt trust loss care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "insurance coverage denials convert medical recommendations into household delay debt trust loss care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-conference-board-consumer-confidence-september-2026-current-expectations-spending",
+      "atlas_record_path": "analysis/records/us-conference-board-consumer-confidence-september-2026-current-expectations-spending.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Consumer pessimism is splitting across current conditions, future expectations and planned spending",
+      "geography": "United States; consumers in the monthly Conference Board Consumer Confidence Survey",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer pessimism splitting across current conditions future expectations planned spending conference board household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer pessimism splitting across current conditions future expectations planned spending conference board household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer pessimism splitting across current conditions future expectations planned spending conference board household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer pessimism splitting across current conditions future expectations planned spending conference board household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-consumer-loss-recourse-recovery-crosssource-2020-2025",
+      "atlas_record_path": "analysis/records/us-consumer-loss-recourse-recovery-crosssource-2020-2025.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Consumer protection has visible routing but unresolved recovery, remedy, and trust gaps",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer protection has visible routing but unresolved recovery remedy trust gaps deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer protection has visible routing but unresolved recovery remedy trust gaps deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer protection has visible routing but unresolved recovery remedy trust gaps deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer protection has visible routing but unresolved recovery remedy trust gaps deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026",
+      "atlas_record_path": "analysis/records/us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Consumer protection visibility, attention cost, remedy labels, and exit remain different endpoints",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer protection visibility attention cost remedy labels exit remain different endpoints deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer protection visibility attention cost remedy labels exit remain different endpoints deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer protection visibility attention cost remedy labels exit remain different endpoints deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer protection visibility attention cost remedy labels exit remain different endpoints deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cornell-ai-constituent-email-legislative-response-2020",
+      "atlas_record_path": "analysis/records/us-cornell-ai-constituent-email-legislative-response-2020.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "State legislative offices responded to machine-generated policy emails at nearly the same rate as human-written emails",
+      "geography": "United States state legislators; legislators in more than 40 states received experimental emails",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "state legislative offices responded machine-generated policy emails nearly same rate human-written kreps political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "state legislative offices responded machine-generated policy emails nearly same rate human-written kreps political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "state legislative offices responded machine-generated policy emails nearly same rate human-written kreps political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "state legislative offices responded machine-generated policy emails nearly same rate human-written kreps political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cppa-drop-status-contestability-2026",
+      "atlas_record_path": "analysis/records/us-cppa-drop-status-contestability-2026.json",
+      "canonical_theme": "platform-exit",
+      "title": "A deletion system can make requests contestable without publicly proving complete data control",
+      "geography": "California residents and data brokers participating in the Delete Request and Opt-out Platform",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "deletion system can make requests contestable without publicly proving complete data control platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "deletion system can make requests contestable without publicly proving complete data control platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "deletion system can make requests contestable without publicly proving complete data control platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "deletion system can make requests contestable without publicly proving complete data control platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cps-voting-participation-friction-2024",
+      "atlas_record_path": "analysis/records/us-cps-voting-participation-friction-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Political participation is segmented into distinct access and meaning routes",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "political participation segmented into distinct access meaning routes cps voting registration supplement time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "political participation segmented into distinct access meaning routes cps voting registration supplement time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "political participation segmented into distinct access meaning routes cps voting registration supplement time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "political participation segmented into distinct access meaning routes cps voting registration supplement time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cpsc-consumer-safety-recalls-import-surveillance-fy2024",
+      "atlas_record_path": "analysis/records/us-cpsc-consumer-safety-recalls-import-surveillance-fy2024.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Consumer safety moves through injury surveillance, recalls, import screening, and platform removal",
+      "geography": "United States; federal consumer-product safety, import, e-commerce, recall, and hospital emergency-room surveillance system",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer safety moves through injury surveillance recalls import screening platform removal product consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer safety moves through injury surveillance recalls import screening platform removal product consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer safety moves through injury surveillance recalls import screening platform removal product consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer safety moves through injury surveillance recalls import screening platform removal product consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cpsc-honda-talon-recall-implementation-2023-2026",
+      "atlas_record_path": "analysis/records/us-cpsc-honda-talon-recall-implementation-2023-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "A recall key links a safety notice to reported repair progress while exposure and consumer restoration remain unresolved",
+      "geography": "United States product market",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "recall key links safety notice reported repair progress while exposure consumer restoration consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "recall key links safety notice reported repair progress while exposure consumer restoration consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "recall key links safety notice reported repair progress while exposure consumer restoration consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "recall key links safety notice reported repair progress while exposure consumer restoration consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cpsc-recall-mpr-progress-heterogeneity-2026",
+      "atlas_record_path": "analysis/records/us-cpsc-recall-mpr-progress-heterogeneity-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Recall implementation reports vary widely across keys without establishing consumer recovery",
+      "geography": "United States product market",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "recall implementation reports vary widely across keys without establishing consumer recovery cpsc consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "recall implementation reports vary widely across keys without establishing consumer recovery cpsc consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "recall implementation reports vary widely across keys without establishing consumer recovery cpsc consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "recall implementation reports vary widely across keys without establishing consumer recovery cpsc consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cpsc-vrurc-recall-implementation-2023-2026",
+      "atlas_record_path": "analysis/records/us-cpsc-vrurc-recall-implementation-2023-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "A recall key links a dated hazard notice to reported correction progress without proving consumer recovery",
+      "geography": "United States product market",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "recall key links dated hazard notice reported correction progress without proving consumer consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "recall key links dated hazard notice reported correction progress without proving consumer consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "recall key links dated hazard notice reported correction progress without proving consumer consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "recall key links dated hazard notice reported correction progress without proving consumer consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cross-source-gallup-world-risk-politics-safety-2021-2026",
+      "atlas_record_path": "analysis/records/us-cross-source-gallup-world-risk-politics-safety-2021-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Politics is unusually salient as a personal safety risk in the United States, linking polarization, government disconnection, and daily risk perception",
+      "geography": "United States and 140-country World Risk Poll comparison",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "politics unusually salient personal safety risk linking polarization government disconnection daily perception trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "politics unusually salient personal safety risk linking polarization government disconnection daily perception trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "politics unusually salient personal safety risk linking polarization government disconnection daily perception trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "politics unusually salient personal safety risk linking polarization government disconnection daily perception trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cross-source-supreme-court-legitimacy-approval-favorability-2000-2026",
+      "atlas_record_path": "analysis/records/us-cross-source-supreme-court-legitimacy-approval-favorability-2000-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Supreme Court legitimacy remains historically weak while approval, favorability, ideology, and power judgments split by party and measure",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "supreme court legitimacy remains historically weak while approval favorability ideology power judgments trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "supreme court legitimacy remains historically weak while approval favorability ideology power judgments trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "supreme court legitimacy remains historically weak while approval favorability ideology power judgments trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "supreme court legitimacy remains historically weak while approval favorability ideology power judgments trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-crs-tariff-retaliation-foreign-response-2025",
+      "atlas_record_path": "analysis/records/us-crs-tariff-retaliation-foreign-response-2025.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Foreign governments answered U.S. tariff pressure with retaliation, negotiation, and partial reversals",
+      "geography": "United States, China, Canada, and the European Union",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "foreign governments answered tariff pressure retaliation negotiation partial reversals congressional research service geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "foreign governments answered tariff pressure retaliation negotiation partial reversals congressional research service geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "foreign governments answered tariff pressure retaliation negotiation partial reversals congressional research service geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "foreign governments answered tariff pressure retaliation negotiation partial reversals congressional research service geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cssp-family-care-arrangements-2026",
+      "atlas_record_path": "analysis/records/us-cssp-family-care-arrangements-2026.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Families assemble changing care portfolios, but affordability, trust and work design separate the care they use from the care they want",
+      "geography": "United States; qualitative research in Massachusetts, North Carolina and New Mexico, with parents and primary caregivers across rural, small-city and metropolitan settings",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "families assemble changing care portfolios but affordability trust work design separate they care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "families assemble changing care portfolios but affordability trust work design separate they care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "families assemble changing care portfolios but affordability trust work design separate they care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "families assemble changing care portfolios but affordability trust work design separate they care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027",
+      "atlas_record_path": "analysis/records/us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Data-center capacity, public revenue, and utility governance do not identify household benefit",
+      "geography": "United States; national, Prince William County Virginia, Virginia, Texas, and Georgia layers",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "data-center capacity public revenue utility governance not identify household benefit deliberately non-pooled infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "data-center capacity public revenue utility governance not identify household benefit deliberately non-pooled infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "data-center capacity public revenue utility governance not identify household benefit deliberately non-pooled infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "data-center capacity public revenue utility governance not identify household benefit deliberately non-pooled infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-data-center-electricity-tax-federalism-2026",
+      "atlas_record_path": "analysis/records/us-data-center-electricity-tax-federalism-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "States are turning data-center electricity growth into explicit tax and reporting bargains before household incidence is known",
+      "geography": "Virginia and North Carolina, United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "are turning data-center electricity growth into explicit tax reporting bargains before household infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "are turning data-center electricity growth into explicit tax reporting bargains before household infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "are turning data-center electricity growth into explicit tax reporting bargains before household infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "are turning data-center electricity growth into explicit tax reporting bargains before household infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-dcpsc-solar-credit-error-rate-remedy-2025",
+      "atlas_record_path": "analysis/records/us-dcpsc-solar-credit-error-rate-remedy-2025.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "A billing audit can expose crediting uncertainty before a proposed remedy reaches subscribers",
+      "geography": "Washington, D.C.; Pepco, Solar for All subscribers, and community-renewable-energy facilities",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "billing audit can expose crediting uncertainty before proposed remedy reaches subscribers district consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "billing audit can expose crediting uncertainty before proposed remedy reaches subscribers district consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "billing audit can expose crediting uncertainty before proposed remedy reaches subscribers district consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "billing audit can expose crediting uncertainty before proposed remedy reaches subscribers district consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-dcpsc-solar-for-all-monthly-credit-receipt-2025",
+      "atlas_record_path": "analysis/records/us-dcpsc-solar-for-all-monthly-credit-receipt-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "A utility filing reports monthly community-solar credit receipt at project level without exposing individual bills",
+      "geography": "Washington, D.C.; Solar for All/community-renewable-energy facilities and Pepco billing",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "utility filing reports monthly community-solar credit receipt project level without exposing individual household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "utility filing reports monthly community-solar credit receipt project level without exposing individual household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "utility filing reports monthly community-solar credit receipt project level without exposing individual household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "utility filing reports monthly community-solar credit receipt project level without exposing individual household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-debeaumont-phwins-pulse-2026-public-health-worker-strain-retention-politics",
+      "atlas_record_path": "analysis/records/us-debeaumont-phwins-pulse-2026-public-health-worker-strain-retention-politics.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Public-health workers report worsening strain, political interference, and younger-worker exit risk",
+      "geography": "United States; state and local governmental public-health workforce",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "public-health workers report worsening strain political interference younger-worker exit risk beaumont foundation public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "public-health workers report worsening strain political interference younger-worker exit risk beaumont foundation public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "public-health workers report worsening strain political interference younger-worker exit risk beaumont foundation public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "public-health workers report worsening strain political interference younger-worker exit risk beaumont foundation public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-defense-procurement-entity-parent-facility-reconciliation-2026",
+      "atlas_record_path": "analysis/records/us-defense-procurement-entity-parent-facility-reconciliation-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Defense recipient names resolve into parent and facility hierarchies before capability can be assessed",
+      "geography": "United States and UK corporate/facility records in a US defense procurement case",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "defense recipient names resolve into parent facility hierarchies before capability can assessed firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "defense recipient names resolve into parent facility hierarchies before capability can assessed firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "defense recipient names resolve into parent facility hierarchies before capability can assessed firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "defense recipient names resolve into parent facility hierarchies before capability can assessed firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-defense-procurement-location-capability-context-2026",
+      "atlas_record_path": "analysis/records/us-defense-procurement-location-capability-context-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Reported procurement locations have independent capability context without proving work-package assignment",
+      "geography": "Nashua, New Hampshire and Niceville, Florida, United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "reported procurement locations have independent capability context without proving work-package assignment usaspending firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "reported procurement locations have independent capability context without proving work-package assignment usaspending firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "reported procurement locations have independent capability context without proving work-package assignment usaspending firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "reported procurement locations have independent capability context without proving work-package assignment usaspending firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-defense-procurement-realization-milestones-2024-2026",
+      "atlas_record_path": "analysis/records/us-defense-procurement-realization-milestones-2024-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "JASSM/LRASM production support, capacity investment, and integration testing precede delivered inventory",
+      "geography": "United States defense-industrial and integration-test records",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0049",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "jassm lrasm production support capacity investment integration testing precede delivered inventory official firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "jassm lrasm production support capacity investment integration testing precede delivered inventory official firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "jassm lrasm production support capacity investment integration testing precede delivered inventory official firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "jassm lrasm production support capacity investment integration testing precede delivered inventory official firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
