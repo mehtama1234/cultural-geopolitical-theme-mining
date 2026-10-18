@@ -1,7 +1,7 @@
 # Acquisition log — first bounded wave
 
-**Window:** 2025-10-17 through 2026-10-17  
-**Retrieved:** 2026-10-17  
+**Window:** 2025-10-17 through 2026-10-17
+**Retrieved:** 2026-10-17
 **Method:** public web search with platform-restricted queries; no login,
 private-group access, automated account scraping, or claim that search results
 are exhaustive.
@@ -84,6 +84,36 @@ Wave 002 now has bounded findings for all four queued topics. The next
 rotation moves to the remaining atlas themes and should revisit these topics
 with different groups, places, and open arrows rather than treating Wave 002
 as complete coverage.
+
+## Wave 004 — second rotation execution
+
+**Window:** 2025-10-17 through 2026-10-17
+**Retrieved:** 2026-10-17
+**Result:** 14 new records, one for each existing social topic, normalized in
+`records/wave-004-*.json`; total social corpus is now 74 records.
+
+| Topic | Query family | Result | Boundary |
+|---|---|---|---|
+| Household room and consumption | household debt groceries bills 2026 | A Reddit discussion translated debt reporting into emergency borrowing and household trade-offs. | Discussion relays a report and is not a household panel. |
+| Time, care, and social reproduction | caregiver waiting scheduling paperwork 2026 | An indexed caregiver discussion described waiting, reshuffling, and care administration. | Original post was removed; only an indexed extract remains. |
+| Consumer power and recourse | refund chargeback customer service 2026 | A Reddit dispute thread described conflict between a refund and a chargeback. | One business-side account; outcome is not independently verified. |
+| Platform exit | quit social media AI content 2026 | A NoSurf thread described staged exit and substitution toward other platforms. | Self-selected digital-wellness community and self-report. |
+| AI/work control | AI workplace monitoring bargaining 2026 | A worker discussion linked deployment to monitoring, workload, retraining, and bargaining. | Normative discussion, not an employer deployment panel. |
+| Housing, place, and mobility | rent versus buy insurance maintenance 2026 | A Bay Area thread framed renting as a risk and flexibility strategy. | Single local household account. |
+| Unequal exposure and status | disability workplace accommodation training 2026 | A lived account described inaccessible training and uncertain recourse. | Legal claims are not adjudicated evidence. |
+| Trust, identity, and cultural meaning | dignity housing belonging material security 2026 | A discussion linked housing and security to dignity, belonging, and family continuity. | Normative framing, not a sampled cultural study. |
+| Public systems and policy feedback | SNAP recertification calculation error 2026 | A benefits thread followed paperwork, contradictory records, repeated contact, and escalation. | State-specific self-report; no error-rate estimate. |
+| Political judgment and collective action | midterm organizing protest voting 2026 | A movement thread connected threat perception to protest, volunteering, and voting. | Intentions and event links are not completed action or policy effect. |
+| Firm, sector, and market power | market power switching costs bottlenecks 2026 | An investment discussion framed structural pricing power and technical bottlenecks. | Promotional framing and unverified market claims. |
+| Infrastructure and dependency | AI data center supply chain power 2026 | A discussion connected data centers to chips, copper, grids, and upstream constraints. | Investor framing; no local incidence evidence. |
+| Geopolitical and state consequences | tariffs geopolitics supply-chain resilience 2026 | A relay described tariffs and conflict shifting firms from lowest-cost sourcing to resilience. | Organizational relay; state and household effects remain open. |
+| AI companionship and trust | AI companion loneliness human connection 2026 | A discussion presented companionship as both support and possible avoidance. | Sensitive self-report; no prevalence or mental-health effect. |
+
+The first execution batch is intentionally Reddit-heavy because those indexed
+threads were the most accessible date-bounded material in this pass. It does
+not replace the required platform-balanced work. The next acquisition must
+pair each wave-004 item with a LinkedIn, YouTube, or X counter-signal where
+available and log platform gaps where it is not.
 
 The first Wave 003 topic is household room and consumption. Four public items
 were normalized in records/household-room-001.json through

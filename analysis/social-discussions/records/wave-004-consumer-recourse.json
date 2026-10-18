@@ -1,0 +1,16 @@
+{
+  "record_id": "social-wave-004-consumer-recourse-reddit-001",
+  "topic": "consumer-power-recourse",
+  "platform": "reddit",
+  "item_type": "lived_example_and_audience_reaction",
+  "author_or_account": "Reddit account not exposed in indexed result",
+  "title": "Amazon refund confirmed, then withdrawn",
+  "canonical_url": "https://www.reddit.com/r/amazonprime/comments/1wd7mb1/customer_got_a_refund_and_still_opened_a_charge/",
+  "published_window": "2026-09-11",
+  "retrieved": "2026-10-17",
+  "discussion_signal": "A seller describes a refund and chargeback conflict in which the platform's remedy and the bank dispute did not align. Replies debate reconciliation and show that a nominal remedy can still leave both sides uncertain about route, timing, and responsibility.",
+  "research_anchor_paths": ["analysis/US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md"],
+  "linked_research_question": "When a customer faces an error or denial, does a usable remedy exist, and can the customer switch or escalate without prohibitive cost?",
+  "classification": ["lived_example", "disagreement", "governance", "remedy_uncertainty"],
+  "limits": ["Business-side account and self-selected subreddit", "The transaction is not independently verified", "A single dispute cannot establish general platform or bank behavior"]
+}
