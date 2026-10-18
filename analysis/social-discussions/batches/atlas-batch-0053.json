@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0053",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "us-ftc-invitation-homes-renter-refunds-2026",
+    "us-ftc-publishingcom-earnings-refund-2026",
+    "us-ftc-refund-cashing-reissue-funnel-2024",
+    "us-ftc-rental-scam-housing-platform-losses-2020-2025",
+    "us-ftc-shutterstock-subscription-cancellation-2026",
+    "us-ftc-social-media-data-retention-control-2024",
+    "us-ftc-social-media-scam-losses-2025",
+    "us-ftc-take-it-down-act-platform-removal-2026",
+    "us-ftc-take-it-down-platform-removal-governance-2026",
+    "us-ftc-walmart-spark-driver-remedy-2026",
+    "us-gallup-911-memory-lifestyle-security-confidence-2000-2026",
+    "us-gallup-ai-work-manager-support-displacement-2026",
+    "us-gallup-ai-workplace-manager-buffer-displacement-2026",
+    "us-gallup-america250-social-ritual-meaning-2026",
+    "us-gallup-business-owner-local-climate-retention-2026",
+    "us-gallup-community-involvement-information-invitation-2026",
+    "us-gallup-courage-social-risk-2026",
+    "us-gallup-crypto-ownership-risk-reversal-2026",
+    "us-gallup-dmv-federal-cuts-local-labor-housing-pressure-2023-2026",
+    "us-gallup-economic-concepts-market-legitimacy-2026",
+    "us-gallup-election-concerns-democratic-legitimacy-2026",
+    "us-gallup-employee-data-trust-2026-workplace-monitoring-voice",
+    "us-gallup-financial-guidance-ai-trust-2026",
+    "us-gallup-financial-guidance-ai-trust-affordability-2026",
+    "us-gallup-government-corruption-perception-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-ftc-invitation-homes-renter-refunds-2026",
+      "atlas_record_path": "analysis/records/us-ftc-invitation-homes-renter-refunds-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Rent refund distribution makes fee opacity visible without proving restored housing security",
+      "geography": "United States federal consumer-protection enforcement involving Invitation Homes renters",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "rent refund distribution makes fee opacity visible without proving restored housing security household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "rent refund distribution makes fee opacity visible without proving restored housing security household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "rent refund distribution makes fee opacity visible without proving restored housing security household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "rent refund distribution makes fee opacity visible without proving restored housing security household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-ftc-publishingcom-earnings-refund-2026",
+      "atlas_record_path": "analysis/records/us-ftc-publishingcom-earnings-refund-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Earnings promises can sell a route to work while refund conditions narrow practical recourse",
+      "geography": "United States federal consumer-protection enforcement",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "earnings promises can sell route work while refund conditions narrow practical recourse consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "earnings promises can sell route work while refund conditions narrow practical recourse consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "earnings promises can sell route work while refund conditions narrow practical recourse consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "earnings promises can sell route work while refund conditions narrow practical recourse consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-ftc-refund-cashing-reissue-funnel-2024",
+      "atlas_record_path": "analysis/records/us-ftc-refund-cashing-reissue-funnel-2024.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "FTC refund programs reveal a cashing and reissue funnel between formal remedy and usable payment",
+      "geography": "United States FTC consumer-refund programs, with international and electronic payments retained as separate report categories",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ftc refund programs reveal cashing reissue funnel between formal remedy usable payment consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ftc refund programs reveal cashing reissue funnel between formal remedy usable payment consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ftc refund programs reveal cashing reissue funnel between formal remedy usable payment consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ftc refund programs reveal cashing reissue funnel between formal remedy usable payment consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-ftc-rental-scam-housing-platform-losses-2020-2025",
+      "atlas_record_path": "analysis/records/us-ftc-rental-scam-housing-platform-losses-2020-2025.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Digital rental listings are becoming a housing-access, identity-risk, and upfront-loss exposure",
+      "geography": "United States; Consumer Sentinel Network reports, January 2020 through June 2025, with age comparison July 2024 through June 2025",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "digital rental listings are becoming housing-access identity-risk upfront-loss exposure ftc consumer data housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "digital rental listings are becoming housing-access identity-risk upfront-loss exposure ftc consumer data housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "digital rental listings are becoming housing-access identity-risk upfront-loss exposure ftc consumer data housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "digital rental listings are becoming housing-access identity-risk upfront-loss exposure ftc consumer data housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-ftc-shutterstock-subscription-cancellation-2026",
+      "atlas_record_path": "analysis/records/us-ftc-shutterstock-subscription-cancellation-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Subscription design can convert inattention into billing and make exit costly",
+      "geography": "United States federal consumer-protection enforcement; online content, transportation, delivery, and membership subscription flows",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "subscription design can convert inattention into billing make exit costly federal trade household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "subscription design can convert inattention into billing make exit costly federal trade household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "subscription design can convert inattention into billing make exit costly federal trade household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "subscription design can convert inattention into billing make exit costly federal trade household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-ftc-social-media-data-retention-control-2024",
+      "atlas_record_path": "analysis/records/us-ftc-social-media-data-retention-control-2024.json",
+      "canonical_theme": "platform-exit",
+      "title": "Platform privacy controls can exist while practical data control remains uncertain",
+      "geography": "United States platform market and companies reviewed by the FTC",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "platform privacy controls can exist while practical data control remains uncertain ftc platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "platform privacy controls can exist while practical data control remains uncertain ftc platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "platform privacy controls can exist while practical data control remains uncertain ftc platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "platform privacy controls can exist while practical data control remains uncertain ftc platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-ftc-social-media-scam-losses-2025",
+      "atlas_record_path": "analysis/records/us-ftc-social-media-scam-losses-2025.json",
+      "canonical_theme": "platform-exit",
+      "title": "Social media is a growing route for reported consumer scam losses",
+      "geography": "United States; public fraud reports to the FTC and its reporting partners",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "social media growing route reported consumer scam losses ftc protection data spotlight platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "social media growing route reported consumer scam losses ftc protection data spotlight platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "social media growing route reported consumer scam losses ftc protection data spotlight platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "social media growing route reported consumer scam losses ftc protection data spotlight platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-ftc-take-it-down-act-platform-removal-2026",
+      "atlas_record_path": "analysis/records/us-ftc-take-it-down-act-platform-removal-2026.json",
+      "canonical_theme": "platform-exit",
+      "title": "A mandated platform-removal route creates digital recourse without proving restored safety or exit",
+      "geography": "United States covered online platforms, victims and survivors, and FTC consumer-protection enforcement",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "mandated platform-removal route creates digital recourse without proving restored safety exit federal platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "mandated platform-removal route creates digital recourse without proving restored safety exit federal platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "mandated platform-removal route creates digital recourse without proving restored safety exit federal platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "mandated platform-removal route creates digital recourse without proving restored safety exit federal platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-ftc-take-it-down-platform-removal-governance-2026",
+      "atlas_record_path": "analysis/records/us-ftc-take-it-down-platform-removal-governance-2026.json",
+      "canonical_theme": "platform-exit",
+      "title": "Platform safety is becoming a time-bounded removal and complaint-governance obligation",
+      "geography": "United States online platforms and people seeking removal of nonconsensual intimate images",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "platform safety becoming time-bounded removal complaint-governance obligation ftc enforcement guidance covered online platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "platform safety becoming time-bounded removal complaint-governance obligation ftc enforcement guidance covered online platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "platform safety becoming time-bounded removal complaint-governance obligation ftc enforcement guidance covered online platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "platform safety becoming time-bounded removal complaint-governance obligation ftc enforcement guidance covered online platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-ftc-walmart-spark-driver-remedy-2026",
+      "atlas_record_path": "analysis/records/us-ftc-walmart-spark-driver-remedy-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "A platform-worker judgment can separate missing-pay correction from restored work control",
+      "geography": "United States Walmart Spark Driver program; settlement relief is nationwide for eligible drivers",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "platform-worker judgment can separate missing-pay correction restored work control federal trade commission ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "platform-worker judgment can separate missing-pay correction restored work control federal trade commission ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "platform-worker judgment can separate missing-pay correction restored work control federal trade commission ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "platform-worker judgment can separate missing-pay correction restored work control federal trade commission ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-911-memory-lifestyle-security-confidence-2000-2026",
+      "atlas_record_path": "analysis/records/us-gallup-911-memory-lifestyle-security-confidence-2000-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Collective memory of 9/11 remains broad while personal lifestyle change and terrorism worry are lower and confidence in government protection is partisan",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "collective memory remains broad while personal lifestyle change terrorism worry are lower trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "collective memory remains broad while personal lifestyle change terrorism worry are lower trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "collective memory remains broad while personal lifestyle change terrorism worry are lower trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "collective memory remains broad while personal lifestyle change terrorism worry are lower trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-ai-work-manager-support-displacement-2026",
+      "atlas_record_path": "analysis/records/us-gallup-ai-work-manager-support-displacement-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Frequent workplace AI use can raise displacement fear while supportive management changes the meaning of the same exposure",
+      "geography": "United States employed adults",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "frequent workplace use can raise displacement fear while supportive management changes meaning ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "frequent workplace use can raise displacement fear while supportive management changes meaning ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "frequent workplace use can raise displacement fear while supportive management changes meaning ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "frequent workplace use can raise displacement fear while supportive management changes meaning ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-ai-workplace-manager-buffer-displacement-2026",
+      "atlas_record_path": "analysis/records/us-gallup-ai-workplace-manager-buffer-displacement-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "AI exposure can intensify displacement fear unless management makes worker value and transition visible",
+      "geography": "United States; employed adults aged 18 and older in Gallup Panel workforce studies",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "exposure can intensify displacement fear unless management makes worker value transition visible ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "exposure can intensify displacement fear unless management makes worker value transition visible ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "exposure can intensify displacement fear unless management makes worker value transition visible ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "exposure can intensify displacement fear unless management makes worker value transition visible ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-america250-social-ritual-meaning-2026",
+      "atlas_record_path": "analysis/records/us-gallup-america250-social-ritual-meaning-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "National anniversary participation is organized more through family, community, learning, and stories than official ceremony alone",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "national anniversary participation organized more through family community learning stories than official trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "national anniversary participation organized more through family community learning stories than official trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "national anniversary participation organized more through family community learning stories than official trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "national anniversary participation organized more through family community learning stories than official trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-business-owner-local-climate-retention-2026",
+      "atlas_record_path": "analysis/records/us-gallup-business-owner-local-climate-retention-2026.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Local business retention depends more on relational ecosystem and usable support than on headline cost ratings alone",
+      "geography": "United States; business owners, primarily recruited from the probability-based Gallup Panel",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "local business retention depends more relational ecosystem usable support than headline cost housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "local business retention depends more relational ecosystem usable support than headline cost housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "local business retention depends more relational ecosystem usable support than headline cost housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "local business retention depends more relational ecosystem usable support than headline cost housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-community-involvement-information-invitation-2026",
+      "atlas_record_path": "analysis/records/us-gallup-community-involvement-information-invitation-2026.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Community participation is constrained by information and invitation as well as time",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "community participation constrained information invitation well time gallup charles kettering foundation community-involvement political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "community participation constrained information invitation well time gallup charles kettering foundation community-involvement political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "community participation constrained information invitation well time gallup charles kettering foundation community-involvement political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "community participation constrained information invitation well time gallup charles kettering foundation community-involvement political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-courage-social-risk-2026",
+      "atlas_record_path": "analysis/records/us-gallup-courage-social-risk-2026.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Perceived decline in social courage can coexist with strong support for principled action and fear of its costs",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "perceived decline social courage can coexist strong support principled action fear its political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "perceived decline social courage can coexist strong support principled action fear its political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "perceived decline social courage can coexist strong support principled action fear its political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "perceived decline social courage can coexist strong support principled action fear its political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-crypto-ownership-risk-reversal-2026",
+      "atlas_record_path": "analysis/records/us-gallup-crypto-ownership-risk-reversal-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Crypto participation is retreating from its speculative peak while risk awareness remains high and unevenly distributed",
+      "geography": "United States; adults and investors, with investors defined as those holding $10,000 or more in investable assets",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "crypto participation retreating its speculative peak while risk awareness remains high unevenly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "crypto participation retreating its speculative peak while risk awareness remains high unevenly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "crypto participation retreating its speculative peak while risk awareness remains high unevenly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "crypto participation retreating its speculative peak while risk awareness remains high unevenly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-dmv-federal-cuts-local-labor-housing-pressure-2023-2026",
+      "atlas_record_path": "analysis/records/us-gallup-dmv-federal-cuts-local-labor-housing-pressure-2023-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Federal workforce reductions weaken local job confidence while housing costs remain the main exit pressure in the Washington region",
+      "geography": "Greater Washington region: District of Columbia, Maryland, and Virginia",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "federal workforce reductions weaken local job confidence while housing costs remain main firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "federal workforce reductions weaken local job confidence while housing costs remain main firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "federal workforce reductions weaken local job confidence while housing costs remain main firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "federal workforce reductions weaken local job confidence while housing costs remain main firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-economic-concepts-market-legitimacy-2026",
+      "atlas_record_path": "analysis/records/us-gallup-economic-concepts-market-legitimacy-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Economic-system attitudes combine rising socialism appeal with durable support for small business and market choice",
+      "geography": "United States; adults ages 18 and older in all 50 states and the District of Columbia",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "economic-system attitudes combine rising socialism appeal durable support small business market choice trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "economic-system attitudes combine rising socialism appeal durable support small business market choice trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "economic-system attitudes combine rising socialism appeal durable support small business market choice trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "economic-system attitudes combine rising socialism appeal durable support small business market choice trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-election-concerns-democratic-legitimacy-2026",
+      "atlas_record_path": "analysis/records/us-gallup-election-concerns-democratic-legitimacy-2026.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Election anxiety is broad, partisan in its targets, and connected to confidence in democratic administration",
+      "geography": "United States; adults surveyed ahead of the 2026 congressional and state elections",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "election anxiety broad partisan its targets connected confidence democratic administration gallup charles political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "election anxiety broad partisan its targets connected confidence democratic administration gallup charles political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "election anxiety broad partisan its targets connected confidence democratic administration gallup charles political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "election anxiety broad partisan its targets connected confidence democratic administration gallup charles political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-employee-data-trust-2026-workplace-monitoring-voice",
+      "atlas_record_path": "analysis/records/us-gallup-employee-data-trust-2026-workplace-monitoring-voice.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Workplace monitoring becomes a trust and control boundary shaped by purpose, transparency, and employee voice",
+      "geography": "United States; employees who regularly work on a computer or another device, with engagement, role, access, and communication comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "workplace monitoring becomes trust control boundary shaped purpose transparency employee voice gallup ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "workplace monitoring becomes trust control boundary shaped purpose transparency employee voice gallup ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "workplace monitoring becomes trust control boundary shaped purpose transparency employee voice gallup ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "workplace monitoring becomes trust control boundary shaped purpose transparency employee voice gallup ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-financial-guidance-ai-trust-2026",
+      "atlas_record_path": "analysis/records/us-gallup-financial-guidance-ai-trust-2026.json",
+      "canonical_theme": "platform-exit",
+      "title": "Financially stressed adults seek guidance through closer networks and AI while trust in AI remains low",
+      "geography": "United States and Canada; US comparisons retained as the primary unit",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "financially stressed adults seek guidance through closer networks while trust remains low platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "financially stressed adults seek guidance through closer networks while trust remains low platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "financially stressed adults seek guidance through closer networks while trust remains low platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "financially stressed adults seek guidance through closer networks while trust remains low platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-financial-guidance-ai-trust-affordability-2026",
+      "atlas_record_path": "analysis/records/us-gallup-financial-guidance-ai-trust-affordability-2026.json",
+      "canonical_theme": "platform-exit",
+      "title": "AI is entering financial guidance as a low-cost research layer without becoming a trusted decision-maker",
+      "geography": "United States; adults age 21 and older; survey fielded March 20-April 6, 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "entering financial guidance low-cost research layer without becoming trusted decision-maker gallup edward platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "entering financial guidance low-cost research layer without becoming trusted decision-maker gallup edward platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "entering financial guidance low-cost research layer without becoming trusted decision-maker gallup edward platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "entering financial guidance low-cost research layer without becoming trusted decision-maker gallup edward platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gallup-government-corruption-perception-2026",
+      "atlas_record_path": "analysis/records/us-gallup-government-corruption-perception-2026.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Perceived government corruption reaches a record high and is broadly bipartisan, while the government-business gap widens",
+      "geography": "United States; adults, with comparison to OECD countries",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0053",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "perceived government corruption reaches high broadly bipartisan while government-business gap widens gallup political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "perceived government corruption reaches high broadly bipartisan while government-business gap widens gallup political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "perceived government corruption reaches high broadly bipartisan while government-business gap widens gallup political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "perceived government corruption reaches high broadly bipartisan while government-business gap widens gallup political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
