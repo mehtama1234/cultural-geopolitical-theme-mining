@@ -43769,11 +43769,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "coverage routes can expand while large uninsured gap remains cdc national center care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0043-nhis-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -43784,7 +43786,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-cdc-places-county-capacity-outcomes-2024",
@@ -43892,11 +43894,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "youth health improving some emotional dietary indicators while sleep activity digital-risk constraints care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0043-youth-health-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -43907,7 +43911,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-census-2025-income-poverty-insurance-divergence",

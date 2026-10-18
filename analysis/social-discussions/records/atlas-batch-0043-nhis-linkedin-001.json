@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0043-nhis-linkedin-001",
+  "atlas_record_ids": ["us-cdc-nhis-health-insurance-coverage-2025"],
+  "topic": "care-health-social-reproduction",
+  "platform": "linkedin",
+  "item_type": "official_statistic_circulation",
+  "author_or_account": "State Health Access Data Assistance Center",
+  "title": "NHIS Data: Uninsurance Rate Remains Steady in 2025",
+  "canonical_url": "https://www.linkedin.com/posts/shadac_health-insurance-coverage-early-release-activity-7465872375083868160-URqf",
+  "published_window": "2026-06",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post circulates the early NHIS estimate that the national uninsured rate was statistically unchanged in 2025. It reinforces the distinction between stable aggregate coverage and the remaining uninsured gap, while directing readers to the underlying CDC release.",
+  "research_anchor_paths": ["analysis/records/us-cdc-nhis-health-insurance-coverage-2025.json"],
+  "linked_research_question": "Can coverage routes expand or remain stable while meaningful groups still face an uninsured or unusable-care gap?",
+  "classification": ["official_statistic", "health_access", "coverage_gap", "public_interpretation"],
+  "limits": ["An early-release estimate may be revised", "A national rate hides subgroup and state variation", "Insurance status does not measure affordability or continuity of care"]
+}
