@@ -19,6 +19,11 @@ engagement or revenue goal
 
 This is one durable lane in the long-term atlas. Continue deepening it as usage data and consumer evidence show how product design changes behavior, meaning, and power.
 
+The [AI companionship support, substitution, and exit bridge](ai-companionship-support-substitution-exit-bridge-v1.md)
+connects youth and adult surveys, HBS farewell experiments, the FTC inquiry,
+and synthetic-contact experiments. It keeps support, attachment, substitution,
+exit, and durable human connection separate.
+
 The [Pew 2025 news, platform, and civic-engagement layer](pew-2025-news-civic-engagement-layer-v1.md)
 adds population and content evidence on four forms of engagement, partisan
 news-source ecosystems, and social-media news influencers. It measures
