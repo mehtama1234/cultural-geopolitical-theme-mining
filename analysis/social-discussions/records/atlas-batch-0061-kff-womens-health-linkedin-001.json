@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0061-kff-womens-health-linkedin-001",
+  "atlas_record_ids": ["us-kff-womens-health-affordability-2026-cost-care-tradeoffs"],
+  "topic": "care-health-social-reproduction",
+  "platform": "linkedin",
+  "item_type": "institutional_interpretation_and_lived-pressure_signal",
+  "author_or_account": "KFF",
+  "title": "Women Delay Medical Care Due to Cost Concerns",
+  "canonical_url": "https://www.linkedin.com/posts/kfforg_in-the-last-year-many-women-have-delayed-activity-7510360233567875073-cnav",
+  "published_window": "2026-10",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "KFF’s post makes the household tradeoff concrete: cost can lead women to postpone tests or treatment, not fill prescriptions, or alter doses. It adds a direct care-behavior signal to the atlas record’s broader connection among coverage, affordability, medication, and household necessities.",
+  "research_anchor_paths": ["analysis/records/us-kff-womens-health-affordability-2026-cost-care-tradeoffs.json"],
+  "linked_research_question": "How do women’s health discussions show affordability becoming a choice among care, medication, and basic household needs?",
+  "classification": ["institutional_interpretation", "lived-pressure-signal", "women-health", "care-delay", "medication-access", "affordability"],
+  "limits": ["Institutional post summarizing a survey", "Self-reported tradeoffs do not establish clinical outcomes", "LinkedIn engagement is not a representative patient sample", "Public search discovery is not a platform-native Creator/API export"]
+}
