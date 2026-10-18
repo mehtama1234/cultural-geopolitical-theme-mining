@@ -1,5 +1,15 @@
 # US broad program next-pass queue v1
 
+**Latest education-and-AI rotation — 2026-10-18:** the [AI in education,
+learning, teacher agency, and equity audit](projects/cross-domain/ai-education-learning-agency-equity-audit-v1.md)
+joins NBER K–12 integration inequality, OECD task-performance versus learning,
+Gallup teacher oversight, Chicago randomized outreach trials, Google teen-use
+evidence, UNESCO governance, and bounded discussion. The evidence supports a
+performance-to-learning gap: adoption and polished output can grow without
+independent learning, teacher control, or equal school capacity. Next: follow a
+student or school episode through tool access, teacher control, independent
+assessment, subgroup conditions, correction or alternatives, and progression.
+
 **Latest credit-and-household-room rotation — 2026-10-18:** the [credit cost,
 score feedback, household room, and exit audit](projects/cross-domain/credit-cost-score-household-exit-audit-v1.md)
 joins Philadelphia Fed borrowing-cost and purchase decisions with NBER
