@@ -1,6 +1,6 @@
 # Source registry coverage audit v1
 
-**Checked:** 2026-10-17
+**Checked:** 2026-10-18
 
 This control compares the registered source universe with the files under
 `analysis/`. It distinguishes a registered source from evidence that uses
@@ -159,7 +159,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **777**
+- Observed domains outside registered families: **781**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -191,6 +191,7 @@ family that will be acquired, compared, or maintained over time.
 | `commission.europa.eu` | 27 | `analysis/projects/cross-domain/eu-child-safety-online-developmental-social-contract-2026-09-29.md`; `analysis/projects/cross-domain/eu-child-safety-online-developmental-social-contract-2026-09-29.md`; `analysis/records/comparative-eu-child-safety-online-developmental-social-contract-2026.json` |
 | `deloitte.com` | 27 | `analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json`; `analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json`; `analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json` |
 | `privacy.ca.gov` | 26 | `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md`; `analysis/us-source-coverage.md`; `analysis/us-source-coverage.md` |
+| `reddit.com` | 25 | `analysis/social-discussions/records/consumer-recourse-002.json`; `analysis/social-discussions/records/trust-meaning-002.json`; `analysis/social-discussions/records/ai-companionship-003.json` |
 | `kff.org` | 24 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
 | `wipo.int` | 24 | `analysis/records/comparative-wipo-global-innovation-cluster-concentration-2025.json`; `analysis/records/comparative-wipo-global-innovation-cluster-concentration-2025.json`; `analysis/records/comparative-wipo-global-innovation-cluster-concentration-2025.json` |
 | `mohr.gov.my` | 23 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
@@ -203,7 +204,6 @@ family that will be acquired, compared, or maintained over time.
 | `afrobarometer.org` | 21 | `analysis/projects/cross-domain/afrobarometer-african-insights-2026-global-order-agency.md`; `analysis/projects/cross-domain/afrobarometer-east-africa-reproductive-autonomy-2026.md`; `analysis/records/comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion.json` |
 | `moreincommon.org.uk` | 21 | `analysis/projects/cross-domain/more-in-common-conflict-domestic-cohesion-2026-09-28.md`; `analysis/projects/cross-domain/more-in-common-conflict-domestic-cohesion-2026-09-28.md`; `analysis/projects/cross-domain/more-in-common-strong-roots-nature-place-politics-2026-09-28.md` |
 | `theguarantors.com` | 21 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
-| `huduser.gov` | 20 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
 
 ## Reverse-audit decisions
 
@@ -241,6 +241,7 @@ without a recurring acquisition need and source-specific metadata.
 | `commission.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `deloitte.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `privacy.ca.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `kff.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wipo.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mohr.gov.my` | official Malaysian labor authority | Retain as a comparative public-record source; preserve the responsible department, instrument, date, and implementation status for each claim. |
@@ -270,7 +271,6 @@ without a recurring acquisition need and source-specific metadata.
 | `freedomhouse.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `gartner.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `natcen.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `apnorc.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cambridge.org` | academic publisher | Retain the cited paper/publisher route; promote the specific research program only when it becomes a maintained acquisition lane. |
 | `digital-strategy.ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -764,6 +764,7 @@ without a recurring acquisition need and source-specific metadata.
 | `economics.princeton.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `edgehill.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `embed-rech-01.dialog.cm` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `en.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `equalpayinternationalcoalition.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `exportcontrol.mofcom.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fairwork.oii.ox.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -850,6 +851,7 @@ without a recurring acquisition need and source-specific metadata.
 | `bpb-us-e1.wpmucdn.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `brasil.un.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `britishcouncil.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `ca.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `caseycommission.co.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `cdn.prod.website-files.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -914,6 +916,7 @@ without a recurring acquisition need and source-specific metadata.
 | `investor.nvidia.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `isibaloweb.statssa.gov.za` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `isps.yale.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `ja.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `journals.plos.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
 | `jstor.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -973,6 +976,7 @@ without a recurring acquisition need and source-specific metadata.
 | `stat.mcst.go.kr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `stonecenter.gc.cuny.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `support.google.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `tr.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ucdp.uu.se` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unctadstat.unctad.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `undrr.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
