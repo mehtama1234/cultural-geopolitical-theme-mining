@@ -34,3 +34,16 @@ Additional Reddit results closed four more record-level attempts:
 
 The remaining 24 atlas records in batch 0001 remain `in_review`; no record is
 marked terminal merely because one platform produced a usable item.
+# Batch 0001 continuation — 2026-10-18
+
+The first 25 atlas rows were reviewed against public web-indexed discussion surfaces. Sixteen exact social records were retained in this batch continuation, covering five atlas records; the remaining platform attempts for those five records were recorded as documented access/search gaps. Search results were treated as leads only and normalized records retain the source URL, exact atlas ID, signal, and limits.
+
+Retained exact links:
+
+- `comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust`: LinkedIn professional discussion on AI hiring, hybrid work, autonomy and trust.
+- `comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries`: Reddit discussion on spending caps, revocation and accountability for shopping agents.
+- `comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging`: Reddit discussion on cultural festivals and everyday cross-cultural contact.
+- `comparative-abs-migrant-settlement-outcomes-2026-visa-stream-income-rent-language`: Reddit discussion on social fluency plus LinkedIn discussion on social capital and local work experience.
+- `comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion`: Reddit discussion showing both multicultural support and material/identity grievance.
+
+Platform accounting for those five rows is explicit in `full-atlas-coverage.json`: retained evidence is `augmented`; searched surfaces without a retained directly relevant item are `documented_access_gap`. This does not mean the platform has no relevant material; it means this acquisition pass did not retain one.

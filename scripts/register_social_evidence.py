@@ -4,7 +4,9 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
+import tempfile
 from datetime import date
 from pathlib import Path
 
@@ -31,8 +33,20 @@ def main() -> None:
     item["retrieved"] = str(date.today())
     item["result_or_gap"] = "normalized social evidence retained"
     row["next_action"] = "complete_remaining_platform_attempts"
-    QUEUE.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    _atomic_write(payload)
     print(f"REGISTERED {record_id} -> {atlas_id}/{platform}")
+
+
+def _atomic_write(payload: dict) -> None:
+    fd, temp_name = tempfile.mkstemp(prefix="full-atlas-coverage-", suffix=".json", dir=QUEUE.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            json.dump(payload, handle, indent=2, ensure_ascii=False)
+            handle.write("\n")
+        os.replace(temp_name, QUEUE)
+    finally:
+        if os.path.exists(temp_name):
+            os.unlink(temp_name)
 
 
 if __name__ == "__main__":

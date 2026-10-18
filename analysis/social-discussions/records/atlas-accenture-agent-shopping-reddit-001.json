@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-accenture-agent-shopping-reddit-001",
+  "atlas_record_ids": ["comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries"],
+  "topic": "consumer-power-recourse",
+  "platform": "reddit",
+  "item_type": "audience_reaction_and_consumer_control_signal",
+  "author_or_account": "r/AI_In_ECommerce participant; account not exposed",
+  "title": "Consumers want shopping delegation with spending caps and revocation",
+  "canonical_url": "https://www.reddit.com/r/AI_In_ECommerce/comments/1ukmhrn/the_agentic_commerce_trust_gap_27_of_consumers/",
+  "published_window": "2026-07-18 (indexed three months before retrieval)",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The discussion highlights a trust gap around agentic shopping: people may delegate routine search or purchases, but want spending caps, instant revocation, cancellation and clear accountability. The post treats control and recourse as practical conditions for delegation.",
+  "research_anchor_paths": ["analysis/records/comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries.json"],
+  "linked_research_question": "What controls and recourse do people require before delegating consumer judgment and payment to AI agents?",
+  "classification": ["audience_reaction", "consumer_control", "delegation", "recourse"],
+  "limits": ["Single self-selected subreddit discussion", "Reported survey figures are not verified against the underlying report here", "Discussion captures stated attitudes, not observed purchases"]
+}

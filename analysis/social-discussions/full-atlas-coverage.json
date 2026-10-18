@@ -357,40 +357,42 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Culture functions as everyday social infrastructure, but cost, time and accessibility still shape who can participate",
       "geography": "King County, Washington; representative resident sample and supplementary cultural-audience sample",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0001",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture functions everyday social infrastructure but cost time accessibility still shape who care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "culture functions everyday social infrastructure but cost time accessibility still shape who care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-4culture-king-county-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture functions everyday social infrastructure but cost time accessibility still shape who care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "culture functions everyday social infrastructure but cost time accessibility still shape who care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
@@ -523,40 +525,44 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Australian migrant settlement outcomes diverge by visa stream across income, rent pressure, language, and service access",
       "geography": "Australia; permanent migrants with linked administrative, Census, and settlement-outcome data",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0001",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "australian migrant settlement outcomes diverge visa stream across income rent pressure language housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "australian migrant settlement outcomes diverge visa stream across income rent pressure language housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-abs-migrant-settlement-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "australian migrant settlement outcomes diverge visa stream across income rent pressure language housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-abs-migrant-settlement-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "australian migrant settlement outcomes diverge visa stream across income rent pressure language housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport",
@@ -650,40 +656,42 @@
       "canonical_theme": "ai-work-control",
       "title": "Professionals are adopting AI while demanding human judgment, hybrid flexibility and credible organizational purpose",
       "geography": "Global accountancy and finance professionals, employers and leaders covered by the ACCA survey and report evidence",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0001",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "professionals are adopting while demanding human judgment hybrid flexibility credible organizational purpose ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "professionals are adopting while demanding human judgment hybrid flexibility credible organizational purpose ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant Reddit item retained.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "professionals are adopting while demanding human judgment hybrid flexibility credible organizational purpose ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-acca-ai-hiring-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "professionals are adopting while demanding human judgment hybrid flexibility credible organizational purpose ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries",
@@ -691,40 +699,42 @@
       "canonical_theme": "platform-exit",
       "title": "Consumers are beginning to delegate shopping labor to AI agents while retaining control over purchases carrying identity, emotion, risk, or personal meaning",
       "geography": "Consumers in 16 countries: Australia, Brazil, Canada, Chile, China, France, Germany, India, Italy, Japan, Mexico, Spain, Sweden, United Arab Emirates, United Kingdom, and United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0001",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumers are beginning delegate shopping labor agents while retaining control over purchases platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "consumers are beginning delegate shopping labor agents while retaining control over purchases platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-accenture-agent-shopping-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumers are beginning delegate shopping labor agents while retaining control over purchases platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumers are beginning delegate shopping labor agents while retaining control over purchases platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-acled-raleigh-report-september-2026-conflict-systems-disorder",
@@ -978,40 +988,42 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "African social cohesion combines broad tolerance with steep trust gradients, restrictive immigration attitudes, and weak institutional fairness",
       "geography": "38 African countries; Afrobarometer Round 10 interviews conducted in 2024/2025",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0001",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "african social cohesion combines broad tolerance steep trust gradients restrictive immigration attitudes trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "african social cohesion combines broad tolerance steep trust gradients restrictive immigration attitudes trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-afrobarometer-cohesion-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "african social cohesion combines broad tolerance steep trust gradients restrictive immigration attitudes trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "african social cohesion combines broad tolerance steep trust gradients restrictive immigration attitudes trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-americasbarometer-pulse-democracy-2026-material-security-legitimacy",
