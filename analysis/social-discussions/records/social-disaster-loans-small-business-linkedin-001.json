@@ -1,0 +1,17 @@
+{
+  "record_id": "social-disaster-loans-small-business-linkedin-001",
+  "atlas_record_ids": ["us-small-business-disaster-liquidity-causal-2024"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "research_relay",
+  "author_or_account": "Harvard Business School",
+  "title": "Disaster Recovery Loans Help Small Businesses Survive and Rebuild",
+  "canonical_url": "https://www.linkedin.com/posts/harvard-business-school_hbsresearchspotlight-researchpowersprogress-activity-7503786373611638785-0aG0",
+  "published_window": "2026-10 (search index: 2 weeks ago)",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The HBS research relay reports that disaster-affected businesses receiving loans were more likely to survive, had lower bankruptcy rates, regained employment, and gained private-credit access, matching the atlas record's liquidity-to-recovery pathway.",
+  "research_anchor_paths": ["analysis/records/us-small-business-disaster-liquidity-causal-2024.json"],
+  "linked_research_question": "Can emergency liquidity prevent disaster-induced firm exit while supporting employment, revenue, and later access to private credit?",
+  "classification": ["research_relay", "small_business", "disaster_liquidity", "causal_claim", "boundary_aware"],
+  "limits": ["The post provides a short result summary without full design details", "Search-index date is approximate", "LinkedIn audience is selected", "Firm-level recovery is not identical to household-level welfare"]
+}
