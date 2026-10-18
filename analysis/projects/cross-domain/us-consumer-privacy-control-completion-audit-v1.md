@@ -25,6 +25,7 @@ trust, switching, fraud protection, and practical agency`.
 | Sale opt-out route | Walmart reports 17,367 sale/ sharing opt-out requests, 17,276 completed, and 91 denied. | A restriction on a specified use can have a much higher reported completion rate than deletion. | Opting out of sale is not deleting data; downstream use, inference, internal access, and re-collection remain unobserved. |
 | Administrative condition | Walmart states identity or authorization verification is required and valid exemptions may produce denial. | Practical privacy control depends on the request route and eligibility rules, not only the legal right. | The aggregate metrics do not show verification burden, language/access differences, repeat requests, or appeal success. |
 | External mechanism | [NBER tracking and fraud paper](../../records/us-nber-privacy-tracking-fraud-2026.json) reports that Apple’s App Tracking Transparency natural experiment reduced consumer fraud complaints, with larger decreases for personal-information misuse and in places exposed to riskier data practices. | Data-flow restrictions can have downstream consumer-protection effects beyond a company’s privacy dashboard. | The working paper is observational around a policy shock; complaint reductions do not measure all fraud, reimbursement, restored accounts, or trust. |
+| Centralized consumer route | [California DROP implementation](../../records/us-calprivacy-drop-data-broker-deletion-2026.json) reports about 500,000 registrants, 654 brokers in the system, and only about 25% of brokers reporting that they processed deletion requests after mandatory processing began; status may take up to 90 days and can be deleted, exempted, sale-opted-out, not found, or pending. | A centralized route can lower consumer effort and expose broker-level status at large scale. | Registration and broker reporting are not matched deletion, exemption validity, no re-collection, or durable person-level control. |
 | Governance context | [GAO AI privacy guidance record](../../records/us-gao-ai-privacy-guidance-gaps-2026.json) distinguishes federal AI use from incomplete guidance, risk identification, oversight, transparency, metrics, and agency capacity. | Consumer privacy control sits inside a wider governance-capacity problem as data-intensive systems expand. | Federal guidance gaps do not evaluate Walmart’s CCPA operations or prove a company failure. |
 
 ## Finding
@@ -44,6 +45,15 @@ consumer changed behavior. The NBER result supplies a counter-mechanism: changin
 the data-resale/tracking environment can reduce fraud complaints, suggesting that
 privacy controls may matter downstream, but it does not identify which individual
 requests produced which protection.
+
+California DROP is a useful positive counterexample to a purely company-by-
+company route: one consumer request can reach hundreds of brokers and provide
+status visibility. But its implementation record reproduces the same open middle
+at a larger scale. A broker reporting that it processed a request is not the same
+as a matched deletion, and a status such as “not found,” “exempted,” or
+“sale-opted-out” has different implications for residual exposure. The comparison
+therefore sharpens the finding: centralization can reduce effort and improve
+visibility without proving durable control.
 
 ## Counterexamples and disconfirmation checks
 
@@ -91,9 +101,11 @@ request type and purpose
 
 Seek regulator filings, company transparency detail, consumer-request samples,
 appeal/complaint outcomes, and—where legally available—de-identified repeated
-request or data-residency audits. Compare access, deletion, and sale opt-out
-routes without treating them as interchangeable. Preserve consumers who stay,
-repeat requests, or abandon the process as distinct outcomes.
+request or data-residency audits. Compare Walmart’s company route with DROP’s
+centralized broker route, preserving status categories and processing clocks.
+Compare access, deletion, and sale opt-out routes without treating them as
+interchangeable. Preserve consumers who stay, repeat requests, or abandon the
+process as distinct outcomes.
 
 ## Stopping rule
 

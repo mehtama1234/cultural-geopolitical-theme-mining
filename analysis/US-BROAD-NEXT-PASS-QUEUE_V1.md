@@ -3,8 +3,9 @@
 **Latest U.S. consumer rotation — 2026-10-18:** the [privacy control and
 completion audit](projects/cross-domain/us-consumer-privacy-control-completion-audit-v1.md)
 follows Walmart’s reported access, deletion, and sale-opt-out request stages,
-compares them with NBER evidence on tracking restrictions and fraud complaints,
-and adds bounded privacy-governance discussion. The evidence supports a
+compares them with California’s centralized DROP broker route and NBER evidence
+on tracking restrictions and fraud complaints, and adds bounded privacy-
+governance discussion. The evidence supports a
 completion-to-control gap: administrative closure does not prove data removal,
 constrained downstream use, no re-collection, fraud protection, or durable
 consumer agency. Next: seek a same-request or repeat-consumer trace linking
