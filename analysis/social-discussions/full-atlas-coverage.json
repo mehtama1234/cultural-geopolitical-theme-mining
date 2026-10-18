@@ -71322,8 +71322,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Financial control can coexist with thin buffers and credit dependence",
       "geography": "United States; adults age 18 and older; survey fielded September 8-10, 2026",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71355,7 +71355,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-new-america-national-parent-survey-2026-time-care-money-sandwich",
@@ -71363,8 +71363,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Parents broadly want more time with young children, but money, care supply, work schedules, and eldercare determine whether that ideal is reachable",
       "geography": "United States; parents and primary caregivers of children ages zero through five in all 50 states and the District of Columbia",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71396,7 +71396,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-new-mexico-sb24-fiscal-impact-planned-distribution-2008",
@@ -71404,8 +71404,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "The New Mexico tax-credit fiscal report specified projected distribution and administrative routes, but not realized receipt",
       "geography": "New Mexico statewide personal-income-tax returns; 2008 special-session fiscal estimate",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71437,7 +71437,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-new-mexico-sb24-vote-to-refundable-credit-implementation-2008",
@@ -71445,8 +71445,8 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "The New Mexico constituency-information experiment was followed by enacted but reduced tax-credit implementation",
       "geography": "New Mexico; statewide tax law and state House special-session vote",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71478,7 +71478,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-new-york-dfs-insurance-complaints-availability-2025",
@@ -71486,8 +71486,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "A state insurance regulator makes complaint recovery and market-availability work visible without closing the household outcome chain",
       "geography": "New York State regulatory and consumer-assistance system; national referrals can occur in the complaint workflow",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71519,7 +71519,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-new-york-fed-household-debt-credit-2026q2",
@@ -71527,8 +71527,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Aggregate household debt expands while delinquency remains a distinct exposure layer",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71560,7 +71560,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nextdoor-harris-neighborhood-trust-mutual-aid-2026",
@@ -71568,8 +71568,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Neighborhood trust is practically resilient but socially under-connected, especially for young adults",
       "geography": "United States; adults age 18+",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71601,7 +71601,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nhts-mobility-material-work-care-2022",
@@ -71609,8 +71609,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Mobility pressure is jointly patterned by place, household resources, and trip purpose",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71642,7 +71642,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nhts-urban-rural-mobility-options-2022",
@@ -71650,8 +71650,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Urban and rural households face different transport option sets",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71683,7 +71683,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-niq-ai-assisted-shopping-agentic-commerce-2026",
@@ -71691,8 +71691,8 @@
       "canonical_theme": "platform-exit",
       "title": "AI-assisted shopping is moving into mainstream product discovery and evaluation, shifting the path to purchase toward machine-mediated choice",
       "geography": "United States, with tracker also described as covering Canada",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71724,7 +71724,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nlc-municipal-infrastructure-conditions-2026-finance-water-mobility",
@@ -71732,8 +71732,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Municipal infrastructure pressure is becoming a local-fiscal and workforce-capacity problem",
       "geography": "United States; cities, towns, and villages responding to the NLC municipal infrastructure survey",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71765,7 +71765,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nlc-municipal-infrastructure-conditions-2026-local-capacity-funding",
@@ -71773,8 +71773,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Municipal infrastructure resilience depends less on project need than on local fiscal, workforce, and grant-management capacity",
       "geography": "United States; responding cities, towns, and villages, with comparison to 2022 municipal infrastructure survey results",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71806,7 +71806,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nlrb-worker-voice-administration-fy2025",
@@ -71814,8 +71814,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Labor-process demand can be substantial while durable worker power remains unmeasured",
       "geography": "United States private-sector labor-relations jurisdiction",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71847,7 +71847,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-npr-ipsos-ai-spiritual-guidance-relational-authority-2026",
@@ -71855,8 +71855,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Americans use AI broadly but preserve relational and human authority for spiritual, moral, and emotionally consequential counsel",
       "geography": "United States; adults age 18 and older in a nationally representative KnowledgePanel probability sample",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71888,7 +71888,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nrf-retail-economic-perspective-2026-services-inflation-household-room",
@@ -71896,8 +71896,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Household affordability pressure is increasingly concentrated in essential services rather than ordinary retail goods",
       "geography": "United States; macroeconomic and consumer-spending framing using BLS and industry data",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71929,7 +71929,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nvidia-h200-china-license-no-revenue-2026",
@@ -71937,8 +71937,8 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "NVIDIA disclosed a February 2026 H200 license for small shipments to specific China customers, but no H200 revenue or China import was realized by filing date",
       "geography": "United States, China, NVIDIA, U.S. export-control authorities, and advanced-computing customers",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -71970,7 +71970,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nvidia-h200-partial-china-shipments-prc-restriction-2026",
@@ -71978,8 +71978,8 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "NVIDIA reported a fraction of licensed H200 shipments to China, but PRC restrictions prevented full licensed sales and the market remained effectively foreclosed",
       "geography": "United States, China, NVIDIA, U.S. export-control authorities, Chinese regulators, and advanced-computing customers",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -72011,7 +72011,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-ny-psc-transmission-ratepayer-refund-2025-2026",
@@ -72019,8 +72019,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Transmission cost oversight can create a ratepayer refund route before individual bill impact is visible",
       "geography": "New York State ratepayers and transmission customers",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -72052,7 +72052,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nyc-congestion-pricing-implementation-2026",
@@ -72060,8 +72060,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "New York congestion pricing produced observed traffic and early transit changes while capital delivery and distributive legitimacy remain open",
       "geography": "New York City; Congestion Relief Zone and selected environmental-justice monitoring locations",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -72093,7 +72093,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nyc-local-law-25-algorithmic-work-study-2026",
@@ -72101,8 +72101,8 @@
       "canonical_theme": "ai-work-control",
       "title": "A city can mandate measurement of algorithmic work impacts before worker outcomes are publicly visible",
       "geography": "New York City municipal civil service and algorithmic employment decision context",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -72134,7 +72134,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nyc-universal-school-meals-access-learning-2026",
@@ -72142,8 +72142,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Universal school meals can convert stigma-free access into participation and learning gains while leaving food quality, waste, and household spillovers contested",
       "geography": "New York City public schools; citywide meal operations and middle-school evaluation",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -72175,7 +72175,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk",
@@ -72183,8 +72183,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Household spending expectations rise while credit access, financial outlook, and job-finding confidence deteriorate",
       "geography": "United States; nationally representative internet-based rotating panel of approximately 1,300 household heads, fielded 3–31 August 2026",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -72216,7 +72216,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nyfed-economic-heterogeneity-2025",
@@ -72224,8 +72224,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Household inflation, earnings, and consumption diverge across US groups",
       "geography": "United States national indicators, with metro, regional, demographic, and urban/rural groupings",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -72257,7 +72257,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nyfed-economic-heterogeneity-april-2026",
@@ -72265,8 +72265,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "A gasoline shock reverses some US household inflation and spending gaps",
       "geography": "United States national indicators, with demographic, regional, urban/rural, and income-group comparisons",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -72298,7 +72298,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nyfed-economic-heterogeneity-regional-april-2026",
@@ -72306,8 +72306,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Second District households and small firms absorb the 2026 shock differently from national groups",
       "geography": "Federal Reserve Second District; firm regional analysis covers New York, New Jersey, and Connecticut",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -72339,7 +72339,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nyfed-small-business-capacity-2025",

@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0070",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "us-nerdwallet-financial-resilience-control-buffer-credit-2026",
+    "us-new-america-national-parent-survey-2026-time-care-money-sandwich",
+    "us-new-mexico-sb24-fiscal-impact-planned-distribution-2008",
+    "us-new-mexico-sb24-vote-to-refundable-credit-implementation-2008",
+    "us-new-york-dfs-insurance-complaints-availability-2025",
+    "us-new-york-fed-household-debt-credit-2026q2",
+    "us-nextdoor-harris-neighborhood-trust-mutual-aid-2026",
+    "us-nhts-mobility-material-work-care-2022",
+    "us-nhts-urban-rural-mobility-options-2022",
+    "us-niq-ai-assisted-shopping-agentic-commerce-2026",
+    "us-nlc-municipal-infrastructure-conditions-2026-finance-water-mobility",
+    "us-nlc-municipal-infrastructure-conditions-2026-local-capacity-funding",
+    "us-nlrb-worker-voice-administration-fy2025",
+    "us-npr-ipsos-ai-spiritual-guidance-relational-authority-2026",
+    "us-nrf-retail-economic-perspective-2026-services-inflation-household-room",
+    "us-nvidia-h200-china-license-no-revenue-2026",
+    "us-nvidia-h200-partial-china-shipments-prc-restriction-2026",
+    "us-ny-psc-transmission-ratepayer-refund-2025-2026",
+    "us-nyc-congestion-pricing-implementation-2026",
+    "us-nyc-local-law-25-algorithmic-work-study-2026",
+    "us-nyc-universal-school-meals-access-learning-2026",
+    "us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk",
+    "us-nyfed-economic-heterogeneity-2025",
+    "us-nyfed-economic-heterogeneity-april-2026",
+    "us-nyfed-economic-heterogeneity-regional-april-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-nerdwallet-financial-resilience-control-buffer-credit-2026",
+      "atlas_record_path": "analysis/records/us-nerdwallet-financial-resilience-control-buffer-credit-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Financial control can coexist with thin buffers and credit dependence",
+      "geography": "United States; adults age 18 and older; survey fielded September 8-10, 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "financial control can coexist thin buffers credit dependence nerdwallet consumer resilience index household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "financial control can coexist thin buffers credit dependence nerdwallet consumer resilience index household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "financial control can coexist thin buffers credit dependence nerdwallet consumer resilience index household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "financial control can coexist thin buffers credit dependence nerdwallet consumer resilience index household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-new-america-national-parent-survey-2026-time-care-money-sandwich",
+      "atlas_record_path": "analysis/records/us-new-america-national-parent-survey-2026-time-care-money-sandwich.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Parents broadly want more time with young children, but money, care supply, work schedules, and eldercare determine whether that ideal is reachable",
+      "geography": "United States; parents and primary caregivers of children ages zero through five in all 50 states and the District of Columbia",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "parents broadly want more time young children but money care supply work care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "parents broadly want more time young children but money care supply work care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "parents broadly want more time young children but money care supply work care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "parents broadly want more time young children but money care supply work care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-new-mexico-sb24-fiscal-impact-planned-distribution-2008",
+      "atlas_record_path": "analysis/records/us-new-mexico-sb24-fiscal-impact-planned-distribution-2008.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "The New Mexico tax-credit fiscal report specified projected distribution and administrative routes, but not realized receipt",
+      "geography": "New Mexico statewide personal-income-tax returns; 2008 special-session fiscal estimate",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "new mexico tax-credit fiscal report specified projected distribution administrative routes but not household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "new mexico tax-credit fiscal report specified projected distribution administrative routes but not household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "new mexico tax-credit fiscal report specified projected distribution administrative routes but not household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "new mexico tax-credit fiscal report specified projected distribution administrative routes but not household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-new-mexico-sb24-vote-to-refundable-credit-implementation-2008",
+      "atlas_record_path": "analysis/records/us-new-mexico-sb24-vote-to-refundable-credit-implementation-2008.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "The New Mexico constituency-information experiment was followed by enacted but reduced tax-credit implementation",
+      "geography": "New Mexico; statewide tax law and state House special-session vote",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "new mexico constituency-information experiment was followed enacted but reduced tax-credit implementation second political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "new mexico constituency-information experiment was followed enacted but reduced tax-credit implementation second political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "new mexico constituency-information experiment was followed enacted but reduced tax-credit implementation second political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "new mexico constituency-information experiment was followed enacted but reduced tax-credit implementation second political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-new-york-dfs-insurance-complaints-availability-2025",
+      "atlas_record_path": "analysis/records/us-new-york-dfs-insurance-complaints-availability-2025.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "A state insurance regulator makes complaint recovery and market-availability work visible without closing the household outcome chain",
+      "geography": "New York State regulatory and consumer-assistance system; national referrals can occur in the complaint workflow",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "state insurance regulator makes complaint recovery market-availability work visible without closing household consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "state insurance regulator makes complaint recovery market-availability work visible without closing household consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "state insurance regulator makes complaint recovery market-availability work visible without closing household consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "state insurance regulator makes complaint recovery market-availability work visible without closing household consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-new-york-fed-household-debt-credit-2026q2",
+      "atlas_record_path": "analysis/records/us-new-york-fed-household-debt-credit-2026q2.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Aggregate household debt expands while delinquency remains a distinct exposure layer",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "aggregate household debt expands while delinquency remains distinct exposure layer new york household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "aggregate household debt expands while delinquency remains distinct exposure layer new york household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "aggregate household debt expands while delinquency remains distinct exposure layer new york household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "aggregate household debt expands while delinquency remains distinct exposure layer new york household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nextdoor-harris-neighborhood-trust-mutual-aid-2026",
+      "atlas_record_path": "analysis/records/us-nextdoor-harris-neighborhood-trust-mutual-aid-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Neighborhood trust is practically resilient but socially under-connected, especially for young adults",
+      "geography": "United States; adults age 18+",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "neighborhood trust practically resilient but socially under-connected especially young adults nextdoor harris trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "neighborhood trust practically resilient but socially under-connected especially young adults nextdoor harris trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "neighborhood trust practically resilient but socially under-connected especially young adults nextdoor harris trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "neighborhood trust practically resilient but socially under-connected especially young adults nextdoor harris trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nhts-mobility-material-work-care-2022",
+      "atlas_record_path": "analysis/records/us-nhts-mobility-material-work-care-2022.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Mobility pressure is jointly patterned by place, household resources, and trip purpose",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "mobility pressure jointly patterned place household resources trip purpose nhts person travel-day housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "mobility pressure jointly patterned place household resources trip purpose nhts person travel-day housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "mobility pressure jointly patterned place household resources trip purpose nhts person travel-day housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "mobility pressure jointly patterned place household resources trip purpose nhts person travel-day housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nhts-urban-rural-mobility-options-2022",
+      "atlas_record_path": "analysis/records/us-nhts-urban-rural-mobility-options-2022.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Urban and rural households face different transport option sets",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "urban rural households face different transport option sets nhts household person work-trip housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "urban rural households face different transport option sets nhts household person work-trip housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "urban rural households face different transport option sets nhts household person work-trip housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "urban rural households face different transport option sets nhts household person work-trip housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-niq-ai-assisted-shopping-agentic-commerce-2026",
+      "atlas_record_path": "analysis/records/us-niq-ai-assisted-shopping-agentic-commerce-2026.json",
+      "canonical_theme": "platform-exit",
+      "title": "AI-assisted shopping is moving into mainstream product discovery and evaluation, shifting the path to purchase toward machine-mediated choice",
+      "geography": "United States, with tracker also described as covering Canada",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ai-assisted shopping moving into mainstream product discovery evaluation shifting path purchase toward platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ai-assisted shopping moving into mainstream product discovery evaluation shifting path purchase toward platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ai-assisted shopping moving into mainstream product discovery evaluation shifting path purchase toward platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ai-assisted shopping moving into mainstream product discovery evaluation shifting path purchase toward platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nlc-municipal-infrastructure-conditions-2026-finance-water-mobility",
+      "atlas_record_path": "analysis/records/us-nlc-municipal-infrastructure-conditions-2026-finance-water-mobility.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Municipal infrastructure pressure is becoming a local-fiscal and workforce-capacity problem",
+      "geography": "United States; cities, towns, and villages responding to the NLC municipal infrastructure survey",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "municipal infrastructure pressure becoming local-fiscal workforce-capacity problem national league cities conditions survey infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "municipal infrastructure pressure becoming local-fiscal workforce-capacity problem national league cities conditions survey infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "municipal infrastructure pressure becoming local-fiscal workforce-capacity problem national league cities conditions survey infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "municipal infrastructure pressure becoming local-fiscal workforce-capacity problem national league cities conditions survey infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nlc-municipal-infrastructure-conditions-2026-local-capacity-funding",
+      "atlas_record_path": "analysis/records/us-nlc-municipal-infrastructure-conditions-2026-local-capacity-funding.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Municipal infrastructure resilience depends less on project need than on local fiscal, workforce, and grant-management capacity",
+      "geography": "United States; responding cities, towns, and villages, with comparison to 2022 municipal infrastructure survey results",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "municipal infrastructure resilience depends less project need than local fiscal workforce grant-management infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "municipal infrastructure resilience depends less project need than local fiscal workforce grant-management infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "municipal infrastructure resilience depends less project need than local fiscal workforce grant-management infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "municipal infrastructure resilience depends less project need than local fiscal workforce grant-management infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nlrb-worker-voice-administration-fy2025",
+      "atlas_record_path": "analysis/records/us-nlrb-worker-voice-administration-fy2025.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Labor-process demand can be substantial while durable worker power remains unmeasured",
+      "geography": "United States private-sector labor-relations jurisdiction",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "labor-process demand can substantial while durable worker power remains unmeasured national labor ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "labor-process demand can substantial while durable worker power remains unmeasured national labor ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "labor-process demand can substantial while durable worker power remains unmeasured national labor ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "labor-process demand can substantial while durable worker power remains unmeasured national labor ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-npr-ipsos-ai-spiritual-guidance-relational-authority-2026",
+      "atlas_record_path": "analysis/records/us-npr-ipsos-ai-spiritual-guidance-relational-authority-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Americans use AI broadly but preserve relational and human authority for spiritual, moral, and emotionally consequential counsel",
+      "geography": "United States; adults age 18 and older in a nationally representative KnowledgePanel probability sample",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "americans use broadly but preserve relational human authority spiritual moral emotionally consequential trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "americans use broadly but preserve relational human authority spiritual moral emotionally consequential trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "americans use broadly but preserve relational human authority spiritual moral emotionally consequential trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "americans use broadly but preserve relational human authority spiritual moral emotionally consequential trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nrf-retail-economic-perspective-2026-services-inflation-household-room",
+      "atlas_record_path": "analysis/records/us-nrf-retail-economic-perspective-2026-services-inflation-household-room.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Household affordability pressure is increasingly concentrated in essential services rather than ordinary retail goods",
+      "geography": "United States; macroeconomic and consumer-spending framing using BLS and industry data",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household affordability pressure increasingly concentrated essential services rather than ordinary retail goods household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household affordability pressure increasingly concentrated essential services rather than ordinary retail goods household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household affordability pressure increasingly concentrated essential services rather than ordinary retail goods household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household affordability pressure increasingly concentrated essential services rather than ordinary retail goods household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nvidia-h200-china-license-no-revenue-2026",
+      "atlas_record_path": "analysis/records/us-nvidia-h200-china-license-no-revenue-2026.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "NVIDIA disclosed a February 2026 H200 license for small shipments to specific China customers, but no H200 revenue or China import was realized by filing date",
+      "geography": "United States, China, NVIDIA, U.S. export-control authorities, and advanced-computing customers",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "nvidia disclosed february h200 license small shipments specific china customers but revenue geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "nvidia disclosed february h200 license small shipments specific china customers but revenue geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "nvidia disclosed february h200 license small shipments specific china customers but revenue geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "nvidia disclosed february h200 license small shipments specific china customers but revenue geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nvidia-h200-partial-china-shipments-prc-restriction-2026",
+      "atlas_record_path": "analysis/records/us-nvidia-h200-partial-china-shipments-prc-restriction-2026.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "NVIDIA reported a fraction of licensed H200 shipments to China, but PRC restrictions prevented full licensed sales and the market remained effectively foreclosed",
+      "geography": "United States, China, NVIDIA, U.S. export-control authorities, Chinese regulators, and advanced-computing customers",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "nvidia reported fraction licensed h200 shipments china but prc restrictions prevented full geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "nvidia reported fraction licensed h200 shipments china but prc restrictions prevented full geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "nvidia reported fraction licensed h200 shipments china but prc restrictions prevented full geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "nvidia reported fraction licensed h200 shipments china but prc restrictions prevented full geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-ny-psc-transmission-ratepayer-refund-2025-2026",
+      "atlas_record_path": "analysis/records/us-ny-psc-transmission-ratepayer-refund-2025-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Transmission cost oversight can create a ratepayer refund route before individual bill impact is visible",
+      "geography": "New York State ratepayers and transmission customers",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "transmission cost oversight can create ratepayer refund route before individual bill impact infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "transmission cost oversight can create ratepayer refund route before individual bill impact infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "transmission cost oversight can create ratepayer refund route before individual bill impact infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "transmission cost oversight can create ratepayer refund route before individual bill impact infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nyc-congestion-pricing-implementation-2026",
+      "atlas_record_path": "analysis/records/us-nyc-congestion-pricing-implementation-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "New York congestion pricing produced observed traffic and early transit changes while capital delivery and distributive legitimacy remain open",
+      "geography": "New York City; Congestion Relief Zone and selected environmental-justice monitoring locations",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "new york congestion pricing produced observed traffic early transit changes while capital infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "new york congestion pricing produced observed traffic early transit changes while capital infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "new york congestion pricing produced observed traffic early transit changes while capital infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "new york congestion pricing produced observed traffic early transit changes while capital infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nyc-local-law-25-algorithmic-work-study-2026",
+      "atlas_record_path": "analysis/records/us-nyc-local-law-25-algorithmic-work-study-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "A city can mandate measurement of algorithmic work impacts before worker outcomes are publicly visible",
+      "geography": "New York City municipal civil service and algorithmic employment decision context",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "city can mandate measurement algorithmic work impacts before worker outcomes are publicly ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "city can mandate measurement algorithmic work impacts before worker outcomes are publicly ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "city can mandate measurement algorithmic work impacts before worker outcomes are publicly ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "city can mandate measurement algorithmic work impacts before worker outcomes are publicly ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nyc-universal-school-meals-access-learning-2026",
+      "atlas_record_path": "analysis/records/us-nyc-universal-school-meals-access-learning-2026.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Universal school meals can convert stigma-free access into participation and learning gains while leaving food quality, waste, and household spillovers contested",
+      "geography": "New York City public schools; citywide meal operations and middle-school evaluation",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "universal school meals can convert stigma-free access into participation learning gains while care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "universal school meals can convert stigma-free access into participation learning gains while care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "universal school meals can convert stigma-free access into participation learning gains while care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "universal school meals can convert stigma-free access into participation learning gains while care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk",
+      "atlas_record_path": "analysis/records/us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Household spending expectations rise while credit access, financial outlook, and job-finding confidence deteriorate",
+      "geography": "United States; nationally representative internet-based rotating panel of approximately 1,300 household heads, fielded 3–31 August 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household spending expectations rise while credit access financial outlook job-finding confidence deteriorate household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household spending expectations rise while credit access financial outlook job-finding confidence deteriorate household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household spending expectations rise while credit access financial outlook job-finding confidence deteriorate household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household spending expectations rise while credit access financial outlook job-finding confidence deteriorate household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nyfed-economic-heterogeneity-2025",
+      "atlas_record_path": "analysis/records/us-nyfed-economic-heterogeneity-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Household inflation, earnings, and consumption diverge across US groups",
+      "geography": "United States national indicators, with metro, regional, demographic, and urban/rural groupings",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household inflation earnings consumption diverge across groups new york fed economic heterogeneity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household inflation earnings consumption diverge across groups new york fed economic heterogeneity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household inflation earnings consumption diverge across groups new york fed economic heterogeneity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household inflation earnings consumption diverge across groups new york fed economic heterogeneity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nyfed-economic-heterogeneity-april-2026",
+      "atlas_record_path": "analysis/records/us-nyfed-economic-heterogeneity-april-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "A gasoline shock reverses some US household inflation and spending gaps",
+      "geography": "United States national indicators, with demographic, regional, urban/rural, and income-group comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "gasoline shock reverses some household inflation spending gaps new york fed economic household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "gasoline shock reverses some household inflation spending gaps new york fed economic household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "gasoline shock reverses some household inflation spending gaps new york fed economic household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "gasoline shock reverses some household inflation spending gaps new york fed economic household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nyfed-economic-heterogeneity-regional-april-2026",
+      "atlas_record_path": "analysis/records/us-nyfed-economic-heterogeneity-regional-april-2026.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Second District households and small firms absorb the 2026 shock differently from national groups",
+      "geography": "Federal Reserve Second District; firm regional analysis covers New York, New Jersey, and Connecticut",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0070",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "second district households small firms absorb shock differently national groups new york housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "second district households small firms absorb shock differently national groups new york housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "second district households small firms absorb shock differently national groups new york housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "second district households small firms absorb shock differently national groups new york housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
