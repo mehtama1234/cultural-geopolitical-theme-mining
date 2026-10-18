@@ -1539,40 +1539,42 @@
       "canonical_theme": "household-room-consumption",
       "title": "Consumer choice is shifting from price alone toward perceived value, solo-life fit, concentrated trust, longevity, and AI-guided discovery",
       "geography": "Consumers in 12 markets: Brazil, China, France, Germany, India, Italy, Japan, South Korea, Sweden, Turkey, the United Kingdom, and the United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer choice shifting price alone toward perceived value solo-life fit concentrated trust household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "consumer choice shifting price alone toward perceived value solo-life fit concentrated trust household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-bcg-consumer-shifts-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer choice shifting price alone toward perceived value solo-life fit concentrated trust household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer choice shifting price alone toward perceived value solo-life fit concentrated trust household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight",
@@ -1955,40 +1957,42 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Brazil's cultural life is digitally domestic, while cultural policy has high approval despite low public awareness",
       "geography": "Brazil; all 27 federative units; adults aged 16 and above",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "brazil's cultural life digitally domestic while policy has high approval despite low trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "brazil's cultural life digitally domestic while policy has high approval despite low trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-brazil-culture-tela-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "brazil's cultural life digitally domestic while policy has high approval despite low trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "brazil's cultural life digitally domestic while policy has high approval despite low trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-british-academy-youth-social-cultural-infrastructure-2025",
