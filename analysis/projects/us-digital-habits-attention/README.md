@@ -132,6 +132,11 @@ behavior, Stanford capability and incident measures, agentic commerce, ILO
 workplace autonomy, and companion exit. It keeps use, capability, control,
 reversibility, and exit separate.
 
+The [youth digital exposure, household room, safety, and civic agency bridge](youth-digital-room-safety-civic-agency-bridge-v1.md)
+adds the youth material-and-platform layer across EU overcrowding and home-exit
+measures, hostile-content exposure, UK youth-led online-safety research, Ofcom
+platform use, UNDP digital participation, and CIRCLE political homes.
+
 ## First working idea
 
 The important product feature may be the user's ability to leave. A tool can be useful and still make exit costly by using personal knowledge, social pressure, or repeated prompts. This is a working idea, not a conclusion.
