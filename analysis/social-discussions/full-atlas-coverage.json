@@ -77510,8 +77510,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Household fraud recovery burden varies by age, income, and payment route",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77543,7 +77543,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-shed-panel-adaptation-condition-path-2024-2025",
@@ -77551,8 +77551,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Reported price adaptations persist and re-enter at different rates across financial-condition paths",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77584,7 +77584,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-shed-panel-adaptation-health-path-2024-2025",
@@ -77592,8 +77592,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Financial adaptations persist across health direction and do not define recovery alone",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77625,7 +77625,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-shed-panel-care-foregoing-health-work-paths-2024-2025",
@@ -77633,8 +77633,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Care-foregoing persistence aligns with a worse health surface while work status moves differently",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77666,7 +77666,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-shed-panel-care-foregoing-paths-2024-2025",
@@ -77674,8 +77674,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Care foregoing entry, exit, and persistence coincide with distinct 2025 adaptation surfaces",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77707,7 +77707,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-shed-panel-coverage-care-foregoing-paths-2024-2025",
@@ -77715,8 +77715,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Coverage transitions are associated with different care-foregoing persistence routes",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77748,7 +77748,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-care-work-children-official-variance-2024",
@@ -77756,8 +77756,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "SIPP care/work measures retain distinct child-presence and reference-parent universes",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77789,7 +77789,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-care-work-disability-official-variance-2024",
@@ -77797,8 +77797,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "SIPP care and work constraints differ by work-limiting disability status",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77830,7 +77830,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-care-work-official-variance-2024",
@@ -77838,8 +77838,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "SIPP care and work constraints carry different universes and uncertainty",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77871,7 +77871,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-care-work-poverty-official-variance-2024",
@@ -77879,8 +77879,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "SIPP care constraints diverge by income-to-poverty band",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77912,7 +77912,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-care-work-race-official-variance-2024",
@@ -77920,8 +77920,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "SIPP care and work constraints vary across race groups with uneven precision",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77953,7 +77953,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-care-work-region-official-variance-2024",
@@ -77961,8 +77961,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "SIPP care and work constraints vary modestly by region",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -77994,7 +77994,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-care-work-tenure-official-variance-2024",
@@ -78002,8 +78002,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "SIPP care and work constraints differ by housing tenure",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78035,7 +78035,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-child-presence-reference-parent-audit-2024",
@@ -78043,8 +78043,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "SIPP monthly child presence and reference-parent care universes are different",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78076,7 +78076,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-childcare-time-loss-resource-2024",
@@ -78084,8 +78084,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Reported child-care work-time loss varies by resource endpoint within a selected care-prevention universe",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78117,7 +78117,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-childcare-work-hardship-bridge-2024",
@@ -78125,8 +78125,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Child-care work prevention co-occurs with higher following housing and utility hardship",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78158,7 +78158,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-constraint-cascade-screen-2024",
@@ -78166,8 +78166,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Utility difficulty, tenure, and childcare prevention beside next-month work and household-security outcomes",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78199,7 +78199,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-energy-assistance-food-following-2024",
@@ -78207,8 +78207,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Utility difficulty and energy assistance sit beside following-month food insecurity and severity",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78240,7 +78240,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-material-time-care-official-variance-2024",
@@ -78248,8 +78248,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "SIPP material and food-security diagnostics retain Fay-BRR uncertainty",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78281,7 +78281,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-material-time-care-population-2024",
@@ -78289,8 +78289,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "SIPP shows material pressure, care constraints, and work structure in separate universes",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78322,7 +78322,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-monthly-resource-job-transition-2024",
@@ -78330,8 +78330,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Monthly income-to-poverty position and job count move on different clocks",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78363,7 +78363,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-reference-household-selection-2024",
@@ -78371,8 +78371,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Explicit household selection changes SIPP material-pressure diagnostics",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78404,7 +78404,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-resource-job-crosslag-2024",
@@ -78412,8 +78412,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Monthly resource-band changes and job-count changes are distinct adjacent-month pathways",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78445,7 +78445,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-resource-job-worklimitation-crosslag-2024",
@@ -78453,8 +78453,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Monthly resource and job movement differ by work-limiting status",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78486,7 +78486,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-resource-job-worklimitation-tenure-crosslag-2024",
@@ -78494,8 +78494,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Housing tenure changes the monthly resource-and-job transition surface under work limitation",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78527,7 +78527,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-resource-work-direction-subgroups-2024",

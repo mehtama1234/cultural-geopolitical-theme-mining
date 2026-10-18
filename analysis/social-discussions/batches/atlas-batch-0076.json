@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0076",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "us-shed-fraud-recovery-subgroups-2024",
+    "us-shed-panel-adaptation-condition-path-2024-2025",
+    "us-shed-panel-adaptation-health-path-2024-2025",
+    "us-shed-panel-care-foregoing-health-work-paths-2024-2025",
+    "us-shed-panel-care-foregoing-paths-2024-2025",
+    "us-shed-panel-coverage-care-foregoing-paths-2024-2025",
+    "us-sipp-care-work-children-official-variance-2024",
+    "us-sipp-care-work-disability-official-variance-2024",
+    "us-sipp-care-work-official-variance-2024",
+    "us-sipp-care-work-poverty-official-variance-2024",
+    "us-sipp-care-work-race-official-variance-2024",
+    "us-sipp-care-work-region-official-variance-2024",
+    "us-sipp-care-work-tenure-official-variance-2024",
+    "us-sipp-child-presence-reference-parent-audit-2024",
+    "us-sipp-childcare-time-loss-resource-2024",
+    "us-sipp-childcare-work-hardship-bridge-2024",
+    "us-sipp-constraint-cascade-screen-2024",
+    "us-sipp-energy-assistance-food-following-2024",
+    "us-sipp-material-time-care-official-variance-2024",
+    "us-sipp-material-time-care-population-2024",
+    "us-sipp-monthly-resource-job-transition-2024",
+    "us-sipp-reference-household-selection-2024",
+    "us-sipp-resource-job-crosslag-2024",
+    "us-sipp-resource-job-worklimitation-crosslag-2024",
+    "us-sipp-resource-job-worklimitation-tenure-crosslag-2024"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-shed-fraud-recovery-subgroups-2024",
+      "atlas_record_path": "analysis/records/us-shed-fraud-recovery-subgroups-2024.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Household fraud recovery burden varies by age, income, and payment route",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household fraud recovery burden varies age income payment route weighted adult shed consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household fraud recovery burden varies age income payment route weighted adult shed consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household fraud recovery burden varies age income payment route weighted adult shed consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household fraud recovery burden varies age income payment route weighted adult shed consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-shed-panel-adaptation-condition-path-2024-2025",
+      "atlas_record_path": "analysis/records/us-shed-panel-adaptation-condition-path-2024-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Reported price adaptations persist and re-enter at different rates across financial-condition paths",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "reported price adaptations persist re-enter different rates across financial-condition paths recontacted shed household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "reported price adaptations persist re-enter different rates across financial-condition paths recontacted shed household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "reported price adaptations persist re-enter different rates across financial-condition paths recontacted shed household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "reported price adaptations persist re-enter different rates across financial-condition paths recontacted shed household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-shed-panel-adaptation-health-path-2024-2025",
+      "atlas_record_path": "analysis/records/us-shed-panel-adaptation-health-path-2024-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Financial adaptations persist across health direction and do not define recovery alone",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "financial adaptations persist across health direction not define recovery alone recontacted shed household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "financial adaptations persist across health direction not define recovery alone recontacted shed household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "financial adaptations persist across health direction not define recovery alone recontacted shed household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "financial adaptations persist across health direction not define recovery alone recontacted shed household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-shed-panel-care-foregoing-health-work-paths-2024-2025",
+      "atlas_record_path": "analysis/records/us-shed-panel-care-foregoing-health-work-paths-2024-2025.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Care-foregoing persistence aligns with a worse health surface while work status moves differently",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "care-foregoing persistence aligns worse health surface while work status moves differently shed care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "care-foregoing persistence aligns worse health surface while work status moves differently shed care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "care-foregoing persistence aligns worse health surface while work status moves differently shed care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "care-foregoing persistence aligns worse health surface while work status moves differently shed care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-shed-panel-care-foregoing-paths-2024-2025",
+      "atlas_record_path": "analysis/records/us-shed-panel-care-foregoing-paths-2024-2025.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Care foregoing entry, exit, and persistence coincide with distinct 2025 adaptation surfaces",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "care foregoing entry exit persistence coincide distinct adaptation surfaces shed respondent recontact care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "care foregoing entry exit persistence coincide distinct adaptation surfaces shed respondent recontact care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "care foregoing entry exit persistence coincide distinct adaptation surfaces shed respondent recontact care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "care foregoing entry exit persistence coincide distinct adaptation surfaces shed respondent recontact care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-shed-panel-coverage-care-foregoing-paths-2024-2025",
+      "atlas_record_path": "analysis/records/us-shed-panel-coverage-care-foregoing-paths-2024-2025.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Coverage transitions are associated with different care-foregoing persistence routes",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "coverage transitions are associated different care-foregoing persistence routes shed respondent recontact panel care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "coverage transitions are associated different care-foregoing persistence routes shed respondent recontact panel care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "coverage transitions are associated different care-foregoing persistence routes shed respondent recontact panel care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "coverage transitions are associated different care-foregoing persistence routes shed respondent recontact panel care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-care-work-children-official-variance-2024",
+      "atlas_record_path": "analysis/records/us-sipp-care-work-children-official-variance-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "SIPP care/work measures retain distinct child-presence and reference-parent universes",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp care work measures retain distinct child-presence reference-parent universes person reference month time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp care work measures retain distinct child-presence reference-parent universes person reference month time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp care work measures retain distinct child-presence reference-parent universes person reference month time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp care work measures retain distinct child-presence reference-parent universes person reference month time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-care-work-disability-official-variance-2024",
+      "atlas_record_path": "analysis/records/us-sipp-care-work-disability-official-variance-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "SIPP care and work constraints differ by work-limiting disability status",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ work-limiting disability status person reference month stratified time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ work-limiting disability status person reference month stratified time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ work-limiting disability status person reference month stratified time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ work-limiting disability status person reference month stratified time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-care-work-official-variance-2024",
+      "atlas_record_path": "analysis/records/us-sipp-care-work-official-variance-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "SIPP care and work constraints carry different universes and uncertainty",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp care work constraints carry different universes uncertainty person reference month using time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp care work constraints carry different universes uncertainty person reference month using time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp care work constraints carry different universes uncertainty person reference month using time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp care work constraints carry different universes uncertainty person reference month using time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-care-work-poverty-official-variance-2024",
+      "atlas_record_path": "analysis/records/us-sipp-care-work-poverty-official-variance-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "SIPP care constraints diverge by income-to-poverty band",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp care constraints diverge income-to-poverty band person reference month stratified monthly household time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp care constraints diverge income-to-poverty band person reference month stratified monthly household time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp care constraints diverge income-to-poverty band person reference month stratified monthly household time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp care constraints diverge income-to-poverty band person reference month stratified monthly household time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-care-work-race-official-variance-2024",
+      "atlas_record_path": "analysis/records/us-sipp-care-work-race-official-variance-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "SIPP care and work constraints vary across race groups with uneven precision",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp care work constraints vary across race groups uneven precision person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp care work constraints vary across race groups uneven precision person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp care work constraints vary across race groups uneven precision person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp care work constraints vary across race groups uneven precision person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-care-work-region-official-variance-2024",
+      "atlas_record_path": "analysis/records/us-sipp-care-work-region-official-variance-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "SIPP care and work constraints vary modestly by region",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp care work constraints vary modestly region person reference month stratified census time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp care work constraints vary modestly region person reference month stratified census time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp care work constraints vary modestly region person reference month stratified census time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp care work constraints vary modestly region person reference month stratified census time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-care-work-tenure-official-variance-2024",
+      "atlas_record_path": "analysis/records/us-sipp-care-work-tenure-official-variance-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "SIPP care and work constraints differ by housing tenure",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ housing tenure person reference month stratified using time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ housing tenure person reference month stratified using time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ housing tenure person reference month stratified using time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ housing tenure person reference month stratified using time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-child-presence-reference-parent-audit-2024",
+      "atlas_record_path": "analysis/records/us-sipp-child-presence-reference-parent-audit-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "SIPP monthly child presence and reference-parent care universes are different",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp monthly child presence reference-parent care universes are different positive-weight person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp monthly child presence reference-parent care universes are different positive-weight person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp monthly child presence reference-parent care universes are different positive-weight person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp monthly child presence reference-parent care universes are different positive-weight person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-childcare-time-loss-resource-2024",
+      "atlas_record_path": "analysis/records/us-sipp-childcare-time-loss-resource-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Reported child-care work-time loss varies by resource endpoint within a selected care-prevention universe",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "reported child-care work-time loss varies resource endpoint within selected care-prevention universe identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "reported child-care work-time loss varies resource endpoint within selected care-prevention universe identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "reported child-care work-time loss varies resource endpoint within selected care-prevention universe identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "reported child-care work-time loss varies resource endpoint within selected care-prevention universe identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-childcare-work-hardship-bridge-2024",
+      "atlas_record_path": "analysis/records/us-sipp-childcare-work-hardship-bridge-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Child-care work prevention co-occurs with higher following housing and utility hardship",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "child-care work prevention co-occurs higher following housing utility hardship identified person november-to-december household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "child-care work prevention co-occurs higher following housing utility hardship identified person november-to-december household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "child-care work prevention co-occurs higher following housing utility hardship identified person november-to-december household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "child-care work prevention co-occurs higher following housing utility hardship identified person november-to-december household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-constraint-cascade-screen-2024",
+      "atlas_record_path": "analysis/records/us-sipp-constraint-cascade-screen-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Utility difficulty, tenure, and childcare prevention beside next-month work and household-security outcomes",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "utility difficulty tenure childcare prevention beside next-month work household-security outcomes identified november-to-december household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "utility difficulty tenure childcare prevention beside next-month work household-security outcomes identified november-to-december household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "utility difficulty tenure childcare prevention beside next-month work household-security outcomes identified november-to-december household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "utility difficulty tenure childcare prevention beside next-month work household-security outcomes identified november-to-december household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-energy-assistance-food-following-2024",
+      "atlas_record_path": "analysis/records/us-sipp-energy-assistance-food-following-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Utility difficulty and energy assistance sit beside following-month food insecurity and severity",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "utility difficulty energy assistance sit beside following-month food insecurity severity identified sipp household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "utility difficulty energy assistance sit beside following-month food insecurity severity identified sipp household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "utility difficulty energy assistance sit beside following-month food insecurity severity identified sipp household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "utility difficulty energy assistance sit beside following-month food insecurity severity identified sipp household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-material-time-care-official-variance-2024",
+      "atlas_record_path": "analysis/records/us-sipp-material-time-care-official-variance-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "SIPP material and food-security diagnostics retain Fay-BRR uncertainty",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp material food-security diagnostics retain fay-brr uncertainty person reference month using final household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp material food-security diagnostics retain fay-brr uncertainty person reference month using final household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp material food-security diagnostics retain fay-brr uncertainty person reference month using final household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp material food-security diagnostics retain fay-brr uncertainty person reference month using final household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-material-time-care-population-2024",
+      "atlas_record_path": "analysis/records/us-sipp-material-time-care-population-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "SIPP shows material pressure, care constraints, and work structure in separate universes",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp shows material pressure care constraints work structure separate universes person reference household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp shows material pressure care constraints work structure separate universes person reference household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp shows material pressure care constraints work structure separate universes person reference household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp shows material pressure care constraints work structure separate universes person reference household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-monthly-resource-job-transition-2024",
+      "atlas_record_path": "analysis/records/us-sipp-monthly-resource-job-transition-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Monthly income-to-poverty position and job count move on different clocks",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "monthly income-to-poverty position job count move different clocks identified sipp person across household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "monthly income-to-poverty position job count move different clocks identified sipp person across household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "monthly income-to-poverty position job count move different clocks identified sipp person across household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "monthly income-to-poverty position job count move different clocks identified sipp person across household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-reference-household-selection-2024",
+      "atlas_record_path": "analysis/records/us-sipp-reference-household-selection-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Explicit household selection changes SIPP material-pressure diagnostics",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "explicit household selection changes sipp material-pressure diagnostics person records household-month compared one household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "explicit household selection changes sipp material-pressure diagnostics person records household-month compared one household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "explicit household selection changes sipp material-pressure diagnostics person records household-month compared one household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "explicit household selection changes sipp material-pressure diagnostics person records household-month compared one household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-resource-job-crosslag-2024",
+      "atlas_record_path": "analysis/records/us-sipp-resource-job-crosslag-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Monthly resource-band changes and job-count changes are distinct adjacent-month pathways",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "monthly resource-band changes job-count are distinct adjacent-month pathways identified sipp person across household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "monthly resource-band changes job-count are distinct adjacent-month pathways identified sipp person across household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "monthly resource-band changes job-count are distinct adjacent-month pathways identified sipp person across household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "monthly resource-band changes job-count are distinct adjacent-month pathways identified sipp person across household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-resource-job-worklimitation-crosslag-2024",
+      "atlas_record_path": "analysis/records/us-sipp-resource-job-worklimitation-crosslag-2024.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Monthly resource and job movement differ by work-limiting status",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "monthly resource job movement differ work-limiting status identified sipp person adjacent reference-month ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "monthly resource job movement differ work-limiting status identified sipp person adjacent reference-month ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "monthly resource job movement differ work-limiting status identified sipp person adjacent reference-month ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "monthly resource job movement differ work-limiting status identified sipp person adjacent reference-month ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-resource-job-worklimitation-tenure-crosslag-2024",
+      "atlas_record_path": "analysis/records/us-sipp-resource-job-worklimitation-tenure-crosslag-2024.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Housing tenure changes the monthly resource-and-job transition surface under work limitation",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0076",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "housing tenure changes monthly resource-and-job transition surface under work limitation identified sipp ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "housing tenure changes monthly resource-and-job transition surface under work limitation identified sipp ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "housing tenure changes monthly resource-and-job transition surface under work limitation identified sipp ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "housing tenure changes monthly resource-and-job transition surface under work limitation identified sipp ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
