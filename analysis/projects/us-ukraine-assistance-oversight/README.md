@@ -21,3 +21,10 @@ contract, not proof of benefit or strategic success.
 Follow a named assistance program through funds, delivery, Ukrainian use,
 operational result, local response, maintenance, and an attributed change in
 institutional or strategic behavior.
+
+The [assistance, delivery capacity, legitimacy, and strategic-result conversion
+bridge](assistance-delivery-capacity-legitimacy-conversion-bridge-v1.md)
+extends this route across Ukraine oversight, household resilience, wartime
+energy legitimacy, humanitarian funding, African development capacity, and
+West Bank/Gaza assistance controls. It keeps authorization, delivery, use,
+protection, and legitimacy separate.
