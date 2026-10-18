@@ -4213,8 +4213,8 @@
       "canonical_theme": "platform-exit",
       "title": "Child safety online is becoming a developmental social contract: platforms, families, regulators, and offline institutions share responsibility for digital autonomy",
       "geography": "European Union, with comparative references to Australia, Brazil, Canada, the United Kingdom, and other national approaches",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4231,11 +4231,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "child safety online becoming developmental social contract platforms families regulators offline institutions platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-eu-child-safety-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -4246,7 +4248,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "comparative-eu-consumer-conditions-scoreboard-2025-online-problems-scams-trust-sustainability",
@@ -4254,8 +4256,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "EU online consumer adoption is expanding faster than protection, trust, and sustainable-choice capacity",
       "geography": "EU27 plus Iceland and Norway; representative consumer survey across the Single Market",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4287,7 +4289,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-cpc-viagogo-2024-ticket-resale-transparency-pressure-remedy",
@@ -4295,8 +4297,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "EU consumer authorities converted ticket-resale concerns into platform commitments on identity, price, pressure, ranking, and remedy",
       "geography": "European Union and European Economic Area consumer-facing Viagogo websites",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4328,7 +4330,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-cpc-vinted-secondhand-marketplace-buyer-fee-refund-controls",
@@ -4336,8 +4338,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "EU Vinted action shows a second-hand marketplace converting complaint pressure into implemented price, refund, identity, and review controls",
       "geography": "European Union and European Economic Area consumer-facing Vinted websites and mobile apps",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4369,7 +4371,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-cultural-discoverability-platform-curation-ai-2026",
@@ -4377,8 +4379,8 @@
       "canonical_theme": "platform-exit",
       "title": "Cultural availability no longer guarantees cultural visibility: platforms, metadata, language, and AI shape who gets discovered",
       "geography": "European Union cultural and linguistic markets, with comparative analysis of music and book sectors and implications for digital cultural policy",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4395,11 +4397,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "cultural availability longer guarantees visibility platforms metadata language shape who gets discovered platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-eu-cultural-discoverability-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -4410,7 +4414,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "comparative-eu-digital-decade-2026-sovereignty-ai-safety-rights",
@@ -4418,8 +4422,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Europeans want digital sovereignty and infrastructure while demanding stronger AI governance, child protection, and democratic safeguards",
       "geography": "European Union citizens across the 27 Member States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4451,7 +4455,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-dsa-out-of-court-remedy-platform-governance-2026",
@@ -4459,8 +4463,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Digital platform governance is becoming a correction system, but reversal rates do not yet show durable user remedy",
       "geography": "European Union; users and very large online platforms including Facebook, Instagram, TikTok, Snapchat, and other designated services",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4492,7 +4496,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-emerging-civic-participation-ai-middleware-2026",
@@ -4500,8 +4504,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Civic participation is becoming an AI-mediated public-service layer, shifting legitimacy toward listening, translation, moderation, and feedback capacity",
       "geography": "European Union project involving Portugal, Spain, and the Netherlands; ecosystem evidence involving 21 EU member states",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4533,7 +4537,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-eurobarometer-culture-2025-community-artistic-freedom-ai",
@@ -4541,8 +4545,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Europeans treat culture as community infrastructure and democratic expression while questioning artist livelihoods and AI’s creative-economic effects",
       "geography": "European Union citizens across all 27 Member States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4574,7 +4578,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-eurobarometer-sport-physical-activity-2026-commuting-community-gaps",
@@ -4582,8 +4586,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "EU physical activity rises modestly while active commuting, fitness use, and country gaps reshape social participation",
       "geography": "European Union; cross-national population survey with Member State comparisons",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4615,7 +4619,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-flash-eurobarometer-579-screen-time-youth-mental-health-2026",
@@ -4623,8 +4627,8 @@
       "canonical_theme": "platform-exit",
       "title": "Adolescent screen use is a negotiated household and platform-governance problem, not only an individual time problem",
       "geography": "European Union, all 27 Member States; adolescents aged 13–18 and their parents",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4656,7 +4660,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-future-research-migration-integration-2026-policy-capacity",
@@ -4664,8 +4668,8 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Migration policy is being rebuilt as cross-domain infrastructure linking labor, demography, AI, climate, data, and social cohesion",
       "geography": "European Union research and policy ecosystem, with relevance to migration, mobility, integration, labor markets, technology, climate, and social cohesion across Europe",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4697,7 +4701,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-jrc-demographic-transformation-2026-ageing-work-care-housing-migration",
@@ -4705,8 +4709,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Demographic change is reorganizing labor, care, housing, migration, regional cohesion, and public finance at the same time",
       "geography": "European Union; population, labor-market, care, housing, migration, and regional-policy synthesis",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4738,7 +4742,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-snapchat-child-safety-dsa-proceedings-2026",
@@ -4746,8 +4750,8 @@
       "canonical_theme": "platform-exit",
       "title": "EU proceedings turn child-safety concern into a named platform-control episode, while user protection and remedy remain unverified",
       "geography": "European Union; Snapchat users and minors exposed to the service",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4779,7 +4783,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-special-eurobarometer-568-democracy-information-participation",
@@ -4787,8 +4791,8 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "Democratic participation in the EU is constrained by unfamiliarity with participatory tools and an information environment where distrust and AI opacity are central concerns",
       "geography": "European Union citizens across the 27 Member States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4820,7 +4824,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eu-standard-eurobarometer-105-2026-trust-democracy-security-cost",
@@ -4828,8 +4832,8 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "EU public confidence combines institutional support and security alignment with persistent cost-of-living pressure and uneven democratic satisfaction",
       "geography": "European Union citizens across the 27 Member States, with country factsheets and wider coverage in the Eurobarometer dataset",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4861,7 +4865,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-europe-consumer-policy-trust-vulnerability-2026",
@@ -4869,8 +4873,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Consumer trust is institutionally produced, but consumer-protection gains reach the economically vulnerable less reliably",
       "geography": "30 European countries; pooled European Union consumer-attitudes surveys from 2016-2020",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4902,7 +4906,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-european-commission-citizen-engagement-impact-2026-participation-legitimacy-capacity",
@@ -4910,8 +4914,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Citizen participation can build administrative capacity and legitimacy, but only when institutions commit, communicate, and show what changed",
       "geography": "European Union Member State public administrations and citizen-engagement processes, with cross-EU synthesis",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4943,7 +4947,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-european-commission-citizens-energy-package-2026-affordability-security-autonomy",
@@ -4951,8 +4955,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "European energy policy is converging household affordability, clean-energy investment, geopolitical dependence and consumer agency into one state-capacity agenda",
       "geography": "European Union energy, consumer, industrial and geopolitical policy",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -4984,7 +4988,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-european-commission-consumer-confidence-september-2026-economic-sentiment-recovery-reversal",
@@ -4992,8 +4996,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "European consumer confidence and employment expectations turned away from a four-month recovery as household outlooks remained below long-term norms",
       "geography": "European Union and euro area; harmonised sentiment indicators with sectoral and employment-expectation components",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -5025,7 +5029,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-european-commission-consumer-confidence-september-2026-sentiment-uncertainty",
@@ -5033,8 +5037,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "EU consumer confidence reversed its recovery in September as uncertainty and inflation expectations rose",
       "geography": "European Union and euro area; harmonised monthly consumer and business surveys with composite confidence, sentiment, employment, and uncertainty indicators",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -5066,7 +5070,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-european-commission-eurobarometer-energy-affordability-consumer-protection-2025",
@@ -5074,8 +5078,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "European energy-transition legitimacy is being organized around affordable bills, consumer protection and practical control over energy use—not climate ambition alone",
       "geography": "European Union citizens and consumers across all 27 EU Member States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -5107,7 +5111,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eurostat-cultural-employment-2025-workforce-education-country-gap",
@@ -5115,8 +5119,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Europe’s cultural economy employs 8.9 million people but remains a highly educated and place-concentrated production system",
       "geography": "European Union; cultural employment across EU Member States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -5148,7 +5152,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eurostat-cultural-participation-disability-age-2022-refresh-2026",
@@ -5156,8 +5160,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Cultural participation is strongly age- and disability-stratified across Europe",
       "geography": "European countries in the Eurostat dataset; selected comparative cells and Sweden subgroup cells",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -5189,7 +5193,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eurostat-culture-statistics-2026-participation-barriers-measurement",
@@ -5197,8 +5201,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Cultural participation is measurable as a social-distribution problem, but the evidence is periodic, multidimensional, and bounded by what official surveys can ask",
       "geography": "European Union, most EFTA countries, and selected enlargement countries, using EU-SILC, ICT, household-budget, labor-force, business, and government-finance statistical systems",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0005",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -5230,7 +5234,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-eurostat-enterprise-social-media-size-country-2025",
