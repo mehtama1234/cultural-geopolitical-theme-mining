@@ -31,3 +31,8 @@ household resources / place / identity
 This project remains an open research route, not a completed causal chain.
 
 The current [shared cultural participation and civic conversion bridge](shared-cultural-participation-civic-conversion-bridge-v1.md) narrows the next test to shared versus solitary activity, income-stratified access, loneliness, and the unstable cross-survey arts-to-civic association.
+
+The new [cultural participation conversion stage audit](cultural-participation-conversion-stage-audit-v1.md)
+compares perceived supply, attendance, active creation, cultural identity,
+cost/access barriers, and civic/belonging signals across U.S., Australian,
+European, and New Zealand evidence without treating them as one population.
