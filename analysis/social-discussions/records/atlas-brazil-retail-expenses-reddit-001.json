@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-brazil-retail-expenses-reddit-001",
+  "atlas_record_ids": ["comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence"],
+  "topic": "household-room-consumption",
+  "platform": "reddit",
+  "item_type": "lived_example_and_household_spending_signal",
+  "author_or_account": "r/dataisbeautiful participant; account not exposed",
+  "title": "Personal spending records show tradeoffs among food, housing, culture and mobility",
+  "canonical_url": "https://www.reddit.com/r/dataisbeautiful/comments/1qtyk6l/my_expenses_and_income_in_2025_brazil_oc/",
+  "published_window": "2026-02-02",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "A Brazilian participant shares detailed annual spending and describes tradeoffs among food, housing, transport, hobbies, therapy and future mobility. Replies compare income, rent and consumption choices, showing how retail and household aggregates are experienced as uneven room for culture, health and social life.",
+  "research_anchor_paths": ["analysis/records/comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence.json"],
+  "linked_research_question": "How do income, housing and regional price conditions shape which consumption categories remain available for culture, health and social life?",
+  "classification": ["lived_example", "household_budget", "consumption_tradeoff", "inequality"],
+  "limits": ["One manually recorded household budget", "Not a retail-volume measure or representative sample", "The participant’s socioeconomic position is not a proxy for Brazil overall"]
+}
