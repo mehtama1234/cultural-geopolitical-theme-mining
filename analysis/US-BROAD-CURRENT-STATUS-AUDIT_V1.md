@@ -1,5 +1,14 @@
 # US broad program current-status audit v1
 
+The newest information-legitimacy depth artifact is the [information encounter,
+correction, and civic-trust bridge](projects/us-information-legitimacy/information-encounter-correction-civic-trust-bridge-v1.md).
+It connects Ofcom, Reuters, IPIE, and Pew evidence with bounded LinkedIn
+discussion and keeps discovery, source judgment, verification, correction,
+action, trust, and exit separate. The corpus supports a reach-versus-legitimacy
+gap, but not a causal platform-to-political-action claim; the next test is one
+dated controversy or local-information episode followed through correction and
+later action or source exit.
+
 The newest platform/data-governance addition is the [ACCC Consumer Data Right data-quality record](records/comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability.json), which adds an Australia-specific route from formal data portability through data accuracy, semantic consistency, comparison usability, issue escalation, and consumer or small-business choice. It records more than 1.3 million CDR users, 16 stakeholder survey respondents, product and consumer data ratings, and resolution friction including tickets open for more than six months. It preserves the small stakeholder sample, administrative-user count, descriptive, and noncausal boundaries.
 
 The newest Brazil demand-side addition is the [Fundação Itaú/Datafolha cultural-habits record](records/comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap.json), which adds current remote-versus-in-person participation and education/class gradients. It preserves the flow-location sample, self-report, overlapping-mode, socioeconomic, and noncausal boundaries.
@@ -207,7 +216,7 @@ and the gap between wanting connection and regularly participating.
 The registry contains 1975 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
-currently has 2712 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 2714 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 The latest policy-to-price addition is the [World Bank Papua New Guinea food-tax record](records/comparative-world-bank-png-food-tax-exemption-pass-through-incidence-2026.json), which follows tax exemptions, formal and informal market pass-through, rural-urban segmentation, retailer and wholesaler capture, household quintile incidence, expert prediction, cash-transfer comparison, and cost-of-living attribution. It preserves the PNG-specific quasi-experimental, product, market, static-comparison, and non-universal boundaries.
@@ -2209,7 +2218,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 1978 trend records and 5941 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
-families; 2,712 local Markdown links and 1,151 published HTML pages pass link
+families; 2,714 local Markdown links and 1,151 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 229
 connections, 93 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
