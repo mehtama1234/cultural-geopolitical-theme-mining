@@ -1457,40 +1457,42 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Intergenerational politics is becoming a contest over who receives, finances, and governs simultaneous AI, energy, geopolitical, demographic, and care transitions",
       "geography": "Australia; 40-year macroeconomic, demographic, fiscal, and policy projection to 2065-66",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "intergenerational politics becoming contest over who receives finances governs simultaneous energy geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "intergenerational politics becoming contest over who receives finances governs simultaneous energy geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-australia-intergenerational-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "intergenerational politics becoming contest over who receives finances governs simultaneous energy geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "intergenerational politics becoming contest over who receives finances governs simultaneous energy geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-axa-mind-health-report-2026-awareness-decline-work-economic-social",
@@ -1709,40 +1711,42 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "AI-led resilience is colliding with inflation, public-debt, non-bank, and digital-money risks that test financial stability and trust",
       "geography": "Global monetary, financial, fiscal, AI-investment, supply-shock, non-bank, and digital-money systems",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "ai-led resilience colliding inflation public-debt non-bank digital-money risks test financial stability trust public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "ai-led resilience colliding inflation public-debt non-bank digital-money risks test financial stability trust public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-bis-ai-debt-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "ai-led resilience colliding inflation public-debt non-bank digital-money risks test financial stability trust public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "ai-led resilience colliding inflation public-debt non-bank digital-money risks test financial stability trust public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-bok-korea-consumer-survey-september-2026-sentiment-housing-expectations",
