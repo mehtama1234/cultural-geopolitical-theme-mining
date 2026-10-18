@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0024",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "comparative-sweden-internet-foundation-2026-ai-detox-digital-services-social-norms",
+    "comparative-sweden-sou-2026-53-parallel-social-structures-integration-exclusion-trust",
+    "comparative-tasc-ireland-ai-inequality-2026-work-distribution-voice",
+    "comparative-tasc-ireland-inequality-2026-household-living-standards-housing",
+    "comparative-thales-digital-trust-index-2026-access-friction-ai-autonomy",
+    "comparative-thinktv-ipsos-ad-nation-2026-canada-media-gap-trust",
+    "comparative-tiktok-next-2026-realitea-curiosity-emotional-roi-community",
+    "comparative-trustlab-institutional-trust-governance-performance-six-countries-2026",
+    "comparative-twitch-state-gaming-2026-live-community-participation-regional",
+    "comparative-ubs-global-wealth-report-2026-wealth-pyramid-median-mobility-ownership",
+    "comparative-ucl-more-in-common-disagreeing-well-2026-speech-restraint-civic-space",
+    "comparative-uk-cma-annual-report-2025-2026-consumer-redress-digital-markets",
+    "comparative-uk-cma-stubhub-live-event-hidden-fees-2026-automatic-refund-remedy",
+    "comparative-uk-cma-ticketmaster-oasis-2024-2025-dynamic-pricing-undertakings",
+    "comparative-uk-community-engagement-arts-2025-26-physical-digital-deprivation",
+    "comparative-uk-community-engagement-survey-2025-26-belonging-trust-cohesion",
+    "comparative-uk-creative-industries-ai-adoption-2026-augmentation-trust-skills",
+    "comparative-uk-culture-heritage-social-cohesion-valuation-2026",
+    "comparative-uk-dcms-culture-heritage-social-cohesion-2026",
+    "comparative-uk-dcms-natcen-boys-young-men-loneliness-2026-risk-protective-factors",
+    "comparative-uk-dcms-offload-movember-youth-connection-pilot-2026-evaluation",
+    "comparative-uk-dcms-participation-survey-2024-2025-arts-libraries-digital-layering",
+    "comparative-uk-dcms-social-connection-framework-2026-young-men-belonging-infrastructure",
+    "comparative-uk-dcms-youth-matters-2026-community-opportunity-voice",
+    "comparative-uk-dft-domestic-transport-usage-september-2026-mode-recovery"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "comparative-sweden-internet-foundation-2026-ai-detox-digital-services-social-norms",
+      "atlas_record_path": "analysis/records/comparative-sweden-internet-foundation-2026-ai-detox-digital-services-social-norms.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Sweden's digital life expands and contracts at once: AI adoption rises while people seek detox, social boundaries, and safer public-service access",
+      "geography": "Sweden; residents surveyed about internet use, AI, digital public services, social media, mobile etiquette, and digital detox",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sweden's digital life expands contracts once adoption rises while people seek detox infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sweden's digital life expands contracts once adoption rises while people seek detox infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sweden's digital life expands contracts once adoption rises while people seek detox infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sweden's digital life expands contracts once adoption rises while people seek detox infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-sweden-sou-2026-53-parallel-social-structures-integration-exclusion-trust",
+      "atlas_record_path": "analysis/records/comparative-sweden-sou-2026-53-parallel-social-structures-integration-exclusion-trust.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Swedish inquiry frames social exclusion as an interaction among segregation, institutional distrust, discrimination, alternative systems and constrained individual rights",
+      "geography": "Sweden; national policy inquiry with attention to local areas, institutions, migrants, children, women and socially excluded communities",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "swedish inquiry frames social exclusion interaction among segregation institutional distrust discrimination alternative trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "swedish inquiry frames social exclusion interaction among segregation institutional distrust discrimination alternative trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "swedish inquiry frames social exclusion interaction among segregation institutional distrust discrimination alternative trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "swedish inquiry frames social exclusion interaction among segregation institutional distrust discrimination alternative trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-tasc-ireland-ai-inequality-2026-work-distribution-voice",
+      "atlas_record_path": "analysis/records/comparative-tasc-ireland-ai-inequality-2026-work-distribution-voice.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Ireland’s AI opportunity is distributed through existing differences in work exposure, gender, skills, ownership and worker voice",
+      "geography": "Ireland; workers, firms, communities and public institutions in a highly digitalised economy",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ireland opportunity distributed through existing differences work exposure gender skills ownership worker trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ireland opportunity distributed through existing differences work exposure gender skills ownership worker trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ireland opportunity distributed through existing differences work exposure gender skills ownership worker trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ireland opportunity distributed through existing differences work exposure gender skills ownership worker trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-tasc-ireland-inequality-2026-household-living-standards-housing",
+      "atlas_record_path": "analysis/records/comparative-tasc-ireland-inequality-2026-household-living-standards-housing.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Ireland’s tax-and-transfer system reduces measured disposable-income inequality while leaving deep pre-distribution, housing and household-room pressures intact",
+      "geography": "Ireland; households, renters, workers, unemployed people, lone-parent families, people with disabilities or long-term illness, and income deciles",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ireland tax-and-transfer system reduces measured disposable-income inequality while leaving deep pre-distribution housing trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ireland tax-and-transfer system reduces measured disposable-income inequality while leaving deep pre-distribution housing trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ireland tax-and-transfer system reduces measured disposable-income inequality while leaving deep pre-distribution housing trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ireland tax-and-transfer system reduces measured disposable-income inequality while leaving deep pre-distribution housing trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-thales-digital-trust-index-2026-access-friction-ai-autonomy",
+      "atlas_record_path": "analysis/records/comparative-thales-digital-trust-index-2026-access-friction-ai-autonomy.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Digital trust is experienced at the point of access: identity friction, understandable data practices, and AI autonomy shape abandonment and confidence",
+      "geography": "Consumers, partner users, and IT decision makers across the USA, Canada, Mexico, Brazil, UK, France, Germany, Netherlands, UAE, South Africa, Singapore, Japan, and Australia; fieldwork January–February 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "digital trust experienced point access identity friction understandable data practices autonomy shape infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "digital trust experienced point access identity friction understandable data practices autonomy shape infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "digital trust experienced point access identity friction understandable data practices autonomy shape infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "digital trust experienced point access identity friction understandable data practices autonomy shape infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-thinktv-ipsos-ad-nation-2026-canada-media-gap-trust",
+      "atlas_record_path": "analysis/records/comparative-thinktv-ipsos-ad-nation-2026-canada-media-gap-trust.json",
+      "canonical_theme": "platform-exit",
+      "title": "Media professionals are drifting away from the public they model: platform overestimation coexists with advertising distrust and shared-screen attachment",
+      "geography": "Canada; adults aged 18-59 and Canadian Marketing Association media/advertising professionals",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "media professionals are drifting away public they model platform overestimation coexists advertising platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "media professionals are drifting away public they model platform overestimation coexists advertising platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "media professionals are drifting away public they model platform overestimation coexists advertising platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "media professionals are drifting away public they model platform overestimation coexists advertising platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-tiktok-next-2026-realitea-curiosity-emotional-roi-community",
+      "atlas_record_path": "analysis/records/comparative-tiktok-next-2026-realitea-curiosity-emotional-roi-community.json",
+      "canonical_theme": "platform-exit",
+      "title": "TikTok’s 2026 forecast points from passive scrolling toward grounded reality, curiosity-led discovery, community verification, and more intentional purchases",
+      "geography": "TikTok platform culture and global creator, search, comment, and shopping behavior",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "tiktok forecast points passive scrolling toward grounded reality curiosity-led discovery community verification platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "tiktok forecast points passive scrolling toward grounded reality curiosity-led discovery community verification platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "tiktok forecast points passive scrolling toward grounded reality curiosity-led discovery community verification platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "tiktok forecast points passive scrolling toward grounded reality curiosity-led discovery community verification platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-trustlab-institutional-trust-governance-performance-six-countries-2026",
+      "atlas_record_path": "analysis/records/comparative-trustlab-institutional-trust-governance-performance-six-countries-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Institutional trust is tied more strongly to perceived governance performance and integrity than to partisan identity alone",
+      "geography": "Representative samples from Germany, Italy, Japan, Slovenia, the United Kingdom, and the United States; fielded 2017–2020 in the Trustlab database",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "institutional trust tied more strongly perceived governance performance integrity than partisan identity trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "institutional trust tied more strongly perceived governance performance integrity than partisan identity trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "institutional trust tied more strongly perceived governance performance integrity than partisan identity trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "institutional trust tied more strongly perceived governance performance integrity than partisan identity trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-twitch-state-gaming-2026-live-community-participation-regional",
+      "atlas_record_path": "analysis/records/comparative-twitch-state-gaming-2026-live-community-participation-regional.json",
+      "canonical_theme": "platform-exit",
+      "title": "Live gaming is functioning as a global participatory culture system where communities, creators, regional scenes, and platform rewards turn watching into co-created events",
+      "geography": "Global Twitch gaming viewership and creators, January 1 through September 1, 2026, with regional game rankings",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "live gaming functioning global participatory culture system where communities creators regional scenes platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "live gaming functioning global participatory culture system where communities creators regional scenes platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "live gaming functioning global participatory culture system where communities creators regional scenes platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "live gaming functioning global participatory culture system where communities creators regional scenes platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ubs-global-wealth-report-2026-wealth-pyramid-median-mobility-ownership",
+      "atlas_record_path": "analysis/records/comparative-ubs-global-wealth-report-2026-wealth-pyramid-median-mobility-ownership.json",
+      "canonical_theme": "unequal-exposure-status",
+      "title": "Global wealth expanded rapidly while median experience, regional position, and ownership remained sharply uneven",
+      "geography": "56 markets estimated by UBS to represent over 92% of global wealth, with regional, country, wealth-band, and high-net-worth comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "global wealth expanded rapidly while median experience regional position ownership remained sharply unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "global wealth expanded rapidly while median experience regional position ownership remained sharply unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "global wealth expanded rapidly while median experience regional position ownership remained sharply unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "global wealth expanded rapidly while median experience regional position ownership remained sharply unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ucl-more-in-common-disagreeing-well-2026-speech-restraint-civic-space",
+      "atlas_record_path": "analysis/records/comparative-ucl-more-in-common-disagreeing-well-2026-speech-restraint-civic-space.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Britons value open disagreement but experience a shrinking, socially costly public space for expressing it",
+      "geography": "Great Britain; polling of 2,000 people with follow-up focus groups",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "britons value open disagreement but experience shrinking socially costly public space expressing trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "britons value open disagreement but experience shrinking socially costly public space expressing trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "britons value open disagreement but experience shrinking socially costly public space expressing trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "britons value open disagreement but experience shrinking socially costly public space expressing trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-cma-annual-report-2025-2026-consumer-redress-digital-markets",
+      "atlas_record_path": "analysis/records/comparative-uk-cma-annual-report-2025-2026-consumer-redress-digital-markets.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "UK consumer enforcement is moving from investigation toward direct redress, while remedy reach and household recovery remain open",
+      "geography": "United Kingdom; CMA consumer-protection, competition, and digital-markets activity, 1 April 2025 to 31 March 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer enforcement moving investigation toward direct redress while remedy reach household recovery consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer enforcement moving investigation toward direct redress while remedy reach household recovery consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer enforcement moving investigation toward direct redress while remedy reach household recovery consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer enforcement moving investigation toward direct redress while remedy reach household recovery consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-cma-stubhub-live-event-hidden-fees-2026-automatic-refund-remedy",
+      "atlas_record_path": "analysis/records/comparative-uk-cma-stubhub-live-event-hidden-fees-2026-automatic-refund-remedy.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "UK live-event ticketing shows hidden price as a cultural-access barrier that can be converted into automatic consumer remedy",
+      "geography": "United Kingdom; StubHub UK live-show and sports-event customers",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "live-event ticketing shows hidden price cultural-access barrier can converted into automatic consumer consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "live-event ticketing shows hidden price cultural-access barrier can converted into automatic consumer consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "live-event ticketing shows hidden price cultural-access barrier can converted into automatic consumer consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "live-event ticketing shows hidden price cultural-access barrier can converted into automatic consumer consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-cma-ticketmaster-oasis-2024-2025-dynamic-pricing-undertakings",
+      "atlas_record_path": "analysis/records/comparative-uk-cma-ticketmaster-oasis-2024-2025-dynamic-pricing-undertakings.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "The Ticketmaster Oasis case shows live-event pricing harm being converted into prospective disclosure and monitoring controls",
+      "geography": "United Kingdom; Ticketmaster UK live-event ticket buyers and prospective buyers",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ticketmaster oasis case shows live-event pricing harm being converted into prospective disclosure consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ticketmaster oasis case shows live-event pricing harm being converted into prospective disclosure consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ticketmaster oasis case shows live-event pricing harm being converted into prospective disclosure consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ticketmaster oasis case shows live-event pricing harm being converted into prospective disclosure consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-community-engagement-arts-2025-26-physical-digital-deprivation",
+      "atlas_record_path": "analysis/records/comparative-uk-community-engagement-arts-2025-26-physical-digital-deprivation.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Arts participation remains broad but physical engagement fell, digital substitution stalled, and deprivation and place shape access",
+      "geography": "England; representative survey of people aged 16 and over, with regional, local-authority and demographic breakdowns",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "arts participation remains broad but physical engagement fell digital substitution stalled deprivation trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "arts participation remains broad but physical engagement fell digital substitution stalled deprivation trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "arts participation remains broad but physical engagement fell digital substitution stalled deprivation trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "arts participation remains broad but physical engagement fell digital substitution stalled deprivation trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-community-engagement-survey-2025-26-belonging-trust-cohesion",
+      "atlas_record_path": "analysis/records/comparative-uk-community-engagement-survey-2025-26-belonging-trust-cohesion.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Neighbourhood belonging and cohesion remain substantial but uneven, with local trust weaker than broad intergroup coexistence",
+      "geography": "England; representative Community and Engagement Survey estimates for people aged 16 and over",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "neighbourhood belonging cohesion remain substantial but uneven local trust weaker than broad trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "neighbourhood belonging cohesion remain substantial but uneven local trust weaker than broad trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "neighbourhood belonging cohesion remain substantial but uneven local trust weaker than broad trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "neighbourhood belonging cohesion remain substantial but uneven local trust weaker than broad trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-creative-industries-ai-adoption-2026-augmentation-trust-skills",
+      "atlas_record_path": "analysis/records/comparative-uk-creative-industries-ai-adoption-2026-augmentation-trust-skills.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Creative-industry AI adoption is being negotiated as an augmentation, trust and entry-route problem rather than simple automation",
+      "geography": "United Kingdom creative industries, including businesses, freelancers, institutions and regional creative clusters",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "creative-industry adoption being negotiated augmentation trust entry-route problem rather than simple automation ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "creative-industry adoption being negotiated augmentation trust entry-route problem rather than simple automation ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "creative-industry adoption being negotiated augmentation trust entry-route problem rather than simple automation ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "creative-industry adoption being negotiated augmentation trust entry-route problem rather than simple automation ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-culture-heritage-social-cohesion-valuation-2026",
+      "atlas_record_path": "analysis/records/comparative-uk-culture-heritage-social-cohesion-valuation-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Culture and heritage are being reframed as social infrastructure whose cohesion benefits must become visible in public-investment appraisal",
+      "geography": "United Kingdom culture and heritage assets and services, with implications for local and national public investment appraisal",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "culture heritage are being reframed social infrastructure whose cohesion benefits must become trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "culture heritage are being reframed social infrastructure whose cohesion benefits must become trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "culture heritage are being reframed social infrastructure whose cohesion benefits must become trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "culture heritage are being reframed social infrastructure whose cohesion benefits must become trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-dcms-culture-heritage-social-cohesion-2026",
+      "atlas_record_path": "analysis/records/comparative-uk-dcms-culture-heritage-social-cohesion-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Culture and heritage are being treated as social infrastructure whose cohesion value is real but difficult to isolate and monetize",
+      "geography": "United Kingdom culture and heritage assets, services, communities, institutions, and social-cohesion valuation evidence",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "culture heritage are being treated social infrastructure whose cohesion value real but trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "culture heritage are being treated social infrastructure whose cohesion value real but trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "culture heritage are being treated social infrastructure whose cohesion value real but trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "culture heritage are being treated social infrastructure whose cohesion value real but trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-dcms-natcen-boys-young-men-loneliness-2026-risk-protective-factors",
+      "atlas_record_path": "analysis/records/comparative-uk-dcms-natcen-boys-young-men-loneliness-2026-risk-protective-factors.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Among boys and young men, loneliness is widespread but usually intermittent; family support, friendships, mental health, bullying and work or education status structure who becomes persistently disconnected",
+      "geography": "England; boys and young men aged 10–25 using Understanding Society and Mental Health of Children and Young People survey data",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "among boys young men loneliness widespread but usually intermittent family support friendships care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "among boys young men loneliness widespread but usually intermittent family support friendships care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "among boys young men loneliness widespread but usually intermittent family support friendships care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "among boys young men loneliness widespread but usually intermittent family support friendships care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-dcms-offload-movember-youth-connection-pilot-2026-evaluation",
+      "atlas_record_path": "analysis/records/comparative-uk-dcms-offload-movember-youth-connection-pilot-2026-evaluation.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "A place-based sports intervention is being used as a bridge from social connection to mental-health literacy, aspiration and re-engagement for boys and young men at risk of isolation",
+      "geography": "Wigan and Wakefield, England; boys and young men experiencing loneliness, isolation or NEET status",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "place-based sports intervention being used bridge social connection mental-health literacy aspiration re-engagement trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "place-based sports intervention being used bridge social connection mental-health literacy aspiration re-engagement trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "place-based sports intervention being used bridge social connection mental-health literacy aspiration re-engagement trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "place-based sports intervention being used bridge social connection mental-health literacy aspiration re-engagement trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-dcms-participation-survey-2024-2025-arts-libraries-digital-layering",
+      "atlas_record_path": "analysis/records/comparative-uk-dcms-participation-survey-2024-2025-arts-libraries-digital-layering.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "England's cultural participation is broad and mostly physical-or-hybrid, with digital access layering onto institutions",
+      "geography": "England; adults aged 16 years and above",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "england's cultural participation broad mostly physical-or-hybrid digital access layering onto institutions department trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "england's cultural participation broad mostly physical-or-hybrid digital access layering onto institutions department trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "england's cultural participation broad mostly physical-or-hybrid digital access layering onto institutions department trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "england's cultural participation broad mostly physical-or-hybrid digital access layering onto institutions department trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-dcms-social-connection-framework-2026-young-men-belonging-infrastructure",
+      "atlas_record_path": "analysis/records/comparative-uk-dcms-social-connection-framework-2026-young-men-belonging-infrastructure.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Young men’s loneliness is being reframed as a social-infrastructure and participation problem, linking belonging, work, school, online risk and accessible places to connect",
+      "geography": "England and UK policy context, focused on boys and young men aged 10–25, with implications for youth, education, local government and community provision",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "young men loneliness being reframed social-infrastructure participation problem linking belonging work school trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "young men loneliness being reframed social-infrastructure participation problem linking belonging work school trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "young men loneliness being reframed social-infrastructure participation problem linking belonging work school trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "young men loneliness being reframed social-infrastructure participation problem linking belonging work school trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-dcms-youth-matters-2026-community-opportunity-voice",
+      "atlas_record_path": "analysis/records/comparative-uk-dcms-youth-matters-2026-community-opportunity-voice.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Youth wellbeing and civic confidence are tied to local third spaces, trusted adults, affordable opportunity, and whether young people feel heard",
+      "geography": "England primarily, with selected UK-wide comparisons; young people ages 10-21 and up to 25 for those with special educational needs or disabilities",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "youth wellbeing civic confidence are tied local third spaces trusted adults affordable housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "youth wellbeing civic confidence are tied local third spaces trusted adults affordable housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "youth wellbeing civic confidence are tied local third spaces trusted adults affordable housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "youth wellbeing civic confidence are tied local third spaces trusted adults affordable housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-uk-dft-domestic-transport-usage-september-2026-mode-recovery",
+      "atlas_record_path": "analysis/records/comparative-uk-dft-domestic-transport-usage-september-2026-mode-recovery.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Great Britain’s mobility recovery remains mode-specific: road traffic is above baseline while public transport has not fully returned",
+      "geography": "Great Britain; National Rail excluding Elizabeth line, buses, Transport for London, and motor traffic",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0024",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "great britain mobility recovery remains mode-specific road traffic above baseline while public housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "great britain mobility recovery remains mode-specific road traffic above baseline while public housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "great britain mobility recovery remains mode-specific road traffic above baseline while public housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "great britain mobility recovery remains mode-specific road traffic above baseline while public housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
