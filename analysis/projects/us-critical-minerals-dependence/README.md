@@ -5,6 +5,7 @@ This project examines the material layer beneath batteries, semiconductors, defe
 ## Initial finding
 
 - [Finding 001: Domestic capability does not automatically remove material dependence](findings/us-gao-critical-minerals-substitution-dependence-2026-001.md)
+- [Critical-minerals application pathway audit](critical-minerals-application-pathway-audit-v1.md)
 
 ## Next test
 
