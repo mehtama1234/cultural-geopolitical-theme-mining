@@ -76,6 +76,13 @@ The second ongoing-program social bridge is [household pressure, time, care, and
 - [SHED financial persistence layer](../us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md)
 - [SHED homeowners-insurance pressure layer](../us-housing-insurance-affordability/shed-2025-home-insurance-pressure-layer-v1.md)
 
+The [care, time, work, and social-capacity conversion bridge](care-time-work-social-capacity-conversion-bridge-v1.md)
+adds a cross-source time-use layer across U.S. unpaid household work, Canada,
+Australia, England, UN Women, and the Quebec childcare evaluation. It keeps
+care intensity, time allocation, work adaptation, social participation, and
+service response separate and identifies restored discretionary time as the
+missing recovery outcome.
+
 ## Definition of done
 
 The project is complete only when a dated person or household episode records:
