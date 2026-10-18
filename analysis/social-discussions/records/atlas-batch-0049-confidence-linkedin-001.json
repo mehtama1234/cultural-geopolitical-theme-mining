@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0049-confidence-linkedin-001",
+  "atlas_record_ids": ["us-conference-board-consumer-confidence-september-2026-current-expectations-spending"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "economic_release_interpretation_and_counter_signal",
+  "author_or_account": "Faisal Amjad",
+  "title": "US Consumer Confidence Analysis — September 2026",
+  "canonical_url": "https://www.linkedin.com/posts/faisal-amjad-469522172_us-consumer-confidence-analysis-september-activity-7510989967146512385-_BD9",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post distinguishes falling confidence and expectations from continued selective spending, with households prioritizing necessities and reducing some durable purchases. It preserves the important counter-signal that weak sentiment is not identical to an immediate consumption collapse.",
+  "research_anchor_paths": ["analysis/records/us-conference-board-consumer-confidence-september-2026-current-expectations-spending.json"],
+  "linked_research_question": "How do current conditions, future expectations, and planned spending diverge when households face inflation, job, and borrowing-cost concerns?",
+  "classification": ["economic_interpretation", "household_sentiment", "counter_signal", "spending_behavior"],
+  "limits": ["The post interprets a survey release rather than measuring actual future spending", "Consumer confidence is not a direct household-income measure", "Selective spending patterns may differ across demographic groups"]
+}
