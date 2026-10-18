@@ -1,5 +1,17 @@
 # US broad program next-pass queue v1
 
+**Latest geoeconomic-coercion rotation — 2026-10-18:** the [geoeconomic
+coercion, firm spillovers, household costs, and attribution audit](projects/cross-domain/geoeconomic-coercion-firm-household-attribution-audit-v1.md)
+joins NBER target-selection and bilateral-hostility mechanisms with Census
+firm-level export-control spillovers, CRS retaliation chronology, NBER tariff
+pass-through, Ipsos household attribution, and bounded public discussion. The
+evidence supports a translation gap: pressure can change trade, payroll, inputs,
+and prices, while concession, security benefit, household incidence, and
+legitimacy are not observed in one named episode. Next: follow one coercion
+episode through target response, firm and product substitution, payroll or
+employment, household exposure, public attribution, and later concession,
+reversal, adaptation, or escalation.
+
 **Latest South Africa cultural-structure rotation — 2026-09-30:** the [Stats SA Census 2022 Cultural Dynamics record](records/comparative-south-africa-statssa-census-cultural-dynamics-1996-2022-language-religion-household-marriage.json) adds a population-scale identity and household layer: multiracial households rose from 1.3% in 2001 to 11.4% in 2022, multilingual households from 3.5% in 1996 to 9.4% in 2022, while legal marriage fell from 35.6% in 1996 to 23.8% in 2022. Christianity remained 84.5% in 2022, but traditional African religious affiliation reached 9.5%. These are census classifications, not direct measures of trust, tolerance, practice, welfare, or cohesion. Next: connect cultural structure to language access, housing, migration, consumer segmentation, and lived intergroup contact.
 
 **Latest Singapore cultural-credit rotation — 2026-09-30:** the [MCCY/NAC SG Culture Pass record](records/comparative-singapore-mccy-sg-culture-pass-2026-audience-reach-multicultural-access.json) adds an audience-conversion test: more than 1.2 million citizens registered, seven in ten had not attended a local arts or culture programme in the prior five years, and nine in ten users expressed interest in attending another. NAC’s 2023 survey shows the broader gap between 59% physical attendance, 66% digital consumption, and 28% active participation, with childhood-exposed respondents much more engaged. The pass figures are early administrative and stated-interest signals, not redemption, repeat attendance, causal impact, or equal access. Next: find redemption, programme, income, neighborhood, and repeat-attendance data.
