@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0077",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "us-sipp-resource-work-direction-subgroups-2024",
+    "us-sipp-resource-worklimitation-direction-2024",
+    "us-sipp-resource-worklimitation-hours-earnings-crosslag-2024",
+    "us-sipp-safety-net-transition-work-room-2024",
+    "us-sipp-snap-annual-childcare-context-2024",
+    "us-sipp-snap-childcare-time-loss-2024",
+    "us-sipp-snap-following-resource-work-context-2024",
+    "us-sipp-snap-stable-state-childcare-2024",
+    "us-sipp-snap-transition-following-hardship-2024",
+    "us-sipp-snap-transition-reason-following-food-security-2024",
+    "us-sipp-snap-transition-reasons-2024",
+    "us-sipp-snap-transition-resource-job-context-2024",
+    "us-sipp-tenure-resource-pressure-2024",
+    "us-sipp-utility-care-following-outcomes-2024",
+    "us-sipp-utility-credit-savings-joint-2024",
+    "us-sipp-utility-tenure-childcare-2024",
+    "us-sipp-utility-time-loss-following-2024",
+    "us-sipp-utility-work-following-2024",
+    "us-sipp-utility-work-tenure-following-2024",
+    "us-sipp-work-care-room-nonpooled-2024",
+    "us-sipp-work-limitation-children-resources-2024",
+    "us-sipri-arms-transfer-dependence-2021-2025",
+    "us-sipri-military-expenditure-2025-state-capacity",
+    "us-sipri-military-expenditure-state-capacity-2015-2024",
+    "us-small-business-disaster-liquidity-causal-2024"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-sipp-resource-work-direction-subgroups-2024",
+      "atlas_record_path": "analysis/records/us-sipp-resource-work-direction-subgroups-2024.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Hours remain more stable than earnings, but the direction pattern changes across children and SNAP contexts",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "hours remain more stable than earnings but direction pattern changes across children ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "hours remain more stable than earnings but direction pattern changes across children ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "hours remain more stable than earnings but direction pattern changes across children ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "hours remain more stable than earnings but direction pattern changes across children ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-resource-worklimitation-direction-2024",
+      "atlas_record_path": "analysis/records/us-sipp-resource-worklimitation-direction-2024.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Monthly earnings and hours changes have different directions across resource and work-limitation cells",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "monthly earnings hours changes have different directions across resource work-limitation cells identified ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "monthly earnings hours changes have different directions across resource work-limitation cells identified ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "monthly earnings hours changes have different directions across resource work-limitation cells identified ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "monthly earnings hours changes have different directions across resource work-limitation cells identified ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-resource-worklimitation-hours-earnings-crosslag-2024",
+      "atlas_record_path": "analysis/records/us-sipp-resource-worklimitation-hours-earnings-crosslag-2024.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Monthly resource position is followed by distinct earnings and hours movement across work-limiting status",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "monthly resource position followed distinct earnings hours movement across work-limiting status identified ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "monthly resource position followed distinct earnings hours movement across work-limiting status identified ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "monthly resource position followed distinct earnings hours movement across work-limiting status identified ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "monthly resource position followed distinct earnings hours movement across work-limiting status identified ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-safety-net-transition-work-room-2024",
+      "atlas_record_path": "analysis/records/us-sipp-safety-net-transition-work-room-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Safety-net transitions mark pressure without establishing recovery or work change",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "safety-net transitions mark pressure without establishing recovery work change identified sipp person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "safety-net transitions mark pressure without establishing recovery work change identified sipp person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "safety-net transitions mark pressure without establishing recovery work change identified sipp person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "safety-net transitions mark pressure without establishing recovery work change identified sipp person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-snap-annual-childcare-context-2024",
+      "atlas_record_path": "analysis/records/us-sipp-snap-annual-childcare-context-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Annual child-care routes differ across stable SNAP states while adjacent transition cells are too sparse",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "annual child-care routes differ across stable snap while adjacent transition cells are household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "annual child-care routes differ across stable snap while adjacent transition cells are household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "annual child-care routes differ across stable snap while adjacent transition cells are household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "annual child-care routes differ across stable snap while adjacent transition cells are household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-snap-childcare-time-loss-2024",
+      "atlas_record_path": "analysis/records/us-sipp-snap-childcare-time-loss-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Child-care work prevention and reported time-loss type differ across stable SNAP states",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "child-care work prevention reported time-loss type differ across stable snap identified person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "child-care work prevention reported time-loss type differ across stable snap identified person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "child-care work prevention reported time-loss type differ across stable snap identified person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "child-care work prevention reported time-loss type differ across stable snap identified person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-snap-following-resource-work-context-2024",
+      "atlas_record_path": "analysis/records/us-sipp-snap-following-resource-work-context-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "The month after a SNAP transition, resources still move more than jobs or hours",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "month after snap transition resources still move more than jobs hours identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "month after snap transition resources still move more than jobs hours identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "month after snap transition resources still move more than jobs hours identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "month after snap transition resources still move more than jobs hours identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-snap-stable-state-childcare-2024",
+      "atlas_record_path": "analysis/records/us-sipp-snap-stable-state-childcare-2024.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Stable SNAP receipt coexists with different annual child-care payment, assistance, and work-constraint profiles",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "stable snap receipt coexists different annual child-care payment assistance work-constraint profiles identified public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "stable snap receipt coexists different annual child-care payment assistance work-constraint profiles identified public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "stable snap receipt coexists different annual child-care payment assistance work-constraint profiles identified public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "stable snap receipt coexists different annual child-care payment assistance work-constraint profiles identified public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-snap-transition-following-hardship-2024",
+      "atlas_record_path": "analysis/records/us-sipp-snap-transition-following-hardship-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "SNAP receipt transitions do not map cleanly onto following-month material security",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "snap receipt transitions not map cleanly onto following-month material security sipp identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "snap receipt transitions not map cleanly onto following-month material security sipp identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "snap receipt transitions not map cleanly onto following-month material security sipp identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "snap receipt transitions not map cleanly onto following-month material security sipp identified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-snap-transition-reason-following-food-security-2024",
+      "atlas_record_path": "analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "SNAP transition reasons lead to distinct following-month food-security paths",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "snap transition reasons lead distinct following-month food-security paths identified sipp person adjacent public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "snap transition reasons lead distinct following-month food-security paths identified sipp person adjacent public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "snap transition reasons lead distinct following-month food-security paths identified sipp person adjacent public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "snap transition reasons lead distinct following-month food-security paths identified sipp person adjacent public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-snap-transition-reasons-2024",
+      "atlas_record_path": "analysis/records/us-sipp-snap-transition-reasons-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Reported reasons for monthly SNAP entry and exit are heterogeneous",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "reported reasons monthly snap entry exit are heterogeneous identified sipp person adjacent household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "reported reasons monthly snap entry exit are heterogeneous identified sipp person adjacent household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "reported reasons monthly snap entry exit are heterogeneous identified sipp person adjacent household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "reported reasons monthly snap entry exit are heterogeneous identified sipp person adjacent household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-snap-transition-resource-job-context-2024",
+      "atlas_record_path": "analysis/records/us-sipp-snap-transition-resource-job-context-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "SNAP entry and exit sit beside resource and person-earnings changes while job counts usually remain unchanged",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "snap entry exit sit beside resource person-earnings changes while job counts usually household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "snap entry exit sit beside resource person-earnings changes while job counts usually household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "snap entry exit sit beside resource person-earnings changes while job counts usually household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "snap entry exit sit beside resource person-earnings changes while job counts usually household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-tenure-resource-pressure-2024",
+      "atlas_record_path": "analysis/records/us-sipp-tenure-resource-pressure-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Tenure and resources jointly shape reported household pressure",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "tenure resources jointly shape reported household pressure sipp person reference month stratified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "tenure resources jointly shape reported household pressure sipp person reference month stratified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "tenure resources jointly shape reported household pressure sipp person reference month stratified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "tenure resources jointly shape reported household pressure sipp person reference month stratified household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-utility-care-following-outcomes-2024",
+      "atlas_record_path": "analysis/records/us-sipp-utility-care-following-outcomes-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Utility difficulty and child-care work prevention sit beside following-month renter insecurity",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "utility difficulty child-care work prevention sit beside following-month renter insecurity identified sipp household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "utility difficulty child-care work prevention sit beside following-month renter insecurity identified sipp household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "utility difficulty child-care work prevention sit beside following-month renter insecurity identified sipp household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "utility difficulty child-care work prevention sit beside following-month renter insecurity identified sipp household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-utility-credit-savings-joint-2024",
+      "atlas_record_path": "analysis/records/us-sipp-utility-credit-savings-joint-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Utility-payment difficulty coexists with more balance carrying and less savings, but access differs by resources",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "utility-payment difficulty coexists more balance carrying less savings but access differs resources household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "utility-payment difficulty coexists more balance carrying less savings but access differs resources household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "utility-payment difficulty coexists more balance carrying less savings but access differs resources household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "utility-payment difficulty coexists more balance carrying less savings but access differs resources household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-utility-tenure-childcare-2024",
+      "atlas_record_path": "analysis/records/us-sipp-utility-tenure-childcare-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Child-care work prevention is higher inside reported utility difficulty, with tenure-specific uncertainty",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "child-care work prevention higher inside reported utility difficulty tenure-specific uncertainty sipp public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "child-care work prevention higher inside reported utility difficulty tenure-specific uncertainty sipp public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "child-care work prevention higher inside reported utility difficulty tenure-specific uncertainty sipp public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "child-care work prevention higher inside reported utility difficulty tenure-specific uncertainty sipp public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-utility-time-loss-following-2024",
+      "atlas_record_path": "analysis/records/us-sipp-utility-time-loss-following-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Utility difficulty and tenure sit beside a sparse child-care time-loss endpoint",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "utility difficulty tenure sit beside sparse child-care time-loss endpoint positive-weight sipp person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "utility difficulty tenure sit beside sparse child-care time-loss endpoint positive-weight sipp person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "utility difficulty tenure sit beside sparse child-care time-loss endpoint positive-weight sipp person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "utility difficulty tenure sit beside sparse child-care time-loss endpoint positive-weight sipp person household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-utility-work-following-2024",
+      "atlas_record_path": "analysis/records/us-sipp-utility-work-following-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Utility and energy-assistance screens precede distinct but uncertain next-month work changes",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "utility energy-assistance screens precede distinct but uncertain next-month work changes sipp public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "utility energy-assistance screens precede distinct but uncertain next-month work changes sipp public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "utility energy-assistance screens precede distinct but uncertain next-month work changes sipp public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "utility energy-assistance screens precede distinct but uncertain next-month work changes sipp public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-utility-work-tenure-following-2024",
+      "atlas_record_path": "analysis/records/us-sipp-utility-work-tenure-following-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Utility difficulty sits beside different work-change surfaces for renters and owners",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "utility difficulty sits beside different work-change surfaces renters owners sipp public-use file household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "utility difficulty sits beside different work-change surfaces renters owners sipp public-use file household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "utility difficulty sits beside different work-change surfaces renters owners sipp public-use file household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "utility difficulty sits beside different work-change surfaces renters owners sipp public-use file household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-work-care-room-nonpooled-2024",
+      "atlas_record_path": "analysis/records/us-sipp-work-care-room-nonpooled-2024.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Work can look stable in hours while care and housing position narrow household room",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "work can look stable hours while care housing position narrow household room ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "work can look stable hours while care housing position narrow household room ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "work can look stable hours while care housing position narrow household room ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "work can look stable hours while care housing position narrow household room ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-work-limitation-children-resources-2024",
+      "atlas_record_path": "analysis/records/us-sipp-work-limitation-children-resources-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Material pressure is jointly distributed across work limitation, children, and resources",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "material pressure jointly distributed across work limitation children resources sipp person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "material pressure jointly distributed across work limitation children resources sipp person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "material pressure jointly distributed across work limitation children resources sipp person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "material pressure jointly distributed across work limitation children resources sipp person reference time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipri-arms-transfer-dependence-2021-2025",
+      "atlas_record_path": "analysis/records/us-sipri-arms-transfer-dependence-2021-2025.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "US arms-transfer dominance can deepen allied dependence without proving political control",
+      "geography": "International transfers of major conventional arms; United States, Europe, and European NATO members",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "arms-transfer dominance can deepen allied dependence without proving political control sipri arms geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "arms-transfer dominance can deepen allied dependence without proving political control sipri arms geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "arms-transfer dominance can deepen allied dependence without proving political control sipri arms geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "arms-transfer dominance can deepen allied dependence without proving political control sipri arms geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipri-military-expenditure-2025-state-capacity",
+      "atlas_record_path": "analysis/records/us-sipri-military-expenditure-2025-state-capacity.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Global military spending rose while US spending fell and European capacity accelerated",
+      "geography": "Global, national, regional, and NATO groupings",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "global military spending rose while fell european capacity accelerated sipri military-expenditure estimate geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "global military spending rose while fell european capacity accelerated sipri military-expenditure estimate geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "global military spending rose while fell european capacity accelerated sipri military-expenditure estimate geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "global military spending rose while fell european capacity accelerated sipri military-expenditure estimate geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipri-military-expenditure-state-capacity-2015-2024",
+      "atlas_record_path": "analysis/records/us-sipri-military-expenditure-state-capacity-2015-2024.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Military-resource allocation and alliance concentration increased alongside geopolitical tension",
+      "geography": "World, United States, China, and NATO alliance",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "military-resource allocation alliance concentration increased alongside geopolitical tension sipri national military-expenditure estimates geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "military-resource allocation alliance concentration increased alongside geopolitical tension sipri national military-expenditure estimates geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "military-resource allocation alliance concentration increased alongside geopolitical tension sipri national military-expenditure estimates geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "military-resource allocation alliance concentration increased alongside geopolitical tension sipri national military-expenditure estimates geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-small-business-disaster-liquidity-causal-2024",
+      "atlas_record_path": "analysis/records/us-small-business-disaster-liquidity-causal-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Emergency recovery loans reduce small-firm exit and bankruptcy after disasters while increasing employment, revenue, and private credit",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "emergency recovery loans reduce small-firm exit bankruptcy after disasters while increasing employment household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "emergency recovery loans reduce small-firm exit bankruptcy after disasters while increasing employment household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "emergency recovery loans reduce small-firm exit bankruptcy after disasters while increasing employment household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "emergency recovery loans reduce small-firm exit bankruptcy after disasters while increasing employment household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}

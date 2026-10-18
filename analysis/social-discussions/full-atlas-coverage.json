@@ -78535,8 +78535,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Hours remain more stable than earnings, but the direction pattern changes across children and SNAP contexts",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78568,7 +78568,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-resource-worklimitation-direction-2024",
@@ -78576,8 +78576,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Monthly earnings and hours changes have different directions across resource and work-limitation cells",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78609,7 +78609,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-resource-worklimitation-hours-earnings-crosslag-2024",
@@ -78617,8 +78617,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Monthly resource position is followed by distinct earnings and hours movement across work-limiting status",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78650,7 +78650,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-safety-net-transition-work-room-2024",
@@ -78658,8 +78658,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Safety-net transitions mark pressure without establishing recovery or work change",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78691,7 +78691,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-snap-annual-childcare-context-2024",
@@ -78699,8 +78699,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Annual child-care routes differ across stable SNAP states while adjacent transition cells are too sparse",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78732,7 +78732,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-snap-childcare-time-loss-2024",
@@ -78740,8 +78740,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Child-care work prevention and reported time-loss type differ across stable SNAP states",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78773,7 +78773,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-snap-following-resource-work-context-2024",
@@ -78781,8 +78781,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "The month after a SNAP transition, resources still move more than jobs or hours",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78814,7 +78814,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-snap-stable-state-childcare-2024",
@@ -78822,8 +78822,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Stable SNAP receipt coexists with different annual child-care payment, assistance, and work-constraint profiles",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78855,7 +78855,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-snap-transition-following-hardship-2024",
@@ -78863,8 +78863,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "SNAP receipt transitions do not map cleanly onto following-month material security",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78896,7 +78896,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-snap-transition-reason-following-food-security-2024",
@@ -78904,8 +78904,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "SNAP transition reasons lead to distinct following-month food-security paths",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78937,7 +78937,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-snap-transition-reasons-2024",
@@ -78945,8 +78945,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Reported reasons for monthly SNAP entry and exit are heterogeneous",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -78978,7 +78978,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-snap-transition-resource-job-context-2024",
@@ -78986,8 +78986,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "SNAP entry and exit sit beside resource and person-earnings changes while job counts usually remain unchanged",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79019,7 +79019,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-tenure-resource-pressure-2024",
@@ -79027,8 +79027,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Tenure and resources jointly shape reported household pressure",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79060,7 +79060,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-utility-care-following-outcomes-2024",
@@ -79068,8 +79068,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Utility difficulty and child-care work prevention sit beside following-month renter insecurity",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79101,7 +79101,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-utility-credit-savings-joint-2024",
@@ -79109,8 +79109,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Utility-payment difficulty coexists with more balance carrying and less savings, but access differs by resources",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79142,7 +79142,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-utility-tenure-childcare-2024",
@@ -79150,8 +79150,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Child-care work prevention is higher inside reported utility difficulty, with tenure-specific uncertainty",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79183,7 +79183,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-utility-time-loss-following-2024",
@@ -79191,8 +79191,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Utility difficulty and tenure sit beside a sparse child-care time-loss endpoint",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79224,7 +79224,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-utility-work-following-2024",
@@ -79232,8 +79232,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Utility and energy-assistance screens precede distinct but uncertain next-month work changes",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79265,7 +79265,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-utility-work-tenure-following-2024",
@@ -79273,8 +79273,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Utility difficulty sits beside different work-change surfaces for renters and owners",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79306,7 +79306,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-work-care-room-nonpooled-2024",
@@ -79314,8 +79314,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Work can look stable in hours while care and housing position narrow household room",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79347,7 +79347,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipp-work-limitation-children-resources-2024",
@@ -79355,8 +79355,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Material pressure is jointly distributed across work limitation, children, and resources",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79388,7 +79388,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipri-arms-transfer-dependence-2021-2025",
@@ -79396,8 +79396,8 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "US arms-transfer dominance can deepen allied dependence without proving political control",
       "geography": "International transfers of major conventional arms; United States, Europe, and European NATO members",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79429,7 +79429,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipri-military-expenditure-2025-state-capacity",
@@ -79437,8 +79437,8 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Global military spending rose while US spending fell and European capacity accelerated",
       "geography": "Global, national, regional, and NATO groupings",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79470,7 +79470,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-sipri-military-expenditure-state-capacity-2015-2024",
@@ -79478,8 +79478,8 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Military-resource allocation and alliance concentration increased alongside geopolitical tension",
       "geography": "World, United States, China, and NATO alliance",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79511,7 +79511,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-small-business-disaster-liquidity-causal-2024",
@@ -79519,8 +79519,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Emergency recovery loans reduce small-firm exit and bankruptcy after disasters while increasing employment, revenue, and private credit",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0077",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -79552,7 +79552,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-small-business-support-size-rule-2026",
