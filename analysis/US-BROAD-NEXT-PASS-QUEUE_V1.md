@@ -1,5 +1,15 @@
 # US broad program next-pass queue v1
 
+**Latest credit-and-household-room rotation — 2026-10-18:** the [credit cost,
+score feedback, household room, and exit audit](projects/cross-domain/credit-cost-score-household-exit-audit-v1.md)
+joins Philadelphia Fed borrowing-cost and purchase decisions with NBER
+randomized credit-information evidence, NBER score/default feedback, linked
+Federal Reserve credit records, CFPB card-market data, New York Fed expectations,
+and bounded finance discussion. Better information can lower rates and improve
+negotiation, but take-up, revolving cost, uneven buffers, and score feedback can
+still narrow future room. Next: follow one borrower from need and offer through
+purpose, terms, repayment, hardship or remedy, later score/access, and exit.
+
 **Latest AI-service/remedy rotation — 2026-10-18:** the [AI customer service,
 context, human fallback, and remedy audit](projects/cross-domain/ai-customer-service-context-remedy-audit-v1.md)
 joins an HBS/Management Science randomized field experiment with FTC refund
