@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0047-cfpb-complaint-linkedin-001",
+  "atlas_record_ids": ["us-cfpb-complaint-publication-visibility-2026"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "regulatory_change_and_professional_reaction",
+  "author_or_account": "Allison Schoenthal",
+  "title": "The CFPB is Correcting Flaws to Restore Integrity and Utility to the Consumer Complaint System",
+  "canonical_url": "https://www.linkedin.com/posts/allison-schoenthal-2476396_the-cfpb-is-correcting-flaws-to-restore-integrity-activity-7475985680704118785-dqv3",
+  "published_window": "2026-08",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post discusses changes to authentication, dispute sequencing, and response categories intended to reduce duplicate or non-consumer submissions. It makes a central tradeoff visible: improving intake integrity may reduce public narrative visibility and change what complaint volume can mean.",
+  "research_anchor_paths": ["analysis/records/us-cfpb-complaint-publication-visibility-2026.json"],
+  "linked_research_question": "When a complaint system filters noise and improves response integrity, what consumer meaning or public visibility may be lost?",
+  "classification": ["regulatory_change", "consumer_recourse", "measurement_visibility", "institutional_tradeoff"],
+  "limits": ["The post reflects a professional interpretation of CFPB changes", "Complaint volume is not a direct measure of consumer harm", "The post cannot establish the downstream effect of the new filters"]
+}

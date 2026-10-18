@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0047-wildfire-linkedin-001",
+  "atlas_record_ids": ["us-census-wildfire-damage-income-community-composition-2026"],
+  "topic": "housing-place-mobility",
+  "platform": "linkedin",
+  "item_type": "research_release_and_recovery_discussion",
+  "author_or_account": "Darius Nassiry",
+  "title": "The Distribution and Consequences of Natural Disasters",
+  "canonical_url": "https://www.linkedin.com/posts/darius-nassiry_the-distribution-and-consequences-of-natural-activity-7501386426048073728-SqXm",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post describes wildfire damage as an income and community-composition shock, with multi-year losses for directly damaged households and slow, selective reoccupation. It adds a social recovery lens to the atlas record: rebuilding does not necessarily restore the prior population or economic trajectory.",
+  "research_anchor_paths": ["analysis/records/us-census-wildfire-damage-income-community-composition-2026.json"],
+  "linked_research_question": "How does wildfire destruction alter income, return, housing security, and who remains in a community over time?",
+  "classification": ["research_release", "disaster_recovery", "place_change", "distributional_effect"],
+  "limits": ["The post summarizes a study and does not expose its full design", "Direct property damage is not equivalent to general wildfire exposure", "Observed reoccupation patterns do not establish the policy cause of migration"]
+}

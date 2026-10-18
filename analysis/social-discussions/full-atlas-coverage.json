@@ -47649,11 +47649,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "snap work requirements reduced participation without increasing labor supply five-state study census public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0047-snap-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -47664,7 +47666,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-census-status-inconsistency-neighborhood-mobility-acs-2026",
@@ -48059,11 +48061,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "wildfire destruction produces multi-year income loss changes who returns community census ces housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0047-wildfire-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -48074,7 +48078,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-census-womens-education-career-children-2026",
@@ -48141,11 +48145,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "medical debt becomes visible cfpb complaint category published represented product sub-product aggregate household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0047-medical-debt-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -48156,7 +48162,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-cfpb-published-response-endpoint-2020-2025",
@@ -48428,11 +48434,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "complaint system can improve intake integrity while reducing public narrative visibility consumer platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0047-cfpb-complaint-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -48443,7 +48451,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-cfpb-consumer-credit-trends-february-2026",
