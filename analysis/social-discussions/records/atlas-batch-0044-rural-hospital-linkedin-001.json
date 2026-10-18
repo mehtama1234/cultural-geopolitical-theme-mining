@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0044-rural-hospital-linkedin-001",
+  "atlas_record_ids": ["us-census-hospital-consolidation-geographic-access-rural-south-2026"],
+  "topic": "care-health-social-reproduction",
+  "platform": "linkedin",
+  "item_type": "professional_discussion_and_lived_access_signal",
+  "author_or_account": "Trent Bourland",
+  "title": "Rural Healthcare Access Shrinks in 2026",
+  "canonical_url": "https://www.linkedin.com/posts/trent-bourland-0044a976_rural-healthcare-2026-what-the-data-actually-activity-7411997576259932160-37Pz",
+  "published_window": "2026-05",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The discussion distinguishes hospital buildings from actual access, emergency travel time, staffing, schools, local business confidence, and community viability. Replies add lived examples of families avoiding rural places because of distance to care, showing how aggregate capacity can coexist with practical geographic exit pressure.",
+  "research_anchor_paths": ["analysis/records/us-census-hospital-consolidation-geographic-access-rural-south-2026.json"],
+  "linked_research_question": "How can hospital capacity or consolidation change geographic access, household decisions, and the viability of rural places?",
+  "classification": ["rural_access", "health_infrastructure", "lived_example", "place_mobility"],
+  "limits": ["The post is advocacy and professional interpretation rather than a representative rural survey", "Anecdotal replies cannot estimate travel or mortality effects", "The discussion does not isolate consolidation from other rural health constraints"]
+}

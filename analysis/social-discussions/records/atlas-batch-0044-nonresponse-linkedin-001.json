@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0044-nonresponse-linkedin-001",
+  "atlas_record_ids": ["us-census-cps-asec-nonresponse-bias-2026"],
+  "topic": "public-systems-policy-feedback",
+  "platform": "linkedin",
+  "item_type": "methodological_research_discussion",
+  "author_or_account": "Laura Hanson Schlachter, PhD / U.S. Census Bureau",
+  "title": "Evaluating Nonresponse Bias in CPS Data",
+  "canonical_url": "https://www.linkedin.com/posts/laura-hanson-schlachter-phd-3071754b_this-is-critical-work-rigorously-evaluating-activity-7506322825587150849-iwau",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post calls attention to the possibility that survey nonresponse biases income and poverty statistics and treats methodological review as part of the public evidence system. The signal is institutional: what the public can know about hardship depends partly on who answers and how agencies correct the record.",
+  "research_anchor_paths": ["analysis/records/us-census-cps-asec-nonresponse-bias-2026.json"],
+  "linked_research_question": "How do survey participation and nonresponse change the social groups visible in public measures of income, poverty, and security?",
+  "classification": ["methodological_signal", "measurement_bias", "public_evidence", "institutional_response"],
+  "limits": ["The post points to methodological work rather than presenting all adjustment results", "Nonresponse bias may vary by measure and year", "A methodological concern does not quantify the direction of every estimate"]
+}
