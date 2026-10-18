@@ -20,3 +20,7 @@ The [bounded finding](findings/us-emergency-assistance-work-path-001.md)
 now records the NBER linked-hotline/tax-record study. It advances the
 assistance-to-labor-market arrow while preserving the missing housing
 continuity, adequacy, job-quality, and lived-recovery fields.
+
+The [assistance, housing, and work recovery bridge](assistance-housing-work-recovery-conversion-bridge-v1.md)
+compares the Chicago linked-record route with lottery-based rental-assistance
+evidence and keeps payment, housing, work, and persistence as separate gates.
