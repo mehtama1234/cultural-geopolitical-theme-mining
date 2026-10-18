@@ -159,12 +159,13 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **781**
+- Observed domains outside registered families: **784**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
 |---|---:|---|
 | `doi.org` | 379 | `analysis/projects/us-declining-occupations-career-outcomes/findings/us-nber-declining-occupations-career-earnings-2000-2020-001.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md` |
+| `linkedin.com` | 301 | `analysis/social-discussions/records/atlas-eu-child-safety-linkedin-001.json`; `analysis/social-discussions/records/atlas-gsma-mobile-gender-gap-linkedin-001.json`; `analysis/social-discussions/records/atlas-oecd-pisa-digital-learning-ai-linkedin-001.json` |
 | `fwc.gov.au` | 158 | `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md`; `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md`; `analysis/US-REMEDY-IMPLEMENTATION-RECOVERY-SYNTHESIS_V1.md` |
 | `ipsos.com` | 153 | `analysis/projects/cross-domain/ipsos-small-acts-kindness-older-people-winter-energy-loneliness-2026.md`; `analysis/projects/cross-domain/ipsos-football-club-heritage-fan-voice-2026.md`; `analysis/projects/cross-domain/ipsos-consumer-tracker-wave148-tariff-food-safety-value-2026.md` |
 | `unesco.org` | 110 | `analysis/projects/cross-domain/unesco-south-africa-digital-creators-information-legitimacy-2026-09-29.md`; `analysis/projects/cross-domain/unesco-south-africa-digital-creators-information-legitimacy-2026-09-29.md`; `analysis/projects/cross-domain/foresight-factory-care-attention-whimsy-2026-09-28.md` |
@@ -177,6 +178,7 @@ family that will be acquired, compared, or maintained over time.
 | `unstats.un.org` | 75 | `analysis/records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json`; `analysis/records/comparative-un-habitat-world-cities-2026-housing-displacement-climate-delivery.json`; `analysis/records/comparative-un-sdg16-2026-institutions-justice-information-voice.json` |
 | `unicef.org` | 72 | `analysis/projects/cross-domain/unicef-education-strategy-2026-learning-system-failures-ai-teachers-2026-09-29.md`; `analysis/projects/cross-domain/unicef-education-strategy-2026-learning-system-failures-ai-teachers-2026-09-29.md`; `analysis/projects/cross-domain/unicef-education-strategy-2026-learning-system-failures-ai-teachers-2026-09-29.md` |
 | `unctad.org` | 64 | `analysis/records/comparative-unctad-creative-economy-digital-cultural-trade-2024.json`; `analysis/records/comparative-unctad-creative-economy-digital-cultural-trade-2024.json`; `analysis/records/comparative-unctad-global-trade-update-2026-fragmentation-services-regulation.json` |
+| `reddit.com` | 62 | `analysis/social-discussions/records/atlas-ark-ylt-northern-ireland-reddit-001.json`; `analysis/social-discussions/records/atlas-australia-intergenerational-reddit-001.json`; `analysis/social-discussions/records/consumer-recourse-002.json` |
 | `fao.org` | 58 | `analysis/records/comparative-fao-soco-2026-trade-resilience-food-shocks.json`; `analysis/records/comparative-fao-soco-2026-trade-resilience-food-shocks.json`; `analysis/records/comparative-fao-soco-2026-trade-resilience-food-shocks.json` |
 | `nato.int` | 45 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
 | `itu.int` | 42 | `analysis/records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json`; `analysis/records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json`; `analysis/records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json` |
@@ -191,7 +193,6 @@ family that will be acquired, compared, or maintained over time.
 | `commission.europa.eu` | 27 | `analysis/projects/cross-domain/eu-child-safety-online-developmental-social-contract-2026-09-29.md`; `analysis/projects/cross-domain/eu-child-safety-online-developmental-social-contract-2026-09-29.md`; `analysis/records/comparative-eu-child-safety-online-developmental-social-contract-2026.json` |
 | `deloitte.com` | 27 | `analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json`; `analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json`; `analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json` |
 | `privacy.ca.gov` | 26 | `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md`; `analysis/us-source-coverage.md`; `analysis/us-source-coverage.md` |
-| `reddit.com` | 25 | `analysis/social-discussions/records/consumer-recourse-002.json`; `analysis/social-discussions/records/trust-meaning-002.json`; `analysis/social-discussions/records/ai-companionship-003.json` |
 | `kff.org` | 24 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
 | `wipo.int` | 24 | `analysis/records/comparative-wipo-global-innovation-cluster-concentration-2025.json`; `analysis/records/comparative-wipo-global-innovation-cluster-concentration-2025.json`; `analysis/records/comparative-wipo-global-innovation-cluster-concentration-2025.json` |
 | `mohr.gov.my` | 23 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
@@ -203,7 +204,6 @@ family that will be acquired, compared, or maintained over time.
 | `unhcr.org` | 22 | `analysis/records/comparative-wfp-central-sahel-2026-food-insecurity-access-resilience.json`; `analysis/records/comparative-unhcr-global-report-2025-protection-capacity-funding-access.json`; `analysis/records/comparative-unhcr-global-report-2025-protection-capacity-funding-access.json` |
 | `afrobarometer.org` | 21 | `analysis/projects/cross-domain/afrobarometer-african-insights-2026-global-order-agency.md`; `analysis/projects/cross-domain/afrobarometer-east-africa-reproductive-autonomy-2026.md`; `analysis/records/comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion.json` |
 | `moreincommon.org.uk` | 21 | `analysis/projects/cross-domain/more-in-common-conflict-domestic-cohesion-2026-09-28.md`; `analysis/projects/cross-domain/more-in-common-conflict-domestic-cohesion-2026-09-28.md`; `analysis/projects/cross-domain/more-in-common-strong-roots-nature-place-politics-2026-09-28.md` |
-| `theguarantors.com` | 21 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
 
 ## Reverse-audit decisions
 
@@ -215,6 +215,7 @@ without a recurring acquisition need and source-specific metadata.
 | Domain | Classification | Current decision |
 |---|---|---|
 | `doi.org` | citation/index host | Do not register; retain DOI as a source identifier and preserve the underlying publisher or institution separately. |
+| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fwc.gov.au` | official labor tribunal | Retain as an official comparative tribunal source; promote as a maintained family only when recurring decisions are actively acquired and versioned. |
 | `ipsos.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unesco.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -227,6 +228,7 @@ without a recurring acquisition need and source-specific metadata.
 | `unstats.un.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unicef.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unctad.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fao.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nato.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `itu.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -241,7 +243,6 @@ without a recurring acquisition need and source-specific metadata.
 | `commission.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `deloitte.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `privacy.ca.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `kff.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wipo.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mohr.gov.my` | official Malaysian labor authority | Retain as a comparative public-record source; preserve the responsible department, instrument, date, and implementation status for each claim. |
@@ -259,7 +260,6 @@ without a recurring acquisition need and source-specific metadata.
 | `unwomen.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wto.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `stats.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `academic.oup.com` | academic publisher | Retain the cited paper/publisher route; promote a recurring research family only when a sustained acquisition lane exists. |
 | `bis.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -355,6 +355,7 @@ without a recurring acquisition need and source-specific metadata.
 | `uis.unesco.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ustr.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wfp.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `youtube.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aarp.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `american.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bps.go.id` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -382,7 +383,6 @@ without a recurring acquisition need and source-specific metadata.
 | `ucl.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unfccc.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wmo.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `youtube.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aiglobal.publicfirst.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `apnews.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `blog.nextdoor.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -677,6 +677,7 @@ without a recurring acquisition need and source-specific metadata.
 | `anduril.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bok.or.kr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `business.pinterest.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `business.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cafireproject.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cdn.who.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `civicus.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -690,6 +691,7 @@ without a recurring acquisition need and source-specific metadata.
 | `dosm.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dropbox.com` | file delivery host | Do not register; preserve the NBER or author-provided artifact, version, and hash. |
 | `earth4all.life` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `en.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `en.unwto-ap.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `footballregulator.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `forsvaret.no` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -764,7 +766,6 @@ without a recurring acquisition need and source-specific metadata.
 | `economics.princeton.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `edgehill.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `embed-rech-01.dialog.cm` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `en.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `equalpayinternationalcoalition.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `exportcontrol.mofcom.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fairwork.oii.ox.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -870,6 +871,7 @@ without a recurring acquisition need and source-specific metadata.
 | `datafirst.uct.ac.za` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `datahub.itu.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dco.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `de.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `depop.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `digipay.gov.in` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -883,6 +885,7 @@ without a recurring acquisition need and source-specific metadata.
 | `ed.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `elon.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `english.scp.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `es.linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `esgtoday.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `esri.ie` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `europarl.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
