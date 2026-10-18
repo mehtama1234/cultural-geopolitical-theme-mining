@@ -36,7 +36,22 @@ findings/consumer-power-recourse-wave-002.md.
 | X | customer service refund complaint 2026 | A public bank-support reply described reversed charges and an adjustment; normalized in records/consumer-recourse-004.json. | Organizational reply; original complaint and final outcome not fully visible. |
 
 The wave is a bounded signal set, not a representative cross-platform sample.
-The next acquisition pass covers the other three Wave 002 topics.
+
+The second Wave 002 topic is time, care, and social reproduction. Four public
+items were normalized in records/time-care-001.json through
+records/time-care-004.json, and the topic synthesis is in
+findings/time-care-social-reproduction-wave-002.md.
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | caregiver schedule waiting healthcare appointment time work | A caregiver post described waiting as lost usable time that disrupts work and family routines; normalized in records/time-care-001.json. | Selected professional/caregiver audience; no representative time measure. |
+| Reddit | caregiver full time job appointments work 2026 | A public caregiver thread described remote work, schedule changes, reduced work, and quitting to manage care; normalized in records/time-care-002.json. | Self-selected community and mixed-date indexed context. |
+| YouTube | sandwich generation caregiving children aging loved ones 2026 | A University of Kentucky workshop framed caregiving as a time and coordination problem; normalized in records/time-care-003.json. | Institutional support content, not a participant-outcome study. |
+| X | care worker shortage staffing capacity 2026 | An X trending summary supplied comparative care-capacity discussion focused on Japan; normalized in records/time-care-004.json. | Platform summary and non-US context; not direct US public discussion. |
+
+This wave is also a bounded signal set, not a representative cross-platform
+sample. The next acquisition pass covers public systems and policy feedback,
+then trust, identity, and cultural meaning.
 
 Repeat the same protocol for platform attention/exit and AI companionship/trust,
 then run a dedicated X pass through directly accessible public URLs or an

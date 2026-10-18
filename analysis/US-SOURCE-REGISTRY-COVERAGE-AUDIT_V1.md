@@ -159,7 +159,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **776**
+- Observed domains outside registered families: **777**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -368,6 +368,7 @@ without a recurring acquisition need and source-specific metadata.
 | `jefnations.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `kiis.com.ua` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `legistar.council.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `newamerica.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nlrb.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nrf.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -393,13 +394,13 @@ without a recurring acquisition need and source-specific metadata.
 | `ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ilostat.github.io` | official delivery/documentation host | Do not register separately; keep ILOSTAT as the source family and preserve this route as a delivery/access artifact. |
 | `internationalaisafetyreport.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `lshtm.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nypa.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nyserda.ny.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `philadelphiafed.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pjm.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `publications.gc.ca` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `restaurant.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rockefellerfoundation.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `saffm.hq.af.mil` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -462,7 +463,6 @@ without a recurring acquisition need and source-specific metadata.
 | `pia.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `policy-lab.ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pwc.co.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `sam.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `sca.isr.umich.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `schaeffer.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -488,6 +488,7 @@ without a recurring acquisition need and source-specific metadata.
 | `v-dem.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `vml.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wedocs.unep.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `x.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `about.netflix.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `acleddata.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `adb.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -589,7 +590,6 @@ without a recurring acquisition need and source-specific metadata.
 | `worldenergy.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `worldgovernmentssummit.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wppmedia.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `x.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `about.fb.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `accenture.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `afro.who.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -990,6 +990,7 @@ without a recurring acquisition need and source-specific metadata.
 | `wojsko-polskie.pl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `www-axa-com.cdn.prismic.io` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `xenowatch.ac.za` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `youtu.be` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 
 ## Interpretation rule
 
