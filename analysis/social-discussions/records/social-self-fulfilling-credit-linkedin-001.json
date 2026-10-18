@@ -1,0 +1,18 @@
+{
+  "record_id": "social-self-fulfilling-credit-linkedin-001",
+  "atlas_record_ids": ["us-nber-self-fulfilling-credit-scores-default-2026"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "research_relay_and_methods_discussion",
+  "author_or_account": "Vamshi Jandhyala",
+  "title": "Model Improvement Can Decrease Accuracy Metrics",
+  "canonical_url": "https://www.linkedin.com/posts/jvvamshi_when-a-model-causes-what-it-predicts-activity-7492869710758191105-HIZG",
+  "published_window": "2026-09 to 2026-10 (search index: 2 weeks ago)",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post uses the NBER credit-score study to illustrate a feedback problem: a scoring change can alter access to credit and thereby help produce the default outcome later used to judge the model, with the discussion extending the issue to predictive-system evaluation.",
+  "research_anchor_paths": ["analysis/records/us-nber-self-fulfilling-credit-scores-default-2026.json"],
+  "linked_research_question": "When a predictive score changes treatment, how much of its later apparent accuracy reflects a self-fulfilling intervention rather than stable borrower risk?",
+  "classification": ["research_relay", "methods_discussion", "algorithmic_feedback", "household_credit", "boundary_aware"],
+  "engagement": null,
+  "limits": ["Post translates a working paper into a broader model-evaluation lesson", "The discussion includes scaled illustrative numbers that are not a separate observed cohort", "LinkedIn audience is selected", "Search-index date is approximate"]
+}
