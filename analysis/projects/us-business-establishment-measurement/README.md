@@ -18,6 +18,8 @@ tax, unemployment-insurance, survey, or worksite record
 
 The first finding shows that home-care and disability-service establishments account for a large share of the gap between BLS and Census frames, while multi-unit firm assignment drives much of the remaining difference. The next test should reconcile frame definitions with named firms, worksites, workers, service recipients, and local market outcomes before using establishment counts to infer power or decline.
 
+The current [firm-capacity and allocation bridge](firm-capacity-allocation-outcomes-bridge-v1.md) extends that test from counts to size-stratified training, infrastructure, finance, revenue, employment, public support, and the still-open worker, customer, owner-household, and local-continuity outcomes.
+
 ## Writing rule
 
 Say which agency counted what, under which rule, and what the count changes in the analysis. Do not call a frame difference a real business boom, concentration change, or care-system improvement without an outcome record.
