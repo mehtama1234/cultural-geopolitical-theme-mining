@@ -113,6 +113,12 @@ Insurance may be turning housing from a long-term asset into a conditionally usa
 
 Do not treat climate risk as the only cause. Track construction costs, reinsurance, state rules, migration, lending, litigation, and local building decisions separately.
 
+The [housing climate risk, protection, recovery, and mobility bridge](housing-climate-protection-recovery-mobility-bridge-v1.md)
+extends the project through Federal Reserve housing and insurance burdens,
+Treasury/FEMA risk comparisons, flood exposure, California FAIR Plan claims and
+regulatory correction, wildfire-care disruption, redevelopment displacement, and
+bounded public discussion.
+
 ## Required output
 
 - a short source record;
