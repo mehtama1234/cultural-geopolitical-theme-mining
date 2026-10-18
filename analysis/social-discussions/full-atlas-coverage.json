@@ -81636,8 +81636,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "FY2025 SNAP participation varies widely across states and DC",
       "geography": "United States; 50 states and District of Columbia",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0080",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -81669,7 +81669,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "usda-snap-state-route-performance-2026",
@@ -81677,8 +81677,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "SNAP participation, processing timeliness, and direct access are distinct state-level signals",
       "geography": "United States; 50 states and District of Columbia",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0080",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -81710,7 +81710,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "usmca-thyssenkrupp-rapid-response-labor-remedy-2025-2026",
@@ -81718,8 +81718,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Cross-border labor enforcement can produce a reported remedy without proving durable worker power",
       "geography": "San Luis Potosí, Mexico; U.S.-Mexico USMCA labor enforcement and facility response",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0080",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -81751,7 +81751,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     }
   ]
 }

@@ -1,0 +1,138 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0080",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 3,
+  "atlas_record_ids": [
+    "usda-snap-fy2025-state-participation-2026",
+    "usda-snap-state-route-performance-2026",
+    "usmca-thyssenkrupp-rapid-response-labor-remedy-2025-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "usda-snap-fy2025-state-participation-2026",
+      "atlas_record_path": "analysis/records/usda-snap-fy2025-state-participation-2026.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "FY2025 SNAP participation varies widely across states and DC",
+      "geography": "United States; 50 states and District of Columbia",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0080",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "fy2025 snap participation varies widely across usda ers state district columbia population public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "fy2025 snap participation varies widely across usda ers state district columbia population public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "fy2025 snap participation varies widely across usda ers state district columbia population public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "fy2025 snap participation varies widely across usda ers state district columbia population public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "usda-snap-state-route-performance-2026",
+      "atlas_record_path": "analysis/records/usda-snap-state-route-performance-2026.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "SNAP participation, processing timeliness, and direct access are distinct state-level signals",
+      "geography": "United States; 50 states and District of Columbia",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0080",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "snap participation processing timeliness direct access are distinct state-level signals official usda public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "snap participation processing timeliness direct access are distinct state-level signals official usda public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "snap participation processing timeliness direct access are distinct state-level signals official usda public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "snap participation processing timeliness direct access are distinct state-level signals official usda public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "usmca-thyssenkrupp-rapid-response-labor-remedy-2025-2026",
+      "atlas_record_path": "analysis/records/usmca-thyssenkrupp-rapid-response-labor-remedy-2025-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Cross-border labor enforcement can produce a reported remedy without proving durable worker power",
+      "geography": "San Luis Potosí, Mexico; U.S.-Mexico USMCA labor enforcement and facility response",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0080",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "cross-border labor enforcement can produce reported remedy without proving durable worker power ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "cross-border labor enforcement can produce reported remedy without proving durable worker power ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "cross-border labor enforcement can produce reported remedy without proving durable worker power ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "cross-border labor enforcement can produce reported remedy without proving durable worker power ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
