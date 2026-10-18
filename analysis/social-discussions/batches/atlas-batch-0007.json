@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0007",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "comparative-fao-wfp-global-food-crises-2026-conflict-funding-displacement",
+    "comparative-fgs-global-radar-2026-pessimism-disruption-affordability",
+    "comparative-foresight-factory-september-2026-cultural-consumer-trends-postpartum-phone-free-whimsy",
+    "comparative-france-insee-cultural-leisure-spending-2000-2025-service-shift",
+    "comparative-france-ministry-culture-credoc-2024-cultural-recovery-stratification",
+    "comparative-france-ministry-culture-cultural-outings-2025-mobility-stratification",
+    "comparative-freedom-house-freedom-on-net-online-control-2025",
+    "comparative-freedom-house-freedom-world-2026-political-rights-civil-liberties",
+    "comparative-frontiers-ethnic-chinese-cultural-identity-southeast-asia-2026",
+    "comparative-full-fact-uk-information-environment-2026-ai-uncertainty-democratic-trust",
+    "comparative-gallup-economics-2026-ambition-payroll-thriving",
+    "comparative-gallup-edward-jones-financial-future-confidence-us-canada-2026",
+    "comparative-gallup-global-confidence-institutions-20-year-2026-regime-trust",
+    "comparative-gallup-global-safety-2025-perceived-security-gender-local-trust",
+    "comparative-gallup-microsoft-global-ai-adoption-optimism-trust-2026",
+    "comparative-gallup-state-global-workplace-2026-engagement-wellbeing-work-location",
+    "comparative-gallup-worlds-most-important-problem-2026-economic-trust-security",
+    "comparative-gartner-consumer-ai-content-trust-influencers-2026",
+    "comparative-gartner-government-technology-trends-2026-agentic-ai-cyber-workforce",
+    "comparative-gc-wealth-project-data-warehouse-2026-transmission-tax-measurement",
+    "comparative-gensler-city-pulse-2026-downtown-belonging-vibrancy-culture",
+    "comparative-germany-nim-consumer-climate-september-2026-energy-saving",
+    "comparative-ghana-bog-payments-2024-mobile-money-active-agent-risk",
+    "comparative-ghana-nca-q2-2026-mobile-data-voice-substitution",
+    "comparative-global-flourishing-childhood-antecedents-adult-relationships-2025"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "comparative-fao-wfp-global-food-crises-2026-conflict-funding-displacement",
+      "atlas_record_path": "analysis/records/comparative-fao-wfp-global-food-crises-2026-conflict-funding-displacement.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Acute food crises are concentrating where conflict, displacement, climate shocks, and response-financing gaps compound",
+      "geography": "47 countries and territories analyzed for acute food insecurity in 2025, with global food-crisis, displacement, conflict, climate, and humanitarian-response comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "acute food crises are concentrating where conflict displacement climate shocks response-financing gaps geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "acute food crises are concentrating where conflict displacement climate shocks response-financing gaps geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "acute food crises are concentrating where conflict displacement climate shocks response-financing gaps geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "acute food crises are concentrating where conflict displacement climate shocks response-financing gaps geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-fgs-global-radar-2026-pessimism-disruption-affordability",
+      "atlas_record_path": "analysis/records/comparative-fgs-global-radar-2026-pessimism-disruption-affordability.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Persistent public pessimism is converting institutional distrust into demand for disruption, visible results, and affordability",
+      "geography": "27 countries described as major democracies; polling of 20,000 people plus 175 in-depth interviews with global leaders",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "persistent public pessimism converting institutional distrust into demand disruption visible results affordability political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "persistent public pessimism converting institutional distrust into demand disruption visible results affordability political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "persistent public pessimism converting institutional distrust into demand disruption visible results affordability political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "persistent public pessimism converting institutional distrust into demand disruption visible results affordability political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-foresight-factory-september-2026-cultural-consumer-trends-postpartum-phone-free-whimsy",
+      "atlas_record_path": "analysis/records/comparative-foresight-factory-september-2026-cultural-consumer-trends-postpartum-phone-free-whimsy.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Consumer culture is reframing care, attention, and surprise: postpartum support, phone-free time, and whimsy become responses to optimized everyday life",
+      "geography": "Global trend-intelligence framing with examples from the United States, United Kingdom, Australia, India, China, Southeast Asia, and cross-market consumer data",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer culture reframing care attention surprise postpartum support phone-free time whimsy become care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer culture reframing care attention surprise postpartum support phone-free time whimsy become care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer culture reframing care attention surprise postpartum support phone-free time whimsy become care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer culture reframing care attention surprise postpartum support phone-free time whimsy become care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-france-insee-cultural-leisure-spending-2000-2025-service-shift",
+      "atlas_record_path": "analysis/records/comparative-france-insee-cultural-leisure-spending-2000-2025-service-shift.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "France's household cultural and leisure spending has shifted toward services while books and durable goods lose share",
+      "geography": "France; household cultural, sports, and leisure expenditure",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "france's household cultural leisure spending has shifted toward services while books durable household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "france's household cultural leisure spending has shifted toward services while books durable household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "france's household cultural leisure spending has shifted toward services while books durable household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "france's household cultural leisure spending has shifted toward services while books durable household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-france-ministry-culture-credoc-2024-cultural-recovery-stratification",
+      "atlas_record_path": "analysis/records/comparative-france-ministry-culture-credoc-2024-cultural-recovery-stratification.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "France's cultural recovery returned to pre-pandemic levels while education, income, age, and place still stratify access",
+      "geography": "France; population aged 15 years and above",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "france's cultural recovery returned pre-pandemic levels while education income age place still trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "france's cultural recovery returned pre-pandemic levels while education income age place still trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "france's cultural recovery returned pre-pandemic levels while education income age place still trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "france's cultural recovery returned pre-pandemic levels while education income age place still trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-france-ministry-culture-cultural-outings-2025-mobility-stratification",
+      "atlas_record_path": "analysis/records/comparative-france-ministry-culture-cultural-outings-2025-mobility-stratification.json",
+      "canonical_theme": "unequal-exposure-status",
+      "title": "France's cultural outings remain near pre-pandemic levels, but place, education, income, and mobility still sort access",
+      "geography": "France; residents aged 15 and above, France-wide",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "france's cultural outings remain near pre-pandemic levels but place education income mobility unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "france's cultural outings remain near pre-pandemic levels but place education income mobility unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "france's cultural outings remain near pre-pandemic levels but place education income mobility unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "france's cultural outings remain near pre-pandemic levels but place education income mobility unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-freedom-house-freedom-on-net-online-control-2025",
+      "atlas_record_path": "analysis/records/comparative-freedom-house-freedom-on-net-online-control-2025.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Online civic space is narrowing through censorship, repression, shutdowns, and information manipulation across a majority of assessed countries",
+      "geography": "72 countries assessed using country-level expert-coded internet-freedom indicators, covering the majority of the world's internet users",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "online civic space narrowing through censorship repression shutdowns information manipulation across majority political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "online civic space narrowing through censorship repression shutdowns information manipulation across majority political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "online civic space narrowing through censorship repression shutdowns information manipulation across majority political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "online civic space narrowing through censorship repression shutdowns information manipulation across majority political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-freedom-house-freedom-world-2026-political-rights-civil-liberties",
+      "atlas_record_path": "analysis/records/comparative-freedom-house-freedom-world-2026-political-rights-civil-liberties.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Global freedom declines continue as conflict, coups, institutional erosion, and repression narrow political and civil space",
+      "geography": "195 countries and 13 territories assessed for calendar year 2025",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "global freedom declines continue conflict coups institutional erosion repression narrow political civil political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "global freedom declines continue conflict coups institutional erosion repression narrow political civil political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "global freedom declines continue conflict coups institutional erosion repression narrow political civil political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "global freedom declines continue conflict coups institutional erosion repression narrow political civil political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-frontiers-ethnic-chinese-cultural-identity-southeast-asia-2026",
+      "atlas_record_path": "analysis/records/comparative-frontiers-ethnic-chinese-cultural-identity-southeast-asia-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Diaspora cultural identity is reproduced through media exposure and direct cultural contact, but national context changes the pathway",
+      "geography": "Singapore, Malaysia, and Thailand; second-generation or beyond ethnic Chinese respondents",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "diaspora cultural identity reproduced through media exposure direct contact but national context trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "diaspora cultural identity reproduced through media exposure direct contact but national context trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "diaspora cultural identity reproduced through media exposure direct contact but national context trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "diaspora cultural identity reproduced through media exposure direct contact but national context trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-full-fact-uk-information-environment-2026-ai-uncertainty-democratic-trust",
+      "atlas_record_path": "analysis/records/comparative-full-fact-uk-information-environment-2026-ai-uncertainty-democratic-trust.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "AI-mediated information and fragmented institutional responsibility are turning uncertainty itself into a democratic risk",
+      "geography": "United Kingdom, with international comparisons and lessons for democratic information resilience",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ai-mediated information fragmented institutional responsibility are turning uncertainty itself into democratic risk infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ai-mediated information fragmented institutional responsibility are turning uncertainty itself into democratic risk infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ai-mediated information fragmented institutional responsibility are turning uncertainty itself into democratic risk infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ai-mediated information fragmented institutional responsibility are turning uncertainty itself into democratic risk infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gallup-economics-2026-ambition-payroll-thriving",
+      "atlas_record_path": "analysis/records/comparative-gallup-economics-2026-ambition-payroll-thriving.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Economic progress is being reframed through work engagement, access to real jobs, and perceived life trajectory alongside GDP",
+      "geography": "Global Gallup World Poll adult population, with 2025 data and additional U.S. working-population samples",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "economic progress being reframed through work engagement access real jobs perceived life ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "economic progress being reframed through work engagement access real jobs perceived life ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "economic progress being reframed through work engagement access real jobs perceived life ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "economic progress being reframed through work engagement access real jobs perceived life ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gallup-edward-jones-financial-future-confidence-us-canada-2026",
+      "atlas_record_path": "analysis/records/comparative-gallup-edward-jones-financial-future-confidence-us-canada-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Current financial confidence is age-stratified while future security remains broadly uncertain across generations",
+      "geography": "United States and Canada; adults aged 21 and older, with generation and life-stage comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "current financial confidence age-stratified while future security remains broadly uncertain across generations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "current financial confidence age-stratified while future security remains broadly uncertain across generations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "current financial confidence age-stratified while future security remains broadly uncertain across generations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "current financial confidence age-stratified while future security remains broadly uncertain across generations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gallup-global-confidence-institutions-20-year-2026-regime-trust",
+      "atlas_record_path": "analysis/records/comparative-gallup-global-confidence-institutions-20-year-2026-regime-trust.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Global institutional confidence is not in universal decline; trust is diverging by institution, regime type and political position",
+      "geography": "Global World Poll countries, with 2025 comparisons across liberal democracies, electoral democracies and closed or electoral autocracies, plus European party-support analysis",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "global institutional confidence not universal decline trust diverging institution regime type political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "global institutional confidence not universal decline trust diverging institution regime type political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "global institutional confidence not universal decline trust diverging institution regime type political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "global institutional confidence not universal decline trust diverging institution regime type political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gallup-global-safety-2025-perceived-security-gender-local-trust",
+      "atlas_record_path": "analysis/records/comparative-gallup-global-safety-2025-perceived-security-gender-local-trust.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Perceived safety is reaching a global high even as conflict rises, but gendered insecurity and local institutional trust remain the dividing lines",
+      "geography": "144 countries and territories; global and country comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "perceived safety reaching global high even conflict rises but gendered insecurity local public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "perceived safety reaching global high even conflict rises but gendered insecurity local public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "perceived safety reaching global high even conflict rises but gendered insecurity local public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "perceived safety reaching global high even conflict rises but gendered insecurity local public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gallup-microsoft-global-ai-adoption-optimism-trust-2026",
+      "atlas_record_path": "analysis/records/comparative-gallup-microsoft-global-ai-adoption-optimism-trust-2026.json",
+      "canonical_theme": "platform-exit",
+      "title": "Global AI optimism is widespread while adoption, trust, and worry remain unevenly distributed",
+      "geography": "Adults in the first 37 countries completing 2026 fieldwork in an ongoing global study intended to cover 140 countries",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "global optimism widespread while adoption trust worry remain unevenly distributed gallup globally platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "global optimism widespread while adoption trust worry remain unevenly distributed gallup globally platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "global optimism widespread while adoption trust worry remain unevenly distributed gallup globally platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "global optimism widespread while adoption trust worry remain unevenly distributed gallup globally platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gallup-state-global-workplace-2026-engagement-wellbeing-work-location",
+      "atlas_record_path": "analysis/records/comparative-gallup-state-global-workplace-2026-engagement-wellbeing-work-location.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Global work remains low-engagement and emotionally costly, while work location and regional context redistribute both agency and wellbeing",
+      "geography": "Global; Gallup regional groupings and employee subgroups",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "global work remains low-engagement emotionally costly while location regional context redistribute both ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "global work remains low-engagement emotionally costly while location regional context redistribute both ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "global work remains low-engagement emotionally costly while location regional context redistribute both ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "global work remains low-engagement emotionally costly while location regional context redistribute both ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gallup-worlds-most-important-problem-2026-economic-trust-security",
+      "atlas_record_path": "analysis/records/comparative-gallup-worlds-most-important-problem-2026-economic-trust-security.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Public attention converges on economic security but diverges toward work, governance, or safety according to place and stability",
+      "geography": "107 countries and territories; regional, World Bank income-group, and conflict/stability comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "public attention converges economic security but diverges toward work governance safety according household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "public attention converges economic security but diverges toward work governance safety according household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "public attention converges economic security but diverges toward work governance safety according household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "public attention converges economic security but diverges toward work governance safety according household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gartner-consumer-ai-content-trust-influencers-2026",
+      "atlas_record_path": "analysis/records/comparative-gartner-consumer-ai-content-trust-influencers-2026.json",
+      "canonical_theme": "platform-exit",
+      "title": "AI-generated content is weakening default trust in influencers and brands while increasing demand for human credibility and demonstrated expertise",
+      "geography": "United States consumers aged 18+",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ai-generated content weakening default trust influencers brands while increasing demand human credibility platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ai-generated content weakening default trust influencers brands while increasing demand human credibility platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ai-generated content weakening default trust influencers brands while increasing demand human credibility platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ai-generated content weakening default trust influencers brands while increasing demand human credibility platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gartner-government-technology-trends-2026-agentic-ai-cyber-workforce",
+      "atlas_record_path": "analysis/records/comparative-gartner-government-technology-trends-2026-agentic-ai-cyber-workforce.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Government AI adoption is becoming an organizational-capacity problem: agentic systems, adaptive cyber defense, and workforce redesign must move together",
+      "geography": "Global government and public-sector technology outlook; supporting CIO survey of 1,219 government respondents conducted January 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "government adoption becoming organizational-capacity problem agentic systems adaptive cyber defense workforce redesign infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "government adoption becoming organizational-capacity problem agentic systems adaptive cyber defense workforce redesign infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "government adoption becoming organizational-capacity problem agentic systems adaptive cyber defense workforce redesign infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "government adoption becoming organizational-capacity problem agentic systems adaptive cyber defense workforce redesign infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gc-wealth-project-data-warehouse-2026-transmission-tax-measurement",
+      "atlas_record_path": "analysis/records/comparative-gc-wealth-project-data-warehouse-2026-transmission-tax-measurement.json",
+      "canonical_theme": "unequal-exposure-status",
+      "title": "Wealth, inheritance, housing, debt, and tax measurement require harmonized evidence before mobility and power can be compared across countries",
+      "geography": "Multiple countries and time periods; international wealth, household-balance-sheet, inequality, and wealth-transfer-tax evidence",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "wealth inheritance housing debt tax measurement require harmonized evidence before mobility power unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "wealth inheritance housing debt tax measurement require harmonized evidence before mobility power unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "wealth inheritance housing debt tax measurement require harmonized evidence before mobility power unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "wealth inheritance housing debt tax measurement require harmonized evidence before mobility power unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-gensler-city-pulse-2026-downtown-belonging-vibrancy-culture",
+      "atlas_record_path": "analysis/records/comparative-gensler-city-pulse-2026-downtown-belonging-vibrancy-culture.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Urban residents value downtowns but underuse them, making belonging, cultural draw, mobility, and street-level comfort the next city-centre battleground",
+      "geography": "Residents across 75 cities and 30 countries, with longitudinal comparison of urban experience since the pandemic",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "urban residents value downtowns but underuse them making belonging cultural draw mobility household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "urban residents value downtowns but underuse them making belonging cultural draw mobility household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "urban residents value downtowns but underuse them making belonging cultural draw mobility household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "urban residents value downtowns but underuse them making belonging cultural draw mobility household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-germany-nim-consumer-climate-september-2026-energy-saving",
+      "atlas_record_path": "analysis/records/comparative-germany-nim-consumer-climate-september-2026-energy-saving.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Energy-price anxiety is shifting German consumer sentiment toward precautionary saving while macroeconomic expectations remain comparatively stable",
+      "geography": "Germany; approximately 2,000 consumer interviews conducted 3-14 September 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "energy-price anxiety shifting german consumer sentiment toward precautionary saving while macroeconomic expectations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "energy-price anxiety shifting german consumer sentiment toward precautionary saving while macroeconomic expectations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "energy-price anxiety shifting german consumer sentiment toward precautionary saving while macroeconomic expectations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "energy-price anxiety shifting german consumer sentiment toward precautionary saving while macroeconomic expectations household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ghana-bog-payments-2024-mobile-money-active-agent-risk",
+      "atlas_record_path": "analysis/records/comparative-ghana-bog-payments-2024-mobile-money-active-agent-risk.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Ghana’s mobile-money system is scaling rapidly while active-agent capacity and oversight remain critical constraints",
+      "geography": "Ghana; national payment-system and fintech administrative indicators, with mobile-money, banking-channel, agent, licensing, financial-inclusion, and oversight dimensions",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ghana mobile-money system scaling rapidly while active-agent capacity oversight remain critical constraints consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ghana mobile-money system scaling rapidly while active-agent capacity oversight remain critical constraints consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ghana mobile-money system scaling rapidly while active-agent capacity oversight remain critical constraints consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ghana mobile-money system scaling rapidly while active-agent capacity oversight remain critical constraints consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ghana-nca-q2-2026-mobile-data-voice-substitution",
+      "atlas_record_path": "analysis/records/comparative-ghana-nca-q2-2026-mobile-data-voice-substitution.json",
+      "canonical_theme": "platform-exit",
+      "title": "Ghana's mobile data reach is expanding faster than voice intensity, while fixed broadband remains a small layer",
+      "geography": "Ghana; national telecommunications subscriptions and usage indicators",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ghana's mobile data reach expanding faster than voice intensity while fixed broadband platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ghana's mobile data reach expanding faster than voice intensity while fixed broadband platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ghana's mobile data reach expanding faster than voice intensity while fixed broadband platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ghana's mobile data reach expanding faster than voice intensity while fixed broadband platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-global-flourishing-childhood-antecedents-adult-relationships-2025",
+      "atlas_record_path": "analysis/records/comparative-global-flourishing-childhood-antecedents-adult-relationships-2025.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Adult relationship quality is associated with childhood family belonging, health, financial security, and adversity across countries, but the strength of pathways varies by context",
+      "geography": "22 countries in Wave 1 of the Global Flourishing Study, including the United States, United Kingdom, and diverse non-Western contexts",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0007",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "adult relationship quality associated childhood family belonging health financial security adversity across trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "adult relationship quality associated childhood family belonging health financial security adversity across trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "adult relationship quality associated childhood family belonging health financial security adversity across trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "adult relationship quality associated childhood family belonging health financial security adversity across trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
