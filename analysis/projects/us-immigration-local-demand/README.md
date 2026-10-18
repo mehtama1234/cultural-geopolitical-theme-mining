@@ -54,3 +54,9 @@ routes, child emotional distress, and material hardship. It treats protective
 non-use as an action with perceived risk rather than as apathy, while keeping
 the retrospective cross-sectional design, legal-status measurement boundary,
 alternative routes, remedy, and later political action open.
+
+The [migration status, capacity, belonging, and civic conversion bridge](migration-status-capacity-belonging-civic-conversion-bridge-v1.md)
+connects the existing settlement, local-capacity, belonging, and non-use layers.
+It keeps formal capacity, perceived safety, recognition, actual use, and civic
+conversion as separate stages, and defines the matched-place panel needed to
+test when they do or do not convert.
