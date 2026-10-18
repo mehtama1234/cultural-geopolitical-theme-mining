@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0042-cbo-outlook-linkedin-001",
+  "atlas_record_ids": ["us-cbo-outlook-2026-2036-tariffs-immigration-aging-ai-growth"],
+  "topic": "geopolitical-state-consequences",
+  "platform": "linkedin",
+  "item_type": "official_forecast_announcement_and_interpretation",
+  "author_or_account": "Congressional Budget Office",
+  "title": "Director's Statement on the Budget and Economic Outlook for 2026 to 2036",
+  "canonical_url": "https://www.linkedin.com/posts/congressional-budget-office_directors-statement-on-the-budget-and-economic-activity-7427398938766323712-hkbe",
+  "published_window": "2026-04",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The CBO announcement frames tariffs, lower immigration, fiscal policy, and the 2026–2036 baseline as interacting forces rather than isolated headlines. It makes a macroeconomic forecast socially legible as a question about labor supply, growth, prices, and institutional choices.",
+  "research_anchor_paths": ["analysis/records/us-cbo-outlook-2026-2036-tariffs-immigration-aging-ai-growth.json"],
+  "linked_research_question": "How do policy choices around trade, immigration, aging, and AI reconfigure growth, fiscal room, and social expectations?",
+  "classification": ["official_announcement", "macro_forecast", "policy_tradeoff", "institutional_signal"],
+  "limits": ["A forecast is conditional on assumptions and is not an observed outcome", "The official post does not expose a representative audience discussion", "Macro aggregates do not resolve distributional effects"]
+}

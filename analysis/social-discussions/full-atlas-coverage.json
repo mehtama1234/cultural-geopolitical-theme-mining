@@ -42484,11 +42484,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "workers can request changes make work usable but employer granting job-level control ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0042-worker-changes-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -42499,7 +42501,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-business-economics-immigration-policy-labor-supply-2026",
@@ -42525,11 +42527,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "immigration policy becoming labor-supply sector-growth constraint not only border identity issue mayda ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0042-immigration-labor-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -42540,7 +42544,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-butler-nickerson-constituency-information-legislative-vote-2008",
@@ -43267,11 +43271,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "growth being reconfigured fiscal stimulus tariffs immigration aging investment congressional budget office geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0042-cbo-outlook-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -43282,7 +43288,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-cbo-social-security-long-term-projections-2026-trust-fund-2032-intergenerational-contract",
@@ -43308,11 +43314,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "retirement security present social contract institutional deadline congressional budget office cbo's long-term ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0042-social-security-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -43323,7 +43331,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-cbp-acs-transport-capacity-cells-2023",
