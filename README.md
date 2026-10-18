@@ -24,6 +24,14 @@ For a synchronized handoff check, run `python3 scripts/validate_long_term_public
 
 ## The broad program
 
+The first public-discussion complement is maintained in
+[`analysis/social-discussions/`](analysis/social-discussions/). It links a
+bounded sample of YouTube, Reddit, LinkedIn, and X discussion to existing
+research claims for AI and work control, platform attention and exit, and AI
+companionship and trust. Discussion items are signals about meaning,
+interpretation, disagreement, and lived experience; they are not treated as
+representative surveys or causal evidence.
+
 The project is explicitly not a one-household study. It maps 14 program
 themes across people, consumers, workers, households, firms, places,
 institutions, infrastructure, and states. The [full broad-program reader map](site/us-broad-program-map.html)

@@ -1,6 +1,6 @@
 # Source registry coverage audit v1
 
-**Checked:** 2026-09-30
+**Checked:** 2026-10-17
 
 This control compares the registered source universe with the files under
 `analysis/`. It distinguishes a registered source from evidence that uses
@@ -159,7 +159,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **770**
+- Observed domains outside registered families: **775**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -451,6 +451,7 @@ without a recurring acquisition need and source-specific metadata.
 | `ipu.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `jppi.org.il` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `laborcenter.berkeley.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `luminatedata.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `manpowergroup.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mckinsey.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -561,6 +562,7 @@ without a recurring acquisition need and source-specific metadata.
 | `production.humanresourcesonline.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pubs.usgs.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rand.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `refed.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `regeringen.se` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `relate.younglife.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -664,6 +666,8 @@ without a recurring acquisition need and source-specific metadata.
 | `weizenbaum-institut.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `weltrisikobericht.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `whale-caper-tzm3.squarespace.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `x.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `youtube.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aam-us.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `acm.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aeaweb.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -831,6 +835,7 @@ without a recurring acquisition need and source-specific metadata.
 | `36kr.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `a860-openrecords.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `acquisition.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `af.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `afdb.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `affinity.solutions` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ap.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |

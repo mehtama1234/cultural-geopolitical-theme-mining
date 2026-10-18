@@ -1,0 +1,38 @@
+{
+  "schema": "social-discussion-record-v1",
+  "required": [
+    "record_id",
+    "topic",
+    "platform",
+    "item_type",
+    "author_or_account",
+    "title",
+    "canonical_url",
+    "published_window",
+    "retrieved",
+    "discussion_signal",
+    "research_anchor_paths",
+    "linked_research_question",
+    "classification",
+    "limits"
+  ],
+  "platforms": ["youtube", "reddit", "linkedin", "x"],
+  "classification_values": [
+    "creator_claim",
+    "research_relay",
+    "organizational_claim",
+    "platform_summary",
+    "audience_reaction",
+    "lived_example",
+    "lived_experiment",
+    "disagreement",
+    "repetition",
+    "speculation",
+    "governance",
+    "privacy",
+    "continuity",
+    "substitution",
+    "trust",
+    "countervailing_concern"
+  ]
+}
