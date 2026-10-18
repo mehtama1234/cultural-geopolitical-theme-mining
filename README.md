@@ -27,8 +27,9 @@ For a synchronized handoff check, run `python3 scripts/validate_long_term_public
 The long-term public-discussion complement is maintained in
 [`analysis/social-discussions/`](analysis/social-discussions/). It links a
 bounded sample of YouTube, Reddit, LinkedIn, and X discussion to the existing
-14-theme research atlas. The current 20 records are a calibration wave for AI
+14-theme research atlas. The initial 20 records were a calibration wave for AI
 and work control, platform attention and exit, and AI companionship and trust;
+Wave 002 has now added four consumer-power and recourse records.
 the [long-term coverage plan](analysis/social-discussions/long-term-coverage-plan.md)
 rotates through the remaining themes and their open end-to-end arrows.
 Discussion items are signals about meaning, interpretation, disagreement, and

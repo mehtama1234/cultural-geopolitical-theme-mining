@@ -23,6 +23,21 @@ are exhaustive.
 
 ## Next acquisition pass
 
+Wave 002 began with consumer power and recourse. Four public items were
+normalized in records/consumer-recourse-001.json through
+records/consumer-recourse-004.json, and the topic synthesis is in
+findings/consumer-power-recourse-wave-002.md.
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | customer service complaint refund consumer 2026 | A post described LinkedIn being used to chase refunds and escalate support; normalized in records/consumer-recourse-001.json. | Single author and selected audience; no prevalence or verified outcome. |
+| Reddit | consumer complaint refund customer service 2026 | Public Amazon threads described delayed refunds, automated support, and some successful escalation; normalized in records/consumer-recourse-002.json. | Self-selected community and incomplete indexed thread context. |
+| YouTube | YouTube customer service refund complaint 2026 | A YouTube Music Community complaint described an early refund denial and no reply; normalized in records/consumer-recourse-003.json. | Locked community thread; single unverified case. |
+| X | customer service refund complaint 2026 | A public bank-support reply described reversed charges and an adjustment; normalized in records/consumer-recourse-004.json. | Organizational reply; original complaint and final outcome not fully visible. |
+
+The wave is a bounded signal set, not a representative cross-platform sample.
+The next acquisition pass covers the other three Wave 002 topics.
+
 Repeat the same protocol for platform attention/exit and AI companionship/trust,
 then run a dedicated X pass through directly accessible public URLs or an
 authorized API if available. Store the query, date, and failure mode even when
