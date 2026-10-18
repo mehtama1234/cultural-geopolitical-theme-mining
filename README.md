@@ -34,7 +34,8 @@ time-care records, plus three public-systems records with a documented YouTube
 platform gap, plus three trust-and-cultural-meaning records with a documented
 YouTube platform gap. Wave 003 now includes four household-room records, a
 four-record housing/place/mobility wave, and a four-record
-infrastructure/technology/dependency wave.
+infrastructure/technology/dependency wave, and a four-record unequal
+exposure/status wave.
 the [long-term coverage plan](analysis/social-discussions/long-term-coverage-plan.md)
 rotates through the remaining themes and their open end-to-end arrows.
 Discussion items are signals about meaning, interpretation, disagreement, and

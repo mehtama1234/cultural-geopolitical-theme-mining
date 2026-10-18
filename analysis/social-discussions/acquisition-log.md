@@ -117,6 +117,20 @@ findings/housing-place-mobility-wave-003.md.
 
 This wave is a bounded signal set, not representative cross-platform evidence.
 
+The seventh Wave 003 topic is unequal exposure and status. Four public items
+were normalized in records/unequal-exposure-linkedin-001.json through
+records/unequal-exposure-x-001.json, and the topic synthesis is in
+findings/unequal-exposure-status-wave-003.md.
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | disability access accommodation institutional barriers 2026 | A public post described the gap between asking about access and providing microphones, hearing-loop support, and usable captioning; normalized in records/unequal-exposure-linkedin-001.json. | Single lived experience and selected audience. |
+| Reddit | disability workplace accommodation discrimination 2026 | A public thread described a wheelchair accommodation conflict, inaccessible HR route, and peer guidance about documentation; normalized in records/unequal-exposure-reddit-001.json. | Self-selected and unverified account; legal advice is not authoritative. |
+| YouTube | disability healthcare access barriers 2026 | A public access explainer used lived healthcare examples involving facilities, equipment, communication, and provider assumptions; normalized in records/unequal-exposure-youtube-001.json. | Advocacy/education content, not representative prevalence evidence. |
+| X | disability employment inclusion wages safety 2026 | An X trending summary presented inclusion claims alongside caution about wages, safety, individual differences, and hostility; normalized in records/unequal-exposure-x-001.json. | Non-US platform summary, not a direct post sample or US outcome measure. |
+
+This wave is a bounded signal set, not representative cross-platform evidence.
+
 The sixth Wave 003 topic is infrastructure, technology, and dependency. Four
 public items were normalized in records/infrastructure-dependency-linkedin-001.json
 through records/infrastructure-dependency-x-001.json, and the topic synthesis
