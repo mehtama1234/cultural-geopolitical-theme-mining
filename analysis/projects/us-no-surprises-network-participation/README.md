@@ -17,3 +17,7 @@ The [GAO finding](findings/us-gao-no-surprises-network-participation-2026-001.md
 shows that in-network claim shares rose after the law for three of four selected
 specialties, while payment trends largely continued patterns that began before
 the law.
+
+The [protection-to-patient-incidence bridge](protection-network-premium-patient-incidence-bridge-v1.md)
+connects that claims result to NBER evidence on arbitration, provider networks,
+and premiums while preserving the still-open patient and household outcomes.
