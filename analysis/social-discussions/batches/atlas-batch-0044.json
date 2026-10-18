@@ -2,7 +2,8 @@
   "schema": "social-augmentation-batch-v1",
   "batch_id": "atlas-batch-0044",
   "opened": "2026-10-18",
-  "window": "2025-10-17 through 2026-10-17",
+  "closed": "2026-10-18",
+  "window": "2025-10-18 through 2026-10-18",
   "record_count": 25,
   "atlas_record_ids": [
     "us-census-capture-recapture-administrative-coverage-2026",
@@ -38,40 +39,40 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Administrative and third-party records can help estimate who official systems miss",
       "geography": "United States; 2020 Census address canvassing and nonresponse-followup operations, administrative records, third-party data, and post-enumeration coverage estimation",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "administrative third-party records can help estimate who official systems miss census ces public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "administrative third-party records can help estimate who official systems miss census ces public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "administrative third-party records can help estimate who official systems miss census ces public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "administrative third-party records can help estimate who official systems miss census ces public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-childcare-challenges-work-adaptation-2025",
@@ -79,40 +80,42 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Child-care difficulty converts time and money into unequal work adaptations",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "child-care difficulty converts time money into unequal work adaptations census bureau cps time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "child-care difficulty converts time money into unequal work adaptations census bureau cps time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "child-care difficulty converts time money into unequal work adaptations census bureau cps time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0044-childcare-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "child-care difficulty converts time money into unequal work adaptations census bureau cps time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-cps-asec-nonresponse-bias-2026",
@@ -120,40 +123,42 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Survey nonresponse can make income look higher and poverty look lower even when year-to-year direction is mostly preserved",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "survey nonresponse can make income look higher poverty lower even when year-to-year public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "survey nonresponse can make income look higher poverty lower even when year-to-year public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "survey nonresponse can make income look higher poverty lower even when year-to-year public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0044-nonresponse-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "survey nonresponse can make income look higher poverty lower even when year-to-year public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-cross-border-disaster-firm-networks-2026",
@@ -161,40 +166,40 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Multinational firm networks can soften how foreign disasters reach U.S. importers",
       "geography": "Foreign supplier disasters and downstream U.S. importing firms",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational firm networks can soften how foreign disasters reach importers census bureau firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational firm networks can soften how foreign disasters reach importers census bureau firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational firm networks can soften how foreign disasters reach importers census bureau firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational firm networks can soften how foreign disasters reach importers census bureau firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-ctc-actc-participation-2021",
@@ -202,40 +207,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Child-tax-credit participation can be high while the dollars reaching eligible taxpayers are lower",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "child-tax-credit participation can high while dollars reaching eligible taxpayers are lower census household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "child-tax-credit participation can high while dollars reaching eligible taxpayers are lower census household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "child-tax-credit participation can high while dollars reaching eligible taxpayers are lower census household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "child-tax-credit participation can high while dollars reaching eligible taxpayers are lower census household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-date-entry-design-usability-near-dates-2026",
@@ -243,40 +248,40 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Small interface choices can change how successfully people complete public date questions",
       "geography": "United States; survey usability experiment with study participants",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "small interface choices can change how successfully people complete public date questions public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "small interface choices can change how successfully people complete public date questions public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "small interface choices can change how successfully people complete public date questions public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "small interface choices can change how successfully people complete public date questions public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-economic-place-civic-capacity-2002-2015",
@@ -284,40 +289,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Economic place conditions can narrow civic capacity without making community life disappear",
       "geography": "United States rural and urban places; individual respondents observed in CPS Volunteering Supplement 2002-2015",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "economic place conditions can narrow civic capacity without making community life disappear trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "economic place conditions can narrow civic capacity without making community life disappear trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "economic place conditions can narrow civic capacity without making community life disappear trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "economic place conditions can narrow civic capacity without making community life disappear trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-entrepreneur-background-hiring-homophily-2026",
@@ -325,40 +330,40 @@
       "canonical_theme": "unequal-exposure-status",
       "title": "Entrepreneur background can shape who gets hired and which wage opportunities persist",
       "geography": "United States startups and workers",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "entrepreneur background can shape who gets hired which wage opportunities persist census unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "entrepreneur background can shape who gets hired which wage opportunities persist census unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "entrepreneur background can shape who gets hired which wage opportunities persist census unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "entrepreneur background can shape who gets hired which wage opportunities persist census unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-environmental-lender-liability-pollution-1992-1999",
@@ -366,40 +371,40 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Changing who bears environmental cleanup risk changes firms' pollution and loan terms",
       "geography": "United States; establishments inside and outside the Eleventh Circuit before and after the 1996 federal Lender Liability Act",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "changing who bears environmental cleanup risk changes firms' pollution loan terms ces-26-05 firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "changing who bears environmental cleanup risk changes firms' pollution loan terms ces-26-05 firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "changing who bears environmental cleanup risk changes firms' pollution loan terms ces-26-05 firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "changing who bears environmental cleanup risk changes firms' pollution loan terms ces-26-05 firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-environmental-lender-liability-pollution-abatement-1996-2026",
@@ -407,40 +412,40 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Lender responsibility can change both firms' environmental investment and the price of credit",
       "geography": "United States; firms with lender exposure to environmental cleanup liability and their lenders, estimated with EPA and Census microdata",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "lender responsibility can change both firms' environmental investment price credit census ces firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "lender responsibility can change both firms' environmental investment price credit census ces firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "lender responsibility can change both firms' environmental investment price credit census ces firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "lender responsibility can change both firms' environmental investment price credit census ces firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-export-controls-domestic-costs-2026",
@@ -448,40 +453,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Export controls can pursue national-security goals while spreading costs across U.S. firms",
       "geography": "United States exporters; 2010-2024 export-control coverage and 2014 Russia restriction case",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "export controls can pursue national-security goals while spreading costs across firms census geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "export controls can pursue national-security goals while spreading costs across firms census geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "export controls can pursue national-security goals while spreading costs across firms census geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "export controls can pursue national-security goals while spreading costs across firms census geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-export-controls-domestic-costs-firm-spillovers-2010-2024",
@@ -489,40 +494,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Export controls can restrict the targeted trade while spilling into firms' other markets and payroll",
       "geography": "United States exporters, controlled products, Russia-related export restriction in 2014, firms, products, and destinations",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "export controls can restrict targeted trade while spilling into firms' other markets geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "export controls can restrict targeted trade while spilling into firms' other markets geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "export controls can restrict targeted trade while spilling into firms' other markets geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "export controls can restrict targeted trade while spilling into firms' other markets geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-female-teachers-female-students-lifetime-2026",
@@ -530,40 +535,40 @@
       "canonical_theme": "unequal-exposure-status",
       "title": "A local role model can alter girls' education and family trajectories decades later",
       "geography": "Rural United States circa 1940, with linked later-life outcomes",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "local role model can alter girls' education family trajectories decades later census unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "local role model can alter girls' education family trajectories decades later census unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "local role model can alter girls' education family trajectories decades later census unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "local role model can alter girls' education family trajectories decades later census unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-flood-disaster-aid-firm-reallocation-productivity-2026",
@@ -571,40 +576,40 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Federal disaster finance can change which firms and machines survive a flood",
       "geography": "United States; flood-affected counties and manufacturing plants, with additional non-tradable-sector and county-income analyses, 1977-2017 window",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "federal disaster finance can change which firms machines survive flood ces-26-52 event-study firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "federal disaster finance can change which firms machines survive flood ces-26-52 event-study firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "federal disaster finance can change which firms machines survive flood ces-26-52 event-study firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "federal disaster finance can change which firms machines survive flood ces-26-52 event-study firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-flood-disaster-creative-destruction-government-spending-2026",
@@ -612,40 +617,40 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Federal disaster spending can change which firms survive and expand after floods",
       "geography": "United States; plants affected by large federally declared floods, surviving and entering firms, machinery, employment, and federal disaster spending",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "federal disaster spending can change which firms survive expand after floods census infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "federal disaster spending can change which firms survive expand after floods census infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "federal disaster spending can change which firms survive expand after floods census infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "federal disaster spending can change which firms survive expand after floods census infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-flood-risk-insurance-household-exposure-2026",
@@ -653,40 +658,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Household flood exposure is shaped by property, ownership, and insurance rather than income alone",
       "geography": "United States; households, parcels, Census blocks, floodplains, building types, homeownership, and property ownership",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household flood exposure shaped property ownership insurance rather than income alone census housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household flood exposure shaped property ownership insurance rather than income alone census housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household flood exposure shaped property ownership insurance rather than income alone census housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household flood exposure shaped property ownership insurance rather than income alone census housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-formal-privacy-boltzmann-mechanism-2026",
@@ -694,40 +699,40 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "A proposed privacy mechanism trades some exactness for controlled public data access",
       "geography": "United States statistical-disclosure context; theoretical framework with histogram proof of concept",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "proposed privacy mechanism trades some exactness controlled public data access census center public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "proposed privacy mechanism trades some exactness controlled public data access census center public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "proposed privacy mechanism trades some exactness controlled public data access census center public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "proposed privacy mechanism trades some exactness controlled public data access census center public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-founder-departure-startup-employee-retention-2026",
@@ -735,40 +740,40 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Founder departure can disrupt startup retention after workers build shared relationships and culture",
       "geography": "United States startups and their employees; matched Census employer-employee records",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "founder departure can disrupt startup retention after workers build shared relationships culture firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "founder departure can disrupt startup retention after workers build shared relationships culture firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "founder departure can disrupt startup retention after workers build shared relationships culture firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "founder departure can disrupt startup retention after workers build shared relationships culture firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-government-organization-units-1942-2026",
@@ -776,40 +781,40 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "The public sector is organized through a large and historically changing number of government units",
       "geography": "United States and states",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public sector organized through large historically changing number government units census bureau public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public sector organized through large historically changing number government units census bureau public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public sector organized through large historically changing number government units census bureau public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public sector organized through large historically changing number government units census bureau public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-grandparenting-mortality-race-2000-2019",
@@ -817,40 +822,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "The health meaning of raising grandchildren differs sharply across racial and ethnic groups",
       "geography": "United States adults age 50 and older; non-Hispanic White, non-Hispanic Black, Hispanic, and Asian groups",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health meaning raising grandchildren differs sharply across racial ethnic groups census bureau care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health meaning raising grandchildren differs sharply across racial ethnic groups census bureau care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health meaning raising grandchildren differs sharply across racial ethnic groups census bureau care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health meaning raising grandchildren differs sharply across racial ethnic groups census bureau care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-homophily-race-job-mobility-2026",
@@ -858,40 +863,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Workers respond differently to job opportunities depending on the social makeup of the destination",
       "geography": "United States commuting zones and labor-market destinations; Black, Hispanic, and White workers",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "workers respond differently job opportunities depending social makeup destination census ces working housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "workers respond differently job opportunities depending social makeup destination census ces working housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "workers respond differently job opportunities depending social makeup destination census ces working housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "workers respond differently job opportunities depending social makeup destination census ces working housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-hope-vi-neighborhood-social-isolation-child-outcomes-2026",
@@ -899,40 +904,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Neighborhood redevelopment can change children's opportunity without raising public-housing adults' earnings",
       "geography": "United States public-housing developments; 262 distressed developments receiving HOPE VI revitalization",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "neighborhood redevelopment can change children's opportunity without raising public-housing adults' earnings census housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "neighborhood redevelopment can change children's opportunity without raising public-housing adults' earnings census housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "neighborhood redevelopment can change children's opportunity without raising public-housing adults' earnings census housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "neighborhood redevelopment can change children's opportunity without raising public-housing adults' earnings census housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-hospital-consolidation-geographic-access-rural-south-2026",
@@ -940,40 +945,42 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Hospital capacity can grow in aggregate while local geographic access shrinks",
       "geography": "United States; establishment-level panel for 1987-2019, with Census-region, South/rest-of-country, and metropolitan/micropolitan/rural county comparisons",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "hospital capacity can grow aggregate while local geographic access shrinks ces-26-51 study infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "hospital capacity can grow aggregate while local geographic access shrinks ces-26-51 study infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "hospital capacity can grow aggregate while local geographic access shrinks ces-26-51 study infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0044-rural-hospital-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "hospital capacity can grow aggregate while local geographic access shrinks ces-26-51 study infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-house-prices-firm-performance-credit-collateral-2008-2009",
@@ -981,40 +988,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "A housing crash can reach young firms through both bank credit and owners' collateral",
       "geography": "United States local housing and banking markets during the Great Recession",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "housing crash can reach young firms through both bank credit owners' collateral housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "housing crash can reach young firms through both bank credit owners' collateral housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "housing crash can reach young firms through both bank credit owners' collateral housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "housing crash can reach young firms through both bank credit owners' collateral housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-household-panel-text-consent-access-stratification-2026",
@@ -1022,41 +1029,41 @@
       "canonical_theme": "platform-exit",
       "title": "Text-first survey access expands response speed while making voice and consent more visibly stratified",
       "geography": "United States; probability-based Census Household Panel and approximately 10,000 respondents to the May 2024 Topical 7 survey",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0044",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "text-first survey access expands response speed while making voice consent more visibly platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "text-first survey access expands response speed while making voice consent more visibly platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "text-first survey access expands response speed while making voice consent more visibly platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "text-first survey access expands response speed while making voice consent more visibly platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     }
   ],
-  "status": "in_review"
+  "status": "closed"
 }
