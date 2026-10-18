@@ -25,3 +25,8 @@ extends this access work into international payment rails, digital trade, and
 regional public goods. It separates throughput, active capability, and local
 value capture, and defines the named corridor or payment episode needed for a
 stronger test.
+
+The [public AI readiness, service outcomes, oversight, and dependence bridge](public-ai-readiness-service-oversight-dependence-bridge-v1.md)
+adds government AI readiness, public-service evaluation, cloud procurement,
+vendor lock-in, human oversight, SSA disability-service implementation, and
+bounded infrastructure discussion.
