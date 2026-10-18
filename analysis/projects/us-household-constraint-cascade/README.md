@@ -62,6 +62,8 @@ The second ongoing-program social bridge is [household pressure, time, care, and
 - [Household cascade ledger contract](../../../manifests/us-household-constraint-cascade-ledger-v1.json) and [validator](../../../scripts/validate_household_constraint_cascade_ledger.py): machine-readable stage requirements plus a simulated two-episode fixture for structural testing.
 - [MEPS staged-ledger audit](meps-staged-ledger-audit-v1.md): 18,457 local, keyed-hash event rows populate the observed context fields while preserving unknown choice, remedy, and recovery stages outside Git.
 - [MEPS event-channel obligation and recovery audit](meps-event-channel-obligation-recovery-audit-v1.md): compares the three dated care-event families and their six-month context, showing why observed payment, debt, work, and later health cannot be treated as one household burden or recovery measure.
+
+- [Caregiving compression stage audit](caregiving-compression-stage-audit-v1.md): adds the life-course layer of sandwich-generation care, gendered labor paths, child-care work prevention, household hardship, and bounded caregiver discussion while keeping care hours, work disruption, financial strain, meaning, and formal support separate.
 - [Next acquisition decision](next-acquisition-decision-v1.md): a storage-conscious UAS go/no-go sequence; no new microdata are downloaded in the current pass.
 - [UAS minimum episode-field manifest](data/uas-minimum-episode-field-manifest-v1.json): machine-readable documented candidates, promotion requirements, and stop conditions for a future authorized acquisition.
 - [End-to-end status matrix](end-to-end-status-matrix-v1.md): requirement-by-requirement audit showing the current partial arrows and the missing same-case fields.
