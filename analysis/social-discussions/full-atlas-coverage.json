@@ -1082,40 +1082,42 @@
       "canonical_theme": "ai-work-control",
       "title": "Household financial pessimism can deepen even when purchase timing barely moves",
       "geography": "Australia; weekly national consumer-confidence survey, with state-level movement reported",
-      "status": "queued",
-      "batch_id": null,
+      "status": "augmented",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household financial pessimism can deepen even when purchase timing barely moves anz ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "household financial pessimism can deepen even when purchase timing barely moves anz ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-anz-consumer-confidence-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household financial pessimism can deepen even when purchase timing barely moves anz ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household financial pessimism can deepen even when purchase timing barely moves anz ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-apsr-acute-financial-hardship-turnout-germany-2021",
@@ -1123,8 +1125,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Acute short-term financial hardship can reduce turnout among poor German voters",
       "geography": "Germany; comparative mechanism, not a United States estimate",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1156,7 +1158,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-apsr-moving-to-opportunity-voting-2024",
@@ -1164,8 +1166,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Moving children out of high-poverty neighborhoods did not increase later turnout and reduced teen participation",
       "geography": "United States; Baltimore, Boston, Chicago, Los Angeles, and New York City",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1197,7 +1199,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-ark-ylt-northern-ireland-16-year-olds-community-social-media-politics-2026",
@@ -1205,8 +1207,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Northern Irish 16-year-olds combine strong place belonging with divided community confidence, heavy social-media exposure, and selective political agency",
       "geography": "Northern Ireland; 16-year-olds invited from across the region",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1238,7 +1240,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust",
@@ -1246,8 +1248,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "ASEAN scam prevention is not converting into resolution, recovery, or durable digital trust",
       "geography": "Six ASEAN countries; consumer survey estimates reported by the GSM Association",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1279,7 +1281,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership",
@@ -1287,8 +1289,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Connected technology is becoming essential infrastructure, but consumer value now depends on reliability, support, trust, and total ownership cost",
       "geography": "Global online consumer sentiment survey across connected-device users, with market snapshots including the United States, United Kingdom, Germany, Japan, India, Mexico, and Australia",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1320,7 +1322,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-athenalab-chile-national-identity-cohesion-2026",
@@ -1328,8 +1330,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "National pride can remain strong while everyday cohesion and institutional legitimacy weaken",
       "geography": "Chile; nationally representative adult survey fielded 30 July-16 August 2025 across 70 municipalities, plus qualitative interviews and grounded-theory analysis",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1361,7 +1363,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability",
@@ -1369,8 +1371,8 @@
       "canonical_theme": "platform-exit",
       "title": "Data portability creates consumer choice only when shared data is accurate, comparable, timely, and usable",
       "geography": "Australia; Consumer Data Right ecosystem across banking, energy, and newly designated non-bank lending sectors",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1402,7 +1404,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-australia-accc-dendy-cinema-drip-pricing-2025-booking-fee-transparency",
@@ -1410,8 +1412,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Australian cinema ticketing shows physical cultural access can be distorted by late mandatory fees",
       "geography": "Australia; Dendy cinemas in New South Wales, Queensland, and the Australian Capital Territory",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1443,7 +1445,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-australia-intergenerational-report-2026-transitions-equity-care",
@@ -1451,8 +1453,8 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Intergenerational politics is becoming a contest over who receives, finances, and governs simultaneous AI, energy, geopolitical, demographic, and care transitions",
       "geography": "Australia; 40-year macroeconomic, demographic, fiscal, and policy projection to 2065-66",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1484,7 +1486,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-axa-mind-health-report-2026-awareness-decline-work-economic-social",
@@ -1492,8 +1494,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Mental-health awareness is rising while lived wellbeing deteriorates, especially for young adults, amid cost, work, access and digital pressures",
       "geography": "18-country survey with longitudinal comparisons across countries surveyed in every wave",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1525,7 +1527,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-bcg-consumer-shifts-2026-value-solo-living-trust-ai",
@@ -1533,8 +1535,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Consumer choice is shifting from price alone toward perceived value, solo-life fit, concentrated trust, longevity, and AI-guided discovery",
       "geography": "Consumers in 12 markets: Brazil, China, France, Germany, India, Italy, Japan, South Korea, Sweden, Turkey, the United Kingdom, and the United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1566,7 +1568,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight",
@@ -1574,8 +1576,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Citizens are increasingly open to AI-enabled government services, but legitimacy depends on visible human oversight, appeals, and public reporting",
       "geography": "44 countries and 48,500 respondents; regional comparisons include the Americas, Europe, Asia-Pacific, and the Middle East and Africa",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1607,7 +1609,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-belgium-social-connection-postpandemic-youth-living-alone-2026",
@@ -1615,8 +1617,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Post-pandemic social connection was broadly stable in Belgium, but young people and those living alone show specific functional losses",
       "geography": "Belgium, national population aged 15 years and older, with stratified analyses by age, household situation, sex, and education",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1648,7 +1650,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose",
@@ -1656,8 +1658,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Belonging is becoming a practical test of whether everyday systems, places and institutions feel workable and fair",
       "geography": "United Kingdom adults aged 18 and over; nationally and politically representative weighted survey across all four nations",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1689,7 +1691,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-bis-annual-economic-report-2026-ai-debt-money-trust-stability",
@@ -1697,8 +1699,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "AI-led resilience is colliding with inflation, public-debt, non-bank, and digital-money risks that test financial stability and trust",
       "geography": "Global monetary, financial, fiscal, AI-investment, supply-shock, non-bank, and digital-money systems",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1730,7 +1732,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-bok-korea-consumer-survey-september-2026-sentiment-housing-expectations",
@@ -1738,8 +1740,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Consumer confidence rebounds on income hopes while living standards remain flat and housing, inflation, and rates keep shaping perceived room",
       "geography": "South Korea; urban household consumer survey",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1771,7 +1773,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers",
@@ -1779,8 +1781,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Brazil’s Pix transition is rapid but incomplete: actual cash displacement coexists with knowledge and connectivity barriers",
       "geography": "Brazil; national adult consumer survey, merchant survey, and one-week payment diaries, with payment-method, preference, income-receipt, and barrier dimensions",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1812,7 +1814,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap",
@@ -1820,8 +1822,8 @@
       "canonical_theme": "unequal-exposure-status",
       "title": "Brazil’s cultural reach is broad digitally but physical participation remains sharply stratified by education and economic class",
       "geography": "Brazil; people aged 16 to 65, with national socioeconomic and education comparisons",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1853,7 +1855,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-brazil-ibge-cultural-indicators-2013-2024-work-formality-trade",
@@ -1861,8 +1863,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Brazil’s cultural economy is large and regionally uneven, with employment growth alongside informality and a weak education-to-cultural-work conversion",
       "geography": "Brazil; national, state, capital-municipality, sector, occupation, education, and cultural-trade comparisons",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1894,7 +1896,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence",
@@ -1902,8 +1904,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Brazilian retail volume contracts monthly while essential, technology, cultural-goods, and regional paths diverge",
       "geography": "Brazil",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1935,7 +1937,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-brazil-minc-culture-habits-consumption-policy-legitimacy-2025",
@@ -1943,8 +1945,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Brazil's cultural life is digitally domestic, while cultural policy has high approval despite low public awareness",
       "geography": "Brazil; all 27 federative units; adults aged 16 and above",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -1976,7 +1978,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-british-academy-youth-social-cultural-infrastructure-2025",
@@ -1984,8 +1986,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Young people experience social and cultural infrastructure as an access-and-activation system, not simply a stock of available places",
       "geography": "England, Scotland, and Wales; national phase across seven sites plus an initial London phase",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -2017,7 +2019,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-bti-2026-democratic-regression-resistance-governance",
@@ -2025,8 +2027,8 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "Democratic and market institutions are eroding across many countries while civic resistance and selective reform remain active counterforces",
       "geography": "137 developing and transition countries assessed across political transformation, economic transformation, and governance",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -2058,7 +2060,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "comparative-canada-ai-culture-summit-2026-creator-sovereignty-trust",
@@ -2066,40 +2068,42 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Cultural-sector AI adoption is being negotiated through creator rights, cultural sovereignty, trust, co-design and institutional readiness",
       "geography": "Canadian cultural and creative sector, including creators, cultural organizations, technology companies, Indigenous organizations, labour, civil society and governments",
-      "status": "queued",
-      "batch_id": null,
+      "status": "augmented",
+      "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural-sector adoption being negotiated through creator rights cultural sovereignty trust co-design institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "cultural-sector adoption being negotiated through creator rights cultural sovereignty trust co-design institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-canada-ai-culture-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural-sector adoption being negotiated through creator rights cultural sovereignty trust co-design institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cultural-sector adoption being negotiated through creator rights cultural sovereignty trust co-design institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-canada-arts-heritage-access-availability-2025-26-belonging-cost",

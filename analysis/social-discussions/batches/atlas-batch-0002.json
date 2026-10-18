@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0002",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook",
+    "comparative-apsr-acute-financial-hardship-turnout-germany-2021",
+    "comparative-apsr-moving-to-opportunity-voting-2024",
+    "comparative-ark-ylt-northern-ireland-16-year-olds-community-social-media-politics-2026",
+    "comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust",
+    "comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership",
+    "comparative-athenalab-chile-national-identity-cohesion-2026",
+    "comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability",
+    "comparative-australia-accc-dendy-cinema-drip-pricing-2025-booking-fee-transparency",
+    "comparative-australia-intergenerational-report-2026-transitions-equity-care",
+    "comparative-axa-mind-health-report-2026-awareness-decline-work-economic-social",
+    "comparative-bcg-consumer-shifts-2026-value-solo-living-trust-ai",
+    "comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight",
+    "comparative-belgium-social-connection-postpandemic-youth-living-alone-2026",
+    "comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose",
+    "comparative-bis-annual-economic-report-2026-ai-debt-money-trust-stability",
+    "comparative-bok-korea-consumer-survey-september-2026-sentiment-housing-expectations",
+    "comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers",
+    "comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap",
+    "comparative-brazil-ibge-cultural-indicators-2013-2024-work-formality-trade",
+    "comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence",
+    "comparative-brazil-minc-culture-habits-consumption-policy-legitimacy-2025",
+    "comparative-british-academy-youth-social-cultural-infrastructure-2025",
+    "comparative-bti-2026-democratic-regression-resistance-governance",
+    "comparative-canada-ai-culture-summit-2026-creator-sovereignty-trust"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook",
+      "atlas_record_path": "analysis/records/comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Household financial pessimism can deepen even when purchase timing barely moves",
+      "geography": "Australia; weekly national consumer-confidence survey, with state-level movement reported",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household financial pessimism can deepen even when purchase timing barely moves anz ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household financial pessimism can deepen even when purchase timing barely moves anz ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household financial pessimism can deepen even when purchase timing barely moves anz ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household financial pessimism can deepen even when purchase timing barely moves anz ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-apsr-acute-financial-hardship-turnout-germany-2021",
+      "atlas_record_path": "analysis/records/comparative-apsr-acute-financial-hardship-turnout-germany-2021.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Acute short-term financial hardship can reduce turnout among poor German voters",
+      "geography": "Germany; comparative mechanism, not a United States estimate",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "acute short-term financial hardship can reduce turnout among poor german voters individual household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "acute short-term financial hardship can reduce turnout among poor german voters individual household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "acute short-term financial hardship can reduce turnout among poor german voters individual household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "acute short-term financial hardship can reduce turnout among poor german voters individual household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-apsr-moving-to-opportunity-voting-2024",
+      "atlas_record_path": "analysis/records/comparative-apsr-moving-to-opportunity-voting-2024.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Moving children out of high-poverty neighborhoods did not increase later turnout and reduced teen participation",
+      "geography": "United States; Baltimore, Boston, Chicago, Los Angeles, and New York City",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "moving children out high-poverty neighborhoods did not increase later turnout reduced teen housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "moving children out high-poverty neighborhoods did not increase later turnout reduced teen housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "moving children out high-poverty neighborhoods did not increase later turnout reduced teen housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "moving children out high-poverty neighborhoods did not increase later turnout reduced teen housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ark-ylt-northern-ireland-16-year-olds-community-social-media-politics-2026",
+      "atlas_record_path": "analysis/records/comparative-ark-ylt-northern-ireland-16-year-olds-community-social-media-politics-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Northern Irish 16-year-olds combine strong place belonging with divided community confidence, heavy social-media exposure, and selective political agency",
+      "geography": "Northern Ireland; 16-year-olds invited from across the region",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "northern irish year-olds combine strong place belonging divided community confidence heavy social-media trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "northern irish year-olds combine strong place belonging divided community confidence heavy social-media trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "northern irish year-olds combine strong place belonging divided community confidence heavy social-media trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "northern irish year-olds combine strong place belonging divided community confidence heavy social-media trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust",
+      "atlas_record_path": "analysis/records/comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "ASEAN scam prevention is not converting into resolution, recovery, or durable digital trust",
+      "geography": "Six ASEAN countries; consumer survey estimates reported by the GSM Association",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "asean scam prevention not converting into resolution recovery durable digital trust gsma consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "asean scam prevention not converting into resolution recovery durable digital trust gsma consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "asean scam prevention not converting into resolution recovery durable digital trust gsma consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "asean scam prevention not converting into resolution recovery durable digital trust gsma consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership",
+      "atlas_record_path": "analysis/records/comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Connected technology is becoming essential infrastructure, but consumer value now depends on reliability, support, trust, and total ownership cost",
+      "geography": "Global online consumer sentiment survey across connected-device users, with market snapshots including the United States, United Kingdom, Germany, Japan, India, Mexico, and Australia",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "connected technology becoming essential infrastructure but consumer value now depends reliability support household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "connected technology becoming essential infrastructure but consumer value now depends reliability support household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "connected technology becoming essential infrastructure but consumer value now depends reliability support household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "connected technology becoming essential infrastructure but consumer value now depends reliability support household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-athenalab-chile-national-identity-cohesion-2026",
+      "atlas_record_path": "analysis/records/comparative-athenalab-chile-national-identity-cohesion-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "National pride can remain strong while everyday cohesion and institutional legitimacy weaken",
+      "geography": "Chile; nationally representative adult survey fielded 30 July-16 August 2025 across 70 municipalities, plus qualitative interviews and grounded-theory analysis",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "national pride can remain strong while everyday cohesion institutional legitimacy weaken athenalab trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "national pride can remain strong while everyday cohesion institutional legitimacy weaken athenalab trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "national pride can remain strong while everyday cohesion institutional legitimacy weaken athenalab trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "national pride can remain strong while everyday cohesion institutional legitimacy weaken athenalab trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability",
+      "atlas_record_path": "analysis/records/comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability.json",
+      "canonical_theme": "platform-exit",
+      "title": "Data portability creates consumer choice only when shared data is accurate, comparable, timely, and usable",
+      "geography": "Australia; Consumer Data Right ecosystem across banking, energy, and newly designated non-bank lending sectors",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "data portability creates consumer choice only when shared accurate comparable timely usable platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "data portability creates consumer choice only when shared accurate comparable timely usable platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "data portability creates consumer choice only when shared accurate comparable timely usable platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "data portability creates consumer choice only when shared accurate comparable timely usable platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-australia-accc-dendy-cinema-drip-pricing-2025-booking-fee-transparency",
+      "atlas_record_path": "analysis/records/comparative-australia-accc-dendy-cinema-drip-pricing-2025-booking-fee-transparency.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Australian cinema ticketing shows physical cultural access can be distorted by late mandatory fees",
+      "geography": "Australia; Dendy cinemas in New South Wales, Queensland, and the Australian Capital Territory",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "australian cinema ticketing shows physical cultural access can distorted late mandatory fees consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "australian cinema ticketing shows physical cultural access can distorted late mandatory fees consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "australian cinema ticketing shows physical cultural access can distorted late mandatory fees consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "australian cinema ticketing shows physical cultural access can distorted late mandatory fees consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-australia-intergenerational-report-2026-transitions-equity-care",
+      "atlas_record_path": "analysis/records/comparative-australia-intergenerational-report-2026-transitions-equity-care.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Intergenerational politics is becoming a contest over who receives, finances, and governs simultaneous AI, energy, geopolitical, demographic, and care transitions",
+      "geography": "Australia; 40-year macroeconomic, demographic, fiscal, and policy projection to 2065-66",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "intergenerational politics becoming contest over who receives finances governs simultaneous energy geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "intergenerational politics becoming contest over who receives finances governs simultaneous energy geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "intergenerational politics becoming contest over who receives finances governs simultaneous energy geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "intergenerational politics becoming contest over who receives finances governs simultaneous energy geopolitical geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-axa-mind-health-report-2026-awareness-decline-work-economic-social",
+      "atlas_record_path": "analysis/records/comparative-axa-mind-health-report-2026-awareness-decline-work-economic-social.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Mental-health awareness is rising while lived wellbeing deteriorates, especially for young adults, amid cost, work, access and digital pressures",
+      "geography": "18-country survey with longitudinal comparisons across countries surveyed in every wave",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "mental-health awareness rising while lived wellbeing deteriorates especially young adults amid cost care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "mental-health awareness rising while lived wellbeing deteriorates especially young adults amid cost care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "mental-health awareness rising while lived wellbeing deteriorates especially young adults amid cost care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "mental-health awareness rising while lived wellbeing deteriorates especially young adults amid cost care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-bcg-consumer-shifts-2026-value-solo-living-trust-ai",
+      "atlas_record_path": "analysis/records/comparative-bcg-consumer-shifts-2026-value-solo-living-trust-ai.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Consumer choice is shifting from price alone toward perceived value, solo-life fit, concentrated trust, longevity, and AI-guided discovery",
+      "geography": "Consumers in 12 markets: Brazil, China, France, Germany, India, Italy, Japan, South Korea, Sweden, Turkey, the United Kingdom, and the United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer choice shifting price alone toward perceived value solo-life fit concentrated trust household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer choice shifting price alone toward perceived value solo-life fit concentrated trust household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer choice shifting price alone toward perceived value solo-life fit concentrated trust household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer choice shifting price alone toward perceived value solo-life fit concentrated trust household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight",
+      "atlas_record_path": "analysis/records/comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Citizens are increasingly open to AI-enabled government services, but legitimacy depends on visible human oversight, appeals, and public reporting",
+      "geography": "44 countries and 48,500 respondents; regional comparisons include the Americas, Europe, Asia-Pacific, and the Middle East and Africa",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "citizens are increasingly open ai-enabled government services but legitimacy depends visible human public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "citizens are increasingly open ai-enabled government services but legitimacy depends visible human public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "citizens are increasingly open ai-enabled government services but legitimacy depends visible human public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "citizens are increasingly open ai-enabled government services but legitimacy depends visible human public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-belgium-social-connection-postpandemic-youth-living-alone-2026",
+      "atlas_record_path": "analysis/records/comparative-belgium-social-connection-postpandemic-youth-living-alone-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Post-pandemic social connection was broadly stable in Belgium, but young people and those living alone show specific functional losses",
+      "geography": "Belgium, national population aged 15 years and older, with stratified analyses by age, household situation, sex, and education",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "post-pandemic social connection was broadly stable belgium but young people those living trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "post-pandemic social connection was broadly stable belgium but young people those living trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "post-pandemic social connection was broadly stable belgium but young people those living trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "post-pandemic social connection was broadly stable belgium but young people those living trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose",
+      "atlas_record_path": "analysis/records/comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Belonging is becoming a practical test of whether everyday systems, places and institutions feel workable and fair",
+      "geography": "United Kingdom adults aged 18 and over; nationally and politically representative weighted survey across all four nations",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "belonging becoming practical test whether everyday systems places institutions feel workable fair trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "belonging becoming practical test whether everyday systems places institutions feel workable fair trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "belonging becoming practical test whether everyday systems places institutions feel workable fair trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "belonging becoming practical test whether everyday systems places institutions feel workable fair trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-bis-annual-economic-report-2026-ai-debt-money-trust-stability",
+      "atlas_record_path": "analysis/records/comparative-bis-annual-economic-report-2026-ai-debt-money-trust-stability.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "AI-led resilience is colliding with inflation, public-debt, non-bank, and digital-money risks that test financial stability and trust",
+      "geography": "Global monetary, financial, fiscal, AI-investment, supply-shock, non-bank, and digital-money systems",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ai-led resilience colliding inflation public-debt non-bank digital-money risks test financial stability trust public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ai-led resilience colliding inflation public-debt non-bank digital-money risks test financial stability trust public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ai-led resilience colliding inflation public-debt non-bank digital-money risks test financial stability trust public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ai-led resilience colliding inflation public-debt non-bank digital-money risks test financial stability trust public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-bok-korea-consumer-survey-september-2026-sentiment-housing-expectations",
+      "atlas_record_path": "analysis/records/comparative-bok-korea-consumer-survey-september-2026-sentiment-housing-expectations.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Consumer confidence rebounds on income hopes while living standards remain flat and housing, inflation, and rates keep shaping perceived room",
+      "geography": "South Korea; urban household consumer survey",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer confidence rebounds income hopes while living standards remain flat housing inflation household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer confidence rebounds income hopes while living standards remain flat housing inflation household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer confidence rebounds income hopes while living standards remain flat housing inflation household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer confidence rebounds income hopes while living standards remain flat housing inflation household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers",
+      "atlas_record_path": "analysis/records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Brazil’s Pix transition is rapid but incomplete: actual cash displacement coexists with knowledge and connectivity barriers",
+      "geography": "Brazil; national adult consumer survey, merchant survey, and one-week payment diaries, with payment-method, preference, income-receipt, and barrier dimensions",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "brazil pix transition rapid but incomplete actual cash displacement coexists knowledge connectivity consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "brazil pix transition rapid but incomplete actual cash displacement coexists knowledge connectivity consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "brazil pix transition rapid but incomplete actual cash displacement coexists knowledge connectivity consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "brazil pix transition rapid but incomplete actual cash displacement coexists knowledge connectivity consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap",
+      "atlas_record_path": "analysis/records/comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap.json",
+      "canonical_theme": "unequal-exposure-status",
+      "title": "Brazil’s cultural reach is broad digitally but physical participation remains sharply stratified by education and economic class",
+      "geography": "Brazil; people aged 16 to 65, with national socioeconomic and education comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "brazil cultural reach broad digitally but physical participation remains sharply stratified education unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "brazil cultural reach broad digitally but physical participation remains sharply stratified education unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "brazil cultural reach broad digitally but physical participation remains sharply stratified education unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "brazil cultural reach broad digitally but physical participation remains sharply stratified education unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-brazil-ibge-cultural-indicators-2013-2024-work-formality-trade",
+      "atlas_record_path": "analysis/records/comparative-brazil-ibge-cultural-indicators-2013-2024-work-formality-trade.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Brazil’s cultural economy is large and regionally uneven, with employment growth alongside informality and a weak education-to-cultural-work conversion",
+      "geography": "Brazil; national, state, capital-municipality, sector, occupation, education, and cultural-trade comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "brazil cultural economy large regionally uneven employment growth alongside informality weak education-to-cultural-work firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "brazil cultural economy large regionally uneven employment growth alongside informality weak education-to-cultural-work firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "brazil cultural economy large regionally uneven employment growth alongside informality weak education-to-cultural-work firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "brazil cultural economy large regionally uneven employment growth alongside informality weak education-to-cultural-work firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence",
+      "atlas_record_path": "analysis/records/comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Brazilian retail volume contracts monthly while essential, technology, cultural-goods, and regional paths diverge",
+      "geography": "Brazil",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "brazilian retail volume contracts monthly while essential technology cultural-goods regional paths diverge household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "brazilian retail volume contracts monthly while essential technology cultural-goods regional paths diverge household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "brazilian retail volume contracts monthly while essential technology cultural-goods regional paths diverge household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "brazilian retail volume contracts monthly while essential technology cultural-goods regional paths diverge household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-brazil-minc-culture-habits-consumption-policy-legitimacy-2025",
+      "atlas_record_path": "analysis/records/comparative-brazil-minc-culture-habits-consumption-policy-legitimacy-2025.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Brazil's cultural life is digitally domestic, while cultural policy has high approval despite low public awareness",
+      "geography": "Brazil; all 27 federative units; adults aged 16 and above",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "brazil's cultural life digitally domestic while policy has high approval despite low trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "brazil's cultural life digitally domestic while policy has high approval despite low trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "brazil's cultural life digitally domestic while policy has high approval despite low trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "brazil's cultural life digitally domestic while policy has high approval despite low trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-british-academy-youth-social-cultural-infrastructure-2025",
+      "atlas_record_path": "analysis/records/comparative-british-academy-youth-social-cultural-infrastructure-2025.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Young people experience social and cultural infrastructure as an access-and-activation system, not simply a stock of available places",
+      "geography": "England, Scotland, and Wales; national phase across seven sites plus an initial London phase",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "young people experience social cultural infrastructure access-and-activation system not simply stock available housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "young people experience social cultural infrastructure access-and-activation system not simply stock available housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "young people experience social cultural infrastructure access-and-activation system not simply stock available housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "young people experience social cultural infrastructure access-and-activation system not simply stock available housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-bti-2026-democratic-regression-resistance-governance",
+      "atlas_record_path": "analysis/records/comparative-bti-2026-democratic-regression-resistance-governance.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Democratic and market institutions are eroding across many countries while civic resistance and selective reform remain active counterforces",
+      "geography": "137 developing and transition countries assessed across political transformation, economic transformation, and governance",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "democratic market institutions are eroding across many countries while civic resistance selective political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "democratic market institutions are eroding across many countries while civic resistance selective political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "democratic market institutions are eroding across many countries while civic resistance selective political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "democratic market institutions are eroding across many countries while civic resistance selective political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-canada-ai-culture-summit-2026-creator-sovereignty-trust",
+      "atlas_record_path": "analysis/records/comparative-canada-ai-culture-summit-2026-creator-sovereignty-trust.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Cultural-sector AI adoption is being negotiated through creator rights, cultural sovereignty, trust, co-design and institutional readiness",
+      "geography": "Canadian cultural and creative sector, including creators, cultural organizations, technology companies, Indigenous organizations, labour, civil society and governments",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0002",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "cultural-sector adoption being negotiated through creator rights cultural sovereignty trust co-design institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "cultural-sector adoption being negotiated through creator rights cultural sovereignty trust co-design institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "cultural-sector adoption being negotiated through creator rights cultural sovereignty trust co-design institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "cultural-sector adoption being negotiated through creator rights cultural sovereignty trust co-design institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-anz-consumer-confidence-reddit-001",
+  "atlas_record_ids": ["comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook"],
+  "topic": "household-room-consumption",
+  "platform": "reddit",
+  "item_type": "audience_reaction_and_consumer_sentiment",
+  "author_or_account": "r/AusFinance participant; account not exposed",
+  "title": "Cost-of-living pressure and falling consumer confidence",
+  "canonical_url": "https://www.reddit.com/r/AusFinance/comments/1u0wgpg/consumer_sentiment_slips_as_deep_pessimism/",
+  "published_window": "2026-06-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The discussion links weak consumer confidence to persistent price increases, fuel costs, mortgage expectations and housing uncertainty. Replies turn the aggregate sentiment signal into household-level pessimism and disagreement about whether Australia is facing crisis or merely a difficult adjustment.",
+  "research_anchor_paths": ["analysis/records/comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook.json"],
+  "linked_research_question": "How do aggregate consumer-confidence measures become lived expectations about prices, housing and future security?",
+  "classification": ["audience_reaction", "consumer_sentiment", "cost_of_living", "housing_expectations"],
+  "limits": ["Self-selected finance subreddit", "Replies are not a representative consumer sample", "Discussion does not independently validate the survey figures"]
+}
