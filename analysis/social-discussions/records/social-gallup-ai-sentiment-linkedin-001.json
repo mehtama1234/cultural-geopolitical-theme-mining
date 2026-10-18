@@ -1,0 +1,17 @@
+{
+  "record_id": "social-gallup-ai-sentiment-linkedin-001",
+  "atlas_record_ids": ["us-scsp-gallup-ai-sentiment-trust-preparation-2026"],
+  "topic": "platform-exit",
+  "platform": "linkedin",
+  "item_type": "survey_relay_and_discussion",
+  "author_or_account": "Jennifer Donnally, PhD",
+  "title": "Americans Want AI Training and Transparency in the Workplace",
+  "canonical_url": "https://www.linkedin.com/posts/jennifer-donnally_gallup-scsp-american-perspectives-on-ai-activity-7506030175365746688-18uG",
+  "published_window": "2026-10 (search index: 3 weeks ago)",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The relay describes rising familiarity with AI alongside lower trust in its fairness, strong demand for workplace training, and continued reliance on AI itself as a learning route. It frames preparation and transparency as missing institutional infrastructure rather than merely a knowledge deficit.",
+  "research_anchor_paths": ["analysis/records/us-scsp-gallup-ai-sentiment-trust-preparation-2026.json"],
+  "linked_research_question": "How can institutions close the gap between widespread AI adoption, limited preparation, and declining confidence that AI decisions are fair?",
+  "classification": ["survey_relay", "trust_gap", "training_demand", "institutional_preparation", "boundary_aware"],
+  "limits": ["Post is a secondary relay of survey findings", "Search-index date is approximate", "LinkedIn audience is selected", "Self-reported trust and knowledge do not measure actual capability or fairness"]
+}
