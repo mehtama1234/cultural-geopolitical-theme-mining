@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0050-ai-job-ad-linkedin-001",
+  "atlas_record_ids": ["us-doj-elegant-ai-generated-job-ad-settlement-2026"],
+  "topic": "ai-work-control",
+  "platform": "linkedin",
+  "item_type": "enforcement_discussion_and_compliance_reaction",
+  "author_or_account": "Jean Gan",
+  "title": "DOJ settlement over AI-driven job ads",
+  "canonical_url": "https://www.linkedin.com/posts/jean-gan_the-us-department-of-justice-has-just-settled-activity-7433299297116356608-WHrU",
+  "published_window": "2026-05",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post interprets a DOJ settlement involving AI-driven job-ad targeting as a reminder that automated recruitment remains an employer-controlled legal process. It emphasizes auditability, fairness testing, and responsibility for exclusion even when a platform or model produces the targeting.",
+  "research_anchor_paths": ["analysis/records/us-doj-elegant-ai-generated-job-ad-settlement-2026.json"],
+  "linked_research_question": "How does automated recruitment convert AI-generated language and targeting into enforceable exclusion, compliance work, and institutional responsibility?",
+  "classification": ["enforcement_discussion", "ai_hiring", "institutional_responsibility", "compliance"],
+  "limits": ["The post summarizes a settlement and does not provide the full legal record", "Compliance recommendations are not evidence of actual employer practice", "One enforcement action cannot estimate prevalence of discriminatory AI hiring"]
+}
