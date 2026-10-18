@@ -47,3 +47,5 @@ Retained exact links:
 - `comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion`: Reddit discussion showing both multicultural support and material/identity grievance.
 
 Platform accounting for those five rows is explicit in `full-atlas-coverage.json`: retained evidence is `augmented`; searched surfaces without a retained directly relevant item are `documented_access_gap`. This does not mean the platform has no relevant material; it means this acquisition pass did not retain one.
+
+Batch closure: all 25 rows now have terminal record-level accounting. Nineteen rows have at least one exact social item and six rows have documented platform search gaps across all four surfaces. The six gap-only rows were searched using title/theme queries covering Australia social participation, conflict systems, intra-household deprivation, African water/energy/city finance, African global-order attitudes, and Americas democratic legitimacy; no directly relevant public item was retained in this pass.
