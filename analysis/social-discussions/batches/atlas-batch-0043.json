@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0043",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "us-cces-medical-affordability-political-participation-2018-2020",
+    "us-cces-panel-insurance-political-followup-2012-2014",
+    "us-cces-panel-job-loss-political-followup-2012-2014",
+    "us-cces-trust-action-joint-material-proxies-2024",
+    "us-cdc-community-connection-support-participation-2026",
+    "us-cdc-loneliness-social-support-2022",
+    "us-cdc-nhis-health-insurance-coverage-2025",
+    "us-cdc-places-county-capacity-outcomes-2024",
+    "us-cdc-places-vintage-comparison-2024-2025",
+    "us-cdc-youth-health-in-focus-2025",
+    "us-census-2025-income-poverty-insurance-divergence",
+    "us-census-acs-self-response-contact-strategy-2005-2025",
+    "us-census-affirmative-action-contracting-mwbe-2026",
+    "us-census-ai-diffusion-firm-function-task-2026",
+    "us-census-ai-diffusion-firm-function-task-btos-2026",
+    "us-census-ai-early-career-hiring-qwi-2026",
+    "us-census-ai-exposed-college-graduate-entry-disruption-2026",
+    "us-census-ai-exposed-college-graduates-2026",
+    "us-census-americorps-civic-reach-time-2023",
+    "us-census-asec-cognitive-interviews-household-complexity-2026",
+    "us-census-bankruptcy-forum-shopping-delaware-employment-1990-2021",
+    "us-census-bls-establishment-frame-discrepancy-2004-2023",
+    "us-census-btos-ai-firm-size-sector-2025-2026",
+    "us-census-btos-business-price-pressure-outlook-2026",
+    "us-census-business-application-expectations-realization-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-cces-medical-affordability-political-participation-2018-2020",
+      "atlas_record_path": "analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Medical-expense hardship reaches turnout and targeted political participation in CES module extracts",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "medical-expense hardship reaches turnout targeted political participation ces module extracts public crisis-module care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "medical-expense hardship reaches turnout targeted political participation ces module extracts public crisis-module care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "medical-expense hardship reaches turnout targeted political participation ces module extracts public crisis-module care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "medical-expense hardship reaches turnout targeted political participation ces module extracts public crisis-module care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cces-panel-insurance-political-followup-2012-2014",
+      "atlas_record_path": "analysis/records/us-cces-panel-insurance-political-followup-2012-2014.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Earlier health-insurance noncoverage is followed by lower political contact and action in a CCES panel",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "earlier health-insurance noncoverage followed lower political contact action cces panel respondents retained household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "earlier health-insurance noncoverage followed lower political contact action cces panel respondents retained household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "earlier health-insurance noncoverage followed lower political contact action cces panel respondents retained household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "earlier health-insurance noncoverage followed lower political contact action cces panel respondents retained household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cces-panel-job-loss-political-followup-2012-2014",
+      "atlas_record_path": "analysis/records/us-cces-panel-job-loss-political-followup-2012-2014.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Reported job loss is followed by lower political action but not uniformly lower Congress approval in a CCES panel",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "reported job loss followed lower political action but not uniformly congress approval ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "reported job loss followed lower political action but not uniformly congress approval ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "reported job loss followed lower political action but not uniformly congress approval ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "reported job loss followed lower political action but not uniformly congress approval ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cces-trust-action-joint-material-proxies-2024",
+      "atlas_record_path": "analysis/records/us-cces-trust-action-joint-material-proxies-2024.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Trust and civic action diverge across joint gig-work and student-debt conditions",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "trust civic action diverge across joint gig-work student-debt conditions cces post-election respondent household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "trust civic action diverge across joint gig-work student-debt conditions cces post-election respondent household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "trust civic action diverge across joint gig-work student-debt conditions cces post-election respondent household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "trust civic action diverge across joint gig-work student-debt conditions cces post-election respondent household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cdc-community-connection-support-participation-2026",
+      "atlas_record_path": "analysis/records/us-cdc-community-connection-support-participation-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Reported social support is common, but support and social participation are not the same",
+      "geography": "United States; national youth and adult indicators, with selected state comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "reported social support common but participation are not same cdc mental health trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "reported social support common but participation are not same cdc mental health trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "reported social support common but participation are not same cdc mental health trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "reported social support common but participation are not same cdc mental health trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cdc-loneliness-social-support-2022",
+      "atlas_record_path": "analysis/records/us-cdc-loneliness-social-support-2022.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Social support is unevenly distributed and associated with mental-health burden",
+      "geography": "26 U.S. states; noninstitutionalized adults aged 18 or older",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "social support unevenly distributed associated mental-health burden cdc behavioral risk factor surveillance trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "social support unevenly distributed associated mental-health burden cdc behavioral risk factor surveillance trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "social support unevenly distributed associated mental-health burden cdc behavioral risk factor surveillance trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "social support unevenly distributed associated mental-health burden cdc behavioral risk factor surveillance trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cdc-nhis-health-insurance-coverage-2025",
+      "atlas_record_path": "analysis/records/us-cdc-nhis-health-insurance-coverage-2025.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Coverage routes can expand while a large uninsured gap remains",
+      "geography": "United States civilian noninstitutionalized population; 2021-2025 survey estimates",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "coverage routes can expand while large uninsured gap remains cdc national center care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "coverage routes can expand while large uninsured gap remains cdc national center care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "coverage routes can expand while large uninsured gap remains cdc national center care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "coverage routes can expand while large uninsured gap remains cdc national center care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cdc-places-county-capacity-outcomes-2024",
+      "atlas_record_path": "analysis/records/us-cdc-places-county-capacity-outcomes-2024.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "County health-sector capacity and modeled social-need measures align descriptively but not as a care-adequacy estimate",
+      "geography": "United States; 3,072 matched counties and county equivalents excluding non-US territories",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "county health-sector capacity modeled social-need measures align descriptively but not care-adequacy estimate care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "county health-sector capacity modeled social-need measures align descriptively but not care-adequacy estimate care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "county health-sector capacity modeled social-need measures align descriptively but not care-adequacy estimate care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "county health-sector capacity modeled social-need measures align descriptively but not care-adequacy estimate care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cdc-places-vintage-comparison-2024-2025",
+      "atlas_record_path": "analysis/records/us-cdc-places-vintage-comparison-2024-2025.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "CDC PLACES county vintages move across distinct health and social-need surfaces",
+      "geography": "United States; 2,885 common county FIPS with capacity context",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "cdc places county vintages move across distinct health social-need surfaces same fips care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "cdc places county vintages move across distinct health social-need surfaces same fips care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "cdc places county vintages move across distinct health social-need surfaces same fips care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "cdc places county vintages move across distinct health social-need surfaces same fips care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cdc-youth-health-in-focus-2025",
+      "atlas_record_path": "analysis/records/us-cdc-youth-health-in-focus-2025.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Youth health is improving on some emotional and dietary indicators while sleep, activity, and digital-risk constraints persist",
+      "geography": "United States; nationally representative high school student estimates",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "youth health improving some emotional dietary indicators while sleep activity digital-risk constraints care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "youth health improving some emotional dietary indicators while sleep activity digital-risk constraints care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "youth health improving some emotional dietary indicators while sleep activity digital-risk constraints care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "youth health improving some emotional dietary indicators while sleep activity digital-risk constraints care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-2025-income-poverty-insurance-divergence",
+      "atlas_record_path": "analysis/records/us-census-2025-income-poverty-insurance-divergence.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Headline income and official poverty improved while supplemental poverty and full-year insurance coverage stayed broadly flat",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "headline income official poverty improved while supplemental full-year insurance coverage stayed broadly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "headline income official poverty improved while supplemental full-year insurance coverage stayed broadly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "headline income official poverty improved while supplemental full-year insurance coverage stayed broadly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "headline income official poverty improved while supplemental full-year insurance coverage stayed broadly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-acs-self-response-contact-strategy-2005-2025",
+      "atlas_record_path": "analysis/records/us-census-acs-self-response-contact-strategy-2005-2025.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Survey participation can improve through targeted design changes while broader response still declines",
+      "geography": "United States American Community Survey housing-unit collection; Puerto Rico is excluded from the report's contact-strategy discussion",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "survey participation can improve through targeted design changes while broader response still public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "survey participation can improve through targeted design changes while broader response still public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "survey participation can improve through targeted design changes while broader response still public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "survey participation can improve through targeted design changes while broader response still public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-affirmative-action-contracting-mwbe-2026",
+      "atlas_record_path": "analysis/records/us-census-affirmative-action-contracting-mwbe-2026.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "A contracting ban can leave existing minority- and women-owned firms alive while shrinking the route into the market",
+      "geography": "United States states that ended affirmative action in state contracting and comparison states",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "contracting ban can leave existing minority- women-owned firms alive while shrinking route political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "contracting ban can leave existing minority- women-owned firms alive while shrinking route political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "contracting ban can leave existing minority- women-owned firms alive while shrinking route political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "contracting ban can leave existing minority- women-owned firms alive while shrinking route political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-ai-diffusion-firm-function-task-2026",
+      "atlas_record_path": "analysis/records/us-census-ai-diffusion-firm-function-task-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "AI adoption happens at separate firm, business-function, and worker-task layers",
+      "geography": "United States; firms, business functions, employment-weighted firms, and worker tasks",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "adoption happens separate firm business-function worker-task layers census ces working paper using infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "adoption happens separate firm business-function worker-task layers census ces working paper using infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "adoption happens separate firm business-function worker-task layers census ces working paper using infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "adoption happens separate firm business-function worker-task layers census ces working paper using infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-ai-diffusion-firm-function-task-btos-2026",
+      "atlas_record_path": "analysis/records/us-census-ai-diffusion-firm-function-task-btos-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "AI adoption is layered: firm use, business deployment, and worker task use do not always move together",
+      "geography": "United States; nationally representative 2026 Business Trends and Outlook Survey AI supplement",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "adoption layered firm use business deployment worker task not always move together infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "adoption layered firm use business deployment worker task not always move together infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "adoption layered firm use business deployment worker task not always move together infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "adoption layered firm use business deployment worker task not always move together infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-ai-early-career-hiring-qwi-2026",
+      "atlas_record_path": "analysis/records/us-census-ai-early-career-hiring-qwi-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Early-career hiring fell in the most AI-exposed industry-state markets after ChatGPT",
+      "geography": "United States; industry-state cells, early-career workers ages 22-24, older workers, and AI-exposure quintiles",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "early-career hiring fell most ai-exposed industry-state markets after chatgpt census ces working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "early-career hiring fell most ai-exposed industry-state markets after chatgpt census ces working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "early-career hiring fell most ai-exposed industry-state markets after chatgpt census ces working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "early-career hiring fell most ai-exposed industry-state markets after chatgpt census ces working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-ai-exposed-college-graduate-entry-disruption-2026",
+      "atlas_record_path": "analysis/records/us-census-ai-exposed-college-graduate-entry-disruption-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "AI-exposed college majors faced a weaker and lower-paid first job after ChatGPT",
+      "geography": "United States; participating institutions in 24 states and 27 data partners, with LEHD outcomes excluding Alaska and Michigan",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ai-exposed college majors faced weaker lower-paid first job after chatgpt ces-26-56 using ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ai-exposed college majors faced weaker lower-paid first job after chatgpt ces-26-56 using ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ai-exposed college majors faced weaker lower-paid first job after chatgpt ces-26-56 using ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ai-exposed college majors faced weaker lower-paid first job after chatgpt ces-26-56 using ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-ai-exposed-college-graduates-2026",
+      "atlas_record_path": "analysis/records/us-census-ai-exposed-college-graduates-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "AI-exposed college majors face a weaker and lower-paid first step into work",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ai-exposed college majors face weaker lower-paid first step into work census bureau ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ai-exposed college majors face weaker lower-paid first step into work census bureau ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ai-exposed college majors face weaker lower-paid first step into work census bureau ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ai-exposed college majors face weaker lower-paid first step into work census bureau ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-americorps-civic-reach-time-2023",
+      "atlas_record_path": "analysis/records/us-census-americorps-civic-reach-time-2023.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Civic participation can rebound in reach while thinning in time",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "civic participation can rebound reach while thinning time census bureau current population political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "civic participation can rebound reach while thinning time census bureau current population political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "civic participation can rebound reach while thinning time census bureau current population political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "civic participation can rebound reach while thinning time census bureau current population political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-asec-cognitive-interviews-household-complexity-2026",
+      "atlas_record_path": "analysis/records/us-census-asec-cognitive-interviews-household-complexity-2026.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Standardized web questions can lose parts of complicated household life",
+      "geography": "United States; 60 remote cognitive interviews, 30 income and 30 health-insurance interviews",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "standardized web questions can lose parts complicated household life census rti round public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "standardized web questions can lose parts complicated household life census rti round public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "standardized web questions can lose parts complicated household life census rti round public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "standardized web questions can lose parts complicated household life census rti round public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-bankruptcy-forum-shopping-delaware-employment-1990-2021",
+      "atlas_record_path": "analysis/records/us-census-bankruptcy-forum-shopping-delaware-employment-1990-2021.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Legal venue can change whether a distressed firm survives and keeps jobs",
+      "geography": "United States; Chapter 11 firms nationwide, with causal distance design focused on Maryland, New Jersey, and Pennsylvania firms filing 1990s-2021",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "legal venue can change whether distressed firm survives keeps jobs census ces firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "legal venue can change whether distressed firm survives keeps jobs census ces firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "legal venue can change whether distressed firm survives keeps jobs census ces firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "legal venue can change whether distressed firm survives keeps jobs census ces firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-bls-establishment-frame-discrepancy-2004-2023",
+      "atlas_record_path": "analysis/records/us-census-bls-establishment-frame-discrepancy-2004-2023.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "The way agencies count workplaces changes the picture of firms, care services, and market concentration",
+      "geography": "United States private sector; published establishment counts through March 2023 and linked establishment-level comparison for 2004–2016",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "way agencies count workplaces changes picture firms care services market concentration census firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "way agencies count workplaces changes picture firms care services market concentration census firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "way agencies count workplaces changes picture firms care services market concentration census firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "way agencies count workplaces changes picture firms care services market concentration census firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-btos-ai-firm-size-sector-2025-2026",
+      "atlas_record_path": "analysis/records/us-census-btos-ai-firm-size-sector-2025-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Business AI adoption is concentrated by firm size and sector rather than spreading evenly",
+      "geography": "United States, with sector, state, and firm-size estimates",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "business adoption concentrated firm size sector rather than spreading evenly census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "business adoption concentrated firm size sector rather than spreading evenly census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "business adoption concentrated firm size sector rather than spreading evenly census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "business adoption concentrated firm size sector rather than spreading evenly census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-btos-business-price-pressure-outlook-2026",
+      "atlas_record_path": "analysis/records/us-census-btos-business-price-pressure-outlook-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Employer businesses report stronger input-price pressure than demand or employment expectations",
+      "geography": "United States employer businesses, excluding farms",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-business-application-expectations-realization-2026",
+      "atlas_record_path": "analysis/records/us-census-business-application-expectations-realization-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Business applications overstate entry overall while successful entrants often understate their first-year employment",
+      "geography": "United States business applications and local economic conditions",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0043",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "business applications overstate entry overall while successful entrants often understate their first-year firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "business applications overstate entry overall while successful entrants often understate their first-year firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "business applications overstate entry overall while successful entrants often understate their first-year firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "business applications overstate entry overall while successful entrants often understate their first-year firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
