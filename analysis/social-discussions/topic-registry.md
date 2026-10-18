@@ -12,6 +12,7 @@ pass of the long-term 14-theme coverage plan.
 | Infrastructure, technology, and dependency | `analysis/US-BROAD-INFRASTRUCTURE-TECHNOLOGY-DEPENDENCY-SOURCE-LED-SUBTHEME-MAP_V1.md`; `analysis/US-BROAD-FIRM-SECTOR-MARKET-POWER-SOURCE-LED-SUBTHEME-MAP_V1.md` | How do AI, data centers, energy, water, equipment, finance, and grid constraints become public cost, reliability, and legitimacy questions? |
 | Unequal exposure and status | `analysis/US-BROAD-UNEQUAL-EXPOSURE-STATUS-SOURCE-LED-SUBTHEME-MAP_V1.md`; `analysis/US-BROAD-WORK-SOURCE-LED-SUBTHEME-MAP_V1.md`; `analysis/US-BROAD-CARE-SOURCE-LED-SUBTHEME-MAP_V1.md` | Where do formal rights, status, disability, income, race, place, or institutional position become unequal exposure, treatment, voice, recovery, or usable access? |
 | Political judgment and collective action | `analysis/US-BROAD-CULTURAL-POLITICAL-MEANING-SUBTHEME-SYNTHESIS_V1.md`; `analysis/US-BROAD-PUBLIC-SYSTEMS-SOURCE-LED-SUBTHEME-MAP_V1.md` | When does private pressure or perceived injustice become organizing, protest, voting, lobbying, public demand, institutional response, capture, or withdrawal? |
+| Firm, sector, and market power | `analysis/US-BROAD-FIRM-SECTOR-MARKET-POWER-SOURCE-LED-SUBTHEME-MAP_V1.md`; `analysis/US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md` | How do customers, workers, firms, and communities experience consolidation, pricing, switching, investment, ownership ties, and risk transfer? |
 
 ## Research-to-discussion bridge
 

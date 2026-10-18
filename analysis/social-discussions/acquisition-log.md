@@ -129,6 +129,20 @@ findings/unequal-exposure-status-wave-003.md.
 
 This wave is a bounded signal set, not representative cross-platform evidence.
 
+The ninth Wave 003 topic is firm, sector, and market power. Three usable
+public items were normalized in records/firm-market-power-linkedin-001.json
+through records/firm-market-power-x-001.json, and the topic synthesis is in
+findings/firm-sector-market-power-wave-003.md.
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | software renewal price increase switching costs 2026 | A public business account described a large renewal increase, costly migration, and a later retention offer; normalized in records/firm-market-power-linkedin-001.json. | Single account and selected audience; no market-wide switching measure. |
+| Reddit | consolidation monopoly prices competition antitrust 2026 | A public policy thread debated merger limits, efficiency, prices, work, and antitrust legitimacy; normalized in records/firm-market-power-reddit-001.json. | Self-selected discussion and argument, not market evidence. |
+| X | AI antitrust board overlaps competition 2026 | An X trending summary framed overlapping boards and venture ties as a possible AI competition issue; normalized in records/firm-market-power-x-001.json. | Platform summary; no final legal finding or direct post sample. |
+| YouTube | monopoly consolidation pricing consumer competition 2026 | No reproducible, clearly relevant public item was retained in the restricted search. | Recorded as a platform gap; no substitute source was silently used. |
+
+This wave is a bounded signal set, not representative cross-platform evidence.
+
 The eighth Wave 003 topic is political judgment and collective action. Three
 usable public items were normalized in records/political-action-linkedin-001.json
 through records/political-action-x-001.json, and the topic synthesis is in
