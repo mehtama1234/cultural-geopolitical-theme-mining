@@ -1,5 +1,17 @@
 # US broad program next-pass queue v1
 
+**Latest energy-transition rotation — 2026-10-18:** the [energy transition,
+household affordability, and public legitimacy audit](projects/cross-domain/energy-transition-affordability-household-legitimacy-audit-v1.md)
+joins IEA investment and household-cost evidence, World Energy Council integration
+constraints, Ipsos and Eurobarometer attitudes, EIA household framing, Census
+SIPP financial-room and food-sacrifice screens, extreme-heat exposure, Solar for
+All, and bounded LinkedIn discussion. The evidence supports a capital-to-household
+conversion gap: electricity investment, AI demand, and clean-energy policy do not
+automatically become affordable, reliable, controllable household service or
+durable legitimacy. Next: follow one place or program through eligibility,
+connection, monthly bill, outage/cooling exposure, household tradeoff,
+continuation, and remedy, while tracing who pays for large-load grid upgrades.
+
 **Latest water-infrastructure rotation — 2026-10-18:** the [water
 infrastructure, funding access, household service, and health audit](projects/cross-domain/water-infrastructure-funding-household-service-audit-v1.md)
 joins NBER water-quality and mortality evidence, GAO rural and Tribal funding
