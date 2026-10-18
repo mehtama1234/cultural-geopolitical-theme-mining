@@ -45571,8 +45571,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Text invitations can speed survey response, but access and consent differ across groups",
       "geography": "United States; nationally representative Census Household Panel members and approximately 10,000 May 2024 topical respondents",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -45604,7 +45604,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-housing-wealth-womens-labor-supply-childcare-2026",
@@ -45612,8 +45612,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Housing wealth can change women's labor supply through childcare and human-capital choices",
       "geography": "United States; homeowners and county housing-market exposure, with household-level labor outcomes",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -45645,7 +45645,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-ai-work-task-time-savings-2026",
@@ -45653,8 +45653,8 @@
       "canonical_theme": "ai-work-control",
       "title": "AI at work is becoming ordinary, but its time gains and practical access are unevenly distributed",
       "geography": "United States; workers using AI on the job, with education, sex, and age comparisons",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -45686,7 +45686,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-arts-cultural-participation-2026",
@@ -45694,8 +45694,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Recent arts participation is common but unevenly distributed across age and local cultural opportunity",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -45727,7 +45727,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-arts-loneliness-income-2026",
@@ -45735,8 +45735,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Cultural participation and loneliness show sharply unequal income gradients in the same U.S. pulse survey",
       "geography": "United States; adults age 18 and older living in housing units",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -45768,7 +45768,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-arts-participation-community-supply-2026",
@@ -45776,8 +45776,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Arts participation is a minority routine with a larger perceived local-supply base, creating a cultural access and conversion gap",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -45809,7 +45809,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-arts-production-local-opportunity-2026",
@@ -45817,8 +45817,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Recent personal art-making is age-patterned while perceived local cultural opportunity is income-patterned",
       "geography": "United States; adults age 18 and older living in housing units",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -45850,7 +45850,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-autonomous-features-2026",
@@ -45858,8 +45858,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Autonomous driving features are already part of reported everyday mobility for a large share of adults",
       "geography": "United States adults age 18 and older",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -45891,7 +45891,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-hps-material-trust-crosswave-2026",
@@ -45899,8 +45899,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Census pulse snapshots show which household-pressure and trust measures move together across 2026",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -45932,7 +45932,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-hps-material-trust-july-2026",
@@ -45940,8 +45940,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Current household pressure and institutional trust coexist in the July 2026 Census pulse",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -45973,7 +45973,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-july-expense-trust-cross-tab-2026",
@@ -45981,8 +45981,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "July 2026 expense difficulty and institution-specific confidence diverge by group",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46014,7 +46014,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-july-material-social-authority-same-respondent-2026",
@@ -46022,8 +46022,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "July HTOPS links expense difficulty to social support, food security, and specialized authority within respondents",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46055,7 +46055,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-material-trust-panel-april-june-2025",
@@ -46063,8 +46063,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Linked HTOPS respondents show material and institutional measures changing on different paths",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46096,7 +46096,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-social-connection-expense-march-2026",
@@ -46104,8 +46104,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Household expense difficulty tracks loneliness and support gaps more than contact frequency",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46137,7 +46137,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-htops-social-support-community-authority-2026",
@@ -46145,8 +46145,8 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "HTOPS shows age-structured social support, participation, and domain-specific authority",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46178,7 +46178,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-hud-assistance-employment-earnings-trajectories-2005-2022",
@@ -46186,8 +46186,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Housing assistance and work move together over time, but entry and exit patterns are not a causal welfare estimate",
       "geography": "United States; HUD program participants and low-income ACS comparison groups, with HUD records from 2005–2022 and LEHD earnings records from 2000–2023",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46219,7 +46219,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-hud-lehd-assistance-employment-trajectories-2026",
@@ -46227,8 +46227,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Housing-assistance entry and exit are followed by different employment and earnings trajectories",
       "geography": "United States; HUD program participants linked to employee-employer earnings records through Census LEHD infrastructure",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46260,7 +46260,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-immigrant-student-firm-placement-2001-2020",
@@ -46268,8 +46268,8 @@
       "canonical_theme": "unequal-exposure-status",
       "title": "Immigrant college students sort toward both very large and very small firms through different routes",
       "geography": "United States college students in 2000 followed through 2001-2020 employment records",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46301,7 +46301,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-immigration-enforcement-victim-reporting-public-safety-2026",
@@ -46309,8 +46309,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Enforcement fear can reduce victim reporting while reported crime stays flat",
       "geography": "United States; immigrant communities, Hispanic victims, local law-enforcement jurisdictions, and policy rollout periods",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46342,7 +46342,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-incentive-payment-preferences-digital-cash-2026",
@@ -46350,8 +46350,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Digital incentives are preferred by most people, but physical cash remains important for a smaller lower-income group",
       "geography": "United States; large nonprobability survey of adults",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46383,7 +46383,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-income-poverty-health-insurance-2025",
@@ -46391,8 +46391,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Census 2025 income, poverty, and insurance measures move on different household-security clocks",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46424,7 +46424,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-irs-child-tax-credit-participation-dollar-gap-2021",
@@ -46432,8 +46432,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "A family can count as a participating taxpayer while some eligible credit dollars remain unclaimed",
       "geography": "United States; national estimates for eligible tax units/taxpayers and eligible CTC/ACTC dollars",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46465,7 +46465,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-lehd-founder-background-hiring-homophily-2026",
@@ -46473,8 +46473,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Who gets hired into a new firm can reflect who founded it",
       "geography": "United States; primary LEHD analysis covers 30 states and the District of Columbia, with industry, metropolitan-area, and founding-cohort comparisons",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46506,7 +46506,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-local-demand-shocks-employment-migration-2026",
@@ -46514,8 +46514,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "The measured shock changes the measured story of local employment and migration",
       "geography": "United States commuting zones",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46547,7 +46547,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-manufacturing-misallocation-margin-input-mix-2026",
@@ -46555,8 +46555,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Manufacturing misallocation can rise through both margin and input-mix differences, with decline concentrated in a few industries",
       "geography": "United States manufacturing industries and plants over the last several decades represented in the study's establishment data",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -46588,7 +46588,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-census-medicaid-acs-question-content-test-cms-measurement-2022",

@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0045",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "us-census-household-panel-text-consent-response-2024",
+    "us-census-housing-wealth-womens-labor-supply-childcare-2026",
+    "us-census-htops-ai-work-task-time-savings-2026",
+    "us-census-htops-arts-cultural-participation-2026",
+    "us-census-htops-arts-loneliness-income-2026",
+    "us-census-htops-arts-participation-community-supply-2026",
+    "us-census-htops-arts-production-local-opportunity-2026",
+    "us-census-htops-autonomous-features-2026",
+    "us-census-htops-hps-material-trust-crosswave-2026",
+    "us-census-htops-hps-material-trust-july-2026",
+    "us-census-htops-july-expense-trust-cross-tab-2026",
+    "us-census-htops-july-material-social-authority-same-respondent-2026",
+    "us-census-htops-material-trust-panel-april-june-2025",
+    "us-census-htops-social-connection-expense-march-2026",
+    "us-census-htops-social-support-community-authority-2026",
+    "us-census-hud-assistance-employment-earnings-trajectories-2005-2022",
+    "us-census-hud-lehd-assistance-employment-trajectories-2026",
+    "us-census-immigrant-student-firm-placement-2001-2020",
+    "us-census-immigration-enforcement-victim-reporting-public-safety-2026",
+    "us-census-incentive-payment-preferences-digital-cash-2026",
+    "us-census-income-poverty-health-insurance-2025",
+    "us-census-irs-child-tax-credit-participation-dollar-gap-2021",
+    "us-census-lehd-founder-background-hiring-homophily-2026",
+    "us-census-local-demand-shocks-employment-migration-2026",
+    "us-census-manufacturing-misallocation-margin-input-mix-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-census-household-panel-text-consent-response-2024",
+      "atlas_record_path": "analysis/records/us-census-household-panel-text-consent-response-2024.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Text invitations can speed survey response, but access and consent differ across groups",
+      "geography": "United States; nationally representative Census Household Panel members and approximately 10,000 May 2024 topical respondents",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "text invitations can speed survey response but access consent differ across groups public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "text invitations can speed survey response but access consent differ across groups public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "text invitations can speed survey response but access consent differ across groups public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "text invitations can speed survey response but access consent differ across groups public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-housing-wealth-womens-labor-supply-childcare-2026",
+      "atlas_record_path": "analysis/records/us-census-housing-wealth-womens-labor-supply-childcare-2026.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Housing wealth can change women's labor supply through childcare and human-capital choices",
+      "geography": "United States; homeowners and county housing-market exposure, with household-level labor outcomes",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "housing wealth can change women's labor supply through childcare human-capital choices census housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "housing wealth can change women's labor supply through childcare human-capital choices census housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "housing wealth can change women's labor supply through childcare human-capital choices census housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "housing wealth can change women's labor supply through childcare human-capital choices census housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-ai-work-task-time-savings-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-ai-work-task-time-savings-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "AI at work is becoming ordinary, but its time gains and practical access are unevenly distributed",
+      "geography": "United States; workers using AI on the job, with education, sex, and age comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "work becoming ordinary but its time gains practical access are unevenly distributed ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "work becoming ordinary but its time gains practical access are unevenly distributed ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "work becoming ordinary but its time gains practical access are unevenly distributed ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "work becoming ordinary but its time gains practical access are unevenly distributed ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-arts-cultural-participation-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-arts-cultural-participation-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Recent arts participation is common but unevenly distributed across age and local cultural opportunity",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "recent arts participation common but unevenly distributed across age local cultural opportunity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "recent arts participation common but unevenly distributed across age local cultural opportunity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "recent arts participation common but unevenly distributed across age local cultural opportunity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "recent arts participation common but unevenly distributed across age local cultural opportunity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-arts-loneliness-income-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-arts-loneliness-income-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Cultural participation and loneliness show sharply unequal income gradients in the same U.S. pulse survey",
+      "geography": "United States; adults age 18 and older living in housing units",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "cultural participation loneliness show sharply unequal income gradients same pulse survey census trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "cultural participation loneliness show sharply unequal income gradients same pulse survey census trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "cultural participation loneliness show sharply unequal income gradients same pulse survey census trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "cultural participation loneliness show sharply unequal income gradients same pulse survey census trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-arts-participation-community-supply-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-arts-participation-community-supply-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Arts participation is a minority routine with a larger perceived local-supply base, creating a cultural access and conversion gap",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "arts participation minority routine larger perceived local-supply base creating cultural access conversion trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "arts participation minority routine larger perceived local-supply base creating cultural access conversion trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "arts participation minority routine larger perceived local-supply base creating cultural access conversion trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "arts participation minority routine larger perceived local-supply base creating cultural access conversion trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-arts-production-local-opportunity-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-arts-production-local-opportunity-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Recent personal art-making is age-patterned while perceived local cultural opportunity is income-patterned",
+      "geography": "United States; adults age 18 and older living in housing units",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "recent personal art-making age-patterned while perceived local cultural opportunity income-patterned census bureau trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "recent personal art-making age-patterned while perceived local cultural opportunity income-patterned census bureau trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "recent personal art-making age-patterned while perceived local cultural opportunity income-patterned census bureau trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "recent personal art-making age-patterned while perceived local cultural opportunity income-patterned census bureau trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-autonomous-features-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-autonomous-features-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Autonomous driving features are already part of reported everyday mobility for a large share of adults",
+      "geography": "United States adults age 18 and older",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "autonomous driving features are already part reported everyday mobility large share adults infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "autonomous driving features are already part reported everyday mobility large share adults infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "autonomous driving features are already part reported everyday mobility large share adults infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "autonomous driving features are already part reported everyday mobility large share adults infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-hps-material-trust-crosswave-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-hps-material-trust-crosswave-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Census pulse snapshots show which household-pressure and trust measures move together across 2026",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "census pulse snapshots show which household-pressure trust measures move together across bureau household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "census pulse snapshots show which household-pressure trust measures move together across bureau household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "census pulse snapshots show which household-pressure trust measures move together across bureau household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "census pulse snapshots show which household-pressure trust measures move together across bureau household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-hps-material-trust-july-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-hps-material-trust-july-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Current household pressure and institutional trust coexist in the July 2026 Census pulse",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "current household pressure institutional trust coexist july census pulse bureau htops hps household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "current household pressure institutional trust coexist july census pulse bureau htops hps household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "current household pressure institutional trust coexist july census pulse bureau htops hps household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "current household pressure institutional trust coexist july census pulse bureau htops hps household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-july-expense-trust-cross-tab-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-july-expense-trust-cross-tab-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "July 2026 expense difficulty and institution-specific confidence diverge by group",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "july expense difficulty institution-specific confidence diverge group census bureau htops hps public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "july expense difficulty institution-specific confidence diverge group census bureau htops hps public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "july expense difficulty institution-specific confidence diverge group census bureau htops hps public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "july expense difficulty institution-specific confidence diverge group census bureau htops hps public-use household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-july-material-social-authority-same-respondent-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-july-material-social-authority-same-respondent-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "July HTOPS links expense difficulty to social support, food security, and specialized authority within respondents",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "july htops links expense difficulty social support food security specialized authority within household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "july htops links expense difficulty social support food security specialized authority within household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "july htops links expense difficulty social support food security specialized authority within household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "july htops links expense difficulty social support food security specialized authority within household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-material-trust-panel-april-june-2025",
+      "atlas_record_path": "analysis/records/us-census-htops-material-trust-panel-april-june-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Linked HTOPS respondents show material and institutional measures changing on different paths",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "linked htops respondents show material institutional measures changing different paths census bureau household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "linked htops respondents show material institutional measures changing different paths census bureau household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "linked htops respondents show material institutional measures changing different paths census bureau household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "linked htops respondents show material institutional measures changing different paths census bureau household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-social-connection-expense-march-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-social-connection-expense-march-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Household expense difficulty tracks loneliness and support gaps more than contact frequency",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household expense difficulty tracks loneliness support gaps more than contact frequency census household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household expense difficulty tracks loneliness support gaps more than contact frequency census household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household expense difficulty tracks loneliness support gaps more than contact frequency census household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household expense difficulty tracks loneliness support gaps more than contact frequency census household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-htops-social-support-community-authority-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-social-support-community-authority-2026.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "HTOPS shows age-structured social support, participation, and domain-specific authority",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "htops shows age-structured social support participation domain-specific authority census bureau household trends time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "htops shows age-structured social support participation domain-specific authority census bureau household trends time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "htops shows age-structured social support participation domain-specific authority census bureau household trends time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "htops shows age-structured social support participation domain-specific authority census bureau household trends time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-hud-assistance-employment-earnings-trajectories-2005-2022",
+      "atlas_record_path": "analysis/records/us-census-hud-assistance-employment-earnings-trajectories-2005-2022.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Housing assistance and work move together over time, but entry and exit patterns are not a causal welfare estimate",
+      "geography": "United States; HUD program participants and low-income ACS comparison groups, with HUD records from 2005–2022 and LEHD earnings records from 2000–2023",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "housing assistance work move together over time but entry exit patterns are housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "housing assistance work move together over time but entry exit patterns are housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "housing assistance work move together over time but entry exit patterns are housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "housing assistance work move together over time but entry exit patterns are housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-hud-lehd-assistance-employment-trajectories-2026",
+      "atlas_record_path": "analysis/records/us-census-hud-lehd-assistance-employment-trajectories-2026.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Housing-assistance entry and exit are followed by different employment and earnings trajectories",
+      "geography": "United States; HUD program participants linked to employee-employer earnings records through Census LEHD infrastructure",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "housing-assistance entry exit are followed different employment earnings trajectories census ces working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "housing-assistance entry exit are followed different employment earnings trajectories census ces working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "housing-assistance entry exit are followed different employment earnings trajectories census ces working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "housing-assistance entry exit are followed different employment earnings trajectories census ces working housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-immigrant-student-firm-placement-2001-2020",
+      "atlas_record_path": "analysis/records/us-census-immigrant-student-firm-placement-2001-2020.json",
+      "canonical_theme": "unequal-exposure-status",
+      "title": "Immigrant college students sort toward both very large and very small firms through different routes",
+      "geography": "United States college students in 2000 followed through 2001-2020 employment records",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "immigrant college students sort toward both very large small firms through different unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "immigrant college students sort toward both very large small firms through different unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "immigrant college students sort toward both very large small firms through different unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "immigrant college students sort toward both very large small firms through different unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-immigration-enforcement-victim-reporting-public-safety-2026",
+      "atlas_record_path": "analysis/records/us-census-immigration-enforcement-victim-reporting-public-safety-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Enforcement fear can reduce victim reporting while reported crime stays flat",
+      "geography": "United States; immigrant communities, Hispanic victims, local law-enforcement jurisdictions, and policy rollout periods",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "enforcement fear can reduce victim reporting while reported crime stays flat census trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "enforcement fear can reduce victim reporting while reported crime stays flat census trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "enforcement fear can reduce victim reporting while reported crime stays flat census trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "enforcement fear can reduce victim reporting while reported crime stays flat census trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-incentive-payment-preferences-digital-cash-2026",
+      "atlas_record_path": "analysis/records/us-census-incentive-payment-preferences-digital-cash-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Digital incentives are preferred by most people, but physical cash remains important for a smaller lower-income group",
+      "geography": "United States; large nonprobability survey of adults",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "digital incentives are preferred most people but physical cash remains important smaller consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "digital incentives are preferred most people but physical cash remains important smaller consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "digital incentives are preferred most people but physical cash remains important smaller consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "digital incentives are preferred most people but physical cash remains important smaller consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-income-poverty-health-insurance-2025",
+      "atlas_record_path": "analysis/records/us-census-income-poverty-health-insurance-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Census 2025 income, poverty, and insurance measures move on different household-security clocks",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "census income poverty insurance measures move different household-security clocks current population survey household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "census income poverty insurance measures move different household-security clocks current population survey household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "census income poverty insurance measures move different household-security clocks current population survey household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "census income poverty insurance measures move different household-security clocks current population survey household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-irs-child-tax-credit-participation-dollar-gap-2021",
+      "atlas_record_path": "analysis/records/us-census-irs-child-tax-credit-participation-dollar-gap-2021.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "A family can count as a participating taxpayer while some eligible credit dollars remain unclaimed",
+      "geography": "United States; national estimates for eligible tax units/taxpayers and eligible CTC/ACTC dollars",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "family can count participating taxpayer while some eligible credit dollars remain unclaimed public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "family can count participating taxpayer while some eligible credit dollars remain unclaimed public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "family can count participating taxpayer while some eligible credit dollars remain unclaimed public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "family can count participating taxpayer while some eligible credit dollars remain unclaimed public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-lehd-founder-background-hiring-homophily-2026",
+      "atlas_record_path": "analysis/records/us-census-lehd-founder-background-hiring-homophily-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Who gets hired into a new firm can reflect who founded it",
+      "geography": "United States; primary LEHD analysis covers 30 states and the District of Columbia, with industry, metropolitan-area, and founding-cohort comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "who gets hired into new firm can reflect founded ces-26-45 study using ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "who gets hired into new firm can reflect founded ces-26-45 study using ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "who gets hired into new firm can reflect founded ces-26-45 study using ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "who gets hired into new firm can reflect founded ces-26-45 study using ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-local-demand-shocks-employment-migration-2026",
+      "atlas_record_path": "analysis/records/us-census-local-demand-shocks-employment-migration-2026.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "The measured shock changes the measured story of local employment and migration",
+      "geography": "United States commuting zones",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "measured shock changes story local employment migration census bureau center economic studies housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "measured shock changes story local employment migration census bureau center economic studies housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "measured shock changes story local employment migration census bureau center economic studies housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "measured shock changes story local employment migration census bureau center economic studies housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-manufacturing-misallocation-margin-input-mix-2026",
+      "atlas_record_path": "analysis/records/us-census-manufacturing-misallocation-margin-input-mix-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Manufacturing misallocation can rise through both margin and input-mix differences, with decline concentrated in a few industries",
+      "geography": "United States manufacturing industries and plants over the last several decades represented in the study's establishment data",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0045",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
