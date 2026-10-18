@@ -126,6 +126,12 @@ opened a route for reporting missing or failed removal processes. It makes
 platform failure more contestable without proving individual removal,
 recurrence prevention, survivor safety, or practical exit.
 
+The [AI adoption, agency, control, and exit conversion bridge](ai-adoption-agency-exit-control-conversion-bridge-v1.md)
+extends the lane across EU adoption, Swedish verification and digital-boundary
+behavior, Stanford capability and incident measures, agentic commerce, ILO
+workplace autonomy, and companion exit. It keeps use, capability, control,
+reversibility, and exit separate.
+
 ## First working idea
 
 The important product feature may be the user's ability to leave. A tool can be useful and still make exit costly by using personal knowledge, social pressure, or repeated prompts. This is a working idea, not a conclusion.
