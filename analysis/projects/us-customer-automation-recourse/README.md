@@ -159,6 +159,11 @@ termination, late fees, capitalized interest, overstated minimum payments, and
 incomplete co-signer notices. The CFPB ordered restitution and servicing
 controls, but public implementation and borrower-level recovery remain open.
 
+The [automation speed, remedy, portability, and practical exit bridge](automation-speed-remedy-portability-exit-bridge-v1.md)
+adds HBS customer-service evidence, household fraud and recovery measures, CFPB
+visibility changes, FTC refund distribution, Australia portability quality, and
+bounded public escalation and human-fallback discussion.
+
 ## Scope
 
 - US customers and firms;
