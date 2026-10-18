@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0054-institutional-confidence-linkedin-001",
+  "atlas_record_ids": ["us-gallup-institutional-confidence-2026"],
+  "topic": "political-judgment-collective-action",
+  "platform": "linkedin",
+  "item_type": "institutional_interpretation_and_reply_discussion",
+  "author_or_account": "Gallup",
+  "title": "Confidence in U.S. Institutions Remains Near All-Time Low",
+  "canonical_url": "https://www.linkedin.com/posts/gallup_confidence-in-us-institutions-remains-near-activity-7483933442947080193-ms7a",
+  "published_window": "2026-08",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "Gallup’s post frames low institutional confidence as broad but uneven: small business and the military remain relatively trusted while partisan gaps have widened across other institutions. The transcript and discussion add a question of whether legitimacy is institution-specific rather than a uniform collapse.",
+  "research_anchor_paths": ["analysis/records/us-gallup-institutional-confidence-2026.json"],
+  "linked_research_question": "How do public and professional discussions interpret historically low institutional confidence, partisan divergence, and the exceptions that retain legitimacy?",
+  "classification": ["institutional_interpretation", "reply_discussion", "institutional-trust", "partisan-divergence", "legitimacy"],
+  "limits": ["Institutional post and transcript are not a new survey sample", "Selected comments are not representative public opinion", "Confidence measures do not establish institutional performance or causal explanations", "Public search discovery is not a platform-native Creator/API export"]
+}
