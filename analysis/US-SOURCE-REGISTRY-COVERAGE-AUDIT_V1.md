@@ -283,6 +283,7 @@ without a recurring acquisition need and source-specific metadata.
 | `bcg.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `btq-kassel.de` | case-specific institution | Retain as a cited interview/organization record; promote only if a maintained recurring evidence series is acquired. |
 | `insee.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nature.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `recovery.lacounty.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `creative.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -302,10 +303,10 @@ without a recurring acquisition need and source-specific metadata.
 | `ikea.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `kam.lt` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `lacounty.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `monitor.kantar.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nisrf.nato.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nlc.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `resources.ipsos.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `scp.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unu.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -326,11 +327,11 @@ without a recurring acquisition need and source-specific metadata.
 | `mospi.gov.in` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `psa.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pwc.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ssb.no` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `static.cninfo.com.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `transportation.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `umass.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `x.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `accc.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `athenalab.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cppa.ca.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -354,7 +355,6 @@ without a recurring acquisition need and source-specific metadata.
 | `uis.unesco.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ustr.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wfp.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `x.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aarp.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `american.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bps.go.id` | unclassified review candidate | Requires manual review before promotion or exclusion. |
