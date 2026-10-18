@@ -11,3 +11,9 @@ null primary engagement effects but some secondary or later academic gains.
 
 See the [initial finding](findings/us-nber-chicago-remote-learning-engagement-rcts-2026-001.md)
 and the [machine-readable record](../../records/us-nber-chicago-remote-learning-engagement-rcts-2026.json).
+
+The [Young Futures to realized outcome bridge](young-futures-to-realized-outcome-bridge-v1.md)
+connects this randomized take-up and later-outcome evidence to the eight-site
+Young Futures Hubs implementation evaluation. It keeps registration, use,
+attendance, referral, immediate experience, later outcome, and durability as
+separate stages.
