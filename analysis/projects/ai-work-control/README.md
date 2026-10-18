@@ -8,6 +8,11 @@ record does not establish durable worker control or household welfare. It is a
 comparison layer for separating stated purpose, experienced meaning, firm
 performance, worker exit, and practical autonomy.
 
+The [formal worker voice to practical control bridge](formal-worker-voice-practical-control-remedy-bridge-v1.md)
+connects AI-management exposure, worker requests, NLRB administrative activity,
+ILO platform-work rights, and remedy. It keeps formal voice, employer response,
+maintained control, worker outcomes, and exit separate.
+
 The current remedy synthesis, [Remedy spectrum: from explanation to collective
 control](remedy-spectrum-cross-domain-synthesis-v1.md), compares judicial
 disclosure, worker appeals, statutory review, institutional mediation,
