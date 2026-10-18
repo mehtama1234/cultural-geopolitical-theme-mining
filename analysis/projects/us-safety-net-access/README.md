@@ -217,3 +217,10 @@ The [SNAP sugary-drink restriction finding](findings/us-safety-net-access-027.md
 adds a short-run consumer-behavior and meaning result: excluded-drink
 purchases fell while SNAP recipients reported more stigma. Modeled health
 benefits and long-run food security remain open.
+
+The [digital access, service completion, and remedy bridge](digital-access-service-completion-remedy-bridge-v1.md)
+adds a cross-source usability layer across disability access, rural/device
+gaps, digital government, AI oversight, data portability, and employment
+services. It keeps connectivity, task completion, continuity, correction, and
+trust separate and defines the episode-level ledger needed to test the missing
+middle.
