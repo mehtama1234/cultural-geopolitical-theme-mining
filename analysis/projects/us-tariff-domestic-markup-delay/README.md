@@ -15,3 +15,10 @@ The consumer effect of a trade policy may last longer than the first shelf-price
 ## Decision rule
 
 Move on after one direct price measure, one delayed domestic response, and one household basket measure. Do not call the first price change the full cost of a tariff.
+
+The [trade policy, firm adaptation, household cost, and political conversion
+bridge](trade-policy-firm-household-political-conversion-bridge-v1.md) extends
+the route through export-control spillovers, transaction-scale incidence,
+delayed domestic markups, consumer value judgments, and political attribution.
+It keeps policy cost, firm response, household behavior, and political meaning
+as separate stages.
