@@ -302,6 +302,7 @@ without a recurring acquisition need and source-specific metadata.
 | `ikea.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `kam.lt` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `lacounty.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `monitor.kantar.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nisrf.nato.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nlc.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -320,12 +321,12 @@ without a recurring acquisition need and source-specific metadata.
 | `edelman.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ifs.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ifstudies.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mcst.go.kr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `migrationpolicy.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mospi.gov.in` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `psa.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pwc.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ssb.no` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `static.cninfo.com.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `transportation.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -346,7 +347,6 @@ without a recurring acquisition need and source-specific metadata.
 | `newsroom.pinterest.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nim.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `publicfirst.co.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rm.coe.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `salzburgglobal.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `support.sayrhino.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
@@ -354,6 +354,7 @@ without a recurring acquisition need and source-specific metadata.
 | `uis.unesco.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ustr.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wfp.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `x.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aarp.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `american.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bps.go.id` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -381,7 +382,6 @@ without a recurring acquisition need and source-specific metadata.
 | `ucl.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unfccc.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wmo.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `x.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aiglobal.publicfirst.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `apnews.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `blog.nextdoor.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -590,6 +590,7 @@ without a recurring acquisition need and source-specific metadata.
 | `worldenergy.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `worldgovernmentssummit.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wppmedia.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `youtube.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `about.fb.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `accenture.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `afro.who.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -667,7 +668,6 @@ without a recurring acquisition need and source-specific metadata.
 | `weizenbaum-institut.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `weltrisikobericht.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `whale-caper-tzm3.squarespace.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `youtube.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aam-us.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `acm.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aeaweb.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |

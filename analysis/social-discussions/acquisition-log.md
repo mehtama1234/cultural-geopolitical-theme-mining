@@ -85,6 +85,18 @@ rotation moves to the remaining atlas themes and should revisit these topics
 with different groups, places, and open arrows rather than treating Wave 002
 as complete coverage.
 
+The first Wave 003 topic is household room and consumption. Four public items
+were normalized in records/household-room-001.json through
+records/household-room-004.json, and the topic synthesis is in
+findings/household-room-consumption-wave-003.md.
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | household costs inflation debt savings consumer 2026 | A public post translated price and debt data into trading down, delayed purchases, and credit use; normalized in records/household-room-001.json. | Research relay and selected professional audience. |
+| Reddit | household debt groceries bills 2026 | A public economics thread debated whether debt is financing essentials, reflecting distress, or being misread; normalized in records/household-room-002.json. | Self-selected community and mixed sourced/personal claims. |
+| YouTube | American household cost of living debt savings 2026 | A public finance video connected income, spending, debt, housing, and retirement; normalized in records/household-room-003.json. | Creator framing and metadata are not a household panel. |
+| X | US cash savings cost of living 2026 | An X trending summary discussed low cash savings and spending for essentials/emergencies; normalized in records/household-room-004.json. | Platform summary; underlying survey and posts require verification. |
+
 Repeat the same protocol for platform attention/exit and AI companionship/trust,
 then run a dedicated X pass through directly accessible public URLs or an
 authorized API if available. Store the query, date, and failure mode even when

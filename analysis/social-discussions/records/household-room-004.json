@@ -1,0 +1,17 @@
+{
+  "record_id": "social-household-room-x-001",
+  "topic": "household-room-consumption",
+  "platform": "x",
+  "item_type": "platform_summary_of_economic_discussion",
+  "author_or_account": "X trending summary (underlying posts not individually exposed)",
+  "title": "Cash savings and cost-of-living pressure",
+  "canonical_url": "https://x.com/i/trending/2044265870206333144?lang=en",
+  "published_window": "2026-04-15 (X trending summary)",
+  "retrieved": "2026-10-17",
+  "discussion_signal": "The X summary presents survey-based discussion about low cash savings, cost-of-living pressure, and households using savings for food or emergencies. It also highlights differences by income, while warning that the page is a summary of posts.",
+  "research_anchor_paths": ["analysis/US-BROAD-HOUSEHOLD-ROOM-CONSUMPTION-SOURCE-LED-SUBTHEME-MAP_V1.md", "analysis/US-BROAD-UNEQUAL-EXPOSURE-STATUS-SOURCE-LED-SUBTHEME-MAP_V1.md"],
+  "linked_research_question": "How low liquid buffers change household exposure to ordinary shocks and create unequal capacity to delay, borrow, or recover.",
+  "classification": ["platform_summary", "household_pressure", "unequal_exposure", "countervailing_concern"],
+  "engagement": null,
+  "limits": ["X-generated summary, not a direct post sample", "Underlying survey and posts require primary-source verification", "Summary does not show household-level spending or recovery outcomes"]
+}
