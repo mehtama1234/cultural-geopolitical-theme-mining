@@ -20,3 +20,8 @@ A platform can be both the market gate and the maker of the information used in 
 ## Decision rule
 
 Move on after one platform data rule, one seller or price result, and one customer-welfare measure. Do not call equal access good or bad without checking both competition and data supply.
+
+The [firm platform adoption, worker control, customer conversion, and exit bridge](firm-platform-adoption-worker-control-conversion-bridge-v1.md)
+extends the model with firm-size training and discovery gaps, small-business
+capacity, worker-level AI task adoption, and bounded switching and non-use
+discussion.
