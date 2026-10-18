@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-gallup-microsoft-ai-linkedin-001",
+  "atlas_record_ids": ["comparative-gallup-microsoft-global-ai-adoption-optimism-trust-2026"],
+  "topic": "ai-work-control",
+  "platform": "linkedin",
+  "item_type": "global_survey_discussion",
+  "author_or_account": "Dan Foy",
+  "title": "Global AI optimism despite uneven use and trust",
+  "canonical_url": "https://www.linkedin.com/posts/dan-foy_ai-optimism-globally-widespread-despite-uneven-activity-7509357984062394368-ePl_",
+  "published_window": "2026-10-10",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post describes widespread positive emotion toward AI alongside uneven daily use and country differences in worry and distrust. It explicitly cautions that the observed relationship between use frequency and lower worry is not causal, preserving the atlas’s adoption-versus-trust distinction.",
+  "research_anchor_paths": ["analysis/records/comparative-gallup-microsoft-global-ai-adoption-optimism-trust-2026.json"],
+  "linked_research_question": "How do global AI adoption, optimism, worry, and trust vary across countries and work contexts?",
+  "classification": ["survey_discussion", "AI_adoption", "optimism", "causal_limit"],
+  "limits": ["Post covers an initial tranche rather than the full global release", "Survey results are summarized rather than independently reanalyzed", "Author explicitly says the use-worry relationship is not causal"]
+}
