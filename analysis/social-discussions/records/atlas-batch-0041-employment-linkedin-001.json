@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0041-employment-linkedin-001",
+  "atlas_record_ids": ["us-bls-employment-situation-2026-august"],
+  "topic": "labor-mobility-workplace-control",
+  "platform": "linkedin",
+  "item_type": "official_statistic_and_professional_interpretation",
+  "author_or_account": "Brian Evans MPM",
+  "title": "Labor Market Signals Over Scores: BLS Update",
+  "canonical_url": "https://www.linkedin.com/posts/bde2_the-employment-situation-august-2026-activity-7475597081689358336-I6UJ",
+  "published_window": "2026-08",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post argues that one month of payrolls or unemployment can obscure labor-market friction, and recommends reading participation, hours, wages, and durable demand together. The audience reaction reinforces a preference for trend and multi-indicator interpretation over a single headline score.",
+  "research_anchor_paths": ["analysis/records/us-bls-employment-situation-2026-august.json"],
+  "linked_research_question": "How do headline employment indicators differ from the lived stability, opportunity, and bargaining conditions experienced by workers?",
+  "classification": ["labor_market", "professional_interpretation", "measurement_distinction", "audience_reaction"],
+  "limits": ["This is professional commentary rather than a representative worker sample", "One post cannot establish labor-market causality", "The interpretation may selectively emphasize friction indicators"]
+}

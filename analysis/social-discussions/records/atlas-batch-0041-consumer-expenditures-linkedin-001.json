@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0041-consumer-expenditures-linkedin-001",
+  "atlas_record_ids": ["us-bls-consumer-expenditures-income-quintile-2024"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "data_interpretation_and_audience_reaction",
+  "author_or_account": "Mike Horrigan",
+  "title": "Vibes versus data: necessities across the income distribution",
+  "canonical_url": "https://www.linkedin.com/posts/jonandrewsgr_great-insights-from-mike-horrigan-i-see-activity-7480259445877538816-cDwo",
+  "published_window": "2026-08",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "Using 2024 Consumer Expenditure Survey data, the post interprets food, shelter, utilities, gasoline, health care, and other necessities as a much larger share of spending for lower-income families. Replies connect these expenditure shares to household strain and health-cost concerns, translating distributional data into lived economic meaning.",
+  "research_anchor_paths": ["analysis/records/us-bls-consumer-expenditures-income-quintile-2024.json"],
+  "linked_research_question": "How do households experience unequal room for choice when essential spending absorbs different shares of income?",
+  "classification": ["distributional_data", "household_burden", "audience_reaction", "economic_meaning"],
+  "limits": ["The post uses selected expenditure groupings and may not reproduce the full CES table", "Average consumer-unit figures do not describe every family", "Audience reactions are not a representative sample"]
+}

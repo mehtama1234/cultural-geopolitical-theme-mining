@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0041-cpi-linkedin-001",
+  "atlas_record_ids": ["us-bls-cpi-2026-august"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "economic_data_interpretation",
+  "author_or_account": "Mathys AUFFRET",
+  "title": "U.S. Inflation Accelerates in August: Energy Prices Drive Headline CPI",
+  "canonical_url": "https://www.linkedin.com/posts/mathys-auffret-71a293303_cpi-us-august-2026-activity-7504181553833410562-AjNT",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post distinguishes headline CPI acceleration from more moderate core inflation and highlights energy, gasoline, shelter, food, and medical-care components. It shows how a statistical release is translated into competing household-cost and policy narratives.",
+  "research_anchor_paths": ["analysis/records/us-bls-cpi-2026-august.json"],
+  "linked_research_question": "How do price changes become different lived burdens and public narratives across household spending categories?",
+  "classification": ["economic_interpretation", "household_cost", "measurement_distinction", "public_narrative"],
+  "limits": ["The post is an individual interpretation of BLS data", "Aggregate CPI does not represent every household's consumption basket", "Narrative emphasis on energy does not establish distributional impact"]
+}
