@@ -15,3 +15,5 @@ experiment, not platform telemetry, a longitudinal switching panel, or a
 causal privacy-behavior estimate.
 
 See the [bounded finding](findings/us-ai-assistant-platform-choice-trust-privacy-2026-001.md).
+
+The current [AI advice, verification, agency, and human fallback bridge](ai-advice-verification-agency-fallback-bridge-v1.md) compares shopping, financial-guidance, platform-choice, and relational-authority evidence while keeping actual decision outcomes, correction, and exit open.
