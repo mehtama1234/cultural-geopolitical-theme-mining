@@ -147,6 +147,10 @@ with federal-government trust and with post-election demand for government help
 paying health-insurance costs. These are same-survey descriptive results, not
 evidence that a medical bill caused distrust or political action.
 
+The [prior-authorization denial, appeal, and care-recovery bridge](prior-authorization-denial-appeal-care-recovery-bridge-v1.md)
+extends the Medicare Advantage SNF finding from formal reversal to the still-
+open admission, substitute-care, recovery, and household-burden stages.
+
 The [CES medical-affordability participation audit](politics-personal-crisis-medical-affordability-participation-audit-v1.md)
 adds a direct same-respondent action surface. Public 2018 and 2020 crisis
 module extracts connect trouble affording medical expenses to validated turnout,
