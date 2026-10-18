@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0046-minimum-wage-robot-linkedin-001",
+  "atlas_record_ids": ["us-census-minimum-wage-robot-adoption-2026"],
+  "topic": "ai-work-control",
+  "platform": "linkedin",
+  "item_type": "research_release_and_counter_signal",
+  "author_or_account": "Erik Brynjolfsson",
+  "title": "Minimum Wage Hike Linked to Rise in Robot Adoption",
+  "canonical_url": "https://www.linkedin.com/posts/erikbrynjolfsson_does-a-higher-minimum-wage-lead-to-more-robots-activity-7434699123595022337-ZeLK",
+  "published_window": "2026-04",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post presents evidence that higher wage floors are associated with more industrial-robot adoption, especially near state borders. Replies add a counter-signal about firm selection and broader capital-cycle conditions, while the discussion explicitly separates technology adoption from unknown worker outcomes.",
+  "research_anchor_paths": ["analysis/records/us-census-minimum-wage-robot-adoption-2026.json"],
+  "linked_research_question": "How do wage floors change firm technology choices, and when does automation alter worker outcomes rather than only production methods?",
+  "classification": ["research_release", "automation", "policy_effect", "counter_signal", "worker_outcome_boundary"],
+  "limits": ["The social post summarizes a research paper rather than reproducing its identification strategy", "Robot adoption is not the same as job loss", "Discussion of general robots extends beyond the study's observed setting"]
+}

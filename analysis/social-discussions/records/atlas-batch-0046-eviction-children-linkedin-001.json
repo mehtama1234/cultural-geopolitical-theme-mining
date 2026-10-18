@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0046-eviction-children-linkedin-001",
+  "atlas_record_ids": ["us-census-nber-eviction-children-housing-school-outcomes-2025"],
+  "topic": "housing-place-mobility",
+  "platform": "linkedin",
+  "item_type": "research_release_and_policy_discussion",
+  "author_or_account": "Yale Tobin Center for Economic Policy",
+  "title": "New study on evictions and children's welfare",
+  "canonical_url": "https://www.linkedin.com/posts/yale-tobin-center_concern-about-childrens-welfare-is-often-activity-7346220440341692418-m7JL",
+  "published_window": "2025-07",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post circulates a study of eviction's causal effects on children's welfare and frames housing displacement as a pathway into educational and developmental disruption. It connects a formal housing event to child outcomes rather than treating eviction as only a residential move.",
+  "research_anchor_paths": ["analysis/records/us-census-nber-eviction-children-housing-school-outcomes-2025.json"],
+  "linked_research_question": "How does eviction convert housing instability into residential, school, and developmental disruption for children?",
+  "classification": ["research_release", "housing_instability", "child_outcomes", "policy_discussion"],
+  "limits": ["The post is a research announcement and does not provide full estimates", "Study context may not generalize to all eviction settings", "A causal estimate for studied outcomes does not establish effects on every dimension of child welfare"]
+}
