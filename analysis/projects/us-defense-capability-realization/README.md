@@ -24,10 +24,13 @@ bounded comparators.
 ## Current bridge
 
 - [Defense procurement to usable capability bridge](defense-procurement-usable-capability-bridge-v1.md)
+- [Poland Barracuda co-production realization bridge](poland-barracuda-coproduction-realization-bridge-v1.md)
 
 ## Next test
 
 Locate an identifier-bearing order, shipment, acceptance, training, maintenance,
-and operational-use record for one system and recipient. Then compare the dated
-capability change with an external actor's observed response. Preserve
-non-observation as a bounded public-source result.
+and operational-use record for one system and recipient. For the Poland route,
+also locate plant commissioning, workforce, component-control, output, and
+regional-delivery evidence. Then compare the dated capability change with an
+external actor's observed response. Preserve non-observation as a bounded
+public-source result.
