@@ -325,11 +325,13 @@
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "welfare opinion not one bloc disability support remains resilient while deservingness political trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-bsa43-welfare-reddit-001"
+          ]
         },
         "linkedin": {
           "status": "not_started",
@@ -347,7 +349,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging",
@@ -407,11 +409,13 @@
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "diary-based time use shows care disability hidden conversion costs free social life time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-abs-time-use-caregiver-reddit-001"
+          ]
         },
         "linkedin": {
           "status": "not_started",
@@ -429,7 +433,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection",
@@ -571,11 +575,13 @@
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "australian household spending held august through transport while recreation culture reversed its household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-abs-spending-august-reddit-001"
+          ]
         },
         "linkedin": {
           "status": "not_started",
@@ -593,7 +599,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "comparative-abs-monthly-household-spending-july-2026-card-culture-volume",
@@ -612,11 +618,13 @@
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "australian household spending rose july while recreation culture outpaced total volume but household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-abs-spending-july-reddit-001"
+          ]
         },
         "linkedin": {
           "status": "not_started",
@@ -634,7 +642,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust",

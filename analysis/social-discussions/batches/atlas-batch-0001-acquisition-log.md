@@ -23,5 +23,14 @@ batch:
 | `au-mansoor-platform-alternative-earnings-remedy-2025` | Australia food delivery minimum standards earnings 2026 | `atlas-au-mansoor-platform-reddit-001` | Policy discussion does not show individual earnings or receipt. |
 | `au-waheed-interim-payment-obligation-2026` | gig worker top-up pay deactivation protection 2026 | `atlas-au-waheed-platform-reddit-001` | Formal obligation, actual payment, and durable access remain separate stages. |
 
+Additional Reddit results closed four more record-level attempts:
+
+| Atlas record | Query family | Retained record | Boundary |
+|---|---|---|---|
+| `bsa43-welfare-deservingness-polarization-2026` | disability benefit support deservingness politics 2026 | `atlas-bsa43-welfare-reddit-001` | UK comparative discussion; report relay and partisan interpretation are not population estimates. |
+| `comparative-abs-australia-time-use-2024-disability-carer-free-time-2026` | caregiver disability free time social life 2026 | `atlas-abs-time-use-caregiver-reddit-001` | One caregiver self-report; no diary or population denominator. |
+| `comparative-abs-monthly-household-spending-july-2026-card-culture-volume` | Australia household spending indicator July 2026 discussion | `atlas-abs-spending-july-reddit-001` | Aggregate spending and household replies do not establish real consumption or financial security. |
+| `comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport` | Australia household spending August 2026 discussion | `atlas-abs-spending-august-reddit-001` | Category growth may coexist with hardship and differing household room. |
+
 The remaining 24 atlas records in batch 0001 remain `in_review`; no record is
 marked terminal merely because one platform produced a usable item.

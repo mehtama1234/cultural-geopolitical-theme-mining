@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-abs-spending-august-reddit-001",
+  "atlas_record_ids": ["comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport"],
+  "topic": "household-room-consumption",
+  "platform": "reddit",
+  "item_type": "research_relay_and_counter_signal",
+  "author_or_account": "AusFinance participants",
+  "title": "Household spending rises for the third month in a row",
+  "canonical_url": "https://www.reddit.com/r/AusFinance/comments/1vzh3m9/household_spending_rises_for_the_third_month_in_a/",
+  "published_window": "2026-08-27",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The discussion relays higher recreation, food, hospitality, and health spending, then questions whether this reflects broad household room, gambling, age composition, or people using savings while feeling pressure. It supplies a counter-signal against reading aggregate growth as universal comfort.",
+  "research_anchor_paths": ["analysis/records/comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport.json", "analysis/US-BROAD-HOUSEHOLD-ROOM-CONSUMPTION-SOURCE-LED-SUBTHEME-MAP_V1.md"],
+  "linked_research_question": "When spending rises, which households are preserving participation, which are drawing down room, and which are excluded from the observed increase?",
+  "classification": ["research_relay", "countervailing_concern", "disagreement", "household_pressure"],
+  "limits": ["Australian comparative discussion and self-selected finance subreddit", "The source report and household composition are not independently reanalyzed", "Replies cannot identify spending prevalence or causal motive"]
+}

@@ -3,8 +3,8 @@
 This is a live control readout, not a completion claim.
 
 - Atlas records: **1,978**
-- Atlas records with at least one exact linked social item: **5**
-- Exact linked social items: **7**
+- Atlas records with at least one exact linked social item: **9**
+- Exact linked social items: **11**
 - Record statuses: `{'in_review': 25, 'queued': 1953}`
 
 ## Platform attempt states
@@ -12,8 +12,8 @@ This is a live control readout, not a completion claim.
 | Platform/status | Rows |
 |---|---:|
 | `linkedin:not_started` | 1,978 |
-| `reddit:augmented` | 5 |
-| `reddit:not_started` | 1,973 |
+| `reddit:augmented` | 9 |
+| `reddit:not_started` | 1,969 |
 | `x:not_started` | 1,978 |
 | `youtube:not_started` | 1,978 |
 

@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-abs-spending-july-reddit-001",
+  "atlas_record_ids": ["comparative-abs-monthly-household-spending-july-2026-card-culture-volume"],
+  "topic": "household-room-consumption",
+  "platform": "reddit",
+  "item_type": "research_relay_and_audience_reaction",
+  "author_or_account": "AusFinance participants",
+  "title": "Household spending indicator: spending continues to defy expectations",
+  "canonical_url": "https://www.reddit.com/r/AusFinance/comments/1wvk5qz/monthly_household_spending_indicator_spending/",
+  "published_window": "2026-10-02",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The thread relays strong July spending and debates whether discretionary growth means households have room or whether categories, age groups, debt, and price changes hide hardship. Replies include a household reporting cancellation of subscriptions and reduced discretionary spending.",
+  "research_anchor_paths": ["analysis/records/comparative-abs-monthly-household-spending-july-2026-card-culture-volume.json", "analysis/US-BROAD-HOUSEHOLD-ROOM-CONSUMPTION-SOURCE-LED-SUBTHEME-MAP_V1.md"],
+  "linked_research_question": "How should aggregate spending growth be interpreted when household budgets, prices, age, debt, and essential-versus-discretionary substitution differ?",
+  "classification": ["research_relay", "audience_reaction", "disagreement", "substitution"],
+  "limits": ["Australian comparative discussion and self-selected finance subreddit", "The thread does not provide a representative household panel", "Nominal spending cannot establish real consumption or financial security"]
+}
