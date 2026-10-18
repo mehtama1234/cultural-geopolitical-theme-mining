@@ -51,6 +51,8 @@ representativeness, or the truth of a claim.
 - `records/` — normalized one-item-per-record evidence.
 - `findings/` — topic-level cross-platform synthesis after enough records are
   collected.
+- `wave-002-queue.md` — the next four-theme acquisition queue tied to atlas
+  open arrows.
 
 Validate the normalized records with:
 

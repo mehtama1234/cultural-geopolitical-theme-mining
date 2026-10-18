@@ -1,4 +1,8 @@
-# Topic registry — first social-discussion wave
+# Topic registry — social-discussion waves
+
+The first three rows are the calibration wave. The next four topics are
+defined in [wave-002-queue.md](wave-002-queue.md) and are the first execution
+pass of the long-term 14-theme coverage plan.
 
 | Topic | Atlas research anchors | Question for public discussion |
 |---|---|---|
