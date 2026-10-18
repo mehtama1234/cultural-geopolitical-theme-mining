@@ -1250,40 +1250,42 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "ASEAN scam prevention is not converting into resolution, recovery, or durable digital trust",
       "geography": "Six ASEAN countries; consumer survey estimates reported by the GSM Association",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "asean scam prevention not converting into resolution recovery durable digital trust gsma consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "asean scam prevention not converting into resolution recovery durable digital trust gsma consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-asean-scam-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "asean scam prevention not converting into resolution recovery durable digital trust gsma consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "asean scam prevention not converting into resolution recovery durable digital trust gsma consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership",
@@ -1578,40 +1580,42 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Citizens are increasingly open to AI-enabled government services, but legitimacy depends on visible human oversight, appeals, and public reporting",
       "geography": "44 countries and 48,500 respondents; regional comparisons include the Americas, Europe, Asia-Pacific, and the Middle East and Africa",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "citizens are increasingly open ai-enabled government services but legitimacy depends visible human public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "citizens are increasingly open ai-enabled government services but legitimacy depends visible human public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant Reddit item retained.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "citizens are increasingly open ai-enabled government services but legitimacy depends visible human public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-bcg-digital-government-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "citizens are increasingly open ai-enabled government services but legitimacy depends visible human public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-belgium-social-connection-postpandemic-youth-living-alone-2026",
@@ -1619,40 +1623,42 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Post-pandemic social connection was broadly stable in Belgium, but young people and those living alone show specific functional losses",
       "geography": "Belgium, national population aged 15 years and older, with stratified analyses by age, household situation, sex, and education",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "post-pandemic social connection was broadly stable belgium but young people those living trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "post-pandemic social connection was broadly stable belgium but young people those living trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-belgium-social-connection-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "post-pandemic social connection was broadly stable belgium but young people those living trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "post-pandemic social connection was broadly stable belgium but young people those living trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose",
@@ -1783,40 +1789,42 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Brazil’s Pix transition is rapid but incomplete: actual cash displacement coexists with knowledge and connectivity barriers",
       "geography": "Brazil; national adult consumer survey, merchant survey, and one-week payment diaries, with payment-method, preference, income-receipt, and barrier dimensions",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0002",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "brazil pix transition rapid but incomplete actual cash displacement coexists knowledge connectivity consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "brazil pix transition rapid but incomplete actual cash displacement coexists knowledge connectivity consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-brazil-pix-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "brazil pix transition rapid but incomplete actual cash displacement coexists knowledge connectivity consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "brazil pix transition rapid but incomplete actual cash displacement coexists knowledge connectivity consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap",

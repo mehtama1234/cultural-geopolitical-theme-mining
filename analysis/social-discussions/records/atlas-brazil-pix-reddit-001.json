@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-brazil-pix-reddit-001",
+  "atlas_record_ids": ["comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers"],
+  "topic": "infrastructure-technology-dependency",
+  "platform": "reddit",
+  "item_type": "lived_example_and_digital_access_signal",
+  "author_or_account": "r/Brazil participant; account not exposed",
+  "title": "Pix ubiquity, CPF barriers and workarounds for outsiders",
+  "canonical_url": "https://www.reddit.com/r/Brazil/comments/1tdwad/foreigners_in_brazil_whats_your_actual_workaround/",
+  "published_window": "2026-05-15",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The discussion describes Pix as ubiquitous while showing how people without a CPF or Brazilian bank account fall back to cash, cards, intermediaries or a lengthy registration process. This is a concrete example of rapid payment adoption coexisting with identity, connectivity and account-access barriers.",
+  "research_anchor_paths": ["analysis/records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json"],
+  "linked_research_question": "When a digital payment becomes near-universal, who remains dependent on cash or intermediaries because identity and account access are incomplete?",
+  "classification": ["lived_example", "digital_barrier", "payment_infrastructure", "access_gap"],
+  "limits": ["Discussion focuses on foreigners, not the whole Brazilian population", "Self-selected travel/finance audience", "Does not quantify the scale of CPF or connectivity barriers"]
+}
