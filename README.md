@@ -30,7 +30,8 @@ bounded sample of YouTube, Reddit, LinkedIn, and X discussion to the existing
 14-theme research atlas. The initial 20 records were a calibration wave for AI
 and work control, platform attention and exit, and AI companionship and trust;
 Wave 002 has now added four consumer-power and recourse records and four
-time-care records.
+time-care records, plus three public-systems records with a documented YouTube
+platform gap.
 the [long-term coverage plan](analysis/social-discussions/long-term-coverage-plan.md)
 rotates through the remaining themes and their open end-to-end arrows.
 Discussion items are signals about meaning, interpretation, disagreement, and

@@ -53,6 +53,21 @@ This wave is also a bounded signal set, not a representative cross-platform
 sample. The next acquisition pass covers public systems and policy feedback,
 then trust, identity, and cultural meaning.
 
+The third Wave 002 topic is public systems and policy feedback. Three usable
+items were normalized in records/public-systems-001.json through
+records/public-systems-003.json, and the topic synthesis is in
+findings/public-systems-policy-feedback-wave-002.md.
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | benefits application Medicaid SNAP administrative burden 2026 | A public-health research relay described forms, verification, and appeals as administrative burden; normalized in records/public-systems-001.json. | Research relay and institutional audience; not a new representative applicant sample. |
+| Reddit | SNAP Medicaid denial application 2026 | A public thread described uncertainty about whether a SNAP denial could affect Medicaid; normalized in records/public-systems-002.json. | Self-selected community; case and advice are not verified. |
+| X | Medicaid public systems lawsuit 2026 | An X trending summary presented competing claims around a New York Medicaid care-program lawsuit; normalized in records/public-systems-003.json. | Platform summary and legal claims require primary-record verification. |
+| YouTube | SNAP Medicaid benefits application denied paperwork 2026 | No reproducible, clearly relevant public item was retained in the restricted search. | Recorded as a platform gap; no substitute source was silently used. |
+
+This wave is a bounded signal set, not a representative cross-platform sample.
+The next acquisition pass covers trust, identity, and cultural meaning.
+
 Repeat the same protocol for platform attention/exit and AI companionship/trust,
 then run a dedicated X pass through directly accessible public URLs or an
 authorized API if available. Store the query, date, and failure mode even when
