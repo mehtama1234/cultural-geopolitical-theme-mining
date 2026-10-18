@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0051",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "us-eo-14421-bulk-power-security-2026",
+    "us-epa-cdc-drinking-water-coverage-replacement-risk-2026",
+    "us-equifax-market-pulse-q2-2026-sentiment-assets-k-shaped-financial-capacity",
+    "us-equimundo-state-american-men-2026-economic-insecurity-ai-manhood-democracy",
+    "us-eu-commission-semiconductor-dual-use-control-list-update-2025",
+    "us-eu-marsec-baltic-cross-border-infrastructure-response-2026",
+    "us-fcc-broadband-availability-adoption-choice-2022-2025",
+    "us-fdic-unbanked-underbanked-households-2023",
+    "us-fec-campaign-finance-2025-2026-15-month",
+    "us-fed-shed-economic-wellbeing-2025",
+    "us-fed-small-business-credit-route-2023",
+    "us-fed-worker-perspectives-2026-survival-mode-job-quality-ai-screening",
+    "us-federal-reserve-banking-substitution-recourse-2025",
+    "us-federal-reserve-care-living-arrangements-2025",
+    "us-federal-reserve-diary-consumer-payment-choice-2026-cash-digital-rural-income",
+    "us-federal-reserve-employment-ai-control-2025",
+    "us-federal-reserve-financial-buffer-credit-exposure-2025",
+    "us-federal-reserve-financial-stability-monetary-policy-2026",
+    "us-federal-reserve-household-fraud-recovery-2024",
+    "us-federal-reserve-household-housing-affordability-insurance-2025",
+    "us-federal-reserve-housing-insurance-risk-2025",
+    "us-federal-reserve-income-volatility-support-2025",
+    "us-federal-reserve-price-adaptation-judgment-2025",
+    "us-fhfa-house-price-index-2026q2",
+    "us-fhwa-our-nations-highways-2026-mobility-dependency"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-eo-14421-bulk-power-security-2026",
+      "atlas_record_path": "analysis/records/us-eo-14421-bulk-power-security-2026.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Electricity infrastructure is governed as both strategic security and essential service",
+      "geography": "United States bulk-power system and covered transactions involving foreign-produced or foreign-operated electric equipment",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "electricity infrastructure governed both strategic security essential service executive order published federal public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "electricity infrastructure governed both strategic security essential service executive order published federal public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "electricity infrastructure governed both strategic security essential service executive order published federal public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "electricity infrastructure governed both strategic security essential service executive order published federal public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-epa-cdc-drinking-water-coverage-replacement-risk-2026",
+      "atlas_record_path": "analysis/records/us-epa-cdc-drinking-water-coverage-replacement-risk-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Broad drinking-water coverage coexists with uneven household responsibility and unresolved replacement risk",
+      "geography": "United States; national public-water and private-well coverage, service-line projections, and infrastructure needs",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "broad drinking-water coverage coexists uneven household responsibility unresolved replacement risk epa infrastructure infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "broad drinking-water coverage coexists uneven household responsibility unresolved replacement risk epa infrastructure infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "broad drinking-water coverage coexists uneven household responsibility unresolved replacement risk epa infrastructure infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "broad drinking-water coverage coexists uneven household responsibility unresolved replacement risk epa infrastructure infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-equifax-market-pulse-q2-2026-sentiment-assets-k-shaped-financial-capacity",
+      "atlas_record_path": "analysis/records/us-equifax-market-pulse-q2-2026-sentiment-assets-k-shaped-financial-capacity.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Measured financial capacity improves slightly while consumer sentiment falls, with assets separating U.S. households more sharply than income or credit alone",
+      "geography": "United States; proprietary aggregated consumer credit, debt, income, capacity, asset, and VantageScore data",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "measured financial capacity improves slightly while consumer sentiment falls assets separating households household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "measured financial capacity improves slightly while consumer sentiment falls assets separating households household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "measured financial capacity improves slightly while consumer sentiment falls assets separating households household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "measured financial capacity improves slightly while consumer sentiment falls assets separating households household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-equimundo-state-american-men-2026-economic-insecurity-ai-manhood-democracy",
+      "atlas_record_path": "analysis/records/us-equimundo-state-american-men-2026-economic-insecurity-ai-manhood-democracy.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Young men combine economic insecurity and nostalgia with AI adoption, online influence, contested manhood, and conditional democratic commitment",
+      "geography": "United States; young adults ages 18–29 with primary findings on young men",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "young men combine economic insecurity nostalgia adoption online influence contested manhood conditional household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "young men combine economic insecurity nostalgia adoption online influence contested manhood conditional household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "young men combine economic insecurity nostalgia adoption online influence contested manhood conditional household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "young men combine economic insecurity nostalgia adoption online influence contested manhood conditional household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-eu-commission-semiconductor-dual-use-control-list-update-2025",
+      "atlas_record_path": "analysis/records/us-eu-commission-semiconductor-dual-use-control-list-update-2025.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "The EU adopted a common dual-use list update covering semiconductor manufacturing equipment and advanced computing items",
+      "geography": "European Union member states, United States-related technology-security coordination, and the global semiconductor supply chain",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "adopted common dual-use list update covering semiconductor manufacturing equipment advanced computing items geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "adopted common dual-use list update covering semiconductor manufacturing equipment advanced computing items geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "adopted common dual-use list update covering semiconductor manufacturing equipment advanced computing items geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "adopted common dual-use list update covering semiconductor manufacturing equipment advanced computing items geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-eu-marsec-baltic-cross-border-infrastructure-response-2026",
+      "atlas_record_path": "analysis/records/us-eu-marsec-baltic-cross-border-infrastructure-response-2026.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Cross-border maritime actors can rehearse an infrastructure response before real-incident performance is known",
+      "geography": "Baltic Sea and North Sea operational scenario; Finland-hosted exercise with Finnish, Polish, French, EU-agency, and commercial participation",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "cross-border maritime actors can rehearse infrastructure response before real-incident performance known european geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "cross-border maritime actors can rehearse infrastructure response before real-incident performance known european geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "cross-border maritime actors can rehearse infrastructure response before real-incident performance known european geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "cross-border maritime actors can rehearse infrastructure response before real-incident performance known european geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-fcc-broadband-availability-adoption-choice-2022-2025",
+      "atlas_record_path": "analysis/records/us-fcc-broadband-availability-adoption-choice-2022-2025.json",
+      "canonical_theme": "platform-exit",
+      "title": "Broadband availability, subscription, and provider choice are separate access stages",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "broadband availability subscription provider choice are separate access stages federal communications commission platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "broadband availability subscription provider choice are separate access stages federal communications commission platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "broadband availability subscription provider choice are separate access stages federal communications commission platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "broadband availability subscription provider choice are separate access stages federal communications commission platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-fdic-unbanked-underbanked-households-2023",
+      "atlas_record_path": "analysis/records/us-fdic-unbanked-underbanked-households-2023.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Financial access is widespread but transaction and credit routes remain stratified",
+      "geography": "United States; nationally representative households, with state, MSA, regional, and demographic subgroup tables",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "financial access widespread but transaction credit routes remain stratified fdic national survey household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "financial access widespread but transaction credit routes remain stratified fdic national survey household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "financial access widespread but transaction credit routes remain stratified fdic national survey household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "financial access widespread but transaction credit routes remain stratified fdic national survey household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-fec-campaign-finance-2025-2026-15-month",
+      "atlas_record_path": "analysis/records/us-fec-campaign-finance-2025-2026-15-month.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Federal political money is visible at a different scale from political participation",
+      "geography": "United States federal elections; 2025-2026 election cycle",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "federal political money visible different scale participation election commission statistical summary committee political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "federal political money visible different scale participation election commission statistical summary committee political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "federal political money visible different scale participation election commission statistical summary committee political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "federal political money visible different scale participation election commission statistical summary committee political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-fed-shed-economic-wellbeing-2025",
+      "atlas_record_path": "analysis/records/us-fed-shed-economic-wellbeing-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Personal financial well-being, local economic judgment, and national economic judgment move on different tracks",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "personal financial well-being local economic judgment national move different tracks federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "personal financial well-being local economic judgment national move different tracks federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "personal financial well-being local economic judgment national move different tracks federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "personal financial well-being local economic judgment national move different tracks federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-fed-small-business-credit-route-2023",
+      "atlas_record_path": "analysis/records/us-fed-small-business-credit-route-2023.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Small-business credit is a differentiated route shaped by lender choice and firm risk",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "small-business credit differentiated route shaped lender choice firm risk federal reserve small firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "small-business credit differentiated route shaped lender choice firm risk federal reserve small firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "small-business credit differentiated route shaped lender choice firm risk federal reserve small firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "small-business credit differentiated route shaped lender choice firm risk federal reserve small firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-fed-worker-perspectives-2026-survival-mode-job-quality-ai-screening",
+      "atlas_record_path": "analysis/records/us-fed-worker-perspectives-2026-survival-mode-job-quality-ai-screening.json",
+      "canonical_theme": "ai-work-control",
+      "title": "When costs outrun wages, work shifts from mobility strategy to survival strategy",
+      "geography": "United States; low- to moderate-income households with annual household income of $85,000 or less",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "when costs outrun wages work shifts mobility strategy survival federal reserve worker ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "when costs outrun wages work shifts mobility strategy survival federal reserve worker ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "when costs outrun wages work shifts mobility strategy survival federal reserve worker ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "when costs outrun wages work shifts mobility strategy survival federal reserve worker ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-banking-substitution-recourse-2025",
+      "atlas_record_path": "analysis/records/us-federal-reserve-banking-substitution-recourse-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Formal banking access coexists with unequal nonbank substitution and weak observed switching after fraud",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "formal banking access coexists unequal nonbank substitution weak observed switching after fraud household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "formal banking access coexists unequal nonbank substitution weak observed switching after fraud household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "formal banking access coexists unequal nonbank substitution weak observed switching after fraud household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "formal banking access coexists unequal nonbank substitution weak observed switching after fraud household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-care-living-arrangements-2025",
+      "atlas_record_path": "analysis/records/us-federal-reserve-care-living-arrangements-2025.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Care is organized through multigenerational living, unpaid substitution, and gendered work tradeoffs",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "care organized through multigenerational living unpaid substitution gendered work tradeoffs federal reserve time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "care organized through multigenerational living unpaid substitution gendered work tradeoffs federal reserve time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "care organized through multigenerational living unpaid substitution gendered work tradeoffs federal reserve time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "care organized through multigenerational living unpaid substitution gendered work tradeoffs federal reserve time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-diary-consumer-payment-choice-2026-cash-digital-rural-income",
+      "atlas_record_path": "analysis/records/us-federal-reserve-diary-consumer-payment-choice-2026-cash-digital-rural-income.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "U.S. payment technology is changing faster than consumer payment routines, leaving cash as a resilience and access layer",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "payment technology changing faster than consumer routines leaving cash resilience access layer household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "payment technology changing faster than consumer routines leaving cash resilience access layer household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "payment technology changing faster than consumer routines leaving cash resilience access layer household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "payment technology changing faster than consumer routines leaving cash resilience access layer household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-employment-ai-control-2025",
+      "atlas_record_path": "analysis/records/us-federal-reserve-employment-ai-control-2025.json",
+      "canonical_theme": "ai-work-control",
+      "title": "A softening labor market narrows mobility while AI access and control remain stratified",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "softening labor market narrows mobility while access control remain stratified federal reserve ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "softening labor market narrows mobility while access control remain stratified federal reserve ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "softening labor market narrows mobility while access control remain stratified federal reserve ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "softening labor market narrows mobility while access control remain stratified federal reserve ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-financial-buffer-credit-exposure-2025",
+      "atlas_record_path": "analysis/records/us-federal-reserve-financial-buffer-credit-exposure-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Household financial exposure separates liquid buffers, revolving credit, and repayment strain",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household financial exposure separates liquid buffers revolving credit repayment strain federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household financial exposure separates liquid buffers revolving credit repayment strain federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household financial exposure separates liquid buffers revolving credit repayment strain federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household financial exposure separates liquid buffers revolving credit repayment strain federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-financial-stability-monetary-policy-2026",
+      "atlas_record_path": "analysis/records/us-federal-reserve-financial-stability-monetary-policy-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "The Federal Reserve separates financial-system resilience from household credit pressure and inflation risk",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "federal reserve separates financial-system resilience household credit pressure inflation risk board financial household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "federal reserve separates financial-system resilience household credit pressure inflation risk board financial household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "federal reserve separates financial-system resilience household credit pressure inflation risk board financial household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "federal reserve separates financial-system resilience household credit pressure inflation risk board financial household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-household-fraud-recovery-2024",
+      "atlas_record_path": "analysis/records/us-federal-reserve-household-fraud-recovery-2024.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Household fraud exposure separates into direct loss, recovery failure, and substantial time cost",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household fraud exposure separates into direct loss recovery failure substantial time cost consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household fraud exposure separates into direct loss recovery failure substantial time cost consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household fraud exposure separates into direct loss recovery failure substantial time cost consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household fraud exposure separates into direct loss recovery failure substantial time cost consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-household-housing-affordability-insurance-2025",
+      "atlas_record_path": "analysis/records/us-federal-reserve-household-housing-affordability-insurance-2025.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Housing insecurity is splitting along income, age, race, disability, mobility, and insurance lines",
+      "geography": "United States; nationally administered household survey with income, age, race/ethnicity, disability, region, renter, and homeowner comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "housing insecurity splitting along income age race disability mobility insurance lines federal housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "housing insecurity splitting along income age race disability mobility insurance lines federal housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "housing insecurity splitting along income age race disability mobility insurance lines federal housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "housing insecurity splitting along income age race disability mobility insurance lines federal housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-housing-insurance-risk-2025",
+      "atlas_record_path": "analysis/records/us-federal-reserve-housing-insurance-risk-2025.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Housing payment and insurance risk are unevenly distributed by income and place",
+      "geography": "United States; income and neighborhood-income comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "housing payment insurance risk are unevenly distributed income place federal reserve survey housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "housing payment insurance risk are unevenly distributed income place federal reserve survey housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "housing payment insurance risk are unevenly distributed income place federal reserve survey housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "housing payment insurance risk are unevenly distributed income place federal reserve survey housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-income-volatility-support-2025",
+      "atlas_record_path": "analysis/records/us-federal-reserve-income-volatility-support-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Income timing, family support, and budget margin distribute unevenly across US households",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "income timing family support budget margin distribute unevenly across households federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "income timing family support budget margin distribute unevenly across households federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "income timing family support budget margin distribute unevenly across households federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "income timing family support budget margin distribute unevenly across households federal reserve household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-price-adaptation-judgment-2025",
+      "atlas_record_path": "analysis/records/us-federal-reserve-price-adaptation-judgment-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Price pressure produces widespread household adaptation while personal and national economic judgments diverge",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "price pressure produces widespread household adaptation while personal national economic judgments diverge household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "price pressure produces widespread household adaptation while personal national economic judgments diverge household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "price pressure produces widespread household adaptation while personal national economic judgments diverge household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "price pressure produces widespread household adaptation while personal national economic judgments diverge household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-fhfa-house-price-index-2026q2",
+      "atlas_record_path": "analysis/records/us-fhfa-house-price-index-2026q2.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "House-price movement is geographically uneven and is not the same as household insurance room",
+      "geography": "United States; national, census-division, and state comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "house-price movement geographically uneven not same household insurance room federal housing finance housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "house-price movement geographically uneven not same household insurance room federal housing finance housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "house-price movement geographically uneven not same household insurance room federal housing finance housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "house-price movement geographically uneven not same household insurance room federal housing finance housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-fhwa-our-nations-highways-2026-mobility-dependency",
+      "atlas_record_path": "analysis/records/us-fhwa-our-nations-highways-2026-mobility-dependency.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "American everyday life remains structurally car-dependent while roads allocate access, work, social life, and freight through different layers",
+      "geography": "United States; public roads, National Household Travel Survey trips, vehicle miles, and domestic freight",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0051",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "american everyday life remains structurally car-dependent while roads allocate access work social infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "american everyday life remains structurally car-dependent while roads allocate access work social infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "american everyday life remains structurally car-dependent while roads allocate access work social infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "american everyday life remains structurally car-dependent while roads allocate access work social infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
