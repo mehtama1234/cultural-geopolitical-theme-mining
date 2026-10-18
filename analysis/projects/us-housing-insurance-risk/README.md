@@ -19,6 +19,11 @@ storm, fire, repair cost, rate, rent, or rule
 
 This is one durable lane in the long-term atlas. It should be revisited as household data, market records, and public action add or weaken the place-risk pattern.
 
+The [protection-to-recovery safe-return bridge](protection-to-recovery-safe-return-bridge-v1.md)
+connects household coverage, California claims and remedies, FAIR Plan growth,
+and the Los Angeles County recovery review. It keeps payment, legal response,
+repair, safe occupancy, return, and durable housing security separate.
+
 The [Federal Reserve 2025 housing and insurance risk layer](federal-reserve-2025-housing-insurance-risk-layer-v1.md)
 adds current renter arrears, homeowner coverage gaps, neighborhood/income
 differences, and insurance affordability pressure. It preserves the distinction
