@@ -35,6 +35,11 @@ Use plain words. Say which store, job, service, or meeting place changed, who no
 
 The fourth ongoing-program social bridge is [place capacity, usable access, and local political response](place-capacity-public-meaning-action-bridge-v1.md). It connects local supply and health-capacity evidence to housing, mobility, public-system, belonging, and local-organizing discussion.
 
+The [firm capacity, market power, practical choice, and political voice bridge](firm-capacity-market-power-choice-voice-bridge-v1.md)
+adds the fifteenth active depth rotation. It connects firm scale, AI adoption,
+worker sorting, search defaults, switching costs, customer dependence, and
+employer political influence without reducing them to one power index.
+
 ## Matched evidence pass
 
 The first matched check is [A business application is not yet a local job or a local place](../../findings/us-local-business-place-matched-evidence-001.md), with its [HTML reading page](../../../site/us-local-business-place-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms a two-step entry gap while leaving local services, belonging, and political effects open.
