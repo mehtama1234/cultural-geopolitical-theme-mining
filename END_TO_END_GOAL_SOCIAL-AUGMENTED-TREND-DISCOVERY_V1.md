@@ -1,10 +1,11 @@
-# End-to-end goal: research, social meaning, and new trend discovery
+# Long-term end-to-end goal: 14-theme research, social meaning, and new trend discovery
 
 ## The goal in one sentence
 
-Build a living cultural and geopolitical trend system that connects measured
-research to public discussion, then independently looks for new social trends
-that research has not yet explained.
+Build a long-term, US-centered 14-theme trend system that uses the existing
+research atlas as its core, connects measured evidence to bounded public
+discussion, and independently looks for new social trends that research has
+not yet explained.
 
 ## Why we are doing this
 
@@ -18,7 +19,12 @@ Public discussion helps fill that space. It can show lived experience, common
 language, disagreement, fear, hope, status, trust, and practical trade-offs.
 It cannot replace research or tell us how common a view is.
 
-We therefore need two connected work lanes:
+The atlas already contains a broad body of papers, surveys, administrative
+records, public records, company evidence, infrastructure evidence, opinion
+data, and geopolitical records. The social work must augment that full body of
+research rather than replace it with a small set of online examples.
+
+We therefore need two connected but distinct work lanes:
 
 1. **Research augmentation:** add social discussion to topics already in the
    atlas.
@@ -68,7 +74,36 @@ online. It needs a clear question, a bounded time window, a defined group or
 place, and a research check. If no suitable research exists, store it as an
 open signal rather than a fact.
 
-## What we will study first
+## Long-term 14-theme scope
+
+The social augmentation lane follows the complete atlas inventory:
+
+1. household room and consumption;
+2. time as a hidden price;
+3. consumer power and recourse;
+4. platforms, data, and attention;
+5. work, control, and bargaining;
+6. care, health, and social reproduction;
+7. housing, place, and mobility;
+8. unequal exposure and status;
+9. trust, identity, and cultural meaning;
+10. public systems and policy feedback;
+11. political judgment and collective action;
+12. firm, sector, and market power;
+13. infrastructure, technology, and dependency; and
+14. geopolitical and state consequences.
+
+The [long-term coverage plan](analysis/social-discussions/long-term-coverage-plan.md)
+sets the wave order, atlas entry points, and delivery rules. The existing
+three-topic set is only the calibration wave. It must not be treated as the
+scope of the program.
+
+For every wave, connect public discussion to an existing research record,
+source-led map, subtheme, or open arrow. Preserve the distinction between a
+measured population result, a public account, a repeated phrase, a counterclaim,
+and an inference across sources.
+
+## Initial calibration topics
 
 Begin with high-value topics that already have strong research anchors and
 clear public discussion:
@@ -79,8 +114,9 @@ clear public discussion:
 - household pressure, consumer choice, trust, and adaptation;
 - cultural meaning, belonging, identity, and political action.
 
-Expand to the remaining atlas themes after the storage, recording, and review
-rules work reliably.
+After calibration, rotate through all remaining themes using the coverage plan;
+do not wait for a single theme to become a complete explanation before
+recording the next bounded wave.
 
 ## What every social record must preserve
 
@@ -150,6 +186,11 @@ This goal is complete when:
 - the main atlas links to both lanes;
 - the repository validation checks pass; and
 - the committed repository is synchronized with its remote.
+
+For the long-term program, completion means the workflow remains repeatable:
+each of the 14 themes has a dated social wave or a documented platform/access
+gap, each wave is tied to the atlas evidence and open arrows, and independent
+trend candidates remain visibly separate from atlas augmentation.
 
 The result is not a popularity counter or a news feed. It is a disciplined way
 to connect what is measured, what people say, and what society may be becoming.

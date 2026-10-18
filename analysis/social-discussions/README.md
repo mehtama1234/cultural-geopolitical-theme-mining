@@ -5,9 +5,14 @@ posts, comments, videos, or engagement as survey results. Each item is kept as
 a traceable discussion signal and is linked back to a research claim, topic,
 and mechanism.
 
-## First bounded wave
+## Long-term scope and first bounded wave
 
-The first wave covers three atlas topics:
+This folder is a long-term social evidence layer for all 14 themes in the
+atlas. The [coverage plan](long-term-coverage-plan.md) defines the queue and
+the rule for attaching each social wave to a research record, source-led map,
+subtheme, or open arrow.
+
+The first calibration wave covers three atlas topics:
 
 1. **AI and work control** — whether AI changes productivity, job access,
    skills, autonomy, workload, or early-career opportunity.
@@ -18,7 +23,8 @@ The first wave covers three atlas topics:
    substitute, support route, or source of dependence and uncertainty.
 
 The initial observation window is **2025-10-17 through 2026-10-17**. The
-selection is a pilot, not a claim that these are the only important topics.
+selection is a calibration pilot, not a claim that these are the only important
+topics or the main scope of the program.
 They were chosen because the atlas already contains research records and open
 arrows for each one, and because each has observable public discussion across
 multiple platforms.
@@ -52,5 +58,8 @@ Validate the normalized records with:
 python3 scripts/validate_social_discussions.py
 ```
 
-The first normalized records are deliberately small. They preserve links and
-bounded summaries rather than copying full posts or comments.
+The next waves rotate through the remaining 11 themes according to the
+[coverage plan](long-term-coverage-plan.md), prioritizing open middle stages
+and thin evidence rather than simply collecting popular posts. The first
+normalized records are deliberately small. They preserve links and bounded
+summaries rather than copying full posts or comments.
