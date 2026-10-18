@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-ipsos-trustworthiness-index-linkedin-001",
+  "atlas_record_ids": ["comparative-ipsos-global-trustworthiness-index-2026-professions-ai-citizens"],
+  "topic": "trust-identity-cultural-meaning",
+  "platform": "linkedin",
+  "item_type": "institutional_trust_discussion",
+  "author_or_account": "Ipsos",
+  "title": "Ipsos Global Trustworthiness Index",
+  "canonical_url": "https://www.linkedin.com/posts/ipsos_ipsos-global-trustworthiness-index-activity-7508072957118857218-AFlj",
+  "published_window": "2026-10",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post places doctors, scientists, and teachers near the top of public trust while reporting low trust in politicians, influencers, and AI chatbots. It makes AI credibility part of a wider institutional and professional trust hierarchy.",
+  "research_anchor_paths": ["analysis/records/comparative-ipsos-global-trustworthiness-index-2026-professions-ai-citizens.json"],
+  "linked_research_question": "How is trust redistributed between competence-bearing professions, ordinary citizens, political actors, influencers, and AI systems?",
+  "classification": ["institutional_trust", "professional_trust", "ai_chatbots", "political_credibility", "expertise"],
+  "limits": ["The post summarizes survey results without exposing the full instrument or country tables", "Trust judgments do not directly measure behaviour or institutional performance", "Global averages can hide substantial national and demographic variation"]
+}
