@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0059-gartner-trust-linkedin-001",
+  "atlas_record_ids": ["us-gartner-consumer-trust-ai-slop-influencers-2026"],
+  "topic": "platform-exit",
+  "platform": "linkedin",
+  "item_type": "professional_interpretation_and_counter_signal",
+  "author_or_account": "Milton Pedraza",
+  "title": "Gartner: AI-generated Marketing Erodes Trust, Humans Sought for Recommendations",
+  "canonical_url": "https://www.linkedin.com/posts/milton-pedraza-1141272_gartner-marketing-survey-finds-35-of-consumers-activity-7509276577550000128-RbiH",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post interprets Gartner's consumer findings as selective distrust rather than blanket rejection of AI: people may accept convenience while relying more on real people for recommendations and becoming more skeptical of synthetic brand messages. Replies extend this into a low-trust-market and social-capital frame.",
+  "research_anchor_paths": ["analysis/records/us-gartner-consumer-trust-ai-slop-influencers-2026.json"],
+  "linked_research_question": "How does AI-generated content change the signals consumers use to decide whether influencers, brands, and human recommendations are credible?",
+  "classification": ["professional_interpretation", "counter_signal", "ai-content", "consumer-trust", "human-credibility", "influencer-economy"],
+  "limits": ["Individual professional interpretation with selected replies", "Survey figures are summarized rather than independently checked here", "LinkedIn discussion is not a representative consumer sample", "Public search discovery is not a platform-native Creator/API export"]
+}
