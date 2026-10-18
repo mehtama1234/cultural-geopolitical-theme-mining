@@ -18,6 +18,8 @@ job-level structures in 2025.
 Neither source proves that a granted change was adequate, durable, fairly
 distributed, or protective of household security.
 
+The current [worker request, grant, and durable control bridge](worker-request-grant-durable-control-bridge-v1.md) adds workplace-data trust and the ILO platform-work review standard while preserving the missing worker-level adequacy, pay, safety, and retention link.
+
 ## Decisive next evidence
 
 Link the same worker and workplace through request reason, decision timing,
