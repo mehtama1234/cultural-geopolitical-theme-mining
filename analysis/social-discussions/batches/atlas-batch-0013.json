@@ -1,0 +1,1062 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0013",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "comparative-ipsos-global-trends-10th-edition-2026-trust-nostalgia-ai-climate",
+    "comparative-ipsos-global-trends-2026-technowonder-splintered-societies-consumer-meaning",
+    "comparative-ipsos-global-trustworthiness-index-2026-professions-ai-citizens",
+    "comparative-ipsos-happiness-index-2026-income-relationships-financial-unhappiness",
+    "comparative-ipsos-independent-football-regulator-club-heritage-fan-voice-2026",
+    "comparative-ipsos-life-aspirations-2026-stability-home-family-genz-access",
+    "comparative-ipsos-mobility-2026-car-dependence-safety-autonomy-cycle-lanes",
+    "comparative-ipsos-power-of-trust-2026-local-values-consumer-legitimacy",
+    "comparative-ipsos-pride-2026-lgbt-acceptance-brand-media-policy",
+    "comparative-ipsos-small-acts-kindness-older-people-winter-energy-loneliness-2026",
+    "comparative-ipsos-sustainability-reality-check-2026-affordability-health-trust-action",
+    "comparative-ipsos-thailand-consumer-sentiment-september-2026-corruption-safety-spending",
+    "comparative-ipsos-unhcr-refugee-attitudes-2026-protection-implementation-responsibility",
+    "comparative-ipsos-what-worries-world-september-2026-public-concerns-direction",
+    "comparative-ipu-un-women-politics-2026-representation-hostility-quotas",
+    "comparative-irena-ilo-renewable-energy-jobs-2025-inclusive-workforce-geopolitics",
+    "comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security",
+    "comparative-itdf-human-purpose-peril-2026-ai-meaning-agency-social-bonds",
+    "comparative-itu-ai-ageing-2026-digital-inclusion-health-security-participation",
+    "comparative-itu-digital-connectivity-divides-2025",
+    "comparative-itu-global-e-waste-monitor-2024-digital-circularity-material-recovery",
+    "comparative-itu-ict-development-index-2026-meaningful-connectivity-affordability",
+    "comparative-itu-pop-child-online-protection-2026-reporting-support-pathways",
+    "comparative-itu-undrr-digital-systems-fail-2026-cascades-resilience",
+    "comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "comparative-ipsos-global-trends-10th-edition-2026-trust-nostalgia-ai-climate",
+      "atlas_record_path": "analysis/records/comparative-ipsos-global-trends-10th-edition-2026-trust-nostalgia-ai-climate.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Global publics are retreating toward local trust, personal control and present-focused coping as technology, institutions and climate feel less governable",
+      "geography": "38-market cross-national survey; market-average comparisons and global thematic synthesis",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "global publics are retreating toward local trust personal control present-focused coping technology trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "global publics are retreating toward local trust personal control present-focused coping technology trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "global publics are retreating toward local trust personal control present-focused coping technology trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "global publics are retreating toward local trust personal control present-focused coping technology trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-global-trends-2026-technowonder-splintered-societies-consumer-meaning",
+      "atlas_record_path": "analysis/records/comparative-ipsos-global-trends-2026-technowonder-splintered-societies-consumer-meaning.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Technology unease, social fracture, nostalgia, individualism, and uncertainty are reshaping cultural and consumer meaning",
+      "geography": "Global social, technology, cultural, and consumer trend synthesis based on 38-market survey and macro-force analysis",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "technology unease social fracture nostalgia individualism uncertainty are reshaping cultural consumer meaning trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "technology unease social fracture nostalgia individualism uncertainty are reshaping cultural consumer meaning trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "technology unease social fracture nostalgia individualism uncertainty are reshaping cultural consumer meaning trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "technology unease social fracture nostalgia individualism uncertainty are reshaping cultural consumer meaning trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-global-trustworthiness-index-2026-professions-ai-citizens",
+      "atlas_record_path": "analysis/records/comparative-ipsos-global-trustworthiness-index-2026-professions-ai-citizens.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Trust remains concentrated in competence-bearing professions and ordinary people while politicians, influencers, and AI chatbots face a credibility deficit",
+      "geography": "31 countries; 23,537 online adults under age 75 surveyed 19 June-3 July 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "trust remains concentrated competence-bearing professions ordinary people while politicians influencers chatbots face trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "trust remains concentrated competence-bearing professions ordinary people while politicians influencers chatbots face trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "trust remains concentrated competence-bearing professions ordinary people while politicians influencers chatbots face trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "trust remains concentrated competence-bearing professions ordinary people while politicians influencers chatbots face trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-happiness-index-2026-income-relationships-financial-unhappiness",
+      "atlas_record_path": "analysis/records/comparative-ipsos-happiness-index-2026-income-relationships-financial-unhappiness.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Short-term happiness is improving across most countries while longer-run gains remain uneven, with relationships supporting happiness and finances driving unhappiness",
+      "geography": "29 countries; global, income and country comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "short-term happiness improving across most countries while longer-run gains remain uneven relationships trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "short-term happiness improving across most countries while longer-run gains remain uneven relationships trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "short-term happiness improving across most countries while longer-run gains remain uneven relationships trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "short-term happiness improving across most countries while longer-run gains remain uneven relationships trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-independent-football-regulator-club-heritage-fan-voice-2026",
+      "atlas_record_path": "analysis/records/comparative-ipsos-independent-football-regulator-club-heritage-fan-voice-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Football club heritage converts place-based identity into organized fan voice when institutional survival is threatened",
+      "geography": "England and Wales; adults aged 16+ and supporters of men's clubs in the top five divisions",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "football club heritage converts place-based identity into organized fan voice when institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "football club heritage converts place-based identity into organized fan voice when institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "football club heritage converts place-based identity into organized fan voice when institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "football club heritage converts place-based identity into organized fan voice when institutional trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-life-aspirations-2026-stability-home-family-genz-access",
+      "atlas_record_path": "analysis/records/comparative-ipsos-life-aspirations-2026-stability-home-family-genz-access.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Young people still want stable work and homes, but the widening cultural shift is confidence in access rather than abandonment of traditional milestones",
+      "geography": "30 countries; global, generational, income and Western-country comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "young people still want stable work homes but widening cultural shift confidence household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "young people still want stable work homes but widening cultural shift confidence household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "young people still want stable work homes but widening cultural shift confidence household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "young people still want stable work homes but widening cultural shift confidence household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-mobility-2026-car-dependence-safety-autonomy-cycle-lanes",
+      "atlas_record_path": "analysis/records/comparative-ipsos-mobility-2026-car-dependence-safety-autonomy-cycle-lanes.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Mobility remains car-dependent and safety-constrained even as people support shared, active and lower-carbon alternatives",
+      "geography": "31 countries and markets; global, regional and country comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "mobility remains car-dependent safety-constrained even people support shared active lower-carbon alternatives ipsos housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "mobility remains car-dependent safety-constrained even people support shared active lower-carbon alternatives ipsos housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "mobility remains car-dependent safety-constrained even people support shared active lower-carbon alternatives ipsos housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "mobility remains car-dependent safety-constrained even people support shared active lower-carbon alternatives ipsos housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-power-of-trust-2026-local-values-consumer-legitimacy",
+      "atlas_record_path": "analysis/records/comparative-ipsos-power-of-trust-2026-local-values-consumer-legitimacy.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Institutional skepticism is redirecting trust toward familiar, local, and values-aligned actors",
+      "geography": "Adults across 38 markets in the Ipsos Global Trends 2026 comparative framework",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "institutional skepticism redirecting trust toward familiar local values-aligned actors ipsos global trends trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "institutional skepticism redirecting trust toward familiar local values-aligned actors ipsos global trends trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "institutional skepticism redirecting trust toward familiar local values-aligned actors ipsos global trends trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "institutional skepticism redirecting trust toward familiar local values-aligned actors ipsos global trends trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-pride-2026-lgbt-acceptance-brand-media-policy",
+      "atlas_record_path": "analysis/records/comparative-ipsos-pride-2026-lgbt-acceptance-brand-media-policy.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Broad LGBT acceptance is holding while support for brand advocacy, media visibility and contested policy issues diverges",
+      "geography": "26 countries and markets; 23-country trend comparisons for selected questions",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "broad lgbt acceptance holding while support brand advocacy media visibility contested policy trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "broad lgbt acceptance holding while support brand advocacy media visibility contested policy trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "broad lgbt acceptance holding while support brand advocacy media visibility contested policy trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "broad lgbt acceptance holding while support brand advocacy media visibility contested policy trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-small-acts-kindness-older-people-winter-energy-loneliness-2026",
+      "atlas_record_path": "analysis/records/comparative-ipsos-small-acts-kindness-older-people-winter-energy-loneliness-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Targeted winter kindness meets older residents at the intersection of energy hardship, food trade-offs, loneliness and information access",
+      "geography": "Hertfordshire and Bedfordshire, England; nominated older and vulnerable residents receiving charity gift bags",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "targeted winter kindness meets older residents intersection energy hardship food trade-offs loneliness household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "targeted winter kindness meets older residents intersection energy hardship food trade-offs loneliness household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "targeted winter kindness meets older residents intersection energy hardship food trade-offs loneliness household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "targeted winter kindness meets older residents intersection energy hardship food trade-offs loneliness household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-sustainability-reality-check-2026-affordability-health-trust-action",
+      "atlas_record_path": "analysis/records/comparative-ipsos-sustainability-reality-check-2026-affordability-health-trust-action.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Climate concern is being filtered through affordability, health and credibility, making sustainability an everyday-value problem rather than a duty-only problem",
+      "geography": "15-market comparative consumer research; public analysis synthesizes the Market Essentials Sustainability Report 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "climate concern being filtered through affordability health credibility making sustainability everyday-value problem household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "climate concern being filtered through affordability health credibility making sustainability everyday-value problem household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "climate concern being filtered through affordability health credibility making sustainability everyday-value problem household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "climate concern being filtered through affordability health credibility making sustainability everyday-value problem household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-thailand-consumer-sentiment-september-2026-corruption-safety-spending",
+      "atlas_record_path": "analysis/records/comparative-ipsos-thailand-consumer-sentiment-september-2026-corruption-safety-spending.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Thai consumers retain routine spending resilience while corruption, safety, unemployment and affordability weaken political-economic legitimacy",
+      "geography": "Thailand; Thai consumers and public-opinion respondents as defined by the Ipsos release",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "thai consumers retain routine spending resilience while corruption safety unemployment affordability weaken household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "thai consumers retain routine spending resilience while corruption safety unemployment affordability weaken household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "thai consumers retain routine spending resilience while corruption safety unemployment affordability weaken household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "thai consumers retain routine spending resilience while corruption safety unemployment affordability weaken household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-unhcr-refugee-attitudes-2026-protection-implementation-responsibility",
+      "atlas_record_path": "analysis/records/comparative-ipsos-unhcr-refugee-attitudes-2026-protection-implementation-responsibility.json",
+      "canonical_theme": "geopolitical-state-consequences",
+      "title": "Support for refugee protection remains broad while confidence depends on eligibility, integration, permanence and responsibility-sharing",
+      "geography": "Global multi-country survey; country, generation and crisis-scenario comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "support refugee protection remains broad while confidence depends eligibility integration permanence responsibility-sharing geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "support refugee protection remains broad while confidence depends eligibility integration permanence responsibility-sharing geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "support refugee protection remains broad while confidence depends eligibility integration permanence responsibility-sharing geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "support refugee protection remains broad while confidence depends eligibility integration permanence responsibility-sharing geopolitical-state-consequences 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipsos-what-worries-world-september-2026-public-concerns-direction",
+      "atlas_record_path": "analysis/records/comparative-ipsos-what-worries-world-september-2026-public-concerns-direction.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Public concern remains materially grounded while country optimism can move ahead of lived economic satisfaction",
+      "geography": "30-country monthly public-opinion survey, around 20,000 adults",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "public concern remains materially grounded while country optimism can move ahead lived trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "public concern remains materially grounded while country optimism can move ahead lived trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "public concern remains materially grounded while country optimism can move ahead lived trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "public concern remains materially grounded while country optimism can move ahead lived trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-ipu-un-women-politics-2026-representation-hostility-quotas",
+      "atlas_record_path": "analysis/records/comparative-ipu-un-women-politics-2026-representation-hostility-quotas.json",
+      "canonical_theme": "political-judgment-collective-action",
+      "title": "Women’s political representation is edging forward while executive power, parliamentary leadership, and safety remain sharply unequal",
+      "geography": "Global national parliaments, cabinets, heads of state or government, parliamentary speakers, women parliamentarians, and countries holding elections or parliamentary renewals in 2025",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "women political representation edging forward while executive power parliamentary leadership safety remain political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "women political representation edging forward while executive power parliamentary leadership safety remain political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "women political representation edging forward while executive power parliamentary leadership safety remain political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "women political representation edging forward while executive power parliamentary leadership safety remain political-judgment-collective-action 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-irena-ilo-renewable-energy-jobs-2025-inclusive-workforce-geopolitics",
+      "atlas_record_path": "analysis/records/comparative-irena-ilo-renewable-energy-jobs-2025-inclusive-workforce-geopolitics.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Renewable deployment is creating a large but geographically concentrated workforce, while automation, supply-chain frictions and grid constraints weaken the simple promise that more capacity means proportionally more jobs",
+      "geography": "Global renewable-energy employment and supply-chain analysis, with attention to geographic concentration, workforce inclusion and public policy",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "renewable deployment creating large but geographically concentrated workforce while automation supply-chain frictions ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "renewable deployment creating large but geographically concentrated workforce while automation supply-chain frictions ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "renewable deployment creating large but geographically concentrated workforce while automation supply-chain frictions ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "renewable deployment creating large but geographically concentrated workforce while automation supply-chain frictions ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security",
+      "atlas_record_path": "analysis/records/comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Renewable deployment is accelerating, but technology and regional concentration shape who gains energy security",
+      "geography": "Global renewable power generation capacity, with regional and technology comparisons for 2016-2025 and detailed 2025 additions",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "renewable deployment accelerating but technology regional concentration shape who gains energy security infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "renewable deployment accelerating but technology regional concentration shape who gains energy security infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "renewable deployment accelerating but technology regional concentration shape who gains energy security infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "renewable deployment accelerating but technology regional concentration shape who gains energy security infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-itdf-human-purpose-peril-2026-ai-meaning-agency-social-bonds",
+      "atlas_record_path": "analysis/records/comparative-itdf-human-purpose-peril-2026-ai-meaning-agency-social-bonds.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Americans are using AI as a practical life infrastructure while fearing losses of purpose, agency and human connection",
+      "geography": "United States adults, including large language model users and demographic subgroups",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "americans are using practical life infrastructure while fearing losses purpose agency human trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "americans are using practical life infrastructure while fearing losses purpose agency human trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "americans are using practical life infrastructure while fearing losses purpose agency human trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "americans are using practical life infrastructure while fearing losses purpose agency human trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-itu-ai-ageing-2026-digital-inclusion-health-security-participation",
+      "atlas_record_path": "analysis/records/comparative-itu-ai-ageing-2026-digital-inclusion-health-security-participation.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "AI and ageing are being framed as an inclusion and agency problem across health, economic security, participation and connectivity",
+      "geography": "Older persons globally, with attention to age, gender, regional, affordability, skills, trust and connectivity differences",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "ageing are being framed inclusion agency problem across health economic security participation care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "ageing are being framed inclusion agency problem across health economic security participation care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "ageing are being framed inclusion agency problem across health economic security participation care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "ageing are being framed inclusion agency problem across health economic security participation care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-itu-digital-connectivity-divides-2025",
+      "atlas_record_path": "analysis/records/comparative-itu-digital-connectivity-divides-2025.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Basic internet access is expanding while quality, affordability, skills, and location continue to stratify meaningful digital participation",
+      "geography": "Global, with income-group, gender, age, and urban-rural comparisons",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "basic internet access expanding while quality affordability skills location continue stratify meaningful infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "basic internet access expanding while quality affordability skills location continue stratify meaningful infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "basic internet access expanding while quality affordability skills location continue stratify meaningful infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "basic internet access expanding while quality affordability skills location continue stratify meaningful infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-itu-global-e-waste-monitor-2024-digital-circularity-material-recovery",
+      "atlas_record_path": "analysis/records/comparative-itu-global-e-waste-monitor-2024-digital-circularity-material-recovery.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Digital expansion is creating a material-recovery and environmental-health gap: e-waste grows faster than formal collection, while regulation strongly differentiates outcomes",
+      "geography": "Global e-waste generation, collection, recycling, materials and policy comparison",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "digital expansion creating material-recovery environmental-health gap e-waste grows faster than formal collection infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "digital expansion creating material-recovery environmental-health gap e-waste grows faster than formal collection infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "digital expansion creating material-recovery environmental-health gap e-waste grows faster than formal collection infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "digital expansion creating material-recovery environmental-health gap e-waste grows faster than formal collection infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-itu-ict-development-index-2026-meaningful-connectivity-affordability",
+      "atlas_record_path": "analysis/records/comparative-itu-ict-development-index-2026-meaningful-connectivity-affordability.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Connectivity is progressing globally, but affordability, usage, and network quality continue to divide digital participation",
+      "geography": "159 economies compared on universal and meaningful connectivity, affordability, Internet use, and quality of connectivity",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "connectivity progressing globally but affordability usage network quality continue divide digital participation infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "connectivity progressing globally but affordability usage network quality continue divide digital participation infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "connectivity progressing globally but affordability usage network quality continue divide digital participation infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "connectivity progressing globally but affordability usage network quality continue divide digital participation infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-itu-pop-child-online-protection-2026-reporting-support-pathways",
+      "atlas_record_path": "analysis/records/comparative-itu-pop-child-online-protection-2026-reporting-support-pathways.json",
+      "canonical_theme": "platform-exit",
+      "title": "Child online protection is shifting from blocking risk toward building accessible reporting, help-seeking and referral pathways",
+      "geography": "Global child online protection systems involving governments, industry, civil society, child helplines, academia and international organizations",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "child online protection shifting blocking risk toward building accessible reporting help-seeking referral platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "child online protection shifting blocking risk toward building accessible reporting help-seeking referral platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "child online protection shifting blocking risk toward building accessible reporting help-seeking referral platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "child online protection shifting blocking risk toward building accessible reporting help-seeking referral platform-exit 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-itu-undrr-digital-systems-fail-2026-cascades-resilience",
+      "atlas_record_path": "analysis/records/comparative-itu-undrr-digital-systems-fail-2026-cascades-resilience.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Digital-system failure is being reframed as a cross-border cascade risk requiring analogue fallback, shared warning, and coordinated resilience",
+      "geography": "Global digital infrastructure and the cross-border systems that depend on communications, energy, finance, transport, healthcare, emergency response, and government services",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "digital-system failure being reframed cross-border cascade risk requiring analogue fallback shared warning infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "digital-system failure being reframed cross-border cascade risk requiring analogue fallback shared warning infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "digital-system failure being reframed cross-border cascade risk requiring analogue fallback shared warning infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "digital-system failure being reframed cross-border cascade risk requiring analogue fallback shared warning infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments",
+      "atlas_record_path": "analysis/records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Digital companies are expanding connectivity and AI capacity while emissions, electricity demand, and climate-accountability gaps remain material",
+      "geography": "200 digital companies worldwide assessed on greenhouse-gas emissions, energy consumption, climate commitments, and transition plans",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0013",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "digital companies are expanding connectivity capacity while emissions electricity demand climate-accountability gaps infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "digital companies are expanding connectivity capacity while emissions electricity demand climate-accountability gaps infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "digital companies are expanding connectivity capacity while emissions electricity demand climate-accountability gaps infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "digital companies are expanding connectivity capacity while emissions electricity demand climate-accountability gaps infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
