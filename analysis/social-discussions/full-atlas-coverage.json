@@ -2137,40 +2137,42 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Arts and culture operate as social infrastructure, but cost and welcome determine who can convert participation into belonging",
       "geography": "Canada; national survey of residents ages 16 and older, including a telephone sample from the territories",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "arts culture operate social infrastructure but cost welcome determine who can convert trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "arts culture operate social infrastructure but cost welcome determine who can convert trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-canada-arts-heritage-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "arts culture operate social infrastructure but cost welcome determine who can convert trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "arts culture operate social infrastructure but cost welcome determine who can convert trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-canada-express-entry-selection-occupational-mobility-2026",
@@ -2428,40 +2430,42 @@
       "canonical_theme": "household-room-consumption",
       "title": "China's cultural-consumption growth is real but remains stratified by household place and room",
       "geography": "China; nationwide, urban, and rural resident aggregates",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china's cultural-consumption growth real but remains stratified household place room national bureau household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "china's cultural-consumption growth real but remains stratified household place room national bureau household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-china-consumption-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china's cultural-consumption growth real but remains stratified household place room national bureau household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china's cultural-consumption growth real but remains stratified household place room national bureau household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-china-nbs-august-2026-retail-cpi-category-pressure",

@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-china-consumption-reddit-001",
+  "atlas_record_ids": ["comparative-china-nbs-2025-household-consumption-culture-recreation-urban-rural"],
+  "topic": "household-room-consumption",
+  "platform": "reddit",
+  "item_type": "audience_reaction_and_household_consumption_signal",
+  "author_or_account": "r/China participants; accounts not exposed",
+  "title": "Saving for care, housing and family constrains Chinese consumption",
+  "canonical_url": "https://www.reddit.com/r/China/comments/1ua479r/xi_jinping_wants_china_to_boost_demand_why_isnt/",
+  "published_window": "2026-06-19",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The discussion links weak consumption to property losses, job insecurity, limited safety nets and a family expectation to save for healthcare, education and elder care. Other replies point to strong spending on food and recreation, preserving a counter-signal against treating low aggregate consumption as absence of consumption or culture.",
+  "research_anchor_paths": ["analysis/records/comparative-china-nbs-2025-household-consumption-culture-recreation-urban-rural.json"],
+  "linked_research_question": "How do household security needs, place and family obligations convert income into saving, culture, recreation or deferred consumption?",
+  "classification": ["audience_reaction", "household_security", "saving", "counter_signal"],
+  "limits": ["Self-selected international discussion about China", "Replies are anecdotal and politically contested", "Does not establish urban-rural or national prevalence"]
+}
