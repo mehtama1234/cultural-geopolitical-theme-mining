@@ -17,6 +17,7 @@ not an outage, and a suspected gray-zone risk is not attribution.
 ## Current bridge
 
 - [Cable redundancy to service continuity and geopolitical legitimacy](transpacific-cable-redundancy-service-continuity-legitimacy-bridge-v1.md)
+- [Manatua cable incident: from breakage to service continuity](manatua-cable-incident-service-continuity-bridge-v1.md)
 
 ## Ongoing question
 
