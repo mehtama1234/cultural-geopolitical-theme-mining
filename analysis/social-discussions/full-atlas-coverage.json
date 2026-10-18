@@ -42466,8 +42466,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Workers can request changes to make work usable, but employer granting and job-level control remain uneven",
       "geography": "United States wage and salary workers and nationally representative civilian-job requirements",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42499,7 +42499,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-business-economics-immigration-policy-labor-supply-2026",
@@ -42507,8 +42507,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Immigration policy is becoming a labor-supply and sector-growth constraint, not only a border or identity issue",
       "geography": "United States; national labor supply, immigrant-intensive industries, and federal/state/local fiscal contexts",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42540,7 +42540,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-butler-nickerson-constituency-information-legislative-vote-2008",
@@ -42548,8 +42548,8 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "Providing district-specific constituent opinion made state legislators' votes track constituency preferences more closely",
       "geography": "New Mexico state House districts; 70-seat House, with 35 matched treatment-control pairs",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42581,7 +42581,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-california-doi-wildfire-county-context-2022",
@@ -42589,8 +42589,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Counties with greater modeled wildfire exposure show somewhat higher voluntary-market nonrenewal in a 2022 California screen",
       "geography": "California counties",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42622,7 +42622,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-california-drop-data-broker-deletion-control-2026",
@@ -42630,8 +42630,8 @@
       "canonical_theme": "platform-exit",
       "title": "California's single data-broker deletion route makes privacy control more observable without proving durable removal",
       "geography": "California consumers, registered data brokers, and the California Privacy Protection Agency",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42663,7 +42663,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-california-fair-joint-context-2022",
@@ -42671,8 +42671,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "The California ZIP nonrenewal gradient is largest in the joint low-income/high-wildfire-risk screen",
       "geography": "California ZIP/ZCTA approximations with county exposure context",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42704,7 +42704,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-california-fair-joint-sensitivity-2022",
@@ -42712,8 +42712,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "California joint insurance gradients are sensitive to income and wildfire-risk cut points",
       "geography": "California ZIP/ZCTA approximations with county exposure context",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42745,7 +42745,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-california-fair-market-acs-context-2022",
@@ -42753,8 +42753,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "California ZIP nonrenewal and FAIR-share differences vary with place income and housing structure",
       "geography": "California ZIP/ZCTA approximations",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42786,7 +42786,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-california-fair-plan-residual-market-growth-2021-2026",
@@ -42794,8 +42794,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "California's last-resort insurance pool expanded sharply in policies and insured exposure",
       "geography": "California; residential, commercial, and business-owner lines in the five-year county reports, with current quarterly total",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42827,7 +42827,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-california-fair-private-market-crosswalk-2020-2023",
@@ -42835,8 +42835,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "California ZIP codes with greater FAIR Plan share also show higher voluntary-market nonrenewal among renewal decisions",
       "geography": "California; ZIP-code and statewide comparisons",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42868,7 +42868,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-california-medical-expansion-access-continuity-2025",
@@ -42876,8 +42876,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "California's immigration-status-neutral Medi-Cal expansion converted formal eligibility into initial care access, while continuity remains conditional",
       "geography": "California; statewide Medi-Cal policy with a qualitative study of nearly 100 undocumented adults",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42909,7 +42909,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-california-wildfire-claims-smoke-recovery-2026",
@@ -42917,8 +42917,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Wildfire insurance payments and new smoke rules can advance before safe household recovery is visible",
       "geography": "Los Angeles County Eaton and Palisades wildfire claims and California statewide insurance regulation",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42950,7 +42950,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-california-wildfire-insurance-fair-plan-coverage-remedy-2026",
@@ -42958,8 +42958,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "California wildfire risk is becoming an insurance-availability and household-exit problem before reforms can prove durable protection",
       "geography": "California; wildfire-distressed areas and 2025 Los Angeles wildfire claim exposure",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -42991,7 +42991,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-calprivacy-drop-data-broker-deletion-2026",
@@ -42999,8 +42999,8 @@
       "canonical_theme": "platform-exit",
       "title": "A centralized privacy request can scale consumer control while leaving broker-level deletion unresolved",
       "geography": "California consumers and registered data brokers",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43032,7 +43032,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-capita-book-harvest-home-literacy-2026",
@@ -43040,8 +43040,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Parents value home libraries, but cost, time, cultural fit and work strain make household literacy uneven",
       "geography": "United States; parents and guardians of children ages 0-12, with income, race, reading-routine and cultural-fit comparisons",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43073,7 +43073,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-care-time-material-mobility-crosssource-2022-2025",
@@ -43081,8 +43081,8 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Care constraints move through work, time, household room, and mobility rather than one burden channel",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43114,7 +43114,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-carnes-holbein-casework-social-class-response-2012-2013",
@@ -43122,8 +43122,8 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "Routine casework response did not vary detectably by the sender's signaled social class in four audit experiments",
       "geography": "United States; North Carolina state legislators, North Carolina and Kentucky public school principals, and a national sample of mayors",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43155,7 +43155,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cbo-climate-disaster-homeowners-insurance-2024",
@@ -43163,8 +43163,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Climate and disaster risk can move homeowner losses into household and federal exposure",
       "geography": "United States; national policy and modeled federal exposure frame",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43196,7 +43196,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cbo-household-income-distribution-2023-transfers-taxes-inequality",
@@ -43204,8 +43204,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Market income, transfers and taxes tell different stories about household security",
       "geography": "United States; approximately 134 million households, income quintiles and top 1 percent, 1979–2023",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43237,7 +43237,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cbo-outlook-2026-2036-tariffs-immigration-aging-ai-growth",
@@ -43245,8 +43245,8 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "US growth is being reconfigured by fiscal stimulus, tariffs, immigration, aging, and AI investment",
       "geography": "United States; federal budget, macroeconomy, labor force, households, firms, trade, and global exposure",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43278,7 +43278,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cbo-social-security-long-term-projections-2026-trust-fund-2032-intergenerational-contract",
@@ -43286,8 +43286,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Retirement security is a present social contract with a 2032 institutional deadline",
       "geography": "United States; Social Security program, Old-Age and Survivors Insurance Trust Fund, current-law 75-year projection",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43319,7 +43319,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cbp-acs-transport-capacity-cells-2023",
@@ -43327,8 +43327,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "County health-sector capacity and vehicle constraint occupy four distinct place cells",
       "geography": "United States counties",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43360,7 +43360,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cces-county-growth-trust-action-2024",
@@ -43368,8 +43368,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "County growth context coincides with distinct federal trust patterns while civic action remains stable",
       "geography": "United States; 620 counties with at least 100,000 residents and valid 2020/2023 population estimates",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43401,7 +43401,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cces-local-capacity-trust-action-2024",
@@ -43409,8 +43409,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Local capacity and mobility cells carry different political-context patterns without a simple trust or action gradient",
       "geography": "United States; 620 counties with at least 100,000 residents and valid 2020/2023 population estimates",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43442,7 +43442,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cces-local-capacity-trust-action-party-2024",
@@ -43450,8 +43450,8 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Capacity-cell political context varies sharply by party identity as well as place",
       "geography": "United States; 620 counties with at least 100,000 residents and valid 2020/2023 population estimates",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0042",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -43483,7 +43483,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-cces-medical-affordability-political-participation-2018-2020",
