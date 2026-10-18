@@ -2,7 +2,8 @@
   "schema": "social-augmentation-batch-v1",
   "batch_id": "atlas-batch-0040",
   "opened": "2026-10-18",
-  "window": "2025-10-17 through 2026-10-17",
+  "closed": "2026-10-18",
+  "window": "2025-10-18 through 2026-10-18",
   "record_count": 25,
   "atlas_record_ids": [
     "us-atus-eldercare-provider-richer-standardized-2024-2025",
@@ -38,40 +39,40 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Eldercare time contrasts remain after adding household-child and education composition controls",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare time contrasts remain after adding household-child education composition controls atus respondent time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare time contrasts remain after adding household-child education composition controls atus respondent time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare time contrasts remain after adding household-child education composition controls atus respondent time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare time contrasts remain after adding household-child education composition controls atus respondent time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-atus-eldercare-provider-standardized-2024-2025",
@@ -79,40 +80,40 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Basic composition standardization preserves eldercare providers’ household-work, travel, and social-time profile",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "basic composition standardization preserves eldercare providers household-work travel social-time profile atus respondent time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "basic composition standardization preserves eldercare providers household-work travel social-time profile atus respondent time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "basic composition standardization preserves eldercare providers household-work travel social-time profile atus respondent time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "basic composition standardization preserves eldercare providers household-work travel social-time profile atus respondent time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-atus-eldercare-provider-time-2024-2025",
@@ -120,40 +121,40 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Eldercare providers show a distinct time-allocation profile, but annual ATUS cells are not causal comparisons",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare providers show distinct time-allocation profile but annual atus cells are not time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare providers show distinct time-allocation profile but annual atus cells are not time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare providers show distinct time-allocation profile but annual atus cells are not time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare providers show distinct time-allocation profile but annual atus cells are not time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-atus-eldercare-roster-2024-2025",
@@ -161,40 +162,40 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Eldercare providers commonly link to non-household recipients, but annual samples cannot show burden or displacement",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare providers commonly link non-household recipients but annual samples cannot show burden time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare providers commonly link non-household recipients but annual samples cannot show burden time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare providers commonly link non-household recipients but annual samples cannot show burden time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare providers commonly link non-household recipients but annual samples cannot show burden time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-atus-eldercare-work-time-2023-2024",
@@ -202,40 +203,40 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Eldercare is a large and uneven time institution",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare large uneven time institution atus respondent age combined published tables time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare large uneven time institution atus respondent age combined published tables time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare large uneven time institution atus respondent age combined published tables time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eldercare large uneven time institution atus respondent age combined published tables time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-atus-time-care-annual-comparison-2024-2025",
@@ -243,40 +244,40 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Annual time-use categories move modestly while gender and life-stage ordering remains visible",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "annual time-use categories move modestly while gender life-stage ordering remains visible atus time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "annual time-use categories move modestly while gender life-stage ordering remains visible atus time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "annual time-use categories move modestly while gender life-stage ordering remains visible atus time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "annual time-use categories move modestly while gender life-stage ordering remains visible atus time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-atus-time-care-microdata-2024",
@@ -284,40 +285,40 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Time, care, paid work, travel, and social participation are distributed as separate currencies",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "time care paid work travel social participation are distributed separate currencies atus time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "time care paid work travel social participation are distributed separate currencies atus time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "time care paid work travel social participation are distributed separate currencies atus time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "time care paid work travel social participation are distributed separate currencies atus time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-australia-social-media-age-restriction-2026",
@@ -325,40 +326,42 @@
       "canonical_theme": "platform-exit",
       "title": "Large platform account actions can coexist with substantial residual access under an age restriction",
       "geography": "Australia; children aged under 16, parents/carers, age-restricted platforms, and the eSafety regulator; comparative evidence for U.S.-centered platform-governance analysis",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "large platform account actions can coexist substantial residual access under age restriction platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "large platform account actions can coexist substantial residual access under age restriction platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "large platform account actions can coexist substantial residual access under age restriction platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0040-australia-age-restriction-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "large platform account actions can coexist substantial residual access under age restriction platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-azul-latino-ocean-culture-access-climate-politics-2026",
@@ -366,40 +369,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Latino ocean politics joins cultural inheritance, public access, household cost and cross-partisan climate action",
       "geography": "United States; Latino voters",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "latino ocean politics joins cultural inheritance public access household cost cross-partisan climate trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "latino ocean politics joins cultural inheritance public access household cost cross-partisan climate trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "latino ocean politics joins cultural inheritance public access household cost cross-partisan climate trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "latino ocean politics joins cultural inheritance public access household cost cross-partisan climate trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bds-county-sector-divergence-2026",
@@ -407,40 +410,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "County business turnover diverges sharply by the sector through which residents experience place",
       "geography": "United States; 3,194 counties and county equivalents in the 2023 county-sector table",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "county business turnover diverges sharply sector through which residents experience place county-sector housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "county business turnover diverges sharply sector through which residents experience place county-sector housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "county business turnover diverges sharply sector through which residents experience place county-sector housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "county business turnover diverges sharply sector through which residents experience place county-sector housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bds-hrsa-capacity-adequacy-overlay-2026",
@@ -448,40 +451,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Employer job flow does not stand in for primary-care adequacy",
       "geography": "United States; county-sector rows with 2023 BDS rates and current HRSA county-FIPS representation",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employer job flow does not stand primary-care adequacy county-sector bds flows overlaid care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employer job flow does not stand primary-care adequacy county-sector bds flows overlaid care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employer job flow does not stand primary-care adequacy county-sector bds flows overlaid care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employer job flow does not stand primary-care adequacy county-sector bds flows overlaid care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bds-places-health-flow-outcome-2026",
@@ -489,40 +492,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Health-sector job flow does not identify county care need or routine-care outcomes",
       "geography": "United States; 2,878 counties with a reported BDS health net-job rate and at least one selected PLACES measure",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-sector job flow does not identify county care need routine-care outcomes bds care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-sector job flow does not identify county care need routine-care outcomes bds care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-sector job flow does not identify county care need routine-care outcomes bds care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-sector job flow does not identify county care need routine-care outcomes bds care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bea-ai-economic-accounts-utilization-costs-2026",
@@ -530,40 +533,40 @@
       "canonical_theme": "ai-work-control",
       "title": "BEA's early AI estimates separate measurement limits, realized use, output, and industry cost shifts",
       "geography": "United States; industries and state-by-industry cells",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bea's early estimates separate measurement limits realized use output industry cost shifts ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bea's early estimates separate measurement limits realized use output industry cost shifts ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bea's early estimates separate measurement limits realized use output industry cost shifts ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bea's early estimates separate measurement limits realized use output industry cost shifts ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bea-gdp-corporate-profits-2026q2",
@@ -571,40 +574,40 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Second-quarter 2026 output, private demand, prices, and corporate profits move on different scales",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "second-quarter output private demand prices corporate profits move different scales bea second-estimate firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "second-quarter output private demand prices corporate profits move different scales bea second-estimate firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "second-quarter output private demand prices corporate profits move different scales bea second-estimate firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "second-quarter output private demand prices corporate profits move different scales bea second-estimate firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bea-household-production-account-2024",
@@ -612,40 +615,40 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Unpaid household production is a large part of the economy even when GDP leaves it out",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "unpaid household production large part economy even when gdp leaves out bea time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "unpaid household production large part economy even when gdp leaves out bea time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "unpaid household production large part economy even when gdp leaves out bea time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "unpaid household production large part economy even when gdp leaves out bea time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bea-outdoor-recreation-economy-2024",
@@ -653,40 +656,40 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Outdoor recreation is a major regional economy, but economic scale does not prove equal cultural access",
       "geography": "United States, all 50 states, and District of Columbia",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "outdoor recreation major regional economy but economic scale does not prove equal housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "outdoor recreation major regional economy but economic scale does not prove equal housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "outdoor recreation major regional economy but economic scale does not prove equal housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "outdoor recreation major regional economy but economic scale does not prove equal housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bea-personal-income-outlays-2026-august",
@@ -694,40 +697,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "August consumption accelerates while real disposable income is flat and saving rises",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bea-personal-income-outlays-2026-july",
@@ -735,40 +738,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "July 2026 personal income and consumption rise while saving and spending composition remain separate household surfaces",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "july personal income consumption rise while saving spending composition remain separate household household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "july personal income consumption rise while saving spending composition remain separate household household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "july personal income consumption rise while saving spending composition remain separate household household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "july personal income consumption rise while saving spending composition remain separate household household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-berkeley-security-guard-workforce-2026-job-quality-public-safety",
@@ -776,40 +779,40 @@
       "canonical_theme": "ai-work-control",
       "title": "Private security has become public-safety infrastructure while its workforce remains underpaid and underprotected",
       "geography": "United States; national security-guard workforce with selected state and metropolitan comparisons",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "private security has become public-safety infrastructure while its workforce remains underpaid underprotected ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "private security has become public-safety infrastructure while its workforce remains underpaid underprotected ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "private security has become public-safety infrastructure while its workforce remains underpaid underprotected ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "private security has become public-safety infrastructure while its workforce remains underpaid underprotected ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bfs-bds-sector-dynamics-2023",
@@ -817,40 +820,40 @@
       "canonical_theme": "ai-work-control",
       "title": "Business formation signals diverge from realized establishment and job capacity by sector",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "business formation signals diverge realized establishment job capacity sector national census bfs ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "business formation signals diverge realized establishment job capacity sector national census bfs ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "business formation signals diverge realized establishment job capacity sector national census bfs ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "business formation signals diverge realized establishment job capacity sector national census bfs ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bis-alpha-omega-huawei-power-semiconductor-settlement-2025",
@@ -858,40 +861,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Alpha and Omega's Huawei power-semiconductor settlement records samples, in-country transfers, a business-unit exit, and conditional export privileges",
       "geography": "United States, Taiwan-linked and PRC operations, Huawei, and power-semiconductor supply chains",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "alpha omega's huawei power-semiconductor settlement records samples in-country transfers business-unit exit conditional geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "alpha omega's huawei power-semiconductor settlement records samples in-country transfers business-unit exit conditional geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "alpha omega's huawei power-semiconductor settlement records samples in-country transfers business-unit exit conditional geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "alpha omega's huawei power-semiconductor settlement records samples in-country transfers business-unit exit conditional geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bis-applied-materials-semiconductor-equipment-settlement-2026",
@@ -899,40 +902,42 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "BIS converted a named semiconductor-equipment export violation into a major penalty and continuing compliance obligations",
       "geography": "United States, South Korea, China, and the semiconductor manufacturing-equipment supply chain",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis converted named semiconductor-equipment export violation into major penalty continuing compliance obligations geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis converted named semiconductor-equipment export violation into major penalty continuing compliance obligations geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "bis converted named semiconductor-equipment export violation into major penalty continuing compliance obligations geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0040-applied-materials-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis converted named semiconductor-equipment export violation into major penalty continuing compliance obligations geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bis-bosch-foreign-produced-mems-huawei-settlement-2026",
@@ -940,40 +945,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "BIS applied the Foreign Direct Product Rule to a German firm's foreign-produced MEMS and software shipments to Huawei",
       "geography": "Germany, foreign production sites, United States export-control jurisdiction, China/Huawei, and consumer-sensor supply chains",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis applied foreign direct product rule german firm's foreign-produced mems software shipments geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis applied foreign direct product rule german firm's foreign-produced mems software shipments geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis applied foreign direct product rule german firm's foreign-produced mems software shipments geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis applied foreign direct product rule german firm's foreign-produced mems software shipments geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bis-doj-cadence-eda-export-enforcement-2025",
@@ -981,40 +986,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Cadence enforcement exposed repeated semiconductor-design-tool exports through a PRC front company and produced parallel criminal and civil remedies",
       "geography": "United States, PRC, PRC military-linked university and semiconductor-design ecosystem",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cadence enforcement exposed repeated semiconductor-design-tool exports through prc front company produced parallel geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cadence enforcement exposed repeated semiconductor-design-tool exports through prc front company produced parallel geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cadence enforcement exposed repeated semiconductor-design-tool exports through prc front company produced parallel geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "cadence enforcement exposed repeated semiconductor-design-tool exports through prc front company produced parallel geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bis-foreign-fab-veu-export-control-closure-2025",
@@ -1022,41 +1027,41 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "BIS closed a foreign-fab export-control exception while preserving existing operation and restricting expansion",
       "geography": "United States, foreign-owned semiconductor fabs in China, and the advanced-semiconductor supply chain",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0040",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis closed foreign-fab export-control exception while preserving existing operation restricting expansion august geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis closed foreign-fab export-control exception while preserving existing operation restricting expansion august geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis closed foreign-fab export-control exception while preserving existing operation restricting expansion august geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "bis closed foreign-fab export-control exception while preserving existing operation restricting expansion august geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     }
   ],
-  "status": "in_review"
+  "status": "closed"
 }
