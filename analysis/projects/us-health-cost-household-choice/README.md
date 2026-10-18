@@ -334,6 +334,11 @@ Health costs may act like a quiet income cut: people can protect the bill today 
 
 Do not treat total national health spending as the same thing as what a family can afford. Do not treat having insurance as proof that care is affordable.
 
+The [health coverage, trust, care continuity, and remedy bridge](health-coverage-trust-care-continuity-remedy-bridge-v1.md)
+extends the project through MEPS financial-room and authorization friction,
+Commonwealth denial and appeal evidence, NBER trust and Medicaid-renewal
+experiments, medical-debt credit effects, and bounded public discussion.
+
 ## Writing rule
 
 Use everyday words. Say what care was missed, what bill was paid, what work or saving changed, and who had a choice. Avoid broad claims about “the health care system” unless the record shows the exact actor and action.
