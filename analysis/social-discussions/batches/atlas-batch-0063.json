@@ -2,7 +2,8 @@
   "schema": "social-augmentation-batch-v1",
   "batch_id": "atlas-batch-0063",
   "opened": "2026-10-18",
-  "window": "2025-10-17 through 2026-10-17",
+  "closed": "2026-10-18",
+  "window": "2025-10-18 through 2026-10-18",
   "record_count": 25,
   "atlas_record_ids": [
     "us-nato-belgian-mq9b-nisrf-deployment-2026",
@@ -38,40 +39,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "NATO infrastructure enabled a Belgian ISR deployment and named operational use without proving strategic effect",
       "geography": "Sigonella, Italy; Belgian MQ-9B deployment supporting NATO's Operation Sea Guardian and Operation Noble Shield",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato infrastructure enabled belgian isr deployment named operational use without proving strategic geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato infrastructure enabled belgian isr deployment named operational use without proving strategic geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato infrastructure enabled belgian isr deployment named operational use without proving strategic geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato infrastructure enabled belgian isr deployment named operational use without proving strategic geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nato-germany-hybrid-response-alliance-posture-2026",
@@ -79,40 +80,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "An alliance can translate a hybrid incident into posture and leadership changes before deterrence is verified",
       "geography": "Germany, Lithuania, NATO eastern flank, and the North Atlantic Alliance",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "alliance can translate hybrid incident into posture leadership changes before deterrence verified geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "alliance can translate hybrid incident into posture leadership changes before deterrence verified geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "alliance can translate hybrid incident into posture leadership changes before deterrence verified geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "alliance can translate hybrid incident into posture leadership changes before deterrence verified geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nato-host-nation-rehearsal-denmark-2026",
@@ -120,40 +121,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "A host-nation rehearsal can make allied movement coordination visible without proving crisis performance",
       "geography": "Copenhagen and Herning, Denmark; NATO Allied Reaction Force and Danish host-nation coordination",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "host-nation rehearsal can make allied movement coordination visible without proving crisis performance geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "host-nation rehearsal can make allied movement coordination visible without proving crisis performance geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "host-nation rehearsal can make allied movement coordination visible without proving crisis performance geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "host-nation rehearsal can make allied movement coordination visible without proving crisis performance geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nato-kfor-posture-local-security-integration-2026",
@@ -161,40 +162,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "A security mission can adjust posture through local institutional integration before proving durable legitimacy",
       "geography": "Kosovo; NATO-led KFOR mission and local/regional security institutions",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "security mission can adjust posture through local institutional integration before proving durable geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "security mission can adjust posture through local institutional integration before proving durable geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "security mission can adjust posture through local institutional integration before proving durable geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "security mission can adjust posture through local institutional integration before proving durable geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nato-lithuania-drone-interception-alliance-response-2026",
@@ -202,40 +203,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "A Baltic air-policing mission moved from standing posture to a real interception while alliance unity was publicly reinforced",
       "geography": "Lithuania, Baltic airspace, NATO Baltic air-policing mission, and Italy",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "baltic air-policing mission moved standing posture real interception while alliance unity was geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "baltic air-policing mission moved standing posture real interception while alliance unity was geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "baltic air-policing mission moved standing posture real interception while alliance unity was geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "baltic air-policing mission moved standing posture real interception while alliance unity was geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nato-maven-operational-integration-2026",
@@ -243,40 +244,40 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "NATO moved an AI command-and-control platform from technical capability into exercise integration",
       "geography": "NATO enterprise; Joint Warfare Centre, Stavanger and SHAPE, Belgium",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato moved command-and-control platform technical capability into exercise integration joint warfare centre infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato moved command-and-control platform technical capability into exercise integration joint warfare centre infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato moved command-and-control platform technical capability into exercise integration joint warfare centre infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato moved command-and-control platform technical capability into exercise integration joint warfare centre infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nato-nisrf-agile-combat-employment-2026",
@@ -284,40 +285,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "A multinational ISR capability moved from readiness toward repeated operations with host-nation support",
       "geography": "NATO ISR Force operations across Norway, Finland, and Italy in support of Alliance activities",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational isr capability moved readiness toward repeated operations host-nation support nato intelligence geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational isr capability moved readiness toward repeated operations host-nation support nato intelligence geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational isr capability moved readiness toward repeated operations host-nation support nato intelligence geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational isr capability moved readiness toward repeated operations host-nation support nato intelligence geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nato-resilience-baseline-requirements-2026",
@@ -325,40 +326,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "NATO makes civilian resilience part of military readiness while implementation remains open",
       "geography": "NATO civil-military resilience planning and Host Nation Support requirements",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato makes civilian resilience part military readiness while implementation remains open baseline geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato makes civilian resilience part military readiness while implementation remains open baseline geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato makes civilian resilience part military readiness while implementation remains open baseline geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato makes civilian resilience part military readiness while implementation remains open baseline geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nato-task-force-x-baltic-2025-2026",
@@ -366,40 +367,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "A NATO technology experiment became a multinational capability commitment without proving deterrence",
       "geography": "Baltic Sea; NATO Allies and critical undersea infrastructure",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato technology experiment became multinational capability commitment without proving deterrence allied command geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato technology experiment became multinational capability commitment without proving deterrence allied command geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato technology experiment became multinational capability commitment without proving deterrence allied command geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nato technology experiment became multinational capability commitment without proving deterrence allied command geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nato-vigorous-warrior-civil-military-medical-readiness-2026",
@@ -407,40 +408,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "A multinational medical exercise can turn alliance readiness into civilian-military coordination before crisis performance is known",
       "geography": "Estonia, NATO member and partner countries, and the Alliance's eastern-flank medical-readiness network",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational medical exercise can turn alliance readiness into civilian-military coordination before crisis geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational medical exercise can turn alliance readiness into civilian-military coordination before crisis geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational medical exercise can turn alliance readiness into civilian-military coordination before crisis geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinational medical exercise can turn alliance readiness into civilian-military coordination before crisis geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nature-ai-dialogue-voter-persuasion-2024-2025",
@@ -448,40 +449,42 @@
       "canonical_theme": "platform-exit",
       "title": "A personalized AI conversation can move political preference in an experiment before real-world voting behavior is known",
       "geography": "United States primary case: 2024 presidential election experiment and Massachusetts psychedelic-legalization ballot measure; comparative Canadian and Polish experiments are retained as context",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "personalized conversation can move political preference experiment before real-world voting behavior known platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "personalized conversation can move political preference experiment before real-world voting behavior known platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "personalized conversation can move political preference experiment before real-world voting behavior known platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0063-ai-persuasion-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "personalized conversation can move political preference experiment before real-world voting behavior known platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nature-political-health-polarization-2026-ideology-trust-care-mortality",
@@ -489,40 +492,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "Political identity is emerging as a health determinant through trust, care engagement, and mortality divergence",
       "geography": "United States; nationally representative longitudinal cohort and a separately weighted online opinion sample",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "political identity emerging health determinant through trust care engagement mortality divergence nature care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "political identity emerging health determinant through trust care engagement mortality divergence nature care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "political identity emerging health determinant through trust care engagement mortality divergence nature care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "political identity emerging health determinant through trust care engagement mortality divergence nature care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-988-crisis-line-capacity-mortality-2026",
@@ -530,40 +533,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "988 can improve crisis-line operations without producing a detectable short-run mortality change",
       "geography": "United States states with differing pre-988 crisis-line capacity gaps and national suicide-mortality and mental-health outcomes",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "can improve crisis-line operations without producing detectable short-run mortality change nber working care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "can improve crisis-line operations without producing detectable short-run mortality change nber working care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "can improve crisis-line operations without producing detectable short-run mortality change nber working care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "can improve crisis-line operations without producing detectable short-run mortality change nber working care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-aca-underwriting-heterogeneous-effects-2026",
@@ -571,40 +574,40 @@
       "canonical_theme": "care-health-social-reproduction",
       "title": "The ACA's ban on health underwriting helped low-income, high-risk, and older applicants most",
       "geography": "United States; pre-ACA individual health-insurance applications and underwriting decisions, with effects estimated by age, income, and health risk",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aca's ban health underwriting helped low-income high-risk older applicants most nber working care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aca's ban health underwriting helped low-income high-risk older applicants most nber working care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aca's ban health underwriting helped low-income high-risk older applicants most nber working care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "aca's ban health underwriting helped low-income high-risk older applicants most nber working care-health-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-aggregate-shocks-preferences-beliefs-review-2024",
@@ -612,40 +615,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Large shocks can shape political preferences, risk attitudes, and institutional trust, especially when experienced young",
       "geography": "Literature on recessions, inflation, trade, migration, wars, terrorism, pandemics, and natural disasters, including U.S. and cross-national evidence",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "large shocks can shape political preferences risk attitudes institutional trust especially when trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "large shocks can shape political preferences risk attitudes institutional trust especially when trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "large shocks can shape political preferences risk attitudes institutional trust especially when trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "large shocks can shape political preferences risk attitudes institutional trust especially when trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-asset-management-performance-comovement-2026",
@@ -653,40 +656,40 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "AI-driven investing grows in hedge funds while early performance advantages decay and return comovement falls",
       "geography": "United States asset management and hedge-fund market; regulatory disclosures and USD-denominated hedge-fund assets",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "ai-driven investing grows hedge funds while early performance advantages decay return comovement firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "ai-driven investing grows hedge funds while early performance advantages decay return comovement firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "ai-driven investing grows hedge funds while early performance advantages decay return comovement firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "ai-driven investing grows hedge funds while early performance advantages decay return comovement firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-coding-productivity-shipping-output-2026",
@@ -694,40 +697,42 @@
       "canonical_theme": "ai-work-control",
       "title": "AI coding gains attenuate from task activity to shipped and used software",
       "geography": "Software development and software marketplaces; U.S.-anchored firm and labor-market relevance with global platform evidence",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "coding gains attenuate task activity shipped used software nber working paper using ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "coding gains attenuate task activity shipped used software nber working paper using ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "coding gains attenuate task activity shipped used software nber working paper using ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0063-ai-coding-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "coding gains attenuate task activity shipped used software nber working paper using ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-economic-forecast-policy-preferences-2026",
@@ -735,40 +740,40 @@
       "canonical_theme": "ai-work-control",
       "title": "AI forecasts differ mainly over economic consequences and produce distinct policy preferences across expert and public groups",
       "geography": "United States; forecasts and policy preferences from academic economists, AI-company employees, AI policy researchers, highly accurate forecasters, and the general public",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "forecasts differ mainly over economic consequences produce distinct policy preferences across expert ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "forecasts differ mainly over economic consequences produce distinct policy preferences across expert ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "forecasts differ mainly over economic consequences produce distinct policy preferences across expert ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "forecasts differ mainly over economic consequences produce distinct policy preferences across expert ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-exposure-adaptive-capacity-2026",
@@ -776,40 +781,40 @@
       "canonical_theme": "ai-work-control",
       "title": "AI exposure is not the same as workers' ability to adapt",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure not same workers' ability adapt occupation-level estimates worker adaptive capacity ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure not same workers' ability adapt occupation-level estimates worker adaptive capacity ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure not same workers' ability adapt occupation-level estimates worker adaptive capacity ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure not same workers' ability adapt occupation-level estimates worker adaptive capacity ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-exposure-measurement-instability-2026",
@@ -817,40 +822,40 @@
       "canonical_theme": "ai-work-control",
       "title": "AI exposure estimates can change when the measuring model changes",
       "geography": "United States occupational and county-level analyses",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure estimates can change when measuring model changes large-language-model ratings occupational downstream ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure estimates can change when measuring model changes large-language-model ratings occupational downstream ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure estimates can change when measuring model changes large-language-model ratings occupational downstream ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "exposure estimates can change when measuring model changes large-language-model ratings occupational downstream ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-measurement-validation-inference-2026",
@@ -858,40 +863,40 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "AI makes measurement scalable while moving the bottleneck to construct definition and validation",
       "geography": "Economics research and AI-enabled measurement; general methodological evidence with implications for U.S. public, firm, and institutional measurement",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "makes measurement scalable while moving bottleneck construct definition validation nber working paper infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "makes measurement scalable while moving bottleneck construct definition validation nber working paper infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "makes measurement scalable while moving bottleneck construct definition validation nber working paper infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "makes measurement scalable while moving bottleneck construct definition validation nber working paper infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-political-advice-2026",
@@ -899,40 +904,40 @@
       "canonical_theme": "platform-exit",
       "title": "Personalized AI political advice can trade perceived helpfulness for information quality",
       "geography": "United States-centered AI political-advice mechanism; no empirical geographic sample",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "personalized political advice can trade perceived helpfulness information quality nber working paper platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "personalized political advice can trade perceived helpfulness information quality nber working paper platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "personalized political advice can trade perceived helpfulness information quality nber working paper platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "personalized political advice can trade perceived helpfulness information quality nber working paper platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-public-finance-tax-base-2026",
@@ -940,40 +945,40 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "Advanced AI can move the fiscal bottleneck from taxing labor and consumption toward taxing autonomous productive systems",
       "geography": "General public-finance framework with implications for advanced economies and U.S.-relevant labor, consumption, and AI tax bases",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "advanced can move fiscal bottleneck taxing labor consumption toward autonomous productive systems public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "advanced can move fiscal bottleneck taxing labor consumption toward autonomous productive systems public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "advanced can move fiscal bottleneck taxing labor consumption toward autonomous productive systems public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "advanced can move fiscal bottleneck taxing labor consumption toward autonomous productive systems public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-worker-retraining-returns-2026",
@@ -981,40 +986,40 @@
       "canonical_theme": "ai-work-control",
       "title": "Training can improve earnings for AI-exposed workers, mainly through moving to less exposed work",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "training can improve earnings ai-exposed workers mainly through moving less exposed work ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "training can improve earnings ai-exposed workers mainly through moving less exposed work ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "training can improve earnings ai-exposed workers mainly through moving less exposed work ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "training can improve earnings ai-exposed workers mainly through moving less exposed work ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-amazon-vertical-integration-consumer-choice-2025",
@@ -1022,41 +1027,41 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "A platform-owned product can help today's customer while changing tomorrow's choice set",
       "geography": "United States online retail; selected Amazon product categories",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0063",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "platform-owned product can help today's customer while changing tomorrow's choice set nber consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "platform-owned product can help today's customer while changing tomorrow's choice set nber consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "platform-owned product can help today's customer while changing tomorrow's choice set nber consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "platform-owned product can help today's customer while changing tomorrow's choice set nber consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public platform-specific searches attempted for this row; no additional safely attributable normalized result under current access boundary.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     }
   ],
-  "status": "in_review"
+  "status": "closed"
 }

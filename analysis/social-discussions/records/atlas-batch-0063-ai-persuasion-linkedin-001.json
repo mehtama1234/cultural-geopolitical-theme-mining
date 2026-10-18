@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0063-ai-persuasion-linkedin-001",
+  "atlas_record_ids": ["us-nature-ai-dialogue-voter-persuasion-2024-2025"],
+  "topic": "platform-exit",
+  "platform": "linkedin",
+  "item_type": "research_interpretation_and_methodological_counter_signal",
+  "author_or_account": "Laboratory of Everyday Argumentation and Persuasion AMU",
+  "title": "A New Nature Study on AI-Driven Political Persuasion",
+  "canonical_url": "https://www.linkedin.com/posts/laboratory-of-everyday-argumentation-and-persuasion-amu_a-new-nature-study-on-ai-driven-political-activity-7404095048390414336-KXGz",
+  "published_window": "2026-04",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post treats the Nature finding as evidence that structured AI dialogue can move stated voter preferences, but adds a methodological counter-signal: without a human-dialogue baseline, the experiment may identify scalable scripted persuasion more clearly than uniquely autonomous AI influence. It also warns against turning a bounded result into a claim that robots are independently steering elections.",
+  "research_anchor_paths": ["analysis/records/us-nature-ai-dialogue-voter-persuasion-2024-2025.json"],
+  "linked_research_question": "How do research discussions distinguish measured persuasion in structured AI dialogue from autonomous influence, human comparison, and real-world voting behavior?",
+  "classification": ["research_interpretation", "methodological_counter_signal", "ai-persuasion", "voter-preference", "human-baseline", "democratic-governance"],
+  "limits": ["Research-lab interpretation of a paper", "No human-dialogue control is added by this social item", "Stated preference shifts do not establish changed voting behavior", "Public search discovery is not a platform-native Creator/API export"]
+}

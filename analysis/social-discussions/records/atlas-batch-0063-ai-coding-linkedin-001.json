@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0063-ai-coding-linkedin-001",
+  "atlas_record_ids": ["us-nber-ai-coding-productivity-shipping-output-2026"],
+  "topic": "ai-work-control",
+  "platform": "linkedin",
+  "item_type": "research_interpretation_and_counter_signal",
+  "author_or_account": "Damien Kopp",
+  "title": "Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools",
+  "canonical_url": "https://www.linkedin.com/posts/damienkopp_a-new-nber-paper-measured-what-happens-to-activity-7470622079814651904-8bY3",
+  "published_window": "2026-08",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post interprets the NBER result as an end-to-end throughput problem: AI increases coding activity, but gains attenuate through integration, review, release, and actual use. Its counter-signal is that local task acceleration can create a larger queue without changing the bottleneck that determines useful software output.",
+  "research_anchor_paths": ["analysis/records/us-nber-ai-coding-productivity-shipping-output-2026.json"],
+  "linked_research_question": "Where do AI coding gains disappear between writing code, integrating it, shipping releases, and producing software that people actually use?",
+  "classification": ["research_interpretation", "counter_signal", "ai-coding", "throughput", "human-bottleneck", "software-delivery"],
+  "limits": ["Individual interpretation of an NBER working paper", "The post adds a systems lens but not an independent causal estimate", "Software output is not equivalent to organizational or economic value", "Public search discovery is not a platform-native Creator/API export"]
+}
