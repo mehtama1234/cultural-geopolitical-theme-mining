@@ -27,6 +27,11 @@ fire footprint / damage
            renewed coverage, and later trust or political attribution
 ```
 
+The new [California wildfire recovery stage audit](california-wildfire-recovery-stage-audit-v1.md)
+turns the currently available dashboard, claims, enforcement, and advocacy
+surfaces into a coverage-and-timing comparison. It does not infer a
+same-household claim-to-repair trajectory.
+
 ### Available public surfaces
 
 | Surface | Unit and contribution | What remains unobserved |
