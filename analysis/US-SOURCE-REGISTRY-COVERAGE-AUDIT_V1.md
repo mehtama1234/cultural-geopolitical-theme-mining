@@ -274,10 +274,10 @@ without a recurring acquisition need and source-specific metadata.
 | `digital-strategy.ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `doee.dc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ingka.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `canada.ca` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fairwork.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ipie.info` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `publications.civicus.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unhabitat.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `annenbergpublicpolicycenter.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -286,17 +286,18 @@ without a recurring acquisition need and source-specific metadata.
 | `insee.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nature.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `recovery.lacounty.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `creative.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `eur-lex.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `jchs.harvard.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nces.ed.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nuffieldfoundation.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `publications.iom.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `reutersinstitute.politics.ox.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `stat.go.jp` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tasc.ie` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unfpa.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `x.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `arts.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `efsurvivors.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -311,7 +312,6 @@ without a recurring acquisition need and source-specific metadata.
 | `scp.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unu.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `worldhappiness.report` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `x.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `culture.gouv.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dane.gov.co` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `data.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -411,6 +411,7 @@ without a recurring acquisition need and source-specific metadata.
 | `wellcome.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `www23.statcan.gc.ca` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ymcagta.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `youtube.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `4culture.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `accaglobal.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `act.nato.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -489,7 +490,6 @@ without a recurring acquisition need and source-specific metadata.
 | `v-dem.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `vml.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wedocs.unep.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `youtube.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `about.netflix.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `acleddata.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `adb.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
