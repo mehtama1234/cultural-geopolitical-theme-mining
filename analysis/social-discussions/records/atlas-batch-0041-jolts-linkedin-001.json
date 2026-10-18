@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0041-jolts-linkedin-001",
+  "atlas_record_ids": ["us-bls-jolts-national-mobility-2026-ytd"],
+  "topic": "labor-mobility-workplace-control",
+  "platform": "linkedin",
+  "item_type": "labor-market_interpretation_and_audience_reaction",
+  "author_or_account": "Sneha Puri / Indeed Hiring Lab",
+  "title": "July 2026 JOLTS Report: Little Changed. Again.",
+  "canonical_url": "https://www.linkedin.com/posts/sneha-puri_july-2026-jolts-report-little-changed-again-activity-7500589027901964289-tTS9",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post reads low openings, hiring, quits, and layoffs as a persistent low-churn labor market, while warning that AI exposure is a map of changing work rather than a forecast of job losses. The discussion adds a public interpretation layer to the distinction between posted opportunity and actual worker mobility.",
+  "research_anchor_paths": ["analysis/records/us-bls-jolts-national-mobility-2026-ytd.json"],
+  "linked_research_question": "When labor-market mobility cools, how do workers and employers experience the difference between nominal openings, actual hiring, and the ability to move?",
+  "classification": ["labor_market", "mobility", "interpretation", "counter_signal", "audience_reaction"],
+  "limits": ["The post is an expert interpretation, not an independent survey of workers", "JOLTS aggregates do not identify individual reasons for staying or moving", "The AI-exposure interpretation is not a causal estimate"]
+}

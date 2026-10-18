@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0041-union-linkedin-001",
+  "atlas_record_ids": ["us-bls-union-representation-2024-2025"],
+  "topic": "labor-mobility-workplace-control",
+  "platform": "linkedin",
+  "item_type": "official_statistic_and_professional_reaction",
+  "author_or_account": "Stuart M. Basefsky",
+  "title": "US Union Membership Rate Remains Steady at 10.0% in 2025",
+  "canonical_url": "https://www.linkedin.com/posts/stuartbasefsky_bls-union-members-2025-18-february-2026-activity-7429919403372171264-plJo",
+  "published_window": "2026-02",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post circulates the BLS finding that union membership remained 10.0% in 2025 and draws reactions about the public/private-sector divide, wage comparisons, and worker disengagement. It links formal representation to perceived bargaining power without treating membership, coverage, and wage effects as the same measure.",
+  "research_anchor_paths": ["analysis/records/us-bls-union-representation-2024-2025.json"],
+  "linked_research_question": "How do formal worker representation, sector structure, mobility, and perceived bargaining power shape workplace voice?",
+  "classification": ["official_statistic", "professional_reaction", "workplace_voice", "measurement_distinction"],
+  "limits": ["LinkedIn reactions are not representative worker opinion", "Membership, coverage, and wage differentials are distinct measures", "The post cannot identify causal effects of union membership"]
+}
