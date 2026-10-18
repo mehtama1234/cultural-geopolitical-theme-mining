@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0058-rental-proptech-linkedin-001",
+  "atlas_record_ids": ["us-gao-rental-proptech-screening-pricing-privacy-2025"],
+  "topic": "housing-place-mobility",
+  "platform": "linkedin",
+  "item_type": "professional_interpretation_and_counter_signal",
+  "author_or_account": "Deniss Hohlovs MRICS",
+  "title": "AI in Property Management: What Actually Works (and What’s Hype)",
+  "canonical_url": "https://www.linkedin.com/posts/denisshohlovs_realestatetechnology-propertymanagement-activity-7420374478490357760-cCJa",
+  "published_window": "2026-01",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post presents tenant screening, rent collection, and property management automation as practical efficiency tools, but describes weaker performance and escalation for valuation, chatbots, and predictive systems. It adds an implementation-level counter-signal: rental technology may speed decisions while leaving human relationships, error rates, and data governance as unresolved constraints.",
+  "research_anchor_paths": ["analysis/records/us-gao-rental-proptech-screening-pricing-privacy-2025.json"],
+  "linked_research_question": "How do property professionals describe the tradeoff between rental-tech efficiency, screening power, pricing opacity, privacy, and continued human oversight?",
+  "classification": ["professional_interpretation", "counter_signal", "rental-technology", "tenant-screening", "automation", "human-oversight"],
+  "limits": ["Individual practitioner account and self-reported implementation claims", "No independent fairness or privacy audit is presented", "The post is not a representative tenant or landlord sample", "Public search discovery is not a platform-native Creator/API export"]
+}
