@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0051-fhfa-linkedin-001",
+  "atlas_record_ids": ["us-fhfa-house-price-index-2026q2"],
+  "topic": "housing-place-mobility",
+  "platform": "linkedin",
+  "item_type": "housing_data_interpretation",
+  "author_or_account": "National REIA",
+  "title": "House Price Appreciation by State & Metro Area in Q2 2026",
+  "canonical_url": "https://www.linkedin.com/posts/national-reia_house-price-appreciation-by-state-metro-activity-7508215488259289088-KqEY",
+  "published_window": "2026-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post translates FHFA price movement into a geographically uneven housing story: prices can rise while borrowing costs and affordability remain headwinds, and state-level appreciation can diverge sharply. It reinforces the atlas distinction between price movement and usable household housing room.",
+  "research_anchor_paths": ["analysis/records/us-fhfa-house-price-index-2026q2.json"],
+  "linked_research_question": "How do geographically uneven house prices interact with affordability, insurance room, mobility, and household security?",
+  "classification": ["housing_market", "geographic_divergence", "affordability", "data_interpretation"],
+  "limits": ["The post cites FHFA data through a secondary housing organization", "Price appreciation does not measure affordability or household equity access", "National and state averages hide neighborhood-level variation"]
+}
