@@ -19,3 +19,9 @@ shows that the Transmission Facilitation Program can make federal capacity
 support visible before construction and service are visible; the current DOE
 project page also records later termination or withdrawal notices for several
 selected projects.
+
+The [CHPE realization and affordability stage audit](chpe-realization-affordability-stage-audit-v1.md)
+adds a named cross-border project that reached commercial operation, was used
+during a heat event, experienced early repair friction, and entered formal
+capacity planning while household bills, reliability incidence, cost
+allocation, and durable public acceptance remained unobserved.
