@@ -3,24 +3,25 @@
 This is a live control readout, not a completion claim.
 
 - Atlas records: **1,978**
-- Atlas records with at least one exact linked social item: **38**
-- Exact linked social items: **41**
-- Record statuses: `{'augmented': 38, 'documented_access_gap': 16, 'in_review': 21, 'queued': 1903}`
+- Atlas records with at least one exact linked social item: **45**
+- Exact linked social items: **50**
+- Record statuses: `{'augmented': 45, 'documented_access_gap': 55, 'queued': 1878}`
 
 ## Platform attempt states
 
 | Platform/status | Rows |
 |---|---:|
-| `linkedin:augmented` | 3 |
-| `linkedin:documented_access_gap` | 51 |
-| `linkedin:not_started` | 1,924 |
-| `reddit:augmented` | 36 |
-| `reddit:documented_access_gap` | 18 |
-| `reddit:not_started` | 1,924 |
-| `x:documented_access_gap` | 54 |
-| `x:not_started` | 1,924 |
-| `youtube:documented_access_gap` | 54 |
-| `youtube:not_started` | 1,924 |
+| `linkedin:augmented` | 10 |
+| `linkedin:documented_access_gap` | 90 |
+| `linkedin:not_started` | 1,878 |
+| `reddit:augmented` | 37 |
+| `reddit:documented_access_gap` | 63 |
+| `reddit:not_started` | 1,878 |
+| `x:documented_access_gap` | 100 |
+| `x:not_started` | 1,878 |
+| `youtube:augmented` | 1 |
+| `youtube:documented_access_gap` | 99 |
+| `youtube:not_started` | 1,878 |
 
 The queue is not complete until every row reaches a terminal state:
 `augmented`, `documented_access_gap`, or `not_socially_applicable`.

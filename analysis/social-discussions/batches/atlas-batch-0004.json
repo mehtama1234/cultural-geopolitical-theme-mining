@@ -1,0 +1,1067 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0004",
+  "opened": "2026-10-18",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 25,
+  "atlas_record_ids": [
+    "comparative-datareportal-digital-2026-midyear-ai-social-media-connectivity",
+    "comparative-dco-digital-economy-trends-2026-ai-sovereignty-work-readiness",
+    "comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social",
+    "comparative-deloitte-ficci-india-consumer-trends-2026-ai-governance-commerce",
+    "comparative-deloitte-genz-millennial-survey-2026-sequenced-ambition-ai-work",
+    "comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose",
+    "comparative-deloitte-human-capital-trends-2026-human-machine-adaptation-trust",
+    "comparative-dentsu-creative-2026-generative-realities-culture-consumer-technology",
+    "comparative-dentsu-iwmbuzz-stream-culture-2026-india-relevance-cultural-afterlife-languages",
+    "comparative-depop-edited-self-2026-fashion-resale-identity-ritual",
+    "comparative-dfe-parent-pupil-learner-voice-may-2026-pathway-usability",
+    "comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai",
+    "comparative-dwp-education-professionals-young-work-readiness-2026",
+    "comparative-eao-key-trends-2026-cultural-work-streaming-public-media",
+    "comparative-earth4all-social-contract-2026-inequality-trust-democracy",
+    "comparative-ecb-consumer-expectations-august-2026-income-credit-asymmetry",
+    "comparative-ecb-consumer-expectations-august-2026-income-inflation-spending",
+    "comparative-edelman-trust-barometer-2026-insularity-income-optimism-difference",
+    "comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools",
+    "comparative-eit-food-trust-report-2026-consumer-information-confidence",
+    "comparative-england-ces-2025-26-loneliness-disability-deprivation-local-gap",
+    "comparative-england-dcms-community-engagement-q2-2025-26-cultural-civic-hybrid-shift",
+    "comparative-england-dcms-museums-galleries-2025-26-local-physical-digital-gap",
+    "comparative-england-dcms-participation-survey-2024-25-arts-physical-digital-deprivation",
+    "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "comparative-datareportal-digital-2026-midyear-ai-social-media-connectivity",
+      "atlas_record_path": "analysis/records/comparative-datareportal-digital-2026-midyear-ai-social-media-connectivity.json",
+      "canonical_theme": "platform-exit",
+      "title": "Digital life is becoming a layered utility: connectivity, sociality and AI are expanding together but unevenly",
+      "geography": "Global digital users, with GWI survey comparisons across 54 economies and platform, connectivity and web-traffic evidence from multiple data partners",
+      "status": "augmented",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "digital life becoming layered utility connectivity sociality are expanding together but unevenly platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "digital life becoming layered utility connectivity sociality are expanding together but unevenly platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "augmented",
+          "query": "digital life becoming layered utility connectivity sociality are expanding together but unevenly platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-datareportal-social-media-linkedin-001"
+          ]
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "digital life becoming layered utility connectivity sociality are expanding together but unevenly platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-dco-digital-economy-trends-2026-ai-sovereignty-work-readiness",
+      "atlas_record_path": "analysis/records/comparative-dco-digital-economy-trends-2026-ai-sovereignty-work-readiness.json",
+      "canonical_theme": "platform-exit",
+      "title": "The digital economy is shifting from access expansion toward capability, agency, resilience, and strategic fragmentation",
+      "geography": "Global digital economy, regional readiness comparisons, and expert survey perspectives across public, private, and societal stakeholders",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "digital economy shifting access expansion toward capability agency resilience strategic fragmentation cooperation platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "digital economy shifting access expansion toward capability agency resilience strategic fragmentation cooperation platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "digital economy shifting access expansion toward capability agency resilience strategic fragmentation cooperation platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "digital economy shifting access expansion toward capability agency resilience strategic fragmentation cooperation platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social",
+      "atlas_record_path": "analysis/records/comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Media consumption is reorganizing around persistent fandom, fragmented platforms, creator connection, and AI-enabled continuity between releases",
+      "geography": "United States consumer media and entertainment behavior across streaming, social media, music, gaming, live events, creators, and fandom communities",
+      "status": "augmented",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "media consumption reorganizing around persistent fandom fragmented platforms creator connection ai-enabled continuity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "media consumption reorganizing around persistent fandom fragmented platforms creator connection ai-enabled continuity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "augmented",
+          "query": "media consumption reorganizing around persistent fandom fragmented platforms creator connection ai-enabled continuity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-deloitte-digital-media-fandom-linkedin-001"
+          ]
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "media consumption reorganizing around persistent fandom fragmented platforms creator connection ai-enabled continuity household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-deloitte-ficci-india-consumer-trends-2026-ai-governance-commerce",
+      "atlas_record_path": "analysis/records/comparative-deloitte-ficci-india-consumer-trends-2026-ai-governance-commerce.json",
+      "canonical_theme": "platform-exit",
+      "title": "India's consumer economy is moving toward AI-assisted, transparent, connected commerce where governance and resilient supply chains become part of competitive advantage",
+      "geography": "India FMCG, retail, and e-commerce sectors",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "india's consumer economy moving toward ai-assisted transparent connected commerce where governance resilient platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "india's consumer economy moving toward ai-assisted transparent connected commerce where governance resilient platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "india's consumer economy moving toward ai-assisted transparent connected commerce where governance resilient platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "india's consumer economy moving toward ai-assisted transparent connected commerce where governance resilient platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-deloitte-genz-millennial-survey-2026-sequenced-ambition-ai-work",
+      "atlas_record_path": "analysis/records/comparative-deloitte-genz-millennial-survey-2026-sequenced-ambition-ai-work.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Gen Z and millennials are sequencing ambition around stability, sustainable work, purpose and AI readiness rather than rejecting advancement",
+      "geography": "44 countries; global survey of Gen Z and millennial adults with supplementary qualitative insights from business leaders",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "gen millennials are sequencing ambition around stability sustainable work purpose readiness rather ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "gen millennials are sequencing ambition around stability sustainable work purpose readiness rather ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "gen millennials are sequencing ambition around stability sustainable work purpose readiness rather ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "gen millennials are sequencing ambition around stability sustainable work purpose readiness rather ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose",
+      "atlas_record_path": "analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Younger adults are sequencing ambition around financial security, sustainable work, purpose, and practical AI capability",
+      "geography": "44 countries; more than 22,500 Gen Z and millennial respondents, with qualitative business-leader interviews",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "younger adults are sequencing ambition around financial security sustainable work purpose practical ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "younger adults are sequencing ambition around financial security sustainable work purpose practical ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "younger adults are sequencing ambition around financial security sustainable work purpose practical ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "younger adults are sequencing ambition around financial security sustainable work purpose practical ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-deloitte-human-capital-trends-2026-human-machine-adaptation-trust",
+      "atlas_record_path": "analysis/records/comparative-deloitte-human-capital-trends-2026-human-machine-adaptation-trust.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Organizations are moving from balancing AI tensions to making deliberate choices about human–machine work, adaptation and trust",
+      "geography": "Global organizations, business and HR leaders, workers, managers and executives across 89 countries and multiple industries",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "organizations are moving balancing tensions making deliberate choices about human machine work ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "organizations are moving balancing tensions making deliberate choices about human machine work ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "organizations are moving balancing tensions making deliberate choices about human machine work ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "organizations are moving balancing tensions making deliberate choices about human machine work ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-dentsu-creative-2026-generative-realities-culture-consumer-technology",
+      "atlas_record_path": "analysis/records/comparative-dentsu-creative-2026-generative-realities-culture-consumer-technology.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Generative technology is accelerating cultural production while consumers seek craft, friction, grounding, and reconnection",
+      "geography": "Consumer and cultural trend synthesis informed by research across the United States, United Kingdom, India, Spain, Brazil, China, and Japan",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "generative technology accelerating cultural production while consumers seek craft friction grounding reconnection trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "generative technology accelerating cultural production while consumers seek craft friction grounding reconnection trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "generative technology accelerating cultural production while consumers seek craft friction grounding reconnection trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "generative technology accelerating cultural production while consumers seek craft friction grounding reconnection trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-dentsu-iwmbuzz-stream-culture-2026-india-relevance-cultural-afterlife-languages",
+      "atlas_record_path": "analysis/records/comparative-dentsu-iwmbuzz-stream-culture-2026-india-relevance-cultural-afterlife-languages.json",
+      "canonical_theme": "platform-exit",
+      "title": "India's next screen era is framed around relevance, cultural afterlife, and plural mainstreams across languages, places, and communities",
+      "geography": "India's screen and streaming culture, as framed by a public industry field guide",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "india's next screen era framed around relevance cultural afterlife plural mainstreams across platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "india's next screen era framed around relevance cultural afterlife plural mainstreams across platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "india's next screen era framed around relevance cultural afterlife plural mainstreams across platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "india's next screen era framed around relevance cultural afterlife plural mainstreams across platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-depop-edited-self-2026-fashion-resale-identity-ritual",
+      "atlas_record_path": "analysis/records/comparative-depop-edited-self-2026-fashion-resale-identity-ritual.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Fashion culture is moving from algorithmic novelty toward edited identity, repeatable staples, nostalgia, everyday ritual, and circular self-expression",
+      "geography": "Depop global peer-to-peer fashion community and 2026 fashion-culture forecast",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "fashion culture moving algorithmic novelty toward edited identity repeatable staples nostalgia everyday household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "fashion culture moving algorithmic novelty toward edited identity repeatable staples nostalgia everyday household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "fashion culture moving algorithmic novelty toward edited identity repeatable staples nostalgia everyday household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "fashion culture moving algorithmic novelty toward edited identity repeatable staples nostalgia everyday household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-dfe-parent-pupil-learner-voice-may-2026-pathway-usability",
+      "atlas_record_path": "analysis/records/comparative-dfe-parent-pupil-learner-voice-may-2026-pathway-usability.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "Planned educational routes are confident but unevenly informed: pathway usability depends on awareness, finance, place, and support",
+      "geography": "England; parents, secondary pupils, and 16-19 pupils and learners",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "planned educational routes are confident but unevenly informed pathway usability depends awareness public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "planned educational routes are confident but unevenly informed pathway usability depends awareness public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "planned educational routes are confident but unevenly informed pathway usability depends awareness public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "planned educational routes are confident but unevenly informed pathway usability depends awareness public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai",
+      "atlas_record_path": "analysis/records/comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai.json",
+      "canonical_theme": "platform-exit",
+      "title": "Streaming is becoming cultural discovery infrastructure, but platform value and local cultural benefits remain jointly contested",
+      "geography": "United States plus Canada, Brazil, Chile, and Mexico; comparative consumer streaming and music-culture findings",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "streaming becoming cultural discovery infrastructure but platform value local benefits remain jointly platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "streaming becoming cultural discovery infrastructure but platform value local benefits remain jointly platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "streaming becoming cultural discovery infrastructure but platform value local benefits remain jointly platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "streaming becoming cultural discovery infrastructure but platform value local benefits remain jointly platform-exit 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-dwp-education-professionals-young-work-readiness-2026",
+      "atlas_record_path": "analysis/records/comparative-dwp-education-professionals-young-work-readiness-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Opportunity is a readiness ecology, not an exam result: educators connect young people’s pathways to skills, place, support, and confidence",
+      "geography": "Great Britain; teachers and education professionals surveyed through the YouGov panel",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "opportunity readiness ecology not exam result educators connect young people pathways skills ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "opportunity readiness ecology not exam result educators connect young people pathways skills ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "opportunity readiness ecology not exam result educators connect young people pathways skills ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "opportunity readiness ecology not exam result educators connect young people pathways skills ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-eao-key-trends-2026-cultural-work-streaming-public-media",
+      "atlas_record_path": "analysis/records/comparative-eao-key-trends-2026-cultural-work-streaming-public-media.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "European audiovisual culture is expanding as a market while creator security, public media, and cultural control remain uneven",
+      "geography": "Pan-European audiovisual sector, covering EU and wider Council of Europe markets with comparisons across creators, producers, broadcasters, platforms, audiences, and public media",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "european audiovisual culture expanding market while creator security public media cultural control trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "european audiovisual culture expanding market while creator security public media cultural control trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "european audiovisual culture expanding market while creator security public media cultural control trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "european audiovisual culture expanding market while creator security public media cultural control trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-earth4all-social-contract-2026-inequality-trust-democracy",
+      "atlas_record_path": "analysis/records/comparative-earth4all-social-contract-2026-inequality-trust-democracy.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Public demand for economic-system change is broad, but the social contract is weakened by distrust that governments can deliver long-term benefits",
+      "geography": "17 countries representing 58% of global GDP, 38% of world population, and 37% of fossil-fuel and industrial CO2 emissions; G20 countries surveyed except China, Russia, and Saudi Arabia, plus Sweden",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "public demand economic-system change broad but social contract weakened distrust governments can trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "public demand economic-system change broad but social contract weakened distrust governments can trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "public demand economic-system change broad but social contract weakened distrust governments can trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "public demand economic-system change broad but social contract weakened distrust governments can trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-ecb-consumer-expectations-august-2026-income-credit-asymmetry",
+      "atlas_record_path": "analysis/records/comparative-ecb-consumer-expectations-august-2026-income-credit-asymmetry.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Euro-area household expectations remain stable in aggregate while income and credit exposure diverge sharply by position",
+      "geography": "Euro area; adults in Belgium, Germany, Ireland, Greece, Spain, France, Italy, the Netherlands, Austria, Portugal and Finland",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "euro-area household expectations remain stable aggregate while income credit exposure diverge sharply household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "euro-area household expectations remain stable aggregate while income credit exposure diverge sharply household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "euro-area household expectations remain stable aggregate while income credit exposure diverge sharply household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "euro-area household expectations remain stable aggregate while income credit exposure diverge sharply household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-ecb-consumer-expectations-august-2026-income-inflation-spending",
+      "atlas_record_path": "analysis/records/comparative-ecb-consumer-expectations-august-2026-income-inflation-spending.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Euro-area households expect spending to outpace income while inflation and credit expectations remain unequal by income",
+      "geography": "Euro area; adults aged 18 and over in 11 countries, with income-quintile, inflation, income, spending, unemployment, housing, and credit-expectation dimensions",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "euro-area households expect spending outpace income while inflation credit expectations remain unequal household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "euro-area households expect spending outpace income while inflation credit expectations remain unequal household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "euro-area households expect spending outpace income while inflation credit expectations remain unequal household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "euro-area households expect spending outpace income while inflation credit expectations remain unequal household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-edelman-trust-barometer-2026-insularity-income-optimism-difference",
+      "atlas_record_path": "analysis/records/comparative-edelman-trust-barometer-2026-insularity-income-optimism-difference.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Trust is retreating toward familiar circles as economic anxiety, geopolitical tension, and technological disruption widen social distance",
+      "geography": "Published global trust survey covering 28 countries, with cross-country and socioeconomic comparisons",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "trust retreating toward familiar circles economic anxiety geopolitical tension technological disruption widen trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "trust retreating toward familiar circles economic anxiety geopolitical tension technological disruption widen trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "trust retreating toward familiar circles economic anxiety geopolitical tension technological disruption widen trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "trust retreating toward familiar circles economic anxiety geopolitical tension technological disruption widen trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools",
+      "atlas_record_path": "analysis/records/comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools.json",
+      "canonical_theme": "care-health-social-reproduction",
+      "title": "Unpaid care is a gendered time-and-work infrastructure whose effects depend on formal services, household position, and digital support",
+      "geography": "All 27 EU Member States; population aged 16–74; fieldwork October–December 2024",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "unpaid care gendered time-and-work infrastructure whose effects depend formal services household position care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "unpaid care gendered time-and-work infrastructure whose effects depend formal services household position care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "unpaid care gendered time-and-work infrastructure whose effects depend formal services household position care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "unpaid care gendered time-and-work infrastructure whose effects depend formal services household position care-health-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-eit-food-trust-report-2026-consumer-information-confidence",
+      "atlas_record_path": "analysis/records/comparative-eit-food-trust-report-2026-consumer-information-confidence.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "European consumers report growing confidence in their own food choices while trust in the surrounding information environment remains fragile",
+      "geography": "Consumers across 18 European countries; nearly 20,000 respondents in the TrustTracker study",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "european consumers report growing confidence their own food choices while trust surrounding household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "european consumers report growing confidence their own food choices while trust surrounding household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "european consumers report growing confidence their own food choices while trust surrounding household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "european consumers report growing confidence their own food choices while trust surrounding household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-england-ces-2025-26-loneliness-disability-deprivation-local-gap",
+      "atlas_record_path": "analysis/records/comparative-england-ces-2025-26-loneliness-disability-deprivation-local-gap.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "England’s loneliness rate is broadly stable nationally but sharply stratified by disability, deprivation, and place",
+      "geography": "England; representative estimates for people aged 16 and over, with local-authority and subgroup breakdowns",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "england loneliness rate broadly stable nationally but sharply stratified disability deprivation place trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "england loneliness rate broadly stable nationally but sharply stratified disability deprivation place trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "england loneliness rate broadly stable nationally but sharply stratified disability deprivation place trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "england loneliness rate broadly stable nationally but sharply stratified disability deprivation place trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-england-dcms-community-engagement-q2-2025-26-cultural-civic-hybrid-shift",
+      "atlas_record_path": "analysis/records/comparative-england-dcms-community-engagement-q2-2025-26-cultural-civic-hybrid-shift.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "England’s cultural participation is shifting by mode and institution while community action rises modestly",
+      "geography": "England; adults aged 16 and over, with national, ITL2, and Combined Authority coverage",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "england cultural participation shifting mode institution while community action rises modestly department trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "england cultural participation shifting mode institution while community action rises modestly department trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "england cultural participation shifting mode institution while community action rises modestly department trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "england cultural participation shifting mode institution while community action rises modestly department trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-england-dcms-museums-galleries-2025-26-local-physical-digital-gap",
+      "atlas_record_path": "analysis/records/comparative-england-dcms-museums-galleries-2025-26-local-physical-digital-gap.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Museum and gallery engagement varies sharply by English local area, with physical and digital access following different geographies",
+      "geography": "England; adults aged 16 and over, national and local-authority estimates",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "museum gallery engagement varies sharply english local area physical digital access following housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "museum gallery engagement varies sharply english local area physical digital access following housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "museum gallery engagement varies sharply english local area physical digital access following housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "museum gallery engagement varies sharply english local area physical digital access following housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-england-dcms-participation-survey-2024-25-arts-physical-digital-deprivation",
+      "atlas_record_path": "analysis/records/comparative-england-dcms-participation-survey-2024-25-arts-physical-digital-deprivation.json",
+      "canonical_theme": "unequal-exposure-status",
+      "title": "England’s arts participation remains physical-first while digital access is thinner among disadvantaged groups",
+      "geography": "England; adults aged 16 and over, with arts participation, physical/digital mode, disability, socioeconomic classification, and deprivation dimensions",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "england arts participation remains physical-first while digital access thinner among disadvantaged groups unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "england arts participation remains physical-first while digital access thinner among disadvantaged groups unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "england arts participation remains physical-first while digital access thinner among disadvantaged groups unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "england arts participation remains physical-first while digital access thinner among disadvantaged groups unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+      "atlas_record_path": "analysis/records/comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Unpaid carers face a durable time-and-work conversion constraint while service involvement remains limited",
+      "geography": "England; unpaid adult carers aged 18 and over known to local authorities",
+      "status": "documented_access_gap",
+      "batch_id": "atlas-batch-0004",
+      "platforms": {
+        "youtube": {
+          "status": "documented_access_gap",
+          "query": "unpaid carers face durable time-and-work conversion constraint while service involvement remains limited time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "documented_access_gap",
+          "query": "unpaid carers face durable time-and-work conversion constraint while service involvement remains limited time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "documented_access_gap",
+          "query": "unpaid carers face durable time-and-work conversion constraint while service involvement remains limited time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "unpaid carers face durable time-and-work conversion constraint while service involvement remains limited time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
+    }
+  ],
+  "status": "closed",
+  "closed": "2026-10-18"
+}

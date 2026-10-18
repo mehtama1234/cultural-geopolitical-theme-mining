@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-china-retail-august-linkedin-001",
+  "atlas_record_ids": ["comparative-china-nbs-august-2026-retail-cpi-category-pressure"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "market_data_discussion",
+  "author_or_account": "Michele Bossi",
+  "title": "China August consumption slowdown and uneven domestic demand",
+  "canonical_url": "https://www.linkedin.com/posts/michele-bossi-105b3a208_china-economy-consumption-activity-7506247151107260418-84KJ",
+  "published_window": "2026-09-18",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "The post interprets weak August retail growth, property weakness, and stronger AI-linked manufacturing as a divergence between fragile domestic consumption and selected high-technology sectors. It complements the atlas category and price divergence signal while preserving the distinction between aggregate sales and household welfare.",
+  "research_anchor_paths": ["analysis/records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json"],
+  "linked_research_question": "How can weak aggregate consumption coexist with category, price, property, and technology-sector divergence?",
+  "classification": ["market_discussion", "consumer_demand", "sector_divergence", "macro_signal"],
+  "limits": ["Commentary summarizes official data rather than providing a household panel", "LinkedIn audience and framing are selective", "Retail growth does not measure welfare or distributional exposure"]
+}

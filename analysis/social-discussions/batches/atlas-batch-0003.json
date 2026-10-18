@@ -38,40 +38,42 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Arts and culture operate as social infrastructure, but cost and welcome determine who can convert participation into belonging",
       "geography": "Canada; national survey of residents ages 16 and older, including a telephone sample from the territories",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "arts culture operate social infrastructure but cost welcome determine who can convert trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "arts culture operate social infrastructure but cost welcome determine who can convert trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-canada-arts-heritage-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "arts culture operate social infrastructure but cost welcome determine who can convert trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "arts culture operate social infrastructure but cost welcome determine who can convert trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-canada-express-entry-selection-occupational-mobility-2026",
@@ -79,40 +81,46 @@
       "canonical_theme": "ai-work-control",
       "title": "Economic immigration selection is being evaluated as a prediction-and-matching system whose scores shape occupational mobility and migrant household security",
       "geography": "Canada; economic immigrants admitted through Express Entry and comparison non-Express Entry streams, linked administrative and census outcomes",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "economic immigration selection being evaluated prediction-and-matching system whose scores shape occupational mobility ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-canada-express-entry-youtube-001"
+          ]
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "economic immigration selection being evaluated prediction-and-matching system whose scores shape occupational mobility ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-canada-express-entry-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "economic immigration selection being evaluated prediction-and-matching system whose scores shape occupational mobility ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-canada-express-entry-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "economic immigration selection being evaluated prediction-and-matching system whose scores shape occupational mobility ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted for Canada Express Entry high-wage work-experience discussion; no directly relevant retained X result in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-canada-mhrc-poll29-2026-cost-pressure-social-connection-care-exit",
@@ -120,40 +128,42 @@
       "canonical_theme": "household-room-consumption",
       "title": "Canadian cost pressure, social connection, and care exit form a linked but non-causal consumer-social pressure pattern",
       "geography": "Canada; national online survey of people aged 16 and older",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "canadian cost pressure social connection care exit form linked but non-causal consumer-social household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "canadian cost pressure social connection care exit form linked but non-causal consumer-social household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "canadian cost pressure social connection care exit form linked but non-causal consumer-social household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-canada-mhrc-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "canadian cost pressure social connection care exit form linked but non-causal consumer-social household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-capgemini-consumer-2026-value-ai-human-touch-fairness",
@@ -161,40 +171,42 @@
       "canonical_theme": "household-room-consumption",
       "title": "Consumers are redefining value as a hybrid bargain: fair prices, reliable quality, controlled AI and meaningful human support",
       "geography": "Consumers aged 18 and over across Australia, Canada, France, Germany, India, Italy, Japan, the Netherlands, Spain, Sweden, the United Kingdom and the United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumers are redefining value hybrid bargain fair prices reliable quality controlled meaningful household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "consumers are redefining value hybrid bargain fair prices reliable quality controlled meaningful household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-capgemini-consumer-ai-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumers are redefining value hybrid bargain fair prices reliable quality controlled meaningful household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumers are redefining value hybrid bargain fair prices reliable quality controlled meaningful household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point",
@@ -202,40 +214,42 @@
       "canonical_theme": "ai-work-control",
       "title": "Unpaid care is becoming an employment-continuity fault line: workers cut hours, absorb stress, or leave depending on the support around them",
       "geography": "United Kingdom; adults and workers with current or past unpaid-care experience",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "unpaid care becoming employment-continuity fault line workers cut hours absorb stress leave ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "unpaid care becoming employment-continuity fault line workers cut hours absorb stress leave ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-carers-uk-work-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "unpaid care becoming employment-continuity fault line workers cut hours absorb stress leave ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "unpaid care becoming employment-continuity fault line workers cut hours absorb stress leave ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-catawba-yougov-election-ai-authenticity-trust-2026",
@@ -243,40 +257,42 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "Election legitimacy is conditional on an information environment voters can authenticate, correct, and locally explain",
       "geography": "United States; adults 18 and older",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "election legitimacy conditional information environment voters can authenticate correct locally explain catawba political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "election legitimacy conditional information environment voters can authenticate correct locally explain catawba political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "election legitimacy conditional information environment voters can authenticate correct locally explain catawba political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-catawba-election-ai-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "election legitimacy conditional information environment voters can authenticate correct locally explain catawba political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-chile-enpccl-2024-cultural-participation-time-ses-disability",
@@ -284,40 +300,42 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Chile’s cultural participation is high in aggregate but sharply constrained by age, socioeconomic status, disability, and time",
       "geography": "Chile; urban residents aged 15 and over, with age, socioeconomic, education, disability, sex, and household-composition dimensions",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "chile cultural participation high aggregate but sharply constrained age socioeconomic status disability time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "chile cultural participation high aggregate but sharply constrained age socioeconomic status disability time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "chile cultural participation high aggregate but sharply constrained age socioeconomic status disability time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-chile-cultural-participation-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "chile cultural participation high aggregate but sharply constrained age socioeconomic status disability time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-china-nbs-2025-household-consumption-culture-recreation-urban-rural",
@@ -325,40 +343,42 @@
       "canonical_theme": "household-room-consumption",
       "title": "China's cultural-consumption growth is real but remains stratified by household place and room",
       "geography": "China; nationwide, urban, and rural resident aggregates",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china's cultural-consumption growth real but remains stratified household place room national bureau household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant YouTube item retained.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "china's cultural-consumption growth real but remains stratified household place room national bureau household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-china-consumption-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china's cultural-consumption growth real but remains stratified household place room national bureau household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant LinkedIn item retained.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china's cultural-consumption growth real but remains stratified household place room national bureau household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web search attempted on 2026-10-18; no directly relevant X item retained.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-china-nbs-august-2026-retail-cpi-category-pressure",
@@ -366,40 +386,42 @@
       "canonical_theme": "household-room-consumption",
       "title": "China’s August 2026 consumer basket shows weak aggregate retail growth alongside online, category, and price divergence",
       "geography": "China, national urban and rural consumer-price and retail-sales indicators",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china august consumer basket shows weak aggregate retail growth alongside online category household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china august consumer basket shows weak aggregate retail growth alongside online category household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "china august consumer basket shows weak aggregate retail growth alongside online category household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-18",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-china-retail-august-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china august consumer basket shows weak aggregate retail growth alongside online category household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-china-nbs-cultural-enterprises-h1-2026-channel-creative-divergence",
@@ -407,40 +429,40 @@
       "canonical_theme": "platform-exit",
       "title": "China's cultural sector grew in H1 2026 while communication channels contracted and creative-information services expanded",
       "geography": "China; nationwide cultural and related-industry enterprises above designated size",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china's cultural sector grew while communication channels contracted creative-information services expanded national platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china's cultural sector grew while communication channels contracted creative-information services expanded national platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china's cultural sector grew while communication channels contracted creative-information services expanded national platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china's cultural sector grew while communication channels contracted creative-information services expanded national platform-exit 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-china-nbs-household-consumption-education-culture-recreation-h1-2026",
@@ -448,40 +470,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "China’s rural consumption is growing faster than urban consumption while the cultural-spending level gap remains large",
       "geography": "China; national, urban, and rural resident household income and consumption expenditure",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china rural consumption growing faster than urban while cultural-spending level gap remains household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china rural consumption growing faster than urban while cultural-spending level gap remains household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china rural consumption growing faster than urban while cultural-spending level gap remains household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "china rural consumption growing faster than urban while cultural-spending level gap remains household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-circana-eating-patterns-america-2026-food-occasions-channels",
@@ -489,40 +511,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Eating is becoming an occasion-and-channel system shaped by budget, convenience, identity and where food is consumed",
       "geography": "United States food, beverage, retail and foodservice consumption",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eating becoming occasion-and-channel system shaped budget convenience identity where food consumed circana household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eating becoming occasion-and-channel system shaped budget convenience identity where food consumed circana household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eating becoming occasion-and-channel system shaped budget convenience identity where food consumed circana household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "eating becoming occasion-and-channel system shaped budget convenience identity where food consumed circana household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-circle-community-trends-2026-human-connection-belonging",
@@ -530,40 +552,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Community is being repositioned from attention and audience growth toward belonging, trust, retention and intentionally designed human connection",
       "geography": "Community builders, creators, brands and online communities; report scope is not fully disclosed in the public summary",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "community being repositioned attention audience growth toward belonging trust retention intentionally designed trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "community being repositioned attention audience growth toward belonging trust retention intentionally designed trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "community being repositioned attention audience growth toward belonging trust retention intentionally designed trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "community being repositioned attention audience growth toward belonging trust retention intentionally designed trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-civicus-state-civil-society-2026-civic-space-resistance",
@@ -571,40 +593,40 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "Civil society is responding to democratic, technological, geopolitical, climate, migration, and gender-rights pressure through organized resistance and accountability work",
       "geography": "Around 100 countries and territories, with civil-society action across democracy, technology, global governance, conflict, climate, migration, gender rights, and youth protest",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "civil society responding democratic technological geopolitical climate migration gender-rights pressure through organized political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "civil society responding democratic technological geopolitical climate migration gender-rights pressure through organized political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "civil society responding democratic technological geopolitical climate migration gender-rights pressure through organized political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "civil society responding democratic technological geopolitical climate migration gender-rights pressure through organized political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-civicus-state-civil-society-2026-resistance-civic-space-geopolitics",
@@ -612,40 +634,40 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "Civil society is shifting toward distributed resistance as geopolitical impunity, technology power and civic-space contraction reinforce one another",
       "geography": "Global civil society, civic space, democracy, technology, geopolitics, conflict, climate, migration, gender rights and Gen Z mobilization",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "civil society shifting toward distributed resistance geopolitical impunity technology power civic-space contraction political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "civil society shifting toward distributed resistance geopolitical impunity technology power civic-space contraction political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "civil society shifting toward distributed resistance geopolitical impunity technology power civic-space contraction political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "civil society shifting toward distributed resistance geopolitical impunity technology power civic-space contraction political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-civicus-state-of-civil-society-2026-civic-space-global-governance",
@@ -653,40 +675,40 @@
       "canonical_theme": "geopolitical-state-consequences",
       "title": "Shrinking civic space and contested global rules are shifting the cost of dissent toward civil society while resistance adapts",
       "geography": "Global civil-society, civic-space, technology-governance, conflict, climate, migration, and gender-rights analysis",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "shrinking civic space contested global rules are shifting cost dissent toward civil geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "shrinking civic space contested global rules are shifting cost dissent toward civil geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "shrinking civic space contested global rules are shifting cost dissent toward civil geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "shrinking civic space contested global rules are shifting cost dissent toward civil geopolitical-state-consequences 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-colombia-dane-cultural-creative-economy-2025-value-added-employment-divergence",
@@ -694,40 +716,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Colombia's cultural and creative economy expands overall while cultural industries contract and employment composition shifts",
       "geography": "Colombia",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "colombia's cultural creative economy expands overall while industries contract employment composition shifts trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "colombia's cultural creative economy expands overall while industries contract employment composition shifts trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "colombia's cultural creative economy expands overall while industries contract employment composition shifts trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "colombia's cultural creative economy expands overall while industries contract employment composition shifts trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration",
@@ -735,40 +757,40 @@
       "canonical_theme": "time-care-social-reproduction",
       "title": "Colombia’s unpaid-care time remains a large gendered constraint on household and cultural room",
       "geography": "Colombia; civilian non-institutional population aged 10 years and older, with national, urban-headquarters, rural-dispersed, regional, sex, and place-of-birth dimensions",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "colombia unpaid-care time remains large gendered constraint household cultural room dane national time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "colombia unpaid-care time remains large gendered constraint household cultural room dane national time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "colombia unpaid-care time remains large gendered constraint household cultural room dane national time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "colombia unpaid-care time remains large gendered constraint household cultural room dane national time-care-social-reproduction 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-coresight-us-consumer-scale-value-retailer-choice-2026",
@@ -776,40 +798,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Consumer value pressure is being expressed through scale-versus-value retailer choice",
       "geography": "United States; consumer sentiment and retailer/category shopping tracked weekly and described by income group",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer value pressure being expressed through scale-versus-value retailer choice coresight research consumers household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer value pressure being expressed through scale-versus-value retailer choice coresight research consumers household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer value pressure being expressed through scale-versus-value retailer choice coresight research consumers household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer value pressure being expressed through scale-versus-value retailer choice coresight research consumers household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-council-europe-democratic-pact-2026-trust-social-rights-civic-space",
@@ -817,40 +839,40 @@
       "canonical_theme": "political-judgment-collective-action",
       "title": "European democratic resilience is being reframed as a whole-society security problem spanning rights, trust, participation, and technology",
       "geography": "Council of Europe member states and broader European democratic-security context, with a focus on institutional, civic, social-rights, information, election, and technology resilience",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "european democratic resilience being reframed whole-society security problem spanning rights trust participation political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "european democratic resilience being reframed whole-society security problem spanning rights trust participation political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "european democratic resilience being reframed whole-society security problem spanning rights trust participation political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "european democratic resilience being reframed whole-society security problem spanning rights trust participation political-judgment-collective-action 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-council-europe-diaspora-democratic-engagement-social-cohesion-2026",
@@ -858,40 +880,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Diaspora communities are being reframed as democratic and social-cohesion infrastructure rather than only integration populations",
       "geography": "Council of Europe member states and European diaspora communities; report and draft recommendations for national and European institutions",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "diaspora communities are being reframed democratic social-cohesion infrastructure rather than only integration trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "diaspora communities are being reframed democratic social-cohesion infrastructure rather than only integration trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "diaspora communities are being reframed democratic social-cohesion infrastructure rather than only integration trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "diaspora communities are being reframed democratic social-cohesion infrastructure rather than only integration trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-creative-australia-national-arts-participation-2025-cultural-background-cost",
@@ -899,40 +921,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Australian arts participation is culturally connective but increasingly cost-constrained",
       "geography": "Australia; nationally representative survey of people aged 15 years and over",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "australian arts participation culturally connective but increasingly cost-constrained creative australia transformations results trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "australian arts participation culturally connective but increasingly cost-constrained creative australia transformations results trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "australian arts participation culturally connective but increasingly cost-constrained creative australia transformations results trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "australian arts participation culturally connective but increasingly cost-constrained creative australia transformations results trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-crisis-interdependence-social-cohesion-2026",
@@ -940,40 +962,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Crises affect social cohesion through changing dependence, power asymmetries, interests, and the perceived legitimacy of cooperation",
       "geography": "Theory-guided review drawing on evidence across natural hazards, pandemics, economic crises, and wars in multiple national and community contexts",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "crises affect social cohesion through changing dependence power asymmetries interests perceived legitimacy trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "crises affect social cohesion through changing dependence power asymmetries interests perceived legitimacy trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "crises affect social cohesion through changing dependence power asymmetries interests perceived legitimacy trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "crises affect social cohesion through changing dependence power asymmetries interests perceived legitimacy trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-culturati-cultural-mosaic-2026-polycultural-identity-creators-ai",
@@ -981,40 +1003,40 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Consumer culture is increasingly polycultural, with identity, trusted voices and AI reshaping discovery and choice",
       "geography": "United States consumer segments identified in the public overview as Hispanic, Black, Asian and General Market; public sample frame N=5,050",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer culture increasingly polycultural identity trusted voices reshaping discovery choice culturati research trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer culture increasingly polycultural identity trusted voices reshaping discovery choice culturati research trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer culture increasingly polycultural identity trusted voices reshaping discovery choice culturati research trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumer culture increasingly polycultural identity trusted voices reshaping discovery choice culturati research trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-cultureamp-performance-culture-ai-2026-organizational-voice-resourcing",
@@ -1022,41 +1044,42 @@
       "canonical_theme": "ai-work-control",
       "title": "Sustained organizational performance is framed as a collective culture system linking engagement, confidence, leadership, voice, energy, and resource alignment rather than individual heroics",
       "geography": "Global organizations represented in Culture Amp benchmark and research data; organization size and industry comparisons reported",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0003",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "sustained organizational performance framed collective culture system linking engagement confidence leadership voice ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "sustained organizational performance framed collective culture system linking engagement confidence leadership voice ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "sustained organizational performance framed collective culture system linking engagement confidence leadership voice ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "sustained organizational performance framed collective culture system linking engagement confidence leadership voice ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-18",
+          "result_or_gap": "Public web-indexed searches attempted across Reddit, YouTube, LinkedIn, and X using atlas title, source, geography, and theme queries on 2026-10-18; no directly relevant retained item for this platform in this acquisition pass.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     }
   ],
-  "status": "in_review"
+  "status": "closed",
+  "closed": "2026-10-18"
 }
