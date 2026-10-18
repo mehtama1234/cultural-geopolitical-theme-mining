@@ -16254,3 +16254,41 @@ The cross-source implication is that development transitions can move the geogra
 The [ILO ASEAN-China AI labour-policy record](records/comparative-ilo-asean-china-ai-labour-policy-dialogue-2026.json) reports a regional policy dialogue in which governments, workers, and employers discussed AI governance, public employment services, reskilling, digital divides, human judgment, and technical-standard coordination. The dialogue cites almost 80 million potentially GenAI-exposed workers in South-East Asia.
 
 The cross-source implication is that AI transformation is also a geopolitical labour bargain. Regional cooperation can expand policy agency and align standards across connected labour markets, but it can also diffuse dominant models without worker power. The source is agenda-setting, not implementation evidence; the next test follows a concrete policy into national institutions, firms, workers, and remedy.
+
+## Latest five-lane realization rotation: institutional stages arrive before lived conversion
+
+The recent depth audits make the same conversion boundary explicit across five
+different systems:
+
+| Lane | What is now directly visible | Still not closed |
+|---|---|---|
+| Household care and health | Dated MEPS event families, event payment, debt/care-delay context, work and six-month health clocks | Event obligation, feasible alternative, household trade-off, remedy receipt, and recovery |
+| Consumer remedy | Sent, mailed, distributed, cashed, and access-restored administrative states | Adequacy, account correction, residual loss, continued use, switching, and exit |
+| Worker control | AI productivity/time effects, algorithmic-management exposure, formal review rights, reactivation and payment orders | Worker notice, authority, receipt, household effect, durable control, alternative work, and exit |
+| Public benefits | Office access, recertification barriers, SNAP transitions, food-security context, EBT security design | Usable balance, interruption/replacement timing, adequacy, food purchase, and later recovery |
+| Infrastructure and geopolitical capacity | Operating events, emergency authority, cost rules, contracts, mineral projects, and supply concentration | Facility or supplier performance, household/local incidence, qualified replacement, and external response |
+
+The cross-source pattern is stronger than a generic “institutions fail” claim:
+**formal visibility is systematically ahead of practical conversion**. A
+payment is not receipt; receipt is not adequacy; adequacy is not restored
+security; a rule is not compliance; compliance is not acceptance; a domestic
+project is not a qualified substitute; and a fielded capability is not
+geopolitical leverage. Each arrow requires its own unit, date, denominator,
+counterexample, and stopping rule.
+
+This synthesis also preserves the important reversals. In the MEPS route,
+inpatient events have the highest observed self/family payment while emergency-
+room events have higher surrounding medical-debt and collector-contact shares.
+In the critical-minerals route, battery recycling/substitution and
+semiconductor substitution have different time and qualification constraints.
+In public benefits, participation exit can occur beside continuing hardship; in
+worker and consumer routes, access restoration can coexist with unknown payment,
+recurrence, or exit. These reversals prevent a single burden, recovery, or
+autonomy index from being inferred across the atlas.
+
+The next cross-source test is therefore not another aggregate milestone. It is
+one compatible identifier-bearing episode in the highest-learning lane that
+adds the missing middle: alternative or non-use, responsible actor, received
+or defined outcome, and later persistence, recovery, trust, action, switching,
+or exit. Until then, the five audits remain complementary stage evidence, not
+one pooled causal estimate.
