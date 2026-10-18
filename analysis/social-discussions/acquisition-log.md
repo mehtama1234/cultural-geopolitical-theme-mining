@@ -101,3 +101,18 @@ Repeat the same protocol for platform attention/exit and AI companionship/trust,
 then run a dedicated X pass through directly accessible public URLs or an
 authorized API if available. Store the query, date, and failure mode even when
 no usable item is found.
+
+The fifth Wave 003 topic is housing, place, and mobility. Four public items
+were normalized in records/housing-place-linkedin-001.json through
+records/housing-place-x-001.json, and the topic synthesis is in
+findings/housing-place-mobility-wave-003.md.
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | relocation costs neighborhood insurance housing 2026 | A public relocation post described utilities, insurance, transport, neighborhood fit, and adaptation as part of moving; normalized in records/housing-place-linkedin-001.json. | Single creator post and selected audience; no verified move or cost record. |
+| LinkedIn | insurance affordable housing rent maintenance 2026 | A public policy/industry post linked insurance pressure to rent, fees, maintenance, and construction; normalized in records/housing-place-linkedin-002.json. | Argument and relay, not a causal property-level estimate. |
+| Reddit | renting save money move neighborhood 2026 | A public thread discussed moving, neighborhood substitution, utilities, and insurance as renter adaptations; normalized in records/housing-place-reddit-001.json. | Self-selected thread and anecdotal advice. |
+| X | New York rent stabilization zoning housing supply 2026 | An X trending summary presented competing frames around rent pressure, supply, zoning, immigration, and neighborhood change; normalized in records/housing-place-x-001.json. | Platform summary, not a direct post sample; underlying claims require verification. |
+| YouTube | housing rent insurance moving neighborhood 2026 | No reproducible, clearly relevant public item was retained in the restricted search. | Recorded as a platform gap; no substitute source was silently used. |
+
+This wave is a bounded signal set, not representative cross-platform evidence.
