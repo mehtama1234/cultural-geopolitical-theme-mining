@@ -156,6 +156,13 @@ It separates infrastructure completion, application migration, operating
 capacity, ownership transition, public benefit, portability, and geopolitical
 leverage rather than treating any one milestone as sovereignty.
 
+The [infrastructure capacity, local incidence, and state legitimacy bridge](infrastructure-capacity-local-incidence-state-legitimacy-bridge-v1.md)
+is the fifth active depth rotation in the ongoing program. It connects AI and
+data-center infrastructure, public digital systems, defense production, local
+cost allocation, social meaning, practical exit, and observed geopolitical
+response without promoting announcements into capability or capability into
+leverage.
+
 The [World Bank Enterprise Surveys AI follow-up source record](world-bank-wbes-ai-followup-source-record-v1.md)
 opens the next firm-level acquisition gate. It names the US and comparison
 economy files, preserves the access boundary, and specifies the survey-design
