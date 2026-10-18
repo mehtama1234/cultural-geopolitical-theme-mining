@@ -13,6 +13,11 @@ connects AI-management exposure, worker requests, NLRB administrative activity,
 ILO platform-work rights, and remedy. It keeps formal voice, employer response,
 maintained control, worker outcomes, and exit separate.
 
+The [capability, dependence, alliance response, and leverage bridge](capability-dependence-alliance-response-leverage-bridge-v1.md)
+adds the fourteenth active depth rotation. It connects defense resources,
+procurement, production, exercises, public legitimacy, alliance response, and
+the still-open test of changed external behavior.
+
 The current remedy synthesis, [Remedy spectrum: from explanation to collective
 control](remedy-spectrum-cross-domain-synthesis-v1.md), compares judicial
 disclosure, worker appeals, statutory review, institutional mediation,
