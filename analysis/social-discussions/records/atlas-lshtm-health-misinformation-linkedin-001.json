@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-lshtm-health-misinformation-linkedin-001",
+  "atlas_record_ids": ["comparative-lshtm-health-misinformation-uk-2026-practical-judgment-trust"],
+  "topic": "care-health-social-reproduction",
+  "platform": "linkedin",
+  "item_type": "health_misinformation_trust_discussion",
+  "author_or_account": "London School of Hygiene & Tropical Medicine",
+  "title": "LSHTM experts warn of health misinformation risks, call for new network",
+  "canonical_url": "https://www.linkedin.com/posts/london-school-of-hygiene-%26-tropical-medicine-cp_vaccines-reproductivehealth-climate-activity-7373733935995912192-iTnq",
+  "published_window": "2025-09",
+  "retrieved": "2026-10-18",
+  "discussion_signal": "LSHTM’s discussion warns that misleading health information across social media, apps, and AI tools can affect care decisions and population health. It argues that rebuilding trust requires accessible information that responds to people’s concerns rather than simply asking them to trust experts.",
+  "research_anchor_paths": ["analysis/records/comparative-lshtm-health-misinformation-uk-2026-practical-judgment-trust.json"],
+  "linked_research_question": "How does health misinformation create an unequal practical-judgment gap between exposure, confidence, and safe care decisions?",
+  "classification": ["health_misinformation", "trust", "ai_tools", "practical_judgment", "public_health"],
+  "limits": ["The post is an institutional warning and predates much of the target window", "It does not measure misinformation exposure or decision outcomes", "It describes risk and proposed collaboration rather than evaluating an intervention"]
+}
