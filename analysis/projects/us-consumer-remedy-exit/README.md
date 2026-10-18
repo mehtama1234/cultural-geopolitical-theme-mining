@@ -33,6 +33,11 @@ and bounded public discussion. It finds that issued money and prospective
 controls are more visible than receipt, adequacy, continued use, switching, or
 exit.
 
+The new [formal-remedy stage audit](formal-remedy-stage-audit-v1.md) compares
+the administrative funnel across FTC, CFPB, and platform-worker records. It
+separates sent, cashed, mailed, distributed, access-restored, and durable-exit
+observations rather than treating them as one remedy rate.
+
 ## Next test
 
 The next qualifying record is an identifier-bearing account, recipient, worker,
