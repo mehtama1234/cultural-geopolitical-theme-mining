@@ -35,12 +35,19 @@ def main() -> int:
         missing_sources = sorted(set(candidate["source_record_ids"]) - social_record_ids)
         if missing_sources:
             errors.append(f"{prefix}: unknown source records: {', '.join(missing_sources)}")
+        research_sources = candidate["research_sources"]
+        if not isinstance(research_sources, list):
+            errors.append(f"{prefix}: research_sources must be a list")
+        else:
+            for research_source in research_sources:
+                if not (ROOT / research_source).is_file():
+                    errors.append(f"{prefix}: missing research source: {research_source}")
         if len(set(candidate["platforms_present"])) < 2:
             errors.append(f"{prefix}: needs at least two platforms")
         if not candidate["supporting_signal"] or not candidate["counter_signal"]:
             errors.append(f"{prefix}: supporting_signal and counter_signal are required")
-        if candidate["research_status"] == "not_started" and "No atlas research anchor" not in candidate["research_check"]:
-            errors.append(f"{prefix}: not_started candidate must say research was not used to form it")
+        if candidate["research_status"] == "not_started" and research_sources:
+            errors.append(f"{prefix}: not_started candidate cannot have research sources")
         if not candidate["limits"]:
             errors.append(f"{prefix}: limits must not be empty")
 
@@ -50,7 +57,8 @@ def main() -> int:
         for error in errors:
             print(f"FAIL {error}")
         return 1
-    print(f"VALID independent trend candidates: {len(candidates)} provisional candidates; research checks remain separate")
+    statuses = {candidate["research_status"] for candidate in candidates}
+    print(f"VALID independent trend candidates: {len(candidates)} candidates; statuses={sorted(statuses)}; research checks remain separate")
     return 0
 
 

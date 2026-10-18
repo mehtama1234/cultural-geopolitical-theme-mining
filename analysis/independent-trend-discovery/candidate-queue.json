@@ -16,8 +16,9 @@
     "repetition_rule": "At least one public item on each of four platforms, with both complete-exit and selective-retention language present.",
     "supporting_signal": "Accounts describe deleting or limiting some platforms while retaining LinkedIn, Reddit, YouTube, or valued relationships; replies repeatedly debate whether substitution counts as quitting.",
     "counter_signal": "The sample may reflect a self-improvement and digital-minimalism subculture; a few visible accounts cannot show a broad shift in behavior.",
-    "research_status": "not_started",
-    "research_check": "No atlas research anchor was used to form this candidate. Search after candidate freeze.",
+    "research_status": "qualified",
+    "research_sources": ["analysis/records/us-sage-social-media-nonuse-exit-2026.json", "analysis/records/us-whr-social-media-deactivation-collective-exit-2026.json"],
+    "research_check": "After the candidate was frozen, the atlas research found reversible non-use, social pressure, substitution, and a separate U.S. deactivation experiment. It supports the selective-exit mechanism but does not establish a broad new trend or durable exit rate.",
     "next_test": "Collect a second dated wave, sample non-influencer accounts, and compare public claims with measured platform-use and non-use data.",
     "limits": ["Search-selected public items", "Mixed countries and audiences", "Engagement is not prevalence", "Two X items depend on limited direct or mirrored visibility"]
   },
@@ -38,8 +39,9 @@
     "repetition_rule": "At least three platforms must independently mention continuity, privacy, control, or the cost of losing access; current wave has four.",
     "supporting_signal": "Users and professional discussions repeatedly mention memory, deletion, disclosure, dependence, and sudden changes alongside emotional support.",
     "counter_signal": "Some public discussion treats AI companionship as temporary role-play or a useful tool, and some research relays report that companion use is rare in general-purpose chatbot data.",
-    "research_status": "not_started",
-    "research_check": "No atlas research anchor was used to form this candidate. Search after candidate freeze.",
+    "research_status": "qualified",
+    "research_sources": ["analysis/records/us-ai-companion-social-meaning-support-2026.json", "analysis/records/us-ai-companion-farewell-exit-behavior-2025-2026.json"],
+    "research_check": "After the candidate was frozen, the U.S. survey and farewell experiments supported emotional connection, disclosure, short-run exit friction, and perceived loss. They do not establish durable relationships, general product shutdown effects, or widespread dependence.",
     "next_test": "Separate dedicated companion users from ordinary chatbot users and look for dated evidence of continuity loss, switching, or offline relationship change.",
     "limits": ["Sensitive self-reports are not verified", "Community and creator selection bias", "X trending summaries are not direct post samples", "Candidate may describe product concern rather than a social trend"]
   },
@@ -58,8 +60,9 @@
     "repetition_rule": "The demand, legitimacy, or AI-washing frame must appear in at least two platforms and include one counter-frame about new work or efficiency.",
     "supporting_signal": "Public items connect layoffs to consumer demand, firm explanations, younger-worker opportunity, and the split between automation and complementarity.",
     "counter_signal": "The sample includes research relays and X summaries, not a broad worker sample; layoffs may also reflect over-hiring, finance, or ordinary restructuring.",
-    "research_status": "not_started",
-    "research_check": "No atlas research anchor was used to form this candidate. Search labor, firm, and demand evidence after freeze.",
+    "research_status": "qualified",
+    "research_sources": ["analysis/records/us-ai-work-adoption-control-2024-2026.json", "analysis/records/us-census-ai-early-career-hiring-qwi-2026.json", "analysis/records/us-census-ai-exposed-college-graduate-entry-disruption-2026.json"],
+    "research_check": "After the candidate was frozen, the research supported uneven AI adoption, weaker early-career hiring and entry earnings in highly exposed groups, and a gap between productivity and worker control. It does not establish that AI caused all layoffs, that firms are AI-washing, or that demand effects are widespread.",
     "next_test": "Compare company-stated AI reasons with verified layoffs, hiring, output, wages, and local demand without assuming the stated reason is causal.",
     "limits": ["Only three source records in the first wave", "X item is an X-generated trend summary", "Public debate may amplify extreme cases", "No causal claim"]
   }

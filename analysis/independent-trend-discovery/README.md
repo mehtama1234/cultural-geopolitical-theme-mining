@@ -37,6 +37,7 @@ public phrase, story, or concern
 - `discovery-protocol.md` — the repeatable process and review gate.
 - `candidate-queue.json` — provisional trends waiting for research checks.
 - `research-check-log.md` — the later, independent evidence check.
+- `research-check-summary.md` — plain-language results from the first checks.
 - `counter-signals.md` — evidence that pushes against a candidate.
 - `schema.json` — record contract.
 
@@ -46,5 +47,6 @@ Run the validator with:
 python3 scripts/validate_independent_trends.py
 ```
 
-The initial candidates are deliberately provisional. They are not claims that
-the trends are widespread, causal, or uniquely new.
+The initial candidates are deliberately qualified. The research checks support
+parts of each pattern, but none proves that the candidate is widespread,
+causal, or uniquely new.
