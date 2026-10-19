@@ -69237,40 +69237,42 @@
       "canonical_theme": "ai-work-control",
       "title": "US labor-market power cannot be read from wage markdowns alone",
       "geography": "United States and comparative labor-market evidence reviewed for US policy analysis",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
-          "query": "labor-market power cannot read wage markdowns alone labor-market-power literature firm-specific residual labor-supply ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
-        },
-        "reddit": {
-          "status": "not_started",
-          "query": "labor-market power cannot read wage markdowns alone labor-market-power literature firm-specific residual labor-supply ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
-        },
-        "linkedin": {
           "status": "documented_access_gap",
           "query": "labor-market power cannot read wage markdowns alone labor-market-power literature firm-specific residual labor-supply ai-work-control 2025-10-17..2026-10-17",
           "retrieved": "2026-10-19",
-          "result_or_gap": "Exact-title LinkedIn search for the NBER labor-market-power framework returned adjacent monopsony and productivity posts, not this paper",
+          "result_or_gap": "No exact YouTube discussion explicitly tied to NBER w35608 was found in the bounded search.",
           "social_record_ids": []
         },
-        "x": {
-          "status": "not_started",
+        "reddit": {
+          "status": "documented_access_gap",
           "query": "labor-market power cannot read wage markdowns alone labor-market-power literature firm-specific residual labor-supply ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Search found older or adjacent monopsony discussion, but no exact item tied to NBER w35608.",
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "augmented",
+          "query": "labor-market power cannot read wage markdowns alone labor-market-power literature firm-specific residual labor-supply ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-monopsony-linkedin-001"
+          ]
+        },
+        "x": {
+          "status": "documented_access_gap",
+          "query": "labor-market power cannot read wage markdowns alone labor-market-power literature firm-specific residual labor-supply ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion explicitly tied to NBER w35608 was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-mortgage-lockin-housing-mobility-2022-2024",

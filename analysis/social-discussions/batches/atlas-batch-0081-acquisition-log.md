@@ -6,8 +6,8 @@ Scope: the 25 atlas records in `atlas-batch-0081.json`.
 
 ## Attributable normalized signals
 
-Nineteen public results were safely attributable to current-batch atlas
-records, including eighteen LinkedIn results and one Reddit discussion:
+Twenty public results were safely attributable to current-batch atlas
+records, including nineteen LinkedIn results and one Reddit discussion:
 
 - `us-hbs-ai-automation-acceptance-human-touch-2026` → `atlas-batch-0081-ai-acceptance-linkedin-001`
 - `us-nber-immigrants-minimum-wage-labor-market-effects-2026` → `atlas-batch-0081-immigrant-minimum-wage-linkedin-001`
@@ -16,6 +16,7 @@ records, including eighteen LinkedIn results and one Reddit discussion:
 - `us-nber-ai-organization-capital-productivity-2026` → `atlas-batch-0081-organization-capital-linkedin-001`
 - `us-nber-ai-patent-lawyers-expertise-field-experiment-2026` → `atlas-batch-0081-patent-expertise-linkedin-001`
 - `us-nber-ai-patent-lawyers-expertise-field-experiment-2026` → `atlas-batch-0081-patent-expertise-reddit-001`
+- `us-nber-monopsony-labor-market-power-framework-2026` → `atlas-batch-0081-monopsony-linkedin-001`
 - `us-nber-health-insurance-competition-premiums-consumer-welfare-2026` → `atlas-batch-0081-health-insurance-linkedin-001`
 - `us-nber-health-insurance-competition-premiums-consumer-welfare-2026` → `atlas-batch-0081-health-insurance-competition-linkedin-001`
 - `us-nber-credit-card-banking-market-power-2026` → `atlas-batch-0081-credit-card-linkedin-001`
@@ -46,7 +47,7 @@ add a cultural permission layer to industrial adoption.
 
 The twenty linked records have a normalized result. The HBS
 AI-acceptance row now has terminal outcomes for all four platforms and is
-closed as augmented; 8 other batch rows remain in review while their
+closed as augmented; 7 other batch rows remain in review while their
 platform attempts are worked. No completion claim is made for this batch.
 
 ## LinkedIn search gaps recorded
@@ -88,7 +89,7 @@ documented YouTube and X gaps.
 
 The AI organization-capital/productivity record is likewise terminal with its
 exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
-found in the exact-title searches. Eight other batch rows remain in review.
+found in the exact-title searches. Seven other batch rows remain in review.
 
 The creative-destruction worker-earnings record has no exact YouTube, Reddit,
 or X match; older or broader creative-destruction discussions were retained
@@ -153,6 +154,11 @@ The fertility and mothers' remote-work record is terminal with no exact social
 item tied to NBER w35763. LinkedIn and Reddit returned WFH/fertility or
 motherhood-penalty discussion about different papers, while YouTube and X
 produced no exact paper-linked item.
+
+The monopsony framework record is terminal with an exact Berkeley Economics
+LinkedIn post linking NBER w35608 and identifying search frictions, worker
+preferences, and employer concentration as distinct sources of labor-market
+power. Reddit, YouTube, and X produced no exact paper-linked item.
 
 ## Reproducibility and limits
 
