@@ -60903,7 +60903,7 @@
       "canonical_theme": "ai-work-control",
       "title": "U.S. respondents accept AI assistance more readily than full replacement of human work",
       "geography": "United States adult population-matched survey; respondents matched the U.S. adult population on age, gender, ethnicity, and political affiliation",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
@@ -60930,15 +60930,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "respondents accept assistance more readily than full replacement human work harvard business ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title X search for Performance or Principle and HBS AI resistance returned no indexed attributable result",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-hbs-ai-customer-service-contextual-recourse-2020-2021",

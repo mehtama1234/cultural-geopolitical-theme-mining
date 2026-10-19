@@ -41,9 +41,10 @@ add a cultural permission layer to industrial adoption.
 
 ## Current batch state
 
-The sixteen linked records have a normalized LinkedIn result and remain in the
-open batch while the other platform attempts and the remaining 9 records are
-worked. No completion claim is made for this batch.
+The sixteen linked records have a normalized LinkedIn result. The HBS
+AI-acceptance row now has terminal outcomes for all four platforms and is
+closed as augmented; 22 other batch rows remain in review while their
+platform attempts are worked. No completion claim is made for this batch.
 
 ## LinkedIn search gaps recorded
 
