@@ -96,6 +96,10 @@ The credit-card market-power record has likewise reached terminal platform
 outcomes: its exact LinkedIn result is retained, while YouTube and X produced
 no indexed match and Reddit produced only older or non-US discussions.
 
+The dynamic-investment/product-market-rivalry record is terminal with its
+exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
+found in the exact-title searches.
+
 ## Reproducibility and limits
 
 This was public-web discovery, not a platform-native Creator/API export.
