@@ -3,17 +3,17 @@
 This is a live control readout, not a completion claim.
 
 - Atlas records: **2,014**
-- Atlas records with at least one exact linked social item: **330**
-- Exact linked social items: **335**
+- Atlas records with at least one exact linked social item: **331**
+- Exact linked social items: **336**
 - Record statuses: `{'augmented': 320, 'documented_access_gap': 1658, 'in_review': 25, 'queued': 11}`
 
 ## Platform attempt states
 
 | Platform/status | Rows |
 |---|---:|
-| `linkedin:augmented` | 292 |
+| `linkedin:augmented` | 293 |
 | `linkedin:documented_access_gap` | 1,694 |
-| `linkedin:not_started` | 28 |
+| `linkedin:not_started` | 27 |
 | `reddit:augmented` | 40 |
 | `reddit:documented_access_gap` | 1,938 |
 | `reddit:not_started` | 36 |

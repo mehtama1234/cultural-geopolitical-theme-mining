@@ -69616,11 +69616,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-nursing-inspection-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -69631,7 +69633,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-mergers-compliance-direct-care-2025",
