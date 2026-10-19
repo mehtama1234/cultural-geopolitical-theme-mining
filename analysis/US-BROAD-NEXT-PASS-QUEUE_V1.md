@@ -16,8 +16,9 @@ training, and substitute-route records.
 **Latest U.S. consumer-remedy rotation — 2026-10-18:** the [fraud, remedy
 receipt, and household recovery audit](projects/cross-domain/us-consumer-fraud-remedy-receipt-audit-v1.md)
 follows the FTC's October 2026 report of 65,022 Walmart money-transfer-fraud
-checks totaling more than $9.8 million, compares it with Amazon Flex's
-repeated payment route for uncashed driver-tip refunds, and joins administrative
+checks totaling more than $9.8 million, compares it with Amazon Flex's and
+Credit Karma's repeated payment routes for uncashed or unaccepted payments,
+and joins administrative
 fraud exposure, receipt instructions, Federal Reserve household recovery and
 time burden, NBER liquidity-stratified fee effects, and bounded public recourse
 discussion. The finding is a check-to-recovery gap: a counted distribution does
