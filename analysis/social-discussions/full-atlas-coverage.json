@@ -67253,40 +67253,40 @@
       "canonical_theme": "ai-work-control",
       "title": "Fertility changes US mothers’ labor-force participation and remote-work patterns across the pre- and post-pandemic periods",
       "geography": "United States; American Community Survey, 2003–2024",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "fertility changes mothers labor-force participation remote-work patterns across pre- post-pandemic periods remote ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion explicitly tied to NBER w35763 was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "fertility changes mothers labor-force participation remote-work patterns across pre- post-pandemic periods remote ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Search found WFH/fertility discussions about other papers and older commentary, but no exact Reddit item identifiable to NBER w35763.",
           "social_record_ids": []
         },
         "linkedin": {
           "status": "documented_access_gap",
           "query": "fertility changes mothers labor-force participation remote-work patterns across pre- post-pandemic periods remote ai-work-control 2025-10-17..2026-10-17",
           "retrieved": "2026-10-19",
-          "result_or_gap": "LinkedIn exact-title search for NBER w35763 fertility mothers remote work; returned adjacent global WFH-fertility and general fertility posts, not this US ACS paper",
+          "result_or_gap": "Search found adjacent NBER WFH/fertility and motherhood-penalty posts about different papers, but no exact item identifiable to the ACS 2003-2024 study NBER w35763.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "fertility changes mothers labor-force participation remote-work patterns across pre- post-pandemic periods remote ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion explicitly tied to NBER w35763 was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-firearm-safety-means-2026",
