@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0085-autonomous-mobility-linkedin-001",
+  "atlas_record_ids": ["us-census-htops-autonomous-features-2026"],
+  "topic": "infrastructure-technology-dependency",
+  "platform": "linkedin",
+  "item_type": "survey_relay",
+  "author_or_account": "National Center for Travel Behavior and Demand",
+  "title": "America Meets the Self-Driving Car",
+  "canonical_url": "https://www.linkedin.com/posts/national-center-for-travel-behavior-and-demand_america-meets-the-self-driving-car-activity-7463607617903464449-UNIp",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The post says about 7% of U.S. adults have already ridden in a self-driving car and presents a nationally representative longitudinal survey focused on exposure, comfort, and attitudes. It adds an access-and-trust layer to the atlas's reported everyday autonomous-feature use: exposure is real for some people, but comfort and adoption depend on firsthand experience. It does not establish safety, reliability, equity, or broad daily-use outcomes.",
+  "research_anchor_paths": ["analysis/records/us-census-htops-autonomous-features-2026.json"],
+  "linked_research_question": "Does firsthand exposure to autonomous mobility increase trust and usable access, or does it mainly reveal unequal availability across places, income groups, and trip types?",
+  "classification": ["autonomous_mobility", "consumer_exposure", "trust", "survey_relay", "bounded_public_discussion"],
+  "limits": ["The post reports survey exposure and attitudes, not verified safety or service quality", "Seven percent exposure does not show frequency, geography, or demographic distribution", "Trust changes do not establish adoption, affordability, or mobility benefit"]
+}

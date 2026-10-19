@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0085-data-center-cost-reddit-001",
+  "atlas_record_ids": ["us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027"],
+  "topic": "infrastructure-technology-dependency",
+  "platform": "reddit",
+  "item_type": "research_counterexample_discussion",
+  "author_or_account": "r/singularity",
+  "title": "Have Data Centers Raised Your Electric Bill? Causal Evidence from the United States",
+  "canonical_url": "https://www.reddit.com/r/singularity/comments/1ubenzk/have_data_centers_raised_your_electric_bill/",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The thread relays a causal study claiming that data-center entry caused average U.S. retail electricity rates to fall modestly from 2015 to 2024, while commenters debate who pays for local substations, transmission, and future reactive capacity. This is a useful counterexample to a simple 'data centers raise every bill' story, but the earlier national average and local current disputes are not interchangeable.",
+  "research_anchor_paths": ["analysis/records/us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027.json"],
+  "linked_research_question": "When average rates fall, can local congestion, infrastructure cost, or utility-class differences still create concentrated household and small-business burdens?",
+  "classification": ["data_center_load", "electricity_rates", "causal_counterexample", "local_incidence", "bounded_public_discussion"],
+  "limits": ["The thread is a secondary relay and the underlying paper requires independent review", "2015-2024 average-rate effects do not establish 2026 local effects", "Commentary does not identify utility class, geography, or individual household incidence"]
+}

@@ -1,0 +1,432 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0085",
+  "opened": "2026-10-19",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 10,
+  "atlas_record_ids": [
+    "us-census-htops-autonomous-features-2026",
+    "us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027",
+    "us-data-center-electricity-tax-federalism-2026",
+    "us-doe-aep-texas-transmission-loan-customer-savings-2026",
+    "us-doe-national-transmission-needs-2026-ai-manufacturing-electrification",
+    "us-doe-transmission-facilitation-realization-2023-2026",
+    "us-fhwa-our-nations-highways-2026-mobility-dependency",
+    "us-gao-broadband-dig-once-highway-coordination-2026",
+    "us-gao-chips-rd-capacity-governance-2026",
+    "us-gao-critical-minerals-substitution-recycling-dependence-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-census-htops-autonomous-features-2026",
+      "atlas_record_path": "analysis/records/us-census-htops-autonomous-features-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Autonomous driving features are already part of reported everyday mobility for a large share of adults",
+      "geography": "United States adults age 18 and older",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0085",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "autonomous driving features are already part reported everyday mobility large share adults infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "autonomous driving features are already part reported everyday mobility large share adults infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "autonomous driving features are already part reported everyday mobility large share adults infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "autonomous driving features are already part reported everyday mobility large share adults infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027",
+      "atlas_record_path": "analysis/records/us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Data-center capacity, public revenue, and utility governance do not identify household benefit",
+      "geography": "United States; national, Prince William County Virginia, Virginia, Texas, and Georgia layers",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0085",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "data-center capacity public revenue utility governance not identify household benefit deliberately non-pooled infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "data-center capacity public revenue utility governance not identify household benefit deliberately non-pooled infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "data-center capacity public revenue utility governance not identify household benefit deliberately non-pooled infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "data-center capacity public revenue utility governance not identify household benefit deliberately non-pooled infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-data-center-electricity-tax-federalism-2026",
+      "atlas_record_path": "analysis/records/us-data-center-electricity-tax-federalism-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "States are turning data-center electricity growth into explicit tax and reporting bargains before household incidence is known",
+      "geography": "Virginia and North Carolina, United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0085",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "are turning data-center electricity growth into explicit tax reporting bargains before household infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "are turning data-center electricity growth into explicit tax reporting bargains before household infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "are turning data-center electricity growth into explicit tax reporting bargains before household infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "are turning data-center electricity growth into explicit tax reporting bargains before household infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-doe-aep-texas-transmission-loan-customer-savings-2026",
+      "atlas_record_path": "analysis/records/us-doe-aep-texas-transmission-loan-customer-savings-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Transmission finance reaches a closed infrastructure commitment before customer savings and reliability are realized",
+      "geography": "Texas; AEP transmission portfolio and 1.1 million projected customer beneficiaries",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0085",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "transmission finance reaches closed infrastructure commitment before customer savings reliability are realized infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "transmission finance reaches closed infrastructure commitment before customer savings reliability are realized infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "transmission finance reaches closed infrastructure commitment before customer savings reliability are realized infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "transmission finance reaches closed infrastructure commitment before customer savings reliability are realized infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-doe-national-transmission-needs-2026-ai-manufacturing-electrification",
+      "atlas_record_path": "analysis/records/us-doe-national-transmission-needs-2026-ai-manufacturing-electrification.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "AI, manufacturing, and electrification are turning transmission capacity into a national growth and affordability constraint",
+      "geography": "United States; national and interregional electric transmission, congestion, reliability, load growth, and public consultation",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0085",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "manufacturing electrification are turning transmission capacity into national growth affordability constraint department infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "manufacturing electrification are turning transmission capacity into national growth affordability constraint department infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "manufacturing electrification are turning transmission capacity into national growth affordability constraint department infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "manufacturing electrification are turning transmission capacity into national growth affordability constraint department infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-doe-transmission-facilitation-realization-2023-2026",
+      "atlas_record_path": "analysis/records/us-doe-transmission-facilitation-realization-2023-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Federal transmission support can be real while the line is still unbuilt, withdrawn, or not yet delivering service",
+      "geography": "United States interregional transmission projects selected through DOE capacity-contract rounds",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0085",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "federal transmission support can real while line still unbuilt withdrawn not yet infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "federal transmission support can real while line still unbuilt withdrawn not yet infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "federal transmission support can real while line still unbuilt withdrawn not yet infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "federal transmission support can real while line still unbuilt withdrawn not yet infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-fhwa-our-nations-highways-2026-mobility-dependency",
+      "atlas_record_path": "analysis/records/us-fhwa-our-nations-highways-2026-mobility-dependency.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "American everyday life remains structurally car-dependent while roads allocate access, work, social life, and freight through different layers",
+      "geography": "United States; public roads, National Household Travel Survey trips, vehicle miles, and domestic freight",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0085",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "american everyday life remains structurally car-dependent while roads allocate access work social infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "american everyday life remains structurally car-dependent while roads allocate access work social infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "american everyday life remains structurally car-dependent while roads allocate access work social infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "american everyday life remains structurally car-dependent while roads allocate access work social infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gao-broadband-dig-once-highway-coordination-2026",
+      "atlas_record_path": "analysis/records/us-gao-broadband-dig-once-highway-coordination-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "A broadband shortcut can exist on paper while the coordination needed to use it remains uneven",
+      "geography": "United States; 50 states, Puerto Rico, and the District of Columbia, with selected state review",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0085",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "broadband shortcut can exist paper while coordination needed use remains uneven government infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "broadband shortcut can exist paper while coordination needed use remains uneven government infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "broadband shortcut can exist paper while coordination needed use remains uneven government infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "broadband shortcut can exist paper while coordination needed use remains uneven government infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gao-chips-rd-capacity-governance-2026",
+      "atlas_record_path": "analysis/records/us-gao-chips-rd-capacity-governance-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "CHIPS implementation advances on award and milestone clocks while R&D governance remains unsettled",
+      "geography": "United States semiconductor facilities, materials, packaging, workforce, and research institutions",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0085",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "chips implementation advances award milestone clocks while governance remains unsettled government accountability infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "chips implementation advances award milestone clocks while governance remains unsettled government accountability infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "chips implementation advances award milestone clocks while governance remains unsettled government accountability infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "chips implementation advances award milestone clocks while governance remains unsettled government accountability infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gao-critical-minerals-substitution-recycling-dependence-2026",
+      "atlas_record_path": "analysis/records/us-gao-critical-minerals-substitution-recycling-dependence-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Import reliance is not the same as usable substitution or strategic autonomy",
+      "geography": "United States supply chains with battery and semiconductor applications",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0085",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "import reliance not same usable substitution strategic autonomy government accountability office technology infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "import reliance not same usable substitution strategic autonomy government accountability office technology infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "import reliance not same usable substitution strategic autonomy government accountability office technology infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "import reliance not same usable substitution strategic autonomy government accountability office technology infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0085-transmission-linkedin-001",
+  "atlas_record_ids": ["us-doe-national-transmission-needs-2026-ai-manufacturing-electrification", "us-doe-transmission-facilitation-realization-2023-2026"],
+  "topic": "infrastructure-technology-dependency",
+  "platform": "linkedin",
+  "item_type": "official_program_relay",
+  "author_or_account": "Office of Electricity, U.S. Department of Energy",
+  "title": "US Grid Sees Rapid Growth Amid AI and Manufacturing Demand",
+  "canonical_url": "https://www.linkedin.com/posts/office-of-electricity_strengthening-americas-grid-supply-chain-activity-7492634132590772225-Peok",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The DOE relay says AI, manufacturing, and other energy needs are driving rapid grid demand after years of flat growth, while long lead times, import dependence, and limited domestic production constrain transformers and power electronics. It presents a supply-chain program as a route toward lower equipment spending and improved reliability. The announcement is a capacity and program claim, not proof that equipment, lines, or customer savings have been delivered.",
+  "research_anchor_paths": ["analysis/records/us-doe-national-transmission-needs-2026-ai-manufacturing-electrification.json", "analysis/records/us-doe-transmission-facilitation-realization-2023-2026.json"],
+  "linked_research_question": "Which clock binds first in the U.S. grid buildout—equipment supply, permitting, transmission construction, or customer affordability—and what evidence shows the bottleneck moved?",
+  "classification": ["transmission", "grid_supply_chain", "ai_manufacturing_demand", "realization_boundary", "bounded_public_discussion"],
+  "limits": ["The post is an official program relay and includes anticipated benefits", "It does not show completed projects, measured reliability, or customer savings", "National supply-chain claims may not describe a specific utility or region"]
+}

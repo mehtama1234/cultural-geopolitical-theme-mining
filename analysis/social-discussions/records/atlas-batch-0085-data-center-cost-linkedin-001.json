@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0085-data-center-cost-linkedin-001",
+  "atlas_record_ids": ["us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027", "us-data-center-electricity-tax-federalism-2026"],
+  "topic": "infrastructure-technology-dependency",
+  "platform": "linkedin",
+  "item_type": "industry_policy_analysis",
+  "author_or_account": "Enverus",
+  "title": "Data Center Load Growth: Who Pays the Tax",
+  "canonical_url": "https://www.linkedin.com/posts/enverus-energy_two-states-two-tools-one-question-who-activity-7493752534663352320-D2VV",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The post compares Virginia's data-center electricity tax, large-load rate design, and Ohio queue rules. It asks whether utility buildout costs are spread to residential and small-commercial customers and frames cost allocation as a policy choice. It reports current U.S. data-center capacity and projected cloud capex, but those figures are industry estimates and do not prove household incidence or delivered service.",
+  "research_anchor_paths": ["analysis/records/us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027.json", "analysis/records/us-data-center-electricity-tax-federalism-2026.json"],
+  "linked_research_question": "Do large-load tariffs and data-center taxes make AI infrastructure pay its incremental grid cost, or do residential and small-business customers still carry part of the buildout?",
+  "classification": ["data_center_load", "rate_design", "tax_federalism", "cost_allocation", "bounded_public_discussion"],
+  "limits": ["The post is an industry analysis and its capacity and capex figures are not independent administrative measurements", "It identifies policy approaches but does not estimate final household incidence", "A tariff design or tax does not prove reliable service or completed infrastructure"]
+}
