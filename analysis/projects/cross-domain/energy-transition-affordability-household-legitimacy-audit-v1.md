@@ -37,7 +37,7 @@ different denominators and methods.
 | Policy route | [EU Citizens’ Energy Package](../../records/comparative-european-commission-citizens-energy-package-2026-affordability-security-autonomy.json) proposes bill reduction, citizen generation/sharing, faster switching, clearer bills, and energy-poverty action. | Consumer agency and affordability are being bundled with energy security and autonomy. | Announced measures do not establish implementation, equal access, or bill reduction. |
 | Preference distribution | [EU Special Eurobarometer 555](../../records/comparative-european-commission-eurobarometer-energy-affordability-consumer-protection-2025.json): about 26,000 EU citizens; 40% define energy policy partly as affordable prices, 53% support help for energy-poor households, and 50% support efficiency and self-production. | Practical control and targeted support can be legitimacy routes. | Preferences do not identify who pays, who owns infrastructure, or who can adopt it. |
 | AI load | [IEA Key Questions on Energy and AI](../../records/comparative-iea-key-questions-energy-ai-2026-data-centres-affordability-grid.json): data-centre electricity demand grew 17% in 2025, AI-focused data-centre electricity consumption 50%, and announced 2026 hyperscaler/neo-cloud capex totals $715 billion. | AI infrastructure makes allocation, connection, and cost incidence part of energy legitimacy. | Announced capex and projected load do not all become operating demand or show who bears costs. |
-| U.S. industrial grid finance | [DOE AEP Texas project](../../records/us-doe-aep-texas-transmission-loan-customer-savings-2026.json) records a July 2026 loan of up to $3.26 billion for roughly 2,800 miles of transmission work, with projected 100% more carrying capacity and about $685 million in 30-year customer savings for 1.1 million projected customers. DOE's [environmental-review list](https://www.energy.gov/edf/american-electric-power-environmental-reviews) shows named AEP Texas reviews completed in September and October 2026. | The U.S. industrial chain has moved from closed financing into some project-level review, while large-load growth and household-cost claims remain linked in the public rationale. | Review completion is not construction, energization, operating reliability, cost allocation, or a lower bill for a named household or business. |
+| U.S. industrial grid finance | [DOE AEP Texas project](../../records/us-doe-aep-texas-transmission-loan-customer-savings-2026.json) records a July 2026 loan of up to $3.26 billion for roughly 2,800 miles of transmission work, with projected 100% more carrying capacity and about $685 million in 30-year customer savings for 1.1 million projected customers. DOE's [Hamlin–Roby review letter](https://www.energy.gov/documents/aep-texas-hamlin-roby-69kv-transmission-line-project) describes a 25.2-mile rebuild and says construction was anticipated to begin in September 2026. | The U.S. industrial chain has moved from closed financing and environmental review to a named scheduled-start stage, while large-load growth and household-cost claims remain linked in the public rationale. | A scheduled start is not construction progress or completion. The record still does not show energization, operating reliability, cost allocation, or a lower bill for a named household or business. |
 
 ## Cross-source finding
 
@@ -52,10 +52,10 @@ reliable, and controllable service—not on capital totals, clean labels, or
 announced capacity alone.
 
 The new U.S. industrial evidence sharpens the timing of that gap: a project can
-have federal financing closed and environmental review completed while the
-customer-facing stages—construction, operation, allocation, bill effect, and
-reliability—remain open. This is a more precise test than treating an announced
-grid investment as either a benefit or a burden.
+have federal financing closed, environmental review completed, and a scheduled
+construction start while the customer-facing stages—built assets, operation,
+allocation, bill effect, and reliability—remain open. This is a more precise
+test than treating an announced grid investment as either a benefit or a burden.
 
 The evidence does not show that transition investment necessarily worsens
 household welfare. Solar for All is a counterexample to a purely negative story:

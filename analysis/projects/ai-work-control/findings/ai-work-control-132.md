@@ -10,16 +10,17 @@ rebuilds, reconductoring, and new construction. DOE says the projects are
 expected to increase carrying capacity by 100%, reduce interruptions, and
 produce about $685 million in electricity-cost savings over 30 years for 1.1
 million customers. Those are meaningful financing and forecast stages, not
-observed customer outcomes. DOE's environmental-review page lists completed
-reviews for named AEP Texas projects on September 1, September 4, and October 1,
-2026. That moves some projects beyond financing into review completion, but it
-still does not show construction completion, energized lines, lower
-interruptions, or a bill change for a named customer.
+observed customer outcomes. DOE's September 3, 2026 review for the named
+25.2-mile Hamlin–Roby line says construction was anticipated to begin in
+September 2026. That moves the project beyond financing and review into a
+scheduled construction start, but the reviewed public record still does not
+show construction completion, energization, lower interruptions, or a bill
+change for a named customer.
 
 ```text
 large-load and reliability pressure
   -> federal financing and project portfolio
-  -> project review and construction [review completion; build/energization open]
+  -> project review and construction [review complete; start anticipated; completion open]
   -> operating reliability and cost allocation
   -> retail bill effect, local burden, customer benefit, and durable service [open]
 ```
@@ -51,6 +52,8 @@ distributed household outcome.
 - Environmental-review completion is an administrative milestone. It is not
   proof that a line was built, energized, used, or beneficial to the customers
   named in the forecast.
+- An anticipated September 2026 construction start is a schedule claim, not a
+  dated construction-progress or energization result.
 
 ## Next decisive test
 
@@ -58,7 +61,7 @@ Follow the portfolio through line-level construction and operation, outage and
 reliability measures, rate-case cost allocation, customer bills, local impacts,
 and later durability. Preserve forecast, system average, customer class, and
 household measures as separate units. The next decisive record is a named
-project's construction or energization milestone paired with a regulator or
+project's dated construction-progress or energization milestone paired with a regulator or
 utility record showing how costs and reliability changes reach customer classes.
 
 ## Source
@@ -66,6 +69,8 @@ utility record showing how costs and reliability changes reach customer classes.
 [DOE: AEP Texas Energy Dominance Financing Program project](https://www.energy.gov/edf/aep-texas)
 
 [DOE: AEP environmental-review completion list](https://www.energy.gov/edf/american-electric-power-environmental-reviews)
+
+[DOE: Hamlin–Roby environmental-review letter](https://www.energy.gov/documents/aep-texas-hamlin-roby-69kv-transmission-line-project)
 
 [Machine-readable trend record](../../../records/us-doe-aep-texas-transmission-loan-customer-savings-2026.json)
 
