@@ -36,7 +36,9 @@ competing-platform leverage. The finding is a money-to-control gap: monetary
 correction does not prove restored net earnings, schedule control, explanation,
 alternatives, trust, or practical exit. Next: seek payment-status distributions,
 driver notices, post-order verification, deactivation/human-review records, and
-matched alternative-platform outcomes.
+matched alternative-platform outcomes. The Amazon Flex repeated-payment route
+is now an implementation comparator, not proof of the same harm or of restored
+worker control.
 
 **Latest U.S. consumer rotation — 2026-10-18:** the [privacy control and
 completion audit](projects/cross-domain/us-consumer-privacy-control-completion-audit-v1.md)

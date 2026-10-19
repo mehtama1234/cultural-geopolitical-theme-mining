@@ -23,6 +23,7 @@ explanation, work control, alternatives, trust, and exit`.
 | Monetary judgment | The court-entered judgment was $100 million: $79 million directed to drivers, $10 million Walmart pays the FTC for intended driver distribution, and $11 million in civil penalties to 11 states. | Enforcement created a large, legally ordered remedy route. | Allocation is not the same as individual payment receipt, amount adequacy, or restored future income. |
 | Eligibility and timing | Nationwide relief covers drivers who accepted Spark delivery/shopping offers and did not receive promised base pay, tips, incentives, or promotions; Walmart reportedly began payments in mid-2025, before the settlement announcement. | The remedy has a defined claim scope and implementation history. | Not every driver qualifies; complete eligible population, individual payment amount/date, and unresolved count are not published. |
 | Prospective control | The order includes a 10-year earnings-verification program. | The response addresses future earnings representations, not only past money. | A compliance duration is not evidence of worker understanding, platform behavior, enforcement quality, or changed bargaining power. |
+| Worker-remedy comparator | [FTC Amazon Flex refund page](https://www.ftc.gov/enforcement/refunds/refunds-amazon-flex-drivers) reports more than $60.6 million in returned tips, with an initial November 2021 payment, a second May 2025 payment, and a current Zelle route for eligible drivers who did not cash an earlier check. | A separate U.S. platform-worker case shows repeated payment administration and a later uncashed-payment route. | The page does not publish the full eligible denominator, cashed share, residual loss, post-remedy net earnings, continued work, or exit; Amazon Flex tips and Walmart Spark earnings claims are not the same harm. |
 | Worker outcome gap | The public record does not observe continued Spark work, alternative work, schedule control, deactivation, expenses, trust, switching, or exit after payment. | The case can be coded as reported monetary remedy with an open work-control endpoint. | Payment may correct a past shortfall after a worker has already left or incurred unrecovered time, fuel, vehicle, or opportunity costs. |
 | Market alternative | [NBER gig-economy paper](../../records/us-nber-gig-economy-outside-options-labor-supply-2026.json) reports that access to one competing platform nearly doubled drivers’ elasticity to the focal firm and reduced an implied markdown from about 68% to 50%; women were about twice as elastic to the market as men. | A usable competing platform can increase leverage and make exit more practical. | The abstract does not disclose the exact driver denominator or net earnings, expenses, benefits, household security, or later switching outcomes. |
 | Worker-rights mechanism | [ILO platform-work convention record](../../records/comparative-ilo-platform-economy-convention-2026-algorithmic-management-rights-remedy.json) identifies information rights, written explanations, human review, and remedies for adverse automated decisions as collective-rights routes. | Explanation and review are distinct from payment and may be necessary for durable control. | Comparative convention provisions do not establish implementation at Walmart or in U.S. platform work. |
@@ -35,11 +36,13 @@ allocation, reported payment activity, eligibility rules, state penalties, and a
 10-year prospective verification program.
 
 Yet the public endpoint remains monetary and administrative. We cannot tell how
-many drivers were eligible, what each received, whether records were corrected,
-whether drivers continued working, whether pay became more predictable, or
-whether workers gained a usable alternative. The NBER result shows why the last
-link matters: competition can increase labor-supply elasticity and reduce an
-implied markdown, but formal platform access is not the same as profitable,
+many Spark drivers were eligible, what each received, whether records were
+corrected, whether drivers continued working, whether pay became more
+predictable, or whether workers gained a usable alternative. The Amazon Flex
+comparison shows that later payment rounds can address uncashed payments, but
+still does not close the work-control endpoint. The NBER result shows why the
+last link matters: competition can increase labor-supply elasticity and reduce
+an implied markdown, but formal platform access is not the same as profitable,
 geographically available, schedule-compatible alternative work.
 
 ## Counterexamples and disconfirmation checks
@@ -91,8 +94,10 @@ offer and earnings promise
 
 Seek the administrator’s payment-status distribution, driver notices, dispute
 and appeal records, post-order earnings-verification results, deactivation and
-human-review records, and a matched alternative-platform comparison. Preserve
-drivers who continue, switch, stop, or cannot switch as separate outcomes.
+human-review records, and matched alternative-platform comparisons. Use the
+Amazon Flex repeated-payment route as an implementation comparator, while
+preserving drivers who continue, switch, stop, or cannot switch as separate
+outcomes.
 
 ## Stopping rule
 
