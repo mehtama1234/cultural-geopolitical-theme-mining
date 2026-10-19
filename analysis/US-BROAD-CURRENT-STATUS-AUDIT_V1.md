@@ -58,6 +58,14 @@ concentration, and wage-setting practices can point in different directions.
 This prevents the atlas from treating a wage markdown or concentration number
 as worker power by itself; the paper is a framework, not a new causal outcome.
 
+The next AI-firm performance addition is the [NBER organization-capital record](records/us-nber-ai-organization-capital-productivity-2026.json).
+It links AI-skilled employment and job-description-based organization capital to
+recent productivity growth, while the existing project summary reports 6.2
+percentage points greater 2018–2024 sales-per-worker growth for a one-standard-
+deviation increase in AI-skilled employment-share growth. This is firm-level
+association, not proof that AI caused the gain or that workers and consumers
+received it.
+
 The newest education-and-AI depth artifact is the [AI in education, learning,
 teacher agency, and equity audit](projects/cross-domain/ai-education-learning-agency-equity-audit-v1.md).
 It joins NBER K–12 school-capacity evidence, OECD task-performance and learning
@@ -542,7 +550,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 1988 machine-readable records, 5957 observations,
+**Current registry state:** 1989 machine-readable records, 5958 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2562,7 +2570,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1988 trend records and 5957 observations pass the
+the current checkpoint: 1989 trend records and 5958 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

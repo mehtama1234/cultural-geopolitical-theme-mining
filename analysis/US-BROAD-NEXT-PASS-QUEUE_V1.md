@@ -35,6 +35,13 @@ wage-setting, and labor-supply response separately. The next industry test must
 show which of these is actually observed; a markdown or concentration headline
 alone is insufficient.
 
+The next AI-industrial test is the [NBER organization-capital record](records/us-nber-ai-organization-capital-productivity-2026.json).
+Follow AI-skilled hiring from firm productivity into workforce composition, pay,
+training, monitoring, worker control, prices, and customer outcomes. The 6.2
+percentage-point sales-per-worker estimate is an association from the existing
+project summary, not a causal worker benefit. Stop after one firm or sector
+comparison and one selection or non-transferability challenge are documented.
+
 **Latest U.S. industrial/consumer AI-work rotation — 2026-10-18:** the [AI
 implementation, worker-control, and security audit](projects/us-worker-control-remedy/ai-implementation-worker-control-security-audit-v1.md)
 now explicitly bounds the next cycle to U.S. evidence. Census HTOPS time-saved
@@ -457,9 +464,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1988 machine-readable records and 5957
-observations. The trend registry holds 1988 records and
-5957 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1989 machine-readable records and 5958
+observations. The trend registry holds 1989 records and
+5958 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1988 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1989 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6293,6 +6293,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | AI makes measurement scalable while moving the bottleneck to construct definition and validation | cost, voice, time | infrastructure_technology_dependency, public_systems_feedback, trust_identity_meaning, political_judgment_action, platforms_data_attention | NBER Working Paper 35744, a methodological review of AI-generated variables and credible inference | Economics research and AI-enabled measurement; general methodological evidence with implications for U.S. public, firm, and institutional measurement | 1 | Paper issued September 14, 2026; methodological review | reported | [open](records/us-nber-ai-measurement-validation-inference-2026.json) |
 
 **Boundary:** This record establishes a methodological trend: AI can lower the cost of producing structured measures while increasing the importance of construct definition, validation, and interpretive governance. It does not establish accuracy, bias, discrimination, trust, policy effects, or outcomes for any particular U.S. population or institution.
+
+| US firm AI investment is associated with recent productivity growth through organization capital | work, cost, voice | infrastructure_technology_dependency, firm_sector_market_power, work_control_bargaining, household_room_consumption, public_systems_feedback | US firm-level AI-skilled employment, job descriptions, organization capital, sales per worker, and productivity growth | United States | 1 | 2018–2024 compared with the prior decade; working paper issued August 2026 | reported | [open](records/us-nber-ai-organization-capital-productivity-2026.json) |
+
+**Boundary:** This record adds a firm-performance signal to the AI-work chain. It does not establish that AI caused the productivity association, that workers received the gains, that job quality or control improved, or that consumers and households benefited.
 
 | Personalized AI political advice can trade perceived helpfulness for information quality | voice, cost, work | platforms_data_attention, political_judgment_action, trust_identity_meaning, consumer_power_recourse, unequal_exposure_status | NBER Working Paper 35689; theoretical information and persuasion model of an informed AI adviser and an individual | United States-centered AI political-advice mechanism; no empirical geographic sample | 1 | Paper issued August 2026; theoretical model | estimated | [open](records/us-nber-ai-political-advice-2026.json) |
 
