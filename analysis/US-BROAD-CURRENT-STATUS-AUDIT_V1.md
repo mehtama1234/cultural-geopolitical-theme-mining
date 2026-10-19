@@ -1,5 +1,7 @@
 # US broad program current-status audit v1
 
+The latest consumer-data quality repair rechecked the [NBER Shopping From Home record](records/us-nber-shopping-from-home-consumer-prices-2026.json) against the official W34883 page, replaced its placeholder retrieval hash, and added the source and project-control links. The finding remains bounded to shopping mode, time, product mix, and prices paid.
+
 The latest U.S. consumer-industry addition is the [NBER Procter & Gamble field experiment](records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json). It adds randomized team evidence: AI users matched no-AI teams on measured innovation tasks, produced more balanced R&D/Commercial proposals, and reported more positive emotion. This keeps task equivalence, expertise, social connection, worker voice, product quality, and consumer benefit separate.
 
 The latest U.S. firm-level addition is the [NBER/Federal Reserve executive survey](records/us-nber-ai-corporate-executives-productivity-workforce-2026.json). It reports uneven AI adoption, positive but sector-varying productivity, a perceived-versus-measured productivity gap, little near-term aggregate employment decline, and compositional job reallocation. This keeps firm expectations, realized revenue, worker transitions, bargaining power, pay, prices, and household benefit separate.

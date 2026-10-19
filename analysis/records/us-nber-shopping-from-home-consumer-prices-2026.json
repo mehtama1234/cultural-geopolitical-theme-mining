@@ -52,11 +52,20 @@
       "subgroup": "Work-from-home households, married households, and households where the new remote worker was male; product-category effects vary.",
       "counterinterpretation": "Households choosing remote work may differ in income, location, schedule, preferences, or shopping access; higher prices can reflect convenience and product mix rather than pure consumer harm.",
       "source_url": "https://www.nber.org/papers/w34883",
-      "retrieval_hash": "sha256:6a9c2e5f8b1d4a7c0e3f6b9d2a5c8e1f4b7d0a3c6e9f2b5d8a1c4f7e0b3d6000",
+      "retrieval_hash": "sha256:5161586034f575cf89cfd02a2df55f8acdeb6e89989bcc093406aecdf8eb48d7",
       "status": "reported"
     }
   ],
-  "related_sources": [],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34883", "claim": "Official NBER landing page with the abstract, work-from-home shopping-mode, spending, price, deal-use, household, trip, and time findings.", "status": "primary-source"},
+    {"source_url": "https://www.nber.org/system/files/working_papers/w34883/w34883.pdf", "claim": "NBER working-paper PDF route for full-method and appendix review; Nielsen consumer-panel and marketing data access remains proprietary.", "status": "primary-source"},
+    {"source_url": "../../projects/us-remote-work-shopping-cost/README.md", "claim": "Project control note defining the shopping-cost, household-time, and same-household joining questions.", "status": "design-specification"}
+  ],
   "boundary": "This record adds a consumer-work mechanism: remote work reallocates shopping time and responsibility and can change prices paid. It does not establish household welfare, retailer market power, food security, or a universal remote-work effect.",
-  "retrieval_hash": "sha256:6a9c2e5f8b1d4a7c0e3f6b9d2a5c8e1f4b7d0a3c6e9f2b5d8a1c4f7e0b3d6000"
+  "retrieval_hash": "sha256:5161586034f575cf89cfd02a2df55f8acdeb6e89989bcc093406aecdf8eb48d7",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W34883 landing page reviewed for the work-from-home shopping-mode, expenditure, price, deal-use, household-responsibility, trip, and shopping-time findings.",
+    "source_url_sha256": "sha256:5161586034f575cf89cfd02a2df55f8acdeb6e89989bcc093406aecdf8eb48d7",
+    "checked": "2026-10-19"
+  }
 }

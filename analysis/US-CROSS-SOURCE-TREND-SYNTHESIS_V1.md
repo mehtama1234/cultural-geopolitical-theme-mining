@@ -1,5 +1,7 @@
 # US cross-source trend synthesis v1
 
+The [NBER Shopping From Home record](records/us-nber-shopping-from-home-consumer-prices-2026.json) received a provenance repair: its official W34883 page was rechecked and the placeholder retrieval hash was replaced. Its substantive boundary is unchanged—remote work can shift shopping mode, household responsibility, time, product mix, and prices paid, but those are not interchangeable with welfare, retailer power, or food security.
+
 The [NBER Procter & Gamble experiment](records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json) adds a team-level counterpoint to the executive and patent-lawyer evidence: AI can match no-AI team performance on a defined innovation task and smooth functional differences, but positive emotion and balanced proposals do not prove durable expertise, voice, belonging, or product-market success. The cross-source open arrow is now performance → learning and authority → worker/social/consumer outcomes.
 
 The [NBER/Federal Reserve executive survey](records/us-nber-ai-corporate-executives-productivity-workforce-2026.json) adds a firm-level companion to the patent-lawyer experiment: adoption is broad but uneven, productivity gains are not yet equivalent to revenue realization, and stable aggregate employment can coexist with job-mix reallocation. Read together, the two studies sharpen the open chain from AI capability to firm output, worker learning, job transition, bargaining power, consumer prices, and household room.

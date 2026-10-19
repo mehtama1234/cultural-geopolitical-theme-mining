@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. consumer provenance repair — 2026-10-19:** the existing [NBER Shopping From Home record](records/us-nber-shopping-from-home-consumer-prices-2026.json) was rechecked against the official W34883 page and its placeholder hash was replaced with the retrieved page hash. The finding remains bounded: remote work changes shopping mode, time, product mix, and prices paid, but does not by itself establish welfare or retailer market power.
+
 **Latest U.S. consumer-industry AI rotation — 2026-10-19:** the [NBER Procter & Gamble field experiment](records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json) randomized 776 professionals across AI/no-AI and individual/team work on product-innovation tasks. Individuals using AI matched no-AI teams, AI balanced R&D and Commercial proposals, and users reported more positive emotion. Next: test whether apparent team substitution preserves expertise, worker voice, belonging, product quality, and consumer value over time.
 
 **Latest U.S. firm-level AI rotation — 2026-10-19:** the [NBER/Federal Reserve executive survey](records/us-nber-ai-corporate-executives-productivity-workforce-2026.json) covers 734 executives and reports uneven adoption, positive but sector-varying productivity, a gap between perceived and revenue-measured gains, little near-term aggregate employment decline, and job-mix reallocation toward skilled technical roles. Next: match executive expectations to realized hiring, layoffs, wages, prices, worker voice, and household outcomes.
