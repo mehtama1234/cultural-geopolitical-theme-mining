@@ -44,7 +44,7 @@ add a cultural permission layer to industrial adoption.
 
 The seventeen linked records have a normalized result. The HBS
 AI-acceptance row now has terminal outcomes for all four platforms and is
-closed as augmented; 19 other batch rows remain in review while their
+closed as augmented; 16 other batch rows remain in review while their
 platform attempts are worked. No completion claim is made for this batch.
 
 ## LinkedIn search gaps recorded
@@ -86,7 +86,7 @@ documented YouTube and X gaps.
 
 The AI organization-capital/productivity record is likewise terminal with its
 exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
-found in the exact-title searches. Nineteen other batch rows remain in review.
+found in the exact-title searches. Sixteen other batch rows remain in review.
 
 The creative-destruction worker-earnings record has no exact YouTube, Reddit,
 or X match; older or broader creative-destruction discussions were retained
@@ -99,6 +99,11 @@ no indexed match and Reddit produced only older or non-US discussions.
 The dynamic-investment/product-market-rivalry record is terminal with its
 exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
 found in the exact-title searches.
+
+The poor-family minimum-wage record is now terminal with its exact LinkedIn
+result retained. Reddit returned only older or generic minimum-wage debates,
+while no exact YouTube or X discussion was found; all three outcomes are
+documented as access gaps.
 
 ## Reproducibility and limits
 
