@@ -65109,22 +65109,24 @@
       "canonical_theme": "ai-work-control",
       "title": "AI assistance raised patent-drafting quality, but durable expertise gains depended on seniority",
       "geography": "United States; 133 practicing patent lawyers at 11 US intellectual-property law firms",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "assistance raised patent-drafting quality but durable expertise gains depended seniority nber working ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title YouTube search for NBER patent lawyers AI expertise field experiment returned no attributable result",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "assistance raised patent-drafting quality but durable expertise gains depended seniority nber working ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-patent-expertise-reddit-001"
+          ]
         },
         "linkedin": {
           "status": "augmented",
@@ -65136,15 +65138,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "assistance raised patent-drafting quality but durable expertise gains depended seniority nber working ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title X search for NBER patent lawyers AI expertise field experiment returned no indexed attributable result",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-political-advice-2026",

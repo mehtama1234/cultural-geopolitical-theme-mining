@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0081-patent-expertise-reddit-001",
+  "atlas_record_ids": ["us-nber-ai-patent-lawyers-expertise-field-experiment-2026"],
+  "topic": "ai-work-control",
+  "platform": "reddit",
+  "item_type": "research_discussion_thread",
+  "author_or_account": "r/Economics",
+  "title": "Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting",
+  "canonical_url": "https://www.reddit.com/r/Economics/comments/1wolqw7/does_ai_assistance_enhance_or_erode_expertise/",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The thread discusses the exact patent-drafting experiment and focuses on the expertise boundary: AI access improved benchmark work, but the three-month no-AI redlining test showed the durable gain concentrated among senior lawyers, while junior outcomes spread toward both better and worse performance. Comments debate whether AI is a controlled workflow aid, a crutch, or a way to shift effort toward higher-level judgment, making the industrial skill-formation question visible rather than treating productivity as a single output measure.",
+  "research_anchor_paths": ["analysis/records/us-nber-ai-patent-lawyers-expertise-field-experiment-2026.json"],
+  "linked_research_question": "When US firms deploy AI assistance, which workers gain durable expertise, which lose foundational practice, and how do workflow design, review responsibility, and task allocation affect industrial quality and consumer-facing risk?",
+  "classification": ["industrial_workflow_discussion", "ai_assistance", "expertise_formation", "seniority_heterogeneity", "bounded_public_discussion"],
+  "limits": ["Reddit comments are selected public reactions and not a representative sample of lawyers or firms", "The thread discusses a three-month field experiment and does not establish long-run career, pay, client, or patent-quality outcomes", "Personal anecdotes and debate are interpretation layers, not additional causal evidence"]
+}

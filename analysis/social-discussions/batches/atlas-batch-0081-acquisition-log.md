@@ -6,8 +6,8 @@ Scope: the 25 atlas records in `atlas-batch-0081.json`.
 
 ## Attributable normalized signals
 
-Sixteen public LinkedIn results were safely attributable to current-batch
-atlas records:
+Seventeen public results were safely attributable to current-batch atlas
+records, including sixteen LinkedIn results and one Reddit discussion:
 
 - `us-hbs-ai-automation-acceptance-human-touch-2026` → `atlas-batch-0081-ai-acceptance-linkedin-001`
 - `us-nber-immigrants-minimum-wage-labor-market-effects-2026` → `atlas-batch-0081-immigrant-minimum-wage-linkedin-001`
@@ -15,6 +15,7 @@ atlas records:
 - `us-nber-ai-corporate-executives-productivity-workforce-2026` → `atlas-batch-0081-ai-firm-data-linkedin-001`
 - `us-nber-ai-organization-capital-productivity-2026` → `atlas-batch-0081-organization-capital-linkedin-001`
 - `us-nber-ai-patent-lawyers-expertise-field-experiment-2026` → `atlas-batch-0081-patent-expertise-linkedin-001`
+- `us-nber-ai-patent-lawyers-expertise-field-experiment-2026` → `atlas-batch-0081-patent-expertise-reddit-001`
 - `us-nber-health-insurance-competition-premiums-consumer-welfare-2026` → `atlas-batch-0081-health-insurance-linkedin-001`
 - `us-nber-credit-card-banking-market-power-2026` → `atlas-batch-0081-credit-card-linkedin-001`
 - `us-nber-flood-risk-insurance-household-exposure-2026` → `atlas-batch-0081-flood-risk-linkedin-001`
@@ -26,7 +27,7 @@ atlas records:
 - `us-nber-pg-ai-teamwork-expertise-social-engagement-2025` → `atlas-batch-0081-pg-ai-teamwork-linkedin-001`
 - `us-nber-minimum-wage-poor-low-income-families-2026` → `atlas-batch-0081-minimum-wage-poor-families-linkedin-001`
 
-The sixteen signals sharpen an industrial/consumer USA chain: public
+The seventeen signals sharpen an industrial/consumer USA chain: public
 acceptance and firm adoption are not the same as realized transformation;
 organization capital may be the missing complement; assisted output can
 conceal uneven expertise
@@ -41,9 +42,9 @@ add a cultural permission layer to industrial adoption.
 
 ## Current batch state
 
-The sixteen linked records have a normalized LinkedIn result. The HBS
+The seventeen linked records have a normalized result. The HBS
 AI-acceptance row now has terminal outcomes for all four platforms and is
-closed as augmented; 22 other batch rows remain in review while their
+closed as augmented; 19 other batch rows remain in review while their
 platform attempts are worked. No completion claim is made for this batch.
 
 ## LinkedIn search gaps recorded
@@ -80,11 +81,12 @@ not surface attributable items.
 
 The AI corporate-executive productivity record is now also terminal: its exact
 LinkedIn result is retained and YouTube, Reddit, and X searches are documented
-as gaps.
+as gaps. The patent-lawyer record now has an exact Reddit discussion plus
+documented YouTube and X gaps.
 
 The AI organization-capital/productivity record is likewise terminal with its
 exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
-found in the exact-title searches.
+found in the exact-title searches. Nineteen other batch rows remain in review.
 
 ## Reproducibility and limits
 
