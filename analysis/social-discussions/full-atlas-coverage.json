@@ -70358,22 +70358,26 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "AI matched some team performance while changing expertise sharing and social connection in product innovation work",
       "geography": "Procter & Gamble, a US-headquartered global consumer packaged goods company; participant geography is not fully specified in the abstract",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0082",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0082-pg-ai-teamwork-youtube-001"
+          ]
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0082-pg-ai-teamwork-reddit-001"
+          ]
         },
         "linkedin": {
           "status": "augmented",
@@ -70385,15 +70389,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found within the bounded six-month window that identified the P&G study, NBER W33641, or its specific collaboration findings.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-platform-data-neutrality-market-competition-2026",

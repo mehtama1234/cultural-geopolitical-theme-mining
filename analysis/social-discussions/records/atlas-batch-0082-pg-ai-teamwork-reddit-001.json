@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0082-pg-ai-teamwork-reddit-001",
+  "atlas_record_ids": ["us-nber-pg-ai-teamwork-expertise-social-engagement-2025"],
+  "topic": "firm-sector-market-power",
+  "platform": "reddit",
+  "item_type": "research_translation_discussion",
+  "author_or_account": "r/accelerate",
+  "title": "Harvard study shows AI has effectively become equal to having a second human teammate",
+  "canonical_url": "https://www.reddit.com/r/accelerate/comments/1jjpb0f/harvard_study_shows_ai_has_effectively_become/",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The discussion identifies the study as a randomized experiment with 776 Procter & Gamble professionals and repeats the bounded comparison that individuals using AI matched the average performance of teams without AI. It turns the research into a public substitution question—whether AI can supply some benefits of a second teammate—while also creating a risk of overclaiming replacement from a short product-innovation task.",
+  "research_anchor_paths": ["analysis/records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json"],
+  "linked_research_question": "Which collaboration functions can AI substitute for in U.S. consumer-product innovation, and which depend on durable human expertise, judgment, accountability, or team relationships?",
+  "classification": ["consumer_industry_discussion", "human_ai_collaboration", "team_substitution", "product_innovation", "bounded_public_discussion"],
+  "limits": ["The thread is a public discussion and does not independently reproduce the experiment or full estimates", "The study concerns one consumer-goods firm and bounded innovation tasks, not general employment replacement", "The thread's replacement framing is an interpretation and should not be treated as a measured labor-market effect"]
+}
