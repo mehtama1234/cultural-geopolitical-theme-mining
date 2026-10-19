@@ -15,6 +15,14 @@ The authors' modeled national scenario estimates about $1.1 billion in annual
 benefits if all sugary drinks were excluded, with about 70% coming from
 modeled health-care savings—but the model does not fully value stigma.
 
+A related NBER study, Working Paper 35739, reports a roughly 11% reduction in
+restricted SNAP spending across the first statewide restrictions on sweetened
+beverages and candy. Its summary also reports lower purchased calories and
+sugar, while shelf prices changed little. This is a useful consumer-price
+refinement, not a replacement for the first study: the spending, purchase,
+calorie, sugar, price, and stigma measures use different units and do not yet
+show total household consumption, health, or food security.
+
 The route is:
 
 ```text
@@ -74,6 +82,9 @@ boundary more socially visible.
   disclose complete sample counts or all state-level estimates.
 - Grocery purchases are not the same as total consumption, household food
   intake, or health change.
+- The 12.4% excluded-drink estimate and the roughly 11% restricted-spending
+  estimate come from related but distinct summaries and should not be averaged
+  into one effect.
 - The national $1.1 billion figure is modeled, not observed, and does not
   fully price stigma or every substitution route.
 - The study does not establish whether stigma persists, changes participation,
@@ -93,6 +104,7 @@ health improvement.
 ## Sources
 
 - [NBER Working Paper 35659](https://www.nber.org/papers/w35659)
+- [NBER Working Paper 35739](https://www.nber.org/papers/w35739)
 - [University of Chicago research brief](https://bfi.uchicago.edu/insights/the-effects-of-snap-sugary-drink-restrictions-on-consumption-and-welfare/)
 - [NBER Healthy Diné Nation Act study](https://www.nber.org/papers/w35662)
 - [Bounded SNAP measurement discussion](../../../social-discussions/records/social-snap-current-context-linkedin-001.json)
