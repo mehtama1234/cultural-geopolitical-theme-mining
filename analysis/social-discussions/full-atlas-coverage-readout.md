@@ -17,8 +17,8 @@ This is a live control readout, not a completion claim.
 | `reddit:augmented` | 41 |
 | `reddit:documented_access_gap` | 1,946 |
 | `reddit:not_started` | 27 |
-| `x:documented_access_gap` | 1,988 |
-| `x:not_started` | 26 |
+| `x:documented_access_gap` | 1,989 |
+| `x:not_started` | 25 |
 | `youtube:augmented` | 1 |
 | `youtube:documented_access_gap` | 1,986 |
 | `youtube:not_started` | 27 |

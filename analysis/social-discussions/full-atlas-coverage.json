@@ -69674,15 +69674,15 @@
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home mergers reduce deficiency citations but also direct-care hours without improving resident firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion identifiable to NBER w33967 was found in the bounded search.",
           "social_record_ids": []
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-related-party-tunneling-2024",
