@@ -71485,40 +71485,42 @@
       "canonical_theme": "ai-work-control",
       "title": "US firm wage-setting norms left many workers behind prices during 2021–2024 inflation",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0082",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found within the bounded window that identified NBER W35624 or its 2021-2024 same-firm real-wage findings.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0082-sticky-wages-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "General wage-and-inflation commentary was found, but no exact LinkedIn discussion within the bounded window identified NBER W35624 or its 2021-2024 same-firm real-wage findings.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found within the bounded window that identified NBER W35624 or its 2021-2024 same-firm real-wage findings.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-stimulus-checks-veteran-transfers-consumption-2026",

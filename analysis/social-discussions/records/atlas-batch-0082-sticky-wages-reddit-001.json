@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0082-sticky-wages-reddit-001",
+  "atlas_record_ids": ["us-nber-sticky-wage-norms-real-wage-loss-2026"],
+  "topic": "household-room-consumption",
+  "platform": "reddit",
+  "item_type": "research_translation_discussion",
+  "author_or_account": "r/AskEconomics",
+  "title": "How exactly is there an affordability crisis if wages are outpacing inflation and real wages have consistently grown year-over-year?",
+  "canonical_url": "https://www.reddit.com/r/AskEconomics/comments/1vqzhi9/how_exactly_is_there_an_affordability_crisis_if/",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The thread explicitly cites the paper's result that 37% of all workers saw real wages decline over the four-year period, then debates how aggregate year-over-year wage gains can coexist with cumulative purchasing-power losses. This is a useful consumer-side translation of the record: a current wage-growth headline can miss the path-dependent loss carried by workers who stayed with the same firm during the inflation surge.",
+  "research_anchor_paths": ["analysis/records/us-nber-sticky-wage-norms-real-wage-loss-2026.json"],
+  "linked_research_question": "How do firm-level raise norms, job switching, prices for necessities, hours, benefits, and household resources convert aggregate wage recovery into unequal purchasing power and consumption room?",
+  "classification": ["real_wage_loss", "consumer_affordability", "firm_wage_setting", "aggregate_micro_gap", "bounded_public_discussion"],
+  "limits": ["The thread is not a representative worker survey or independent analysis", "It discusses the paper alongside aggregate wage and income series that use different populations and denominators", "The paper and thread do not establish individual hardship, household spending, benefits, job quality, or causal bargaining power"]
+}
