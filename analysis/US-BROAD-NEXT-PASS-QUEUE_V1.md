@@ -27,6 +27,18 @@ trust, or practical consumer exit. Next: seek sent, delivered, cashed,
 returned, and unresolved payment counts and at least one later household or
 protection outcome.
 
+**Latest U.S. large-load infrastructure rotation — 2026-10-18:** the [AI
+infrastructure, local legitimacy, and household-cost synthesis](projects/cross-domain/us-ai-infrastructure-local-legitimacy-household-costs-2026-09-29.md)
+now joins Pew and UMass local-consent evidence to a reported PJM 4,000 MW
+large-load disconnection, FERC/PJM reliability and cost-allocation action,
+Virginia large-load thresholds and modeled residential-rate effects, and bounded
+practitioner discussion. The finding remains a capital-to-household conversion
+gap: the operating event and governance rules are real middle stages, but they
+do not yet prove facility-level payment, residential bill or outage incidence,
+received credits, or durable consent. Next: follow one named facility through
+load, tariff/tax payment, feeder/customer class, household exposure, and local
+participation or remedy.
+
 **Latest U.S. platform-worker rotation — 2026-10-18:** the [remedy and
 work-control audit](projects/cross-domain/us-platform-worker-remedy-work-control-audit-v1.md)
 follows the Walmart Spark Driver case from complaint and court-entered $100
