@@ -6324,6 +6324,19 @@ evaluation. Next: seek a protected household-and-retailer route through EBT or
 cash purchase, product availability, total consumption, food security, medical
 outcomes, and durable policy judgment.
 
+**Latest U.S. health-insurance consumer rotation — 2026-10-18:** the [ACA
+underwriting and practical-option finding](projects/us-health-cost-household-choice/findings/us-nber-aca-underwriting-heterogeneous-effects-2026-001.md)
+now adds CMS's 2026 Marketplace scale and affordability stage: 23.1 million
+plan selections or automatic re-enrollments, including 19.5 million returning
+consumers, alongside a projected $50 average monthly premium for the lowest-
+cost plan after credits. CMS also reports that access to a chosen plan category
+at or below $50 fell to 60% of eligible re-enrollees from 83% in 2025. These are
+selection and price-access measures, not paid premiums, effectuated coverage,
+network use, treatment, or household recovery. Next: connect applicant risk and
+plan choice to payment, network/appointment access, claims, treatment
+continuity, care delay, and later financial security, with bounded denial
+discussion kept separate from prevalence evidence.
+
 **Navajo healthy-diet policy rotation — 2026-09-22:** an NBER study finds no
 detectable improvement in studied maternal and newborn outcomes after the
 Healthy Diné Nation Act created a 7–8% healthy/unhealthy food price wedge.
