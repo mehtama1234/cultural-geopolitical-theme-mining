@@ -14625,6 +14625,19 @@ issuance, import prices, household portfolios, firm financing, policy response,
 
 and external official behavior. See the [reserve-status finding](projects/us-dollar-reserve-status-fiscal-room/findings/us-nber-dollar-reserve-status-erosion-2026-001.md).
 
+**Latest U.S. job-security/mobility rotation — 2026-10-18:** the [job-security
+finding](projects/us-job-security-mobility-incomplete-markets/findings/us-nber-job-security-mobility-incomplete-markets-2026-001.md)
+now joins NBER's 1.63% pay-for-risk trade-off and modeled mobility mechanism to
+the New York Fed's August 2026 household expectations: 44.4% mean probability
+of higher national unemployment, 45.4% mean probability of finding a job after
+job loss, and 13.8% mean probability of personal job loss within 12 months.
+Expected spending growth (5.2%) also exceeded expected income growth (3.0%),
+while perceived three-month missed-payment risk was 13.2%. These are separate
+expectation measures, not a realized security index. Next: connect worker/job
+offers to risk, pay, benefits, liquidity, UI eligibility, applications,
+acceptance, layoff, mobility, productivity, and later household security, with
+bounded labor-market discussion kept separate from population outcomes.
+
 **Job-security/mobility rotation — 2026-09-23:** NBER Working Paper 35580's
 representative survey of employed U.S. workers finds an average demand for a
 1.63% pay raise for each additional percentage point of annual unemployment
