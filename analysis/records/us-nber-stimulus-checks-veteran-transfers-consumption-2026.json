@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-stimulus-checks-veteran-transfers-consumption-2026",
+  "title": "US one-off transfers produced a delayed, hump-shaped consumption response",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "unequal_exposure_status", "care_health_reproduction", "trust_identity_meaning"],
+  "source_unit": "US veterans, postwar transfer payments, household consumption, transfer timing, cumulative transfer multiplier, and expectations",
+  "geography": "United States; post-World War II veteran payment natural experiment",
+  "observations": [
+    {
+      "period": "Working paper issued September 2026; postwar US veterans’ payments",
+      "denominator": {"value": null, "unit": "US veterans and households receiving plausibly exogenous postwar payments; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "consumption_path": {"value": null, "unit": "one-off transfers produce a temporary transfer increase followed by a persistent, hump-shaped increase in consumption", "value_type": "reported_path"},
+        "multiplier_six_months": {"value": 1, "unit": "cumulative consumption response per dollar of transfer after six months", "value_type": "reported_estimate"},
+        "multiplier_one_year": {"value": ">2", "unit": "cumulative consumption response per dollar of transfer after one year", "value_type": "reported_estimate_lower_bound"},
+        "transfer_design": {"value": null, "unit": "one-off, deficit-financed lump-sum payments to households", "value_type": "reported_design"},
+        "expectations": {"value": null, "unit": "households underreact on impact but overreact at longer horizons in the model matching the consumption estimates", "value_type": "modeled_mechanism"}
+      },
+      "method": "A natural experiment uses plausibly exogenous payments to US veterans after World War II, estimating the dynamic consumption response and comparing it with heterogeneous-agent macroeconomic models.",
+      "uncertainty": "The NBER abstract does not disclose sample counts, confidence intervals, exact payment size, consumption measures, or all identification assumptions. Historical veteran payments may not generalize to current households, and a consumption multiplier is not the same as food security, debt reduction, health, durable security, or equal welfare.",
+      "subgroup": "US veterans and households receiving postwar payments, with dynamic responses measured over six months and one year.",
+      "counterinterpretation": "Payments, wartime institutions, household balance sheets, expectations, prices, supply constraints, and veteran eligibility may differ from modern stimulus programs; aggregate consumption can rise while some households remain constrained or face later repayment and fiscal effects.",
+      "source_url": "https://www.nber.org/papers/w35786",
+      "retrieval_hash": "sha256:9d46720b95fd65b61efee8dbbf44fea15e025a6a6cc4e58b5a19e1512c01eb7d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35835", "claim": "P-EBT disbursements increased sugary-item spending among eligible households with school-aged children.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35739", "claim": "SNAP restrictions reduced restricted spending, calories, and sugar while creating substitution and channel effects.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35856", "claim": "Low-income and low-skill workers show persistent labor-force exit and limited replacement of lost W-2 income.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a dynamic transfer-to-consumption layer to the US consumer program. It does not establish modern stimulus effects, household security, nutrition, debt, health, political trust, or equal welfare, and the one-year multiplier is not a direct measure of durable benefit."
+}

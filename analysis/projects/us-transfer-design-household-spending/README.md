@@ -19,3 +19,10 @@ Check whether the result holds outside pandemic programs and food-store spending
 ## Matched evidence pass
 
 The first matched check is [The same dollar can do different work depending on how it arrives](../../findings/us-transfer-design-household-matched-evidence-001.md), with its [HTML reading page](../../../site/us-transfer-design-household-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms form and timing effects while leaving food security, care, trust, and long-run security open.
+
+The [veteran-transfer consumption record](../../records/us-nber-stimulus-checks-veteran-transfers-consumption-2026.json)
+adds a non-pandemic timing counterpoint: one-off postwar payments produced a
+persistent, hump-shaped consumption response, with a cumulative multiplier of
+1 after six months and above 2 after a year. The next test is whether timing and
+expectations change food security, debt, health, and durable household room—not
+only spending.

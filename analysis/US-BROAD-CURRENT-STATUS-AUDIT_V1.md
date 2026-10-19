@@ -1,5 +1,7 @@
 # US broad program current-status audit v1
 
+The latest U.S. transfer-design addition is the [NBER veteran-transfer record](records/us-nber-stimulus-checks-veteran-transfers-consumption-2026.json). It reports a delayed consumption response, with a cumulative multiplier reaching 1 after six months and exceeding 2 after a year. This keeps spending, food security, debt, health, expectations, and durable household room separate.
+
 The latest U.S. education-investment addition is the [NBER school-finance record](records/us-nber-school-finance-reforms-macro-output-2026.json). It reports long-run aggregate gains after a 10–15 year lag, including about 4.7% higher earnings per worker and more than 5% higher GDP per capita after 30 years. This keeps macro output, student outcomes, distribution, place, household resources, and school quality separate.
 
 The latest U.S. network-and-innovation addition is the [NBER economic-connectedness record](records/us-nber-social-capital-innovation-economic-connectedness-2026.json). It links high-income Facebook friendship exposure to much higher local patenting and supports a financing mechanism, while leaving jobs, wages, firm survival, privacy, and consumer benefit open.
@@ -582,7 +584,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 2005 machine-readable records, 5974 observations,
+**Current registry state:** 2006 machine-readable records, 5975 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2602,7 +2604,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 2005 trend records and 5974 observations pass the
+the current checkpoint: 2006 trend records and 5975 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link
