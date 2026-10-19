@@ -38,13 +38,15 @@ displacement. Next: connect the labor-market comparison to named employer or
 worker episodes with training, task change, pay, schedule, control, and later
 employment or exit.
 
-The same pass now adds a firm-performance stage: an NBER featured-paper
-summary associates a one-standard-deviation increase in growth of a firm's
-AI-skilled employment share with 6.2 percentage points greater sales-per-worker
-growth in 2018–2024, but not in the prior eight years. This is an industrial
-performance signal, not a causal worker or household result. Next: test whether
-the firm result survives methods and selection review, and whether any named
-firm connects sales, workforce composition, wages, training, control, and exit.
+The same pass now adds a firm-performance stage from the full [NBER W35684
+paper](https://www.nber.org/papers/w35684): AI-skilled employment and a
+job-description-based organization-capital measure are associated with recent
+productivity growth, while the featured summary reports 6.2 percentage points
+greater sales-per-worker growth in 2018–2024 for a one-standard-deviation
+increase in AI-skilled employment-share growth, not in the prior eight years.
+This is an industrial performance signal, not a causal worker or household
+result. Next: test whether named firms connect organization-capital formation
+to workforce composition, pay, training, monitoring, control, and exit.
 
 **Latest U.S. housing/insurance consumer rotation — 2026-10-18:** the [property
 shock, repair, staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md)

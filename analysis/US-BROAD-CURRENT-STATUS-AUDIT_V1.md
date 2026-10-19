@@ -133,9 +133,12 @@ time-saved/time-cost signals, NBER exposure versus adaptive-capacity estimates,
 Gallup manager support and displacement associations, U.S. firm-size training
 capacity, NBER outside-option leverage, a CPS comparison finding no
 statistically significant summer-2026 unemployment increase for recent college
-graduates relative to comparison groups, and a new firm-level association
-between AI-skilled employment-share growth and 6.2 percentage points greater
-sales-per-worker growth in 2018–2024. The current evidence supports a
+graduates relative to comparison groups, and the full NBER W35684 firm-level
+paper behind the featured summary: its AI-skilled employment measure and
+job-description-based organization-capital measure are associated with recent
+productivity growth, while the featured summary reports 6.2 percentage points
+greater sales-per-worker growth in 2018–2024 for a one-standard-deviation
+increase, not in the prior eight years. The current evidence supports a
 conversion gap:
 measurable AI use or productivity can arrive before worker discretion,
 bargaining power, durable earnings, consumer remedy, or household security are
