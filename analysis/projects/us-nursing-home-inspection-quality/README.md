@@ -27,3 +27,11 @@ a causal staffing increase. Low-staffing facilities manipulate size to avoid the
 rule, limiting access especially for disadvantaged patients. The next test is to
 join threshold response to staffing composition, resident outcomes, worker
 conditions, payer mix, and local capacity.
+
+The [inspection-response record](../../records/us-nber-nursing-home-inspection-strategic-response-mortality-2025.json)
+adds the persistence test: facilities respond strongly across several core
+dimensions during inspections, but nearly all responses drop immediately after
+the inspection. Ratings may not measure absolute quality cleanly, yet higher
+ratings still predict lower patient mortality. The next test is to separate
+temporary compliance, persistent facility quality, patient sorting, and resident
+experience.

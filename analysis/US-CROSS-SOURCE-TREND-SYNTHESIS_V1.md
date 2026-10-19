@@ -1,5 +1,7 @@
 # US cross-source trend synthesis v1
 
+The [NBER nursing-home inspection record](records/us-nber-nursing-home-inspection-strategic-response-mortality-2025.json) adds a persistence and measurement challenge. Facilities improve several observed dimensions around inspections, then nearly all responses fall immediately afterward; ratings therefore may not measure absolute quality, even though higher-rated facilities have lower patient mortality. Read with threshold avoidance, mergers, and related-party financial evidence, the cross-source implication is that compliance, facility quality, resident access, and financial incentives can move on different clocks. The abstract does not disclose effect sizes or fully identify the mortality mechanism.
+
 The [NBER nursing-home threshold record](records/us-nber-nursing-home-threshold-regulation-staffing-access-2026.json) adds a firm-avoidance layer to the care-quality chain. At California’s 100-bed threshold, facilities bunch and low-staffing homes manipulate size to avoid additional staffing requirements; higher staffing above the threshold is nearly entirely selection, and access is limited particularly for disadvantaged patients. Read beside inspection-timing, merger, and tunneling evidence, the cross-source pattern is that measured compliance, staffing, ownership, and resident access can move through different mechanisms. The abstract does not disclose effect sizes or clinical outcomes, so this is not a complete quality or welfare estimate.
 
 The [NBER immigrant minimum-wage record](records/us-nber-immigrants-minimum-wage-labor-market-effects-2026.json) adds a worker-status boundary to the minimum-wage comparison. Hours fall without a reported employment response for immigrants, especially recently arrived, likely undocumented workers in high-turnover industries, while native workers show no comparable response. Read beside the poor-family SIPP result, this suggests that the outcome unit matters: employment can remain present while hours, schedule control, legal-status leverage, and household room change. The abstract does not disclose effect sizes or the complete identification design; the subgroup pattern is not proof that legal status alone causes the difference.
@@ -119,7 +121,7 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 1992 machine-readable records, 5961 observations,
+The current registry contains 1993 machine-readable records, 5962 observations,
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json): 43% of same-firm workers experienced real-wage decline across 2021–2024, 37% of all workers did, and job changers' wages rose nearly one-for-one with inflation. The cross-source implication is that firm wage rules are an upstream part of household room and consumer sentiment, but the payroll source does not observe the same workers' spending, debt, care, trust, or political action.
 

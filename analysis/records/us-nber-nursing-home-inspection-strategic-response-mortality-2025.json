@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-nursing-home-inspection-strategic-response-mortality-2025",
+  "title": "US nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status", "work_control_bargaining", "household_room_consumption"],
+  "source_unit": "US nursing homes, government inspections, facility quality responses, inspection ratings, admissions, and patient mortality",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Working paper issued July 2025; revised August 2026; US nursing-home inspection and patient evidence",
+      "denominator": {"value": null, "unit": "US nursing homes and patient admissions; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "inspection_response": {"value": null, "unit": "nursing homes exhibit strong responses to inspections in multiple core dimensions", "value_type": "reported_direction"},
+        "response_persistence": {"value": null, "unit": "nearly all inspection responses drop immediately once the inspection is completed", "value_type": "reported_direction"},
+        "absolute_quality_measurement": {"value": null, "unit": "inspection ratings are unlikely to reflect absolute nursing-home quality because of strategic responses", "value_type": "reported_limit"},
+        "relative_quality": {"value": null, "unit": "inspection ratings predict relative nursing-home quality", "value_type": "reported_direction"},
+        "patient_mortality": {"value": null, "unit": "admission to higher-rated nursing homes lowers patient mortality", "value_type": "reported_direction"}
+      },
+      "method": "The paper studies government health inspections in the nursing-home sector, measuring facility responses during and after inspections and relating inspection ratings to patient admission and mortality outcomes.",
+      "uncertainty": "The NBER abstract does not disclose sample counts, effect sizes, the exact mortality window, or the full identification strategy. Strategic responses may affect what ratings measure; the abstract does not establish which specific care inputs drive mortality differences, worker outcomes, prices, or long-run resident wellbeing.",
+      "subgroup": "Nursing-home facilities exposed to inspections and patients admitted to facilities with different inspection ratings.",
+      "counterinterpretation": "Ratings may partly capture persistent facility differences, patient sorting, market selection, or unobserved care inputs even after the paper’s design; temporary inspection responses can coexist with genuine quality differences, and lower mortality does not identify every dimension of resident experience.",
+      "source_url": "https://www.nber.org/papers/w34037",
+      "retrieval_hash": "sha256:222aaf14081c64c12c7f742868674a47c82d77ad101e16d1bd2c7cd3d67fbc7b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35849", "claim": "California nursing homes manipulate size around a 100-bed staffing threshold, and access is limited particularly for disadvantaged patients.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w33967", "claim": "Nursing-home mergers reduce deficiency citations and direct-care hours, with compliance improvements concentrated in low-severity categories.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w32258", "claim": "Detailed nursing-home financial evidence reports related-party tunneling and a gap between reported and implied investment returns.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a measurement and persistence layer to the US nursing-home regulation chain. It does not disclose effect sizes, prove that inspections cause lower mortality, establish absolute quality, or measure worker conditions, resident voice, prices, profits, or long-run access in the same unit."
+}
