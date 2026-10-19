@@ -71,6 +71,13 @@ obligations; the next pass must test whether those obligations appear in
 claim/property outcomes. Next: follow one claim or property through payment,
 inspection, repair, occupancy, renewal, and mobility.
 
+The NBER flood-risk disclosure study adds a market-sorting stage: extreme-risk
+homes sold at a 3.3% discount, stayed listed about a week longer, and drew
+buyers with 5.3% lower income, more FHA financing, and older ages. Next: link
+disclosure to insurance, mortgage stress, repair, flood loss, safe occupancy,
+and later mobility; do not treat a lower price as protection or a buyer's
+sorting as freely chosen risk acceptance.
+
 **Latest U.S. consumer-health rotation — 2026-10-18:** the [AI health
 navigation, trust, control, and continuity audit](projects/cross-domain/ai-health-navigation-trust-control-audit-v1.md)
 now joins Pew, GAO, Ipsos, WHO, and PwC evidence with the FTC Hims & Hers

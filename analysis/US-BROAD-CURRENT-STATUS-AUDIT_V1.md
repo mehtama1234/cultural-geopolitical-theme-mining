@@ -187,6 +187,12 @@ place attachment remain unknown. It now adds California's September 2026 smoke-
 damage and disaster-recovery legal corrections, which sharpen the implementation
 test without proving household-level repair or safe return.
 
+The NBER flood-disclosure study adds a consumer-market sorting stage: extreme-
+risk homes sold at a 3.3% discount, remained listed about a week longer, and
+attracted buyers with 5.3% lower income, more FHA financing, and older ages.
+This shows information changing price and buyer composition, not insurance,
+repair, safe occupancy, or durable household protection.
+
 The newest capability-to-leverage depth artifact is the [semiconductor control,
 domestic realization, and replaceability audit](projects/cross-domain/semiconductor-control-domestic-realization-replaceability-audit-v1.md).
 It compares TSMC Arizona production and planned capacity with export-control
