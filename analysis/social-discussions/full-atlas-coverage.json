@@ -69690,21 +69690,21 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "US nursing-home profits are widely tunneled to related parties, changing the apparent return and regulatory picture",
       "geography": "United States; nursing-home providers",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home profits are widely tunneled related parties changing apparent return regulatory picture firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion explicitly tied to NBER w32258 was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home profits are widely tunneled related parties changing apparent return regulatory picture firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion explicitly tied to NBER w32258 was found in the bounded search.",
           "social_record_ids": []
         },
         "linkedin": {
@@ -69717,15 +69717,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home profits are widely tunneled related parties changing apparent return regulatory picture firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion explicitly tied to NBER w32258 was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-roommate-peer-effects-mortality-2025",

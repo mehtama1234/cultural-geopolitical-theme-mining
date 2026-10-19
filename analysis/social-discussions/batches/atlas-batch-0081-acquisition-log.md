@@ -6,8 +6,8 @@ Scope: the 25 atlas records in `atlas-batch-0081.json`.
 
 ## Attributable normalized signals
 
-Seventeen public results were safely attributable to current-batch atlas
-records, including sixteen LinkedIn results and one Reddit discussion:
+Eighteen public results were safely attributable to current-batch atlas
+records, including seventeen LinkedIn results and one Reddit discussion:
 
 - `us-hbs-ai-automation-acceptance-human-touch-2026` → `atlas-batch-0081-ai-acceptance-linkedin-001`
 - `us-nber-immigrants-minimum-wage-labor-market-effects-2026` → `atlas-batch-0081-immigrant-minimum-wage-linkedin-001`
@@ -27,7 +27,7 @@ records, including sixteen LinkedIn results and one Reddit discussion:
 - `us-nber-pg-ai-teamwork-expertise-social-engagement-2025` → `atlas-batch-0081-pg-ai-teamwork-linkedin-001`
 - `us-nber-minimum-wage-poor-low-income-families-2026` → `atlas-batch-0081-minimum-wage-poor-families-linkedin-001`
 
-The seventeen signals sharpen an industrial/consumer USA chain: public
+The eighteen signals sharpen an industrial/consumer USA chain: public
 acceptance and firm adoption are not the same as realized transformation;
 organization capital may be the missing complement; assisted output can
 conceal uneven expertise
@@ -42,7 +42,7 @@ add a cultural permission layer to industrial adoption.
 
 ## Current batch state
 
-The seventeen linked records have a normalized result. The HBS
+The eighteen linked records have a normalized result. The HBS
 AI-acceptance row now has terminal outcomes for all four platforms and is
 closed as augmented; 15 other batch rows remain in review while their
 platform attempts are worked. No completion claim is made for this batch.
@@ -110,6 +110,12 @@ to NBER w33967. LinkedIn returned adjacent nursing-home merger and
 private-equity discussion, while Reddit, YouTube, and X produced no exact
 paper-linked item; all four outcomes remain documented access gaps rather
 than evidence attached to the record.
+
+The related-party-tunneling record is terminal with an exact LinkedIn post
+that links NBER w32258 and discusses its 68% profit-tunneling estimate. The
+post is retained as a public interpretation of ownership opacity and
+accountability, not as independent confirmation of the accounting analysis;
+Reddit, YouTube, and X produced no exact paper-linked item.
 
 ## Reproducibility and limits
 
