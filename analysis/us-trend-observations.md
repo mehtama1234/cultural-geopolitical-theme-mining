@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2002 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2003 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6501,6 +6501,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Perceived Federal Reserve alignment shapes trust, expectations, and information processing | voice, cost | trust_identity_meaning, political_judgment_action, public_systems_feedback, household_room_consumption, unequal_exposure_status | US consumer survey respondent in randomized information-demand and expectation experiment | United States | 4 | April 21–May 2, 2024 survey; 2024 pre-treatment trust and inflation-expectation comparison; 2024 randomized information demand and processing stage; 2024 hypothetical presidential-election scenario | compared; estimated; observed; reported | [open](records/us-nber-fed-partisan-trust-2024.json) |
 
 **Boundary:** This record measures perceived Federal Reserve political alignment, trust, macroeconomic expectations, information demand, information processing, and a hypothetical election response in a 2024 online survey experiment. It does not establish that partisan perceptions reflect actual Federal Reserve bias, cause realized inflation, spending, portfolio, trust, or voting outcomes, or generalize to all US adults.
+
+| Fertility changes US mothers’ labor-force participation and remote-work patterns across the pre- and post-pandemic periods | work, time, cost | work_control_bargaining, care_health_reproduction, household_room_consumption, unequal_exposure_status, housing_place_mobility | US mothers, fertility, labor-force participation, remote work, occupation teleworkability, child penalties, and period before/after 2020 | United States; American Community Survey, 2003–2024 | 1 | American Community Survey 2003–2024; pre-COVID and post-2020 comparisons | reported | [open](records/us-nber-fertility-mothers-remote-work-2003-2024.json) |
+
+**Boundary:** This record adds a fertility, care, and remote-work arrangement layer to the US industrial/consumer program. It does not establish the size of income, care-time, housing, health, or wellbeing effects, or that remote work is uniformly available or beneficial to mothers.
 
 | People can share a goal of safety while disagreeing about the tool that provides it | voice, cost, time | trust_identity_meaning, political_judgment_action, public_systems_feedback, unequal_exposure_status, consumer_power_recourse | NBER Working Paper 34962, The Universal Pursuit of Safety and the Demand for (Lethal, Non-Lethal or No) Guns | United States; original survey of more than 5,400 respondents and randomized information experiments on firearm owners and non-owners | 2 | Original survey; 2025–2026 working-paper study; Randomized information treatments; study experiment | reported | [open](records/us-nber-firearm-safety-means-2026.json) |
 

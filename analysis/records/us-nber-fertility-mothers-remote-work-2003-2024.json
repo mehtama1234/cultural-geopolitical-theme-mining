@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-fertility-mothers-remote-work-2003-2024",
+  "title": "Fertility changes US mothers’ labor-force participation and remote-work patterns across the pre- and post-pandemic periods",
+  "theme_ids": ["work", "time", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "care_health_reproduction", "household_room_consumption", "unequal_exposure_status", "housing_place_mobility"],
+  "source_unit": "US mothers, fertility, labor-force participation, remote work, occupation teleworkability, child penalties, and period before/after 2020",
+  "geography": "United States; American Community Survey, 2003–2024",
+  "observations": [
+    {
+      "period": "American Community Survey 2003–2024; pre-COVID and post-2020 comparisons",
+      "denominator": {"value": null, "unit": "US mothers in harmonized individual-level ACS data; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "labor_force_participation": {"value": null, "unit": "fertility significantly reduces mothers’ labor-force participation across the sample period", "value_type": "reported_direction"},
+        "pre_2020_remote_work": {"value": null, "unit": "before the COVID-19 pandemic, an additional child increases the likelihood of working remotely", "value_type": "reported_direction"},
+        "post_2020_remote_work": {"value": null, "unit": "after 2020, an additional child has a negative effect on remote work when remote work is common", "value_type": "reported_direction"},
+        "occupation_selection": {"value": null, "unit": "patterns are not driven by changing selection into teleworkable occupations or observable characteristics of compliers", "value_type": "reported_null_explanation"},
+        "child_penalty": {"value": null, "unit": "remote work in its current form has limited potential to meaningfully reduce child penalties for higher-order births", "value_type": "reported_implication"}
+      },
+      "method": "Causal fertility estimates use harmonized ACS data and exogenous variation from the sex composition of the first two children and twin births at the second parity.",
+      "uncertainty": "The NBER abstract does not disclose sample counts, effect sizes, confidence intervals, exact remote-work definitions, or all exclusion assumptions. Remote work is not the same as job quality, flexibility, care time, household wellbeing, or equal access; the period shift may reflect broader changes in work and family institutions.",
+      "subgroup": "US mothers, with comparisons across fertility exposure and pre-2020 versus post-2020 remote-work conditions.",
+      "counterinterpretation": "Remote work may be less feasible or attractive for many women because of employer expectations, care intensity, housing, occupation, schedule, or job quality; labor-force participation changes do not alone identify voluntary choice, constraint, income, or wellbeing.",
+      "source_url": "https://www.nber.org/papers/w35763",
+      "retrieval_hash": "sha256:bb4b0e8f3ade580efa4e2e9183a2c4ba00e27b349c7fcc17da29048650c6b569",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35856", "claim": "Persistent labor-force exit is concentrated among low-income and low-skill workers, with limited replacement of lost W-2 income.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35038", "claim": "Minimum-wage hours responses differ across immigrant and native workers, highlighting heterogeneous work control and labor-market position.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35684", "claim": "AI-skilled employment and organization capital are associated with recent firm productivity growth, without establishing worker control or household benefit.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a fertility, care, and remote-work arrangement layer to the US industrial/consumer program. It does not establish the size of income, care-time, housing, health, or wellbeing effects, or that remote work is uniformly available or beneficial to mothers."
+}
