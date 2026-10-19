@@ -33,6 +33,7 @@ state objective
 | A named U.S. industrial case reaches enforcement and compliance, but not strategic effect | BIS reports that Applied Materials and Applied Materials Korea shipped semiconductor ion implanters through Korea to an Entity-Listed Chinese company during 2021–2022 without the required license. The reported merchandise value was about $126 million; the settlement imposed a $252 million penalty, multiple compliance audits, and annual certifications. | Official BIS settlement; two named companies, reported shipment route, penalty, and post-settlement obligations. | Production continuity, worker incidence, replacement equipment, later audit results, Chinese capability, and deterrence are not observed. |
 | The target ecosystem can adapt while displacement remains unproven | Hygon reported January–June 2026 revenue of RMB 9,099.0208 million, up 66.52% year over year, more than 400 adapted large models, and more than 6,000 ecosystem partners. It separately described H200 entry as intensifying competition and proposed performance, compatibility, compliance, and cost-performance responses. | Chinese issuer interim report and investor Q&A; company-reported financial and ecosystem measures. | DCU-specific revenue, units, market share, customer switching, pricing, and a causal H200/export-control effect are not disclosed; growth may reflect broader AI demand or other products. |
 | The supply-chain clock is delayed | An NBER analysis of the 2025 U.S. tariff episode estimates 26% of the tariff increase passed through to consumer prices relative to less-exposed goods. It attributes 64% of the consumer-price increase to direct foreign-variety effects and 36% to imported inputs and domestic-producer markups, with indirect effects arriving over nine to twelve months. | Working-paper comparison of exposed and less-exposed goods with channel decomposition. | Relative pass-through is not every household's burden; the result does not identify substitution, wages, margins, or welfare, and delayed effects may reflect adjustment and market power. |
+| Security rationale and domestic incidence can diverge | The NBER tariff synthesis says tariffs may be rationalized for targeted critical industries when externalities or national-security concerns exist, but recent U.S. tariff evidence places most incidence on U.S. importers, wholesalers, retailers, and consumers. It also reports large-scale supply-chain reorganization away from China toward third countries, without removing indirect exposure to China. | NBER review of tariff theory and recent empirical U.S. tariff evidence; policy rationale and incidence are separate units. | A tariff can pursue a security objective while imposing domestic adjustment costs and rerouting dependence rather than eliminating it | The synthesis does not identify a named tariff's achieved security benefit, firm-level margin, household bill, or durable strategic independence; targeted alternatives are a theoretical comparison, not a tested counterfactual here |
 | Foreign governments respond in more than one way | CRS records that in 2025 China used retaliatory tariffs, critical-mineral export restrictions, export controls, entity designations, and investigations; Canada and the EU announced, implemented, paused, or removed countermeasures while negotiating. | Dated review of official U.S. and foreign-government documents. | Announcements and temporary pauses do not establish compliance, policy change, alliance durability, or strategic success. |
 | The cost becomes publicly legible | Ipsos Wave 148 reports 81% of Americans expected tariffs to raise prices on goods they buy, 71% said they had already seen tariff-linked price rises, 55% correctly identified tariffs as import taxes often raising consumer prices, and only 29% said tariff-related price increases were worth it to achieve national goals. Another 29% said it was fair for firms to pass tariff costs to shoppers. | U.S. online panel/partner-panel/river sample, September 22–23, 2026; calibrated population targets; credibility interval ±3.6 points, design-effect-adjusted ±5.1. | These are perceptions and policy judgments, not product-level incidence, firm margins, votes, or causal attribution. |
 
@@ -69,6 +70,15 @@ financial and deployment claims show adaptation and ecosystem activity. Read
 together, they establish neither successful denial nor successful substitution:
 the U.S. industrial chain reaches enforcement, while the strategic-capability
 chain remains open.
+
+The [NBER tariff synthesis](https://www.nber.org/papers/w34915) sharpens the
+strategic boundary. It treats targeted industrial policy as potentially
+defensible where national-security externalities exist, but reports that recent
+U.S. tariff incidence has largely remained with domestic importers,
+wholesalers, retailers, and consumers. Supply-chain movement away from China
+can therefore coexist with continued indirect China exposure. This is a
+counterexample to treating rerouting as the same thing as independence, or
+domestic cost as proof that the security objective failed.
 
 ## Curiosity checks
 
@@ -189,6 +199,7 @@ security benefit, firm cost, household incidence, and strategic outcome.
 - [Hygon realized growth and deployment](../../records/us-china-hygon-dcu-realized-growth-deployment-2026.json)
 - [Hygon H200 competition and adaptation](../../records/us-china-hygon-dcu-h200-competition-adaptation-2025-2026.json)
 - [NBER tariff pass-through](../../records/us-nber-tariff-pass-through-consumer-price-supply-chain-2026.json)
+- [NBER tariff theory and incidence synthesis](https://www.nber.org/papers/w34915)
 - [CRS retaliation timeline](../../records/us-crs-tariff-retaliation-foreign-response-2025.json)
 - [Ipsos Consumer Tracker Wave 148](../../records/us-ipsos-consumer-tracker-wave148-tariff-food-safety-value-2026.json)
 - [LinkedIn tariff pass-through discussion](../../social-discussions/records/social-tariff-pass-through-linkedin-001.json)

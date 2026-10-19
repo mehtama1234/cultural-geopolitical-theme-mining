@@ -311,6 +311,12 @@ and legitimacy are not observed in one named episode. Next: follow the Applied
 Materials/Hygon semiconductor route through shipment and end-user records,
 firm and product substitution, payroll or employment, household exposure,
 public attribution, and later concession, reversal, adaptation, or escalation.
+The NBER tariff synthesis adds a counterpoint: targeted industrial policy may
+have a security rationale even when domestic importers, intermediaries, and
+consumers bear much of the cost and supply chains reroute without removing
+indirect China exposure. Next: test the security-benefit side against a named
+episode rather than treating rerouting, price incidence, or retaliation alone
+as strategic success or failure.
 
 **Latest South Africa cultural-structure rotation — 2026-09-30:** the [Stats SA Census 2022 Cultural Dynamics record](records/comparative-south-africa-statssa-census-cultural-dynamics-1996-2022-language-religion-household-marriage.json) adds a population-scale identity and household layer: multiracial households rose from 1.3% in 2001 to 11.4% in 2022, multilingual households from 3.5% in 1996 to 9.4% in 2022, while legal marriage fell from 35.6% in 1996 to 23.8% in 2022. Christianity remained 84.5% in 2022, but traditional African religious affiliation reached 9.5%. These are census classifications, not direct measures of trust, tolerance, practice, welfare, or cohesion. Next: connect cultural structure to language access, housing, migration, consumer segmentation, and lived intergroup contact.
 

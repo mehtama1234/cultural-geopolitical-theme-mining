@@ -66,6 +66,12 @@ pass-through, Ipsos household attribution, and bounded public discussion. The
 finding is a translation gap: pressure can alter trade, payroll, supply chains,
 prices, and enforcement while strategic capability, household incidence, and
 legitimacy remain separate outcomes.
+The NBER tariff synthesis adds a strategic counterpoint: targeted industrial
+policy may be justified by security externalities, while recent U.S. tariff
+incidence remains concentrated among domestic importers, intermediaries, and
+consumers and supply chains can reroute without eliminating indirect China
+exposure. This keeps security benefit, domestic cost, and strategic
+independence as separate outcomes.
 
 The newest AI-health depth artifact is the [AI health navigation, trust, control,
 and continuity audit](projects/cross-domain/ai-health-navigation-trust-control-audit-v1.md).
