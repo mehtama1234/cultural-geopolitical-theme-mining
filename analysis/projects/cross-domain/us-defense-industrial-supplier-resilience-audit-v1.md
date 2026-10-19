@@ -23,6 +23,7 @@ allied resilience, deterrence, and public-industrial legitimacy`.
 | Supplier surface | [USAspending concentration record](../../records/usaspending-jassm-lrasm-supplier-concentration-2024-2025.json): 74 returned subaward records totaling $1.1427B, 51 reported recipient names, top five representing 49.5004% and top ten 74.595% of returned amount; extract HHI 0.077644. | The bounded award extract has both recipient breadth and financial concentration. | One parent award/page; names are not reconciled to legal entities/ownership; subaward visibility, locations, amendments, and production are incomplete. |
 | Component diversity | [USAspending subaward structure](../../records/usaspending-jassm-lrasm-subaward-structure-2024-2025.json) reports component/assembly descriptions across all 74 records, including engines, processors, antennas, warheads, wings, tails, optics, power, and connectors. | The reported network spans multiple system elements. | Free-text descriptions are not a bill of materials, quantities, manufacture, integration, delivery, or competition measure. |
 | Corporate footprint | [Multi-facility recipient route](../../records/usaspending-jassm-lrasm-multi-facility-recipient-route-2024-2025.json) maps one General Dynamics OTS recipient name and $80.5508M reported amount to three active CAGE facilities in Hampton AR, Colchester VT, and Saco ME under parent CAGE 95403. | A corporate recipient can have geographically distributed registered facilities. | The subaward lacks the identifier needed to assign the work to a facility; footprint is not redundancy or replaceability. |
+| Identifier resolution | The retained DLA CAGE details identify General Dynamics-OTS facilities as CAGE 3X552/UEI JCUNVL6B1QJ8 (Hampton, AR), 05606/UEI Q9SBTF8ELUP4 (Colchester, VT), and 26978/UEI C9JJM67GNFZ1 (Saco, ME), each active at retrieval and linked to parent CAGE 95403. | The corporate footprint can be resolved into active entity identifiers and locations. | The USAspending subaward row still lacks CAGE/UEI/facility linkage; identity resolution does not assign performance, workforce, production, delivery, or local incidence. |
 | Production capacity | [Air Force production/integration record](../../records/us-jassm-lrasm-production-integration-realization-2024-2025.json) reports Lockheed Martin in Troy, Alabama and a FY2026 combined minimum sustained rate of 396 missiles/year: 336 JASSM and 60 LRASM. | A government exhibit reports a defined production-rate target and a capacity expansion rationale. | Minimum sustained rate is not realized throughput, accepted output, inventory, staffing, yield, or delivery. |
 | Production investment | The same record cites a 225,000-square-foot facility brought online in 2022 and a corporate claim to accelerate deliveries. | Capacity investment and management claims are observable intermediate stages. | No quantity, delivery, acceptance, uptime, or customer-allocation evidence is supplied. |
 | Integration | The record reports an initial LRASM/F-35B flight test on March 4, 2025 at Naval Air Station Patuxent River, with an independent F-35C loaded-missile test context. | Integration testing moved beyond a plan into dated events. | A flight test is not certification, operational fielding, accepted inventory, combat performance, or adversary response. |
@@ -95,12 +96,13 @@ parent award and component
   -> disruption response, cost, schedule, and strategic effect
 ```
 
-The first decisive acquisition is to match USAspending recipient names to UEI,
-CAGE, facility, and subaward identifiers, then connect those records to Air
-Force acceptance/delivery and Polish lot or training records. Preserve the
-current source conflict and non-observation rather than selecting the more
-favorable schedule. Add worker, community, and public-spending incidence only
-after the component/facility unit is resolved.
+The first decisive acquisition is now narrower: obtain a USAspending or contract
+modification record that links the reported subaward to one of the resolved UEI/
+CAGE facilities, then connect that component route to Air Force
+acceptance/delivery and Polish lot or training records. Preserve the current
+source conflict and non-observation rather than selecting the more favorable
+schedule. Add worker, community, and public-spending incidence only after the
+component/facility unit is resolved.
 
 ## Stopping rule
 

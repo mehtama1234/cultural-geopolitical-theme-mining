@@ -3,7 +3,7 @@
 **Latest U.S. defense-industrial rotation — 2026-10-18:** the [supplier
 resilience and replaceability audit](projects/cross-domain/us-defense-industrial-supplier-resilience-audit-v1.md)
 follows a bounded JASSM/LRASM chain from USAspending supplier concentration and
-component descriptions through multi-facility registration, Air Force
+component descriptions through resolved DLA CAGE/UEI facility identities, Air Force
 production-rate and integration milestones, Polish procurement, delivery
 non-observation, and audit control gaps. The finding is a network-to-capability
 gap: supplier breadth, capacity targets, tests, and allied contracts do not
