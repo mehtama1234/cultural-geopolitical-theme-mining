@@ -51,3 +51,11 @@ implied typical investment return from 4.83% to 13.11% after adjustment. This is
 not by itself proof of illegality or care harm; the next test is whether financial
 extraction changes staffing, reimbursements, liability, resident outcomes, or
 worker conditions.
+
+The [Medicaid financing record](../../records/us-nber-medicaid-nursing-home-volume-quality-moral-hazard-2025.json)
+adds the public-payment layer: federal matching grants can reward verifiable
+volume rather than quality, and Indiana evidence reports a 12% rise in Medicaid
+dementia volume concentrated in the lowest-quality facilities, with lower
+one-year survival. The next test is whether payment redesign improves provider
+selection, staffing, resident outcomes, and state accountability beyond the
+studied setting.

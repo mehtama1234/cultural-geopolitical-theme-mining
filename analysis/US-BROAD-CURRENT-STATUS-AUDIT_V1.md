@@ -1,5 +1,7 @@
 # US broad program current-status audit v1
 
+The latest U.S. public-payment addition is the [NBER Medicaid nursing-home record](records/us-nber-medicaid-nursing-home-volume-quality-moral-hazard-2025.json). It reports a volume-over-quality financing incentive and a 12% rise in Medicaid dementia volume concentrated in the lowest-quality facilities in Indiana, with lower one-year survival. This adds state financing and patient allocation to the care chain while keeping generalization, worker conditions, resident voice, and payment redesign open.
+
 The latest U.S. care-finance addition is the [NBER related-party finance record](records/us-nber-nursing-home-related-party-tunneling-2024.json). It estimates widespread profit tunneling and a large gap between reported and adjusted investment returns. This adds financial governance to the care chain while keeping illegality, staffing, reimbursements, resident outcomes, and liability as open tests.
 
 The latest U.S. care-ownership addition is the [NBER nursing-home merger record](records/us-nber-nursing-home-mergers-compliance-direct-care-2025.json). It reports fewer deficiency citations after acquisition, but also fewer direct-care hours and no meaningful resident-health improvement. This makes compliance, clinical outcomes, labor input, ownership economics, and resident experience separate measures.
@@ -562,7 +564,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 1995 machine-readable records, 5964 observations,
+**Current registry state:** 1996 machine-readable records, 5965 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2582,7 +2584,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1995 trend records and 5964 observations pass the
+the current checkpoint: 1996 trend records and 5965 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

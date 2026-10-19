@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-medicaid-nursing-home-volume-quality-moral-hazard-2025",
+  "title": "US Medicaid nursing-home financing can reward volume over quality and shift patients toward worse providers",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status", "household_room_consumption", "work_control_bargaining"],
+  "source_unit": "US Medicaid nursing-home financing, federal matching grants, state creative financing, dementia admissions, facility quality, and one-year survival",
+  "geography": "United States; 24 federal audits and Indiana administrative microdata",
+  "observations": [
+    {
+      "period": "Working paper issued August 2025; US Medicaid and Indiana administrative evidence",
+      "denominator": {"value": 24, "unit": "federal audits used alongside Indiana administrative microdata", "value_type": "reported_count"},
+      "measures": {
+        "financing_incentive": {"value": null, "unit": "federal matching grants reward verifiable nursing-home volume rather than measured quality", "value_type": "reported_mechanism"},
+        "dementia_volume": {"value": 12, "unit": "percent increase in Medicaid dementia volume in event-study estimates", "value_type": "reported_estimate"},
+        "facility_quality": {"value": null, "unit": "the expansion concentrates in the lowest-quality facilities", "value_type": "reported_distribution"},
+        "patient_allocation": {"value": null, "unit": "patients are reallocated toward worse providers", "value_type": "reported_direction"},
+        "one_year_survival": {"value": null, "unit": "one-year survival falls after the expansion", "value_type": "reported_direction"},
+        "public_moral_hazard": {"value": null, "unit": "state creative financing diverts funds earmarked for nursing homes and turns the federal match into a volume subsidy", "value_type": "reported_mechanism"}
+      },
+      "method": "The paper develops a theoretical mechanism and tests its predictions using 24 federal audits, administrative microdata from Indiana, event studies, and structural quality estimates.",
+      "uncertainty": "The NBER abstract does not disclose the full sample counts, effect sizes beyond the 12% volume estimate, the exact survival estimates, or all identification assumptions. Indiana evidence and federal audits may not generalize to every state; the paper does not measure worker conditions, resident voice, prices, or every form of Medicaid financing.",
+      "subgroup": "Medicaid dementia patients and nursing-home facilities, especially lower-quality providers exposed to the financing expansion.",
+      "counterinterpretation": "Measured quality, admissions, and survival may reflect selection, coding, facility capacity, patient severity, state administration, or concurrent policy changes; the volume response does not by itself identify the full fiscal or clinical mechanism outside the studied setting.",
+      "source_url": "https://www.nber.org/papers/w34118",
+      "retrieval_hash": "sha256:3a71516f612156771c82ed1470839b593997be83c750c334cedcc9f3e03f1e09",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w32258", "claim": "Nursing-home financial evidence reports related-party profit tunneling and a large gap between reported and adjusted investment returns.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w33967", "claim": "Nursing-home mergers reduce deficiency citations and direct-care hours without meaningful resident-health improvement.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w34037", "claim": "Inspection responses are mostly temporary, while higher ratings predict relative patient mortality.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a Medicaid payment-design and patient-allocation layer to the US nursing-home chain. It does not establish that every matching grant causes harm, disclose all effect sizes, or measure worker outcomes, resident voice, prices, access, or long-run care quality in one common unit."
+}

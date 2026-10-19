@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1995 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1996 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6657,6 +6657,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Managed Medicaid long-term services can spill into Medicare-financed health outcomes differently across states | cost, time, voice | care_health_reproduction, public_systems_feedback, household_room_consumption, unequal_exposure_status, time_hidden_price | NBER Working Paper 35055 using Medicare claims, Medicaid managed-LTSS rollout timing, and county-level differences-in-differences | Florida and New York dual-eligible Medicare-Medicaid beneficiaries age 65 and older; Pennsylvania and California counties provide comparison counties | 1 | 2008–2019 administrative claims and staggered county rollouts, with managed-LTSS transitions between 2012 and 2015 | estimated | [open](records/us-nber-medicaid-managed-ltss-health-spillovers-2026.json) |
 
 **Boundary:** This record establishes a state-heterogeneous managed-LTSS-to-health route and a possible cross-payer spillover. It does not establish universal managed-care effects, individual care quality, household cost, long-term functional status, mortality, trust, or why Florida and New York differ in full.
+
+| US Medicaid nursing-home financing can reward volume over quality and shift patients toward worse providers | cost, voice, work | public_systems_feedback, firm_sector_market_power, unequal_exposure_status, household_room_consumption, work_control_bargaining | US Medicaid nursing-home financing, federal matching grants, state creative financing, dementia admissions, facility quality, and one-year survival | United States; 24 federal audits and Indiana administrative microdata | 1 | Working paper issued August 2025; US Medicaid and Indiana administrative evidence | reported | [open](records/us-nber-medicaid-nursing-home-volume-quality-moral-hazard-2025.json) |
+
+**Boundary:** This record adds a Medicaid payment-design and patient-allocation layer to the US nursing-home chain. It does not establish that every matching grant causes harm, disclose all effect sizes, or measure worker outcomes, resident voice, prices, access, or long-run care quality in one common unit.
 
 | Navigator outreach can convert administrative help into Medicaid renewal, with uneven contact reach | cost, time, voice | public_systems_feedback, care_health_reproduction, household_room_consumption, time_hidden_price, unequal_exposure_status, trust_identity_meaning | NBER Working Paper 34191, Navigating Medicaid: Experimental Evidence on Administrative Burden and Coverage Loss; J-PAL evaluation summary of the Wisconsin field experiment | United States research context; Wisconsin Medicaid fee-for-service renewal population | 1 | June 2023–June 2024 Medicaid renewal deadlines; NBER revision July 2026; J-PAL evaluation page checked September 2026 | estimated | [open](records/us-nber-medicaid-renewal-outreach-administrative-burden-2026.json) |
 

@@ -5,7 +5,7 @@
 
 This is a coverage-control artifact, not a quality ranking, sample-size measure, causal-strength score, or claim that a theme with fewer records matters less. Record counts reflect the current machine-readable registry and can be shaped by source availability and project history.
 
-The registry currently contains **1995 records** across **14 themes**. The three lowest-density surfaces are **Consumer power and recourse**, **Time, care, and social reproduction**, and **Platforms, data, and attention**.
+The registry currently contains **1996 records** across **14 themes**. The three lowest-density surfaces are **Consumer power and recourse**, **Time, care, and social reproduction**, and **Platforms, data, and attention**.
 
 ## Density by theme
 
@@ -17,14 +17,14 @@ The registry currently contains **1995 records** across **14 themes**. The three
 | 4 | Housing, place, and mobility | 455 | 1384 |
 | 5 | Geopolitical and state consequences | 589 | 1908 |
 | 6 | Care, health, and reproduction | 639 | 2101 |
-| 7 | Work, control, and bargaining | 698 | 2205 |
-| 8 | Firm, sector, and market power | 726 | 2073 |
+| 7 | Work, control, and bargaining | 699 | 2206 |
+| 8 | Firm, sector, and market power | 727 | 2074 |
 | 9 | Political judgment and collective action | 777 | 2412 |
 | 10 | Infrastructure, technology, and dependency | 784 | 2445 |
 | 11 | Trust, identity, and meaning | 1221 | 3628 |
-| 12 | Household room and consumption | 1230 | 3804 |
-| 13 | Public systems and policy feedback | 1470 | 4439 |
-| 14 | Unequal exposure and status | 1735 | 5287 |
+| 12 | Household room and consumption | 1231 | 3805 |
+| 13 | Public systems and policy feedback | 1471 | 4440 |
+| 14 | Unequal exposure and status | 1736 | 5288 |
 
 ## How to use this
 
