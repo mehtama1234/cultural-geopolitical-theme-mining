@@ -1,0 +1,478 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0082",
+  "opened": "2026-10-19",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 11,
+  "atlas_record_ids": [
+    "us-nber-payment-convenience-depositor-activeness-2026",
+    "us-nber-pg-ai-teamwork-expertise-social-engagement-2025",
+    "us-nber-postpandemic-labor-force-exit-low-income-2026",
+    "us-nber-pro-worker-ai-technology-policy-framework-2026",
+    "us-nber-school-finance-reforms-macro-output-2026",
+    "us-nber-snap-sugary-restrictions-spending-calories-tax-2026",
+    "us-nber-social-capital-innovation-economic-connectedness-2026",
+    "us-nber-sticky-wage-norms-real-wage-loss-2026",
+    "us-nber-stimulus-checks-veteran-transfers-consumption-2026",
+    "us-nber-tariff-pass-through-consumer-prices-2026",
+    "us-nber-tariff-quantity-discounts-scale-economies-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-nber-payment-convenience-depositor-activeness-2026",
+      "atlas_record_path": "analysis/records/us-nber-payment-convenience-depositor-activeness-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "US payment speed changes transfer behavior and deposit demand",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "payment speed changes transfer behavior deposit demand depositor transaction bank-transfer county rollout household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "payment speed changes transfer behavior deposit demand depositor transaction bank-transfer county rollout household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "payment speed changes transfer behavior deposit demand depositor transaction bank-transfer county rollout household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "payment speed changes transfer behavior deposit demand depositor transaction bank-transfer county rollout household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-pg-ai-teamwork-expertise-social-engagement-2025",
+      "atlas_record_path": "analysis/records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "AI matched some team performance while changing expertise sharing and social connection in product innovation work",
+      "geography": "Procter & Gamble, a US-headquartered global consumer packaged goods company; participant geography is not fully specified in the abstract",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "augmented",
+          "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-pg-ai-teamwork-linkedin-001"
+          ]
+        },
+        "x": {
+          "status": "not_started",
+          "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-postpandemic-labor-force-exit-low-income-2026",
+      "atlas_record_path": "analysis/records/us-nber-postpandemic-labor-force-exit-low-income-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Persistent post-pandemic labor-force exit is concentrated among low-income and low-skill US workers",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-pro-worker-ai-technology-policy-framework-2026",
+      "atlas_record_path": "analysis/records/us-nber-pro-worker-ai-technology-policy-framework-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "AI policy can distinguish worker-augmenting capability from automation and expertise commodification",
+      "geography": "United States policy and workplace examples; conceptual framework with examples spanning aviation maintenance, electrical services, custodial work, education, patent examination, and gig delivery",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "augmented",
+          "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-pro-worker-ai-linkedin-001"
+          ]
+        },
+        "x": {
+          "status": "not_started",
+          "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-school-finance-reforms-macro-output-2026",
+      "atlas_record_path": "analysis/records/us-nber-school-finance-reforms-macro-output-2026.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "US school-finance reforms raise long-run earnings per worker and GDP per capita after a long lag",
+      "geography": "United States; staggered state-level school-finance reforms",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-snap-sugary-restrictions-spending-calories-tax-2026",
+      "atlas_record_path": "analysis/records/us-nber-snap-sugary-restrictions-spending-calories-tax-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "SNAP restrictions on sweetened beverages and candy reduced restricted spending, calories, and sugar",
+      "geography": "United States; first statewide SNAP restrictions on sweetened beverages and candy",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-social-capital-innovation-economic-connectedness-2026",
+      "atlas_record_path": "analysis/records/us-nber-social-capital-innovation-economic-connectedness-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Economic connectedness in US Facebook friendship networks is associated with substantially greater local innovation",
+      "geography": "United States; patenting ZIP Codes and Facebook friendship networks",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-sticky-wage-norms-real-wage-loss-2026",
+      "atlas_record_path": "analysis/records/us-nber-sticky-wage-norms-real-wage-loss-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "US firm wage-setting norms left many workers behind prices during 2021–2024 inflation",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-stimulus-checks-veteran-transfers-consumption-2026",
+      "atlas_record_path": "analysis/records/us-nber-stimulus-checks-veteran-transfers-consumption-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "US one-off transfers produced a delayed, hump-shaped consumption response",
+      "geography": "United States; post-World War II veteran payment natural experiment",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-tariff-pass-through-consumer-prices-2026",
+      "atlas_record_path": "analysis/records/us-nber-tariff-pass-through-consumer-prices-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "US tariffs pass through to consumer prices directly and later through domestic inputs and markups",
+      "geography": "United States; goods exposed to the 2025-2026 US tariffs",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "tariffs pass through consumer prices directly later domestic inputs markups nber working household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "tariffs pass through consumer prices directly later domestic inputs markups nber working household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "tariffs pass through consumer prices directly later domestic inputs markups nber working household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "tariffs pass through consumer prices directly later domestic inputs markups nber working household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-tariff-quantity-discounts-scale-economies-2026",
+      "atlas_record_path": "analysis/records/us-nber-tariff-quantity-discounts-scale-economies-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Transaction scale changes the measured incidence of US tariffs",
+      "geography": "United States trade; 2018-2019 US tariffs and transaction-level imports",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0082",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "transaction scale changes measured incidence tariffs nber working paper did foreigners pay firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "transaction scale changes measured incidence tariffs nber working paper did foreigners pay firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "transaction scale changes measured incidence tariffs nber working paper did foreigners pay firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "transaction scale changes measured incidence tariffs nber working paper did foreigners pay firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0082-tariff-pass-through-linkedin-001",
+  "atlas_record_ids": ["us-nber-tariff-pass-through-consumer-prices-2026"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "research_translation_post",
+  "author_or_account": "Sebastian Heise",
+  "title": "The Anatomy of Tariff Pass-through into Consumer Prices",
+  "canonical_url": "https://www.linkedin.com/posts/sebastian-heise-64183213_the-anatomy-of-tariff-pass-through-into-consumer-activity-7490035475479425024-KsVG",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The paper author explicitly links NBER Working Paper 35561 and reports that about 26% of the tariff increase passes through to consumer prices. The post separates the direct import-price channel, which accounts for 64% of the estimated pass-through, from the indirect imported-input and domestic-markup channel, which accounts for 36% and takes nine to twelve months to move through supply chains. This makes the industrial-to-household pathway visible rather than treating tariffs as a single border-price effect.",
+  "research_anchor_paths": ["analysis/records/us-nber-tariff-pass-through-consumer-prices-2026.json"],
+  "linked_research_question": "How do direct import costs, domestic input exposure, market power, inventories, and delayed markup changes distribute tariff burdens across U.S. firms, retailers, and households over time?",
+  "classification": ["tariff_pass_through", "consumer_prices", "supply_chain_lag", "domestic_markups", "industrial_consumer_link", "bounded_public_discussion"],
+  "limits": ["The post is a short author summary and does not provide the full product universe or uncertainty estimates", "The 26% estimate is relative to less-exposed goods and is not a universal household price effect", "A single LinkedIn post is not representative of consumers, firms, retailers, or policymakers"]
+}
