@@ -61,9 +61,11 @@ context, DLA CAGE facility comparisons, and explicit recipient-identifier ambigu
 non-observation, and audit control gaps. The finding is a network-to-capability
 gap: supplier breadth, capacity targets, tests, and allied contracts do not
 prove a performing facility, accepted inventory, substitute production,
-delivery, or strategic resilience. Next: match one focal subaward and UEI to a
-performing CAGE facility, then connect it to acceptance, shipment, inventory,
-training, and substitute-route records.
+delivery, or strategic resilience. The U.S. LRASM Event Zero and C-1 fielding
+records provide a bounded positive realization comparator, not proof for the
+focal subaward. Next: match one focal subaward and UEI to a performing CAGE
+facility, then connect it to acceptance, shipment, inventory, training, and
+substitute-route records.
 
 **Latest U.S. consumer-remedy rotation — 2026-10-18:** the [fraud, remedy
 receipt, and household recovery audit](projects/cross-domain/us-consumer-fraud-remedy-receipt-audit-v1.md)
