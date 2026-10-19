@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2013 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2014 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6829,6 +6829,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Restricting mobile tracking can reduce fraud complaints through the data-resale chain | voice, cost, time | platforms_data_attention, consumer_power_recourse, unequal_exposure_status, household_room_consumption, trust_identity_meaning | NBER Working Paper 31692, revised May 2026; Apple App Tracking Transparency natural experiment, consumer fraud complaints, dark-web discussion, and sensitive-data prices | United States; geographic and firm-risk variation around Apple mobile tracking restrictions | 1 | Apple App Tracking Transparency natural experiment; working paper revised May 2026 | reported | [open](records/us-nber-privacy-tracking-fraud-2026.json) |
 
 **Boundary:** This record adds a platform-data-control-to-consumer-fraud-consequence pathway. It does not establish a complete household fraud-recovery episode, universal privacy benefit, causal trust change, account restoration, reimbursement, or durable exit from data-dependent services.
+
+| AI policy can distinguish worker-augmenting capability from automation and expertise commodification | work, voice, time, cost | work_control_bargaining, firm_sector_market_power, infrastructure_technology_dependency, public_systems_feedback, unequal_exposure_status, consumer_power_recourse | NBER Working Paper 34854, Building Pro-Worker Artificial Intelligence | United States policy and workplace examples; conceptual framework with examples spanning aviation maintenance, electrical services, custodial work, education, patent examination, and gig delivery | 3 | 2026 paper; taxonomy of technological change; 2026 paper; AI capability and human expertise; 2026 paper; policy and market-failure framework | reported | [open](records/us-nber-pro-worker-ai-technology-policy-framework-2026.json) |
+
+**Boundary:** This record adds a US-oriented conceptual policy framework for distinguishing augmentation, automation, expertise leveling, capital complementarity, and new task creation. It does not estimate worker effects, adoption, productivity, pay, bargaining power, consumer prices, or the effectiveness of any policy direction; pro-worker status requires observed control and distribution, not a label.
 
 | Property-tax design reallocates housing access across generations under financial constraints | cost, time, voice | housing_place_mobility, household_room_consumption, unequal_exposure_status, public_systems_feedback, time_hidden_price | NBER Working Paper 35587, overlapping-generations model of property taxation, housing allocation, and financial constraints | United States housing policy with a California-to-Texas property-tax counterfactual; intergenerational housing allocation | 1 | Paper issued August 10, 2026; model counterfactual for California property taxes and housing tenure | estimated | [open](records/us-nber-property-tax-housing-allocation-generations-2026.json) |
 

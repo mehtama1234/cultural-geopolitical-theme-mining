@@ -1,5 +1,7 @@
 # US broad program current-status audit v1
 
+The latest U.S. AI addition is the [NBER pro-worker AI framework](records/us-nber-pro-worker-ai-technology-policy-framework-2026.json). It adds five technology categories, market-failure mechanisms, and nine policy directions, while explicitly leaving deployment, worker control, pay, safety, prices, and consumer outcomes unmeasured.
+
 The latest U.S. trade-consumer addition is the [NBER quantity-discount record](records/us-nber-tariff-quantity-discounts-scale-economies-2026.json). It shows why observed import-price pass-through can misstate incidence: transaction sizes collapsed and scale-adjusted pass-through was 60%, with foreign exporters absorbing part of the burden. Retail prices, household exposure, and welfare remain open.
 
 The latest U.S. health-consumer addition is the [NBER health-insurance competition record](records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json). It adds concentration and adverse selection across commercial, Medicare Advantage, and Medicaid markets, with consolidation raising premiums. Plan generosity, network access, care, household incidence, switching, and remedy remain separate endpoints.
@@ -602,7 +604,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 2013 machine-readable records, 5996 observations,
+**Current registry state:** 2014 machine-readable records, 5999 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2622,7 +2624,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 2013 trend records and 5996 observations pass the
+the current checkpoint: 2014 trend records and 5999 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

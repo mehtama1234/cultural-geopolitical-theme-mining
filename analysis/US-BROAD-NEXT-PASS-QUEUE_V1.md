@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. AI-policy framework rotation — 2026-10-19:** the [NBER pro-worker AI record](records/us-nber-pro-worker-ai-technology-policy-framework-2026.json) distinguishes labor-augmenting, capital-augmenting, automating, expertise-leveling, and new task-creating technologies, and identifies misaligned incentives, path dependence, and pro-automation ideology as reasons to underinvest in worker-capability-building AI. Next: test the framework against observed deployment, worker voice, training, pay, safety, prices, and consumer outcomes.
+
 **Latest U.S. tariff-incidence counterexample — 2026-10-19:** the [NBER quantity-discount record](records/us-nber-tariff-quantity-discounts-scale-economies-2026.json) finds that one-for-one observed import-price increases during 2018–19 partly reflected collapsed transaction scale; after controlling for scale economies, strategic pass-through was 60%, implying foreign exporters absorbed part of the burden through reduced markups. Next: join import incidence to retail prices, domestic markups, household baskets, and later supply-chain response.
 
 **Latest U.S. health-insurance competition rotation — 2026-10-19:** the [NBER health-insurance record](records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json) covers commercial, Medicare Advantage, and Medicaid markets and links concentration and adverse selection to premiums, plan design, and consumer welfare; empirical evidence confirms consolidation raises premiums. Next: follow premium changes into network access, care, household cost, switching, and remedy rather than treating concentration or price alone as welfare.
@@ -516,9 +518,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 2013 machine-readable records and 5996
-observations. The trend registry holds 2013 records and
-5996 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 2014 machine-readable records and 5999
+observations. The trend registry holds 2014 records and
+5999 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

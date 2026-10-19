@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-pro-worker-ai-technology-policy-framework-2026",
+  "title": "AI policy can distinguish worker-augmenting capability from automation and expertise commodification",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "infrastructure_technology_dependency", "public_systems_feedback", "unequal_exposure_status", "consumer_power_recourse"],
+  "source_unit": "NBER Working Paper 34854, Building Pro-Worker Artificial Intelligence",
+  "geography": "United States policy and workplace examples; conceptual framework with examples spanning aviation maintenance, electrical services, custodial work, education, patent examination, and gig delivery",
+  "observations": [
+    {
+      "period": "2026 paper; taxonomy of technological change",
+      "denominator": {"value": 5, "unit": "categories in the framework: labor-augmenting, capital-augmenting, automating, expertise-leveling, and new task-creating", "value_type": "conceptual_category_count"},
+      "measures": {
+        "pro_worker_definition": {"value": "Pro-worker technologies make human skills and expertise more valuable by expanding worker capabilities", "unit": "reported conceptual definition", "value_type": "reported_framework"},
+        "new_task_category": {"value": "New task-creating change is identified as the only category unambiguously pro-worker because it generates demand for novel human expertise rather than commodifying it", "unit": "reported framework distinction", "value_type": "reported_interpretation"},
+        "automation_boundary": {"value": "Automation, expertise leveling, and augmentation can have different worker consequences even when all raise measured productivity", "unit": "bounded mechanism", "value_type": "bounded_comparison"}
+      },
+      "method": "Conceptual economic framework illustrated with hypothetical and real-world examples across multiple occupations and service settings.",
+      "uncertainty": "The taxonomy is not a worker-level causal estimate or an adoption measure; category boundaries may overlap in real systems, and the paper does not assign every existing AI tool to one category.",
+      "subgroup": "Workers in aviation maintenance, electrical services, custodial work, education, patent examination, and gig delivery, with different expertise, task discretion, and employer incentives.",
+      "counterinterpretation": "A tool can augment one task while automating another or deskilling future entrants; “pro-worker” depends on who controls deployment, training, evaluation, and the resulting surplus.",
+      "source_url": "https://www.nber.org/papers/w34854",
+      "retrieval_hash": "sha256:c8c2cf1881436e092dd6c353c0f9024fb5d1351a84bb614ee411272df941cbee",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; AI capability and human expertise",
+      "denominator": {"value": 1, "unit": "conceptual AI policy and workplace framework", "value_type": "framework_unit"},
+      "measures": {
+        "collaboration_potential": {"value": "AI can extend human judgment, enable new tasks, and accelerate skill acquisition", "unit": "reported capability pathway", "value_type": "reported_mechanism"},
+        "underexploited_potential": {"value": "The paper argues that AI's collaborator role is currently underexploited relative to its automation potential", "unit": "reported assessment", "value_type": "reported_interpretation"},
+        "expertise_asset": {"value": "Worker expertise can be a productive input that policy and firm design either develop or commodify", "unit": "bounded mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Theory and cross-occupation examples connecting AI capability, human judgment, skill acquisition, new tasks, and expertise value.",
+      "uncertainty": "The paper does not measure how often skill acquisition occurs, whether workers receive the gains, or whether collaboration improves pay, safety, quality, or household security.",
+      "subgroup": "Workers with different foundational expertise, learners and entrants, managers, developers, customers, and firms choosing between automation and collaboration.",
+      "counterinterpretation": "Skill acceleration can coexist with surveillance, work intensification, reduced discretion, or a narrower labor market if employers retain control over evaluation and task allocation.",
+      "source_url": "https://www.nber.org/papers/w34854",
+      "retrieval_hash": "sha256:c8c2cf1881436e092dd6c353c0f9024fb5d1351a84bb614ee411272df941cbee",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; policy and market-failure framework",
+      "denominator": {"value": 9, "unit": "policy directions discussed to change incentives toward pro-worker AI", "value_type": "policy_direction_count"},
+      "measures": {
+        "market_failures": {"value": "Misaligned firm and developer incentives, path dependence, and a pervasive pro-automation ideology can lead to underinvestment in pro-worker AI", "unit": "reported market-failure set", "value_type": "reported_mechanism_set"},
+        "policy_directions": {"value": "The paper discusses nine policy directions, including targeted health-care and education investment, tax reform, antitrust enforcement, and intellectual-property protection for worker expertise", "unit": "reported policy set", "value_type": "reported_policy_options"},
+        "implementation_gap": {"value": "Policy direction is not evidence that a pro-worker tool was built, adopted, governed, or beneficially received", "unit": "missing implementation outcomes", "value_type": "unmeasured"}
+      },
+      "method": "Conceptual policy analysis of incentive failures and institutional routes for changing the direction of AI development and deployment.",
+      "uncertainty": "The paper does not estimate the effect, fiscal cost, political feasibility, or distributional incidence of each policy direction, nor does it establish that one policy works across sectors.",
+      "subgroup": "Workers, firms, AI developers, educators, health systems, regulators, consumers, and holders of worker-generated expertise.",
+      "counterinterpretation": "Some automation can improve safety, access, or consumer affordability; an anti-automation policy can also protect inefficient tasks or slow useful innovation. The relevant test is capability, control, and distribution together.",
+      "source_url": "https://www.nber.org/papers/w34854",
+      "retrieval_hash": "sha256:c8c2cf1881436e092dd6c353c0f9024fb5d1351a84bb614ee411272df941cbee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34854", "claim": "Official NBER landing page with the pro-worker definition, five technology categories, capability pathways, market failures, examples, and nine policy directions.", "status": "primary-source"},
+    {"source_url": "https://doi.org/10.3386/w34854", "claim": "NBER DOI route for the working paper.", "status": "primary-source"}
+  ],
+  "boundary": "This record adds a US-oriented conceptual policy framework for distinguishing augmentation, automation, expertise leveling, capital complementarity, and new task creation. It does not estimate worker effects, adoption, productivity, pay, bargaining power, consumer prices, or the effectiveness of any policy direction; pro-worker status requires observed control and distribution, not a label.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W34854 page reviewed for the pro-worker definition, five technology categories, AI collaboration and skill-acquisition claims, market failures, examples, and nine policy directions.",
+    "source_url_sha256": "sha256:c8c2cf1881436e092dd6c353c0f9024fb5d1351a84bb614ee411272df941cbee",
+    "checked": "2026-10-19"
+  }
+}

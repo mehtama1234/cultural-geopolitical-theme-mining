@@ -1,5 +1,7 @@
 # US cross-source trend synthesis v1
 
+The [NBER pro-worker AI framework](records/us-nber-pro-worker-ai-technology-policy-framework-2026.json) gives the empirical AI signals a common policy vocabulary: productivity can come from augmentation, automation, expertise leveling, capital complementarity, or new tasks, with different effects on worker capability and control. The framework does not close the causal chain; it specifies what the next workplace and consumer observations must distinguish.
+
 The [NBER quantity-discount record](records/us-nber-tariff-quantity-discounts-scale-economies-2026.json) supplies a tariff counterexample to reading import-price movement as consumer incidence: shipment scale collapsed, and scale-free pass-through was 60% rather than the observed one-for-one change. Read beside the 2025–26 tariff study, the chain now separates transaction scale, exporter markups, importer cost, domestic markups, retail prices, and household burden.
 
 The [NBER health-insurance competition record](records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json) adds a consumer-market-power route: concentration and adverse selection jointly shape premiums and plan design, while consolidation raises premiums across a highly concentrated US market. Read beside health-cost and care-skipping evidence, the open chain is premium → network/access → care choice → household burden → appeal, switching, or regulation.
@@ -165,7 +167,7 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 2013 machine-readable records, 5996 observations,
+The current registry contains 2014 machine-readable records, 5999 observations,
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json): 43% of same-firm workers experienced real-wage decline across 2021–2024, 37% of all workers did, and job changers' wages rose nearly one-for-one with inflation. The cross-source implication is that firm wage rules are an upstream part of household room and consumer sentiment, but the payroll source does not observe the same workers' spending, debt, care, trust, or political action.
 

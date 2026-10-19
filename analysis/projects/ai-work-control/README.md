@@ -1,5 +1,7 @@
 # Project: AI, work, and control
 
+The [NBER pro-worker AI framework](../../records/us-nber-pro-worker-ai-technology-policy-framework-2026.json) supplies the policy layer for the empirical AI records. It separates labor augmentation, capital augmentation, automation, expertise leveling, and new task creation, and identifies incentive failures that may underfund worker-capability-building AI. It is a conceptual framework, not evidence that a tool improved worker control, pay, or consumer outcomes.
+
 The [NBER Procter & Gamble field experiment](../../records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json) adds a US-company consumer-goods team layer: among 776 professionals, individuals using AI matched the performance of no-AI teams, AI balanced R&D and Commercial proposals, and users reported more positive emotion. The record keeps measured task performance, human collaboration, expertise depth, belonging, worker voice, product success, and consumer value separate.
 
 The [NBER/Federal Reserve executive survey](../../records/us-nber-ai-corporate-executives-productivity-workforce-2026.json) adds the firm-level companion to the patent-lawyer experiment: 734 executives report uneven adoption, positive but sector-varying productivity, a gap between perceived and revenue-measured gains, little near-term aggregate employment decline, and job-mix reallocation toward skilled technical work. The record keeps executive expectation, realized firm performance, worker transition, pay, bargaining power, and consumer benefit separate.
