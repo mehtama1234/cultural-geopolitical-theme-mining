@@ -25,6 +25,7 @@ future enforcement or exit`.
 | Federal remedy comparator | [DOJ IER FY2026 resolution summary](../../records/us-doj-ier-individual-remedy-followups-2026.json) reports four charging-party cases with agency-reported paid remedies ($5,600, $16,730, $30,000, and $8,000) plus one $485,000 back-pay-and-benefits offer; training or policy changes accompanied the cases. | Adjacent U.S. employment remedies can document paid back pay and employer controls while separating a paid remedy from an offer of reinstatement. | The cases have no population denominator and do not independently document payment instruments, continued employment, restored opportunity, worker voice, household recovery, or later action; they are not a facility-level comparator for ThyssenKrupp. |
 | Facility remedy | The reported measures include union-access protocol, neutrality and collective-bargaining rules, a zero-tolerance policy, and personnel training; Mexican authorities monitored with in-person training throughout review. | The mechanism can target organizational conditions rather than only individual compensation. | Implementation, enforcement, worker awareness, and persistence of the protocol are not followed after closure. |
 | U.S. trade response | U.S. resumed liquidation of unliquidated entries from the facility after the resolution. | Trade administration can create leverage around labor-rights remediation. | Resumed liquidation is an institutional action, not proof of worker power or facility-wide compliance. |
+| Mechanism scale | [Mexico STPS MLRR information page](https://mlrr.stps.gob.mx/que-es) reports 51 Rapid Response cases activated by October 2026, all submitted by the U.S. government. | The ThyssenKrupp episode sits inside a continuing U.S.-initiated enforcement mechanism rather than a one-off diplomatic event. | The count is a case-activation total, not a success rate, worker-receipt measure, facility denominator, or evidence that the ThyssenKrupp remedy persisted. |
 | Domestic labor demand | [NLRB FY2025](../../records/us-nlrb-worker-voice-administration-fy2025.json) reports 19,754 unfair-labor-practice charges, 32.8% found meritorious, 96.8% of meritorious cases settled, and 2,743 representation petitions; the Board lacked a quorum for nearly three-quarters of the fiscal year. | The named case sits inside substantial U.S. demand for labor voice and a constrained adjudication system. | Charges are allegations; settlement and petitions have different universes; filings do not equal durable organizing or remedy receipt. |
 | Labor-market mechanism | [NBER labor-market-power model](../../records/us-nber-labor-market-power-heterogeneity-2026.json) attributes 78% of the variable component of labor-supply elasticities and 89% of markdown differences between large and small firms to worker heterogeneity in the model. | Worker sorting and firm differences matter for how bargaining power appears in observed wages and mobility. | This is a working-paper model, not a direct estimate of the ThyssenKrupp workers’ wages, power, or welfare. |
 | Comparative worker-voice mechanism | [JRC/ILO AI worker-voice record](../../records/us-ai-worker-voice-control-comparative-2024-2026.json) reports about one-third of EU workers using work-related AI, with algorithmic management associated with lower autonomy and greater stress; five cases show bargaining, works-council review, data access, public action, or legal challenge, with some outcomes unresolved. | Voice and contestability can be mechanisms that convert formal rules into control, not merely post-hoc compensation. | EU survey and qualitative cases are comparative context, not evidence about this U.S.-backed facility. |
@@ -35,6 +36,10 @@ The named case demonstrates **institutional remedy capacity, not yet durable
 worker power**. The enforcement route reached reinstatement, reported back pay and
 benefits, facility protocols, training, monitoring, and a U.S. trade response.
 That is materially stronger than a policy statement or an unresolved complaint.
+
+The Mexican ministry's count of 51 U.S.-initiated cases by October 2026 adds
+scale to the mechanism, but not proof that the individual ThyssenKrupp remedy
+held. It is a program-reach measure, not a worker-outcome measure.
 
 But the chain breaks at durability. Public evidence does not show whether the two
 workers received and regarded the remedy as adequate, whether other workers could
@@ -78,6 +83,9 @@ or generalize to all industrial facilities.
 - Worker heterogeneity can explain wage and mobility differences without proving
   employer coercion; conversely, observed sorting can coexist with constrained
   alternatives.
+- A larger number of activated cases can mean the mechanism is being used more,
+  not that worker conditions improved more. Case volume and case success must
+  remain separate.
 
 The interpretation would strengthen toward durable power if later evidence showed
 continued union access, no retaliation, worker participation in bargaining,
@@ -107,7 +115,8 @@ paid-remedy, offer, training, continued-employment, and worker-voice fields.
 Compare the case with a similar industrial facility or another USMCA matter only
 after matching industry, jurisdiction, worker population, and observation
 period. Keep the U.S. agency action, Mexican facility action, and worker outcome
-as separate stages.
+as separate stages. Use the 51-case ministry count only as mechanism context,
+not as a pooled outcome estimate.
 
 ## Stopping rule
 

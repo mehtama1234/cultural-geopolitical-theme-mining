@@ -163,9 +163,11 @@ switching, or repeat-request outcomes.
 worker-power audit](projects/cross-domain/us-industrial-labor-remedy-worker-power-audit-v1.md)
 follows a named USMCA ThyssenKrupp matter from petition and U.S. review through
 reported reinstatement, back pay, facility protocols, monitoring, and trade
-response, then anchors it in NLRB demand and NBER labor-power mechanisms. The
-finding is institutional remedy capacity without verified durable worker power:
-receipt, non-retaliation, bargaining, safety, and recurrence remain open. Next:
+response, adds Mexico's report of 51 U.S.-initiated mechanism cases by October
+2026, and anchors the episode in NLRB demand and NBER labor-power mechanisms.
+The finding is institutional remedy capacity without verified durable worker
+power: receipt, non-retaliation, bargaining, safety, and recurrence remain open;
+case volume is not worker success. Next:
 seek post-resolution monitoring, worker/union confirmation, later complaints,
 bargaining, safety, scheduling, and repeat-enforcement evidence for the same
 facility, with the DOJ IER cases as a bounded paid-remedy/training comparator
