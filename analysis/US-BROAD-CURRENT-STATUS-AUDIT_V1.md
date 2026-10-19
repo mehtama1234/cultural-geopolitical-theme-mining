@@ -147,7 +147,9 @@ correction, GAO insurance availability, NBER credit-pricing, mortgage lock-in,
 and housing robustness. The evidence shows that a payment, partial claim,
 repair route, legal standard, or formal housing intervention can improve one
 stage while safe occupancy, return, mobility, household security, and durable
-place attachment remain unknown.
+place attachment remain unknown. It now adds California's September 2026 smoke-
+damage and disaster-recovery legal corrections, which sharpen the implementation
+test without proving household-level repair or safe return.
 
 The newest capability-to-leverage depth artifact is the [semiconductor control,
 domestic realization, and replaceability audit](projects/cross-domain/semiconductor-control-domestic-realization-replaceability-audit-v1.md).

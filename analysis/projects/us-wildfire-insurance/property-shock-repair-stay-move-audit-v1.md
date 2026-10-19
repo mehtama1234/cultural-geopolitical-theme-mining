@@ -35,6 +35,7 @@ stay decision remain unobserved.
 | [NBER mortgage lock-in study](../../records/us-nber-mortgage-lockin-housing-mobility-2022-2024.json), mortgage records and housing-market model | Existing-home sales fell 40% from 2022 to 2024 amid higher rates | Individual mortgage analysis estimated a 25% causal reduction in borrower mobility; modeled lock-in raised house prices 4.4% and rents 1.5% relative to no lock-in | Staying can be constrained mobility rather than preference, and rate conditions can affect the broader ladder | Public abstract does not disclose analytic count; staying is not automatically involuntary and repair, health, care, work, and belonging are not measured |
 | [World Bank housing robustness study](../../records/comparative-world-bank-housing-robustness-2026-poverty-disaster-learning.json), 150 countries/economies | Poverty is associated with fragile housing; repeated disaster experience creates a different resilience problem | The study's two-stage ladder links basic robustness to poverty and later resilience to institutional quality and hazard-specific learning | Housing resilience is cumulative institutional learning, not one rebuilding action | Cross-country aggregate framework, not a household event or proof that reforms reach informal construction |
 | [California wildfire claims and smoke-recovery record](../../records/us-california-wildfire-claims-smoke-recovery-2026.json), 41,727 reported Eaton/Palisades claims and a 220-claim regulatory sample | Fire damage, smoke disputes, and claim-handling friction | $25.2 billion was reported paid to date and 40,482 claims were partially paid; a State Farm review identified 398 violations across 114 reviewed claims, followed by a statewide smoke-damage legal response | Aggregate payment and regulatory correction can coexist with unresolved repair and safe-occupancy outcomes | Claims mix homes, businesses, living expenses, autos, and other categories; the sample is not a statewide violation rate or household recovery panel |
+| 2026 legal-correction stage | California's [Smoke Damage Recovery Act](https://www.insurance.ca.gov/01-consumers/0102-alerts/2026/California-protects-families-from-hidden.cfm) and [Disaster Recovery Reform Act](https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/release034-2026.cfm), both signed in September 2026 | The state moved from investigation and complaint recovery toward enforceable smoke-testing, inspection, repair, additional-living-expense, adjuster-status, replacement-cost, and delay-penalty rules | Legal standards can shift proof and timing obligations toward insurers; the Department separately reports more than $338 million in additional payments from reviewing over 2,000 Los Angeles survivor complaints, including more than $50 million related to smoke damage | Enactment and complaint-linked recovery do not establish compliance, payment adequacy, repair completion, safe occupancy, renewal, or a chosen stay/move for any household |
 | [GAO homeowners-insurance availability review](../../records/us-gao-homeowners-insurance-premium-availability-2019-2024.json), estimated premiums and about 13,000 rate filings | Risk, credit, state regulation, and insurer availability | Estimated national real premiums rose 3% from 2019 to 2024; high-wind homes were associated with 58% higher premiums, 35 states had last-resort plans, and California/Colorado had cited median filing-approval times of 305/331 days | National averages conceal local affordability and availability pressure; residual markets preserve nominal coverage but may shift cost and coverage limits | Estimated premiums are not household bills, and filing time is not itself a causal availability or affordability outcome |
 | [NBER home-insurance credit-pricing study](../../records/us-nber-home-insurance-credit-disaster-risk-affordability-2026.json), approximately 70 million mortgage-linked policies | Credit and physical disaster risk enter the price of keeping a home insured | Low-credit-score homeowners paid about 24% more for identical coverage; a Washington policy change weakened the credit-score pricing relationship | Housing affordability includes the cost of maintaining insurance before a disaster | No same-owner sequence from premium to escrow trouble, underinsurance, claim, repair, sale, or move |
 
@@ -58,10 +59,14 @@ household that remains at an address may be protected, trapped, underinsured,
 or unable to finance a move; the address alone cannot distinguish these states.
 
 Fourth, **payment and legal correction are not recovery**. The California claims
-tracker shows large partial-payment activity, while the State Farm investigation
-and smoke-damage law show that claims handling and standards can still be under
-correction. A national insurance average can rise modestly while high-risk
-households face much larger premium, coverage, or residual-market pressure.
+tracker shows large partial-payment activity, while the State Farm investigation,
+smoke-damage law, and September 2026 disaster-recovery reform show the state
+moving from complaint evidence toward enforceable correction. The newer rules
+make the implementation test sharper, not smaller: inspection, testing, living
+expense, adjuster-status, and repair obligations still need to be observed at
+the property and household level. A national insurance average can rise modestly
+while high-risk households face much larger premium, coverage, or residual-market
+pressure.
 
 ## Bounded public discussion
 
@@ -111,10 +116,11 @@ comparison and identify which source owner could supply the missing fields.
 Do not infer durable recovery from a payment or an occupied address alone.
 
 For the California route, the highest-value linkage is one claim/property record
-joining partial and final payment, smoke inspection, contractor/permit progress,
-temporary lodging, safe occupancy, renewal or nonrenewal, and the household's
-stay/move decision. For the national insurance route, add escrow, deductible,
-coverage limits, residual-plan enrollment, and later claim or relocation.
+joining partial and final payment, smoke inspection under the new standards,
+contractor/permit progress, temporary lodging and additional-living-expense
+continuity, safe occupancy, renewal or nonrenewal, and the household's stay/move
+decision. For the national insurance route, add escrow, deductible, coverage
+limits, residual-plan enrollment, and later claim or relocation.
 
 ## Deeper question
 

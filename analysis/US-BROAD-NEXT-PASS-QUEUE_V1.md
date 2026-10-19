@@ -29,8 +29,12 @@ now adds California wildfire claims and smoke-damage correction, GAO national
 premium/availability evidence, and NBER credit-based insurance pricing. The
 finding remains a repair-and-mobility gap: aggregate payments, partial claims,
 legal standards, or last-resort coverage do not prove safe occupancy, adequate
-repair, affordable renewal, or a chosen stay/move. Next: follow one claim or
-property through payment, inspection, repair, occupancy, renewal, and mobility.
+repair, affordable renewal, or a chosen stay/move. September 2026 smoke-damage
+and disaster-recovery laws add enforceable inspection, testing, repair,
+living-expense, adjuster-status, replacement-cost, and delay-penalty
+obligations; the next pass must test whether those obligations appear in
+claim/property outcomes. Next: follow one claim or property through payment,
+inspection, repair, occupancy, renewal, and mobility.
 
 **Latest U.S. consumer-health rotation — 2026-10-18:** the [AI health
 navigation, trust, control, and continuity audit](projects/cross-domain/ai-health-navigation-trust-control-audit-v1.md)
