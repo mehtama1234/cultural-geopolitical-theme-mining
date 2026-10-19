@@ -24,6 +24,8 @@ allied resilience, deterrence, and public-industrial legitimacy`.
 | Component diversity | [USAspending subaward structure](../../records/usaspending-jassm-lrasm-subaward-structure-2024-2025.json) reports component/assembly descriptions across all 74 records, including engines, processors, antennas, warheads, wings, tails, optics, power, and connectors. | The reported network spans multiple system elements. | Free-text descriptions are not a bill of materials, quantities, manufacture, integration, delivery, or competition measure. |
 | Corporate footprint | [Multi-facility recipient route](../../records/usaspending-jassm-lrasm-multi-facility-recipient-route-2024-2025.json) maps one General Dynamics OTS recipient name and $80.5508M reported amount to three active CAGE facilities in Hampton AR, Colchester VT, and Saco ME under parent CAGE 95403. | A corporate recipient can have geographically distributed registered facilities. | The subaward lacks the identifier needed to assign the work to a facility; footprint is not redundancy or replaceability. |
 | Identifier resolution | The retained DLA CAGE details identify General Dynamics-OTS facilities as CAGE 3X552/UEI JCUNVL6B1QJ8 (Hampton, AR), 05606/UEI Q9SBTF8ELUP4 (Colchester, VT), and 26978/UEI C9JJM67GNFZ1 (Saco, ME), each active at retrieval and linked to parent CAGE 95403. | The corporate footprint can be resolved into active entity identifiers and locations. | The USAspending subaward row still lacks CAGE/UEI/facility linkage; identity resolution does not assign performance, workforce, production, delivery, or local incidence. |
+| Richer subaward linkage | [Richer USAspending record](../../records/us-defense-procurement-rich-subaward-ueis-locations-2026.json) finds UEIs, recipient locations, and primary performance-place fields on all 74 returned rows. Two focal rows report BAE/Nashua UEI V7X9P6J9SUK1 and $210.0186M for an AP-system/RF-sensor procurement-control description, and General Dynamics-OTS/Niceville UEI KZK8C85C1T94 and $80.5508M for case assembly loaded-live, Lots 22–26. | The award surface can be joined to identifiers and reported places, and the descriptions can be tested at the subaward-row level. | A complete reporting field is not a manufacturing assignment; the rows still do not state accepted quantity, shipment, inventory, workforce, or substitute capacity. |
+| Site capability context | [Location-capability comparison](../../records/us-defense-procurement-location-capability-context-2026.json) finds independent BAE quality-scope context for the Nashua address and General Dynamics-OTS advanced-warhead/Niceville context for the Niceville address. | Both reported places have documented capability context relevant to the component descriptions. | Context is not proof that the selected work package was performed there; it also does not prove output, acceptance, delivery, or current spare capacity. |
 | Production capacity | [Air Force production/integration record](../../records/us-jassm-lrasm-production-integration-realization-2024-2025.json) reports Lockheed Martin in Troy, Alabama and a FY2026 combined minimum sustained rate of 396 missiles/year: 336 JASSM and 60 LRASM. | A government exhibit reports a defined production-rate target and a capacity expansion rationale. | Minimum sustained rate is not realized throughput, accepted output, inventory, staffing, yield, or delivery. |
 | Production investment | The same record cites a 225,000-square-foot facility brought online in 2022 and a corporate claim to accelerate deliveries. | Capacity investment and management claims are observable intermediate stages. | No quantity, delivery, acceptance, uptime, or customer-allocation evidence is supplied. |
 | Integration | The record reports an initial LRASM/F-35B flight test on March 4, 2025 at Naval Air Station Patuxent River, with an independent F-35C loaded-missile test context. | Integration testing moved beyond a plan into dated events. | A flight test is not certification, operational fielding, accepted inventory, combat performance, or adversary response. |
@@ -35,15 +37,18 @@ allied resilience, deterrence, and public-industrial legitimacy`.
 
 The current evidence supports a **network-to-capability gap**. The JASSM/LRASM
 case has a broad reported supplier surface, substantial financial concentration,
-distributed corporate registrations, a stated production rate, new-facility
-investment, integration tests, and allied procurement demand.
+resolved UEI and recipient-location fields, independent capability context for
+two focal places, distributed corporate registrations, a stated production rate,
+new-facility investment, integration tests, and allied procurement demand.
 
 None of those stages alone establishes replaceable, delivered capability. The
-most important open links are: which legal entity and facility performed which
-component work; whether the 396-per-year rate became accepted inventory; whether
-integration tests became certification and fielding; whether Poland received and
-trained on the ordered missiles; and whether another supplier, facility, or
-allied route could substitute after disruption.
+USAspending enrichment closes the subaward-to-UEI and subaward-to-reported-place
+links, but not the subaward-to-performing-facility link. The most important open
+links are: which legal entity and facility performed which component work;
+whether the 396-per-year rate became accepted inventory; whether integration
+tests became certification and fielding; whether Poland received and trained on
+the ordered missiles; and whether another supplier, facility, or allied route
+could substitute after disruption.
 
 The case is therefore neither “resilient” nor “fragile” on the current evidence.
 It is a measurable production-and-governance chain with a missing operational
@@ -97,12 +102,12 @@ parent award and component
 ```
 
 The first decisive acquisition is now narrower: obtain a USAspending or contract
-modification record that links the reported subaward to one of the resolved UEI/
-CAGE facilities, then connect that component route to Air Force
-acceptance/delivery and Polish lot or training records. Preserve the current
-source conflict and non-observation rather than selecting the more favorable
-schedule. Add worker, community, and public-spending incidence only after the
-component/facility unit is resolved.
+modification record, quality/production record, or named facility document that
+links one focal subaward and UEI to a performing CAGE facility, then connect that
+component route to Air Force acceptance/delivery and Polish lot or training
+records. Preserve the current source conflict and non-observation rather than
+selecting the more favorable schedule. Add worker, community, and public-
+spending incidence only after the component/facility unit is resolved.
 
 ## Stopping rule
 
