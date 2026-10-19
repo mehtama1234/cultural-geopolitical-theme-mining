@@ -188,17 +188,20 @@ joins IEA investment and household-cost evidence, World Energy Council integrati
 constraints, Ipsos and Eurobarometer attitudes, EIA household framing, Census
 SIPP financial-room and food-sacrifice screens, extreme-heat exposure, Solar for
 All, the U.S. DOE AEP Texas transmission loan, the Hamlin–Roby 25.2-mile project
-review and anticipated September 2026 construction start, and bounded LinkedIn
-discussion. The evidence supports a
+review and anticipated September 2026 construction start, the completed-and-
+energized NYPA Smart Path Connect comparator, and bounded LinkedIn discussion.
+The evidence supports a
 capital-to-household conversion gap: electricity investment, AI demand, and
 clean-energy policy do not automatically become affordable, reliable,
 controllable household service or durable legitimacy. Next: follow a named AEP
 project or comparable U.S. utility line from anticipated start into dated
 construction progress and energization, then pair a regulator or utility
-cost-allocation record with
-customer-class bills, outage measures, and household affordability; if those
-records remain unavailable, record the missing link and rotate to the next
-highest-learning U.S. industrial or consumer chain.
+cost-allocation record with customer-class bills, outage measures, and household
+affordability. Use NYPA's completed project as a same-industry realized-stage
+comparator, but keep its system savings and formal payer route separate from
+retail household outcomes.
+If those records remain unavailable, record the missing link and rotate to the
+next highest-learning U.S. industrial or consumer chain.
 
 **Latest water-infrastructure rotation — 2026-10-18:** the [water
 infrastructure, funding access, household service, and health audit](projects/cross-domain/water-infrastructure-funding-household-service-audit-v1.md)

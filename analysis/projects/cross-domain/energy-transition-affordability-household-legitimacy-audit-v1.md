@@ -38,6 +38,7 @@ different denominators and methods.
 | Preference distribution | [EU Special Eurobarometer 555](../../records/comparative-european-commission-eurobarometer-energy-affordability-consumer-protection-2025.json): about 26,000 EU citizens; 40% define energy policy partly as affordable prices, 53% support help for energy-poor households, and 50% support efficiency and self-production. | Practical control and targeted support can be legitimacy routes. | Preferences do not identify who pays, who owns infrastructure, or who can adopt it. |
 | AI load | [IEA Key Questions on Energy and AI](../../records/comparative-iea-key-questions-energy-ai-2026-data-centres-affordability-grid.json): data-centre electricity demand grew 17% in 2025, AI-focused data-centre electricity consumption 50%, and announced 2026 hyperscaler/neo-cloud capex totals $715 billion. | AI infrastructure makes allocation, connection, and cost incidence part of energy legitimacy. | Announced capex and projected load do not all become operating demand or show who bears costs. |
 | U.S. industrial grid finance | [DOE AEP Texas project](../../records/us-doe-aep-texas-transmission-loan-customer-savings-2026.json) records a July 2026 loan of up to $3.26 billion for roughly 2,800 miles of transmission work, with projected 100% more carrying capacity and about $685 million in 30-year customer savings for 1.1 million projected customers. DOE's [Hamlin–Roby review letter](https://www.energy.gov/documents/aep-texas-hamlin-roby-69kv-transmission-line-project) describes a 25.2-mile rebuild and says construction was anticipated to begin in September 2026. | The U.S. industrial chain has moved from closed financing and environmental review to a named scheduled-start stage, while large-load growth and household-cost claims remain linked in the public rationale. | A scheduled start is not construction progress or completion. The record still does not show energization, operating reliability, cost allocation, or a lower bill for a named household or business. |
+| U.S. realized infrastructure comparator | [NYPA Smart Path Connect](../../records/us-nypa-smart-path-connect-realization-2026.json) reports completion and energization on June 17, 2026: 45 new transmission miles, three new substations energized, six modified substations, and more than $438 million in reported annual system savings. NYISO Schedule 18 provides a formal facilities-charge and load-serving-entity allocation route. | A same-country, same-industry comparison shows that a project can reach physical operation and formal cost allocation, making the conversion chain more advanced than the AEP scheduled-start stage. | The public record does not show customer-level bills, rate-class incidence, outage change, or whether the reported system savings reached households and businesses. |
 
 ## Cross-source finding
 
@@ -56,6 +57,12 @@ have federal financing closed, environmental review completed, and a scheduled
 construction start while the customer-facing stages—built assets, operation,
 allocation, bill effect, and reliability—remain open. This is a more precise
 test than treating an announced grid investment as either a benefit or a burden.
+
+The Smart Path Connect comparator tests the next step. Physical completion,
+energization, system savings claims, and a formal payer route can all be visible
+before retail pass-through, household bill change, equal benefit, or durable
+reliability is observed. The comparison supports a stage distinction, not a
+claim that AEP or NYPA failed to benefit customers.
 
 The evidence does not show that transition investment necessarily worsens
 household welfare. Solar for All is a counterexample to a purely negative story:
@@ -90,6 +97,9 @@ independent outcome evidence.
    customers?
 4. Which forms of consumer agency—switching, community generation, self-use,
    transparent bills, assistance, or complaint remedy—actually sustain support?
+5. Does the completed-and-energized NYPA route produce a measurable retail bill
+   or reliability effect for a named customer class, and what would be different
+   from the still-unbuilt AEP route?
 
 ## Next test and stopping rule
 
@@ -97,7 +107,9 @@ The next pass should select one traceable place or program and follow the same
 household or customer pathway across baseline burden, intervention eligibility,
 connection, monthly bill, outage/cooling exposure, food or credit tradeoff,
 continuation, and remedy. Pair that longitudinal path with utility/regulatory
-cost allocation and a public-discussion sample from the same place.
+cost allocation and a public-discussion sample from the same place. Use NYPA as
+the realized-infrastructure comparator and AEP/Hamlin–Roby as the scheduled-
+start comparator; do not pool their savings claims or project stages.
 
 Do not claim that investment produced affordability, that clean capacity produced
 reliability, or that public support produced legitimacy unless the relevant link
