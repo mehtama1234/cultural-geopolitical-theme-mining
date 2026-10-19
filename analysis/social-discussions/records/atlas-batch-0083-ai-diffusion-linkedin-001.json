@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-ai-diffusion-linkedin-001",
+  "atlas_record_ids": ["us-census-ai-diffusion-firm-function-task-btos-2026"],
+  "topic": "infrastructure-technology-dependency",
+  "platform": "linkedin",
+  "item_type": "research_translation_post",
+  "author_or_account": "Christos Makridis",
+  "title": "AI adoption measures different layers of firm and worker use",
+  "canonical_url": "https://www.linkedin.com/posts/christosmakridis_ai-productivity-labormarkets-activity-7457768666688983040-nDGT",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The post relays NBER, Census BTOS, and Gallup evidence and separates firm-level formal use from worker task use. It reports 18% of firms using AI in a business function versus 32% when employment-weighted, and 23% of firms reporting worker-task use versus 41% employment-weighted; it also notes higher worker-reported use in Gallup. The central public discussion is that these numbers can all be true because they use different units and layers. It does not establish productivity, job displacement, or effective workflow integration.",
+  "research_anchor_paths": ["analysis/records/us-census-ai-diffusion-firm-function-task-btos-2026.json"],
+  "linked_research_question": "When firm adoption, worker-task use, and employment-weighted exposure diverge, which organizational conditions turn experimentation into reliable workflow change and worker benefit?",
+  "classification": ["ai_adoption", "firm_worker_measurement", "employment_weighting", "nber_research_relay", "bounded_public_discussion"],
+  "limits": ["The post combines different datasets with different samples, questions, and time frames", "Employment-weighted exposure is not the same as depth, productivity, or benefit", "The reported gaps do not identify causality or the quality of worker use"]
+}

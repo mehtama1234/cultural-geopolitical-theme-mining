@@ -74,9 +74,19 @@ to forgone large purchases and less-ideal substitutions. This strengthens the
 household-room chain, but does not identify the affected income or credit
 groups, product categories, or longer-run welfare effects.
 
+A seventh row is now augmented:
+
+- `us-census-ai-diffusion-firm-function-task-btos-2026` →
+  `atlas-batch-0083-ai-diffusion-linkedin-001`
+
+The public research relay makes the measurement boundary explicit: firm use,
+employment-weighted exposure, worker-task use, and frequent individual use are
+different layers. This prevents the atlas from treating a single adoption rate
+as proof of workflow integration, productivity, or worker benefit.
+
 ## Batch state
 
-Three rows remain in review. The business-price-pressure row reached a
+Two rows remain in review. The business-price-pressure row reached a
 documented access gap after no exact platform discussion was found. Platform
 gaps for the five augmented rows were recorded for Reddit, YouTube, and X
 after bounded searches; no completion claim
