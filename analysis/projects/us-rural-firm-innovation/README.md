@@ -18,6 +18,14 @@ digital access, R&D, workforce, finance, demand, ownership, public support,
 survival, jobs, and later regional outcomes. The current decomposition does
 not establish that full causal chain.
 
+The [economic-connectedness record](../../records/us-nber-social-capital-innovation-economic-connectedness-2026.json)
+adds a social-network mechanism: a one-standard-deviation increase in the share
+of high-income Facebook friendships is associated with 97% more patents per
+capita in patenting ZIP Codes and 45% more breakthrough patents where those
+patents occur. Relocation and quasi-experimental tests support a causal
+interpretation, but the next test is whether the financing channel becomes jobs,
+wages, firm survival, and local consumer benefit.
+
 ## Source
 
 - [Census CES Working Paper CES-26-48](https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-48.html)

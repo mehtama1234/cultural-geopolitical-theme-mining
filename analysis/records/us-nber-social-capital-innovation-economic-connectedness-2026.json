@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-social-capital-innovation-economic-connectedness-2026",
+  "title": "Economic connectedness in US Facebook friendship networks is associated with substantially greater local innovation",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "firm_sector_market_power", "infrastructure_technology_dependency", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "US patenting ZIP Codes, Facebook friendship networks, economic connectedness, patents, breakthrough patents, relocation, and local social shocks",
+  "geography": "United States; patenting ZIP Codes and Facebook friendship networks",
+  "observations": [
+    {
+      "period": "Working paper issued September 2026; contemporary Facebook friendship and US patenting geography evidence",
+      "denominator": {"value": null, "unit": "US patenting ZIP Codes and ZIP Codes with breakthrough patents; exact ZIP and user counts not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "economic_connectedness": {"value": null, "unit": "share of high-income friendships in a local Facebook friendship network", "value_type": "reported_measure"},
+        "patents_per_capita": {"value": 97, "unit": "percent more patents per capita associated with a one-standard-deviation increase in economic connectedness among patenting ZIP Codes", "value_type": "reported_estimate"},
+        "breakthrough_patents_per_capita": {"value": 45, "unit": "percent more breakthrough patents per capita associated with a one-standard-deviation increase among ZIP Codes with breakthrough patents", "value_type": "reported_estimate"},
+        "causal_support": {"value": null, "unit": "reverse-causality tests, within-inventor relocation, and a fracking-driven shock to non-local friends support a causal interpretation", "value_type": "reported_design"},
+        "financing_channel": {"value": null, "unit": "mechanism tests are consistent with a financing channel linking social capital to innovation", "value_type": "reported_mechanism"}
+      },
+      "method": "The paper links Facebook friendship-network measures to patenting geography, uses reverse-causality tests and within-inventor relocation, and exploits fracking-driven economic shocks to non-local friends as a quasi-experiment.",
+      "uncertainty": "The NBER abstract does not disclose user or ZIP counts, effect intervals, exact Facebook observation window, patent definitions, or all privacy and exclusion assumptions. Economic connectedness is not the same as trust, local institutions, finance received, firm survival, worker outcomes, or broad social cohesion.",
+      "subgroup": "US patenting ZIP Codes and ZIP Codes with breakthrough patents; effects are framed around high-income friendship exposure and inventor relocation.",
+      "counterinterpretation": "Network composition, migration, selection into Facebook, local industry, education, capital markets, and patenting may jointly shape the association; the quasi-experimental results support a mechanism but do not imply every community can reproduce the same effect through social mixing alone.",
+      "source_url": "https://www.nber.org/papers/w35732",
+      "retrieval_hash": "sha256:194205baae0269dc50c9e9adce9945c8b5a9cd883d7fbb14ab71705fc0ff24da",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35874", "claim": "US multinational tax-planning structures concentrate foreign profits and create modeled revenue/activity tradeoffs.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35684", "claim": "AI-skilled employment and organization capital are associated with recent firm productivity growth.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35730", "claim": "American Indian economic, educational, and health outcomes vary substantially by place, resources, and historical policy experience.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a network and financing mechanism to the US innovation program. It does not establish that friendship exposure alone creates patents, measure privacy or social costs, or connect innovation to local jobs, wages, consumer welfare, or durable place capacity in the same unit."
+}

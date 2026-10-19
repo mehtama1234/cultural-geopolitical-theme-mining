@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2003 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2004 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6877,6 +6877,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | SNAP work requirements increase procedural denials through administrative burden | cost, time, voice | public_systems_feedback, household_room_consumption, unequal_exposure_status, time_hidden_price, trust_identity_meaning, political_judgment_action | NBER Working Paper 34698, administrative SNAP data analyzed with age-based exemption and waiver-period difference-in-differences designs | United States SNAP administrative-policy setting; study-selected jurisdictions and Able-Bodied Adults Without Dependents (ABAWDs), not a national participation rate | 1 | 2026 NBER Working Paper 34698; study-defined waiver and work-requirement periods | estimated | [open](records/us-nber-snap-work-requirements-procedural-denials-2026.json) |
 
 **Boundary:** This record adds a policy-to-administrative-denial and participation-deterrence mechanism. It does not establish a national denial rate, individual notice or effort, appeal, restored benefits, food security, health, durable hardship, trust, or political action.
+
+| Economic connectedness in US Facebook friendship networks is associated with substantially greater local innovation | voice, work, cost | trust_identity_meaning, firm_sector_market_power, infrastructure_technology_dependency, unequal_exposure_status, public_systems_feedback | US patenting ZIP Codes, Facebook friendship networks, economic connectedness, patents, breakthrough patents, relocation, and local social shocks | United States; patenting ZIP Codes and Facebook friendship networks | 1 | Working paper issued September 2026; contemporary Facebook friendship and US patenting geography evidence | reported | [open](records/us-nber-social-capital-innovation-economic-connectedness-2026.json) |
+
+**Boundary:** This record adds a network and financing mechanism to the US innovation program. It does not establish that friendship exposure alone creates patents, measure privacy or social costs, or connect innovation to local jobs, wages, consumer welfare, or durable place capacity in the same unit.
 
 | Personalized benefit information changes the choice between Social Security Disability and early retirement applications | voice, time, cost | public_systems_feedback, care_health_reproduction, unequal_exposure_status, trust_identity_meaning, household_room_consumption | NBER Working Paper 35748 using Social Security statements and application behavior among older U.S. adults | United States; people ages 62 to full retirement age, with work-limiting health conditions or low work ability | 1 | Social Security statement and benefit-application period; paper issued September 14, 2026 | reported | [open](records/us-nber-social-security-information-disability-early-retirement-choice-2026.json) |
 

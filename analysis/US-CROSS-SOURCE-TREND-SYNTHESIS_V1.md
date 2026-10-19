@@ -1,5 +1,7 @@
 # US cross-source trend synthesis v1
 
+The [NBER economic-connectedness record](records/us-nber-social-capital-innovation-economic-connectedness-2026.json) adds a network-to-innovation mechanism: a one-standard-deviation increase in high-income Facebook friendship share is associated with 97% more patents per capita in patenting ZIP Codes and 45% more breakthrough patents where those patents occur. Read beside firm tax structure, AI organization capital, and rural innovation evidence, the implication is that social networks may route financing and capability into innovation, but patents are not automatically jobs, wages, public capacity, or consumer welfare.
+
 The [NBER fertility and remote-work record](records/us-nber-fertility-mothers-remote-work-2003-2024.json) adds a work-care conversion boundary: fertility reduces mothers’ labor-force participation; an additional child increased remote-work likelihood before 2020 but reduced it after remote work became common. Read beside labor-force exit and firm/AI work evidence, the implication is that a work-location option is not the same as usable flexibility: employer practice, care intensity, occupation, housing, schedule, and period norms shape whether it expands agency.
 
 The [NBER multinational tax-planning record](records/us-nber-multinational-tax-planning-foreign-profits-rd-2026.json) adds a firm-structure and public-revenue layer: structures adopted by 18% of US multinationals accounted for 36% of foreign profits in 2016, while the model finds tax-revenue and economic-activity tradeoffs amplified by global R&D. Read beside firm investment, AI organization capital, and cross-border services evidence, the implication is that legal/tax architecture can shape where profits, investment, R&D, and public capacity appear without directly revealing worker or consumer gains.
@@ -141,7 +143,7 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 2003 machine-readable records, 5972 observations,
+The current registry contains 2004 machine-readable records, 5973 observations,
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json): 43% of same-firm workers experienced real-wage decline across 2021–2024, 37% of all workers did, and job changers' wages rose nearly one-for-one with inflation. The cross-source implication is that firm wage rules are an upstream part of household room and consumer sentiment, but the payroll source does not observe the same workers' spending, debt, care, trust, or political action.
 
