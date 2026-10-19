@@ -1,5 +1,16 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. consumer-health rotation — 2026-10-18:** the [AI health
+navigation, trust, control, and continuity audit](projects/cross-domain/ai-health-navigation-trust-control-audit-v1.md)
+now joins Pew, GAO, Ipsos, WHO, and PwC evidence with the FTC Hims & Hers
+privacy/billing/cancellation case and the NBER Medicaid-renewal outreach
+experiment. The finding remains a health-navigation control gap: digital access,
+administrative assistance, or a complaint response does not by itself prove
+accurate interpretation, protected data, continuous care, completed remedy, or
+safe exit. Next: follow one private digital-health episode and one public
+coverage episode through disclosure, action, care continuity, correction, and
+later outcome.
+
 **Latest U.S. defense-industrial rotation — 2026-10-18:** the [supplier
 resilience and replaceability audit](projects/cross-domain/us-defense-industrial-supplier-resilience-audit-v1.md)
 follows a bounded JASSM/LRASM chain from USAspending supplier concentration and

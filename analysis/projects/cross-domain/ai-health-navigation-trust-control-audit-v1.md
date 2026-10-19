@@ -35,6 +35,8 @@ need, symptom, or health data
 | The access route is socially differentiated | Pew reports social-media health-information use at 49% among Hispanic adults, 45% among Black adults, 47% among Asian English speakers, and 30% among White adults. Only 7% of social-media users rate that information extremely or very accurate, while 47% rate it not too or not at all accurate. | Conditional racial/ethnic comparisons from the 5,111-person survey. | Differences may reflect access, language, cultural fit, age, platform exposure, or institutional relationships; they do not prove unequal misinformation harm. |
 | Oversight must follow the whole lifecycle | WHO frames AI-health research governance across design, ethics review, publication, regulation, and implementation, with concerns about transparency, bias, fairness, accountability, privacy, and rapid deployment. | Expert governance review covering researchers, patients, committees, funders, publishers, regulators, and communities. | A governance framework does not establish institutional capacity, enforcement, independence, or remedy performance. |
 | Health is becoming continuously platform-mediated | PwC reports 80% of 21,808 adults across 27 countries and territories use an app or wearable for at least one health or wellness activity; interest reaches 63% for health insights and diagnostics and 60% for coaching and behavior change. | Global consumer survey, executive interviews, and market analysis, February–March 2026. | Reported use and interest are not verified behavior, clinical value, affordability, or safe self-management. |
+| Digital-health convenience can create a privacy-and-exit test | The FTC, Utah, and California complaint against Hims & Hers alleges health-information sharing with advertising platforms, recurring prescription enrollment and billing disclosures, and cancellation friction. A released FTC FOIA workbook contains 203 complaint records: 50 marked RESOLVED, 128 ANSWERED, 4 administratively invalid, and 21 without a usable disposition; the records are selected and channel-concentrated. | Named federal/state enforcement case, pending at the September 2026 check; complaint allegations plus coded administrative records. | The case does not establish individual data exposure, unauthorized payment, medical harm, treatment interruption, remedy, or current usability; disposition labels are not clinical or financial outcomes. |
+| Administrative assistance can improve coverage while leaving care continuity open | In a Wisconsin Medicaid renewal field experiment covering 92,957 beneficiaries in 80,016 households, assignment to a prerecorded navigator-assistance call increased renewal by 1.0 percentage point from a 67.8% baseline and reduced procedural denial by 1.1 points from a 22.3% baseline. Estimated correct-person reach was at most about 61%. | NBER/J-PAL field experiment using administrative renewal records, June 2023–June 2024 deadlines. | Renewal is not continuous care, health improvement, or household security; receipt and assignment are different estimands, and the setting is Wisconsin fee-for-service Medicaid. |
 
 ## Cross-source finding
 
@@ -63,6 +65,15 @@ route where credentials, lived experience, convenience, and perceived accuracy
 can diverge. These are bounded discussion signals, not representative public
 opinion or clinical evidence.
 
+The Hims & Hers case adds a concrete consumer-power boundary: a low-friction
+digital intake and subscription route can make access easier while making data
+sharing, recurring charges, and cancellation part of the health-navigation
+problem. The complaint workbook shows administrative response labels, but not
+whether a patient received a refund, stopped an unwanted refill, protected
+health data, or maintained treatment. The Wisconsin experiment supplies the
+public-system counterpoint: assistance can improve renewal, yet contact failure
+and the missing care-outcome link remain visible.
+
 ## Counterexamples and alternative explanations
 
 - Chatbot use may supplement clinicians by helping people prepare questions,
@@ -78,6 +89,9 @@ opinion or clinical evidence.
 - Human fallback is not automatically safe: clinicians can be unavailable,
   expensive, biased, or wrong. The test is whether a correction route exists,
   not whether a human is present in name.
+- A service may improve access and continuity for some patients while creating
+  separate privacy, recurring-payment, or exit risks; the endpoints should not
+  be collapsed into one convenience score.
 
 ## Stronger next test
 
@@ -91,6 +105,10 @@ episode:
 4. care-seeking, treatment continuity, cost, and time to action;
 5. error, privacy, billing, complaint, correction, or escalation;
 6. later health, trust, repeat use, switching, or exit.
+
+Include both a private digital-health route and a public coverage route in the
+comparison: intake/consent/refill/cancellation for the former, and outreach,
+renewal, procedural denial, plan continuity, and care use for the latter.
 
 Stratify by income, age, disability, language, race/ethnicity, insurance,
 digital access, and clinician availability. Preserve successful uses and failed
@@ -123,6 +141,8 @@ chain.
 - [GAO wearable assessment record](../../records/us-gao-wearable-clinical-decision-making-2026.json)
 - [WHO AI-health governance record](../../records/comparative-who-ai-health-research-ethics-2026-oversight-equity.json)
 - [PwC consumer-health record](../../records/comparative-pwc-voice-consumer-2026-everyday-health-data-trust.json)
+- [FTC Hims & Hers digital-health privacy and billing case](../../records/us-ftc-hims-hers-health-data-billing-cancellation-2026.json)
+- [NBER Medicaid renewal outreach experiment](../../records/us-nber-medicaid-renewal-outreach-administrative-burden-2026.json)
 - [Bounded LinkedIn chatbot discussion](../../social-discussions/records/social-pew-ai-health-chatbots-linkedin-001.json)
 - [Bounded LinkedIn health-information discussion](../../social-discussions/records/social-pew-health-information-trust-linkedin-001.json)
 - [Earlier wearable/AI bridge](../us-wearable-health-decision-making/health-data-ai-interpretation-trust-remedy-bridge-v1.md)

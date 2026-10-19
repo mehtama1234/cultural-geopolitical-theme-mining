@@ -71,10 +71,11 @@ The newest AI-health depth artifact is the [AI health navigation, trust, control
 and continuity audit](projects/cross-domain/ai-health-navigation-trust-control-audit-v1.md).
 It joins Pew health-chatbot and health-information evidence with GAO wearables,
 Ipsos task-specific diagnostic trust, WHO lifecycle governance, PwC continuous
-health tracking, and bounded LinkedIn discussion. The finding is a control gap:
-speed and low-cost access can expand first-step agency while disclosure,
-verification, human fallback, care continuity, privacy, and remedy remain
-separate and mostly unobserved.
+health tracking, the FTC Hims & Hers digital-health privacy/billing case, the
+NBER Medicaid-renewal outreach experiment, and bounded LinkedIn discussion. The
+finding is a control gap: speed and low-cost access can expand first-step agency
+while disclosure, verification, human fallback, care continuity, privacy, and
+remedy remain separate and mostly unobserved.
 
 The newest material-to-meaning/action depth artifact is the [repeated-respondent
 material pressure, trust, and action rotation audit](projects/us-cost-trust-politics/material-pressure-meaning-action-rotation-audit-v1.md).
