@@ -128,6 +128,10 @@ bargaining power, durable earnings, consumer remedy, or household security are
 observed. It now adds two named U.S. episodes: an AI customer-service field
 experiment with 138 agents and 256,934 chats, and the OpenAI/Statsig DOJ
 recruitment settlement with potential back pay and three years of oversight.
+It now adds a third named consumer episode: the FTC's announced Cleo AI refund
+distribution of 2,124,796 PayPal payments totaling more than $15.8 million;
+because the announced payment date is October 27, 2026, distribution and
+consumer receipt remain separate stages.
 The NYC follow-up now adds an October 1 citywide AI enforcement policy and an
 October 5 employee-impact reporting proposal covering displacement, salary
 changes, and new training. These close additional public-accountability stages

@@ -14,7 +14,12 @@ OpenAI/Statsig DOJ recruitment settlement with potential back pay, access
 restoration, tracking controls, and oversight. Next: seek the worker/customer
 follow-through—complaint or claimant identification, correction or payment
 receipt, repeat contact or later employment, and exit or retention—without
-converting a remedy design into an outcome. The NYC follow-up also shows a
+converting a remedy design into an outcome. The FTC's announced Cleo AI refund
+route adds a third consumer episode: 2,124,796 planned PayPal payments totaling
+more than $15.8 million, with a 30-day acceptance window. Because the announced
+payment date is October 27, the next pass must separate notification, delivery,
+acceptance, return, account correction, and later financial outcome. The NYC
+follow-up also shows a
 public-accountability route: an October 1 enforcement policy and an October 5
 committee-heard employee-impact reporting proposal, both still short of a
 tool-level exposure or worker-outcome dataset. Two additional committee-stage

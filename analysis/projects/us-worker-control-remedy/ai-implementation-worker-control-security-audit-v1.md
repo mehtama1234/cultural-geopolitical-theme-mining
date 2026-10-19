@@ -84,6 +84,7 @@ claiming one pooled effect:
 | Bargaining and exit | The NBER outside-option experiment finds access to a competing platform nearly doubled drivers' labor-supply elasticity to Uber and lowered the implied markdown from about 68% to 50% | Competition can create leverage even without formal representation | Net earnings, safety, hours stability, benefits, durability, and household security |
 | Public accountability | NYC's October 1, 2026 joint enforcement policy says AI reliance does not remove responsibility under city law; Int. No. 161-2026 was heard and laid over on October 5 while proposing reporting on displacement, salary changes, and new training | A public institution can make accountability and measurement part of the implementation chain | No published tool inventory, employee count, investigation, correction, compensation, training completion, or worker outcome is yet established |
 | Complaint and consumer oversight | NYC Int. 919 proposes a DCWP AI oversight office and complaint portal; Int. 1101 proposes investigation of AI complaints and a complainant share of recovered proceeds; both remain proposals | The consumer route is being designed around intake, referral, investigation, and possible recovery rather than AI disclosure alone | No enacted office, operating portal, complaint volume, investigation, recovery, or claimant receipt is established |
+| AI consumer refund route | The FTC announced that starting October 27, 2026 it would send 2,124,796 PayPal payments totaling more than $15.8 million to eligible consumers who paid Cleo AI for cash advances; recipients were told to accept payments within 30 days | A named AI-finance consumer case has a public distribution count, amount, payment channel, eligibility communication, and acceptance deadline | The announcement precedes the payment date; it does not yet show delivered, accepted, returned, unresolved, or account-corrected payments, or whether the remedy prevented repeat exposure or restored trust |
 
 The U.S. industrial question is therefore not simply whether firms adopt AI. It
 is whether implementation changes the worker's feasible option set: usable
@@ -99,17 +100,21 @@ they are not substituted for U.S. industrial or consumer outcome evidence.
 
 ## Named U.S. implementation and remedy episodes
 
-Two U.S. cases make the open middle more concrete:
+Three U.S. cases make the open middle more concrete:
 
 | Episode | Dated implementation/remedy evidence | What it closes | What it does not close |
 |---|---|---|---|
 | Meal-delivery customer service, randomized field experiment, December 2020–November 2021 | 138 agents and 256,934 chats; AI response suggestions reduced response time 22% and increased measured sentiment 0.45 points on a five-point scale; effects were larger for less-experienced agents, but repeat complaints and prior chatbot failures remained weak points | A firm can deploy AI assistance and measure worker-facing speed plus customer interaction outcomes; systemic complaints can remain outside the tool's capability | Customer identity across later contacts, refund/correction, retention, switching, agent pay, workload, authority, or household welfare |
 | OpenAI/Statsig U.S. PERM recruitment settlement, June 2023–August 2026 | DOJ identified five OpenAI and one Statsig recruitment episodes involving a mail-only application burden for U.S. workers; the settlement requires $1.2m to Treasury, $2m reserved for potential back pay, electronic/external posting and tracking controls, semiannual reports, and three years of IER oversight | A named AI-sector recruitment channel can be linked to an official remedy design with access restoration and monitoring obligations | Number of affected or qualified workers, individual back-pay receipt, restored opportunity, implementation compliance, later hiring, trust, or exit; the agreement is not an admission of liability and does not prove AI caused the channel design |
+| Cleo AI cash-advance refund distribution, October 2026 | FTC announced 2,124,796 PayPal payments totaling more than $15.8m, with eligibility emails before October 27 and a 30-day acceptance window; the underlying case alleged promised cash advances were often not delivered as advertised and cancellation was difficult | The consumer remedy has a named administrator, payment count, total value, channel, and acceptance procedure | The payment plan is not observed receipt; later acceptance, return, account correction, repeat borrowing, financial recovery, and trust remain open |
 
 These episodes sharpen the conversion gap. In the customer case, AI improved
 the interaction while the underlying service problem could persist. In the
 recruitment case, a formal remedy specifies the channel and oversight needed
 to restore access, but public records do not yet show the worker-level result.
+In the Cleo case, even a precisely counted refund distribution still has to be
+accepted by the consumer and connected to account correction or later financial
+outcomes.
 The evidence therefore supports a practical rule for future acquisitions:
 record the system's immediate metric, the affected person's usable remedy, and
 the later outcome as separate fields.
@@ -141,13 +146,15 @@ The next high-value record is one same-worker or same-workplace episode with:
 5. outside alternatives, bargaining, continued work, or switching; and
 6. later earnings, job quality, recurrence, trust, and exit.
 
-The highest-value acquisition now is a follow-up record for one of the named
-U.S. episodes: customer complaint -> agent/system response -> correction or
-refund -> repeat contact or exit, or recruitment barrier -> claimant
-identification -> back-pay decision -> receipt -> later employment. If that
-record cannot be lawfully obtained, preserve the stage comparison and seek a
-bounded workplace or platform episode rather than infer durable control from
-aggregate adoption or expectations.
+The highest-value acquisition now includes three follow-up routes: customer
+complaint -> agent/system response -> correction or refund -> repeat contact or
+exit; recruitment barrier -> claimant identification -> back-pay decision ->
+receipt -> later employment; or Cleo eligibility -> notification -> PayPal
+delivery -> acceptance/return -> account correction -> later borrowing,
+cancellation, repeat exposure, or trust. If a same-person record cannot be
+lawfully obtained, preserve the stage comparison and seek a bounded workplace,
+platform, or consumer-remedy episode rather than infer durable control from
+aggregate adoption or announced distributions.
 
 ## Deeper question
 
@@ -175,6 +182,8 @@ remains active.
 - [ACCA global talent trends](../../records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json)
 - [HBS customer-service AI experiment](../../records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json)
 - [DOJ OpenAI/Statsig recruitment settlement](../../records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json)
+- [FTC Cleo AI refund program](https://search.ftc.gov/enforcement/refunds/cleo-ai-refunds)
+- [FTC Cleo AI refund press release](https://search.ftc.gov/news-events/news/press-releases/2026/10/ftc-returns-more-158-million-consumers-misled-cash-advance-app-company-cleo-ai)
 - [NYC Local Law 25 algorithmic-work study and implementation recheck](../../records/us-nyc-local-law-25-algorithmic-work-study-2026.json)
 - [ILO work discussion](../../social-discussions/records/ai-work-control-005.json)
 - [AI hiring discussion](../../social-discussions/records/atlas-acca-ai-hiring-linkedin-001.json)
