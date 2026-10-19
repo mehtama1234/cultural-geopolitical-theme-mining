@@ -1,6 +1,6 @@
 # Finding 132: Transmission finance can be closed before customer savings and reliability are realized
 
-**Status:** bounded infrastructure-finance and customer-incidence finding · **Checked:** 2026-09-21
+**Status:** bounded infrastructure-finance and customer-incidence finding · **Checked:** 2026-10-18
 
 ## The finding
 
@@ -9,13 +9,17 @@ closed for AEP Texas. The portfolio covers roughly 2,800 miles of transmission
 rebuilds, reconductoring, and new construction. DOE says the projects are
 expected to increase carrying capacity by 100%, reduce interruptions, and
 produce about $685 million in electricity-cost savings over 30 years for 1.1
-million customers. Those are meaningful implementation and forecast stages, not
-observed customer outcomes.
+million customers. Those are meaningful financing and forecast stages, not
+observed customer outcomes. DOE's environmental-review page lists completed
+reviews for named AEP Texas projects on September 1, September 4, and October 1,
+2026. That moves some projects beyond financing into review completion, but it
+still does not show construction completion, energized lines, lower
+interruptions, or a bill change for a named customer.
 
 ```text
 large-load and reliability pressure
   -> federal financing and project portfolio
-  -> construction and increased carrying capacity [future/partial]
+  -> project review and construction [review completion; build/energization open]
   -> operating reliability and cost allocation
   -> retail bill effect, local burden, customer benefit, and durable service [open]
 ```
@@ -44,17 +48,24 @@ distributed household outcome.
   interruption reduction, or equal benefit.
 - The loan and projected jobs do not establish local employment, land burden,
   affordability, or geopolitical leverage.
+- Environmental-review completion is an administrative milestone. It is not
+  proof that a line was built, energized, used, or beneficial to the customers
+  named in the forecast.
 
 ## Next decisive test
 
 Follow the portfolio through line-level construction and operation, outage and
 reliability measures, rate-case cost allocation, customer bills, local impacts,
 and later durability. Preserve forecast, system average, customer class, and
-household measures as separate units.
+household measures as separate units. The next decisive record is a named
+project's construction or energization milestone paired with a regulator or
+utility record showing how costs and reliability changes reach customer classes.
 
 ## Source
 
 [DOE: AEP Texas Energy Dominance Financing Program project](https://www.energy.gov/edf/aep-texas)
+
+[DOE: AEP environmental-review completion list](https://www.energy.gov/edf/american-electric-power-environmental-reviews)
 
 [Machine-readable trend record](../../../records/us-doe-aep-texas-transmission-loan-customer-savings-2026.json)
 

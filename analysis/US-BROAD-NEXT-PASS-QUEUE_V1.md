@@ -187,12 +187,16 @@ household affordability, and public legitimacy audit](projects/cross-domain/ener
 joins IEA investment and household-cost evidence, World Energy Council integration
 constraints, Ipsos and Eurobarometer attitudes, EIA household framing, Census
 SIPP financial-room and food-sacrifice screens, extreme-heat exposure, Solar for
-All, and bounded LinkedIn discussion. The evidence supports a capital-to-household
-conversion gap: electricity investment, AI demand, and clean-energy policy do not
-automatically become affordable, reliable, controllable household service or
-durable legitimacy. Next: follow one place or program through eligibility,
-connection, monthly bill, outage/cooling exposure, household tradeoff,
-continuation, and remedy, while tracing who pays for large-load grid upgrades.
+All, the U.S. DOE AEP Texas transmission loan and September–October environmental-
+review completions, and bounded LinkedIn discussion. The evidence supports a
+capital-to-household conversion gap: electricity investment, AI demand, and
+clean-energy policy do not automatically become affordable, reliable,
+controllable household service or durable legitimacy. Next: follow a named AEP
+project or comparable U.S. utility line from review into construction and
+energization, then pair a regulator or utility cost-allocation record with
+customer-class bills, outage measures, and household affordability; if those
+records remain unavailable, record the missing link and rotate to the next
+highest-learning U.S. industrial or consumer chain.
 
 **Latest water-infrastructure rotation — 2026-10-18:** the [water
 infrastructure, funding access, household service, and health audit](projects/cross-domain/water-infrastructure-funding-household-service-audit-v1.md)
