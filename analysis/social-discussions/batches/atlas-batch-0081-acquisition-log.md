@@ -68,6 +68,10 @@ on YouTube, Reddit, or X where the platform-specific search was completed.
 Older Reddit minimum-wage discussions were excluded because they predated the
 batch window and did not identify the NBER paper.
 
+Further LinkedIn gaps were recorded for the monopsony, overtime, California
+nursing-home threshold, and US multinational tax-planning records. Search
+results were adjacent or generic and were not promoted to evidence.
+
 ## Reproducibility and limits
 
 This was public-web discovery, not a platform-native Creator/API export.
