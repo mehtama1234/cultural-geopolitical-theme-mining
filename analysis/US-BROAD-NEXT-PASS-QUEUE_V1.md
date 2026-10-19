@@ -77,6 +77,14 @@ buyers with 5.3% lower income, more FHA financing, and older ages. Next: link
 disclosure to insurance, mortgage stress, repair, flood loss, safe occupancy,
 and later mobility; do not treat a lower price as protection or a buyer's
 sorting as freely chosen risk acceptance.
+The NBER household-level flood-risk and insurance study adds a counterexample:
+the share of households exposed remained stable from 1999 to 2023, with
+essentially no net migration to risky parcels, and households in floodplains
+were reported as increasingly protected overall. Next: separate this aggregate
+and household-level pattern from the vulnerable low-income uninsured homeowner
+group, then seek premium, renewal, claim, repair, safe-occupancy, and mobility
+records; do not treat stable exposure or reported protection as completed
+recovery.
 
 **Latest U.S. consumer-health rotation — 2026-10-18:** the [AI health
 navigation, trust, control, and continuity audit](projects/cross-domain/ai-health-navigation-trust-control-audit-v1.md)
@@ -405,9 +413,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1978 machine-readable records and 5944
-observations. The trend registry holds 1978 records and
-5944 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1979 machine-readable records and 5945
+observations. The trend registry holds 1979 records and
+5945 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 **Latest Brazil Pix-conversion rotation — 2026-09-30:** the [BCB payment-habits record](records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json) finds cash falling from 76.6% of diary-recorded payments in 2019 to 40.5% in 2023, while Pix reached 24.9%. Yet 17.3% had not used Pix in the prior year, and 37.3% of nonusers cited lack of knowledge. Infrastructure can move faster than consumer capability.

@@ -193,6 +193,15 @@ attracted buyers with 5.3% lower income, more FHA financing, and older ages.
 This shows information changing price and buyer composition, not insurance,
 repair, safe occupancy, or durable household protection.
 
+The NBER household-level flood-risk study adds a counterexample: from 1999 to
+2023, people exposed to flood risk increased but the share of households
+exposed remained stable, with essentially no net migration to risky parcels.
+It reports households in floodplains as less disadvantaged and increasingly
+protected overall, while a vulnerable low-income uninsured homeowner group
+remains. This sharpens rather than closes the chain: aggregate exposure,
+household composition, insurance coverage, and post-flood recovery are separate
+stages.
+
 The newest capability-to-leverage depth artifact is the [semiconductor control,
 domestic realization, and replaceability audit](projects/cross-domain/semiconductor-control-domestic-realization-replaceability-audit-v1.md).
 It compares TSMC Arizona production and planned capacity with export-control
@@ -495,8 +504,8 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 1978 machine-readable records, 5944 observations,
-The registry contains 1975 `us-trend-observation-record-v1` records plus 2
+**Current registry state:** 1979 machine-readable records, 5945 observations,
+The registry contains 1977 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
 currently has 2779 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
@@ -2507,7 +2516,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1978 trend records and 5944 observations pass the
+the current checkpoint: 1979 trend records and 5945 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

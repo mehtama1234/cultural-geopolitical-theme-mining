@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-flood-risk-insurance-household-exposure-2026",
+  "title": "Household-level flood exposure is not the same as aggregate floodplain disadvantage",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 35204; confidential linked U.S. Census survey and administrative data with parcel-level flood risk and insurance coverage measures",
+  "geography": "United States households, housing parcels, and floodplains; 1999–2023 exposure trend and household-level comparisons",
+  "observations": [{
+    "period": "1999–2023 household and parcel flood-risk exposure; paper issued May 2026",
+    "denominator": {"value": null, "unit": "confidential linked Census survey and administrative microdata infrastructure; public abstract does not disclose a row count", "value_type": "not_disclosed"},
+    "measures": {
+      "people_exposed": {"value": "the total number of people exposed to flood risk increased from 1999 to 2023", "unit": "population trend", "value_type": "reported_trend"},
+      "household_share": {"value": "the share of households exposed to flood risk remained stable because migration flows between risky and non-risky homes largely offset", "unit": "share of households over time", "value_type": "reported_trend"},
+      "parcel_migration": {"value": "there was essentially no net migration to parcels with flood risk", "unit": "net household migration to risky parcels", "value_type": "reported_null"},
+      "income_gradient": {"value": "the income gradient in flood exposure was slightly negative through the bottom 90 percentiles but was outweighed by disproportionate exposure in the top income decile, especially for multiple property owners", "unit": "household income percentile comparison", "value_type": "reported_comparison"},
+      "insurance_protection": {"value": "households in floodplains appeared less disadvantaged and increasingly protected from flood impacts, while a vulnerable subpopulation of low-income uninsured homeowners remained", "unit": "household exposure and insurance comparison", "value_type": "reported_comparison"},
+      "building_and_tenure": {"value": "building type and homeownership within narrow income groups explain much of the nonlinear exposure pattern", "unit": "household and property composition mechanism", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors combine parcel-level flood risk with confidential linked Census survey and administrative data to measure household exposure, migration, income gradients, building and tenure characteristics, and insurance coverage at the housing-unit level over time.",
+    "uncertainty": "The public abstract does not disclose the analytic row count or follow a named household through disclosure, premium, renewal, claim, repair, safe occupancy, mortgage stress, or later move. Increasing protection is a study-level comparison, not proof that every household was insured or recovered after a flood.",
+    "subgroup": "U.S. households and homeowners/renters located in or outside floodplains, separated by income, building type, homeownership, multiple-property ownership, and insurance status; low-income uninsured homeowners remain a distinct vulnerable subgroup.",
+    "counterinterpretation": "Stable household exposure can hide turnover, repeated exposure, or changes in who owns and insures a parcel. A higher-income household or multiple-property owner may account for a large share of exposure without facing the same vulnerability as a low-income uninsured homeowner. Apparent protection may reflect building type, tenure, insurance selection, or adaptation that does not guarantee adequate coverage or post-flood recovery.",
+    "source_url": "https://www.nber.org/papers/w35204",
+    "retrieval_hash": "sha256:240ef20b1fc9fe93b195a70b9b58ddce23d8e39a1c0a84901ec4937a1cfe7fdf",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35204", "claim": "NBER DOI record for Working Paper 35204", "status": "official-paper-identifier"}, {"source_url": "https://www.nber.org/system/files/chapters/c15407/c15407.pdf", "claim": "NBER chapter PDF for the linked household-level flood-risk and insurance study", "status": "official-paper-file"}],
+  "boundary": "This record adds a household-level exposure and insurance comparator to the housing chain. It does not establish that flood-risk disclosure caused migration, that insurance is adequate, or that protection produced safe occupancy, repair, affordability, or durable household security."
+}
