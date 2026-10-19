@@ -86,6 +86,15 @@ group, then seek premium, renewal, claim, repair, safe-occupancy, and mobility
 records; do not treat stable exposure or reported protection as completed
 recovery.
 
+The HBS AI automation-acceptance survey adds a U.S. industrial/consumer stage:
+2,357 respondents evaluated 940 occupations, supporting automation for roughly
+30% with current AI and about 58% when advanced AI was stipulated to outperform
+humans at lower cost, while 94% favored augmentation. Next: connect this stated
+human-touch boundary to a named U.S. firm's deployment explanation, worker
+review and training, customer service quality, correction, and switching; do
+not treat hypothetical acceptance as adoption, displacement, productivity, or
+trust.
+
 **Latest U.S. consumer-health rotation — 2026-10-18:** the [AI health
 navigation, trust, control, and continuity audit](projects/cross-domain/ai-health-navigation-trust-control-audit-v1.md)
 now joins Pew, GAO, Ipsos, WHO, and PwC evidence with the FTC Hims & Hers
@@ -413,9 +422,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1979 machine-readable records and 5945
-observations. The trend registry holds 1979 records and
-5945 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1980 machine-readable records and 5946
+observations. The trend registry holds 1980 records and
+5946 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 **Latest Brazil Pix-conversion rotation — 2026-09-30:** the [BCB payment-habits record](records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json) finds cash falling from 76.6% of diary-recorded payments in 2019 to 40.5% in 2023, while Pix reached 24.9%. Yet 17.3% had not used Pix in the prior year, and 37.3% of nonusers cited lack of knowledge. Infrastructure can move faster than consumer capability.

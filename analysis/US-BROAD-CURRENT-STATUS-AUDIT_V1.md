@@ -202,6 +202,13 @@ remains. This sharpens rather than closes the chain: aggregate exposure,
 household composition, insurance coverage, and post-flood recovery are separate
 stages.
 
+The HBS AI automation-acceptance survey adds a U.S. industrial/consumer
+acceptance stage: 2,357 respondents evaluated 940 occupations, supporting
+automation for roughly 30% with current AI and about 58% when advanced AI was
+stipulated to outperform humans at lower cost, while 94% favored augmentation.
+This shows a human-touch boundary around replacement, not actual deployment,
+worker displacement, customer behavior, or durable trust.
+
 The newest capability-to-leverage depth artifact is the [semiconductor control,
 domestic realization, and replaceability audit](projects/cross-domain/semiconductor-control-domestic-realization-replaceability-audit-v1.md).
 It compares TSMC Arizona production and planned capacity with export-control
@@ -504,7 +511,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 1979 machine-readable records, 5945 observations,
+**Current registry state:** 1980 machine-readable records, 5946 observations,
 The registry contains 1977 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2516,7 +2523,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1979 trend records and 5945 observations pass the
+the current checkpoint: 1980 trend records and 5946 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

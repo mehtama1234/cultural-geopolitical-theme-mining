@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1979 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1980 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -5893,6 +5893,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | A year after Hurricane Harvey, recovery disruption and doubts about aid distribution remained concentrated among affected residents | cost, voice, time | unequal_exposure_status, public_systems_feedback, political_judgment_action, trust_identity_meaning, household_room_consumption, housing_place_mobility, care_health_reproduction | KFF/Episcopal Health Foundation weighted survey of adults in 24 heavily impacted Texas Gulf Coast counties, fielded late June through late July 2018; follow-up about 10–11 months after Harvey | United States; 24 Texas Gulf Coast counties containing about 94% of the population in 41 declared disaster counties | 1 | June–July 2018, approximately one year after Hurricane Harvey | estimated | [open](records/us-harvey-recovery-aid-legitimacy-2018.json) |
 
 **Boundary:** This record closes a descriptive exposure-to-recovery-judgment arrow for a defined Texas Gulf Coast population after Harvey. It does not establish a causal effect of aid, firm survival, customer access, political participation, trust change, or general disaster legitimacy.
+
+| U.S. respondents accept AI assistance more readily than full replacement of human work | work, voice, cost, time | work_control_bargaining, consumer_power_recourse, trust_identity_meaning, firm_sector_market_power, platforms_data_attention, unequal_exposure_status | Harvard Business School Working Paper 26-017 and HBS Working Knowledge summary; survey of 2,357 U.S. respondents evaluating 940 occupations | United States adult population-matched survey; respondents matched the U.S. adult population on age, gender, ethnicity, and political affiliation | 1 | Survey reported in HBS Working Knowledge, February 2026; working paper released October 2025 | reported | [open](records/us-hbs-ai-automation-acceptance-human-touch-2026.json) |
+
+**Boundary:** This record adds a U.S. acceptance and human-touch stage between technical capability and firm or consumer implementation. It does not establish actual adoption, worker outcomes, customer behavior, safety, fairness, productivity, or durable trust.
 
 | AI can improve customer-service speed and sentiment while failing to repair systemic complaints | voice, work, cost | platforms_data_attention, consumer_power_recourse, work_control_bargaining, firm_sector_market_power, trust_identity_meaning, public_systems_feedback | Randomized field experiment at an unnamed meal-delivery company; 138 customer-service agents and 256,934 online chat conversations, with separate conversation-type and chatbot-handoff comparisons | Company customer-service operations; geography and customer demographic coverage are not fully disclosed in the public article summary | 2 | December 2020-November 2021; AI suggestions for customer-service agents; 2020-2021; customer intent and chatbot-to-human handoff comparisons | reported | [open](records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json) |
 

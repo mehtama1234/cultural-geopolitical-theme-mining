@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-hbs-ai-automation-acceptance-human-touch-2026",
+  "title": "U.S. respondents accept AI assistance more readily than full replacement of human work",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "trust_identity_meaning", "firm_sector_market_power", "platforms_data_attention", "unequal_exposure_status"],
+  "source_unit": "Harvard Business School Working Paper 26-017 and HBS Working Knowledge summary; survey of 2,357 U.S. respondents evaluating 940 occupations",
+  "geography": "United States adult population-matched survey; respondents matched the U.S. adult population on age, gender, ethnicity, and political affiliation",
+  "observations": [{
+    "period": "Survey reported in HBS Working Knowledge, February 2026; working paper released October 2025",
+    "denominator": {"value": 2357, "unit": "U.S. survey respondents evaluating 940 occupations", "value_type": "reported_sample"},
+    "measures": {
+      "current_capability_replacement": {"value": "respondents supported automating roughly 30% of occupations using current AI capabilities", "unit": "share of 940 occupations supported for automation", "value_type": "reported_share_approximate"},
+      "advanced_capability_replacement": {"value": "support for automation rose to about 58% of occupations when AI was described as outperforming humans at lower cost", "unit": "share of occupations under hypothetical advanced capability", "value_type": "reported_share_approximate"},
+      "augmentation": {"value": "94% favored using current AI to augment human work, rising to nearly 96% for the advanced-AI scenario", "unit": "share of respondents", "value_type": "reported_share_approximate"},
+      "ambivalent_boundary": {"value": "respondents were ambivalent about automating nearly 42% of professions and morally opposed to automating about 12%", "unit": "share of occupations/professions", "value_type": "reported_share_approximate"},
+      "human_touch": {"value": "the HBS summary reports that resistance reflects both technical feasibility and social or moral boundaries, with some roles and customer-facing sectors retaining a valued human touch", "unit": "survey interpretation and firm-demand implication", "value_type": "reported_interpretation"}
+    },
+    "method": "A U.S. survey asked respondents to evaluate whether AI should automate or augment work across 940 occupations under current-capability and advanced-capability scenarios; the published summary reports demographic matching to the U.S. adult population.",
+    "uncertainty": "This is stated hypothetical acceptance, not observed firm deployment, customer purchasing, worker displacement, productivity, pay, service quality, or later political action. The public summary does not provide the full item-level questionnaire, occupation-level estimates, weighting details, or subgroup standard errors in the bounded extraction.",
+    "subgroup": "U.S. adult respondents matched on age, gender, ethnicity, and political affiliation; acceptance may differ by respondent occupation, income, education, industry, personal exposure, customer role, and whether the respondent evaluates their own work.",
+    "counterinterpretation": "A respondent may support augmentation in principle while rejecting a particular deployment, or approve replacement when performance improves while opposing it when identity, care, safety, craft, or trust is involved. Hypothetical approval can rise when capability is stipulated without showing that firms can implement the system safely or that workers and customers receive the gains.",
+    "source_url": "https://www.library.hbs.edu/working-knowledge/riley-performance-resistance-2026",
+    "retrieval_hash": "sha256:a7cfb99e1d481f2c48348dd03c5eeaeefd3827f6e9b9487c5b62e1efad1ad36b",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=68008", "claim": "HBS Working Paper 26-017, Performance or Principle: Resistance to Artificial Intelligence in the U.S. Labor Market", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a U.S. acceptance and human-touch stage between technical capability and firm or consumer implementation. It does not establish actual adoption, worker outcomes, customer behavior, safety, fairness, productivity, or durable trust."
+}

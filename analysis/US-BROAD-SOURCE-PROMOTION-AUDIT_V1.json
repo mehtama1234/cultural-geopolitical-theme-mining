@@ -22,15 +22,15 @@
     "analysis/US-BROAD-PUBLIC-SYSTEMS-SOURCE-LED-SUBTHEME-MAP_V1.md",
     "analysis/US-BROAD-EXTERNAL-DATA-FIRST-PASS_2026-09-25.md"
   ],
-  "total_records": 1979,
+  "total_records": 1980,
   "directly_promoted_record_count": 1599,
   "themes": [
     {
       "theme_id": "unequal_exposure_status",
       "theme": "Unequal exposure and status",
-      "records": 1722,
+      "records": 1723,
       "directly_promoted_records": 1401,
-      "not_directly_named": 321
+      "not_directly_named": 322
     },
     {
       "theme_id": "household_room_consumption",
@@ -49,9 +49,9 @@
     {
       "theme_id": "trust_identity_meaning",
       "theme": "Trust, identity, and cultural meaning",
-      "records": 1220,
+      "records": 1221,
       "directly_promoted_records": 1008,
-      "not_directly_named": 212
+      "not_directly_named": 213
     },
     {
       "theme_id": "political_judgment_action",
@@ -70,16 +70,16 @@
     {
       "theme_id": "work_control_bargaining",
       "theme": "Work, control, and bargaining",
-      "records": 684,
+      "records": 685,
       "directly_promoted_records": 549,
-      "not_directly_named": 135
+      "not_directly_named": 136
     },
     {
       "theme_id": "firm_sector_market_power",
       "theme": "Firm, sector, and market power",
-      "records": 710,
+      "records": 711,
       "directly_promoted_records": 579,
-      "not_directly_named": 131
+      "not_directly_named": 132
     },
     {
       "theme_id": "care_health_reproduction",
@@ -98,9 +98,9 @@
     {
       "theme_id": "consumer_power_recourse",
       "theme": "Consumer power and recourse",
-      "records": 359,
+      "records": 360,
       "directly_promoted_records": 276,
-      "not_directly_named": 83
+      "not_directly_named": 84
     },
     {
       "theme_id": "housing_place_mobility",
@@ -110,18 +110,18 @@
       "not_directly_named": 79
     },
     {
+      "theme_id": "platforms_data_attention",
+      "theme": "Platforms, data, and attention",
+      "records": 368,
+      "directly_promoted_records": 303,
+      "not_directly_named": 65
+    },
+    {
       "theme_id": "time_hidden_price",
       "theme": "Time as a hidden price",
       "records": 364,
       "directly_promoted_records": 299,
       "not_directly_named": 65
-    },
-    {
-      "theme_id": "platforms_data_attention",
-      "theme": "Platforms, data, and attention",
-      "records": 367,
-      "directly_promoted_records": 303,
-      "not_directly_named": 64
     }
   ],
   "low_density_theme_candidates": {

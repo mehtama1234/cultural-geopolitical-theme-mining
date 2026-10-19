@@ -35,6 +35,7 @@ AI access or organizational adoption
 | [NBER AI deployment and sales-per-worker paper](https://www.nber.org/papers/w35684), U.S. firm-level AI-skilled employment-share growth and job-description-based organization-capital measures, 2018–2024 compared with the prior eight years | AI investment was associated with productivity growth in recent years but not the prior decade; the featured summary reports that a one-standard-deviation increase in AI-skilled employment-share growth was associated with 6.2 percentage points greater sales-per-worker growth in 2018–2024 | Firm performance can move alongside AI-skilled workforce expansion, with organization capital as a proposed internal mechanism between hiring and output | The paper makes firm heterogeneity, timing, and organizational learning observable; it does not show that AI caused the gain or that workers received it | Firm-level association and constructed job-description measures do not establish worker pay, job quality, control, household security, or equal access; selection into AI-skilled expansion remains open |
 | [NBER firm investment and workforce-composition study](https://www.nber.org/papers/w31325), U.S. firms using worker résumés and job postings, 2010s–2020s | AI-investing firms had higher shares of highly educated and STEM workers, more IT and analysis specialization, more junior workers, and fewer middle-management and senior workers | The workforce and hierarchy can change alongside AI investment, adding a composition and organizational-design stage between firm capability and worker control | This is a U.S. comparator for the mechanism: AI investment is associated with workforce reorganization, not only output | The study does not establish causal worker welfare, pay, hours, training access, voice, workload, or whether junior-worker growth reflects opportunity or insecurity |
 | [NBER job-mobility and unemployment-risk study](https://www.nber.org/papers/w35580), custom representative survey of employed U.S. workers, 2026 | Workers required an average **1.63% pay increase for each additional percentage point of annual unemployment risk** in a new job | Workers price security into job mobility; a productivity or AI opportunity that carries layoff risk may not be attractive without compensation or protection | This adds a worker-side reservation-value stage between firm reorganization and actual mobility | Survey-elicited wage-safety indifference is not observed job switching, realized unemployment, bargaining power, or household recovery; the average may hide differences by liquidity, occupation, and risk exposure |
+| [HBS AI automation-acceptance survey](../../records/us-hbs-ai-automation-acceptance-human-touch-2026.json), 2,357 U.S. respondents evaluating 940 occupations | Respondents supported automating roughly 30% of occupations with current AI and about 58% when advanced AI was stipulated to outperform humans at lower cost; 94% favored current AI augmentation, rising to nearly 96% in the advanced scenario | Acceptance is much stronger for assistance than replacement, while about 42% of professions remained ambivalent and about 12% elicited moral opposition | Technical capability and lower cost do not by themselves settle the social or customer-facing boundary around human work | Hypothetical survey judgments are not deployment, worker displacement, customer behavior, productivity, or durable trust; the public summary does not provide full item-level estimates or subgroup errors |
 | [ACCA professional survey](../../records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json), global accountancy/finance professionals, 2026 | 52% regularly used AI; 31% reported organizational AI-agent deployment; 93% of LinkedIn recruiters planned to increase AI use in hiring | 48% were not confident in AI recruitment versus 43% confident; 75% preferred hybrid work, 58% believed office presence affected promotion, and 43% of Gen Y would consider leaving after substantially more office time | Worker control includes human judgment, work-location choice, promotion visibility, and credible support—not only training | Self-report, profession-specific and non-representative; confidence, preference, and intention are not observed turnover or job quality |
 
 ## What this connects to
@@ -101,6 +102,17 @@ not automatically produce worker movement or acceptance: a new AI-linked role
 can raise productivity while also changing perceived downside risk. The result
 is a stated preference, not proof that firms paid the premium or that workers
 could find a safer alternative.
+
+Acceptance is another separate clock. The [HBS AI automation-acceptance
+survey](../../records/us-hbs-ai-automation-acceptance-human-touch-2026.json)
+reports that U.S. respondents supported automating roughly 30% of occupations
+with current AI, rising to about 58% when advanced capability and lower cost
+were stipulated; 94% favored augmentation with current AI. The gap matters for
+both firms and consumers: people may welcome assistance while preserving a
+human boundary around care, craft, trust, safety, or identity. These are
+hypothetical judgments, not deployment, job loss, service quality, or customer
+switching. The next test is whether a named U.S. firm explains its AI role,
+preserves meaningful review, and shows worker or customer outcomes.
 
 ## Bounded public discussion
 
@@ -238,6 +250,7 @@ remains active.
 - [NBER firm investment and workforce-composition study, W31325](https://www.nber.org/papers/w31325)
 - [NBER job-mobility and unemployment-risk study, W35580](https://www.nber.org/papers/w35580)
 - [HBS customer-service AI experiment](../../records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json)
+- [HBS AI automation-acceptance survey](../../records/us-hbs-ai-automation-acceptance-human-touch-2026.json)
 - [DOJ OpenAI/Statsig recruitment settlement](../../records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json)
 - [FTC Cleo AI refund program](https://search.ftc.gov/enforcement/refunds/cleo-ai-refunds)
 - [FTC Cleo AI refund press release](https://search.ftc.gov/news-events/news/press-releases/2026/10/ftc-returns-more-158-million-consumers-misled-cash-advance-app-company-cleo-ai)

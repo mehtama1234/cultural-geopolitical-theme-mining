@@ -4,26 +4,26 @@
 
 This is a routing control, not an evidence-quality, importance, or omission score. A record not directly named here can still be represented indirectly by a project finding or cross-source bridge. Direct promotion means its exact trend ID appears in the [central synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [societal subtheme register](US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md), [broad theme map](US-BROAD-THEME-SUBTHEME-MAP_V1.md), or one of the [source-led subtheme maps](US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md).
 
-The current corpus has **1979 records**; **1599** are directly named in at least one of those reader documents.
+The current corpus has **1980 records**; **1599** are directly named in at least one of those reader documents.
 
 ## Direct-ID promotion by theme
 
 | Theme | Corpus records | Directly named | Not directly named |
 |---|---:|---:|---:|
-| Unequal exposure and status | 1722 | 1401 | 321 |
+| Unequal exposure and status | 1723 | 1401 | 322 |
 | Household room and consumption | 1216 | 964 | 252 |
 | Public systems and policy feedback | 1457 | 1221 | 236 |
-| Trust, identity, and cultural meaning | 1220 | 1008 | 212 |
+| Trust, identity, and cultural meaning | 1221 | 1008 | 213 |
 | Political judgment and collective action | 777 | 625 | 152 |
 | Infrastructure, technology, and dependency | 781 | 632 | 149 |
-| Work, control, and bargaining | 684 | 549 | 135 |
-| Firm, sector, and market power | 710 | 579 | 131 |
+| Work, control, and bargaining | 685 | 549 | 136 |
+| Firm, sector, and market power | 711 | 579 | 132 |
 | Care, health, and social reproduction | 639 | 509 | 130 |
 | Geopolitical and state consequences | 589 | 501 | 88 |
-| Consumer power and recourse | 359 | 276 | 83 |
+| Consumer power and recourse | 360 | 276 | 84 |
 | Housing, place, and mobility | 455 | 376 | 79 |
+| Platforms, data, and attention | 368 | 303 | 65 |
 | Time as a hidden price | 364 | 299 | 65 |
-| Platforms, data, and attention | 367 | 303 | 64 |
 
 ## Candidate pool for the four lowest-density theme surfaces
 
