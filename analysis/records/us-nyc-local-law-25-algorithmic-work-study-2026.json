@@ -74,6 +74,22 @@
       "source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=34B70F41-7D60-4866-9434-7EB17E68661C&ID=7861810",
       "retrieval_hash": "sha256:a75e63f0484d22fee3575732d2cfaae0e76c8ce6557dd73967946bebc7272198",
       "status": "reported"
+    },
+    {
+      "period": "2026-05-20 and 2026-10-08 introductions; public committee-stage AI complaint architecture",
+      "denominator": {"value": 2, "unit": "New York City proposals: Int. No. 919-2026 and Int. No. 1101-2026", "value_type": "institutional_case_count"},
+      "measures": {
+        "proposed_consumer_oversight": {"value": "Int. 919 proposes a DCWP office with an online AI complaint portal, review/referral, consumer advisories, and recommended rules", "unit": "proposed institutional route", "value_type": "reported_proposal"},
+        "proposed_civilian_enforcement": {"value": "Int. 1101 proposes investigation of non-frivolous AI complaints and a 25% or 50% share of recovered proceeds for complainants in specified circumstances", "unit": "proposed complaint/remedy incentive", "value_type": "reported_proposal"},
+        "enactment_or_outcome": {"value": "not observed", "unit": "committee-stage proposals; no enacted office, complaint volume, investigation, recovery, or consumer/worker outcome identified", "value_type": "unmeasured"}
+      },
+      "method": "Review of official NYC Council proposal records and text; proposed complaint and incentive mechanisms are kept separate from the existing DCWP complaint intake and from realized enforcement.",
+      "uncertainty": "The proposals may change, fail, or be enacted later; public records do not establish portal operation, complaint counts, investigations, notice of violation, proceeds, or claimant receipt.",
+      "subgroup": "New York City consumers, workers, and complainants alleging AI-related violations; no complaint denominator or affected-person population is published.",
+      "counterinterpretation": "A proposed complaint portal or bounty can increase reporting incentives without improving investigation quality, correction speed, restitution, or durable consumer choice.",
+      "source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=669B5731-411B-40A9-99F2-6AD05E945AE8&ID=8034442",
+      "retrieval_hash": "sha256:1f4b9e5c6a6560a81d87c6662c1c7ec2ebf1f41a3a95ae56bef2a68bfc33ba69",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -81,8 +97,10 @@
     {"source_url": "https://legistar.council.nyc.gov/View.ashx?GUID=2F774383-05BD-4EE8-AAA9-CBA978AA0FAC&ID=15322898&M=F", "claim": "NYC Office of Technology and Innovation testimony reports that the city was in planning stages of implementing Local Law 25 with DCAS and OLR.", "status": "official-implementation-status"},
     {"source_url": "https://home4.nyc.gov/site/dca/about/automated-employment-decision-tools.page", "claim": "NYC DCWP provides the existing AEDT bias-audit, notice, and complaint architecture.", "status": "official-implementation-context"},
     {"source_url": "https://www.nyc.gov/site/dca/news/067-26/dcwp-tlc-cchr-issue-enforcement-policy-on-artificial-intelligence", "claim": "NYC DCWP, TLC, and CCHR issued an October 1, 2026 policy stating that reliance on AI does not remove responsibility under city law.", "status": "official-enforcement-policy"},
-    {"source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=34B70F41-7D60-4866-9434-7EB17E68661C&ID=7861810", "claim": "Int. No. 161-2026 proposes reporting employee displacement, salary changes, and new training associated with algorithmic tools; the October 5, 2026 record shows a hearing and layover, not enactment.", "status": "official-legislative-proposal"}
+    {"source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=34B70F41-7D60-4866-9434-7EB17E68661C&ID=7861810", "claim": "Int. No. 161-2026 proposes reporting employee displacement, salary changes, and new training associated with algorithmic tools; the October 5, 2026 record shows a hearing and layover, not enactment.", "status": "official-legislative-proposal"},
+    {"source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=669B5731-411B-40A9-99F2-6AD05E945AE8&ID=8034442", "claim": "Int. No. 919-2026 proposes an AI oversight office and complaint portal within DCWP.", "status": "official-legislative-proposal"},
+    {"source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?G=2FD004F1-D85B-4588-A648-0A736C77D6E3&GUID=75E3ADBA-51CD-4CF8-B8B7-6A1B9A1F22FE&ID=8239234&Options=&Search=", "claim": "Int. No. 1101-2026 proposes civilian AI complaints, investigation, and a complainant share of recovered proceeds; the public record shows committee status rather than enactment.", "status": "official-legislative-proposal"}
   ],
-  "boundary": "This record advances the AI/work chain from rule and complaint architecture to an enacted municipal measurement mandate, reported planning-stage implementation, a citywide AI enforcement posture, and a proposed employee-impact reporting route. It does not establish study completion, a published report, named employer or tool implementation, worker notice or appeal, decision correction, compensation, workload/pay change, trust, or exit.",
-  "reproduction_audit": {"retrieval_hash_scope": "Certified Local Law 25 PDF and official City Council records were combined with the October 1, 2026 NYC agency enforcement policy and October 5, 2026 legislative-status recheck", "sha256_prior_enactment_source": "sha256:5aca30c589287acfc1c03022f6be8ca57b904f6c78a2c482967fbad962959150", "checked": "2026-10-18"}
+  "boundary": "This record advances the AI/work/consumer chain from rule and complaint architecture to an enacted municipal measurement mandate, reported planning-stage implementation, a citywide AI enforcement posture, proposed employee-impact reporting, and proposed consumer complaint/oversight routes. It does not establish study completion, a published report, named employer or tool implementation, worker notice or appeal, complaint investigation, decision correction, compensation, workload/pay change, trust, or exit.",
+  "reproduction_audit": {"retrieval_hash_scope": "Certified Local Law 25 PDF and official City Council records were combined with the October 1, 2026 NYC agency enforcement policy and October 5/8, 2026 legislative-status rechecks", "sha256_prior_enactment_source": "sha256:5aca30c589287acfc1c03022f6be8ca57b904f6c78a2c482967fbad962959150", "checked": "2026-10-18"}
 }

@@ -120,7 +120,10 @@ The NYC follow-up now adds an October 1 citywide AI enforcement policy and an
 October 5 employee-impact reporting proposal covering displacement, salary
 changes, and new training. These close additional public-accountability stages
 but not individual receipt, restored opportunity, tool-level exposure, durable
-worker/customer outcomes, or household security.
+worker/customer outcomes, or household security. It also records two further
+committee-stage proposals for a DCWP AI oversight office/complaint portal and
+civilian AI enforcement with possible complainant recovery shares; neither is
+enacted or operational in the reviewed public record.
 Comparative cases remain mechanism checks, not substitutes for U.S. industrial
 or consumer outcomes.
 
@@ -431,7 +434,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 1978 machine-readable records, 5943 observations,
+**Current registry state:** 1978 machine-readable records, 5944 observations,
 The registry contains 1975 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2441,7 +2444,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1978 trend records and 5943 observations pass the
+the current checkpoint: 1978 trend records and 5944 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

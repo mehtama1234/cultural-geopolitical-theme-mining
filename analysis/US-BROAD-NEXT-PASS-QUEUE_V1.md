@@ -17,7 +17,11 @@ receipt, repeat contact or later employment, and exit or retention—without
 converting a remedy design into an outcome. The NYC follow-up also shows a
 public-accountability route: an October 1 enforcement policy and an October 5
 committee-heard employee-impact reporting proposal, both still short of a
-tool-level exposure or worker-outcome dataset.
+tool-level exposure or worker-outcome dataset. Two additional committee-stage
+proposals would create a DCWP AI oversight/complaint portal and civilian
+enforcement with possible complainant recovery shares; the next test is whether
+these become operating intake, investigation, correction, and paid-recovery
+records rather than remaining policy architecture.
 
 **Latest U.S. housing/insurance consumer rotation — 2026-10-18:** the [property
 shock, repair, staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md)
@@ -315,9 +319,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1978 machine-readable records and 5943
+**Current registry checkpoint:** 1978 machine-readable records and 5944
 observations. The trend registry holds 1978 records and
-5943 observations. The queue remains open; each completed rotation creates the next
+5944 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 **Latest Brazil Pix-conversion rotation — 2026-09-30:** the [BCB payment-habits record](records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json) finds cash falling from 76.6% of diary-recorded payments in 2019 to 40.5% in 2023, while Pix reached 24.9%. Yet 17.3% had not used Pix in the prior year, and 37.3% of nonusers cited lack of knowledge. Infrastructure can move faster than consumer capability.
