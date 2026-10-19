@@ -1,8 +1,11 @@
 # Full-atlas social augmentation program
 
-This is the execution control for the long-term goal. The atlas contains 1,978
-machine-readable research records. The existing 74 social records are topic
+This is the execution control for the long-term goal. The atlas contains 2,014
+machine-readable research records. The existing 402 social records are topic
 waves and calibration evidence; they are not a record-level completion count.
+The active operating scope is the United States, prioritizing industrial and
+consumer consequences and using public discussion as bounded context around
+the research evidence.
 
 ## Record-level contract
 
@@ -40,7 +43,7 @@ attempt and boundary are recorded.
 
 The full-corpus validator must report:
 
-- exactly 1,978 atlas rows;
+- exactly the current atlas record count;
 - zero duplicate atlas record IDs;
 - zero rows without a terminal state at final completion;
 - every retained item linked to an exact atlas record ID;

@@ -21,8 +21,9 @@ def main() -> int:
     atlas_ids = {json.loads(path.read_text(encoding="utf-8")).get("trend_id") for path in ATLAS.glob("*.json")}
     row_ids = [row.get("atlas_record_id") for row in rows]
     errors = []
-    if len(rows) != 1978 or payload.get("atlas_record_count") != 1978:
-        errors.append(f"expected 1978 queue rows, found {len(rows)}")
+    expected_count = len(atlas_ids)
+    if len(rows) != expected_count or payload.get("atlas_record_count") != expected_count:
+        errors.append(f"expected {expected_count} queue rows, found {len(rows)}")
     if len(row_ids) != len(set(row_ids)):
         errors.append("duplicate atlas_record_id values")
     if set(row_ids) != atlas_ids:

@@ -1,7 +1,7 @@
 {
   "schema": "full-atlas-social-coverage-v1",
   "generated": "2026-10-18",
-  "atlas_record_count": 1978,
+  "atlas_record_count": 2014,
   "terminal_states": [
     "augmented",
     "documented_access_gap",
@@ -60898,6 +60898,47 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-hbs-ai-automation-acceptance-human-touch-2026",
+      "atlas_record_path": "analysis/records/us-hbs-ai-automation-acceptance-human-touch-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "U.S. respondents accept AI assistance more readily than full replacement of human work",
+      "geography": "United States adult population-matched survey; respondents matched the U.S. adult population on age, gender, ethnicity, and political affiliation",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "respondents accept assistance more readily than full replacement human work harvard business ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "respondents accept assistance more readily than full replacement human work harvard business ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "respondents accept assistance more readily than full replacement human work harvard business ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "respondents accept assistance more readily than full replacement human work harvard business ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-hbs-ai-customer-service-contextual-recourse-2020-2021",
       "atlas_record_path": "analysis/records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json",
       "canonical_theme": "platform-exit",
@@ -64811,6 +64852,47 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-ai-corporate-executives-productivity-workforce-2026",
+      "atlas_record_path": "analysis/records/us-nber-ai-corporate-executives-productivity-workforce-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "US firms report early AI productivity gains alongside uneven adoption and job-mix reallocation",
+      "geography": "United States; corporate executives surveyed through Federal Reserve executive/CFO survey research",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "firms report early productivity gains alongside uneven adoption job-mix reallocation nber working firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "firms report early productivity gains alongside uneven adoption job-mix reallocation nber working firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "firms report early productivity gains alongside uneven adoption job-mix reallocation nber working firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "firms report early productivity gains alongside uneven adoption job-mix reallocation nber working firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-ai-economic-forecast-policy-preferences-2026",
       "atlas_record_path": "analysis/records/us-nber-ai-economic-forecast-policy-preferences-2026.json",
       "canonical_theme": "ai-work-control",
@@ -64973,6 +65055,88 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-ai-organization-capital-productivity-2026",
+      "atlas_record_path": "analysis/records/us-nber-ai-organization-capital-productivity-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "US firm AI investment is associated with recent productivity growth through organization capital",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "firm investment associated recent productivity growth through organization capital firm-level ai-skilled employment infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "firm investment associated recent productivity growth through organization capital firm-level ai-skilled employment infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "firm investment associated recent productivity growth through organization capital firm-level ai-skilled employment infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "firm investment associated recent productivity growth through organization capital firm-level ai-skilled employment infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
+      "atlas_record_id": "us-nber-ai-patent-lawyers-expertise-field-experiment-2026",
+      "atlas_record_path": "analysis/records/us-nber-ai-patent-lawyers-expertise-field-experiment-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "AI assistance raised patent-drafting quality, but durable expertise gains depended on seniority",
+      "geography": "United States; 133 practicing patent lawyers at 11 US intellectual-property law firms",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "assistance raised patent-drafting quality but durable expertise gains depended seniority nber working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "assistance raised patent-drafting quality but durable expertise gains depended seniority nber working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "assistance raised patent-drafting quality but durable expertise gains depended seniority nber working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "assistance raised patent-drafting quality but durable expertise gains depended seniority nber working ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-ai-political-advice-2026",
@@ -65961,6 +66125,88 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-creative-destruction-worker-earnings-risk-2026",
+      "atlas_record_path": "analysis/records/us-nber-creative-destruction-worker-earnings-risk-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "US product-market creative destruction passes asymmetric risk through to incumbent workers",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "product-market creative destruction passes asymmetric risk through incumbent workers administrative worker earnings ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "product-market creative destruction passes asymmetric risk through incumbent workers administrative worker earnings ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "product-market creative destruction passes asymmetric risk through incumbent workers administrative worker earnings ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "product-market creative destruction passes asymmetric risk through incumbent workers administrative worker earnings ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
+      "atlas_record_id": "us-nber-credit-card-banking-market-power-2026",
+      "atlas_record_path": "analysis/records/us-nber-credit-card-banking-market-power-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "US credit-card banking combines broad household use with unusually high lending spreads and returns",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "credit-card banking combines broad household use unusually high lending spreads returns monthly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "credit-card banking combines broad household use unusually high lending spreads returns monthly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "credit-card banking combines broad household use unusually high lending spreads returns monthly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "credit-card banking combines broad household use unusually high lending spreads returns monthly household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-cultural-distance-media-consumption-time-attitudes-1965-2020",
       "atlas_record_path": "analysis/records/us-nber-cultural-distance-media-consumption-time-attitudes-1965-2020.json",
       "canonical_theme": "trust-identity-cultural-meaning",
@@ -66246,6 +66492,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-dynamic-investment-product-market-rivalry-2026",
+      "atlas_record_path": "analysis/records/us-nber-dynamic-investment-product-market-rivalry-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "US product-market rivalry shapes investment, markups, and industry concentration",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "product-market rivalry shapes investment markups industry concentration universe public companies firm cost firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "product-market rivalry shapes investment markups industry concentration universe public companies firm cost firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "product-market rivalry shapes investment markups industry concentration universe public companies firm cost firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "product-market rivalry shapes investment markups industry concentration universe public companies firm cost firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-ebay-consumer-search-costs-lower-prices-2015",
@@ -66945,6 +67232,47 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-fertility-mothers-remote-work-2003-2024",
+      "atlas_record_path": "analysis/records/us-nber-fertility-mothers-remote-work-2003-2024.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Fertility changes US mothers’ labor-force participation and remote-work patterns across the pre- and post-pandemic periods",
+      "geography": "United States; American Community Survey, 2003–2024",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "fertility changes mothers labor-force participation remote-work patterns across pre- post-pandemic periods remote ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "fertility changes mothers labor-force participation remote-work patterns across pre- post-pandemic periods remote ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "fertility changes mothers labor-force participation remote-work patterns across pre- post-pandemic periods remote ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "fertility changes mothers labor-force participation remote-work patterns across pre- post-pandemic periods remote ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-firearm-safety-means-2026",
       "atlas_record_path": "analysis/records/us-nber-firearm-safety-means-2026.json",
       "canonical_theme": "trust-identity-cultural-meaning",
@@ -67027,6 +67355,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-firm-insurance-labor-income-risk-2026",
+      "atlas_record_path": "analysis/records/us-nber-firm-insurance-labor-income-risk-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "US financial conditions shape firm insurance and worker labor-income risk",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "financial conditions shape firm insurance worker labor-income risk administrative earnings financing risk-premium ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "financial conditions shape firm insurance worker labor-income risk administrative earnings financing risk-premium ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "financial conditions shape firm insurance worker labor-income risk administrative earnings financing risk-premium ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "financial conditions shape firm insurance worker labor-income risk administrative earnings financing risk-premium ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-fiscal-news-household-expectations-spending-korea-2026",
@@ -67152,6 +67521,47 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-flood-risk-insurance-household-exposure-2026",
+      "atlas_record_path": "analysis/records/us-nber-flood-risk-insurance-household-exposure-2026.json",
+      "canonical_theme": "housing-place-mobility",
+      "title": "Household-level flood exposure is not the same as aggregate floodplain disadvantage",
+      "geography": "United States households, housing parcels, and floodplains; 1999–2023 exposure trend and household-level comparisons",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household-level flood exposure not same aggregate floodplain disadvantage nber working paper confidential housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household-level flood exposure not same aggregate floodplain disadvantage nber working paper confidential housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household-level flood exposure not same aggregate floodplain disadvantage nber working paper confidential housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household-level flood exposure not same aggregate floodplain disadvantage nber working paper confidential housing-place-mobility 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-gender-gaps-career-information-advice-2026",
       "atlas_record_path": "analysis/records/us-nber-gender-gaps-career-information-advice-2026.json",
       "canonical_theme": "ai-work-control",
@@ -67191,6 +67601,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-gender-shocks-household-bargaining-consumption-2026",
+      "atlas_record_path": "analysis/records/us-nber-gender-shocks-household-bargaining-consumption-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Gender-specific labor shocks reallocate household consumption without changing total child-product spending",
+      "geography": "United States; heterosexual households, product-level consumption patterns, and US industrial robot and fracking shocks",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "gender-specific labor shocks reallocate household consumption without changing total child-product spending nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "gender-specific labor shocks reallocate household consumption without changing total child-product spending nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "gender-specific labor shocks reallocate household consumption without changing total child-product spending nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "gender-specific labor shocks reallocate household consumption without changing total child-product spending nber household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-geoeconomic-coercion-government-firm-targets-2026",
@@ -67396,6 +67847,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-health-insurance-competition-premiums-consumer-welfare-2026",
+      "atlas_record_path": "analysis/records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Health-insurer concentration links market power and adverse selection to premiums, plan design, and consumer welfare",
+      "geography": "United States; commercial, Medicare Advantage, and Medicaid health-insurance markets",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "health-insurer concentration links market power adverse selection premiums plan design consumer welfare consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "health-insurer concentration links market power adverse selection premiums plan design consumer welfare consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "health-insurer concentration links market power adverse selection premiums plan design consumer welfare consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "health-insurer concentration links market power adverse selection premiums plan design consumer welfare consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-hepatitis-c-subscription-outcomes-2026",
@@ -67847,6 +68339,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-immigrants-minimum-wage-labor-market-effects-2026",
+      "atlas_record_path": "analysis/records/us-nber-immigrants-minimum-wage-labor-market-effects-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "US minimum-wage increases reduce hours for recently arrived immigrant workers without reducing employment",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "minimum-wage increases reduce hours recently arrived immigrant workers without reducing employment native household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "minimum-wage increases reduce hours recently arrived immigrant workers without reducing employment native household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "minimum-wage increases reduce hours recently arrived immigrant workers without reducing employment native household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "minimum-wage increases reduce hours recently arrived immigrant workers without reducing employment native household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-immigration-child-mortality-disease-spillovers-2026",
@@ -68343,6 +68876,47 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-long-term-pm25-exposure-chronic-disease-2026",
+      "atlas_record_path": "analysis/records/us-nber-long-term-pm25-exposure-chronic-disease-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "Long-term moderate PM2.5 exposure increases circulatory disease among US soldiers",
+      "geography": "United States; Army duty stations",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "long-term moderate pm2 exposure increases circulatory disease among soldiers army annual duty-station infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "long-term moderate pm2 exposure increases circulatory disease among soldiers army annual duty-station infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "long-term moderate pm2 exposure increases circulatory disease among soldiers army annual duty-station infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "long-term moderate pm2 exposure increases circulatory disease among soldiers army annual duty-station infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-meaning-at-work-purpose-intervention-2025",
       "atlas_record_path": "analysis/records/us-nber-meaning-at-work-purpose-intervention-2025.json",
       "canonical_theme": "trust-identity-cultural-meaning",
@@ -68427,6 +69001,47 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-medicaid-nursing-home-volume-quality-moral-hazard-2025",
+      "atlas_record_path": "analysis/records/us-nber-medicaid-nursing-home-volume-quality-moral-hazard-2025.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "US Medicaid nursing-home financing can reward volume over quality and shift patients toward worse providers",
+      "geography": "United States; 24 federal audits and Indiana administrative microdata",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "medicaid nursing-home financing can reward volume over quality shift patients toward worse public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "medicaid nursing-home financing can reward volume over quality shift patients toward worse public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "medicaid nursing-home financing can reward volume over quality shift patients toward worse public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "medicaid nursing-home financing can reward volume over quality shift patients toward worse public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-medicaid-renewal-outreach-administrative-burden-2026",
       "atlas_record_path": "analysis/records/us-nber-medicaid-renewal-outreach-administrative-burden-2026.json",
       "canonical_theme": "public-systems-policy-feedback",
@@ -68509,6 +69124,47 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-minimum-wage-poor-low-income-families-2026",
+      "atlas_record_path": "analysis/records/us-nber-minimum-wage-poor-low-income-families-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "US minimum wages have adverse employment, hours, and earnings effects for low-wage workers in poor families",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "minimum wages have adverse employment hours earnings effects low-wage workers poor families household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "minimum wages have adverse employment hours earnings effects low-wage workers poor families household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "minimum wages have adverse employment hours earnings effects low-wage workers poor families household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "minimum wages have adverse employment hours earnings effects low-wage workers poor families household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-monetary-policy-information-treatments-2026",
       "atlas_record_path": "analysis/records/us-nber-monetary-policy-information-treatments-2026.json",
       "canonical_theme": "household-room-consumption",
@@ -68548,6 +69204,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-monopsony-labor-market-power-framework-2026",
+      "atlas_record_path": "analysis/records/us-nber-monopsony-labor-market-power-framework-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "US labor-market power cannot be read from wage markdowns alone",
+      "geography": "United States and comparative labor-market evidence reviewed for US policy analysis",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "labor-market power cannot read wage markdowns alone labor-market-power literature firm-specific residual labor-supply ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "labor-market power cannot read wage markdowns alone labor-market-power literature firm-specific residual labor-supply ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "labor-market power cannot read wage markdowns alone labor-market-power literature firm-specific residual labor-supply ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "labor-market power cannot read wage markdowns alone labor-market-power literature firm-specific residual labor-supply ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-mortgage-lockin-housing-mobility-2022-2024",
@@ -68632,6 +69329,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-multinational-tax-planning-foreign-profits-rd-2026",
+      "atlas_record_path": "analysis/records/us-nber-multinational-tax-planning-foreign-profits-rd-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "US multinationals concentrate foreign profits in tax-planning structures adopted by a minority of firms",
+      "geography": "United States multinationals with foreign operations",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "multinationals concentrate foreign profits tax-planning structures adopted minority firms multinational structure adoption firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "multinationals concentrate foreign profits tax-planning structures adopted minority firms multinational structure adoption firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "multinationals concentrate foreign profits tax-planning structures adopted minority firms multinational structure adoption firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "multinationals concentrate foreign profits tax-planning structures adopted minority firms multinational structure adoption firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-native-immigrant-entrepreneurial-synergies-2025",
@@ -68839,6 +69577,211 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-nursing-home-inspection-strategic-response-mortality-2025",
+      "atlas_record_path": "analysis/records/us-nber-nursing-home-inspection-strategic-response-mortality-2025.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "US nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
+      "atlas_record_id": "us-nber-nursing-home-mergers-compliance-direct-care-2025",
+      "atlas_record_path": "analysis/records/us-nber-nursing-home-mergers-compliance-direct-care-2025.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "US nursing-home mergers reduce deficiency citations but also reduce direct-care hours without improving resident health",
+      "geography": "United States; nursing-home facilities observed 1999–2019",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "nursing-home mergers reduce deficiency citations but also direct-care hours without improving resident firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "nursing-home mergers reduce deficiency citations but also direct-care hours without improving resident firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "nursing-home mergers reduce deficiency citations but also direct-care hours without improving resident firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "nursing-home mergers reduce deficiency citations but also direct-care hours without improving resident firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
+      "atlas_record_id": "us-nber-nursing-home-related-party-tunneling-2024",
+      "atlas_record_path": "analysis/records/us-nber-nursing-home-related-party-tunneling-2024.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "US nursing-home profits are widely tunneled to related parties, changing the apparent return and regulatory picture",
+      "geography": "United States; nursing-home providers",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "nursing-home profits are widely tunneled related parties changing apparent return regulatory picture firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "nursing-home profits are widely tunneled related parties changing apparent return regulatory picture firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "nursing-home profits are widely tunneled related parties changing apparent return regulatory picture firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "nursing-home profits are widely tunneled related parties changing apparent return regulatory picture firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
+      "atlas_record_id": "us-nber-nursing-home-roommate-peer-effects-mortality-2025",
+      "atlas_record_path": "analysis/records/us-nber-nursing-home-roommate-peer-effects-mortality-2025.json",
+      "canonical_theme": "unequal-exposure-status",
+      "title": "US nursing-home roommate assignment changes mortality through patient peer effects",
+      "geography": "United States; 7,200 nursing homes",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "nursing-home roommate assignment changes mortality through patient peer effects stays cognitive status unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "nursing-home roommate assignment changes mortality through patient peer effects stays cognitive status unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "nursing-home roommate assignment changes mortality through patient peer effects stays cognitive status unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "nursing-home roommate assignment changes mortality through patient peer effects stays cognitive status unequal-exposure-status 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
+      "atlas_record_id": "us-nber-nursing-home-threshold-regulation-staffing-access-2026",
+      "atlas_record_path": "analysis/records/us-nber-nursing-home-threshold-regulation-staffing-access-2026.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "California nursing homes manipulate size thresholds to avoid staffing rules, limiting access for disadvantaged patients",
+      "geography": "United States; California nursing homes",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "california nursing homes manipulate size thresholds avoid staffing rules limiting access disadvantaged public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "california nursing homes manipulate size thresholds avoid staffing rules limiting access disadvantaged public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "california nursing homes manipulate size thresholds avoid staffing rules limiting access disadvantaged public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "california nursing homes manipulate size thresholds avoid staffing rules limiting access disadvantaged public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-nyc-congestion-pricing-ems-response-2026",
       "atlas_record_path": "analysis/records/us-nber-nyc-congestion-pricing-ems-response-2026.json",
       "canonical_theme": "housing-place-mobility",
@@ -69005,6 +69948,88 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-overtime-coverage-earnings-employment-2026",
+      "atlas_record_path": "analysis/records/us-nber-overtime-coverage-earnings-employment-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "US overtime coverage expansion raised earnings without an employment decline",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "overtime coverage expansion raised earnings without employment decline administrative payroll data salaried-worker ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "overtime coverage expansion raised earnings without employment decline administrative payroll data salaried-worker ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "overtime coverage expansion raised earnings without employment decline administrative payroll data salaried-worker ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "overtime coverage expansion raised earnings without employment decline administrative payroll data salaried-worker ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
+      "atlas_record_id": "us-nber-p-ebt-sugary-item-spending-2026",
+      "atlas_record_path": "analysis/records/us-nber-p-ebt-sugary-item-spending-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "US P-EBT disbursements increased sugary-item spending among eligible households",
+      "geography": "United States; state-level P-EBT disbursement timing",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "p-ebt disbursements increased sugary-item spending among eligible households snap-eligible school-aged children disbursement household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "p-ebt disbursements increased sugary-item spending among eligible households snap-eligible school-aged children disbursement household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "p-ebt disbursements increased sugary-item spending among eligible households snap-eligible school-aged children disbursement household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "p-ebt disbursements increased sugary-item spending among eligible households snap-eligible school-aged children disbursement household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-party-pressure-representation-house-voters-2026",
       "atlas_record_path": "analysis/records/us-nber-party-pressure-representation-house-voters-2026.json",
       "canonical_theme": "political-judgment-collective-action",
@@ -69085,6 +70110,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-payment-convenience-depositor-activeness-2026",
+      "atlas_record_path": "analysis/records/us-nber-payment-convenience-depositor-activeness-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "US payment speed changes transfer behavior and deposit demand",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "payment speed changes transfer behavior deposit demand depositor transaction bank-transfer county rollout household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "payment speed changes transfer behavior deposit demand depositor transaction bank-transfer county rollout household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "payment speed changes transfer behavior deposit demand depositor transaction bank-transfer county rollout household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "payment speed changes transfer behavior deposit demand depositor transaction bank-transfer county rollout household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-payment-method-resilience-disaster-outages-2026",
@@ -69251,6 +70317,47 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-pg-ai-teamwork-expertise-social-engagement-2025",
+      "atlas_record_path": "analysis/records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "AI matched some team performance while changing expertise sharing and social connection in product innovation work",
+      "geography": "Procter & Gamble, a US-headquartered global consumer packaged goods company; participant geography is not fully specified in the abstract",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "matched some team performance while changing expertise sharing social connection product innovation firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-platform-data-neutrality-market-competition-2026",
       "atlas_record_path": "analysis/records/us-nber-platform-data-neutrality-market-competition-2026.json",
       "canonical_theme": "firm-sector-market-power",
@@ -69335,6 +70442,47 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-postpandemic-labor-force-exit-low-income-2026",
+      "atlas_record_path": "analysis/records/us-nber-postpandemic-labor-force-exit-low-income-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "Persistent post-pandemic labor-force exit is concentrated among low-income and low-skill US workers",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-privacy-tracking-fraud-2026",
       "atlas_record_path": "analysis/records/us-nber-privacy-tracking-fraud-2026.json",
       "canonical_theme": "platform-exit",
@@ -69374,6 +70522,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-pro-worker-ai-technology-policy-framework-2026",
+      "atlas_record_path": "analysis/records/us-nber-pro-worker-ai-technology-policy-framework-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "AI policy can distinguish worker-augmenting capability from automation and expertise commodification",
+      "geography": "United States policy and workplace examples; conceptual framework with examples spanning aviation maintenance, electrical services, custodial work, education, patent examination, and gig delivery",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-property-tax-housing-allocation-generations-2026",
@@ -69620,6 +70809,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-school-finance-reforms-macro-output-2026",
+      "atlas_record_path": "analysis/records/us-nber-school-finance-reforms-macro-output-2026.json",
+      "canonical_theme": "public-systems-policy-feedback",
+      "title": "US school-finance reforms raise long-run earnings per worker and GDP per capita after a long lag",
+      "geography": "United States; staggered state-level school-finance reforms",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-search-engine-market-power-field-experiment-2025",
@@ -69995,6 +71225,47 @@
       "next_action": "quality_audit"
     },
     {
+      "atlas_record_id": "us-nber-snap-sugary-restrictions-spending-calories-tax-2026",
+      "atlas_record_path": "analysis/records/us-nber-snap-sugary-restrictions-spending-calories-tax-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "SNAP restrictions on sweetened beverages and candy reduced restricted spending, calories, and sugar",
+      "geography": "United States; first statewide SNAP restrictions on sweetened beverages and candy",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
       "atlas_record_id": "us-nber-snap-work-requirements-procedural-denials-2026",
       "atlas_record_path": "analysis/records/us-nber-snap-work-requirements-procedural-denials-2026.json",
       "canonical_theme": "public-systems-policy-feedback",
@@ -70034,6 +71305,47 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-social-capital-innovation-economic-connectedness-2026",
+      "atlas_record_path": "analysis/records/us-nber-social-capital-innovation-economic-connectedness-2026.json",
+      "canonical_theme": "trust-identity-cultural-meaning",
+      "title": "Economic connectedness in US Facebook friendship networks is associated with substantially greater local innovation",
+      "geography": "United States; patenting ZIP Codes and Facebook friendship networks",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-social-security-information-disability-early-retirement-choice-2026",
@@ -70116,6 +71428,88 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-sticky-wage-norms-real-wage-loss-2026",
+      "atlas_record_path": "analysis/records/us-nber-sticky-wage-norms-real-wage-loss-2026.json",
+      "canonical_theme": "ai-work-control",
+      "title": "US firm wage-setting norms left many workers behind prices during 2021–2024 inflation",
+      "geography": "United States",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "firm wage-setting norms left many workers behind prices during inflation worker continuing-employment ai-work-control 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
+      "atlas_record_id": "us-nber-stimulus-checks-veteran-transfers-consumption-2026",
+      "atlas_record_path": "analysis/records/us-nber-stimulus-checks-veteran-transfers-consumption-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "US one-off transfers produced a delayed, hump-shaped consumption response",
+      "geography": "United States; post-World War II veteran payment natural experiment",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-stimulus-transfer-electoral-incentives-italy-2014",
@@ -70282,6 +71676,88 @@
       },
       "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
       "next_action": "quality_audit"
+    },
+    {
+      "atlas_record_id": "us-nber-tariff-pass-through-consumer-prices-2026",
+      "atlas_record_path": "analysis/records/us-nber-tariff-pass-through-consumer-prices-2026.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "US tariffs pass through to consumer prices directly and later through domestic inputs and markups",
+      "geography": "United States; goods exposed to the 2025-2026 US tariffs",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "tariffs pass through consumer prices directly later domestic inputs markups nber working household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "tariffs pass through consumer prices directly later domestic inputs markups nber working household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "tariffs pass through consumer prices directly later domestic inputs markups nber working household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "tariffs pass through consumer prices directly later domestic inputs markups nber working household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
+    },
+    {
+      "atlas_record_id": "us-nber-tariff-quantity-discounts-scale-economies-2026",
+      "atlas_record_path": "analysis/records/us-nber-tariff-quantity-discounts-scale-economies-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Transaction scale changes the measured incidence of US tariffs",
+      "geography": "United States trade; 2018-2019 US tariffs and transaction-level imports",
+      "status": "queued",
+      "batch_id": null,
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "transaction scale changes measured incidence tariffs nber working paper did foreigners pay firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "transaction scale changes measured incidence tariffs nber working paper did foreigners pay firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "transaction scale changes measured incidence tariffs nber working paper did foreigners pay firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "transaction scale changes measured incidence tariffs nber working paper did foreigners pay firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "run_public_or_authorized_platform_search"
     },
     {
       "atlas_record_id": "us-nber-task-level-genai-adoption-2026",

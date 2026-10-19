@@ -1,5 +1,12 @@
 # Social-discussion readout — first wave
 
+The current AI/work-control extension adds a LinkedIn discussion from Harvard's
+Project on Workforce about the NBER pro-worker AI framework. The discussion
+turns the research taxonomy into an implementation question: can firms name
+new tasks, preserve worker judgment, and make collaborative AI viable rather
+than treating productivity as cost reduction? It is a public interpretation
+and selected reaction layer, not worker prevalence or an implementation result.
+
 The first wave adds a missing interpretive layer to the atlas: public
 discussion often makes the hidden trade visible before it can measure it.
 

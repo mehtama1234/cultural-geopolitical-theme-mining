@@ -95,6 +95,14 @@ def map_theme(record: dict) -> str:
 
 
 def main() -> None:
+    existing_rows = {}
+    if OUT.exists():
+        existing_payload = json.loads(OUT.read_text(encoding="utf-8"))
+        existing_rows = {
+            row.get("atlas_record_id"): row
+            for row in existing_payload.get("rows", [])
+            if row.get("atlas_record_id")
+        }
     rows = []
     for path in sorted(ATLAS.glob("*.json")):
         record = json.loads(path.read_text(encoding="utf-8"))
@@ -107,8 +115,7 @@ def main() -> None:
         theme = map_theme(record)
         terms = clean_terms(f"{title} {source_unit} {geography}")
         base_query = " ".join(terms)
-        rows.append(
-            {
+        row = {
                 "atlas_record_id": trend_id,
                 "atlas_record_path": str(path.relative_to(ROOT)),
                 "canonical_theme": theme,
@@ -128,8 +135,13 @@ def main() -> None:
                 },
                 "terminal_reason": None,
                 "next_action": "run_public_or_authorized_platform_search",
-            }
-        )
+        }
+        prior = existing_rows.get(trend_id)
+        if prior:
+            for key in ("status", "batch_id", "platforms", "terminal_reason", "next_action"):
+                if key in prior:
+                    row[key] = prior[key]
+        rows.append(row)
     payload = {
         "schema": "full-atlas-social-coverage-v1",
         "generated": "2026-10-18",

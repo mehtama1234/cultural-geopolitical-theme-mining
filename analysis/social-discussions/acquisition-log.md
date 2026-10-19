@@ -1,5 +1,11 @@
 # Acquisition log — first bounded wave
 
+## AI/work-control extension — 2026-10-19
+
+| Platform | Query family | Result | Boundary |
+|---|---|---|---|
+| LinkedIn | `Building Pro-Worker Artificial Intelligence NBER worker expertise` | Harvard's Project on Workforce post summarized NBER W34854 and public reactions about new-task creation, worker judgment, and implementation; normalized in `records/atlas-pro-worker-ai-linkedin-001.json`. | Institutional relay and selected comments; not a representative worker sample, implementation audit, or prevalence estimate. |
+
 **Window:** 2025-10-17 through 2026-10-17
 **Retrieved:** 2026-10-17
 **Method:** public web search with platform-restricted queries; no login,
