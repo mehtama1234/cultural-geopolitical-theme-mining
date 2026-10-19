@@ -66154,11 +66154,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "product-market creative destruction passes asymmetric risk through incumbent workers administrative worker earnings ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-creative-destruction-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -66169,7 +66171,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-credit-card-banking-market-power-2026",
@@ -66525,11 +66527,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "product-market rivalry shapes investment markups industry concentration universe public companies firm cost firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-dynamic-investment-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -66540,7 +66544,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-ebay-consumer-search-costs-lower-prices-2015",

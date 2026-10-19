@@ -15,18 +15,21 @@ records:
 - `us-nber-health-insurance-competition-premiums-consumer-welfare-2026` → `atlas-batch-0081-health-insurance-linkedin-001`
 - `us-nber-credit-card-banking-market-power-2026` → `atlas-batch-0081-credit-card-linkedin-001`
 - `us-nber-flood-risk-insurance-household-exposure-2026` → `atlas-batch-0081-flood-risk-linkedin-001`
+- `us-nber-creative-destruction-worker-earnings-risk-2026` → `atlas-batch-0081-creative-destruction-linkedin-001`
+- `us-nber-dynamic-investment-product-market-rivalry-2026` → `atlas-batch-0081-dynamic-investment-linkedin-001`
 
-The six signals sharpen an industrial/consumer USA chain: adoption and
+The eight signals sharpen an industrial/consumer USA chain: adoption and
 expected productivity are not realized transformation, organization capital
 may be the missing complement, assisted output can conceal uneven expertise
 formation, insurer competition operates through adverse selection, and broad
 credit-card use coexists with high lender-side returns, while aggregate and
-household flood risk diverge.
+household flood risk diverge, while product-market rivalry passes through
+both investment and worker earnings.
 
 ## Current batch state
 
-The six linked records have a normalized LinkedIn result and remain in the
-open batch while the other platform attempts and the remaining 19 records are
+The eight linked records have a normalized LinkedIn result and remain in the
+open batch while the other platform attempts and the remaining 17 records are
 worked. No completion claim is made for this batch.
 
 ## Reproducibility and limits
