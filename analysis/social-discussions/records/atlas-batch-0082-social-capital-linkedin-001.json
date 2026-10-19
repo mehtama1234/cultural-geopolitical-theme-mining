@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0082-social-capital-linkedin-001",
+  "atlas_record_ids": ["us-nber-social-capital-innovation-economic-connectedness-2026"],
+  "topic": "innovation-technology",
+  "platform": "linkedin",
+  "item_type": "research_translation_post",
+  "author_or_account": "David Hirshleifer",
+  "title": "Social Capital and Innovation: Evidence from Facebook Friendship Networks",
+  "canonical_url": "https://www.linkedin.com/posts/david-hirshleifer-aa2b9024_innovation-socialfinance-socialecon-activity-7500993472527486976-0MBm",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The co-author summarizes that one standard deviation higher economic connectedness is associated with 97% more patents per capita among patenting ZIP Codes and 45% more breakthrough patents per capita among ZIP Codes with breakthrough patents. The post also says complementary designs support a causal interpretation and that mechanism tests are consistent with financing as one channel. This gives the industrial innovation story a bounded public translation: cross-class networks may affect who gets exposure to financing and opportunity, not merely whether a place has social cohesion.",
+  "research_anchor_paths": ["analysis/records/us-nber-social-capital-innovation-economic-connectedness-2026.json"],
+  "linked_research_question": "Through which financing, information, and inventor-mobility channels could economic connectedness change U.S. industrial innovation, and where might the Facebook-network measure fail to represent firms, workers, or consumers?",
+  "classification": ["economic_connectedness", "industrial_innovation", "patenting", "social_capital", "financing_channel", "bounded_public_discussion"],
+  "limits": ["The post is a short co-author summary and does not provide the paper's full tables, sample construction, or uncertainty intervals", "The estimates are conditional on patenting ZIP Codes and do not establish a universal effect for all U.S. communities or firms", "Economic connectedness is not the same as trust, institutional quality, financing received, firm survival, worker outcomes, or consumer welfare", "A single LinkedIn post is not representative of inventors, firms, households, or policymakers"]
+}

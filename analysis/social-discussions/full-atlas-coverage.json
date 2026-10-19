@@ -71352,40 +71352,42 @@
       "canonical_theme": "trust-identity-cultural-meaning",
       "title": "Economic connectedness in US Facebook friendship networks is associated with substantially greater local innovation",
       "geography": "United States; patenting ZIP Codes and Facebook friendship networks",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0082",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found within the bounded six-month search window that identifies NBER W35732 or this paper's title and findings.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion found within the bounded six-month search window that identifies NBER W35732 or this paper's title and findings.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0082-social-capital-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "economic connectedness facebook friendship networks associated substantially greater local innovation patenting zip trust-identity-cultural-meaning 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found within the bounded six-month search window that identifies NBER W35732 or this paper's title and findings.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-social-security-information-disability-early-retirement-choice-2026",
