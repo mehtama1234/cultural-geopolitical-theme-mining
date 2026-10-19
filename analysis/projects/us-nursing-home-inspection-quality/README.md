@@ -19,3 +19,11 @@ The [inspection-timing finding](findings/us-nber-nursing-home-inspection-predict
 reports that care effort and patient survival follow the inspection cycle, while
 modeling suggests less predictable timing could improve survival with a modest
 information tradeoff.
+
+The [threshold-regulation record](../../records/us-nber-nursing-home-threshold-regulation-staffing-access-2026.json)
+adds the firm-response side: California nursing homes bunch around the 100-bed
+threshold, and higher staffing above it is nearly entirely selection rather than
+a causal staffing increase. Low-staffing facilities manipulate size to avoid the
+rule, limiting access especially for disadvantaged patients. The next test is to
+join threshold response to staffing composition, resident outcomes, worker
+conditions, payer mix, and local capacity.

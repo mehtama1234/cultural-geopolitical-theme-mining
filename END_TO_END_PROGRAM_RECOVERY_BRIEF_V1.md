@@ -22,7 +22,7 @@ parity, published links, local links, and whitespace together.
 
 ## Verified current checkpoint — 2026-09-30
 
-The atlas currently contains 14 themes, 1991 machine-readable records, 5,960
+The atlas currently contains 14 themes, 1992 machine-readable records, 5,961
 observations, 229 connections, 93 reading paths, 25 public
 episode events, and 2 validated episode arrows. Separately, the real broad
 event-ledger portfolio contains **98 ledgers, 302 events, and 454 typed arrows,

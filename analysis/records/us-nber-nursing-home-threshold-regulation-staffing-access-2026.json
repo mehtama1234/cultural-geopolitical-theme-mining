@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-nursing-home-threshold-regulation-staffing-access-2026",
+  "title": "California nursing homes manipulate size thresholds to avoid staffing rules, limiting access for disadvantaged patients",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status", "work_control_bargaining", "household_room_consumption"],
+  "source_unit": "California nursing-home facilities, bed-count threshold, staffing requirements, facility size manipulation, and patient access",
+  "geography": "United States; California nursing homes",
+  "observations": [
+    {
+      "period": "Working paper issued October 2026; California nursing homes with at least 100 beds",
+      "denominator": {"value": null, "unit": "California nursing-home facilities and patients; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "threshold_bunching": {"value": null, "unit": "extensive bunching occurs in response to additional staffing requirements for facilities with at least 100 beds", "value_type": "reported_direction"},
+        "above_threshold_staffing": {"value": null, "unit": "higher staffing above the threshold is nearly entirely due to selection rather than a causal staffing increase", "value_type": "reported_decomposition"},
+        "size_manipulation": {"value": null, "unit": "low-staffing facilities manipulate their size to avoid the regulation", "value_type": "reported_mechanism"},
+        "patient_access": {"value": null, "unit": "size distortions limit access, particularly for disadvantaged patients", "value_type": "reported_direction"}
+      },
+      "method": "The paper develops a treatment-effects estimator for threshold-based regulations under precise manipulation, decomposing facilities into response types using counterfactual and realized staffing and size to separate causal effects from selection.",
+      "uncertainty": "The NBER abstract does not disclose facility or patient counts, effect sizes, the exact access measure, follow-up window, or the full identification assumptions. The paper is a working paper; the abstract does not establish clinical outcomes, worker conditions, prices, profits, or whether the access limitation persists after the observed response.",
+      "subgroup": "Low-staffing California nursing homes near the 100-bed threshold and disadvantaged patients affected by size distortions.",
+      "counterinterpretation": "Facilities may change ownership, services, admissions, bed counts, staffing composition, or reporting rather than improve or reduce care in one common way; measured access can reflect facility selection, local capacity, patient sorting, payer mix, and other responses to regulation.",
+      "source_url": "https://www.nber.org/papers/w35849",
+      "retrieval_hash": "sha256:3050d71dcec829e00d32ee5477412112d2b3891c0264ce2cf21dc14fd763acaa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34037", "claim": "Nursing homes respond strategically to inspections, and inspection ratings predict relative patient mortality despite not measuring absolute quality cleanly.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w33967", "claim": "Nursing-home mergers reduce deficiency citations and direct-care hours, with compliance improvements concentrated in low-severity categories.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w32258", "claim": "Detailed nursing-home financial evidence reports widespread related-party tunneling and a large gap between reported and implied investment returns.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a firm-response and consumer-access layer to the US nursing-home regulation chain. It does not disclose effect sizes or establish clinical harm, worker outcomes, price effects, ownership effects, or a universal response to staffing regulation outside California nursing homes."
+}
