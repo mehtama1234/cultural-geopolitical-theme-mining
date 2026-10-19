@@ -1,5 +1,7 @@
 # US broad program current-status audit v1
 
+The latest U.S. consumer-assistance addition is the [NBER P-EBT purchase-response record](records/us-nber-p-ebt-sugary-item-spending-2026.json). It reports a 16% increase in sugary-item spending after disbursement among eligible households with school-aged children. This adds direct household purchase behavior while keeping consumption, diet, health, food security, and welfare separate.
+
 The latest U.S. environmental-health addition is the [NBER long-term PM2.5 record](records/us-nber-long-term-pm25-exposure-chronic-disease-2026.json). It links roughly 150,000 initially healthy soldiers to cumulative pollution exposure and finds higher circulatory disease, especially hypertension, with little detectable short-duration effect. This keeps cumulative health exposure, household conditions, work, place, and generalization separate.
 
 The latest U.S. resident-placement addition is the [NBER roommate peer-effects record](records/us-nber-nursing-home-roommate-peer-effects-mortality-2025.json). It reports a 2.1 percentage-point mortality increase for patients assigned a roommate with dementia relative to a private room, while cognitively healthy roommates help patients with dementia. This adds resident interaction and placement to the care chain while keeping privacy, preference, staffing, and quality of life separate.
@@ -568,7 +570,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 1998 machine-readable records, 5967 observations,
+**Current registry state:** 1999 machine-readable records, 5968 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2588,7 +2590,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1998 trend records and 5967 observations pass the
+the current checkpoint: 1999 trend records and 5968 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

@@ -116,6 +116,14 @@ lived interruption, SIPP reason-specific food security, and institution-specific
 confidence while keeping receipt, recovery, trust, blame, and political action
 as separate outcomes.
 
+The [P-EBT purchase-response record](../../records/us-nber-p-ebt-sugary-item-spending-2026.json)
+adds a consumer-outcome layer: P-EBT disbursement was associated with a 16%
+increase in weekly sugary-item spending among SNAP-eligible households with
+school-aged children, exceeding the overall food-spending increase. This is a
+purchase result, not proof of consumption, nutrition, health, or food security;
+the next test is the same assistance episode across purchases, diet, household
+resources, and later health.
+
 The [benefit-control finding](findings/us-safety-net-access-019.md) adds a
 different failure point: SNAP benefits can be issued but become unusable when
 an EBT account is stolen. GAO reports more than $320 million in approved

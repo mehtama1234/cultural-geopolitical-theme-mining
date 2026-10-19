@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-p-ebt-sugary-item-spending-2026",
+  "title": "US P-EBT disbursements increased sugary-item spending among eligible households",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "unequal_exposure_status", "firm_sector_market_power", "care_health_reproduction"],
+  "source_unit": "US SNAP-eligible households with school-aged children, P-EBT disbursement timing, weekly sugary-item spending, overall food spending, and placebo households",
+  "geography": "United States; state-level P-EBT disbursement timing",
+  "observations": [
+    {
+      "period": "Working paper issued October 2026; pandemic P-EBT disbursement period",
+      "denominator": {"value": null, "unit": "SNAP-eligible households with school-aged children in the NielsenIQ Consumer Panel; exact panel count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "sugary_item_spending": {"value": 16, "unit": "percent increase in weekly spending on sugary items after P-EBT disbursement", "value_type": "reported_estimate"},
+        "overall_food_spending": {"value": null, "unit": "sugary-item spending increased more than overall food spending for the eligible group", "value_type": "reported_comparison"},
+        "allocation_share": {"value": null, "unit": "eligible households allocated a disproportionately large share of P-EBT-driven purchases toward sugary items relative to their pre-period baseline", "value_type": "reported_comparison"},
+        "placebo_households": {"value": null, "unit": "no changes were detected among households unlikely to have received P-EBT benefits or in placebo disbursement years", "value_type": "reported_null_effect"}
+      },
+      "method": "A stacked difference-in-differences design uses state-level variation in P-EBT disbursement timing and NielsenIQ Consumer Panel purchase data.",
+      "uncertainty": "The NBER abstract does not disclose panel counts, effect intervals, exact sugary-item definition, spending levels, or all parallel-trend and composition assumptions. The finding measures purchases, not consumption, nutrition, health, household food security, or long-run behavior.",
+      "subgroup": "SNAP-eligible households with school-aged children during the pandemic P-EBT program; unlikely recipients and placebo years provide comparison boundaries.",
+      "counterinterpretation": "Purchases may reflect stocking, substitution, household sharing, prices, retailer timing, or measurement of sugary items rather than direct consumption; eligibility and receipt may be imperfectly observed, and pandemic conditions may limit generalization.",
+      "source_url": "https://www.nber.org/papers/w35835",
+      "retrieval_hash": "sha256:8b3bbd85233b17f367651dfdc8154cf07ae43c9ca1fee5cc5de14a684f6ae547",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35659", "claim": "SNAP sugary-drink restrictions reduce excluded-drink purchases while increasing perceived stigma and producing substitution toward still-eligible drinks.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w34118", "claim": "Medicaid nursing-home financing can expand program volume toward lower-quality providers and reduce survival in the studied setting.", "status": "related-evidence"},
+    {"source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us", "claim": "USDA food-security measures provide a household food-access boundary that purchase data alone cannot establish.", "status": "related-context"}
+  ],
+  "boundary": "This record adds a direct purchase-response layer to the US safety-net program. It does not establish sugary-item consumption, nutrition, health, food security, household welfare, or a universal response to cash-like food assistance."
+}

@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1998 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1999 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6753,6 +6753,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | US overtime coverage expansion raised earnings without an employment decline | work, cost, voice | work_control_bargaining, firm_sector_market_power, household_room_consumption, unequal_exposure_status, public_systems_feedback | US administrative payroll data, salaried-worker overtime thresholds, earnings, employment, and employer exemption responses | United States | 1 | 2014–2021 state-level salary-threshold changes; working paper issued July 2026 | reported | [open](records/us-nber-overtime-coverage-earnings-employment-2026.json) |
 
 **Boundary:** This record adds a US policy-to-pay-and-employment comparison. It does not establish worker control over time, long-run earnings, household outcomes, firm profitability, bargaining, or whether the result generalizes beyond workers near the affected thresholds and the 2014–2021 state-policy setting.
+
+| US P-EBT disbursements increased sugary-item spending among eligible households | cost, voice, time | household_room_consumption, public_systems_feedback, unequal_exposure_status, firm_sector_market_power, care_health_reproduction | US SNAP-eligible households with school-aged children, P-EBT disbursement timing, weekly sugary-item spending, overall food spending, and placebo households | United States; state-level P-EBT disbursement timing | 1 | Working paper issued October 2026; pandemic P-EBT disbursement period | reported | [open](records/us-nber-p-ebt-sugary-item-spending-2026.json) |
+
+**Boundary:** This record adds a direct purchase-response layer to the US safety-net program. It does not establish sugary-item consumption, nutrition, health, food security, household welfare, or a universal response to cash-like food assistance.
 
 | Party pressure can widen the gap between voter preferences and representatives' recorded votes | voice, time | political_judgment_action, public_systems_feedback, trust_identity_meaning, unequal_exposure_status, firm_sector_market_power | NBER Working Paper 34697; U.S. House roll-call votes and survey-based voter ideology estimates | United States; U.S. House members, constituents, party pressure, and congressional roll-call voting | 1 | U.S. House representation studied through 2026; paper issued January 2026 | reported | [open](records/us-nber-party-pressure-representation-house-voters-2026.json) |
 

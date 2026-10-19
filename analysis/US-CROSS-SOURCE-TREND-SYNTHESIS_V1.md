@@ -1,5 +1,7 @@
 # US cross-source trend synthesis v1
 
+The [NBER P-EBT purchase-response record](records/us-nber-p-ebt-sugary-item-spending-2026.json) adds a direct consumer allocation layer: disbursement was associated with a 16% increase in weekly sugary-item spending among eligible households with school-aged children, exceeding the overall food-spending increase, with no placebo response. Read beside SNAP purchase restrictions and food-security measures, the implication is that assistance, restrictions, purchases, consumption, nutrition, and household security are different stages; purchase response alone cannot settle the welfare question.
+
 The [NBER long-term PM2.5 record](records/us-nber-long-term-pm25-exposure-chronic-disease-2026.json) adds a cumulative-exposure mechanism: in roughly 150,000 initially healthy US soldiers, sustained PM2.5 exposure increases circulatory disease, particularly hypertension, while shorter exposure has little detectable effect. Read with household energy, weatherization, infrastructure, and public-health evidence, the implication is that short-run exposure or savings measures can miss health-capital erosion that accumulates over years. The Army design strengthens internal comparison but does not directly generalize to civilian households or identify the full cost pathway.
 
 The [NBER roommate peer-effects record](records/us-nber-nursing-home-roommate-peer-effects-mortality-2025.json) adds a resident-placement mechanism: across 2.6 million stays, a roommate with Alzheimer’s disease or related dementia raises 90-day mortality by 2.1 percentage points relative to a private room, while cognitively healthy roommates help patients with dementia. Read with Medicaid allocation, ownership, inspection, and staffing evidence, the cross-source implication is that outcomes depend on who is placed together as well as which facility is chosen. A modeled 0.8-point overall mortality reduction is not an implemented policy and leaves privacy, preference, staffing, and quality of life open.
@@ -131,7 +133,7 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 1998 machine-readable records, 5967 observations,
+The current registry contains 1999 machine-readable records, 5968 observations,
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json): 43% of same-firm workers experienced real-wage decline across 2021–2024, 37% of all workers did, and job changers' wages rose nearly one-for-one with inflation. The cross-source implication is that firm wage rules are an upstream part of household room and consumer sentiment, but the payroll source does not observe the same workers' spending, debt, care, trust, or political action.
 
