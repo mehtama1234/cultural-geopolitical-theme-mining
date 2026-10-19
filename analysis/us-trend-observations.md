@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1993 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1994 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6709,6 +6709,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | US nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality | work, voice, cost | public_systems_feedback, firm_sector_market_power, unequal_exposure_status, work_control_bargaining, household_room_consumption | US nursing homes, government inspections, facility quality responses, inspection ratings, admissions, and patient mortality | United States | 1 | Working paper issued July 2025; revised August 2026; US nursing-home inspection and patient evidence | reported | [open](records/us-nber-nursing-home-inspection-strategic-response-mortality-2025.json) |
 
 **Boundary:** This record adds a measurement and persistence layer to the US nursing-home regulation chain. It does not disclose effect sizes, prove that inspections cause lower mortality, establish absolute quality, or measure worker conditions, resident voice, prices, profits, or long-run access in the same unit.
+
+| US nursing-home mergers reduce deficiency citations but also reduce direct-care hours without improving resident health | work, voice, cost | firm_sector_market_power, public_systems_feedback, unequal_exposure_status, work_control_bargaining, household_room_consumption | US nursing-home chain mergers, facility quality citations, direct-care hours, marginal cost, and resident health outcomes | United States; nursing-home facilities observed 1999–2019 | 1 | Working paper issued June 2025; revised July 2026; facility-level data from 1999–2019 | reported | [open](records/us-nber-nursing-home-mergers-compliance-direct-care-2025.json) |
+
+**Boundary:** This record adds an ownership and compliance-versus-care comparison to the US nursing-home chain. It does not establish that mergers improve or worsen overall quality, and it does not measure worker voice, prices, profits, resident experience, access, or long-run health in the same unit.
 
 | California nursing homes manipulate size thresholds to avoid staffing rules, limiting access for disadvantaged patients | work, voice, cost | public_systems_feedback, firm_sector_market_power, unequal_exposure_status, work_control_bargaining, household_room_consumption | California nursing-home facilities, bed-count threshold, staffing requirements, facility size manipulation, and patient access | United States; California nursing homes | 1 | Working paper issued October 2026; California nursing homes with at least 100 beds | reported | [open](records/us-nber-nursing-home-threshold-regulation-staffing-access-2026.json) |
 

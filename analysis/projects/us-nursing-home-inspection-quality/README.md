@@ -35,3 +35,11 @@ the inspection. Ratings may not measure absolute quality cleanly, yet higher
 ratings still predict lower patient mortality. The next test is to separate
 temporary compliance, persistent facility quality, patient sorting, and resident
 experience.
+
+The [merger-quality record](../../records/us-nber-nursing-home-mergers-compliance-direct-care-2025.json)
+adds the ownership test: acquired facilities show an 8% reduction in health
+deficiency citations over three years, persisting at least five years, but direct
+care hours decline and resident health does not meaningfully improve. The citation
+change is concentrated in low-severity categories, so the next test is whether
+ownership changes alter clinical outcomes, staffing quality, resident voice, and
+access rather than only compliance measures.

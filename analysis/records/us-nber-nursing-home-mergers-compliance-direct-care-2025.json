@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-nursing-home-mergers-compliance-direct-care-2025",
+  "title": "US nursing-home mergers reduce deficiency citations but also reduce direct-care hours without improving resident health",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["firm_sector_market_power", "public_systems_feedback", "unequal_exposure_status", "work_control_bargaining", "household_room_consumption"],
+  "source_unit": "US nursing-home chain mergers, facility quality citations, direct-care hours, marginal cost, and resident health outcomes",
+  "geography": "United States; nursing-home facilities observed 1999–2019",
+  "observations": [
+    {
+      "period": "Working paper issued June 2025; revised July 2026; facility-level data from 1999–2019",
+      "denominator": {"value": null, "unit": "US nursing-home facilities acquired by chains and comparison facilities; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "deficiency_citations": {"value": -8, "unit": "percent change in health deficiency citations in the three years after acquisition", "value_type": "reported_estimate"},
+        "persistence": {"value": 5, "unit": "years for which the reduction in deficiency citations persists", "value_type": "reported_duration"},
+        "direct_care_hours": {"value": null, "unit": "direct-care hours decline after merger", "value_type": "reported_direction"},
+        "citation_severity": {"value": null, "unit": "citation reduction is concentrated in low-severity categories", "value_type": "reported_distribution"},
+        "resident_health": {"value": null, "unit": "no meaningful impact of mergers on residents’ health outcomes", "value_type": "reported_null_effect"},
+        "cost_efficiency": {"value": null, "unit": "a structural model attributes the citation decline to reductions in marginal costs of serving residents", "value_type": "reported_mechanism"}
+      },
+      "method": "Facility-level staggered difference-in-differences estimates compare acquired nursing homes with comparison facilities; a structural model examines marginal costs and the proposed mechanism.",
+      "uncertainty": "The NBER abstract does not disclose facility counts, effect sizes beyond the 8% citation estimate, exact health outcomes, or all identification assumptions. The estimate is a working-paper result; citation reduction, direct-care hours, and resident health are distinct units and should not be collapsed into one quality measure.",
+      "subgroup": "Acquired facilities, with stronger reported citation effects in cross-market mergers and mergers involving smaller or low-deficiency chains.",
+      "counterinterpretation": "Acquisition selection, reporting, inspection behavior, staffing mix, resident composition, payer mix, and facility exit can affect post-merger measures; fewer citations may represent compliance or measurement change rather than better clinical care, while the reported direct-care-hour decline may vary by facility and worker category.",
+      "source_url": "https://www.nber.org/papers/w33967",
+      "retrieval_hash": "sha256:f8481e16c665be0e8ec3a24c87fcc6228313dc8df74630e7d83c4f96bcb13b4c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34037", "claim": "Nursing homes respond strategically to inspections, and higher ratings predict relative mortality despite weak absolute-quality interpretation.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35849", "claim": "California nursing homes manipulate size around a 100-bed staffing threshold, limiting access particularly for disadvantaged patients.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w32258", "claim": "Detailed nursing-home financial evidence reports widespread related-party tunneling and a gap between reported and implied investment returns.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds an ownership and compliance-versus-care comparison to the US nursing-home chain. It does not establish that mergers improve or worsen overall quality, and it does not measure worker voice, prices, profits, resident experience, access, or long-run health in the same unit."
+}
