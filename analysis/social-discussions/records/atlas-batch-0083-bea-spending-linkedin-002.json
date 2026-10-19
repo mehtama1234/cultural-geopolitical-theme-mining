@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-bea-spending-linkedin-002",
+  "atlas_record_ids": ["us-bea-personal-income-outlays-2026-august"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "official-data_interpretation_post",
+  "author_or_account": "Robert Eyler",
+  "title": "Personal Income and Outlays, August 2026",
+  "canonical_url": "https://www.linkedin.com/posts/roberteyler_personal-income-and-outlays-august-2026-activity-7511056030353666048-3Ze1",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The post links the BEA release and separates demand-side pressure from supply-side pressure, asking whether jobs and consumption or energy and agricultural prices are driving inflation. It adds a public interpretation of the same aggregate data while leaving household-level purchasing power and causal attribution unresolved.",
+  "research_anchor_paths": ["analysis/records/us-bea-personal-income-outlays-2026-august.json"],
+  "linked_research_question": "When spending remains strong, how much of the pressure comes from household demand versus supply and price pass-through?",
+  "classification": ["consumer_spending", "inflation_interpretation", "demand_supply_split", "bounded_public_discussion"],
+  "limits": ["The post offers an interpretation rather than a causal decomposition", "Aggregate PCE cannot identify which households absorb price pressure", "The post does not establish future rate decisions or consumer welfare"]
+}

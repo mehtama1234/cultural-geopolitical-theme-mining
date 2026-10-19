@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-data-center-linkedin-001",
+  "atlas_record_ids": ["us-pew-data-center-local-legitimacy-2026"],
+  "topic": "infrastructure-technology-dependency",
+  "platform": "linkedin",
+  "item_type": "survey_translation_post",
+  "author_or_account": "Laura R. Silver",
+  "title": "Republicans turn negative on data centers, rural Americans more concerned about environmental impact",
+  "canonical_url": "https://www.linkedin.com/posts/lauraruthsilver_new-from-pew-research-center-democrats-remain-activity-7508247142361243648-S8Ln",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The post links Pew's 2026 data-center survey and highlights rising concern among rural adults about environmental effects, home energy costs, and nearby quality of life. It also notes that Republicans became more negative while still seeing some local jobs and tax effects as positive. The discussion exposes a mixed benefit-cost view rather than a simple partisan or anti-technology position.",
+  "research_anchor_paths": ["analysis/records/us-pew-data-center-local-legitimacy-2026.json"],
+  "linked_research_question": "When local data centers offer jobs or tax revenue, what level of energy, water, land, and quality-of-life cost makes communities withdraw consent?",
+  "classification": ["data_center_siting", "rural_community", "public_legitimacy", "mixed_benefit_cost", "bounded_public_discussion"],
+  "limits": ["The post reports survey perceptions rather than verified local costs or permitting outcomes", "Subgroup changes do not establish why attitudes changed", "Public concern is not the same as organized opposition or project cancellation"]
+}

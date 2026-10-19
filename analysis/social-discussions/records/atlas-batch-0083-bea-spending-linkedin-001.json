@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-bea-spending-linkedin-001",
+  "atlas_record_ids": ["us-bea-personal-income-outlays-2026-august"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "official-data_translation_post",
+  "author_or_account": "Roger Brown",
+  "title": "US Inflation Cools, Consumer Spending Holds Strong",
+  "canonical_url": "https://www.linkedin.com/posts/rogerbrown2_usbea-economicdata-fedpolicy-activity-7511121563954524160-gKVK",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The post links the BEA August 2026 release and highlights 0.9% monthly personal-spending growth, 0.2% income growth, a 4.1% saving rate, and 3.0% year-over-year core PCE inflation. It frames the open question as whether consumption can stay elevated when income growth is modest. This translates the aggregate release into a household-room question without claiming that every household is spending more or that the result is causal.",
+  "research_anchor_paths": ["analysis/records/us-bea-personal-income-outlays-2026-august.json"],
+  "linked_research_question": "Can strong U.S. consumption persist when real disposable income is flat, and which households or credit channels carry the adjustment?",
+  "classification": ["consumer_spending", "income_spending_gap", "saving_rate", "official_data_translation", "bounded_public_discussion"],
+  "limits": ["The post summarizes aggregate national accounts and does not identify household groups or financing sources", "Consumption growth does not establish household welfare, debt stress, or durable demand", "The post is not an independent causal study"]
+}

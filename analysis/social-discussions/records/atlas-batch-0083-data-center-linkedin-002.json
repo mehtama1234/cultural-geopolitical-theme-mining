@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-data-center-linkedin-002",
+  "atlas_record_ids": ["us-pew-data-center-local-legitimacy-2026"],
+  "topic": "infrastructure-technology-dependency",
+  "platform": "linkedin",
+  "item_type": "industry_discussion_post",
+  "author_or_account": "Data Center Frontier",
+  "title": "Data Center Opposition Rises Amid Power, Water, and Environmental Concerns",
+  "canonical_url": "https://www.linkedin.com/posts/data-center-frontier_community-opposition-emerges-as-new-gatekeeper-activity-7436809444577153024-F0vB",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The industry discussion describes U.S. community opposition around electricity demand and rates, water use, environmental impact, land use, local benefits, and planning transparency. It frames community acceptance as a constraint on siting and development, while comments add that earlier public engagement and clearer resource disclosure may be needed. This is an industry interpretation, not proof that every project is delayed or blocked.",
+  "research_anchor_paths": ["analysis/records/us-pew-data-center-local-legitimacy-2026.json"],
+  "linked_research_question": "Does local legitimacy become a practical gate on U.S. AI infrastructure, and which disclosure or cost-sharing choices change the outcome?",
+  "classification": ["data_center_siting", "infrastructure_constraint", "community_opposition", "industry_discussion", "bounded_public_discussion"],
+  "limits": ["The post cites outside analyses and does not independently verify project-level delays", "Industry discussion may emphasize development constraints and may not represent residents or ratepayers", "It does not show whether engagement changes permitting or local costs"]
+}

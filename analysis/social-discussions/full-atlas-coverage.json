@@ -41054,40 +41054,43 @@
       "canonical_theme": "household-room-consumption",
       "title": "August consumption accelerates while real disposable income is flat and saving rises",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0083",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found in the bounded second-pass search tied to the BEA August 2026 personal income and outlays release.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion found in the bounded second-pass search tied to the BEA August 2026 personal income and outlays release.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0083-bea-spending-linkedin-001",
+            "atlas-batch-0083-bea-spending-linkedin-002"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found in the bounded second-pass search tied to the BEA August 2026 personal income and outlays release.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-bea-personal-income-outlays-2026-july",
@@ -75041,40 +75044,43 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "U.S. public concern about data centers shifts from unfamiliarity toward local infrastructure burden",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0083",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public concern about data centers shifts unfamiliarity toward local infrastructure burden pew infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found in the bounded second-pass search tied to the Pew 2026 U.S. data-center legitimacy findings.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public concern about data centers shifts unfamiliarity toward local infrastructure burden pew infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion found in the bounded second-pass search tied to the Pew 2026 U.S. data-center legitimacy findings.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "public concern about data centers shifts unfamiliarity toward local infrastructure burden pew infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0083-data-center-linkedin-001",
+            "atlas-batch-0083-data-center-linkedin-002"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "public concern about data centers shifts unfamiliarity toward local infrastructure burden pew infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found in the bounded second-pass search tied to the Pew 2026 U.S. data-center legitimacy findings.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-pew-data-centers-2026-local-legitimacy-energy-costs-community-consent",

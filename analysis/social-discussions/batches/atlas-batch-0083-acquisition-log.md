@@ -23,11 +23,29 @@ least 250 employees versus under 20% for firms with four or fewer employees,
 and treats firm size as a capacity/exposure gradient rather than proof of
 productivity, job loss, or worker benefit.
 
+Two additional rows are now augmented:
+
+- `us-bea-personal-income-outlays-2026-august` →
+  `atlas-batch-0083-bea-spending-linkedin-001` and
+  `atlas-batch-0083-bea-spending-linkedin-002`
+- `us-pew-data-center-local-legitimacy-2026` →
+  `atlas-batch-0083-data-center-linkedin-001` and
+  `atlas-batch-0083-data-center-linkedin-002`
+
+The BEA discussion adds a public question about whether strong aggregate
+consumption can persist when income growth is modest, and whether demand or
+supply conditions explain the inflation pressure. The data-center discussion
+adds a local-legitimacy layer: public concern is rising around energy costs,
+environment, quality of life, water, land, and planning transparency, while
+jobs and tax revenue remain possible benefits. Neither row establishes
+household-level financing, verified local externalities, permitting outcomes,
+or causation.
+
 ## Batch state
 
-The other nine rows remain in review. Platform gaps will be recorded after
-bounded searches; no completion claim is made for this batch or the broader
-atlas program.
+Seven rows remain in review. Platform gaps for the two augmented rows were
+recorded for Reddit, YouTube, and X after bounded searches; no completion claim
+is made for this batch or the broader atlas program.
 
 ## Limits
 
