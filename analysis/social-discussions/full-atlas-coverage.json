@@ -67627,40 +67627,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "Gender-specific labor shocks reallocate household consumption without changing total child-product spending",
       "geography": "United States; heterosexual households, product-level consumption patterns, and US industrial robot and fracking shocks",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "gender-specific labor shocks reallocate household consumption without changing total child-product spending nber household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion explicitly tied to NBER w35118 was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "gender-specific labor shocks reallocate household consumption without changing total child-product spending nber household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Search found older or generic economic-shock discussion, but no exact Reddit item identifiable to NBER w35118.",
           "social_record_ids": []
         },
         "linkedin": {
           "status": "documented_access_gap",
           "query": "gender-specific labor shocks reallocate household consumption without changing total child-product spending nber household-room-consumption 2025-10-17..2026-10-17",
           "retrieved": "2026-10-19",
-          "result_or_gap": "LinkedIn exact-title search for NBER gender shocks household bargaining consumption; returned unrelated fertility and workplace-gender posts, not this paper",
+          "result_or_gap": "Search found adjacent household-bargaining and gender-shock discussion, plus NBER posts about different papers, but no exact item identifiable to NBER w35118.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "gender-specific labor shocks reallocate household consumption without changing total child-product spending nber household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion explicitly tied to NBER w35118 was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-geoeconomic-coercion-government-firm-targets-2026",

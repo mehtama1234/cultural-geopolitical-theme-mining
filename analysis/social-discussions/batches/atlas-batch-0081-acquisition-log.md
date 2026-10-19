@@ -46,7 +46,7 @@ add a cultural permission layer to industrial adoption.
 
 The twenty linked records have a normalized result. The HBS
 AI-acceptance row now has terminal outcomes for all four platforms and is
-closed as augmented; 12 other batch rows remain in review while their
+closed as augmented; 11 other batch rows remain in review while their
 platform attempts are worked. No completion claim is made for this batch.
 
 ## LinkedIn search gaps recorded
@@ -88,7 +88,7 @@ documented YouTube and X gaps.
 
 The AI organization-capital/productivity record is likewise terminal with its
 exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
-found in the exact-title searches. Twelve other batch rows remain in review.
+found in the exact-title searches. Eleven other batch rows remain in review.
 
 The creative-destruction worker-earnings record has no exact YouTube, Reddit,
 or X match; older or broader creative-destruction discussions were retained
@@ -133,6 +133,11 @@ The flood-risk household-exposure record is terminal with an exact NBER
 LinkedIn post highlighting the distinction between aggregate exposure,
 household exposure, property ownership, and uninsured low-income vulnerability.
 Reddit, YouTube, and X produced no exact paper-linked item.
+
+The gender-specific labor-shock record is terminal with no exact social item
+tied to NBER w35118. LinkedIn and Reddit returned adjacent household-bargaining
+or economic-shock discussion, while YouTube and X produced no exact
+paper-linked item.
 
 ## Reproducibility and limits
 
