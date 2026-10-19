@@ -8,10 +8,13 @@ experiments, Gallup manager-support/displacement associations, and U.S.
 firm-size training capacity are kept as separate stages. The finding remains a
 conversion gap: AI activity or time savings do not prove worker-controlled
 time, durable earnings, bargaining leverage, consumer remedy, or household
-security. Next: acquire one U.S. industrial or consumer-facing implementation
-episode with dated exposure, training, task/pace control, human review,
-customer or worker complaint, remedy, pay/service outcome, and later exit or
-retention.
+security. Two named U.S. episodes now anchor the open middle: an AI
+customer-service experiment with 138 agents and 256,934 chats, and the
+OpenAI/Statsig DOJ recruitment settlement with potential back pay, access
+restoration, tracking controls, and oversight. Next: seek the worker/customer
+follow-through—complaint or claimant identification, correction or payment
+receipt, repeat contact or later employment, and exit or retention—without
+converting a remedy design into an outcome.
 
 **Latest U.S. housing/insurance consumer rotation — 2026-10-18:** the [property
 shock, repair, staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md)

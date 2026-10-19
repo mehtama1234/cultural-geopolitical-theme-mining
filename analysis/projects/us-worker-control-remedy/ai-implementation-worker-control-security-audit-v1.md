@@ -95,6 +95,23 @@ This scope is intentionally U.S.-bounded for the next acquisition cycle. The
 comparative cases remain useful as mechanism and counterexample records, but
 they are not substituted for U.S. industrial or consumer outcome evidence.
 
+## Named U.S. implementation and remedy episodes
+
+Two U.S. cases make the open middle more concrete:
+
+| Episode | Dated implementation/remedy evidence | What it closes | What it does not close |
+|---|---|---|---|
+| Meal-delivery customer service, randomized field experiment, December 2020–November 2021 | 138 agents and 256,934 chats; AI response suggestions reduced response time 22% and increased measured sentiment 0.45 points on a five-point scale; effects were larger for less-experienced agents, but repeat complaints and prior chatbot failures remained weak points | A firm can deploy AI assistance and measure worker-facing speed plus customer interaction outcomes; systemic complaints can remain outside the tool's capability | Customer identity across later contacts, refund/correction, retention, switching, agent pay, workload, authority, or household welfare |
+| OpenAI/Statsig U.S. PERM recruitment settlement, June 2023–August 2026 | DOJ identified five OpenAI and one Statsig recruitment episodes involving a mail-only application burden for U.S. workers; the settlement requires $1.2m to Treasury, $2m reserved for potential back pay, electronic/external posting and tracking controls, semiannual reports, and three years of IER oversight | A named AI-sector recruitment channel can be linked to an official remedy design with access restoration and monitoring obligations | Number of affected or qualified workers, individual back-pay receipt, restored opportunity, implementation compliance, later hiring, trust, or exit; the agreement is not an admission of liability and does not prove AI caused the channel design |
+
+These episodes sharpen the conversion gap. In the customer case, AI improved
+the interaction while the underlying service problem could persist. In the
+recruitment case, a formal remedy specifies the channel and oversight needed
+to restore access, but public records do not yet show the worker-level result.
+The evidence therefore supports a practical rule for future acquisitions:
+record the system's immediate metric, the affected person's usable remedy, and
+the later outcome as separate fields.
+
 ## Missing links and challenge checks
 
 - Do not join worker-task adoption to firm expectations by occupation alone.
@@ -108,6 +125,8 @@ they are not substituted for U.S. industrial or consumer outcome evidence.
 - Keep worker, employer, platform, customer, and household units separate.
 - Preserve the positive counterexample: AI can reduce routine work or improve
   safety when workers have review, participation, and a credible alternative.
+- For named episodes, distinguish system performance, access restoration,
+  payment eligibility, payment receipt, and durable worker or customer outcome.
 
 ## Stronger next test
 
@@ -120,9 +139,13 @@ The next high-value record is one same-worker or same-workplace episode with:
 5. outside alternatives, bargaining, continued work, or switching; and
 6. later earnings, job quality, recurrence, trust, and exit.
 
-If that record cannot be lawfully obtained, preserve the stage comparison and
-seek a bounded workplace or platform episode rather than infer durable control
-from aggregate adoption or expectations.
+The highest-value acquisition now is a follow-up record for one of the named
+U.S. episodes: customer complaint -> agent/system response -> correction or
+refund -> repeat contact or exit, or recruitment barrier -> claimant
+identification -> back-pay decision -> receipt -> later employment. If that
+record cannot be lawfully obtained, preserve the stage comparison and seek a
+bounded workplace or platform episode rather than infer durable control from
+aggregate adoption or expectations.
 
 ## Deeper question
 
@@ -148,6 +171,8 @@ remains active.
 - [NBER AI retraining returns](../../records/us-nber-ai-worker-retraining-returns-2026.json)
 - [NBER gig-worker outside options](../../records/us-nber-gig-economy-outside-options-labor-supply-2026.json)
 - [ACCA global talent trends](../../records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json)
+- [HBS customer-service AI experiment](../../records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json)
+- [DOJ OpenAI/Statsig recruitment settlement](../../records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json)
 - [ILO work discussion](../../social-discussions/records/ai-work-control-005.json)
 - [AI hiring discussion](../../social-discussions/records/atlas-acca-ai-hiring-linkedin-001.json)
 - [Automation and meaning discussion](../../social-discussions/records/atlas-batch-0064-automation-meaning-linkedin-001.json)

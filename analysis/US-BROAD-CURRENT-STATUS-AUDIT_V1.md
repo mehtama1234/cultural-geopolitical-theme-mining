@@ -113,8 +113,13 @@ support and displacement associations, U.S. firm-size training capacity, and
 NBER outside-option leverage. The current evidence supports a conversion gap:
 measurable AI use or productivity can arrive before worker discretion,
 bargaining power, durable earnings, consumer remedy, or household security are
-observed. Comparative cases remain mechanism checks, not substitutes for U.S.
-industrial or consumer outcomes.
+observed. It now adds two named U.S. episodes: an AI customer-service field
+experiment with 138 agents and 256,934 chats, and the OpenAI/Statsig DOJ
+recruitment settlement with potential back pay and three years of oversight.
+These close implementation/remedy stages but not individual receipt, restored
+opportunity, durable worker/customer outcomes, or household security.
+Comparative cases remain mechanism checks, not substitutes for U.S. industrial
+or consumer outcomes.
 
 The newest housing-risk depth artifact is the [property shock, repair,
 staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md).
