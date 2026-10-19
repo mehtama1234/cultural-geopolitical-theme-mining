@@ -113,7 +113,16 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 1980 machine-readable records, 5946 observations,
+The current registry contains 1981 machine-readable records, 5948 observations,
+
+The latest US consumer-finance rotation adds the [NBER Credit Card Banking
+record](records/us-nber-credit-card-banking-market-power-2026.json): broad card
+coverage and household borrowing coexist with an average rate near 22%, an
+18-point spread over the short rate, and reported 6.8% lender ROA after
+expenses. The cross-source implication is that consumer access, lender
+profitability, and household welfare are different stages; the next test is a
+borrower-weighted link from product terms and credit tier to payment burden,
+remedy, alternatives, and exit.
 
 The [Brazil BCB Pix-conversion record](records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json) adds a Latin American diary-and-preference test to the South African payment findings. Cash fell from 76.6% of recorded payments in 2019 to 40.5% in 2023, while Pix reached 24.9%; however, 17.3% had not used Pix in the prior year and 37.3% of nonusers cited lack of knowledge, while 24.2% sometimes chose another method because of internet-access difficulty. The cross-source implication is that infrastructure growth, stated preference, observed transactions, and executable capability must be separated.
 

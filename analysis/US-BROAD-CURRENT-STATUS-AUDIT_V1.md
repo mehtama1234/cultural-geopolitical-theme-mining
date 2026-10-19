@@ -511,8 +511,8 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 1980 machine-readable records, 5946 observations,
-The registry contains 1977 `us-trend-observation-record-v1` records plus 2
+**Current registry state:** 1981 machine-readable records, 5948 observations,
+The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
 currently has 2779 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
@@ -1690,6 +1690,14 @@ assessed and paid amounts remain explicit. This strengthens the payment-cost
 and recourse context without turning market totals into household welfare or
 verified remedy.
 
+The new [NBER Credit Card Banking record](records/us-nber-credit-card-banking-market-power-2026.json)
+adds the lender-side stage: regulatory account-level data cover 550 million
+monthly accounts, about 90% of the US card market; average rates are around
+22% with an 18-point spread over the short rate, and after expenses card
+lending earns a reported 6.8% ROA. This strengthens the market-power question,
+but lender profitability is not the same as borrower harm; repayment burden,
+alternatives, and realized household welfare remain open.
+
 The [CFPB Terms of Credit Card Plans product layer](projects/us-household-financial-pressure/cfpb-tccp-card-terms-2025-layer-v1.md)
 now adds the upstream offer surface for July–December 2025: 663 product rows
 from 195 named institutions, 625 purchase-APR offers, 396 rows reporting
@@ -2523,7 +2531,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1980 trend records and 5946 observations pass the
+the current checkpoint: 1981 trend records and 5948 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

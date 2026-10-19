@@ -14,6 +14,17 @@ questions. The CFPB report does not validate the NBER dollar transfer, and the
 NBER paper does not measure the later household cost of carrying a balance or
 seeking a remedy.
 
+The new [NBER Credit Card Banking record](../../records/us-nber-credit-card-banking-market-power-2026.json)
+adds the lender-side market-power stage. Using regulatory account-level data
+covering 550 million monthly accounts—about 90% of the US credit-card market—
+the paper reports average card rates around 22%, an 18-point spread over the
+short rate, charge-offs around 6%, and nearly half of households as card
+borrowers. After expenses, card lending still earns a reported 6.8% ROA,
+more than four times the banking-sector ROA; the paper estimates a 4.3%
+default-risk premium and about 1.5% alpha relative to the aggregate bank
+sector. This is a strong US lender-economics signal, but it is not a same-
+household burden or a causal proof that borrowers lack alternatives.
+
 ## Direct evidence
 
 The CFPB report uses multiple data sources as of the end of 2024, including a
@@ -63,14 +74,17 @@ The NBER paper supplies the merchant-side modeled transfer mechanism. CFPB
 supplies the market-side cost, product, credit-tier, and dispute environment.
 Together they support a stronger institutional proposition: payment access is
 not one uniform consumer experience, and visible purchase access can coexist
-with differentiated future cost and recourse. They still do not identify the
-same household's net benefit, its merchant choices, or whether a dispute was
-resolved.
+with differentiated future cost, lender profitability, and recourse. They still
+do not identify the same household's net benefit, its merchant choices,
+repayment path, or whether a dispute was resolved.
 
 ## Counterexamples and limits
 
 - A high APR or assessed fee is not the same as an amount paid or a welfare
   loss; some accounts do not revolve and some fees are avoided.
+- A high lender ROA is not by itself proof of anticompetitive pricing or
+  borrower harm; default risk, servicing, rewards, marketing, and product
+  selection remain part of the explanation.
 - A promotional APR can protect liquidity during a temporary shock, even if a
   later balance is higher; its value depends on repayment and income paths.
 - Prime-plus spending growth may reflect credit access and account composition,

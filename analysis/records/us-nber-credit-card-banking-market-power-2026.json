@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-credit-card-banking-market-power-2026",
+  "title": "US credit-card banking combines broad household use with unusually high lending spreads and returns",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "US credit-card monthly account, issuer economics, and lending-return measures",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Regulatory account-level data; monthly accounts and current credit-card market",
+      "denominator": {"value": 550000000, "unit": "monthly US credit-card accounts; approximately 90% of the US credit-card market", "value_type": "reported_market_coverage"},
+      "measures": {
+        "average_credit_card_interest_rate": {"value": 22, "unit": "percent average credit-card interest rate", "value_type": "reported_average"},
+        "spread_over_short_rate": {"value": 18, "unit": "percentage points over the short rate", "value_type": "reported_spread"},
+        "household_borrower_share": {"value": 50, "unit": "approximately percent of households that are credit-card borrowers", "value_type": "reported_approximation"},
+        "average_charge_off_rate": {"value": 6, "unit": "percent average charge-off rate", "value_type": "reported_average"}
+      },
+      "method": "NBER working paper analysis of regulatory account-level data and lifetime cash flows across 550 million monthly accounts.",
+      "uncertainty": "The abstract reports rounded market averages and an approximate household-borrower share; account coverage is very broad but is not a linked household panel of income, repayment burden, product choice, or welfare.",
+      "subgroup": "US credit-card accounts and households using credit cards; account-level measures are not interchangeable with household-level outcomes.",
+      "counterinterpretation": "A high rate or spread can reflect default risk, rewards, operating costs, credit access, and product selection; it does not by itself establish excessive pricing or realized household harm.",
+      "source_url": "https://www.nber.org/papers/w35607",
+      "retrieval_hash": "sha256:752d4587b6cd54b4f4718202706b1b686fb7f69578a9945c32962cd35c3e30b2",
+      "status": "reported"
+    },
+    {
+      "period": "Regulatory account-level data; credit-card lending economics",
+      "denominator": {"value": 550000000, "unit": "monthly US credit-card accounts in the study's approximately 90% market-coverage sample", "value_type": "reported_market_coverage"},
+      "measures": {
+        "return_on_assets_after_expenses": {"value": 6.8, "unit": "percent return on assets after operating and other expenses", "value_type": "reported_return"},
+        "banking_sector_roa_multiple": {"value": 4, "unit": "approximately multiple of the banking sector return on assets", "value_type": "reported_multiple"},
+        "default_risk_premium": {"value": 4.3, "unit": "percent default risk premium priced into credit-card rates", "value_type": "reported_estimate"},
+        "credit_card_lending_alpha": {"value": 1.5, "unit": "percent alpha relative to the aggregate bank sector after accounting for default risk", "value_type": "reported_estimate"}
+      },
+      "method": "Lifetime cash-flow accounting and cross-sectional estimation using regulatory account-level data.",
+      "uncertainty": "The reported ROA, risk-premium, and alpha estimates depend on the paper's accounting definitions, risk adjustment, sample coverage, and model assumptions; they are lender-side estimates rather than consumer-welfare estimates.",
+      "subgroup": "Credit-card lending portfolios and aggregate bank-sector comparison.",
+      "counterinterpretation": "Higher returns may compensate for servicing, marketing, fraud, liquidity, and default risks not captured by a simple rate comparison; profitability does not identify how competition, regulation, or borrower alternatives would change outcomes.",
+      "source_url": "https://www.nber.org/papers/w35607",
+      "retrieval_hash": "sha256:752d4587b6cd54b4f4718202706b1b686fb7f69578a9945c32962cd35c3e30b2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35067", "claim": "US merchant-level comparator estimating payment-system redistribution through interchange fees and rewards.", "status": "related-evidence"},
+    {"source_url": "https://www.consumerfinance.gov/data-research/research-reports/the-consumer-credit-card-market-2025/", "claim": "Official market, balance, APR, fee, promotional-product, and dispute context.", "status": "related-evidence"}
+  ],
+  "boundary": "This record establishes a broad US credit-card account and lender-economics layer. It does not establish the same household's APR, repayment burden, approval or denial, reward net benefit, merchant-price incidence, causal market power, or successful remedy. The account, lender, merchant, and household units remain separate."
+}

@@ -422,10 +422,19 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1980 machine-readable records and 5946
-observations. The trend registry holds 1980 records and
-5946 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1981 machine-readable records and 5948
+observations. The trend registry holds 1981 records and
+5948 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
+
+The latest US consumer-finance rotation adds the [NBER Credit Card Banking
+record](records/us-nber-credit-card-banking-market-power-2026.json). It follows
+card access and product offers through lender pricing, operating costs,
+profitability, household borrowing, repayment, and practical alternatives.
+The immediate next test is borrower-weighted: connect lender-side spreads and
+returns to actual APRs, balances, payment paths, income, credit tier,
+complaints, remedy, and exit without treating broad market coverage as a
+same-household panel.
 
 **Latest Brazil Pix-conversion rotation — 2026-09-30:** the [BCB payment-habits record](records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json) finds cash falling from 76.6% of diary-recorded payments in 2019 to 40.5% in 2023, while Pix reached 24.9%. Yet 17.3% had not used Pix in the prior year, and 37.3% of nonusers cited lack of knowledge. Infrastructure can move faster than consumer capability.
 
