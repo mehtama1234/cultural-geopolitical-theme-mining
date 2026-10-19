@@ -68,6 +68,15 @@ General tariff incidence debates and adjacent scale-economy commentary were
 not promoted because they did not identify NBER W34901 or its specific
 shipment-scale and 60 percent scale-adjusted pass-through findings.
 
+- `us-nber-snap-sugary-restrictions-spending-calories-tax-2026` → documented
+  access gaps on LinkedIn, Reddit, YouTube, and X.
+
+The search found an NBER LinkedIn post for related paper W35613 and public
+Reddit discussions of state waivers, stigma, and product definitions. Neither
+was promoted as evidence for target W35739 because the paper identity and its
+specific purchase, substitution, tax, and modeled-welfare estimates were not
+established in those discussions.
+
 ## Current batch state
 
 The tariff-pass-through and social-capital rows are terminal with exact
@@ -76,7 +85,8 @@ is terminal with four documented access gaps. The P&G row is augmented across
 LinkedIn, Reddit, and YouTube, with an X access gap. The pro-worker AI row is
 augmented across LinkedIn, Reddit, and YouTube, with an X access gap. The
 tariff quantity-discount row is terminal with four documented access gaps.
-Five other batch rows remain in review; no completion claim is made for the
+The SNAP restriction row is also terminal with four documented access gaps.
+Four other batch rows remain in review; no completion claim is made for the
 broader atlas program.
 
 ## Reproducibility and limits

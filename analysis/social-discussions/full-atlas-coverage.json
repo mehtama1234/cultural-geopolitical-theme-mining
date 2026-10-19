@@ -71278,40 +71278,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "SNAP restrictions on sweetened beverages and candy reduced restricted spending, calories, and sugar",
       "geography": "United States; first statewide SNAP restrictions on sweetened beverages and candy",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0082",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found within the bounded window that identified target W35739 or its restriction, substitution, and modeled-welfare findings.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Reddit discussions about state SNAP waivers and stigma were found, but no exact discussion within the bounded window identified target W35739 or its restriction, substitution, and modeled-welfare findings.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "An NBER LinkedIn post was found for related paper W35613, but no exact LinkedIn discussion within the bounded window identified target W35739 or its restriction, substitution, and modeled-welfare findings.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "snap restrictions sweetened beverages candy reduced restricted spending calories sugar purchases substitution household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found within the bounded window that identified target W35739 or its restriction, substitution, and modeled-welfare findings.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-snap-work-requirements-procedural-denials-2026",
