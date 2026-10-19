@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0081-health-insurance-competition-linkedin-001",
+  "atlas_record_ids": ["us-nber-health-insurance-competition-premiums-consumer-welfare-2026"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "research_translation_post",
+  "author_or_account": "Martin Gaynor",
+  "title": "Health Insurance Competition: Asymmetric Information Hinders Market Efficiency",
+  "canonical_url": "https://www.linkedin.com/posts/martin-gaynor_competition-in-health-insurance-markets-activity-7436750181947248641-s9rz",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The paper's author presents Competition in Health Insurance Markets as a study of the complicated interaction between asymmetric information and competition, warning that the interaction does not produce a simple pro-competition result. The post makes the consumer-welfare problem legible as an information-and-market-structure problem rather than treating concentration, premiums, or choice as interchangeable measures.",
+  "research_anchor_paths": ["analysis/records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json"],
+  "linked_research_question": "When insurer competition interacts with adverse selection and unequal information, which observable changes in premiums, plan design, networks, and switching options reveal actual consumer welfare rather than market structure alone?",
+  "classification": ["health_insurance", "market_concentration", "asymmetric_information", "consumer_welfare", "policy_translation", "bounded_public_discussion"],
+  "limits": ["The post is a short author framing and does not reproduce the paper's full estimates or market-specific evidence", "It does not by itself establish the welfare effect for any particular enrollee or market", "A single LinkedIn post is not representative of consumers, insurers, employers, providers, or regulators"]
+}

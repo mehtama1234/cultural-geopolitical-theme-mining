@@ -6,8 +6,8 @@ Scope: the 25 atlas records in `atlas-batch-0081.json`.
 
 ## Attributable normalized signals
 
-Eighteen public results were safely attributable to current-batch atlas
-records, including seventeen LinkedIn results and one Reddit discussion:
+Nineteen public results were safely attributable to current-batch atlas
+records, including eighteen LinkedIn results and one Reddit discussion:
 
 - `us-hbs-ai-automation-acceptance-human-touch-2026` → `atlas-batch-0081-ai-acceptance-linkedin-001`
 - `us-nber-immigrants-minimum-wage-labor-market-effects-2026` → `atlas-batch-0081-immigrant-minimum-wage-linkedin-001`
@@ -17,6 +17,7 @@ records, including seventeen LinkedIn results and one Reddit discussion:
 - `us-nber-ai-patent-lawyers-expertise-field-experiment-2026` → `atlas-batch-0081-patent-expertise-linkedin-001`
 - `us-nber-ai-patent-lawyers-expertise-field-experiment-2026` → `atlas-batch-0081-patent-expertise-reddit-001`
 - `us-nber-health-insurance-competition-premiums-consumer-welfare-2026` → `atlas-batch-0081-health-insurance-linkedin-001`
+- `us-nber-health-insurance-competition-premiums-consumer-welfare-2026` → `atlas-batch-0081-health-insurance-competition-linkedin-001`
 - `us-nber-credit-card-banking-market-power-2026` → `atlas-batch-0081-credit-card-linkedin-001`
 - `us-nber-flood-risk-insurance-household-exposure-2026` → `atlas-batch-0081-flood-risk-linkedin-001`
 - `us-nber-creative-destruction-worker-earnings-risk-2026` → `atlas-batch-0081-creative-destruction-linkedin-001`
@@ -27,7 +28,7 @@ records, including seventeen LinkedIn results and one Reddit discussion:
 - `us-nber-pg-ai-teamwork-expertise-social-engagement-2025` → `atlas-batch-0081-pg-ai-teamwork-linkedin-001`
 - `us-nber-minimum-wage-poor-low-income-families-2026` → `atlas-batch-0081-minimum-wage-poor-families-linkedin-001`
 
-The eighteen signals sharpen an industrial/consumer USA chain: public
+The nineteen signals sharpen an industrial/consumer USA chain: public
 acceptance and firm adoption are not the same as realized transformation;
 organization capital may be the missing complement; assisted output can
 conceal uneven expertise
@@ -42,9 +43,9 @@ add a cultural permission layer to industrial adoption.
 
 ## Current batch state
 
-The eighteen linked records have a normalized result. The HBS
+The nineteen linked records have a normalized result. The HBS
 AI-acceptance row now has terminal outcomes for all four platforms and is
-closed as augmented; 14 other batch rows remain in review while their
+closed as augmented; 13 other batch rows remain in review while their
 platform attempts are worked. No completion claim is made for this batch.
 
 ## LinkedIn search gaps recorded
@@ -121,6 +122,11 @@ The Medicaid volume-quality record is terminal with no exact social item tied
 to NBER w34118. LinkedIn returned adjacent Medicaid and nursing-home policy
 discussion, including an NBER post about a different dementia paper; Reddit,
 YouTube, and X produced no exact paper-linked item.
+
+The health-insurance competition record is terminal with an exact author post
+from Martin Gaynor linking the NBER paper and framing the interaction between
+competition and asymmetric information. Reddit, YouTube, and X produced no
+exact paper-linked item.
 
 ## Reproducibility and limits
 

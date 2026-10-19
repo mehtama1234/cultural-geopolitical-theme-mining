@@ -67872,21 +67872,21 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Health-insurer concentration links market power and adverse selection to premiums, plan design, and consumer welfare",
       "geography": "United States; commercial, Medicare Advantage, and Medicaid health-insurance markets",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-insurer concentration links market power adverse selection premiums plan design consumer welfare consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion explicitly tied to NBER w34928 was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-insurer concentration links market power adverse selection premiums plan design consumer welfare consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Search found older or adjacent health-insurance competition discussion, but no exact item tied to NBER w34928.",
           "social_record_ids": []
         },
         "linkedin": {
@@ -67895,19 +67895,20 @@
           "retrieved": "2026-10-19",
           "result_or_gap": "normalized social evidence retained",
           "social_record_ids": [
-            "atlas-batch-0081-health-insurance-linkedin-001"
+            "atlas-batch-0081-health-insurance-linkedin-001",
+            "atlas-batch-0081-health-insurance-competition-linkedin-001"
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "health-insurer concentration links market power adverse selection premiums plan design consumer welfare consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion explicitly tied to NBER w34928 was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-hepatitis-c-subscription-outcomes-2026",
