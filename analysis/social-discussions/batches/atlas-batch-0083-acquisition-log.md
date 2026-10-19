@@ -53,10 +53,23 @@ risk. The discussion supports a live question about whether households adjust
 through substitution, borrowing, missed payments, or discretionary cuts. It
 does not show which route has occurred in realized behavior.
 
+A fifth row is now augmented:
+
+- `us-census-manufacturing-misallocation-margin-input-mix-2026` →
+  `atlas-batch-0083-manufacturing-misallocation-linkedin-001`
+
+This is explicitly an adjacent comparator. The relayed Federal Reserve paper
+shows that aggregate manufacturing indicators can conceal strong subsector
+differences, including tariff-exposed price growth. It supports looking for
+where adjustment is concentrated, but does not replace the atlas study's
+margin-versus-input-mix decomposition or establish plant-level causation.
+
 ## Batch state
 
-Six rows remain in review. Platform gaps for the three augmented rows were
-recorded for Reddit, YouTube, and X after bounded searches; no completion claim
+Four rows remain in review. The business-price-pressure row reached a
+documented access gap after no exact platform discussion was found. Platform
+gaps for the five augmented rows were recorded for Reddit, YouTube, and X
+after bounded searches; no completion claim
 is made for this batch or the broader atlas program.
 
 ## Limits

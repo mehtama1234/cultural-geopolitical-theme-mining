@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-manufacturing-misallocation-linkedin-001",
+  "atlas_record_ids": ["us-census-manufacturing-misallocation-margin-input-mix-2026"],
+  "topic": "firm-sector-market-power",
+  "platform": "linkedin",
+  "item_type": "research_relay",
+  "author_or_account": "Nicole Hoffmann",
+  "title": "Federal Reserve Publishes FEDS Note on Manufacturing Heterogeneity",
+  "canonical_url": "https://www.linkedin.com/posts/nicole-hoffmann-43b17a214_beyond-aggregates-measuring-manufacturing-activity-7511588206530867201-nXt7",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The post relays a Federal Reserve FEDS Note using Census BTOS data and says aggregate manufacturing indicators can move together while industry-level data reveals substantial subsector heterogeneity. It highlights a tariff-exposure case in which more exposed subsectors show faster price growth. This is an adjacent comparator for the atlas misallocation record: both warn that aggregate manufacturing measures can conceal where adjustment and pressure are concentrated, but the FEDS Note does not estimate the atlas record's margin-versus-input-mix decomposition.",
+  "research_anchor_paths": ["analysis/records/us-census-manufacturing-misallocation-margin-input-mix-2026.json"],
+  "linked_research_question": "When aggregate manufacturing looks stable, do margin distortions, input-mix differences, or policy exposure identify the plants and subsectors carrying the adjustment?",
+  "classification": ["manufacturing", "subsector_heterogeneity", "tariff_exposure", "research_relay", "bounded_public_discussion"],
+  "limits": ["The post relays a different Federal Reserve paper and is an adjacent comparator, not the same study as the atlas anchor", "Subsector price growth does not establish allocative inefficiency, plant-level productivity, or worker outcomes", "The discussion does not independently verify the underlying estimates"]
+}

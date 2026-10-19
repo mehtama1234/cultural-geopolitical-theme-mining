@@ -44465,40 +44465,40 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Employer businesses report stronger input-price pressure than demand or employment expectations",
       "geography": "United States employer businesses, excluding farms",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0083",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found in the bounded second-pass search tied to the Census BTOS current and future input-price, demand, and employment indexes.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion found in the bounded second-pass search tied to the Census BTOS current and future input-price, demand, and employment indexes.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact indexed LinkedIn discussion found in the bounded second-pass search tied to the Census BTOS current and future input-price, demand, and employment indexes.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found in the bounded second-pass search tied to the Census BTOS current and future input-price, demand, and employment indexes.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-business-application-expectations-realization-2026",
@@ -46568,40 +46568,42 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Manufacturing misallocation can rise through both margin and input-mix differences, with decline concentrated in a few industries",
       "geography": "United States manufacturing industries and plants over the last several decades represented in the study's establishment data",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0083",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found in the bounded second-pass search tied to the Census manufacturing misallocation study or its margin-versus-input-mix finding.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion found in the bounded second-pass search tied to the Census manufacturing misallocation study or its margin-versus-input-mix finding.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0083-manufacturing-misallocation-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found in the bounded second-pass search tied to the Census manufacturing misallocation study or its margin-versus-input-mix finding.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-census-medicaid-acs-question-content-test-cms-measurement-2022",
