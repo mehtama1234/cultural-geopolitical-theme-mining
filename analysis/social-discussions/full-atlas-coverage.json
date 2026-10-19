@@ -69153,21 +69153,21 @@
       "canonical_theme": "household-room-consumption",
       "title": "US minimum wages have adverse employment, hours, and earnings effects for low-wage workers in poor families",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "minimum wages have adverse employment hours earnings effects low-wage workers poor families household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion identifiable to this paper was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "minimum wages have adverse employment hours earnings effects low-wage workers poor families household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Search found older or generic minimum-wage/poor-family debates, but no exact discussion identifiable to this paper.",
           "social_record_ids": []
         },
         "linkedin": {
@@ -69187,8 +69187,8 @@
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-monetary-policy-information-treatments-2026",
@@ -69364,21 +69364,21 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "US multinationals concentrate foreign profits in tax-planning structures adopted by a minority of firms",
       "geography": "United States multinationals with foreign operations",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinationals concentrate foreign profits tax-planning structures adopted minority firms multinational structure adoption firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion identifiable to this NBER paper was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinationals concentrate foreign profits tax-planning structures adopted minority firms multinational structure adoption firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion identifiable to this NBER paper was found in the bounded search.",
           "social_record_ids": []
         },
         "linkedin": {
@@ -69389,15 +69389,15 @@
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "multinationals concentrate foreign profits tax-planning structures adopted minority firms multinational structure adoption firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion identifiable to this NBER paper was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-native-immigrant-entrepreneurial-synergies-2025",
@@ -69610,21 +69610,21 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "US nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion identifiable to this nursing-home inspection paper was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion identifiable to this nursing-home inspection paper was found in the bounded search.",
           "social_record_ids": []
         },
         "linkedin": {
@@ -69637,15 +69637,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion identifiable to this nursing-home inspection paper was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-mergers-compliance-direct-care-2025",
@@ -69653,28 +69653,28 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "US nursing-home mergers reduce deficiency citations but also reduce direct-care hours without improving resident health",
       "geography": "United States; nursing-home facilities observed 1999–2019",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home mergers reduce deficiency citations but also direct-care hours without improving resident firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion identifiable to NBER w33967 was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home mergers reduce deficiency citations but also direct-care hours without improving resident firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion identifiable to NBER w33967 was found in the bounded search.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home mergers reduce deficiency citations but also direct-care hours without improving resident firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Search found adjacent nursing-home merger and private-equity discussion, but no exact item identifiable to NBER w33967.",
           "social_record_ids": []
         },
         "x": {
@@ -69685,8 +69685,8 @@
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-related-party-tunneling-2024",
@@ -69737,21 +69737,21 @@
       "canonical_theme": "unequal-exposure-status",
       "title": "US nursing-home roommate assignment changes mortality through patient peer effects",
       "geography": "United States; 7,200 nursing homes",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home roommate assignment changes mortality through patient peer effects stays cognitive status unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion identifiable to this nursing-home roommate paper was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home roommate assignment changes mortality through patient peer effects stays cognitive status unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion identifiable to this nursing-home roommate paper was found in the bounded search.",
           "social_record_ids": []
         },
         "linkedin": {
@@ -69764,15 +69764,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "nursing-home roommate assignment changes mortality through patient peer effects stays cognitive status unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion identifiable to this nursing-home roommate paper was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-threshold-regulation-staffing-access-2026",
@@ -69780,21 +69780,21 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "California nursing homes manipulate size thresholds to avoid staffing rules, limiting access for disadvantaged patients",
       "geography": "United States; California nursing homes",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "california nursing homes manipulate size thresholds avoid staffing rules limiting access disadvantaged public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion identifiable to this California nursing-home threshold paper was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "california nursing homes manipulate size thresholds avoid staffing rules limiting access disadvantaged public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion identifiable to this California nursing-home threshold paper was found in the bounded search.",
           "social_record_ids": []
         },
         "linkedin": {
@@ -69805,15 +69805,15 @@
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "california nursing homes manipulate size thresholds avoid staffing rules limiting access disadvantaged public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion identifiable to this California nursing-home threshold paper was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-nyc-congestion-pricing-ems-response-2026",

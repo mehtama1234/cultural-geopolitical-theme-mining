@@ -47,8 +47,9 @@ add a cultural permission layer to industrial adoption.
 
 The twenty linked records have a normalized result. The HBS
 AI-acceptance row now has terminal outcomes for all four platforms and is
-closed as augmented; 6 other batch rows remain in review while their
-platform attempts are worked. No completion claim is made for this batch.
+closed as augmented; the remaining batch rows now have terminal platform
+outcomes as documented access gaps or retained exact signals. No completion
+claim is made for the broader atlas program.
 
 ## LinkedIn search gaps recorded
 
@@ -163,6 +164,13 @@ power. Reddit, YouTube, and X produced no exact paper-linked item.
 The overtime-coverage record is terminal with no exact social item tied to
 NBER w35433. LinkedIn and Reddit returned broad overtime-policy or jobs-report
 discussion, while YouTube and X produced no exact paper-linked item.
+
+The batch reconciliation also closed the previously stale terminal rows for
+the poor-family minimum-wage, multinational tax-planning, nursing-home
+inspection, nursing-home merger, nursing-home roommate, and California
+threshold records. Their existing exact signals and platform gaps are now
+represented in the queue source of truth; no new adjacent discussion was
+promoted to evidence.
 
 ## Reproducibility and limits
 
