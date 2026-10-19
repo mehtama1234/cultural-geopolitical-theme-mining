@@ -4,21 +4,21 @@
 
 This is a routing control, not an evidence-quality, importance, or omission score. A record not directly named here can still be represented indirectly by a project finding or cross-source bridge. Direct promotion means its exact trend ID appears in the [central synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [societal subtheme register](US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md), [broad theme map](US-BROAD-THEME-SUBTHEME-MAP_V1.md), or one of the [source-led subtheme maps](US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md).
 
-The current corpus has **2010 records**; **1630** are directly named in at least one of those reader documents.
+The current corpus has **2011 records**; **1631** are directly named in at least one of those reader documents.
 
 ## Direct-ID promotion by theme
 
 | Theme | Corpus records | Directly named | Not directly named |
 |---|---:|---:|---:|
-| Unequal exposure and status | 1750 | 1428 | 322 |
-| Household room and consumption | 1242 | 991 | 251 |
+| Unequal exposure and status | 1751 | 1429 | 322 |
+| Household room and consumption | 1243 | 992 | 251 |
 | Public systems and policy feedback | 1479 | 1243 | 236 |
 | Trust, identity, and cultural meaning | 1225 | 1012 | 213 |
 | Political judgment and collective action | 777 | 625 | 152 |
 | Infrastructure, technology, and dependency | 792 | 643 | 149 |
-| Work, control, and bargaining | 707 | 572 | 135 |
-| Firm, sector, and market power | 736 | 605 | 131 |
-| Care, health, and social reproduction | 644 | 514 | 130 |
+| Work, control, and bargaining | 708 | 573 | 135 |
+| Firm, sector, and market power | 737 | 606 | 131 |
+| Care, health, and social reproduction | 645 | 515 | 130 |
 | Geopolitical and state consequences | 589 | 501 | 88 |
 | Consumer power and recourse | 365 | 282 | 83 |
 | Housing, place, and mobility | 456 | 377 | 79 |

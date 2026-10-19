@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2010 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2011 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6545,6 +6545,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Career information about work-life balance is distributed differently by student gender and shapes career intentions | work, time, voice | work_control_bargaining, time_hidden_price, unequal_exposure_status, trust_identity_meaning, care_health_reproduction | NBER Working Paper 35750, preregistered field experiment connecting college students to 10,000 working professionals | United States; college students seeking career information and working professionals responding to randomized messages | 1 | Field experiment and information intervention; paper issued September 14, 2026 | reported | [open](records/us-nber-gender-gaps-career-information-advice-2026.json) |
 
 **Boundary:** This record establishes a gendered career-information and intention pathway in a field experiment. It does not establish realized occupation, earnings, work-life balance, care burden, discrimination, household security, or universal transfer across fields and institutions.
+
+| Gender-specific labor shocks reallocate household consumption without changing total child-product spending | cost, voice, work, time | household_room_consumption, work_control_bargaining, unequal_exposure_status, firm_sector_market_power, care_health_reproduction | NBER Working Paper 35118, Gender-Specific Economic Shocks and Household Bargaining Power | United States; heterosexual households, product-level consumption patterns, and US industrial robot and fracking shocks | 3 | 2026 paper; machine-learning index built from product-level consumption patterns; US industrial robot adoption shock; household consumption response; US fracking expansion shock; household consumption response | reported | [open](records/us-nber-gender-shocks-household-bargaining-consumption-2026.json) |
+
+**Boundary:** This record adds a US industrial-shock-to-household-consumption route. It distinguishes product-composition changes, total child-product spending, and suggestive versus stronger shock evidence; it does not directly measure bargaining power, decision rights, wellbeing, parental time, prices, employment quality, or child outcomes.
 
 | Geoeconomic coercion can target foreign governments, private firms, or both | cost, voice, time | geopolitical_state_consequences, firm_sector_market_power, infrastructure_technology_dependency, trust_identity_meaning, political_judgment_action | NBER Working Paper 35343; theoretical model of great-power geoeconomic coercion through trade and financial linkages | United States/China-style hegemonic relationships with foreign governments and private firms | 1 | Model framework; trade and financial-linkage coercion scenarios | reported | [open](records/us-nber-geoeconomic-coercion-government-firm-targets-2026.json) |
 

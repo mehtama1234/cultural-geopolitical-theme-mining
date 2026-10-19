@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-gender-shocks-household-bargaining-consumption-2026",
+  "title": "Gender-specific labor shocks reallocate household consumption without changing total child-product spending",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": ["household_room_consumption", "work_control_bargaining", "unequal_exposure_status", "firm_sector_market_power", "care_health_reproduction"],
+  "source_unit": "NBER Working Paper 35118, Gender-Specific Economic Shocks and Household Bargaining Power",
+  "geography": "United States; heterosexual households, product-level consumption patterns, and US industrial robot and fracking shocks",
+  "observations": [
+    {
+      "period": "2026 paper; machine-learning index built from product-level consumption patterns",
+      "denominator": {"value": null, "unit": "single-men and single-women consumption data; abstract does not disclose the analytic sample count", "value_type": "not_disclosed"},
+      "measures": {
+        "gendered_goods_index": {"value": "The paper develops an index quantifying the gendered nature of consumer goods from single-men and single-women consumption patterns", "unit": "reported machine-learning measurement framework", "value_type": "reported_method"},
+        "household_application": {"value": "The index is used to study how gender-specific labor-market shocks influence spending within heterosexual households", "unit": "reported research design", "value_type": "reported_design"},
+        "bargaining_link": {"value": "Consumption allocation is treated as an outcome through which relative economic position may appear inside households", "unit": "bounded mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Machine-learning classification using product-level consumption patterns of single men and single women, combined with analysis of household spending responses to gender-specific labor-market shocks.",
+      "uncertainty": "The index measures product-purchase associations rather than preferences or bargaining directly; the abstract does not disclose the full data construction, sample counts, confidence intervals, or all household controls.",
+      "subgroup": "Single men, single women, and heterosexual households with different relative labor-market exposure.",
+      "counterinterpretation": "Product differences can reflect income, age, household composition, location, or marketing rather than gendered bargaining power; spending allocation is not the same as welfare or decision authority.",
+      "source_url": "https://www.nber.org/papers/w35118",
+      "retrieval_hash": "sha256:2685daa33197cd8399c7f86fc1c3b4a042d5f6eff5fd5ed010e07a6d56214a7f",
+      "status": "reported"
+    },
+    {
+      "period": "US industrial robot adoption shock; household consumption response",
+      "denominator": {"value": null, "unit": "heterosexual households exposed to local industrial robot adoption; abstract does not disclose the analytic count", "value_type": "not_disclosed"},
+      "measures": {
+        "relative_shock": {"value": "Industrial robot adoption worsened men's relative economic position", "unit": "reported labor-market shock", "value_type": "reported_shock"},
+        "consumption_reallocation": {"value": "Household consumption shifted toward products predominantly purchased by single women", "unit": "reported product-composition response", "value_type": "reported_effect"},
+        "total_children_products": {"value": "Robot exposure did not significantly alter total spending on children's products", "unit": "reported null result", "value_type": "reported_null"},
+        "daughter_son_mix": {"value": "Robot exposure reallocated spending toward products more commonly purchased for daughters than for sons", "unit": "reported child-product composition response", "value_type": "reported_effect"}
+      },
+      "method": "Household consumption analysis linked to local industrial robot exposure, using the gendered-goods index to distinguish product composition from total spending.",
+      "uncertainty": "The abstract does not provide effect sizes, exposure units, identification details, or the full child-product classification; the result does not establish changes in child wellbeing, parental time, or household decision rights.",
+      "subgroup": "Households facing industrial robot exposure that worsens men's relative economic position; child-product effects are separated by daughter/son association.",
+      "counterinterpretation": "Robot exposure can change local prices, employment, income, household composition, or product availability; the consumption shift may not be caused by bargaining power alone.",
+      "source_url": "https://www.nber.org/papers/w35118",
+      "retrieval_hash": "sha256:2685daa33197cd8399c7f86fc1c3b4a042d5f6eff5fd5ed010e07a6d56214a7f",
+      "status": "reported"
+    },
+    {
+      "period": "US fracking expansion shock; household consumption response",
+      "denominator": {"value": null, "unit": "heterosexual households exposed to fracking-driven demand for young and less-skilled men; abstract does not disclose the analytic count", "value_type": "not_disclosed"},
+      "measures": {
+        "relative_shock": {"value": "Fracking expanded demand for young and less-skilled men", "unit": "reported labor-market shock", "value_type": "reported_shock"},
+        "men_favored_goods": {"value": "Evidence of increased spending on goods favored by single men was suggestive but less robust", "unit": "reported heterogeneous result", "value_type": "reported_heterogeneity"},
+        "cross_shock_boundary": {"value": "Robot and fracking shocks do not produce symmetric or equally robust consumption responses", "unit": "bounded comparison", "value_type": "reported_comparison"}
+      },
+      "method": "Comparative household-consumption analysis using fracking exposure as a positive labor-demand shock for a male-skewed workforce and the gendered-goods index.",
+      "uncertainty": "The abstract labels this evidence suggestive and less robust; it does not establish a precise causal effect, bargaining mechanism, or durable household welfare change.",
+      "subgroup": "Households in places exposed to fracking expansion, particularly those with young and less-skilled male labor-market exposure.",
+      "counterinterpretation": "Fracking can alter housing costs, migration, local prices, work schedules, and household composition, any of which may affect consumption independently of bargaining power.",
+      "source_url": "https://www.nber.org/papers/w35118",
+      "retrieval_hash": "sha256:2685daa33197cd8399c7f86fc1c3b4a042d5f6eff5fd5ed010e07a6d56214a7f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35118", "claim": "Official NBER landing page with the machine-learning product index, robot and fracking shocks, household consumption reallocation, and child-product results.", "status": "primary-source"},
+    {"source_url": "https://doi.org/10.3386/w35118", "claim": "NBER DOI route for the working paper.", "status": "primary-source"}
+  ],
+  "boundary": "This record adds a US industrial-shock-to-household-consumption route. It distinguishes product-composition changes, total child-product spending, and suggestive versus stronger shock evidence; it does not directly measure bargaining power, decision rights, wellbeing, parental time, prices, employment quality, or child outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W35118 page reviewed for the gendered-goods machine-learning index, industrial-robot shock, fracking shock, household consumption reallocation, child-product null, daughter/son composition, and robustness boundary.",
+    "source_url_sha256": "sha256:2685daa33197cd8399c7f86fc1c3b4a042d5f6eff5fd5ed010e07a6d56214a7f",
+    "checked": "2026-10-19"
+  }
+}
