@@ -46,7 +46,11 @@ greater sales-per-worker growth in 2018–2024 for a one-standard-deviation
 increase in AI-skilled employment-share growth, not in the prior eight years.
 This is an industrial performance signal, not a causal worker or household
 result. Next: test whether named firms connect organization-capital formation
-to workforce composition, pay, training, monitoring, control, and exit.
+to workforce composition, pay, training, monitoring, control, and exit. The
+NBER U.S. workforce-composition comparator supplies a partial bridge:
+AI-investing firms show more educated, STEM, IT, and junior workers and fewer
+middle-management and senior workers, but the worker meaning of that flatter
+hierarchy remains unresolved.
 
 **Latest U.S. housing/insurance consumer rotation — 2026-10-18:** the [property
 shock, repair, staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md)

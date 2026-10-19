@@ -145,6 +145,10 @@ bargaining power, durable earnings, consumer remedy, or household security are
 observed. It now adds two named U.S. episodes: an AI customer-service field
 experiment with 138 agents and 256,934 chats, and the OpenAI/Statsig DOJ
 recruitment settlement with potential back pay and three years of oversight.
+The older NBER U.S. firm-composition comparator adds a workforce-design stage:
+AI-investing firms were associated with more educated, STEM, IT, and junior
+workers and fewer middle-management and senior workers. This is organizational
+recomposition, not proof of better pay, progression, voice, or security.
 It now adds a third named consumer episode: the FTC's announced Cleo AI refund
 distribution of 2,124,796 PayPal payments totaling more than $15.8 million;
 because the announced payment date is October 27, 2026, distribution and
