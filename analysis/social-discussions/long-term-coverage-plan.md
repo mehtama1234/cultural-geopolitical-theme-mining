@@ -1,9 +1,20 @@
 # Long-term social coverage plan
 
 This is the operating plan for adding public discussion to the existing
-14-theme research atlas. The social lane is an evidence layer over the atlas;
-it is not a replacement for the research records and it is not limited to the
+14-theme research atlas. The current queue is focused on USA industrial and
+consumer questions. The social lane is an evidence layer over the atlas; it
+is not a replacement for the research records and it is not limited to the
 three-topic pilot.
+
+## Current scope
+
+Prioritize discussion that helps explain US production, firm strategy,
+automation, investment, competition, supply chains, labor capacity, prices,
+credit, insurance, product or service quality, consumer dependence, recourse,
+switching, and household adaptation. Use adjacent themes only when they
+explain one of those industrial or consumer mechanisms. Do not treat general
+political, cultural, or international discussion as in scope without a direct
+US industrial or consumer anchor.
 
 ## Coverage rule
 

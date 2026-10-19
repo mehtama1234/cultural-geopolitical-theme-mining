@@ -2,11 +2,33 @@
 
 **Status:** active, recurring program
 **Started:** 2026-10-18
-**Scope:** all 14 atlas themes and the full registered source universe
+**Scope:** USA industrial and consumer research, using the full registered
+source universe where it directly explains production, firm strategy, market
+power, household demand, consumer exposure, or practical recovery
+
+## Current operating focus
+
+The active rotation is intentionally narrower than the full atlas. The primary
+objects are:
+
+- **Industrial USA:** production, automation, AI adoption, firm organization,
+  investment, competition, supply chains, labor capacity, infrastructure, and
+  domestic strategic capability.
+- **Consumer USA:** prices, credit, insurance, housing and utility exposure,
+  product and service quality, platform dependence, recourse, switching, and
+  household adaptation.
+
+Work, care, public systems, politics, culture, infrastructure, finance, and
+geopolitics remain supporting lenses only when they help explain an industrial
+or consumer mechanism. International evidence is comparison or context; the
+unit of interest remains the United States. This focus does not delete the
+other atlas themes or their records. It sets the next research and social-
+discussion queue.
 
 ## The standing goal
 
-Keep reviewing the atlas's research papers, surveys, administrative records,
+Keep reviewing the USA industrial and consumer parts of the atlas's research
+papers, surveys, administrative records,
 public records, company and market evidence, infrastructure data, cultural
 measures, opinion data, and geopolitical sources. Extract their important data
 points, compare them across source families, identify recurring cultural and
