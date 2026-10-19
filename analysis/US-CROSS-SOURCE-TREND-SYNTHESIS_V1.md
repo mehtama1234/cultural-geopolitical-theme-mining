@@ -113,7 +113,7 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 1986 machine-readable records, 5955 observations,
+The current registry contains 1987 machine-readable records, 5956 observations,
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json): 43% of same-firm workers experienced real-wage decline across 2021–2024, 37% of all workers did, and job changers' wages rose nearly one-for-one with inflation. The cross-source implication is that firm wage rules are an upstream part of household room and consumer sentiment, but the payroll source does not observe the same workers' spending, debt, care, trust, or political action.
 
@@ -122,6 +122,8 @@ The latest US industrial rotation adds the [NBER creative-destruction record](re
 The latest US firm-insurance rotation adds the [NBER firm-insurance and labor-income-risk record](records/us-nber-firm-insurance-labor-income-risk-2026.json): higher risk premia erode firm insurance, bad-times pass-through of firm shocks into earnings rises, and lower-paid workers near separation are especially exposed. The cross-source implication is that financial conditions can become worker risk before they appear as household hardship; the next test must connect a named firm or sector to pay, hours, separation, household room, and remedy.
 
 The latest US labor-rule comparison adds the [NBER overtime-coverage record](records/us-nber-overtime-coverage-earnings-employment-2026.json): expanded coverage raises earnings without a detected employment decline, while employers raise salaries above the threshold rather than reduce base pay or substitute more workers for fewer hours. Together with firm-insurance and creative-destruction evidence, this shows that worker risk is not one direction: financing shocks can pass risk into earnings, while a labor rule can raise pay without the expected job loss. The missing test is whether the overtime result changed paid hours, time control, household room, and durable worker bargaining.
+
+The latest US firm-structure rotation adds the [NBER dynamic-investment and product-market-rivalry record](records/us-nber-dynamic-investment-product-market-rivalry-2026.json): product rivalry drives investment and capital allocation, cost-of-capital shocks generate heterogeneous markup and investment responses, monopoly rents take a rising share of firm value, and mergers since 1995 are associated with modestly lower aggregate capital formation but uneven firm-level markup changes. The cross-source implication is that financial conditions can alter both worker insurance and firm concentration, but firm value is not consumer welfare; the next test must follow a named industry or merger into prices, suppliers, workers, and remedy.
 
 The latest US payment-infrastructure rotation adds the [NBER payment
 convenience record](records/us-nber-payment-convenience-depositor-activeness-2026.json):

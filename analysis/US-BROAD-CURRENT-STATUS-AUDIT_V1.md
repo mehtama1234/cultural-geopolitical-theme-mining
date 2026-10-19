@@ -42,6 +42,15 @@ salaries above the threshold to preserve exemption. This is a useful countercase
 to simple job-loss stories, but the abstract does not reveal effect sizes, hours,
 worker counts, or whether pay changes became durable household room.
 
+The next firm-structure addition is the [NBER dynamic-investment and
+product-market-rivalry record](records/us-nber-dynamic-investment-product-market-rivalry-2026.json).
+Across the universe of U.S. public companies, it connects product rivalry to
+investment and capital allocation, cost-of-capital shocks to heterogeneous
+investment and markup responses, and mergers to modestly lower aggregate
+capital formation with uneven firm-level markup changes. It is a firm and
+market-structure signal, not yet evidence of consumer prices, worker outcomes,
+or household welfare.
+
 The newest education-and-AI depth artifact is the [AI in education, learning,
 teacher agency, and equity audit](projects/cross-domain/ai-education-learning-agency-equity-audit-v1.md).
 It joins NBER K–12 school-capacity evidence, OECD task-performance and learning
@@ -526,7 +535,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 1986 machine-readable records, 5955 observations,
+**Current registry state:** 1987 machine-readable records, 5956 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2546,7 +2555,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1986 trend records and 5955 observations pass the
+the current checkpoint: 1987 trend records and 5956 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1986 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1987 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6425,6 +6425,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | U.S. dollar safe-asset convenience remains domestically stable while its global relative advantage has fallen | cost, voice, time | geopolitical_state_consequences, infrastructure_technology_dependency, firm_sector_market_power, public_systems_feedback, household_room_consumption | NBER Working Paper 35742 measuring convenience yields on U.S. dollar safe assets and comparing domestic and global liquidity | United States and global safe-asset markets; U.S. dollar assets, Treasurys, and repo markets | 1 | 2019-2025 with a modeled expectation for the next decade; paper issued September 14, 2026 | estimated | [open](records/us-nber-dollar-safe-asset-convenience-domestic-global-2026.json) |
 
 **Boundary:** This record establishes a macro-financial distinction between domestic dollar liquidity convenience and global relative safe-asset advantage. It does not establish household welfare, fiscal crisis, reserve-currency loss, sanctions effectiveness, geopolitical coercion, or a causal external response.
+
+| US product-market rivalry shapes investment, markups, and industry concentration | work, cost, voice | firm_sector_market_power, infrastructure_technology_dependency, household_room_consumption, work_control_bargaining, public_systems_feedback | Universe of US public companies, firm investment, cost of capital, markups, product-market rivalry, mergers, and industry concentration | United States | 1 | US public companies; paper issued September 2026; merger evidence since 1995 | reported | [open](records/us-nber-dynamic-investment-product-market-rivalry-2026.json) |
+
+**Boundary:** This record adds a US firm-investment-to-market-structure stage. It does not establish causal consumer-price effects, worker pay or control, household room, political response, or whether any particular merger increased or reduced welfare.
 
 | Online consumer search takes repeated time and can improve price discovery | cost, time, voice | consumer_power_recourse, platforms_data_attention, household_room_consumption, firm_sector_market_power, unequal_exposure_status, trust_identity_meaning | NBER Working Paper 22302; eBay search and purchase behavior dataset | Online eBay consumers and purchases; internet search behavior | 1 | eBay consumer search and purchases; paper issued 2015 | reported | [open](records/us-nber-ebay-consumer-search-costs-lower-prices-2015.json) |
 
