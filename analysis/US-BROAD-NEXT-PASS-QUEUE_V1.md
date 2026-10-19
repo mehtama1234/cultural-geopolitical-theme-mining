@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. food-policy counterpoint — 2026-10-19:** the [NBER SNAP restriction record](records/us-nber-snap-sugary-restrictions-spending-calories-tax-2026.json) reports an 11% fall in restricted spending and 5–8% reductions in purchased calories and sugar, with asymmetric substitution, little shelf-price movement, a 1.9% tax-inclusive price increase, and persistent online response. Next: compare restriction and P-EBT expansion through consumption, diet, health, food security, stigma, and unequal household burden; the $1.1 billion welfare estimate is modeled.
+
 **Latest U.S. consumer-assistance rotation — 2026-10-19:** the [NBER P-EBT purchase record](records/us-nber-p-ebt-sugary-item-spending-2026.json) finds a 16% rise in weekly sugary-item spending among SNAP-eligible households with school-aged children after P-EBT disbursement, larger than the overall food-spending increase. Next: join purchases to consumption, diet, household resources, health, and food security; do not treat purchase data as nutrition or welfare.
 
 **Latest U.S. environmental-health rotation — 2026-10-19:** the [NBER long-term PM2.5 record](records/us-nber-long-term-pm25-exposure-chronic-disease-2026.json) links roughly 150,000 initially healthy soldiers to annual pollution and quasi-random duty-station assignment; sustained exposure increases circulatory disease, especially hypertension, while short exposure has little detectable effect. Next: connect cumulative exposure to household indoor air, work, place, health costs, and unequal exposure outside the Army population.
@@ -484,9 +486,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1999 machine-readable records and 5968
-observations. The trend registry holds 1999 records and
-5968 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 2000 machine-readable records and 5969
+observations. The trend registry holds 2000 records and
+5969 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

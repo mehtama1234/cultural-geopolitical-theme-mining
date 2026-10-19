@@ -124,6 +124,14 @@ purchase result, not proof of consumption, nutrition, health, or food security;
 the next test is the same assistance episode across purchases, diet, household
 resources, and later health.
 
+The [SNAP restriction-response record](../../records/us-nber-snap-sugary-restrictions-spending-calories-tax-2026.json)
+adds the policy counterpoint: restricted spending fell 11%, while purchased
+calories and sugar fell 5–8%; substitution, online behavior, retailer prices,
+tax-inclusive prices, and stigma-related channel differences remained important.
+The modeled $1.1 billion annual gain is not an observed health result, so the
+next test is whether purchase changes persist into diet, health, food security,
+and unequal household burden.
+
 The [benefit-control finding](findings/us-safety-net-access-019.md) adds a
 different failure point: SNAP benefits can be issued but become unusable when
 an EBT account is stolen. GAO reports more than $320 million in approved

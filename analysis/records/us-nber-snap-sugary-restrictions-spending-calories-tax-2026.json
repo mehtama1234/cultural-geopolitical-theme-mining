@@ -1,0 +1,39 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-snap-sugary-restrictions-spending-calories-tax-2026",
+  "title": "SNAP restrictions on sweetened beverages and candy reduced restricted spending, calories, and sugar",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "consumer_power_recourse", "unequal_exposure_status", "care_health_reproduction"],
+  "source_unit": "US SNAP purchases of sweetened beverages and candy, restricted spending, calories, sugar, substitution, shelf prices, taxes, retailer SNAP intensity, online purchases, and modeled welfare",
+  "geography": "United States; first statewide SNAP restrictions on sweetened beverages and candy",
+  "observations": [
+    {
+      "period": "Working paper issued September 2026; first statewide SNAP restrictions",
+      "denominator": {"value": null, "unit": "SNAP purchase and retailer observations across implementing states and comparison settings; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "restricted_spending": {"value": -11, "unit": "percent change in spending on restricted sweetened beverages and candy", "value_type": "reported_estimate"},
+        "calories": {"value": "-5 to -8", "unit": "percent change in purchased calories", "value_type": "reported_estimate_range"},
+        "sugar": {"value": "-5 to -8", "unit": "percent change in purchased sugar", "value_type": "reported_estimate_range"},
+        "fruit_drink_substitution": {"value": null, "unit": "eligible fruit drinks partly offset soda declines", "value_type": "reported_substitution"},
+        "snack_substitution": {"value": null, "unit": "candy restrictions reduce purchases of eligible snacks", "value_type": "reported_substitution"},
+        "shelf_prices": {"value": null, "unit": "retailers barely change shelf prices", "value_type": "reported_direction"},
+        "tax_inclusive_price": {"value": 1.9, "unit": "percent increase from losing SNAP sales-tax exemption", "value_type": "reported_estimate"},
+        "online_response": {"value": null, "unit": "spending declines remain large online, where checkout stigma is less salient", "value_type": "reported_comparison"},
+        "modeled_welfare": {"value": 1100000000, "unit": "US dollars per year in modeled welfare gains under nationwide adoption", "value_type": "modeled_counterfactual"}
+      },
+      "method": "The paper studies the first statewide SNAP restrictions on sweetened beverages and candy using purchase, retailer, price, tax, and online-shopping comparisons, with substitution and modeled welfare analysis.",
+      "uncertainty": "The NBER abstract does not disclose sample counts, confidence intervals, exact restriction definitions, follow-up length, or the full welfare model. Purchase changes are not the same as consumption, health, food security, or household welfare; the nationwide $1.1 billion estimate is modeled, not observed.",
+      "subgroup": "SNAP recipients and retailers with different SNAP intensity, including online purchases and categories affected by soda, candy, fruit-drink, and snack substitution.",
+      "counterinterpretation": "Households may substitute across products, stores, cash purchases, or time; lower purchases can reflect avoidance, stigma, or price/tax changes rather than healthier diets, and restriction burden may vary by disability, place, retailer access, and household preference.",
+      "source_url": "https://www.nber.org/papers/w35739",
+      "retrieval_hash": "sha256:b864fcb5d53d0c167343edfcd8527dfc47376a055591799e99d58d00ef9c04a3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35835", "claim": "P-EBT disbursement increased sugary-item spending by 16% among SNAP-eligible households with school-aged children.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35659", "claim": "SNAP sugary-drink restrictions change purchases while increasing perceived stigma and producing substitution toward still-eligible drinks.", "status": "related-evidence"},
+    {"source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us", "claim": "USDA household food-security measures provide a welfare and access boundary that purchase data alone cannot establish.", "status": "related-context"}
+  ],
+  "boundary": "This record adds a restriction-response and purchase-substitution layer to the US safety-net program. It does not establish long-run consumption, nutrition, health, food security, household welfare, or that modeled nationwide benefits outweigh unequal burden for every recipient."
+}

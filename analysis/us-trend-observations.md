@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1999 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2000 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6857,6 +6857,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | SNAP purchase restrictions can change consumption while increasing the felt stigma of receiving aid | cost, voice, time | household_room_consumption, public_systems_feedback, care_health_reproduction, consumer_power_recourse, trust_identity_meaning, unequal_exposure_status | NBER Working Paper 35659, using nationwide grocery-purchase panel data, pre/post recipient surveys, and a welfare model for 2026 SNAP sugary-drink restrictions | United States; first 10 states implementing SNAP sugary-drink restrictions in the first half of 2026, with comparison states and a modeled national extension | 1 | First half of 2026 implementation in the first 10 states; policy approvals through July 2026 | reported | [open](records/us-nber-snap-sugary-drink-restrictions-consumption-stigma-2026.json) |
 
 **Boundary:** This record measures short-run purchase changes, substitution, recipient perceptions of stigma, and a modeled national welfare scenario. It does not establish long-run health, household food security, total consumption, political response, or whether the policy is experienced as respectful or coercive by every recipient.
+
+| SNAP restrictions on sweetened beverages and candy reduced restricted spending, calories, and sugar | cost, voice, time | household_room_consumption, public_systems_feedback, consumer_power_recourse, unequal_exposure_status, care_health_reproduction | US SNAP purchases of sweetened beverages and candy, restricted spending, calories, sugar, substitution, shelf prices, taxes, retailer SNAP intensity, online purchases, and modeled welfare | United States; first statewide SNAP restrictions on sweetened beverages and candy | 1 | Working paper issued September 2026; first statewide SNAP restrictions | reported | [open](records/us-nber-snap-sugary-restrictions-spending-calories-tax-2026.json) |
+
+**Boundary:** This record adds a restriction-response and purchase-substitution layer to the US safety-net program. It does not establish long-run consumption, nutrition, health, food security, household welfare, or that modeled nationwide benefits outweigh unequal burden for every recipient.
 
 | SNAP work requirements increase procedural denials through administrative burden | cost, time, voice | public_systems_feedback, household_room_consumption, unequal_exposure_status, time_hidden_price, trust_identity_meaning, political_judgment_action | NBER Working Paper 34698, administrative SNAP data analyzed with age-based exemption and waiver-period difference-in-differences designs | United States SNAP administrative-policy setting; study-selected jurisdictions and Able-Bodied Adults Without Dependents (ABAWDs), not a national participation rate | 1 | 2026 NBER Working Paper 34698; study-defined waiver and work-requirement periods | estimated | [open](records/us-nber-snap-work-requirements-procedural-denials-2026.json) |
 
