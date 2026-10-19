@@ -5,7 +5,7 @@ resilience and replaceability audit](projects/cross-domain/us-defense-industrial
 follows a bounded JASSM/LRASM chain from USAspending supplier concentration and
 component descriptions through UEI and reported-location coverage for all 74
 returned rows, focal BAE/Nashua and General Dynamics-OTS/Niceville capability
-context, and resolved DLA CAGE/UEI facility identities, Air Force production-rate and integration milestones, Polish procurement, delivery
+context, DLA CAGE facility comparisons, and explicit recipient-identifier ambiguity, Air Force production-rate and integration milestones, Polish procurement, delivery
 non-observation, and audit control gaps. The finding is a network-to-capability
 gap: supplier breadth, capacity targets, tests, and allied contracts do not
 prove a performing facility, accepted inventory, substitute production,
