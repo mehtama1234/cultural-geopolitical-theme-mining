@@ -96,11 +96,22 @@ broader thresholds as a growth path for firms that have outgrown current
 limits. The discussion is recorded as policy reaction, not as proof of the
 proposal's final effects.
 
+A ninth row is now augmented:
+
+- `comparative-icsc-consumer-economy-2026-value-tradeoffs-job-security` →
+  `atlas-batch-0083-icsc-consumer-linkedin-001` and
+  `atlas-batch-0083-icsc-consumer-linkedin-002`
+
+The ICSC discussion closes the batch's consumer tradeoff chain: spending can
+remain active while value-seeking, selectivity, price-driven increases, and
+limited shock capacity grow. This remains a conditional resilience finding,
+not proof of real consumption growth or improved welfare.
+
 ## Batch state
 
-One row remains in review. The business-price-pressure row reached a
+All 10 batch rows are now terminal. The business-price-pressure row reached a
 documented access gap after no exact platform discussion was found. Platform
-gaps for the five augmented rows were recorded for Reddit, YouTube, and X
+gaps for the nine augmented rows were recorded for Reddit, YouTube, and X
 after bounded searches; no completion claim
 is made for this batch or the broader atlas program.
 

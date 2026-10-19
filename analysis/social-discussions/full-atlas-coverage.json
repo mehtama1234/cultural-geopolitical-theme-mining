@@ -8019,40 +8019,43 @@
       "canonical_theme": "household-room-consumption",
       "title": "U.S. consumers remain willing to spend while shifting toward value, selectivity, and financial-risk management as job-security anxiety rises",
       "geography": "United States households, consumers, workers, retailers, brands, and the consumer economy",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0083",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumers remain willing spend while shifting toward value selectivity financial-risk management job-security household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found in the bounded second-pass search tied to the ICSC U.S. consumer value-tradeoff survey.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumers remain willing spend while shifting toward value selectivity financial-risk management job-security household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion found in the bounded second-pass search tied to the ICSC U.S. consumer value-tradeoff survey.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "consumers remain willing spend while shifting toward value selectivity financial-risk management job-security household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0083-icsc-consumer-linkedin-001",
+            "atlas-batch-0083-icsc-consumer-linkedin-002"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "consumers remain willing spend while shifting toward value selectivity financial-risk management job-security household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found in the bounded second-pass search tied to the ICSC U.S. consumer value-tradeoff survey.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "comparative-idb-world-bank-wto-lac-digital-trade-interoperability-2026",

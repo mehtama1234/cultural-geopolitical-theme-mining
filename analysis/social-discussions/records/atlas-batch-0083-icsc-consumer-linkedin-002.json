@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-icsc-consumer-linkedin-002",
+  "atlas_record_ids": ["comparative-icsc-consumer-economy-2026-value-tradeoffs-job-security"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "research_interpretation_article",
+  "author_or_account": "Tom McGee",
+  "title": "Consumers Continue to Spend, but Tradeoffs Are Growing",
+  "canonical_url": "https://www.linkedin.com/pulse/consumers-continue-spend-tradeoffs-growing-tom-mcgee-zko2e",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The article restates the ICSC findings that 77% report higher monthly spending, 82% expect nonessential purchases, and 72% expect to become more selective. It adds that 60% of consumers whose spending rose attributed it to higher prices, while only 14% cited higher income, and emphasizes that essentials occupy much of household budgets. It interprets spending resilience as conditional and warns that headline totals can hide reduced flexibility.",
+  "research_anchor_paths": ["analysis/records/comparative-icsc-consumer-economy-2026-value-tradeoffs-job-security.json"],
+  "linked_research_question": "Does consumer spending resilience persist when price-driven spending and essential costs leave less room for discretionary choices?",
+  "classification": ["consumer_spending", "household_budget", "value_tradeoffs", "job_security", "bounded_public_discussion"],
+  "limits": ["The article summarizes the ICSC survey and is not a causal household-budget study", "Reported spending and intentions are not observed transactions", "It does not identify income, debt, savings, regional, or product-level differences"]
+}
