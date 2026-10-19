@@ -68364,21 +68364,21 @@
       "canonical_theme": "household-room-consumption",
       "title": "US minimum-wage increases reduce hours for recently arrived immigrant workers without reducing employment",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "minimum-wage increases reduce hours recently arrived immigrant workers without reducing employment native household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title YouTube search for NBER immigrant minimum-wage hours returned no attributable result",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "minimum-wage increases reduce hours recently arrived immigrant workers without reducing employment native household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title Reddit search for NBER immigrant minimum-wage hours returned older or adjacent immigration and minimum-wage discussions, not the paper",
           "social_record_ids": []
         },
         "linkedin": {
@@ -68398,8 +68398,8 @@
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-immigration-child-mortality-disease-spillovers-2026",
@@ -70022,7 +70022,7 @@
       "canonical_theme": "household-room-consumption",
       "title": "US P-EBT disbursements increased sugary-item spending among eligible households",
       "geography": "United States; state-level P-EBT disbursement timing",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
@@ -70033,10 +70033,10 @@
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "p-ebt disbursements increased sugary-item spending among eligible households snap-eligible school-aged children disbursement household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title Reddit search for NBER P-EBT sugary-item spending returned no attributable result",
           "social_record_ids": []
         },
         "linkedin": {
@@ -70049,15 +70049,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "p-ebt disbursements increased sugary-item spending among eligible households snap-eligible school-aged children disbursement household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title X search for NBER P-EBT sugary-item spending returned no indexed attributable result",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-party-pressure-representation-house-voters-2026",

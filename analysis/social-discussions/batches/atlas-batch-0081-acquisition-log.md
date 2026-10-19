@@ -72,6 +72,11 @@ Further LinkedIn gaps were recorded for the monopsony, overtime, California
 nursing-home threshold, and US multinational tax-planning records. Search
 results were adjacent or generic and were not promoted to evidence.
 
+The P-EBT Reddit/X attempts and immigrant-minimum-wage Reddit/YouTube attempts
+were also recorded as gaps. Reddit returned older or adjacent immigration and
+minimum-wage discussion, while the exact P-EBT and immigrant-paper searches did
+not surface attributable items.
+
 ## Reproducibility and limits
 
 This was public-web discovery, not a platform-native Creator/API export.
