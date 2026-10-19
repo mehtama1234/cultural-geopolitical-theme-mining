@@ -33,6 +33,7 @@ individual receipt of remedy and durable financial recovery usually is not.
 | [OECD consumer-finance risk monitor](../../records/comparative-oecd-consumer-finance-risk-monitor-2026-scams-digital-exclusion-remedy.json), authorities in 60 jurisdictions representing 107 ministries/authorities | 85% of reporting authorities named scams/fraud among major operating risks and 69% said scams increased in 2025; phishing/vishing/smishing was selected by 83% of applicable responses | The monitor describes complaint systems, supervisory coordination, outreach, comparison tools, and conduct supervision | Consumer protection increasingly depends on detecting, contesting, and correcting harm across institutional boundaries | Authority perceptions and policy descriptions are not consumer prevalence, implementation quality, compensation, or durable recovery |
 | [UK Open Banking record](../../records/comparative-uk-open-banking-limited-2026-api-payments-users-fraud.json), ecosystem aggregates, 2025–26 | Payments grew 45% year over year; July 2026 had 2.94 billion API calls and more than 19 million monthly active connections; more than 1 billion payments occurred since inception | Open-banking fraud was reported at about 1 per 6,000 payments in 2025, with more than two-thirds of cases being authorised push-payment fraud | Routine scale can coexist with concentrated fraud exposure; payment volume is not consumer protection | Connections and API calls are not unique people; coverage is incomplete, payment value, loss severity, reimbursement, switching, and welfare are not measured; publisher outputs are related, not independent corroboration |
 | [Brazil Central Bank Pix diary](../../records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json), 1,228 diaries and 11,023 recorded payments in 2023; 1,500-person survey | Cash fell from 76.6% of recorded payments in 2019 to 40.5% in 2023; Pix was 24.9% of recorded payments; 64.9% named Pix among their two preferred methods | 17.3% had not used Pix in the prior year; among nonusers, 37.3% cited lack of knowledge; 24.2% sometimes chose another method because of internet access difficulty; cash remained a preferred method for 55.7% | Preference and actual use can coexist with knowledge, connectivity, and offline-resilience barriers | Different conditional denominators, sample waves, and survey/diary frames; no fraud, remedy, welfare, or causal Pix effect |
+| [NBER payment-convenience record](../../records/us-nber-payment-convenience-depositor-activeness-2026.json), transaction-level data from millions of US depositors and county-level Zelle rollout | Faster transfers are associated with more transfers and lower deposit growth; transfer delays raise deposit demand | Payment speed changes liquidity management and the deposit channel through which payment infrastructure reaches banks and monetary transmission | Faster payment is not only a convenience outcome; it can change account behavior and bank funding conditions | The abstract does not disclose effect sizes or full dates; transaction, county, depositor, and bank units remain separate; lower deposit growth is not automatically lower household resilience |
 
 ## What this connects to
 
@@ -55,6 +56,12 @@ Four stage distinctions matter.
    consumer, impose new setup costs, or reflect loss of trust without restoring
    the money or access that was lost. No current source follows the same case
    through both reimbursement and durable alternative use.
+
+5. **Speed is not the same as security.** The new NBER payment-convenience
+   evidence shows that faster transfers can increase transaction activity and
+   reduce deposit growth, while delays can raise deposit demand. This adds a
+   bank-funding and liquidity-management pathway, but it does not establish
+   that faster payments improve household welfare, resilience, or recourse.
 
 ## Bounded public discussion
 
@@ -87,6 +94,9 @@ expectations were held by any survey subgroup or that they changed behavior.
   replacement, non-use, and practical exit.
 - Keep publisher-related ecosystem reports from being counted as independent
   corroboration.
+- Do not infer a consumer benefit from faster transfer or a consumer harm from
+  lower deposit growth without observing liquidity needs, balances, interest,
+  payment completion, and later recovery.
 
 ## Stronger next test
 
@@ -125,6 +135,7 @@ active.
 - [OECD consumer-finance risk monitor](../../records/comparative-oecd-consumer-finance-risk-monitor-2026-scams-digital-exclusion-remedy.json)
 - [UK Open Banking ecosystem and fraud monitor](../../records/comparative-uk-open-banking-limited-2026-api-payments-users-fraud.json)
 - [Brazil Central Bank Pix payment diary](../../records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json)
+- [NBER payment convenience and depositor activeness](../../records/us-nber-payment-convenience-depositor-activeness-2026.json)
 - [Refund support discussion](../../social-discussions/records/consumer-recourse-002.json)
 - [Public bank-support reply](../../social-discussions/records/consumer-recourse-004.json)
 - [Card-terms discussion](../../social-discussions/records/atlas-batch-0048-card-terms-linkedin-001.json)

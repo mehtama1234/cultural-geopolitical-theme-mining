@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-payment-convenience-depositor-activeness-2026",
+  "title": "US payment speed changes transfer behavior and deposit demand",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "infrastructure_technology_dependency", "consumer_power_recourse", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "US depositor transaction, bank-transfer, county rollout, and deposit-demand measures",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Transaction-level data from millions of depositors; transfer-speed variation and Zelle staggered rollout",
+      "denominator": {"value": null, "unit": "millions of US depositors; exact study count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "transfer_delay_exposure": {"value": null, "unit": "matched debit-to-credit transfer delay; directionally measured, exact estimate not disclosed in the abstract", "value_type": "not_disclosed"},
+        "payment_speed_and_transfer_frequency": {"value": null, "unit": "faster transfers are associated with more transfers", "value_type": "directional_association"},
+        "payment_speed_and_deposit_growth": {"value": null, "unit": "faster payments reduce deposit growth in the study's estimates", "value_type": "reported_direction"},
+        "transfer_delay_and_deposit_demand": {"value": null, "unit": "transfer delays raise deposit demand", "value_type": "reported_model_result"}
+      },
+      "method": "Transaction-level matching of debits and credits across accounts held by the same depositor, combined with county-level exposure to Zelle's staggered rollout and a calibrated deposit-management model.",
+      "uncertainty": "The NBER abstract does not report effect sizes, sample dates, or the full identifying assumptions. The rollout design supports a causal research strategy, but the abstract alone cannot establish magnitude, household welfare, bank competition, or universal effects across payment methods.",
+      "subgroup": "US depositors and counties exposed at different times to Zelle; transaction and county units are not interchangeable with all households or all banks.",
+      "counterinterpretation": "Faster payments may change deposits through liquidity management, account substitution, interest rates, consumption volatility, or bank product selection; lower deposit growth is not automatically lower household security.",
+      "source_url": "https://www.nber.org/papers/w35638",
+      "retrieval_hash": "sha256:0df78f8a1b79b10cb17d383e6a8bc5d6bc2679bfca97c52c8d3967df65cc4397",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35607", "claim": "US credit-card lending economics and market-power comparator.", "status": "related-evidence"},
+    {"source_url": "https://www.federalreserve.gov/consumerscommunities/shed.htm", "claim": "US household liquidity, payment, and financial-adaptation context.", "status": "related-evidence"}
+  ],
+  "boundary": "This record identifies a US payment-infrastructure mechanism linking transfer delay, depositor activity, deposit growth, and monetary transmission. It does not report the abstract's omitted effect sizes, establish a same-household welfare change, measure fraud or remedy, or show that faster payments improve resilience, trust, or consumer power."
+}

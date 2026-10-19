@@ -113,7 +113,15 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 1981 machine-readable records, 5948 observations,
+The current registry contains 1982 machine-readable records, 5949 observations,
+
+The latest US payment-infrastructure rotation adds the [NBER payment
+convenience record](records/us-nber-payment-convenience-depositor-activeness-2026.json):
+faster transfers are associated with more transfers and lower deposit growth,
+while delays raise deposit demand. The cross-source implication is that
+payment speed is also a bank-funding and monetary-transmission mechanism; the
+next test is whether that infrastructure change alters household liquidity,
+completion, fraud exposure, and recourse.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking
 record](records/us-nber-credit-card-banking-market-power-2026.json): broad card
