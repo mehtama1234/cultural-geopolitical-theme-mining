@@ -68905,40 +68905,40 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Long-term moderate PM2.5 exposure increases circulatory disease among US soldiers",
       "geography": "United States; Army duty stations",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "long-term moderate pm2 exposure increases circulatory disease among soldiers army annual duty-station infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion explicitly tied to NBER w35871 was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "long-term moderate pm2 exposure increases circulatory disease among soldiers army annual duty-station infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion explicitly tied to NBER w35871 was found in the bounded search.",
           "social_record_ids": []
         },
         "linkedin": {
           "status": "documented_access_gap",
           "query": "long-term moderate pm2 exposure increases circulatory disease among soldiers army annual duty-station infrastructure-technology-dependency 2025-10-17..2026-10-17",
           "retrieved": "2026-10-19",
-          "result_or_gap": "LinkedIn exact-title search for NBER long-term moderate PM2.5 exposure and US soldiers",
+          "result_or_gap": "Search found adjacent PM2.5 and military-health discussion, including an NBER military-utilization post about a different paper, but no exact item identifiable to NBER w35871.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "long-term moderate pm2 exposure increases circulatory disease among soldiers army annual duty-station infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion explicitly tied to NBER w35871 was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-meaning-at-work-purpose-intervention-2025",
