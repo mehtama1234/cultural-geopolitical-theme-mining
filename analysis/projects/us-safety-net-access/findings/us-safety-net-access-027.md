@@ -1,6 +1,6 @@
 # Finding 027: SNAP restrictions can change consumption while increasing the felt stigma of receiving aid
 
-**Status:** bounded safety-net, consumer-behavior, health-policy, and cultural-meaning finding · **Checked:** 2026-09-22
+**Status:** bounded safety-net, consumer-behavior, health-policy, and cultural-meaning finding · **Checked:** 2026-10-18
 
 ## The bounded finding
 
@@ -26,6 +26,34 @@ SNAP purchase rule
   -> [open] long-run health, food security, and political response
 ```
 
+## Counterexample: a formal price wedge may not reach health
+
+The paired [NBER Navajo Nation study](https://www.nber.org/papers/w35662)
+examines the Healthy Diné Nation Act, which exempted healthier foods and
+beverages from sales tax while increasing tax on unhealthy items. The policy
+created a reported **7–8% price wedge**, but difference-in-differences and event
+studies using maternal and newborn birth-certificate outcomes found no
+detectable improvement in the studied diet- and weight-related health measures.
+The public abstract identifies incomplete retailer implementation and
+cross-border shopping as possible explanations, not isolated causal mechanisms.
+
+This is a useful disconfirmation check. The first-wave SNAP study shows that a
+purchase rule can change retail behavior while also increasing perceived stigma;
+the Navajo study shows that a formal price signal can coexist with a health
+null when implementation and shopping routes do not carry the policy through.
+Neither result establishes that all nutrition restrictions fail or that no
+other health, budget, or cultural outcome changed.
+
+## Bounded public discussion
+
+The [SNAP measurement discussion](../../../social-discussions/records/social-snap-current-context-linkedin-001.json)
+warns that participation counts cannot identify underlying need or food
+insecurity when administrative responsibility and measurement conditions change.
+It is not a direct evaluation of the sugary-drink rule, but it helps preserve a
+parallel boundary: visible program scale, visible purchase change, and actual
+household security are different denominators. The post is selected LinkedIn
+commentary, not population evidence.
+
 ## What this adds to the broad atlas
 
 This is a clear example of policy effectiveness and social meaning moving in
@@ -50,17 +78,24 @@ boundary more socially visible.
   fully price stigma or every substitution route.
 - The study does not establish whether stigma persists, changes participation,
   affects food security, or produces political action.
+- A place-specific price-policy null may reflect implementation, retailer
+  participation, product availability, or cross-border shopping rather than a
+  universal absence of consumer response.
 
-The next decisive artifact is a protected household panel linking SNAP policy
-exposure, EBT and cash purchases, total sugary-drink consumption, food
-security, medical outcomes, perceived respect, benefit participation, and later
-policy judgment. Until then, the safe claim is that the restriction changed
-short-run purchases and recipient perceptions at the same time.
+The next decisive artifact is a protected household-and-retailer panel linking
+SNAP policy exposure, EBT and cash purchases, total sugary-drink consumption,
+food security, medical outcomes, perceived respect, benefit participation, and
+later policy judgment. Until then, the safe claim is that the restriction
+changed short-run purchases and recipient perceptions at the same time, while a
+separate place-specific price policy did not produce a detectable measured
+health improvement.
 
 ## Sources
 
 - [NBER Working Paper 35659](https://www.nber.org/papers/w35659)
 - [University of Chicago research brief](https://bfi.uchicago.edu/insights/the-effects-of-snap-sugary-drink-restrictions-on-consumption-and-welfare/)
+- [NBER Healthy Diné Nation Act study](https://www.nber.org/papers/w35662)
+- [Bounded SNAP measurement discussion](../../../social-discussions/records/social-snap-current-context-linkedin-001.json)
 
 **Evidence status:** quasi-experimental purchase evidence and pre/post stigma
 surveys show distinct behavioral and meaning effects; long-run health,

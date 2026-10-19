@@ -6311,6 +6311,19 @@ episode ledger through risk assessment, referral, dispatch, treatment, social
 support, repeat contact, and later safety; do not treat a connected call or a
 population null as proof of individual benefit or failure.
 
+**Latest U.S. consumer nutrition-policy rotation — 2026-10-18:** the [SNAP
+consumption-and-meaning finding](projects/us-safety-net-access/findings/us-safety-net-access-027.md)
+now joins the first-wave 12.4% excluded-drink purchase reduction and 0.10–0.17
+standard-deviation stigma increase to the paired Navajo evidence: a 7–8% healthy/
+unhealthy price wedge was followed by no detectable improvement in the studied
+maternal/newborn outcomes. This is a counterexample, not a contradiction: it
+keeps consumer purchase change, health realization, retailer implementation,
+cross-border shopping, stigma, and household security separate. A bounded
+LinkedIn measurement discussion is also linked, but it is not direct policy
+evaluation. Next: seek a protected household-and-retailer route through EBT or
+cash purchase, product availability, total consumption, food security, medical
+outcomes, and durable policy judgment.
+
 **Navajo healthy-diet policy rotation — 2026-09-22:** an NBER study finds no
 detectable improvement in studied maternal and newborn outcomes after the
 Healthy Diné Nation Act created a 7–8% healthy/unhealthy food price wedge.
