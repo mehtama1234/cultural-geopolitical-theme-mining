@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. education-investment rotation — 2026-10-19:** the [NBER school-finance record](records/us-nber-school-finance-reforms-macro-output-2026.json) finds little earnings change for 10–15 years after reform, then about 4.7% higher earnings per worker after 30 years and more than 5% higher GDP per capita; the 7.8% 60-year figure is simulated. Next: test distribution across students, places, workers, household resources, and school quality rather than treating GDP as universal benefit.
+
 **Latest U.S. network-and-innovation rotation — 2026-10-19:** the [NBER economic-connectedness record](records/us-nber-social-capital-innovation-economic-connectedness-2026.json) finds that one standard deviation more high-income Facebook friendships is associated with 97% more patents per capita in patenting ZIP Codes and 45% more breakthrough patents where they occur; relocation and quasi-experimental tests support a causal interpretation. Next: trace the financing channel to firm survival, jobs, wages, local capacity, and consumer benefit.
 
 **Latest U.S. work-and-care rotation — 2026-10-19:** the [NBER fertility/remote-work record](records/us-nber-fertility-mothers-remote-work-2003-2024.json) finds that fertility reduces mothers’ labor-force participation; an additional child increased remote-work likelihood before 2020 but reduced it after 2020. Next: connect remote work to care time, schedule control, housing, earnings, employer practice, and wellbeing; do not assume remote work equals flexibility.
@@ -494,9 +496,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 2004 machine-readable records and 5973
-observations. The trend registry holds 2004 records and
-5973 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 2005 machine-readable records and 5974
+observations. The trend registry holds 2005 records and
+5974 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

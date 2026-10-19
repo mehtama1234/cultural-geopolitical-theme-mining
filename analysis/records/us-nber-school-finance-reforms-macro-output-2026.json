@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-school-finance-reforms-macro-output-2026",
+  "title": "US school-finance reforms raise long-run earnings per worker and GDP per capita after a long lag",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "work_control_bargaining", "household_room_consumption", "infrastructure_technology_dependency"],
+  "source_unit": "US state school-finance reforms, treated cohorts, earnings per worker, GDP per capita, private returns, and long-run aggregate output",
+  "geography": "United States; staggered state-level school-finance reforms",
+  "observations": [
+    {
+      "period": "Working paper issued September 2026; state reforms and long-run cohorts",
+      "denominator": {"value": null, "unit": "US states, cohorts, workers, and state-level output; exact state and cohort counts not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "simulated_earnings_10_15_years": {"value": null, "unit": "little predicted change in state-level earnings per worker during the first 10–15 years after reform", "value_type": "reported_simulation"},
+        "simulated_earnings_60_years": {"value": 7.8, "unit": "percent increase in earnings per worker after 60 years in cohort-replacement simulation", "value_type": "reported_simulation"},
+        "observed_earnings_30_years": {"value": 4.7, "unit": "percent increase in state-level earnings per worker above counterfactual after 30 years", "value_type": "reported_estimate"},
+        "gdp_per_capita_30_years": {"value": 5, "unit": "more than percent increase in GDP per capita above counterfactual after 30 years", "value_type": "reported_estimate_lower_bound"},
+        "short_run_output": {"value": null, "unit": "GDP per capita declines modestly initially before rising in the long run", "value_type": "reported_path"},
+        "private_aggregate_wedge": {"value": null, "unit": "the evidence is consistent with private earnings gains aggregating to broader economic output rather than being only signaling or displacement", "value_type": "reported_interpretation"}
+      },
+      "method": "The paper combines design-based micro estimates with a cohort-replacement simulation and tests the predicted path using staggered state school-finance reform implementation in an event-study framework.",
+      "uncertainty": "The NBER abstract does not disclose state/cohort counts, confidence intervals, exact reform features, or all event-study assumptions. Long-run aggregate estimates depend on extrapolation, cohort replacement, migration, general equilibrium, and GDP measurement; they do not establish equal gains across households or school quality in every place.",
+      "subgroup": "US state cohorts exposed to school-finance reforms, measured through earnings per worker and state GDP per capita over long horizons.",
+      "counterinterpretation": "Reforms may coincide with migration, industrial change, demographic shifts, other education policies, or selective implementation; aggregate gains can coexist with unequal local, racial, household, worker, or student outcomes.",
+      "source_url": "https://www.nber.org/papers/w35755",
+      "retrieval_hash": "sha256:e4af468e22f42e784a4d2acf5955414db3ee0461a0873c549b4740a95bffd7da",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35740", "claim": "Personalized supports for low-income students connect resources and relationships to longer-run opportunity, with implementation and outcome boundaries kept separate.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35732", "claim": "Economic connectedness is associated with substantially greater local patenting, leaving the financing-to-benefit pathway open.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35856", "claim": "Labor-force exit is concentrated among low-income and low-skill workers, illustrating why aggregate output does not equal household security.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a long-run public-investment-to-aggregate-output layer to the US education program. It does not establish equal distribution, student wellbeing, local access, worker voice, household consumption, or a complete causal pathway from reform dollars to GDP in every state."
+}

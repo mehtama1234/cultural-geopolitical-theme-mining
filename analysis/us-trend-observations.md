@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2004 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2005 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6833,6 +6833,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Income risk rose especially sharply at the top, increasing saving and wealth inequality in the model | cost, time, work | household_room_consumption, unequal_exposure_status, firm_sector_market_power, public_systems_feedback, trust_identity_meaning | NBER Working Paper 35664; digitized U.S. tax returns from 1969-2019 and a life-cycle model | United States; tax-return income distribution, permanent and transitory income risk, saving, wealth, and financial distress | 1 | 1969-2019 tax-return evidence with 2026 working-paper model | reported | [open](records/us-nber-rising-income-risk-top-tax-returns-1969-2019.json) |
 
 **Boundary:** This record adds a distributional-finance finding: risk, saving, wealth, credit conditions, and household security can move on different levels and clocks. It does not establish that top-income saving caused any particular lower-income household's rent, loan rate, wage, distress, or political response.
+
+| US school-finance reforms raise long-run earnings per worker and GDP per capita after a long lag | work, cost, voice, time | public_systems_feedback, unequal_exposure_status, work_control_bargaining, household_room_consumption, infrastructure_technology_dependency | US state school-finance reforms, treated cohorts, earnings per worker, GDP per capita, private returns, and long-run aggregate output | United States; staggered state-level school-finance reforms | 1 | Working paper issued September 2026; state reforms and long-run cohorts | reported | [open](records/us-nber-school-finance-reforms-macro-output-2026.json) |
+
+**Boundary:** This record adds a long-run public-investment-to-aggregate-output layer to the US education program. It does not establish equal distribution, student wellbeing, local access, worker voice, household consumption, or a complete causal pathway from reform dollars to GDP in every state.
 
 | Exposure to an alternative search engine can change quality beliefs and persistence beyond active choice | voice, time, cost | platforms_data_attention, consumer_power_recourse, firm_sector_market_power, public_systems_feedback, political_judgment_action | NBER Working Paper 33410; randomized field experiment with U.S. desktop internet users whose default search engine was Google, combined with a demand model and search-log evidence | United States desktop internet users; Google/Bing search market | 1 | Field experiment and model results; working paper issued January 2025 and revised February 2026 | reported | [open](records/us-nber-search-engine-market-power-field-experiment-2025.json) |
 
