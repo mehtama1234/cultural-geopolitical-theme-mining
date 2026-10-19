@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0084-cfpb-bilt-linkedin-001",
+  "atlas_record_ids": ["us-cfpb-bilt-transition-redress-2026"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "case_analysis_post",
+  "author_or_account": "Jason Mikula",
+  "title": "Sen. Warren Bilt Letter: Transition Problems and Consumer Redress",
+  "canonical_url": "https://www.linkedin.com/posts/jasonmikula_sen-warren-bilt-letter-activity-7467222770742091776-wFC9",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The post describes Bilt customers reporting delayed or inaccessible housing payments during a bank-partner transition, including poor chatbot support, and summarizes questions about affected users, escalation to human representatives, wait times, and reimbursement. It makes the consumer-recourse chain concrete: a payment-system transition can create immediate household risk before a remedy is distributed. It does not independently verify the number of affected customers or final recovery.",
+  "research_anchor_paths": ["analysis/records/us-cfpb-bilt-transition-redress-2026.json"],
+  "linked_research_question": "When a financial platform changes bank or payment partners, who carries payment-continuity risk and how quickly can a consumer reach a human remedy?",
+  "classification": ["fintech_transition", "payment_continuity", "customer_service", "redress", "bounded_public_discussion"],
+  "limits": ["The post summarizes a public letter and reporting rather than a completed investigation", "It does not establish the number of affected customers or final reimbursement", "Reports of chatbot difficulty do not measure all users' service experience"]
+}

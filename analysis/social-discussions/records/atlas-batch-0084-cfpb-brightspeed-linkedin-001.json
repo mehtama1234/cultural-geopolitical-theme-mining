@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0084-cfpb-brightspeed-linkedin-001",
+  "atlas_record_ids": ["us-cfpb-brightspeed-redress-distribution-2026"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "official_redress_relay",
+  "author_or_account": "Consumer Financial Protection Bureau",
+  "title": "CFPB to distribute more than $53 million to consumers harmed by BrightSpeed Solutions",
+  "canonical_url": "https://www.linkedin.com/posts/consumer-financial-protection-bureau_cfpb-to-distribute-more-than-53-million-activity-7221519795857367041-dAw3",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The CFPB relay states that 122,507 consumers harmed by BrightSpeed Solutions would begin receiving refund checks and provides a contact route for questions. This is a named remedy-distribution signal: eligibility and payment issuance are visible, while successful receipt, recovery of time or trust, and final household impact remain separate questions.",
+  "research_anchor_paths": ["analysis/records/us-cfpb-brightspeed-redress-distribution-2026.json"],
+  "linked_research_question": "How much of a public redress allocation becomes verified consumer recovery, and where do payment, address, eligibility, or follow-up frictions interrupt the route?",
+  "classification": ["consumer_redress", "refund_distribution", "institutional_response", "recovery_boundary", "bounded_public_discussion"],
+  "limits": ["The post reports planned or initiated distribution, not receipt by every eligible consumer", "It does not measure unrecovered losses, time costs, or trust", "The post is an agency relay rather than an independent audit of payment completion"]
+}

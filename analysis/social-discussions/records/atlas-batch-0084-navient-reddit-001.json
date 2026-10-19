@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0084-navient-reddit-001",
+  "atlas_record_ids": ["us-cfpb-navient-compensation-obligation-2026"],
+  "topic": "consumer-power-recourse",
+  "platform": "reddit",
+  "item_type": "lived_redress_reaction",
+  "author_or_account": "r/StudentLoans",
+  "title": "Refund check from CFPB v. Navient",
+  "canonical_url": "https://www.reddit.com/r/StudentLoans/comments/1r7dwkd/refund_check_from_cfpb_v_navient/",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The thread contains borrowers asking how eligibility for Navient compensation was determined, describing different experiences with the servicer, and discussing whether people received checks. It exposes the gap between a public compensation obligation and an individual's ability to know whether they qualify or recover. The thread is anecdotal and cannot estimate coverage or payment completion.",
+  "research_anchor_paths": ["analysis/records/us-cfpb-navient-compensation-obligation-2026.json"],
+  "linked_research_question": "How do affected borrowers learn that a compensation route applies to them, and what explains nonreceipt or uncertainty after a settlement is announced?",
+  "classification": ["student_loans", "compensation", "eligibility_uncertainty", "lived_example", "bounded_public_discussion"],
+  "limits": ["Self-selected Reddit discussion is not representative", "Reports of receipt or nonreceipt are not independently verified", "The thread does not establish the total eligible population or recovery rate"]
+}

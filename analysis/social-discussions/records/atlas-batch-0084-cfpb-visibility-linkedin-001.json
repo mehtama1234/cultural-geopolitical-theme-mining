@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0084-cfpb-visibility-linkedin-001",
+  "atlas_record_ids": ["us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "policy_system_interpretation",
+  "author_or_account": "Allison Schoenthal",
+  "title": "The CFPB is Correcting Flaws to Restore Integrity and Utility to the Consumer Complaint System",
+  "canonical_url": "https://www.linkedin.com/posts/allison-schoenthal-2476396_the-cfpb-is-correcting-flaws-to-restore-integrity-activity-7475985680704118785-dqv3",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The post says CFPB complaint volume grew sharply, especially in credit reporting, and interprets new dispute sequencing, authentication, and standardized response categories as attempts to restore signal quality. It highlights a central visibility problem: more recorded complaints can mean more consumer harm, more assisted or automated submissions, or both. The discussion does not show whether affected consumers receive correction or compensation.",
+  "research_anchor_paths": ["analysis/records/us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026.json"],
+  "linked_research_question": "When complaint visibility rises but submissions become more assisted or automated, what evidence still identifies genuine harm and successful consumer remedy?",
+  "classification": ["complaint_visibility", "data_quality", "authentication", "remedy_boundary", "bounded_public_discussion"],
+  "limits": ["The post interprets CFPB changes and does not measure outcomes", "Complaint volume is not a prevalence or recovery measure", "The claim about sources of complaint growth requires independent validation"]
+}

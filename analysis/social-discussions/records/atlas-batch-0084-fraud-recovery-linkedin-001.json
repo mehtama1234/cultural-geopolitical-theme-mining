@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0084-fraud-recovery-linkedin-001",
+  "atlas_record_ids": ["us-federal-reserve-household-fraud-recovery-2024", "us-consumer-loss-recourse-recovery-crosssource-2020-2025"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "official_data_translation_post",
+  "author_or_account": "Regxplora",
+  "title": "US Federal Reserve Outlines Coordinated Payments Fraud Response",
+  "canonical_url": "https://www.linkedin.com/posts/regxplora_north-america-federal-reserve-board-united-activity-7457463125924069376-EsAb",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The post relays Federal Reserve survey and payment-fraud figures: 21% of U.S. adults experienced fraud or scams in 2024, non-credit-card fraud produced $84 billion in losses, and $21 billion was recovered. It frames fraud as a household, bank, payment-system, and trust problem and notes a coordinated public-private response. The aggregate figures do not show which victims recovered or the time and administrative cost of recovery.",
+  "research_anchor_paths": ["analysis/records/us-federal-reserve-household-fraud-recovery-2024.json", "analysis/records/us-consumer-loss-recourse-recovery-crosssource-2020-2025.json"],
+  "linked_research_question": "Who carries the unrecovered loss and recovery work after fraud, and do stronger detection systems reduce consumer burden or mainly shift friction before payment?",
+  "classification": ["financial_fraud", "recovery_gap", "payments_system", "official_data_translation", "bounded_public_discussion"],
+  "limits": ["The post summarizes official figures and does not independently verify them", "Aggregate recovered dollars do not identify victim-level recovery rates or timing", "A coordinated response announcement does not establish improved consumer outcomes"]
+}

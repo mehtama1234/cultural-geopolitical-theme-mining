@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0084-cpsc-progress-reddit-001",
+  "atlas_record_ids": ["us-cpsc-recall-mpr-progress-heterogeneity-2026"],
+  "topic": "consumer-power-recourse",
+  "platform": "reddit",
+  "item_type": "lived_recall_reaction",
+  "author_or_account": "r/MideaUOwners",
+  "title": "Recall Refund Update Woes",
+  "canonical_url": "https://www.reddit.com/r/MideaUOwners/comments/1wmird7/recall_refund_update_woes/",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The thread describes a consumer waiting on a recall refund and receiving changing timelines by phone rather than a clear written update. It shows how a formal recall can still leave the individual uncertain about status, documentation, and payment. This is a lived example of implementation friction, not evidence of overall recall completion or manufacturer-wide practice.",
+  "research_anchor_paths": ["analysis/records/us-cpsc-recall-mpr-progress-heterogeneity-2026.json"],
+  "linked_research_question": "How often do recall notices become completed repair, replacement, or refund for the affected consumer, and where do communication and proof requirements interrupt that path?",
+  "classification": ["recall_implementation", "refund_delay", "consumer_uncertainty", "lived_example", "bounded_public_discussion"],
+  "limits": ["A self-selected Reddit thread cannot estimate recall-wide performance", "The account and product context require independent confirmation", "The thread does not prove whether the refund was eventually paid"]
+}

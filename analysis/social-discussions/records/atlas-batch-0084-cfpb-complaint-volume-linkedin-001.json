@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0084-cfpb-complaint-volume-linkedin-001",
+  "atlas_record_ids": ["us-cfpb-case-route-sample-2024", "us-cfpb-product-response-routes-2024-2025"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "official_report_interpretation",
+  "author_or_account": "John McNamara",
+  "title": "2025 Consumer Response Annual Report",
+  "canonical_url": "https://www.linkedin.com/posts/john-mcnamara-75a2982_2025-consumer-response-annual-report-activity-7457428269273862144--CNZ",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The post highlights 6.6 million CFPB complaints in 2025, concentration in credit reporting, and timely company responses to more than 99% of complaints sent for review. It also notes that complaint volume may be polluted by credit-repair firms, influencers, and AI-generated submissions. This creates a measurement tension: high response rates can coexist with uncertain consumer authenticity, resolution quality, and recovery.",
+  "research_anchor_paths": ["analysis/records/us-cfpb-case-route-sample-2024.json", "analysis/records/us-cfpb-product-response-routes-2024-2025.json"],
+  "linked_research_question": "When complaint volume rises and automated or intermediary submissions increase, how can researchers distinguish consumer harm, institutional response, and actual remedy?",
+  "classification": ["complaint_volume", "response_rate", "data_quality", "consumer_signal", "bounded_public_discussion"],
+  "limits": ["Timely company response does not prove correction or consumer satisfaction", "The post summarizes a report and does not independently validate the attribution of complaint volume", "Complaint counts are not prevalence estimates of all consumer harm"]
+}

@@ -1,0 +1,432 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0084",
+  "opened": "2026-10-19",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 10,
+  "atlas_record_ids": [
+    "us-cfpb-bilt-transition-redress-2026",
+    "us-cfpb-brightspeed-redress-distribution-2026",
+    "us-cfpb-case-route-sample-2024",
+    "us-cfpb-navient-compensation-obligation-2026",
+    "us-cfpb-ombudsman-redress-process-friction-2025",
+    "us-consumer-loss-recourse-recovery-crosssource-2020-2025",
+    "us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026",
+    "us-cpsc-consumer-safety-recalls-import-surveillance-fy2024",
+    "us-cpsc-recall-mpr-progress-heterogeneity-2026",
+    "us-federal-reserve-household-fraud-recovery-2024"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-cfpb-bilt-transition-redress-2026",
+      "atlas_record_path": "analysis/records/us-cfpb-bilt-transition-redress-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "A financial-service transition converts technical failure into a monitored, proactive remedy",
+      "geography": "United States consumers affected by Bilt's transition to a new bank partner",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0084",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "financial-service transition converts technical failure into monitored proactive remedy cfpb-monitored bilt transition-remediation consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "financial-service transition converts technical failure into monitored proactive remedy cfpb-monitored bilt transition-remediation consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "financial-service transition converts technical failure into monitored proactive remedy cfpb-monitored bilt transition-remediation consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "financial-service transition converts technical failure into monitored proactive remedy cfpb-monitored bilt transition-remediation consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cfpb-brightspeed-redress-distribution-2026",
+      "atlas_record_path": "analysis/records/us-cfpb-brightspeed-redress-distribution-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "A named consumer redress route identifies eligible victims and ongoing distribution, while successful recovery remains unobserved",
+      "geography": "United States; consumers who purchased technical-support services from BrightSpeed fraudster clients through RCCs",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0084",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "named consumer redress route identifies eligible victims ongoing distribution while successful recovery consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "named consumer redress route identifies eligible victims ongoing distribution while successful recovery consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "named consumer redress route identifies eligible victims ongoing distribution while successful recovery consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "named consumer redress route identifies eligible victims ongoing distribution while successful recovery consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cfpb-case-route-sample-2024",
+      "atlas_record_path": "analysis/records/us-cfpb-case-route-sample-2024.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Complaint route timing, visibility, and response categories differ sharply by financial product",
+      "geography": "United States complaint records; consumer state and ZIP are reported fields",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0084",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "complaint route timing visibility response categories differ sharply financial product capped retrieval-order consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "complaint route timing visibility response categories differ sharply financial product capped retrieval-order consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "complaint route timing visibility response categories differ sharply financial product capped retrieval-order consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "complaint route timing visibility response categories differ sharply financial product capped retrieval-order consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cfpb-navient-compensation-obligation-2026",
+      "atlas_record_path": "analysis/records/us-cfpb-navient-compensation-obligation-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Consumer compensation can coexist with an unreduced underlying obligation",
+      "geography": "United States; affected Navient/Pioneer student-loan consumers",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0084",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer compensation can coexist unreduced underlying obligation official cfpb case-level payment remedy consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer compensation can coexist unreduced underlying obligation official cfpb case-level payment remedy consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer compensation can coexist unreduced underlying obligation official cfpb case-level payment remedy consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer compensation can coexist unreduced underlying obligation official cfpb case-level payment remedy consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cfpb-ombudsman-redress-process-friction-2025",
+      "atlas_record_path": "analysis/records/us-cfpb-ombudsman-redress-process-friction-2025.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Redress access can require recipient effort and institutional escalation after payment issuance",
+      "geography": "United States; CFPB Ombudsman inquiries and anonymized servicemember example",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0084",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "redress access can require recipient effort institutional escalation after payment issuance official consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "redress access can require recipient effort institutional escalation after payment issuance official consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "redress access can require recipient effort institutional escalation after payment issuance official consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "redress access can require recipient effort institutional escalation after payment issuance official consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-consumer-loss-recourse-recovery-crosssource-2020-2025",
+      "atlas_record_path": "analysis/records/us-consumer-loss-recourse-recovery-crosssource-2020-2025.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Consumer protection has visible routing but unresolved recovery, remedy, and trust gaps",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0084",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer protection has visible routing but unresolved recovery remedy trust gaps deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer protection has visible routing but unresolved recovery remedy trust gaps deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer protection has visible routing but unresolved recovery remedy trust gaps deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer protection has visible routing but unresolved recovery remedy trust gaps deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026",
+      "atlas_record_path": "analysis/records/us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Consumer protection visibility, attention cost, remedy labels, and exit remain different endpoints",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0084",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer protection visibility attention cost remedy labels exit remain different endpoints deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer protection visibility attention cost remedy labels exit remain different endpoints deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer protection visibility attention cost remedy labels exit remain different endpoints deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer protection visibility attention cost remedy labels exit remain different endpoints deliberately consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cpsc-consumer-safety-recalls-import-surveillance-fy2024",
+      "atlas_record_path": "analysis/records/us-cpsc-consumer-safety-recalls-import-surveillance-fy2024.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Consumer safety moves through injury surveillance, recalls, import screening, and platform removal",
+      "geography": "United States; federal consumer-product safety, import, e-commerce, recall, and hospital emergency-room surveillance system",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0084",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumer safety moves through injury surveillance recalls import screening platform removal product consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumer safety moves through injury surveillance recalls import screening platform removal product consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumer safety moves through injury surveillance recalls import screening platform removal product consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumer safety moves through injury surveillance recalls import screening platform removal product consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-cpsc-recall-mpr-progress-heterogeneity-2026",
+      "atlas_record_path": "analysis/records/us-cpsc-recall-mpr-progress-heterogeneity-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Recall implementation reports vary widely across keys without establishing consumer recovery",
+      "geography": "United States product market",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0084",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "recall implementation reports vary widely across keys without establishing consumer recovery cpsc consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "recall implementation reports vary widely across keys without establishing consumer recovery cpsc consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "recall implementation reports vary widely across keys without establishing consumer recovery cpsc consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "recall implementation reports vary widely across keys without establishing consumer recovery cpsc consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-household-fraud-recovery-2024",
+      "atlas_record_path": "analysis/records/us-federal-reserve-household-fraud-recovery-2024.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Household fraud exposure separates into direct loss, recovery failure, and substantial time cost",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0084",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household fraud exposure separates into direct loss recovery failure substantial time cost consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household fraud exposure separates into direct loss recovery failure substantial time cost consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household fraud exposure separates into direct loss recovery failure substantial time cost consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household fraud exposure separates into direct loss recovery failure substantial time cost consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}
