@@ -1,0 +1,48 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-creative-destruction-worker-earnings-risk-2026",
+  "title": "US product-market creative destruction passes asymmetric risk through to incumbent workers",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback"],
+  "source_unit": "US administrative worker earnings, firm product-market innovation, incumbent employment, and technology-driven creative-destruction measures",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Working paper issued July 2026; US administrative data and product-market innovation exposure",
+      "denominator": {"value": null, "unit": "US administrative worker and firm observations; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "rival_innovation_earnings_effect": {"value": null, "unit": "profit drops from rival innovations produce proportionally greater incumbent-worker earnings declines than profit gains from own-firm innovations produce gains", "value_type": "reported_asymmetry"},
+        "rival_innovation_job_destruction_effect": {"value": null, "unit": "rival-innovation profit drops change the likelihood of job destruction; exact estimate not disclosed in the abstract", "value_type": "reported_effect"},
+        "top_worker_exposure": {"value": null, "unit": "top workers are significantly more exposed than the average worker", "value_type": "reported_distributional_pattern"}
+      },
+      "method": "US administrative data linking worker earnings and employment with product-market innovation and firm-profit changes; the paper also develops an endogenous-growth model with monopsonistic labor markets and worker heterogeneity.",
+      "uncertainty": "The NBER abstract does not disclose sample counts, effect sizes, exposure windows, or the full identification strategy. The paper is a working paper and combines empirical evidence with a model; it does not directly observe every worker's bargaining, household resources, or political response.",
+      "subgroup": "Incumbent workers, top workers relative to average workers, firms gaining from own innovation, and firms losing profits to rival innovation.",
+      "counterinterpretation": "Earnings or job losses after rival innovation may reflect firm demand, occupation mix, worker selection, or broader industry shocks rather than technology alone; upward mobility for lower-income workers does not imply that displaced workers recover quickly or equally.",
+      "source_url": "https://www.nber.org/papers/w35542",
+      "retrieval_hash": "sha256:3729877c3213b5f8d7e801916946bfaa42c8ad9b11ca203763c31174d8c502c2",
+      "status": "reported"
+    },
+    {
+      "period": "Working paper model; innovation policy and labor-income risk",
+      "denominator": {"value": null, "unit": "calibrated endogenous-growth model; no single population denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "high_income_worker_downside": {"value": "concentrated downside risk from creative destruction", "unit": "modeled distributional result", "value_type": "modeled_result"},
+        "lower_income_worker_upward_mobility": {"value": "innovation increases upward mobility for lower-income workers", "unit": "modeled distributional result", "value_type": "modeled_result"},
+        "innovation_policy_welfare": {"value": "welfare consequences depend on the asymmetric distribution of earnings risk and mobility", "unit": "modeled policy mechanism", "value_type": "modeled_result"}
+      },
+      "method": "Endogenous-growth model with monopsonistic labor markets and heterogeneous workers calibrated to the empirical asymmetry and earnings-risk distribution.",
+      "uncertainty": "Model results depend on calibration, functional forms, labor-market frictions, and how innovation exposure maps to worker outcomes; they do not establish that any specific innovation policy improves welfare in a named place or industry.",
+      "subgroup": "Modeled high-income and lower-income workers facing different innovation exposure and mobility paths.",
+      "counterinterpretation": "A worker's ability to move upward may depend on geography, credentials, care, discrimination, savings, and local demand; aggregate upward mobility can coexist with durable losses for displaced incumbents.",
+      "source_url": "https://www.nber.org/papers/w35542",
+      "retrieval_hash": "sha256:3729877c3213b5f8d7e801916946bfaa42c8ad9b11ca203763c31174d8c502c2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35624", "claim": "US firm wage-setting norms and real-wage losses during 2021–2024.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35640", "claim": "US worker and firm heterogeneity in labor-supply elasticity and modeled wage markdowns.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a US product-market-to-worker-risk mechanism. It does not report the abstract's omitted effect sizes, establish causal technology exposure for every worker, measure household hardship, bargaining or voice, or show whether mobility and policy responses restore earnings after job destruction."
+}

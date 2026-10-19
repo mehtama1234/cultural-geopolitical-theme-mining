@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1983 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1984 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6389,6 +6389,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Survey error often comes from respondents failing to report receipt, not only from nonresponse | voice, cost, time | public_systems_feedback, unequal_exposure_status, trust_identity_meaning, household_room_consumption, care_health_reproduction | NBER Working Paper 35680; CPS ASEC linked to administrative records for income and program receipt over more than two decades | United States; CPS ASEC income and program-receipt variables benchmarked against linked administrative records | 1 | CPS ASEC and administrative records over more than two decades; paper issued August 2026 | reported | [open](records/us-nber-cps-asec-total-survey-error-18-variables-2026.json) |
 
 **Boundary:** This record adds a survey-governance finding: public data can look stable in net terms while individual reporting and absolute error worsen. It does not establish the true population value for every variable, invalidate CPS trends wholesale, or identify each respondent's reason for error.
+
+| US product-market creative destruction passes asymmetric risk through to incumbent workers | work, cost, voice | work_control_bargaining, firm_sector_market_power, unequal_exposure_status, household_room_consumption, public_systems_feedback | US administrative worker earnings, firm product-market innovation, incumbent employment, and technology-driven creative-destruction measures | United States | 2 | Working paper issued July 2026; US administrative data and product-market innovation exposure; Working paper model; innovation policy and labor-income risk | reported | [open](records/us-nber-creative-destruction-worker-earnings-risk-2026.json) |
+
+**Boundary:** This record adds a US product-market-to-worker-risk mechanism. It does not report the abstract's omitted effect sizes, establish causal technology exposure for every worker, measure household hardship, bargaining or voice, or show whether mobility and policy responses restore earnings after job destruction.
 
 | US credit-card banking combines broad household use with unusually high lending spreads and returns | cost, voice | household_room_consumption, consumer_power_recourse, unequal_exposure_status, firm_sector_market_power | US credit-card monthly account, issuer economics, and lending-return measures | United States | 2 | Regulatory account-level data; monthly accounts and current credit-card market; Regulatory account-level data; credit-card lending economics | reported | [open](records/us-nber-credit-card-banking-market-power-2026.json) |
 

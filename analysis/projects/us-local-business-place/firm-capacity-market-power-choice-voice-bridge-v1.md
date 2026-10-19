@@ -32,6 +32,7 @@ into a single firm-power index.
 | Firm capacity | World Bank Enterprise Survey: 2,589 U.S. establishments; formal training was 29.1% among small, 59.1% medium, and 78.9% large firms; employment growth was 4.2%, 6.4%, and 12.6%. | Larger establishments report more training and employment growth, but also more outage exposure; scale is mixed capacity and vulnerability. | Firm-level AI deployment, productivity, worker control, customer prices, and survival. |
 | AI expectations | NBER W34836 survey of nearly 6,000 executives in the U.S., UK, Germany, and Australia; 69% of firms actively used AI, 90% reported no past three-year employment/productivity impact, while employers expected -0.7% employment and employees +0.5% over the next three years. | Adoption, retrospective experience, and expectations are different clocks. | Real employment, pay, task changes, implementation, and worker bargaining. |
 | Worker sorting and power | NBER W35640 model attributes 78% of variable labor-supply-elasticity variation and 89% of large/small-firm markdown differences to worker heterogeneity in the model. | Who sorts into firms can matter as much as firm size in the model. | Named-firm wages, worker welfare, discrimination, and observed control. |
+| Product-market creative destruction | NBER W35542 uses US administrative data to link rival innovation, incumbent-worker earnings, and job-destruction risk; the downside from rival innovation is larger than the upside from own-firm innovation, and top workers are more exposed than average. | Firm competition can transmit uneven technological risk into worker income and employment, not only into product prices or firm profits. | Exact effect sizes, named sectors/firms, household room, bargaining, mobility, and recovery after job destruction. |
 | Employer political power | NBER W35676 combines worker survey evidence, a model, and shift-share voting design; major local employers are linked to more employer political communication, and higher electoral monopsony power is associated with higher Republican turnout. | Local job dependence can be a political channel, not only a wage channel. | Same worker’s message, belief, vote, dependence, coercion, and later correction. |
 | Information defaults | NBER W33410 randomized about 2,300 U.S. desktop Google users; active choice raised Bing share 1.1 points, paid exposure changed quality beliefs, 33% preferred continuing Bing after trial, and a model counterfactual removed 15 points of market share from frictions/misperceptions. | Defaults, information, and switching friction shape practical competition. | Durable switching, mobile/general population effects, privacy, security, and welfare. |
 | Customer exit | A public software-renewal discussion reports a 68% price increase, costly migration, and a later retention offer after switching. | Switching cost can create leverage, but a large shock can make exit worthwhile. | Independently verified price, market prevalence, customer welfare, and competitor viability. |
@@ -40,7 +41,8 @@ Primary records: [firm capacity and AI adoption](../../records/us-firm-capacity-
 [firm AI expectations](../../records/us-nber-firm-ai-expectations-2026.json),
 [employer market power and political influence](../../records/us-nber-employer-market-power-political-influence-2026.json),
 [search-engine market power](../../records/us-nber-search-engine-market-power-field-experiment-2025.json),
-and [labor-market power heterogeneity](../../records/us-nber-labor-market-power-heterogeneity-2026.json).
+and [labor-market power heterogeneity](../../records/us-nber-labor-market-power-heterogeneity-2026.json),
+and [creative destruction and worker earnings risk](../../records/us-nber-creative-destruction-worker-earnings-risk-2026.json).
 
 ## What the evidence shows together
 
@@ -98,6 +100,8 @@ Employer communication, worker dependence, vote, and welfare remain distinct.
   regulation, or worker resistance limits adoption.
 - Worker sorting can reflect amenities, care constraints, discrimination,
   information, or firm quality rather than employer monopsony alone.
+- Product innovation can create new jobs, lower prices, and upward mobility even
+  while imposing concentrated earnings and job-loss risk on incumbent workers.
 
 ## Bounded social discussion
 
@@ -130,6 +134,9 @@ communication, dependence, vote or voice, and later mobility. For customer
 cases, record contract term, migration time/cost, alternative quality, and
 post-switch result. For AI adoption, join firm expectation to implementation,
 task, worker control, output, and employment—not only executive opinion.
+For product-market innovation, join the rival shock to an identifiable worker
+and firm through earnings, separation, mobility, household room, and later
+voice or political response.
 
 ## Current answer
 

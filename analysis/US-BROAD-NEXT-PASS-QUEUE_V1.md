@@ -422,9 +422,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1983 machine-readable records and 5951
-observations. The trend registry holds 1983 records and
-5951 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1984 machine-readable records and 5953
+observations. The trend registry holds 1984 records and
+5953 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking
@@ -442,6 +442,13 @@ household room, consumer sentiment, and political judgment. The next test is a
 same-worker or linked-household design joining payroll wages to prices, debt,
 spending, care, trust, and action; payroll averages alone cannot prove lived
 hardship or attribution.
+
+The latest US industrial rotation adds the [NBER creative-destruction record](records/us-nber-creative-destruction-worker-earnings-risk-2026.json).
+It follows product-market innovation through rival-firm losses, incumbent
+worker earnings, job destruction, mobility, and uneven welfare. The next test
+is a named industry or firm episode that joins the innovation shock to worker
+separation, reemployment, household room, and voice; the model and aggregate
+administrative result do not prove recovery for displaced people.
 
 The latest US payment-infrastructure rotation adds the [NBER payment
 convenience record](records/us-nber-payment-convenience-depositor-activeness-2026.json).
