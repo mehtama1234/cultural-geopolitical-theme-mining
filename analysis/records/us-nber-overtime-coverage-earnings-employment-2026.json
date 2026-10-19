@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-overtime-coverage-earnings-employment-2026",
+  "title": "US overtime coverage expansion raised earnings without an employment decline",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "US administrative payroll data, salaried-worker overtime thresholds, earnings, employment, and employer exemption responses",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2014–2021 state-level salary-threshold changes; working paper issued July 2026",
+      "denominator": {"value": null, "unit": "US administrative payroll records; exact worker and establishment counts not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "worker_earnings": {"value": null, "unit": "expanding overtime coverage increases workers' earnings", "value_type": "reported_direction"},
+        "employment": {"value": null, "unit": "no negative employment effect detected", "value_type": "reported_null_effect"},
+        "employer_response": {"value": null, "unit": "employers raise salaries above the threshold to keep workers exempt rather than lowering base pay or substituting more workers for fewer hours", "value_type": "reported_mechanism"},
+        "monitoring_cost": {"value": null, "unit": "costly monitoring and adjustment of workers' hours helps explain the employer response", "value_type": "reported_mechanism"}
+      },
+      "method": "Event-study design using administrative payroll data and state-level overtime salary-threshold changes from 2014–2021.",
+      "uncertainty": "The NBER abstract does not disclose worker counts, effect sizes, hours changes, subgroup estimates, or the full event-study specification. The paper is a working paper; no employment decline detected is not proof that every worker gained time control or that all firms responded the same way.",
+      "subgroup": "Salaried workers near overtime salary thresholds and employers deciding whether to reclassify, raise pay, or adjust hours.",
+      "counterinterpretation": "Threshold changes may coincide with other state labor-market policies or local conditions; measured earnings may reflect classification and salary changes rather than paid overtime hours, improved job quality, or durable household room.",
+      "source_url": "https://www.nber.org/papers/w35433",
+      "retrieval_hash": "sha256:4d7d187c82479201051477d5df45d82b4ba91922f5a3d482cd2da23a5a99d996",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35781", "claim": "US financial conditions can erode firm insurance and increase labor-income risk in bad times.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35542", "claim": "US rival innovation creates asymmetric incumbent-worker earnings and job-destruction risk.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a US policy-to-pay-and-employment comparison. It does not establish worker control over time, long-run earnings, household outcomes, firm profitability, bargaining, or whether the result generalizes beyond workers near the affected thresholds and the 2014–2021 state-policy setting."
+}

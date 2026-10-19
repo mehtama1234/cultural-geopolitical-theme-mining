@@ -9,6 +9,16 @@ connect a named U.S. firm or sector to financing conditions, hours/pay,
 separation, worker voice, household room, and any realized transfer or remedy;
 do not treat modeled recession-contingent transfers as implemented protection.
 
+The next comparison tests the response boundary with the [NBER overtime-coverage
+record](records/us-nber-overtime-coverage-earnings-employment-2026.json): state
+salary-threshold changes raised earnings without a detected employment decline,
+and firms raised salaries above the threshold rather than lowering base pay or
+substituting more workers for fewer hours. Curiosity questions: did paid hours,
+classification, worker time control, and household room change; did the result
+hold across industries and lower-paid workers; and what would show that the
+earnings result was only a threshold adjustment? Stop after effect sizes,
+hours, subgroup scope, and at least one contrary or boundary case are recorded.
+
 **Latest U.S. industrial/consumer AI-work rotation — 2026-10-18:** the [AI
 implementation, worker-control, and security audit](projects/us-worker-control-remedy/ai-implementation-worker-control-security-audit-v1.md)
 now explicitly bounds the next cycle to U.S. evidence. Census HTOPS time-saved
@@ -431,9 +441,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1985 machine-readable records and 5954
-observations. The trend registry holds 1985 records and
-5954 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1986 machine-readable records and 5955
+observations. The trend registry holds 1986 records and
+5955 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking
