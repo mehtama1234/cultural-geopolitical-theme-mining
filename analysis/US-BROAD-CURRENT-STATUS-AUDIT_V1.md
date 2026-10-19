@@ -31,10 +31,11 @@ The newest education-and-AI depth artifact is the [AI in education, learning,
 teacher agency, and equity audit](projects/cross-domain/ai-education-learning-agency-equity-audit-v1.md).
 It joins NBER K–12 school-capacity evidence, OECD task-performance and learning
 research, Gallup teacher-control data, Chicago randomized outreach trials,
-Google teen-use evidence, UNESCO governance, and bounded discussion. The
-finding is a performance-to-learning gap: access and polished output can grow
-faster than independent learning, teacher control, and equitable institutional
-capacity.
+Google teen-use evidence, RAND teacher well-being and retention pressure, GAO
+equity-implementation evidence, UNESCO governance, and bounded discussion. The
+finding is a performance-to-learning and implementation-capacity gap: access and
+polished output can grow faster than independent learning, teacher control,
+teacher continuity, and equitable institutional capacity.
 
 The newest credit-and-household-room depth artifact is the [credit cost, score
 feedback, household room, and exit audit](projects/cross-domain/credit-cost-score-household-exit-audit-v1.md).

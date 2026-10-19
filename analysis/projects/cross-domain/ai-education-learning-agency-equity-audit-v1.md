@@ -33,6 +33,8 @@ tool access and school capacity
 | Personal contact can change take-up without a universal engagement effect | In three randomized Chicago Public Schools trials, personalized phone calls increased registration for virtual summer school. Weekly texts had no effect on summer days absent or Khan Academy use but improved a secondary math-course outcome. An instructional aide had no effect on primary summer attendance or platform use but had beneficial following-year math outcomes. | Three field RCTs during the remote-learning period with pre-specified primary and later outcomes. | Results are setting-specific; registration, platform use, attendance, and later grades are different endpoints. Family burden and long-run attainment are not established. |
 | Teen use is widespread but verification is uneven | Google’s 2026 teen report says 94% of U.S. teens ages 13–17 used an AI tool in the prior year, 74% used AI for learning weekly, and 93% took at least one step to evaluate information. Yet only 50% regularly considered trustworthiness, 55% cross-checked facts, and 46% checked website or author credibility. | Sponsor-produced survey with state studies, focus groups, and digital journaling. | Reported use and evaluation are not behavioral traces, verified fact-checking, learning transfer, or equal access; the public materials describe inconsistent headline sample sizes. |
 | Governance is a public-purpose question, not only a product question | UNESCO frames AI education governance around human agency, equity, inclusion, safety, ethics, digital sovereignty, age appropriateness, procurement, total cost, and the right to an explanation. Its 2026 consultation runs September–November, with policy briefs planned for Digital Learning Week 2027. | Normative discussion paper, consultation, and collection of 26 think pieces. | This is agenda-setting, not implementation, learning, public-attitude, or causal evidence; consultation participation may not be representative. |
+| Teacher capacity is itself an education-infrastructure constraint | RAND's nationally representative 2026 teacher panel reports 18% intending to leave their jobs, 25% planning to stay as long as able, and 30% holding an outside job for an average 13 hours per week among those doing so. Teachers reported poorer well-being than similar working adults across the measured indicators. | 829 weighted U.S. public-school teachers, January 28–February 21, 2026; probability-based panel and repeated survey context. | Intentions are not departures, outside work is not necessarily involuntary, and the survey does not measure AI exposure, student learning, vacancies, or causal service effects. |
+| Equity rules can exist while implementation learning is weak | GAO's review of the 2021–2023 Maintenance of Equity process found Education had not developed written technical-assistance procedures, had unreliable or incomplete data for identifying the poorest districts and assessing intended results, and had not ensured documented lesson sharing. | Federal oversight review using Education records, selected-state implementation, interviews, and six states with reliable school-level data. | Selected implementation evidence does not estimate national compliance, funding loss, or student outcomes; an oversight gap is not proof that every district failed to protect students. |
 
 ## What we found
 
@@ -58,6 +60,13 @@ than generic digital engagement. UNESCO supplies the governance test. None of
 these sources follows the same student from AI use through independent learning,
 teacher workload, progression, and later opportunity.
 
+RAND and GAO add an institutional-capacity warning. A school can adopt a tool
+while teachers are stressed, working outside jobs, or considering exit, and a
+formal equity rule can exist while data, technical assistance, and lesson-sharing
+systems are too weak to verify whether it protected learning. This makes teacher
+continuity and implementation learning prerequisites for judging AI access—not
+just downstream side effects.
+
 ## Curiosity checks
 
 ### Where did the pattern fail?
@@ -71,6 +80,8 @@ teacher workload, progression, and later opportunity.
   93% taking one evaluation step coexists with only 50% doing so regularly.
 - Teachers favor filtering, monitoring, and hands-on alternatives more strongly
   than a blunt daily time cap, suggesting that task and context matter.
+- A school may have a formal equity rule or AI policy and still lack the data,
+  time, and institutional learning needed to implement or audit it.
 
 ### What else could explain the differences?
 
@@ -90,6 +101,8 @@ control, task output, independent assessment without AI, learning transfer,
 teacher time, student subgroup, privacy incidents, and correction routes would
 show whether the observed gap is temporary implementation friction or a durable
 distributional pattern.
+It should also measure teacher retention, outside-work burden, vacancies, and
+whether districts record and reuse implementation lessons.
 
 ## Bounded public discussion
 
@@ -147,6 +160,8 @@ and a later progression or disengagement outcome, plus a counterexample.
 - [NBER Chicago remote-learning trials](../../records/us-nber-chicago-remote-learning-engagement-rcts-2026.json)
 - [Google teen AI learning report](../../records/us-google-future-report-2026-teen-ai-learning-judgment.json)
 - [UNESCO AI education common-good consultation](../../records/comparative-unesco-ai-education-common-good-deliberative-governance-2026.json)
+- [RAND State of the American Teacher 2026](../../records/us-rand-state-american-teacher-2026-wellbeing-retention-side-work.json)
+- [GAO Maintenance of Equity implementation review](../../records/us-gao-k12-moequity-grant-learning-2026.json)
 - [OECD education AI discussion](../../social-discussions/records/atlas-oecd-digital-education-ai-linkedin-001.json)
 - [NBER K–12 equity discussion](../../social-discussions/records/social-k12-ai-diffusion-linkedin-001.json)
 - [UNESCO AI education discussion](../../social-discussions/records/atlas-batch-0029-unesco-ai-education-linkedin-001.json)
