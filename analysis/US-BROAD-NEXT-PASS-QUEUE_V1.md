@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. AI-and-expertise rotation — 2026-10-19:** the [NBER patent-lawyer field experiment](records/us-nber-ai-patent-lawyers-expertise-field-experiment-2026.json) finds that AI access raised blinded drafting quality by 0.34 standard deviations at 10 days and 0.38 at 90 days; after three months without AI, treated lawyers scored 0.32 standard deviations higher, concentrated among senior lawyers, while junior lawyers had no average gain and a wider outcome spread. Next: test whether training, review authority, worker voice, pay, client quality, and firm incentives determine whether AI is a springboard or a cushion.
+
 **Latest U.S. transfer-design rotation — 2026-10-19:** the [NBER veteran-transfer record](records/us-nber-stimulus-checks-veteran-transfers-consumption-2026.json) finds a delayed, hump-shaped consumption response to one-off payments: the cumulative multiplier reaches 1 after six months and exceeds 2 after one year. Next: connect transfer timing and expectations to food security, debt, health, and durable household room; historical veteran payments are not a direct modern stimulus estimate.
 
 **Latest U.S. education-investment rotation — 2026-10-19:** the [NBER school-finance record](records/us-nber-school-finance-reforms-macro-output-2026.json) finds little earnings change for 10–15 years after reform, then about 4.7% higher earnings per worker after 30 years and more than 5% higher GDP per capita; the 7.8% 60-year figure is simulated. Next: test distribution across students, places, workers, household resources, and school quality rather than treating GDP as universal benefit.
@@ -498,9 +500,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 2006 machine-readable records and 5975
-observations. The trend registry holds 2006 records and
-5975 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 2007 machine-readable records and 5978
+observations. The trend registry holds 2007 records and
+5978 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

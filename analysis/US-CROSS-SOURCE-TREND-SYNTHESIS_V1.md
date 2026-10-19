@@ -1,5 +1,7 @@
 # US cross-source trend synthesis v1
 
+The [NBER patent-lawyer field experiment](records/us-nber-ai-patent-lawyers-expertise-field-experiment-2026.json) adds a randomized US workplace mechanism: AI improved observed drafting quality during use and later no-AI judgment for senior lawyers, but not junior lawyers on average. Read beside firm AI expectations and task-adoption records, it sharpens the open arrow: AI adoption can raise delivered output while distributing learning and durable expertise unevenly; worker control, training, compensation, client outcomes, and firm value still require separate evidence.
+
 The [NBER veteran-transfer record](records/us-nber-stimulus-checks-veteran-transfers-consumption-2026.json) adds a dynamic transfer-to-consumption mechanism: one-off postwar payments produce a hump-shaped response, with the cumulative multiplier reaching 1 after six months and exceeding 2 after one year. Read beside P-EBT and SNAP restriction evidence, the implication is that amount, form, timing, expectations, purchase composition, and durable security are separate stages; a large spending response is not automatically better household welfare.
 
 The [NBER school-finance record](records/us-nber-school-finance-reforms-macro-output-2026.json) adds a long-run public-investment conversion: state reforms show little earnings change for 10–15 years, then about 4.7% higher earnings per worker after 30 years and more than 5% higher GDP per capita, while the 7.8% 60-year result is simulated. Read beside personalized support, social capital, and labor-force exit evidence, the implication is that aggregate human-capital gains arrive slowly and cannot stand in for equal student, household, or place outcomes.
@@ -147,7 +149,7 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 2006 machine-readable records, 5975 observations,
+The current registry contains 2007 machine-readable records, 5978 observations,
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json): 43% of same-firm workers experienced real-wage decline across 2021–2024, 37% of all workers did, and job changers' wages rose nearly one-for-one with inflation. The cross-source implication is that firm wage rules are an upstream part of household room and consumer sentiment, but the payroll source does not observe the same workers' spending, debt, care, trust, or political action.
 

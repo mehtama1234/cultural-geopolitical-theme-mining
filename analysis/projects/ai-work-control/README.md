@@ -1,5 +1,7 @@
 # Project: AI, work, and control
 
+The [NBER patent-lawyer field experiment](../../records/us-nber-ai-patent-lawyers-expertise-field-experiment-2026.json) adds a direct US industrial-work test: AI access raised blinded patent-drafting scores by 0.34 SD at 10 days and 0.38 SD at 90 days; after three months without AI, treated lawyers scored 0.32 SD higher, concentrated among senior lawyers at 0.45 SD, while junior lawyers showed no average gain and a wider spread. The result keeps delivered quality, durable expertise, worker control, training, pay, client welfare, and firm value separate.
+
 The broad program also retains a non-AI worker-meaning comparison: the [NBER
 purpose-intervention record](../../records/us-nber-meaning-at-work-purpose-intervention-2025.json)
 follows a randomized two-year rollout among 2,976 white-collar employees.

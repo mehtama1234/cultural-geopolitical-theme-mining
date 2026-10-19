@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ai-patent-lawyers-expertise-field-experiment-2026",
+  "title": "AI assistance raised patent-drafting quality, but durable expertise gains depended on seniority",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "infrastructure_technology_dependency", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 35720, Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting",
+  "geography": "United States; 133 practicing patent lawyers at 11 US intellectual-property law firms",
+  "observations": [
+    {
+      "period": "Three-month pre-registered randomized field experiment; benchmark drafting tasks at 10 days and 90 days",
+      "denominator": {"value": 133, "unit": "practicing patent lawyers at 11 US intellectual-property law firms", "value_type": "randomized_trial_participants"},
+      "measures": {
+        "ai_task_quality_10_days": {"value": 0.34, "unit": "standard deviations higher blinded expert score with access to a custom AI drafting assistant", "value_type": "reported_treatment_effect"},
+        "ai_task_quality_90_days": {"value": 0.38, "unit": "standard deviations higher blinded expert score with AI access", "value_type": "reported_treatment_effect"},
+        "design": {"value": "Pre-registered three-month randomized controlled field experiment; work was scored by blinded expert patent attorneys", "unit": "reported study design", "value_type": "reported_method"}
+      },
+      "method": "Randomized field experiment among practicing patent lawyers, with benchmark patent-drafting performance measured during AI access and expert-blinded scoring.",
+      "uncertainty": "The experiment is limited to patent drafting, participating firms, the study period, and the custom assistant; the abstract does not establish effects for other occupations, tools, firms, or longer horizons.",
+      "subgroup": "Practicing patent lawyers, with junior and senior lawyers analyzed separately.",
+      "counterinterpretation": "Higher benchmark scores may reflect tool-task fit and do not by themselves establish broader productivity, worker control, compensation, client welfare, or independent professional judgment.",
+      "source_url": "https://www.nber.org/papers/w35720",
+      "retrieval_hash": "sha256:4bfedef49ab753e7a592609eeb2686d6090382c201e3e2798db7246f5d2bd324",
+      "status": "reported"
+    },
+    {
+      "period": "After three months of AI access; redlining an existing patent application without AI",
+      "denominator": {"value": 133, "unit": "trial participants assessed on a core patent-practice task without AI", "value_type": "randomized_trial_participants"},
+      "measures": {
+        "post_ai_judgment": {"value": 0.32, "unit": "standard deviations higher score for treated lawyers than controls", "value_type": "reported_treatment_effect"},
+        "senior_lawyer_gain": {"value": 0.45, "unit": "standard deviations higher score for treated senior lawyers", "value_type": "reported_subgroup_effect"},
+        "junior_average_gain": {"value": "no average gain", "unit": "reported subgroup result for junior lawyers", "value_type": "reported_null"},
+        "expertise_transfer": {"value": "A durable judgment advantage appeared for senior lawyers, while junior scores bifurcated rather than shifting uniformly upward", "unit": "reported pattern", "value_type": "reported_heterogeneity"}
+      },
+      "method": "Post-treatment assessment without AI, scored by blinded expert patent attorneys; comparison uses randomized treatment and control groups with seniority heterogeneity.",
+      "uncertainty": "The junior bifurcation pattern is descriptive of this experiment and does not identify which training, task, manager, or worker conditions produce a springboard versus a cushion; the abstract does not report the full score distribution or long-run retention.",
+      "subgroup": "Senior versus junior patent lawyers; junior lawyers had fewer mediocre scores but more poor and good scores.",
+      "counterinterpretation": "AI assistance may complement foundational expertise rather than erode it; the absence of a junior average gain is not proof of skill loss, and the experiment does not measure career progression or replacement.",
+      "source_url": "https://www.nber.org/papers/w35720",
+      "retrieval_hash": "sha256:4bfedef49ab753e7a592609eeb2686d6090382c201e3e2798db7246f5d2bd324",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; expertise-intensive work and workplace governance",
+      "denominator": {"value": 11, "unit": "US intellectual-property law firms participating in the field experiment", "value_type": "firm_count"},
+      "measures": {
+        "worker_control_question": {"value": "AI can improve delivered work while changing how expertise is built and retained", "unit": "bounded mechanism", "value_type": "bounded_mechanism"},
+        "foundational_expertise": {"value": "The authors report that foundational expertise may be a prerequisite for extracting durable skill from AI-assisted practice", "unit": "reported interpretation", "value_type": "reported_interpretation"},
+        "organizational_open_link": {"value": "Tool access, training design, evaluation, junior-worker learning, client quality, compensation, and worker voice remain separate outcomes", "unit": "research boundary", "value_type": "unmeasured"}
+      },
+      "method": "Bounded interpretation of a randomized workplace experiment, preserving the distinction between observed task scores, post-treatment judgment, expertise formation, and broader employment outcomes.",
+      "uncertainty": "The experiment does not estimate household welfare, bargaining power, employment, pay, client prices, firm profits, legal risk, or whether workers can contest tool deployment; direct costs were funded by Google according to the paper disclosure.",
+      "subgroup": "Workers and firms in expertise-intensive US professional services, especially junior workers whose learning path may be reshaped by AI assistance.",
+      "counterinterpretation": "Employer-provided AI can be a training complement when workers retain review authority, feedback, and access to foundational practice; the study alone cannot determine the governance condition.",
+      "source_url": "https://www.nber.org/papers/w35720",
+      "retrieval_hash": "sha256:4bfedef49ab753e7a592609eeb2686d6090382c201e3e2798db7246f5d2bd324",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35720", "claim": "Official NBER landing page with abstract, authors, study design, results, and funding disclosure.", "status": "primary-source"},
+    {"source_url": "https://www.socialscienceregistry.org/trials/15823", "claim": "AEA RCT Registry entry for the pre-registered AI and expertise study.", "status": "trial-registry"}
+  ],
+  "boundary": "This record adds a US industrial/professional-work experiment linking AI assistance, task quality, post-treatment judgment, seniority, and expertise formation. It does not establish general AI productivity, job displacement, pay, worker control, client welfare, firm profitability, legal quality, or durable career effects beyond the participating patent lawyers and study period.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W35720 page reviewed for the title, sample, randomized design, benchmark effects, seniority heterogeneity, post-treatment no-AI task, and funding disclosure.",
+    "source_url_sha256": "sha256:4bfedef49ab753e7a592609eeb2686d6090382c201e3e2798db7246f5d2bd324",
+    "checked": "2026-10-19"
+  }
+}

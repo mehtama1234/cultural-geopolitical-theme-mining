@@ -97,7 +97,7 @@ Mining program
 
 **Latest Canada retail-channel rotation — 2026-09-30:** the [Statistics Canada July 2026 retail record](records/comparative-statcan-retail-trade-july-2026-ecommerce-regional-pullback.json) adds a nominal-growth versus short-run-pullback layer: retail sales were $73.7 billion, down 0.7% month over month but up 5.1% year over year, while volume fell 1.1%; e-commerce fell 3.5% to $5.5 billion and 7.5% of retail trade, with Ontario down 2.0% and Alberta up 1.4%. It supports a channel-and-region divergence hypothesis, not a household-welfare or durable consumer-retrenchment estimate.
 
-**Current registry checkpoint:** 2006 machine-readable records and 5975
+**Current registry checkpoint:** 2007 machine-readable records and 5978
 observations. This is an active, never-ending discovery and synthesis program;
 the checkpoint is a control state, not a completion claim.
 
@@ -765,7 +765,7 @@ never the completion condition.
 | Theme end-to-end audit | 14 theme rows audited from the canonical matrix; all retain a next-required test, and 5 explicitly declare an open status | [Theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md), `audit_broad_theme_end_to_end_coverage.py` |
 | Source coverage | 132 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 118 registered source entries; all 118 have analysis-domain references, 110 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
-| Trend registry | 2006 machine-readable records; 5975 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
+| Trend registry | 2007 machine-readable records; 5978 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
 
 **Latest formalization-and-family-security rotation — 2026-09-29:** the [ILO South Asia formalization and child-labour record](records/comparative-ilo-south-asia-formalization-child-labour-voice-2026.json) adds a regional implementation layer connecting informal work, supply-chain risk, worker voice, social protection, community action, and child-labour prevention. It reports project reach and policy measures, not causal or post-project durability evidence; the active next test follows workers and families through registration, wages, benefits, schooling, complaints, and local enforcement after project closure.
 

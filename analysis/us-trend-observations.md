@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2006 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2007 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6297,6 +6297,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | US firm AI investment is associated with recent productivity growth through organization capital | work, cost, voice | infrastructure_technology_dependency, firm_sector_market_power, work_control_bargaining, household_room_consumption, public_systems_feedback | US firm-level AI-skilled employment, job descriptions, organization capital, sales per worker, and productivity growth | United States | 1 | 2018–2024 compared with the prior decade; working paper issued August 2026 | reported | [open](records/us-nber-ai-organization-capital-productivity-2026.json) |
 
 **Boundary:** This record adds a firm-performance signal to the AI-work chain. It does not establish that AI caused the productivity association, that workers received the gains, that job quality or control improved, or that consumers and households benefited.
+
+| AI assistance raised patent-drafting quality, but durable expertise gains depended on seniority | work, voice, time | work_control_bargaining, firm_sector_market_power, infrastructure_technology_dependency, unequal_exposure_status, trust_identity_meaning | NBER Working Paper 35720, Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting | United States; 133 practicing patent lawyers at 11 US intellectual-property law firms | 3 | Three-month pre-registered randomized field experiment; benchmark drafting tasks at 10 days and 90 days; After three months of AI access; redlining an existing patent application without AI; 2026 paper; expertise-intensive work and workplace governance | reported | [open](records/us-nber-ai-patent-lawyers-expertise-field-experiment-2026.json) |
+
+**Boundary:** This record adds a US industrial/professional-work experiment linking AI assistance, task quality, post-treatment judgment, seniority, and expertise formation. It does not establish general AI productivity, job displacement, pay, worker control, client welfare, firm profitability, legal quality, or durable career effects beyond the participating patent lawyers and study period.
 
 | Personalized AI political advice can trade perceived helpfulness for information quality | voice, cost, work | platforms_data_attention, political_judgment_action, trust_identity_meaning, consumer_power_recourse, unequal_exposure_status | NBER Working Paper 35689; theoretical information and persuasion model of an informed AI adviser and an individual | United States-centered AI political-advice mechanism; no empirical geographic sample | 1 | Paper issued August 2026; theoretical model | estimated | [open](records/us-nber-ai-political-advice-2026.json) |
 
