@@ -149,6 +149,11 @@ The older NBER U.S. firm-composition comparator adds a workforce-design stage:
 AI-investing firms were associated with more educated, STEM, IT, and junior
 workers and fewer middle-management and senior workers. This is organizational
 recomposition, not proof of better pay, progression, voice, or security.
+The NBER job-mobility study adds a worker-side security price: employed U.S.
+workers required an average 1.63% pay increase for each additional percentage
+point of annual unemployment risk in a new job. This is a stated preference,
+not observed switching or realized security, but it helps explain why firm
+productivity and worker acceptance can diverge.
 It now adds a third named consumer episode: the FTC's announced Cleo AI refund
 distribution of 2,124,796 PayPal payments totaling more than $15.8 million;
 because the announced payment date is October 27, 2026, distribution and

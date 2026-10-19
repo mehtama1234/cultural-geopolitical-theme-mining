@@ -51,6 +51,12 @@ NBER U.S. workforce-composition comparator supplies a partial bridge:
 AI-investing firms show more educated, STEM, IT, and junior workers and fewer
 middle-management and senior workers, but the worker meaning of that flatter
 hierarchy remains unresolved.
+The NBER job-mobility study adds a worker-side constraint: employed U.S.
+workers required an average 1.63% pay increase for each additional percentage
+point of annual unemployment risk in a new job. Next: test whether AI-linked
+role changes actually carry a wage, training, protection, or bargaining premium,
+and whether workers move, stay, or exit; do not treat stated willingness to pay
+for security as observed mobility.
 
 **Latest U.S. housing/insurance consumer rotation — 2026-10-18:** the [property
 shock, repair, staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md)

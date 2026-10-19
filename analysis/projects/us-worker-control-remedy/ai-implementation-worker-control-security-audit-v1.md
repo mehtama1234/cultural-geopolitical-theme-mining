@@ -34,6 +34,7 @@ AI access or organizational adoption
 | [NBER recent-graduate employment study](https://www.nber.org/papers/w35796), CPS microdata for recent college graduates and comparison groups, June–August 2026 | Difference-in-differences and event-study estimates find no statistically significant summer-2026 rise in unemployment for recent college graduates relative to older graduates or young workers without a degree; an expanded “wanting a job” measure adds nearly two percentage points to their unemployment rate but also shows no significant 2026 increase | A high-exposure group can show no early aggregate employment shock even when replacement fears are salient; resilience and displacement must be tested separately | This is a current U.S. labor-market counterexample to converting AI exposure into realized displacement | The paper is an early, partial-year CPS comparison; it does not identify specific tools or employers, worker control, pay, job quality, training, or longer-run employment and household outcomes |
 | [NBER AI deployment and sales-per-worker paper](https://www.nber.org/papers/w35684), U.S. firm-level AI-skilled employment-share growth and job-description-based organization-capital measures, 2018–2024 compared with the prior eight years | AI investment was associated with productivity growth in recent years but not the prior decade; the featured summary reports that a one-standard-deviation increase in AI-skilled employment-share growth was associated with 6.2 percentage points greater sales-per-worker growth in 2018–2024 | Firm performance can move alongside AI-skilled workforce expansion, with organization capital as a proposed internal mechanism between hiring and output | The paper makes firm heterogeneity, timing, and organizational learning observable; it does not show that AI caused the gain or that workers received it | Firm-level association and constructed job-description measures do not establish worker pay, job quality, control, household security, or equal access; selection into AI-skilled expansion remains open |
 | [NBER firm investment and workforce-composition study](https://www.nber.org/papers/w31325), U.S. firms using worker résumés and job postings, 2010s–2020s | AI-investing firms had higher shares of highly educated and STEM workers, more IT and analysis specialization, more junior workers, and fewer middle-management and senior workers | The workforce and hierarchy can change alongside AI investment, adding a composition and organizational-design stage between firm capability and worker control | This is a U.S. comparator for the mechanism: AI investment is associated with workforce reorganization, not only output | The study does not establish causal worker welfare, pay, hours, training access, voice, workload, or whether junior-worker growth reflects opportunity or insecurity |
+| [NBER job-mobility and unemployment-risk study](https://www.nber.org/papers/w35580), custom representative survey of employed U.S. workers, 2026 | Workers required an average **1.63% pay increase for each additional percentage point of annual unemployment risk** in a new job | Workers price security into job mobility; a productivity or AI opportunity that carries layoff risk may not be attractive without compensation or protection | This adds a worker-side reservation-value stage between firm reorganization and actual mobility | Survey-elicited wage-safety indifference is not observed job switching, realized unemployment, bargaining power, or household recovery; the average may hide differences by liquidity, occupation, and risk exposure |
 | [ACCA professional survey](../../records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json), global accountancy/finance professionals, 2026 | 52% regularly used AI; 31% reported organizational AI-agent deployment; 93% of LinkedIn recruiters planned to increase AI use in hiring | 48% were not confident in AI recruitment versus 43% confident; 75% preferred hybrid work, 58% believed office presence affected promotion, and 43% of Gen Y would consider leaving after substantially more office time | Worker control includes human judgment, work-location choice, promotion visibility, and credible support—not only training | Self-report, profession-specific and non-representative; confidence, preference, and intention are not observed turnover or job quality |
 
 ## What this connects to
@@ -91,6 +92,15 @@ share, and a smaller middle-management and senior-worker share. This makes
 organizational change measurable, but the direction of worker experience is
 ambiguous. A flatter hierarchy may create entry or learning opportunities, or
 it may remove progression and supervision; the study does not identify which.
+
+Worker mobility also has a security price. The [NBER job-mobility
+study](https://www.nber.org/papers/w35580) finds that employed U.S. workers
+require a 1.63% pay increase for each additional percentage point of annual
+unemployment risk in a new job. This helps explain why firm-level AI gains may
+not automatically produce worker movement or acceptance: a new AI-linked role
+can raise productivity while also changing perceived downside risk. The result
+is a stated preference, not proof that firms paid the premium or that workers
+could find a safer alternative.
 
 ## Bounded public discussion
 
@@ -226,6 +236,7 @@ remains active.
 - [NBER AI deployment and sales-per-worker paper, W35684](https://www.nber.org/papers/w35684)
 - [NBER featured working-paper summary](https://www.nber.org/nber-news/featured-working-papers-archive)
 - [NBER firm investment and workforce-composition study, W31325](https://www.nber.org/papers/w31325)
+- [NBER job-mobility and unemployment-risk study, W35580](https://www.nber.org/papers/w35580)
 - [HBS customer-service AI experiment](../../records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json)
 - [DOJ OpenAI/Statsig recruitment settlement](../../records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json)
 - [FTC Cleo AI refund program](https://search.ftc.gov/enforcement/refunds/cleo-ai-refunds)
