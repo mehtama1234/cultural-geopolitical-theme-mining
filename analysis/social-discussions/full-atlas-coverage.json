@@ -70489,40 +70489,40 @@
       "canonical_theme": "ai-work-control",
       "title": "Persistent post-pandemic labor-force exit is concentrated among low-income and low-skill US workers",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0082",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found within the bounded window that identified NBER W35856 or its low-income, low-skill, and self-employment replacement findings.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Broad labor-force participation discussions were found, but no exact Reddit discussion within the bounded window identified NBER W35856 or its low-income, low-skill, and self-employment replacement findings.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Broad labor-force exit and caregiving commentary was found, but no exact LinkedIn discussion within the bounded window identified NBER W35856 or its low-income, low-skill, and self-employment replacement findings.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "persistent post-pandemic labor-force exit concentrated among low-income low-skill workers tax-panel occupation income ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found within the bounded window that identified NBER W35856 or its low-income, low-skill, and self-employment replacement findings.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-privacy-tracking-fraud-2026",

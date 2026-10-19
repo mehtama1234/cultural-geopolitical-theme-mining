@@ -77,6 +77,14 @@ was promoted as evidence for target W35739 because the paper identity and its
 specific purchase, substitution, tax, and modeled-welfare estimates were not
 established in those discussions.
 
+- `us-nber-postpandemic-labor-force-exit-low-income-2026` → documented access
+  gaps on LinkedIn, Reddit, YouTube, and X.
+
+The search found broad labor-force exit, caregiving, and discouraged-worker
+discussion, but none identified NBER W35856 or its specific low-income,
+low-skill, and self-employment replacement findings. Those discussions were
+not promoted into attributable evidence.
+
 - `us-nber-sticky-wage-norms-real-wage-loss-2026` →
   `atlas-batch-0082-sticky-wages-reddit-001`; LinkedIn, YouTube, and X are
   documented access gaps.
@@ -95,8 +103,9 @@ LinkedIn, Reddit, and YouTube, with an X access gap. The pro-worker AI row is
 augmented across LinkedIn, Reddit, and YouTube, with an X access gap. The
 tariff quantity-discount row is terminal with four documented access gaps.
 The SNAP restriction row is also terminal with four documented access gaps.
-The sticky-wage row is augmented on Reddit with three platform gaps. Three
-other batch rows remain in review; no completion claim is made for the
+The sticky-wage row is augmented on Reddit with three platform gaps. The
+post-pandemic labor-exit row is terminal with four documented access gaps.
+Two other batch rows remain in review; no completion claim is made for the
 broader atlas program.
 
 ## Reproducibility and limits
