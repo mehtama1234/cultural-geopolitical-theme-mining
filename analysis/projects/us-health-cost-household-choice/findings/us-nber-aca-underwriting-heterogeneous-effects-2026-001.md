@@ -40,6 +40,25 @@ provider, or that treatment occurred. CMS's [public-use files](https://www.cms.g
 provide state, county, income, assistance, metal-level, and switching fields,
 but they do not provide claims or treatment continuity.
 
+## Mortality stage: a broader ACA result, with a separate Medicaid result
+
+The [NBER ACA mortality paper](https://www.nber.org/papers/w35751) uses the
+longitudinal NHIS Linked Mortality Files, a nationally representative sample of
+people ages 40 to 58, and difference-in-differences and triple-difference
+designs. Its abstract reports **no evidence of a beneficial mortality effect
+from the Medicaid expansions**, but reports that the **ACA net of Medicaid
+expansion reduced mortality**. This adds a later health endpoint to the
+coverage chain and is consistent with the possibility that the ACA's private-
+insurance, subsidies, mandate, or other non-expansion channels mattered.
+
+That interpretation is deliberately bounded. The abstract does not provide a
+single effect size in the public summary, and this result does not identify
+which non-Medicaid mechanism produced the mortality change. It also does not
+show that a particular Marketplace selection became paid, usable coverage, an
+appointment, treatment, or household financial recovery. The Medicaid result
+should not be averaged with the broader ACA result: they are separate policy
+components and estimates.
+
 ## Bounded public discussion
 
 The [coverage-denial discussion](../../../social-discussions/records/atlas-batch-0049-coverage-denials-linkedin-001.json)
@@ -72,6 +91,10 @@ became financially secure.
   switching, and household financial outcomes remain unmeasured here.
 - CMS plan selections and automatic re-enrollment do not establish effectuated
   coverage, premium payment, provider use, claims, or treatment continuity.
+- The NBER mortality result is a population-level policy estimate for adults
+  ages 40–58; it does not identify the individual care pathway, mechanism, or
+  household financial consequence, and its abstract does not report the full
+  effect estimate.
 - This should not be merged with the separate ACA dependent-coverage job-lock
   finding; both concern insurance and work but use different populations and
   mechanisms.
@@ -89,6 +112,7 @@ same-person care endpoint.
 - [CMS 2026 Marketplace enrollment report](https://www.cms.gov/newsroom/press-releases/exchange-coverage-remains-near-record-high-23-1-million-enroll-2026-reflecting-continued-strength)
 - [CMS 2026 Marketplace public-use files](https://www.cms.gov/data-research/statistics-trends-reports/marketplace-products/2026-marketplace-open-enrollment-period-public-use-files)
 - [CMS 2026 Marketplace plans and prices](https://www.cms.gov/newsroom/fact-sheets/plan-year-2026-marketplace-plans-prices-fact-sheet)
+- [NBER Working Paper 35751](https://www.nber.org/papers/w35751)
 - [Bounded coverage-denial discussion](../../../social-discussions/records/atlas-batch-0049-coverage-denials-linkedin-001.json)
 - [Machine-readable record](../../../records/us-nber-aca-underwriting-heterogeneous-effects-2026.json)
 

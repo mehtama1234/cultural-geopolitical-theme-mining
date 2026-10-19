@@ -85,6 +85,15 @@ and possible premium effects. The finding is a protection-to-access gap: formal
 billing protection, provider bargaining, network availability, patient care, and
 household affordability remain separate stages.
 
+The newest ACA consumer-chain update is the [ACA underwriting and practical-
+option finding](projects/us-health-cost-household-choice/findings/us-nber-aca-underwriting-heterogeneous-effects-2026-001.md).
+It now joins pre-ACA underwriting heterogeneity, CMS 2026 Marketplace scale and
+nominal affordability, and NBER mortality evidence. The NBER paper reports no
+beneficial mortality effect from the Medicaid expansions in its design but does
+report lower mortality from the ACA net of Medicaid expansion. This advances the
+coverage-to-health chain while keeping the mechanism, individual care pathway,
+effect size in the public abstract, and household financial endpoint open.
+
 The newest material-to-meaning/action depth artifact is the [repeated-respondent
 material pressure, trust, and action rotation audit](projects/us-cost-trust-politics/material-pressure-meaning-action-rotation-audit-v1.md).
 It compares HTOPS, CCES, CES, ANES, and Pew longitudinal surfaces and shows

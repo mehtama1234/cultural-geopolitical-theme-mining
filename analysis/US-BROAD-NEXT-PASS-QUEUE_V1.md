@@ -79,6 +79,16 @@ possible premium pressure, without proving patient-level access, completed care,
 or household recovery. Next: follow one protected claim through network status,
 appointment, payment, appeal, treatment, and later household cost.
 
+**Latest U.S. ACA consumer-chain rotation — 2026-10-18:** the [ACA
+underwriting and practical-option finding](projects/us-health-cost-household-choice/findings/us-nber-aca-underwriting-heterogeneous-effects-2026-001.md)
+now joins pre-ACA underwriting risk, CMS Marketplace selections and nominal
+affordability, and NBER's mortality result. The paper reports lower mortality
+for the ACA net of Medicaid expansion but no beneficial mortality effect from
+the Medicaid expansions in its design. Next: identify the non-Medicaid channel
+and follow a protected person from plan selection and payment through network,
+appointment, treatment, medical cost, work choice, and later health; do not
+collapse the separate policy estimates or treat selections as completed care.
+
 **Latest U.S. defense-industrial rotation — 2026-10-18:** the [supplier
 resilience and replaceability audit](projects/cross-domain/us-defense-industrial-supplier-resilience-audit-v1.md)
 follows a bounded JASSM/LRASM chain from USAspending supplier concentration and
