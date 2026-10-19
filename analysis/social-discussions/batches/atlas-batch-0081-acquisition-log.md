@@ -6,10 +6,11 @@ Scope: the 25 atlas records in `atlas-batch-0081.json`.
 
 ## Attributable normalized signals
 
-Fourteen public LinkedIn results were safely attributable to current-batch
+Fifteen public LinkedIn results were safely attributable to current-batch
 atlas records:
 
 - `us-hbs-ai-automation-acceptance-human-touch-2026` → `atlas-batch-0081-ai-acceptance-linkedin-001`
+- `us-nber-immigrants-minimum-wage-labor-market-effects-2026` → `atlas-batch-0081-immigrant-minimum-wage-linkedin-001`
 - `us-nber-ai-corporate-executives-productivity-workforce-2026` → `atlas-batch-0081-ai-firm-data-linkedin-001`
 - `us-nber-ai-organization-capital-productivity-2026` → `atlas-batch-0081-organization-capital-linkedin-001`
 - `us-nber-ai-patent-lawyers-expertise-field-experiment-2026` → `atlas-batch-0081-patent-expertise-linkedin-001`
@@ -24,7 +25,7 @@ atlas records:
 - `us-nber-pg-ai-teamwork-expertise-social-engagement-2025` → `atlas-batch-0081-pg-ai-teamwork-linkedin-001`
 - `us-nber-minimum-wage-poor-low-income-families-2026` → `atlas-batch-0081-minimum-wage-poor-families-linkedin-001`
 
-The fourteen signals sharpen an industrial/consumer USA chain: public
+The fifteen signals sharpen an industrial/consumer USA chain: public
 acceptance and firm adoption are not the same as realized transformation;
 organization capital may be the missing complement; assisted output can
 conceal uneven expertise
@@ -39,8 +40,8 @@ add a cultural permission layer to industrial adoption.
 
 ## Current batch state
 
-The fourteen linked records have a normalized LinkedIn result and remain in the
-open batch while the other platform attempts and the remaining 11 records are
+The fifteen linked records have a normalized LinkedIn result and remain in the
+open batch while the other platform attempts and the remaining 10 records are
 worked. No completion claim is made for this batch.
 
 ## Reproducibility and limits

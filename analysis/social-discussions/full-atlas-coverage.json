@@ -68382,11 +68382,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "minimum-wage increases reduce hours recently arrived immigrant workers without reducing employment native household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-immigrant-minimum-wage-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -68397,7 +68399,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-immigration-child-mortality-disease-spillovers-2026",

@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0081-immigrant-minimum-wage-linkedin-001",
+  "atlas_record_ids": ["us-nber-immigrants-minimum-wage-labor-market-effects-2026"],
+  "topic": "firm-sector-market-power",
+  "platform": "linkedin",
+  "item_type": "research_translation_post",
+  "author_or_account": "National Bureau of Economic Research",
+  "title": "Minimum wage hikes reduce work hours for undocumented immigrants",
+  "canonical_url": "https://www.linkedin.com/posts/nber_minimum-wage-hikes-lead-to-reductions-in-activity-7448777226696712192-_xdf",
+  "published_window": "2026; within six months before retrieval in the public search result",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The NBER post highlights the paper’s subgroup mechanism: minimum-wage increases reduce hours for recently arrived, likely undocumented immigrants in high-turnover jobs, while the reported employment effect is not negative. This makes the industrial labor-market signal more specific than a simple jobs/no-jobs comparison: firms can adjust the amount of work assigned to workers whose replacement costs, legal position, or bargaining power differ from native workers.",
+  "research_anchor_paths": ["analysis/records/us-nber-immigrants-minimum-wage-labor-market-effects-2026.json"],
+  "linked_research_question": "When US wage floors rise, how do firms redistribute hours, turnover, prices, and production across workers with different legal status, tenure, and replacement costs, and what reaches consumer prices or household security?",
+  "classification": ["industrial_labor_market", "minimum_wage", "immigrant_workers", "hours_adjustment", "bounded_public_discussion"],
+  "limits": ["The post is a short translation and does not report the paper’s effect sizes, sample, or full identification strategy", "Likely undocumented status is a proxy rather than a direct legal-status measure in the bounded paper summary", "The discussion does not establish household income, prices, firm profits, worker voice, or long-run mobility"]
+}
