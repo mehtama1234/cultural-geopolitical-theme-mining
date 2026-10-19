@@ -4,23 +4,23 @@
 
 This is a routing control, not an evidence-quality, importance, or omission score. A record not directly named here can still be represented indirectly by a project finding or cross-source bridge. Direct promotion means its exact trend ID appears in the [central synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [societal subtheme register](US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md), [broad theme map](US-BROAD-THEME-SUBTHEME-MAP_V1.md), or one of the [source-led subtheme maps](US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md).
 
-The current corpus has **2009 records**; **1629** are directly named in at least one of those reader documents.
+The current corpus has **2010 records**; **1630** are directly named in at least one of those reader documents.
 
 ## Direct-ID promotion by theme
 
 | Theme | Corpus records | Directly named | Not directly named |
 |---|---:|---:|---:|
-| Unequal exposure and status | 1749 | 1427 | 322 |
-| Household room and consumption | 1241 | 990 | 251 |
+| Unequal exposure and status | 1750 | 1428 | 322 |
+| Household room and consumption | 1242 | 991 | 251 |
 | Public systems and policy feedback | 1479 | 1243 | 236 |
 | Trust, identity, and cultural meaning | 1225 | 1012 | 213 |
 | Political judgment and collective action | 777 | 625 | 152 |
-| Infrastructure, technology, and dependency | 791 | 642 | 149 |
+| Infrastructure, technology, and dependency | 792 | 643 | 149 |
 | Work, control, and bargaining | 707 | 572 | 135 |
-| Firm, sector, and market power | 735 | 604 | 131 |
+| Firm, sector, and market power | 736 | 605 | 131 |
 | Care, health, and social reproduction | 644 | 514 | 130 |
 | Geopolitical and state consequences | 589 | 501 | 88 |
-| Consumer power and recourse | 364 | 281 | 83 |
+| Consumer power and recourse | 365 | 282 | 83 |
 | Housing, place, and mobility | 456 | 377 | 79 |
 | Platforms, data, and attention | 368 | 303 | 65 |
 | Time as a hidden price | 364 | 300 | 64 |
@@ -28,21 +28,6 @@ The current corpus has **2009 records**; **1629** are directly named in at least
 ## Candidate pool for the four lowest-density theme surfaces
 
 These are alphabetized direct-ID candidates, not ranked recommendations. The next pass should choose one only if it advances a genuinely different unit or stage and preserves the source boundary.
-
-### Consumer power and recourse
-
-- [A named consumer redress route identifies eligible victims and ongoing distribution, while successful recovery remains unobserved](records/us-cfpb-brightspeed-redress-distribution-2026.json)
-- [A ‘dysoptimist’ cultural mood is turning disruption into renewal, pairing AI experimentation with stronger demand for human connection and meaningful experience](records/comparative-vml-future-100-2026-dysoptimism-ai-human-connection.json)
-- [AI adoption is becoming a negotiated bargain: time savings and future usefulness coexist with labor, environmental and commercial-trust concerns](records/comparative-ipsos-global-ai-attitudes-2026-wonder-worry-time-trust-environment.json)
-- [AI adoption is broadening while perceived control and regulatory confidence remain weak](records/us-pew-ai-use-concern-regulation-2026.json)
-- [AI infrastructure is becoming a household-cost and local-consent issue while consumers compress spending and protect human service](records/us-ipsos-consumer-tracker-2026-ai-data-centers-household-costs.json)
-- [AI is becoming an entertainment-discovery interface for younger audiences faster than trust in its answers is consolidating](records/comparative-nielsen-gracenote-ai-entertainment-discovery-2026-gen-alpha-trust.json)
-- [AI-enabled employment support is being designed to move minimum-income beneficiaries from unstable entry jobs toward sustainable career progression](records/comparative-oecd-ai-employment-support-minimum-income-belgium-greece-2026.json)
-- [Africa's health-workforce crisis is an education-to-employment and retention failure as much as a training shortage, with migration and fiscal absorption shaping service access](records/comparative-who-africa-health-workforce-2026-shortage-migration-absorption.json)
-- [Agrifood futures are being modeled as an interconnected system where population, income, technology, climate, demand, production, nutrition, livelihoods, and natural resources co-determine long-term outcomes](records/comparative-ifpri-cgiar-agrifood-outlook-2050-climate-nutrition-livelihoods.json)
-- [An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order](records/au-hotak-reactivation-continued-work-2025.json)
-- [August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open](records/us-census-retail-food-services-sales-2026-august.json)
-- [Broad LGBT acceptance is holding while support for brand advocacy, media visibility and contested policy issues diverges](records/comparative-ipsos-pride-2026-lgbt-acceptance-brand-media-policy.json)
 
 ### Time as a hidden price
 
@@ -58,6 +43,21 @@ These are alphabetized direct-ID candidates, not ranked recommendations. The nex
 - [Ghana’s mobile-money system is scaling rapidly while active-agent capacity and oversight remain critical constraints](records/comparative-ghana-bog-payments-2024-mobile-money-active-agent-risk.json)
 - [Global publics are retreating toward local trust, personal control and present-focused coping as technology, institutions and climate feel less governable](records/comparative-ipsos-global-trends-10th-edition-2026-trust-nostalgia-ai-climate.json)
 - [Global work remains low-engagement and emotionally costly, while work location and regional context redistribute both agency and wellbeing](records/comparative-gallup-state-global-workplace-2026-engagement-wellbeing-work-location.json)
+
+### Consumer power and recourse
+
+- [A named consumer redress route identifies eligible victims and ongoing distribution, while successful recovery remains unobserved](records/us-cfpb-brightspeed-redress-distribution-2026.json)
+- [A ‘dysoptimist’ cultural mood is turning disruption into renewal, pairing AI experimentation with stronger demand for human connection and meaningful experience](records/comparative-vml-future-100-2026-dysoptimism-ai-human-connection.json)
+- [AI adoption is becoming a negotiated bargain: time savings and future usefulness coexist with labor, environmental and commercial-trust concerns](records/comparative-ipsos-global-ai-attitudes-2026-wonder-worry-time-trust-environment.json)
+- [AI adoption is broadening while perceived control and regulatory confidence remain weak](records/us-pew-ai-use-concern-regulation-2026.json)
+- [AI infrastructure is becoming a household-cost and local-consent issue while consumers compress spending and protect human service](records/us-ipsos-consumer-tracker-2026-ai-data-centers-household-costs.json)
+- [AI is becoming an entertainment-discovery interface for younger audiences faster than trust in its answers is consolidating](records/comparative-nielsen-gracenote-ai-entertainment-discovery-2026-gen-alpha-trust.json)
+- [AI-enabled employment support is being designed to move minimum-income beneficiaries from unstable entry jobs toward sustainable career progression](records/comparative-oecd-ai-employment-support-minimum-income-belgium-greece-2026.json)
+- [Africa's health-workforce crisis is an education-to-employment and retention failure as much as a training shortage, with migration and fiscal absorption shaping service access](records/comparative-who-africa-health-workforce-2026-shortage-migration-absorption.json)
+- [Agrifood futures are being modeled as an interconnected system where population, income, technology, climate, demand, production, nutrition, livelihoods, and natural resources co-determine long-term outcomes](records/comparative-ifpri-cgiar-agrifood-outlook-2050-climate-nutrition-livelihoods.json)
+- [An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order](records/au-hotak-reactivation-continued-work-2025.json)
+- [August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open](records/us-census-retail-food-services-sales-2026-august.json)
+- [Broad LGBT acceptance is holding while support for brand advocacy, media visibility and contested policy issues diverges](records/comparative-ipsos-pride-2026-lgbt-acceptance-brand-media-policy.json)
 
 ### Platforms, data, and attention
 

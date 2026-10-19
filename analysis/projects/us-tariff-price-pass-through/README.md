@@ -1,5 +1,7 @@
 # Project: US tariffs and the price that arrives later
 
+The [NBER W35561 trend record](../../records/us-nber-tariff-pass-through-consumer-prices-2026.json) adds the latest dynamic mechanism: about 26% of the 2025–26 tariff increase passed through to consumer prices, with 64% of that increase direct and 36% through imported inputs and domestic markups over a 9–12 month lag. The record does not treat aggregate pass-through as a household bill; income, product basket, substitution, retailer margin, and remedy remain open.
+
 ## Question
 
 When a trade policy raises a firm's cost, how much reaches the US shopper, how fast, and which household sees it first?

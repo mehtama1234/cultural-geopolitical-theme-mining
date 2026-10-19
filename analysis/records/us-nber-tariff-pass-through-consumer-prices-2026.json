@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-tariff-pass-through-consumer-prices-2026",
+  "title": "US tariffs pass through to consumer prices directly and later through domestic inputs and markups",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "firm_sector_market_power", "consumer_power_recourse", "infrastructure_technology_dependency", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 35561, The Anatomy of Tariff Pass-through into Consumer Prices",
+  "geography": "United States; goods exposed to the 2025-2026 US tariffs",
+  "observations": [
+    {
+      "period": "2025-2026 US tariffs; consumer-price pass-through relative to less-exposed goods",
+      "denominator": {"value": null, "unit": "tariff-exposed goods and comparison goods; abstract does not disclose the full product, firm, or transaction count", "value_type": "not_disclosed"},
+      "measures": {
+        "total_pass_through": {"value": 26, "unit": "percent of the tariff increase passed through to consumer prices", "value_type": "reported_estimate"},
+        "comparison": {"value": "Estimate is measured relative to less-exposed goods while holding aggregate conditions fixed", "unit": "reported identification frame", "value_type": "reported_method"},
+        "domestic_price_scope": {"value": "Tariffs raise prices of goods made at home as well as the imports directly taxed", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Empirical analysis of 2025-2026 US tariff exposure and consumer prices, comparing more- and less-exposed goods while holding aggregate conditions fixed.",
+      "uncertainty": "The abstract does not disclose the complete product universe, sample counts, confidence intervals, or all controls; the estimate is relative to less-exposed goods and is not a universal price effect for every household or product.",
+      "subgroup": "Consumers purchasing tariff-exposed goods, domestic producers using imported inputs, foreign varieties, and less-exposed comparison goods.",
+      "counterinterpretation": "Observed price changes can also reflect demand, exchange rates, inventories, retail margins, product substitution, or macroeconomic conditions not captured by the bounded abstract result.",
+      "source_url": "https://www.nber.org/papers/w35561",
+      "retrieval_hash": "sha256:052e6a85c9acafc26888dfe7db936532aae5c3d374b8c52bad02de26a83cf1a4",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026 US tariffs; decomposition of consumer-price pass-through",
+      "denominator": {"value": 100, "unit": "percent of the estimated tariff-to-consumer-price increase", "value_type": "decomposition_base"},
+      "measures": {
+        "direct_component": {"value": 64, "unit": "percent of the estimated consumer-price increase attributable to higher prices of foreign varieties", "value_type": "reported_decomposition"},
+        "indirect_component": {"value": 36, "unit": "percent of the estimated consumer-price increase attributable to imported-input costs and domestic markup increases", "value_type": "reported_decomposition"},
+        "market_power_channel": {"value": "Domestic producers raise markups when higher-priced imports reduce competition", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Decomposition of the total estimated consumer-price pass-through into direct import-price and indirect domestic-input/markup channels.",
+      "uncertainty": "The decomposition is conditional on the paper's model and empirical design; it does not establish that every domestic producer gains market power or that markups rise in every sector.",
+      "subgroup": "Foreign varieties, US producers using imported inputs, domestic competitors, retailers, and consumers with different product substitutions.",
+      "counterinterpretation": "Domestic markup movement may reflect cost recovery, demand shifts, inventory dynamics, or strategic repositioning rather than pure exploitation of reduced import competition.",
+      "source_url": "https://www.nber.org/papers/w35561",
+      "retrieval_hash": "sha256:052e6a85c9acafc26888dfe7db936532aae5c3d374b8c52bad02de26a83cf1a4",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026 US tariffs; timing of supply-chain transmission",
+      "denominator": {"value": null, "unit": "tariff-exposed supply chains; abstract reports a timing pattern rather than a disclosed count", "value_type": "not_disclosed"},
+      "measures": {
+        "direct_timing": {"value": "Direct pass-through occurs quickly because tariffs raise import prices almost immediately", "unit": "reported timing pattern", "value_type": "reported_mechanism"},
+        "indirect_timing": {"value": "Indirect pass-through through imported inputs and domestic pricing takes nine to twelve months", "unit": "months", "value_type": "reported_lag"},
+        "household_implication": {"value": "Consumer-price effects are larger and more drawn out than a direct-import-only estimate would imply", "unit": "bounded implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Dynamic comparison of direct import-price transmission and delayed supply-chain/input-cost transmission.",
+      "uncertainty": "The lag is an estimated aggregate timing pattern; it does not identify which households experience the largest burden, how retailers adjust, or whether consumers switch products or suppliers.",
+      "subgroup": "Households with different budgets and product baskets, domestic producers with different imported-input exposure, and retailers facing different inventory cycles.",
+      "counterinterpretation": "Inventory, contracts, hedging, exchange rates, or delayed demand changes could alter the timing for particular products and firms.",
+      "source_url": "https://www.nber.org/papers/w35561",
+      "retrieval_hash": "sha256:052e6a85c9acafc26888dfe7db936532aae5c3d374b8c52bad02de26a83cf1a4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35561", "claim": "Official NBER landing page with the 2025-2026 tariff exposure, 26 percent pass-through estimate, direct/indirect decomposition, and nine-to-twelve-month lag.", "status": "primary-source"},
+    {"source_url": "https://doi.org/10.3386/w35561", "claim": "NBER DOI route for the working paper.", "status": "primary-source"}
+  ],
+  "boundary": "This record adds a US consumer-price and firm-market-power mechanism: tariffs can pass through directly to imported varieties and indirectly through domestic input costs and markups over a longer supply-chain lag. It does not establish household welfare, incidence by income, retailer behavior, firm profitability, substitution, employment, or a universal tariff effect outside the study design.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W35561 page reviewed for the 2025-2026 tariff setting, 26 percent pass-through estimate, 64/36 direct-indirect decomposition, domestic markup channel, and nine-to-twelve-month lag.",
+    "source_url_sha256": "sha256:052e6a85c9acafc26888dfe7db936532aae5c3d374b8c52bad02de26a83cf1a4",
+    "checked": "2026-10-19"
+  }
+}

@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. tariff/consumer-price rotation — 2026-10-19:** the [NBER tariff pass-through record](records/us-nber-tariff-pass-through-consumer-prices-2026.json) finds that about 26% of the 2025–26 tariff increase passed through to consumer prices; 64% of that increase was direct and 36% came through imported inputs and domestic markups, with the indirect channel taking 9–12 months. Next: connect price incidence to household income, product substitution, firm margins, inventory, and remedy.
+
 **Latest U.S. consumer provenance repair — 2026-10-19:** the existing [NBER Shopping From Home record](records/us-nber-shopping-from-home-consumer-prices-2026.json) was rechecked against the official W34883 page and its placeholder hash was replaced with the retrieved page hash. The finding remains bounded: remote work changes shopping mode, time, product mix, and prices paid, but does not by itself establish welfare or retailer market power.
 
 **Latest U.S. consumer-industry AI rotation — 2026-10-19:** the [NBER Procter & Gamble field experiment](records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json) randomized 776 professionals across AI/no-AI and individual/team work on product-innovation tasks. Individuals using AI matched no-AI teams, AI balanced R&D and Commercial proposals, and users reported more positive emotion. Next: test whether apparent team substitution preserves expertise, worker voice, belonging, product quality, and consumer value over time.
@@ -506,9 +508,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 2009 machine-readable records and 5984
-observations. The trend registry holds 2009 records and
-5984 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 2010 machine-readable records and 5987
+observations. The trend registry holds 2010 records and
+5987 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

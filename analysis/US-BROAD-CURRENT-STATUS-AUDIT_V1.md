@@ -1,5 +1,7 @@
 # US broad program current-status audit v1
 
+The latest U.S. consumer-price addition is the [NBER tariff pass-through record](records/us-nber-tariff-pass-through-consumer-prices-2026.json). It reports about 26% pass-through of the 2025–26 tariff increase, with direct import-price effects and delayed imported-input/markup effects. This keeps aggregate pass-through, household incidence, substitution, firm margin, inventory, and remedy separate.
+
 The latest consumer-data quality repair rechecked the [NBER Shopping From Home record](records/us-nber-shopping-from-home-consumer-prices-2026.json) against the official W34883 page, replaced its placeholder retrieval hash, and added the source and project-control links. The finding remains bounded to shopping mode, time, product mix, and prices paid.
 
 The latest U.S. consumer-industry addition is the [NBER Procter & Gamble field experiment](records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json). It adds randomized team evidence: AI users matched no-AI teams on measured innovation tasks, produced more balanced R&D/Commercial proposals, and reported more positive emotion. This keeps task equivalence, expertise, social connection, worker voice, product quality, and consumer benefit separate.
@@ -592,7 +594,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 2009 machine-readable records, 5984 observations,
+**Current registry state:** 2010 machine-readable records, 5987 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2612,7 +2614,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 2009 trend records and 5984 observations pass the
+the current checkpoint: 2010 trend records and 5987 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

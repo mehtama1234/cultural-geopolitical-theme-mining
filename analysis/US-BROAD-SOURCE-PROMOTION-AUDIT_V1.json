@@ -22,21 +22,21 @@
     "analysis/US-BROAD-PUBLIC-SYSTEMS-SOURCE-LED-SUBTHEME-MAP_V1.md",
     "analysis/US-BROAD-EXTERNAL-DATA-FIRST-PASS_2026-09-25.md"
   ],
-  "total_records": 2009,
-  "directly_promoted_record_count": 1629,
+  "total_records": 2010,
+  "directly_promoted_record_count": 1630,
   "themes": [
     {
       "theme_id": "unequal_exposure_status",
       "theme": "Unequal exposure and status",
-      "records": 1749,
-      "directly_promoted_records": 1427,
+      "records": 1750,
+      "directly_promoted_records": 1428,
       "not_directly_named": 322
     },
     {
       "theme_id": "household_room_consumption",
       "theme": "Household room and consumption",
-      "records": 1241,
-      "directly_promoted_records": 990,
+      "records": 1242,
+      "directly_promoted_records": 991,
       "not_directly_named": 251
     },
     {
@@ -63,8 +63,8 @@
     {
       "theme_id": "infrastructure_technology_dependency",
       "theme": "Infrastructure, technology, and dependency",
-      "records": 791,
-      "directly_promoted_records": 642,
+      "records": 792,
+      "directly_promoted_records": 643,
       "not_directly_named": 149
     },
     {
@@ -77,8 +77,8 @@
     {
       "theme_id": "firm_sector_market_power",
       "theme": "Firm, sector, and market power",
-      "records": 735,
-      "directly_promoted_records": 604,
+      "records": 736,
+      "directly_promoted_records": 605,
       "not_directly_named": 131
     },
     {
@@ -98,8 +98,8 @@
     {
       "theme_id": "consumer_power_recourse",
       "theme": "Consumer power and recourse",
-      "records": 364,
-      "directly_promoted_records": 281,
+      "records": 365,
+      "directly_promoted_records": 282,
       "not_directly_named": 83
     },
     {
@@ -125,56 +125,6 @@
     }
   ],
   "low_density_theme_candidates": {
-    "consumer_power_recourse": [
-      {
-        "trend_id": "us-cfpb-brightspeed-redress-distribution-2026",
-        "title": "A named consumer redress route identifies eligible victims and ongoing distribution, while successful recovery remains unobserved"
-      },
-      {
-        "trend_id": "comparative-vml-future-100-2026-dysoptimism-ai-human-connection",
-        "title": "A \u2018dysoptimist\u2019 cultural mood is turning disruption into renewal, pairing AI experimentation with stronger demand for human connection and meaningful experience"
-      },
-      {
-        "trend_id": "comparative-ipsos-global-ai-attitudes-2026-wonder-worry-time-trust-environment",
-        "title": "AI adoption is becoming a negotiated bargain: time savings and future usefulness coexist with labor, environmental and commercial-trust concerns"
-      },
-      {
-        "trend_id": "us-pew-ai-use-concern-regulation-2026",
-        "title": "AI adoption is broadening while perceived control and regulatory confidence remain weak"
-      },
-      {
-        "trend_id": "us-ipsos-consumer-tracker-2026-ai-data-centers-household-costs",
-        "title": "AI infrastructure is becoming a household-cost and local-consent issue while consumers compress spending and protect human service"
-      },
-      {
-        "trend_id": "comparative-nielsen-gracenote-ai-entertainment-discovery-2026-gen-alpha-trust",
-        "title": "AI is becoming an entertainment-discovery interface for younger audiences faster than trust in its answers is consolidating"
-      },
-      {
-        "trend_id": "comparative-oecd-ai-employment-support-minimum-income-belgium-greece-2026",
-        "title": "AI-enabled employment support is being designed to move minimum-income beneficiaries from unstable entry jobs toward sustainable career progression"
-      },
-      {
-        "trend_id": "comparative-who-africa-health-workforce-2026-shortage-migration-absorption",
-        "title": "Africa's health-workforce crisis is an education-to-employment and retention failure as much as a training shortage, with migration and fiscal absorption shaping service access"
-      },
-      {
-        "trend_id": "comparative-ifpri-cgiar-agrifood-outlook-2050-climate-nutrition-livelihoods",
-        "title": "Agrifood futures are being modeled as an interconnected system where population, income, technology, climate, demand, production, nutrition, livelihoods, and natural resources co-determine long-term outcomes"
-      },
-      {
-        "trend_id": "au-hotak-reactivation-continued-work-2025",
-        "title": "An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order"
-      },
-      {
-        "trend_id": "us-census-retail-food-services-sales-2026-august",
-        "title": "August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open"
-      },
-      {
-        "trend_id": "comparative-ipsos-pride-2026-lgbt-acceptance-brand-media-policy",
-        "title": "Broad LGBT acceptance is holding while support for brand advocacy, media visibility and contested policy issues diverges"
-      }
-    ],
     "time_hidden_price": [
       {
         "trend_id": "au-hotak-reactivation-continued-work-2025",
@@ -223,6 +173,56 @@
       {
         "trend_id": "comparative-gallup-state-global-workplace-2026-engagement-wellbeing-work-location",
         "title": "Global work remains low-engagement and emotionally costly, while work location and regional context redistribute both agency and wellbeing"
+      }
+    ],
+    "consumer_power_recourse": [
+      {
+        "trend_id": "us-cfpb-brightspeed-redress-distribution-2026",
+        "title": "A named consumer redress route identifies eligible victims and ongoing distribution, while successful recovery remains unobserved"
+      },
+      {
+        "trend_id": "comparative-vml-future-100-2026-dysoptimism-ai-human-connection",
+        "title": "A \u2018dysoptimist\u2019 cultural mood is turning disruption into renewal, pairing AI experimentation with stronger demand for human connection and meaningful experience"
+      },
+      {
+        "trend_id": "comparative-ipsos-global-ai-attitudes-2026-wonder-worry-time-trust-environment",
+        "title": "AI adoption is becoming a negotiated bargain: time savings and future usefulness coexist with labor, environmental and commercial-trust concerns"
+      },
+      {
+        "trend_id": "us-pew-ai-use-concern-regulation-2026",
+        "title": "AI adoption is broadening while perceived control and regulatory confidence remain weak"
+      },
+      {
+        "trend_id": "us-ipsos-consumer-tracker-2026-ai-data-centers-household-costs",
+        "title": "AI infrastructure is becoming a household-cost and local-consent issue while consumers compress spending and protect human service"
+      },
+      {
+        "trend_id": "comparative-nielsen-gracenote-ai-entertainment-discovery-2026-gen-alpha-trust",
+        "title": "AI is becoming an entertainment-discovery interface for younger audiences faster than trust in its answers is consolidating"
+      },
+      {
+        "trend_id": "comparative-oecd-ai-employment-support-minimum-income-belgium-greece-2026",
+        "title": "AI-enabled employment support is being designed to move minimum-income beneficiaries from unstable entry jobs toward sustainable career progression"
+      },
+      {
+        "trend_id": "comparative-who-africa-health-workforce-2026-shortage-migration-absorption",
+        "title": "Africa's health-workforce crisis is an education-to-employment and retention failure as much as a training shortage, with migration and fiscal absorption shaping service access"
+      },
+      {
+        "trend_id": "comparative-ifpri-cgiar-agrifood-outlook-2050-climate-nutrition-livelihoods",
+        "title": "Agrifood futures are being modeled as an interconnected system where population, income, technology, climate, demand, production, nutrition, livelihoods, and natural resources co-determine long-term outcomes"
+      },
+      {
+        "trend_id": "au-hotak-reactivation-continued-work-2025",
+        "title": "An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order"
+      },
+      {
+        "trend_id": "us-census-retail-food-services-sales-2026-august",
+        "title": "August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open"
+      },
+      {
+        "trend_id": "comparative-ipsos-pride-2026-lgbt-acceptance-brand-media-policy",
+        "title": "Broad LGBT acceptance is holding while support for brand advocacy, media visibility and contested policy issues diverges"
       }
     ],
     "platforms_data_attention": [
