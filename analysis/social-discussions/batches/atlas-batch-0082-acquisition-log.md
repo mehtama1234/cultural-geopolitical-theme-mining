@@ -6,7 +6,8 @@ Scope: the 11 atlas records in `atlas-batch-0082.json`.
 
 ## Attributable normalized signals
 
-Two public results are safely attributable to current-batch atlas records:
+Two public results are safely attributable to current-batch atlas records; a
+third batch row is now terminal with documented access gaps:
 
 - `us-nber-tariff-pass-through-consumer-prices-2026` →
   `atlas-batch-0082-tariff-pass-through-linkedin-001`
@@ -28,12 +29,20 @@ patenting ZIP Codes, with mechanism tests consistent with financing. The
 record preserves the distinction between a bounded innovation association and
 broader claims about trust, firms, workers, or consumers.
 
+- `us-nber-payment-convenience-depositor-activeness-2026` → documented access
+  gaps on LinkedIn, Reddit, YouTube, and X.
+
+Search found adjacent fast-payment commentary and user anecdotes, but no
+platform result that identified NBER W35638 or its specific findings on
+transfer speed, transfer frequency, and deposit demand. Those adjacent items
+were not promoted into attributable evidence.
+
 ## Current batch state
 
 The tariff-pass-through and social-capital rows are terminal with exact
-LinkedIn signals and documented Reddit, YouTube, and X gaps. Nine other batch
-rows remain in review; no completion claim is made for the broader atlas
-program.
+LinkedIn signals and documented Reddit, YouTube, and X gaps. The payment row
+is terminal with four documented access gaps. Eight other batch rows remain in
+review; no completion claim is made for the broader atlas program.
 
 ## Reproducibility and limits
 
