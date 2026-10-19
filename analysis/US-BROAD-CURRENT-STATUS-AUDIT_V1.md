@@ -1,5 +1,7 @@
 # US broad program current-status audit v1
 
+The latest U.S. consumer-industry addition is the [NBER Procter & Gamble field experiment](records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json). It adds randomized team evidence: AI users matched no-AI teams on measured innovation tasks, produced more balanced R&D/Commercial proposals, and reported more positive emotion. This keeps task equivalence, expertise, social connection, worker voice, product quality, and consumer benefit separate.
+
 The latest U.S. firm-level addition is the [NBER/Federal Reserve executive survey](records/us-nber-ai-corporate-executives-productivity-workforce-2026.json). It reports uneven AI adoption, positive but sector-varying productivity, a perceived-versus-measured productivity gap, little near-term aggregate employment decline, and compositional job reallocation. This keeps firm expectations, realized revenue, worker transitions, bargaining power, pay, prices, and household benefit separate.
 
 The latest U.S. industrial-work addition is the [NBER patent-lawyer field experiment](records/us-nber-ai-patent-lawyers-expertise-field-experiment-2026.json). It adds randomized evidence that a custom AI drafting assistant raised work quality and later no-AI judgment for senior lawyers, while junior average scores did not improve and became more dispersed. This keeps AI task performance, durable expertise, worker control, training, pay, client welfare, and firm incentives separate.
@@ -588,7 +590,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 2008 machine-readable records, 5981 observations,
+**Current registry state:** 2009 machine-readable records, 5984 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2608,7 +2610,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 2008 trend records and 5981 observations pass the
+the current checkpoint: 2009 trend records and 5984 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

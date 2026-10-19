@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2008 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2009 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6801,6 +6801,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Perceived fairness of others' tax payments changes tax appeals and willingness to contribute | cost, voice, time | household_room_consumption, trust_identity_meaning, political_judgment_action, public_systems_feedback, unequal_exposure_status | NBER Working Paper 32588; U.S. property-tax information-disclosure field experiment | United States; households subject to a local property-tax appeal process | 1 | Property-tax information experiment; working paper issued June 2024 and revised July 2025 | reported | [open](records/us-nber-perceived-tax-fairness-appeals-2024.json) |
 
 **Boundary:** This record adds a fairness-perception-to-institutional-action pathway: information about others' tax contributions changes perceived fairness and tax-appeal behavior in a property-tax setting. It does not establish payment, tax compliance, public-service trust, political participation, durable legitimacy, or household security.
+
+| AI matched some team performance while changing expertise sharing and social connection in product innovation work | work, voice, time | firm_sector_market_power, work_control_bargaining, trust_identity_meaning, infrastructure_technology_dependency, unequal_exposure_status | NBER Working Paper 33641, The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise | Procter & Gamble, a US-headquartered global consumer packaged goods company; participant geography is not fully specified in the abstract | 3 | Pre-registered field experiment; product-innovation challenges; Field experiment; R&D and Commercial professional backgrounds; Field experiment; self-reported emotional response during knowledge work | reported | [open](records/us-nber-pg-ai-teamwork-expertise-social-engagement-2025.json) |
+
+**Boundary:** This record adds a US-company consumer-goods workplace experiment linking AI access to performance, teamwork, expertise sharing, functional silos, and self-reported emotional response. It does not establish replacement of teams, durable expertise, worker control, pay, employment, product-market success, consumer welfare, or long-run social connection.
 
 | Equal platform-data access can strengthen competition while reducing the incentive to produce data | voice, cost, time | firm_sector_market_power, platforms_data_attention, public_systems_feedback, trust_identity_meaning, household_room_consumption | NBER Working Paper 35159; theoretical model of data-neutrality rules, affiliated and unaffiliated sellers, platform data supply, competition, and consumer welfare | Platform-market model; used as a mechanism test for U.S.-relevant digital-market governance, not an observed U.S. firm estimate | 1 | Model published April 2026 | reported | [open](records/us-nber-platform-data-neutrality-market-competition-2026.json) |
 

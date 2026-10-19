@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-pg-ai-teamwork-expertise-social-engagement-2025",
+  "title": "AI matched some team performance while changing expertise sharing and social connection in product innovation work",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": ["firm_sector_market_power", "work_control_bargaining", "trust_identity_meaning", "infrastructure_technology_dependency", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 33641, The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise",
+  "geography": "Procter & Gamble, a US-headquartered global consumer packaged goods company; participant geography is not fully specified in the abstract",
+  "observations": [
+    {
+      "period": "Pre-registered field experiment; product-innovation challenges",
+      "denominator": {"value": 776, "unit": "Procter & Gamble professionals", "value_type": "randomized_field_experiment_participants"},
+      "measures": {
+        "performance": {"value": "individuals using AI matched the performance of teams working without AI", "unit": "reported performance comparison on real product-innovation challenges", "value_type": "reported_comparison"},
+        "assignment": {"value": "professionals were randomly assigned to AI or no-AI work and to individual or two-person new-product-development work", "unit": "factorial field-experiment assignment", "value_type": "reported_design"},
+        "collaboration_substitute": {"value": "AI reproduced some benefits of human collaboration on the measured tasks", "unit": "bounded interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Pre-registered randomized field experiment using real product-innovation challenges, comparing AI access, no AI, individual work, and human-team work.",
+      "uncertainty": "Performance equivalence is task-specific and does not show that AI replaces all team functions, improves long-run innovation, or preserves worker learning, trust, or accountability.",
+      "subgroup": "Professionals working individually or in new-product-development teams at a global consumer packaged goods company.",
+      "counterinterpretation": "AI may complement teams by freeing people for other interaction rather than substitute for collaboration; the abstract does not measure completed products, market success, pay, or worker control.",
+      "source_url": "https://www.nber.org/papers/w33641",
+      "retrieval_hash": "sha256:4c70ec80b1d9aa62e40a689928fae72839c5f8a3e6392d13960fb56cf397101a",
+      "status": "reported"
+    },
+    {
+      "period": "Field experiment; R&D and Commercial professional backgrounds",
+      "denominator": {"value": 776, "unit": "experiment participants assessed on product-innovation proposals", "value_type": "randomized_field_experiment_participants"},
+      "measures": {
+        "without_ai_specialization": {"value": "R&D professionals tended toward more technical proposals, while Commercial professionals leaned toward commercially oriented proposals", "unit": "reported functional pattern", "value_type": "reported_heterogeneity"},
+        "with_ai_balance": {"value": "AI users produced more balanced solutions regardless of professional background", "unit": "reported proposal-content pattern", "value_type": "reported_comparison"},
+        "silo_effect": {"value": "AI reduced the measured expression of functional silos in proposed solutions", "unit": "bounded mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Randomized comparison of proposal content across R&D and Commercial participants with and without AI access.",
+      "uncertainty": "Balanced proposals are not proof of better technical validity, commercial success, equal voice, or genuine expertise integration; the study does not establish whether organizational authority changes.",
+      "subgroup": "R&D and Commercial professionals with different domain training and functional identities.",
+      "counterinterpretation": "A language interface may smooth visible differences while masking disagreement, reducing specialized depth, or shifting judgment toward the tool's defaults.",
+      "source_url": "https://www.nber.org/papers/w33641",
+      "retrieval_hash": "sha256:4c70ec80b1d9aa62e40a689928fae72839c5f8a3e6392d13960fb56cf397101a",
+      "status": "reported"
+    },
+    {
+      "period": "Field experiment; self-reported emotional response during knowledge work",
+      "denominator": {"value": 776, "unit": "experiment participants", "value_type": "randomized_field_experiment_participants"},
+      "measures": {
+        "social_response": {"value": "AI users reported more positive emotional responses", "unit": "self-reported emotional response measure", "value_type": "reported_pattern"},
+        "social_role": {"value": "The authors suggest the language-based interface can fulfill part of the social and motivational role traditionally offered by human teammates", "unit": "reported interpretation", "value_type": "reported_interpretation"},
+        "organizational_open_link": {"value": "Human belonging, durable trust, worker voice, psychological safety, and team retention remain unmeasured", "unit": "missing outcomes", "value_type": "unmeasured"}
+      },
+      "method": "Randomized field comparison with self-reported emotional responses collected during product-innovation work.",
+      "uncertainty": "Self-reported positivity is not equivalent to durable social connection, wellbeing, trust, or team cohesion; the abstract does not provide the scale, effect size, or response timing.",
+      "subgroup": "Knowledge workers using AI individually or alongside human teammates in a consumer-goods innovation setting.",
+      "counterinterpretation": "A pleasant interface may reduce immediate friction while weakening human contact or making dissent less visible; positive affect does not establish a better workplace or consumer product.",
+      "source_url": "https://www.nber.org/papers/w33641",
+      "retrieval_hash": "sha256:4c70ec80b1d9aa62e40a689928fae72839c5f8a3e6392d13960fb56cf397101a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w33641", "claim": "Official NBER landing page with the study abstract, sample, randomized design, performance, functional-silo, emotional-response, and funding disclosures.", "status": "primary-source"},
+    {"source_url": "https://doi.org/10.3386/w33641", "claim": "NBER DOI landing route for the working paper.", "status": "primary-source"}
+  ],
+  "boundary": "This record adds a US-company consumer-goods workplace experiment linking AI access to performance, teamwork, expertise sharing, functional silos, and self-reported emotional response. It does not establish replacement of teams, durable expertise, worker control, pay, employment, product-market success, consumer welfare, or long-run social connection.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W33641 page reviewed for the 776-participant randomized design, AI/team performance comparison, R&D/Commercial proposal differences, balanced solutions, emotional-response result, and funding disclosure.",
+    "source_url_sha256": "sha256:4c70ec80b1d9aa62e40a689928fae72839c5f8a3e6392d13960fb56cf397101a",
+    "checked": "2026-10-19"
+  }
+}
