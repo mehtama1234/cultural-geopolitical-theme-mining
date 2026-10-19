@@ -47,6 +47,28 @@ could still propose an error-rate remedy. That may be practical, but the remedy
 itself has stages—proposal, adoption, account correction or payment, adequacy,
 and later trust—and only the proposal is visible in this bounded record.
 
+## National consequence comparator
+
+The local program evidence should be read against, not merged with, the national
+energy-insecurity layer. EIA's 2024 Residential Energy Consumption Survey reports
+43.56 million primary-residence housing units with at least one energy-insecurity
+condition, including 32.89 million that traded off food or medicine, 17.55 million
+with unhealthy temperatures, and 16.19 million receiving a disconnect or delivery-
+stop notice. These are overlapping housing-unit conditions, not Solar for All
+eligible households and not a program evaluation. The LIHEAP FY2024 record reports
+nearly 6 million people and families helped, 5 million heating-assistance
+households, and 279,000 restoration instances, but does not show restoration
+duration, next-bill affordability, or repeat crisis. A selected SIPP renter screen
+also places utility difficulty beside following-month food and housing hardship,
+while remaining descriptive and small in the joint-constraint cells.
+
+This comparator changes the learning question: the unresolved issue is not whether
+energy stress exists or whether public systems can reach households. It is whether
+a solar credit reaches the same account in time, reduces the bill enough to avoid
+tradeoffs, and persists through the next bill or an account/housing transition.
+Without that linkage, Solar for All can be a real benefit and still leave the
+highest-value household outcome unmeasured.
+
 ## Counterexamples and disconfirmation checks
 
 This audit does not assume administrative failure.
@@ -93,6 +115,11 @@ extract or docket appendix, linked by a stable participant/project key and month
    customer complaint or appeal;
 6. at least one later period for continuation and one comparison route where
    feasible.
+
+Use the national comparator as a pre-specified outcome frame: food/medicine
+tradeoff, unsafe temperature, disconnect notice, restoration, and next-bill
+stability. Do not infer that a credit prevented any of these outcomes unless the
+same household or account is observed before and after activation.
 
 Compare the same-household sequence rather than adding program-level counts.
 Stratify by renter/owner, housing type, account status, baseline arrears,
