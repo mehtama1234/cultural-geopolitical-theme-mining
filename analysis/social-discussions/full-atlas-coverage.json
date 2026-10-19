@@ -60903,8 +60903,8 @@
       "canonical_theme": "ai-work-control",
       "title": "U.S. respondents accept AI assistance more readily than full replacement of human work",
       "geography": "United States adult population-matched survey; respondents matched the U.S. adult population on age, gender, ethnicity, and political affiliation",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -60936,7 +60936,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-hbs-ai-customer-service-contextual-recourse-2020-2021",
@@ -64857,8 +64857,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "US firms report early AI productivity gains alongside uneven adoption and job-mix reallocation",
       "geography": "United States; corporate executives surveyed through Federal Reserve executive/CFO survey research",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -64875,11 +64875,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "firms report early productivity gains alongside uneven adoption job-mix reallocation nber working firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-ai-firm-data-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -64890,7 +64892,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-ai-economic-forecast-policy-preferences-2026",
@@ -65062,8 +65064,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "US firm AI investment is associated with recent productivity growth through organization capital",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -65080,11 +65082,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "firm investment associated recent productivity growth through organization capital firm-level ai-skilled employment infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-organization-capital-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -65095,7 +65099,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-ai-patent-lawyers-expertise-field-experiment-2026",
@@ -65103,8 +65107,8 @@
       "canonical_theme": "ai-work-control",
       "title": "AI assistance raised patent-drafting quality, but durable expertise gains depended on seniority",
       "geography": "United States; 133 practicing patent lawyers at 11 US intellectual-property law firms",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -65121,11 +65125,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "assistance raised patent-drafting quality but durable expertise gains depended seniority nber working ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-patent-expertise-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -65136,7 +65142,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-ai-political-advice-2026",
@@ -66130,8 +66136,8 @@
       "canonical_theme": "ai-work-control",
       "title": "US product-market creative destruction passes asymmetric risk through to incumbent workers",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -66163,7 +66169,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-credit-card-banking-market-power-2026",
@@ -66171,8 +66177,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "US credit-card banking combines broad household use with unusually high lending spreads and returns",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -66204,7 +66210,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-cultural-distance-media-consumption-time-attitudes-1965-2020",
@@ -66499,8 +66505,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "US product-market rivalry shapes investment, markups, and industry concentration",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -66532,7 +66538,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-ebay-consumer-search-costs-lower-prices-2015",
@@ -67237,8 +67243,8 @@
       "canonical_theme": "ai-work-control",
       "title": "Fertility changes US mothers’ labor-force participation and remote-work patterns across the pre- and post-pandemic periods",
       "geography": "United States; American Community Survey, 2003–2024",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -67270,7 +67276,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-firearm-safety-means-2026",
@@ -67362,8 +67368,8 @@
       "canonical_theme": "ai-work-control",
       "title": "US financial conditions shape firm insurance and worker labor-income risk",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -67395,7 +67401,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-fiscal-news-household-expectations-spending-korea-2026",
@@ -67526,8 +67532,8 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Household-level flood exposure is not the same as aggregate floodplain disadvantage",
       "geography": "United States households, housing parcels, and floodplains; 1999–2023 exposure trend and household-level comparisons",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -67559,7 +67565,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-gender-gaps-career-information-advice-2026",
@@ -67608,8 +67614,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "Gender-specific labor shocks reallocate household consumption without changing total child-product spending",
       "geography": "United States; heterosexual households, product-level consumption patterns, and US industrial robot and fracking shocks",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -67641,7 +67647,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-geoeconomic-coercion-government-firm-targets-2026",
@@ -67854,8 +67860,8 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Health-insurer concentration links market power and adverse selection to premiums, plan design, and consumer welfare",
       "geography": "United States; commercial, Medicare Advantage, and Medicaid health-insurance markets",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -67887,7 +67893,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-hepatitis-c-subscription-outcomes-2026",
@@ -68346,8 +68352,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "US minimum-wage increases reduce hours for recently arrived immigrant workers without reducing employment",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -68379,7 +68385,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-immigration-child-mortality-disease-spillovers-2026",
@@ -68881,8 +68887,8 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "Long-term moderate PM2.5 exposure increases circulatory disease among US soldiers",
       "geography": "United States; Army duty stations",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -68914,7 +68920,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-meaning-at-work-purpose-intervention-2025",
@@ -69006,8 +69012,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "US Medicaid nursing-home financing can reward volume over quality and shift patients toward worse providers",
       "geography": "United States; 24 federal audits and Indiana administrative microdata",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -69039,7 +69045,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-medicaid-renewal-outreach-administrative-burden-2026",
@@ -69129,8 +69135,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "US minimum wages have adverse employment, hours, and earnings effects for low-wage workers in poor families",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -69162,7 +69168,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-monetary-policy-information-treatments-2026",
@@ -69211,8 +69217,8 @@
       "canonical_theme": "ai-work-control",
       "title": "US labor-market power cannot be read from wage markdowns alone",
       "geography": "United States and comparative labor-market evidence reviewed for US policy analysis",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -69244,7 +69250,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-mortgage-lockin-housing-mobility-2022-2024",
@@ -69336,8 +69342,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "US multinationals concentrate foreign profits in tax-planning structures adopted by a minority of firms",
       "geography": "United States multinationals with foreign operations",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -69369,7 +69375,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-native-immigrant-entrepreneurial-synergies-2025",
@@ -69582,8 +69588,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "US nursing-home inspections trigger temporary quality responses while ratings still predict relative mortality",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -69615,7 +69621,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-mergers-compliance-direct-care-2025",
@@ -69623,8 +69629,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "US nursing-home mergers reduce deficiency citations but also reduce direct-care hours without improving resident health",
       "geography": "United States; nursing-home facilities observed 1999–2019",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -69656,7 +69662,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-related-party-tunneling-2024",
@@ -69664,8 +69670,8 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "US nursing-home profits are widely tunneled to related parties, changing the apparent return and regulatory picture",
       "geography": "United States; nursing-home providers",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -69697,7 +69703,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-roommate-peer-effects-mortality-2025",
@@ -69705,8 +69711,8 @@
       "canonical_theme": "unequal-exposure-status",
       "title": "US nursing-home roommate assignment changes mortality through patient peer effects",
       "geography": "United States; 7,200 nursing homes",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -69738,7 +69744,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-threshold-regulation-staffing-access-2026",
@@ -69746,8 +69752,8 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "California nursing homes manipulate size thresholds to avoid staffing rules, limiting access for disadvantaged patients",
       "geography": "United States; California nursing homes",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -69779,7 +69785,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-nyc-congestion-pricing-ems-response-2026",
@@ -69953,8 +69959,8 @@
       "canonical_theme": "ai-work-control",
       "title": "US overtime coverage expansion raised earnings without an employment decline",
       "geography": "United States",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -69986,7 +69992,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-p-ebt-sugary-item-spending-2026",
@@ -69994,8 +70000,8 @@
       "canonical_theme": "household-room-consumption",
       "title": "US P-EBT disbursements increased sugary-item spending among eligible households",
       "geography": "United States; state-level P-EBT disbursement timing",
-      "status": "queued",
-      "batch_id": null,
+      "status": "in_review",
+      "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
           "status": "not_started",
@@ -70027,7 +70033,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "run_public_or_authorized_platform_search"
+      "next_action": "acquire_and_normalize_platform_results"
     },
     {
       "atlas_record_id": "us-nber-party-pressure-representation-house-voters-2026",

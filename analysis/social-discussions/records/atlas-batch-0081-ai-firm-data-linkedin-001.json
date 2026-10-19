@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0081-ai-firm-data-linkedin-001",
+  "atlas_record_ids": ["us-nber-ai-corporate-executives-productivity-workforce-2026"],
+  "topic": "firm-sector-market-power",
+  "platform": "linkedin",
+  "item_type": "research_translation_post",
+  "author_or_account": "Nick Bloom",
+  "title": "CFOs and CEOs Expect AI to Boost Productivity, Cut Jobs",
+  "canonical_url": "https://www.linkedin.com/posts/nick-bloom-stanford_international-survey-of-5000-cfos-ceos-activity-7429536351663946464-JCIB",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The post translates the firm survey into a tension between current adoption and expected future effects: US firms reported roughly 1.5 hours of executive AI use per week, expected about 0.75 percentage points of annual productivity growth, and anticipated a small net employment decline. It also highlights disagreement between executive and worker expectations.",
+  "research_anchor_paths": ["analysis/records/us-nber-ai-corporate-executives-productivity-workforce-2026.json"],
+  "linked_research_question": "When firms report AI adoption before measurable productivity gains, which organizational investments, task changes, and employment decisions convert expectation into realized industrial or consumer benefit?",
+  "classification": ["industrial_firm_discussion", "ai_adoption", "productivity_expectations", "employment_reallocation", "bounded_public_discussion"],
+  "limits": ["The survey spans multiple countries and the post is a selected public translation", "Executive expectations are not realized productivity or employment outcomes", "LinkedIn visibility and comments are not representative of firms or workers"]
+}

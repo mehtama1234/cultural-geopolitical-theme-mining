@@ -1,5 +1,11 @@
 # Social-discussion readout — first wave
 
+The next USA industrial batch adds three linked discussions on the conversion
+chain from AI adoption to firm productivity: expected gains are not realized
+transformation, organization capital may mediate durable gains, and assisted
+work can hide uneven expertise formation. The batch is still open, so these
+are signals—not a completed social pass.
+
 The current AI/work-control extension adds a LinkedIn discussion from Harvard's
 Project on Workforce about the NBER pro-worker AI framework. The discussion
 turns the research taxonomy into an implementation question: can firms name

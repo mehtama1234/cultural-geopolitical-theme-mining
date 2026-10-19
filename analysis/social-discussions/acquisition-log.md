@@ -1,5 +1,12 @@
 # Acquisition log — first bounded wave
 
+## USA industrial batch 0081 — 2026-10-19
+
+Three LinkedIn discussions were normalized against new USA industrial atlas
+records: firm AI adoption and expected employment, organization-capital
+formation, and AI-assisted patent-lawyer expertise. The batch remains open;
+the records and boundaries are in `batches/atlas-batch-0081-acquisition-log.md`.
+
 ## AI/work-control extension — 2026-10-19
 
 | Platform | Query family | Result | Boundary |
