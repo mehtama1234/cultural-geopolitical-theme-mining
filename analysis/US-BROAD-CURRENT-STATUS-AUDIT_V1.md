@@ -1,5 +1,7 @@
 # US broad program current-status audit v1
 
+The latest U.S. consumer/worker addition is the [NBER poor-family minimum-wage record](records/us-nber-minimum-wage-poor-low-income-families-2026.json). It keeps the program inside the industrial/consumer USA boundary while adding family income-to-needs position to the labor-policy chain: adverse employment, hours, and earnings effects are reported for initially-employed low-wage workers in poor and low-income families, with no extra adverse gradient for the poorest. The record is deliberately bounded because the abstract does not disclose effect sizes, sample count, or the full causal design.
+
 The newest water-infrastructure depth artifact is the [water infrastructure,
 funding access, household service, and health audit](projects/cross-domain/water-infrastructure-funding-household-service-audit-v1.md).
 It joins NBER water-quality and mortality evidence, GAO rural and Tribal funding
@@ -550,7 +552,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 1989 machine-readable records, 5958 observations,
+**Current registry state:** 1990 machine-readable records, 5959 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2570,7 +2572,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1989 trend records and 5958 observations pass the
+the current checkpoint: 1990 trend records and 5959 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

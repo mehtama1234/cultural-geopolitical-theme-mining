@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-minimum-wage-poor-low-income-families-2026",
+  "title": "US minimum wages have adverse employment, hours, and earnings effects for low-wage workers in poor families",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "work_control_bargaining", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "US low-wage workers, family income-to-needs position, employment, hours, earnings, and minimum-wage policy",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Working paper issued August 2026; Survey of Income and Program Participation evidence",
+      "denominator": {"value": null, "unit": "SIPP low-wage workers and families across the income-to-needs distribution; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "employment": {"value": null, "unit": "minimum wages have adverse effects on employment for initially-employed low-wage workers in poor and low-income families", "value_type": "reported_direction"},
+        "hours": {"value": null, "unit": "minimum wages have adverse effects on hours for initially-employed low-wage workers in poor and low-income families", "value_type": "reported_direction"},
+        "earnings": {"value": null, "unit": "minimum wages have adverse effects on earnings for initially-employed low-wage workers in poor and low-income families", "value_type": "reported_direction"},
+        "poverty_reduction": {"value": null, "unit": "the adverse effects help explain why minimum wages do not reduce poverty", "value_type": "reported_implication"},
+        "poorest_gradient": {"value": null, "unit": "no gradient was found showing more adverse effects for the poorest low-wage workers", "value_type": "reported_null_gradient"}
+      },
+      "method": "Direct estimates using the Survey of Income and Program Participation, which oversamples low-income families, comparing low-wage workers across family income-to-needs positions and minimum-wage exposure.",
+      "uncertainty": "The NBER abstract does not disclose sample counts, effect sizes, exact policy variation, follow-up window, or the full identification strategy. The paper is a working paper; adverse worker outcomes do not by themselves establish firm pass-through, household consumption, or the best alternative policy.",
+      "subgroup": "Initially-employed low-wage workers in poor and low-income families, with comparisons across the income-to-needs distribution.",
+      "counterinterpretation": "Workers and firms may adjust through selection, hours, turnover, prices, automation, or unobserved policy differences; income-to-needs position can change during the observation window, and a measured earnings decline does not identify the full household resource response.",
+      "source_url": "https://www.nber.org/papers/w35628",
+      "retrieval_hash": "sha256:dcc3f36fade317b495a2a6f1223f20caa404f0b3baabf2752a25e303162dbb42",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35433", "claim": "US overtime coverage expansion raised earnings without a detected employment decline for affected salaried workers.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35749", "claim": "California fast-food wage-floor evidence studies establishment-level employment responses to a $20 wage floor.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35684", "claim": "US AI-skilled employment and organization capital are associated with recent firm productivity growth.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a household-positioned labor-policy signal. It does not disclose effect sizes or prove that minimum wages caused the reported adverse outcomes, and it does not measure worker voice, prices, firm profits, automation, benefits, consumption, poverty transitions, or political response in the same unit."
+}

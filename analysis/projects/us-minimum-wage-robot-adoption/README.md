@@ -20,3 +20,11 @@ employment. The public working-paper page does not provide that full bridge.
 
 - [Census CES Working Paper CES-26-42](https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-42.html)
 - [Machine-readable trend record](../../records/us-census-minimum-wage-robot-adoption-2026.json)
+
+The [NBER poor-family minimum-wage record](../../records/us-nber-minimum-wage-poor-low-income-families-2026.json)
+adds a household-positioned counterpoint: in SIPP evidence, initially employed
+low-wage workers in poor and low-income families show adverse employment, hours,
+and earnings effects, while the abstract reports no extra adverse gradient for
+the poorest workers. This does not settle the policy debate; it makes family
+income-to-needs position, worker selection, firm adjustment, and household
+resources explicit next measurements.

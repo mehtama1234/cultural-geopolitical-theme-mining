@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1989 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1990 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6661,6 +6661,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Political persuasion can travel through repeated physical proximity, not only ideology or formal affiliation | voice, time | political_judgment_action, trust_identity_meaning, public_systems_feedback, unequal_exposure_status | NBER Working Paper 34925; randomized U.S. Senate seating assignments, recorded interactions, and legislative votes over a 30-year sample | United States Congress | 1 | Thirty-year Senate sample; paper issued March 2026 | reported | [open](records/us-nber-micro-geography-peer-persuasion-voting-2026.json) |
 
 **Boundary:** This record adds a causal micro-mechanism for political action: physical and repeated peer exposure can affect legislative voting. It does not establish a general solution to polarization, mass persuasion, public trust, or durable constituent realignment.
+
+| US minimum wages have adverse employment, hours, and earnings effects for low-wage workers in poor families | work, cost, voice | household_room_consumption, work_control_bargaining, unequal_exposure_status, firm_sector_market_power, public_systems_feedback | US low-wage workers, family income-to-needs position, employment, hours, earnings, and minimum-wage policy | United States | 1 | Working paper issued August 2026; Survey of Income and Program Participation evidence | reported | [open](records/us-nber-minimum-wage-poor-low-income-families-2026.json) |
+
+**Boundary:** This record adds a household-positioned labor-policy signal. It does not disclose effect sizes or prove that minimum wages caused the reported adverse outcomes, and it does not measure worker voice, prices, firm profits, automation, benefits, consumption, poverty transitions, or political response in the same unit.
 
 | Monetary-policy expectation estimates vary with the design used to measure the announcement response | cost, voice | household_room_consumption, trust_identity_meaning, political_judgment_action, public_systems_feedback, unequal_exposure_status | US household respondent in a two-wave survey comparison around a Federal Reserve announcement | United States | 5 | September 2025 Federal Reserve rate-cut announcement; two-wave survey; September 2025 announcement; information-awareness comparison; September 2025 FOMC meeting; full-paper design and sample audit; September 2025 FOMC meeting; cross-design one-year expectation estimates; Pre-trial registration published September 3, 2025; planned study window September 10, 2025-September 30, 2026 | compared; estimated; observed; open; reported | [open](records/us-nber-monetary-policy-information-treatments-2026.json) |
 

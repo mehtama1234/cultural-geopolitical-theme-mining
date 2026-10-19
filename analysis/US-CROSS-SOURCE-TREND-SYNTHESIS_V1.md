@@ -1,5 +1,7 @@
 # US cross-source trend synthesis v1
 
+The [NBER poor-family minimum-wage record](records/us-nber-minimum-wage-poor-low-income-families-2026.json) adds a household-positioned counterexample to simple wage-floor narratives. SIPP evidence reports adverse employment, hours, and earnings effects for initially-employed low-wage workers in poor and low-income families, without a stronger adverse gradient for the poorest workers. Read beside overtime-coverage evidence with no detected employment decline, this makes the key comparison the policy design, worker starting position, firm adjustment, and outcome unit—not a single universal minimum-wage effect. The working-paper abstract does not disclose effect sizes, sample count, or the full identification strategy; it does not measure prices, profits, automation, benefits, consumption, or worker voice in the same episode.
+
 The [South Africa Census Cultural Dynamics record](records/comparative-south-africa-statssa-census-cultural-dynamics-1996-2022-language-religion-household-marriage.json) adds a population-structure layer beneath social-participation measures. Multiracial households rose from 1.3% in 2001 to 11.4% in 2022, multilingual households from 3.5% to 9.4% between 1996 and 2022, while legal marriage fell from 35.6% to 23.8%. The same census analysis reports 84.5% Christian affiliation and 9.5% traditional African religious affiliation in 2022. The pattern is cultural and household reorganization, not proof of increasing trust or cohesion; the next test is language access, housing and migration pathways, service usability, and lived intergroup contact.
 
 The [Singapore SG Culture Pass record](records/comparative-singapore-mccy-sg-culture-pass-2026-audience-reach-multicultural-access.json) adds a policy-designed audience-conversion route. More than 1.2 million citizens registered, and seven in ten had not attended a local arts or culture programme in the previous five years; among users, nine in ten expressed interest in another programme. The NAC survey shows why this is a meaningful but incomplete signal: physical attendance was 59%, digital arts consumption 66%, and active participation 28%, while childhood exposure was associated with substantially higher later engagement. The sharper test is redemption and repeat attendance by income, neighborhood, age, disability, and cultural background; registration and stated interest do not establish durable access or causal program effect.
@@ -113,7 +115,7 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 1989 machine-readable records, 5958 observations,
+The current registry contains 1990 machine-readable records, 5959 observations,
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json): 43% of same-firm workers experienced real-wage decline across 2021–2024, 37% of all workers did, and job changers' wages rose nearly one-for-one with inflation. The cross-source implication is that firm wage rules are an upstream part of household room and consumer sentiment, but the payroll source does not observe the same workers' spending, debt, care, trust, or political action.
 
