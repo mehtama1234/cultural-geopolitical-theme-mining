@@ -13,6 +13,18 @@ delivery, or strategic resilience. Next: match one focal subaward and UEI to a
 performing CAGE facility, then connect it to acceptance, shipment, inventory,
 training, and substitute-route records.
 
+**Latest U.S. consumer-remedy rotation — 2026-10-18:** the [fraud, remedy
+receipt, and household recovery audit](projects/cross-domain/us-consumer-fraud-remedy-receipt-audit-v1.md)
+follows the FTC's October 2026 report of 65,022 Walmart money-transfer-fraud
+checks totaling more than $9.8 million through administrative fraud exposure,
+receipt instructions, Federal Reserve household recovery and time burden, NBER
+liquidity-stratified fee effects, and bounded public recourse discussion. The
+finding is a check-to-recovery gap: a counted distribution does not yet prove
+receipt, adequate recovery, reduced repeat exposure, restored trust, or
+practical consumer exit. Next: seek sent, delivered, cashed, returned, and
+unresolved payment counts and at least one later household or protection
+outcome.
+
 **Latest U.S. platform-worker rotation — 2026-10-18:** the [remedy and
 work-control audit](projects/cross-domain/us-platform-worker-remedy-work-control-audit-v1.md)
 follows the Walmart Spark Driver case from complaint and court-entered $100
