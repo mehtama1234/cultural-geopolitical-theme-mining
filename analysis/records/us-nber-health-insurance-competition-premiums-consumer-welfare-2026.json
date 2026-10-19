@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-health-insurance-competition-premiums-consumer-welfare-2026",
+  "title": "Health-insurer concentration links market power and adverse selection to premiums, plan design, and consumer welfare",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "firm_sector_market_power", "care_health_reproduction", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "NBER Working Paper 34928, Competition in Health Insurance Markets",
+  "geography": "United States; commercial, Medicare Advantage, and Medicaid health-insurance markets",
+  "observations": [
+    {
+      "period": "2026 paper; US health-insurance market structure",
+      "denominator": {"value": 3, "unit": "market segments examined: commercial, Medicare Advantage, and Medicaid", "value_type": "market_segment_count"},
+      "measures": {
+        "concentration": {"value": "US health-insurance markets are highly concentrated and becoming more concentrated over time", "unit": "reported market-structure finding", "value_type": "reported_pattern"},
+        "coverage_scope": {"value": "The paper documents concentration across commercial, Medicare Advantage, and Medicaid markets", "unit": "reported market coverage", "value_type": "reported_comparison"},
+        "consumer_path": {"value": "Market structure can shape premiums, plan design, and consumer welfare through competition and information conditions", "unit": "reported mechanism frame", "value_type": "reported_mechanism"}
+      },
+      "method": "Review and empirical analysis of competition, concentration, asymmetric information, premiums, plan design, and consumer-welfare mechanisms across major US insurance segments.",
+      "uncertainty": "The abstract does not disclose every concentration measure, market-year observation, estimate, or subgroup result; concentration alone does not identify the welfare effect for a particular enrollee.",
+      "subgroup": "Consumers in commercial insurance, Medicare Advantage, and Medicaid markets, with different health risks, information, subsidies, provider networks, and switching options.",
+      "counterinterpretation": "Some concentration may reflect scale economies, network breadth, risk pooling, or administrative efficiencies; a structural measure is not automatically evidence of harmful conduct.",
+      "source_url": "https://www.nber.org/papers/w34928",
+      "retrieval_hash": "sha256:f9b9195631c31ff928a4e459f2704e8c3b9d84f2781ddbb51e6fa24cd28727ce",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; asymmetric information and plan-market outcomes",
+      "denominator": {"value": 3, "unit": "US insurance market segments examined", "value_type": "market_segment_count"},
+      "measures": {
+        "information_mechanism": {"value": "Asymmetric information, particularly adverse selection, interacts with market power", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "premium_plan_link": {"value": "The interaction shapes premiums and plan design", "unit": "reported market outcome pathway", "value_type": "reported_mechanism"},
+        "welfare_boundary": {"value": "Consumer welfare depends on both competition and information/risk conditions", "unit": "bounded interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Economic analysis combining market-structure evidence with adverse-selection and consumer-welfare mechanisms.",
+      "uncertainty": "Adverse selection is not directly observed for every enrollee in the abstract, and plan design can affect access, quality, provider choice, and out-of-pocket cost in different directions.",
+      "subgroup": "Higher- and lower-risk enrollees, informed and less-informed consumers, subsidized and unsubsidized purchasers, and consumers with different ability to switch plans.",
+      "counterinterpretation": "A plan with a higher premium may offer broader coverage or lower cost sharing; apparent consumer harm cannot be inferred from premiums without plan generosity, network, utilization, and enrollee-risk measures.",
+      "source_url": "https://www.nber.org/papers/w34928",
+      "retrieval_hash": "sha256:f9b9195631c31ff928a4e459f2704e8c3b9d84f2781ddbb51e6fa24cd28727ce",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; insurer consolidation and policy response",
+      "denominator": {"value": 4, "unit": "policy tools discussed: antitrust enforcement, risk adjustment, regulation, and informational interventions", "value_type": "policy_tool_count"},
+      "measures": {
+        "consolidation_premium": {"value": "Empirical evidence confirms that insurer consolidation raises premiums", "unit": "reported empirical conclusion", "value_type": "reported_effect"},
+        "policy_routes": {"value": "Antitrust, risk adjustment, regulation, and information interventions are discussed as ways to shape competition and consumer welfare", "unit": "reported policy set", "value_type": "reported_policy_options"},
+        "implementation_gap": {"value": "Policy design does not itself establish premium relief, better plan choice, usable switching, or improved health outcomes", "unit": "missing implementation outcomes", "value_type": "unmeasured"}
+      },
+      "method": "Synthesis of empirical market evidence and policy mechanisms for improving competition and consumer welfare.",
+      "uncertainty": "The abstract does not estimate the effect of each policy tool, distributional incidence, implementation cost, or the time needed for competition reforms to reach consumers.",
+      "subgroup": "Enrollees, employers, insurers, providers, regulators, and public programs with different bargaining positions and exposure to consolidation.",
+      "counterinterpretation": "A policy can lower premiums while narrowing networks or reducing plan stability; conversely, higher premiums may accompany more generous coverage. Remedy must track total consumer access and realized protection.",
+      "source_url": "https://www.nber.org/papers/w34928",
+      "retrieval_hash": "sha256:f9b9195631c31ff928a4e459f2704e8c3b9d84f2781ddbb51e6fa24cd28727ce",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34928", "claim": "Official NBER landing page with market concentration, adverse selection, premium, plan-design, consolidation, and policy-tool findings.", "status": "primary-source"},
+    {"source_url": "https://doi.org/10.3386/w34928", "claim": "NBER DOI route for the working paper.", "status": "primary-source"}
+  ],
+  "boundary": "This record adds a US health-insurance competition route linking concentration, adverse selection, premiums, plan design, consumer welfare, and policy remedies across commercial, Medicare Advantage, and Medicaid markets. It does not establish a universal concentration threshold, enrollee-level welfare effect, realized remedy, provider quality, health outcome, or household recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W34928 page reviewed for the three market segments, concentration trend, adverse-selection mechanism, consolidation-premium result, and four policy-response routes.",
+    "source_url_sha256": "sha256:f9b9195631c31ff928a4e459f2704e8c3b9d84f2781ddbb51e6fa24cd28727ce",
+    "checked": "2026-10-19"
+  }
+}

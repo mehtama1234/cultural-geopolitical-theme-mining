@@ -1,5 +1,7 @@
 # Project: US health costs and the choices people give up
 
+The [NBER health-insurance competition record](../../records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json) adds the market-structure layer: commercial, Medicare Advantage, and Medicaid insurance markets are highly concentrated; adverse selection interacts with market power; and insurer consolidation raises premiums. The record keeps premiums, plan generosity, network access, enrollee risk, switching, care, and realized remedy separate.
+
 ## Question
 
 When medical care costs more than a family can pay, what do people stop doing first—and how does that private choice affect work, debt, trust, and public policy?

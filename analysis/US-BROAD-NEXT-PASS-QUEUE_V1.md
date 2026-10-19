@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. health-insurance competition rotation — 2026-10-19:** the [NBER health-insurance record](records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json) covers commercial, Medicare Advantage, and Medicaid markets and links concentration and adverse selection to premiums, plan design, and consumer welfare; empirical evidence confirms consolidation raises premiums. Next: follow premium changes into network access, care, household cost, switching, and remedy rather than treating concentration or price alone as welfare.
+
 **Latest U.S. low-liquidity provenance repair — 2026-10-19:** the existing [NBER consumption-wedges record](records/us-nber-consumption-wedges-low-liquidity-2026.json) was rechecked against the official W34891 page; its stale retrieval hash was replaced and official/project links were added. Its substantive finding remains that negative and positive deviations from a frictionless benchmark can coexist, so lower or higher spending cannot be read as preference or welfare without cash, expectations, and adjustment-cost evidence.
 
 **Latest U.S. household-bargaining rotation — 2026-10-19:** the [NBER gender-specific shocks record](records/us-nber-gender-shocks-household-bargaining-consumption-2026.json) uses a machine-learning gendered-goods index to show that industrial-robot exposure shifted household consumption toward products more commonly purchased by single women, while fracking evidence for male-favored goods was suggestive but less robust. Total child-product spending did not significantly change, though robot exposure shifted composition toward daughter-associated goods. Next: connect labor shocks to income, prices, unpaid work, decision rights, and child outcomes.
@@ -512,9 +514,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 2011 machine-readable records and 5990
-observations. The trend registry holds 2011 records and
-5990 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 2012 machine-readable records and 5993
+observations. The trend registry holds 2012 records and
+5993 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

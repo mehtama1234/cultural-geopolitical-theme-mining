@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2011 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2012 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6569,6 +6569,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Extending Head Start hours increased maternal work outcomes in targeted areas | time, work, cost, voice | care_health_reproduction, time_hidden_price, work_control_bargaining, household_room_consumption, public_systems_feedback, unequal_exposure_status | NBER Working Paper 34831; 2016 federal Head Start full-day expansion, administrative program data, geocoded centers, and household employment outcomes | United States; Head Start grantees and mothers in treated and untreated areas | 1 | 2016 federal funding initiative; working paper issued February 2026 and revised August 2026 | reported | [open](records/us-nber-head-start-full-day-maternal-work-2026.json) |
 
 **Boundary:** This record adds an experimental-policy-to-formal-care-to-maternal-work conversion. It does not establish universal childcare effects, childcare quality, child wellbeing, maternal time satisfaction, equal access, household recovery, or durable political meaning.
+
+| Health-insurer concentration links market power and adverse selection to premiums, plan design, and consumer welfare | cost, voice, time | consumer_power_recourse, firm_sector_market_power, care_health_reproduction, unequal_exposure_status, public_systems_feedback | NBER Working Paper 34928, Competition in Health Insurance Markets | United States; commercial, Medicare Advantage, and Medicaid health-insurance markets | 3 | 2026 paper; US health-insurance market structure; 2026 paper; asymmetric information and plan-market outcomes; 2026 paper; insurer consolidation and policy response | reported | [open](records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json) |
+
+**Boundary:** This record adds a US health-insurance competition route linking concentration, adverse selection, premiums, plan design, consumer welfare, and policy remedies across commercial, Medicare Advantage, and Medicaid markets. It does not establish a universal concentration threshold, enrollee-level welfare effect, realized remedy, provider quality, health outcome, or household recovery.
 
 | A Medicaid drug subscription model expanded hepatitis-C treatment and produced measurable health and fiscal outcomes | cost, time, voice | care_health_reproduction, public_systems_feedback, household_room_consumption, unequal_exposure_status, trust_identity_meaning | NBER Working Paper 35583, using Louisiana Medicaid, hepatitis-C diagnosis, spending, and health-outcome data | Louisiana Medicaid; Louisiana Hepatitis C Elimination Plan beginning in 2019 | 1 | 2018-2022 treatment and diagnosis outcomes; five-year fiscal projection; paper issued August 2026 | estimated | [open](records/us-nber-hepatitis-c-subscription-outcomes-2026.json) |
 
