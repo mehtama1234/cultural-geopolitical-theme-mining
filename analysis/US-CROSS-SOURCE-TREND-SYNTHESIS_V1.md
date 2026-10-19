@@ -1,5 +1,7 @@
 # US cross-source trend synthesis v1
 
+The [NBER labor-force-exit record](records/us-nber-postpandemic-labor-force-exit-low-income-2026.json) adds a labor-supply and household-room boundary: persistent exit is concentrated among low-income and low-skill workers, especially low-skilled unmarried men, and self-employment replaces roughly 25% of lost W-2 income. Read beside minimum-wage hours effects and AI productivity evidence, the implication is that employment status alone misses income replacement, flexibility, care, health, and social engagement. The tax panel does not identify a single cause or measure informal work and wellbeing fully.
+
 The [NBER SNAP restriction record](records/us-nber-snap-sugary-restrictions-spending-calories-tax-2026.json) supplies the policy counterpoint to P-EBT expansion: restricted spending fell 11%, purchased calories and sugar fell 5–8%, and substitution was asymmetric across fruit drinks and snacks; shelf prices barely moved, tax-inclusive prices rose 1.9%, and online response remained large. Read beside the 16% P-EBT sugary-item purchase increase, the cross-source implication is that policy direction changes purchase composition, but neither result alone establishes diet, health, food security, or welfare. Modeled national gains remain separate from observed household outcomes.
 
 The [NBER P-EBT purchase-response record](records/us-nber-p-ebt-sugary-item-spending-2026.json) adds a direct consumer allocation layer: disbursement was associated with a 16% increase in weekly sugary-item spending among eligible households with school-aged children, exceeding the overall food-spending increase, with no placebo response. Read beside SNAP purchase restrictions and food-security measures, the implication is that assistance, restrictions, purchases, consumption, nutrition, and household security are different stages; purchase response alone cannot settle the welfare question.
@@ -135,7 +137,7 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 2000 machine-readable records, 5969 observations,
+The current registry contains 2001 machine-readable records, 5970 observations,
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json): 43% of same-firm workers experienced real-wage decline across 2021–2024, 37% of all workers did, and job changers' wages rose nearly one-for-one with inflation. The cross-source implication is that firm wage rules are an upstream part of household room and consumer sentiment, but the payroll source does not observe the same workers' spending, debt, care, trust, or political action.
 

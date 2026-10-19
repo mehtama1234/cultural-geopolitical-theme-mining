@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2000 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2001 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6793,6 +6793,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Partisan differences in workplace AI use are largely about where people work, while displacement fears may be separating | work, voice, time | political_judgment_action, work_control_bargaining, unequal_exposure_status, trust_identity_meaning, infrastructure_technology_dependency | Gallup Workforce Panel workers reporting workplace AI use and job-displacement risk | United States | 2 | Q1 2026 workplace AI use; 2025 through Q1 2026 perceived job-displacement risk | reported | [open](records/us-nber-politics-ai-partisan-composition-2026.json) |
 
 **Boundary:** This finding separates partisan composition of workplace AI exposure and use from partisan differences in perceived displacement risk. It does not establish ideological causation, actual adoption outcomes, job loss, worker control, public opinion beyond the workforce panel, or political action.
+
+| Persistent post-pandemic labor-force exit is concentrated among low-income and low-skill US workers | work, cost, time, voice | work_control_bargaining, household_room_consumption, unequal_exposure_status, firm_sector_market_power, care_health_reproduction | US tax-panel workers, occupation, income, labor-force exit, self-employment income, wages, benefits, stimulus, and post-pandemic work preferences | United States | 1 | Working paper issued October 2026; post-COVID recession labor-market panel | reported | [open](records/us-nber-postpandemic-labor-force-exit-low-income-2026.json) |
+
+**Boundary:** This record adds a post-pandemic labor-force exit and income-replacement layer to the US work/consumer program. It does not establish why workers exit, whether exit is harmful or voluntary, or how informal work, care, health, benefits, household resources, and later re-entry evolve.
 
 | Restricting mobile tracking can reduce fraud complaints through the data-resale chain | voice, cost, time | platforms_data_attention, consumer_power_recourse, unequal_exposure_status, household_room_consumption, trust_identity_meaning | NBER Working Paper 31692, revised May 2026; Apple App Tracking Transparency natural experiment, consumer fraud complaints, dark-web discussion, and sensitive-data prices | United States; geographic and firm-risk variation around Apple mobile tracking restrictions | 1 | Apple App Tracking Transparency natural experiment; working paper revised May 2026 | reported | [open](records/us-nber-privacy-tracking-fraud-2026.json) |
 

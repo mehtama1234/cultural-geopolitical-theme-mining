@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-postpandemic-labor-force-exit-low-income-2026",
+  "title": "Persistent post-pandemic labor-force exit is concentrated among low-income and low-skill US workers",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "care_health_reproduction"],
+  "source_unit": "US tax-panel workers, occupation, income, labor-force exit, self-employment income, wages, benefits, stimulus, and post-pandemic work preferences",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Working paper issued October 2026; post-COVID recession labor-market panel",
+      "denominator": {"value": null, "unit": "US tax-data panel of workers with occupation information; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "labor_force_exit": {"value": null, "unit": "persistent labor-force exit is especially concentrated among low-income and low-skill workers", "value_type": "reported_distribution"},
+        "highest_exit_group": {"value": null, "unit": "low-skilled unmarried men are the group most likely to exit", "value_type": "reported_subgroup"},
+        "missing_income_replacement": {"value": null, "unit": "people leaving the labor force do not on average replace the missing income", "value_type": "reported_direction"},
+        "self_employment_replacement": {"value": 25, "unit": "approximate percent of lost W-2 income replaced by self-employment income", "value_type": "reported_estimate"},
+        "proposed_explanations": {"value": null, "unit": "little evidence that school closures, virus exposure, stimulus payments, unemployment benefits, occupation upgrading, or firm quality explain the exits", "value_type": "reported_null_evidence"},
+        "work_preferences": {"value": null, "unit": "facts are consistent with lower willingness to work for low pay and greater preferences for leisure and job flexibility", "value_type": "reported_interpretation"}
+      },
+      "method": "A tax-data panel with newly assembled occupation information tracks workers across the post-pandemic labor market and compares exit, income replacement, occupation, firm quality, and candidate explanations.",
+      "uncertainty": "The NBER abstract does not disclose panel size, effect sizes, exact exit definition, observation window, or all identification assumptions. Reported preference interpretations are not direct randomized measures; tax data may miss informal work, household transfers, care work, health, and subjective wellbeing.",
+      "subgroup": "Low-income and low-skill workers, especially low-skilled unmarried men, compared with other workers and income groups.",
+      "counterinterpretation": "Exit can reflect disability, caregiving, housing, local labor demand, informal work, partner income, wealth, immigration, or reporting changes; self-employment income is not equivalent to stable earnings, benefits, worker voice, or job quality.",
+      "source_url": "https://www.nber.org/papers/w35856",
+      "retrieval_hash": "sha256:fcdd7a0301b161f53caeb069444c001a3b6295641a2a82cb1604bf54f490d297",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35038", "claim": "Minimum-wage hours effects differ for recently arrived immigrant workers while employment does not show a reported decline.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35628", "claim": "Minimum wages have adverse reported employment, hours, and earnings effects for initially-employed low-wage workers in poor and low-income families.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35684", "claim": "AI-skilled employment and organization capital are associated with recent firm productivity growth, leaving worker conversion open.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a post-pandemic labor-force exit and income-replacement layer to the US work/consumer program. It does not establish why workers exit, whether exit is harmful or voluntary, or how informal work, care, health, benefits, household resources, and later re-entry evolve."
+}
