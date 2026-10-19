@@ -77282,40 +77282,42 @@
       "canonical_theme": "consumer-power-recourse",
       "title": "Perceived borrowing costs are converting household financing decisions into forgone purchases, cheaper substitutes, and unequal flexibility",
       "geography": "United States; nationally representative survey of adults fielded July 20-23, 2026",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0083",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "perceived borrowing costs are converting household financing decisions into forgone purchases cheaper consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found in the bounded second-pass search tied to the Philadelphia Fed July 2026 household borrowing-costs survey.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "perceived borrowing costs are converting household financing decisions into forgone purchases cheaper consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion found in the bounded second-pass search tied to the Philadelphia Fed July 2026 household borrowing-costs survey.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "perceived borrowing costs are converting household financing decisions into forgone purchases cheaper consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0083-philly-borrowing-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "perceived borrowing costs are converting household financing decisions into forgone purchases cheaper consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found in the bounded second-pass search tied to the Philadelphia Fed July 2026 household borrowing-costs survey.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-pjm-large-load-disconnection-response-2026",

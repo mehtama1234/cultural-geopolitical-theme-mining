@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-philly-borrowing-linkedin-001",
+  "atlas_record_ids": ["us-philadelphia-fed-household-borrowing-costs-spending-headwinds-july-2026"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "official_survey_translation_post",
+  "author_or_account": "Thomas Akana / Federal Reserve Bank of Philadelphia",
+  "title": "Are Household Perceptions of Borrowing Costs Creating Spending Headwinds?",
+  "canonical_url": "https://www.linkedin.com/posts/thomas-akana_the-latest-life-survey-data-report-from-the-activity-7498763594776342528-b4Xy",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The Philadelphia Fed relay describes the July 2026 Consumer Finance Institute survey of more than 4,000 adults. It reports that over one-quarter considered borrowing for a large purchase but did not proceed, with about half of that group citing high borrowing costs; about 5% instead purchased a less ideal version because financing was expensive. This is direct survey evidence of substitution and forgone purchases, while the post does not identify every product category or establish a causal experiment.",
+  "research_anchor_paths": ["analysis/records/us-philadelphia-fed-household-borrowing-costs-spending-headwinds-july-2026.json"],
+  "linked_research_question": "Which household groups and purchase categories lose access first when perceived borrowing costs rise, and do cheaper substitutes preserve welfare or reduce product quality?",
+  "classification": ["borrowing_costs", "forgone_purchase", "product_substitution", "official_survey_translation", "bounded_public_discussion"],
+  "limits": ["The post summarizes survey responses and does not provide a randomized causal estimate", "The reported shares do not reveal the distribution across income, credit score, product type, or region", "A less ideal purchase is self-reported and does not measure long-run welfare or repayment outcomes"]
+}

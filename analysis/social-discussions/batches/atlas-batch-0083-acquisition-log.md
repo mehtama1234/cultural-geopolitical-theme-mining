@@ -64,9 +64,19 @@ differences, including tariff-exposed price growth. It supports looking for
 where adjustment is concentrated, but does not replace the atlas study's
 margin-versus-input-mix decomposition or establish plant-level causation.
 
+A sixth row is now augmented:
+
+- `us-philadelphia-fed-household-borrowing-costs-spending-headwinds-july-2026`
+  → `atlas-batch-0083-philly-borrowing-linkedin-001`
+
+The Philadelphia Fed relay provides a behavioral bridge from perceived rates
+to forgone large purchases and less-ideal substitutions. This strengthens the
+household-room chain, but does not identify the affected income or credit
+groups, product categories, or longer-run welfare effects.
+
 ## Batch state
 
-Four rows remain in review. The business-price-pressure row reached a
+Three rows remain in review. The business-price-pressure row reached a
 documented access gap after no exact platform discussion was found. Platform
 gaps for the five augmented rows were recorded for Reddit, YouTube, and X
 after bounded searches; no completion claim
