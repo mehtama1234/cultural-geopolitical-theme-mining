@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-btos-ai-size-linkedin-001",
+  "atlas_record_ids": ["us-census-btos-ai-firm-size-sector-2025-2026"],
+  "topic": "firm-sector-market-power",
+  "platform": "linkedin",
+  "item_type": "official-data_translation_post",
+  "author_or_account": "Alex Farach",
+  "title": "AI adoption varies greatly by firm size, not job role",
+  "canonical_url": "https://www.linkedin.com/posts/alex-farach_a-marketing-coordinator-at-a-12-person-agency-activity-7465760664494657537-RMEQ",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The post explicitly links the U.S. Census BTOS story and interprets the size gradient: about 37% of firms with 250 or more employees report AI use, versus under 20% of firms with four or fewer employees. It frames this as unequal exposure for workers doing similar roles across differently resourced employers, while noting that sales and marketing are common deployment functions. The record does not convert the adoption gap into productivity or employment claims.",
+  "research_anchor_paths": ["analysis/records/us-census-btos-ai-firm-size-sector-2025-2026.json"],
+  "linked_research_question": "Does firm-size concentration in U.S. AI adoption create unequal worker exposure to capability gains, surveillance, task redesign, and consumer-facing quality—and which capacity investments close the gap?",
+  "classification": ["business_ai_adoption", "firm_size_gradient", "worker_exposure", "consumer_industry", "bounded_public_discussion"],
+  "limits": ["The post is an interpretation of Census survey data, not an independent firm-level causal study", "Reported use does not establish effective deployment, task quality, productivity, profitability, worker outcomes, or consumer benefit", "The Census AI question wording changed in November 2025, limiting direct comparisons across the break"]
+}

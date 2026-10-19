@@ -1,0 +1,432 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0083",
+  "opened": "2026-10-19",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 10,
+  "atlas_record_ids": [
+    "comparative-icsc-consumer-economy-2026-value-tradeoffs-job-security",
+    "us-bea-personal-income-outlays-2026-august",
+    "us-census-ai-diffusion-firm-function-task-btos-2026",
+    "us-census-btos-ai-firm-size-sector-2025-2026",
+    "us-census-btos-business-price-pressure-outlook-2026",
+    "us-census-manufacturing-misallocation-margin-input-mix-2026",
+    "us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk",
+    "us-pew-data-center-local-legitimacy-2026",
+    "us-philadelphia-fed-household-borrowing-costs-spending-headwinds-july-2026",
+    "us-small-business-support-size-rule-2026"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "comparative-icsc-consumer-economy-2026-value-tradeoffs-job-security",
+      "atlas_record_path": "analysis/records/comparative-icsc-consumer-economy-2026-value-tradeoffs-job-security.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "U.S. consumers remain willing to spend while shifting toward value, selectivity, and financial-risk management as job-security anxiety rises",
+      "geography": "United States households, consumers, workers, retailers, brands, and the consumer economy",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0083",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "consumers remain willing spend while shifting toward value selectivity financial-risk management job-security household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "consumers remain willing spend while shifting toward value selectivity financial-risk management job-security household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "consumers remain willing spend while shifting toward value selectivity financial-risk management job-security household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "consumers remain willing spend while shifting toward value selectivity financial-risk management job-security household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-bea-personal-income-outlays-2026-august",
+      "atlas_record_path": "analysis/records/us-bea-personal-income-outlays-2026-august.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "August consumption accelerates while real disposable income is flat and saving rises",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0083",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "august consumption accelerates while real disposable income flat saving rises bea national household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-ai-diffusion-firm-function-task-btos-2026",
+      "atlas_record_path": "analysis/records/us-census-ai-diffusion-firm-function-task-btos-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "AI adoption is layered: firm use, business deployment, and worker task use do not always move together",
+      "geography": "United States; nationally representative 2026 Business Trends and Outlook Survey AI supplement",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0083",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "adoption layered firm use business deployment worker task not always move together infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "adoption layered firm use business deployment worker task not always move together infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "adoption layered firm use business deployment worker task not always move together infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "adoption layered firm use business deployment worker task not always move together infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-btos-ai-firm-size-sector-2025-2026",
+      "atlas_record_path": "analysis/records/us-census-btos-ai-firm-size-sector-2025-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Business AI adoption is concentrated by firm size and sector rather than spreading evenly",
+      "geography": "United States, with sector, state, and firm-size estimates",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0083",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "business adoption concentrated firm size sector rather than spreading evenly census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "business adoption concentrated firm size sector rather than spreading evenly census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "business adoption concentrated firm size sector rather than spreading evenly census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "business adoption concentrated firm size sector rather than spreading evenly census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-btos-business-price-pressure-outlook-2026",
+      "atlas_record_path": "analysis/records/us-census-btos-business-price-pressure-outlook-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Employer businesses report stronger input-price pressure than demand or employment expectations",
+      "geography": "United States employer businesses, excluding farms",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0083",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "employer businesses report stronger input-price pressure than demand employment expectations census bureau firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-census-manufacturing-misallocation-margin-input-mix-2026",
+      "atlas_record_path": "analysis/records/us-census-manufacturing-misallocation-margin-input-mix-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Manufacturing misallocation can rise through both margin and input-mix differences, with decline concentrated in a few industries",
+      "geography": "United States manufacturing industries and plants over the last several decades represented in the study's establishment data",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0083",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "manufacturing misallocation can rise through both margin input-mix differences decline concentrated few firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk",
+      "atlas_record_path": "analysis/records/us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Household spending expectations rise while credit access, financial outlook, and job-finding confidence deteriorate",
+      "geography": "United States; nationally representative internet-based rotating panel of approximately 1,300 household heads, fielded 3–31 August 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0083",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "household spending expectations rise while credit access financial outlook job-finding confidence deteriorate household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "household spending expectations rise while credit access financial outlook job-finding confidence deteriorate household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "household spending expectations rise while credit access financial outlook job-finding confidence deteriorate household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "household spending expectations rise while credit access financial outlook job-finding confidence deteriorate household-room-consumption 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-pew-data-center-local-legitimacy-2026",
+      "atlas_record_path": "analysis/records/us-pew-data-center-local-legitimacy-2026.json",
+      "canonical_theme": "infrastructure-technology-dependency",
+      "title": "U.S. public concern about data centers shifts from unfamiliarity toward local infrastructure burden",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0083",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "public concern about data centers shifts unfamiliarity toward local infrastructure burden pew infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "public concern about data centers shifts unfamiliarity toward local infrastructure burden pew infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "public concern about data centers shifts unfamiliarity toward local infrastructure burden pew infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "public concern about data centers shifts unfamiliarity toward local infrastructure burden pew infrastructure-technology-dependency 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-philadelphia-fed-household-borrowing-costs-spending-headwinds-july-2026",
+      "atlas_record_path": "analysis/records/us-philadelphia-fed-household-borrowing-costs-spending-headwinds-july-2026.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "Perceived borrowing costs are converting household financing decisions into forgone purchases, cheaper substitutes, and unequal flexibility",
+      "geography": "United States; nationally representative survey of adults fielded July 20-23, 2026",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0083",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "perceived borrowing costs are converting household financing decisions into forgone purchases cheaper consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "perceived borrowing costs are converting household financing decisions into forgone purchases cheaper consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "perceived borrowing costs are converting household financing decisions into forgone purchases cheaper consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "perceived borrowing costs are converting household financing decisions into forgone purchases cheaper consumer-power-recourse 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-small-business-support-size-rule-2026",
+      "atlas_record_path": "analysis/records/us-small-business-support-size-rule-2026.json",
+      "canonical_theme": "firm-sector-market-power",
+      "title": "Expanding small-business support eligibility toward larger firms can crowd out smaller firms' revenue, wages, exits, and innovation",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0083",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "expanding small-business support eligibility toward larger firms can crowd out smaller firms' firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "expanding small-business support eligibility toward larger firms can crowd out smaller firms' firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "expanding small-business support eligibility toward larger firms can crowd out smaller firms' firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "expanding small-business support eligibility toward larger firms can crowd out smaller firms' firm-sector-market-power 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}

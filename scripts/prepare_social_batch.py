@@ -18,15 +18,31 @@ def main() -> None:
     batch_id = sys.argv[1] if len(sys.argv) > 1 else "atlas-batch-0001"
     start = int(sys.argv[2]) if len(sys.argv) > 2 else 0
     size = int(sys.argv[3]) if len(sys.argv) > 3 else 25
+    mode = sys.argv[4] if len(sys.argv) > 4 else "new"
+    requested_ids = set(sys.argv[5].split(",")) if len(sys.argv) > 5 else None
     payload = json.loads(QUEUE.read_text(encoding="utf-8"))
     rows = payload["rows"]
-    selected = [row for row in rows if row["status"] in {"queued", "in_review"}][start : start + size]
+    eligible_statuses = {"queued", "in_review"}
+    if mode == "reopen_gaps":
+        eligible_statuses.add("documented_access_gap")
+    selected = [
+        row
+        for row in rows
+        if row["status"] in eligible_statuses
+        and (requested_ids is None or row["atlas_record_id"] in requested_ids)
+    ][start : start + size]
     if not selected:
         raise SystemExit("no queued rows available for requested batch")
     for row in selected:
         row["status"] = "in_review"
         row["batch_id"] = batch_id
         row["next_action"] = "acquire_and_normalize_platform_results"
+        if mode == "reopen_gaps":
+            row["terminal_reason"] = None
+            for item in row["platforms"].values():
+                item["status"] = "not_started"
+                item["retrieved"] = None
+                item["result_or_gap"] = None
     BATCH_DIR.mkdir(parents=True, exist_ok=True)
     batch = {
         "schema": "social-augmentation-batch-v1",

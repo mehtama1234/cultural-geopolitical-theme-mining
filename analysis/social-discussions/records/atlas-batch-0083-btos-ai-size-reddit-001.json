@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-btos-ai-size-reddit-001",
+  "atlas_record_ids": ["us-census-btos-ai-firm-size-sector-2025-2026"],
+  "topic": "firm-sector-market-power",
+  "platform": "reddit",
+  "item_type": "official-data_translation_discussion",
+  "author_or_account": "r/marketinteltools",
+  "title": "AI adoption statistics 2026: 19.8% of US firms use AI",
+  "canonical_url": "https://www.reddit.com/r/marketinteltools/comments/1x3ettd/ai_adoption_statistics_2026_198_of_us_firms_use/",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The post identifies the May 2026 U.S. Census BTOS series, reports the 19.8% national business-use figure, and points readers to a dated comparison across business-adoption surveys. It provides a public measurement discussion around denominator and survey-definition differences, which is useful because adoption rates vary with whether a survey counts any business-function use, worker use, or deeper integration.",
+  "research_anchor_paths": ["analysis/records/us-census-btos-ai-firm-size-sector-2025-2026.json"],
+  "linked_research_question": "How much of the apparent U.S. business-AI adoption gap reflects firm capacity and sector, and how much reflects survey wording, shallow experimentation, or genuine workflow integration?",
+  "classification": ["business_ai_adoption", "survey_measurement", "firm_size_gradient", "bounded_public_discussion"],
+  "limits": ["The post is a secondary compilation and not an independent validation of the Census survey", "The national rate does not establish firm-level deployment depth, productivity, worker outcomes, or consumer effects", "Cross-survey comparisons may use different populations, periods, and AI definitions"]
+}
