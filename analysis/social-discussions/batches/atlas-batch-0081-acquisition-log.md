@@ -20,6 +20,7 @@ records, including eighteen LinkedIn results and one Reddit discussion:
 - `us-nber-health-insurance-competition-premiums-consumer-welfare-2026` → `atlas-batch-0081-health-insurance-competition-linkedin-001`
 - `us-nber-credit-card-banking-market-power-2026` → `atlas-batch-0081-credit-card-linkedin-001`
 - `us-nber-flood-risk-insurance-household-exposure-2026` → `atlas-batch-0081-flood-risk-linkedin-001`
+- `us-nber-flood-risk-insurance-household-exposure-2026` → `atlas-batch-0081-flood-risk-linkedin-002`
 - `us-nber-creative-destruction-worker-earnings-risk-2026` → `atlas-batch-0081-creative-destruction-linkedin-001`
 - `us-nber-dynamic-investment-product-market-rivalry-2026` → `atlas-batch-0081-dynamic-investment-linkedin-001`
 - `us-nber-nursing-home-inspection-strategic-response-mortality-2025` → `atlas-batch-0081-nursing-inspection-linkedin-001`
@@ -28,7 +29,7 @@ records, including eighteen LinkedIn results and one Reddit discussion:
 - `us-nber-pg-ai-teamwork-expertise-social-engagement-2025` → `atlas-batch-0081-pg-ai-teamwork-linkedin-001`
 - `us-nber-minimum-wage-poor-low-income-families-2026` → `atlas-batch-0081-minimum-wage-poor-families-linkedin-001`
 
-The nineteen signals sharpen an industrial/consumer USA chain: public
+The twenty signals sharpen an industrial/consumer USA chain: public
 acceptance and firm adoption are not the same as realized transformation;
 organization capital may be the missing complement; assisted output can
 conceal uneven expertise
@@ -43,9 +44,9 @@ add a cultural permission layer to industrial adoption.
 
 ## Current batch state
 
-The nineteen linked records have a normalized result. The HBS
+The twenty linked records have a normalized result. The HBS
 AI-acceptance row now has terminal outcomes for all four platforms and is
-closed as augmented; 13 other batch rows remain in review while their
+closed as augmented; 12 other batch rows remain in review while their
 platform attempts are worked. No completion claim is made for this batch.
 
 ## LinkedIn search gaps recorded
@@ -87,7 +88,7 @@ documented YouTube and X gaps.
 
 The AI organization-capital/productivity record is likewise terminal with its
 exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
-found in the exact-title searches. Fourteen other batch rows remain in review.
+found in the exact-title searches. Twelve other batch rows remain in review.
 
 The creative-destruction worker-earnings record has no exact YouTube, Reddit,
 or X match; older or broader creative-destruction discussions were retained
@@ -127,6 +128,11 @@ The health-insurance competition record is terminal with an exact author post
 from Martin Gaynor linking the NBER paper and framing the interaction between
 competition and asymmetric information. Reddit, YouTube, and X produced no
 exact paper-linked item.
+
+The flood-risk household-exposure record is terminal with an exact NBER
+LinkedIn post highlighting the distinction between aggregate exposure,
+household exposure, property ownership, and uninsured low-income vulnerability.
+Reddit, YouTube, and X produced no exact paper-linked item.
 
 ## Reproducibility and limits
 

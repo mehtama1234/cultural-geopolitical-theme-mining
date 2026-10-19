@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0081-flood-risk-linkedin-002",
+  "atlas_record_ids": ["us-nber-flood-risk-insurance-household-exposure-2026"],
+  "topic": "housing-place-mobility",
+  "platform": "linkedin",
+  "item_type": "research_translation_post",
+  "author_or_account": "National Bureau of Economic Research",
+  "title": "Household-level flood risk is concentrated among high-income property owners, with uninsured low-income vulnerability",
+  "canonical_url": "https://www.linkedin.com/posts/nber_while-floodplain-migration-has-risen-overall-activity-7463212527611461634-dWqX",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The NBER post translates the paper's household-level result: floodplain migration and aggregate exposure trends can look different from the distribution of risk across households. It highlights disproportionate exposure among high-income property owners while retaining the important counterpoint that low-income uninsured homeowners remain vulnerable. This makes exposure, ownership, and insurance status separate social mechanisms rather than one aggregate risk measure.",
+  "research_anchor_paths": ["analysis/records/us-nber-flood-risk-insurance-household-exposure-2026.json"],
+  "linked_research_question": "When aggregate flood exposure rises but household exposure shares remain stable, which combinations of ownership, building type, migration, and insurance determine who can actually recover from a flood?",
+  "classification": ["climate_exposure", "household_risk", "flood_insurance", "housing_inequality", "public_research_translation", "bounded_public_discussion"],
+  "limits": ["The post is a short institutional summary and does not provide the confidential-data sample count or all estimates", "Exposure and insurance status do not establish adequate coverage, safe occupancy, repair, or recovery", "A single institutional LinkedIn post is not representative of affected households or local communities"]
+}

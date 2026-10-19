@@ -67542,21 +67542,21 @@
       "canonical_theme": "housing-place-mobility",
       "title": "Household-level flood exposure is not the same as aggregate floodplain disadvantage",
       "geography": "United States households, housing parcels, and floodplains; 1999–2023 exposure trend and household-level comparisons",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household-level flood exposure not same aggregate floodplain disadvantage nber working paper confidential housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion explicitly tied to NBER w35204 was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household-level flood exposure not same aggregate floodplain disadvantage nber working paper confidential housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Search found older or adjacent flood-insurance discussion, but no exact item tied to NBER w35204.",
           "social_record_ids": []
         },
         "linkedin": {
@@ -67565,19 +67565,20 @@
           "retrieved": "2026-10-19",
           "result_or_gap": "normalized social evidence retained",
           "social_record_ids": [
-            "atlas-batch-0081-flood-risk-linkedin-001"
+            "atlas-batch-0081-flood-risk-linkedin-001",
+            "atlas-batch-0081-flood-risk-linkedin-002"
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "household-level flood exposure not same aggregate floodplain disadvantage nber working paper confidential housing-place-mobility 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion explicitly tied to NBER w35204 was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-gender-gaps-career-information-advice-2026",
