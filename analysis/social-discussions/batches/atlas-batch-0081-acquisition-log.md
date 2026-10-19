@@ -44,7 +44,7 @@ add a cultural permission layer to industrial adoption.
 
 The eighteen linked records have a normalized result. The HBS
 AI-acceptance row now has terminal outcomes for all four platforms and is
-closed as augmented; 15 other batch rows remain in review while their
+closed as augmented; 14 other batch rows remain in review while their
 platform attempts are worked. No completion claim is made for this batch.
 
 ## LinkedIn search gaps recorded
@@ -86,7 +86,7 @@ documented YouTube and X gaps.
 
 The AI organization-capital/productivity record is likewise terminal with its
 exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
-found in the exact-title searches. Fifteen other batch rows remain in review.
+found in the exact-title searches. Fourteen other batch rows remain in review.
 
 The creative-destruction worker-earnings record has no exact YouTube, Reddit,
 or X match; older or broader creative-destruction discussions were retained
@@ -116,6 +116,11 @@ that links NBER w32258 and discusses its 68% profit-tunneling estimate. The
 post is retained as a public interpretation of ownership opacity and
 accountability, not as independent confirmation of the accounting analysis;
 Reddit, YouTube, and X produced no exact paper-linked item.
+
+The Medicaid volume-quality record is terminal with no exact social item tied
+to NBER w34118. LinkedIn returned adjacent Medicaid and nursing-home policy
+discussion, including an NBER post about a different dementia paper; Reddit,
+YouTube, and X produced no exact paper-linked item.
 
 ## Reproducibility and limits
 

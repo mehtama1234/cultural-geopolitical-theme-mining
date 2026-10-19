@@ -69028,40 +69028,40 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "US Medicaid nursing-home financing can reward volume over quality and shift patients toward worse providers",
       "geography": "United States; 24 federal audits and Indiana administrative microdata",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "medicaid nursing-home financing can reward volume over quality shift patients toward worse public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion identifiable to NBER w34118 was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "medicaid nursing-home financing can reward volume over quality shift patients toward worse public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion identifiable to NBER w34118 was found in the bounded search.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "medicaid nursing-home financing can reward volume over quality shift patients toward worse public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Search found adjacent Medicaid and nursing-home policy discussion, plus an NBER dementia post about a different paper, but no exact item identifiable to NBER w34118.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "medicaid nursing-home financing can reward volume over quality shift patients toward worse public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion identifiable to NBER w34118 was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-medicaid-renewal-outreach-administrative-burden-2026",
