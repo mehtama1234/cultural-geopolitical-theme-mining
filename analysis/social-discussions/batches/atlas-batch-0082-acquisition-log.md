@@ -54,8 +54,10 @@ innovation task and claims about durable team replacement or employment.
 The tariff-pass-through and social-capital rows are terminal with exact
 LinkedIn signals and documented Reddit, YouTube, and X gaps. The payment row
 is terminal with four documented access gaps. The P&G row is augmented across
-LinkedIn, Reddit, and YouTube, with an X access gap. Seven other batch rows
-remain in review; no completion claim is made for the broader atlas program.
+LinkedIn, Reddit, and YouTube, with an X access gap. The pro-worker AI row is
+augmented across LinkedIn, Reddit, and YouTube, with an X access gap. Six
+other batch rows remain in review; no completion claim is made for the broader
+atlas program.
 
 ## Reproducibility and limits
 

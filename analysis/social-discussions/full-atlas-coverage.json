@@ -70571,22 +70571,26 @@
       "canonical_theme": "ai-work-control",
       "title": "AI policy can distinguish worker-augmenting capability from automation and expertise commodification",
       "geography": "United States policy and workplace examples; conceptual framework with examples spanning aviation maintenance, electrical services, custodial work, education, patent examination, and gig delivery",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0082",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0082-pro-worker-ai-youtube-001"
+          ]
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0082-pro-worker-ai-reddit-001"
+          ]
         },
         "linkedin": {
           "status": "augmented",
@@ -70598,15 +70602,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "policy can distinguish worker-augmenting capability automation expertise commodification nber working paper building ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found within the bounded six-month window that identified NBER W34854 or the paper's specific five-category framework and nine policy directions.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-property-tax-housing-allocation-generations-2026",
