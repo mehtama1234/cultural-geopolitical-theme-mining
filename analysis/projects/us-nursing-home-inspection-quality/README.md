@@ -43,3 +43,11 @@ care hours decline and resident health does not meaningfully improve. The citati
 change is concentrated in low-severity categories, so the next test is whether
 ownership changes alter clinical outcomes, staffing quality, resident voice, and
 access rather than only compliance measures.
+
+The [related-party finance record](../../records/us-nber-nursing-home-related-party-tunneling-2024.json)
+adds the financial-governance layer: the paper estimates that 68% of nursing-home
+profits are tunneled to related real-estate and management companies, raising the
+implied typical investment return from 4.83% to 13.11% after adjustment. This is
+not by itself proof of illegality or care harm; the next test is whether financial
+extraction changes staffing, reimbursements, liability, resident outcomes, or
+worker conditions.

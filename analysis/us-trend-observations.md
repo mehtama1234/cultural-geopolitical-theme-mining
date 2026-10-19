@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1994 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1995 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6713,6 +6713,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | US nursing-home mergers reduce deficiency citations but also reduce direct-care hours without improving resident health | work, voice, cost | firm_sector_market_power, public_systems_feedback, unequal_exposure_status, work_control_bargaining, household_room_consumption | US nursing-home chain mergers, facility quality citations, direct-care hours, marginal cost, and resident health outcomes | United States; nursing-home facilities observed 1999–2019 | 1 | Working paper issued June 2025; revised July 2026; facility-level data from 1999–2019 | reported | [open](records/us-nber-nursing-home-mergers-compliance-direct-care-2025.json) |
 
 **Boundary:** This record adds an ownership and compliance-versus-care comparison to the US nursing-home chain. It does not establish that mergers improve or worsen overall quality, and it does not measure worker voice, prices, profits, resident experience, access, or long-run health in the same unit.
+
+| US nursing-home profits are widely tunneled to related parties, changing the apparent return and regulatory picture | cost, voice, work | firm_sector_market_power, public_systems_feedback, unequal_exposure_status, household_room_consumption, work_control_bargaining | US nursing-home providers, related-party real-estate and management payments, reported profits, assets, investment returns, reimbursements, and liability exposure | United States; nursing-home providers | 1 | Working paper issued March 2024; revised September 2025; detailed nursing-home financial data | reported | [open](records/us-nber-nursing-home-related-party-tunneling-2024.json) |
+
+**Boundary:** This record adds a financial-governance layer to the US nursing-home chain. It does not establish illegality, resident or worker harm, reimbursement fraud, clinical quality effects, prices, access, or causal links between tunneling and care outcomes in the same unit.
 
 | California nursing homes manipulate size thresholds to avoid staffing rules, limiting access for disadvantaged patients | work, voice, cost | public_systems_feedback, firm_sector_market_power, unequal_exposure_status, work_control_bargaining, household_room_consumption | California nursing-home facilities, bed-count threshold, staffing requirements, facility size manipulation, and patient access | United States; California nursing homes | 1 | Working paper issued October 2026; California nursing homes with at least 100 beds | reported | [open](records/us-nber-nursing-home-threshold-regulation-staffing-access-2026.json) |
 

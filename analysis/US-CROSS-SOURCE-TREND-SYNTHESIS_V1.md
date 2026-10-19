@@ -1,5 +1,7 @@
 # US cross-source trend synthesis v1
 
+The [NBER related-party finance record](records/us-nber-nursing-home-related-party-tunneling-2024.json) adds a hidden-finance layer: 68% of nursing-home profits are estimated to be tunneled to commonly-owned real-estate and management companies, increasing implied typical investment IRR from 4.83% to 13.11% after adjustment. Read with mergers, inspection timing, and threshold avoidance, the cross-source implication is that reported profitability, regulatory compliance, labor input, and resident health can be separated by ownership and accounting structures. The abstract does not establish illegality or a causal care effect.
+
 The [NBER nursing-home merger record](records/us-nber-nursing-home-mergers-compliance-direct-care-2025.json) adds the ownership mechanism: acquisitions reduce deficiency citations by 8% over three years, with persistence of at least five years, but direct-care hours decline and resident health does not meaningfully improve. Low-severity citation changes suggest compliance can improve without equivalent clinical gains. Read with inspection timing, threshold avoidance, and financial tunneling, the cross-source pattern is a measurement-and-incentive split: firm cost efficiency, regulatory compliance, labor input, and resident health can diverge.
 
 The [NBER nursing-home inspection record](records/us-nber-nursing-home-inspection-strategic-response-mortality-2025.json) adds a persistence and measurement challenge. Facilities improve several observed dimensions around inspections, then nearly all responses fall immediately afterward; ratings therefore may not measure absolute quality, even though higher-rated facilities have lower patient mortality. Read with threshold avoidance, mergers, and related-party financial evidence, the cross-source implication is that compliance, facility quality, resident access, and financial incentives can move on different clocks. The abstract does not disclose effect sizes or fully identify the mortality mechanism.
@@ -123,7 +125,7 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 1994 machine-readable records, 5963 observations,
+The current registry contains 1995 machine-readable records, 5964 observations,
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json): 43% of same-firm workers experienced real-wage decline across 2021–2024, 37% of all workers did, and job changers' wages rose nearly one-for-one with inflation. The cross-source implication is that firm wage rules are an upstream part of household room and consumer sentiment, but the payroll source does not observe the same workers' spending, debt, care, trust, or political action.
 

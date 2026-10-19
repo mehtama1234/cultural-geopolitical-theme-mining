@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. care-finance rotation — 2026-10-19:** the [NBER related-party finance record](records/us-nber-nursing-home-related-party-tunneling-2024.json) estimates that 68% of nursing-home profits are tunneled to related real-estate and management companies; accounting for the tunnel raises implied typical investment IRR from 4.83% to 13.11%. Next: connect financial extraction to staffing, reimbursements, liability, resident outcomes, worker conditions, and access; do not treat a related-party payment as automatically illegal.
+
 **Latest U.S. care-ownership rotation — 2026-10-19:** the [NBER nursing-home merger record](records/us-nber-nursing-home-mergers-compliance-direct-care-2025.json) reports an 8% reduction in health deficiency citations after acquisition, persisting at least five years, alongside lower direct-care hours and no meaningful resident-health improvement. Because citation gains are concentrated in low-severity categories, next: separate compliance, clinical outcomes, staffing quality, resident voice, access, and ownership economics.
 
 **Latest U.S. care-quality measurement rotation — 2026-10-19:** the [NBER nursing-home inspection record](records/us-nber-nursing-home-inspection-strategic-response-mortality-2025.json) adds a persistence test: facilities respond strongly across several dimensions during inspections, nearly all responses drop immediately afterward, yet higher ratings predict lower patient mortality. Next: separate temporary compliance, persistent facility quality, patient sorting, resident experience, and worker conditions; do not treat a rating as absolute quality.
@@ -474,9 +476,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1994 machine-readable records and 5963
-observations. The trend registry holds 1994 records and
-5963 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1995 machine-readable records and 5964
+observations. The trend registry holds 1995 records and
+5964 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

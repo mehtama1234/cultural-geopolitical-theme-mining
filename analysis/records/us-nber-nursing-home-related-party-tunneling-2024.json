@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-nursing-home-related-party-tunneling-2024",
+  "title": "US nursing-home profits are widely tunneled to related parties, changing the apparent return and regulatory picture",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["firm_sector_market_power", "public_systems_feedback", "unequal_exposure_status", "household_room_consumption", "work_control_bargaining"],
+  "source_unit": "US nursing-home providers, related-party real-estate and management payments, reported profits, assets, investment returns, reimbursements, and liability exposure",
+  "geography": "United States; nursing-home providers",
+  "observations": [
+    {
+      "period": "Working paper issued March 2024; revised September 2025; detailed nursing-home financial data",
+      "denominator": {"value": null, "unit": "US nursing-home providers and related-party financial accounts; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "profits_tunneled": {"value": 68, "unit": "percent of nursing-home profits estimated to be tunneled to related parties", "value_type": "reported_estimate"},
+        "reported_investment_irr": {"value": 4.83, "unit": "percent implied typical investment internal rate of return before accounting for tunneled profits and assets", "value_type": "reported_estimate"},
+        "adjusted_investment_irr": {"value": 13.11, "unit": "percent implied typical investment internal rate of return after accounting for tunneled profits and assets", "value_type": "reported_estimate"},
+        "related_party_route": {"value": null, "unit": "inflated payments to commonly-owned related real-estate and management companies", "value_type": "reported_mechanism"},
+        "regulatory_risk": {"value": null, "unit": "understated profitability may encourage higher reimbursements and relaxed quality standards, while asset shielding may reduce malpractice liability exposure", "value_type": "reported_implication"}
+      },
+      "method": "The paper uses uniquely detailed nursing-home financial data to identify inflated payments to commonly-owned related parties and compares reported with adjusted profits, assets, and implied investment returns.",
+      "uncertainty": "The NBER abstract does not disclose provider counts, time coverage, effect uncertainty, or the full identification and accounting assumptions. The estimate is a working-paper result; tunneling evidence does not by itself establish illegal conduct, resident harm, worker harm, reimbursement changes, or causal quality effects.",
+      "subgroup": "Nursing-home providers with commonly-owned related real-estate or management entities.",
+      "counterinterpretation": "Related-party payments can include legitimate services, risk allocation, financing, tax, ownership, or accounting choices; the adjusted return depends on classification and valuation assumptions, and profit extraction does not identify the care, staffing, pricing, or resident-outcome response.",
+      "source_url": "https://www.nber.org/papers/w32258",
+      "retrieval_hash": "sha256:57000a8a4be2fe6e33cf78a43509219447cf283d7bb7b798dd95465530774012",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w33967", "claim": "Nursing-home acquisitions reduce deficiency citations but also direct-care hours without meaningful resident-health improvement.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w34037", "claim": "Inspection responses are mostly temporary, while higher ratings predict relative patient mortality.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35849", "claim": "California nursing homes manipulate size around a staffing threshold, limiting access particularly for disadvantaged patients.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a financial-governance layer to the US nursing-home chain. It does not establish illegality, resident or worker harm, reimbursement fraud, clinical quality effects, prices, access, or causal links between tunneling and care outcomes in the same unit."
+}
