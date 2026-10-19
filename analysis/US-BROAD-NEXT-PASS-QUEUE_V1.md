@@ -9020,6 +9020,14 @@ Operations and warhead capability. The next pass must still obtain a
 site-specific work-package, production, acceptance, delivery, or audit record;
 capability context is not a JASSM/LRASM production assignment.
 
+An official USAspending comparator now shows the same General Dynamics-OTS UEI
+and Niceville address on a separate Army M1128 ammunition award whose public
+description reaches manufacture, test, packaging, and delivery and whose
+transaction history contains later modifications. This validates a promising
+entity/facility route, but it is not evidence for the JASSM/LRASM subaward. The
+next pass must keep the focal Lots 22–26 row separate and seek a work-package,
+production, acceptance, shipment, or inventory join for that row.
+
 The [realization-stage milestone finding](projects/ai-work-control/findings/ai-work-control-080.md)
 adds a dated support/capacity/test layer. DoD records a $999M JASSM/LRASM
 production-support IDIQ; Lockheed reports capacity investment and ramp-up; and
