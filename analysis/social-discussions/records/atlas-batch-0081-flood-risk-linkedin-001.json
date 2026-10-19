@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0081-flood-risk-linkedin-001",
+  "atlas_record_ids": ["us-nber-flood-risk-insurance-household-exposure-2026"],
+  "topic": "housing-place-mobility",
+  "platform": "linkedin",
+  "item_type": "research_announcement_post",
+  "author_or_account": "National Bureau of Economic Research",
+  "title": "Household-level flood risk is concentrated among higher-income property owners, with uninsured low-income risk still important",
+  "canonical_url": "https://www.linkedin.com/posts/nber_while-floodplain-migration-has-risen-overall-activity-7463212527611461634-dWqX",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The NBER announcement corrects a simple flood-risk narrative: household-level exposure is disproportionately concentrated among higher-income property owners, while vulnerable uninsured low-income homeowners still face serious risk. The public signal makes aggregate floodplain disadvantage and household exposure separate questions.",
+  "research_anchor_paths": ["analysis/records/us-nber-flood-risk-insurance-household-exposure-2026.json"],
+  "linked_research_question": "How do flood exposure, property ownership, insurance coverage, income, and mobility combine into unequal household risk, and where do aggregate floodplain measures mislead policy?",
+  "classification": ["consumer_risk_discussion", "flood_insurance", "household_exposure", "income_gradient", "bounded_public_discussion"],
+  "limits": ["The announcement is a short research translation rather than the full household analysis", "Exposure, insurance, and realized loss are distinct outcomes", "Public engagement cannot establish the prevalence or causal mechanism of the reported pattern"]
+}
