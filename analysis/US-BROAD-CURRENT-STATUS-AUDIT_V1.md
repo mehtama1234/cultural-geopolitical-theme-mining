@@ -27,6 +27,14 @@ not automatically become durable local services, good jobs, household choice,
 or belonging; nonemployer operators also represent a distinct local-capacity
 route rather than simply failed scale.
 
+The newest U.S. industrial worker-risk addition is the [NBER firm-insurance and
+labor-income-risk record](records/us-nber-firm-insurance-labor-income-risk-2026.json).
+It connects aggregate risk premia to weaker firm insurance, greater bad-times
+pass-through of firm shocks into earnings, and especially high exposure for
+lower-paid workers near separation. This adds a financing-to-worker-risk stage
+to the firm-power chain; the abstract does not disclose effect sizes or sample
+counts, and the model's transfer result is not an observed policy outcome.
+
 The newest education-and-AI depth artifact is the [AI in education, learning,
 teacher agency, and equity audit](projects/cross-domain/ai-education-learning-agency-equity-audit-v1.md).
 It joins NBER K–12 school-capacity evidence, OECD task-performance and learning
@@ -511,7 +519,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 1984 machine-readable records, 5953 observations,
+**Current registry state:** 1985 machine-readable records, 5954 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2531,7 +2539,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1984 trend records and 5953 observations pass the
+the current checkpoint: 1985 trend records and 5954 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

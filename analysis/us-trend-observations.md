@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1984 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1985 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6501,6 +6501,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Firm-reported AI effects remain limited in retrospect but expand in expectation | work, cost, voice | work_control_bargaining, unequal_exposure_status, firm_sector_market_power, infrastructure_technology_dependency, household_room_consumption | senior business executives and firms | United States, United Kingdom, Germany, and Australia | 1 | 2026; executive firm survey covering prior three years and next three years | reported | [open](records/us-nber-firm-ai-expectations-2026.json) |
 
 **Boundary:** This is a firm-expectations layer for the AI-at-work program. It distinguishes current adoption, low reported retrospective effects, and expected future productivity/output/employment changes. It does not establish realized employment loss, worker control, pay, household security, cultural meaning, political response, or geopolitical power, and it must not be pooled with worker-level telemetry without a common unit and period.
+
+| US financial conditions shape firm insurance and worker labor-income risk | work, cost, voice | work_control_bargaining, firm_sector_market_power, unequal_exposure_status, household_room_consumption, public_systems_feedback | US administrative worker earnings, firm financing/risk-premium, job separation, and dynamic wage-contract measures | United States | 1 | Working paper issued September 2026; US administrative data and aggregate financial conditions | reported | [open](records/us-nber-firm-insurance-labor-income-risk-2026.json) |
+
+**Boundary:** This record adds a US financial-conditions-to-firm-insurance-to-worker-risk mechanism. It does not disclose the abstract's omitted effect sizes or sample count, establish a named firm or sector outcome, measure household consumption or political response, or show that recession-contingent transfers were implemented and effective.
 
 | Fiscal news can change inflation expectations and spending before a policy is received | cost, voice, time | household_room_consumption, public_systems_feedback, trust_identity_meaning, unequal_exposure_status, political_judgment_action | NBER Working Paper 35009; randomized fiscal-news information treatments linked to high-frequency spending data for approximately 11,000 Korean individuals | South Korea; international comparison mechanism for the U.S.-centered atlas, not a U.S. household estimate | 1 | Fiscal-news experiment; paper issued March 2026 | reported | [open](records/us-nber-fiscal-news-household-expectations-spending-korea-2026.json) |
 

@@ -113,11 +113,13 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 1984 machine-readable records, 5953 observations,
+The current registry contains 1985 machine-readable records, 5954 observations,
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json): 43% of same-firm workers experienced real-wage decline across 2021–2024, 37% of all workers did, and job changers' wages rose nearly one-for-one with inflation. The cross-source implication is that firm wage rules are an upstream part of household room and consumer sentiment, but the payroll source does not observe the same workers' spending, debt, care, trust, or political action.
 
 The latest US industrial rotation adds the [NBER creative-destruction record](records/us-nber-creative-destruction-worker-earnings-risk-2026.json): rival innovation passes asymmetric downside into incumbent-worker earnings and job-destruction risk, while the model allows upward mobility for lower-income workers and concentrated downside for high-income workers. The cross-source implication is that innovation policy must track firm gains, worker losses, mobility, household room, and voice separately.
+
+The latest US firm-insurance rotation adds the [NBER firm-insurance and labor-income-risk record](records/us-nber-firm-insurance-labor-income-risk-2026.json): higher risk premia erode firm insurance, bad-times pass-through of firm shocks into earnings rises, and lower-paid workers near separation are especially exposed. The cross-source implication is that financial conditions can become worker risk before they appear as household hardship; the next test must connect a named firm or sector to pay, hours, separation, household room, and remedy.
 
 The latest US payment-infrastructure rotation adds the [NBER payment
 convenience record](records/us-nber-payment-convenience-depositor-activeness-2026.json):

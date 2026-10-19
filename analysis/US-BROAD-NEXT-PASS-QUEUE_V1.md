@@ -1,5 +1,14 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. industrial worker-risk rotation — 2026-10-18:** the [NBER firm
+insurance and labor-income-risk record](records/us-nber-firm-insurance-labor-income-risk-2026.json)
+adds the missing financing stage to the industrial chain: higher risk premia
+erode firm insurance, bad-times pass-through of firm shocks into earnings rises,
+and lower-paid workers near the separation margin are especially exposed. Next:
+connect a named U.S. firm or sector to financing conditions, hours/pay,
+separation, worker voice, household room, and any realized transfer or remedy;
+do not treat modeled recession-contingent transfers as implemented protection.
+
 **Latest U.S. industrial/consumer AI-work rotation — 2026-10-18:** the [AI
 implementation, worker-control, and security audit](projects/us-worker-control-remedy/ai-implementation-worker-control-security-audit-v1.md)
 now explicitly bounds the next cycle to U.S. evidence. Census HTOPS time-saved
@@ -422,9 +431,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1984 machine-readable records and 5953
-observations. The trend registry holds 1984 records and
-5953 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1985 machine-readable records and 5954
+observations. The trend registry holds 1985 records and
+5954 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

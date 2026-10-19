@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-firm-insurance-labor-income-risk-2026",
+  "title": "US financial conditions shape firm insurance and worker labor-income risk",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback"],
+  "source_unit": "US administrative worker earnings, firm financing/risk-premium, job separation, and dynamic wage-contract measures",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Working paper issued September 2026; US administrative data and aggregate financial conditions",
+      "denominator": {"value": null, "unit": "US administrative worker and firm observations; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "risk_premia_and_firm_insurance": {"value": null, "unit": "firm insurance against idiosyncratic shocks erodes when risk premia rise", "value_type": "reported_direction"},
+        "firm_shock_earnings_pass_through": {"value": null, "unit": "pass-through of firm shocks to earnings rises in bad times", "value_type": "reported_direction"},
+        "lower_paid_workers_near_separation": {"value": null, "unit": "the bad-times increase in earnings pass-through is especially strong for lower-paid workers near the separation margin", "value_type": "reported_subgroup_pattern"},
+        "recession_contingent_transfers": {"value": null, "unit": "model implies large welfare gains from recession-contingent transfers", "value_type": "modeled_policy_result"}
+      },
+      "method": "Directed-search model with dynamic wage contracts and two-sided limited commitment, combined with US administrative data on worker earnings and firm shocks.",
+      "uncertainty": "The NBER abstract does not disclose sample counts, effect sizes, exposure windows, or the full identification strategy. The paper is a working paper and combines model results with administrative evidence; earnings risk is not the same as realized household welfare or completed job loss.",
+      "subgroup": "Lower-paid workers near the separation margin, workers exposed to firm-specific shocks, and firms facing different aggregate risk premia.",
+      "counterinterpretation": "Bad times may change firm selection, industry composition, hours, outside options, or worker sorting in ways that affect pass-through; modeled welfare gains from transfers depend on the contract, search, discounting, and limited-commitment assumptions.",
+      "source_url": "https://www.nber.org/papers/w35781",
+      "retrieval_hash": "sha256:1b11be0548a7b0e69ee34ad4ce83083ef7e01040da4390ae71ab587ca558191e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35542", "claim": "US product-market creative destruction and asymmetric incumbent-worker earnings/job-destruction risk.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35624", "claim": "US sticky wage norms and real-wage losses during 2021–2024.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a US financial-conditions-to-firm-insurance-to-worker-risk mechanism. It does not disclose the abstract's omitted effect sizes or sample count, establish a named firm or sector outcome, measure household consumption or political response, or show that recession-contingent transfers were implemented and effective."
+}
