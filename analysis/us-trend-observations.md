@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1982 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1983 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6805,6 +6805,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Social Security support for parents changed children’s long-run migration, earnings, and neighborhood trajectories | cost, time, voice | care_health_reproduction, household_room_consumption, housing_place_mobility, unequal_exposure_status, trust_identity_meaning | NBER Working Paper 35456, linked parent-child administrative records and historical Social Security coverage | United States; early Social Security program and linked later-life outcomes | 1 | early Social Security coverage and children’s later-life outcomes; paper issued July 2026 | estimated | [open](records/us-nber-social-security-intergenerational-migration-2026.json) |
 
 **Boundary:** This record links historical parental Social Security coverage to estimated long-run child migration, earnings, and neighborhood outcomes. It does not establish a contemporary national effect, observe every caregiving exchange, or prove that migration alone caused the later outcomes.
+
+| US firm wage-setting norms left many workers behind prices during 2021–2024 inflation | cost, work, time | work_control_bargaining, household_room_consumption, firm_sector_market_power, unequal_exposure_status, consumer_power_recourse | US worker, continuing-employment relationship, employer, and administrative payroll measures | United States | 2 | Four years spanning 2021–2024; workers continuously employed at the same firm; Four years spanning 2021–2024; all workers including job changers | reported | [open](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json) |
+
+**Boundary:** This record links firm wage-setting norms to observed worker real-wage changes during 2021–2024. It does not establish a causal employer decision, bargaining-power estimate, individual hardship, household spending response, political attribution, or durable job-switching outcome. Payroll, firm, household, and sentiment units remain separate.
 
 | Stimulus transfers can produce stronger electoral than consumption responses when targeting follows political responsiveness | cost, voice | household_room_consumption, public_systems_feedback, trust_identity_meaning, political_judgment_action, unequal_exposure_status | Italian municipality-level administrative recipient shares, electoral returns, income/employment distributions, and voter-panel evidence; international comparison for the US-centered program | Italy; comparison mechanism for US fiscal-transfer and political-response analysis | 1 | 2014–2019; Italian 80 Euro Bonus transfer and subsequent elections | estimated | [open](records/us-nber-stimulus-transfer-electoral-incentives-italy-2014.json) |
 

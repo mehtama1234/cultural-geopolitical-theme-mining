@@ -422,9 +422,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1982 machine-readable records and 5949
-observations. The trend registry holds 1982 records and
-5949 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1983 machine-readable records and 5951
+observations. The trend registry holds 1983 records and
+5951 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking
@@ -435,6 +435,13 @@ The immediate next test is borrower-weighted: connect lender-side spreads and
 returns to actual APRs, balances, payment paths, income, credit tier,
 complaints, remedy, and exit without treating broad market coverage as a
 same-household panel.
+
+The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json).
+It follows firm wage-setting norms through worker real pay, job changing,
+household room, consumer sentiment, and political judgment. The next test is a
+same-worker or linked-household design joining payroll wages to prices, debt,
+spending, care, trust, and action; payroll averages alone cannot prove lived
+hardship or attribution.
 
 The latest US payment-infrastructure rotation adds the [NBER payment
 convenience record](records/us-nber-payment-convenience-depositor-activeness-2026.json).

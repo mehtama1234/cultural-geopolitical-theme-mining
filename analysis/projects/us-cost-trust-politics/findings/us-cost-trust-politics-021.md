@@ -20,6 +20,17 @@ rose” and “purchasing power fell” are related but different experiences, a
 neither county association tells us exactly what an individual household
 noticed, blamed, trusted, or did.
 
+The new [NBER sticky-wage record](../../../records/us-nber-sticky-wage-norms-real-wage-loss-2026.json)
+adds the firm-to-worker mechanism beneath this county result. In a large,
+nationally representative administrative payroll sample, 43% of workers who
+stayed at the same firm across 2021–2024 experienced a real-wage decline, with
+an average loss of about 9% among those who fell behind. Including job
+changers, 37% of all workers saw real wages decline. Job changers' wages rose
+nearly one-for-one with inflation, but switching was too infrequent to matter
+for most workers. This makes wage-setting norms a plausible route from firm
+practice to household room, while keeping worker hardship and political
+attribution open.
+
 ## What the full paper measures
 
 The county estimation sample contains **3,102 counties** observed in both the
@@ -109,6 +120,8 @@ combination.
   exposure, or collective local conditions rather than persuasion by prices.
 - A price change does not identify who paid it, whether a firm absorbed it,
   or whether a household substituted, borrowed, delayed, or went without.
+- A payroll real-wage decline does not identify a household's total resources,
+  benefits, hours, job security, or whether switching was feasible.
 - The full paper is now audited through an author-hosted copy, but the paper's
   replication code and county-level analysis file have not been acquired into
   the repository.
@@ -124,6 +137,12 @@ nominal income, real wage/purchasing power, and political outcome. It should
 then add household adaptation, attribution, identity, trust, source
 environment, and action rather than treating election results as a direct
 readout of hardship.
+
+The sticky-wage evidence adds a missing upstream object: the firm's wage-
+setting rule. The fuller chain is now firm wage norm -> worker nominal and real
+pay -> household room and consumer sentiment -> political judgment and action.
+The chain remains incomplete because the payroll sample does not observe the
+same workers' spending, debt, care burden, media interpretation, or votes.
 
 This complements the ANES panel finding, where financial worry and reported
 vote vary with prior party identity. The two studies should not be pooled:
@@ -145,6 +164,7 @@ measuring attribution, trust, civic action, and vote or turnout separately.
 - [Author-hosted full-paper copy used for the audit](https://ftrebbi.com/research/InflationPocketvotingUS.pdf)
 - [NBER DOI 10.3386/w35301](https://doi.org/10.3386/w35301)
 - [Machine-readable trend record](../../../records/us-nber-real-wages-inflation-elections-2021-2024.json)
+- [NBER sticky wage norms record](../../../records/us-nber-sticky-wage-norms-real-wage-loss-2026.json)
 - [Full-paper acquisition audit](../data/nber-w35301-full-paper-acquisition-audit-2026-09-14.json)
 - [ANES party-conditioned finding](us-cost-trust-politics-014.md)
 

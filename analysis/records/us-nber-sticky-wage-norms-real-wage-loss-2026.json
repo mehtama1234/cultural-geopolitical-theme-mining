@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-sticky-wage-norms-real-wage-loss-2026",
+  "title": "US firm wage-setting norms left many workers behind prices during 2021–2024 inflation",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "firm_sector_market_power", "unequal_exposure_status", "consumer_power_recourse"],
+  "source_unit": "US worker, continuing-employment relationship, employer, and administrative payroll measures",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Four years spanning 2021–2024; workers continuously employed at the same firm",
+      "denominator": {"value": 1, "unit": "same-firm continuously employed worker universe in the administrative payroll sample", "value_type": "study_universe"},
+      "measures": {
+        "real_wage_decline_share_same_firm": {"value": 43, "unit": "percent of continuously same-firm workers experiencing a real wage decline", "value_type": "reported_share"},
+        "mean_real_wage_loss_among_decliners": {"value": -9, "unit": "percent mean real-wage change among workers who fell behind prices", "value_type": "reported_mean"},
+        "firm_wage_setting_pattern": {"value": null, "unit": "most firms applied one modal annual nominal wage increase to most workers; exact share not disclosed in abstract", "value_type": "reported_pattern"}
+      },
+      "method": "Administrative payroll data covering a large and nationally representative share of US workers; comparison of firm-level modal annual nominal raises with inflation over the four-year period.",
+      "uncertainty": "The abstract does not disclose the exact worker count, firm count, sector weights, or full decomposition of wage and price measures. The result describes observed payroll outcomes and does not by itself identify bargaining, productivity, retention, or household consumption responses.",
+      "subgroup": "Workers continuously employed at the same firm for the four-year window.",
+      "counterinterpretation": "A real-wage decline may be offset by job security, hours, benefits, promotions, household income, savings, or employer-specific compensation; the record does not measure whether workers experienced hardship or accepted the tradeoff.",
+      "source_url": "https://www.nber.org/papers/w35624",
+      "retrieval_hash": "sha256:323f4eccd386eaca957b9f225d0893dde6f02e1e0b4e6118150e74d34f66895c",
+      "status": "reported"
+    },
+    {
+      "period": "Four years spanning 2021–2024; all workers including job changers",
+      "denominator": {"value": 1, "unit": "all workers in the administrative payroll sample over the study window", "value_type": "study_universe"},
+      "measures": {
+        "real_wage_decline_share_all_workers": {"value": 37, "unit": "percent of all workers experiencing a real wage decline", "value_type": "reported_share"},
+        "job_changer_wage_inflation_alignment": {"value": 1, "unit": "approximately one-for-one wage response to inflation for job changers", "value_type": "reported_approximation"},
+        "modal_raise_indexation_shortfall_closed": {"value": 40, "unit": "approximately percent of the resulting shortfall relative to prepandemic trend closed if modal raises indexed one-for-one to inflation", "value_type": "reported_counterfactual"},
+        "consumer_sentiment_mechanism": {"value": null, "unit": "cross-country comparison indicates incomplete wage indexation helps explain persistent depressed consumer sentiment; exact estimate not disclosed in abstract", "value_type": "reported_mechanism"}
+      },
+      "method": "Administrative payroll analysis with job-changing comparisons and a counterfactual wage-indexation calculation; cross-country comparison uses Belgium's automatic wage indexation as a comparator.",
+      "uncertainty": "Job changing is selective and too infrequent to restore purchasing power for most workers; the indexation estimate is a counterfactual, not a policy experiment. Belgium is an institutional comparator, not a direct US treatment group.",
+      "subgroup": "All workers, job changers, and workers remaining with firms; the groups have different selection and exposure paths.",
+      "counterinterpretation": "Job changing may improve wages but also impose search, relocation, benefit, care, or risk costs; consumer sentiment may reflect prices, debt, politics, expectations, or other shocks in addition to wage indexation.",
+      "source_url": "https://www.nber.org/papers/w35624",
+      "retrieval_hash": "sha256:323f4eccd386eaca957b9f225d0893dde6f02e1e0b4e6118150e74d34f66895c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35301", "claim": "US county-level real-wage, inflation, and electoral-outcome comparator.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35059", "claim": "US consumer-sentiment response to the end of expanded Child Tax Credit payments.", "status": "related-evidence"}
+  ],
+  "boundary": "This record links firm wage-setting norms to observed worker real-wage changes during 2021–2024. It does not establish a causal employer decision, bargaining-power estimate, individual hardship, household spending response, political attribution, or durable job-switching outcome. Payroll, firm, household, and sentiment units remain separate."
+}
