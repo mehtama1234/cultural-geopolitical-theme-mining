@@ -31,6 +31,7 @@ AI access or organizational adoption
 | [ILO AI psychosocial-work review](../../records/comparative-ilo-ai-systems-work-psychosocial-autonomy-2026.json), evidence/policy synthesis | Identifies surveillance, work intensification, data collection, and algorithmic evaluation as possible AI-associated risks | Autonomy, dignity, transparency, participation, human oversight, and correction are treated as work conditions | Worker control is not just an employment count; design and governance can change psychosocial conditions | Review, not prevalence or workplace causal evaluation; no common probability, severity score, or compliance outcome |
 | [NBER retraining returns](../../records/us-nber-ai-worker-retraining-returns-2026.json), WIOA training spells matched to job-search-only users | Estimated quarterly earnings return for high-exposure trainees was about $1,000 in 2012–19 and about $3,000 in 2022–24 | Gains were mainly associated with moving into less AI-exposed occupations, with a smaller AI-complementary route | Training can be a bridge to earnings, but the route may be occupational movement rather than control over the original job | Public abstract does not disclose sample size, completion, access, hours, benefits, stability, household costs, or worker preference |
 | [NBER outside-option experiment](../../records/us-nber-gig-economy-outside-options-labor-supply-2026.json), Uber-driver pay experiments and competitor-access variation | Access to one competing platform nearly doubled drivers’ elasticity to Uber; implied markdown fell from about 68% to 50% | Outside options changed labor supply response; women were about twice as elastic to the market as men while no less elastic to Uber | Competition can increase bargaining leverage without requiring a formal voice institution | Driver count, geography, timing, net earnings, hours stability, safety, benefits, and durable household security are not disclosed |
+| [NBER recent-graduate employment study](https://www.nber.org/papers/w35796), CPS microdata for recent college graduates and comparison groups, June–August 2026 | Difference-in-differences and event-study estimates find no statistically significant summer-2026 rise in unemployment for recent college graduates relative to older graduates or young workers without a degree; an expanded “wanting a job” measure adds nearly two percentage points to their unemployment rate but also shows no significant 2026 increase | A high-exposure group can show no early aggregate employment shock even when replacement fears are salient; resilience and displacement must be tested separately | This is a current U.S. labor-market counterexample to converting AI exposure into realized displacement | The paper is an early, partial-year CPS comparison; it does not identify specific tools or employers, worker control, pay, job quality, training, or longer-run employment and household outcomes |
 | [ACCA professional survey](../../records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json), global accountancy/finance professionals, 2026 | 52% regularly used AI; 31% reported organizational AI-agent deployment; 93% of LinkedIn recruiters planned to increase AI use in hiring | 48% were not confident in AI recruitment versus 43% confident; 75% preferred hybrid work, 58% believed office presence affected promotion, and 43% of Gen Y would consider leaving after substantially more office time | Worker control includes human judgment, work-location choice, promotion visibility, and credible support—not only training | Self-report, profession-specific and non-representative; confidence, preference, and intention are not observed turnover or job quality |
 
 ## What this connects to
@@ -52,6 +53,13 @@ valuable, but it is different from a worker gaining bargaining power or keeping
 control over the original job. The outside-option experiment supplies a useful
 counterexample: competition can improve leverage even when no training or
 formal representation is observed.
+
+Fourth, exposure is not displacement. The NBER CPS study of recent college
+graduates finds no statistically significant relative unemployment increase in
+summer 2026, including under an expanded measure that captures people who want
+a job but are not counted as unemployed. This does not disprove future or
+occupation-specific disruption; it prevents a current exposure signal or public
+fear from being treated as a realized employment effect.
 
 ## Bounded public discussion
 
@@ -129,6 +137,8 @@ the later outcome as separate fields.
 - Do not treat training returns as proof of accessible, preferred, or durable
   transition.
 - Do not treat outside-option elasticity as realized household security.
+- Do not treat AI exposure, replacement concern, or a single vulnerable cohort
+  as realized displacement without a dated comparison and employment outcome.
 - Keep worker, employer, platform, customer, and household units separate.
 - Preserve the positive counterexample: AI can reduce routine work or improve
   safety when workers have review, participation, and a credible alternative.
@@ -180,6 +190,7 @@ remains active.
 - [NBER AI retraining returns](../../records/us-nber-ai-worker-retraining-returns-2026.json)
 - [NBER gig-worker outside options](../../records/us-nber-gig-economy-outside-options-labor-supply-2026.json)
 - [ACCA global talent trends](../../records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json)
+- [NBER early impacts of AI on recent college-graduate employment](https://www.nber.org/papers/w35796)
 - [HBS customer-service AI experiment](../../records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json)
 - [DOJ OpenAI/Statsig recruitment settlement](../../records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json)
 - [FTC Cleo AI refund program](https://search.ftc.gov/enforcement/refunds/cleo-ai-refunds)

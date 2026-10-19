@@ -1,6 +1,6 @@
 # NBER W34851 source record: education gaps and generative AI
 
-**Checked:** 2026-09-13  
+**Checked:** 2026-10-18
 **Project:** AI, work, and control  
 **Source type:** randomized online experiment  
 **Evidence status:** direct abstract and paper-summary evidence; full-paper review remains open
@@ -10,7 +10,7 @@
 [Does Generative AI Narrow Education-Based Productivity Gaps? Evidence from a
 Randomized Experiment](https://www.nber.org/papers/w34851), Guillermo Cruces,
 Diego Fernández Meijide, Sebastian Galiani, Ramiro H. Gálvez, and María
-Lombardi, NBER Working Paper 34851, February 2026, revised March 2026.
+Lombardi, NBER Working Paper 34851, February 2026, revised October 2026.
 
 ## Design and unit
 
@@ -58,6 +58,12 @@ AI access
 
 The source directly informs the task-performance arrow. The workplace,
 cultural, and distributional consequences remain open.
+
+The October 2026 revision was rechecked during the U.S. industrial pass. The
+accessible abstract continues to report the same experiment design and
+headline education-gap comparison; it does not provide a new workplace,
+earnings, or household endpoint. The revision date improves source freshness,
+but does not justify treating the task result as a new labor-market estimate.
 
 **Bounded claim:** In this randomized task experiment, AI narrowed—but did not
 erase—education-based performance differences, showing that AI can be

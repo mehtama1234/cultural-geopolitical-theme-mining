@@ -28,6 +28,15 @@ enforcement with possible complainant recovery shares; the next test is whether
 these become operating intake, investigation, correction, and paid-recovery
 records rather than remaining policy architecture.
 
+The U.S. employment counterexample is now explicit: NBER's CPS study of recent
+college graduates finds no statistically significant summer-2026 unemployment
+increase relative to older graduates or young workers without a degree, even
+with an expanded “wanting a job” measure. This is not proof of durable safety;
+it is a check against turning exposure or replacement concern into realized
+displacement. Next: connect the labor-market comparison to named employer or
+worker episodes with training, task change, pay, schedule, control, and later
+employment or exit.
+
 **Latest U.S. housing/insurance consumer rotation — 2026-10-18:** the [property
 shock, repair, staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md)
 now adds California wildfire claims and smoke-damage correction, GAO national

@@ -118,11 +118,14 @@ separate firm-power and recovery stages.
 The newest workplace-control depth artifact is the [AI implementation,
 worker-control, and security audit](projects/us-worker-control-remedy/ai-implementation-worker-control-security-audit-v1.md).
 It separates task activity, shipped output, firm expectations, worker
-adaptation, training returns, organizational design, autonomy, and outside
-options. Its U.S.-bounded continuation adds Census time-saved/time-cost
-signals, NBER exposure versus adaptive-capacity estimates, Gallup manager
-support and displacement associations, U.S. firm-size training capacity, and
-NBER outside-option leverage. The current evidence supports a conversion gap:
+adaptation, training returns, organizational design, autonomy, outside options,
+and early employment counterevidence. Its U.S.-bounded continuation adds Census
+time-saved/time-cost signals, NBER exposure versus adaptive-capacity estimates,
+Gallup manager support and displacement associations, U.S. firm-size training
+capacity, NBER outside-option leverage, and a CPS comparison finding no
+statistically significant summer-2026 unemployment increase for recent college
+graduates relative to comparison groups. The current evidence supports a
+conversion gap:
 measurable AI use or productivity can arrive before worker discretion,
 bargaining power, durable earnings, consumer remedy, or household security are
 observed. It now adds two named U.S. episodes: an AI customer-service field
