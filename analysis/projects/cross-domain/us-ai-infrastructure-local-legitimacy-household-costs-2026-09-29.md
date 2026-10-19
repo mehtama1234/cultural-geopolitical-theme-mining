@@ -41,6 +41,22 @@ still leaves household incidence open:
 | Regional reliability governance | The same record reports a FERC proceeding over tariffs and cost shifting for large loads of at least 50 MW at transmission interconnection above 69 kV, a PJM-reported 6,831 MW capacity shortfall for 2028/29, and a stated principle that new large loads should bear the costs they cause. | Reliability, adequacy, and cost responsibility have entered formal governance. | Final tariff assignment, facility payments, customer-class incidence, and proof that existing ratepayers avoided costs. |
 | State allocation | [Virginia large-load governance record](../../records/us-virginia-data-center-large-load-governance-2024-2027.json) reports 131 data-center accounts among 139 initial GS-5 accounts, a 25 MW threshold, minimum demand requirements, long contract terms, and projected residential-rate effects that vary by allocation method. | A state has measurable eligibility, contract, tax, and modeled-rate rules rather than only general promises. | Observed facility consumption, tax remittance, actual residential bills, received credits, local employment, and community acceptance. |
 
+The host-place fiscal layer is now observable as well. Prince William County
+reports **$465.9 million** in data-center industry tax revenue for Tax Year
+2025, including $221.8 million from real property, $218.1 million from
+computer equipment, $23.3 million from furniture and fixtures, and $2.7
+million from fees and licenses. The same county report identifies 621 MW of
+new capacity, 1,483 MW of turnkey total power capacity, and 55 turnkey
+powered-shell facilities. The report also shows the computer-equipment tax
+rate rising from $3.70 per $100 assessed value in TY2024 to $4.15 in TY2025.
+
+This closes a local-revenue and capacity stage, not a public-benefit stage.
+The 59% reported year-over-year revenue increase cannot be read as pure
+physical growth or productivity because assessed-base expansion, equipment
+cycles, classification, and the tax-rate change are mixed together. Revenue
+does not establish service-cost recovery, household bills, jobs or wages,
+water and environmental burden, or whether residents accepted the trade-off.
+
 The operational event and the rate rules should not be merged into a claim that
 data centers caused household harm. They establish a stronger middle chain:
 
@@ -113,4 +129,6 @@ cost allocation and remedy → realized household benefit → durable legitimacy
 - [Virginia data-center residential-relief package](../../records/us-virginia-data-center-residential-bill-relief-package-2026.json)
 - [PJM large-load disconnection and reliability response](../../records/us-pjm-large-load-disconnection-response-2026.json)
 - [Virginia large-load governance and allocation record](../../records/us-virginia-data-center-large-load-governance-2024-2027.json)
+- [Prince William County data-center fiscal revenue through TY2024](../../records/us-prince-william-data-center-fiscal-revenue-2012-2024.json)
+- [Prince William County TY2025 data-center fiscal extension](../../records/us-prince-william-data-center-fiscal-revenue-2025-extension.json)
 - [PJM large-load reliability discussion](../../social-discussions/records/social-pjm-large-load-event-linkedin-001.json)

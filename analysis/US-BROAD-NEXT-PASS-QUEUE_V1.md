@@ -35,9 +35,11 @@ Virginia large-load thresholds and modeled residential-rate effects, and bounded
 practitioner discussion. The finding remains a capital-to-household conversion
 gap: the operating event and governance rules are real middle stages, but they
 do not yet prove facility-level payment, residential bill or outage incidence,
-received credits, or durable consent. Next: follow one named facility through
-load, tariff/tax payment, feeder/customer class, household exposure, and local
-participation or remedy.
+received credits, service-cost recovery, or durable consent. Prince William's
+reported $465.9 million TY2025 data-center tax revenue and 621 MW new capacity
+close a host-place fiscal stage but mix tax-rate and assessed-base effects. Next:
+follow one named facility through load, tariff/tax payment, feeder/customer
+class, household exposure, and local participation or remedy.
 
 **Latest U.S. platform-worker rotation — 2026-10-18:** the [remedy and
 work-control audit](projects/cross-domain/us-platform-worker-remedy-work-control-audit-v1.md)
