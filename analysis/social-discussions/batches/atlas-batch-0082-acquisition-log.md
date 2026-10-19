@@ -93,6 +93,14 @@ identified NBER W35786 or its postwar-veteran natural experiment and dynamic
 consumption multiplier estimates. The modern-transfer generalization remains
 an open research question.
 
+- `us-nber-school-finance-reforms-macro-output-2026` → documented access gaps
+  on LinkedIn, Reddit, YouTube, and X.
+
+Public discussion covered state funding formulas, fiscal equity, district
+management, and education-finance data quality, but no result identified NBER
+W35755 or its specific long-run earnings and GDP estimates. These adjacent
+discussions were not promoted into attributable evidence.
+
 - `us-nber-sticky-wage-norms-real-wage-loss-2026` →
   `atlas-batch-0082-sticky-wages-reddit-001`; LinkedIn, YouTube, and X are
   documented access gaps.
@@ -113,9 +121,10 @@ tariff quantity-discount row is terminal with four documented access gaps.
 The SNAP restriction row is also terminal with four documented access gaps.
 The sticky-wage row is augmented on Reddit with three platform gaps. The
 post-pandemic labor-exit row is terminal with four documented access gaps.
-The stimulus-check row is also terminal with four documented access gaps.
-One other batch row remains in review; no completion claim is made for the
-broader atlas program.
+The stimulus-check row is also terminal with four documented access gaps. The
+school-finance row is terminal with four documented access gaps. All 11 rows
+in this batch are now terminal; the broader atlas program remains ongoing and
+no completion claim is made for it.
 
 ## Reproducibility and limits
 

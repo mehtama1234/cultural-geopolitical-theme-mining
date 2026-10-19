@@ -70864,40 +70864,40 @@
       "canonical_theme": "public-systems-policy-feedback",
       "title": "US school-finance reforms raise long-run earnings per worker and GDP per capita after a long lag",
       "geography": "United States; staggered state-level school-finance reforms",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0082",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found within the bounded window that identified NBER W35755 or its 30-year earnings and GDP estimates.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact Reddit discussion found within the bounded window that identified NBER W35755 or its 30-year earnings and GDP estimates.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "School-finance funding, equity, and data-quality commentary was found, but no exact LinkedIn discussion within the bounded window identified NBER W35755 or its 30-year earnings and GDP estimates.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "school-finance reforms raise long-run earnings per worker gdp capita after long lag public-systems-policy-feedback 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found within the bounded window that identified NBER W35755 or its 30-year earnings and GDP estimates.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-search-engine-market-power-field-experiment-2025",
