@@ -26,6 +26,7 @@ strategic dependence or security objective
 | Source and unit | Capability or control event | Realization / external-response surface | What it establishes | Main limit |
 |---|---|---|---|---|
 | [TSMC U.S. investment record](../../records/us-commerce-taiwan-semiconductor-investment-2026.json), named Arizona project and reported U.S. commitments | Additional planned investment $100B, total planned TSMC U.S. investment $265B, four additional planned facilities; first Arizona fab began high-volume N4 production in Q4 2024 and reported more than 3,000 direct employees | Second fab targeted N3 volume production in H2 2027; third/fourth and packaging stages remain construction/target milestones; CHIPS award up to $6.6B and loans up to $5B are milestone-conditioned | Domestic production has crossed at least one operating milestone while the wider capacity promise remains staged | No measured monthly output, yield, uptime, disbursement, ownership, customer allocation, local burden, or supply-chain replacement |
+| [GlobalFoundries–TSMC interposer agreement](https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-u-s-based-supply-of-silicon-interposers-for-advanced-ai-packaging/), named U.S. packaging-input route, announced October 8, 2026 | Five-year manufacturing agreement reported at **$2 billion** to establish U.S.-based silicon-interposer supply for TSMC's CoWoS advanced-packaging ecosystem; volume production is targeted to ramp at GF Malta in the first half of 2028 | Adds an advanced-packaging stage adjacent to domestic wafer fabrication and targets AI infrastructure supply resilience | The agreement shows a named firm-to-firm route for a packaging bottleneck, not only a fab announcement | It does not establish construction, output, yield, customer qualification, actual CoWoS deployment, cost, upstream material provenance, or reduced dependence on Taiwan-centered packaging |
 | [Applied Materials BIS settlement](../../records/us-bis-applied-materials-semiconductor-equipment-settlement-2026.json), two named companies, 2021–22 shipments and 2026 settlement | Ion implanters moved through Korea to China; BIS reported about $126M illegally shipped and a $252M penalty | Multiple compliance audits, annual certification, and personnel changes were required; production, continuity, replacement equipment, and strategic effects were not observed | Export control can create a firm-level compliance and remediation event | Settlement is not proof of future compliance, downstream production change, Chinese capability loss, or deterrence |
 | [Cadence BIS/DOJ resolution](../../records/us-bis-doj-cadence-eda-export-enforcement-2025.json), one company group, 2015–21 conduct | At least 56 BIS violations and at least 59 DOJ-described exports of EDA technology through a reported front-company route; technology value $45.3M | Net criminal/civil resolution exceeded $140M; account freeze, export hold, discontinued transactions, and enhanced compliance were reported | Enforcement can close a route and impose firm remediation without showing what capability replaces it | BIS and DOJ counts are not pooled; NUDT/Phytium capability, substitution, production, partner response, and leverage are unobserved |
 | [Foreign-fab VEU closure](../../records/us-bis-foreign-fab-veu-export-control-closure-2025.json), former VEU fabs and three named PRC facilities | Covered goods/software/technology require licenses; existing-fab operation was intended to continue while capacity expansion or technology upgrades were restricted | Three facilities were removed from the VEU list effective December 31, 2025; Samsung Xi'an and SK hynix Wuxi certifications remained listed, but output, license completion, and utilization were not observed; China publicly opposed the move | Policy distinguishes operating existing capacity from expanding or upgrading it, and produces a visible official response | No enacted countermeasure, production change, substitution, allied adoption, or strategic effect is established |
@@ -103,6 +104,12 @@ is a post-rule shipment, production, license, substitution, or enacted foreign
 response. Do not merge the two until their units and dates support a valid
 comparison.
 
+The GF–TSMC interposer route creates a second packaging-specific test: follow
+the agreement through site readiness, first production, yield, customer
+qualification, and CoWoS deployment. A U.S. packaging input can reduce one
+bottleneck while leaving wafer fabrication, substrates, equipment, advanced
+packaging assembly, or customer allocation dependent on other locations.
+
 ## Deeper question
 
 **When does a domestic semiconductor capability become replaceable supply and
@@ -119,6 +126,7 @@ replaceability arrow is explicit. The broader 14-theme program remains active.
 ## Sources
 
 - [TSMC U.S. investment and Arizona realization](../../records/us-commerce-taiwan-semiconductor-investment-2026.json)
+- [GlobalFoundries–TSMC U.S. silicon-interposer agreement](https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-u-s-based-supply-of-silicon-interposers-for-advanced-ai-packaging/)
 - [Applied Materials export-control settlement](../../records/us-bis-applied-materials-semiconductor-equipment-settlement-2026.json)
 - [Cadence EDA export-control resolution](../../records/us-bis-doj-cadence-eda-export-enforcement-2025.json)
 - [Foreign-fab VEU closure](../../records/us-bis-foreign-fab-veu-export-control-closure-2025.json)

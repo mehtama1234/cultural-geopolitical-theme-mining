@@ -10132,6 +10132,11 @@ inputs, or reduced geopolitical dependence. The next test is a project-year
 realization ledger joining award disbursement, production/acceptance, workforce
 quality, energy/water burden, ownership/control, and a measurable supply-chain
 or external-response outcome.
+The new GlobalFoundries–TSMC silicon-interposer agreement adds a packaging
+route: a reported $2 billion, five-year U.S. supply arrangement with volume
+ramp targeted for the first half of 2028. Next: follow site readiness,
+production, yield, customer qualification, and CoWoS deployment; do not treat a
+firm agreement or future ramp as completed packaging capacity or independence.
 
 The [SIPRI military-expenditure record](records/us-sipri-military-expenditure-state-capacity-2015-2024.json)
 adds aggregate state-capacity context: global and US spending growth, US/China

@@ -195,6 +195,11 @@ critical-mineral concentration, and China's stated response. The evidence
 supports partial capability realization and visible control, but not yet
 qualified replacement supply, complete output substitution, deterrence,
 partner alignment, or geopolitical leverage.
+It now adds a reported GlobalFoundries–TSMC agreement for a U.S.-based silicon-
+interposer supply route for advanced AI packaging, with volume production
+targeted for the first half of 2028. This extends the capability chain into
+packaging, but remains an agreement and future-ramp milestone rather than
+completed output, qualification, or reduced foreign dependence.
 
 The newest formal-rights depth artifact is the [gender rights, fiscal systems,
 care, and lived-agency audit](projects/cross-domain/gender-rights-fiscal-care-lived-agency-audit-v1.md).
