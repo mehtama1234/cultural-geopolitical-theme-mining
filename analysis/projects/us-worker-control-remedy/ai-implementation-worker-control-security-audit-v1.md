@@ -70,6 +70,31 @@ The discussion layer reinforces the central finding: workers ask who decides,
 who verifies, who benefits, and what alternative exists. It does not answer
 those questions for any measured firm or worker.
 
+## U.S. industrial and consumer boundary for the next pass
+
+The U.S. evidence now gives a more specific industrial/consumer test without
+claiming one pooled effect:
+
+| U.S. stage | Evidence | What it permits | What remains open |
+|---|---|---|---|
+| Workplace use and time | Census HTOPS reports that, among recent workplace-AI users, 31% reported saving 1–2 hours, 15% 3–4 hours, and 15% more than 4 hours; 10% reported no time saved and 4% extra time | AI can create a measurable time-saving or time-cost signal | Whether time becomes rest, care, learning, more output, monitoring, or a higher pace |
+| Industrial adaptation capacity | NBER exposure/adaptive-capacity work identifies 37.1 million workers in highly exposed occupations, including 6.1 million in the high-exposure/low-capacity overlap in its January version; its later chapter revision reports a smaller covered estimate, so the versions are not pooled | Exposure and ability to adapt are separate gates, with clerical and administrative work a key risk concentration | Person-level displacement, retraining completion, cash buffer, care burden, local demand, and later earnings |
+| Management and security | Gallup's four-wave U.S. workforce evidence finds frequent AI users report more than twice the displacement concern of infrequent users; perceived manager respect and wellbeing care narrow the association by 6.8 and 11.1 percentage points respectively | Organizational treatment is a plausible buffer between exposure and worker insecurity | The public evidence does not show causal management effects, actual job loss, pay, schedule, bargaining, or retention |
+| Consumer-facing firm capability | The U.S. firm-capacity record reports formal training at 29.1%, 59.1%, and 78.9% for small, medium, and large establishments, while NBER task evidence finds fewer than half adopt AI within most occupations/tasks | Firm size and implementation capacity may shape whether consumer-facing AI is usable and contestable | The establishment data do not identify AI training, customer error, human fallback, complaint completion, or worker outcomes |
+| Bargaining and exit | The NBER outside-option experiment finds access to a competing platform nearly doubled drivers' labor-supply elasticity to Uber and lowered the implied markdown from about 68% to 50% | Competition can create leverage even without formal representation | Net earnings, safety, hours stability, benefits, durability, and household security |
+
+The U.S. industrial question is therefore not simply whether firms adopt AI. It
+is whether implementation changes the worker's feasible option set: usable
+training, control over pace and review, credible alternatives, and a remedy
+before income or service quality is lost. The consumer question is the paired
+surface: whether AI-enabled customer service or allocation produces a usable
+human fallback, correction, and completed remedy. A reported time saving or
+faster service is not enough to answer either question.
+
+This scope is intentionally U.S.-bounded for the next acquisition cycle. The
+comparative cases remain useful as mechanism and counterexample records, but
+they are not substituted for U.S. industrial or consumer outcome evidence.
+
 ## Missing links and challenge checks
 
 - Do not join worker-task adoption to firm expectations by occupation alone.

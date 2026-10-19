@@ -1,5 +1,18 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. industrial/consumer AI-work rotation — 2026-10-18:** the [AI
+implementation, worker-control, and security audit](projects/us-worker-control-remedy/ai-implementation-worker-control-security-audit-v1.md)
+now explicitly bounds the next cycle to U.S. evidence. Census HTOPS time-saved
+and time-cost reports, NBER exposure/adaptive-capacity and outside-option
+experiments, Gallup manager-support/displacement associations, and U.S.
+firm-size training capacity are kept as separate stages. The finding remains a
+conversion gap: AI activity or time savings do not prove worker-controlled
+time, durable earnings, bargaining leverage, consumer remedy, or household
+security. Next: acquire one U.S. industrial or consumer-facing implementation
+episode with dated exposure, training, task/pace control, human review,
+customer or worker complaint, remedy, pay/service outcome, and later exit or
+retention.
+
 **Latest U.S. housing/insurance consumer rotation — 2026-10-18:** the [property
 shock, repair, staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md)
 now adds California wildfire claims and smoke-damage correction, GAO national
