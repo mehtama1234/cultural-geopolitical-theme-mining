@@ -6339,6 +6339,17 @@ policy evaluation. Next: seek a protected household-and-retailer route through
 EBT or cash purchase, product availability, total consumption, food security,
 medical outcomes, and durable policy judgment.
 
+**Latest U.S. household-transfer design rotation — 2026-10-18:** the [aid form
+and timing finding](findings/us-transfer-design-food-security-path-001.md) joins
+NBER Working Paper 35698's food-store spending responses for one-time and
+recurring in-kind and cash benefits. The evidence supports a design-to-choice
+finding: equal-value aid can produce different short-run purchases depending on
+label and schedule, while rent, medicine, debt, transport, food security, and
+later household room remain open. Next: follow the same household across aid
+receipt, due dates, food and nonfood tradeoffs, debt, savings, missed bills,
+health, interruption, and six-month recovery without treating grocery spending
+as welfare.
+
 **Latest U.S. health-insurance consumer rotation — 2026-10-18:** the [ACA
 underwriting and practical-option finding](projects/us-health-cost-household-choice/findings/us-nber-aca-underwriting-heterogeneous-effects-2026-001.md)
 now adds CMS's 2026 Marketplace scale and affordability stage: 23.1 million
