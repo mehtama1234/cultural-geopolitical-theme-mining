@@ -45,6 +45,23 @@ The sixteen linked records have a normalized LinkedIn result and remain in the
 open batch while the other platform attempts and the remaining 9 records are
 worked. No completion claim is made for this batch.
 
+## LinkedIn search gaps recorded
+
+The following exact-title searches were attempted on 2026-10-19 and did not
+produce a safely attributable LinkedIn item:
+
+- `us-nber-fertility-mothers-remote-work-2003-2024`: results were adjacent
+  global WFH-fertility and general fertility posts, not the US ACS paper.
+- `us-nber-firm-insurance-labor-income-risk-2026`: results were generic
+  insurance and labor-market posts, not NBER w35781.
+- `us-nber-gender-shocks-household-bargaining-consumption-2026`: results were
+  unrelated fertility and workplace-gender posts.
+- `us-nber-long-term-pm25-exposure-chronic-disease-2026`: results were
+  unrelated air-pollution and health posts.
+
+These are platform-specific access outcomes, not claims that no relevant
+discussion exists.
+
 ## Reproducibility and limits
 
 This was public-web discovery, not a platform-native Creator/API export.
