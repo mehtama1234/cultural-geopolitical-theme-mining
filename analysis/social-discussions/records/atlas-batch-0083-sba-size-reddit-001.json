@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-sba-size-reddit-001",
+  "atlas_record_ids": ["us-small-business-support-size-rule-2026"],
+  "topic": "firm-sector-market-power",
+  "platform": "reddit",
+  "item_type": "policy_reaction_discussion",
+  "author_or_account": "r/smallbusinessUS",
+  "title": "Trump Administration Wants Billion-Dollar Businesses to Qualify as Small",
+  "canonical_url": "https://www.reddit.com/r/smallbusinessUS/comments/1vz49x6/trump_administration_wants_billiondollar/",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The thread frames the SBA proposal as a threat to the smallest firms because larger companies could enter federal contract and loan programs. It includes a claimed policy summary and comments about whether growing firms that have crossed a threshold still need support. This is useful as a lived policy-reaction signal and disagreement record, but it is not independent evidence of the proposal's final thresholds or allocation effects.",
+  "research_anchor_paths": ["analysis/records/us-small-business-support-size-rule-2026.json"],
+  "linked_research_question": "How do owners define a fair boundary between helping firms grow and protecting scarce public support for genuinely small firms?",
+  "classification": ["small_business", "policy_reaction", "eligibility_boundary", "disagreement", "bounded_public_discussion"],
+  "limits": ["The thread is self-selected and may overrepresent opposition", "The title and comments may simplify the proposed rule", "It does not measure firm revenue, contracts, loans, wages, exits, or innovation"]
+}

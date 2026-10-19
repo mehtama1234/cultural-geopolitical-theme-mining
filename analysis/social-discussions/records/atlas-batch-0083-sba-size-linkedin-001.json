@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-sba-size-linkedin-001",
+  "atlas_record_ids": ["us-small-business-support-size-rule-2026"],
+  "topic": "firm-sector-market-power",
+  "platform": "linkedin",
+  "item_type": "policy_discussion_post",
+  "author_or_account": "David Mullis",
+  "title": "Size Standards Alert: SBA Proposed Changes",
+  "canonical_url": "https://www.linkedin.com/posts/activity-7495839587118911488-49p4",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The post discusses the SBA's proposed size-standard changes and argues that moving many industries toward much higher employee thresholds could let substantially larger firms compete for opportunities intended for genuinely small businesses. It connects the rule to federal contracting and loan access and urges affected firms to comment. The post expresses an advocacy position and does not establish the final rule, actual awards, or realized small-firm outcomes.",
+  "research_anchor_paths": ["analysis/records/us-small-business-support-size-rule-2026.json"],
+  "linked_research_question": "Do broader eligibility thresholds expand useful growth paths for small firms, or mainly shift contracts and credit toward firms with greater administrative and financial capacity?",
+  "classification": ["sba_policy", "size_standard", "small_business", "public_comment", "bounded_public_discussion"],
+  "limits": ["The proposed rules were not final at retrieval", "The post is advocacy and does not measure contract or loan allocation", "Employee thresholds and impacts vary by NAICS industry and cannot be generalized from one example"]
+}

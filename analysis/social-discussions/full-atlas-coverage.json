@@ -81119,40 +81119,44 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "Expanding small-business support eligibility toward larger firms can crowd out smaller firms' revenue, wages, exits, and innovation",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0083",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "expanding small-business support eligibility toward larger firms can crowd out smaller firms' firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found in the bounded second-pass search tied to the SBA 2026 size-standard proposal.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "expanding small-business support eligibility toward larger firms can crowd out smaller firms' firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0083-sba-size-reddit-001"
+          ]
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "expanding small-business support eligibility toward larger firms can crowd out smaller firms' firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0083-sba-size-linkedin-001"
+          ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "expanding small-business support eligibility toward larger firms can crowd out smaller firms' firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found in the bounded second-pass search tied to the SBA 2026 size-standard proposal.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-snap-administrative-access-2026",

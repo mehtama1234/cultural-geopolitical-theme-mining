@@ -84,9 +84,21 @@ employment-weighted exposure, worker-task use, and frequent individual use are
 different layers. This prevents the atlas from treating a single adoption rate
 as proof of workflow integration, productivity, or worker benefit.
 
+An eighth row is now augmented:
+
+- `us-small-business-support-size-rule-2026` →
+  `atlas-batch-0083-sba-size-linkedin-001` and
+  `atlas-batch-0083-sba-size-reddit-001`
+
+The public discussion contains a real policy disagreement: one side fears
+larger firms will capture programs meant for the smallest firms; another sees
+broader thresholds as a growth path for firms that have outgrown current
+limits. The discussion is recorded as policy reaction, not as proof of the
+proposal's final effects.
+
 ## Batch state
 
-Two rows remain in review. The business-price-pressure row reached a
+One row remains in review. The business-price-pressure row reached a
 documented access gap after no exact platform discussion was found. Platform
 gaps for the five augmented rows were recorded for Reddit, YouTube, and X
 after bounded searches; no completion claim
