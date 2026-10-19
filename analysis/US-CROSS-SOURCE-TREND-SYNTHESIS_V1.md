@@ -113,7 +113,7 @@ The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-augu
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
 
-The current registry contains 1978 machine-readable records, 5941 observations,
+The current registry contains 1978 machine-readable records, 5943 observations,
 
 The [Brazil BCB Pix-conversion record](records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json) adds a Latin American diary-and-preference test to the South African payment findings. Cash fell from 76.6% of recorded payments in 2019 to 40.5% in 2023, while Pix reached 24.9%; however, 17.3% had not used Pix in the prior year and 37.3% of nonusers cited lack of knowledge, while 24.2% sometimes chose another method because of internet-access difficulty. The cross-source implication is that infrastructure growth, stated preference, observed transactions, and executable capability must be separated.
 

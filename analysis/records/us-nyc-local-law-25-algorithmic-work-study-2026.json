@@ -42,13 +42,47 @@
       "source_url": "https://legistar.council.nyc.gov/View.ashx?GUID=2F774383-05BD-4EE8-AAA9-CBA978AA0FAC&ID=15322898&M=F",
       "retrieval_hash": "official_testimony_url:sha256:f78d4edbf16dc9c5d19fcc2393e73e52305f87173824f0b301d66d6ff36196a6",
       "status": "reported"
+    },
+    {
+      "period": "2026-10-01; NYC AI enforcement policy statement",
+      "denominator": {"value": 1, "unit": "joint DCWP, TLC, and CCHR enforcement policy statement", "value_type": "institutional_case_count"},
+      "measures": {
+        "institutional_response": {"value": "The agencies state that entities cannot avoid responsibility for violations of city law because a decision was made or facilitated by AI, algorithmic tools, or other technology", "unit": "public enforcement policy", "value_type": "reported_rule"},
+        "covered_surfaces": {"value": "work, housing, public spaces, consumer transactions, and contracted delivery-worker protections", "unit": "named enforcement domains", "value_type": "reported_scope"},
+        "worker_or_consumer_outcome": {"value": "not observed", "unit": "no named tool, affected person, complaint resolution, correction, compensation, pay, service, or exit endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Review of the official NYC agency policy statement; policy posture is kept separate from a case-level enforcement or remedy outcome.",
+      "uncertainty": "The statement describes enforcement intent and legal responsibility but does not disclose complaint volume, investigations, violations, tool inventories, worker notice, correction, compensation, or consumer recovery.",
+      "subgroup": "New Yorkers, workers, consumers, employers, platforms, and agencies within the named city-law domains; no exposed-person denominator is published.",
+      "counterinterpretation": "A public enforcement posture may clarify accountability without changing a specific algorithmic decision or improving a person's outcome.",
+      "source_url": "https://www.nyc.gov/site/dca/news/067-26/dcwp-tlc-cchr-issue-enforcement-policy-on-artificial-intelligence",
+      "retrieval_hash": "sha256:c8def7eb28622f2bd427226e07956fc5ab9f5e730ec4018ac6abb7a3c5b5cc75",
+      "status": "reported"
+    },
+    {
+      "period": "2026-01-29 introduction; 2026-10-05 committee hearing and layover",
+      "denominator": {"value": 1, "unit": "New York City Int. No. 161-2026 reporting proposal", "value_type": "institutional_case_count"},
+      "measures": {
+        "proposed_reporting_fields": {"value": "employees affected, funded positions eliminated, displacement, salary changes tied to changed responsibilities, and employees requiring new training", "unit": "proposed annual algorithmic-tools reporting fields", "value_type": "reported_proposal"},
+        "legislative_stage": {"value": "committee hearing held and matter laid over on 2026-10-05; not enacted", "unit": "council legislative status", "value_type": "reported_stage"},
+        "worker_outcome": {"value": "not observed", "unit": "proposal does not itself report employees, positions, salaries, training completion, remedy, or later employment", "value_type": "unmeasured"}
+      },
+      "method": "Review of the official New York City Council legislation record and committee status page; proposed reporting fields are not treated as realized administrative data.",
+      "uncertainty": "The proposal may change, fail, or be enacted later; the public record does not establish agency reporting compliance, a tool-level inventory, causal displacement, or worker benefit.",
+      "subgroup": "New York City agency employees and positions potentially affected by reported algorithmic tools; no exposed-worker denominator is published.",
+      "counterinterpretation": "Adding reporting fields could improve visibility without changing salaries, training quality, job roles, or worker bargaining power.",
+      "source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=34B70F41-7D60-4866-9434-7EB17E68661C&ID=7861810",
+      "retrieval_hash": "sha256:a75e63f0484d22fee3575732d2cfaae0e76c8ce6557dd73967946bebc7272198",
+      "status": "reported"
     }
   ],
   "related_sources": [
     {"source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=0B6A4E8B-4D49-437B-BB70-50B898D2BD7F&ID=6874682", "claim": "City Council record identifies the enactment date, law number, study scope, and report requirement.", "status": "official-enactment-record"},
     {"source_url": "https://legistar.council.nyc.gov/View.ashx?GUID=2F774383-05BD-4EE8-AAA9-CBA978AA0FAC&ID=15322898&M=F", "claim": "NYC Office of Technology and Innovation testimony reports that the city was in planning stages of implementing Local Law 25 with DCAS and OLR.", "status": "official-implementation-status"},
-    {"source_url": "https://home4.nyc.gov/site/dca/about/automated-employment-decision-tools.page", "claim": "NYC DCWP provides the existing AEDT bias-audit, notice, and complaint architecture.", "status": "official-implementation-context"}
+    {"source_url": "https://home4.nyc.gov/site/dca/about/automated-employment-decision-tools.page", "claim": "NYC DCWP provides the existing AEDT bias-audit, notice, and complaint architecture.", "status": "official-implementation-context"},
+    {"source_url": "https://www.nyc.gov/site/dca/news/067-26/dcwp-tlc-cchr-issue-enforcement-policy-on-artificial-intelligence", "claim": "NYC DCWP, TLC, and CCHR issued an October 1, 2026 policy stating that reliance on AI does not remove responsibility under city law.", "status": "official-enforcement-policy"},
+    {"source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=34B70F41-7D60-4866-9434-7EB17E68661C&ID=7861810", "claim": "Int. No. 161-2026 proposes reporting employee displacement, salary changes, and new training associated with algorithmic tools; the October 5, 2026 record shows a hearing and layover, not enactment.", "status": "official-legislative-proposal"}
   ],
-  "boundary": "This record advances the AI/work chain from rule and complaint architecture to an enacted municipal measurement mandate and reported planning-stage implementation. It does not establish study completion, a published report, named employer or tool implementation, worker notice or appeal, decision correction, compensation, workload/pay change, trust, or exit.",
-  "reproduction_audit": {"retrieval_hash_scope": "Certified Local Law 25 PDF retrieved from the official City Council Legistar route; implementation status rechecked against official NYC OTI testimony", "retrieval_hash": "sha256:5aca30c589287acfc1c03022f6be8ca57b904f6c78a2c482967fbad962959150", "checked": "2026-09-21"}
+  "boundary": "This record advances the AI/work chain from rule and complaint architecture to an enacted municipal measurement mandate, reported planning-stage implementation, a citywide AI enforcement posture, and a proposed employee-impact reporting route. It does not establish study completion, a published report, named employer or tool implementation, worker notice or appeal, decision correction, compensation, workload/pay change, trust, or exit.",
+  "reproduction_audit": {"retrieval_hash_scope": "Certified Local Law 25 PDF and official City Council records were combined with the October 1, 2026 NYC agency enforcement policy and October 5, 2026 legislative-status recheck", "sha256_prior_enactment_source": "sha256:5aca30c589287acfc1c03022f6be8ca57b904f6c78a2c482967fbad962959150", "checked": "2026-10-18"}
 }

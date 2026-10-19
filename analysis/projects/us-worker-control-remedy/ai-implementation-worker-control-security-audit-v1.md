@@ -82,6 +82,7 @@ claiming one pooled effect:
 | Management and security | Gallup's four-wave U.S. workforce evidence finds frequent AI users report more than twice the displacement concern of infrequent users; perceived manager respect and wellbeing care narrow the association by 6.8 and 11.1 percentage points respectively | Organizational treatment is a plausible buffer between exposure and worker insecurity | The public evidence does not show causal management effects, actual job loss, pay, schedule, bargaining, or retention |
 | Consumer-facing firm capability | The U.S. firm-capacity record reports formal training at 29.1%, 59.1%, and 78.9% for small, medium, and large establishments, while NBER task evidence finds fewer than half adopt AI within most occupations/tasks | Firm size and implementation capacity may shape whether consumer-facing AI is usable and contestable | The establishment data do not identify AI training, customer error, human fallback, complaint completion, or worker outcomes |
 | Bargaining and exit | The NBER outside-option experiment finds access to a competing platform nearly doubled drivers' labor-supply elasticity to Uber and lowered the implied markdown from about 68% to 50% | Competition can create leverage even without formal representation | Net earnings, safety, hours stability, benefits, durability, and household security |
+| Public accountability | NYC's October 1, 2026 joint enforcement policy says AI reliance does not remove responsibility under city law; Int. No. 161-2026 was heard and laid over on October 5 while proposing reporting on displacement, salary changes, and new training | A public institution can make accountability and measurement part of the implementation chain | No published tool inventory, employee count, investigation, correction, compensation, training completion, or worker outcome is yet established |
 
 The U.S. industrial question is therefore not simply whether firms adopt AI. It
 is whether implementation changes the worker's feasible option set: usable
@@ -173,6 +174,7 @@ remains active.
 - [ACCA global talent trends](../../records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json)
 - [HBS customer-service AI experiment](../../records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json)
 - [DOJ OpenAI/Statsig recruitment settlement](../../records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json)
+- [NYC Local Law 25 algorithmic-work study and implementation recheck](../../records/us-nyc-local-law-25-algorithmic-work-study-2026.json)
 - [ILO work discussion](../../social-discussions/records/ai-work-control-005.json)
 - [AI hiring discussion](../../social-discussions/records/atlas-acca-ai-hiring-linkedin-001.json)
 - [Automation and meaning discussion](../../social-discussions/records/atlas-batch-0064-automation-meaning-linkedin-001.json)
