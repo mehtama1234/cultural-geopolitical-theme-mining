@@ -26,11 +26,13 @@ idea or need
 | Stage | Comparable evidence | Method and unit | Boundary |
 |---|---|---|---|
 | Applications are not employer firms | NBER links the universe of U.S. business applications to later employer-firm outcomes and treats entry as two stages: pursuing an idea, then implementing it as an employer firm. High-startup locations show high application intensity, while low-startup locations show low transition rates; application and transition margins relate differently to local conditions. | Administrative universe of business applications linked to later employer-firm outcomes; local comparison. | The abstract does not follow household resources, financing, leases, permits, customers, service quality, belonging, or closure reason. Employer formation is not durable survival or good jobs. |
+| Nonemployer scale is not automatically failed employer formation | Census's 2024 selected-industry gig proxy contains 7,296,664 individual proprietorships and $169,286,301 thousand in reported receipts across 11 industries, including 1,069,754 independent-arts proprietorships and 533,406 child-care proprietorships. | Administrative Nonemployer Statistics and Census's bounded selected-industry visualization; establishment and gross-receipt counts. | Selected industries are only a proxy; establishments are not workers, hours, platform participation, owner income, profit, service quality, or durable survival. |
 | Support rules can redistribute capacity | An NBER quasi-random timing design using Census administrative outcomes finds that expanding small-business support eligibility toward larger firms is followed by lower revenue among affected smaller firms, especially younger, more productive, and financially constrained firms; procurement shifts toward larger firms, while small-firm exits rise and wages and patenting fall. | Firm-level causal design with administrative Census outcomes. | Abstract-level evidence does not expose program identity, effect sizes, worker hours/benefits, customer prices, contract quality, or local service changes. Scale can bring quality or resilience; crowd-out is not automatically social harm. |
 | Emergency liquidity can preserve firms after shocks | Revised NBER disaster-loan estimates find recovery loans reduce exit by 13.2 percentage points for all firms and 16.9 points for employer firms; employer employment rises 0.376 log points and revenue 0.719 log points. Delinquent debt falls 0.339, days late fall about 35, private debt rises $17,712 thousand per the table's reported unit, and private debt paid on time rises $16,369 thousand. | Instrumental-variable firm-level study using loan applications, Census outcomes, and business-credit records; post-disaster follow-up up to seven years. | Outcome panels and units differ; the retained source does not provide full loan terms, code, firm identifiers, worker pay, household spillovers, or whether all recovery gains are socially desirable. |
 | Local business viability is relational, not only cost-based | Gallup finds 48% of business owners hold a positive view of their local area as a place to run a business, 42% say real-estate costs deter development, 43% say customer access is good, 34% say business-to-business support is helpful, and 31% report good professional-supplier access. | Gallup Pathways to Wealth survey, September 26–November 3, 2025; business owners recruited mainly from a probability-based panel. | Sample size, sector composition, and full weighting are not in the public article; ratings are perceptions, not actual costs, customer volume, or service quality. |
 | Growth can increase mobility pressure | Gallup reports 11% of owners with a negative local-climate view are likely to leave within 12 months versus 5% among owners without a negative view. Among owners expecting revenue growth, 19% of dissatisfied owners are likely to relocate versus 5% of satisfied or neutral owners. | Cross-sectional subgroup comparisons. | Intention is not relocation or firm exit; firm performance may shape both satisfaction and mobility plans. Growth-oriented owners may simply have more options. |
 | Firm size and household access can diverge | New York Fed Small Business Credit Survey evidence reports a 13-point profitability diffusion index for employer firms at the end of 2023 versus 46 in December 2019; the smallest firms drove lower revenue reports, while 2026 revenue expectations fell six points year over year. Small-firm employment still increased, and debt averaged about $70,000 per employee. | Weighted survey of employer firms; question-specific universes differ and recruitment is non-random. | Directional survey measures are not realized survival, wages, hours, customer access, or affordable credit. Small-firm employment growth can coexist with lower revenue or lower pay. |
+| Capacity is size-stratified rather than one business-climate score | In the 2024–25 World Bank Enterprise Survey of 2,589 U.S. establishments, reported employment growth was 4.2% for small, 6.4% for medium, and 12.6% for large establishments. Formal training was 29.1%, 59.1%, and 78.9%; electrical-outage exposure was 21.0%, 23.2%, and 36.2%, respectively. | Establishment survey with separate size cells and indicator universes. | These are reported establishment measures, not a causal panel; large firms report both more training and more outage exposure, so size is not a simple capability ranking. |
 | Place retention is also a life-stage bargain | Pew focus groups with 54 Philadelphia residents ages 18–29 identify pay, work-life boundaries, health benefits, advancement, transit, safety, mentorship, and hybrid/in-person learning as job-quality and place-retention conditions. Census context shows a net inflow of about 16,000 young adults per year in 2020–2024, followed by an outflow pattern after around age 30. | Ten facilitated 90-minute focus groups plus descriptive Census context. | Qualitative priorities are not representative or causal; migration does not reveal why a particular person moved, stayed, commuted, or returned. |
 
 ## What we found
@@ -55,6 +57,14 @@ Do not treat these as one “business climate” measure:
 4. **Local conversion:** services, jobs, customer choice, social infrastructure,
    and whether households can stay or leave on acceptable terms.
 
+The Census nonemployer layer is an important counterexample to an employer-only
+story. A one-person child-care, courier, repair, or arts business can be both a
+source of household income and part of the local service or cultural fabric
+without ever becoming an employer firm. The correct comparison is therefore not
+“applications that failed to scale” versus “successful employers,” but multiple
+routes into local capacity with different risks, bargaining positions, and
+consumer endpoints.
+
 ## Curiosity checks
 
 ### Where did the pattern fail?
@@ -70,6 +80,9 @@ Do not treat these as one “business climate” measure:
   because local conditions caused the performance.
 - Young-adult out-migration after age 30 may reflect family choice or regional
   mobility rather than local economic failure.
+- Nonemployer operators may prefer autonomy, flexible care, or project-based
+  work; treating every nonemployer as an unmet employer transition would erase
+  that choice.
 
 ### What else could explain the differences?
 
@@ -87,6 +100,9 @@ capital, customers, wages, survival, public support, local service provision,
 household exposure, and later exit or relocation would show whether firm growth
 creates durable local capacity or merely rotates activity between firms and
 places.
+It should include nonemployer operators and service users, not only employer
+firms, and retain separate measures for gross receipts, owner income, hours,
+worker pay, customer price/quality, and continuity.
 
 ## Bounded public discussion
 
@@ -144,6 +160,8 @@ survival, relocation, or household access, plus a counterexample.
 - [NBER disaster-liquidity causal record](../../records/us-small-business-disaster-liquidity-causal-2024.json)
 - [Gallup local business climate record](../../records/us-gallup-business-owner-local-climate-retention-2026.json)
 - [New York Fed small-business capacity record](../../records/us-nyfed-small-business-capacity-2025.json)
+- [Census 2024 nonemployer and gig-picture record](../../records/us-census-nonemployer-gig-picture-2024-release-2026.json)
+- [World Bank U.S. establishment size and capacity record](../../records/us-world-bank-enterprise-survey-firm-capacity-size-2024.json)
 - [Pew Philadelphia place-retention record](../../records/us-pew-charitable-philadelphia-genz-place-retention-work-quality-2026.json)
 - [HBS disaster-loan discussion](../../social-discussions/records/social-disaster-loans-small-business-linkedin-001.json)
 - [Restaurant spending discussion](../../social-discussions/records/atlas-batch-0062-restaurant-linkedin-001.json)

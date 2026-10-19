@@ -20,9 +20,12 @@ The newest firm-and-place depth artifact is the [local firm formation, survival,
 place capacity, and practical access audit](projects/cross-domain/local-firm-formation-survival-place-capacity-audit-v1.md).
 It joins NBER business-formation stages, small-firm support crowd-out, disaster
 loan causal evidence, Gallup local-business sentiment, New York Fed firm
-capacity, Pew place-retention evidence, and bounded discussion. The finding is
-a formation-to-capacity gap: applications and firm survival do not automatically
-become durable local services, good jobs, household choice, or belonging.
+capacity, Census nonemployer service/cultural scale, World Bank size-stratified
+establishment capacity, Pew place-retention evidence, and bounded discussion.
+The finding is a formation-to-capacity gap: applications and firm survival do
+not automatically become durable local services, good jobs, household choice,
+or belonging; nonemployer operators also represent a distinct local-capacity
+route rather than simply failed scale.
 
 The newest education-and-AI depth artifact is the [AI in education, learning,
 teacher agency, and equity audit](projects/cross-domain/ai-education-learning-agency-equity-audit-v1.md).
