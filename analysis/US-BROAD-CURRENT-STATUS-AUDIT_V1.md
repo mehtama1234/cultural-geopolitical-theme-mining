@@ -109,7 +109,11 @@ It now adds the NBER remote-work shopping counterexample: online and weekday
 shopping, prices paid, deals, minutes, and household shopping responsibility
 can shift together without an AI recommendation system. The finding is a
 conditional-agency gap: AI discovery, payment choice, verification, household
-time, price, return, and repeat-use outcomes remain separate stages.
+time, price, return, and repeat-use outcomes remain separate stages. It now
+also adds NBER default/search and Amazon private-label experiments plus the FTC
+Grubhub remedy record, showing that platform choice sets, owned-product
+visibility, account contestability, restitution, and actual receipt are
+separate firm-power and recovery stages.
 
 The newest workplace-control depth artifact is the [AI implementation,
 worker-control, and security audit](projects/us-worker-control-remedy/ai-implementation-worker-control-security-audit-v1.md).

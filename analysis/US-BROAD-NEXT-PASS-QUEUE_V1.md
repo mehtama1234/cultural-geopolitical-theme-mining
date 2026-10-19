@@ -752,7 +752,10 @@ location changed online and weekday shopping, product range, shopping minutes,
 prices, deal use, and household shopping responsibility. Next: follow one
 product task through AI or non-AI discovery, verification, payment, price/deal,
 shopping time, return or complaint, and repeat choice, while keeping
-household-task ownership visible.
+household-task ownership visible. Add the firm-power layer by tracing default
+choice, ranking/product visibility, platform-owned alternatives, complaint or
+remedy, payment receipt, and later switching or continued reliance; do not
+equate a market-share change or aggregate distribution with consumer welfare.
 
 **Latest time-conversion rotation — 2026-09-29:** the [family care, work
 flexibility, and participation synthesis](projects/cross-domain/us-time-conversion-family-care-participation-2026-09-29.md)

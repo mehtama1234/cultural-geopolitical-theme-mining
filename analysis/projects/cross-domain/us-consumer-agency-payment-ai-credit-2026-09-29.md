@@ -118,6 +118,39 @@ verification work. Technology-mediated agency must therefore be measured
 alongside prices, deals, minutes, task ownership, and later returns or repeat
 choice.
 
+### Platform power changes the choice set before the purchase
+
+Three U.S. records add the firm and governance layer:
+
+- The [NBER search experiment](../../records/us-nber-search-engine-market-power-field-experiment-2025.json)
+  randomized roughly 2,300 desktop Google users. Requiring an active choice
+  increased Bing share by 1.1 percentage points; among users paid to try Bing,
+  33% preferred to continue with it. A model removing demand frictions and
+  incorrect quality beliefs estimated a 15-point market-share increase and $6
+  annual consumer-surplus gain, but these are bounded model counterfactuals,
+  not durable switching or universal welfare.
+- The [NBER Amazon private-label experiment](../../records/us-nber-amazon-vertical-integration-consumer-choice-2025.json)
+  found that hiding Amazon-owned brands led shoppers toward similar products,
+  without increasing search effort or cross-platform shopping in the tested
+  categories. The model estimated a 5.4% short-run consumer-surplus reduction
+  when private labels were removed, with category variation above 10% in some
+  categories. This is a counterexample to assuming platform-owned products
+  automatically harm current shoppers; it does not close long-run seller entry,
+  ranking fairness, or dependence.
+- The [FTC Grubhub remedy record](../../records/us-ftc-grubhub-multisided-remedy-2026.json)
+  reports more than $23.8 million distributed to 640,038 identified payment
+  recipients, with 90-day check and 30-day PayPal acceptance instructions,
+  alongside prospective driver-pay, blocked-account dispute, and restaurant-
+  consent controls. The public record does not establish who in the count was
+  a driver, diner, or restaurant, who cashed or accepted payment, or whether
+  access and earnings were restored.
+
+The combined lesson is that consumer agency can be altered at four different
+moments: default and attention, product visibility, platform rules, and
+remedy. AI recommendation belongs inside this larger choice-set system. A
+consumer can retain verification while still facing a platform-shaped menu,
+and a monetary remedy can coexist with unresolved dependence or exit costs.
+
 ## Cross-source finding
 
 Consumer agency increasingly means managing mediated choice rather than simply
@@ -132,6 +165,8 @@ choosing among products:
    convenience feels safe enough to become reliance.
 5. Household time, task ownership, and prices determine whether mediated choice
    is actually a gain rather than a transfer of labor or cost.
+6. Defaults, rankings, platform-owned products, and remedy rules shape the
+   feasible choice set before individual verification can operate.
 
 This produces an important distinction between access and control. A consumer
 may have many digital options, use AI frequently, and still preserve control by
@@ -180,4 +215,7 @@ system—not as either autonomous shopping or simple digital displacement.
 - [Gartner AI-content trust record](../../records/us-gartner-consumer-trust-ai-slop-influencers-2026.json)
 - [NBER remote-work shopping record](../../records/us-nber-remote-work-shopping-consumption-2026.json)
 - [NBER shopping-from-home price record](../../records/us-nber-shopping-from-home-consumer-prices-2026.json)
+- [NBER search-engine market-power experiment](../../records/us-nber-search-engine-market-power-field-experiment-2025.json)
+- [NBER Amazon vertical-integration experiment](../../records/us-nber-amazon-vertical-integration-consumer-choice-2025.json)
+- [FTC Grubhub multisided remedy record](../../records/us-ftc-grubhub-multisided-remedy-2026.json)
 
