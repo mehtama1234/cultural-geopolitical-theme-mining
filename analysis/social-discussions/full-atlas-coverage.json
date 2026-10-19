@@ -65066,21 +65066,21 @@
       "canonical_theme": "infrastructure-technology-dependency",
       "title": "US firm AI investment is associated with recent productivity growth through organization capital",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "firm investment associated recent productivity growth through organization capital firm-level ai-skilled employment infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title YouTube search for NBER AI organization capital and productivity returned no attributable result",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "firm investment associated recent productivity growth through organization capital firm-level ai-skilled employment infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title Reddit search for NBER AI organization capital and productivity returned no attributable result",
           "social_record_ids": []
         },
         "linkedin": {
@@ -65093,15 +65093,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "firm investment associated recent productivity growth through organization capital firm-level ai-skilled employment infrastructure-technology-dependency 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title X search for NBER AI organization capital and productivity returned no indexed attributable result",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-patent-lawyers-expertise-field-experiment-2026",

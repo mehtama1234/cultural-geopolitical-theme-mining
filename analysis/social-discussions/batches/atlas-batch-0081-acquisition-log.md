@@ -82,6 +82,10 @@ The AI corporate-executive productivity record is now also terminal: its exact
 LinkedIn result is retained and YouTube, Reddit, and X searches are documented
 as gaps.
 
+The AI organization-capital/productivity record is likewise terminal with its
+exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
+found in the exact-title searches.
+
 ## Reproducibility and limits
 
 This was public-web discovery, not a platform-native Creator/API export.
