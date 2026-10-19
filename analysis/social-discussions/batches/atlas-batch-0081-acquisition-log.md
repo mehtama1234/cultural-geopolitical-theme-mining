@@ -62,6 +62,12 @@ produce a safely attributable LinkedIn item:
 These are platform-specific access outcomes, not claims that no relevant
 discussion exists.
 
+Additional platform attempts recorded for the exact HBS AI-acceptance,
+immigrant minimum-wage, and P-EBT records found no indexed attributable item
+on YouTube, Reddit, or X where the platform-specific search was completed.
+Older Reddit minimum-wage discussions were excluded because they predated the
+batch window and did not identify the NBER paper.
+
 ## Reproducibility and limits
 
 This was public-web discovery, not a platform-native Creator/API export.

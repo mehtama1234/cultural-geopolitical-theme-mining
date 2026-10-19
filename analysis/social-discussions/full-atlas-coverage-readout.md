@@ -12,16 +12,16 @@ This is a live control readout, not a completion claim.
 | Platform/status | Rows |
 |---|---:|
 | `linkedin:augmented` | 301 |
-| `linkedin:documented_access_gap` | 1,694 |
-| `linkedin:not_started` | 19 |
+| `linkedin:documented_access_gap` | 1,698 |
+| `linkedin:not_started` | 15 |
 | `reddit:augmented` | 40 |
-| `reddit:documented_access_gap` | 1,938 |
-| `reddit:not_started` | 36 |
-| `x:documented_access_gap` | 1,978 |
-| `x:not_started` | 36 |
+| `reddit:documented_access_gap` | 1,939 |
+| `reddit:not_started` | 35 |
+| `x:documented_access_gap` | 1,979 |
+| `x:not_started` | 35 |
 | `youtube:augmented` | 1 |
-| `youtube:documented_access_gap` | 1,977 |
-| `youtube:not_started` | 36 |
+| `youtube:documented_access_gap` | 1,979 |
+| `youtube:not_started` | 34 |
 
 The queue is not complete until every row reaches a terminal state:
 `augmented`, `documented_access_gap`, or `not_socially_applicable`.
