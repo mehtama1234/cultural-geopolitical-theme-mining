@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2007 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2008 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6277,6 +6277,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | AI coding gains attenuate from task activity to shipped and used software | cost, time, voice | work_control_bargaining, infrastructure_technology_dependency, firm_sector_market_power, platforms_data_attention, household_room_consumption | NBER Working Paper 35275 using GitHub developer data, AI usage telemetry, and four software marketplaces | Software development and software marketplaces; U.S.-anchored firm and labor-market relevance with global platform evidence | 1 | 2026 paper using developer and marketplace data; successive generations of coding tools | estimated | [open](records/us-nber-ai-coding-productivity-shipping-output-2026.json) |
 
 **Boundary:** This record establishes a production-stage gap between AI-assisted coding activity and shipped or used software. It does not establish worker displacement, wage effects, code quality, consumer welfare, firm profitability, bargaining power, or general economy-wide productivity.
+
+| US firms report early AI productivity gains alongside uneven adoption and job-mix reallocation | work, cost, voice, time | firm_sector_market_power, work_control_bargaining, infrastructure_technology_dependency, unequal_exposure_status, household_room_consumption | NBER Working Paper 34984 / Federal Reserve Bank of Atlanta Working Paper 2026-4, Artificial Intelligence, Productivity, and the Workforce: Evidence from Corporate Executives | United States; corporate executives surveyed through Federal Reserve executive/CFO survey research | 3 | 2026 survey; 734 corporate executives; 2026 survey; productivity measurement and revenue realization; 2026 survey; near-term workforce expectations and job composition | reported | [open](records/us-nber-ai-corporate-executives-productivity-workforce-2026.json) |
+
+**Boundary:** This record adds a US firm-level AI adoption and workforce-expectation layer to the industrial/consumer program. It does not establish a causal AI productivity effect, realized employment change, worker bargaining power, pay, consumer prices, firm survival, or household welfare; executive expectations and revenue-based productivity are not the same as worker or consumer benefit.
 
 | AI forecasts differ mainly over economic consequences and produce distinct policy preferences across expert and public groups | work, voice, time | work_control_bargaining, trust_identity_meaning, political_judgment_action, firm_sector_market_power, public_systems_feedback, unequal_exposure_status | NBER Working Paper 35046 survey of five groups forecasting the economic effects of AI | United States; forecasts and policy preferences from academic economists, AI-company employees, AI policy researchers, highly accurate forecasters, and the general public | 1 | 2026; forecasts elicited across five respondent groups | estimated | [open](records/us-nber-ai-economic-forecast-policy-preferences-2026.json) |
 

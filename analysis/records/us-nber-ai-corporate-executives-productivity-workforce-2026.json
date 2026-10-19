@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ai-corporate-executives-productivity-workforce-2026",
+  "title": "US firms report early AI productivity gains alongside uneven adoption and job-mix reallocation",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": ["firm_sector_market_power", "work_control_bargaining", "infrastructure_technology_dependency", "unequal_exposure_status", "household_room_consumption"],
+  "source_unit": "NBER Working Paper 34984 / Federal Reserve Bank of Atlanta Working Paper 2026-4, Artificial Intelligence, Productivity, and the Workforce: Evidence from Corporate Executives",
+  "geography": "United States; corporate executives surveyed through Federal Reserve executive/CFO survey research",
+  "observations": [
+    {
+      "period": "2026 survey; 734 corporate executives",
+      "denominator": {"value": 734, "unit": "surveyed corporate executives", "value_type": "reported_survey_sample"},
+      "measures": {
+        "adoption": {"value": "more than half of firms had already invested in AI, while many smaller firms were only beginning", "unit": "reported firm-adoption pattern", "value_type": "reported_pattern"},
+        "productivity": {"value": "labor-productivity gains were positive but varied across sectors, with the largest effects in high-skill services and finance", "unit": "reported executive assessment and firm evidence", "value_type": "reported_pattern"},
+        "expected_change": {"value": "executives expected productivity gains to strengthen in 2026", "unit": "forward-looking survey expectation", "value_type": "reported_expectation"}
+      },
+      "method": "Survey of corporate executives combined with firm-level productivity and workforce analysis; the source distinguishes perceived productivity from revenue-based measured productivity.",
+      "uncertainty": "Executive reports and firm measures are not a randomized estimate of AI adoption; adoption selection, sector composition, measurement timing, and expectations can affect the comparison.",
+      "subgroup": "Firms of different sizes and sectors, especially high-skill services, finance, and smaller firms at earlier adoption stages.",
+      "counterinterpretation": "Early adoption and reported productivity gains may reflect firms that were already more capable or innovative; positive productivity does not establish worker benefit, consumer price reduction, or durable firm survival.",
+      "source_url": "https://www.nber.org/papers/w34984",
+      "retrieval_hash": "sha256:818f127bc920a4546da6ed543981229a237d0e4510003cb7d226938c4b289994",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; productivity measurement and revenue realization",
+      "denominator": {"value": 734, "unit": "surveyed corporate executives and associated firm observations", "value_type": "reported_survey_sample"},
+      "measures": {
+        "capital_deepening": {"value": "gains were not primarily driven by firms' capital deepening", "unit": "reported mechanism", "value_type": "reported_interpretation"},
+        "revenue_tfp": {"value": "gains were closely associated with increases in revenue-based total factor productivity and innovation- and demand-oriented channels", "unit": "reported firm-level relationship", "value_type": "reported_mechanism"},
+        "productivity_paradox": {"value": "perceived productivity gains were larger than measured productivity gains, plausibly because revenue realization takes time", "unit": "reported measurement gap", "value_type": "reported_pattern"}
+      },
+      "method": "Cross-sectional executive survey linked to firm productivity measures and interpretation of the timing gap between perceived performance and revenue realization.",
+      "uncertainty": "The productivity paradox is a measurement and timing interpretation, not proof that executive perceptions are wrong or that delayed revenue will materialize; the abstract does not provide every estimate or confidence interval.",
+      "subgroup": "Firms using rented or intangible AI capabilities, firms with innovation or demand channels, and firms whose revenue conversion may lag internal productivity change.",
+      "counterinterpretation": "Revenue-based productivity can miss quality, risk, consumer surplus, worker learning, and unpaid or unrecorded work; measured delay may also reflect weak demand or reporting differences rather than AI implementation lag.",
+      "source_url": "https://www.nber.org/papers/w34984",
+      "retrieval_hash": "sha256:818f127bc920a4546da6ed543981229a237d0e4510003cb7d226938c4b289994",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; near-term workforce expectations and job composition",
+      "denominator": {"value": 734, "unit": "surveyed corporate executives", "value_type": "reported_survey_sample"},
+      "measures": {
+        "aggregate_employment": {"value": "little evidence of near-term aggregate employment declines due to AI", "unit": "reported near-term labor-market result", "value_type": "reported_pattern"},
+        "large_firm_expectation": {"value": "larger companies anticipated AI-driven workforce reductions", "unit": "reported executive expectation", "value_type": "reported_heterogeneity"},
+        "small_firm_expectation": {"value": "smaller companies expected modest workforce gains", "unit": "reported executive expectation", "value_type": "reported_heterogeneity"},
+        "job_mix": {"value": "routine clerical roles declined in relative demand while skilled technical roles gained relative demand", "unit": "reported within- and across-firm compositional reallocation", "value_type": "reported_reallocation"}
+      },
+      "method": "Executive survey analysis of expected employment changes and job-function reallocation across firms and within firms.",
+      "uncertainty": "The result does not measure realized layoffs, hiring, wages, hours, worker voice, or household outcomes; expectations can differ from subsequent employment events, and job-function rankings do not identify individual transitions.",
+      "subgroup": "Large versus small firms, routine clerical workers, skilled technical workers, and workers in job functions ranked as more negatively affected by AI.",
+      "counterinterpretation": "A stable aggregate headcount can conceal displacement, upgrading, wage pressure, or reduced entry for particular workers; conversely, anticipated reductions need not occur if demand expands or implementation changes.",
+      "source_url": "https://www.nber.org/papers/w34984",
+      "retrieval_hash": "sha256:818f127bc920a4546da6ed543981229a237d0e4510003cb7d226938c4b289994",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.atlantafed.org/research-and-data/publications/working-papers/2026/03/25/04-artificial-intelligence-productivity-and-the-workforce-evidence-from-corporate-executives", "claim": "Federal Reserve Bank of Atlanta summary and working-paper link for the executive survey and firm productivity findings.", "status": "primary-source"},
+    {"source_url": "https://www.richmondfed.org/-/media/richmondfedorg/research/national_economy/cfo_survey/academic_publications/AI_survey.pdf", "claim": "Federal Reserve paper version reporting the 734-executive sample and AI adoption, productivity, and labor-composition findings.", "status": "primary-source"}
+  ],
+  "boundary": "This record adds a US firm-level AI adoption and workforce-expectation layer to the industrial/consumer program. It does not establish a causal AI productivity effect, realized employment change, worker bargaining power, pay, consumer prices, firm survival, or household welfare; executive expectations and revenue-based productivity are not the same as worker or consumer benefit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W34984 page and linked Federal Reserve paper were reviewed for the 734-executive sample, uneven adoption, sector variation, productivity paradox, labor expectations, and job-composition findings.",
+    "source_url_sha256": "sha256:818f127bc920a4546da6ed543981229a237d0e4510003cb7d226938c4b289994",
+    "checked": "2026-10-19"
+  }
+}
