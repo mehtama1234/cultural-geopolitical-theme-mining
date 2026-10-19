@@ -47,7 +47,7 @@ add a cultural permission layer to industrial adoption.
 
 The twenty linked records have a normalized result. The HBS
 AI-acceptance row now has terminal outcomes for all four platforms and is
-closed as augmented; 7 other batch rows remain in review while their
+closed as augmented; 6 other batch rows remain in review while their
 platform attempts are worked. No completion claim is made for this batch.
 
 ## LinkedIn search gaps recorded
@@ -89,7 +89,7 @@ documented YouTube and X gaps.
 
 The AI organization-capital/productivity record is likewise terminal with its
 exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
-found in the exact-title searches. Seven other batch rows remain in review.
+found in the exact-title searches. Six other batch rows remain in review.
 
 The creative-destruction worker-earnings record has no exact YouTube, Reddit,
 or X match; older or broader creative-destruction discussions were retained
@@ -159,6 +159,10 @@ The monopsony framework record is terminal with an exact Berkeley Economics
 LinkedIn post linking NBER w35608 and identifying search frictions, worker
 preferences, and employer concentration as distinct sources of labor-market
 power. Reddit, YouTube, and X produced no exact paper-linked item.
+
+The overtime-coverage record is terminal with no exact social item tied to
+NBER w35433. LinkedIn and Reddit returned broad overtime-policy or jobs-report
+discussion, while YouTube and X produced no exact paper-linked item.
 
 ## Reproducibility and limits
 

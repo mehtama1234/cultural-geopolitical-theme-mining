@@ -69987,40 +69987,40 @@
       "canonical_theme": "ai-work-control",
       "title": "US overtime coverage expansion raised earnings without an employment decline",
       "geography": "United States",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "overtime coverage expansion raised earnings without employment decline administrative payroll data salaried-worker ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion explicitly tied to NBER w35433 was found in the bounded search.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "overtime coverage expansion raised earnings without employment decline administrative payroll data salaried-worker ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Search found broad overtime-policy discussion, but no exact Reddit item identifiable to NBER w35433.",
           "social_record_ids": []
         },
         "linkedin": {
           "status": "documented_access_gap",
           "query": "overtime coverage expansion raised earnings without employment decline administrative payroll data salaried-worker ai-work-control 2025-10-17..2026-10-17",
           "retrieved": "2026-10-19",
-          "result_or_gap": "Exact-title LinkedIn search for NBER overtime coverage expansion returned generic overtime and labor posts, not this paper",
+          "result_or_gap": "Search found broad overtime-policy and jobs-report discussion, but no exact item identifiable to NBER w35433.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "overtime coverage expansion raised earnings without employment decline administrative payroll data salaried-worker ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion explicitly tied to NBER w35433 was found in the bounded search.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-p-ebt-sugary-item-spending-2026",
