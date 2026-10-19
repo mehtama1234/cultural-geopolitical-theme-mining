@@ -1,5 +1,7 @@
 # US broad program current-status audit v1
 
+The latest U.S. multinational-firm addition is the [NBER tax-planning record](records/us-nber-multinational-tax-planning-foreign-profits-rd-2026.json). It reports 36% of foreign profits associated with structures adopted by 18% of firms and models tradeoffs between tax revenue and economic activity. This keeps firm structure, public revenue, R&D, investment, workers, and consumers as separate stages.
+
 The latest U.S. labor/consumer addition is the [NBER labor-force-exit record](records/us-nber-postpandemic-labor-force-exit-low-income-2026.json). It reports persistent exit concentrated among low-income and low-skill workers, especially low-skilled unmarried men, with only about a quarter of lost W-2 income replaced by self-employment. This keeps labor-force status, income, care, health, flexibility, and household security separate.
 
 The latest U.S. food-policy counterpoint is the [NBER SNAP restriction record](records/us-nber-snap-sugary-restrictions-spending-calories-tax-2026.json). It reports lower restricted spending, calories, and sugar, but also substitution, channel, price, and stigma effects. This keeps purchase response, consumption, health, food security, and unequal burden separate from the P-EBT expansion result.
@@ -574,7 +576,7 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 2001 machine-readable records, 5970 observations,
+**Current registry state:** 2002 machine-readable records, 5971 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -2594,7 +2596,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 2001 trend records and 5970 observations pass the
+the current checkpoint: 2002 trend records and 5971 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
 families; 2,779 local Markdown links and 1,151 published HTML pages pass link

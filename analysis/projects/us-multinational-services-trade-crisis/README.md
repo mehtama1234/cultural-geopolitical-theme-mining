@@ -20,6 +20,13 @@ goods and services sales, intellectual property, affiliates, customers, prices,
 employment, wages, investment, supply chains, and later recovery. The public
 abstract does not provide that complete bridge.
 
+The [multinational tax-planning record](../../records/us-nber-multinational-tax-planning-foreign-profits-rd-2026.json)
+adds a public-revenue and firm-structure layer: in 2016, tax-planning structures
+were associated with 36% of foreign profits but adopted by only 18% of firms.
+The model implies tradeoffs between tax revenue and economic activity, amplified
+by global R&D linkages. The next test is to connect tax structure to domestic
+investment, employment, prices, public capacity, and worker outcomes.
+
 ## Source
 
 - [Census CES Working Paper CES-26-04](https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-04.html)

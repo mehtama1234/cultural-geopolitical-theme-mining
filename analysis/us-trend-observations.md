@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2001 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2002 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6693,6 +6693,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | When voters cannot see all candidate preferences, cultural issues can become especially useful political signals | voice, time, cost | political_judgment_action, trust_identity_meaning, public_systems_feedback, unequal_exposure_status | NBER Working Paper 34909, a formal model of multidimensional political signaling | Political model with relevance to U.S. campaign communication; no U.S. respondent or election sample | 1 | 2026 working-paper model | reported | [open](records/us-nber-multidimensional-signaling-cultural-politics-2026.json) |
 
 **Boundary:** This record adds a formal mechanism for why cultural political signals may become prominent when broader preferences are hard to observe. It does not show that current U.S. voters are uninformed, that cultural politics is replacing economic politics, that candidates caused voter beliefs, or that rhetoric produced policy change.
+
+| US multinationals concentrate foreign profits in tax-planning structures adopted by a minority of firms | cost, voice, work | firm_sector_market_power, public_systems_feedback, infrastructure_technology_dependency, unequal_exposure_status, household_room_consumption | US multinational firms, foreign profits, tax-planning structure adoption, foreign effective tax rates, domestic and foreign investment, and global R&D | United States multinationals with foreign operations | 1 | Working paper issued October 2026; linked IRS evidence centered on 2016 adoption and subsequent investment/R&D responses | reported | [open](records/us-nber-multinational-tax-planning-foreign-profits-rd-2026.json) |
+
+**Boundary:** This record adds a multinational tax-planning and public-revenue layer to the US industrial program. It does not establish tax evasion, quantify realized revenue loss, or measure domestic employment, consumer prices, worker outcomes, or household welfare in the same unit.
 
 | Mixed native-immigrant founding teams show a firm-level complementarity in U.S. startup outcomes | work, voice, cost | work_control_bargaining, firm_sector_market_power, unequal_exposure_status, housing_place_mobility, trust_identity_meaning | NBER Working Paper 33804 using linked U.S. startup, founder, employee, education, employment, funding, and exit records | United States; startups and founders observed through linked administrative and commercial records | 1 | Startup founding and outcomes three years after founding; paper issued May 2025 | reported | [open](records/us-nber-native-immigrant-entrepreneurial-synergies-2025.json) |
 

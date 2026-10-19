@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. multinational-firm rotation — 2026-10-19:** the [NBER tax-planning record](records/us-nber-multinational-tax-planning-foreign-profits-rd-2026.json) finds that structures adopted by 18% of US multinationals were associated with 36% of foreign profits in 2016; the model implies tax-revenue/economic-activity tradeoffs amplified by global R&D. Next: connect tax structure to domestic investment, employment, prices, public capacity, and workers; modeled tradeoffs are not realized reform effects.
+
 **Latest U.S. labor/consumer rotation — 2026-10-19:** the [NBER labor-force-exit record](records/us-nber-postpandemic-labor-force-exit-low-income-2026.json) finds persistent exit concentrated among low-income and low-skill workers, especially low-skilled unmarried men; self-employment replaces about 25% of lost W-2 income, while several leading explanations show little support. Next: connect exit to health, care, informal work, household resources, benefits, re-entry, and job quality; do not read exit as either automatic harm or voluntary leisure.
 
 **Latest U.S. food-policy counterpoint — 2026-10-19:** the [NBER SNAP restriction record](records/us-nber-snap-sugary-restrictions-spending-calories-tax-2026.json) reports an 11% fall in restricted spending and 5–8% reductions in purchased calories and sugar, with asymmetric substitution, little shelf-price movement, a 1.9% tax-inclusive price increase, and persistent online response. Next: compare restriction and P-EBT expansion through consumption, diet, health, food security, stigma, and unequal household burden; the $1.1 billion welfare estimate is modeled.
@@ -488,9 +490,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 2001 machine-readable records and 5970
-observations. The trend registry holds 2001 records and
-5970 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 2002 machine-readable records and 5971
+observations. The trend registry holds 2002 records and
+5971 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

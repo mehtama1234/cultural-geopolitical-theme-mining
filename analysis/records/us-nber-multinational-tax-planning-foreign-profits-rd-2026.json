@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-multinational-tax-planning-foreign-profits-rd-2026",
+  "title": "US multinationals concentrate foreign profits in tax-planning structures adopted by a minority of firms",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["firm_sector_market_power", "public_systems_feedback", "infrastructure_technology_dependency", "unequal_exposure_status", "household_room_consumption"],
+  "source_unit": "US multinational firms, foreign profits, tax-planning structure adoption, foreign effective tax rates, domestic and foreign investment, and global R&D",
+  "geography": "United States multinationals with foreign operations",
+  "observations": [
+    {
+      "period": "Working paper issued October 2026; linked IRS evidence centered on 2016 adoption and subsequent investment/R&D responses",
+      "denominator": {"value": null, "unit": "US multinational firms observed in linked IRS data; exact firm count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "foreign_profit_share": {"value": 36, "unit": "percent of foreign profits associated with tax-planning structures in 2016", "value_type": "reported_estimate"},
+        "firm_adoption_share": {"value": 18, "unit": "percent of firms adopting the tax-planning structures in 2016", "value_type": "reported_estimate"},
+        "adoption_concentration": {"value": null, "unit": "adopting firms account for a disproportionately large share of foreign profits", "value_type": "reported_comparison"},
+        "tax_mismatch": {"value": null, "unit": "structures exploit mismatches between US and foreign tax laws", "value_type": "reported_mechanism"},
+        "investment_rd_tradeoff": {"value": null, "unit": "restricting tax planning creates tradeoffs between tax revenue and economic activity, amplified by global R&D linkages", "value_type": "modeled_implication"},
+        "heterogeneous_costs_benefits": {"value": null, "unit": "the structural model implies substantial heterogeneity in adoption costs and benefits", "value_type": "modeled_result"}
+      },
+      "method": "The paper uses newly linked IRS data, adoption patterns, changes in foreign effective tax rates, domestic and foreign investment, and global R&D to estimate a structural model of multinational tax-planning adoption.",
+      "uncertainty": "The NBER abstract does not disclose firm counts, confidence intervals, exact structure definitions, or the full model assumptions. Foreign-profit shares are not the same as tax revenue, domestic jobs, consumer prices, or household welfare; modeled revenue-activity tradeoffs are not a realized reform effect.",
+      "subgroup": "US multinationals that adopt tax-planning structures and the larger foreign-profit mass concentrated among adopters.",
+      "counterinterpretation": "Tax-planning structures may reflect real operations, financing, intellectual property, legal compliance, accounting, or reporting choices; changes in investment and R&D can be jointly driven by global conditions, and restricting planning may have different effects across firms and jurisdictions.",
+      "source_url": "https://www.nber.org/papers/w35874",
+      "retrieval_hash": "sha256:bc156d7925008f1aa74fd59702e551a1d3c2896cbb2f4ca5ff463e79c1b33e13",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35707", "claim": "Dynamic investment and product-market rivalry link cost-of-capital shocks to US public-firm investment, markups, and concentration.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35684", "claim": "AI-skilled employment and organization capital are associated with recent firm productivity growth.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w33967", "claim": "Nursing-home mergers illustrate how firm ownership can improve compliance measures while reducing direct-care hours.", "status": "comparative-evidence"}
+  ],
+  "boundary": "This record adds a multinational tax-planning and public-revenue layer to the US industrial program. It does not establish tax evasion, quantify realized revenue loss, or measure domestic employment, consumer prices, worker outcomes, or household welfare in the same unit."
+}
