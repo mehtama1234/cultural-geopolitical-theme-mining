@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-tariff-quantity-discounts-scale-economies-2026",
+  "title": "Transaction scale changes the measured incidence of US tariffs",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["firm_sector_market_power", "household_room_consumption", "consumer_power_recourse", "infrastructure_technology_dependency", "geopolitical_state_consequences"],
+  "source_unit": "NBER Working Paper 34901, Did Foreigners Pay America's Tariffs? Quantity Discounts, Scale Economies and Incomplete Pass-Through",
+  "geography": "United States trade; 2018-2019 US tariffs and transaction-level imports",
+  "observations": [
+    {
+      "period": "2018-2019 US tariffs; transaction-level import-price variation",
+      "denominator": {"value": null, "unit": "administrative transaction-level US import microdata; abstract does not disclose the full transaction or product count", "value_type": "not_disclosed"},
+      "measures": {
+        "quantity_discounts": {"value": "Transaction-level quantity discounts are pervasive in US trade", "unit": "reported empirical pattern", "value_type": "reported_pattern"},
+        "discount_mechanism": {"value": "Observed discounts reflect transaction-level scale economies rather than market power", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "incidence_boundary": {"value": "Tariff incidence depends on shipment scale and transaction structure, not only the posted tariff rate", "unit": "bounded implication", "value_type": "bounded_mechanism"}
+      },
+      "method": "Administrative microdata analysis of US import transactions, quantity discounts, shipment scale, and tariff pass-through.",
+      "uncertainty": "The abstract does not disclose the full transaction universe, product coverage, confidence intervals, or household-price mapping; transaction prices are not identical to retail shelf prices.",
+      "subgroup": "Import transactions of different sizes, foreign exporters, US importers, downstream producers, retailers, and consumers exposed to affected goods.",
+      "counterinterpretation": "Scale economies can coexist with bargaining power or market power; finding a cost mechanism does not rule out strategic pricing or unequal bargaining across firms.",
+      "source_url": "https://www.nber.org/papers/w34901",
+      "retrieval_hash": "sha256:f717e28d5d829f7750ff69d9a8e35211f6f985bc2d6bf33537207fbc1f87922f",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2019 US tariffs; observed import-price response",
+      "denominator": {"value": null, "unit": "tariff-affected import transactions in administrative microdata", "value_type": "not_disclosed"},
+      "measures": {
+        "observed_pass_through": {"value": "Observed import prices rose one-for-one with the 2018-2019 US tariffs", "unit": "reported price response relative to tariff change", "value_type": "reported_estimate"},
+        "transaction_scale": {"value": "Transaction sizes collapsed after the tariffs", "unit": "reported transaction response", "value_type": "reported_effect"},
+        "measurement_puzzle": {"value": "The loss of scale economies explains the apparent one-for-one import-price response", "unit": "reported interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Decomposition of observed tariff-era import-price changes into strategic pass-through and transaction-scale effects.",
+      "uncertainty": "The result concerns import prices and does not directly establish final consumer prices, quantities purchased, retailer margins, or welfare; tariff exposure and shipment-scale changes may be correlated with broader trade adjustment.",
+      "subgroup": "Importers and exporters changing shipment size, with downstream exposure varying by product and supply chain.",
+      "counterinterpretation": "Other changes in sourcing, composition, exchange rates, inventory, or product quality could contribute to the observed import-price movement.",
+      "source_url": "https://www.nber.org/papers/w34901",
+      "retrieval_hash": "sha256:f717e28d5d829f7750ff69d9a8e35211f6f985bc2d6bf33537207fbc1f87922f",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2019 US tariffs; scale-free strategic pass-through",
+      "denominator": {"value": 100, "unit": "percent of the tariff change used as the pass-through base", "value_type": "decomposition_base"},
+      "measures": {
+        "scale_free_pass_through": {"value": 60, "unit": "percent of the tariff increase passed through to scale-free import prices", "value_type": "reported_estimate"},
+        "foreign_exporter_absorption": {"value": "Foreign exporters absorbed a significant share of the tariff burden through reduced markups", "unit": "reported incidence interpretation", "value_type": "reported_mechanism"},
+        "consumer_link": {"value": "The import-side incidence estimate is an upstream condition for consumer-price exposure, not a direct household-price estimate", "unit": "boundary", "value_type": "unmeasured"}
+      },
+      "method": "Pass-through estimate controlling for micro-level scale economies in transaction size.",
+      "uncertainty": "The 60 percent estimate is conditional on the paper's scale adjustment and 2018-2019 tariff setting; the abstract does not identify downstream retail pass-through, household incidence, or whether exporter markups recover later.",
+      "subgroup": "Foreign exporters, US importers, downstream firms, and consumers along supply chains with different transaction scales.",
+      "counterinterpretation": "Reduced exporter markups may reflect temporary scale loss, renegotiation, or product reallocation rather than a stable distribution of tariff burden; downstream firms may still pass costs forward.",
+      "source_url": "https://www.nber.org/papers/w34901",
+      "retrieval_hash": "sha256:f717e28d5d829f7750ff69d9a8e35211f6f985bc2d6bf33537207fbc1f87922f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34901", "claim": "Official NBER landing page with the transaction-level quantity-discount, scale-economy, one-for-one observed-price, and 60 percent scale-free pass-through findings.", "status": "primary-source"},
+    {"source_url": "https://doi.org/10.3386/w34901", "claim": "NBER DOI route for the working paper.", "status": "primary-source"},
+    {"source_url": "../../projects/us-tariff-incidence-quantity-discounts/README.md", "claim": "Existing project control for connecting tariff incidence, shipment scale, firm adjustment, and household price exposure.", "status": "design-specification"}
+  ],
+  "boundary": "This record adds an upstream US trade-incidence counterexample: apparent one-for-one tariff pass-through can partly reflect lost transaction scale, while scale-adjusted pass-through is 60 percent and foreign exporters absorb a significant share through lower markups. It does not establish retail prices, household incidence, welfare, employment, or a universal tariff mechanism.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W34901 page reviewed for transaction-level quantity discounts, scale economies, one-for-one observed import-price movement, collapsed transaction size, 60 percent scale-free pass-through, and exporter markup absorption.",
+    "source_url_sha256": "sha256:f717e28d5d829f7750ff69d9a8e35211f6f985bc2d6bf33537207fbc1f87922f",
+    "checked": "2026-10-19"
+  }
+}

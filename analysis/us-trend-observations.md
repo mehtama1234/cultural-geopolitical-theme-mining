@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-2012 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+2013 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6941,6 +6941,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | US tariffs pass through to consumer prices directly and later through domestic inputs and markups | cost, time, voice | household_room_consumption, firm_sector_market_power, consumer_power_recourse, infrastructure_technology_dependency, unequal_exposure_status | NBER Working Paper 35561, The Anatomy of Tariff Pass-through into Consumer Prices | United States; goods exposed to the 2025-2026 US tariffs | 3 | 2025-2026 US tariffs; consumer-price pass-through relative to less-exposed goods; 2025-2026 US tariffs; decomposition of consumer-price pass-through; 2025-2026 US tariffs; timing of supply-chain transmission | reported | [open](records/us-nber-tariff-pass-through-consumer-prices-2026.json) |
 
 **Boundary:** This record adds a US consumer-price and firm-market-power mechanism: tariffs can pass through directly to imported varieties and indirectly through domestic input costs and markups over a longer supply-chain lag. It does not establish household welfare, incidence by income, retailer behavior, firm profitability, substitution, employment, or a universal tariff effect outside the study design.
+
+| Transaction scale changes the measured incidence of US tariffs | cost, voice, work | firm_sector_market_power, household_room_consumption, consumer_power_recourse, infrastructure_technology_dependency, geopolitical_state_consequences | NBER Working Paper 34901, Did Foreigners Pay America's Tariffs? Quantity Discounts, Scale Economies and Incomplete Pass-Through | United States trade; 2018-2019 US tariffs and transaction-level imports | 3 | 2018-2019 US tariffs; transaction-level import-price variation; 2018-2019 US tariffs; observed import-price response; 2018-2019 US tariffs; scale-free strategic pass-through | reported | [open](records/us-nber-tariff-quantity-discounts-scale-economies-2026.json) |
+
+**Boundary:** This record adds an upstream US trade-incidence counterexample: apparent one-for-one tariff pass-through can partly reflect lost transaction scale, while scale-adjusted pass-through is 60 percent and foreign exporters absorb a significant share through lower markups. It does not establish retail prices, household incidence, welfare, employment, or a universal tariff mechanism.
 
 | Worker adoption of generative AI is widespread across tasks but shallow within similar work | work, voice, time | work_control_bargaining, unequal_exposure_status, firm_sector_market_power, infrastructure_technology_dependency, trust_identity_meaning | nationally representative worker survey linked to detailed occupations and tasks | United States | 4 | 2026; nationally representative worker survey; 2026; occupation/task exposure versus adoption comparison; 2026; worker-reported adoption versus platform chat-log measurement; 2025-08 to 2026-05 pooled public task-index release | observed; reported | [open](records/us-nber-task-level-genai-adoption-2026.json) |
 
