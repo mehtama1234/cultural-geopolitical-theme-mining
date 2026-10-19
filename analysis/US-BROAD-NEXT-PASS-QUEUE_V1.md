@@ -1,5 +1,14 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. housing/insurance consumer rotation — 2026-10-18:** the [property
+shock, repair, staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md)
+now adds California wildfire claims and smoke-damage correction, GAO national
+premium/availability evidence, and NBER credit-based insurance pricing. The
+finding remains a repair-and-mobility gap: aggregate payments, partial claims,
+legal standards, or last-resort coverage do not prove safe occupancy, adequate
+repair, affordable renewal, or a chosen stay/move. Next: follow one claim or
+property through payment, inspection, repair, occupancy, renewal, and mobility.
+
 **Latest U.S. consumer-health rotation — 2026-10-18:** the [AI health
 navigation, trust, control, and continuity audit](projects/cross-domain/ai-health-navigation-trust-control-audit-v1.md)
 now joins Pew, GAO, Ipsos, WHO, and PwC evidence with the FTC Hims & Hers

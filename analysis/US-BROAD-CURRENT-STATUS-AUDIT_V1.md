@@ -114,10 +114,12 @@ earnings, or household security are observed.
 The newest housing-risk depth artifact is the [property shock, repair,
 staying, and moving audit](projects/us-wildfire-insurance/property-shock-repair-stay-move-audit-v1.md).
 It compares wildfire destruction, FEMA housing assistance, eviction orders,
-rental-assistance lotteries, insurance pricing, mortgage lock-in, and housing
-robustness. The evidence shows that a payment, repair route, or formal housing
-intervention can improve one stage while safe occupancy, return, mobility,
-household security, and durable place attachment remain unknown.
+rental-assistance lotteries, California wildfire claims and smoke-damage
+correction, GAO insurance availability, NBER credit-pricing, mortgage lock-in,
+and housing robustness. The evidence shows that a payment, partial claim,
+repair route, legal standard, or formal housing intervention can improve one
+stage while safe occupancy, return, mobility, household security, and durable
+place attachment remain unknown.
 
 The newest capability-to-leverage depth artifact is the [semiconductor control,
 domestic realization, and replaceability audit](projects/cross-domain/semiconductor-control-domestic-realization-replaceability-audit-v1.md).
