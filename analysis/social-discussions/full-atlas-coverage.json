@@ -71528,40 +71528,40 @@
       "canonical_theme": "household-room-consumption",
       "title": "US one-off transfers produced a delayed, hump-shaped consumption response",
       "geography": "United States; post-World War II veteran payment natural experiment",
-      "status": "in_review",
+      "status": "documented_access_gap",
       "batch_id": "atlas-batch-0082",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact YouTube discussion found within the bounded window that identified NBER W35786 or its postwar-veteran consumption multiplier findings.",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "General stimulus and veteran-benefit anecdotes were found, but no exact Reddit discussion within the bounded window identified NBER W35786 or its postwar-veteran consumption multiplier findings.",
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Veteran-benefit and transfer commentary was found, but no exact LinkedIn discussion within the bounded window identified NBER W35786 or its postwar-veteran consumption multiplier findings.",
           "social_record_ids": []
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "one-off transfers produced delayed hump-shaped consumption response veterans postwar transfer payments household household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "No exact X discussion found within the bounded window that identified NBER W35786 or its postwar-veteran consumption multiplier findings.",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-stimulus-transfer-electoral-incentives-italy-2014",

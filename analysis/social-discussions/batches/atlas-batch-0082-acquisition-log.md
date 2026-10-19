@@ -85,6 +85,14 @@ discussion, but none identified NBER W35856 or its specific low-income,
 low-skill, and self-employment replacement findings. Those discussions were
 not promoted into attributable evidence.
 
+- `us-nber-stimulus-checks-veteran-transfers-consumption-2026` → documented
+  access gaps on LinkedIn, Reddit, YouTube, and X.
+
+The search found general stimulus and veteran-benefit anecdotes, but none
+identified NBER W35786 or its postwar-veteran natural experiment and dynamic
+consumption multiplier estimates. The modern-transfer generalization remains
+an open research question.
+
 - `us-nber-sticky-wage-norms-real-wage-loss-2026` →
   `atlas-batch-0082-sticky-wages-reddit-001`; LinkedIn, YouTube, and X are
   documented access gaps.
@@ -105,7 +113,8 @@ tariff quantity-discount row is terminal with four documented access gaps.
 The SNAP restriction row is also terminal with four documented access gaps.
 The sticky-wage row is augmented on Reddit with three platform gaps. The
 post-pandemic labor-exit row is terminal with four documented access gaps.
-Two other batch rows remain in review; no completion claim is made for the
+The stimulus-check row is also terminal with four documented access gaps.
+One other batch row remains in review; no completion claim is made for the
 broader atlas program.
 
 ## Reproducibility and limits
