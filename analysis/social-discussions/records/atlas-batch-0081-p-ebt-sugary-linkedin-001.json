@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0081-p-ebt-sugary-linkedin-001",
+  "atlas_record_ids": ["us-nber-p-ebt-sugary-item-spending-2026"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "research_translation_feed_excerpt",
+  "author_or_account": "National Bureau of Economic Research",
+  "title": "Pandemic EBT raised sugary-item spending among lower-income households with children",
+  "canonical_url": "https://www.linkedin.com/company/nber",
+  "published_window": "2026; public NBER LinkedIn feed excerpt within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The NBER feed excerpt translates the P-EBT paper into a consumer-allocation result: weekly sugary-item spending rose 16% among lower-income households with children, and the increase was about twice the increase in overall food spending. The signal is useful for the consumer/public-program chain because assistance changed the composition of purchases, not only the total food budget.",
+  "research_anchor_paths": ["analysis/records/us-nber-p-ebt-sugary-item-spending-2026.json"],
+  "linked_research_question": "When US food assistance replaces a constrained in-kind meal route with more flexible purchasing power, how do households, retailers, and product categories respond, and what happens to food security, health, and consumer choice?",
+  "classification": ["consumer_household_discussion", "public_assistance", "food_purchases", "product_mix", "bounded_public_discussion"],
+  "limits": ["The retained URL is the NBER company feed because the indexed result exposed the exact post excerpt rather than a stable direct-post URL", "Purchase data are not consumption, nutrition, health, or food-security outcomes", "The feed excerpt does not report the panel count, effect interval, or full identification details"]
+}
