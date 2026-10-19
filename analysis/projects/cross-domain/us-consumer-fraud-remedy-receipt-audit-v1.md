@@ -39,6 +39,7 @@ changed their use of Walmart or money-transfer services.
 | Reported fraud exposure | [FTC Consumer Sentinel 2024 record](../../records/us-ftc-consumer-sentinel-fraud-loss-2023-2024.json) reports 2,600,678 fraud reports in 2024, 38% indicating a loss, $12.537 billion in reported losses, and a $497 median among reports with loss. | Fraud reports and reported losses are large enough to make remedy reach a material public question. | Administrative reports are not population prevalence, verified harm, or a same-person Walmart case. |
 | Named institutional failure | [FTC Walmart refund page](https://www.ftc.gov/enforcement/refunds/walmart-refunds) says 65,022 checks totaling more than $9.8 million were sent in October 2026 to people who completed eligible Walmart money transfers from January 2015 through December 2024; it describes training, warnings, and security failures alleged in the lawsuit. | A named firm, transaction window, administrator, recipient count, and aggregate payment endpoint are publicly identified. | The page does not publish the eligible denominator, selection rule in full, check-cashing rate, individual amounts, or household loss remaining. |
 | Receipt instruction | The same FTC page tells recipients to cash checks within 90 days and directs questions to Rust Consulting. | The remedy has a concrete receipt deadline and an administrator route. | A deadline and contact route do not prove cashing, successful delivery, accessibility, or recovery adequacy. |
+| Published receipt comparator | [FTC's 2024 refund report](../../records/us-ftc-refund-cashing-reissue-funnel-2024.json) reports 2,794,012 of 4,350,411 consumers in its first-distribution table had cashed a payment to date (64.2%); across 25 programs closed in 2024, 1,162,743 of 1,770,214 consumers cashed at least one payment (65.7%). A named Amazon Flex reissue added 2,806 successful Zelle payments and raised participation from 90.3% to 92.3%. | A federal remedy program can publish a cashing endpoint and show that a changed payment channel reaches additional recipients. | These are cross-case and comparator denominators, not Walmart-specific cashing, adequacy, residual loss, or household recovery; cashing still does not prove the original harm was repaired. |
 | Comparable payment persistence | [FTC Amazon Flex refund page](https://www.ftc.gov/enforcement/refunds/refunds-amazon-flex-drivers) reports more than $60.6 million in returned tips: an initial payment round in November 2021, a second round in May 2025, and a current Zelle route for eligible drivers who did not cash an earlier check. | A named remedy can remain active across multiple payment rounds, making uncashed or unreachable recipients an observable implementation issue. | Amazon Flex is a worker-tip case, not Walmart money-transfer fraud; the public page does not provide the full eligible denominator, cashed share, residual loss, or later work outcome. |
 | Consumer-remedy comparator | [FTC Credit Karma refund page](https://www.ftc.gov/enforcement/refunds/credit-karma-settlement) reports more than $2.3 million distributed by checks and PayPal in October 2024, followed by an April 2026 Zelle route for valid claimants who did not cash the check or accept PayPal. | Repeated payment channels also appear in a non-worker consumer case involving wasted application time and possible credit-score harm. | The page does not publish the valid-claim denominator, delivery/cashing rate, individual amounts, score correction, restored credit access, or later consumer choice. |
 | Household recovery and effort | [Federal Reserve SHED layer](../../records/us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026.json) reports 21% of adults experienced some financial fraud; among adults with non-credit-card fraud, 63% lost money, 32% recovered only some or none, and about 30% spent at least ten hours dealing with recovery. | Money loss, incomplete recovery, and attention cost are separate household endpoints. | SHED is a weighted survey with different fraud definitions and no Walmart-specific linkage. |
@@ -56,7 +57,9 @@ The case connects three stages that are often reported separately:
 
 The useful finding is a **check-to-recovery gap**. The October FTC figure closes
 part of the payment-distribution arrow, but not the receipt, adequacy, residual
-loss, protection, trust, or exit arrows. The Amazon Flex and Credit Karma
+loss, protection, trust, or exit arrows. The 2024 FTC report supplies a useful
+published receipt comparator, but its cross-case cashing rates cannot be
+transferred to Walmart. The Amazon Flex and Credit Karma
 comparators show that even older payment programs can require later payment
 rounds for people who did not cash or accept an earlier payment. That is
 evidence of a receipt and administration problem, not proof that either
@@ -106,10 +109,10 @@ eligible transfer or fraud event
   -> later use, repeat exposure, switching, trust, or exit
 ```
 
-Seek the FTC refund dashboard or administrator data for sent, cashed, returned,
-and unresolved payments; compare the named Walmart episode with the Amazon
-Flex and Credit Karma repeated-payment routes and at least one consumer-remedy
-program that publishes receipt data; and preserve household liquidity, age,
+Seek the FTC refund dashboard or administrator data for Walmart-specific sent,
+delivered, cashed, returned, and unresolved payments; compare the named Walmart
+episode with the Amazon Flex and Credit Karma repeated-payment routes and the
+published 2024 FTC receipt comparator; and preserve household liquidity, age,
 payment channel, and non-recipient comparison cells where available.
 
 ## Stopping rule

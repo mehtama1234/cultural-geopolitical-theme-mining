@@ -87,8 +87,10 @@ time burden, NBER liquidity-stratified fee effects, and bounded public recourse
 discussion. The finding is a check-to-recovery gap: a counted distribution does
 not yet prove receipt, adequate recovery, reduced repeat exposure, restored
 trust, or practical consumer exit. Next: seek sent, delivered, cashed,
-returned, and unresolved payment counts and at least one later household or
-protection outcome.
+returned, and unresolved Walmart-specific payment counts. The FTC's 2024
+annual refund report provides a cross-case cashing comparator, but not Walmart's
+rate; the next pass should preserve that denominator difference and seek at
+least one later household or protection outcome.
 
 **Latest U.S. large-load infrastructure rotation — 2026-10-18:** the [AI
 infrastructure, local legitimacy, and household-cost synthesis](projects/cross-domain/us-ai-infrastructure-local-legitimacy-household-costs-2026-09-29.md)
