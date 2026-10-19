@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. worker-subgroup rotation — 2026-10-19:** the [NBER immigrant minimum-wage record](records/us-nber-immigrants-minimum-wage-labor-market-effects-2026.json) adds a boundary to the poor-family minimum-wage signal: hours fall without a reported employment effect for immigrants, concentrated among recently arrived, likely undocumented workers in high-turnover industries, while native workers show no comparable response. Next: match hours to income, scheduling, legal-status proxy, employer replacement cost, worker voice, and household room; do not treat no employment effect as no security loss.
+
 **Latest U.S. consumer/worker rotation — 2026-10-19:** the [NBER poor-family minimum-wage record](records/us-nber-minimum-wage-poor-low-income-families-2026.json) adds a household-positioned counterpoint to the minimum-wage and automation chain. In SIPP evidence, initially-employed low-wage workers in poor and low-income families show adverse employment, hours, and earnings effects, with no extra adverse gradient for the poorest workers. Next: match income-to-needs position to hours, prices, firm adjustment, automation, benefits, worker voice, and household consumption; the abstract does not disclose effect sizes or prove the full causal mechanism.
 
 **Latest U.S. industrial worker-risk rotation — 2026-10-18:** the [NBER firm
@@ -466,9 +468,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1990 machine-readable records and 5959
-observations. The trend registry holds 1990 records and
-5959 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1991 machine-readable records and 5960
+observations. The trend registry holds 1991 records and
+5960 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

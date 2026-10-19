@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-immigrants-minimum-wage-labor-market-effects-2026",
+  "title": "US minimum-wage increases reduce hours for recently arrived immigrant workers without reducing employment",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "work_control_bargaining", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "US immigrant and native workers, arrival status, employment, hours, turnover, and minimum-wage exposure",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Working paper issued April 2026; minimum-wage changes and US labor-market evidence",
+      "denominator": {"value": null, "unit": "US immigrant and native workers; exact sample count not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "immigrant_hours": {"value": null, "unit": "minimum-wage increases lead to reduced hours among immigrants", "value_type": "reported_direction"},
+        "immigrant_employment": {"value": null, "unit": "no employment effect is reported for immigrants", "value_type": "reported_null_effect"},
+        "recent_arrival_concentration": {"value": null, "unit": "effects are concentrated among recently arrived, likely undocumented workers", "value_type": "reported_subgroup"},
+        "high_turnover_concentration": {"value": null, "unit": "effects are concentrated in high-turnover industries", "value_type": "reported_subgroup"},
+        "native_response": {"value": null, "unit": "native workers show no such response, including native subgroups with similar characteristics to the most affected immigrants", "value_type": "reported_counterexample"},
+        "replacement_cost": {"value": null, "unit": "affected immigrant labor markets are described as low-surplus, low-investment relationships embedded in markets where replacement is unusually costly", "value_type": "reported_mechanism"}
+      },
+      "method": "The NBER abstract reports differential estimates for immigrant and native workers around minimum-wage increases, with subgroup analysis by arrival status, legal-status proxy, industry turnover, and worker characteristics.",
+      "uncertainty": "The NBER abstract does not disclose sample counts, effect sizes, exact policy variation, follow-up window, or the full identification strategy. The likely-undocumented classification is a proxy in the abstract, and the reported mechanism does not directly measure worker voice, employer replacement costs, household consumption, prices, or realized welfare.",
+      "subgroup": "Recently arrived, likely undocumented immigrants in high-turnover industries; native workers and similar native subgroups provide a boundary comparison.",
+      "counterinterpretation": "Hours can adjust through scheduling, selection, turnover, or shifts across employers and industries; no measured employment effect does not mean no income or security loss. Differences by arrival status may reflect legal status, bargaining position, sector sorting, language, tenure, or unobserved employer and place conditions rather than minimum-wage treatment alone.",
+      "source_url": "https://www.nber.org/papers/w35038",
+      "retrieval_hash": "sha256:6335297eb5cbd989cab382f3aaa81a25ad71fddf62fb2d7f81cd6d028d5fba7f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35628", "claim": "US SIPP evidence reports adverse employment, hours, and earnings effects for initially-employed low-wage workers in poor and low-income families, without a stronger adverse gradient for the poorest workers.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35749", "claim": "California fast-food wage-floor evidence studies establishment-level employment responses to a $20 wage floor.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w26101", "claim": "US evidence reports more positive minimum-wage employment effects in more concentrated labor markets, motivating a separate labor-market-power comparison.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a worker-subgroup and hours-adjustment signal to the US minimum-wage chain. It does not disclose effect sizes, prove the full causal mechanism, measure immigrant legal status directly, or establish effects on household income, consumption, prices, profits, automation, worker voice, or long-run mobility."
+}

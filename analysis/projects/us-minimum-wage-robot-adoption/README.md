@@ -28,3 +28,12 @@ and earnings effects, while the abstract reports no extra adverse gradient for
 the poorest workers. This does not settle the policy debate; it makes family
 income-to-needs position, worker selection, firm adjustment, and household
 resources explicit next measurements.
+
+The [NBER immigrant minimum-wage record](../../records/us-nber-immigrants-minimum-wage-labor-market-effects-2026.json)
+adds a worker-subgroup boundary: minimum-wage increases reduce hours without a
+reported employment effect for immigrants, with effects concentrated among
+recently arrived, likely undocumented workers in high-turnover industries;
+native workers show no comparable response. The abstract does not disclose
+effect sizes or the full design, so the next test is hours, income, scheduling,
+legal-status proxy, employer replacement cost, and household outcomes in the
+same episode.

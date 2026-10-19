@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1990 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1991 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6597,6 +6597,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Immigrant earnings assimilation and return migration are separate outcomes | work, cost, time, voice | housing_place_mobility, work_control_bargaining, unequal_exposure_status, trust_identity_meaning, political_judgment_action | NBER Working Paper 35582 using longitudinal administrative earnings records for immigrant workers and native-born comparison workers, 1981-2021 | United States; immigrant arrival cohorts 1981-2010 and native-born earnings comparison | 1 | 1981-2021 earnings histories; paper issued August 2026 | reported | [open](records/us-nber-immigrant-earnings-return-migration-2026.json) |
 
 **Boundary:** This record adds a migration-selection and earnings-convergence layer to the belonging and mobility themes. It does not establish a causal assimilation effect, the reasons for return, earnings parity in every subgroup, household security, legal inclusion, belonging, or political action. Stayers and return migrants must remain separate outcomes rather than being treated as one immigrant trajectory.
+
+| US minimum-wage increases reduce hours for recently arrived immigrant workers without reducing employment | work, cost, voice | household_room_consumption, work_control_bargaining, unequal_exposure_status, firm_sector_market_power, public_systems_feedback | US immigrant and native workers, arrival status, employment, hours, turnover, and minimum-wage exposure | United States | 1 | Working paper issued April 2026; minimum-wage changes and US labor-market evidence | reported | [open](records/us-nber-immigrants-minimum-wage-labor-market-effects-2026.json) |
+
+**Boundary:** This record adds a worker-subgroup and hours-adjustment signal to the US minimum-wage chain. It does not disclose effect sizes, prove the full causal mechanism, measure immigrant legal status directly, or establish effects on household income, consumption, prices, profits, automation, worker voice, or long-run mobility.
 
 | Historical immigration exposure altered local child mortality through disease-environment spillovers | cost, time, voice | care_health_reproduction, housing_place_mobility, unequal_exposure_status, public_systems_feedback, trust_identity_meaning | NBER Working Paper 35743 using Massachusetts town-level mortality and immigration panel data, 1860-1915 | Massachusetts towns during the U.S. Age of Mass Migration, 1860-1915; historical place-level evidence rather than a contemporary national estimate | 1 | 1860-1915 Massachusetts town panel; paper issued September 14, 2026 | estimated | [open](records/us-nber-immigration-child-mortality-disease-spillovers-2026.json) |
 
