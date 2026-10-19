@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-monopsony-labor-market-power-framework-2026",
+  "title": "US labor-market power cannot be read from wage markdowns alone",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "US labor-market-power literature, firm-specific residual labor-supply elasticity, search frictions, worker preferences, employer concentration, and wage-setting practices",
+  "geography": "United States and comparative labor-market evidence reviewed for US policy analysis",
+  "observations": [
+    {
+      "period": "Working paper issued August 2026; review of recent labor-market-power evidence",
+      "denominator": {"value": null, "unit": "review article and cited empirical literature; no single population denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "labor_power_definition": {"value": null, "unit": "firm-specific residual labor-supply elasticity is the organizing definition of labor-market power", "value_type": "reported_framework"},
+        "power_sources": {"value": null, "unit": "search frictions, preference heterogeneity, and employer concentration are distinct sources that can be nested in the framework", "value_type": "reported_framework"},
+        "markdown_elasticity_non_equivalence": {"value": null, "unit": "wage markdowns and labor-supply elasticities cannot be inferred from one another without accounting for wage-setting practices", "value_type": "reported_boundary"},
+        "policy_scope": {"value": null, "unit": "antitrust, labor regulation, immigration, and macroeconomic policy can interact with monopsony", "value_type": "reported_policy_scope"}
+      },
+      "method": "Review and synthesis of labor-market-power theory and empirical estimates, with a framework illustrating how monopsony interacts with efficiency wages and firm wage-setting.",
+      "uncertainty": "This is a review/framework paper, not a new population estimate or causal policy evaluation. It does not identify one US industry's power, establish a worker welfare effect, or provide a single preferred elasticity for all firms.",
+      "subgroup": "Workers and firms whose observed wages, outside options, search conditions, preferences, concentration exposure, and wage-setting practices differ.",
+      "counterinterpretation": "A low observed markdown may reflect high labor-supply elasticity or efficient wage-setting rather than weak firm power; a low elasticity may reflect worker preferences or search costs rather than employer concentration alone.",
+      "source_url": "https://www.nber.org/papers/w35608",
+      "retrieval_hash": "sha256:82d15525168e331b130fd8bdbfdc70e9ef638cf5e223ac4f4339945cf4986135",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35640", "claim": "Worker heterogeneity explains much of the modeled variation in labor-supply elasticities and wage markdowns.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35707", "claim": "US product-market rivalry and cost-of-capital shocks shape firm investment, markups, and concentration.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35433", "claim": "US overtime coverage changed earnings and employer classification responses without a detected employment decline.", "status": "related-evidence"}
+  ],
+  "boundary": "This record supplies a measurement framework for the US firm-power chain. It does not substitute for industry-level worker, firm, customer, or household outcome evidence and should not be used to rank firms by power without compatible elasticity, wage-setting, outside-option, and concentration measures."
+}

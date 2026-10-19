@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1987 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1988 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6661,6 +6661,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Monetary-policy expectation estimates vary with the design used to measure the announcement response | cost, voice | household_room_consumption, trust_identity_meaning, political_judgment_action, public_systems_feedback, unequal_exposure_status | US household respondent in a two-wave survey comparison around a Federal Reserve announcement | United States | 5 | September 2025 Federal Reserve rate-cut announcement; two-wave survey; September 2025 announcement; information-awareness comparison; September 2025 FOMC meeting; full-paper design and sample audit; September 2025 FOMC meeting; cross-design one-year expectation estimates; Pre-trial registration published September 3, 2025; planned study window September 10, 2025-September 30, 2026 | compared; estimated; observed; open; reported | [open](records/us-nber-monetary-policy-information-treatments-2026.json) |
 
 **Boundary:** This record promotes the author-hosted August 2026 full-paper estimates and design audit while preserving the working-paper, survey-expectation, reduced-form, exposure, and no-realized-action boundaries. It does not establish a structural monetary-policy shock, general-equilibrium effect, household spending/debt response, trust change, or political consequence.
+
+| US labor-market power cannot be read from wage markdowns alone | work, cost, voice | work_control_bargaining, firm_sector_market_power, unequal_exposure_status, public_systems_feedback | US labor-market-power literature, firm-specific residual labor-supply elasticity, search frictions, worker preferences, employer concentration, and wage-setting practices | United States and comparative labor-market evidence reviewed for US policy analysis | 1 | Working paper issued August 2026; review of recent labor-market-power evidence | reported | [open](records/us-nber-monopsony-labor-market-power-framework-2026.json) |
+
+**Boundary:** This record supplies a measurement framework for the US firm-power chain. It does not substitute for industry-level worker, firm, customer, or household outcome evidence and should not be used to rank firms by power without compatible elasticity, wage-setting, outside-option, and concentration measures.
 
 | Mortgage lock-in can turn higher rates into constrained staying and a more expensive housing ladder | cost, time, voice | housing_place_mobility, household_room_consumption, unequal_exposure_status, firm_sector_market_power, public_systems_feedback | NBER Working Paper 35237; individual-level mortgage data and spatial housing-ladder model | United States housing market, mortgage borrowers, and modeled spatial housing ladder | 3 | 2022–2024; U.S. existing-home market context; Study's individual-mortgage analysis; higher-rate period; Model counterfactual; temporary mortgage-rate hike | estimated; reported | [open](records/us-nber-mortgage-lockin-housing-mobility-2022-2024.json) |
 
