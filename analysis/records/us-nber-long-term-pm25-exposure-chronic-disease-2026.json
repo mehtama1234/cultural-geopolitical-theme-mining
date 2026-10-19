@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-long-term-pm25-exposure-chronic-disease-2026",
+  "title": "Long-term moderate PM2.5 exposure increases circulatory disease among US soldiers",
+  "theme_ids": ["energy", "cost", "work"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "unequal_exposure_status", "public_systems_feedback", "household_room_consumption", "work_control_bargaining"],
+  "source_unit": "US Army soldiers, annual PM2.5 exposure, duty-station assignment, circulatory disease, hypertension, respiratory disease, and duration of exposure",
+  "geography": "United States; Army duty stations",
+  "observations": [
+    {
+      "period": "Working paper issued October 2026; roughly 150,000 US Army soldiers followed across career duty stations",
+      "denominator": {"value": 150000, "unit": "approximately US Army soldiers in detailed personnel records", "value_type": "reported_approximate_count"},
+      "measures": {
+        "exposure_design": {"value": null, "unit": "high-resolution annual PM2.5 measures linked to personnel records; Army relocations provide quasi-random variation in initial duty-station assignments", "value_type": "reported_method"},
+        "circulatory_disease": {"value": null, "unit": "sustained PM2.5 exposure substantially increases circulatory disease", "value_type": "reported_direction"},
+        "hypertension": {"value": null, "unit": "hypertension is particularly affected by sustained PM2.5 exposure", "value_type": "reported_direction"},
+        "respiratory_conditions": {"value": null, "unit": "evidence on respiratory conditions is mixed and specification-sensitive", "value_type": "reported_mixed_effect"},
+        "short_duration": {"value": null, "unit": "shorter exposure durations have little detectable effect", "value_type": "reported_null_effect"},
+        "care_access": {"value": null, "unit": "uniform access to care helps separate physiological exposure effects from differential health-care access", "value_type": "reported_design_boundary"}
+      },
+      "method": "The paper links detailed Army personnel records to annual PM2.5 measures and instruments career-average exposure using quasi-random variation in initial duty-station assignments caused by Army relocation needs.",
+      "uncertainty": "The NBER abstract does not disclose effect sizes, confidence intervals, exact exposure thresholds, follow-up years, or all exclusion assumptions. Soldiers are healthier and more institutionally selected than the general population; the study does not measure household exposure, worker choice, local inequality, costs, or current civilian generalizability directly.",
+      "subgroup": "Young, initially healthy US Army soldiers, with disease-specific results for circulatory, hypertensive, and respiratory conditions.",
+      "counterinterpretation": "Duty-station assignment, occupational tasks, housing, behavior, deployment, and cumulative exposure may differ from the instrument’s assumptions; uniform care access improves internal comparison but does not erase selection or establish that every civilian population faces the same response.",
+      "source_url": "https://www.nber.org/papers/w35871",
+      "retrieval_hash": "sha256:fd01dcebd78fc6fa5c3c44fe6f6bb2ae2e222a99e0cba85628a1032fe9e35376",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34037", "claim": "Nursing-home inspections produce temporary responses while higher ratings predict relative mortality.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w34118", "claim": "Medicaid nursing-home financing can expand volume toward lower-quality facilities and reduce one-year survival in the studied setting.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35849", "claim": "California nursing homes manipulate size around a staffing threshold, limiting access particularly for disadvantaged patients.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a long-duration environmental-health layer to the US industrial/consumer program. It does not disclose effect sizes, establish universal civilian effects, measure household pollution, costs, worker choice, local political response, or a complete climate-health pathway in the same unit."
+}

@@ -1,5 +1,7 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. environmental-health rotation — 2026-10-19:** the [NBER long-term PM2.5 record](records/us-nber-long-term-pm25-exposure-chronic-disease-2026.json) links roughly 150,000 initially healthy soldiers to annual pollution and quasi-random duty-station assignment; sustained exposure increases circulatory disease, especially hypertension, while short exposure has little detectable effect. Next: connect cumulative exposure to household indoor air, work, place, health costs, and unequal exposure outside the Army population.
+
 **Latest U.S. resident-placement rotation — 2026-10-19:** the [NBER roommate peer-effects record](records/us-nber-nursing-home-roommate-peer-effects-mortality-2025.json) uses 2.6 million stays across 7,200 nursing homes and finds that assignment to a roommate with Alzheimer’s disease or related dementia raises 90-day mortality by 2.1 percentage points, while cognitively healthy roommates help patients with dementia. Next: test placement rules against mortality, privacy, resident preference, staffing, and quality of life; the proposed 0.8-point overall reduction is modeled, not implemented.
 
 **Latest U.S. public-payment rotation — 2026-10-19:** the [NBER Medicaid nursing-home record](records/us-nber-medicaid-nursing-home-volume-quality-moral-hazard-2025.json) reports that federal matching grants reward verifiable volume rather than quality; Indiana evidence finds a 12% rise in Medicaid dementia volume concentrated in the lowest-quality facilities, with lower one-year survival. Next: connect payment design to provider selection, staffing, resident voice, state accountability, and durable outcomes; do not generalize Indiana to every state without a comparable test.
@@ -480,9 +482,9 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 1997 machine-readable records and 5966
-observations. The trend registry holds 1997 records and
-5966 observations. The queue remains open; each completed rotation creates the next
+**Current registry checkpoint:** 1998 machine-readable records and 5967
+observations. The trend registry holds 1998 records and
+5967 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking

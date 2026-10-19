@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-1997 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+1998 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -6649,6 +6649,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Local electoral maps can be formally neutral while producing unequal racial representation | voice, time | political_judgment_action, unequal_exposure_status, public_systems_feedback, trust_identity_meaning, housing_place_mobility | NBER Working Paper 35623; nationwide voter-file, Census, local electoral-map, and simulated-map analysis | United States; 3,712 city council and county commission maps covering 18,521 districts | 1 | local-government maps studied through 2026; paper issued August 2026 | reported | [open](records/us-nber-local-redistricting-race-representation-2026.json) |
 
 **Boundary:** This record adds a local-democracy representation finding: geography, formal neutrality, enacted boundaries, legal oversight, and officeholder composition can diverge. It does not establish a single causal effect of maps on policy, welfare, trust, participation, or national political alignment.
+
+| Long-term moderate PM2.5 exposure increases circulatory disease among US soldiers | energy, cost, work | infrastructure_technology_dependency, unequal_exposure_status, public_systems_feedback, household_room_consumption, work_control_bargaining | US Army soldiers, annual PM2.5 exposure, duty-station assignment, circulatory disease, hypertension, respiratory disease, and duration of exposure | United States; Army duty stations | 1 | Working paper issued October 2026; roughly 150,000 US Army soldiers followed across career duty stations | reported | [open](records/us-nber-long-term-pm25-exposure-chronic-disease-2026.json) |
+
+**Boundary:** This record adds a long-duration environmental-health layer to the US industrial/consumer program. It does not disclose effect sizes, establish universal civilian effects, measure household pollution, costs, worker choice, local political response, or a complete climate-health pathway in the same unit.
 
 | A randomized purpose intervention changed worker performance, retention, priorities, and parental-leave behavior | work, time, voice | trust_identity_meaning, work_control_bargaining, time_hidden_price, household_room_consumption, firm_sector_market_power, political_judgment_action | 2,976 white-collar employees in a firm randomized to a worker-centered purpose intervention or comparison condition | United States; firm-based worker experiment | 1 | Two-year randomized rollout; NBER Working Paper 33843, May 2025 | reported | [open](records/us-nber-meaning-at-work-purpose-intervention-2025.json) |
 

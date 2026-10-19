@@ -15,3 +15,10 @@ Does weatherization reduce household cost and improve health and comfort, and do
 ## Decision rule
 
 Keep projected savings, actual savings, comfort, indoor air, health, work, and household cash separate.
+
+The [long-term PM2.5 exposure record](../../records/us-nber-long-term-pm25-exposure-chronic-disease-2026.json)
+adds an external-exposure counterpoint: among roughly 150,000 initially healthy
+US soldiers, sustained exposure increased circulatory disease, especially
+hypertension, while shorter exposure had little detectable effect. The next test
+is whether household indoor-air, workplace, place, and health-cost pathways show
+the same cumulative pattern outside the Army setting.
