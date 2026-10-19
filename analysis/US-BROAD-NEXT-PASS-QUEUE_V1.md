@@ -112,12 +112,15 @@ proof that data-center revenue funded a specific household benefit.
 work-control audit](projects/cross-domain/us-platform-worker-remedy-work-control-audit-v1.md)
 follows the Walmart Spark Driver case from complaint and court-entered $100
 million judgment through driver-relief allocation, payment processing, and a
-10-year earnings-verification program, then compares it with NBER evidence on
-competing-platform leverage. The finding is a money-to-control gap: monetary
-correction does not prove restored net earnings, schedule control, explanation,
-alternatives, trust, or practical exit. Next: seek payment-status distributions,
-driver notices, post-order verification, deactivation/human-review records, and
-matched alternative-platform outcomes. The Amazon Flex repeated-payment route
+10-year earnings-verification program, then adds the worker-facing app-credit /
+paper-check trace specified in the official FAQ and court order and compares it
+with NBER evidence on competing-platform leverage. The finding is a
+money-to-control gap: monetary correction and a designed payment trace do not
+prove restored net earnings, schedule control, explanation, alternatives,
+trust, or practical exit. Next: seek anonymized counts of app credits/checks,
+failed or disputed payments, driver notices, post-order verification,
+deactivation/human-review records, and matched alternative-platform outcomes.
+The Amazon Flex repeated-payment route
 is now an implementation comparator, not proof of the same harm or of restored
 worker control.
 

@@ -22,6 +22,7 @@ explanation, work control, alternatives, trust, and exit`.
 | Named case | [FTC Walmart Spark Driver record](../../records/us-ftc-walmart-spark-driver-remedy-2026.json): complaint/settlement February 26, 2026; court-entered order March 3, 2026; status rechecked September 18, 2026. | A named U.S. platform-work episode moved from allegation to court-entered resolution. | Official case materials do not provide an independent worker panel or complete eligible-driver denominator. |
 | Monetary judgment | The court-entered judgment was $100 million: $79 million directed to drivers, $10 million Walmart pays the FTC for intended driver distribution, and $11 million in civil penalties to 11 states. | Enforcement created a large, legally ordered remedy route. | Allocation is not the same as individual payment receipt, amount adequacy, or restored future income. |
 | Eligibility and timing | Nationwide relief covers drivers who accepted Spark delivery/shopping offers and did not receive promised base pay, tips, incentives, or promotions; Walmart reportedly began payments in mid-2025, before the settlement announcement. | The remedy has a defined claim scope and implementation history. | Not every driver qualifies; complete eligible population, individual payment amount/date, and unresolved count are not published. |
+| Worker-facing payment route | The [FTC Spark Driver FAQ](https://www.ftc.gov/news-events/news/press-releases/2026/02/walmart-agrees-100-million-judgment-settle-ftc-states-charges-over-deceptive-earnings-claims-related/walmart-spark-driver-faqs) says Walmart is identifying affected drivers and that prior payments should be accompanied by an email with payment dates; the [entered order's payment notice](https://www.ftc.gov/system/files/ftc_gov/pdf/WalmartSparkDriver-Order.pdf) specifies an in-app “Adjustment Credit” with a detailed breakdown under Earnings overview/Deposit summaries, or a paper check when no valid primary payment method was linked. | The remedy has a concrete worker-visible record and two payment channels that can, in principle, be followed from eligibility to amount/date. | The public record does not provide the number of app credits, checks, successful deposits, failed deliveries, disputed amounts, or worker-level post-payment outcomes; a designed trace is not a published receipt panel. |
 | Prospective control | The order includes a 10-year earnings-verification program. | The response addresses future earnings representations, not only past money. | A compliance duration is not evidence of worker understanding, platform behavior, enforcement quality, or changed bargaining power. |
 | Worker-remedy comparator | [FTC Amazon Flex refund page](https://www.ftc.gov/enforcement/refunds/refunds-amazon-flex-drivers) reports more than $60.6 million in returned tips, with an initial November 2021 payment, a second May 2025 payment, and a current Zelle route for eligible drivers who did not cash an earlier check. | A separate U.S. platform-worker case shows repeated payment administration and a later uncashed-payment route. | The page does not publish the full eligible denominator, cashed share, residual loss, post-remedy net earnings, continued work, or exit; Amazon Flex tips and Walmart Spark earnings claims are not the same harm. |
 | Worker outcome gap | The public record does not observe continued Spark work, alternative work, schedule control, deactivation, expenses, trust, switching, or exit after payment. | The case can be coded as reported monetary remedy with an open work-control endpoint. | Payment may correct a past shortfall after a worker has already left or incurred unrecovered time, fuel, vehicle, or opportunity costs. |
@@ -35,10 +36,12 @@ merely a policy aspiration: it has court authority, a large driver-relief
 allocation, reported payment activity, eligibility rules, state penalties, and a
 10-year prospective verification program.
 
-Yet the public endpoint remains monetary and administrative. We cannot tell how
-many Spark drivers were eligible, what each received, whether records were
-corrected, whether drivers continued working, whether pay became more
-predictable, or whether workers gained a usable alternative. The Amazon Flex
+Yet the public endpoint remains monetary and administrative, although the
+official FAQ and order expose a worker-facing payment trace through app credits,
+emails, deposit summaries, and fallback checks. We still cannot tell how many
+Spark drivers were eligible, what each received, whether records were corrected,
+whether drivers continued working, whether pay became more predictable, or
+whether workers gained a usable alternative. The Amazon Flex
 comparison shows that later payment rounds can address uncashed payments, but
 still does not close the work-control endpoint. The NBER result shows why the
 last link matters: competition can increase labor-supply elasticity and reduce
@@ -92,8 +95,9 @@ offer and earnings promise
   -> competing-platform access, continued work, switching, exit, or recurrence
 ```
 
-Seek the administrator’s payment-status distribution, driver notices, dispute
-and appeal records, post-order earnings-verification results, deactivation and
+Seek the administrator’s payment-status distribution, anonymized counts of app
+credits/checks and failed or disputed payments, driver notices, dispute and
+appeal records, post-order earnings-verification results, deactivation and
 human-review records, and matched alternative-platform comparisons. Use the
 Amazon Flex repeated-payment route as an implementation comparator, while
 preserving drivers who continue, switch, stop, or cannot switch as separate
