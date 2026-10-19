@@ -59,3 +59,11 @@ dementia volume concentrated in the lowest-quality facilities, with lower
 one-year survival. The next test is whether payment redesign improves provider
 selection, staffing, resident outcomes, and state accountability beyond the
 studied setting.
+
+The [roommate peer-effects record](../../records/us-nber-nursing-home-roommate-peer-effects-mortality-2025.json)
+adds the resident-placement layer: among 2.6 million stays, assignment to a
+roommate with Alzheimer’s disease or related dementia raised 90-day mortality by
+2.1 percentage points relative to a private room, while cognitively healthy
+roommates benefited patients with dementia. The next test is a real placement
+rule that balances mortality, privacy, resident preference, staffing, and quality
+of life rather than optimizing one subgroup alone.

@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-nursing-home-roommate-peer-effects-mortality-2025",
+  "title": "US nursing-home roommate assignment changes mortality through patient peer effects",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["unequal_exposure_status", "public_systems_feedback", "household_room_consumption", "firm_sector_market_power", "work_control_bargaining"],
+  "source_unit": "US nursing-home stays, roommate cognitive status, private-room placement, patient diagnosis, and 90-day mortality",
+  "geography": "United States; 7,200 nursing homes",
+  "observations": [
+    {
+      "period": "Working paper issued December 2025; administrative records covering 2000–2010",
+      "denominator": {"value": 2600000, "unit": "nursing-home stays across 7,200 US nursing homes", "value_type": "reported_count"},
+      "measures": {
+        "roommate_ad_90_day_mortality": {"value": 2.1, "unit": "percentage-point increase in 90-day mortality relative to private-room placement for patients assigned a roommate with Alzheimer’s disease or related dementia", "value_type": "reported_estimate"},
+        "relative_baseline_effect": {"value": 14, "unit": "percent of baseline mortality", "value_type": "reported_estimate"},
+        "quality_equivalence": {"value": 1, "unit": "standard deviation worse nursing-home quality equivalent in the reported mortality effect", "value_type": "reported_equivalence"},
+        "ad_adrd_peer_benefit": {"value": null, "unit": "patients with Alzheimer’s disease or related dementias benefit substantially from cognitively healthy roommates but not from private rooms", "value_type": "reported_heterogeneity"},
+        "non_ad_adrd_private_room": {"value": null, "unit": "mortality of patients without Alzheimer’s disease or related dementias is reduced in private rooms and does not depend on roommate cognitive health", "value_type": "reported_heterogeneity"},
+        "assignment_rule": {"value": 0.8, "unit": "percentage-point possible reduction in overall mortality from a simple assignment rule without additional resources", "value_type": "reported_simulation"}
+      },
+      "method": "Administrative records covering 2.6 million stays use unique room identifiers and plausibly exogenous roommate assignments to estimate patient peer effects and heterogeneous mortality responses.",
+      "uncertainty": "The abstract does not disclose all sample restrictions, confidence intervals, assignment assumptions, or implementation costs. The proposed 0.8 percentage-point reduction is a modeled assignment-rule estimate, not an implemented intervention; the study does not measure resident preferences, worker conditions, privacy, quality of life, or generalizability to current facilities.",
+      "subgroup": "Patients with and without Alzheimer’s disease or related dementias, assigned to roommates with different cognitive status or private rooms.",
+      "counterinterpretation": "Room assignment may still reflect unobserved clinical, staffing, family, or facility factors; mortality is not the whole resident experience, and a peer arrangement that benefits one subgroup can impose burden or privacy loss on another.",
+      "source_url": "https://www.nber.org/papers/w34538",
+      "retrieval_hash": "sha256:fc5e2b4e24771ee9682dad53acb32d6d09c922fe9f87e6eb0da5f66051149893",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34118", "claim": "Medicaid financing can expand dementia volume toward lower-quality facilities and reduce one-year survival in the studied Indiana setting.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w34037", "claim": "Inspection ratings predict relative nursing-home mortality while inspection responses are mostly temporary.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w33967", "claim": "Nursing-home mergers reduce deficiency citations and direct-care hours without meaningful resident-health improvement.", "status": "related-evidence"}
+  ],
+  "boundary": "This record adds a patient-peer and placement layer to the US nursing-home chain. It does not establish a universal roommate policy, disclose implementation costs, or measure privacy, resident preference, worker effects, quality of life, access, or current outcomes in the same unit."
+}
