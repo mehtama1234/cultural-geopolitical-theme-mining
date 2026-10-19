@@ -97,6 +97,28 @@ state, market, hospital, workforce, or provider decision. It does show how
 care capacity and household cost enter public judgment once they are experienced
 as local scarcity and national responsibility.
 
+### A billing protection can shift bargaining power without guaranteeing usable care
+
+The [GAO No Surprises Act record](../../records/us-gao-no-surprises-network-participation-2026.json)
+finds that in-network claim shares increased after implementation for three of
+four selected specialties, while emergency-medicine payment trends continued
+patterns that began before the Act. That is an implementation signal, not a
+patient bill or access result.
+
+The [NBER arbitration record](../../records/us-nber-no-surprises-arbitration-network-pricing-2026.json)
+adds the countervailing market-power route: arbitration was reported as
+provider-favorable, provider network participation declined in the specialties
+and states most exposed to the reform, and insurers more exposed to arbitration
+showed suggestive premium increases. The study does not establish patient-level
+network adequacy, appointment waits, realized out-of-pocket spending, or care
+continuity.
+
+Together these records sharpen the consumer test. A law can protect a patient
+from a surprise bill while changing the insurer-provider bargaining environment
+in ways that may affect networks and premiums. Formal liability protection,
+provider participation, patient access, and household affordability must remain
+separate observations rather than one protection-success rate.
+
 ## Cross-source finding
 
 Health-cost legitimacy is built through conversion, not eligibility alone:
@@ -121,7 +143,10 @@ These sources do not establish that a specific denial caused a clinical outcome,
 that a medical event caused nonemployment, that insurance type alone explains
 care delay, or that healthcare dissatisfaction changes votes. MEPS event screens,
 survey reports, focus groups, and political-attitude measures are complementary
-and should not be pooled into a single causal chain.
+and should not be pooled into a single causal chain. Nor do the No Surprises Act
+records establish that a patient-level cost benefit followed from the law:
+network and arbitration outcomes are market stages, not completed care or
+household recovery.
 
 ## Next test
 
@@ -141,11 +166,19 @@ that join exists, the atlas should describe healthcare affordability as a
 conversion and contestability problem—not as a simple coverage-rate or
 political-attitude story.
 
+For the No Surprises route, add patient liability, provider network status,
+appointment availability, premium, claim payment, appeal, completed treatment,
+and later household cost for the same plan and episode. Preserve both cases
+where the protection prevents a financial shock and cases where bargaining or
+network change shifts the burden elsewhere.
+
 ## Source records
 
 - [MEPS dated medical-event record](../../records/us-meps-dated-medical-event-household-work-2024.json)
 - [Commonwealth Fund coverage-denial record](../../records/us-commonwealth-coverage-denials-2026-care-delay-debt-trust.json)
 - [KFF women’s health affordability record](../../records/us-kff-womens-health-affordability-2026-cost-care-tradeoffs.json)
 - [KFF/AP rural-voters record](../../records/us-kff-ap-rural-voters-cost-healthcare-attribution-2026.json)
+- [GAO No Surprises network-participation record](../../records/us-gao-no-surprises-network-participation-2026.json)
+- [NBER No Surprises arbitration and network-pricing record](../../records/us-nber-no-surprises-arbitration-network-pricing-2026.json)
 - [Layered health-cost household-choice record](../../records/us-health-cost-household-choice-end-to-end-2024-2026.json)
 

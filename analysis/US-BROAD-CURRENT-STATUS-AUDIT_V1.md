@@ -77,6 +77,14 @@ finding is a control gap: speed and low-cost access can expand first-step agency
 while disclosure, verification, human fallback, care continuity, privacy, and
 remedy remain separate and mostly unobserved.
 
+The newest health-cost depth update is the [health cost as household political
+economy synthesis](projects/cross-domain/us-health-cost-care-delay-household-politics-2026-09-29.md).
+It now adds GAO and NBER No Surprises Act evidence: patient liability protection
+can coexist with provider-favorable arbitration, changed network participation,
+and possible premium effects. The finding is a protection-to-access gap: formal
+billing protection, provider bargaining, network availability, patient care, and
+household affordability remain separate stages.
+
 The newest material-to-meaning/action depth artifact is the [repeated-respondent
 material pressure, trust, and action rotation audit](projects/us-cost-trust-politics/material-pressure-meaning-action-rotation-audit-v1.md).
 It compares HTOPS, CCES, CES, ANES, and Pew longitudinal surfaces and shows

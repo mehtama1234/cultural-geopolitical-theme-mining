@@ -11,6 +11,15 @@ safe exit. Next: follow one private digital-health episode and one public
 coverage episode through disclosure, action, care continuity, correction, and
 later outcome.
 
+**Latest U.S. health-cost consumer rotation — 2026-10-18:** the [health cost as
+household political economy synthesis](projects/cross-domain/us-health-cost-care-delay-household-politics-2026-09-29.md)
+now adds GAO and NBER No Surprises Act evidence. The evidence supports a
+protection-to-access gap: a cap on patient surprise-bill liability can coexist
+with provider-favorable arbitration, narrower network participation, and
+possible premium pressure, without proving patient-level access, completed care,
+or household recovery. Next: follow one protected claim through network status,
+appointment, payment, appeal, treatment, and later household cost.
+
 **Latest U.S. defense-industrial rotation — 2026-10-18:** the [supplier
 resilience and replaceability audit](projects/cross-domain/us-defense-industrial-supplier-resilience-audit-v1.md)
 follows a bounded JASSM/LRASM chain from USAspending supplier concentration and
