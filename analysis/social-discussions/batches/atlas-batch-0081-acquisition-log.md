@@ -78,6 +78,10 @@ were also recorded as gaps. Reddit returned older or adjacent immigration and
 minimum-wage discussion, while the exact P-EBT and immigrant-paper searches did
 not surface attributable items.
 
+The AI corporate-executive productivity record is now also terminal: its exact
+LinkedIn result is retained and YouTube, Reddit, and X searches are documented
+as gaps.
+
 ## Reproducibility and limits
 
 This was public-web discovery, not a platform-native Creator/API export.

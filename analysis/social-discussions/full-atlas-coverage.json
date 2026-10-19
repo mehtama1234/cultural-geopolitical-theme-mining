@@ -64859,21 +64859,21 @@
       "canonical_theme": "firm-sector-market-power",
       "title": "US firms report early AI productivity gains alongside uneven adoption and job-mix reallocation",
       "geography": "United States; corporate executives surveyed through Federal Reserve executive/CFO survey research",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "firms report early productivity gains alongside uneven adoption job-mix reallocation nber working firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title YouTube search for NBER CFO and CEO AI productivity expectations returned no attributable result",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "firms report early productivity gains alongside uneven adoption job-mix reallocation nber working firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title Reddit search for NBER CFO and CEO AI productivity expectations returned no attributable result",
           "social_record_ids": []
         },
         "linkedin": {
@@ -64886,15 +64886,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "firms report early productivity gains alongside uneven adoption job-mix reallocation nber working firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title X search for NBER CFO and CEO AI productivity expectations returned no indexed attributable result",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-ai-economic-forecast-policy-preferences-2026",
