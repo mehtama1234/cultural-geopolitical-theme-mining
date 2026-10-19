@@ -45,10 +45,12 @@ in different directions.
 The newest AI-service depth artifact is the [AI customer service, context,
 human fallback, and remedy audit](projects/cross-domain/ai-customer-service-context-remedy-audit-v1.md).
 It joins an HBS/Management Science randomized field experiment with FTC refund
-administration, EU platform review, UK Ombudsman routing, public platform-worker
-remedy records, and bounded discussion. The finding is a context-to-remedy gap:
-faster or more pleasant replies do not by themselves prove restored money,
-access, income, recurrence prevention, or voluntary exit.
+administration, EU platform review, UK Ombudsman routing, CFPB Ombudsman
+redress-friction evidence, public platform-worker remedy records, and bounded
+discussion. The finding is a context-to-remedy gap: faster or more pleasant
+replies do not by themselves prove restored money, access, income, recurrence
+prevention, or voluntary exit; even formal U.S. redress can leave recipient-side
+reissue and administrator friction unobserved.
 
 The newest geoeconomic depth artifact is the [geoeconomic coercion, firm
 spillovers, household costs, and attribution audit](projects/cross-domain/geoeconomic-coercion-firm-household-attribution-audit-v1.md).

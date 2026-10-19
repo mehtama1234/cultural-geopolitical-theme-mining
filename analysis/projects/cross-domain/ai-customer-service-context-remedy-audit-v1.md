@@ -27,6 +27,7 @@ problem or complaint
 | AI can improve the interaction | In a randomized field experiment at one meal-delivery company, AI suggestions for 138 customer-service agents were associated with a 22% response-time reduction and a 0.45-point increase on a five-point automated sentiment measure. For less-experienced agents, the reported effects were a 70% response-time reduction and a 1.63-point sentiment increase. | Randomized variation in access to AI-generated response suggestions, December 2020–November 2021. | One firm and one tool; automated sentiment is not remedy quality, retention, household welfare, or resolved harm. |
 | Context and problem type change the effect | The HBS-linked study reports stronger usefulness for subscription-cancellation requests and weaker usefulness for repeat complaints where the underlying systemic issue exceeded the tool. After a prior chatbot comprehension failure followed by an AI-assisted human handoff, customer sentiment fell. | Conversation-intent and handoff comparisons within the field experiment. | The public record does not provide every subgroup denominator or long-run customer panel; negative sentiment does not prove failed resolution or later exit. |
 | A refund process can be large but still incomplete | FTC materials report more than $23.8 million distributed to 640,038 Grubhub-affected consumers under a court-entered order. The order also required honest driver-pay advertising, a way to contest blocked accounts, and restaurant consent for listing. Recipients were told to cash checks within 90 days or accept PayPal within 30 days. | Court order, official refund program, payment administration, and prospective-control requirements, checked September 18, 2026. | Aggregate payment is not individual receipt, amount, account correction, restored income, continued use, or exit; prospective controls may exist without consistent use or enforcement. |
+| A U.S. redress route can require recipient effort after a payment is issued | The CFPB Ombudsman reports 2,584 FY2025 inquiries, including 42% categorized as questions and 22% as complaints. Its redress topics include address changes, inclusion on a redress list, and reissuance help; one illustrative servicemember case involved an expired check, administrator difficulty, and Ombudsman facilitation. | Official CFPB Ombudsman FY2025 annual report; aggregate inquiry categories plus one anonymized case example. | The example does not identify check amount, final receipt, cashing, adequacy, or downstream recovery; inquiry volume is not a failure rate. |
 | Formal correction can be real without proving durable remedy | EU DSA out-of-court bodies reversed 52% of closed cases in the first half of 2025 for named platforms including Facebook, Instagram, and TikTok; the Commission describes restoration of content or accounts in reversed cases. | Commission aggregate of certified dispute-settlement bodies. | No full denominator, case mix, claimant characteristics, decision time, platform compliance, durable access, income, safety, or trust outcome is reported. |
 | Complaint volume is an ambiguous signal | The UK Financial Ombudsman received 214,600 new complaints in 2025/26 versus 305,700 in 2024/25, a 29.8% decline, and upheld 30.0% of resolved cases. Professional representatives fell from 50% to 18% of caseload while withdrawn/abandoned cases fell from 35% to 18%. | Administrative complaint totals and case outcomes for two financial years. | Fewer complaints can mean less harm, changed routing, lower referral capacity, or altered willingness to pursue a case; uphold is not compensation adequacy or population incidence. |
 | Public review records show incomplete downstream stages | A purposive platform-worker remedy ledger records restoration/access resumption in 9 cases, lost remuneration ordered or recognized in 3, lost remuneration open or later quantified in 5, and 0 cases with observed durable recurrence prevention or platform switching. | Manually coded public decisions and orders, 2024–2026; overlapping counts, no common denominator. | Public-record selection is not representative; an order is not receipt or compliance, and return to a platform may reflect dependence rather than free choice. |
@@ -55,6 +56,12 @@ payment or reversal routes at stages 3–4. The platform ledger shows how often
 later stages remain open in a purposive public sample. None of these sources
 forms one customer episode.
 
+The CFPB Ombudsman comparator adds a specifically U.S. process-friction stage:
+formal redress can exist while a recipient still has to update an address,
+resolve an administrator problem, or obtain a reissued check. That does not
+show that the redress system failed; it shows why “payment issued” and “money
+received” must remain separate fields in the episode ledger.
+
 ## Reflection and challenge checks
 
 ### Where else does the pattern appear?
@@ -65,6 +72,8 @@ forms one customer episode.
   showing that the user regained stable income, safety, or trust.
 - In refunds, a large aggregate distribution can coexist with unknown individual
   receipt and unresolved account access.
+- In U.S. redress administration, an issued or expired check can generate a new
+  recipient-side support episode before receipt is established.
 
 These comparisons fit because each has a service request, an institutional
 decision, and a possible correction route. They do not transfer as one success
@@ -85,6 +94,9 @@ The interpretation would weaken if a compatible longitudinal study showed that
 AI-assisted service not only improves speed and sentiment but also reduces
 repeat contact, restores money or access, prevents recurrence, and improves
 retention or voluntary exit outcomes for affected customers and workers.
+It would also weaken as a process-friction claim if payment-status data showed
+that reissue, address-update, and administrator problems were rare, promptly
+resolved, and followed by verified receipt without unequal burden.
 
 ## Bounded public discussion
 
@@ -136,6 +148,7 @@ outcome, plus a credible counterexample.
 
 - [HBS/Management Science AI customer-service experiment](../../records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json)
 - [FTC Grubhub remedy record](../../records/us-ftc-grubhub-multisided-remedy-2026.json)
+- [CFPB Ombudsman redress-friction record](../../records/us-cfpb-ombudsman-redress-process-friction-2025.json)
 - [EU DSA out-of-court remedy record](../../records/comparative-eu-dsa-out-of-court-remedy-platform-governance-2026.json)
 - [UK Financial Ombudsman complaint-routing record](../../records/comparative-uk-financial-ombudsman-2025-26-complaints-routing-uphold-recourse.json)
 - [Platform-worker remedy ledger](../../records/us-platform-remedy-restoration-dependence-2024-2026.json)

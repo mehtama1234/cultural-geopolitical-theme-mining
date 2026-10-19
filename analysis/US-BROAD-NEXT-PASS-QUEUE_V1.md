@@ -158,13 +158,14 @@ purpose, terms, repayment, hardship or remedy, later score/access, and exit.
 **Latest AI-service/remedy rotation — 2026-10-18:** the [AI customer service,
 context, human fallback, and remedy audit](projects/cross-domain/ai-customer-service-context-remedy-audit-v1.md)
 joins an HBS/Management Science randomized field experiment with FTC refund
-administration, EU DSA review, UK Ombudsman complaint routing, public
-platform-worker cases, and bounded Reddit/LinkedIn discussion. AI improved
-response speed and automated sentiment in one firm, but systemic complaints,
-failed handoffs, receipt, recurrence prevention, and voluntary exit remain
-unobserved or incomplete. Next: follow one service episode from problem and
-context through AI/human route, decision, actual restoration, repeat effort,
-recurrence, and later trust, switching, or exit.
+administration, EU DSA review, UK Ombudsman complaint routing, CFPB Ombudsman
+redress-friction evidence, public platform-worker cases, and bounded
+Reddit/LinkedIn discussion. AI improved response speed and automated sentiment
+in one firm, but systemic complaints, failed handoffs, recipient-side reissue
+friction, receipt, recurrence prevention, and voluntary exit remain unobserved
+or incomplete. Next: follow one service episode from problem and context through
+AI/human route, decision, actual restoration, repeat effort, recurrence, and
+later trust, switching, or exit.
 
 **Latest geoeconomic-coercion rotation — 2026-10-18:** the [geoeconomic
 coercion, firm spillovers, household costs, and attribution audit](projects/cross-domain/geoeconomic-coercion-firm-household-attribution-audit-v1.md)
