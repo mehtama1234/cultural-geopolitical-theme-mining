@@ -25,7 +25,7 @@ AI access or organizational adoption
 | Source and unit | Observed implementation or output | Worker-control/security surface | What it establishes | Main limit |
 |---|---|---|---|---|
 | [NBER task-level adoption](../../records/us-nber-task-level-genai-adoption-2026.json), 13,920 workers and 55,634 worker-task observations, 2025–26 | Fewer than half adopt within most detailed occupations/tasks; exposure scores explain 5%–53% of occupation and 7%–44% of task adoption variation | Worker-level pay, discretion, voice, and security are not measured; the public task index reports reasoning/decision use at 30% and physical/manual work at 9.6% | Similar exposure does not imply similar adoption; workplace access, task fit, training, rules, privacy, and choice remain plausible conversion mechanisms | Descriptive working-paper evidence; exposure and adoption do not identify the mechanism or outcome |
-| [NBER coding activity and shipped output](../../records/us-nber-ai-coding-productivity-shipping-output-2026.json), at least 500,000 GitHub developers plus four software marketplaces | Commits rose 30% with autocomplete, 180% with interactive agents, and 240% with autonomous agents; autonomous-agent projects rose 80% and releases 30%; marketplace total usage did not increase | Human–AI substitution elasticity estimated at 0.23; worker pay, authority, workload, and release quality are not followed | Activity attenuates as the chain moves from coding activity to projects, releases, and market use | Developer and marketplace measures are not one employment panel; association with tools does not identify who captures gains or bears risk |
+| [Census/NBER firm–function–task diffusion](../../records/us-census-ai-diffusion-firm-function-task-btos-2026.json), nationally representative 2026 BTOS AI supplement, November 2025–January 2026 | 18% of firms used AI in at least one function, 32% employment-weighted; 23% reported worker task use, 41% employment-weighted; 66% of users reported augmentation only, and 2% of firms reported AI-related employment decreases | Functional deployment and operational investment were associated with employment decreases, while worker-task use was not significantly linked to headcount reduction after controls | Firm adoption, business-function deployment, and worker task use are separate industrial stages; this is a direct U.S. counterexample to treating adoption or task use as realized displacement | Firm-reported early diffusion and regression associations are not person-level causal evidence; training, monitoring, pay, job quality, and household security remain unobserved |
 | [NBER firm expectations](../../records/us-nber-firm-ai-expectations-2026.json), nearly 6,000 senior executives in US, UK, Germany, and Australia | 69% reported active AI use; 90% reported no employment or productivity impact over the prior three years; expected next-three-year productivity was +1.4% and output +0.8% | Employers expected employment -0.7% while employees expected +0.5% at their firms | Adoption, retrospective impact, and forward expectations are separate clocks and perspectives | Executive expectations are not realized worker outcomes, and the multinational sample is not a US administrative panel |
 | [ILO Chinese enterprise study](../../records/comparative-ilo-chinese-enterprise-ai-adoption-hybrid-work-measurement-2026.json), 21 interviewed firms and 1,591 professionals | All 21 firms reported deployment or imminent adoption; reported examples include customer-service throughput from 6,000 to 15,000 issues/day for 300 employees and a specification-reading team falling from more than 10 workers to 2–3 | Firms lacked systematic measures of job quality, task composition, working conditions, redeployment, and who captures released time; 39% of professionals anticipated income declines and human review remained important | Organizational location and governance determine whether AI becomes assistance, process control, or labor-input reduction | Purposive interviews, self-reported firm metrics, and descriptive professional survey; no causal employment, wage, or household result |
 | [ILO AI psychosocial-work review](../../records/comparative-ilo-ai-systems-work-psychosocial-autonomy-2026.json), evidence/policy synthesis | Identifies surveillance, work intensification, data collection, and algorithmic evaluation as possible AI-associated risks | Autonomy, dignity, transparency, participation, human oversight, and correction are treated as work conditions | Worker control is not just an employment count; design and governance can change psychosocial conditions | Review, not prevalence or workplace causal evaluation; no common probability, severity score, or compliance outcome |
@@ -42,6 +42,15 @@ The evidence supports a **conversion gap**, with three distinct bottlenecks.
 First, activity is not output. The coding study finds large increases in
 commits and projects but smaller release growth and no marketplace-use growth.
 This is a counterexample to treating tool activity as realized economic value.
+
+The Census/NBER diffusion study adds a second industrial counterexample. Firm
+adoption, functional deployment, and worker task use do not move as one thing:
+worker task use was reported by 23% of firms while 66% of users described AI as
+augmentation only, and AI-related employment decreases were reported by 2% of
+firms. The association with employment decreases was tied to functional
+deployment and operational investment, not worker-task use after controls. This
+does not prove that AI is safe; it shows why the unit and layer of adoption
+matter before interpreting a workforce result.
 
 Second, output is not control. Firm examples can show faster service or fewer
 labor inputs while lacking measures of job quality, redeployment, workload,
@@ -191,6 +200,7 @@ remains active.
 ## Sources
 
 - [NBER task-level adoption](../../records/us-nber-task-level-genai-adoption-2026.json)
+- [Census/NBER firm–function–task diffusion](../../records/us-census-ai-diffusion-firm-function-task-btos-2026.json)
 - [NBER coding productivity and shipped output](../../records/us-nber-ai-coding-productivity-shipping-output-2026.json)
 - [NBER firm AI expectations](../../records/us-nber-firm-ai-expectations-2026.json)
 - [ILO Chinese enterprise AI adoption](../../records/comparative-ilo-chinese-enterprise-ai-adoption-hybrid-work-measurement-2026.json)

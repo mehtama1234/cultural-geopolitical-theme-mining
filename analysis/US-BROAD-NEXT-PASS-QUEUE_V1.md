@@ -3,7 +3,8 @@
 **Latest U.S. industrial/consumer AI-work rotation — 2026-10-18:** the [AI
 implementation, worker-control, and security audit](projects/us-worker-control-remedy/ai-implementation-worker-control-security-audit-v1.md)
 now explicitly bounds the next cycle to U.S. evidence. Census HTOPS time-saved
-and time-cost reports, NBER exposure/adaptive-capacity and outside-option
+and time-cost reports, the Census/NBER firm–function–task diffusion study,
+NBER exposure/adaptive-capacity and outside-option
 experiments, Gallup manager-support/displacement associations, and U.S.
 firm-size training capacity are kept as separate stages. The finding remains a
 conversion gap: AI activity or time savings do not prove worker-controlled

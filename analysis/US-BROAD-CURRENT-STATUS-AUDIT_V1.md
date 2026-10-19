@@ -117,9 +117,9 @@ separate firm-power and recovery stages.
 
 The newest workplace-control depth artifact is the [AI implementation,
 worker-control, and security audit](projects/us-worker-control-remedy/ai-implementation-worker-control-security-audit-v1.md).
-It separates task activity, shipped output, firm expectations, worker
-adaptation, training returns, organizational design, autonomy, outside options,
-and early employment counterevidence. Its U.S.-bounded continuation adds Census
+It separates task activity, shipped output, firm expectations, firm/function/task
+diffusion, worker adaptation, training returns, organizational design, autonomy,
+outside options, and early employment counterevidence. Its U.S.-bounded continuation adds Census
 time-saved/time-cost signals, NBER exposure versus adaptive-capacity estimates,
 Gallup manager support and displacement associations, U.S. firm-size training
 capacity, NBER outside-option leverage, a CPS comparison finding no
