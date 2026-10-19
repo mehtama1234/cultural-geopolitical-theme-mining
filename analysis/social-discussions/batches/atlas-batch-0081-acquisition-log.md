@@ -21,7 +21,7 @@ records:
 - `us-nber-nursing-home-roommate-peer-effects-mortality-2025` → `atlas-batch-0081-nursing-roommate-linkedin-001`
 - `us-nber-nursing-home-related-party-tunneling-2024` → `atlas-batch-0081-nursing-tunneling-linkedin-001`
 - `us-nber-pg-ai-teamwork-expertise-social-engagement-2025` → `atlas-batch-0081-pg-ai-teamwork-linkedin-001`
-- `us-nber-pro-worker-ai-technology-policy-framework-2026` → `atlas-pro-worker-ai-linkedin-001` (existing normalized record registered to this batch)
+- `us-nber-minimum-wage-poor-low-income-families-2026` → `atlas-batch-0081-minimum-wage-poor-families-linkedin-001`
 
 The thirteen signals sharpen an industrial/consumer USA chain: adoption and
 expected productivity are not realized transformation; organization capital
