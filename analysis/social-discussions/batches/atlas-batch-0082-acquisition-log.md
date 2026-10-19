@@ -49,15 +49,35 @@ discusses the paper with co-author Charles Ayoubi and frames AI as a possible
 collaborative teammate. Both records preserve the boundary between a bounded
 innovation task and claims about durable team replacement or employment.
 
+- `us-nber-pro-worker-ai-technology-policy-framework-2026` →
+  `atlas-batch-0082-pro-worker-ai-reddit-001` and
+  `atlas-batch-0082-pro-worker-ai-youtube-001`, in addition to the existing
+  LinkedIn record; X is a documented access gap.
+
+The pro-worker AI discussion adds a direct counterpoint to the framework: a
+Reddit debate questions whether worker-complementing AI can persist or will
+eventually become automation, while a YouTube interview with Daron Acemoglu
+and David Autor brings the framework into a public policy discussion. These
+are discussion signals, not evidence that any of the nine policy directions
+has been implemented or produced worker gains.
+
+- `us-nber-tariff-quantity-discounts-scale-economies-2026` → documented access
+  gaps on LinkedIn, Reddit, YouTube, and X.
+
+General tariff incidence debates and adjacent scale-economy commentary were
+not promoted because they did not identify NBER W34901 or its specific
+shipment-scale and 60 percent scale-adjusted pass-through findings.
+
 ## Current batch state
 
 The tariff-pass-through and social-capital rows are terminal with exact
 LinkedIn signals and documented Reddit, YouTube, and X gaps. The payment row
 is terminal with four documented access gaps. The P&G row is augmented across
 LinkedIn, Reddit, and YouTube, with an X access gap. The pro-worker AI row is
-augmented across LinkedIn, Reddit, and YouTube, with an X access gap. Six
-other batch rows remain in review; no completion claim is made for the broader
-atlas program.
+augmented across LinkedIn, Reddit, and YouTube, with an X access gap. The
+tariff quantity-discount row is terminal with four documented access gaps.
+Five other batch rows remain in review; no completion claim is made for the
+broader atlas program.
 
 ## Reproducibility and limits
 
