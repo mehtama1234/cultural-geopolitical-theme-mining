@@ -92,6 +92,10 @@ The creative-destruction worker-earnings record has no exact YouTube, Reddit,
 or X match; older or broader creative-destruction discussions were retained
 only as search context and not linked to the paper.
 
+The credit-card market-power record has likewise reached terminal platform
+outcomes: its exact LinkedIn result is retained, while YouTube and X produced
+no indexed match and Reddit produced only older or non-US discussions.
+
 ## Reproducibility and limits
 
 This was public-web discovery, not a platform-native Creator/API export.
