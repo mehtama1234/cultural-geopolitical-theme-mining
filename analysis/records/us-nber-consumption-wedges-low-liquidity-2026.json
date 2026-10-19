@@ -20,9 +20,18 @@
     "subgroup": "Middle-income U.S. consumers with low liquid wealth; cash, credit, income timing, present bias, adjustment costs, household structure, and access to family support can differ within the study population.",
     "counterinterpretation": "Under-consumption may reflect a cheaper choice or a deliberate adjustment, while over-consumption may reflect a needed repair, unavoidable price, or defensive purchase rather than excess demand. The model diagnosis narrows plausible mechanisms but does not identify the reason for a particular household transaction.",
     "source_url": "https://www.nber.org/papers/w34891",
-    "retrieval_hash": "sha256:7b02b5c02f05cd4533be367257a5b84f18d263f5ea765142053477170cdc742f",
+    "retrieval_hash": "sha256:f69931543ca83012b55e94471093a1eaa7f40b322a7078f05c5238b8bb8af911",
     "status": "reported"
   }],
-  "related_sources": [{"source_url": "https://doi.org/10.3386/w34891", "claim": "NBER DOI record for Working Paper 34891", "status": "official-paper-identifier"}],
-  "boundary": "This record adds a low-liquidity measurement and mechanism finding: similar spending totals can conceal opposite deviations from a modeled benchmark. It does not identify each purchase's need, sacrifice, welfare effect, or later health, work, housing, debt, or political consequence."
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34891", "claim": "Official NBER landing page with the 40 percent median absolute wedge, 49/51 percent negative-positive split, transaction/expectations design, and model diagnosis.", "status": "primary-source"},
+    {"source_url": "https://doi.org/10.3386/w34891", "claim": "NBER DOI record for Working Paper 34891.", "status": "official-paper-identifier"},
+    {"source_url": "../../projects/us-low-liquidity-consumption-constraints/README.md", "claim": "Project control note separating cash, spending, expectations, borrowing limits, present focus, and adjustment costs.", "status": "design-specification"}
+  ],
+  "boundary": "This record adds a low-liquidity measurement and mechanism finding: similar spending totals can conceal opposite deviations from a modeled benchmark. It does not identify each purchase's need, sacrifice, welfare effect, or later health, work, housing, debt, or political consequence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W34891 page reviewed for the transaction-and-expectations design, middle-income low-liquidity population, 40 percent median absolute wedge, 49/51 percent split, and model-diagnosis result.",
+    "source_url_sha256": "sha256:f69931543ca83012b55e94471093a1eaa7f40b322a7078f05c5238b8bb8af911",
+    "checked": "2026-10-19"
+  }
 }

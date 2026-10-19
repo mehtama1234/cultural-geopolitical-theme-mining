@@ -1,5 +1,7 @@
 # US broad program current-status audit v1
 
+The latest consumer-data quality repair rechecked the [NBER consumption-wedges record](records/us-nber-consumption-wedges-low-liquidity-2026.json), replaced its stale retrieval hash, and added the official and project-control links. The record continues to separate observed spending, a modeled frictionless benchmark, liquidity, expectations, and welfare.
+
 The latest U.S. household-consumer addition is the [NBER gender-specific shocks record](records/us-nber-gender-shocks-household-bargaining-consumption-2026.json). It links industrial robots and fracking to different relative labor shocks and household product composition, while preserving a null result for total child-product spending and a weaker fracking estimate. Bargaining power, decision rights, unpaid work, and child wellbeing remain open.
 
 The latest U.S. consumer-price addition is the [NBER tariff pass-through record](records/us-nber-tariff-pass-through-consumer-prices-2026.json). It reports about 26% pass-through of the 2025–26 tariff increase, with direct import-price effects and delayed imported-input/markup effects. This keeps aggregate pass-through, household incidence, substitution, firm margin, inventory, and remedy separate.
