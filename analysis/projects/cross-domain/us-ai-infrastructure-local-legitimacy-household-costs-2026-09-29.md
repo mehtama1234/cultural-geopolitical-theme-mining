@@ -57,6 +57,33 @@ cycles, classification, and the tax-rate change are mixed together. Revenue
 does not establish service-cost recovery, household bills, jobs or wages,
 water and environmental burden, or whether residents accepted the trade-off.
 
+## Revenue-to-public-use bridge
+
+The county budget supplies a first public-use layer. The adopted FY2025 budget
+created a **$1 million Data Center Revenue Stabilization Reserve** and set a
+five-year plan contribution of **$5 million**. The county says the reserve is
+intended to protect against a downturn in data-center-derived tax revenue, and
+that using the reserve requires future Board of County Supervisors action.
+
+The same budget context reports a nearly $1 billion school transfer and the
+FY2026 budget later reports a **$991.6 million** transfer to Prince William
+County Public Schools, alongside public-safety, mental-health, affordable-
+housing, parks, and infrastructure commitments. These are countywide budget
+allocations, not a data-center-revenue spending ledger. They show fiscal
+capacity and risk management, but not which data-center dollars funded which
+service, whether costs were fully recovered, or whether a particular household
+experienced a benefit.
+
+The chain is therefore stronger but still conditional:
+
+```text
+data-center capacity and tax revenue
+  -> reserve and county budget allocation
+  -> named service, project, or rate relief
+  -> household/host-place receipt and cost
+  -> participation, acceptance, or contestation
+```
+
 The operational event and the rate rules should not be merged into a claim that
 data centers caused household harm. They establish a stronger middle chain:
 
@@ -131,4 +158,6 @@ cost allocation and remedy → realized household benefit → durable legitimacy
 - [Virginia large-load governance and allocation record](../../records/us-virginia-data-center-large-load-governance-2024-2027.json)
 - [Prince William County data-center fiscal revenue through TY2024](../../records/us-prince-william-data-center-fiscal-revenue-2012-2024.json)
 - [Prince William County TY2025 data-center fiscal extension](../../records/us-prince-william-data-center-fiscal-revenue-2025-extension.json)
+- [Prince William County FY2025 adopted budget](https://www.pwcva.gov/assets/2024-07/FY2025_Budget.pdf)
+- [Prince William County FY2026 budget highlights](https://www.pwcva.gov/news/board-county-supervisors-adopts-fiscal-year-2026-budget)
 - [PJM large-load reliability discussion](../../social-discussions/records/social-pjm-large-load-event-linkedin-001.json)
