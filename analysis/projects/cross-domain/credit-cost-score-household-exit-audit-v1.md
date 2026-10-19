@@ -31,6 +31,7 @@ need or purchase
 | Household buffers are uneven | In the 2025 Federal Reserve SHED, 63% of adults said they could cover a hypothetical $400 emergency with cash or equivalent, 12% could not pay it, and 15% would use a card and carry the balance. Among linked SHED/credit-report respondents, average card balances rose $748 (11%) from 2023 to 2025; the increase was $2,530 (37%) for people who said it was difficult to get by and $59 (1%) for those living comfortably. | National survey; linked descriptive credit-record comparison for consenting respondents. | Emergency responses are hypothetical; linked respondents are not the full population. Balance growth does not reveal rates, spending, income shocks, repayment, or causality. |
 | Repayment pressure is distributed | Among student-loan borrowers required to pay in the 2025 SHED, 73% paid the full required amount and 41% reported recent payment difficulty. Full-payment shares were 42% for required payers below $25,000 family income and 92% for those at $100,000 or more. | Conditional self-reported borrower groups. | Payment difficulty is not observed delinquency; nonpayment can reflect deferment, enrollment, forbearance, or income-driven rules. |
 | Market cost and dispute exposure are large | CFPB reports more than $1.2 trillion in card balances, an approximate 25.2% average APR, $160 billion in interest assessed, and $31.3 billion in fees assessed in 2024. It records $9.8 billion in disputed charges, with 40% involving cancelled recurring transactions. | CFPB market report combining de-identified credit records, issuer data, and dispute measures. | Market totals and averages have different universes. Interest or fees assessed are not necessarily paid; disputes are not verified harm or successful refunds. |
+| Remedy can improve credit access without restoring broad household security | Two randomized U.S. medical-debt relief experiments covered 83,401 people and $169 million in face-value debt. A credit-reporting subexperiment increased credit scores by 3.4 points and average credit limits by $340, while the hospital-debt follow-up found a 1.1-point increase in another unpaid bill sent to collections and no average effect on health-care use, mental health, physical health, or financial wellness. | Randomized debt-relief experiments with credit reports, collections, and survey follow-up, 2018–2020. | The portfolios and study arms are selected; credit access is not realized borrowing, housing, employment, insurance, or household recovery. Average nulls do not rule out heterogeneous effects. |
 | Expectations can outrun income while credit access worsens | New York Fed August 2026 SCE respondents expected median one-year spending growth of 5.2% versus income growth of 3.0%; mean perceived probability of missing a minimum debt payment in the next three months was 13.2%, while perceived credit access deteriorated. | Rotating panel of approximately 1,300 U.S. household heads. | Expectations are not realized spending, income, or delinquency; spending growth may be prices or necessities rather than volume. |
 
 ## What we found
@@ -54,6 +55,14 @@ score study shows stage 2 can feed back into future default. The Fed and CFPB
 records show the scale and unequal buffers around stage 3. None follows the same
 borrower from information to loan terms, repayment, default, recovery, and exit.
 
+The medical-debt experiments provide a useful counterexample to a simple
+“credit repair equals welfare repair” story. Randomized relief changed credit
+scores and limits, yet the follow-up did not produce average health, care-use,
+or broad financial-wellness improvement. That does not make the credit effect
+meaningless; it shows that a measurable access improvement can stop before
+household recovery, and that a later collections outcome may move in an
+unfavorable direction without proving moral hazard or intentional nonpayment.
+
 ## Curiosity checks
 
 ### Where did the pattern fail?
@@ -67,6 +76,9 @@ borrower from information to loan terms, repayment, default, recovery, and exit.
   precautionary liquidity management.
 - Forgoing a large purchase can protect a household from over-borrowing, even
   when the same measure looks like constrained consumption.
+- Debt relief can improve a score or limit while leaving average health and
+  financial-wellness outcomes unchanged; credit repair and household repair are
+  separate endpoints.
 
 ### What else could explain the differences?
 
@@ -86,6 +98,9 @@ repayment, income and assets, payment history, score changes, hardship actions,
 disputes, and later borrowing would tell us whether information creates safer
 choice or only cheaper entry into the same risk. The current sources do not
 provide that full chain.
+The strongest design would also retain randomized or quasi-random remedy timing,
+so improved score/access can be separated from actual repayment, care, housing,
+and financial-room outcomes.
 
 ## Bounded public discussion
 
@@ -141,6 +156,7 @@ counterexample.
 - [NBER self-fulfilling credit-score record](../../records/us-nber-self-fulfilling-credit-scores-default-2026.json)
 - [Federal Reserve financial-buffer and linked-credit record](../../records/us-federal-reserve-financial-buffer-credit-exposure-2025.json)
 - [CFPB credit-card market report](../../records/us-cfpb-credit-card-market-2025.json)
+- [NBER randomized medical-debt relief record](../../records/us-medical-debt-relief-rct-outcome-separation-2018-2020.json)
 - [New York Fed household-debt record](../../records/us-new-york-fed-household-debt-credit-2026q2.json)
 - [New York Fed consumer-expectations record](../../records/us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk.json)
 - [LinkedIn credit-score discussion](../../social-discussions/records/social-self-fulfilling-credit-linkedin-001.json)

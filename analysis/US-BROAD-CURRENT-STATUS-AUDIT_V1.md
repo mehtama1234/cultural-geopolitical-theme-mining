@@ -39,11 +39,12 @@ capacity.
 The newest credit-and-household-room depth artifact is the [credit cost, score
 feedback, household room, and exit audit](projects/cross-domain/credit-cost-score-household-exit-audit-v1.md).
 It joins Philadelphia Fed borrowing-cost evidence, NBER randomized credit
-information and score-feedback studies, linked Federal Reserve credit records,
-CFPB market data, New York Fed expectations, and bounded finance discussion.
-The finding is a conversion gap: information can lower a loan price while
-credit access, repayment strain, score feedback, and safe household room move
-in different directions.
+information and score-feedback studies, randomized U.S. medical-debt relief,
+linked Federal Reserve credit records, CFPB market data, New York Fed
+expectations, and bounded finance discussion. The finding is a conversion gap:
+information or debt relief can improve price, score, or limit while credit
+access, repayment strain, health, and safe household room move in different
+directions.
 
 The newest AI-service depth artifact is the [AI customer service, context,
 human fallback, and remedy audit](projects/cross-domain/ai-customer-service-context-remedy-audit-v1.md).
