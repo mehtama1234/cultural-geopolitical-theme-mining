@@ -23,6 +23,15 @@ refinement, not a replacement for the first study: the spending, purchase,
 calorie, sugar, price, and stigma measures use different units and do not yet
 show total household consumption, health, or food security.
 
+As a design counterexample, NBER Working Paper 35835 finds that P-EBT
+disbursement was associated with a **16% increase in weekly sugary-item
+spending** among SNAP-eligible households with school-aged children. The study
+uses state-level payment timing and NielsenIQ Consumer Panel data, with no
+change in placebo years or among households unlikely to receive P-EBT. This
+does not mean P-EBT caused worse health; it shows that adding food purchasing
+capacity and restricting eligible products can move the same consumer measure
+in opposite directions.
+
 The route is:
 
 ```text
@@ -85,6 +94,9 @@ boundary more socially visible.
 - The 12.4% excluded-drink estimate and the roughly 11% restricted-spending
   estimate come from related but distinct summaries and should not be averaged
   into one effect.
+- The 16% P-EBT sugary-item result is a different program, period, household
+  group, and identification design. It is a mechanism counterexample, not a
+  direct estimate of the 2026 restriction's effect or of health harm.
 - The national $1.1 billion figure is modeled, not observed, and does not
   fully price stigma or every substitution route.
 - The study does not establish whether stigma persists, changes participation,
@@ -105,6 +117,7 @@ health improvement.
 
 - [NBER Working Paper 35659](https://www.nber.org/papers/w35659)
 - [NBER Working Paper 35739](https://www.nber.org/papers/w35739)
+- [NBER Working Paper 35835](https://www.nber.org/papers/w35835)
 - [University of Chicago research brief](https://bfi.uchicago.edu/insights/the-effects-of-snap-sugary-drink-restrictions-on-consumption-and-welfare/)
 - [NBER Healthy Diné Nation Act study](https://www.nber.org/papers/w35662)
 - [Bounded SNAP measurement discussion](../../../social-discussions/records/social-snap-current-context-linkedin-001.json)

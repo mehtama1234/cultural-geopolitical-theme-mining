@@ -6328,10 +6328,11 @@ consumption-and-meaning finding](projects/us-safety-net-access/findings/us-safet
 now joins the first-wave 12.4% excluded-drink purchase reduction and 0.10–0.17
 standard-deviation stigma increase with NBER Working Paper 35739's roughly 11%
 drop in restricted SNAP spending, lower purchased calories and sugar, and little
-shelf-price movement. It also retains the paired Navajo evidence: a 7–8% healthy/
+shelf-price movement, plus NBER Working Paper 35835's 16% increase in sugary-item
+spending after P-EBT disbursement. It also retains the paired Navajo evidence: a 7–8% healthy/
 unhealthy price wedge was followed by no detectable improvement in the studied
 maternal/newborn outcomes. This is a counterexample, not a contradiction: it
-keeps consumer purchase change, price, health realization, retailer
+keeps benefit design, consumer purchase change, price, health realization, retailer
 implementation, cross-border shopping, stigma, and household security separate.
 A bounded LinkedIn measurement discussion is also linked, but it is not direct
 policy evaluation. Next: seek a protected household-and-retailer route through
