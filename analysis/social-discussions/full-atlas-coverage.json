@@ -66195,11 +66195,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "credit-card banking combines broad household use unusually high lending spreads returns monthly household-room-consumption 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-credit-card-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -66210,7 +66212,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-cultural-distance-media-consumption-time-attitudes-1965-2020",
@@ -67878,11 +67880,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "health-insurer concentration links market power adverse selection premiums plan design consumer welfare consumer-power-recourse 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-health-insurance-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -67893,7 +67897,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-hepatitis-c-subscription-outcomes-2026",

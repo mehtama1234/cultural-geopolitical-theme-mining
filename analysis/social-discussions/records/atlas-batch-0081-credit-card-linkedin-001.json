@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0081-credit-card-linkedin-001",
+  "atlas_record_ids": ["us-nber-credit-card-banking-market-power-2026"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "research_announcement_post",
+  "author_or_account": "National Bureau of Economic Research",
+  "title": "Why are credit card rates so high? What are the economics of credit card banking?",
+  "canonical_url": "https://www.linkedin.com/posts/nber_why-are-credit-card-rates-so-high-what-are-activity-7495948004236050432-BgSl",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The NBER announcement makes the consumer-finance scale visible: the paper uses account-level data covering 550 million monthly accounts to ask why credit-card rates and lending economics are unusually high. The public signal points toward a household-use and lender-return tension, while leaving borrower-level welfare open.",
+  "research_anchor_paths": ["analysis/records/us-nber-credit-card-banking-market-power-2026.json"],
+  "linked_research_question": "How do broad household use, credit-card rates, default risk, issuer returns, rewards, and repayment burdens combine into consumer welfare or market-power outcomes?",
+  "classification": ["consumer_finance_discussion", "credit_cards", "household_use", "lender_returns", "bounded_public_discussion"],
+  "limits": ["The announcement does not provide a household panel or borrower-level repayment burden", "Account coverage is not the same as household welfare or product choice", "A high rate or return does not by itself prove excessive pricing or consumer harm"]
+}

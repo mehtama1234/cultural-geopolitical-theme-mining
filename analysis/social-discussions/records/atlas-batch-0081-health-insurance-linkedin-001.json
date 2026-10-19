@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0081-health-insurance-linkedin-001",
+  "atlas_record_ids": ["us-nber-health-insurance-competition-premiums-consumer-welfare-2026"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "research_author_post",
+  "author_or_account": "Martin Gaynor",
+  "title": "Health Insurance Competition: Asymmetric Information Hinders Market Efficiency",
+  "canonical_url": "https://www.linkedin.com/posts/martin-gaynor_competition-in-health-insurance-markets-activity-7436750181947248641-s9rz",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The paper author's public post frames US health-insurance competition as an interaction between market power and asymmetric information, emphasizing adverse selection and consumer welfare rather than treating concentration as a sufficient conclusion. It gives the consumer discussion a mechanism: price competition can interact with risk sorting and plan design.",
+  "research_anchor_paths": ["analysis/records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json"],
+  "linked_research_question": "How do insurer concentration, adverse selection, plan design, and consumer switching interact across commercial, Medicare Advantage, and Medicaid markets, and which remedies improve realized consumer protection rather than only market structure?",
+  "classification": ["consumer_market_discussion", "health_insurance", "adverse_selection", "market_power", "bounded_public_discussion"],
+  "limits": ["The post is an author summary, not a new enrollee-level outcome study", "The public discussion does not establish the effect of each policy remedy", "Premiums, plan generosity, networks, and enrollee risk must be observed together to infer welfare"]
+}

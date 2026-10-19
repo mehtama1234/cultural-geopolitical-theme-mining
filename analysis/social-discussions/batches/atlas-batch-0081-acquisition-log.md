@@ -12,15 +12,19 @@ records:
 - `us-nber-ai-corporate-executives-productivity-workforce-2026` → `atlas-batch-0081-ai-firm-data-linkedin-001`
 - `us-nber-ai-organization-capital-productivity-2026` → `atlas-batch-0081-organization-capital-linkedin-001`
 - `us-nber-ai-patent-lawyers-expertise-field-experiment-2026` → `atlas-batch-0081-patent-expertise-linkedin-001`
+- `us-nber-health-insurance-competition-premiums-consumer-welfare-2026` → `atlas-batch-0081-health-insurance-linkedin-001`
+- `us-nber-credit-card-banking-market-power-2026` → `atlas-batch-0081-credit-card-linkedin-001`
 
-The three signals sharpen an industrial USA chain: adoption and expected
-productivity are not realized transformation; organization capital may be the
-missing complement; and assisted output can conceal uneven expertise formation.
+The five signals sharpen an industrial/consumer USA chain: adoption and
+expected productivity are not realized transformation, organization capital
+may be the missing complement, assisted output can conceal uneven expertise
+formation, insurer competition operates through adverse selection, and broad
+credit-card use coexists with high lender-side returns.
 
 ## Current batch state
 
-The three linked records have a normalized LinkedIn result and remain in the
-open batch while the other platform attempts and the remaining 22 records are
+The five linked records have a normalized LinkedIn result and remain in the
+open batch while the other platform attempts and the remaining 20 records are
 worked. No completion claim is made for this batch.
 
 ## Reproducibility and limits
