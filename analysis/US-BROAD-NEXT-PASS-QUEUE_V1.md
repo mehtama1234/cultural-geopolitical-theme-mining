@@ -132,7 +132,10 @@ on tracking restrictions and fraud complaints, and adds bounded privacy-
 governance discussion. The evidence supports a
 completion-to-control gap: administrative closure does not prove data removal,
 constrained downstream use, no re-collection, fraud protection, or durable
-consumer agency. Next: seek a same-request or repeat-consumer trace linking
+consumer agency. DROP now has a reported partial implementation result—99.9%
+of registrants had a profile deleted by at least one broker and the typical user
+was deleted from more than 40 brokers—but this is not all-broker deletion or a
+later outcome. Next: seek a same-request or repeat-consumer trace linking
 verification effort to actual data change and later fraud, targeting, trust,
 switching, or repeat-request outcomes.
 
