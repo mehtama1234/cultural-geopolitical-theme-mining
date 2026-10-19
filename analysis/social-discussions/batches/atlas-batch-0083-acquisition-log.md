@@ -41,9 +41,21 @@ jobs and tax revenue remain possible benefits. Neither row establishes
 household-level financing, verified local externalities, permitting outcomes,
 or causation.
 
+A fourth row is now augmented:
+
+- `us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk` →
+  `atlas-batch-0083-nyfed-expectations-linkedin-001` and
+  `atlas-batch-0083-nyfed-expectations-linkedin-002`
+
+This row connects the earlier spending-versus-income question to weaker
+job-finding confidence, tighter perceived credit access, and missed-payment
+risk. The discussion supports a live question about whether households adjust
+through substitution, borrowing, missed payments, or discretionary cuts. It
+does not show which route has occurred in realized behavior.
+
 ## Batch state
 
-Seven rows remain in review. Platform gaps for the two augmented rows were
+Six rows remain in review. Platform gaps for the three augmented rows were
 recorded for Reddit, YouTube, and X after bounded searches; no completion claim
 is made for this batch or the broader atlas program.
 

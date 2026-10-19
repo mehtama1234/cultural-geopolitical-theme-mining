@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-nyfed-expectations-linkedin-001",
+  "atlas_record_ids": ["us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "official_data_translation_post",
+  "author_or_account": "Federal Reserve Bank of New York",
+  "title": "US Consumer Inflation Expectations Decrease Slightly",
+  "canonical_url": "https://www.linkedin.com/posts/federal-reserve-bank-of-new-york_our-august-2026-survey-of-consumer-expectations-activity-7503107959971946498-6WVq",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The New York Fed post links its August 2026 Survey of Consumer Expectations and says medium-term inflation expectations decreased slightly while unemployment expectations reached their highest level since April 2020. Comments identify the important split: households may see a weaker job market and still have relatively stable inflation expectations, with possible implications for later credit performance. The post and comments do not establish realized unemployment, delinquency, or consumption outcomes.",
+  "research_anchor_paths": ["analysis/records/us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk.json"],
+  "linked_research_question": "When households expect spending to grow faster than income while job and credit confidence weaken, does the adjustment appear first in substitution, borrowing, missed payments, or reduced discretionary demand?",
+  "classification": ["consumer_expectations", "credit_buffer", "job_finding_confidence", "official_data_translation", "bounded_public_discussion"],
+  "limits": ["The post reports expectations rather than realized spending, unemployment, or delinquency", "Commentary about future credit performance is a hypothesis, not observed evidence", "The survey does not by itself identify which households finance the spending gap"]
+}

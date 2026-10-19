@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0083-nyfed-expectations-linkedin-002",
+  "atlas_record_ids": ["us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk"],
+  "topic": "household-room-consumption",
+  "platform": "linkedin",
+  "item_type": "survey_interpretation_post",
+  "author_or_account": "Reaz H.",
+  "title": "NY Fed: Consumer Confidence Hits Lowest Since 2013",
+  "canonical_url": "https://www.linkedin.com/posts/reazhoque_consumerconfidence-nyfed-economy-activity-7503403087617929217-57yq",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The post highlights the 44.9% probability of finding a job after job loss, worsening credit-access perceptions, and weaker current and future financial assessments. It interprets the pattern as a low-hire, low-fire environment in which people may pull back because financial security feels fragile rather than because prices alone are rising. This is a public interpretation of the NY Fed measures, not a causal test.",
+  "research_anchor_paths": ["analysis/records/us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk.json"],
+  "linked_research_question": "Does weaker job-finding confidence change consumer behavior even when people do not expect to lose their current jobs, and is the effect different by income and credit access?",
+  "classification": ["consumer_confidence", "labor_market_security", "credit_access", "household_behavior", "bounded_public_discussion"],
+  "limits": ["The post does not provide a causal estimate of spending or credit behavior", "The low-hire/low-fire framing is an interpretation and may not describe every subgroup", "Subjective job-finding probabilities are not realized re-employment rates"]
+}
