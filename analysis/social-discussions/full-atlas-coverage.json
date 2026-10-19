@@ -66140,21 +66140,21 @@
       "canonical_theme": "ai-work-control",
       "title": "US product-market creative destruction passes asymmetric risk through to incumbent workers",
       "geography": "United States",
-      "status": "in_review",
+      "status": "augmented",
       "batch_id": "atlas-batch-0081",
       "platforms": {
         "youtube": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "product-market creative destruction passes asymmetric risk through incumbent workers administrative worker earnings ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title YouTube search for NBER technology-driven creative destruction and worker earnings returned no attributable result",
           "social_record_ids": []
         },
         "reddit": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "product-market creative destruction passes asymmetric risk through incumbent workers administrative worker earnings ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title Reddit search returned older or adjacent creative-destruction and AI discussions, not the NBER worker-earnings paper",
           "social_record_ids": []
         },
         "linkedin": {
@@ -66167,15 +66167,15 @@
           ]
         },
         "x": {
-          "status": "not_started",
+          "status": "documented_access_gap",
           "query": "product-market creative destruction passes asymmetric risk through incumbent workers administrative worker earnings ai-work-control 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
+          "retrieved": "2026-10-19",
+          "result_or_gap": "Exact-title X search for NBER technology-driven creative destruction and worker earnings returned no indexed attributable result",
           "social_record_ids": []
         }
       },
-      "terminal_reason": null,
-      "next_action": "complete_remaining_platform_attempts"
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search/access outcome",
+      "next_action": "quality_audit"
     },
     {
       "atlas_record_id": "us-nber-credit-card-banking-market-power-2026",

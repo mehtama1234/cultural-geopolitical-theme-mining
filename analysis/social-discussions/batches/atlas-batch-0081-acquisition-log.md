@@ -88,6 +88,10 @@ The AI organization-capital/productivity record is likewise terminal with its
 exact LinkedIn result retained and no attributable YouTube, Reddit, or X item
 found in the exact-title searches. Nineteen other batch rows remain in review.
 
+The creative-destruction worker-earnings record has no exact YouTube, Reddit,
+or X match; older or broader creative-destruction discussions were retained
+only as search context and not linked to the paper.
+
 ## Reproducibility and limits
 
 This was public-web discovery, not a platform-native Creator/API export.
