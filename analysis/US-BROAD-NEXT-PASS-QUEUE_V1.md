@@ -1,5 +1,17 @@
 # US broad program next-pass queue v1
 
+**Latest U.S. defense-industrial rotation — 2026-10-18:** the [supplier
+resilience and replaceability audit](projects/cross-domain/us-defense-industrial-supplier-resilience-audit-v1.md)
+follows a bounded JASSM/LRASM chain from USAspending supplier concentration and
+component descriptions through multi-facility registration, Air Force
+production-rate and integration milestones, Polish procurement, delivery
+non-observation, and audit control gaps. The finding is a network-to-capability
+gap: supplier breadth, capacity targets, tests, and allied contracts do not
+prove accepted inventory, substitute production, delivery, or strategic
+resilience. Next: match recipient names to UEI/CAGE/facility identifiers and
+connect them to acceptance, shipment, inventory, training, and substitute-route
+records.
+
 **Latest U.S. platform-worker rotation — 2026-10-18:** the [remedy and
 work-control audit](projects/cross-domain/us-platform-worker-remedy-work-control-audit-v1.md)
 follows the Walmart Spark Driver case from complaint and court-entered $100

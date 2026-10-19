@@ -403,7 +403,8 @@ and the gap between wanting connection and regularly participating.
 The registry contains 1975 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
-currently has 2777 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 2778 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
+The newest U.S. defense-industrial artifact is the [supplier resilience and replaceability audit](projects/cross-domain/us-defense-industrial-supplier-resilience-audit-v1.md). It follows a bounded JASSM/LRASM chain from USAspending supplier concentration and component descriptions through multi-facility registration, Air Force production-rate and integration milestones, Polish procurement, delivery non-observation, and audit control gaps. The finding is a network-to-capability gap: supplier breadth, capacity targets, tests, and allied contracts do not yet prove accepted inventory, substitute production, delivery, or strategic resilience.
 The newest U.S. platform-worker artifact is the [remedy and work-control audit](projects/cross-domain/us-platform-worker-remedy-work-control-audit-v1.md). It follows the Walmart Spark Driver case from complaint and court-entered $100 million judgment through driver-relief allocation, payment processing, and a 10-year earnings-verification program, then compares it with NBER evidence on competing-platform leverage. The finding is a money-to-control gap: monetary correction does not yet prove restored net earnings, schedule control, explanation, alternatives, trust, or practical exit.
 The newest U.S. consumer artifact is the [privacy control and completion audit](projects/cross-domain/us-consumer-privacy-control-completion-audit-v1.md). It follows Walmart’s reported access, deletion, and sale-opt-out request stages, compares them with California’s centralized DROP broker route and NBER evidence on tracking restrictions and fraud complaints, and adds bounded privacy-governance discussion. The finding is a completion-to-control gap: administrative closure or broker processing does not yet prove data removal, constrained downstream use, no re-collection, fraud protection, or durable consumer agency.
 The newest U.S. industrial artifact is the [labor remedy and worker-power audit](projects/cross-domain/us-industrial-labor-remedy-worker-power-audit-v1.md). It follows a named USMCA ThyssenKrupp matter from petition and U.S. review through reported reinstatement, back pay, facility protocols, monitoring, and trade response, then anchors the case in NLRB demand and NBER labor-power mechanisms. The finding is institutional remedy capacity without verified durable worker power: receipt, non-retaliation, bargaining, safety, and recurrence remain open.
@@ -2410,7 +2411,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 1978 trend records and 5941 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
   record checks; the source registry represents all 118 registered source
-families; 2,777 local Markdown links and 1,151 published HTML pages pass link
+families; 2,778 local Markdown links and 1,151 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 229
 connections, 93 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
