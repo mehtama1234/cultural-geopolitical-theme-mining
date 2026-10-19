@@ -77,7 +77,8 @@ finding is institutional remedy capacity without verified durable worker power:
 receipt, non-retaliation, bargaining, safety, and recurrence remain open. Next:
 seek post-resolution monitoring, worker/union confirmation, later complaints,
 bargaining, safety, scheduling, and repeat-enforcement evidence for the same
-facility, with a matched industrial comparator if available.
+facility, with the DOJ IER cases as a bounded paid-remedy/training comparator
+and a matched industrial comparator if available.
 
 **Latest Solar for All implementation rotation — 2026-10-18:** the [credit
 activation, remedy, and persistence audit](projects/cross-domain/solar-for-all-credit-remedy-persistence-audit-v1.md)

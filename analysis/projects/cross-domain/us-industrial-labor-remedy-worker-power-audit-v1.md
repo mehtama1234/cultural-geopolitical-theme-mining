@@ -22,6 +22,7 @@ future enforcement or exit`.
 |---|---|---|---|
 | Named industrial episode | [USTR ThyssenKrupp USMCA matter](../../records/usmca-thyssenkrupp-rapid-response-labor-remedy-2025-2026.json): petition received October 14, 2025; U.S. review request November 13; resolution announced March 16, 2026. | The U.S.-backed mechanism moved a named facility from complaint to intergovernmental review and resolution. | An official resolution account is not independent worker-level verification or a general USMCA performance estimate. |
 | Worker remedy | The resolution reports 2 workers reinstated under former terms and conditions with full back pay and benefits. | A formal remedy reached a concrete worker-level endpoint in the announcement. | Receipt, adequacy, non-retaliation, safety, bargaining power, and effects on other affected workers are not observed. |
+| Federal remedy comparator | [DOJ IER FY2026 resolution summary](../../records/us-doj-ier-individual-remedy-followups-2026.json) reports four charging-party cases with agency-reported paid remedies ($5,600, $16,730, $30,000, and $8,000) plus one $485,000 back-pay-and-benefits offer; training or policy changes accompanied the cases. | Adjacent U.S. employment remedies can document paid back pay and employer controls while separating a paid remedy from an offer of reinstatement. | The cases have no population denominator and do not independently document payment instruments, continued employment, restored opportunity, worker voice, household recovery, or later action; they are not a facility-level comparator for ThyssenKrupp. |
 | Facility remedy | The reported measures include union-access protocol, neutrality and collective-bargaining rules, a zero-tolerance policy, and personnel training; Mexican authorities monitored with in-person training throughout review. | The mechanism can target organizational conditions rather than only individual compensation. | Implementation, enforcement, worker awareness, and persistence of the protocol are not followed after closure. |
 | U.S. trade response | U.S. resumed liquidation of unliquidated entries from the facility after the resolution. | Trade administration can create leverage around labor-rights remediation. | Resumed liquidation is an institutional action, not proof of worker power or facility-wide compliance. |
 | Domestic labor demand | [NLRB FY2025](../../records/us-nlrb-worker-voice-administration-fy2025.json) reports 19,754 unfair-labor-practice charges, 32.8% found meritorious, 96.8% of meritorious cases settled, and 2,743 representation petitions; the Board lacked a quorum for nearly three-quarters of the fiscal year. | The named case sits inside substantial U.S. demand for labor voice and a constrained adjudication system. | Charges are allegations; settlement and petitions have different universes; filings do not equal durable organizing or remedy receipt. |
@@ -39,8 +40,11 @@ But the chain breaks at durability. Public evidence does not show whether the tw
 workers received and regarded the remedy as adequate, whether other workers could
 organize without retaliation, whether the protocol changed day-to-day authority,
 whether safety or job quality improved, or whether the remedy recurred after the
-agency’s closure. The NLRB context reinforces why this distinction matters:
-substantial demand for worker voice can coexist with institutional bottlenecks.
+agency’s closure. The DOJ IER comparator strengthens the case-level paid-remedy
+stage, while also showing the same boundary: agency-reported payment or an offer
+is not continued employment, restored opportunity, or durable worker power. The
+NLRB context reinforces why this distinction matters: substantial demand for
+worker voice can coexist with institutional bottlenecks.
 
 The NBER model adds a caution against reading every wage or mobility outcome as
 firm power alone. Worker heterogeneity, sorting, amenities, family constraints,
@@ -98,10 +102,12 @@ petition and affected workers
 
 For the named matter, seek the facility’s post-resolution monitoring record,
 worker or union confirmation, later complaints, bargaining activity, and any
-available labor/safety outcomes. Compare the case with a similar industrial
-facility or another USMCA matter only after matching industry, jurisdiction,
-worker population, and observation period. Keep the U.S. agency action, Mexican
-facility action, and worker outcome as separate stages.
+available labor/safety outcomes. Use the DOJ IER cases to design separate
+paid-remedy, offer, training, continued-employment, and worker-voice fields.
+Compare the case with a similar industrial facility or another USMCA matter only
+after matching industry, jurisdiction, worker population, and observation
+period. Keep the U.S. agency action, Mexican facility action, and worker outcome
+as separate stages.
 
 ## Stopping rule
 
