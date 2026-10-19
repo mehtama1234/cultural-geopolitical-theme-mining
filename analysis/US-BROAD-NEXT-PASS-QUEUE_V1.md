@@ -747,11 +747,12 @@ before/after response and public or host-community denominator.
 
 **Latest consumer-agency rotation — 2026-09-29:** the [payment, AI, and
 credit mediation synthesis](projects/cross-domain/us-consumer-agency-payment-ai-credit-2026-09-29.md)
-follows payment choice, shock buffers, AI recommendation, verification, human
-credibility, and repeat reliance. It keeps reported adoption separate from
-observed purchase, welfare, debt, and exit; the next test requires one
-consumer task joined to payment, recommendation, purchase, return/debt, and
-repeat-use data.
+now adds NBER remote-work shopping evidence as a non-AI counterexample. Work
+location changed online and weekday shopping, product range, shopping minutes,
+prices, deal use, and household shopping responsibility. Next: follow one
+product task through AI or non-AI discovery, verification, payment, price/deal,
+shopping time, return or complaint, and repeat choice, while keeping
+household-task ownership visible.
 
 **Latest time-conversion rotation — 2026-09-29:** the [family care, work
 flexibility, and participation synthesis](projects/cross-domain/us-time-conversion-family-care-participation-2026-09-29.md)

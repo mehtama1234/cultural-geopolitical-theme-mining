@@ -1,6 +1,6 @@
 # Consumer agency under payment, AI, and credit mediation
 
-**Checked:** 2026-09-29  
+**Checked:** 2026-10-18
 **Status:** bounded cross-source synthesis; no pooled causal estimate
 
 ## The consumer-choice chain
@@ -98,6 +98,26 @@ and transparent quality signals when scale and authenticity become harder to
 distinguish. More content can therefore increase choice on paper while raising
 the verification labor required to make a choice.
 
+### Shopping agency is also a household-time and price allocation problem
+
+The [NBER remote-work shopping record](../../records/us-nber-remote-work-shopping-consumption-2026.json)
+provides a useful non-AI counterexample. In U.S. consumer-panel and survey
+evidence, working from home increased online shopping and weekday store trips,
+expanded product quantity and range, reduced shopping minutes while increasing
+trips, and was associated with higher prices paid, lower deal use, and an
+estimated roughly 1% increase in grocery prices. The price effect was
+concentrated among married households and linked to redistribution of shopping
+responsibility, especially when the new remote worker was male.
+
+This does not show that remote work caused household harm, and the public
+abstract does not disclose the analytic sample. Its value is diagnostic: a
+consumer may experience convenience, wider choice, and fewer shopping minutes
+while paying more or shifting unpaid shopping labor within the household.
+Likewise, AI may reduce search time without reducing total household cost or
+verification work. Technology-mediated agency must therefore be measured
+alongside prices, deals, minutes, task ownership, and later returns or repeat
+choice.
+
 ## Cross-source finding
 
 Consumer agency increasingly means managing mediated choice rather than simply
@@ -110,6 +130,8 @@ choosing among products:
    labor is saved.
 4. Verification, human credibility, and source diversity determine whether
    convenience feels safe enough to become reliance.
+5. Household time, task ownership, and prices determine whether mediated choice
+   is actually a gain rather than a transfer of labor or cost.
 
 This produces an important distinction between access and control. A consumer
 may have many digital options, use AI frequently, and still preserve control by
@@ -142,10 +164,12 @@ need or product search
 ```
 
 It should preserve payment method, product category, transaction value, income,
-age, geography, and whether the recommendation was verified. Until that join
-exists, the atlas should describe consumer AI and payment change as a
-conditional agency system—not as either autonomous shopping or simple digital
-displacement.
+age, geography, whether the recommendation was verified, shopping minutes,
+deal use, task owner, and later return or complaint. The NBER remote-work
+counterexample adds a comparison arm in which the shopping technology is not
+AI but household work location changes. Until that join exists, the atlas
+should describe consumer AI and payment change as a conditional agency
+system—not as either autonomous shopping or simple digital displacement.
 
 ## Source records
 
@@ -154,4 +178,6 @@ displacement.
 - [Product.ai AI-commerce trust record](../../records/us-product-ai-trust-commerce-2026-ai-recommendation-verification-agency.json)
 - [NIQ agentic-commerce record](../../records/us-niq-ai-assisted-shopping-agentic-commerce-2026.json)
 - [Gartner AI-content trust record](../../records/us-gartner-consumer-trust-ai-slop-influencers-2026.json)
+- [NBER remote-work shopping record](../../records/us-nber-remote-work-shopping-consumption-2026.json)
+- [NBER shopping-from-home price record](../../records/us-nber-shopping-from-home-consumer-prices-2026.json)
 

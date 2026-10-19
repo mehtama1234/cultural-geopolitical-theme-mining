@@ -103,6 +103,14 @@ preference can coexist with unresolved loss, weak fallback, and incomplete
 recourse; actual reimbursement, restored financial room, and switching remain
 unobserved.
 
+The newest U.S. consumer-agency continuation is the [payment, AI, credit, and
+household-shopping agency synthesis](projects/cross-domain/us-consumer-agency-payment-ai-credit-2026-09-29.md).
+It now adds the NBER remote-work shopping counterexample: online and weekday
+shopping, prices paid, deals, minutes, and household shopping responsibility
+can shift together without an AI recommendation system. The finding is a
+conditional-agency gap: AI discovery, payment choice, verification, household
+time, price, return, and repeat-use outcomes remain separate stages.
+
 The newest workplace-control depth artifact is the [AI implementation,
 worker-control, and security audit](projects/us-worker-control-remedy/ai-implementation-worker-control-security-audit-v1.md).
 It separates task activity, shipped output, firm expectations, worker
