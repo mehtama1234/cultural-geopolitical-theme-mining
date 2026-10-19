@@ -18,20 +18,23 @@ records:
 - `us-nber-creative-destruction-worker-earnings-risk-2026` → `atlas-batch-0081-creative-destruction-linkedin-001`
 - `us-nber-dynamic-investment-product-market-rivalry-2026` → `atlas-batch-0081-dynamic-investment-linkedin-001`
 - `us-nber-nursing-home-inspection-strategic-response-mortality-2025` → `atlas-batch-0081-nursing-inspection-linkedin-001`
+- `us-nber-nursing-home-roommate-peer-effects-mortality-2025` → `atlas-batch-0081-nursing-roommate-linkedin-001`
+- `us-nber-nursing-home-related-party-tunneling-2024` → `atlas-batch-0081-nursing-tunneling-linkedin-001`
 
-The nine signals sharpen an industrial/consumer USA chain: adoption and
-expected productivity are not realized transformation, organization capital
-may be the missing complement, assisted output can conceal uneven expertise
-formation, insurer competition operates through adverse selection, and broad
-credit-card use coexists with high lender-side returns, while aggregate and
-household flood risk diverge, while product-market rivalry passes through
-both investment and worker earnings, while inspection timing shapes public
-care effort and mortality risk.
+The eleven signals sharpen an industrial/consumer USA chain: adoption and
+expected productivity are not realized transformation; organization capital
+may be the missing complement; assisted output can conceal uneven expertise
+formation; insurer competition operates through adverse selection; broad
+credit-card use coexists with high lender-side returns; aggregate and
+household flood risk diverge; product-market rivalry passes through investment
+and worker earnings; inspection timing shapes public-care effort and mortality
+risk; and peer assignment and ownership transparency add low-cost social and
+institutional mechanisms.
 
 ## Current batch state
 
-The nine linked records have a normalized LinkedIn result and remain in the
-open batch while the other platform attempts and the remaining 16 records are
+The eleven linked records have a normalized LinkedIn result and remain in the
+open batch while the other platform attempts and the remaining 14 records are
 worked. No completion claim is made for this batch.
 
 ## Reproducibility and limits

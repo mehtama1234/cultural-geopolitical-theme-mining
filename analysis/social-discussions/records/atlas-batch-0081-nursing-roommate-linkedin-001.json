@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0081-nursing-roommate-linkedin-001",
+  "atlas_record_ids": ["us-nber-nursing-home-roommate-peer-effects-mortality-2025"],
+  "topic": "unequal-exposure-status",
+  "platform": "linkedin",
+  "item_type": "research_announcement_post",
+  "author_or_account": "National Bureau of Economic Research",
+  "title": "Nursing Home Roommate Effects on Mortality",
+  "canonical_url": "https://www.linkedin.com/posts/nber_peer-effects-between-nursing-home-roommates-activity-7405245658661748736-JxEU",
+  "published_window": "2026; within six months before retrieval",
+  "retrieved": "2026-10-19",
+  "discussion_signal": "The NBER announcement presents roommate assignment as a low-cost social and institutional mechanism: peer effects can be comparable to differences across facilities, and better assignments may reduce mortality without additional staffing. It expands care quality beyond provider inputs to resident-to-resident exposure.",
+  "research_anchor_paths": ["analysis/records/us-nber-nursing-home-roommate-peer-effects-mortality-2025.json"],
+  "linked_research_question": "How do roommate assignment, cognitive and behavioral peer characteristics, facility quality, staffing, and resident sorting interact to change mortality and unequal exposure in nursing homes?",
+  "classification": ["public_care_discussion", "peer_effects", "room_assignment", "mortality", "bounded_public_discussion"],
+  "limits": ["The announcement reports a bounded study result, not a universal assignment rule", "Roommate matching may involve operational, ethical, and consent constraints", "Public discussion does not establish implementation feasibility or effects across all facilities"]
+}

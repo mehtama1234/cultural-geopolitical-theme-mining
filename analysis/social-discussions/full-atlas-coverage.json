@@ -69700,11 +69700,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "nursing-home profits are widely tunneled related parties changing apparent return regulatory picture firm-sector-market-power 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-nursing-tunneling-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -69715,7 +69717,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-roommate-peer-effects-mortality-2025",
@@ -69741,11 +69743,13 @@
           "social_record_ids": []
         },
         "linkedin": {
-          "status": "not_started",
+          "status": "augmented",
           "query": "nursing-home roommate assignment changes mortality through patient peer effects stays cognitive status unequal-exposure-status 2025-10-17..2026-10-17",
-          "retrieved": null,
-          "result_or_gap": null,
-          "social_record_ids": []
+          "retrieved": "2026-10-19",
+          "result_or_gap": "normalized social evidence retained",
+          "social_record_ids": [
+            "atlas-batch-0081-nursing-roommate-linkedin-001"
+          ]
         },
         "x": {
           "status": "not_started",
@@ -69756,7 +69760,7 @@
         }
       },
       "terminal_reason": null,
-      "next_action": "acquire_and_normalize_platform_results"
+      "next_action": "complete_remaining_platform_attempts"
     },
     {
       "atlas_record_id": "us-nber-nursing-home-threshold-regulation-staffing-access-2026",
