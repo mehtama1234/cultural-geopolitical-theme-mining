@@ -55,11 +55,12 @@ reissue and administrator friction unobserved.
 The newest geoeconomic depth artifact is the [geoeconomic coercion, firm
 spillovers, household costs, and attribution audit](projects/cross-domain/geoeconomic-coercion-firm-household-attribution-audit-v1.md).
 It joins NBER coercion theory and bilateral trade-risk evidence with Census
-firm-level export-control spillovers, CRS retaliation chronology, NBER tariff
+firm-level export-control spillovers, a named BIS Applied Materials settlement,
+Hygon reported adaptation and growth, CRS retaliation chronology, NBER tariff
 pass-through, Ipsos household attribution, and bounded public discussion. The
 finding is a translation gap: pressure can alter trade, payroll, supply chains,
-and prices, but strategic success, household incidence, and legitimacy remain
-separate outcomes.
+prices, and enforcement while strategic capability, household incidence, and
+legitimacy remain separate outcomes.
 
 The newest AI-health depth artifact is the [AI health navigation, trust, control,
 and continuity audit](projects/cross-domain/ai-health-navigation-trust-control-audit-v1.md).

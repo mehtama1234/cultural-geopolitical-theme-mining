@@ -30,6 +30,8 @@ state objective
 | Coercion is becoming a larger part of measured hostility | An NBER bilateral panel decomposes monthly hostility into kinetic fighting, military posture, sanctions-context hostility, and routine diplomacy. The trade-weighted share channelled through sanctions contexts nearly doubled over the recent decade. Its comparison estimates about $334 billion in bilateral trade at risk relative to a pre-escalation baseline, with about half associated with the U.S.–China comparison. | GDELT event data calibrated against human-curated ground truth; gravity model and directed retaliation structure. | The $334 billion is a modeled counterfactual, not observed lost revenue or household harm. Event coding, reverse causality, specification, and third-country substitution remain open. |
 | Retaliation compounds the route | The same NBER analysis finds directed hostility identifies a retaliation channel that compounds bilateral trade losses over several months, while routine diplomacy has no detected aggregate trade effect. | Estimated lagged bilateral trade response. | A trade decline does not prove coercive success or failure; diplomacy may matter politically or strategically without a measured aggregate trade effect. |
 | Controls can spill beyond the target market | Census research finds the share of U.S. exports subject to controls doubled between 2010 and 2024. In the 2014 Russia restriction natural experiment, affected firms were less likely to export targeted goods to Russia and also reduced exports of other products and destinations; average payroll fell. | Firm-level export transactions linked to control classifications; natural experiment. | The abstract does not establish security benefit, national welfare, layoffs, household incidence, or whether firms later adapted through new products or destinations. |
+| A named U.S. industrial case reaches enforcement and compliance, but not strategic effect | BIS reports that Applied Materials and Applied Materials Korea shipped semiconductor ion implanters through Korea to an Entity-Listed Chinese company during 2021–2022 without the required license. The reported merchandise value was about $126 million; the settlement imposed a $252 million penalty, multiple compliance audits, and annual certifications. | Official BIS settlement; two named companies, reported shipment route, penalty, and post-settlement obligations. | Production continuity, worker incidence, replacement equipment, later audit results, Chinese capability, and deterrence are not observed. |
+| The target ecosystem can adapt while displacement remains unproven | Hygon reported January–June 2026 revenue of RMB 9,099.0208 million, up 66.52% year over year, more than 400 adapted large models, and more than 6,000 ecosystem partners. It separately described H200 entry as intensifying competition and proposed performance, compatibility, compliance, and cost-performance responses. | Chinese issuer interim report and investor Q&A; company-reported financial and ecosystem measures. | DCU-specific revenue, units, market share, customer switching, pricing, and a causal H200/export-control effect are not disclosed; growth may reflect broader AI demand or other products. |
 | The supply-chain clock is delayed | An NBER analysis of the 2025 U.S. tariff episode estimates 26% of the tariff increase passed through to consumer prices relative to less-exposed goods. It attributes 64% of the consumer-price increase to direct foreign-variety effects and 36% to imported inputs and domestic-producer markups, with indirect effects arriving over nine to twelve months. | Working-paper comparison of exposed and less-exposed goods with channel decomposition. | Relative pass-through is not every household's burden; the result does not identify substitution, wages, margins, or welfare, and delayed effects may reflect adjustment and market power. |
 | Foreign governments respond in more than one way | CRS records that in 2025 China used retaliatory tariffs, critical-mineral export restrictions, export controls, entity designations, and investigations; Canada and the EU announced, implemented, paused, or removed countermeasures while negotiating. | Dated review of official U.S. and foreign-government documents. | Announcements and temporary pauses do not establish compliance, policy change, alliance durability, or strategic success. |
 | The cost becomes publicly legible | Ipsos Wave 148 reports 81% of Americans expected tariffs to raise prices on goods they buy, 71% said they had already seen tariff-linked price rises, 55% correctly identified tariffs as import taxes often raising consumer prices, and only 29% said tariff-related price increases were worth it to achieve national goals. Another 29% said it was fair for firms to pass tariff costs to shoppers. | U.S. online panel/partner-panel/river sample, September 22–23, 2026; calibrated population targets; credibility interval ±3.6 points, design-effect-adjusted ±5.1. | These are perceptions and policy judgments, not product-level incidence, firm margins, votes, or causal attribution. |
@@ -60,6 +62,14 @@ It cannot yet show that a household price increase caused a vote, that a firm
 payroll decline caused a layoff, or that a retaliatory measure produced a
 strategic concession.
 
+The semiconductor episode makes the open middle concrete. A U.S. enforcement
+record shows a controlled-equipment route, a named firm violation, a large
+penalty, and continuing compliance obligations. A Chinese competitor's later
+financial and deployment claims show adaptation and ecosystem activity. Read
+together, they establish neither successful denial nor successful substitution:
+the U.S. industrial chain reaches enforcement, while the strategic-capability
+chain remains open.
+
 ## Curiosity checks
 
 ### What happened afterward?
@@ -82,6 +92,11 @@ incidence estimate.
 
 - A control can reduce targeted exports while security or diplomatic benefits
   remain unmeasured; a firm spillover is not proof of strategic failure.
+- A large penalty and annual certification can change firm compliance without
+  proving that the equipment stopped reaching the target ecosystem or that
+  strategic capability changed.
+- Competitor revenue growth and model compatibility can reflect real ecosystem
+  development without proving displacement of the restricted supplier.
 - A tariff-linked price perception can rise without a measured product-level
   tariff effect; consumers may be responding to general inflation, exchange
   rates, supply shocks, or salient price changes.
@@ -105,6 +120,12 @@ incidence estimate.
 
 The present corpus supports all three as plausible pathways. It does not yet
 rank them for a named episode.
+
+For the semiconductor case, the strongest competing readings are: effective
+denial with domestic adaptation; compliance theater with continued access
+through transshipment or substitution; and broad AI-market growth that is only
+loosely related to the export-control episode. The current public records do not
+rank these explanations.
 
 ## Bounded public discussion
 
@@ -132,6 +153,12 @@ separate:
 5. public attribution, firm explanation, complaint or political response; and
 6. concession, reversal, adaptation, persistence, or escalation.
 
+For the Applied Materials/Hygon route, add shipment-level license and end-user
+records, equipment disposition, post-settlement audit results, Hygon product
+units and customer contracts, comparable NVIDIA/Chinese accelerator prices and
+utilization, and later control or substitution milestones. Keep firm-reported
+growth, enforcement, and strategic capability as separate stages.
+
 Use a product- or firm-level price and trade panel when possible, then link it
 to household spending or survey respondents. Preserve cases where controls
 achieved a security objective with limited consumer cost, and cases where price
@@ -158,6 +185,9 @@ security benefit, firm cost, household incidence, and strategic outcome.
 - [NBER geoeconomic-coercion model](../../records/us-nber-geoeconomic-coercion-government-firm-targets-2026.json)
 - [NBER bilateral-conflict trade-risk panel](../../records/us-nber-bilateral-conflict-trade-risk-2026.json)
 - [Census export-control firm spillovers](../../records/us-census-export-controls-domestic-costs-firm-spillovers-2010-2024.json)
+- [BIS Applied Materials semiconductor-equipment settlement](../../records/us-bis-applied-materials-semiconductor-equipment-settlement-2026.json)
+- [Hygon realized growth and deployment](../../records/us-china-hygon-dcu-realized-growth-deployment-2026.json)
+- [Hygon H200 competition and adaptation](../../records/us-china-hygon-dcu-h200-competition-adaptation-2025-2026.json)
 - [NBER tariff pass-through](../../records/us-nber-tariff-pass-through-consumer-price-supply-chain-2026.json)
 - [CRS retaliation timeline](../../records/us-crs-tariff-retaliation-foreign-response-2025.json)
 - [Ipsos Consumer Tracker Wave 148](../../records/us-ipsos-consumer-tracker-wave148-tariff-food-safety-value-2026.json)

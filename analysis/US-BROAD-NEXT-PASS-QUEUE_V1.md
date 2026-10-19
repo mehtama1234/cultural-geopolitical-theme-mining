@@ -170,14 +170,15 @@ later trust, switching, or exit.
 **Latest geoeconomic-coercion rotation — 2026-10-18:** the [geoeconomic
 coercion, firm spillovers, household costs, and attribution audit](projects/cross-domain/geoeconomic-coercion-firm-household-attribution-audit-v1.md)
 joins NBER target-selection and bilateral-hostility mechanisms with Census
-firm-level export-control spillovers, CRS retaliation chronology, NBER tariff
+firm-level export-control spillovers, a named BIS Applied Materials settlement,
+Hygon reported adaptation and growth, CRS retaliation chronology, NBER tariff
 pass-through, Ipsos household attribution, and bounded public discussion. The
 evidence supports a translation gap: pressure can change trade, payroll, inputs,
-and prices, while concession, security benefit, household incidence, and
-legitimacy are not observed in one named episode. Next: follow one coercion
-episode through target response, firm and product substitution, payroll or
-employment, household exposure, public attribution, and later concession,
-reversal, adaptation, or escalation.
+prices, and compliance while concession, security benefit, household incidence,
+and legitimacy are not observed in one named episode. Next: follow the Applied
+Materials/Hygon semiconductor route through shipment and end-user records,
+firm and product substitution, payroll or employment, household exposure,
+public attribution, and later concession, reversal, adaptation, or escalation.
 
 **Latest South Africa cultural-structure rotation — 2026-09-30:** the [Stats SA Census 2022 Cultural Dynamics record](records/comparative-south-africa-statssa-census-cultural-dynamics-1996-2022-language-religion-household-marriage.json) adds a population-scale identity and household layer: multiracial households rose from 1.3% in 2001 to 11.4% in 2022, multilingual households from 3.5% in 1996 to 9.4% in 2022, while legal marriage fell from 35.6% in 1996 to 23.8% in 2022. Christianity remained 84.5% in 2022, but traditional African religious affiliation reached 9.5%. These are census classifications, not direct measures of trust, tolerance, practice, welfare, or cohesion. Next: connect cultural structure to language access, housing, migration, consumer segmentation, and lived intergroup contact.
 
