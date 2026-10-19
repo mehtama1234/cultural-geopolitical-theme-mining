@@ -38,6 +38,7 @@ still leaves household incidence open:
 | Stage | Evidence | What it changes | What remains open |
 |---|---|---|---|
 | Operating event | [PJM large-load response record](../../records/us-pjm-large-load-disconnection-response-2026.json) reports an unexpected disconnection of approximately 4,000 MW of data-center load on July 22, 2026; operators used backup generation and managed voltage, frequency, and load-generation imbalance. | Large computational load is now an observed grid-operations event, not only a forecast risk. | Facility roster, event duration, residential interruption, backup-generation emissions, bill effects, and whether proposed ride-through rules were adopted. |
+| Event measurement and rule response | [PJM's August 11 review](https://insidelines.pjm.com/pjm-dominion-review-large-load-transfer-event/) estimates approximately 3,800 MW of large load disconnected or transferred without warning; PJM reports recovery of the area-control-error limit within nine minutes and says ride-through requirements are under review. Its [September proposal](https://insidelines.pjm.com/reliability-standards-to-manage-large-load-disconnection-events-proposed-by-pjm/) says the July event was nearly 4,000 MW and the largest such event in PJM history. | The operational claim now has a measured system response and a concrete rulemaking follow-up. | Which facilities disconnected, how long each remained off-grid, whether backup generation ran, whether any residential customer was interrupted, and whether the proposed requirements become binding. |
 | Regional reliability governance | The same record reports a FERC proceeding over tariffs and cost shifting for large loads of at least 50 MW at transmission interconnection above 69 kV, a PJM-reported 6,831 MW capacity shortfall for 2028/29, and a stated principle that new large loads should bear the costs they cause. | Reliability, adequacy, and cost responsibility have entered formal governance. | Final tariff assignment, facility payments, customer-class incidence, and proof that existing ratepayers avoided costs. |
 | State allocation | [Virginia large-load governance record](../../records/us-virginia-data-center-large-load-governance-2024-2027.json) reports 131 data-center accounts among 139 initial GS-5 accounts, a 25 MW threshold, minimum demand requirements, long contract terms, and projected residential-rate effects that vary by allocation method. | A state has measurable eligibility, contract, tax, and modeled-rate rules rather than only general promises. | Observed facility consumption, tax remittance, actual residential bills, received credits, local employment, and community acceptance. |
 
@@ -73,6 +74,14 @@ allocations, not a data-center-revenue spending ledger. They show fiscal
 capacity and risk management, but not which data-center dollars funded which
 service, whether costs were fully recovered, or whether a particular household
 experienced a benefit.
+
+The county's adopted FY2027 budget adds a stronger fiscal scale marker: the
+county says data-center real-estate and business-tangible-personal-property
+taxes are projected to generate approximately **$549.7 million**, or about 28%
+of total general revenues. The budget also uses a $0.865 real-estate tax rate
+and describes a $1.1 billion transfer to county schools. This is an adopted
+revenue and allocation context, not a facility-level remittance ledger or proof
+that a household received a corresponding service or bill benefit.
 
 The chain is therefore stronger but still conditional:
 
@@ -160,4 +169,8 @@ cost allocation and remedy → realized household benefit → durable legitimacy
 - [Prince William County TY2025 data-center fiscal extension](../../records/us-prince-william-data-center-fiscal-revenue-2025-extension.json)
 - [Prince William County FY2025 adopted budget](https://www.pwcva.gov/assets/2024-07/FY2025_Budget.pdf)
 - [Prince William County FY2026 budget highlights](https://www.pwcva.gov/news/board-county-supervisors-adopts-fiscal-year-2026-budget)
+- [Prince William County adopted FY2027 budget](https://www.pwcva.gov/department/management-and-budget/adopted-budget/)
+- [Prince William County FY2027 data-center revenue budget question](https://www.pwcva.gov/assets/2026-02/Top_Ten_Questions--Proposed_FY2027_Budget.pdf)
+- [PJM review of the July 22 large-load event](https://insidelines.pjm.com/pjm-dominion-review-large-load-transfer-event/)
+- [PJM proposed reliability standards for large-load disconnections](https://insidelines.pjm.com/reliability-standards-to-manage-large-load-disconnection-events-proposed-by-pjm/)
 - [PJM large-load reliability discussion](../../social-discussions/records/social-pjm-large-load-event-linkedin-001.json)
