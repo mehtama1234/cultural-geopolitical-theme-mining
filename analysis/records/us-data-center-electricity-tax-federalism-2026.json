@@ -86,6 +86,80 @@
       "counterinterpretation": "Repealing an exemption and requiring a return can shift formal responsibility without establishing who ultimately absorbs the cost or whether the state bargain is viewed as legitimate.",
       "source_url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/other-sales-and-use-tax-resources/important-notices-issued-sales-and-use-tax-division/important-notice-repeal-exemptions-electricity-used-datacenters",
       "status": "reported"
+    },
+    {
+      "period": "September-October 2026; Virginia tax administration becomes operational",
+      "denominator": {
+        "value": null,
+        "unit": "qualifying Virginia data-center operators and electricity providers using the SCC reporting route",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "registration_deadline": {
+          "value": "September 1, 2026",
+          "unit": "operator registration deadline",
+          "value_type": "administrative_deadline"
+        },
+        "first_collection": {
+          "value": "September 2026, including tax owed for electricity consumed from July 1 through September 1",
+          "unit": "first collection schedule",
+          "value_type": "administrative_schedule"
+        },
+        "monthly_reporting_route": {
+          "value": "utility-supplied electricity is billed and remitted by the service provider; self-supplied electricity is reported and paid directly by the operator",
+          "unit": "operational collection architecture",
+          "value_type": "administrative_route"
+        },
+        "self_supplied_due_date": {
+          "value": "last day of the succeeding month of consumption",
+          "unit": "remittance deadline",
+          "value_type": "administrative_deadline"
+        },
+        "late_penalty": {
+          "value": 10,
+          "unit": "percent of late payment under the cited state rule",
+          "value_type": "reported_penalty"
+        }
+      },
+      "method": "Official Virginia SCC Forms and Taxes and Fees pages checked October 20, 2026; the pages expose the registration form, monthly-report forms, collection architecture, deadlines, and late-payment rule.",
+      "uncertainty": "The pages establish an operational administration route, not facility-level registration completion, electricity consumption, tax remittance, utility pass-through, collected revenue, refunds, reliability, household bills, or environmental outcomes.",
+      "subgroup": "Virginia data-center operators, incumbent utilities, electric cooperatives, competitive service providers, and self-supplied facilities covered by the DCECT route.",
+      "counterinterpretation": "A live form and deadline can make a tax administratively actionable without showing compliance or who ultimately absorbs the charge; utility billing and direct operator remittance may create different visibility and incidence.",
+      "source_url": "https://www.scc.virginia.gov/regulated-industries/public-taxation/taxes-and-fees/",
+      "retrieval_hash": "sha256:11bfe513b31291c7ccff14fd8e23423d5e32554917aa98f874f39303ad90bf62",
+      "status": "reported"
+    },
+    {
+      "period": "October 20, 2026; first Virginia DCECT remittance timing and public-access recheck",
+      "denominator": {
+        "value": null,
+        "unit": "Virginia DCECT-covered operators and utility billing providers; public operator and payment denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "first_remittance_timing": {
+          "value": "The SCC says reports and payment are due by the last day of the succeeding month of collection; the first September-period remittance therefore falls at the end of October 2026 under the published schedule",
+          "unit": "reported payment deadline",
+          "value_type": "administrative_timing"
+        },
+        "public_payment_endpoint": {
+          "value": "The current SCC taxes-and-fees and forms pages expose the route, forms, and deadline but no operator-level registration, kWh, remittance, collected-revenue, or locality-receipt aggregate",
+          "unit": "public administrative visibility check",
+          "value_type": "documented_access_gap"
+        },
+        "household_and_grid_incidence": {
+          "value": "not observed",
+          "unit": "missing utility pass-through, feeder/reliability effect, household bill, environmental burden, refund, and local-acceptance endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded recheck of the official Virginia SCC taxes-and-fees and forms pages on October 20, 2026; payment timing and the absence of a public payment endpoint are retained separately from compliance or revenue realization.",
+      "uncertainty": "The published schedule does not establish whether any operator has registered or paid, whether utility providers have billed the charge, or whether a future aggregate will identify consumption, locality, refunds, or incidence.",
+      "subgroup": "Virginia data-center operators, utility billing providers, localities, ratepayers, and SCC administrators; no facility, operator, or household denominator is supplied.",
+      "counterinterpretation": "A known deadline may improve enforceability and future visibility without producing a public record of actual collection; the absence of a posted aggregate is an access boundary, not evidence of nonpayment.",
+      "source_url": "https://www.scc.virginia.gov/regulated-industries/public-taxation/taxes-and-fees/",
+      "retrieval_hash": "sha256:11bfe513b31291c7ccff14fd8e23423d5e32554917aa98f874f39303ad90bf62",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -98,6 +172,11 @@
       "source_url": "https://www.eia.gov/TODAYINENERGY/detail.php?id=67664",
       "claim": "EIA reports rapid Virginia commercial electricity-sales growth associated in part with data centers and a large PJM forecasted demand increase.",
       "status": "official-context"
+    },
+    {
+      "source_url": "https://www.scc.virginia.gov/regulated-industries/public-taxation/forms/",
+      "claim": "Virginia SCC exposes the Data Center Operator Registration Form and monthly Data Center Electricity Consumption Tax reports.",
+      "status": "official-administration"
     }
   ],
   "boundary": "This comparative record establishes state-level policy responses that make data-center electricity consumption taxable, reportable, or less exempt. It does not establish operator compliance, collected revenue, household bills, reliability, environmental burden, local acceptance, or whether the rules produce strategic autonomy or geopolitical leverage.",

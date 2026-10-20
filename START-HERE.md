@@ -1,5 +1,66 @@
 # Start here
 
+**Current continuation checkpoint — 2026-10-19:** the active four-rotation pass
+has added a [remote-work and care bargain finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-047.md),
+a [nursing-home finance-to-capacity synthesis](analysis/projects/us-nursing-home-inspection-quality/findings/us-nursing-home-finance-quality-capacity-2026-002.md),
+an [AI work, organization, and consumer-value synthesis](analysis/projects/cross-domain/us-ai-work-organization-consumer-value-2026-10-19.md),
+and a [school-finance long-run place-capacity synthesis](analysis/projects/cross-domain/us-school-finance-long-run-place-capacity-2026-10-19.md).
+Together they advance material/time, consumer/work power, place/public systems,
+and care/institutional-capacity lanes while keeping same-unit recovery,
+household incidence, trust, remedy, and exit explicitly open.
+
+The latest continuation pass adds an [infrastructure operation-to-incidence gate](analysis/projects/us-infrastructure-operation-incidence/infrastructure-operation-incidence-acquisition-gate-2026-10-19.md)
+and a [worker-control same-case follow-up](analysis/projects/us-worker-control-remedy/worker-control-stage-audit-v1.md).
+PJM and CHPE now have event/availability evidence; Virginia has formal payment
+and tax-administration machinery; Hotak has resumed post-restoration work. The
+remaining receipt, household, acceptance, recurrence, and exit arrows are
+explicitly open. The October 19 Virginia public-record recheck found no named
+operator return, remittance, customer bill, or locality receipt, so that route
+now stops at a documented access gap. The next dated receipt checkpoint is the
+Cleo AI payment start on October 27; in parallel, the next bounded route is a
+person- or case-linked public-benefit episode through notice, receipt, adequacy,
+correction, and persistence.
+The [public-benefit episode acquisition gate](analysis/projects/us-safety-net-access/public-benefit-episode-acquisition-gate-2026-10-19.md)
+records that route's candidate units and stopping rule.
+That pass now has two contrasting partial cases: the [New Jersey SNAP EBT
+replacement hearing](analysis/projects/us-safety-net-access/findings/us-new-jersey-snap-ebt-theft-hearing-denial-2025-001.md),
+which reaches an affirmed denial, and a [Connecticut replacement case](analysis/projects/us-safety-net-access/findings/us-connecticut-snap-ebt-replacement-partial-remedy-2023-001.md),
+which records a $582 credit before denying a larger residual claim. Neither
+record reaches later household recovery.
+
+The current geopolitical follow-up now extends the Lithuania airspace case
+through six NATO Baltic air-policing alerts during September 21–27, five more
+alerts during September 28–October 4, and one further flight-regulation
+violation during October 5–11, six further violations during October 12–18,
+and an October 8 company-sized Lithuanian border-security support deployment,
+alongside a NATO posture discussion covering
+stronger integrated air and missile defense and Drone Edge. A related balloon
+incursion reportedly disrupted civil flights and prompted a protest to Belarus.
+These additions show repeated response and civilian disruption, while
+incident-level causation, deterrence, implementation, burden-sharing, measured
+passenger cost, adversary behavior, and durable public legitimacy remain open.
+
+The current energy-benefit route is the [Solar for All credit, remedy, and
+persistence audit](analysis/projects/cross-domain/solar-for-all-credit-remedy-persistence-audit-v1.md):
+four retained project rows report monthly credits for every listed subscriber,
+but customer-level credit dollars, remaining bills, arrears, correction
+receipt, and continuation are still unobserved. This is an implementation
+endpoint, not yet verified household affordability.
+
+The current consumer-remedy handoff keeps two payment routes staged rather
+than collapsed into “refund received”: the [Cleo AI refund follow-up](analysis/projects/us-customer-automation-recourse/cleo-ai-refund-post-distribution-acquisition-gate-2026-10-19.md)
+has a scheduled October 27 payment start, while the Walmart wire-transfer
+route reports checks dispatched with a 90-day cashing window. Delivery,
+acceptance or cashing, adequacy, account correction, and later trust or exit
+remain separate tests.
+
+The broader [fraud, remedy receipt, and household recovery audit](analysis/projects/cross-domain/us-consumer-fraud-remedy-receipt-audit-v1.md)
+uses the Walmart wire-transfer refund as a concrete check-to-recovery test. It
+adds a cross-case cashing comparator and household financial-recovery context,
+but preserves the key boundary: a reported check distribution does not prove
+recipient-level cashing, adequate recovery, reduced repeat exposure, restored
+trust, or practical exit.
+
 **Latest rotation:** the [SSRS/CNN AI legitimacy synthesis](analysis/projects/cross-domain/ssrs-cnn-ai-fear-regulation-public-legitimacy-2026-09-29.md) adds a nationally representative public-attitude layer: AI exposure is accompanied by fear and concern and broad demand for federal regulation, while actual control, contestability, remedy, and trust remain open.
 The [European Commission Special Panel child-safety synthesis](analysis/projects/cross-domain/eu-child-safety-online-developmental-social-contract-2026-09-29.md) treats digital childhood as shared social infrastructure linking platform design, privacy, family time, child voice, complaint remedy, and offline community capacity.
 The new digital-middle synthesis is [encounter, interpretation, action, and trust](analysis/projects/cross-domain/us-digital-encounter-interpretation-action-trust-2026-09-29.md), which follows information from cultural and political exposure through verification, attribution, local correction, consequential action, and exit without pooling unlike sources.
@@ -110,13 +171,13 @@ The [program continuity ledger](analysis/US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.m
 is the durable control record for the long-term objective, active lanes,
 acquisition gates, and session handoffs.
 
-**Current operating checkpoint — 2026-09-29:** the atlas has 14 themes, 1830
-machine-readable records, 5,511 observations, 164 source packets, 1,151
+**Current operating checkpoint — 2026-10-19:** the atlas has 14 themes, 2,130
+machine-readable records, 6,179 observations, 164 source packets, 1,159
 published HTML pages checked by the
-publication gate. The source-promotion audit directly names 1475 records in
+publication gate. The source-promotion audit directly names 1,635 records in
 broad readers; its count is a navigation control, not a quality score. The
-broad event-ledger portfolio currently contains 98 ledgers, 302 events, 454
-arrows, and 164 open middle-stage arrows. One active depth lane is a
+broad event-ledger portfolio currently contains 103 ledgers, 317 events, 488
+arrows, and 177 open middle-stage arrows. One active depth lane is a
 storage-light same-case episode route through alternatives, effort/payment,
 institutional response, remedy/recovery, meaning/trust, action, and exit; it
 is a depth lane inside the broader 14-theme atlas, not the definition of the

@@ -1,0 +1,87 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_enforcement_consumer_redress_record",
+  "purpose": "Structured FTC Walmart wire-transfer refund ledger distinguishing reported check dispatch from consumer cashing, adequacy, and later financial recovery.",
+  "events": [
+    {
+      "event_id": "FTC-WALMART-WIRE-REFUND-2026-10-15",
+      "unit": "case",
+      "geography": "United States; consumers affected by fraud-induced Walmart wire transfers",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-10-15",
+      "date_precision": "Day precision for FTC payment announcement; recipients are instructed to cash checks within 90 days",
+      "denominator": "65,022 affected consumers receiving checks; aggregate recipient count, not a retained person-level denominator",
+      "method": "Structured extraction from the official FTC press release, Walmart case page, and timeline record",
+      "missingness": "No recipient identifiers, individual check amount, mailing or delivery result, cashing, returned check, reissue, original transfer loss, fraud recovery, household effect, trust, switching, or exit are retained",
+      "condition_or_decision": "payment",
+      "exposure": "The FTC alleged Walmart failed to implement effective anti-fraud policies, train employees adequately, and warn customers about fraud connected to its wire-transfer services",
+      "alternatives_before_action": "Consumers could stop or question a transfer, seek provider or law-enforcement help, use another transfer route, or pursue private recovery; person-level feasible alternatives and effort are not observed",
+      "immediate_burden_or_benefit": "Fraud-induced transfers could impose direct monetary loss, urgency, fear, and recovery effort; the public record does not quantify individual loss or household consequences",
+      "choice_or_response": "The FTC announced that checks were being sent and instructed recipients to cash them within 90 days; individual delivery, cashing, reissue, or continued use of Walmart transfer services is not observed",
+      "person_or_actor_with_control": "FTC and refund administrator control distribution; Walmart controlled the original service and prospective anti-fraud practices; recipients control cashing within the stated window under unknown access constraints",
+      "remedy_or_institutional_response": "The FTC announced more than $9.8 million in payments to 65,022 consumers following Walmart's 2025 $10 million settlement and required prospective anti-fraud actions",
+      "remedy_stage": "remedy_implemented",
+      "remedy_receipt": "Checks are reported as sent, but individual delivery, cashing, and receipt are not verified",
+      "durability_followup": "No recipient-level fraud recurrence, account correction, residual loss, trust, switching, or exit record is public in the payment announcement",
+      "immediate_outcome": "A reported consumer-refund distribution is underway with a defined 90-day cashing window",
+      "protected_outcome": "The distribution may return some loss to affected consumers, but individual receipt and adequacy are not established",
+      "sacrificed_outcome": "Original fraud loss, recovery effort, time, fear, and residual household burden remain unmeasured",
+      "cost_risk_transfer": "The remedy shifts some financial responsibility toward Walmart and the administrator, while delivery, cashing, and residual-loss risk remain with consumers until receipt is established",
+      "later_outcome": "Reported check dispatch is observed, but cashing, reissue, adequacy, fraud recurrence, household recovery, trust, switching, and exit remain unknown",
+      "meaning_and_attribution": "The agency attributes alleged control failures to Walmart, but consumer-level fairness, blame, trust, or legitimacy change is not measured",
+      "public_or_collective_response": "FTC enforcement and refund administration are observed; consumer organizing, complaint persistence, and political action are not linked",
+      "counterexample": "Checks sent to an affected-consumer group can coexist with failed delivery, uncashed or returned checks, inadequate amounts, or continued fraud exposure",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official FTC press release dated 2026-10-15 (https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sends-more-98-million-consumers-harmed-walmarts-failure-stop-scammers-used-its-wire-transfer), Walmart case page (https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3012-walmart-ftc-v), and official timeline record (https://www.ftc.gov/legal-library/browse/cases-proceedings/walmart-ftc-v-timeline-item-2026-10-15). The public records establish reported dispatch, aggregate amount, recipient count, and cashing window, not individual delivery, cashing, adequacy, or later outcome",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sends-more-98-million-consumers-harmed-walmarts-failure-stop-scammers-used-its-wire-transfer"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FTC-WALMART-WIRE-A-01",
+      "from": "fraud-induced transfer exposure",
+      "to": "FTC settlement and anti-fraud response",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC case record describes alleged control failures, the 2025 settlement, monetary judgment, and prospective anti-fraud obligations",
+      "status": "reported",
+      "counterexample": "The enforcement record does not identify every affected transfer or consumer-level loss",
+      "remaining_gap": "Consumer-level transaction, loss, notice, and recovery-effort linkage"
+    },
+    {
+      "arrow_id": "FTC-WALMART-WIRE-A-02",
+      "from": "settlement and refund eligibility",
+      "to": "reported check dispatch",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC says it is sending more than $9.8 million in checks to 65,022 affected consumers",
+      "status": "reported",
+      "counterexample": "Reported dispatch does not establish mailing success, receipt, or a stable person-level denominator",
+      "remaining_gap": "Recipient identity, delivery, failed mail, address update, reissue, and individual amount"
+    },
+    {
+      "arrow_id": "FTC-WALMART-WIRE-A-03",
+      "from": "check dispatch",
+      "to": "check cashing and usable receipt",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "Recipients are instructed to cash checks within 90 days, but the public announcement reports no later cashing result",
+      "status": "open",
+      "counterexample": "A sent check can be uncashed, returned, inaccessible, or delayed",
+      "remaining_gap": "Cashing, receipt date, returned check, reissue, account access, and amount"
+    },
+    {
+      "arrow_id": "FTC-WALMART-WIRE-A-04",
+      "from": "usable refund",
+      "to": "financial recovery, fraud recurrence, trust, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC payment and case records provide no recipient-level later household or behavioral follow-up",
+      "status": "open",
+      "counterexample": "A cashed refund does not establish adequate recovery, restored security, or changed use of transfer services",
+      "remaining_gap": "Original loss, adequacy, household recovery, recurrence, trust, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger establishes an official aggregate refund distribution with reported check dispatch and a 90-day cashing window. It does not establish recipient-level delivery, cashing, adequate recovery, fraud prevention, trust, switching, or exit.",
+  "storage_boundary": "Only compact official page-derived fields and source URLs are retained; no recipient identifiers, mailing records, payment file, or raw personal data is downloaded."
+}

@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyc-bay-parkway-fast-bus-safety-2026",
+  "title": "Brooklyn bus-lane and safety works begin on a high-use, high-injury corridor while rider and safety gains remain to be measured",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "time_hidden_price",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "housing_place_mobility"
+  ],
+  "source_unit": "New York City Mayor's Office and NYC Department of Transportation Bay Parkway/Cropsey Avenue bus-priority and street-safety project announcement",
+  "geography": "Bay Parkway and Cropsey Avenue, Brooklyn, New York City",
+  "observations": [
+    {
+      "period": "October 6, 2026; construction start and affected-rider frame",
+      "denominator": {
+        "value": 35000,
+        "unit": "daily riders along the Bay Parkway/Cropsey Avenue project corridor",
+        "value_type": "agency_reported_daily_rider_count"
+      },
+      "measures": {
+        "route_rider_exposure": {
+          "value": 85000,
+          "unit": "daily riders using each affected route, as reported by the city",
+          "value_type": "agency_reported_daily_rider_count"
+        },
+        "baseline_bus_speed": {
+          "value": 3,
+          "unit": "miles per hour, reported as a speed as low as on Bay Parkway",
+          "value_type": "reported_operating_condition"
+        },
+        "implementation_stage": {
+          "value": "Work began on a redesign from Avenue J to Shore Parkway and from Bay Parkway to 26th Avenue, including offset or curbside bus lanes, pedestrian improvements, turn-lane changes, and turn restrictions",
+          "unit": "started transportation intervention",
+          "value_type": "reported_implementation"
+        },
+        "post_implementation_effect": {
+          "value": "not observed",
+          "unit": "missing completed construction, route-level travel-time change, reliability, rider cost or time receipt, displacement, and public acceptance",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the official New York City Mayor's Office announcement; rider counts and the implementation stage are retained as exposure and delivery fields, not as realized service improvement.",
+      "uncertainty": "The announcement does not provide a pre/post travel-time series, construction completion date, reliability measure, rider survey, fare effect, or comparison corridor. The reported 85,000 figure is retained as stated and is not converted into unique riders or household benefit.",
+      "subgroup": "Bus riders on the B6, B82, X28, and X38 and people using Bay Parkway and Cropsey Avenue; exposure may differ by route, time, disability, work schedule, and neighborhood.",
+      "counterinterpretation": "Bus lanes can improve transit speed while shifting curb access, parking, turning, loading, or traffic delay onto other users; starting work does not establish a net local benefit.",
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/10/fast-buses--mayor-mamdani-breaks-ground-on-new-bus-lanes-and-saf",
+      "retrieval_hash": "sha256:4e87feec8a6177bc1cef33c23286e22782dc1bbf2429a2386c1abaf37980c8f2",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2025; pre-intervention crash and injury baseline",
+      "denominator": {
+        "value": 5,
+        "unit": "years in the reported Bay Parkway/Cropsey Avenue crash baseline",
+        "value_type": "reported_baseline_window"
+      },
+      "measures": {
+        "traffic_deaths": {
+          "value": 4,
+          "unit": "people killed in traffic crashes on the two streets during 2021–2025",
+          "value_type": "reported_count"
+        },
+        "serious_injuries": {
+          "value": 26,
+          "unit": "people seriously injured in traffic crashes on the two streets during 2021–2025",
+          "value_type": "reported_count"
+        },
+        "safety_intervention_logic": {
+          "value": "The city identifies the corridors as Vision Zero priority corridors and links left-turn restrictions and dedicated turn lanes to its stated injury-reduction rationale",
+          "unit": "reported policy mechanism",
+          "value_type": "reported_intervention_rationale"
+        },
+        "later_safety_outcome": {
+          "value": "not observed",
+          "unit": "missing post-treatment crash, injury, speed, compliance, and resident or rider safety-perception outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Extraction of the city's reported five-year crash and injury counts and stated Vision Zero intervention rationale; the baseline is not independently reconstructed here and is not treated as a causal counterfactual.",
+      "uncertainty": "The source does not provide exposure-adjusted rates, crash circumstances, pedestrian or cyclist denominators, seasonal controls, or a post-project follow-up. The reported corridor total cannot identify which users would experience future risk changes.",
+      "subgroup": "Pedestrians, cyclists, bus riders, drivers, delivery workers, and residents along the two corridors; the announcement does not link injuries to demographic or household characteristics.",
+      "counterinterpretation": "A high-crash baseline supports a safety rationale but does not show that the announced design will reduce injuries; enforcement, behavior, traffic diversion, and construction disruption may alter outcomes.",
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/10/fast-buses--mayor-mamdani-breaks-ground-on-new-bus-lanes-and-saf",
+      "retrieval_hash": "sha256:4e87feec8a6177bc1cef33c23286e22782dc1bbf2429a2386c1abaf37980c8f2",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record follows a named Brooklyn transportation project from a dated construction start to an affected-rider and crash/injury baseline. It does not establish completed implementation, realized travel-time or reliability improvement, rider affordability, safety reduction, traffic displacement, or durable public acceptance.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Normalized evidence digest generated from the indexed official city announcement after direct retrieval returned HTTP 403; the access limitation is recorded rather than treated as evidence about the project.",
+    "checked": "2026-10-20"
+  }
+}

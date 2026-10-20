@@ -1,0 +1,46 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-dol-osha-texas-asbestos-whistleblower-remedy-2026",
+  "title": "Worker safety voice can produce a retaliation finding and remedy order without proving safe return or lived recovery",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "DOL OSHA whistleblower remedy episode involving Texas post-Hurricane Beryl hotel repair",
+  "geography": "Houston, Texas, United States",
+  "observations": [
+    {
+      "period": "Underlying post-Hurricane Beryl hotel-repair episode; OSHA release published February 12, 2026",
+      "denominator": {
+        "value": 2,
+        "unit": "workers named in the agency episode",
+        "value_type": "agency_reported_worker_count"
+      },
+      "measures": {
+        "safety_exposure": {"value": "workers raised concerns about missing asbestos training and certification, inadequate PPE, and illegal asbestos dumping", "unit": "reported hazardous-work and environmental concern", "value_type": "reported_worker_safety_exposure"},
+        "retaliation": {"value": "both workers were reportedly terminated after raising concerns; OSHA found the terminations retaliatory under three environmental statutes", "unit": "agency-reported retaliation finding", "value_type": "reported_retaliation_finding"},
+        "remedy_order": {"value": 200000, "unit": "more than U.S. dollars in back wages, interest, compensatory damages, and punitive damages, plus reinstatement of both workers", "value_type": "reported_remedy_order"},
+        "payment_and_return": {"value": "not observed", "unit": "missing individual allocation, payment date, receipt, actual reinstatement, safe work conditions, household effects, recurrence, trust, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "Protected safety voice can surface public risk while shifting termination and complaint costs onto workers until an agency order attempts to restore employment and compensation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the official DOL OSHA whistleblower-remedy release; worker concerns, termination, agency finding, and remedy order are kept separate from payment, return, and safety-restoration outcomes.",
+      "uncertainty": "The release does not provide worker names, exact exposure or injury, hours, complaint effort, alternatives, individual payment allocation, payment date, actual return, job conditions, safety controls, household effects, recurrence, trust, or exit. Facts and order are agency-reported, not independently audited here.",
+      "subgroup": "Two workers on a Houston hotel-repair project after Hurricane Beryl; no prevalence denominator or comparison group is supplied.",
+      "counterinterpretation": "A formal retaliation finding and reinstatement order can recognize protected voice while payment, safe return, employer compliance, and worker willingness to return remain unresolved.",
+      "source_url": "https://www.dol.gov/newsroom/releases/osha/osha20260212",
+      "retrieval_hash": "sha256:c758e296a05d4e1799129b9259180f7853d8a24701b681b43491f3f383af136c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a bounded worker-safety voice, retaliation finding, investigation, and remedy-order segment. It does not establish payment, reinstatement, safe return, deterrence, community protection, prevalence, or durable recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the official OSHA release; worker names, complaint files, payroll, health, and restricted records are not retained.",
+    "checked": "2026-10-20"
+  }
+}

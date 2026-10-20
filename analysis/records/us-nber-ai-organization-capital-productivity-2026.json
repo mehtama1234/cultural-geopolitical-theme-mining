@@ -14,6 +14,7 @@
         "ai_investment_and_productivity": {"value": null, "unit": "AI investments are associated with productivity growth in recent years but not over the previous decade", "value_type": "reported_association"},
         "organization_capital": {"value": null, "unit": "productivity gains are traced to durable firm-specific knowledge acquired through learning-by-doing", "value_type": "reported_mechanism"},
         "ai_skilled_jobs": {"value": null, "unit": "productivity gains are driven by AI-skilled jobs that build organization capital", "value_type": "reported_mechanism"},
+        "workforce_composition_comparator": {"value": null, "unit": "related NBER workforce-composition evidence reports more educated, STEM-, and IT-intensive workforces, more junior workers, and fewer middle-management and senior workers as firms invest in AI", "value_type": "reported_direction_from_related_study"},
         "sales_per_worker_featured_estimate": {"value": null, "unit": "the existing project summary reports 6.2 percentage points greater 2018–2024 sales-per-worker growth for a one-standard-deviation increase in AI-skilled employment-share growth; the abstract does not reproduce this estimate", "value_type": "project_linked_estimate"}
       },
       "method": "Firm-level measure of AI investment based on AI-skilled employment, matched job-description measure of organization capital, and comparison of recent productivity growth with the prior decade.",
@@ -26,6 +27,7 @@
     }
   ],
   "related_sources": [
+    {"source_url": "https://www.nber.org/books-and-chapters/technology-productivity-and-economic-growth/firm-investments-artificial-intelligence-technologies-and-changes-workforce-composition", "claim": "Published NBER chapter evidence finds that AI-investing firms shift toward more educated, STEM-, and IT-intensive workforces, with more junior workers and fewer middle-management and senior workers.", "status": "related-workforce-composition"},
     {"source_url": "https://www.nber.org/papers/w35707", "claim": "US product-market rivalry and cost-of-capital shocks shape investment, markups, and concentration.", "status": "related-evidence"},
     {"source_url": "https://www.nber.org/papers/w35640", "claim": "Worker heterogeneity explains much of the modeled variation in labor-supply elasticities and wage markdowns.", "status": "related-evidence"},
     {"source_url": "https://www.nber.org/papers/w35542", "claim": "US product-market creative destruction passes asymmetric risk into incumbent-worker earnings and jobs.", "status": "related-evidence"}

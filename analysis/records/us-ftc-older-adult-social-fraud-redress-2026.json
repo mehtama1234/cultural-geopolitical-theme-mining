@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-older-adult-social-fraud-redress-2026",
+  "title": "Older-adult social-platform fraud reports show a high-loss route that enforcement and redress do not yet close",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Federal Trade Commission Protecting Older Consumers 2025-2026 report and October 19, 2026 release",
+  "geography": "United States; older-adult fraud reports submitted to the FTC Consumer Sentinel Network and selected FTC enforcement/redress matters",
+  "observations": [
+    {
+      "period": "2020-2025 reported-fraud trend; 2024-2026 FloatMe enforcement/redress example",
+      "denominator": {
+        "value": null,
+        "unit": "Fraud reports submitted by older adults and selected enforcement/redress populations; report and case denominators are not a population estimate or one linked cohort",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "reported_older_adult_fraud_losses": {
+          "value": "about $600 million in 2020 to approximately $3 billion in 2025",
+          "unit": "reported losses in fraud reports from adults age 60 and over",
+          "value_type": "reported_aggregate_change"
+        },
+        "reported_social_platform_investment_route": {
+          "value": "investment-scam losses reported by older adults exceeded $1 billion in 2025, and the FTC says scammers often reached older adults through social media",
+          "unit": "reported loss and contact-route description",
+          "value_type": "reported_aggregate_and_process"
+        },
+        "age_loss_gradient": {
+          "value": 2000,
+          "unit": "U.S. dollars median reported individual loss among reporters age 80 and over in 2025",
+          "value_type": "reported_median"
+        },
+        "enforcement_redress_route": {
+          "value": "$3 million FloatMe redress order, more than $1.5 million refunded in September 2024, and more than $1 million in April 2026 payments to people who accepted their first payment; the settlement also required easier cancellation and a fair-lending program",
+          "unit": "reported enforcement and redress stages",
+          "value_type": "reported_process_and_aggregate"
+        },
+        "recipient_recovery": {
+          "value": "not linked or measured for the older-adult fraud reports; individual delivery, acceptance, adequacy, account correction, repeat exposure, and durable trust remain open",
+          "unit": "same-person recovery and platform-control outcomes",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from the FTC annual report, its accompanying press release, and the report's cited enforcement/redress example. Reported losses, contact routes, age gradients, enforcement terms, and payment stages are retained as separate estimands.",
+      "uncertainty": "Consumer Sentinel data are selected reports, not a census of fraud, older adults, social-media exposure, or true loss. The report's older-adult fraud statistics and FloatMe redress example do not identify the same people, and reported loss does not establish platform causation, preventability, or household harm.",
+      "subgroup": "Adults age 60 and over who submitted fraud reports, with a highlighted age-80-and-over median-loss comparison; the FloatMe payment population is a separate case-defined group.",
+      "counterinterpretation": "The increase in reported losses may reflect reporting, scam composition, unusually large individual losses, platform use, or partner coverage as well as more fraud. Lower loss-report rates among older adults can coexist with higher median losses among those who do report.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-annual-report-congress-agencys-actions-protect-older-adults",
+      "retrieval_hash": "sha256:c6bdaca1b941473cc8fd41d8714cb09c9bb808792cfb023aea39dcc428c36b37",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/reports/protecting-older-consumers-2025-2026-report-federal-trade-commission",
+      "claim": "The FTC report provides the 2025 older-adult fraud findings and selected enforcement examples.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2026-older-adults-report-10192026.pdf",
+      "claim": "The report PDF is the cited source for the annual-report findings and enforcement/redress discussion.",
+      "status": "official-report-file"
+    }
+  ],
+  "boundary": "This record advances a bounded platform-exposure-to-remedy route for older adults: reported social-media contact and high-loss fraud are followed by enforcement and aggregate redress design. It does not establish true prevalence, platform causation, individual receipt or recovery, cancellation or fair-lending compliance in practice, restored household security, or durable trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical FTC press-release URL string used as a stable source identifier; official report and PDF links are retained for reproduction.",
+    "retrieval_hash": "sha256:c6bdaca1b941473cc8fd41d8714cb09c9bb808792cfb023aea39dcc428c36b37",
+    "checked": "2026-10-20"
+  }
+}

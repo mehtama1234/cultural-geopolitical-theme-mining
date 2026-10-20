@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-veteran-snap-outreach-access-2026",
+  "title": "Veteran-focused SNAP outreach can reach a recommendation and coordination stage while benefit access and food security remain open",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108111 review of SNAP outreach to veterans",
+  "geography": "United States veterans and veteran households eligible for or receiving SNAP through state-administered outreach",
+  "observations": [
+    {
+      "period": "2015–2020 food-insecurity estimate, fiscal year 2026 state outreach plans, and October 1, 2026 GAO review",
+      "denominator": {
+        "value": 47,
+        "unit": "states with fiscal year 2026 SNAP outreach plans reviewed for whether veterans were identified as a target group",
+        "value_type": "reported_state_plan_cohort"
+      },
+      "measures": {
+        "food_insecurity_exposure": {
+          "value": 1400000,
+          "unit": "average annual number of veterans estimated by a 2023 RAND report to have faced food insecurity from 2015 through 2020",
+          "value_type": "reported_secondary_estimate"
+        },
+        "state_outreach_targeting": {
+          "value": 39,
+          "unit": "states among 47 with fiscal year 2026 outreach plans that identified veterans as a target group",
+          "value_type": "reported_state_plan_count"
+        },
+        "coordination_status": {
+          "value": "VA and USDA established a memorandum of agreement in September 2023, but officials told GAO collaboration slowed after April 2025 and the agreement had not been reviewed as specified, leaving its current status unclear",
+          "unit": "reported interagency coordination condition",
+          "value_type": "reported_implementation_finding"
+        },
+        "recommendation_status": {
+          "value": 4,
+          "unit": "open GAO recommendations to USDA and VA concerning current eligibility information, veteran-tailored outreach materials, and a formal collaboration mechanism",
+          "value_type": "open_recommendation_count"
+        },
+        "access_conversion": {
+          "value": "not measured",
+          "unit": "veteran contact, application, eligibility, approval, benefit receipt, benefit adequacy, food security, household recovery, trust, or durable participation",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-108111, including its review of state outreach plans, agency documentation, Census analysis, interviews, and open recommendations. Exposure, outreach targeting, coordination, recommendations, and benefit outcomes are retained as separate stages.",
+      "uncertainty": "The food-insecurity estimate is a secondary 2015–2020 estimate and is not a current SNAP-eligible denominator. State plan targeting indicates intended outreach, not completed contact or receipt. The report does not measure veteran-level application, approval, payment, adequacy, or food-security conversion.",
+      "subgroup": "Veterans and veteran households with limited or uncertain food access, including people reached through VA, state SNAP agencies, and veteran organizations.",
+      "counterinterpretation": "Lower veteran SNAP participation may reflect eligibility, income, administrative burden, stigma, beliefs, or alternative supports rather than outreach alone; tailored materials and interagency coordination can improve information without guaranteeing benefit access or adequate food.",
+      "source_url": "https://www.gao.gov/products/gao-27-108111",
+      "retrieval_hash": "sha256:593442166b607ba1a1aaca23d61f2c4968f9dcd5e5c8548278aa798f4d66ce33",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/gao-27-108111.pdf",
+      "claim": "The official GAO report PDF contains the veteran food-insecurity, outreach-plan, coordination, and recommendation findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/blog/veterans-need-food-assistance-dont-always-participate-snap-heres-why",
+      "claim": "The GAO companion explanation describes veteran SNAP participation barriers and outreach context.",
+      "status": "official-companion"
+    }
+  ],
+  "boundary": "This record advances a bounded veteran food-insecurity-to-outreach-and-interagency-recommendation route. It does not establish veteran-level eligibility, application, approval, benefit receipt, adequacy, food security, household recovery, trust, or completed agency action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; official report PDF and companion explanation are retained for reproduction.",
+    "retrieval_hash": "sha256:593442166b607ba1a1aaca23d61f2c4968f9dcd5e5c8548278aa798f4d66ce33",
+    "checked": "2026-10-20"
+  }
+}

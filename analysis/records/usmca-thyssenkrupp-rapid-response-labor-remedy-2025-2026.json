@@ -41,7 +41,15 @@
       "status": "reported"
     }
   ],
-  "related_sources": [],
+  "related_sources": [
+    {"source_url": "https://ustr.gov/trade-topics/enforcement/dispute-settlement-proceedings/fta-dispute-settlement/usmca/chapter-31-annex-facility-specific-rapid-response-labor-mechanism", "claim": "Official USTR facility-specific RRM index lists the ThyssenKrupp review, March 16, 2026 resolution, and resumption-of-liquidation letter, with no later ThyssenKrupp-specific follow-up listed at the 2026-10-19 recheck.", "status": "official_followup_index_recheck"}
+  ],
   "boundary": "This record measures one official USMCA labor-enforcement case and its reported institutional response. It does not establish worker receipt, durable bargaining power, non-retaliation, sector-wide compliance, causal leverage, or general performance of the Rapid Response Labor Mechanism.",
-  "retrieval_hash": "sha256:4178336a51f03cbd7d8121587284e2753164ed344d8b828f5acf4b9e6dcb8323"
+  "retrieval_hash": "sha256:4178336a51f03cbd7d8121587284e2753164ed344d8b828f5acf4b9e6dcb8323",
+  "reproduction_audit": {
+    "checked": "2026-10-19",
+    "official_followup_index": "https://ustr.gov/trade-topics/enforcement/dispute-settlement-proceedings/fta-dispute-settlement/usmca/chapter-31-annex-facility-specific-rapid-response-labor-mechanism",
+    "result": "The USTR facility-specific index lists the March 16, 2026 resolution and resumption-of-liquidation letter as the latest ThyssenKrupp-specific public items; no later facility-specific monitoring, payment, worker, or recurrence record was listed at recheck.",
+    "interpretation": "This is a public-observation cutoff, not evidence that later compliance, worker experience, or durability did not occur."
+  }
 }

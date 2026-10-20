@@ -1,0 +1,41 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwc-customer-allocation-nonreturn-remedy-2023",
+  "title": "A documented non-return decision can follow job search and alternative employment without proving durable distrust or recovery",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "trust_identity_meaning", "public_systems_feedback", "time_hidden_price", "unequal_exposure_status"],
+  "source_unit": "Primary Fair Work Commission decision [2023] FWC 2485 and order PR766604",
+  "geography": "Melbourne, Australia",
+  "observations": [
+    {
+      "period": "June 28–September 4, 2023; dismissal, job search, alternative employment, non-return, and compensation order",
+      "denominator": {"value": 1, "unit": "publicly identified adjudicated worker case; no population denominator", "value_type": "single_public_case"},
+      "measures": {
+        "job_applications": {"value": 11, "unit": "applications between 2023-07-07 and 2023-08-14", "value_type": "adjudicated_case_count"},
+        "unemployment_interval": {"value": "seven weeks and five days", "unit": "between dismissal and new employment", "value_type": "adjudicated_case_interval"},
+        "alternative_employment_start": {"value": "2023-09-04", "unit": "new full-time employment; pay reported at least equivalent", "value_type": "reported_case_date"},
+        "assessed_economic_loss": {"value": 4312, "unit": "Australian dollars", "value_type": "adjudicated_case_measure"},
+        "compensation_order": {"value": 4312, "unit": "Australian dollars, ordered by electronic transfer within 21 days", "value_type": "adjudicated_remedy_order"},
+        "non_return_reason": {"value": "worker stated she did not wish to return because of the customer-allocation mechanism", "unit": "case-level meaning/action signal", "value_type": "reported_case_position"},
+        "payment_receipt_and_later_recovery": {"value": "not observed", "unit": "missing transfer confirmation, adequacy, job duration, household, trust, recurrence, and exit evidence", "value_type": "unmeasured"}
+      },
+      "method": "Structured extraction from the primary Fair Work Commission decision and linked order; job-search count, unemployment interval, alternative employment, non-return reason, assessed loss, and remedy order are kept separate from payment and durable outcomes.",
+      "uncertainty": "One case cannot estimate job-search, non-return, compensation, payment, or recovery rates. The public decision does not enumerate the full offer set, search cost, job duration, household effects, later trust, recurrence, collective action, or exit.",
+      "subgroup": "One part-time sales/beauty consultant dismissed after disputed performance warnings and a customer-allocation or sales-target mechanism.",
+      "counterinterpretation": "An explicit non-return statement may reflect a bounded workplace mechanism and constrained choice rather than measured institutional distrust or broad labor-market exit; an order does not prove receipt or adequacy.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2023fwc2485.pdf",
+      "retrieval_hash": "sha256:946927f4412d510f91a0813d58e455f986d82820a9c9fd110ac049aa4d85b411",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr766604.pdf", "claim": "Official order specifying the A$4,312 electronic-transfer remedy and deadline.", "status": "official-order"},
+    {"source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders", "claim": "Official Fair Work Commission decision and order search route.", "status": "official-search"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger containing the bounded decision and order extraction.",
+    "access_boundary": "The official route reports job search, new employment, non-return reasoning, and an order but no later payment confirmation, job duration, household recovery, trust, recurrence, collective action, switching, or exit."
+  },
+  "boundary": "This record adds one primary case with observed job-search effort, alternative employment, an explicit non-return decision tied to a workplace mechanism, and an ordered compensation remedy. It does not establish payment receipt, full trust measurement, household recovery, recurrence, collective action, switching, or exit."
+}

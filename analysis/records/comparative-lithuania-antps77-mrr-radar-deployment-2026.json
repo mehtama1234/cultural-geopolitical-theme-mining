@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-antps77-mrr-radar-deployment-2026",
+  "title": "Delivered mobile radars turn allied air-surveillance procurement into an integrated capability stage",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of AN/TPS-77 MRR radar delivery and integration",
+  "geography": "Lithuania and NATO integrated air and missile defence system",
+  "observations": [
+    {
+      "period": "October 20, 2026 delivery and integration announcement",
+      "denominator": {
+        "value": 1,
+        "unit": "named Lithuanian airspace-surveillance capability route using AN/TPS-77 MRR mobile medium-range radars",
+        "value_type": "official_capability_episode"
+      },
+      "measures": {
+        "delivery_status": {"value": "radars manufactured by Lockheed Martin were reported delivered to Lithuania", "unit": "reported procurement stage", "value_type": "agency_reported_delivery"},
+        "integration_status": {"value": "Lithuanian Armed Forces were reported to be deploying the radars and connecting real-time data to NATO's integrated air and missile defence system", "unit": "reported integration stage", "value_type": "agency_reported_integration"},
+        "claimed_capability": {"value": "timely airborne-object detection, more flexible surveillance, contribution to the common Alliance air picture, and improved Lithuanian-allied interoperability", "unit": "reported capability rationale", "value_type": "agency_reported_capability_claim"},
+        "follow_on_contracts": {"value": "additional contracts were stated as planned for 2026 to strengthen recognition and neutralization of air threats", "unit": "reported future procurement plan", "value_type": "reported_plan"},
+        "operational_effect": {"value": "not observed", "unit": "missing quantity, acceptance record, uptime, training, actual detections, response outcomes, readiness, deterrence, and civilian-protection effect", "value_type": "unmeasured"},
+        "mechanism": {"value": "A delivered sensor becomes strategically consequential only through integration, staffing, availability, data-sharing, and response; delivery and declared interoperability establish a stronger capability stage without proving operational effect.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Lithuanian Ministry of National Defence announcement. Delivery, integration, claimed surveillance function, and planned follow-on procurement are kept separate from acceptance, availability, actual detection, response, deterrence, and civilian outcomes.",
+      "uncertainty": "The announcement does not publish contract value, number of radars, acceptance documentation, deployment locations, training or staffing, network performance, uptime, detection records, response timing, or later airspace outcomes.",
+      "subgroup": "Lithuanian Armed Forces, NATO air-defence partners, Lockheed Martin, and populations exposed to Baltic airspace risk; no civilian or operational-outcome subgroup is supplied.",
+      "counterinterpretation": "Delivered and integrated sensors may improve shared awareness and allied coordination, while capability claims can still overstate readiness if staffing, network availability, response assets, or maintenance are constrained.",
+      "source_url": "https://kam.lt/oro-erdves-stebejimo-pajegumai-stiprinami-moderniais-radarais-is-jav/",
+      "retrieval_hash": "sha256:ce79d6af681559d9237328084b5147dc21698f212547af62777efa0db0384315",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ac.nato.int/missions/air-policing/baltics", "claim": "NATO Baltic Air Policing provides the allied air-policing context in which national surveillance and shared air-picture integration operate.", "status": "official-context"},
+    {"source_url": "https://kam.lt/es-lietuvos-gynybos-pramones-imonei-skyre-295-mln-euru/", "claim": "A same-day Lithuanian defense-industrial funding announcement provides a separate production-capacity stage; it is not evidence of radar delivery or operation.", "status": "related-context"}
+  ],
+  "boundary": "This record establishes reported delivery and integration of AN/TPS-77 MRR radars into Lithuanian/NATO air-surveillance arrangements, plus a stated follow-on procurement plan. It does not establish acceptance, sustained availability, actual detections, response outcomes, deterrence, reduced civilian risk, or public consent.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the official Lithuanian Ministry source; contract files, operational logs, and civilian incident records are not retained."
+  }
+}

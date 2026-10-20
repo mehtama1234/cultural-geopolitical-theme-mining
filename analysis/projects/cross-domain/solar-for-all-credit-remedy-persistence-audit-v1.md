@@ -26,6 +26,7 @@ energy security, and trust`.
 | Project-level receipt | [DCPSC monthly-credit filing](../../records/us-dcpsc-solar-for-all-monthly-credit-receipt-2025.json) | Four retained project rows report 309/309, 303/303, 297/297, and 260/260 listed subscribers receiving a monthly credit. | This is a selected project-row slice, not the full program; it does not expose dollars, bill posting, net savings, arrears, or later continuation. |
 | Failure and notice | [DCPSC/DOEE credit-error record](../../records/us-dcpsc-solar-credit-error-rate-remedy-2025.json) | A billing episode front-loaded credits into June and July; affected customers received a debit letter and a September adjustment was planned. | Affected-customer count, account-level correction, adequacy, and later outcome are not observed. |
 | Institutional audit limit | [DCPSC/DOEE remedy record](../../records/us-dcpsc-solar-credit-error-rate-remedy-2025.json) | A 2024–25 audit could not resolve whether Pepco properly credited subscribers because required billing data were not supplied in time; a $5.70 per subscriber-month error-rate remedy was proposed. | The proposed amount is not an observed loss, final order, payment, or subscriber-level receipt. |
+| Remedy-scenario detail | [DCPSC/OPC filing](../../records/us-dcpsc-solar-credit-error-rate-remedy-2025.json) | The available analysis covers 11 SFA CREF aggregations, reports six net-overpaid and five net-underpaid CREFs, and estimates a roughly $245 full-period bill credit under the recommended $5.70-per-subscriber-month scenario. | The sample may not represent all SFA CREFs; the estimate remains a proposed aggregate method, not a verified correction on a named account. |
 | Consumer-protection route | [DOE Clean Energy Connector](../../records/us-doe-clean-energy-connector-low-income-bill-credit-2024-2026.json) | LIHEAP recipients can be identified for opt-in community-solar access; the program requires at least a 20% minimum difference between household benefit and participation cost and describes disclosures and data safeguards. | The page does not report eligible households, completed enrollment, realized credit, retention, or energy-security change. |
 
 ## Finding
@@ -43,9 +44,13 @@ account, housing, or project conditions changed.
 
 The remedy evidence makes the institutional conversion problem visible. When
 customer-level billing data were unavailable for a core audit purpose, the system
-could still propose an error-rate remedy. That may be practical, but the remedy
-itself has stages—proposal, adoption, account correction or payment, adequacy,
-and later trust—and only the proposal is visible in this bounded record.
+could still propose an error-rate remedy. The available analysis covers 11 SFA
+CREF aggregations, finds both over- and under-crediting, and estimates a roughly
+$245 full-period bill credit under the recommended $5.70-per-subscriber-month
+scenario. That is stronger than a generic promise but remains an aggregate
+method and not a named-account correction. The remedy itself still has stages—
+proposal, adoption, account correction or payment, adequacy, and later trust—
+and only the proposal is visible in this bounded record.
 
 ## National consequence comparator
 
@@ -100,6 +105,17 @@ on funding, state workplans, asset performance, and legal/political continuity.
 That discussion usefully names persistence and contestation as public concerns,
 but it is advocacy/professional discussion and cannot substitute for bills or
 remedy records.
+
+## Public-record follow-up checkpoint — 2026-10-19
+
+The DCPSC public meeting index lists an order regarding the Formal Case 1171
+audit of Pepco's community-renewable-energy practices on the May 7, 2025
+commission agenda. The accessible docket material checked for this pass still
+does not expose a named subscriber, account-level corrected bill, final
+subscriber credit, or later continuation outcome. The route therefore closes
+this public-record recheck at the regulatory audit/remedy-design boundary;
+reopening it requires a newly available order, docket attachment, or lawful
+de-identified billing extract with account-linked fields.
 
 ## Next evidence request and learning design
 

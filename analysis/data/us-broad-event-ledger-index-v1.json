@@ -4,6 +4,16 @@
   "purpose": "Explicit inventory of committed real artifacts that use the us-broad-event-ledger-schema-v1 contract; similarly named API rechecks and audit summaries are not included unless they declare that schema.",
   "entries": [
     {
+      "path": "analysis/projects/us-customer-automation-recourse/data/ftc-cleo-ai-refund-planned-payment-event-ledger-v1.json",
+      "domain": "consumer_financial_recourse",
+      "role": "FTC Cleo AI planned PayPal refund distribution, acceptance window, and open recipient recovery route"
+    },
+    {
+      "path": "analysis/projects/us-customer-automation-recourse/data/ftc-walmart-wire-transfer-refund-dispatch-event-ledger-v1.json",
+      "domain": "consumer_financial_recourse",
+      "role": "FTC Walmart wire-transfer refund dispatch, 90-day cashing window, and open recipient recovery route"
+    },
+    {
       "path": "analysis/projects/us-repeat-energy-crises/data/california-la-wildfire-recovery-persistence-event-ledger-v1.json",
       "domain": "disaster_public_system_delivery",
       "role": "continued FEMA housing support, residual-need recontact, and CalAssist mortgage/insurance bridge"
@@ -459,6 +469,11 @@
       "role": "GAO SNAP EBT theft, aggregate replacement, security controls, and open food-security/trust route"
     },
     {
+      "path": "analysis/projects/us-safety-net-access/data/us-connecticut-snap-ebt-replacement-partial-remedy-event-ledger-v1.json",
+      "domain": "public_assistance",
+      "role": "Connecticut SNAP EBT theft report, new card, reported $582 replacement credit, residual appeal, and open household-recovery route"
+    },
+    {
       "path": "analysis/projects/us-housing-insurance-risk/data/california-la-wildfire-claims-repairability-event-ledger-v1.json",
       "domain": "consumer_insurance_recourse",
       "role": "California wildfire claims, sampled enforcement, smoke-restoration standards, and open repair/safe-return route"
@@ -492,6 +507,16 @@
       "path": "analysis/projects/ai-work-control/data/malaysia-grabcar-tribunal-remedy-stage-event-ledger-v1.json",
       "domain": "platform_worker_recourse",
       "role": "Malaysia Act 872 enforcement, Tribunal establishment, reported GrabCar hearing, evidence-stage continuation, and open correction/payment/durability route"
+    },
+    {
+      "path": "analysis/projects/us-infrastructure-operation-incidence/data/chpe-operation-incidence-event-ledger-v1.json",
+      "domain": "infrastructure_technology_dependency",
+      "role": "CHPE commercial operation, heat-event utilization, early outage/repair, reported recovery, and open customer-incidence/legitimacy route"
+    },
+    {
+      "path": "analysis/projects/us-safety-net-access/data/us-connecticut-snap-ebt-replacement-correction-event-ledger-v1.json",
+      "domain": "public_assistance",
+      "role": "Connecticut SNAP EBT theft, timely report, form-process denial, granted hearing correction, and open post-order replacement route"
     }
   ]
 }

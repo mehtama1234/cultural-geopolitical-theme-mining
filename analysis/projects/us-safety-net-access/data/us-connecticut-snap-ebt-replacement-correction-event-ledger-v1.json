@@ -1,0 +1,86 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_connecticut_snap_hearing_record",
+  "purpose": "Bounded Connecticut route from EBT theft through attempted use, report, replacement-card issuance, form-process denial, hearing correction, and open replacement receipt and household recovery.",
+  "events": [
+    {
+      "event_id": "CT-SNAP-EBT-REPLACEMENT-CORRECTION-2024",
+      "unit": "case",
+      "geography": "Connecticut SNAP household; Connecticut Department of Social Services administrative hearing",
+      "actor_initiating_change": "unknown",
+      "event_date": "2024-01-01",
+      "date_precision": "Decision record is issued in 2024; individual transaction, report, issuance, hearing, and order dates are redacted in the public PDF",
+      "denominator": "One anonymized OLCRAH administrative case, Request No. 235520; not a replacement-rate or household-outcome denominator",
+      "method": "Official Connecticut DSS/OLCRAH Notice of Decision; transaction history, agency exhibits, appellant testimony, hearing findings, and corrective disposition are retained as one case unit",
+      "missingness": "Redacted dates and identity, post-order processing and credit, food purchases, interim food access, bills, debt, adequacy, later SNAP continuity, recurrence, trust, action, and exit are not linked",
+      "condition_or_decision": "benefit_rule",
+      "exposure": "Four unauthorized out-of-state transactions removed $292.44 from the one-person SNAP household's EBT account; an attempted $208.73 purchase was declined for insufficient funds",
+      "alternatives_before_action": "Social-worker assistance, a replacement EBT card, service-center submission, a hearing, other food or cash resources, and borrowing may have been available; the case identifies the first two routes but not their feasibility or use beyond the administrative record",
+      "immediate_burden_or_benefit": "The theft removed usable SNAP purchasing capacity and caused an attempted purchase to fail; the Department issued a replacement card, but the public record does not show when usable food benefits returned",
+      "choice_or_response": "The appellant and social worker reported the theft, obtained a new card, submitted the replacement form, and appealed the denial; the hearing found the initial report was timely and ordered DSS to process the request as timely",
+      "person_or_actor_with_control": "Connecticut DSS controlled card replacement, form delivery, validation, denial, and post-order processing; the appellant controlled reporting, form submission, and appeal but not the agency's documented process clock",
+      "remedy_or_institutional_response": "DSS initially denied the $292.44 replacement request; OLCRAH granted the appeal, ordered the denial rescinded, and ordered DSS to process the claim as timely",
+      "immediate_outcome": "The administrative denial was corrected, but the public decision does not report whether replacement benefits were subsequently issued",
+      "protected_outcome": "The corrective order may have protected access to a replacement route; no food, bill, health, or household-security outcome is verified",
+      "sacrificed_outcome": "Food-purchasing capacity, time, administrative effort, and short-term household flexibility were put at risk; the case does not quantify the trade-off",
+      "cost_risk_transfer": "An undocumented form-delivery clock shifted process risk to the household until the hearing corrected the denial; the record does not measure interim food or financial substitution",
+      "later_outcome": "No post-order account credit, food purchase, bill substitution, continued receipt, repeat theft, household recovery, or exit is observed",
+      "meaning_and_attribution": "The appellant's testimony and the hearing's finding about the agency's missing documentation are recorded, but later fairness, blame, trust, dignity, or attribution are not measured",
+      "public_or_collective_response": "An administrative hearing and corrective order are observed; no later complaint, organizing, political action, or program exit is linked",
+      "counterexample": "A granted corrective order is not proof of actual replacement or adequate recovery; the household may have recovered through other resources or remained insecure, and this case cannot distinguish those paths",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Connecticut OLCRAH decision Request No. 235520; the decision reports four unauthorized transactions, a three-day initial report, a replacement card, a denial, and a granted corrective order, but dates are redacted and post-order account activity is unavailable",
+      "remedy_stage": "remedy_ordered",
+      "remedy_receipt": "The hearing ordered DSS to process the request as timely; no subsequent issuance or account credit is public",
+      "durability_followup": "No later food, balance, benefit-continuity, recurrence, household-security, trust, or exit follow-up is public"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "CT-SNAP-CORRECTION-A-01",
+      "from": "EBT theft and failed purchase",
+      "to": "timely report, replacement-card request, and form submission",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records a failed $208.73 purchase, a theft report three days after discovery, a replacement card, and a replacement form submitted 32 days after discovery",
+      "status": "reported",
+      "counterexample": "The public decision redacts exact dates and does not measure reporting effort, notice quality, language access, or interim food substitution",
+      "remaining_gap": "Exact report clock, unusable-gap duration, effort, and interim food or cash route"
+    },
+    {
+      "arrow_id": "CT-SNAP-CORRECTION-A-02",
+      "from": "timely report and replacement claim",
+      "to": "initial denial under the 30-day rule",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "DSS denied replacement even though the hearing found the appellant reported the theft three days after discovery; the agency did not document when it issued the required form",
+      "status": "reported",
+      "counterexample": "The public record may omit process evidence not presented at hearing; it cannot estimate how often similar denials occur",
+      "remaining_gap": "Complete case-note and form-delivery record, processing interval, and household material consequence"
+    },
+    {
+      "arrow_id": "CT-SNAP-CORRECTION-A-03",
+      "from": "initial denial",
+      "to": "granted appeal and order to process the claim as timely",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "OLCRAH granted the appeal, ordered DSS to rescind the denial, and ordered the request processed as timely",
+      "status": "reported",
+      "counterexample": "A corrective order does not establish that the claim was processed, benefits were credited, or the remedy was adequate",
+      "remaining_gap": "Post-order compliance, issuance date, account credit, receipt, and use"
+    },
+    {
+      "arrow_id": "CT-SNAP-CORRECTION-A-04",
+      "from": "corrective order",
+      "to": "replacement receipt, food adequacy, household security, trust, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The administrative record ends at the corrective order and contains no downstream household or political outcome",
+      "status": "open",
+      "counterexample": "The household may have received timely replacement and recovered, or may have remained without usable benefits; neither path is observed",
+      "remaining_gap": "Post-order account activity, food purchasing, bill substitution, later continuity, recurrence, trust, action, and exit"
+    }
+  ],
+  "boundary": "This ledger formalizes one anonymized Connecticut administrative case through a granted corrective order. It does not establish post-order replacement issuance, recipient receipt, benefit adequacy, food security, household recovery, or durable trust/action.",
+  "storage_boundary": "Only the published administrative decision and its bounded case findings are retained; identifying fields, raw EBT transactions, and household follow-up records are not stored."
+}

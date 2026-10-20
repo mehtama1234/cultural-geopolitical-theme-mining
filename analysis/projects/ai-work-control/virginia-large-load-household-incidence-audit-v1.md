@@ -92,6 +92,12 @@ locality, or that a household bill or reliability outcome changed. The first
 monthly deadline is therefore an administrative clock, not evidence of
 collection or public benefit.
 
+The October 20, 2026 recheck adds a dated timing boundary: under the SCC's
+succeeding-month rule, the first September-period remittance falls at the end
+of October. The current public SCC pages still expose no operator registration,
+consumption, remittance, collected-revenue, or locality-receipt aggregate. This
+is a scheduled payment checkpoint, not evidence that the tax has been paid.
+
 ## Decisive next evidence
 
 The next useful file would join one named facility or account to:

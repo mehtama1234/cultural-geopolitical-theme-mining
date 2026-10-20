@@ -95,6 +95,7 @@ def main() -> int:
     next_queue = (ROOT / "analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md").read_text(encoding="utf-8")
     review_packet = (ROOT / "REVIEW-PACKET_CURRENT-THEMES_V1.md").read_text(encoding="utf-8")
     recovery_brief = (ROOT / "END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md").read_text(encoding="utf-8")
+    start_here = (ROOT / "START-HERE.md").read_text(encoding="utf-8")
     reader = (ROOT / "analysis/US-BROAD-INTERESTING-FINDINGS_V1.md").read_text(encoding="utf-8")
     plain_summary = (ROOT / "analysis/US-BROAD-PLAIN-LANGUAGE-ATLAS-SUMMARY_V1.md").read_text(encoding="utf-8")
     research_pass = (ROOT / "analysis/US-BROAD-RESEARCH-PASS_V1.md").read_text(encoding="utf-8")
@@ -124,6 +125,7 @@ def main() -> int:
     source_count = len(list((ROOT / "analysis/projects").glob("*/source-search-*.md")))
     if int(expected_source.group(1)) != source_count:
         raise SystemExit(f"source coverage is stale: generated {expected_source.group(1)}, source files {source_count}")
+    html_pages = len(list((ROOT / "site").glob("*.html")))
     if not ledger_match or (int(ledger_match.group(1)), int(ledger_match.group(2))) != (len(records), observations):
         actual = ledger_match.groups() if ledger_match else None
         raise SystemExit(f"continuity ledger is stale: generated {actual}, source of truth {(len(records), observations)}")
@@ -153,6 +155,13 @@ def main() -> int:
         validate_local_markdown_count(current_status, markdown_files)
     except ValueError as error:
         raise SystemExit(str(error)) from error
+    expected_start_here = (
+        f"**Current operating checkpoint — 2026-10-19:** the atlas has {len(catalog)} themes, {len(records):,}\n"
+        f"machine-readable records, {observations:,} observations, {source_count} source packets, {html_pages:,}\n"
+        "published HTML pages checked by the\npublication gate."
+    )
+    if expected_start_here not in start_here:
+        raise SystemExit("START-HERE current operating checkpoint is stale")
     finding_count = len(re.findall(r"^## \d+\. ", reader, re.M))
     expected_reader_phrase = f"{finding_count} contiguous numbered findings"
     if expected_reader_phrase not in current_status or expected_reader_phrase not in current_status_site:

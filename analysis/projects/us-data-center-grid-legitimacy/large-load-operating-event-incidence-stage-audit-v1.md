@@ -31,6 +31,60 @@ the most concrete governance response still do not reveal whether a named
 facility paid, whether the household received a credit, whether service was
 more reliable, or whether local participation changed a later decision.
 
+## Operating-event follow-up — 2026-10-19
+
+PJM's subsequent operating account makes the July event more reproducible than
+the earlier aggregate description. According to [PJM's event
+review](https://insidelines.pjm.com/pjm-dominion-review-large-load-transfer-event/),
+ a mechanical failure removed a 230-kV Northern Virginia line at 7:56 a.m.; a
+first 2,970 MW wave and a second 1,099 MW wave transferred data-center load to
+backup generation. PJM reports an overall load change from 99,984 MW to 96,205
+MW, control-area error recovery within nine minutes, and reactive-power action
+to reduce voltage. It also identifies similar approximately 1,500 MW Dominion
+zone events on February 17, 2025, and July 10, 2024.
+
+This follow-up closes more of the operating-mechanism arrow and adds a useful
+counterexample to a one-off-event interpretation: the grid did not experience
+significant reliability impacts according to the operator, even though voltage
+and frequency moved sharply. It still does not identify the facilities,
+backup-generation duration or emissions, facility cost or tariff treatment,
+residential interruption or bill effect, or whether the later ride-through
+process changed behavior. The event is therefore a stronger operating record,
+not a realized household-protection or fairness result.
+
+The linked [PJM/Dominion preliminary presentation](https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260806/20260806-item-05---dominion-july-loss-of-load-event---presentation.pdf)
+adds a finer event clock and physical boundary: the 2031 line opened at
+07:56:09, initial load loss of 2,970 MW occurred at 07:56:33, secondary loss of
+1,099 MW at 07:57:40, and the presentation estimates 3,869 MW transferred in
+total. It identifies the Loudoun and Prince William data-center pockets and
+specific substations/circuits, reports a preliminary mechanical failure cause,
+and says customers transferred load back to the grid within 30 minutes. The
+presentation is explicitly preliminary; it does not name the individual
+facilities, report backup-generator runtime or emissions, or connect the event
+to a retail bill, residential service interruption, or facility payment.
+
+The Virginia implementation route is more specific than the earlier modeled
+charge alone. The [SCC summary](https://www.scc.virginia.gov/about-the-scc/scc-facts/)
+states an 85% minimum monthly transmission/distribution cost obligation for
+large-load customers and possible collateral covering up to 60% of minimum
+charges for qualifying new customers. The [SCC tax guidance](https://www.scc.virginia.gov/regulated-industries/public-taxation/taxes-and-fees/)
+describes data-center registration and monthly remittance, and the [enacted
+budget](https://budget.lis.virginia.gov/item/2026/2/HB30/Enrolled/3/3-5.24/)
+sets a September 2026 first collection, including arrears from July 1. These
+are stronger obligation and administration records, but still do not show a
+named facility's payment, a posted household credit, net bill effect, or local
+acceptance.
+
+An independent [CHPE first-summer market
+analysis](https://modoenergy.com/research/es/chpe-market-impact-first-summer-nyiso)
+reports a 20-day cable-splice outage after July 4, zero output in 83% of
+five-minute intervals during June–August, a 13% first-summer capacity factor,
+and an afternoon/evening operating pattern. It also reports a conditional
+Zone J day-ahead spread difference on 85–90°F days when the line ran. This is a
+useful availability and wholesale-market layer, but it is not a retail bill,
+household reliability, route-community, or acceptance measure; the underlying
+series and counterfactual are not reproduced in the public article.
+
 ## Evidence ledger
 
 | Arrow | Current evidence | Missing decisive field |
@@ -77,6 +131,9 @@ facility payment, household bills, reliability, or consent.
 ## Challenge checks
 
 - A 4,000 MW disconnection was not treated as a residential outage.
+- The PJM follow-up's 3,800 MW two-wave account and nine-minute ACE recovery
+  were not treated as proof of either household protection or facility-level
+  compliance; they establish operating response and a bounded system outcome.
 - Forecast demand, emergency authority, and proposed standards were not treated
   as observed household protection.
 - Modeled charges and proposed credits were not treated as bills or receipt.
@@ -114,6 +171,12 @@ when the source owner confirms the missing fields are unavailable.
 ## Source links
 
 - [PJM large-load event and response](../../records/us-pjm-large-load-disconnection-response-2026.json)
+- [PJM/Dominion July 22 event review](https://insidelines.pjm.com/pjm-dominion-review-large-load-transfer-event/)
+- [PJM/Dominion preliminary event presentation](https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20260806/20260806-item-05---dominion-july-loss-of-load-event---presentation.pdf)
+- [Virginia SCC large-load cost and collateral rules](https://www.scc.virginia.gov/about-the-scc/scc-facts/)
+- [Virginia SCC data-center tax administration](https://www.scc.virginia.gov/regulated-industries/public-taxation/taxes-and-fees/)
+- [Virginia enacted data-center tax](https://budget.lis.virginia.gov/item/2026/2/HB30/Enrolled/3/3-5.24/)
+- [CHPE first-summer operating and market analysis](https://modoenergy.com/research/es/chpe-market-impact-first-summer-nyiso)
 - [Virginia bill-relief and cost-allocation route](../../records/us-virginia-data-center-residential-bill-relief-package-2026.json)
 - [Georgia large-load contract realization](../../records/us-georgia-psc-large-load-contract-realization-2026.json)
 - [Large-load state governance comparison](../../records/us-large-load-state-rate-governance-2025-2026.json)

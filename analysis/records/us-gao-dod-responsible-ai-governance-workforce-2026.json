@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-dod-responsible-ai-governance-workforce-2026",
+  "title": "DOD responsible-AI use can reach initial oversight while collaboration, workforce capacity, and operational trust remain open",
+  "theme_ids": ["voice", "time", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-107837 review of responsible AI implementation and oversight in the Department of Defense",
+  "geography": "United States Department of Defense components and selected AI use cases in the national-security system",
+  "observations": [
+    {
+      "period": "October 14, 2026 GAO review; selected DOD use cases and implementation conditions through February 2026",
+      "denominator": {
+        "value": 10,
+        "unit": "DOD components surveyed about responsible-AI implementation in selected use cases",
+        "value_type": "reported_component_survey_cohort"
+      },
+      "measures": {
+        "responsible_ai_framework": {
+          "value": "DOD established AI Ethical Principles and six Responsible AI tenets intended to guide safety and trustworthiness",
+          "unit": "reported governance framework",
+          "value_type": "reported_policy_framework"
+        },
+        "initial_implementation": {
+          "value": "most of the 10 surveyed components reported at least initial steps to establish oversight and implement Responsible AI tenets in selected use cases",
+          "unit": "reported component implementation status",
+          "value_type": "reported_survey_finding"
+        },
+        "collaboration_signal": {
+          "value": "the Responsible AI Working Council did not meet from late 2024 until August 2025; four components reported implementation challenges that would have benefited from collaboration, and six of 10 said shared resources and best practices would help",
+          "unit": "reported collaboration and capacity condition",
+          "value_type": "reported_implementation_finding"
+        },
+        "workforce_capacity": {
+          "value": 3,
+          "unit": "authorized Responsible AI Division positions filled out of 10 as of February 2026",
+          "value_type": "reported_staffing_count"
+        },
+        "open_governance_action": {
+          "value": "two new recommendations remain open: charter the Responsible AI Working Council with roles and meeting frequency, and address the CDAO Responsible AI Division workforce needs",
+          "unit": "open governance recommendations",
+          "value_type": "reported_recommendation_status"
+        },
+        "operational_conversion": {
+          "value": "not measured",
+          "unit": "model accuracy, human review, operator workload, deployment decision, mission effect, adversary response, safety incident, or public legitimacy",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-107837, based on DOD documentation, a survey of 10 components and selected use cases, and interviews with officials. Governance framework, initial implementation, collaboration, staffing, recommendations, and operational outcomes are retained as separate stages.",
+      "uncertainty": "The selected component/use-case survey is not a census of DOD AI. Initial oversight steps do not establish consistent implementation, model performance, human control, battlefield use, or strategic effect. Staffing and meeting conditions are time-bounded observations.",
+      "subgroup": "DOD components, CDAO Responsible AI staff, military personnel and operators using selected AI systems, and affected publics who bear the consequences of national-security AI decisions.",
+      "counterinterpretation": "A formal framework may improve consistency even with staffing or meeting gaps, and a council lapse may not imply unsafe deployment in every use case; conversely, initial oversight activity may coexist with uneven interpretation, workforce constraints, or unmeasured operational risk.",
+      "source_url": "https://www.gao.gov/products/gao-27-107837",
+      "retrieval_hash": "sha256:88d2b8d63f4eb428f855ac038d8a9bc3cb16496e4339d30a44e2e30ce3628cf6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/gao-27-107837.pdf",
+      "claim": "The official GAO report contains the DOD Responsible AI framework, component survey, council, staffing, and recommendation findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-25-107357",
+      "claim": "The report continues GAO work on DOD AI collaboration and workforce implementation gaps.",
+      "status": "official-prior-report"
+    }
+  ],
+  "boundary": "This record advances a bounded defense-AI framework-to-oversight-capacity route. It does not establish model quality, human control, use in a mission, battlefield effect, adversary response, deterrence, safety, workforce resolution, or public legitimacy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; official report and prior-work links are retained for reproduction.",
+    "retrieval_hash": "sha256:88d2b8d63f4eb428f855ac038d8a9bc3cb16496e4339d30a44e2e30ce3628cf6",
+    "checked": "2026-10-20"
+  }
+}

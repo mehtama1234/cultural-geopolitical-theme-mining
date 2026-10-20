@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-laboratory-equipment-disposal-biosecurity-2026",
+  "title": "Federal laboratory-equipment disposal can expose export-control and biosecurity gaps while malicious use remains unobserved",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107729 review of public-health and national-security risks in disposal of federal laboratory equipment",
+  "geography": "United States federal laboratory equipment disposed of by HHS and USDA through GSA transfer, sale, and auction processes",
+  "observations": [
+    {
+      "period": "Fiscal years 2022–2025 equipment sales and September 1, 2026 GAO report publicly released October 1",
+      "denominator": {
+        "value": 1316,
+        "unit": "pieces of unneeded HHS and USDA laboratory equipment sold during fiscal years 2022–2025",
+        "value_type": "reported_disposal_cohort"
+      },
+      "measures": {
+        "controlled_items_sold": {
+          "value": 9,
+          "unit": "freeze dryers and mass spectrometers identified by GAO as on the Commerce Control List and sold to U.S. and Canadian individuals or companies, some appearing to be resellers",
+          "value_type": "reported_controlled_item_count"
+        },
+        "control_reporting_failure": {
+          "value": "HHS and USDA did not report the nine Commerce Control List items to GSA as required by federal regulations",
+          "unit": "reported disposal-process compliance condition",
+          "value_type": "reported_compliance_gap"
+        },
+        "acquisition_test": {
+          "value": 4,
+          "unit": "pieces of HHS and USDA laboratory equipment successfully acquired by GAO using fictitious identities, including a nonprofit organization, that experts said could pose a biosecurity risk",
+          "value_type": "reported_covert_test_acquisition_count"
+        },
+        "risk_assessment": {
+          "value": "HHS and USDA had not assessed biosecurity risks associated with disposal, including acquisition by actors seeking to create biological weapons or obtain sensitive information",
+          "unit": "reported agency risk-management condition",
+          "value_type": "reported_risk_assessment_gap"
+        },
+        "system_design_gap": {
+          "value": "HHS policy was silent on the reporting requirement and GSA's property-management system lacked a standard approach, such as a dedicated field, to identify Commerce Control List equipment",
+          "unit": "reported information-system and policy condition",
+          "value_type": "reported_control_design_gap"
+        },
+        "open_recommendations": {
+          "value": 4,
+          "unit": "open recommendations to GSA, HHS, and USDA on control-list identification and biosecurity risk assessment and mitigation",
+          "value_type": "open_recommendation_count"
+        },
+        "malicious_conversion": {
+          "value": "not measured",
+          "unit": "recipient intent, export, biological-weapon development, sensitive-information recovery, harm, or completed mitigation",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-26-107729, based on GSA disposal data for fiscal years 2022–2025, federal regulations, a fictitious-identity acquisition test, interviews with agency officials, and a visit to a decommissioned federal laboratory. Disposal scale, controlled items, reporting failure, acquisition test, risk assessment, control design, recommendations, and malicious outcomes are retained as separate stages.",
+      "uncertainty": "The four acquired pieces were a designed test and do not estimate the probability of malicious use. The nine controlled items are a reviewed subset of 1,316 sales, and identifying an equipment type as biosecurity-relevant does not establish recipient intent, export, weapon development, data recovery, or harm. Decontamination and other disposal controls may reduce some risks not captured by the public summary.",
+      "subgroup": "Federal agencies, laboratory workers, equipment recipients and resellers, public-health and national-security institutions, and communities exposed to consequences of laboratory-equipment misuse.",
+      "counterinterpretation": "Equipment resale can conserve public resources and equipment may be decontaminated or repurposed safely; export controls and GSA processes may address risks through other channels, while a dedicated reporting field and recurring risk assessment could improve visibility without proving that prior sales caused harm.",
+      "source_url": "https://www.gao.gov/products/gao-26-107729",
+      "retrieval_hash": "sha256:f57a8c54c74043859a3f51cc3b40e0847eb6d0ae64b89ef4f211ed181bbab7ae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-107729/index.html",
+      "claim": "The official accessible report contains the disposal cohort, controlled-item, acquisition-test, risk-assessment, and recommendation findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/assets/gao-26-107729.pdf",
+      "claim": "The official report PDF provides the complete public-health and national-security disposal review.",
+      "status": "official-report-pdf"
+    }
+  ],
+  "boundary": "This record advances a bounded federal laboratory-equipment disposal-to-export-control and biosecurity-risk route. It does not establish recipient intent, export, biological-weapon development, sensitive-information recovery, public harm, or completed mitigation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and PDF links are retained for reproduction.",
+    "retrieval_hash": "sha256:f57a8c54c74043859a3f51cc3b40e0847eb6d0ae64b89ef4f211ed181bbab7ae",
+    "checked": "2026-10-20"
+  }
+}

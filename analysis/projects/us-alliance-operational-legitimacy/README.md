@@ -39,3 +39,8 @@ The next qualifying record is an incident-level ledger with sensor or event
 time, asset and host, action, cost/readiness effect, civilian exposure,
 independent attribution, public response, and a later change in posture,
 incident frequency, or partner behavior.
+
+The current [incident follow-up acquisition gate](geopolitical-incident-followup-acquisition-gate-2026-10-19.md)
+audits the strongest Poland and Lithuania routes and records the missing fields
+explicitly. It prevents an official interception, alliance statement, or broad
+favorability survey from being promoted to deterrence or durable legitimacy.

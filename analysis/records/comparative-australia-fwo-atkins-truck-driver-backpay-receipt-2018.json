@@ -1,0 +1,38 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018",
+  "title": "Court-held funds can reach every worker in a small enforcement case while adequacy and durable recovery remain unknown",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "public_systems_feedback", "household_room_consumption", "time_hidden_price", "trust_identity_meaning"],
+  "source_unit": "Official Fair Work Ombudsman enforcement follow-up for Atkins Freight Services truck drivers",
+  "geography": "Adelaide, Australia",
+  "observations": [
+    {
+      "period": "2007–2009 underpayment; January 17, 2018 appeal-dismissal and payment follow-up",
+      "denominator": {"value": 10, "unit": "truck drivers named in the official enforcement follow-up; no population denominator", "value_type": "official_case_count"},
+      "measures": {
+        "ordered_backpay": {"value": 374487, "unit": "Australian dollars plus superannuation and interest", "value_type": "reported_remedy_amount"},
+        "funds_held_in_court": {"value": 468000, "unit": "Australian dollars approximately pending appeal", "value_type": "reported_trust_amount"},
+        "workers_reported_receiving": {"value": 10, "unit": "drivers; institutionally reported", "value_type": "reported_recipient_count"},
+        "individual_payment_range": {"value": "8,012–91,566", "unit": "Australian dollars per driver", "value_type": "reported_payment_range"},
+        "payment_instrument_and_adequacy": {"value": "not observed", "unit": "missing independent transfer evidence, household effect, and adequacy assessment", "value_type": "unmeasured"}
+      },
+      "method": "Structured extraction from the official Fair Work Ombudsman appeal-dismissal release; court-held funds, release, reported worker-level receipt, and later recovery are retained as separate stages.",
+      "uncertainty": "The follow-up reports receipt institutionally but is not an independent payment audit. Ten workers in one case cannot estimate enforcement or payment success rates; later work, household security, health, trust, recurrence, and exit are not followed.",
+      "subgroup": "Ten truck drivers underpaid minimum wages and entitlements by Atkins Freight Services; the company appealed after funds were paid into Court.",
+      "counterinterpretation": "Reported receipt for every worker can coexist with delayed payment, residual loss, inadequate household recovery, and unresolved trust; formal remedy completion is not durable security.",
+      "source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2018-media-releases/january-2018/20180117-atkins-appeal-dismissed",
+      "retrieval_hash": "sha256:cca34101d27017e2f3cd9447015a5f665f8b12554f4a818214e50c4af83d1ed3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2018-media-releases/january-2018/20180117-atkins-appeal-dismissed", "claim": "Official Fair Work Ombudsman account of appeal dismissal, trust release, ordered back-pay, and reported driver receipts.", "status": "official-release"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger containing the bounded official-release extraction.",
+    "access_boundary": "The institutional follow-up reports receipt ranges but not payment instruments, independent worker confirmation, adequacy, later work, household recovery, trust, recurrence, health, or exit."
+  },
+  "boundary": "This record closes a reported payment-receipt endpoint for ten workers after court enforcement and appeal. It does not establish independent receipt verification, adequacy, durable recovery, prevalence, or general enforcement performance."
+}

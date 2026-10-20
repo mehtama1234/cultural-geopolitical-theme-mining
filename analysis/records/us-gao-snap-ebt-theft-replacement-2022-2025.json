@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-snap-ebt-theft-replacement-2022-2025",
+  "title": "SNAP EBT theft shifts food-purchasing control toward security and replacement systems while recipient recovery remains unobserved",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO review of SNAP EBT benefit theft, replacement claims, and federal/state prevention measures",
+  "geography": "United States SNAP agencies and USDA/FNS oversight",
+  "observations": [
+    {
+      "period": "October 1, 2022–December 20, 2024 replacement period; GAO prevention review through May 2025",
+      "denominator": {
+        "value": 679000,
+        "unit": "households associated with approved replacement claims reported by states; not a denominator for all theft or all SNAP households",
+        "value_type": "agency_reported_approximate_replacement_count"
+      },
+      "measures": {
+        "approved_replacement_total": {
+          "value": 320000000,
+          "unit": "U.S. dollars or more",
+          "value_type": "agency_reported_aggregate"
+        },
+        "replacement_scope": {
+          "value": "approved claims during the statutory replacement period",
+          "unit": "administrative claim universe",
+          "value_type": "reported_scope"
+        },
+        "security_response": {
+          "value": "chip cards, mobile payments, transaction blocking, monitoring, processor controls, fraud-prevention grants, and recipient card-lock/PIN tools were among reported responses",
+          "unit": "reported institutional and recipient-control mechanisms",
+          "value_type": "reported_prevention_response"
+        },
+        "replacement_receipt_and_food_recovery": {
+          "value": "not observed",
+          "unit": "missing claim timing, issuance, delivery, cash/use, interim food access, next-month balance, benefit adequacy, repeat theft, and household recovery",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the official GAO SNAP EBT theft-prevention review and the retained project ledger. Approved replacement totals, security measures, and federal/state oversight are kept separate from recipient-level food access and recovery.",
+      "uncertainty": "Approved claims omit unknown, unfiled, denied, or ineligible theft and do not establish prevalence. Aggregate replacement does not establish issuance, delivery, cash/use, timeliness, adequacy, or restored food purchasing for any household.",
+      "subgroup": "SNAP households with approved theft-replacement claims and recipients using EBT security tools; the public review does not expose recipient-level demographic, disability, language, geographic, or food-security outcomes.",
+      "counterinterpretation": "Replacement and modernization may restore food-purchasing capacity for many households while adding monitoring, reporting, card-lock, PIN, device, or false-block burdens for others; the aggregate record cannot compare those experiences.",
+      "source_url": "https://www.gao.gov/products/gao-25-107964",
+      "retrieval_hash": "sha256:770dcbc3414fac477ce1168cd1bd3ef24200750cfec2792a8f95f1ac98cfdf5f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/gao-25-107964.pdf",
+      "claim": "The GAO report provides the official review of SNAP EBT theft, approved replacement claims, and prevention measures.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.fns.usda.gov/snap/ebt-fraud-prevention",
+      "claim": "USDA/FNS provides the federal program and fraud-prevention context for EBT security and replacement.",
+      "status": "official-program-resource"
+    }
+  ],
+  "boundary": "This record follows SNAP benefit issuance through EBT theft, aggregate replacement, and security modernization. It does not estimate theft prevalence, establish individual replacement receipt, measure interim food access or adequacy, prove agency/retailer liability, or close durable food security, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact GAO-derived event ledger retained at analysis/projects/us-safety-net-access/data/snap-ebt-benefit-theft-control-event-ledger-v1.json; direct GAO page/PDF access was rate-limited during canonical promotion.",
+    "checked": "2026-10-20"
+  }
+}

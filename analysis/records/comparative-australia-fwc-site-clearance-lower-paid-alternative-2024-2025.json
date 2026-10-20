@@ -1,0 +1,39 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwc-site-clearance-lower-paid-alternative-2024-2025",
+  "title": "Alternative employment can preserve work while transferring lower pay and travel costs after site-clearance loss",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "time_hidden_price", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback"],
+  "source_unit": "Fair Work Commission Bulletin Volume 4/25, item 3, summarizing a mining employment unfair-dismissal and compensation decision",
+  "geography": "Australia; drive-in/drive-out mining employment case",
+  "observations": [
+    {
+      "period": "September 2024–April 3, 2025; site-clearance revocation, dismissal, alternative job, and compensation order",
+      "denominator": {"value": 1, "unit": "publicly summarized adjudicated worker case; no population denominator", "value_type": "single_public_case"},
+      "measures": {
+        "alternative_employment_start": {"value": 3, "unit": "weeks after dismissal; exact dismissal date not reported", "value_type": "reported_case_interval"},
+        "replacement_job_pay": {"value": "lower remuneration than original employment", "unit": "directional comparison; amounts not reported", "value_type": "reported_case_comparison"},
+        "replacement_job_travel": {"value": "significant personal travel costs", "unit": "reported burden; amount not reported", "value_type": "reported_case_burden"},
+        "compensation_order": {"value": 18192, "unit": "Australian dollars plus superannuation", "value_type": "adjudicated_remedy_order"},
+        "compensation_receipt": {"value": "not observed", "unit": "missing payment date, channel, receipt, tax, and residual-loss evidence", "value_type": "unmeasured"},
+        "original_job_restoration": {"value": "not observed; alternative employment rather than reinstatement", "unit": "employment outcome", "value_type": "reported_case_endpoint"}
+      },
+      "method": "Structured extraction from the official Fair Work Commission bulletin summary; site-clearance control, employer termination/redeployment, alternative employment, lower pay and travel burden, and ordered compensation are retained as separate stages.",
+      "uncertainty": "One case cannot estimate dismissal, alternative-employment, travel-burden, remedy, or payment rates. The bulletin does not report claimant identity, exact dates, wage amounts, hours, job duration, household effects, trust, recurrence, or later exit.",
+      "subgroup": "One drive-in/drive-out mining worker whose client site clearance was revoked and whose contractor found no suitable nearby redeployment.",
+      "counterinterpretation": "A replacement job can prevent immediate unemployment while reducing pay and increasing travel costs; an ordered compensation amount does not prove payment, adequacy, or restoration of the original opportunity.",
+      "source_url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-03-31.htm",
+      "retrieval_hash": "sha256:1efb5fcdc75ea9822437a057ebf34d204592b663e649b711e5210a3b05c32483",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders", "claim": "Official Fair Work Commission decision and bulletin search route.", "status": "official-search"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger containing the bounded bulletin extraction.",
+    "access_boundary": "The public bulletin reports alternative employment and an ordered remedy but not payment receipt, job duration, household recovery, trust, recurrence, collective action, or exit."
+  },
+  "boundary": "This record adds one public case in which alternative employment is observed alongside lower pay, travel burden, and a compensation order after site-clearance loss. It does not establish payment receipt, full recovery, prevalence, durable work, trust, action, recurrence, switching, or exit."
+}

@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-aspe-cash-counseling-paid-worker-experience-2005",
+  "title": "Consumer-directed care can create flexible paid work while leaving unpaid carryover, training, benefits, and retention risks open",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "time_hidden_price",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "ASPE Experiences of Workers Hired Under Cash and Counseling paid-worker follow-up",
+  "geography": "United States; Arkansas, Florida, and New Jersey Medicaid demonstration",
+  "observations": [
+    {
+      "period": "Cash and Counseling paid-worker follow-up; approximately nine to ten months after assignment, report published 2005",
+      "denominator": {
+        "value": null,
+        "unit": "directly hired workers under consumer direction compared with agency workers; state and adult/child outcome universes vary",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "work_route": {"value": "Medicaid beneficiaries directly hired workers, often family members or friends, rather than relying only on agency workers", "unit": "reported consumer-directed employment route", "value_type": "reported_program_mechanism"},
+        "worker_satisfaction": {"value": "directly hired workers were generally satisfied with working conditions, supervision, and compensation; more than 40% were very satisfied with wages and fringe benefits", "unit": "study-level reported worker experience", "value_type": "estimated_comparative_outcome"},
+        "unpaid_care_carryover": {"value": "many directly hired workers continued substantial unpaid care", "unit": "reported worker-care arrangement", "value_type": "reported_work_care_pattern"},
+        "training_and_benefits": {"value": "directly hired workers often had less formal training or benefits than agency workers, while generally feeling prepared", "unit": "reported worker-condition comparison", "value_type": "estimated_comparative_outcome"},
+        "durability": {"value": "not observed", "unit": "missing worker identity, beneficiary linkage, long-run retention, replacement worker, household income, later wage path, collective voice, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "Flexible direct-hire care can convert some unpaid family/friend work into paid work while transferring hiring, supervision, payroll, and continuity risk into the beneficiary-worker household relationship", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the ASPE report Experiences of Workers Hired Under Cash and Counseling; direct-hire and agency-worker comparisons, satisfaction, wages/benefits, training, unpaid carryover, and preparedness are kept separate from long-run retention and adequacy.",
+      "uncertainty": "Worker and agency comparison universes are study-specific, and direct-hire workers are often relatives or friends who previously provided unpaid care. The report does not establish individual wage adequacy, payment regularity, paid/unpaid hours, household security, or later wage path.",
+      "subgroup": "Directly hired and agency care workers serving Medicaid beneficiaries in Arkansas, Florida, and New Jersey; no pooled worker-beneficiary household denominator is supplied.",
+      "counterinterpretation": "Worker satisfaction with a flexible paid role can coexist with modest wages, limited benefits, unpaid care, emotional or physical strain, and uncertainty about continuing.",
+      "source_url": "https://aspe.hhs.gov/reports/experiences-workers-hired-under-cash-counseling-findings-arkansas-new-jersey-florida-1",
+      "retrieval_hash": "sha256:e9874ba9cd59bcbeb2721398b93895f288e76bdb4fe069822a8cb27ce9ca55c4",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes the paid-worker/provider side of consumer-directed Medicaid care. It does not establish adequate pay, completed care, long-run retention, beneficiary continuity, household recovery, collective voice, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the published ASPE worker report; worker, beneficiary, payroll, and Medicaid microdata are not retained.",
+    "checked": "2026-10-20"
+  }
+}

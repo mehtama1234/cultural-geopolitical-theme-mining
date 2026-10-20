@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-southern-glazer-small-business-price-discrimination-2026",
+  "title": "A price-discrimination order can define a small-business compensation trigger while local competition and retailer recovery remain open",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Federal Trade Commission Southern Glazer's Wine and Spirits settlement announcement, complaint, and proposed stipulated order",
+  "geography": "Independent wine and spirits retailers and competing chain retailers in 26 U.S. states covered by the proposed order",
+  "observations": [
+    {
+      "period": "October 2, 2026 proposed stipulated order and settlement announcement",
+      "denominator": {
+        "value": 1,
+        "unit": "Southern Glazer's FTC Robinson-Patman enforcement matter; public materials do not provide a complete count of affected independent retailers or paired transactions",
+        "value_type": "named_enforcement_case"
+      },
+      "measures": {
+        "market_scope": {
+          "value": "nearly all Southern wine and spirits sales to the five largest chain retailers in 26 states",
+          "unit": "proposed-order sales and geography scope",
+          "value_type": "reported_scope"
+        },
+        "alleged_mechanism": {
+          "value": "discounts and rebates available to large buyers were alleged to be inaccessible to small competitors; the complaint alleges higher prices for identical bottles sold to independent retailers and nearby large chains",
+          "unit": "reported price-discrimination mechanism",
+          "value_type": "reported_allegation"
+        },
+        "compensation_trigger": {
+          "value": "paired transactions can trigger a violation when discrimination exceeds a state-specific operating-cost threshold or recurs above $5,000 in aggregate over 12 months",
+          "unit": "proposed stipulated-order trigger",
+          "value_type": "reported_remedy_term"
+        },
+        "remedy_multiplier_and_duration": {
+          "value": "Southern can resolve a qualifying violation by paying 1.5 times the full aggregate price differential; if it does not redress and the FTC prevails, the proposed order provides for double the aggregate differential; independent monitoring lasts six years",
+          "unit": "proposed compensation and oversight terms",
+          "value_type": "reported_remedy_term"
+        },
+        "conversion": {
+          "value": "not measured",
+          "unit": "court approval, implementation, identified retailer claim, payment, price correction, inventory or customer effect, business survival, local competition, or household recovery",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from the FTC settlement announcement, complaint, and proposed stipulated order. Alleged pricing mechanism, order scope, compensation trigger, multiplier, monitoring period, and downstream firm/consumer outcomes are retained as separate stages.",
+      "uncertainty": "The pricing practices are allegations and the stipulated order is proposed; it has force of law only when approved and signed by the district court. Public materials do not establish the affected-retailer denominator, price differentials, claims, payments, implementation, or competitive effects.",
+      "subgroup": "Small independent wine and spirits retailers buying from Southern while competing with large national or regional chains, including retailers near the paired chain transactions described by the FTC.",
+      "counterinterpretation": "Price differences can reflect lawful cost differences, service, volume, delivery, or other commercial terms; a compensation formula may deter conduct without restoring a retailer's lost sales, margin, customer base, or local competitive position.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-protects-small-businesses-illegal-price-discrimination",
+      "retrieval_hash": "sha256:993163251b8a30025c22353575a02f7b734d4df6603bfad96dd5ced22d4498d2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2110155-southern-glazers-wine-spirits-llc-ftc-v",
+      "claim": "The FTC case record identifies the Southern Glazer's Robinson-Patman matter and proposed stipulated order materials.",
+      "status": "official-case-record"
+    },
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/redacted_version_of_complaint_2.10.2025_dkt._57.pdf",
+      "claim": "The redacted complaint contains the allegations concerning higher prices for identical products, large-chain discounts, and independent-retailer competition.",
+      "status": "official-complaint"
+    }
+  ],
+  "boundary": "This record advances a bounded supplier-price-discrimination-to-compensation-control route for small independent retailers. It does not establish final court approval, retailer eligibility, payment, price correction, business survival, consumer prices, local competition, household benefit, or durable trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical FTC settlement announcement URL string used as a stable source identifier; official case and complaint links are retained for reproduction.",
+    "retrieval_hash": "sha256:993163251b8a30025c22353575a02f7b734d4df6603bfad96dd5ced22d4498d2",
+    "checked": "2026-10-20"
+  }
+}

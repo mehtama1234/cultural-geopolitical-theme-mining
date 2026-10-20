@@ -92,6 +92,23 @@
       "source_url": "https://www.consumerfinance.gov/archive/blog/cfpb-to-distribute-more-than-53-million-to-consumers-harmed-by-brightspeed-solutions/",
       "retrieval_hash": "sha256:acc9acfe52dbfd67a0ad4e858292d6b8fa450e6756ec2dabacdb84fe6de02a46",
       "status": "reported"
+    },
+    {
+      "period": "May 29, 2026; current CFPB Civil Penalty Fund allocation listing",
+      "denominator": {"value": 1, "unit": "BrightSpeed Civil Penalty Fund allocation listed by the CFPB", "value_type": "administrative_allocation"},
+      "measures": {
+        "allocated_amount": {"value": 54000000, "unit": "US dollars", "value_type": "reported_allocation"},
+        "allocation_date": {"value": "2026-05-29", "unit": "date", "value_type": "reported_date"},
+        "case_status": {"value": "BrightSpeed remains listed as an ongoing Civil Penalty Fund payment case", "unit": "current public administrative status", "value_type": "reported_status"},
+        "cash_or_recipient_outcome": {"value": "not observed", "unit": "missing allocation-to-cashing clock, returned or reissued payments, amount retained, and household recovery", "value_type": "unmeasured"}
+      },
+      "method": "Current CFPB Civil Penalty Fund page review; the listed allocation is retained as a fund and administrative stage, separate from the FY2024 checks-mailed and geographic-distribution figures.",
+      "uncertainty": "An allocation entry does not establish that funds were newly issued to consumers, that the initial checks were cashed, or that the ongoing case page reflects unresolved recipient-level delivery rather than public-status lag.",
+      "subgroup": "The BrightSpeed eligible-consumer class and its Civil Penalty Fund distribution route; no recipient-level denominator or payment-status file is published.",
+      "counterinterpretation": "A current allocation can support continued payment administration while the public record remains silent on successful receipt and adequacy; it is not evidence that all allocated funds remain unpaid.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/civil-penalty-fund/",
+      "retrieval_hash": "sha256:36654161e94fe5ab0639d6c1f39dba55540f35fa7892db0664e4db65661b5ced",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -99,9 +116,9 @@
     {"source_url": "https://www.consumerfinance.gov/archive/blog/cfpb-to-distribute-more-than-53-million-to-consumers-harmed-by-brightspeed-solutions/", "claim": "CFPB announcement provides the distribution date, administrator, and state-level distribution map.", "status": "related-source"},
     {"source_url": "https://files.consumerfinance.gov/f/documents/cfpb_financial-report-fy-2024.pdf", "claim": "CFPB FY2024 financial report provides allocated amount, distributed amount, checks mailed, and initial distribution quarter.", "status": "related-source"}
   ],
-  "boundary": "This record establishes a named aggregate compensation route, current public status, initial checks mailed, geographic distribution surface, and a still-unreconciled difference between CFPB amount labels. It does not establish check cashing, final delivery, amount retained, residual loss, recovery rate, trust repair, switching, continued service use, or practical exit for any consumer.",
+  "boundary": "This record establishes a named aggregate compensation route, current public status, fund allocation, initial checks mailed, geographic distribution surface, and a still-unreconciled difference between CFPB amount labels. It does not establish check cashing, final delivery, amount retained, residual loss, recovery rate, trust repair, switching, continued service use, or practical exit for any consumer.",
   "reproduction_audit": {
-    "checked": "2026-09-29",
+    "checked": "2026-10-20",
     "case_page_hash_scope": "Current BrightSpeed case page HTML",
     "index_hash_scope": "Current CFPB payments-by-case index HTML",
     "distribution_sources": "CFPB FY2024 financial report PDF and July 2024 distribution announcement HTML",

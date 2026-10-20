@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-unpaid-household-work-care-valuation-2026",
+  "title": "Unpaid household work makes a large hidden time-and-value layer visible while leaving care conversion open",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107871 using American Time Use Survey and Current Population Survey data",
+  "geography": "United States; nationally representative ATUS and CPS-based estimates for 2021-2024, with monetary valuation for 2024",
+  "observations": [
+    {
+      "period": "2021-2024 time-use estimates; 2024 monetary valuation",
+      "denominator": {
+        "value": null,
+        "unit": "Nationally representative ATUS respondents and CPS wage benchmarks; unpaid household work is defined as work someone else could do for pay and is not a market transaction",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "daily_participation": {
+          "value": 87.3,
+          "unit": "percent of individuals spending at least some time on household work on a typical day",
+          "value_type": "reported_share"
+        },
+        "daily_time": {
+          "value": 3.72,
+          "unit": "average hours per day spent on unpaid household work",
+          "value_type": "reported_mean"
+        },
+        "national_market_value": {
+          "value": "at least $5.6-$6.0 trillion",
+          "unit": "estimated 2024 annual market value, equivalent to at least 19.2%-20.2% of 2024 GDP",
+          "value_type": "modeled_valuation_range"
+        },
+        "caregiving_value": {
+          "value": "$1.1-$1.4 trillion",
+          "unit": "estimated 2024 annual value of primary adult and child caregiving, equivalent to 3.9%-4.9% of 2024 GDP",
+          "value_type": "modeled_valuation_range"
+        },
+        "distributional_pattern": {
+          "value": "women were about 53.9% of people engaged in unpaid household work versus 51.2% of the population; women and married individuals spent more time on child care than men and unmarried individuals, while adult-care time was similar across the reported sex and marital-status comparisons",
+          "unit": "descriptive subgroup comparison for 2021-2024",
+          "value_type": "reported_subgroup_pattern"
+        },
+        "policy_conversion": {
+          "value": "not measured",
+          "unit": "caregiver income, retirement security, paid-care substitution, work continuity, service access, household bargaining, health, or policy effect",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "GAO analysis of nationally representative 2021-2024 ATUS data, CPS demographic and 2024 median-wage data, literature review, and economist interviews. Monetary values multiply time estimates by selected lower and higher wage benchmarks; primary caregiving excludes secondary child care from the headline range.",
+      "uncertainty": "The valuation is a replacement-cost or market-value estimate, not observed earnings, household income, welfare, or a claim that all unpaid work would be purchased in a market. Wage choice creates a range, time-use categories do not capture all care intensity or quality, and secondary child care is excluded from the headline caregiving value.",
+      "subgroup": "Individuals engaged in unpaid household work, with descriptive comparisons by sex and marital/partner status; subgroup differences are not causal effects of gender, marriage, or caregiving.",
+      "counterinterpretation": "A large measured value can coexist with voluntary meaning, reciprocal family support, or tasks that households would not outsource. Valuation may improve policy visibility while also obscuring care quality, emotional labor, autonomy, unequal bargaining, or the difference between time protected and time merely priced.",
+      "source_url": "https://www.gao.gov/products/gao-26-107871",
+      "retrieval_hash": "sha256:10c49b928af8cc89b9b19ccd268f5334654e66bcaefaf0ad59b5212c5133436d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-107871/index.html",
+      "claim": "The accessible GAO report provides the ATUS/CPS methods, valuation ranges, subgroup comparisons, and policy context.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.bls.gov/tus/",
+      "claim": "The Bureau of Labor Statistics American Time Use Survey is the underlying federal time-use source identified by GAO.",
+      "status": "official-data-context"
+    }
+  ],
+  "boundary": "This record advances the hidden-price and care-visibility stage by measuring time and assigning a bounded replacement-cost range to unpaid household work. It does not establish household welfare, care quality, bargaining power, retirement security, labor-force effects, paid-care substitution, or the effect of any policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO report landing-page URL string used as a stable source identifier; accessible report and underlying federal-data links are retained for reproduction.",
+    "retrieval_hash": "sha256:10c49b928af8cc89b9b19ccd268f5334654e66bcaefaf0ad59b5212c5133436d",
+    "checked": "2026-10-20"
+  }
+}

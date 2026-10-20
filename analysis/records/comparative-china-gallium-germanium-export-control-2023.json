@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-china-gallium-germanium-export-control-2023",
+  "title": "A licensing control can contract early critical-mineral shipments and raise price uncertainty without proving durable geopolitical leverage",
+  "theme_ids": [
+    "cost",
+    "work",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "China export-control announcement, MOFCOM licensing update, and USITC March 2024 critical-mineral briefing",
+  "geography": "China and international gallium/germanium supply chain with U.S. import exposure",
+  "observations": [
+    {
+      "period": "July 3-August 1, 2023 through December 13, 2023; export-control implementation, early shipment contraction, and price response",
+      "denominator": {
+        "value": null,
+        "unit": "specified covered gallium and germanium items; shipment and price comparisons are monthly or cited-date comparisons, not a complete market census",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "licensing_gate": {
+          "value": "Covered gallium and germanium items required export permission and supporting end-user, end-use, technical, contract, and importer information beginning August 1, 2023",
+          "unit": "reported trade-control requirement",
+          "value_type": "reported_policy_action"
+        },
+        "approved_applications": {
+          "value": "MOFCOM reported on November 30, 2023 that some applications had been approved and some companies had obtained dual-use export licences",
+          "unit": "reported licensing status",
+          "value_type": "reported_institutional_response"
+        },
+        "wrought_exports": {
+          "value": "USITC reported Chinese wrought gallium exports of 6,876 kg in July, zero in August and September, and 227 kg in October; germanium exports fell from 7,965 kg in July to zero in August, 1 kg in September, and 590 kg in October",
+          "unit": "reported monthly kilograms",
+          "value_type": "reported_trade_series"
+        },
+        "price_response": {
+          "value": "USITC reported October gallium at 1,975 yuan/kg, 18% above July, global gallium prices up 68% since July, and germanium prices up 21% from January 1 by December 13",
+          "unit": "reported price comparisons",
+          "value_type": "reported_market_response"
+        },
+        "downstream_effect": {
+          "value": "not observed",
+          "unit": "missing application-level approvals, destination shipments, inventories, qualified substitutes, firm redesign, production, employment, consumer prices, and bargaining concessions",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "A licensing control can shift documentation, waiting, inventory, qualification, and price risk toward exporters and downstream buyers while producing visible early trade contraction without establishing a sustained cutoff or realized geopolitical concession",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from official Chinese export-control and MOFCOM statements and the USITC executive briefing; licensing, trade, price, and downstream-effect stages are kept separate.",
+      "uncertainty": "Shipment and price figures are reported secondary data and do not isolate export-control causality from demand, inventories, market conditions, or other policy effects. No complete product, destination, application, firm, or household census is retained.",
+      "subgroup": "Covered gallium and germanium products, exporters, downstream semiconductor and technology applications, and U.S. import exposure; firm-level and worker-level outcomes are not identified.",
+      "counterinterpretation": "Approved licences, U.S. germanium stockpile and recovery activity, alternative suppliers, inventories, and application-specific substitution could buffer particular users; early contraction and price increases do not prove sustained shortage or leverage.",
+      "source_url": "https://www.usitc.gov/publications/332/executive_briefings/critical_minerals_supply_chain_security.pdf",
+      "retrieval_hash": "sha256:65cb7e95ddfd5697e040f7985f3d831cf2e565b1ad1380442934e29e46713475",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a dated export-control, early shipment-contraction, and price-response sequence. It does not establish a sustained cutoff, U.S. shortage, firm-level production loss, household effect, or realized geopolitical concession.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from official Chinese policy statements and the USITC briefing; confidential contracts, firm files, personal data, and raw shipment microdata are not retained.",
+    "checked": "2026-10-20"
+  }
+}

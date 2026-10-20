@@ -86,9 +86,9 @@ The audit makes five program-wide facts operational:
    require unit-level follow-up.
 
    The retained same-case stage audit makes the bottleneck measurable: across
-   34 local source surfaces, 30 show a dated event and 30 show an institutional
+   39 local source surfaces, 35 show a dated event and 35 show an institutional
    or firm response, but only 8 show an observed alternative or non-use stage,
-   3 show an observed individual remedy or defined outcome follow-up, 1 shows
+   3 show an observed individual remedy or defined outcome follow-up, 2 show
    an observed meaning/trust/action stage, and none has a fully observed
    recovery/persistence/exit stage. These are stage-availability counts, not
    failure rates; they explain why another exposure or aggregate response

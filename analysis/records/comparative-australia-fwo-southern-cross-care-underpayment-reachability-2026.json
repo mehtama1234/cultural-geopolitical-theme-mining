@@ -1,0 +1,39 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwo-southern-cross-care-underpayment-reachability-2026",
+  "title": "A worker question can trigger large back-pay correction while individual reachability remains unresolved",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "public_systems_feedback", "care_health_reproduction", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "Official Fair Work Ombudsman release and enforceable undertaking for Southern Cross Care NSW and ACT",
+  "geography": "New South Wales and Australian Capital Territory, Australia",
+  "observations": [
+    {
+      "period": "July 2017–October 2024 underpayment; April 2, 2026 enforcement release",
+      "denominator": {"value": 5500, "unit": "employer-reported affected staff; full universe and individual cases not independently audited", "value_type": "employer_reported_approximate_count"},
+      "measures": {
+        "employees_reported_backpaid": {"value": 3603, "unit": "employees", "value_type": "employer_reported_recipient_count"},
+        "reported_backpay": {"value": 10135122, "unit": "Australian dollars including interest and superannuation", "value_type": "employer_reported_aggregate"},
+        "broader_undertaking": {"value": 11700000, "unit": "Australian dollars or more including reported correction and compliance obligations", "value_type": "reported_undertaking_scope"},
+        "trigger": {"value": "employee overtime question led to self-audit and self-report", "unit": "reported institutional route", "value_type": "reported_case_sequence"},
+        "unlocated_worker_rule": {"value": "amounts for workers not found within 60 days paid to the Commonwealth Consolidated Revenue Fund", "unit": "undertaking disposition rule", "value_type": "reported_reachability_rule"},
+        "individual_receipt_and_adequacy": {"value": "not observed", "unit": "missing worker identity, transfer, receipt, amount, adequacy, and later-use evidence", "value_type": "unmeasured"}
+      },
+      "method": "Structured extraction from the official Fair Work Ombudsman media release and associated enforceable undertaking; aggregate back-pay, worker-triggered self-audit, locate rule, and future payroll controls are kept separate from individual receipt and recovery.",
+      "uncertainty": "The affected-staff and paid-worker counts are institutional claims, not an independently audited worker-level denominator. The public route does not expose individual amounts, remaining workers, payment timing, locate success, adequacy, household effects, later pay accuracy, trust, recurrence, or exit.",
+      "subgroup": "Employees across Southern Cross Care aged-care, home-care, and retirement-living operations affected by time-and-attendance, payroll, overtime, penalty, loading, or allowance failures.",
+      "counterinterpretation": "A large reported correction and payroll undertaking can coexist with unreachable workers, public-fund disposition without usable receipt, residual underpayment, or unresolved household and trust effects.",
+      "source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/april-2026/20260402-southern-cross-care-nsw-and-act-eu-media-release",
+      "retrieval_hash": "sha256:3d451494dbf41fea0a5a44416b7e5249fafa7e00372766396b0c62274c89088f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/april-2026/20260402-southern-cross-care-nsw-and-act-eu-media-release", "claim": "Official account of the worker-triggered self-audit, reported back-pay, locate rule, and compliance undertaking.", "status": "official-release"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger containing the bounded official-release and undertaking extraction.",
+    "access_boundary": "The public route reports aggregate back-pay and a locate/remit rule but not worker-level receipt, adequacy, remaining-worker count, later payroll accuracy, household recovery, trust, recurrence, or exit."
+  },
+  "boundary": "This record closes a worker-triggered institutional-response and reported aggregate correction segment. It does not establish complete worker reachability, independent receipt, adequacy, durable payroll compliance, household recovery, prevalence, or general enforcement success."
+}

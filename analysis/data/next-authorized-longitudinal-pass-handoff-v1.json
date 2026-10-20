@@ -1,9 +1,9 @@
 {
   "format": "next-authorized-longitudinal-pass-handoff-v1",
-  "checked": "2026-09-25",
+  "checked": "2026-10-19",
   "status": "awaiting_account_controlled_input",
   "objective": "Close the broad program's open middle with a lawful same-unit longitudinal route linking a dated or recalled material/health event to alternatives or adaptation, money/time trade-off, later outcome, and—where the source supports it—meaning, trust, action, or exit.",
-  "current_boundary": "No PSID, UAS, HRS, or MEPS staged respondent file required for the next gated pass is currently present locally. A fresh repository/workspace inventory on 2026-09-25 found only route pages, logs, access manifests, scripts, and compiled test artifacts, not respondent data. The official PSID route remains account-controlled, with no local microdata. The official UAS pages currently describe the Older Ages Monthly Event Panel Dataset and the June 2026 Comprehensive Panel Dataset as registration-required downloads, with public documentation but gated respondent data; no authorized file is present. Public documentation and field manifests are not treated as microdata evidence.",
+  "current_boundary": "No PSID, UAS, HRS, or MEPS staged respondent file required for the next gated pass is currently present locally. A fresh read-only workspace inventory on 2026-10-19 found route pages, logs, access manifests, scripts, derived records, and compiled test artifacts, but no newly supplied respondent archive or raw wave file in the checked data formats. The official PSID route remains account-controlled, with no local microdata. The official UAS pages currently describe the Older Ages Monthly Event Panel Dataset and the June 2026 Comprehensive Panel Dataset as registration-required downloads, with public documentation but gated respondent data; no authorized file is present. Public documentation and field manifests are not treated as microdata evidence.",
   "public_bridge_progress": {
     "checked": "2026-09-19",
     "newly_closed_or_strengthened": [
@@ -18,6 +18,21 @@
     ],
     "interpretation": "The public SIPP bridges are real same-person progress, but they are not a complete recovery episode. SNAP participation, care assistance, or a work constraint must not be treated as proof of security or restored capacity.",
     "next_authorized_need": "An account-authorized UAS Older Ages, PSID, HRS, or equivalent episode-compatible file remains necessary to close the remaining middle and test later durability, meaning, trust, action, or exit."
+  },
+  "meps_public_comparator_progress": {
+    "status": "bounded_same_person_event_context_only",
+    "current_evidence": "Retained MEPS 2024 records join month-ordered office, emergency-room, and inpatient event families to round-level payment, health, employment, bill context, and a strict-window same-person R5/3 follow-up.",
+    "what_it_closes": [
+      "person/event linkage and compatible time ordering",
+      "descriptive later health and employment transitions",
+      "coverage-conditioned payment context across observed care events"
+    ],
+    "what_remains_open": [
+      "event-specific initiating need, payer, and feasible alternative",
+      "claim, appeal, correction, or remedy receipt",
+      "household adaptation, adequacy, trust, action, switching, or exit"
+    ],
+    "promotion_boundary": "The MEPS comparator strengthens the public same-person bridge but cannot substitute for an authorized event-first longitudinal file or be promoted as a complete recovery episode."
   },
   "promotion_gate": {
     "required_same_unit_fields": [
@@ -66,6 +81,7 @@
   "local_artifacts_to_read_first": [
     "analysis/projects/us-household-calendar-integration/psid-account-holder-request-v1.md",
     "analysis/data/authorized-longitudinal-input-retention-recheck-2026-09-19.json",
+    "analysis/data/authorized-longitudinal-input-retention-recheck-2026-10-19.json",
     "analysis/projects/us-household-calendar-integration/psid-acquisition-gate-v1.md",
     "analysis/projects/us-household-calendar-integration/psid-wave-file-audit-protocol-v1.md",
     "analysis/projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md",

@@ -1,0 +1,141 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-la-wildfire-recovery-persistence-2026",
+  "title": "Extended disaster assistance and mortgage bridges can lengthen the recovery clock without proving durable housing",
+  "theme_ids": [
+    "cost",
+    "time",
+    "energy"
+  ],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "California official Los Angeles wildfire recovery updates on continued FEMA housing support and CalAssist mortgage relief",
+  "geography": "Los Angeles County and California; 2025 wildfire long-term housing recovery",
+  "observations": [
+    {
+      "period": "June 12, 2026; continued FEMA housing support and residual-need recontact",
+      "denominator": {
+        "value": 35000,
+        "unit": "more than 35,000 households reported assisted; aggregate program count, not a named-household longitudinal panel",
+        "value_type": "reported_aggregate_households"
+      },
+      "measures": {
+        "aggregate_assistance": {
+          "value": "More than $177 million reported awarded, with FEMA housing support extended through July 2027 while survivors rebuild",
+          "unit": "reported aggregate assistance and support window",
+          "value_type": "reported_program_measure"
+        },
+        "residual_need_route": {
+          "value": "Households with exhausted insurance living expenses or remaining unmet needs were directed to re-contact FEMA for continued rental or repair assistance",
+          "unit": "reported administrative route",
+          "value_type": "reported_policy_action"
+        },
+        "household_recovery": {
+          "value": "not observed",
+          "unit": "missing household payment, award date, amount adequacy, rental exit, repair completion, permanent housing, work, health, debt, and later stability",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "An extended assistance window can keep a recovery route open while transferring ongoing recontact, documentation, timing, and residual-loss risk to survivors; administrative availability is not durable housing",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from California's official recovery update and continued-assistance notice; aggregate households, dollars, extension, and recontact route are kept separate from named-household receipt and recovery.",
+      "uncertainty": "Aggregate program reporting does not establish a household panel, payment timing, eligibility, amount adequacy, or stable housing outcome. Insurance, local aid, rental, repair, and household alternatives are not observed.",
+      "subgroup": "Los Angeles wildfire survivors and households reported in California/FEMA aggregate program updates; no named-household subgroup or comparison group is supplied.",
+      "counterinterpretation": "An extension can help one household recover while another fails to recontact, remains in temporary housing, or receives inadequate support; reported aggregate assistance does not show distribution.",
+      "source_url": "https://www.news.caloes.ca.gov/governor-newsom-welcomes-fema-extension-to-help-los-angeles-fire-survivors-continue-recovery/",
+      "retrieval_hash": "sha256:64422a82d2940378271b8722bfd496318009905d534b4cfa720c0bb3892ae97a",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; CalAssist mortgage-payment bridge and insurance-release pressure",
+      "denominator": {
+        "value": 1100,
+        "unit": "more than 1,100 homeowners reported assisted; program maximums are up to 12 months of mortgage payments and up to $100,000, not an average award",
+        "value_type": "reported_aggregate_homeowners"
+      },
+      "measures": {
+        "mortgage_bridge": {
+          "value": "CalAssist provided mortgage-payment relief while insurance and rebuilding processes continued",
+          "unit": "reported housing-finance intervention",
+          "value_type": "reported_program_action"
+        },
+        "insurance_timing": {
+          "value": "California urged lenders to release insurance proceeds promptly so homeowners could rebuild",
+          "unit": "reported institutional coordination and public pressure",
+          "value_type": "reported_policy_response"
+        },
+        "rebuild_and_receipt": {
+          "value": "not observed",
+          "unit": "missing named homeowner, lender decision, insurance release, payment receipt, mortgage balance, rebuild completion, return, and durable housing outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from California's official Long-Term Housing Recovery bulletin; program maximums and aggregate recipients are not treated as named payment or rebuild completion.",
+      "uncertainty": "The bulletin does not identify individual applications, award timing, lender action, insurance release, payment receipt, or construction milestones. A mortgage bridge can coexist with continuing displacement or repair delay.",
+      "subgroup": "California wildfire homeowners eligible for or reported under CalAssist; no homeowner-level sample or comparison group is supplied.",
+      "counterinterpretation": "A homeowner may rebuild without CalAssist, or receive mortgage relief while insurance or construction delays continue; aggregate assistance does not establish avoided loss or stable return.",
+      "source_url": "https://www.caloes.ca.gov/wp-content/uploads/Recovery/Documents/JULY-LTHR-4.pdf",
+      "retrieval_hash": "sha256:64422a82d2940378271b8722bfd496318009905d534b4cfa720c0bb3892ae97a",
+      "status": "reported"
+    },
+    {
+      "period": "July-October 2026; California insurance payment tracker and complaint-intervention recheck",
+      "denominator": {
+        "value": 41727,
+        "unit": "claims filed in the California Department of Insurance tracker for the Eaton and Palisades fires; mixed home, business, living-expense, auto, and other disaster-related claims",
+        "value_type": "reported_aggregate_claims"
+      },
+      "measures": {
+        "claims_partially_paid": {
+          "value": 40482,
+          "unit": "claims partially paid in the tracker",
+          "value_type": "reported_aggregate_paid_claims"
+        },
+        "aggregate_claims_paid": {
+          "value": 25200000000,
+          "unit": "U.S. dollars paid to date across residential, commercial, and auto policyholders",
+          "value_type": "reported_aggregate_amount"
+        },
+        "complaint_intervention_recovery": {
+          "value": 338000000,
+          "unit": "more than U.S. dollars recovered through California Department of Insurance intervention in consumer complaints, including smoke-damage claims",
+          "value_type": "reported_aggregate_complaint_recovery"
+        },
+        "household_recovery": {
+          "value": "not observed",
+          "unit": "missing claim-level payment timing, amount adequacy, lender release, mortgage continuity, repair completion, occupancy, return, residual loss, and durable insurance access",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from the California Department of Insurance wildfire claims tracker and its October 2026 market update; claims filed, partial-payment counts, aggregate dollars, and complaint-intervention recovery are kept separate from named-household receipt and rebuild outcomes.",
+      "uncertainty": "The tracker combines claim types and insurer-reported data and does not provide a named-household panel, payment adequacy, claim closure, lender release, or occupancy outcome. The complaint-recovery total is an aggregate intervention result and does not identify how many households received what amount or whether housing was restored.",
+      "subgroup": "Eaton and Palisades wildfire claims and complainants represented in California Department of Insurance aggregate reporting; no household-level subgroup or comparison is supplied.",
+      "counterinterpretation": "High aggregate payment and complaint-recovery totals can coexist with underpayment, delay, unresolved claims, lender-held proceeds, displacement, or rebuilding failure for particular households.",
+      "source_url": "https://www.insurance.ca.gov/01-consumers/180-climate-change/Wildfire-Claims-Tracker.cfm",
+      "retrieval_hash": "sha256:9fc86950b642ea441465a0f62ed924656db369ac3040c42c1b0616801313062f",
+      "related_source_url": "https://www.insurance.ca.gov/0400-news/0102-alerts/2026/Major-California-home-insurers-move-to-r.cfm",
+      "related_retrieval_hash": "sha256:413a60e75853fd98a34745e7edd85ec6dc291cb43eecdea0a5b03126831c901a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/release019-2026.cfm",
+      "claim": "California Department of Insurance describes State Farm claims-handling violations, its enforcement route, and March aggregate payment context for the Eaton and Palisades fires.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record establishes a longer disaster-recovery clock, continued assistance route, mortgage and insurance bridge, aggregate insurance payment, and complaint-intervention recovery. It does not estimate household receipt, payment adequacy, lender release, rebuild completion, stable housing, trust, political action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from official California and FEMA-related recovery updates; survivor identifiers, payment files, insurer files, lender files, and personally identifying information are not retained.",
+    "checked": "2026-10-20"
+  }
+}

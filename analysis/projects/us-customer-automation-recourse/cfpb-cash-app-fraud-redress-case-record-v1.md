@@ -1,6 +1,6 @@
 # CFPB Cash App fraud redress and dispute-control case record v1
 
-**Checked:** 2026-09-19
+**Checked:** 2026-10-19
 **Status:** official enforcement/remedy record; consumer receipt and practical exit remain unverified
 
 ## Why this case matters to the broad goal
@@ -16,6 +16,17 @@ through the required investigation process. The order required Block to make
 up to **$120 million** available for refunds and other redress and imposed a
 separate **$55 million** civil penalty. It also required changes to the firm's
 fraud-handling practices.
+
+The consent order makes the operational middle more specific. It defines a
+frozen-account affected class as consumers whose accounts were frozen for at
+least 14 days with a balance of at least $25, and it reports at least 153,866
+unauthorized-transfer claims for which Block did not provide required
+provisional credits when investigations exceeded 10 business days. The order
+also sets a $50 redress component for each frozen-account affected consumer,
+requires a redress plan with a final affected-consumer list and per-consumer
+amounts, and requires a post-plan report of consumers/accounts paid and total
+redress. These are stronger administrative clocks and population definitions,
+not evidence that a particular account was unfrozen, credited, or made whole.
 
 ## Stage map
 
@@ -38,9 +49,9 @@ or whether users switched, stopped using the service, or regained trust.
 | Stage | Evidence boundary |
 |---|---|
 | Exposure/problem | The enforcement record describes fraud-related consumer losses and weaknesses in dispute handling; it is not a population incidence estimate. |
-| Firm process | The record describes investigation and dispute-handling failures attributed to Block. |
+| Firm process | The record describes investigation and dispute-handling failures attributed to Block, including at least 153,866 claims lacking required timely provisional credit when investigations ran beyond 10 business days. |
 | Public response | CFPB enforcement action and legal findings are publicly documented. |
-| Formal remedy | The order specifies consumer redress up to $120 million, a $55 million civil penalty, and operational corrective requirements. |
+| Formal remedy | The order specifies at least $75 million and up to $120 million in consumer redress, a $55 million civil penalty, a $50 frozen-account redress component, and operational corrective requirements. |
 | Lived recovery | Individual receipt, net recovery, correction time, repeat effort, continued use, switching, trust, and exit are not observed in this record. |
 
 ## Contribution to the societal trend atlas
@@ -77,9 +88,9 @@ Cash App users as a whole.
 The CFPB's [payments-by-case lookup](https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/)
 describes how ongoing and closed distributions are listed and distinguishes
 company-administered payments, Bureau-administered redress, and Civil Penalty
-Fund payments. A live recheck on 2026-09-19 did not locate Block or Cash App in
+Fund payments. A live recheck on 2026-10-19 did not locate Block or Cash App in
 the ongoing or closed payment cases; the page reports a last modification date
-of August 24, 2026. This is a bounded administrative observation only: it does
+of October 15, 2026. This is a bounded administrative observation only: it does
 not prove that distribution has not begun, that no consumers have been paid,
 or that the order has not been implemented. The separate [Block case
 page](https://www.consumerfinance.gov/enforcement/actions/block-inc/) still
@@ -91,11 +102,11 @@ design/reachability statement, not proof that a payment was issued, received,
 cashed, or adequate. This remains a non-observation of a public listing, not
 proof that no payment has occurred.
 
-The smallest next public check is a dated recheck of the payment-by-case page
-and any official Block distribution notice. A stronger same-customer result
-would still require a privacy-approved payment or account-level follow-up with
-eligibility, amount, payment date, receipt, remaining loss, and later use or
-exit.
+The dated payment-by-case and Block-page recheck has now been completed on
+2026-10-19 and remains a non-observation of a public recipient-level listing.
+A stronger result requires either a newly posted official distribution report or
+a privacy-approved payment/account follow-up with eligibility, amount, payment
+date, receipt, remaining loss, and later use or exit.
 
 ## Source
 

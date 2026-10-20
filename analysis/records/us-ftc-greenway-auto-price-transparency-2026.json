@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-greenway-auto-price-transparency-2026",
+  "title": "An auto-price transparency order can move hidden-fee allegations into a formal disclosure control while consumer effects remain open",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Federal Trade Commission Greenway Auto complaint, proposed stipulated order, and October 8, 2026 price-transparency settlement announcement",
+  "geography": "United States consumers shopping for vehicles from Greenway Auto Group dealerships in Florida",
+  "observations": [
+    {
+      "period": "2026 alleged pricing conduct, March warning, and October 8 proposed stipulated order",
+      "denominator": {
+        "value": 1,
+        "unit": "Greenway Auto enforcement matter and its complaint-defined transaction review; the public materials do not provide a complete customer or affected-transaction denominator",
+        "value_type": "named_enforcement_case"
+      },
+      "measures": {
+        "advertised_price_gap": {
+          "value": 3350,
+          "unit": "more than U.S. dollars average alleged amount charged above the advertised price in the FTC's complaint",
+          "value_type": "reported_average_allegation"
+        },
+        "transaction_share": {
+          "value": 92,
+          "unit": "percent of transactions alleged to have included more than the advertised price",
+          "value_type": "reported_share_allegation"
+        },
+        "disclosed_mechanisms": {
+          "value": "mandatory administrative, dealer, delivery, and processing fees, conditional rebates or discounts, and financing/add-on conditions were alleged to make advertised prices lower than the amount charged",
+          "unit": "reported pricing and sales mechanisms",
+          "value_type": "reported_allegation"
+        },
+        "formal_remedy": {
+          "value": "proposed order requires advertised prices to reflect the actual price consumers must pay apart from government-required charges, prohibits misrepresentations about optional or required charges and financing, and prohibits deceptive prize mailers",
+          "unit": "proposed stipulated injunction and disclosure control",
+          "value_type": "reported_remedy_term"
+        },
+        "consumer_conversion": {
+          "value": "not measured",
+          "unit": "implemented advertising compliance, final transaction price, financing cost, add-on purchase, complaint, correction, household affordability, repeat purchase, or trust",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from the FTC press release, complaint, case page, and proposed stipulated order. Alleged pricing gap, alleged transaction share, mechanism, proposed control, and downstream consumer outcomes are retained as separate stages.",
+      "uncertainty": "The pricing figures and practices are allegations in a pending matter; the proposed order has force of law only when approved and signed by the court. The public materials do not establish the complete denominator, individual payment, final negotiated price, implemented compliance, or consumer welfare.",
+      "subgroup": "Consumers shopping for vehicles from Greenway dealerships, including consumers exposed to conditional discounts, mandatory fees, financing conditions, add-ons, and prize mailers.",
+      "counterinterpretation": "Some price differences may reflect taxes, government charges, vehicle or transaction differences, or legitimate discounts; a disclosure rule may improve comparability without guaranteeing affordability, financing access, or a lower final price.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-secures-settlement-auto-dealership-group-price-transparency-win-consumers",
+      "retrieval_hash": "sha256:dd88805bd5081041319be4fc70bd589aae779054f18eb89e4ed0ac45d092b76e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://search.ftc.gov/legal-library/browse/cases-proceedings/greenway-auto",
+      "claim": "The FTC case page identifies Greenway Auto, the pending matter, and the complaint/order documents.",
+      "status": "official-case-record"
+    },
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Greenway-Complaint.pdf",
+      "claim": "The complaint contains the alleged price gaps, transaction share, warning-letter sequence, and pricing mechanisms.",
+      "status": "official-complaint"
+    }
+  ],
+  "boundary": "This record advances a bounded price-information-to-remedy route from alleged hidden fees and conditional pricing into a proposed disclosure and conduct control. It does not establish final court approval, implementation, lower prices, financing access, affordability, customer-level correction, household recovery, or durable trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical FTC announcement URL string used as a stable source identifier; official case and complaint links are retained for reproduction.",
+    "retrieval_hash": "sha256:dd88805bd5081041319be4fc70bd589aae779054f18eb89e4ed0ac45d092b76e",
+    "checked": "2026-10-20"
+  }
+}

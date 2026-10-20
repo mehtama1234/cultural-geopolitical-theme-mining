@@ -1,0 +1,37 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-credit-card-complaint-routes-2026-ytd",
+  "title": "2026 year-to-date credit-card complaints show explanation, monetary relief, and unresolved routes in the CFPB system",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["consumer_power_recourse", "household_room_consumption", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status"],
+  "source_unit": "published CFPB credit-card complaint records received in a partial calendar-year API slice",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2026-01-01 through 2026-09-30; credit-card complaints received",
+      "denominator": {"value": 74236, "unit": "published credit-card complaint records returned by the CFPB product-filtered API", "value_type": "api_total_count"},
+      "measures": {
+        "closed_with_explanation": {"value": 52264, "unit": "complaint records; 70.40% of the returned slice", "value_type": "api_count"},
+        "closed_with_monetary_relief": {"value": 11489, "unit": "complaint records; 15.48% of the returned slice", "value_type": "api_count"},
+        "closed_with_non_monetary_relief": {"value": 7110, "unit": "complaint records; 9.58% of the returned slice", "value_type": "api_count"},
+        "in_progress": {"value": 3091, "unit": "complaint records; 4.16% of the returned slice", "value_type": "api_count"},
+        "untimely_response": {"value": 282, "unit": "complaint records; 0.38% of the returned slice", "value_type": "api_count"},
+        "timely_yes": {"value": 73236, "unit": "complaint records; 98.65% of the returned slice", "value_type": "api_count"},
+        "web_submission": {"value": 68205, "unit": "complaint records; 91.88% of the returned slice", "value_type": "api_count"}
+      },
+      "method": "Aggregate-only query to the official CFPB Consumer Complaint Database search API with date_received_min=2026-01-01, date_received_max=2026-10-01, product=Credit card, and size=0; response and timeliness buckets were extracted from the API aggregations.",
+      "uncertainty": "The slice is partial-year and consists of published complaint records, not all consumers, accounts, cardholders, or underlying problems. Company-response categories are administrative labels; monetary relief is not independently verified payment, adequacy, or balance correction. The API can update historical records and the 2026 taxonomy includes an in-progress category.",
+      "subgroup": "Credit-card complaints received in the first nine calendar months of 2026; submission channel and company-response categories are retained separately.",
+      "counterinterpretation": "A high explanation share can reflect issue mix, company practice, routing, or publication rules rather than failed remedy; a monetary-relief label can address only part of a complaint and does not establish household recovery or continued use.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/",
+      "retrieval_hash": "sha256:e676991d7b5b618b01c92de669bc19a31578322fd3544811545c58460640c0b3",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/", "claim": "Official CFPB complaint database scope, publication, filtering, and API access context.", "status": "primary"},
+    {"source_url": "https://cfpb.github.io/api/ccdb/fields.html", "claim": "Official API field definitions for date received, product, company response, timely response, and publication boundaries.", "status": "primary"},
+    {"source_url": "analysis/records/us-cfpb-product-response-routes-2024-2025.json", "claim": "Prior 2024 and 2025 product-conditioned comparison retained as a separate vintage and period.", "status": "related-evidence"}
+  ],
+  "boundary": "This record is a partial-year administrative complaint-route slice. It does not establish the prevalence of credit-card harm, borrower approval or APR, account balance, payment burden, verified correction or payment, remedy adequacy, repeat contact, switching, trust, or household recovery. It should be compared with the 2024–2025 product-response record without treating the periods as a causal panel."
+}

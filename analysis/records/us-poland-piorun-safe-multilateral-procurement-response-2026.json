@@ -174,6 +174,22 @@
       "source_url": "https://www.gov.pl/web/aktywa-panstwowe/mesko-produkuje-milion-sztuk-amunicji-dziennie",
       "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
       "status": "reported"
+    },
+    {
+      "period": "2026-10-13; Lithuanian-Polish Piorun acquisition final-stage update",
+      "denominator": {"value": 1, "unit": "Lithuanian Ministry of National Defence bilateral follow-up on the Piorun acquisition", "value_type": "reported_procurement_follow_up"},
+      "measures": {
+        "acquisition_stage": {"value": "Lithuania reported that the agreement on acquiring Piorun short-range air-defence systems had entered its final stage", "unit": "reported procurement stage", "value_type": "reported_final_stage"},
+        "stated_security_mechanism": {"value": "The ministers linked the acquisition to improving Lithuania's capacity to respond to air threats and discussed recent drone incidents, hybrid attacks, and critical-infrastructure protection", "unit": "reported policy rationale", "value_type": "reported_security_response"},
+        "delivery_and_readiness": {"value": "not observed", "unit": "missing quantity, signed execution document, payment, delivery, acceptance, inventory, training, readiness, and operational-use evidence", "value_type": "unmeasured"}
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence bilateral meeting account; the reported final-stage procurement and stated rationale are kept separate from delivery or operational capability.",
+      "uncertainty": "The account does not identify the final contract value, quantity, delivery schedule, acceptance criteria, payment status, or whether the agreement is the same instrument as the Poland-led SAFE/EDIRPA framework.",
+      "subgroup": "Lithuanian Armed Forces, Polish defence cooperation, Piorun procurement, and regional air-defence planning.",
+      "counterinterpretation": "A final-stage agreement can reflect political and procurement progress without establishing that systems were ordered, paid for, delivered, accepted, or available to respond to an incident.",
+      "source_url": "https://kam.lt/en/the-agreement-on-piorun-systems-has-been-finalized-says-r-kaunas-after-meeting-the-minister-of-national-defence-of-poland/",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -187,6 +203,9 @@
     {"source_url": "https://www.mesko.com.pl/aktualnosci/38", "claim": "MESKO's archive dates the Norway first-batch handover to 2023-12-12.", "status": "primary-source"},
     {"source_url": "https://www.fma.no/aktuelt-og-media/2020/forsvarsmateriell-kjoper-baerbart-luftvern-til-haeren", "claim": "Norwegian Defence Materiel Agency supplies the 2022 contract date, approximate value, intended user, and stated delivery start.", "status": "primary-source"},
     {"source_url": "https://www.forsvaret.no/aktuelt-og-presse/aktuelt/piorun", "claim": "Norwegian Armed Forces supply the 2024 first live-fire and initial fielding context.", "status": "primary-source"}
+    ,{"source_url": "https://kam.lt/en/the-agreement-on-piorun-systems-has-been-finalized-says-r-kaunas-after-meeting-the-minister-of-national-defence-of-poland/", "claim": "Lithuania reports that the Piorun acquisition agreement entered its final stage and links the procurement discussion to air threats, recent drone incidents, and critical-infrastructure protection.", "status": "primary-source", "access_boundary": "The account establishes procurement progress and stated rationale, not delivery, acceptance, readiness, or incident-specific capability."}
+    ,{"source_url": "https://kam.lt/en/lithuania-gains-ukraines-drone-production-technology-says-minister-r-kaunas/", "claim": "Lithuania reported a separate October 15 letter of intent between Pekkla UAB and Ukraine's December One RND Ltd for electronic-warfare systems and UAV components, with a stated goal of a Lithuanian joint venture beginning production in 2027.", "status": "adjacent-industrial-response", "access_boundary": "This is not evidence of Piorun delivery, production, or readiness; it is a separately scoped future industrial-cooperation route."}
+    ,{"source_url": "https://kam.lt/en/facts-and-trends/implementation-of-the-national-defence-budget/", "claim": "Lithuania lists PIORUN short-range air-defence systems among 2026 acquisition projects underway and says equipment acquired through these projects will reach Lithuanian Armed Forces units over the coming years.", "status": "primary-source", "access_boundary": "The page does not identify a Piorun delivery lot, acceptance, inventory, training, readiness, or incident-specific use."}
   ],
   "boundary": "This record advances the domestic SAFE contracting -> allied procurement and market-response arrow. It does not establish delivered Piorun quantities, acceptance, readiness, battlefield use, export revenue, supplier replaceability, or a causal effect of SAFE on foreign procurement decisions."
 }

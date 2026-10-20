@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-eda-regional-commission-grant-performance-coordination-2026",
+  "title": "Regional development grants can coincide with improved conditions while attribution and coordination remain unverified",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108496 review of Economic Development Administration and regional commission grants and performance management",
+  "geography": "Distressed and underserved communities in Economic Development Administration and federal regional commission service areas",
+  "observations": [
+    {
+      "period": "Fiscal years 2016–2024 grant data and October 7, 2026 GAO report",
+      "denominator": {
+        "value": 12000000000,
+        "unit": "more than $12 billion in EDA and regional commission grants awarded during fiscal years 2016–2024",
+        "value_type": "reported_grant_scale"
+      },
+      "measures": {
+        "granting_entities": {
+          "value": "EDA and five regional commissions—the Appalachian Regional Commission, Delta Regional Authority, Denali Commission, Northern Border Regional Commission, and Southeast Crescent Regional Commission—awarded the grants; the Southwest Border Regional Commission began first grants in fiscal year 2025",
+          "unit": "reported federal and regional grant institutions",
+          "value_type": "reported_institutional_scope"
+        },
+        "economic_condition_change": {
+          "value": "poverty and unemployment conditions generally improved in regional commission areas from 2016 through 2024",
+          "unit": "reported area-level economic trend",
+          "value_type": "reported_area_trend"
+        },
+        "attribution": {
+          "value": "not established",
+          "unit": "whether observed economic improvements were caused by EDA or regional commission grants",
+          "value_type": "unmeasured_causal_boundary"
+        },
+        "data_validation_gap": {
+          "value": "EDA has not systematically validated key performance-measure data since 2020; Denali lacks standardized, objective, and measurable performance procedures across its grants",
+          "unit": "reported performance-management condition",
+          "value_type": "reported_data_quality_gap"
+        },
+        "coordination_gap": {
+          "value": "EDA lacks a comprehensive framework for coordinating with regional commissions, with arrangements ranging from formal agreements to little or no project-level coordination",
+          "unit": "reported interagency coordination condition",
+          "value_type": "reported_coordination_gap"
+        },
+        "local_benefit_signal": {
+          "value": "selected grantees and local development officials described improved infrastructure and expanded job and business opportunities",
+          "unit": "reported interview-based benefit descriptions",
+          "value_type": "reported_stakeholder_signal"
+        },
+        "open_recommendations": {
+          "value": 3,
+          "unit": "open recommendations to resume EDA validation, establish Denali performance procedures, and implement an EDA regional-commission coordination framework",
+          "value_type": "open_recommendation_count"
+        },
+        "household_conversion": {
+          "value": "not measured",
+          "unit": "project-level completion, jobs retained, wages, firm survival, household income, infrastructure access, distributional reach, or community trust",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-108496, based on EDA and regional-commission award data for fiscal years 2016–2024, Census and Bureau of Labor Statistics economic-condition data, agency documentation and procedures, site visits in Maryland, Vermont, and Louisiana, and interviews with officials, grantees, and local stakeholders. Grant scale, area trends, attribution, validation, coordination, stakeholder signals, recommendations, and household outcomes are retained as separate stages.",
+      "uncertainty": "Area-level poverty and unemployment changes are not a causal estimate of grant effects. Site visits and stakeholder interviews were selected and nongeneralizable. Reported grant performance data may be unreliable where validation is absent, and the review does not provide a common project-level series linking awards to jobs, wages, firms, infrastructure use, or household outcomes.",
+      "subgroup": "Residents, firms, workers, local governments, tribes, and community organizations in distressed or underserved areas receiving EDA or regional commission grants, with uneven access to projects and benefits.",
+      "counterinterpretation": "Economic improvements may reflect broader labor-market, demographic, private-investment, or other public-program changes rather than grant failure; formal coordination may also be unnecessary for some locally tailored projects, while unvalidated performance data and fragmented coordination reduce confidence in comparative claims.",
+      "source_url": "https://www.gao.gov/products/gao-27-108496",
+      "retrieval_hash": "sha256:e5a79312a7467d7884f6d39b2dc54c6b1e4c5a313680b9b373a5f508284f7e1e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108496/index.html",
+      "claim": "The official accessible report contains the grant-scale, economic-condition, performance-management, coordination, and recommendation findings.",
+      "status": "official-report"
+    }
+  ],
+  "boundary": "This record advances a bounded regional-grant-to-performance-and-coordination route. It does not establish causal grant effects, project completion, jobs, wages, firm survival, infrastructure use, household income, distributional reach, community trust, or completed corrective action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report link is retained for reproduction.",
+    "retrieval_hash": "sha256:e5a79312a7467d7884f6d39b2dc54c6b1e4c5a313680b9b373a5f508284f7e1e",
+    "checked": "2026-10-20"
+  }
+}

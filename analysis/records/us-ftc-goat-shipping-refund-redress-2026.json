@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-goat-shipping-refund-redress-2026",
+  "title": "A marketplace refund route can separate prior direct correction from later public redress",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Federal Trade Commission GOAT enforcement and refund-administration pages",
+  "geography": "United States consumers using GOAT online marketplace",
+  "observations": [
+    {
+      "period": "2025 direct refund stage and October 6, 2026 FTC distribution",
+      "denominator": {
+        "value": 6205,
+        "unit": "customers receiving FTC checks or PayPal payments in October 2026; aggregate recipient count",
+        "value_type": "reported_recipient_population"
+      },
+      "measures": {
+        "prior_direct_refunds": {
+          "value": 736000,
+          "unit": "more than U.S. dollars returned by GOAT to affected customers in 2025",
+          "value_type": "reported_aggregate_refund"
+        },
+        "current_ftc_distribution": {
+          "value": 100000,
+          "unit": "more than U.S. dollars in checks and PayPal payments sent by FTC in October 2026",
+          "value_type": "reported_aggregate_distribution"
+        },
+        "payment_channels": {
+          "value": "Most recipients receive a mailed check; some receive PayPal",
+          "unit": "reported distribution route",
+          "value_type": "reported_process"
+        },
+        "payment_window": {
+          "value": "Checks should be cashed within 90 days; PayPal payments should be redeemed within 30 days",
+          "unit": "reported acceptance window",
+          "value_type": "reported_payment_rule"
+        },
+        "underlying_control_issue": {
+          "value": "FTC alleged late priority-processing shipments, failure to offer prompt cancellation/refund options, and failure to consistently honor Buyer Protection refunds",
+          "unit": "enforcement allegation and settlement basis",
+          "value_type": "reported_allegation"
+        }
+      },
+      "method": "Structured extraction from official FTC GOAT refund and press-release pages; direct company refunds, FTC distribution, payment channel, and acceptance window remain separate stages.",
+      "uncertainty": "The public pages do not disclose the full eligible denominator, individual amount, delivery, check cashing, PayPal redemption, returned payment, residual product or shipping loss, repeat use, trust, switching, or exit.",
+      "subgroup": "GOAT customers affected by expedited-shipping delays or deficient-product/refund issues who did not previously receive a company refund; the October 2026 count is not a complete historical harm denominator.",
+      "counterinterpretation": "A second public distribution may improve reach after direct refunds, while short cashing or redemption windows can leave usable receipt dependent on address, payment access, attention, or administrative effort.",
+      "source_url": "https://search.ftc.gov/enforcement/refunds/goat-refunds",
+      "retrieval_hash": "sha256:5fbb3ed189c88e696abf92a19b8d0c82b6d168a3e9ac968d11ec6ff57ffe48c3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://search.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-redress-payments-consumers-impacted-goats-deceptive-shipping-refund-policies",
+      "claim": "The FTC describes the October 2026 distribution, prior GOAT refunds, alleged shipping/refund failures, administrator, and payment windows.",
+      "status": "official-enforcement-and-redress"
+    },
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/222-3016-goat-ftc-v",
+      "claim": "The FTC case page identifies the GOAT enforcement matter and court-order context.",
+      "status": "official-case-record"
+    }
+  ],
+  "boundary": "This record establishes a named marketplace control failure, prior direct refunds, and a later FTC-administered distribution with defined payment windows. It does not establish individual receipt, adequacy, product correction, continued use, switching, trust repair, or durable household recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official FTC refund page HTML retrieved through the search.ftc.gov mirror for extraction",
+    "retrieval_hash": "sha256:5fbb3ed189c88e696abf92a19b8d0c82b6d168a3e9ac968d11ec6ff57ffe48c3",
+    "checked": "2026-10-19"
+  }
+}

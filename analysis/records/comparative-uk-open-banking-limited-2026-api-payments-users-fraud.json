@@ -144,6 +144,48 @@
       "source_url": "https://www.openbanking.org.uk/wp-content/uploads/Open-Banking-Payments-and-Fraud-Monitor-June-edition-2026.pdf",
       "retrieval_hash": "sha256:aa5d9434f33940e92fe2a39d85b047c0c21e16f686345ad7d5338dc15304ee10",
       "status": "reported"
+    },
+    {
+      "period": "2025-Q1 2026; fraud-pattern comparison by payment journey",
+      "denominator": {
+        "value": null,
+        "unit": "Open-banking payment journeys covered by account providers representing more than 60% of open-banking payment volume",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "variable_recurring_payment_fraud_pattern": {
+          "value": "Variable Recurring Payments continued to show lower fraud rates than single immediate payments",
+          "unit": "reported comparative pattern; no public point estimate in the summary",
+          "value_type": "reported_pattern"
+        },
+        "authentication_journey_fraud_pattern": {
+          "value": "App-authenticated journeys continued to show lower fraud rates than browser-authenticated journeys",
+          "unit": "reported comparative pattern; no public point estimate in the summary",
+          "value_type": "reported_pattern"
+        },
+        "emerging_scam_journeys": {
+          "value": "Providers reported increasingly complex impersonation, phishing, smishing, fake-refund, and newer-payment-method scam journeys",
+          "unit": "reported provider observation",
+          "value_type": "reported_risk_pattern"
+        },
+        "transaction_risk_indicators": {
+          "value": "Transaction Risk Indicators are described as having potential to improve fraud detection while reducing unnecessary friction for genuine payments",
+          "unit": "reported operational-control potential; implementation effect not estimated",
+          "value_type": "reported_control_hypothesis"
+        },
+        "mechanism": {
+          "value": "Payment design and authentication context appear to stratify observed fraud exposure, but the public summary does not identify whether the difference comes from user selection, provider controls, transaction mix, or causal protection",
+          "unit": "bounded fraud-risk mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "OBL June 2026 Fraud Monitor summary of provider-reported comparative patterns; qualitative findings are retained without converting them into an effect estimate.",
+      "uncertainty": "The summary does not disclose journey-level denominators, loss severity, reimbursement, victim outcomes, or a causal design. Lower fraud rates by journey cannot be read as proof that one authentication mode protects every user.",
+      "subgroup": "UK users of variable recurring payments, single immediate payments, app-authenticated journeys, and browser-authenticated journeys.",
+      "counterinterpretation": "Journey selection, payment size, merchant mix, user behavior, and provider composition may explain the observed differences; severe losses can remain hidden inside lower rates.",
+      "source_url": "https://www.openbanking.org.uk/insights/open-banking-payments-fraud-monitor-june-2026-edition/",
+      "retrieval_hash": "sha256:a41904f4003cb198f2918626ef24e6bd6d4e24dbe0ab76e3a2b5aec87f6ee05f",
+      "status": "reported"
     }
   ],
   "related_sources": [

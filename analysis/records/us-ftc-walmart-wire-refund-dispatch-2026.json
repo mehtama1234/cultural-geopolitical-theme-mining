@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-walmart-wire-refund-dispatch-2026",
+  "title": "FTC-reported Walmart wire-transfer checks move a fraud remedy into dispatch while cashing remains unverified",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "FTC Walmart wire-transfer fraud-remedy announcement, case page, and timeline record",
+  "geography": "United States consumers affected by fraud-induced Walmart wire transfers",
+  "observations": [
+    {
+      "period": "October 15, 2026; reported consumer-refund dispatch",
+      "denominator": {
+        "value": 65022,
+        "unit": "affected consumers reported as receiving checks",
+        "value_type": "agency_reported_recipient_count"
+      },
+      "measures": {
+        "reported_payment_total": {
+          "value": 9.8,
+          "unit": "million U.S. dollars or more",
+          "value_type": "agency_reported_aggregate"
+        },
+        "remedy_stage": {
+          "value": "checks being sent to affected consumers",
+          "unit": "reported distribution stage",
+          "value_type": "reported_dispatch"
+        },
+        "cashing_window": {
+          "value": 90,
+          "unit": "days to cash the reported checks",
+          "value_type": "reported_payment_window"
+        },
+        "delivery_and_cashing": {
+          "value": "not observed",
+          "unit": "missing individual mailing, delivery, cashing, returned-check, reissue, and receipt outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the official FTC announcement and its linked case/timeline materials, with the project event ledger retained as the reproduction layer. Aggregate dispatch, recipient count, and cashing window are not converted into a receipt or recovery rate.",
+      "uncertainty": "The public announcement does not disclose individual check amounts, original transfer losses, delivery failures, returned checks, cashing, or household recovery. The 65,022 figure is an aggregate program count, not a retained person-level denominator.",
+      "subgroup": "Consumers affected by fraud connected to Walmart wire-transfer services; the public record does not expose demographic, financial, disability, language, or access subgroups.",
+      "counterinterpretation": "Sending checks creates a formal remedy route while leaving delivery, cashing, amount adequacy, and residual-loss risk unresolved for individual recipients.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sends-more-98-million-consumers-harmed-walmarts-failure-stop-scammers-used-its-wire-transfer",
+      "retrieval_hash": "sha256:9c8e412a729f1efd1e644b04c12b946ad8472c265bfb5258b531335f7712ce2b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3012-walmart-ftc-v",
+      "claim": "The FTC case page provides the enforcement and settlement context for the wire-transfer remedy.",
+      "status": "official-case-page"
+    },
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/walmart-ftc-v-timeline-item-2026-10-15",
+      "claim": "The FTC timeline records the October 15, 2026 payment-dispatch event.",
+      "status": "official-timeline"
+    },
+    {
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sends-more-98-million-consumers-harmed-walmarts-failure-stop-scammers-used-its-wire-transfer",
+      "claim": "The FTC reports more than $9.8 million in checks to 65,022 consumers and a 90-day cashing instruction.",
+      "status": "official-press-release"
+    }
+  ],
+  "boundary": "This record follows a named consumer-redress route from alleged wire-transfer control failures to reported check dispatch. It does not establish individual delivery, cashing, adequacy, original-loss recovery, fraud recurrence, trust, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact official-page-derived event ledger retained at analysis/projects/us-customer-automation-recourse/data/ftc-walmart-wire-transfer-refund-dispatch-event-ledger-v1.json; direct page access was rate-limited during canonical promotion.",
+    "checked": "2026-10-20"
+  }
+}

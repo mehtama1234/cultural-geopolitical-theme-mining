@@ -1,0 +1,86 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_connecticut_snap_hearing_record",
+  "purpose": "Bounded Connecticut route from EBT theft through report, card replacement, reported SNAP replacement credit, residual appeal, and open household recovery.",
+  "events": [
+    {
+      "event_id": "CT-SNAP-EBT-REPLACEMENT-PARTIAL-REMEDY-2023",
+      "unit": "case",
+      "geography": "Connecticut SNAP household; Connecticut Department of Social Services administrative hearing",
+      "actor_initiating_change": "unknown",
+      "event_date": "2023-01-01",
+      "date_precision": "Decision record is issued in 2023; individual transaction, report, issuance, and hearing dates are redacted in the public PDF",
+      "denominator": "One anonymized OLCRAH administrative case, Request No. 226201; not a replacement-rate or household-outcome denominator",
+      "method": "Official Connecticut DSS/OLCRAH Notice of Decision; administrative findings, agency exhibits, appellant testimony, and hearing disposition are retained as one case unit",
+      "missingness": "Redacted dates and identity, transaction-level receipt confirmation, food purchases, interim food access, bills, debt, adequacy, later SNAP continuity, recurrence, trust, action, and exit are not linked",
+      "condition_or_decision": "benefit_rule",
+      "exposure": "SNAP benefits were used for out-of-state purchases while the appellant retained the physical EBT card; the decision found covered loss of $590.16 and records a larger claimed amount",
+      "alternatives_before_action": "New EBT card, family assistance with a police report, administrative replacement request, hearing, other food or cash resources, and borrowing may have been available; the case does not identify which were feasible or used",
+      "immediate_burden_or_benefit": "The theft removed usable SNAP purchasing capacity; the agency issued a new card and a $582.00 replacement credit, while the public record does not measure the interruption or household adequacy",
+      "choice_or_response": "The appellant reported the theft, requested a new card, submitted Form W-3037, filed a police report through her daughter, and appealed for an additional $2,125.34; the agency approved $582.00 and later denied the residual appeal",
+      "person_or_actor_with_control": "The Connecticut DSS controlled validation, card issuance, replacement amount, and hearing representation; the appellant controlled reporting, form submission, and appeal but not the processing timeline",
+      "remedy_or_institutional_response": "DSS issued a new EBT card and $582.00 in replacement benefits; OLCRAH upheld the agency's limit and denial of the additional residual claim",
+      "immediate_outcome": "An official hearing record reports a partial replacement credit before the appeal and a final denial of additional replacement",
+      "protected_outcome": "The replacement credit may have restored some food-purchasing capacity, but no food, bill, health, or household-security outcome is verified",
+      "sacrificed_outcome": "Lost food-purchasing capacity, time, administrative effort, privacy, and household stability may have been sacrificed; the record does not quantify the trade-off",
+      "cost_risk_transfer": "The replacement cap and timeliness rule leave some theft risk with the household while shifting validation, issuance, and hearing work to the agency; the case does not measure net burden",
+      "later_outcome": "No same-case food purchase, bill substitution, later balance, continued receipt, repeat theft, household recovery, or exit is observed",
+      "meaning_and_attribution": "The appellant's reasons for claiming the transactions were unauthorized are recorded, but later fairness, blame, trust, dignity, or attribution are not measured",
+      "public_or_collective_response": "An administrative hearing and appeal-rights route are observed; no later complaint, organizing, political action, or program exit is linked",
+      "counterexample": "A reported replacement credit is not proof of adequate recovery; a partial credit may prevent a food gap for one household while leaving another household insecure, and this case cannot estimate either outcome",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Connecticut OLCRAH decision Request No. 226201; the agency record states that $582.00 was issued, but dates are redacted and no independent recipient-level transaction, use, or downstream outcome is public",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "The official decision reports that DSS issued $582.00 to the appellant's SNAP EBT account; recipient use or independent account confirmation is not available",
+      "durability_followup": "No later food, balance, benefit-continuity, recurrence, household-security, trust, or exit follow-up is public"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "CT-SNAP-PARTIAL-A-01",
+      "from": "EBT theft and loss of food-purchasing control",
+      "to": "theft report, new card request, replacement form, and police report",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records the appellant's report, request for a new EBT card, signed W-3037 replacement form, and police report through her daughter",
+      "status": "reported",
+      "counterexample": "The public decision redacts dates and does not measure reporting effort, notice quality, or whether the household had another food route",
+      "remaining_gap": "Exact report clock, unusable-gap duration, effort, and interim food or cash substitution"
+    },
+    {
+      "arrow_id": "CT-SNAP-PARTIAL-A-02",
+      "from": "replacement claim and agency validation",
+      "to": "$582.00 replacement credit and new EBT card",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official decision states that DSS found the appellant eligible for $582.00, issued a new EBT card, and issued $582.00 to the SNAP EBT account",
+      "status": "reported",
+      "counterexample": "Agency-recorded issuance is not independent proof that the appellant used the credit or that it restored adequate food access",
+      "remaining_gap": "Transaction-level receipt confirmation, timing, use, adequacy, and food or bill outcome"
+    },
+    {
+      "arrow_id": "CT-SNAP-PARTIAL-A-03",
+      "from": "partial replacement credit",
+      "to": "hearing for larger residual claim and final denial",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The appellant requested an administrative hearing for an additional $2,125.34; OLCRAH upheld the $582.00 limit and denied the appeal",
+      "status": "reported",
+      "counterexample": "A final hearing denial does not establish that every disputed transaction was authorized or that the replacement amount was materially adequate",
+      "remaining_gap": "Later reconsideration, court appeal, amended issuance, household interpretation, and material consequence"
+    },
+    {
+      "arrow_id": "CT-SNAP-PARTIAL-A-04",
+      "from": "replacement and residual denial",
+      "to": "food adequacy, household security, trust, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The administrative record ends with the replacement and residual-claim disposition and contains no downstream household or political outcome",
+      "status": "open",
+      "counterexample": "The household may have remained food secure through other resources, or remained insecure despite the credit; neither path is observed",
+      "remaining_gap": "Food purchasing, bill substitution, later SNAP continuity, recurrence, trust, action, and exit"
+    }
+  ],
+  "boundary": "This ledger formalizes one anonymized Connecticut administrative case with an agency-recorded partial replacement and residual appeal. It does not establish independent recipient receipt, benefit adequacy, food security, household recovery, population rates, or durable trust/action.",
+  "storage_boundary": "Only the published administrative decision and its bounded case findings are retained; identifying fields, raw EBT transactions, and household follow-up records are not stored."
+}

@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ct-ebt-lock-controls-nonreplacement-2026",
+  "title": "EBT lock controls can reduce future theft exposure while stolen benefits remain nonreplaceable",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Connecticut DSS EBT protection and stolen-benefit guidance",
+  "geography": "Connecticut SNAP and cash-assistance EBT cardholders",
+  "observations": [
+    {
+      "period": "2026 Connecticut EBT protection guidance",
+      "denominator": {
+        "value": null,
+        "unit": "Connecticut EBT cardholders; statewide user count not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "lock_control": {
+          "value": "Cardholders can lock and unlock EBT cards through MyDSS or the ConnectEBT app",
+          "unit": "reported prevention control",
+          "value_type": "reported_process"
+        },
+        "out_of_state_control": {
+          "value": "Cardholders can block or unblock out-of-state transactions",
+          "unit": "reported prevention control",
+          "value_type": "reported_process"
+        },
+        "replacement_boundary": {
+          "value": "Connecticut can replace a lost, stolen, or damaged card, but not SNAP or cash benefits stolen from the card",
+          "unit": "reported remedy boundary",
+          "value_type": "reported_policy_rule"
+        },
+        "remaining_balance_transfer": {
+          "value": "Benefits left on the old card automatically transfer to the replacement card",
+          "unit": "reported account-transfer rule",
+          "value_type": "reported_process"
+        }
+      },
+      "method": "Structured extraction from current official Connecticut DSS EBT protection guidance; prevention controls, card replacement, account transfer, and nonreplacement of stolen benefits are retained as separate stages.",
+      "uncertainty": "The public guidance does not disclose control uptake, prevented theft, stolen-benefit amounts, food-gap duration, benefit adequacy, appeal outcomes, trust, or later household security.",
+      "subgroup": "Connecticut SNAP and cash-assistance EBT cardholders; no statewide denominator or claimant-level follow-up is supplied.",
+      "counterinterpretation": "A cardholder-controlled lock can reduce exposure when used, but it shifts timing and attention requirements to the household while leaving an electronically stolen balance unrecovered under the stated rule.",
+      "source_url": "https://portal.ct.gov/dss/find-benefits-and-support/food-assistance/protect-your-ebt-card-benefits",
+      "retrieval_hash": "sha256:4f3115eadedae6c94b1347b2c2c3c0afa2c1ea56d0ec81f83e6466b3bb1c00ed",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://portal.ct.gov/dss/knowledge-base/articles/snap/replacement-of-value-of-lost-food",
+      "claim": "Connecticut guidance says lost or stolen SNAP or Summer EBT benefits cannot be replaced, while a lost or stolen card itself can be replaced and remaining balances transfer.",
+      "status": "official-current-guidance"
+    },
+    {
+      "source_url": "https://portal.ct.gov/dss/knowledge-base/articles/snap/using-your-ebt-card",
+      "claim": "Connecticut's EBT guidance distinguishes replacement of the physical card from replacement of stolen SNAP or cash benefits and describes the old-card deactivation and remaining-balance transfer route.",
+      "status": "official-current-guidance"
+    }
+  ],
+  "boundary": "This record establishes Connecticut prevention controls and a physical-card replacement/account-transfer route alongside a stated nonreplacement boundary for stolen benefits. It does not establish control use, avoided theft, restored food access, adequacy, trust, or exit."
+}

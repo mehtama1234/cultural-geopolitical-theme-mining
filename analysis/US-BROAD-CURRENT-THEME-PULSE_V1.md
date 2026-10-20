@@ -8,9 +8,9 @@ geopolitical patterns currently visible in the atlas.
 This is a synthesis of separate source layers. It is not a pooled estimate and
 does not say that the same people appear in every pattern.
 
-**Current validated snapshot — 2026-09-24:** the plain-language reader has 367
-ordered findings across the 14-theme map. The underlying program has 796
-machine-readable records, 1,872 observations, and 163 explicitly open
+**Current validated snapshot — 2026-10-19:** the plain-language reader has 367
+ordered findings across the 14-theme map. The underlying program has 2,018
+machine-readable records, 6,026 observations, and 176 explicitly open
 middle-stage arrows. The finding count describes the communication layer; it
 does not mean that the open same-unit recovery and leverage gaps are closed.
 
@@ -245,7 +245,10 @@ for alternative employment and pursue a remedy without securing work, receiving
 payment, or restoring household security.
 The public-systems lane also separates benefit issuance from account control:
 an active EBT balance can coexist with theft, claim burden, delayed replacement,
-and an unobserved food gap.
+and an unobserved food gap. Two partial administrative cases add a remedy
+contrast: Connecticut reports a $582 replacement credit before denying a larger
+residual claim, while New Jersey ends in an affirmed denial. Neither closes the
+food-adequacy, household-recovery, recurrence, trust, or exit arrows.
 The identity/belonging lane adds a mobility-meaning boundary: doing better than
 one's parents and hoping for one's children can coexist with an unattainable
 future, while identity can be central and still be experienced as help, barrier,
@@ -533,6 +536,7 @@ lost work, reduced rest, lower civic availability, or family strain rather than
 as a bill.
 
 Evidence anchors include the [care-time finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-044.md),
+[remote-work and care bargain finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-047.md),
 [ATUS eldercare layer](projects/us-aging-care-strain/atus-2023-2024-published-care-work-layer-v1.md),
 the [work, care, and household-room finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-037.md),
 the [child-care access and capacity finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-046.md),
@@ -757,6 +761,7 @@ with less control. Digital systems also make attention, identity, and data into
 resources that firms and institutions can govern.
 
 Evidence anchors include the [AI work-control project](projects/ai-work-control/README.md),
+[AI work, organization, and consumer-value synthesis](projects/cross-domain/us-ai-work-organization-consumer-value-2026-10-19.md),
 [platform/data/attention layer](projects/us-digital-habits-attention/platform-data-attention-agency-layer-v1.md),
 [AI daily-life and control finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-001.md),
 the [AI companion farewell/exit finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-008.md),
@@ -880,6 +885,10 @@ limited switching remain.
 The airport-transit layer adds an everyday mobility version: nominal service
 can coexist with low use when fare, time, accessibility, familiarity, parking,
 or shift fit make the route impractical.
+The [school-finance long-run place-capacity synthesis](projects/cross-domain/us-school-finance-long-run-place-capacity-2026-10-19.md)
+adds an education version: state reforms can raise earnings and GDP after a
+long lag, while school quality, local access, distribution, household room,
+and public legitimacy remain unmeasured by the aggregate return.
 The new FTA family-friendly-transit dashboard proposal adds the institutional
 measurement stage: safety, cleanliness, universal accessibility, real-time
 information, and reliability are being named for public tracking before final
@@ -913,7 +922,12 @@ approved cost-allocation summary adds a separate modeled stage, reducing a
 typical 1,000-kWh customer's projected monthly increase from $2.90 to $0.94 and
 assigning certain direct-connect costs to large loads. These are visible
 legitimacy and cost-sharing responses, but they are not the same as bill
-posting, household receipt, net savings, or durable affordability.
+posting, household receipt, net savings, or durable affordability. The SCC's
+PUR-2026-00011 connection-queue proceeding also identifies Google and Microsoft
+as named data-center participants, while PUR-2026-00131 is the supplemental
+line-extension docket. This improves actor and governance traceability without
+exposing a facility's metered use, payment, energization, household incidence,
+or local acceptance.
 The AEP Texas financing record adds a closed-capacity stage: DOE reports a
 $3.26 billion loan for roughly 2,800 miles of transmission work and projects
 customer savings and reliability for 1.1 million customers. A September DOE
@@ -1339,7 +1353,9 @@ free alternative work, durable access, or exit.
 The digital-consumer lane adds a correction-control boundary: Cash App's
 redress and operational requirements show institutional recognition of dispute
 failure without showing account-level repair, residual-loss reduction, trust,
-or switching.
+or switching. The order identifies at least 153,866 delayed provisional-credit
+claims and a 14-day/$25 frozen-account class for a $50 redress component, but
+these aggregate definitions still do not identify a stable account or payment.
 The disaster lane adds a persistence-adequacy boundary: extended wildfire
 housing support and mortgage bridges can preserve a route through a long
 recovery while leaving payment receipt, repair, permanent housing, and return
@@ -1451,11 +1467,20 @@ through an interface with the actor who must use, accept, or live under it.
 
 The Champlain Hudson Power Express record adds a different infrastructure
 stage: a named cross-border transmission project reached commercial operation
-and began the reported route for Hydro-Québec power into New York City. This
-turns construction and policy into operating system capacity, but expected
-annual delivery, emissions reduction, and jobs remain separate from household
-bills, rate-class allocation, reliability, host-community acceptance, and
-durable Canada–U.S. leverage.
+and began the reported route for Hydro-Québec power into New York City. A
+follow-up market analysis reports a 20-day cable-splice outage, a 13% first-
+summer capacity factor, zero output in 83% of five-minute intervals, and an
+afternoon/evening operating block, with a conditional Zone J day-ahead spread
+difference on hot days. This turns construction and policy into measured
+operating availability and a possible wholesale-market mechanism, but still
+does not establish household bills, rate-class allocation, reliability
+protection, host-community acceptance, or durable Canada–U.S. leverage.
+
+The machine-auditable [CHPE operation-incidence event ledger](projects/us-infrastructure-operation-incidence/data/chpe-operation-incidence-event-ledger-v1.json)
+records the same project-level sequence and keeps the three unresolved bridges
+explicit rather than treating operation as household benefit. Read the [CHPE operation-to-incidence acquisition gate](projects/us-infrastructure-operation-incidence/infrastructure-operation-incidence-acquisition-gate-2026-10-19.md)
+and [large-load operating-event stage audit](projects/us-data-center-grid-legitimacy/large-load-operating-event-incidence-stage-audit-v1.md)
+for the source-unit boundary and open fields.
 
 The German-Lithuanian brigade record adds the social-capacity layer to the
 geopolitical lane. The Bundeswehr reports about 80% volunteer staffing and
@@ -1526,10 +1551,10 @@ or school outcome. See [finding 356](US-BROAD-INTERESTING-FINDINGS_V1.md#356-tee
 
 ## Portfolio stage bottleneck — 2026-09-21
 
-The same-case availability audit makes the broad gap measurable across 34 local
-source surfaces: 30 show a dated event, 30 show an institutional or firm
+The same-case availability audit makes the broad gap measurable across 39 local
+source surfaces: 35 show a dated event, 35 show an institutional or firm
 response, 8 show an observed alternative or non-use stage, 3 show an observed
-individual remedy or defined outcome follow-up, and 1 shows a meaning,
+individual remedy or defined outcome follow-up, and 2 show a meaning,
 trust, or action stage. None fully observes recovery, persistence, or exit.
 
 This is why the atlas has substantial cultural, social, consumer, political,

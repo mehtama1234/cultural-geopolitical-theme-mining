@@ -1,0 +1,106 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-illuminate-education-student-data-security-order-2026",
+  "title": "A finalized education-technology data-security order creates retention and breach-accountability controls without proving restored student privacy",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Federal Trade Commission complaint and finalized administrative order concerning Illuminate Education, Inc.; named education-technology breach and company-level controls, not a representative student-level harm or recovery sample",
+  "geography": "United States schools, school districts, students and families whose personal information was maintained by Illuminate Education, and FTC privacy enforcement",
+  "observations": [
+    {
+      "period": "December 2021–January 2022 breach; FTC complaint and December 2025 proposed order",
+      "denominator": {
+        "value": 10100000,
+        "unit": "students whose personal data the FTC complaint says was accessed",
+        "value_type": "reported_affected_population"
+      },
+      "measures": {
+        "data_categories": {
+          "value": "email and mailing addresses, dates of birth, student records, and health-related information",
+          "unit": "reported personal-data categories",
+          "value_type": "reported_exposure_scope"
+        },
+        "security_failure_route": {
+          "value": "the FTC alleged a former employee's credentials were used to access cloud databases and that reasonable access controls, threat detection and response, vulnerability monitoring, and patch management were lacking",
+          "unit": "reported breach mechanism and control gap",
+          "value_type": "alleged_failure_pattern"
+        },
+        "notification_timing": {
+          "value": "the FTC alleged Illuminate waited nearly two years to notify some school districts, including districts comprising more than 380,000 students",
+          "unit": "reported breach-notification delay",
+          "value_type": "reported_delay_pattern"
+        },
+        "individual_harm_and_recovery": {
+          "value": "not observed",
+          "unit": "missing student or family notification receipt, identity-theft or health harm, remediation use, deletion confirmation, safety, trust, or practical exit outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the FTC complaint and proposed-order announcement; alleged exposure, failure mechanisms, and notification timing are coded separately from later order obligations and any student-level outcome.",
+      "uncertainty": "The complaint describes allegations and a reported affected population; the public materials do not provide a representative student-level denominator, verified misuse, identity-theft incidence, health consequence, or completed remediation.",
+      "subgroup": "Students and former students, including people whose records included health-related information, plus parents, families, and school districts; notice, exposure, harm, and remediation may differ by district, age, record type, language, and access to support.",
+      "counterinterpretation": "A large reported exposure and delayed notification can increase privacy and recovery burdens, but the complaint does not establish that every listed student was accessed or harmed, and it does not by itself show that the later order failed or succeeded.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-takes-action-against-education-technology-provider-failing-secure-students-personal-data",
+      "retrieval_hash": "sha256:ac61667eb3d75d8733b03676234e175b464f499b2db15eb6db94f48e8c7cc514",
+      "status": "reported"
+    },
+    {
+      "period": "June 5, 2026; FTC final order after public comment",
+      "denominator": {
+        "value": 1,
+        "unit": "final FTC administrative order",
+        "value_type": "institutional_order_count"
+      },
+      "measures": {
+        "data_minimization_and_deletion": {
+          "value": "Illuminate must delete personal information not reasonably needed for requested products or services and may not collect, process, or maintain data beyond that need",
+          "unit": "final conduct control",
+          "value_type": "ordered_remedy_design"
+        },
+        "retention_schedule": {
+          "value": "Illuminate must publish a retention schedule explaining collection and business need and setting a deletion timeframe limited to what is reasonably necessary",
+          "unit": "final transparency and deletion control",
+          "value_type": "ordered_control_design"
+        },
+        "security_and_incident_accountability": {
+          "value": "Illuminate must implement a comprehensive information-security program and notify the FTC if it alerts another government about a covered breach",
+          "unit": "final security and reporting control",
+          "value_type": "ordered_control_design"
+        },
+        "implementation_and_student_outcomes": {
+          "value": "not observed",
+          "unit": "missing implementation audit, deletion completion, future incident performance, student correction, harm reduction, trust, or service-exit outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the FTC final-approval announcement, case status, and final-order description; enforceable order provisions are kept separate from compliance evidence and individual student recovery.",
+      "uncertainty": "The final order establishes company obligations but the cited public materials do not report a completed compliance audit, the amount of data deleted, student-level requests or corrections, or a later incident outcome.",
+      "subgroup": "Illuminate, participating schools and districts, current and former students, parents, and families whose data was retained or exposed; practical benefit depends on district coordination, notice, support, and access to correction or protection.",
+      "counterinterpretation": "A finalized order can convert a breach case into durable data-minimization and security obligations, but legal enforceability is not the same as verified deletion, safer student experience, restored trust, or reduced future exposure.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-gives-final-approval-order-against-illuminate-settling-allegations-it-failed-secure-students",
+      "retrieval_hash": "sha256:ac61667eb3d75d8733b03676234e175b464f499b2db15eb6db94f48e8c7cc514",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/222-3105-illuminate-education-inc-matter",
+      "claim": "The FTC case page identifies the matter as under order and links the complaint, final decision and order, and commenter letters.",
+      "status": "official-case-page"
+    },
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2223105c4833illuminatefinalorder.pdf",
+      "claim": "The final order specifies deletion, retention-schedule, information-security, and data-management obligations.",
+      "status": "official-final-order"
+    }
+  ],
+  "boundary": "This record adds a named breach-to-final-order route: reported exposure and notification delay followed by finalized data minimization, deletion, retention, security, and incident-reporting controls. It does not establish that every listed student was accessed or harmed, that notification was received, that data was deleted, that the order was implemented, or that privacy, health, safety, trust, or practical exit improved. The next test would require an authorized compliance, district, or student-level endpoint preserving notification, correction, deletion, recurrence, and downstream outcome separately.",
+  "retrieval_hash": "sha256:ac61667eb3d75d8733b03676234e175b464f499b2db15eb6db94f48e8c7cc514"
+}

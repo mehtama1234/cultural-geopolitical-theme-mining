@@ -40,6 +40,16 @@ and remedy examples; HTOPS can supply selected material-to-confidence timing.
 None can be silently merged with MEPS to fill the missing fields for the same
 person.
 
+## Current authorized-input boundary — 2026-10-19
+
+The read-only retention recheck found no newly supplied raw MEPS staged file or
+other authorized respondent archive in the workspace or checked temporary
+roots. The committed derived MEPS records and this field-availability result
+remain usable for bounded synthesis, but they do not restore the raw event
+rows, add missing alternatives or remedy fields, or authorize a new merge or
+estimate. The current retention result is preserved in the
+[longitudinal-input recheck](../../data/authorized-longitudinal-input-retention-recheck-2026-10-19.json).
+
 ## Next decisive test
 
 Seek a privacy-approved same-unit source that records the initiating need or

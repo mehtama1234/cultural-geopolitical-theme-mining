@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-usmca-alimentos-grole-labor-remedy-2026",
+  "title": "A facility-level labor remedy can restore formal worker rights while leaving individual recovery open",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "USTR USMCA Rapid Response Labor Mechanism resolution at Alimentos Grole",
+  "geography": "Ciudad Obregón, Sonora, Mexico",
+  "observations": [
+    {
+      "period": "August 28, 2025–October 19, 2026 petition, review, and facility-level resolution",
+      "denominator": {
+        "value": 1,
+        "unit": "named Alimentos Grole facility-level USMCA labor-remedy matter",
+        "value_type": "official_episode_count"
+      },
+      "measures": {
+        "dismissed_workers_reinstated": {"value": 9, "unit": "workers reported reinstated with full backpay and benefits", "value_type": "agency_reported_remedy"},
+        "workers_paid_severance_by_preference": {"value": 2, "unit": "workers reported paid full severance rather than reinstated", "value_type": "agency_reported_remedy"},
+        "worker_voice_route": {"value": "SITIES union-access protocol, worker notices, anonymous complaint mechanism, and monitoring/reporting channels", "unit": "reported institutional changes", "value_type": "agency_reported_process_change"},
+        "company_governance_changes": {"value": "company-aligned internal labor committee dissolved; HR/labor-relations restructuring, neutrality rules, zero-tolerance policy, and training reported", "unit": "reported facility changes", "value_type": "agency_reported_process_change"},
+        "trade_response": {"value": "United States resumed liquidation of unliquidated facility entries after concluding the situation had been remediated", "unit": "reported governmental response", "value_type": "agency_reported_policy_response"},
+        "worker_level_receipt_and_recovery": {"value": "not observed", "unit": "missing individual backpay/severance receipt, adequacy, household effect, non-retaliation, later employment, trust, or exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "A cross-border labor complaint can convert alleged retaliation and representation failure into facility-level reinstatement, severance choice, union access, monitoring, and trade consequences, while formal remediation remains weaker than verified same-worker recovery.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the official USTR resolution announcement and facility-specific Rapid Response Labor Mechanism context, as retained in the project follow-up memo. Facility-level reported remedies are kept separate from individual receipt, adequacy, durability, and worker meaning.",
+      "uncertainty": "The public resolution does not identify individual workers, payment records, search or waiting costs, household outcomes, post-resolution retaliation, bargaining power, recurrence, or whether the institutional changes persisted after monitoring.",
+      "subgroup": "Current and former workers affiliated with SITIES at the named facility; no demographic, wage, tenure, or individual outcome subgroup is published.",
+      "counterinterpretation": "Reinstatement, severance choice, union access, and monitoring may represent meaningful remedy and institutional learning, while facility closure and official trade resumption do not prove adequate payment, durable worker power, or universal protection.",
+      "source_url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/october/united-states-announces-successful-resolution-rapid-response-labor-mechanism-matter-alimentos-grole",
+      "retrieval_hash": "sha256:be6ccfdcbefa3bc1279b8bb57f4917da5f548a95304eb76a6d5a7aa8712017d1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ustr.gov/trade-topics/enforcement/dispute-settlement-proceedings/fta-dispute-settlement/usmca/chapter-31-annex-facility-specific-rapid-response-labor-mechanism", "claim": "Official facility-specific USMCA Rapid Response Labor Mechanism index and procedural context.", "status": "official-context"}
+  ],
+  "boundary": "This record establishes a facility-level official resolution with reported reinstatement, backpay and benefits, severance choice, union access, governance changes, monitoring, and a trade-response endpoint. It does not establish individual receipt, remedy adequacy, durable worker power, non-retaliation, household recovery, trust, switching, or exit.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the bounded project follow-up memo derived from official USTR source pages; worker identities and account-level payment files are not retained."
+  }
+}

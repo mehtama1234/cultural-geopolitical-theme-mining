@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-neighbor-mutual-aid-capacity-2025",
+  "title": "Stated willingness to help neighbors can exceed expected reciprocity without proving delivered protection",
+  "theme_ids": [
+    "voice",
+    "cost",
+    "time"
+  ],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center American Trends Panel survey on connection to neighbors",
+  "geography": "United States; 9,482 adults in the Pew American Trends Panel",
+  "observations": [
+    {
+      "period": "March 10-16, 2025; Pew American Trends Panel field period",
+      "denominator": {
+        "value": 9482,
+        "unit": "U.S. adults in the American Trends Panel; weighted survey estimates and question-specific bases",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "practical_help_willingness": {
+          "value": "76% were extremely or very likely to bring mail or water plants, 67% would bring a meal, and 50% would loan money",
+          "unit": "reported willingness shares",
+          "value_type": "reported_pattern"
+        },
+        "expected_reciprocity": {
+          "value": "52% thought neighbors would bring mail or water plants, 42% expected a neighbor to bring a meal, and 45% expected a friend would loan money",
+          "unit": "reported expected-support shares",
+          "value_type": "reported_pattern"
+        },
+        "giver_receiver_gap": {
+          "value": "Stated willingness to provide help exceeded expected reciprocal support for each of the reported practical-help examples",
+          "unit": "reported comparison across survey items",
+          "value_type": "reported_comparison"
+        },
+        "public_request": {
+          "value": "Willingness to conserve resources after a public official's emergency request was measured, but actual compliance was not followed",
+          "unit": "reported hypothetical response",
+          "value_type": "reported_judgment"
+        },
+        "delivered_protection": {
+          "value": "not observed",
+          "unit": "missing dated shock, actual request, aid delivery, helper burden, adequacy, continuity, formal-service interaction, recovery, trust change, and later civic action",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "Local trust and social proximity can create a potential support surface while the giver-versus-expected-receiver gap signals that goodwill is not the same as reciprocal, available, or delivered capacity",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from Pew's published survey on neighbor familiarity, trust, practical-help willingness, reciprocity expectations, and public-request response; hypothetical capacity is kept separate from delivered aid and recovery.",
+      "uncertainty": "This is a cross-sectional self-reported survey, not a dated crisis or delivered-aid denominator. Formal public, employer, family, charitable, and market alternatives, personal resources, relationship constraints, and later action are not retained.",
+      "subgroup": "U.S. adults in the American Trends Panel with question-specific demographic and relationship subgroups; no respondent-level aid episode is followed.",
+      "counterinterpretation": "The willingness-versus-expectation gap may reflect different wording, relationship types, resources, or social desirability rather than failed reciprocity; stated goodwill may not survive time, money, health, or safety constraints.",
+      "source_url": "https://www.pewresearch.org/short-reads/2025/05/08/how-connected-do-americans-feel-to-their-neighbors/",
+      "retrieval_hash": "sha256:4de695ea12d9cb80326240e2379b701921fb1d84ba9a3f20130595297faf155c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes local familiarity, trust, stated mutual-aid willingness, reciprocity expectations, and a potential public-request response surface. It does not estimate delivered aid, resilience, substitution for public systems, burden, recovery, political action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from Pew's published aggregate survey results; Pew microdata and large archives are not retained.",
+    "checked": "2026-10-20"
+  }
+}

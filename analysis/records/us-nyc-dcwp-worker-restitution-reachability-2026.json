@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyc-dcwp-worker-restitution-reachability-2026",
+  "title": "A named worker-restitution schedule can exist without public proof that payment reached the worker",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NYC Department of Consumer and Worker Protection Fair Workweek restitution settlements and proposed unclaimed-restitution fund",
+  "geography": "New York City; Salz Management LLC and Theory LLC settlements",
+  "observations": [
+    {
+      "period": "March 2026 settlement announcement; scheduled payments from April 2026 through January 2027",
+      "denominator": {
+        "value": 830,
+        "unit": "more than named workers across the Salz Management and Theory settlements",
+        "value_type": "agency_reported_named_worker_count"
+      },
+      "measures": {
+        "salz_restitution": {"value": 1500000, "unit": "more than U.S. dollars required from Salz Management for restitution", "value_type": "reported_settlement_amount"},
+        "theory_restitution": {"value": 277000, "unit": "more than U.S. dollars required from Theory for restitution", "value_type": "reported_settlement_amount"},
+        "payment_route": {"value": "scheduled checks or direct deposits through a notice administrator; workers may update address or bank information", "unit": "reported administrative payment route", "value_type": "reported_remedy_route"},
+        "worker_receipt": {"value": "not observed", "unit": "missing mailed/deposited, returned, reissued, cashed, and individually received payment status", "value_type": "unmeasured"},
+        "schedule_protection_and_recovery": {"value": "not observed", "unit": "missing durable Fair Workweek compliance, household security, later work, trust, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "A formal restitution schedule can shift payment-reachability and contact-update work to the worker without proving usable receipt or recovery", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from official NYC DCWP settlement and worker-payment pages; settlement obligations, payment timing, administrator contact, and missing recipient outcomes are kept separate.",
+      "uncertainty": "The public route does not publish worker-level eligibility, amounts, checks or deposits, returned payments, reissues, cashing, adequacy, household effects, later employment, trust, or exit. Institutional payment schedules are not recipient-side confirmation.",
+      "subgroup": "Fast-food and retail workers named or eligible under the Salz Management and Theory Fair Workweek settlements; no worker-level demographic, schedule, care, or payment outcome subgroup is supplied.",
+      "counterinterpretation": "A notice administrator and scheduled payment route may make restitution reachable for many workers, but a formal route can still fail through missing contact, delay, returned payment, or inadequate amount.",
+      "source_url": "https://www.nyc.gov/site/dca/news/028-26/mamdani-administration-secures-nearly-2m-restitution-800-fast-food-retail-workers",
+      "retrieval_hash": "sha256:6b4b026ca1051638a661c27ee831c6dfd66f87e74680ea7134e1aecb6081b699",
+      "status": "reported"
+    },
+    {
+      "period": "July 9, 2026 proposed unclaimed-restitution fund; status checked September 19, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "NYC DCWP proposed institutional fund route for unclaimed or unpaid restitution",
+        "value_type": "proposed_policy_route"
+      },
+      "measures": {
+        "trigger": {"value": "respondent delinquency, insolvency, dissolution, bankruptcy, nonresponse, or other inability to satisfy restitution", "unit": "reported eligibility context", "value_type": "reported_remedy_failure_condition"},
+        "claim_route": {"value": "proposed discretionary and potentially partial disbursement after a consumer or worker claim", "unit": "proposed administrative route", "value_type": "reported_proposed_remedy"},
+        "implementation": {"value": "not observed", "unit": "missing adopted rule, fund balance, claim volume, eligibility decisions, disbursement, receipt, and adequacy", "value_type": "unmeasured"},
+        "mechanism": {"value": "An institution can recognize unclaimed-remedy failure and propose a public backstop without yet creating a reached remedy", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the official NYC Rules proposed-rule page and DCWP notice of proposed rulemaking; proposal, claim discretion, and missing implementation are kept separate from actual payment.",
+      "uncertainty": "The rule was proposed rather than shown as adopted or funded in the checked route. No claim, disbursement, payment, recipient receipt, or durable recovery is observed.",
+      "subgroup": "Consumers and workers with outstanding restitution from eligible NYC DCWP enforcement matters; no eligible claimant population or distributional outcome is published.",
+      "counterinterpretation": "A proposed fund may become an important reachability mechanism, but proposed rulemaking cannot be counted as remedy receipt or full restitution.",
+      "source_url": "https://rules.cityofnewyork.us/rule/establishment-of-unclaimed-restitution-fund/",
+      "retrieval_hash": "sha256:6b4b026ca1051638a661c27ee831c6dfd66f87e74680ea7134e1aecb6081b699",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://portal.311.nyc.gov/article/?kanumber=KA-02719", "claim": "NYC311 supplies the worker-payment contact and update route for eligible Fair Workweek restitution recipients.", "status": "official-context"},
+    {"source_url": "https://www.nyc.gov/assets/dca/downloads/pdf/about/DCWP-NOH-Rules-Relating-to-Unclaimed-Restitution-Fund.pdf", "claim": "DCWP's proposed notice describes the unclaimed-restitution fund and claim/disbursement framework.", "status": "official-proposed-rule"}
+  ],
+  "boundary": "This record establishes a current worker-restitution payment route and a proposed public response to unclaimed remedies. It does not establish worker receipt, adequacy, durable schedule protection, household recovery, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the official NYC DCWP and NYC Rules sources; worker identities, payment instruments, claims, and restricted files are not retained.",
+    "checked": "2026-10-20"
+  }
+}

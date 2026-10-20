@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0087-cfpb-tccp-2025-reddit-001",
+  "atlas_record_ids": ["us-cfpb-tccp-card-terms-2025"],
+  "topic": "household-room-consumption",
+  "platform": "reddit",
+  "item_type": "lived_pricing_discussion",
+  "author_or_account": "r/credit_cards participant",
+  "title": "What counts as a fair credit card APR in 2025?",
+  "canonical_url": "https://www.reddit.com/r/credit_cards/comments/1oe8utj",
+  "published_window": "2025-10",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "A participant compares a 24.99% approved APR with other 2025 offers and discusses how credit history, balance-carrying, rewards, and paying in full change the meaning of a 'fair' rate. The discussion supplies a lived interpretation of the offer and borrower decision surface, not a representative APR estimate or verified account outcome.",
+  "research_anchor_paths": ["analysis/records/us-cfpb-tccp-card-terms-2025.json"],
+  "linked_research_question": "How do borrowers interpret an issuer's published or assigned APR when credit tier, balance-carrying, rewards, and repayment capacity change the practical cost?",
+  "classification": ["lived_example", "audience_reaction", "cost", "countervailing_concern"],
+  "limits": ["One public discussion is not representative of borrowers or issuers", "The stated APR and credit profile are not independently verified", "The thread does not establish payment history, total interest, approval alternatives, or later switching"]
+}

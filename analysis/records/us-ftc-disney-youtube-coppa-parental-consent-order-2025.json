@@ -1,0 +1,106 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-disney-youtube-coppa-parental-consent-order-2025",
+  "title": "A court-approved YouTube child-data order links content labeling to parental consent without proving restored privacy or reduced exposure",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Federal Trade Commission and Department of Justice COPPA enforcement against Disney content uploaded to YouTube; court-approved conduct and data-governance order, not a child-level exposure or remedy sample",
+  "geography": "United States children under 13 viewing Disney-uploaded child-directed YouTube videos, parents, Disney, YouTube, and COPPA enforcement",
+  "observations": [
+    {
+      "period": "September–December 2025; complaint and federal court-approved settlement",
+      "denominator": {
+        "value": 1,
+        "unit": "Disney YouTube COPPA enforcement matter",
+        "value_type": "institutional_case_count"
+      },
+      "measures": {
+        "labeling_route": {
+          "value": "the complaint alleged Disney failed to properly label some child-directed videos as Made for Kids, allowing data collection through YouTube from children under 13",
+          "unit": "reported platform-governance failure route",
+          "value_type": "alleged_conduct_pattern"
+        },
+        "data_use_at_issue": {
+          "value": "the complaint alleged collected data was used for targeted advertising to children",
+          "unit": "reported data-use consequence",
+          "value_type": "alleged_data_use"
+        },
+        "financial_penalty": {
+          "value": 10000000,
+          "unit": "U.S. dollars civil penalty",
+          "value_type": "ordered_penalty"
+        },
+        "individual_exposure_and_recovery": {
+          "value": "not observed",
+          "unit": "missing child-level exposure, parental notice, consent, deletion, advertising change, harm, safety, trust, or practical exit outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the FTC announcement describing the DOJ complaint and federal court-approved order; alleged labeling and data-use route is separated from penalty, future controls, and child-level outcomes.",
+      "uncertainty": "The public announcement does not provide the number of videos, children, views, affected parents, or verified instances of data use, nor does it report individual notification, consent, deletion, or harm outcomes.",
+      "subgroup": "Children under 13 viewing Disney-uploaded child-directed YouTube videos and their parents; exposure, notice, consent, and practical control may vary by video label, account, device, household, and language.",
+      "counterinterpretation": "A content-labeling failure can create a pathway for data collection without parental control, but an allegation and penalty do not establish that every viewer's data was collected or that later safeguards changed each child's experience.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/court-approves-order-requiring-disney-pay-10-million-settle-ftc-allegations-firm-enabled-unlawful",
+      "retrieval_hash": "sha256:52dd71652def7fdd7932a7fb1a483ee4255b7809ffda81f2ca16fcb1bf653273",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025; final federal court order",
+      "denominator": {
+        "value": 1,
+        "unit": "court-approved settlement order",
+        "value_type": "ordered_control_count"
+      },
+      "measures": {
+        "parental_consent": {
+          "value": "Disney must notify parents before collecting personal information from children under 13 and obtain verifiable parental consent for collection and use",
+          "unit": "final privacy control",
+          "value_type": "ordered_control_design"
+        },
+        "content_review": {
+          "value": "Disney must establish and implement a program to review whether videos uploaded to YouTube should be designated Made for Kids",
+          "unit": "final platform-governance control",
+          "value_type": "ordered_control_design"
+        },
+        "age_assurance_condition": {
+          "value": "the review obligation is framed as an alternative to YouTube implementing age-assurance technology for all users or no longer allowing creators to label videos as Made for Kids",
+          "unit": "forward-looking platform condition",
+          "value_type": "reported_policy_condition"
+        },
+        "implementation_and_child_outcomes": {
+          "value": "not observed",
+          "unit": "missing review results, age-assurance deployment, parent notice, consent completion, deletion, advertising exposure, child wellbeing, or trust outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the FTC summary of the finalized federal court order; payment, consent, review, and age-assurance provisions are kept separate from implementation audits and child-level outcomes.",
+      "uncertainty": "The announcement specifies the order's controls but does not report compliance audits, the number of videos reviewed, the number of parental consents obtained, age-assurance accuracy, or downstream advertising and privacy results.",
+      "subgroup": "Children under 13, parents, Disney content teams, YouTube users, and content creators subject to Made for Kids labeling or age-assurance practices.",
+      "counterinterpretation": "A review program or age-assurance technology could improve parental control, but it can also introduce classification errors, access friction, or new data collection; the order alone does not resolve those tradeoffs.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/court-approves-order-requiring-disney-pay-10-million-settle-ftc-allegations-firm-enabled-unlawful",
+      "retrieval_hash": "sha256:52dd71652def7fdd7932a7fb1a483ee4255b7809ffda81f2ca16fcb1bf653273",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/192-3185-disney-worldwide-services-inc",
+      "claim": "FTC case materials identify the Disney COPPA matter and related order documents.",
+      "status": "official-case-context"
+    },
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/102-3203-youtube-google-llc",
+      "claim": "The YouTube/Google COPPA enforcement context supplies the platform-side data-governance background.",
+      "status": "official-platform-context"
+    }
+  ],
+  "boundary": "This record adds a court-approved content-labeling-to-parental-consent route: a reported child-data collection failure, $10 million penalty, parent notice and verifiable consent, Made for Kids review, and an age-assurance alternative. It does not establish child-level exposure, parental notice, consent, deletion, compliance, age-assurance accuracy, advertising change, safety, wellbeing, trust, or exit. The next test would require authorized implementation or platform audit evidence preserving video classification, consent, collection, deletion, and downstream outcome separately.",
+  "retrieval_hash": "sha256:52dd71652def7fdd7932a7fb1a483ee4255b7809ffda81f2ca16fcb1bf653273"
+}

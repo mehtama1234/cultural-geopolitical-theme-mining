@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-poland-lithuania-harmony-link-energy-security-2026",
+  "title": "A cross-border energy link becomes a shared-responsibility and crisis-response project before operation is visible",
+  "theme_ids": ["energy", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Polish government account of the PSE–Litgrid Harmony Link technical agreement and Poland–Lithuania energy-infrastructure security statement",
+  "geography": "Poland, Lithuania, Baltic electricity systems, and Continental Europe",
+  "observations": [
+    {
+      "period": "October 8–9, 2026 technical agreement and energy-security cooperation announcement",
+      "denominator": {
+        "value": 1,
+        "unit": "planned Harmony Link Poland–Lithuania electricity interconnector and associated bilateral crisis-response framework",
+        "value_type": "official_infrastructure_episode"
+      },
+      "measures": {
+        "technical_agreement": {"value": "PSE and Litgrid signed an agreement governing technical aspects and implementation responsibility for the Harmony Link connection point", "unit": "reported governance stage", "value_type": "documented_technical_agreement"},
+        "planned_system_function": {"value": "second Poland–Lithuania electricity connection intended to increase system security and energy exchange between the Baltic states and Continental Europe", "unit": "reported infrastructure purpose", "value_type": "reported_system_purpose"},
+        "joint_response_scope": {"value": "rapid deployment of personnel, equipment, spare parts, and technical support; joint exercises, threat information, physical protection, and cybersecurity", "unit": "reported cross-border response mechanisms", "value_type": "reported_cooperation_scope"},
+        "household_and_firm_effect": {"value": "official account states that more reliable electricity and stronger exchange could support competitive prices and renewable-energy use", "unit": "reported expected benefit", "value_type": "reported_policy_claim"},
+        "operation_and_outcomes": {"value": "not observed", "unit": "missing construction completion, commissioning, transfer capacity, reliability, outage response, actual prices, firm costs, and distributional effects", "value_type": "unmeasured"},
+        "mechanism": {"value": "A cross-border interconnector converts geopolitical and infrastructure dependence into shared technical responsibility and emergency-response capacity, but only commissioning and observed system performance can establish usable resilience or household benefit.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Polish government account of the PSE–Litgrid technical agreement and joint energy-infrastructure security statement. Governance, planned physical infrastructure, crisis-response mechanisms, and expected household/firm benefits are kept separate from operation and realized outcomes.",
+      "uncertainty": "The announcement does not provide investment value, permits, construction milestones, commissioning date, transfer capacity, reliability measures, exercise results, mobilization times, outage records, or realized price and renewable-integration effects.",
+      "subgroup": "PSE, Litgrid, Polish and Lithuanian energy ministries, Baltic electricity systems, firms, and households; no realized user or price subgroup is supplied.",
+      "counterinterpretation": "Shared technical governance and mutual assistance may reduce vulnerability if implemented, while a signed agreement and stated expected benefits can coexist with construction delay, insufficient spare capacity, or unequal access to any resulting price and reliability gains.",
+      "source_url": "https://www.gov.pl/web/litwa/polska-i-litwa-wzmacniaja-wspolprace-energetyczna",
+      "retrieval_hash": "sha256:25d7e727994b8d193688bbd0584ddd6f7a314756fa2f8fdefa53d0682b5361be",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.pl/web/litwa/polska-i-litwa-wzmacniaja-wspolprace-energetyczna", "claim": "Official Polish government account of the PSE–Litgrid agreement and mutual-assistance framework.", "status": "official-primary"}
+  ],
+  "boundary": "This record establishes a reported technical interconnector agreement, shared implementation responsibility, and cross-border energy-infrastructure crisis-response framework. It does not establish construction completion, commissioning, transfer capacity, reliability, actual emergency response, lower prices, renewable integration, or equal household and firm benefit.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the official Polish government source; engineering files, operational logs, price data, and user-level outcomes are not retained."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-caremark-pbm-rebate-hub-pharmacy-settlement-2026",
+  "title": "A PBM settlement can specify rebate pass-through and pharmacy-access controls while projected savings remain unobserved",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Federal Trade Commission Caremark Rx and Zinc Health Services settlement announcement and official case materials",
+  "geography": "United States prescription-drug patients, plan sponsors, and community pharmacies affected by Caremark PBM practices",
+  "observations": [
+    {
+      "period": "July 14, 2026 Caremark settlement announcement and proposed remedial terms",
+      "denominator": {
+        "value": 1,
+        "unit": "FTC Caremark settlement case; public materials do not provide a complete patient, prescription, plan, or pharmacy denominator",
+        "value_type": "named_enforcement_case"
+      },
+      "measures": {
+        "projected_consumer_savings": {
+          "value": 8500000000,
+          "unit": "U.S. dollars of consumer savings the FTC says the settlement locks in over up to 10 years",
+          "value_type": "reported_projection"
+        },
+        "projected_point_of_sale_savings": {
+          "value": 4500000000,
+          "unit": "U.S. dollars of additional patient savings the FTC says may be unlocked over up to 10 years through point-of-sale rebates",
+          "value_type": "reported_projection"
+        },
+        "remedy_mechanisms": {
+          "value": "delinks PBM fees from drug list prices, offers plan-sponsor designs with rebates passed through at the point of sale, and bars discrimination against lower-list-price versions of covered drugs",
+          "unit": "settlement business-practice controls",
+          "value_type": "reported_remedy_term"
+        },
+        "pharmacy_and_hub_controls": {
+          "value": "provides community pharmacies an opportunity to shift to cost-plus reimbursement and addresses alleged interference with patient and pharmacy access to hub pharmacy services",
+          "unit": "settlement access and reimbursement controls",
+          "value_type": "reported_remedy_term"
+        },
+        "consumer_conversion": {
+          "value": "not measured",
+          "unit": "implemented compliance, prescription-level out-of-pocket cost, fill completion, adherence, medication access, pharmacy revenue, household recovery, or patient trust",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from the FTC settlement announcement and official case materials. FTC savings projections, mechanism terms, pharmacy/hub provisions, and downstream patient outcomes are retained as separate stages.",
+      "uncertainty": "The savings figures are FTC projections over up to 10 years, not observed patient savings. Public materials do not establish implementation, the affected patient or prescription denominator, individual out-of-pocket prices, fill or adherence outcomes, pharmacy participation, or household recovery.",
+      "subgroup": "Patients exposed to insulin and other prescription-drug list-price and rebate arrangements, plan sponsors, community pharmacies, and users of hub pharmacy services.",
+      "counterinterpretation": "Pass-through and reimbursement options may improve incentives or transparency without producing equal savings for every patient; plan design, deductible status, formulary choices, pharmacy participation, and implementation can determine who benefits.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-secures-major-settlement-caremark-resolving-antitrust-case-against-second-drug-middleman",
+      "retrieval_hash": "sha256:0dd0446683dd7c9471ac6f385bdbe2e962f3d5f3dc2f1bcadd8240d9dabaa0be",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/221-0114-caremark-rx-zinc-health-services-et-matter-insulin",
+      "claim": "The FTC case page identifies the Caremark and Zinc Health Services matter and links official case materials.",
+      "status": "official-case-record"
+    },
+    {
+      "source_url": "https://www.ftc.gov/terms/pharmacy-benefits-managers-pbm",
+      "claim": "The FTC PBM topic page identifies the settlement's transparency, point-of-sale, pharmacy, and insulin-price context.",
+      "status": "official-topic-record"
+    }
+  ],
+  "boundary": "This record advances a bounded prescription-price and market-power route from PBM rebate and access allegations into specified settlement controls. It does not establish realized savings, lower individual out-of-pocket cost, completed prescriptions, adherence, pharmacy participation, household recovery, or durable trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical FTC settlement announcement URL string used as a stable source identifier; official case and topic links are retained for reproduction.",
+    "retrieval_hash": "sha256:0dd0446683dd7c9471ac6f385bdbe2e962f3d5f3dc2f1bcadd8240d9dabaa0be",
+    "checked": "2026-10-20"
+  }
+}

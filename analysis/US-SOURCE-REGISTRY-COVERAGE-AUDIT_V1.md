@@ -1,6 +1,6 @@
 # Source registry coverage audit v1
 
-**Checked:** 2026-10-18
+**Checked:** 2026-10-20
 
 This control compares the registered source universe with the files under
 `analysis/`. It distinguishes a registered source from evidence that uses
@@ -11,7 +11,7 @@ or proof that every source item was read in full.
 - Registered source entries: **118**
 - Entries with a domain reference anywhere in analysis: **118**
 - Entries with a domain reference outside source-search packets: **118**
-- Entries with an exact source URL in a machine record: **81**
+- Entries with an exact source URL in a machine record: **82**
 - Entries with an exact registered-URL reference: **110**
 - Registered entries with no analysis-domain hit: **0**
 
@@ -33,23 +33,23 @@ or proof that every source item was read in full.
 | Source | Role | Search refs | Evidence refs | Evidence files | Record exact URL | State |
 |---|---|---:|---:|---:|---:|---|
 | [Japan Cabinet Office Economic and Social Research Institute Consumer Confidence Survey](https://www.esri.cao.go.jp/en/stat/shouhi/shouhi-e.html) | monthly household consumer confidence, purchase timing, livelihood, employment, and price-expectation evidence for Japan | 0 | 5 | 1 | 2 | evidence-bearing; machine-record URL |
-| [U.S. Census Bureau Quarterly Retail E-Commerce Sales](https://www.census.gov/retail/eCommerce.html) | official quarterly retail e-commerce channel, sales, and online-share estimates | 31 | 1115 | 454 | 2 | evidence-bearing; machine-record URL |
+| [U.S. Census Bureau Quarterly Retail E-Commerce Sales](https://www.census.gov/retail/eCommerce.html) | official quarterly retail e-commerce channel, sales, and online-share estimates | 31 | 1119 | 456 | 2 | evidence-bearing; machine-record URL |
 | [UK Department for Science, Innovation and Technology informal and proxy digital support research](https://www.gov.uk/government/publications/how-people-are-helped-online-informal-and-proxy-digital-support) | digital-inclusion, informal support, proxy access, social infrastructure, and service-design evidence | 0 | 344 | 81 | 4 | evidence-bearing; machine-record URL |
 | [Internet Foundation Sweden, Swedes and the Internet](https://svenskarnaochinternet.se/) | annual Swedish internet-use, AI adoption, digital public-service, social-media, attention, and digital-detox evidence | 0 | 4 | 1 | 4 | evidence-bearing; machine-record URL |
-| [Harvard Business School Working Knowledge](https://www.library.hbs.edu/working-knowledge) | research story and topic discovery | 51 | 222 | 72 | 4 | evidence-bearing; machine-record URL |
+| [Harvard Business School Working Knowledge](https://www.library.hbs.edu/working-knowledge) | research story and topic discovery | 51 | 223 | 73 | 5 | evidence-bearing; machine-record URL |
 | [SSRN research paper repository](https://papers.ssrn.com/) | public working-paper and preprint access for emerging social-science evidence | 2 | 22 | 20 | 9 | evidence-bearing; machine-record URL |
 | [arXiv research preprints](https://arxiv.org/) | open preprint access and versioned paper text for emerging research | 0 | 30 | 15 | 17 | evidence-bearing; machine-record URL |
 | [Zenodo research data archive](https://zenodo.org/) | versioned open research data and code archives | 0 | 5 | 4 | 1 | evidence-bearing; machine-record URL |
-| [National Bureau of Economic Research Working Papers](https://www.nber.org/papers) | primary research and paper discovery | 152 | 1328 | 523 | 288 | evidence-bearing; machine-record URL |
-| [NBER Working Papers and Chapters Metadata](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) | coverage and trend analysis | 152 | 1328 | 523 | 0 | evidence-bearing |
-| [NBER Public Use Data Archive](https://www.nber.org/research/data) | replication and extension data discovery | 152 | 1328 | 523 | 0 | evidence-bearing |
-| [American Economic Association RCT Registry](https://www.socialscienceregistry.org/) | pre-registration and design-plan evidence for randomized social-science experiments | 0 | 9 | 8 | 4 | evidence-bearing; machine-record URL |
-| [Urban Institute Well-Being and Basic Needs Survey](https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey) | US household food, housing, health, employment, safety-net access, material hardship, and financial-security evidence | 0 | 69 | 21 | 3 | evidence-bearing; machine-record URL |
+| [National Bureau of Economic Research Working Papers](https://www.nber.org/papers) | primary research and paper discovery | 152 | 1505 | 571 | 424 | evidence-bearing; machine-record URL |
+| [NBER Working Papers and Chapters Metadata](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) | coverage and trend analysis | 152 | 1505 | 571 | 0 | evidence-bearing |
+| [NBER Public Use Data Archive](https://www.nber.org/research/data) | replication and extension data discovery | 152 | 1505 | 571 | 0 | evidence-bearing |
+| [American Economic Association RCT Registry](https://www.socialscienceregistry.org/) | pre-registration and design-plan evidence for randomized social-science experiments | 0 | 10 | 9 | 5 | evidence-bearing; machine-record URL |
+| [Urban Institute Well-Being and Basic Needs Survey](https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey) | US household food, housing, health, employment, safety-net access, material hardship, and financial-security evidence | 0 | 70 | 22 | 4 | evidence-bearing; machine-record URL |
 | [Microsoft Fiscal Year 2025 Annual Report](https://www.microsoft.com/investor/reports/ar25/) | company operating, workforce, infrastructure, and product evidence | 0 | 6 | 3 | 0 | evidence-bearing |
 | [Whoz official product and company materials](https://www.whoz.com/en/) | small AI-forward firm and workforce-allocation product evidence | 0 | 2 | 1 | 0 | evidence-bearing |
 | [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/) | customer/operator evidence on AI adoption, training, workforce redesign, and delivery economics | 1 | 9 | 4 | 0 | evidence-bearing |
 | [Brookings Institution](https://www.brookings.edu/topics/) | policy research and competing interpretations | 0 | 5 | 5 | 0 | evidence-bearing |
-| [Pew Research Center](https://www.pewresearch.org/) | public opinion, technology use, identity, and demographic change | 10 | 423 | 167 | 298 | evidence-bearing; machine-record URL |
+| [Pew Research Center](https://www.pewresearch.org/) | public opinion, technology use, identity, and demographic change | 10 | 426 | 170 | 301 | evidence-bearing; machine-record URL |
 | [World Bank Open Data](https://data.worldbank.org/) | country and development indicators | 0 | 13 | 10 | 5 | evidence-bearing; machine-record URL |
 | [OECD Data](https://data-explorer.oecd.org/) | comparable country data on work, firms, tax, education, and living conditions | 0 | 1 | 1 | 0 | evidence-bearing |
 | [OECD Algorithmic Management research](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html) | cross-country employer evidence on automated management, monitoring, evaluation, and governance | 2 | 382 | 112 | 1 | evidence-bearing; machine-record URL |
@@ -72,37 +72,37 @@ or proof that every source item was read in full.
 | [Office of Financial Research](https://www.financialresearch.gov/) | financial-system structure, stress, market plumbing, and systemic risk | 1 | 39 | 20 | 17 | evidence-bearing; machine-record URL |
 | [World Bank Research](https://www.worldbank.org/en/research) | development research, poverty, institutions, growth, climate, and country change | 4 | 779 | 203 | 20 | evidence-bearing; machine-record URL |
 | [World Bank Enterprise Surveys](https://www.enterprisesurveys.org/en/data) | firm-level business environment, establishment capacity, finance, infrastructure, management, and performance evidence | 1 | 26 | 8 | 3 | evidence-bearing; machine-record URL |
-| [Federal Reserve Survey of Household Economics and Decisionmaking](https://www.federalreserve.gov/consumerscommunities/shed.htm) | US household financial well-being, hardship, credit, housing, and reported economic experience | 25 | 343 | 139 | 4 | evidence-bearing; machine-record URL |
-| [U.S. Census Bureau Survey of Income and Program Participation](https://www.census.gov/programs-surveys/sipp.html) | US monthly household and person resources, work, program participation, health, food security, and care constraints | 31 | 1115 | 454 | 12 | evidence-bearing; machine-record URL |
-| [Federal Reserve Bank of New York Economic Heterogeneity Indicators](https://www.newyorkfed.org/research/economic-heterogeneity-indicators) | demographic, geographic, and business-size heterogeneity in inflation, earnings, employment, consumer spending, wealth, and small-business conditions | 2 | 68 | 32 | 5 | evidence-bearing; machine-record URL |
-| [Consumer Financial Protection Bureau consumer finance research](https://www.consumerfinance.gov/data-research/) | US consumer credit markets, complaints, fees, enforcement, and household financial protection | 20 | 253 | 92 | 64 | evidence-bearing; machine-record URL |
-| [CFPB Consumer Complaint Database API documentation](https://cfpb.github.io/api/ccdb/api.html) | machine-access contract for CFPB complaint records, fields, filters, pagination, and public retrieval | 1 | 19 | 13 | 0 | evidence-bearing |
-| [US Bureau of Labor Statistics consumer and household data](https://www.bls.gov/) | US prices, spending, income, employment, and household economic measures | 22 | 311 | 110 | 96 | evidence-bearing; machine-record URL |
-| [US Census Bureau household and economic data](https://www.census.gov/data.html) | US household, demographic, income, housing, business, and place-level evidence | 31 | 1115 | 454 | 0 | evidence-bearing |
-| [Harvard Business School Working Knowledge consumer and finance research](https://www.library.hbs.edu/working-knowledge) | US consumer behavior, pricing, payments, finance, and firm-strategy topic discovery | 51 | 222 | 72 | 4 | evidence-bearing; machine-record URL |
-| [NBER household finance and consumer behavior papers](https://www.nber.org/papers) | US household debt, financial stress, credit, consumption, labor, and macro transmission research | 152 | 1328 | 523 | 288 | evidence-bearing; machine-record URL |
+| [Federal Reserve Survey of Household Economics and Decisionmaking](https://www.federalreserve.gov/consumerscommunities/shed.htm) | US household financial well-being, hardship, credit, housing, and reported economic experience | 25 | 347 | 143 | 5 | evidence-bearing; machine-record URL |
+| [U.S. Census Bureau Survey of Income and Program Participation](https://www.census.gov/programs-surveys/sipp.html) | US monthly household and person resources, work, program participation, health, food security, and care constraints | 31 | 1119 | 456 | 12 | evidence-bearing; machine-record URL |
+| [Federal Reserve Bank of New York Economic Heterogeneity Indicators](https://www.newyorkfed.org/research/economic-heterogeneity-indicators) | demographic, geographic, and business-size heterogeneity in inflation, earnings, employment, consumer spending, wealth, and small-business conditions | 2 | 71 | 34 | 5 | evidence-bearing; machine-record URL |
+| [Consumer Financial Protection Bureau consumer finance research](https://www.consumerfinance.gov/data-research/) | US consumer credit markets, complaints, fees, enforcement, and household financial protection | 20 | 276 | 101 | 68 | evidence-bearing; machine-record URL |
+| [CFPB Consumer Complaint Database API documentation](https://cfpb.github.io/api/ccdb/api.html) | machine-access contract for CFPB complaint records, fields, filters, pagination, and public retrieval | 1 | 20 | 14 | 0 | evidence-bearing |
+| [US Bureau of Labor Statistics consumer and household data](https://www.bls.gov/) | US prices, spending, income, employment, and household economic measures | 22 | 312 | 111 | 97 | evidence-bearing; machine-record URL |
+| [US Census Bureau household and economic data](https://www.census.gov/data.html) | US household, demographic, income, housing, business, and place-level evidence | 31 | 1119 | 456 | 0 | evidence-bearing |
+| [Harvard Business School Working Knowledge consumer and finance research](https://www.library.hbs.edu/working-knowledge) | US consumer behavior, pricing, payments, finance, and firm-strategy topic discovery | 51 | 223 | 73 | 5 | evidence-bearing; machine-record URL |
+| [NBER household finance and consumer behavior papers](https://www.nber.org/papers) | US household debt, financial stress, credit, consumption, labor, and macro transmission research | 152 | 1505 | 571 | 424 | evidence-bearing; machine-record URL |
 | [American National Election Studies](https://electionstudies.org/) | US political attitudes, identity, trust, economic judgment, participation, and vote reports | 0 | 18 | 9 | 1 | evidence-bearing; machine-record URL |
 | [Cooperative Election Study](https://cces.gov.harvard.edu/) | large-sample US political, demographic, material-position, trust, and civic-action comparisons | 0 | 7 | 7 | 2 | evidence-bearing; machine-record URL |
-| [BLS American Time Use Survey](https://www.bls.gov/tus/) | US paid work, care, household labor, travel, rest, and social-time allocation | 22 | 311 | 110 | 28 | evidence-bearing; machine-record URL |
+| [BLS American Time Use Survey](https://www.bls.gov/tus/) | US paid work, care, household labor, travel, rest, and social-time allocation | 22 | 312 | 111 | 29 | evidence-bearing; machine-record URL |
 | [Medical Expenditure Panel Survey](https://meps.ahrq.gov/mepsweb/) | US health conditions, care use, medical spending, insurance, employment, and household burden | 1 | 152 | 46 | 84 | evidence-bearing; machine-record URL |
-| [USDA Economic Research Service Food Security Data](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/) | US household and child food security, hunger, shielding, and assistance context | 4 | 64 | 30 | 0 | evidence-bearing |
-| [HRSA Health Professional Shortage Areas](https://data.hrsa.gov/topics/health-workforce/shortage-areas) | US place-level provider-shortage and health-capacity context | 0 | 36 | 19 | 0 | evidence-bearing |
+| [USDA Economic Research Service Food Security Data](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/) | US household and child food security, hunger, shielding, and assistance context | 4 | 66 | 32 | 0 | evidence-bearing |
+| [HRSA Health Professional Shortage Areas](https://data.hrsa.gov/topics/health-workforce/shortage-areas) | US place-level provider-shortage and health-capacity context | 0 | 37 | 20 | 0 | evidence-bearing |
 | [CDC PLACES: Local Data for Better Health](https://www.cdc.gov/places/) | US county, place, tract, and ZCTA modeled health, preventive-care, and health-related social-needs context | 2 | 48 | 26 | 4 | evidence-bearing; machine-record URL |
-| [FEMA National Flood Insurance Program](https://www.fema.gov/flood-insurance) | US hazard exposure, flood insurance, claims, mitigation, and place-risk context | 0 | 5 | 4 | 0 | evidence-bearing |
-| [American Community Survey](https://www.census.gov/programs-surveys/acs) | US place-level population, housing, income, migration, language, commuting, and inequality context | 31 | 1115 | 454 | 3 | evidence-bearing; machine-record URL |
+| [FEMA National Flood Insurance Program](https://www.fema.gov/flood-insurance) | US hazard exposure, flood insurance, claims, mitigation, and place-risk context | 0 | 8 | 6 | 0 | evidence-bearing |
+| [American Community Survey](https://www.census.gov/programs-surveys/acs) | US place-level population, housing, income, migration, language, commuting, and inequality context | 31 | 1119 | 456 | 3 | evidence-bearing; machine-record URL |
 | [US Energy Information Administration](https://www.eia.gov/) | US energy prices, consumption, insecurity, electricity systems, and infrastructure context | 21 | 80 | 31 | 27 | evidence-bearing; machine-record URL |
-| [US Department of Energy](https://www.energy.gov/) | US energy policy, affordability tools, infrastructure, technology, and public investment context | 18 | 76 | 36 | 21 | evidence-bearing; machine-record URL |
-| [US Federal Trade Commission](https://www.ftc.gov/) | US consumer protection, competition, privacy, fraud, platform, and enforcement evidence | 31 | 285 | 99 | 90 | evidence-bearing; machine-record URL |
-| [US Department of Health and Human Services](https://www.hhs.gov/) | US health, care, public benefit, medical access, and program administration evidence | 8 | 42 | 18 | 0 | evidence-bearing |
-| [Centers for Medicare & Medicaid Services](https://www.cms.gov/data-research) | US health coverage, claims, providers, spending, quality, and public-program evidence | 1 | 13 | 6 | 4 | evidence-bearing; machine-record URL |
+| [US Department of Energy](https://www.energy.gov/) | US energy policy, affordability tools, infrastructure, technology, and public investment context | 18 | 80 | 37 | 21 | evidence-bearing; machine-record URL |
+| [US Federal Trade Commission](https://www.ftc.gov/) | US consumer protection, competition, privacy, fraud, platform, and enforcement evidence | 31 | 396 | 134 | 140 | evidence-bearing; machine-record URL |
+| [US Department of Health and Human Services](https://www.hhs.gov/) | US health, care, public benefit, medical access, and program administration evidence | 8 | 46 | 22 | 0 | evidence-bearing |
+| [Centers for Medicare & Medicaid Services](https://www.cms.gov/data-research) | US health coverage, claims, providers, spending, quality, and public-program evidence | 1 | 22 | 8 | 4 | evidence-bearing; machine-record URL |
 | [US Small Business Administration](https://www.sba.gov/) | US small-business programs, lending, disaster support, procurement, and firm access context | 2 | 9 | 7 | 1 | evidence-bearing; machine-record URL |
 | [US Department of the Treasury](https://home.treasury.gov/) | US financial policy, household finance, insurance, public spending, and fiscal context | 2 | 21 | 12 | 10 | evidence-bearing; machine-record URL |
-| [US Government Accountability Office](https://www.gao.gov/) | US program evaluation, oversight, implementation, procurement, household, and institutional-capacity evidence | 23 | 573 | 273 | 237 | evidence-bearing; machine-record URL |
+| [US Government Accountability Office](https://www.gao.gov/) | US program evaluation, oversight, implementation, procurement, household, and institutional-capacity evidence | 23 | 677 | 312 | 273 | evidence-bearing; machine-record URL |
 | [General Social Survey / NORC](https://gss.norc.org/) | US repeated cross-sectional evidence on social attitudes, trust, finance, institutions, and lived conditions | 0 | 29 | 7 | 18 | evidence-bearing; machine-record URL |
 | [National Household Travel Survey](https://nhts.ornl.gov/) | US household travel, vehicle access, mobility, work, care, and place-connection evidence | 0 | 24 | 11 | 12 | evidence-bearing; machine-record URL |
-| [US Consumer Product Safety Commission](https://www.cpsc.gov/) | US consumer-product hazards, recalls, injuries, safety standards, and enforcement evidence | 5 | 30 | 10 | 8 | evidence-bearing; machine-record URL |
+| [US Consumer Product Safety Commission](https://www.cpsc.gov/) | US consumer-product hazards, recalls, injuries, safety standards, and enforcement evidence | 5 | 35 | 13 | 12 | evidence-bearing; machine-record URL |
 | [US Environmental Protection Agency](https://www.epa.gov/) | US environmental exposure, regulation, emissions, waste, household risk, and place-capacity evidence | 2 | 9 | 6 | 2 | evidence-bearing; machine-record URL |
-| [USASpending.gov](https://www.usaspending.gov/) | US federal awards, procurement, grants, recipients, places, and public-resource routing evidence | 0 | 25 | 14 | 0 | evidence-bearing |
+| [USASpending.gov](https://www.usaspending.gov/) | US federal awards, procurement, grants, recipients, places, and public-resource routing evidence | 0 | 26 | 15 | 0 | evidence-bearing |
 | [US Securities and Exchange Commission](https://www.sec.gov/) | US public-company filings, risk disclosures, capital allocation, ownership, and firm-governance evidence | 1 | 13 | 11 | 10 | evidence-bearing; machine-record URL |
 | [Georgetown Center for Retirement Initiatives](https://cri.georgetown.edu/) | retirement savings access, state auto-IRA implementation, participation, and household-balance-sheet evidence | 0 | 16 | 7 | 7 | evidence-bearing; machine-record URL |
 | [Panel Study of Income Dynamics](https://psidonline.isr.umich.edu/) | US longitudinal household and individual evidence on income, wealth, employment, family, health, and mobility | 0 | 24 | 7 | 2 | evidence-bearing; machine-record URL |
@@ -112,16 +112,16 @@ or proof that every source item was read in full.
 | [Chicago Council on Global Affairs](https://globalaffairs.org/) | US and comparative public-opinion and geopolitical context on migration, foreign policy, security, and international engagement | 0 | 13 | 7 | 9 | evidence-bearing; machine-record URL |
 | [US Department of Defense](https://www.defense.gov/) | US defense policy, force posture, procurement, industrial-base, alliance, and operational-capacity records | 0 | 3 | 3 | 2 | evidence-bearing; machine-record URL |
 | [Defense Security Cooperation Agency](https://www.dsca.mil/) | US foreign military sales, security cooperation notifications, partner procurement, and defense-transfer records | 0 | 5 | 5 | 2 | evidence-bearing; machine-record URL |
-| [Polish government and national-security institutions](https://www.gov.pl/) | Polish defense, security, industrial, infrastructure, and alliance-policy records for geopolitical case comparisons | 0 | 106 | 35 | 28 | evidence-bearing; machine-record URL |
+| [Polish government and national-security institutions](https://www.gov.pl/) | Polish defense, security, industrial, infrastructure, and alliance-policy records for geopolitical case comparisons | 0 | 122 | 46 | 38 | evidence-bearing; machine-record URL |
 | [International Finance Corporation](https://www.ifc.org/) | development-finance, private-sector investment, infrastructure, technology, and cross-country capability evidence | 1 | 15 | 9 | 1 | evidence-bearing; machine-record URL |
 | [Defense Visual Information Distribution Service](https://www.dvidshub.net/) | public US defense visual and operational event records used for milestone and activity context | 0 | 1 | 1 | 1 | evidence-bearing; machine-record URL |
-| [Virginia State Corporation Commission](https://www.scc.virginia.gov/) | Virginia utility, rate-case, reliability, large-load, and public-service governance records | 0 | 47 | 20 | 20 | evidence-bearing; machine-record URL |
-| [Prince William County, Virginia](https://www.pwcva.gov/) | local fiscal, land-use, data-center, revenue, tax, and public-capacity records | 0 | 19 | 5 | 14 | evidence-bearing; machine-record URL |
-| [California Department of Insurance](https://www.insurance.ca.gov/) | California insurance regulation, wildfire risk, market availability, FAIR Plan, and consumer protection records | 0 | 42 | 18 | 26 | evidence-bearing; machine-record URL |
+| [Virginia State Corporation Commission](https://www.scc.virginia.gov/) | Virginia utility, rate-case, reliability, large-load, and public-service governance records | 0 | 77 | 25 | 29 | evidence-bearing; machine-record URL |
+| [Prince William County, Virginia](https://www.pwcva.gov/) | local fiscal, land-use, data-center, revenue, tax, and public-capacity records | 0 | 23 | 6 | 14 | evidence-bearing; machine-record URL |
+| [California Department of Insurance](https://www.insurance.ca.gov/) | California insurance regulation, wildfire risk, market availability, FAIR Plan, and consumer protection records | 0 | 50 | 21 | 29 | evidence-bearing; machine-record URL |
 | [Lawrence Berkeley National Laboratory energy analysis](https://eta-publications.lbl.gov/) | US energy-system, data-center load, efficiency, infrastructure, and technology-demand analysis | 0 | 12 | 8 | 6 | evidence-bearing; machine-record URL |
 | [Berkeley Social Sciences Data Laboratory](https://sda.berkeley.edu/) | public-use survey tabulation and microdata interface for social attitudes, political behavior, and subgroup comparisons | 0 | 34 | 12 | 20 | evidence-bearing; machine-record URL |
-| [Inter-university Consortium for Political and Social Research](https://www.icpsr.umich.edu/) | archived social-science datasets, codebooks, public-use files, restricted-access routes, and reproducibility materials | 0 | 16 | 5 | 0 | evidence-bearing |
-| [Gallup public opinion research](https://gallup.com/) | US and comparative public-opinion, institutional trust, social attitudes, wellbeing, and political-meaning context | 1 | 220 | 80 | 0 | evidence-bearing |
+| [Inter-university Consortium for Political and Social Research](https://www.icpsr.umich.edu/) | archived social-science datasets, codebooks, public-use files, restricted-access routes, and reproducibility materials | 0 | 17 | 6 | 1 | evidence-bearing; machine-record URL |
+| [Gallup public opinion research](https://gallup.com/) | US and comparative public-opinion, institutional trust, social attitudes, wellbeing, and political-meaning context | 1 | 221 | 81 | 0 | evidence-bearing |
 | [O*NET Resource Center](https://www.onetcenter.org/database.html) | US occupation, task, work-activity, skill, and taxonomy metadata for crosswalking labor-market evidence | 0 | 5 | 3 | 0 | evidence-bearing |
 | [INFORMS Management Science](https://pubsonline.informs.org/) | peer-reviewed operations, management, technology-adoption, firm, and workforce research | 0 | 4 | 3 | 2 | evidence-bearing; machine-record URL |
 | [USDA Food and Nutrition](https://fna.usda.gov/) | US nutrition-assistance program rules, participation, application, recertification, state administration, and access records | 0 | 27 | 10 | 0 | evidence-bearing |
@@ -137,7 +137,7 @@ or proof that every source item was read in full.
 | [Deutsche Telekom official materials](https://www.telekom.com/) | firm AI governance, digital ethics, workforce, and technology-implementation records | 2 | 13 | 4 | 0 | evidence-bearing |
 | [ver.di public union materials](https://www.verdi.de/) | German worker-representation, social-dialogue, and algorithmic-management response evidence | 1 | 9 | 4 | 0 | evidence-bearing |
 | [Kenya Law official legal repository](https://new.kenyalaw.org/) | official court decisions and legal records for comparative platform, content-moderation, labor, and institutional-power cases | 2 | 23 | 5 | 0 | evidence-bearing |
-| [Georgia Public Service Commission](https://psc.ga.gov/) | Georgia utility rate, large-load, reliability, and public-service governance records | 0 | 12 | 4 | 5 | evidence-bearing; machine-record URL |
+| [Georgia Public Service Commission](https://psc.ga.gov/) | Georgia utility rate, large-load, reliability, and public-service governance records | 0 | 13 | 5 | 5 | evidence-bearing; machine-record URL |
 | [Dominion Energy official materials](https://www.dominionenergy.com/) | utility infrastructure, large-load interconnection, transmission, and implementation context | 0 | 14 | 10 | 2 | evidence-bearing; machine-record URL |
 | [Congressional Budget Office](https://www.cbo.gov/) | federal budget, policy-cost, household-finance, housing, and distributional analysis | 0 | 31 | 12 | 23 | evidence-bearing; machine-record URL |
 | [Federal Deposit Insurance Corporation](https://www.fdic.gov/) | banking, depositors, financial access, failures, and consumer-finance institutional evidence | 0 | 11 | 5 | 5 | evidence-bearing; machine-record URL |
@@ -159,15 +159,15 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **784**
+- Observed domains outside registered families: **810**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
 |---|---:|---|
-| `doi.org` | 379 | `analysis/projects/us-declining-occupations-career-outcomes/findings/us-nber-declining-occupations-career-earnings-2000-2020-001.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md` |
-| `linkedin.com` | 301 | `analysis/social-discussions/records/atlas-eu-child-safety-linkedin-001.json`; `analysis/social-discussions/records/atlas-gsma-mobile-gender-gap-linkedin-001.json`; `analysis/social-discussions/records/atlas-oecd-pisa-digital-learning-ai-linkedin-001.json` |
-| `fwc.gov.au` | 158 | `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md`; `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md`; `analysis/US-REMEDY-IMPLEMENTATION-RECOVERY-SYNTHESIS_V1.md` |
-| `ipsos.com` | 153 | `analysis/projects/cross-domain/ipsos-small-acts-kindness-older-people-winter-energy-loneliness-2026.md`; `analysis/projects/cross-domain/ipsos-football-club-heritage-fan-voice-2026.md`; `analysis/projects/cross-domain/ipsos-consumer-tracker-wave148-tariff-food-safety-value-2026.md` |
+| `doi.org` | 386 | `analysis/projects/us-declining-occupations-career-outcomes/findings/us-nber-declining-occupations-career-earnings-2000-2020-001.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md` |
+| `linkedin.com` | 352 | `analysis/social-discussions/records/atlas-batch-0083-icsc-consumer-linkedin-001.json`; `analysis/social-discussions/records/atlas-eu-child-safety-linkedin-001.json`; `analysis/social-discussions/records/atlas-batch-0085-transmission-linkedin-001.json` |
+| `fwc.gov.au` | 186 | `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md`; `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md`; `analysis/US-REMEDY-IMPLEMENTATION-RECOVERY-SYNTHESIS_V1.md` |
+| `ipsos.com` | 154 | `analysis/projects/cross-domain/ipsos-small-acts-kindness-older-people-winter-energy-loneliness-2026.md`; `analysis/projects/cross-domain/ipsos-football-club-heritage-fan-voice-2026.md`; `analysis/projects/cross-domain/ipsos-consumer-tracker-wave148-tariff-food-safety-value-2026.md` |
 | `unesco.org` | 110 | `analysis/projects/cross-domain/unesco-south-africa-digital-creators-information-legitimacy-2026-09-29.md`; `analysis/projects/cross-domain/unesco-south-africa-digital-creators-information-legitimacy-2026-09-29.md`; `analysis/projects/cross-domain/foresight-factory-care-attention-whimsy-2026-09-28.md` |
 | `who.int` | 98 | `analysis/projects/cross-domain/who-essential-public-health-functions-institutional-capacity-2026-09-29.md`; `analysis/records/comparative-fao-soco-2026-trade-resilience-food-shocks.json`; `analysis/records/comparative-who-refugee-migrant-health-2026-global-action-plan-implementation.json` |
 | `un.org` | 93 | `analysis/projects/cross-domain/un-unu-youth-mental-health-ecosystem-uncertainty-2026-09-29.md`; `analysis/projects/cross-domain/un-unu-youth-mental-health-ecosystem-uncertainty-2026-09-29.md`; `analysis/records/comparative-un-desa-household-size-composition-2026-living-arrangements-care-capacity.json` |
@@ -175,14 +175,16 @@ family that will be acquired, compared, or maintained over time.
 | `weforum.org` | 84 | `analysis/records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json`; `analysis/records/comparative-wef-digital-safety-foresight-2026-ecosystem-harms-governance.json`; `analysis/records/comparative-wef-digital-safety-foresight-2026-ecosystem-harms-governance.json` |
 | `ec.europa.eu` | 81 | `analysis/projects/cross-domain/eu-snapchat-child-safety-enforcement-2026-09-29.md`; `analysis/projects/ai-work-control/jrc-aim-work-pdf-acquisition-audit-v1.md`; `analysis/records/comparative-eu-snapchat-child-safety-dsa-proceedings-2026.json` |
 | `www150.statcan.gc.ca` | 78 | `analysis/projects/cross-domain/statcan-household-environmental-practices-dwelling-context-2026-09-28.md`; `analysis/projects/cross-domain/statcan-interprovincial-labour-mobility-2026-09-28.md`; `analysis/projects/cross-domain/statcan-interprovincial-labour-mobility-2026-09-28.md` |
+| `kam.lt` | 75 | `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md`; `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md`; `analysis/projects/us-infrastructure-operation-incidence/infrastructure-operation-incidence-acquisition-gate-2026-10-19.md` |
+| `reddit.com` | 75 | `analysis/social-discussions/records/atlas-ark-ylt-northern-ireland-reddit-001.json`; `analysis/social-discussions/records/atlas-australia-intergenerational-reddit-001.json`; `analysis/social-discussions/records/consumer-recourse-002.json` |
 | `unstats.un.org` | 75 | `analysis/records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json`; `analysis/records/comparative-un-habitat-world-cities-2026-housing-displacement-climate-delivery.json`; `analysis/records/comparative-un-sdg16-2026-institutions-justice-information-voice.json` |
 | `unicef.org` | 72 | `analysis/projects/cross-domain/unicef-education-strategy-2026-learning-system-failures-ai-teachers-2026-09-29.md`; `analysis/projects/cross-domain/unicef-education-strategy-2026-learning-system-failures-ai-teachers-2026-09-29.md`; `analysis/projects/cross-domain/unicef-education-strategy-2026-learning-system-failures-ai-teachers-2026-09-29.md` |
 | `unctad.org` | 64 | `analysis/records/comparative-unctad-creative-economy-digital-cultural-trade-2024.json`; `analysis/records/comparative-unctad-creative-economy-digital-cultural-trade-2024.json`; `analysis/records/comparative-unctad-global-trade-update-2026-fragmentation-services-regulation.json` |
-| `reddit.com` | 62 | `analysis/social-discussions/records/atlas-ark-ylt-northern-ireland-reddit-001.json`; `analysis/social-discussions/records/atlas-australia-intergenerational-reddit-001.json`; `analysis/social-discussions/records/consumer-recourse-002.json` |
 | `fao.org` | 58 | `analysis/records/comparative-fao-soco-2026-trade-resilience-food-shocks.json`; `analysis/records/comparative-fao-soco-2026-trade-resilience-food-shocks.json`; `analysis/records/comparative-fao-soco-2026-trade-resilience-food-shocks.json` |
-| `nato.int` | 45 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
-| `itu.int` | 42 | `analysis/records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json`; `analysis/records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json`; `analysis/records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json` |
+| `nato.int` | 49 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
+| `itu.int` | 43 | `analysis/projects/us-transpacific-cable-resilience/manatua-cable-incident-service-continuity-bridge-v1.md`; `analysis/records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json`; `analysis/records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json` |
 | `desapublications.un.org` | 37 | `analysis/records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json`; `analysis/records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json`; `analysis/records/comparative-un-desa-generational-economy-2026-transfers-care-fiscal-capacity.json` |
+| `nyc.gov` | 36 | `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md`; `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md`; `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md` |
 | `abs.gov.au` | 33 | `analysis/records/comparative-abs-australia-time-use-2024-disability-carer-free-time-2026.json`; `analysis/records/comparative-abs-australia-time-use-2024-disability-carer-free-time-2026.json`; `analysis/records/comparative-abs-australia-time-use-2024-disability-carer-free-time-2026.json` |
 | `bjs.ojp.gov` | 33 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
 | `justice.gov` | 33 | `analysis/projects/us-safety-net-access/findings/us-safety-net-access-016.md`; `analysis/projects/ai-work-control/ier-california-rehire-seniority-backpay-record-v1.md`; `analysis/projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md` |
@@ -192,18 +194,16 @@ family that will be acquired, compared, or maintained over time.
 | `ideas.repec.org` | 29 | `analysis/projects/cross-domain/world-bank-global-growth-shocks-fdi-scarring-geopolitical-positioning-2026-09-29.md`; `analysis/projects/cross-domain/world-bank-africa-public-sector-reform-implementation-npm-capacity-2026-09-29.md`; `analysis/projects/cross-domain/world-bank-bihar-food-accounting-salience-dietary-diversity-2026-09-29.md` |
 | `commission.europa.eu` | 27 | `analysis/projects/cross-domain/eu-child-safety-online-developmental-social-contract-2026-09-29.md`; `analysis/projects/cross-domain/eu-child-safety-online-developmental-social-contract-2026-09-29.md`; `analysis/records/comparative-eu-child-safety-online-developmental-social-contract-2026.json` |
 | `deloitte.com` | 27 | `analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json`; `analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json`; `analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json` |
+| `fairwork.gov.au` | 26 | `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md`; `analysis/ACTIVE-GOAL-COMPLETION-AUDIT_2026-09-25.md`; `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md` |
 | `privacy.ca.gov` | 26 | `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md`; `analysis/us-source-coverage.md`; `analysis/us-source-coverage.md` |
+| `nisrf.nato.int` | 25 | `analysis/projects/us-alliance-operational-legitimacy/nisrf-northern-viking-maritime-isr-2026.md`; `analysis/projects/us-alliance-operational-legitimacy/nisrf-northern-viking-maritime-isr-2026.md`; `analysis/projects/us-alliance-operational-legitimacy/nisrf-mosc-operational-integration-2026.md` |
 | `kff.org` | 24 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
+| `portal.ct.gov` | 24 | `analysis/projects/us-safety-net-access/ct-ebt-lock-controls-nonreplacement-followup-2026-10-20.md`; `analysis/projects/us-safety-net-access/ct-ebt-lock-controls-nonreplacement-followup-2026-10-20.md`; `analysis/projects/us-safety-net-access/ct-ebt-lock-controls-nonreplacement-followup-2026-10-20.md` |
 | `wipo.int` | 24 | `analysis/records/comparative-wipo-global-innovation-cluster-concentration-2025.json`; `analysis/records/comparative-wipo-global-innovation-cluster-concentration-2025.json`; `analysis/records/comparative-wipo-global-innovation-cluster-concentration-2025.json` |
 | `mohr.gov.my` | 23 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
+| `recovery.lacounty.gov` | 23 | `analysis/projects/us-wildfire-insurance/la-county-fire-rebuild-dashboard-stage-conversion-2026-09-29.md`; `analysis/projects/us-wildfire-insurance/la-county-fire-rebuild-dashboard-stage-conversion-2026-09-29.md`; `analysis/projects/us-wildfire-insurance/la-county-rebuild-access-self-certification-checkpoint-2026-10-19.md` |
 | `yougov.com` | 23 | `analysis/projects/cross-domain/yougov-music-consumption-discovery-genz-streaming-2026-09-29.md`; `analysis/projects/cross-domain/yougov-financial-services-ai-consumer-duty-human-fallback-2026-09-28.md`; `analysis/projects/cross-domain/yougov-values-children-work-success-time-meaning-2026-09-28.md` |
 | `idea.int` | 22 | `analysis/records/comparative-idea-global-state-democracy-2026-conflict-rights-rule-of-law.json`; `analysis/records/comparative-idea-global-state-democracy-2026-conflict-rights-rule-of-law.json`; `analysis/records/comparative-idea-global-state-democracy-2026-conflict-rights-rule-of-law.json` |
-| `inegi.org.mx` | 22 | `analysis/records/comparative-mexico-inegi-modecult-2025-cultural-access-disability-education-digital-creation.json`; `analysis/records/comparative-mexico-inegi-modecult-2025-cultural-access-disability-education-digital-creation.json`; `analysis/records/comparative-mexico-inegi-modecult-2025-cultural-access-disability-education-digital-creation.json` |
-| `prnewswire.com` | 22 | `analysis/projects/cross-domain/equifax-market-pulse-q2-2026-sentiment-assets-capacity.md`; `analysis/projects/cross-domain/pacsun-globaldata-youth-drawbridge-trust-independence-2026-09-28.md`; `analysis/projects/cross-domain/mycode-multicultural-pride-safety-trust-2026-09-28.md` |
-| `uasdata.usc.edu` | 22 | `analysis/projects/us-household-constraint-cascade/next-acquisition-decision-v1.md`; `analysis/projects/us-household-constraint-cascade/next-acquisition-decision-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md` |
-| `unhcr.org` | 22 | `analysis/records/comparative-wfp-central-sahel-2026-food-insecurity-access-resilience.json`; `analysis/records/comparative-unhcr-global-report-2025-protection-capacity-funding-access.json`; `analysis/records/comparative-unhcr-global-report-2025-protection-capacity-funding-access.json` |
-| `afrobarometer.org` | 21 | `analysis/projects/cross-domain/afrobarometer-african-insights-2026-global-order-agency.md`; `analysis/projects/cross-domain/afrobarometer-east-africa-reproductive-autonomy-2026.md`; `analysis/records/comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion.json` |
-| `moreincommon.org.uk` | 21 | `analysis/projects/cross-domain/more-in-common-conflict-domestic-cohesion-2026-09-28.md`; `analysis/projects/cross-domain/more-in-common-conflict-domestic-cohesion-2026-09-28.md`; `analysis/projects/cross-domain/more-in-common-strong-roots-nature-place-politics-2026-09-28.md` |
 
 ## Reverse-audit decisions
 
@@ -225,14 +225,16 @@ without a recurring acquisition need and source-specific metadata.
 | `weforum.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `www150.statcan.gc.ca` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `kam.lt` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unstats.un.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unicef.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unctad.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fao.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nato.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `itu.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `desapublications.un.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `abs.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bjs.ojp.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `justice.gov` | official US legal/enforcement source | Retain as a public-record comparator; preserve the responsible DOJ component and case or settlement identifier for each claim. |
@@ -242,10 +244,14 @@ without a recurring acquisition need and source-specific metadata.
 | `ideas.repec.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `commission.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `deloitte.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `fairwork.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `privacy.ca.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `nisrf.nato.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `kff.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `portal.ct.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wipo.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mohr.gov.my` | official Malaysian labor authority | Retain as a comparative public-record source; preserve the responsible department, instrument, date, and implementation status for each claim. |
+| `recovery.lacounty.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `yougov.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `idea.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `inegi.org.mx` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -258,7 +264,6 @@ without a recurring acquisition need and source-specific metadata.
 | `huduser.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nielseniq.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unwomen.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wto.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `stats.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `academic.oup.com` | academic publisher | Retain the cited paper/publisher route; promote a recurring research family only when a sustained acquisition lane exists. |
@@ -275,10 +280,11 @@ without a recurring acquisition need and source-specific metadata.
 | `cambridge.org` | academic publisher | Retain the cited paper/publisher route; promote the specific research program only when it becomes a maintained acquisition lane. |
 | `digital-strategy.ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `doee.dc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `dol.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ingka.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `ustr.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `x.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `canada.ca` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `fairwork.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ipie.info` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `publications.civicus.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unhabitat.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -286,8 +292,9 @@ without a recurring acquisition need and source-specific metadata.
 | `bcg.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `btq-kassel.de` | case-specific institution | Retain as a cited interview/organization record; promote only if a maintained recurring evidence series is acquired. |
 | `insee.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `legistar.council.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nature.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `recovery.lacounty.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `nyserda.ny.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `creative.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `eur-lex.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `jchs.harvard.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -303,21 +310,19 @@ without a recurring acquisition need and source-specific metadata.
 | `europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `govinfo.gov` | official federal publication host | Retain as an official publication route; preserve the issuing agency, document identifier, version, and source context rather than treating the delivery host as the whole evidence family. |
 | `ikea.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `kam.lt` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `lacounty.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `monitor.kantar.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `nisrf.nato.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nlc.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `resources.ipsos.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `scp.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unu.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `worldhappiness.report` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `youtube.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `culture.gouv.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dane.gov.co` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `data.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `data.unhcr.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dentsu.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `dol.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `economicsandpeace.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `economy-finance.ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `edelman.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -326,6 +331,8 @@ without a recurring acquisition need and source-specific metadata.
 | `mcst.go.kr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `migrationpolicy.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mospi.gov.in` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `nj.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `pjm.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `psa.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pwc.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ssb.no` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -336,6 +343,7 @@ without a recurring acquisition need and source-specific metadata.
 | `athenalab.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cppa.ca.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ecb.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `edocket.dcpsc.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `file.lacounty.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `gsma.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hrs.isr.umich.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -347,31 +355,31 @@ without a recurring acquisition need and source-specific metadata.
 | `mbie.govt.nz` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `newsroom.pinterest.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nim.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `psr.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `publicfirst.co.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rm.coe.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `salzburgglobal.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `support.sayrhino.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
 | `transit.dot.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `uis.unesco.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `ustr.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wfp.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `youtube.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aarp.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `american.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `apnews.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bps.go.id` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `caa.go.jp` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cfpnet.com` | case-specific market source | Retain the California FAIR Plan citation, but use California DOI and official plan records as the durable source family. |
 | `eac.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `edocket.dcpsc.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `eeoc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `esafety.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fec.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ferc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `gov.scot` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `hpwohio.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `insidelines.pjm.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `irena.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `jefnations.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `kiis.com.ua` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `legistar.council.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `newamerica.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nlrb.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nrf.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -384,7 +392,6 @@ without a recurring acquisition need and source-specific metadata.
 | `unfccc.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wmo.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `aiglobal.publicfirst.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `apnews.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `blog.nextdoor.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cao.go.jp` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `carersuk.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -399,9 +406,7 @@ without a recurring acquisition need and source-specific metadata.
 | `internationalaisafetyreport.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `lshtm.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nypa.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `nyserda.ny.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `philadelphiafed.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `pjm.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `publications.gc.ca` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `restaurant.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rockefellerfoundation.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -423,7 +428,9 @@ without a recurring acquisition need and source-specific metadata.
 | `benklopack.github.io` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `blog.youtube` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bti-project.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `budget.lis.virginia.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cage.report` | delivery/lookup host | Do not register; use official DLA CAGE records as the authoritative identity source. |
+| `caloes.ca.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `capgemini.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `circana.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `congress.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -461,10 +468,12 @@ without a recurring acquisition need and source-specific metadata.
 | `newswire.ca` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nist.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nyiso.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `openbanking.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `openknowledge.fao.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pia.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `policy-lab.ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pwc.co.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `rules.cityofnewyork.us` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `sam.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `sca.isr.umich.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `schaeffer.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -495,6 +504,7 @@ without a recurring acquisition need and source-specific metadata.
 | `adb.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ads.spotify.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `americanpressinstitute.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `amtrak.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `apps.who.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ark.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `atscalepartnership.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -503,7 +513,6 @@ without a recurring acquisition need and source-specific metadata.
 | `bog.gov.gh` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `buffett.northwestern.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bundeswehr.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `caloes.ca.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `circle.so` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `climatecentral.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `commitments.generationequality.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -531,7 +540,6 @@ without a recurring acquisition need and source-specific metadata.
 | `gm.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `gstatic.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `home4.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `hpwohio.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hud.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `icsc.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `iesalc.unesco.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -544,18 +552,19 @@ without a recurring acquisition need and source-specific metadata.
 | `knightfoundation.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `knowledge4policy.ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `media.bis.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `modoenergy.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mondelezinternational.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
 | `nationalacademies.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ncausa.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nerdwallet.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `news.caloes.ca.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `news.harvard.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `news.iu.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nrdc-ita.nato.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nstf.org.za` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `oaaa.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `op.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `openbanking.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ourpublicservice.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pace.coe.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pmnch.who.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -569,7 +578,6 @@ without a recurring acquisition need and source-specific metadata.
 | `regeringen.se` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `relate.younglife.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `resbank.co.za` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `rules.cityofnewyork.us` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `samhsa.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `scholars.duke.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `sdg16progress.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -630,13 +638,13 @@ without a recurring acquisition need and source-specific metadata.
 | `kostat.go.kr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `leapeasy.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
 | `mch.govt.nz` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `media.amtrak.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `melbourneinstitute.unimelb.edu.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mhrc.ca` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ministers.treasury.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mta.info` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nac.gov.sg` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `newdemocracy.com.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `news.caloes.ca.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `news.depop.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `newsroom.southernglazers.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nielsen.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -703,6 +711,7 @@ without a recurring acquisition need and source-specific metadata.
 | `investors.capgemini.com` | company disclosure host | Do not register separately; preserve Capgemini as the company source family and the report/version as the evidence item. |
 | `jtksm.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `lindseyhorvath.lacounty.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `mis.nyiso.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mods.go.kr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `namratakala.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `news.gov.hk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -738,9 +747,10 @@ without a recurring acquisition need and source-specific metadata.
 | `blog.twitch.tv` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `boi.org.il` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bsp.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `budget.lis.virginia.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bwc.dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `capitaldashboard.mta.info` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `casechat.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `cfpb-hellodigit.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `chcf.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `climatepromise.undp.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `coe.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -767,20 +777,25 @@ without a recurring acquisition need and source-specific metadata.
 | `edgehill.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `embed-rech-01.dialog.cm` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `equalpayinternationalcoalition.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `es.linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `exportcontrol.mofcom.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fairwork.oii.ox.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `fca.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `federalregister.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fma.no` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `forumsec.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `frontier-economics.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `gf.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `government.se` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `governor.virginia.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `grab.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `hbs.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hogeraad.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `howhousingmatters.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hsrc.ac.za` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `iea.blob.core.windows.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `india.un.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `inl.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `insidelines.pjm.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `internetstiftelsen.se` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `investmentpolicy.unctad.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `investor.equifax.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -826,16 +841,20 @@ without a recurring acquisition need and source-specific metadata.
 | `ssrn.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `static1.squarespace.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `stitch.money` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `telecomniue.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
 | `tsmc.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `uasvis.usc.edu` | official UAS visualization host | Retain as a public metadata and aggregate-explorer route; do not treat the visualization as a substitute for registration-gated respondent microdata or as a medical-expense-specific estimate. |
 | `unfoundation.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `urm.lt` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `usitc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `visionofhumanity.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `worlddatalab.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ymca.ca` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `zms.bundeswehr.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `36kr.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `a860-openrecords.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `ac.nato.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `acquisition.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `af.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `afdb.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -844,6 +863,8 @@ without a recurring acquisition need and source-specific metadata.
 | `api.globalewaste.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `app.scoreforpeace.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `assets-au-01.kc-usercontent.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `atlantafed.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `avaroacable.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `axa.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bertelsmann-stiftung.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `blog.younglife.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -854,6 +875,7 @@ without a recurring acquisition need and source-specific metadata.
 | `britishcouncil.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ca.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `caseycommission.co.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `catalog.data.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `cdn.prod.website-files.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cdn.vanderbilt.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -871,6 +893,7 @@ without a recurring acquisition need and source-specific metadata.
 | `datafirst.uct.ac.za` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `datahub.itu.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dco.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `dcpsc.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `de.reddit.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `depop.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -879,13 +902,13 @@ without a recurring acquisition need and source-specific metadata.
 | `docs.house.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `download.uis.unesco.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `downloads.ctfassets.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `dshs.wa.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dss.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dst.dk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `eca.unwomen.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ed.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `elon.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `english.scp.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `es.linkedin.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `esgtoday.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `esri.ie` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `europarl.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -894,28 +917,29 @@ without a recurring acquisition need and source-specific metadata.
 | `fami2030.gov.pt` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fao.sitefinity.cloud` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fbi.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `fca.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `finaccess.knbs.or.ke` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `finance.sina.com.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `finlex.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `fns.usda.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `gfdrr.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `globalabc.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `globalcenter.ai` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `globescan.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `gov.nu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `gpi.economicsandpeace.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `gracenote.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `gsb.stanford.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `hbs.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hdl.handle.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `health.ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hepo.iesalc.unesco.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hesa.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `howhousingmatters.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hrsdata.isr.umich.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `humanitarianaction.info` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |
 | `ies.ed.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `imls.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `interchange.puc.texas.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `internazionale.it` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `investor.nvidia.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `isibaloweb.statssa.gov.za` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `isps.yale.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -936,6 +960,7 @@ without a recurring acquisition need and source-specific metadata.
 | `mccy.gov.sg` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `media.globalnutritionreport.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `media.terytorialsi.wp.mil.pl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `mlrr.stps.gob.mx` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mlvt.gov.kh` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mofcom.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `myhealthrecord.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -960,6 +985,7 @@ without a recurring acquisition need and source-specific metadata.
 | `parent-survey-public-use-materials.s3.us-east-2.amazonaws.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pib.gov.in` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `policycommons.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `portal.311.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `psada.psa.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `public-inspection.federalregister.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `publicnow.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -967,6 +993,7 @@ without a recurring acquisition need and source-specific metadata.
 | `reports.weforum.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `research.ncl.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rge.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `richmondfed.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `samsung.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `scanloninstitute.org.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `scholarworks.indianapolis.iu.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -984,7 +1011,6 @@ without a recurring acquisition need and source-specific metadata.
 | `unctadstat.unctad.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `undrr.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unwto.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `usitc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `va.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `vero.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `violenceagainstchildren.un.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |

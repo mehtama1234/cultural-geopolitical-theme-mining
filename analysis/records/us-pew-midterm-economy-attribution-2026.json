@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-midterm-economy-attribution-2026",
+  "title": "Economic and affordability salience can coexist with divided party attribution and weak policy representation",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "work"
+  ],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center July 2026 survey of economic salience, party fit, presidential attribution, and AI-policy representation",
+  "geography": "United States; 3,554 adults including 2,779 registered voters",
+  "observations": [
+    {
+      "period": "July 6-12, 2026; Pew survey field window approaching the 2026 midterms",
+      "denominator": {
+        "value": 3554,
+        "unit": "U.S. adults; 2,779 registered voters for election-specific items and question-specific bases vary",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "economy_issue_salience": {
+          "value": 29,
+          "unit": "percent of registered voters naming the economy as the issue they most want congressional candidates to discuss; 15% name cost of living or affordability",
+          "value_type": "reported_share"
+        },
+        "party_economic_fit": {
+          "value": "37% say Democrats do a better job handling economic issues and 36% say Republicans",
+          "unit": "reported party-fit shares",
+          "value_type": "reported_comparison"
+        },
+        "presidential_vote_framing": {
+          "value": "42% say their midterm vote is mainly against Trump, 22% mainly for Trump, and 35% say Trump is not much of a factor",
+          "unit": "reported registered-voter shares",
+          "value_type": "reported_share"
+        },
+        "ai_policy_representation": {
+          "value": 51,
+          "unit": "percent saying neither party represents them well on AI policy",
+          "value_type": "reported_share"
+        },
+        "material_recovery": {
+          "value": "not observed",
+          "unit": "missing respondent-level price, wage, employment, debt, care, enacted-policy, household-remedy, and recovery outcomes",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "Material concerns can become politically salient without producing a single responsible actor or a strong representation channel: economic attribution is nearly balanced, presidential framing is divided, and AI policy has a large neither-party response",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from Pew Research Center aggregate estimates of campaign issue demand, party issue fit, presidential attribution, election attention, congressional favorability, and AI-policy representation; political judgment is kept separate from household exposure and validated action.",
+      "uncertainty": "This is a cross-sectional self-reported survey, not a household economic panel, causal voting estimate, forecast, validated ballot record, or policy-implementation study. Individual exposure, prior judgment, information source, campaign contact, policy knowledge, and later behavior are not retained.",
+      "subgroup": "U.S. adults and registered voters with question-specific party and issue subgroups; subgroup bases and sampling details are not reproduced here.",
+      "counterinterpretation": "Economic salience may reflect national discourse or generalized concern rather than a respondent's own dated material shock; vote framing may express identity or coalition choice rather than a specific economic judgment.",
+      "source_url": "https://www.pewresearch.org/politics/2026/07/23/as-the-2026-midterms-approach-economy-is-front-and-center/",
+      "retrieval_hash": "sha256:929bc2e8e92ad86961ad723d3a7da9817270f6c735d7d35b7228702380bb0f18",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a dated cross-sectional bridge from economic and affordability salience to political attribution and representation. It does not establish a material shock, causal vote effect, policy delivery, household recovery, trust change, or geopolitical consequence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from Pew's published aggregate survey report; respondent microdata, household records, validated vote files, and policy implementation records are not retained.",
+    "checked": "2026-10-20"
+  }
+}

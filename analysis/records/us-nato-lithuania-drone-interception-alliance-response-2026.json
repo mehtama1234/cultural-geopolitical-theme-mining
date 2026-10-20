@@ -76,6 +76,274 @@
       "source_url": "https://kam.lt/r-kaunas-su-italijos-gygynybos-ministru-nakties-incidentas-patvirtino-kad-esame-vienas-aljansas/",
       "retrieval_hash": "sha256:14b6e16e0eb09841219edd150d49036cc0c554a56651a8a25e62f9f17454fc51",
       "status": "reported"
+    },
+    {
+      "period": "September 28–October 4, 2026; later NATO Baltic air-policing alerts",
+      "denominator": {
+        "value": 5,
+        "unit": "reported international flight-regulation violations that triggered NATO Baltic Air Policing responses",
+        "value_type": "reported_follow_up_alert_count"
+      },
+      "measures": {
+        "repeated_operational_response": {
+          "value": "Lithuania reported five violations and repeated NATO fighter identification, interception, and escort activity, including Russian aircraft operating to or from Kaliningrad without required flight plans or with transponders off",
+          "unit": "reported air-policing alerts",
+          "value_type": "reported_repeated_response"
+        },
+        "incident_specific_causation": {
+          "value": "not established",
+          "unit": "the later alerts are a follow-up operational environment, not a demonstrated consequence of the September 15 drone incident",
+          "value_type": "unmeasured"
+        },
+        "deterrence_and_adversary_change": {
+          "value": "not observed",
+          "unit": "missing adversary intent, behavior change, deterrence effect, cost/readiness burden, and civilian-risk reduction",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence weekly operational summary; repeated alerts are retained as later context and not as incident-level causal evidence.",
+      "uncertainty": "The weekly count documents continued response activity but does not identify whether any event was linked to the September 15 drone, establish adversary intent, quantify burden, or measure civilian protection.",
+      "subgroup": "NATO Baltic Air Policing personnel, Lithuanian and regional airspace, and potentially affected civil aviation; no linked public or civilian outcome denominator is supplied.",
+      "counterinterpretation": "Repeated air-policing alerts can indicate a functioning response posture while also reflecting persistent exposure or routine flight-rule violations rather than successful deterrence.",
+      "source_url": "https://kam.lt/en/data-on-interceptions-of-aircraft-completed-near-the-baltic-states-borders-on-september-28-october-4-2026/?csrt=4806382545313663223",
+      "retrieval_hash": "sha256:4840395925a85b5fcd7a580d440701fa45ea9ed716fe93a156e564fe826882bf",
+      "status": "reported"
+    },
+    {
+      "period": "September 21–22, 2026; balloon-related Lithuanian airspace violation and civil-aviation disruption",
+      "denominator": {
+        "value": 1,
+        "unit": "reported balloon-related state-border and airspace violation",
+        "value_type": "reported_civil_aviation_incident"
+      },
+      "measures": {
+        "civilian_exposure": {
+          "value": "Lithuania reported temporary airspace-use restrictions that affected civil flights and disrupted passenger travel plans",
+          "unit": "official incident account",
+          "value_type": "reported_civilian_disruption"
+        },
+        "official_attribution_and_response": {
+          "value": "Lithuania attributed the balloon entry to Belarusian territory in its protest account and demanded stronger territorial and airspace control; it described the incident and similar cases as systematic hybrid activity",
+          "unit": "host-government attribution and diplomatic response",
+          "value_type": "reported_official_attribution"
+        },
+        "later_behavior_and_legitimacy": {
+          "value": "not observed",
+          "unit": "missing independent attribution, measured passenger burden, compensation, public judgment, deterrence, and subsequent Belarusian behavior",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of Foreign Affairs protest statement; this is a related later civil-aviation incident, not a same-event continuation of the September 15 drone.",
+      "uncertainty": "The account is an official host-government statement and does not independently verify the balloon's operator, quantify affected passengers or costs, or demonstrate that subsequent measures changed behavior.",
+      "subgroup": "Civil aviation users, Lithuanian authorities, Belarusian diplomatic actors, and NATO/EU partners; no linked passenger or public-opinion sample is supplied.",
+      "counterinterpretation": "Temporary flight disruption makes civilian burden visible, but one reported incident cannot establish a durable regional burden or public legitimacy trend.",
+      "source_url": "https://www.urm.lt/en/news/928/lithuania-lodged-a-protest-note-with-belarus-over-the-violation-of-lithuanian-airspace-and-threat-to-civil-aviation%3A46506",
+      "retrieval_hash": "sha256:4840395925a85b5fcd7a580d440701fa45ea9ed716fe93a156e564fe826882bf",
+      "status": "reported"
+    },
+    {
+      "period": "October 5–11, 2026; later NATO Baltic air-policing alert",
+      "denominator": {
+        "value": 1,
+        "unit": "reported international flight-regulation violation that triggered a NATO Baltic Air Policing response",
+        "value_type": "reported_follow_up_alert_count"
+      },
+      "measures": {
+        "repeated_operational_response": {
+          "value": "Lithuania reported that NATO fighters scrambled on October 8 to intercept two Russian SU-30 aircraft flying from Kaliningrad and back without pre-filed flight plans, radio contact with regional air traffic control, or operating transponders",
+          "unit": "reported air-policing alert involving two aircraft",
+          "value_type": "reported_repeated_response"
+        },
+        "incident_specific_causation": {
+          "value": "not established",
+          "unit": "the October 8 alert is later operational context, not a demonstrated consequence of the September 15 drone incident",
+          "value_type": "unmeasured"
+        },
+        "deterrence_and_adversary_change": {
+          "value": "not observed",
+          "unit": "missing adversary intent, behavior change, deterrence effect, cost/readiness burden, and civilian-risk reduction",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence weekly operational summary; the alert is retained as later context and not as incident-level causal evidence.",
+      "uncertainty": "The weekly account documents the response and flight-rule conditions but does not establish adversary intent, quantify operational burden, measure civilian protection, or show that the September 15 incident changed later behavior.",
+      "subgroup": "NATO Baltic Air Policing personnel, Lithuanian and regional airspace, and potentially affected civil aviation; no linked public or civilian outcome denominator is supplied.",
+      "counterinterpretation": "A further scramble can demonstrate a functioning response posture while also indicating persistent exposure or routine flight-rule violations rather than successful deterrence.",
+      "source_url": "https://kam.lt/en/data-on-interceptions-of-aircraft-completed-near-the-baltic-states-borders-on-october-5-11-2026/?csrt=4005309836354430844",
+      "retrieval_hash": "sha256:4840395925a85b5fcd7a580d440701fa45ea9ed716fe93a156e564fe826882bf",
+      "status": "reported"
+    },
+    {
+      "period": "October 12–18, 2026; later NATO Baltic air-policing alerts",
+      "denominator": {
+        "value": 6,
+        "unit": "reported international flight-regulation violations that triggered NATO Baltic Air Policing responses",
+        "value_type": "reported_follow_up_alert_count"
+      },
+      "measures": {
+        "repeated_operational_response": {
+          "value": "Lithuania reported six scrambles, including identification or escort of Russian aircraft formations; several aircraft lacked flight plans, transponders, or radio contact, and an October 18 unidentified aerial target could not be visually identified",
+          "unit": "reported air-policing alerts",
+          "value_type": "reported_repeated_response"
+        },
+        "incident_specific_causation": {
+          "value": "not established",
+          "unit": "the October 12–18 alerts are later operational context, not a demonstrated consequence of the September 15 drone incident",
+          "value_type": "unmeasured"
+        },
+        "deterrence_and_adversary_change": {
+          "value": "not observed",
+          "unit": "missing adversary intent, behavior change, deterrence effect, cost/readiness burden, and civilian-risk reduction",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence weekly operational summary; the six-alert count and episode details are retained as later context and not as incident-level causal evidence.",
+      "uncertainty": "The official account documents repeated response activity and one failed visual identification but does not establish adversary intent, quantify operational burden, measure civilian protection, or show that the September 15 incident changed later behavior.",
+      "subgroup": "NATO Baltic Air Policing personnel, Lithuanian and regional airspace, and potentially affected civil aviation; no linked public or civilian outcome denominator is supplied.",
+      "counterinterpretation": "More scrambles can demonstrate a functioning response posture while also indicating persistent exposure or routine flight-rule violations rather than successful deterrence.",
+      "source_url": "https://kam.lt/en/data-on-interceptions-of-aircraft-completed-near-the-baltic-states-borders-on-october-12-18-2026/",
+      "retrieval_hash": "sha256:4840395925a85b5fcd7a580d440701fa45ea9ed716fe93a156e564fe826882bf",
+      "status": "reported"
+    },
+    {
+      "period": "October 8, 2026; Lithuanian border-security support deployment",
+      "denominator": {
+        "value": 1,
+        "unit": "reported company-sized Lithuanian Armed Forces unit assigned to support the State Border Guard Service",
+        "value_type": "reported_state_response_deployment"
+      },
+      "measures": {
+        "domestic_state_response": {
+          "value": "Lithuania deployed a company-sized unit to patrol border-crossing areas with State Border Guard officers, with mobile patrols, mobile checkpoints, and Military Police escorts available if needed",
+          "unit": "reported preventive border-security support deployment",
+          "value_type": "reported_institutional_response"
+        },
+        "duration": {
+          "value": "from October 8 for two weeks or longer if deemed necessary",
+          "unit": "reported deployment horizon",
+          "value_type": "reported_time_bound_commitment"
+        },
+        "incident_specific_causation_and_outcome": {
+          "value": "not established",
+          "unit": "the ministry describes routine preventive inter-institutional cooperation; no incident-specific attribution, cost, civilian outcome, public judgment, or later extension is reported",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence account; the deployment is retained as a related domestic state-response stage, not as proof that the September 15 airspace incident caused it.",
+      "uncertainty": "The official account identifies the unit scale, mission, and initial time horizon but does not disclose personnel-hours, budget, measurable border effect, public response, or whether the deployment continued beyond the stated horizon.",
+      "subgroup": "Lithuanian Armed Forces, State Border Guard Service, border-crossing areas, and residents or travelers in border territories; no linked civilian outcome sample is supplied.",
+      "counterinterpretation": "A preventive deployment can show inter-institutional state capacity while also being routine practice rather than an escalation or durable adaptation to the airspace incidents.",
+      "source_url": "https://kam.lt/en/the-lithuanian-armed-forces-deploy-in-support-of-the-state-border-guard-service-to-strengthen-security-on-the-border-with-kaliningrad/",
+      "retrieval_hash": "sha256:4840395925a85b5fcd7a580d440701fa45ea9ed716fe93a156e564fe826882bf",
+      "status": "reported"
+    },
+    {
+      "period": "October 7, 2026; first U.S.-made Switchblade 600 shipment received",
+      "denominator": {
+        "value": 1,
+        "unit": "named Lithuanian Armed Forces acquisition and warehouse receipt",
+        "value_type": "reported_capability_delivery"
+      },
+      "measures": {
+        "capability_receipt": {
+          "value": "The first shipment of U.S.-made Switchblade 600 loitering ammunition reached Lithuanian Armed Forces warehouses",
+          "unit": "reported delivered defense capability",
+          "value_type": "reported_delivery"
+        },
+        "associated_systems": {
+          "value": "The acquisition also includes launch and control equipment, a personnel simulation system, and a maintenance package",
+          "unit": "reported acquisition bundle",
+          "value_type": "reported_supporting_capability"
+        },
+        "strategic_relationship": {
+          "value": "Lithuania publicly framed the receipt as strengthening deterrence and the Lithuanian-U.S. partnership; the ministry reports approximately EUR 2 billion in U.S. equipment purchases over the prior three years",
+          "unit": "official partnership and procurement claim",
+          "value_type": "reported_policy_interpretation"
+        },
+        "use_and_effect": {
+          "value": "not observed",
+          "unit": "missing fielded use, training completion, operational availability, deterrence, adversary response, cost-effectiveness, civilian protection, and public judgment",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence acquisition announcement; warehouse receipt is kept separate from field deployment, operational use, deterrence, and civilian protection.",
+      "uncertainty": "The official account establishes first-shipment receipt and the included support package but does not publish quantity, unit cost, training completion, deployment location, use, readiness, or later effect on adversary behavior.",
+      "subgroup": "Lithuanian Armed Forces, U.S. defense supplier, NATO eastern-flank institutions, Lithuanian public, and potential adversaries; no linked public-opinion, cost, or use denominator is supplied.",
+      "counterinterpretation": "Receiving a weapon system can improve nominal capability and alliance ties while remaining unused, costly to sustain, or insufficient to change the underlying threat environment.",
+      "source_url": "https://kam.lt/en/the-lithuanian-armed-forces-added-the-switchblade-600-loitering-ammunition-to-its-inventory/",
+      "retrieval_hash": "sha256:716a68b5fe9471adf36e1e1aac61b40e442ff2004691a4585cdb33dcdfb7d1e0",
+      "status": "reported"
+    },
+    {
+      "period": "October 16, 2026; Lithuanian military border-support extension through mid-November",
+      "denominator": {
+        "value": 1,
+        "unit": "reported extension of Lithuanian Armed Forces support to the State Border Guard Service near Kaliningrad",
+        "value_type": "reported_state_response_persistence"
+      },
+      "measures": {
+        "response_persistence": {
+          "value": "Lithuania extended the strengthened border-protection support until mid-November at the request of the interior minister",
+          "unit": "reported extended domestic security response horizon",
+          "value_type": "reported_extension"
+        },
+        "stated_trigger_and_purpose": {
+          "value": "The defence ministry cited possible flows of residents fleeing the Kaliningrad region and related illegal border-crossing incidents, and described the extension as preventive",
+          "unit": "officially stated rationale",
+          "value_type": "reported_policy_rationale"
+        },
+        "null_signal": {
+          "value": "Lithuanian military intelligence reported no significant changes in military activity in the Kaliningrad region",
+          "unit": "officially reported threat-environment observation",
+          "value_type": "reported_null_signal"
+        },
+        "cost_and_public_effect": {
+          "value": "not observed",
+          "unit": "missing personnel-hours, budget, border-flow outcome, civilian burden, complaints, public judgment, and later termination or further extension",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence extension notice; persistence is retained as a later domestic-response stage and not attributed causally to the September 15 drone or later air-policing alerts.",
+      "uncertainty": "The official notice identifies the requesting ministry, preventive purpose, extension horizon, and reported intelligence null signal but does not disclose force size after extension, deployment locations, operational cost, measurable border effect, or public response.",
+      "subgroup": "Lithuanian Armed Forces, State Border Guard Service, Interior Ministry, border communities and travelers, and potential migrants; no linked civilian outcome sample is supplied.",
+      "counterinterpretation": "Extending a preventive deployment can show institutional persistence under uncertainty, but it can also reflect precautionary planning rather than a measured increase in threat or a durable change in adversary behavior.",
+      "source_url": "https://kam.lt/pratesta-kariuomenes-pagalba-vsat-pasienyje-su-kaliningradu/?csrt=1817534191199108664",
+      "retrieval_hash": "sha256:4c100b6f41fcc5f08c2e526a3cae35599af928b63e49d564e45eef66c79411d7",
+      "retrieval_hash_scope": "Indexed official Lithuanian Ministry of National Defence page reviewed on 2026-10-20; direct-language-page access was retained as an official-source access boundary.",
+      "status": "reported"
+    },
+    {
+      "period": "October 20, 2026; U.S.-made AN/TPS-77 MRR mobile radars delivered and being installed",
+      "denominator": {
+        "value": 1,
+        "unit": "reported Lithuanian airspace-surveillance capability delivery and installation stage",
+        "value_type": "reported_capability_delivery"
+      },
+      "measures": {
+        "capability_receipt_and_installation": {
+          "value": "Lithuania reported that Lockheed Martin AN/TPS-77 MRR mobile medium-range radars had been delivered to Lithuania and were being installed by the Lithuanian Armed Forces",
+          "unit": "reported delivered and installing surveillance capability",
+          "value_type": "reported_delivery_and_implementation"
+        },
+        "intended_network_effect": {
+          "value": "The ministry said the radars will provide real-time data to NATO's integrated air and missile-defence system and contribute to a common allied air picture",
+          "unit": "officially stated interoperability objective",
+          "value_type": "reported_operational_intent"
+        },
+        "observed_effect": {
+          "value": "not observed",
+          "unit": "missing radar availability, detection performance, incident-linked use, procurement and sustainment cost, civilian-risk reduction, public judgment, and adversary response",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence capability announcement; delivery and installation are retained as an implementation stage, separate from operational performance, deterrence, and civilian protection.",
+      "uncertainty": "The official account establishes delivery and installation but does not publish quantity, exact locations, commissioning date, coverage change, operating data, cost, or evidence that the radars affected a specific later interception or threat outcome.",
+      "subgroup": "Lithuanian Armed Forces, NATO integrated air and missile-defence institutions, allied air-policing personnel, and populations exposed to regional air threats; no linked public or civilian outcome denominator is supplied.",
+      "counterinterpretation": "Delivered and interoperable sensors can expand nominal surveillance capacity while still requiring installation, staffing, networking, and sustained maintenance before any operational or civilian-protection effect is demonstrated.",
+      "source_url": "https://kam.lt/oro-erdves-stebejimo-pajegumai-stiprinami-moderniais-radarais-is-jav/",
+      "retrieval_hash": "sha256:e4eaaa888add9c005166ff46c360d8b7f5fd18eb759045f37bb507b6e7f5dc92",
+      "retrieval_hash_scope": "Normalized evidence digest for the indexed official Lithuanian Ministry of National Defence page reviewed on 2026-10-20; direct HTML retrieval returned HTTP 403, so this is not a byte hash of the blocked response.",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -83,8 +351,62 @@
       "source_url": "https://www.nato.int/en/news-and-events/events/transcripts/2026/05/20/pre-ministerial-press-conference",
       "claim": "NATO describes Baltic air-policing operations as a delegated response and links them to Eastern Sentry and learning from drone warfare.",
       "status": "official-context"
+    },
+    {
+      "source_url": "https://kam.lt/en/data-on-interceptions-of-aircraft-completed-near-the-baltic-states-borders-on-september-21-27-2026/",
+      "claim": "Lithuania reported six NATO Baltic air-policing alerts during September 21–27, including continued patrol and interception activity after the September 15 drone incident.",
+      "status": "official-follow-up",
+      "access_boundary": "The weekly operational count shows repeated response activity, not incident-specific public burden, attribution, deterrence, or civilian-risk reduction."
+    },
+    {
+      "source_url": "https://nato.int/en/news-and-events/articles/news/2026/09/29/secretary-general-and-lithuanian-prime-minister-discuss-eastern-flank-defence-drones-and-support-for-ukraine",
+      "claim": "NATO later connected the Lithuanian interception to strengthening integrated air and missile defence and adapting posture through initiatives including Drone Edge.",
+      "status": "official-follow-up",
+      "access_boundary": "The statement establishes a later policy and posture response, not implementation, cost, public consent, or changed adversary behavior."
+    },
+    {
+      "source_url": "https://kam.lt/en/data-on-interceptions-of-aircraft-completed-near-the-baltic-states-borders-on-september-28-october-4-2026/?csrt=4806382545313663223",
+      "claim": "Lithuania reported five further NATO Baltic air-policing alerts during September 28–October 4, including identification and escort activity involving Russian aircraft.",
+      "status": "official-follow-up",
+      "access_boundary": "The count establishes repeated response activity, not causation from the September 15 drone, deterrence, cost, or civilian protection."
+    },
+    {
+      "source_url": "https://www.urm.lt/en/news/928/lithuania-lodged-a-protest-note-with-belarus-over-the-violation-of-lithuanian-airspace-and-threat-to-civil-aviation%3A46506",
+      "claim": "Lithuania reported a September 21–22 balloon-related airspace violation, temporary restrictions affecting civil flights, and a diplomatic protest to Belarus.",
+      "status": "official-related-incident",
+      "access_boundary": "The account supplies a reported civilian-disruption stage but not independent attribution, passenger-level burden, compensation, or later behavior."
+    },
+    {
+      "source_url": "https://kam.lt/en/data-on-interceptions-of-aircraft-completed-near-the-baltic-states-borders-on-october-5-11-2026/?csrt=4005309836354430844",
+      "claim": "Lithuania reported one further flight-regulation violation during October 5–11 and an October 8 NATO scramble involving two Russian SU-30 aircraft.",
+      "status": "official-follow-up",
+      "access_boundary": "The report establishes another response episode, not causation from the September 15 drone, deterrence, cost, or civilian protection."
+    },
+    {
+      "source_url": "https://kam.lt/en/data-on-interceptions-of-aircraft-completed-near-the-baltic-states-borders-on-october-12-18-2026/",
+      "claim": "Lithuania reported six further NATO Baltic Air Policing scrambles during October 12–18, including Russian aircraft formations and an unidentified aerial target that could not be visually identified.",
+      "status": "official-follow-up",
+      "access_boundary": "The report establishes repeated response activity and an unresolved identification episode, not causation from the September 15 drone, deterrence, cost, or civilian protection."
+    },
+    {
+      "source_url": "https://kam.lt/en/the-lithuanian-armed-forces-deploy-in-support-of-the-state-border-guard-service-to-strengthen-security-on-the-border-with-kaliningrad/",
+      "claim": "Lithuania reported an October 8 company-sized Armed Forces deployment to support the State Border Guard Service near Kaliningrad for two weeks or longer if needed.",
+      "status": "official-related-response",
+      "access_boundary": "The account supplies a reported domestic state-response stage, not incident-specific causation, measured cost, civilian outcome, public judgment, or durable continuation."
+    },
+    {
+      "source_url": "https://kam.lt/en/the-lithuanian-armed-forces-added-the-switchblade-600-loitering-ammunition-to-its-inventory/",
+      "claim": "Lithuania reported that the first shipment of U.S.-made Switchblade 600 loitering ammunition reached Armed Forces warehouses on October 7, with launch/control, simulation, and maintenance equipment included.",
+      "status": "official-capability-delivery",
+      "access_boundary": "The announcement establishes receipt, not quantity, unit cost, training completion, field deployment, operational use, deterrence, adversary response, or civilian protection; direct retrieval was unavailable at recheck."
+    },
+    {
+      "source_url": "https://kam.lt/oro-erdves-stebejimo-pajegumai-stiprinami-moderniais-radarais-is-jav/",
+      "claim": "Lithuania reported on October 20 that AN/TPS-77 MRR mobile radars had been delivered and were being installed, with planned real-time data feeds to NATO's integrated air and missile-defence system.",
+      "status": "official-capability-delivery-and-installation",
+      "access_boundary": "The announcement establishes delivery and installation, not quantity, commissioning, coverage, operational performance, cost, civilian protection, deterrence, or incident-specific use."
     }
   ],
-  "boundary": "This record adds a real operational interception and host-government alliance-response stage to the geopolitical/state lane. It does not establish independent attribution, deterrence, external behavioral change, civilian protection, public consent, cost sustainability, or durable capability investment. It is distinct from the 2025 Polish airspace episode and from exercise-only records because the official account reports a named 2026 interception.",
+  "boundary": "This record adds a real operational interception, repeated follow-up alerts, and a later stated NATO posture-adaptation stage to the geopolitical/state lane. It does not establish independent attribution, deterrence, external behavioral change, civilian protection, public consent, cost sustainability, or implemented capability investment. It is distinct from the 2025 Polish airspace episode and from exercise-only records because the official account reports a named 2026 interception.",
   "retrieval_hash": "sha256:4840395925a85b5fcd7a580d440701fa45ea9ed716fe93a156e564fe826882bf"
 }

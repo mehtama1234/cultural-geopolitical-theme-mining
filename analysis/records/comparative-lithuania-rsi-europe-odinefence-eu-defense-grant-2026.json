@@ -1,0 +1,48 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-rsi-europe-odinefence-eu-defense-grant-2026",
+  "title": "Defense-industrial funding creates a regional production option before output or readiness is visible",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of an EU-selected RSI Europe and Odin Defence project",
+  "geography": "Panevėžys district, Lithuania; Estonia and European defense-industrial supply chains",
+  "observations": [
+    {
+      "period": "October 20, 2026 EU funding-selection announcement",
+      "denominator": {
+        "value": 83,
+        "unit": "applications submitted to the European Defence Industry Programme call; eight projects selected",
+        "value_type": "agency_reported_application_count"
+      },
+      "measures": {
+        "eu_funding": {"value": 29500000, "unit": "euros of reported EU funding for the selected RSI Europe/Odin Defence project", "value_type": "agency_reported_funding"},
+        "selected_projects": {"value": 8, "unit": "projects selected from 83 applications; total selected-project funding up to €166.4 million", "value_type": "agency_reported_selection_count"},
+        "named_partners": {"value": "Lithuanian RSI Europe and Estonian Odin Defence", "unit": "named industrial partners", "value_type": "reported_partnership"},
+        "planned_site_and_conversion": {"value": "RSI Europe plans to expand in Panevėžys district; the ministry links planned investment to jobs, qualified specialists, regional development, supply-chain security, and defense production capacity", "unit": "reported planned-capacity pathway", "value_type": "reported_plan"},
+        "realized_output_and_readiness": {"value": "not observed", "unit": "missing grant disbursement, facility construction, workforce, equipment, production, delivery, acceptance, availability, operational use, and civilian-protection outcome", "value_type": "unmeasured"},
+        "mechanism": {"value": "Competitive supranational funding can convert strategic defense demand into a named firm-and-region production option, but funding selection is an institutional input rather than realized industrial capacity or operational capability.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Lithuanian Ministry of National Defence announcement. Funding selection, planned regional expansion, industrial partners, and stated capacity rationale are kept separate from disbursement, facility completion, output, delivery, acceptance, and security effects.",
+      "uncertainty": "The announcement does not publish grant-agreement conditions, co-financing, implementation milestones, facility status, expected quantities, unit costs, employment totals, production dates, delivery, or operational use.",
+      "subgroup": "RSI Europe, Odin Defence, Panevėžys-region workers and suppliers, Lithuanian and allied defense institutions; no realized worker, firm, or community outcome subgroup is supplied.",
+      "counterinterpretation": "The award may strengthen European supply-chain resilience and regional employment if implemented, while competitive selection and planned expansion can still fail to become a functioning or cost-effective production route.",
+      "source_url": "https://kam.lt/es-lietuvos-gynybos-pramones-imonei-skyre-295-mln-euru/",
+      "retrieval_hash": "sha256:bc88a722550034aeae23d6a4fc3f96c256d506c3b89cb75ce5115db01b36bf75",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://kam.lt/en/lithuania-gains-ukraines-drone-production-technology-says-minister-r-kaunas/", "claim": "A related Lithuanian-Ukrainian UAV/electronic-warfare production plan illustrates a separate letter-of-intent stage; it is not evidence of this grant's output.", "status": "related-context"}
+  ],
+  "boundary": "This record establishes a reported EU funding selection, named industrial partners, planned Panevėžys expansion, and stated supply-chain and regional-capacity rationale. It does not establish grant disbursement, facility operation, jobs, production, delivery, accepted capability, readiness, deterrence, civilian protection, or realized regional benefit.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the official Lithuanian Ministry source; grant files, firm records, worker identities, and production data are not retained."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-spike-lr2-warehouse-receipt-2026",
+  "title": "Lithuania converts a Spike LR2 contract into reported warehouse receipt before stockpile readiness or deterrence is visible",
+  "theme_ids": ["cost", "work", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of Spike LR2 missile receipt",
+  "geography": "Lithuania; Lithuanian Armed Forces warehouses and Vilkas Infantry Fighting Vehicle force",
+  "observations": [
+    {
+      "period": "July 7, 2026; warehouse-receipt announcement",
+      "denominator": {
+        "value": 1,
+        "unit": "named Spike LR2 ammunition-receipt milestone",
+        "value_type": "official_delivery_milestone"
+      },
+      "measures": {
+        "receipt_stage": {"value": "Spike LR2 missiles reported to have reached Lithuanian Armed Forces warehouses", "unit": "reported physical receipt", "value_type": "ministry_reported_delivery"},
+        "contract_value": {"value": 3000000, "unit": "euros; more than this amount reported for the implemented Euro Spike GmbH contract", "value_type": "ministry_reported_contract_value"},
+        "supplier": {"value": "Germany's Euro Spike GmbH", "unit": "named supplier/contracting counterparty", "value_type": "ministry_reported_supplier"},
+        "platform_link": {"value": "the ministry says Lithuanian Armed Forces use Spike LR2 missiles with Vilkas Infantry Fighting Vehicles", "unit": "reported platform integration context", "value_type": "ministry_reported_platform"},
+        "stated_function": {"value": "rapid-response anti-armour missile effective against tanks, armoured equipment, buildings, and other high-value targets", "unit": "official capability description", "value_type": "ministry_stated_capability"},
+        "readiness_and_effect": {"value": "not observed", "unit": "missing quantity, acceptance, allocation, payment, training, maintenance, firing readiness, field use, replenishment, deterrence, adversary response, civilian protection, and public judgment", "value_type": "unmeasured"},
+        "mechanism": {"value": "A warehouse receipt converts an implemented ammunition contract into reported possession linked to an existing vehicle platform, but possession is not trained, sustained, or demonstrated operational capability.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Lithuanian Ministry of National Defence announcement. Receipt, contract value, supplier, platform link, stated function, and unmeasured readiness and effects are coded as separate stages.",
+      "uncertainty": "The announcement does not disclose missile quantity, lot, acceptance records, inventory allocation, payment status, crew training, maintenance, firing readiness, field deployment, operational use, or strategic effect.",
+      "subgroup": "Lithuanian Armed Forces and Vilkas crews, Euro Spike GmbH and defense suppliers, allied defense institutions, and civilians potentially affected by future use; no affected-person denominator is supplied.",
+      "counterinterpretation": "A replenished stockpile may improve future readiness and platform availability, while stored missiles can remain unused or create fiscal, maintenance, escalation, and civilian-risk costs not measured by the announcement.",
+      "source_url": "https://kam.lt/en/spike-lr2-missiles-reached-the-lithuanian-armed-forces-warehouses/",
+      "retrieval_hash": "sha256:569d8065f6f282aac03b049d407be7e9a845170066fb399917460696a999fa7f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://kam.lt/en/more-amraam-and-spike-lr2-missiles-arrived-to-lithuanian-armed-forces-warehouses/", "claim": "A separate March 2026 announcement reports an earlier combined AMRAAM, Spike LR2, and ammunition receipt; it is background and not merged into this July receipt milestone.", "status": "related-context"}
+  ],
+  "boundary": "This record establishes a reported July 2026 Spike LR2 warehouse receipt, an implemented contract valued above €3 million, and a platform link to Vilkas vehicles. It does not establish quantity, acceptance, training, maintenance, readiness, use, replenishment, deterrence, civilian protection, or public legitimacy.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the Lithuanian Ministry of National Defence source; contract files, inventory records, training logs, and operational-use data are not retained."
+  }
+}

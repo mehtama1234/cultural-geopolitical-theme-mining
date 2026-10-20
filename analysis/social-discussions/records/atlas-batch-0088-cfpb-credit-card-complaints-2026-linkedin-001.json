@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0088-cfpb-credit-card-complaints-2026-linkedin-001",
+  "atlas_record_ids": ["us-cfpb-credit-card-complaint-routes-2026-ytd"],
+  "topic": "consumer-power-recourse",
+  "platform": "linkedin",
+  "item_type": "data_relay_and_consumer_rights_marketing",
+  "author_or_account": "Financial Relief USA",
+  "title": "Credit Card Billing Complaints Jump 80% in 2026: Know Your Rights",
+  "canonical_url": "https://www.linkedin.com/posts/financialreliefusa_debtrelief-financialfreedom-consumerrights-activity-7488942411520491522-p7CQ",
+  "published_window": "2026-08",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "The post relays a claimed increase in CFPB credit-card billing complaints and frames complaint filing as a consumer-rights and debt-relief route. It is a commercial interpretation of public data, not an independent estimate of the API slice or evidence that complaint escalation produces relief.",
+  "research_anchor_paths": ["analysis/records/us-cfpb-credit-card-complaint-routes-2026-ytd.json"],
+  "linked_research_question": "How are changes in administrative complaint volume translated into consumer-rights expectations, and when do those expectations become verified correction or relief?",
+  "classification": ["research_relay", "consumer_education", "commercial_framing", "governance"],
+  "limits": ["The post's 80% claim is not the same denominator or period as the retained API slice", "Commercial framing can overstate likely debt-relief outcomes", "No account-level correction, payment, or later outcome is documented"]
+}

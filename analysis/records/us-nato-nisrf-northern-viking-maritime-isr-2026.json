@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-nisrf-northern-viking-maritime-isr-2026",
+  "title": "A NATO ISR mission entered a multinational maritime exercise and supported a surface picture without proving targeting or deterrence effect",
+  "theme_ids": ["work", "voice", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "NATO Intelligence, Surveillance and Reconnaissance Force account of an RQ-4D Phoenix mission during Exercise Northern Viking 2026",
+  "geography": "GIUK Gap and High North maritime exercise area; NISRF operating from Sigonella, Italy",
+  "observations": [
+    {
+      "period": "August 26, 2026; Northern Viking 2026 RQ-4D Phoenix mission",
+      "denominator": {
+        "value": 1,
+        "unit": "NATO-owned RQ-4D Phoenix mission integrated into Exercise Northern Viking 2026",
+        "value_type": "reported_operational_event"
+      },
+      "measures": {
+        "exercise_integration": {
+          "value": "NISRF integrated a NATO-owned RQ-4D Phoenix into a multinational maritime scenario around Iceland involving NATO and Allied assets",
+          "unit": "reported multinational exercise integration",
+          "value_type": "reported_operational_use"
+        },
+        "information_support": {
+          "value": "The mission contributed to a surface picture supporting over-the-horizon targeting for naval surface combatants operating in the Greenland-Iceland-United Kingdom Gap",
+          "unit": "reported ISR support function",
+          "value_type": "reported_information_effect"
+        },
+        "allied_coordination": {
+          "value": "NISRF reported further integration with NATO and Allied assets operating across the region and improved shared situational awareness and interoperability",
+          "unit": "official force assessment",
+          "value_type": "reported_coordination_effect"
+        },
+        "targeting_and_external_effect": {
+          "value": "not observed",
+          "unit": "missing target engagement, decision change, mission outcome, adversary response, deterrence, cost, host burden, and public legitimacy",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the official NISRF mission account; aircraft use, information support, exercise integration, and unobserved downstream effects are retained as separate stages.",
+      "uncertainty": "The account does not identify the surface contacts, products, users, targeting decisions, engagement results, adversary awareness, host-nation burden, or whether the capability changed behavior beyond the exercise.",
+      "subgroup": "NISRF personnel, NATO and Allied naval forces, exercise participants, Iceland and other host institutions, and maritime operators in the GIUK Gap; no civilian or adversary outcome denominator is supplied.",
+      "counterinterpretation": "A mission can provide useful shared situational awareness and interoperability practice without producing an attributed targeting result, deterrence effect, or durable alliance legitimacy.",
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-supports-allied-maritime-operations-during-northern-viking-2026.aspx",
+      "retrieval_hash": "sha256:2e0ffb1a77b9f6dd7e2ae8a6f0fd7b2cdbf213b4ceebf1653e0a38ad1b1c9e60",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-concludes-ace--delivering-persistent-isr-across-major-nato-activities",
+      "claim": "A separate NISRF ACE account reports RQ-4D flight hours and intelligence-product production from Finland, Norway, and Italy; it is retained as a distinct operational comparator.",
+      "status": "related-operational-comparator"
+    },
+    {
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/supporting-allied-capabilities-nisrf-facilitates-belgian-mq9b-deployment",
+      "claim": "A separate NISRF account reports a Belgian MQ-9B deployment supported by NATO infrastructure and Italian host-nation coordination.",
+      "status": "related-operational-comparator"
+    }
+  ],
+  "boundary": "This record establishes a named NATO ISR mission used in a multinational maritime exercise and reported support to a surface picture for over-the-horizon targeting. It does not establish targeting decisions, engagement, adversary response, deterrence, host burden, public consent, cost sustainability, or durable geopolitical leverage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NISRF mission account and indexed page metadata used for bounded extraction; classified products and operational telemetry are not retained.",
+    "checked": "2026-10-20"
+  }
+}

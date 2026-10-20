@@ -100,9 +100,27 @@
       "source_url": "https://www.scc.virginia.gov/regulated-industries/public-taxation/taxes-and-fees/",
       "retrieval_hash": "sha256:b14d24fc587a3ec6fb2e3e83b8705890aa7ff530c6378699c984a4c673110a69",
       "status": "reported"
+    },
+    {
+      "period": "2026-10-19 bounded public-record recheck",
+      "denominator": {"value": 1, "unit": "targeted public-source acquisition check for Virginia data-center electricity-consumption-tax incidence", "value_type": "bounded_non_observation"},
+      "measures": {
+        "operator_registration_or_monthly_return_found": {"value": 0, "unit": "named operator registration, monthly tax report, or remittance record located in the public SCC/tax pages and docket-search route checked", "value_type": "bounded_non_observation"},
+        "customer_or_locality_receipt_found": {"value": 0, "unit": "customer-facing credit, utility bill posting, locality receipt, or named-facility incidence record located in the same check", "value_type": "bounded_non_observation"},
+        "acquisition_boundary": {"value": "The tax registration, reporting cadence, and enforcement route remain public; the missing filed return or receipt is an access gap, not evidence that no operator registered, paid, or generated a local fiscal effect", "unit": "source-availability boundary", "value_type": "bounded_boundary"}
+      },
+      "method": "Targeted recheck of the Virginia SCC data-center taxation/forms pages, SCC facts page, energy-regulation page, and docket-search entry point for a dated post-September filing or customer-facing incidence record.",
+      "uncertainty": "The check cannot exclude confidential, unindexed, differently named, locality-held, or not-yet-published filings; it also does not establish whether the October monthly return was due or filed by the check date.",
+      "subgroup": "Virginia data-center operators, Dominion customers, localities, and residential customers potentially affected by cost allocation; no named facility or customer receipt is linked.",
+      "counterinterpretation": "A public procedural route can coexist with private or delayed filing evidence; non-observation narrows the lawful acquisition target without resolving collection or incidence.",
+      "source_url": "https://www.scc.virginia.gov/docketsearch",
+      "comparison_source_url": "https://www.scc.virginia.gov/regulated-industries/public-taxation/forms/",
+      "retrieval_hash": "sha256:b14d24fc587a3ec6fb2e3e83b8705890aa7ff530c6378699c984a4c673110a69",
+      "status": "reported"
     }
   ],
   "related_sources": [
+    {"source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/", "claim": "The SCC's current facts page confirms the August 25, 2026 supplemental proceeding for Dominion's line-extension amendments as PUR-2026-00131 and describes the prospective direct-connect cost-assignment framework; it does not identify a named operator payment or customer receipt.", "status": "official-context"},
     {"source_url": "https://www.scc.virginia.gov/regulated-industries/public-taxation/forms/", "claim": "The SCC lists the data-center operator registration form and monthly electricity-consumption-tax report with their submission cadence.", "status": "official-context"},
     {"source_url": "https://www.scc.virginia.gov/about-the-scc/newsreleases/release/scc-issues-order-on-dev-biennial-review-2025/scc-rules-in-dev-biennial-review-case.html", "claim": "The SCC describes the final order and its residential-rate context.", "status": "official-context"},
     {"source_url": "https://www.dominionenergy.com/about/delivering-energy/electric-projects/power-line-projects/hornbaker-devlin", "claim": "Dominion identifies a Prince William transmission project supporting data-center growth and reliability.", "status": "context"},

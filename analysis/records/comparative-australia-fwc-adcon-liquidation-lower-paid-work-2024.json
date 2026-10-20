@@ -1,0 +1,39 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwc-adcon-liquidation-lower-paid-work-2024",
+  "title": "Employer liquidation can leave lower-paid replacement work and a compensation order without verified recovery",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "household_room_consumption", "time_hidden_price", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "Primary Fair Work Commission decision [2024] FWC 2775, Adam Smith v Adcon Admin Pty Ltd",
+  "geography": "Victoria, Australia",
+  "observations": [
+    {
+      "period": "January 31–October 4, 2024; termination, alternative employment, liquidation, and compensation order",
+      "denominator": {"value": 1, "unit": "publicly identified adjudicated employment case; no population denominator", "value_type": "single_public_case"},
+      "measures": {
+        "alternative_employment_start": {"value": "2024-03-01", "unit": "continuing replacement employment after termination", "value_type": "reported_case_date"},
+        "alternative_earnings": {"value": 9584, "unit": "Australian dollars earned during the relevant compensation period", "value_type": "adjudicated_case_measure"},
+        "expected_remuneration": {"value": 24230.81, "unit": "Australian dollars used in the Commission's compensation calculation", "value_type": "adjudicated_case_measure"},
+        "compensation_order": {"value": 17531.43, "unit": "Australian dollars gross plus superannuation, ordered within 14 days", "value_type": "adjudicated_remedy_order"},
+        "employer_liquidation": {"value": "court-appointed liquidation; reinstatement unavailable", "unit": "institutional constraint", "value_type": "reported_case_outcome"},
+        "feg_receipt_and_order_receipt": {"value": "not observed", "unit": "liquidator advice did not establish FEG determination, payment, or compensation-order receipt", "value_type": "unmeasured"}
+      },
+      "method": "Structured extraction from the primary Fair Work Commission decision; termination, family/financial stress, lower-paid alternative work, quantified earnings trade-off, liquidation, FEG advice, and compensation order are retained as separate stages.",
+      "uncertainty": "One case cannot estimate liquidation, alternative-work, income-loss, FEG, remedy, or recovery rates. The decision records unchallenged case evidence but does not provide full offer sets, search cost, job duration, household budget, payment execution, later work, trust, recurrence, or exit.",
+      "subgroup": "One worker terminated when Adcon stopped operating and entered liquidation; unused leave was paid, while notice and redundancy entitlements were initially unpaid.",
+      "counterinterpretation": "A lower-paid replacement job and formal order can coexist with employer insolvency, family stress, unpaid entitlements, and no verified compensation or FEG receipt; legal recognition is not durable recovery.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2024fwc2775.pdf",
+      "retrieval_hash": "sha256:9816ba45b06cac28f7086d19b55a2cabf9dff683727e886d4a6a3730ead471ca",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders", "claim": "Official Fair Work Commission decision and order search route.", "status": "official-search"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger containing the bounded primary decision extraction.",
+    "access_boundary": "The decision records liquidator advice about FEG but not an application, eligibility decision, payment, compensation-order receipt, later employment, household recovery, trust, recurrence, or exit."
+  },
+  "boundary": "This record adds one employment-shutdown episode with lower-paid alternative work, quantified earnings trade-off, reported family and financial stress, liquidation, FEG advice, and an ordered remedy. It does not establish FEG eligibility or payment, compensation receipt, durable employment, household recovery, trust, recurrence, collective action, or exit."
+}

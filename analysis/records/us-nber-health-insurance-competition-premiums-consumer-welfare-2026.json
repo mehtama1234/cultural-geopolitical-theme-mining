@@ -54,11 +54,82 @@
       "source_url": "https://www.nber.org/papers/w34928",
       "retrieval_hash": "sha256:f9b9195631c31ff928a4e459f2704e8c3b9d84f2781ddbb51e6fa24cd28727ce",
       "status": "reported"
+    },
+    {
+      "period": "2026 ACA Marketplace open enrollment; plan selection and premium conversion",
+      "denominator": {
+        "value": 23100000,
+        "unit": "consumers selecting or automatically re-enrolled in an Exchange plan during the 2026 open enrollment period",
+        "value_type": "reported_consumer_plan_selection_count"
+      },
+      "measures": {
+        "plan_selections": {
+          "value": 23.1,
+          "unit": "million consumers across HealthCare.gov and 21 state-based exchanges",
+          "value_type": "reported_plan_selection_total"
+        },
+        "premium_before_after_assistance": {
+          "value": "The average monthly premium was $619 before advance premium tax credits and $178 after them; 87% selected plans with APTC and 37% selected plans with cost-sharing reductions",
+          "unit": "reported average monthly premium and assistance share",
+          "value_type": "reported_premium_conversion"
+        },
+        "platform_premium_change": {
+          "value": "Among APTC consumers, the average after-credit premium rose $15 from 2025 to 2026 on HealthCare.gov versus $36 for comparable consumers in state-based exchanges",
+          "unit": "reported year-over-year premium change",
+          "value_type": "reported_platform_comparison"
+        },
+        "welfare_boundary": {
+          "value": "not observed",
+          "unit": "missing network access, provider availability, out-of-pocket spending, care received, switching success, and health outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "CMS national 2026 Exchange open-enrollment report covering HealthCare.gov and 21 state-based exchanges; plan-selection, premium, APTC, and CSR measures are retained as enrollment and financial-assistance stages, not as realized care or welfare outcomes.",
+      "uncertainty": "Plan selections include automatic re-enrollment and the report combines different exchange systems; state subsidies are not fully reflected in the state-based-exchange premium figures. Average premiums do not identify individual affordability, plan generosity, network breadth, actual payment, or care use.",
+      "subgroup": "Exchange consumers on HealthCare.gov and state-based exchanges, including new, returning, automatically re-enrolled, subsidized, and cost-sharing-reduction recipients; the report also provides plan-level and demographic public-use files but no same-person later care outcome here.",
+      "counterinterpretation": "Lower after-credit premiums or large enrollment totals can coexist with narrow networks, high deductibles, unmet care, administrative burden, or consumers losing coverage; plan selection is not proof of usable choice or welfare improvement.",
+      "source_url": "https://www.cms.gov/files/document/health-insurance-exchanges-2026-open-enrollment-report.pdf",
+      "retrieval_hash": "sha256:9bffc40174c670be087098929f468fb663380e711002e5c2afa2d3587a961203",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Exchange Public Use Files; network-access data availability",
+      "denominator": {
+        "value": 548,
+        "unit": "rows in the CMS 2026 Network PUF downloaded from the public CMS download route",
+        "value_type": "public_file_row_count"
+      },
+      "measures": {
+        "network_file_scope": {
+          "value": "The file covers 30 states and 359 issuer identifiers, with 503 Individual rows and 45 SHOP (Small Group) rows",
+          "unit": "public network-file coverage",
+          "value_type": "derived_file_coverage"
+        },
+        "network_url_availability": {
+          "value": 534,
+          "unit": "rows with a nonempty provider-network URL",
+          "value_type": "derived_network_url_count"
+        },
+        "next_linkage": {
+          "value": "The file creates a reproducible bridge from plan/issuer selection and rates toward provider-network access, but it does not itself measure provider availability, directory accuracy, travel burden, appointment access, or care received",
+          "unit": "bounded data-linkage stage",
+          "value_type": "bounded_acquisition_stage"
+        }
+      },
+      "method": "Targeted inspection of the CMS 2026 Network PUF archive: downloaded the 70-kilobyte ZIP, verified its SHA-256, inspected the CSV header, and computed row, state, issuer, market-coverage, and nonempty-network-URL counts without retaining the full archive in the repository.",
+      "uncertainty": "The Network PUF identifies issuer network URLs and market coverage but does not provide a validated provider count, network breadth, directory accuracy, geographic travel time, appointment availability, claims, or enrollee-level outcome. It covers federally facilitated and related platform states and is not a complete national exchange-network census.",
+      "subgroup": "2026 Exchange issuers and plan markets represented in the CMS Network PUF, especially Individual and SHOP rows across 30 states; enrolled consumers and actual provider encounters are not linked.",
+      "counterinterpretation": "A populated network URL can coexist with a narrow, inaccurate, inaccessible, or difficult-to-use provider directory; data availability is not proof of practical network choice.",
+      "source_url": "https://download.cms.gov/marketplace-puf/2026/network-puf.zip",
+      "retrieval_hash": "sha256:3d06ea11631c49efa7f7ae687a163d4a8d4b80ffc81dee8199cdf1d73f13a9f3",
+      "status": "reported"
     }
   ],
   "related_sources": [
     {"source_url": "https://www.nber.org/papers/w34928", "claim": "Official NBER landing page with market concentration, adverse selection, premium, plan-design, consolidation, and policy-tool findings.", "status": "primary-source"},
     {"source_url": "https://doi.org/10.3386/w34928", "claim": "NBER DOI route for the working paper.", "status": "primary-source"}
+    ,{"source_url": "https://www.cms.gov/files/document/health-insurance-exchanges-2026-open-enrollment-report.pdf", "claim": "CMS 2026 Exchange open-enrollment report with national plan selections, premium before/after APTC, APTC and CSR shares, metal-level selections, and HealthCare.gov versus state-based-exchange comparisons.", "status": "primary-source", "access_boundary": "The report measures plan selection and financial-assistance stages, not individual network access, care received, affordability after all costs, switching success, or health outcomes."}
+    ,{"source_url": "https://www.cms.gov/marketplace/resources/data/public-use-files", "claim": "CMS describes the 2026 Network PUF as issuer-level data identifying provider-network URLs and lists the 2026 archive as updated August 4, 2026.", "status": "primary-source", "access_boundary": "The archive supplies network URL metadata, not provider-level access, directory accuracy, travel, appointment, care, or enrollee outcomes."}
   ],
   "boundary": "This record adds a US health-insurance competition route linking concentration, adverse selection, premiums, plan design, consumer welfare, and policy remedies across commercial, Medicare Advantage, and Medicaid markets. It does not establish a universal concentration threshold, enrollee-level welfare effect, realized remedy, provider quality, health outcome, or household recovery.",
   "reproduction_audit": {

@@ -31,6 +31,36 @@
       "evidence_status": "reported",
       "source_and_uncertainty": "Official CFPB agency-reported consumer-recourse account; no customer-level denominator, payment file, independent technical audit, or later outcome is published in the retained record",
       "source_url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/"
+    },
+    {
+      "event_id": "CFPB-BILT-REMEDIATION-CLOSURE-2026",
+      "unit": "case",
+      "geography": "United States; Bilt consumers eligible for transition-related reimbursement",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-09-21",
+      "date_precision": "CFPB page reports reimbursement status as of September 10, 2026 and CFPB closure notification on September 21, 2026",
+      "denominator": "More than 2,000 eligible consumers; CFPB reports total reimbursement of $264,792.71",
+      "method": "Later dated update on the same official CFPB newsroom account; aggregate remediation report, not a retained customer-level payment file",
+      "missingness": "Individual payment receipt, timing, fee-level allocation, account correction, credit effect, repeat failure, adequacy, continued use, trust, and switching remain unlinked",
+      "condition_or_decision": "service_failure",
+      "exposure": "Previously reported transition-related overdraft, late, and insufficient-funds fees for affected consumers",
+      "alternatives_before_action": "Consumers could seek reimbursement, absorb losses, alter payment routes, or switch, but the later update does not identify individual paths",
+      "immediate_burden_or_benefit": "The aggregate report indicates a completed reimbursement program for eligible consumers, while leaving the distribution timing and adequacy of each payment unobserved",
+      "choice_or_response": "Bilt reported reimbursing all eligible consumers and the CFPB notified Bilt that it considered the matter closed",
+      "person_or_actor_with_control": "Bilt controlled reimbursement execution; CFPB controlled oversight and closure; consumers retained any account correction, dispute, or switching choices",
+      "remedy_or_institutional_response": "Aggregate reimbursement of $264,792.71 to more than 2,000 eligible consumers and CFPB case closure are reported",
+      "remedy_stage": "remedy_reported_received",
+      "immediate_outcome": "The public route now reaches aggregate redress completion and regulatory closure, not just an offer or review stage",
+      "protected_outcome": "Reimbursement may restore some charged funds, but restoration of liquidity, credit position, payment reliability, or trust is not verified at the individual level",
+      "sacrificed_outcome": "Any unreimbursed non-fee loss, delayed access, credit effect, administrative effort, or continued disruption remains unmeasured",
+      "cost_risk_transfer": "The reported reimbursement shifts identified fee costs back toward the firm, but the public update does not quantify residual or non-fee costs",
+      "later_outcome": "Aggregate reimbursement and case closure are observed; same-customer receipt, adequacy, repeat failure, continued use, switching, and durable financial recovery remain open",
+      "meaning_and_attribution": "Closure may be read as effective resolution or as an institutional endpoint that does not capture lived recovery; interpretation is not measured",
+      "public_or_collective_response": "CFPB oversight reaches a reported closure; no linked customer-level complaint, appeal, or later market response is published",
+      "counterexample": "All eligible consumers may have received adequate reimbursement and experienced no lasting effect; the aggregate update cannot test that counterexample at the person level",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official CFPB update with aggregate eligibility and payment totals; no independent payment audit, account-level file, or customer follow-up is published in the retained record",
+      "source_url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/"
     }
   ],
   "arrows": [
@@ -88,8 +118,19 @@
       "status": "open",
       "counterexample": "Continued use may reflect dependence or switching cost rather than restored trust; leaving may reflect a technical alternative rather than generalized distrust",
       "remaining_gap": "Direct customer interpretation, complaint, repeat use, switching reason, trust, and exit"
+    },
+    {
+      "arrow_id": "CFPB-BILT-A-06",
+      "from": "reported reimbursement completion",
+      "to": "regulatory closure",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The CFPB page reports that, as of September 10, Bilt had reimbursed all eligible consumers—over 2,000—for $264,792.71, and that the CFPB notified Bilt on September 21 that it considered the matter closed",
+      "status": "reported",
+      "counterexample": "Aggregate closure does not establish payment receipt, adequacy, account correction, or absence of repeat harm for every consumer",
+      "remaining_gap": "Same-customer receipt, allocation, adequacy, credit/account correction, repeat failure, and later behavior"
     }
   ],
-  "boundary": "This ledger formalizes an official CFPB account of a Bilt bank-partner transition and collaborative remediation. It does not establish the affected-customer denominator, individual payment receipt, account correction, technical durability, financial recovery, trust, or switching.",
+  "boundary": "This ledger formalizes an official CFPB account of a Bilt bank-partner transition, aggregate reimbursement completion, and collaborative regulatory closure. It does not establish the full affected-customer denominator, individual payment receipt, account correction, technical durability, financial recovery, trust, or switching.",
   "storage_boundary": "Only the official CFPB account and its aggregate/agency-reported stages are retained; customer accounts, payment records, and private remediation files are not stored."
 }

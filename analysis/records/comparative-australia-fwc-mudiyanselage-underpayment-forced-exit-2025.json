@@ -1,0 +1,40 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwc-mudiyanselage-underpayment-forced-exit-2025",
+  "title": "A forced employment exit can reach partial payment and compensation order while trust and full recovery remain open",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "time_hidden_price", "trust_identity_meaning", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback"],
+  "source_unit": "Primary Fair Work Commission decision [2025] FWC 1570 and order PR788459, Mudiyanselage case",
+  "geography": "Melbourne, Australia",
+  "observations": [
+    {
+      "period": "January–June 2025; wage failure, forced exit, partial payment, and compensation order",
+      "denominator": {"value": 1, "unit": "publicly adjudicated worker case; no population denominator", "value_type": "single_public_case"},
+      "measures": {
+        "wages_owed_at_resignation": {"value": 12, "unit": "weeks of pay, approximately, plus some superannuation", "value_type": "adjudicated_case_measure"},
+        "partial_payment_documented": {"value": 4000, "unit": "Australian dollars paid April 2, 2025", "value_type": "documented_case_payment"},
+        "historical_wages_remaining_at_hearing": {"value": 7000, "unit": "Australian dollars approximately remaining unpaid at May 20, 2025 hearing", "value_type": "adjudicated_case_measure"},
+        "compensation_order": {"value": 27424.88, "unit": "Australian dollars gross plus 11.5% superannuation, less tax, ordered within 14 days", "value_type": "adjudicated_remedy_order"},
+        "forced_exit": {"value": "Commission found resignation was forced; worker did not return", "unit": "employment-remedy disposition", "value_type": "adjudicated_case_outcome"},
+        "new_employment": {"value": "secured after exit", "unit": "reported later employment; conditions and durability not observed", "value_type": "reported_case_outcome"},
+        "full_remedy_receipt": {"value": "not observed", "unit": "missing order compliance, superannuation receipt, adequacy, and later recovery", "value_type": "unmeasured"}
+      },
+      "method": "Structured extraction from the primary Fair Work Commission decision and official bulletin; wage failure, institutional complaint, forced exit, partial payment, new employment, worker-linked broken trust, and ordered remedy are kept separate from full payment and recovery.",
+      "uncertainty": "One case cannot estimate underpayment, forced-exit, payment, remedy, or recurrence rates. The public record does not retain complete payroll history, household effects, new-job conditions, later employment, or post-order compliance.",
+      "subgroup": "One worker at Royal Greenhill Institute of Technology whose wages were repeatedly delayed or unpaid and whose resignation was found to be a constructive dismissal.",
+      "counterinterpretation": "A partial payment, current-rate correction, new job, and compensation order can coexist with residual unpaid wages, lost financial independence, and unresolved remedy adequacy; leaving may protect dignity while increasing financial risk.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc1570.pdf",
+      "retrieval_hash": "sha256:ffd0a57d2ac80022d518bef35dc560312eaac4b594baf41332330245039b2bb4",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders", "claim": "Official Fair Work Commission decision and order search route.", "status": "official-search"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger because direct source-PDF access was not available during this promotion.",
+    "access_boundary": "The project recheck found no later public payment confirmation, compliance record, or post-new-job follow-up. This is a public-record boundary, not proof that the order was unpaid or that recovery did not occur."
+  },
+  "boundary": "This record establishes one same-worker public case chain from persistent wage failure through complaint, forced exit, new employment, partial payment, compensation order, and reported broken trust. It does not establish full remedy receipt, adequate recovery, durable employment, recurrence, collective action, or general prevalence."
+}

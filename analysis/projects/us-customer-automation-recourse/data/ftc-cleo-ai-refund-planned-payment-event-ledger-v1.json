@@ -1,0 +1,87 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_enforcement_consumer_redress_record",
+  "purpose": "Structured FTC Cleo AI refund ledger distinguishing an announced aggregate PayPal distribution from delivery, acceptance, adequacy, and later household outcomes.",
+  "events": [
+    {
+      "event_id": "FTC-CLEO-AI-REFUND-2026-10-08",
+      "unit": "case",
+      "geography": "United States; consumers who paid Cleo AI for eligible instant cash advances",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-10-08",
+      "date_precision": "Day precision for FTC announcement; payment sending begins 2026-10-27 and email notification window runs 2026-10-08 through 2026-10-26",
+      "denominator": "2,124,796 planned PayPal payments; aggregate eligible-recipient count, not a retained person-level denominator",
+      "method": "Structured extraction from the official FTC refund page, press release, and case page",
+      "missingness": "No recipient identifiers, individual payment amount, notification receipt, delivery success, acceptance, return, subscription/account correction, original loss, household budget effect, repeat borrowing, trust, switching, or exit are retained",
+      "condition_or_decision": "payment",
+      "exposure": "The FTC alleged Cleo AI misled consumers about the amount and timing of cash advances, charged additional express fees, and made subscription cancellation difficult",
+      "alternatives_before_action": "Consumers could seek cancellation, dispute or refund routes, use other credit or payment sources, delay a need, or continue using the service; person-level feasible alternatives and borrowing substitution are not observed",
+      "immediate_burden_or_benefit": "Consumers faced alleged delayed or smaller-than-promised advances, express fees, subscription friction, and potential cash-flow strain; the public record does not quantify individual loss or household incidence",
+      "choice_or_response": "The FTC announced payments by PayPal, email notification before the distribution date, and a 30-day acceptance window; individual notification, delivery, acceptance, rejection, or return is not observed",
+      "person_or_actor_with_control": "FTC and refund administrator control eligibility and distribution; PayPal controls delivery and acceptance mechanics; consumers control acceptance within the stated window under unknown account and liquidity constraints",
+      "remedy_or_institutional_response": "The FTC announced more than $15.8 million in 2,124,796 PayPal payments, beginning 2026-10-27, after a $17 million settlement; the public announcement provides a refund-administrator route and warns against impersonation scams",
+      "remedy_stage": "remedy_offered",
+      "remedy_receipt": "Aggregate payments are announced but no recipient-level delivery, acceptance, or receipt is verified",
+      "durability_followup": "No later account correction, subscription cancellation, repeat borrowing, household recovery, trust, switching, or exit record is public in the announcement packet",
+      "immediate_outcome": "A large-scale consumer-redress route is announced with a dated future delivery start and a bounded acceptance window",
+      "protected_outcome": "A payment may return part of the alleged financial harm to eligible consumers, but amount adequacy and usable receipt are not established",
+      "sacrificed_outcome": "Delayed cash, express fees, subscription burden, effort, and residual loss remain unmeasured at consumer level",
+      "cost_risk_transfer": "The refund route shifts some financial responsibility toward the firm and administrator, while delivery, acceptance, account access, and residual-loss risk remain with consumers until receipt is established",
+      "later_outcome": "The route is not yet an observed payment outcome at the 2026-10-19 checkpoint; delivery, acceptance, return, adequacy, financial recovery, repeat borrowing, trust, switching, and exit remain open",
+      "meaning_and_attribution": "The agency attributes alleged deceptive cash-advance and subscription practices to Cleo AI, but consumer-level fairness, trust, blame, or legitimacy change is not measured",
+      "public_or_collective_response": "FTC enforcement and refund administration are observed; consumer organizing, complaint persistence, and political action are not linked",
+      "counterexample": "A planned aggregate PayPal distribution can coexist with failed delivery, unaccepted payment, account access friction, inadequate amount, or continued financial dependence",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official FTC refund page (https://search.ftc.gov/enforcement/refunds/cleo-ai-refunds), FTC press release dated 2026-10-08 (https://search.ftc.gov/news-events/news/press-releases/2026/10/ftc-returns-more-158-million-consumers-misled-cash-advance-app-company-cleo-ai), and FTC case page (https://www.ftc.gov/legal-library/browse/cases-proceedings/cleo-ai-inc-ftc-v). The public records establish the planned aggregate distribution and dates, not individual delivery, acceptance, adequacy, account correction, or later household outcome",
+      "source_url": "https://search.ftc.gov/enforcement/refunds/cleo-ai-refunds"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FTC-CLEO-AI-A-01",
+      "from": "alleged deceptive cash-advance and subscription practices",
+      "to": "FTC settlement and refund administration",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC case page and press release describe the allegations, $17 million settlement, and refund program",
+      "status": "reported",
+      "counterexample": "The enforcement record does not identify every affected consumer or quantify each person's loss",
+      "remaining_gap": "Consumer-level exposure, loss, fees, cancellation effort, and eligibility"
+    },
+    {
+      "arrow_id": "FTC-CLEO-AI-A-02",
+      "from": "refund eligibility and notification",
+      "to": "PayPal payment delivery",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC says eligible consumers will receive email notification between October 8 and October 26, with PayPal payments beginning October 27, 2026",
+      "status": "reported",
+      "counterexample": "Notification, payment initiation, and successful delivery are separate events and may fail at different stages",
+      "remaining_gap": "Recipient identity, notification receipt, delivery success, bounced or returned payments, and timing"
+    },
+    {
+      "arrow_id": "FTC-CLEO-AI-A-03",
+      "from": "PayPal payment delivery",
+      "to": "payment acceptance or return",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC instructs recipients to accept the payment within 30 days, but the public announcement reports no acceptance or return outcomes",
+      "status": "open",
+      "counterexample": "A delivered payment can remain unaccepted, be returned, or be inaccessible because of account or identity friction",
+      "remaining_gap": "Acceptance, return, account access, identity resolution, and payment date"
+    },
+    {
+      "arrow_id": "FTC-CLEO-AI-A-04",
+      "from": "accepted refund",
+      "to": "financial recovery, continued borrowing, trust, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC refund and case pages provide no recipient-level later household, borrowing, trust, or behavior follow-up",
+      "status": "open",
+      "counterexample": "Receiving a refund does not establish adequacy, restored liquidity, cancellation, or changed reliance on cash-advance products",
+      "remaining_gap": "Individual amount, original loss, adequacy, household recovery, repeat borrowing, trust, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger establishes a dated official consumer-redress offer with a planned aggregate payment and explicit future acceptance window. It does not establish recipient-level delivery, receipt, adequate recovery, account correction, trust, switching, or exit.",
+  "storage_boundary": "Only compact official page-derived fields and source URLs are retained; no recipient identifiers, PayPal data, payment file, or raw personal data is downloaded."
+}

@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-snap-childcare-assistance-work-constraint-2024",
+  "title": "Stable SNAP households show different paid-care, assistance, and work-prevention profiles",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "2025 SIPP public-use person-month slice; November-to-December 2024 SNAP status pairs with annual fall child-care fields",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; November-to-December stable-state comparison",
+      "denominator": {"value": 2646, "unit": "valid person transition pairs for the published stable no-SNAP and stable SNAP comparison; component item universes differ", "value_type": "identified_pair_count"},
+      "measures": {
+        "paid_childcare_no_snap": {"value": 31.0, "unit": "percent of stable no-SNAP pairs", "value_type": "weighted_share"},
+        "paid_childcare_snap": {"value": 23.9, "unit": "percent of stable SNAP pairs", "value_type": "weighted_share"},
+        "childcare_assistance_no_snap": {"value": 5.2, "unit": "percent of stable no-SNAP pairs", "value_type": "weighted_share"},
+        "childcare_assistance_snap": {"value": 14.6, "unit": "percent of stable SNAP pairs", "value_type": "weighted_share"},
+        "care_prevented_work_no_snap": {"value": 3.4, "unit": "percent of stable no-SNAP pairs", "value_type": "weighted_share"},
+        "care_prevented_work_snap": {"value": 7.4, "unit": "percent of stable SNAP pairs", "value_type": "weighted_share"}
+      },
+      "method": "Weighted descriptive SIPP comparison using official labels, 2025 public-use data, WPFINWGT, and Fay-BRR replicate weights; the stable-state comparison is not a program-effect estimate.",
+      "uncertainty": "Stable no-SNAP and stable SNAP counts are 2,295 and 351 respectively; paid-care, assistance, and work-prevention items have different valid universes, and child-care fields describe the annual fall reference period rather than a December outcome.",
+      "subgroup": "Persons in stable November-to-December SNAP status pairs; care fields apply to their published item-specific reference-parent or child-care universes.",
+      "counterinterpretation": "Higher reported assistance and work-prevention constraints among the stable SNAP group may reflect different eligibility, household composition, income, employment, care needs, or ability to purchase care; the comparison does not show SNAP caused the profile.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025-SIPP.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; flags-slice:sha256:59bb128795146c85e1d9ee1565dabd93a85544b721e469ce48f237b3e7a96866",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "The SIPP dictionary defines the child-care payment, assistance, and work-prevention fields and their item-specific universes.", "status": "official-definition"},
+    {"source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025-SIPP.html", "claim": "Official 2025 SIPP public-use dataset and documentation route.", "status": "official-dataset"}
+  ],
+  "boundary": "This is a weighted descriptive bridge between adjacent SNAP status and annual fall child-care measures. It does not establish a SNAP effect, identify notice or application effort, measure care quality or reliability, observe benefit adequacy, or link care constraints to later work, income, child, health, trust, political action, appeal, remedy, or recovery."
+}

@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-hello-digit-redress-payment-notification-2026",
+  "title": "Hello Digit redress moves from automated-savings enforcement to a dated payment-notification stage",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "platforms_data_attention", "public_systems_feedback", "household_room_consumption", "trust_identity_meaning"],
+  "source_unit": "Consumer Financial Protection Bureau Hello Digit enforcement and payment-administration record",
+  "geography": "United States; CFPB enforcement and Civil Penalty Fund administration",
+  "observations": [
+    {
+      "period": "2022-08-10 consent order",
+      "denominator": {"value": 1, "unit": "CFPB Hello Digit enforcement case", "value_type": "named_enforcement_case"},
+      "measures": {
+        "minimum_consumer_redress": {"value": 68145, "unit": "USD; minimum redress required for the overdraft-fee representation violation", "value_type": "reported_order_amount"},
+        "civil_penalty": {"value": 2700000, "unit": "USD; civil penalty", "value_type": "reported_order_amount"},
+        "administrator": {"value": "EPIQ", "unit": "payment administrator", "value_type": "reported_administration_route"}
+      },
+      "method": "Transcribed from the CFPB's official payment-by-case page. The record separates the consent-order obligation and administration route from later notification, payment delivery, receipt, and adequacy.",
+      "uncertainty": "The public page does not identify the eligible-recipient denominator, individual allocation, payment method, amount per person, account correction, or later financial outcome.",
+      "subgroup": "Consumers covered by the CFPB's Hello Digit redress provision; the public record does not publish a stable recipient key.",
+      "counterinterpretation": "A formal redress obligation and administrator can create a reachable remedy route without proving that eligible consumers were identified, paid, or made whole.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/hello-digit/",
+      "retrieval_hash": "sha256:2f8401a13bbba7055c223fb20c2f596103e277e70d7ac8988779836e4f1d5430",
+      "status": "reported"
+    },
+    {
+      "period": "2026-10-15 payment-notification checkpoint",
+      "denominator": {"value": 1, "unit": "CFPB Hello Digit payment-administration case", "value_type": "named_payment_case"},
+      "measures": {
+        "email_notification_date": {"value": "2026-10-15", "unit": "date", "value_type": "reported_payment_stage"},
+        "payment_receipt_verified": {"value": 0, "unit": "recipient-level payment receipt located in the public case record", "value_type": "bounded_non_observation"},
+        "recipient_allocation_published": {"value": 0, "unit": "recipient-level allocation or stable recipient key published in the public case record", "value_type": "bounded_non_observation"}
+      },
+      "method": "Transcribed from the CFPB's current Hello Digit case page, last modified October 15, 2026. The dated email notification is treated as an administration checkpoint, not as payment delivery or acceptance.",
+      "uncertainty": "The page does not state the number of notified recipients, email delivery success, payment date, payment method, individual amount, returned payments, recipient acceptance, or later household recovery.",
+      "subgroup": "Potentially eligible Hello Digit consumers contacted through the EPIQ-administered redress route.",
+      "counterinterpretation": "Notification can be a necessary step toward payment while still leaving delivery, acceptance, adequacy, and account correction unresolved.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/hello-digit/",
+      "retrieval_hash": "sha256:2f8401a13bbba7055c223fb20c2f596103e277e70d7ac8988779836e4f1d5430",
+      "status": "reported"
+    },
+    {
+      "period": "2026-05-29 Civil Penalty Fund allocation; rechecked 2026-10-19",
+      "denominator": {"value": 1, "unit": "CFPB Civil Penalty Fund allocation entry for Hello Digit", "value_type": "named_allocation_case"},
+      "measures": {
+        "allocated_amount": {"value": 38220, "unit": "USD; CFPB-listed allocation to eligible Hello Digit victims", "value_type": "reported_allocation"},
+        "recipient_payment_receipt_verified": {"value": 0, "unit": "recipient-level payment receipt or acceptance record located in the public allocation page", "value_type": "bounded_non_observation"},
+        "account_correction_verified": {"value": 0, "unit": "recipient account correction or residual-loss record located in the public allocation page", "value_type": "bounded_non_observation"}
+      },
+      "method": "Transcribed from the CFPB Civil Penalty Fund page, which lists $38,220 allocated to Hello Digit. The allocation is kept separate from the $68,145 minimum redress obligation, notification, payment delivery, and recipient receipt.",
+      "uncertainty": "The public allocation entry does not identify recipient count, individual amounts, payment date, delivery channel, returned payments, acceptance, adequacy, account correction, or later household outcome.",
+      "subgroup": "Eligible Hello Digit victims within the CFPB Civil Penalty Fund allocation; no stable recipient key is public.",
+      "counterinterpretation": "An agency allocation demonstrates a funding stage but does not establish that the allocated money reached eligible consumers or resolved the underlying overdraft harm.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/civil-penalty-fund/",
+      "retrieval_hash": "sha256:58a2bc0b05b2ce397d25da33420bf93acc516b1eb7fe0ddb764d0147843f6c7b",
+      "status": "reported"
+    },
+    {
+      "period": "2026-10-19 administrator-site access recheck",
+      "denominator": {"value": 1, "unit": "EPIQ Hello Digit administrator public website", "value_type": "named_administrator_route"},
+      "measures": {
+        "public_site_http_status": {"value": 403, "unit": "HTTP response code from a public fetch", "value_type": "access_boundary"},
+        "separate_payment_status_page_located": {"value": 0, "unit": "separate public payment-status page located in the bounded web/search check", "value_type": "bounded_non_observation"}
+      },
+      "method": "Bounded read-only access check of the CFPB-linked administrator domain and exact-domain web search. The result records a technical/public-access boundary, not payment nonoccurrence.",
+      "uncertainty": "A 403 response may reflect bot protection, access controls, or site configuration; it cannot establish whether payments were sent, accepted, returned, or corrected. A private recipient portal or administrator response may contain fields not publicly indexed.",
+      "subgroup": "Potential Hello Digit redress recipients and other parties seeking payment-status information through the EPIQ administrator route.",
+      "counterinterpretation": "An inaccessible public site can coexist with an active payment process; non-observation here is an acquisition limitation rather than evidence of nonpayment.",
+      "source_url": "https://www.cfpb-hellodigit.org/",
+      "retrieval_hash": "sha256:2f8401a13bbba7055c223fb20c2f596103e277e70d7ac8988779836e4f1d5430",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/", "claim": "The CFPB lists Hello Digit among ongoing cases and distinguishes Bureau-administered and Civil Penalty Fund compensation routes.", "status": "primary-context"},
+    {"source_url": "https://www.cfpb-hellodigit.org/", "claim": "The CFPB identifies this as the EPIQ administrator website; a bounded public fetch on 2026-10-19 returned HTTP 403, so no public payment-status content was acquired.", "status": "access-boundary"}
+  ],
+  "boundary": "This record follows a named automated-savings enforcement case through a formal redress obligation and dated payment-notification stage. It does not establish recipient-level payment receipt, adequacy, account correction, repeat exposure, trust, continued use, switching, or exit."
+}

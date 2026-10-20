@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-hospital-price-transparency-warning-letters-2026",
+  "title": "A hospital price-transparency warning can separate CMS compliance from FTC deception risk while patient prices remain unmeasured",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Federal Trade Commission October 5, 2026 hospital price-transparency warning-letter announcement and template",
+  "geography": "United States patients and healthcare-service companies receiving FTC hospital price-transparency warnings",
+  "observations": [
+    {
+      "period": "October 5, 2026 FTC warning-letter action",
+      "denominator": {
+        "value": 24,
+        "unit": "nation's largest healthcare-services companies sent or identified for hospital price-transparency warning letters in the FTC announcement",
+        "value_type": "reported_warning_letter_cohort"
+      },
+      "measures": {
+        "warning_scope": {
+          "value": "letters remind recipients that healthcare-service pricing information must be timely, accurate, and complete; the FTC identifies failures as potentially unfair or deceptive under Section 5",
+          "unit": "reported legal-warning scope",
+          "value_type": "reported_agency_action"
+        },
+        "care_context": {
+          "value": "the warning highlights routine and non-emergency medical care scheduled in advance, where patients may be asked to commit to care without knowing the true price",
+          "unit": "reported patient-decision context",
+          "value_type": "reported_context"
+        },
+        "cms_boundary": {
+          "value": "compliance with CMS hospital price-transparency requirements does not by itself establish compliance with the FTC Act",
+          "unit": "reported regulatory boundary",
+          "value_type": "reported_agency_position"
+        },
+        "consumer_conversion": {
+          "value": "not measured",
+          "unit": "hospital implementation, posted or quoted price completeness, patient bill, out-of-pocket amount, care choice, avoided surprise, affordability, complaint, health outcome, or household recovery",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from the FTC press release and official warning-letter template. Letter count, legal standard, care context, CMS boundary, and patient-facing outcomes are retained as separate stages.",
+      "uncertainty": "The announcement describes warnings and an agency legal position, not an adjudicated finding against each recipient. The public materials do not establish which companies received which letters, implementation, price accuracy, patient-level bills, utilization, affordability, or enforcement outcomes.",
+      "subgroup": "Patients considering routine or non-emergency scheduled care, especially those exposed to incomplete, untimely, or difficult-to-use facility and physician price information.",
+      "counterinterpretation": "Hospitals may publish or provide prices through CMS-compliant systems while still facing usability, service-bundle, payer, physician-fee, or estimate limitations; a warning can change incentives without guaranteeing a comparable or affordable patient price.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-issues-letters-warning-hospitals-against-deceptive-pricing-practices",
+      "retrieval_hash": "sha256:6b713bc1611a948edce79a51dfe73d881abdfad2e1b41caa756aa50ee70a1dfc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Hospital-Letter-Template.pdf",
+      "claim": "The official FTC warning-letter template states the Section 5 legal standard and warns that hospital price information should be timely, accurate, and complete.",
+      "status": "official-warning-template"
+    },
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/warning-letters/337515",
+      "claim": "The FTC warning-letter library records the October 5, 2026 hospital price-transparency warning-letter action.",
+      "status": "official-warning-letter-index"
+    }
+  ],
+  "boundary": "This record advances a bounded hospital-price information-to-regulatory-warning route and distinguishes CMS compliance from FTC Act risk. It does not establish hospital liability, implemented disclosure, patient-level price accuracy, care choice, out-of-pocket cost, affordability, health outcome, household recovery, or durable trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical FTC announcement URL string used as a stable source identifier; official warning-template and warning-letter-index links are retained for reproduction.",
+    "retrieval_hash": "sha256:6b713bc1611a948edce79a51dfe73d881abdfad2e1b41caa756aa50ee70a1dfc",
+    "checked": "2026-10-20"
+  }
+}

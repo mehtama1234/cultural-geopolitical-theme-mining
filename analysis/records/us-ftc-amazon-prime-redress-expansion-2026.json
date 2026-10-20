@@ -54,6 +54,130 @@
       "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement",
       "retrieval_hash": "sha256:c0548182405d7953eb8693caa3a420c55c65508164291639f2514592f0ead0a6",
       "status": "reported"
+    },
+    {
+      "period": "September 9, 2026 court distribution status",
+      "denominator": {
+        "value": null,
+        "unit": "Amazon Prime redress payments issued across automatic and claims-process phases; person-level issued and accepted counts are not reported in the cited table",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "total_amount_issued": {
+          "value": 845207690,
+          "unit": "U.S. dollars issued as of September 9, 2026",
+          "value_type": "court_filing_aggregate"
+        },
+        "total_amount_accepted": {
+          "value": 235464933,
+          "unit": "U.S. dollars accepted as of September 9, 2026",
+          "value_type": "court_filing_aggregate"
+        },
+        "automatic_payout_issued": {
+          "value": 429566794,
+          "unit": "U.S. dollars",
+          "value_type": "court_filing_phase_total"
+        },
+        "automatic_payout_accepted": {
+          "value": 226806791,
+          "unit": "U.S. dollars",
+          "value_type": "court_filing_phase_total"
+        },
+        "claims_process_issued": {
+          "value": 415640896,
+          "unit": "U.S. dollars",
+          "value_type": "court_filing_phase_total"
+        },
+        "claims_process_accepted": {
+          "value": 8658142,
+          "unit": "U.S. dollars",
+          "value_type": "court_filing_phase_total"
+        },
+        "unaccepted_payment_action": {
+          "value": "Payments issued before June 25, 2026 and not accepted by September 15, 2026 would be voided under the approved residual-payout process",
+          "unit": "administrative payment-status rule",
+          "value_type": "court_approved_process"
+        },
+        "potentially_eligible_notice_population": {
+          "value": 12800000,
+          "unit": "more than consumers identified in the court filing's June 14, 2026 notice-stage description",
+          "value_type": "court_filing_aggregate"
+        },
+        "postcard_notices": {
+          "value": 11600000,
+          "unit": "more than postcard notices distributed by June 14, 2026",
+          "value_type": "court_filing_process_count"
+        },
+        "email_notices": {
+          "value": 9300000,
+          "unit": "more than email notices distributed by June 14, 2026",
+          "value_type": "court_filing_process_count"
+        },
+        "claim_forms_submitted": {
+          "value": 2000000,
+          "unit": "nearly claim forms submitted by June 14, 2026",
+          "value_type": "court_filing_process_count"
+        }
+      },
+      "method": "Extraction from the FTC-hosted court filing on residual payouts; issued and accepted dollars are retained by phase and are not converted into recipient-level receipt or adequacy rates.",
+      "uncertainty": "The notice and claim counts describe administrative reach and submitted claims at an earlier checkpoint, not a person-level denominator or successful delivery. The aggregate accepted amount does not disclose how many people accepted payment, why payments were not accepted, whether voided payments were reissued, individual amounts, adequacy, continued Prime use, switching, trust, or household recovery.",
+      "subgroup": "Automatic-payout and claims-process eligible Prime consumers under the settlement; phase totals are not a common person-level denominator.",
+      "counterinterpretation": "A large gap between issued and accepted dollars may reflect timing, payment-channel friction, uncashed checks, or phase composition rather than rejection or remedy failure; the filing does not identify the mechanism at person level.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2123050amazonprimeredressfundorder.pdf",
+      "retrieval_hash": "sha256:44314ebc298815c5055c5968c50d339eff67f7cd827455a1c6529981ad26c7a3",
+      "status": "reported"
+    },
+    {
+      "period": "October 19, 2026 FTC refund-page implementation checkpoint",
+      "denominator": {
+        "value": null,
+        "unit": "Eligible U.S. Prime customers under the revised settlement; recipient count and payment-status microdata are not published",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "automatic_payment_phase": {
+          "value": "Amazon continues automatic refunds through April 2027; no claim, response, or additional form is required",
+          "unit": "official program implementation status",
+          "value_type": "reported_implementation"
+        },
+        "payment_channels": {
+          "value": "Mailed check, PayPal, or Venmo",
+          "unit": "official payment route",
+          "value_type": "reported_process"
+        },
+        "payment_expiry": {
+          "value": 60,
+          "unit": "days after issue date",
+          "value_type": "reported_payment_window"
+        },
+        "eligibility_cap": {
+          "value": 200,
+          "unit": "maximum total U.S. dollars per eligible customer under revised order",
+          "value_type": "reported_payment_cap"
+        },
+        "redress_issued_through_september": {
+          "value": 845,
+          "unit": "more than million U.S. dollars issued to eligible Prime customers by September 2026",
+          "value_type": "agency_reported_aggregate"
+        },
+        "accepted_amount_reconciliation": {
+          "value": "Amazon is to reconcile the exact amount accepted under the settlement by the end of March 2027",
+          "unit": "court-ordered future administrative checkpoint",
+          "value_type": "scheduled_process_step"
+        },
+        "conditional_pro_rata_phase": {
+          "value": "if accepted payments remain below 1 billion U.S. dollars, previously accepting recipients may receive a pro-rata supplemental payment of up to 149 U.S. dollars beginning by the end of April 2027",
+          "unit": "conditional future payment rule",
+          "value_type": "court_ordered_conditional_process"
+        }
+      },
+      "method": "Current FTC Amazon refund page rechecked October 19, 2026; the page is an official program-status and instruction surface, not a recipient-level payment file.",
+      "uncertainty": "The FTC page and revised order expose an aggregate issuance checkpoint and scheduled reconciliation/pro-rata rules, but do not disclose recipient count, delivery, individual acceptance, expiration or reissue outcomes, adequacy, continued Prime use, switching, trust, or household recovery.",
+      "subgroup": "Eligible U.S. Prime customers under the revised settlement, including customers covered by the expanded no-more-than-20-benefits rule.",
+      "counterinterpretation": "Automatic payment and a longer distribution window can reduce claim effort while still leaving delivery, expiration, access, and adequacy uneven across recipients.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/amazon-refunds",
+      "retrieval_hash": "sha256:bbef8267b518ffd0323ff137810ed8051eea15bc5713377e0253f594a791a081",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -61,6 +185,16 @@
       "source_url": "https://www.ftc.gov/enforcement/refunds",
       "claim": "The FTC refund dashboard lists Amazon refunds as an active September 2026 program.",
       "status": "official-program-index"
+    },
+    {
+      "source_url": "https://search.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement",
+      "claim": "The FTC reported more than $845 million issued by September 2026 and described the expanded automatic-payment and conditional supplemental-payment schedule.",
+      "status": "official-press-release"
+    },
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2123050amazonprimeredressfundorder.pdf",
+      "claim": "The revised order requires reconciliation of the amount accepted by the end of March 2027 and conditions a pro-rata supplemental payment on the accepted total.",
+      "status": "federal-court-approved-order"
     }
   ],
   "boundary": "This record adds a current consumer-recourse and platform-governance change: a formal redress process is expanding eligibility and automating delivery. It does not show individual payment receipt, adequacy, cancellation behavior, switching, trust repair, or durable household recovery.",

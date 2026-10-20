@@ -1,28 +1,28 @@
 # Open-middle blocker audit v1
 
-**Checked:** 2026-09-21  
-**Scope:** the 97-ledger broad portfolio
+**Checked:** 2026-10-20
+**Scope:** the 103-ledger broad portfolio
 **Purpose:** identify which missing stages prevent the atlas from becoming a
 same-unit end-to-end account. This is a gap audit, not a recovery estimate.
 
 ## Result
 
-The portfolio has 164 explicitly open arrows. The open arrows do not all mean
+The portfolio has 177 explicitly open arrows. The open arrows do not all mean
 the same thing. A single arrow can name more than one missing field, so the
 categories below overlap and must not be added together.
 
 The communication layer now contains 367 numbered findings, but that larger
 reader does not alter this ledger result: the broad event portfolio now has
-98 ledgers, 302 events, 454 arrows, and 164 open middle-stage arrows.
+103 ledgers, 317 events, 488 arrows, and 177 open middle-stage arrows.
 
 | Open stage family | Open-arrow mentions | What is missing in plain language |
 |---|---:|---|
-| Later outcome or durability | 117 | Did the fix last, or did the problem return? |
-| Trust, meaning, or action | 105 | Did the experience change trust, identity, participation, or behavior? |
-| Alternative, non-use, switching, or exit | 123 | What could the affected unit actually do instead, and did it do so? |
-| Receipt or implementation | 80 | Did the person, household, worker, or customer actually get and use the remedy? |
-| Money, time, or adequacy | 74 | What was the amount, time cost, residual loss, or practical sufficiency? |
-| Unit, denominator, eligibility, or attribution | 66 | Can the result be tied to the same person/account/firm and responsible actor? |
+| Later outcome or durability | 122 | Did the fix last, or did the problem return? |
+| Trust, meaning, or action | 112 | Did the experience change trust, identity, participation, or behavior? |
+| Alternative, non-use, switching, or exit | 133 | What could the affected unit actually do instead, and did it do so? |
+| Receipt or implementation | 85 | Did the person, household, worker, or customer actually get and use the remedy? |
+| Money, time, or adequacy | 79 | What was the amount, time cost, residual loss, or practical sufficiency? |
+| Unit, denominator, eligibility, or attribution | 71 | Can the result be tied to the same person/account/firm and responsible actor? |
 
 ## Where the bottleneck is concentrated
 
@@ -123,7 +123,7 @@ Counts were computed from each ledger's `arrows` array in
 `remaining_gap` field and are intentionally overlapping. The machine-readable
 version is [the open-middle blocker audit JSON](data/us-broad-open-middle-blocker-audit-v1.json).
 The [scope-check script](../scripts/audit_open_middle_blockers.py) independently
-recomputes the 98-ledger, 302-event, 454-arrow, and 164-open-arrow scope and
+recomputes the 102-ledger, 316-event, 484-arrow, and 176-open-arrow scope and
 prints an exploratory phrase screen. Its phrase screen is deliberately not
 used to overwrite the stored family counts, because the calibrated family
 classification and the exploratory token groups are different diagnostics.

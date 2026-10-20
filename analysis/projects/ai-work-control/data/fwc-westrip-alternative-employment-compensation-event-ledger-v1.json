@@ -93,5 +93,11 @@
     }
   ],
   "boundary": "This ledger adds one primary adjudicated case with observed alternative employment, a five-week transition and interim income gap, non-return through compensation in lieu of reinstatement, and an ordered remedy. It does not establish payment receipt, household recovery, durable trust, recurrence, action, switching, or exit.",
-  "storage_boundary": "No claimant file, direct identifier beyond the public case reference, bulk archive, or payment instrument is retained; only bounded primary decision fields, dates, alternative-employment and remedy stages, uncertainty, and open downstream arrows are represented."
+  "storage_boundary": "No claimant file, direct identifier beyond the public case reference, bulk archive, or payment instrument is retained; only bounded primary decision fields, dates, alternative-employment and remedy stages, uncertainty, and open downstream arrows are represented.",
+  "reproduction_audit": {
+    "checked": "2026-10-19",
+    "official_case_search": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders",
+    "result": "The official FWC decision remains the case-specific public record located for Westrip; the recheck found no public payment-compliance filing, receipt record, later employment follow-up, household outcome, or exit record tied to U2023/4269.",
+    "interpretation": "This is a public-observation boundary, not evidence that the ordered compensation was unpaid or that no later outcome occurred."
+  }
 }

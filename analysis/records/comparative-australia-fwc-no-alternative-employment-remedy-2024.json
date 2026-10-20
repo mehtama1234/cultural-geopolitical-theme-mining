@@ -1,0 +1,39 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwc-no-alternative-employment-remedy-2024",
+  "title": "An unsuccessful alternative-employment search can coexist with an ordered remedy and no restored work",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "time_hidden_price", "household_room_consumption", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "Primary Fair Work Commission decision [2024] FWC 3523, IAA work-from-home employment case",
+  "geography": "Australia",
+  "observations": [
+    {
+      "period": "July 8, 2024–January 17, 2025; dismissal, unsuccessful job search, and compensation deadline",
+      "denominator": {"value": 1, "unit": "publicly identified adjudicated worker case; no population denominator", "value_type": "single_public_case"},
+      "measures": {
+        "alternative_employment_search": {"value": "unsuccessful by the hearing", "unit": "reported worker search outcome", "value_type": "observed_case_outcome"},
+        "assessed_lost_income": {"value": 10700, "unit": "Australian dollars for eight weeks before notice-pay deduction", "value_type": "adjudicated_case_measure"},
+        "notice_pay_deduction": {"value": 2, "unit": "weeks of pay deducted from assessed loss", "value_type": "adjudicated_case_measure"},
+        "compensation_order": {"value": 8025, "unit": "Australian dollars gross less tax plus 11.5% superannuation, payable by 2025-01-17", "value_type": "adjudicated_remedy_order"},
+        "reinstatement": {"value": "declined as unworkable after relationship breakdown", "unit": "remedy disposition", "value_type": "adjudicated_case_outcome"},
+        "payment_receipt_and_later_work": {"value": "not observed", "unit": "missing execution, receipt, net recovery, household, and post-order employment evidence", "value_type": "unmeasured"}
+      },
+      "method": "Structured extraction from the primary Fair Work Commission decision and linked order reference; dismissal process, unsuccessful search, assessed income loss, compensation order, and non-reinstatement are kept separate from payment and later recovery.",
+      "uncertainty": "One case cannot estimate dismissal, alternative-work, unemployment, remedy, or payment rates. The public decision does not retain full search intensity, offer set, household effects, health/time costs, payment receipt, later employment, trust, recurrence, or exit.",
+      "subgroup": "One work-from-home employee dismissed during a redundancy-related dispute without meaningful consultation or an opportunity to explore redeployment.",
+      "counterinterpretation": "A worker may actively search without securing acceptable work; an ordered compensation route can recognize lost income while leaving the original job, payment, and durable security unresolved.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2024fwc3523.pdf",
+      "retrieval_hash": "sha256:6186ddccd7880989be02ec2567f724207db6f3f04ba1af163dbf002b1bac0fc4",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders", "claim": "Official Fair Work Commission decision and order search route.", "status": "official-search"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger containing the bounded primary decision extraction.",
+    "access_boundary": "The public decision reports unsuccessful alternative-employment search and an order but no later payment, household recovery, employment, trust, recurrence, action, switching, or exit record."
+  },
+  "boundary": "This record adds one primary adjudicated case with unsuccessful alternative-employment search, assessed income loss, non-reinstatement, and an ordered remedy. It does not establish payment receipt, household recovery, durable work, prevalence, trust, recurrence, collective action, switching, or exit."
+}

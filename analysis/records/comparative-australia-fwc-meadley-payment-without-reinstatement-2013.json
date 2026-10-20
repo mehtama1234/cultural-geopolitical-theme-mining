@@ -1,0 +1,40 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwc-meadley-payment-without-reinstatement-2013",
+  "title": "Compensation payment can be reported while reinstatement and durable recovery fail",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "public_systems_feedback", "trust_identity_meaning", "time_hidden_price", "household_room_consumption"],
+  "source_unit": "Official Fair Work Commission case-example summary of Meadley v Sort Worx Pty Ltd [2013] FCA 1012",
+  "geography": "Australia",
+  "observations": [
+    {
+      "period": "May–October 2013; reinstatement order, reported compensation payment, and Federal Court enforcement",
+      "denominator": {"value": 1, "unit": "publicly summarized adjudicated enforcement case; no population denominator", "value_type": "single_public_case"},
+      "measures": {
+        "original_compensation_order": {"value": 24143.64, "unit": "Australian dollars ordered by the Commission as gross lost remuneration", "value_type": "reported_remedy_order"},
+        "compensation_payment": {"value": "reported paid on 2013-07-05", "unit": "public judgment reports payment to the worker; payment instrument and independent worker confirmation not retained", "value_type": "dated_reported_received"},
+        "reinstatement": {"value": "not implemented", "unit": "employment restoration endpoint", "value_type": "reported_nonimplementation"},
+        "further_court_award": {"value": 15045, "unit": "Australian dollars plus interest awarded by the Federal Court", "value_type": "reported_court_remedy"},
+        "penalty": {"value": 10000, "unit": "Australian dollars imposed by the Federal Court", "value_type": "reported_court_penalty"},
+        "later_employment_and_household_recovery": {"value": "not observed", "unit": "missing later work, household, trust, recurrence, and exit outcomes", "value_type": "unmeasured"}
+      },
+      "method": "Structured extraction from the official Fair Work Commission case-example page and benchbook context, cross-checked against a public reproduction of Federal Court judgment [2013] FCA 1012; dated compensation payment, failed reinstatement, enforcement action, additional award, and penalty are retained as separate stages.",
+      "uncertainty": "The public judgment supplies the payment date and amount but is not a payment-instrument audit or claimant follow-up; the public record does not establish later employment, household recovery, trust, recurrence, or exit. One case cannot estimate remedy implementation, enforcement access, payment, reinstatement, or recovery rates.",
+      "subgroup": "One publicly summarized unfair-dismissal enforcement case involving Meadley v Sort Worx Pty Ltd [2013] FCA 1012.",
+      "counterinterpretation": "Reported monetary payment can coexist with failed reinstatement, unrecovered opportunity, enforcement delay, and unknown household effects; money received is not equivalent to restored work or durable recovery.",
+      "source_url": "https://www.fwc.gov.au/role-court-unfair-dismissal-cases",
+      "retrieval_hash": "sha256:c25f96f40051e3ef1eb94cbff23bfb0588b5c474a1164f876757f49854005f7c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders", "claim": "Official Fair Work Commission decision and order search route.", "status": "official-search"},
+    {"source_url": "https://www.casechat.au/cases/au/meadley-v-sort-worx-pty-ltd", "claim": "Public reproduction of Federal Court judgment [2013] FCA 1012 supplies the 5 July 2013 payment date, exact $24,143.64 payment, contract-loss context, and non-reinstatement choice.", "status": "public-judgment-reproduction", "access_boundary": "The reproduction is used as a public text route to the judgment; it does not supply independent claimant confirmation or later recovery outcomes."}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger that transcribes the official institutional case-example route.",
+    "access_boundary": "The public follow-up reports payment and non-reinstatement but does not expose a payment instrument, independent worker confirmation, later employment, household recovery, trust, recurrence, or exit record."
+  },
+  "boundary": "This record demonstrates a dated, publicly reported compensation payment without reinstatement, followed by additional court relief and penalty. It does not establish independent receipt verification, restored opportunity, adequate recovery, general enforcement performance, recurrence, trust change, collective action, or exit."
+}

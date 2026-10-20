@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-skyfortress-test-deployment-2026",
+  "title": "Lithuania moves SkyFortress from Ukrainian test-system adoption into planned deployment before detection performance is known",
+  "theme_ids": ["energy", "work", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of SkyFortress test-system deployment",
+  "geography": "Lithuania; national airspace-surveillance and counter-drone system",
+  "observations": [
+    {
+      "period": "October 2, 2026; test-system deployment announcement",
+      "denominator": {
+        "value": 1,
+        "unit": "named SkyFortress test airspace-surveillance system",
+        "value_type": "official_test_system_count"
+      },
+      "measures": {
+        "deployment_stage": {"value": "Lithuania will install Ukraine's test SkyFortress airspace-surveillance system", "unit": "reported deployment stage", "value_type": "ministry_reported_deployment"},
+        "detection_route": {"value": "acoustic and radio-frequency signatures used to classify low-flying objects in real time", "unit": "reported technical mechanism", "value_type": "ministry_reported_mechanism"},
+        "ai_function": {"value": "AI-assisted detection and tracking of low-flying drones or cruise missiles described by the ministry", "unit": "official system description", "value_type": "ministry_reported_function"},
+        "contract_support": {"value": "sensor-data processing, non-classified acoustic and radio-frequency signature libraries, and personnel training included", "unit": "reported contract scope", "value_type": "ministry_reported_support"},
+        "test_objective": {"value": "testing will determine the system's capacity to detect and identify low-flying UAVs in Lithuania", "unit": "stated validation objective", "value_type": "planned_test"},
+        "validated_performance_and_effect": {"value": "not observed", "unit": "missing installation completion, coverage, detection rate, false positives, identification accuracy, uptime, interoperability, training completion, warning, interception, civilian protection, deterrence, and public legitimacy", "value_type": "unmeasured"},
+        "mechanism": {"value": "A named test deployment creates a possible surveillance input into the air-defence chain, but planned installation and testing are not validated detection or demonstrated protection.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Lithuanian Ministry of National Defence announcement. Deployment, technical route, contract support, test objective, and unmeasured performance and downstream effects are coded as separate stages.",
+      "uncertainty": "The announcement does not provide installation date, sensor count, sites, coverage, detection or false-positive rates, identification accuracy, uptime, integration, training completion, response use, civilian protection, deterrence, or public judgment.",
+      "subgroup": "Lithuanian defense and airspace institutions, Ukrainian technology partners, personnel assigned to the system, allied air-defence operators, and civilians within potential coverage; no affected-person denominator is supplied.",
+      "counterinterpretation": "A test system may improve surveillance learning and use Ukrainian battlefield experience, while false positives, limited coverage, integration costs, and unvalidated performance can leave protection and public confidence unresolved.",
+      "source_url": "https://kam.lt/en/lithuania-deploys-ukrainian-skyfortress-acoustic-drone-detection-system/",
+      "retrieval_hash": "sha256:95baacdccbdd3b5552e19f3466a9eaa5a94789c1cbfc7fd1ba4098595fad56b5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a reported plan to install and test a named Ukrainian SkyFortress airspace-surveillance system in Lithuania. It does not establish installation completion, validated performance, operational integration, warning or interception, civilian protection, deterrence, or public legitimacy.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the Lithuanian Ministry of National Defence source; system telemetry, test logs, training records, and operational incident data are not retained."
+  }
+}

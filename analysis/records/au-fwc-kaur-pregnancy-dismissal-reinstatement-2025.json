@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-fwc-kaur-pregnancy-dismissal-reinstatement-2025",
+  "title": "Pregnancy-linked work interruption can produce a quantified reinstatement order while durable restoration remains unverified",
+  "theme_ids": [
+    "work",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Fair Work Commission decision [2025] FWC 3646 concerning Kaur v Adecco Industrial Australia Pty Ltd",
+  "geography": "Australia; Amazon-site labour-supply employment and Fair Work Commission proceeding",
+  "observations": [
+    {
+      "period": "Pregnancy disclosure through December 19, 2025; work interruption, alternative employment, worker response, and remedy deadline",
+      "denominator": {
+        "value": 1,
+        "unit": "publicly adjudicated worker case",
+        "value_type": "case_count"
+      },
+      "measures": {
+        "work_interruption": {
+          "value": "After pregnancy disclosure and lifting restrictions, regular shifts and training were withdrawn and employment was placed on hold; the Commission found the dismissal unfair",
+          "unit": "reported employment sequence",
+          "value_type": "observed_case_sequence"
+        },
+        "prior_work_and_loss": {
+          "value": "The worker had regular full-time hours and an average prior earning rate of $1,426 per week; regular work and expected wages were interrupted",
+          "unit": "reported employment and earnings context",
+          "value_type": "reported_case_measure"
+        },
+        "worker_response_and_alternative": {
+          "value": "The worker pushed back by SMS and email, requested accommodation or training, filed the application, and worked for another employer for two weeks during the lost-remuneration period",
+          "unit": "reported response and bounded alternative-work sequence",
+          "value_type": "observed_case_sequence"
+        },
+        "remedy_order": {
+          "value": "The Commission ordered reinstatement to the former position with continuity by December 19, 2025 and payment of $14,830.40 less tax plus superannuation",
+          "unit": "adjudicated remedy order",
+          "value_type": "observed_remedy_order"
+        },
+        "receipt_and_durability": {
+          "value": "not observed",
+          "unit": "missing payment receipt, payroll evidence, actual reinstatement, shifts worked, recurrence, later employment, household recovery, trust, and exit",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "A pregnancy-linked interruption can be legally corrected with a quantified reinstatement and lost-pay order while the worker's actual return, payment receipt, and durable work security remain separate open stages",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from the official Fair Work Commission decision; pregnancy disclosure, work interruption, worker response, alternative employment, quantified remedy, and open implementation are kept separate.",
+      "uncertainty": "The decision is a selected adjudicated case, not a prevalence estimate. It does not retain private claimant, payroll, medical, household, alternative-job, or post-deadline compliance records.",
+      "subgroup": "One worker in an Australian labour-supply employment case involving pregnancy and lifting restrictions; no comparison group or population denominator is supplied.",
+      "counterinterpretation": "A temporary hold may be described by the employer as an accommodation or safety process, and taking another job does not establish equivalent pay, commute, choice, or durability; formal remedy is not verified restoration.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3646.pdf",
+      "retrieval_hash": "sha256:d8ad3fb4c3fde5753e54c6612a0cdaa3acbe99211bccdb7c9cb39ac43760c5ef",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes one adjudicated case from pregnancy-linked work interruption through bounded alternative employment, worker action, and quantified institutional remedy. It does not establish post-order implementation, payment receipt, restored work, discrimination prevalence, household recovery, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the public FWC decision; claimant, payroll, medical, household, and compliance files are not retained.",
+    "checked": "2026-10-20"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "record_id": "atlas-batch-0088-cfpb-credit-card-complaints-2026-reddit-001",
+  "atlas_record_ids": ["us-cfpb-credit-card-complaint-routes-2026-ytd"],
+  "topic": "consumer-power-recourse",
+  "platform": "reddit",
+  "item_type": "lived_complaint_and_reported_resolution",
+  "author_or_account": "r/biltrewards participant",
+  "title": "PSA: File complaint to CFPB",
+  "canonical_url": "https://www.reddit.com/r/biltrewards/comments/1uelcxg/psa_file_complaint_to_cfpb/",
+  "published_window": "2026-06",
+  "retrieved": "2026-10-20",
+  "discussion_signal": "A participant reports filing a CFPB complaint after a Bilt/Cardless dispute and says the dispute was resolved after the complaint. This is a lived account of escalation and reported resolution, not independently verified payment, correction, adequacy, or a representative outcome.",
+  "research_anchor_paths": ["analysis/records/us-cfpb-credit-card-complaint-routes-2026-ytd.json"],
+  "linked_research_question": "When a cardholder escalates a billing or account problem through the CFPB, what part of the administrative response becomes usable correction, and what remains unverified?",
+  "classification": ["lived_example", "remedy_route", "governance", "trust"],
+  "limits": ["Self-report is not independent verification", "One complaint cannot estimate route effectiveness", "The post does not disclose the original amount, company response, timing, residual loss, or later account use"]
+}

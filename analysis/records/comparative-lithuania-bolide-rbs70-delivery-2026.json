@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-bolide-rbs70-delivery-2026",
+  "title": "Lithuania converts a Bolide/RBS-70 contract into reported air-defence delivery before firing readiness or protection is visible",
+  "theme_ids": ["cost", "work", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of Bolide missile delivery for the RBS-70 system",
+  "geography": "Lithuania; Lithuanian Air Defence Battalion and RBS-70 short-range air-defence system",
+  "observations": [
+    {
+      "period": "June 12, 2026; early-June delivery announcement",
+      "denominator": {
+        "value": 1,
+        "unit": "named Bolide/RBS-70 delivery milestone",
+        "value_type": "official_delivery_milestone"
+      },
+      "measures": {
+        "receipt_stage": {"value": "Lithuania received a delivery of Bolide missiles for the RBS-70 man-portable short-range anti-aircraft system", "unit": "reported physical receipt", "value_type": "ministry_reported_delivery"},
+        "delivery_value": {"value": 7000000, "unit": "euros; reported value of the delivered equipment", "value_type": "ministry_reported_delivery_value"},
+        "manufacturer": {"value": "Sweden's Saab Dynamics AB", "unit": "named manufacturer", "value_type": "ministry_reported_supplier"},
+        "system_and_user": {"value": "RBS-70 system used by the Lithuanian Air Defence Battalion", "unit": "reported platform and institutional link", "value_type": "ministry_reported_system_link"},
+        "technical_description": {"value": "laser-guided Bolide missile described as effective up to 9 km and resistant to electronic jamming", "unit": "official capability description", "value_type": "ministry_stated_capability"},
+        "supply_contract": {"value": 320000000, "unit": "euros; over this amount reported for a 2025 contract intended to ensure supply during 2026–2032", "value_type": "ministry_reported_future_contract"},
+        "readiness_and_effect": {"value": "not observed", "unit": "missing quantity, acceptance, allocation, crew training, maintenance, firing readiness, operational use, future replenishment, interception, civilian protection, deterrence, and public judgment", "value_type": "unmeasured"},
+        "mechanism": {"value": "A delivered missile replenishes a named short-range air-defence system and creates a supply-continuity pathway, but delivery and technical specifications are not firing readiness or demonstrated protection.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Lithuanian Ministry of National Defence delivery announcement. Receipt, value, manufacturer, system link, technical description, future contract, and unmeasured readiness and effects are coded as separate stages.",
+      "uncertainty": "The announcement does not disclose missile quantity, lot, acceptance records, allocation, crew training, maintenance, firing readiness, future delivery performance, operational use, interception, or strategic effect.",
+      "subgroup": "Lithuanian Air Defence Battalion and crews, Saab Dynamics and defense suppliers, allied air-defence institutions, and civilians potentially covered by the system; no affected-person denominator is supplied.",
+      "counterinterpretation": "The delivery may improve stockpile continuity and future air-defence capacity, while stored equipment can remain unused or generate fiscal, maintenance, escalation, and civilian-risk costs not measured by the official account.",
+      "source_url": "https://kam.lt/en/further-enhancement-of-air-defence-new-delivery-of-the-bolide-missiles/",
+      "comparison_source_url": "https://kam.lt/en/lithuania-continues-strengthening-air-defence-with-the-latest-purchase-of-bolide-missiles/",
+      "retrieval_hash": "sha256:1e447eaa50bd2c9af213a9f9a35a5f12aefaa6408f24d46e25285b4d9e4a02dc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a reported Bolide missile delivery for Lithuania's RBS-70 system, a €7 million delivery value, Saab Dynamics as manufacturer, and a broader supply contract. It does not establish quantity, acceptance, training, firing readiness, operational use, replenishment, interception, deterrence, civilian protection, or public legitimacy.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the Lithuanian Ministry of National Defence source; contract files, inventory records, training logs, and operational-use data are not retained."
+  }
+}

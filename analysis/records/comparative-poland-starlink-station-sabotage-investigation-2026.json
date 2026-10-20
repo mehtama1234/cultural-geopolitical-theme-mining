@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-poland-starlink-station-sabotage-investigation-2026",
+  "title": "A named satellite-infrastructure sabotage incident reaches multinational arrest without a completed security outcome",
+  "theme_ids": ["voice", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "time_hidden_price"
+  ],
+  "source_unit": "Polish Ministry of Interior and Administration account of the Wola Krobowska Starlink-station sabotage investigation",
+  "geography": "Wola Krobowska, Mazowieckie, Poland; suspect arrests in Germany; European law-enforcement cooperation",
+  "observations": [
+    {
+      "period": "September 23–October 12, 2026 suspected sabotage and multinational arrest response",
+      "denominator": {
+        "value": 1,
+        "unit": "named Starlink ground-station infrastructure sabotage investigation",
+        "value_type": "official_security_episode"
+      },
+      "measures": {
+        "incident": {"value": "intentional fire affecting infrastructure associated with a Starlink base station in Wola Krobowska on September 23", "unit": "reported incident condition", "value_type": "agency_reported_incident"},
+        "suspects_arrested": {"value": 2, "unit": "Turkish nationals suspected by Polish authorities and arrested in Germany", "value_type": "agency_reported_arrest_count"},
+        "institutional_response": {"value": "Polish Police, Internal Security Agency, prosecutors, European Arrest Warrants, and European partners' operational cooperation", "unit": "reported investigative and cross-border response", "value_type": "agency_reported_response"},
+        "official_attribution": {"value": "Polish ministers publicly attributed the sabotage to Russian services; final judicial attribution is not observed", "unit": "official allegation", "value_type": "unadjudicated_attribution"},
+        "service_and_security_outcome": {"value": "not observed", "unit": "missing damage assessment, outage duration, repair, service-user effect, prosecution result, conviction, recurrence, deterrence, and public confidence", "value_type": "unmeasured"},
+        "mechanism": {"value": "A critical-infrastructure incident can move from physical harm through evidence preparation and cross-border enforcement, but arrest is an institutional response stage rather than proof of restored service, final culpability, or deterrence.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Polish Ministry of Interior and Administration announcement. Incident, suspects, evidence preparation, warrants, arrests, official attribution, and later service/security outcomes are coded as separate stages.",
+      "uncertainty": "The account does not publish technical damage, outage duration, customer or firm exposure, evidence details, extradition status, court findings, final attribution, or whether the incident altered future attack behavior.",
+      "subgroup": "Users and operators of the named satellite-communications infrastructure, Polish and European security institutions, and firms or public bodies dependent on the service; no affected-user denominator is supplied.",
+      "counterinterpretation": "Rapid evidence preparation and arrests may demonstrate effective cross-border enforcement, while the same incident can reveal exposure, impose unmeasured service and security costs, and leave deterrence and recurrence unresolved.",
+      "source_url": "https://www.gov.pl/web/mswia/zatrzymanie-sprawcow-podpalenia-stacji-starlink-na-mazowszu-skuteczna-akcja-mswia-policji-i-abw",
+      "retrieval_hash": "sha256:f5db28cc631d017adcc980f8da535827bbe08392621aa04c76cd3cd448f86d39",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.pl/web/obrona-narodowa/komunikat-mon43", "claim": "A separate Polish Defence Ministry communication addresses a contemporaneous Lithuanian drone incident and a requested radar analysis; it is not evidence of the Starlink incident's attribution or outcome.", "status": "related-context"}
+  ],
+  "boundary": "This record establishes an official account of a named Starlink-station sabotage allegation, Polish evidence preparation, European Arrest Warrants, and arrests in Germany. It does not establish final guilt, Russian state responsibility, technical damage, service restoration, victim impact, recurrence, deterrence, or public trust change.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the official Polish ministry source; investigative files, service telemetry, and court records are not retained."
+  }
+}

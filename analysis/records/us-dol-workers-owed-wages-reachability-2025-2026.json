@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-dol-workers-owed-wages-reachability-2025-2026",
+  "title": "Recovered wages can remain practically unreachable when worker location, identity, claim effort, and payment access are unresolved",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "U.S. Department of Labor Wage and Hour Division Workers Owed Wages public recovery route",
+  "geography": "United States; DOL Wage and Hour Division",
+  "observations": [
+    {
+      "period": "Current Workers Owed Wages route checked September 19, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "workers for whom WHD recovered unpaid wages; no public episode denominator or same-worker outcome panel",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "institutional_recovery": {"value": "WHD may recover unpaid wages and hold them while attempting to locate and notify the worker", "unit": "reported agency recovery route", "value_type": "reported_remedy_route"},
+        "claim_requirements": {"value": "worker searches the system, verifies identity, supplies contact information, signs a claim form, uploads documents, and uses the payment route", "unit": "reported recipient-side process", "value_type": "reported_claim_requirement"},
+        "holding_period": {"value": 3, "unit": "years wages are held while WHD attempts to locate an employee before remaining funds go to Treasury", "value_type": "reported_holding_period"},
+        "worker_receipt": {"value": "not observed", "unit": "missing location, notice receipt, claim effort, payment date, cashing, fees, adequacy, household effect, later work, trust, recurrence, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "Institutional recovery can be complete in agency custody while remaining practically unusable to a worker who cannot be located, notified, verified, or reached through payment", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from official DOL Workers Owed Wages page and claim instructions; agency recovery, search/notice, worker claim requirements, holding period, and missing recipient outcomes are kept separate.",
+      "uncertainty": "The public route does not identify worker, amount, address history, notice delivery, claim effort, identity documents, payment date, cashing, fees, adequacy, household effect, later work, trust, recurrence, or exit.",
+      "subgroup": "Workers for whom WHD recovered unpaid wages; no public worker-level, employer-level, wage-loss, demographic, or payment outcome subgroup is supplied.",
+      "counterinterpretation": "A searchable route and three-year holding period can preserve a meaningful claim opportunity, but they do not show that a worker knew about, could complete, or could use the route.",
+      "source_url": "https://www.dol.gov/agencies/whd/wow",
+      "retrieval_hash": "sha256:91b1114552f8db8cce6634a7cf634f0ff9a8a32637e8d522f79b08e17526804d",
+      "status": "reported"
+    },
+    {
+      "period": "Electronic-payment transition beginning October 1, 2025; instructions checked September 19, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "workers receiving or expecting back wages through WOW; recipient-level transition denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "payment_channel": {"value": "electronic payments replaced the prior paper-check route for the described transition", "unit": "reported payment-channel change", "value_type": "reported_administrative_change"},
+        "digital_identity_requirements": {"value": "contact information, signed claim form, login.gov access, and identity documentation are required before processing", "unit": "reported recipient process", "value_type": "reported_claim_requirement"},
+        "processing_expectation": {"value": "approximately six weeks after claim submission", "unit": "reported processing expectation", "value_type": "reported_processing_time"},
+        "payment_completion": {"value": "not observed", "unit": "missing update completion, claim acceptance, electronic delivery, cashing, fees, adequacy, household relief, and later work", "value_type": "unmeasured"},
+        "mechanism": {"value": "Electronic delivery may standardize payment for workers with stable digital access while transferring contact, documentation, login, and account-readiness risk to recipients", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from current official DOL Workers Owed Wages payment instructions; channel transition and recipient requirements are retained separately from successful completion and receipt.",
+      "uncertainty": "The guidance does not provide a recipient-level transition denominator, paper-check failure rate, update effort, claim submission, payment date, delivery, cashing, fee, adequacy, household effect, or later work outcome.",
+      "subgroup": "Workers moving from paper-check to electronic WOW payment instructions; no subgroup outcome by digital access, identity documentation, geography, age, or disability is published.",
+      "counterinterpretation": "Electronic payment can be easier for one worker and a barrier for another; the route description cannot identify which experience occurred.",
+      "source_url": "https://www.dol.gov/agencies/whd/wow",
+      "retrieval_hash": "sha256:91b1114552f8db8cce6634a7cf634f0ff9a8a32637e8d522f79b08e17526804d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes an institutional wage-recovery and reachability architecture. It does not establish worker-level payment, adequacy, household recovery, trust, durable security, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from official DOL Workers Owed Wages pages; worker, wage, claim, identity, bank, and restricted data are not retained.",
+    "checked": "2026-10-20"
+  }
+}

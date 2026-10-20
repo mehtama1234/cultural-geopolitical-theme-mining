@@ -1,58 +1,58 @@
 {
   "schema": "us-broad-event-ledger-portfolio-summary-v1",
-  "checked": "2026-09-20",
+  "checked": "2026-10-19",
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Compact audit of the canonical real broad event-ledger portfolio; counts describe retained artifacts and do not pool units, denominators, or causal effects.",
   "totals": {
-    "ledgers": 98,
-    "events": 302,
-    "arrows": 454
+    "ledgers": 103,
+    "events": 317,
+    "arrows": 488
   },
   "events_by_domain": {
     "civic_political_action": 6,
     "cultural_social_capacity": 4,
-    "consumer_financial_recourse": 68,
+    "consumer_financial_recourse": 71,
     "consumer_insurance_recourse": 4,
     "consumer_worker_remedy": 2,
     "consumer_household_institutional_followup": 1,
     "disaster_public_investment_capacity": 5,
     "disaster_public_system_delivery": 8,
     "disaster_recovery_cross_source": 2,
-    "employment_remedy": 45,
+    "employment_remedy": 47,
     "health_cost_material_time": 10,
     "health_cost_recourse": 98,
     "household_financial_adaptation": 2,
-    "infrastructure_state_power": 14,
-    "infrastructure_technology_dependency": 9,
+    "infrastructure_state_power": 15,
+    "infrastructure_technology_dependency": 16,
     "migration_place_nonuse": 1,
     "owner_household_business_tradeoff": 1,
     "platform_worker_recourse": 10,
     "product_safety_recourse": 6,
-    "public_assistance": 6
+    "public_assistance": 8
   },
   "event_evidence_status": {
     "estimated": 19,
-    "observed": 170,
-    "reported": 113
+    "observed": 172,
+    "reported": 126
   },
   "arrow_status": {
     "estimated": 22,
     "observed": 78,
-    "open": 164,
-    "reported": 190
+    "open": 177,
+    "reported": 211
   },
   "event_units": {
-    "case": 228,
+    "case": 234,
     "consumer": 1,
     "country": 1,
-    "institution": 22,
+    "institution": 24,
     "product": 8,
     "firm": 1,
-    "project": 7,
+    "project": 12,
     "household": 3,
     "person": 5,
-    "worker": 26
+    "worker": 28
   },
-  "interpretation_boundary": "The portfolio is structurally strongest in administrative case rows and formal institutional records. Event evidence_status is not a causal-strength score, and arrow counts do not imply that the same unit travels through the portfolio. The 164 open arrows are explicit unresolved links, not missing rows to be silently filled by inference.",
+  "interpretation_boundary": "The portfolio is structurally strongest in administrative case rows and formal institutional records. Event evidence_status is not a causal-strength score, and arrow counts do not imply that the same unit travels through the portfolio. The 176 open arrows are explicit unresolved links, not missing rows to be silently filled by inference.",
   "storage_boundary": "This summary is derived from the committed index and ledgers only; no raw respondent, complaint, payment-card, administrative, or restricted file is added."
 }

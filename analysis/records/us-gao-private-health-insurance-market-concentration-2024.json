@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-private-health-insurance-market-concentration-2024",
+  "title": "Private health-insurance enrollment concentration can narrow issuer choice while premium and care effects remain unmeasured",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108927 review of private health-insurance market concentration from 2011 through 2024",
+  "geography": "United States individual, small-group, large-group, and individual-exchange private health-insurance markets across states and the District of Columbia",
+  "observations": [
+    {
+      "period": "2011–2024 enrollment series and October 16, 2026 GAO report",
+      "denominator": {
+        "value": 51,
+        "unit": "states and the District of Columbia examined for issuer enrollment concentration",
+        "value_type": "reported_geographic_cohort"
+      },
+      "measures": {
+        "concentration_definition": {
+          "value": "GAO considers a state market concentrated when three or fewer issuers hold at least 80 percent of enrollment",
+          "unit": "reported market-concentration threshold",
+          "value_type": "reported_definition"
+        },
+        "2024_concentration": {
+          "value": "three or fewer issuers held at least 80 percent of enrollment for the individual and employer-group markets in at least 36 states",
+          "unit": "reported state-market concentration finding",
+          "value_type": "reported_market_share_comparison"
+        },
+        "individual_market_trajectory": {
+          "value": "individual-market concentration generally increased from 2011 through 2024, peaked in 2019, and became slightly less concentrated afterward",
+          "unit": "reported enrollment-concentration trend",
+          "value_type": "reported_time_series"
+        },
+        "exchange_trajectory": {
+          "value": "individual exchanges were concentrated in 47 states in 2015, peaked at 51 states in 2020, and were concentrated in 49 states in 2024",
+          "unit": "reported states and District of Columbia with three-or-fewer issuer concentration",
+          "value_type": "reported_exchange_series"
+        },
+        "market_scope": {
+          "value": "GAO examined individual, small-group, large-group, and individual-exchange markets using issuer enrollment data from 2011 through 2024",
+          "unit": "reported market coverage",
+          "value_type": "reported_data_scope"
+        },
+        "consumer_conversion": {
+          "value": "not measured",
+          "unit": "issuer choice, premiums, plan quality, provider access, claims, medical care, employer wages, household burden, or health outcomes",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-108927, based on enrollment data issuers reported to CMS, state enrollment data collected by GAO for 2015–2017, and prior GAO analyses presented as a 2011–2024 series. Concentration definition, state-market share, individual and exchange trajectories, market scope, and consumer outcomes are retained as separate stages.",
+      "uncertainty": "Enrollment concentration is an indicator of issuer market structure, not a direct estimate of competition, premiums, network quality, provider access, or health outcomes. The state-level analysis does not establish effects for every enrollee, employer, plan, or local insurance market, and small changes in issuer counts do not by themselves show improved consumer welfare.",
+      "subgroup": "People buying individual coverage, workers and dependents in small- and large-group plans, employers, health-care providers, and households with different state-market and plan-choice conditions.",
+      "counterinterpretation": "Concentration can reflect scale economies, insurer entry and exit, risk-pool conditions, or plan differentiation; individual-exchange concentration eased after 2020, and a concentrated enrollment market may still contain meaningful plan, network, subsidy, or regulated-choice differences.",
+      "source_url": "https://www.gao.gov/products/gao-27-108927",
+      "retrieval_hash": "sha256:2a770081d9dd0db2d735d8899873453381123cfbdfb355c00f45bdddfff97a96",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108927/index.html",
+      "claim": "The official accessible report contains the market-concentration definition, 2011–2024 enrollment series, and individual-exchange comparison.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108927/interactive-graphic.html",
+      "claim": "The official interactive graphic provides the state-level concentration comparison described by GAO.",
+      "status": "official-interactive"
+    }
+  ],
+  "boundary": "This record advances a bounded private-health-insurance enrollment-concentration route. It does not establish issuer choice loss for individual consumers, premium effects, plan quality, provider access, claims, medical care, employer wages, household burden, or health outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and interactive graphic links are retained for reproduction.",
+    "retrieval_hash": "sha256:2a770081d9dd0db2d735d8899873453381123cfbdfb355c00f45bdddfff97a96",
+    "checked": "2026-10-20"
+  }
+}

@@ -13,6 +13,7 @@ QUEUE = ROOT / "analysis" / "social-discussions" / "full-atlas-coverage.json"
 ATLAS = ROOT / "analysis" / "records"
 PLATFORMS = ("youtube", "reddit", "linkedin", "x")
 TERMINAL = {"augmented", "documented_access_gap", "not_socially_applicable"}
+PLATFORM_TERMINAL = {"augmented", "documented_access_gap", "not_socially_applicable"}
 
 
 def main() -> int:
@@ -35,6 +36,12 @@ def main() -> int:
             item = row["platforms"][platform]
             if not item.get("query"):
                 errors.append(f"{row.get('atlas_record_id')}/{platform}: missing query")
+            if item.get("status") not in PLATFORM_TERMINAL:
+                errors.append(f"{row.get('atlas_record_id')}/{platform}: non-terminal platform status")
+            if not item.get("retrieved"):
+                errors.append(f"{row.get('atlas_record_id')}/{platform}: missing retrieval date")
+            if not item.get("result_or_gap"):
+                errors.append(f"{row.get('atlas_record_id')}/{platform}: missing result_or_gap")
         if row.get("status") in TERMINAL and not row.get("terminal_reason"):
             errors.append(f"{row.get('atlas_record_id')}: terminal row lacks terminal_reason")
     if errors:

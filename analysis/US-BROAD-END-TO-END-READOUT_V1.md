@@ -93,10 +93,10 @@ institution controlling access.
 
 ## Latest end-to-end checkpoint
 
-The current event-ledger portfolio passes its structural checks: **98 ledgers,
-302 events, and 454 typed arrows**, with **164 arrows still explicitly open**
-at a middle or later stage. Of the 302 events, 85 have an explicit remedy
-stage, 34 are marked as institution-reported received, and none is independently
+The current event-ledger portfolio passes its structural checks: **102 ledgers,
+315 events, and 483 typed arrows**, with **176 arrows still explicitly open**
+at a middle or later stage. Of the 315 events, 90 have an explicit remedy
+stage, 37 are marked as institution-reported received, and none is independently
 verified as recipient receipt or durable recovery in the portfolio audit. These
 are coverage counts, not success or failure rates.
 
@@ -1290,7 +1290,7 @@ These are real bridges, but each closes only part of the full chain:
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
 - **Remedy visibility is still not remedy recovery:** across the current 97
-retained event ledgers and 302 events, 85 events carry an explicit remedy
+retained event ledgers and 312 events, 88 events carry an explicit remedy
   stage; 34 are marked as reported received, but none has verified recipient
   receipt, verified durability, or a defined outcome follow-up in the portfolio
   audit. In rough portfolio terms, that is about 28.1% with an explicit remedy

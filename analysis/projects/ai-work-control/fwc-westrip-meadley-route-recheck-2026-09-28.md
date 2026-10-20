@@ -1,6 +1,6 @@
 # Fair Work Commission route recheck: Westrip and Meadley
 
-**Checked:** 2026-09-28  
+**Checked:** 2026-10-20
 **Purpose:** compare the two closest retained public employment-remedy cases
 against the broad end-to-end promotion gate.
 
@@ -18,15 +18,24 @@ and later recovery, meaning, action, or exit.
 ## Evidence check
 
 The primary Westrip decision orders the employer to pay **$3,744 gross less
-tax** within 21 days. It records that the worker obtained another job and did
-not seek reinstatement, but it does not record payment execution or receipt.
-The current public search surfaced the decision and secondary reproductions,
-not a payment instrument, compliance filing, or later worker follow-up.
+tax** within 21 days. It records that the worker obtained another job beginning
+13 June 2023, did not seek reinstatement, and earned slightly more in the new
+role, but it does not record payment execution or receipt.
 
-The Fair Work Commission's Meadley case summary reports that the company paid
+On 2026-10-20, a targeted search of the official FWC decision/order route, the
+case identifier **U2023/4269**, the applicant and respondent names, and the
+decision citation found no public payment instrument, compliance filing,
+reissue, enforcement proceeding, or later worker follow-up tied to this case.
+The search found no official source that upgrades the compensation order to
+verified receipt. This is an observation boundary, not evidence of nonpayment.
+
+The Fair Work Commission's current Meadley case summary reports that the company paid
 the compensation but did not reinstate the worker, after which the worker
 sought court enforcement. It does not report alternative employment,
 substitute earnings, later work, household effects, or durable trust/exit.
+The current FWC page and its unfair-dismissals benchbook were rechecked on
+2026-10-20; they preserve the same institutional endpoint and add no
+worker-level later-employment or household-recovery record.
 
 ## Interpretation boundary
 
@@ -52,9 +61,21 @@ alternative or non-use
 
 No new end-to-end finding is promoted from this recheck.
 
+## 2026-10-20 acquisition result
+
+**Result:** bounded negative follow-up. The case remains useful for the
+same-worker sequence through dismissal, job search, alternative employment,
+non-return, and ordered remedy. The route stops at the payment-execution gate:
+receipt, adequacy, later job duration, household recovery, trust, recurrence,
+and exit remain unobserved. Westrip is not merged with Meadley, whose public
+follow-up reports a payment, because that would manufacture a cross-worker
+chain.
+
 ## Sources
 
 - [Westrip primary decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2023fwc2632.pdf)
+- [FWC decisions and orders search](https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders)
 - [Fair Work Commission role-of-the-Court case summary, including Meadley](https://www.fwc.gov.au/role-court-unfair-dismissal-cases)
+- [Fair Work Commission unfair dismissals benchbook](https://www.fwc.gov.au/documents/benchbooks/unfair-dismissals-benchbook.pdf)
 - [Westrip event ledger](data/fwc-westrip-alternative-employment-compensation-event-ledger-v1.json)
 - [Meadley event ledger](data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json)

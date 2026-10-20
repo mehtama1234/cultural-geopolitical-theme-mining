@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-mortgage-trigger-lead-privacy-comparison-2026",
+  "title": "Mortgage trigger-lead restrictions formalize a privacy-to-comparison tradeoff while realized housing effects remain open",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108874 review of mortgage trigger leads, credit-report data, and the Homebuyers Privacy Protection Act",
+  "geography": "United States residential mortgage market; homebuyers, credit reporting agencies, lenders, brokers, and CFPB complaint data",
+  "observations": [
+    {
+      "period": "2022-2024 survey and complaint evidence; March 2026 restriction effective; October 6, 2026 implementation assessment",
+      "denominator": {
+        "value": 1,
+        "unit": "GAO review of the federal mortgage trigger-lead process and the Homebuyers Privacy Protection Act; survey and complaint sub-universes remain separate",
+        "value_type": "named_policy_review"
+      },
+      "measures": {
+        "pre_restriction_data_route": {
+          "value": "Before the new restrictions, credit reporting agencies could provide a homebuyer's contact and credit information to lenders or brokers without an existing relationship or the homebuyer's consent, generating potentially dozens of calls or texts",
+          "unit": "reported marketing and data-use process",
+          "value_type": "reported_process"
+        },
+        "comparison_benefit_estimate": {
+          "value": 3.5,
+          "unit": "percent upper-bound estimate of homebuyers who may have obtained a loan through competing trigger-lead offers in recent federal survey evidence",
+          "value_type": "reported_upper_bound"
+        },
+        "restriction_stage": {
+          "value": "The 2025 Homebuyers Privacy Protection Act restricted residential mortgage trigger leads to parties with an existing relationship with or consent from the homebuyer; the restriction took effect in March 2026",
+          "unit": "statutory implementation stage",
+          "value_type": "reported_policy_change"
+        },
+        "consumer_risk_and_choice": {
+          "value": "GAO reports overwhelm, confusion, aggressive or misleading solicitation risk, and privacy concerns, while stakeholders identify comparison shopping and possible savings as potential benefits",
+          "unit": "reported competing mechanisms",
+          "value_type": "reported_mechanism"
+        },
+        "realized_effect": {
+          "value": "not yet measured",
+          "unit": "solicitation volume, privacy exposure, mortgage pricing, lender switching, loan access, borrower stress, completion, or housing stability after the March 2026 restriction",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "GAO review of federal and state law, literature, 2022-2024 National Survey of Mortgage Originations responses, CFPB complaint data identified with artificial intelligence, and interviews with credit-reporting agencies, consumer groups, lenders, regulators, CFPB, and FTC officials.",
+      "uncertainty": "The report is an implementation and mechanism assessment; not enough time had passed to determine the law's effects. The 3.5% figure is a possible upper bound from survey evidence, not a causal estimate of trigger-lead benefit. Complaint data and stakeholder accounts do not establish national prevalence or realized borrower outcomes.",
+      "subgroup": "Homebuyers applying for residential mortgages, especially those whose credit information could be used as a trigger lead; lenders, brokers, credit-reporting agencies, and competing offer recipients.",
+      "counterinterpretation": "Reducing unsolicited marketing may protect attention and privacy while also reducing one route to comparison offers; online comparison tools, referrals, and existing relationships may substitute, but the report does not establish how often or for whom.",
+      "source_url": "https://www.gao.gov/products/gao-27-108874",
+      "retrieval_hash": "sha256:a335bdc757ca2241fe76d4d6c88dd4cbdd2f80538b6c0d52faa98f5f932e5d54",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108874/index.html",
+      "claim": "The accessible GAO report provides the trigger-lead process, survey, complaint, stakeholder, and post-law implementation evidence.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.consumerfinance.gov/consumer-tools/mortgages/",
+      "claim": "The CFPB mortgage consumer-information route is retained as a public comparison and consumer-resource context, not as evidence of realized post-law outcomes.",
+      "status": "official-consumer-context"
+    }
+  ],
+  "boundary": "This record advances a housing-and-platform conversion route from credit-data dissemination to attention, privacy, comparison, and statutory control. It does not establish reduced solicitation, improved mortgage prices, fairer access, privacy protection in practice, borrower stress reduction, loan completion, or housing stability.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO report landing-page URL string used as a stable source identifier; accessible report and CFPB context links are retained for reproduction.",
+    "retrieval_hash": "sha256:a335bdc757ca2241fe76d4d6c88dd4cbdd2f80538b6c0d52faa98f5f932e5d54",
+    "checked": "2026-10-20"
+  }
+}

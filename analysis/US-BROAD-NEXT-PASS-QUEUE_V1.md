@@ -1,16 +1,710 @@
 # US broad program next-pass queue v1
 
-**Latest U.S. AI-policy framework rotation — 2026-10-19:** the [NBER pro-worker AI record](records/us-nber-pro-worker-ai-technology-policy-framework-2026.json) distinguishes labor-augmenting, capital-augmenting, automating, expertise-leveling, and new task-creating technologies, and identifies misaligned incentives, path dependence, and pro-automation ideology as reasons to underinvest in worker-capability-building AI. Next: test the framework against observed deployment, worker voice, training, pay, safety, prices, and consumer outcomes.
+**Latest platform-remedy rotation — 2026-10-20:** the [FTC NGL anonymous-messaging refund record](records/us-ftc-ngl-anonymous-messaging-refund-claims-2026.json) follows alleged fake messages and unauthorized recurring charges into a $4.5 million refund fund, age-conditioned filing route, closed claims window, and pending review. Approval, payment, delivery, adequacy, correction, and durable exit remain open.
+
+**Latest education-platform privacy rotation — 2026-10-20:** the [FTC Illuminate Education student-data security record](records/us-ftc-illuminate-education-student-data-security-order-2026.json) follows a reported 10.1-million-student exposure and delayed-notification allegations into a finalized minimization, deletion, retention, security, and incident-reporting order. Compliance, notification receipt, student harm, and recovery remain open.
+
+**Latest under-covered-platforms rotation — 2026-10-20:** the [FTC Kochava sensitive-location-data record](records/us-ftc-kochava-sensitive-location-data-controls-2026.json) moves alleged precise-location exposure into proposed affirmative-consent, recipient-visibility, withdrawal, retention, supplier-check, and incident-reporting controls. Judicial approval, implementation, individual control use, deletion, safety, trust, and practical exit remain open.
+
+**Latest health-market-structure rotation — 2026-10-20:** the [GAO Medicare Part D vertical-integration record](records/us-gao-medicare-part-d-vertical-integration-pharmacy-steering-2026.json) adds four large sponsors covering over 40% of Part D enrollment, owned-pharmacy shares of 28% of utilization and 24% of payments, mixed cost-sharing differences, and a 36-contract review. Steering, pharmacy choice, adherence, access, independent-pharmacy effects, net drug cost, and health outcomes remain open.
+
+**Latest research-security rotation — 2026-10-20:** the [GAO NIH research-security record](records/us-gao-nih-research-security-foreign-interference-2026.json) adds $35B in annual extramural funding, 697 allegations, 264 identified violations, 223 action cases, seven disclosure-limitation case studies, and one open recommendation. Prevalence, foreign interference, research loss, deterrence, economic-security effects, and trust remain open.
+
+**Latest public-health security rotation — 2026-10-20:** the [GAO laboratory-equipment disposal record](records/us-gao-federal-laboratory-equipment-disposal-biosecurity-2026.json) adds 1,316 sales, nine unreported controlled items, four successful fictitious-identity acquisitions, and four open recommendations. Recipient intent, export, biological-weapon development, sensitive-information recovery, public harm, and mitigation remain open.
+
+**Latest health-market-power rotation — 2026-10-20:** the [GAO private-health-insurance record](records/us-gao-private-health-insurance-market-concentration-2024.json) adds 2024 issuer concentration in at least 36 states and an exchange-concentration trajectory that eased after 2020. Issuer choice, premiums, plan quality, provider access, claims, care, household burden, and health outcomes remain open.
+
+**Latest geoeconomic-dependence rotation — 2026-10-20:** the [GAO critical-minerals record](records/us-gao-critical-minerals-federal-land-foreign-investment-2026.json) adds 632 federal-land plans, ownership findings for 43 claimants/operators, 14 foreign subsidiaries, at least two Chinese financial interests, and disclosure gaps. Beneficial control, production, processing, disruption, domestic availability, environmental effects, and national-security outcomes remain open.
+
+**Latest technology-dependence rotation — 2026-10-20:** the [GAO quantum-cryptography record](records/us-gao-quantum-cryptography-transition-readiness-2026.json) adds 24-agency preparation gaps, missing cryptography inventories, funding and testing capacity, and an 89-recommendation sensitive-report boundary. Quantum timing, system vulnerability, migration, supplier readiness, compromise, incident prevention, and trust remain open.
+
+**Latest consumer-recourse rotation — 2026-10-20:** the [GAO ghost-preparer record](records/us-gao-irs-ghost-preparer-identification-compliance-2026.json) adds paid-preparer exposure, disconnected IRS case systems, six-office fragmentation, absent measurable goals, and three open recommendations. Prevalence, taxpayer correction, refund recovery, identity-theft resolution, outreach reach, repeat exposure, and trust remain open.
+
+**Latest regional-place rotation — 2026-10-20:** the [GAO EDA/regional-commission record](records/us-gao-eda-regional-commission-grant-performance-coordination-2026.json) adds more than $12 billion in grants, improving area conditions, weak performance validation, fragmented coordination, and three open recommendations. Causal grant effects, project completion, jobs, wages, firm survival, household income, distributional reach, and trust remain open.
+
+**Latest DOE place-and-infrastructure rotation — 2026-10-20:** the [GAO nuclear-cleanup record](records/us-gao-doe-nuclear-cleanup-future-land-use-transfer-2026.json) adds future-land-use assumptions, cleanup-standard differences, industrial transfer or leasing at five selected sites, and reuse tradeoffs. Parcel transfer, occupancy, exposure, consent, jobs, tax receipts, recontamination, and health outcomes remain open.
+
+**Latest federal digital-governance rotation — 2026-10-20:** the [GAO IT Dashboard record](records/us-gao-it-dashboard-investment-risk-ratings-2026.json) adds a 53-investment rating comparison, 24 cases where GAO found more risk than CIO ratings, 21 untimely ratings, an open Dashboard transition, and 17 recommendations. Project delivery, public access, cybersecurity harm, user experience, and completed correction remain open.
+
+**Latest housing-risk rotation — 2026-10-20:** the [GAO flood-insurance record](records/us-gao-flood-insurance-risk-coverage-policy-options-2026.json) adds an 86%-uninsured high-risk-property stage, 13 million high-risk properties outside FEMA special flood hazard areas, and four open congressional actions on mapping, quotes, mandatory purchase, and NFIP limits. Purchase, affordability, claim, rebuilding, and household recovery remain open.
+
+**Latest service-member access rotation — 2026-10-20:** the [GAO DOD records-release record](records/us-gao-dod-service-member-records-release-delays-2026.json) adds almost 50 reported improper releases affecting more than 1,000 service members in FY2021–25, one improperly redacted request in an 18-of-26 covert test, a Navy 1.6-to-55.5-day processing example, and five open recommendations. Requester receipt, correction, privacy harm, health continuity, benefits, trust, and completed action remain open.
+
+**Latest defense-AI governance rotation — 2026-10-20:** the [GAO DOD responsible-AI record](records/us-gao-dod-responsible-ai-governance-workforce-2026.json) adds selected-use-case oversight, a Responsible AI Council lapse and restart, 3 of 10 authorized division positions filled as of February 2026, and two open recommendations. Model quality, human control, mission use, safety, adversary response, deterrence, and legitimacy remain open.
+
+**Latest cultural-consumption and infrastructure rotation — 2026-10-20:** the [GAO textile circular-economy record](records/us-gao-textile-circular-economy-policy-options-2026.json) adds repair, reuse, recycling, producer-responsibility, secondhand-tax, and tax-credit options across U.S. and international policy contexts. Funding, collection infrastructure, repair/recycling use, consumer change, jobs, environmental effects, prices, and household welfare remain open.
+
+**Latest veteran safety-net rotation — 2026-10-20:** the [GAO veteran-SNAP outreach record](records/us-gao-veteran-snap-outreach-access-2026.json) adds a targeted-access route: 39 of 47 reviewed state outreach plans targeted veterans, but veteran-specific materials and VA–USDA coordination remain incomplete, with four open recommendations. Contact, application, approval, benefit receipt, adequacy, food security, and recovery remain open.
+
+**Latest rural-care implementation rotation — 2026-10-20:** the [GAO Rural Health Transformation record](records/us-gao-rural-health-transformation-implementation-monitoring-2026.json) adds a state-award-to-monitoring route: CMS awarded $10 billion to all 50 states in the first year of a possible $50 billion, five-year program, with up to $40 billion remaining conditional on progress and noncompliance recovery authority. Spending, clinician recruitment, appointments, rural-hospital capacity, health, and legitimacy remain open.
+
+**Latest small-business market-power rotation — 2026-10-20:** the [FTC Southern Glazer's settlement record](records/us-ftc-southern-glazer-small-business-price-discrimination-2026.json) adds a proposed Robinson-Patman control covering nearly all sales to the five largest chain retailers in 26 states. Paired-transaction thresholds, conditional compensation, and six-year independent monitoring are specified; approval, retailer claims, payment, business survival, local competition, and household effects remain open.
+
+**Latest hospital-price transparency rotation — 2026-10-20:** the [FTC hospital warning-letter record](records/us-ftc-hospital-price-transparency-warning-letters-2026.json) adds a regulatory-warning stage for 24 healthcare-services companies: CMS price-transparency compliance is not itself a safe harbor from FTC Act risk, especially for routine and non-emergency scheduled care. Implementation, usable patient prices, bills, affordability, care choice, and household recovery remain open.
+
+**Latest health-consumer remedy rotation — 2026-10-20:** the [FTC Caremark PBM settlement record](records/us-ftc-caremark-pbm-rebate-hub-pharmacy-settlement-2026.json) adds specified point-of-sale rebate, lower-list-price, community-pharmacy, and hub-access controls. The FTC's $8.5 billion and $4.5 billion figures are projected savings over up to 10 years, not observed patient savings; implementation, fills, adherence, access, household recovery, and trust remain open.
+
+**Latest consumer-price remedy rotation — 2026-10-20:** the [FTC Greenway Auto record](records/us-ftc-greenway-auto-price-transparency-2026.json) adds a named hidden-fee-to-remedy route: the complaint alleges more than $3,350 charged above advertised price on average in over 92% of transactions, followed by a proposed all-in-price, optional-fee, financing, and prize-mailer control. Court approval, implementation, final prices, affordability, customer correction, and household recovery remain open.
+
+**Latest housing-platform privacy rotation — 2026-10-20:** the [GAO mortgage trigger-lead record](records/us-gao-mortgage-trigger-lead-privacy-comparison-2026.json) follows credit-data dissemination into unsolicited calls/texts, comparison-shopping claims, and a March 2026 statutory restriction requiring an existing relationship or consent. GAO estimates no more than 3.5% of homebuyers may have obtained a loan through competing trigger-lead offers, but post-law solicitation, pricing, access, privacy, and housing effects remain unmeasured.
+
+**Latest hidden-care-value rotation — 2026-10-20:** the [GAO unpaid-household-work record](records/us-gao-unpaid-household-work-care-valuation-2026.json) adds a measured time-and-valuation stage: 87.3% of people did some unpaid household work on a typical day, averaging 3.72 hours, with an estimated 2024 market value of at least $5.6–$6.0 trillion and primary caregiving value of $1.1–$1.4 trillion. The wage-based range makes care visible but does not establish household welfare, care quality, substitute-care access, work continuity, bargaining power, or policy effect.
+
+**Latest platform-governance remedy rotation — 2026-10-20:** the [FTC Publicis–LiveRamp record](records/us-ftc-publicis-liveramp-data-neutrality-remedy-2026.json) moves a major digital-advertising data intermediary from
+merger-risk allegation into proposed neutral-access, data-firewall,
+independent-audit, customer-audit, non-retaliation, and mediation controls.
+The matter is pending and the remedy is conditional on closing; implementation,
+audit results, service quality, pricing, privacy, consumer choice, and durable
+competition remain unobserved.
+
+**Latest older-adult platform-remedy rotation — 2026-10-20:** the [FTC older-consumer fraud and redress record](records/us-ftc-older-adult-social-fraud-redress-2026.json) adds an age-conditioned platform route: reported fraud
+losses among adults 60 and over rose from about $600 million in 2020 to roughly
+$3 billion in 2025; investment-scam losses exceeded $1 billion, with social
+media identified as a common contact route. The same report documents selected
+enforcement/redress stages, including FloatMe cancellation and fair-lending
+terms and later payments to people who accepted an earlier payment. The
+statistics and redress case are not one linked cohort; individual receipt,
+adequacy, platform correction, repeat exposure, household recovery, and trust
+remain open.
+
+**Latest Rūdninkai interim-use checkpoint — 2026-10-20:** the [Rūdninkai
+host-infrastructure record](records/us-lithuania-rudninkai-host-infrastructure-operation-2026.json)
+now separates reported temporary stationing from permanent-campus occupancy:
+initial German Brigade elements are serving in central Vilnius and arriving
+personnel use Lithuanian facilities near Vilnius while Rūdninkai is developed.
+This advances the route from completed housing toward actual interim use and
+civilian-service planning, but does not establish Rūdninkai handover, permanent
+occupancy, service quality, local burden, full operational capability, or host-
+community acceptance.
+
+**Latest NISRF Northern Viking operational-use checkpoint — 2026-10-20:** the
+[NISRF Northern Viking record](records/us-nato-nisrf-northern-viking-maritime-isr-2026.json)
+adds a named RQ-4D Phoenix mission in a multinational maritime exercise around
+Iceland. NISRF reports that it contributed to a surface picture supporting
+over-the-horizon targeting for naval combatants in the GIUK Gap. This advances
+the route from force output into operational information support, but does not
+establish a targeting decision, engagement, adversary response, deterrence,
+host burden, cost sustainability, or public legitimacy.
+
+**Latest NISRF infrastructure-to-operation checkpoint — 2026-10-20:** the
+[Mission Operations Support Center record](records/us-nato-nisrf-mosc-operational-integration-2026.json)
+adds a named support facility entering active mission operations while NISRF
+aircraft operated from Finland during ACE/Ramstein Flag 2026. This advances
+the route from infrastructure build and testing to live distributed use, but
+does not establish uptime, product accuracy, analyst workload, decision effect,
+cost sustainability, host burden, adversary response, deterrence, or public
+legitimacy.
+
+**Latest Virginia large-load payment-timing checkpoint — 2026-10-20:** the
+[data-center electricity-tax record](records/us-data-center-electricity-tax-federalism-2026.json)
+now records that the SCC's succeeding-month rule places the first
+September-period remittance at the end of October, while the public SCC pages
+still expose no operator registration, kWh, payment, collected-revenue, or
+locality-receipt aggregate. The next decisive check is a lawful post-deadline
+payment or utility-incidence output; the deadline itself is not collection.
+
+**Latest Connecticut SNAP-exit bridge — 2026-10-20:** the [state-funded grocery-card record](records/us-ct-snap-exit-grocery-card-bridge-2026.json)
+adds a distributed $300 virtual grocery-card route for residents pushed out of
+SNAP: roughly 25,000 expected residents, $8.5 million in state funding,
+community-agency eligibility confirmation, a non-expiring card, and support to
+regain SNAP eligibility. Actual receipt, spending, adequacy, reentry, trust,
+and durable recovery remain open.
+
+**Latest Connecticut EBT-control rotation — 2026-10-20:** the [Connecticut EBT lock-control follow-up](projects/us-safety-net-access/ct-ebt-lock-controls-nonreplacement-followup-2026-10-20.md)
+adds current MyDSS/ConnectEBT lock-unlock and out-of-state blocking controls,
+physical-card replacement, and automatic transfer of remaining balances. The
+same guidance says stolen SNAP or cash benefits are not replaceable. Control
+uptake, avoided theft, food-gap duration, adequacy, trust, and exit remain open.
+
+**EBT prevention-versus-restoration bridge — 2026-10-20:** the [New Jersey–Connecticut comparison](projects/us-safety-net-access/ebt-prevention-versus-restoration-cross-state-bridge-2026-10-20.md)
+now compares statewide chip-card deployment with user-controlled lock and
+out-of-state blocking tools. It preserves the shared boundary: prevention and
+card replacement are visible, while activation, uninterrupted food access,
+stolen-benefit restoration, adequacy, trust, and exit are not.
+
+**Latest Connecticut disaster-remedy rotation — 2026-10-20:** the [storm-food replacement record](records/us-ct-snap-storm-food-replacement-2026.json)
+adds a distinct report-to-remedy route after qualifying power loss: July 14
+report deadline, DSS verification, replacement up to the monthly SNAP benefit,
+and a stated issuance clock. Claims, approvals, receipt, adequacy, food
+security, and later recovery remain open.
+
+**Latest EBT theft-prevention rotation — 2026-10-20:** the [New Jersey chip-card follow-up](projects/us-safety-net-access/nj-ebt-chip-card-fraud-prevention-followup-2026-10-20.md)
+adds an official prevention and card-access stage: a three-county EMV pilot,
+planned statewide rollout, and statewide chip cards for replacement requests.
+The same state route says electronically stolen benefits after December 21,
+2024 are not eligible for replacement. Prevention, activation, avoided theft,
+restored benefits, food adequacy, trust, and exit remain open.
+
+**Latest credit-repair remedy rotation — 2026-10-20:** the [FTC FES credit-repair refund record](records/us-ftc-fes-credit-repair-refund-distribution-2026.json)
+adds more than $10.9 million in checks sent to 443,048 affected customers,
+with a 90-day cashing window. This advances aggregate dispatch reachability but
+does not establish delivery, cashing, credit/debt correction, adequacy,
+household recovery, trust, switching, or exit.
+
+**Latest live-infrastructure recheck — 2026-10-20:** the [Amtrak A-Interlocking follow-up](projects/us-infrastructure-operation-incidence/amtrak-a-interlocking-live-disruption-followup-2026-10-20.md)
+confirms that the official customer-facing page still carries the Oct. 16–26
+outage window, reduced service, cancellations, bus bridges, express buses,
+Metro guidance, and rebooking support. It still exposes no passenger uptake,
+extra cost/time, accessibility, compensation, or post-restoration reliability;
+the route remains operation-plus-offered-alternative, not passenger recovery.
+
+**MEPS episode-closure audit — 2026-10-20:** the [MEPS 2024 episode closure audit](projects/us-health-cost-household-choice/meps-2024-episode-closure-audit-2026-10-20.md)
+freezes the current payment/event spine as a bounded bridge and enumerates the
+missing need/bill, alternative, choice, household-response, remedy, and
+legitimacy fields. The next health-cost pass should acquire or authorize a
+same-unit source such as the UAS route; it should not repeat MEPS payment
+cross-tabs without a newly available episode field.
+
+**Household-room bridge — 2026-10-20:** the [utility-difficulty, credit, savings, and adaptation bridge](projects/cross-domain/us-utility-difficulty-credit-savings-adaptation-bridge-2026-10-20.md)
+now connects utility-payment difficulty to credit carrying, savings ownership,
+resource differences, and overlapping adaptation categories. It does not join
+one household to a dated bill, payment, assistance, service-continuity, or
+recovery outcome; the next decisive input is an authorized account- or
+household-linked episode.
+
+**Firm-capacity bridge — 2026-10-20:** the [small-business credit-to-local-capacity bridge](projects/cross-domain/us-small-business-credit-to-local-capacity-bridge-2026-10-20.md)
+now joins application, lender choice/approval, employer-firm transition, and
+operating-capacity stages without treating them as one firm or causal chain.
+The next needed input is firm- or county-linked funding, survival, payroll,
+customer/service, and worker or owner-household evidence.
+
+**GOAT refund recheck — 2026-10-20:** the [post-distribution recheck](projects/us-customer-automation-recourse/goat-refund-post-distribution-recheck-2026-10-20.md)
+confirmed that the FTC still publishes the 6,205-recipient distribution,
+aggregate amount, payment channels, and 90-/30-day acceptance windows, but no
+cashing, redemption, reissue, adequacy, or later-use endpoint. The repeated
+public-page search is closed at an access boundary; do not treat mailing as
+receipt or repeat the same search without a new source state.
+
+**Latest marketplace-remedy reachability rotation — 2026-10-20:** the [FTC GOAT refund record](records/us-ftc-goat-shipping-refund-redress-2026.json) adds a named enforcement-to-redress sequence: more than $736,000 in direct company refunds in 2025, followed by more than $100,000 in FTC checks and PayPal payments to 6,205 customers in October 2026, with 90-day check and 30-day PayPal acceptance windows. Next: seek delivery, cashing/redemption, adequacy, product correction, repeat use, switching, and trust outcomes; public distribution is not durable recovery.
+
+**Latest local-formation-stage rotation — 2026-10-20:** the [NBER local business-formation record](records/us-nber-local-business-application-transition-employer-firm-2026.json) adds a linked administrative distinction between pursuing a business idea and implementing it as an employer firm. Places differ in application intensity and application-to-employer transition, so application growth is not automatically employer growth, jobs, services, or durable local capacity. Next: join applications to financing, leases, permits, payroll, openings, closures, customers, prices, owner resources, and local service access.
+
+**Latest firm-capacity-after-credit rotation — 2026-10-20:** the [New York Fed small-business capacity record](records/us-nyfed-small-business-capacity-2025.json) adds post-application outcomes: among 6,389 employer-firm respondents, fewer expected higher 2026 revenue, the smallest firms had weaker pricing power, small-firm employment growth rose while larger-firm growth declined but remained positive, and average debt was about $70,000 per employee. Next: connect credit approval to funding, terms, repayment, survival, worker outcomes, customer prices, and local service; lower reported constraint may reflect lower demand, not abundant affordable credit.
+
+**Latest U.S. firm-credit-access rotation — 2026-10-20:** the [Federal Reserve small-business credit record](records/us-fed-small-business-credit-route-2023.json) adds lender-choice and approval stages: 37% of small employer firms applied; applicants used large banks (44%), small banks (28%), and online lenders (23%); full approval was 44%, 52%, and 31% respectively, with lower approval for medium/high-risk applicants. Next: follow approval into funding receipt, terms, repayment, investment, survival, jobs, customer prices, and local benefit; approval is not delivered credit.
+
+**Latest firm-credit/customer-surplus rotation — 2026-10-20:** the [NBER microenterprise-credit record](records/comparative-nber-microenterprise-credit-consumer-surplus-2026.json) adds a comparative counterweight: a Chilean randomized loan expansion was associated with $292/month higher treated-firm profits, a 13.4% increase, and $494/month customer-surplus gains, with little business stealing among 125,000+ non-treated firms in the same markets. Next: test whether a U.S. credit route reaches customer price/quality/surplus, firm survival, worker gains, and durable competition; this working-paper result is not a U.S. estimate.
+
+**Latest household-adaptation rotation — 2026-10-20:** the [Federal Reserve SHED income-and-price record](records/us-federal-reserve-income-timing-price-adaptation-2025.json) adds overlapping household responses: 30% reported variable income, 11% said it made bills difficult, 23% reported outside help, and price responses included cheaper products (62%), less/stopped use (60%), delayed major purchases (46%), reduced saving (41%), more borrowing (16%), and more work (17%). Next: link one response to a dated bill, purchase, care/work cost, debt repayment, or recovery measure; cross-sectional overlapping categories do not show what was protected or sacrificed.
+
+**Latest utility-credit distribution rotation — 2026-10-20:** the [Census SIPP joint record](records/us-sipp-utility-credit-savings-joint-2024.json) adds a second source family: among 377,945 valid person-record/month rows, utility-difficulty rows carried credit-card balances at 35.2% versus 26.9% without difficulty and owned savings accounts at 46.4% versus 64.9%; within difficulty rows, balance carrying rose from 22.4% below 1x poverty to 44.8% at 4x+, while savings ownership rose from 29.3% to 61.3%. Next: link a dated utility bill/payment outcome to credit, savings depletion, assistance, or recovery; these person-record diagnostics are not causal household prevalence.
+
+**Latest household-credit-conversion rotation — 2026-10-20:** the [Philadelphia Fed borrowing-cost record](records/us-philadelphia-fed-household-borrowing-costs-spending-headwinds-july-2026.json) adds a non-agency mechanism: in a 4,071-adult survey, 25.8% considered but did not make a large purchase for financial reasons, 49% of those cited financing cost, and 5% chose a cheaper alternative primarily because of financing cost; debt/assets shaped flexibility and a randomized framing follow-up changed stated affordable-rate thresholds. Next: connect stated forgone choices to transaction, credit, repayment, and household-outcome data; the survey is not realized consumption or causal welfare.
+
+**Latest small-business repeat-remedy rotation — 2026-10-20:** the [FTC Yellowstone record](records/us-ftc-yellowstone-repeat-refund-2026.json) adds 3,759 businesses reported as receiving a third refund check after cashing a prior payment, within a third distribution of more than $549,000 and an earlier reported cashed population of 4,982. Third-check delivery/cashing, account correction, residual loss, business survival, employment, customer continuity, trust, and financing choice remain open. Next: seek a later cashing or operating-status endpoint; prior cashing improves reachability but is not third-round recovery.
+
+**Latest recipient-conditioned-remedy rotation — 2026-10-20:** the [FTC ACRO record](records/us-ftc-acro-second-refund-2026.json) adds a second-round check of at least $6.2M for 5,685 people who accepted the first refund of at least $3.8M. This sharpens reachability, but excludes people who could not receive/access/cash the first payment and does not show second-check delivery, cashing, debt correction, adequacy, household recovery, trust, switching, or exit. Next: seek a second-payment cashing or account-correction aggregate; prior acceptance is not durable recovery.
+
+**Latest recipient-dispatch rotation — 2026-10-20:** the [FTC Walmart wire-transfer record](records/us-ftc-walmart-wire-refund-dispatch-2026.json) adds a named recipient-count endpoint: more than $9.8M in checks reportedly sent to 65,022 affected consumers, with a 90-day cashing window. Delivery, cashing, returned checks, reissue, adequacy, original-loss recovery, recurrence, trust, and exit remain unobserved. Next: seek a lawful cashing or reissue aggregate; dispatch is not receipt.
+
+**Latest automatic-redress conversion rotation — 2026-10-20:** the [Amazon Prime redress record](records/us-ftc-amazon-prime-redress-expansion-2026.json) adds aggregate phase depth: $845.2M issued versus $235.5M accepted by September 9, across automatic and claims-based phases; eligibility expanded, automatic payments continue through April 2027, payments expire after 60 days, and accepted-amount reconciliation is scheduled for March 2027 with a conditional supplemental phase. Recipient delivery, cashing, adequacy, continued use, switching, trust, and household recovery remain open. Next: recheck the March/April 2027 reconciliation or find lawful recipient-level evidence; issued dollars are not accepted recovery.
+
+**Latest allied-operational-output rotation — 2026-10-20:** the [NATO Belgian MQ-9B record](records/us-nato-belgian-mq9b-nisrf-deployment-2026.json) adds more than 400 reported flight hours from a Belgian deployment enabled by NATO infrastructure at Sigonella, supporting Operation Sea Guardian and Operation Noble Shield. Mission quality, intelligence-product effect, Belgian/Italian cost, local burden, adversary response, deterrence, public acceptance, and continuation remain open. Next: seek an attributed mission outcome or host-cost/acceptance record; flight hours are use, not strategic effect.
+
+**Latest AI-command integration rotation — 2026-10-20:** the [NATO Maven record](records/us-nato-maven-operational-integration-2026.json) moves an AI command-and-control platform through full technical operational capability, classified-network authorization, and exercise integration in STEADFAST DETERRENCE 2026. Model accuracy, operator workload, decision quality, mission use, adversary response, deterrence, supplier replaceability, and public legitimacy remain open. Next: seek a dated operational-use or human-review episode; exercise automation is not strategic effect.
+
+**Latest geopolitical capability-integration rotation — 2026-10-20:** the [Lithuania AN/TPS-77 MRR radar record](records/comparative-lithuania-antps77-mrr-radar-deployment-2026.json) moves a named allied air-surveillance route from procurement into reported delivery and real-time connection to NATO’s integrated air and missile defence system. Quantity, acceptance, staffing, uptime, detections, response, deterrence, civilian protection, and public consent remain open. Next: seek a dated operational log, readiness or response episode; do not convert integration into demonstrated strategic effect.
+
+**Latest data-center administration follow-up — 2026-10-20:** the Virginia SCC now exposes operator-registration and monthly-report forms for the new electricity tax, distinguishes utility-billed from self-supplied electricity, sets first collection in September 2026, and specifies succeeding-month remittance plus a 10% late-payment penalty. This closes an operational-administration stage but not facility registration, consumption, remittance, utility pass-through, collected revenue, reliability, household bills, or environmental outcomes. Next: seek a lawful public aggregate payment or utility-incidence output; otherwise preserve the boundary.
+
+**Latest data-center cost-governance rotation — 2026-10-20:** the [Virginia–North Carolina electricity-tax record](records/us-data-center-electricity-tax-federalism-2026.json) adds enacted state cost-allocation and reporting mechanisms around the Prince William revenue route: Virginia set a $0.011/kWh tax with monthly SCC collection, a potential $600M annual general-fund ceiling, and a refund-fund rule; North Carolina changed specified exemptions and reporting/payment obligations. The next test is actual facility remittance, utility pass-through, reliability, household bills, environmental burden, and local acceptance; statutory design is not collected revenue or net public benefit.
+
+**Latest data-center fiscal-incidence rotation — 2026-10-20:** the [Prince William data-center revenue extension](records/us-prince-william-data-center-fiscal-revenue-2025-extension.json) adds realized local public revenue alongside capacity: $465.9 million in reported TY2025 data-center tax revenue, 621 MW of new capacity, 1,483 MW turnkey capacity, and 55 powered-shell facilities; the computer-equipment rate also rose from $3.70 to $4.15 per $100 assessed value. The next test must connect revenue to utility/service cost, household bills, water/environmental burden, jobs, and local legitimacy; revenue and capacity are not net public benefit.
+
+**Latest last-mile-operation rotation — 2026-10-20:** the [NYC microhubs record](records/us-nyc-microhubs-last-mile-delivery-operation-2026.json) adds a named logistics operation after infrastructure redesign: more than 3,000 truck trips were reportedly replaced in the first year, with about 860 handcart and 110 cargo-bike packages per day, estimated truck-mile and toxic-air reductions, and two new locations. The next test is participant- or corridor-level cost, delivery quality, worker time/pay, neighborhood exposure, and durable continuation; pilot output is not yet equal service or net welfare.
+
+**Latest infrastructure-operation rotation — 2026-10-20:** the [NYC congestion-pricing implementation record](records/us-nyc-congestion-pricing-implementation-2026.json) follows a named pricing/access intervention through an 11% or roughly 70,000-vehicle daily entry reduction, $268.5 million in reported net revenue, early bus-speed and ridership changes, an air-quality evaluation, 17 revenue-enabled capital projects, and an announced off-hour delivery incentive. Household incidence, completed capital benefit, long-run health, and legitimacy remain open. The next test should follow one project, route, neighborhood, or household-facing cost/service measure rather than add another launch announcement.
+
+**Latest platform-exposure rotation — 2026-10-20:** the [FTC social-media scam-loss record](records/us-ftc-social-media-scam-losses-2025.json) adds the upstream contact stage: reported losses naming social media rose from $261 million in 2020 to $2.1 billion in 2025; 28% of loss reports with a contact method named social media, more than 40% of social-media loss reports began with a product/service advertisement, and reported investment-scam losses reached $1.1 billion. The next test is a provider- or victim-level reimbursement and repeat-exposure route; reported contact and loss are not true prevalence, platform causation, or recovery.
+
+**Latest platform-remedy conversion rotation — 2026-10-20:** the [AT&T data-throttling refund record](records/us-ftc-att-data-throttling-refunds-2026.json) adds a service-quality-to-remedy route: more than $5.6 million was reportedly refunded in April 2024, followed by an August 2026 Zelle reissue route for people who did not cash a check or accept a PayPal payment. The public program does not publish the eligible or paid denominator, individual receipt, restored connectivity, substitution, continued use, switching, or trust. The next test must seek a lawful recipient or service-status endpoint; the aggregate refund and reissue design are not individual recovery.
+
+**Latest platform-control rotation — 2026-10-20:** the [Hims & Hers digital-health record](records/us-ftc-hims-hers-health-data-billing-cancellation-2026.json) now moves a named telehealth platform route from alleged health-data sharing, subscription/refill timing, and cancellation friction into an observed complaint-response layer: the released FTC file contains 203 records, including 50 marked resolved, 128 answered, 4 administratively invalid, and 21 without a usable disposition. The case and complaint file remain selected institutional evidence, not a customer denominator or verified remedy. The next qualifying stage is a lawful account or implementation follow-up showing correction, payment, data deletion, treatment continuity, repeat exposure, trust, or durable non-use; do not treat a complaint disposition or cancellation design as practical exit.
+
+**Latest Virginia insurance-settlement promotion — 2026-10-20:** the [Virginia
+SCC record](records/us-virginia-scc-insurance-settlement-remedies-2026.json)
+adds three regulated-remedy routes across auto rating, accident notice, and
+health-network/claims systems: aggregate restitution and prospective controls
+were reported, and the SCC now states that the aggregate payments were made.
+Recipient-level receipt beyond that regulator statement, premium or claim
+correction, care continuity, and trust remain unobserved. The next test is a
+lawful payment, correction, coverage, or care-continuity endpoint.
+
+**Latest Poland F-35 realization promotion — 2026-10-20:** the [Husarz
+record](records/pl-poland-f35-husarz-arrival-acceptance-2026.json) adds a
+defense-industrial implementation route: the first three aircraft were
+reported arrived and formally accepted, first pilots completed training, and
+eight aircraft are now stated on the current Ministry program page. The page
+still defines IOC through additional personnel, logistics, and consumables
+conditions. Ground-personnel coverage, readiness certification, mission use,
+and strategic effect remain unobserved.
+
+**Latest California wildfire-persistence promotion — 2026-10-20:** the [LA
+recovery record](records/us-california-la-wildfire-recovery-persistence-2026.json)
+extends the FEMA route into long-term housing finance: continued support was
+extended through July 2027, while CalAssist reported mortgage-payment bridges
+and the Department of Insurance now reports 41,727 claims filed, 40,482
+partially paid, $25.2 billion paid, and more than $338 million recovered through
+consumer complaints. Household payment adequacy, lender release, rebuild
+completion, and durable housing remain unobserved.
+
+**Latest Kaur pregnancy-remedy promotion — 2026-10-20:** the [FWC Kaur
+record](records/au-fwc-kaur-pregnancy-dismissal-reinstatement-2025.json) adds a
+pregnancy-linked work-interruption route: regular shifts and training were
+withdrawn after disclosure and restrictions, followed by alternative work,
+worker action, and a $14,830.40 reinstatement/lost-pay order. Payment, actual
+return, and durable work security remain unobserved.
+
+**Latest Alam Shah injury-reinstatement promotion — 2026-10-20:** the [FWC Alam
+Shah record](records/au-fwc-alam-shah-injury-dismissal-reinstatement-2025.json)
+adds an injury, language-access, and reinstatement route: after a forklift
+injury and return, the worker was dismissed, then received an order for
+reinstatement, continuity, translation, and $18,035.56 in lost pay. Payment,
+actual return, and durable livelihood remain unobserved.
+
+**Latest gallium/germanium export-control promotion — 2026-10-20:** the
+[critical-minerals record](records/comparative-china-gallium-germanium-export-control-2023.json)
+adds a supply-chain leverage route: licensing requirements were followed by
+sharp early wrought-export contraction and reported price increases, while some
+licences remained possible. Sustained shortage, firm production loss, and
+realized geopolitical concession remain unobserved.
+
+**Latest Cartisano practical-reinstatement promotion — 2026-10-20:** the [FWC
+Cartisano record](records/au-fwc-cartisano-backpay-no-return-2015.json) adds a
+strong remedy-boundary case: back pay and continuity were reported implemented,
+but risk assessment initially blocked actual return; a later return involved
+disputed altered duties and cessation while still employed. Durable livelihood
+and household recovery remain unobserved.
+
+**Latest Sauna360 repeat-remedy promotion — 2026-10-20:** the [Sauna360
+record](records/us-cpsc-sauna360-repeat-remedy-2025-2026.json) adds a remedy-
+durability route: a 2025 free professional repair was followed by a 2026
+official expansion stating that the previous repair was ineffective and
+offering a second retrofit. Owner notice, repair completion, safe restoration,
+and residual cost remain unobserved.
+
+**Latest Sauna360 adjacent-hazard promotion — 2026-10-20:** the [infrared
+recall record](records/us-cpsc-sauna360-infrared-fire-recall-2026.json) adds a
+separate September 2026 fire-and-burn route covering about 41,580 U.S. units,
+67 reported overheating or burning incidents, and a free in-home professional
+repair. Repair registration, completion, safe restoration, downtime, and owner
+exit remain unobserved; this hazard is not merged with the bench-repair route.
+
+**Latest Connecticut SNAP remedy promotion — 2026-10-20:** the [Connecticut
+SNAP record](records/us-connecticut-snap-ebt-replacement-partial-remedy-2023.json)
+adds a bounded theft-to-remedy episode: the agency reported a new EBT card and
+$582 replacement credit, while an additional residual claim was denied. A
+second anonymized hearing decision adds a corrective remand after DSS denied
+$292.44 in stolen benefits without showing the required-form notice. Later
+replacement receipt, adequacy, interim food access, household recovery, and
+continuity remain unobserved.
+
+**Latest FEMA wildfire-assistance promotion — 2026-10-20:** the [Los Angeles
+FEMA record](records/us-fema-la-wildfire-ihp-stages-2025-2026.json) adds a
+disaster-administration route: the OpenFEMA snapshot reports registration,
+referral, eligibility, and aggregate IHP amount stages. The October 20 API
+vintage reports 261,118 valid registrations, 98,460 referrals, 35,169 eligible
+records, and $184.787 million in aggregate IHP amounts. Individual award,
+payment receipt, adequacy, repair or housing completion, and recovery remain
+unobserved.
+
+**Latest neighbor mutual-aid promotion — 2026-10-20:** the [Pew neighbor
+record](records/us-pew-neighbor-mutual-aid-capacity-2025.json) adds a local
+social-capacity route: reported willingness to bring mail or plants, bring a
+meal, or loan money exceeded expected reciprocal support for each example.
+Actual requests, delivered aid, helper burden, adequacy, recovery, and civic
+action remain unobserved.
+
+**Latest smartphone self-regulation promotion — 2026-10-20:** the [Pew
+smartphone record](records/us-pew-smartphone-self-regulation-wellbeing-2026.json)
+adds a consumer-control route: perceived excess coexists with information and
+connection benefits, attempted cutbacks, and incomplete self-rated success.
+Logged behavior, platform causality, clinical harm, durable change, and exit
+remain unobserved.
+
+**Latest Pew economic-attribution promotion — 2026-10-20:** the [Pew midterm
+economy record](records/us-pew-midterm-economy-attribution-2026.json) adds a
+household-pressure-to-politics route: the economy was the leading issue voters
+wanted candidates to discuss, while economic party fit was nearly balanced and
+51% said neither party represented them well on AI policy. Material exposure,
+validated vote, policy delivery, household recovery, and trust change remain
+unobserved.
+
+**Latest Gallup cultural-legitimacy promotion — 2026-10-20:** the [Gallup
+moral-values record](records/us-gallup-moral-values-government-role-2026.json)
+adds a national judgment route: 80% said U.S. moral values were getting worse,
+69% said government policies significantly affect moral values, and the public
+was divided over whether government should promote them. Personal conduct,
+policy delivery, political action, and legitimacy change remain unobserved.
+
+**Latest Aitken procedural-fairness promotion — 2026-10-20:** the [FWC Aitken
+record](records/au-fwc-aitken-casual-dismissal-procedural-fairness-2025.json)
+adds a regular-casual employment route: weekly work and a neurodivergence
+disclosure preceded dismissal after disputed service complaints; the Commission
+recognized regular-casual status and found the dismissal harsh, unjust, and
+unreasonable, while remedy, payment, and later livelihood remain unobserved.
+
+**Latest Poland/NATO airspace-response promotion — 2026-10-20:** the [Poland
+airspace record](records/pl-nato-airspace-violation-eastern-sentry-2025.json)
+adds a bounded geopolitical incident-to-response sequence: reported airspace
+violations moved through national interception, Article 4 consultation,
+Eastern Sentry, diplomatic protest, and information-resilience action. Actual
+deployment effect, deterrence, civilian security, and public legitimacy remain
+unobserved.
+
+**Latest Khan platform-recurrence promotion — 2026-10-20:** the [FWC Khan
+record](records/au-fwc-khan-platform-repeat-deactivation-2026.json) adds a
+repeat-access case: a 2024 complaint led to temporary blocking and reactivation,
+while a second 2025 complaint led to deactivation; the Commission later found
+the process inconsistent with the Digital Labour Platform Deactivation Code and
+ordered reactivation with a deemed-work period. Payment and durable access remain
+unobserved.
+
+**Latest OSHA safety-voice promotion — 2026-10-20:** the [Texas asbestos
+whistleblower record](records/us-dol-osha-texas-asbestos-whistleblower-remedy-2026.json)
+adds a bounded retaliation episode: two hotel-repair workers raised concerns
+about asbestos training, PPE, and dumping, were reportedly terminated, and OSHA
+ordered reinstatement plus more than $200,000 in back wages, interest,
+compensatory, and punitive damages. Payment, safe return, and durable protection
+remain unobserved.
+
+**Latest Workers Owed Wages reachability promotion — 2026-10-20:** the [DOL
+WOW record](records/us-dol-workers-owed-wages-reachability-2025-2026.json)
+adds the recipient-side recovery gate: workers must locate the record, verify
+identity, submit a signed claim and documents, and use the payment channel;
+WHD holds wages for three years before remaining funds go to Treasury. The
+electronic-payment transition adds login, contact, and documentation burdens.
+Worker receipt, adequacy, and household relief remain unobserved.
+
+**Latest DOL PAID wage-remedy promotion — 2026-10-20:** the [PAID record](records/us-dol-paid-employer-proof-wage-remedy-2019-2026.json)
+adds an employer-proof control stage: the program requires WHD review, payment
+within 15 days, proof of payment, and prospective practice correction; its
+performance release reported more than $4 million put into the hands of 7,429
+employees. Worker-level receipt, adequacy, and durable payroll correction remain
+unobserved.
+
+**Latest Cash and Counseling paid-worker promotion — 2026-10-20:** the [ASPE
+worker record](records/us-aspe-cash-counseling-paid-worker-experience-2005.json)
+adds the provider-side route: directly hired workers were generally satisfied
+with conditions, supervision, and compensation, with more than 40% very
+satisfied with wages/fringe benefits, while many continued substantial unpaid
+care and had less formal training or benefits than agency workers. Retention,
+wage adequacy, and beneficiary continuity remain unobserved.
+
+**Latest Cash and Counseling caregiver promotion — 2026-10-20:** the [ASPE
+caregiver record](records/us-aspe-cash-counseling-caregiver-wellbeing-2005.json)
+adds the household-care side of the randomized route: across 3,668 published
+caregiver interviews, treatment caregivers did better than controls on at least
+half of 15 key wellbeing/satisfaction measures, and perceived financial strain
+improved in all three states. Recipient recovery, caregiver income, and durable
+household security remain unobserved.
+
+**Latest Cash and Counseling care-control promotion — 2026-10-20:** the [ASPE
+beneficiary record](records/us-aspe-cash-counseling-beneficiary-care-control-2003.json)
+adds a randomized care-support route: consumer direction increased control and
+reported satisfaction, reduced unmet personal-care needs, and increased access
+to paid home care in the cited comparisons, without evidence of worsened health
+or safety. Long-run care continuity, caregiver durability, household resources,
+and exit remain unobserved.
+
+**Latest Federal Reserve household-room promotion — 2026-10-20:** the [SHED
+income-and-price adaptation record](records/us-federal-reserve-income-timing-price-adaptation-2025.json)
+adds a distinct household conversion layer: 30% reported income varying at
+least occasionally, 11% said variability made bills difficult, 23% reported
+outside help, and price responses included cheaper products, reduced use,
+delayed purchases, lower saving, more borrowing, and extra work. The source is
+cross-sectional and does not establish which outcome was protected or sacrificed.
+
+**Latest CFPB reissue-route promotion — 2026-10-20:** the [Premier Student
+Loan record](records/us-cfpb-premier-student-loan-redress-reissue-2025.json)
+adds a two-stage remedy path: 17,099 checks and $19,974,916 distributed in the
+FY2024 report, with 69% of distributed funds cashed in aggregate, followed by
+$20,809 in reported direct reissue payments to consumers who requested them in
+FY2025. Same-consumer receipt, account correction, adequacy, and recovery remain
+unobserved.
+
+**Latest NYC worker-restitution promotion — 2026-10-20:** the [DCWP reachability
+record](records/us-nyc-dcwp-worker-restitution-reachability-2026.json) adds more
+than 830 named workers across Salz Management and Theory settlements, with more
+than $1.5 million and $277,000 in reported restitution obligations and scheduled
+check/direct-deposit routes. It also records a proposed unclaimed-restitution
+fund. Worker receipt, adequacy, durable schedule protection, and recovery remain
+unobserved.
+
+**Latest Yellowstone repeat-refund promotion — 2026-10-20:** the [FTC
+Yellowstone record](records/us-ftc-yellowstone-repeat-refund-2026.json) adds
+3,759 small businesses to the recipient-conditioned remedy route: the FTC
+reported that each had cashed a prior check before a third distribution of more
+than $549,000. Third-check receipt, individual adequacy, account correction,
+business survival, and later financing choice remain unobserved.
+
+**Latest CHPE independent operating-snapshot promotion — 2026-10-20:** the [CHPE operation record](records/us-nyserda-champlain-hudson-power-express-operation-2026.json)
+now includes an October 1 NYISO daily-capacity snapshot listing a 1,250 MW
+CHPE import schedule and limit alongside a 446 MW NYCA capacity margin. This
+confirms system-level capacity accounting, but not metered delivery, avoided
+customer interruption, retail bills, payment incidence, or route-community
+acceptance.
+
+**Latest CHPE first-summer depth promotion — 2026-10-20:** the [CHPE operation record](records/us-nyserda-champlain-hudson-power-express-operation-2026.json)
+now adds a secondary operating profile: zero output in 83% of five-minute
+intervals during June-August, 940 MW average running output against a 1,250 MW
+rating, a 13% first-summer capacity factor, and 20 full operating days removed
+by a July cable-fault period. On 85–90F days, the analysis reports a $17/MW-day
+day-ahead Zone J spread premium when CHPE ran versus $85/MW-day when it did not.
+This is conditional wholesale evidence, not household bill or reliability proof.
+
+**Latest CHPE transaction-depth promotion — 2026-10-20:** the [CHPE operation record](records/us-nyserda-champlain-hudson-power-express-operation-2026.json)
+now adds the completed 2027-vintage voluntary Tier 4 REC sale: 16,376 of
+50,000 offered RECs sold at $35.52 each, producing reported presale revenue of
+$581,675.52 and approximately $582,000 in avoided ratepayer costs. Buyer-level
+allocation, completed payment, REC retirement, retail bill pass-through,
+household receipt, and route-community acceptance remain unobserved.
+
+**Latest Australia liquidation-route promotion — 2026-10-20:** the [Adcon
+record](records/comparative-australia-fwc-adcon-liquidation-lower-paid-work-2024.json)
+adds a same-case insolvency trade-off: a worker secured lower-paid employment,
+earning A$9,584 against A$24,230.81 expected remuneration, while the employer
+wound up and the Commission ordered A$17,531.43 gross plus superannuation.
+Liquidator/FEG advice is not a payment determination; compensation receipt,
+household recovery, job durability, and trust remain open.
+
+**Latest aged-care payroll promotion — 2026-10-20:** the [Southern Cross Care
+record](records/comparative-australia-fwo-southern-cross-care-underpayment-reachability-2026.json)
+adds a worker-triggered institutional-correction route. An overtime question led
+to a self-audit and reported back-pay of A$10.135 million to 3,603 employees out
+of roughly 5,500 affected staff, plus a locate-and-remit rule and broader
+payroll controls. Individual reachability, receipt, adequacy, remaining-worker
+count, later pay accuracy, and household recovery remain open.
+
+**Latest Australia truck-driver receipt promotion — 2026-10-20:** the [Atkins
+record](records/comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018.json)
+adds a ten-worker reported-receipt endpoint. After appeal dismissal, roughly
+A$468,000 held in court was released; the official follow-up reports all ten
+drivers received A$8,012–A$91,566 each against A$374,487 in ordered back-pay plus
+superannuation and interest. This is institutional reporting, not an independent
+payment audit; adequacy, household recovery, trust, and later livelihood remain
+open.
+
+**Latest migrant-worker remedy promotion — 2026-10-20:** the [Innovative
+Associates cashback record](records/comparative-australia-fwo-innovative-associates-cashback-2026.json)
+adds a current vulnerable-worker enforcement route. The official release reports
+roughly ten weeks initially unpaid, A$40,164.49 in underpayment, A$148,000 in
+company penalties, A$29,000 against the owner, and full back-pay reported for
+the worker. Payment timing, independent receipt, adequacy, visa safety, later
+work, trust, and durable recovery remain open.
+
+**Latest Australia no-alternative promotion — 2026-10-20:** the [IAA case
+record](records/comparative-australia-fwc-no-alternative-employment-remedy-2024.json)
+adds the counterexample to replacement-work routes: the worker actively sought
+employment but had no secured alternative by the hearing. The Commission
+assessed eight weeks of lost income, deducted two weeks of notice pay, and
+ordered A$8,025 gross plus 11.5% superannuation; payment, later work, household
+recovery, and trust remain unobserved.
+
+**Latest Australia site-clearance promotion — 2026-10-20:** the [lower-paid
+alternative record](records/comparative-australia-fwc-site-clearance-lower-paid-alternative-2024-2025.json)
+adds a same-case work trade-off: after site-clearance loss and dismissal, the
+worker found employment within three weeks, but at lower remuneration with
+significant personal travel costs; the Commission ordered A$18,192 plus
+superannuation. Receipt, job duration, household/time incidence, recurrence,
+trust, and later exit remain unobserved.
+
+**Latest Australia back-pay promotion — 2026-10-20:** the [Longridge record
+](records/comparative-australia-fwo-longridge-underpayment-backpay-2011-2014.json)
+adds two separate worker episodes from commission-only underpayment through
+resignation, alternative-employment search, complaint, enforcement, and court-
+reported full back-pay. One worker's A$20,013.60 due was paid May 2, 2013; the
+other's A$11,646.97 due was paid October 1, 2014. These are institutionally
+reported gross payments, not worker-signed receipts or adequacy measures; later
+livelihood, household security, trust, recurrence, and exit remain open.
+
+**Latest Australia enforcement follow-up — 2026-10-20:** the [Meadley payment
+without reinstatement record](records/comparative-australia-fwc-meadley-payment-without-reinstatement-2013.json)
+adds an official reported-receipt endpoint: A$24,143 compensation was reported
+paid, reinstatement still failed, and the Federal Court awarded a further
+A$15,045 plus interest and imposed a A$10,000 penalty. This is institutional
+reporting rather than an independent payment audit; restored opportunity,
+worker confirmation, household recovery, and later employment remain open.
+
+**Latest Australia underpayment promotion — 2026-10-20:** the [Mudiyanselage
+case record](records/comparative-australia-fwc-mudiyanselage-underpayment-forced-exit-2025.json)
+adds a worker-linked wage-failure chain: approximately 12 weeks of pay owed at
+resignation, A$4,000 documented partial payment, roughly A$7,000 still unpaid at
+the hearing, and a later A$27,424.88 gross compensation order plus 11.5%
+superannuation. The Commission found forced exit and recorded new employment and
+broken trust; order compliance, full receipt, adequacy, durability, and later
+recovery remain open.
+
+**Latest Australia work-control promotion — 2026-10-20:** the [Westrip case
+record](records/comparative-australia-fwc-westrip-dismissal-alternative-employment-remedy-2023.json)
+adds a primary adjudicated route from dismissal to alternative employment,
+non-return, and a compensation order. The worker began a new job five weeks
+after dismissal; the Commission assessed three weeks without remuneration and
+ordered A$3,744 gross less tax within 21 days. The order is not payment receipt,
+and job duration, household recovery, recurrence, trust, and later exit remain
+unobserved.
+
+**Latest WBNS age-and-care promotion — 2026-10-20:** the [older-adult unmet
+assistance record](records/us-urban-wbns-older-adult-unmet-assistance-hardship-2025.json)
+adds a 2025 cross-sectional care-to-material-hardship layer. Among the published
+subgroups, unmet assistance co-occurs with food insecurity (39.3%), forgone
+health care because of cost (44.4%), rent or mortgage problems (9.6%), heating
+or electricity problems (14.5%), and utility shutoff (5.1%); older-adult
+disability and functional-limitation estimates retain separate universes. The
+sample excludes institutional settings and does not establish a dated service
+episode, remedy, causality, or recovery.
+
+**Latest SIPP care-and-work constraint promotion — 2026-10-20:** the [child-care
+assistance/work-constraint record](records/us-sipp-snap-childcare-assistance-work-constraint-2024.json)
+adds a person-month bridge showing that stable SNAP and stable no-SNAP groups
+have different paid-care, child-care-assistance, and work-prevention profiles:
+23.9% versus 31.0% paid care, 14.6% versus 5.2% assistance, and 7.4% versus
+3.4% reporting care prevented work or more work. These are descriptive,
+item-specific SIPP universes with annual fall care fields; they do not establish
+a SNAP effect, care adequacy, or later household recovery.
+
+**Latest SNAP security-and-replacement promotion — 2026-10-20:** the [GAO
+SNAP EBT theft record](records/us-gao-snap-ebt-theft-replacement-2022-2025.json)
+adds an aggregate loss-of-control route: states reported more than $320 million
+in approved replacements for nearly 679,000 households during the statutory
+period, alongside chip-card, mobile-payment, transaction-blocking, monitoring,
+and recipient-security responses. Approved claims are not theft prevalence or
+proof of replacement receipt; interim food access, adequacy, repeat theft,
+trust, and durable recovery remain open.
+
+**Latest student-loan remedy promotion — 2026-10-20:** the [Wells Fargo
+student-loan record](records/us-cfpb-wells-fargo-student-loan-redress-2016-2022.json)
+adds a historical remedy-design-to-closure route: the 2016 CFPB order required
+at least $410,000 in borrower relief, affected-consumer identification,
+returned/uncashed-payment follow-up, and credit-reporting correction; the CFPB
+later terminated the order in 2022 after reporting institutional fulfillment.
+Borrower-level receipt, account correction, adequacy, residual loss, trust,
+switching, and exit remain unobserved.
+
+**Latest Ohio care-access promotion — 2026-10-20:** the [North Lima named-site
+record](records/us-hrsa-hpwo-north-lima-named-site-access-2026.json) links a
+primary-care shortage organization to an active named site through shared HRSA
+organization ID `0516380`, with 72 listed hours per week, patient-facing
+services, phone/portal routing, and organization-level affordability policies.
+The portal is login-gated, public hours are not unambiguous, HRSA and provider
+phone numbers differ, and no appointment, wait, completed-care, health,
+household, trust, or exit outcome is observed.
+
+**Latest U.S. recipient-conditioned refund promotion — 2026-10-20:** the
+[FTC ACRO second-refund record](records/us-ftc-acro-second-refund-2026.json)
+adds a repeat-payment mechanism: 5,685 people who accepted the first payment
+were reported to receive second-round checks totaling more than $6.2 million.
+Prior acceptance is a reachability condition, not proof of second-check
+delivery or cashing; debt correction, adequacy, household recovery, trust,
+switching, and exit remain open.
+
+**Latest U.S. Cash App remedy promotion — 2026-10-20:** the [CFPB Cash App
+fraud-redress record](records/us-cfpb-cash-app-fraud-redress-2025-2026.json)
+promotes the project ledger into the canonical layer. The order reports at
+least 153,866 unauthorized-transfer claims lacking required timely provisional
+credit, orders $75–120 million in consumer redress plus a separate $55 million
+civil penalty, and defines a post-plan reporting contract. A public payment-
+by-case recheck found no Block/Cash App distribution listing; that is a
+visibility boundary, not evidence of nonpayment. Individual correction,
+receipt, adequacy, trust, switching, and exit remain open.
+
+**Latest U.S. consumer-redress promotion — 2026-10-20:** the [FTC Walmart
+wire-transfer dispatch record](records/us-ftc-walmart-wire-refund-dispatch-2026.json)
+promotes an existing project event ledger into the canonical atlas. The FTC
+reports more than $9.8 million in checks for 65,022 affected consumers and a
+90-day cashing window. This is reported dispatch, not verified receipt; delivery,
+cashing, adequacy, residual loss, trust, recurrence, and exit remain open.
+
+**Latest U.S. overtime-hours rotation — 2026-10-20:** the [NBER overtime
+coverage record](records/us-nber-overtime-coverage-earnings-employment-2026.json)
+now adds the paper's CPS hours extension: across 49 state threshold changes,
+the estimate cannot reject no effect on weekly hours, while about 2.3% of
+affected workers were reclassified from salaried to hourly and the aggregate
+decomposition reports 2.7 additional hourly jobs per 100 affected salaried
+workers. This is a separate, less-precise 2008–2026 hours design, not proof of
+unchanged time control or improved household room; paid-hour receipt,
+scheduling authority, and longer-run household outcomes remain open.
+
+**Latest public-benefit case rotation — 2026-10-20:** the [SNAP EBT
+administrative partial-remedy record](records/us-snap-ebt-administrative-partial-remedy-2023-2025.json)
+now places two deliberately non-pooled public cases in the canonical layer:
+Connecticut records a new card and $582 replacement credit before a residual
+claim is denied, while New Jersey records a $400.34 disputed loss followed by
+investigation, hearing, and affirmed denial. These are contrasting
+administrative endpoints, not population rates or household-recovery evidence;
+food adequacy, later continuity, trust, recurrence, and exit remain open.
+
+**Latest UK payment-recourse rotation — 2026-10-20:** the [PSR pre-policy
+provider record](records/comparative-uk-psr-app-provider-prepolicy-2024.json)
+adds the missing firm-level baseline: reported loss reimbursement ranged from
+85% to 24% across 14 banking groups before the mandatory October 2024 rule.
+The [post-policy dashboard record](records/comparative-uk-psr-app-reimbursement-2026-faster-payments-consumer-remedy.json)
+remains separate; the new comparison does not establish a causal before/after
+effect or individual adequacy.
+
+**Latest Brooklyn transit-operation rotation — 2026-10-20:** the [Bay
+Parkway/Cropsey Avenue record](records/us-nyc-bay-parkway-fast-bus-safety-2026.json)
+adds a named construction-start episode with 35,000 corridor riders, 85,000
+route riders, a reported speed floor of 3 mph, and a 2021–2025 baseline of four
+deaths and 26 serious injuries. Completed travel-time, reliability, safety,
+displacement, and rider-acceptance outcomes remain the next acquisition fields.
+
+**Latest wildfire-recovery rotation — 2026-10-19:** the [LA County rebuild access and self-certification checkpoint](projects/us-wildfire-insurance/la-county-rebuild-access-self-certification-checkpoint-2026-10-19.md) now adds live fire-area stage counts, a 43-row applications/permits/completions time series, 33,125 bounded One-Stop visits, and applicant-stage counts from the public Power BI model. The dashboard still does not expose audit findings, refund totals, address-level completion, occupancy, insurance payment adequacy, or household recovery; its aggregate applicant-time measure was implausible and is retained as a data-quality boundary. Next: obtain a lawful project/property trajectory or program-level audit/refund file.
+
+**Latest UK digital-finance risk rotation — 2026-10-19:** the [Open Banking Limited fraud record](records/comparative-uk-open-banking-limited-2026-api-payments-users-fraud.json) now distinguishes lower observed fraud patterns for variable recurring payments and app-authenticated journeys from single immediate/browser journeys, while preserving the missing denominators, loss severity, reimbursement, and household-outcome limits. This adds a journey-design risk stage to the existing scale record; it is not a causal safety estimate or a unique-user panel. Next: find provider- or victim-level reimbursement and payment-value evidence.
+
+**Latest UK remedy-conversion rotation — 2026-10-19:** the [PSR APP reimbursement record](records/comparative-uk-psr-app-reimbursement-2026-faster-payments-consumer-remedy.json) adds the missing aggregate remedy stage for Faster Payments: 88% of approximately £360 million in in-scope APP-scam losses was reimbursed over the first 18 months, 82% of claims closed within five business days, and Q1 2026 returned 89% of claim value. The source covers Faster Payments broadly, not open-banking payments specifically, and does not expose individual adequacy, residual loss, trust, switching, or durable recovery. Next: seek provider/victim linkage or preserve the boundary rather than merging the systems.
+
+**Latest consumer-redress access checkpoint — 2026-10-19:** the [Hello Digit acquisition gate](projects/us-customer-automation-recourse/platform-account-followup-acquisition-gate-2026-10-19.md) was rechecked against the official CFPB page after the October 15 email-notification date. The public route still exposes the order, EPIQ administrator, and notification date but no recipient-level delivery, payment status, returned-payment, account-correction, adequacy, trust, or exit field. This is a logged access boundary, not evidence of nonpayment; the next qualifying input is a public administrator status or privacy-approved recipient record.
+
+**Latest cultural-meaning rotation — 2026-10-19:** the [arts participation, social connection, and meaning comparison](projects/cross-domain/arts-participation-social-connection-meaning-comparison-2026-10-19.md) separates income-stratified arts attendance, loneliness, contact frequency, and planned national ritual. Next: follow one named person, place, or event from access conditions to actual participation, repeated connection or meaning, and later civic, health, or collective outcome; do not treat attendance, contact, or planned celebration as belonging or action.
+
+**Education-infrastructure comparison completed — 2026-10-19:** the [school-finance, teacher-supply, and early-childhood access map](projects/cross-domain/education-finance-teacher-supply-early-childhood-access-comparison-2026-10-19.md) connects long-run public investment, teacher shortage/status, and territorial preschool capacity without treating GDP, staffing, enrollment, or occupancy as the same outcome. The next useful input is a named place or school network with staffing, attendance/care use, caregiver time, and later learning or work outcomes.
+
+**Environmental-health comparison completed — 2026-10-19:** the [air-pollution, health, learning, and place map](projects/cross-domain/air-pollution-health-learning-place-comparison-2026-10-19.md) compares US Army circulatory-disease exposure evidence with rural Punjab school-learning evidence. The next input must measure indoor/outdoor exposure, mitigation or non-use, cost, attendance/work, health or learning, and persistence in a named setting.
+
+**Geopolitical capability comparison completed — 2026-10-19:** the [Baltic drone capability and industrial resilience map](projects/ai-work-control/lithuania-ukraine-drone-capability-response-comparison-2026-10-19.md) connects operational exposure, Piorun procurement, and Lithuania–Ukraine UAV/EW industrial planning without treating an interception as deterrence or a framework/letter of intent as delivered capability. The next input is a named contract or facility with delivery, acceptance, readiness, and later civilian or strategic outcome.
+
+**Care-governance comparison completed — 2026-10-19:** the [nursing-home finance, ownership, regulation, and resident-outcome map](projects/us-nursing-home-inspection-quality/nursing-home-finance-ownership-regulation-access-comparison-2026-10-19.md) connects payment design, related-party finance, mergers, inspections, staffing thresholds, access, and roommate placement without pooling their units or outcomes. The next useful input is a facility-level episode joining institutional change to staffing, resident choice, care experience, and later outcome.
+
+**AI framework comparison completed — 2026-10-19:** the [four-surface AI deployment comparison](projects/us-worker-control-remedy/ai-framework-deployment-comparison-2026-10-19.md) now compares P&G innovation, patent-law expertise, meal-delivery customer service, and firm organization capital without pooling them. The records show capability or throughput signals, but no common evidence for worker authority, gain sharing, actual customer remedy, durable trust, or exit. The next AI pass should add governance or outcome evidence rather than another generic adoption estimate.
+
+**Latest U.S. redress-implementation rotation — 2026-10-19:** the [Amazon
+Prime refund record](records/us-ftc-amazon-prime-redress-expansion-2026.json)
+now joins four dated stages: September issuance-versus-acceptance totals, the
+approved voiding/residual-payout process, the October 19 live FTC page
+confirming automatic refunds through April 2027, and the newly rechecked
+status that more than $845 million had been issued by September. The revised
+order also schedules exact accepted-amount reconciliation by the end of March
+2027 and a conditional pro-rata payment of up to $149 by the end of April 2027
+if accepted payments remain below $1 billion. This advances the route from
+court-approved design into active implementation, but still does not expose a
+recipient denominator, delivery, individual acceptance, adequacy, or later
+Prime use and exit. The court/administrator recheck found no newer accepted-
+dollar total, but the filing's earlier notice checkpoint records more than
+12.8 million potentially eligible consumers, 11.6 million postcard notices,
+9.3 million email notices, and nearly 2 million submitted claim forms. Those
+are notice and claim-stage counts, not successful delivery or receipt. Next:
+recheck the administrator or court record for updated accepted amounts or
+payment-status totals; do not convert the implementation window into receipt.
+
+**Latest U.S. AI-policy framework rotation — 2026-10-19:** the [NBER pro-worker AI record](records/us-nber-pro-worker-ai-technology-policy-framework-2026.json) distinguishes labor-augmenting, capital-augmenting, automating, expertise-leveling, and new task-creating technologies, and identifies misaligned incentives, path dependence, and pro-automation ideology as reasons to underinvest in worker-capability-building AI. The framework is now testable against four observed deployment surfaces already in the atlas: a 776-person P&G product-innovation experiment, a patent-lawyer expertise experiment, a 138-agent customer-service experiment, and firm-level organization-capital/workforce-composition evidence. These are distinct populations and outcomes, not a pooled effect. Next: compare who controls deployment, training, evaluation, pay, safety, prices, and consumer outcomes across those surfaces.
 
 **Latest U.S. tariff-incidence counterexample — 2026-10-19:** the [NBER quantity-discount record](records/us-nber-tariff-quantity-discounts-scale-economies-2026.json) finds that one-for-one observed import-price increases during 2018–19 partly reflected collapsed transaction scale; after controlling for scale economies, strategic pass-through was 60%, implying foreign exporters absorbed part of the burden through reduced markups. Next: join import incidence to retail prices, domestic markups, household baskets, and later supply-chain response.
 
-**Latest U.S. health-insurance competition rotation — 2026-10-19:** the [NBER health-insurance record](records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json) covers commercial, Medicare Advantage, and Medicaid markets and links concentration and adverse selection to premiums, plan design, and consumer welfare; empirical evidence confirms consolidation raises premiums. Next: follow premium changes into network access, care, household cost, switching, and remedy rather than treating concentration or price alone as welfare.
+The [tariff-incidence and consumer-meaning comparison](projects/us-tariff-incidence-quantity-discounts/tariff-incidence-consumer-meaning-comparison-2026-10-19.md) now closes the bounded synthesis across upstream incidence, 2025–26 consumer-price transmission, and Ipsos price attribution. It advances the chain without pooling years, products, or respondents; the next input must connect a named product or household to substitution, liquidity, complaint, switching, or political judgment.
+
+**Latest U.S. health-insurance competition rotation — 2026-10-19:** the [NBER health-insurance record](records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json) covers commercial, Medicare Advantage, and Medicaid markets and links concentration and adverse selection to premiums, plan design, and consumer welfare; empirical evidence confirms consolidation raises premiums. The CMS bridge now retains 23.1 million 2026 Exchange plan selections and a 548-row Network PUF with 534 nonempty network URLs. Those are selection and directory-metadata stages, not provider availability or care receipt. Next: follow premium changes into network access, care, household cost, switching, and remedy rather than treating concentration, enrollment, or a network URL alone as welfare.
+
+The [health-insurance market-power and network-access comparison](projects/us-health-cost-household-choice/health-insurance-market-power-network-access-comparison-2026-10-19.md) now formalizes that route. The next usable input is one plan or issuer with reproducible provider-availability, travel/appointment, and total-cost checks; plan selection and a network URL remain insufficient for a care or welfare finding.
 
 **Latest U.S. low-liquidity provenance repair — 2026-10-19:** the existing [NBER consumption-wedges record](records/us-nber-consumption-wedges-low-liquidity-2026.json) was rechecked against the official W34891 page; its stale retrieval hash was replaced and official/project links were added. Its substantive finding remains that negative and positive deviations from a frictionless benchmark can coexist, so lower or higher spending cannot be read as preference or welfare without cash, expectations, and adjustment-cost evidence.
 
-**Latest U.S. household-bargaining rotation — 2026-10-19:** the [NBER gender-specific shocks record](records/us-nber-gender-shocks-household-bargaining-consumption-2026.json) uses a machine-learning gendered-goods index to show that industrial-robot exposure shifted household consumption toward products more commonly purchased by single women, while fracking evidence for male-favored goods was suggestive but less robust. Total child-product spending did not significantly change, though robot exposure shifted composition toward daughter-associated goods. Next: connect labor shocks to income, prices, unpaid work, decision rights, and child outcomes.
+**Latest U.S. household-bargaining rotation — 2026-10-19:** the [NBER gender-specific shocks record](records/us-nber-gender-shocks-household-bargaining-consumption-2026.json) uses a machine-learning gendered-goods index to show that industrial-robot exposure shifted household consumption toward products more commonly purchased by single women, while fracking evidence for male-favored goods was suggestive but less robust. Total child-product spending did not significantly change, though robot exposure shifted composition toward daughter-associated goods. Read beside the [guaranteed-income intrahousehold experiment](records/us-nber-guaranteed-income-intrahousehold-dynamics-2026.json), which directly observes mixed relationship, work, transfer, and healthcare signals after randomized income exposure, the route now separates allocation composition from household stability and meaning outcomes. These are not pooled shocks or estimands. Next: connect labor shocks to income, prices, unpaid work, decision rights, and child outcomes.
 
-**Latest U.S. tariff/consumer-price rotation — 2026-10-19:** the [NBER tariff pass-through record](records/us-nber-tariff-pass-through-consumer-prices-2026.json) finds that about 26% of the 2025–26 tariff increase passed through to consumer prices; 64% of that increase was direct and 36% came through imported inputs and domestic markups, with the indirect channel taking 9–12 months. Next: connect price incidence to household income, product substitution, firm margins, inventory, and remedy.
+The [household bargaining and transfer comparison](projects/us-household-financial-pressure/household-bargaining-labor-shock-transfer-comparison-2026-10-19.md) completes the bounded bridge across labor shocks and cash assigned to one household member. The next input must observe decision rights, unpaid care, and persistence after the shock or transfer; spending composition or partner employment alone is insufficient.
+
+**Latest U.S. tariff/consumer-price rotation — 2026-10-19:** the [NBER tariff pass-through record](records/us-nber-tariff-pass-through-consumer-prices-2026.json) finds that about 26% of the 2025–26 tariff increase passed through to consumer prices; 64% of that increase was direct and 36% came through imported inputs and domestic markups, with the indirect channel taking 9–12 months. The separate [Ipsos tracker record](records/comparative-ipsos-consumer-tracker-september-2026-tariffs-price-politics-trust.json) reports 81% expecting tariffs to raise prices and 71% saying they had already seen tariff-linked increases. These are not pooled measures: one estimates incidence and the other captures perception and attribution. Next: connect price incidence to household income, product substitution, firm margins, inventory, and remedy.
 
 **Latest U.S. consumer provenance repair — 2026-10-19:** the existing [NBER Shopping From Home record](records/us-nber-shopping-from-home-consumer-prices-2026.json) was rechecked against the official W34883 page and its placeholder hash was replaced with the retrieved page hash. The finding remains bounded: remote work changes shopping mode, time, product mix, and prices paid, but does not by itself establish welfare or retailer market power.
 
@@ -26,13 +720,19 @@
 
 **Latest U.S. network-and-innovation rotation — 2026-10-19:** the [NBER economic-connectedness record](records/us-nber-social-capital-innovation-economic-connectedness-2026.json) finds that one standard deviation more high-income Facebook friendships is associated with 97% more patents per capita in patenting ZIP Codes and 45% more breakthrough patents where they occur; relocation and quasi-experimental tests support a causal interpretation. Next: trace the financing channel to firm survival, jobs, wages, local capacity, and consumer benefit.
 
+The [social-connectedness, innovation, and mobility comparison](projects/cross-domain/social-connectedness-innovation-mobility-comparison-2026-10-19.md) completes the bounded bridge to the separate upward-mobility estimate. The next input must identify a usable connection and a named financing, school, job, patent, wage, or mobility transition; patent density alone is not household benefit.
+
 **Latest U.S. work-and-care rotation — 2026-10-19:** the [NBER fertility/remote-work record](records/us-nber-fertility-mothers-remote-work-2003-2024.json) finds that fertility reduces mothers’ labor-force participation; an additional child increased remote-work likelihood before 2020 but reduced it after 2020. Next: connect remote work to care time, schedule control, housing, earnings, employer practice, and wellbeing; do not assume remote work equals flexibility.
+
+The [work-care flexibility and childcare comparison](projects/cross-domain/work-care-flexibility-childcare-conversion-comparison-2026-10-19.md) completes the bounded bridge with current parent-reported access and household allocation. The next input must observe actual leave or remote-work use, childcare cost and quality, paid/unpaid hours, and later career or household outcomes.
 
 **Latest U.S. multinational-firm rotation — 2026-10-19:** the [NBER tax-planning record](records/us-nber-multinational-tax-planning-foreign-profits-rd-2026.json) finds that structures adopted by 18% of US multinationals were associated with 36% of foreign profits in 2016; the model implies tax-revenue/economic-activity tradeoffs amplified by global R&D. Next: connect tax structure to domestic investment, employment, prices, public capacity, and workers; modeled tradeoffs are not realized reform effects.
 
 **Latest U.S. labor/consumer rotation — 2026-10-19:** the [NBER labor-force-exit record](records/us-nber-postpandemic-labor-force-exit-low-income-2026.json) finds persistent exit concentrated among low-income and low-skill workers, especially low-skilled unmarried men; self-employment replaces about 25% of lost W-2 income, while several leading explanations show little support. Next: connect exit to health, care, informal work, household resources, benefits, re-entry, and job quality; do not read exit as either automatic harm or voluntary leisure.
 
 **Latest U.S. food-policy counterpoint — 2026-10-19:** the [NBER SNAP restriction record](records/us-nber-snap-sugary-restrictions-spending-calories-tax-2026.json) reports an 11% fall in restricted spending and 5–8% reductions in purchased calories and sugar, with asymmetric substitution, little shelf-price movement, a 1.9% tax-inclusive price increase, and persistent online response. Next: compare restriction and P-EBT expansion through consumption, diet, health, food security, stigma, and unequal household burden; the $1.1 billion welfare estimate is modeled.
+
+The [SNAP restriction, P-EBT, and food-security comparison](projects/us-safety-net-access/snap-restriction-p-ebt-purchase-food-security-comparison-2026-10-19.md) completes that bounded policy comparison. The next input must join benefit receipt and purchases to consumption or dietary measures, food-security status, cash substitution, and later health; purchase direction alone is not welfare.
 
 **Latest U.S. consumer-assistance rotation — 2026-10-19:** the [NBER P-EBT purchase record](records/us-nber-p-ebt-sugary-item-spending-2026.json) finds a 16% rise in weekly sugary-item spending among SNAP-eligible households with school-aged children after P-EBT disbursement, larger than the overall food-spending increase. Next: join purchases to consumption, diet, household resources, health, and food security; do not treat purchase data as nutrition or welfare.
 
@@ -54,7 +754,7 @@
 
 **Latest U.S. consumer/worker rotation — 2026-10-19:** the [NBER poor-family minimum-wage record](records/us-nber-minimum-wage-poor-low-income-families-2026.json) adds a household-positioned counterpoint to the minimum-wage and automation chain. In SIPP evidence, initially-employed low-wage workers in poor and low-income families show adverse employment, hours, and earnings effects, with no extra adverse gradient for the poorest workers. Next: match income-to-needs position to hours, prices, firm adjustment, automation, benefits, worker voice, and household consumption; the abstract does not disclose effect sizes or prove the full causal mechanism.
 
-**Latest U.S. industrial worker-risk rotation — 2026-10-18:** the [NBER firm
+**Latest U.S. industrial worker-risk rotation — 2026-10-19:** the [NBER firm
 insurance and labor-income-risk record](records/us-nber-firm-insurance-labor-income-risk-2026.json)
 adds the missing financing stage to the industrial chain: higher risk premia
 erode firm insurance, bad-times pass-through of firm shocks into earnings rises,
@@ -62,16 +762,21 @@ and lower-paid workers near the separation margin are especially exposed. Next:
 connect a named U.S. firm or sector to financing conditions, hours/pay,
 separation, worker voice, household room, and any realized transfer or remedy;
 do not treat modeled recession-contingent transfers as implemented protection.
+The related [NBER job-security record](records/us-nber-job-security-mobility-incomplete-markets-2026.json)
+supplies a separate stated wage-for-risk comparator; it is not pooled with the
+firm-insurance evidence.
 
-The next comparison tests the response boundary with the [NBER overtime-coverage
-record](records/us-nber-overtime-coverage-earnings-employment-2026.json): state
-salary-threshold changes raised earnings without a detected employment decline,
-and firms raised salaries above the threshold rather than lowering base pay or
-substituting more workers for fewer hours. Curiosity questions: did paid hours,
-classification, worker time control, and household room change; did the result
-hold across industries and lower-paid workers; and what would show that the
-earnings result was only a threshold adjustment? Stop after effect sizes,
-hours, subgroup scope, and at least one contrary or boundary case are recorded.
+The completed comparison with the [NBER overtime-coverage
+record](records/us-nber-overtime-coverage-earnings-employment-2026.json) now
+records 19 state threshold increases, a 21% fall in the old-to-new threshold
+salary band, a 1.4% average earnings increase among affected salaried workers,
+an 8.5% base-salary increase for the subgroup pushed above the threshold, and
+no statistically distinguishable aggregate employment effect. Three-quarters
+of the salary-band decline was explained by employers pushing salaries above
+the new threshold, and 16% of affected workers were pushed above it. The next
+test is narrower: retrieve the reported hours estimates and determine whether
+the pay/classification response changed paid hours, worker time control,
+household room, or durable bargaining; do not convert earnings into welfare.
 
 The following industrial chain is the [NBER dynamic-investment and
 product-market-rivalry record](records/us-nber-dynamic-investment-product-market-rivalry-2026.json).
@@ -287,7 +992,7 @@ The Amazon Flex repeated-payment route
 is now an implementation comparator, not proof of the same harm or of restored
 worker control.
 
-**Latest U.S. consumer rotation — 2026-10-18:** the [privacy control and
+**Latest U.S. consumer rotation — 2026-10-19:** the [privacy control and
 completion audit](projects/cross-domain/us-consumer-privacy-control-completion-audit-v1.md)
 follows Walmart’s reported access, deletion, and sale-opt-out request stages,
 compares them with California’s centralized DROP broker route and NBER evidence
@@ -300,7 +1005,11 @@ of registrants had a profile deleted by at least one broker and the typical user
 was deleted from more than 40 brokers—but this is not all-broker deletion or a
 later outcome. Next: seek a same-request or repeat-consumer trace linking
 verification effort to actual data change and later fraud, targeting, trust,
-switching, or repeat-request outcomes.
+switching, or repeat-request outcomes. The retailer privacy bridge is now
+ explicitly closed as an acquisition gap for this pass: public evidence stops
+ before a linked request-level persistence or later-behavior outcome. The next
+ named platform-control pass moves to an account-level remedy or automation
+ episode with a dated response.
 
 **Latest U.S. industrial rotation — 2026-10-18:** the [labor remedy and
 worker-power audit](projects/cross-domain/us-industrial-labor-remedy-worker-power-audit-v1.md)
@@ -518,10 +1227,54 @@ The same [Creative Australia 2025 record](records/comparative-creative-australia
 
 **Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
 
-**Current registry checkpoint:** 2014 machine-readable records and 5999
-observations. The trend registry holds 2014 records and
-5999 observations. The queue remains open; each completed rotation creates the next
+**Latest Australia customer-allocation promotion — 2026-10-20:** the [non-return case record](records/comparative-australia-fwc-customer-allocation-nonreturn-remedy-2023.json)
+adds a documented job-search and non-return route. The worker made 11
+applications, remained out of work for seven weeks and five days, began
+equivalent-or-better full-time work on September 4, and received an A$4,312
+compensation order tied to the customer-allocation mechanism. Payment,
+job duration, household recovery, later trust, recurrence, and exit remain
+unobserved.
+
+**Current registry checkpoint:** 2130 machine-readable records and 6179
+observations. The trend registry holds 2130 records and
+6179 observations. The queue remains open; each completed rotation creates the next
 test rather than closing the program.
+
+**Latest critical-infrastructure incident-response promotion — 2026-10-20:** the [Polish Starlink-station sabotage investigation record](records/comparative-poland-starlink-station-sabotage-investigation-2026.json) adds a named September infrastructure incident, Polish evidence preparation, European Arrest Warrants, and arrests in Germany. Final guilt, attribution, service restoration, recurrence, and deterrence remain unobserved.
+
+**Latest East Shield implementation promotion — 2026-10-20:** the [Poland East Shield border-defense record](records/comparative-poland-east-shield-border-defense-implementation-2026.json) adds reported physical implementation: 11 km of linear engineering works completed, 186 km of barrier modernization begun, 2 of 16 material-storage sites started, and materials secured for 50 km. Deterrence, civilian protection, land burden, mobility, and community legitimacy remain unobserved.
+
+**Latest Amtrak operating-disruption promotion — 2026-10-20:** the [A-Interlocking record](records/us-amtrak-a-interlocking-live-service-disruption-2026.json) adds a named October 16–26 infrastructure outage, reduced/cancelled service, route modifications, three timed bus-bridge round trips, and additional express-bus/rebooking alternatives. Passenger burden, mitigation adequacy, compensation, post-restoration reliability, and acceptance remain unobserved.
+
+**Latest Rūdninkai host-infrastructure realization update — 2026-10-20:** the [Rūdninkai record](records/us-lithuania-rudninkai-host-infrastructure-operation-2026.json) now adds reported completion of residential blocks for up to 600 German Brigade personnel within Phase 1, with approximately €127 million in reported works. Furnishing, security setup, handover, occupancy, local incidence, and host-place acceptance remain unobserved.
+
+**Latest Switchblade delivery promotion — 2026-10-20:** the [Lithuania Switchblade 600 record](records/comparative-lithuania-switchblade-600-delivery-2026.json) adds the reported first shipment reaching Armed Forces warehouses with launch/control equipment, a training simulator, and a maintenance package. Quantity, acceptance, training, deployment, use, deterrence, adversary response, and civilian protection remain unobserved.
+
+**Latest SkyFortress test-deployment promotion — 2026-10-20:** the [Lithuania SkyFortress record](records/comparative-lithuania-skyfortress-test-deployment-2026.json) adds a named Ukrainian acoustic/electromagnetic drone-detection system, reported installation intent, sensor-data processing, signature libraries, and personnel training within a test program. Detection performance, integration, warning, interception, deterrence, and civilian protection remain unobserved.
+
+**Latest Leopard 2A8 industrial-capacity promotion — 2026-10-20:** the [Lithuania Leopard 2A8 facility record](records/comparative-lithuania-leopard-2a8-facility-construction-2026.json) adds construction start at Kaunas FEZ, Lithuania Defense Services as implementer, approximately €50 million in planned investment, and an approximately 80-job target by 2028. Completion, output, repair throughput, readiness, realized jobs, and reduced external dependence remain unobserved.
+
+**Latest Spike LR2 receipt promotion — 2026-10-20:** the [Lithuania Spike LR2 record](records/comparative-lithuania-spike-lr2-warehouse-receipt-2026.json) adds a reported warehouse receipt under an implemented Euro Spike GmbH contract valued above €3 million, with a stated link to Vilkas Infantry Fighting Vehicles. Quantity, acceptance, training, maintenance, readiness, use, replenishment, deterrence, and civilian protection remain unobserved.
+
+**Latest Bolide/RBS-70 delivery promotion — 2026-10-20:** the [Lithuania Bolide record](records/comparative-lithuania-bolide-rbs70-delivery-2026.json) adds a reported €7 million delivery of Saab Dynamics Bolide missiles for the RBS-70 Air Defence Battalion, alongside a reported 2026–2032 supply contract. Quantity, acceptance, crew readiness, firing use, interception, deterrence, and civilian protection remain unobserved.
+
+**Latest DEMZ ammunition-industry promotion — 2026-10-20:** the [Lithuania–Ukraine DEMZ record](records/comparative-lithuania-demz-ammunition-factory-investment-2026.json) adds a named investment contract for a Lithuanian ammunition factory in Alytus and Prienai district, with up to 450 projected jobs. Contract value, construction, production, deliveries, actual hiring, supply substitution, and local effects remain unobserved.
+
+**Latest Lithuania–Ukraine UAV/EW production-intent promotion — 2026-10-20:** the [Pekkla–December One RND record](records/comparative-lithuania-ukraine-uav-ew-joint-venture-intent-2026.json) adds a Letter of Intent for electronic-warfare systems and UAV components, a planned Lithuanian joint venture, and a stated 2027 production aim. Binding formation, technology transfer, testing, production, delivery, operational use, realized resilience, jobs, and public response remain unobserved.
+
+**Latest Lithuania–Norway maritime-capability promotion — 2026-10-20:** the [maritime MOU record](records/comparative-lithuania-norway-maritime-capability-mou-2026.json) adds a bilateral memorandum, a reported Lithuanian requirement for four modular multirole ships, associated mine-countermeasure capability, and a planned minimum 30% Lithuanian project-value share. The MOU is explicitly non-binding; procurement, financing, construction, delivery, acceptance, operation, realized local content, jobs, readiness, and civilian effects remain unobserved.
+
+**Latest critical-infrastructure governance promotion — 2026-10-20:** the [Polish energy-sector information-sharing record](records/comparative-poland-energy-critical-infrastructure-information-sharing-2026.json) adds a five-company intent agreement, planned CyberEnergyInfo24 platform, and planned risk-analysis center for cyber, physical, insider, and hybrid threats. Platform operation, incident detection, response, and avoided disruption remain unobserved.
+
+**Latest cross-border energy-security promotion — 2026-10-20:** the [Harmony Link energy-security record](records/comparative-poland-lithuania-harmony-link-energy-security-2026.json) adds a PSE–Litgrid technical agreement, shared implementation responsibility, and Poland–Lithuania crisis-response mechanisms for personnel, equipment, spare parts, exercises, physical protection, and cybersecurity. Commissioning, transfer capacity, reliability, actual prices, and household/firm effects remain unobserved.
+
+**Latest air-surveillance capability promotion — 2026-10-20:** the [Lithuania AN/TPS-77 MRR radar record](records/comparative-lithuania-antps77-mrr-radar-deployment-2026.json) adds reported delivery and integration of Lockheed Martin mobile radars into Lithuania's air-surveillance and NATO common-air-picture systems. It advances the lane from procurement/funding to delivered integration, while quantity, acceptance, uptime, actual detections, response, deterrence, and civilian protection remain unobserved.
+
+**Latest defense-industrial capacity promotion — 2026-10-20:** the [Lithuania RSI Europe/Odin Defence grant record](records/comparative-lithuania-rsi-europe-odinefence-eu-defense-grant-2026.json) adds an EU-selected €29.5m project, named Lithuanian/Estonian partners, and planned Panevėžys expansion. It advances the lane from industrial intent to funded selection, while disbursement, construction, jobs, production, delivery, readiness, and regional effects remain unobserved.
+
+**Latest geopolitical-labor promotion — 2026-10-20:** the [USMCA Alimentos Grole labor-remedy record](records/comparative-usmca-alimentos-grole-labor-remedy-2026.json) adds a named facility resolution with nine reinstatements carrying reported full backpay and benefits, two severance-by-preference outcomes, union access, governance changes, monitoring, and trade resumption. Individual receipt, adequacy, non-retaliation, durable worker power, and later trust remain unobserved.
+
+**Latest U.S. credit-card recourse promotion — 2026-10-20:** the [CFPB credit-card monetary-relief record](records/us-cfpb-credit-card-monetary-relief-2026.json) adds 25 capped public complaint cases labeled closed with monetary relief and timely response. Fifteen include a public response field, while payment amount, receipt, account correction, adequacy, and durable recovery remain unobserved.
 
 The latest US consumer-finance rotation adds the [NBER Credit Card Banking
 record](records/us-nber-credit-card-banking-market-power-2026.json). It follows
@@ -531,6 +1284,27 @@ The immediate next test is borrower-weighted: connect lender-side spreads and
 returns to actual APRs, balances, payment paths, income, credit tier,
 complaints, remedy, and exit without treating broad market coverage as a
 same-household panel.
+
+**Latest U.S. credit-card offer-surface rotation — 2026-10-20:** the [CFPB
+Terms of Credit Card Plans record](records/us-cfpb-tccp-card-terms-2025.json)
+adds the issuer/product layer beneath that borrower-weighted test: 663 product
+rows from 195 institutions, 512 nationally available products, 396 products
+with purchase APR variation by credit tier, 149 introductory-APR offers, and
+654 rows reporting late fees. These are offer and disclosure surfaces, not
+assigned borrower APRs, approval, balances, payments, or realized household
+cost. The next test remains a lawful account or borrower ledger linking
+approval, assigned terms, balance, payment, fee, complaint or remedy, and later
+switching or exit.
+
+**Latest U.S. credit-card complaint-route rotation — 2026-10-20:** the [CFPB
+2026 partial-year credit-card complaint record](records/us-cfpb-credit-card-complaint-routes-2026-ytd.json)
+adds a live administrative slice: 74,236 published complaints received through
+September, with 70.4% closed with explanation, 15.5% with monetary relief, 9.6%
+with non-monetary relief, 4.2% still in progress, and 98.7% marked timely. The
+labels show route and response visibility, not verified payment, account
+correction, adequacy, or household recovery. The next test remains a lawful
+account or complaint episode with the original billing problem, response,
+correction/payment, repeat effort, and later use or exit.
 
 The latest US wage-and-consumer rotation adds the [NBER sticky-wage record](records/us-nber-sticky-wage-norms-real-wage-loss-2026.json).
 It follows firm wage-setting norms through worker real pay, job changing,
@@ -9947,7 +10721,7 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 34 local episode/remedy surfaces, including the OpenAI/Statsig
+now covers 39 local episode/remedy surfaces, including the OpenAI/Statsig
 potential-claimant settlement, Apple's reported back-pay implementation, five
 IER individual-resolution summaries, and three named CFPB
 redress/distribution records plus the VRURC recall implementation bridge.
@@ -12572,8 +13346,8 @@ shared next test: one privacy-preserving family or encounter ledger with need,
 usable route, effort/time, completed use, protected/sacrificed outcome,
 institutional response, and later stability or exit.
 
-**Open-middle blocker audit — 2026-09-19:** the new [open-middle blocker
-audit](US-BROAD-OPEN-MIDDLE-BLOCKER-AUDIT_V1.md) counts the 163 explicitly open
+**Open-middle blocker audit — 2026-10-19:** the [open-middle blocker
+audit](US-BROAD-OPEN-MIDDLE-BLOCKER-AUDIT_V1.md) counts the 176 explicitly open
 arrows by missing stage family. Later outcome/durability (113 mentions),
 alternative/non-use/switching (121), and trust/meaning/action (102) are the
 dominant open stages; receipt/implementation (78), money/time/adequacy (72),

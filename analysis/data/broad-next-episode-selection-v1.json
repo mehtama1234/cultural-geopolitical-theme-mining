@@ -1,9 +1,9 @@
 {
   "format": "broad-next-episode-selection-v1",
   "status": "ranked_local_route_decision",
-  "checked": "2026-09-21",
+  "checked": "2026-10-20",
   "promotion_checkpoint": {
-    "checked": "2026-09-19",
+    "checked": "2026-10-19",
     "result": "new_public_findings_are_visible_in_the_central_broad_matrix",
     "promoted_boundaries": [
       "material-difficulty search is not completed help or recovery",
@@ -13,7 +13,7 @@
       "agency remedy or damages order is not verified safe return or exit"
     ],
     "remaining_decisive_gap": "same-unit alternative or non-use, remedy receipt, protected/sacrificed outcome, and later recovery, trust, action, or exit",
-    "validation": "24-check publication gate passed"
+    "validation": "34-check publication gate passed on 2026-10-20"
   },
   "decision_question": "Which existing local source should receive the next same-case episode-depth pass?",
   "selection_rule": "Use the largest privacy-minimized same-person event surface to complete the local stage gate; once its missing middle is verified, prioritize the smallest gated acquisition capable of adding the missing event, choice, remedy, and meaning/action links, while retaining route-specific counterexamples without pooling them.",
@@ -25,8 +25,8 @@
   },
   "same_case_gate": {
     "audit": "analysis/data/broad-same-case-episode-availability-audit-v1.json",
-    "local_surface_count": 34,
-    "observed_alternative_or_nonuse_surfaces": 8,
+    "local_surface_count": 41,
+    "observed_alternative_or_nonuse_surfaces": 9,
     "observed_verified_remedy_or_outcome_followup_surfaces": 3,
     "qualifies": false
   },
@@ -112,6 +112,22 @@
     "promotion_boundary": "Registration-gated documentation route only; no UAS respondent file, overlap, denominator, or result has been acquired or estimated.",
     "access_status": "registration_required"
   },
-  "next_action": "Keep the MEPS stage gate closed until its historical staged file is restored. If an authorized account holder supplies UAS files under terms that expressly permit the workflow, run the file inventory, overlap, timing, weights, missingness, and remedy gates before any estimate; do not autonomously retrieve, transform, or analyze UAS respondent data. The public-only CFPB Ombudsman depth pass is complete and remains not_qualified: it documents failed/attempted receipt, effort, escalation, and facilitated reissue, but not recipient-level cashing, adequacy, residual loss, trust, or exit. Return the program to the broader rotation and use the public-systems/safety-net implementation specification as the next structural handoff if no compliant respondent file is supplied.",
+  "public_systems_fallback_progress": {
+    "checked": "2026-10-19",
+    "route": "SNAP EBT theft and replacement administrative cases",
+    "source": "analysis/projects/us-safety-net-access/public-benefit-episode-acquisition-gate-2026-10-19.md",
+    "new_stages": ["case-linked report or claim", "administrative decision", "reported replacement or affirmed denial", "residual appeal disposition"],
+    "remaining_fields": ["food-gap duration", "replacement use and adequacy", "later benefit continuity", "household security", "trust", "action", "exit"],
+    "promotion_result": false,
+    "boundary": "Connecticut and New Jersey are separate anonymized or claimant-level cases and must not be pooled into one household episode."
+  },
+  "meps_closure_audit": {
+    "checked": "2026-10-20",
+    "source": "analysis/projects/us-health-cost-household-choice/meps-2024-episode-closure-audit-2026-10-20.md",
+    "decision": "bounded_public_comparator_closed_to_repetitive_refinement",
+    "reopen_if": ["new MEPS episode field", "authorized same-unit linkage", "new source join preserving unit and clock"],
+    "remaining_missing_middle": ["dated_need_or_bill", "usable_alternative_or_nonuse", "event_specific_choice", "household_tradeoff", "verified_remedy_or_recovery", "meaning_action_or_exit"]
+  },
+  "next_action": "Keep the MEPS stage gate closed to repetitive payment/event refinement unless a newly available episode field appears. If an authorized account holder supplies UAS files under terms that expressly permit the workflow, run the file inventory, overlap, timing, weights, missingness, and remedy gates before any estimate; do not autonomously retrieve, transform, or analyze UAS respondent data. The public-only CFPB Ombudsman and SNAP administrative passes are complete but remain not_qualified: they document route effort, institutional response, and partial remedy or denial, but not a complete recipient-level recovery and durable outcome. Continue the broader rotation and promote no new end-to-end claim until an authorized longitudinal file or identifier-bearing public episode adds the missing downstream outcome stages.",
   "storage_boundary": "No new acquisition. The historical 54 MB MEPS staged ledger is not currently present outside Git after the crash; only its selection metadata, historical hash, and committed bounded output are retained."
 }

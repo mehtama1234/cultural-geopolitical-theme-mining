@@ -1,0 +1,27 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0088",
+  "opened": "2026-10-20",
+  "window": "2025-10-20 through 2026-10-20",
+  "record_count": 1,
+  "atlas_record_ids": ["us-cfpb-credit-card-complaint-routes-2026-ytd"],
+  "rows": [
+    {
+      "atlas_record_id": "us-cfpb-credit-card-complaint-routes-2026-ytd",
+      "atlas_record_path": "analysis/records/us-cfpb-credit-card-complaint-routes-2026-ytd.json",
+      "canonical_theme": "consumer-power-recourse",
+      "title": "2026 year-to-date credit-card complaints show explanation, monetary relief, and unresolved routes in the CFPB system",
+      "geography": "United States",
+      "status": "augmented",
+      "batch_id": "atlas-batch-0088",
+      "platforms": {
+        "youtube": {"status": "documented_access_gap", "query": "CFPB 2026 credit-card complaints response monetary relief unresolved consumer-power-recourse 2025-10-20..2026-10-20", "retrieved": "2026-10-20", "result_or_gap": "Public platform-specific search completed; no attributable source-linked YouTube item retained under current access boundary.", "social_record_ids": []},
+        "reddit": {"status": "augmented", "query": "CFPB 2026 credit-card complaints response monetary relief unresolved consumer-power-recourse 2025-10-20..2026-10-20", "retrieved": "2026-10-20", "result_or_gap": "normalized social evidence retained", "social_record_ids": ["atlas-batch-0088-cfpb-credit-card-complaints-2026-reddit-001"]},
+        "linkedin": {"status": "augmented", "query": "CFPB 2026 credit-card complaints response monetary relief unresolved consumer-power-recourse 2025-10-20..2026-10-20", "retrieved": "2026-10-20", "result_or_gap": "normalized social evidence retained with commercial-framing limitation", "social_record_ids": ["atlas-batch-0088-cfpb-credit-card-complaints-2026-linkedin-001"]},
+        "x": {"status": "documented_access_gap", "query": "CFPB 2026 credit-card complaints response monetary relief unresolved consumer-power-recourse 2025-10-20..2026-10-20", "retrieved": "2026-10-20", "result_or_gap": "Public platform-specific search completed; no attributable source-linked X item retained under current access boundary.", "social_record_ids": []}
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search outcome",
+      "next_action": "quality_audit"
+    }
+  ]
+}

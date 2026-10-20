@@ -1,6 +1,6 @@
 # Finding 034: Repeat refunds are often gated by prior reach
 
-**Status:** bounded cross-case FTC refund-process synthesis · **Checked:** 2026-09-19
+**Status:** bounded cross-case FTC refund-process synthesis · **Checked:** 2026-10-19
 
 ## The bounded finding
 
@@ -29,6 +29,23 @@ agency sent first-round payments in 33 cases and additional payments in 22
 cases, while tracking which payments reached affected consumers. This confirms
 that delivery, cashing, reissue, and repeat-distribution stages are part of the
 operating remedy system. It is not a common claimant-level recovery rate.
+
+Cleo AI provides a useful contrast rather than another repeat-refund row. The
+FTC announced 2,124,796 planned PayPal payments totaling more than $15.8
+million, with a notification window, a future payment start date, and a
+30-day acceptance instruction. At this checkpoint it is a first planned
+distribution: no prior-cashing gate, recipient delivery, or acceptance result
+is yet public. The comparison shows that recipient selection and payment timing
+are separate administrative mechanisms, and neither should be collapsed into
+one refund-success rate.
+
+The October 15 Walmart wire-transfer distribution supplies the next stage:
+the FTC reports checks being sent to 65,022 affected consumers totaling more
+than $9.8 million and gives a 90-day cashing window. This is reported dispatch,
+not verified cashing. Read together, the routes form a staged ladder—planned
+distribution (Cleo), dispatched checks (Walmart), and prior-cashing-conditioned
+repeat distribution (ACRO, Next-Gen, American Vehicle Protection, and
+Yellowstone)—without a common recipient denominator or adequacy measure.
 
 ## What this adds
 
@@ -69,3 +86,5 @@ later financial behavior.
 - [FTC American Vehicle Protection refunds](https://www.ftc.gov/enforcement/refunds/american-vehicle-protection-refunds)
 - [FTC Yellowstone Capital refunds](https://search.ftc.gov/enforcement/refunds/yellowstone-capital-refunds)
 - [How the FTC provides refunds](https://www.ftc.gov/enforcement/ftc-refund-programs/how-ftc-provides-refunds)
+- [FTC Cleo AI refund page](https://search.ftc.gov/enforcement/refunds/cleo-ai-refunds)
+- [FTC Walmart wire-transfer refund announcement](https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-sends-more-98-million-consumers-harmed-walmarts-failure-stop-scammers-used-its-wire-transfer)

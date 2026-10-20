@@ -1,7 +1,7 @@
 {
   "format": "broad-same-case-episode-availability-audit-v1",
   "status": "stage_availability_audit",
-  "checked": "2026-09-21",
+  "checked": "2026-10-20",
   "purpose": "Identify which committed local source surfaces can follow one episode from exposure through alternatives, response, meaning/action, recovery, and exit.",
   "required_stages": [
     "dated_event_or_exposure",
@@ -16,17 +16,34 @@
   ],
   "stage_summary_rule": "Classify a status as observed when it begins with 'observed', partial when it begins with 'partial', and open_or_unknown for all other labels, including reference-period and unknown statuses.",
   "stage_summary": {
-    "dated_event_or_exposure": {"observed": 30, "partial": 2, "open_or_unknown": 2},
-    "responsible_actor": {"observed": 22, "partial": 10, "open_or_unknown": 2},
-    "alternative_or_nonuse": {"observed": 8, "partial": 7, "open_or_unknown": 19},
-    "effort_money_or_time_tradeoff": {"observed": 7, "partial": 21, "open_or_unknown": 6},
-    "adaptation_or_protected_sacrificed_outcome": {"observed": 10, "partial": 12, "open_or_unknown": 12},
-    "institutional_or_firm_response": {"observed": 30, "partial": 1, "open_or_unknown": 3},
-    "verified_remedy": {"observed": 3, "partial": 23, "open_or_unknown": 8},
-    "meaning_trust_or_action": {"observed": 1, "partial": 9, "open_or_unknown": 24},
-    "recovery_persistence_or_exit": {"observed": 2, "partial": 12, "open_or_unknown": 20}
+    "dated_event_or_exposure": {"observed": 37, "partial": 2, "open_or_unknown": 2},
+    "responsible_actor": {"observed": 29, "partial": 10, "open_or_unknown": 2},
+    "alternative_or_nonuse": {"observed": 9, "partial": 9, "open_or_unknown": 23},
+    "effort_money_or_time_tradeoff": {"observed": 7, "partial": 27, "open_or_unknown": 7},
+    "adaptation_or_protected_sacrificed_outcome": {"observed": 11, "partial": 15, "open_or_unknown": 15},
+    "institutional_or_firm_response": {"observed": 37, "partial": 1, "open_or_unknown": 3},
+    "verified_remedy": {"observed": 3, "partial": 29, "open_or_unknown": 9},
+    "meaning_trust_or_action": {"observed": 2, "partial": 11, "open_or_unknown": 28},
+    "recovery_persistence_or_exit": {"observed": 2, "partial": 15, "open_or_unknown": 24}
   },
   "sources": [
+    {
+      "source": "analysis/projects/us-infrastructure-operation-incidence/amtrak-a-interlocking-live-disruption-followup-2026-10-20.md",
+      "unit": "one named Amtrak A-Interlocking service-disruption episode",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_named_dated_infrastructure_disruption",
+        "responsible_actor": "observed_named_operator_and_infrastructure_route",
+        "alternative_or_nonuse": "observed_operator_offered_bus_metro_rebooking_alternatives",
+        "effort_money_or_time_tradeoff": "open_passenger_cost_and_time_not_published",
+        "adaptation_or_protected_sacrificed_outcome": "open_passenger_adequacy_and_accessibility_not_published",
+        "institutional_or_firm_response": "observed_service_modification_and_mitigation_plan",
+        "verified_remedy": "open_no_passenger_compensation_or_receipt_record",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open_post_restoration_reliability_and_acceptance"
+      },
+      "boundary": "The official operating page identifies a dated A-Interlocking outage, reduced service, cancellations, bus and Metro alternatives, and rebooking support, but not passenger uptake, extra cost or time, accessibility, compensation, post-restoration reliability, trust, or exit."
+    },
     {
       "source": "analysis/projects/us-customer-automation-recourse/data/cfpb-student-loan-event-ledger-2024-25.json",
       "unit": "student_loan_public_event_rows",
@@ -604,16 +621,118 @@
         "recovery_persistence_or_exit": "partial_alternative_work_without_duration_or_household_followup"
       },
       "boundary": "The case links employer shutdown, unpaid promised entitlements, reported family/financial stress, lower-paid alternative employment, quantified earnings, liquidation, and a compensation order. It does not establish order receipt, FEG recovery, durable work, household recovery, trust, recurrence, or exit."
+    },
+    {
+      "source": "analysis/projects/ai-work-control/data/fwc-mudiyanselage-underpayment-forced-exit-compensation-event-ledger-v1.json",
+      "unit": "single_adjudicated_worker_underpayment_episode",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_persistent_underpayment",
+        "responsible_actor": "observed_named_employer_and_fwo_route",
+        "alternative_or_nonuse": "partial_forced_exit_and_new_employment_without_tradeoff_detail",
+        "effort_money_or_time_tradeoff": "partial_repeated_complaints_and_financial_dependence",
+        "adaptation_or_protected_sacrificed_outcome": "observed_financial_dependence_and_forced_exit",
+        "institutional_or_firm_response": "observed_fwo_correction_and_compensation_order",
+        "verified_remedy": "partial_documented_payment_and_order_without_final_receipt",
+        "meaning_trust_or_action": "observed_broken_trust_and_emotional_stress",
+        "recovery_persistence_or_exit": "partial_new_employment_without_later_stability"
+      },
+      "boundary": "The public case follows one worker from persistent wage failure through complaints, forced exit, new employment, partial payment, compensation order, and broken trust. The current official-record recheck found no later payment confirmation, compliance record, or post-new-job follow-up; this is a public-observability boundary, not proof of nonpayment or failed recovery."
+    },
+    {
+      "source": "analysis/projects/us-safety-net-access/data/us-connecticut-snap-ebt-replacement-partial-remedy-event-ledger-v1.json",
+      "unit": "one anonymized Connecticut SNAP administrative hearing case",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_reported_ebt_loss",
+        "responsible_actor": "observed_named_state_agency_and_hearing_route",
+        "alternative_or_nonuse": "partial_possible_family_and_food_or_cash_substitution",
+        "effort_money_or_time_tradeoff": "partial_report_and_form_and_hearing effort",
+        "adaptation_or_protected_sacrificed_outcome": "partial_reported_partial_replacement_without_food_outcome",
+        "institutional_or_firm_response": "observed_card_replacement_and_hearing_disposition",
+        "verified_remedy": "partial_agency_reported_replacement_issuance_without_independent_use",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "The anonymized decision preserves a reported SNAP theft, new card, $582 replacement credit, and residual-claim denial, but not exact dates, independent account receipt/use, food or bill substitution, adequacy, later continuity, trust, action, or exit. It is not pooled with the New Jersey denial case."
+    },
+    {
+      "source": "analysis/projects/us-safety-net-access/findings/us-new-jersey-snap-ebt-theft-hearing-denial-2025-001.md",
+      "unit": "one New Jersey SNAP administrative hearing case",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_reported_ebt_loss",
+        "responsible_actor": "observed_named_state_agency_and_hearing_route",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial_claim_and_hearing effort",
+        "adaptation_or_protected_sacrificed_outcome": "open",
+        "institutional_or_firm_response": "observed_investigation_and_final_denial",
+        "verified_remedy": "partial_defined_denial_outcome_without_replacement",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "The New Jersey claimant route preserves disputed transactions, a replacement request, agency investigation, hearing, and affirmed denial; it does not expose alternatives, food or bill consequences, later continuity, trust, action, or exit. It is not pooled with the Connecticut replacement case or the GAO aggregate control record."
+    },
+    {
+      "source": "analysis/records/usmca-thyssenkrupp-rapid-response-labor-remedy-2025-2026.json",
+      "unit": "two reinstated workers at one named USMCA facility",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_named_labor_petition",
+        "responsible_actor": "observed_named_facility_and_intergovernmental_route",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial_union_petition_and_review_effort",
+        "adaptation_or_protected_sacrificed_outcome": "partial_reinstatement_and_facility_protection_reported",
+        "institutional_or_firm_response": "observed_intergovernmental_resolution_and_facility_measures",
+        "verified_remedy": "partial_officially_reported_backpay_and_benefits_without_worker_receipt",
+        "meaning_trust_or_action": "partial_union_and_collective_action_without_direct_worker_interpretation",
+        "recovery_persistence_or_exit": "partial_reinstatement_without_durable_followup"
+      },
+      "boundary": "The USTR resolution reports two reinstatements, full backpay and benefits, union-access and anti-retaliation measures, monitoring, and a trade response. It does not expose alternatives, independent payment receipt, non-retaliation over time, bargaining power, recurrence, trust, or exit, and is not pooled with the individual employment or SNAP cases."
+    },
+    {
+      "source": "analysis/projects/ai-work-control/usmca-alimentos-grole-remedy-followup-2026-10-19.md",
+      "unit": "nine reinstated workers and two severance-preference workers at one named USMCA facility",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_named_labor_petition",
+        "responsible_actor": "observed_named_facility_and_intergovernmental_route",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial_union_petition_and_review_effort",
+        "adaptation_or_protected_sacrificed_outcome": "partial_reinstatement_severance_and_facility_protection_reported",
+        "institutional_or_firm_response": "observed_intergovernmental_resolution_and_facility_measures",
+        "verified_remedy": "partial_officially_reported_backpay_benefits_and_severance_without_worker_receipt",
+        "meaning_trust_or_action": "partial_union_and_collective_action_without_direct_worker_interpretation",
+        "recovery_persistence_or_exit": "partial_reinstatement_or_severance_without_durable_followup"
+      },
+      "boundary": "The official resolution reports worker-specific counts and remedy categories plus facility union-access, complaint, training, and monitoring measures. It does not expose alternatives, independent receipt, adequacy, durable non-retaliation, bargaining power, recurrence, trust, or exit, and is not pooled with ThyssenKrupp or individual employment cases."
+    },
+    {
+      "source": "analysis/projects/us-customer-automation-recourse/fes-credit-repair-refund-distribution-2026-10-20.md",
+      "unit": "one aggregate FTC credit-repair redress distribution episode",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_named_credit_repair_harm_and_refund_route",
+        "responsible_actor": "observed_named_operator_and_ftc_enforcement_route",
+        "alternative_or_nonuse": "open_consumer_alternative_or_nonuse_not_published",
+        "effort_money_or_time_tradeoff": "partial_reported_fees_and_refund_claim_route",
+        "adaptation_or_protected_sacrificed_outcome": "open_credit_and_household_outcomes_not_published",
+        "institutional_or_firm_response": "observed_ftc_enforcement_and_check_distribution",
+        "verified_remedy": "partial_aggregate_checks_sent_without_delivery_or_cashing",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open_credit_correction_and_later_recovery_not_published"
+      },
+      "boundary": "The FTC release reports a credit-repair harm allegation and more than $10.9 million in checks sent to 443,048 customers with a 90-day cashing window, but not individual delivery, cashing, adequacy, credit/debt correction, residual loss, trust, switching, or exit."
     }
   ],
-  "result": "No current local source closes all nine required stages. The strict MEPS event-window follow-up now adds a same-person later R5/3 health and employment clock, including health and work persistence transitions, but it still lacks a dated initiating need, usable alternatives, institutional response, remedy, meaning/action, and practical exit. The IER resolution summaries advance the verified-remedy stage with four agency-reported individual payments, while the telephone-intervention ledger adds a tighter reported barrier-to-correction sequence. The new DACA bilateral case adds reported wage restoration, seniority restoration, and complaint withdrawal in one episode; the new OSHA Texas case adds protected safety voice, retaliation, public-risk governance, and an ordered remedy. Neither supplies durable follow-up. The Rehman case adds a bounded no-substitute-paid-earnings observation and an enforceable gross lost-remuneration order. The Mansoor platform case adds same-case substitute earnings alongside reactivation and a lost-pay order, while preserving the unknowns around equivalence, receipt, and durable access. The FWC site-clearance, customer-allocation, Westrip, and Adcon cases supply observed alternative employment, search or transition effort, non-return or shutdown reasoning, reported stress, and bounded income trade-offs; the Greaves case supplies an observed unsuccessful alternative-employment search, and the McGennan appeal adds alternative earnings and client-redirection action. The Meadley follow-up adds an officially reported compensation payment without reinstatement and a court-enforcement action. The Handy record adds a current platform-worker redress distribution while preserving the missing individual cashing, wage restoration, alternative work, and durable bargaining stages. These records show that payment, restoration, worker voice, later health/work persistence, and action are separate endpoints; later household recovery, durable trust, recurrence, and exit remain open. The Honda Talon and VRURC ledgers compare dealer repair with replacement while retaining purchaser-level gaps; the CFPB credit-card ledger makes a monetary-relief response label durable without proving issuance or receipt. The closest route-specific surfaces remain the named CFPB redress/distribution records, Doxo, Grubhub, Handy, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
+  "result": "No current local source closes all nine required stages. The strict MEPS event-window follow-up now adds a same-person later R5/3 health and employment clock, including health and work persistence transitions, but it still lacks a dated initiating need, usable alternatives, institutional response, remedy, meaning/action, and practical exit. The Connecticut and New Jersey SNAP claimant surfaces now add contrasting public-benefit endpoints—reported partial replacement with residual denial versus an affirmed denial—without food-use, adequacy, later continuity, trust, action, or exit. The ThyssenKrupp USMCA surface adds two reported reinstatements, backpay and benefits, facility union-access measures, and intergovernmental monitoring, without alternatives, independent receipt, durable non-retaliation, trust, or exit. The new Alimentos Grole USMCA surface adds nine reported reinstatements, two severance-preference outcomes, union access, complaint channels, training, and monitoring, while preserving the same missing worker-level and durable fields. The IER resolution summaries advance the verified-remedy stage with four agency-reported individual payments, while the telephone-intervention ledger adds a tighter reported barrier-to-correction sequence. The new DACA bilateral case adds reported wage restoration, seniority restoration, and complaint withdrawal in one episode; the new OSHA Texas case adds protected safety voice, retaliation, public-risk governance, and an ordered remedy. Neither supplies durable follow-up. The Rehman case adds a bounded no-substitute-paid-earnings observation and an enforceable gross lost-remuneration order. The Mansoor platform case adds same-case substitute earnings alongside reactivation and a lost-pay order, while preserving the unknowns around equivalence, receipt, and durable access. The FWC site-clearance, customer-allocation, Westrip, and Adcon cases supply observed alternative employment, search or transition effort, non-return or shutdown reasoning, reported stress, and bounded income trade-offs; the Greaves case supplies an observed unsuccessful alternative-employment search, and the McGennan appeal adds alternative earnings and client-redirection action. The Meadley follow-up adds an officially reported compensation payment without reinstatement and a court-enforcement action. The Handy record adds a current platform-worker redress distribution while preserving the missing individual cashing, wage restoration, alternative work, and durable bargaining stages. These records show that payment, restoration, worker voice, later health/work persistence, and action are separate endpoints; later household recovery, durable trust, recurrence, and exit remain open. The Honda Talon and VRURC ledgers compare dealer repair with replacement while retaining purchaser-level gaps; the CFPB credit-card ledger makes a monetary-relief response label durable without proving issuance or receipt. The closest route-specific surfaces remain the named CFPB redress/distribution records, Doxo, Grubhub, Handy, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
   "next_test": "Select one lawful consumer, public-system, household, health, or workplace episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. The DACA case demonstrates reported bilateral wage/status repair and immediate complaint withdrawal; the OSHA case demonstrates protected safety voice followed by retaliation and an ordered remedy; Meadley demonstrates payment receipt with failed restoration; Adcon adds reported household stress and lower-paid replacement work but no receipt. Promotion still requires a same-episode alternative or non-use field plus a later household recovery, durable trust, recurrence, or exit field.",
   "promotion_gate": {
     "qualifies": false,
-    "alternative_or_nonuse_observed_surfaces": 8,
+    "alternative_or_nonuse_observed_surfaces": 9,
     "verified_remedy_or_outcome_followup_observed_surfaces": 3,
     "rule": "A new end-to-end finding may be promoted only when the same retained episode source, or an explicitly linked episode key, observes both an episode-level alternative or non-use outcome and verified remedy receipt or a defined outcome follow-up, with denominators and missingness reported.",
     "failure_reason": "The DACA case supplies a reported accepted bilateral remedy and immediate complaint withdrawal, while the OSHA case supplies protected safety voice, retaliation, and an ordered remedy; neither has later household recovery, durable trust/action, recurrence, or exit. The Meadley case supplies an officially reported compensation payment and failed reinstatement, while the FWC cases, Adcon, and Mansoor platform case supply obtained alternatives, substitute earnings, unsuccessful search, stated non-return, reported household stress, and post-dismissal client action. No retained route combines those stages with later household recovery, durable trust/action, recurrence, or exit. Westrip, Adcon, and Mansoor strengthen the alternative-employment comparators but their compensation remains an order without receipt."
   },
-  "storage_boundary": "Uses thirty-four committed local source surfaces; raw parent-product and complaint responses remain outside Git, while compact de-identified filtered ledgers and bounded case records are retained. No prevalence estimate is promoted."
+  "storage_boundary": "Uses forty-one committed local source surfaces; raw parent-product and complaint responses remain outside Git, while compact de-identified filtered ledgers and bounded case records are retained. No prevalence estimate is promoted."
 }

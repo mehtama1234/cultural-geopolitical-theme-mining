@@ -1,0 +1,107 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-cleo-ai-refund-distribution-2026",
+  "title": "A named administrator and scheduled mass payment move a Cleo AI remedy from enforcement design toward distribution while receipt remains unobserved",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Federal Trade Commission Cleo AI cash-advance refund program and Rust Consulting administration route",
+  "geography": "United States consumers who paid Cleo AI for eligible instant cash advances",
+  "observations": [
+    {
+      "period": "October 2026; pre-distribution implementation checkpoint",
+      "denominator": {
+        "value": 2124796,
+        "unit": "planned PayPal payments to consumers who paid Cleo AI for eligible instant cash advances",
+        "value_type": "agency_announced_payment_count"
+      },
+      "measures": {
+        "planned_redress_total": {
+          "value": 15.8,
+          "unit": "million U.S. dollars or more",
+          "value_type": "agency_announced_aggregate"
+        },
+        "administrator": {
+          "value": "Rust Consulting, Inc.",
+          "unit": "named refund administrator",
+          "value_type": "reported_administration_route"
+        },
+        "payment_start": {
+          "value": "October 27, 2026",
+          "unit": "scheduled PayPal-distribution date",
+          "value_type": "reported_future_process_step"
+        },
+        "recipient_acceptance_window": {
+          "value": 30,
+          "unit": "days to redeem a PayPal payment",
+          "value_type": "reported_payment_window"
+        },
+        "notification_window": {
+          "value": "October 8–26, 2026",
+          "unit": "scheduled eligibility-email window",
+          "value_type": "reported_notification_window"
+        },
+        "receipt_and_adequacy": {
+          "value": "not observed",
+          "unit": "missing delivered, accepted, returned, unresolved, individual-amount, account-correction, residual-loss, household-recovery, trust, and exit outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the current FTC refund page and October 2026 FTC press release; announced payment count, amount, administrator, dates, and acceptance rule are retained as implementation stages and not converted into received cash.",
+      "uncertainty": "The sources describe a planned distribution before the October 27 start date. They do not disclose individual eligibility decisions, successful delivery, payment acceptance, returned or expired payments, adequacy, or post-remedy behavior.",
+      "subgroup": "Consumers who paid Cleo AI for eligible instant cash advances, including people alleged to have received less than advertised or faced delayed delivery and cancellation friction; no person-level outcome file is public.",
+      "counterinterpretation": "A large scheduled payment run can reduce claim burden and widen reach while still leaving channel access, notification, acceptance, and remedy adequacy uneven across recipients.",
+      "source_url": "https://search.ftc.gov/enforcement/refunds/cleo-ai-refunds",
+      "retrieval_hash": "sha256:1d31107d03be55f24d6dc18e438e8789a4c5f902d9b4042ab13b50cd1b840c2e",
+      "status": "reported"
+    },
+    {
+      "period": "October 2026; FTC enforcement-to-remedy handoff",
+      "denominator": {
+        "value": 2124796,
+        "unit": "Cleo AI customers identified for planned payment under the announced refund route",
+        "value_type": "agency_announced_population_count"
+      },
+      "measures": {
+        "alleged_service_failure": {
+          "value": "The FTC alleged that Cleo advertised fast or same-day cash advances, often delivered less than advertised or later than promised, charged additional express fees, and made subscription cancellation difficult",
+          "unit": "reported enforcement allegations",
+          "value_type": "agency_allegation"
+        },
+        "payment_channel": {
+          "value": "PayPal",
+          "unit": "announced payment channel",
+          "value_type": "reported_remedy_channel"
+        },
+        "consumer_contact_route": {
+          "value": "Rust Consulting at 1-877-788-4958 for payment questions",
+          "unit": "administrator contact route",
+          "value_type": "reported_contestation_or_assistance_route"
+        },
+        "later_outcome": {
+          "value": "not observed",
+          "unit": "no public recipient-level payment receipt, acceptance, return, account correction, financial recovery, repeat borrowing, trust, switching, or exit measure",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Cross-check of the FTC press release against the FTC refund page; the enforcement allegations, planned distribution, and administrator route are kept distinct from recipient outcomes.",
+      "uncertainty": "The agency's allegations are not a person-level harm estimate, and the planned payment count is not a completed-payment count. The public announcement does not identify the distribution denominator's overlap with all affected users or the amount per recipient.",
+      "subgroup": "Cleo AI users exposed to cash-advance and subscription practices described in the FTC complaint; no linked user-level sample is supplied.",
+      "counterinterpretation": "A formal payment and contact route creates an avenue for recourse, but contactability and actual receipt may still differ across users because the sources do not expose delivery or acceptance results.",
+      "source_url": "https://search.ftc.gov/news-events/news/press-releases/2026/10/ftc-returns-more-158-million-consumers-misled-cash-advance-app-company-cleo-ai",
+      "retrieval_hash": "sha256:694c317c00a111d6f3e844dd18324a04678ffd57b3e566a1dc20386997c90e75",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record closes a named enforcement-to-planned-distribution stage for Cleo AI consumers and identifies an administrator, payment channel, notification window, acceptance window, and assistance route. It does not establish delivery, acceptance, payment adequacy, account correction, household recovery, repeat exposure, trust repair, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Direct HTML pages downloaded and hashed on 2026-10-20.",
+    "checked": "2026-10-20"
+  }
+}

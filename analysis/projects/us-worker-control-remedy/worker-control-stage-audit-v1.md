@@ -33,6 +33,62 @@ without showing that a worker knew how to invoke them or received a usable
 correction. Reactivation can restore access without proving the lost earnings,
 household stability, or future risk were repaired.
 
+## Same-worker operating follow-up — 2026-10-19
+
+The Hotak record now supplies a stronger same-worker continuation than a bare
+reactivation label. The Fair Work Commission's account records a March 24,
+2025 safety incident, a March 29 preliminary notice, the worker's written
+response, final deactivation on April 8, and application to the Commission.
+Uber voluntarily restored access on May 19, after which the worker resumed
+driving and completed more than 150 trips. The Full Bench later held that the
+worker had been unfairly deactivated and that an order for reactivation and
+lost pay remained available despite the voluntary restoration; the parties
+were directed to confer on the lost-remuneration amount.
+
+This closes the chain through observed post-restoration work activity and
+shows why access restoration is not the same as financial recovery. The public
+record still does not establish the final lost-pay amount or receipt, net
+earnings after expenses, household recovery, recurrence or retaliation,
+alternative work, switching, or exit. The 150 trips are evidence of resumed
+use, not proof that the worker had a free alternative or durable bargaining
+power.
+
+## Hotak order-specific recheck — 2026-10-19
+
+The Commission's official order PR792023 adds a precise implementation detail:
+Uber was ordered to reinstate access on the same terms, effective 26 September
+2025, and the worker was deemed to have performed regular work from 24 March
+through 19 May 2025. This strengthens the legal remedy and interruption-period
+boundary, but it is not a payment receipt. The order and the indexed official
+decision record still do not disclose the lost-remuneration quantum, payment
+date, net recovery, or later worker outcome.
+
+The Commission's October 2025 regulated-worker update independently summarizes
+the same result as a direction to restore pay lost during deactivation. It also
+does not publish a quantum, payment date, or receipt, so the route remains a
+formal-remedy-to-recovery gap rather than a verified payment outcome.
+
+The Longridge court record supplies a different same-worker boundary. For two
+separate sales workers, the Federal Circuit Court records the exact wage
+shortfalls and payment timing: $20,013.60 was paid in full on 2 May 2013 and
+$11,646.97 was paid in full on 1 October 2014. This advances the route from
+institutionally reported back-pay to court-recorded dated payment events, while
+still leaving net receipt, adequacy, alternative-job quality and duration,
+household recovery, later trust, recurrence, and exit unobserved. The workers
+remain separate units; the payment dates must not be pooled into a recovery
+rate.
+
+## Longridge later-outcome recheck — 2026-10-19
+
+A targeted public-record recheck of the Fair Work Ombudsman litigation-outcome
+listing and the Longridge judgment found the case, penalty, underpayment
+calculations, and installment dates, but no later official record identifying
+either worker's replacement-job duration or quality, household recovery,
+repeat wage harm, trust, or exit. This is a dated public-observability boundary,
+not evidence that the payments were inadequate or that either worker remained
+in difficulty. The next lawful acquisition would require worker consent,
+privacy-preserving employment follow-up, or a linked administrative record.
+
 ## Evidence ledger
 
 | Stage | Current local evidence | Still missing |
@@ -90,6 +146,9 @@ of adoption, control, remedy, or exit.
   worker awareness.
 - Reactivation, a gross lost-remuneration order, and settlement allocations were
   not treated as verified receipt or household recovery.
+- Hotak's voluntary reactivation and more than 150 post-restoration trips were
+  treated as observed continued use, not as proof of lost-pay receipt, adequate
+  recovery, or durable control.
 - The Australian case, U.S. platform settlements, experiments, and surveys were
   not pooled into one worker denominator.
 - Public discussion was used for meaning and counterexamples only.
@@ -126,6 +185,10 @@ or when the source owner confirms the exact missing fields are unavailable.
 - [AI management and bargaining record](../../records/us-ai-management-bargaining-voice-crosssource-2024-2026.json)
 - [ILO platform-work convention](../../records/comparative-ilo-platform-economy-convention-2026-algorithmic-management-rights-remedy.json)
 - [Australian platform-worker remedy](../../records/au-rehman-platform-remedy-2026.json)
+- [Hotak Full Bench reactivation and lost-pay decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf)
+- [Fair Work Commission bulletin on Hotak's post-reactivation work](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-09-30.htm)
+- [Longridge Federal Circuit Court payment reasons](https://www.fairwork.gov.au/sites/default/files/migration/871/fair-work-ombudsman-v-longridge-group-pty-ltd-2015-fcca-129.pdf)
+- [Fair Work Ombudsman 2014–15 litigation outcomes](https://www.fairwork.gov.au/about-us/compliance-and-enforcement/litigation/2014-2015-litigation-outcomes)
 - [Walmart Spark Driver remedy](../../records/us-ftc-walmart-spark-driver-remedy-2026.json)
 - [Worker control and remedy bridge](worker-control-adoption-remedy-recovery-bridge-v1.md)
 - [LinkedIn AI-work discussion](../../social-discussions/records/ai-work-control-005.json)

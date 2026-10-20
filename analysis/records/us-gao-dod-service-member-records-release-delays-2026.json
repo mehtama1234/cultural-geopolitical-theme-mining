@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-dod-service-member-records-release-delays-2026",
+  "title": "Service-member record access can expose both privacy failure and processing delay while correction and claimant outcomes remain open",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-107784 review of Department of Defense release of service-member personnel and health records",
+  "geography": "United States Department of Defense and military-service personnel and health-record release systems",
+  "observations": [
+    {
+      "period": "Fiscal years 2021–2025 breach review, GAO covert test, and October 16, 2026 report",
+      "denominator": {
+        "value": 26,
+        "unit": "personnel-record requests in GAO's covert test of DOD internal controls",
+        "value_type": "reported_covert_test_cohort"
+      },
+      "measures": {
+        "reported_improper_releases": {
+          "value": 50,
+          "unit": "almost 50 improper releases reported by military services during fiscal years 2021–2025, affecting more than 1,000 service members",
+          "value_type": "reported_administrative_count"
+        },
+        "covert_test_processing": {
+          "value": 18,
+          "unit": "requests processed out of 26 in GAO's covert test",
+          "value_type": "reported_test_count"
+        },
+        "covert_test_privacy_failure": {
+          "value": 1,
+          "unit": "processed covert-test request improperly released without redacting personally identifiable information",
+          "value_type": "reported_test_failure_count"
+        },
+        "processing_delay_example": {
+          "value": "Navy average FOIA processing time increased from 1.6 to 55.5 days during the review period; officials attributed challenges partly to staffing limitations",
+          "unit": "reported processing-time example",
+          "value_type": "reported_operational_measure"
+        },
+        "system_complexity": {
+          "value": "Defense Health Agency processors must identify health records across multiple data systems and review them for personally identifiable information, with system issues and complex workflows challenging requests",
+          "unit": "reported record-processing mechanism",
+          "value_type": "reported_process_finding"
+        },
+        "corrective_action": {
+          "value": 5,
+          "unit": "open GAO recommendations, including workforce planning and opportunities to streamline health-record request systems",
+          "value_type": "open_recommendation_count"
+        },
+        "claimant_conversion": {
+          "value": "not measured",
+          "unit": "requester receipt, correction, privacy harm, litigation cost, health-care continuity, disability or benefits decision, trust, or durable system improvement",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-107784, including DOD policies and processes, administrative breach data, site visits, interviews, and a covert test of 26 requests. Breach exposure, test processing, time delay, system complexity, recommendations, and claimant outcomes are retained as separate stages.",
+      "uncertainty": "The covert test is a small, designed test and not a population estimate. The reported improper-release count is an administrative total and the public record does not link each release to a claimant outcome. Processing-time examples and system descriptions do not establish average performance across all services or records.",
+      "subgroup": "Service members and veterans requesting personnel, health, performance, training, or other records, including requesters whose records contain sensitive personally identifiable information.",
+      "counterinterpretation": "A single improper release in a small covert test does not measure the overall breach rate, and delays may reflect request complexity or lawful review requirements; conversely, policies and procedures can exist while staffing and multi-system workflows still expose requesters to delay or disclosure risk.",
+      "source_url": "https://www.gao.gov/products/gao-27-107784",
+      "retrieval_hash": "sha256:b306e1f793a8a69519529e86add1a9be7c28d21e900bd0892ea28096883d3976",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-107784/index.html",
+      "claim": "The official accessible report contains the breach, covert-test, processing-time, system-complexity, and recommendation findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/assets/gao-27-107784.pdf",
+      "claim": "The official GAO report PDF provides the full review of DOD personnel and health-record release controls.",
+      "status": "official-report-pdf"
+    }
+  ],
+  "boundary": "This record advances a bounded service-member record request-to-privacy-and-delay route. It does not establish population breach prevalence, requester-level receipt, correction, privacy harm, litigation cost, health-care continuity, benefits decisions, trust, or completed corrective action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and PDF links are retained for reproduction.",
+    "retrieval_hash": "sha256:b306e1f793a8a69519529e86add1a9be7c28d21e900bd0892ea28096883d3976",
+    "checked": "2026-10-20"
+  }
+}

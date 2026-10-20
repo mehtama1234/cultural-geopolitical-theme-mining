@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-aspe-cash-counseling-beneficiary-care-control-2003",
+  "title": "Consumer-directed Medicaid support can improve care control and short-run satisfaction while long-run household recovery remains open",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "ASPE Cash and Counseling randomized Medicaid consumer-direction demonstration",
+  "geography": "United States; Arkansas, Florida, and New Jersey Medicaid demonstration",
+  "observations": [
+    {
+      "period": "Cash and Counseling randomized follow-up; approximately nine months after assignment, study period 1998–2003",
+      "denominator": {
+        "value": null,
+        "unit": "adult and other eligible Medicaid beneficiaries in three-state randomized demonstration; state and outcome-specific denominators vary",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "intervention": {"value": "random assignment to a monthly allowance and counseling for direct personal assistance versus usual agency-based personal care/home-and-community services", "unit": "randomized program contrast", "value_type": "randomized_intervention"},
+        "control_and_service_choice": {"value": "beneficiaries could direct who provided care, when care occurred, and which permitted goods/services were purchased", "unit": "reported consumer-direction mechanism", "value_type": "reported_program_feature"},
+        "service_access_and_satisfaction": {"value": "treatment beneficiaries reported greater control and satisfaction, fewer unmet personal-care needs, and increased access to paid home care in cited comparisons", "unit": "study-level treatment-control outcome pattern", "value_type": "estimated_comparative_outcome"},
+        "health_and_safety": {"value": "cited summaries report similar or better health outcomes and no compromised health or safety in studied comparisons", "unit": "short-run study-level outcome pattern", "value_type": "estimated_comparative_outcome"},
+        "long_run_recovery": {"value": "not observed", "unit": "missing allowance receipt/spending, individual care completion, long-run health, caregiver durability, household finances, trust, switching, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "A public program can increase service choice and short-run care satisfaction while shifting coordination, hiring, and care-management work to beneficiaries or families", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from ASPE Cash and Counseling randomized treatment-control reports; beneficiary service use, unmet need, satisfaction, and health/safety outcomes are kept separate from individual allowance take-up and long-run household outcomes.",
+      "uncertainty": "State-specific implementation and outcome universes differ. The public summaries do not retain individual identifiers, precise allowance receipt or spending, caregiver linkage, task-level need, long-run health, household finances, provider switching, trust, action, or exit.",
+      "subgroup": "Eligible Medicaid beneficiaries in Arkansas, Florida, and New Jersey, including beneficiaries and representatives who directed personal assistance; no pooled beneficiary-caregiver household denominator is supplied.",
+      "counterinterpretation": "Improved short-run satisfaction and reduced unmet need do not prove long-run health recovery, caregiver sustainability, household financial security, or durable institutional trust.",
+      "source_url": "https://aspe.hhs.gov/reports/effect-consumer-direction-adults-personal-care-well-being-arkansas-new-jersey-florida-1",
+      "retrieval_hash": "sha256:34b889c461a5f3f3bd9e423360d9acd738be6705d3e6ca188b29409c61b1c750",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a randomized consumer-direction-to-beneficiary-service-outcome segment. It does not establish completed care for every participant, long-run recovery, caregiver sustainability, or a pooled beneficiary-caregiver household result.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from published ASPE study reports; beneficiary, caregiver, Medicaid, and claims microdata are not retained.",
+    "checked": "2026-10-20"
+  }
+}

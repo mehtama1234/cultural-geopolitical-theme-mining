@@ -1,0 +1,119 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-cash-app-fraud-redress-2025-2026",
+  "title": "Cash App fraud-control failures produce a formal redress obligation while individual correction and receipt remain unobserved",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "CFPB enforcement action, Block consent order, and CFPB payment-by-case status for Cash App fraud and dispute handling",
+  "geography": "United States Cash App users and consumers covered by the Block enforcement order",
+  "observations": [
+    {
+      "period": "January 16, 2025 CFPB enforcement action and consent-order remedy",
+      "denominator": {
+        "value": 153866,
+        "unit": "unauthorized-transfer claims reported in the order as lacking required timely provisional credit when investigations exceeded 10 business days",
+        "value_type": "agency_reported_claim_count"
+      },
+      "measures": {
+        "consumer_redress_minimum": {
+          "value": 75000000,
+          "unit": "U.S. dollars at least",
+          "value_type": "court_ordered_redress_floor"
+        },
+        "consumer_redress_maximum": {
+          "value": 120000000,
+          "unit": "U.S. dollars up to",
+          "value_type": "court_ordered_redress_ceiling"
+        },
+        "civil_penalty": {
+          "value": 55000000,
+          "unit": "U.S. dollars separate from consumer redress",
+          "value_type": "court_ordered_civil_penalty"
+        },
+        "frozen_account_class": {
+          "value": "account frozen at least 14 days with a balance of at least $25; the order assigns a $50 redress component to each affected consumer in that class",
+          "unit": "defined affected class and remedy component",
+          "value_type": "court_ordered_class_rule"
+        },
+        "recipient_receipt": {
+          "value": "not observed",
+          "unit": "missing final affected-consumer list, payment date, per-person amount, account correction, receipt, adequacy, and residual-loss outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Extraction from the official CFPB enforcement action and Block consent order; reported claims, class definitions, ordered redress, civil penalty, and post-plan reporting requirements are kept separate from person-level recovery.",
+      "uncertainty": "The 153,866 claims are not a population incidence estimate or a stable person-level denominator. An ordered redress range and required future report do not establish implementation, account correction, payment, receipt, or adequate recovery.",
+      "subgroup": "Cash App users with fraud-related disputes, including the order-defined frozen-account class; public records do not expose demographic, financial, disability, language, or access subgroups.",
+      "counterinterpretation": "A formal operational correction and redress obligation can coexist with unresolved individual loss, effort, access, and trust because the order's reporting contract is not itself a completed payment record.",
+      "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_block-inc-consent-order_2025-01.pdf",
+      "retrieval_hash": "sha256:8b72ad0538889fd6b4e9d1481806611955fb9a0e4e219bb87f2809471c351ed1",
+      "status": "reported"
+    },
+    {
+      "period": "October 19, 2026 CFPB payment-by-case status recheck",
+      "denominator": {
+        "value": 1,
+        "unit": "CFPB payments-by-case public index checked for a Block/Cash App distribution entry",
+        "value_type": "administrative_status_surface"
+      },
+      "measures": {
+        "public_distribution_listing": {
+          "value": "No Block or Cash App entry located in the ongoing or closed case lists at recheck",
+          "unit": "public administrative listing status",
+          "value_type": "non_observation"
+        },
+        "page_last_modified": {
+          "value": "October 15, 2026",
+          "unit": "reported page metadata",
+          "value_type": "administrative_metadata"
+        },
+        "redress_contact_route": {
+          "value": "The Block case page still provides a redress contact route and says consumers do not need to take action at this time to obtain redress",
+          "unit": "public reachability instruction",
+          "value_type": "reported_process_surface"
+        },
+        "payment_or_receipt": {
+          "value": "not observed in the public index",
+          "unit": "absence of a public recipient-level distribution report; not evidence that no payment occurred",
+          "value_type": "access_boundary"
+        }
+      },
+      "method": "Dated recheck of the CFPB payments-by-case index and current Block case page; absence from the public list is retained as a bounded visibility result, not a nonpayment finding.",
+      "uncertainty": "Company-administered payments, unpublished distributions, or later reports could exist outside the public index. No person-level payment, account correction, receipt, residual loss, continued use, switching, trust, or exit data are exposed.",
+      "subgroup": "Consumers covered by the Block/Cash App order; no subgroup-level distribution status is public.",
+      "counterinterpretation": "A missing public case-list entry may reflect route, publication timing, or company administration rather than nonpayment or remedy failure.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/",
+      "retrieval_hash": "sha256:9800e85ab0d76399ec47c3aaafefd707dd0d441d894f8647a5cbfd90238cf4e7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-orders-operator-of-cash-app-to-pay-175-million-and-fix-its-failures-on-fraud/",
+      "claim": "The CFPB describes the enforcement action, operational failures, ordered redress, and civil penalty.",
+      "status": "official-enforcement-page"
+    },
+    {
+      "source_url": "https://www.consumerfinance.gov/administrative-adjudication-proceedings/administrative-adjudication-docket/block-inc/",
+      "claim": "The CFPB Block docket provides the official case and order context.",
+      "status": "official-docket"
+    },
+    {
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/block-inc/",
+      "claim": "The current Block case page provides the redress contact route and public process status.",
+      "status": "official-case-page"
+    }
+  ],
+  "boundary": "This record follows Cash App fraud-related dispute exposure through CFPB enforcement, operational correction, and an ordered redress obligation, then records the public distribution-status boundary. It does not estimate user harm, payment receipt, account correction, adequacy, trust repair, continued use, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Block consent order PDF and CFPB payments-by-case HTML page were directly retrieved and hashed on 2026-10-20; project ledger preserves the compact extraction and explicit missingness boundary.",
+    "checked": "2026-10-20"
+  }
+}

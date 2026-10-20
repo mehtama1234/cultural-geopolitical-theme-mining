@@ -1,7 +1,7 @@
 # Privacy request completion to durable control and consumer exit
 
 **Status:** sixty-second active depth artifact in the ongoing program  
-**Checked:** 2026-10-18  
+**Checked:** 2026-10-19
 **Scope:** privacy requests, identity verification, denial, deletion,
 centralized data-broker control, residual data, re-collection, trust, and
 switching
@@ -110,6 +110,16 @@ broker compliance, and durable deletion.
 routes with administrative timing and partial-status information. It does not
 yet prove person-level deletion, persistence, equal access, changed exposure,
 trust, switching, or exit.
+
+## Latest pass disposition — 2026-10-19
+
+This lane is now treated as an acquisition gap rather than an open source-
+collection task. The available public evidence reaches request submission,
+status categories, completion, denial, and processing time, but stops before a
+linked person/request observation of downstream deletion, re-collection,
+appeal, or later behavior. Repeating aggregate Walmart or DROP counts would
+not add a missing stage or compatible denominator. The next rotation therefore
+moves to a different named platform-control episode.
 
 ## What to look for next
 

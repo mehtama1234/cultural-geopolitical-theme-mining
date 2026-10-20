@@ -1,0 +1,121 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fema-la-wildfire-ihp-stages-2025-2026",
+  "title": "Disaster assistance stages make administrative reach visible without proving payment, adequacy, or housing recovery",
+  "theme_ids": [
+    "cost",
+    "time",
+    "energy"
+  ],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "OpenFEMA Registration Intake and Individuals Household Program aggregate snapshot for Los Angeles County wildfire disaster 4856",
+  "geography": "Los Angeles County, California; 2025 wildfires and FEMA disaster 4856",
+  "observations": [
+    {
+      "period": "Current API snapshot retrieved September 19, 2026; aggregate city/ZIP program-stage rows",
+      "denominator": {
+        "value": 621,
+        "unit": "city/ZIP rows in the OpenFEMA Registration Intake and Individuals Household Program dataset; aggregate categories are not a unique-survivor longitudinal denominator",
+        "value_type": "aggregate_geographic_rows"
+      },
+      "measures": {
+        "valid_registrations": {
+          "value": 261117,
+          "unit": "valid registrations reported in the aggregate snapshot",
+          "value_type": "reported_count"
+        },
+        "ihp_referrals": {
+          "value": 98459,
+          "unit": "IHP referrals; 37.7069% descriptive ratio to valid registrations",
+          "value_type": "reported_count"
+        },
+        "ihp_eligible": {
+          "value": 35165,
+          "unit": "IHP-eligible records; 35.7154% descriptive ratio to referrals",
+          "value_type": "reported_count"
+        },
+        "reported_ihp_amount": {
+          "value": 182773747.01,
+          "unit": "U.S. dollars in reported aggregate IHP amounts across housing-assistance and other-needs-assistance fields",
+          "value_type": "reported_aggregate_amount"
+        },
+        "receipt_and_recovery": {
+          "value": "not observed",
+          "unit": "missing individual award issuance, payment date and receipt, amount adequacy, appeal, repair or housing completion, insurance interaction, stable placement, repeat crisis, trust, and later action",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "Registration, referral, eligibility, and aggregate amount stages make administrative reach visible while leaving the practical gap between program status, usable payment, adequate recovery, and stable housing with survivors and unmeasured",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from the retained OpenFEMA API snapshot; aggregate stage counts and descriptive ratios are kept separate from person-level funnel, payment receipt, and housing recovery claims.",
+      "uncertainty": "The snapshot contains aggregate city/ZIP rows and stage-specific categories, not unique applicants followed over time. It does not disclose applicant identity, damage severity, application sequence, duplicate or invalid-record handling, appeal, payment issuance, receipt, or adequacy.",
+      "subgroup": "Los Angeles County wildfire registration and program-stage aggregates across 267 cities and 347 ZIP codes; no survivor-level subgroup or household outcome is supplied.",
+      "counterinterpretation": "A stage ratio may reflect timing, category definitions, geography, or differing denominators rather than an approval, referral, payment, or recovery rate; reported aggregate amounts do not prove individual protection.",
+      "source_url": "https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms?$filter=disasterNumber%20eq%204856&$top=100000",
+      "retrieval_hash": "sha256:2176a106b6be4333d8ebaa3b7a6bfa02436642c444b39921dfa739177a35de16",
+      "status": "observed"
+    },
+    {
+      "period": "Current API snapshot run October 20, 2026; Los Angeles County wildfire program-stage recheck",
+      "denominator": {
+        "value": 621,
+        "unit": "city/ZIP rows returned by the OpenFEMA Registration Intake and Individuals Household Program dataset; aggregate categories are not a unique-survivor longitudinal denominator",
+        "value_type": "aggregate_geographic_rows"
+      },
+      "measures": {
+        "valid_registrations": {
+          "value": 261118,
+          "unit": "valid registrations reported in the current aggregate snapshot",
+          "value_type": "reported_current_count"
+        },
+        "ihp_referrals": {
+          "value": 98460,
+          "unit": "IHP referrals in the current aggregate snapshot",
+          "value_type": "reported_current_count"
+        },
+        "ihp_eligible": {
+          "value": 35169,
+          "unit": "IHP-eligible records in the current aggregate snapshot",
+          "value_type": "reported_current_count"
+        },
+        "reported_ihp_amount": {
+          "value": 184787168.31,
+          "unit": "U.S. dollars in reported aggregate IHP amounts across housing-assistance and other-needs-assistance fields",
+          "value_type": "reported_current_aggregate_amount"
+        },
+        "snapshot_change": {
+          "value": "Compared with the retained September snapshot, the current run reports 1 more valid registration, 1 more referral, 4 more eligible records, and approximately $2.013 million more in aggregate IHP amount; this is a data-vintage difference, not a person-level payment trajectory",
+          "unit": "bounded aggregate recheck comparison",
+          "value_type": "bounded_comparison"
+        },
+        "receipt_and_recovery": {
+          "value": "not observed",
+          "unit": "missing individual award issuance, payment date and receipt, amount adequacy, appeal, repair or housing completion, insurance interaction, stable placement, repeat crisis, trust, and later action",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Current OpenFEMA API extraction grouped over the 621 returned city/ZIP rows for disaster 4856; field totals are summed from the public aggregate response and are not treated as a person-level funnel.",
+      "uncertainty": "The API response is aggregate geography-by-program data, not unique applicants followed over time. It does not disclose applicant identity, damage severity, application sequence, duplicate or invalid-record handling, appeal, payment issuance, receipt, or adequacy.",
+      "subgroup": "Los Angeles County wildfire registration and program-stage aggregates across the returned city/ZIP rows; no survivor-level subgroup or household outcome is supplied.",
+      "counterinterpretation": "Small changes between API vintages can reflect late reporting, revisions, or category timing rather than newly paid or recovered households; reported aggregate amounts do not prove individual protection.",
+      "source_url": "https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms?$filter=disasterNumber%20eq%204856&$top=100000",
+      "retrieval_hash": "sha256:6480218d453fbe5c83fa9f821c01c8f7b5625be2e281bfb6d8c496905cbbcd2f",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a disaster-specific administrative sequence from registration through referral, eligibility, current aggregate assistance amount, and a dated API-vintage comparison. It does not establish survivor approval, payment receipt, amount adequacy, repair or housing recovery, trust, political action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the OpenFEMA aggregate API snapshot; survivor identifiers, applications, payment files, and personally identifying information are not retained.",
+    "checked": "2026-10-20"
+  }
+}

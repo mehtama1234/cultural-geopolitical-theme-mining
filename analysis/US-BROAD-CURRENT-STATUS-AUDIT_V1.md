@@ -1,14 +1,86 @@
 # US broad program current-status audit v1
 
+The latest platform-remedy addition is the [FTC NGL anonymous-messaging refund memo](projects/us-digital-habits-attention/ftc-ngl-anonymous-messaging-refund-claims-2026.md). It follows alleged fake messages and unauthorized recurring charges into a $4.5 million refund fund, age-conditioned claims route, closed filing window, and pending review while preserving the missing approval, payment, delivery, adequacy, and durable-exit endpoints.
+
+The latest education-platform privacy addition is the [FTC Illuminate Education student-data security memo](projects/us-digital-habits-attention/ftc-illuminate-education-student-data-security-order-2026.md). It moves a reported 10.1-million-student data exposure and delayed-notification allegations into a finalized minimization, deletion, retention, security, and incident-reporting order while preserving the missing compliance, notification-receipt, harm, and recovery endpoints.
+
+The latest under-covered-platforms addition is the [FTC Kochava sensitive-location-data memo](projects/us-digital-habits-attention/ftc-kochava-sensitive-location-data-controls-2026.md). It moves alleged data-broker exposure into proposed affirmative-consent, recipient-visibility, withdrawal, retention, supplier-check, and incident-reporting controls while preserving the missing approval, implementation, deletion, individual safety, and practical-exit endpoints.
+
+The latest health-market-structure addition is the [GAO Medicare Part D vertical-integration memo](projects/us-health-cost-household-choice/gao-medicare-part-d-vertical-integration-pharmacy-steering-2026.md). It adds four large sponsors covering over 40% of Part D enrollment, owned-pharmacy shares of 28% of utilization and 24% of payments, mixed cost-sharing differences, and a 36-contract review while preserving the missing steering, choice, adherence, access, and health endpoints.
+
+The latest research-governance and foreign-interference addition is the [GAO NIH research-security memo](projects/cross-domain/gao-nih-research-security-foreign-interference-2026.md). It adds $35B in annual extramural funding, 697 allegations, 264 identified violations, 223 action cases, seven disclosure-limitation case studies, and one open recommendation while preserving the missing prevalence, interference, research-loss, deterrence, and trust endpoints.
+
+The latest public-health and national-security addition is the [GAO laboratory-equipment disposal memo](projects/cross-domain/gao-federal-laboratory-equipment-disposal-biosecurity-2026.md). It adds 1,316 sales, nine unreported Commerce Control List items, four successful fictitious-identity acquisitions, and four open recommendations while preserving the missing recipient-intent, export, weapon-development, harm, and mitigation endpoints.
+
+The latest health-market-power addition is the [GAO private-health-insurance concentration memo](projects/us-health-cost-household-choice/gao-private-health-insurance-market-concentration-2024.md). It adds a 2024 concentration signal—three or fewer issuers held at least 80% of enrollment in individual and employer-group markets in at least 36 states—while preserving the missing premium, plan, provider, care, household, and health endpoints.
+
+The latest geoeconomic-dependence addition is the [GAO critical-minerals ownership memo](projects/cross-domain/gao-critical-minerals-federal-land-foreign-investment-2026.md). It adds 632 federal-land hardrock plans, ownership findings for 43 claimants/operators, 14 foreign subsidiaries, and at least two Chinese financial interests while preserving the missing beneficial-control, production, processing, disruption, and national-security endpoints.
+
+The latest technology-dependence and geopolitical-security addition is the [GAO quantum-cryptography readiness memo](projects/ai-work-control/gao-quantum-cryptography-transition-readiness-2026.md). It adds a 24-agency preparation gap, missing cryptography inventories, funding and testing capacity, and an 89-recommendation sensitive-report boundary while preserving the missing migration, compromise, incident, supplier, and trust endpoints.
+
+The latest consumer-recourse and administrative-visibility addition is the [GAO ghost-preparer memo](projects/us-customer-automation-recourse/gao-irs-ghost-preparer-identification-compliance-2026.md). It connects paid-preparer anonymity to fragmented IRS case data, six-office coordination, absent measurable goals, and three open recommendations while preserving the missing taxpayer correction, refund recovery, identity-theft resolution, outreach, and trust endpoints.
+
+The latest regional-place and public-capacity addition is the [GAO EDA and regional-commission memo](projects/us-local-business-place/gao-eda-regional-commission-grant-performance-coordination-2026.md). It connects more than $12 billion in grants and improving area conditions to missing performance validation, fragmented coordination, and three open recommendations while preserving the missing causal, project, household, and trust outcomes.
+
+The latest DOE place-and-infrastructure addition is the [GAO nuclear-cleanup future-land-use memo](projects/us-doe-nuclear-cleanup-option-selection/gao-doe-nuclear-cleanup-future-land-use-transfer-2026.md). It connects nonbinding future-use assumptions and industrial land transfer at five selected sites to cleanup standards and reuse tradeoffs while preserving the missing parcel, exposure, consent, jobs, tax, recontamination, and health endpoints.
+
+The latest federal digital-governance addition is the [GAO IT Dashboard investment-risk memo](projects/ai-work-control/gao-it-dashboard-investment-risk-ratings-2026.md). It adds a bounded rating-to-oversight route: GAO found more risk than CIO ratings in 24 of 53 selected investments, 21 ratings were not timely, and 17 recommendations remain open, while project delivery, public access, cybersecurity harm, and user outcomes remain unmeasured.
+
+The latest housing-risk addition is the [GAO flood-insurance coverage memo](projects/us-housing-insurance-risk/gao-flood-insurance-risk-coverage-policy-options-2026.md). It connects high-risk uninsured properties and FEMA mapping gaps to open disclosure, lender-quote, mandatory-purchase, and NFIP-limit actions while preserving the missing quote, purchase, affordability, claim, rebuilding, and household-recovery endpoints.
+
+The latest service-member access addition is the [GAO DOD records-release memo](projects/us-digital-access/gao-dod-service-member-records-release-delays-2026.md). It adds improper-release, processing-delay, multi-system workflow, and five open-recommendation evidence while preserving the missing requester receipt, correction, privacy-harm, health-continuity, benefits, trust, and completed-action endpoints.
+
+The latest defense-AI governance addition is the [GAO DOD responsible-AI memo](projects/ai-work-control/gao-dod-responsible-ai-governance-workforce-2026.md). It moves DOD AI Ethical Principles and six tenets into selected-use-case oversight, collaboration, staffing, and open-recommendation evidence while preserving the missing model, human-control, mission, adversary, deterrence, safety, and legitimacy endpoints.
+
+The latest cultural-consumption and infrastructure addition is the [GAO textile circular-economy policy memo](projects/cross-domain/gao-textile-circular-economy-policy-options-2026.md). It moves repair, reuse, recycling, producer responsibility, secondhand incentives, and cross-jurisdiction coordination into an explicit policy-option stage while preserving the missing collection, behavior, job, environmental, price, and household endpoints.
+
+The latest safety-net access addition is the [GAO veteran-SNAP outreach memo](projects/us-safety-net-access/gao-veteran-snap-outreach-access-2026.md). It connects veteran food-insecurity exposure to state outreach targeting, slowed VA–USDA coordination, and four open recommendations while preserving the missing veteran-level application, approval, receipt, adequacy, food-security, and recovery endpoints.
+
+The latest rural-care implementation addition is the [GAO Rural Health Transformation monitoring memo](projects/us-health-cost-household-choice/gao-rural-health-transformation-implementation-monitoring-2026.md). It follows a $10 billion first-year award to all 50 states into conditional future funding and planned monitoring, while preserving the missing spending, clinician, appointment, hospital-capacity, quality, health, and legitimacy endpoints.
+
+The latest small-business market-power addition is the [FTC Southern Glazer's price-discrimination memo](projects/us-local-business-place/ftc-southern-glazer-small-business-price-discrimination-2026.md). It defines paired-transaction thresholds, conditional 1.5x or double-differential compensation, and six years of independent monitoring while preserving the missing approval, retailer claims, payment, business survival, local competition, and household endpoints.
+
+The latest hospital-price addition is the [FTC hospital price-transparency warning-letter memo](projects/us-health-cost-household-choice/ftc-hospital-price-transparency-warning-letters-2026.md). It separates CMS price-transparency compliance from FTC Act deception risk for routine and non-emergency care while preserving the missing implementation, patient-price, bill, affordability, care-choice, and household-recovery endpoints.
+
+The latest prescription-drug consumer-power addition is the [FTC Caremark PBM rebate and hub-pharmacy settlement memo](projects/us-health-cost-household-choice/ftc-caremark-pbm-rebate-hub-pharmacy-settlement-2026.md). It specifies point-of-sale rebate, lower-list-price, community-pharmacy, and hub-access controls while preserving the distinction between projected settlement savings and observed patient out-of-pocket, fill, adherence, access, household-recovery, and trust outcomes.
+
+The latest consumer-price remedy addition is the [FTC Greenway Auto price-transparency memo](projects/us-tariff-incidence-quantity-discounts/ftc-greenway-auto-price-transparency-2026.md). It follows alleged hidden fees and conditional pricing into a proposed all-in-price and conduct control, while preserving the missing approval, implementation, final-price, affordability, customer-correction, and household-recovery endpoints.
+
+The latest housing-platform addition is the [GAO mortgage trigger-lead privacy memo](projects/us-housing-insurance-risk/gao-mortgage-trigger-lead-privacy-comparison-2026.md). It follows credit-data dissemination into unsolicited mortgage marketing, comparison-shopping claims, and a March 2026 consent/relationship restriction, while preserving the unmeasured post-law effects on privacy, prices, access, and housing stability.
+
+The latest time-and-care addition is the [GAO unpaid-household-work valuation memo](projects/us-childcare-work-capacity/gao-unpaid-household-work-care-valuation-2026.md). It makes daily unpaid work and a bounded replacement-cost range visible while preserving the distinction between time, care quality, household welfare, substitute-care access, work continuity, bargaining, and policy effect.
+
+The latest platform-governance addition is the [FTC Publicis–LiveRamp neutrality and data-firewall memo](projects/us-digital-habits-attention/ftc-publicis-liveramp-neutrality-remedy-2026.md). It advances a major data-connectivity intermediary from merger-risk allegation into proposed neutral-access, firewall, audit, non-retaliation, and mediation controls, while keeping closing, implementation, service quality, privacy, consumer choice, and durable competition open.
+
+The latest under-covered-platforms addition is the [FTC older-adult social-fraud and redress memo](projects/us-digital-habits-attention/ftc-older-adult-social-fraud-redress-2026.md). It joins age-conditioned reported social-media contact and high-loss fraud with selected enforcement, cancellation, fair-lending, and later-payment stages, while keeping the report population and FloatMe payment population separate; individual receipt, platform correction, repeat exposure, household recovery, and trust remain open.
+
+The latest wildfire-recovery checkpoint is the [LA County rebuild access and self-certification audit](projects/us-wildfire-insurance/la-county-rebuild-access-self-certification-checkpoint-2026-10-19.md). It adds a current plan-review control and owner-occupant fee-deferral/refund route, while keeping actual refund receipt, construction, occupancy, insurance continuity, and household recovery open.
+
+The latest cultural-meaning addition is the [arts participation, social connection, and meaning comparison](projects/cross-domain/arts-participation-social-connection-meaning-comparison-2026-10-19.md). It keeps arts attendance, loneliness, contact frequency, and planned national ritual separate: the evidence supports unequal access and bounded associations, not a pooled causal claim about belonging or civic action.
+
+The latest education-infrastructure comparison is the [school-finance, teacher-supply, and early-childhood access map](projects/cross-domain/education-finance-teacher-supply-early-childhood-access-comparison-2026-10-19.md). It separates long-run aggregate returns, current staffing/status, and territorial care capacity while leaving safe access, completed use, learning, caregiver work, and durable mobility open.
+
+The latest geopolitical capability comparison is the [Baltic drone exposure to capability and industrial resilience map](projects/ai-work-control/lithuania-ukraine-drone-capability-response-comparison-2026-10-19.md). It separates operational interception, allied procurement, and Lithuania–Ukraine industrial planning; deterrence, delivery, readiness, civilian protection, and adversary adaptation remain unobserved.
+
 The latest U.S. AI addition is the [NBER pro-worker AI framework](records/us-nber-pro-worker-ai-technology-policy-framework-2026.json). It adds five technology categories, market-failure mechanisms, and nine policy directions, while explicitly leaving deployment, worker control, pay, safety, prices, and consumer outcomes unmeasured.
+
+The accompanying [four-surface AI deployment comparison](projects/us-worker-control-remedy/ai-framework-deployment-comparison-2026-10-19.md) now makes that framework operational across P&G innovation, patent-law expertise, meal-delivery customer service, and firm organization capital. The comparison shows capability and throughput signals without pooling units, while control, training, gain distribution, remedy, trust, and exit remain open.
 
 The latest U.S. trade-consumer addition is the [NBER quantity-discount record](records/us-nber-tariff-quantity-discounts-scale-economies-2026.json). It shows why observed import-price pass-through can misstate incidence: transaction sizes collapsed and scale-adjusted pass-through was 60%, with foreign exporters absorbing part of the burden. Retail prices, household exposure, and welfare remain open.
 
+The accompanying [tariff-incidence and consumer-meaning comparison](projects/us-tariff-incidence-quantity-discounts/tariff-incidence-consumer-meaning-comparison-2026-10-19.md) now separates upstream transaction scale, consumer-price transmission, and Ipsos household attribution. It preserves the open path through product baskets, substitution, liquidity, complaint, switching, and political judgment.
+
 The latest U.S. health-consumer addition is the [NBER health-insurance competition record](records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json). It adds concentration and adverse selection across commercial, Medicare Advantage, and Medicaid markets, with consolidation raising premiums. Plan generosity, network access, care, household incidence, switching, and remedy remain separate endpoints.
+
+The [nursing-home finance, ownership, regulation, and resident-outcome comparison](projects/us-nursing-home-inspection-quality/nursing-home-finance-ownership-regulation-access-comparison-2026-10-19.md) adds a care-governance map across payment incentives, related-party finance, mergers, inspections, staffing thresholds, access, and roommate placement. These are connected mechanisms, not pooled evidence of one universal quality effect.
+
+The accompanying [health-insurance market-power and network-access comparison](projects/us-health-cost-household-choice/health-insurance-market-power-network-access-comparison-2026-10-19.md) now makes the CMS bridge explicit: 23.1 million plan selections, premium assistance, and 548 network metadata rows expose a selection-to-interface stage, not provider availability or care receipt.
 
 The latest consumer-data quality repair rechecked the [NBER consumption-wedges record](records/us-nber-consumption-wedges-low-liquidity-2026.json), replaced its stale retrieval hash, and added the official and project-control links. The record continues to separate observed spending, a modeled frictionless benchmark, liquidity, expectations, and welfare.
 
 The latest U.S. household-consumer addition is the [NBER gender-specific shocks record](records/us-nber-gender-shocks-household-bargaining-consumption-2026.json). It links industrial robots and fracking to different relative labor shocks and household product composition, while preserving a null result for total child-product spending and a weaker fracking estimate. Bargaining power, decision rights, unpaid work, and child wellbeing remain open.
+
+The [household bargaining, labor-shock, and transfer comparison](projects/us-household-financial-pressure/household-bargaining-labor-shock-transfer-comparison-2026-10-19.md) now places that consumption evidence beside the randomized guaranteed-income spillovers. It advances the household-adjustment stage while keeping spending composition, partner work, education, care, relationship quality, and security as separate outcomes.
 
 The latest U.S. consumer-price addition is the [NBER tariff pass-through record](records/us-nber-tariff-pass-through-consumer-prices-2026.json). It reports about 26% pass-through of the 2025–26 tariff increase, with direct import-price effects and delayed imported-input/markup effects. This keeps aggregate pass-through, household incidence, substitution, firm margin, inventory, and remedy separate.
 
@@ -26,7 +98,11 @@ The latest U.S. education-investment addition is the [NBER school-finance record
 
 The latest U.S. network-and-innovation addition is the [NBER economic-connectedness record](records/us-nber-social-capital-innovation-economic-connectedness-2026.json). It links high-income Facebook friendship exposure to much higher local patenting and supports a financing mechanism, while leaving jobs, wages, firm survival, privacy, and consumer benefit open.
 
+The [social-connectedness, innovation, and mobility comparison](projects/cross-domain/social-connectedness-innovation-mobility-comparison-2026-10-19.md) now places the patenting and upward-mobility routes side by side while keeping their units, clocks, privacy costs, and household conversion separate.
+
 The latest U.S. work-and-care addition is the [NBER fertility/remote-work record](records/us-nber-fertility-mothers-remote-work-2003-2024.json). It finds a negative labor-force participation effect of fertility and a reversal in remote-work patterns after 2020. This keeps work location, usable flexibility, care time, employer practice, earnings, housing, and wellbeing separate.
+
+The [work, care, flexibility, and childcare comparison](projects/cross-domain/work-care-flexibility-childcare-conversion-comparison-2026-10-19.md) now places the fertility/remote-work design beside current working-parent access and household-allocation evidence. It advances the time-as-price route while preserving the distinction between helpfulness, access, use, care quality, and later security.
 
 The latest U.S. multinational-firm addition is the [NBER tax-planning record](records/us-nber-multinational-tax-planning-foreign-profits-rd-2026.json). It reports 36% of foreign profits associated with structures adopted by 18% of firms and models tradeoffs between tax revenue and economic activity. This keeps firm structure, public revenue, R&D, investment, workers, and consumers as separate stages.
 
@@ -34,9 +110,13 @@ The latest U.S. labor/consumer addition is the [NBER labor-force-exit record](re
 
 The latest U.S. food-policy counterpoint is the [NBER SNAP restriction record](records/us-nber-snap-sugary-restrictions-spending-calories-tax-2026.json). It reports lower restricted spending, calories, and sugar, but also substitution, channel, price, and stigma effects. This keeps purchase response, consumption, health, food security, and unequal burden separate from the P-EBT expansion result.
 
+The [SNAP restriction, P-EBT, and food-security comparison](projects/us-safety-net-access/snap-restriction-p-ebt-purchase-food-security-comparison-2026-10-19.md) now places restriction and expansion on one policy map while preserving their different estimands. Purchase response is visible; consumption, nutrition, food adequacy, stigma, and durable security remain open.
+
 The latest U.S. consumer-assistance addition is the [NBER P-EBT purchase-response record](records/us-nber-p-ebt-sugary-item-spending-2026.json). It reports a 16% increase in sugary-item spending after disbursement among eligible households with school-aged children. This adds direct household purchase behavior while keeping consumption, diet, health, food security, and welfare separate.
 
 The latest U.S. environmental-health addition is the [NBER long-term PM2.5 record](records/us-nber-long-term-pm25-exposure-chronic-disease-2026.json). It links roughly 150,000 initially healthy soldiers to cumulative pollution exposure and finds higher circulatory disease, especially hypertension, with little detectable short-duration effect. This keeps cumulative health exposure, household conditions, work, place, and generalization separate.
+
+The [air-pollution, health, learning, and place comparison](projects/cross-domain/air-pollution-health-learning-place-comparison-2026-10-19.md) now places the Army health evidence beside rural Punjab learning evidence. It advances the exposure-to-outcome bridge while keeping civilian generalization, household mitigation, cost, learning, health, and later security open.
 
 The latest U.S. resident-placement addition is the [NBER roommate peer-effects record](records/us-nber-nursing-home-roommate-peer-effects-mortality-2025.json). It reports a 2.1 percentage-point mortality increase for patients assigned a roommate with dementia relative to a private room, while cognitively healthy roommates help patients with dementia. This adds resident interaction and placement to the care chain while keeping privacy, preference, staffing, and quality of life separate.
 
@@ -604,11 +684,11 @@ Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third
 which adds survey evidence on third-place supply, affordability, welcome, time,
 and the gap between wanting connection and regularly participating.
 
-**Current registry state:** 2014 machine-readable records, 5999 observations,
+**Current registry state:** 2130 machine-readable records, 6179 observations,
 The registry contains 1978 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
-currently has 2,784 local Markdown links and 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 2,881 local Markdown links and 1,159 link-validated HTML pages; these counts describe coverage and publication, not completion
 The newest U.S. defense-industrial artifact is the [supplier resilience and replaceability audit](projects/cross-domain/us-defense-industrial-supplier-resilience-audit-v1.md). It follows a bounded JASSM/LRASM chain from USAspending supplier concentration and component descriptions through UEI and reported-location coverage for all 74 returned subaward rows, focal BAE/Nashua and General Dynamics-OTS/Niceville capability context, DLA CAGE facility comparisons, explicit recipient-identifier ambiguity, Air Force production-rate and integration milestones, Polish procurement, delivery non-observation, and audit control gaps. It now adds a U.S. LRASM Event Zero integration-validation comparator, official C-1 fielding evidence for F/A-18E/F, and a same-UEI Niceville manufacturing/delivery contract comparator from a different ammunition program. The finding remains a network-to-capability gap: supplier breadth, capacity targets, tests, allied contracts, and a cross-program same-UEI comparator do not yet prove that the focal subaward maps to a performing facility, accepted inventory, substitute production, delivery, or strategic resilience.
 The newest U.S. consumer-remedy artifact is the [fraud, remedy receipt, and household recovery audit](projects/cross-domain/us-consumer-fraud-remedy-receipt-audit-v1.md). It follows the FTC's October 2026 report of 65,022 Walmart money-transfer-fraud checks totaling more than $9.8 million, compares it with Amazon Flex's and Credit Karma's repeated payment routes for uncashed or unaccepted payments, adds the FTC's 2024 cross-case cashing comparator, and joins administrative fraud exposure, receipt instructions, Federal Reserve household recovery and time burden, NBER liquidity-stratified fee effects, and bounded public recourse discussion. The finding is a check-to-recovery gap: the cross-case cashing rate is not Walmart-specific, and no counted distribution yet proves recipient-level receipt, adequate recovery, reduced repeat exposure, restored trust, or practical consumer exit.
 The newest U.S. platform-worker artifact is the [remedy and work-control audit](projects/cross-domain/us-platform-worker-remedy-work-control-audit-v1.md). It follows the Walmart Spark Driver case from complaint and court-entered $100 million judgment through driver-relief allocation, payment processing, and a 10-year earnings-verification program, adds the worker-facing app-credit/paper-check trace specified in the official FAQ and court order, compares it with Amazon Flex's repeated payment route for uncashed driver-tip refunds, and anchors the comparison in NBER evidence on competing-platform leverage. The finding is a money-to-control gap: monetary correction and a designed payment trace do not yet prove restored net earnings, schedule control, explanation, alternatives, trust, or practical exit.
@@ -2624,10 +2704,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 2014 trend records and 5999 observations pass the
+the current checkpoint: 2130 trend records and 6179 observations pass the
   structural and provenance validators; all 164 source-search packets pass their
-  record checks; the source registry represents all 118 registered source
- families; 2,784 local Markdown links and 1,151 published HTML pages pass link
+record checks; the source registry represents all 118 registered source
+families; 2,868 local Markdown links and 1,159 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 229
 connections, 93 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -2635,8 +2715,8 @@ are reproducibility and coverage controls, not evidence that the open
 material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
 arrows have been closed.
 The canonical [real broad event-ledger index](data/us-broad-event-ledger-index-v1.json)
-now inventories 98 schema-valid ledgers totaling 302 events and 454 arrows,
-including 163 explicitly open arrows;
+now inventories 102 schema-valid ledgers totaling 316 events and 484 arrows,
+including 176 explicitly open arrows;
 the publication gate validates that inventory separately from the simulated
 fixture and keeps non-contract recheck artifacts out of the count. The
 [portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json)
@@ -2835,7 +2915,7 @@ company-reported and partly corroborated at product level.
 
 The new [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
 tests the shared open middle across consumer, public-system, household,
-health, political, and worker routes. Thirty-four local source surfaces cover
+health, political, and worker routes. Thirty-nine local source surfaces cover
 different stages—route handling, adaptation, person-level timing, selected
 remedy, aggregate payment implementation, or institutional confidence—but no
 source supplies the full sequence from dated actor and alternatives through
@@ -4162,8 +4242,8 @@ exit—and does not treat the growing evidence count as end-to-end completion.
 
 The central theme-coverage audit was regenerated against the current matrix
 and its displayed hash synchronized. The publication gate remains the
-authoritative regression check; the latest verified portfolio is 98 ledgers,
-302 events, 454 typed arrows, and 164 explicitly open arrows.
+authoritative regression check; the latest verified portfolio is 100 ledgers,
+312 events, 474 typed arrows, and 172 explicitly open arrows.
 
 The latest external-source addition is the ITU-UNDRR-Sciences Po digital-
 systems-failure record. It adds a distinct infrastructure-resilience layer:

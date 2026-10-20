@@ -1,0 +1,106 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-ngl-anonymous-messaging-refund-claims-2026",
+  "title": "An anonymous-messaging platform remedy reaches a closed refund-claims route without proving payment or durable user recovery",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "Federal Trade Commission NGL enforcement, refund-claims announcement, and settlement page; platform conduct, eligibility, claims administration, and payment status, not a representative claimant-level recovery sample",
+  "geography": "United States NGL users and families, including users under 18 whose parent or guardian may submit a claim, and FTC redress administration",
+  "observations": [
+    {
+      "period": "July 2024 settlement; January 6, 2026 refund-claims launch",
+      "denominator": {
+        "value": 4500000,
+        "unit": "U.S. dollars ordered for refunds to impacted NGL users",
+        "value_type": "reported_redress_amount"
+      },
+      "measures": {
+        "platform_conduct": {
+          "value": "the FTC and Los Angeles District Attorney alleged that NGL sent fake messages, falsely claimed NGL Pro could reveal senders' identities, and charged recurring fees without consent",
+          "unit": "reported platform conduct and harm route",
+          "value_type": "alleged_conduct_pattern"
+        },
+        "eligibility_window": {
+          "value": "paid for NGL Pro between January 2022 and July 2024 and experienced unauthorized charges",
+          "unit": "claim eligibility condition",
+          "value_type": "reported_eligibility_rule"
+        },
+        "minor_access_route": {
+          "value": "people under 18 could not submit the claim themselves; a parent or guardian had to submit it on their behalf",
+          "unit": "claim-submission access rule",
+          "value_type": "reported_access_condition"
+        },
+        "individual_refund": {
+          "value": "not observed at launch",
+          "unit": "missing claim volume, approval, payment amount, delivery, cashing, residual loss, and household recovery",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the FTC claims-launch announcement and settlement description; redress amount, eligibility, minor-submission route, and claims review are kept separate from approved claims and individual payment outcomes.",
+      "uncertainty": "The launch announcement says claims would be reviewed and validated, payment amounts would depend partly on the number of claims, and the filing period would close April 6, 2026. It does not provide a claimant denominator, approval rate, payment schedule, or recipient-level outcome.",
+      "subgroup": "NGL Pro users with alleged unauthorized recurring charges, including users under 18 who require a parent or guardian to file; age, family support, documentation, and digital access may affect practical claim reach.",
+      "counterinterpretation": "A dedicated claim route and guardian mechanism can make redress more reachable than direct company complaints, but eligibility, documentation, and a closed filing window can still exclude affected users; a settlement fund is not an individual refund.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-announces-refund-claims-process-ngl-users-affected-deceptive-tactics-unauthorized-charges",
+      "retrieval_hash": "sha256:88c2fda54a7df22007eddb64e316846d1f8ce98fbfd9e34a8ce6aeed8e67976e",
+      "status": "reported"
+    },
+    {
+      "period": "April 6, 2026 filing deadline; FTC settlement page current status",
+      "denominator": {
+        "value": 1,
+        "unit": "public FTC NGL settlement claims route",
+        "value_type": "institutional_status_page"
+      },
+      "measures": {
+        "claims_status": {
+          "value": "the FTC is no longer accepting claims and says it is reviewing claims; the page says approved payment amounts will depend on the number of eligible claims",
+          "unit": "public redress-administration status",
+          "value_type": "reported_administration_status"
+        },
+        "payment_timing": {
+          "value": "the FTC says it expects to send payments in 2026 after reviewing claims and will update the page",
+          "unit": "stated payment timetable",
+          "value_type": "reported_pending_timetable"
+        },
+        "platform_restriction": {
+          "value": "the settlement order bans the defendants from marketing anonymous messaging apps to children and teens under 18",
+          "unit": "reported conduct restriction",
+          "value_type": "ordered_platform_control"
+        },
+        "payment_and_exit_outcomes": {
+          "value": "not observed",
+          "unit": "missing approved-claim count, issued or received payment, cashing, charge correction, continued use, switching, trust, and durable platform exit",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the current FTC settlement page and case status; closed claims intake, stated review, expected payment timing, and platform restriction are coded separately from completed redress and user behavior.",
+      "uncertainty": "The public status page does not report the number of claims, approvals, payments sent, payments received, returned payments, or final distribution. The case page remains a public administrative status surface, not a recipient-level dataset.",
+      "subgroup": "Claimants and potentially eligible former NGL users, including families filing for minors; approval and payment may vary with proof, eligibility, claim volume, and administrative contact.",
+      "counterinterpretation": "A closed intake window followed by claims review indicates administrative progression, but an expected payment year and conduct ban do not establish recipient recovery, corrected charges, or reduced future exposure.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/ngl-settlement",
+      "retrieval_hash": "sha256:88c2fda54a7df22007eddb64e316846d1f8ce98fbfd9e34a8ce6aeed8e67976e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/ngl",
+      "claim": "The FTC case page identifies the NGL matter, its January 2026 claims-process update, and the settlement timeline.",
+      "status": "official-case-page"
+    },
+    {
+      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/03/ngl-pro-users-charged-without-authorization-can-apply-refund-deadline-april-6",
+      "claim": "FTC consumer guidance repeats the eligibility conditions, April 6 deadline, and no-guarantee-of-refund boundary.",
+      "status": "official-consumer-guidance"
+    }
+  ],
+  "boundary": "This record adds a platform-conduct-to-redress route: alleged deceptive messaging and unauthorized recurring charges, a $4.5 million refund fund, age-conditioned claim submission, a closed filing period, ongoing review, and an under-18 marketing ban. It does not establish claim volume, approval, payment issuance, delivery, cashing, charge correction, adequacy, continued use, switching, trust, or durable exit. The next test would require an authorized aggregate distribution or recipient-level endpoint preserving eligibility, approval, payment, and later outcome separately.",
+  "retrieval_hash": "sha256:88c2fda54a7df22007eddb64e316846d1f8ce98fbfd9e34a8ce6aeed8e67976e"
+}

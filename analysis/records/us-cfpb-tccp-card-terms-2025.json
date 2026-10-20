@@ -14,6 +14,8 @@
         "unique_issuers": {"value": 195, "unit": "unique institution names among product rows", "value_type": "derived_count"},
         "unique_products": {"value": 602, "unit": "unique product names among product rows", "value_type": "derived_count"},
         "top_25_issuer_rows": {"value": 410, "unit": "product rows marked as issued by a top-25 institution", "value_type": "derived_count"},
+        "national_availability_rows": {"value": 512, "unit": "product rows marked National availability", "value_type": "derived_count"},
+        "regional_or_one_state_rows": {"value": 151, "unit": "product rows marked Regional or One State/Territory availability", "value_type": "derived_count"},
         "purchase_apr_offered": {"value": 625, "unit": "product rows marked Yes among 663 rows", "value_type": "derived_count"},
         "credit_tier_apr_variation": {"value": 396, "unit": "product rows marked Yes for purchase APR varying by credit tier", "value_type": "derived_count"}
       },
@@ -32,6 +34,8 @@
         "median_purchase_apr": {"value": 24.49, "unit": "percent; median of numeric purchase APR median field", "value_type": "derived_descriptive_median"},
         "median_purchase_apr_min": {"value": 18.49, "unit": "percent; median of numeric purchase APR minimum field", "value_type": "derived_descriptive_median"},
         "median_purchase_apr_max": {"value": 27.49, "unit": "percent; median of numeric purchase APR maximum field", "value_type": "derived_descriptive_median"},
+        "purchase_apr_indexed": {"value": 524, "unit": "product rows reporting an indexed purchase APR", "value_type": "derived_count"},
+        "secured_card_rows": {"value": 56, "unit": "product rows marked as secured cards", "value_type": "derived_count"},
         "apr_zero_values": {"value": "some rows report zero or promotional/conditional values", "unit": "field-value boundary", "value_type": "reported_boundary"}
       },
       "method": "Descriptive tabulation of numeric CFPB TCCP purchase-APR fields; percentages converted from spreadsheet decimal representation and rows with nonnumeric/missing fields excluded from each statistic.",
@@ -49,6 +53,7 @@
         "intro_apr_offered": {"value": 149, "unit": "product rows marked Yes", "value_type": "derived_count"},
         "balance_transfer_offered": {"value": 236, "unit": "product rows marked Yes", "value_type": "derived_count"},
         "late_fees_offered": {"value": 654, "unit": "product rows marked Yes", "value_type": "derived_count"},
+        "foreign_transaction_fees_reported": {"value": 333, "unit": "product rows marked Yes", "value_type": "derived_count"},
         "annual_fee_reported": {"value": 113, "unit": "product rows with a numeric annual-fee value", "value_type": "derived_count"},
         "median_annual_fee": {"value": 95, "unit": "US dollars among numeric annual-fee values", "value_type": "derived_descriptive_median"},
         "rewards_missing_or_unreported": {"value": 177, "unit": "product rows with missing Rewards field", "value_type": "derived_count"},

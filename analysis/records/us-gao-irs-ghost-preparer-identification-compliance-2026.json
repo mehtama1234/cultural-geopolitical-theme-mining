@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-irs-ghost-preparer-identification-compliance-2026",
+  "title": "Tax-preparer anonymity can shift filing risk to households while IRS detection, redress, and prevention remain fragmented",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108176 review of IRS ghost-preparer identification and compliance efforts",
+  "geography": "United States paid tax-preparer and Internal Revenue Service filing, enforcement, education, and taxpayer-protection systems",
+  "observations": [
+    {
+      "period": "Fiscal year 2025 paid-preparer context and October 15, 2026 GAO report",
+      "denominator": {
+        "value": 50,
+        "unit": "more than half of federal income tax returns prepared by paid preparers in fiscal year 2025, represented as a minimum percentage context",
+        "value_type": "reported_population_context"
+      },
+      "measures": {
+        "taxpayer_exposure": {
+          "value": "ghost preparers omit identifying information and may file fraudulent returns, steal refunds, or steal taxpayer identities, leaving taxpayers responsible for errors or fraud",
+          "unit": "reported taxpayer-risk mechanism",
+          "value_type": "reported_risk_pathway"
+        },
+        "case_data_connectivity": {
+          "value": "IRS systems for tracking ghost-preparer cases and outcomes are not connected and have limitations; IRS does not know how many ghost preparers it has identified, investigated, and addressed",
+          "unit": "reported enforcement-data condition",
+          "value_type": "reported_data_gap"
+        },
+        "organizational_fragmentation": {
+          "value": 6,
+          "unit": "IRS offices across which ghost-preparer identification and response activities are fragmented",
+          "value_type": "reported_organizational_count"
+        },
+        "strategy_measurement": {
+          "value": "IRS has not developed measurable objectives or performance goals for its ghost-preparer efforts, including taxpayer outreach",
+          "unit": "reported strategy and measurement condition",
+          "value_type": "reported_strategy_gap"
+        },
+        "enforcement_signal": {
+          "value": "individual ghost preparers have been ordered by courts to pay millions of dollars in restitution, but IRS officials said the total effect is likely greater because ghost preparers are difficult to detect",
+          "unit": "reported enforcement and harm signal",
+          "value_type": "reported_case_signal"
+        },
+        "open_recommendations": {
+          "value": 3,
+          "unit": "open recommendations on data collection and sharing, a coordinated paid-preparer strategy, and measurable objectives and goals",
+          "value_type": "open_recommendation_count"
+        },
+        "taxpayer_recovery": {
+          "value": "not measured",
+          "unit": "return correction, refund recovery, identity-theft resolution, filing cost, legal burden, outreach reach, repeat exposure, or taxpayer trust",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-108176, based on federal court cases, IRS documentation and data, comparison with evidence-based policymaking and consumer-education practices, and interviews with IRS, Department of Justice, oversight, and industry stakeholders. Taxpayer exposure, case-data connectivity, organizational fragmentation, strategy measurement, enforcement signal, recommendations, and taxpayer outcomes are retained as separate stages.",
+      "uncertainty": "The report does not estimate the prevalence of ghost preparers or the total taxpayer loss. Court cases and restitution examples are not a population outcome series, and the lack of connected IRS systems prevents a complete count of identified, investigated, addressed, or repeat cases. A paid-preparer context of more than half of returns does not mean all paid preparers or returns face ghost-preparer risk.",
+      "subgroup": "Taxpayers who use paid preparers, including households with limited filing capacity, language or documentation barriers, low financial slack, or exposure to refund and identity-theft harm.",
+      "counterinterpretation": "Most paid preparers may comply with identification and filing requirements, and fragmented data may reflect separate legal and operational functions rather than absent enforcement; nevertheless, without linked cases, measurable goals, and outreach measures, IRS cannot reliably assess deterrence or taxpayer protection.",
+      "source_url": "https://www.gao.gov/products/gao-27-108176",
+      "retrieval_hash": "sha256:ba805383a2c888a406f584b833c74100d79ce2deff28f0038aa6663e66985cf7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108176/index.html",
+      "claim": "The official accessible report contains the taxpayer-risk, data-connectivity, office-fragmentation, strategy, and recommendation findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/blog/beware-ghost-preparers-they-can-haunt-your-tax-filings",
+      "claim": "The official GAO companion explains the taxpayer-facing ghost-preparer risk and identification context.",
+      "status": "official-companion"
+    }
+  ],
+  "boundary": "This record advances a bounded paid-preparer anonymity-to-IRS detection and strategy route. It does not establish ghost-preparer prevalence, taxpayer-level fraud or identity-theft loss, refund recovery, return correction, outreach reach, legal burden, repeat exposure, trust, or completed corrective action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and companion link are retained for reproduction.",
+    "retrieval_hash": "sha256:ba805383a2c888a406f584b833c74100d79ce2deff28f0038aa6663e66985cf7",
+    "checked": "2026-10-20"
+  }
+}

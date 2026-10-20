@@ -1,0 +1,48 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-income-timing-price-adaptation-2025",
+  "title": "Income variability and price pressure convert household room into overlapping substitutions, delay, debt, and extra work",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Federal Reserve 2025 Survey of Household Economics and Decisionmaking income, help, and price-adaptation module",
+  "geography": "United States adults; 2025 SHED",
+  "observations": [
+    {
+      "period": "2025 SHED survey and reference year; published 2026",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. adult respondents; denominators vary across income variability, outside help, budget margin, and price-response questions",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "income_variability": {"value": 30, "unit": "percent reporting income varying at least occasionally", "value_type": "published_survey_estimate"},
+        "variability_bill_difficulty": {"value": 11, "unit": "percent reporting income variability made it difficult to pay bills", "value_type": "published_survey_estimate"},
+        "outside_help": {"value": 23, "unit": "percent reporting outside help with a listed expense", "value_type": "published_survey_estimate"},
+        "money_left_over": {"value": "19% below $25,000 family income versus 59% at $100,000 or more reporting money left over always or often", "unit": "income-patterned budget-margin estimate", "value_type": "published_subgroup_estimate"},
+        "price_adaptations": {"value": "62% switched to cheaper products; 60% used less or stopped use; 46% delayed a major purchase; 41% reduced saving; 16% borrowed more; 17% worked more or got another job", "unit": "overlapping reported price-response categories", "value_type": "published_survey_estimates"},
+        "protected_or_sacrificed_outcome": {"value": "not observed", "unit": "missing named bill, purchase, quality, care, health, time, debt-repayment, provider, remedy, trust, and exit outcome for the same respondent episode", "value_type": "unmeasured"},
+        "mechanism": {"value": "Households can preserve current consumption by transferring pressure into lower-quality purchases, reduced use, delay, lower saving, debt, additional work, or outside help; the cross-sectional survey cannot identify the sequence or durability", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Federal Reserve's official 2025 SHED income-and-expenses report; question-specific universes and overlapping adaptation categories are retained separately rather than treated as a causal pathway.",
+      "uncertainty": "The survey does not link a respondent across a dated bill or price episode to payment completion, amount, liquid buffer, debt terms, care obligations, schedule control, provider response, remedy, trust, switching, or exit. Price-response categories overlap and may reflect smoothing, deprivation, preference, or mixed motives.",
+      "subgroup": "U.S. adults, with published income-patterned budget-margin estimates; no linked household episode, geography, race, care, health, or work subgroup is retained here.",
+      "counterinterpretation": "Working more can protect current spending while reducing care or rest; outside help can buffer a bill without creating durable room; switching to cheaper goods can reflect agency, constraint, or both.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm",
+      "retrieval_hash": "sha256:d6ec2684692514f2ec17d8bc38cf412dd95860f2b7d06652597cd6c40926bc4e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes descriptive household income variability, outside help, budget margin, and price adaptations. It does not establish a dated causal shock, protected payment, durable security, or household recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from official Federal Reserve SHED tables and report; SHED microdata and respondent identifiers are not retained.",
+    "checked": "2026-10-20"
+  }
+}

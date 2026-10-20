@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-fwc-aitken-casual-dismissal-procedural-fairness-2025",
+  "title": "Regular casual work and a formal unfair-dismissal finding can still leave income restoration unresolved",
+  "theme_ids": [
+    "work",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "Fair Work Commission decision [2025] FWC 561 concerning a regular casual nail technician's dismissal",
+  "geography": "Perth, Western Australia; Fair Work Commission U2024/9845",
+  "observations": [
+    {
+      "period": "February 2023 through February 24, 2025; regular casual work, dismissal, merits hearing, and deferred remedy",
+      "denominator": {
+        "value": 1,
+        "unit": "publicly adjudicated worker case",
+        "value_type": "case_count"
+      },
+      "measures": {
+        "regular_work": {
+          "value": "The worker worked every week as a regular casual nail technician, usually 16 to 23 hours, and supplied 85 payslips in the jurisdictional dispute",
+          "unit": "reported employment pattern",
+          "value_type": "observed_case_sequence"
+        },
+        "dismissal": {
+          "value": "The employer dismissed the worker on August 1, 2024 after disputed complaints about client service, language, booking changes, and service timing",
+          "unit": "reported employment decision",
+          "value_type": "observed_case_event"
+        },
+        "procedural_finding": {
+          "value": "The Commission held that the worker was protected by the unfair-dismissal jurisdiction and that the dismissal was harsh, unjust, and unreasonable; the decision records no formal warning or adequate opportunity to respond",
+          "unit": "adjudicated employment finding",
+          "value_type": "observed_adjudication"
+        },
+        "remedy_and_livelihood": {
+          "value": "Remedy was deferred for further evidence and conciliation; payment, reinstatement, alternative employment, earnings recovery, and later livelihood are not established",
+          "unit": "open remedy and livelihood stages",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "Legal recognition of regular-casual status and procedural unfairness can protect voice at adjudication while leaving the practical cost of lost work and remedy access with the worker",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from the primary Fair Work Commission decision [2025] FWC 561; regular work, neurodivergence disclosure, dismissal, jurisdiction, merits finding, and deferred remedy are kept separate.",
+      "uncertainty": "The public decision does not retain private payroll and household records, exact lost earnings, remedy amount, payment or reinstatement, alternative work, health effects, or later trust and livelihood outcomes.",
+      "subgroup": "One publicly adjudicated regular-casual worker in a small-firm employment case; no population denominator or comparison group is supplied.",
+      "counterinterpretation": "A regular work pattern and an unfair-dismissal finding do not establish that dismissal lacked any substantive concern, that reinstatement was feasible, or that a later remedy restored income or dignity.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc561.pdf",
+      "retrieval_hash": "sha256:c6b845c3fa19b7b5e84bf6c6c842db342acb3de048493d01da75a04bfb7014f8",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes regular-casual work, a dismissal, formal recognition of jurisdiction and procedural unfairness, and a deferred remedy process. It does not establish final remedy receipt, recovered earnings, alternative work, household recovery, health outcome, trust change, recurrence, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the primary FWC decision; private payroll, medical, client, household, and later employment files are not retained.",
+    "checked": "2026-10-20"
+  }
+}

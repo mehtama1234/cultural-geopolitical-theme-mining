@@ -1,0 +1,48 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-aspe-cash-counseling-caregiver-wellbeing-2005",
+  "title": "Consumer-directed Medicaid support can improve caregiver wellbeing without proving recipient recovery or durable household security",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "ASPE Cash and Counseling randomized Medicaid caregiver follow-up",
+  "geography": "United States; Arkansas, Florida, and New Jersey Medicaid demonstration",
+  "observations": [
+    {
+      "period": "Cash and Counseling caregiver follow-up; approximately 10 months after assignment, report published 2005",
+      "denominator": {
+        "value": 3668,
+        "unit": "published primary informal-caregiver interviews: 1,433 Arkansas, 1,193 Florida, and 1,042 New Jersey",
+        "value_type": "reported_caregiver_interview_count"
+      },
+      "measures": {
+        "intervention": {"value": "beneficiary randomized to consumer-directed Cash and Counseling support or usual personal-care/home-and-community-based services", "unit": "randomized program contrast", "value_type": "randomized_intervention"},
+        "control_route": {"value": "beneficiary could adjust service amount, timing, and type, hire a primary caregiver, name a decision maker, or purchase permitted assistive devices/home modifications", "unit": "reported consumer-direction mechanism", "value_type": "reported_program_feature"},
+        "caregiver_wellbeing": {"value": "treatment caregivers fared better than controls on at least half of 15 key wellbeing and satisfaction measures", "unit": "study-level comparative outcome pattern", "value_type": "estimated_comparative_outcome"},
+        "perceived_financial_strain": {"value": "consumer direction alleviated perceived financial strain in all three states, while caregiver household income did not discernibly change", "unit": "study-level comparative outcome pattern", "value_type": "estimated_comparative_outcome"},
+        "paid_caregiver_health": {"value": "paid treatment-group caregivers showed better outcomes on important emotional-strain and physical-health measures, with effects generally larger than among unpaid treatment caregivers", "unit": "study-level comparative outcome pattern", "value_type": "estimated_comparative_outcome"},
+        "recipient_and_household_recovery": {"value": "not observed", "unit": "missing exact paid hours/amount, recipient clinical outcome, employment/earnings, household buffers, long-run persistence, trust, switching, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "A public care program can reduce perceived caregiver strain and improve wellbeing while leaving coordination, unpaid labor, recipient need, and household risk inside the family", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the ASPE report How Cash and Counseling Affects Informal Caregivers; randomized assignment, caregiver interview counts, wellbeing, satisfaction, financial-strain, and paid-caregiver health comparisons are kept separate from recipient and household outcomes.",
+      "uncertainty": "State implementation and outcome measures differ. The public report does not retain caregiver task hours, exact paid amount, recipient clinical outcome, employment/earnings, household buffers, provider alternatives, long-run persistence, trust, collective action, or exit.",
+      "subgroup": "Primary informal caregivers identified by participating Medicaid beneficiaries in Arkansas, Florida, and New Jersey; paid and unpaid treatment caregivers are described, but no pooled beneficiary-caregiver household denominator is supplied.",
+      "counterinterpretation": "Improved caregiver wellbeing can coexist with unmet recipient need, new household costs, later service loss, or no change in caregiver income; short-run relief is not durable recovery.",
+      "source_url": "https://aspe.hhs.gov/sites/default/files/migrated_legacy_files/41886/ICaffect.pdf",
+      "retrieval_hash": "sha256:12084511c5655fd1a03326aa0fc8829f70e368e0218f4743c6021a4063059fb5",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a randomized care-support-to-caregiver-wellbeing segment. It does not establish recipient care completion, long-run household recovery, caregiver employment recovery, trust, action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the published ASPE caregiver report; beneficiary, caregiver, Medicaid, and claims microdata are not retained.",
+    "checked": "2026-10-20"
+  }
+}

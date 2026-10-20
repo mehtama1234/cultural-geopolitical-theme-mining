@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-medicare-part-d-vertical-integration-pharmacy-steering-2026",
+  "title": "Vertically integrated Part D sponsors can steer prescriptions toward owned pharmacies while beneficiary and community-pharmacy effects remain mixed",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107393 reissued October 6, 2026 review of payments and contracts between vertically integrated Medicare Part D plan sponsors and pharmacies",
+  "geography": "United States Medicare Part D plan sponsors, pharmacy benefit managers, owned pharmacies, non-owned pharmacies, beneficiaries, and community pharmacies",
+  "observations": [
+    {
+      "period": "2023 CMS utilization and payment data, 36 pharmacy contracts, and October 6, 2026 reissued report",
+      "denominator": {
+        "value": 4,
+        "unit": "large vertically integrated Medicare Part D plan sponsors selected from the 15 largest sponsors by 2023 enrollment",
+        "value_type": "reported_review_cohort"
+      },
+      "measures": {
+        "program_scale": {
+          "value": "$150 billion in Part D prescription-drug coverage spending for approximately 54 million beneficiaries in 2025",
+          "unit": "reported program context",
+          "value_type": "reported_program_scale"
+        },
+        "selected_sponsor_reach": {
+          "value": "the four selected vertically integrated sponsors accounted for more than 40 percent of total Part D enrollment, utilization, and pharmacy payments in 2023",
+          "unit": "reported selected-sponsor share",
+          "value_type": "reported_market_reach"
+        },
+        "owned_pharmacy_utilization": {
+          "value": 28,
+          "unit": "percent of selected sponsors' Part D drug utilization at pharmacies they owned in 2023",
+          "value_type": "reported_utilization_share"
+        },
+        "owned_pharmacy_payments": {
+          "value": 24,
+          "unit": "percent of selected sponsors' total payments to pharmacies at pharmacies they owned in 2023",
+          "value_type": "reported_payment_share"
+        },
+        "lower_cost_sharing_signal": {
+          "value": "for the 100 highest-utilization drugs, payments and cost sharing were lower at owned pharmacies than non-owned pharmacies for at least 94 percent of drugs; owned pharmacies were primarily mail-order while non-owned pharmacies were primarily retail",
+          "unit": "reported owned-versus-non-owned comparison",
+          "value_type": "reported_payment_comparison"
+        },
+        "higher_cost_sharing_exception": {
+          "value": "for about half of the 20 highest-payment-per-30-day-supply drugs, non-employer-plan cost sharing at owned pharmacies was up to about $340 higher across the four sponsors",
+          "unit": "reported high-payment-drug cost-sharing exception",
+          "value_type": "reported_cost_sharing_exception"
+        },
+        "contract_review": {
+          "value": 36,
+          "unit": "non-generalizable plan-sponsor and pharmacy contracts reviewed for owned-versus-non-owned payment rates and provisions",
+          "value_type": "reported_contract_sample"
+        },
+        "payment_adjustments": {
+          "value": "pharmacies paid back plan sponsors 7 percent of total point-of-sale payments in net payment adjustments in 2023; GAO could not determine whether adjustments differed for owned and non-owned pharmacies at the individual-pharmacy level",
+          "unit": "reported payment-adjustment signal",
+          "value_type": "reported_payment_adjustment"
+        },
+        "beneficiary_conversion": {
+          "value": "not measured",
+          "unit": "prescription steering, pharmacy choice, adherence, access, independent-pharmacy revenue, net drug cost after all rebates and adjustments, health outcomes, or household burden",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from the October 6, 2026 reissued GAO-26-107393 report, based on 2023 CMS Part D claims, utilization, payment, ownership, and pharmacy-type data for four selected sponsors, comparisons of 100 highest-utilization and 100 highest-payment drugs, and a non-generalizable review of 36 contracts. Program scale, sponsor reach, owned-pharmacy utilization and payments, cost-sharing comparisons, contract sample, adjustments, and beneficiary outcomes are retained as separate stages.",
+      "uncertainty": "The four sponsors were selected from the largest 15 and results are not generalizable to other sponsors or years. Gross payments do not capture all manufacturer rebates or pharmacy payment adjustments, and cost-sharing differences do not by themselves prove steering, constrained choice, adherence, or health effects. Mail-order and retail pharmacy differences may reflect service and plan design as well as ownership.",
+      "subgroup": "Medicare Part D beneficiaries, independent and chain retail pharmacies, mail-order and specialty pharmacies, plan sponsors, PBMs, employers, and households managing recurring prescriptions.",
+      "counterinterpretation": "Lower owned-pharmacy cost sharing can benefit beneficiaries, vertical integration may support mail-order or specialty access, and payment rates in the 36 contracts were not consistently higher or lower for owned pharmacies; nevertheless, ownership and financial incentives can create steering or competitive effects that aggregate payment data cannot resolve.",
+      "source_url": "https://www.gao.gov/products/gao-26-107393",
+      "retrieval_hash": "sha256:130c001184e056744647591c74a83a4f8a9f9d7edf5ea6be68e4f5cd00dd000b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-107393/index.html",
+      "claim": "The official accessible report contains the owned-pharmacy utilization, payment, cost-sharing, contract, and adjustment findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/assets/gao-26-107393.pdf",
+      "claim": "The official reissued PDF preserves the October 6, 2026 correction boundary for the summary percentages.",
+      "status": "official-revised-pdf"
+    }
+  ],
+  "boundary": "This record advances a bounded Medicare Part D vertical-integration-to-pharmacy-steering route. It does not establish generalized sponsor behavior, beneficiary steering, constrained pharmacy choice, adherence, access, independent-pharmacy revenue effects, net drug cost after all rebates and adjustments, health outcomes, or household burden.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and revised PDF links are retained for reproduction.",
+    "retrieval_hash": "sha256:130c001184e056744647591c74a83a4f8a9f9d7edf5ea6be68e4f5cd00dd000b",
+    "checked": "2026-10-20"
+  }
+}

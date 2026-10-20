@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-fwc-alam-shah-injury-dismissal-reinstatement-2025",
+  "title": "An injury-related dismissal can produce a reinstatement and lost-pay order while actual compliance remains unverified",
+  "theme_ids": [
+    "work",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "Fair Work Commission decision [2025] FWC 2621 concerning Alam Shah",
+  "geography": "Greenacre, Sydney, Australia; Fair Work Commission case [2025] FWC 2621",
+  "observations": [
+    {
+      "period": "April 17-September 5, 2025; workplace injury, return, dismissal, tribunal review, and remedy order",
+      "denominator": {
+        "value": 1,
+        "unit": "publicly identified adjudicated worker case",
+        "value_type": "case_count"
+      },
+      "measures": {
+        "injury_and_return": {
+          "value": "Mr Shah was struck by a forklift on April 17, took time off on workers compensation, and returned to work on April 28, 2025",
+          "unit": "reported injury and employment sequence",
+          "value_type": "observed_case_sequence"
+        },
+        "dismissal_and_access": {
+          "value": "He was dismissed by email on May 2 without a valid reason or opportunity to respond; the case records limited English, interpreter use, and a local walkable job that was difficult to replace because he did not drive",
+          "unit": "reported employment and communication context",
+          "value_type": "observed_case_event"
+        },
+        "remedy_order": {
+          "value": "The Commission ordered reinstatement to the former position within 14 days, continuity of service, translation/publication in Rohingya, and $18,035.56 for 20 weeks of lost pay less one week in lieu of notice",
+          "unit": "adjudicated remedy order",
+          "value_type": "observed_remedy_order"
+        },
+        "receipt_and_durability": {
+          "value": "not observed",
+          "unit": "missing post-order payment receipt, actual return, work duration, recurrence, household recovery, trust, collective action, and exit",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "A tribunal can convert an injury-related dismissal and language-access dispute into a reinstatement and lost-pay order while leaving the affected worker's preferred remedy, actual compliance, and durable livelihood unresolved",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from the primary Fair Work Commission decision and translated publication route; injury, return, dismissal, language/cultural access, remedy preference, order, and open compliance are kept separate.",
+      "uncertainty": "The decision reports the injury, dismissal, context, and order but no post-order receipt or follow-up. Private medical, payroll, household, alternative-job, compliance, and later-employment records are not retained.",
+      "subgroup": "One publicly identified worker in an Australian employment-remedy case; no population denominator or comparison group is supplied.",
+      "counterinterpretation": "The employer may have had workplace concerns not sustained by the evidence, and a formal reinstatement order may not match the worker's preferred compensation remedy; an order is not verified restoration.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2621.pdf",
+      "retrieval_hash": "sha256:799bb567620bc703739f14b8304126259b7a29cf46776455553e67494f94cd64",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes one adjudicated worker case with observed injury, return, dismissal, language/cultural access, tribunal response, reinstatement, continuity, and lost-pay order. It does not establish post-order compliance, payment receipt, restored livelihood, trust, recurrence, collective action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the public FWC decision; private worker, payroll, medical, household, and compliance files are not retained.",
+    "checked": "2026-10-20"
+  }
+}

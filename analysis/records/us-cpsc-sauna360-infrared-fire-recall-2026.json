@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cpsc-sauna360-infrared-fire-recall-2026",
+  "title": "A large product recall can provide a repair route while leaving owner-level safety restoration unmeasured",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Consumer Product Safety Commission Sauna360 infrared sauna and kit recall",
+  "geography": "United States; Sauna360 infrared saunas, hybrid infrared saunas, and infrared kits",
+  "observations": [
+    {
+      "period": "September 17, 2026; CPSC infrared-sauna fire and burn recall",
+      "denominator": {
+        "value": 41580,
+        "unit": "about recalled U.S. sauna rooms and infrared kits; additional Canadian units are reported separately",
+        "value_type": "approximate_recalled_product_units"
+      },
+      "measures": {
+        "hazard": {
+          "value": "Infrared panels could short circuit, overheat, and create fire and burn hazards",
+          "unit": "reported product-safety hazard",
+          "value_type": "reported_regulatory_finding"
+        },
+        "incident_signal": {
+          "value": 67,
+          "unit": "reported overheating, melting, charring, or burning reports received by Sauna360; no injuries reported in the notice",
+          "value_type": "reported_incident_count"
+        },
+        "remedy_route": {
+          "value": "Consumers were instructed to stop using the products immediately and contact Sauna360 to schedule a free in-home repair by a professional installer",
+          "unit": "offered recall remedy and safety instruction",
+          "value_type": "reported_remedy_offer"
+        },
+        "owner_recovery": {
+          "value": "not observed",
+          "unit": "missing owner notice, product possession, appointment, repair completion, downtime, safe use after repair, residual cost, substitution, trust, and continued use or exit",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from the official CPSC recall notice; recalled units, incident reports, stop-use instruction, and offered repair are kept separate from owner-level notice, completion, and safe restoration.",
+      "uncertainty": "The unit and incident counts are notice-level aggregates, not unique-owner prevalence or repair denominators. The public notice does not identify which owners were contacted, scheduled, repaired, or safely restored.",
+      "subgroup": "U.S. owners of the recalled Sauna360 infrared sauna rooms, hybrid rooms, and kits; no owner-level subgroup or comparison is supplied.",
+      "counterinterpretation": "A free professional repair can reduce risk for an owner who completes it, while other owners may remain exposed because of non-notice, access, scheduling, downtime, or trust barriers.",
+      "source_url": "https://www.cpsc.gov/Recalls/2026/Sauna360-Recalls-Infrared-Saunas-Hybrid-Infrared-Saunas-and-Infrared-Kits-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards",
+      "retrieval_hash": "sha256:c01a6b64ee42864875805427357bbe505ccb6777371318a779a126a9994a80d3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.cpsc.gov/Recalls/2026/Sauna360-Expands-Recall-of-Tylo-Halmstad-and-Kiruna-Hybrid-Saunas-Due-to-Fall-Hazard-New-Remedy-Provided",
+      "claim": "Separate Sauna360 bench recall expansion with a new repair route; retained as adjacent product-safety context rather than merged with the infrared-panel hazard.",
+      "status": "adjacent-official-context"
+    }
+  ],
+  "boundary": "This record establishes a product hazard, incident signal, stop-use instruction, and offered professional repair. It does not estimate owner exposure, notice, repair completion, safe restoration, residual cost, durable trust, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the official CPSC recall page; owner files, raw complaints, direct identifiers, installer records, and repair-completion records are not retained.",
+    "checked": "2026-10-20"
+  }
+}

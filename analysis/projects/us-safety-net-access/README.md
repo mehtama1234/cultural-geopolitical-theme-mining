@@ -27,6 +27,35 @@ compares office access, recertification interruption, monthly transitions,
 food-security context, EBT controls, and replacement policy. It separates
 eligibility, participation, usable benefit, food security, and recovery.
 
+The [public-benefit episode acquisition gate](public-benefit-episode-acquisition-gate-2026-10-19.md)
+records the next bounded same-person or same-case test and the stopping rule
+for the remaining receipt, adequacy, correction, persistence, and later-security
+fields.
+
+The [New Jersey–Connecticut EBT prevention-versus-restoration bridge](ebt-prevention-versus-restoration-cross-state-bridge-2026-10-20.md)
+keeps statewide chip-card rollout and cardholder lock controls separate from
+activation, prevented theft, recovered benefits, food adequacy, trust, and exit.
+
+The [Connecticut SNAP storm-food replacement follow-up](ct-snap-storm-food-replacement-followup-2026-10-20.md)
+adds a distinct disaster-loss route with a report deadline, verification
+mechanism, replacement cap, and issuance timing while keeping actual receipt
+and food-security recovery open.
+
+The [Connecticut SNAP-exit grocery-card bridge](ct-snap-exit-grocery-card-bridge-followup-2026-10-20.md)
+adds a state-funded substitute route after federal-rule exit: a $300 virtual
+grocery card and community-agency reentry support, while keeping receipt,
+spending, adequacy, and durable SNAP reentry open.
+
+The [New Jersey SNAP EBT replacement hearing finding](findings/us-new-jersey-snap-ebt-theft-hearing-denial-2025-001.md)
+adds a named partial case route through claim, investigation, hearing, and
+affirmed denial while preserving later household recovery as open.
+
+The contrasting [Connecticut SNAP EBT replacement partial-remedy finding](findings/us-connecticut-snap-ebt-replacement-partial-remedy-2023-001.md)
+records an issued $582.00 replacement credit, a new card, and a later hearing
+that denied the residual claim. It closes the administrative route through
+partial remedy, not through food adequacy, household recovery, or later trust
+and action.
+
 The [GAO disability workforce-program access layer](gao-2026-disability-workforce-program-access-layer-v1.md)
 now includes exact post-exit employment and earnings comparisons: the
 Adult-program employment gap is 16 percentage points at both follow-ups, and

@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-smartphone-self-regulation-wellbeing-2026",
+  "title": "Perceived smartphone excess can coexist with utility, attempted cutback, and incomplete self-regulation",
+  "theme_ids": [
+    "time",
+    "cost",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Pew Research Center American Trends Panel smartphone-time and self-regulation survey",
+  "geography": "United States; 9,750 adults in the American Trends Panel",
+  "observations": [
+    {
+      "period": "May 26-June 1, 2026; Pew American Trends Panel field period",
+      "denominator": {
+        "value": 9750,
+        "unit": "U.S. adults in the American Trends Panel; item denominators exclude nonresponse and some measures exclude people without smartphones",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "perceived_excess": {
+          "value": 53,
+          "unit": "percent of adults answering the smartphone-time item saying they spend too much time on their smartphone",
+          "value_type": "reported_share"
+        },
+        "near_constant_use": {
+          "value": 26,
+          "unit": "percent reporting smartphone use almost constantly",
+          "value_type": "reported_share"
+        },
+        "utility_and_cost": {
+          "value": "73% said smartphones help them access information, 51% said smartphones help them stay connected, and 41% said smartphone use hurts their sleep; productivity judgments were divided",
+          "unit": "reported survey shares",
+          "value_type": "reported_pattern"
+        },
+        "cutback_attempt": {
+          "value": 45,
+          "unit": "percent saying they tried to cut back in the prior 12 months; among those trying, 25% reported high success, 52% some success, and 23% little or no success",
+          "value_type": "reported_share"
+        },
+        "durable_change": {
+          "value": "not observed",
+          "unit": "missing logged use, notification exposure, work or school obligation, repeated follow-up, platform response, wellbeing change, switching, and non-use outcome",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "The same device can supply information and connection while creating perceived time, sleep, and productivity costs; personal self-regulation is therefore attempted within a platform-shaped control surface rather than a simple preference choice",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from Pew's official survey article and published tables; perceived excess, utility, cutback attempt, self-rated success, and open downstream outcomes are kept separate.",
+      "uncertainty": "This is a self-reported cross-sectional panel survey, not a device-use log, clinical assessment, causal estimate, or durable follow-up. Content, notifications, work and school obligations, platform identity, privacy choices, and later behavior are not retained.",
+      "subgroup": "U.S. adults in the American Trends Panel, with smartphone ownership and age subgroups varying by item; no individual trajectory is followed.",
+      "counterinterpretation": "Frequent or near-constant use is not identical to harmful dependence, and a failed cutback may reflect social, economic, work, or school necessity rather than simple lack of willpower.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/01/about-half-of-americans-say-they-spend-too-much-time-on-their-smartphone/",
+      "retrieval_hash": "sha256:9bd36df5e52bb280d7a3cbf1e491e0fe92b9b35d5128c7c828c9947f6efe9e07",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a bounded self-reported chain from smartphone utility and perceived excess through attempted self-regulation and incomplete success. It does not establish addiction, logged behavior, platform causality, clinical harm, or later switching, non-use, or wellbeing recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from Pew's published survey results; respondent-level panel data and device logs are not retained.",
+    "checked": "2026-10-20"
+  }
+}

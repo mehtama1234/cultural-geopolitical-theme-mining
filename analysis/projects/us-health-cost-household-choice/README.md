@@ -1,6 +1,6 @@
 # Project: US health costs and the choices people give up
 
-The [NBER health-insurance competition record](../../records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json) adds the market-structure layer: commercial, Medicare Advantage, and Medicaid insurance markets are highly concentrated; adverse selection interacts with market power; and insurer consolidation raises premiums. The record keeps premiums, plan generosity, network access, enrollee risk, switching, care, and realized remedy separate.
+The [NBER health-insurance competition record](../../records/us-nber-health-insurance-competition-premiums-consumer-welfare-2026.json) adds the market-structure layer: commercial, Medicare Advantage, and Medicaid insurance markets are highly concentrated; adverse selection interacts with market power; and insurer consolidation raises premiums. A CMS 2026 Exchange open-enrollment checkpoint now adds the consumer-conversion layer: 23.1 million plan selections, $619 average monthly premium before APTC and $178 after, and different year-over-year after-credit premium increases on HealthCare.gov and state exchanges. The record keeps plan selection, premiums, plan generosity, network access, enrollee risk, switching, care, and realized remedy separate.
 
 ## Question
 

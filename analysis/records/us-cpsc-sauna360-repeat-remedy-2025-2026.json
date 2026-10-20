@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cpsc-sauna360-repeat-remedy-2025-2026",
+  "title": "A product repair can be followed by an official finding that the repair was ineffective",
+  "theme_ids": [
+    "cost",
+    "time",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "CPSC Sauna360 Tylö Halmstad and Kiruna Hybrid sauna recall and September 2026 expansion",
+  "geography": "United States; Sauna360 Tylö Halmstad and Kiruna Hybrid sauna rooms",
+  "observations": [
+    {
+      "period": "October 23, 2025; first CPSC recall and free professional repair route",
+      "denominator": {
+        "value": 1000,
+        "unit": "sauna rooms covered by the notice; not unique owners or households",
+        "value_type": "approximate_product_units"
+      },
+      "measures": {
+        "hazard": {
+          "value": "Bench seating could break and create a fall hazard; CPSC reported seven breakage reports, including one head-and-neck injury",
+          "unit": "reported product-safety incident signal",
+          "value_type": "reported_event"
+        },
+        "first_remedy": {
+          "value": "Sauna360 offered additional hardware, a revised manual, and free professional repair",
+          "unit": "offered recall remedy",
+          "value_type": "reported_remedy_offer"
+        },
+        "owner_response": {
+          "value": "not observed",
+          "unit": "missing owner notice, possession, appointment, repair completion, downtime, safe use, substitute access, and later outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from the official CPSC October 2025 recall notice; product-level hazard and offered remedy are kept separate from purchaser-level notice, repair receipt, and safe restoration.",
+      "uncertainty": "Reported units and incidents are notice-level counts, not unique-owner rates or exposure estimates. The public record does not identify which owners received notice, needed repair, or completed it.",
+      "subgroup": "Sauna360 Tylö Halmstad and Kiruna Hybrid sauna rooms covered by the recall; no owner-level subgroup is supplied.",
+      "counterinterpretation": "A repair offer and incident report do not establish that every listed owner was exposed or that the remedy was completed and effective.",
+      "source_url": "https://www.cpsc.gov/Recalls/2026/Sauna360-Recalls-Tylo-Halmstad-and-Kiruna-Hybrid-Saunas-Due-to-Fall-Hazard",
+      "retrieval_hash": "sha256:e1c714caaf7ca155169dd18b21f9e466f93f3a104030d0c7cfe91e6e53d438fc",
+      "status": "observed"
+    },
+    {
+      "period": "September 17, 2026; CPSC expansion after reported ineffectiveness of the earlier repair",
+      "denominator": {
+        "value": 6000,
+        "unit": "sauna rooms covered by the expanded notice, including products covered by the earlier recall; not a unique-owner denominator",
+        "value_type": "approximate_product_units"
+      },
+      "measures": {
+        "remedy_durability": {
+          "value": "The expansion states that the previous repair was ineffective and reports 77 additional breakage reports, including six injuries",
+          "unit": "reported repeat-remedy failure signal",
+          "value_type": "reported_followup"
+        },
+        "second_remedy": {
+          "value": "Owners were instructed to stop using the product even if they received the 2025 remedy and were offered another free professional retrofit with additional hardware",
+          "unit": "expanded recall remedy",
+          "value_type": "reported_remedy_offer"
+        },
+        "second_repair_receipt": {
+          "value": "not observed",
+          "unit": "missing first-repair receipt, second-notice receipt, appointment, second-repair completion, downtime, substitute access, residual loss, and later trust or behavior",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "A first repair offer or even reported repair implementation does not establish durable safety when a later official expansion says the repair was ineffective; remedy durability becomes a separate control surface",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from the official CPSC September 2026 recall expansion; the later correction is treated as a product-level institutional finding, not as evidence that every first repair failed.",
+      "uncertainty": "The expansion does not identify repaired units among the reported incidents, owner-level notice or appointment, failure mechanism by product, or completed second repair. Unit and incident counts remain notice-level figures.",
+      "subgroup": "Sauna360 sauna rooms covered by the expanded recall and any earlier-recall units; no owner, installer, or household outcome sample is supplied.",
+      "counterinterpretation": "A repeat recall demonstrates institutional remedy failure at the product or system level without proving identical failure for every owner or predicting the second remedy's outcome.",
+      "source_url": "https://www.cpsc.gov/Recalls/2026/Sauna360-Expands-Recall-of-Tylo-Halmstad-and-Kiruna-Hybrid-Saunas-Due-to-Fall-Hazard-New-Remedy-Provided",
+      "retrieval_hash": "sha256:e1c714caaf7ca155169dd18b21f9e466f93f3a104030d0c7cfe91e6e53d438fc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a product-level hazard, first repair, reported remedy ineffectiveness, and second repair route. It does not estimate purchaser exposure, notice, repair completion, safe restoration, trust, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the two official CPSC recall notices; owner files, raw complaints, direct identifiers, and installer records are not retained.",
+    "checked": "2026-10-20"
+  }
+}

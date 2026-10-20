@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwo-longridge-underpayment-backpay-2011-2014",
+  "title": "Reported full back-pay can follow worker exit and alternative-employment search without proving durable recovery",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "public_systems_feedback", "time_hidden_price", "household_room_consumption", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "Official Fair Work Ombudsman release and Federal Circuit Court reasons, Fair Work Ombudsman v Longridge Group Pty Ltd [2015] FCCA 129",
+  "geography": "Adelaide, South Australia",
+  "observations": [
+    {
+      "period": "2011–2013; 59-year-old sales worker underpayment, resignation, alternative employment, and May 2013 payment",
+      "denominator": {"value": 1, "unit": "one of two publicly described workers in the Longridge enforcement case; no population denominator", "value_type": "single_public_case"},
+      "measures": {
+        "commission_paid": {"value": 6704, "unit": "Australian dollars over ten months", "value_type": "court_reported_gross_payment"},
+        "minimum_wages_and_entitlements_due": {"value": 20013.60, "unit": "Australian dollars", "value_type": "court_calculated_amount"},
+        "reported_shortfall": {"value": 13309.60, "unit": "Australian dollars before any source-specific adjustments", "value_type": "derived_case_difference"},
+        "backpay": {"value": "paid in full on 2013-05-02", "unit": "court-reported gross remedy timing; worker-signed receipt and adequacy not retained", "value_type": "reported_received"},
+        "alternative_employment": {"value": "sought after quitting", "unit": "replacement-job quality and timing not observed", "value_type": "reported_case_route"}
+      },
+      "method": "Structured extraction from the official Fair Work Ombudsman release and Federal Circuit Court reasons; worker-level underpayment, exit, alternative-employment response, enforcement, and reported payment are kept separate from later recovery.",
+      "uncertainty": "One case cannot estimate underpayment or remedy rates. The public record does not retain payment instruments, net or superannuation treatment, replacement-job quality, household effects, or later work and trust outcomes.",
+      "subgroup": "One 59-year-old sales worker with an advertised potential earning claim of at least A$120,000 who received commission-only payments below minimum entitlements.",
+      "counterinterpretation": "Court-recorded full back-pay can restore a formal wage entitlement while arriving after exit and alternative-employment search; it does not prove practical adequacy or durable security.",
+      "source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2015-media-releases/february-2015/20150203-longridge-penalty",
+      "retrieval_hash": "sha256:a0a69288d04eb2a73debc9ff1dd62fd971ff7116cabc8803d0d703dbaf967b8a",
+      "status": "reported"
+    },
+    {
+      "period": "2011–2014; 32-year-old sales worker underpayment, resignation, alternative employment, and October 2014 payment",
+      "denominator": {"value": 1, "unit": "one of two publicly described workers in the Longridge enforcement case; no population denominator", "value_type": "single_public_case"},
+      "measures": {
+        "commission_paid": {"value": 0, "unit": "Australian dollars during six months of employment", "value_type": "court_reported_gross_payment"},
+        "minimum_wages_and_entitlements_due": {"value": 11646.97, "unit": "Australian dollars", "value_type": "court_calculated_amount"},
+        "backpay": {"value": "paid in full on 2014-10-01", "unit": "court-reported gross remedy timing; worker-signed receipt and adequacy not retained", "value_type": "reported_received"},
+        "alternative_employment": {"value": "sought after quitting", "unit": "replacement-job quality and timing not observed", "value_type": "reported_case_route"}
+      },
+      "method": "Same official FWO and Federal Circuit Court extraction as the companion worker observation; the two workers are not pooled into a population estimate.",
+      "uncertainty": "The payment date is institutionally reported and the case does not provide independent bank confirmation, net/tax or superannuation treatment, adequacy, later livelihood, household, trust, recurrence, or exit outcomes.",
+      "subgroup": "One 32-year-old sales worker with real-estate and building qualifications who received no commission during six months of commission-only employment.",
+      "counterinterpretation": "A dated full-back-pay outcome can close the formal claim while leaving the worker's earlier income loss, employment transition, and practical recovery unresolved.",
+      "source_url": "https://www.fairwork.gov.au/sites/default/files/migration/871/fair-work-ombudsman-v-longridge-group-pty-ltd-2015-fcca-129.pdf",
+      "retrieval_hash": "sha256:a0a69288d04eb2a73debc9ff1dd62fd971ff7116cabc8803d0d703dbaf967b8a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2015-media-releases/february-2015/20150203-longridge-penalty", "claim": "Official Fair Work Ombudsman enforcement release and reported penalty/back-pay context.", "status": "official-release"},
+    {"source_url": "https://www.fairwork.gov.au/sites/default/files/migration/871/fair-work-ombudsman-v-longridge-group-pty-ltd-2015-fcca-129.pdf", "claim": "Federal Circuit Court reasons for worker-level amounts and payment dates.", "status": "official-court-reasons"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger that retains the bounded official release and court-reasons extraction.",
+    "access_boundary": "The public record reports full back-pay in installments but not worker-signed receipt, net amount, adequacy, later work, household recovery, trust, recurrence, or exit."
+  },
+  "boundary": "This record contains two separate public worker episodes from commission-only underpayment through resignation, alternative-employment pursuit, complaint, enforcement, and institutionally reported full back-pay. It does not establish independent receipt verification, adequacy, durable livelihood, prevalence, recurrence, trust change, collective action, or exit."
+}

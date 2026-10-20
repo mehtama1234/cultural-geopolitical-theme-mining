@@ -1,0 +1,27 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0087",
+  "opened": "2026-10-20",
+  "window": "2025-10-20 through 2026-10-20",
+  "record_count": 1,
+  "atlas_record_ids": ["us-cfpb-tccp-card-terms-2025"],
+  "rows": [
+    {
+      "atlas_record_id": "us-cfpb-tccp-card-terms-2025",
+      "atlas_record_path": "analysis/records/us-cfpb-tccp-card-terms-2025.json",
+      "canonical_theme": "household-room-consumption",
+      "title": "Publicly offered card terms vary across products in APR, credit-tier pricing, fees, and rewards",
+      "geography": "United States",
+      "status": "augmented",
+      "batch_id": "atlas-batch-0087",
+      "platforms": {
+        "youtube": {"status": "documented_access_gap", "query": "CFPB TCCP 2025 credit card APR credit tier fees promotion household-room-consumption 2025-10-20..2026-10-20", "retrieved": "2026-10-20", "result_or_gap": "Public platform-specific search completed; no attributable source-linked YouTube item retained under current access boundary.", "social_record_ids": []},
+        "reddit": {"status": "augmented", "query": "CFPB TCCP 2025 credit card APR credit tier fees promotion household-room-consumption 2025-10-20..2026-10-20", "retrieved": "2026-10-20", "result_or_gap": "normalized social evidence retained", "social_record_ids": ["atlas-batch-0087-cfpb-tccp-2025-reddit-001"]},
+        "linkedin": {"status": "augmented", "query": "CFPB TCCP 2025 credit card APR credit tier fees promotion household-room-consumption 2025-10-20..2026-10-20", "retrieved": "2026-10-20", "result_or_gap": "normalized social evidence retained", "social_record_ids": ["atlas-batch-0087-cfpb-tccp-2025-linkedin-001"]},
+        "x": {"status": "documented_access_gap", "query": "CFPB TCCP 2025 credit card APR credit tier fees promotion household-room-consumption 2025-10-20..2026-10-20", "retrieved": "2026-10-20", "result_or_gap": "Public platform-specific search completed; no attributable source-linked X item retained under current access boundary.", "social_record_ids": []}
+      },
+      "terminal_reason": "all four platform attempts recorded; retained evidence or documented search outcome",
+      "next_action": "quality_audit"
+    }
+  ]
+}

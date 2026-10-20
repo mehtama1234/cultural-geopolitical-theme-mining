@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-leopard-2a8-facility-construction-2026",
+  "title": "Lithuania turns Leopard 2A8 industrial strategy into named facility construction before output or readiness is visible",
+  "theme_ids": ["work", "cost", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of the Leopard 2A8 assembly and repair facility at Kaunas Free Economic Zone",
+  "geography": "Kaunas Free Economic Zone, Lithuania; Lithuanian and German defense-industrial relationship",
+  "observations": [
+    {
+      "period": "October 1, 2026; construction-start announcement",
+      "denominator": {
+        "value": 1,
+        "unit": "named Leopard 2A8 assembly and repair facility project",
+        "value_type": "official_industrial_project_count"
+      },
+      "measures": {
+        "construction_stage": {"value": "symbolic capsule ceremony marked the start of construction at the Kaunas Free Economic Zone", "unit": "reported construction milestone", "value_type": "ministry_reported_construction_start"},
+        "implementer": {"value": "Lithuania Defense Services, a German military equipment repair company", "unit": "named implementing firm", "value_type": "ministry_reported_implementer"},
+        "planned_investment": {"value": 50000000, "unit": "euros; approximately planned investment", "value_type": "ministry_reported_planned_investment"},
+        "planned_jobs": {"value": 80, "unit": "new jobs by 2028; approximate reported target", "value_type": "ministry_reported_employment_target"},
+        "industrial_function": {"value": "assembly and repair of Leopard 2A8 tanks, with maintenance framed as critical to long-term availability", "unit": "reported facility function", "value_type": "ministry_reported_function"},
+        "strategic_claim": {"value": "official claims that the facility will strengthen supply-chain resilience, reduce dependence on external suppliers, and support national security and the economy", "unit": "official interpretation", "value_type": "ministry_stated_purpose"},
+        "output_and_effect": {"value": "not observed", "unit": "missing construction completion, equipment installation, tank assembly, repair throughput, delivery, readiness, funding disbursement, realized jobs, wages, supplier incidence, local response, and public legitimacy", "value_type": "unmeasured"},
+        "mechanism": {"value": "A named construction start creates a domestic industrial-capacity pathway for assembly and maintenance, but planned investment and jobs are not realized output, readiness, or reduced dependence.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from two Lithuanian Ministry of National Defence announcements. Construction start, implementer, planned investment, employment target, facility function, official strategic claims, and unmeasured output and effects are coded as separate stages.",
+      "uncertainty": "The announcements do not establish completion, equipment installation, tank quantity, assembly or repair output, delivery, readiness, funding disbursement, realized jobs or wages, supplier effects, local burden, or public acceptance.",
+      "subgroup": "Lithuanian Armed Forces, Lithuania Defense Services and German defense suppliers, construction and future maintenance workers, Kaunas FEZ and local services, allied users, and public-finance institutions; no affected-person denominator is supplied.",
+      "counterinterpretation": "Domestic repair and assembly could improve maintenance access and supplier resilience, while a new facility can remain under construction, depend on external inputs, create fiscal or land-use costs, and fail to produce the stated jobs or readiness.",
+      "source_url": "https://kam.lt/en/constructions-of-leopard-2a8-assembly-and-repair-facility-kicked-off/",
+      "comparison_source_url": "https://kam.lt/en/project-of-assembly-of-the-leopard-2a8-main-battle-tanks-given-the-status-of-a-strategic-effort/",
+      "retrieval_hash": "sha256:daba57cb1c5b9456691eb6f17960f56062dd432464a5057e798fda708476ada6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a reported construction start for a named Leopard 2A8 assembly and repair facility, with stated investment and job targets. It does not establish completion, production, repair throughput, delivery, readiness, realized jobs, reduced external dependence, local effects, or public legitimacy.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the two Lithuanian Ministry of National Defence sources; construction records, production telemetry, employment records, and readiness data are not retained."
+  }
+}

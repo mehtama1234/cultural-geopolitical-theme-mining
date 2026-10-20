@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyc-tremont-busway-time-access-2026",
+  "title": "A Bronx busway converts a safety and delay problem into operating access for 39,000 daily riders without yet proving realized time savings",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "time_hidden_price",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NYC Mayor's Office and NYC DOT completion announcement for the Tremont Avenue busway",
+  "geography": "Tremont Avenue, Bronx, New York City",
+  "observations": [
+    {
+      "period": "September 23, 2026; Tremont Avenue busway completion and activation",
+      "denominator": {
+        "value": 39000,
+        "unit": "daily Bx36 riders identified by NYC as served by the corridor",
+        "value_type": "reported_daily_rider_population"
+      },
+      "measures": {
+        "historical_bus_speed": {"value": 5, "unit": "miles per hour, a reported historical low for buses on the corridor", "value_type": "reported_baseline"},
+        "operating_schedule": {"value": "Busway operating seven days a week from 6 a.m. to 8 p.m.", "unit": "reported operating rule", "value_type": "reported_implementation"},
+        "car_ownership_context": {"value": 72, "unit": "percent of households in the transit-dependent community reported as not owning a private car", "value_type": "reported_context"},
+        "realized_time_savings": {"value": "not observed", "unit": "missing post-activation travel times, reliability, missed-connection, fare, accessibility, and rider-level burden measures", "value_type": "unmeasured"},
+        "mechanism": {"value": "Dedicated busway space and parking deterrence are intended to convert street redesign into faster, more reliable, and safer bus access for a transit-dependent corridor", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the official NYC completion announcement; rider denominator, historical speed, operating schedule, car-ownership context, and realized rider outcomes are kept separate.",
+      "uncertainty": "The announcement does not publish post-activation speed, on-time performance, rider survey, collision, enforcement, displacement, business, noise, or accessibility outcomes. The 39,000 figure is a daily service population, not a panel of observed riders.",
+      "subgroup": "Daily Bx36 riders and households along a transit-dependent Bronx corridor; no rider-level income, disability, race, age, work, or school outcome is supplied.",
+      "counterinterpretation": "A busway can protect transit capacity and reduce parking interference while shifting curb access, traffic, enforcement, noise, or delivery burdens to adjacent streets; intended faster service is not measured rider benefit.",
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/fast-buses--mayor-mamdani-completes-the-bronx-s-first-busway-on-",
+      "retrieval_hash": "sha256:f1d67ec2fd8d1a5747e1d6aee4712d8a7439f81f124f255d7d5dfaaa8468fa48",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/08/transcript--mayor-mamdani-breaks-ground-on-bronx-s-first-busway-",
+      "claim": "The August construction announcement describes the planned operating hours and the busway's intended time and safety mechanism.",
+      "status": "official-preimplementation-context"
+    },
+    {
+      "source_url": "https://www.nyc.gov/html/brt/html/home/home.shtml",
+      "claim": "NYC DOT and MTA describe the broader Fast Buses, Better Service program and its citywide implementation context.",
+      "status": "official-program-context"
+    }
+  ],
+  "boundary": "This record establishes a completed and activated Bronx busway serving a named daily rider population in a transit-dependent corridor. It does not establish realized time savings, reliability, safety, accessibility, affordability, adjacent-neighborhood burden, or durable rider legitimacy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the official NYC Mayor's Office completion-announcement HTML retrieved for extraction.",
+    "checked": "2026-10-20"
+  }
+}

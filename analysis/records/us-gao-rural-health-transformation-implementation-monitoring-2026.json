@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-rural-health-transformation-implementation-monitoring-2026",
+  "title": "A rural-health transformation program can reach state funding and monitoring while care access and health effects remain open",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108853 Rural Health Transformation Program Q&A",
+  "geography": "United States rural-health activities administered through 50 state cooperative agreements",
+  "observations": [
+    {
+      "period": "July 2025 authorization through October 6, 2026 GAO implementation review; budget period 1 December 29, 2025 through October 30, 2026",
+      "denominator": {
+        "value": 50,
+        "unit": "states receiving initial Rural Health Transformation Program funding in budget period 1",
+        "value_type": "reported_state_award_cohort"
+      },
+      "measures": {
+        "authorized_program_scale": {
+          "value": 50000000000,
+          "unit": "U.S. dollars available to states over five years under the Rural Health Transformation Program",
+          "value_type": "statutory_program_ceiling"
+        },
+        "initial_state_funding": {
+          "value": 10000000000,
+          "unit": "U.S. dollars in initial awards to all 50 states; reported state allotments ranged from $147 million in New Jersey to $281 million in Texas",
+          "value_type": "reported_initial_award"
+        },
+        "planned_monitoring": {
+          "value": "CMS plans state progress discussions, review of submitted information, audits, site visits, performance measurement, and webinars for lessons learned and promising practices",
+          "unit": "planned federal monitoring and learning activities",
+          "value_type": "reported_implementation_plan"
+        },
+        "conditional_future_funding": {
+          "value": 40000000000,
+          "unit": "U.S. dollars of remaining funds CMS may allot over four years based in part on satisfactory progress toward approved initiatives; funding may be withheld, reduced, or recovered for noncompliance",
+          "value_type": "conditional_future_allocation"
+        },
+        "care_conversion": {
+          "value": "not measured",
+          "unit": "clinician recruitment, training or technology deployment, rural hospital capacity, appointment availability, travel burden, completed care, quality, health outcomes, household cost, or community legitimacy",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-108853. Authorization, initial awards, state cohort, monitoring design, conditional future funding, and care outcomes are retained as separate stages.",
+      "uncertainty": "The report reviews early federal and state implementation actions and CMS monitoring plans rather than completed state initiatives or patient outcomes. Funding ceiling, awards, monitoring plans, and conditional recovery authority do not establish spending, implementation, access, quality, or health effects.",
+      "subgroup": "Rural residents, rural hospitals, clinicians, state awardees, and communities targeted by state initiatives such as clinician recruitment, training, and care-delivery technology.",
+      "counterinterpretation": "Large and conditional grants can support capacity without overcoming workforce, distance, hospital-finance, technology, or community-governance constraints; monitoring activity can improve accountability without proving care access or health improvement.",
+      "source_url": "https://www.gao.gov/products/gao-27-108853",
+      "retrieval_hash": "sha256:459a12ce6a917c067ede2c3191c2795bdf6a4522dd930e891a933d892602ab2d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/gao-27-108853.pdf",
+      "claim": "The official GAO report PDF contains the program implementation, funding, monitoring, and future-allocation findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-27-108853",
+      "claim": "The GAO product page identifies the report date, scope, state awards, monitoring plans, and conditional future funding.",
+      "status": "official-report-page"
+    }
+  ],
+  "boundary": "This record advances a bounded rural-health authorization-to-award-to-monitoring route. It does not establish state spending, completed initiatives, clinician supply, appointment access, rural hospital capacity, care quality, health outcomes, household cost, or community legitimacy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; official report PDF and product page are retained for reproduction.",
+    "retrieval_hash": "sha256:459a12ce6a917c067ede2c3191c2795bdf6a4522dd930e891a933d892602ab2d",
+    "checked": "2026-10-20"
+  }
+}

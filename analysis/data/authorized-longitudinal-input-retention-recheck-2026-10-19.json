@@ -1,0 +1,33 @@
+{
+  "format": "authorized-longitudinal-input-retention-recheck-v1",
+  "checked": "2026-10-19",
+  "scope": "Read-only workspace-retention search for newly supplied PSID, UAS, HRS, MEPS, or comparable respondent files before the next authorized longitudinal pass.",
+  "search_roots": [
+    "/home/mehtama1/git-repo",
+    "/tmp"
+  ],
+  "file_extensions_checked": [
+    ".zip",
+    ".csv",
+    ".dta",
+    ".sas7bdat",
+    ".sav",
+    ".parquet",
+    ".jsonl"
+  ],
+  "candidate_name_patterns": [
+    "psid",
+    "uas",
+    "older ages",
+    "hrs",
+    "meps",
+    "FAM2019ER",
+    "FAM2021ER",
+    "FAM2023ER"
+  ],
+  "result": "no_new_authorized_longitudinal_input_found",
+  "observed_candidates": "The current workspace contains route documentation, access rechecks, field manifests, derived MEPS/SIPP/PSID/UAS records, scripts, and compiled test artifacts, but no newly supplied respondent archive or raw wave file matching the checked extensions and route patterns.",
+  "interpretation": "This is evidence about current workspace retention only. It is not evidence that the underlying public-use datasets are unavailable or that any substantive relationship is null.",
+  "next_action": "Wait for an authorized UAS Older Ages or Comprehensive Panel file plus codebook, the specified PSID package set, HRS files, or another explicitly authorized episode-compatible input; run structural and authority checks before any merge or estimate.",
+  "storage_boundary": "No file was copied, downloaded, opened as respondent data, or added to the repository during this recheck."
+}

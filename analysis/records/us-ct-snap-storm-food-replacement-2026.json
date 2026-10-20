@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ct-snap-storm-food-replacement-2026",
+  "title": "A verified disaster-food replacement route can restore a bounded benefit without proving food-security recovery",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Connecticut DSS SNAP replacement route after July 2026 storm power outages",
+  "geography": "Connecticut SNAP households affected by the July 4, 2026 storm",
+  "observations": [
+    {
+      "period": "July 4–14, 2026 storm-related spoiled-food replacement window",
+      "denominator": {
+        "value": null,
+        "unit": "Connecticut SNAP households with at least four hours of storm-related power loss; eligible population count not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "exposure": {
+          "value": "Food purchased with SNAP benefits may have been destroyed after a storm-related power outage lasting at least four hours",
+          "unit": "reported household loss condition",
+          "value_type": "reported_eligibility_condition"
+        },
+        "report_deadline": {
+          "value": "July 14, 2026",
+          "unit": "deadline to report food loss to DSS",
+          "value_type": "reported_deadline"
+        },
+        "verification": {
+          "value": "DSS must obtain a signed household statement and verify the outage and destruction through collateral contact, utility documentation, community agency documentation, or a home visit",
+          "unit": "reported administrative verification route",
+          "value_type": "reported_process"
+        },
+        "replacement_cap": {
+          "value": "Replacement benefits equal the verified loss up to the household's monthly SNAP benefit amount",
+          "unit": "reported remedy ceiling",
+          "value_type": "reported_policy_rule"
+        },
+        "issuance_timing": {
+          "value": "Within ten days after the loss report or within two working days after the required signed statement, whichever is later",
+          "unit": "reported remedy timing rule",
+          "value_type": "reported_process"
+        }
+      },
+      "method": "Structured extraction from the official Connecticut Governor and DSS announcement; exposure, report deadline, verification, cap, and issuance timing are retained as separate stages.",
+      "uncertainty": "The public announcement does not disclose claims filed, claims approved, replacement dollars issued, actual receipt, replacement adequacy, subsequent food security, debt, trust, or household recovery.",
+      "subgroup": "Connecticut SNAP recipients with qualifying July 4 storm power outages and spoiled SNAP-purchased food; no complete eligible-household denominator is supplied.",
+      "counterinterpretation": "A defined verification and issuance route can make a disaster remedy reachable in principle, but a deadline, cap, and processing rule do not establish that households reported, qualified, received, or found the replacement adequate.",
+      "source_url": "https://portal.ct.gov/governor/news/press-releases/2026/07-2026/governor-lamont-announces-snap-recipients-who-experienced-long-duration-outages",
+      "retrieval_hash": "sha256:05d169d0691c20f0cebb56284d43ecb2203b4ad70ca8e2641d5b8e3fa359336b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://portal.ct.gov/dss/knowledge-base/articles/snap/replacement-of-value-of-lost-food",
+      "claim": "Connecticut distinguishes replacement of food destroyed by a qualifying household disaster from nonreplacement of electronically stolen benefits.",
+      "status": "official-current-guidance"
+    }
+  ],
+  "boundary": "This record establishes a named storm exposure and an official report-verification-replacement route with a cap and timing rule. It does not establish claim uptake, approved or received replacements, adequacy, food security, trust, or durable household recovery."
+}

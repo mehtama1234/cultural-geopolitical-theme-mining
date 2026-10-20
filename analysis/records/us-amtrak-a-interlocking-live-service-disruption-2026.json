@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-amtrak-a-interlocking-live-service-disruption-2026",
+  "title": "A named rail infrastructure outage exposes service disruption and planned alternatives before passenger burden is measured",
+  "theme_ids": ["time", "cost", "energy", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "time_hidden_price"
+  ],
+  "source_unit": "Amtrak Pause for Progress A-Interlocking and First Street Tunnel infrastructure upgrade",
+  "geography": "Washington, D.C.; Virginia routes and the Northeast Corridor south of Washington Union Station",
+  "observations": [
+    {
+      "period": "October 16–26, 2026 scheduled temporary outage",
+      "denominator": {
+        "value": 1,
+        "unit": "named A-Interlocking / First Street Tunnel operating disruption",
+        "value_type": "official_operating_episode"
+      },
+      "measures": {
+        "facility": {"value": "A-Interlocking, a critical track and control point in the First Street Tunnel south of Washington Union Station", "unit": "named rail facility", "value_type": "operator_reported_facility"},
+        "work_scope": {"value": "replacement of aging track switches and crossovers, tunnel track-base rehabilitation, and modern electric switch systems", "unit": "reported infrastructure work", "value_type": "operator_reported_scope"},
+        "scheduled_duration": {"value": 9, "unit": "days; service outage from after October 16 service through before October 26 service resumes", "value_type": "operator_reported_duration"},
+        "service_disruption": {"value": "reduced service, train cancellations, route modifications, and travel disruption south of Washington, D.C.", "unit": "reported service condition", "value_type": "operator_reported_disruption"},
+        "bus_bridge_roundtrips": {"value": 3, "unit": "round-trip buses timed between Alexandria and Washington", "value_type": "operator_reported_alternative_count"},
+        "additional_alternatives": {"value": "two Amtrak Virginia train round trips to Alexandria, express buses from Virginia cities, a Carolinian Washington–Alexandria bus connection, Metro guidance, and rebooking/alternative-travel support", "unit": "reported mitigation package", "value_type": "operator_reported_mitigation"},
+        "intended_reliability_benefit": {"value": "safer, more reliable rail service and fewer delays over time", "unit": "stated future objective", "value_type": "operator_stated_objective"},
+        "passenger_and_post_restoration_outcome": {"value": "not observed", "unit": "missing passenger counts, delay and fare exposure, missed connections, accessibility, alternative use and adequacy, compensation, post-restoration reliability, recurrence, and acceptance", "value_type": "unmeasured"},
+        "mechanism": {"value": "A planned facility outage converts infrastructure maintenance into a dated service burden, while operator-provided bus and route alternatives create a testable mitigation stage; neither stage establishes adequate burden absorption or realized reliability benefit.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from two official Amtrak pages. Facility, work scope, outage period, service disruption, alternative modes, stated future benefit, and unmeasured passenger outcomes are coded as separate stages.",
+      "uncertainty": "The sources do not provide passenger-level exposure, ridership or bus-bridge use, delay minutes, fares or extra travel cost, missed connections, accessibility, worker effects, compensation, completed work verification, post-restoration reliability, recurrence, or acceptance.",
+      "subgroup": "Passengers and workers using Amtrak and VRE routes between Washington and Virginia and affected Northeast Corridor/Southeast services; no affected-person denominator is supplied.",
+      "counterinterpretation": "A short coordinated outage may reduce longer-term failure risk and preserve some trips through alternatives, while the same alternatives can impose time, cost, accessibility, and capacity burdens that the public pages do not measure.",
+      "source_url": "https://www.amtrak.com/about-amtrak/washington-dc-train-status-pause-for-progress",
+      "comparison_source_url": "https://media.amtrak.com/2026/08/amtrak-announces-pause-for-progress-infrastructure-upgrade-in-washington-d-c-for-nine-days-this-october/",
+      "retrieval_hash": "sha256:42981e10036637fdc2f5e092a35188196ef03c14c245ff4fa3ba99fd46a53226",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a named Amtrak facility, a dated temporary outage, affected service, and planned alternatives. It does not establish passenger burden, mitigation adequacy, compensation, completed work, post-restoration reliability, recurrence, or public acceptance.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the two official Amtrak pages; passenger-level telemetry, fare records, accessibility records, and post-restoration operating data are not retained."
+  }
+}

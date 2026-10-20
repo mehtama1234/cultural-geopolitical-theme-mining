@@ -101,6 +101,140 @@
       "source_url": "https://www.nysac.org/media/liqinkls/new-york-market-update-mega-march-2026.pdf",
       "retrieval_hash": "sha256:84b3bff923f37c4c949f16b9497581c3f7754e95650b044097b4688fb0fd553d",
       "status": "reported"
+    },
+    {
+      "period": "August 2026 announcement; 2027 Tier 4 voluntary REC sales route",
+      "denominator": {
+        "value": 1,
+        "unit": "NYSERDA public voluntary-sale administrative route for Tier 4 RECs associated with CHPE delivery",
+        "value_type": "reported_payment_route"
+      },
+      "measures": {
+        "verified_product": {
+          "value": "A Tier 4 REC represents one megawatt-hour of eligible renewable energy generated and delivered into NYISO Zone J, with generation, delivery, and attributes verified and tracked by New York State",
+          "unit": "reported REC accounting unit",
+          "value_type": "reported_administrative_verification"
+        },
+        "sale_and_payment_timing": {
+          "value": "NYSERDA describes a 14-day sale window, pro-rata allocation if demand exceeds supply, invoice within seven business days, and payment due within 30 calendar days",
+          "unit": "reported voluntary-sale process",
+          "value_type": "reported_payment_timing"
+        },
+        "realized_transaction_and_incidence": {
+          "value": "not observed",
+          "unit": "missing buyer-level allocation, completed payment, electricity bill effect, retail customer receipt, and route-community outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from NYSERDA's official Tier 4 voluntary-sales page; administrative product verification and payment timing are kept separate from a completed sale or downstream customer benefit.",
+      "uncertainty": "The page states the sales mechanism and timing but does not disclose a completed 2027 transaction, purchaser allocation, payment receipt, REC price in this record, retail bill effect, or local acceptance.",
+      "subgroup": "NYSERDA, Hydro-Québec/CHPE contract participants, voluntary REC buyers, load-serving entities, New York electricity customers, and route communities; no buyer- or customer-level outcome sample is supplied.",
+      "counterinterpretation": "A precise administrative sales route can make payment governance auditable while leaving actual delivery, payment completion, and downstream affordability unobserved.",
+      "source_url": "https://www.nyserda.ny.gov/All-Programs/Clean-Energy-Standard/Voluntary-REC-Sales/Tier-4-REC-Voluntary-Sales",
+      "retrieval_hash": "sha256:5478d4275c76320d2fd520f7e323fc83117939fbc5dcdfa0b7286111efd3f152",
+      "status": "reported"
+    },
+    {
+      "period": "September 30, 2026 preschedule; October 12-16 planned interruption and October 17-30 restoration",
+      "denominator": {
+        "value": 1,
+        "unit": "NYISO HQ-CHPE prescheduled transmission interface",
+        "value_type": "reported_operating_schedule"
+      },
+      "measures": {
+        "scheduled_transfer_capacity": {
+          "value": "1,250 MW scheduled and available in the public preschedule through October 11, 0 MW from October 12 through October 16, and 1,250 MW again from October 17 through October 30",
+          "unit": "prescheduled transfer capability",
+          "value_type": "reported_schedule"
+        },
+        "operating_stage": {
+          "value": "The public planning snapshot records a second dated interruption/recovery window after the earlier summer outage and operator-reported restoration",
+          "unit": "bounded operating-stage sequence",
+          "value_type": "reported_operational_sequence"
+        },
+        "customer_incidence": {
+          "value": "not observed",
+          "unit": "missing dispatch, outage duration, retail bill, reliability, customer-class, and route-community effect",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from the NYISO public Long Term ATC/TTC preschedule page, retaining the HQ-CHPE daily interface values as a planning/availability record rather than treating them as metered delivery.",
+      "uncertainty": "The preschedule reports transfer capability and planned interface status, not actual dispatch, physical delivery, outage cause, customer interruption, retail price, bill effect, or compensation. The page was observed through the public indexed HTML view; a direct retrieval recheck returned 404, so the source remains a bounded public-record observation rather than a preserved downloadable archive.",
+      "subgroup": "NYISO operators, Hydro-Québec/CHPE, New York load-serving entities, Zone J electricity users, and route communities; no customer-level outcome is supplied.",
+      "counterinterpretation": "A zero prescheduled interface value can reflect planned maintenance, market scheduling, or a data-window convention rather than a customer outage; restoration of scheduled capability does not prove realized delivery or benefit.",
+      "source_url": "https://mis.nyiso.com/public/htm/preSchedAtcTtc/20260930presched_atc_ttc.htm",
+      "retrieval_hash": "sha256:901101bf86468dd1ffe3f845cefe5c0785884a94f5c87b725f9c66e12e0558a6",
+      "status": "reported"
+    },
+    {
+      "period": "September 2, 2026 completed 2027-vintage voluntary REC sale; payment and retirement stages remain open",
+      "denominator": {
+        "value": 1,
+        "unit": "NYSERDA voluntary Tier 4 REC sale associated with CHPE delivery",
+        "value_type": "reported_program_transaction"
+      },
+      "measures": {
+        "offered_recs": {"value": 50000, "unit": "Tier 4 RECs offered", "value_type": "reported_offer_volume"},
+        "sold_recs": {"value": 16376, "unit": "Tier 4 RECs sold", "value_type": "reported_sale_volume"},
+        "unit_price": {"value": 35.52, "unit": "US dollars per REC", "value_type": "reported_sale_price"},
+        "presale_revenue": {"value": 581675.52, "unit": "US dollars in reported presale revenue", "value_type": "reported_program_revenue"},
+        "avoided_ratepayer_cost_claim": {"value": 582000, "unit": "approximately US dollars in reported avoided ratepayer costs", "value_type": "reported_program_claim"},
+        "downstream_incidence": {"value": "not observed", "unit": "missing completed payment, REC retirement, buyer pass-through, household credit, retail bill, and route-community outcome", "value_type": "unmeasured"},
+        "mechanism": {"value": "A verified infrastructure attribute can produce a dated program-level sale and avoided-cost claim without establishing equal household benefit or retail pass-through", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from NYSERDA's official 2027 Tier 4 voluntary-sales summary; the reported sale, revenue, and avoided-cost claim are retained separately from completed payment, retirement, and customer incidence.",
+      "uncertainty": "The official summary reports aggregate offer, sale, price, revenue, and avoided-cost figures but does not identify buyer-level allocation, completed payment, REC retirement, retail bill posting, household receipt, or route-community acceptance. The avoided-cost figure is a program-level claim, not an equal per-household credit.",
+      "subgroup": "NYSERDA, CHPE/Hydro-Québec contract participants, voluntary REC buyers, load-serving entities, New York electricity customers, ratepayers, and route communities; no linked household or buyer outcome sample is supplied.",
+      "counterinterpretation": "A completed aggregate REC sale can provide a real administrative and financial endpoint while still leaving payment timing, downstream allocation, affordability, and legitimacy unresolved.",
+      "source_url": "https://www.nyserda.ny.gov/All-Programs/Clean-Energy-Standard/Voluntary-REC-Sales/Tier-4-REC-Voluntary-Sales/2027-Voluntary-Sales",
+      "retrieval_hash": "sha256:232f7c10007181c24b2aeaf0d76453ed05a958f91f194bc666be1f4d39262638",
+      "status": "reported"
+    },
+    {
+      "period": "June-September 2026 first-summer operating profile; analysis published September 29, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "named CHPE transmission project observed across five-minute operating intervals and hot-day Zone J market conditions",
+        "value_type": "secondary_operating_analysis"
+      },
+      "measures": {
+        "zero_output_intervals": {"value": 83, "unit": "percent of five-minute intervals during June-August reported at zero output", "value_type": "reported_operating_share"},
+        "average_running_output": {"value": 940, "unit": "megawatts average running output against 1,250 MW rating", "value_type": "reported_operating_average"},
+        "capacity_factor": {"value": 13, "unit": "percent first-summer capacity factor", "value_type": "reported_capacity_factor"},
+        "forced_outage_window": {"value": 20, "unit": "full operational days removed by the cable-fault period beginning July 4", "value_type": "reported_outage_duration"},
+        "hot_day_day_ahead_spread": {"value": "$17/MW-day when CHPE ran versus $85/MW-day when it did not on 85-90F days", "unit": "reported Zone J day-ahead four-hour spread premium", "value_type": "reported_conditional_market_difference"},
+        "household_incidence": {"value": "not observed", "unit": "missing retail bill, rate-class allocation, customer reliability, outage compensation, and route-community acceptance", "value_type": "unmeasured"},
+        "mechanism": {"value": "Infrastructure availability can be intermittent yet conditionally associated with a wholesale spread difference; neither pattern alone establishes causal retail savings or household reliability protection", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from Modo Energy's first-summer CHPE analysis using five-minute operating and market data; secondary market interpretation is retained separately from an independent causal or household-bill evaluation.",
+      "uncertainty": "The source is a secondary market-data analysis and does not provide an independently reproduced counterfactual, retail bill linkage, rate-class allocation, outage-service effect, repair cost, compensation, or route-community outcome. Conditional spread differences may reflect operating selection and do not establish causality.",
+      "subgroup": "CHPE and NYISO operators, Zone J market participants, New York electricity customers, rate classes, and route communities; no customer-level outcome sample is supplied.",
+      "counterinterpretation": "A 13% first-summer capacity factor and a 20-day fault-related removal can coexist with useful hot-day operation; observed wholesale spread differences do not by themselves prove project success or failure for households.",
+      "source_url": "https://modoenergy.com/research/es/chpe-market-impact-first-summer-nyiso",
+      "retrieval_hash": "sha256:232f7c10007181c24b2aeaf0d76453ed05a958f91f194bc666be1f4d39262638",
+      "status": "reported"
+    },
+    {
+      "period": "October 1, 2026 NYISO daily capacity-report snapshot",
+      "denominator": {
+        "value": 1,
+        "unit": "NYISO daily capacity-report snapshot containing the HQ-CHPE import schedule",
+        "value_type": "official_operating_snapshot"
+      },
+      "measures": {
+        "chpe_import_schedule": {"value": 1250, "unit": "megawatts scheduled for CHPE import", "value_type": "observed_operating_schedule"},
+        "chpe_import_limit": {"value": 1250, "unit": "megawatts listed as the CHPE import limit", "value_type": "observed_import_limit"},
+        "nyca_capacity_margin": {"value": 446, "unit": "megawatts reported NYCA capacity margin in the snapshot", "value_type": "reported_system_margin"},
+        "customer_incidence": {"value": "not observed", "unit": "missing retail customer, bill, avoided interruption, facility payment, and household/service outcome", "value_type": "unmeasured"},
+        "mechanism": {"value": "An independent system-operator snapshot can confirm that a named cross-border import enters daily capacity accounting without proving realized delivery, customer reliability, or affordability", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from NYISO's official daily capacity report; the snapshot is retained as an operational/accounting observation rather than a metered-delivery or customer-benefit measure.",
+      "uncertainty": "A single daily report cannot establish sustained availability, dispatch, market-clearing price, avoided outage, retail bill effect, payment incidence, or route-community response. The scheduled value is not equivalent to delivered energy.",
+      "subgroup": "NYISO operators, CHPE/Hydro-Québec, New York load-serving entities, Zone J electricity users, and route communities; no customer-level outcome is supplied.",
+      "counterinterpretation": "A fully scheduled import can coexist with later outage, congestion, price, or customer-service problems; the snapshot confirms system accounting, not realized household benefit.",
+      "source_url": "https://mis.nyiso.com/public/htm/capacityreport/20261001_050012CapacityReport.htm",
+      "retrieval_hash": "sha256:232f7c10007181c24b2aeaf0d76453ed05a958f91f194bc666be1f4d39262638",
+      "status": "observed"
     }
   ],
   "related_sources": [
@@ -109,6 +243,24 @@
       "claim": "New York load-serving entities have a 2026 obligation tied to Tier 4 renewable energy certificates delivered through the project into NYISO Zone J.",
       "status": "official-source",
       "access_boundary": "The obligation and delivered-energy accounting route do not establish a household bill change or individual receipt."
+    },
+    {
+      "source_url": "https://www.nyserda.ny.gov/All-Programs/Large-Scale-Renewables/Tier-Four",
+      "claim": "NYSERDA describes an hourly verification chain: eligible generation, scheduling, and delivery into NYISO Zone J must match before a Tier 4 REC is minted and payment is issued to Hydro-Québec.",
+      "status": "official-source",
+      "access_boundary": "This establishes an administrative delivery-and-payment control for the project contract, not a retail bill change, customer-level receipt, affordability result, or route-community acceptance."
+    },
+    {
+      "source_url": "https://www.nyserda.ny.gov/All-Programs/Clean-Energy-Standard/Voluntary-REC-Sales/Tier-4-REC-Voluntary-Sales",
+      "claim": "NYSERDA's public Tier 4 voluntary-sales route describes verified CHPE-associated REC units, a 14-day sale window, pro-rata allocation, seven-business-day invoicing, and payment due within 30 calendar days.",
+      "status": "official-source",
+      "access_boundary": "The public process establishes an administrative payment route, not a completed transaction, buyer-level receipt, retail bill effect, or household affordability result."
+    },
+    {
+      "source_url": "https://mis.nyiso.com/public/htm/preSchedAtcTtc/20260930presched_atc_ttc.htm",
+      "claim": "NYISO's September 30 public preschedule lists the HQ-CHPE interface at 1,250 MW through October 11, 0 MW from October 12 through October 16, and 1,250 MW again from October 17 through October 30.",
+      "status": "official-source",
+      "access_boundary": "The preschedule is a transmission-capability/planning record; it does not establish actual dispatch, customer interruption, retail bill effect, or route-community response, and direct retrieval was unavailable at recheck."
     }
   ],
   "boundary": "This record establishes a cross-border infrastructure project reaching commercial operation and a reported route for clean electricity delivery into New York. It does not establish realized household affordability, customer-class allocation, reliability improvement, host-community acceptance, or durable geopolitical leverage. It is an infrastructure and state-dependence realization case, not a household benefit estimate."

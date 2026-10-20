@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-it-dashboard-investment-risk-ratings-2026",
+  "title": "Federal IT risk ratings can understate project exposure while oversight and delivery outcomes remain open",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "consumer_power_recourse",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108416 review of Federal IT Dashboard investment risk ratings",
+  "geography": "United States federal agencies and major information-technology investments",
+  "observations": [
+    {
+      "period": "Fiscal year 2025 investment sample and October 7, 2026 GAO report",
+      "denominator": {
+        "value": 53,
+        "unit": "major IT investments assessed by GAO across 12 selected agencies",
+        "value_type": "reported_review_cohort"
+      },
+      "measures": {
+        "rating_alignment": {
+          "value": "GAO assessments matched CIO ratings 27 times, identified more risk 24 times, and identified less risk two times",
+          "unit": "reported comparison of 53 investment risk assessments",
+          "value_type": "reported_comparison"
+        },
+        "stale_ratings": {
+          "value": 21,
+          "unit": "CIO ratings not updated in a timely manner according to agencies' processes",
+          "value_type": "reported_timeliness_count"
+        },
+        "rating_process_gap": {
+          "value": 2,
+          "unit": "agencies whose rating processes spanned longer than quarterly, contrary to OMB guidance",
+          "value_type": "reported_process_count"
+        },
+        "investment_scale": {
+          "value": 100000000000,
+          "unit": "more than $100 billion in annual federal IT and cyber investment spending",
+          "value_type": "reported_annual_spending_scale"
+        },
+        "system_transition": {
+          "value": "OMB announced steps to sunset the Dashboard and replace it with a streamlined system, without providing a release timeframe",
+          "unit": "reported oversight-system transition",
+          "value_type": "reported_institutional_change"
+        },
+        "open_recommendations": {
+          "value": 17,
+          "unit": "open GAO recommendations to nine agencies to improve risk-rating quality and frequency",
+          "value_type": "open_recommendation_count"
+        },
+        "delivery_conversion": {
+          "value": "not measured",
+          "unit": "project completion, cost overrun, schedule delay, service reliability, public access, cybersecurity harm, or user trust",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-108416, based on fiscal-year 2025 budget data, agency rating processes, risk documentation, review of 53 selected investments, comparison of CIO ratings with GAO assessments, and recommendation-status review. Rating alignment, timeliness, process cadence, system transition, recommendations, and delivery outcomes are retained as separate stages.",
+      "uncertainty": "The 53 investments were selected from major investments at 12 agencies and are not a census of all federal IT projects. GAO's assessment of more or less risk is not itself a measure of project failure, realized cost, service quality, cybersecurity harm, or public experience. The announced Dashboard transition has no stated release timeframe in the source.",
+      "subgroup": "Federal agencies, oversight bodies, IT investment managers, and people who depend on public digital services supported by major federal IT investments.",
+      "counterinterpretation": "Differences between CIO and GAO ratings may reflect different assessment timing, documentation, or criteria rather than confirmed project failure; older ratings can coexist with lawful review cycles, while a replacement dashboard could improve oversight if it preserves timely, comparable, and inspectable risk information.",
+      "source_url": "https://www.gao.gov/products/gao-27-108416",
+      "retrieval_hash": "sha256:5987484784e84899ad516cbe419585cafb4d423679b44bd10594fda6d6d07e16",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108416/index.html",
+      "claim": "The official accessible report contains the investment sample, rating comparison, timeliness, system-transition, and recommendation findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/assets/gao-27-108416-highlights.pdf",
+      "claim": "The official GAO highlights summarize the rating comparison and oversight risk.",
+      "status": "official-report-highlights"
+    }
+  ],
+  "boundary": "This record advances a bounded federal IT investment rating-to-oversight route. It does not establish population-wide project failure, realized cost or schedule outcomes, service reliability, cybersecurity harm, public access, user experience, or completed agency corrective action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and highlights links are retained for reproduction.",
+    "retrieval_hash": "sha256:5987484784e84899ad516cbe419585cafb4d423679b44bd10594fda6d6d07e16",
+    "checked": "2026-10-20"
+  }
+}

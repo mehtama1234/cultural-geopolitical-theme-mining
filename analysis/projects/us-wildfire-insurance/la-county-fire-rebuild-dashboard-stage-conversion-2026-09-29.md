@@ -36,7 +36,47 @@ official multi-indicator aggregates, not a same-household insurance-to-occupancy
 panel; they make the conversion gap visible without identifying its binding
 mechanism for each household.
 
-## Cross-domain mechanism
+## Current operating conversion
+
+### October 19 refresh and fire-area split
+
+The public model now reports a refresh timestamp of **October 19, 2026
+16:40:54 UTC**. An aggregate-only query grouped by fire area returns 3,815
+permits issued, 2,355 projects in construction, and 232 construction-completed
+records for Eaton; Palisades returns 152, 96, and 2 respectively. The same
+query reports 224 Eaton self-certification applications received and 148 issued,
+versus 6 and 2 for Palisades, plus 13 versus 10 temporary-housing units set up.
+These fire-area rows improve the operating comparison, but they remain
+administrative counts with different denominators. They do not establish a
+property’s completion, occupancy, insurance payment, or original household’s
+return.
+
+The [current dashboard record](../../records/us-la-county-fire-rebuilding-dashboard-2026.json)
+retains the query hash and the full bounded fire-area stage set.
+
+The same dashboard's One-Stop Center encounter series can now be time-bounded:
+filtered queries return 32,336 Eaton visits across March 2025–October 2026 and
+789 Palisades visits across January 2025–January 2026. Month aggregation
+preserves the distinct fire-area clocks, but visits are not unique people,
+completed applications, or successful recovery. October 2026 is partial.
+
+The dashboard also supplies a 43-row fire-area/month pipeline from April 2024
+through September 2026: applications received, permits issued, and projects
+completed. The series is useful for showing administrative timing—for example,
+Eaton completions rise from 1 in July 2025 to 52 in September 2026, while
+Palisades records 1 completion in February 2026 and 1 in May 2026—but the
+measures have different denominators and cannot be treated as a funnel or
+household completion rate.
+
+An applicant-stage query adds a second administrative quality check. It returns
+stage counts for Eaton—35 initial reviews, 2,722 new residential permits
+issued, 213 plans approved pending clearances, 118 ready to issue pending the
+applicant, 45 rechecks, and 387 returned with comments—and for Palisades—119,
+5, 3, 3, and 28 in the corresponding nonzero stages. The dashboard's
+`Average Business Days Spent with Applicant` measure returned **-1,978.7** in
+this aggregate context, which is not substantively plausible and is not
+promoted. The stage counts are retained as administrative states; the failed
+time measure is an explicit data-quality boundary, not a waiting-time finding.
 
 ```text
 wildfire damage and displacement

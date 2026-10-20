@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-nisrf-mosc-operational-integration-2026",
+  "title": "A new NATO ISR mission-operations center entered real-world use while decision quality and strategic effect remained unmeasured",
+  "theme_ids": ["work", "voice", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "NATO Intelligence, Surveillance and Reconnaissance Force account of the Mission Operations Support Center during Agile Combat Employment and Ramstein Flag 2026",
+  "geography": "Sigonella, Italy and Finland; NISRF distributed ISR operations",
+  "observations": [
+    {
+      "period": "June 16, 2026; Mission Operations Support Center integrated into ongoing ACE/Ramstein Flag mission operations",
+      "denominator": {
+        "value": 1,
+        "unit": "NISRF Mission Operations Support Center at Sigonella contributing to active ISR missions",
+        "value_type": "reported_infrastructure_to_operation_event"
+      },
+      "measures": {
+        "facility_stage": {
+          "value": "The new Mission Operations Support Center was contributing to ongoing NISRF mission operations while the Force conducted Agile Combat Employment from Finland in support of NATO activities and Exercise Ramstein Flag 2026",
+          "unit": "reported operational integration stage",
+          "value_type": "reported_use_stage"
+        },
+        "distributed_workflow": {
+          "value": "The center served as a central mission-operations hub while aircraft operated from Finland and mission personnel supported activities from Sigonella",
+          "unit": "reported distributed operating arrangement",
+          "value_type": "reported_workflow"
+        },
+        "organizational_progress": {
+          "value": "NISRF described the facility's contribution as a step toward Full Operational Capability",
+          "unit": "official organizational assessment",
+          "value_type": "reported_readiness_stage"
+        },
+        "quality_and_effect": {
+          "value": "not observed",
+          "unit": "missing system uptime, analyst workload, product accuracy/timeliness, decision change, mission outcome, cost, host burden, adversary response, and public legitimacy",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the official NISRF account; facility integration, distributed workflow, and organizational assessment are separated from technical performance, decision effect, and strategic outcome.",
+      "uncertainty": "The account does not publish facility utilization, staffing, workload, system failures, product-level performance, decision records, lifecycle cost, host-nation burden, or evidence that the center changed behavior beyond the exercise and mission period.",
+      "subgroup": "NISRF mission directors, ISR analysts, pilots, sensor operators, maintainers, Finnish host personnel, NATO decision-makers, and supported activities; no civilian or adversary denominator is supplied.",
+      "counterinterpretation": "A facility can enter active use and support distributed operations without proving that it improved information quality, reduced workload, increased readiness, or created durable strategic leverage.",
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/new-mission-operations-support-center-contributes-to-ongoing-nisrf-ace",
+      "retrieval_hash": "sha256:4cfa5f9d3ee0e61d1e4c8bb5f8c3d5e3d0a0a0a4e7e17ed5f0b0e8c71c1e5d2a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-ace-underpins-support-to-ramstein-flag-2026-from-finland",
+      "claim": "A related NISRF account describes aircraft operating from Finland and analysis and mission support from Sigonella during Ramstein Flag 2026.",
+      "status": "related-operational-context"
+    },
+    {
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/from-infrastructure-to-operations-nisrf-takes-another-step-toward-full-operational-capability",
+      "claim": "An earlier account describes the MOSC build-up, system integration, and testing before operational use.",
+      "status": "prior-infrastructure-context"
+    }
+  ],
+  "boundary": "This record establishes a named NISRF support facility entering real-world mission operations during ACE/Ramstein Flag 2026. It does not establish technical reliability, product quality, decision effect, workload change, cost sustainability, host burden, adversary response, deterrence, or public legitimacy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NISRF mission-operations-center account and indexed page metadata used for bounded extraction; classified products and operational telemetry are not retained.",
+    "checked": "2026-10-20"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-yellowstone-repeat-refund-2026",
+  "title": "A repeat small-business refund can verify prior payment acceptance without proving the new payment or restored operating security",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "FTC Yellowstone Capital merchant cash advance refund program and third-payment route",
+  "geography": "United States small businesses affected by Yellowstone Capital merchant cash advances",
+  "observations": [
+    {
+      "period": "June 2026 third refund distribution; official page rechecked September 25, 2026",
+      "denominator": {
+        "value": 3759,
+        "unit": "small businesses receiving a third refund check after cashing a previous check",
+        "value_type": "agency_reported_recipient_conditioned_count"
+      },
+      "measures": {
+        "third_distribution_total": {"value": 549000, "unit": "more than U.S. dollars distributed in the third round", "value_type": "agency_reported_aggregate"},
+        "prior_payment_condition": {"value": "all reported third-distribution recipients had cashed a previous refund check", "unit": "administrative eligibility condition", "value_type": "reported_selection_rule"},
+        "earlier_cashed_population": {"value": 4982, "unit": "businesses reported by the FTC 2024 annual refund report as having cashed at least one payment", "value_type": "agency_reported_recipient_count"},
+        "august_2024_cashed_population": {"value": 4981, "unit": "businesses reported as cashing the August 2024 additional distribution", "value_type": "agency_reported_recipient_count"},
+        "underlying_exposure": {"value": "FTC alleged Yellowstone withdrew money from business bank accounts after businesses had repaid the full amounts owed in merchant cash advance contracts", "unit": "reported enforcement allegation", "value_type": "reported_consumer_financial_exposure"},
+        "third_check_receipt_and_recovery": {"value": "not observed", "unit": "missing third-check delivery or cashing, individual amount, account correction, residual loss, business survival, employment, customer continuity, and later financing choice", "value_type": "unmeasured"},
+        "mechanism": {"value": "Prior check cashing creates a stronger reachability signal for a repeat remedy while leaving the new payment and durable business recovery unobserved", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Bounded extraction from the official FTC Yellowstone Capital refund page and the FTC 2024 Annual Report on Refunds to Consumers; prior cashing, third-round dispatch, and aggregate historical counts are kept separate from third-check receipt, adequacy, and operating recovery.",
+      "uncertainty": "The public sources do not provide business identifiers, individual refund amounts, third-check cashing, underlying account correction, remaining loss, operating status, employment, customer continuity, trust, switching, or exit. Aggregate recipient counts are not a business-level recovery rate.",
+      "subgroup": "Small businesses affected by Yellowstone Capital merchant cash advances, including 3,759 businesses identified as third-distribution recipients; no sector, geography, size, or loss subgroup outcome is supplied.",
+      "counterinterpretation": "Prior cashing is stronger than a payment offer, but it does not establish that the third check arrived, that the original withdrawal was corrected, or that the business recovered or changed financing.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/yellowstone-capital-refunds",
+      "retrieval_hash": "sha256:292474c3319057c84a469a056ac7377a51362fe7227aa58c42919fd0119c444c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf",
+      "claim": "The FTC 2024 annual report records aggregate prior-payment cashing and the August 2024 additional distribution for Yellowstone-affected businesses.",
+      "status": "official-annual-report"
+    }
+  ],
+  "boundary": "This record establishes an official repeat-refund route with a prior-cashing condition for small businesses. It does not establish third-payment receipt, adequate recovery, account correction, business survival, trust, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the official FTC refund page and annual report; direct publisher-page retrieval is represented through the retained project ledger and its access boundary.",
+    "checked": "2026-10-20"
+  }
+}

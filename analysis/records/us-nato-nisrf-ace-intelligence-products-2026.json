@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-nisrf-ace-intelligence-products-2026",
+  "title": "A NATO ISR adaptation exercise produced flight hours and intelligence products without proving decision effect or public legitimacy",
+  "theme_ids": ["work", "voice", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "NATO Intelligence, Surveillance and Reconnaissance Force account of the 2026 Adaptable Capability Exercise",
+  "geography": "Finland, Italy, Norway, and NATO operational decision-makers",
+  "observations": [
+    {
+      "period": "2026 Adaptable Capability Exercise; official NISRF closeout account",
+      "denominator": {
+        "value": 1,
+        "unit": "NISRF Adaptable Capability Exercise operational period",
+        "value_type": "reported_operational_event"
+      },
+      "measures": {
+        "platform_output": {"value": 180, "unit": "approximately flight hours accumulated by NATO-owned RQ-4D Phoenix aircraft", "value_type": "reported_operational_output"},
+        "intelligence_products": {"value": 500, "unit": "more than intelligence products produced in support of NATO activities, exercise objectives, and Alliance decision-makers", "value_type": "reported_information_output"},
+        "operational_adaptation": {"value": "NISRF conducted operations from Finland while supporting major NATO activities and maintaining persistent ISR across the exercise", "unit": "reported force adaptation", "value_type": "reported_integration_stage"},
+        "decision_effect": {"value": "not observed", "unit": "missing product use, decision change, mission outcome, adversary response, and deterrence", "value_type": "unmeasured"}
+      },
+      "method": "Bounded extraction from the official NISRF closeout account; aircraft hours, intelligence-product production, host-location adaptation, and downstream decision effect are retained as separate stages.",
+      "uncertainty": "The account does not identify product content, classification, consumers, quality, timeliness, decision changes, operator workload, Finnish or host costs, civilian burden, adversary response, or the exercise's durable continuation.",
+      "subgroup": "NISRF personnel, NATO operational staffs, host-nation institutions, and supported activities; no civilian or public-opinion denominator is supplied.",
+      "counterinterpretation": "Producing products and flying from an alternate location can demonstrate organizational adaptability without proving that information improved decisions, changed external behavior, or generated durable alliance legitimacy.",
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-concludes-ace--delivering-persistent-isr-across-major-nato-activities",
+      "retrieval_hash": "sha256:c6371d9c0ec3fa98ef75a555838d98430b182641cf61290af6b4336b1b8d2eeb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/nato-intelligence-surveillance-and-reconnaissance-force-nisrf",
+      "claim": "NATO describes NISRF's broader surveillance and intelligence role and its alliance context.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/supporting-allied-capabilities-nisrf-facilitates-belgian-mq9b-deployment",
+      "claim": "A separate NISRF account reports a Belgian MQ-9B deployment; it is retained as a related but distinct national-capability episode.",
+      "status": "related-operational-comparator"
+    }
+  ],
+  "boundary": "This record establishes NATO ISR output and alternate-location operational adaptation during a named exercise. It does not establish intelligence quality, decision effect, adversary response, deterrence, public consent, host burden, cost sustainability, or durable geopolitical leverage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the official NISRF closeout-page HTML retrieved for extraction.",
+    "checked": "2026-10-20"
+  }
+}

@@ -60,6 +60,11 @@ one-year survival. The next test is whether payment redesign improves provider
 selection, staffing, resident outcomes, and state accountability beyond the
 studied setting.
 
+The [finance-to-capacity synthesis](findings/us-nursing-home-finance-quality-capacity-2026-002.md)
+keeps these layers together without pooling them. It frames the open bridge as
+ownership and payment structure to staffing, recorded compliance, resident
+outcomes, family voice, remedy, and practical exit.
+
 The [roommate peer-effects record](../../records/us-nber-nursing-home-roommate-peer-effects-mortality-2025.json)
 adds the resident-placement layer: among 2.6 million stays, assignment to a
 roommate with Alzheimer’s disease or related dementia raised 90-day mortality by

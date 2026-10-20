@@ -1,0 +1,44 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-nato-globaleye-collective-procurement-2026",
+  "title": "Lithuania joins a multilateral surveillance procurement before national delivery and contribution are visible",
+  "theme_ids": ["work", "cost", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of Lithuania joining collective procurement of NATO next-generation surveillance aircraft",
+  "geography": "Lithuania and participating NATO Allies; Alliance surveillance and early-warning architecture",
+  "observations": [
+    {
+      "period": "July 9, 2026; collective procurement announcement",
+      "denominator": {"value": 1, "unit": "reported multilateral surveillance-procurement participation announcement", "value_type": "official_announcement_count"},
+      "measures": {
+        "participation": {"value": "Lithuania signed onto a planned collective procurement alongside 10 other Allies", "unit": "reported multilateral participation stage", "value_type": "ministry_reported_participation"},
+        "planned_system": {"value": "up to 10 Saab GlobalEye aircraft equipped with the Initial Alliance Future Surveillance and Control capability", "unit": "planned Alliance procurement quantity and capability", "value_type": "ministry_reported_plan"},
+        "replacement_path": {"value": "new aircraft intended to support and eventually replace NATO's E-3A AWACS fleet", "unit": "reported Alliance fleet transition", "value_type": "reported_capability_transition"},
+        "functions": {"value": "surveillance, detection/tracking/identification of complex threats, communications relay, and airspace command and control", "unit": "reported system functions", "value_type": "reported_capability_scope"},
+        "project_value": {"value": 5000000000, "unit": "approximate euros for the overall project", "value_type": "ministry_reported_approximate_value"},
+        "delivery_window": {"value": "2030–2031", "unit": "expected first-equipment window", "value_type": "ministry_reported_expectation"},
+        "realization": {"value": "not observed", "unit": "missing final contract, national quantity, Lithuanian contribution, financing execution, delivery, acceptance, operation, industrial share, and realized security effects", "value_type": "unmeasured"},
+        "mechanism": {"value": "Collective procurement can pool demand and create an Alliance surveillance architecture while leaving national delivery and realized effects unresolved.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence announcement. Participation, planned quantity, system functions, project value, delivery window, and missing national/operational stages are kept separate.",
+      "uncertainty": "The announcement does not establish Lithuania's national quantity, financial contribution, industrial participation, final contract, configuration, delivery, acceptance, availability, interoperability performance, deterrence, or civilian effects.",
+      "subgroup": "Lithuanian defence institutions, participating NATO Allies, surveillance and aerospace suppliers, military personnel, border-region populations, and affected civilian users; no affected-person denominator is supplied.",
+      "counterinterpretation": "Joining a collective procurement can signal burden-sharing and planned capability integration while remaining a prospective commitment whose national cost, delivery, and operational effect may change.",
+      "source_url": "https://kam.lt/en/lithuania-joins-collective-procurement-of-the-next-generation-nato-surveillance-system/",
+      "retrieval_hash": "sha256:0fb140b1494b24e4866df50062f199a0cfe2f27c2f43f57de9bb47d12621e31f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes reported Lithuanian participation in a planned NATO GlobalEye collective procurement, the stated overall quantity/value and expected delivery window, and described surveillance functions. It does not establish a binding final contract, Lithuania-specific cost or quantity, aircraft delivery, acceptance, operation, industrial participation, deterrence, or public/civilian effects.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "Hash covers the structured fact string extracted from the official Lithuanian Ministry of National Defence webpage checked for participation, planned aircraft quantity, functions, project value, and delivery window. The public page was accessible through the web retrieval layer while direct shell retrieval was Cloudflare-blocked."
+  }
+}

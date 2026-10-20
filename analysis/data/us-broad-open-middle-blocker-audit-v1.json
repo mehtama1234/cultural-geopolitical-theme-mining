@@ -1,11 +1,11 @@
 {
   "schema": "us-broad-open-middle-blocker-audit-v1",
-  "checked": "2026-09-20",
+  "checked": "2026-10-19",
   "scope": {
-    "ledger_count": 98,
-    "event_count": 302,
-    "arrow_count": 454,
-    "open_arrow_count": 164
+    "ledger_count": 103,
+    "event_count": 317,
+    "arrow_count": 488,
+    "open_arrow_count": 177
   },
   "purpose": "Planning diagnostic for the missing middle between exposure, institutional response, usable outcome, and later recovery or action. It is not a prevalence estimate or a recovery rate.",
   "method": {
@@ -18,32 +18,32 @@
   "open_stage_families": [
     {
       "family": "later_outcome_or_durability",
-      "open_arrow_mentions": 117,
+      "open_arrow_mentions": 122,
       "plain_language": "Did the fix last, or did the problem return?"
     },
     {
       "family": "trust_meaning_or_action",
-      "open_arrow_mentions": 105,
+      "open_arrow_mentions": 112,
       "plain_language": "Did the experience change trust, identity, participation, or behavior?"
     },
     {
       "family": "alternative_nonuse_switching_or_exit",
-      "open_arrow_mentions": 123,
+      "open_arrow_mentions": 133,
       "plain_language": "What could the affected unit actually do instead, and did it do so?"
     },
     {
       "family": "receipt_or_implementation",
-      "open_arrow_mentions": 80,
+      "open_arrow_mentions": 85,
       "plain_language": "Did the person, household, worker, or customer actually get and use the remedy?"
     },
     {
       "family": "money_time_or_adequacy",
-      "open_arrow_mentions": 74,
+      "open_arrow_mentions": 79,
       "plain_language": "What was the amount, time cost, residual loss, or practical sufficiency?"
     },
     {
       "family": "unit_denominator_eligibility_or_attribution",
-      "open_arrow_mentions": 66,
+      "open_arrow_mentions": 71,
       "plain_language": "Can the result be tied to the same unit and responsible actor?"
     }
   ],

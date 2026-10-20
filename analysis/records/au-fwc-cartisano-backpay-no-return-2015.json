@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-fwc-cartisano-backpay-no-return-2015",
+  "title": "Back pay and continuity can be implemented while actual workplace return remains unresolved",
+  "theme_ids": [
+    "work",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Fair Work Commission Full Bench decision [2015] FWCFB 1523 concerning Sportsmed SA and Cartisano",
+  "geography": "South Australia; Fair Work Commission Sportsmed SA appeal",
+  "observations": [
+    {
+      "period": "November 2013 through June 24, 2015; injury, dismissal, remedy payment, risk-assessment exclusion, unconditional reinstatement, and disputed altered return",
+      "denominator": {
+        "value": 1,
+        "unit": "publicly adjudicated worker case",
+        "value_type": "case_count"
+      },
+      "measures": {
+        "work_and_injury": {
+          "value": "The worker suffered a non-work-related motor-vehicle injury, returned with restrictions, stopped working, and was terminated from a CSSD Manager role on November 7, 2013; the Commission found the dismissal unfair",
+          "unit": "reported employment and health sequence",
+          "value_type": "observed_case_sequence"
+        },
+        "remedy_payment": {
+          "value": "Sportsmed reported payment of back pay owing under the order on or about August 14, 2014 and wages for a further two weeks, with continuity maintained",
+          "unit": "reported remedy implementation",
+          "value_type": "reported_payment"
+        },
+        "practical_access": {
+          "value": "The worker was not permitted to return while a medical/risk assessment was undertaken and was treated as on unpaid leave; the Full Bench held the conditional order did not achieve actual reinstatement and issued separate unconditional reinstatement order PR561823",
+          "unit": "reported workplace-access and legal sequence",
+          "value_type": "observed_adjudication"
+        },
+        "later_return": {
+          "value": "A later public court record reports return on March 26, 2015, materially altered duties and status, and cessation of work on June 24, 2015 while still employed; final remedy and later livelihood remain unobserved",
+          "unit": "reported follow-up employment sequence",
+          "value_type": "reported_followup"
+        },
+        "mechanism": {
+          "value": "Payment and legal continuity are distinct remedy currencies from actual access to the workplace; a risk-assessment process can leave a worker without practical return even after monetary implementation",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from the primary Fair Work Commission Full Bench decision, reinstatement order, and public later court record; back-pay payment, conditional exclusion, legal correction, and disputed later return are kept separate.",
+      "uncertainty": "Private medical, payroll, household, treatment, alternative-job, and later-employment records are not retained. Exact net payment, final remedy execution, whether altered duties satisfied the order, and post-decision livelihood are not independently established.",
+      "subgroup": "One publicly adjudicated worker with injury-related work restrictions and a disputed reinstatement route; no population denominator or comparison group is supplied.",
+      "counterinterpretation": "The employer's risk assessment may have reflected genuine safety concerns, and a later altered role or cessation may have multiple causes; payment and continuity do not by themselves prove either exclusion or recovery.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/html/2015fwcfb1523.htm",
+      "retrieval_hash": "sha256:98bbf4997370ab2d48c831a061bbf5793c46e58725d5d86759f85a64a55cb23a",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.casechat.au/cases/au/cartisano-v-sportsmed-sa-hospitals-pty-ltd",
+      "claim": "Public later court record reports a March 2015 return, materially altered duties, cessation while still employed, and unresolved constructive-reinstatement dispute.",
+      "status": "follow-up-source"
+    }
+  ],
+  "boundary": "This record establishes a same-case boundary in which reported back-pay payment and continuity coexist with no actual return, and the tribunal distinguishes legal payment from real and practical reinstatement. It does not establish final remedy, causality of non-return, later compensation, household recovery, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the public FWC and follow-up court records; private medical, payroll, household, and employment files are not retained.",
+    "checked": "2026-10-20"
+  }
+}

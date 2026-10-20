@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-doe-nuclear-cleanup-future-land-use-transfer-2026",
+  "title": "Nuclear-cleanup remedies can prefigure future land use while transfer, reuse, and recontamination remain open",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108063 review of future land use planning at selected Department of Energy nuclear-cleanup sites",
+  "geography": "United States Department of Energy cleanup sites and surrounding local communities, regulators, tribes, and future land users",
+  "observations": [
+    {
+      "period": "Selected DOE cleanup sites and October 16, 2026 GAO report",
+      "denominator": {
+        "value": 6,
+        "unit": "DOE cleanup sites selected by GAO for review across regulatory frameworks, cleanup stages, and future land uses",
+        "value_type": "reported_review_cohort"
+      },
+      "measures": {
+        "future_land_use_plans": {
+          "value": "DOE created initial future-land-use plans with local-community coordination as early as 1992 at all six selected sites; plans inform but do not bind cleanup assumptions",
+          "unit": "reported planning condition across selected sites",
+          "value_type": "reported_institutional_finding"
+        },
+        "cleanup_use_alignment": {
+          "value": "Oak Ridge, Paducah, Portsmouth, and Savannah River cleanup levels aligned with industrial-use plans; nearly a third of Hanford and most contaminated Idaho areas received standards more stringent than anticipated conservation, preservation, or industrial uses",
+          "unit": "reported site-use and cleanup-standard comparison",
+          "value_type": "reported_comparison"
+        },
+        "industrial_reuse": {
+          "value": 5,
+          "unit": "selected sites where DOE transferred or leased a small amount of land to communities or private entities for industrial use",
+          "value_type": "reported_site_count"
+        },
+        "cleanup_cost_horizon": {
+          "value": "$641 billion to $840 billion estimated for cleaning up 15 remaining sites, with completion estimated in 2100",
+          "unit": "reported national DOE cleanup estimate and horizon",
+          "value_type": "reported_program_scale"
+        },
+        "reuse_tradeoffs": {
+          "value": "stakeholders cited possible economic growth, high-quality jobs, and local tax revenue alongside risks of diverting cleanup resources, pollution or recontamination, and future DOE liabilities; new initiatives include energy development, nuclear-fuel-cycle hubs, and co-located AI data centers",
+          "unit": "reported benefit and risk categories",
+          "value_type": "reported_tradeoff_set"
+        },
+        "land_use_conversion": {
+          "value": "not measured",
+          "unit": "parcel-level transfer, occupancy, employment, tax receipt, exposure, recontamination, liability, community consent, or long-term health outcome",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-108063, based on laws, regulations, policies, agency documents, site review at six selected DOE cleanup sites, two site visits, and interviews with DOE officials, regulators, tribal officials, and community stakeholders. Future-land-use plans, cleanup standards, transfers, tradeoffs, program scale, and post-transfer outcomes are retained as separate stages.",
+      "uncertainty": "The six sites were selected to represent different frameworks, cleanup stages, and future land uses and are not a census of DOE sites. A cleanup standard aligned with a future-use assumption does not itself establish actual exposure or safety performance. The report does not provide a common parcel-level series for transfer, occupancy, jobs, tax revenue, recontamination, consent, or health outcomes.",
+      "subgroup": "Communities, tribes, regulators, workers, future residents, industrial users, private entities, and local governments near DOE nuclear-cleanup sites, with different exposure, economic, and decision-making positions.",
+      "counterinterpretation": "More stringent cleanup can preserve options or reflect precaution rather than waste, while industrial reuse can bring jobs and tax base; conversely, a nonbinding land-use assumption and later transfer can create durable exposure or liability risks if future uses exceed the remedy's contemplated conditions.",
+      "source_url": "https://www.gao.gov/products/gao-27-108063",
+      "retrieval_hash": "sha256:22e7b801529b51969682c093d29149db578a781e219b17359daa71fb00bcbbf6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108063/index.html",
+      "claim": "The official accessible report contains the selected-site future-land-use, cleanup-standard, transfer, and stakeholder-tradeoff findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-27-107791",
+      "claim": "GAO identifies a related defense-nuclear-waste report with recommendations concerning future-land-use authority and multi-use cleanup cost and schedule analysis.",
+      "status": "official-related-report"
+    }
+  ],
+  "boundary": "This record advances a bounded cleanup-remedy-to-future-land-use and industrial-reuse route. It does not establish parcel-level transfer or occupancy, exposure, recontamination, jobs, tax receipts, community consent, health outcomes, liability realization, or national DOE cleanup performance.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and related report links are retained for reproduction.",
+    "retrieval_hash": "sha256:22e7b801529b51969682c093d29149db578a781e219b17359daa71fb00bcbbf6",
+    "checked": "2026-10-20"
+  }
+}

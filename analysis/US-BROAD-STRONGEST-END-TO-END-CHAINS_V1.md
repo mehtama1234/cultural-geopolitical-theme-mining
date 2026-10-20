@@ -1,6 +1,6 @@
 # US broad atlas: strongest end-to-end chains v1
 
-**Checked:** 2026-09-29
+**Checked:** 2026-10-19
 **Purpose:** identify the strongest currently retained routes toward the broad
 end-to-end goal without pretending that separate sources form one causal chain.
 
@@ -40,7 +40,7 @@ episode.
 | 5 | **HTOPS fraud/loss → reporting/recovery signal → later household pressure**; linked respondent panel | Same-ID exposure, realized loss, reporting, sparse self-reported recovery, later inability to pay energy bills and job search | Incident date, responsible actor, verified remediation, usable alternative, and durable security |
 | 6 | **SHED fraud loss → incomplete recovery → provider contact/reporting → reported switching**; same survey-defined fraud subgroup | Reported money lost, partial non-recovery, provider contact, external reporting, and 12% reported bank/financial-company switching | Dated incident, account/provider, verified correction or payment, switch completion and reason, durable financial room, trust, and exit |
 | 7 | **CCES job loss → material insecurity → later political judgment/action**; same respondent across a retained panel | Earlier reported job loss, later insurance status, Congress approval, congressional contact, and local political action are placed on one respondent timeline | Dated separation, employer/actor, income and benefit change, attribution, remedy, recovery, and later trust/exit |
-| 8 | **SNAP access/control failure → benefit theft → replacement/security response**; recipient and administrative route | SNAP benefits can be issued but become unusable after EBT theft; GAO reports more than $320m in approved replacement benefits for nearly 679,000 households during the covered period, alongside card controls and modernization efforts | Individual theft date, claim and replacement receipt, food gap, substitute route, next-month stability, and later trust/reporting remain open |
+| 8 | **SNAP access/control failure → benefit theft → replacement/security response**; recipient and administrative route | GAO reports more than $320m in approved replacement benefits for nearly 679,000 households during the covered period, while the [Connecticut case](projects/us-safety-net-access/findings/us-connecticut-snap-ebt-replacement-partial-remedy-2023-001.md) records a new card, agency-reported $582 replacement credit, residual appeal, and denial; the [New Jersey case](projects/us-safety-net-access/findings/us-new-jersey-snap-ebt-theft-hearing-denial-2025-001.md) records investigation, hearing, and affirmed denial | Individual food-gap duration, adequacy/use of the replacement, substitute route, next-month stability, and later trust/reporting remain open |
 | 9 | **FTC ACRO deception → first acceptance → repeat refund**; recipient-conditioned program record | Officially reported first acceptance and second-round checks to prior acceptors; remedy eligibility is more specific than an aggregate offer | Second-check receipt/cashing, account or debt correction, residual loss, and later use/switching/exit |
 | 10 | **FEMA wildfire assistance → continued housing support → mortgage/insurance bridge**; disaster administrative record | Event-specific registration, referral, eligibility, reported assistance amount, 35,000+ households assisted, housing support through July 2027, and 1,100+ CalAssist homeowners receiving up to 12 months of mortgage relief | Household payment receipt, insurer/lender decision, repair/permanent-housing completion, adequacy, stable recovery, and later trust or action |
 | 11 | **LIHEAP energy pressure → prevention/restoration → public-system capacity**; program performance record | Official FY2023–FY2025 occurrence counts for bill-payment prevention and post-disconnection restoration | Unique household application, payment, reconnection, next-bill stability, repeat crisis, and later trust/action |
@@ -108,12 +108,25 @@ episode.
 The [Longridge worker ledger](projects/ai-work-control/data/fwo-longridge-underpayment-alternative-employment-backpay-event-ledger-v1.json)
 adds two separate public worker episodes: advertised commission-only work
 produced severe underpayment; each worker quit and sought alternative
-employment; both complained; and the employer later reported full back-pay
-after Fair Work Ombudsman enforcement. This is a stronger alternative-to-remedy
-bridge than a compensation order alone, but it is not promoted as a completed
-end-to-end route because the public record lacks worker-confirmed receipt,
+employment; both complained; and the Federal Circuit Court reasons record that
+the exact amounts due were paid in full in two installments on 2 May 2013 and
+1 October 2014. This is a stronger alternative-to-remedy bridge than a
+compensation order alone, but it is not promoted as a completed end-to-end
+route because the public record lacks worker-confirmed receipt,
 replacement-job quality or duration, adequacy, later trust, recurrence, and
 exit. The two workers remain separate units and are not pooled into one story.
+
+### Newly retained consumer-remedy comparator — not ranked as a same-unit chain
+
+The [FTC Cleo AI refund ledger](projects/us-customer-automation-recourse/data/ftc-cleo-ai-refund-planned-payment-event-ledger-v1.json)
+adds a dated aggregate consumer-redress route: the FTC announced 2,124,796
+planned PayPal payments totaling more than $15.8 million, with notification
+before the planned 27 October 2026 distribution start and a 30-day acceptance
+window. This advances the atlas from settlement design to a scheduled payment
+clock, but it does not establish delivery, acceptance, return, reissue,
+individual amount, adequacy, account correction, household recovery, repeat
+borrowing, trust, switching, or exit. The [post-distribution acquisition gate](projects/us-customer-automation-recourse/cleo-ai-refund-post-distribution-acquisition-gate-2026-10-19.md)
+defines the next checks and keeps future payment events separate from receipt.
 
 ### New cross-theme corridor — not ranked as a same-unit chain
 

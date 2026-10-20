@@ -1,0 +1,45 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-norway-maritime-capability-mou-2026",
+  "title": "Lithuania and Norway turn a naval capability need into non-binding industrial cooperation before procurement is visible",
+  "theme_ids": ["work", "cost", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of the Lithuania–Norway standardized multirole warship cooperation memorandum",
+  "geography": "Lithuania and Norway; Lithuanian Navy, Norwegian standardized vessel programme, and Lithuanian maritime/defence industry",
+  "observations": [
+    {
+      "period": "July 8–9, 2026; memorandum and maritime-capability planning announcement",
+      "denominator": {"value": 1, "unit": "bilateral maritime-capability cooperation memorandum", "value_type": "official_cooperation_mou_count"},
+      "measures": {
+        "cooperation_stage": {"value": "Lithuania and Norway signed a Memorandum of Understanding on cooperation in Norway's standardized multirole warship programme", "unit": "reported bilateral cooperation stage", "value_type": "ministry_reported_mou"},
+        "lithuanian_requirement": {"value": 4, "unit": "multirole modular ships required by Lithuania; reported requirement", "value_type": "ministry_reported_requirement"},
+        "associated_capability": {"value": "modular mine-hunting and mine-sweeping system capabilities", "unit": "reported associated capability requirement", "value_type": "ministry_reported_capability_need"},
+        "local_project_value_target": {"value": 30, "unit": "percent or more of project value planned to be based in Lithuania", "value_type": "ministry_reported_planned_share"},
+        "industrial_functions": {"value": "shipbuilding, system integration, sensors, communications, cable integration, pipelines, interiors, servicing, and maintenance", "unit": "named Lithuanian industrial functions", "value_type": "reported_industrial_scope"},
+        "strategic_functions": {"value": "possible modular roles include air defence, counter-drone defence, electronic warfare, reconnaissance, infrastructure protection, and maritime-route security", "unit": "reported platform functions", "value_type": "reported_capability_scope"},
+        "binding_status": {"value": "not a final procurement contract and not financially binding or a commitment to buy", "unit": "explicit legal/procurement boundary", "value_type": "bounded_non_binding_status"},
+        "realization": {"value": "not observed", "unit": "missing final agreement, financing, construction, delivery, acceptance, operation, realized local content, jobs, readiness, and public/civilian effects", "value_type": "unmeasured"},
+        "mechanism": {"value": "A bilateral MOU can open a domestic industrial and capability pathway while leaving procurement, execution, and operational effect unresolved.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence announcement. The MOU, four-ship requirement, associated mine-countermeasure capability, 30% local-value target, named industrial functions, platform roles, explicit non-binding status, and unobserved downstream stages are kept separate.",
+      "uncertainty": "The announcement does not establish a final procurement model, financing, participating firms, contract value, construction, delivery schedule, acceptance, operational availability, realized local content or jobs, maintenance performance, deterrence, maritime safety, or civilian incidence.",
+      "subgroup": "Lithuanian Navy, Norwegian naval programme, Lithuanian shipbuilding and defence firms, supply-chain workers, maritime users, and communities near future facilities; no affected-person denominator is supplied.",
+      "counterinterpretation": "A 30% local-value target and modular platform plan can signal industrial opportunity and capability continuity while remaining a non-binding negotiating position that may not become a contract or realized output.",
+      "source_url": "https://kam.lt/en/lithuania-and-norway-sign-a-memorandum-on-advanced-maritime-capability-development-and-warship-building-in-lithuania/",
+      "retrieval_hash": "sha256:abbf5c7f3ae9888171f0b1a2d89aaf693d2d0aa6fef531a7b9b1e5428b7caeb3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a reported Lithuania–Norway maritime-capability MOU, a four-ship requirement, a planned Lithuanian industrial share, and modular capability intent. It does not establish a binding procurement contract, financing, construction, delivery, acceptance, operational use, realized local content or jobs, reduced dependence, deterrence, maritime safety, or public legitimacy.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the official Lithuanian Ministry of National Defence webpage checked for the MOU, requirement, local-value target, industrial functions, platform roles, and explicit non-binding boundary."
+  }
+}

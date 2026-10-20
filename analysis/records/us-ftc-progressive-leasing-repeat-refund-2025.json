@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-progressive-leasing-repeat-refund-2025",
+  "title": "A large rent-to-own refund reaches a prior-cashing subgroup without proving price correction or durable household relief",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "FTC Progressive Leasing enforcement and repeat-refund program",
+  "geography": "United States consumers using Progressive Leasing rent-to-own plans",
+  "observations": [
+    {
+      "period": "September 2025; second-round refund dispatch checkpoint",
+      "denominator": {
+        "value": 1221146,
+        "unit": "people reported as receiving a second-round check after cashing the first check and paying Progressive Leasing $616.62 or more",
+        "value_type": "agency_reported_recipient_conditioned_count"
+      },
+      "measures": {
+        "second_round_total": {"value": 27000000, "unit": "more than U.S. dollars in second-round checks", "value_type": "agency_reported_aggregate"},
+        "first_round_total": {"value": 143000000, "unit": "more than U.S. dollars in first-round refunds sent in June 2021", "value_type": "agency_reported_aggregate"},
+        "recipient_condition": {"value": "cashed the first check and paid Progressive Leasing $616.62 or more", "unit": "administrative eligibility condition for the second round", "value_type": "reported_selection_rule"},
+        "underlying_exposure": {"value": "FTC reported that Progressive Leasing misled shoppers about no-interest or same-as-cash pricing and that consumers could pay more than the sticker price, often about twice the sticker price after scheduled payments", "unit": "reported enforcement finding", "value_type": "reported_consumer_financial_exposure"},
+        "second_check_receipt_and_recovery": {"value": "not observed", "unit": "missing second-check delivery, cashing, contract correction, residual cost, adequacy, household adaptation, and durable exit", "value_type": "unmeasured"}
+      },
+      "method": "Bounded extraction from the official FTC refund page; alleged pricing exposure, first-round refunds, prior cashing, second-round dispatch, and durable household recovery remain separate stages.",
+      "uncertainty": "The public page does not provide the complete harmed denominator, individual amounts, second-check cashing, contract or debt correction, remaining loss, household substitution, trust, repeat use, switching, or exit. The recipient-conditioned count is not a recovery rate for all affected consumers.",
+      "subgroup": "Consumers who paid Progressive Leasing at least $616.62 and cashed the first refund check; no income, age, product, retailer, or debt-burden subgroup outcome is supplied.",
+      "counterinterpretation": "Prior cashing makes the second-round population more reachable, but the condition excludes people who never received or could not cash the first payment; a refund also does not establish that rent-to-own pricing practices or household financial pressure changed.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/progressive-leasing-refunds",
+      "retrieval_hash": "sha256:33f04c4283bdcd094343ea1ba2c2f272e1557057598faae4da823d6c5299f678",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3127-progressive-leasing",
+      "claim": "The FTC case page identifies the Progressive Leasing enforcement matter and settlement context.",
+      "status": "official-case-page"
+    },
+    {
+      "source_url": "https://www.ftc.gov/enforcement/ftc-refund-programs/how-ftc-provides-refunds",
+      "claim": "The FTC describes prior payment cashing, address updates, reissue, and additional-payment stages.",
+      "status": "official-process-guidance"
+    }
+  ],
+  "boundary": "This record establishes a high-volume rent-to-own pricing enforcement route and a recipient-conditioned second refund. It does not establish second-payment receipt, cashing, contract correction, adequate household recovery, trust, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the official FTC refund-page HTML retrieved through the search.ftc.gov mirror for extraction.",
+    "checked": "2026-10-20"
+  }
+}

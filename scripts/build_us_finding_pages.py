@@ -536,6 +536,11 @@ def main():
     meps_2024_gate = ROOT / "analysis/projects/us-health-cost-household-choice/meps-2024-full-year-acquisition-gate-v1.md"
     memos.append(meps_2024_gate)
     memos.append(ROOT / "analysis/projects/us-health-cost-household-choice/meps-event-field-availability-audit-v1.md")
+    # Publish the live Amtrak infrastructure episode alongside its broad
+    # synthesis and same-case availability entry; the passenger-incidence
+    # boundary must remain visible in the reader layer.
+    memos.append(ROOT / "analysis/projects/us-infrastructure-operation-incidence/amtrak-a-interlocking-live-disruption-followup-2026-10-20.md")
+    memos.append(ROOT / "analysis/projects/us-customer-automation-recourse/fes-credit-repair-refund-distribution-2026-10-20.md")
     # Publish the financial-power layer as a long-form reader route. It
     # connects liquidity, payment rails, credit records, institutional terms,
     # and exit while keeping the same-household event gap explicit.

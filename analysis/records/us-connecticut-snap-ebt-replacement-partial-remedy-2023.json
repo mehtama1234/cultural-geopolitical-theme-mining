@@ -1,0 +1,106 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-connecticut-snap-ebt-replacement-partial-remedy-2023",
+  "title": "A reported SNAP theft can produce a replacement credit while leaving adequacy and household recovery unresolved",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Connecticut DSS/OLCRAH Notice of Decision, Request No. 226201",
+  "geography": "Connecticut SNAP household; Connecticut Department of Social Services administrative hearing",
+  "observations": [
+    {
+      "period": "2023 administrative decision; transaction, report, replacement, and hearing dates redacted in the public PDF",
+      "denominator": {
+        "value": 1,
+        "unit": "anonymized OLCRAH administrative case; not a replacement-rate or household-outcome denominator",
+        "value_type": "case_count"
+      },
+      "measures": {
+        "covered_loss": {
+          "value": 590.16,
+          "unit": "U.S. dollars in SNAP loss found covered by the decision; the appellant claimed a larger amount",
+          "value_type": "reported_case_amount"
+        },
+        "replacement_credit": {
+          "value": 582.00,
+          "unit": "U.S. dollars reported by the agency as issued to the SNAP EBT account with a new card",
+          "value_type": "reported_remedy_amount"
+        },
+        "appeal_and_residual_claim": {
+          "value": "The appellant reported the theft, requested a new card, submitted Form W-3037, filed a police report through her daughter, and appealed for an additional $2,125.34; OLCRAH upheld the agency limit and denied the residual appeal",
+          "unit": "reported administrative sequence",
+          "value_type": "observed_case_sequence"
+        },
+        "receipt_and_adequacy": {
+          "value": "not independently observed",
+          "unit": "missing transaction-level receipt confirmation, food purchases, interim food access, bills, debt, adequacy, later SNAP continuity, recurrence, trust, action, and exit",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "An agency-recorded replacement can restore some nominal purchasing capacity while the replacement cap, redacted timing, and residual denial leave the household's usable food access and recovery unresolved",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from the official Connecticut OLCRAH decision; theft report, card replacement, agency-recorded credit, appeal, and downstream non-observation are kept separate.",
+      "uncertainty": "The public decision anonymizes the appellant and redacts dates. It does not provide independent account confirmation, transaction-level receipt or use, interim food access, amount adequacy, later benefit continuity, or household recovery.",
+      "subgroup": "One anonymized Connecticut SNAP administrative case; no population denominator or comparison group is supplied.",
+      "counterinterpretation": "The household may have remained food secure through other resources, or remained insecure despite the credit; an administrative replacement record does not establish either outcome.",
+      "source_url": "https://portal.ct.gov/-/media/departments-and-agencies/dss/fair-hearings/snap-eligibility/snap-eligibility-2023/snap_2023_226201.pdf?rev=8748ed2d6a6b42d7ba2b207ea2e792cc",
+      "retrieval_hash": "sha256:a61a6100e88b071518421e15bd744cca9bead532bbbc0aca9ca50a1891560ab5",
+      "status": "reported"
+    },
+    {
+      "period": "2024 administrative decision; stolen SNAP transactions, initial denial, and corrective remand",
+      "denominator": {
+        "value": 1,
+        "unit": "anonymized OLCRAH administrative case; not a replacement-rate or household-outcome denominator",
+        "value_type": "case_count"
+      },
+      "measures": {
+        "covered_loss": {
+          "value": 292.44,
+          "unit": "U.S. dollars in unauthorized SNAP transactions identified in the decision",
+          "value_type": "reported_case_amount"
+        },
+        "initial_administrative_route": {
+          "value": "DSS issued a replacement EBT card but denied replacement of the stolen benefits because the completed request form was received 32 days after discovery",
+          "unit": "reported administrative sequence",
+          "value_type": "observed_case_sequence"
+        },
+        "institutional_correction": {
+          "value": "The hearing officer granted the appeal, found that DSS had not shown timely notice of the required form, rescinded the denial, and ordered DSS to process the request as timely",
+          "unit": "adjudicated corrective order",
+          "value_type": "observed_remedy_correction"
+        },
+        "replacement_receipt_and_adequacy": {
+          "value": "not observed",
+          "unit": "missing later replacement credit, food purchases, interim food access, adequacy, household recovery, recurrence, trust, action, and exit",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from the official Connecticut OLCRAH decision; unauthorized transactions, replacement-card issuance, denial, hearing correction, and downstream non-observation are kept separate.",
+      "uncertainty": "The public decision anonymizes the appellant and redacts dates. It records a corrective order but not whether the later replacement was issued, received, or adequate, nor whether food access or household security recovered.",
+      "subgroup": "One anonymized Connecticut SNAP administrative case involving a stolen-benefit replacement request; no population denominator or comparison group is supplied.",
+      "counterinterpretation": "Correcting an administrative denial can restore a procedural route without proving that the household ultimately received benefits, avoided a food gap, or regained durable security.",
+      "source_url": "https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/fair-hearings/snap-eligibility/snap-eligibility-2024/snap_2024_235520.pdf?rev=34a61b43ae2c4b25accf492d3e347253",
+      "retrieval_hash": "sha256:d7b96834c624e0c6a51b60448660a9cacedcaa9f72e4e0b76c7e7bc9861bb803",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes two anonymized Connecticut administrative cases: one agency-recorded partial replacement with residual denial, and one corrective hearing order reversing a stolen-benefit denial. It does not establish independent recipient receipt, later replacement issuance, benefit adequacy, food security, household recovery, population rates, durable trust, action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the published administrative decision; identifying fields, raw EBT transactions, and household follow-up records are not retained.",
+    "checked": "2026-10-20"
+  }
+}

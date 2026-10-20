@@ -1,7 +1,7 @@
 # Broad same-case episode availability audit v1
 
 **Status:** stage-availability audit; no synthetic episode or causal estimate
-**Checked:** 2026-09-21
+**Checked:** 2026-10-19
 **Machine record:** [same-case episode availability audit](data/broad-same-case-episode-availability-audit-v1.json)
 
 ## Why this audit matters
@@ -52,6 +52,8 @@ separate.
 | SHED recontact panel (4,419 respondents) | Adaptation, care/financial persistence, later status | Dated actor/event, institutional response, remedy, meaning/action, exit |
 | HTOPS linked panel (6,564 respondents) | Same-ID timing, later material outcomes, institutional confidence | Actor, alternatives, attribution, action, remedy, recovery/exit |
 | MEPS bounded event ledger (3 event surfaces) | Person-linked event ordering, payment and later health/work context | Complete route, remedy, trust/action, practical exit |
+| Amtrak A-Interlocking live disruption (1 episode) | Named outage, affected service, offered bus/Metro/rebooking alternatives, and intended reliability benefit | Passenger uptake, extra cost/time, accessibility, compensation, post-restoration reliability, trust, exit |
+| FTC FES credit-repair refund distribution (1 aggregate episode) | Named credit-repair harm route, FTC enforcement, 443,048 checks sent, and 90-day cashing window | Delivery, cashing, credit/debt correction, adequacy, household recovery, trust, switching, exit |
 | MEPS strict event-window follow-up (3 event families) | Same-person event-window ordering followed by R5/3 health and employment transitions | Initiating need, alternatives, institutional response, remedy, meaning/action, household recovery, practical exit |
 | CFPB medical-debt route (49 locally filtered cases) | Dated complaint, coarse place, institutional routing, response label | Underlying bill/care choice, alternatives, verified remedy, recovery, trust/action, exit |
 | Doxo bill-payment enforcement case (2 observations) | Search-route and official-channel confusion, alleged fees, complaint-level payment-timing/service-risk consequences, order-stage controls | Person-level payment success, bill status or service continuity, remedy receipt, trust, switching/exit |
@@ -60,25 +62,30 @@ separate.
 | Honda Talon repair ledger (1 recall key) | Dated vehicle hazard, direct-contact claim, dealer-repair route, later correction snapshot | Purchaser exposure, repair receipt, downtime, safe mobility, residual cost, trust, switching/exit |
 | CFPB credit-card monetary-relief ledger (25 cases) | Complaint receipt, routing, timely handling, and monetary-relief response label | Account exposure, alternatives, issuance/receipt, correction, remaining loss, trust, switching/exit |
 | FWC Adcon liquidation ledger (1 episode) | Employer shutdown, unpaid notice/redundancy, reported family/financial stress, lower-paid replacement work, $9,584 alternative earnings, liquidation, and $17,531.43 compensation order | Compensation receipt, FEG recovery, job duration, household recovery, durable trust, recurrence, exit |
+| FWC Mudiyanselage underpayment ledger (1 episode) | Persistent wage failure, repeated complaints, forced exit, new employment, $4,000 partial payment, compensation order, and worker-reported broken trust | Final payment/compliance confirmation, later job quality or stability, household recovery, recurrence, and exit |
+| Connecticut SNAP replacement case (1 anonymized case) | Reported EBT loss, theft report, new card, $582 replacement credit, residual hearing, and denial of additional claim | Independent receipt/use, food or bill substitution, adequacy, later continuity, trust, action, and exit |
+| New Jersey SNAP theft-hearing case (1 claimant case) | Disputed transactions, replacement request, agency investigation, hearing, and affirmed denial | Feasible alternatives, food or bill consequence, later continuity, trust, action, and exit |
+| USMCA ThyssenKrupp labor-remedy case (2 reinstated workers) | Named labor petition, intergovernmental review, reinstatement, reported backpay and benefits, facility union-access measures, and monitoring | Alternatives, independent receipt, durable non-retaliation, bargaining power, recurrence, trust, and exit |
+| USMCA Alimentos Grole labor-remedy case (9 reinstated; 2 severance-preference workers) | Named labor petition, reinstatement/backpay or severance, union access, complaint channels, training, and monitoring | Alternatives, independent receipt, adequacy, durable non-retaliation, bargaining power, recurrence, trust, and exit |
 
 ## Stage-level coverage count
 
-The 33 surfaces can also be summarized without pooling their units. A status is
+The 41 surfaces can also be summarized without pooling their units. A status is
 classified as **observed** when it begins with `observed`, **partial** when it
 begins with `partial`, and **open/unknown** for all other labels (including
 reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 29 | 2 | 2 |
-| Responsible actor | 21 | 10 | 2 |
-| Alternative or non-use | 8 | 7 | 18 |
-| Effort, money, or time trade-off | 7 | 20 | 6 |
-| Adaptation or protected/sacrificed outcome | 10 | 12 | 11 |
-| Institutional or firm response | 29 | 1 | 3 |
-| Verified remedy | 3 | 22 | 8 |
-| Meaning, trust, or action | 1 | 9 | 23 |
-| Recovery, persistence, or exit | 2 | 12 | 19 |
+| Dated event or exposure | 37 | 2 | 2 |
+| Responsible actor | 29 | 10 | 2 |
+| Alternative or non-use | 9 | 9 | 23 |
+| Effort, money, or time trade-off | 7 | 27 | 7 |
+| Adaptation or protected/sacrificed outcome | 11 | 15 | 15 |
+| Institutional or firm response | 37 | 1 | 3 |
+| Verified remedy | 3 | 29 | 9 |
+| Meaning, trust, or action | 2 | 11 | 28 |
+| Recovery, persistence, or exit | 2 | 15 | 24 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can
@@ -90,7 +97,14 @@ received, or what happened to meaning, recovery, or exit.
 
 No current local source supplies all nine required stages. The strict MEPS
 follow-up adds a same-person later health/work clock, but not a full recovery
-or remedy chain. The IER summaries
+or remedy chain. The Connecticut and New Jersey SNAP cases add contrasting
+administrative endpoints—reported partial replacement versus affirmed denial—
+without downstream food, adequacy, or household outcomes. The ThyssenKrupp
+USMCA case adds reported reinstatement, backpay, and facility-level union-access
+measures without alternatives, independent receipt, durable non-retaliation,
+or exit. The Alimentos Grole USMCA case adds nine reported reinstatements, two
+severance-preference outcomes, union access, complaint channels, and monitoring
+with the same worker-level and durable gaps. The IER summaries
 advance the verified-remedy stage with four agency-reported individual
 payments, while the DACA bilateral case adds reported wage and seniority
 restoration plus complaint withdrawal, and the OSHA case adds protected safety
@@ -114,7 +128,7 @@ prioritize an episode key and stage-specific missingness over additional
 cross-sectional pressure measures.
 
 The machine record now encodes the promotion decision explicitly: `qualifies`
-is `false`, eight retained surfaces observe an alternative or non-use field, and
+is `false`, nine retained surfaces observe an alternative or non-use field, and
 three retained surfaces observe verified remedy receipt or a defined outcome
 follow-up. A future pass must satisfy both gate fields before a new
 end-to-end finding is promoted.
@@ -133,4 +147,4 @@ valid negative result is one that shows which stages remain unavailable.
 python3 scripts/validate_broad_same_case_episode_availability.py
 ```
 
-The audit uses thirty-three committed local source surfaces and downloads nothing.
+The audit uses forty-one committed local source surfaces and downloads nothing.

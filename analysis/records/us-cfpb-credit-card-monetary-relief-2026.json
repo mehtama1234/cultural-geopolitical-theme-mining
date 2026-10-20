@@ -1,0 +1,48 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-credit-card-monetary-relief-2026",
+  "title": "Credit-card complaint routes can record monetary relief without showing consumer recovery",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "CFPB public complaint API credit-card cases with company response labels",
+  "geography": "United States; 15 states represented in the capped extract",
+  "observations": [
+    {
+      "period": "September 8–16, 2026 public complaint API retrieval",
+      "denominator": {
+        "value": 25,
+        "unit": "capped retrieval-order sample of published complaints routed to Credit card; required_sub_product=any",
+        "value_type": "administrative_case_count"
+      },
+      "measures": {
+        "company_response_closed_with_monetary_relief": {"value": 25, "unit": "cases", "value_type": "observed_administrative_label"},
+        "timely_company_response": {"value": 25, "unit": "cases marked timely=Yes", "value_type": "observed_administrative_label"},
+        "public_response_present": {"value": 15, "unit": "cases", "value_type": "observed_administrative_field"},
+        "public_response_absent": {"value": 10, "unit": "cases", "value_type": "observed_administrative_field"},
+        "submission_channel_web": {"value": 23, "unit": "cases", "value_type": "observed_administrative_field"},
+        "submission_channel_referral": {"value": 2, "unit": "cases", "value_type": "observed_administrative_field"},
+        "verified_consumer_recovery": {"value": "not observed", "unit": "missing payment amount, receipt, adequacy, account correction, repeat effort, trust, switching, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "A monetary-relief response label documents an institutional route and claimed remedy category, but not same-consumer receipt or repaired financial condition; absent public response fields also limit external visibility.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from a de-identified CFPB public complaint API ledger. Cases are retained as administrative route observations; the capped retrieval-order sample is not weighted or treated as a representative complaint or remedy rate.",
+      "uncertainty": "The public records do not identify the monetary amount, payment receipt, account correction, adequacy, customer effort after submission, or later household outcome. A company response label is not proof of full recovery, and public_response_present is not a measure of consumer satisfaction or accountability.",
+      "subgroup": "Published 2026 credit-card complaints in the capped extract; 15 states are represented, with no demographic, balance, lender, amount, or outcome subgroup supplied.",
+      "counterinterpretation": "The monetary-relief label may represent meaningful and timely recovery for some consumers, while the same administrative route can conceal uneven payment, unresolved account effects, or additional follow-up effort.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "sha256:ca343abee12c2e4fedb614d245824918e31bdc899eab4511edfb976cc8232be4",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes observed complaint-routing and company-response labels in a capped 25-case extract. It does not establish monetary amounts, verified consumer recovery, representative prevalence, lender liability, causal effects, account correction, trust change, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact de-identified event ledger derived from the CFPB public complaint API; direct identifiers, company names, ZIP codes, and narrative text are omitted.",
+    "checked": "2026-10-20"
+  }
+}

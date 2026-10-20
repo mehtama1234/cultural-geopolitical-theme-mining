@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-ukraine-uav-ew-joint-venture-intent-2026",
+  "title": "Lithuania and Ukraine turn drone and electronic-warfare cooperation into a planned joint venture before production is visible",
+  "theme_ids": ["work", "cost", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of Pekkla UAB and December One RND UAV/EW cooperation",
+  "geography": "Lithuania and Ukraine; Pekkla UAB and December One RND Ltd; planned Lithuanian joint venture",
+  "observations": [
+    {
+      "period": "October 15, 2026; Letter of Intent and planned-production announcement",
+      "denominator": {
+        "value": 1,
+        "unit": "named Lithuania–Ukraine UAV and electronic-warfare cooperation route",
+        "value_type": "official_cross_border_cooperation_count"
+      },
+      "measures": {
+        "cooperation_stage": {"value": "Pekkla UAB and Ukraine's December One RND Ltd signed a Letter of Intent on production and supply of electronic-warfare systems and UAV components", "unit": "reported cooperation commitment", "value_type": "ministry_reported_letter_of_intent"},
+        "planned_joint_venture": {"value": "the ministry reports an aim to establish a joint venture in Lithuania", "unit": "stated organizational objective", "value_type": "planned_joint_venture"},
+        "planned_production": {"value": 2027, "unit": "planned production start year", "value_type": "ministry_reported_target_year"},
+        "lithuanian_contribution": {"value": "Pekkla provides existing infrastructure, Lithuanian business contacts, regulation advice, and a commercial platform", "unit": "reported firm contribution", "value_type": "ministry_reported_contribution"},
+        "ukrainian_contribution": {"value": "December One RND contributes R&D insights, technical expertise, production capabilities, and product concepts for testing on the Lithuanian market", "unit": "reported firm contribution", "value_type": "ministry_reported_contribution"},
+        "realization_and_effect": {"value": "not observed", "unit": "missing binding joint-venture formation, ownership, financing, technology transfer, testing, certification, facility, production, customers, delivery, operational use, jobs, resilience, and public/local response", "value_type": "unmeasured"},
+        "mechanism": {"value": "A named Letter of Intent can create a cross-border pathway for technology and production localization, but planned joint-venture formation and a 2027 target are not realized production or capability.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Lithuanian Ministry of National Defence announcement. Letter of Intent, joint-venture objective, production target, firm contributions, and unmeasured realization and effects are coded as separate stages.",
+      "uncertainty": "The announcement does not establish binding joint-venture formation, ownership, financing, transfer completion, testing, certification, facility, output, customers, deliveries, actual jobs, supply substitution, operational use, or public acceptance.",
+      "subgroup": "Pekkla UAB, December One RND, Lithuanian and Ukrainian defense institutions, future workers and suppliers, potential Ukrainian and Lithuanian users, and local communities; no affected-person denominator is supplied.",
+      "counterinterpretation": "Cooperation may shorten logistics and transfer battlefield-relevant knowledge, while a Letter of Intent can remain nonbinding, face technical or regulatory failure, depend on external inputs, and produce no local output or jobs.",
+      "source_url": "https://kam.lt/en/lithuania-gains-ukraines-drone-production-technology-says-minister-r-kaunas/",
+      "retrieval_hash": "sha256:4c265f0c381259a7d1d003f901c145f47c2658fee8ad290dfd3d0fa9bdb35f2d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a reported Letter of Intent between Pekkla UAB and December One RND, a planned Lithuanian joint venture, and a stated 2027 production aim for UAV components and electronic-warfare systems. It does not establish binding formation, technology transfer, testing, production, delivery, operational use, realized resilience, jobs, or public legitimacy.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the Lithuanian Ministry of National Defence source; Letter-of-Intent terms, corporate records, production data, test results, and local-outcome data are not retained."
+  }
+}

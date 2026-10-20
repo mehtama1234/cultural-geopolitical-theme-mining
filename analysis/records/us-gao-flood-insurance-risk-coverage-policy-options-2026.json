@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-flood-insurance-risk-coverage-policy-options-2026",
+  "title": "Flood-risk disclosure and insurance rules can expose a coverage gap while purchase, affordability, and recovery remain open",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108012 review of flood insurance coverage and policy options",
+  "geography": "United States properties exposed to flood risk, including properties inside and outside FEMA special flood hazard areas",
+  "observations": [
+    {
+      "period": "April 2026 coverage data and October 1, 2026 GAO review",
+      "denominator": {
+        "value": 13000000,
+        "unit": "high-risk properties outside FEMA special flood hazard areas identified in GAO's analysis of First Street data",
+        "value_type": "reported_property_risk_cohort"
+      },
+      "measures": {
+        "high_risk_uninsured": {
+          "value": 86,
+          "unit": "percent of high-risk properties without National Flood Insurance Program coverage as of April 2026",
+          "value_type": "reported_coverage_share"
+        },
+        "nfip_policy_change": {
+          "value": "NFIP policies declined from 5.5 million in 2010 to 4.5 million in 2026; private policies accounted for 14 percent of all flood-insurance policies in 2025",
+          "unit": "reported market coverage change",
+          "value_type": "reported_market_measure"
+        },
+        "mandatory_purchase_signal": {
+          "value": "an estimated 43 percent of properties in FEMA special flood hazard areas had flood insurance compared with 2 percent outside those areas",
+          "unit": "reported coverage share by mapped-risk status",
+          "value_type": "reported_comparison"
+        },
+        "policy_options": {
+          "value": "incorporate all flood sources into purchase determinations, publish property-level risk information, require lender quotes and signed declinations before closing, increase and periodically adjust NFIP limits, provide means-based affordability assistance, and remove barriers to private coverage",
+          "unit": "identified congressional policy options",
+          "value_type": "reported_policy_options"
+        },
+        "open_congressional_actions": {
+          "value": 4,
+          "unit": "open matters for congressional consideration concerning risk criteria, property-level information, lender quotes/disclosures, and NFIP coverage limits",
+          "value_type": "open_recommendation_count"
+        },
+        "recovery_conversion": {
+          "value": "not measured",
+          "unit": "property-owner risk awareness, insurance quote, purchase, premium affordability, coverage adequacy, claim, rebuilding, household displacement, or recovery",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-108012, based on NFIP and private-market policy data, First Street property-risk analysis, stakeholder discussions, community visits, and policy-option review. Coverage, mapping, mandatory-purchase signal, options, open actions, and post-flood outcomes are retained as separate stages.",
+      "uncertainty": "Coverage estimates use distinct data sources and property universes; high-risk properties outside FEMA special flood hazard areas are not the same as all high-risk properties. Coverage shares do not establish why owners lack insurance, whether policies are affordable or adequate, or what happens after a flood.",
+      "subgroup": "Property owners and households in flood-prone communities, including owners with federally backed mortgages outside mapped special flood hazard areas and households with limited resources or incomplete risk information.",
+      "counterinterpretation": "Some properties may have private coverage, self-insurance, low perceived exposure, or geographic and underwriting constraints; expanding mandatory purchase or disclosure can improve information without guaranteeing affordable or adequate coverage or successful recovery.",
+      "source_url": "https://www.gao.gov/products/gao-27-108012",
+      "retrieval_hash": "sha256:6b2db1e057d230d2dc196b285f79e70bed95fbcb4b0384d2a573c10add544035",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108012/index.html",
+      "claim": "The official accessible report contains the coverage, mapping, market, stakeholder, and policy-option findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/blog/flood-risks-increase-most-americans-still-dont-have-insurance-it-interactive-map",
+      "claim": "The GAO companion map explains the high-risk coverage gap and NFIP/private insurance context.",
+      "status": "official-companion"
+    }
+  ],
+  "boundary": "This record advances a bounded flood exposure-to-mapping, insurance, and policy-option route. It does not establish property-level purchase, premium affordability, coverage adequacy, claim payment, rebuilding, household displacement, recovery, or community legitimacy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and companion map are retained for reproduction.",
+    "retrieval_hash": "sha256:6b2db1e057d230d2dc196b285f79e70bed95fbcb4b0384d2a573c10add544035",
+    "checked": "2026-10-20"
+  }
+}

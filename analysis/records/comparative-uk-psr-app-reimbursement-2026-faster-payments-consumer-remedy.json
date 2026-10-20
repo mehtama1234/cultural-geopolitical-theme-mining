@@ -1,0 +1,174 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-psr-app-reimbursement-2026-faster-payments-consumer-remedy",
+  "title": "UK APP-fraud reimbursement converts a payment-protection rule into measured claim, speed, and returned-money outcomes",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Payment Systems Regulator APP scams reimbursement dashboard for Q1 2026, using Pay.UK reporting under Specific Direction 20",
+  "geography": "United Kingdom; Faster Payments APP scams reported by consumers, including individuals, small businesses, and charities with annual income below £1 million",
+  "observations": [
+    {
+      "period": "7 October 2024-31 March 2026; first 18 months of the mandatory APP reimbursement requirement",
+      "denominator": {
+        "value": 438300,
+        "unit": "consumer-reported Faster Payments APP scam claims; 301500 were classified in scope for reimbursement",
+        "value_type": "reported_claim_count"
+      },
+      "measures": {
+        "claims_in_scope": {
+          "value": 301500,
+          "unit": "claims in scope for reimbursement",
+          "value_type": "reported_claim_count"
+        },
+        "money_lost_reimbursed": {
+          "value": 88,
+          "unit": "percent of money lost to in-scope APP scams; approximately £316 million returned to victims",
+          "value_type": "reported_reimbursement_share"
+        },
+        "claims_closed_within_five_business_days": {
+          "value": 82,
+          "unit": "percent of claims closed within five business days",
+          "value_type": "reported_resolution_share"
+        },
+        "claims_closed_within_thirty_five_business_days": {
+          "value": 98,
+          "unit": "percent of claims closed within 35 business days",
+          "value_type": "reported_resolution_share"
+        },
+        "insufficient_care_rejection_share": {
+          "value": 3,
+          "unit": "percent of claims rejected for insufficient customer care over the transaction or claim",
+          "value_type": "reported_rejection_share"
+        },
+        "mechanism": {
+          "value": "A mandatory reimbursement rule creates an observable institutional middle stage from reported scam loss to claim decision, returned money, and time-to-resolution, while leaving individual adequacy and later trust unobserved",
+          "unit": "bounded remedy-conversion mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "PSR dashboard using closed APP scam claims reported by sending firms to Pay.UK under Specific Direction 20; Faster Payments only, with claims reported and closed during the covered period.",
+      "uncertainty": "The aggregate series does not identify unique victims, individual payment amounts, partial versus full reimbursement, residual loss, household necessity, repeat scams, provider switching, trust, or durable recovery. PSR notes that data are supplied by sending firms, are not validated by receiving-firm data, and may be revised.",
+      "subgroup": "Consumers, small businesses, and charities below the stated income threshold using UK Faster Payments and reporting APP scams to payment firms.",
+      "counterinterpretation": "High aggregate reimbursement can coexist with uncompensated individuals, cap/excess effects, excluded claim types, delayed or inadequate recovery, and unobserved non-reporting. Closure speed includes both reimbursed and rejected claims.",
+      "source_url": "https://www.psr.org.uk/information-for-consumers/app-scams-reimbursement-dashboard/",
+      "retrieval_hash": "sha256:2cb122aa83bdfd2515e6df4d3416187c14c0ecc9dfda466ef3eb8862f2fde1c4",
+      "status": "reported"
+    },
+    {
+      "period": "Q1 2026; quarterly APP reimbursement and claim closure",
+      "denominator": {
+        "value": 86500,
+        "unit": "Faster Payments APP scam claims in scope of the Q1 2026 reporting window; approximately 58400 were reimbursable claims",
+        "value_type": "reported_claim_count"
+      },
+      "measures": {
+        "reimbursable_claims_closed": {
+          "value": 58400,
+          "unit": "approximately reimbursable claims closed in Q1 2026",
+          "value_type": "reported_claim_count"
+        },
+        "claim_value_reimbursed": {
+          "value": 89,
+          "unit": "percent of claim value reimbursed in Q1 2026; approximately £72.6 million",
+          "value_type": "reported_reimbursement_share"
+        },
+        "claims_closed_within_five_business_days": {
+          "value": 82,
+          "unit": "percent of Q1 2026 claims resolved within five business days",
+          "value_type": "reported_resolution_share"
+        },
+        "insufficient_care_rejections": {
+          "value": 1700,
+          "unit": "approximately claims rejected for insufficient consumer caution; about 2 percent of Q1 2026 claims",
+          "value_type": "reported_rejection_count"
+        },
+        "reimbursement_calculation_boundary": {
+          "value": "The PSR denominator includes some value below the £100 excess, above the £85,000 maximum, and transactions rejected within mixed claims; the numerator can include reimbursements above the maximum",
+          "unit": "published calculation note",
+          "value_type": "reported_measurement_boundary"
+        },
+        "mechanism": {
+          "value": "The quarterly dashboard shows reimbursement remaining high while claim volume and decision speed can be monitored separately; aggregate speed is not the same as adequacy or restored household room",
+          "unit": "bounded quarterly remedy mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "PSR quarterly dashboard summary for 1 April 2025-31 March 2026 data, with Q1 2026 claims and reimbursement measures reported from Pay.UK compliance data.",
+      "uncertainty": "Q1 figures are aggregate and subject to PSR revision; the reported reimbursement calculation includes specified non-reimbursable values in the denominator and may include reimbursements above the cap in the numerator. It is not a person-level panel or an outcome of open-banking payments specifically.",
+      "subgroup": "UK Faster Payments APP scam claimants whose cases were reported to and closed by payment firms in Q1 2026.",
+      "counterinterpretation": "Quarterly reimbursement can vary by scam mix, claim composition, seasonality, policy eligibility, and reporting behavior; low rejection for insufficient caution does not establish fair treatment in excluded or unresolved cases.",
+      "source_url": "https://www.psr.org.uk/information-for-consumers/app-scams-reimbursement-dashboard/",
+      "retrieval_hash": "sha256:2cb122aa83bdfd2515e6df4d3416187c14c0ecc9dfda466ef3eb8862f2fde1c4",
+      "status": "reported"
+    },
+    {
+      "period": "October 2024-June 2025; inter-firm Reimbursable Contribution Amount (RCA) compliance",
+      "denominator": {
+        "value": 74000000,
+        "unit": "pounds reimbursed to sending firms through RCA contributions during the period; receiving-firm payment-timing denominator is firm-level, not victim-level",
+        "value_type": "reported_amount"
+      },
+      "measures": {
+        "rca_share_of_reimbursement_cost": {
+          "value": 50,
+          "unit": "percent share of reimbursement cost that the receiving bank must pay to the sending bank",
+          "value_type": "reported_policy_share"
+        },
+        "rca_paid_within_five_days": {
+          "value": 67,
+          "unit": "percent of receiving firms paying the reimbursement contribution within the five-day limit",
+          "value_type": "reported_compliance_share"
+        },
+        "claims_closed_within_thirty_five_days_one_year": {
+          "value": 97,
+          "unit": "percent of closed claims within 35 business days where firms used the full timescale",
+          "value_type": "reported_resolution_share"
+        },
+        "accurate_data_submitted_on_time": {
+          "value": 95,
+          "unit": "percent of firms submitting accurate data on time",
+          "value_type": "reported_reporting_share"
+        },
+        "mechanism": {
+          "value": "Victim reimbursement can appear high while the inter-firm cost-sharing and reporting layer remains partially late, difficult to reconcile, or under investigation; receiving-firm compliance is an incentive and implementation stage, not victim receipt",
+          "unit": "bounded inter-firm remedy mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "PSR one-year supervisory and compliance-monitoring account using firm data submitted to Pay.UK; RCA payment timing is reported at receiving-firm level and is distinct from consumer reimbursement.",
+      "uncertainty": "PSR reports possible late payment, non-payment, reconciliation, and reference-number problems but does not identify firms, individual cases, residual victim loss, or whether delayed RCA payments delayed consumer reimbursement. The closed-claim data exclude complex cases that take longer to resolve.",
+      "subgroup": "UK payment service providers participating in the APP reimbursement regime, with sending and receiving firms occupying distinct roles.",
+      "counterinterpretation": "A 67% on-time RCA share may reflect administrative reconciliation or reporting problems rather than deliberate non-payment; conversely, high consumer reimbursement can coexist with weak inter-firm compliance and unresolved accountability.",
+      "source_url": "https://www.psr.org.uk/news-and-updates/thought-pieces/thought-pieces/one-year-on-delivering-fair-outcomes-through-our-app-scam-reimbursement-regime/",
+      "retrieval_hash": "sha256:dd827c56d9955196eaad18e511abd026521c9279d5bdac7931330fa47598c9eb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.psr.org.uk/our-work/app-scams/",
+      "claim": "PSR policy and scope context for APP scams and reimbursement.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.fca.org.uk/consumers/fraudulent-payments",
+      "claim": "Consumer-facing explanation of Faster Payments and CHAPS reimbursement rules.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds observed consumer-reimbursement and inter-firm RCA-compliance stages to the UK digital-payment and consumer-recourse lanes. It covers Faster Payments APP scams broadly, not open-banking payments specifically. It does not establish individual payment receipt, adequacy, residual loss, repeat exposure, trust, switching, non-use, or durable household recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official PSR HTML dashboard reviewed for the 18-month aggregate, Q1 2026 reimbursement, claim counts, closure speed, rejection, scope, and calculation notes; official PSR one-year compliance account reviewed for RCA contribution timing, reporting accuracy, and 35-day closure limits.",
+    "source_url_sha256": "sha256:2cb122aa83bdfd2515e6df4d3416187c14c0ecc9dfda466ef3eb8862f2fde1c4",
+    "checked": "2026-10-19"
+  }
+}

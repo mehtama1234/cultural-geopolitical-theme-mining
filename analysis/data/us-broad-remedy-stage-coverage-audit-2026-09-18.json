@@ -1,28 +1,30 @@
 {
   "schema": "us-broad-remedy-stage-coverage-audit-v1",
-  "checked": "2026-09-19",
+  "checked": "2026-10-19",
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Audit explicit remedy-stage and durability fields across the committed broad event-ledger portfolio without inferring stages from generic response text.",
   "portfolio": {
-    "ledgers": 98,
-    "events": 302,
-    "events_with_explicit_remedy_stage": 85,
-    "events_without_explicit_remedy_stage": 217,
-    "ledgers_with_explicit_remedy_stage": 48,
+    "ledgers": 103,
+    "events": 317,
+    "events_with_explicit_remedy_stage": 92,
+    "events_without_explicit_remedy_stage": 225,
+    "ledgers_with_explicit_remedy_stage": 53,
     "ledgers_without_explicit_remedy_stage": 50
   },
   "stage_counts": {
-    "remedy_offered": 8,
-    "remedy_ordered": 18,
-    "remedy_implemented": 23,
-    "remedy_reported_received": 34,
+    "remedy_offered": 9,
+    "remedy_ordered": 19,
+    "remedy_implemented": 24,
+    "remedy_reported_received": 38,
     "remedy_verified_received": 0,
     "durability_failed": 1,
     "durability_verified": 0,
     "outcome_followup": 0,
-    "unknown_or_not_recorded": 217
+    "unknown_or_not_recorded": 225
   },
   "explicit_stage_rows": [
+    {"event_id": "FTC-WALMART-WIRE-REFUND-2026-10-15", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-customer-automation-recourse/data/ftc-walmart-wire-transfer-refund-dispatch-event-ledger-v1.json"},
+    {"event_id": "FTC-CLEO-AI-REFUND-2026-10-08", "remedy_stage": "remedy_offered", "ledger": "analysis/projects/us-customer-automation-recourse/data/ftc-cleo-ai-refund-planned-payment-event-ledger-v1.json"},
     {"event_id": "CFPB-BRIGHTSPEED-DISTRIBUTION-2024-07-23", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"},
     {"event_id": "CFPB-NAVIENT-CHECK-ROUTE-2026-02-13", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"},
     {"event_id": "CFPB-ADSS-CLOSED-DISTRIBUTION-2016-06-02", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"},
@@ -108,7 +110,12 @@
     ,{"event_id": "CA-LA-WILDFIRE-FEMA-CONTINUED-HOUSING-2026", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-repeat-energy-crises/data/california-la-wildfire-recovery-persistence-event-ledger-v1.json"}
     ,{"event_id": "CA-LA-WILDFIRE-CALASSIST-MORTGAGE-BRIDGE-2026", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-repeat-energy-crises/data/california-la-wildfire-recovery-persistence-event-ledger-v1.json"}
     ,{"event_id": "DOL-WOW-ELECTRONIC-PAYMENT-TRANSITION-2025-10-01", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/dol-workers-owed-wages-reachability-event-ledger-v1.json"}
+    ,{"event_id": "CT-SNAP-EBT-REPLACEMENT-PARTIAL-REMEDY-2023", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-safety-net-access/data/us-connecticut-snap-ebt-replacement-partial-remedy-event-ledger-v1.json"}
+    ,{"event_id": "FWO-LONGRIDGE-MOORE-PAYMENT-2013-05-02", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/fwo-longridge-underpayment-alternative-employment-backpay-event-ledger-v1.json"}
+    ,{"event_id": "FWO-LONGRIDGE-WARE-PAYMENT-2014-10-01", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/fwo-longridge-underpayment-alternative-employment-backpay-event-ledger-v1.json"}
+    ,{"event_id": "CFPB-BILT-REMEDIATION-CLOSURE-2026", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-bilt-bank-partner-transition-event-ledger-v1.json"}
+    ,{"event_id": "CT-SNAP-EBT-REPLACEMENT-CORRECTION-2024", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/us-safety-net-access/data/us-connecticut-snap-ebt-replacement-correction-event-ledger-v1.json"}
   ],
-  "interpretation": "The vocabulary is now applied across the 85-event-explicit-remedy portfolio within the 98-ledger, 302-event portfolio, but explicit remedy-stage coverage remains sparse. A program-level implementation, reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",
+  "interpretation": "The vocabulary is now applied across the 92-event-explicit-remedy portfolio within the 103-ledger, 317-event portfolio, but explicit remedy-stage coverage remains sparse. A program-level implementation, reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",
   "next_action": "Add explicit remedy_stage, remedy_receipt, and durability_followup fields when a ledger is next touched or a new source is promoted; prioritize recipient-level receipt, protected outcome, repeat-harm, and later use/switch/trust follow-up before expanding another generic response ledger."
 }

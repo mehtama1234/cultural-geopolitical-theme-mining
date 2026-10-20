@@ -285,6 +285,35 @@
       "evidence_status": "reported",
       "source_and_uncertainty": "Dominion Energy project page reports the timeline; utility-reported completion and energization are not independent telemetry or household-outcome verification",
       "source_url": "https://www.dominionenergy.com/about/delivering-energy/electric-projects/power-line-projects/wishingstar-mars"
+    },
+    {
+      "event_id": "VIRGINIA-LARGE-LOAD-CONNECTION-QUEUE-2026-02-02",
+      "unit": "project",
+      "geography": "United States; Dominion Energy Virginia DOM Zone large-load connection queue",
+      "actor_initiating_change": "firm",
+      "event_date": "2026-02-02",
+      "date_precision": "Dominion application filed February 2, 2026; queue requests and projected connection dates are as of December 31, 2025",
+      "denominator": "Approximately 70,000 MW of large-load delivery-point requests: 25,000 MW with projected connection dates through December 31, 2031 and 45,000 MW in additional batches under study; not energized load or a facility roster",
+      "method": "Structured extraction from Dominion's official SCC application and Schedule 1 large-load connection queue process standards in PUR-2026-00011",
+      "missingness": "No named facility/project key, customer contract, site-level queue position, energization, metered use, payment, collateral, tax remittance, household service effect, local acceptance, or external response is retained",
+      "condition_or_decision": "infrastructure",
+      "exposure": "Dominion reports approximately 70,000 MW of large-load requests advancing through its queue, nearly triple the DOM Zone's 24,678 MW all-time peak, with about ten new requests per month representing 2,000–3,000 MW",
+      "alternatives_before_action": "Requests may vary by site, voltage, timing, staging, readiness, and interconnection solution; the application does not identify customer-level alternatives or whether projects remain viable",
+      "immediate_burden_or_benefit": "A formal queue creates planning and sequencing capacity for large-load connections while exposing the utility and existing customers to forecast, stranded-investment, reliability, and affordability risk; realized incidence is not observed",
+      "choice_or_response": "Dominion proposed four stages—Project Initiation, Project Feasibility, Project Development, and Project Execution—with batch placement, feasibility reports, letter agreements, permits, engineering, construction, and eventual energization requirements",
+      "person_or_actor_with_control": "Dominion controls queue administration and transmission planning subject to SCC approval; electric distribution companies submit requests and customer information; the SCC controls approval; large-load customers and existing ratepayers have no linked outcome record",
+      "remedy_or_institutional_response": "The SCC-directed application creates a transparent queue and staged connection process intended to align energization with system availability, reliability, and affordability; no project-specific remedy or payment is observed",
+      "immediate_outcome": "A named utility's large-load pipeline and staged operating-governance process are publicly documented",
+      "protected_outcome": "The process may protect reliability, affordability, and prudent investment by sequencing requests and requiring readiness evidence; no realized protection is established",
+      "sacrificed_outcome": "Queue delay, development cost, stranded investment, ratepayer exposure, land, or local service risk may be distributed across firms, utilities, customers, and communities; no project-level sacrifice is measured",
+      "cost_risk_transfer": "The proposed process attempts to reduce stranded-investment and system-constraint risk while assigning information, readiness, and development obligations to requestors; actual payment or risk transfer is not observed",
+      "later_outcome": "No individual request's feasibility, development, execution, energization, metered use, payment, household effect, acceptance, or external dependence is followed",
+      "meaning_and_attribution": "The application frames reliability and affordability as public-system objectives; no customer, resident, worker, or firm-level fairness, attribution, trust, or legitimacy judgment is linked",
+      "public_or_collective_response": "The SCC proceeding and participant filings create a public governance route; participant-specific influence, public response, political action, and later contestation are not linked",
+      "counterexample": "A 70,000-MW queue can represent requests that are delayed, resized, cancelled, or never energized; queue volume is not realized demand, payment, reliability benefit, or household burden",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Dominion application filed with the Virginia SCC in PUR-2026-00011; utility-reported queue totals and proposed standards are not independent project telemetry or evidence of customer payment, energization, or household incidence",
+      "source_url": "https://www.scc.virginia.gov/docketsearch/DOCS/8%40%23101%21.PDF"
     }
   ],
   "arrows": [
@@ -408,6 +437,39 @@
       "status": "reported",
       "counterexample": "This is a related project comparator, not evidence that Golden–Mars reached construction or operation",
       "remaining_gap": "Independent operational performance, delivered capacity, large-load utilization, cost incidence, household/service effects, and public acceptance"
+    },
+    {
+      "arrow_id": "VIRGINIA-LARGE-LOAD-A-12",
+      "from": "large-load connection requests",
+      "to": "staged queue and projected energization sequence",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "Dominion reports approximately 70,000 MW of requests advancing through a queue; the proposed standards define Project Initiation, Feasibility, Development, and Execution, with Project Execution ending in construction and energization",
+      "status": "reported",
+      "counterexample": "Queue totals and process stages do not establish that any particular request will reach energization or that projected dates will hold",
+      "remaining_gap": "Named request, batch position, feasibility decision, letter agreement, permits, construction, energization, and metered operation"
+    },
+    {
+      "arrow_id": "VIRGINIA-LARGE-LOAD-A-13",
+      "from": "staged connection process",
+      "to": "reliability, affordability, payment, and household incidence",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The application states that the process is intended to protect reliability and affordability and avoid stranded investment, but reports no facility payment, collateral, tax remittance, household bill, or reliability outcome",
+      "status": "open",
+      "counterexample": "A transparent queue can improve planning while projects are cancelled, delayed, or shifted onto other customers; a projected connection is not a realized public benefit",
+      "remaining_gap": "Facility-level operation, minimum-charge payment, collateral, tax, feeder/reliability effect, bill posting, net household burden, and local response"
+    },
+    {
+      "arrow_id": "VIRGINIA-LARGE-LOAD-A-14",
+      "from": "named operator participation and queue governance",
+      "to": "public acceptance, contestation, or external dependence response",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The proceeding contains named operator participation and a public approval route, but no later facility-level acceptance, contestation, switching, replacement, or external response is linked",
+      "status": "open",
+      "counterexample": "Participation in a regulatory docket can reflect commercial protection or procedural interest rather than public legitimacy or realized infrastructure dependence",
+      "remaining_gap": "Facility/project identity, local exposure, decision influence, acceptance or conflict, replacement, and external behavior"
     }
   ],
   "boundary": "This ledger formalizes a Virginia infrastructure-governance sequence from utility-reported large-load operational stress through state rate-class and projected allocation responses. It does not establish household bill incidence, net local benefit, resident legitimacy, practical exit, or geopolitical leverage.",

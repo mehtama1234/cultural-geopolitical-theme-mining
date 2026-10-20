@@ -130,6 +130,112 @@
       "source_url": "https://lacounty.gov/2026/06/08/la-county-deo-and-laedc-release-latest-economic-update-on-the-2025-wildfire-recovery/",
       "retrieval_hash": "sha256:fd0ec99af3a7a6cfc216e295da44a4f0e66c313ed93cd14950615232eb6afb75",
       "status": "reported"
+    },
+    {
+      "period": "Dashboard model refreshed October 19, 2026 at 16:40:54.227 UTC; fire-area aggregate query retrieved October 20, 2026 UTC",
+      "denominator": {"value": 2, "unit": "Eaton Fire and Palisades Fire dashboard area rows", "value_type": "dashboard_fire_area_rows"},
+      "measures": {
+        "eaton_fire_stage_counts": {
+          "value": {"rebuild_applications_received": 3836, "rebuild_applications_zoning_reviews_cleared": 3596, "rebuild_permits_issued": 3815, "rebuild_in_construction": 2355, "rebuild_construction_completed": 232, "self_certification_received": 224, "self_certification_issued": 148, "temporary_housing_applications_received": 164, "temporary_housing_approved": 95, "temporary_housing_units_setup": 13, "unique_parcels_with_building_permits_in_progress": 3269, "unique_parcels_with_building_permits_issued": 2469},
+          "unit": "aggregate dashboard counts for the Eaton Fire area",
+          "value_type": "published_dashboard_measure_set"
+        },
+        "palisades_fire_stage_counts": {
+          "value": {"rebuild_applications_received": 290, "rebuild_applications_zoning_reviews_cleared": 275, "rebuild_permits_issued": 152, "rebuild_in_construction": 96, "rebuild_construction_completed": 2, "self_certification_received": 6, "self_certification_issued": 2, "temporary_housing_applications_received": 19, "temporary_housing_approved": 11, "temporary_housing_units_setup": 10, "unique_parcels_with_building_permits_in_progress": 229, "unique_parcels_with_building_permits_issued": 145},
+          "unit": "aggregate dashboard counts for the Palisades Fire area",
+          "value_type": "published_dashboard_measure_set"
+        }
+      },
+      "method": "Aggregate-only Power BI query grouped by Fire_Area and Query_Type against the public semantic model; no address, permit number, claimant, or household rows were extracted.",
+      "uncertainty": "The dashboard categories have different denominators and timing. Counts cannot be chained into a completion rate, and construction completion is not occupancy, safe return, insurance payment, or household recovery. Self-certification and temporary-housing counts are administrative stages, not verified use or receipt.",
+      "subgroup": "Eaton Fire and Palisades Fire dashboard areas.",
+      "counterinterpretation": "The October refresh materially changes some aggregate counts and may reflect revisions, workflow timing, or category-definition changes rather than only new activity; comparison with September values requires the model's revision history and unchanged definitions.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "sha256:0d3b8a8ddab2ce9f740f292c1150632974488ebeaf675d0f57d1de05a0fdeb88",
+      "status": "reported"
+    },
+    {
+      "period": "Dashboard model refreshed October 19, 2026; construction-stage aggregate query grouped by fire area retrieved October 20, 2026 UTC",
+      "denominator": {"value": 12, "unit": "fire-area construction-stage rows with non-null stage labels", "value_type": "dashboard_stage_rows"},
+      "measures": {
+        "eaton_fire_construction_stages": {
+          "value": {"Early Inspection - Location/Setbacks": 648, "Exterior Lath, Insulation, Drywall": 342, "Exterior Utilities Connections": 21, "Final Inspection": 22, "Framing": 436, "Permit Finaled / Ready for Certificate of Occupancy to be Issued": 218, "Pre-Construction": 62},
+          "unit": "aggregate construction-stage records",
+          "value_type": "published_dashboard_measure_set"
+        },
+        "palisades_fire_construction_stages": {
+          "value": {"Early Inspection - Location/Setbacks": 20, "Exterior Lath, Insulation, Drywall": 10, "Final Inspection": 1, "Framing": 19, "Permit Finaled / Ready for Certificate of Occupancy to be Issued": 2, "Pre-Construction": 7},
+          "unit": "aggregate construction-stage records",
+          "value_type": "published_dashboard_measure_set"
+        }
+      },
+      "method": "Aggregate-only Power BI query grouped by Fire_Area and construction Stages against the public semantic model; no address, permit number, claimant, or household rows were extracted.",
+      "uncertainty": "The stage rows are workflow records, not necessarily unique properties or households. A permit finaled or ready for a certificate is not proof that a certificate was issued, that a home is occupied, or that the original household returned.",
+      "subgroup": "Eaton Fire and Palisades Fire dashboard areas.",
+      "counterinterpretation": "Stage differences may reflect fire-area scale, damage mix, permitting timing, construction capacity, or reporting revisions; they should not be interpreted as comparative recovery rates without stable denominators.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "sha256:9ae2b6e3182b0ab0d62e3b57474dfd7aad37d5c56776c337c74d1f7878d21eef",
+      "status": "reported"
+    },
+    {
+      "period": "Dashboard model refreshed October 19, 2026; county-review turnaround measure queried by fire area October 20, 2026 UTC",
+      "denominator": {"value": 2, "unit": "fire-area rows in the dashboard's average-turnaround measure", "value_type": "dashboard_measure_rows"},
+      "measures": {
+        "eaton_fire_average_turnaround": {"value": 67.5, "unit": "business days from permit applied to issued; dashboard row count 135", "value_type": "published_dashboard_measure"},
+        "palisades_fire_average_turnaround": {"value": 92.5, "unit": "business days from permit applied to issued; dashboard row count 185", "value_type": "published_dashboard_measure"}
+      },
+      "method": "Aggregate-only Power BI query selected Fire_Area, Query_Type, Count, and the published Days to Permit Issuance measure; no address, permit number, claimant, or household rows were extracted.",
+      "uncertainty": "The measure is administrative workflow time for the dashboard's defined row universe, not household displacement time, contractor time, insurance delay, or time to safe occupancy. Fire-area differences may reflect project mix and selection.",
+      "subgroup": "Eaton Fire and Palisades Fire dashboard areas; both rows were labeled Average Turnaround from Permit Applied to Issued.",
+      "counterinterpretation": "A shorter average review-to-issuance interval can coexist with slower household recovery if financing, insurance, construction, inspection, or occupancy stages remain unresolved.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "sha256:602505cddcec52379b8e5e669ed259b8d471ad88f937ad9a861c53a974ce1dbd",
+      "status": "reported"
+    },
+    {
+      "period": "Dashboard model refreshed October 19, 2026; One-Stop Center visit totals queried by fire area October 20, 2026 UTC",
+      "denominator": {"value": 2, "unit": "fire-area rows in the dashboard's One-Stop Center Visits table", "value_type": "dashboard_area_rows"},
+      "measures": {
+        "eaton_fire_one_stop_center_visits": {"value": 32336, "unit": "summed dashboard visit-count field", "value_type": "published_dashboard_measure"},
+        "palisades_fire_one_stop_center_visits": {"value": 789, "unit": "summed dashboard visit-count field", "value_type": "published_dashboard_measure"}
+      },
+      "method": "Aggregate-only Power BI query grouped by Fire_Area and summed the published Count field; no check-in date, address, person, claimant, or household row was extracted.",
+      "uncertainty": "A visit count is an encounter measure, not a unique visitor count, completed application, permit, refund, or household outcome. Repeat visits, service type, date coverage, and missing or suppressed encounters are not identified by this aggregate query.",
+      "subgroup": "Eaton Fire and Palisades Fire One-Stop Center dashboard areas.",
+      "counterinterpretation": "Higher visit volume may reflect greater need, larger affected population, service availability, repeat navigation burden, or different reporting coverage; it is not direct evidence of better or worse recovery.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "sha256:541dae58b3e299a0bf17a2e6b7886e4c6dbb0b44a6b546c5349891134672fc8b",
+      "status": "reported"
+    },
+    {
+      "period": "January 2025 through October 2026; One-Stop Center visits aggregated to calendar month by fire area from filtered public dashboard queries retrieved October 20, 2026 UTC",
+      "denominator": {"value": 33, "unit": "fire-area-month rows with reported visit counts: 20 Eaton months and 13 Palisades months", "value_type": "dashboard_month_rows"},
+      "measures": {
+        "eaton_fire_monthly_visits": {"value": {"2025-03": 1145, "2025-04": 1441, "2025-05": 1490, "2025-06": 1418, "2025-07": 1123, "2025-08": 1116, "2025-09": 1398, "2025-10": 1551, "2025-11": 1116, "2025-12": 1510, "2026-01": 1681, "2026-02": 1969, "2026-03": 2112, "2026-04": 2094, "2026-05": 2068, "2026-06": 2085, "2026-07": 2101, "2026-08": 1814, "2026-09": 1980, "2026-10": 1124}, "unit": "summed visit-count field by calendar month", "value_type": "published_dashboard_measure_set"},
+        "palisades_fire_monthly_visits": {"value": {"2025-01": 179, "2025-02": 233, "2025-03": 246, "2025-04": 37, "2025-05": 24, "2025-06": 24, "2025-07": 11, "2025-08": 12, "2025-09": 9, "2025-10": 2, "2025-11": 7, "2025-12": 3, "2026-01": 2}, "unit": "summed visit-count field by calendar month", "value_type": "published_dashboard_measure_set"}
+      },
+      "method": "Two fire-area-filtered Power BI queries selected Check_In_Date and summed Count, then grouped the returned daily aggregates by UTC calendar month. Eaton returned 406 daily rows and Palisades 109 daily rows; totals reconcile to 32,336 and 789 respectively. No person, address, or household fields were extracted.",
+      "uncertainty": "The monthly totals describe reported encounters, not unique visitors, service type, completed applications, or household outcomes. October 2026 is partial through the dashboard's latest available date, and zero or absent months may reflect no reported visits or data coverage rather than no need.",
+      "subgroup": "Eaton Fire and Palisades Fire One-Stop Center dashboard areas, separated by month.",
+      "counterinterpretation": "Eaton's sustained monthly volume and Palisades' lower later volume may reflect population scale, service routing, repeat navigation, differing center coverage, or fire-area reporting practices; the series cannot identify burden or successful recovery.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "sha256:be485ddc7f14c589c4ff3bb22bddc882fdeece3a06ecccb07ab89df6479e8dc2;sha256:a6e93f89203e84c836eff78a431b3ecdf5c4244826c67b9052685f791308b019",
+      "status": "reported"
+    },
+    {
+      "period": "April 2024 through September 2026; monthly applications, issued permits, and completed projects by fire area queried October 20, 2026 UTC",
+      "denominator": {"value": 43, "unit": "fire-area-month rows in the dashboard's Applications, Issuance and Completions table", "value_type": "dashboard_month_rows"},
+      "measures": {
+        "eaton_monthly_pipeline": {"value": {"2024-04": {"applications": null, "issued_permits": 1, "completed": 0}, "2025-01": {"applications": 6, "issued_permits": 0, "completed": 0}, "2025-02": {"applications": 36, "issued_permits": 3, "completed": 0}, "2025-03": {"applications": 91, "issued_permits": 0, "completed": 0}, "2025-04": {"applications": 199, "issued_permits": 6, "completed": 0}, "2025-05": {"applications": 248, "issued_permits": 16, "completed": 0}, "2025-06": {"applications": 274, "issued_permits": 38, "completed": 0}, "2025-07": {"applications": 370, "issued_permits": 70, "completed": 1}, "2025-08": {"applications": 319, "issued_permits": 131, "completed": 0}, "2025-09": {"applications": 264, "issued_permits": 188, "completed": 0}, "2025-10": {"applications": 281, "issued_permits": 225, "completed": 0}, "2025-11": {"applications": 229, "issued_permits": 200, "completed": 3}, "2025-12": {"applications": 247, "issued_permits": 200, "completed": 3}, "2026-01": {"applications": 167, "issued_permits": 278, "completed": 3}, "2026-02": {"applications": 166, "issued_permits": 281, "completed": 3}, "2026-03": {"applications": 135, "issued_permits": 384, "completed": 15}, "2026-04": {"applications": 142, "issued_permits": 348, "completed": 14}, "2026-05": {"applications": 103, "issued_permits": 280, "completed": 30}, "2026-06": {"applications": 156, "issued_permits": 296, "completed": 25}, "2026-07": {"applications": 112, "issued_permits": 319, "completed": 37}, "2026-08": {"applications": 98, "issued_permits": 243, "completed": 35}, "2026-09": {"applications": 90, "issued_permits": 210, "completed": 52}}, "unit": "published monthly dashboard counts; categories are not a common-denominator funnel", "value_type": "published_dashboard_measure_set"},
+        "palisades_monthly_pipeline": {"value": {"2025-01": {"applications": 4, "issued_permits": 0, "completed": 0}, "2025-02": {"applications": 10, "issued_permits": 2, "completed": 0}, "2025-03": {"applications": 13, "issued_permits": 0, "completed": 0}, "2025-04": {"applications": 16, "issued_permits": 4, "completed": 0}, "2025-05": {"applications": 11, "issued_permits": 3, "completed": 0}, "2025-06": {"applications": 20, "issued_permits": 1, "completed": 0}, "2025-07": {"applications": 25, "issued_permits": 3, "completed": 0}, "2025-08": {"applications": 23, "issued_permits": 2, "completed": 0}, "2025-09": {"applications": 25, "issued_permits": 2, "completed": 0}, "2025-10": {"applications": 18, "issued_permits": 8, "completed": 0}, "2025-11": {"applications": 13, "issued_permits": 4, "completed": 0}, "2025-12": {"applications": 22, "issued_permits": 7, "completed": 0}, "2026-01": {"applications": 9, "issued_permits": 10, "completed": 0}, "2026-02": {"applications": 12, "issued_permits": 10, "completed": 1}, "2026-03": {"applications": 18, "issued_permits": 20, "completed": 0}, "2026-04": {"applications": 5, "issued_permits": 10, "completed": 0}, "2026-05": {"applications": 13, "issued_permits": 8, "completed": 1}, "2026-06": {"applications": 5, "issued_permits": 17, "completed": 0}, "2026-07": {"applications": 11, "issued_permits": 8, "completed": 0}, "2026-08": {"applications": 7, "issued_permits": 14, "completed": 0}, "2026-09": {"applications": 8, "issued_permits": 15, "completed": 0}}, "unit": "published monthly dashboard counts; categories are not a common-denominator funnel", "value_type": "published_dashboard_measure_set"}
+      },
+      "method": "Aggregate-only Power BI query selected FireArea, YearMonth, Actual_Applications, Issued_Permits, and Actual_Completed; no address, permit number, claimant, or household rows were extracted.",
+      "uncertainty": "The table contains different administrative measures with different universes and timing. Applications, issuances, and completions must not be divided or chained into a completion rate; the 2024-04 Eaton row has a missing applications value, and the data include historical/pre-fire rows.",
+      "subgroup": "Eaton and Palisades fire-area monthly administrative pipeline rows.",
+      "counterinterpretation": "Rising issued or completed counts may reflect workflow maturation, backlog release, project mix, reporting revision, or inspection timing rather than a comparable increase in household recovery.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "sha256:ea60d52e03cf966fcb645c1a57e1df5a356a284730debb18d5cab21e96cb5597",
+      "status": "reported"
     }
   ],
   "related_sources": [

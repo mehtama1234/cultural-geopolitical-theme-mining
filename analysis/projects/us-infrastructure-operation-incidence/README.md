@@ -32,6 +32,9 @@ allocation, and New York congestion pricing. It finds that operation and
 governance response are visible earlier than household incidence, replacement,
 or durable acceptance.
 
+The [infrastructure operation-to-incidence acquisition gate](infrastructure-operation-incidence-acquisition-gate-2026-10-19.md)
+records the bounded follow-up audit and the stopping rule for these routes.
+
 ## Next test
 
 The next qualifying record is an identifier-bearing facility, route, customer

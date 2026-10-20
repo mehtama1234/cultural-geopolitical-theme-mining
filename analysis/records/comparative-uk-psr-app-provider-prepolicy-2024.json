@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-psr-app-provider-prepolicy-2024",
+  "title": "Before mandatory APP reimbursement, reported loss reimbursement varied sharply across UK banking groups",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Payment Systems Regulator 2024 APP scam performance report for transactions before the mandatory reimbursement requirement",
+  "geography": "United Kingdom; customers of the 14 largest banking groups using Faster Payments",
+  "observations": [
+    {
+      "period": "Transactions before 7 October 2024; cases closed in 2024",
+      "denominator": {
+        "value": 14,
+        "unit": "UK banking groups in the PSR reported provider comparison",
+        "value_type": "reported_provider_comparison"
+      },
+      "measures": {
+        "reported_loss_reimbursement_by_value": {
+          "value": "Nationwide 85%; TSB 80%; Barclays 77%; NatWest/RBS/Ulster 75%; Santander 73%; Metro Bank 70%; HSBC/First Direct 68%; Clydesdale/Virgin Money 67%; Co-operative Bank 62%; Starling 55%; Lloyds/Bank of Scotland/Halifax 49%; AIB 31%; Monzo 25%; Danske Bank 24%",
+          "unit": "percent of reported APP scam losses refunded by value, provider-group comparison",
+          "value_type": "reported_provider_rates"
+        },
+        "overall_reimbursement": {
+          "value": 60,
+          "unit": "percent of reported APP scam loss value reimbursed across the comparison",
+          "value_type": "reported_aggregate_rate"
+        },
+        "provider_spread": {
+          "value": 61,
+          "unit": "percentage-point gap between the highest and lowest reported provider rates",
+          "value_type": "derived_provider_spread"
+        },
+        "mandatory_rule_status": {
+          "value": "The comparison predates the mandatory APP reimbursement requirement that began on 7 October 2024",
+          "unit": "policy timing boundary",
+          "value_type": "reported_policy_boundary"
+        },
+        "individual_receipt_and_adequacy": {
+          "value": "not observed",
+          "unit": "missing unique victims, individual payment amounts, residual loss, claim effort, household consequence, trust, switching, and later recovery",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Transcription of the PSR provider-comparison chart for transactions before 7 October 2024 and cases closed in 2024; provider groups are retained as reported and are not treated as causal firm effects.",
+      "uncertainty": "The source is a provider-level administrative comparison, not a randomized design or person-level panel. Firm mixes, scam types, reporting, claim eligibility, case composition, and reimbursement definitions may differ; the pre-policy rates cannot be mechanically compared with the later dashboard's post-policy denominator.",
+      "subgroup": "Customers reporting APP scam losses to the 14 largest banking groups; the comparison does not represent all UK payment firms or all scam victims.",
+      "counterinterpretation": "Provider variation may reflect customer mix, scam composition, investigation practice, policy interpretation, or receiving-firm dynamics rather than a simple difference in fairness or willingness to reimburse.",
+      "source_url": "https://www.psr.org.uk/media/b50p3mlm/psr-2024-app-scam-performance-data-february-2026.pdf",
+      "retrieval_hash": "sha256:90ebad962aa15997d42e2c2459cdeaabb6389cfdb5a14baa155b64b052f9ab03",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds a provider-level pre-policy baseline for reported APP-scam loss reimbursement. It does not estimate causal bank effects, individual adequacy, household recovery, or a before/after policy effect; it must be kept separate from the post-October-2024 PSR reimbursement dashboard.",
+  "related_sources": [
+    {
+      "source_url": "https://www.psr.org.uk/app-fraud-data/",
+      "claim": "The PSR publishes the provider-comparison data and identifies the 7 October 2024 mandatory reimbursement start as the policy boundary.",
+      "status": "official-index"
+    }
+  ],
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official PSR PDF downloaded and hashed on 2026-10-20; provider percentages and the aggregate comparison are transcribed from the report's accessible chart text.",
+    "checked": "2026-10-20"
+  }
+}

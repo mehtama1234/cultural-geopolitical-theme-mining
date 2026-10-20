@@ -4,7 +4,7 @@
   "title": "US financial conditions shape firm insurance and worker labor-income risk",
   "theme_ids": ["work", "cost", "voice"],
   "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback"],
-  "source_unit": "US administrative worker earnings, firm financing/risk-premium, job separation, and dynamic wage-contract measures",
+  "source_unit": "NBER Working Paper 35781, Risk Premia, Firm Insurance, and Endogenous Labor Income Risk",
   "geography": "United States",
   "observations": [
     {
@@ -27,7 +27,13 @@
   ],
   "related_sources": [
     {"source_url": "https://www.nber.org/papers/w35542", "claim": "US product-market creative destruction and asymmetric incumbent-worker earnings/job-destruction risk.", "status": "related-evidence"},
-    {"source_url": "https://www.nber.org/papers/w35624", "claim": "US sticky wage norms and real-wage losses during 2021–2024.", "status": "related-evidence"}
+    {"source_url": "https://www.nber.org/papers/w35624", "claim": "US sticky wage norms and real-wage losses during 2021–2024.", "status": "related-evidence"},
+    {"source_url": "https://www.nber.org/papers/w35580", "claim": "US employed workers demand a compensating pay increase for additional unemployment risk in a new job; the job-mobility model supplies a separate insurance-to-mobility comparator.", "status": "related-job-security-comparator"}
   ],
-  "boundary": "This record adds a US financial-conditions-to-firm-insurance-to-worker-risk mechanism. It does not disclose the abstract's omitted effect sizes or sample count, establish a named firm or sector outcome, measure household consumption or political response, or show that recession-contingent transfers were implemented and effective."
+  "boundary": "This record adds a US financial-conditions-to-firm-insurance-to-worker-risk mechanism. It does not disclose the abstract's omitted effect sizes or sample count, establish a named firm or sector outcome, measure household consumption or political response, or show that recession-contingent transfers were implemented and effective.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W35781 page rechecked for the exact title, September 2026 issue date, directed-search/dynamic-contract method, US administrative-data evidence, lower-paid-worker separation-margin pattern, modeled welfare cost, and recession-contingent-transfer result.",
+    "source_url_sha256": "sha256:1b11be0548a7b0e69ee34ad4ce83083ef7e01040da4390ae71ab587ca558191e",
+    "checked": "2026-10-19"
+  }
 }

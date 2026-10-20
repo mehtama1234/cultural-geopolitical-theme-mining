@@ -1,0 +1,48 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-switchblade-600-delivery-2026",
+  "title": "Lithuania moves Switchblade 600 capability from procurement into reported warehouse receipt before use or deterrence is visible",
+  "theme_ids": ["energy", "work", "cost", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of the first Switchblade 600 shipment",
+  "geography": "Lithuania; Lithuanian Armed Forces warehouses; United States–Lithuania defense-supply relationship",
+  "observations": [
+    {
+      "period": "October 7, 2026; first-shipment receipt report",
+      "denominator": {
+        "value": 1,
+        "unit": "named Switchblade 600 delivery milestone",
+        "value_type": "official_delivery_milestone"
+      },
+      "measures": {
+        "delivery_stage": {"value": "the first shipment of U.S.-made Switchblade 600 loitering munitions supplied by AeroVironment reached Lithuanian Armed Forces warehouses", "unit": "reported physical receipt", "value_type": "ministry_reported_delivery"},
+        "support_equipment": {"value": "launch and control equipment, a personnel-training simulator, and a maintenance package reported alongside the munitions", "unit": "reported support package", "value_type": "ministry_reported_support"},
+        "stated_capability": {"value": "long-range, precision, anti-armour strike capability described by the ministry", "unit": "official capability description", "value_type": "ministry_stated_capability"},
+        "stated_security_meaning": {"value": "official claims that the acquisition strengthens deterrence, Lithuanian security, and the Lithuania–United States partnership", "unit": "official interpretation", "value_type": "ministry_stated_purpose"},
+        "use_and_effect": {"value": "not observed", "unit": "missing quantity, cost, acceptance, inventory allocation, training completion, maintenance readiness, field deployment, operational use, deterrence, adversary response, civilian protection, and public judgment", "value_type": "unmeasured"},
+        "mechanism": {"value": "A warehouse receipt converts a procurement commitment into reported possession and a possible capability pathway, but possession is not fielded readiness or demonstrated deterrence.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Lithuanian Ministry of National Defence announcement. Receipt, support equipment, stated capability and purpose, and unmeasured operational and civilian outcomes are coded as separate stages.",
+      "uncertainty": "The announcement does not disclose shipment quantity, unit cost, acceptance records, inventory allocation, training completion, maintenance readiness, field deployment, operational use, incident effects, deterrence, adversary adaptation, or civilian protection.",
+      "subgroup": "Lithuanian Armed Forces, defense suppliers and maintainers, Lithuanian and U.S. defense institutions, allied forces, and civilians potentially affected by future deployment; no affected-person denominator is supplied.",
+      "counterinterpretation": "Receipt may strengthen future readiness and alliance interoperability, while stored equipment can remain unused or impose fiscal, maintenance, escalation, and civilian-risk costs that the announcement does not measure.",
+      "source_url": "https://kam.lt/lietuvos-kariuomenes-sandelius-papilde-koviniai-dronai-switchblade-600/",
+      "retrieval_hash": "sha256:e0059b06f3bd3308f7909b84a9e71fd2a57368300650ec3c30e98bd8ed08d92d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://kam.lt/en/switchblade-600-loitering-munition-set-to-reach-lithuanian-military-next-year/", "claim": "Earlier procurement reporting describes the acquisition path; it is background to the later receipt and not evidence of use or readiness.", "status": "primary-context"}
+  ],
+  "boundary": "This record establishes a reported first shipment of Switchblade 600 systems and associated support equipment reaching Lithuanian Armed Forces warehouses. It does not establish quantity, acceptance, training, deployment, operational use, deterrence, adversary response, civilian protection, or public legitimacy.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the Lithuanian Ministry of National Defence source; procurement files, inventory records, training logs, and operational telemetry are not retained."
+  }
+}

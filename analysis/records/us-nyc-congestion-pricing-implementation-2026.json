@@ -98,6 +98,24 @@
       "source_url": "https://www.nyc.gov/html/dot/html/pr2026/nyc-dot-to-provide-incentives-to-reduce-truck-deliveries-during-busiest-hours.shtml",
       "retrieval_hash": "sha256:e2f68d4b93ea23ceeb9df6d923e5a88396f78fa43eb205735947e8ddec9de8f8",
       "status": "reported"
+    },
+    {
+      "period": "May 5, 2026; congestion-pricing mitigation allocation to Bronx childhood-asthma programs",
+      "denominator": {"value": 1, "unit": "NYC congestion-pricing mitigation investment route for Bronx children and families", "value_type": "announced_program_allocation"},
+      "measures": {
+        "health_mitigation_allocation": {"value": 20000000, "unit": "US dollars allocated by MTA to improve childhood-asthma outcomes in the Bronx", "value_type": "announced_program_funding"},
+        "broader_mitigation_pool": {"value": 100000000, "unit": "US dollars allocated to neighborhoods disproportionately burdened by environmental pollution, climate impacts, and poor health outcomes", "value_type": "reported_program_pool"},
+        "historical_health_context": {"value": "Childhood asthma emergency-department visits declined citywide from 2009 to 2024, while inequities persisted in parts of the Bronx, East and Central Harlem, and Brooklyn", "unit": "reported historical context", "value_type": "reported_context"},
+        "realized_health_effect": {"value": "not observed", "unit": "missing program participation, exposure change, emergency visits, medication adherence, and child-level outcome measures attributable to this allocation", "value_type": "unmeasured"},
+        "mechanism": {"value": "Congestion-pricing revenue is routed from a transportation intervention into a place-targeted health mitigation program, creating a possible exposure-to-health-benefit path", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the official NYC Mayor's Office announcement; revenue allocation, environmental-justice targeting, historical asthma context, and realized health outcomes are kept separate.",
+      "uncertainty": "The announcement does not identify funded providers, service uptake, exposure reduction, medication access, emergency-department change, causal attribution, household cost, or resident perceptions. Historical citywide decline cannot be treated as evidence that this allocation already improved Bronx outcomes.",
+      "subgroup": "Bronx children and families in neighborhoods targeted by the congestion-pricing mitigation program; no recipient, neighborhood, or health-outcome denominator is supplied.",
+      "counterinterpretation": "A dedicated allocation can make transportation revenue visibly responsive to unequal health burdens while remaining an announced funding route rather than delivered care, measured exposure reduction, or improved child health.",
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/05/mayor-mamdani-announces--20-million-investment-in-congestion-pri",
+      "retrieval_hash": "sha256:f7675d84ff062c305733a0b802bc3ccfe9cd10cb0c0c3e33754f24f524fec336",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -107,6 +125,6 @@
   "boundary": "This record follows a named infrastructure and pricing intervention through observed zone traffic, reported revenue, early transit indicators, an air-quality evaluation, and a visible capital portfolio. It does not establish individual household welfare, distributional incidence, long-term health, completed capital benefits, political legitimacy, or a single causal effect of congestion pricing on every outcome.",
   "reproduction_audit": {
     "retrieval_hash_scope": "Official MTA, NYC Comptroller, and NYC Health Department pages were retrieved and hashed for the observed traffic, revenue, transit, air-quality, and project-status claims.",
-    "checked": "2026-09-28"
+    "checked": "2026-10-20"
   }
 }

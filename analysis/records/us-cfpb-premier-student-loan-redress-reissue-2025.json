@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-premier-student-loan-redress-reissue-2025",
+  "title": "Aggregate redress cashing can be followed by reissue payments without proving account correction or same-consumer recovery",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "CFPB Premier Student Loan Center Bureau-administered redress distribution and later reissue route",
+  "geography": "United States consumers affected by Premier Student Loan Center",
+  "observations": [
+    {
+      "period": "FY2024 Q3 distribution conclusion; aggregate report period ending June 30, 2024",
+      "denominator": {
+        "value": 17099,
+        "unit": "checks mailed in the Premier Student Loan Center redress distribution",
+        "value_type": "agency_reported_check_count"
+      },
+      "measures": {
+        "distributed_amount": {"value": 19974916, "unit": "U.S. dollars distributed", "value_type": "agency_reported_aggregate"},
+        "funds_cashed": {"value": 69, "unit": "percent of distributed funds cashed in aggregate", "value_type": "agency_reported_cashing_rate"},
+        "recipient_level_receipt": {"value": "not observed", "unit": "missing consumer identities, individual amounts, check cashing by person, account correction, residual loss, and household outcome", "value_type": "unmeasured"},
+        "mechanism": {"value": "Aggregate funds-cashed measurement is stronger than a payment offer but does not establish equal recipient reach, adequacy, or correction of the underlying student-loan harm", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from Table 18 of the official CFPB Financial Report FY2024; check count, aggregate distribution, and aggregate cashing are kept separate from recipient-level recovery.",
+      "uncertainty": "The report does not identify individual amounts, cashing timing, uncashed checks, account correction, residual loss, household effects, trust, switching, or exit. A 69% funds-cashed rate is not a 69% full-recovery or satisfaction rate.",
+      "subgroup": "Consumers harmed in the Premier Student Loan Center matter; no demographic, loan, amount, or outcome subgroup is supplied.",
+      "counterinterpretation": "Aggregate cashing can indicate meaningful remedy reach while still hiding delayed, failed, inadequate, or uneven payment and unresolved underlying obligations.",
+      "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_financial-report-fy-2024.pdf",
+      "retrieval_hash": "sha256:8d015ebfcb1ea742468126675b39ccba7b094456a316c731f77ad93ef059f17f",
+      "status": "reported"
+    },
+    {
+      "period": "FY2025 annual-report period ending September 30, 2025; later direct reissue route",
+      "denominator": {
+        "value": 1,
+        "unit": "named Premier Student Loan Center redress matter with reported direct reissue payments",
+        "value_type": "agency_reported_case_count"
+      },
+      "measures": {
+        "direct_reissue_payments": {"value": 20809, "unit": "U.S. dollars in reported direct payments to consumers who requested reissued payments", "value_type": "agency_reported_aggregate"},
+        "reissue_trigger": {"value": "consumers requested reissued payment after unclaimed funds were returned following the original distribution", "unit": "reported administrative condition", "value_type": "reported_selection_rule"},
+        "final_receipt": {"value": "not observed", "unit": "missing individual direct-payment receipt, cashing, amount adequacy, account correction, residual loss, trust, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "A later direct-payment route can repair some distribution failures while shifting additional request and follow-up effort to recipients", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the official CFPB Civil Penalty Fund and Bureau-Administered Redress FY2025 Annual Report; aggregate reissue amount and recipient-request condition are kept separate from final same-consumer receipt.",
+      "uncertainty": "The report does not provide the number of consumers, individual amounts, request timing, final cashing, account correction, residual loss, household recovery, trust, switching, or exit. Aggregate direct payments do not establish complete repair of the original distribution gap.",
+      "subgroup": "Consumers who requested reissued payment in the Premier Student Loan Center matter; the public report supplies no demographic or outcome subgroup.",
+      "counterinterpretation": "A reissue route demonstrates institutional persistence after unclaimed funds, but it cannot be treated as universal, timely, or adequate recovery.",
+      "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_fy2025-cpf-bar-annual-report_2026-03.pdf",
+      "retrieval_hash": "sha256:8d015ebfcb1ea742468126675b39ccba7b094456a316c731f77ad93ef059f17f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes an aggregate redress distribution and later reissue route. It does not establish individual receipt, adequate recovery, account correction, household security, trust, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from official CFPB annual-report tables; consumer identities, payment files, and loan records are not retained.",
+    "checked": "2026-10-20"
+  }
+}

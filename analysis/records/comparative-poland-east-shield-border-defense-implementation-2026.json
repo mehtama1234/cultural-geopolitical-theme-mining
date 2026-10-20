@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-poland-east-shield-border-defense-implementation-2026",
+  "title": "East Shield turns border-defense strategy into measured physical implementation before civilian effects are visible",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "time_hidden_price"
+  ],
+  "source_unit": "Polish government priorities account of the East Shield border-defense infrastructure program",
+  "geography": "Poland's borders with Russia and Belarus; Warmian-Masurian, Podlaskie, and Lublin voivodeships",
+  "observations": [
+    {
+      "period": "By June 30, 2026 implementation report",
+      "denominator": {
+        "value": 1,
+        "unit": "named East Shield border-defense program",
+        "value_type": "official_program_count"
+      },
+      "measures": {
+        "program_scope": {"value": "comprehensive defense infrastructure including engineering works, natural obstacles, reconnaissance, communications, and civil-protection infrastructure", "unit": "official program scope", "value_type": "government_reported_scope"},
+        "land_acquisition": {"value": "land acquired in Warmian-Masurian, Podlaskie, and Lublin voivodeships", "unit": "reported implementation stage", "value_type": "government_reported_milestone"},
+        "material_storage_sites": {"value": 2, "unit": "sites begun of 16 planned in 2026", "value_type": "government_reported_count"},
+        "materials_secured": {"value": 50, "unit": "kilometres of border works", "value_type": "government_reported_distance"},
+        "completed_lri_total": {"value": 11, "unit": "kilometres of linear engineering infrastructure", "value_type": "government_reported_distance"},
+        "lri_increment": {"value": 1, "unit": "kilometre section completed during the reported implementation period", "value_type": "government_reported_distance"},
+        "barrier_modernization": {"value": 186, "unit": "kilometres of integrated engineering barrier modernization begun", "value_type": "government_reported_distance"},
+        "coordination": {"value": "cooperation reported with Germany, Turkey, France, the United Kingdom, the United States, local governments, industry, and local communities", "unit": "reported coordination network", "value_type": "government_reported_coordination"},
+        "operational_and_civilian_outcome": {"value": "not observed", "unit": "missing deterrence, incident prevention, civilian safety, mobility, land-burden, and community-legitimacy measures", "value_type": "unmeasured"},
+        "mechanism": {"value": "Physical implementation turns a strategic border-defense plan into material capacity, but implementation is not evidence that the works prevented an incident or improved civilian outcomes.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Polish government priorities page. Program scope, land acquisition, storage sites, materials, completed works, barrier modernization, coordination, and unmeasured effects are coded as separate stages.",
+      "uncertainty": "The page does not establish the full budget, procurement and landowner terms, total timetable, final completion, quality, maintenance, access, operational availability, deterrence, civilian safety, mobility effects, or community legitimacy.",
+      "subgroup": "Border communities, landowners, local governments, Polish defense and civil-protection institutions, allied engineering partners, and firms supplying materials; no affected-person denominator is supplied.",
+      "counterinterpretation": "Implementation may strengthen resilience and defense capacity, while physical works can impose land and mobility burdens and may not prevent incidents or produce trusted local outcomes.",
+      "source_url": "https://www.gov.pl/web/priorytety/p1",
+      "retrieval_hash": "sha256:2d5be662eba1a70bf965973f109ce566706b80bd344fcbdf3b1a06d4a1ad8c50",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes reported physical implementation milestones for East Shield. It does not establish final completion, operational effectiveness, deterrence, incident prevention, civilian protection, landowner consent, mobility effects, or community legitimacy.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the official Polish government source; procurement, land records, operational telemetry, and local outcome data are not retained."
+  }
+}

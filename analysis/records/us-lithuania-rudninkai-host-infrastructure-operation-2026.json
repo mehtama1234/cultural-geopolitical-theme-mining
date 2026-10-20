@@ -1,0 +1,139 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-lithuania-rudninkai-host-infrastructure-operation-2026",
+  "title": "Rūdninkai host infrastructure advances from access works to a contracted long-term operating obligation while local incidence remains unmeasured",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence public accounts of road access works and the Rūdninkai Military Campus Phase-II-A infrastructure contract",
+  "geography": "Rūdninkai training area and surrounding host-region roads, Lithuania",
+  "observations": [
+    {
+      "period": "September 16, 2024; planned road rehabilitation near the Rūdninkai training area",
+      "denominator": {
+        "value": 34,
+        "unit": "kilometres of road sections planned for rehabilitation near the Rūdninkai training area",
+        "value_type": "reported_planned_infrastructure_extent"
+      },
+      "measures": {
+        "host_region_access_work": {
+          "value": "Lithuania planned rehabilitation of road sections including the Mikašiūnai–Rūdninkai and Ąžuolijai–Juodšiliai–Jašiūnai routes",
+          "unit": "planned road-access intervention",
+          "value_type": "reported_host_infrastructure_plan"
+        },
+        "local_incidence": {
+          "value": "not observed",
+          "unit": "missing traffic counts, construction cost allocation, road-user delay, safety outcomes, local service burden, and host-community consultation or acceptance",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the official Lithuanian Ministry of National Defence road-upgrade announcement; the road length and named routes are retained as planned access works, not as realized traffic relief or a municipal outcome.",
+      "uncertainty": "The source identifies a planned 34-kilometre rehabilitation program but does not provide a completed-work date, project-level expenditure, traffic or safety counterfactual, or evidence of resident experience or consent.",
+      "subgroup": "Road users, nearby residents, military personnel, contractors, and local services around the Rūdninkai training area; no linked affected-unit sample is supplied.",
+      "counterinterpretation": "Road rehabilitation may improve ordinary civilian connectivity as well as military access, or may create construction disruption and land-use trade-offs; the public announcement does not resolve that balance.",
+      "source_url": "https://kam.lt/atnaujintos-dvi-kelio-atkarpos-prie-rudninku-karinio-poligono/",
+      "retrieval_hash": "sha256:8e276cb6cdd46b0fe409c5a0a61d2ea8701b05f36130153283c512b083a3b7b0",
+      "status": "reported"
+    },
+    {
+      "period": "June 23, 2026; Rūdninkai Military Campus Phase-II-A infrastructure contract",
+      "denominator": {
+        "value": 27,
+        "unit": "military-purpose buildings in the contracted Phase-II-A works, covering more than 52 hectares and almost 94,000 square metres",
+        "value_type": "reported_contracted_infrastructure_scope"
+      },
+      "measures": {
+        "contracted_operating_obligation": {
+          "value": "The contract price includes design, construction, maintenance, service provision for 12.5 years, financing costs, interest, and other bank obligations",
+          "unit": "reported design-build-finance-maintain-service contract scope",
+          "value_type": "reported_long_duration_operating_commitment"
+        },
+        "local_cost_and_service_incidence": {
+          "value": "not observed",
+          "unit": "missing annual service payments, realized maintenance performance, local supplier or workforce incidence, resident burden, service adequacy, and remedy or contest route",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the official ministry account of the Phase-II-A infrastructure-development contract; contract scope is kept separate from completed construction, occupancy, service delivery, or local acceptance.",
+      "uncertainty": "The announcement reports contractual scope and a maintenance/service term but does not disclose annual payment schedules, performance measures, delivery milestones sufficient to establish service receipt, or affected-place outcomes.",
+      "subgroup": "Lithuanian public finance and host institutions, contracted firms and workers, German Brigade personnel, local residents and services; no linked person- or household-level outcome denominator is supplied.",
+      "counterinterpretation": "Bundling maintenance and services may stabilize lifecycle responsibility and performance, but it may also create long-term fiscal or vendor-dependence risks that cannot be inferred from the contract description alone.",
+      "source_url": "https://kam.lt/isigaliojo-rudninku-karinio-miestelio-ii-etapo-a-dalies-infrastrukturos-pletros-projekto-sutartis-isibegeja-darbai/",
+      "retrieval_hash": "sha256:3851e64f36b47744bc6f2a2839d1190ffeca954bc2ef77b323e8e3508b849253",
+      "status": "reported"
+    },
+    {
+      "period": "October 5, 2026; Phase 1 residential-block completion report",
+      "denominator": {
+        "value": 1,
+        "unit": "Rūdninkai Military Campus Phase 1 host-infrastructure completion milestone",
+        "value_type": "reported_completion_milestone"
+      },
+      "measures": {
+        "residential_blocks": {"value": "construction of living quarters for German Brigade personnel was reported complete", "unit": "reported host-support asset", "value_type": "reported_physical_completion"},
+        "accommodation_capacity": {"value": 600, "unit": "military personnel; stated maximum capacity of newly completed buildings", "value_type": "reported_design_capacity"},
+        "phase_one_scope": {"value": 18, "unit": "buildings of various designations in Phase 1", "value_type": "reported_phase_scope"},
+        "phase_one_value": {"value": 127000000, "unit": "euros including VAT; approximate value of Phase 1 works", "value_type": "reported_project_value"},
+        "handover_stage": {"value": "not yet complete in the report: furnishing, equipment, IT, and electronic-security setup were still underway before official handover", "unit": "reported implementation stage", "value_type": "reported_pre_handover_condition"},
+        "occupancy_and_host_place_outcome": {"value": "not observed", "unit": "missing occupancy, use, local traffic/noise/land/service burden, municipal response, consultation, acceptance, and operational-readiness measures", "value_type": "unmeasured"},
+        "mechanism": {"value": "Physical completion converts a host-nation basing commitment into a delivered support asset, but furnishing, handover, occupancy, and host-place response remain separate stages.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the official Lithuanian Ministry of National Defence completion report and campus FAQ. Physical completion, stated capacity, Phase 1 scope/value, pre-handover setup, and unmeasured use and host-place effects are coded separately.",
+      "uncertainty": "The sources do not establish handover, occupancy, furnishing completion, annual operating cost, service quality, actual German Brigade use, local burden, consultation, acceptance, or full operational capability.",
+      "subgroup": "German Brigade personnel, Lithuanian defense and public-finance institutions, contractors, local residents and services around Rūdninkai; no linked affected-unit denominator is supplied.",
+      "counterinterpretation": "A completed accommodation asset may enable allied presence and local economic activity, while unfinished setup, later operating costs, and host-place burdens may delay or complicate those benefits.",
+      "source_url": "https://kam.lt/en/lithuania-completes-construction-of-residential-blocks-for-german-brigade-at-rudninkai-military-campus/",
+      "comparison_source_url": "https://kam.lt/en/faq/rudninkai-military-campus/",
+      "retrieval_hash": "sha256:0c193fa56735fc5ea8ce3e77e62182b6b02641208759d89ef6aef8ca52380e99",
+      "status": "reported"
+    },
+    {
+      "period": "Current stationing status checked October 20, 2026; initial German Brigade elements serving before permanent Rūdninkai handover",
+      "denominator": {
+        "value": 1,
+        "unit": "German 45th Armoured Brigade stationing route in Lithuania",
+        "value_type": "reported_operational_transition"
+      },
+      "measures": {
+        "temporary_use_before_permanent_campus": {
+          "value": "Initial German Brigade elements are serving in central Vilnius and arriving personnel use Lithuanian Armed Forces facilities near Vilnius, including Nemenčinė and Rokantiškės, while the Rūdninkai infrastructure is being developed",
+          "unit": "reported interim stationing arrangement",
+          "value_type": "reported_use_stage"
+        },
+        "permanent_campus_status": {
+          "value": "Rūdninkai is intended to become the main location once the required infrastructure is in place; critical infrastructure is planned for completion in 2027",
+          "unit": "reported future operating condition",
+          "value_type": "reported_plan"
+        },
+        "civilian_service_coordination": {
+          "value": "The ministry describes education and health services for civilians as part of the stationing planning process",
+          "unit": "reported host-support planning scope",
+          "value_type": "reported_coordination_stage"
+        },
+        "permanent_occupancy_and_host_effect": {
+          "value": "not observed",
+          "unit": "missing Rūdninkai handover, occupancy, actual service use, local traffic/noise/land effects, municipal burden, and host-community acceptance",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence German Brigade information page; interim stationing, permanent-campus sequencing, and civilian-service planning are retained as separate stages from Rūdninkai occupancy or full operational capability.",
+      "uncertainty": "The page does not provide a dated headcount for each temporary site, individual relocation records, facility utilization, service quality, local incidence, or evidence that interim use has produced full brigade readiness or public acceptance.",
+      "subgroup": "Initial German Brigade elements, Lithuanian Armed Forces facilities near Vilnius, Rūdninkai host institutions, German and Lithuanian civilian services, and nearby residents; no linked affected-unit or household denominator is supplied.",
+      "counterinterpretation": "Interim use can demonstrate that stationing has begun and provide usable support before the permanent campus is complete, but it can also spread logistical and service burdens across temporary locations and delay the point at which Rūdninkai becomes an operating base.",
+      "source_url": "https://kam.lt/en/german-brigade-in-lithuania/",
+      "retrieval_hash": "sha256:9fc1ff9f5e62a085746199a2bcd63b0ec35de1726423ef63ff02dc521b5ed9a7",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record advances a named host-region infrastructure episode from planned access works to a contracted long-duration maintenance and service obligation. It does not establish completed road works, campus occupancy, annual public cost, actual service delivery, resident burden, local acceptance, German operational capability, deterrence, or a household outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Normalized evidence digests generated from indexed official Ministry of National Defence pages after direct retrieval returned HTTP 403; the access limitation is recorded rather than treated as evidence about the underlying project.",
+    "checked": "2026-10-20"
+  }
+}

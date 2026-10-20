@@ -26,14 +26,25 @@ consumer benefit separate.
 
 The [Bilt bank-partner transition ledger](data/cfpb-bilt-bank-partner-transition-event-ledger-v1.json)
 adds a current consumer-system route: a firm migration produced fees and
-technical problems, followed by proactive outreach, reported reimbursement,
-and claimed technical repair. Individual receipt, account correction,
-adequacy, repeat failure, trust, and switching remain open.
+technical problems, followed by proactive outreach, aggregate reimbursement
+of $264,792.71 to more than 2,000 eligible consumers, reported technical
+repair, and CFPB closure on September 21, 2026. Individual receipt, account
+correction, adequacy, repeat failure, trust, and switching remain open.
 
 The [Instacart pricing and refund finding](findings/us-customer-automation-recourse-036.md)
 adds a delivery-platform case: alleged fee and subscription practices produced
 an announced $60 million refund route and a later marketwide FTC fee inquiry,
 while individual recovery and future shopping behavior remain open.
+
+The [Cleo AI planned-refund finding](findings/us-customer-automation-recourse-037.md)
+adds a dated consumer-redress route: the FTC announced 2,124,796 planned
+PayPal payments, with notification, delivery, acceptance, return, adequacy,
+and later household recovery kept as separate stages.
+
+The [Cleo AI post-distribution acquisition gate](cleo-ai-refund-post-distribution-acquisition-gate-2026-10-19.md)
+sets the scheduled rechecks after the October 27 payment start and after the
+30-day acceptance window, while preserving the recipient-level and household
+outcome fields that aggregate refund announcements cannot supply.
 
 ## First working idea
 

@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyc-microhubs-last-mile-delivery-operation-2026",
+  "title": "New York City microhubs convert truck delivery into smaller last-mile operation",
+  "theme_ids": ["time", "cost", "energy"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "housing_place_mobility", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status"],
+  "source_unit": "New York City Department of Transportation Microhubs Pilot",
+  "geography": "New York City, Manhattan, United States",
+  "observations": [
+    {
+      "period": "2026-06-03; first-year pilot results",
+      "denominator": {"value": 1, "unit": "NYC DOT Microhubs Pilot", "value_type": "named_operating_pilot"},
+      "measures": {
+        "truck_trips_replaced": {"value": 3000, "unit": "truck trips; more than this number in the first year", "value_type": "reported_operating_result"},
+        "daily_handcart_packages": {"value": 860, "unit": "packages per day", "value_type": "reported_operating_volume"},
+        "daily_cargo_bike_packages": {"value": 110, "unit": "packages per day", "value_type": "reported_operating_volume"},
+        "daily_truck_vehicle_miles_replaced_by_handcarts": {"value": 1.5, "unit": "truck vehicle miles per day", "value_type": "reported_operating_result"},
+        "daily_truck_vehicle_miles_replaced_by_cargo_bikes": {"value": 3, "unit": "truck vehicle miles per day", "value_type": "reported_operating_result"},
+        "estimated_toxic_air_pollution_reduction": {"value": 9, "unit": "grams; pilot estimate", "value_type": "reported_estimate"},
+        "new_microhub_locations_announced": {"value": 2, "unit": "locations; Financial District and Upper East Side", "value_type": "reported_expansion"}
+      },
+      "method": "Transcribed from the NYC DOT official first-year Microhubs Pilot release. The record keeps the agency's reported counts and daily operating volumes separate from independent causal or neighborhood-level effects.",
+      "uncertainty": "The release does not provide a truck-trip denominator for the affected corridors, package-delivery quality, worker time or pay, recipient-level exposure, neighborhood noise or safety measurements, operating cost, or durable continuation after the pilot period.",
+      "subgroup": "Deliveries routed through NYC DOT microhubs on Manhattan's Upper West Side, Upper East Side, and Financial District; the release identifies delivery partners and locations but not all participating firms or recipients.",
+      "counterinterpretation": "Replacing truck trips with handcarts or cargo bikes can reduce truck exposure while shifting labor, curb-space, time, or delivery constraints to other actors; the reported pilot totals do not establish equal benefit or durable acceptance.",
+      "source_url": "https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml",
+      "retrieval_hash": "sha256:3dde958388278d52f2cb17b38de24aaad17af707505f311e167f174e9bbb862a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nyc.gov/html/dot/html/pr2026/nyc-dot-to-provide-incentives-to-reduce-truck-deliveries-during-busiest-hours.shtml", "claim": "NYC DOT's congestion-pricing mitigation program separately funds off-hour delivery incentives; that route remains an announced mitigation program rather than a completed participant-level outcome.", "status": "primary-context"}
+  ],
+  "boundary": "This record establishes named microhub operation, alternative delivery modes, and agency-reported truck-mile and pollution reductions. It does not establish recipient-level service quality, worker or neighborhood incidence, cost savings, causal safety or air-quality effects, or durable public acceptance."
+}

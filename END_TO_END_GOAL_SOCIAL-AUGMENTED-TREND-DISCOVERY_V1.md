@@ -10,7 +10,7 @@ not yet explained.
 ## Non-negotiable corpus scope
 
 The unit of completion for the research-augmentation lane is the complete
-atlas inventory: **1,978 machine-readable research records**, not a small
+atlas inventory: **2,014 machine-readable research records**, not a small
 topic sample. Every atlas record must appear in the social-augmentation
 coverage manifest and end in one of three auditable states:
 
@@ -24,7 +24,7 @@ coverage manifest and end in one of three auditable states:
 
 Topic-level social waves are useful calibration and synthesis layers, but they
 do not close the record-level requirement. The 14 themes organize the work;
-the 1,978 records are the corpus that must be accounted for.
+the 2,014 records are the corpus that must be accounted for.
 
 ## Why we are doing this
 
@@ -214,9 +214,9 @@ trend candidates remain visibly separate from atlas augmentation.
 For the full-corpus lane, completion additionally requires a generated
 record-level coverage manifest, stable atlas-record identifiers in every
 retained social link, batch-level acquisition logs, a coverage audit showing
-all 1,978 records in a terminal state, and a final validator that rejects
+all 2,014 records in a terminal state, and a final validator that rejects
 unaccounted records. No topic-wave count may be presented as completion of the
-1,978-record requirement.
+2,014-record requirement.
 
 The result is not a popularity counter or a news feed. It is a disciplined way
 to connect what is measured, what people say, and what society may be becoming.

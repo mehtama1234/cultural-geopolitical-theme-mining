@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-critical-minerals-federal-land-foreign-investment-2026",
+  "title": "Critical-mineral ownership on federal lands can be strategically relevant while foreign-parent visibility and supply-chain control remain incomplete",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108094 review of foreign investment in critical-mineral mining on federal lands",
+  "geography": "United States federal lands, hardrock mining claimants and operators, and critical-mineral supply chains involving foreign parent entities",
+  "observations": [
+    {
+      "period": "February 2026 federal-land plan count, 2019–2025 export context, and October 6, 2026 GAO report publicly released October 16",
+      "denominator": {
+        "value": 43,
+        "unit": "claimants and operators associated with critical-mineral mines on federal lands whose ownership information GAO reviewed",
+        "value_type": "reported_review_cohort"
+      },
+      "measures": {
+        "approved_federal_land_plans": {
+          "value": 632,
+          "unit": "approved hardrock mining plans of operation on federal land as of February 2026",
+          "value_type": "reported_operational_count"
+        },
+        "ownership_determined": {
+          "value": 32,
+          "unit": "claimants or operators out of 43 for which GAO determined ownership information",
+          "value_type": "reported_ownership_count"
+        },
+        "foreign_subsidiaries": {
+          "value": 14,
+          "unit": "companies in the 32-company ownership set that were subsidiaries of foreign entities",
+          "value_type": "reported_foreign_ownership_count"
+        },
+        "chinese_financial_interest": {
+          "value": "at least two cases in which Chinese entities had financial interests in the foreign parent companies; GAO found none of the 14 foreign subsidiaries had Chinese-owned parent companies",
+          "unit": "reported ownership-interest finding",
+          "value_type": "reported_geoeconomic_signal"
+        },
+        "disclosure_requirement": {
+          "value": "the 1872 Mining Law does not require BLM or Forest Service to collect foreign-parent information or require claimants or operators to submit foreign-ownership information; a U.S. subsidiary can serve as claimant for a foreign business",
+          "unit": "reported federal-land information and eligibility condition",
+          "value_type": "reported_regulatory_gap"
+        },
+        "supply_chain_constraints": {
+          "value": "critical-mineral supply chains face substantial capital needs and limited domestic processing capacity; the United States exports large quantities of domestically extracted ore to Canada, Mexico, China, and other countries",
+          "unit": "reported supply-chain condition",
+          "value_type": "reported_dependence_signal"
+        },
+        "foreign_investment_review": {
+          "value": "the Committee on Foreign Investment in the United States can review foreign investment in mining when it relates to potential national-security concerns",
+          "unit": "reported federal review authority",
+          "value_type": "reported_institutional_authority"
+        },
+        "control_conversion": {
+          "value": "not measured",
+          "unit": "beneficial control, mine production, processing, export destination, investment approval, disruption, domestic availability, local employment, environmental impact, or national-security outcome",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-108094, based on ownership information from multiple sources for 43 claimants and operators, federal laws, agency processes, interviews with officials, and analysis of critical-mineral exports from 2019 through 2025. Plan counts, ownership determination, foreign subsidiaries, Chinese interests, disclosure rules, supply-chain conditions, review authority, and control outcomes are retained as separate stages.",
+      "uncertainty": "Ownership could not be determined for 11 of the 43 reviewed claimants or operators, and a foreign subsidiary does not by itself establish beneficial control, operational direction, Chinese control, or national-security harm. Export quantities, ownership information, and agency review authorities do not establish mine-level production, processing, disruption, or domestic supply outcomes.",
+      "subgroup": "Federal-land mining claimants and operators, workers and communities near mines, downstream manufacturers, federal land managers, and households affected by critical-mineral prices, security, or environmental tradeoffs.",
+      "counterinterpretation": "Foreign investment can supply capital and technical capacity, and financial interest is not equivalent to ownership or control; domestic processing and supply-chain resilience may improve through multiple firms and allied trade even when federal ownership records are incomplete.",
+      "source_url": "https://www.gao.gov/products/gao-27-108094",
+      "retrieval_hash": "sha256:e05b9b9bd06c6d4a1e05047dbb1bc1cbadf060dd606700c2b875001ae0bc034f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108094/index.html",
+      "claim": "The official accessible report contains the federal-land mining, ownership, foreign-investment, export, and agency-authority findings.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-27-108196",
+      "claim": "GAO identifies a related report on BLM's role in collecting citizenship information from mining claimants.",
+      "status": "official-related-report"
+    }
+  ],
+  "boundary": "This record advances a bounded federal-land critical-mineral ownership-to-geoeconomic-dependence route. It does not establish beneficial control, mine production, processing, export destination at the mine level, CFIUS action, disruption, domestic availability, local employment, environmental impact, or national-security outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and related report links are retained for reproduction.",
+    "retrieval_hash": "sha256:e05b9b9bd06c6d4a1e05047dbb1bc1cbadf060dd606700c2b875001ae0bc034f",
+    "checked": "2026-10-20"
+  }
+}

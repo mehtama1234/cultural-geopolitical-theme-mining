@@ -1,0 +1,39 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwc-westrip-dismissal-alternative-employment-remedy-2023",
+  "title": "Alternative employment can coexist with an unfair-dismissal remedy and an unresolved payment boundary",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "time_hidden_price", "trust_identity_meaning", "unequal_exposure_status", "household_room_consumption"],
+  "source_unit": "Primary Fair Work Commission decision [2023] FWC 2632, Westrip dismissal case",
+  "geography": "Sydney, Australia",
+  "observations": [
+    {
+      "period": "May 9–June 13, 2023; dismissal, alternative employment, and compensation order",
+      "denominator": {"value": 1, "unit": "publicly identified adjudicated worker case; no population denominator", "value_type": "single_public_case"},
+      "measures": {
+        "dismissal_date": {"value": "2023-05-09", "unit": "date", "value_type": "adjudicated_case_date"},
+        "alternative_employment_start": {"value": "2023-06-13", "unit": "date; five weeks after dismissal", "value_type": "reported_case_date"},
+        "assessed_no_remuneration_interval": {"value": 3, "unit": "weeks of likely lost remuneration assessed by the Commission", "value_type": "adjudicated_case_measure"},
+        "ordered_compensation": {"value": 3744, "unit": "Australian dollars gross less tax, ordered within 21 days", "value_type": "adjudicated_remedy_order"},
+        "reinstatement": {"value": "not sought; compensation ordered in lieu of reinstatement", "unit": "remedy disposition", "value_type": "reported_case_outcome"},
+        "worker_level_payment_receipt": {"value": "not observed", "unit": "missing payment execution and receipt evidence", "value_type": "unmeasured"}
+      },
+      "method": "Structured extraction from the primary Fair Work Commission decision; case-level dates, alternative employment, assessed income gap, non-return, and remedy order are kept separate from payment receipt and later recovery.",
+      "uncertainty": "One case cannot estimate dismissal, alternative-employment, compensation, payment, or recurrence rates. The decision does not enumerate the full offer set, search effort, job duration, household effects, or later trust and exit.",
+      "subgroup": "One qualified mechanic dismissed after disputed conduct and performance concerns; the Commission found the dismissal unfair while recognizing a valid underlying reason and limiting the remedy scope.",
+      "counterinterpretation": "Alternative employment at slightly higher pay may limit assessed loss without restoring the original relationship, resolving the interim income gap, or proving durable recovery; an order is not payment receipt.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2023fwc2632.pdf",
+      "retrieval_hash": "sha256:1491c1b63a8ce97d3140c25abef22c27259af21fc989eea20e551f20ed394c85",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders", "claim": "Official Fair Work Commission decision-search route used for the case recheck.", "status": "official-search"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger because the direct FWC PDF route returned HTTP 403 during this promotion.",
+    "access_boundary": "No public payment-compliance filing, worker receipt record, later employment follow-up, household outcome, or exit record tied to the case reference was located in the project recheck."
+  },
+  "boundary": "This record adds one primary adjudicated case with observed dismissal, alternative employment, a five-week transition, an assessed interim income gap, non-return through compensation in lieu of reinstatement, and an ordered remedy. It does not establish payment receipt, household recovery, durable trust, recurrence, collective action, switching, or exit."
+}

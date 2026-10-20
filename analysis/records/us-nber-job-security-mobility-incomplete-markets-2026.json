@@ -26,5 +26,13 @@
       "status": "reported"
     }
   ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35781", "claim": "US firm insurance erodes when risk premia rise; bad-times firm-shock earnings pass-through is especially strong for lower-paid workers near separation.", "status": "related-realized-risk-comparator"}
+  ],
   "boundary": "This record adds a measured wage-for-security trade-off and a modeled insurance-to-mobility mechanism. It does not establish actual job switching, household security, worker voice, or universal effects of unemployment insurance in observed administrative data."
+  ,"reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER W35580 page rechecked for the exact title, August 2026 issue date, survey-plus-general-equilibrium-search method, 1.63 percent wage premium per additional percentage point of unemployment risk, modeled mobility/productivity results, and unemployment-insurance trade-off.",
+    "source_url_sha256": "sha256:983ef6cf30f914d08ca13213d21da094e35bc447ac5bf617a9be8f7b4eafcdcc",
+    "checked": "2026-10-19"
+  }
 }

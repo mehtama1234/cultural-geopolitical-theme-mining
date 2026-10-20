@@ -1,0 +1,138 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "pl-poland-f35-husarz-arrival-acceptance-2026",
+  "title": "Physical arrival and formal acceptance can advance a defense capability without proving readiness or strategic effect",
+  "theme_ids": [
+    "cost",
+    "work",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Official Polish National Security Bureau, General Command, and Ministry of National Defence F-35 Husarz program records",
+  "geography": "Poland; Łask 32nd Tactical Air Base and Polish F-35 program",
+  "observations": [
+    {
+      "period": "May 22-June 12, 2026; first three aircraft arrival, formal acceptance, and first-pilot training context",
+      "denominator": {
+        "value": 3,
+        "unit": "first three Polish F-35 aircraft in the official acceptance record; not a fleet-wide capability denominator",
+        "value_type": "reported_aircraft_count"
+      },
+      "measures": {
+        "arrival": {
+          "value": "The first three Polish F-35 aircraft were reported to have arrived at the 32nd Tactical Air Base on May 22, 2026",
+          "unit": "reported capability milestone",
+          "value_type": "reported_arrival"
+        },
+        "formal_acceptance": {
+          "value": "A June 12 ceremony was reported as formal acceptance of the aircraft into the Polish Armed Forces",
+          "unit": "reported state acceptance milestone",
+          "value_type": "reported_acceptance"
+        },
+        "personnel_training": {
+          "value": "Polish General Command separately reported completion of training by the first Polish F-35A pilots",
+          "unit": "reported personnel milestone",
+          "value_type": "reported_training"
+        },
+        "readiness_and_effect": {
+          "value": "not observed",
+          "unit": "missing fleet-wide training, maintenance, sustainment, readiness certification, mission use, cost incidence, allied/adversary response, and geopolitical effect",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from official Polish public records; physical arrival, formal acceptance, and first-pilot training are kept separate from operational readiness and strategic effect.",
+      "uncertainty": "Official records do not provide independent aircraft identifiers, serviceability, fleet readiness, maintenance, sortie generation, mission use, or external-response telemetry. Acceptance is not operational use.",
+      "subgroup": "First three Polish F-35 aircraft, Polish defense authorities, and first trained pilots; no fleet-wide personnel or readiness denominator is supplied.",
+      "counterinterpretation": "Physical arrival and ceremonial acceptance can be publicly documented without proving trained, maintained, mission-ready capability or changed security behavior.",
+      "source_url": "https://www.bbn.gov.pl/pl/wydarzenia/10408,Prezydent-RP-na-ceremonii-przyjecia-samolotow-F-35-quotHusarzquot.html",
+      "retrieval_hash": "sha256:c3ff0830892345e5b489d80d51c442fc237e6ce682c3c7d467126be8223474dc",
+      "status": "reported"
+    },
+    {
+      "period": "August 28, 2026; eight aircraft reported in country and stated IOC prerequisites",
+      "denominator": {
+        "value": 8,
+        "unit": "Polish F-35 aircraft reported in country; 32 aircraft ordered, with no fleet-readiness denominator",
+        "value_type": "reported_aircraft_count"
+      },
+      "measures": {
+        "delivery_milestone": {
+          "value": "Five additional aircraft were reported to have joined the first three, bringing the in-country total to eight",
+          "unit": "reported program milestone",
+          "value_type": "reported_delivery"
+        },
+        "ioc_definition": {
+          "value": "The Ministry states that initial operational capability requires at least eight aircraft in Poland plus trained pilots and ground personnel and necessary spare parts and consumables",
+          "unit": "official readiness criterion",
+          "value_type": "reported_criterion"
+        },
+        "criterion_status": {
+          "value": "Only the eight-aircraft component is reported here; personnel, logistics, certification, serviceability, and mission use are not established",
+          "unit": "bounded capability-status finding",
+          "value_type": "partially_observed"
+        },
+        "strategic_effect": {
+          "value": "not observed",
+          "unit": "missing operational availability, sustainment, cost, allied/adversary response, and durable geopolitical leverage",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "A numeric delivery threshold can be reached while the personnel, logistics, certification, and serviceability conditions needed for operational capability remain unresolved",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from the official Polish Ministry of National Defence program page; aircraft count is retained as a milestone, not as proof of IOC.",
+      "uncertainty": "The public update does not establish trained ground-personnel coverage, spare parts, consumables, readiness certification, aircraft serviceability, or mission availability.",
+      "subgroup": "Polish F-35 program aircraft and defense institutions; no complete fleet, crew, maintenance, or sortie denominator is supplied.",
+      "counterinterpretation": "Meeting an aircraft-count threshold can coexist with unknown readiness, sustainment, affordability, and geopolitical effect.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/harpia-f-35-dla-polski",
+      "retrieval_hash": "sha256:c3ff0830892345e5b489d80d51c442fc237e6ce682c3c7d467126be8223474dc",
+      "status": "reported"
+    },
+    {
+      "period": "October 20, 2026; current Ministry of National Defence program-page recheck",
+      "denominator": {
+        "value": 8,
+        "unit": "Polish F-35 aircraft currently stated on the Ministry program page; 32 aircraft ordered",
+        "value_type": "reported_current_aircraft_count"
+      },
+      "measures": {
+        "current_in_country_count": {
+          "value": "The current Ministry of National Defence program page states that the Polish Air Force has eight F-35 aircraft; it identifies the first three as arriving May 22 and five more as joining on August 28",
+          "unit": "reported current delivery state",
+          "value_type": "reported_current_milestone"
+        },
+        "ioc_conditions": {
+          "value": "The public program documentation retains an IOC condition set requiring eight aircraft plus trained pilots and ground personnel and necessary spare parts and consumables",
+          "unit": "official readiness criterion",
+          "value_type": "reported_criterion"
+        },
+        "readiness_and_effect": {
+          "value": "not observed",
+          "unit": "missing public certification, serviceability, maintenance, sortie generation, mission use, cost incidence, allied or adversary response, and strategic effect",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Current-state recheck of the official Polish Ministry of National Defence F-35 program page; the page's eight-aircraft statement is retained as a delivery milestone and not converted into IOC or operational effect.",
+      "uncertainty": "The page does not publish a readiness declaration, trained-ground-personnel denominator, logistics sufficiency, aircraft serviceability, mission availability, or operational-use record.",
+      "subgroup": "Polish F-35 program aircraft and defense institutions; no complete fleet, crew, maintenance, or sortie denominator is supplied.",
+      "counterinterpretation": "A current official count of eight aircraft can coexist with unresolved personnel, logistics, certification, serviceability, and mission-use conditions.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/harpia-f-35-dla-polski",
+      "retrieval_hash": "sha256:b9ec0c0d06c8bbe0002961f27ce4d81a6fc1520aa217d1b46a6f8364f6cfc427",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes public arrival, formal acceptance, first-pilot training, and a current official eight-aircraft delivery state. It does not establish full fleet realization, readiness or IOC, operational use, sustainment, affordability, or geopolitical leverage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from official Polish public records; classified telemetry, personnel files, restricted procurement files, and private cost data are not retained.",
+    "checked": "2026-10-20"
+  }
+}

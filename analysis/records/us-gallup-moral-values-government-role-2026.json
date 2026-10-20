@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-moral-values-government-role-2026",
+  "title": "Shared judgments of moral decline can coexist with disagreement over whether government should promote values",
+  "theme_ids": [
+    "voice",
+    "cost"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup May 2026 Values and Beliefs poll and moral-values survey",
+  "geography": "United States; national adults, party groups, and religious-attendance groups",
+  "observations": [
+    {
+      "period": "May 1-17, 2026; Gallup values and beliefs field period",
+      "denominator": {
+        "value": 1001,
+        "unit": "U.S. adults in the moral-values telephone survey; question-specific bases vary",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "moral_values_rating": {
+          "value": 56,
+          "unit": "percent rating U.S. moral values as poor",
+          "value_type": "reported_share"
+        },
+        "moral_values_direction": {
+          "value": 80,
+          "unit": "percent saying moral values are getting worse",
+          "value_type": "reported_share"
+        },
+        "perceived_government_influence": {
+          "value": 69,
+          "unit": "percent saying government policies significantly affect moral values",
+          "value_type": "reported_share"
+        },
+        "government_should_promote_values": {
+          "value": 45,
+          "unit": "percent saying government should promote moral values; 50% say it should not",
+          "value_type": "reported_share"
+        },
+        "cultural_judgment": {
+          "value": "Issue-specific moral acceptability remains selective and divided across party and religious-attendance groups rather than moving as one uniform national culture score",
+          "unit": "reported survey pattern",
+          "value_type": "reported_pattern"
+        },
+        "mechanism": {
+          "value": "A shared perception of moral decline can coexist with disagreement over government legitimacy, because recognizing institutional influence is not the same as granting the institution a legitimate role",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from Gallup's published survey estimates of moral-value ratings, perceived change, government influence and role, religious influence, and issue-specific moral acceptability; aggregate judgments are kept separate from observed conduct and policy effects.",
+      "uncertainty": "This is cross-sectional self-reported opinion. It does not retain respondent-level policy exposure, media or source environment, prior identity, local institutional encounter, personal conduct, policy implementation, political action, trust change, or later behavior.",
+      "subgroup": "U.S. adults with question-specific party, religious-attendance, and issue subgroups; subgroup bases and margins are not reproduced here.",
+      "counterinterpretation": "Broad agreement that values are worsening may reflect national discourse or identity rather than an objective moral decline, while support or opposition to a government role may reflect long-standing ideology rather than current policy influence.",
+      "source_url": "https://news.gallup.com/poll/710648/americans-rating-moral-values-hits-new-low.aspx",
+      "retrieval_hash": "sha256:0ef7d9a47a735e5317a5b3926fe2bb2b1f9ab938d3c0ecaa8559497e6094fb1a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes national cultural judgments about perceived moral decline, government influence, and the legitimate public role of government. It does not establish objective moral change, causal policy effects, personal behavior change, political action, institutional legitimacy change, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from Gallup's published aggregate survey report; respondent microdata and local or institutional encounter records are not retained.",
+    "checked": "2026-10-20"
+  }
+}

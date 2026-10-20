@@ -1,0 +1,153 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-virginia-scc-insurance-settlement-remedies-2026",
+  "title": "Aggregate insurance restitution and corrective plans can coexist with unknown individual recovery and coverage continuity",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Virginia State Corporation Commission public settlement summaries for Esurance, State Farm, and Anthem/Carelon",
+  "geography": "United States; Virginia auto, property-rating, and health-insurance markets",
+  "observations": [
+    {
+      "period": "August 27, 2026; Esurance settlement acceptance and restitution",
+      "denominator": {
+        "value": 2959,
+        "unit": "consumers named in the Virginia SCC settlement summary",
+        "value_type": "reported_aggregate_consumers"
+      },
+      "measures": {
+        "exposure": {
+          "value": "Esurance reportedly increased premiums or charged points after accidents without required notice",
+          "unit": "reported insurance-rating and notice failure",
+          "value_type": "reported_regulatory_finding"
+        },
+        "aggregate_restitution": {
+          "value": 2000000,
+          "unit": "approximately U.S. dollars reported restitution",
+          "value_type": "reported_aggregate_amount"
+        },
+        "aggregate_payment_status": {
+          "value": "The Virginia SCC reports that Esurance has paid the approximately $2 million restitution to 2,959 consumers",
+          "unit": "reported aggregate payment status",
+          "value_type": "reported_paid_aggregate"
+        },
+        "corrective_route": {
+          "value": "Additional impact analysis was required before new rate factors, with continued notice monitoring",
+          "unit": "reported prospective control",
+          "value_type": "reported_correction_plan"
+        },
+        "individual_recovery": {
+          "value": "not observed",
+          "unit": "missing policyholder identity, payment receipt, premium correction, coverage continuity, residual loss, trust, and switching",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from the Virginia SCC public settlement summary; regulatory attribution, aggregate restitution, and prospective controls are kept separate from individual receipt and adequacy.",
+      "uncertainty": "Aggregate payment and corrective-plan statements are regulator-reported and do not provide a recipient file, policy-level correction, timing, or coverage outcome.",
+      "subgroup": "Virginia Esurance policyholders named in an aggregate settlement summary; no policyholder-level subgroup or comparison is supplied.",
+      "counterinterpretation": "Aggregate restitution can coexist with delayed payment, residual premium burden, or coverage disruption for individual policyholders.",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "retrieval_hash": "sha256:9505f8fb0234e4b1031b56f1ebb95687d180ef1231b16a157bd477116777949b",
+      "status": "reported"
+    },
+    {
+      "period": "May 20, 2026; State Farm settlement acceptance and restitution",
+      "denominator": {
+        "value": 91696,
+        "unit": "consumers named in the Virginia SCC settlement summary",
+        "value_type": "reported_aggregate_consumers"
+      },
+      "measures": {
+        "exposure": {
+          "value": "State Farm reportedly issued policies or premiums inconsistent with filed rate information",
+          "unit": "reported insurance-rating and filed-rate failure",
+          "value_type": "reported_regulatory_finding"
+        },
+        "aggregate_restitution": {
+          "value": 2500000,
+          "unit": "approximately U.S. dollars reported restitution",
+          "value_type": "reported_aggregate_amount"
+        },
+        "aggregate_payment_status": {
+          "value": "The Virginia SCC reports that State Farm has paid the approximately $2.5 million restitution to 91,696 consumers",
+          "unit": "reported aggregate payment status",
+          "value_type": "reported_paid_aggregate"
+        },
+        "corrective_route": {
+          "value": "The settlement required accurate filings, use of filed rates, and ongoing monitoring",
+          "unit": "reported prospective control",
+          "value_type": "reported_correction_plan"
+        },
+        "individual_recovery": {
+          "value": "not observed",
+          "unit": "missing consumer identity, payment receipt, amount, premium re-rating, coverage continuity, residual loss, trust, and switching",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from the Virginia SCC public settlement summary; recipient counts, aggregate restitution, and filed-rate controls are not treated as individual payment or protection.",
+      "uncertainty": "The summary does not provide amount by consumer, payment timing, returned payment, account correction, renewal, or coverage outcome.",
+      "subgroup": "Virginia personal-auto consumers named in the aggregate State Farm settlement summary; no consumer-level comparison is supplied.",
+      "counterinterpretation": "A large reported recipient count does not establish that every consumer received timely or adequate correction.",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "retrieval_hash": "sha256:9505f8fb0234e4b1031b56f1ebb95687d180ef1231b16a157bd477116777949b",
+      "status": "reported"
+    },
+    {
+      "period": "March 24, 2026; Anthem/Carelon settlement acceptance, claims/network failures, and restitution",
+      "denominator": {
+        "value": 1680,
+        "unit": "consumers named in the settlement summary; 586 providers also named",
+        "value_type": "reported_aggregate_parties"
+      },
+      "measures": {
+        "exposure": {
+          "value": "Contracting, credentialing, demographic, network-status, and fee-schedule problems reportedly caused inaccurate or delayed provider payments",
+          "unit": "reported health-insurance network and claims failure",
+          "value_type": "reported_regulatory_finding"
+        },
+        "aggregate_restitution": {
+          "value": 346000,
+          "unit": "approximately U.S. dollars reported restitution, plus approximately $118,000 to Virginia",
+          "value_type": "reported_aggregate_amount"
+        },
+        "aggregate_payment_status": {
+          "value": "The Virginia SCC reports that Anthem has paid the approximately $346,000 restitution to 1,680 consumers and 586 providers, plus $118,000 to the Commonwealth",
+          "unit": "reported aggregate payment status",
+          "value_type": "reported_paid_aggregate"
+        },
+        "corrective_route": {
+          "value": "The settlement reported claims, vendor, data, and testing controls for future accuracy",
+          "unit": "reported prospective control",
+          "value_type": "reported_correction_plan"
+        },
+        "care_and_recovery": {
+          "value": "not observed",
+          "unit": "missing patient/provider identity, claim payment, network correction, care continuity, receipt, residual cost, trust, and switching",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from the Virginia SCC public settlement summary; consumer/provider counts, aggregate restitution, and system controls are kept separate from claim-level and care-level outcomes.",
+      "uncertainty": "The summary is not a claim-level outcome file and does not establish completed care, provider participation, payment receipt, or durable network correction.",
+      "subgroup": "Virginia consumers and providers named in the Anthem/Carelon aggregate settlement summary; no patient or provider trajectory is supplied.",
+      "counterinterpretation": "Restitution and system controls can coexist with unknown care continuity, provider exit, residual patient cost, or delayed correction.",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "retrieval_hash": "sha256:9505f8fb0234e4b1031b56f1ebb95687d180ef1231b16a157bd477116777949b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes three Virginia SCC insurance settlements with regulator-reported aggregate restitution, reported aggregate payment, and prospective correction. It does not claim recipient-level receipt beyond the regulator's aggregate payment statement, adequate compensation, coverage or care restoration, durable error reduction, trust change, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the Virginia SCC public settlement summary; policyholder, patient, provider, claim, and payment files are not retained.",
+    "checked": "2026-10-20"
+  }
+}

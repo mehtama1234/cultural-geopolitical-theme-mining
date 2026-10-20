@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-fes-credit-repair-refund-distribution-2026",
+  "title": "Large credit-repair redress dispatch can widen reach without proving usable recovery",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Federal Trade Commission FES credit-repair pyramid-scheme refund distribution",
+  "geography": "United States consumers harmed by Financial Education Services and related credit-repair operations",
+  "observations": [
+    {
+      "period": "March 2026 FTC refund distribution",
+      "denominator": {
+        "value": 443048,
+        "unit": "affected customers sent FTC checks; aggregate recipient count",
+        "value_type": "reported_recipient_population"
+      },
+      "measures": {
+        "distribution_amount": {
+          "value": 10900000,
+          "unit": "more than U.S. dollars in checks sent to affected customers",
+          "value_type": "reported_aggregate_distribution"
+        },
+        "underlying_harm": {
+          "value": "FTC alleged that the operation promised easy credit repair while charging consumers and recruiting participants into a pyramid scheme",
+          "unit": "enforcement allegation and settlement basis",
+          "value_type": "reported_allegation"
+        },
+        "payment_channel": {
+          "value": "Mailed checks administered through Analytics Consulting LLC",
+          "unit": "reported distribution route",
+          "value_type": "reported_process"
+        },
+        "acceptance_window": {
+          "value": "Recipients were instructed to cash checks within 90 days",
+          "unit": "reported payment rule",
+          "value_type": "reported_acceptance_window"
+        }
+      },
+      "method": "Structured extraction from the official FTC refund-distribution press release; harm allegation, distribution, payment channel, and acceptance window are retained as separate stages.",
+      "uncertainty": "The public release does not disclose delivery success, check cashing, returned checks, reissue, individual amounts, credit-score or debt correction, residual loss, repeat exposure, trust, switching, or household recovery.",
+      "subgroup": "Consumers affected by the FES credit-repair operation who were included in the FTC distribution; no complete historical-harm denominator.",
+      "counterinterpretation": "A large dispatch can expand formal reach while usable receipt remains conditioned on address, attention, banking access, and the short cashing window; the distribution is not a prevalence or recovery estimate.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-sends-more-109-million-consumers-harmed-credit-repair-pyramid-scheme",
+      "retrieval_hash": "sha256:fb0314f0eb2ac7b771e5f1f57a506d047f48607e5c2b83767c4d5c957cd401fa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/enforcement/refunds/financial-education-services-settlement",
+      "claim": "The FTC refund page identifies Analytics Consulting as administrator, repeats the aggregate check distribution and 90-day cashing instruction, and supplies a recipient phone route; it does not publish cashed, returned, reissued, or recovery totals.",
+      "status": "official-refund-page-recheck-2026-10-20"
+    },
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3144-financial-education-services-fes",
+      "claim": "The FTC case record supplies the enforcement context for the FES refund route.",
+      "status": "official-case-record"
+    }
+  ],
+  "boundary": "This record establishes a named credit-repair harm allegation and a large FTC check distribution with an explicit cashing window. It does not establish individual receipt, adequate restoration of credit or money, later household security, trust, switching, or exit."
+}

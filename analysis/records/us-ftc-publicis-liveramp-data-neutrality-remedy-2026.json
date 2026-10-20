@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-publicis-liveramp-data-neutrality-remedy-2026",
+  "title": "A merger remedy can formalize neutral access and data firewalls around a digital-advertising intermediary while leaving implementation open",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Federal Trade Commission Publicis Groupe–LiveRamp proposed consent order, complaint, and October 19, 2026 announcement",
+  "geography": "United States digital-advertising and audience-data services markets; LiveRamp customers and competing media-agency providers",
+  "observations": [
+    {
+      "period": "October 19, 2026 proposed merger remedy; five-year post-closing term if the transaction closes",
+      "denominator": {
+        "value": null,
+        "unit": "LiveRamp customers, competing media-agency and audience-data providers, and affected digital-advertising market participants; the public materials do not disclose a complete customer or transaction-outcome denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "transaction_scale": {
+          "value": 2.2,
+          "unit": "billion U.S. dollars for the proposed Publicis acquisition of 100% of LiveRamp",
+          "value_type": "reported_transaction_value"
+        },
+        "neutral_access_commitment": {
+          "value": "LiveRamp standalone products, services, APIs, technical support, and commercial programs must remain available on fair, reasonable, and non-discriminatory terms; denial, degradation, delay, or impairment based on competitive relationship is prohibited",
+          "unit": "proposed five-year post-closing conduct remedy",
+          "value_type": "reported_remedy_term"
+        },
+        "data_firewall": {
+          "value": "Publicis must not access or use LiveRamp customer data and confidential business information received through standalone services",
+          "unit": "proposed data-governance commitment",
+          "value_type": "reported_remedy_term"
+        },
+        "accountability_route": {
+          "value": "Independent compliance audits every six months for the first two years and annually for the following three years; customers may request an audit, and unresolved contractual disputes after 30 days may go to third-party mediation",
+          "unit": "proposed monitoring and customer-recourse process",
+          "value_type": "reported_remedy_process"
+        },
+        "implementation_and_downstream_effect": {
+          "value": "not yet established",
+          "unit": "closing, operational compliance, customer access, data separation, service quality, pricing, advertiser/publisher outcomes, consumer privacy, and durable competition",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from the FTC announcement, complaint, case page, and decision-and-order materials. Transaction scale, proposed conduct obligations, monitoring, customer recourse, and downstream market or consumer outcomes are retained as separate stages.",
+      "uncertainty": "The FTC materials describe a proposed consent agreement submitted for public comment and a pending matter. The acquisition closing, operational implementation, audit findings, customer use of recourse, and market effects are not observed. The agency's complaint states alleged competitive risks; those allegations are not findings of realized harm.",
+      "subgroup": "LiveRamp customers, competing media-agency and audience-data providers, publishers, advertisers, technology providers, and other market participants relying on the relevant data-connectivity services.",
+      "counterinterpretation": "A formal neutral-access and firewall remedy may preserve interoperability and reduce foreclosure risk, but it may also be difficult to monitor, may not prevent quality or pricing changes outside the stated terms, and may not translate into lower advertising costs, better privacy, or consumer-facing choice.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-order-preserves-competition-digital-advertising-ecosystem-part-publiciss-acquisition-liveramp",
+      "retrieval_hash": "sha256:d943abe30ec5787e151237d35bc4e8e7c6182705b8feb3e52c53a008c528e4bd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/261-0115-publicis-liveramp-matter",
+      "claim": "The FTC case page identifies the pending matter, docket, and filed complaint/order materials.",
+      "status": "official-case-record"
+    },
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Publicis-LiveRamp-DO.pdf",
+      "claim": "The decision-and-order document specifies neutral operation, non-discrimination, data-use restrictions, audit, and dispute protections.",
+      "status": "official-order-document"
+    },
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2610115publicisliverampcomplaint.pdf",
+      "claim": "The complaint states the alleged foreclosure, cost, quality, and competitively sensitive-data risks addressed by the proposed remedy.",
+      "status": "official-complaint"
+    }
+  ],
+  "boundary": "This record advances a platform-governance route from data-connectivity concentration to a proposed neutral-access, firewall, monitoring, and dispute-remedy design. It does not establish merger closing, implementation, compliance, customer access, service quality, lower costs, consumer privacy, advertising outcomes, or durable competition.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical FTC announcement URL string used as a stable source identifier; official case, order, and complaint links are retained for reproduction.",
+    "retrieval_hash": "sha256:d943abe30ec5787e151237d35bc4e8e7c6182705b8feb3e52c53a008c528e4bd",
+    "checked": "2026-10-20"
+  }
+}

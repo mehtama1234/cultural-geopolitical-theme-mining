@@ -68,6 +68,23 @@ backup route is enough without requiring a claim about hostile action.
 - Repair required specialised marine capacity. The record does not yet show
   repair completion or return to normal performance.
 
+### Operator-level fallback capability — 2026-10-20
+
+Telecom Niue's [service description](https://telecomniue.com/support/about-us)
+adds a named fallback capability and a clearer service dependency map. It says
+Niue's international data connectivity and calling use the Manatua fibre cable,
+while a satellite backup facility is also in place. The same operator describes
+support for the government ICT network, government-department backhaul, police
+dispatch monitoring, and tsunami-notification services.
+
+This strengthens the alternative-capability stage: the case now distinguishes
+the damaged primary route, the Manatua East fallback used in the August
+response, and a separately identified satellite backup facility. It still does
+not establish whether the satellite backup was activated, how much capacity it
+provided, which users or essential services used it, or whether its cost and
+performance were adequate during the 4 August disruption. The source is an
+operator description of standing capability, not an incident log.
+
 ## What could change the answer
 
 The continuity claim would strengthen if operator or regulator records show
@@ -122,6 +139,7 @@ technical availability, usable service, and household or firm outcome.
 
 - [Niue government update on the 4 August 2026 disruption](https://gov.nu/media-releases/government-updates-public-on-the-internet-service-disruption)
 - [Avaroa Cables statement on the Manatua fault and fallback route](https://avaroacable.com/)
+- [Telecom Niue service and backup-facility description](https://telecomniue.com/support/about-us)
 - [Existing trans-Pacific modeled-resilience record](../../records/us-uscc-transpacific-undersea-cable-gray-zone-resilience-2026.json)
 - [Existing undersea-cable public discussion](../../social-discussions/records/social-undersea-cable-resilience-linkedin-001.json)
 - [ITU submarine-cable resilience report announcement](https://www.itu.int/en/mediacentre/Pages/PR-2026-07-10-Submarine-cable-resilience-report.aspx)

@@ -1,7 +1,7 @@
 # Broad next-episode selection v1
 
 **Status:** ranked route decision; promotion gate applied; no qualifying local end-to-end route
-**Checked:** 2026-09-20
+**Checked:** 2026-10-20
 **Machine record:** [next-episode selection](data/broad-next-episode-selection-v1.json)
 
 ## Decision
@@ -14,7 +14,11 @@ health and employment transitions. The completed stage audit shows that the
 local representation still lacks the initiating need, usable alternatives,
 event-specific response, verified remedy, and meaning/action endpoint.
 
-The next primary route is therefore the registration-gated UAS acquisition
+The [MEPS 2024 episode closure audit](projects/us-health-cost-household-choice/meps-2024-episode-closure-audit-2026-10-20.md)
+now closes repetitive MEPS payment/event refinement as a route decision: the
+committed bounded outputs remain the primary public comparator, but no further
+MEPS cross-tab should be promoted unless a newly available file adds an
+episode-level field. The next primary route is therefore the registration-gated UAS acquisition
 specified in the [UAS health-cost episode audit](projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md).
 UAS is the smallest identified candidate that could connect a reported
 medical-expense event to later health/work/well-being measures and, through
@@ -63,8 +67,8 @@ application or transaction, remedy receipt, recovery, trust, or exit, so it
 does not change the `qualifying_local_route: false` decision.
 
 The machine record cross-checks this decision against the [authoritative
-same-case gate](data/broad-same-case-episode-availability-audit-v1.json): 34
-local surfaces, eight observed alternative/non-use surfaces, three observed
+same-case gate](data/broad-same-case-episode-availability-audit-v1.json): 41
+local surfaces, nine observed alternative/non-use surfaces, three observed
 verified-remedy or outcome-follow-up surfaces, one observed meaning/action
 surface, and `qualifies: false`.
 
@@ -102,6 +106,14 @@ python3 scripts/validate_broad_next_episode_selection.py
 ```
 
 No new raw data are downloaded by this decision artifact.
+
+## Availability recheck — 2026-10-20
+
+The closure audit and current handoff state were rechecked against the local
+selection controls. No authorized UAS, PSID, HRS, or raw MEPS respondent file
+is present locally; the committed MEPS outputs remain available as bounded
+comparators. This is a control-state update, not a new estimate or permission
+to retrieve registration-gated data.
 
 ## Availability recheck — 2026-09-21
 
@@ -159,3 +171,16 @@ broader rotation: keep UAS and MEPS as authorization-gated high-value routes,
 and use the public-systems/safety-net implementation specification as the next
 structural handoff if no compliant respondent file is supplied. No new
 consumer recovery claim should be added from the Ombudsman example.
+
+## Public-systems fallback update — 2026-10-19
+
+The public-systems handoff has now been executed through the
+[SNAP public-benefit episode acquisition gate](projects/us-safety-net-access/public-benefit-episode-acquisition-gate-2026-10-19.md).
+Two official administrative cases add contrasting same-case partial endpoints:
+Connecticut records a replacement card and agency-reported $582 credit followed
+by residual-claim denial, while New Jersey records investigation, hearing, and
+affirmed denial. These cases strengthen the administrative decision and remedy
+stages but do not expose food adequacy, later household security, trust, or
+exit. The local promotion result therefore remains `false`; the next decisive
+route is still authorized UAS/MEPS input or a new identifier-bearing public
+episode with downstream outcome evidence.

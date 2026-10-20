@@ -1,0 +1,43 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-urban-wbns-older-adult-unmet-assistance-hardship-2025",
+  "title": "Unmet assistance among older adults coexists with food, health-cost, housing, and utility hardship",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "time_hidden_price", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "Urban Institute December 2025 Well-Being and Basic Needs Survey published estimates",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "December 2025 WBNS; older-adult and assistance-need estimates",
+      "denominator": {"value": null, "unit": "published WBNS subgroup universes; exact analytic denominators are not disclosed in the published brief", "value_type": "not_disclosed"},
+      "measures": {
+        "older_adults_with_disabilities_unmet_personal_assistance": {"value": 24.0, "unit": "percent", "value_type": "published_survey_estimate"},
+        "older_adults_with_disabilities_unmet_personal_care": {"value": 7.7, "unit": "percent", "value_type": "published_survey_estimate"},
+        "older_adults_with_disabilities_unmet_household_task_assistance": {"value": 22.9, "unit": "percent", "value_type": "published_survey_estimate"},
+        "all_older_adults_unmet_personal_assistance": {"value": 11.3, "unit": "percent", "value_type": "published_survey_estimate"},
+        "daily_activity_difficulty_unmet_assistance": {"value": 33.1, "unit": "percent", "value_type": "published_survey_estimate"},
+        "other_functional_limitation_unmet_assistance": {"value": 6.9, "unit": "percent", "value_type": "published_survey_estimate"},
+        "unmet_assistance_food_insecurity": {"value": 39.3, "unit": "percent", "value_type": "published_survey_estimate"},
+        "unmet_assistance_forgone_health_care_cost": {"value": 44.4, "unit": "percent", "value_type": "published_survey_estimate"},
+        "unmet_assistance_rent_or_mortgage_problem": {"value": 9.6, "unit": "percent", "value_type": "published_survey_estimate"},
+        "unmet_assistance_heating_electricity_problem": {"value": 14.5, "unit": "percent", "value_type": "published_survey_estimate"},
+        "unmet_assistance_utility_shutoff": {"value": 5.1, "unit": "percent", "value_type": "published_survey_estimate"},
+        "older_adults_helping_adult_relative_or_friend": {"value": 18.0, "unit": "percent", "value_type": "published_survey_estimate"},
+        "dual_medicare_medicaid_unmet_assistance": {"value": 24.8, "unit": "percent", "value_type": "published_survey_estimate"},
+        "medicare_only_unmet_assistance": {"value": 9.9, "unit": "percent", "value_type": "published_survey_estimate"}
+      },
+      "method": "Published cross-sectional December 2025 WBNS estimates, retaining the source's older-adult, disability, functional-limitation, assistance, and hardship subgroup definitions.",
+      "uncertainty": "The 2025 WBNS sample expanded to approximately 2,500 adults age 65 and older; older-adult estimates exclude institutional settings, subgroup denominators differ, and published percentages do not establish timing or causal direction.",
+      "subgroup": "Adults age 65 and older, older adults with disabilities, adults with functional limitations, and respondents reporting unmet assistance; subgroups are not interchangeable.",
+      "counterinterpretation": "Co-occurring unmet assistance and hardship may reflect disability, income, household support, housing, health needs, or other correlated exposures; the survey does not identify a service episode or assign responsibility.",
+      "source_url": "https://howhousingmatters.org/research/publication/one-four-older-adults-disabilities-had-unmet-needs-personal-assistance-2025",
+      "retrieval_hash": "sha256:8eb626591e026664298d2a18d5d2d7af37af87300b119ecfbdf181dda2d23225",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey", "claim": "WBNS survey program and design context.", "status": "survey-program"},
+    {"source_url": "https://www.icpsr.umich.edu/web/HMCA/studies/39691", "claim": "WBNS study metadata and access route; direct access was restricted in the project recheck.", "status": "study-metadata"}
+  ],
+  "boundary": "This is a published cross-sectional 2025 WBNS age-and-care material-security layer. It does not link a respondent to a dated service request, caregiver, agency, benefit amount, care completion, remedy, food quantity, health outcome, institutional setting, trust, political action, or recovery. The 2025 older-adult sample should not be pooled mechanically with earlier working-age WBNS estimates."
+}

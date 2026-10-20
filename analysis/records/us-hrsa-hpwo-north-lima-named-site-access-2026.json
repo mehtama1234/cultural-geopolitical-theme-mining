@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-hrsa-hpwo-north-lima-named-site-access-2026",
+  "title": "A named primary-care site creates a public route beyond a shortage designation while booking and completed care remain unobserved",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "household_room_consumption"
+  ],
+  "source_unit": "HRSA primary-care HPSA and service-site records linked to Health Partners of Western Ohio patient-facing access pages",
+  "geography": "Allen County and Lima, Ohio; North Lima Community Health Center",
+  "observations": [
+    {
+      "period": "September 19, 2026; named-site administrative and patient-facing access checkpoint",
+      "denominator": {
+        "value": 1,
+        "unit": "named active North Lima Community Health Center site linked to one HRSA-designated primary-care shortage organization",
+        "value_type": "administrative_named_site_unit"
+      },
+      "measures": {
+        "shared_hrsa_organization_id": {
+          "value": "0516380",
+          "unit": "organization identifier shared by the HPSA organization and named service site",
+          "value_type": "administrative_linkage"
+        },
+        "listed_weekly_hours": {
+          "value": 72,
+          "unit": "hours per week listed in the HRSA service-site record",
+          "value_type": "administrative_nominal_capacity"
+        },
+        "service_route": {
+          "value": "Medical, oral-health, behavioral-health, pharmacy, social-services, and substance-use services are listed; appointment requests are directed to the location or a login-gated patient portal rather than the general email form",
+          "unit": "public provider access route",
+          "value_type": "reported_provider_route"
+        },
+        "affordability_route": {
+          "value": "Organization-level insurance, sliding-fee, payment-plan, and new-patient policies are publicly described; the retained page also reports limited same-day appointments",
+          "unit": "public provider policy surface",
+          "value_type": "reported_organization_policy"
+        },
+        "usable_appointment_and_care": {
+          "value": "not observed",
+          "unit": "missing site-specific open slot, reconciled phone route, wait time, patient booking, travel burden, completed care, continuity, and health outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Crosswalk of the HRSA HPSA organization row and service-site row through shared organization ID, followed by bounded extraction from official Health Partners of Western Ohio patient-facing pages. Nominal site hours and provider policies are kept separate from patient utilization.",
+      "uncertainty": "The HRSA site record lists nominal hours but not a service-specific calendar; the provider page displays overlapping hour lines and lists a phone number different from the HRSA row. The portal is login-gated and exposes no public slots or wait times. Organization-level affordability and same-day statements do not establish site-specific availability or completed care.",
+      "subgroup": "Patients seeking primary, oral, behavioral, pharmacy, social, or substance-use services in Allen County and surrounding Lima; no patient-level need, insurance, disability, language, transportation, or appointment subgroup is observed.",
+      "counterinterpretation": "An active site with listed hours, a phone/portal route, affordability policies, and limited same-day appointments may provide usable care for many patients; the public administrative surface cannot test that possibility at the person level.",
+      "source_url": "https://hpwohio.org/location/north-lima-community-health-center",
+      "retrieval_hash": "page:sha256:684944379e226b725f4cc583504d9a35a2949af4134ae436554813538c6c0993;ledger:sha256:9f000faaf1b05c57a14fd7a9aa090e4856a06bfb70b1e8e8b6deb34ab74f96bd;hrsa-crosswalk:sha256:63cd5ce00fe738ebc64d0185d6ddf013d177135fbd420fa8da29488007ace082",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://data.hrsa.gov/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv",
+      "claim": "HRSA primary-care HPSA records identify the designated organization and shortage context.",
+      "status": "official-administrative-file"
+    },
+    {
+      "source_url": "https://hpwohio.org/contact-us",
+      "claim": "The provider contact page directs appointment requests to the location or patient portal and states that the general email form does not schedule appointments.",
+      "status": "official-provider-page"
+    },
+    {
+      "source_url": "https://hpwohio.org/service/medical",
+      "claim": "The provider medical page describes new-patient, insurance, sliding-fee, payment-plan, and limited same-day policies at the organization level.",
+      "status": "official-provider-page"
+    }
+  ],
+  "boundary": "This record follows a named Ohio primary-care route from shortage designation to shared-organization identity, active service site, nominal hours, patient-facing contact, and affordability policy. It does not estimate usable access, appointment completion, wait, care continuity, health, work, household time or money, trust, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official HPWO North Lima HTML, compact event ledger, and named-site HRSA crosswalk were directly retained or hashed on 2026-10-20; the HRSA administrative source remains a public file-derived linkage.",
+    "checked": "2026-10-20"
+  }
+}

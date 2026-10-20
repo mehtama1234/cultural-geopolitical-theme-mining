@@ -22,113 +22,195 @@
     "analysis/US-BROAD-PUBLIC-SYSTEMS-SOURCE-LED-SUBTHEME-MAP_V1.md",
     "analysis/US-BROAD-EXTERNAL-DATA-FIRST-PASS_2026-09-25.md"
   ],
-  "total_records": 2014,
-  "directly_promoted_record_count": 1634,
+  "total_records": 2130,
+  "directly_promoted_record_count": 1725,
   "themes": [
     {
       "theme_id": "unequal_exposure_status",
       "theme": "Unequal exposure and status",
-      "records": 1753,
-      "directly_promoted_records": 1431,
-      "not_directly_named": 322
-    },
-    {
-      "theme_id": "household_room_consumption",
-      "theme": "Household room and consumption",
-      "records": 1244,
-      "directly_promoted_records": 993,
-      "not_directly_named": 251
+      "records": 1828,
+      "directly_promoted_records": 1501,
+      "not_directly_named": 327
     },
     {
       "theme_id": "public_systems_feedback",
       "theme": "Public systems and policy feedback",
-      "records": 1481,
-      "directly_promoted_records": 1245,
-      "not_directly_named": 236
+      "records": 1594,
+      "directly_promoted_records": 1317,
+      "not_directly_named": 277
+    },
+    {
+      "theme_id": "household_room_consumption",
+      "theme": "Household room and consumption",
+      "records": 1311,
+      "directly_promoted_records": 1040,
+      "not_directly_named": 271
     },
     {
       "theme_id": "trust_identity_meaning",
       "theme": "Trust, identity, and cultural meaning",
-      "records": 1225,
-      "directly_promoted_records": 1012,
-      "not_directly_named": 213
-    },
-    {
-      "theme_id": "political_judgment_action",
-      "theme": "Political judgment and collective action",
-      "records": 777,
-      "directly_promoted_records": 625,
-      "not_directly_named": 152
+      "records": 1309,
+      "directly_promoted_records": 1073,
+      "not_directly_named": 236
     },
     {
       "theme_id": "infrastructure_technology_dependency",
       "theme": "Infrastructure, technology, and dependency",
-      "records": 794,
-      "directly_promoted_records": 645,
-      "not_directly_named": 149
+      "records": 837,
+      "directly_promoted_records": 687,
+      "not_directly_named": 150
     },
     {
       "theme_id": "work_control_bargaining",
       "theme": "Work, control, and bargaining",
-      "records": 709,
-      "directly_promoted_records": 574,
-      "not_directly_named": 135
+      "records": 733,
+      "directly_promoted_records": 593,
+      "not_directly_named": 140
     },
     {
       "theme_id": "firm_sector_market_power",
       "theme": "Firm, sector, and market power",
-      "records": 740,
-      "directly_promoted_records": 609,
-      "not_directly_named": 131
+      "records": 789,
+      "directly_promoted_records": 651,
+      "not_directly_named": 138
+    },
+    {
+      "theme_id": "political_judgment_action",
+      "theme": "Political judgment and collective action",
+      "records": 782,
+      "directly_promoted_records": 645,
+      "not_directly_named": 137
     },
     {
       "theme_id": "care_health_reproduction",
       "theme": "Care, health, and social reproduction",
-      "records": 646,
-      "directly_promoted_records": 516,
-      "not_directly_named": 130
+      "records": 672,
+      "directly_promoted_records": 538,
+      "not_directly_named": 134
     },
     {
       "theme_id": "geopolitical_state_consequences",
       "theme": "Geopolitical and state consequences",
-      "records": 590,
-      "directly_promoted_records": 502,
-      "not_directly_named": 88
+      "records": 621,
+      "directly_promoted_records": 521,
+      "not_directly_named": 100
     },
     {
       "theme_id": "consumer_power_recourse",
       "theme": "Consumer power and recourse",
-      "records": 368,
-      "directly_promoted_records": 285,
-      "not_directly_named": 83
-    },
-    {
-      "theme_id": "housing_place_mobility",
-      "theme": "Housing, place, and mobility",
-      "records": 456,
-      "directly_promoted_records": 377,
-      "not_directly_named": 79
-    },
-    {
-      "theme_id": "platforms_data_attention",
-      "theme": "Platforms, data, and attention",
-      "records": 368,
-      "directly_promoted_records": 303,
-      "not_directly_named": 65
+      "records": 439,
+      "directly_promoted_records": 344,
+      "not_directly_named": 95
     },
     {
       "theme_id": "time_hidden_price",
       "theme": "Time as a hidden price",
-      "records": 364,
-      "directly_promoted_records": 300,
-      "not_directly_named": 64
+      "records": 405,
+      "directly_promoted_records": 319,
+      "not_directly_named": 86
+    },
+    {
+      "theme_id": "housing_place_mobility",
+      "theme": "Housing, place, and mobility",
+      "records": 469,
+      "directly_promoted_records": 397,
+      "not_directly_named": 72
+    },
+    {
+      "theme_id": "platforms_data_attention",
+      "theme": "Platforms, data, and attention",
+      "records": 378,
+      "directly_promoted_records": 332,
+      "not_directly_named": 46
     }
   ],
   "low_density_theme_candidates": {
+    "platforms_data_attention": [
+      {
+        "trend_id": "us-ftc-publicis-liveramp-data-neutrality-remedy-2026",
+        "title": "A merger remedy can formalize neutral access and data firewalls around a digital-advertising intermediary while leaving implementation open"
+      },
+      {
+        "trend_id": "comparative-depop-edited-self-2026-fashion-resale-identity-ritual",
+        "title": "Fashion culture is moving from algorithmic novelty toward edited identity, repeatable staples, nostalgia, everyday ritual, and circular self-expression"
+      },
+      {
+        "trend_id": "comparative-deloitte-genz-millennial-survey-2026-sequenced-ambition-ai-work",
+        "title": "Gen Z and millennials are sequencing ambition around stability, sustainable work, purpose and AI readiness rather than rejecting advancement"
+      },
+      {
+        "trend_id": "comparative-spotify-culture-next-2026-fan-edit-fandom-audio-identity",
+        "title": "Gen Z audio culture is being organized through fandom, life-stage rituals, cross-format participation, and identity practices that turn listening into belonging"
+      },
+      {
+        "trend_id": "comparative-ipsos-global-trends-10th-edition-2026-trust-nostalgia-ai-climate",
+        "title": "Global publics are retreating toward local trust, personal control and present-focused coping as technology, institutions and climate feel less governable"
+      },
+      {
+        "trend_id": "comparative-netflix-what-we-watched-h1-2026-global-viewing-local-culture-franchise",
+        "title": "Global streaming is making local-language stories, cross-border discovery, recurring franchises, and broad genre choice part of one increasingly connected entertainment system"
+      },
+      {
+        "trend_id": "comparative-gallup-state-global-workplace-2026-engagement-wellbeing-work-location",
+        "title": "Global work remains low-engagement and emotionally costly, while work location and regional context redistribute both agency and wellbeing"
+      },
+      {
+        "trend_id": "comparative-oecd-digital-government-ai-governance-2026",
+        "title": "Government AI adoption is widespread, but operational accountability, procurement, evaluation, and user feedback lag"
+      },
+      {
+        "trend_id": "comparative-ipsos-ai-trust-deficit-healthcare-2026-diagnostic-adoption-task-trust",
+        "title": "Healthcare AI is moving into routine diagnostic work faster than trust is generalizing across clinical tasks"
+      },
+      {
+        "trend_id": "us-cfpb-hello-digit-redress-payment-notification-2026",
+        "title": "Hello Digit redress moves from automated-savings enforcement to a dated payment-notification stage"
+      },
+      {
+        "trend_id": "us-undp-human-development-ai-choice-2023-2025",
+        "title": "High average human development does not settle the question of who can exercise new choices"
+      },
+      {
+        "trend_id": "comparative-pinterest-hobbies-2026-screen-free-tactile-repair-identity",
+        "title": "Hobby culture is moving toward screen-free, tactile, repair-oriented, and highly personal practices that turn online discovery into offline attention and visible results"
+      }
+    ],
     "time_hidden_price": [
+      {
+        "trend_id": "us-nyc-tremont-busway-time-access-2026",
+        "title": "A Bronx busway converts a safety and delay problem into operating access for 39,000 daily riders without yet proving realized time savings"
+      },
+      {
+        "trend_id": "us-ftc-progressive-leasing-repeat-refund-2025",
+        "title": "A large rent-to-own refund reaches a prior-cashing subgroup without proving price correction or durable household relief"
+      },
+      {
+        "trend_id": "us-ftc-mission-hills-repeat-refund-2026",
+        "title": "A repeat student-debt-relief refund is conditioned on prior cashing and payment exposure without proving debt correction"
+      },
+      {
+        "trend_id": "us-cfpb-wells-fargo-student-loan-redress-2016-2022",
+        "title": "A student-loan servicing order specifies redress reachability and later institutional completion without exposing borrower-level recovery"
+      },
+      {
+        "trend_id": "us-cfpb-premier-student-loan-redress-reissue-2025",
+        "title": "Aggregate redress cashing can be followed by reissue payments without proving account correction or same-consumer recovery"
+      },
+      {
+        "trend_id": "comparative-australia-fwc-westrip-dismissal-alternative-employment-remedy-2023",
+        "title": "Alternative employment can coexist with an unfair-dismissal remedy and an unresolved payment boundary"
+      },
       {
         "trend_id": "au-hotak-reactivation-continued-work-2025",
         "title": "An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order"
+      },
+      {
+        "trend_id": "au-fwc-alam-shah-injury-dismissal-reinstatement-2025",
+        "title": "An injury-related dismissal can produce a reinstatement and lost-pay order while actual compliance remains unverified"
+      },
+      {
+        "trend_id": "au-fwc-cartisano-backpay-no-return-2015",
+        "title": "Back pay and continuity can be implemented while actual workplace return remains unresolved"
       },
       {
         "trend_id": "us-cfpb-case-route-vintage-comparison-2024-2025",
@@ -139,174 +221,64 @@
         "title": "Climate concern is being filtered through affordability, health and credibility, making sustainability an everyday-value problem rather than a duty-only problem"
       },
       {
-        "trend_id": "comparative-foresight-factory-september-2026-cultural-consumer-trends-postpartum-phone-free-whimsy",
-        "title": "Consumer culture is reframing care, attention, and surprise: postpartum support, phone-free time, and whimsy become responses to optimized everyday life"
-      },
-      {
-        "trend_id": "comparative-mckinsey-state-consumer-2026-ai-health-experience-resourceful-value",
-        "title": "Consumer value is being recalculated through AI-mediated discovery, measurable wellness, experiences, and resourceful low-waste spending"
-      },
-      {
-        "trend_id": "us-sipp-reference-household-selection-2024",
-        "title": "Explicit household selection changes SIPP material-pressure diagnostics"
-      },
-      {
-        "trend_id": "usda-food-security-assistance-spending-2024-2025-2026",
-        "title": "Food access remains materially constrained while inflation-adjusted nutrition-assistance spending recedes"
-      },
-      {
-        "trend_id": "comparative-deloitte-genz-millennial-survey-2026-sequenced-ambition-ai-work",
-        "title": "Gen Z and millennials are sequencing ambition around stability, sustainable work, purpose and AI readiness rather than rejecting advancement"
-      },
-      {
-        "trend_id": "comparative-ipsos-generations-2026-life-stage-work-care-housing",
-        "title": "Generational differences are often life-stage effects: work moves from optimism through pressure toward selective stability while housing and care reshape milestones"
-      },
-      {
-        "trend_id": "comparative-ghana-bog-payments-2024-mobile-money-active-agent-risk",
-        "title": "Ghana\u2019s mobile-money system is scaling rapidly while active-agent capacity and oversight remain critical constraints"
-      },
-      {
-        "trend_id": "comparative-ipsos-global-trends-10th-edition-2026-trust-nostalgia-ai-climate",
-        "title": "Global publics are retreating toward local trust, personal control and present-focused coping as technology, institutions and climate feel less governable"
-      },
-      {
-        "trend_id": "comparative-gallup-state-global-workplace-2026-engagement-wellbeing-work-location",
-        "title": "Global work remains low-engagement and emotionally costly, while work location and regional context redistribute both agency and wellbeing"
+        "trend_id": "comparative-australia-fwc-meadley-payment-without-reinstatement-2013",
+        "title": "Compensation payment can be reported while reinstatement and durable recovery fail"
       }
     ],
     "consumer_power_recourse": [
       {
-        "trend_id": "us-cfpb-brightspeed-redress-distribution-2026",
-        "title": "A named consumer redress route identifies eligible victims and ongoing distribution, while successful recovery remains unobserved"
+        "trend_id": "us-cpsc-sauna360-infrared-fire-recall-2026",
+        "title": "A large product recall can provide a repair route while leaving owner-level safety restoration unmeasured"
       },
       {
-        "trend_id": "comparative-vml-future-100-2026-dysoptimism-ai-human-connection",
-        "title": "A \u2018dysoptimist\u2019 cultural mood is turning disruption into renewal, pairing AI experimentation with stronger demand for human connection and meaningful experience"
+        "trend_id": "us-ftc-progressive-leasing-repeat-refund-2025",
+        "title": "A large rent-to-own refund reaches a prior-cashing subgroup without proving price correction or durable household relief"
       },
       {
-        "trend_id": "comparative-ipsos-global-ai-attitudes-2026-wonder-worry-time-trust-environment",
-        "title": "AI adoption is becoming a negotiated bargain: time savings and future usefulness coexist with labor, environmental and commercial-trust concerns"
+        "trend_id": "us-ftc-publicis-liveramp-data-neutrality-remedy-2026",
+        "title": "A merger remedy can formalize neutral access and data firewalls around a digital-advertising intermediary while leaving implementation open"
       },
       {
-        "trend_id": "us-pew-ai-use-concern-regulation-2026",
-        "title": "AI adoption is broadening while perceived control and regulatory confidence remain weak"
+        "trend_id": "us-ftc-mission-hills-repeat-refund-2026",
+        "title": "A repeat student-debt-relief refund is conditioned on prior cashing and payment exposure without proving debt correction"
       },
       {
-        "trend_id": "us-ipsos-consumer-tracker-2026-ai-data-centers-household-costs",
-        "title": "AI infrastructure is becoming a household-cost and local-consent issue while consumers compress spending and protect human service"
+        "trend_id": "us-ct-snap-exit-grocery-card-bridge-2026",
+        "title": "A state-funded grocery-card bridge can cushion SNAP exit without proving durable food security"
       },
       {
-        "trend_id": "comparative-nielsen-gracenote-ai-entertainment-discovery-2026-gen-alpha-trust",
-        "title": "AI is becoming an entertainment-discovery interface for younger audiences faster than trust in its answers is consolidating"
+        "trend_id": "us-cfpb-wells-fargo-student-loan-redress-2016-2022",
+        "title": "A student-loan servicing order specifies redress reachability and later institutional completion without exposing borrower-level recovery"
       },
       {
-        "trend_id": "comparative-oecd-ai-employment-support-minimum-income-belgium-greece-2026",
-        "title": "AI-enabled employment support is being designed to move minimum-income beneficiaries from unstable entry jobs toward sustainable career progression"
+        "trend_id": "us-connecticut-snap-ebt-replacement-correction-2024",
+        "title": "A timely SNAP theft report can be denied after a form-process failure and corrected on appeal without public proof of replacement receipt"
       },
       {
-        "trend_id": "comparative-who-africa-health-workforce-2026-shortage-migration-absorption",
-        "title": "Africa's health-workforce crisis is an education-to-employment and retention failure as much as a training shortage, with migration and fiscal absorption shaping service access"
+        "trend_id": "us-ct-snap-storm-food-replacement-2026",
+        "title": "A verified disaster-food replacement route can restore a bounded benefit without proving food-security recovery"
+      },
+      {
+        "trend_id": "comparative-australia-fwo-southern-cross-care-underpayment-reachability-2026",
+        "title": "A worker question can trigger large back-pay correction while individual reachability remains unresolved"
+      },
+      {
+        "trend_id": "us-cfpb-premier-student-loan-redress-reissue-2025",
+        "title": "Aggregate redress cashing can be followed by reissue payments without proving account correction or same-consumer recovery"
       },
       {
         "trend_id": "comparative-ifpri-cgiar-agrifood-outlook-2050-climate-nutrition-livelihoods",
         "title": "Agrifood futures are being modeled as an interconnected system where population, income, technology, climate, demand, production, nutrition, livelihoods, and natural resources co-determine long-term outcomes"
       },
       {
-        "trend_id": "au-hotak-reactivation-continued-work-2025",
-        "title": "An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order"
-      },
-      {
-        "trend_id": "us-census-retail-food-services-sales-2026-august",
-        "title": "August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open"
-      },
-      {
-        "trend_id": "comparative-ipsos-pride-2026-lgbt-acceptance-brand-media-policy",
-        "title": "Broad LGBT acceptance is holding while support for brand advocacy, media visibility and contested policy issues diverges"
-      }
-    ],
-    "platforms_data_attention": [
-      {
-        "trend_id": "comparative-more-in-common-caught-between-sides-2026-conflict-cohesion-safety",
-        "title": "A distant conflict is reorganizing domestic safety judgments, identity boundaries, speech restraint, and interfaith cohesion even as most Britons reject a simple partisan side"
-      },
-      {
-        "trend_id": "comparative-vml-future-100-2026-dysoptimism-ai-human-connection",
-        "title": "A \u2018dysoptimist\u2019 cultural mood is turning disruption into renewal, pairing AI experimentation with stronger demand for human connection and meaningful experience"
-      },
-      {
-        "trend_id": "comparative-ipsos-global-ai-attitudes-2026-wonder-worry-time-trust-environment",
-        "title": "AI adoption is becoming a negotiated bargain: time savings and future usefulness coexist with labor, environmental and commercial-trust concerns"
-      },
-      {
-        "trend_id": "us-pew-ai-use-concern-regulation-2026",
-        "title": "AI adoption is broadening while perceived control and regulatory confidence remain weak"
-      },
-      {
-        "trend_id": "us-ipsos-consumer-tracker-2026-ai-data-centers-household-costs",
-        "title": "AI infrastructure is becoming a household-cost and local-consent issue while consumers compress spending and protect human service"
-      },
-      {
-        "trend_id": "comparative-nielsen-gracenote-ai-entertainment-discovery-2026-gen-alpha-trust",
-        "title": "AI is becoming an entertainment-discovery interface for younger audiences faster than trust in its answers is consolidating"
-      },
-      {
-        "trend_id": "comparative-malta-ai-cultural-audience-development-2025",
-        "title": "AI-informed audience development converted surrounding footfall into modestly higher cultural visitation at a Maltese arts centre"
-      },
-      {
-        "trend_id": "comparative-ucl-more-in-common-disagreeing-well-2026-speech-restraint-civic-space",
-        "title": "Britons value open disagreement but experience a shrinking, socially costly public space for expressing it"
-      },
-      {
-        "trend_id": "us-census-btos-ai-firm-size-sector-2025-2026",
-        "title": "Business AI adoption is concentrated by firm size and sector rather than spreading evenly"
-      },
-      {
-        "trend_id": "comparative-statcan-canada-misinformation-2026-exposure-detection-trust",
-        "title": "Canada's information ecosystem is age-stratified and misinformation-saturated, making trust and detection capacity part of civic infrastructure"
-      },
-      {
-        "trend_id": "comparative-eu-emerging-civic-participation-ai-middleware-2026",
-        "title": "Civic participation is becoming an AI-mediated public-service layer, shifting legitimacy toward listening, translation, moderation, and feedback capacity"
-      },
-      {
-        "trend_id": "comparative-foresight-factory-september-2026-cultural-consumer-trends-postpartum-phone-free-whimsy",
-        "title": "Consumer culture is reframing care, attention, and surprise: postpartum support, phone-free time, and whimsy become responses to optimized everyday life"
+        "trend_id": "comparative-australia-fwc-westrip-dismissal-alternative-employment-remedy-2023",
+        "title": "Alternative employment can coexist with an unfair-dismissal remedy and an unresolved payment boundary"
       }
     ],
     "housing_place_mobility": [
       {
-        "trend_id": "us-nyfed-economic-heterogeneity-april-2026",
-        "title": "A gasoline shock reverses some US household inflation and spending gaps"
-      },
-      {
-        "trend_id": "us-gallup-kettering-democracy-for-all-2026-local-national-legitimacy-frustration",
-        "title": "Americans retain commitment to democracy while national performance and accountability decline, producing a local-national legitimacy split"
-      },
-      {
-        "trend_id": "us-bls-cpi-2026-august",
-        "title": "August 2026 consumer prices rose with a gasoline-led energy contribution"
-      },
-      {
-        "trend_id": "us-census-retail-food-services-sales-2026-august",
-        "title": "August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open"
-      },
-      {
-        "trend_id": "comparative-hilda-australia-household-security-2026",
-        "title": "Australian household security is being stretched across housing, food, work fit, and life-course timing while intimate relationships remain a resilient resource"
-      },
-      {
-        "trend_id": "comparative-ucl-more-in-common-disagreeing-well-2026-speech-restraint-civic-space",
-        "title": "Britons value open disagreement but experience a shrinking, socially costly public space for expressing it"
-      },
-      {
-        "trend_id": "us-nber-local-business-application-transition-employer-firm-2026",
-        "title": "Business applications and employer-firm formation are different local economic stages"
-      },
-      {
-        "trend_id": "us-bfs-bds-sector-dynamics-2023",
-        "title": "Business formation signals diverge from realized establishment and job capacity by sector"
+        "trend_id": "us-nyc-tremont-busway-time-access-2026",
+        "title": "A Bronx busway converts a safety and delay problem into operating access for 39,000 daily riders without yet proving realized time savings"
       },
       {
         "trend_id": "us-cdc-places-vintage-comparison-2024-2025",
@@ -323,6 +295,34 @@
       {
         "trend_id": "us-california-fair-joint-sensitivity-2022",
         "title": "California joint insurance gradients are sensitive to income and wildfire-risk cut points"
+      },
+      {
+        "trend_id": "us-cces-local-capacity-trust-action-party-2024",
+        "title": "Capacity-cell political context varies sharply by party identity as well as place"
+      },
+      {
+        "trend_id": "comparative-oecd-sustainable-infrastructure-asia-2026-climate-finance-delivery",
+        "title": "Central and Southeast Asia face an infrastructure expansion choice between carbon-intensive lock-in and better-planned, climate-resilient, inclusive delivery"
+      },
+      {
+        "trend_id": "us-cbo-climate-disaster-homeowners-insurance-2024",
+        "title": "Climate and disaster risk can move homeowner losses into household and federal exposure"
+      },
+      {
+        "trend_id": "us-california-doi-wildfire-county-context-2022",
+        "title": "Counties with greater modeled wildfire exposure show somewhat higher voluntary-market nonrenewal in a 2022 California screen"
+      },
+      {
+        "trend_id": "us-cces-county-growth-trust-action-2024",
+        "title": "County growth context coincides with distinct federal trust patterns while civic action remains stable"
+      },
+      {
+        "trend_id": "us-cdc-places-county-capacity-outcomes-2024",
+        "title": "County health-sector capacity and modeled social-need measures align descriptively but not as a care-adequacy estimate"
+      },
+      {
+        "trend_id": "us-lbnl-data-center-electricity-load-2023-2030",
+        "title": "Data-center electricity demand turns digital capability into infrastructure demand"
       }
     ]
   }

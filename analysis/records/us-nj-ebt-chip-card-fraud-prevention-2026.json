@@ -1,0 +1,108 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nj-ebt-chip-card-fraud-prevention-2026",
+  "title": "Chip-card deployment can reduce future EBT theft exposure without restoring theft losses",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "New Jersey Human Services EBT chip-card fraud-prevention rollout",
+  "geography": "New Jersey SNAP and Work First New Jersey cardholders",
+  "observations": [
+    {
+      "period": "July 2026 EBT chip-card pilot and planned statewide rollout",
+      "denominator": {
+        "value": 3,
+        "unit": "counties in the initial SNAP/WFNJ chip-card pilot; statewide rollout planned",
+        "value_type": "reported_program_scope"
+      },
+      "measures": {
+        "prevention_control": {
+          "value": "EMV chip-enabled EBT cards introduced in a three-county pilot; replacement-card requests statewide receive a chip card",
+          "unit": "reported administrative control",
+          "value_type": "reported_process"
+        },
+        "recourse_boundary": {
+          "value": "Electronically stolen SNAP and WFNJ benefits on or after December 21, 2024 are not eligible for replacement under the stated federal funding rule",
+          "unit": "reported eligibility boundary",
+          "value_type": "reported_policy_rule"
+        },
+        "benefit_continuity": {
+          "value": "The chip-card route is designed to prevent future theft; the public release does not report restored stolen benefits, food-gap duration, or later household security",
+          "unit": "evidence boundary",
+          "value_type": "bounded_interpretation"
+        }
+      },
+      "method": "Structured extraction from the official New Jersey Human Services press release and EBT theft guidance; prevention, replacement-card access, and post-December-2024 replacement ineligibility are retained as separate stages.",
+      "uncertainty": "The public sources do not disclose pilot uptake, card activation, prevented theft, victim-level replacement, food adequacy, substitution, appeal outcomes, trust, or exit.",
+      "subgroup": "New Jersey SNAP and WFNJ cardholders; initial chip-card pilot counties are Cumberland, Essex, and Mercer.",
+      "counterinterpretation": "A more secure card can lower future exposure while leaving prior electronically stolen benefits unrecovered; prevention and remedy receipt are distinct outcomes.",
+      "source_url": "https://www.nj.gov/humanservices/news/pressreleases/2026/approved/20260713.shtml",
+      "retrieval_hash": "sha256:174ad8a97b3e8cab371a167167325cf85b4fe169ea915782daa12f792c528707",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026 statewide chip-card availability and pilot transaction report",
+      "denominator": {
+        "value": null,
+        "unit": "New Jersey SNAP and WFNJ participants; statewide count not disclosed in the release",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "statewide_distribution": {
+          "value": "EBT chip cards reported distributed statewide",
+          "unit": "reported program stage",
+          "value_type": "reported_implementation"
+        },
+        "pilot_transactions": {
+          "value": "hundreds of thousands",
+          "unit": "successful pilot transactions",
+          "value_type": "reported_aggregate_lower_bound"
+        },
+        "chip_transactions": {
+          "value": 100000,
+          "unit": "more than chip transactions during the pilot",
+          "value_type": "reported_aggregate_lower_bound"
+        },
+        "tap_transactions": {
+          "value": 41000,
+          "unit": "tap-to-pay transactions during the pilot",
+          "value_type": "reported_aggregate"
+        },
+        "online_purchases": {
+          "value": 56000,
+          "unit": "online purchases during the pilot",
+          "value_type": "reported_aggregate"
+        },
+        "activation_and_transfer_rule": {
+          "value": "Benefits automatically transfer when the new card is activated; remaining-county old cards stop working October 20, 2026 and new cards not activated by November 20, 2026 require a replacement request",
+          "unit": "reported operational timing and account-transfer rule",
+          "value_type": "reported_process_boundary"
+        }
+      },
+      "method": "Structured extraction from the official New Jersey statewide-availability release; rollout and transaction counts are retained as implementation outputs, not as unique-user activation or prevented-theft rates.",
+      "uncertainty": "The release and implementation page do not disclose unique cardholders, activation rate, transaction denominator, prevented theft, replacement of prior losses, food adequacy, or later household outcomes; the deadline and transfer rules do not prove individual usability.",
+      "subgroup": "New Jersey SNAP and WFNJ participants; transaction counts refer to the pilot phase and are not unique people.",
+      "counterinterpretation": "Statewide distribution and early secure-payment use demonstrate implementation reach, but transaction volume can coexist with unmeasured nonactivation, inaccessible replacement, prior unrecovered loss, or continued fraud.",
+      "source_url": "https://www.nj.gov/humanservices/news/pressreleases/2026/approved/20260910.shtml",
+      "retrieval_hash": "sha256:b5af4c2e0bdc4ec1b10e2217e5abe87b2c5a80199b73a10e72d3dee47dab5b36",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://nj.gov/humanservices/dfd/resources/stolen/",
+      "claim": "New Jersey's current theft guidance states that electronically stolen SNAP and WFNJ benefits on or after December 21, 2024 are not eligible for replacement and directs cardholders toward prevention controls.",
+      "status": "official-current-guidance"
+    },
+    {
+      "source_url": "https://www.nj.gov/humanservices/dfd/chipcard/",
+      "claim": "The chip-card implementation page describes statewide mailing, automatic benefit transfer upon activation, old-card deactivation and activation deadlines, and replacement instructions; it does not establish individual activation, prevented theft, or household recovery.",
+      "status": "official-implementation-page"
+    }
+  ],
+  "boundary": "This record establishes a named state prevention and card-access response plus a federal-policy boundary on replacement of later electronic theft. It does not establish prevented theft, restoration of stolen benefits, food security, adequacy, trust, or exit."
+}

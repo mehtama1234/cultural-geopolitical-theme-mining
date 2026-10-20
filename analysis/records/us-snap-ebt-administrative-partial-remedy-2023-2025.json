@@ -1,0 +1,108 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-snap-ebt-administrative-partial-remedy-2023-2025",
+  "title": "Two public SNAP EBT cases show contrasting administrative endpoints—partial replacement with residual denial and affirmed denial—without household recovery",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Two deliberately non-pooled Connecticut and New Jersey SNAP EBT administrative hearing decisions",
+  "geography": "Connecticut and New Jersey, United States; anonymized SNAP households and state administrative review systems",
+  "observations": [
+    {
+      "period": "2023; Connecticut OLCRAH Request No. 226201",
+      "denominator": {
+        "value": 1,
+        "unit": "anonymized Connecticut SNAP administrative hearing case",
+        "value_type": "single_public_case"
+      },
+      "measures": {
+        "reported_loss": {
+          "value": 590.16,
+          "unit": "U.S. dollars of covered SNAP EBT loss found in the decision",
+          "value_type": "administrative_case_amount"
+        },
+        "replacement_issued": {
+          "value": 582,
+          "unit": "U.S. dollars credited to the SNAP EBT account, with a new card issued",
+          "value_type": "agency_reported_remedy_issuance"
+        },
+        "residual_claim": {
+          "value": 2125.34,
+          "unit": "U.S. dollars additionally requested by the appellant and denied after hearing",
+          "value_type": "administrative_appeal_amount"
+        },
+        "route": {
+          "value": "The appellant reported the theft, requested a replacement card, submitted the replacement form, filed a police report through her daughter, and appealed the residual claim",
+          "unit": "reported administrative route",
+          "value_type": "reported_case_sequence"
+        },
+        "later_household_outcome": {
+          "value": "not observed",
+          "unit": "missing independent receipt/use confirmation, food purchasing, bills, debt, adequacy, later benefit continuity, recurrence, trust, action, or exit",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Extraction from the official Connecticut DSS/OLCRAH Notice of Decision, Request No. 226201; one anonymized case is retained as a case unit and not used as a population rate.",
+      "uncertainty": "The public PDF redacts individual transaction, report, issuance, and hearing dates. Agency-recorded issuance is not independent confirmation of recipient use or adequate food access, and the case cannot estimate replacement frequency or denial rates.",
+      "subgroup": "One anonymized Connecticut SNAP household whose benefits were used for disputed out-of-state purchases while the physical card was retained; no demographic or household-outcome sample is supplied.",
+      "counterinterpretation": "A partial replacement may have restored some purchasing capacity, while the residual denial may have left an unmeasured gap; the public case does not reveal which material path occurred.",
+      "source_url": "https://portal.ct.gov/-/media/departments-and-agencies/dss/fair-hearings/snap-eligibility/snap-eligibility-2023/snap_2023_226201.pdf?rev=8748ed2d6a6b42d7ba2b207ea2e792cc",
+      "retrieval_hash": "sha256:3683c396b4f09afdb9fb4e52006c52550b532b34a25f12def626ebf393717615",
+      "status": "reported"
+    },
+    {
+      "period": "December 2024–June 2025; New Jersey F.W. v. Essex County Division of Welfare",
+      "denominator": {
+        "value": 1,
+        "unit": "published New Jersey SNAP EBT replacement administrative case",
+        "value_type": "single_public_case"
+      },
+      "measures": {
+        "disputed_transactions": {
+          "value": 400.34,
+          "unit": "U.S. dollars in three disputed EBT transactions",
+          "value_type": "claim_amount"
+        },
+        "claim_route": {
+          "value": "Replacement request filed December 9, 2024; agency denial December 13; administrative-law-judge hearing May 20, 2025; final decision affirming denial June 17, 2025",
+          "unit": "reported administrative timeline",
+          "value_type": "reported_case_sequence"
+        },
+        "remedy_disposition": {
+          "value": "No replacement was ordered; the final decision affirmed the denial after the agency reviewed the transactions and the petitioner's account",
+          "unit": "administrative remedy endpoint",
+          "value_type": "reported_denial"
+        },
+        "later_household_outcome": {
+          "value": "not observed",
+          "unit": "missing food, bill, debt, health, benefit-continuity, recurrence, trust, complaint, action, or exit outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Extraction from the official New Jersey final administrative decision; the agency's adopted reasoning is recorded as the disposition, not as independent proof of who made the transactions.",
+      "uncertainty": "This is one published case without a population denominator or independent transaction attribution. The decision records the agency and ALJ findings but does not measure the household's material consequence after denial.",
+      "subgroup": "One named New Jersey petitioner disputing SNAP EBT transactions at local stores; no linked food, household, or later administrative outcome is public.",
+      "counterinterpretation": "An affirmed denial can reflect a correct application of the replacement standard, an unresolved attribution problem, or an inadequate remedy pathway; the case alone cannot distinguish those explanations.",
+      "source_url": "https://www.nj.gov/humanservices/dfd/news/reports/pdf/FADs/2025/fw-v-essex-cdw.pdf",
+      "retrieval_hash": "sha256:9bb5faf6dda6ee2da86eb67faf16462b2a23ba6a8ab286c5b8df22644248f504",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This deliberately non-pooled record advances two public SNAP EBT cases through claim, administrative review, and contrasting partial remedy endpoints. It does not estimate population rates, establish independent transaction attribution, verify household food adequacy or recovery, or measure later trust, political action, recurrence, or exit.",
+  "related_sources": [
+    {
+      "source_url": "../../projects/us-safety-net-access/public-benefit-episode-acquisition-gate-2026-10-19.md",
+      "claim": "The project gate defines the missing receipt, adequacy, correction, persistence, and later-security fields and retains both cases as partial endpoints.",
+      "status": "project-boundary"
+    }
+  ],
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Connecticut and New Jersey PDF decisions downloaded and hashed on 2026-10-20; each hash covers the corresponding source PDF.",
+    "checked": "2026-10-20"
+  }
+}

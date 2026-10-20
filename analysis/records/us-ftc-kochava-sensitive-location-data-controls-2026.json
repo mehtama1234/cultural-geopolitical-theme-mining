@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-kochava-sensitive-location-data-controls-2026",
+  "title": "A proposed sensitive-location-data order creates consent and deletion controls without proving restored privacy or safety",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Federal Trade Commission proposed stipulated order and enforcement announcement concerning Kochava and Collective Data Solutions; proposed data-governance controls, not a representative sample of affected people or completed privacy outcomes",
+  "geography": "United States data-broker market, consumers whose precise location data may be handled by Kochava or Collective Data Solutions, and federal privacy enforcement",
+  "observations": [
+    {
+      "period": "May 2026; FTC proposed order resolving Kochava litigation",
+      "denominator": {
+        "value": 1,
+        "unit": "proposed federal data-governance order",
+        "value_type": "institutional_order_count"
+      },
+      "measures": {
+        "sensitive_location_consent": {
+          "value": "sale, licensing, transfer, sharing, or disclosure of sensitive location data would require affirmative express consumer consent and use for a service directly requested by the consumer",
+          "unit": "proposed conduct control",
+          "value_type": "reported_remedy_design"
+        },
+        "sensitive_location_program": {
+          "value": "Kochava and its successor data-broker business would be required to maintain a comprehensive list of sensitive locations and a supplier-assessment program for location-data consent",
+          "unit": "proposed governance control",
+          "value_type": "reported_control_design"
+        },
+        "consumer_visibility_and_withdrawal": {
+          "value": "consumers could request the names of known recipients of their precise location data and receive an easy way to withdraw consent for sale",
+          "unit": "proposed consumer control route",
+          "value_type": "reported_recourse_design"
+        },
+        "retention_and_incident_controls": {
+          "value": "the order would require a data-retention schedule and incident reports to the FTC when the companies determine a third party shared precise location data contrary to contractual requirements",
+          "unit": "proposed accountability controls",
+          "value_type": "reported_control_design"
+        },
+        "individual_privacy_outcome": {
+          "value": "not observed",
+          "unit": "missing consent validity, recipient disclosure, withdrawal completion, deletion, incident impact, safety, health, trust, or platform-exit outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the FTC enforcement announcement and proposed-order description; conduct restrictions, consumer controls, retention, supplier, and incident-reporting provisions are coded separately from order approval, implementation, individual requests, and downstream effects.",
+      "uncertainty": "The FTC announcement says the stipulated final order would have the force of law only after approval and signature by a federal district judge. It does not report order implementation, the number of affected devices or people who use the controls, completed disclosures or withdrawals, deletion, incident resolution, or changes in exposure.",
+      "subgroup": "People whose precise location data may be collected, shared, or sold, including people visiting health facilities or places of worship; exposure, notice, consent, safety, and practical control may differ by device, broker, sensitive location, identity, and digital resources.",
+      "counterinterpretation": "Consent, recipient visibility, withdrawal, retention, and incident controls could make a data-broker route more contestable, but a formal control may still be difficult to exercise and cannot by itself prove that past disclosures stopped, data was deleted, or people avoided harm.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-ban-kochava-subsidiary-selling-sensitive-location-data-settle-charges-they-sold-location-data",
+      "retrieval_hash": "sha256:7c0b0aa2e5fa7b4ba3d8c96bf42a1f0f3c2c52b4b8c94d3a8e9c1b3c4f1a2d6e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/ftc-v-kochava-inc-timeline-item-2026-05-04",
+      "claim": "FTC case timeline identifies the proposed stipulated order for injunction and other relief.",
+      "status": "official-case-timeline"
+    },
+    {
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2022/08/ftc-sues-kochava-selling-data-tracks-people-reproductive-health-clinics-places-worship-other-sensitive-locations",
+      "claim": "The underlying FTC litigation alleged that precise location data could reveal visits to sensitive locations without consumers' awareness or consent.",
+      "status": "official-litigation-background"
+    }
+  ],
+  "boundary": "This record adds a later-stage data-governance route: proposed affirmative consent, direct-service limitation, sensitive-location inventory, supplier checks, consumer recipient visibility, consent withdrawal, retention, and incident reporting. It does not establish judicial approval, implementation, individual control use, deletion, past-disclosure cessation, incident resolution, safety, health, trust, switching, or exit. The next test would require authorized implementation or request-level evidence preserving notice, consent, disclosure, withdrawal, deletion, recurrence, and downstream outcome separately.",
+  "retrieval_hash": "sha256:7c0b0aa2e5fa7b4ba3d8c96bf42a1f0f3c2c52b4b8c94d3a8e9c1b3c4f1a2d6e"
+}

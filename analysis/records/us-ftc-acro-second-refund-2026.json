@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-acro-second-refund-2026",
+  "title": "A repeat FTC refund is conditioned on prior payment acceptance while second-check cashing and debt recovery remain unobserved",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "FTC ACRO Services debt-relief refund program and repeat-payment route",
+  "geography": "United States consumers affected by ACRO Services debt-relief practices",
+  "observations": [
+    {
+      "period": "September 2026; second-round refund dispatch checkpoint",
+      "denominator": {
+        "value": 5685,
+        "unit": "people reported as having accepted the first refund and receiving a second-round check",
+        "value_type": "agency_reported_recipient_conditioned_count"
+      },
+      "measures": {
+        "second_round_total": {
+          "value": 6200000,
+          "unit": "U.S. dollars or more",
+          "value_type": "agency_reported_aggregate"
+        },
+        "first_round_total": {
+          "value": 3800000,
+          "unit": "U.S. dollars or more reported for the first round",
+          "value_type": "agency_reported_aggregate"
+        },
+        "recipient_condition": {
+          "value": "accepted the first payment",
+          "unit": "administrative eligibility condition for the second round",
+          "value_type": "reported_selection_rule"
+        },
+        "second_check_receipt": {
+          "value": "not observed",
+          "unit": "missing individual delivery, cashing, returned-check, reissue, debt-balance, and account-correction outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the current official FTC ACRO Services refund page, with the project event ledger retained as the compact reproduction layer. The first-payment acceptance condition is kept separate from second-check delivery or cashing.",
+      "uncertainty": "The public page does not provide individual amounts, the total harmed population, first-payment timing, second-check cashing, original debt balance, residual fees, or household recovery. A recipient-conditioned repeat payment cannot be converted into a recovery rate for all harmed consumers.",
+      "subgroup": "People who accepted the first ACRO refund and were selected for the second-round check; the record does not expose why other consumers were not included or any socioeconomic subgroup outcomes.",
+      "counterinterpretation": "Prior acceptance makes the second-round group more reachable than an unconditioned population, but it can also exclude people who never received, could not access, or could not cash the first payment.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/acro-services-refunds",
+      "retrieval_hash": "sha256:2eeab0d8da8cfa104c99bbe07c51b2968615773d23ffce56d1b39a8ba7f238dd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/enforcement/refunds",
+      "claim": "The FTC refund index lists ACRO Services as an official refund program and provides the program route.",
+      "status": "official-program-index"
+    },
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3186-acro-services-ftc-v",
+      "claim": "The FTC case materials provide enforcement context for the ACRO debt-relief refund program.",
+      "status": "official-case-page"
+    }
+  ],
+  "boundary": "This record follows a recipient-conditioned repeat-refund route from prior payment acceptance to reported second-check dispatch. It does not establish second-payment receipt, cashing, debt correction, adequacy, household recovery, trust, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the official FTC refund page; direct command-line access to the publisher page was rate-limited during canonical promotion.",
+    "checked": "2026-10-20"
+  }
+}

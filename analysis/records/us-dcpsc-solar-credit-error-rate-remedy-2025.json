@@ -32,6 +32,16 @@
           "unit": "U.S. dollars per month per Solar for All subscriber for each month of participation during the audit period",
           "value_type": "proposed_remedy_amount"
         },
+        "audit_sample_and_scenario_range": {
+          "value": "the analysis covered 11 Solar for All CREF aggregations in the audit sample; scenario estimates ranged from $1.42 to $6.00 per subscriber-month, with $5.70 recommended for months of underpayment; a full-period subscriber would receive roughly $245 under the recommended approach",
+          "unit": "audit-sample scope and modeled remedy scenarios",
+          "value_type": "reported_regulatory_analysis"
+        },
+        "crediting_direction": {
+          "value": "six sampled SFA CREFs were net overpaid and five were net underpaid; every sampled CREF experienced both over- and underpayment months",
+          "unit": "CREF-level audit findings",
+          "value_type": "reported_crediting_variation"
+        },
         "institutional_response": {
           "value": "DOEE/consumer-side parties proposed an error-rate method to make subscribers or facilities whole despite unresolved customer-level billing records",
           "unit": "regulatory remedy design",
@@ -99,6 +109,16 @@
       "source_url": "https://edocket.dcpsc.org/apis/api/Filing/download?attachId=230494&guidFileName=b566be82-6e0c-4c65-85fb-8028e24574ed.pdf",
       "claim": "The related filing describes the unresolved crediting audit and missing billing-data problem.",
       "status": "official-related-filing"
+    },
+    {
+      "source_url": "https://edocket.dcpsc.org/apis/api/Filing/download?attachId=232090&guidFileName=a2c0004c-540e-4ec7-a081-3b04be819e37.pdf",
+      "claim": "The Office of the People's Counsel supports the error-rate method and reports the 11-CREF sample, the $5.70 recommendation, and the absence of documented full subscriber compensation.",
+      "status": "official-party-filing"
+    },
+    {
+      "source_url": "https://dcpsc.org/Newsroom/Watch-Open-Meetings.aspx?page=11",
+      "claim": "The DCPSC public meeting index lists an order regarding the Formal Case 1171 audit on the May 7, 2025 commission agenda; the checked public index does not provide account-level subscriber correction or receipt data.",
+      "status": "official-procedural-index"
     },
     {
       "source_url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/SfA%20Frequently%20Asked%20Questions.pdf",

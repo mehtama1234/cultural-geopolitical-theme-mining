@@ -40,6 +40,26 @@ different denominators and methods.
 | U.S. industrial grid finance | [DOE AEP Texas project](../../records/us-doe-aep-texas-transmission-loan-customer-savings-2026.json) records a July 2026 loan of up to $3.26 billion for roughly 2,800 miles of transmission work, with projected 100% more carrying capacity and about $685 million in 30-year customer savings for 1.1 million projected customers. DOE's [Hamlin–Roby review letter](https://www.energy.gov/documents/aep-texas-hamlin-roby-69kv-transmission-line-project) describes a 25.2-mile rebuild and says construction was anticipated to begin in September 2026. | The U.S. industrial chain has moved from closed financing and environmental review to a named scheduled-start stage, while large-load growth and household-cost claims remain linked in the public rationale. | A scheduled start is not construction progress or completion. The record still does not show energization, operating reliability, cost allocation, or a lower bill for a named household or business. |
 | U.S. realized infrastructure comparator | [NYPA Smart Path Connect](../../records/us-nypa-smart-path-connect-realization-2026.json) reports completion and energization on June 17, 2026: 45 new transmission miles, three new substations energized, six modified substations, and more than $438 million in reported annual system savings. NYISO Schedule 18 provides a formal facilities-charge and load-serving-entity allocation route. | A same-country, same-industry comparison shows that a project can reach physical operation and formal cost allocation, making the conversion chain more advanced than the AEP scheduled-start stage. | The public record does not show customer-level bills, rate-class incidence, outage change, or whether the reported system savings reached households and businesses. |
 
+### Hamlin–Roby project-identity reconciliation — 2026-10-20
+
+The public records cannot yet be safely treated as one continuous Hamlin–Roby
+construction record. A [Texas PUC construction-progress filing](https://interchange.puc.texas.gov/Documents/57477_194_1516744.PDF)
+lists project `TL0075867 / B192TXLRE` as a Hamlin–Roby 69-kV line rehabilitation
+in Jones and Fisher counties, with a 7.02-mile existing-line length, an August
+1, 2025 estimated start, a December 30, 2025 estimated finish, and 0% complete
+in the July 2025 report. The [DOE environmental-review letter](https://www.energy.gov/documents/aep-texas-hamlin-roby-69kv-transmission-line-project)
+instead describes a 25.2-mile rebuild, 471 structures removed and 258 new
+steel monopoles, with construction anticipated to begin in September 2026.
+
+This is a source-identity control, not evidence of delay or nonconstruction.
+The two records may represent different phases, scopes, or utility project
+identifiers, but the public documents reviewed here do not establish that
+mapping. The AEP route therefore remains a scheduled-start case until a PUC,
+ERCOT, AEP, or DOE record reconciles the identifiers and supplies dated
+construction completion, energization, operating reliability, cost allocation,
+or customer incidence. The 2025 PUC report must not be used as progress for the
+25.2-mile federal-review project without that reconciliation.
+
 ## Cross-source finding
 
 The strongest current pattern is a **capital-to-household conversion gap**.

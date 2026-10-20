@@ -1,0 +1,46 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-fwc-khan-platform-repeat-deactivation-2026",
+  "title": "A platform can reactivate a worker after one complaint and later deactivate again before an adjudicated access remedy",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Fair Work Commission Uber Eats platform reactivation and repeat-deactivation case [2026] FWC 48",
+  "geography": "Australia; Uber Eats delivery platform, FWC UDE2025/185",
+  "observations": [
+    {
+      "period": "August 2024 through January 12, 2026; repeated complaint, block, reactivation, deactivation, and order sequence",
+      "denominator": {
+        "value": 1,
+        "unit": "publicly adjudicated platform-worker case",
+        "value_type": "case_count"
+      },
+      "measures": {
+        "first_access_episode": {"value": "a 2024 user complaint led to a temporary block, warning, and later reactivation", "unit": "reported platform-access sequence", "value_type": "observed_case_sequence"},
+        "second_access_episode": {"value": "a second 2025 complaint led to another block, warning, preliminary notice, and final deactivation on July 29, 2025", "unit": "reported platform-access sequence", "value_type": "observed_case_sequence"},
+        "procedural_finding": {"value": "Commission found warnings and deactivation inconsistent with the Digital Labour Platform Deactivation Code and found no valid reason for final deactivation", "unit": "adjudicated procedural finding", "value_type": "observed_adjudication"},
+        "remedy": {"value": "reactivation, deemed work from July 20, 2025 until reactivation, and lost-pay quantum to be discussed by the parties", "unit": "reported remedy order", "value_type": "observed_remedy_order"},
+        "payment_and_durability": {"value": "not observed", "unit": "missing final reactivation, lost-pay amount, payment receipt, post-order account activity, earnings, recurrence, alternative work, trust, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "Repeated complaint-triggered access interruptions can make platform transparency and recurrence part of the worker's practical control surface; one reactivation does not establish durable access", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the primary Fair Work Commission decision [2026] FWC 48 and reactivation order; repeated access events, procedural disclosure, adjudication, and open lost-pay stages are kept separate.",
+      "uncertainty": "The public decision does not retain worker identity beyond the case, earnings, trips, household effects, exact lost-pay amount, payment receipt, account durability after reactivation, or later platform/non-platform work.",
+      "subgroup": "One Uber Eats delivery worker in a public protected-person case; no platform-worker prevalence denominator is supplied.",
+      "counterinterpretation": "A platform may have legitimate complaint and safety processes, and an adjudicated procedural failure does not establish substantive innocence or later livelihood; formal reactivation is not payment or durable access.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc48.pdf",
+      "retrieval_hash": "sha256:e2f90b86eb562ece19c2046d11d4f6fb7ad4c0089b73ad3c69e1c3dfd01ac4fc",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes repeated platform-access interruption, procedural adjudication, and a reactivation/lost-pay order. It does not establish final payment, durable access, recovered earnings, alternative work, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the primary FWC decision and order; worker account, trip, complaint, earnings, household, and platform-internal files are not retained.",
+    "checked": "2026-10-20"
+  }
+}

@@ -4,7 +4,7 @@
 continued work, and post-reactivation payment; separate lost-pay amount, receipt,
 and durability remain open
 
-**Checked:** 2026-09-18
+**Checked:** 2026-10-19
 
 The structured [broad event ledger](data/uber-hotak-end-to-end-event-ledger-v1.json)
 records the five observed/open arrows without treating ordinary post-reactivation
@@ -83,16 +83,16 @@ account reopened -> work performed/payment -> lost-pay recovery -> durable prote
 
 The first two arrows should not be silently promoted into the latter two.
 
-## Targeted public-record recheck (2026-09-18)
+## Targeted public-record recheck (2026-10-19)
 
 The official Fair Work Commission decision index and bulletin route were
 rechecked for `UDE2025/53`, `Hotak`, and a later lost-remuneration order. The
-merits decision states that payment was received for work performed after
-reactivation, while the reactivation order and decision preserve a separate
-lost-remuneration calculation. The recheck did not locate a later public filing
-that verifies payment of that separate remedy, net recovery, durable access, or
-non-retaliation. This is an indexed-public-record boundary, not evidence that
-the separate remedy was unpaid or that the worker stopped working.
+current official index and search results still expose the July and September
+2025 Full Bench decisions and the reactivation order, but no later public filing
+that fixes or verifies payment of the separate lost-remuneration amount, net
+recovery, durable access, or non-retaliation. This is an indexed-public-record
+boundary, not evidence that the separate remedy was unpaid or that the worker
+stopped working.
 
 The strongest currently observed chain remains:
 
@@ -132,6 +132,7 @@ trip activity, payment, and later recurrence.
 - [Hotak, [2025] FWCFB 214 — merits and formal reactivation order](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf)
 - [FWC Bulletin Volume 10/25 — Hotak case summary and remedy sequence](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-09-30.htm)
 - [Fair Work Commission decision search](https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders)
+- [Fair Work Commission regulated-worker update](https://www.fwc.gov.au/documents/resources/regulated-worker-quarterly-update-2025-11-07.pdf)
 
 ## Boundary
 

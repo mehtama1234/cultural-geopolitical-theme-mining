@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-lithuania-ukraine-drone-ew-industrial-cooperation-2026",
+  "title": "Lithuania and Ukraine move drone and electronic-warfare cooperation toward a planned local production route",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of a Lithuanian-Ukrainian industrial cooperation letter of intent",
+  "geography": "Lithuania, Ukraine, and European defence-industrial supply chains",
+  "observations": [
+    {
+      "period": "October 15, 2026; planned Lithuanian-Ukrainian drone and electronic-warfare production cooperation",
+      "denominator": {
+        "value": 1,
+        "unit": "signed letter of intent between Pekkla UAB and Ukraine's December One RND Ltd",
+        "value_type": "reported_industrial_cooperation_event"
+      },
+      "measures": {
+        "cooperation_scope": {
+          "value": "The parties reported cooperation on production and supply of electronic-warfare systems and UAV components",
+          "unit": "reported industrial cooperation scope",
+          "value_type": "reported_scope"
+        },
+        "planned_lithuanian_joint_venture": {
+          "value": "The Lithuanian defence minister stated that the aim was to establish a joint venture in Lithuania and start production in 2027",
+          "unit": "reported future production plan",
+          "value_type": "reported_plan"
+        },
+        "stated_state_capability_mechanism": {
+          "value": "Lithuania described local production as shortening logistics chains, strengthening the national economy, and improving industrial resilience and independence",
+          "unit": "official policy rationale",
+          "value_type": "reported_policy_claim"
+        },
+        "realized_production_and_effect": {
+          "value": "not observed",
+          "unit": "missing joint-venture formation, factory commissioning, production volume, delivered systems, accepted capability, workforce count, cost, and operational effect",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from the Lithuanian Ministry of National Defence account; the signed letter of intent and stated 2027 plan are retained separately from realized industrial output or military capability.",
+      "uncertainty": "The account does not provide a binding production contract, investment amount, ownership structure, facility identifier, production schedule beyond the stated target year, quantity, delivery, acceptance, or independent feasibility evidence.",
+      "subgroup": "Pekkla UAB, December One RND Ltd, Lithuanian and Ukrainian defence institutions, future industrial workers, and European UAV/electronic-warfare supply chains.",
+      "counterinterpretation": "A letter of intent can signal strategic alignment and a possible supply-chain option without becoming a funded, operating, or cost-competitive production facility.",
+      "source_url": "https://kam.lt/en/lithuania-gains-ukraines-drone-production-technology-says-minister-r-kaunas/",
+      "retrieval_hash": "sha256:4840395925a85b5fcd7a580d440701fa45ea9ed716fe93a156e564fe826882bf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://kam.lt/en/the-agreement-on-piorun-systems-has-been-finalized-says-r-kaunas-after-meeting-the-minister-of-national-defence-of-poland/",
+      "claim": "A related October 13 Lithuanian-Polish account describes a Piorun acquisition in its final stage and discusses air-defence and counter-UAV cooperation.",
+      "status": "related-context",
+      "access_boundary": "The Piorun procurement route and this industrial letter of intent are distinct; neither establishes the other's delivery or production outcome."
+    }
+  ],
+  "boundary": "This record establishes a reported industrial-cooperation plan and a stated 2027 production target. It does not establish a joint venture, factory operation, delivered systems, accepted military capability, economic benefit, or reduced external dependence."
+}

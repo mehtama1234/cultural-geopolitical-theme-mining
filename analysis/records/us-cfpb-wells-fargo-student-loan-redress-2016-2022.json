@@ -1,0 +1,104 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-wells-fargo-student-loan-redress-2016-2022",
+  "title": "A student-loan servicing order specifies redress reachability and later institutional completion without exposing borrower-level recovery",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "CFPB Wells Fargo private student-loan servicing consent order and order-termination record",
+  "geography": "United States borrowers affected by Wells Fargo private student-loan servicing",
+  "observations": [
+    {
+      "period": "August 22, 2016 CFPB consent order",
+      "denominator": {
+        "value": null,
+        "unit": "affected borrowers under the consent order; the retained public record does not expose the final person-level list",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "minimum_borrower_relief": {
+          "value": 410000,
+          "unit": "U.S. dollars at least",
+          "value_type": "ordered_borrower_relief_floor"
+        },
+        "redress_reachability_requirement": {
+          "value": "identify affected consumers, calculate individual amounts, issue payments, attempt to locate recipients, and follow up on returned or uncashed payments",
+          "unit": "ordered redress-plan requirement",
+          "value_type": "court_or_agency_ordered_process"
+        },
+        "correction_scope": {
+          "value": "servicing, disclosures, fees, payment consequences, and inaccurate credit-reporting practices were subject to corrective requirements",
+          "unit": "ordered operational and reporting correction",
+          "value_type": "reported_remedy_scope"
+        },
+        "borrower_receipt": {
+          "value": "not observed",
+          "unit": "missing person-level payment date, delivery, cashing, account correction, adequacy, residual loss, trust, and exit",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Extraction from the official CFPB consent order; redress-plan identification, payment, returned-payment follow-up, and credit-reporting correction requirements are kept separate from borrower-level completion.",
+      "uncertainty": "The order defines an institutional process but does not provide the final affected-borrower list or individual payment and account records in this retained layer. The $410,000 floor is not a per-borrower amount or recovery rate.",
+      "subgroup": "Borrowers affected by the servicing, fee, payment-consequence, disclosure, or credit-reporting practices addressed by the order; demographic and financial-vulnerability subgroup outcomes are not public here.",
+      "counterinterpretation": "A detailed follow-up obligation can improve reachability while still failing to reveal which borrowers were paid, reached, or made whole; formal design is not lived recovery.",
+      "source_url": "https://files.consumerfinance.gov/f/documents/2016-CFPB-0013Wells_Fargo_Bank_N.A.--_Consent_Order.pdf",
+      "retrieval_hash": "sha256:7cef262f0bc02dfa4f573d573aa39a4ef4cf7efd61b208f8a3f80f5a1134e602",
+      "status": "reported"
+    },
+    {
+      "period": "December 20, 2022 CFPB order-termination record",
+      "denominator": {
+        "value": null,
+        "unit": "consent-order obligations; borrower-level completion denominator is not published in the retained record",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "institutional_completion": {
+          "value": "CFPB reported that Wells Fargo fulfilled its obligations and terminated the order",
+          "unit": "formal regulatory status",
+          "value_type": "agency_reported_completion"
+        },
+        "reported_completion_components": {
+          "value": "remediation to specified consumers, reasonable furnishing policies, and redress of inaccurate furnishing for impacted consumers",
+          "unit": "reported institutional completion components",
+          "value_type": "agency_reported_scope"
+        },
+        "borrower_level_recovery": {
+          "value": "not observed",
+          "unit": "formal termination does not expose payment receipt, account state, credit correction, adequacy, residual loss, later borrowing, trust, or switching",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Extraction from the official CFPB termination document; formal closure is retained as an institutional endpoint and not converted into universal borrower receipt or recovery.",
+      "uncertainty": "The termination record is an agency-reported completion statement. It does not provide the person-level list, payment and correction timing, failed or returned payment count, adequacy, or later household and financial outcomes.",
+      "subgroup": "Borrowers covered by the original order and reported remediation; no borrower-level subgroup or later use outcome is available.",
+      "counterinterpretation": "The agency's completion statement may correspond to adequate remedy for affected borrowers, but the public record retained here cannot test that counterexample at the borrower level.",
+      "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_wells-fargo-na-2016_consent-order-termination_2022-12.pdf",
+      "retrieval_hash": "sha256:a9148d36cb9ee02381d2f3ab3973fe127c00eb9acdab91e6a9de56a60c4e2e59",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/wells-fargo-bank-na/",
+      "claim": "The CFPB case materials provide the enforcement context for Wells Fargo student-loan servicing and redress.",
+      "status": "official-case-page"
+    },
+    {
+      "source_url": "https://www.consumerfinance.gov/consumer-tools/student-loans/",
+      "claim": "The CFPB student-loan consumer-protection context provides the relevant borrower-service domain.",
+      "status": "official-consumer-resource"
+    }
+  ],
+  "boundary": "This record follows a named student-loan servicing route from alleged fees, payment confusion, and credit-reporting problems through an ordered redress/reachability design and later institutional termination. It does not establish borrower-level delivery, account correction, adequacy, household recovery, trust, continued borrowing, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official CFPB consent-order and order-termination PDFs were directly retrieved and hashed on 2026-10-20.",
+    "checked": "2026-10-20"
+  }
+}

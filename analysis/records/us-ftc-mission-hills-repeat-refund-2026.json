@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-mission-hills-repeat-refund-2026",
+  "title": "A repeat student-debt-relief refund is conditioned on prior cashing and payment exposure without proving debt correction",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "FTC Mission Hills Federal student-loan-debt-relief refund program and second-payment route",
+  "geography": "United States consumers affected by Mission Hills Federal and related student-loan-debt-relief practices",
+  "observations": [
+    {
+      "period": "February 2026; second-round refund dispatch checkpoint",
+      "denominator": {
+        "value": 10138,
+        "unit": "people reported as receiving a second-round check after cashing the first check and paying defendants more than $430",
+        "value_type": "agency_reported_recipient_conditioned_count"
+      },
+      "measures": {
+        "second_round_total": {"value": 627000, "unit": "more than U.S. dollars in second-round checks", "value_type": "agency_reported_aggregate"},
+        "first_round_total": {"value": 3400000, "unit": "more than U.S. dollars in first-round refunds sent in March 2024", "value_type": "agency_reported_aggregate"},
+        "recipient_condition": {"value": "cashed the first check and paid the defendants more than $430", "unit": "administrative eligibility condition for the second round", "value_type": "reported_selection_rule"},
+        "underlying_exposure": {"value": "FTC reported upfront fees and false promises about lowering or eliminating student-loan payments, without applying collected money to balances or obtaining forgiveness", "unit": "reported enforcement finding", "value_type": "reported_consumer_financial_exposure"},
+        "second_check_receipt_and_recovery": {"value": "not observed", "unit": "missing second-check delivery, cashing, debt-balance correction, residual fees, adequacy, and household recovery", "value_type": "unmeasured"}
+      },
+      "method": "Bounded extraction from the official FTC Mission Hills refund page; first-round refunds, prior cashing, second-round dispatch, and debt-recovery outcomes are kept as separate stages.",
+      "uncertainty": "The public page does not provide the full harmed denominator, individual amounts, first-check cashing rate, second-check cashing, debt-balance correction, residual loss, household adaptation, trust, switching, or exit. A recipient-conditioned second payment is not a recovery rate for all affected borrowers.",
+      "subgroup": "People who paid the defendants more than $430 and cashed the first refund check; no socioeconomic, loan-balance, or subgroup outcome is supplied.",
+      "counterinterpretation": "Prior check cashing makes the second-round population more reachable, but the condition can exclude people who never received, could not access, or could not cash the first payment; the payment also does not establish that a student-loan balance was corrected.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/mission-hills-federal-refunds",
+      "retrieval_hash": "sha256:36bc3f1660a4876e394cde3a1e4f86f2c9615883cb3914345b50b0ecc1541b63",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/enforcement/refunds",
+      "claim": "The FTC refund index lists Mission Hills Federal as an official refund program.",
+      "status": "official-program-index"
+    },
+    {
+      "source_url": "https://www.ftc.gov/enforcement/ftc-refund-programs/how-ftc-provides-refunds",
+      "claim": "The FTC describes prior payment cashing, address updates, reissue, and additional-payment stages in its refund process.",
+      "status": "official-process-guidance"
+    }
+  ],
+  "boundary": "This record establishes a student-debt-relief enforcement and recipient-conditioned second-refund route. It does not establish second-payment receipt, cashing, debt correction, adequate recovery, household security, trust, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the official FTC refund page HTML retrieved through the search.ftc.gov mirror for extraction.",
+    "checked": "2026-10-20"
+  }
+}

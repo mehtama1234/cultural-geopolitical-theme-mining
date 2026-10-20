@@ -1,0 +1,39 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-fwo-innovative-associates-cashback-2026",
+  "title": "Reported full back-pay can follow deliberate cashback exploitation while migrant-worker safety and recovery remain open",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning", "household_room_consumption"],
+  "source_unit": "Official Fair Work Ombudsman penalty follow-up release for Innovative Associates and owner",
+  "geography": "Sydney, Australia; temporary graduate visa worker",
+  "observations": [
+    {
+      "period": "July 2019–December 2020 employment; September 1, 2026 enforcement release",
+      "denominator": {"value": 1, "unit": "publicly described migrant-worker case; no population denominator", "value_type": "single_public_case"},
+      "measures": {
+        "unpaid_initial_work": {"value": 10, "unit": "weeks approximately", "value_type": "official_release_estimate"},
+        "reported_underpayment": {"value": 40164.49, "unit": "Australian dollars", "value_type": "official_release_amount"},
+        "company_penalty": {"value": 148000, "unit": "Australian dollars", "value_type": "court_penalty"},
+        "owner_penalty": {"value": 29000, "unit": "Australian dollars", "value_type": "court_penalty"},
+        "reported_backpay": {"value": "paid in full", "unit": "institutionally reported gross remedy; transfer date, worker-signed receipt, net amount, and adequacy not retained", "value_type": "reported_received"},
+        "cashback_mechanism": {"value": "worker was required to transfer money to owner-controlled accounts so part could be returned as wages and satisfy tax/superannuation obligations", "unit": "reported unlawful payment arrangement", "value_type": "official_case_description"}
+      },
+      "method": "Structured extraction from the official Fair Work Ombudsman penalty release; exposure, assistance request, reported back-pay, penalties, and downstream recovery gaps are kept separate.",
+      "uncertainty": "One case cannot estimate migrant-worker exploitation, cashback prevalence, enforcement reach, payment, or recovery rates. The release does not provide independent payment confirmation, household effects, later employment, health, trust, recurrence, or exit outcomes.",
+      "subgroup": "One Nepalese temporary graduate visa holder employed part-time as an assistant accountant; the official release describes deliberate underpayment and cashback conduct.",
+      "counterinterpretation": "Reported full back-pay may restore a formal monetary entitlement while leaving visa-linked vulnerability, help-seeking burden, safety, adequacy, trust, and future work consequences unmeasured.",
+      "source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/september-2026/20260901-innovative-associates-penalty-media-release",
+      "retrieval_hash": "sha256:c36bcfe0c9b817912417248c5edf355724140bd4beb97f3ae1498933a98f86a6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/september-2026/20260901-innovative-associates-penalty-media-release", "claim": "Official Fair Work Ombudsman account of the deliberate cashback conduct, penalties, and reported full back-pay.", "status": "official-release"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the committed project ledger containing the bounded official-release extraction.",
+    "access_boundary": "The public release reports full back-pay and penalties but not payment instrument, transfer timing, net receipt, adequacy, later work, household recovery, health, trust, recurrence, or exit."
+  },
+  "boundary": "This record closes a reported full-back-pay endpoint for one vulnerable migrant worker after deliberate cashback exploitation and public enforcement. It does not establish independent receipt verification, adequacy, durable recovery, prevalence, general enforcement performance, recurrence, collective action, or exit."
+}

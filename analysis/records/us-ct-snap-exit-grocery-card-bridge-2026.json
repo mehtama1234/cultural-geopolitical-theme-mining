@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ct-snap-exit-grocery-card-bridge-2026",
+  "title": "A state-funded grocery-card bridge can cushion SNAP exit without proving durable food security",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Connecticut state-funded grocery assistance for residents losing SNAP eligibility",
+  "geography": "Connecticut residents pushed out of SNAP by federal work-rule changes",
+  "observations": [
+    {
+      "period": "June–August 2026 state-funded grocery-card bridge",
+      "denominator": {
+        "value": 25000,
+        "unit": "roughly Connecticut residents expected to lose SNAP eligibility under the announced plan; actual distributed-recipient count not disclosed",
+        "value_type": "reported_expected_population"
+      },
+      "measures": {
+        "grocery_card_amount": {
+          "value": 300,
+          "unit": "U.S. dollars per eligible individual",
+          "value_type": "reported_benefit_amount"
+        },
+        "state_funding": {
+          "value": 8500000,
+          "unit": "U.S. dollars from Connecticut's Federal Cuts Response Fund",
+          "value_type": "reported_program_funding"
+        },
+        "distribution_start": {
+          "value": "August 4, 2026",
+          "unit": "statewide distribution start date",
+          "value_type": "reported_implementation"
+        },
+        "delivery_channel": {
+          "value": "Prepaid virtual grocery cards distributed through community action agencies, not loaded onto existing EBT cards",
+          "unit": "reported delivery route",
+          "value_type": "reported_process"
+        },
+        "eligibility_route": {
+          "value": "Individuals who lost SNAP eligibility because of the federal changes and received a DSS notice showing the three-month limit could request the benefit; eligibility was confirmed at request",
+          "unit": "reported eligibility and verification rule",
+          "value_type": "reported_process"
+        },
+        "persistence_rule": {
+          "value": "The card does not expire and unused balance remains until spent",
+          "unit": "reported benefit-use rule",
+          "value_type": "reported_process"
+        },
+        "reentry_support": {
+          "value": "Community action agencies distribute cards and connect recipients with supports intended to help regain SNAP eligibility",
+          "unit": "reported institutional support route",
+          "value_type": "reported_intention"
+        }
+      },
+      "method": "Structured extraction from Connecticut's official funding and distribution announcements; expected population, benefit amount, funding, distribution, eligibility, use, and reentry-support stages are kept separate from actual receipt and food outcomes.",
+      "uncertainty": "The public announcements do not disclose actual eligible, requested, approved, distributed, activated, or spent counts; card adequacy, food security, household substitution, SNAP reentry, trust, and exit remain unmeasured.",
+      "subgroup": "Connecticut individuals who lost SNAP eligibility under the stated federal work-rule changes; the expected 25,000 population is not an observed recipient denominator.",
+      "counterinterpretation": "A one-time $300 virtual grocery card can cushion an abrupt benefit exit and preserve reentry support while still leaving duration, adequacy, access, and durable household security uncertain.",
+      "source_url": "https://portal.ct.gov/governor/news/press-releases/2026/08-2026/governor-lamont-announces-distribution-of-state-funded-food-assistance",
+      "retrieval_hash": "sha256:b900cadb52c7950d2c61da33551a9341d9f6f37b6e9b12293f84ea4f2142bcce",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-announces-funding-for-snap-benefits",
+      "claim": "The June plan announced roughly 25,000 expected residents, $8.5 million in funding, and $300 grocery cards for people losing SNAP eligibility.",
+      "status": "official-program-design"
+    },
+    {
+      "source_url": "https://portal.ct.gov/dss/find-benefits-and-support/food-assistance/d-snap",
+      "claim": "Connecticut DSS describes the community-action-agency distribution route for the one-time $300 grocery card.",
+      "status": "official-current-guidance"
+    },
+    {
+      "source_url": "https://portal.ct.gov/dss/lists/administrative-hearings-decisions/snap-eligibility/snap-eligibility-2026",
+      "claim": "The maintained Connecticut SNAP Eligibility 2026 page repeats the August 4 community-action-agency referral for the $300 grocery card but publishes no distribution, spending, or reentry totals.",
+      "status": "official-post-distribution-recheck-2026-10-20"
+    }
+  ],
+  "boundary": "This record establishes a state-funded bridge from SNAP eligibility loss to a defined grocery-card distribution route and reentry-support intention. It does not establish individual eligibility confirmation, card receipt, spending, food adequacy, SNAP reentry, trust, or durable household recovery."
+}

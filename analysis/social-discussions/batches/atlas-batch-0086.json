@@ -1,0 +1,432 @@
+{
+  "schema": "social-augmentation-batch-v1",
+  "batch_id": "atlas-batch-0086",
+  "opened": "2026-10-19",
+  "window": "2025-10-17 through 2026-10-17",
+  "record_count": 10,
+  "atlas_record_ids": [
+    "us-atus-eldercare-provider-time-2024-2025",
+    "us-atus-eldercare-work-time-2023-2024",
+    "us-bea-household-production-account-2024",
+    "us-bls-atus-leave-access-unmet-need-2024-2025",
+    "us-federal-reserve-care-living-arrangements-2025",
+    "us-gao-airport-transit-availability-adoption-2026",
+    "us-gao-telework-travel-real-estate-planning-2026",
+    "us-nber-eitc-parent-care-gap-2026",
+    "us-pew-working-parent-work-family-boundary-2026",
+    "us-sipp-care-work-disability-official-variance-2024"
+  ],
+  "rows": [
+    {
+      "atlas_record_id": "us-atus-eldercare-provider-time-2024-2025",
+      "atlas_record_path": "analysis/records/us-atus-eldercare-provider-time-2024-2025.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Eldercare providers show a distinct time-allocation profile, but annual ATUS cells are not causal comparisons",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0086",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "eldercare providers show distinct time-allocation profile but annual atus cells are not time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "eldercare providers show distinct time-allocation profile but annual atus cells are not time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "eldercare providers show distinct time-allocation profile but annual atus cells are not time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "eldercare providers show distinct time-allocation profile but annual atus cells are not time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-atus-eldercare-work-time-2023-2024",
+      "atlas_record_path": "analysis/records/us-atus-eldercare-work-time-2023-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Eldercare is a large and uneven time institution",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0086",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "eldercare large uneven time institution atus respondent age combined published tables time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "eldercare large uneven time institution atus respondent age combined published tables time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "eldercare large uneven time institution atus respondent age combined published tables time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "eldercare large uneven time institution atus respondent age combined published tables time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-bea-household-production-account-2024",
+      "atlas_record_path": "analysis/records/us-bea-household-production-account-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Unpaid household production is a large part of the economy even when GDP leaves it out",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0086",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "unpaid household production large part economy even when gdp leaves out bea time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "unpaid household production large part economy even when gdp leaves out bea time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "unpaid household production large part economy even when gdp leaves out bea time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "unpaid household production large part economy even when gdp leaves out bea time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-bls-atus-leave-access-unmet-need-2024-2025",
+      "atlas_record_path": "analysis/records/us-bls-atus-leave-access-unmet-need-2024-2025.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Formal leave access does not guarantee usable time when workers need it",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0086",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "formal leave access does not guarantee usable time when workers need bls time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "formal leave access does not guarantee usable time when workers need bls time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "formal leave access does not guarantee usable time when workers need bls time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "formal leave access does not guarantee usable time when workers need bls time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-federal-reserve-care-living-arrangements-2025",
+      "atlas_record_path": "analysis/records/us-federal-reserve-care-living-arrangements-2025.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Care is organized through multigenerational living, unpaid substitution, and gendered work tradeoffs",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0086",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "care organized through multigenerational living unpaid substitution gendered work tradeoffs federal reserve time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "care organized through multigenerational living unpaid substitution gendered work tradeoffs federal reserve time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "care organized through multigenerational living unpaid substitution gendered work tradeoffs federal reserve time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "care organized through multigenerational living unpaid substitution gendered work tradeoffs federal reserve time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gao-airport-transit-availability-adoption-2026",
+      "atlas_record_path": "analysis/records/us-gao-airport-transit-availability-adoption-2026.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Airport transit availability is not the same as practical mobility",
+      "geography": "United States commercial airports; all 31 large-hub airports and selected medium/small airports, plus Census employee-commute estimates",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0086",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "airport transit availability not same practical mobility government accountability office gao-26-107817 public-transit time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "airport transit availability not same practical mobility government accountability office gao-26-107817 public-transit time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "airport transit availability not same practical mobility government accountability office gao-26-107817 public-transit time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "airport transit availability not same practical mobility government accountability office gao-26-107817 public-transit time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-gao-telework-travel-real-estate-planning-2026",
+      "atlas_record_path": "analysis/records/us-gao-telework-travel-real-estate-planning-2026.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Telework changes travel and place demand faster than planning systems can adjust",
+      "geography": "United States communities within 410 metropolitan planning organization boundaries; 2019–2024 data and planning actions through March 2025",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0086",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "telework changes travel place demand faster than planning systems can adjust government time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "telework changes travel place demand faster than planning systems can adjust government time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "telework changes travel place demand faster than planning systems can adjust government time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "telework changes travel place demand faster than planning systems can adjust government time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-nber-eitc-parent-care-gap-2026",
+      "atlas_record_path": "analysis/records/us-nber-eitc-parent-care-gap-2026.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Work incentives can reduce daughters' intensive parent care without a measured replacement",
+      "geography": "United States; adult daughters eligible for the Earned Income Tax Credit and their older parents",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0086",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "work incentives can reduce daughters' intensive parent care without measured replacement nber time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "work incentives can reduce daughters' intensive parent care without measured replacement nber time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "work incentives can reduce daughters' intensive parent care without measured replacement nber time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "work incentives can reduce daughters' intensive parent care without measured replacement nber time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-pew-working-parent-work-family-boundary-2026",
+      "atlas_record_path": "analysis/records/us-pew-working-parent-work-family-boundary-2026.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "Working-parent arrangements trade financial benefit against family and career experience",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0086",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "working-parent arrangements trade financial benefit against family career experience pew research center time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "working-parent arrangements trade financial benefit against family career experience pew research center time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "working-parent arrangements trade financial benefit against family career experience pew research center time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "working-parent arrangements trade financial benefit against family career experience pew research center time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    },
+    {
+      "atlas_record_id": "us-sipp-care-work-disability-official-variance-2024",
+      "atlas_record_path": "analysis/records/us-sipp-care-work-disability-official-variance-2024.json",
+      "canonical_theme": "time-care-social-reproduction",
+      "title": "SIPP care and work constraints differ by work-limiting disability status",
+      "geography": "United States",
+      "status": "in_review",
+      "batch_id": "atlas-batch-0086",
+      "platforms": {
+        "youtube": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ work-limiting disability status person reference month stratified time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "reddit": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ work-limiting disability status person reference month stratified time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "linkedin": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ work-limiting disability status person reference month stratified time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        },
+        "x": {
+          "status": "not_started",
+          "query": "sipp care work constraints differ work-limiting disability status person reference month stratified time-care-social-reproduction 2025-10-17..2026-10-17",
+          "retrieved": null,
+          "result_or_gap": null,
+          "social_record_ids": []
+        }
+      },
+      "terminal_reason": null,
+      "next_action": "acquire_and_normalize_platform_results"
+    }
+  ],
+  "status": "in_review"
+}

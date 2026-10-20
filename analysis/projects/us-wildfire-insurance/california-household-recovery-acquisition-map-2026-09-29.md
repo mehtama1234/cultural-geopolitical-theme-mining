@@ -123,6 +123,20 @@ household occupancy, and household mobility open.
 
 ## Join discipline
 
+### October 19, 2026 access-and-control checkpoint
+
+The [rebuild access and self-certification checkpoint](la-county-rebuild-access-self-certification-checkpoint-2026-10-19.md)
+adds a current administrative conversion stage. LA County now describes a
+self-certification pilot for eligible licensed professionals and qualifying
+owner-occupant replacement projects, with at least 20% random plan audits and
+full inspections at all construction stages. Its fee-deferral/refund route
+also states that qualifying owner-occupants may request relief and that
+refunds go to the original payee, usually within two to four weeks after a
+correct request. The public pages provide no request denominator, refund
+count, dollar total, project completion, occupancy, insurance continuity, or
+household outcome. This advances access and control design, not recovery
+receipt.
+
 The next extraction may support geography- and time-bounded comparison among
 fire, ZIP/census geography, permit status, debris-removal status, and claims
 aggregates. It must not infer a household claim trajectory from a matching

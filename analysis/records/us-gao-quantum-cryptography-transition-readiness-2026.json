@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-quantum-cryptography-transition-readiness-2026",
+  "title": "Quantum-risk exposure can precede cryptography inventories, funding, and testing while federal systems remain dependent on vulnerable controls",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108740 review of federal preparation for the emerging quantum threat to cryptography",
+  "geography": "United States federal Chief Financial Officer Act agencies and systems relying on cryptography to protect sensitive information",
+  "observations": [
+    {
+      "period": "24 CFO Act agencies and October 14, 2026 reissued public report",
+      "denominator": {
+        "value": 24,
+        "unit": "Chief Financial Officer Act agencies evaluated for post-quantum cryptography preparation",
+        "value_type": "reported_review_cohort"
+      },
+      "measures": {
+        "cryptographic_threat": {
+          "value": "a future cryptographically relevant quantum computer could compromise vulnerable cryptography, enable access to sensitive information, or decrypt stored data acquired before the computer exists; experts' development estimates vary and some place it as soon as the 2030s",
+          "unit": "reported future cyber-risk pathway",
+          "value_type": "reported_risk_scenario"
+        },
+        "preparation_practice_coverage": {
+          "value": "none of the 24 selected agencies fully addressed GAO's three preparatory practices for migration to post-quantum cryptography",
+          "unit": "reported agency preparation comparison",
+          "value_type": "reported_cohort_finding"
+        },
+        "preparation_gaps": {
+          "value": "agencies lacked sufficient cryptography expertise, processes for inventories of vulnerable cryptography and transition funding, and plans to guide post-quantum cryptography testing",
+          "unit": "reported federal preparation gaps",
+          "value_type": "reported_capacity_gap"
+        },
+        "recommendation_scale": {
+          "value": 89,
+          "unit": "recommendations in GAO's sensitive report to 23 agencies, including inventories of vulnerable cryptography and funding identification",
+          "value_type": "reported_recommendation_count"
+        },
+        "public_version_boundary": {
+          "value": "the public version makes no additional recommendations; it is a redacted public version of a sensitive report issued in September 2025 after coordination through September 2026 to remove sensitive information",
+          "unit": "reported publication and sensitivity boundary",
+          "value_type": "reported_disclosure_boundary"
+        },
+        "transition_conversion": {
+          "value": "not measured",
+          "unit": "agency inventory completion, funding, algorithm testing, system migration, supplier readiness, data confidentiality, authentication integrity, incident prevention, or public trust",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from the reissued public version of GAO-27-108740, based on evaluation of cryptography inventories, funding assessments, and planning documentation at 24 CFO Act agencies against three OMB-guided preparatory practices. Threat scenario, cohort readiness, capability gaps, recommendation scale, public-version boundary, and transition outcomes are retained as separate stages.",
+      "uncertainty": "The future development timing and capabilities of a cryptographically relevant quantum computer are uncertain. The public version is redacted and does not expose all sensitive agency details. Finding that no selected agency fully addressed the three practices does not quantify the vulnerability of every system or prove a future compromise.",
+      "subgroup": "Federal agencies, system owners, contractors, workers, and people whose sensitive information or public services depend on federal authentication, encryption, and data systems.",
+      "counterinterpretation": "Quantum-resistant migration is a long-lead preparedness task and current quantum computers cannot break the cryptography described; agencies may have undisclosed or partial controls outside the public version, while premature migration can impose cost and interoperability burdens.",
+      "source_url": "https://www.gao.gov/products/gao-27-108740",
+      "retrieval_hash": "sha256:5d10fe6f61ffc150670e523875d5d0602564ada7a0e6b03cb694c0ea6cb0829c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108740/index.html",
+      "claim": "The official accessible report contains the public preparation framework, agency cohort finding, and transition-risk discussion.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/assets/gao-27-108740.pdf",
+      "claim": "The official revised public PDF preserves the report's redaction and October 14, 2026 errata boundary.",
+      "status": "official-revised-pdf"
+    }
+  ],
+  "boundary": "This record advances a bounded quantum-threat-to-cryptography-preparation route. It does not establish the date or capability of a cryptographically relevant quantum computer, system-level vulnerability, agency inventory completion, funding, algorithm testing, migration, supplier readiness, compromise, incident prevention, or public trust outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and revised PDF links are retained for reproduction.",
+    "retrieval_hash": "sha256:5d10fe6f61ffc150670e523875d5d0602564ada7a0e6b03cb694c0ea6cb0829c",
+    "checked": "2026-10-20"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-dol-paid-employer-proof-wage-remedy-2019-2026",
+  "title": "Employer proof of wage payment strengthens a remedy route without proving worker receipt, adequacy, or durable payroll correction",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "U.S. Department of Labor Wage and Hour Division PAID program and performance release",
+  "geography": "United States; DOL Wage and Hour Division PAID program",
+  "observations": [
+    {
+      "period": "Current PAID program architecture checked September 19, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "employers and affected employees considered for PAID; no public episode or worker-level follow-up denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "trigger": {"value": "employer self-audit identifies potential minimum-wage, overtime, or qualifying FMLA violations", "unit": "reported program entry condition", "value_type": "reported_compliance_trigger"},
+        "review_and_payment_rule": {"value": "WHD reviews calculations; employer pays within 15 days of the summary and provides proof of payment and practice correction", "unit": "reported institutional remedy architecture", "value_type": "reported_remedy_control"},
+        "employee_choice": {"value": "employee may accept or decline the offered payment", "unit": "reported worker decision point", "value_type": "reported_worker_choice"},
+        "worker_receipt_and_durability": {"value": "not observed", "unit": "missing named worker delivery, cashing, adequacy, remaining loss, household effect, later payroll, recurrence, trust, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "A program can insert employer proof and prospective practice correction between remedy calculation and worker-level recovery, strengthening institutional accountability without closing the lived outcome", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from official DOL PAID program and questions-and-answers pages; program requirements are retained separately from named employer compliance and worker-confirmed recovery.",
+      "uncertainty": "The public architecture does not identify an employer episode, affected workers, payment instruments, worker receipt/cashing, adequacy, remaining loss, household effect, later work, trust, recurrence, or exit.",
+      "subgroup": "Employers and employees considered for voluntary PAID correction; no public worker-level or employer-level outcome sample is supplied.",
+      "counterinterpretation": "Proof supplied to WHD can coexist with non-cashing, insufficient compensation, unresolved household loss, continued dependence, or a worker declining payment for an unknown reason.",
+      "source_url": "https://www.dol.gov/agencies/whd/paid",
+      "retrieval_hash": "sha256:2bfc64e30399a1923050812be06b98d3a5cdd7ebcf2e58b4f6b9d869d538ee5e",
+      "status": "reported"
+    },
+    {
+      "period": "PAID performance release covering actions concluded through September 15, 2019",
+      "denominator": {
+        "value": 7429,
+        "unit": "employees in reported PAID actions",
+        "value_type": "agency_reported_program_denominator"
+      },
+      "measures": {
+        "back_wages": {"value": 4000000, "unit": "more than U.S. dollars reported put into employees' hands", "value_type": "agency_reported_aggregate"},
+        "aggregate_delivery": {"value": "reported wages put into employees' hands through PAID", "unit": "aggregate program performance result", "value_type": "reported_remedy_delivery"},
+        "employee_level_recovery": {"value": "not observed", "unit": "missing employee identity, amount, payment date, cashing, adequacy, residual loss, household effect, later payroll, and exit", "value_type": "unmeasured"},
+        "mechanism": {"value": "Aggregate reported delivery can demonstrate program reach while leaving the distribution and durability of recovery unresolved", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the official DOL WHD PAID performance release; aggregate employees and back wages are retained separately from recipient-level delivery and durability.",
+      "uncertainty": "The release provides no employee-level identifiers, amounts, payment rails, delivery or cashing record, adequacy, remaining loss, household outcome, later payroll, trust, recurrence, or exit.",
+      "subgroup": "Employees in PAID actions concluded by the reported period; no worker, employer, industry, or wage-loss subgroup outcome is supplied.",
+      "counterinterpretation": "More than $4 million put into employees' hands is stronger than a program rule, but it is not an independently verified worker recovery rate or proof of durable compliance.",
+      "source_url": "https://www.dol.gov/newsroom/releases/whd/whd20190926-0",
+      "retrieval_hash": "sha256:2bfc64e30399a1923050812be06b98d3a5cdd7ebcf2e58b4f6b9d869d538ee5e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a public wage-remedy architecture and aggregate PAID delivery result. It does not establish individual worker receipt, adequacy, account correction, durable payroll compliance, household recovery, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from official DOL PAID pages and performance release; employer self-audits, payroll, worker identities, payments, and restricted files are not retained.",
+    "checked": "2026-10-20"
+  }
+}

@@ -44,8 +44,8 @@
           "value_type": "adjudicated_record"
         },
         "financial_remedy": {
-          "value": "lost-remuneration quantum remained open and was directed for party consultation",
-          "unit": "formal lost-remuneration remedy stage; remedy payment not observed",
+          "value": "The 2025-09-23 order required reinstatement on the same terms and deemed regular work performed from 2025-03-24 through 2025-05-19; lost-remuneration quantum remained open for party consultation",
+          "unit": "formal access-restoration order and separate lost-remuneration remedy stage; remedy payment not observed",
           "value_type": "open_remedy_endpoint"
         }
       },
@@ -59,6 +59,16 @@
     }
   ],
   "related_sources": [
+    {
+      "source_url": "https://www.fwc.gov.au/documents/resources/regulated-worker-quarterly-update-2025-11-07.pdf",
+      "claim": "The Commission's October 2025 regulated-worker update confirms that Hotak was ordered to be reactivated on the same terms and that Uber was directed to restore pay lost during deactivation; it reports no quantum or payment receipt.",
+      "status": "official-case-summary"
+    },
+    {
+      "source_url": "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792023.pdf",
+      "claim": "The official 2025-09-23 order, effective 2025-09-26, required reinstatement on the same terms and deemed regular work performed during the 2025-03-24 to 2025-05-19 interruption; it does not state a lost-pay amount or receipt.",
+      "status": "official-adjudicated-order"
+    },
     {
       "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf",
       "claim": "The Full Bench merits record preserves the formal reactivation order, post-reactivation work/payment statement, and open lost-remuneration stage.",
@@ -77,8 +87,8 @@
   ],
   "boundary": "This comparative Australian case closes voluntary access restoration, subsequent observed work activity, and ordinary payment for post-reactivation work before and alongside a formal access-restoration order. It does not close lost-remuneration payment, net recovery, alternative work, durable protection, trust, collective action, or practical exit.",
   "reproduction_audit": {
-    "retrieval_hash_scope": "Existing committed local Hotak follow-up memo and targeted official decision URLs; no bulk archive retained",
+    "retrieval_hash_scope": "Existing committed local Hotak follow-up memo, targeted official decision URLs, and 2026-10-19 indexed public-record recheck; no bulk archive retained",
     "retrieval_hash": "local_memo:sha256:116224525f87796c0b4114a2b29cc2b2aeacbb0d50198f245e78050eb844c7d9",
-    "checked": "2026-09-18"
+    "checked": "2026-10-19"
   }
 }

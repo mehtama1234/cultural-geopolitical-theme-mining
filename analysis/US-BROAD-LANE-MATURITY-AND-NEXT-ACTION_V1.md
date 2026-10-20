@@ -1,6 +1,101 @@
 # Broad atlas lane maturity and next action v1
 
-**Checked:** 2026-09-21
+**Checked:** 2026-10-20
+
+**Live-infrastructure checkpoint — 2026-10-20:** the [Amtrak A-Interlocking
+follow-up](projects/us-infrastructure-operation-incidence/amtrak-a-interlocking-live-disruption-followup-2026-10-20.md)
+confirms a current named operating disruption with explicit bus, Metro, and
+rebooking alternatives. The customer-facing source still lacks actual uptake,
+passenger burden, accessibility, compensation, and post-restoration
+reliability, so the infrastructure lane advances its operating stage without
+qualifying a service-recovery claim.
+
+**Cultural-meaning checkpoint — 2026-10-19:** the [arts participation, social
+connection, and meaning comparison](projects/cross-domain/arts-participation-social-connection-meaning-comparison-2026-10-19.md)
+adds a bounded conversion map across income-stratified arts attendance,
+loneliness, contact frequency, and planned national ritual. This strengthens
+the trust/identity/meaning lane without treating attendance, contact, or
+celebration plans as belonging, civic action, or health benefit. The highest-
+value next action remains a named person, place, or event followed from access
+conditions through actual participation, repeated reciprocal connection, and
+later attributed meaning or action.
+
+**Geopolitical follow-up checkpoint — 2026-10-19:** the Lithuania incident
+route now has repeated operational response, a related civilian-disruption
+stage, and a posture-response stage. Lithuania reported six NATO Baltic
+air-policing alerts during September 21–27, five more during September 28–
+October 4, one further flight-regulation violation during October 5–11, and
+six further violations during October 12–18; a related balloon incursion
+reportedly disrupted civil flights and prompted a protest to Belarus. Lithuania
+also reported a company-sized border-security support deployment near
+Kaliningrad beginning October 8. This adds a domestic state-response stage,
+while NATO later linked the interception to stronger
+integrated air and missile defence and posture adaptation through initiatives
+including Drone Edge. This advances the route beyond immediate interception,
+but does not establish incident-level causation, deterrence, implementation,
+cost/readiness burden, measured passenger cost, or changed adversary behavior.
+
+**Energy-benefit conversion checkpoint — 2026-10-19:** the [Solar for All
+credit, remedy, and persistence audit](projects/cross-domain/solar-for-all-credit-remedy-persistence-audit-v1.md)
+now records a stronger implementation endpoint: four retained DCPSC project
+rows report monthly credits for all listed subscribers (309/309, 303/303,
+297/297, and 260/260). The route still does not expose customer-level credit
+dollars, remaining bills, arrears, correction receipt, or continuation. The
+next decisive evidence is therefore an account- or household-linked billing
+extract, not another reach or capacity count.
+
+**Continuation checkpoint — 2026-10-19 (post-rotation):** the bounded
+geopolitical and infrastructure passes now have explicit acquisition gates.
+The infrastructure pass adds PJM event-level operation, CHPE availability and
+outage evidence, Virginia cost/collateral and tax-administration machinery, and
+the exact missing bridge to facility payment, household/service incidence, and
+local acceptance. The worker-control pass adds the Hotak same-worker sequence
+through reactivation, post-restoration payment/work, and more than 150 later
+trips, while separate lost-pay receipt, household recovery, recurrence, and
+exit remain open. The October 19 Virginia public-record recheck found no named
+operator return, remittance, customer bill, or locality receipt, so that route
+now stops at a documented access gap pending a filed return, docket exhibit,
+tariff/bill record, or locality-held receipt. These are real middle-stage advances, not completed
+end-to-end routes.
+
+The bounded public-benefit route has now been run through two partial SNAP EBT
+administrative cases: one affirmed denial and one agency-recorded $582
+replacement credit followed by residual denial. Neither supplies later food
+adequacy, household recovery, trust, or exit. Do not repeat aggregate
+eligibility, processing, or replacement machinery. The next bounded route is
+the [platform/account follow-up acquisition gate](projects/us-customer-automation-recourse/platform-account-followup-acquisition-gate-2026-10-19.md),
+with the [infrastructure acquisition gate](projects/us-infrastructure-operation-incidence/infrastructure-operation-incidence-acquisition-gate-2026-10-19.md)
+and [worker-control stage audit](projects/us-worker-control-remedy/worker-control-stage-audit-v1.md)
+retained as parallel controls.
+
+The consumer route now has two dated refund checkpoints: Walmart reports checks
+dispatched to 65,022 affected consumers with a 90-day cashing window, while the
+Cleo AI route schedules PayPal payments from October 27, 2026 after an earlier
+notification window. These advance remedy administration and timing, but do
+not establish delivery, cashing or acceptance, adequacy, account correction,
+or later household and behavioral outcomes.
+
+That public-benefit search now has two contrasting partial administrative cases:
+a New Jersey SNAP EBT replacement claim through agency investigation,
+administrative hearing, and affirmed denial; and a Connecticut decision that
+records a $582 replacement credit before denying a larger residual claim. They
+close formal-review and partial-remedy stages while leaving actual food, bill,
+continuity, correction, and household-recovery outcomes open.
+
+**Continuation checkpoint — 2026-10-19:** the four-rotation starter pass added
+bounded depth artifacts for remote-work/care, nursing-home finance/capacity,
+AI work/organization/consumer value, and school-finance/place capacity. These
+strengthen material/time, care, consumer/work, and place/public-system
+interpretation without closing a same-unit end-to-end route.
+
+The consumer/account pass has now been bounded by the [platform/account
+follow-up acquisition gate](projects/us-customer-automation-recourse/platform-account-followup-acquisition-gate-2026-10-19.md):
+the Cash App public-record recheck found no recipient-level distribution or
+account follow-up. The next qualifying pass therefore returns to the lowest-
+density infrastructure/state lane: follow one named facility or project from
+operation through payment, service incidence, replaceability, and local or
+external response. Another complaint aggregate, formal policy, or capacity
+announcement is not sufficient.
 
 This is a planning control, not a quality score. A theme can have many
 records and still lack the same-unit middle needed for an end-to-end claim.

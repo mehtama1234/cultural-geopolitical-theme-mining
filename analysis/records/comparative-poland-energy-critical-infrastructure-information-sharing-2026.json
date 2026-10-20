@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-poland-energy-critical-infrastructure-information-sharing-2026",
+  "title": "Strategic energy firms plan shared threat intelligence before the resilience mechanism is operational",
+  "theme_ids": ["voice", "energy", "work", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "Polish Ministry of State Assets account of a five-company critical-infrastructure information-sharing intent agreement",
+  "geography": "Poland; national energy and extractive strategic companies",
+  "observations": [
+    {
+      "period": "October 7, 2026 intent agreement and planned CyberEnergyInfo24 mechanism",
+      "denominator": {
+        "value": 5,
+        "unit": "named strategic energy and extractive companies: ORLEN, PGE, Enea, Tauron, and KGHM",
+        "value_type": "official_signatory_count"
+      },
+      "measures": {
+        "intent_agreement": {"value": "Five companies signed an intent agreement to cooperate on critical-infrastructure security and create a sectoral threat-information mechanism", "unit": "reported governance stage", "value_type": "documented_intent_agreement"},
+        "planned_platform": {"value": "CyberEnergyInfo24 sectoral information-sharing platform", "unit": "reported planned institutional mechanism", "value_type": "reported_plan"},
+        "planned_analytic_center": {"value": "Analytical center for threat analysis and risk modeling", "unit": "reported planned institutional mechanism", "value_type": "reported_plan"},
+        "threat_scope": {"value": "Cyber, physical, insider, and hybrid threats, including vulnerabilities and incidents", "unit": "reported threat categories", "value_type": "reported_scope"},
+        "realized_resilience": {"value": "not observed", "unit": "missing platform launch, data-sharing activity, incident detections, response time, exercises, avoided disruption, and audit evidence", "value_type": "unmeasured"},
+        "mechanism": {"value": "Sectoral information sharing can turn concentrated firm ownership of critical infrastructure into shared situational awareness and coordinated response, but an intent agreement does not prove usable data exchange or resilience.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Polish Ministry of State Assets announcement. Signatories, intent agreement, planned platform, analytical center, threat scope, and stated public-security rationale are kept separate from implementation and incident outcomes.",
+      "uncertainty": "The announcement does not provide legal obligations, funding, platform launch date, technical architecture, participation rules, data volume, staffing, exercises, response metrics, or evidence of prevented disruption.",
+      "subgroup": "ORLEN, PGE, Enea, Tauron, KGHM, Polish energy and extractive infrastructure, workers, firms, and citizens dependent on supply continuity; no user-level outcome subgroup is supplied.",
+      "counterinterpretation": "A shared mechanism may improve threat visibility and reduce duplicated effort, while it may also remain symbolic, create data-governance or coordination costs, or fail to change response when firms face different incentives and capabilities.",
+      "source_url": "https://www.gov.pl/web/aktywa-panstwowe/bezpieczenstwo-ponad-konkurencja-strategiczne-spolki-lacza-sily-dla-ochrony-infrastruktury-krytycznej",
+      "retrieval_hash": "sha256:326ad56fdcef740dcaf52afc32480a17320359a06a9c85c7a38cde73726386f6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.pl/web/litwa/polska-i-litwa-wzmacniaja-wspolprace-energetyczna", "claim": "Harmony Link supplies a separate cross-border physical-interconnection and mutual-assistance route; it is not evidence of CyberEnergyInfo24 implementation.", "status": "related-context"}
+  ],
+  "boundary": "This record establishes a five-company intent agreement and planned information-sharing and risk-analysis mechanisms for Polish critical infrastructure. It does not establish platform operation, data exchange, improved detection, faster response, prevented disruption, lower outages, or household and firm resilience.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the official Polish Ministry source; incident logs, platform data, and user-level outcomes are not retained."
+  }
+}

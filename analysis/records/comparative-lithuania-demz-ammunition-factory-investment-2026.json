@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lithuania-demz-ammunition-factory-investment-2026",
+  "title": "A Lithuania–Ukraine ammunition-factory investment creates an industrial option before construction, output, or jobs are visible",
+  "theme_ids": ["work", "cost", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence account of the DEMZ ammunition-factory investment contract",
+  "geography": "Alytus and Prienai district, Lithuania; Lithuania–Ukraine defence-industrial partnership",
+  "observations": [
+    {
+      "period": "August 14, 2026; investment-contract announcement",
+      "denominator": {
+        "value": 1,
+        "unit": "named DEMZ ammunition-factory investment project",
+        "value_type": "official_investment_project_count"
+      },
+      "measures": {
+        "investment_stage": {"value": "Lithuania and Ukraine's DEMZ defence-industry company signed an investment contract to build a new ammunition factory in Lithuania", "unit": "reported investment commitment", "value_type": "ministry_reported_investment_contract"},
+        "location": {"value": "Alytus and Prienai district", "unit": "reported project geography", "value_type": "ministry_reported_location"},
+        "planned_jobs": {"value": 450, "unit": "new job opportunities; maximum stated projection", "value_type": "ministry_reported_employment_projection"},
+        "industrial_function": {"value": "ammunition factory planned in Lithuania", "unit": "planned industrial capability", "value_type": "ministry_reported_planned_function"},
+        "official_meaning": {"value": "official claims that the project strengthens Lithuania–Ukraine security partnership, defence-industry competitiveness, supply resilience, and the Lithuanian economy", "unit": "official interpretation", "value_type": "ministry_stated_purpose"},
+        "realization_and_effect": {"value": "not observed", "unit": "missing contract value, land/site, permits, financing, construction, equipment, production, deliveries, customers, hiring, wages, local suppliers, supply substitution, readiness, and local/public response", "value_type": "unmeasured"},
+        "mechanism": {"value": "A named cross-border investment contract creates a possible domestic ammunition-production option, but a commitment is not a built facility, output, realized jobs, or reduced external dependence.", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Structured extraction from the Lithuanian Ministry of National Defence announcement. Investment contract, location, job projection, planned function, official meaning, and unmeasured realization and effects are coded as separate stages.",
+      "uncertainty": "The announcement does not disclose contract value, site, permits, financing, construction start, facility completion, equipment, production capacity, deliveries, customers, actual hiring, wages, local supplier effects, supply substitution, readiness, or public acceptance.",
+      "subgroup": "DEMZ and Lithuanian/Ukrainian defense institutions, future workers and suppliers in Alytus and Prienai district, Lithuanian public finance, allied customers, and local residents; no affected-person denominator is supplied.",
+      "counterinterpretation": "The project may create industrial and partnership capacity, while an investment contract can remain unrealized, depend on external inputs, miss the job target, or impose fiscal and local land-use burdens not measured by the announcement.",
+      "source_url": "https://kam.lt/en/ukraines-demz-defence-industry-company-agreed-to-build-an-ammunition-factory-in-lithuania-creating-up-to-450-jobs/",
+      "retrieval_hash": "sha256:8f70d21246cc71a69a03aa52a17930a995752243350198ee766007ba6e425ace",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a reported Lithuania–Ukraine DEMZ investment contract to build an ammunition factory and a projected maximum of 450 jobs in Alytus and Prienai district. It does not establish contract value, construction, production, deliveries, actual jobs, supply substitution, readiness, local burden, or public legitimacy.",
+  "reproduction_audit": {
+    "checked": "2026-10-20",
+    "retrieval_hash_scope": "The hash covers the compact project follow-up memo derived from the Lithuanian Ministry of National Defence source; contract files, construction records, production data, employment records, and local-outcome data are not retained."
+  }
+}

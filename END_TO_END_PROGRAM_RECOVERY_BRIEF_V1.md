@@ -20,15 +20,22 @@ Before handing off or starting a new research cycle, run the consolidated
 sync, source coverage, provenance, observation records, finding and watchlist
 parity, published links, local links, and whitespace together.
 
-## Verified current checkpoint — 2026-09-30
+## Verified current checkpoint — 2026-10-20
 
-The atlas currently contains 14 themes, 2014 machine-readable records, 5,999
+The atlas currently contains 14 themes, 2130 machine-readable records, 6,179
 observations, 229 connections, 93 reading paths, 25 public
 episode events, and 2 validated episode arrows. Separately, the real broad
-event-ledger portfolio contains **98 ledgers, 302 events, and 454 typed arrows,
-including 164 explicitly open arrows**; the portfolio summary and validator keep
+event-ledger portfolio contains **103 ledgers, 317 events, and 488 typed arrows,
+including 177 explicitly open arrows**; the portfolio summary and validator keep
 those heterogeneous units distinct. These current portfolio counts supersede
 older handoff snapshots in this brief.
+
+The public-benefit rotation now includes three contrasting partial SNAP EBT
+case routes: New Jersey ends in an affirmed denial; one Connecticut case records
+a $582.00 replacement credit before denying a larger residual claim; and a new
+Connecticut case reaches a granted corrective order after a timely theft report
+was denied under an undocumented form-process clock. None supplies the full
+post-remedy route through food adequacy, household recovery, trust, or exit.
 
 The newest tariff-and-consumer pass is the [Ipsos Consumer Tracker record](analysis/records/comparative-ipsos-consumer-tracker-september-2026-tariffs-price-politics-trust.json), which links visible tariff-linked prices to product value, substitution, safety trust, household room, and political attribution; the companion [cross-domain memo](analysis/projects/cross-domain/ipsos-consumer-tracker-september-2026-tariffs-price-politics-trust-2026-09-29.md) keeps the named-product or household test open.
 
@@ -375,7 +382,7 @@ The latest belonging-and-place pass is the [YMCA Canada Connections Snapshot
 record](analysis/records/comparative-ymca-canada-connections-snapshot-2026-third-places-belonging.json),
 which adds the participation-infrastructure route from third-place supply and
 affordability through welcome, time, access, and durable belonging.
-The publication gate passes all 30 checks. The current worktree contains
+The publication gate passes all 34 checks. The current worktree contains
 program-owned changes from the continuation; use the validation gate, current
 ledgers, and continuity record as the authoritative state rather than inferring
 completion from git commit status.

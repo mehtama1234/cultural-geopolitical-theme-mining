@@ -83,7 +83,8 @@ benefited.” Control and captured gains are separate questions.
 **Do not overread:** current layers do not establish one general AI effect on
 employment, wages, or household security.
 
-Read the [AI work-control project](projects/ai-work-control/README.md).
+Read the [AI work-control project](projects/ai-work-control/README.md) and the
+[AI work, organization, and consumer-value synthesis](projects/cross-domain/us-ai-work-organization-consumer-value-2026-10-19.md).
 
 ## 6. The same visible behavior can mean freedom or constraint
 
@@ -269,7 +270,14 @@ quickly, and preserves food access during the gap.
 issuance is not verified receipt, and the record does not measure the food gap,
 adequacy, trust, or continued participation for each household.
 
-Read the [SNAP EBT theft/control ledger](projects/us-safety-net-access/data/snap-ebt-benefit-theft-control-event-ledger-v1.json).
+Read the [SNAP EBT theft/control ledger](projects/us-safety-net-access/data/snap-ebt-benefit-theft-control-event-ledger-v1.json),
+the [Connecticut partial-remedy case](projects/us-safety-net-access/findings/us-connecticut-snap-ebt-replacement-partial-remedy-2023-001.md),
+and the contrasting [New Jersey denial case](projects/us-safety-net-access/findings/us-new-jersey-snap-ebt-theft-hearing-denial-2025-001.md).
+
+The two administrative records sharpen the middle-stage boundary: one reports
+an issued $582 replacement credit before denying a larger residual claim, while
+the other ends in an affirmed denial. Neither record reaches food adequacy,
+household recovery, recurrence, trust, or exit.
 
 ## 17. A denial can be reversible and still costly
 
@@ -1189,7 +1197,8 @@ usable placement, and protected work time are separate stages.
 a current family-level take-up rate. The records do not link a named family
 to application, placement, completed care, work protection, trust, or exit.
 
-Read the [child-care access and capacity finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-046.md)
+Read the [child-care access and capacity finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-046.md),
+[remote-work and care bargain finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-047.md),
 and [care/work layer](projects/us-aging-care-strain/census-2025-childcare-challenges-work-adaptation-layer-v1.md).
 
 ## 57. The same benefit can leave different bills exposed
@@ -3427,7 +3436,13 @@ large customer that creates it.
 not evidence of a signed contract, collateral posting, minimum-charge payment,
 interconnection approval, energized load, enforcement, or household bill
 change. The public record does not yet show whether the rules prevented cost
-shifting, improved reliability, or produced durable public legitimacy.
+shifting, improved reliability, or produced durable public legitimacy. The
+follow-up docket search identifies Google and Microsoft as named participants
+in Dominion's PUR-2026-00011 large-load connection-queue proceeding, and the
+SCC identifies PUR-2026-00131 as the supplemental line-extension docket. That
+narrows the governance actors and next filing clock, but participation is not
+proof of a particular facility's energization, payment, reliability effect, or
+household incidence.
 
 Read the [Virginia large-load risk-allocation finding](projects/ai-work-control/findings/ai-work-control-103.md).
 
@@ -7146,8 +7161,11 @@ The CFPB's January 2025 enforcement action against Block, the operator of
 Cash App, described fraud-related losses and failures in dispute investigation
 and security practices. The order required operational changes and up to
 $120 million in consumer redress, alongside a separate $55 million civil
-penalty. The current public payment-by-case listing did not identify a Block
-or Cash App distribution in the recheck used for this atlas.
+penalty. It also identifies at least 153,866 claims without required timely
+provisional credit when investigations exceeded 10 business days, and a
+14-day/$25 frozen-account class eligible for a $50 redress component. The
+The 2026-10-19 CFPB payment-by-case recheck did not identify a Block
+or Cash App distribution.
 
 **Why it matters:** a digital payment system can make sending and receiving
 money easy while making the correction path institutionally dependent. The
@@ -8327,6 +8345,16 @@ acceptance.
 customer-class allocation, reliability improvement, project-cost incidence,
 host-community acceptance, or durable Canadian/U.S. leverage. Expected energy,
 emissions, and jobs are not the same as realized household benefit.
+
+The operating follow-up sharpens the boundary. The [canonical CHPE event ledger](projects/us-infrastructure-operation-incidence/data/chpe-operation-incidence-event-ledger-v1.json)
+now records commercial operation, heat-event use, outage/repair, and reported
+recovery as separate project-level events. Modo Energy reports a 20-day
+cable-splice outage after July 4, 13% first-summer capacity factor, zero output
+in 83% of five-minute intervals, and an afternoon/evening delivery pattern;
+its hot-day Zone J spread comparison is a conditional wholesale-market result,
+not a household bill or reliability estimate. The [CHPE operating-to-incidence
+gate](projects/us-infrastructure-operation-incidence/infrastructure-operation-incidence-acquisition-gate-2026-10-19.md)
+keeps those stages separate.
 
 Read the [Champlain Hudson Power Express operating record](records/us-nyserda-champlain-hudson-power-express-operation-2026.json).
 

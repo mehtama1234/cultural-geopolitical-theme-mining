@@ -1,0 +1,154 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-psr-app-policy-evaluation-2026-fraud-losses-incentives",
+  "title": "UK APP reimbursement policy reduced measured Faster Payments fraud while shifting prevention costs and uneven implementation onto payment firms",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Payment Systems Regulator summary of the Frontier Economics independent evaluation of APP scam policies, published 1 July 2026",
+  "geography": "United Kingdom; Faster Payments APP scam policy and payment service providers",
+  "observations": [
+    {
+      "period": "First year after October 2024 APP reimbursement requirement; Faster Payments APP scams",
+      "denominator": {
+        "value": null,
+        "unit": "Estimated policy effect on in-scope Faster Payments APP fraud losses; evaluation comparison design and full technical sample details retained in source report",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "fraud_loss_change": {
+          "value": -21,
+          "unit": "percent estimated reduction in APP fraud losses sent over Faster Payments after implementation",
+          "value_type": "evaluation_estimate"
+        },
+        "annual_loss_reduction": {
+          "value": 73000000,
+          "unit": "estimated pounds per year reduction in APP scam losses",
+          "value_type": "evaluation_estimate"
+        },
+        "scam_count_change": {
+          "value": -35000,
+          "unit": "estimated fewer APP scams under the policy",
+          "value_type": "evaluation_estimate"
+        },
+        "reimbursement_rate_change": {
+          "value": "54% before the policy to 65% after implementation",
+          "unit": "reported evaluation comparison; denominator and scope differ from later PSR dashboard measures",
+          "value_type": "evaluation_comparison"
+        },
+        "mechanism": {
+          "value": "Liability-sharing and reimbursement requirements can reduce fraud through stronger sending- and receiving-firm prevention incentives while also changing the measured reimbursement and reporting environment",
+          "unit": "bounded policy-effect mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Frontier Economics independent evaluation commissioned by the PSR; this record retains the PSR summary estimates and does not reproduce the full technical identification strategy.",
+      "uncertainty": "The summary does not disclose all comparison-period, firm-level, or scam-type details. Estimated loss reduction is not a person-level causal recovery measure, and the reimbursement comparison should not be mechanically combined with the PSR dashboard's later closed-claim calculation.",
+      "subgroup": "UK Faster Payments users and payment service providers exposed to the APP reimbursement requirement.",
+      "counterinterpretation": "Fraud can migrate to other payment rails, platforms, or scam channels; measured decline may reflect reporting, timing, composition, or policy-scope changes. Fewer losses do not establish that every victim was reimbursed adequately.",
+      "source_url": "https://www.psr.org.uk/news-and-updates/latest-news/news/payment-fraud-falls-by-73m-following-psr-reimbursement-scheme/",
+      "retrieval_hash": "sha256:8a54b8e5d0c2a698c1a42949e881066115d93679798c7a4fa34857d5f707d785",
+      "status": "estimated"
+    },
+    {
+      "period": "First year after October 2024; payment-service-provider response and policy cost",
+      "denominator": {
+        "value": null,
+        "unit": "Payment service providers and market-level policy costs in the independent evaluation",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "provider_prevention_response": {
+          "value": "PSPs reported stronger fraud controls across sending and receiving payments; the largest reductions occurred among firms with previously highest fraud rates",
+          "unit": "reported evaluation pattern",
+          "value_type": "reported_provider_response"
+        },
+        "annual_provider_cost": {
+          "value": "44m-56m",
+          "unit": "pounds per year estimated costs for prevention, claims handling, dispute management, reporting, and compliance",
+          "value_type": "evaluation_estimate"
+        },
+        "short_term_net_benefit": {
+          "value": "17m-29m",
+          "unit": "pounds per year estimated net benefit after policy costs",
+          "value_type": "evaluation_estimate"
+        },
+        "mechanism": {
+          "value": "Remedy rules can alter firm investment and market costs before they produce a stable consumer-trust or competition outcome",
+          "unit": "bounded institutional-cost mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Frontier Economics evaluation as summarized by the PSR; provider responses and cost estimates are retained as reported evaluation findings.",
+      "uncertainty": "Provider cost and net-benefit estimates are modeled and summary-level; they do not measure pass-through to fees, account access, service quality, innovation, or household welfare.",
+      "subgroup": "Payment service providers, their customers, and the broader UK Faster Payments ecosystem.",
+      "counterinterpretation": "Higher prevention and compliance costs may be absorbed by firms, passed through, or distributed unevenly; a positive aggregate net benefit can coexist with burdens for particular firms or users.",
+      "source_url": "https://www.frontier-economics.com/uk/en/news-and-insights/news/news-article-i22383-app-payment-scam-policies-reducing-fraud/",
+      "retrieval_hash": "sha256:21a3421119e7504b29f0de5dc09e9f07c0b1cee0844fd148fb2ebcfebdc5d6cc",
+      "status": "estimated"
+    },
+    {
+      "period": "First year after October 2024; distribution and unintended-outcome checks",
+      "denominator": {
+        "value": null,
+        "unit": "Policy evaluation and PSR supervisory assessment; not a consumer panel",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "implementation_consistency": {
+          "value": "Consumer outcomes still varied across payment service providers",
+          "unit": "reported PSR assessment",
+          "value_type": "reported_heterogeneity"
+        },
+        "consumer_caution_or_market_exit": {
+          "value": "No evidence of market exits or reckless consumer behavior predicted as a policy consequence",
+          "unit": "reported evaluation/supervisory finding",
+          "value_type": "reported_nonfinding"
+        },
+        "channel_shift_boundary": {
+          "value": "The evaluation notes potential fraud shifting toward channels outside the reimbursement policy; longer-term competition, innovation, and market behavior remain uncertain",
+          "unit": "reported uncertainty",
+          "value_type": "reported_boundary"
+        },
+        "mechanism": {
+          "value": "A positive short-term policy estimate can coexist with provider-level inconsistency, channel substitution, and unresolved longer-term trust or exit effects",
+          "unit": "bounded distributional mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "PSR public summary of the independent review and supervisory follow-up; qualitative findings are not treated as a consumer-level outcome estimate.",
+      "uncertainty": "No common person-level identifier links policy exposure, scam loss, reimbursement adequacy, later trust, account use, or switching. Absence of evidence for reckless behavior is not evidence of improved confidence or welfare.",
+      "subgroup": "Consumers and payment service providers affected by the UK APP reimbursement policy, with outcomes potentially varying by provider and fraud channel.",
+      "counterinterpretation": "Short-term stability may conceal delayed channel substitution, under-reporting, or provider-specific harm; market-level non-exit does not rule out individual switching or non-use.",
+      "source_url": "https://www.psr.org.uk/news-and-updates/latest-news/news/payment-fraud-falls-by-73m-following-psr-reimbursement-scheme/",
+      "retrieval_hash": "sha256:8a54b8e5d0c2a698c1a42949e881066115d93679798c7a4fa34857d5f707d785",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.frontier-economics.com/uk/en/news-and-insights/news/news-article-i22383-app-payment-scam-policies-reducing-fraud/",
+      "claim": "Frontier summary of the independent evaluation and its estimated loss, reimbursement, cost, and net-benefit effects.",
+      "status": "commissioned-evaluation"
+    },
+    {
+      "source_url": "https://www.psr.org.uk/information-for-consumers/app-scams-reimbursement-dashboard/",
+      "claim": "Later PSR dashboard for closed claims and returned money; retained as a separate measurement system.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds an independent policy-effect and provider-incentive layer to the UK payment-remedy route. It is not a recipient-level panel, not open-banking-specific, and not a proof of individual adequacy, residual loss, trust, switching, or durable household recovery. Its loss and reimbursement estimates should not be mechanically pooled with the PSR dashboard because timing, scope, and denominators differ.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "PSR press-release HTML reviewed for Frontier's estimated loss reduction, scam-count reduction, reimbursement comparison, provider variation, net-benefit range, and unintended-outcome notes; Frontier summary reviewed for provider-cost and incentive details.",
+    "source_url_sha256": "sha256:8a54b8e5d0c2a698c1a42949e881066115d93679798c7a4fa34857d5f707d785",
+    "checked": "2026-10-20"
+  }
+}

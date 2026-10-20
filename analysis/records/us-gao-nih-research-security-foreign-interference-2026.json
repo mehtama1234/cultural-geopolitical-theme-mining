@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-nih-research-security-foreign-interference-2026",
+  "title": "NIH research-security controls can act on disclosed allegations while undisclosed affiliations and residual risk remain open",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "care_health_reproduction"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-107848 review of NIH extramural research security and foreign-interference risk management",
+  "geography": "United States National Institutes of Health extramural research awards to universities and other recipient institutions, including foreign-affiliation and collaboration disclosures",
+  "observations": [
+    {
+      "period": "Fiscal year 2025 funding context, 2017–2025 allegation data, and October 5, 2026 GAO report",
+      "denominator": {
+        "value": 697,
+        "unit": "allegations of potential foreign interference involving personnel on NIH awards received from 2017 through 2025",
+        "value_type": "reported_allegation_cohort"
+      },
+      "measures": {
+        "research_security_requirements": {
+          "value": "NIH implemented 14 of 15 federal research-security requirements GAO reviewed; the remaining institution-certification requirement was still being implemented with an interagency group",
+          "unit": "reported requirement implementation status",
+          "value_type": "reported_compliance_comparison"
+        },
+        "allegations_with_violations": {
+          "value": 264,
+          "unit": "allegation cases in which NIH identified disclosure violations",
+          "value_type": "reported_case_count"
+        },
+        "actions_in_violation_cases": {
+          "value": 223,
+          "unit": "violation cases in which NIH or recipient institutions took one or more actions",
+          "value_type": "reported_action_count"
+        },
+        "no_action_violation_cases": {
+          "value": 41,
+          "unit": "violation cases with no action taken according to GAO's NIH data",
+          "value_type": "reported_no_action_count"
+        },
+        "no_violation_allegations": {
+          "value": 433,
+          "unit": "allegations in which NIH identified no violations; action was taken in 45 and not taken in 388",
+          "value_type": "reported_case_count"
+        },
+        "disclosure_dependence": {
+          "value": "NIH relies heavily on researcher and institution self-reports and generally does not verify disclosures with outside sources during pre-award risk assessment unless it receives an allegation; not all past affiliations are required and foreign-component disclosure is limited to significant project activity outside the United States",
+          "unit": "reported risk-identification mechanism",
+          "value_type": "reported_process_condition"
+        },
+        "external_case_signal": {
+          "value": 7,
+          "unit": "nongeneralizable case studies in which GAO found public information about foreign affiliations or coauthored publications not present in award documentation",
+          "value_type": "reported_case_study_count"
+        },
+        "funding_scale": {
+          "value": 35000000000,
+          "unit": "approximately NIH extramural funding awarded in fiscal year 2025",
+          "value_type": "reported_annual_funding_scale"
+        },
+        "open_recommendations": {
+          "value": 1,
+          "unit": "open recommendation to conduct and document a recurring extramural-program fraud risk assessment considering foreign interference",
+          "value_type": "open_recommendation_count"
+        },
+        "interference_conversion": {
+          "value": "not measured",
+          "unit": "prevalence of undisclosed affiliations, actual foreign interference, research loss, economic-security harm, award termination, scientific output, or restored trust",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-107848, based on federal requirements, NIH policies and documentation, NIH allegation data from 2017–2025, seven nongeneralizable case studies using outside public sources, comparison with GAO risk-management frameworks, and interviews with NIH and HHS officials. Requirement implementation, allegations, violations, actions, disclosure dependence, case-study signals, funding, recommendation, and interference outcomes are retained as separate stages.",
+      "uncertainty": "Allegations are not a prevalence estimate, violations are not proof of foreign interference, and actions do not establish successful deterrence or research recovery. The seven case studies were selected for potential heightened risk and are nongeneralizable. Publicly discoverable affiliations not appearing in award documentation illustrate process limitations but do not prove concealment or harm.",
+      "subgroup": "Biomedical researchers, universities, research institutions, patients and communities relying on NIH-funded science, federal grant administrators, and foreign or domestic collaborators subject to disclosure and security requirements.",
+      "counterinterpretation": "Self-reporting can be necessary for a large open research system, and outside-source verification may impose privacy, administrative, or collaboration costs; allegations may be resolved without violations, while documented actions in most violation cases show that controls can operate after risks become visible.",
+      "source_url": "https://www.gao.gov/products/gao-27-107848",
+      "retrieval_hash": "sha256:fffd68924bd6f4397c388e9610efff1a973b3c3c54819c60035c377cab1e350d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-107848/index.html",
+      "claim": "The official accessible report contains the requirement implementation, allegation, disclosure, case-study, funding, and recommendation findings.",
+      "status": "official-report"
+    }
+  ],
+  "boundary": "This record advances a bounded NIH research-security disclosure-to-risk-management route. It does not establish prevalence of undisclosed affiliations, actual foreign interference, research loss, economic-security harm, award termination, scientific output, successful deterrence, or restored trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report link is retained for reproduction.",
+    "retrieval_hash": "sha256:fffd68924bd6f4397c388e9610efff1a973b3c3c54819c60035c377cab1e350d",
+    "checked": "2026-10-20"
+  }
+}

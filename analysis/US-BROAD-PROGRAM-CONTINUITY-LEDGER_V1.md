@@ -1,5 +1,69 @@
 # US broad program continuity ledger v1
 
+The latest platform-remedy rotation adds the [FTC NGL anonymous-messaging refund memo](projects/us-digital-habits-attention/ftc-ngl-anonymous-messaging-refund-claims-2026.md): alleged deceptive messaging and unauthorized recurring charges now have a $4.5 million fund, age-conditioned claims route, closed intake, and pending review, while approval, payment, delivery, adequacy, and exit remain open.
+
+The latest education-platform privacy rotation adds the [FTC Illuminate Education student-data security memo](projects/us-digital-habits-attention/ftc-illuminate-education-student-data-security-order-2026.md): a finalized order specifies minimization, deletion, retention, security, and incident-reporting obligations after a reported large student-data exposure, while compliance, notification receipt, harm, and recovery remain open.
+
+The latest low-density platform/data rotation adds the [FTC Kochava sensitive-location-data memo](projects/us-digital-habits-attention/ftc-kochava-sensitive-location-data-controls-2026.md): a proposed order specifies affirmative consent, recipient visibility, withdrawal, retention, supplier, and incident controls, while approval, implementation, deletion, individual safety, and exit remain open.
+
+**Latest health-market-structure rotation — 2026-10-20:** the [GAO Medicare Part D vertical-integration record](records/us-gao-medicare-part-d-vertical-integration-pharmacy-steering-2026.json) adds sponsor-reach, owned-pharmacy utilization, payment, cost-sharing, contract, and adjustment stages. Steering, pharmacy choice, adherence, access, independent-pharmacy effects, net drug cost, and health outcomes remain unobserved.
+
+**Latest research-security rotation — 2026-10-20:** the [GAO NIH research-security record](records/us-gao-nih-research-security-foreign-interference-2026.json) adds funding-scale, allegation, violation, action, disclosure-dependence, case-study, and one open-recommendation stages. Prevalence, foreign interference, research loss, deterrence, economic-security effects, and trust remain unobserved.
+
+**Latest public-health security rotation — 2026-10-20:** the [GAO laboratory-equipment disposal record](records/us-gao-federal-laboratory-equipment-disposal-biosecurity-2026.json) adds disposal-scale, controlled-item, acquisition-test, risk-assessment, system-gap, and four open-recommendation stages. Recipient intent, export, biological-weapon development, sensitive-information recovery, public harm, and mitigation remain unobserved.
+
+**Latest health-market-power rotation — 2026-10-20:** the [GAO private-health-insurance record](records/us-gao-private-health-insurance-market-concentration-2024.json) adds concentration-definition, state-market, exchange-trajectory, and market-scope stages. Issuer choice, premiums, plan quality, provider access, claims, care, household burden, and health outcomes remain unobserved.
+
+**Latest geoeconomic-dependence rotation — 2026-10-20:** the [GAO critical-minerals record](records/us-gao-critical-minerals-federal-land-foreign-investment-2026.json) adds federal-land plan, ownership, foreign-subsidiary, Chinese-interest, disclosure-gap, and supply-chain stages. Beneficial control, production, processing, disruption, domestic availability, environmental effects, and national-security outcomes remain unobserved.
+
+**Latest technology-dependence rotation — 2026-10-20:** the [GAO quantum-cryptography record](records/us-gao-quantum-cryptography-transition-readiness-2026.json) adds threat-scenario, 24-agency readiness, cryptography-capacity, redacted-public-version, and 89-recommendation stages. Quantum timing, system vulnerability, migration, supplier readiness, compromise, incident prevention, and trust remain unobserved.
+
+**Latest consumer-recourse rotation — 2026-10-20:** the [GAO ghost-preparer record](records/us-gao-irs-ghost-preparer-identification-compliance-2026.json) adds taxpayer-exposure, disconnected-case-data, six-office fragmentation, strategy-measurement, and three open-recommendation stages. Prevalence, taxpayer correction, refund recovery, identity-theft resolution, outreach reach, repeat exposure, and trust remain unobserved.
+
+**Latest regional-place rotation — 2026-10-20:** the [GAO EDA/regional-commission record](records/us-gao-eda-regional-commission-grant-performance-coordination-2026.json) adds grant-scale, area-trend, performance-validation, coordination, and three open-recommendation stages. Causal grant effects, project completion, jobs, wages, firm survival, household income, distributional reach, and trust remain unobserved.
+
+**Latest DOE place-and-infrastructure rotation — 2026-10-20:** the [GAO nuclear-cleanup record](records/us-gao-doe-nuclear-cleanup-future-land-use-transfer-2026.json) adds future-use, cleanup-standard, transfer, and reuse-tradeoff stages. Parcel transfer, occupancy, exposure, consent, jobs, tax receipts, recontamination, and health outcomes remain unobserved.
+
+**Latest federal digital-governance rotation — 2026-10-20:** the [GAO IT Dashboard record](records/us-gao-it-dashboard-investment-risk-ratings-2026.json) adds rating misalignment, stale-rating, Dashboard-transition, and 17 open-recommendation stages. Project delivery, public access, cybersecurity harm, user experience, and completed correction remain unobserved.
+
+**Latest housing-risk rotation — 2026-10-20:** the [GAO flood-insurance record](records/us-gao-flood-insurance-risk-coverage-policy-options-2026.json) adds high-risk coverage, FEMA mapping, lender-quote, and four open congressional-action stages. Purchase, affordability, claims, rebuilding, and household recovery remain unobserved.
+
+**Latest service-member access rotation — 2026-10-20:** the [GAO DOD records-release record](records/us-gao-dod-service-member-records-release-delays-2026.json) adds improper-release, processing-delay, multi-system workflow, and five open-recommendation stages. Requester receipt, correction, privacy harm, health continuity, benefits, trust, and completed action remain unobserved.
+
+**Latest defense-AI governance rotation — 2026-10-20:** the [GAO DOD responsible-AI record](records/us-gao-dod-responsible-ai-governance-workforce-2026.json) adds six Responsible AI tenets, selected-use-case oversight, council and staffing gaps, and two open recommendations. Model quality, human control, mission use, safety, adversary response, deterrence, and legitimacy remain unobserved.
+
+**Latest cultural-consumption and infrastructure rotation — 2026-10-20:** the [GAO textile circular-economy record](records/us-gao-textile-circular-economy-policy-options-2026.json) adds repair, reuse, recycling, producer-responsibility, secondhand-tax, and tax-credit policy options with cross-jurisdiction implementation evidence. Collection, repair use, recycling yield, consumer change, jobs, environmental effects, prices, and household welfare remain unobserved.
+
+**Latest veteran safety-net rotation — 2026-10-20:** the [GAO veteran-SNAP outreach record](records/us-gao-veteran-snap-outreach-access-2026.json) adds state outreach targeting, a slowed VA–USDA coordination route, and four open recommendations. Veteran contact, application, approval, receipt, adequacy, food security, and recovery remain unobserved.
+
+**Latest rural-care implementation rotation — 2026-10-20:** the [GAO Rural Health Transformation record](records/us-gao-rural-health-transformation-implementation-monitoring-2026.json) adds $10 billion in first-year awards to all 50 states, planned audits/site visits, performance monitoring, and conditional access to remaining funds. State spending, clinician recruitment, appointments, rural-hospital capacity, health, and legitimacy remain unobserved.
+
+**Latest small-business market-power rotation — 2026-10-20:** the [FTC Southern Glazer's settlement record](records/us-ftc-southern-glazer-small-business-price-discrimination-2026.json) adds proposed paired-transaction thresholds, conditional 1.5x or double-differential compensation, and six years of independent monitoring across 26 states. Approval, retailer claims, payments, business survival, local competition, and household effects remain unobserved.
+
+**Latest hospital-price transparency rotation — 2026-10-20:** the [FTC hospital warning-letter record](records/us-ftc-hospital-price-transparency-warning-letters-2026.json) adds a regulatory-warning stage for 24 healthcare-services companies and distinguishes CMS price-transparency compliance from FTC Act risk. Implementation, usable patient prices, bills, affordability, care choice, and household recovery remain unobserved.
+
+**Latest prescription-drug consumer-power rotation — 2026-10-20:** the [FTC Caremark PBM settlement record](records/us-ftc-caremark-pbm-rebate-hub-pharmacy-settlement-2026.json) adds point-of-sale rebate, lower-list-price, community-pharmacy, and hub-access controls. The FTC's savings figures are projections over up to 10 years; implementation, patient out-of-pocket cost, fills, adherence, access, household recovery, and trust remain unobserved.
+
+**Latest consumer-price remedy rotation — 2026-10-20:** the [FTC Greenway Auto price-transparency record](records/us-ftc-greenway-auto-price-transparency-2026.json) follows alleged hidden fees and conditional pricing into a proposed all-in-price, optional-fee, financing, and prize-mailer control. Court approval, implementation, final prices, affordability, customer correction, and household recovery remain unobserved.
+
+**Latest housing-platform privacy rotation — 2026-10-20:** the [GAO mortgage trigger-lead record](records/us-gao-mortgage-trigger-lead-privacy-comparison-2026.json) follows credit-data dissemination into unsolicited calls/texts, comparison-shopping claims, and a March 2026 consent/relationship restriction. GAO reports a possible upper bound of 3.5% of homebuyers obtaining a loan through competing trigger-lead offers, while post-law solicitation, pricing, privacy, access, and housing effects remain unobserved.
+
+**Latest hidden-care-value rotation — 2026-10-20:** the [GAO unpaid-household-work record](records/us-gao-unpaid-household-work-care-valuation-2026.json) adds a measured time-and-valuation stage: 87.3% of people did some unpaid household work on a typical day, averaging 3.72 hours, with an estimated 2024 market value of at least $5.6–$6.0 trillion and primary caregiving value of $1.1–$1.4 trillion. The wage-based range makes care visible but does not establish household welfare, care quality, substitute-care access, work continuity, bargaining power, or policy effect.
+
+**Latest platform-governance remedy rotation — 2026-10-20:** the [FTC Publicis–LiveRamp record](records/us-ftc-publicis-liveramp-data-neutrality-remedy-2026.json) moves a major digital-advertising data intermediary from merger-risk allegation into proposed neutral-access, data-firewall, independent-audit, customer-audit, non-retaliation, and mediation controls. The matter is pending and conditional on closing; implementation, service quality, privacy, consumer choice, and durable competition remain unobserved.
+
+**Latest older-adult platform-remedy rotation — 2026-10-20:** the [FTC older-consumer fraud and redress record](records/us-ftc-older-adult-social-fraud-redress-2026.json) adds a bounded route from reported social-media contact and high-loss investment fraud among older adults into selected enforcement, cancellation, fair-lending, and later-payment stages. The report statistics and FloatMe case are not one linked cohort; individual receipt, platform correction, repeat exposure, household recovery, and trust remain unobserved.
+
+**Latest Bronx transit-access realization rotation — 2026-10-20:** the [Tremont busway record](records/us-nyc-tremont-busway-time-access-2026.json) adds completion and activation of a busway serving a reported 39,000 daily Bx36 riders in a corridor where buses historically traveled as slowly as 5 mph and 72% of households lacked a private car. Post-activation time savings, reliability, safety, accessibility, adjacent burden, and rider legitimacy remain unobserved.
+
+**Latest congestion-pricing health-incidence rotation — 2026-10-20:** the [NYC congestion-pricing record](records/us-nyc-congestion-pricing-implementation-2026.json) now follows toll revenue into a named $20 million Bronx childhood-asthma mitigation allocation within a $100 million environmental-justice pool. Provider delivery, household uptake, exposure change, emergency visits, child health, and legitimacy remain unobserved.
+
+**Latest NISRF operational-output rotation — 2026-10-20:** the [NISRF ACE record](records/us-nato-nisrf-ace-intelligence-products-2026.json) adds approximately 180 flight hours and more than 500 intelligence products from NATO-owned RQ-4D aircraft during the 2026 Adaptable Capability Exercise. Product use, decision effect, mission outcome, adversary response, host burden, and public legitimacy remain unobserved.
+
+**Latest Progressive Leasing recipient-conditioned-remedy rotation — 2026-10-20:** the [FTC Progressive Leasing record](records/us-ftc-progressive-leasing-repeat-refund-2025.json) adds 1,221,146 second-round checks totaling more than $27 million for people who cashed the first check and paid Progressive Leasing at least $616.62. The first round produced more than $143 million in refunds. Second-check receipt, cashing, price or contract correction, household adequacy, and exit remain unobserved.
+
+**Latest Mission Hills recipient-conditioned-remedy rotation — 2026-10-20:** the [FTC Mission Hills record](records/us-ftc-mission-hills-repeat-refund-2026.json) adds 10,138 second-round checks totaling more than $627,000 for people who cashed the first check and paid defendants more than $430. The first round produced more than $3.4 million in refunds. Second-check receipt, cashing, student-loan balance correction, adequacy, household recovery, and exit remain unobserved.
+
 **Latest South Africa cultural-structure rotation — 2026-09-30:** the [Stats SA Census 2022 Cultural Dynamics record](records/comparative-south-africa-statssa-census-cultural-dynamics-1996-2022-language-religion-household-marriage.json) adds population-scale cultural change: multiracial households rose from 1.3% in 2001 to 11.4% in 2022, multilingual households from 3.5% in 1996 to 9.4% in 2022, and legal marriage fell from 35.6% to 23.8%. Christian affiliation was 84.5% in 2022 while traditional African religious affiliation reached 9.5%. This supports a changing-identity and household-coordination hypothesis, not a direct cohesion, practice, or consumer-welfare estimate.
 
 **Latest Singapore cultural-credit rotation — 2026-09-30:** the [MCCY/NAC SG Culture Pass record](records/comparative-singapore-mccy-sg-culture-pass-2026-audience-reach-multicultural-access.json) adds a policy-to-audience route: more than 1.2 million citizens registered, seven in ten had not attended a local arts and culture programme in five years, and nine in ten users expressed interest in another programme. NAC’s companion survey separates 59% physical attendance, 66% digital consumption, and 28% active participation, while childhood exposure is associated with higher later engagement. This supports an audience-conversion hypothesis while preserving administrative, stated-interest, cross-sectional, and noncausal limits.
@@ -97,7 +161,7 @@ Mining program
 
 **Latest Canada retail-channel rotation — 2026-09-30:** the [Statistics Canada July 2026 retail record](records/comparative-statcan-retail-trade-july-2026-ecommerce-regional-pullback.json) adds a nominal-growth versus short-run-pullback layer: retail sales were $73.7 billion, down 0.7% month over month but up 5.1% year over year, while volume fell 1.1%; e-commerce fell 3.5% to $5.5 billion and 7.5% of retail trade, with Ontario down 2.0% and Alberta up 1.4%. It supports a channel-and-region divergence hypothesis, not a household-welfare or durable consumer-retrenchment estimate.
 
-**Current registry checkpoint:** 2014 machine-readable records and 5999
+**Current registry checkpoint:** 2130 machine-readable records and 6179
 observations. This is an active, never-ending discovery and synthesis program;
 the checkpoint is a control state, not a completion claim.
 
@@ -765,7 +829,7 @@ never the completion condition.
 | Theme end-to-end audit | 14 theme rows audited from the canonical matrix; all retain a next-required test, and 5 explicitly declare an open status | [Theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md), `audit_broad_theme_end_to_end_coverage.py` |
 | Source coverage | 132 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 118 registered source entries; all 118 have analysis-domain references, 110 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
-| Trend registry | 2014 machine-readable records; 5999 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
+| Trend registry | 2130 machine-readable records; 6179 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
 
 **Latest formalization-and-family-security rotation — 2026-09-29:** the [ILO South Asia formalization and child-labour record](records/comparative-ilo-south-asia-formalization-child-labour-voice-2026.json) adds a regional implementation layer connecting informal work, supply-chain risk, worker voice, social protection, community action, and child-labour prevention. It reports project reach and policy measures, not causal or post-project durability evidence; the active next test follows workers and families through registration, wages, benefits, schooling, complaints, and local enforcement after project closure.
 
@@ -790,13 +854,13 @@ Latest completed rotation: Gallup classroom-device governance. Added a machine-r
 **Latest cultural-institution rotation — 2026-09-28:** the [Ipsos–Independent Football Regulator club-heritage record](records/comparative-ipsos-independent-football-regulator-club-heritage-fan-voice-2026.json) adds a route from club history, place, ritual, community presence and fan engagement through distress, prospective collective action, and formal heritage/voice regulation. Its next test is whether fan consultation changes documented ownership, stadium, identity, ticket and financial decisions, and whether those changes preserve local access, club survival and durable trust rather than treating stated action as realized influence.
 
 **Latest household-expectations rotation — 2026-09-28:** the [ECB Consumer Expectations Survey August 2026 record](records/comparative-ecb-consumer-expectations-august-2026-income-credit-asymmetry.json) adds a distributional expectations route: lower-income euro-area respondents report higher inflation and unemployment expectations and expect mortgage rates 1.3 percentage points above the top income quintile, even as aggregate income, spending and credit-access expectations remain comparatively stable. Its next test is whether this expectation gap becomes realized differences in housing access, borrowing, major-purchase delay, savings drawdown, employment exposure, and political attribution. The survey supports the expectation layer, not those downstream outcomes.
-| Broad event-ledger portfolio | 98 schema-valid ledgers; 302 events; 454 typed arrows, including 164 explicitly open arrows | [Ledger index](data/us-broad-event-ledger-index-v1.json), [portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json), `validate_broad_event_ledger_portfolio_summary.py` |
+| Broad event-ledger portfolio | 100 schema-valid ledgers; 312 events; 474 typed arrows, including 172 explicitly open arrows | [Ledger index](data/us-broad-event-ledger-index-v1.json), [portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json), `validate_broad_event_ledger_portfolio_summary.py` |
 | Findings | Domain findings plus a program-level long-form finding are generated as Markdown and HTML and parity-checked where the matched-evidence contract applies | [Matched-evidence index](us-matched-evidence-index.md), [program-level finding](findings/us-broad-program-unequal-optionality-path-001.md), `validate_us_finding_parity.py` |
 | Evidence discipline | Units, dates, geography, denominators, methods, limits, counterexamples, and open arrows are required | [Trend protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md) |
 | Link integrity | Relative Markdown references are checked across the workspace | `validate_local_markdown_links.py` |
 | Source-record integrity | Project source-search records must carry date, geography, status, question, and linked source metadata | `validate_source_search_records.py` |
 | Trend-record integrity | Recurring trend observations must preserve period, denominator, method, uncertainty, subgroup, counterinterpretation, source URL, and retrieval hash | `validate_trend_observation_records.py` |
-| Trend metadata depth | Required fields are complete across all 937 records/2094 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
+| Trend metadata depth | Required fields are complete across all 937 records/2095 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
 | Trend publication | Validated trend records have generated Markdown and HTML registry editions | [Trend-observation registry](../site/us-trend-observations.html), `build_us_trend_observation_registry.py` |
 | Cross-source synthesis | The current evidence is periodically read across the full material-to-state chain without merging incompatible units | [Cross-source trend synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md) |
 | Recurrent-source freshness | Official recurring releases, next checks, revision rules, and access-gated dependencies are tracked separately from findings | [Vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md) |
@@ -2297,9 +2361,9 @@ same-unit gap remains: no retained record follows a dated material event
 through attribution, action, remedy, recovery, and later exit or trust.
 
 The [same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
-now makes that gap quantitative across 33 retained episode or remedy surfaces.
-Twenty-nine surfaces observe a dated event or exposure, 21 observe a responsible
-actor, and 29 observe an institutional response; eight observe an
+now makes that gap quantitative across 39 retained episode or remedy surfaces.
+Thirty-five surfaces observe a dated event or exposure, 27 observe a responsible
+actor, and 35 observe an institutional response; eight observe an
 alternative or non-use field, while three observe verified remedy receipt or a
 defined outcome follow-up.
 Only one observes a meaning/trust/action endpoint, and two observe recovery,
@@ -3331,7 +3395,7 @@ observes alternatives/non-use, effort/time trade-off, verified outcome, and
 later persistence, trust, action, or exit.
 
 The theme-coverage audit hash was regenerated after matrix updates, and the
-publication gate remains green at 98 ledgers, 302 events, 454 typed arrows,
+publication gate remains green at 100 ledgers, 312 events, 474 typed arrows,
 and 164 explicitly open arrows.
 
 ## 2026-09-19 continuation checkpoint — partial compensation enforcement
@@ -3373,7 +3437,7 @@ voice and land-control decisions can change an approved route, and a related
 project can reach reported energization, without proving resident compensation,
 reliability improvement, household bill effects, or durable acceptance. The
 full publication gate passed after this promotion; the current canonical
-portfolio is 98 ledgers, 302 events, and 454 arrows across 14 themes, with 24
+portfolio is 100 ledgers, 312 events, and 474 arrows across 14 themes, with 24
 checks valid.
 
 The same continuation also promoted three cultural and institutional findings
@@ -3544,8 +3608,8 @@ while preserving the critical aggregate boundary: no survivor-level payment,
 adequacy, repair/placement, stable housing, trust, or action endpoint is
 observed. Administrative reach is therefore a measurable middle stage, not a
 recovery rate.
-The current canonical broad-ledger portfolio is 98 ledgers, 302 events, and
-454 typed arrows, including 164 explicitly open arrows; these counts are
+The current canonical broad-ledger portfolio is 102 ledgers, 316 events, and
+484 typed arrows, including 176 explicitly open arrows; these counts are
 validated by the publication gate and supersede older handoff snapshots.
 
 The [canonical BDS county-sector divergence record](records/us-bds-county-sector-divergence-2026.json)

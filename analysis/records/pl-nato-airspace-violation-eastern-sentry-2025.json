@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "pl-nato-airspace-violation-eastern-sentry-2025",
+  "title": "A reported airspace violation can move from national interception to alliance posture without proving deterrence",
+  "theme_ids": [
+    "voice",
+    "cost",
+    "time"
+  ],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Official NATO and Polish government accounts of the September 2025 Polish airspace incident and Eastern Sentry response",
+  "geography": "Poland and NATO eastern flank; September 2025 airspace incident",
+  "observations": [
+    {
+      "period": "September 9-10, 2025; reported Russian-drone airspace violation and immediate response",
+      "denominator": {
+        "value": null,
+        "unit": "official incident-and-response account involving multiple reported drones",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "incident": {
+          "value": "Polish and NATO records report repeated violations of Polish airspace by Russian drones during the night of September 9-10, creating territorial, civilian, infrastructure, and aviation-safety risk",
+          "unit": "reported airspace incident",
+          "value_type": "reported_event"
+        },
+        "national_response": {
+          "value": "Polish defensive procedures were activated and threatening drones were intercepted; Poland requested Article 4 consultations",
+          "unit": "reported national and alliance response",
+          "value_type": "reported_response"
+        },
+        "independent_effect": {
+          "value": "not observed",
+          "unit": "missing independent attribution, complete object-level count, damage, civilian exposure, interception cost, readiness burden, and deterrence outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Structured extraction from official NATO and Polish government statements; the record separates reported operational action from independent incident verification and later effects.",
+      "uncertainty": "Official statements do not provide an independent attribution audit, complete damage or object-level denominator, civilian-risk estimate, interception cost, or counterfactual for what would have occurred without the response.",
+      "subgroup": "Polish territory, NATO eastern-flank defense institutions, affected civil-aviation and civilian systems, and the foreign actor identified in official accounts; no individual civilian sample is supplied.",
+      "counterinterpretation": "A successful interception and Article 4 request can show that response procedures functioned without proving the origin, intent, civilian protection, or strategic consequence of the incident.",
+      "source_url": "https://www.nato.int/en/news-and-events/events/transcripts/2025/09/10/statement",
+      "retrieval_hash": "sha256:5586bfdcdb2dd7b31749718b5a410aa5d84248cc432513c5fd7cb374beb39bfc",
+      "status": "reported"
+    },
+    {
+      "period": "September 12, 2025 and after; Eastern Sentry, allied support, diplomacy, and information-resilience response",
+      "denominator": {
+        "value": 1,
+        "unit": "publicly announced alliance response package",
+        "value_type": "reported_response_package"
+      },
+      "measures": {
+        "alliance_response": {
+          "value": "NATO announced Eastern Sentry and additional eastern-flank support after the incident; Poland pursued diplomatic protest and public-information responses",
+          "unit": "reported institutional response",
+          "value_type": "reported_policy_action"
+        },
+        "institutional_sequence": {
+          "value": "The episode advanced from tactical interception to Article 4 consultation, allied solidarity, strengthened posture, diplomatic action, and information-resilience messaging",
+          "unit": "reported response sequence",
+          "value_type": "reported_sequence"
+        },
+        "durable_effect": {
+          "value": "not observed",
+          "unit": "missing deployment duration, equipment and troop counts, local burden, public approval, budget change, later foreign-actor behavior, and civilian-security outcome",
+          "value_type": "unmeasured"
+        },
+        "mechanism": {
+          "value": "A security incident can become a multi-domain governance episode in which operational defense, alliance legitimacy, diplomacy, and information control move on different clocks; announced posture is not the same as deterrence or durable public consent",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Structured extraction from official NATO and Polish government response statements; announced actions are retained as reported institutional stages rather than treated as measured effects.",
+      "uncertainty": "The public response record does not establish actual deployment duration, readiness, fiscal or local burden, audience belief, later Russian behavior, or whether the posture changed the probability of another incursion.",
+      "subgroup": "NATO member governments, Polish public institutions, eastern-flank defense structures, host communities, and audiences of official information; no linked public-opinion or cost denominator is reported.",
+      "counterinterpretation": "An announced reinforcement can be procedural reassurance or political signaling without proving increased readiness, deterrence, civilian security, or durable alliance legitimacy.",
+      "source_url": "https://www.gov.pl/web/primeminister/eastern-sentry-nato-responds-to-russian-provocations-in-poland",
+      "retrieval_hash": "sha256:5586bfdcdb2dd7b31749718b5a410aa5d84248cc432513c5fd7cb374beb39bfc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a reported Poland/NATO incident-to-response sequence from airspace violation through interception, Article 4 consultation, Eastern Sentry, diplomacy, and information-resilience action. It does not establish independent attribution, deterrence, actual deployment effect, public legitimacy, civilian security, or later foreign-actor behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The hash covers the compact project event ledger derived from the official NATO and Polish source accounts; classified operational files, civilian incident records, and independent damage or attribution datasets are not retained.",
+    "checked": "2026-10-20"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-textile-circular-economy-policy-options-2026",
+  "title": "Textile circularity can move from consumption and waste pressure into policy options while repair infrastructure and behavior remain open",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-27-108142 Textile Circular Economy: Policy Options for the U.S.",
+  "geography": "United States textile consumption, waste, repair, reuse, and recycling policy, with comparison to selected states, the European Union, France, and the Netherlands",
+  "observations": [
+    {
+      "period": "October 16, 2026 GAO report; policy and stakeholder evidence through the review period",
+      "denominator": {
+        "value": 49,
+        "unit": "public and private stakeholders interviewed by GAO about textile circular-economy options and implementation",
+        "value_type": "reported_stakeholder_interview_cohort"
+      },
+      "measures": {
+        "circularity_modes": {
+          "value": "repair, reuse, and recycling intended to keep textiles in use longer",
+          "unit": "reported circular-economy activity modes",
+          "value_type": "reported_framework"
+        },
+        "policy_options": {
+          "value": "textile extended producer responsibility, secondhand-apparel sales-tax removal, and tax credits for business participation",
+          "unit": "identified federal or state policy options",
+          "value_type": "reported_policy_options"
+        },
+        "implementation_surface": {
+          "value": "U.S. states, the European Union, and other jurisdictions are proposing, enacting, or implementing most identified policy options; stakeholders noted limited funding and domestic collection/recycling infrastructure",
+          "unit": "reported policy and infrastructure status",
+          "value_type": "reported_cross_jurisdiction_comparison"
+        },
+        "coordination_preference": {
+          "value": "several stakeholders, including industry groups, preferred a federal approach for coordination, compliance, and consistency across state or international requirements",
+          "unit": "reported stakeholder preference",
+          "value_type": "reported_interview_finding"
+        },
+        "conversion": {
+          "value": "not measured",
+          "unit": "textile collection, repair use, reuse rate, recycling yield, consumer practice change, jobs, prices, environmental burden, or household welfare",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Structured extraction from GAO-27-108142, based on legislation, regulations, agency and academic materials, stakeholder interviews, and site visits. Circularity modes, policy options, implementation status, stakeholder preference, and downstream outcomes are retained as separate stages.",
+      "uncertainty": "The report identifies potential benefits, challenges, and policy options rather than estimating national textile waste, causal policy effects, or realized circularity. Stakeholder views are selected qualitative evidence and do not represent all firms, consumers, states, or communities.",
+      "subgroup": "Textile producers, retailers, repair and recycling organizations, public agencies, nonprofits, and consumers whose clothing, footwear, carpets, towels, or other textile use enters a circularity system.",
+      "counterinterpretation": "Extended producer responsibility, tax incentives, or secondhand tax changes may shift costs or formal responsibility without creating collection capacity, affordable repair, high-quality recycling, or equal access; longer product use may also change purchasing patterns without reducing total environmental burden.",
+      "source_url": "https://www.gao.gov/products/gao-27-108142",
+      "retrieval_hash": "sha256:2b5896bf6148731f8f2ecd5d72b65d496ca7efe09af96a87f3f27f6c48a66b0d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-27-108142/index.html",
+      "claim": "The official accessible report contains the policy-option, stakeholder, site-visit, and implementation comparison evidence.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-24-106170",
+      "claim": "The report continues GAO's prior work on federal efforts to address textile waste.",
+      "status": "official-prior-report"
+    }
+  ],
+  "boundary": "This record advances a bounded textile consumption-and-waste-to-policy-option route with an infrastructure and cross-jurisdiction comparison. It does not establish national waste volume, policy adoption, collection or repair capacity, consumer behavior change, job creation, environmental improvement, prices, or household welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Canonical GAO product URL string used as a stable source identifier; accessible report and prior-work links are retained for reproduction.",
+    "retrieval_hash": "sha256:2b5896bf6148731f8f2ecd5d72b65d496ca7efe09af96a87f3f27f6c48a66b0d",
+    "checked": "2026-10-20"
+  }
+}

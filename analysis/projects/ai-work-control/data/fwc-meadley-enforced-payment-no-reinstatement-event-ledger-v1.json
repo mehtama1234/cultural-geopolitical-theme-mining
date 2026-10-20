@@ -12,19 +12,19 @@
       "date_precision": "Federal Court judgment date; Commission order issued May 2013, payment and non-reinstatement events followed in June-July 2013",
       "denominator": "One publicly summarized adjudicated enforcement case; no population denominator",
       "method": "Structured extraction from the official Fair Work Commission case-example page describing the Commission order and Federal Court enforcement outcome",
-      "missingness": "Worker identity is public but personal file, alternative work, household outcome, later job, standardized trust, recurrence, and exit are not retained; payment is reported by the official institutional follow-up rather than independently audited here",
+      "missingness": "Worker identity is public but personal file, post-dismissal alternative work, household outcome, later job, standardized trust, recurrence, and exit are not retained; the dated payment is reported in the public judgment but is not independently audited through a payment instrument or claimant confirmation",
       "condition_or_decision": "job_rule",
       "exposure": "The worker was found unfairly dismissed and the Commission ordered reinstatement plus $24,143 in compensation in May 2013",
-      "alternatives_before_action": "The public FWC case example does not report the worker's alternatives, non-use choice, or substitute employment before enforcement",
+      "alternatives_before_action": "The public judgment does not report the worker's alternatives or substitute employment before enforcement; after the employer lost its council contracts and had no position to which she could return, counsel stated that she no longer sought reinstatement",
       "immediate_burden_or_benefit": "The employer initially failed to comply with reinstatement and compensation obligations; the worker pursued enforcement after the deadline passed",
       "choice_or_response": "The worker sought Federal Court orders requiring compliance and penalties after the employer did not reinstate or compensate her by June 2013",
       "person_or_actor_with_control": "Employer controlled reinstatement and payment execution; the worker controlled enforcement escalation; the Federal Court controlled enforcement orders and penalty",
-      "remedy_or_institutional_response": "The official FWC account reports that the company paid the compensation but did not reinstate the worker; the Court awarded a further $15,045 plus interest and imposed a $10,000 penalty",
+      "remedy_or_institutional_response": "The public judgment reports that the company paid $24,143.64 on 5 July 2013 but did not reinstate the worker; the Court then awarded a further $15,045.39 plus interest, $385.71 plus interest to her superannuation fund, and a $10,000 penalty payable to her",
       "remedy_stage": "remedy_reported_received",
-      "remedy_receipt": "Official FWC summary reports company payment; payment instrument and independent worker confirmation are not retained",
+      "remedy_receipt": "The public judgment records payment of $24,143.64 on 5 July 2013; the payment instrument, net amount, and independent worker confirmation are not retained",
       "durability_followup": "Reinstatement failed; later employment, recurrence, household recovery, and trust are not observed",
-      "immediate_outcome": "Verified institutional report of compensation payment without reinstatement, followed by court-enforced additional monetary relief",
-      "protected_outcome": "A monetary remedy was ultimately paid and further monetary relief was ordered; restoration of the original job was not achieved",
+      "immediate_outcome": "The public judgment records dated payment of the initial lost-remuneration amount without reinstatement, followed by court-enforced additional monetary relief and a penalty",
+      "protected_outcome": "A dated monetary remedy was reported paid and further monetary relief was ordered; restoration of the original job was not achieved, and the worker's non-return became tied to the loss of the relevant work contracts",
       "sacrificed_outcome": "The worker did not receive reinstatement and the employment relationship or original opportunity remained unrecovered; household and later-career effects are unknown",
       "cost_risk_transfer": "The worker bore enforcement effort and delay; the employer incurred the original payment, additional court-ordered money, and penalty",
       "later_outcome": "Payment and enforcement are reported, while reinstatement failed; later employment, household recovery, trust, recurrence, switching, and exit remain unknown",
@@ -32,7 +32,7 @@
       "public_or_collective_response": "Individual enforcement through the Federal Court is observed; no later collective or political response is reported",
       "counterexample": "A remedy can be paid while the principal access remedy—reinstatement—fails, showing that monetary receipt is not equivalent to restored opportunity or recovery",
       "evidence_status": "reported",
-      "source_and_uncertainty": "Official Fair Work Commission case-example page, https://www.fwc.gov.au/role-court-unfair-dismissal-cases, summarizing Meadley v Sort Worx Pty Ltd [2013] FCA 1012; the page reports payment and failed reinstatement but is not a payment-instrument audit or claimant follow-up"
+      "source_and_uncertainty": "Official Fair Work Commission case-example page, https://www.fwc.gov.au/role-court-unfair-dismissal-cases, and the Commission's unfair-dismissals benchbook, rechecked 2026-10-19, establish the payment, failed reinstatement, further award, and penalty at summary level. A public reproduction of Meadley v Sort Worx Pty Ltd [2013] FCA 1012 supplies the dated $24,143.64 payment, contract-loss context, and non-reinstatement choice: https://www.casechat.au/cases/au/meadley-v-sort-worx-pty-ltd. No later worker-level employment, household-recovery, trust, recurrence, or exit record is retained; the payment is not independently audited here."
     }
   ],
   "arrows": [
@@ -53,7 +53,7 @@
       "to": "worker Federal Court enforcement action",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The FWC account reports that the worker sought Federal Court orders requiring compliance and penalties",
+      "evidence": "The FWC account and public judgment report that the worker sought Federal Court orders requiring compliance and penalties after the employer missed the Commission deadline",
       "status": "reported",
       "counterexample": "Court enforcement is a visible action route, not evidence that all workers can access it",
       "remaining_gap": "Enforcement cost, delay, support, and alternative routes"
@@ -64,7 +64,7 @@
       "to": "compensation payment without reinstatement",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The official FWC page explicitly reports that the company paid the compensation but still did not reinstate the worker",
+      "evidence": "The public judgment records that the company paid $24,143.64 on 5 July 2013 while the reinstatement order remained unfulfilled",
       "status": "reported",
       "counterexample": "Payment receipt can coexist with failure to restore the job or relationship",
       "remaining_gap": "Payment instrument, net amount, timing, worker confirmation, and later recovery"
@@ -75,7 +75,7 @@
       "to": "additional court remedy and penalty",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The FWC account reports a further $15,045 award plus interest and a $10,000 penalty after the enforcement proceeding",
+      "evidence": "The public judgment orders $15,045.39 plus interest, $385.71 plus interest to the nominated superannuation fund, and a $10,000 penalty payable to the worker after the enforcement proceeding",
       "status": "reported",
       "counterexample": "Additional monetary relief does not establish restored employment or household recovery",
       "remaining_gap": "Actual receipt of further awards, tax/net amount, and later work"

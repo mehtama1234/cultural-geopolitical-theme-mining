@@ -808,15 +808,15 @@ reception, and changed external behavior must remain separate stages.
 The atlas currently contains:
 
 - 14 themes;
-- 796 structured records;
-- 1,872 observations;
-- 97 event ledgers;
-- 302 events;
-- 454 typed arrows;
-- 163 explicitly open arrows;
+- 2,018 structured records;
+- 6,026 observations;
+- 102 event ledgers;
+- 316 events;
+- 484 typed arrows;
+- 176 explicitly open arrows;
 - 164 source packets;
-- 1,127 generated finding pages and 1,149 published HTML pages; and
-- 553 records directly named in broad-reader surfaces.
+- 1,134 generated finding pages and 1,156 published HTML pages; and
+- 1,634 records directly named in broad-reader surfaces.
 - 12 recurring societal subtheme concepts with source anchors and next tests.
 
 These are coverage counts, not a claim that one universal causal chain has been

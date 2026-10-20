@@ -8,24 +8,47 @@
   "geography": "United States",
   "observations": [
     {
-      "period": "2014–2021 state-level salary-threshold changes; working paper issued July 2026",
-      "denominator": {"value": null, "unit": "US administrative payroll records; exact worker and establishment counts not disclosed in the NBER abstract", "value_type": "not_disclosed"},
+      "period": "2014–2021 state-level salary-threshold changes; working paper issued July 2026; NBER Digest summary dated October 1, 2026",
+      "denominator": {"value": 19, "unit": "state-level overtime-exemption threshold increases; administrative payroll data cover more than one-tenth of the US labor force, but exact worker and establishment counts are not disclosed", "value_type": "reported_policy_events_with_nonpublic_exact_sample"},
       "measures": {
-        "worker_earnings": {"value": null, "unit": "expanding overtime coverage increases workers' earnings", "value_type": "reported_direction"},
+        "worker_earnings": {"value": 1.4, "unit": "percent average increase in earnings among affected salaried workers", "value_type": "reported_estimate"},
+        "bunched_worker_base_salary": {"value": 8.5, "unit": "percent increase in base salary for the affected subset pushed above the new threshold", "value_type": "reported_estimate"},
+        "threshold_band_jobs": {"value": -21, "unit": "percent change in salaried workers earning between the old and new thresholds when the new threshold took effect", "value_type": "reported_estimate"},
+        "employer_push_above_threshold": {"value": 75, "unit": "percent share of the threshold-band decline explained by employers raising salaries just above the new threshold", "value_type": "reported_estimate"},
+        "affected_workers_pushed_above": {"value": 16, "unit": "percent of affected workers pushed above the new threshold", "value_type": "reported_estimate"},
         "employment": {"value": null, "unit": "no negative employment effect detected", "value_type": "reported_null_effect"},
         "employer_response": {"value": null, "unit": "employers raise salaries above the threshold to keep workers exempt rather than lowering base pay or substituting more workers for fewer hours", "value_type": "reported_mechanism"},
-        "monitoring_cost": {"value": null, "unit": "costly monitoring and adjustment of workers' hours helps explain the employer response", "value_type": "reported_mechanism"}
+        "monitoring_cost": {"value": null, "unit": "costly monitoring and adjustment of workers' hours helps explain the employer response", "value_type": "reported_mechanism"},
+        "hours": {"value": null, "unit": "Current Population Survey data are used to examine hours, but the public summary does not report a precise hours estimate in the retained evidence", "value_type": "not_disclosed"}
       },
-      "method": "Event-study design using administrative payroll data and state-level overtime salary-threshold changes from 2014–2021.",
-      "uncertainty": "The NBER abstract does not disclose worker counts, effect sizes, hours changes, subgroup estimates, or the full event-study specification. The paper is a working paper; no employment decline detected is not proof that every worker gained time control or that all firms responded the same way.",
+      "method": "Event-study design using anonymized administrative payroll data from a large payroll processor and state-level overtime salary-threshold changes from 2014–2021; Current Population Survey data are used for hours analysis.",
+      "uncertainty": "The public NBER summary does not disclose exact worker counts, the full event-study specification, or a precise hours estimate. The paper is a working paper; average earnings gains and no aggregate employment decline do not prove that every worker gained time control, received overtime pay, or experienced durable household room.",
       "subgroup": "Salaried workers near overtime salary thresholds and employers deciding whether to reclassify, raise pay, or adjust hours.",
       "counterinterpretation": "Threshold changes may coincide with other state labor-market policies or local conditions; measured earnings may reflect classification and salary changes rather than paid overtime hours, improved job quality, or durable household room.",
+      "source_url": "https://www.nber.org/papers/w35433",
+      "retrieval_hash": "sha256:4d7d187c82479201051477d5df45d82b4ba91922f5a3d482cd2da23a5a99d996",
+      "status": "reported"
+    },
+    {
+      "period": "Appendix I; stacked difference-in-difference analysis of 49 state overtime-threshold changes from 2008–2026",
+      "denominator": {"value": 49, "unit": "state overtime-threshold changes in the CPS hours extension; this expanded design is separate from the payroll-data baseline", "value_type": "reported_policy_events"},
+      "measures": {
+        "weekly_hours_effect": {"value": null, "unit": "the estimate cannot reject that raising the overtime exemption threshold had no effect on workers' hours", "value_type": "reported_null_effect"},
+        "salaried_to_hourly_reclassification": {"value": 2.3, "unit": "percent of affected workers reclassified from salaried to hourly", "value_type": "reported_estimate"},
+        "hourly_employment_change": {"value": 2.7, "unit": "additional hourly jobs per 100 affected salaried workers in the aggregate decomposition", "value_type": "reported_estimate"},
+        "hours_data_source": {"value": "Current Population Survey Outgoing Rotation Survey weekly-hours measure", "unit": "survey measure used for the hours extension", "value_type": "reported_method"}
+      },
+      "method": "Separate CPS Outgoing Rotation Survey extension using a stacked difference-in-difference over 49 state threshold changes; the paper uses this design to test weekly hours and compares the direction of the earnings result with the administrative-payroll analysis.",
+      "uncertainty": "The paper describes the CPS hours estimates as less precise because of the smaller sample and does not establish that every worker experienced unchanged hours. The expanded 2008–2026 policy set is not the same estimand as the 2014–2021 payroll baseline, and reclassification is not itself evidence of worker control, paid overtime, or improved household time.",
+      "subgroup": "Workers near state overtime-exemption thresholds observed in the CPS Outgoing Rotation Survey, with employer classification responses potentially changing the observed wage and hours composition.",
+      "counterinterpretation": "A statistically inconclusive hours estimate can reflect limited precision rather than a precisely measured zero; reclassification may change pay accounting or flexibility without changing total work burden.",
       "source_url": "https://www.nber.org/papers/w35433",
       "retrieval_hash": "sha256:4d7d187c82479201051477d5df45d82b4ba91922f5a3d482cd2da23a5a99d996",
       "status": "reported"
     }
   ],
   "related_sources": [
+    {"source_url": "https://www.nber.org/digest/202610/firm-responses-changes-overtime-pay-thresholds", "claim": "The NBER summary reports 19 state threshold increases, a 21% reduction in workers in the old-to-new threshold band, a 1.4% average earnings increase, an 8.5% base-salary increase for the subgroup pushed above the threshold, and no statistically distinguishable aggregate employment effect.", "status": "official-summary"},
     {"source_url": "https://www.nber.org/papers/w35781", "claim": "US financial conditions can erode firm insurance and increase labor-income risk in bad times.", "status": "related-evidence"},
     {"source_url": "https://www.nber.org/papers/w35542", "claim": "US rival innovation creates asymmetric incumbent-worker earnings and job-destruction risk.", "status": "related-evidence"}
   ],
