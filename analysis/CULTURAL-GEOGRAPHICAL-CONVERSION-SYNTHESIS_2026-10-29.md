@@ -661,6 +661,7 @@ disruption or repeat shutoff continues.
 | Climate loss/damage finance/adaptation justice | shock, country, community, fund, donor, lender, intermediary, household, place, culture | hazard, loss, debt, eligibility, application, fiduciary, local capacity, relocation, cultural and bargaining burden | pledge, fund, approval, disbursement, local decision, adaptation/recovery, relocation and grievance | reduced exposure, restored livelihood, health, cultural continuity, safe stay/move option and equitable trust open | finance commitment is not community recovery; justice is tested at terms, timing, local authority and lived continuity |
 | Biodiversity finance/nature-based solutions | ecosystem, species, watershed, forest, wetland, reef, finance, community, Indigenous/local authority, place | tenure, baseline, metric, finance, maintenance, access, benefit sharing, ecological and cultural knowledge burden | classification, plan, restoration, conservation, stewardship, monitoring, revenue sharing and grievance | functioning ecosystem, flood/heat/drought protection, biodiversity, livelihood, cultural continuity and durable stewardship open | nature finance classification is not ecosystem or community recovery; legitimacy depends on rights, maintenance and lived benefit |
 | Digital sequence information/genetic-resource benefit sharing | genetic resource, sample, sequence, database, researcher, company, country, Indigenous/local community, fund, place | provenance, consent, data access, attribution, commercial use, contribution, allocation, governance and cultural knowledge burden | collection, sequencing, database reuse, commercial use, reporting, contribution, fund allocation and community decision | recognized origin, timely benefit, local control, conservation, livelihood, cultural sovereignty and trust open | DSI access is not equitable benefit sharing; a database, fund or implementation route does not prove recognition, receipt or community outcome |
+| Space weather/critical-infrastructure continuity | solar event, observatory, forecast, operator, grid, satellite, aircraft, navigation user, community, place | lead time, uncertainty, authority, latitude, orbit, grid design, redundancy, fallback, communication and repair burden | observation, forecast, warning, operator action, protective mode, reroute, continuity and recovery | maintained affordable service, avoided damage, safe operation, customer outcome, public trust and equitable resilience open | a space-weather forecast is not critical-infrastructure continuity; planetary hazard is converted through operator authority, fallback and place-based capacity |
 | Food security/benefit and retail route | household, person, benefit account, retailer, tract, trip, place | income, price, eligibility, paperwork, transport, time, disability, language, culture, refrigeration and store choice | application, receipt, redemption, retailer access, purchase, substitution, complaint and nutrition route | adequate affordable nutritious food, stable security, health and household dignity open | participation or mapped access is not a reliable food route; place and household options convert assistance into lived security |
 | Food environment/price/travel/cultural fit | household, county, tract, retailer, trip, basket, alternative source, place | price, distance, travel time, vehicle/transit, store format, inventory, hours, disability, language, culture, storage and care/work trade-off | benefit use, store choice, completed trip, substitution, pantry/family route and repeat purchase | adequate acceptable basket, continuity, health and food security open | food access is a feasible choice set, not a distance score; the same benefit or store map can produce different lived outcomes |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
@@ -679,7 +680,7 @@ disruption or repeat shutoff continues.
 
 ## What the evidence supports now
 
-The atlas can safely state forty-two propositions:
+The atlas can safely state sixty propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -922,6 +923,11 @@ The atlas can safely state forty-two propositions:
     framework or implementation report does not establish that source countries
     or communities are recognized, receive timely benefits, retain governance,
     or see conservation, livelihood or cultural outcomes.
+60. **A space-weather forecast is not critical-infrastructure continuity.** An
+    observation, warning, risk scenario, monitoring mission, operator plan or
+    protective protocol does not establish that a named utility, aircraft,
+    satellite, navigation-dependent service or community acted in time, avoided
+    damage, maintained an affordable service or recovered equitably.
 
 ## What the evidence does not support
 
@@ -959,12 +965,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation BF.
+living goal. The current atlas baseline has been refreshed through Rotation BG.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability, distributed-storage service continuity, household water-security adaptation, warning-to-safe-outcome conversion, trusted-intermediary service completion, wastewater signal-to-action conversion, port-to-community resilience, satellite usable-continuity, semiconductor qualified capability, submarine-cable fault-to-user continuity, advanced-reactor deployment-to-public-value, battery recovered-material-to-dependence conversion, hydrogen production-to-use, carbon-capture permanent-reduction verification, climate-finance-to-community-recovery, biodiversity-finance-to-ecosystem-community outcome and DSI-to-benefit-sharing conversion. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability, distributed-storage service continuity, household water-security adaptation, warning-to-safe-outcome conversion, trusted-intermediary service completion, wastewater signal-to-action conversion, port-to-community resilience, satellite usable-continuity, semiconductor qualified capability, submarine-cable fault-to-user continuity, advanced-reactor deployment-to-public-value, battery recovered-material-to-dependence conversion, hydrogen production-to-use, carbon-capture permanent-reduction verification, climate-finance-to-community-recovery, biodiversity-finance-to-ecosystem-community outcome, DSI-to-benefit-sharing conversion and forecast-to-space-weather-continuity conversion. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
