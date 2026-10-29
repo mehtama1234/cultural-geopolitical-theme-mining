@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–M
+**Date:** 2026-10-29; refreshed through Rotations D–N
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -352,6 +352,27 @@ displacing depending on the household’s objective, safety, affordability and
 social ties. The next evidence must therefore preserve household intent and
 distinguish return, delayed return, forced move and chosen relocation.
 
+### 16. Tribal water resilience is maintained, governed service
+
+The [Tribal water rotation](ROTATION-N-TRIBAL-WATER-MAINTAINED-ACCESS-2026-10-29.md)
+connects EPA’s FY2026 funding and governance rules with GAO’s estimate of a
+$6 billion safe-water need, interagency-process review and maintenance-finance
+constraint. The chain is need/sovereignty → coordination → award/design/
+construction → operator/O&M capacity → reliable household water.
+
+The sharper proposition is:
+
+> Tribal water resilience is maintained, governed service—not a grant, a project
+> award or a constructed asset.
+
+This is a distinct version of the atlas’s formal-capacity problem because EPA’s
+capital grant rules explicitly exclude operations and maintenance. The practical
+endpoint therefore depends on operator retention, spare parts, reserves, rates,
+compliance, outage response and community information. Geography includes the
+source, treatment system, distribution distance, scattered households and local
+labor market; culture includes sovereignty, self-determination and the meaning
+of dependable water in place.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -370,11 +391,12 @@ distinguish return, delayed return, forced move and chosen relocation.
 | Consumer remedy | consumer, claim, account, complaint, administrator | eligibility, documentation, contact, waiting, payment method, trust | settlement, refund, reissue, complaint response, correction | accepted payment, adequacy, residual loss and recurrence open | issued/closed is not accepted/usable recovery |
 | Rural health | state, county, facility, clinician, patient, service line | distance, travel, waiting, staffing, language, trust, referral coordination | award, state plan, recruitment, facility/technology change, appointment | completed care, continuity, health outcome and local acceptance open | award/monitoring is not dependable care; place determines usability |
 | Disaster recovery | household, home, disaster, insurer, agency, neighborhood, place | documentation, inspection, disability access, temporary housing, contractor supply, insurance, travel and social ties | application, award, insurance, repair, accessibility, utility restoration, relocation choice | safe completed home, affordability, return/stay/move, health and cultural continuity open | assistance or project completion is not durable recovery; repair can preserve or destroy place attachment |
+| Tribal water | Tribe, utility, source, treatment system, operator, household, place | application, interagency coordination, technical capacity, operator labor, maintenance finance, distance and trust | award, design, construction, commissioning, certification, O&M and compliance | reliable safe affordable household water, health, sovereignty and cultural continuity open | capital or formal governance is not maintained service; O&M and local control determine usability |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state fourteen propositions:
+The atlas can safely state fifteen propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -422,6 +444,10 @@ The atlas can safely state fourteen propositions:
     or a resilience project is not durable protection until a household has a
     timely, adequate and accessible repaired home and a credible, understood
     option to stay, return or move without unmeasured social loss.
+15. **Tribal water resilience is maintained service.** A grant, project or
+    governance role is not safe-water access until a named utility can operate,
+    maintain and govern a compliant system that delivers reliable, affordable
+    water to households over time.
 
 ## What the evidence does not support
 
@@ -459,11 +485,11 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation M.
+living goal. The current atlas baseline has been refreshed through Rotation N.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
-geopolitical leverage, rural point-of-care continuity and disaster household
-recovery. Those unresolved questions remain Tier 2 research opportunities rather
-than promoted findings.
+geopolitical leverage, rural point-of-care continuity, disaster household
+recovery and Tribal water maintenance. Those unresolved questions remain Tier 2
+research opportunities rather than promoted findings.
 
