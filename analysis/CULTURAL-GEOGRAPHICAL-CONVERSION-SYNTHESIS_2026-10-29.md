@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–AI
+**Date:** 2026-10-29; refreshed through Rotations D–AJ
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -653,10 +653,11 @@ disruption or repeat shutoff continues.
 | Digital identity/access/recovery | person, credential, document, device, authenticator, identity provider, service, agency, fallback site, place | evidence, device, biometrics, connectivity, privacy, disability, language, fraud risk, lockout and recovery burden | proofing, enrollment, authentication, federation, authorization, appeal, human fallback and account repair | legitimate service completion, privacy, fraud reduction, continuity and trust open | assurance is not usable access; the identity system distributes belonging and exclusion through proof and recovery burdens |
 | Climate insurance/recovery/place | household, parcel, policy, insurer, peril, claim, repair, neighborhood, place | hazard, risk perception, premium, deductible, exclusion, income, lender, contractor, displacement and social ties | map, offer, purchase, mitigation, claim, adjustment, settlement, repair, appeal and public assistance | safe affordable repair, retention, return, move, health, livelihood and place continuity open | insurance availability or payout is not durable recovery; climate risk becomes cultural and political through the option to remain |
 | Childcare/schedule/continuity | child, parent, household, provider, subsidy, slot, schedule, trip, backup arrangement, workplace, school, place | price, copay, eligibility, hours, distance, transport, staffing, illness, disability, language, trust and unpaid family labor | search, application, subsidy, enrollment, accepted schedule, attendance, closure, backup care, employer/school response | reliable care, parent work/education/health, child development, household stability and social participation open | a slot or subsidy is not usable care; social infrastructure is experienced through repeated schedule fit and the ability to recover from disruption |
+| Remittance/financial infrastructure | sender, recipient, household, provider, corridor, agent, account, currency, place, state | fee, FX margin, identity, device, language, liquidity, compliance, distance, timing and trust | provider choice, disclosure, transfer, settlement, cash-out, error, complaint, redress and household allocation | net receipt, food/housing/health/education protection, investment, reciprocity and cross-border resilience open | remittance volume or low corridor price is not household welfare; transnational infrastructure is experienced through receipt, use and remedy |
 
 ## What the evidence supports now
 
-The atlas can safely state thirty-six propositions:
+The atlas can safely state thirty-seven propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -796,6 +797,10 @@ The atlas can safely state thirty-six propositions:
     subsidy receipt, provider supply or a reported arrangement is not usable care
     until a family can repeatedly obtain affordable, safe and suitable care for
     the required hours and recover when the arrangement fails.
+37. **Remittance infrastructure converts flow into resilience only through
+    receipt and use.** Corridor volume, average price, digital availability or
+    disclosure does not establish that the intended household received the
+    expected net value safely, in time and with an effective error remedy.
 
 ## What the evidence does not support
 
@@ -833,12 +838,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation AI.
+living goal. The current atlas baseline has been refreshed through Rotation AJ.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery and childcare continuity. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity and remittance household receipt. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
