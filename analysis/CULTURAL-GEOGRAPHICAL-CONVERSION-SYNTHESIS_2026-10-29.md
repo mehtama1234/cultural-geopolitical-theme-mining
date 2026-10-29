@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–AD
+**Date:** 2026-10-29; refreshed through Rotations D–AE
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -648,10 +648,11 @@ disruption or repeat shutoff continues.
 | Food environment/price/travel/cultural fit | household, county, tract, retailer, trip, basket, alternative source, place | price, distance, travel time, vehicle/transit, store format, inventory, hours, disability, language, culture, storage and care/work trade-off | benefit use, store choice, completed trip, substitution, pantry/family route and repeat purchase | adequate acceptable basket, continuity, health and food security open | food access is a feasible choice set, not a distance score; the same benefit or store map can produce different lived outcomes |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 | Sanctions/humanitarian access | sanction, exemption, bank, supplier, NGO, customs, corridor, shipment, household | legal risk, compliance, documentation, fees, delay, border and local political/security burden | license, general authorization, bank interpretation, customs clearance, movement, complaint and oversight | timely aid delivery, beneficiary receipt, health/protection and geopolitical legitimacy open | legal permission is not civilian access; coercive policy is interpreted through the execution burden |
+| Cyber resilience/critical services | asset, operator, vulnerability, vendor, incident, system, service, user, place, state | patching, detection, response, downtime, manual workaround, privacy, staffing, dependency and attribution burden | disclosure, KEV/catalog, report, remediation, incident response, recovery, notification and public oversight | restored continuous service, affected-user protection, reduced repeat exposure and trusted attribution open | disclosure or reporting is not resilience; cyber risk becomes political through service interruption and recovery burden |
 
 ## What the evidence supports now
 
-The atlas can safely state thirty-one propositions:
+The atlas can safely state thirty-two propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -769,6 +770,10 @@ The atlas can safely state thirty-one propositions:
     access.** Banking, supplier, customs, licensing, movement and local-authority
     decisions can preserve, delay, narrow or block an aid route after formal
     authorization.
+32. **Cyber resilience is later than disclosure.** Vulnerability disclosure,
+    catalog inclusion, incident reporting or risk assessment does not establish
+    protected and continuous service until remediation, detection/response,
+    restoration, user continuity and reduced repeat exposure are observed.
 
 ## What the evidence does not support
 
@@ -806,12 +811,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation AD.
+living goal. The current atlas baseline has been refreshed through Rotation AE.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification and humanitarian-access execution. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution and cyber service continuity. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
