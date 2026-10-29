@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–J
+**Date:** 2026-10-29; refreshed through Rotations D–K
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -290,6 +290,25 @@ and formal-service networks may all provide belonging, but they differ in who
 can enter, what help is delivered, how much unpaid work is required and whether
 the route survives repeated shocks.
 
+### 13. Remedy legitimacy depends on receipt and acceptance
+
+The [consumer remedy rotation](ROTATION-K-CONSUMER-REMEDY-RECEIPT-2026-10-29.md)
+adds a high-quality administrative endpoint. The Amazon Prime record publicly
+separates redress issued from redress accepted, while the CFPB record shows that
+“closed” complaint categories can vary in meaning across companies.
+
+The sharper proposition is:
+
+> A remedy becomes legitimate when the affected person can identify eligibility,
+> receive and use the correction, understand what remains unresolved, and avoid
+> repeat exposure—not when an institution announces a settlement or closes a
+> case.
+
+This is the consumer counterpart to SNAP, platform, public-AI and infrastructure
+findings. Administrative legibility matters because it controls who is counted,
+who is paid, whose problem is considered closed and who must perform additional
+verification work.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -305,11 +324,12 @@ the route survives repeated shocks.
 | Supply-chain dependency | mine, refinery, manufacturer, buyer, place, state | concentration, export control, qualification, equipment, labor, environmental burden | substitute, recycle, stockpile, trace, ally or redesign | accepted output and disruption continuity open | nominal ownership is not strategic autonomy; burdens are geographically concentrated |
 | Cultural belonging/voice | person, group, cultural space, locality, institution | access cost, time, language, safety, representation, recognition | arts/community route, consultation, town hall, vote, feedback, organized refusal | institutional response and durable belonging/trust open | participation is not influence; shared identity is not practical inclusion |
 | Social infrastructure | person, network, volunteer group, neighborhood, place | travel, disability, care, coordination, unpaid labor, gatekeeping | volunteering, mutual aid, faith, neighbor, third place, formal service | delivered help, recovery, reciprocity and exhaustion open | network density is not delivered protection or fair reciprocity |
+| Consumer remedy | consumer, claim, account, complaint, administrator | eligibility, documentation, contact, waiting, payment method, trust | settlement, refund, reissue, complaint response, correction | accepted payment, adequacy, residual loss and recurrence open | issued/closed is not accepted/usable recovery |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state eleven propositions:
+The atlas can safely state twelve propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -346,6 +366,9 @@ The atlas can safely state eleven propositions:
 11. **Social infrastructure is delivered reciprocity.** Network size,
     volunteer hours or cohesion are not protection until a reachable person
     receives adequate help and the sustaining burden is fairly distributed.
+12. **Remedy legitimacy depends on receipt and acceptance.** A settlement,
+    issued payment or closed complaint is not usable recovery until the affected
+    person receives, understands and can use the correction.
 
 ## What the evidence does not support
 
