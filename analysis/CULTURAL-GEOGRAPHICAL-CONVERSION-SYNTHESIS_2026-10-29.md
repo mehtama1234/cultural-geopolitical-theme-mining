@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–AK
+**Date:** 2026-10-29; refreshed through Rotations D–AL
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -655,10 +655,11 @@ disruption or repeat shutoff continues.
 | Childcare/schedule/continuity | child, parent, household, provider, subsidy, slot, schedule, trip, backup arrangement, workplace, school, place | price, copay, eligibility, hours, distance, transport, staffing, illness, disability, language, trust and unpaid family labor | search, application, subsidy, enrollment, accepted schedule, attendance, closure, backup care, employer/school response | reliable care, parent work/education/health, child development, household stability and social participation open | a slot or subsidy is not usable care; social infrastructure is experienced through repeated schedule fit and the ability to recover from disruption |
 | Remittance/financial infrastructure | sender, recipient, household, provider, corridor, agent, account, currency, place, state | fee, FX margin, identity, device, language, liquidity, compliance, distance, timing and trust | provider choice, disclosure, transfer, settlement, cash-out, error, complaint, redress and household allocation | net receipt, food/housing/health/education protection, investment, reciprocity and cross-border resilience open | remittance volume or low corridor price is not household welfare; transnational infrastructure is experienced through receipt, use and remedy |
 | Eviction prevention/legal access/tenancy | tenant, household, landlord, notice, court, lawyer, aid program, lease, dwelling, neighborhood, place | arrears, rent burden, notice, legal language, time, transport, childcare, documentation, fees, repair and landlord power | notice, filing, counsel, application, payment, hearing, agreement, judgment, possession, relocation and appeal | safe affordable six/twelve-month tenancy, school/work/health continuity and social connection open | a filing, payment or court disposition is not durable housing; legal procedure becomes lived stability through possession and retention |
+| Health-data interoperability/patient continuity | patient, caregiver, clinician, record, EHR, API, HIE, provider, payer, agency, place | missingness, format, matching, privacy, language, disability, portal/device, fees, trust and workflow burden | record creation, exchange, patient access, clinician view/use, correction, handoff and care decision | safer coordinated care, fewer repeats, follow-up, trust and health outcome open | digital availability is not care continuity; technical standards become patient agency through understanding and action |
 
 ## What the evidence supports now
 
-The atlas can safely state thirty-eight propositions:
+The atlas can safely state thirty-nine propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -806,6 +807,10 @@ The atlas can safely state thirty-eight propositions:
     A notice, filing, legal-aid offer, rental-assistance payment or court
     disposition is not stable housing until possession, affordability, safety,
     household continuity and later retention are observed.
+39. **Health-data interoperability is availability converted through use.**
+    Electronic record access, API capability, standards-based exchange or a
+    connected network is not continuous care until the right information is
+    found, understood, corrected and acted on by the patient or clinician.
 
 ## What the evidence does not support
 
@@ -843,12 +848,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation AK.
+living goal. The current atlas baseline has been refreshed through Rotation AL.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt and eviction-tenancy retention. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention and health-data care continuity. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
