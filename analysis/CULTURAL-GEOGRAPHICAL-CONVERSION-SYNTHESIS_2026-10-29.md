@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–G
+**Date:** 2026-10-29; refreshed through Rotations D–H
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -233,6 +233,25 @@ dignity or belonging—or forced by the absence of a credible alternative.
 sets shaped by provider density, transit, housing, wages, credit, care networks
 and the distance to institutions.
 
+### 10. Dependency becomes resilient only at the qualified-use stage
+
+The [critical-minerals rotation](ROTATION-H-QUALIFIED-SUBSTITUTION-CRITICAL-MINERALS-2026-10-29.md)
+adds a geoeconomic version of the same missing middle. IEA shows mining,
+refining, magnets and cathode capacity do not diversify at the same pace. GAO
+shows substitution and recycling technologies may reduce import reliance, but
+their deployment horizon, feedstock, qualification and commercial output remain
+uncertain.
+
+The sharper proposition is:
+
+> Strategic autonomy is not nominal ownership; it is the ability to deliver
+> accepted, maintainable output through the vulnerable step of the value chain.
+
+This connects supply chains to culture and place: the national promise of
+resilience is interpreted through the towns that mine or process, the workers
+who maintain the capability, the communities that host waste or energy burdens,
+and the buyers who decide whether an alternative is good enough.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -245,11 +264,12 @@ and the distance to institutions.
 | Platform safety/AI | victim, account, claimant, public-service user | recognition, documentation, waiting, escalation | notice/removal, appeal, human review, low-tech alternative | safety, correction and continuity open | contestability is a social infrastructure, not merely a policy feature |
 | Time/care | caregiver, household, worker, community member | unpaid hours, fragmentation, travel, coordination, emotional load | substitute care, employer flexibility, public service, mutual aid | work, health, participation and continuity open | care is social infrastructure; predictability and alternatives determine agency |
 | Household optionality | household, consumer unit, place | prices, income timing, debt, quality, travel, care trade-off | cut, delay, borrow, substitute, insure or seek support | recovery, health, work, housing and participation open | resilience is option quality and reversibility, not income alone |
+| Supply-chain dependency | mine, refinery, manufacturer, buyer, place, state | concentration, export control, qualification, equipment, labor, environmental burden | substitute, recycle, stockpile, trace, ally or redesign | accepted output and disruption continuity open | nominal ownership is not strategic autonomy; burdens are geographically concentrated |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state eight propositions:
+The atlas can safely state nine propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -277,6 +297,9 @@ The atlas can safely state eight propositions:
    welfare or deprivation until the evidence shows what alternative was
    available, what it protected or sacrificed, and whether the choice was
    reversible.
+9. **Qualified substitution matters more than nominal ownership.** A mine,
+   project, contract or stockpile is not resilience until an accepted,
+   maintainable output reaches the vulnerable point of use.
 
 ## What the evidence does not support
 
