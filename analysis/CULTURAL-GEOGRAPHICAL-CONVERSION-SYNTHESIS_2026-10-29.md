@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–AA
+**Date:** 2026-10-29; refreshed through Rotations D–AB
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -644,11 +644,12 @@ disruption or repeat shutoff continues.
 | Refugee resettlement/local integration | refugee, cohort, household, sponsor, school, employer, clinic, service provider, neighborhood, place | legal route, language, housing, transport, health, documentation, work, family ties, discrimination and local capacity | admission, arrival support, benefits, language/school/work route, relationships, service response and civic entry | safety, housing stability, job quality, health, belonging, contribution, secondary mobility and durable integration open | arrival or employment is not integration; place converts protection into reciprocal inclusion or instability |
 | Energy insecurity/utility protection | account, household, dwelling, utility, assistance program, place | price, income timing, arrears, notice, equipment, weather, landlord, food/medicine, care and health | notice, shutoff, rationing, assistance, weatherization, reconnection, protection and complaint route | safe temperature, food/medicine, health, housing, care continuity and household optionality open | service restoration is not durable security; energy burden shifts risk into other household domains |
 | Food security/benefit and retail route | household, person, benefit account, retailer, tract, trip, place | income, price, eligibility, paperwork, transport, time, disability, language, culture, refrigeration and store choice | application, receipt, redemption, retailer access, purchase, substitution, complaint and nutrition route | adequate affordable nutritious food, stable security, health and household dignity open | participation or mapped access is not a reliable food route; place and household options convert assistance into lived security |
+| Food environment/price/travel/cultural fit | household, county, tract, retailer, trip, basket, alternative source, place | price, distance, travel time, vehicle/transit, store format, inventory, hours, disability, language, culture, storage and care/work trade-off | benefit use, store choice, completed trip, substitution, pantry/family route and repeat purchase | adequate acceptable basket, continuity, health and food security open | food access is a feasible choice set, not a distance score; the same benefit or store map can produce different lived outcomes |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state twenty-eight propositions:
+The atlas can safely state twenty-nine propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -754,6 +755,10 @@ The atlas can safely state twenty-eight propositions:
     access are different stages; none alone proves that a household acquired
     adequate, affordable and culturally acceptable food or sustained later
     security.
+29. **Food access is a feasible choice set, not a distance score.** Price,
+    travel time, store format, inventory, alternative sources and cultural fit
+    can convert the same benefit or mapped retailer into different actual food
+    acquisition outcomes.
 
 ## What the evidence does not support
 
@@ -791,12 +796,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation AA.
+living goal. The current atlas baseline has been refreshed through Rotation AB.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security and food-security route conversion. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion and food-environment affordability. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
