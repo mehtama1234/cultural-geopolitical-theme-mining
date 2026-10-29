@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–R
+**Date:** 2026-10-29; refreshed through Rotations D–S
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -453,6 +453,25 @@ limited connectivity can turn formal publicness into practical exclusion. A
 repair or high visit count still does not prove learning, benefit access, trust
 or durable belonging.
 
+### 21. School access is daily participation and belonging
+
+The [school attendance rotation](ROTATION-S-SCHOOL-ATTENDANCE-PLACE-BELONGING-2026-10-29.md)
+connects GAO’s chronic-absenteeism and facility-disruption evidence with NCES
+attendance measurement and IES intervention research. The chain is
+enrollment/offer → transport, housing, health, family capacity and welcome →
+attendance → learning/belonging → later opportunity.
+
+The sharper proposition is:
+
+> School access is daily, reachable and belonging-producing participation—not
+> enrollment, an attendance percentage, a program offer or a school building.
+
+Attendance is a useful administrative signal, but not a moral explanation. A
+missed day can encode transportation failure, housing instability, disability,
+illness, care work, fear, exclusion, school closure or a deliberate family
+choice. Place mediates the conversion through distance, district resources,
+facility quality, safety, alternate schools and local relationships.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -476,11 +495,12 @@ or durable belonging.
 | Broadband/digital access | location, household, provider, device, user, school, clinic, workplace | price, device, skills, language, disability, privacy, terrain, capacity, installation and trust | map challenge, award, build, subscription, support, correction and local governance | reliable affordable accessible use for work, care, learning, civic voice and culture open | mapped availability is not meaningful participation; digital geography redistributes agency and dependence |
 | Transit/practical mobility | rider, trip, route, vehicle, stop, provider, destination, place | fare, booking, waiting, transfer, distance, disability, safety, schedule and local capacity | funding, route, reservation, boarding, accommodation, complaint and service coordination | completed trip, work/care/education/food/social access and sustained participation open | service volume is not mobility; a route can exist while a person remains unable to reach the needed destination |
 | Library civic/cultural infrastructure | library, building, staff, user, program, device, neighborhood, place | distance, disability, language, hours, privacy, maintenance, staffing, digital access and contested meaning | repair, accommodation, service desk, Wi-Fi, program, information route and civic encounter | completed service, learning, benefit access, cultural participation, belonging and trust open | public presence or visit volume is not an accessible, trusted or durable civic encounter |
+| School attendance/place/belonging | student, household, school, district, facility, route, teacher, peer, place | transport, housing, health, care, disability, language, safety, schedule, closure and recognition | enrollment, attendance response, accommodation, relationship, voice and re-entry | learning, belonging, completion, work and civic opportunity open | enrollment or attendance is not reachable participation, learning or inclusion |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state nineteen propositions:
+The atlas can safely state twenty propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -548,6 +568,10 @@ The atlas can safely state nineteen propositions:
     building, program, visit count or Wi-Fi signal is not civic and cultural
     capacity until people can enter, use and trust the institution for a needed
     information, social, learning or civic purpose over time.
+20. **School access is daily participation and belonging.** Enrollment,
+    attendance or a program offer is not educational opportunity until students
+    can reach, enter, remain in and trust the school often enough to participate
+    and learn.
 
 ## What the evidence does not support
 
@@ -591,6 +615,6 @@ explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility and library civic infrastructure. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure and school attendance/belonging. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
