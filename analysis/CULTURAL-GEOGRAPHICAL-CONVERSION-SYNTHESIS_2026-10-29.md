@@ -193,6 +193,25 @@ language, disability access, local offices, trusted intermediaries, legal
 support and cross-border platform reach. “Human fallback” can reduce exclusion
 or shift verification and travel work onto those least able to carry it.
 
+### 8. Time is infrastructure when it is predictable and substitutable
+
+The [time/care rotation](ROTATION-F-TIME-CARE-HIDDEN-INFRASTRUCTURE-2026-10-29.md)
+adds a formal scale to the hidden-infrastructure theme. GAO's ATUS analysis
+shows the enormous amount and economic value of unpaid household work, while BLS
+adds fragmentation and multitasking as mechanisms that shape work-family
+conversion.
+
+The sharper proposition is not that unpaid care is uniformly harmful. It is:
+
+> Usable agency depends on whether care time is predictable, supported and
+> replaceable, not only on whether a person has nominal access to a service,
+> job or civic route.
+
+Care can express meaning and reciprocity, but fragmented or unsupported care can
+also consume the time needed for paid work, health maintenance, mobility and
+participation. Place determines whether an alternative exists and how much
+travel, money, coordination and trust it requires.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -203,11 +222,12 @@ or shift verification and travel work onto those least able to carry it.
 | Data center/grid | facility, utility, rate class, locality | reliability, land, bill, emissions, siting | tariff, public comment, route challenge, route substitution | customer/local burden and construction outcome open | national capability must earn host-place permission; non-consent can redistribute burden |
 | Cultural/digital | user, creator, local institution | verification, attention, discoverability | provenance, correction, first-party route | repeat participation/trust open | reach is not owned relationship or agency |
 | Platform safety/AI | victim, account, claimant, public-service user | recognition, documentation, waiting, escalation | notice/removal, appeal, human review, low-tech alternative | safety, correction and continuity open | contestability is a social infrastructure, not merely a policy feature |
+| Time/care | caregiver, household, worker, community member | unpaid hours, fragmentation, travel, coordination, emotional load | substitute care, employer flexibility, public service, mutual aid | work, health, participation and continuity open | care is social infrastructure; predictability and alternatives determine agency |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state six propositions:
+The atlas can safely state seven propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -228,6 +248,9 @@ The atlas can safely state six propositions:
    complaint route, audit, human fallback or low-tech alternative can exist in
    formal design while remaining difficult to discover, use or complete for the
    person carrying the risk.
+7. **Time is social infrastructure.** The relevant scarcity is often
+   predictability, coordination and credible substitution, not merely total
+   hours; this determines who can preserve work, health, belonging and voice.
 
 ## What the evidence does not support
 
