@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–AW
+**Date:** 2026-10-29; refreshed through Rotations D–AX
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -652,6 +652,7 @@ disruption or repeat shutoff continues.
 | Wastewater surveillance/public trust | sewershed, sample, laboratory, health department, utility, resident, institution, community, place | sampling scale, uncertainty, privacy, stigma, data access, interpretation, communication and clinical capacity | sampling, validation, dashboard, public message, community feedback and response | prevention, testing, vaccination, care-seeking, reduced harm and equitable trust open | environmental signal is not public-health outcome; legitimacy depends on reciprocal governance and feasible action |
 | Maritime logistics/port communities | port, vessel, terminal, worker, corridor, cargo, agency, neighborhood, place, state | weather, cyber, labor, land, traffic, emissions, security, connector, capital and governance burden | grant, security, terminal, vessel, cargo, landside movement, mitigation, monitoring and community participation | recovery time, goods access/cost, jobs, exposure, health, local benefit and geopolitical resilience open | port capacity is not shared resilience; strategic continuity must be translated through workers, corridors and host communities |
 | Satellite connectivity/emergency access | location, household, device, constellation, spectrum, ground segment, responder, route, place, state | line of sight, terrain, power, device, subscription, latency, congestion, routing, ownership and sovereignty | coverage, authentication, data exchange, direct-to-device message/call, dispatch and public-service encounter | completed work/care/learning/911 use, continuity, affordability, interoperability and sovereign resilience open | satellite coverage is not usable digital continuity; orbital capacity changes geography without eliminating local access constraints |
+| Semiconductor controls/strategic dependence | chip, design, equipment, foundry, packaging site, cloud, user, firm, country, alliance | export rule, license, entity list, traceability, compliance, subsidy, workforce, qualification and substitution burden | screening, denial, rerouting, investment, production, qualification, accepted use and partner coordination | reliable affordable compute, commercial/defense continuity, innovation, domestic capability and geopolitical leverage open | control or capacity is not qualified autonomy; strategic resilience is tested at accepted output and substitution |
 | Food security/benefit and retail route | household, person, benefit account, retailer, tract, trip, place | income, price, eligibility, paperwork, transport, time, disability, language, culture, refrigeration and store choice | application, receipt, redemption, retailer access, purchase, substitution, complaint and nutrition route | adequate affordable nutritious food, stable security, health and household dignity open | participation or mapped access is not a reliable food route; place and household options convert assistance into lived security |
 | Food environment/price/travel/cultural fit | household, county, tract, retailer, trip, basket, alternative source, place | price, distance, travel time, vehicle/transit, store format, inventory, hours, disability, language, culture, storage and care/work trade-off | benefit use, store choice, completed trip, substitution, pantry/family route and repeat purchase | adequate acceptable basket, continuity, health and food security open | food access is a feasible choice set, not a distance score; the same benefit or store map can produce different lived outcomes |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
@@ -870,6 +871,11 @@ The atlas can safely state forty-two propositions:
     coverage map, emergency feature or technical speed claim does not establish
     that a named person in a remote or disrupted place could afford, connect,
     communicate and complete the needed work, care, civic or emergency encounter.
+51. **Semiconductor security is qualified, compliant capability—not a control,
+    subsidy, fab announcement or entity-list addition.** Formal restrictions and
+    industrial-policy investment can change access and incentives, but do not by
+    themselves prove diversion prevention, accepted output, supply continuity,
+    affordable compute, or durable geopolitical leverage.
 
 ## What the evidence does not support
 
@@ -907,12 +913,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation AW.
+living goal. The current atlas baseline has been refreshed through Rotation AX.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability, distributed-storage service continuity, household water-security adaptation, warning-to-safe-outcome conversion, trusted-intermediary service completion, wastewater signal-to-action conversion, port-to-community resilience and satellite usable-continuity. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability, distributed-storage service continuity, household water-security adaptation, warning-to-safe-outcome conversion, trusted-intermediary service completion, wastewater signal-to-action conversion, port-to-community resilience, satellite usable-continuity and semiconductor qualified capability. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
