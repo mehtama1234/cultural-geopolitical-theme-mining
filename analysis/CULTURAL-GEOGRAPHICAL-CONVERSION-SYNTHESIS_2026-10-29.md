@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–K
+**Date:** 2026-10-29; refreshed through Rotations D–L
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -309,6 +309,28 @@ findings. Administrative legibility matters because it controls who is counted,
 who is paid, whose problem is considered closed and who must perform additional
 verification work.
 
+### 14. Public-health resilience is continuity at the point of care
+
+The [rural-health rotation](ROTATION-L-RURAL-HEALTH-TRANSFORMATION-SERVICE-ACCESS-2026-10-29.md)
+connects CMS’s $50 billion Rural Health Transformation Program, GAO’s monitoring
+and conditional-funding description, and HRSA’s shortage, geographic-access and
+workforce-projection evidence. The common chain is award → state implementation
+→ workforce/facility change → appointment → continuity and health outcome.
+
+The sharper proposition is:
+
+> Rural-health resilience is not demonstrated by an award, a state plan or a
+> clinician count; it is demonstrated when a named community can repeatedly
+> obtain the needed service with acceptable travel, waiting, language and trust
+> conditions.
+
+This adds a public-health version of the atlas’s central distinction. Geography
+is not a backdrop: distance, facility closure, weather, local identity,
+transport and workforce retention determine whether an intervention is felt as
+care or as another temporary promise. The next evidence should preserve county,
+service line and time, and should distinguish appointments from completed care
+and continuity.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -325,6 +347,7 @@ verification work.
 | Cultural belonging/voice | person, group, cultural space, locality, institution | access cost, time, language, safety, representation, recognition | arts/community route, consultation, town hall, vote, feedback, organized refusal | institutional response and durable belonging/trust open | participation is not influence; shared identity is not practical inclusion |
 | Social infrastructure | person, network, volunteer group, neighborhood, place | travel, disability, care, coordination, unpaid labor, gatekeeping | volunteering, mutual aid, faith, neighbor, third place, formal service | delivered help, recovery, reciprocity and exhaustion open | network density is not delivered protection or fair reciprocity |
 | Consumer remedy | consumer, claim, account, complaint, administrator | eligibility, documentation, contact, waiting, payment method, trust | settlement, refund, reissue, complaint response, correction | accepted payment, adequacy, residual loss and recurrence open | issued/closed is not accepted/usable recovery |
+| Rural health | state, county, facility, clinician, patient, service line | distance, travel, waiting, staffing, language, trust, referral coordination | award, state plan, recruitment, facility/technology change, appointment | completed care, continuity, health outcome and local acceptance open | award/monitoring is not dependable care; place determines usability |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
@@ -369,6 +392,10 @@ The atlas can safely state twelve propositions:
 12. **Remedy legitimacy depends on receipt and acceptance.** A settlement,
     issued payment or closed complaint is not usable recovery until the affected
     person receives, understands and can use the correction.
+13. **Public-health resilience is point-of-care continuity.** A national award,
+    state plan or clinician count is not dependable rural access until a named
+    community can obtain and sustain the needed service with acceptable travel,
+    waiting, language and trust conditions.
 
 ## What the evidence does not support
 
