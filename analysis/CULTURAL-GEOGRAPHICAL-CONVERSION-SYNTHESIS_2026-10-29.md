@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–H
+**Date:** 2026-10-29; refreshed through Rotations D–I
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -252,6 +252,25 @@ resilience is interpreted through the towns that mine or process, the workers
 who maintain the capability, the communities that host waste or energy burdens,
 and the buyers who decide whether an alternative is good enough.
 
+### 11. Belonging requires a practical voice route
+
+The [cultural belonging rotation](ROTATION-I-CULTURAL-BELONGING-PRACTICAL-VOICE-2026-10-29.md)
+links OECD political-voice evidence with NEA cultural-access and group-belonging
+evidence. The common mechanism is not shared values alone; it is a route from
+identity or concern to participation, recognition, response and consequence.
+
+The sharper proposition is:
+
+> Belonging becomes durable when people can enter a cultural or civic space,
+> express a concern in a legible way, and see that someone with authority heard
+> and acted on it.
+
+This explains why formal participation can coexist with distrust. Voting,
+consultation, town halls or arts attendance may be available while participants
+believe they have little influence. Local cultural spaces may provide social
+entry without guaranteeing political power; public institutions may solicit
+voice without producing visible response.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -265,11 +284,12 @@ and the buyers who decide whether an alternative is good enough.
 | Time/care | caregiver, household, worker, community member | unpaid hours, fragmentation, travel, coordination, emotional load | substitute care, employer flexibility, public service, mutual aid | work, health, participation and continuity open | care is social infrastructure; predictability and alternatives determine agency |
 | Household optionality | household, consumer unit, place | prices, income timing, debt, quality, travel, care trade-off | cut, delay, borrow, substitute, insure or seek support | recovery, health, work, housing and participation open | resilience is option quality and reversibility, not income alone |
 | Supply-chain dependency | mine, refinery, manufacturer, buyer, place, state | concentration, export control, qualification, equipment, labor, environmental burden | substitute, recycle, stockpile, trace, ally or redesign | accepted output and disruption continuity open | nominal ownership is not strategic autonomy; burdens are geographically concentrated |
+| Cultural belonging/voice | person, group, cultural space, locality, institution | access cost, time, language, safety, representation, recognition | arts/community route, consultation, town hall, vote, feedback, organized refusal | institutional response and durable belonging/trust open | participation is not influence; shared identity is not practical inclusion |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state nine propositions:
+The atlas can safely state ten propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -300,6 +320,9 @@ The atlas can safely state nine propositions:
 9. **Qualified substitution matters more than nominal ownership.** A mine,
    project, contract or stockpile is not resilience until an accepted,
    maintainable output reaches the vulnerable point of use.
+10. **Belonging requires a practical voice route.** Participation becomes
+    durable legitimacy only when access, recognition, responsiveness and visible
+    consequence connect; a formal invitation alone is not influence.
 
 ## What the evidence does not support
 
