@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–AO
+**Date:** 2026-10-29; refreshed through Rotations D–AP
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -644,6 +644,7 @@ disruption or repeat shutoff continues.
 | Extreme heat/cooling/place health | person, household, ZIP, home, workplace, cooling center, health system, community | temperature, indoor conditions, AC/energy cost, water, transport, mobility, isolation, work and trust | forecast, warning, HHI, cooling center, utility support, outreach and clinical response | reduced exposure, illness avoided, care continuity, mortality, adaptation and place resilience open | heat plan or resource is not reachable protection; climate risk is converted through household options and local trust |
 | Refugee resettlement/local integration | refugee, cohort, household, sponsor, school, employer, clinic, service provider, neighborhood, place | legal route, language, housing, transport, health, documentation, work, family ties, discrimination and local capacity | admission, arrival support, benefits, language/school/work route, relationships, service response and civic entry | safety, housing stability, job quality, health, belonging, contribution, secondary mobility and durable integration open | arrival or employment is not integration; place converts protection into reciprocal inclusion or instability |
 | Energy insecurity/utility protection | account, household, dwelling, utility, assistance program, place | price, income timing, arrears, notice, equipment, weather, landlord, food/medicine, care and health | notice, shutoff, rationing, assistance, weatherization, reconnection, protection and complaint route | safe temperature, food/medicine, health, housing, care continuity and household optionality open | service restoration is not durable security; energy burden shifts risk into other household domains |
+| EV charging/equitable mobility | driver, household, vehicle, charger, station, route, destination, place | price, dwelling, grid, connector, payment, queue, outage, accessibility, travel time and repair coverage | deployment, station discovery, live status, payment, charging encounter and assistance | sufficient affordable charge, completed work/care/education/food/social trip and repeat adoption open | port deployment is not equitable mobility; electrification redistributes time, contingency and access burdens across places and households |
 | Food security/benefit and retail route | household, person, benefit account, retailer, tract, trip, place | income, price, eligibility, paperwork, transport, time, disability, language, culture, refrigeration and store choice | application, receipt, redemption, retailer access, purchase, substitution, complaint and nutrition route | adequate affordable nutritious food, stable security, health and household dignity open | participation or mapped access is not a reliable food route; place and household options convert assistance into lived security |
 | Food environment/price/travel/cultural fit | household, county, tract, retailer, trip, basket, alternative source, place | price, distance, travel time, vehicle/transit, store format, inventory, hours, disability, language, culture, storage and care/work trade-off | benefit use, store choice, completed trip, substitution, pantry/family route and repeat purchase | adequate acceptable basket, continuity, health and food security open | food access is a feasible choice set, not a distance score; the same benefit or store map can produce different lived outcomes |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
@@ -827,6 +828,10 @@ The atlas can safely state forty-two propositions:
     not establish safety until a person’s indoor/work exposure, practical
     mitigation, health needs, continuity and repeated-season adaptation are
     observed.
+43. **EV charging equity is completed-trip reliability.** Port counts, station
+    awards, network maps and formal accessibility or uptime requirements do not
+    establish that a person can obtain an affordable, accessible, functioning
+    charge and complete a needed journey.
 
 ## What the evidence does not support
 
@@ -864,12 +869,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation AO.
+living goal. The current atlas baseline has been refreshed through Rotation AP.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety and wildfire-smoke exposure reduction. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction and EV completed-trip reliability. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
