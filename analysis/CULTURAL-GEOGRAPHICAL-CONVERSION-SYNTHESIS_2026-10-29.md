@@ -58,7 +58,8 @@ The [Golden-Mars local-permission audit](INFRASTRUCTURE-LOCAL-PERMISSION-FOLLOWU
 shows how a technically justified transmission project becomes a local
 political object. Reliability and future-load claims are followed by route
 alternatives, public comments, homeowner and county participation, school-board
-land control and a conditional fallback route.
+land control and, after non-consent, a route substitution from the Commission's
+preferred Route 4 to authorized Route 3A.
 
 This is not simply “community sentiment.” It is a governance mechanism:
 
@@ -66,12 +67,14 @@ This is not simply “community sentiment.” It is a governance mechanism:
 strategic/system benefit
   -> local land and service exposure
   -> organized place-based voice
-  -> route, compensation or timing decision
+  -> route, compensation, timing or burden-redistribution decision
   -> implementation durability
 ```
 
 **Cultural meaning:** residents interpret infrastructure through property,
-landscape, safety, fairness and who is receiving the private benefit.
+landscape, safety, fairness and who is receiving the private benefit. Non-consent
+may redirect the burden rather than stop the strategic capability, so permission
+must be analyzed together with who is newly exposed by the authorized route.
 
 **Geographical implication:** legitimacy is concentrated where the physical
 burden lands, even when the strategic benefit is nationally distributed.
@@ -144,12 +147,15 @@ AI summaries or synthetic content on cultural participation or voting.
 The [Poland/NATO capability packet](GEOPOLITICAL-CAPABILITY-TO-RESPONSE-PACKET-POLAND_2026-10-29.md)
 and the existing [geopolitical operation synthesis](../analysis/projects/cross-domain/us-geopolitical-operation-response-legitimacy-2026-09-29.md)
 separate incident, interception, Article 4 consultation, alliance posture,
-capability acceptance, public support and later external behavior.
+capability acceptance, public support and later external behavior. The updated
+packet adds a later clock: NATO posture persistence and integration through
+2026, alongside continued Polish air-security activity and unresolved
+attribution in some later episodes.
 
 An alliance may have broad public support while a particular host community
-opposes land use or cost. A force may respond rapidly without deterring a later
-incursion. An aircraft may be accepted without proving readiness. These are
-different clocks, not contradictory evidence.
+opposes land use or cost. A force may respond rapidly and maintain a posture
+without deterring a later incursion. An aircraft may be accepted without proving
+readiness. These are different clocks, not contradictory evidence.
 
 **Cultural meaning:** solidarity is experienced through a particular mission,
 leader, burden and perceived effectiveness—not only through an institution’s
@@ -165,9 +171,9 @@ operational burdens that national or alliance surveys may not capture.
 | Platform work | account, worker, tribunal case | response, appeal, lost work, payment friction | review, reactivation, order | payment/access still partly open | remedy can be formal without durable agency |
 | SNAP/public benefit | household, case, EBT account | notice, form, waiting, failed purchase | hearing, replacement, proof of compliance | balance/food protection open | administrative legibility becomes lived fairness |
 | Public AI | claimant, service task, agency system | explanation, verification, appeal | human review, audit, correction | service receipt open | capacity without contestability can weaken legitimacy |
-| Data center/grid | facility, utility, rate class, locality | reliability, land, bill, emissions, siting | tariff, public comment, route challenge | customer/local burden open | national capability must earn host-place permission |
+| Data center/grid | facility, utility, rate class, locality | reliability, land, bill, emissions, siting | tariff, public comment, route challenge, route substitution | customer/local burden and construction outcome open | national capability must earn host-place permission; non-consent can redistribute burden |
 | Cultural/digital | user, creator, local institution | verification, attention, discoverability | provenance, correction, first-party route | repeat participation/trust open | reach is not owned relationship or agency |
-| Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, alliance response | deterrence/acceptance open | operation is not leverage until external behavior changes |
+| Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
@@ -183,10 +189,11 @@ The atlas can safely state five propositions:
    persistent.** An order, policy or audit is not sufficient by itself.
 4. **Place changes the meaning of national or institutional ambition.** Host
    communities receive concentrated burdens and can exercise permission,
-   delay, route choice or refusal.
-5. **Geopolitical leverage requires a later attributed response.** Interception,
-   consultation, procurement and acceptance are operational milestones, not
-   deterrence by themselves.
+   delay, route choice or refusal; non-consent can shift the burden to another
+   route or population.
+5. **Geopolitical persistence is not geopolitical leverage.** Interception,
+   consultation, procurement, acceptance and continued posture are operational
+   milestones; leverage requires a later attributed change in external behavior.
 
 ## What the evidence does not support
 
@@ -224,8 +231,9 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis is ready to serve as the cultural/geographical interpretation
-layer for the new goal. The final atlas is not complete because later material
-outcomes remain open in public AI, infrastructure incidence and geopolitical
-leverage. The next work should acquire or document those fields, then revise
-this synthesis with explicit closed chains and counterexamples.
+layer for the new goal. The final atlas is not complete because claimant-level
+public-AI outcomes, facility-to-customer infrastructure incidence,
+construction/appeal outcomes and geopolitical leverage remain open. The next
+work should acquire or document those fields, then revise this synthesis with
+explicit closed chains and counterexamples.
 
