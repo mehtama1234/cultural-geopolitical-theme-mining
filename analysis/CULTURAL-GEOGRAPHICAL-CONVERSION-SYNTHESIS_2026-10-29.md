@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–BC
+**Date:** 2026-10-29; refreshed through Rotations D–BD
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -658,6 +658,7 @@ disruption or repeat shutoff continues.
 | Battery recycling/circular supply chains | battery, chemistry, scrap, collector, recycler, black mass, refiner, buyer, worker, host place, state | collection, transport, fire, process energy, chemicals, waste, capacity, purity, qualification, price and local exposure | take-back, processing, refining, material acceptance, battery production and monitoring | qualified material, reduced import exposure, product continuity, jobs, health, environmental burden and circular trust open | recycling capacity or recovered mineral is not qualified circular supply; autonomy is tested at accepted application-specific output |
 | Hydrogen hubs/industrial decarbonization | producer, hub, electrolyzer/reformer, water, power, pipeline, storage, offtaker, worker, community, region | production pathway, electricity, water, carbon, transport, safety, cost, land, labor and local burden | award, production, conditioning, storage, transport, offtake, environmental review and operation | delivered competitive hydrogen, verified lifecycle emissions, uptime, industrial output, jobs, health and regional legitimacy open | a hub award or production design is not clean industrial use; the value is tested at delivered end use and place-level burden |
 | Carbon capture/storage/MRV | emitter, capture plant, pipeline, pore-space, injector, utilization facility, regulator, community, place | energy penalty, transport, land, geology, leakage, MRV, credit, safety, compensation and trust burden | capture, compression, transport, injection/use, monitoring, reporting, verification and tax claim | additional permanent net reduction, safe operation, local health/jobs/compensation and durable legitimacy open | captured volume or credit is not climate outcome; permanence is a technical and public-governance relationship |
+| Climate loss/damage finance/adaptation justice | shock, country, community, fund, donor, lender, intermediary, household, place, culture | hazard, loss, debt, eligibility, application, fiduciary, local capacity, relocation, cultural and bargaining burden | pledge, fund, approval, disbursement, local decision, adaptation/recovery, relocation and grievance | reduced exposure, restored livelihood, health, cultural continuity, safe stay/move option and equitable trust open | finance commitment is not community recovery; justice is tested at terms, timing, local authority and lived continuity |
 | Food security/benefit and retail route | household, person, benefit account, retailer, tract, trip, place | income, price, eligibility, paperwork, transport, time, disability, language, culture, refrigeration and store choice | application, receipt, redemption, retailer access, purchase, substitution, complaint and nutrition route | adequate affordable nutritious food, stable security, health and household dignity open | participation or mapped access is not a reliable food route; place and household options convert assistance into lived security |
 | Food environment/price/travel/cultural fit | household, county, tract, retailer, trip, basket, alternative source, place | price, distance, travel time, vehicle/transit, store format, inventory, hours, disability, language, culture, storage and care/work trade-off | benefit use, store choice, completed trip, substitution, pantry/family route and repeat purchase | adequate acceptable basket, continuity, health and food security open | food access is a feasible choice set, not a distance score; the same benefit or store map can produce different lived outcomes |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
@@ -904,6 +905,11 @@ The atlas can safely state forty-two propositions:
     permit or demonstration award does not establish additional, durable net
     emissions reduction, safe operation, fair compensation or durable community
     legitimacy.
+57. **Climate finance commitment is not community recovery.** A pledge, fund,
+    portfolio, grant, loan, insurance product or locally led principle does not
+    establish timely disbursement, affordable terms, locally chosen action,
+    preserved culture, reduced exposure, restored livelihood or equitable loss-and-
+    damage recovery.
 
 ## What the evidence does not support
 
@@ -941,12 +947,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation BC.
+living goal. The current atlas baseline has been refreshed through Rotation BD.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability, distributed-storage service continuity, household water-security adaptation, warning-to-safe-outcome conversion, trusted-intermediary service completion, wastewater signal-to-action conversion, port-to-community resilience, satellite usable-continuity, semiconductor qualified capability, submarine-cable fault-to-user continuity, advanced-reactor deployment-to-public-value, battery recovered-material-to-dependence conversion, hydrogen production-to-use and carbon-capture permanent-reduction verification. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability, distributed-storage service continuity, household water-security adaptation, warning-to-safe-outcome conversion, trusted-intermediary service completion, wastewater signal-to-action conversion, port-to-community resilience, satellite usable-continuity, semiconductor qualified capability, submarine-cable fault-to-user continuity, advanced-reactor deployment-to-public-value, battery recovered-material-to-dependence conversion, hydrogen production-to-use, carbon-capture permanent-reduction verification and climate-finance-to-community-recovery. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
