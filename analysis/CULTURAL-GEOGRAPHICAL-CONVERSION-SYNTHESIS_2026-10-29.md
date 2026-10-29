@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–U
+**Date:** 2026-10-29; refreshed through Rotations D–V
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -513,6 +513,26 @@ decline is not proof of individual recovery. Place, governance, affordability,
 health, transport and social ties determine whether an exit is experienced as a
 home or another temporary route.
 
+### 24. Community-based care is person-controlled delivery
+
+The [HCBS care rotation](ROTATION-V-HCBS-CARE-PLACE-PERSON-CONTROL-2026-10-29.md)
+connects Medicaid’s Access Rule, quality-measure and waiting-list frameworks
+with GAO’s assisted-living coverage evidence. The chain is need/eligibility →
+assessment/wait/authorization → worker/service → delivered care/plan → health,
+caregiver capacity, participation and control.
+
+The sharper proposition is:
+
+> Community-based care is reliable, adequate and person-controlled delivery—not
+> eligibility, a waiver slot, a waiting-list number, a care plan or a coverage
+> statistic.
+
+The formal system is moving toward timeliness, stratification, incidents,
+grievances, person-centered planning, worker compensation and person-reported
+outcomes. Those are important accountability stages, but the lived endpoint is
+whether a suitable worker delivers enough safe care for the person to remain in
+the community with agency, dignity, health and social connection.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -539,11 +559,12 @@ home or another temporary route.
 | School attendance/place/belonging | student, household, school, district, facility, route, teacher, peer, place | transport, housing, health, care, disability, language, safety, schedule, closure and recognition | enrollment, attendance response, accommodation, relationship, voice and re-entry | learning, belonging, completion, work and civic opportunity open | enrollment or attendance is not reachable participation, learning or inclusion |
 | Voting access/civic voice | voter, household, polling place, ballot, administrator, route, jurisdiction, place | information, registration, time, transport, queue, language, disability, privacy, technology and trust | registration, early/mail/in-person route, accommodation, cure, audit and institutional response | counted ballot, perceived voice, trust, future participation and organized action open | eligibility or turnout is not completed accessible voice or political consequence |
 | Homelessness/durable housing | person, household, shelter, service system, lease, housing unit, neighborhood, place | housing loss, documentation, wait, safety, affordability, health, transport, governance and social ties | outreach, entry, shelter, case management, rental aid, supportive housing and exit | move-in, retention, health, safety, affordability, connection and recurrence open | count or exit is not a durable home; housing response redistributes agency and place connection |
+| HCBS care/place/control | person, household, caregiver, worker, provider, waiver, home, community, state | assessment, waiting, authorization, worker shortage, travel, rate, care coordination, language, culture and family labor | person-centered plan, worker assignment, delivered hours, grievance, incident response and participant direction | health, safety, caregiver capacity, work, participation, community living and institutional entry open | eligibility or a care plan is not delivered, adequate or person-controlled care |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state twenty-two propositions:
+The atlas can safely state twenty-three propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -624,6 +645,10 @@ The atlas can safely state twenty-two propositions:
     contact or permanent-housing exit is not housing stability until a person
     can remain safely housed with adequate affordability, health support,
     agency and social connection over time.
+23. **Community-based care is person-controlled delivery.** Eligibility,
+    authorization, coverage, a waiver slot or a care plan is not community living
+    until a suitable worker delivers reliable, adequate and chosen care that
+    supports health, dignity, caregiver capacity and participation.
 
 ## What the evidence does not support
 
@@ -667,6 +692,6 @@ explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access and durable housing. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing and HCBS care. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
