@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–V
+**Date:** 2026-10-29; refreshed through Rotations D–W
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -533,6 +533,26 @@ outcomes. Those are important accountability stages, but the lived endpoint is
 whether a suitable worker delivers enough safe care for the person to remain in
 the community with agency, dignity, health and social connection.
 
+### 25. AI changes workplace control before it settles productivity
+
+The [AI work-control rotation](ROTATION-W-AI-WORK-CONTROL-JOB-QUALITY-2026-10-29.md)
+connects ILO evidence reviews on productivity, surveillance and scale with OECD
+evidence on adoption, skills, algorithmic management and worker consultation.
+The chain is adoption/exposure → task redesign/management control → skills/voice
+→ output/job quality → household and local labor outcome.
+
+The sharper proposition is:
+
+> AI changes the distribution of control before it settles the distribution of
+> productivity: the decisive workplace question is who sets the task, pace,
+> data, evaluation, training, error burden and share of the gain.
+
+Task-level time savings, manager-reported decision improvement and firm adoption
+are distinct from worker autonomy, pay, job security, health, bargaining power
+and household benefit. The cultural meaning of AI at work therefore depends on
+whether workers experience augmentation as relief and learning or as deskilling,
+surveillance and intensified control.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -560,11 +580,12 @@ the community with agency, dignity, health and social connection.
 | Voting access/civic voice | voter, household, polling place, ballot, administrator, route, jurisdiction, place | information, registration, time, transport, queue, language, disability, privacy, technology and trust | registration, early/mail/in-person route, accommodation, cure, audit and institutional response | counted ballot, perceived voice, trust, future participation and organized action open | eligibility or turnout is not completed accessible voice or political consequence |
 | Homelessness/durable housing | person, household, shelter, service system, lease, housing unit, neighborhood, place | housing loss, documentation, wait, safety, affordability, health, transport, governance and social ties | outreach, entry, shelter, case management, rental aid, supportive housing and exit | move-in, retention, health, safety, affordability, connection and recurrence open | count or exit is not a durable home; housing response redistributes agency and place connection |
 | HCBS care/place/control | person, household, caregiver, worker, provider, waiver, home, community, state | assessment, waiting, authorization, worker shortage, travel, rate, care coordination, language, culture and family labor | person-centered plan, worker assignment, delivered hours, grievance, incident response and participant direction | health, safety, caregiver capacity, work, participation, community living and institutional entry open | eligibility or a care plan is not delivered, adequate or person-controlled care |
+| AI work/control/job quality | worker, task, employer, manager, system, workplace, household, labor market, place | training, monitoring, pace, data, evaluation, error burden, privacy, bargaining and alternatives | adoption, task redesign, consultation, human override, worker feedback and management decision | output quality, pay, hours, autonomy, health, security, mobility and household benefit open | adoption or productivity is not shared gain; technical capability redistributes control before outcome |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state twenty-three propositions:
+The atlas can safely state twenty-four propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -649,6 +670,10 @@ The atlas can safely state twenty-three propositions:
     authorization, coverage, a waiver slot or a care plan is not community living
     until a suitable worker delivers reliable, adequate and chosen care that
     supports health, dignity, caregiver capacity and participation.
+24. **AI changes workplace control before productivity settles.** Adoption,
+    exposure, task-level time savings or manager-reported gains are not shared
+    prosperity until worker voice, skills, autonomy, job quality and bargaining
+    power convert technical capability into durable worker and household benefit.
 
 ## What the evidence does not support
 
@@ -692,6 +717,6 @@ explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing and HCBS care. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care and AI work control. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
