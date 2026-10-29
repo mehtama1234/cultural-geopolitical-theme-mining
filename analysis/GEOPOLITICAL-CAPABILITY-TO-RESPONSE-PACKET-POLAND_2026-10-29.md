@@ -3,7 +3,7 @@
 **Date:** 2026-10-29  
 **Theme:** capability as qualified, integrated and maintainable  
 **Subthemes:** operation before consequence; alliance response; public legitimacy; procurement versus leverage  
-**Status:** observed incident-to-response chain; deterrence, capability attribution and durable legitimacy remain open
+**Status:** observed incident-to-response chain and later alliance persistence; deterrence, capability attribution and durable legitimacy remain open
 
 ## Research question
 
@@ -30,6 +30,9 @@ security incident or strategic objective
 | PL-GEO-004 | [Poland JASSM-ER realization ledger](../../analysis/projects/ai-work-control/data/poland-jassm-er-realization-ledger-v1.json) | Possible-sale authorization, $735m agreement and planned delivery windows are observed; shipment, acceptance, inventory and operational use for the 2024 order remain unobserved in the reviewed public record | Resource/contract/plan stages observed; fielded capability and leverage open |
 | PL-GEO-005 | [NATO capability development](https://nato.int/en/what-we-do/deterrence-and-defence/natos-role-in-capability-development) | NATO defines capability as doctrine, organisation, training, materiel, leadership, personnel, facilities and interoperability | Integrated capability definition; no incident-specific readiness estimate |
 | PL-GEO-006 | [NATO Ankara Summit Declaration](https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/the-ankara-summit-declaration) | Alliance commitments connect procurement, manufacturing, deployability, sustainment, interoperability and Ukraine support | Strategic commitment; fielding, response and durability open |
+| PL-GEO-007 | [NATO eastern-flank posture](https://www.nato.int/en/what-we-do/deterrence-and-defence/strengthening-natos-eastern-flank) | NATO reports Eastern Sentry continuing as part of a broader 2026 air-defence posture, with additional assets and improved coordination | Institutional persistence and posture integration observed; deterrent effect and duration of each asset deployment open |
+| PL-GEO-008 | [Polish Ministry of Defence, October 19, 2026](https://www.gov.pl/web/obrona-narodowa/komunikat-mon43) and [September 17 alert](https://www.gov.pl/web/rcb/alert-rcb---zagrozenie-z-powietrza-1709) | Polish authorities reported later air activity requiring analysis, including an October drone episode over Lithuania identified as Ukrainian and September operations near the Ukrainian border | Recurring security environment and attribution work observed; no same-unit incident baseline or adversary adaptation demonstrated |
+| PL-GEO-009 | [G7 RRM statement on July 30 Polish-airspace information operations](https://www.gov.pl/web/diplomacy/g7-rapid-response-mechanism-rrm-statement-on-foreign-information-operations-following-the-violation-of-polish-airspace) | G7 described information operations seeking to manipulate perceptions, deflect responsibility and undermine trust in Polish institutions, NATO and support for Ukraine | Information contestation and legitimacy burden observed; reach, audience effect and public opinion change open |
 
 ## Stage audit
 
@@ -40,15 +43,18 @@ security incident or strategic objective
 | Alliance governance | Article 4 consultation and Eastern Sentry announcement | Institutional response and solidarity are observable | Incremental force, duration, equipment, cost and actual deployment |
 | Capability realization | F-35 arrival/acceptance and eight-aircraft count; JASSM-ER agreement/plan | Some capability milestones are publicly observable | Personnel, spares, serviceability, inventory, mission use and sustainment |
 | Public legitimacy | Official statements frame solidarity, defense and eastern-flank security; broader public surveys exist in corpus | Strategic meaning is publicly narrated | Event-linked public judgment, local burden, parliamentary/budget action and durability |
-| External consequence | Response package is documented | Alliance can visibly act after an incident | Later foreign-actor behavior, deterrence, concession, adaptation or repeated incursion |
+| External consequence | Later official records show Eastern Sentry persistence and additional air-security episodes, including attribution uncertainty | Alliance posture persisted and the security environment remained active | A comparable incident series, foreign-actor adaptation, deterrence, concession or decline in violations |
 
 ## Preliminary finding
 
-**An alliance response can be operationally visible before geopolitical leverage
-is observable.** The Poland episode closes a meaningful chain from reported
-incident to national interception, Article 4 consultation, allied participation,
-Eastern Sentry and diplomatic/information response. That is stronger than a
-procurement announcement.
+**An alliance response can be operationally visible and persistent before
+geopolitical leverage is observable.** The Poland episode closes a meaningful
+chain from reported incident to national interception, Article 4 consultation,
+allied participation, Eastern Sentry and diplomatic/information response. Later
+NATO material describes Eastern Sentry as integrated into a broader 2026 air-
+defence posture, while Polish authorities continued to manage air-security
+episodes and attribution questions. That is stronger than a procurement
+announcement, but persistence is not deterrence.
 
 At the same time, the F-35 and JASSM-ER records show why capability realization
 must remain separate from leverage. Aircraft arrival and formal acceptance can
@@ -59,8 +65,9 @@ without proving shipment, acceptance, inventory or operational use.
 The bounded finding is therefore:
 
 > Geopolitical capability becomes analytically meaningful at the operating and
-> alliance-response stages, but deterrence or leverage requires a later,
-> attributable change in another actor’s behavior.
+> alliance-response stages, and persistence can be observed before leverage.
+> Deterrence or leverage requires a later, attributable change in another
+> actor’s behavior, not merely continued deployment or repeated defensive work.
 
 ## Cultural and political meaning
 
@@ -89,7 +96,11 @@ Official statements answer none of these alone.
 - Article 4 consultation can reassure allies without changing the initiator’s
   behavior.
 - Eastern Sentry may be a posture announcement, a temporary deployment or a
-  durable capability; the public record must distinguish those clocks.
+  durable capability; the newer NATO record supports posture integration but
+  does not expose asset-level duration, maintenance or effect.
+- Later air-security episodes may reflect Russian activity, Ukrainian activity,
+  civilian activity or unresolved attribution; they cannot be pooled as one
+  adversary series.
 - Aircraft acceptance or an eight-aircraft count does not establish initial
   operational capability when personnel, spares and certification remain open.
 - A contract value and planned delivery window are not shipment, inventory or
@@ -108,6 +119,13 @@ incident/object | attribution/confidence | national action | allied action
 | later incident frequency | foreign-actor adaptation or concession
 | alliance persistence or reversal
 ```
+
+The current follow-up has closed **post-incident institutional persistence** but
+not the external-behavior conversion. The next decisive comparison is at least
+two attributable, comparable event classes with a pre/post or matched baseline:
+the original Russian-attributed violation, later Russian-attributed episodes,
+and separately classified Ukrainian/civilian/unknown objects. Do not treat
+continued monitoring or a changed public narrative as deterrence.
 
 The preferred test is a before/after or matched-incident comparison of later
 airspace events, with explicit caution that a decline cannot automatically be
