@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–L
+**Date:** 2026-10-29; refreshed through Rotations D–M
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -331,6 +331,27 @@ care or as another temporary promise. The next evidence should preserve county,
 service line and time, and should distinguish appointments from completed care
 and continuity.
 
+### 15. Disaster resilience is repair plus a credible housing option
+
+The [disaster-recovery rotation](ROTATION-M-DISASTER-RECOVERY-STAY-REPAIR-2026-10-29.md)
+connects FEMA’s functional home-repair standard with GAO evidence on disability
+reachability, fragmented assistance, disaster-prone insurance pressure and weak
+recovery-outcome measurement. The chain is damage → application/inspection →
+assistance/insurance → repair/accessibility → stay, return or move.
+
+The sharper proposition is:
+
+> Disaster resilience is timely, adequate and accessible repair that preserves a
+> credible option to stay or move—not assistance announced, money obligated or a
+> project counted.
+
+This makes place and culture part of the material endpoint. A structure can be
+functional while a household loses its school route, caregiving network, local
+business, faith community or cultural landscape. A move may be adaptive or
+displacing depending on the household’s objective, safety, affordability and
+social ties. The next evidence must therefore preserve household intent and
+distinguish return, delayed return, forced move and chosen relocation.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -348,11 +369,12 @@ and continuity.
 | Social infrastructure | person, network, volunteer group, neighborhood, place | travel, disability, care, coordination, unpaid labor, gatekeeping | volunteering, mutual aid, faith, neighbor, third place, formal service | delivered help, recovery, reciprocity and exhaustion open | network density is not delivered protection or fair reciprocity |
 | Consumer remedy | consumer, claim, account, complaint, administrator | eligibility, documentation, contact, waiting, payment method, trust | settlement, refund, reissue, complaint response, correction | accepted payment, adequacy, residual loss and recurrence open | issued/closed is not accepted/usable recovery |
 | Rural health | state, county, facility, clinician, patient, service line | distance, travel, waiting, staffing, language, trust, referral coordination | award, state plan, recruitment, facility/technology change, appointment | completed care, continuity, health outcome and local acceptance open | award/monitoring is not dependable care; place determines usability |
+| Disaster recovery | household, home, disaster, insurer, agency, neighborhood, place | documentation, inspection, disability access, temporary housing, contractor supply, insurance, travel and social ties | application, award, insurance, repair, accessibility, utility restoration, relocation choice | safe completed home, affordability, return/stay/move, health and cultural continuity open | assistance or project completion is not durable recovery; repair can preserve or destroy place attachment |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state twelve propositions:
+The atlas can safely state fourteen propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -396,6 +418,10 @@ The atlas can safely state twelve propositions:
     state plan or clinician count is not dependable rural access until a named
     community can obtain and sustain the needed service with acceptable travel,
     waiting, language and trust conditions.
+14. **Disaster resilience is repair plus optionality.** Assistance, insurance,
+    or a resilience project is not durable protection until a household has a
+    timely, adequate and accessible repaired home and a credible, understood
+    option to stay, return or move without unmeasured social loss.
 
 ## What the evidence does not support
 
@@ -433,10 +459,11 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed with Rotations D–E:
-it contains closed later-stage results where the public record supports them and
+living goal. The current atlas baseline has been refreshed through Rotation M.
+It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
-facility-to-customer infrastructure incidence, construction/appeal outcomes and
-geopolitical leverage. Those unresolved questions remain Tier 2 research
-opportunities rather than promoted findings.
+facility-to-customer infrastructure incidence, construction/appeal outcomes,
+geopolitical leverage, rural point-of-care continuity and disaster household
+recovery. Those unresolved questions remain Tier 2 research opportunities rather
+than promoted findings.
 
