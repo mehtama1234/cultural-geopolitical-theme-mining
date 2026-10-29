@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–E
+**Date:** 2026-10-29; refreshed through Rotations D–G
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -212,6 +212,27 @@ also consume the time needed for paid work, health maintenance, mobility and
 participation. Place determines whether an alternative exists and how much
 travel, money, coordination and trust it requires.
 
+### 9. Household resilience is the quality of the option set
+
+The [household optionality rotation](ROTATION-G-HOUSEHOLD-OPTIONALITY-COST-PRESSURE-2026-10-29.md)
+layers Fed SHED coping reports, BLS spending by income quintile and Census
+geographic household measures. Together they show why “resilience” should not
+be inferred from income or sentiment alone.
+
+The sharper proposition is:
+
+> A household's practical freedom depends on whether an alternative is
+> available, affordable, good enough, reversible and close enough to use.
+
+Cutting spending, paying late, borrowing, delaying care or substituting
+transport can preserve one valued domain while sacrificing another. The cultural
+meaning of a choice depends on whether it was chosen to protect family, health,
+dignity or belonging—or forced by the absence of a credible alternative.
+
+**Geographical implication:** national financial averages conceal local option
+sets shaped by provider density, transit, housing, wages, credit, care networks
+and the distance to institutions.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -223,11 +244,12 @@ travel, money, coordination and trust it requires.
 | Cultural/digital | user, creator, local institution | verification, attention, discoverability | provenance, correction, first-party route | repeat participation/trust open | reach is not owned relationship or agency |
 | Platform safety/AI | victim, account, claimant, public-service user | recognition, documentation, waiting, escalation | notice/removal, appeal, human review, low-tech alternative | safety, correction and continuity open | contestability is a social infrastructure, not merely a policy feature |
 | Time/care | caregiver, household, worker, community member | unpaid hours, fragmentation, travel, coordination, emotional load | substitute care, employer flexibility, public service, mutual aid | work, health, participation and continuity open | care is social infrastructure; predictability and alternatives determine agency |
+| Household optionality | household, consumer unit, place | prices, income timing, debt, quality, travel, care trade-off | cut, delay, borrow, substitute, insure or seek support | recovery, health, work, housing and participation open | resilience is option quality and reversibility, not income alone |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state seven propositions:
+The atlas can safely state eight propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -251,6 +273,10 @@ The atlas can safely state seven propositions:
 7. **Time is social infrastructure.** The relevant scarcity is often
    predictability, coordination and credible substitution, not merely total
    hours; this determines who can preserve work, health, belonging and voice.
+8. **Household resilience is option quality.** A reported coping action is not
+   welfare or deprivation until the evidence shows what alternative was
+   available, what it protected or sacrificed, and whether the choice was
+   reversible.
 
 ## What the evidence does not support
 
