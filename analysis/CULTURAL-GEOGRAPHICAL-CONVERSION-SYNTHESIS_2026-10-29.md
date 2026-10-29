@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–AN
+**Date:** 2026-10-29; refreshed through Rotations D–AO
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -658,10 +658,11 @@ disruption or repeat shutoff continues.
 | Health-data interoperability/patient continuity | patient, caregiver, clinician, record, EHR, API, HIE, provider, payer, agency, place | missingness, format, matching, privacy, language, disability, portal/device, fees, trust and workflow burden | record creation, exchange, patient access, clinician view/use, correction, handoff and care decision | safer coordinated care, fewer repeats, follow-up, trust and health outcome open | digital availability is not care continuity; technical standards become patient agency through understanding and action |
 | 911 emergency access/response continuity | caller, household, phone, text, PSAP, location, dispatcher, responder, EMS, hospital, jurisdiction, place | language, disability, location confidence, connectivity, time, staffing, terrain, weather, jurisdiction, transport and trust | call connection, routing, location, dispatch, arrival, treatment, transport, handoff, crisis follow-up and complaint | timely appropriate care, survival, safety, recovery and institutional trust open | a channel or location benchmark is not emergency access; public safety is experienced through the complete call-to-care route |
 | Lead service lines/household water safety | line, water system, utility, household, dwelling, tenant, owner, neighborhood, place | material uncertainty, inventory, age, ownership, consent, construction, notice, language, alternative water and trust | inventory, notice, funding, consent, excavation, full replacement, flush/test, complaint and monitoring | safe household use, health, affordability, maintenance, environmental justice and trusted water open | inventory or replacement is not safe water; infrastructure becomes public health through household connection and sustained use |
+| Wildfire smoke/air-quality protection | fire, plume, monitor, AQI, person, household, workplace, school, shelter, clinic, place | PM2.5, warning, indoor leakage, housing, HVAC, filter, respirator fit, work, wage, transport, health condition and energy cost | monitoring, alert, clean room, filtration, schedule/evacuation, employer control, clinical care and community response | lower personal exposure, work/school/care continuity, avoided illness, repeated adaptation and trust open | ambient signal is not protection; climate and smoke risk are converted through indoor/workplace options and unequal ability to avoid exposure |
 
 ## What the evidence supports now
 
-The atlas can safely state forty-one propositions:
+The atlas can safely state forty-two propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -821,6 +822,11 @@ The atlas can safely state forty-one propositions:
     national need estimate, funding award or replacement record does not prove
     safe household use until line status, notice, full replacement,
     flushing/testing, affordability and ongoing monitoring are observed.
+42. **Wildfire-smoke protection is reachable exposure reduction.** An AQI
+    reading, forecast, warning, filter recommendation or respirator supply does
+    not establish safety until a person’s indoor/work exposure, practical
+    mitigation, health needs, continuity and repeated-season adaptation are
+    observed.
 
 ## What the evidence does not support
 
@@ -858,12 +864,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation AN.
+living goal. The current atlas baseline has been refreshed through Rotation AO.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes and household water safety. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety and wildfire-smoke exposure reduction. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
