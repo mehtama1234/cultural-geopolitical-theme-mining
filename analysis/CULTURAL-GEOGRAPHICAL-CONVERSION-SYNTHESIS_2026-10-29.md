@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–S
+**Date:** 2026-10-29; refreshed through Rotations D–T
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -472,6 +472,27 @@ illness, care work, fear, exclusion, school closure or a deliberate family
 choice. Place mediates the conversion through distance, district resources,
 facility quality, safety, alternate schools and local relationships.
 
+### 22. Civic participation is a completed route to perceived voice
+
+The [voting access rotation](ROTATION-T-VOTING-ACCESS-PRACTICAL-CIVIC-PARTICIPATION-2026-10-29.md)
+connects Census participation measures with EAC evidence on registration,
+mail/early voting, accessibility, wait-time bottlenecks, ballot curing, audits
+and HAVA-supported administrative capacity. The chain is eligibility/registration
+→ information/time/route → ballot/polling encounter → cast/cure/count/audit →
+voice, trust and later action.
+
+The sharper proposition is:
+
+> Civic participation is a completed, accessible and trusted route to a counted
+> ballot and perceived voice—not eligibility, registration, turnout or election
+> technology alone.
+
+This preserves the difference between formal democratic capacity and lived civic
+agency. A new route, accessible machine, cure process or audit may improve the
+system while a particular voter still faces transport, time, language,
+disability, privacy, information or trust barriers. Turnout is an important
+endpoint, but not equivalent to influence, institutional response or legitimacy.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -496,11 +517,12 @@ facility quality, safety, alternate schools and local relationships.
 | Transit/practical mobility | rider, trip, route, vehicle, stop, provider, destination, place | fare, booking, waiting, transfer, distance, disability, safety, schedule and local capacity | funding, route, reservation, boarding, accommodation, complaint and service coordination | completed trip, work/care/education/food/social access and sustained participation open | service volume is not mobility; a route can exist while a person remains unable to reach the needed destination |
 | Library civic/cultural infrastructure | library, building, staff, user, program, device, neighborhood, place | distance, disability, language, hours, privacy, maintenance, staffing, digital access and contested meaning | repair, accommodation, service desk, Wi-Fi, program, information route and civic encounter | completed service, learning, benefit access, cultural participation, belonging and trust open | public presence or visit volume is not an accessible, trusted or durable civic encounter |
 | School attendance/place/belonging | student, household, school, district, facility, route, teacher, peer, place | transport, housing, health, care, disability, language, safety, schedule, closure and recognition | enrollment, attendance response, accommodation, relationship, voice and re-entry | learning, belonging, completion, work and civic opportunity open | enrollment or attendance is not reachable participation, learning or inclusion |
+| Voting access/civic voice | voter, household, polling place, ballot, administrator, route, jurisdiction, place | information, registration, time, transport, queue, language, disability, privacy, technology and trust | registration, early/mail/in-person route, accommodation, cure, audit and institutional response | counted ballot, perceived voice, trust, future participation and organized action open | eligibility or turnout is not completed accessible voice or political consequence |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state twenty propositions:
+The atlas can safely state twenty-one propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -572,6 +594,11 @@ The atlas can safely state twenty propositions:
     attendance or a program offer is not educational opportunity until students
     can reach, enter, remain in and trust the school often enough to participate
     and learn.
+21. **Civic participation is a completed route to voice.** Eligibility,
+    registration, turnout, technology or a correction mechanism is not lived
+    civic agency until a person can complete an accessible, trusted route to a
+    counted ballot and perceive a meaningful institutional response or
+    consequence.
 
 ## What the evidence does not support
 
@@ -615,6 +642,6 @@ explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure and school attendance/belonging. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging and voting access. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
