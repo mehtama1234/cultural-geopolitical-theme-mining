@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–O
+**Date:** 2026-10-29; refreshed through Rotations D–P
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -394,6 +394,25 @@ shows why service route and governance can alter practical inclusion. A county
 can experience economic renewal, cultural recognition, scarcity, exclusion or
 several of these at once.
 
+### 18. Digital inclusion is meaningful use, not mapped availability
+
+The [broadband/digital-access rotation](ROTATION-P-BROADBAND-MEANINGFUL-DIGITAL-ACCESS-2026-10-29.md)
+connects NTIA’s BEAD scale and planning, FCC’s map and challenge boundaries,
+and GAO’s data-quality and sustainability findings. The chain is unserved
+location → map/challenge → award/build → subscription/device/skills → reliable
+work, care, learning, voice and cultural participation.
+
+The sharper proposition is:
+
+> Meaningful digital access is reliable, affordable and usable participation—not
+> availability on a map or a funded deployment plan.
+
+The map’s unit is a location, while the lived unit is a household, worker,
+student, patient or civic participant. Between them sit price, devices, skills,
+language, disability, privacy, trust, terrain, capacity and uptime. A challenge
+route can improve administrative truth, but correction alone does not guarantee
+construction, subscription or durable social benefit.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -414,11 +433,12 @@ several of these at once.
 | Disaster recovery | household, home, disaster, insurer, agency, neighborhood, place | documentation, inspection, disability access, temporary housing, contractor supply, insurance, travel and social ties | application, award, insurance, repair, accessibility, utility restoration, relocation choice | safe completed home, affordability, return/stay/move, health and cultural continuity open | assistance or project completion is not durable recovery; repair can preserve or destroy place attachment |
 | Tribal water | Tribe, utility, source, treatment system, operator, household, place | application, interagency coordination, technical capacity, operator labor, maintenance finance, distance and trust | award, design, construction, commissioning, certification, O&M and compliance | reliable safe affordable household water, health, sovereignty and cultural continuity open | capital or formal governance is not maintained service; O&M and local control determine usability |
 | Migration/local capacity | migrant, household, county, employer, landlord, service system, neighborhood | movement, legal/administrative route, rent, travel, language, documentation, service wait, recognition and social ties | migration, household formation, housing/service supply, local policy, participation and response | affordability, work, service access, belonging, exclusion, staying/moving and political action open | population flow is not local capacity or belonging; place mediates benefits and burdens |
+| Broadband/digital access | location, household, provider, device, user, school, clinic, workplace | price, device, skills, language, disability, privacy, terrain, capacity, installation and trust | map challenge, award, build, subscription, support, correction and local governance | reliable affordable accessible use for work, care, learning, civic voice and culture open | mapped availability is not meaningful participation; digital geography redistributes agency and dependence |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state sixteen propositions:
+The atlas can safely state seventeen propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -474,6 +494,10 @@ The atlas can safely state sixteen propositions:
     becomes a local outcome through housing, labor, service, governance and
     cultural routes; demographic change alone cannot establish affordability,
     displacement, inclusion or political response.
+17. **Meaningful digital access is usable participation.** A mapped location,
+    advertised speed, award or completed build is not digital inclusion until a
+    person can afford, operate and reliably use the connection for the relevant
+    work, care, learning, civic or cultural task.
 
 ## What the evidence does not support
 
@@ -516,6 +540,7 @@ It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
-recovery, Tribal water maintenance and migration/local-capacity conversion. Those unresolved questions remain Tier 2
-research opportunities rather than promoted findings.
+recovery, Tribal water maintenance, migration/local-capacity conversion and
+meaningful digital access. Those unresolved questions remain Tier 2 research
+opportunities rather than promoted findings.
 
