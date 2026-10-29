@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–I
+**Date:** 2026-10-29; refreshed through Rotations D–J
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -271,6 +271,25 @@ believe they have little influence. Local cultural spaces may provide social
 entry without guaranteeing political power; public institutions may solicit
 voice without producing visible response.
 
+### 12. Social infrastructure is delivered reciprocity, not network density
+
+The [social infrastructure rotation](ROTATION-J-SOCIAL-INFRASTRUCTURE-RECIPROCITY-2026-10-29.md)
+layers AmeriCorps volunteer capacity, CDC participation constraints and a
+longitudinal neighborhood-cohesion study. The result is a stricter definition of
+community resilience: networks and volunteer hours matter only when they become
+reachable, relevant and reliable support for someone facing a need.
+
+The sharper proposition is:
+
+> Social infrastructure is valuable at the point where a person receives
+> usable help and the network can sustain reciprocity without concentrating
+> exhaustion or exclusion on the same people and places.
+
+This connects culture to material outcomes. Family, faith, neighborhood, online
+and formal-service networks may all provide belonging, but they differ in who
+can enter, what help is delivered, how much unpaid work is required and whether
+the route survives repeated shocks.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -285,11 +304,12 @@ voice without producing visible response.
 | Household optionality | household, consumer unit, place | prices, income timing, debt, quality, travel, care trade-off | cut, delay, borrow, substitute, insure or seek support | recovery, health, work, housing and participation open | resilience is option quality and reversibility, not income alone |
 | Supply-chain dependency | mine, refinery, manufacturer, buyer, place, state | concentration, export control, qualification, equipment, labor, environmental burden | substitute, recycle, stockpile, trace, ally or redesign | accepted output and disruption continuity open | nominal ownership is not strategic autonomy; burdens are geographically concentrated |
 | Cultural belonging/voice | person, group, cultural space, locality, institution | access cost, time, language, safety, representation, recognition | arts/community route, consultation, town hall, vote, feedback, organized refusal | institutional response and durable belonging/trust open | participation is not influence; shared identity is not practical inclusion |
+| Social infrastructure | person, network, volunteer group, neighborhood, place | travel, disability, care, coordination, unpaid labor, gatekeeping | volunteering, mutual aid, faith, neighbor, third place, formal service | delivered help, recovery, reciprocity and exhaustion open | network density is not delivered protection or fair reciprocity |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state ten propositions:
+The atlas can safely state eleven propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -323,6 +343,9 @@ The atlas can safely state ten propositions:
 10. **Belonging requires a practical voice route.** Participation becomes
     durable legitimacy only when access, recognition, responsiveness and visible
     consequence connect; a formal invitation alone is not influence.
+11. **Social infrastructure is delivered reciprocity.** Network size,
+    volunteer hours or cohesion are not protection until a reachable person
+    receives adequate help and the sustaining burden is fairly distributed.
 
 ## What the evidence does not support
 
