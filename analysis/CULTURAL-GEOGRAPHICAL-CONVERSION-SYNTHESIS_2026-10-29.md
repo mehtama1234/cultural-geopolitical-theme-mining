@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–P
+**Date:** 2026-10-29; refreshed through Rotations D–Q
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -413,6 +413,25 @@ language, disability, privacy, trust, terrain, capacity and uptime. A challenge
 route can improve administrative truth, but correction alone does not guarantee
 construction, subscription or durable social benefit.
 
+### 19. Practical mobility is a completed trip to a usable destination
+
+The [transit mobility rotation](ROTATION-Q-TRANSIT-PRACTICAL-MOBILITY-2026-10-29.md)
+connects GAO’s rural/Tribal accessibility and medical-transport evidence with
+DOT’s capital-program purpose and NTD capital-allocation data. The chain is
+funding/capital → route/vehicle/schedule → reservation/boarding → completed trip
+→ usable work, care, education, food and social destination.
+
+The sharper proposition is:
+
+> Practical mobility is a completed, affordable and accessible trip to a usable
+> destination—not capital spending, route presence or aggregate ridership.
+
+This adds a transport-specific version of the atlas’s conversion rule. Fare
+elimination can remove a price barrier while schedule, distance, safety,
+disability, reservation, transfer and destination constraints remain. Rural and
+Tribal service models may trade fixed-route efficiency for demand-response
+reach, creating different burdens for riders and operators.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -434,11 +453,12 @@ construction, subscription or durable social benefit.
 | Tribal water | Tribe, utility, source, treatment system, operator, household, place | application, interagency coordination, technical capacity, operator labor, maintenance finance, distance and trust | award, design, construction, commissioning, certification, O&M and compliance | reliable safe affordable household water, health, sovereignty and cultural continuity open | capital or formal governance is not maintained service; O&M and local control determine usability |
 | Migration/local capacity | migrant, household, county, employer, landlord, service system, neighborhood | movement, legal/administrative route, rent, travel, language, documentation, service wait, recognition and social ties | migration, household formation, housing/service supply, local policy, participation and response | affordability, work, service access, belonging, exclusion, staying/moving and political action open | population flow is not local capacity or belonging; place mediates benefits and burdens |
 | Broadband/digital access | location, household, provider, device, user, school, clinic, workplace | price, device, skills, language, disability, privacy, terrain, capacity, installation and trust | map challenge, award, build, subscription, support, correction and local governance | reliable affordable accessible use for work, care, learning, civic voice and culture open | mapped availability is not meaningful participation; digital geography redistributes agency and dependence |
+| Transit/practical mobility | rider, trip, route, vehicle, stop, provider, destination, place | fare, booking, waiting, transfer, distance, disability, safety, schedule and local capacity | funding, route, reservation, boarding, accommodation, complaint and service coordination | completed trip, work/care/education/food/social access and sustained participation open | service volume is not mobility; a route can exist while a person remains unable to reach the needed destination |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state seventeen propositions:
+The atlas can safely state eighteen propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -498,6 +518,10 @@ The atlas can safely state seventeen propositions:
     advertised speed, award or completed build is not digital inclusion until a
     person can afford, operate and reliably use the connection for the relevant
     work, care, learning, civic or cultural task.
+18. **Practical mobility is a completed trip.** Capital, route presence,
+    accessibility design or aggregate ridership is not transport access until a
+    person can complete an affordable trip to a destination that supplies the
+    needed work, care, education, food or social function.
 
 ## What the evidence does not support
 
@@ -541,6 +565,6 @@ explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access. Those unresolved questions remain Tier 2 research
+meaningful digital access and practical mobility. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
