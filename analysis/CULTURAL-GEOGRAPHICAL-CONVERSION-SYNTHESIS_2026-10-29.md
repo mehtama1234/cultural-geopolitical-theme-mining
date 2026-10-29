@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–T
+**Date:** 2026-10-29; refreshed through Rotations D–U
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -493,6 +493,26 @@ system while a particular voter still faces transport, time, language,
 disability, privacy, information or trust barriers. Turnout is an important
 endpoint, but not equivalent to influence, institutional response or legitimacy.
 
+### 23. Durable housing is retention and agency
+
+The [homelessness/durable-housing rotation](ROTATION-U-HOMELESSNESS-SHELTER-DURABLE-HOUSING-2026-10-29.md)
+connects HUD’s point-in-time and permanent-housing-exit measures with GAO’s
+data-quality review, Tribal/non-Tribal service-route evidence and a
+population-specific veteran counterexample. The chain is housing loss/risk →
+outreach/entry → shelter/service → permanent-housing exit → retention, health,
+affordability and social connection.
+
+The sharper proposition is:
+
+> Durable housing is safe, affordable and agency-preserving retention—not a
+> point-in-time count, shelter bed, service contact or permanent-housing exit.
+
+This preserves the difference between scale and stability. A one-night count is
+not complete prevalence; a program exit is not lease retention; a population-level
+decline is not proof of individual recovery. Place, governance, affordability,
+health, transport and social ties determine whether an exit is experienced as a
+home or another temporary route.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -518,11 +538,12 @@ endpoint, but not equivalent to influence, institutional response or legitimacy.
 | Library civic/cultural infrastructure | library, building, staff, user, program, device, neighborhood, place | distance, disability, language, hours, privacy, maintenance, staffing, digital access and contested meaning | repair, accommodation, service desk, Wi-Fi, program, information route and civic encounter | completed service, learning, benefit access, cultural participation, belonging and trust open | public presence or visit volume is not an accessible, trusted or durable civic encounter |
 | School attendance/place/belonging | student, household, school, district, facility, route, teacher, peer, place | transport, housing, health, care, disability, language, safety, schedule, closure and recognition | enrollment, attendance response, accommodation, relationship, voice and re-entry | learning, belonging, completion, work and civic opportunity open | enrollment or attendance is not reachable participation, learning or inclusion |
 | Voting access/civic voice | voter, household, polling place, ballot, administrator, route, jurisdiction, place | information, registration, time, transport, queue, language, disability, privacy, technology and trust | registration, early/mail/in-person route, accommodation, cure, audit and institutional response | counted ballot, perceived voice, trust, future participation and organized action open | eligibility or turnout is not completed accessible voice or political consequence |
+| Homelessness/durable housing | person, household, shelter, service system, lease, housing unit, neighborhood, place | housing loss, documentation, wait, safety, affordability, health, transport, governance and social ties | outreach, entry, shelter, case management, rental aid, supportive housing and exit | move-in, retention, health, safety, affordability, connection and recurrence open | count or exit is not a durable home; housing response redistributes agency and place connection |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state twenty-one propositions:
+The atlas can safely state twenty-two propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -599,6 +620,10 @@ The atlas can safely state twenty-one propositions:
     civic agency until a person can complete an accessible, trusted route to a
     counted ballot and perceive a meaningful institutional response or
     consequence.
+22. **Durable housing is retention and agency.** A count, shelter bed, service
+    contact or permanent-housing exit is not housing stability until a person
+    can remain safely housed with adequate affordability, health support,
+    agency and social connection over time.
 
 ## What the evidence does not support
 
@@ -642,6 +667,6 @@ explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging and voting access. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access and durable housing. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
