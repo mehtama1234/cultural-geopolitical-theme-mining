@@ -1,0 +1,192 @@
+# New-goal theme promotion register
+
+**Date:** 2026-10-29  
+**Purpose:** integrate the cross-rotation portfolio and the named conversion packets into one research-control register  
+**Status:** active; promotion audit, not a final atlas
+
+## Executive decision
+
+The broad program now has five connected evidence lanes and one recurring
+mechanism:
+
+```text
+formal capacity or access
+  -> operating encounter
+  -> effort, correction, substitution or allocation
+  -> material outcome
+  -> attribution
+  -> cultural legitimacy, institutional trust or geopolitical leverage
+```
+
+The repository is not yet justified in claiming one universal trend rate or one
+causal “master trend.” It is justified in promoting a portfolio of bounded
+findings and mechanism candidates. The most defensible cross-domain insight is:
+
+> Systems are increasingly judged at the point where a dependent actor can use,
+> contest, correct, substitute, sustain or attribute them—not at the point where
+> an institution announces capacity.
+
+## Promotion tiers
+
+### Tier 1 — bounded findings that can be used in synthesis
+
+These findings have named units or strong bounded stage evidence and are safe
+if their limits remain attached.
+
+| Finding | Evidence | Safe wording | Prohibited leap |
+|---|---|---|---|
+| Formal remedy and practical recovery are separate | Platform remedy ledger with adjudicated worker cases | A correction, reactivation or order does not by itself prove payment receipt, recurrence prevention or durable access | Claiming that all platform remedies fail or that one case generalizes to all workers |
+| Administrative correction and usable protection are separate | Two Connecticut SNAP hearing cases | A corrected denial or agency-recorded credit does not prove usable food protection or later household recovery | Treating a participation or replacement record as food-security recovery |
+| Operation and consequence are separate | Poland/NATO incident-to-response ledger; F-35/JASSM comparators | Interception, consultation, acceptance and procurement are observable milestones; deterrence and leverage require later attributed behavior | Calling an alliance response deterrence or a contract fielded capability |
+
+### Tier 2 — high-priority mechanism candidates
+
+These have a strong observed mechanism but a missing later outcome.
+
+| Mechanism | Best packet | Open conversion | Next promotion evidence |
+|---|---|---|---|
+| Operational accountability moves closer to dependence | Virginia large-load packet | Facility event → cost, service, environmental burden and local response | Named facility/interconnection, payment/bill, backup/emissions and later local decision |
+| Public AI has a readiness-to-remedy gap | SSA public-AI packet | AI exposure → human contestability → correction → benefit/service receipt | One live system with claimant-level exposure and a comparison or appeal route |
+| Qualified substitution matters more than nominal ownership | Critical-minerals audit in existing corpus | Project/control → qualified output → buyer use → disruption response | Application-specific battery and semiconductor ledgers |
+| Access is converted through effort and optionality | SNAP, ATUS/SHED and cultural rotation evidence | Time/liquidity/notice → chosen alternative → later work, care, security or participation | Same-person or same-household longitudinal bridge |
+| Alliance response is visible before leverage | Poland/NATO packet | Response → later foreign-actor adaptation, concession or repeated incident | Before/after or matched incident ledger with attribution and duration |
+
+### Tier 3 — discovery hypotheses
+
+These remain important but should not be presented as findings without a
+stronger conversion.
+
+- Correction as a legitimacy technology.
+- Time and attention as hidden infrastructure.
+- Belonging requires a practical entry route, not shared values alone.
+- Compute becomes a grid-governance actor.
+- AI adoption separates from realized productivity.
+- Dependence becomes political through burden allocation.
+- Social infrastructure for AI is procurement, monitoring, correction and
+  ownership.
+
+## Packet register
+
+| Packet | Domain | Unit quality | Strongest observed stage | Last unobserved stage | Current disposition |
+|---|---|---|---|---|---|
+| [Platform remedy closure table](PLATFORM-REMEDY-CLOSURE-TABLE_2026-10-29.csv) | platform/work | high; named workers and adjudications | correction/restoration and contrasting review outcomes | payment receipt, recurrence, anti-retaliation | Tier 1 bounded finding |
+| [Virginia large-load packet](INFRASTRUCTURE-CONVERSION-PACKET-VIRGINIA-LARGE-LOAD_2026-10-29.md) | infrastructure/grid | medium; named operator and dockets, not event facility | operating event and formal cost governance | facility-specific incidence and local permission | Tier 2 mechanism |
+| [SNAP access packet](ADMINISTRATIVE-ACCESS-CONVERSION-PACKET-SNAP_2026-10-29.md) | household/public system | high for two anonymized cases; medium for survey/panel context | loss → route → correction/credit | usable food, adequacy, recovery and continuity | Tier 1 bounded finding plus Tier 2 follow-up |
+| [SSA public-AI packet](PUBLIC-AI-CONVERSION-PACKET-SSA_2026-10-29.md) | public AI/administration | medium; named agency and use cases | deployment, workflow and oversight | claimant exposure, correction and service receipt | Tier 2 mechanism |
+| [Poland/NATO packet](GEOPOLITICAL-CAPABILITY-TO-RESPONSE-PACKET-POLAND_2026-10-29.md) | geopolitical/alliance | high for incident response; medium for capability realization | incident → interception → alliance response | deterrence, external adaptation and durable legitimacy | Tier 1 bounded finding plus Tier 2 follow-up |
+| [Rotations A–C portfolio](ROTATIONS-A-B-C-CROSS-ROTATION-PORTFOLIO_2026-10-29.md) | cross-domain synthesis | source-led, mixed units | recurring mechanisms across 21 source records | same-unit cross-domain conversions | discovery and prioritization layer |
+
+## Theme-to-evidence map
+
+| Theme | Platform | Infrastructure | Household/admin | Public AI | Geopolitical | Interpretation |
+|---|---|---|---|---|---|---|
+| Formal capacity vs usable protection | review/order ≠ recovery | tariff rule ≠ bill protection | eligibility/credit ≠ food protection | use case/target ≠ claimant remedy | contract/acceptance ≠ leverage | strongest cross-domain pattern |
+| Access through effort | worker response and appeal burden | local participation and siting burden | notice, paperwork and food substitution | claimant explanation and appeal work | partner/local burden and consent | cultural meaning comes from hidden effort |
+| Operational accountability | account-level decision | facility behavior | case/account route | named system/task | incident/fielded unit | move from announcement to encounter |
+| Correction as legitimacy | external review/reactivation | cost-allocation correction | hearing/credit/remedy | human review/appeal | alliance reassurance/protest | correction must persist to affect trust |
+| Qualified maintainability | continued access and remedy | grid reliability and payment | continuity and usable balance | ownership, audit and rollback | training, spares and sustainment | capability is a system, not an asset |
+| Attribution and power | platform controls access | payer/locality identifies burden | agency controls process clock | agency/vendor owns remedy route | state/alliance assigns security burden | attribution converts technical effect into politics |
+
+## What is genuinely new from the combined packets
+
+### 1. The missing middle is not one thing
+
+The prior atlas often described a gap between capacity and outcome. The packets
+now separate that gap into at least five different conversions:
+
+- **execution:** did the system perform the promised action?
+- **contestability:** could the dependent actor challenge and correct it?
+- **receipt:** did the person or institution actually obtain the benefit?
+- **substitution:** was a qualified alternative available at the relevant
+  quality, cost and speed?
+- **attribution:** could affected actors identify who caused, paid for or could
+  correct the consequence?
+
+These cannot be collapsed into a single access or trust score.
+
+### 2. Correction is the strongest cross-cultural bridge
+
+The platform and SNAP cases demonstrate correction as a formal event. The
+public-AI and infrastructure packets show correction as a design problem. The
+geopolitical packet shows alliance response as a public correction or assurance
+claim after a security failure.
+
+The sharper hypothesis is not “correction creates trust.” It is:
+
+```text
+error/harm/threat
+  -> legible attribution
+  -> reachable correction or response
+  -> persistent improvement or protection
+  -> continued reliance, voice, cooperation or exit
+```
+
+The fourth stage is still unobserved in most lanes. That is the next cultural
+research opportunity.
+
+### 3. Burden allocation is the common political translation
+
+The same formal capacity can be interpreted differently depending on who pays,
+waits, verifies, travels, loses access, hosts infrastructure, supplies labor,
+or carries escalation risk. This is how technical or administrative evidence
+becomes cultural legitimacy or geopolitical meaning.
+
+## Next research sequence
+
+### Sequence 1 — close existing named-unit packets
+
+1. Platform: seek payment receipt, account persistence and repeat-deactivation
+   follow-up for the strongest adjudicated cases.
+2. SNAP: seek post-order credit/balance and later continuity for the two
+   Connecticut cases; if unavailable, record the source boundary.
+3. Virginia large load: identify one direct-connect/interconnection project and
+   match regulatory cost allocation to a named customer and locality.
+4. SSA: select one live AI use case and seek public audit, appeal or claimant
+   exposure evidence.
+5. Poland/NATO: match Eastern Sentry or a later airspace event to deployment
+   duration, repeated-incursion rate and public/partner response.
+
+### Sequence 2 — add counterexamples, not more headlines
+
+For every packet, add at least one case where:
+
+- formal capacity produced usable protection;
+- a correction failed or was not needed;
+- a substitute was technically qualified and commercially used;
+- public opposition did not prevent implementation;
+- an alliance response did not produce repeated incidents or escalation.
+
+Counterexamples should preserve unit and time differences. They are not pooled
+into a false average.
+
+### Sequence 3 — synthesize only after closure
+
+Only after Sequence 1 should the atlas promote cross-domain propositions about
+legitimacy, optionality, resilience, trust, or geopolitical leverage. The
+cross-domain synthesis must cite each lane separately and state where the
+clocks, units and outcomes differ.
+
+## Completion criteria for the new goal
+
+The broad goal is complete only when the repository contains:
+
+1. a source-led theme/subtheme portfolio;
+2. named conversion packets across cultural, household, institutional,
+   infrastructure, technology and geopolitical lanes;
+3. machine-readable ledgers for the strongest packets;
+4. explicit promotion tiers and counterexamples;
+5. at least one closed later-outcome chain in each priority lane, or a
+   documented source-boundary result after repeated acquisition attempts; and
+6. a final synthesis that preserves the distinction between signal, mechanism,
+   operation, material consequence, meaning and leverage.
+
+Current state: items 1–4 are substantially present; item 5 remains incomplete;
+item 6 should be written only after the next closure sequence.
+
+## Decision
+
+The new goal remains active. The research program has moved from broad discovery
+to **promotion-controlled conversion research**. The next work should close
+later-outcome chains, document unavailable fields, and then produce the final
+cultural/geopolitical synthesis.
+
