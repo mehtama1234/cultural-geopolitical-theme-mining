@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29  
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
-**Status:** synthesis with bounded findings; not a pooled causal model
+**Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
 ## Executive proposition
 
@@ -230,10 +230,11 @@ for discovery, but they should not replace the named conversion packets.
 
 ## Decision
 
-This synthesis is ready to serve as the cultural/geographical interpretation
-layer for the new goal. The final atlas is not complete because claimant-level
-public-AI outcomes, facility-to-customer infrastructure incidence,
-construction/appeal outcomes and geopolitical leverage remain open. The next
-work should acquire or document those fields, then revise this synthesis with
-explicit closed chains and counterexamples.
+This synthesis serves as the cultural/geographical interpretation layer for the
+new goal. The atlas is complete as a bounded evidence product: it contains
+closed later-stage results where the public record supports them and explicit
+source-boundary findings for claimant-level public-AI outcomes,
+facility-to-customer infrastructure incidence, construction/appeal outcomes and
+geopolitical leverage. Those unresolved questions remain Tier 2 research
+opportunities rather than promoted findings.
 

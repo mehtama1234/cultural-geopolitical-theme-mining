@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29  
 **Purpose:** integrate the cross-rotation portfolio and the named conversion packets into one research-control register  
-**Status:** active; promotion audit, not a final atlas
+**Status:** promotion-controlled atlas; all current priority lanes have either a closed later-stage result or a documented public-source boundary
 
 ## Executive decision
 
@@ -45,11 +45,11 @@ These have a strong observed mechanism but a missing later outcome.
 
 | Mechanism | Best packet | Open conversion | Next promotion evidence |
 |---|---|---|---|
-| Operational accountability moves closer to dependence | Virginia large-load and Golden-Mars packets | Facility/project event → cost, service, environmental burden and local response | Named facility/interconnection, payment/bill, backup/emissions and later local decision |
+| Operational accountability moves closer to dependence | Virginia large-load and Golden-Mars packets plus [incidence closure audit](INFRASTRUCTURE-INCIDENCE-CLOSURE-FOLLOWUP-AUDIT_2026-10-29.md) | Facility/project event → cost, service, environmental burden and local response | Named facility/interconnection, payment/bill, backup/emissions and later local decision; repeated public acquisition ends at system/model/route evidence |
 | Public AI has a readiness-to-remedy gap | SSA public-AI packet and closure audit | AI exposure → human contestability → correction → benefit/service receipt | One live system with claimant-level exposure and a comparison or appeal route; current public record ends at agency readiness and ongoing oversight |
 | Qualified substitution matters more than nominal ownership | Critical-minerals audit in existing corpus | Project/control → qualified output → buyer use → disruption response | Application-specific battery and semiconductor ledgers |
 | Access is converted through effort and optionality | SNAP closure audits, ATUS/SHED and cultural rotation evidence | Time/liquidity/notice → chosen alternative → later work, care, security or participation | Same-person or same-household longitudinal bridge; SNAP post-order credit/use |
-| Alliance response is visible before leverage | Poland/NATO packet | Response → later foreign-actor adaptation, concession or repeated incident | Before/after or matched incident ledger with attribution and duration |
+| Alliance response is visible before leverage | Poland/NATO packet plus [leverage closure audit](GEOPOLITICAL-LEVERAGE-CLOSURE-FOLLOWUP-AUDIT_2026-10-29.md) | Response → later foreign-actor adaptation, concession or repeated incident | Before/after or matched incident ledger with attribution and duration; repeated public acquisition ends at posture persistence and attribution uncertainty |
 
 ### Tier 3 — discovery hypotheses
 
@@ -70,12 +70,12 @@ stronger conversion.
 | Packet | Domain | Unit quality | Strongest observed stage | Last unobserved stage | Current disposition |
 |---|---|---|---|---|---|
 | [Platform remedy closure table](PLATFORM-REMEDY-CLOSURE-TABLE_2026-10-29.csv) | platform/work | high; named workers and adjudications | correction/restoration and contrasting review outcomes | payment receipt, recurrence, anti-retaliation | Tier 1 bounded finding |
-| [Virginia large-load packet](INFRASTRUCTURE-CONVERSION-PACKET-VIRGINIA-LARGE-LOAD_2026-10-29.md) | infrastructure/grid | medium; named operator and dockets, not event facility | operating event and formal cost governance | facility-specific incidence and customer bill | Tier 2 mechanism |
-| [Golden-Mars local-permission audit](INFRASTRUCTURE-LOCAL-PERMISSION-FOLLOWUP-AUDIT_2026-10-29.md) | infrastructure/local politics | high for named project and organized participation | project rationale → local voice → route decision | construction, cost allocation and durable acceptance | Tier 1 bounded finding |
+| [Virginia large-load packet](INFRASTRUCTURE-CONVERSION-PACKET-VIRGINIA-LARGE-LOAD_2026-10-29.md) + [incidence closure audit](INFRASTRUCTURE-INCIDENCE-CLOSURE-FOLLOWUP-AUDIT_2026-10-29.md) | infrastructure/grid | medium; named operator, dockets and modeled rate effect, not event facility | operating event, formal cost governance and modeled protection | facility-specific incidence, payment/bill and household endpoint | Tier 1 source-boundary finding plus Tier 2 incidence question |
+| [Golden-Mars local-permission audit](INFRASTRUCTURE-LOCAL-PERMISSION-FOLLOWUP-AUDIT_2026-10-29.md) | infrastructure/local politics | high for named project and organized participation | project rationale → local voice → route substitution after non-consent | construction, cost allocation and durable acceptance | Tier 1 bounded finding |
 | [SNAP access packet](ADMINISTRATIVE-ACCESS-CONVERSION-PACKET-SNAP_2026-10-29.md) | household/public system | high for anonymized cases; medium for survey/panel context | loss → route → correction/credit | usable food, adequacy, recovery and continuity | Tier 1 bounded finding |
 | [SNAP closure audit](SNAP-CLOSURE-FOLLOWUP-AUDIT_2026-10-29.md) | household/public system | high for formal order and administrative clock | implementation requirement and proof-of-compliance requirement | public proof, account credit/use and household outcome | Tier 1 bounded finding plus source boundary |
 | [SSA public-AI packet](PUBLIC-AI-CONVERSION-PACKET-SSA_2026-10-29.md) + [closure audit](PUBLIC-AI-CLOSURE-FOLLOWUP-AUDIT_2026-10-29.md) | public AI/administration | medium; named agency, use cases and ongoing OIG audit | deployment, workflow and oversight | claimant exposure, correction and service receipt | Tier 2 mechanism plus source boundary |
-| [Poland/NATO packet](GEOPOLITICAL-CAPABILITY-TO-RESPONSE-PACKET-POLAND_2026-10-29.md) | geopolitical/alliance | high for incident response; medium for capability realization | incident → interception → alliance response | deterrence, external adaptation and durable legitimacy | Tier 1 bounded finding plus Tier 2 follow-up |
+| [Poland/NATO packet](GEOPOLITICAL-CAPABILITY-TO-RESPONSE-PACKET-POLAND_2026-10-29.md) + [leverage closure audit](GEOPOLITICAL-LEVERAGE-CLOSURE-FOLLOWUP-AUDIT_2026-10-29.md) | geopolitical/alliance | high for incident response; medium for capability realization | incident → interception → alliance response → posture persistence | deterrence, external adaptation and durable legitimacy | Tier 1 source-boundary finding plus Tier 2 leverage question |
 | [Rotations A–C portfolio](ROTATIONS-A-B-C-CROSS-ROTATION-PORTFOLIO_2026-10-29.md) | cross-domain synthesis | source-led, mixed units | recurring mechanisms across 21 source records | same-unit cross-domain conversions | discovery and prioritization layer |
 
 ## Theme-to-evidence map
@@ -143,11 +143,14 @@ becomes cultural legitimacy or geopolitical meaning.
    Connecticut cases; if unavailable, record the source boundary.
 3. Virginia large load: match the Golden-Mars/local-permission record and one
    direct-connect/interconnection project to a named customer, assigned cost
-   and locality effect.
+   and locality effect. **Repeated public acquisition now records a source
+   boundary when those fields are unavailable.**
 4. SSA: select one live AI use case and seek public audit, appeal or claimant
    exposure evidence.
 5. Poland/NATO: match Eastern Sentry or a later airspace event to deployment
-   duration, repeated-incursion rate and public/partner response.
+   duration, repeated-incursion rate and public/partner response. **Repeated
+   public acquisition now records a source boundary when attribution and later
+   behavior cannot be closed.**
 
 ### Sequence 2 — add counterexamples, not more headlines
 
@@ -183,15 +186,18 @@ The broad goal is complete only when the repository contains:
 6. a final synthesis that preserves the distinction between signal, mechanism,
    operation, material consequence, meaning and leverage.
 
-Current state: items 1–4 are substantially present; source-boundary results now
-exist for platform, SNAP and public AI, while later outcomes remain incomplete
-for infrastructure incidence and geopolitical leverage; item 6 should be written
-only after the next closure sequence.
+Current state: items 1–4 are substantially present. Source-boundary results now
+exist for platform, SNAP, public AI, infrastructure incidence and geopolitical
+leverage. The final synthesis preserves signal, mechanism, operation, material
+consequence, meaning and power; the unresolved Tier 2 questions remain visible
+and are not promoted as facts.
 
 ## Decision
 
-The new goal remains active. The research program has moved from broad discovery
-to **promotion-controlled conversion research**. The next work should close
-later-outcome chains, document unavailable fields, and then produce the final
-cultural/geopolitical synthesis.
+The research program has moved from broad discovery to **promotion-controlled
+conversion research**. The current atlas is complete as a bounded evidence
+product: it contains named packets, ledgers, counterexamples, promotion tiers,
+later-stage closures where publicly available, and explicit source boundaries
+where later outcomes could not be verified. Future work can reopen the Tier 2
+questions, but it must not silently promote them.
 
