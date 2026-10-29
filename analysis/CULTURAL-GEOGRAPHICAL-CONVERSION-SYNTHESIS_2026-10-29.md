@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–AQ
+**Date:** 2026-10-29; refreshed through Rotations D–AR
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -646,6 +646,7 @@ disruption or repeat shutoff continues.
 | Energy insecurity/utility protection | account, household, dwelling, utility, assistance program, place | price, income timing, arrears, notice, equipment, weather, landlord, food/medicine, care and health | notice, shutoff, rationing, assistance, weatherization, reconnection, protection and complaint route | safe temperature, food/medicine, health, housing, care continuity and household optionality open | service restoration is not durable security; energy burden shifts risk into other household domains |
 | EV charging/equitable mobility | driver, household, vehicle, charger, station, route, destination, place | price, dwelling, grid, connector, payment, queue, outage, accessibility, travel time and repair coverage | deployment, station discovery, live status, payment, charging encounter and assistance | sufficient affordable charge, completed work/care/education/food/social trip and repeat adoption open | port deployment is not equitable mobility; electrification redistributes time, contingency and access burdens across places and households |
 | Distributed storage/grid resilience | outage, household, facility, hub, utility, battery, municipality, place | hazard, interconnection, dispatch, maintenance, access rules, cost, repair and operator capacity | grant, installation, islanding, dispatch, communication and repair priority | electricity continuity, water/cooling/health/food/communications protection, affordability and recovery open | storage capacity is not restored service; resilience becomes legitimate through local continuity and fair control |
+| Water affordability/drought adaptation | household, account, utility, source, system, community, Tribe, place | rate, income, drought, restriction, plumbing, assistance, language, trust and alternative-source burden | bill, restriction, assistance, conservation, connection, outage/boil-water response and repair | safe sufficient culturally usable water, health, care, livelihood and durable household security open | a water project or rate threshold is not household water security; conservation legitimacy depends on fair burden and usable assistance |
 | Food security/benefit and retail route | household, person, benefit account, retailer, tract, trip, place | income, price, eligibility, paperwork, transport, time, disability, language, culture, refrigeration and store choice | application, receipt, redemption, retailer access, purchase, substitution, complaint and nutrition route | adequate affordable nutritious food, stable security, health and household dignity open | participation or mapped access is not a reliable food route; place and household options convert assistance into lived security |
 | Food environment/price/travel/cultural fit | household, county, tract, retailer, trip, basket, alternative source, place | price, distance, travel time, vehicle/transit, store format, inventory, hours, disability, language, culture, storage and care/work trade-off | benefit use, store choice, completed trip, substitution, pantry/family route and repeat purchase | adequate acceptable basket, continuity, health and food security open | food access is a feasible choice set, not a distance score; the same benefit or store map can produce different lived outcomes |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
@@ -838,6 +839,11 @@ The atlas can safely state forty-two propositions:
     demonstration does not establish that a named household or critical service
     retained electricity through an outage, or that the benefit was affordable,
     accessible and fairly governed.
+45. **Water affordability is usable household security, not a rate threshold or
+    resilient-project award.** A national burden estimate, conservation rule,
+    infrastructure grant or customer-assistance design does not establish that a
+    named household retained safe, sufficient and culturally usable water through
+    drought, disaster or rate stress.
 
 ## What the evidence does not support
 
@@ -875,12 +881,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation AQ.
+living goal. The current atlas baseline has been refreshed through Rotation AR.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability and distributed-storage service continuity. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability, distributed-storage service continuity and household water-security adaptation. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
