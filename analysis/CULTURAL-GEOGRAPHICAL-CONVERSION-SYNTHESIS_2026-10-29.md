@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–N
+**Date:** 2026-10-29; refreshed through Rotations D–O
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -373,6 +373,27 @@ source, treatment system, distribution distance, scattered households and local
 labor market; culture includes sovereignty, self-determination and the meaning
 of dependable water in place.
 
+### 17. Migration becomes political through local capacity and belonging
+
+The [migration/local-capacity rotation](ROTATION-O-MIGRATION-HOUSING-LOCAL-CAPACITY-2026-10-29.md)
+connects Census population and migration-flow measures with HUD’s worst-case
+housing analysis and GAO’s evidence that Native households may use Tribal,
+non-Tribal or combined housing-service routes. The chain is movement → household
+formation/labor supply → housing and service capacity → price/access → belonging
+and political response.
+
+The sharper proposition is:
+
+> Migration changes places through the interaction of population movement,
+> housing/service capacity and belonging—not through a single national effect.
+
+This is intentionally not a universal claim that migration raises prices or
+improves local economies. Census measures concentration and timing; HUD offers
+an interpretation that requires local supply and distributional testing; GAO
+shows why service route and governance can alter practical inclusion. A county
+can experience economic renewal, cultural recognition, scarcity, exclusion or
+several of these at once.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -392,11 +413,12 @@ of dependable water in place.
 | Rural health | state, county, facility, clinician, patient, service line | distance, travel, waiting, staffing, language, trust, referral coordination | award, state plan, recruitment, facility/technology change, appointment | completed care, continuity, health outcome and local acceptance open | award/monitoring is not dependable care; place determines usability |
 | Disaster recovery | household, home, disaster, insurer, agency, neighborhood, place | documentation, inspection, disability access, temporary housing, contractor supply, insurance, travel and social ties | application, award, insurance, repair, accessibility, utility restoration, relocation choice | safe completed home, affordability, return/stay/move, health and cultural continuity open | assistance or project completion is not durable recovery; repair can preserve or destroy place attachment |
 | Tribal water | Tribe, utility, source, treatment system, operator, household, place | application, interagency coordination, technical capacity, operator labor, maintenance finance, distance and trust | award, design, construction, commissioning, certification, O&M and compliance | reliable safe affordable household water, health, sovereignty and cultural continuity open | capital or formal governance is not maintained service; O&M and local control determine usability |
+| Migration/local capacity | migrant, household, county, employer, landlord, service system, neighborhood | movement, legal/administrative route, rent, travel, language, documentation, service wait, recognition and social ties | migration, household formation, housing/service supply, local policy, participation and response | affordability, work, service access, belonging, exclusion, staying/moving and political action open | population flow is not local capacity or belonging; place mediates benefits and burdens |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state fifteen propositions:
+The atlas can safely state sixteen propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -448,6 +470,10 @@ The atlas can safely state fifteen propositions:
     governance role is not safe-water access until a named utility can operate,
     maintain and govern a compliant system that delivers reliable, affordable
     water to households over time.
+16. **Migration is mediated by place capacity and belonging.** Population flow
+    becomes a local outcome through housing, labor, service, governance and
+    cultural routes; demographic change alone cannot establish affordability,
+    displacement, inclusion or political response.
 
 ## What the evidence does not support
 
@@ -485,11 +511,11 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation N.
+living goal. The current atlas baseline has been refreshed through Rotation O.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
-recovery and Tribal water maintenance. Those unresolved questions remain Tier 2
+recovery, Tribal water maintenance and migration/local-capacity conversion. Those unresolved questions remain Tier 2
 research opportunities rather than promoted findings.
 
