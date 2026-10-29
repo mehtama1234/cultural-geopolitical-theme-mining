@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–AB
+**Date:** 2026-10-29; refreshed through Rotations D–AC
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -619,6 +619,7 @@ disruption or repeat shutoff continues.
 | Platform work | account, worker, tribunal case | response, appeal, lost work, payment friction | review, reactivation, order | payment/access still partly open | remedy can be formal without durable agency |
 | SNAP/public benefit | household, case, EBT account | notice, form, waiting, failed purchase | hearing, replacement, proof of compliance | balance/food protection open | administrative legibility becomes lived fairness |
 | Public AI | claimant, service task, agency system | explanation, verification, appeal | human review, audit, correction | service receipt open | capacity without contestability can weaken legitimacy |
+| Synthetic information/trust | content, user, platform, language/channel, trusted intermediary, community | exposure, recognition, verification time, media literacy, source access, language and consequence | provenance, label, cross-check, correction, report, recovery and institutional response | belief, sharing, purchase, civic action, harm and durable trust open | technical provenance or exposure is not verification, safe action or recoverable legitimacy |
 | Data center/grid | facility, utility, rate class, locality | reliability, land, bill, emissions, siting | tariff, public comment, route challenge, route substitution | customer/local burden and construction outcome open | national capability must earn host-place permission; non-consent can redistribute burden |
 | Cultural/digital | user, creator, local institution | verification, attention, discoverability | provenance, correction, first-party route | repeat participation/trust open | reach is not owned relationship or agency |
 | Platform safety/AI | victim, account, claimant, public-service user | recognition, documentation, waiting, escalation | notice/removal, appeal, human review, low-tech alternative | safety, correction and continuity open | contestability is a social infrastructure, not merely a policy feature |
@@ -649,7 +650,7 @@ disruption or repeat shutoff continues.
 
 ## What the evidence supports now
 
-The atlas can safely state twenty-nine propositions:
+The atlas can safely state thirty propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -759,6 +760,10 @@ The atlas can safely state twenty-nine propositions:
     travel time, store format, inventory, alternative sources and cultural fit
     can convert the same benefit or mapped retailer into different actual food
     acquisition outcomes.
+30. **Synthetic-information governance has an expectation-to-verification gap.**
+    People may value provenance and encounter AI-mediated information while the
+    public record remains weak on whether labels, provenance or detection tools
+    produce reliable verification, safer action and recoverable harm.
 
 ## What the evidence does not support
 
@@ -796,12 +801,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation AB.
+living goal. The current atlas baseline has been refreshed through Rotation AC.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion and food-environment affordability. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability and synthetic-information verification. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
