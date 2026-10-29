@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–Q
+**Date:** 2026-10-29; refreshed through Rotations D–R
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -432,6 +432,27 @@ disability, reservation, transfer and destination constraints remain. Rural and
 Tribal service models may trade fixed-route efficiency for demand-response
 reach, creating different burdens for riders and operators.
 
+### 20. Libraries become civic infrastructure through maintained encounters
+
+The [library civic-infrastructure rotation](ROTATION-R-LIBRARY-CIVIC-CULTURAL-INFRASTRUCTURE-2026-10-29.md)
+connects GAO’s facility and accessibility evidence with IMLS’s public-library
+survey and service-adaptation data. The chain is presence/funding →
+building/staff/technology → accessibility/welcome → service encounter →
+learning, benefit, civic and belonging outcome.
+
+The sharper proposition is:
+
+> Libraries become civic and cultural infrastructure through maintained,
+> accessible and trusted encounters—not a building, program, visit count or
+> Wi-Fi signal alone.
+
+The institution is a useful cultural-geographical test because one site can
+combine public space, information, technology, literacy, local memory and civic
+procedure. But deferred maintenance, inaccessible entrances, weak staffing or
+limited connectivity can turn formal publicness into practical exclusion. A
+repair or high visit count still does not prove learning, benefit access, trust
+or durable belonging.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -454,11 +475,12 @@ reach, creating different burdens for riders and operators.
 | Migration/local capacity | migrant, household, county, employer, landlord, service system, neighborhood | movement, legal/administrative route, rent, travel, language, documentation, service wait, recognition and social ties | migration, household formation, housing/service supply, local policy, participation and response | affordability, work, service access, belonging, exclusion, staying/moving and political action open | population flow is not local capacity or belonging; place mediates benefits and burdens |
 | Broadband/digital access | location, household, provider, device, user, school, clinic, workplace | price, device, skills, language, disability, privacy, terrain, capacity, installation and trust | map challenge, award, build, subscription, support, correction and local governance | reliable affordable accessible use for work, care, learning, civic voice and culture open | mapped availability is not meaningful participation; digital geography redistributes agency and dependence |
 | Transit/practical mobility | rider, trip, route, vehicle, stop, provider, destination, place | fare, booking, waiting, transfer, distance, disability, safety, schedule and local capacity | funding, route, reservation, boarding, accommodation, complaint and service coordination | completed trip, work/care/education/food/social access and sustained participation open | service volume is not mobility; a route can exist while a person remains unable to reach the needed destination |
+| Library civic/cultural infrastructure | library, building, staff, user, program, device, neighborhood, place | distance, disability, language, hours, privacy, maintenance, staffing, digital access and contested meaning | repair, accommodation, service desk, Wi-Fi, program, information route and civic encounter | completed service, learning, benefit access, cultural participation, belonging and trust open | public presence or visit volume is not an accessible, trusted or durable civic encounter |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state eighteen propositions:
+The atlas can safely state nineteen propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -522,6 +544,10 @@ The atlas can safely state eighteen propositions:
     accessibility design or aggregate ridership is not transport access until a
     person can complete an affordable trip to a destination that supplies the
     needed work, care, education, food or social function.
+19. **Libraries become infrastructure through maintained encounters.** A public
+    building, program, visit count or Wi-Fi signal is not civic and cultural
+    capacity until people can enter, use and trust the institution for a needed
+    information, social, learning or civic purpose over time.
 
 ## What the evidence does not support
 
@@ -565,6 +591,6 @@ explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access and practical mobility. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility and library civic infrastructure. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
