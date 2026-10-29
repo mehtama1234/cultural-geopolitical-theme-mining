@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–Y
+**Date:** 2026-10-29; refreshed through Rotations D–Z
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -592,6 +592,26 @@ short-term output can coexist with housing scarcity, strained services,
 secondary mobility, family separation or weak belonging. Local contribution and
 local burden must be measured together, with pre-existing capacity preserved.
 
+### 28. Energy security is durable household optionality
+
+The [energy insecurity rotation](ROTATION-Z-ENERGY-INSECURITY-UTILITY-DISCONNECTION-HOUSEHOLD-OPTIONS-2026-10-29.md)
+connects EIA utility-disconnection counts with RECS household trade-offs,
+LIHEAP performance measures and state-level price variation. The chain is energy
+cost/income/weather → notice/arrears → cut, ration, borrow or assistance →
+reconnection → safe temperature, food/medicine, health and household agency.
+
+The sharper proposition is:
+
+> Utility notices, disconnections, reconnections and household energy-insecurity
+> trade-offs are distinct measurable stages; a reconnection or assistance record
+> does not by itself establish durable household protection.
+
+This is a stronger bounded endpoint than a general energy-burden claim because
+EIA now separates utility account events from household-reported consequences.
+The same-account/same-household bridge remains open: a reconnection may restore
+service while debt, unhealthy temperature, food/medicine sacrifice, care
+disruption or repeat shutoff continues.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -622,11 +642,12 @@ local burden must be measured together, with pre-existing capacity preserved.
 | AI work/control/job quality | worker, task, employer, manager, system, workplace, household, labor market, place | training, monitoring, pace, data, evaluation, error burden, privacy, bargaining and alternatives | adoption, task redesign, consultation, human override, worker feedback and management decision | output quality, pay, hours, autonomy, health, security, mobility and household benefit open | adoption or productivity is not shared gain; technical capability redistributes control before outcome |
 | Extreme heat/cooling/place health | person, household, ZIP, home, workplace, cooling center, health system, community | temperature, indoor conditions, AC/energy cost, water, transport, mobility, isolation, work and trust | forecast, warning, HHI, cooling center, utility support, outreach and clinical response | reduced exposure, illness avoided, care continuity, mortality, adaptation and place resilience open | heat plan or resource is not reachable protection; climate risk is converted through household options and local trust |
 | Refugee resettlement/local integration | refugee, cohort, household, sponsor, school, employer, clinic, service provider, neighborhood, place | legal route, language, housing, transport, health, documentation, work, family ties, discrimination and local capacity | admission, arrival support, benefits, language/school/work route, relationships, service response and civic entry | safety, housing stability, job quality, health, belonging, contribution, secondary mobility and durable integration open | arrival or employment is not integration; place converts protection into reciprocal inclusion or instability |
+| Energy insecurity/utility protection | account, household, dwelling, utility, assistance program, place | price, income timing, arrears, notice, equipment, weather, landlord, food/medicine, care and health | notice, shutoff, rationing, assistance, weatherization, reconnection, protection and complaint route | safe temperature, food/medicine, health, housing, care continuity and household optionality open | service restoration is not durable security; energy burden shifts risk into other household domains |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state twenty-six propositions:
+The atlas can safely state twenty-seven propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -723,6 +744,10 @@ The atlas can safely state twenty-six propositions:
     initial assistance or short-term employment is not durable integration until
     a person has safety, housing, health, language, education, work, relationships
     and meaningful local agency while receiving places have sustainable capacity.
+27. **Energy security is durable household optionality.** A final notice,
+    disconnection, reconnection, assistance award or reported trade-off is not
+    protection until a household can maintain safe energy without sacrificing
+    food, medicine, housing, care or future financial room.
 
 ## What the evidence does not support
 
@@ -766,6 +791,6 @@ explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection and refugee integration. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration and energy security. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
