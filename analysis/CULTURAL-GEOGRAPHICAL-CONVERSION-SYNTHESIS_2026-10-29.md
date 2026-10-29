@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–X
+**Date:** 2026-10-29; refreshed through Rotations D–Y
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -572,6 +572,26 @@ air conditioning is not protection if energy cost, equipment failure, housing
 rules or power outages prevent operation. The cultural endpoint is whether people
 can remain safe in a place they recognize as home and community.
 
+### 27. Refugee integration is local, reciprocal belonging
+
+The [refugee resettlement rotation](ROTATION-Y-REFUGEE-RESETTLEMENT-LOCAL-INTEGRATION-2026-10-29.md)
+connects Refugee Processing Center arrival data with State/ORR integration
+architecture, GAO evidence on emergency refugee assistance and local capacity,
+and ACF employment-service objectives. The chain is displacement/protection →
+admission → arrival support → housing, health, language, school and work →
+relationships, stability and belonging.
+
+The sharper proposition is:
+
+> Refugee integration is safe, stable and reciprocal local belonging—not
+> admission, arrival, initial assistance or short-term employment alone.
+
+The public architecture recognizes multiple routes, including older refugees,
+children, youth, mental health, legal services, health and employment. But a
+short-term output can coexist with housing scarcity, strained services,
+secondary mobility, family separation or weak belonging. Local contribution and
+local burden must be measured together, with pre-existing capacity preserved.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -601,11 +621,12 @@ can remain safe in a place they recognize as home and community.
 | HCBS care/place/control | person, household, caregiver, worker, provider, waiver, home, community, state | assessment, waiting, authorization, worker shortage, travel, rate, care coordination, language, culture and family labor | person-centered plan, worker assignment, delivered hours, grievance, incident response and participant direction | health, safety, caregiver capacity, work, participation, community living and institutional entry open | eligibility or a care plan is not delivered, adequate or person-controlled care |
 | AI work/control/job quality | worker, task, employer, manager, system, workplace, household, labor market, place | training, monitoring, pace, data, evaluation, error burden, privacy, bargaining and alternatives | adoption, task redesign, consultation, human override, worker feedback and management decision | output quality, pay, hours, autonomy, health, security, mobility and household benefit open | adoption or productivity is not shared gain; technical capability redistributes control before outcome |
 | Extreme heat/cooling/place health | person, household, ZIP, home, workplace, cooling center, health system, community | temperature, indoor conditions, AC/energy cost, water, transport, mobility, isolation, work and trust | forecast, warning, HHI, cooling center, utility support, outreach and clinical response | reduced exposure, illness avoided, care continuity, mortality, adaptation and place resilience open | heat plan or resource is not reachable protection; climate risk is converted through household options and local trust |
+| Refugee resettlement/local integration | refugee, cohort, household, sponsor, school, employer, clinic, service provider, neighborhood, place | legal route, language, housing, transport, health, documentation, work, family ties, discrimination and local capacity | admission, arrival support, benefits, language/school/work route, relationships, service response and civic entry | safety, housing stability, job quality, health, belonging, contribution, secondary mobility and durable integration open | arrival or employment is not integration; place converts protection into reciprocal inclusion or instability |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state twenty-five propositions:
+The atlas can safely state twenty-six propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -698,6 +719,10 @@ The atlas can safely state twenty-five propositions:
     warning, cooling center or AC statistic is not health protection until a
     person can recognize the risk, afford and reach suitable cooling and care,
     and sustain the adaptation through repeated heat seasons.
+26. **Refugee integration is local reciprocal belonging.** Admission, arrival,
+    initial assistance or short-term employment is not durable integration until
+    a person has safety, housing, health, language, education, work, relationships
+    and meaningful local agency while receiving places have sustainable capacity.
 
 ## What the evidence does not support
 
@@ -741,6 +766,6 @@ explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control and extreme-heat protection. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection and refugee integration. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
