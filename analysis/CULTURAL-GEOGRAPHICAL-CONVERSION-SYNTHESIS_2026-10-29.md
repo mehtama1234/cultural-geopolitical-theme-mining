@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–BA
+**Date:** 2026-10-29; refreshed through Rotations D–BB
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -656,6 +656,7 @@ disruption or repeat shutoff continues.
 | Submarine cables/digital resilience | cable, route, landing station, vendor, repair vessel, ISP, cloud, user, place, state | route clustering, fault, repair, permit, vendor, cyber, ownership, sovereignty, cost and local capacity | landing, monitoring, rerouting, licensing, repair, traffic restoration and public governance | affordable secure service, cloud/payment/health/government continuity, regional access and geopolitical resilience open | cable capacity or landing is not digital resilience; recovery is tested at route fault, user continuity and local control |
 | Advanced reactors/local consent | reactor, design, fuel, site, regulator, utility, worker, host community, customer, state | safety, fuel, waste, emergency, security, transport, staffing, cost, land, water and consent burden | design, licensing, construction, fueling, commissioning, operation, inspection, emergency planning and participation | reliable affordable power/heat, jobs, health, waste stewardship, resilience and durable host acceptance open | licensing or design promise is not operating public value; distributed nuclear capability still requires place-based consent and maintenance |
 | Battery recycling/circular supply chains | battery, chemistry, scrap, collector, recycler, black mass, refiner, buyer, worker, host place, state | collection, transport, fire, process energy, chemicals, waste, capacity, purity, qualification, price and local exposure | take-back, processing, refining, material acceptance, battery production and monitoring | qualified material, reduced import exposure, product continuity, jobs, health, environmental burden and circular trust open | recycling capacity or recovered mineral is not qualified circular supply; autonomy is tested at accepted application-specific output |
+| Hydrogen hubs/industrial decarbonization | producer, hub, electrolyzer/reformer, water, power, pipeline, storage, offtaker, worker, community, region | production pathway, electricity, water, carbon, transport, safety, cost, land, labor and local burden | award, production, conditioning, storage, transport, offtake, environmental review and operation | delivered competitive hydrogen, verified lifecycle emissions, uptime, industrial output, jobs, health and regional legitimacy open | a hub award or production design is not clean industrial use; the value is tested at delivered end use and place-level burden |
 | Food security/benefit and retail route | household, person, benefit account, retailer, tract, trip, place | income, price, eligibility, paperwork, transport, time, disability, language, culture, refrigeration and store choice | application, receipt, redemption, retailer access, purchase, substitution, complaint and nutrition route | adequate affordable nutritious food, stable security, health and household dignity open | participation or mapped access is not a reliable food route; place and household options convert assistance into lived security |
 | Food environment/price/travel/cultural fit | household, county, tract, retailer, trip, basket, alternative source, place | price, distance, travel time, vehicle/transit, store format, inventory, hours, disability, language, culture, storage and care/work trade-off | benefit use, store choice, completed trip, substitution, pantry/family route and repeat purchase | adequate acceptable basket, continuity, health and food security open | food access is a feasible choice set, not a distance score; the same benefit or store map can produce different lived outcomes |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
@@ -893,6 +894,10 @@ The atlas can safely state forty-two propositions:
     or recovered-mineral claim does not establish safe feedstock capture, sustained
     throughput, qualified material acceptance, reduced imports, or fair local
     environmental and labor outcomes.
+55. **A clean-hydrogen hub is not clean industrial use.** A hub award, production
+    design, pipeline plan, environmental review or declared end use does not
+    establish delivered hydrogen at competitive cost, verified lifecycle emissions,
+    safe operations, stable offtake, local benefit or durable decarbonization.
 
 ## What the evidence does not support
 
@@ -930,12 +935,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation BA.
+living goal. The current atlas baseline has been refreshed through Rotation BB.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability, distributed-storage service continuity, household water-security adaptation, warning-to-safe-outcome conversion, trusted-intermediary service completion, wastewater signal-to-action conversion, port-to-community resilience, satellite usable-continuity, semiconductor qualified capability, submarine-cable fault-to-user continuity, advanced-reactor deployment-to-public-value and battery recovered-material-to-dependence conversion. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability, distributed-storage service continuity, household water-security adaptation, warning-to-safe-outcome conversion, trusted-intermediary service completion, wastewater signal-to-action conversion, port-to-community resilience, satellite usable-continuity, semiconductor qualified capability, submarine-cable fault-to-user continuity, advanced-reactor deployment-to-public-value, battery recovered-material-to-dependence conversion and hydrogen production-to-use. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
