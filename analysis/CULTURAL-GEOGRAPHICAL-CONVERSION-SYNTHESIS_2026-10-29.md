@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29  
+**Date:** 2026-10-29; refreshed through Rotations D–E
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -164,6 +164,35 @@ favorability score.
 **Geographical implication:** host places and frontier territories carry
 operational burdens that national or alliance surveys may not capture.
 
+### 7. Contestability infrastructure is becoming a scarce social capability
+
+The [TAKE IT DOWN Act rotation](ROTATION-D-PLATFORM-EXIT-TAKE-IT-DOWN_2026-10-29.md)
+shows a statutory platform-removal clock for nonconsensual intimate imagery,
+including AI-generated deepfakes. The [public-AI contestability rotation](ROTATION-E-PUBLIC-AI-CONTESTABILITY-2026-10-29.md)
+shows the comparative public-sector counterpart: AI adoption is widespread,
+while post-deployment audits, citizen complaint mechanisms, traceability and
+human fallback are uneven.
+
+The shared mechanism is:
+
+```text
+automated or platform-mediated action
+  -> person recognizes a problem
+  -> reachable notice, review or removal route
+  -> traceable correction and fallback
+  -> safety, continuity or restored agency
+```
+
+**Cultural meaning:** the ability to contest is part of belonging and agency.
+People are not only asking whether a system is accurate; they are asking
+whether the system recognizes them as someone who can question it and still be
+heard.
+
+**Geographical implication:** the same nominal right varies with connectivity,
+language, disability access, local offices, trusted intermediaries, legal
+support and cross-border platform reach. “Human fallback” can reduce exclusion
+or shift verification and travel work onto those least able to carry it.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -173,11 +202,12 @@ operational burdens that national or alliance surveys may not capture.
 | Public AI | claimant, service task, agency system | explanation, verification, appeal | human review, audit, correction | service receipt open | capacity without contestability can weaken legitimacy |
 | Data center/grid | facility, utility, rate class, locality | reliability, land, bill, emissions, siting | tariff, public comment, route challenge, route substitution | customer/local burden and construction outcome open | national capability must earn host-place permission; non-consent can redistribute burden |
 | Cultural/digital | user, creator, local institution | verification, attention, discoverability | provenance, correction, first-party route | repeat participation/trust open | reach is not owned relationship or agency |
+| Platform safety/AI | victim, account, claimant, public-service user | recognition, documentation, waiting, escalation | notice/removal, appeal, human review, low-tech alternative | safety, correction and continuity open | contestability is a social infrastructure, not merely a policy feature |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state five propositions:
+The atlas can safely state six propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -194,6 +224,10 @@ The atlas can safely state five propositions:
 5. **Geopolitical persistence is not geopolitical leverage.** Interception,
    consultation, procurement, acceptance and continued posture are operational
    milestones; leverage requires a later attributed change in external behavior.
+6. **Contestability infrastructure is unevenly distributed.** A legal clock,
+   complaint route, audit, human fallback or low-tech alternative can exist in
+   formal design while remaining difficult to discover, use or complete for the
+   person carrying the risk.
 
 ## What the evidence does not support
 
@@ -231,9 +265,9 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-new goal. The atlas is complete as a bounded evidence product: it contains
-closed later-stage results where the public record supports them and explicit
-source-boundary findings for claimant-level public-AI outcomes,
+living goal. The current atlas baseline has been refreshed with Rotations D–E:
+it contains closed later-stage results where the public record supports them and
+explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes and
 geopolitical leverage. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
