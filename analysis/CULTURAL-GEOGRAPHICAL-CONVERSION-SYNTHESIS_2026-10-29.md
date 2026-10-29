@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–W
+**Date:** 2026-10-29; refreshed through Rotations D–X
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -553,6 +553,25 @@ and household benefit. The cultural meaning of AI at work therefore depends on
 whether workers experience augmentation as relief and learning or as deskilling,
 surveillance and intensified control.
 
+### 26. Heat resilience is reachable and affordable protection
+
+The [extreme-heat rotation](ROTATION-X-EXTREME-HEAT-COOLING-PLACE-HEALTH-2026-10-29.md)
+connects NOAA’s 2025 heat record with CDC/ATSDR place-based vulnerability,
+heat-illness tracking, cooling-center access and local climate-health guidance.
+The chain is heat exposure/forecast → warning/risk recognition → cooling,
+energy, water and transport → reduced exposure → health and care continuity.
+
+The sharper proposition is:
+
+> Heat resilience is reachable, affordable and trusted cooling and care—not a
+> forecast, vulnerability score, warning, cooling center or AC statistic alone.
+
+A ZIP-code risk score is not household protection. A cooling center is not usable
+if awareness, transport, mobility, hours, privacy, pets or safety block access;
+air conditioning is not protection if energy cost, equipment failure, housing
+rules or power outages prevent operation. The cultural endpoint is whether people
+can remain safe in a place they recognize as home and community.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
@@ -581,11 +600,12 @@ surveillance and intensified control.
 | Homelessness/durable housing | person, household, shelter, service system, lease, housing unit, neighborhood, place | housing loss, documentation, wait, safety, affordability, health, transport, governance and social ties | outreach, entry, shelter, case management, rental aid, supportive housing and exit | move-in, retention, health, safety, affordability, connection and recurrence open | count or exit is not a durable home; housing response redistributes agency and place connection |
 | HCBS care/place/control | person, household, caregiver, worker, provider, waiver, home, community, state | assessment, waiting, authorization, worker shortage, travel, rate, care coordination, language, culture and family labor | person-centered plan, worker assignment, delivered hours, grievance, incident response and participant direction | health, safety, caregiver capacity, work, participation, community living and institutional entry open | eligibility or a care plan is not delivered, adequate or person-controlled care |
 | AI work/control/job quality | worker, task, employer, manager, system, workplace, household, labor market, place | training, monitoring, pace, data, evaluation, error burden, privacy, bargaining and alternatives | adoption, task redesign, consultation, human override, worker feedback and management decision | output quality, pay, hours, autonomy, health, security, mobility and household benefit open | adoption or productivity is not shared gain; technical capability redistributes control before outcome |
+| Extreme heat/cooling/place health | person, household, ZIP, home, workplace, cooling center, health system, community | temperature, indoor conditions, AC/energy cost, water, transport, mobility, isolation, work and trust | forecast, warning, HHI, cooling center, utility support, outreach and clinical response | reduced exposure, illness avoided, care continuity, mortality, adaptation and place resilience open | heat plan or resource is not reachable protection; climate risk is converted through household options and local trust |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
 
 ## What the evidence supports now
 
-The atlas can safely state twenty-four propositions:
+The atlas can safely state twenty-five propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -674,6 +694,10 @@ The atlas can safely state twenty-four propositions:
     exposure, task-level time savings or manager-reported gains are not shared
     prosperity until worker voice, skills, autonomy, job quality and bargaining
     power convert technical capability into durable worker and household benefit.
+25. **Heat resilience is reachable protection.** A forecast, risk score,
+    warning, cooling center or AC statistic is not health protection until a
+    person can recognize the risk, afford and reach suitable cooling and care,
+    and sustain the adaptation through repeated heat seasons.
 
 ## What the evidence does not support
 
@@ -717,6 +741,6 @@ explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
-meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care and AI work control. Those unresolved questions remain Tier 2 research
+meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control and extreme-heat protection. Those unresolved questions remain Tier 2 research
 opportunities rather than promoted findings.
 
