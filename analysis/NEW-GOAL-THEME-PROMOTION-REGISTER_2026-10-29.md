@@ -45,10 +45,10 @@ These have a strong observed mechanism but a missing later outcome.
 
 | Mechanism | Best packet | Open conversion | Next promotion evidence |
 |---|---|---|---|
-| Operational accountability moves closer to dependence | Virginia large-load packet | Facility event → cost, service, environmental burden and local response | Named facility/interconnection, payment/bill, backup/emissions and later local decision |
+| Operational accountability moves closer to dependence | Virginia large-load and Golden-Mars packets | Facility/project event → cost, service, environmental burden and local response | Named facility/interconnection, payment/bill, backup/emissions and later local decision |
 | Public AI has a readiness-to-remedy gap | SSA public-AI packet | AI exposure → human contestability → correction → benefit/service receipt | One live system with claimant-level exposure and a comparison or appeal route |
 | Qualified substitution matters more than nominal ownership | Critical-minerals audit in existing corpus | Project/control → qualified output → buyer use → disruption response | Application-specific battery and semiconductor ledgers |
-| Access is converted through effort and optionality | SNAP, ATUS/SHED and cultural rotation evidence | Time/liquidity/notice → chosen alternative → later work, care, security or participation | Same-person or same-household longitudinal bridge |
+| Access is converted through effort and optionality | SNAP closure audits, ATUS/SHED and cultural rotation evidence | Time/liquidity/notice → chosen alternative → later work, care, security or participation | Same-person or same-household longitudinal bridge; SNAP post-order credit/use |
 | Alliance response is visible before leverage | Poland/NATO packet | Response → later foreign-actor adaptation, concession or repeated incident | Before/after or matched incident ledger with attribution and duration |
 
 ### Tier 3 — discovery hypotheses
@@ -70,8 +70,10 @@ stronger conversion.
 | Packet | Domain | Unit quality | Strongest observed stage | Last unobserved stage | Current disposition |
 |---|---|---|---|---|---|
 | [Platform remedy closure table](PLATFORM-REMEDY-CLOSURE-TABLE_2026-10-29.csv) | platform/work | high; named workers and adjudications | correction/restoration and contrasting review outcomes | payment receipt, recurrence, anti-retaliation | Tier 1 bounded finding |
-| [Virginia large-load packet](INFRASTRUCTURE-CONVERSION-PACKET-VIRGINIA-LARGE-LOAD_2026-10-29.md) | infrastructure/grid | medium; named operator and dockets, not event facility | operating event and formal cost governance | facility-specific incidence and local permission | Tier 2 mechanism |
-| [SNAP access packet](ADMINISTRATIVE-ACCESS-CONVERSION-PACKET-SNAP_2026-10-29.md) | household/public system | high for two anonymized cases; medium for survey/panel context | loss → route → correction/credit | usable food, adequacy, recovery and continuity | Tier 1 bounded finding plus Tier 2 follow-up |
+| [Virginia large-load packet](INFRASTRUCTURE-CONVERSION-PACKET-VIRGINIA-LARGE-LOAD_2026-10-29.md) | infrastructure/grid | medium; named operator and dockets, not event facility | operating event and formal cost governance | facility-specific incidence and customer bill | Tier 2 mechanism |
+| [Golden-Mars local-permission audit](INFRASTRUCTURE-LOCAL-PERMISSION-FOLLOWUP-AUDIT_2026-10-29.md) | infrastructure/local politics | high for named project and organized participation | project rationale → local voice → route decision | construction, cost allocation and durable acceptance | Tier 1 bounded finding |
+| [SNAP access packet](ADMINISTRATIVE-ACCESS-CONVERSION-PACKET-SNAP_2026-10-29.md) | household/public system | high for anonymized cases; medium for survey/panel context | loss → route → correction/credit | usable food, adequacy, recovery and continuity | Tier 1 bounded finding |
+| [SNAP closure audit](SNAP-CLOSURE-FOLLOWUP-AUDIT_2026-10-29.md) | household/public system | high for formal order and administrative clock | implementation requirement and proof-of-compliance requirement | public proof, account credit/use and household outcome | Tier 1 bounded finding plus source boundary |
 | [SSA public-AI packet](PUBLIC-AI-CONVERSION-PACKET-SSA_2026-10-29.md) | public AI/administration | medium; named agency and use cases | deployment, workflow and oversight | claimant exposure, correction and service receipt | Tier 2 mechanism |
 | [Poland/NATO packet](GEOPOLITICAL-CAPABILITY-TO-RESPONSE-PACKET-POLAND_2026-10-29.md) | geopolitical/alliance | high for incident response; medium for capability realization | incident → interception → alliance response | deterrence, external adaptation and durable legitimacy | Tier 1 bounded finding plus Tier 2 follow-up |
 | [Rotations A–C portfolio](ROTATIONS-A-B-C-CROSS-ROTATION-PORTFOLIO_2026-10-29.md) | cross-domain synthesis | source-led, mixed units | recurring mechanisms across 21 source records | same-unit cross-domain conversions | discovery and prioritization layer |
@@ -139,8 +141,9 @@ becomes cultural legitimacy or geopolitical meaning.
    follow-up for the strongest adjudicated cases.
 2. SNAP: seek post-order credit/balance and later continuity for the two
    Connecticut cases; if unavailable, record the source boundary.
-3. Virginia large load: identify one direct-connect/interconnection project and
-   match regulatory cost allocation to a named customer and locality.
+3. Virginia large load: match the Golden-Mars/local-permission record and one
+   direct-connect/interconnection project to a named customer, assigned cost
+   and locality effect.
 4. SSA: select one live AI use case and seek public audit, appeal or claimant
    exposure evidence.
 5. Poland/NATO: match Eastern Sentry or a later airspace event to deployment
@@ -180,8 +183,10 @@ The broad goal is complete only when the repository contains:
 6. a final synthesis that preserves the distinction between signal, mechanism,
    operation, material consequence, meaning and leverage.
 
-Current state: items 1–4 are substantially present; item 5 remains incomplete;
-item 6 should be written only after the next closure sequence.
+Current state: items 1–4 are substantially present; source-boundary results now
+exist for platform and SNAP, while later outcomes remain incomplete for public
+AI, infrastructure incidence and geopolitical leverage; item 6 should be
+written only after the next closure sequence.
 
 ## Decision
 
