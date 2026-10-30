@@ -29,6 +29,72 @@ capital/operating support
 | TRN-004 | [2025 National Transit Database capital-expense summary](https://data.transportation.gov/stories/s/2025-NTD-Annual-Data-Summary-Capital-Expenses/jkjg-8krq/) | Among reporting agencies, 77% of capital expenses went to improving existing service and 21% to expansion | Capital allocation and maintenance/expansion distinction observed |
 | TRN-005 | [GAO nonemergency medical transportation report](https://www.gao.gov/assets/880/872326.pdf) | Transportation-disadvantaged people, including older, disabled, low-income and rural residents, rely on NEMT to reach medical appointments; multiple federal programs may fund NEMT | Medical-trip dependence and program-fragmentation boundary observed |
 
+## Named-case refresh
+
+These cases close different parts of the trip chain. They should not be read as
+proof that a service works for every rider: agency-reported ridership and
+on-time measures are operational evidence, while a funded vehicle or pilot
+selection remains pre-service evidence.
+
+### TRN-006 — Barry County Transit, Michigan
+
+FTA reports that Barry County Transit extended evening service for work and
+medical trips, expanded service into two counties and partnered with schools,
+mental-health agencies and other providers. In the year after the service
+assessment, total ridership rose 30%, rides for people with disabilities rose
+20% and rides for older adults rose 9%. This closes a named rural operator's
+route-and-schedule adaptation to aggregate use, but not the same rider's
+completed appointment, fare burden, wait, missed trip or retained employment.
+
+### TRN-007 — Prairie Hills Transit DISPATCH360, Spearfish, South Dakota
+
+An FTA evaluation reports that Prairie Hills Transit used AI-supported dispatch
+across a rural western South Dakota service area covering nine counties and 15
+communities. During the evaluation, data-transfer reaction time fell by more
+than 78%, on-time drop-offs rose 9.8% and on-time pickups rose 10.9%. This is a
+strong operational link from dispatch technology to pickup/drop-off reliability
+for a geographically dispersed service. It does not establish affordability,
+booking accessibility, rider trust, trip purpose or completed care/work after
+arrival.
+
+### TRN-008 — Unalakleet, Alaska Native Village transit
+
+FTA's FY2024 Tribal Transit selections describe Unalakleet's service as the
+only public transportation in the village, connecting residents to the health
+clinic, grocery store, post office, tribal office, airport and other services.
+The award supports maintenance of that service. It is a clear place-and-
+destination case, but the selection is not evidence that a particular funded
+trip occurred; the ledger keeps frequency, reliability, affordability,
+boarding and destination completion open.
+
+### TRN-009 — RideKC Freedom On-Demand, Kansas City region
+
+The U.S. DOT evaluation reports that RideKC Freedom On-Demand recorded more
+than 15,500 trips in five months, reduced agency cost per trip from $27.13 to
+$15.80 and charged qualifying ADA riders $3 for the first eight miles plus $2
+per additional mile. The case joins a demand-response design to trip volume,
+operating cost and a published fare structure. It does not prove that all
+eligible riders could book, board or reach a needed destination, and lower
+agency cost must not be confused with lower rider burden.
+
+### TRN-010 — Essex County, New Jersey paratransit arrival notifications
+
+An ITS evaluation reports that automated voice/text arrival notifications in
+Essex County, including Newark, reduced average passenger waiting time from
+20.3 minutes to 4.3 minutes, a 15–20 minute reduction. This closes a small but
+material accessibility stage: reducing outdoor uncertainty before boarding.
+The trial does not close booking success, vehicle accessibility, trip
+completion, privacy for users without smartphones or the downstream purpose of
+the trip.
+
+## Sources added in the named-case refresh
+
+- [FTA: outstanding rural transit agencies, including Barry County and Durango](https://www.transit.dot.gov/about/news/fta-recognizes-three-outstanding-rural-transit-agencies)
+- [FTA/DOT: Prairie Hills Transit DISPATCH360](https://www.itskrs.its.dot.gov/2025-b01922)
+- [FTA: FY2024 Tribal Transit project selections](https://www.transit.dot.gov/funding/grants/grant-programs/fiscal-year-2024-tribal-transit-project-selections)
+- [U.S. DOT: RideKC Freedom On-Demand](https://www.itskrs.its.dot.gov/2018-b01244)
+- [U.S. DOT: Essex County paratransit arrival notifications](https://www.itskrs.its.dot.gov/2018-b01250)
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |
