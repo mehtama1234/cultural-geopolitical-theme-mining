@@ -30,6 +30,8 @@ mission / landing site / resource / infrastructure / heritage location
 | KA9 | NASA’s current CLPS program reports 17 planned lunar deliveries, more than 60 NASA instruments, 13 eligible U.S. providers and a combined maximum contract value of $2.6 billion through November 2028, with end-to-end commercial payload delivery contracts. | Concrete commercial procurement and infrastructure scale pathway. | Commercial viability without public contracts, resource extraction, non-U.S. access, fair benefit distribution or long-term reliability. |
 | KA10 | NASA’s mission record contains both Firefly Blue Ghost 1’s successful 2025 landing and Intuitive Machines IM-2’s 2025 landing near the south pole, where the lander tipped onto its side and limited science operations. | Operational reliability counterexample and consequence of landing geometry. | General mission-failure rate, causal comparison, safety-zone design, environmental effect or governance compliance. |
 | KA11 | NASA’s 2026 Moon Base updates describe recurring CLPS cargo landers, rovers and planned 2028 mobility/infrastructure missions intended to support a sustained south-pole human and robotic presence. | Transition from individual missions toward a planned lunar logistics/infrastructure system. | Actual cadence, budget durability, international participation, heritage/environmental safeguards, liability or shared benefit. |
+| KA12 | NASA OIG reports CLPS delays averaging at least 14 months per task order and a $208.2 million cost increase, notes vendor financial pressure and bankruptcy risk, and says NASA has limited control over commercial lander designs and processes; it also identifies testing and crew-survival gaps in human lander oversight. | Commercial-dependency, schedule, cost and safety-accountability counterevidence. | Future reliability, governance legitimacy, provider resilience, public access or heritage/environmental outcome. |
+| KA13 | NASA’s Moon Base plan is phased from reliable access and learning through infrastructure deployment and eventual living/working outpost, with Phase One through 2029, Phase Two 2029–2032 and Phase Three beyond 2032. | Named staged infrastructure and governance horizon. | Funding durability, mission completion, international participation, resource extraction, heritage protection or benefit distribution. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -39,15 +41,33 @@ Heritage is broader than the Apollo landing sites. Scientific locations, future 
 
 The geopolitical opportunity is shared capability: open scientific data, interoperable systems, capacity building, transparent registration, benefit sharing and participation by countries that cannot independently land or extract. NASA’s CLPS pipeline shows that commercial procurement can create a logistics market before resource extraction is demonstrated. The paired mission record matters: a successful landing and a tipped lander both produce capability learning, but neither establishes a safe, reliable or equitable lunar supply chain. The risk is a first-mover settlement in which national law, commercial capital and technical infrastructure establish practical control before multilateral rules mature. Lunar governance should therefore be judged by access, reversibility, accountability and distributive benefit—not by the number of signatories, missions or announcements.
 
+NASA OIG’s commercial-partnership evidence makes the dependency concrete:
+public procurement can stimulate a lunar market while shifting design, schedule
+and financial risk onto small providers and leaving NASA with limited control over
+commercial lander systems. A planned base therefore has two distinct clocks:
+the strategic vision can advance while delivery cadence, vendor solvency,
+testing, crew override and safety assurance remain fragile. Public benefit and
+shared governance cannot be inferred from the existence of a procurement market.
+
 ## Counterexample and source boundary
 
 An Artemis Accords signature, mission, landing, resource prospect, extraction demonstration, CLPS contract, provider count, successful landing, tipped lander, safety zone, heritage guideline, data release, national law, investment or draft UN principle is not by itself equitable access, sustainable extraction, protected heritage, environmental safety, liability clarity, benefit sharing, scientific openness or legitimate shared governance. Coordination language can coexist with exclusion; open data can coexist with concentrated infrastructure; and commercial delivery capacity can coexist with operational fragility and no demonstrated resource economy.
+
+The OIG counterevidence also shows that a recurring logistics plan is not a
+recurring logistics capability. Schedule delay, cost growth, provider bankruptcy,
+limited design control and unresolved crew-safety questions can interrupt the
+very infrastructure on which access, science, heritage protection and benefit
+sharing depend.
 
 ## Promotion decision
 
 **Tier 1 bounded finding:** Lunar activity is moving from exploration toward an operating governance problem, with commercial delivery and south-pole infrastructure planning becoming more concrete, but principles, missions and resource-use plans remain separate from fair access, heritage protection, environmental stewardship, liability, benefit sharing and durable legitimacy.
 
 **Tier 2 mechanism candidate:** The next high-value conversion is **lunar-activity-to-shared-access-heritage-protection-environmental-stewardship-and-benefit-legitimacy**. The strongest next acquisition is a named site/mission/operator chain linking location, resource, license or accord, safety zone, data, infrastructure, affected scientific/cultural interest, environmental indicator, liability rule, benefit recipient and later compliance or dispute outcome.
+
+Add commercial-dependency fields: contract, provider, design control, schedule,
+cost change, vendor solvency, testing, crew override, mission outcome, data,
+site access, heritage/environmental safeguard and benefit recipient.
 
 ## Sources
 
@@ -61,4 +81,6 @@ An Artemis Accords signature, mission, landing, resource prospect, extraction de
 - NASA, [Commercial Lunar Payload Services current scale and contracts](https://www.nasa.gov/commercial-lunar-payload-services/)
 - NASA Science, [Mission record including Blue Ghost 1 and IM-2 outcomes](https://science.nasa.gov/moon/missions/)
 - NASA, [Moon Base cargo landers and technology demonstrations](https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/)
+- NASA OIG, [Commercial lander services and oversight](https://oig.nasa.gov/news/examining-the-commercial-lander-services-powering-nasas-return-to-the-moon/)
+- NASA, [Moon Base phased plan](https://www.nasa.gov/reference/moonbase-about/)
 

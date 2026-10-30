@@ -3719,6 +3719,14 @@ The JX follow-up adds **biofertilizer-research-transfer-to-quality-production-st
 
 The JX evidence adds **biological-input-capability-to-local-control-quality-assurance-affordable-use-and-context-specific-field-performance** as a separate conversion question. The next ledger should preserve strain ownership, producer, carrier, viability, soil/crop context, storage, advisory, price, farmer choice, yield, income, environmental effect and repeat use rather than treating local production or registration as the endpoint.
 
+355. **An Artemis Accord, lunar mission, CLPS contract, south-pole site plan, commercial provider count, Moon Base phase, successful landing or resource prospect is not by itself reliable lunar infrastructure, shared access, heritage protection, environmental stewardship, liability clarity or benefit legitimacy.** NASA OIG reports CLPS delays averaging at least 14 months, a $208.2 million cost increase, vendor financial pressure, limited NASA control over commercial lander systems and remaining testing/crew-survival gaps; NASA’s phased Moon Base plan remains a strategic horizon rather than proof of delivery.
+
+The KA follow-up adds **lunar-commercial-procurement-to-reliable-scheduled-safe-accessible-infrastructure-and-shared-governance** as a separate conversion question. The evidence closes procurement scale, operational planning, commercial dependency and staged infrastructure intent, but no public source here closes provider resilience, mission cadence, site access, heritage/environmental safeguards, liability or benefit distribution.
+
+356. **A staged infrastructure plan can create path dependence before the governance system is mature.** Recurring landers, power, mobility, communications and site assessment can improve safety and science, but the actors who control contracts, data, design standards and high-value locations may also establish practical access rules for later participants before multilateral principles become binding.
+
+The KA evidence adds **lunar-infrastructure-sequencing-to-path-dependence-open-access-heritage-reversibility-and-distributive-benefit** as a separate conversion question. The next ledger should track who controls the contract, site, data, safety zone, infrastructure and dispute process at each phase rather than treating sequencing as neutral implementation.
+
 ## What the evidence does not support
 
 Do not claim that:
