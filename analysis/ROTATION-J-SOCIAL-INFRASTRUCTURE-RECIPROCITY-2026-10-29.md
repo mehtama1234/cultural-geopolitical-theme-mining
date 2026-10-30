@@ -28,6 +28,39 @@ need or isolation
 | SOC-004 | [Neighborhood social cohesion and homebound status study](https://pmc.ncbi.nlm.nih.gov/articles/PMC12318369/) | In a 2022–23 older-adult study, higher perceived neighborhood social cohesion was associated with lower odds of being homebound; favorable cohesion changes were associated with higher odds of recovery from homebound status the following year | Place-level association and temporal change observed |
 | SOC-005 | [CDC social-connectedness guidance](https://www.cdc.gov/social-connectedness/promoting/index.html) | CDC defines social connectedness as a social determinant of health that can affect individual wellbeing and communities | Institutional/social-health framing observed |
 
+## Named-case refresh
+
+6. In flood-affected Lundazi and Lumezi, Zambia, community-based volunteers
+   moved door to door with hygiene information, child-malnutrition monitoring
+   and malaria identification. UNICEF names volunteer Christine Zulu and a
+   household that received oral-rehydration guidance after flood-related
+   diarrhoea; UNICEF reports that trained volunteers helped reach more than
+   45,000 people. This closes a need-to-household-help route, while the record
+   does not establish volunteer compensation, repeat reliability, referral
+   completion or whether the household could sustain safe water and sanitation.
+7. Cambodia's Community Accountability Facilitators show social infrastructure
+   as a feedback-and-service bridge rather than only companionship. The World
+   Bank reports more than 4,100 local facilitators operating in 1,043 communes
+   and sangkats, with reported cleaner schools, shorter clinic waits and more
+   responsive commune offices. The named case of landmine survivor Ma Sopheap
+   makes the route visible; independent attribution, facilitator workload,
+   representativeness and durability remain open.
+8. The UK's Community Ownership Fund evaluation describes community assets as
+   social infrastructure supporting connection and wellbeing. One heritage site
+   relied on older volunteers for bereavement support, a dementia café and home
+   visits, and the evaluation reports short-term benefits for volunteer and user
+   connectedness. This is a place-and-asset route with delivered support, but it
+   also exposes a reciprocity risk: the same older volunteers can carry the
+   burden, and short-term asset survival is not long-term service adequacy.
+9. A CDC-evaluated LINKS model on the US–Mexico border connected clinic-based
+   and community-based health workers for six months of monthly needs assessment,
+   support and resource linkage; among 189 participants, social support,
+   hopefulness and quality-of-life scores increased significantly. The study
+   closes a recipient-level support and wellbeing route, while implementation
+   notes document barriers: participants sometimes did not answer calls from
+   unfamiliar numbers, and community health workers faced institutional and
+   technology constraints. This preserves both outcome and burden evidence.
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |

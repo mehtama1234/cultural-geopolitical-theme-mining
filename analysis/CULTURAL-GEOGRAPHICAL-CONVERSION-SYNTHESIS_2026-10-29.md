@@ -2492,6 +2492,18 @@ across 83 municipalities. These cases move beyond sentiment to route and
 resource, but the conversion remains open until recommendations, budgets,
 feedback, nonparticipant experience and durable agenda power are joined.
 
+The J refresh adds four delivered-support cases. Zambia's flood volunteers
+translate household visits into hygiene, child-health monitoring and a named
+family's immediate recovery; Cambodia's 4,100 Community Accountability
+Facilitators connect citizen feedback to cleaner schools, shorter clinic waits
+and more responsive offices; the UK's community-asset evaluation shows
+bereavement, dementia and home-visit support alongside older-volunteer burden;
+and the US–Mexico border LINKS model reports improved wellbeing for 189
+participants while documenting unfamiliar-call, technology and institutional
+barriers. The cases sharpen the conversion test: count not only network size,
+but reach, help received, adequacy, reliability, worker burden, reciprocity and
+what persists after funding or crisis support ends.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
