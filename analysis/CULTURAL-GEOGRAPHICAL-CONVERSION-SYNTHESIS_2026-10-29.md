@@ -3615,6 +3615,14 @@ The KF follow-up adds an **SRM-research-to-public-assessment-reversible-experime
 
 The KF evidence adds **experiment-scale-classification-to-proportionate-regulation-public-legitimacy-and-cross-border-accountability** as a separate conversion question. The next acquisition should record the actual material release, persistence, affected region, regulator, assessment, participation, monitoring, exit condition and remedy for each named experiment rather than infer safety from its label or budget.
 
+329. **A care robot, LLM companion, rental model, home-retention endpoint, cross-cultural acceptability study, lower response latency or improved usability score is not by itself sustained older-person autonomy, reduced loneliness, caregiver relief, relational care, privacy, safety, equitable access or cultural legitimacy.** The UK–Japan study finds possible low-intensity support but focuses on acceptability rather than efficacy; the technical refinement study improves latency and usability while companionship remains limited; and the Japanese 12-week registry remains an outcome design rather than a result.
+
+The KC follow-up adds a **care-robotics-to-technical-usability-relational-experience-caregiver-effect-and-person-centred-outcome** distinction. The evidence closes a cross-cultural acceptability stage and shows that smoother interaction is separable from companionship, but no public source here closes durable use, loneliness reduction, human-contact preservation, caregiver burden, clinical outcome, privacy or repair across care geographies.
+
+330. **A UK–Japan comparison, culturally adapted dialogue, older-adult focus group, mild-cognitive-impairment home deployment or user-agency finding is not by itself representative cultural transfer, safe inclusion for dementia or sensory-impaired people, affordable access, consent under unequal power or accountable behavioral-data governance.** Context shapes what “companion,” “care,” “privacy” and “acceptable substitution” mean; a small cross-site study can reveal difference without estimating population effects.
+
+The KC evidence adds **care-technology-acceptability-to-cultural-fit-language-disability-access-data-control-human-fallback-and-local-care-legitimacy** as a separate conversion question. The next ledger should retain site, language, disability, household, care-worker and provider context and should measure not only use but the ability to refuse, stop, repair, contest and preserve human relationships.
+
 ## What the evidence does not support
 
 Do not claim that:
