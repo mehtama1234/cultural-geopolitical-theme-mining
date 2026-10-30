@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–II
+**Date:** 2026-10-30; refreshed through Rotations D–IJ
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3262,6 +3262,10 @@ The IH packet adds **digital-agriculture-delivery-to-locally-trusted-farmer-deci
 240. **Care-worker recruitment, migration, shortage estimates, training, social-protection policy, resource centres or bilateral pathways are not by themselves safe work, fair pay, care quality, portable protection, family security or worker voice.** A destination can fill a care gap while excluding domestic workers from labor law; a training programme can coexist with long hours and low pay; and a portability scheme can exist without a worker’s received claim.
 
 The II packet adds **care-migration-recruitment-to-decent-portable-work-and-reciprocal-care-security conversion** with a source boundary around care demand, recruitment, fee, contract, status, housing, hours, pay, training, safety, care recipient, complaint, social-protection contribution/claim, health/injury, remittance, family care, return and portability. ILO supplies global care/domestic-work scale and informality, migrant-care dependence, Kenya disability-care conditions, Malaysia coverage, South Asia–GCC portability gaps, Thailand demand and ASEAN resource-centre evidence. These close workforce, legal, policy, corridor and remedy-infrastructure stages, but no public source here closes a comparable worker–care recipient–family chain through rights, care quality and durable security.
+
+241. **Insurance enrollment, coverage, premium subsidy, weather index, trigger, payout report or risk-pool architecture is not by itself accurate loss protection, received money, adequacy, food security, debt relief, recovery or future investment.** A trigger can miss a farmer’s actual loss; data can be too weak to calibrate the index; and insurance cannot replace physical-risk reduction or social protection.
+
+The IJ packet adds **smallholder-climate-insurance-to-accurate-timely-payout-and-recovery conversion** with a source boundary around hazard, crop/livestock exposure, awareness, eligibility, premium, subsidy, data, trigger, claim, payout timing/amount, basis risk, dispute, food, debt, inputs, harvest, income, investment, trust and repeat resilience. World Bank supplies West Africa scale, index-investment evidence limits, Zambia payout, product-design and Central America data cases; IFAD supplies Kenya trust, toolkit and co-design evidence; UNFCCC supplies insurance/adaptation and risk-pooling boundaries. These close coverage, design, payout, trust, data and pooled-risk stages, but no public source here closes a comparable same-farmer chain through actual loss, received adequacy, household decision and durable recovery.
 
 ## What the evidence does not support
 
