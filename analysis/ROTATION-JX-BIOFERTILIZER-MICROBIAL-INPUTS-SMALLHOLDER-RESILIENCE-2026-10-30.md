@@ -27,6 +27,9 @@ strain/product / carrier / farm context / input market
 | JX6 | European Commission analysis reports that only four microorganism groups were on the EU fertilising-products positive list at the cited time, with assessment delays and products often marketed under national rules or exported rather than made available to EU farmers. | Regulatory bottleneck and access gap. | Consumer/farmer outcomes, causal effect of regulation or global comparability. |
 | JX7 | World Bank’s 2025 Ethiopia case reports smallholder soil-health training, vermicomposting, integrated pest management and observed improvements in soil structure, nutrient availability, maize yields and resilience. | Named place-based soil-health and livelihood pathway. | Attribution to biofertilizers specifically, durability, scale, cost or replication. |
 | JX8 | World Bank analysis identifies low fertilizer use among Ethiopian smallholders, high fertilizer import dependence and potential for biofertilizer production, organic waste processing and community compost hubs. | Input-dependence and local-production opportunity. | Commercial viability, product quality, farmer adoption, yield or equitable ownership. |
+| JX9 | India’s ICAR-NBAIM transferred three named biofertilizer technologies—BioNPK, BioGrow and BioPhos—to a private producer in August 2026 for commercial production and wider farmer dissemination. | Named research-to-commercial transfer and national capability pathway. | Product viability, field performance, price, distribution, farmer adoption, quality control or income. |
+| JX10 | A 2026 joint MDB/IFI statement identifies fertilizer supply-chain shocks affecting smallholders and combines supply resilience with soil diagnostics, precision nutrient management, advisory services, diversified nutrient sources, natural-capital restoration and finance. | Systems-level input-resilience and policy portfolio. | Biofertilizer-specific effect, farm-level yield, affordability, local ownership or reduced import dependence. |
+| JX11 | Brazil’s agriculture ministry lists updated 2026 rules and registration/inspection procedures covering fertilizers, inoculants, biofertilizers, remineralizers and plant substrates, including viability and agronomic-efficiency requirements for new products. | Named national regulatory and quality-control infrastructure. | Enforcement consistency, product quality in markets, farmer access, field performance or environmental outcome. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -36,15 +39,32 @@ Performance varies by geography. A strain that works in one soil, crop or climat
 
 The geopolitical opportunity is input sovereignty. Locally produced compost, inoculants and bio-based fertilizers could turn agricultural waste into rural employment, reduce foreign-exchange exposure and strengthen climate resilience. But local production requires quality control, strain access, training, testing and trusted extension. Without those institutions, biological-input markets can produce false claims, inconsistent outcomes and new dependence on proprietary formulations.
 
+The new India, MDB and Brazil evidence shows that input sovereignty is an
+institutional stack rather than a product launch. Technology transfer requires a
+producer, quality testing, registration, extension, storage and distribution;
+fertilizer resilience requires finance, diagnostics, advisory services and
+multiple nutrient sources; and a national bioinput law still requires field
+enforcement. These stages can move at different speeds.
+
 ## Counterexample and source boundary
 
 An inoculant, microbial strain, product authorization, positive-list entry, demonstration plot, market-development plan, training session, compost hub or yield claim is not by itself reliable field performance, affordable access, food security, safe ecology, farmer income, local ownership or durable reduction in mineral-fertilizer dependence. A product can work in trials but fail in storage; a soil-health practice can improve yields without proving causality for the product; and regulatory delay can restrict access without proving that faster approval would be safe.
+
+A public technology transfer or national registration pathway can expand option
+value without showing that a farmer received a viable product at planting time,
+used it correctly, obtained a yield or income benefit, and could continue without
+external technical or financial dependence.
 
 ## Promotion decision
 
 **Tier 1 bounded finding:** Biofertilizer products, microbial authorizations, demonstration plots, soil-health training, positive lists and market-development promises are not by themselves reliable yields, affordable smallholder inputs, safe ecological outcomes, farmer income or reduced input dependence.
 
 **Tier 2 mechanism candidate:** The next high-value conversion is **biofertilizer-development-to-reliable-yield-affordable-smallholder-inputs-soil-resilience-and-local-input-sovereignty**. The strongest next acquisition is a named product/strain/farm/community chain linking soil and crop baseline, carrier/storage, application, regulation, price, extension, microbial viability, yield, nutrient use, ecological effect, farmer income and later adoption or import dependence.
+
+Add technology-transfer and systems fields: producer, registration, quality test,
+viability at sale and application, diagnostics, advisory contact, financing,
+distribution timing, farmer choice, yield, cost, income, ecological effect and
+repeat adoption.
 
 ## Sources
 
@@ -56,3 +76,6 @@ An inoculant, microbial strain, product authorization, positive-list entry, demo
 - European Commission, [Microbial-plant-biostimulant regulatory assessment](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1787096219397&uri=CELEX:52025SC0531)
 - World Bank, [Ethiopia soil-health and farming livelihoods](https://www.worldbank.org/en/news/feature/2025/08/19/in-ethiopia-reviving-soil-and-improving-farming-livelihoods)
 - World Bank, [Ethiopia biofertilizer and smallholder opportunity](https://documents1.worldbank.org/curated/en/099101524090542222/pdf/P179405-f286606a-01ab-4c99-88aa-e6b97a6e6a75.pdf)
+- ICAR, [Transfer of three biofertilizer technologies for commercial production](https://icar.gov.in/en/icar-nbaim-mau-transfers-three-biofertilizer-technologies-bhumicrogen-agrinoculants-commercial)
+- World Bank and MDBs, [2026 joint statement on fertilizer-supply-chain resilience](https://www.worldbank.org/en/news/statement/2026/08/31/joint-statement-by-the-multilateral-development-banks-and-international-financial)
+- Brazil Ministry of Agriculture, [Fertilizer, inoculant and biofertilizer registration and inspection rules](https://www.gov.br/agricultura/pt-br/assuntos/insumos-agropecuarios/insumos-agricolas/fertilizantes/legislacoes)

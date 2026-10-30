@@ -3711,6 +3711,14 @@ The JV follow-up adds **medical-travel-right-to-navigable-referral-upfront-payme
 
 The JV evidence adds **cross-border-treatment-choice-to-home-system-capacity-household-burden-and-shared-accountability** as a separate conversion question. The next ledger should preserve patient reason for travel, language, financing, destination and home providers, workforce effects, records, complication, remedy and local access rather than treating mobility or procedure volume as benefit.
 
+353. **A microbial strain, technology transfer, registration, positive-list entry, soil-health demonstration, fertilizer-resilience portfolio or producer partnership is not by itself viable planting-time access, reliable yield, affordable input, farmer income, safe ecology or reduced import dependence.** India’s ICAR transferred three named technologies for commercial production; the MDBs frame fertilizer resilience as a combined supply, diagnostics, advisory, finance and soil-health problem; and Brazil’s updated registration infrastructure includes viability and agronomic-efficiency requirements, but none of these sources closes the farmer pathway.
+
+The JX follow-up adds **biofertilizer-research-transfer-to-quality-production-storage-distribution-farmer-use-yield-income-and-input-sovereignty** as a separate conversion question. The evidence closes national capability, policy portfolio and regulatory-quality stages, but no public source here closes product viability at application, price, extension, repeat adoption, ecological effect or household food-security outcome.
+
+354. **Input sovereignty is not achieved by replacing a mineral-fertilizer import with a proprietary microbial product.** Local biological production can create rural employment and reduce foreign-exchange exposure, but it may still depend on external strains, quality systems, testing, finance, equipment, advisory knowledge and market access; conversely, a local compost or inoculant pathway can improve agency without proving consistent agronomic performance.
+
+The JX evidence adds **biological-input-capability-to-local-control-quality-assurance-affordable-use-and-context-specific-field-performance** as a separate conversion question. The next ledger should preserve strain ownership, producer, carrier, viability, soil/crop context, storage, advisory, price, farmer choice, yield, income, environmental effect and repeat use rather than treating local production or registration as the endpoint.
+
 ## What the evidence does not support
 
 Do not claim that:
