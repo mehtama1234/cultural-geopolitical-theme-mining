@@ -568,6 +568,10 @@ and are not promoted as facts.
 
 | [AI data-centres/grid-water/local legitimacy rotation](ROTATION-LR-AI-DATA-CENTRES-GRID-WATER-LOCAL-LEGITIMACY-2026-10-30.md) | AI/data centres/electricity/grid/water/land/cooling/transmission/backup/generation/affordability/reliability/large loads/bring-your-own-power/flexibility/digital sovereignty/local communities/planning/consent/tax/jobs/renewables/US/Australia/Ireland/NSW/UK/IEA/UNECE/CRU/IPART/Julius Avenue/First Nations | medium; IEA 2026 demand acceleration, 34-jurisdiction policy scan and concentration evidence, UNECE grid/water/land/local-community risk frame, Infrastructure Australia energy-water planning scenario, Ireland connection/additionality rule, NSW cost-recovery/water-pricing framework, UK local-benefit covenant, Julius Avenue public-meeting case and Australian water/community expectations | global acceleration, policy toolkit, concentration, grid resilience, affordability, additionality, cost recovery, local-benefit, public-process and host-place risk stages | named facility/cluster, siting, permit/hearing, power/water demand, connection/upgrade cost, tariff/rate base, backup emissions, jobs/tax/services, objections, mitigation, reporting, benefit allocation, consent, decision influence and post-operation reliability | Tier 1 bounded distinction plus Tier 2 AI-data-centre-to-grid-water-affordability-and-local-legitimacy question |
 
+### Latest packet supplements
+
+- [AI weather forecasting packet](ROTATION-KK-AI-WEATHER-FORECASTING-EARLY-WARNING-EQUITY-2026-10-30.md) now includes WMO’s authoritative-NMHS, end-to-end warning-cycle and cross-system verification standard; this closes governance/verification framing, not household warning receipt or protective action.
+
 ## Decision
 
 The research program has moved from broad discovery to **promotion-controlled

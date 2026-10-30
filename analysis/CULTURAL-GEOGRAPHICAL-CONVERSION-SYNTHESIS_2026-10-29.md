@@ -3823,6 +3823,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 402. **A service-provider pipeline is closer to smallholder capability than an equipment award, but it is still not farmer-level access.** Named providers, off-takers, finance and a smallholder cohort close an operating ecosystem; booking, price, timing, uptime, repair, gendered reach, income and post-support continuity remain the decisive conversion.
 
+403. **Public authority over warnings is a distinct form of forecast sovereignty.** A model can be open, efficient or skillful while a national service still lacks the observations, staff, review power, data rights and resources needed to challenge, explain and translate it into an accountable local action.
+
 ## What the evidence does not support
 
 Do not claim that:

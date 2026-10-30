@@ -36,6 +36,7 @@ observations / reanalysis / physics model / AI model
 | KK15 | WMO’s 2026 WISER ActionFirst initiative says forecasts often fail to trigger early action and is working across 25 Eastern and Southern African countries on co-produced information, national roadmaps and formal early-action protocols. | Regional forecast-to-action and co-production architecture. | AI-specific contribution, household receipt/comprehension, actual trigger compliance, avoided loss or distributional outcomes. |
 | KK16 | WMO’s July 2026 Malawi learning account says DCCMS is validating AI forecasts alongside conventional numerical prediction for local conditions and high-impact rainfall, while emphasizing observations, skilled forecasters, policy and sustained investment. | Named local validation and institutional-capacity requirement. | Public comparative scores, warning reach, household action, maintenance financing or long-run service continuity. |
 | KK17 | WMO’s 2026 developing-country NMHS consultation frames AI governance around institutional trust, authority, data stewardship, equitable access and public/private roles rather than model performance alone. | Geopolitical governance and forecast-sovereignty concerns. | Binding governance outcomes, local control over models/data, procurement terms or measurable equity. |
+| KK18 | WMO’s 2026 AI framework says AI should support the full warning value cycle but that NMHSs must remain the authoritative source of public warnings; it calls for comparing AI, physics-based and hybrid systems on skill, physical consistency, robustness and performance across regions/events. | Explicit authority, verification and end-to-end service standard. | Whether authority is respected in practice, whether benchmarks change procurement, local warning reach, household action or cross-border data/control terms. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -80,4 +81,5 @@ The new evidence adds a second boundary: a regional action protocol or co-produc
 - WMO, [WISER ActionFirst in Africa](https://wmo.int/media/project-update/strengthening-early-warnings-across-eastern-and-southern-africa-through-wiser-actionfirsttm-africa)
 - WMO, [Malawi AI forecasting and early-warning learning session](https://wmo.int/media/news/key-takeaways-from-learning-session-ai-forecasting-climate-services-and-early-warning-malawis)
 - WMO, [Developing-country NMHS consultation on equitable AI access](https://extranet.wmo.int/edistrib_exped/grp_has/_zh/6741466-2026-DPPD-PSPE_zh.pdf)
+- WMO, [Artificial intelligence in weather, climate and water services](https://wmo.int/themes/artificial-intelligence)
 
