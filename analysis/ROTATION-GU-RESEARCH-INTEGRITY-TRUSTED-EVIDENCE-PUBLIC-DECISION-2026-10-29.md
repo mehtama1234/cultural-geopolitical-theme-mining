@@ -143,6 +143,83 @@ language, community participation, conflicts, incentives, AI disclosure,
 reviewer independence, time to correction and whether affected people could
 contest or benefit from the result.
 
+## Named evidence-to-decision and correction refresh
+
+### 7. WHO Solidarity: adaptive international evidence with explicit stopping rules
+
+WHO's Solidarity Therapeutics trial randomized 11,330 adults at 405 hospitals
+in 30 countries and used a global data and safety monitoring structure. The
+interim results found little or no effect on mortality, ventilation or hospital
+stay for the first four evaluated regimens, and unpromising arms could be
+stopped while new treatments were added. WHO describes the trial as a way to
+produce robust, internationally relevant evidence during an emergency while
+keeping local monitoring and central oversight separate.
+
+This closes a strong research-practice-to-policy mechanism: adaptive design,
+large multi-country participation, monitoring and explicit discontinuation can
+prevent an ineffective treatment from being treated as successful. It does not
+establish equal site capacity, patient understanding, subgroup equity, local
+language communication, post-trial access or that every later clinical decision
+was correctly applied to the relevant population.
+
+Source: [WHO, Solidarity interim results](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov/solidarity-clinical-trial-for-covid-19-treatments/interim-results).
+
+### 8. RECOVERY dexamethasone: a named trial with a material clinical effect
+
+The RECOVERY trial's 2024–25 EU report describes 6,425 randomized hospitalized
+patients in 176 UK hospital organizations. Dexamethasone reduced 28-day
+mortality from 25.7% under usual care to 22.9%, with the largest effect among
+patients receiving invasive ventilation; it also shortened median
+hospitalization by one day and increased discharge alive. WHO subsequently
+identified corticosteroids as the treatment with demonstrated mortality benefit
+for severe disease.
+
+This is a positive conversion case from protocol and randomization through a
+clinically consequential result and guideline-relevant use. It does not prove
+that the result transferred equally across health systems, that patients
+understood treatment, that supply and prescribing were equitable, or that
+subgroups outside the trial received a benefit. A statistically strong result
+still requires implementation, communication and monitoring.
+
+Source: [RECOVERY, annual safety report and trial results](https://www.recoverytrial.net/files/recovery-eu-asr-1-2025.pdf).
+
+### 9. Surgisphere: retraction after publication shows correction can lag public action
+
+The Lancet's 2020 multinational registry analysis of hydroxychloroquine was
+published using an alleged Surgisphere dataset and then retracted after the
+authors could not complete an independent audit. WHO had temporarily halted
+the hydroxychloroquine arm of its Solidarity trial while the evidence was
+reviewed. The episode prompted a Lancet examination of peer-review and data-
+integrity safeguards.
+
+This is a named counterexample to publication-plus-peer-review as a completed
+trust chain. It closes the possibility of visible correction and institutional
+learning, but not the time, scope and cost of downstream harm, the number of
+clinical or policy decisions affected, or whether all users of the original
+claim encountered the retraction with equal visibility. A retraction is a
+remedy signal, not a time machine.
+
+Sources: [Lancet, learning from the retraction](https://www.thelancet.com/article/S0140673620319589/pdf) and [PubMed expression of concern and retraction links](https://pubmed.ncbi.nlm.nih.gov/32504543/).
+
+### 10. Reproducibility Project: Cancer Biology: open replication exposed the gap between publication and robustness
+
+The Center for Open Science reports an eight-year Reproducibility Project that
+attempted to replicate experiments from 53 high-impact cancer-biology papers.
+Its registered protocols were peer-reviewed before data collection, and data,
+code and materials were made openly available. Of 193 planned experiments, 50
+from 23 papers were completed; the project reports replication effect sizes
+that were 85% smaller on average than original findings, with 46% of effects
+meeting more replication criteria than they failed.
+
+This closes a valuable integrity mechanism: preregistration, independent
+replication, open materials and outcome-neutral publication can reveal how
+fragile a published evidence base is. It does not establish that every original
+finding was false, that replication criteria map directly to clinical value, or
+that the corrected evidence reached patients, funders or policy-makers. It also
+shows that transparency has cost, time and reagent-access requirements.
+
+Source: [Center for Open Science, Reproducibility Project: Cancer Biology](https://www.cos.io/rpcb).
+
 ## Source boundary
 
 The official record is strong for integrity principles, institutional duties,

@@ -2627,6 +2627,19 @@ registration. They do not establish comprehension, correction, equitable
 service, clinical or family benefit, withdrawal in practice, community control,
 remedy or durable trust.
 
+The GU refresh adds a named evidence-to-decision contrast set. WHO's Solidarity
+trial demonstrates adaptive multi-country monitoring and stopping of
+unpromising treatment arms; RECOVERY reports a clinically material dexamethasone
+effect that informed treatment guidance. The Surgisphere hydroxychloroquine
+retraction shows publication and peer review can precede integrity correction
+and real-world action. The Reproducibility Project: Cancer Biology uses
+registered protocols, open materials and independent replication to show much
+smaller effects than original findings. These close parts of adaptive design,
+clinical outcome, correction, replication and institutional learning. They do
+not establish equal implementation, subgroup benefit, user understanding,
+downstream harm accounting, policy reach, clinical transfer or durable public
+trust.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
