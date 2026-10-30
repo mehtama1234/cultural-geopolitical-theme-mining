@@ -3735,6 +3735,10 @@ The JZ follow-up adds **agricultural-robotics-and-mechanization-to-fit-finance-s
 
 The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-debt-gender-agency-and-rural-capability** as a separate conversion question. The next ledger should compare ownership, rental and service routes and record worker exposure, skill change, wages, unpaid labor, debt, machine downtime, farmer choice and exit alongside yield and revenue.
 
+359. **An AI forecast or warning can improve prediction while failing to trigger early action.** The conversion depends on co-produced interpretation, authoritative protocols, budgeted response capacity, accessible communication and a recipient’s ability to act; regional roadmaps and action-based forecasting close institutional design stages, not household protection or avoided loss.
+
+360. **Forecast equity includes authority over observations, models, uncertainty and public accountability, not only nominal access to a cheaper AI output.** National validation against local high-impact hazards can improve trustworthiness, but it does not by itself prove comparative skill, warning reach, action, maintenance or durable control by the communities and public agencies exposed to risk.
+
 ## What the evidence does not support
 
 Do not claim that:
