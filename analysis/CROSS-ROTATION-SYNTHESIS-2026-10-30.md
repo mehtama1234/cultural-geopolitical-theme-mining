@@ -138,6 +138,26 @@ behavioral claim is made.
 | Material result | Some payouts, approvals, transfers, connections, deployments, repairs and measured technical outcomes | Adequacy, affordability, health, food, income, safety and durable recovery |
 | Meaning/power | Voice, consent, trust, identity, cultural fit, refusal, dependence and strategic framing | Whether meaning predicts repeat use, cooperation, switching, deterrence or policy durability |
 
+## Latest evidence convergence
+
+The newest rotations do not create a new universal trend; they sharpen where
+the conversion chain breaks. They also show that the same formal capability can
+be simultaneously useful for one unit and exclusionary for another.
+
+| Latest lane | What the new evidence closes | What remains open | Next acquisition |
+|---|---|---|---|
+| Digital identity and G2P payments | Wallet standards, biometric inclusion gaps, payment-system scale, layered payment options, cash-plus results and grievance architecture | Same person’s proofing/payment, fees, control, real value, service receipt, correction and repeated security | Join identity, payment, account, recipient and service records across two or more cycles |
+| Climate relocation and disability-inclusive warnings | Displacement scale, relocation finance/consultation, warning-to-action gap, multichannel operation, child-risk mapping and inclusion principles | Choice to stay/move, impairment-specific receipt, transport, shelter, medication, land, host capacity and post-event continuity | Named household/community hazard ledger from warning or relocation decision through action, service continuity and recovery voice |
+| Informal food markets and energy insecurity | Healthy-diet cost, value-chain bottlenecks, market-price shocks, food-safety governance, utility events, cooling demand and policy targeting | Same household’s purchase/temperature, food/medicine trade-off, safety, health, vendor livelihood, bill, reconnection and remedy | Pair market/utility event data with household purchase, indoor-condition, health and repeated-use records |
+| AI, humanitarian action and linguistic sovereignty | Human-validation, data-commons, representation, consent, pilot and humanitarian/military governance boundaries | Community control, model error, civilian protection, safe service, benefit sharing, correction and remedy | Name one community/person and trace data or model exposure through decision, service, refusal, correction and outcome |
+| Place and legitimacy | Local forums, relocation consultations, infrastructure, cultural and public-language mechanisms | Whether participation changes terms, authority, burden distribution, trust or durable acceptance | Compare a recorded decision term before/after participation with post-operation community response |
+
+**Synthesis finding:** the highest-value next evidence is not another policy
+inventory. It is a joined, dated ledger in which a named person, household,
+vendor, community or facility crosses at least two operational stages and the
+record preserves a failed, excluded or counterexample unit alongside the
+successful one.
+
 ## Strongest open conversion lanes
 
 1. **Facility-to-household incidence:** AI/data-centre, transmission, water,

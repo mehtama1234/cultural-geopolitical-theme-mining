@@ -9,7 +9,7 @@ quality snapshot, not a claim that the substantive evidence is complete.
 | Check | Result | Interpretation |
 |---|---:|---|
 | CSV files under `analysis/` | 311 | Includes packet ledgers and older control/audit tables. |
-| CSV data rows | 2,342 | Counts exclude headers and do not imply comparable units. |
+| CSV data rows | 2,347 | Counts exclude headers and do not imply comparable units. |
 | Files with internally inconsistent row widths | 0 | Every CSV has a consistent width within its own file. |
 | Registered Markdown packet links | 336 | The register contains repeated links across its historical and current sections. |
 | Unique registered packet paths | 306 | Deduplicated path count. |
