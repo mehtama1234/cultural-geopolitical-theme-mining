@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IV
+**Date:** 2026-10-30; refreshed through Rotations D–IW
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3314,6 +3314,10 @@ The IU packet adds **conflict-pressure-to-safe-sacred-access-living-heritage-and
 253. **A shutdown order, network measurement, platform block, bandwidth restriction, VPN ban, election warning, legal safeguard or restoration announcement is not by itself civic exclusion, household harm, service failure, electoral distortion, humanitarian loss, misinformation increase, compensation or durable distrust.** A shutdown may be bypassed by some users and devastating for others; restoration may return connectivity without restoring lost income, safety or evidence.
 
 The IV packet adds **internet-disruption-to-civic-service-household-and-humanitarian-continuity conversion** with a source boundary around place/cohort/incident, order, network, duration, geography, language, device, service, information, substitution, income, health, education, safety, political participation, complaint, court review, restoration and recovery. UNESCO supplies the current global trend and information/service mechanism; OHCHR supplies legal, proportionality, notice and redress requirements plus Myanmar, Rakhine/Chin, India and Tanzania monitoring evidence; UN reporting supplies the election pathway. These close trend, safeguards, election, conflict, health/humanitarian, minority-region and media stages, but no public source here closes a comparable user-level chain through service loss, household effect, recovery and durable trust.
+
+254. **A data-localization rule, sovereign-cloud project, cross-border data agreement, digital-identity connection, interoperability standard or data-sharing mandate is not by itself privacy, security, local value, affordable service, user consent, cross-border continuity or durable trust.** Formal interoperability can coexist with low operational use; local storage can coexist with weak governance; and cross-border openness can coexist with extraction or surveillance.
+
+The IW packet adds **data-sovereignty-policy-to-trusted-interoperable-public-service-and-user-control conversion** with a source boundary around jurisdiction/service/user, data category, legal rule, storage/processing, consent, identity, transfer, institution, cost, delay, error, access, privacy, local capability, correction, revocation and cross-border outcome. OECD/WTO supplies the global regulatory tension, localization prevalence, cost/resilience and trusted-flow evidence; OECD supplies public-service interoperability, cross-border identity, ASEAN divergence and consent architecture; World Bank supplies West African cross-border infrastructure. These close policy, prevalence, cost, public-service, identity, regional, infrastructure and governance stages, but no public source here closes a comparable user-level chain through privacy, service reliability, local capability, correction and cross-border outcome.
 
 ## What the evidence does not support
 
