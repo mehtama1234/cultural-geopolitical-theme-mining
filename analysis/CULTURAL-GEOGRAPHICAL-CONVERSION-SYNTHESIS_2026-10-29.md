@@ -2591,6 +2591,18 @@ governance and procedural route design. They do not establish representative
 error rates, restored reach, safety, trust, livelihood, retaliation reduction,
 timely remedy or durable multilingual civic agency.
 
+The GV refresh adds a maturity-graded science-diplomacy set. SESAME provides an
+operating shared facility across Middle Eastern political divides, with Iraqi
+associate membership and reported proposals from 45 countries; ICTP provides a
+long-running education-to-alumni-capability pathway. CERN's Open Quantum
+Institute is an inclusive SDG-oriented design still in pilot, while UNESCO's
+Levant project explicitly remains ongoing with 0% progress and no incurred
+expenditure at its portal benchmark. These close parts of shared-facility
+operation, training, membership, use-case agenda design and geographic
+boundary-setting. They do not establish equal access, local autonomy, public-
+good delivery, crisis communication, community benefit or durable geopolitical
+trust and policy change.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and

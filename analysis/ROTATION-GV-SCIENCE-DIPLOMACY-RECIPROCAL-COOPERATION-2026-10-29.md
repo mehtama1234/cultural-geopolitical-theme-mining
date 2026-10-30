@@ -144,6 +144,78 @@ policy behaviour. Record who could set the agenda, who retained the data and
 infrastructure, what local capability remained after funding, and whether the
 relationship survived a political shock.
 
+## Named facility, capability and regional-trust refresh
+
+### 7. SESAME: an operating shared facility across political divides
+
+SESAME is an intergovernmental synchrotron in Jordan established under
+UNESCO's auspices and modelled partly on CERN. Its full members include
+Cyprus, Egypt, Iran, Israel, Jordan, Pakistan, Palestine and Türkiye. CERN
+reports that the facility opened to users in 2017, Iraq later joined as an
+associate member, and an initial Iraqi proposal linked the Natural History
+Museum in Iraq with the British Museum to study geological formations. A 2025
+SESAME publication reports more than 1,000 proposals from 45 countries and
+growing peer-reviewed output.
+
+This closes more than a meeting: it shows a shared facility, membership
+architecture, access and scientific output operating across geopolitical
+divides. It does not establish equal beam-time access, local retention of
+skills, national research autonomy, community benefit, crisis use or a change
+in diplomatic behaviour. Output and cooperation are real, but trust and
+territorial public value remain separate measures.
+
+Sources: [CERN on SESAME and Iraq](https://home.cern/sesame-growing-focal-point-regional-scientific-collaboration/) and [SESAME 2025 operating results](https://sunstone.sesame.org.jo/news-events/nuclear-physics-news-features-sesame-science-without-borders/).
+
+### 8. ICTP: a long-running capability channel with alumni evidence
+
+UNESCO describes the International Centre for Theoretical Physics in Trieste
+as a joint UNESCO–Italy–IAEA initiative created in 1964 to strengthen scientific
+expertise, particularly where researchers lacked access to continuing
+education. UNESCO reports that over the decades ICTP provided scientists from
+developing countries with continuing education and skills, and that many alumni
+went on to teach at universities, lead research centres and contribute to
+science in their countries.
+
+This is a stronger capability signal than a one-off fellowship because it links
+training to alumni roles and institutional leadership over time. The public
+account still does not provide comparable country-level counterfactuals, funding
+and visa access, retention versus migration, agenda power, gender or language
+distribution, or evidence that alumni relationships altered later diplomacy.
+
+Source: [UNESCO, cooperation through science diplomacy](https://www.unesco.org/en/scientific-research-cooperation-why-collaborate-science-benefits-and-examples?hub=171411).
+
+### 9. Open Quantum Institute: inclusive global-public-good design before outcome
+
+CERN describes the Open Quantum Institute as a multilateral science-diplomacy
+initiative designed and incubated with about 180 experts from academia,
+technology, diplomacy, philanthropy and civil society. Its pilot focuses on
+SDG-related quantum-computing use cases in health, energy, climate, clean water
+and food security, with an explicit ambition to include underserved regions.
+
+This is a useful emerging-technology case because the problem selection and
+access question are built into the diplomatic design rather than added after
+deployment. It remains pre-outcome evidence: selected use cases, access
+arrangements, computational capability, local ownership, usable public goods
+and geopolitical trust have not yet been demonstrated at scale.
+
+Source: [CERN, Open Quantum Institute pilot](https://home.cern/open-quantum-institute-launches-its-pilot-phase-cern/).
+
+### 10. UNESCO Levant science-diplomacy project: geography and incompleteness are explicit
+
+UNESCO's project portal lists an ongoing 2026–2027 science-diplomacy project
+covering Syria, Jordan, Lebanon, Iraq and Palestine. Its stated purpose is to
+consolidate science-diplomacy capacity for peace, human rights and sustainable
+development; the portal reports a USD 4,614 budget, zero incurred expenditure
+and 0% progress at the stated benchmark.
+
+This is important negative evidence against premature success language. The
+project names a conflict-sensitive geography, youth and gender priorities, but
+the current record closes only intent, scope and administrative design. It does
+not establish participant access, safe contact, research output, local
+capability, public-good delivery, crisis communication or post-project trust.
+
+Source: [UNESCO Core Data Portal, Levant science-diplomacy project](https://core.unesco.org/en/project/A210293031).
+
 ## Source boundary
 
 The official record is strong for the rise of science diplomacy, its strategic
