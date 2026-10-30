@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–DO
+**Date:** 2026-10-29; refreshed through Rotations D–DP
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -1448,6 +1448,20 @@ needed, experienced less harassment or exclusion, retained livelihood and
 cultural access, influenced management, received remedy, or returned after
 maintenance and policing practices changed.
 
+121. **A night mayor, late-transit extension, cultural festival, nightlife
+district, lighting project, licensing reform, public-safety operation or 24-hour
+service is not by itself inclusive cultural life, safe mobility, decent night
+work, resident coexistence or a legitimate night-time economy.** Opening hours,
+venue counts, visitor spending, event attendance, job creation, patrols,
+complaints or a policy dialogue do not establish that named users completed
+safe affordable trips, workers received adequate rest, pay and remedy, women
+and minority groups could participate without harassment or surveillance,
+residents retained affordable and culturally meaningful use, informal workers
+were protected, or the operating model remained viable after promotional
+funding ended.
+
+The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -1484,7 +1498,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation DO.
+living goal. The current atlas baseline has been refreshed through Rotation DP.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
