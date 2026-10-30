@@ -66,6 +66,39 @@ standard / protocol / schema / API / certification / data-space rule
    least-developed economies are to capture value rather than merely comply
    with systems set elsewhere.
 
+## Named-case refresh
+
+7. Estonia's X-tee and its federation with Finland provide a concrete public
+   infrastructure case. The Estonian Information System Authority describes
+   members exchanging data under agreements, with the data owner retaining
+   control; the system supports examples such as police verification of a
+   driving licence and cross-border cooperation with Finland. This closes the
+   technical and governance mechanism, but the public record does not yet join
+   one resident's full service journey to accessibility, error correction,
+   switching cost or distributional benefit.
+8. Egypt's Ministry of Communications and Information Technology, Ministry of
+   Health and Population, Ministry of Finance and Universal Health Insurance
+   Authority launched a GovStack pilot for a citizen-engagement application.
+   The pilot used reusable identity, information-mediator and consent building
+   blocks. It is useful Global South evidence of a locally situated
+   interoperability experiment; because it is a pilot description, it does not
+   establish completed health access, trust, affordability or durable local
+   maintenance capability.
+9. Catena-X and Japan's Ouranos Ecosystem completed a proof of concept for
+   interoperable product-carbon-footprint data exchange for batteries. The
+   stated design allowed Japanese companies to use existing infrastructure
+   while connecting to an EU-oriented automotive data space for battery
+   regulation compliance. This is a named cross-border sovereignty mechanism,
+   but a proof of concept is not evidence that small suppliers can afford
+   compliance, contest data quality or switch providers.
+10. The World Bank's Moyale case shows why formal simplification must be tested
+    at the trader level. Kenya and Ethiopia agreed a Simplified Trade Regime,
+    then launched a six-month pilot with 50 traders to test higher thresholds,
+    more frequent crossings and simpler procedures. The pilot is an important
+    counterexample to treating a bilateral rule as a completed livelihood
+    outcome: the relevant evidence still has to connect the rule to queues,
+    documentation, costs, informal-route risk, sales and trader welfare.
+
 ## Bounded proposition
 
 **A technical standard, open protocol, API, data schema, interoperability
@@ -156,3 +189,7 @@ research opportunity, not a promoted causal finding.
 - ITU, [Global Connectivity Report 2025](https://www.itu.int/pub/D-IND-ICT_MDD.GCR).
 - WTO, [World Trade Report 2025: AI and inclusive growth](https://www.wto.org/english/res_e/publications_e/wtr25_e.htm).
 - WTO, [E-commerce Agreement and digital trade rules](https://www-server1.wto.org/english/tratop_e/ecom_e/joint_statement_e.htm).
+- Estonia Information System Authority, [X-tee data exchange layer](https://www.ria.ee/en/state-information-system/data-exchange-platforms/data-exchange-layer-x-tee).
+- GovStack, [Egypt digitalizing public health with GovStack](https://govstack.global/news/egypt-digitalizing-public-health-with-govstack-partnership/).
+- Catena-X, [Catena-X and Ouranos demonstrate data-space interoperability](https://catena-x.net/news/catena-x-and-ouranos-ecosystem-successfully-demonstrate-data-space-interoperability/).
+- World Bank, [Moyale simplified trade regime pilot](https://www.worldbank.org/en/news/feature/2026/03/25/smarter-rules-unlock-small-scale-trade-across-kenya-and-ethiopia).

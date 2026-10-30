@@ -2402,6 +2402,17 @@ language, vendor, jurisdiction or business model.
 
 The GY packet adds **standards-to-interoperability-and-practical-sovereignty conversion** with a source boundary around specification, semantics, legal rights, security, governance, cost, skills, accessibility, maintenance, certification, adoption, correction, switching, service effect, vendor dependence, data control and local capability.
 
+The GY refresh adds four geographically distinct cases. Estonia's X-tee and
+the Estonia–Finland federation show a data-owner-controlled public exchange
+layer; Egypt's GovStack pilot shows reusable identity, mediation and consent
+components in a public-health setting; Catena-X and Japan's Ouranos show
+cross-border battery carbon-data interoperability while retaining existing
+regional infrastructure; and the Kenya–Ethiopia Moyale pilot tests whether a
+formal simplified-trade regime actually changes small-trader experience. The
+cases sharpen the conversion rule: a standard becomes practical sovereignty
+only when a named user, agency or firm can complete, correct, maintain and—if
+necessary—switch a real service or transaction at tolerable cost.
+
 208. **A robot, cobot, exoskeleton, autonomous machine, physical-AI model, safety
 certificate, benchmark, pilot, productivity metric, workplace-monitoring system
 or automation investment is not by itself safe work, decent work, accessible
