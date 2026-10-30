@@ -3343,6 +3343,10 @@ The JB packet adds **river-restoration-to-lived-water-security-cultural-continui
 
 The JC packet adds **Antarctic-treaty-governance-to-cumulative-ecosystem-protection-responsible-access-and-geopolitical-legitimacy conversion** with a source boundary around activity/site/season/actor, permit, EIA, route, visitor or catch, monitoring, wildlife/krill/ecosystem effect, compliance, decision, remedy, benefit, labor and later treaty behavior. The Antarctic Treaty Secretariat supplies tourism, EIA, visitor-rule and reporting architecture; IAATO supplies current visitor scale; CCAMLR supplies krill pressure, closure, ecosystem monitoring and unresolved fishery/MPA harmonization; and UNEP supplies Southern Ocean scale and historical conservation rationale. These close treaty, assessment, tourism, fishery, monitoring, operational and geopolitical stages, but no public source here closes a comparable activity/site chain through cumulative ecological effect, effective compliance, responsible access and durable treaty legitimacy.
 
+261. **An invasive-species list, border inspection, quarantine rule, eradication campaign, target indicator, control treatment, restored hectare, community meeting or biodiversity claim is not by itself reduced establishment, ecosystem recovery, food or water security, health protection, cultural continuity, fair compensation or legitimate stewardship.** Eradication can remove one species while another pathway remains open; a lower detection rate can reflect weaker surveillance; and a control program can protect biodiversity while shifting costs onto local workers or Indigenous communities.
+
+The JD packet adds **invasive-species-biosecurity-to-community-defined-ecosystem-recovery-and-livelihood-security conversion** with a source boundary around pathway/site/community, introduction, detection, species and impact, control choice, labor, land access, local knowledge, consent, cost, food/water/health effect, restoration, compensation, monitoring and durable stewardship. CBD supplies the Target 6 global target, pathway, quarantine, indicator, implementation and cross-sector architecture; IPBES supplies the uneven-impact, Indigenous/local-knowledge and cultural-value evidence. These close global target, hazard, pathway, response, measurement, distributional and implementation stages, but no public source here closes a comparable named site/community chain through reduced establishment, ecological recovery, food/water/health security, fair burden sharing and durable local authority.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3379,7 +3383,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JC.
+living goal. The current atlas baseline has been refreshed through Rotation JD.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
