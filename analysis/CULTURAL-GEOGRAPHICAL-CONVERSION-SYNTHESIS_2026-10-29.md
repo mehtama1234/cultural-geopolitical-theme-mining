@@ -3339,6 +3339,10 @@ The JA packet adds **social-connection-intervention-to-trusted-repeated-relation
 
 The JB packet adds **river-restoration-to-lived-water-security-cultural-continuity-and-community-authority conversion** with a source boundary around basin/community, ecological baseline, flow, quality, intervention, tenure, participation, monitoring, water receipt, fish/crop outcome, flood/drought exposure, livelihood, cultural practice, payment, conflict, grievance and long-term governance. UNEP/FAO/CBD supply global restoration scale, the freshwater gap and rights architecture; UNEP and IUCN supply freshwater monitoring, the Ganga basin, salmon restoration and cultural continuity cases; the World Bank supplies Meghalaya, Tajikistan and Somalia water/livelihood pathways; and UNEP supplies Haiti’s restoration-finance pilot. These close global scale, freshwater risk, named ecological/cultural, basin, infrastructure, community, fragile-context and finance stages, but no public source here closes a comparable downstream chain through reliable water, ecological recovery, livelihood security, cultural practice, equitable benefit and durable community authority.
 
+260. **An Antarctic Treaty resolution, visitor guideline, environmental impact assessment, permit, Polar Code certificate, catch limit, fishery closure, tourism statistic, scientific station, monitoring program or industry code is not by itself ecological protection, wildlife safety, compliance, scientific legitimacy, equitable access or durable geopolitical trust.** A fishery can close after reaching a trigger while governance remains contested; tourism can follow guidelines while cumulative site impacts remain uncertain; and a high-quality assessment can still fail to capture interacting activities or future climate change.
+
+The JC packet adds **Antarctic-treaty-governance-to-cumulative-ecosystem-protection-responsible-access-and-geopolitical-legitimacy conversion** with a source boundary around activity/site/season/actor, permit, EIA, route, visitor or catch, monitoring, wildlife/krill/ecosystem effect, compliance, decision, remedy, benefit, labor and later treaty behavior. The Antarctic Treaty Secretariat supplies tourism, EIA, visitor-rule and reporting architecture; IAATO supplies current visitor scale; CCAMLR supplies krill pressure, closure, ecosystem monitoring and unresolved fishery/MPA harmonization; and UNEP supplies Southern Ocean scale and historical conservation rationale. These close treaty, assessment, tourism, fishery, monitoring, operational and geopolitical stages, but no public source here closes a comparable activity/site chain through cumulative ecological effect, effective compliance, responsible access and durable treaty legitimacy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3375,7 +3379,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JB.
+living goal. The current atlas baseline has been refreshed through Rotation JC.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
