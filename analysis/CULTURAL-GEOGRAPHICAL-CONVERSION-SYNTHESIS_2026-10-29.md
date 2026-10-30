@@ -2516,6 +2516,18 @@ and usable recovery: an accepted instrument may still be inferior to the loss,
 and a closed case may leave credit, debt, indirect-loss or repeat-exposure
 questions unresolved.
 
+The L refresh adds four named rural service corridors. One Health's Montana–
+Wyoming network uses clinic-to-clinic telehealth across more than 40,000 square
+miles and reports nearly 10% of visits through telehealth; Lānaʻi shows the
+necessary human hub, specialist travel and flight-cost burden behind a nominal
+remote appointment; Yakima converts digital literacy and community-health-worker
+support into telehealth scheduling for homebound, rural, homeless and migrant
+patients; and Pennsylvania's global-budget model reports 18 participating rural
+hospitals remaining open while staffing and reconciliation constraints persisted.
+The cases sharpen the point that resilience is not an award or a technology: it
+is a completed, affordable, trusted appointment with continuity after the first
+encounter.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.

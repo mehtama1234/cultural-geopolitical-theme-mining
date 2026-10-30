@@ -28,6 +28,47 @@ national promise and award
 | RHT-004 | [HRSA health-workforce projections](https://bhw.hrsa.gov/data-research/projecting-health-workforce-supply-demand) | HRSA’s 2023–2038 projections report that nonmetro areas could face a 58% physician shortage in 2038 versus 5% in metro areas | Forward-looking workforce pressure observed |
 | RHT-005 | [HRSA Rural Access to Health Care Services RFI](https://www.hrsa.gov/rural-health/rfi-rural-health-care-access) | HRSA defines HPSAs, medically underserved areas/populations and ZIP-code unmet-need methods; barriers can be geographic, economic, cultural or linguistic | Access is place- and population-specific, not only a national clinician count |
 
+## Named-case refresh
+
+6. One Health in Hardin, Montana, serves a more-than-40,000-square-mile area
+   across Montana and Wyoming with about 300 staff at nine locations. HRSA
+   reports school-based primary care, mental-health and dermatology telehealth,
+   clinic-to-clinic connections for patients without home broadband and a pilot
+   of 11 hypertension patients using connected monitoring kits. Telehealth made
+   up nearly 10% of visits. This closes a named service-route mechanism, while
+   the record does not establish appointment completion, clinical control,
+   workforce retention or equal access for people who cannot pay for data.
+7. Lānaʻi Community Health Center shows why “telehealth access” cannot be
+   treated as a device-only outcome. Residents often come to the centre because
+   home internet is unstable; staff stay with them through specialist visits,
+   arrange travel to Maui or Oʻahu and coordinate referrals. The island has
+   about 3,300 residents, limited specialist supply and flights averaging $320
+   round trip in the cited account, with cancellations creating continuity risk.
+   This is both a functioning local bridge and a counterexample to assuming
+   remote care eliminates geography, cost or travel burden.
+8. Yakima Neighborhood Health Services in Washington used community health
+   workers to help homebound and rural patients set up smartphones, remote
+   monitoring and telehealth appointments. Staff created a digital-literacy
+   scale recorded in health records and obtained Medicaid payment changes that
+   supported more community-health-worker hiring and expansion to homeless and
+   migrant populations. The case closes technology-to-appointment navigation,
+   but patient completion, clinical outcomes and worker caseload sustainability
+   remain open.
+9. Pennsylvania's Rural Health Model used prospective global budgets across
+   participating rural hospitals to support care redesign. CMS's fourth annual
+   evaluation reports that all 18 participating hospitals remained open through
+   2023 and maintained participation, while also noting limited staff capacity,
+   workforce shortages and financial unpredictability in reconciliation. This
+   is useful evidence that financing can protect a local access platform, not
+   proof that every service line, appointment or patient outcome improved.
+
+## Sources added in the named-case refresh
+
+- HRSA, [One Health rural telehealth case](https://bphc.hrsa.gov/about-health-centers/health-center-stories/rural-telehealth).
+- HRSA, [Lānaʻi Community Health Center telehealth and travel case](https://bphc.hrsa.gov/es/node/3105).
+- HRSA, [Yakima community-health-worker digital-literacy case](https://bphc.hrsa.gov/es/node/3200).
+- CMS, [Pennsylvania Rural Health Model fourth annual evaluation](https://www.cms.gov/priorities/innovation/data-and-reports/2024/parhm-ar4).
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |
