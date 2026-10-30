@@ -32,6 +32,10 @@ loneliness, curiosity, advice need, play, identity exploration or distress
 | UNICEF Guidance on AI and Children 3.0 | Children may anthropomorphize systems, form attachments and be manipulated; companions should disclose that they are not human, avoid intentional emotional dependency and have safeguards for younger users. | child-rights design and governance boundary | implementation, family/child consent, product incentives, longitudinal wellbeing and social-development outcomes |
 | UNICEF When AI becomes a friend policy brief | Companion-like systems have moved quickly into children’s relationships and require preventive, ecosystem-level responsibility across governments, businesses, caregivers, educators and communities. | policy problem definition and multi-actor responsibility | accountability allocation, effective remedy, measurable outcomes and cross-cultural applicability |
 | WHO adolescent mental-health evidence | Adolescence is a formative period; one in seven 10–19-year-olds experiences a mental disorder and protection, socio-emotional development and access to care are critical. | baseline developmental and service need | whether AI support complements or substitutes for evidence-based care and protective relationships |
+| UNICEF 2026 companion policy brief and business recommendations | UNICEF’s June 2026 analysis compares regulatory responses across six jurisdictions and recommends preventive, ecosystem-level safeguards; its business recommendations call for board accountability and explicit testing of child safety, privacy, autonomy and mental wellbeing. | Current child-rights policy response and provider-control expectations. | Binding enforcement, product-level compliance, longitudinal outcomes, cross-cultural fit or effective remedy. |
+| China interim measures on human-like interaction services | China’s 2026 rules prohibit services for minors involving virtual intimate relationships and prohibit content that encourages self-harm, extracts personal information, induces emotional dependency or damages real-life relationships; under-14 use of other anthropomorphic services requires guardian consent. | Named jurisdictional design prohibitions and age/guardian controls. | Enforcement, cross-border coverage, user adaptation, actual harm reduction or youth voice in rulemaking. |
+| Australia eSafety 2026 online-safety codes and companion response | eSafety says generative AI systems including companion chatbots must take meaningful steps against age-inappropriate exposure; after transparency work, Character AI introduced age assurance and removed chat for under-18 Australian users while Chub geo-blocked Australia. | Concrete provider and platform-control responses in one jurisdiction. | Whether controls prevent migration to other services, preserve legitimate support, reduce harm or provide culturally appropriate appeal. |
+| EU Kids Act proposal | The European Commission’s 2026 proposal would turn off AI chatbots and companions by default for children and prohibit designs likely to create emotional dependency, but it remains subject to Parliament and Council negotiation. | Regional policy signal and proposed safety-by-design boundary. | Final law, implementation, enforcement, child agency, accessibility or outcome evidence. |
 
 ## Stage audit
 
@@ -76,6 +80,8 @@ protection shape what “support” means and whether escalation is feasible. A
 globally designed persona may imitate intimacy while ignoring local concepts of
 care, authority, shame, safety and collective responsibility.
 
+The 2026 regulatory spread makes geography analytically important. China uses explicit prohibitions and guardian controls for virtual intimate relationships; Australia is applying age and service-level controls after provider transparency findings; and the EU proposal moves toward default-off and anti-dependency design, though it is not yet law. These are not interchangeable cultural solutions: they encode different assumptions about family authority, state responsibility, platform accountability, child autonomy and acceptable relational design. The atlas should compare the control mechanism and enforcement pathway, not treat “child safety regulation” as one global intervention.
+
 ## Counterexamples and limits
 
 - An AI may provide immediate low-stigma conversation while reducing motivation
@@ -92,6 +98,11 @@ care, authority, shame, safety and collective responsibility.
   themselves while creating new privacy, stereotyping or dependency risks.
 - Aggregate mental-health or loneliness trends cannot be attributed to a
   companion without exposure timing, comparison, mechanism and outcome data.
+- A regulatory prohibition, age gate or default-off proposal does not prove that
+  children are safer, better connected or able to reach appropriate human care.
+- A provider’s removal of under-18 access in one jurisdiction does not establish
+  global protection; it may change disclosure, migration to other services or
+  visibility of use.
 
 ## Promotion decision
 
@@ -121,3 +132,8 @@ adult and clinical routes remain reachable.
 3. [UNICEF Guidance on AI and Children 3.0](https://www.unicef.org/innocenti/reports/policy-guidance-ai-children)
 4. [UNICEF — When AI becomes a friend](https://www.unicef.org/documents/when-ai-becomes-friend-child-rights-risks)
 5. [WHO — Mental health of adolescents](https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health)
+6. [UNICEF 2026 policy brief: When AI becomes a friend](https://www.unicef.org/documents/when-ai-becomes-friend-child-rights-risks)
+7. [China CAC Q&A on interim measures for human-like interaction services](https://www.cac.gov.cn/2026-04/10/c_1777558395284407.htm)
+8. [Australia eSafety online-safety codes](https://www.esafety.gov.au/newsroom/media-releases/online-safety-codes-introduce-real-world-protections-for-children-online)
+9. [Australia eSafety companion-app safety response](https://www.esafety.gov.au/newsroom/media-releases/esafety-report-shows-ai-companions-are-putting-children-at-risk)
+10. [European Commission EU Kids Act proposal](https://commission.europa.eu/news-and-media/news/eu-kids-act-helping-children-navigate-safer-online-world-2026-09-17_en)

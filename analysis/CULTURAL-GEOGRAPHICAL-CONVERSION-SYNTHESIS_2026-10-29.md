@@ -3779,6 +3779,14 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 380. **Patient agency depends on handover points between vendor, provider, clinician and patient.** If responsibilities for training, cybersecurity, override, explanation, monitoring and escalation are not explicit, a harm can be technically detected yet socially unowned, delaying correction and weakening the patient’s practical route to remedy.
 
+381. **AI-companion regulation is becoming a cross-jurisdictional experiment in relational design.** China’s prohibitions, Australia’s age/service controls and the EU’s proposed default-off and anti-dependency rules close different design and access stages; none yet proves safer development, better human connection, effective enforcement or culturally legitimate support.
+
+382. **Removing a child’s access can reduce one exposure while changing the visibility and geography of support-seeking.** Provider withdrawal, age assurance or geo-blocking must be assessed alongside migration to other services, disclosure to trusted adults, access to professional care, privacy and the child’s practical ability to appeal or exit.
+
+383. **The relevant unit of child-safety accountability is the relational feature, not only the chatbot brand.** Anthropomorphic identity, memory, secrecy, emotional dependency, romantic framing, crisis escalation and data retention create different pathways of influence; a general “safe chatbot” label can conceal materially different developmental and cultural risks.
+
+384. **Child agency is not the same as unrestricted access or parental control.** A legitimate design must balance age-appropriate autonomy, informed consent, guardian and community responsibility, accessible human handoff, privacy, disability and language inclusion, and the ability to leave without losing essential support.
+
 ## What the evidence does not support
 
 Do not claim that:
