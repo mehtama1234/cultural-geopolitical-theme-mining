@@ -2772,6 +2772,19 @@ assistance. AD therefore advances from legal architecture to bank, cash,
 procurement and customs execution, but it still does not establish comparable
 shipment timing, cost, beneficiary receipt, protection or civilian legitimacy.
 
+The AE refresh adds named service-continuity cases. CrowdStrike shows a faulty
+security update disrupting flights, hospitals and critical infrastructure even
+without a hostile intrusion; Synnovis shows a pathology-supplier ransomware
+event cascading into postponed care, blood-inventory pressure and clinical
+workarounds; Advanced shows handwritten records and backlogs when a healthcare
+supplier remained unavailable for months; the NCSC’s Marks & Spencer example
+shows third-party and customer spillover; and the UK recovery survey shows why
+restored operations are not the same as recovered user trust, data security or
+service quality. AE therefore advances from disclosure, KEV and reporting to
+dependency, downtime, workaround and ecosystem burden, but it still does not
+close a comparable asset-to-user ledger for restoration quality, repeat
+exposure and community harm.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.

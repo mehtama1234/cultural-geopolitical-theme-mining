@@ -56,6 +56,79 @@ The CISA GeoServer sequence is a useful conversion case because it closes
 disclosure, exploitation and delayed patching in a named timeline. It still
 does not close the complete service-to-community outcome chain.
 
+## Named-case refresh
+
+These cases move the packet from vulnerability and reporting stages into
+service dependency, workaround and user-continuity evidence:
+
+### AE6 — CrowdStrike software-update outage
+
+GAO reports that a July 2024 CrowdStrike software update caused Windows systems
+to crash and disrupted commercial flights, hospital care and other critical
+infrastructure. The incident was not a cyberattack; its importance is that
+software supply-chain concentration and testing failure can produce a
+cyber-resilience outcome without a hostile intrusion. It closes a named
+dependency-to-outage route. It does not provide one uniform recovery time or
+fully measure passenger, patient, worker and financial burdens across affected
+operators.
+
+### AE7 — Synnovis pathology ransomware, London
+
+NHS and NCSC accounts describe the June 2024 ransomware attack on Synnovis, a
+pathology provider serving London NHS organizations. Access to blood-grouping,
+antibody-screening and crossmatching systems was disrupted; NHS Blood and
+Transplant expanded hours, prioritized urgent cases and relied more heavily on
+O-negative blood to preserve emergency and surgical care. The UK government
+reports approximately 11,000 postponed outpatient appointments and elective
+procedures. This closes a supplier-to-clinical-continuity chain and makes
+workaround burden visible. It does not close every patient outcome, full data
+exposure, long-run trust effect or recovery for all affected services.
+
+### AE8 — Advanced NHS supplier ransomware
+
+The UK National Data Guardian reports that the 2022 ransomware attack on
+Advanced, a software supplier to NHS trusts and care organizations, took some
+systems offline, including Adastra systems supporting emergency care and NHS
+111. Some systems returned quickly while others remained unavailable for months;
+organizations used handwritten clinical notes and experienced backlogs. This
+is a strong continuity case because the workaround itself became a source of
+labor, clinical-safety and record-quality burden. It does not establish a
+complete patient-level harm estimate or prove that all recovery controls failed.
+
+### AE9 — Marks & Spencer third-party impact
+
+The NCSC’s 2025 annual review reports that the ransomware attack affecting
+Marks & Spencer and its insurers was estimated to exceed £300 million and uses
+it to illustrate that disruptive cyber incidents extend beyond the victim
+organization to customers, third parties and wider society. This closes an
+enterprise-to-ecosystem impact route. The public account does not provide a
+complete customer-level ledger of unavailable services, lost time, workaround,
+compensation or trust recovery, so the cost estimate must not be treated as a
+complete social-loss measure.
+
+### AE10 — UK Cyber Security Breaches Survey recovery boundary
+
+The UK 2025/26 survey reports that 87% of affected businesses and 91% of
+charities said they restored operations within 24 hours after their most
+disruptive identified breach or attack. This is useful aggregate recovery
+evidence, but also a counterexample to equating “operations restored” with
+resilience: the measure is self-reported, excludes organizations unable to
+specify an incident, and does not capture data exposure, customer harm, manual
+workarounds, uneven service quality or repeat vulnerability.
+
+### Case-ledger conclusion
+
+The refresh closes portions of software-supply-chain outage, supplier
+dependency, clinical workaround, ecosystem spillover and reported restoration.
+It also sharpens the central boundary: a patch, restart or restored business
+process may coexist with patient delay, manual burden, data compromise,
+customer loss or residual exposure. The decisive ledger remains:
+
+`asset/dependency → disclosure or failure → prioritization/patch → detection and containment → restoration → user workaround and continuity → repeat exposure, trust and harm`
+
+No case yet closes that route with comparable asset-level downtime, user burden,
+recovery quality and repeat-exposure measures across operators.
+
 ## Cultural and geographical interpretation
 
 Cyber incidents become social events when a hospital, water utility, school,
