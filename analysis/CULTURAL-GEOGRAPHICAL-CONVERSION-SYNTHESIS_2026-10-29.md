@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HT
+**Date:** 2026-10-30; refreshed through Rotations D–HU
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3203,6 +3203,10 @@ The HS packet adds **oxygen-system-to-equitable-bedside-treatment-and-resilience
 
 The HT packet adds **diagnostic-network-to-equitable-clinical-action conversion** with a source boundary around symptom/need, language, consent, stigma, test access, specimen, power, quality, turnaround, interpretation, treatment, medicine, referral, cost, completion, recovery, disability, geography, trust and recurrence. WHO supplies the Essential Diagnostics List, in-vitro diagnostics overview, IHR network benchmark, AMR initiative and TB target-product profiles; WHO country offices supply named Nepal and Fiji capability cases; UNICEF supplies pulse-oximeter deployment and use evidence. These close normative selection, network architecture, equipment, local capability, product requirements and device-use stages, but no public source here closes a comparable patient/cohort chain through treatment, recovery, equity and durable trust.
 
+226. **A menstrual-health survey, product distribution, toilet, WASH room, curriculum lesson, youth campaign, training session or local enterprise is not by itself affordable safe use, privacy, pain or bleeding care, attendance, work continuity, bodily autonomy, belonging or durable norm change.** A facility can lack water or disposal, a product can be unavailable when needed, a lesson can exclude peers, and an attendance signal can lack person-level attribution.
+
+The HU packet adds **menstrual-health-system-to-dignified-participation conversion** with a source boundary around need, cycle, product/material choice, cost, water, privacy, disposal, pain, heavy bleeding, health care, language, disability, stigma, absence/presence, school, work, mobility, agency, belonging, complaint and norm change. WHO supplies the multi-component definition and global access signal; World Bank supplies Ethiopia school-WASH and Bangladesh enterprise cases; UNICEF supplies Mexico, Mozambique, Mali and school-education evidence. These close problem framing, infrastructure, education, local enterprise and norm-articulation stages, but no public source here closes a comparable person-level chain through affordable use, health, participation and durable dignity.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3239,7 +3243,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HS.
+living goal. The current atlas baseline has been refreshed through Rotation HU.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
