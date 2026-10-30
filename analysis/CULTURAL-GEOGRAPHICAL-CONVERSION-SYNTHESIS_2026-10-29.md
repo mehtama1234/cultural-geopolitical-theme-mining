@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JO
+**Date:** 2026-10-30; refreshed through Rotation JP
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3383,6 +3383,10 @@ The JN packet adds **carbon-dioxide-removal-to-verifiable-permanent-climate-bene
 
 The JO packet adds **carbon-border-adjustment-to-verified-industrial-decarbonization-fair-market-access-and-development-compatible-transition conversion** with a source boundary around exporter/product/facility, production baseline, embedded-emissions data, verifier, certificate cost, buyer response, investment, employment, domestic carbon price, support received, trade outcome, consumer pass-through and later emissions change. The European Commission supplies current implementation, sector, measurement, pricing, verification and support architecture; UNCTAD supplies the development distribution model; and WTO supplies the live dispute and multilateral transparency boundary. These close implementation, sector linkage, measurement, pricing, distributional, legal, coordination and support stages, but no public source here closes a comparable exporter/facility chain through verified industrial decarbonization, fair market access, development-compatible transition, protected employment and durable geopolitical legitimacy.
 
+271. **An age check, license, safer-gambling message, self-exclusion record, automated interaction, account closure, advertising rule, participation statistic, youth survey or support referral is not by itself reduced harm, preserved household essentials, recovery, youth safety, relationship protection or accountable platform conduct.** Fewer active accounts can coexist with migration to another operator; more interventions can reflect greater exposure; and a survey can show concern without proving causality or intervention effect.
+
+The JP packet adds **online-gambling-to-household-financial-health-mental-health-youth-safety-and-durable-recovery conversion** with a source boundary around person/household/platform, promotion, age/access, payment, wagering, essential spending, harm marker, intervention, support, account migration, family effect and later financial, health and safety outcome. WHO supplies the global harm and accessibility frame; the Gambling Commission supplies participation, affected-other harms, operator scale and intervention caveats; and UNICEF supplies named youth exposure and practical response routes in Argentina and Thailand. These close global harm, accessibility, participation, family-impact, platform-scale, intervention, youth-exposure and response-route stages, but no public source here closes a comparable person/household/platform chain through reduced financial and health harm, youth safety, durable recovery and accountable platform conduct.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3419,7 +3423,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JO.
+living goal. The current atlas baseline has been refreshed through Rotation JP.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
