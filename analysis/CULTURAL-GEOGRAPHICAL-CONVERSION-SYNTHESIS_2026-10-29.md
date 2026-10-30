@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–CD
+**Date:** 2026-10-29; refreshed through Rotations D–CN
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -694,6 +694,7 @@ disruption or repeat shutoff continues.
 | AI elections/democratic participation | voter, candidate, party, campaign, platform, journalist, authority, message, recommender, chatbot, language group, community and place | political claim, targeting, generation, distribution, provenance, disclosure, privacy, accessibility, media literacy and institutional trust | exposure, interpretation, sharing, mobilization, voting route, moderation, correction, complaint and administrative response | informed participation, equal contestation, trusted administration, representation, acceptance and future civic action open | AI-generated political content, targeting reach or election-system deployment is not informed participation or democratic legitimacy; distribution, exposure, access, correction, participation and trust must be joined |
 | Pandemic preparedness/countermeasure equity | pathogen, signal, laboratory, health worker, agency, funder, manufacturer, vaccine, therapeutic, diagnostic, community, border and place | risk, surveillance, data, finance, workforce, production, procurement, allocation, trust and health-system capacity | detection, verification, alert, decision, supply, delivery, vaccination, treatment, routine-care continuity, communication and correction | reduced transmission, avoided mortality, affordable access, protected livelihoods, trust, sovereignty and durable resilience open | pandemic preparedness architecture, financing or countermeasure production is not local protection or equitable access; investment, detection, delivery, uptake, continuity, trust and outcome must be joined |
 | Internet shutdowns/digital sovereignty/civic continuity | person, household, network, telecom, platform, state, armed actor, journalist, clinic, school, business, aid group and place | security incident, protest, election, conflict, order, scope, duration, bandwidth, service dependency, notice and alternatives | shutdown, throttle, block, operator compliance, workaround, emergency communication, service loss, restoration, complaint and judicial response | safety, health, aid, livelihood, education, payment, expression, assembly, participation, trust and durable connectivity open | connectivity control or legal authority to restrict a network is not public safety, digital sovereignty or legitimate civic governance; restriction, exposure, alternatives, service loss, remedy and continuity must be joined |
+| AI in courts/legal aid/access to justice | litigant, accused, claimant, judge, lawyer, legal-aid worker, clerk, court, case, evidence, model, language, disability and place | legal need, dispute, accusation, eligibility, workload, jurisdiction, data, language, privacy, representation, accessibility and vendor control | advice, e-filing, triage, transcription, translation, document review, prediction, drafting, hearing, decision, notice, correction and appeal | understandable process, equal treatment, human responsibility, timely remedy, representation, privacy, participation and legitimate justice open | AI legal automation or judicial authorization is not fair adjudication or access to justice; tool exposure, context, human review, explanation, correction, appeal and remedy must be joined |
 | Food security/benefit and retail route | household, person, benefit account, retailer, tract, trip, place | income, price, eligibility, paperwork, transport, time, disability, language, culture, refrigeration and store choice | application, receipt, redemption, retailer access, purchase, substitution, complaint and nutrition route | adequate affordable nutritious food, stable security, health and household dignity open | participation or mapped access is not a reliable food route; place and household options convert assistance into lived security |
 | Food environment/price/travel/cultural fit | household, county, tract, retailer, trip, basket, alternative source, place | price, distance, travel time, vehicle/transit, store format, inventory, hours, disability, language, culture, storage and care/work trade-off | benefit use, store choice, completed trip, substitution, pantry/family route and repeat purchase | adequate acceptable basket, continuity, health and food security open | food access is a feasible choice set, not a distance score; the same benefit or store map can produce different lived outcomes |
 | Alliance/geopolitics | incident, mission, host, partner | readiness, fiscal, land, escalation risk | consultation, protest, persistent alliance posture | deterrence/acceptance open | persistence is not leverage until external behavior changes |
@@ -712,7 +713,7 @@ disruption or repeat shutoff continues.
 
 ## What the evidence supports now
 
-The atlas can safely state ninety-two propositions:
+The atlas can safely state ninety-three propositions:
 
 1. **Formal capacity and usable protection are different stages.** This is
    supported across platform, SNAP, infrastructure, public AI and geopolitical
@@ -1181,6 +1182,14 @@ The atlas can safely state ninety-two propositions:
     continued, that economic and civic harms were proportionate, or that people
     received notice, remedy and durable access.
 
+93. **AI legal automation or judicial authorization is not fair adjudication or
+    access to justice.** A legal chatbot, predictive-risk tool, document
+    classifier, e-filing system, sentencing recommendation, translation tool,
+    transcription service, case-management model or court AI strategy does not
+    establish that a named person understood the process, received equal
+    treatment, obtained an individualized and contestable reason, retained
+    human judicial responsibility, or could appeal and obtain remedy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -1217,12 +1226,12 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation CM.
+living goal. The current atlas baseline has been refreshed through Rotation CN.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
 geopolitical leverage, rural point-of-care continuity, disaster household
 recovery, Tribal water maintenance, migration/local-capacity conversion and
 meaningful digital access, practical mobility, library civic infrastructure, school attendance/belonging, voting access, durable housing, HCBS care, AI work control, extreme-heat protection, refugee integration, energy security, food-security route conversion, food-environment affordability, synthetic-information verification, humanitarian-access execution, cyber service continuity, language-access completion, digital-identity recovery, climate-insurance recovery, childcare continuity, remittance household receipt, eviction-tenancy retention, health-data care continuity, emergency response outcomes, household water safety, wildfire-smoke exposure reduction, EV completed-trip reliability, distributed-storage service continuity, household water-security adaptation, warning-to-safe-outcome conversion, trusted-intermediary service completion, wastewater signal-to-action conversion, port-to-community resilience, satellite usable-continuity, semiconductor qualified capability, submarine-cable fault-to-user continuity, advanced-reactor deployment-to-public-value, battery recovered-material-to-dependence conversion, hydrogen production-to-use, carbon-capture permanent-reduction verification, climate-finance-to-community-recovery, biodiversity-finance-to-ecosystem-community outcome, DSI-to-benefit-sharing conversion, forecast-to-space-weather-continuity conversion, compute-to-watershed-outcome conversion, exploration-to-ocean-outcome conversion, credit-to-real-carbon-outcome conversion, treaty-to-plastics-exposure-livelihood conversion, surveillance-to-treatment-equity conversion, connection-to-health-belonging conversion, fertilizer-to-yield-food-security conversion, age-signal-to-child-outcome conversion, standard-to-PFAS-exposure-health conversion, device-to-participation conversion, ecological-signal-to-vector-health-outcome conversion, clean-cooking-to-exposure-agency conversion, heritage-risk-to-living-continuity conversion, digital-language-to-everyday-vitality conversion, climate-risk-to-safe-mobility-and-continuity conversion, basin-cooperation-to-local-water-security conversion, decarbonization-to-regional-livelihood conversion, care-policy-to-worker-and-household-resilience conversion, ocean-governance-to-coastal-livelihood conversion, resilience-investment-to-secure-urban-life conversion, visitor-growth-to-resident-wellbeing conversion, AI-adoption-to-creative-livelihood-and-cultural-control conversion, AI-education-to-learning-and-teacher-agency conversion, AI-companion-to-social-wellbeing-and-agency conversion, AI-healthcare-to-safe-equitable-care conversion, biometric-capability-to-safe-public-legitimacy conversion, autonomy-to-civilian-protection-and-accountability conversion, AI-humanitarian-response-to-protection-and-dignity conversion, orbital-capability-to-sustainable-continuity-and-equitable-access conversion, AI-electoral-influence-to-democratic-legitimacy conversion, preparedness-to-local-protection-and-countermeasure-equity conversion and connectivity-control-to-civic-continuity-and-legitimacy conversion. Those unresolved questions remain Tier 2 research
-opportunities rather than promoted findings.
+opportunities, including AI-justice-to-fair-remedy conversion, rather than promoted findings.
 
