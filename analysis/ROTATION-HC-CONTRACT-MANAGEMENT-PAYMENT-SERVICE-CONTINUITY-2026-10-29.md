@@ -73,6 +73,23 @@ contract award / contract-management plan / baseline / KPI / payment schedule
    suppliers' willingness to meet costly obligations such as delivery to remote
    locations. This is a concrete buyer-supplier and geographical-continuity
    risk; it is not a complete patient-level outcome chain.
+9. OECD's Egypt infrastructure assessment describes dedicated site supervision,
+   delivery-based payments, penalties, termination rights and operation-and-
+   maintenance provisions lasting eight to fifteen years in some transport and
+   signalling contracts. These are design features aimed at technical readiness
+   and lower breakdown risk, not proof that every asset remained available or
+   affordable.
+10. A World Bank procurement-innovation case describes Nigeria's Procurement
+    Monitoring Portal Observatory, where trained civil-society monitors collect
+    contract evidence and channel findings toward accountability and compliance.
+    This closes part of the citizen-oversight mechanism, but the case does not
+    establish a comparable user-level service improvement for every monitored
+    contract.
+11. OECD's digital-transformation review reports that agile public projects in
+    Greece/California depended on user involvement, supplier collaboration and
+    contract-management capability, while also noting minimum-performance,
+    modification and vendor-lock-in risks. Digital delivery therefore requires
+    relational management and contestability, not only detailed specifications.
 
 ## Bounded proposition
 
@@ -166,3 +183,6 @@ research opportunity, not a promoted causal finding.
 - World Bank, [Bangladesh e-GP results](https://www.worldbank.org/en/results/2023/05/03/world-bank-helps-bangladesh-transform-public-procurement-into-a-sustainable-online-system).
 - OECD, [Post-award contract management in Nuevo León](https://www.oecd.org/en/publications/2018/01/public-procurement-in-nuevo-leon-mexico_g1g87a3e/full-report/component-13.html).
 - OECD, [IMSS contract management and performance](https://www.oecd.org/en/publications/second-public-procurement-review-of-the-mexican-institute-of-social-security-imss_9789264190191-en/full-report/component-9.html).
+- OECD, [Efficient and sustainable infrastructure in Egypt](https://www.oecd.org/en/publications/efficient-and-sustainable-infrastructure-in-egypt_d6e57f17-en/full-report/assessment-of-current-practices_f627f71f.html).
+- World Bank, [Nigeria procurement monitoring portal case](https://documents1.worldbank.org/curated/en/994611615184254309/pdf/Procurement-Innovation-Challenge-Competition-Winners.pdf).
+- OECD, [Digital transformation projects in Greece's public sector](https://www.oecd.org/en/publications/digital-transformation-projects-in-greece-s-public-sector_33792fae-en/full-report/component-8.html).
