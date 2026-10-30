@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IB
+**Date:** 2026-10-30; refreshed through Rotations D–IC
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3234,6 +3234,10 @@ The IA packet adds **biodiversity-conservation-to-local-authority-ecological-fun
 233. **A hazard map, relocation guideline, trust fund, housing project, consultation, physical move, service plan or climate-migration estimate is not by itself safe choice, consent, secure tenure, livelihood continuity, cultural survival, host-community legitimacy or durable wellbeing.** A person may move without meaningful alternatives, a destination may lack services or work, and a new house may not reproduce land-based culture, social ties or authority.
 
 The IB packet adds **climate-relocation-to-consented-safe-community-continuity conversion** with a source boundary around hazard, habitability, stay/adapt/move options, warning, consent, FPIC, land, tenure, compensation, destination, housing, water, health, education, transport, livelihoods, social ties, cultural governance, host community, return, complaint, remedy and long-term wellbeing. UN sources supply definitions, rights, anti-repurposing, Fiji architecture, cultural-continuity and Pacific stay/move principles; World Bank supplies codesign and destination planning; UNHCR supplies settlement-service and investment boundaries. These close conceptual, rights, policy, finance, codesign and minimum-service stages, but no public source here closes a comparable community chain through consent, move, livelihood, belonging and durable remedy.
+
+234. **An assistive-device distribution, product catalogue, procurement policy, assessment, training, localized software or classroom pilot is not by itself suitable fit, affordability, sustained use, repair, autonomy, safety or participation.** A product can be wrong for the user, language or context; a device can fail without repair; and a high-tech intervention can underperform a low-tech or training-based solution.
+
+The IC packet adds **assistive-technology-system-to-sustained-person-controlled-participation conversion** with a source boundary around functional goal, assessment, language, culture, product, fitting, financing, procurement, delivery, training, family/teacher/workplace support, maintenance, repair, replacement, user control, education, work, mobility, communication, civic participation, safety and complaint. WHO supplies global need, the 5P framework, Senegal access barriers, Namibia strategy and Ireland system gaps; UNICEF supplies Kazakhstan, Viet Nam, Bhutan and repair/integration evidence. These close need, systems, barriers, distribution, localization, classroom use, strategy and failure stages, but no public source here closes a comparable person-level chain through fitting, repair, autonomy and durable participation.
 
 ## What the evidence does not support
 
