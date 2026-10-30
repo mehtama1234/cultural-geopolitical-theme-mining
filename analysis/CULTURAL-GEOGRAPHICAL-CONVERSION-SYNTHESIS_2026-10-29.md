@@ -2540,6 +2540,19 @@ missing fields are completion, utilities, accessibility, finance adequacy,
 repeat-hazard performance and whether the household actually stayed, returned
 or moved with social continuity.
 
+The N refresh adds five named Tribal water cases. Hopi's regional system links
+long collaboration and investment to completed safe-water infrastructure and a
+reported reduction in operator burden; Mesa Farm links a rural technical
+choice to a named Tribal utility operating an 82-family vacuum sewer; Lac Vieux
+Desert shows sacred and archaeologically sensitive land changing the wastewater
+design; Russian Mission links heat recovery to utility debt reduction, reserves
+and water-culture expression; and St. Regis Mohawk makes the O&M responsibility
+boundary visible through litigation. Together they sharpen the N proposition:
+water sovereignty is a maintained, governed service. The decisive missing
+fields remain household connection and affordability, compliance and outage
+records, operator retention, long-run O&M finance, cultural acceptance and the
+final legal/policy allocation of maintenance responsibility.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.

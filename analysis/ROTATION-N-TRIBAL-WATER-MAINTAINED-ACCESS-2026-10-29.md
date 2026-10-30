@@ -29,6 +29,80 @@ need and sovereignty
 | TRW-004 | [EPA Tribal Drinking Water Infrastructure Grants program](https://www.epa.gov/tribaldrinkingwater/drinking-water-infrastructure-grants-tribal-set-aside-program) | EPA describes Tribal set-aside funding for drinking-water infrastructure and states that the grants cannot be used for compliance monitoring, operations or maintenance | Capital-to-maintenance boundary observed |
 | TRW-005 | [EPA Safe Drinking Water on Tribal Lands](https://www.epa.gov/tribaldrinkingwater) | EPA assigns roles to Tribal governments, utilities and members, including utility ownership/management, operator certification, compliance and community right-to-know | Governance, operator and public-information roles observed |
 
+## Named-case refresh
+
+These cases add operating and place-based evidence to the funding and policy
+packet. They are not interchangeable: agency success stories often document a
+completed project and reported benefit, while the GAO legal and maintenance
+evidence identifies unresolved responsibility and durability questions.
+
+### TRW-006 — Hopi Tribe New Regional Water System
+
+EPA reports completion of the Hopi Tribe's New Regional Water System after
+decades of collaboration and more than $25 million of federal and Tribal
+investment. The system was reported to provide safe drinking water to Hopi
+residents, lower long-run operations and maintenance costs, reduce the burden
+on villages to maintain certified operators and increase capacity for future
+growth. EPA also required the Hopi Cultural Center and four villages to
+permanently disconnect from the previous source to protect water quality. This
+closes award → completion → system-level service and governance change, but the
+public account does not provide household-level outage, affordability,
+quality-test, trust or long-run performance data.
+
+### TRW-007 — Mesa Farm, Shiprock, Navajo Nation
+
+IHS reports that a vacuum sewer system serving 82 families in Mesa Farm was
+completed in 2015 and is operated and maintained by the Navajo Tribal Utility
+Authority. The project is a useful geography-specific conversion: a rural area
+where gravity sewer was not feasible received a different technical design,
+with a named operator and a stated public-health rationale. The account does
+not provide pre/post disease data, household connection reliability, bills,
+operator staffing or later outage history, so “completed and operated” is not
+treated as proof of durable household health benefit.
+
+### TRW-008 — Lac Vieux Desert Band of Lake Superior Chippewa
+
+EPA's Clean Water Indian Set-Aside case reports that failed decentralized
+wastewater systems serving several homes were repaired or replaced with
+individual systems, and that the project was completed in August 2015 and
+served 16 homes. The original community-sewer design was changed because the
+area included archaeologically sensitive and sacred land and unsuitable soils.
+This is a strong cultural-geographical design case: technical scope changed to
+protect place meaning and fit local conditions. It does not close long-term
+maintenance, affordability, household satisfaction or water-quality outcomes.
+
+### TRW-009 — Russian Mission, Alaska Native Tribal utility
+
+An Alaska Native Tribal Health Consortium case reports that a heat-recovery
+system serving the Russian Mission water and sewer utility displaced about
+12,000 gallons of fuel annually, was estimated to save $35,000 per year and
+helped move the utility from $42,642 in debt to an approximately $173,000
+reserve account. The same account records local youth expressing water culture
+through art. This links technical adaptation to utility affordability,
+financial resilience and cultural expression, while the reported figures are
+program-case estimates rather than a longitudinal audited rate or outage
+series.
+
+### TRW-010 — St. Regis Mohawk Tribe O&M governance boundary
+
+GAO reports that the St. Regis Mohawk Tribe challenged IHS's rejection of a
+proposal to include routine water-infrastructure operations and maintenance in
+its self-governance compact funding agreement. A federal district court held in
+March 2026 that relevant statutes authorize IHS to operate and maintain Tribal
+water infrastructure, while the matter was reported as under appeal in August
+2026. This is an important counterexample to a simple “handover to the Tribe”
+model: legal authority, funding eligibility and responsibility for operators,
+energy and routine maintenance can remain contested after the infrastructure
+need is recognized.
+
+## Sources added in the named-case refresh
+
+- [EPA: Hopi Tribe New Regional Water System](https://www.epa.gov/newsreleases/epa-hopi-tribe-federal-partners-reach-milestone-safe-drinking-water-conclude)
+- [IHS: Mesa Farm vacuum sewer system on the Navajo Nation](https://www.ihs.gov/newsroom/ihs-blog/november2016/public-and-environmental-health-improves-with-the-first-vacuum-sewer-system-on-the-navajo-nation/)
+- [EPA: Lac Vieux Desert Band wastewater case](https://www.epa.gov/sites/default/files/2016-01/documents/2015annualreport_cwisa_approved_1_5_16.pdf)
+- [IHS: Russian Mission utility affordability and water culture](https://www.ihs.gov/sites/sustainability/themes/responsive2017/display_objects/documents/2017IHSGreenChampionAwardWinners.pdf)
+- [GAO: Tribal Water Infrastructure](https://files.gao.gov/reports/GAO-26-107178/index.html)
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |
