@@ -3607,6 +3607,14 @@ The KE follow-up adds a **home-neurotechnology-clinical-signal-to-representative
 
 The KE evidence adds **neural-data-norm-to-local-assent-independent-oversight-withdrawal-redress-and-cultural-authority** as a separate conversion question. The next ledger should track a named deployment from consent/assent through signal inference, data access, withdrawal, complaint, remedy and later outcome, with the affected community’s interpretation and bargaining power recorded rather than inferred from a policy document.
 
+327. **A national non-deployment policy, five planned small-scale field trials, independent environmental and legal assessments, public pre-experiment documents, reversibility requirement or model-only research program is not by itself globally legitimate SRM governance, regional safety, community consent, ecological protection, liability, compensation or mitigation continuity.** The UK has made an experiment-level safeguard architecture more concrete, but the policy remains national and the international framework remains incomplete.
+
+The KF follow-up adds an **SRM-research-to-public-assessment-reversible-experiment-monitoring-and-global-authority** distinction. The evidence closes a named national pre-experiment control surface, but no public source here closes assessment adequacy, community challenge, data sharing, post-experiment monitoring, cross-border effects, liability, compensation or a globally accepted decision rule.
+
+328. **A “small-scale” outdoor label, funding total, climate model, field-experiment typology or technical feasibility category is not by itself a proportionate governance threshold.** The 2026 typology identifies near-, intermediate- and distant-phase experiments across several SRM approaches and shows why material release, persistence, reach, reversibility and affected interests can matter more than a binary small/large classification; POST reports no dedicated binding international framework despite rising funding and outdoor interest.
+
+The KF evidence adds **experiment-scale-classification-to-proportionate-regulation-public-legitimacy-and-cross-border-accountability** as a separate conversion question. The next acquisition should record the actual material release, persistence, affected region, regulator, assessment, participation, monitoring, exit condition and remedy for each named experiment rather than infer safety from its label or budget.
+
 ## What the evidence does not support
 
 Do not claim that:
