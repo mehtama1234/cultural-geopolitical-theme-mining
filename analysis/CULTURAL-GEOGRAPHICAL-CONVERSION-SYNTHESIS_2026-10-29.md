@@ -3563,6 +3563,10 @@ The KK follow-up adds an **AI-forecast-to-extreme-event-verification-warning-ins
 
 The KL follow-up adds an **autonomous-shipping-to-cross-border-ROC-authority-port-interface-and-decent-work** distinction. The evidence closes formal safety architecture, human-role design, cyber and jurisdiction questions, but no public source here closes the chain through mixed-traffic reliability, local responder competence, fatigue-safe staffing, attributable liability, compensation, worker outcomes or durable coastal trust.
 
+316. **A rural-health award, monitoring plan, telehealth count, emergency-department process measure, hospital-margin improvement or hospital-preservation result is not by itself a reachable appointment, completed treatment, continuity of care, equitable health outcome or community trust.** CMS publishes Rural Emergency Hospital timeliness measures; HRSA reports national virtual-visit and rural-program reach; and CMS reports financial-platform effects in a rural hospital demonstration, but none alone closes the named place-to-patient journey.
+
+The L follow-up adds a **rural-health-funding-to-facility-viability-encounter-timeliness-completed-care-and-local-continuity** distinction. The evidence now has intermediate measures between award and outcome, but no public source here closes the chain through facility-level staffing, appointment completion, transfer and follow-up, language and transport equity, clinical result, patient experience or durable community trust.
+
 ## What the evidence does not support
 
 Do not claim that:

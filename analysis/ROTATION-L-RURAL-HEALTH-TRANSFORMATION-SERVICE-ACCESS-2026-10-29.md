@@ -61,6 +61,22 @@ national promise and award
    workforce shortages and financial unpredictability in reconciliation. This
    is useful evidence that financing can protect a local access platform, not
    proof that every service line, appointment or patient outcome improved.
+10. CMS Rural Emergency Hospital quality data provide national process measures
+   for July 2024–June 2025, including median emergency-department time and time
+   before transfer. These are closer to a service encounter than an award
+   announcement, but they do not identify which local intervention caused the
+   result or whether the measure captures continuity after transfer.
+11. HRSA's 2025 year-in-review reports 17.6 million virtual visits, 13% of all
+   patient visits and 37% of mental-health visits, alongside more than 522,750
+   people served through rural-health programs. This closes national reach and
+   utilization signals, not equitable completion, quality, clinical outcomes or
+   durable local workforce.
+12. CMS's Rural Community Hospital Demonstration reports that cost-based
+   reimbursement improved Medicare inpatient margins and that hospital leaders
+   described participation as important to financial viability, while the model
+   requires 24-hour emergency care. This closes a financial-platform mechanism,
+   not a guarantee of service-line availability, shorter travel, appointment
+   completion or patient benefit.
 
 ## Sources added in the named-case refresh
 
@@ -68,6 +84,9 @@ national promise and award
 - HRSA, [Lānaʻi Community Health Center telehealth and travel case](https://bphc.hrsa.gov/es/node/3105).
 - HRSA, [Yakima community-health-worker digital-literacy case](https://bphc.hrsa.gov/es/node/3200).
 - CMS, [Pennsylvania Rural Health Model fourth annual evaluation](https://www.cms.gov/priorities/innovation/data-and-reports/2024/parhm-ar4).
+- CMS, [Rural Emergency Hospital timely and effective care data](https://data.cms.gov/provider-data/dataset/d2k3-k3ac)
+- HRSA, [2025 year in review](https://www.hrsa.gov/about/year-in-review)
+- CMS, [Rural Community Hospital Demonstration](https://www.cms.gov/priorities/innovation/innovation-models/rural-community-hospital-demonstration)
 
 ## Stage audit
 
@@ -109,6 +128,14 @@ cultural question is “does the intervention strengthen local agency and truste
 care, or does it make a community dependent on temporary programs, rotating
 clinicians and remote escalation?”
 
+The new national measures add a useful middle layer between funding and outcomes.
+Rural Emergency Hospital data can show what happens inside an encounter, and
+HRSA telehealth counts show system reach; hospital-margin evidence shows whether
+a local platform remains financially viable. None of these alone closes the
+patient journey from a named community through timely care, transfer, follow-up
+and trust. The next test must join facility-level performance to the geography
+and population that actually use it.
+
 ## Counterexamples and limits
 
 - An award to every state does not mean equal local access; first-year awards
@@ -124,6 +151,9 @@ clinicians and remote escalation?”
   themselves establish program causality or patient benefit.
 - National rural averages can hide county, tribal, regional and facility-level
   differences. The next packet should preserve named place and service type.
+- National telehealth volume, emergency-department timeliness and hospital
+  financial margins are intermediate indicators; they should not be reported as
+  equivalent to completed care, health improvement or continuity.
 
 ## Promotion decision
 
