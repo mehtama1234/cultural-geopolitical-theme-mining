@@ -2555,6 +2555,18 @@ place-based resilience design. They do not establish illness reduction,
 affordability, nutrition, vendor income, women's control, displacement,
 cultural continuity, shock continuity or binding informal-worker power.
 
+The GZ refresh adds a named robotics contrast set. NIST MEP reports 38% higher
+throughput and worker redeployment at AMG Industries, and Poly-Tech reports
+trained cobot operation and maintenance alongside 90 jobs created or retained;
+these are useful task-to-business and workforce-capability signals but remain
+company-reported. A hospital field study observed 89 delivery trips requiring
+107 human interventions, making the support layer and dynamic-place limits
+visible. OSHA and NIOSH provide adverse counterexamples, including a fatal
+robot-pinning incident and a severe automated-vehicle crushing injury. These
+close parts of deployment, training, human-support dependence and failure
+pathways, but not worker-level safety rates, care quality, workload, wage or
+skill change, maintenance, stop authority, remedy or fair gain sharing.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and

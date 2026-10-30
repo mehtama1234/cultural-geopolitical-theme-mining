@@ -135,6 +135,77 @@ long-run outcome. Record who could stop the system, who paid for adaptation,
 whether benefits reached the user, and what happened to workers displaced or
 reassigned.
 
+## Named deployment and counterexample refresh
+
+### 7. AMG Industries: productivity and redeployment were visible, but worker experience was not
+
+NIST's Manufacturing Extension Partnership documented AMG Industries in Mount
+Vernon, Ohio, using a UR collaborative robot for a repetitive Ford exhaust-tip
+operation. After a three-month trial, output rose from 200 to 276 parts per
+hour, a reported 38% increase; the company reported a six-and-a-half-month
+return on investment and redeployed workers to other needed areas rather than
+simply eliminating the affected roles.
+
+This is a named positive conversion case from task selection to throughput,
+business case and redeployment. It does not establish injury reduction, worker
+control over pace, training quality, maintenance burden, wage or skill change,
+or whether redeployed workers experienced better job quality. The report is a
+company success story, so the result should be treated as a strong operational
+signal and a weak independent outcome evaluation.
+
+Source: [NIST MEP, AMG Industries collaborative robots](https://www.nist.gov/mep/successstories/2024/amg-industries-increased-productivity-and-cost-savings-collaborative-robots).
+
+### 8. Poly-Tech Plastic Molding: training and job retention were part of the business case
+
+NIST MEP reports that Poly-Tech Plastic Molding invested in a collaborative
+robot with Arkansas Manufacturing Solutions. Employees were trained to program,
+operate and maintain the cobot, and the case reports 90 jobs created or
+retained, $225,000 in new investment and $196,450 in cost savings.
+
+The case is valuable because the deployment includes workforce capability and
+maintenance rather than treating the robot as a standalone asset. It still
+does not provide a baseline injury rate, exposure measurement, individual
+worker outcomes, wage progression, workload or independent verification of the
+job figures. “Safer work environment” is reported by the company and remains a
+hypothesis for the evidence ledger until observed with worker-level measures.
+
+Source: [NIST MEP, Poly-Tech Plastic Molding](https://www.nist.gov/mep/successstories/2024/harnessing-cobot-technology-enhance-workforce-efficiency-and-competitiveness).
+
+### 9. Hospital delivery cobot: the dynamic workplace exposed the human-support layer
+
+A seven-week field study of delivery cobots in a hospital observed 89 trips and
+107 human interventions. Seventy-two interventions concerned elevators, while
+others involved doors, obstacles, staff uncertainty, localisation and finding
+the receiving person. People interacted with the cobots 138 times, including
+positive, negative and neutral interactions; the study also observed the robot
+being ignored on 36 occasions.
+
+This is a strong operation-stage case: a robot can complete routes while still
+depending on human work, social recognition and environmental adaptation. It
+closes neither care-quality nor labour-substitution claims. The next test is to
+measure staff workload, patient or recipient experience, reliability, safety,
+accessibility, maintenance and whether repeated interventions are reduced or
+merely normalised.
+
+Source: [Integrating Collaborative Robots into a Complex Hospital Setting](https://pmc.ncbi.nlm.nih.gov/articles/PMC11892717/).
+
+### 10. Ventra Ionia: a robot-safety counterexample with fatal consequence
+
+OSHA's accident record for Ventra Ionia LLC documents a July 2015 fatality: a
+worker near a robot was struck, pinned and killed while working on a fixture.
+The record identifies lockout/tagout as a keyword and describes the robot as
+being inside an enclosure. NIOSH's robotics safety work separately documents a
+warehouse automated guided vehicle that resumed movement after an obstruction
+was removed without emergency stop, causing severe crushing injuries.
+
+These cases prevent productivity and collaborative-technology evidence from
+being read as a safety guarantee. They do not by themselves estimate the risk
+of all robots or identify the complete causal chain, but they establish the
+need to track guarding, lockout/tagout, emergency-stop authority, maintenance,
+training, incident reporting and corrective action at the named workplace.
+
+Sources: [OSHA Ventra Ionia accident record](https://www.osha.gov/ords/imis/accidentsearch.accident_detail?id=77997.015) and [NIOSH robot-safety investigations](https://www.cdc.gov/niosh/bulletin/2019/robot-safety.html).
+
 ## Source boundary
 
 The official record is strong for the embodied-AI deployment gap, safety and
