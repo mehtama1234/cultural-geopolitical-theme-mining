@@ -1923,6 +1923,16 @@ producers and workers receive the value, can govern standards, retain living
 practices, include marginalized producers or secure remedy without exclusion,
 consolidation, greenwashing or cultural commodification.
 
+163. **A climate lawsuit, court judgment, advisory opinion, rights finding,
+settlement, damages award, emissions order, adaptation plan or public-interest
+campaign is not by itself effective remedy, restored safety, compensation,
+cultural continuity, livelihood protection, participation, non-repetition or
+durable climate policy.** Cases filed, claimants recognized, duties clarified,
+orders issued, plans adopted or defendants sanctioned do not establish that
+named people and communities received affordable justice, implementation,
+payment, safer services, secure land and housing, restored health and culture,
+protection from retaliation or durable institutional change.
+
 The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior. The DT packet adds **informal-food-market-policy-to-safe-affordable-cultural-food-and-dignified-livelihood** with a source boundary around nutrition, affordability, foodborne illness, vendor income, women’s control, displacement, cultural continuity and post-shock governance. The DU packet adds **local-medicine-production-to-quality-assured-patient-continuity-and-regional-health-sovereignty** with a source boundary around product availability, affordability, quality, rural continuity, workforce capability and durable geopolitical leverage. The DV packet adds **mega-event-to-durable-host-city-legacy-and-legitimate-geopolitical-reputation** with a source boundary around resident wellbeing, worker remedy, post-event affordability, maintenance, cultural belonging and reputation after scrutiny. The DW packet adds **Arctic-corridor-to-Indigenous-community-sovereignty-and-safe-local-benefit** with a source boundary around community benefit, food security, cultural continuity, emergency response, remedy and durable sovereignty.
 
 The ET packet adds **tax-capacity-to-visible-public-value-and-voluntary-compliance** with a source boundary around named taxpayer burden, local service receipt, budget execution, refund and appeal fairness, household and firm consequences, gendered burden, later voluntary compliance and durable fiscal legitimacy.
@@ -1948,6 +1958,8 @@ The FC packet adds **border-control-to-lawful-asylum-and-durable-protection** wi
 The FD packet adds **transnational-repression-to-safe-residence-and-diaspora-agency** with a source boundary around named target safety, family protection, residence continuity, travel, work or study, participation, cultural continuity, data harm, remedy, perpetrator adaptation and durable autonomy.
 
 The FE packet adds **geographical-indication-to-place-based-livelihood-and-cultural-control** with a source boundary around named producer margins, worker conditions, entry and exclusion, women/Indigenous authority, practice transmission, environmental performance, place affordability, cultural consent, demand-shock resilience and remedy.
+
+The FG packet adds **climate-litigation-to-community-remedy-and-policy-durability** with a source boundary around named claimant outcomes, affordable access, compensation, service and land repair, cultural continuity, retaliation, non-repetition, administrative compliance and durable policy behavior.
 
 The DX packet adds **municipal-waste-policy-to-safe-circular-service-and-waste-picker-just-transition** with a source boundary around exposure reduction, service reliability, worker income, child protection, social protection, material recovery, neighbourhood equity and post-reform power.
 
