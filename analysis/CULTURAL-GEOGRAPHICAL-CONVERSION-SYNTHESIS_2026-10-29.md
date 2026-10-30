@@ -2644,6 +2644,22 @@ therefore retention and agency: a count, bed, service contact or exit becomes
 security only when a person can remain safely and affordably housed with health,
 choice and social connection, without an unobserved return to homelessness.
 
+The V refresh adds named home- and community-based-care cases. Tom’s Minnesota
+No Wrong Door route combines paid personal care with family, neighbors, church
+and meals so that a person can remain on a long-held farm; Doris’s Connecticut
+route converts person-identified activities into home accessibility and reported
+neighbor participation; and CMS’s Tribal Initiative makes tribal design and
+operation part of the transition route for five states. The GAO five-state
+review adds the hard supply boundary—caps, waiting lists, low wages, rural
+scarcity and complex needs—while the Pennsylvania employment-support case shows
+that cross-agency sequencing can create a service gap before delivery begins.
+These cases sharpen V without proving the full chain: eligibility or a plan is
+not authorization, authorization is not a staffed shift, and a staffed shift is
+not necessarily adequate culturally safe care, caregiver relief or durable
+community living. The decisive next ledger remains same-person assessment,
+authorization, worker, scheduled and completed hours, choice, safety, caregiver
+burden and community participation over time.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.

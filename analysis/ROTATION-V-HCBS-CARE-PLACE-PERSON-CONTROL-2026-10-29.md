@@ -55,6 +55,86 @@ incidents, grievances, person-centered planning and worker compensation. That is
 institutionally important, but reporting requirements remain upstream of the
 person’s actual care encounter.
 
+## Named-case refresh
+
+The following cases make the conversion chain concrete without overstating what
+the sources prove:
+
+### HCBS-006 — Tom, Minnesota No Wrong Door
+
+ACL’s case account follows Tom, a retired dairy farmer in his early 90s who
+wanted to remain on the farm where he had lived for more than 50 years. A
+Minnesota aging and disability resource-center counselor combined Meals on
+Wheels, a personal-care worker three times a week, family and neighbors for
+transport and daily checks, and a route for revisiting the plan when conditions
+changed. ACL reports that Tom remained at home and that his children gained
+peace of mind while away. This closes the need-to-plan and informal-plus-paid
+support links, and it makes place, church, neighbors and independence visible.
+It does not report a complete authorization record, worker reliability,
+delivered-visit audit, cost burden, health outcomes or multi-year retention.
+
+### HCBS-007 — Doris, Connecticut accessibility route
+
+ACL’s case account describes Doris, a 60-year-old woman with diabetes and
+multiple amputation-related surgeries who had been largely confined to her
+bedroom. Person-centered counseling identified cooking, crochet, graphic design,
+her yard and social contact as desired activities. A Connecticut Medicaid
+medical exemption funded a stair lift, while other funding supported an
+exterior lift; ACL reports that she could again crochet outdoors, socialize
+with neighbors and access sunlight. The case closes a meaningful home-access
+and preference-to-participation link. It is not evidence of ordinary HCBS
+worker delivery, a full care plan, long-run health, affordability or whether
+the accessibility solution generalizes to other households.
+
+### HCBS-008 — Money Follows the Person Tribal Initiative
+
+CMS reports that the MFP Tribal Initiative was available in five states—
+Minnesota, Oklahoma, North Dakota, Washington and Wisconsin—to help tribal
+partners build HCBS and help eligible tribal members transition from an
+institution to their communities. The program explicitly allows tribal or
+tribal-organization participation in designing and operating community-based
+long-term-services structures. This adds a governance and cultural-fit route:
+institutional transition is not treated as complete until a tribe can help
+shape the service system. The page describes program purpose and eligibility,
+not named participant transitions, staffed hours, home availability, language
+fit, retention or community outcomes.
+
+### HCBS-009 — Arizona, Florida, Mississippi, Montana and Oregon program
+variation
+
+GAO’s review of 26 programs in five states documents that 19 programs had
+enrollment caps and 12 maintained waiting lists. Officials cited recruitment
+and retention problems, low wages, complex needs and rural provider scarcity;
+Mississippi, Montana and two managed-care organizations reported higher
+payment rates, while Montana and one managed-care organization reported
+behavioral-health training. This is useful comparative evidence for the
+worker/service-availability stage and shows that state design changes the
+conversion route. The sample is nongeneralizable and does not connect a named
+person’s authorization to completed hours, caregiver relief or community
+participation.
+
+### HCBS-010 — Pennsylvania disability-employment service gap
+
+GAO’s 2026 review of Georgia, Pennsylvania and Washington found that providers
+often had to navigate sequential VR and Medicaid HCBS funding. A Pennsylvania
+provider reported confusion about whether a VR closure letter was required
+before Medicaid HCBS employment services could begin, creating unnecessary
+service gaps. This is a useful counterexample: eligibility or a nominal funding
+route can exist while coordination failure blocks the next service. It concerns
+employment support rather than all personal-care HCBS, so it should not be
+generalized beyond the broader lesson that an approved pathway is not delivered
+care.
+
+### Case-ledger conclusion
+
+The refresh closes portions of the chain from lived preference to plan,
+accessibility, informal support, tribal governance and workforce/coordination
+constraints. It still does not close the central person-level ledger:
+assessment → authorization → named worker → scheduled hours → completed hours
+→ adequacy and choice → caregiver burden and health → community living over
+time. That ledger is the stopping condition for a future deeper pass, not a
+reason to claim the mechanism is already proven.
+
 ## Cultural and geographical meaning
 
 Home and community-based care preserves more than a service location. It can
