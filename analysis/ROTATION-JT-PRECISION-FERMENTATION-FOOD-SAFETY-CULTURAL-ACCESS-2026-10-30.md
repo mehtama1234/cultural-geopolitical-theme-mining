@@ -27,6 +27,10 @@ microbe/cell/ingredient / process / facility
 | JT6 | FAO’s 2025 factsheet and webinar translate precision-fermentation food-safety issues for competent authorities and emphasize practical regulatory questions beyond the technology buzzword. | Regulatory-capacity and public-language pathway. | Inspection capacity, global enforcement, consumer understanding or equitable access. |
 | JT7 | USDA research records identify scale-up, bioreactor yield, edible materials and cost competitiveness as active technical challenges for cultivated meat. | Named engineering and commercialization bottlenecks. | Commercial product quality, price parity, nutritional equivalence or market adoption. |
 | JT8 | Codex’s 2026 discussion distinguishes biomass and precision-based fermented products and notes that alternative proteins require pre-market assessment in many jurisdictions, demonstrating emerging international classification work. | International standards and category-definition pathway. | Harmonized rules, enforcement, trade access, cultural fit or consumer outcomes. |
+| JT9 | FAO’s 2026 legal paper finds that existing food, novel-food and GMO frameworks can cover some products, while other jurisdictions need clarification or legal reform; it also identifies implementation gaps and wider ethical, human-rights and environmental questions. | Comparative legal architecture and implementation-gap pathway. | Harmonized market access, inspection capacity, public legitimacy, affordability or local capability. |
+| JT10 | UK FSA/FSS published the UK’s first precision-fermentation safety guidance in March 2026, clarifying classification, HACCP responsibilities, production hazards and evidence expectations to improve regulatory efficiency and business confidence. | Named national guidance and evidence standard. | Product authorization, price, nutrition, consumer trust, farmer/worker effects or market uptake. |
+| JT11 | Singapore’s food agency requires pre-market safety review and post-market monitoring for approved fermentation foods and requires truthful descriptions that do not misrepresent precision-fermented ingredients as conventional animal products. | Pre-market/post-market control and labeling-truthfulness mechanism. | Monitoring effectiveness, enforcement, affordability, cultural acceptance or dietary outcomes. |
+| JT12 | The EU authorised Rhizomucor pusillus mycelium as a novel food in July 2026 with specified uses and population conditions, showing that a named fermentation-derived product can cross a legal authorization stage without closing broader food-system value. | Named product authorization and conditional-use stage. | Consumer demand, price, nutrition in real diets, scale, environmental performance or local ownership. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -36,15 +40,35 @@ The geography of production may shift from farms and fishing grounds toward ferm
 
 Food sovereignty is a central geopolitical question. A protein can be produced locally only if the organism, recipe, equipment, substrate, energy and regulatory capability are accessible. If core strains and platforms are controlled by a few firms, countries may trade dependence on imported feed and fertilizer for dependence on proprietary biological systems. The meaningful outcome is not production volume alone, but whether people can obtain safe, nutritious, culturally acceptable food at a reasonable price and whether local institutions retain agency.
 
+The 2026 regulatory evidence shows that “global scale-up” is not one pathway.
+FAO identifies jurisdictions that can apply existing rules and others that need
+clarification or reform; the UK is building practical production and hazard
+guidance; Singapore combines pre-market review with post-market monitoring and
+truthful descriptions; and the EU can authorize a specified product with use and
+population conditions. This creates a geopolitical conversion question: whether
+regulatory divergence becomes a safety safeguard, a trade barrier, a source of
+consumer clarity, or a route for firms to arbitrage weaker capacity. Authorization
+is a gate, not evidence of a culturally accepted or affordable food system.
+
 ## Counterexample and source boundary
 
 An investment total, patent, pilot plant, novel-food dossier, safety opinion, label, life-cycle claim, scale-up milestone or alternative-protein forecast is not by itself affordable nutritious food, cultural acceptance, transparent choice, farmer/worker benefit, lower environmental burden, resilient local supply or public trust. A product can be safe but unaffordable; lower land use but energy-intensive; clearly labeled but culturally rejected; or commercially available while inputs and intellectual property remain concentrated.
+
+A named EU authorization or a national safety guidance document can close a
+legal or technical stage while leaving unresolved whether the product reaches a
+representative household, at what price, with what nutrition, through which
+ownership structure, and with what effect on local producers and food practices.
 
 ## Promotion decision
 
 **Tier 1 bounded finding:** Precision-fermentation and cellular-agriculture investments, safety pathways, patents, labels, pilot plants and sustainability claims are not by themselves safe affordable nutritious food, cultural legitimacy, resilient local capability or equitable food-system transition.
 
 **Tier 2 mechanism candidate:** The next high-value conversion is **precision-fermentation-to-safe-affordable-nutritious-culturally-legitimate-food-and-local-capability**. The strongest next acquisition is a named product/facility/community chain linking organism and feedstock, energy/water, process, safety dossier, label, price, nutrition, buyer, farmer/worker effect, IP/control, cultural response and later food-access and environmental outcome.
+
+Add jurisdiction and monitoring fields: legal category, authority, dossier,
+conditions of use, post-market surveillance, label wording, enforcement, trade
+route, local production capability, price, nutrition, buyer, producer effect and
+community response.
 
 ## Sources
 
@@ -55,3 +79,7 @@ An investment total, patent, pilot plant, novel-food dossier, safety opinion, la
 - USDA Economic Research Service, [The Economics of Cellular Agriculture](https://ers.usda.gov/sites/default/files/_laserfiche/publications/110623/ERR-342.pdf)
 - USDA ERS, [Report summary](https://ers.usda.gov/sites/default/files/_laserfiche/publications/110623/ERR-342_summary.pdf)
 - Codex Alimentarius, [2026 circular letter on alternative proteins](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252FCodex%252FCircular%252520Letters%252FCL%2525202026-44%252Fcl26_44e.pdf)
+- FAO, [Regulatory frameworks for cell-based food and precision fermentation](https://www.fao.org/family-farming/detail/en/c/1757064/)
+- UK Food Standards Agency, [Precision-fermentation safety guidance](https://www.gov.uk/government/publications/technical-production-methods-of-precision-fermented-foods/technical-production-methods-of-precision-fermented-foods-identification-and-characterisation-of-hazards)
+- Singapore Food Agency, [New foods from fermentation](https://www.sfa.gov.sg/food-safety-tips/food-risk-concerns/risk-at-a-glance/new-foods-from-fermentation)
+- European Union, [2026/1507 authorisation of Rhizomucor pusillus mycelium](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1507)

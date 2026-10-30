@@ -3679,6 +3679,14 @@ The JP follow-up adds **online-gambling-intervention-volume-to-play-interruption
 
 The JP evidence adds **gambling-exposure-social-context-to-household-financial-health-youth-safety-and-durable-recovery** as a separate conversion question. The next ledger should preserve age, ethnicity, income, family context, product, payment, ad exposure, account-sharing, support barriers and substitution rather than reducing vulnerability to an individual risk score or intervention count.
 
+345. **A precision-fermentation safety dossier, novel-food authorization, production guidance, truthful label, investment total or named product is not by itself affordable nutritious food, culturally legitimate choice, farmer/worker benefit, local food capability or environmental improvement.** The 2026 evidence shows multiple regulatory clocks: FAO identifies legal gaps and implementation differences; the UK publishes practical safety guidance; Singapore combines pre-market review with post-market monitoring and truthful descriptions; and the EU authorizes a named mycelium product under specified uses and population conditions.
+
+The JT follow-up adds **precision-fermentation-regulatory-entry-to-monitored-safe-affordable-nutritious-culturally-legible-food-and-local-capability** as a separate conversion question. The evidence closes legal classification, safety-evidence and conditional market-entry stages, but no public source here closes household purchase, price, diet, producer effect, environmental performance, intellectual-property control or cultural acceptance.
+
+346. **Regulatory divergence can be both a safeguard and a distributional risk.** A jurisdiction-specific definition, dossier, label, monitoring rule or authorization condition may improve accountability for a local context, but it can also fragment trade, concentrate compliance capacity in large firms, create uneven consumer information and leave countries with weaker institutions dependent on imported organisms, equipment, ingredients or expertise.
+
+The JT evidence adds **food-technology-rule-to-cross-border-capability-consumer-clarity-local-production-and-cultural-legitimacy** as a separate conversion question. The next ledger should compare jurisdiction, product, conditions, enforcement, monitoring, price, trade route, local capability and community response rather than treating regulatory approval as a universal endpoint.
+
 ## What the evidence does not support
 
 Do not claim that:
