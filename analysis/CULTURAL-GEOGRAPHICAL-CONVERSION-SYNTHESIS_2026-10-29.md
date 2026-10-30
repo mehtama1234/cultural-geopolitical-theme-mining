@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HL
+**Date:** 2026-10-30; refreshed through Rotations D–HM
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3171,6 +3171,10 @@ The HK packet adds **cross-border-student-mobility-to-reciprocal-capability-and-
 
 The HL packet adds **AMR-signal-to-equitable-treatment-and-local-health-security conversion** with a source boundary around specimen, pathogen, resistance, diagnosis, laboratory, facility, geography, medicine, stock, price, prescription, dispensing, adherence, referral, outcome and recurrence across human, animal, plant and environmental systems. WHO supplies global surveillance, governance and named African capacity cases; CDC supplies a current XDR clinical boundary; the UN supplies the geopolitical review clock; and WHO AWaRe supplies availability concerns. These close measurement, governance and parts of clinical decision stages, but no public source here closes a comparable patient or cohort chain through receipt, completion, recovery and equity.
 
+218. **A national vaccination estimate, zero-dose count, campaign dose, mobile clinic, home visit, trust survey, communication plan, outbreak response or low case count is not by itself valid timely vaccination, informed consent, series completion, individual protection, equitable access, durable trust or resilient local health capacity.** Coverage can hide geographic clusters; non-vaccination can reflect stock, distance, conflict or documentation rather than refusal; and a campaign can reach people without closing the follow-up, adverse-event, protection or routine-care chain.
+
+The HM packet adds **vaccination-coverage-to-equitable-protection-and-durable-trust conversion** with a source boundary around antigen, dose, date, location, stock, outreach, language, disability, displacement, consent, confidence, adverse event, completion, protection, outbreak exposure and later routine uptake. WHO/UNICEF supply current global estimates and uncertainty; CDC supplies a named US outbreak and response; and WHO/UNICEF country cases supply Viet Nam, Syria and Mongolia delivery and trust mechanisms. These close coverage, response and access-adaptation stages, but no public source here closes a comparable child-level chain through valid completion, protection, safety response and durable routine trust.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3207,7 +3211,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HL.
+living goal. The current atlas baseline has been refreshed through Rotation HM.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,

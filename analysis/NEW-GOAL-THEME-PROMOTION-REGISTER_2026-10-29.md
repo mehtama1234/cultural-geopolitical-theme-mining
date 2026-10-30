@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29  
 **Purpose:** integrate the cross-rotation portfolio and the named conversion packets into one research-control register  
-**Status:** promotion-controlled living atlas; refreshed through Rotation HL; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
+**Status:** promotion-controlled living atlas; refreshed through Rotation HM; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
 
 ## Executive decision
 
@@ -435,6 +435,8 @@ and are not promoted as facts.
 | [Cross-border student mobility/belonging/skills rotation](ROTATION-HK-CROSS-BORDER-STUDENT-MOBILITY-BELONGING-SKILLS-2026-10-30.md) | education/migration/culture/labour/housing/geography/international enrolment/visa/fees/language/family/disability/progression/completion/work rights/retention/return/belonging/reciprocity | medium; OECD and UNESCO mobility scale and policy-package evidence plus named UK Graduate-route work, retention, policy-change and self-reported integration evidence | enrolment, destination concentration, visa, policy package, progression, completion, route transition, employment and reported integration | student housing, safety, support use, debt, learning, work quality, discrimination, independent belonging, local reciprocity, return, retention and long-run capability | Tier 1 bounded distinction plus Tier 2 cross-border-student-to-reciprocal-capability question |
 
 | [AMR surveillance/equitable treatment rotation](ROTATION-HL-AMR-SURVEILLANCE-EQUITABLE-TREATMENT-2026-10-30.md) | antimicrobial resistance/health security/geopolitics/public health/local capability/One Health/laboratories/diagnostics/stewardship/medicines/supply/access/conflict/displacement | medium; WHO global resistance and GLASS evidence, updated 2026–2036 global action plan, named Kenya/Rwanda/Sierra Leone surveillance cases, CDC XDR Salmonella case, UN mandate and AWaRe availability signal | resistance prevalence, reporting coverage, GLASS architecture, global governance, named laboratory capacity, clinical treatment boundary and medicine availability concerns | patient diagnosis, stock, price, prescription, dispensing, completion, recovery, recurrence, peripheral access, mortality and local legitimacy | Tier 1 bounded distinction plus Tier 2 AMR-signal-to-equitable-treatment-and-local-health-security question |
+
+| [Vaccination coverage/trust/equitable protection rotation](ROTATION-HM-VACCINATION-COVERAGE-TRUST-EQUITABLE-PROTECTION-2026-10-30.md) | public health/culture/geography/trust/conflict/global cooperation/immunization/zero-dose/measles/outbreaks/campaigns/home visits/language/disability/displacement/access | medium; WHO 2025 coverage and methodology, global inequality, CDC US outbreak and New Mexico response, named Viet Nam, Syria and Mongolia delivery/trust cases | coverage estimate, zero-dose signal, campaign, outbreak, response operation, access adaptation and confidence challenge | child-level receipt, dose validity, completion, protection, adverse-event response, subgroup trust, routine continuity and durable local legitimacy | Tier 1 bounded distinction plus Tier 2 vaccination-to-protection-and-durable-trust question |
 
 ## Decision
 
