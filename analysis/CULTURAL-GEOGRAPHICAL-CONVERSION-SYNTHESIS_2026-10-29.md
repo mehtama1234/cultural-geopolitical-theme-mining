@@ -2455,7 +2455,18 @@ to attribute that change to ULEZ alone. The six-month report adds 1,752 schools
 and 2,705 child asthma emergency admissions as place-based fields, but not
 same-child before/after evidence. DZ therefore now spans estimated exposure,
 targeted indoor operation and modeled health burden without closing individual
-causal health or remedy.
+ causal health or remedy.
+
+The DS refresh adds named cultural-relations and peacebuilding cases: the
+British Council's four-year Connections Through Culture evaluation reports
+continued counterpart relationships and perceived equity; UNESCO's Sri Lanka
+project connects Sinhala–Tamil intercultural dialogue to policy literacy and
+institutional engagement; and the Indonesia social-cohesion project reports
+youth-led cultural adaptation through Piil Pesenggiri. These close parts of
+relationship continuation, perceived reciprocity, institutional access and
+local cultural adaptation. They do not establish equal material power,
+community-wide benefit, durable trust, conflict reduction, cultural-rights
+remedy or later geopolitical behavior.
 
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,

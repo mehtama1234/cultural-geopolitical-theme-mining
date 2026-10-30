@@ -123,6 +123,49 @@ changed state behaviour without named longitudinal evidence.
 
 Source: [UNESCO Culture for Peace independent expert group report](https://articles.unesco.org/sites/default/files/medias/fichiers/2025/11/C4P_Report-of-the-Independent-Expert-Group-on-Culture-for-Peace.pdf).
 
+### 6. A four-year cultural-relations evaluation reaches reciprocity and relationship continuation
+
+The British Council's evaluation of Connections Through Culture covered 137
+projects linking UK cultural organisations with six Southeast Asian countries.
+It reports that 88% of questionnaire respondents said they continued their
+relationship with the counterpart after the project, 82% rated relationship
+equity high or very high, and 78% reported increased capacity and confidence
+to address gender, disability or other inequalities. These are unusually useful
+middle-stage results because they extend beyond event attendance into continued
+relationships and perceived equity. They remain programme-reported and
+participant-reported: they do not prove equal budgetary power, community-wide
+benefit, cultural-rights remedy or later foreign-policy change.
+
+Source: [British Council Connections Through Culture evaluation](https://www.britishcouncil.org/research-insight/connections-through-culture-evaluation-report).
+
+### 7. Sri Lankan intercultural dialogue connects cultural work to institutional voice
+
+UNESCO reports that Phase II of Sri Lanka's Social Dialogue for Peace and Crisis
+Prevention project strengthened nearly 70 community-forum members in policy
+literacy, intercultural dialogue and constructive engagement with local
+institutions. The Sinhala–Tamil framing and focus on agricultural, fisheries and
+plantation communities make language, livelihood and post-crisis geography
+visible in the mechanism. The public account documents capacity-building and a
+route into institutions, not yet whether officials changed a decision, whether
+women and vulnerable groups retained agenda-setting power, or whether trust,
+safety or conflict recurrence changed.
+
+Source: [UNESCO, Building inclusive recovery in Sri Lanka through intercultural dialogue](https://www.unesco.org/en/articles/building-inclusive-recovery-sri-lanka-through-intercultural-dialogue).
+
+### 8. Indonesia shows culture-based youth cohesion at scale, with attribution limits
+
+An EU-supported Strengthening Social Cohesion Project in Indonesia concluded
+after 30 months in 2025. The official account reports direct engagement with
+3,870 people and 23 youth-led civil-society organisations, with a claimed reach
+of more than 350,000 people. It adapted the Lampung cultural mechanism Piil
+Pesenggiri through peace education, youth voices and intergenerational dialogue.
+This is a named local-ownership and cultural adaptation case, but the reported
+reach is not the same as participant-level change; the account does not provide
+a comparison, durable trust measure, violence trend, institutional response or
+post-project financing and remedy.
+
+Source: [EU-supported Strengthening Social Cohesion Project in Indonesia](https://www.eeas.europa.eu/delegations/indonesia/eu-supported-%E2%80%9Cstrengthening-social-cohesion-project%E2%80%9D-concludes_en).
+
 ## Bounded proposition 124
 
 **A cultural-diplomacy strategy, international exhibition, language programme,
@@ -200,6 +243,8 @@ observable policy effect.
 
 The current packet closes the distinction between cultural diplomacy and
 cultural relations, the local-ownership mechanism, the intercultural-contact
-conditions and the culture-for-peace governance architecture. It does not close
-reciprocal benefit, cultural-rights remedy, durable local ownership, social
-cohesion, peace outcomes or geopolitical leverage for named programmes.
+conditions, the culture-for-peace governance architecture, and selected
+middle-stage cases of continued relationships, perceived equity, institutional
+engagement and youth-led cultural adaptation. It does not close reciprocal
+material benefit, cultural-rights remedy, durable local ownership, community-wide
+social cohesion, peace outcomes or geopolitical leverage for named programmes.

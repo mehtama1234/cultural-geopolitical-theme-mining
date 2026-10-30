@@ -23,6 +23,7 @@ research goal.
 | HD packet CSV shape | six rows and nine fields for HD; all six source IDs present | `ROTATION-HD-CLIMATE-MENTAL-HEALTH-PSYCHOSOCIAL-AGENCY-2026-10-29.csv` |
 | HE packet CSV shape | eleven rows and nine fields for HE; all eleven source IDs present after Bangladesh outcome/mechanism refresh | `ROTATION-HE-CLIMATE-SCHOOL-CONTINUITY-LEARNING-AGENCY-2026-10-29.csv` |
 | DZ packet CSV shape | nine rows and nine fields for DZ; all nine source IDs present after London exposure, mortality and child-health refresh | `ROTATION-DZ-AMBIENT-AIR-POLLUTION-ENVIRONMENTAL-JUSTICE-2026-10-29.csv` |
+| DS packet CSV shape | eight rows and nine fields for DS; all eight source IDs present after cultural-relations and peacebuilding case refresh | `ROTATION-DS-CULTURAL-DIPLOMACY-RECIPROCITY-LOCAL-OWNERSHIP-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
