@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IG
+**Date:** 2026-10-30; refreshed through Rotations D–IH
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3254,6 +3254,10 @@ The IF packet adds **informal-food-market-governance-to-safe-affordable-food-and
 238. **A toilet, latrine, open-defecation-free declaration, sanitation plan, desludging operation, treatment plant, coverage statistic or constructed handwashing station is not by itself safely managed sanitation, dignity, worker safety, environmental protection, affordability or disease reduction.** A facility can fail through water, maintenance, emptying, transport, treatment, unsafe dumping, inaccessible design or worker exposure.
 
 The IG packet adds **sanitation-construction-to-safe-affordable-worker-protected-service-chain conversion** with a source boundary around household/settlement need, toilet, containment, use, water, privacy, maintenance, emptying, worker PPE, transport, treatment, disposal/reuse, tariff, accessibility, flood/displacement, contamination, illness, dignity, complaint and remedy. UNICEF supplies global progress, India’s full chain, Mozambique’s milestone, Indonesia’s evaluation and Haiti’s crisis operation; WHO supplies health, system, worker-safety and Indonesia planning evidence; GLAAS supplies governance/equipment gaps. These close coverage, burden, planning, value-chain design, behavior and crisis-operation stages, but no public source here closes a comparable household/worker/environment chain through treatment, affordability, health and remedy.
+
+239. **A farmer registry, app, advisory, digital marketplace, platform-user count, climate-smart project or reported income signal is not by itself locally relevant advice, trusted use, affordable action, harvest, resilient income, food security or data agency.** A tool can be paid, inaccessible in local languages, late, disconnected from inputs or markets, or used without proving a causal farm outcome.
+
+The IH packet adds **digital-agriculture-delivery-to-locally-trusted-farmer-decision-and-resilient-income conversion** with a source boundary around farm need, language, identity, connectivity, privacy, weather, agronomy, market, advisory, interpretation, trust, input, finance, irrigation, action, cost, harvest, loss, price, income, food use, data control and repeat adaptation. IFAD supplies DPI/registry and delivery-system architecture; FAO supplies inclusion and evidence-quality warnings; World Bank supplies Kenya, KALRO, Côte d’Ivoire, West Africa and Sri Lanka cases. These close strategy, infrastructure, inclusion risk, scale, localization, marketplace, data integration and investment stages, but no public source here closes a comparable same-farmer chain through interpretation, action, harvest, income and repeat resilience.
 
 ## What the evidence does not support
 
