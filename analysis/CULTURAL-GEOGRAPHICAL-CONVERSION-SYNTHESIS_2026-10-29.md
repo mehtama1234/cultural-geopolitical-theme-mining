@@ -3795,6 +3795,12 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 388. **AI literacy is a cultural capability for questioning systems, not merely a technical skill for using them.** Critical verification and human agency can be taught, but their effects depend on language, devices, teacher capacity, curriculum, family trust and whether the institution rewards independent thinking rather than efficient output.
 
+389. **Climate-relocation evidence becomes stronger when it names a community, governing authority, financing route and implementation stage, but coordination is not continuity.** Fiji’s taskforce, Nabavatu planning, community-led pilot and trust-fund contribution, together with the U.S. tribally led relocation program, close institutional and self-determination pathways while leaving land, construction, services, livelihoods, host relations and post-move culture open.
+
+390. **The right to move is inseparable from a viable right to stay.** A last-resort relocation rule or dedicated fund can protect against forced displacement, but meaningful choice requires safe adaptation, transparent risk knowledge, land and tenure options, consent that is not coerced by service withdrawal, and the ability to contest or revise the decision.
+
+391. **A relocated house is not a relocated community.** Durable continuity requires functioning services, livelihood access, social networks, customary and intergenerational authority, cultural sites, host-community legitimacy, return or mobility options and a remedy pathway after the project is declared complete.
+
 ## What the evidence does not support
 
 Do not claim that:
