@@ -3515,6 +3515,10 @@ The KK follow-up adds an **AI-forecast-to-locally-governed-warning-and-action-eq
 
 The KC follow-up adds a **care-robotics-to-measured-home-acceptance-and-accountable-person-centred-use** distinction. Japan closes a named 12-week home-study design, explicit retention criteria, server-log measurement, support/adverse-event tracking and a public care-technology evaluation/diffusion infrastructure. These strengthen the measurement pathway, but no public source here closes the chain through inclusive recruitment, sustained voluntary use, privacy-respecting data governance, caregiver relief, health or loneliness outcomes and culturally legitimate care.
 
+304. **An agricultural robot, walk-behind tractor, drone service, local manufacturing effort, farmer-training program, digital-platform enrollment or reported acreage increase is not by itself affordable access, safe work, durable rural income, farmer data agency, reliable food production, ecological benefit or equitable transition.** FAO’s Karamoja account supplies a named farmer and a productivity signal; its African cases supply local-fit and service mechanisms; and World Bank platform counts supply reach, but none closes a durable farm/cooperative chain through cost recovery, uptime, income, safety and food-system resilience.
+
+The JZ follow-up adds an **agricultural-automation-to-scale-appropriate-service-local-capability-and-smallholder-agency** distinction. Uganda closes a named walk-behind-tractor and machine-service pathway; Ghana, Nigeria, Tanzania, Rwanda and Benin close locally adapted women/youth, processing, drone, robot, technician and repair pathways; and West Africa digital platforms close a reach and market/access layer. These counter the assumption that automation only serves large farms, while preserving the unresolved durability, ownership, maintenance, income and data-governance questions.
+
 ## What the evidence does not support
 
 Do not claim that:
