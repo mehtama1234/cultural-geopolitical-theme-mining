@@ -136,6 +136,61 @@ must observe who controls the phone, PIN, account, cash, spending decision,
 savings and complaint, as well as risks of intimate-partner coercion or
 community surveillance.
 
+### 7. Global scale shows architecture, not equal receipt
+
+The World Bank’s 2026 stocktaking covers 383 social-assistance programmes in
+123 countries. It finds digital payments widely used but mixed digital/manual
+systems still common, with payment methods, provider choice and account
+functionality varying across programmes. This is a valuable comparative map,
+but its scale does not join a named recipient to full-value receipt, cash-out,
+use, control or remedy.
+
+Source: [World Bank Digitalization of Social Assistance Payments: A Stocktaking](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099100826121526083).
+
+### 8. Digital transition needs layered choice and local access
+
+The World Bank’s 2026 Sahel adaptive-social-protection update reports that
+digital payments rose from 20% to 64% of payments between 2021 and 2025, while
+describing a Senegal pilot with layered payment options and risk controls for
+people with limited phone access, IDs or agent proximity. This closes a named
+design response to exclusion; it does not prove that every intended recipient
+received, cashed out or retained the intended value.
+
+Source: [World Bank climate-shock-responsive delivery systems](https://www.worldbank.org/en/programs/sahel-adaptive-social-protection-program-trust-fund/thematic-areas/climate-shock-responsive-delivery-systems).
+
+### 9. Cash-plus can create measurable human-capital results
+
+The World Bank’s 2026 Tanzania PSSN III account reports a productive cash-plus
+model combining transfers with savings, child health and education and
+self-employment support; it reports a six-percentage-point increase in school
+enrollment, improved food security and greater health-service use. These are
+important named results, but the account does not close payment-level timing,
+fees, control, subgroup variation, grievance, attribution or durability.
+
+Source: [World Bank Tanzania Productive Social Safety Net III](https://www.worldbank.org/en/news/factsheet/2026/03/31/the-tanzania-productive-social-safety-net-iii-pssn-iii).
+
+### 10. Payment predictability can matter more than payment modality
+
+World Bank social-protection evidence cautions that cash or digital modality
+alone does not automatically produce food security, dietary diversity,
+empowerment or financial inclusion. Choice, infrastructure, literacy,
+authentication fallbacks and the reliability of reaching cash or services can
+matter more than the nominal channel. This is a direct counterexample to
+digital-first promotion based on transaction speed alone.
+
+Source: [World Bank payment-mechanism evidence](https://documents1.worldbank.org/curated/en/099061324164535535/pdf/P176585149bfc00b2199421049786684bc5.pdf).
+
+### 11. Government payment systems are a public infrastructure question
+
+The World Bank’s 2026 payment-systems overview frames government as typically
+the largest payer or payee and emphasizes inclusive channels, beneficiary choice
+and convenience. That broadens the unit from a programme’s transfer process to
+the national payment infrastructure on which social protection, emergency
+response and public services depend, while leaving recipient-level reliability
+and remedy open.
+
+Source: [World Bank Payment Systems](https://www.worldbank.org/en/brief/2026/05/15/payment-systems).
+
 ## Bounded proposition 145
 
 **A social-protection entitlement, cash transfer, pension, child benefit,

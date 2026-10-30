@@ -579,6 +579,7 @@ and are not promoted as facts.
 - The Indigenous-AI packet now adds UNESCO’s 2026 data-commons and linguistic-diversity evidence plus UN consent, extraction and self-determination boundaries; these close representation and governance mechanisms, not community-controlled model outcomes or everyday service use.
 - The AI-humanitarian packet now includes UNHCR’s 2026 Cox’s Bazar and multi-geography pilots, the funding crisis, and the Security Council/ICRC civilian-protection boundary; these close operational and geopolitical mechanisms, not person-level protection, remedy or lawful humanitarian-military separation.
 - The digital-identity packet now includes UK 2026 inclusion monitoring, EU wallet rollout/onboarding, GOV.UK accessibility testing and the children-in-need pilot; these close market, interoperability and test-surface evidence, not completed service access, subgroup fairness or human recovery.
+- The G2P packet now includes the World Bank’s 2026 global stocktake, Sahel layered-payment transition, Tanzania cash-plus results, payment-modality counterexample and national payment-infrastructure frame; these close scale, selected welfare and architecture signals, not same-recipient receipt, control, real value or remedy.
 
 ## Decision
 
