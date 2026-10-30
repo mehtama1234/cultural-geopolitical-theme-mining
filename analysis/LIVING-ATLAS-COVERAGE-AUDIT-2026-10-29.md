@@ -43,6 +43,7 @@ research goal.
 | GW packet CSV shape | ten rows and nine fields for GW; all ten source IDs present after Nepal MIL, BARMM voter education, Budalangi warning and Rasuwa-Bhotekoshi named-case refresh | `ROTATION-GW-INFORMATION-INTEGRITY-LOCAL-PUBLIC-REASONING-2026-10-29.csv` |
 | GX packet CSV shape | ten rows and nine fields for GX; all ten source IDs present after ITER, SKAO, Gang Chen and mRNA-transfer named-case refresh | `ROTATION-GX-RESEARCH-SECURITY-OPEN-COLLABORATION-ACADEMIC-AUTONOMY-2026-10-29.csv` |
 | GY packet CSV shape | ten rows and nine fields for GY; all ten source IDs present after X-tee, Egypt GovStack, Catena-X/Ouranos and Moyale named-case refresh | `ROTATION-GY-STANDARDS-INTEROPERABILITY-PRACTICAL-SOVEREIGNTY-2026-10-29.csv` |
+| HA packet CSV shape | ten rows and nine fields for HA; all ten source IDs present after Trieste, Sri Lanka, Thailand and Kenya named-case refresh | `ROTATION-HA-MENTAL-HEALTH-DEINSTITUTIONALIZATION-LIVED-EXPERIENCE-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 

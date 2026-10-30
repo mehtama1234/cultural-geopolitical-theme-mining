@@ -2436,6 +2436,17 @@ the power to shape the service intended for them.
 
 The HA packet adds **deinstitutionalization-to-community-recovery-and-lived-agency conversion** with a source boundary around admission, discharge, funding, housing, income, care navigation, workforce, medication, psychosocial and peer support, family relationship, education, work, crisis recurrence, coercion, lived-experience governance, complaint, appeal and remedy.
 
+The HA refresh adds four place-bound mechanisms. Trieste shows open-door
+community centres, personalized budgets and supported work after hospital
+closure; Sri Lanka shows a long transition toward district, outreach and
+intermediate-care services while exposing workforce, legal, funding and
+provincial gaps; Thailand shows lived experience becoming certified and
+reimbursable peer support; and Kenya shows peer groups supporting treatment,
+housing, work and crisis decisions. These cases strengthen the mechanism and
+operation stages but do not justify a universal recovery claim: the next test
+must still join a named person to housing, continuity, choice, coercion,
+participation, crisis recurrence and remedy over time.
+
 210. **A procurement law, tender, local-content target, SME set-aside, social-value clause, supplier certificate, contract award, e-procurement dashboard or reported local-spend percentage is not by itself qualified local capability, fair competition, decent work, quality service, affordability, maintenance, innovation, resilience, anti-corruption, inclusion or public value.** A contract can be awarded without the supplier being able to perform at scale; a local percentage can be achieved through low-value or nominal subcontracting; and a social clause can exist without verified wages, safety, worker agency, delivery, user benefit, payment, correction or remedy.
 
 The HB packet adds **public-procurement-to-local-capability-and-fair-value conversion** with a source boundary around need definition, market engagement, lotting, qualification, competition, local content, SME access, finance, payment, prime and subcontractor performance, worker standards, delivery, quality, affordability, maintenance, user receipt, complaint, remedy and geographical distribution.

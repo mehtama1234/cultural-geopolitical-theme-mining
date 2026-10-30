@@ -67,6 +67,38 @@ institutional stay / crisis / policy reform / hospital closure / community plan
    service-network readiness matter; it is not evidence that the national
    transition has already delivered equitable recovery.
 
+## Named-case refresh
+
+7. Trieste, Italy, is a named community-care model following closure of its
+   large psychiatric hospital. WHO describes 24-hour open-door community
+   mental-health centres, personalized health budgets, supported work and
+   training through social enterprises, and a network serving about 4800 people
+   in 2018. This closes important mechanism and operation stages, but the case
+   should not be generalized into a universal template: cost, workforce,
+   housing, law and local history shape transferability, and the public record
+   does not provide a comparable person-level longitudinal counterfactual.
+8. Sri Lanka provides a lower-middle-income transition case. WHO describes a
+   move over four decades from an asylum-based model toward district hospitals,
+   outreach clinics, intermediate rehabilitation units and community services,
+   while identifying uneven provincial capacity, workforce shortages, outdated
+   law and unclear hospital/community funding. This is valuable evidence of
+   geographically distributed infrastructure and its constraints, not proof
+   that every discharged person received housing, choice, safety or recovery.
+9. Thailand's 2026 peer-support pathway shows how lived experience can become
+   an operating and financing mechanism. A Department of Mental Health service
+   standard was adopted for delivery under universal coverage; 20 people with
+   lived experience entered a pilot curriculum and 16 achieved certification,
+   creating stated capacity for up to 480 sessions annually. The evidence
+   closes training, certification and reimbursement architecture, while actual
+   user outcomes, continuity and influence over clinical decisions remain open.
+10. Kenya's Users and Survivors of Psychiatry peer-support network offers a
+    different community-power case. WHO reports 13 groups across six counties;
+    the Nairobi Mind Empowerment group helps members make decisions about work,
+    living arrangements and treatment, access benefits and plan for crises
+    without coercion. Qualitative findings support agency and autonomy as a
+    mechanism, but do not establish population-level housing, employment,
+    crisis-recurrence or non-coercion effects.
+
 ## Bounded proposition
 
 **A hospital closure, shorter stay, discharge plan, community mental-health
@@ -157,3 +189,7 @@ Tier 2 research opportunity, not a promoted causal finding.
 - WHO, [Countries moving away from coercive measures](https://www.who.int/europe/news-room/feature-stories/item/countries-move-away-from-using-coercive-measures-in-mental-health-care).
 - WHO Europe, [Poland community-based mental-health assessment](https://www.who.int/europe/publications/i/item/WHO-EURO-2026-12714-52488-81048).
 - WHO, [Mental health: strengthening our response](https://www.who.int/en/news-room/fact-sheets/detail/mental-health-strengthening-our-response).
+- WHO, [Community mental health services guidance and Trieste case](https://iris.who.int/bitstream/handle/10665/341648/9789240025707-eng.pdf).
+- WHO, [The case for shifting mental health care from institutions to communities](https://www.who.int/news-room/commentaries/detail/the-case-for-shifting-mental-health-care-from-institutions-to-communities).
+- WHO Thailand, [Peer support by people with lived experience](https://www.who.int/thailand/news/feature-stories/detail/transforming-mental-health-care-in-thailand-through-peer-support-by-people-with-lived-experience).
+- WHO, [Community-based mental health services using a rights-based approach](https://www.who.int/news-room/feature-stories/detail/community-based-mental-health-services-using-a-rights-based-approach).
