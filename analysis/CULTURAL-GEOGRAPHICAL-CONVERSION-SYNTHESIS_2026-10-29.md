@@ -3507,6 +3507,10 @@ The LQ follow-up adds a second official casualty and a positive safety-substitut
 
 The LO follow-up adds an **autonomous-certification-to-operational-boundary-and-worker-outcome** distinction. Nippon Foundation, MOL and MTI close certification and commercial-entry milestones across four vessel types; MLIT closes the current onboard-crew boundary and keeps workload change as a future verification question. The source conflict is itself a finding: commercial autonomous operation and crewless remote operation should be measured separately through autonomy hours, interventions, crew/FOC staffing, workload, incidents and route outcomes.
 
+302. **An operational AI weather model, lower compute cost, ensemble, hybrid architecture, local pilot, training program, nowcast skill score or scale-up roadmap is not by itself reliable local warning, usable uncertainty, safe action, avoided loss, livelihood protection or equitable climate resilience.** NOAA reports improved large-scale and track performance but a tropical-cyclone intensity degradation in AIGFS v1.0; WMO reports Malawi institutional completion without public household outcomes; and ANDeL reports declining short-horizon skill with lead time.
+
+The KK follow-up adds an **AI-forecast-to-locally-governed-warning-and-action-equity** distinction. NOAA closes a second national operational transition and a hybrid AI/physics architecture; WMO closes the Malawi pilot’s training, workflow, participatory-evaluation and scale-up stages; and ANDeL closes a locally developed West African nowcasting and talent pathway. These strengthen the case for regional capability, but no public source here closes a named hazard/place chain through warning receipt, comprehension, authorized action, response capacity, avoided loss and durable trust.
+
 ## What the evidence does not support
 
 Do not claim that:
