@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation KC
+**Date:** 2026-10-30; refreshed through Rotation KD
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3438,6 +3438,10 @@ The KB packet adds **quantum-sensing-to-calibrated-public-measurement-resilient-
 284. **An assistive-technology policy, robot prototype, rental price, pilot, user-positive survey, caregiver time saving, behavioral report, hospital interaction or workforce forecast is not by itself sustained autonomy, better health, reduced loneliness, safe care, dignity, privacy, equitable access, cultural legitimacy or durable caregiver relief.** A robot can reduce one physical burden while adding monitoring, maintenance or emotional labor; and positive trial attitudes do not prove long-term voluntary use.
 
 The KC packet adds **care-robotics-to-person-centred-autonomy-caregiver-relief-cultural-fit-and-accountable-home-care conversion** with a source boundary around person/provider/place, device and task, financing, consent, language and disability fit, training, use, alert or interaction, caregiver time, older-person experience, privacy, safety, repair, human fallback and later continuity or health outcome. WHO supplies the autonomy, ageing-in-place, financing, cost, ethics and safety frame; OECD supplies augmentation, PALRO rental, caregiver-burden, ROB-IN, workforce and informal-care evidence; and the European Commission supplies the ARI hospital-interaction case. These close opportunity, financing, labor, named-robot, access, home-data, hospital, health-system and workforce-pressure stages, but no public source here closes a comparable person/provider chain through sustained autonomy, better health, reduced loneliness, safe care, dignity, privacy, equitable access, cultural legitimacy and durable caregiver relief.
+
+285. **An eDNA detection, non-detection, metabarcoding result, autonomous sampler, reference-library match, biodiversity count, data release, invasive-species signal or monitoring standard is not by itself species abundance, local presence, eradication, ecosystem recovery, public-health protection, fisheries benefit, enforcement legitimacy or community consent.** DNA can be transported or degraded; false positives and negatives can produce costly interventions; and a larger taxonomic count does not prove healthier ecosystems.
+
+The KD packet adds **eDNA-signal-to-validated-biodiversity-decision-community-governance-and-ecological-outcome conversion** with a source boundary around sample/site/program, collection, assay, controls, reference library, detection, uncertainty, local interpretation, decision, intervention, affected community, cost, remedy and later ecological or livelihood outcome. USGS supplies the application, restoration, Santa Cruz Island and READI-Net/FIDO evidence; IUCN supplies sensitivity, standardization, reference-library and uncertainty guidance; and NOAA supplies the deep-ocean workflow and Okeanos Explorer data-release pathway. These close technology, uncertainty, place-based, operational, ocean, data, restoration and standardization stages, but no public source here closes a comparable sample/site chain through validated ecological inference, proportionate action, community authority, conservation success, public-health protection or livelihood benefit.
 
 ## What the evidence does not support
 
