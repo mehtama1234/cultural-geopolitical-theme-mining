@@ -27,6 +27,9 @@ central-bank mandate / wallet / payment rail
 | JS6 | The Bank’s design materials propose a public-private platform model in which the Bank operates core infrastructure and regulated private firms handle user-facing interactions and information. | Governance and intermediary model. | Concentration, service quality, exclusion, data use, cost or accountability at the user interface. |
 | JS7 | The Bank says a digital pound would complement rather than replace cash, with privacy commitments and no government or Bank programming of public money in the proposed design. | Cash coexistence and programmability boundary. | Future legislation, technical enforcement, merchant access, public trust or surveillance by intermediaries. |
 | JS8 | BIS reports that more than one-third of surveyed jurisdictions accelerated CBDC work in response to stablecoins and cryptoassets, showing that CBDCs are also a monetary-sovereignty and payment-competition response. | Geopolitical and monetary-competition mechanism. | Cross-border settlement, currency substitution, sanctions resilience, development impacts or citizen benefit. |
+| JS9 | Australia’s RBA and Treasury 2026 update, informed by public consultation, concludes there is currently no clear public-interest case for issuing a retail CBDC and says existing retail payments serve households and businesses well. | Named non-adoption counterexample and public-interest test. | Whether future payment needs change, wholesale/tokenized-market benefits, emergency resilience or whether alternatives preserve inclusion and privacy. |
+| JS10 | Norges Bank’s 2026 Phase 5 conclusion says introducing a CBDC is not currently warranted, while continuing tokenization and experimental technology work to remain prepared if future needs change. | Named exploratory-without-issuance pathway and option-value logic. | Future trigger, public mandate, actual use, privacy, offline access, merchant acceptance or monetary benefit. |
+| JS11 | The Bank of England’s offline digital-pound experiment found offline functionality technically feasible but built no digital-pound infrastructure and made no real-money payments; it identified trade-offs among double-spend/counterfeit controls, user experience, device cost and inclusion. | Concrete offline experiment boundary and design trade-offs. | Real incident continuity, adoption, merchant acceptance, affordability, liability, privacy in production or public trust. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -36,15 +39,17 @@ Offline capability is especially important across geographic inequalities. It ca
 
 CBDCs are also geopolitical infrastructure. Central banks are responding to stablecoins, tokenisation and changing payment power; cross-border CBDC arrangements may reduce friction but can also create new dependencies, privacy questions and jurisdictional conflicts. The relevant outcome is not whether a central bank has a pilot, but whether the payment system protects public agency, keeps cash and alternatives viable, remains resilient and earns trust across different social groups and places.
 
+The Australian and Norwegian cases prevent a false technology imperative. A central bank can invest in research, tokenization and contingency capability while deciding that retail issuance does not yet solve a public problem. That is not evidence that CBDCs are useless; it is evidence that public value must be demonstrated against existing payments, cash, private alternatives and specific unmet needs. The Bank of England experiment adds a second caution: offline capability is not a binary feature. Security limits, device requirements, recovery rules and user experience determine whether an offline design expands or narrows inclusion.
+
 ## Counterexample and source boundary
 
-An exploration survey, design paper, privacy promise, offline prototype, pilot, wallet, provider contract, interoperability forum or cash-coexistence statement is not by itself trusted everyday use, inclusion, privacy in practice, merchant acceptance, emergency continuity, financial stability or monetary sovereignty. A pilot can demonstrate technical settlement without proving adoption; offline payment can depend on pre-funding and hardware; and privacy at the central ledger can coexist with identification by intermediaries.
+An exploration survey, design paper, privacy promise, offline prototype, pilot, wallet, provider contract, interoperability forum, non-issuance decision or cash-coexistence statement is not by itself trusted everyday use, inclusion, privacy in practice, merchant acceptance, emergency continuity, financial stability or monetary sovereignty. A pilot can demonstrate technical settlement without proving adoption; an experiment can demonstrate feasibility without real-money continuity; offline payment can depend on pre-funding and hardware; and privacy at the central ledger can coexist with identification by intermediaries.
 
 ## Promotion decision
 
 **Tier 1 bounded finding:** CBDC surveys, architectures, privacy commitments, offline prototypes, pilots and public-private platform models are not by themselves trusted inclusive payments, practical privacy, emergency continuity, merchant acceptance or durable monetary sovereignty.
 
-**Tier 2 mechanism candidate:** The next high-value conversion is **CBDC-development-to-private-resilient-inclusive-everyday-payments-and-public-monetary-agency**. The strongest next acquisition is a named jurisdiction/user/community chain linking mandate, wallet, identity, intermediary, device, network/offline event, merchant acceptance, fee, privacy exposure, fraud remedy, cash alternative and later household/business payment outcome.
+**Tier 2 mechanism candidate:** The next high-value conversion is **CBDC-development-to-private-resilient-inclusive-everyday-payments-and-public-monetary-agency**. The strongest next acquisition is a named jurisdiction/user/community chain linking mandate, unmet need, wallet, identity, intermediary, device, network/offline event, merchant acceptance, fee, privacy exposure, fraud remedy, cash alternative and later household/business payment outcome. Compare issuance, non-issuance and exploratory jurisdictions rather than treating design maturity as public value.
 
 ## Sources
 
@@ -54,3 +59,6 @@ An exploration survey, design paper, privacy promise, offline prototype, pilot, 
 - ECB, [Digital euro privacy](https://www.ecb.europa.eu/euro/digital_euro/features/privacy/html/index.en.html)
 - Bank of England, [Digital pound design phase](https://www.bankofengland.co.uk/the-digital-pound/progress-update-digital-pound-design-phase)
 - Bank of England, [Digital pound blueprint framework](https://www.bankofengland.co.uk/report/2025/blueprint-framework-design-note)
+- Reserve Bank of Australia, [2026 retail CBDC public-interest assessment](https://www.rba.gov.au/payments-and-infrastructure/tokenised-money/current-initiatives.html)
+- Norges Bank, [2026 conclusion on CBDC issuance and continued exploration](https://www.norges-bank.no/en/news-events/news/News-items/2026/26-03-23-cbdc/)
+- Bank of England, [Offline digital-pound experiment and design trade-offs](https://www.bankofengland.co.uk/report/2025/digital-pound-experiment-report-offline-payments)

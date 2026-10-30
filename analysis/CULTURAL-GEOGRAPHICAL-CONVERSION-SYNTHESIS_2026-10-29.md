@@ -3647,6 +3647,14 @@ The JY follow-up adds a **gene-editing-pipeline-to-field-performance-seed-access
 
 The JY evidence adds **field-performance-to-public-breeding-germplasm-control-affordability-and-local-food-authority** as a separate conversion question. The next ledger should track licensing, seed-saving/exchange rules, extension, input requirements, farmer choice, local varieties, benefit sharing and market treatment alongside yield and safety.
 
+337. **A CBDC exploration survey, digital-euro design, offline prototype, privacy commitment, public-private platform, pilot plan, non-issuance decision or tokenization experiment is not by itself trusted everyday use, practical privacy, inclusion, merchant acceptance, emergency continuity, financial stability or monetary sovereignty.** Australia concludes that no clear public-interest case currently exists for a retail CBDC; Norway says issuance is not currently warranted; and the UK offline experiment found technical feasibility without real-money payments and with security, usability and device-cost trade-offs.
+
+The JS follow-up adds a **CBDC-policy-momentum-to-public-interest-test-design-offline-constraint-issuance-choice-and-everyday-payment-outcome** distinction. The evidence now closes both adoption-oriented and non-adoption pathways, but no public source here closes a named jurisdiction through unmet need, onboarding, merchant use, privacy in practice, emergency continuity, fraud remedy, cash coexistence and household or business benefit.
+
+338. **A central bank’s decision not to issue a retail CBDC is not evidence of technological failure, just as a pilot or design milestone is not evidence of public value.** Non-issuance may preserve option value while alternatives serve current needs; issuance may become justified if payment infrastructure, private money, cross-border dependence or resilience conditions change. The relevant evidence is the counterfactual: which named user or community problem is solved, for whom, at what cost, and with what effect on cash, privacy and intermediary power.
+
+The JS evidence adds **payment-problem-to-public-option-counterfactual-inclusion-privacy-resilience-and-monetary-agency** as a separate conversion question. The next ledger should compare CBDC, cash, instant payments, bank deposits, stablecoins and tokenized-money alternatives for the same user, merchant or emergency context rather than treating CBDC status as the unit of progress.
+
 ## What the evidence does not support
 
 Do not claim that:
