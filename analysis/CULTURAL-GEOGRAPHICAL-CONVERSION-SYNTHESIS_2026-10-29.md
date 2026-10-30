@@ -1789,7 +1789,20 @@ continue needed care, avoid forgone treatment and harmful debt, protect food,
 housing, work and caregiving, or obtain correction and remedy when payment or
 coverage failed.
 
+151. **A tax-capacity reform, revenue increase, taxpayer register, e-filing system,
+audit programme, VAT or property-tax change, anti-evasion drive, tax amnesty,
+public-spending dashboard or fiscal-transfer rule is not by itself fair burden
+sharing, visible public value, usable public service, voluntary compliance,
+trust, household security, firm viability or fiscal legitimacy.** Tax-to-GDP,
+registrations, filings, audits, payments, arrears recovery, digital adoption,
+revenue identified or budgeted do not establish that named taxpayers and firms
+could understand and pay without harmful trade-offs, obtain fair treatment and
+remedy, see collected resources converted into an accessible local service, or
+change later compliance because the fiscal exchange became credible.
+
 The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior. The DT packet adds **informal-food-market-policy-to-safe-affordable-cultural-food-and-dignified-livelihood** with a source boundary around nutrition, affordability, foodborne illness, vendor income, women’s control, displacement, cultural continuity and post-shock governance. The DU packet adds **local-medicine-production-to-quality-assured-patient-continuity-and-regional-health-sovereignty** with a source boundary around product availability, affordability, quality, rural continuity, workforce capability and durable geopolitical leverage. The DV packet adds **mega-event-to-durable-host-city-legacy-and-legitimate-geopolitical-reputation** with a source boundary around resident wellbeing, worker remedy, post-event affordability, maintenance, cultural belonging and reputation after scrutiny. The DW packet adds **Arctic-corridor-to-Indigenous-community-sovereignty-and-safe-local-benefit** with a source boundary around community benefit, food security, cultural continuity, emergency response, remedy and durable sovereignty.
+
+The ET packet adds **tax-capacity-to-visible-public-value-and-voluntary-compliance** with a source boundary around named taxpayer burden, local service receipt, budget execution, refund and appeal fairness, household and firm consequences, gendered burden, later voluntary compliance and durable fiscal legitimacy.
 
 The DX packet adds **municipal-waste-policy-to-safe-circular-service-and-waste-picker-just-transition** with a source boundary around exposure reduction, service reliability, worker income, child protection, social protection, material recovery, neighbourhood equity and post-reform power.
 
@@ -1871,7 +1884,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation ES.
+living goal. The current atlas baseline has been refreshed through Rotation ET.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
