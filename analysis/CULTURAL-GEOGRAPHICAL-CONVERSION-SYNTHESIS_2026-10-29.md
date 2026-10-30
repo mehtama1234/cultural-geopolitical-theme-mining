@@ -3819,6 +3819,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 400. **A public hearing closes visibility of conflict, not influence over the project.** A named 120 MW proposal can expose noise, trees, water, electricity and bushland-interface trade-offs; only recorded conditions, community influence, compliance, remedy and post-operation evidence show whether participation changed the host-place bargain.
 
+401. **Community co-design and staged reversibility are stronger than generic consultation, but they do not automatically establish authority.** A named Nunavut climate-cooling experiment can close place, oversight and engagement stages while leaving local decision power, ecological effect, benefit distribution and global climate accountability open.
+
 ## What the evidence does not support
 
 Do not claim that:
