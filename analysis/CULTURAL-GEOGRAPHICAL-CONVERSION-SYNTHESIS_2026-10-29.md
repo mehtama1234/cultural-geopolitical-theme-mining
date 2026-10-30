@@ -2047,6 +2047,16 @@ not establish that named students and educators could safely teach, learn,
 question, research, publish, organize, dissent, receive fair employment,
 contest decisions or translate knowledge into durable public value.
 
+175. **A press-freedom index, public broadcaster, digital-news platform, newsroom,
+media grant, fact-checking tool, journalist-protection program, content-moderation
+policy, election-information campaign or international condemnation is not by
+itself independent journalism, safe reporting, plural local information,
+public understanding, accountability, cultural voice or civic agency.** A
+publication, audience, reach, killing count, platform impression or correction
+does not establish that named people received accessible and trustworthy
+information, that journalists were safe and fairly employed, or that public
+institutions changed behavior in response.
+
 The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior. The DT packet adds **informal-food-market-policy-to-safe-affordable-cultural-food-and-dignified-livelihood** with a source boundary around nutrition, affordability, foodborne illness, vendor income, women’s control, displacement, cultural continuity and post-shock governance. The DU packet adds **local-medicine-production-to-quality-assured-patient-continuity-and-regional-health-sovereignty** with a source boundary around product availability, affordability, quality, rural continuity, workforce capability and durable geopolitical leverage. The DV packet adds **mega-event-to-durable-host-city-legacy-and-legitimate-geopolitical-reputation** with a source boundary around resident wellbeing, worker remedy, post-event affordability, maintenance, cultural belonging and reputation after scrutiny. The DW packet adds **Arctic-corridor-to-Indigenous-community-sovereignty-and-safe-local-benefit** with a source boundary around community benefit, food security, cultural continuity, emergency response, remedy and durable sovereignty.
 
 The ET packet adds **tax-capacity-to-visible-public-value-and-voluntary-compliance** with a source boundary around named taxpayer burden, local service receipt, budget execution, refund and appeal fairness, household and firm consequences, gendered burden, later voluntary compliance and durable fiscal legitimacy.
@@ -2140,6 +2150,8 @@ The FP packet adds **youth-training-to-decent-work-and-local-agency** with a sou
 The FQ packet adds **religious-freedom-to-lived-belief-and-minority-agency** with a source boundary around named daily practice, safety, equal treatment, registration, mobility, family and cultural continuity, work, education, burial, online participation, reporting, remedy, recurrence and durable coexistence.
 
 The FR packet adds **academic-freedom-to-plural-knowledge-and-community-agency** with a source boundary around named teaching, learning, research, debate, dissemination, employment, student safety, institutional autonomy, data and language governance, community participation, public use, trust and remedy.
+
+The FS packet adds **press-freedom-to-local-information-and-civic-agency** with a source boundary around named outlet and journalist safety, viability, editorial independence, language and geographic coverage, audience access and comprehension, source protection, correction, institutional response, continuity and remedy.
 
 ## What the evidence does not support
 
