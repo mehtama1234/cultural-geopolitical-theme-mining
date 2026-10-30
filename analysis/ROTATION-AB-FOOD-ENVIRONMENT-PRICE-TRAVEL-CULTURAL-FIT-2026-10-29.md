@@ -56,6 +56,45 @@ This is a mechanism finding, not a causal estimate of any one retailer or
 program. The evidence supports separating geography, affordability and
 acquisition; it does not yet support a single national “food access” score.
 
+## Named-case refresh
+
+These cases make the feasible choice set visible at the level of business model,
+place and household constraint:
+
+### AB6 — Farm Runners, Colorado
+
+USDA’s [independent-grocer case studies](https://www.ams.usda.gov/services/local-regional/research-publications/resources/local-sourcing-innovation-independent-and-locally-owned-groceries) describe Farm Runners as a distribution-focused model sourcing from more than 100 producers and reaching more than 500 customers. The case tests a logistics intervention: local food can exist in the region yet remain inaccessible without aggregation, delivery and a viable route to customers. It closes part of the producer-to-consumer geography. It does not establish customer affordability, travel-time savings, dietary adequacy, cultural fit, repeat use or long-run business viability.
+
+### AB7 — Rolling Grocer, New York
+
+USDA describes Rolling Grocer as a nonprofit store model using a three-tiered Fair Pricing System that subsidizes purchases for low-income residents. This case makes price a designed feature of the retail environment rather than an individual household failure. It closes part of the affordability-to-store route, but the case does not provide household-level trip completion, basket quality, cultural acceptability, health or longitudinal food-security outcomes.
+
+### AB8 — Farmacy Marketplace, Mississippi
+
+USDA identifies Farmacy Marketplace as a nonprofit grocery model serving rural communities. The case highlights rural store viability and local supply as distinct from simple straight-line distance. It closes a place-level retail presence and local-food infrastructure stage, but does not show that every nearby household can reach the store, afford its basket, find preferred foods or shop there repeatedly.
+
+### AB9 — Balls Food Stores, Kansas and Missouri
+
+USDA describes Balls Food Stores as a family-owned supermarket model using a central warehouse to aggregate and distribute local food to more than 50 stores in the Kansas City metropolitan area. This closes an infrastructure bottleneck between local producers and a multi-store retail network. It does not establish that local sourcing lowers prices, improves cultural fit, changes household travel or produces better diets; scale of distribution is not the same as household acquisition.
+
+### AB10 — Rural convenience-store produce counterexample
+
+USDA’s [rural food-access materials](https://training-portal.nifa.usda.gov/web/crisprojectpages/1024433-double-up-food-bucks-expansion-fruit-and-vegetables-in-rural-food-access-points.html) note that rural towns face store closures and that convenience stores do not consistently stock highly perishable fruits and vegetables. This is a direct counterexample to treating a nearby food outlet as an adequate food environment: distance can be short while inventory, perishability, price and nutritional choice remain poor. The source describes a programme challenge rather than a named household outcome, so it does not prove that every rural convenience store fails or that a new incentive would solve the problem.
+
+### Case-ledger conclusion
+
+The refresh closes portions of local-food logistics, tiered affordability, rural
+store presence and producer-to-retail aggregation. It also sharpens the
+measurement boundary: a retailer can be nearby but too expensive, a local food
+system can be culturally meaningful but too thinly distributed, and a large
+network can carry local products without changing a household’s feasible basket.
+The decisive ledger remains:
+
+`place/household → price and time budget → reachable store or alternative → inventory and cultural fit → completed trip/basket → repeat acquisition and diet`
+
+No case yet closes that route for the same household across changing prices,
+travel constraints and seasons.
+
 ## Cultural and geographical interpretation
 
 The relevant place is not merely the census tract. It is the route a household
