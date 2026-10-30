@@ -22,7 +22,7 @@ research goal.
 | Energy-affordability refresh CSV shape | eight rows and nine fields for ENR; all eight source IDs present after IEA/EPA refresh | `ROTATION-Z-ENERGY-INSECURITY-UTILITY-DISCONNECTION-HOUSEHOLD-OPTIONS-2026-10-29.csv` |
 | HD packet CSV shape | six rows and nine fields for HD; all six source IDs present | `ROTATION-HD-CLIMATE-MENTAL-HEALTH-PSYCHOSOCIAL-AGENCY-2026-10-29.csv` |
 | HE packet CSV shape | eleven rows and nine fields for HE; all eleven source IDs present after Bangladesh outcome/mechanism refresh | `ROTATION-HE-CLIMATE-SCHOOL-CONTINUITY-LEARNING-AGENCY-2026-10-29.csv` |
-| DZ packet CSV shape | seven rows and nine fields for DZ; all seven source IDs present after London ULEZ and school-filter case refresh | `ROTATION-DZ-AMBIENT-AIR-POLLUTION-ENVIRONMENTAL-JUSTICE-2026-10-29.csv` |
+| DZ packet CSV shape | nine rows and nine fields for DZ; all nine source IDs present after London exposure, mortality and child-health refresh | `ROTATION-DZ-AMBIENT-AIR-POLLUTION-ENVIRONMENTAL-JUSTICE-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 

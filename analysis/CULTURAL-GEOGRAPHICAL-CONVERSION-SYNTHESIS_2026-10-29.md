@@ -2449,6 +2449,13 @@ schools prioritized by air quality and deprivation. These advance DZ beyond
 global mechanism evidence into operation and distribution, but modeled
 concentrations and equipment provision do not establish person-level dose,
 health, mobility affordability, traffic displacement, classroom use or remedy.
+The 2026 London health-burden assessment adds a pollution-to-modeled-mortality
+path, estimating a lower 2019–2024 mortality burden, while explicitly declining
+to attribute that change to ULEZ alone. The six-month report adds 1,752 schools
+and 2,705 child asthma emergency admissions as place-based fields, but not
+same-child before/after evidence. DZ therefore now spans estimated exposure,
+targeted indoor operation and modeled health burden without closing individual
+causal health or remedy.
 
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,

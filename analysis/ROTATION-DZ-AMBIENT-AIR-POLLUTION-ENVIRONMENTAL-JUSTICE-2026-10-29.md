@@ -158,6 +158,34 @@ PM2.5, classroom use, attendance, symptoms, learning or maintenance over time.
 
 Source: [Mayor of London's Annual Report 2024–25](https://www.london.gov.uk/who-we-are/what-mayor-does/our-publications/mayor-londons-annual-report-2024-25).
 
+### 9. The 2024 London health-burden estimate reaches mortality, but not ULEZ attribution
+
+An Imperial College London assessment commissioned by City Hall and TfL
+estimated that the number of premature deaths attributable to London air
+pollution fell from approximately 6,400–8,000 in 2019 to 3,800–5,100 in 2024,
+an approximate 40% reduction under the updated method and a scenario in which
+only pollution concentrations changed. The associated economic cost was
+estimated at £3.8–£5.1 billion. This is materially stronger than an exposure
+indicator because it reaches a modeled health burden, but the official note
+explicitly says it does not isolate ULEZ or any single policy; it includes
+long-term trends and multiple interventions. It therefore closes a
+pollution-to-modeled-mortality arrow, not a ULEZ-to-individual-health arrow.
+
+Source: [Health burden of air pollution in London in 2024](https://www.london.gov.uk/programmes-strategies/environment-and-climate-change/environment-and-climate-change-case-studies-test/health-burden-air-pollution-london-2024) and [City Hall attribution note](https://www.london.gov.uk/Mayor%20hails%20huge%20success%20of%20landmark%20ULEZ%20and%20bold%20clean%20air%20policies%20as%20deaths%20linked%20to%20toxic%20air%20fall%20by%20around%2040%20per%20cent).
+
+### 10. Children make the place-and-health gap visible
+
+The London-wide ULEZ six-month report records 1,752 schools and other
+educational establishments, serving about 880,000 attendees, inside the
+expanded zone. It also reports 2,705 emergency asthma admissions among London
+children under 19 in 2022/23 and notes that pollution exposure is higher for
+more deprived and Black, Asian and Minority Ethnic communities. These are
+important place-based exposure and health-burden fields, but the report does
+not follow the same children before and after ULEZ exposure or identify how
+much of the admissions burden the scheme changed.
+
+Source: [London-wide ULEZ six-month report](https://www.london.gov.uk/sites/default/files/2024-07/London-wide%20ULEZ%20Six%20Month%20Report.pdf).
+
 ## Bounded proposition 131
 
 **An air-quality standard, industrial retrofit, emissions reduction, low-emission
@@ -201,6 +229,9 @@ remedy when pollution was displaced or data were contested.
 - A modeled policy counterfactual can identify an estimated intervention effect
   on concentrations without identifying actual inhaled dose, health improvement,
   cost distribution or displacement to an adjacent place.
+- A modeled decline in population mortality burden can coexist with unequal
+  local exposure and cannot be attributed to one policy when long-term trends
+  and multiple interventions changed simultaneously.
 - Health messaging can help people adapt but cannot substitute for source control,
   affordable mobility, housing quality, clinical access and enforcement.
 
@@ -232,6 +263,7 @@ commuters, older people and households with limited relocation capacity.
 
 The current packet closes the ambient-health-risk, spatial-inequality, monitoring,
 mobility and burden mechanisms, and now part of the named London policy-to-
-estimated-exposure path. It does not close person-level dose, exposure-to-health,
-traffic displacement, affordability, school/work continuity, enforcement or
-remedy outcomes. Those remain acquisition targets.
+estimated-exposure path, and the London program now has a separate
+pollution-to-modeled-mortality path. It does not close ULEZ-to-person health,
+person-level dose, traffic displacement, affordability, school/work continuity,
+enforcement or remedy outcomes. Those remain acquisition targets.
