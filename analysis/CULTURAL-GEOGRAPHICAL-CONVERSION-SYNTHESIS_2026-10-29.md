@@ -2095,6 +2095,15 @@ school does not establish that named learners were safe, could disclose without
 retaliation, received effective support, learned without fear or experienced
 non-recurrence.
 
+180. **A court, legal-aid statute, lawyer network, online filing system, mediation
+program, community paralegal, justice hotline, rights campaign, case-clearance
+target or favorable judgment is not by itself meaningful access to justice,
+fair process, affordable protection, enforceable remedy, safety, housing,
+livelihood continuity or institutional trust.** A legal right, referral,
+registration, hearing, settlement or order does not establish that named people
+understood the route, could participate without retaliation, received a usable
+outcome or avoided recurrence.
+
 The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior. The DT packet adds **informal-food-market-policy-to-safe-affordable-cultural-food-and-dignified-livelihood** with a source boundary around nutrition, affordability, foodborne illness, vendor income, women’s control, displacement, cultural continuity and post-shock governance. The DU packet adds **local-medicine-production-to-quality-assured-patient-continuity-and-regional-health-sovereignty** with a source boundary around product availability, affordability, quality, rural continuity, workforce capability and durable geopolitical leverage. The DV packet adds **mega-event-to-durable-host-city-legacy-and-legitimate-geopolitical-reputation** with a source boundary around resident wellbeing, worker remedy, post-event affordability, maintenance, cultural belonging and reputation after scrutiny. The DW packet adds **Arctic-corridor-to-Indigenous-community-sovereignty-and-safe-local-benefit** with a source boundary around community benefit, food security, cultural continuity, emergency response, remedy and durable sovereignty.
 
 The ET packet adds **tax-capacity-to-visible-public-value-and-voluntary-compliance** with a source boundary around named taxpayer burden, local service receipt, budget execution, refund and appeal fairness, household and firm consequences, gendered burden, later voluntary compliance and durable fiscal legitimacy.
@@ -2198,6 +2207,8 @@ The FU packet adds **public-integrity-to-fair-delivery-and-citizen-trust** with 
 The FV packet adds **participatory-governance-to-local-power-and-public-value** with a source boundary around named participant and excluded group, recruitment, decision rule, agenda, discretionary funds, proposal, deliberation, vote, official response, allocation, implementation, maintenance, service outcome, trust and remedy.
 
 The FW packet adds **school-safety-to-safe-learning-and-belonging** with a source boundary around named learner, teacher, school, exposure, identity, reporting, response, confidentiality, support, discipline, attendance, learning, wellbeing, teacher conditions, recurrence and remedy.
+
+The FX packet adds **legal-need-to-affordable-fair-remedy-and-household-security** with a source boundary around named person or group, legal need, route, language, disability, cost, safety, intermediary, service, hearing or mediation, decision, enforcement, material result, fairness, recurrence and remedy.
 
 ## What the evidence does not support
 
