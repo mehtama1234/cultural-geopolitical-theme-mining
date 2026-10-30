@@ -119,3 +119,48 @@ data and repair decision.
 3. [UNDP Independent Evaluation Office — expanding access to energy with renewable sources](https://www.undp.org/evaluation/publications/expanding-access-energy-renewable-sources)
 4. [UNDP Moldova — first renewable energy communities](https://www.undp.org/moldova/press-releases/republic-moldova-launches-first-renewable-energy-communities-support-sweden-norway-and-undp)
 5. [UNDP — participation in just energy transitions](https://www.undp.org/policy-centre/governance/publications/how-can-participation-deliver-just-energy-transitions)
+
+## Named case refresh
+
+### Indonesia ACCESS: community-managed renewable systems reach productive use
+
+UNDP reports that the 2020–2025 ACCESS project installed 1.1 MW of renewable
+systems across 22 Indonesian villages, serving 3,449 households and more than
+22,000 people. Local institutions manage the systems; at least 30% of direct
+beneficiaries were women; 30 of 32 supported micro and small enterprises were
+women-led; and village enterprises reported monthly revenues between Rp1.5
+million and Rp11.6 million. This closes a stronger access-to-management-to-
+productive-use pathway than a capacity announcement. It still does not provide
+comparable tariff, uptime, outage, maintenance, debt, nonparticipant or
+five-year ownership evidence, and reported business revenue is not the same as
+household welfare.
+
+Source: [UNDP, ACCESS project results](https://www.undp.org/indonesia/news/access-project-wins-subroto-award-indonesia-nears-full-electrification).
+
+### Women’s participation reached tariff deliberation, not only training
+
+UNDP's Indonesia case reports women participating in tariff discussions for
+communal solar installations: 150 of 500 participants in one tariff agreement
+discussion and 277 of 814 in a later socialisation process. Community leaders
+used women's feedback to identify productive uses such as household education,
+and the initiative set a 30% women-operator training target. This makes gender
+and tariff governance observable, but participation counts do not establish
+decision influence, affordability for women-headed or poor households, control
+of revenue, maintenance authority or safety.
+
+Source: [UNDP, Empowering women in remote villages through ACCESS](https://www.undp.org/indonesia/stories/empowering-women-remote-villages-through-access-initiative).
+
+### Moldova: energy communities and compensation are complementary, not interchangeable
+
+UNDP reports that four renewable-energy communities in Moldova were already
+operational in 2026, with two more in preparation. The model brings together
+residents, local authorities and businesses, with technical and financial
+support, co-financing, smart-energy possibilities and priority for women and
+energy-vulnerable households. Separately, Moldova's Energy Vulnerability
+Reduction Fund reached around 60% of households during the 2024–2025 cold
+season and reduced energy and monetary poverty. The two routes should not be
+collapsed: compensation protects households from price shocks, while an energy
+community changes generation, ownership and use. Neither public account closes
+long-run bills, uptime, maintenance, member power or post-subsidy durability.
+
+Sources: [UNDP Moldova renewable-energy communities](https://www.undp.org/moldova/press-releases/italy-and-undp-support-establishment-new-renewable-energy-communities-republic-moldova) and [UNDP Moldova welfare impact of energy compensations](https://www.undp.org/moldova/publications/report-welfare-impact-energy-compensations-moldova-2021-2025).

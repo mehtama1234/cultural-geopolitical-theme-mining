@@ -2512,6 +2512,17 @@ into planned nutrition design, operating enterprise and material-plus-cultural
 food outcomes, but do not establish secure territory, household nutrition,
 gendered authority, durable income, knowledge sovereignty or self-determination.
 
+The DN refresh adds named distributed-energy operation: Indonesia ACCESS reports
+1.1 MW serving 3,449 households and more than 22,000 people, women-led MSMEs
+and village-enterprise revenues; a related case makes women’s participation in
+tariff deliberation visible. Moldova adds four operational renewable-energy
+communities alongside a separate compensation fund that reached about 60% of
+households and reduced energy and monetary poverty. These close parts of
+connection, management, productive use, gendered voice, community formation and
+affordability protection. They do not close tariff fairness, uptime, outage and
+maintenance, household welfare, revenue control, durable ownership or
+post-finance local power.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
