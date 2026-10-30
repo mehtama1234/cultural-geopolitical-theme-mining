@@ -3571,6 +3571,10 @@ The L follow-up adds a **rural-health-funding-to-facility-viability-encounter-ti
 
 The LM follow-up adds a **named-route-autonomy-to-primary-ROC-milestone-current-crewing-road-substitution-and-local-accountability** distinction. The new primary operator evidence strengthens the chronology and confirms that autonomy is being built through staged shore operations, but it does not erase the source conflict or substitute for certification, route reliability, lifecycle accounting, worker terms, emergency drills and community evidence.
 
+318. **A sea-drone corridor, projected full-operation capacity, reported truckload shift, autonomous-navigation permission, shore-supervision milestone or electric-chain claim is not by itself stable grocery logistics, safe ferry interaction, verified emissions reduction, completed service, decent remote work or local legitimacy.** Norway’s model sets a full-operation baseline; ASKO reports 9,000 truckloads fossil-free in 2024 while acknowledging unstable operations; and Norwegian law establishes a safety-equivalence route for permission without proving ASKO-specific performance.
+
+The LN follow-up adds a **sea-drone-projection-to-observed-utilization-failure-recovery-legal-permission-and-everyday-service** distinction. The evidence now joins system opportunity, current operator disclosure and legal boundary, but no public source here closes comparable denominators, route reliability, ferry incidents, customer continuity, worker workload, lifecycle emissions or community outcomes.
+
 ## What the evidence does not support
 
 Do not claim that:
