@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29  
 **Purpose:** integrate the cross-rotation portfolio and the named conversion packets into one research-control register  
-**Status:** promotion-controlled living atlas; refreshed through Rotation HJ; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
+**Status:** promotion-controlled living atlas; refreshed through Rotation HK; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
 
 ## Executive decision
 
@@ -431,6 +431,8 @@ and are not promoted as facts.
 | [Digital age-assurance/youth safety rotation](ROTATION-HI-DIGITAL-AGE-ASSURANCE-YOUTH-SAFETY-2026-10-30.md) | children/youth/digital culture/age assurance/privacy/safety/rights/platforms/biometrics/identity/appeal/access/geography/language/disability/circumvention/VPN/search/content/contact/wellbeing | medium; Ofcom child-experience, deployment and circumvention evidence, ICO privacy/non-discrimination principles and named MediaLab.AI, Yubo and Xgroovy cases, plus FTC narrow processing conditions | age-risk signal, assurance method, threshold, pass/fail, deployment, deterrence, enforcement, privacy/deletion criteria and named mechanism | child-level accuracy, false rejection/acceptance, subgroup performance, appeal, privacy experience, lawful information access, displaced route, harmful exposure, help-seeking, wellbeing and durable trust | Tier 1 bounded distinction plus Tier 2 age-assurance-to-safe-and-legitimate-youth-participation question |
 
 | [Forced-labour due diligence/worker remedy rotation](ROTATION-HJ-FORCED-LABOUR-DUE-DILIGENCE-WORKER-REMEDY-2026-10-30.md) | labour/supply chains/trade/geopolitics/migration/worker agency/recruitment debt/documents/wages/hours/movement/grievance/remedy/shipments/borders/buyers/suppliers/informal tiers/Top Glove/Zhen Fa 7/Egypt/Uganda | medium; ILO forced-labour indicators and handbook, OECD remedy and implementation gaps, CBP named Zhen Fa 7 WRO, ILO Top Glove remediation case, Egypt assessment and Uganda community-monitoring/referral case, EU due-diligence architecture | risk signal, indicators, due diligence, grievance infrastructure, supplier monitoring, WRO/seizure/release, named remediation and referral operation | worker identity, safe disclosure, retaliation, remedy receipt, freedom, wages, livelihood, voice, commercial-practice change, recurrence and local legitimacy | Tier 1 bounded distinction plus Tier 2 forced-labour-to-safe-recovery-and-non-recurrence question |
+
+| [Cross-border student mobility/belonging/skills rotation](ROTATION-HK-CROSS-BORDER-STUDENT-MOBILITY-BELONGING-SKILLS-2026-10-30.md) | education/migration/culture/labour/housing/geography/international enrolment/visa/fees/language/family/disability/progression/completion/work rights/retention/return/belonging/reciprocity | medium; OECD and UNESCO mobility scale and policy-package evidence plus named UK Graduate-route work, retention, policy-change and self-reported integration evidence | enrolment, destination concentration, visa, policy package, progression, completion, route transition, employment and reported integration | student housing, safety, support use, debt, learning, work quality, discrimination, independent belonging, local reciprocity, return, retention and long-run capability | Tier 1 bounded distinction plus Tier 2 cross-border-student-to-reciprocal-capability question |
 
 ## Decision
 

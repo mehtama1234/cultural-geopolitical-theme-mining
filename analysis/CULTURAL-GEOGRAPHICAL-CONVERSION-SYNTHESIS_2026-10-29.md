@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HJ
+**Date:** 2026-10-30; refreshed through Rotations D–HK
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3163,6 +3163,10 @@ The HI packet adds **age-assurance-to-safe-and-legitimate-youth-participation co
 
 The HJ packet adds **forced-labour-due-diligence-to-safe-worker-recovery-and-non-recurrence conversion** with a source boundary around recruitment, coercion, documents, pay, hours, movement, language, migration, disclosure, retaliation, remedy, livelihood, buyer practice, shipment control, referral, local institutions and repeat findings. ILO supplies indicators and named remediation/community routes; OECD supplies remedy and disclosure gaps; CBP supplies a current named trade-control action; and the EU supplies regulatory architecture. These close parts of the risk, control and remediation-design stages, but no public source here closes a comparable worker-cohort chain through safe receipt, agency and recurrence.
 
+216. **An international enrolment count, admission, student visa, scholarship, campus inclusion statement, completion, post-study visa, work transition, earnings statistic or self-reported integration response is not by itself learning, safety, affordable housing, belonging, fair employment, reciprocal local capability, return contribution or durable legitimacy.** Mobility can expand opportunity while debt, language, family separation, visa dependence, discrimination or housing insecurity constrain practical participation; retention can reflect policy or labour-market necessity rather than wellbeing or reciprocal integration.
+
+The HK packet adds **cross-border-student-mobility-to-reciprocal-capability-and-belonging conversion** with a source boundary around origin, destination, institution, programme, fee, funding, visa, language, housing, family, support, progression, completion, debt, work quality, safety, belonging, complaint, return and local relationship. OECD and UNESCO establish scale, concentration and policy-package mechanisms; UK administrative and evaluation sources add named work, retention, policy-change and self-reported integration signals. These close mobility and some transition stages, but no public source here closes a comparable cohort chain from arrival through housing, learning, independent belonging, decent work and reciprocal capability.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3199,7 +3203,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HJ.
+living goal. The current atlas baseline has been refreshed through Rotation HK.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
