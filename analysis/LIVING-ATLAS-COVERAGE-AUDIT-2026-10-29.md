@@ -26,6 +26,7 @@ research goal.
 | DS packet CSV shape | eight rows and nine fields for DS; all eight source IDs present after cultural-relations and peacebuilding case refresh | `ROTATION-DS-CULTURAL-DIPLOMACY-RECIPROCITY-LOCAL-OWNERSHIP-2026-10-29.csv` |
 | DU packet CSV shape | eight rows and nine fields for DU; all eight source IDs present after vaccine, Nigeria and diagnostic-transfer case refresh | `ROTATION-DU-MEDICINES-LOCAL-PRODUCTION-SUPPLY-RESILIENCE-2026-10-29.csv` |
 | DW packet CSV shape | nine rows and nine fields for DW; all nine source IDs present after named Arctic resupply, port, sealift and Inuit-IMO representation refresh | `ROTATION-DW-ARCTIC-SHIPPING-INDIGENOUS-SOVEREIGNTY-2026-10-29.csv` |
+| DV packet CSV shape | eight rows and nine fields for DV; all eight source IDs present after Paris procurement, legacy-asset and Birmingham evaluation refresh | `ROTATION-DV-MEGA-EVENTS-HOST-CITY-LEGACY-DISPLACEMENT-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 

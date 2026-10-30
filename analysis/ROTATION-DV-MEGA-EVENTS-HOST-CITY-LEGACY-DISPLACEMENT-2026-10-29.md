@@ -113,6 +113,47 @@ international spotlight does not guarantee rights protection.
 
 Source: [UN, Using Mega Sporting Events to create a lasting legacy](https://digitallibrary.un.org/record/4025078/files/1386798EN.pdf).
 
+### 6. Paris 2024 provides measured procurement and labour-inclusion outputs
+
+The OECD's 2025 assessment reports that SOLIDEO's EUR 4.4 billion procurement
+plan awarded 37% of contracts—EUR 826 million—to local MSMEs and social-economy
+entities, against a 25% target. It also reports that 23.5% of hours on
+Games-related construction projects were performed by people on integration
+pathways, against a 10% target, and that 90% of suppliers were based in France.
+These are stronger than a jobs promise because they connect procurement rules to
+awards and labour participation. They do not establish that firms survived
+after the event, workers retained jobs or wages, or residents received fair
+housing, mobility and cultural benefit.
+
+Source: [OECD, The Legacy of the Paris 2024 Olympic and Paralympic Games](https://www.oecd.org/en/publications/the-legacy-of-the-paris-2024-olympic-and-paralympic-games_d7938b7f-en/full-report/committed-games-creating-jobs-leveraging-the-social-and-solidarity-economy-and-generating-opportunities-for-smes_ac067f5d.html).
+
+### 7. Paris's village and venues show a designed post-event asset pathway
+
+Paris 2024 documentation reports that permanent facilities were intended to be
+passed to local residents, that nearly 4,000 homes were created across the
+Olympic and Media Village sites, and that the Olympic Village redevelopment was
+planned as a 52-hectare neighbourhood with about 2,800 homes, schools,
+childcare and green space for approximately 6,000 residents. The Olympic
+Aquatics Centre and other facilities have since reopened to the public. These
+are named legacy assets and a counterexample to universal-stranded-venue claims,
+but the public accounts do not yet establish affordability, allocation to
+displaced households, long-term maintenance, repeat use by low-income residents
+or neighbourhood belonging.
+
+Sources: [Paris 2024 legacy documentation](https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=3702664&parentDocumentId=3702663&skipCopyright=true&skipWatermark=true) and [IOC venue-reopening account](https://www.olympics.com/ioc/news/once-out-of-reach-now-full-of-life-two-paris-2024-venues-reopen-to-the-public).
+
+### 8. Birmingham demonstrates why post-event evaluation must preserve attribution limits
+
+The UK government's one-year Birmingham 2022 evaluation uses mixed methods and
+contribution analysis to assess event and legacy-programme outcomes through
+August 2023. It explicitly says the one-year scope cannot capture longer-term
+impacts that had not yet materialised, while assessing attribution where
+evidence supports a contribution claim. This is a methodological asset for the
+atlas: a host-city evaluation can be serious and still leave longer-run housing,
+maintenance, employment, wellbeing and reputation open.
+
+Source: [UK Government, Birmingham 2022 one-year post-Games evaluation](https://www.gov.uk/government/publications/evaluation-of-the-birmingham-2022-commonwealth-games-one-year-post-games-report).
+
 ## Bounded proposition 127
 
 **An Olympic Games, World Cup, expo, cultural capital, major festival, host-city
@@ -187,6 +228,8 @@ public-space access changed.
 ## Source boundary
 
 The current packet closes the legacy-planning, procurement, housing,
-displacement and rights-risk mechanisms. It does not close named resident
-wellbeing, worker remedy, post-event affordability, maintenance, cultural
+displacement and rights-risk mechanisms, and now adds named Paris procurement,
+labour-inclusion, housing/venue pathways and a Birmingham contribution-analysis
+boundary. It does not close named resident wellbeing, worker remedy,
+post-event affordability, firm and worker durability, maintenance, cultural
 belonging or durable geopolitical reputation. Those remain acquisition targets.

@@ -2491,6 +2491,17 @@ formal Indigenous representation. They do not establish household affordability,
 food-security or cultural-route outcomes, environmental burden, binding route
 authority, benefit sharing, emergency remedy or durable sovereignty.
 
+The DV refresh adds named mega-event conversion evidence from Paris 2024 and
+Birmingham 2022. OECD reports that Paris's SOLIDEO procurement awarded 37% of
+EUR 4.4 billion to local MSMEs and social-economy entities and that 23.5% of
+construction hours went to integration pathways; Paris documentation adds
+housing, venue and public-reopening routes. Birmingham adds an independent
+one-year contribution-analysis model that explicitly leaves longer-term
+impacts open. These close procurement outputs, labour inclusion, designed asset
+reuse and evaluation discipline, but not firm or worker durability, affordable
+housing, displaced-household restoration, maintenance, resident belonging or
+geopolitical reputation.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
