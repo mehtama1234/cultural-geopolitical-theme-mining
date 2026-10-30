@@ -131,6 +131,33 @@ on one community without a design that connects source, exposure and outcome.
 
 Source: [World Bank global air-pollution data work](https://blogs.worldbank.org/en/opendata/tracking-air-pollution-across-more-than-32-000-cities-with-new-g).
 
+### 7. London's ULEZ is a named policy-to-exposure case, not a complete health result
+
+Transport for London reports that, compared with a modeled scenario without the
+ULEZ and its expansions, 2024 roadside NO2 concentrations were estimated to be
+27% lower across London, 24% lower in outer London, and 54% lower in central
+London. It also reports a larger benefit for some of London's most deprived
+communities near busy roads, including an estimated 80% reduction in people
+exposed to illegal pollution levels, and 97% vehicle compliance. These figures
+close part of the intervention-to-exposure path, but they are estimates against
+a counterfactual, not person-level dose or health records. The report does not
+by itself establish who paid the compliance or travel cost, whether traffic or
+exposure shifted to other places, or whether schools, outdoor workers and
+households experienced equal health protection.
+
+Source: [London-wide ULEZ one-year report](https://www.london.gov.uk/programmes-strategies/environment-and-climate-change/environment-and-climate-change-publications/london-wide-ulez-one-year-report).
+
+### 8. Indoor school protection adds an operation layer
+
+The Mayor's 2024–25 annual report says London invested £2.7 million in indoor
+air-quality filters for every classroom in 200 primary schools, prioritising
+areas with poorer air quality and higher deprivation. This is a named school
+protection route and a useful complement to corridor-level emissions policy, but
+the public account records provision and targeting rather than measured indoor
+PM2.5, classroom use, attendance, symptoms, learning or maintenance over time.
+
+Source: [Mayor of London's Annual Report 2024–25](https://www.london.gov.uk/who-we-are/what-mayor-does/our-publications/mayor-londons-annual-report-2024-25).
+
 ## Bounded proposition 131
 
 **An air-quality standard, industrial retrofit, emissions reduction, low-emission
@@ -171,6 +198,9 @@ remedy when pollution was displaced or data were contested.
   and fiscal stress; a retrofit may protect both, but only if verified.
 - Regional inequality is not individual causality; poor regions can contain
   cleaner rural areas and rich regions can contain severe local hotspots.
+- A modeled policy counterfactual can identify an estimated intervention effect
+  on concentrations without identifying actual inhaled dose, health improvement,
+  cost distribution or displacement to an adjacent place.
 - Health messaging can help people adapt but cannot substitute for source control,
   affordable mobility, housing quality, clinical access and enforcement.
 
@@ -201,6 +231,7 @@ commuters, older people and households with limited relocation capacity.
 ## Source boundary
 
 The current packet closes the ambient-health-risk, spatial-inequality, monitoring,
-mobility and burden mechanisms. It does not close named source-to-exposure,
-exposure-to-health, displacement, affordability, enforcement or remedy outcomes.
-Those remain acquisition targets.
+mobility and burden mechanisms, and now part of the named London policy-to-
+estimated-exposure path. It does not close person-level dose, exposure-to-health,
+traffic displacement, affordability, school/work continuity, enforcement or
+remedy outcomes. Those remain acquisition targets.

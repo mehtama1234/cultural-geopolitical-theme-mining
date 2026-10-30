@@ -2441,6 +2441,15 @@ in a high-risk district. These close parts of the operation stage, but public
 case accounts do not yet establish comparable child-level learning, progression,
 dropout prevention, household burden or multi-season agency.
 
+The DZ refresh adds a named London policy-to-exposure case: the official ULEZ
+one-year report estimates lower roadside NO2 against a modeled no-ULEZ scenario,
+with larger estimated benefits in some deprived communities near busy roads,
+while a separate mayoral report records indoor air filters in 200 primary
+schools prioritized by air quality and deprivation. These advance DZ beyond
+global mechanism evidence into operation and distribution, but modeled
+concentrations and equipment provision do not establish person-level dose,
+health, mobility affordability, traffic displacement, classroom use or remedy.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
