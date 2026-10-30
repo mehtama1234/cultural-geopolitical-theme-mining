@@ -2,7 +2,7 @@
 
 **Scope:** cultural, social, geographical, technological and geopolitical
 theme-mining atlas  
-**Baseline:** refreshed through Rotation FH
+**Baseline:** refreshed through Rotation FI
 **Purpose:** verify artifact coverage, index integrity, local link integrity and
 the boundary between the current bounded evidence release and the still-active
 research goal.
@@ -11,12 +11,12 @@ research goal.
 
 | Check | Result | Evidence |
 |---|---:|---|
-| Numbered synthesis propositions | 164 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–164 in strict order |
-| Standard rotation markdown packets | 163 | `analysis/ROTATION-*.md` |
-| Standard rotation CSV ledgers | 163 | `analysis/ROTATION-*.csv` |
-| Register rotation rows | 163 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
-| Local register links | checked after FH; 0 missing | link-target scan of the register |
-| Recent packet CSV shape | six rows and nine fields for FH; all six source IDs present | `ROTATION-FH-CLOUD-SOVEREIGNTY-PUBLIC-SERVICE-CONTINUITY-2026-10-29.csv` |
+| Numbered synthesis propositions | 165 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–165 in strict order |
+| Standard rotation markdown packets | 164 | `analysis/ROTATION-*.md` |
+| Standard rotation CSV ledgers | 164 | `analysis/ROTATION-*.csv` |
+| Register rotation rows | 164 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
+| Local register links | checked after FI; 0 missing | link-target scan of the register |
+| Recent packet CSV shape | six rows and nine fields for FI; all six source IDs present | `ROTATION-FI-POST-QUANTUM-CRYPTOGRAPHY-SECURE-CONTINUITY-DIGITAL-TRUST-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
