@@ -62,6 +62,42 @@ public need / procurement rule / market engagement / tender / award / clause
    evidence must preserve place, supplier tier, payment, delivery, worker and
    user outcomes.
 
+## Named-case refresh
+
+6. Rotterdam's Social Return policy makes a social clause operational rather
+   than merely aspirational. Since 2008, contracts above EUR 50,000 have been
+   reviewed for opportunities to employ people far from the labour market; the
+   OECD reports about EUR 800 million in leveraged contract spending, annual
+   welfare savings of EUR 10–25 million and 2,654 sustainable jobs in 2019.
+   Employer complaints led to policy changes and more support for people facing
+   multiple barriers. This closes a named buyer-to-worker mechanism and gives a
+   measured employment signal, but it does not prove wages, retention, worker
+   voice or user value for every contract.
+7. Leeds City Council's Sayes Service contract connects procurement to a
+   resident-facing infrastructure result. The 2024 contract replaced heating
+   units and hot-water stores in 542 flats; the council reports a 10% household
+   bill reduction, £811,770 in local-chain spend, one full-time apprentice and
+   four student placements. The figures are useful for joining contract scope,
+   resident service and local capability, while the council's own case study
+   remains an administrative outcome report: independent verification,
+   distribution across tenants and long-term maintenance are still open.
+8. The Coquet Valley project in rural Northumberland shows procurement and
+   interdepartmental coordination in a geographically isolated community.
+   Home Office, MOD, BDUK, the National Park Authority and Northern Powergrid
+   combined an Acquisition, Design and Build contract with rural-network work;
+   the project connected off-grid properties and emergency-service sites to
+   mains power and improved mobile coverage. The case closes a place-bound
+   infrastructure and resilience route, but it is not evidence that local SMEs
+   captured the value or that reliability and affordability persisted through
+   future winters.
+9. HM Passport Office's BI3 digital-services contract, worth up to £21 million,
+   required bidders to propose apprenticeships and skills development. Atos
+   committed to two apprentices through Ambitious about Autism and reported 20
+   employees trained on autism inclusion. This is a named digital-procurement
+   mechanism with inclusion commitments, not proof of SME participation,
+   technical capability transfer, accessible passport-service outcomes or
+   long-term employment retention.
+
 ## Bounded proposition
 
 **A procurement law, tender, local-content target, SME set-aside, social-value
@@ -150,3 +186,7 @@ research opportunity, not a promoted causal finding.
 - OECD, [Public Procurement, Trade and Industrial Policies](https://www.oecd.org/en/publications/public-procurement-trade-and-industrial-policies_64f22ae6-en/full-report.html).
 - ILO, [Social Procurement Guide](https://www.ilo.org/publications/social-procurement-guide).
 - ILO, [Protect and respect human rights through public procurement](https://www.ilo.org/publications/protect-and-respect-human-rights-through-public-procurement-towards).
+- OECD, [Rotterdam Social Return policy case study](https://www.oecd.org/en/publications/providing-local-actors-with-case-studies-evidence-and-solutions-places_eb108047-en/social-return-policy_6996fd76-en.html).
+- Leeds City Council, [Social-value contract case studies](https://www.leeds.gov.uk/commercial-opportunities/tenders-and-contracts/social-value).
+- UK Home Office, [Coquet Valley rural electrification and connectivity](https://www.gov.uk/government/publications/small-and-medium-enterprises-home-office-actions-and-case-studies/social-value-case-study-coquet-valley-delivering-social-value-through-rural-electrification-and-connectivity).
+- UK Home Office, [HMPO Digital Future Services SME case](https://www.gov.uk/government/publications/small-and-medium-enterprises-home-office-actions-and-case-studies/sme-case-study-hmpo-digital-future-services).

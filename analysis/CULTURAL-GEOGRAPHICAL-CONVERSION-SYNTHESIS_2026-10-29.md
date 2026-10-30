@@ -2451,6 +2451,17 @@ participation, crisis recurrence and remedy over time.
 
 The HB packet adds **public-procurement-to-local-capability-and-fair-value conversion** with a source boundary around need definition, market engagement, lotting, qualification, competition, local content, SME access, finance, payment, prime and subcontractor performance, worker standards, delivery, quality, affordability, maintenance, user receipt, complaint, remedy and geographical distribution.
 
+The HB refresh adds four named procurement corridors. Rotterdam links social
+clauses to reported employment and welfare-savings signals while also recording
+employer complaints and policy adaptation; Leeds links a heating contract to
+542 flats, reported bill reduction, local-chain spend and apprenticeships;
+Coquet Valley links multi-agency procurement to rural power, mobile coverage
+and emergency resilience; and HMPO's BI3 contract links digital procurement to
+autism apprenticeships and workforce training. These cases sharpen the audit:
+social value must be tested across supplier capability, worker receipt, user
+service, maintenance and geographical distribution, not inferred from a tender
+weighting or a local-spend percentage.
+
 211. **A contract award, signed agreement, contract-management plan, KPI dashboard, milestone certificate, invoice, payment authorization, inspection, variation, penalty, service-level agreement or handover document is not by itself timely delivery, quality, worker payment, supplier health, maintained infrastructure, continuous public service, affordability, user satisfaction, value for money, accountability or remedy.** A dashboard can report progress while the underlying measure is incomplete; a payment can be authorized without receipt by the supplier or worker; and an asset can be commissioned without reliable operation, maintenance finance, accessible use or a path to correction.
 
 The HC packet adds **contract-management-to-continuous-public-service-and-remedy conversion** with a source boundary around roles, baselines, KPIs, milestone verification, invoice and payment, inspection, risk, variation, subcontractor and worker receipt, maintenance, outage, user experience, complaint, correction, sanction, termination and handover.
