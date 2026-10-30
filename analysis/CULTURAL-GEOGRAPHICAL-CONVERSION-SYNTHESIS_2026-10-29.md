@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HS
+**Date:** 2026-10-30; refreshed through Rotations D–HT
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3198,6 +3198,10 @@ The HR packet adds **new-water-to-equitable-basin-security-and-legitimacy conver
 224. **An oxygen plant, concentrator, cylinder delivery, production figure, solar system, training, roadmap, service contract, uptime percentage or emergency logistics quantity is not by itself bedside treatment, correct indication, affordability, safe flow, referral, survival, disability reduction, equitable access or resilient clinical trust.** Equipment can be idle, power or maintenance can fail, staff can lack clinical tools, and a named treated cohort can improve without proving causal or system-wide effect.
 
 The HS packet adds **oxygen-system-to-equitable-bedside-treatment-and-resilience conversion** with a source boundary around clinical need, saturation, equipment, source, power, purity, flow, uptime, maintenance, staff, cost, referral, geography, language/disability, treatment duration, discharge, mortality, disability, complaint and repeat failure. WHO supplies the access gap, planning architecture, tools and named Kabul, Somalia, Yemen and Nepal cases; UNICEF supplies a performance-linked Uganda service model. These close policy, production, logistics and some patient stages, but no public source here closes a comparable facility/cohort chain through independent attribution, equity, long-run maintenance and recurrence.
+
+225. **An Essential Diagnostics List, laboratory building, point-of-care device, assay, quality framework, sequencing capability, test result or surveillance report is not by itself a completed diagnosis, correct treatment, equitable protection, recovery or trusted care.** A specimen can be invalid, a result can arrive too late, interpretation can fail, medicines or referral can be unavailable, and a named deployment can improve capability without proving patient-level benefit.
+
+The HT packet adds **diagnostic-network-to-equitable-clinical-action conversion** with a source boundary around symptom/need, language, consent, stigma, test access, specimen, power, quality, turnaround, interpretation, treatment, medicine, referral, cost, completion, recovery, disability, geography, trust and recurrence. WHO supplies the Essential Diagnostics List, in-vitro diagnostics overview, IHR network benchmark, AMR initiative and TB target-product profiles; WHO country offices supply named Nepal and Fiji capability cases; UNICEF supplies pulse-oximeter deployment and use evidence. These close normative selection, network architecture, equipment, local capability, product requirements and device-use stages, but no public source here closes a comparable patient/cohort chain through treatment, recovery, equity and durable trust.
 
 ## What the evidence does not support
 

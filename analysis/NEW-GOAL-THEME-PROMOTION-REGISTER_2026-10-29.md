@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29  
 **Purpose:** integrate the cross-rotation portfolio and the named conversion packets into one research-control register  
-**Status:** promotion-controlled living atlas; refreshed through Rotation HS; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
+**Status:** promotion-controlled living atlas; refreshed through Rotation HT; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
 
 ## Executive decision
 
@@ -449,6 +449,8 @@ and are not promoted as facts.
 | [Water reuse/desalination/affordable security rotation](ROTATION-HR-WATER-REUSE-DESALINATION-AFFORDABLE-SECURITY-2026-10-30.md) | water/infrastructure/climate/energy/public health/culture/geography/desalination/reuse/treatment/brine/effluent/tariff/quality/trust/basin/ecosystem/household/farm/industry | medium; IEA global stress, desalination capacity and energy nexus, EPA WRAP 2.0 policy/facility/examples, World Bank governance and reuse-scale evidence, UN-Water circularity opportunity | stress, plant, treatment, energy, policy, risk target, reuse volume, named end uses, governance and opportunity signal | uptime, quality, brine/effluent, network, tariff, household receipt, affordability, health, ecosystem, distribution, complaint, remedy and basin legitimacy | Tier 1 bounded distinction plus Tier 2 new-water-to-basin-security-and-legitimacy question |
 
 | [Medical oxygen/clinical access/resilience rotation](ROTATION-HS-MEDICAL-OXYGEN-CLINICAL-ACCESS-RESILIENCE-2026-10-30.md) | health security/clinical infrastructure/public health/conflict/energy/geography/oxygen plants/cylinders/concentrators/power/maintenance/quality/staff/referral/bedside care/Kabul/Somalia/Yemen/Uganda/Nepal | medium; WHO access gap and scale-up guidance, named Kabul, Somalia, Yemen and Nepal cases, UNICEF Uganda oxygen-as-a-service model and facility-level outcomes | global access gap, planning, tools, production, delivery, emergency logistics, uptime, named patient cohort, service model and operational risk | bedside administration, indication, purity/flow, maintenance, staff, cost, referral, patient receipt, mortality, disability, equity, complaint and recurrence | Tier 1 bounded distinction plus Tier 2 oxygen-system-to-equitable-survival-and-resilience question |
+
+| [Diagnostic access/point-of-care/clinical action rotation](ROTATION-HT-DIAGNOSTIC-ACCESS-POINT-OF-CARE-CLINICAL-ACTION-2026-10-30.md) | diagnostics/public health/health security/AMR/TB/laboratories/point-of-care/geography/culture/language/disability/affordability/conflict/supply chains/quality/specimen/referral/treatment/Nepal/Fiji/Cambodia | medium; WHO Essential Diagnostics List and in-vitro diagnostics framework, IHR tiered-network and quality requirements, named Nepal national list/equipment, Fiji genomics laboratory, AMR diagnostic initiative, TB peripheral-test profiles and UNICEF pulse-oximeter deployment/use | normative selection, network architecture, quality requirements, national equipment handover, local sequencing capability, product requirements, device deployment and named use encounter | test access, specimen validity, result time, interpretation, treatment/referral, medicine availability, cost, completion, recovery, equity, trust and recurrence | Tier 1 bounded distinction plus Tier 2 diagnostic-network-to-equitable-clinical-action question |
 
 ## Decision
 
