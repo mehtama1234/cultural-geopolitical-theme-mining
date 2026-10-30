@@ -115,6 +115,58 @@ change the conversion.
 This prevents a single Arctic-shipping narrative from substituting for named
 place evidence.
 
+### 6. Government marine resupply is a named service-continuity case
+
+The Northwest Territories' Marine Transportation Services completed its 2025
+resupply season with more than 18 million litres of fuel and over 2,000 revenue
+tonnes of cargo delivered to ten named communities, including Tuktoyaktuk,
+Ulukhaktok, Sachs Harbour, Paulatuk and Kugluktuk. The service is described as
+cost-effective and timely for residents and businesses. This closes a route-
+to-community-supply operation for a public marine service, but the report does
+not provide household price changes, food affordability, local employment,
+country-food effects, vessel-level disruption, or community decision power.
+
+Source: [Government of Northwest Territories, 2025 community resupply season](https://www.gov.nt.ca/en/newsroom/marine-transportation-services-completes-successful-2025-community-resupply-season).
+
+### 7. Iqaluit shows infrastructure designed around community resupply
+
+Canada reports that Iqaluit's deep-sea port has been fully operational since the
+2023 resupply season and was built specifically for community needs rather than
+solely for mining or defence. Cargo work that previously depended on tides and
+small barges and could take more than a week is reported to take about two and
+a half days. This is a named infrastructure-to-service and safety case, but it
+does not yet establish lower retail prices, more reliable household access
+across seasons, Indigenous governance of the facility, maintenance funding,
+environmental effects or benefit distribution beyond Iqaluit.
+
+Source: [Government of Canada, A new era for marine infrastructure in Nunavut](https://housing-infrastructure.canada.ca/investments-investissements/stories-histoires/trans-mobil/iqaluit-deep-sea-port-nu-eng.html).
+
+### 8. Kinngait makes the offloading bottleneck and cultural legibility visible
+
+Transport Canada describes Kinngait's dependence on annual sealifts for nearly
+all supplies and the completion of an upgraded sealift beach and safety ramp in
+2025. The previous offloading area was a narrow strip between the sea and a
+community road; the new facility is reported to make offloading safer and more
+organised, with signage in Inuktitut and English. This closes a local safety and
+accessibility operation, while the public account does not quantify delivery
+time, prices, injuries, food security, local control or maintenance over later
+seasons.
+
+Source: [Transport Canada, Revamping sealift operations in Kinngait](https://tc.canada.ca/en/initiatives/oceans-protection-plan/oceans-protection-plan-newsletter/revamping-sealift-operations-critical-lifeline-kinngait-arctic).
+
+### 9. Inuit representation at IMO is a geopolitical power-stage development
+
+Canada's 2026 oceans-protection publication reports that the Inuit Circumpolar
+Council became the first and currently only Indigenous Peoples' Organization
+with permanent consultative status at the IMO after the IMO Assembly decision in
+December 2025. This materially advances representation in global maritime
+safety, pollution-prevention and security discussions. Consultative standing is
+not the same as consent, veto, binding route change, benefit sharing or remedy;
+the next test is whether Inuit positions alter IMO standards, national rules,
+routes, emergency practice or data governance.
+
+Source: [Transport Canada, Inuit leadership in global maritime policy](https://tc.canada.ca/sites/default/files/2026-04/tidings-acc-apr-2026-en.pdf).
+
 ## Bounded proposition 128
 
 **An Arctic shipping route, port, mine, tourism corridor, Polar Code certificate,
@@ -193,6 +245,8 @@ legitimacy.
 ## Source boundary
 
 The current packet closes the Arctic shipping opportunity/risk, Polar Code,
-Indigenous-knowledge and geopolitical-corridor mechanisms. It does not close
-named community benefit, food security, cultural continuity, emergency response,
+Indigenous-knowledge and geopolitical-corridor mechanisms, and now adds named
+resupply, port, sealift-safety and Indigenous maritime-representation cases. It
+does not close named household affordability, food security, cultural-route
+continuity, environmental burden, emergency response, facility governance,
 remedy or durable sovereignty. Those remain acquisition targets.

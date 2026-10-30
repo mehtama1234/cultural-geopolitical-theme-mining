@@ -2481,6 +2481,16 @@ DU therefore advances from factory and regulation signals into emergency supply,
 last-mile contradiction and IP-to-capability, while patient-level health
 sovereignty remains open.
 
+The DW refresh adds named Arctic place-power cases: Northwest Territories marine
+resupply delivered fuel and cargo to ten communities; Iqaluit's community-first
+deep-sea port shortened tide-dependent offloading; Kinngait's upgraded sealift
+beach and bilingual signage addressed local safety and accessibility; and the
+Inuit Circumpolar Council gained permanent consultative status at the IMO. These
+close parts of service continuity, infrastructure operation, local safety and
+formal Indigenous representation. They do not establish household affordability,
+food-security or cultural-route outcomes, environmental burden, binding route
+authority, benefit sharing, emergency remedy or durable sovereignty.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
