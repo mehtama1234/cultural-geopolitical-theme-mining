@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IS
+**Date:** 2026-10-30; refreshed through Rotations D–IT
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3302,6 +3302,10 @@ The IR packet adds **heritage-restitution-to-community-controlled-repair-and-liv
 250. **A completed repatriation, arrival, ceremony, descendant handover, temporary custody arrangement, replacement object or conservation protocol is not by itself community control, spiritual safety, cultural teaching, healing, reconciliation or durable living continuity.** Arrival in a country is not arrival in the community; temporary museum care is not community custody; and a ceremony is not sustained practice.
 
 The IS packet adds **repatriation-to-community-controlled-custody-ceremony-teaching-and-living-continuity conversion** with a source boundary around return, final custodian, decision rights, care protocol, access restriction, ceremony, language, child/youth encounter, teaching, physical condition, spiritual relationship, grievance and repeated cultural practice. Canada supplies the Vatican return and interim custody, Haisla’s completed G’psgolox return, Poundmaker family ceremony, sacred-care options, reconciliation rationale and current implementation barriers. These close named transfer, interim custody, descendant authority, ceremony, care design, policy rationale and power-asymmetry stages, but no public source here closes a comparable long-term chain through everyday access, teaching, spiritual care, material preservation, healing and intergenerational continuity.
+
+251. **A climate-risk map, heritage inventory, documentation project, safeguarding plan, disaster-risk training, youth workshop, adaptation project or community consultation is not by itself living-practice continuity, safe livelihood, cultural authority, intergenerational transmission or durable resilience.** A practice can be documented after its habitat and livelihood have been disrupted; a cultural activity can be used rhetorically as a resilience asset while its bearers lack land, income or decision power.
+
+The IT packet adds **climate-hazard-to-community-controlled-living-heritage-practice-and-resilient-livelihood conversion** with a source boundary around community, practice, place, hazard, habitat/material, practitioner, livelihood, warning, decision authority, safeguarding, youth learning, adaptation action, displacement, recovery, wellbeing and repeated practice. UNESCO supplies 15 Asia-Pacific cases, a climate-risk taxonomy and rights-based guidance, Pacific emergency and education/DRR mechanisms, the Thame Sherpa GLOF response, urban heritage adaptation and culture-emergency architecture. These close regional cases, risk, named mechanisms, education, hazard response, urban and emergency stages, but no public source here closes a comparable community chain through hazard, resource, practice, livelihood, youth transmission and repeated recovery.
 
 ## What the evidence does not support
 
