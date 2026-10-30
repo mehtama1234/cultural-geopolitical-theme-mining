@@ -80,6 +80,22 @@ climate hazard / forecast / damaged school / unsafe heat or air / displacement
    learners. It shows that physical recovery and child learning continuity are
    linked but not identical; the public account does not provide a longitudinal
    progression comparison.
+10. A World Bank Bangladesh secondary-education study provides a stronger
+    outcome bridge than the implementation cases. Baseline students had low
+    climate knowledge and high anxiety; an information booklet, announced
+    assessment and reward intervention was followed by increased knowledge,
+    reduced skepticism and greater willingness to contribute to climate action.
+    Effects on anxiety were ambiguous, results varied by district and greater
+    awareness in the high-risk district could increase willingness to migrate.
+    This is named repeated-student intervention evidence for knowledge,
+    attitudes and intended action, not proof of school continuity, actual
+    adaptation behavior, learning gain, safety or reduced migration.
+11. The World Bank's Bangladesh secondary-education program design links
+    climate lessons, teacher training, emergency preparedness, blended learning,
+    re-enrolment and climate-champion schools to resilience. It is useful as a
+    measurable operating architecture, but its intended improvements and
+    verification indicators should not be treated as realized outcomes until
+    implementation, assessment and retention results are observed.
 
 ## Bounded proposition
 
@@ -176,3 +192,5 @@ Tier 2 research opportunity, not a promoted causal finding.
 - UNICEF Nepal, [One month after floods: restoring education](https://www.unicef.org/press-releases/one-month-after-floods-efforts-restore-education-are-helping-children-return).
 - UNICEF, [Mali climate education case study](https://www.unicef.org/media/176381/file/Climate%20Education%20Case%20Study%20Mali%202025.pdf).
 - UNICEF Timor-Leste, [School recovery after floods](https://www.unicef.org/timorleste/stories/nonias-school-prepares-climate-disasters-timor-leste).
+- World Bank, [Bangladesh secondary education climate-action study](https://documents1.worldbank.org/curated/en/099543102142510447/pdf/IDU1a419f6541a64f145701bb3310337e9a32754.pdf).
+- World Bank, [Bangladesh Learning Acceleration in Secondary Education climate program design](https://documents1.worldbank.org/curated/en/099090523122017246/pdf/BOSIB088cf52390990af10029ec20109467.pdf).
