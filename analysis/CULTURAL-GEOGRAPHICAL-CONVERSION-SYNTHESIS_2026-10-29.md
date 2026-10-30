@@ -3751,6 +3751,10 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 366. **More local autonomous-ship approvals can coexist with unresolved cross-border authority.** Regulatory volume and comparative guidance show institutional activity, but they do not harmonize the status of the master, remote operator, software provider, insurer or investigating State, nor guarantee a claimant a practical remedy.
 
+367. **A named vessel’s continuing movement is evidence of activity, not necessarily autonomy, reliability or local benefit.** Vendor reports of daily remote control and AIS-derived port calls can triangulate route continuity, but they do not identify the autonomy mode, onboard crew, exception interventions, cargo completion, certification or safety outcome.
+
+368. **The strongest local-benefit claim remains a measured route-level conversion.** Road-substitution projections, electric propulsion and digital logistics integration must be reconciled with actual voyages, cargo, energy and lifecycle boundaries, port operations, worker terms, incidents, community exposure and counterfactual truck movements before they become evidence of safer, cleaner or more legitimate logistics.
+
 ## What the evidence does not support
 
 Do not claim that:
