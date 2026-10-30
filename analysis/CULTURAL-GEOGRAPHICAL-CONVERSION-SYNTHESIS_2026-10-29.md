@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–EL
+**Date:** 2026-10-29; refreshed through Rotations D–EM
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -1700,6 +1700,17 @@ formed safe and reciprocal relationships, received support when needed, were
 included across cultural and geographic difference, or gained voice and remedy
 when the connection environment became exclusionary, hostile or surveillant.
 
+144. **A birth-registration campaign, civil registry, national ID, refugee card,
+biometric enrolment, digital-ID platform, interoperability project, identity
+wallet or documentation drive is not by itself legal recognition, rights access,
+mobility, protection, financial inclusion, cultural belonging, privacy or
+agency.** Registration counts, certificates printed, cards issued, biometrics
+captured, records linked, systems interoperable or users onboarded do not
+establish that a named person could obtain, afford, renew, use and correct a
+credential accepted by schools, health services, employers, banks, social
+protection, borders or courts—or that the person was protected from exclusion,
+surveillance, discrimination, arbitrary detention and data misuse.
+
 142. **A mental-health strategy, community team, psychiatric-bed reduction, crisis
 line, screening campaign, workplace programme, peer-support standard, digital
 tool, referral, discharge plan or anti-stigma campaign is not by itself safety,
@@ -1743,6 +1754,8 @@ The EK packet adds **community-mental-health-to-recovery-and-agency** with a sou
 
 The EL packet adds **social-infrastructure-to-reciprocal-connection-and-belonging** with a source boundary around named repeated connection, reciprocity, safety, belonging, health, collective action, digital harms and remedy.
 
+The EM packet adds **legal-identity-to-rights-access-and-recognition** with a source boundary around named credential use, institutional acceptance, correction, service access, mobility, privacy, false-match harm, data misuse and remedy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -1779,7 +1792,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation EL.
+living goal. The current atlas baseline has been refreshed through Rotation EM.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
