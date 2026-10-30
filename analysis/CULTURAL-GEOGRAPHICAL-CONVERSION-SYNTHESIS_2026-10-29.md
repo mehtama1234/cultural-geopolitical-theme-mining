@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JN
+**Date:** 2026-10-30; refreshed through Rotation JO
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3379,6 +3379,10 @@ The JM packet adds **deep-sea-mineral-governance-to-precautionary-biodiversity-p
 
 The JN packet adds **carbon-dioxide-removal-to-verifiable-permanent-climate-benefit-and-just-local-transition conversion** with a source boundary around project/method/community, residual-emissions rationale, baseline, energy/land/water inputs, measured removal, storage permanence, leakage/reversal, lifecycle emissions, credit issuance, buyer use, local consent, benefit receipt, liability and later verification. IPCC supplies the pathway role, method heterogeneity and accounting-development boundary; DOE supplies current maturity, environmental-justice, market-design and MRV evidence; and IEA supplies innovation, finance, offtake and credit-demand evidence. These close climate-system framing, maturity, innovation, uncertainty, market design, demand, justice and accounting-process stages, but no public source here closes a comparable project/community chain through additional durable removal, full lifecycle climate benefit, equitable local outcomes and proof that CDR complements rather than delays direct emissions reduction.
 
+270. **An entered-into-force CBAM, covered sector, customs account, embedded-emissions report, default value, verifier accreditation, certificate price, technical-assistance promise or WTO consultation is not by itself lower global emissions, fair market access, exporter survival, industrial investment, worker protection, consumer affordability or geopolitical legitimacy.** A clean producer can gain market access while a smaller producer exits; a reported emissions value can be compliant but inaccurate; and a dispute can remain unresolved while compliance costs are already incurred.
+
+The JO packet adds **carbon-border-adjustment-to-verified-industrial-decarbonization-fair-market-access-and-development-compatible-transition conversion** with a source boundary around exporter/product/facility, production baseline, embedded-emissions data, verifier, certificate cost, buyer response, investment, employment, domestic carbon price, support received, trade outcome, consumer pass-through and later emissions change. The European Commission supplies current implementation, sector, measurement, pricing, verification and support architecture; UNCTAD supplies the development distribution model; and WTO supplies the live dispute and multilateral transparency boundary. These close implementation, sector linkage, measurement, pricing, distributional, legal, coordination and support stages, but no public source here closes a comparable exporter/facility chain through verified industrial decarbonization, fair market access, development-compatible transition, protected employment and durable geopolitical legitimacy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3415,7 +3419,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JN.
+living goal. The current atlas baseline has been refreshed through Rotation JO.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
