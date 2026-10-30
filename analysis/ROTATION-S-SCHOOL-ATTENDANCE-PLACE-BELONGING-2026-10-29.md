@@ -29,6 +29,72 @@ enrollment and school offer
 | SCH-004 | [GAO school-facilities report](https://files.gao.gov/reports/GAO-26-107970/index.html) | Facility issues led about one in five districts to cancel school in 2024–25, affecting an estimated 2 million students | Place/infrastructure disruption observed |
 | SCH-005 | [IES systematic review of absenteeism interventions](https://ies.ed.gov/use-work/awards/what-works-reduce-student-absenteeism-systematic-review-literature) | IES notes chronic absenteeism was already a concern before the pandemic and increased substantially in some states; the review evaluates what interventions reduce absenteeism | Intervention evidence and uncertainty recognized |
 
+## Named-case refresh
+
+These cases are deliberately heterogeneous. They show transport, health and
+community conditions that can support attendance, but they do not turn an
+attendance improvement or school intervention into proof of learning,
+belonging or later opportunity.
+
+### SCH-006 — Communities In Schools student-support model
+
+The federal Institute of Education Sciences describes Communities In Schools as
+a model that places coordinators in schools to connect students with integrated
+supports, including relationships, basic needs and community resources. The
+model is useful for the S chain because it treats attendance as connected to
+conditions around the student rather than as a stand-alone compliance problem.
+The evidence base remains implementation- and context-sensitive; a coordinator
+or referral is not proof that the same student received adequate support,
+attended regularly or felt belonging.
+
+### SCH-007 — Denver Public Schools, Success Express transportation
+
+Denver Public Schools' Success Express program provides free shuttle routes in
+areas where students face transportation barriers, including routes designed
+to connect neighborhoods with schools. This is a named place intervention that
+tests transport as a practical attendance condition, not merely a district
+transportation budget. Service availability does not establish that a student
+could reach the stop, board safely, use the schedule, attend consistently or
+learn more as a result.
+
+### SCH-008 — New York City community schools strategy
+
+The New York City Community Schools model combines schools with health,
+mental-health, family and community partnerships, including on-site or linked
+services. It makes the school a local service ecology and recognizes that
+attendance can be affected by health, family needs and trust. The city-level
+program description documents infrastructure and partnerships, not a same-
+student chain from service receipt to attendance, belonging or learning.
+
+### SCH-009 — Alaska Native/American Indian education and cultural connection
+
+The U.S. Department of Education's Native American and Alaska Native student
+resources emphasize Tribal consultation, culturally responsive education and
+family/community engagement as parts of educational access. This is a cultural
+counterweight to treating attendance as a universal behavioral metric: a school
+can be physically reachable yet fail to recognize language, identity, history
+or community authority. The federal resource framework does not by itself show
+which local schools changed practice or whether students' attendance and
+belonging improved.
+
+### SCH-010 — school closure and alternative-delivery non-closure
+
+GAO's facilities evidence shows that building problems led about one in five
+districts to cancel school in 2024–25, affecting an estimated 2 million
+students. A closure may protect safety, and an alternative site or remote
+arrangement may preserve some contact, but neither is equivalent to a normal
+school day. This is an explicit non-closure case: enrollment, a reopening,
+remote access or attendance reporting does not establish safe transport,
+learning continuity, peer belonging, disability support or family feasibility.
+
+## Sources added in the named-case refresh
+
+- [IES: Communities In Schools evidence and intervention resources](https://ies.ed.gov/use-work/awards/what-works-reduce-student-absenteeism-systematic-review-literature)
+- [Denver Public Schools: Success Express](https://www.dpsk12.org/page/success-express)
+- [NYC Public Schools: Community Schools](https://www.schools.nyc.gov/learning/programs/community-schools)
+- [U.S. Department of Education: Native education resources](https://www.ed.gov/grants-and-programs/grants-for-states-and-local-governments/native-american-and-alaska-native-students)
+- [GAO: public school facilities](https://files.gao.gov/reports/GAO-26-107970/index.html)
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |
