@@ -3559,6 +3559,10 @@ The KJ follow-up adds a **digital-twin-to-testbed-transfer-open-public-infrastru
 
 The KK follow-up adds an **AI-forecast-to-extreme-event-verification-warning-institutional-action-and-equitable-resilience** distinction. ECMWF closes operational skill, ensemble, temporal-detail and failure-boundary stages; WMO closes a named warning-to-evacuation/social-mobilization pathway; and neither source closes AI-specific causal attribution, local comprehension, household/livelihood protection, transfer across geographies or durable maintenance.
 
+315. **A MASS Code, risk-based assessment, remote-operations-centre competence model, cross-border jurisdiction study or ship-port experience-building plan is not by itself safe regular navigation, clear authority, insurable liability, decent seafarer transition, port readiness, coastal legitimacy or public remedy.** Norway identifies unresolved jurisdiction when the ROC and flag State differ; EMSA defines distinct ROC roles and competences; and IMO makes ship-port learning a future experience-building pathway rather than a verified outcome.
+
+The KL follow-up adds an **autonomous-shipping-to-cross-border-ROC-authority-port-interface-and-decent-work** distinction. The evidence closes formal safety architecture, human-role design, cyber and jurisdiction questions, but no public source here closes the chain through mixed-traffic reliability, local responder competence, fatigue-safe staffing, attributable liability, compensation, worker outcomes or durable coastal trust.
+
 ## What the evidence does not support
 
 Do not claim that:
