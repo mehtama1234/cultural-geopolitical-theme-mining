@@ -3551,6 +3551,10 @@ The KG follow-up adds an **mRNA-platform-to-individualized-clinical-workflow-and
 
 The KH follow-up adds a **microplastic-detection-to-comparable-exposure-source-control-and-health-protection** distinction. The blood pilot closes a named human co-exposure signal; the biomonitoring synthesis closes an analytical-comparability and representation warning; and European policy closes jurisdiction-specific measurement and pellet-loss milestones. These support a prevention and monitoring opportunity, but no public source here closes the chain through representative exposure attribution, dose-response, worker/community protection, lower body burden or clinical benefit.
 
+313. **A digital-twin definition, controlled testbed, hardware-in-the-loop experiment, open data platform, validated third-party contribution or regulator-credible architecture is not by itself accurate representation, safe field control, lower cost, environmental recovery, community authority, privacy or equitable service.** NIST closes controlled manufacturing research infrastructure; NASA closes repeatable simulation-to-rover validation; and the EU Digital Twin Ocean closes an open, co-created infrastructure and contribution-validation pathway while keeping full operational service as a 2030 vision.
+
+The KJ follow-up adds a **digital-twin-to-testbed-transfer-open-public-infrastructure-and-accountable-intervention** distinction. The evidence now separates controlled verification, physical-system coupling, public data infrastructure and operational claims. No public source here closes the chain through transfer to uncontrolled conditions, safe intervention, cyber-resilient operation, community challenge, distributive fairness or verified physical/service outcome.
+
 ## What the evidence does not support
 
 Do not claim that:

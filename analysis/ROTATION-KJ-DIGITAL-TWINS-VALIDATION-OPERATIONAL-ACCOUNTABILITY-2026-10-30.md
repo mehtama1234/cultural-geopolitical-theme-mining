@@ -27,6 +27,9 @@ physical asset / basin / mission / process
 | KJ6 | NASA’s Mission Operations Digital Twin project describes human-in-the-loop mission-control decision support, live or simulated telemetry and what-if scenarios across complex missions. | Named operational decision-support use case. | Autonomous safety, mission success, crew outcome or accountability when recommendations conflict. |
 | KJ7 | NIST identifies the lack of a single unified definition as a barrier to comparison, communication and universal standards across industries. | Terminology and comparability gap. | A common metric for trust, performance or social value. |
 | KJ8 | NASA’s digital-twin work in space biosciences uses models to predict biological responses and support precision health interventions, alongside federated learning and multimodal data integration. | Human-health and privacy-sensitive extension. | Clinical validity, consent, individual benefit, bias or safe intervention. |
+| KJ9 | NIST describes a Digital Twin Testbed and an improved robotic workcell that emulates a discrete manufacturing system for cybersecurity, digital-twin, supply-chain-traceability and industrial-AI research. | Named physical/simulated test environment and verification pathway. | Production-scale reliability, worker outcome, cyber resilience in the field or business value. |
+| KJ10 | The EU Digital Twin Ocean Phase 2 project integrates diverse data, models and tools, adds validation for third-party contributions, and aims to make ocean information openly available through co-created local twins; full operational status remains a 2030 vision. | Public-good infrastructure, open-access and contribution-validation pathway. | Current ecosystem restoration, pollution reduction, community control or operational public outcome. |
+| KJ11 | NASA’s AmesDT pairs a simulated NASA facility with a physical rover using the same software and hardware stacks to test autonomy and digital-twin systems in repeatable, faster-than-real-time experiments. | Hardware-in-the-loop validation and reproducible test architecture. | Transfer to uncontrolled environments, safe deployment, operator accountability or public benefit. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -34,11 +37,13 @@ Digital twins make institutional assumptions executable. A basin twin can privil
 
 Geography matters through data density and control. Well-instrumented industrial or wealthy urban settings may receive high-fidelity twins, while rural, informal or politically marginalized places are represented through coarse proxies. A public-facing twin can improve shared understanding only if affected communities can access, interpret and challenge it, not merely if the dashboard is available online.
 
+The newer examples distinguish three maturity levels. NIST closes a controlled manufacturing testbed; NASA closes a hardware-in-the-loop autonomy environment; and the EU closes a public, co-created ocean infrastructure pathway whose full operational status is still a future target. This matters geographically: open data and local-twin participation can broaden access, but a public platform is not the same as a community having authority over sensors, models, interventions or outcomes.
+
 The geopolitical opportunity is interoperable infrastructure and shared standards. The risk is platform dependence: proprietary models, cloud services, sensors and data schemas can make operators dependent on vendors and make cross-border systems difficult to audit. In safety-critical settings, traceability, independent validation, red-teaming, human fallback, cyber resilience and a record of model version and uncertainty are forms of sovereignty and accountability.
 
 ## Counterexample and source boundary
 
-A 3D model, synchronized dashboard, sensor network, simulation, prediction, optimization result, scenario, standard, pilot, regulator-credible architecture or human-in-the-loop claim is not by itself accurate representation, safe control, lower cost, environmental improvement, public access, community legitimacy, privacy, resilience or equitable outcome. A twin can be precise about the wrong variables; a validated model can become stale; and human presence does not guarantee meaningful challenge.
+A 3D model, synchronized dashboard, sensor network, simulation, prediction, optimization result, scenario, standard, testbed, pilot, regulator-credible architecture or human-in-the-loop claim is not by itself accurate representation, safe control, lower cost, environmental improvement, public access, community legitimacy, privacy, resilience or equitable outcome. A twin can be precise about the wrong variables; a validated model can become stale; hardware-in-the-loop evidence can fail to transfer to uncontrolled conditions; and human presence does not guarantee meaningful challenge.
 
 ## Promotion decision
 
@@ -56,4 +61,8 @@ A 3D model, synchronized dashboard, sensor network, simulation, prediction, opti
 - NASA TechPort, [Mission Operations Digital Twin](https://techport.nasa.gov/projects/154352)
 - NIST, [Digital-twin definitions and state of the art](https://www.nist.gov/digital-twins/definitions-and-state-art)
 - NASA, [Computational modeling and biological digital twins](https://www.nasa.gov/ames/space-biosciences/research-branch/computational-modeling/)
+- NIST, [Digital Twins for Advanced Manufacturing and testbed](https://www.nist.gov/digital-twins)
+- NIST, [Improved robotic workcell for operational-technology research](https://www.nist.gov/publications/improved-robotic-workcell-operational-technology)
+- European Commission, [European Digital Twin Ocean Phase 2](https://www.cordis.europa.eu/project/id/101227771)
+- NASA, [AmesDT digital-twin and autonomy validation environment](https://ntrs.nasa.gov/citations/20250000243)
 
