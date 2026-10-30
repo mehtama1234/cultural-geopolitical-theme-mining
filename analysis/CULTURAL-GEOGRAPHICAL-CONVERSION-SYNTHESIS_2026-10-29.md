@@ -3575,6 +3575,10 @@ The LM follow-up adds a **named-route-autonomy-to-primary-ROC-milestone-current-
 
 The LN follow-up adds a **sea-drone-projection-to-observed-utilization-failure-recovery-legal-permission-and-everyday-service** distinction. The evidence now joins system opportunity, current operator disclosure and legal boundary, but no public source here closes comparable denominators, route reliability, ferry incidents, customer continuity, worker workload, lifecycle emissions or community outcomes.
 
+319. **A four-vessel inspection milestone, Level 4-equivalent label, conditional classification notation, passenger-ferry certification, mobile Fleet Operation Center or regulatory work agenda is not by itself crewless safe navigation, reliable island continuity, affordable mobility, food-security protection, decent maritime work, clear insurance/liability or interoperable national capability.** ClassNK defines GENBU’s AUTO-Nav2(All) notation as conditional autonomy with human monitoring across all voyage phases; MLIT continues to examine role allocation, responsibility, insurance, training and labor load; and the first certified passenger ferry retains continuous onboard crew monitoring.
+
+The LO follow-up adds an **autonomous-vessel-certification-to-function-level-human-boundary-island-continuity-and-decent-work** distinction. Japan’s portfolio closes a stronger certification and system-integration stage than a single demonstration, but no public source here closes actual autonomous hours, intervention frequency, workload, emergency performance, passenger/cargo outcomes, insurance/liability, affordability or durable island-community benefit.
+
 ## What the evidence does not support
 
 Do not claim that:
