@@ -3519,6 +3519,10 @@ The KC follow-up adds a **care-robotics-to-measured-home-acceptance-and-accounta
 
 The JZ follow-up adds an **agricultural-automation-to-scale-appropriate-service-local-capability-and-smallholder-agency** distinction. Uganda closes a named walk-behind-tractor and machine-service pathway; Ghana, Nigeria, Tanzania, Rwanda and Benin close locally adapted women/youth, processing, drone, robot, technician and repair pathways; and West Africa digital platforms close a reach and market/access layer. These counter the assumption that automation only serves large farms, while preserving the unresolved durability, ownership, maintenance, income and data-governance questions.
 
+305. **A global neurotechnology recommendation, implementation toolkit, completed home BCI trial, recruiting implant study, neural signal, regulatory pathway or investment trend is not by itself restored function, durable clinical benefit, mental privacy, refusal rights, equitable access, child safety, worker agency, cultural legitimacy or accountable cross-border use.** UNESCO’s implementation methods are still being developed; the 109-person home trial does not close long-term or subgroup outcomes; and the 10-person UAE-PRIME study is recruiting rather than reporting safety or efficacy results.
+
+The KE follow-up adds a **neurotechnology-to-cross-border-clinical-evidence-and-implementable-mental-privacy** distinction. UNESCO closes the move from norm adoption toward readiness and ethical-impact assessment; the completed remote-home trial closes a larger clinical-design and home-use stage; and UAE-PRIME closes a named implanted-BCI jurisdictional pathway. These show different maturity levels and governance clocks, but no public source here closes the chain through durable everyday agency, inclusive access, data minimization, refusal, independent oversight and remedy across jurisdictions.
+
 ## What the evidence does not support
 
 Do not claim that:
