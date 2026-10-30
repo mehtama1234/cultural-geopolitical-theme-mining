@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HO
+**Date:** 2026-10-30; refreshed through Rotations D–HP
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3183,6 +3183,10 @@ The HN packet adds **health-worker-mobility-to-reciprocal-care-and-local-capabil
 
 The HO packet adds **cross-border-entitlement-to-received-protection-and-household-security conversion** with a source boundary around movement, status, sector, contribution, benefit, agreement, document, language, digital access, claim, wait, correction, payment, health/pension/injury event, family, return, adequacy, debt and care continuity. ILO supplies portability architecture; the EU supplies EESSI/ESSPASS infrastructure and case-volume evidence; ASEAN and World Bank supply regional policy routes; and OECD supplies Ukraine/Philippines return cases. These close formal coordination, proof and policy stages, but no public source here closes a comparable household chain through claim, payment, adequacy and later security.
 
+221. **An export-control rule, license condition, subsidy, loan, fab announcement, sovereign-compute strategy, cloud availability zone, market-share statistic, R&D programme or national AI target is not by itself qualified chips, operational compute, affordable access, contestability, secure supply, good jobs, innovation, public value or strategic autonomy.** A country can reduce dependence at one layer while remaining dependent on equipment, software, energy, water, skills or cloud gatekeepers; announced capacity can remain unbuilt or unqualified; and controls can shift access and cost without proving a security or social outcome.
+
+The HP packet adds **compute-controls-to-qualified-local-capability-and-geopolitical-access conversion** with a source boundary around chip, equipment, fab, license, customer screening, capacity, qualification, yield, cloud zone, power, water, skills, price, eligibility, workload, security, procurement, jobs, innovation and public service. BIS supplies current control architecture; OECD supplies concentration, geography, sovereignty and competition evidence; GAO supplies named US semiconductor awards; and DOE supplies an R&D mechanism. These close policy, market-structure and intended-capacity stages, but no public source here closes a comparable project/user chain through operating qualification, affordable access and public value.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3219,7 +3223,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HO.
+living goal. The current atlas baseline has been refreshed through Rotation HP.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
