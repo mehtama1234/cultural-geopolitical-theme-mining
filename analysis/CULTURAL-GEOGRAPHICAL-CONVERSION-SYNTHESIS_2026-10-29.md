@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IR
+**Date:** 2026-10-30; refreshed through Rotations D–IS
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3298,6 +3298,10 @@ The IQ packet adds **language-revitalization-policy-to-same-family-daily-use-ser
 249. **A cultural-property return, repatriation ceremony, title transfer, provenance study, museum inventory, mediation process or digital record is not by itself community repair, cultural authority, spiritual safety, living practice, reconciliation or durable trust.** A state can receive an object while the relevant community remains excluded from custody; an inventory can support accountability while exposing painful information; and a returned object can remain disconnected from language, ceremony, care and everyday cultural life.
 
 The IR packet adds **heritage-restitution-to-community-controlled-repair-and-living-cultural-continuity conversion** with a source boundary around object/remains, provenance, claimant authority, consent, return, custody, ceremony, language, access, interpretation, care, reburial/display choice, youth participation, healing and repeated cultural practice. UNESCO supplies the Southern Africa healing frame, Ecuador and Swiss-Greek named returns, regional diplomacy, mediation/conciliation, legal boundaries and community-informed measurement; UK guidance supplies human-remains provenance and ethical-care constraints. These close normative repair, provenance, transfer, diplomacy, dispute, legal, care and measurement stages, but no public source here closes a comparable community chain through decision power, custody, ceremony, healing and durable cultural governance.
+
+250. **A completed repatriation, arrival, ceremony, descendant handover, temporary custody arrangement, replacement object or conservation protocol is not by itself community control, spiritual safety, cultural teaching, healing, reconciliation or durable living continuity.** Arrival in a country is not arrival in the community; temporary museum care is not community custody; and a ceremony is not sustained practice.
+
+The IS packet adds **repatriation-to-community-controlled-custody-ceremony-teaching-and-living-continuity conversion** with a source boundary around return, final custodian, decision rights, care protocol, access restriction, ceremony, language, child/youth encounter, teaching, physical condition, spiritual relationship, grievance and repeated cultural practice. Canada supplies the Vatican return and interim custody, Haisla’s completed G’psgolox return, Poundmaker family ceremony, sacred-care options, reconciliation rationale and current implementation barriers. These close named transfer, interim custody, descendant authority, ceremony, care design, policy rationale and power-asymmetry stages, but no public source here closes a comparable long-term chain through everyday access, teaching, spiritual care, material preservation, healing and intergenerational continuity.
 
 ## What the evidence does not support
 
