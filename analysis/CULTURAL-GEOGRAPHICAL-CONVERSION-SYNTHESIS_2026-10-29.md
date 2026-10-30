@@ -3555,6 +3555,10 @@ The KH follow-up adds a **microplastic-detection-to-comparable-exposure-source-c
 
 The KJ follow-up adds a **digital-twin-to-testbed-transfer-open-public-infrastructure-and-accountable-intervention** distinction. The evidence now separates controlled verification, physical-system coupling, public data infrastructure and operational claims. No public source here closes the chain through transfer to uncontrolled conditions, safe intervention, cyber-resilient operation, community challenge, distributive fairness or verified physical/service outcome.
 
+314. **An operational AI forecast, ensemble, temporal downscaling product, extreme-event skill score, locally trained nowcast or full-chain warning case is not by itself accurate peak-hazard prediction, warning comprehension, safe action, avoided loss or equitable climate resilience.** ECMWF reports early indication but underpredicted Alpine extreme rainfall in Storm Hans and says intense rainfall remains difficult for HourGlass; WMO documents Yagi’s warning-to-action outcome but presents AI as one component of a wider institutional system.
+
+The KK follow-up adds an **AI-forecast-to-extreme-event-verification-warning-institutional-action-and-equitable-resilience** distinction. ECMWF closes operational skill, ensemble, temporal-detail and failure-boundary stages; WMO closes a named warning-to-evacuation/social-mobilization pathway; and neither source closes AI-specific causal attribution, local comprehension, household/livelihood protection, transfer across geographies or durable maintenance.
+
 ## What the evidence does not support
 
 Do not claim that:
