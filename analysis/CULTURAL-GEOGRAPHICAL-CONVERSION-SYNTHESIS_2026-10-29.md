@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation KD
+**Date:** 2026-10-30; refreshed through Rotation KE
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3442,6 +3442,10 @@ The KC packet adds **care-robotics-to-person-centred-autonomy-caregiver-relief-c
 285. **An eDNA detection, non-detection, metabarcoding result, autonomous sampler, reference-library match, biodiversity count, data release, invasive-species signal or monitoring standard is not by itself species abundance, local presence, eradication, ecosystem recovery, public-health protection, fisheries benefit, enforcement legitimacy or community consent.** DNA can be transported or degraded; false positives and negatives can produce costly interventions; and a larger taxonomic count does not prove healthier ecosystems.
 
 The KD packet adds **eDNA-signal-to-validated-biodiversity-decision-community-governance-and-ecological-outcome conversion** with a source boundary around sample/site/program, collection, assay, controls, reference library, detection, uncertainty, local interpretation, decision, intervention, affected community, cost, remedy and later ecological or livelihood outcome. USGS supplies the application, restoration, Santa Cruz Island and READI-Net/FIDO evidence; IUCN supplies sensitivity, standardization, reference-library and uncertainty guidance; and NOAA supplies the deep-ocean workflow and Okeanos Explorer data-release pathway. These close technology, uncertainty, place-based, operational, ocean, data, restoration and standardization stages, but no public source here closes a comparable sample/site chain through validated ecological inference, proportionate action, community authority, conservation success, public-health protection or livelihood benefit.
+
+286. **An investment statistic, ethical recommendation, BCI prototype, randomized trial, neural signal, consumer headset, classroom scenario, workplace policy, regulatory pathway or human-enhancement forecast is not by itself restored function, clinical benefit, mental privacy, informed consent, equitable access, child safety, worker agency, cultural legitimacy or prevention of coercive use.** A statistically significant trial can be small or short; a consent form can coexist with unequal power; and a privacy rule can fail if inferences and secondary uses remain opaque.
+
+The KE packet adds **neurotechnology-to-restored-agency-mental-privacy-inclusive-access-and-accountable-cross-context-use conversion** with a source boundary around device/program/person, modality, user subgroup, context, consent or assent, signal and inference, intervention, clinical or participation outcome, data flow, refusal route, human review, cost, bias, complaint and later recovery or harm. WHO supplies the global-health categories and limited-adoption boundary; UNESCO supplies the global rights framework, mental-privacy safeguards and culturally grounded African youth scenario; OECD supplies the cross-sector, regulatory-coherence, data-governance and AI-convergence frame; and the 2025 BCI trial supplies a bounded clinical signal. These close technology, rights, employment, youth, cross-sector, regulatory, clinical and strategic-pressure stages, but no public source here closes a comparable device/person chain through restored function, clinical benefit, mental privacy, informed consent, equitable access, child safety, worker agency, cultural legitimacy and prevention of coercive use.
 
 ## What the evidence does not support
 
