@@ -30,6 +30,72 @@ eligibility and registration
 | VOT-004 | [EAC voting-location resource calculator](https://www.eac.gov/election-officials/voting-location-resource-calculator) | EAC’s tool models voter wait times and bottlenecks using observed election-process timing data from 2018–2024 | Time/queue mechanism observable; local wait outcome open |
 | VOT-005 | [EAC HAVA-grant impact report](https://www.eac.gov/research-and-data/report-measuring-impact-recent-grants-election-administrators-under-hava) | EAC reports HAVA funds supported election security, accessibility, poll-worker training and constituent communication; as of August 2024 states had spent approximately $343M on equipment and cybersecurity | Funding and administrative-capacity input observed |
 
+## Named-case refresh
+
+These cases close different parts of the route and deliberately include
+remediation and institutional failure. An award, settlement or new tool is
+recorded as an administrative change, not automatically as a completed ballot
+or restored trust.
+
+### VOT-006 — Santa Fe County, New Mexico accessibility initiative
+
+The EAC reports that Santa Fe County launched an accessible voting website with
+American Sign Language videos, added accessible voting equipment and created a
+Disability Access Advisory Board in 2025 to guide improvements through lived
+experience. This closes information, accommodation and participatory-design
+stages in a named place. It does not establish that every voter found the
+information, reached a polling place, cast a ballot privately or believed the
+system responded to them.
+
+### VOT-007 — Merced County, California language-access modernization
+
+The EAC reports that Merced County introduced handheld Pocketalk translation
+devices supporting more than 84 languages as the county's population became
+more diverse and it sought local solutions for language accessibility and voter
+information. This is a concrete information-and-poll-worker route, not merely a
+legal language mandate. The public award record does not close device
+availability at every site, translation accuracy, privacy, ballot completion or
+counted status.
+
+### VOT-008 — Travis County, Texas ADA polling-place settlement
+
+The Justice Department reports that Travis County entered an ADA settlement
+after failing to select and maintain physically accessible polling places. The
+agreement required physical alterations, auxiliary aids, staff training, an ADA
+coordinator and complaint-resolution procedures. This is a useful failure-to-
+remedy chain: formal eligibility and a polling place existed, but the route was
+not physically usable for some voters. The settlement is not evidence that all
+barriers disappeared or that a specific voter subsequently cast a counted
+ballot.
+
+### VOT-009 — Cuyahoga County, Ohio language-access enforcement
+
+The Justice Department identifies Cuyahoga County as a language-access case in
+which the county had to address Spanish-language voting information and
+bilingual assistance. The case makes the cultural meaning of administration
+visible: language affects privacy, accuracy, the ability to ask for help and
+whether a voter can understand a provisional-ballot process. A bilingual
+resource or settlement does not by itself prove that an individual voter used
+it successfully or trusted the result.
+
+### VOT-010 — Alabama and Arizona mail-ballot curing contrast
+
+The EAC's 2024 state-by-state administration table records different formal
+routes: Alabama did not allow mail-ballot curing in 2024, while Arizona did and
+specified a cure deadline. The contrast is a counterexample to treating “mail
+voting” as one national experience. A ballot can be returned, flagged or
+ineligible under one jurisdiction's rules while another jurisdiction provides a
+remedy route; neither state-level rule proves an individual ballot was cured,
+counted or perceived as fair.
+
+## Sources added in the named-case refresh
+
+- [EAC: Santa Fe County accessibility award](https://www.eac.gov/clearinghouse-awards/2025-winner-best-practices-improving-accessibility-voters-disabilities-new)
+- [EAC: Merced County language-access award](https://www.eac.gov/clearinghouse-awards/2024-winner-outstanding-use-hava-grants-elections-modernization-california)
+- [Justice Department: Travis County ADA settlement](https://www.justice.gov/crt/case/travis-county-clerks-office)
+- [Justice Department: language-minority voting cases](https://www.justice.gov/crt/cases-raising-claims-under-language-minority-provisions-voting-rights-act)
+- [EAC: 2024 state mail-ballot curing table](https://www.eac.gov/sites/default/files/2025-06/2024_EAVS_Report_508c.pdf)
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |

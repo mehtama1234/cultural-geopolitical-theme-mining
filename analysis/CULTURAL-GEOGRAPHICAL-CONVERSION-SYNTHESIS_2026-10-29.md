@@ -2619,6 +2619,19 @@ student can reach, enter, remain in and belong in school often enough to
 participate and learn. The missing fields remain same-student absence cause,
 response, accommodation, belonging, learning and later transition.
 
+The T refresh adds five named voting-access cases. Santa Fe County links
+accessible information, equipment and a disability advisory board to lived
+experience; Merced County uses translation devices to address multilingual
+voter information; Travis County shows a physical-access failure becoming a
+settlement and remediation route; Cuyahoga County shows language access as a
+privacy, accuracy and provisional-ballot issue; and Alabama–Arizona exposes
+how mail-ballot cure rights vary by jurisdiction. These cases sharpen the T
+proposition: civic participation is a completed, accessible and trusted route
+to a counted ballot and perceived voice. Eligibility, registration, a new tool,
+a settlement or turnout cannot substitute for the same person's information,
+arrival, accommodation, ballot resolution, count, trust and later institutional
+response.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
