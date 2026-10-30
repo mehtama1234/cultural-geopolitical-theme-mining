@@ -2,7 +2,7 @@
 
 **Scope:** cultural, social, geographical, technological and geopolitical
 theme-mining atlas  
-**Baseline:** refreshed through Rotation EY
+**Baseline:** refreshed through Rotation EZ
 **Purpose:** verify artifact coverage, index integrity, local link integrity and
 the boundary between the current bounded evidence release and the still-active
 research goal.
@@ -11,23 +11,23 @@ research goal.
 
 | Check | Result | Evidence |
 |---|---:|---|
-| Numbered synthesis propositions | 156 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–156 in strict order |
-| Standard rotation markdown packets | 155 | `analysis/ROTATION-*.md` |
-| Standard rotation CSV ledgers | 155 | `analysis/ROTATION-*.csv` |
-| Register rotation rows | 155 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
-| Local register links | checked after EY; 0 missing | link-target scan of the register |
-| Recent packet CSV shape | six rows and nine fields for EY; all six source IDs present | `ROTATION-EY-PEACEKEEPING-LOCAL-SAFETY-DURABLE-PEACE-2026-10-29.csv` |
+| Numbered synthesis propositions | 157 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–157 in strict order |
+| Standard rotation markdown packets | 156 | `analysis/ROTATION-*.md` |
+| Standard rotation CSV ledgers | 156 | `analysis/ROTATION-*.csv` |
+| Register rotation rows | 156 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
+| Local register links | checked after EZ; 0 missing | link-target scan of the register |
+| Recent packet CSV shape | six rows and nine fields for EZ; all six source IDs present | `ROTATION-EZ-MIGRANT-CARE-MOBILITY-HOUSEHOLD-RESILIENCE-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
 ## Why packet and proposition counts differ
 
-The 156 propositions are conversion propositions in the synthesis. The 155
+The 157 propositions are conversion propositions in the synthesis. The 156
 rotation rows are register entries for the current packet portfolio. They are
 not required to be one-to-one because the portfolio includes earlier
 cross-rotation and first-pass architecture.
 
-The standard packet directory contains 155 markdown and 155 CSV files, but the
+The standard packet directory contains 156 markdown and 156 CSV files, but the
 first-pass/source-ledger architecture has three intentional naming pairs:
 
 - `ROTATION-A-FIRST-PASS` ↔ `ROTATION-A-SOURCE-LEDGER`
