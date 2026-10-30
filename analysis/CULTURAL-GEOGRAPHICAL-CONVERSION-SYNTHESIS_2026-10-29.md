@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IW
+**Date:** 2026-10-30; refreshed through Rotations D–IX
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3318,6 +3318,10 @@ The IV packet adds **internet-disruption-to-civic-service-household-and-humanita
 254. **A data-localization rule, sovereign-cloud project, cross-border data agreement, digital-identity connection, interoperability standard or data-sharing mandate is not by itself privacy, security, local value, affordable service, user consent, cross-border continuity or durable trust.** Formal interoperability can coexist with low operational use; local storage can coexist with weak governance; and cross-border openness can coexist with extraction or surveillance.
 
 The IW packet adds **data-sovereignty-policy-to-trusted-interoperable-public-service-and-user-control conversion** with a source boundary around jurisdiction/service/user, data category, legal rule, storage/processing, consent, identity, transfer, institution, cost, delay, error, access, privacy, local capability, correction, revocation and cross-border outcome. OECD/WTO supplies the global regulatory tension, localization prevalence, cost/resilience and trusted-flow evidence; OECD supplies public-service interoperability, cross-border identity, ASEAN divergence and consent architecture; World Bank supplies West African cross-border infrastructure. These close policy, prevalence, cost, public-service, identity, regional, infrastructure and governance stages, but no public source here closes a comparable user-level chain through privacy, service reliability, local capability, correction and cross-border outcome.
+
+255. **A quantum strategy, R&D investment, infrastructure hub, cloud-access program, workforce target, export/security measure, startup award, apprenticeship or announced application is not by itself sovereign capability, reliable use, inclusive opportunity, secure communication, jobs or public value.** Quantum may generate real advantages in some bounded tasks while remaining immature, expensive or inaccessible in others.
+
+The IX packet adds **quantum-strategy-to-qualified-capability-skilled-workforce-and-public-value conversion** with a source boundary around country, firm, institution, use case, investment, hardware/software, cloud access, component, standard, talent, training, experiment, qualification, procurement, deployment, performance, cost, worker/user, security and public outcome. The UN supplies investment and geopolitical baseline; OECD supplies policy, workforce, business-readiness, comparative-program and international-governance evidence; the EU supplies regional strategy; the UK supplies national funding, commercialization and technician pathways. These close investment, policy, strategy, workforce, access, governance and named-program stages, but no public source here closes a comparable quantum chain through qualified deployment, inclusive skilled work, reliability, affordability and public value.
 
 ## What the evidence does not support
 
