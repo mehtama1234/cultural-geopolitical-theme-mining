@@ -2,7 +2,7 @@
 
 **Scope:** cultural, social, geographical, technological and geopolitical
 theme-mining atlas  
-**Baseline:** refreshed through Rotation GD
+**Baseline:** refreshed through Rotation GE
 **Purpose:** verify artifact coverage, index integrity, local link integrity and
 the boundary between the current bounded evidence release and the still-active
 research goal.
@@ -11,23 +11,23 @@ research goal.
 
 | Check | Result | Evidence |
 |---|---:|---|
-| Numbered synthesis propositions | 186 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–186 in strict order |
-| Standard rotation markdown packets | 185 | `analysis/ROTATION-*.md` |
-| Standard rotation CSV ledgers | 185 | `analysis/ROTATION-*.csv` |
-| Register rotation rows | 185 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
-| Local register links | checked after GD; 0 missing | link-target scan of the register |
-| Recent packet CSV shape | six rows and nine fields for GD; all six source IDs present | `ROTATION-GD-MINERAL-SECURITY-SUBSTITUTION-LOCAL-BENEFIT-2026-10-29.csv` |
+| Numbered synthesis propositions | 187 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–187 in strict order |
+| Standard rotation markdown packets | 186 | `analysis/ROTATION-*.md` |
+| Standard rotation CSV ledgers | 186 | `analysis/ROTATION-*.csv` |
+| Register rotation rows | 186 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
+| Local register links | checked after GE; 0 missing | link-target scan of the register |
+| Recent packet CSV shape | six rows and nine fields for GE; all six source IDs present | `ROTATION-GE-HEALTH-INFORMATION-EQUITABLE-PROTECTION-TRUST-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
 ## Why packet and proposition counts differ
 
-The 186 propositions are conversion propositions in the synthesis. The 185
+The 187 propositions are conversion propositions in the synthesis. The 186
 rotation rows are register entries for the current packet portfolio. They are
 not required to be one-to-one because the portfolio includes earlier
 cross-rotation and first-pass architecture.
 
-The standard packet directory contains 185 markdown and 185 CSV files, but the
+The standard packet directory contains 186 markdown and 186 CSV files, but the
 first-pass/source-ledger architecture has three intentional naming pairs:
 
 - `ROTATION-A-FIRST-PASS` ↔ `ROTATION-A-SOURCE-LEDGER`
