@@ -3335,6 +3335,10 @@ The IZ packet adds **public-space-investment-to-safe-inclusive-repeated-use-and-
 
 The JA packet adds **social-connection-intervention-to-trusted-repeated-relationship-belonging-and-agency conversion** with a source boundary around person/place/cohort, structural conditions, invitation, language, accessibility, cost, transport, digital exposure, encounter, reciprocity, repeat participation, privacy, safeguarding, belonging, agency and health or resilience outcome. WHO supplies the global burden, policy architecture, group disparities, social-prescribing and older-adult intervention pathways; the World Health Assembly supplies the international mandate; OECD supplies comparative policy and measurement guidance; and the UN Ukraine case supplies a named conflict/displacement facilitator model. These close global framing, distribution, mandate, measurement, referral, intervention and crisis-delivery stages, but no public source here closes a comparable person-level chain through trusted repeated relationship, cultural fit, agency, health and durable continuity.
 
+259. **A restored-hectare figure, river flagship, fish release, water point, irrigation upgrade, watershed plan, payment scheme, community meeting, monitoring platform or jobs estimate is not by itself ecological recovery, reliable household water, safe livelihood, cultural continuity, equitable benefit, local authority or durable peace.** A river can look healthier at one reach while flows, contaminants or access remain unsafe elsewhere; and a community-led project can still depend on insecure tenure, short-term finance or external technical control.
+
+The JB packet adds **river-restoration-to-lived-water-security-cultural-continuity-and-community-authority conversion** with a source boundary around basin/community, ecological baseline, flow, quality, intervention, tenure, participation, monitoring, water receipt, fish/crop outcome, flood/drought exposure, livelihood, cultural practice, payment, conflict, grievance and long-term governance. UNEP/FAO/CBD supply global restoration scale, the freshwater gap and rights architecture; UNEP and IUCN supply freshwater monitoring, the Ganga basin, salmon restoration and cultural continuity cases; the World Bank supplies Meghalaya, Tajikistan and Somalia water/livelihood pathways; and UNEP supplies Haiti’s restoration-finance pilot. These close global scale, freshwater risk, named ecological/cultural, basin, infrastructure, community, fragile-context and finance stages, but no public source here closes a comparable downstream chain through reliable water, ecological recovery, livelihood security, cultural practice, equitable benefit and durable community authority.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3371,7 +3375,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JA.
+living goal. The current atlas baseline has been refreshed through Rotation JB.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
