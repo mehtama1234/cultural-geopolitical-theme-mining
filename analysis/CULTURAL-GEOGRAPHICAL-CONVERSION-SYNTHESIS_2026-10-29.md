@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation KG
+**Date:** 2026-10-30; refreshed through Rotation KH
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3454,6 +3454,10 @@ The KF packet adds **SRM-research-to-inclusive-risk-knowledge-governance-authori
 288. **An mRNA platform, technology-transfer partner, GMP plan, personalized sequence, immune response, early clinical signal, orphan designation, FDA briefing, manufacturing site or regional-health-security claim is not by itself authorized treatment, durable survival, affordable access, scalable quality, patient consent, public trust, local capability or equitable benefit.** A promising early trial can fail in larger comparison; a designated product is not approved; and a factory can exist without a sustainable product portfolio.
 
 The KG packet adds **mRNA-platform-to-personalized-therapeutic-benefit-regional-capability-and-equitable-access conversion** with a source boundary around product/patient/site, diagnosis, sequence, design, manufacturer, IP, GMP release, delivery, cold chain, clinical endpoint, adverse event, price, reimbursement, follow-up and later patient or health-system outcome. WHO supplies the Phase 2.0 regional-manufacturing, therapeutic-expansion, GMP economic-case and trust/health-security frame; FDA supplies a named cancer-vaccine designation without approval and the lipid-nanoparticle delivery constraint; and clinical sources supply the early personalized-vaccine and WT1-mRNA signals. These close regional capability, platform expansion, manufacturing economics, regulatory status, clinical maturity, feasibility, delivery and trust stages, but no public source here closes a comparable product/patient chain through authorized treatment, durable survival, affordable access, scalable quality, patient consent, public trust, local capability and equitable benefit.
+
+289. **A particle detection in water, food, air or tissue, biomarker association, laboratory toxicity result, review, public concern, treatment-removal claim, plastic treaty, monitoring standard or source-reduction promise is not by itself causal disease, safe exposure threshold, clinical diagnosis, equitable protection, worker safety, community remedy or health improvement.** Detection methods differ; particles carry mixtures; and associations can reflect confounding, reverse causation or exposure-measurement error.
+
+The KH packet adds **microplastic-source-to-validated-exposure-health-protection-and-exposure-justice conversion** with a source boundary around place/population/source, plastic stream, occupation or household, sampling method, particle characteristics, exposure route, biomarker or clinical signal, uncertainty, intervention, cost, worker/community participation and later exposure or health outcome. WHO supplies exposure, drinking-water, hazard-pathway, measurement and source-reduction evidence; recent human reviews supply detection, association and methodological-bias boundaries; JAMA supplies the tissue-detection and international-cooperation signal; and UNEP supplies the global public-salience frame. These close exposure, research, human-evidence, uncertainty, transboundary, salience, hazard and treatment stages, but no public source here closes a comparable place/population chain through causal disease attribution, safe threshold, clinical diagnosis, equitable protection, worker safety, community remedy and verified health improvement.
 
 ## What the evidence does not support
 
