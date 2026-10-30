@@ -577,6 +577,7 @@ and are not promoted as facts.
 - The care-robotics packet now includes England’s human-review/privacy guidance and WHO’s whole-system long-term-care standards; these close governance framing, not independent fall reduction, sustained autonomy or relational-care outcomes.
 - The AI-healthcare packet now includes WHO/Europe’s 2026 regional AI-health roadmap and healthy-ageing strategy; these close collective policy direction and care-system context, not national implementation or patient-level safe care.
 - The Indigenous-AI packet now adds UNESCO’s 2026 data-commons and linguistic-diversity evidence plus UN consent, extraction and self-determination boundaries; these close representation and governance mechanisms, not community-controlled model outcomes or everyday service use.
+- The AI-humanitarian packet now includes UNHCR’s 2026 Cox’s Bazar and multi-geography pilots, the funding crisis, and the Security Council/ICRC civilian-protection boundary; these close operational and geopolitical mechanisms, not person-level protection, remedy or lawful humanitarian-military separation.
 
 ## Decision
 
