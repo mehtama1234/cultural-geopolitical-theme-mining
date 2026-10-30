@@ -3813,6 +3813,10 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 397. **Large-load governance must be audited through the host-place chain.** Bring-your-own-power, flexibility rules, connection approval and national planning can close policy capacity, but not who pays, who benefits, who bears water and reliability risk, who can object and whether consent survives operation.
 
+398. **A data-centre policy becomes a host-place bargain only when its promises are operational and distributive.** Ireland’s additional-generation rule, NSW cost-recovery and water-pricing architecture, and the UK local-benefit covenant close institutional intent; they do not yet close collected charges, delivered benefits, household incidence or community control.
+
+399. **Strategic status can strengthen public obligations while also narrowing the space for refusal.** National AI, sovereignty and competitiveness narratives may justify accelerated connections; therefore local legitimacy must be tested through transparent water/energy reporting, meaningful participation, benefit allocation, remedy and post-operation reliability rather than strategic designation alone.
+
 ## What the evidence does not support
 
 Do not claim that:
