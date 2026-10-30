@@ -3639,6 +3639,14 @@ The KG follow-up adds a **personalized-mRNA-platform-to-durable-immunity-tumor-e
 
 The KG evidence adds **clinical-proof-to-manufacturable-timely-affordable-patient-pathway-and-regional-health-sovereignty** as a separate conversion question. The next ledger should join patient-level clinical evidence to production time, site capability, quality, reimbursement, access geography and follow-up rather than allowing a clinical headline to stand in for therapeutic availability.
 
+335. **A gene-edited crop pipeline, FDA premarket meeting, APHIS inquiry, regulatory exemption, multi-location field comparison or yield advantage is not by itself affordable seed, farmer agency, biodiversity protection, food legitimacy, consumer trust, food sovereignty or trade continuity.** APHIS and FDA show a growing U.S. product pathway across nitrogen, allergen, abiotic-stress, disease and nutrient traits; the waxy-corn study closes a field-performance comparison, but neither source closes ownership, price, access, local germplasm, multi-season farmer outcomes or cultural acceptance.
+
+The JY follow-up adds a **gene-editing-pipeline-to-field-performance-seed-access-farmer-control-biodiversity-food-legitimacy-and-trade** distinction. The evidence closes a more concrete product and performance stage, but no public source here closes a representative farmer pathway from trait to affordable seed, adoption, stewardship, food use and durable benefit.
+
+336. **Regulatory visibility and technical performance are not equivalent to seed sovereignty.** A crop can be reviewed, cleared from a particular regulatory category or outperform a conventional comparator while the seed remains proprietary, expensive, unavailable to smallholders, dependent on external inputs or disconnected from local breeding and cultural food systems.
+
+The JY evidence adds **field-performance-to-public-breeding-germplasm-control-affordability-and-local-food-authority** as a separate conversion question. The next ledger should track licensing, seed-saving/exchange rules, extension, input requirements, farmer choice, local varieties, benefit sharing and market treatment alongside yield and safety.
+
 ## What the evidence does not support
 
 Do not claim that:

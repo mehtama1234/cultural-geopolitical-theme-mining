@@ -27,6 +27,9 @@ edit / trait / germplasm / breeder control
 | JY6 | APHIS records current regulated-article inquiries, including a 2026 genome-edited corn case, showing that active review and product-specific questions continue even where some edits may qualify for exemptions. | Named pipeline and product-level regulatory activity. | Commercial success, yield, affordability, biodiversity or farmer adoption. |
 | JY7 | EFSA reports low public awareness of NGTs and an information gap: among people aware of the issue, 69% wanted more information about possible risks. | Public-knowledge and communication gap. | Rejection, acceptance, willingness to buy or cultural legitimacy. |
 | JY8 | FAO and EFSA both distinguish the technique from the resulting organism/trait and emphasize context, history of use and case-by-case assessment. | Core analytical boundary: precision of editing is not the same as outcome certainty. | Food sovereignty, seed concentration, biodiversity protection, equitable benefit or trade continuity. |
+| JY9 | APHIS’s October 2026 inquiry register shows a live product pipeline including genome-edited rice for nitrogen-use efficiency, peanut for reduced allergen accumulation, tomato for abiotic-stress tolerance, maize for nutrient and lipid changes, sorghum, pennycress and corn. | Named crop/trait pipeline and U.S. product-level regulatory activity. | Field performance, farmer access, seed price, food safety in use, biodiversity, consumer response or commercial adoption. |
+| JY10 | FDA’s 2026 voluntary premarket-meeting list includes genome-edited potato, romaine lettuce and corn for fungal-disease resistance, showing food-facing review before market claims. | Human/animal-food product pathway and public regulatory visibility. | Authorization, labeling, consumer trust, nutrition, farmer benefit, affordability or trade continuity. |
+| JY11 | A multi-location field study of CRISPR-edited waxy corn reported hybrids at 25 locations with average yield 5.5 bushels per acre above conventionally introgressed comparators carrying the same trait; it is a direct field-performance comparison, not a sovereignty or access study. | Rare edited-versus-conventional field-performance evidence. | Multi-season performance across farmers, seed cost, ownership, biodiversity, consumer acceptance, food-system distribution or benefit sharing. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -34,17 +37,19 @@ The central political question is who controls the seed-to-food chain. Gene edit
 
 Geography matters twice. First, drought, salinity, disease pressure, soils and farming practices determine whether a trait performs outside a controlled trial. Second, regulatory and labeling differences can segment markets and make cross-border seed and commodity movement harder. The EU transition and the U.S. APHIS pathway show that regulatory divergence is not a side issue; it can shape which varieties are bred, sold, exported or kept out of a market.
 
+The 2026 U.S. pipeline shows that the opportunity is moving from one demonstration crop toward a portfolio of traits tied to nitrogen use, allergen accumulation, abiotic stress, disease resistance, nutrient composition and seed architecture. That breadth is a signal of research direction, not proof of a public food-system outcome. The waxy-corn field comparison closes an important performance stage, but a yield advantage under trial conditions does not establish that farmers can buy the seed, save or exchange it, afford the license, preserve local varieties or capture the benefit.
+
 Food is also cultural infrastructure. A technically safe product may still face questions about identity, transparency, traditional varieties, religious or culinary practice and who benefits. Public communication must therefore disclose uncertainty and practical implications, not merely repeat that editing is precise. For lower-income and climate-exposed regions, the opportunity is not simply importing edited seeds; it is building public and regional breeding, testing, extension and stewardship capacity.
 
 ## Counterexample and source boundary
 
-An edited gene, laboratory result, regulatory exemption, field trial, patent, seed launch, drought-tolerance claim, food-safety assessment, label or consumer-information campaign is not by itself reliable multi-season yield, affordable seed, farmer choice, biodiversity protection, food safety in use, cultural legitimacy, equitable benefit or trade continuity. A technically precise edit can have context-dependent effects; a regulated product can be inaccessible; and a public information gap does not prove opposition.
+An edited gene, laboratory result, regulatory exemption, product pipeline, premarket meeting, multi-location field trial, patent, seed launch, drought-tolerance claim, food-safety assessment, label or consumer-information campaign is not by itself reliable multi-season yield, affordable seed, farmer choice, biodiversity protection, food safety in use, cultural legitimacy, equitable benefit or trade continuity. A technically precise edit can have context-dependent effects; a field advantage can remain inaccessible; a regulated product can be unavailable or proprietary; and a public information gap does not prove opposition.
 
 ## Promotion decision
 
 **Tier 1 bounded finding:** Gene-editing precision, regulatory treatment and safety-assessment pathways are separate from reliable field performance, affordable farmer choice, biodiversity stewardship, cultural legitimacy and food-security outcomes.
 
-**Tier 2 mechanism candidate:** The next high-value conversion is **gene-editing-to-climate-resilient-food-farmer-agency-biodiversity-and-trade-legitimacy**. The strongest next acquisition is a named crop/trait/place chain linking edit and germplasm, licensing, seed price and availability, multi-season field results, farmer adoption, biodiversity/non-target effects, food-safety evidence, consumer/cultural response and cross-border market treatment.
+**Tier 2 mechanism candidate:** The next high-value conversion is **gene-editing-to-climate-resilient-food-farmer-agency-biodiversity-and-trade-legitimacy**. The strongest next acquisition is a named crop/trait/place chain linking edit and germplasm, licensing, seed price and availability, multi-season field results, farmer adoption, biodiversity/non-target effects, food-safety evidence, consumer/cultural response and cross-border market treatment. Compare the APHIS/FDA pipeline, a field-performance case and a farmer-controlled public-breeding pathway rather than treating regulatory visibility as food sovereignty.
 
 ## Sources
 
@@ -54,4 +59,7 @@ An edited gene, laboratory result, regulatory exemption, field trial, patent, se
 - EFSA, [Genetically modified organisms](https://www.efsa.europa.eu/en/topics/genetically-modified-organisms)
 - USDA APHIS, [Revised biotechnology regulations](https://direct.aphis.usda.gov/biotechnology/regulations/secure-rule)
 - USDA APHIS, [Regulated article letters of inquiry](https://www.aphis.usda.gov/biotechnology/regulated-article-inquiry)
+- USDA APHIS, [2026 regulated-article inquiry register with crop and trait pipeline](https://www.aphis.usda.gov/biotechnology/regulated-article-inquiry)
+- FDA, [Premarket meetings regarding food from genome-edited plants](https://www.hfpappexternal.fda.gov/scripts/fdcc/?set=GenomeEditedPlants)
+- PubMed, [Multi-location field performance of CRISPR-edited waxy corn](https://pubmed.ncbi.nlm.nih.gov/32152597/)
 
