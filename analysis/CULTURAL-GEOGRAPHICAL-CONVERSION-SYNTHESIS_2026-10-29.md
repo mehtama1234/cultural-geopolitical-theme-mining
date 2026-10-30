@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IA
+**Date:** 2026-10-30; refreshed through Rotations D–IB
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3230,6 +3230,10 @@ The HZ packet adds **e-waste-circularity-to-safe-inclusive-material-recovery con
 232. **A protected area, restoration site, biodiversity-finance plan, hectares, species target, community meeting, monitoring role, data platform or benefit-sharing framework is not by itself local authority, fair benefit, functioning ecosystem, livelihood security, cultural continuity or durable stewardship.** Participation can remain advisory, finance can be announced without local receipt, data can be extracted, and ecological recovery can remain unmeasured.
 
 The IA packet adds **biodiversity-conservation-to-local-authority-ecological-function-and-fair-benefit conversion** with a source boundary around ecological pressure, territory, rights, consent, language, customary law, decision authority, finance, data, monitoring, restoration, enforcement, species/ecosystem function, livelihood, cultural continuity, complaint and legitimacy. UNEP supplies whole-of-society and data-governance architecture; World Bank supplies Lower Xingu, Costa Rica and Meghalaya cases; UNDP supplies BIOFIN scale and finance mobilization; UN guidance supplies local-rights and cultural-governance boundaries. These close policy, project, participation, leadership, finance and data stages, but no public source here closes a comparable territory/community chain through authority, money, ecological function and durable legitimacy.
+
+233. **A hazard map, relocation guideline, trust fund, housing project, consultation, physical move, service plan or climate-migration estimate is not by itself safe choice, consent, secure tenure, livelihood continuity, cultural survival, host-community legitimacy or durable wellbeing.** A person may move without meaningful alternatives, a destination may lack services or work, and a new house may not reproduce land-based culture, social ties or authority.
+
+The IB packet adds **climate-relocation-to-consented-safe-community-continuity conversion** with a source boundary around hazard, habitability, stay/adapt/move options, warning, consent, FPIC, land, tenure, compensation, destination, housing, water, health, education, transport, livelihoods, social ties, cultural governance, host community, return, complaint, remedy and long-term wellbeing. UN sources supply definitions, rights, anti-repurposing, Fiji architecture, cultural-continuity and Pacific stay/move principles; World Bank supplies codesign and destination planning; UNHCR supplies settlement-service and investment boundaries. These close conceptual, rights, policy, finance, codesign and minimum-service stages, but no public source here closes a comparable community chain through consent, move, livelihood, belonging and durable remedy.
 
 ## What the evidence does not support
 
