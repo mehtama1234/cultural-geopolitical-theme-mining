@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IE
+**Date:** 2026-10-30; refreshed through Rotations D–IF
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3246,6 +3246,10 @@ The ID packet adds **small-scale-fisheries-investment-to-secure-access-food-live
 236. **Facility delivery, skilled-attendance coverage, respectful-care training, maternal-mortality improvement, clinical guidance, birth-companion policy or referral plan is not by itself a respectful encounter, informed consent, timely treatment, safety, autonomy or durable trust.** A facility can be reachable yet abusive or unaffordable; a mortality trend can have multiple causes; and a guideline can exist without changed practice or remedy.
 
 The IE packet adds **respectful-maternity-system-to-consented-safe-referral-and-postnatal-continuity conversion** with a source boundary around pregnancy/labor, warning sign, language, trust, arrival, dignity, consent, communication, companion, pain, mobility, clinical assessment, medicines, referral, cost, treatment, birth/newborn care, complaint, postnatal follow-up and maternal/family outcome. WHO supplies the respectful-care definition, mistreatment signal, encounter rights, Senegal model and individualized sickle-cell guidance; UNFPA supplies Paraguay autonomy, Dhaka inequality, Serbia accountability and human-rights standards. These close definitions, mistreatment, encounter requirements, country models, accountability and personalization stages, but no public source here closes a comparable woman/family chain through consent, referral, treatment, safety and postnatal continuity.
+
+237. **A food-safety standard, inspection guide, hygiene training, market-cleaning activity, vendor formalization or food-availability statistic is not by itself safe affordable food, viable livelihood, nutrition, traceability, trust or reduced illness.** Rules can be impossible without water, cold storage or affordable equipment; enforcement can displace vendors; and a food can be available yet unsafe or unaffordable.
+
+The IF packet adds **informal-food-market-governance-to-safe-affordable-food-and-viable-vendor-livelihood conversion** with a source boundary around production, transport, water, surfaces, storage, temperature, vendor, inspection, hygiene, market management, price, purchase, preparation, contamination, illness, vendor cost/income, gendered time, child nutrition, complaint and correction. FAO/Codex supplies risk-based governance and Senegal/Viet Nam evidence; WHO supplies Indonesia and Cameroon market interventions and Malawi’s capacity/hazard boundary; UNICEF supplies Kenya consumer tradeoffs and child-nutrition quality. These close governance, tools, pilots, infrastructure, hazards and consumer mechanisms, but no public source here closes a comparable market/vendor/consumer chain through contamination, purchase, illness, livelihood and remedy.
 
 ## What the evidence does not support
 
