@@ -3837,6 +3837,8 @@ Do not claim that:
 
 ## Final research architecture
 
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 400 propositions without collapsing their distinct units or causal clocks.
+
 The next-stage atlas should retain six separate clocks:
 
 1. **signal:** survey, policy, announcement or public discussion;
