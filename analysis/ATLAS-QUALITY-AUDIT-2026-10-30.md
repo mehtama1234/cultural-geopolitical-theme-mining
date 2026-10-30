@@ -14,8 +14,8 @@ quality snapshot, not a claim that the substantive evidence is complete.
 | Registered Markdown packet links | 335 | The register contains repeated links across its historical and current sections. |
 | Unique registered packet paths | 305 | Deduplicated path count. |
 | Missing registered packet files | 0 | Every registered `.md` packet path resolves under `analysis/`. |
-| Master synthesis propositions | 405 | Numbered propositions before the evidence-boundary section. |
-| Proposition sequence | strict 1–405 | No missing or duplicate proposition number in the current range. |
+| Master synthesis propositions | 406 | Numbered propositions before the evidence-boundary section. |
+| Proposition sequence | strict 1–406 | No missing or duplicate proposition number in the current range. |
 
 ## Intentional schema families
 

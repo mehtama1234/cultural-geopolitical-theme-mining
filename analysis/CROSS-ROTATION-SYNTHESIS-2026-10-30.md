@@ -1,7 +1,7 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 305 unique registered packet paths, 310 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 405, and the latest rotations through KC, KK, KF, JZ and LR.
+**Inputs:** 305 unique registered packet paths, 310 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 406, and the latest rotations through KC, KK, KF, JZ and LR, with the CF AI-healthcare packet refreshed by WHO/Europe’s 2026 regional roadmap and healthy-ageing strategy.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).

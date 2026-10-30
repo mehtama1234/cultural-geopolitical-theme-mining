@@ -3829,6 +3829,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 405. **Care technology must be evaluated as a relationship and a system, not a device.** A sensor can reduce an observed risk or intrusive check while shifting interpretation, surveillance and responsibility to care workers; whole-system standards, human review, consent, privacy and quality monitoring remain necessary to establish person-centred autonomy.
 
+406. **A regional AI-health roadmap is collective governance intent, not patient-level safety.** A 53-country strategy can align principles, data intelligence and innovation while national procurement, language, disability access, liability, clinical oversight and redress remain geographically uneven.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3847,7 +3849,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 405 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 406 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 
