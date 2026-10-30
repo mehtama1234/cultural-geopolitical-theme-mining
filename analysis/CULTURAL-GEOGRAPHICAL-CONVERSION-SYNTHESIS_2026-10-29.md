@@ -1901,6 +1901,17 @@ that named people could express fear, obtain interpretation and legal aid,
 receive individual assessment and appeal, remain safe, access services or
 achieve a durable solution without hidden displacement and harm.
 
+161. **A host-state designation, public condemnation, sanctions package, police-
+station closure, platform intervention, legal prohibition, residence permit,
+protection referral, diaspora grant, security training or prosecution is not by
+itself safe residence, family protection, freedom of association, cultural
+continuity, civic participation, trusted remedy or durable diaspora agency.**
+Incidents recorded, threats referred, officials trained, channels opened,
+stations closed, cases prosecuted or organizations funded do not establish that
+named targets can live, travel, work, study, speak, organize and protect
+relatives without retaliation, surveillance, stigma, data exposure or
+institutional abandonment.
+
 The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior. The DT packet adds **informal-food-market-policy-to-safe-affordable-cultural-food-and-dignified-livelihood** with a source boundary around nutrition, affordability, foodborne illness, vendor income, women’s control, displacement, cultural continuity and post-shock governance. The DU packet adds **local-medicine-production-to-quality-assured-patient-continuity-and-regional-health-sovereignty** with a source boundary around product availability, affordability, quality, rural continuity, workforce capability and durable geopolitical leverage. The DV packet adds **mega-event-to-durable-host-city-legacy-and-legitimate-geopolitical-reputation** with a source boundary around resident wellbeing, worker remedy, post-event affordability, maintenance, cultural belonging and reputation after scrutiny. The DW packet adds **Arctic-corridor-to-Indigenous-community-sovereignty-and-safe-local-benefit** with a source boundary around community benefit, food security, cultural continuity, emergency response, remedy and durable sovereignty.
 
 The ET packet adds **tax-capacity-to-visible-public-value-and-voluntary-compliance** with a source boundary around named taxpayer burden, local service receipt, budget execution, refund and appeal fairness, household and firm consequences, gendered burden, later voluntary compliance and durable fiscal legitimacy.
@@ -1922,6 +1933,8 @@ The FA packet adds **indigenous-food-systems-to-nutrition-livelihood-and-self-de
 The FB packet adds **digital-language-to-everyday-vitality-and-cultural-continuity** with a source boundary around named daily use, learner competence, family transmission, service accuracy, health or justice access, digital safety, data governance, dialect inclusion, speaker agency and durable continuity.
 
 The FC packet adds **border-control-to-lawful-asylum-and-durable-protection** with a source boundary around named fear disclosure, interpretation, legal aid, fair assessment, appeal, family unity, shelter, status, service access, return safety, integration, disappearance, data harm and remedy.
+
+The FD packet adds **transnational-repression-to-safe-residence-and-diaspora-agency** with a source boundary around named target safety, family protection, residence continuity, travel, work or study, participation, cultural continuity, data harm, remedy, perpetrator adaptation and durable autonomy.
 
 The DX packet adds **municipal-waste-policy-to-safe-circular-service-and-waste-picker-just-transition** with a source boundary around exposure reduction, service reliability, worker income, child protection, social protection, material recovery, neighbourhood equity and post-reform power.
 
