@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HZ
+**Date:** 2026-10-30; refreshed through Rotations D–IA
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3226,6 +3226,10 @@ The HY packet adds **youth-mental-health-access-to-trusted-continuous-functionin
 231. **E-waste volume, collection, recycling, extended producer responsibility, circularity policy, recovered material or formalization is not by itself safe work, decent income, child protection, environmental recovery, traceability or accountable cross-border value.** A formal channel can exclude or displace informal workers; documentation is not proof of recovery; and hazardous exposure can persist in homes, workplaces, soil and water.
 
 The HZ packet adds **e-waste-circularity-to-safe-inclusive-material-recovery conversion** with a source boundary around device, design, discard, repair, resale, collection, ownership, trade, sorting, dismantling, exposure, PPE/controls, wages, gender/age, material recovery, soil, water, food, child/household pathway, formalization, complaint, remedy and producer responsibility. WHO supplies global scale, hazard, child/household and environmental-health evidence; UNEP supplies transboundary and Mexico circularity evidence; ILO supplies employment measurement and India’s E-SAFE occupational-safety case. These close scale, hazard, trade, policy, employment and intervention stages, but no public source here closes a comparable worker/community chain through exposure, income, recovery, remedy and health.
+
+232. **A protected area, restoration site, biodiversity-finance plan, hectares, species target, community meeting, monitoring role, data platform or benefit-sharing framework is not by itself local authority, fair benefit, functioning ecosystem, livelihood security, cultural continuity or durable stewardship.** Participation can remain advisory, finance can be announced without local receipt, data can be extracted, and ecological recovery can remain unmeasured.
+
+The IA packet adds **biodiversity-conservation-to-local-authority-ecological-function-and-fair-benefit conversion** with a source boundary around ecological pressure, territory, rights, consent, language, customary law, decision authority, finance, data, monitoring, restoration, enforcement, species/ecosystem function, livelihood, cultural continuity, complaint and legitimacy. UNEP supplies whole-of-society and data-governance architecture; World Bank supplies Lower Xingu, Costa Rica and Meghalaya cases; UNDP supplies BIOFIN scale and finance mobilization; UN guidance supplies local-rights and cultural-governance boundaries. These close policy, project, participation, leadership, finance and data stages, but no public source here closes a comparable territory/community chain through authority, money, ecological function and durable legitimacy.
 
 ## What the evidence does not support
 
