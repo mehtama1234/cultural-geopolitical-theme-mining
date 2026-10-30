@@ -29,6 +29,74 @@ unserved/underserved location
 | BDA-004 | [GAO Broadband Deployment report](https://files.gao.gov/reports/GAO-26-107725/index.html) | GAO found missing/unexpected values and inconsistent use of variables in broadband funding-map data; it also emphasizes sustainability and notes the $3 billion Tribal Broadband Connectivity Program supports deployment, affordability, devices and digital skills | Data quality and sustainability risk observed |
 | BDA-005 | [GAO broadband-program data-quality report](https://files.gao.gov/reports/GAO-25-107207/index.html) | GAO says weakly documented data-quality controls create risk that agencies target funding away from places lacking high-speed internet and undermine confidence in data reliability | Targeting and trust problem observed |
 
+## Named-case refresh
+
+These cases deliberately separate build, connection, affordability, skills,
+performance and downstream use. Public program stories can document a useful
+intervention without proving universal adoption or durable outcomes.
+
+### BDA-006 — Navajo Tribal Utility Authority broadband deployment
+
+NTIA reports that the Navajo Tribal Utility Authority's $50.8 million Tribal
+Broadband Connectivity Program project was designed to connect more than
+17,000 unserved Tribal households and community anchor institutions. Related
+NTIA program guidance separates fiber/fixed-wireless construction from the
+affordability, device and digital-skills work needed for use. This makes the
+Navajo Nation a useful place to test the full conversion rather than treating a
+network award as the endpoint. The public evidence does not by itself close
+which homes were activated, which households subscribed, what uptime they
+received or whether work, health, learning or cultural use improved.
+
+### BDA-007 — Project OVERCOME, rural and underserved broadband adoption
+
+US Ignite's Project OVERCOME, supported by the National Science Foundation and
+Schmidt Futures, funded selected communities to design, build and deploy
+proof-of-concept networks for unserved and underserved residents. Its social
+impact materials make the community the implementation unit and test novel
+technologies at human scale. It is a named model for the “last mile” between
+technical deployment and lived access; pilot participation or connection is not
+equivalent to a stable home subscription, accessible device, reliable speed or
+downstream outcome.
+
+### BDA-008 — Ammon, Idaho municipal open-access network
+
+The City of Ammon describes a city-owned open-access fiber network in which
+residents can choose among multiple service providers over shared
+infrastructure. This is a useful competition and control case: the local
+network architecture separates physical access from the retail provider and
+gives households a choice mechanism. The case does not establish that every
+resident can afford service, that providers deliver equal performance or that
+the model transfers to places without the same municipal capacity and
+financing.
+
+### BDA-009 — New York City Big Apple Connect
+
+New York City's Big Apple Connect provides participating NYCHA residents with
+internet and basic cable at no cost through city-negotiated service, with
+device and support routes connected to public housing communities. This closes
+an affordability intervention in a dense urban geography and makes the
+household—not only the building—the relevant unit. The program's existence does
+not prove installation success, continuity after policy or provider changes,
+accessible equipment, meaningful use or equal quality across developments.
+
+### BDA-010 — affordability and adoption as a non-closure case
+
+FCC mapping and NTIA deployment evidence can show that a location is serviceable
+or that a project is funded, while GAO identifies data-quality and
+sustainability risks. This is an explicit counterexample to a clean “coverage
+equals inclusion” story: a mapped address may still lack a device, skills,
+affordable service, indoor performance, privacy confidence or a reason to
+subscribe. The ledger therefore treats program scale and advertised speed as
+open stages until the same household's connection and use are observed.
+
+## Sources added in the named-case refresh
+
+- [NTIA: Navajo Region broadband awards](https://www.ntia.gov/report/2024/office-internet-connectivity-and-growth-2023-annual-report/implementation-partnering-in-the-field-part-two/tribal-entities/navajo-region)
+- [US Ignite: Project OVERCOME](https://www.us-ignite.org/program/us-ignite-communities/overcome/)
+- [City of Ammon: municipal fiber network](https://cityofammon.us/services/utilities/)
+- [NYC ACCESS: Big Apple Connect](https://access.nyc.gov/programs/big-apple-connect/)
+- [GAO broadband deployment oversight](https://files.gao.gov/reports/GAO-26-107725/index.html)
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |

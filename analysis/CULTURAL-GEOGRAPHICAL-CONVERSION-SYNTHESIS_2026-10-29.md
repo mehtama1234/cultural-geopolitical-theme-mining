@@ -2567,6 +2567,19 @@ The missing conversion remains matched household tenure, affordability, job
 quality, service use, discrimination, belonging, political voice and later
 mobility.
 
+The P refresh adds five digital-access cases and one explicit non-closure. The
+Navajo Tribal Utility Authority award separates planned deployment from
+household activation; Project OVERCOME tests novel networks at community scale;
+Ammon illustrates municipal open-access and provider choice; New York City's
+Big Apple Connect targets affordability in public housing; and the map-to-use
+counterexample keeps a serviceable address from being counted as an included
+household. The
+P proposition is therefore operational: meaningful digital access is a reliable
+and affordable capability to perform a purpose, not a map claim or award. The
+missing fields remain activation, installation, device and skill adequacy,
+accessibility, price burden, uptime, privacy, repeated use and downstream work,
+care, learning, civic or cultural participation.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
