@@ -2652,6 +2652,19 @@ They do not establish water or river recovery, facility safety, maintained
 reuse, language revitalisation, benefit, refusal, community power or durable
 local agency.
 
+The GW refresh adds four named information-to-action cases. Nepal's Youth Media
+Champions reached more than 200 people and helped move MIL toward a national
+operational procedure; BARMM voter education reached more than 2,200 people and
+raised assessed knowledge from 38% to 70%. Budalangi's Kenyan flood system
+combined local-language Bulala FM, 300 rechargeable radios and community hazard
+mapping, with a reported no-fatality 2011 flood outcome; Nepal's 2026
+Rasuwa-Bhotekoshi response sent 679,295 SMS messages while network damage and
+media casualties exposed the last-mile bottleneck. These close parts of local
+literacy, election comprehension, offline warning distribution, community
+preparedness and media continuity. They do not establish durable source
+verification, turnout, valid ballots, equitable receipt, maintained systems,
+protective action, loss reduction or institutional accountability.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and

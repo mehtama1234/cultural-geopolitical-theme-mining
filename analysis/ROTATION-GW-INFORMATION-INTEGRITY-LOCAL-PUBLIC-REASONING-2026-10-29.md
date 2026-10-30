@@ -143,6 +143,85 @@ action, correction and institutional response. Record source diversity, channel,
 device, disability, trust history, time to correction, offline alternatives and
 whether the group could obtain a remedy without retaliation.
 
+## Named local reasoning, election and disaster-information refresh
+
+### 7. Nepal Youth Media Champions: community reach and institutionalization
+
+UNESCO reports that nine Youth Media Champions from Nepal's seven provinces
+conducted community-level media-and-information-literacy interventions reaching
+more than 200 people, including youth, women and girls, Indigenous communities,
+Dalits and persons with disabilities. The programme connected a national MIL
+survey and youth participation to a later Media and Information Literacy
+Enhancement Operational Procedure approved by Nepal's National Youth Council,
+with more than 20 youth organizations involved in capacity-building and action
+plans.
+
+This closes a named route from local-language and community-facing literacy to
+institutional uptake. It does not establish measured source-verification
+accuracy after the intervention, changed voting or health decisions, platform
+reach, protection from harassment, or durable funding and accountability. Reach
+and policy adoption are upstream-to-middle outcomes, not completed civic agency.
+
+Sources: [UNESCO Nepal MIL](https://www.unesco.org/en/articles/promoting-and-strengthening-media-and-information-literacy-mil-nepal?hub=66951) and [UNESCO youth champions](https://www.unesco.org/en/articles/media-and-information-literacy-empower-youth-citizens-and-communities-nepal).
+
+### 8. BARMM voter education: localized explanation produced a measurable knowledge gain
+
+UNDP reports that community-based voter education sessions reached more than
+2,200 people across the Bangsamoro Autonomous Region in Muslim Mindanao before
+its first parliamentary elections. Facilitators used local language, practical
+ballot demonstrations, mock voting machines, uniform FAQs and coordination with
+local election officers, while targeting women, youth, persons with disabilities,
+older people, religious leaders, Indigenous Peoples and remote communities.
+
+The reported average assessment rose from 38% before the sessions to 70% after,
+with higher results in some municipalities. This is unusually clear operation-
+to-comprehension evidence. It does not prove turnout, valid ballots, candidate
+choice quality, resistance to later misinformation, institutional trust or
+political representation; the evaluation is a short-run participant assessment
+and not a counterfactual election study.
+
+Source: [UNDP Philippines, BARMM voter education](https://www.undp.org/philippines/stories/confusion-confidence-how-voter-education-prepares-communities-barmms-first-parliamentary-elections).
+
+### 9. Budalangi, Kenya: local-language radio turned forecasts into community action
+
+The World Bank's completion report for the Western Kenya Community Driven
+Development and Flood Mitigation project describes an operational flood early
+warning system in Budalangi. Real-time prediction equipment generated daily
+bulletins, Bulala FM broadcast them in local language, 300 rechargeable radios
+were distributed to poor households and community groups, and a 40-member
+community disaster-risk group conducted participatory hazard and vulnerability
+mapping. The report records that the December 2011 flood caused no fatalities in
+the project communities after early warning, while floods elsewhere caused
+deaths and displacement.
+
+This is a strong access-to-action case linking technical information, offline
+distribution, local language, community organization and preparedness. The
+completion report also flags unrealistic beneficiary estimates and weak impact
+measurement, so the no-fatality comparison must not be treated as a clean causal
+estimate. It does not establish sustained radio maintenance, household receipt,
+equitable reach, later flood performance or institutional remedy.
+
+Source: [World Bank completion report, Western Kenya flood mitigation](https://documents1.worldbank.org/curated/en/706421481552765649/pdf/ICR-Main-Document-P074106-2016-09-27-10-01-12072016.pdf).
+
+### 10. Rasuwa-Bhotekoshi flood: warning volume did not eliminate the information-access bottleneck
+
+UNESCO's 2026 account of Nepal's Rasuwa-Bhotekoshi flood reports that the Flood
+Forecasting Division sent 679,295 early-warning SMS messages to downstream risk
+areas. At the same time, damaged transport, electricity and telecommunications
+isolated communities; local journalists and media houses were themselves
+affected, with four journalists reported missing and nine media houses damaged.
+UNESCO supplied safety and operational equipment to help local journalists keep
+reporting verified public-interest information.
+
+This is a valuable counterexample to reach-count thinking: a large message
+volume can coexist with broken last-mile access, unsafe intermediaries and
+uncertain comprehension. It closes warning intent and media-continuity support,
+not household receipt, language accessibility, protective action, rumor
+correction or reduced loss. The next ledger must follow exposed households and
+local media through network failure and recovery.
+
+Source: [UNESCO, information during the Rasuwa-Bhotekoshi flood](https://www.unesco.org/en/articles/information-lifeline-supporting-journalists-during-disasters).
+
 ## Source boundary
 
 The official record is strong for the global information-integrity problem,
