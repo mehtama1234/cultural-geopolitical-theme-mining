@@ -4,6 +4,8 @@
 **Inputs:** 305 registered packet links, 309 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 400, and the latest rotations through LR.  
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
+Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
+
 ## Executive readout
 
 The atlas is converging on one disciplined research question:
