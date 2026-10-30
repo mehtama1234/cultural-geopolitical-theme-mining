@@ -57,6 +57,79 @@ This does not imply that AI content is uniformly deceptive or that provenance
 tools are ineffective. It identifies the missing conversion from a technical or
 policy feature to a person’s situated decision and later correction.
 
+## Named-case refresh
+
+These cases connect synthetic content to verification, platform controls,
+institutional response and different forms of harm:
+
+### AC6 — FTC voice-cloned family emergency scam
+
+The FTC describes a case in which a scammer used a cloned voice to convince an
+older couple that the caller was their grandson and needed money for bail; a
+bank official alerted them before they lost nearly $9,400. This closes a
+content-to-trust-and-financial-action route and shows why a familiar voice is
+not a sufficient identity signal. The case does not establish how often such
+scams succeed, whether the voice was fully AI-generated, or whether the FTC’s
+recommended independent callback prevented harm for a wider population.
+
+### AC7 — Michael Smith AI-assisted streaming fraud
+
+The U.S. Department of Justice reports that Michael Smith pleaded guilty after
+using hundreds of thousands of AI-generated songs and automated bots to create
+billions of apparently genuine streams and obtain more than $10 million in
+royalties. This is a platform-integrity case: content generation and synthetic
+engagement combined to defeat the meaning of a popularity signal. It closes
+the synthetic-content-to-economic-harm route, but the case is an enforcement
+account and does not reveal the full detection timeline, all platform controls
+or whether ordinary listeners were influenced by the fake popularity.
+
+### AC8 — NIST provenance and labeling case studies
+
+NIST summarizes case studies including OpenAI’s provenance classifier for
+DALL-E images, BBC audio and on-screen disclosures for face-swapped interviews,
+and Adobe’s C2PA implementation in Firefly. NIST emphasizes that these are
+different mechanisms, that label effects depend on modality and use case, and
+that the examples were submitted by participating entities. This closes a
+technical-deployment route, not user verification or safer action. It also
+creates a counterexample to treating a provenance mark as a universal remedy:
+coverage, display, comprehension, stripping and trust remain unobserved.
+
+### AC9 — DOJ AI-generated intimate-image harm
+
+The Eastern District of New York describes charges against Cornelius Shannon
+and Arturo Hernandez for allegedly publishing thousands of AI-generated sexual
+images and videos depicting real people, including public figures and
+non-public individuals. This makes synthetic content’s harm pathway concrete:
+the key outcome is not whether viewers can identify the image as synthetic, but
+whether victims can obtain removal, legal remedy, safety and reputational
+recovery. The defendants are charged, not convicted; the case does not measure
+prevalence, platform response time or victim recovery.
+
+### AC10 — CISA election-integrity deepfake scenario
+
+CISA’s trust-and-social-cohesion exercise uses a political-disruptor scenario
+in which a deepfake video and manipulated voice circulate around an election
+and trigger public reaction before the target can respond. The exercise is not
+evidence that the scenario occurred exactly as described; its value is in
+mapping the response sequence—rapid circulation, attribution uncertainty,
+institutional denial, community reaction and possible correction. It closes a
+preparedness and systems-response route while leaving real-world exposure,
+belief, turnout, violence and correction effectiveness open.
+
+### Case-ledger conclusion
+
+The refresh closes portions of synthetic voice trust, fake engagement,
+provenance deployment, intimate-image harm and election-response planning. It
+also sharpens the core boundary: authenticity metadata, labels, detection tools
+and institutional statements are interventions in the chain, not proof that a
+person recognized content, withheld action, recovered from harm or restored
+trust. The decisive ledger remains:
+
+`content/channel → provenance visibility → verification/intermediary → belief or action → correction/removal → financial/civic/reputational recovery`
+
+No case yet closes that chain across the same content, user and community over
+time.
+
 ## Cultural and geographical interpretation
 
 Trust is not only a property of content. It is a relationship among the

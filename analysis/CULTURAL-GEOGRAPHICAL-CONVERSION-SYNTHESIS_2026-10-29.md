@@ -2746,6 +2746,20 @@ retail and local sourcing, but it still does not show that the same household
 could repeatedly afford, reach, accept and acquire an adequate basket across
 changing prices and seasons.
 
+The AC refresh adds named synthetic-information cases. The FTC voice-clone
+family scam shows how a familiar voice can convert content into attempted
+financial action; DOJ’s Michael Smith case shows AI-generated content combined
+with bots to manufacture billions of apparently genuine streams and real
+economic harm; NIST’s OpenAI, BBC and Adobe examples show provenance and
+disclosure mechanisms but also their coverage and comprehension limits; the DOJ
+deepfake-intimate-image prosecution shows that victim removal and recovery are
+more important than viewer detection alone; and CISA’s election exercise maps
+the institutional response problem under attribution uncertainty. AC therefore
+advances from surveys and technical option sets to fraud, platform integrity,
+victim harm and preparedness, but it does not yet prove that labels, provenance
+or official corrections changed what the same person believed, shared, bought,
+voted on or recovered from.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
