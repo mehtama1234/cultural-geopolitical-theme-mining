@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IP
+**Date:** 2026-10-30; refreshed through Rotations D–IQ
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3290,6 +3290,10 @@ The IO packet adds **named-mineral-project-to-consented-safe-water-livelihood-wo
 247. **A language-rights declaration, multilingual-education policy, bilingual material, digital archive, AI tool, translation service, media programme or cultural event is not by itself language vitality, accurate public service, learner success, data sovereignty, speaker agency or intergenerational continuity.** A language can be officially recognized yet absent from a clinic, court, school assessment, keyboard, public alert or family conversation; a digital tool can preserve recordings without preserving community control or everyday use.
 
 The IP packet adds **Indigenous-language-policy-to-everyday-use-service-access-and-intergenerational-vitality conversion** with a source boundary around speaker status, home use, teacher/content, digital tool, consent, comprehension, service encounter, learning, safety, participation, media reach, youth uptake and repeated intergenerational transmission. UNESCO supplies global risk, education scarcity, policy guidance, India classroom practice, Timor-Leste transition, cyberspace and media evidence; UN DESA supplies AI, digital-access and data-risk boundaries. These close global framing, education, policy, classroom, country, digital and media stages, but no public source here closes a comparable speaker/family/service chain through daily use, learning, consent, data governance and durable continuity.
+
+248. **A language speaker count, school-enrollment figure, teacher-development programme, statutory target, staff-language register, community media centre or language dashboard is not by itself proficiency, daily use, accurate service access, family transmission, cultural authority or durable vitality.** A rise in learners can coexist with low daily use; a statutory target can coexist with missing social spaces; and staff capability can coexist with a failed care encounter.
+
+The IQ packet adds **language-revitalization-policy-to-same-family-daily-use-service-access-and-transmission conversion** with a source boundary around family/cohort, home language, school pathway, proficiency, peer/community spaces, service encounter, media use, identity, youth uptake and repeat intergenerational transmission, with community-controlled definitions of success. New Zealand supplies state-of-language, Māori schooling, teacher-evaluation and Te Mātāwai outcome systems; Wales supplies population, daily-use, geography, statutory education/social-space and social-care workforce measures; Australia supplies a community-language outcome and data-governance framework. These close named measurement and intervention pathways, but no public source here closes a comparable same-family chain through repeated home use, service access, youth uptake and durable transmission.
 
 ## What the evidence does not support
 
