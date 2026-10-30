@@ -119,6 +119,47 @@ storage, transport, pharmacy/facility receipt, dispensing and patient access.
 
 Source: [WHO Africa Health Observatory Platform — Nigeria medical products](https://ahop.afro.who.int/download/medical-products-and-health-technologies-nigeria-health-system-and-services-profile/).
 
+### 6. Vaccine supply recovery demonstrates the value of diversified production and allocation, not self-sufficiency alone
+
+UNICEF, WHO and Gavi reported in February 2026 that annual global oral cholera
+vaccine supply had nearly doubled from 35 million doses in 2022 to nearly 70
+million in 2025, allowing preventive campaigns to resume after more than three
+years of shortage. Mozambique was the first country to restart a preventive
+campaign after floods affected more than 700,000 people and displaced many.
+This is a concrete supply-to-campaign case: manufacturing expansion, allocation
+and public-health need jointly restored a protection route. It is not evidence
+that local production in Mozambique or any one country caused the recovery, nor
+that doses translated into completed vaccination, durable immunity or equitable
+household protection.
+
+Source: [UNICEF, Preventive cholera vaccination resumes as global supply reaches a critical milestone](https://www.unicef.org/press-releases/preventive-cholera-vaccination-resumes-global-supply-reaches-critical-milestone).
+
+### 7. Nigeria shows the local-manufacturing and last-mile contradiction
+
+The 2025 WHO Africa Health Observatory profile reports approximately 150 local
+pharmaceutical manufacturers in Nigeria, but says they meet only about 30% of
+national needs. It also records deterioration during storage, stock shortages,
+fake products, weak implementation of distribution rules and loss of confidence
+in generic medicines. Third-party logistics have been successful in reducing
+some stockouts, while electricity, temperature monitoring, vehicle availability
+and information-system gaps remain. This is a useful counterexample to
+factory-nationalism: local production and distribution reform can coexist with
+unresolved patient access and trust problems.
+
+Source: [WHO Africa Health Observatory, Nigeria medical products profile](https://ahop.afro.who.int/download/medical-products-and-health-technologies-nigeria-health-system-and-services-profile/).
+
+### 8. Technology transfer can create a local diagnostic route while the patient outcome remains open
+
+WHO and the Medicines Patent Pool announced a 2025 sublicensing agreement for
+rapid diagnostic-test technology involving Codix Bio in Nigeria. The stated
+purpose is to support local manufacture and regional health security after the
+COVID-era dependence on imported health products. This closes an IP-to-local-
+production and capability mechanism, but the announcement does not provide
+product qualification, unit price, facility deployment, test accuracy in use,
+patient receipt or diagnostic-treatment continuity.
+
+Source: [WHO and Medicines Patent Pool diagnostic-test sublicensing agreement](https://www.who.int/news/item/09-05-2025-who-and-medicines-patent-pool-announce-sublicensing-agreement-for-rapid-diagnostic-test-technology).
+
 ## Bounded proposition 126
 
 **A pharmaceutical factory, local-production target, regulatory maturity score,
@@ -196,7 +237,9 @@ the product but patients still could not obtain it.
 ## Source boundary
 
 The current packet closes the import-dependence, local-production, regulatory,
-regional-cooperation and factory-to-patient risk mechanisms. It does not close
-named patient affordability, quality, stockout reduction, rural continuity,
-health outcome, workforce capability or durable geopolitical leverage. Those
-remain acquisition targets.
+regional-cooperation and factory-to-patient risk mechanisms, and now adds named
+vaccine-supply recovery, Nigeria's local-manufacturing/last-mile contradiction
+and a diagnostic technology-transfer route. It does not close named patient
+affordability, product qualification and use, stockout reduction, rural
+continuity, health outcome, workforce capability or durable geopolitical
+leverage. Those remain acquisition targets.

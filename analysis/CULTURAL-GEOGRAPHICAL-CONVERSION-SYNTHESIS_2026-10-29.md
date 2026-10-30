@@ -2468,6 +2468,19 @@ local cultural adaptation. They do not establish equal material power,
 community-wide benefit, durable trust, conflict reduction, cultural-rights
 remedy or later geopolitical behavior.
 
+The DU refresh adds three named supply-chain bridges. Global oral cholera
+vaccine supply nearly doubled between 2022 and 2025 and preventive campaigns
+restarted in flood-affected Mozambique, closing supply expansion-to-campaign
+launch but not completed vaccination or household protection. Nigeria shows the
+counterexample that approximately 150 local manufacturers can meet only part of
+national needs while storage, distribution, counterfeit and generic-trust gaps
+persist; third-party logistics reduced some stockouts. A WHO/Medicines Patent
+Pool sublicense creates a Nigeria diagnostic technology-transfer route, but not
+yet qualification, deployment, price, patient receipt or treatment continuity.
+DU therefore advances from factory and regulation signals into emergency supply,
+last-mile contradiction and IP-to-capability, while patient-level health
+sovereignty remains open.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
