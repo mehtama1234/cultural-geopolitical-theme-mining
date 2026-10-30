@@ -3567,6 +3567,10 @@ The KL follow-up adds an **autonomous-shipping-to-cross-border-ROC-authority-por
 
 The L follow-up adds a **rural-health-funding-to-facility-viability-encounter-timeliness-completed-care-and-local-continuity** distinction. The evidence now has intermediate measures between award and outcome, but no public source here closes the chain through facility-level staffing, appointment completion, transfer and follow-up, language and transport equity, clinical result, patient experience or durable community trust.
 
+317. **A named autonomous vessel, shore-operation approval, multi-vessel remote trial, sea-shore coordination account, voyage count or road-substitution claim is not by itself crewless safe navigation, reliable freight service, verified emissions reduction, decent worker transition, port-community legitimacy or clear liability.** Massterly closes dated shore-operation and three-vessel trial milestones; its account also makes human coordination and trust visible; but no public source here closes Yara-specific certification, current crew, intervention workload, incident performance or independent local benefit.
+
+The LM follow-up adds a **named-route-autonomy-to-primary-ROC-milestone-current-crewing-road-substitution-and-local-accountability** distinction. The new primary operator evidence strengthens the chronology and confirms that autonomy is being built through staged shore operations, but it does not erase the source conflict or substitute for certification, route reliability, lifecycle accounting, worker terms, emergency drills and community evidence.
+
 ## What the evidence does not support
 
 Do not claim that:
