@@ -2425,6 +2425,10 @@ The HC packet adds **contract-management-to-continuous-public-service-and-remedy
 
 The HD packet adds **climate-exposure-to-psychosocial-agency-and-community-continuity conversion** with a source boundary around hazard, loss, displacement, uncertainty, distress, grief, outreach, MHPSS, psychological first aid, cultural safety, school/work/care functioning, social support, youth voice, adaptation participation, recurrence, clinical care and remedy.
 
+213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
+
+The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
