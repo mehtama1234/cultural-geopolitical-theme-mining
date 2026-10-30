@@ -1,0 +1,58 @@
+# Rotation KF — Solar radiation modification, governance and climate justice
+
+**Date:** 2026-10-30  
+**Research question:** As solar radiation modification (SRM) research and investment grow, can societies study possible climate-intervention risks transparently and inclusively—or will a speculative, transboundary technology create unilateral power, regional winners and losers, mitigation lock-in, liability gaps and intergenerational legitimacy failures?
+
+## Why this packet matters
+
+SRM is distinct from carbon dioxide removal. It would seek to reflect sunlight and temporarily cool the Earth, while leaving the greenhouse-gas cause of climate change in place. The central conversion is therefore not a project’s tonnes removed or permanence, but whether research and any future decision can manage uncertain, geographically uneven effects and prevent powerful actors from making unilateral or irreversible choices on behalf of people who did not consent.
+
+```text
+model / laboratory / outdoor experiment / proposed deployment
+  -> atmospheric, ecological, health and regional-impact evidence
+  -> governance, consultation, liability, monitoring and decision authority
+  -> temperature / precipitation / crop / ecosystem / geopolitical effect
+  -> mitigation and adaptation incentives, compensation, legitimacy and exit
+```
+
+## Evidence ledger
+
+| ID | Named evidence | What it closes | What it does not close |
+|---|---|---|---|
+| KF1 | UNEP’s 2026 working paper says scientific knowledge does not support SRM as a viable climate solution and identifies major gaps, no global governance, uncertainty and potential environmental/social impacts. | Current scientific and governance boundary. | Complete risk quantification, policy consensus or future feasibility. |
+| KF2 | UNEP/WMO’s 2025 dialogue examined SRM risks, uncertainties, social, moral, environmental and geopolitical implications and included 54 states, including 31 developing countries. | Inclusive science-policy dialogue and participation signal. | Representation quality, consent, binding decisions or affected-community outcomes. |
+| KF3 | WMO distinguishes local/regional weather modification from global-scale climate intervention, preventing conflation between cloud seeding and SRM. | Conceptual and scale distinction. | Technology efficacy, governance or cross-border impact. |
+| KF4 | IPCC materials identify regional consequences, ecosystem/carbon-cycle gaps, uneven research participation and risk of long-term lock-in that could obstruct mitigation. | Climate-system, distributional and path-dependency risks. | Resolved regional impacts, political response, mitigation behavior or compensation. |
+| KF5 | IPCC identifies SRM as difficult to assess because it relies heavily on models that are hard to validate and requires anticipating future actors’ behavior around untested technologies. | Evidence and attribution uncertainty. | Decision rule, acceptable risk threshold or deployment legitimacy. |
+| KF6 | National Academies recommends a transdisciplinary, international research program focused on policy-relevant knowledge rather than deployment, with transparency, public engagement, stakeholder inclusion and exit ramps. | Research-governance architecture. | Implementation, global authority, funding independence or public trust. |
+| KF7 | National Academies identifies possible governance mechanisms including registries, data sharing, review, permitting, liability, compensation, stakeholder participation and international cooperation. | Institutional design options. | Enforceability, jurisdiction, compensation adequacy or actual participation. |
+| KF8 | UNEP states SRM should not divert attention from urgent mitigation and adaptation, while urging caution, transparency and inclusive discussion. | Moral-hazard and portfolio-positioning boundary. | Whether research necessarily causes delay, or how decision-makers will balance portfolios. |
+
+## Cultural, geographical and geopolitical reading
+
+Climate intervention turns atmosphere into a contested political space. A global average temperature effect can coexist with regional precipitation, crop, ecosystem or health changes. The people most exposed to those differences may have the least influence over research agendas and no practical route to compensation. Climate justice therefore requires more than inviting observers to a workshop; it requires meaningful participation in what is studied, where, with which models, under whose authority and with what exit conditions.
+
+The technology also creates a temporal problem. If cooling were initiated and then stopped, rapid warming could produce severe disruption; if research becomes politically or financially entrenched, mitigation may be weakened even without deployment. Early institutional choices can therefore create lock-in before technical feasibility is established. Transparency, registries, independent review and explicit exit ramps are not administrative details; they are safeguards against path dependency.
+
+The geopolitical risk is unilateral action and asymmetric capacity. A state, consortium or private actor may have greater ability to conduct experiments or influence the agenda than climate-vulnerable countries. Conversely, a blanket refusal to study risks could leave decision-makers less prepared if an actor acts unilaterally. A legitimate research pathway must hold both possibilities: do not present SRM as a solution, and do not let uncertainty remove the need for governance, monitoring, dialogue, liability and accountability.
+
+## Counterexample and source boundary
+
+An SRM model, laboratory result, outdoor experiment, investment, policy dialogue, research registry, governance recommendation, cooling scenario or public-opinion signal is not by itself viable climate action, regional safety, ecological protection, equitable participation, compensation, mitigation continuity, public consent or legitimate deployment authority. Better modelling can reveal more uncertainty; consultation can improve procedure without resolving value conflict; and a temporary temperature benefit can coexist with altered precipitation and persistent greenhouse-gas risk.
+
+## Promotion decision
+
+**Tier 1 bounded finding:** SRM has a consequential research and governance problem, not an established climate solution; scientific uncertainty, regional distribution, lock-in, unilateral action and legitimacy remain central.
+
+**Tier 2 mechanism candidate:** The next high-value conversion is **SRM-research-to-inclusive-risk-knowledge-governance-authority-climate-justice-and-reversible-decision**. The strongest next acquisition is a named research/experiment/jurisdiction chain linking method, location, model/observation, affected region, consultation, consent, data, regulator, impact indicator, liability/compensation, mitigation/adaptation interaction and later decision or exit.
+
+## Sources
+
+- UNEP, [Solar Radiation Modification working paper](https://wedocs.unep.org/entities/publication/4154b06d-6a7a-4df0-aaa9-7472e4f7c6f5)
+- UNEP/WMO, [SRM science-policy dialogue](https://www.unep.org/en/events/workshop/consultative-workshop-and-science-policy-dialogue-solar-radiation-modification)
+- WMO, [Statement on weather modification](https://public.wmo.int/content/wmo-statement-weather-modification)
+- IPCC, [AR7 scoping material on SRM](https://apps.ipcc.ch/eventmanager/documents/88/290120250857-INF.%207%20-%20Scoping%20of%20the%20AR7.pdf)
+- IPCC, [Global governance of SRM and associated risks](https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-14/)
+- National Academies, [Research governance recommendations](https://www.nationalacademies.org/read/25762/chapter/2)
+- National Academies, [Governance mechanisms, liability and participation](https://www.nationalacademies.org/read/25762/chapter/7)
+
