@@ -579,6 +579,15 @@ protection is usable. More cooling can reduce exposure while increasing bill
 stress, peak demand or dependence on communal routes; the person-level health
 and care-continuity chain remains open.
 
+The outcome-case refresh adds CDC Arizona, NIH/NIEHS New York City and WHO 2026
+heat-action evidence. Arizona joins warning days, hospitalizations and a small
+older-adult survey of electricity cost, AC reliability and cooling-center
+barriers; NYC adds targeted AC distribution with a comparison-group survey; WHO
+adds operational requirements for outreach, care continuity and integrated
+surveillance. These close part of the operation-to-health arrow but remain
+limited by small/non-random samples, self-report, one-season observation and
+unclosed avoided-illness and repeated-adaptation outcomes.
+
 ### 27. Refugee integration is local, reciprocal belonging
 
 The [refugee resettlement rotation](ROTATION-Y-REFUGEE-RESETTLEMENT-LOCAL-INTEGRATION-2026-10-29.md)

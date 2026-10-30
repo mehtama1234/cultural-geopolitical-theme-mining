@@ -32,6 +32,9 @@ heat exposure and forecast
 | HHT-007 | [IEA Household Energy Affordability executive summary](https://www.iea.org/reports/household-energy-affordability/executive-summary) | Cooling technologies can reduce heat-health risks, but air-conditioner ownership is concentrated among higher-income households; efficiency is linked to affordable cooling and electricity-demand management | Cooling affordability and distribution mechanism observed |
 | HHT-008 | [US EPA extreme heat](https://www.epa.gov/climatechange-science/extreme-heat) | Rising energy costs, older or poorly insulated homes and unequal cooling access amplify heat risk; heat also affects schools, outdoor work, transport and electricity demand | Housing, work, learning and infrastructure pathway observed |
 | HHT-009 | [World Bank climate-knowledge guidance](https://climateknowledgeportal.worldbank.org/guidance-note) | Insufficient electricity or inability to pay operating costs limits active cooling; passive practices such as sleeping outdoors may lose effectiveness as projected heat intensifies | Reliability, affordability and adaptation-choice boundary observed |
+| HHT-010 | [CDC Arizona cooling-center and heat-illness study](https://www.cdc.gov/mmwr/volumes/71/wr/mm7124a1.htm) | In Maricopa and Yuma counties, heat-warning days increased during 2010–2020; older adults had higher HRI hospitalization rates; among 39 surveyed older Yuma residents, 44% reported heat-related symptoms and 18% reported electricity cost constrained AC use, while awareness, transport, repairs and pets limited cooling-center use | Named place, exposure, household barrier and health-event linkage observed; small convenience sample and non-causal design |
+| HHT-011 | [NIH/NIEHS New York City AC distribution evaluation](https://www.niehs.nih.gov/research/supported/translational/peph/newsletter/2023/09) | NYC distributed AC units to low-income older or mobility-impaired residents in 2020; distribution aligned with high-vulnerability areas, and non-participants were more likely to report household heat sickness than participants in the survey comparison | Targeting and self-reported health comparison observed; program selection, survey design and one-season duration limit causal inference |
+| HHT-012 | [WHO 2026 heat-health action-plan guidance](https://www.who.int/docs/librariesprovider2/default-document-library/who-hhap-guidance-exec-summary-eng-2026.pdf?download=true&sfvrsn=bee14f79_7) | WHO calls for targeted outreach, coordinated health/social-care response, continuity-of-care plans, exposure-reduction roadmaps and integrated meteorological, environmental and health surveillance | Implementation architecture and outcome-measure requirements observed; local execution and person-level benefit remain open |
 
 ## Stage audit
 
@@ -43,6 +46,19 @@ heat exposure and forecast
 | Safe behavior/exposure reduction | CDC links early warnings and cooling access to prevention | Protective mechanisms are plausible and operationally targeted | Same-person cooling behavior, indoor temperature, work change, contact and shelter completion |
 | Health/continuity | CDC heat-illness tracking and guidance | Heat-related illness/death can be tracked | Individual exposure, treatment, avoided illness, medication/care continuity and mortality attribution |
 | Durable place resilience/trust | HHI and local adaptation frameworks | Places can target vulnerability and plan interventions | Repeated-season effectiveness, distributional fairness, household adaptation, trust and migration |
+
+### Named outcome cases
+
+The Arizona study is the strongest existing bridge in this packet: it joins
+place-level heat-warning days with hospitalization rates and a small older-adult
+survey covering home temperature, electricity affordability, AC reliability,
+cooling-center awareness and transport. It does not identify which intervention
+prevented a specific hospitalization. The NYC AC distribution evaluation adds a
+targeted program and a comparison group with self-reported heat sickness, but it
+is also one-season, program-selected and not a randomized health-outcome study.
+These cases close part of the operation-to-health arrow while leaving avoided
+illness, care continuity, long-run affordability and repeated-season adaptation
+open.
 
 ## New trend interpretation
 
