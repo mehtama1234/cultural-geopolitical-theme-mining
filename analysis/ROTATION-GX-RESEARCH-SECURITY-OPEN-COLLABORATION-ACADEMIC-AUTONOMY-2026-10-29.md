@@ -73,6 +73,39 @@ critical research / international partner / funding application / data / facilit
    test: what information is sensitive, who decides, what evidence supports the
    restriction, how can a researcher appeal, and what public value is lost?
 
+## Named-case refresh
+
+7. ITER's Private Sector Fusion Engagement project shows a concrete “screened
+   openness” design. Access requests are screened against export-control and
+   intellectual-property criteria, users sign an agreement, and more than
+   10,000 documents had been shared by April 2026. ITER also open-sourced key
+   simulation and plasma-control software after securing agreement from the
+   relevant background-IP owners. This closes a mechanism and an operation for
+   a shared facility, but it does not establish equal access across countries,
+   downstream research benefit or the absence of exclusion.
+8. The SKA Observatory's Regional Centres model is a positive infrastructure
+   counterpoint: the stated design sends users and workflows “to the data”
+   irrespective of user nationality, reducing data-movement bottlenecks while
+   providing platforms, support and training. Its access and publication
+   policies are still developing, so this is evidence of an access architecture,
+   not proof of equitable scientific participation or durable local capability.
+9. The U.S. Department of Justice records that charges against MIT professor
+   Gang Chen, who had been accused of grant-disclosure and related offences,
+   were dismissed in January 2022. The record supports a named case of a
+   research-security-adjacent enforcement pathway and a due-process outcome;
+   it does not by itself prove that the original screening was discriminatory,
+   that no underlying disclosure breach existed or that research security is
+   unnecessary. It does show why dismissal, expert review and reputational and
+   collaboration effects belong in the ledger.
+10. In a contrasting case, DOJ reports that pharmaceutical research scientists
+    Chenyan Wu and Lianchun Chen pleaded guilty after confidential mRNA vaccine
+    research was copied from an employer and sent to a competing laboratory in
+    China, alongside an unsafe chemical-import offence. This is stronger
+    evidence for a concrete confidentiality and transfer harm than for the
+    effectiveness of any broad nationality or affiliation screen: the relevant
+    unit is the employer, material, access path, transfer and adjudicated
+    conduct.
+
 ## Bounded proposition
 
 **A research-security strategy, partner screen, disclosure form, training
@@ -171,3 +204,7 @@ promoted effectiveness claim.
 - OECD, [Reconfiguring scientific cooperation in a changing geopolitical environment](https://www.oecd.org/en/publications/2025/10/oecd-science-technology-and-innovation-outlook-2025_bae3698d/full-report/reconfiguring-scientific-co-operation-in-a-changing-geopolitical-environment_73f32116.html).
 - NSF, [Research Security](https://www.nsf.gov/research-security).
 - OECD, [What is research security and why does it matter for global science?](https://www.oecd.org/en/blogs/2025/11/what-is-research-security-and-why-does-it-matter-for-global-science.html).
+- ITER, [Private Sector Fusion Engagement Project](https://www.iter.org/fr/scientists/private-sector-fusion-engagement-project?untranslated=1).
+- SKA Observatory, [Regional Centres and the SRCNet](https://www.skao.int/nl/node/362).
+- U.S. Department of Justice, [MIT professor indictment and dismissal update](https://www.justice.gov/usao-ma/pr/mit-professor-indicted-charges-relating-grant-fraud).
+- U.S. Department of Justice, [mRNA research and hazardous-chemical guilty pleas](https://www.justice.gov/usao-sdca/pr/husband-and-wife-scientists-plead-guilty-illegally-importing-potentially-toxic-lab).

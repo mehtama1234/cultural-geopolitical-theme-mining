@@ -2379,6 +2379,18 @@ cost of closure.
 
 The GX packet adds **research-security-to-safe-open-collaboration-and-academic-autonomy conversion** with a source boundary around threat model, partner risk, data sensitivity, oversight, proportionality, support, disclosure, classification, advice, decision, appeal, collaboration continuity, security result, self-censorship, discrimination, public value and retained capability.
 
+The GX refresh adds four named cases without overstating them. ITER's Private
+Sector Fusion Engagement project shows screened access paired with large-scale
+document sharing and later open-sourcing of critical simulation software; SKAO's
+Regional Centres model proposes moving users to data irrespective of nationality,
+but its policies and equitable capability outcomes remain open. The DOJ record
+of dismissed charges against MIT's Gang Chen supplies a due-process and
+overreach counterexample, while the Wu/Chen guilty-plea case supplies a concrete
+confidential mRNA-transfer harm. Together these cases sharpen the conversion
+test: security must be assessed at the level of material, access path, decision,
+appeal, continuity and residual public value—not inferred from country, identity
+or a policy's existence.
+
 207. **A technical standard, open protocol, API, data schema, interoperability
 platform, certification, data space, digital-trade rule or connected system is
 not by itself practical choice, affordable access, service continuity, data

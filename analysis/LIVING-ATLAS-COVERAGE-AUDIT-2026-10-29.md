@@ -41,6 +41,7 @@ research goal.
 | GU packet CSV shape | ten rows and nine fields for GU; all ten source IDs present after Solidarity, RECOVERY, Surgisphere and Cancer Biology replication named-case refresh | `ROTATION-GU-RESEARCH-INTEGRITY-TRUSTED-EVIDENCE-PUBLIC-DECISION-2026-10-29.csv` |
 | GR packet CSV shape | ten rows and nine fields for GR; all ten source IDs present after Mthinzima, Rio Doce, Kathmandu and Indigenous Language Data Commons named-case refresh | `ROTATION-GR-OPEN-SCIENCE-USABLE-KNOWLEDGE-LOCAL-AGENCY-2026-10-29.csv` |
 | GW packet CSV shape | ten rows and nine fields for GW; all ten source IDs present after Nepal MIL, BARMM voter education, Budalangi warning and Rasuwa-Bhotekoshi named-case refresh | `ROTATION-GW-INFORMATION-INTEGRITY-LOCAL-PUBLIC-REASONING-2026-10-29.csv` |
+| GX packet CSV shape | ten rows and nine fields for GX; all ten source IDs present after ITER, SKAO, Gang Chen and mRNA-transfer named-case refresh | `ROTATION-GX-RESEARCH-SECURITY-OPEN-COLLABORATION-ACADEMIC-AUTONOMY-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
