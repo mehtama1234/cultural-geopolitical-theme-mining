@@ -68,6 +68,38 @@ hazard / loss / displacement / uncertainty / climate information
    with language, disability, migration, gender, cultural, transport or safety
    barriers.
 
+## Named-case refresh
+
+7. After Nepal's 2026 floods, UNICEF estimated that more than 17,000 children
+   needed mental-health and psychosocial support and reported 18 child-friendly
+   spaces, including 13 supported by UNICEF, alongside psychologists,
+   counsellors and frontline workers. The case closes an exposure-to-outreach
+   and safe-space route and includes family reunification work, but the public
+   record does not yet establish school return, sustained functioning, clinical
+   recovery or equitable reach across displaced children.
+8. WHO's Nepal account of Nuwakot health workers shows a different, often
+   missed unit: responders themselves. Named workers described personal loss,
+   displacement, sleeplessness and the pressure to keep delivering care while
+   their families remained unsafe; government and partners were providing MHPSS
+   and calling for sustained support. This closes a frontline-worker distress
+   and service-continuity mechanism, but not the later retention, workload,
+   safety or household-recovery outcome.
+9. Timor-Leste's response to the 2021 Seroja cyclone created 13 child-friendly
+   spaces in evacuation camps, in collaboration with eight NGOs and three youth
+   organisations, reaching more than 1,300 affected children. UNICEF then
+   continued community and family support after return from camps. This is a
+   useful island and post-disaster continuity case; reach is documented, while
+   cultural fit, school continuity, referral completion and long-term wellbeing
+   remain open.
+10. UNICEF's Sanamxay District case in Lao PDR follows a 2020–24 programme
+    after the 2018 dam-collapse floods. It combined psychosocial support,
+    child-responsive social services, a Child Protection Network and Savings for
+    Change; UNICEF reports reach of more than 2,700 children and 160,000
+    community members, while warning that sustained funding is needed to scale
+    protection across the country. This closes a multi-year recovery mechanism
+    linking psychosocial and financial resilience, but not a counterfactual
+    estimate of trauma, child marriage, trafficking or school recovery avoided.
+
 ## Bounded proposition
 
 **A climate hazard, disaster declaration, climate-anxiety survey, resilience
@@ -158,3 +190,7 @@ This remains a Tier 2 research opportunity, not a promoted causal finding.
 - WHO, [Mental health and psychosocial support minimum-service package](https://www.who.int/news/item/19-08-2025-ensuring-vital-mental-health-and-psychosocial-support-reaches-people-in-need).
 - UNICEF Malaysia, [National Youth Climate Change Survey](https://www.unicef.org/malaysia/press-releases/climate-change-already-disrupting-young-peoples-lives-malaysia-new-unicef-survey).
 - UNICEF Greece, [Climate anxiety and local psychological-first-aid pilot](https://www.unicef.org/greece/en/stories/were-not-ready-climate-anxiety-grows-among-young-people-greece).
+- UNICEF Nepal, [Flood-affected children and MHPSS](https://www.unicef.org/press-releases/over-17000-flood-affected-children-nepal-need-urgent-mental-health-and-psychosocial).
+- WHO Nepal, [Mental-health support for health workers after floods](https://www.who.int/nepal/news/detail/15-10-2026-when-those-who-care-also-need-support--health-workers-after-nepal-s-floods).
+- UNICEF Timor-Leste, [Community MHPSS and child-friendly spaces after Seroja](https://www.unicef.org/timorleste/reports/community-based-mental-health-and-psychosocial-support-and-child-friendly-spaces-timor).
+- UNICEF Lao PDR, [Child-responsive loss-and-damage case study](https://www.unicef.org/laos/reports/case-study-child-responsive-loss-and-damage-policies-finance-and-action).

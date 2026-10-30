@@ -2470,6 +2470,17 @@ The HC packet adds **contract-management-to-continuous-public-service-and-remedy
 
 The HD packet adds **climate-exposure-to-psychosocial-agency-and-community-continuity conversion** with a source boundary around hazard, loss, displacement, uncertainty, distress, grief, outreach, MHPSS, psychological first aid, cultural safety, school/work/care functioning, social support, youth voice, adaptation participation, recurrence, clinical care and remedy.
 
+The HD refresh adds four Global South and frontline-worker cases. Nepal's 2026
+flood response reports 17,000 children needing MHPSS and 18 child-friendly
+spaces, while a companion account shows Nuwakot health workers carrying
+personal loss and displacement while sustaining care. Timor-Leste's Seroja
+response reached more than 1,300 children through 13 child-friendly spaces and
+continued support after return; Lao PDR's multi-year Sanamxay programme joined
+psychosocial support, child protection and household financial resilience but
+still faces a funding-to-scale boundary. These cases close reach and response
+mechanisms more than recovery: the next test is sustained functioning, school,
+work or care continuity, worker retention, cultural fit and recurrence.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.

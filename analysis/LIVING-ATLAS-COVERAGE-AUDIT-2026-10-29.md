@@ -45,6 +45,7 @@ research goal.
 | GY packet CSV shape | ten rows and nine fields for GY; all ten source IDs present after X-tee, Egypt GovStack, Catena-X/Ouranos and Moyale named-case refresh | `ROTATION-GY-STANDARDS-INTEROPERABILITY-PRACTICAL-SOVEREIGNTY-2026-10-29.csv` |
 | HA packet CSV shape | ten rows and nine fields for HA; all ten source IDs present after Trieste, Sri Lanka, Thailand and Kenya named-case refresh | `ROTATION-HA-MENTAL-HEALTH-DEINSTITUTIONALIZATION-LIVED-EXPERIENCE-2026-10-29.csv` |
 | HB packet CSV shape | ten rows and nine fields for HB; all ten source IDs present after Rotterdam, Leeds, Coquet Valley and HMPO named-case refresh | `ROTATION-HB-PUBLIC-PROCUREMENT-LOCAL-CAPABILITY-FAIR-VALUE-2026-10-29.csv` |
+| HD packet CSV shape | ten rows and nine fields for HD; all ten source IDs present after Nepal children, Nepal health workers, Timor-Leste and Lao PDR named-case refresh | `ROTATION-HD-CLIMATE-MENTAL-HEALTH-PSYCHOSOCIAL-AGENCY-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
