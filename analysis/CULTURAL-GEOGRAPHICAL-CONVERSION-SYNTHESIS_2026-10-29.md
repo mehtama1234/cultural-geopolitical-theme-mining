@@ -2721,6 +2721,19 @@ weatherization delivery and durable household protection, but no case yet links
 the same account through notice, arrears, disconnection, assistance,
 reconnection, indoor conditions, food/medicine, health and repeat security.
 
+The AA refresh adds named food-acquisition cases. Forest Grove’s Adelante
+Mujeres connects immigrant and Latino farmer training, EBT, a SNAP match and
+guaranteed local markets; Newport’s Tipped Trailer Co. connects a rural
+discount retailer to recipe bundles and local nutrition education; USDA’s
+online SNAP pilot connects benefit redemption to households facing transport or
+disability barriers; Rhode Island’s Food on the Move adds repeat use and
+affordability-perception evidence; and ERS supplies the counterexample that
+prices and household resources can dominate modeled access in purchase
+decisions. AA therefore advances from prevalence, redemption and tract maps to
+culturally specific, digital and repeat-acquisition mechanisms, but it does not
+yet show that the same household completed an affordable and acceptable basket,
+maintained diet quality or achieved durable food security and health.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
