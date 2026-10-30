@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JP
+**Date:** 2026-10-30; refreshed through Rotation JQ
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3387,6 +3387,10 @@ The JO packet adds **carbon-border-adjustment-to-verified-industrial-decarboniza
 
 The JP packet adds **online-gambling-to-household-financial-health-mental-health-youth-safety-and-durable-recovery conversion** with a source boundary around person/household/platform, promotion, age/access, payment, wagering, essential spending, harm marker, intervention, support, account migration, family effect and later financial, health and safety outcome. WHO supplies the global harm and accessibility frame; the Gambling Commission supplies participation, affected-other harms, operator scale and intervention caveats; and UNICEF supplies named youth exposure and practical response routes in Argentina and Thailand. These close global harm, accessibility, participation, family-impact, platform-scale, intervention, youth-exposure and response-route stages, but no public source here closes a comparable person/household/platform chain through reduced financial and health harm, youth safety, durable recovery and accountable platform conduct.
 
+272. **A plasma shot, first plasma, high-gain result, private funding round, roadmap, construction partner, skills target, supply-chain agreement, regulatory framework or international experiment is not by itself net electricity, reliable capacity, affordability, safe operation, local benefit, commercial viability or geopolitical energy leverage.** A milestone can be scientifically important while remaining far from a maintainable power plant; a skills target can count enrolment without retention; and national energy-sovereignty claims can coexist with concentrated supply-chain dependence.
+
+The JQ packet adds **fusion-development-to-safe-reliable-affordable-grid-power-industrial-capability-and-shared-energy-security conversion** with a source boundary around facility/program/community, plasma result, engineering readiness, materials and fuel cycle, regulation, construction, workforce, grid connection, operating availability, cost, safety, local jobs, supply-chain transfer and later public-energy outcome. DOE supplies the US commercialization roadmap, challenge architecture and public-private mechanism; the UK supplies named investment, STEP, skills, regional and strategic-benefit claims; and ITER/JT-60SA supply the staged international experimental and cooperation boundary. These close commercialization strategy, infrastructure planning, national investment, workforce, experimental, scientific-cooperation, industrial-policy and uncertainty stages, but no public source here closes a comparable facility/community chain through safe reliable affordable grid power, durable industrial capability, equitable local benefit and shared energy-security leverage.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3423,7 +3427,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JP.
+living goal. The current atlas baseline has been refreshed through Rotation JQ.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
