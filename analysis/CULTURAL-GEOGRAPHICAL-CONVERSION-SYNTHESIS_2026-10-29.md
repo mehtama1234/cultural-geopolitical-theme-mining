@@ -3583,6 +3583,14 @@ The LO follow-up adds an **autonomous-vessel-certification-to-function-level-hum
 
 The LP follow-up adds a **MASS-certification-to-new-actor-attribution-incident-evidence-compensation-and-cross-border-remedy** distinction. The architecture now includes safety, P&I, cyber, sea/shore boundaries, foreign ROC jurisdiction and an incident-based review path, but no public source here closes a named casualty through responsible actor, applicable policy, preserved evidence, claimant access, compensation, limitation, enforcement and post-incident learning.
 
+321. **An interim casualty report, current-investigation listing, consultation process, published recommendation, anonymised data portal or public evidence release is not by itself a final causal account, implemented safety change, comparable autonomous-vessel denominator, claimant access or recurrence reduction.** MAIB’s current page still lists Iceni Legend/X18 through the September 2026 interim-report milestone; its published process moves through analysis, consultation and publication; and its recommendations are preventive signals rather than law.
+
+The LQ follow-up adds an **autonomous-casualty-to-interim-status-publication-recommendation-implementation-and-recurrence** distinction. The evidence now closes the temporal status and institutional publication architecture, but no public source here closes the chain through final cause, recipient acceptance, funded implementation, audit, comparable denominator, claimant evidence access, compensation or reduced recurrence.
+
+322. **A public marine-accident database, anonymised case subset, published interim report or protected investigation file is not by itself sufficient for both system learning and individual remedy.** MAIB’s public model supports selected transparency while preserving legal and investigative boundaries, creating a productive but material distinction between what a safety system can publish and what a claimant, insurer or regulator may need to prove responsibility.
+
+The LQ evidence therefore adds **public-casualty-data-to-comparable-risk-learning-and-individual-remedy** as a separate conversion question. It remains open until public data can support denominators and trend comparison while a named incident also supplies admissible, actor-specific evidence for compensation and corrective action.
+
 ## What the evidence does not support
 
 Do not claim that:
