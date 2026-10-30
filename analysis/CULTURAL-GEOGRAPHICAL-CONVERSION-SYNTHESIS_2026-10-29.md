@@ -3539,6 +3539,10 @@ The KB follow-up adds a **quantum-sensing-to-terrestrial-deployment-space-qualif
 
 The KD follow-up adds an **eDNA-signal-to-open-national-monitoring-hydrological-validation-and-locally-legitimate-action** distinction. NOAA closes an open deep-ocean data workflow, EPA closes national survey integration, USGS closes a high-frequency sampling/confounding boundary, and the sawfish assay closes a validated cross-range method pathway. These show institutional scale-up without closing the chain through abundance, proportionate intervention, community authority, recovery or livelihood outcome.
 
+310. **A context-qualified drug-development tool, experimental trial-matching system or clinical AI screening outcome is not by itself an AI-designed medicine, target engagement, safety, efficacy, manufacturability, regulatory approval, affordability or public-health equity.** FDA defines qualification within a stated context of use; NIH says TrialGPT requires professional verification and does not make enrollment decisions; and the NIH-supported opioid-use-disorder readmission signal is a clinical workflow result, not molecule-level evidence.
+
+The KI follow-up adds an **AI-drug-development-to-context-qualified-evidence-clinical-access-and-patient-outcome** distinction. FDA closes reusable context-bounded qualification; NIH closes an experimental patient-to-trial matching pathway with explicit human verification; and the NIH-supported OUD trial closes a named clinical outcome signal. These show that AI can produce measurable evidence and workflow value before a drug is approved, but no public source here closes the chain through an AI-designed molecule, human efficacy/safety, affordability, equitable access and post-market outcome.
+
 ## What the evidence does not support
 
 Do not claim that:
