@@ -3351,6 +3351,10 @@ The JD packet adds **invasive-species-biosecurity-to-community-defined-ecosystem
 
 The JE packet adds **wildlife-trade-governance-to-lower-trafficking-zoonotic-risk-and-fair-community-livelihood conversion** with a source boundary around species/market/route/community, demand, harvest, legal status, actor, pathogen exposure, customs, surveillance, enforcement, livelihood, food/cultural use, community voice, benefit, remedy, market substitution and later species/health outcomes. UNODC supplies the adaptive-trafficking and seizure-limit evidence; WHO supplies One Health, live-wildlife market and named Indonesia risk-assessment pathways; CITES supplies livelihood, community-rights and legal-trade architecture; UNEP supplies the detected-illegal-trade indicator; and UNODC supplies the transnational-network frame. These close crime, health, local-assessment, legal-trade, rights, measurement, market and transnational stages, but no public source here closes a comparable route/community chain through lower trafficking, lower spillover risk, species recovery, fair livelihood security and durable trust.
 
+263. **A glacier-mass estimate, water-tower statistic, hazard map, early-warning system, adaptation plan, reservoir, road repair, relocation, local-knowledge workshop or heritage documentation is not by itself reliable household water, safe evacuation, resilient food production, livelihood security, cultural continuity, equitable allocation or durable local authority.** A warning can fail because it does not reach people in their language or through trusted channels; a new reservoir can redistribute water; and a rebuilt village can lack the social and cultural conditions that made it home.
+
+The JF packet adds **mountain-cryosphere-change-to-safe-water-livelihood-cultural-continuity-and-shared-basin-governance conversion** with a source boundary around glacier/basin/community, ice and snow baseline, hazard, forecast, warning, language, route, household water, irrigation, pasture, energy, protection, migration, income, cultural practice, downstream allocation, finance and long-term governance. UNESCO/UN-Water supplies global water-tower scale, mountain dependence and policy recommendations; WMO supplies global, Asian and transboundary hydrological trends; UNESCO supplies named Sagarmatha planning and Thame living-heritage recovery; and the World Bank supplies peak-water and adaptation trade-offs. These close global scale, monitoring, hazard, regional, planning, disaster, heritage, policy and nonlinear storage stages, but no public source here closes a comparable mountain/community chain through warning receipt, reliable water, safe livelihoods, cultural continuity, equitable downstream allocation and durable shared governance.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3387,7 +3391,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JE.
+living goal. The current atlas baseline has been refreshed through Rotation JF.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
