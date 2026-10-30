@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IL
+**Date:** 2026-10-30; refreshed through Rotations D–IM
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3274,6 +3274,10 @@ The IK packet adds **dementia-community-care-to-continuous-person-and-caregiver-
 243. **A community-health-worker headcount, training, certification, digital record, home visit, strategy, formalization or supply-chain plan is not by itself delivered quality care, stocked treatment, completed referral, fair work, worker retention, household continuity or health outcome.** A worker can be nearby but unsupported, a digital system can reduce paperwork without changing action, and a formal cadre can still lack supplies, supervision or safe workload.
 
 The IL packet adds **community-health-worker-system-to-supplied-trusted-primary-care-continuity conversion** with a source boundary around household need, contact, task, language, data, device, supplies, treatment, referral, facility feedback, supervision, pay, safety, workload, training, follow-up, health and trust. World Bank supplies Mozambique formalization/home-care/supply evidence, Eswatini digital reporting and Diabetes Compass; UNICEF supplies Rwanda, Cameroon and Somalia digital/training/strategy cases; WHO supplies role, supervision and measurement boundaries. These close workforce, formalization, household access, supply intention, digital, workflow and strategy stages, but no public source here closes a comparable worker–household chain through supplies, referral, treatment, pay, workload and health outcomes.
+
+244. **A land law, cadastral record, electronic title, joint ownership, inheritance reform, parcel count, climate-smart project or women’s job statistic is not by itself secure control, credit, bargaining power, adaptation investment, income, safety or durable land security.** A woman’s name on a title can coexist with restricted possession or decision power; legal recognition can coexist with insecure customary tenure; and registration can precede actual protection.
+
+The IM packet adds **women-land-rights-to-controlled-climate-resilient-livelihood-and-security conversion** with a source boundary around legal/customary status, title, possession, control, inheritance, dispute, credit, inputs, extension, climate investment, production, income, food, housing, bargaining power, safety and intergenerational security. FAO supplies Asia-Pacific baseline, legal/customary and climate/gender evidence; World Bank supplies documentation scale, Philippines e-titles, Mozambique evaluation design and Ethiopia restoration/employment; UN-Habitat supplies the land/housing/service mechanism. These close baseline, documentation, digitization, evaluation, restoration, employment and governance stages, but no public source here closes a comparable woman-level chain through control, finance, adaptation, safety and intergenerational security.
 
 ## What the evidence does not support
 
