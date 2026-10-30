@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–DP
+**Date:** 2026-10-29; refreshed through Rotations D–DQ
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -1460,7 +1460,18 @@ residents retained affordable and culturally meaningful use, informal workers
 were protected, or the operating model remained viable after promotional
 funding ended.
 
-The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability.
+122. **A digital-nomad visa, remote-work strategy, broadband upgrade, coworking
+hub, tax incentive, “nomad village,” telework arrangement or place-branding
+campaign is not by itself local prosperity, decent work, housing affordability,
+cultural belonging, skills transfer or reciprocal regional development.**
+Connectivity, worker arrivals, coworking seats, visa approvals, local spending
+or reported flexibility do not establish that named residents gained jobs or
+services, workers received fair pay and protection, housing remained
+affordable, care burdens were reduced, local firms gained durable capability,
+cultural authority was shared, or the place retained legitimacy after
+incentives ended.
+
+The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention.
 
 ## What the evidence does not support
 
@@ -1498,7 +1509,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation DP.
+living goal. The current atlas baseline has been refreshed through Rotation DQ.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
