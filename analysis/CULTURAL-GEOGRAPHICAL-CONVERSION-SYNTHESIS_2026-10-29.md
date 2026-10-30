@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–ES
+**Date:** 2026-10-29; refreshed through Rotations D–FO
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -2007,6 +2007,16 @@ reduced do not establish that named households and vendors can afford and
 receive essentials, that workers are protected, or that streets and
 neighborhoods retain safe, inclusive and culturally meaningful use.
 
+171. **A food-waste index, surplus-food platform, date-label campaign, donation
+scheme, cold chain, composting plant, anaerobic digester, landfill diversion
+target or circular-food investment is not by itself affordable nutritious food,
+safe and dignified recovery work, farmer or vendor resilience, cultural food
+continuity, lower household exposure or durable methane reduction.** Measured
+tonnes, diverted organics, meals rescued, installed capacity or policy targets
+do not establish that named people ate safe food, paid less, retained agency,
+earned fairly, avoided risk, or experienced a sustained local environmental
+benefit.
+
 The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior. The DT packet adds **informal-food-market-policy-to-safe-affordable-cultural-food-and-dignified-livelihood** with a source boundary around nutrition, affordability, foodborne illness, vendor income, women’s control, displacement, cultural continuity and post-shock governance. The DU packet adds **local-medicine-production-to-quality-assured-patient-continuity-and-regional-health-sovereignty** with a source boundary around product availability, affordability, quality, rural continuity, workforce capability and durable geopolitical leverage. The DV packet adds **mega-event-to-durable-host-city-legacy-and-legitimate-geopolitical-reputation** with a source boundary around resident wellbeing, worker remedy, post-event affordability, maintenance, cultural belonging and reputation after scrutiny. The DW packet adds **Arctic-corridor-to-Indigenous-community-sovereignty-and-safe-local-benefit** with a source boundary around community benefit, food security, cultural continuity, emergency response, remedy and durable sovereignty.
 
 The ET packet adds **tax-capacity-to-visible-public-value-and-voluntary-compliance** with a source boundary around named taxpayer burden, local service receipt, budget execution, refund and appeal fairness, household and firm consequences, gendered burden, later voluntary compliance and durable fiscal legitimacy.
@@ -2093,6 +2103,8 @@ The ER packet adds **school-meal-to-child-nutrition-and-local-food-system-resili
 
 The ES packet adds **health-financial-protection-to-care-continuity-and-household-security** with a source boundary around named care completion, health, debt, food/housing protection, work, caregiving, treatment continuity, claim fairness and remedy.
 
+The FO packet adds **food-waste-to-affordable-nutrition-and-circular-livelihood** with a source boundary around named edible-food access, diet quality, affordability, recipient agency, worker and vendor safety, farmer resilience, cultural acceptability, organic-stream performance, methane or soil outcome, local legitimacy and remedy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -2129,7 +2141,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation FC.
+living goal. The current atlas baseline has been refreshed through Rotation FO.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
