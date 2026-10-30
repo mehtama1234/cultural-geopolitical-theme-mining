@@ -3825,6 +3825,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 403. **Public authority over warnings is a distinct form of forecast sovereignty.** A model can be open, efficient or skillful while a national service still lacks the observations, staff, review power, data rights and resources needed to challenge, explain and translate it into an accountable local action.
 
+404. **Shared forecasting infrastructure is both a public good and a geopolitical relationship.** An international AI-weather initiative can reduce capability gaps while creating dependence on an external model, data standard, platform or funding relationship; aggregate avoided-loss claims do not prove partner-country authority, household action or AI-specific benefit.
+
 ## What the evidence does not support
 
 Do not claim that:

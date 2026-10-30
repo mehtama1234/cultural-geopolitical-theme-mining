@@ -571,6 +571,7 @@ and are not promoted as facts.
 ### Latest packet supplements
 
 - [AI weather forecasting packet](ROTATION-KK-AI-WEATHER-FORECASTING-EARLY-WARNING-EQUITY-2026-10-30.md) now includes WMO’s authoritative-NMHS, end-to-end warning-cycle and cross-system verification standard; this closes governance/verification framing, not household warning receipt or protective action.
+- The same packet now includes WMO’s MAZU international cooperation signal; it closes cross-border capability-sharing framing, not partner-country adoption, local authority or AI-specific avoided-loss causality.
 
 ## Decision
 
