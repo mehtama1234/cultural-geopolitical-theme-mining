@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JX
+**Date:** 2026-10-30; refreshed through Rotation JY
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3418,6 +3418,10 @@ The JW packet adds **digital-therapeutics-to-safe-equitable-adherent-clinical-be
 279. **An inoculant, microbial strain, product authorization, positive-list entry, demonstration plot, market-development plan, training session, compost hub or yield claim is not by itself reliable field performance, affordable access, food security, safe ecology, farmer income, local ownership or durable reduction in mineral-fertilizer dependence.** A product can work in trials but fail in storage; a soil-health practice can improve yields without proving causality for the product; and regulatory delay can restrict access without proving that faster approval would be safe.
 
 The JX packet adds **biofertilizer-development-to-reliable-yield-affordable-smallholder-inputs-soil-resilience-and-local-input-sovereignty conversion** with a source boundary around product/strain/farm/community, soil and crop baseline, carrier/storage, application, regulation, price, extension, microbial viability, yield, nutrient use, ecological effect, farmer income and later adoption or import dependence. FAO supplies microbial mechanisms, viability and context-specific evidence; the European Commission supplies biosafety, organic-use, market-development and regulatory-bottleneck evidence; and the World Bank supplies named Ethiopia soil-health and local-production pathways. These close mechanism, storage, safety, recognized use, market, regulatory, place-based soil-health and input-sovereignty opportunity stages, but no public source here closes a comparable product/farm chain through reliable yields, affordable access, safe ecology, farmer income, local ownership and durable reduction in mineral-fertilizer dependence.
+
+280. **An edited gene, laboratory result, regulatory exemption, field trial, patent, seed launch, drought-tolerance claim, food-safety assessment, label or consumer-information campaign is not by itself reliable multi-season yield, affordable seed, farmer choice, biodiversity protection, food safety in use, cultural legitimacy, equitable benefit or trade continuity.** A technically precise edit can have context-dependent effects; a regulated product can be inaccessible; and a public information gap does not prove opposition.
+
+The JY packet adds **gene-editing-to-climate-resilient-food-farmer-agency-biodiversity-and-trade-legitimacy conversion** with a source boundary around crop/trait/place, edit and germplasm, breeder/licensor, seed price and availability, multi-season field performance, farmer adoption, biodiversity/non-target effects, food-safety evidence, consumer/cultural response and cross-border market treatment. FAO supplies the agrifood opportunity, food-safety and institutional-capacity frame; EFSA supplies case-by-case risk criteria, the EU regulatory transition and the public information gap; and USDA APHIS supplies the U.S. exemption/status-review pathway and a named genome-edited corn inquiry. These close technology, food-safety, risk-assessment, regulatory-transition, U.S. pathway, product-review and public-knowledge stages, but no public source here closes a comparable crop/place chain through reliable field performance, affordable farmer choice, biodiversity stewardship, cultural legitimacy, equitable benefit and trade continuity.
 
 ## What the evidence does not support
 
