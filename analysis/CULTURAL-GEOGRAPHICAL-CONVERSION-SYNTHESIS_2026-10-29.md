@@ -3363,6 +3363,10 @@ The JG packet adds **ocean-acidification-science-to-coastal-food-livelihood-cult
 
 The JH packet adds **aviation-transition-to-lower-local-exposure-affordable-connectivity-and-airport-community-legitimacy conversion** with a source boundary around route/airport/neighborhood/worker, aircraft, fuel pathway, lifecycle and local emissions, noise, monitoring, route change, health, jobs, fares, access, supply-chain land/labor, consultation, complaint, remedy and durable agreement. ICAO supplies the 2026–2050 target, noise, local-air-quality, community-engagement and operational frameworks; IATA supplies current SAF scale, scarcity, cost, lifecycle and announced-capacity boundaries; and ICAO supplies global noise scenarios and airport environmental-management guidance. These close sector, fuel, lifecycle, operational, exposure, airport, supply-chain and portfolio stages, but no public source here closes a comparable route/neighborhood chain through lower exposure, affordable connectivity, safe work, equitable transition benefit and durable place legitimacy.
 
+266. **An IMO framework, emissions price, fuel certificate, announced renewable-fuel plant, green corridor study, port upgrade, national action plan, training guideline, vessel efficiency record or emission-control area is not by itself lower emissions, safe work, affordable trade, local health protection, regional capability or community legitimacy.** A ship can meet a fuel-intensity metric while upstream impacts remain contested; a corridor can be technically feasible while fuel is unaffordable elsewhere; and training guidance can exist without qualified workers or safer operations.
+
+The JK packet adds **maritime-decarbonization-to-safe-seafarer-work-lower-port-exposure-affordable-trade-and-regional-capability conversion** with a source boundary around vessel/route/port/worker/community, fuel origin, certification, ship, bunkering, training, safety, emissions, cargo cost, jobs, local air/water, trade continuity, consultation, grievance and post-project capability. IMO supplies the net-zero framework, governance uncertainty, chain-of-custody, renewable-fuel infrastructure, seafarer-training, Barbados corridor, South-East Asia implementation and emission-control evidence; UNCTAD supplies the fleet and port-investment burden. These close global regulation, uncertainty, infrastructure, worker, island, regional, health and finance stages, but no public source here closes a comparable vessel/route/community chain through verified lower emissions, safe decent work, affordable trade, lower local exposure and durable regional capability.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3399,7 +3403,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JH.
+living goal. The current atlas baseline has been refreshed through Rotation JK.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
