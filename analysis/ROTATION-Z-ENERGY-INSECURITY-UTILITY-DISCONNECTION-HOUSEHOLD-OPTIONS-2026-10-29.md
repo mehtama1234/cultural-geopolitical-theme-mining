@@ -65,6 +65,43 @@ an AC or fan can reduce heat exposure while increasing electricity demand or
 bill stress; and an efficient home can still lose protection during an outage or
 when the tenant cannot control equipment or repairs.
 
+## Named-case refresh
+
+The following cases connect weatherization, safety, health, utility coordination
+and programme reach to actual households or places:
+
+### ENR-009 — Jones family, Waynesboro, Georgia
+
+The [Department of Energy weatherization account](https://www.energy.gov/cmei/success-stories/articles/health-and-safety-benefits-weatherization-one-family-georgias-story) describes a Georgia Weatherization Assistance Program audit for the Jones family, who had struggled to heat and cool their home. The audit found a major gas leak, an exposed attic wire that was burning insulation, and missing carbon-monoxide and smoke detectors; the family was evacuated while a fire was addressed. After weatherization, gas lines were replaced and leaks sealed, and the family reported average bill savings of about $120 per month. This closes a safety-and-affordability route in which an energy intervention also detects hazards that utility-bill data would miss. It is a single success story and does not establish continued affordability, indoor conditions, health, tenure or protection during future outages.
+
+### ENR-010 — Fairbanks, Alaska weatherization health case
+
+The [DOE Fairbanks case](https://www.energy.gov/cmei/scep/wap/articles/wap-improves-health-outcomes-alaska-client) reports that a client’s worsening asthma raised concern about an aging boiler. An assessor found toxic carbon-monoxide levels, shut off the boiler and ensured broader upgrades while the family had originally applied for window and door work. This connects weatherization assessment to an immediate health-and-safety intervention rather than treating energy efficiency as only a bill reduction. The case does not provide a control household, a complete medical record, long-run asthma outcome, energy burden or repeat-event data.
+
+### ENR-011 — HELP of Southern Nevada weatherization reach
+
+An [EPA case study](https://www.epa.gov/system/files/documents/2024-07/508_brownfields_factsheet_weatherization_.pdf) reports that HELP of Southern Nevada weatherized about 8,000 dwellings between 2005 and 2011, serving roughly 17,000 people, and reduced energy needs by close to 29 million kWh. The organization worked across multifamily as well as single-family housing and used existing social-service networks to reach eligible residents. This adds a place-based delivery and multifamily route, where landlord and common-area conditions affect household benefit. The figures are program-reported and do not close same-household bill, temperature, health, eviction or repeat-insecurity outcomes.
+
+### ENR-012 — Indiana utility/community weatherization collaboration
+
+The [DOE Indiana case](https://www.energy.gov/cmei/scep/wap/articles/community-collaboration-expands-program-reach-indiana) describes collaboration among Duke Energy, the Indiana Community Action Association, the state housing authority and Citizens Action Coalition. The redesigned programme opened eligibility to renters, increased health-and-safety spending and used supplemental funds to address homes previously deferred from weatherization. By September 2023, $752,000 had been spent for a reported 226 MWh gross reduction, with a projected reach of 270–280 homes. This closes part of the coordination-to-reach route and makes deferral a measurable conversion barrier. It does not establish completed work for every eligible home, bill reduction, indoor safety, health or durable affordability.
+
+### ENR-013 — Ohio weatherization priority-selection counterexample
+
+The [GAO Ohio audit](https://www.energy.gov/documents/oas-ra-12-13pdf) found that agencies had priority rules for elderly people, people with disabilities and families with children, but one reviewed implementer did not use its own priority points when selecting applicants. Five of 23 reviewed homes were served before 205 higher-priority applicants, and 69 of 278 approved projects had waited more than a year. This is a direct counterexample to treating eligibility, prioritization rules or programme approval as delivered protection. It concerns allocation and delay, not a complete household health outcome, so the failure should not be generalized beyond the service-conversion bottleneck.
+
+### Case-ledger conclusion
+
+The refresh closes portions of household hazard detection, weatherization,
+health-and-safety response, multifamily delivery, renter reach and programme
+coordination. It also shows that assistance can fail before work begins through
+deferral, queueing or incorrect priority selection. The decisive ledger remains:
+
+`notice/arrears or unsafe home → assistance application/eligibility → audit or repair → service/reconnection → bill and indoor condition → food/medicine/health/care → repeat security`
+
+No case yet closes that chain for the same account and household across multiple
+weather and billing cycles.
+
 ## Cultural and geographical meaning
 
 Energy is experienced through the home. A disconnection or unaffordable bill can

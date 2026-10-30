@@ -2708,6 +2708,19 @@ family continuity, legal/economic stability or durable belonging. The Y
 conversion test remains same-family longitudinal integration plus the receiving
 place’s capacity and reciprocal response.
 
+The Z refresh adds household and programme cases beyond aggregate utility
+counts. The Georgia Jones family and a Fairbanks family show that weatherization
+audits can uncover gas, fire and carbon-monoxide hazards while improving the
+energy-and-safety route; HELP of Southern Nevada shows multifamily and
+place-based delivery at scale; Indiana shows how utility/community coordination
+can open renter eligibility and address weatherization deferrals; and the Ohio
+GAO audit supplies a counterexample in which priority rules and programme
+approval did not produce timely service for higher-priority applicants. Z
+therefore strengthens the distinction between assistance architecture,
+weatherization delivery and durable household protection, but no case yet links
+the same account through notice, arrears, disconnection, assistance,
+reconnection, indoor conditions, food/medicine, health and repeat security.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
