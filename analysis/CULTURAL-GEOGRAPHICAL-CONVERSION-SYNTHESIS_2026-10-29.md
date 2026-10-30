@@ -3663,6 +3663,14 @@ The BO follow-up adds **age-assurance-deployment-to-app-store-intermediary-platf
 
 The BO evidence adds **age-signal-rights-criterion-to-subgroup-error-contestability-access-and-local-legitimacy** as a separate conversion question. The next test should compare app-store, web, shared-device and low-connectivity routes and record who can refuse, challenge, recover access, delete data and obtain remedy—not only whether the service labels the method privacy-friendly.
 
+341. **An AAM aircraft certification, vertiport simulation, public test range, national deployment milestone or “quiet” aircraft claim is not by itself safe regular service, affordable access, lower neighborhood burden, emergency reliability or legitimate airspace governance.** FAA’s current materials separate aircraft and operator safety from local zoning, land-use compatibility, community engagement, NEPA/noise work, utilities and site fit; its 2026 infrastructure guidance also identifies missing operational data for site review and separation policy.
+
+The JR follow-up adds **advanced-air-mobility-certification-to-local-siting-community-exposure-service-access-and-legitimacy** as a separate conversion question. The evidence closes system definition, simulation, public test infrastructure and the federal/local accountability split, but no public source here closes a named route through fare, utilization, noise exposure, complaint, remedy, medical or commercial continuity and resident benefit.
+
+342. **A multi-level governance architecture can distribute responsibility without guaranteeing meaningful local power.** FAA assigns federal agencies aircraft, airspace and environmental-review responsibilities while operators, local governments, landowners, utilities and communities shape local fit; a consultation or engagement process therefore does not prove that residents changed a route, received usable data, obtained mitigation or shared in the benefit.
+
+The JR evidence adds **AAM-governance-handoff-to-public-data-local-decision-route-change-exposure-remedy-and-shared-benefit** as a separate conversion question. The next ledger should record the actor, decision, evidence available, objection, change, operating condition and post-deployment outcome at each named vertiport or route rather than treating “community engagement” as the endpoint.
+
 ## What the evidence does not support
 
 Do not claim that:
