@@ -3807,6 +3807,12 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 394. **Administrative digitization can reveal geography without resolving justice.** District-level pending, rejected and returned claims make operational variation visible, but disposal rates and portal activity do not establish claim value, appeal quality, farmer agency, household recovery or trust to renew.
 
+395. **AI demand becomes a territorial bargain, not an intangible service.** Data-centre growth closes a demand and investment signal, but public value depends on the host grid, watershed, land system, rate base, workers and planning authority that absorb the concentrated load.
+
+396. **Efficiency and renewable procurement do not automatically close affordability or legitimacy.** Lower electricity per AI task can coexist with higher total demand, while power-purchase agreements can coexist with transmission upgrades, peak-load, backup-emissions, water and ratepayer burdens that remain locally unresolved.
+
+397. **Large-load governance must be audited through the host-place chain.** Bring-your-own-power, flexibility rules, connection approval and national planning can close policy capacity, but not who pays, who benefits, who bears water and reliability risk, who can object and whether consent survives operation.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3843,7 +3849,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JX.
+living goal. The current atlas baseline has been refreshed through Rotation LR.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
