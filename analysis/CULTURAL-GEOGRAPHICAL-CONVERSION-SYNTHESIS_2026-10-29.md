@@ -2660,6 +2660,23 @@ community living. The decisive next ledger remains same-person assessment,
 authorization, worker, scheduled and completed hours, choice, safety, caregiver
 burden and community participation over time.
 
+The W refresh adds named workplace implementation cases. DWP’s 3,549-person
+Copilot trial reports more than 19 minutes saved per day across eight routine
+tasks and higher reported job satisfaction and work quality, but its voluntary
+licence assignment, self-reporting and absent pre-trial baseline prevent a
+causal claim. Airbus connects structured learning, communities of practice and
+governance to reported time savings and internal movement into AI roles; Roche
+connects mandatory training and approved tools to reported time savings; Cast
+Consultancy connects a bounded construction workflow to human validation and
+confidentiality; and Ipswich Hospital connects referral automation to reported
+administrative time release for patient-facing staff. These cases advance W
+from aggregate mechanism evidence to implementation and task conversion, but
+they do not establish that saved minutes become lower pace, higher pay, greater
+autonomy, better health or household security. The W proposition therefore
+remains control-first: adoption is upstream, while shared productivity requires
+worker voice, skills, quality, bargaining power and durable distribution of the
+gain.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.

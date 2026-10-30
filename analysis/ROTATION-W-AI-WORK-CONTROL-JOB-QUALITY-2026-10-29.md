@@ -67,6 +67,86 @@ can switch employers, and where a household can absorb reduced hours or job
 loss. Shared productivity therefore requires a conversion from firm capability
 to worker control and household security.
 
+## Named-case refresh
+
+The following cases test different parts of the conversion chain. They are
+practice-based and should not be read as representative estimates.
+
+### AIW-006 — UK Department for Work and Pensions Microsoft 365 Copilot trial
+
+The DWP trial ran from October 2024 to March 2025 and involved 3,549 staff. It
+combined surveys of Copilot users and non-users, regression analysis and 19
+interviews. The evaluation estimates that users saved an average of more than
+19 minutes per day across eight routine tasks and reported improvements in
+task efficiency, job satisfaction and perceived work quality. Adoption was
+supported by managers, peers and informal demonstrations, but training varied
+and many users relied on self-directed learning. This closes a named
+implementation-to-task-efficiency route and keeps job satisfaction in view.
+The decisive counterexample is methodological: licences were not randomly
+assigned, measures were partly self-reported, and there was no pre-trial
+baseline. The result is evidence of an association and user experience, not
+proof that Copilot caused durable productivity, pay, promotion or household
+benefit.
+
+### AIW-007 — Airbus workforce transformation and internal mobility
+
+The UK government’s AI-upskilling case study describes Airbus using structured
+learning pathways, competency frameworks, communities of practice and
+governance-linked training. Approximately 2,000 employees completed early data
+and AI pathways; a later pilot reported up to four hours of weekly savings for
+users, primarily in office-based non-production roles. The case also reports
+internal movement into data and AI roles. This is a stronger conversion example
+than an isolated tool pilot because capability is connected to workforce
+planning and internal mobility. It remains self-reported practice evidence and
+does not establish the distribution of savings, wage change, workload change,
+worker bargaining power or effects on production workers.
+
+### AIW-008 — Ipswich Hospital referral-processing automation
+
+Ipswich Hospital, operated by East Suffolk and North Essex NHS Trust, deployed
+three virtual workers to process GP referrals. The official case account says
+the first referral-processing stage fell from 15–20 minutes to about five
+minutes, while the trust reported that medical secretaries could spend more
+time on phones, letters and patient contact. This closes a task redesign route
+where automation can release administrative time for human-facing work. The
+source does not establish whether staffing, hours, pay, intensity, error rates,
+patient outcomes or the distribution of the claimed savings changed; the
+reported financial and productivity figures are trust claims.
+
+### AIW-009 — Roche governed enterprise upskilling
+
+The UK government case study describes Roche using mandatory global training,
+approved tools, hybrid delivery and local champions under pharmaceutical
+regulatory constraints. In one function, around half of employees reportedly
+saved four or more hours per week, alongside increased confidence in AI use.
+This closes part of the governance-to-capability route: access, training and
+responsible-use controls are designed together. The evidence is not an audited
+productivity panel and does not show whether saved time became more learning,
+less workload, higher output, higher pay or job security.
+
+### AIW-010 — Cast Consultancy Gateway 2 workflow
+
+Cast Consultancy, a UK construction consultancy, used a use-case-led AI tool
+to support Gateway 2 building-safety submissions. The reported intervention
+combined provider training, live practice, validation of AI outputs and
+confidentiality/GDPR attention. Staff reported greater confidence in checking
+outputs and improved efficiency in complex documentation. This case closes a
+quality-and-accountability route rather than assuming that faster drafting is
+good work. It remains an early, qualitative, organization-specific account;
+there is no independent measure of submission quality, worker pace, pay, health
+or longer-run role redesign.
+
+### Case-ledger conclusion
+
+The refresh closes portions of adoption-to-task change, training, internal
+mobility, administrative relief, responsible-use governance and human review.
+It does not close the worker-benefit ledger:
+
+`AI exposure → changed task and data rule → worker input/training → output and quality → pace/autonomy → pay/hours/security/health → household and local outcome`
+
+That ledger is the stopping condition for the next deeper pass. Tool adoption,
+reported minutes saved and manager confidence remain upstream observations.
+
 ## Counterexamples and limits
 
 - AI exposure is not automation risk, and automation risk is not job loss.
