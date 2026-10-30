@@ -3755,6 +3755,12 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 368. **The strongest local-benefit claim remains a measured route-level conversion.** Road-substitution projections, electric propulsion and digital logistics integration must be reconciled with actual voyages, cargo, energy and lifecycle boundaries, port operations, worker terms, incidents, community exposure and counterfactual truck movements before they become evidence of safer, cleaner or more legitimate logistics.
 
+369. **A multi-vessel autonomous-support demonstration closes coordination capability, not yet safe fleet-scale service.** Simultaneous monitoring, collected-data plans and sequential inspection milestones must still be connected to intervention rates, attention and fatigue, abnormal events, passenger or cargo continuity and post-certification public outcomes.
+
+370. **A staffing-reduction ratio is a labour hypothesis until workload and authority are measured.** Replacing onboard watchkeepers with system support and shore assistance may improve schedule and home-return options, or may relocate cognitive load and emergency responsibility into remote work; actual staffing, fatigue, qualification, pay and intervention records decide the direction.
+
+371. **Island autonomy should be evaluated as continuity of lived access, not as a technology label.** Passenger certification and designated-area operation can support a route, but they do not establish affordable frequency, accessibility, evacuation capability, food and health access, trust or resilience for the island communities that depend on it.
+
 ## What the evidence does not support
 
 Do not claim that:
