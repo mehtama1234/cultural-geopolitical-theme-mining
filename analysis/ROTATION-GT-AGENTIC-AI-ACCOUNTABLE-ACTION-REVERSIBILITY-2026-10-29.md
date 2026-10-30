@@ -142,6 +142,83 @@ accessibility, time-to-correction, financial or social loss, fallback route and
 whether responsibility was assigned to the provider, deployer, operator or
 user.
 
+## Named deployment and human-escalation refresh
+
+### 7. Air India AI.g: large-scale service access with customer choice and escalation
+
+Microsoft's customer story reports that Air India's AI.g handles roughly
+40,000 customer queries per day across more than 1,300 question types. The
+company reports more than 13 million conversations resolved with a 97% success
+rate, with about 3% escalated to human agents; it also reports that roughly
+half of customers choose AI.g while the other half prefer human service. Air
+India is testing agents that orchestrate refund workflows across systems.
+
+This is a named, high-volume operation case with an explicit human fallback and
+customer-choice signal. It does not establish whether “success” means correct
+resolution, whether refunds are actually reversible, how language, disability,
+older passengers or disrupted travellers fare, or whether the company-reported
+figures have independent validation. The refund orchestration is a planned
+workflow transformation, not evidence of completed financial remedy.
+
+Source: [Microsoft, Air India AI.g customer-service case](https://www.microsoft.com/en/customers/story/26047-air-india-azure-openai-in-foundry-models).
+
+### 8. PEBA: four autonomous agents entered a benefits workflow with measurable service effects
+
+Microsoft reports that Public Employee Benefits Administrators (PEBA) put four
+Copilot Studio agents into production: case management, case intent, knowledge
+management and quality evaluation. The Case Management Agent turns shared-mailbox
+emails into enriched cases, drafts responses and manages workflow; the Quality
+Evaluation Agent assessed 983 cases and conversations after go-live, compared
+with about 50 interactions in each earlier manual sample. The reported effects
+were a 9% reduction in resolution time and a 6% response-time improvement
+against a two-business-hour service level; PEBA also reports accepting a new
+client that would increase membership 41% without planned additional staff.
+
+This closes a concrete multi-agent workflow and measurement architecture, but
+not the authority chain for each case, correction after an incorrect benefit
+record, member notice, accessibility, worker workload, denial or appeal, or the
+counterfactual behind the staffing claim. The case is a vendor-published
+customer story and should be treated as operational evidence, not independent
+benefit-administration evaluation.
+
+Source: [Microsoft, PEBA autonomous-agent case](https://www.microsoft.com/en/customers/story/27179-public-employee-benefits-administrators-dynamics-365-customer-service).
+
+### 9. Included Health: clinical risk stratification and 100% pilot review
+
+A 2026 case study describes Included Health's clinically governed AI digital
+assistant for patient guidance. The design classified inquiries into emergency,
+high-risk and standard-risk tiers, blocked AI advice and escalated concerning
+symptoms to human clinicians, and reviewed 100% of clinical interactions during
+the pilot.
+
+This is a stronger safety architecture than a generic chatbot because the
+agent's authority is bounded by risk classification and human escalation. It
+still does not establish diagnostic accuracy, patient comprehension, missed
+escalations, time-to-care, language or disability equity, clinical outcomes,
+data retention, compensation or what happens when a patient cannot reach a
+human. A pilot audit rate is not the same as long-run reversibility after harm.
+
+Source: [NEJM Catalyst, clinically governed AI digital assistant case](https://pubmed.ncbi.nlm.nih.gov/42418625/).
+
+### 10. Microsoft Store Assistant: multi-agent orchestration included human transfer
+
+Microsoft's engineering case study describes a Store Assistant launched in
+October 2024 using a coordinator agent and specialist skills for product
+discovery, technical support, phone-number retrieval and human transfer. It
+reports several million annual chats, a four-star satisfaction rating, 142%
+revenue versus forecast, a 31% purchase-conversion increase and 46% fewer human
+transfers as of March 2025. The design used page context and explicit routing to
+human sales assistance rather than treating every request as fully autonomous.
+
+The case closes a useful bounded-action pattern: agent orchestration can include
+clarification and human transfer. The metrics are vendor-reported and do not
+show whether fewer transfers meant better self-service or hidden failure,
+whether customers understood they were dealing with an agent, how vulnerable
+users fared, or whether a wrong purchase, privacy exposure or account action
+could be reversed with remedy.
+
+Source: [Microsoft, Store Assistant case study](https://devblogs.microsoft.com/agent-framework/customer-case-study-microsoft-store-assistant-bringing-multi-expert-intelligence-to-microsoft-store-chat-with-semantic-kernel-and-azure-ai/).
+
 ## Source boundary
 
 The official record is strong for agent capability, novel security threats,

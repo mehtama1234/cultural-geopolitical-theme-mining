@@ -2603,6 +2603,18 @@ boundary-setting. They do not establish equal access, local autonomy, public-
 good delivery, crisis communication, community benefit or durable geopolitical
 trust and policy change.
 
+The GT refresh adds four named agent deployments. Air India's AI.g reports
+40,000 daily queries, 97% conversation success and human escalation, while
+PEBA reports four autonomous agents, 983 quality-evaluated cases and faster
+resolution in benefits administration. Included Health supplies a stronger
+high-stakes governance pattern with risk tiers, clinician escalation and 100%
+pilot review; Microsoft's Store Assistant shows coordinator, specialist and
+human-transfer orchestration at multi-million-chat scale. These close parts of
+production operation, bounded delegation, quality measurement, customer choice
+and human escalation. They do not establish independent correctness, user
+equity, authority per action, reversibility, clinical or benefit outcomes,
+privacy, worker effects, compensation or durable public legitimacy.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
