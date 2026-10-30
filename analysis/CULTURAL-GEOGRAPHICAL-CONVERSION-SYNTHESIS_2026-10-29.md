@@ -2502,6 +2502,16 @@ reuse and evaluation discipline, but not firm or worker durability, affordable
 housing, displaced-household restoration, maintenance, resident belonging or
 geopolitical reputation.
 
+The DM refresh adds named Indigenous food-system cases: Solomon Islands' AIM-N
+project builds nutrition and climate resilience on Indigenous farming systems;
+Cambodia documents Indigenous youth food-processing and local-market activity
+alongside dry-season equipment constraints; and the Mapuche Cayún project joins
+food-security surplus, inter-community economic links, traditional cuisine and
+medicinal herbs. These advance the atlas from rights and knowledge architecture
+into planned nutrition design, operating enterprise and material-plus-cultural
+food outcomes, but do not establish secure territory, household nutrition,
+gendered authority, durable income, knowledge sovereignty or self-determination.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and

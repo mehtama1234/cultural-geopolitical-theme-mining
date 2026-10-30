@@ -118,6 +118,50 @@ nutrition, income, biodiversity, data/knowledge control, gender/youth outcomes,
 market exposure, complaint and benefit distribution. Compare community-defined
 food sovereignty with external food-security or carbon/conservation metrics.
 
+## Named case refresh
+
+### Solomon Islands: Indigenous farming systems as a nutrition and climate-resilience route
+
+IFAD and the Solomon Islands government announced a US$20 million Agricultural
+Investment for Markets and Nutrition project in 2025, intended to directly
+benefit more than 18,000 people over six years. It builds on Indigenous
+traditional farming systems to help families produce, purchase and consume
+more nutritious food, in a setting where roughly one-third of children under
+five are stunted and more than half of adults are overweight. This is a named
+rights-and-practice-to-nutrition design, but at announcement stage it is not
+evidence of completed dietary change, income, land security, women's authority,
+climate adaptation or sustained cultural continuity.
+
+Source: [IFAD, Agricultural Investment for Markets and Nutrition in Solomon Islands](https://www.ifad.org/en/w/news/ifad-and-solomon-islands-to-partner-on-us-20-million-project-to-boost-nutrition-climate-resilience-and-rural-incomes).
+
+### Cambodia: Indigenous youth convert local crops into market activity, with equipment constraints
+
+The World Bank reports that a 15-member Indigenous youth team in Cambodia
+received food-processing training in 2024, launched products from pumpkin,
+taro and sweet potato, and found high local demand. The broader project has
+supported 20 Indigenous communities, more than 600 Indigenous youth with food
+processing and agribusiness skills, and nearly 1,200 farmers with horticultural
+practice. The account reports that 80% of trainees formed village groups, while
+refrigeration and drying-equipment gaps restrict production to the dry season.
+This closes a skills-to-processing and market pathway while showing that demand
+and reported enterprise activity are not yet durable income, nutrition, climate
+resilience, gender equity or self-determination.
+
+Source: [World Bank, Indigenous youth leading rural development in Cambodia](https://www.worldbank.org/en/news/feature/2025/12/05/skills-to-success-indigenous-youth-leading-in-cambodia-s-rural-development).
+
+### Mapuche Cayún: food security can include market surplus and cultural nourishment
+
+UN food-security evidence describes an Indigenous Peoples Assistance Facility
+project with the Mapuche Cayún community in Argentina (2018–2021). It reports
+community-level food-security work that generated a surplus for sale, reinforced
+economic links with other Mapuche communities, and promoted diet
+diversification, traditional cuisine and medicinal herbs. This is a useful
+material-plus-cultural food-security case; the public summary does not provide
+a counterfactual, household nutrition measures, land-tenure change, gendered
+control of surplus, long-term continuity or remedy.
+
+Source: [UN, State of Food Security and Nutrition in the World 2024](https://digitallibrary.un.org/nanna/record/4054848/files/1412532-EN.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0).
+
 ## Sources
 
 1. [UN DESA — State of the World’s Indigenous Peoples, Volume VI: Climate Crisis](https://desapublications.un.org/publications/state-worlds-indigenous-peoples-volume-vi-climate-crisis)
@@ -125,3 +169,6 @@ food sovereignty with external food-security or carbon/conservation metrics.
 3. [FAO/CFS HLPE-FSN — Indigenous Peoples’ food and knowledge systems report](https://www.fao.org/cfs/cfs-hlpe/insights/news-insights/news-detail/hlpe-fsn-21st-report-was-presented-at-54th-cfs-plenary/en)
 4. [FAO — Indigenous peoples of Latin America and the Caribbean: guardians of knowledge, land and food](https://www.fao.org/americas/news/stories/detail/guardianes-del-saber/en)
 5. [IFAD — Indigenous Peoples, climate, food systems and self-determination](https://www.ifad.org/en/indigenous-peoples)
+6. [IFAD — Solomon Islands Agricultural Investment for Markets and Nutrition](https://www.ifad.org/en/w/news/ifad-and-solomon-islands-to-partner-on-us-20-million-project-to-boost-nutrition-climate-resilience-and-rural-incomes)
+7. [World Bank — Indigenous youth leading rural development in Cambodia](https://www.worldbank.org/en/news/feature/2025/12/05/skills-to-success-indigenous-youth-leading-in-cambodia-s-rural-development)
+8. [UN — State of Food Security and Nutrition in the World 2024](https://digitallibrary.un.org/nanna/record/4054848/files/1412532-EN.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0)
