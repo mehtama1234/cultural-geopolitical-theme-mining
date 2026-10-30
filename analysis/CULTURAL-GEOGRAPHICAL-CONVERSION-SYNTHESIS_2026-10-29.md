@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–EM
+**Date:** 2026-10-29; refreshed through Rotations D–EN
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -1711,6 +1711,17 @@ credential accepted by schools, health services, employers, banks, social
 protection, borders or courts—or that the person was protected from exclusion,
 surveillance, discrimination, arbitrary detention and data misuse.
 
+145. **A social-protection entitlement, cash transfer, pension, child benefit,
+disability payment, humanitarian cash programme, G2P digitization, bank account,
+mobile-money wallet, social registry or cash-plus service is not by itself
+receipt, affordability, food security, care continuity, schooling, housing
+security, women’s agency, financial inclusion, crisis resilience or trust.**
+Enrolment, eligibility, budget, account ownership, payment processing, transfer
+volume, transaction speed, cash-out availability, programme reach or service
+linkage do not establish that a named recipient received the full value on time,
+could safely and privately use it, controlled the funds, obtained remedy, or
+converted the payment into durable household security.
+
 142. **A mental-health strategy, community team, psychiatric-bed reduction, crisis
 line, screening campaign, workplace programme, peer-support standard, digital
 tool, referral, discharge plan or anti-stigma campaign is not by itself safety,
@@ -1756,6 +1767,8 @@ The EL packet adds **social-infrastructure-to-reciprocal-connection-and-belongin
 
 The EM packet adds **legal-identity-to-rights-access-and-recognition** with a source boundary around named credential use, institutional acceptance, correction, service access, mobility, privacy, false-match harm, data misuse and remedy.
 
+The EN packet adds **G2P-payment-to-household-security-and-agency** with a source boundary around named receipt, full-value use, household control, food/care/schooling/housing outcomes, resilience, privacy, coercion, fees and remedy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -1792,7 +1805,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation EM.
+living goal. The current atlas baseline has been refreshed through Rotation EN.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
