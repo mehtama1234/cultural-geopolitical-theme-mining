@@ -3331,6 +3331,10 @@ The IY packet adds **engineering-biology-strategy-to-safe-equitable-deployable-p
 
 The IZ packet adds **public-space-investment-to-safe-inclusive-repeated-use-and-place-belonging conversion** with a source boundary around neighborhood/route/user, baseline access, safety, design, maintenance, rules, cost, cultural use, disability access, child/women/migrant experience, repeated attendance, health or social connection, displacement risk and resident governance. WHO, UNICEF and UN-Habitat supply the SPACES framework, distribution statistics, child-rights and design principles; WHO supplies green-space maintenance and evaluation logic; UN-Habitat supplies named program scale and co-design; UNICEF supplies inclusive-playground and Kota Kinabalu place cases; WHO supplies a street-level health-equity lens. These close global standards, distribution, design, participation, program and place-based mechanisms, but no public source here closes a comparable neighborhood chain through safe repeated use, maintenance, health, belonging and durable resident control.
 
+258. **A loneliness estimate, awareness campaign, social-prescribing referral, helpline, community centre, volunteer match, group attendance, online interaction or named facilitator is not by itself durable connection, belonging, agency, improved health, safety or social cohesion.** A person may attend and remain lonely; a program may reduce reported loneliness while increasing dependence or stigma; and a digital relationship may be meaningful for one group but harmful or inaccessible for another.
+
+The JA packet adds **social-connection-intervention-to-trusted-repeated-relationship-belonging-and-agency conversion** with a source boundary around person/place/cohort, structural conditions, invitation, language, accessibility, cost, transport, digital exposure, encounter, reciprocity, repeat participation, privacy, safeguarding, belonging, agency and health or resilience outcome. WHO supplies the global burden, policy architecture, group disparities, social-prescribing and older-adult intervention pathways; the World Health Assembly supplies the international mandate; OECD supplies comparative policy and measurement guidance; and the UN Ukraine case supplies a named conflict/displacement facilitator model. These close global framing, distribution, mandate, measurement, referral, intervention and crisis-delivery stages, but no public source here closes a comparable person-level chain through trusted repeated relationship, cultural fit, agency, health and durable continuity.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3367,7 +3371,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation IZ.
+living goal. The current atlas baseline has been refreshed through Rotation JA.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
