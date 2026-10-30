@@ -3839,6 +3839,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 410. **G2P payment-system scale is not household security.** A large programme stocktake, rising digital-payment share or cash-plus outcome can close architecture and selected welfare signals while the named recipient’s timing, fees, cash-out, control, real value, grievance and repeated resilience remain unobserved.
 
+411. **Climate-relocation capacity is not community continuity.** A displacement count, taskforce, consultation, finance rule or managed-retreat vocabulary can clarify risk and options while consent, land, host capacity, livelihood, cultural authority, return and post-move belonging remain unresolved.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3857,7 +3859,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 410 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 411 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 

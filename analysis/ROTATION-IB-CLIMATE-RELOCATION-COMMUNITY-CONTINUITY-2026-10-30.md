@@ -34,6 +34,11 @@ The packet treats staying, internal migration and planned relocation as distinct
 | IB9 | Fiji’s January and April 2026 relocation-taskforce updates describe formal cross-ministry coordination, progress on the Nabavatu village relocation master plan, a community-led Cokonaki Cogea pilot and IOM updates on community training and the Climate Catalytic Fund. | Named current implementation and coordination pathway. | Completed move, tenure, services, livelihood/cultural continuity, resident consent, host capacity or post-move outcomes. |
 | IB10 | The U.S. Bureau of Indian Affairs’ Voluntary Community-Driven Relocation Program provides financial, technical and coordination assistance to federally recognized Tribal Nations and Alaska Native Villages, with tribally led planning and implementation support. | Named rights/self-determination and public-support architecture. | Site acquisition, construction, full community move, cultural continuity, service delivery, host relations or long-term safety. |
 | IB11 | Fiji reports a further NZ$5 million contribution to its Climate Relocation of Communities Trust Fund for severe-risk communities including Nabavatu, with relocation framed as a last resort after adaptation options are exhausted. | Named financing and last-resort decision rule. | Timely disbursement, actual construction, consent, land tenure, livelihood continuity, cultural governance or community-defined success. |
+| IB12 | IDMC’s 2026 Global Report estimates 82.2 million people were living in internal displacement across 104 countries and territories at the end of 2025, with conflict and disaster movements producing repeated displacement and overlapping vulnerability. | Current global displacement scale and recurrence context. | Which movements become planned relocation, return, local integration or durable housing and livelihood continuity. |
+| IB13 | The U.S. Climate Resilience Toolkit describes climate-related Tribal relocation cases including Newtok, coastal Louisiana, Florida, Quileute and Hoh communities, and warns that weak governance, funding and technical capacity can produce loss of community and culture, health impacts and economic decline. | Named U.S. cultural-loss and institutional-capacity mechanisms. | Current project completion, consent, land tenure, services, livelihood, cultural authority or post-move wellbeing. |
+| IB14 | The U.S. Bureau of Indian Affairs’ 2026 Tribal climate consultations explicitly seek unmet needs around community relocation, managed retreat and protection-in-place in the lower 48, Alaska and tribal infrastructure. | Current participatory needs-assessment and choice-set process. | What Tribal leaders decided, funded projects, land acquisition, construction, authority or community outcomes. |
+| IB15 | UNFCCC loss-and-damage priority actions call for relocation as a last resort to be community-driven, rights-based and supported by sustained finance, while safeguarding cultural heritage and using frameworks such as Fiji’s. | International finance, rights and cultural-heritage boundary. | Actual finance flow, community decision power, destination operation, heritage continuity or remedy. |
+| IB16 | A 2026 Atlantic Canada study finds that managed retreat is increasingly discussed but public language is diffuse, actor groups use different terms and the concept can be perceived as a threat; it argues shared vocabulary matters for collective action. | Public-meaning and communication mechanism. | Local acceptance, informed consent, policy change, relocation choice, material outcomes or whether terminology improves trust. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -41,11 +46,28 @@ Relocation can preserve a community or dissolve it. Sacred sites, burial grounds
 
 The 2026 Fiji and U.S. evidence shows what a more serious conversion architecture looks like: a cross-ministry taskforce, a named village master plan, community-led pilots, dedicated financing and a last-resort rule; in the United States, tribally led relocation support is explicitly tied to sovereignty and self-determination. These mechanisms close coordination and authority stages, but not the physical and social chain. A master plan or grant can still leave land, roads, services, livelihoods, host relations and cultural practice unresolved. The comparable unit is therefore a community ledger, not a policy announcement.
 
+The new evidence adds three important pressures. First, the global displacement
+stock is not a pipeline of completed relocations: repeated movement can mean
+temporary evacuation, return, secondary displacement, local integration or
+prolonged uncertainty, each with different rights and service needs. Second,
+Tribal consultations and the U.S. case material show that protection-in-place,
+partial relocation and whole-community relocation are competing choices, not a
+single adaptation ladder. Third, public language is itself part of governance.
+If residents, officials and funders use “retreat,” “relocation,” “resettlement,”
+“displacement” and “protection in place” differently, apparent agreement may
+mask different expectations about permanence, land, return and cultural loss.
+
 ## Counterexample and source boundary
 
 The existence of Fiji’s guidelines, fund and procedures does not prove a completed community relocation or durable cultural continuity. A safe destination can still weaken livelihoods or social ties; a community may “consent” without a viable option to stay; and host-community services may be planned but not delivered. Public evidence closes definitions, rights, national architecture, codesign principles and service requirements, but not a comparable community chain through consent, move, livelihood, belonging and long-term remedy.
 
 Current taskforce updates, a dedicated trust-fund contribution or a tribally led federal program should likewise not be read as completed relocation. They show institutional capacity and a route toward self-determined action, while the decisive evidence remains household/community consent, land control, construction, service operation, livelihood and cultural continuity after the move.
+
+Likewise, a high global displacement count is not a count of communities ready
+for planned relocation; a consultation is not a decision; a public vocabulary
+study is not acceptance; and a sustained-finance principle is not money in a
+community account. A relocation can reduce hazard exposure while increasing
+distance from work, care, ceremony, kin, language and political authority.
 
 ## Promotion decision
 
@@ -65,3 +87,8 @@ Current taskforce updates, a dedicated trust-fund contribution or a tribally led
 - Fiji Ministry of Environment and Climate Change, [April 2026 taskforce coordination update](https://mecc.gov.fj/fiji-taskforce-strengthens-climate-relocation-efforts-in-northern-division-meeting/)
 - U.S. Bureau of Indian Affairs, [Voluntary Community-Driven Relocation Program](https://www.bia.gov/service/community-driven-relocation)
 - Fiji Government, [NZ$5 million contribution to the relocation trust fund](https://www.fiji.gov.fj/fiji-secures-5-million-contribution-to-climate-relocation-of-communities-trust-fund-from-new-zealand/)
+- IDMC, [Global Report on Internal Displacement 2026](https://www.internal-displacement.org/publications/summary-global-report-on-internal-displacement-2026/)
+- U.S. Climate Resilience Toolkit, [Relocation](https://toolkit.climate.gov/relocation)
+- U.S. Bureau of Indian Affairs, [2026 Tribal climate-change priorities consultations](https://www.bia.gov/service/tribal-consultations/climate-change-priorities-sessions-2-3)
+- UNFCCC, [Priority actions for responding to non-economic losses and damages](https://unfccc.int/unfccc.int/wim-excom/NELs/priority-actions-for-responding-to-nels)
+- [Managed-retreat public discourse study in Atlantic Canada](https://pubmed.ncbi.nlm.nih.gov/42717005/)
