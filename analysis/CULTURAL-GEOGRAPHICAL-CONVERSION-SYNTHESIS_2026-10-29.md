@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IF
+**Date:** 2026-10-30; refreshed through Rotations D–IG
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3250,6 +3250,10 @@ The IE packet adds **respectful-maternity-system-to-consented-safe-referral-and-
 237. **A food-safety standard, inspection guide, hygiene training, market-cleaning activity, vendor formalization or food-availability statistic is not by itself safe affordable food, viable livelihood, nutrition, traceability, trust or reduced illness.** Rules can be impossible without water, cold storage or affordable equipment; enforcement can displace vendors; and a food can be available yet unsafe or unaffordable.
 
 The IF packet adds **informal-food-market-governance-to-safe-affordable-food-and-viable-vendor-livelihood conversion** with a source boundary around production, transport, water, surfaces, storage, temperature, vendor, inspection, hygiene, market management, price, purchase, preparation, contamination, illness, vendor cost/income, gendered time, child nutrition, complaint and correction. FAO/Codex supplies risk-based governance and Senegal/Viet Nam evidence; WHO supplies Indonesia and Cameroon market interventions and Malawi’s capacity/hazard boundary; UNICEF supplies Kenya consumer tradeoffs and child-nutrition quality. These close governance, tools, pilots, infrastructure, hazards and consumer mechanisms, but no public source here closes a comparable market/vendor/consumer chain through contamination, purchase, illness, livelihood and remedy.
+
+238. **A toilet, latrine, open-defecation-free declaration, sanitation plan, desludging operation, treatment plant, coverage statistic or constructed handwashing station is not by itself safely managed sanitation, dignity, worker safety, environmental protection, affordability or disease reduction.** A facility can fail through water, maintenance, emptying, transport, treatment, unsafe dumping, inaccessible design or worker exposure.
+
+The IG packet adds **sanitation-construction-to-safe-affordable-worker-protected-service-chain conversion** with a source boundary around household/settlement need, toilet, containment, use, water, privacy, maintenance, emptying, worker PPE, transport, treatment, disposal/reuse, tariff, accessibility, flood/displacement, contamination, illness, dignity, complaint and remedy. UNICEF supplies global progress, India’s full chain, Mozambique’s milestone, Indonesia’s evaluation and Haiti’s crisis operation; WHO supplies health, system, worker-safety and Indonesia planning evidence; GLAAS supplies governance/equipment gaps. These close coverage, burden, planning, value-chain design, behavior and crisis-operation stages, but no public source here closes a comparable household/worker/environment chain through treatment, affordability, health and remedy.
 
 ## What the evidence does not support
 
