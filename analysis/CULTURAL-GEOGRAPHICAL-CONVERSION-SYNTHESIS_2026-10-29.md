@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation KJ
+**Date:** 2026-10-30; refreshed through Rotation KK
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3466,6 +3466,10 @@ The KI packet adds **AI-drug-discovery-to-experimentally-validated-safe-affordab
 291. **A 3D model, synchronized dashboard, sensor network, simulation, prediction, optimization result, scenario, standard, pilot, regulator-credible architecture or human-in-the-loop claim is not by itself accurate representation, safe control, lower cost, environmental improvement, public access, community legitimacy, privacy, resilience or equitable outcome.** A twin can be precise about the wrong variables; a validated model can become stale; and human presence does not guarantee meaningful challenge.
 
 The KJ packet adds **digital-twin-to-validated-operational-decision-safe-intervention-equitable-service-and-accountable-governance conversion** with a source boundary around twin/asset/place, data sources, model version, synchronization, validation, uncertainty, cyber incident, recommendation, human challenge, intervention, affected group, cost and later physical or service outcome. NIST supplies the definition, trust, cybersecurity, standards, VVUQ, traceability and terminology-gap frame; NASA supplies the water-cycle, mission-operations and biological-twin cases; and DOE supplies the regulator-credible fusion architecture with quantified uncertainty. These close definition, trust, standards, credibility, environmental, safety-critical, operational, comparability and health/privacy stages, but no public source here closes a comparable twin/asset chain through accurate representation, safe control, lower cost, environmental improvement, public access, community legitimacy, privacy, resilience and equitable outcome.
+
+292. **An operational AI model, skill score, ensemble, energy-efficiency claim, open-data release, local package, pilot, warning product or human-expertise statement is not by itself accurate local prediction, warning receipt, comprehension, safe action, avoided loss, livelihood protection, service continuity or equitable climate resilience.** A model can outperform on global averages while underperforming for rare local hazards; an ensemble can express uncertainty without making it usable; and a forecast cannot compensate for absent response capacity.
+
+The KK packet adds **AI-forecast-to-local-warning-understanding-safe-action-and-equitable-climate-resilience conversion** with a source boundary around model/place/hazard, observations, model version, lead time, verification, local calibration, uncertainty, warning channel, language, recipient, decision, response capacity, avoided or incurred loss and later trust or adaptation outcome. ECMWF supplies operational AIFS, ensemble, open-data, benchmarking and Forecast-in-a-Box evidence; WMO supplies global governance, hybrid-system, human-expertise, hazard and Early Warnings for All evidence; and the Malawi pilot supplies a lower-infrastructure pathway. These close operational, probabilistic, governance, hazard, benchmark, access, dependency and distribution stages, but no public source here closes a comparable model/place chain through accurate local prediction, warning receipt, comprehension, safe action, avoided loss, livelihood protection, service continuity and equitable climate resilience.
 
 ## What the evidence does not support
 
