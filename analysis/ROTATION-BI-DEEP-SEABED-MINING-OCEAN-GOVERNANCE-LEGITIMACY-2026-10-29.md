@@ -1,6 +1,6 @@
 # Rotation BI — Deep-seabed mining, ocean governance and coastal legitimacy
 
-**Date:** 2026-10-29  
+**Date:** 2026-10-30
 **Lane:** critical minerals / deep ocean / international law / marine biodiversity / small-island and coastal geography / geopolitical legitimacy  
 **Status:** Tier 1 bounded distinction plus Tier 2 exploration-to-ocean-outcome question
 
@@ -31,6 +31,10 @@ critical-mineral demand and supply concern
 | NOAA 2025 State of the Science fact sheet | Research and social/natural-science characterization are still needed to understand biodiversity, ecological functions, vulnerability and potential impacts. | knowledge gap and research need | reliable impact prediction, causality, recovery and social distribution |
 | UN Micronesia working paper | Small-island economic vulnerability and potential benefits must be considered alongside rigorous science, precaution and environmental/social/cultural factors amid geopolitical tension. | place-specific stakes and governance trade-off | island/community authority, benefit terms, livelihood effects and durable consent |
 | IMO new and emerging issues page | Renewed interest is driven by metal demand, degraded/inaccessible land deposits and technological advances; environmental management has implications for SIDS and marine communities. | demand/technology driver and international environmental concern | operational safeguards, disposal/food-web effects, monitoring and community protection |
+| NOAA TMC USA consolidated application | NOAA determined that The Metals Company USA’s February 2026 consolidated application for an exploration license and commercial recovery permit met the information threshold; a 60-day public comment period and hearing were held, with certification still dependent on financial responsibility, technological capability and plan sufficiency. | named commercial pathway, information-compliance gate and public-participation stage | certification decision, environmental impact statement, actual recovery, ecological effect, benefit distribution and international acceptance |
+| NOAA 2026 permitting rule and application page | NOAA created a consolidated U.S. application route for exploration licenses and commercial recovery permits; the agency lists multiple 2025–2026 applications and states that no U.S. commercial recovery permit is currently listed. | national regulatory acceleration and a visible project pipeline | whether procedural acceleration produces safe operations, compatible international governance or material supply-chain benefit |
+| ISA 31st-session Mining Code negotiations | In March 2026 the ISA Council discussed 29 of 32 outstanding issues and agreed in principle on an Equalisation Mechanism and Compliance Committee; after the July 2026 session it requested a roadmap for the 32nd session and further review of standards and guidelines. | live multilateral negotiation, benefit-sharing architecture and implementation roadmap | adopted Mining Code, enforcement capacity, ecological thresholds, contractor compliance and affected-place legitimacy |
+| NOAA American Samoa deep-water mapping | NOAA and partners are mapping and characterizing high-priority deep waters around American Samoa, making data publicly available to inform federal and local decision-making. | open scientific infrastructure and a place-linked knowledge route | local authority, community consent, mining decision, ecological protection, fisheries/cultural effects and benefit or grievance route |
 
 ## Stage audit
 
@@ -78,6 +82,18 @@ that are attributable and usable. Precaution is not a synonym for permanent
 refusal; it is a demand that the burden of proof and reversibility match the
 possibility of irreversible harm.
 
+The 2026 evidence adds a jurisdictional split that must not be collapsed into a
+single “deep-sea mining progress” indicator. NOAA’s U.S. pathway can move a
+named applicant through information compliance, public comment, certification
+and potentially an environmental impact statement under domestic law. The ISA
+pathway is still negotiating the Mining Code, benefit-sharing mechanisms,
+compliance architecture and standards for activities in the international Area.
+A national application milestone is therefore not equivalent to international
+authorization, and multilateral negotiation is not equivalent to an operating
+permit. The two pathways should be compared for evidence, environmental
+thresholds, public voice, liability and benefit distribution rather than ranked
+by announcement speed.
+
 ## Counterexamples and limits
 
 - Exploration can generate valuable baseline science even if exploitation never
@@ -90,23 +106,36 @@ possibility of irreversible harm.
   benefit receipt or cultural legitimacy.
 - The evidence is stronger on institutional status and risk than on a completed
   operating project, because commercial exploitation has not been approved.
+- NOAA’s information-compliance determination is not a commercial-recovery
+  permit, and public comment is not proof of consent or environmental safety.
+- An open mapping expedition can improve the evidence base while also making a
+  resource frontier more legible; public data and local authority are separate
+  stages.
+- U.S. domestic permitting and ISA regulation concern different legal pathways;
+  one cannot be used as a proxy for the other’s legitimacy or environmental
+  performance.
 
 ## Promotion decision
 
 Promote the distinction to Tier 1: mineral demand, exploration, science,
-regulatory authority, exploitation, ecological effect, benefit distribution and
-legitimacy are separate stages. Keep exploration-to-ocean-outcome claims in Tier
-2 until a named contract or operating event ledger closes baseline, decision,
-monitoring, harm, benefit and affected-place response.
+regulatory authority, jurisdiction, exploitation, ecological effect, benefit
+distribution and legitimacy are separate stages. Keep exploration-to-ocean-
+outcome claims in Tier 2 until a named contract or operating event ledger closes
+baseline, decision, monitoring, harm, benefit and affected-place response. Add a
+parallel comparison ledger for the U.S. DSHMRA pathway and an ISA-sponsored
+international-Area contract so that procedural speed is not mistaken for
+governance quality.
 
 ## Next test
 
-Build a contract-area ledger for one Pacific, one Atlantic and one Indian Ocean
-area. Record sponsoring state, contractor, exploration activity, baseline data,
-stakeholder consultation, regional environmental plan, regulatory decision,
+Build a jurisdiction-comparison ledger for one U.S. DSHMRA application, one
+Pacific ISA contract area, one Atlantic area and one Indian Ocean area. Record
+applicant/contractor, sponsor or jurisdiction, exploration activity, baseline
+data, stakeholder consultation, environmental plan, regulatory decision,
 monitoring, incident, fisheries/coastal exposure, benefit/payment terms,
-grievance, state/community position and later decision. Include a terrestrial
-mining and circular-material comparator rather than assuming substitution.
+grievance, state/community position, enforcement and later decision. Include a
+terrestrial-mining and circular-material comparator rather than assuming
+substitution.
 
 ## Sources
 
@@ -115,3 +144,8 @@ mining and circular-material comparator rather than assuming substitution.
 3. [NOAA 2025 State of the Science fact sheet](https://sciencecouncil.noaa.gov/wp-content/uploads/2025/01/SoS_Deep_Sea_Mining_Jan2025.pdf)
 4. [UN Micronesia working paper on deep-sea mining](https://micronesia.un.org/en/295480-united-nations-micronesia-working-paper-no-2)
 5. [IMO new and emerging issues on deep-seabed mining](https://www.imo.org/en/ourwork/environment/pages/newandemergingissues-default.aspx)
+6. [NOAA advances review of The Metals Company USA application](https://www.noaa.gov/news-release/noaa-advances-review-of-first-ever-deep-seabed-mining-commercial-recovery-application)
+7. [NOAA Deep Seabed Hard Minerals Mining applications and permits](https://oceanservice.noaa.gov/deep-seabed-mineral-resources/deep-seabed-mining/)
+8. [ISA March 2026 Mining Code negotiations](https://isa.org.jm/news/the-council-of-the-international-seabed-authority-advanced-negotiations-on-the-mining-code/)
+9. [ISA September 2026 session and Mining Code roadmap](https://isa.org.jm/news/from-the-31st-to-the-32nd-session-advancing-the-mining-code-and-strengthening-the-common-heritage-of-humankind/)
+10. [NOAA American Samoa deep-water mapping](https://www.noaa.gov/news-release/noaa-and-partners-to-explore-map-deep-waters-of-american-samoa)

@@ -3591,6 +3591,14 @@ The LQ follow-up adds an **autonomous-casualty-to-interim-status-publication-rec
 
 The LQ evidence therefore adds **public-casualty-data-to-comparable-risk-learning-and-individual-remedy** as a separate conversion question. It remains open until public data can support denominators and trend comparison while a named incident also supplies admissible, actor-specific evidence for compensation and corrective action.
 
+323. **A deep-seabed application found compliant, a public-comment period, a consolidated permitting route, an ISA negotiation milestone, an Equalisation Mechanism, a Compliance Committee proposal or public ocean mapping is not by itself an authorized safe mine, ecological protection, community consent, fair benefit or legitimate common-heritage governance.** NOAA has advanced a named U.S. application through an information-compliance and public-participation gate, while the ISA continues negotiating the Mining Code and implementation roadmap; NOAA mapping expands the evidence base without closing authority or impact.
+
+The BI follow-up adds a **critical-mineral-demand-to-jurisdictional-pathway-science-public-voice-operating-control-ecological-protection-and-benefit-legitimacy** distinction. The evidence now closes a live U.S. application route, multilateral negotiation progress, benefit/compliance architecture and place-linked public science, but no public source here closes certification through EIS, actual recovery, monitoring, ecological or fisheries effect, enforcement, benefit receipt, local authority or durable legitimacy.
+
+324. **A national seabed-permitting milestone and an international-Area Mining Code negotiation are not interchangeable measures of governance quality or geopolitical legitimacy.** The U.S. DSHMRA pathway can process applications under domestic law; the ISA pathway governs activities beyond national jurisdiction and remains in negotiation. Procedural speed, legal authority and public comment must therefore be compared with environmental thresholds, evidence access, affected-place voice, liability, benefit distribution and cross-border acceptance rather than aggregated into a single “deep-sea mining progress” score.
+
+The BI evidence adds **national-permit-acceleration-to-multilateral-compatibility-and-ocean-community-authority** as a separate conversion question. The next ledger should put one U.S. application beside Pacific, Atlantic and Indian Ocean ISA contract areas and record where jurisdiction, evidence, consultation, monitoring, enforcement and benefit routes diverge.
+
 ## What the evidence does not support
 
 Do not claim that:
