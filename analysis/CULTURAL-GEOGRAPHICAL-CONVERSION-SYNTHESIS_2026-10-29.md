@@ -3727,6 +3727,14 @@ The KA follow-up adds **lunar-commercial-procurement-to-reliable-scheduled-safe-
 
 The KA evidence adds **lunar-infrastructure-sequencing-to-path-dependence-open-access-heritage-reversibility-and-distributive-benefit** as a separate conversion question. The next ledger should track who controls the contract, site, data, safety zone, infrastructure and dispute process at each phase rather than treating sequencing as neutral implementation.
 
+357. **An autonomous machine, national mechanization strategy, service-platform target, farmer enrollment, task-performance result, rental model or aggregate productivity gain is not by itself affordable smallholder access, safe work, decent rural livelihoods, local repairability, farmer data agency or food resilience.** FAO’s 2026 Tanzania account warns that earlier mechanization efforts failed when equipment did not fit smallholder systems or lacked maintenance and spare-parts chains; the World Bank and ADB frame service models, finance, extension and distributional policy as conditions for benefit, not optional add-ons.
+
+The JZ follow-up adds **agricultural-robotics-and-mechanization-to-fit-finance-service-repair-timely-task-completion-worker-transition-smallholder-income-and-food-resilience** as a separate conversion question. The evidence closes strategic and institutional pathways, but no public source here closes a named farm or cooperative through uptime, cost recovery, gender, data rights, yield, income and repeat adoption.
+
+358. **Mechanization can raise measured labor productivity while shifting returns, debt and control from labor and small farms toward capital owners and technology providers.** The direction and distribution of gains depend on farm scale, crop, service/rental model, finance, repair, extension, local labor alternatives and policy; a higher output or lower labor input does not establish higher household welfare.
+
+The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-debt-gender-agency-and-rural-capability** as a separate conversion question. The next ledger should compare ownership, rental and service routes and record worker exposure, skill change, wages, unpaid labor, debt, machine downtime, farmer choice and exit alongside yield and revenue.
+
 ## What the evidence does not support
 
 Do not claim that:

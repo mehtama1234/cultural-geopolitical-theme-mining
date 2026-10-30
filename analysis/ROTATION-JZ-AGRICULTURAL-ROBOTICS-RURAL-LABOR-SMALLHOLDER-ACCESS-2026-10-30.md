@@ -30,6 +30,9 @@ robot / drone / autonomous machine / data platform
 | JZ9 | FAO’s 2026 Karamoja account describes more than 50 walk-behind tractors, a farmer whose cultivated area rose from two to seven acres after receiving one, and a proposed service-provider model because large imported tractors often bypass smallholders. | Named smallholder mechanization case, drudgery/productivity signal and machine-as-a-service pathway. | Attribution, tractor uptime, operating cost, land/labor effects, gender distribution, repair, household income or replication. |
 | JZ10 | FAO documents context-specific African models: Ghanaian women’s fonio processing, Nigerian drone services and youth training, a compact locally manufactured Tanzanian Mobi Power tractor and robot sprayer, Rwandan youth technician/service-entrepreneur training, and mechanized processing for 15 Beninese cooperatives. | Local-fit, women/youth and repair/service capability pathways across multiple geographies. | Comparative productivity, safety, environmental effects, business viability, ownership, worker transition or long-run adoption. |
 | JZ11 | World Bank results report rural digital-agriculture platforms reaching more than 103,000 people in Benin including nearly 31,000 women, more than 400,000 agricultural value-chain participants in Côte d’Ivoire, and over 9,000 Cameroon producers through e-vouchers, machinery management, advisory and market systems. | Digital foundation and service-layer pathway connecting smallholders to information, machinery, markets and finance. | Causal yield/income effects, sustained connectivity, platform governance, data rights, exclusion, affordability or food resilience. |
+| JZ12 | FAO reports Tanzania launched a 2026–2036 National Agricultural Mechanization Strategy and warns that earlier efforts faltered when equipment was poorly suited to smallholder systems and unsupported by local maintenance, spare-parts and repair chains. | Named national strategy and failure-mode evidence. | Strategy implementation, service uptime, affordability, labor effects, gender distribution or farm outcomes. |
+| JZ13 | The World Bank’s 2026 AgriConnect implementation plan aims to reach 300 million smallholder and family farmers by 2030 through six linked pillars spanning AgTech, services, markets, finance, jobs and resilience. | Large-scale service and institutional architecture. | Actual reach, machine access, causal productivity/income, data governance, local ownership or durable resilience. |
+| JZ14 | ADB’s 2026 Asia mechanization review finds machinery and digital tools can improve yields, labor productivity, income, dietary diversity and efficiency, but impacts vary widely by country and community and depend on service models, finance, extension and distributional policy. | Comparative outcome and policy-conditionality evidence. | Generalizable causal effect, worker transition, environmental impact, affordability or smallholder agency in a named place. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -39,15 +42,33 @@ The geography of adoption is likely to follow capital, crop value, infrastructur
 
 The geopolitical question is productive capability. Dependence on imported machinery, proprietary software, cloud connectivity, spare parts and platform data can replace dependence on labor or fuel with a new technology dependency. Conversely, locally repairable equipment, open standards, shared ownership and producer-led training could turn automation into rural capability rather than extraction. Any claim about food security must therefore include access, uptime, affordability and the distribution of gains.
 
+The 2026 strategy evidence makes the service layer central. Tanzania’s warning
+about unsuitable equipment and missing repair chains, the World Bank’s linked
+AgriConnect pillars, and ADB’s cross-country findings all imply that machinery
+works through institutions: finance, extension, roads, technicians, rental or
+service providers, data governance and markets. A robot can be technically
+capable and still be a poor rural intervention if it cannot be repaired, booked,
+financed, shared or operated safely during the planting window.
+
 ## Counterexample and source boundary
 
 An autonomous machine, field demonstration, accuracy metric, labor-saving estimate, adoption statistic, funding award, drone service, cooperative training program, machine-as-a-service model, digital-platform enrollment or productivity claim is not by itself affordable access, safe work, decent rural livelihoods, reliable food production, local repair capability, farmer data control, reduced environmental burden or equitable transition. FAO’s Karamoja farmer account is a lived productivity signal, not a controlled impact estimate; the African innovation cases show fit and capability pathways, not durable business viability; and platform reach does not prove sustained use, income or food resilience.
+
+A national mechanization strategy, a target number of farmers, a service-platform
+enrollment or an aggregate review of positive impacts does not prove that a
+named cooperative or worker received timely, affordable, repairable service.
+Mechanization may raise productivity while shifting returns from labor to capital
+or increasing household debt; these effects must be measured together.
 
 ## Promotion decision
 
 **Tier 1 bounded finding:** Agricultural-robotics capability and task-level productivity are separate from affordable smallholder access, decent-work transition, farmer data agency, local repairability, ecological benefit and food-system resilience. The strongest new evidence suggests that service models, local manufacturing, women/youth-led processing and digital foundations can mediate access, but their durability is the unresolved question.
 
 **Tier 2 mechanism candidate:** The next high-value conversion is **agricultural-robotics-to-safe-work-smallholder-access-rural-capability-and-food-resilience**. The strongest next acquisition is a named farm/cooperative/service chain linking machine ownership or rental, task, capital and operating cost, uptime/repair, worker exposure and skill change, farmer data rights, yield/input effect, household income and later adoption or exit.
+
+Add policy and service-system fields: national strategy, finance, rental/provider,
+repair chain, spare parts, extension, road/connectivity, booking, uptime,
+worker transition, gender, debt, data rights, yield, income and exit.
 
 ## Sources
 
@@ -61,4 +82,7 @@ An autonomous machine, field demonstration, accuracy metric, labor-saving estima
 - FAO Uganda, [Smallholder mechanization and service models in Karamoja](https://www.fao.org/uganda/news/detail/rethinking-sustainable-agricultural-mechanization-for-smallholder-farmers/en)
 - FAO, [African locally adapted mechanization, robotics and service pathways](https://www.fao.org/newsroom/story/machine-power-that-empowers/en)
 - World Bank, [Digital platforms and smallholder agriculture in West Africa](https://www.worldbank.org/en/results/2025/03/04/afw-from-fields-to-markets-the-role-of-digital-platforms-in-west-africa-agricultural-success)
+- FAO, [Tanzania National Agricultural Mechanization Strategy 2026–2036](https://fao.sitefinity.cloud/newsroom/detail/africalaunches-pushtoclose-agricultural-mechanization-gap-as-landmarkconference-begins/en)
+- World Bank, [AgriConnect Implementation Plan 2026](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099083126084511951)
+- Asian Development Bank, [Transforming Smallholder Agriculture Through Mechanization in Asia](https://www.adb.org/adbi/publications/transforming-smallholder-agriculture-through-mechanization-in-asia-volume-2-impacts-and-policy-options)
 
