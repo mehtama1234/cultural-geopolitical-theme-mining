@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HR
+**Date:** 2026-10-30; refreshed through Rotations D–HS
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3195,6 +3195,10 @@ The HQ packet adds **data-centre-buildout-to-legitimate-place-benefit conversion
 
 The HR packet adds **new-water-to-equitable-basin-security-and-legitimacy conversion** with a source boundary around plant, basin, source, treatment, energy, quality, brine/effluent, permit, uptime, network, tariff, household receipt, income, language, trust, outage, ecosystem, complaint, remedy and distribution. IEA supplies global stress, capacity and energy evidence; EPA supplies reuse governance, risk targets and named examples; World Bank supplies governance and adoption boundaries; and UN-Water supplies circularity potential. These close technology, policy and opportunity stages, but no public source here closes a comparable plant-to-customer-and-basin chain through affordability, safety, ecology and legitimacy.
 
+224. **An oxygen plant, concentrator, cylinder delivery, production figure, solar system, training, roadmap, service contract, uptime percentage or emergency logistics quantity is not by itself bedside treatment, correct indication, affordability, safe flow, referral, survival, disability reduction, equitable access or resilient clinical trust.** Equipment can be idle, power or maintenance can fail, staff can lack clinical tools, and a named treated cohort can improve without proving causal or system-wide effect.
+
+The HS packet adds **oxygen-system-to-equitable-bedside-treatment-and-resilience conversion** with a source boundary around clinical need, saturation, equipment, source, power, purity, flow, uptime, maintenance, staff, cost, referral, geography, language/disability, treatment duration, discharge, mortality, disability, complaint and repeat failure. WHO supplies the access gap, planning architecture, tools and named Kabul, Somalia, Yemen and Nepal cases; UNICEF supplies a performance-linked Uganda service model. These close policy, production, logistics and some patient stages, but no public source here closes a comparable facility/cohort chain through independent attribution, equity, long-run maintenance and recurrence.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3231,7 +3235,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HR.
+living goal. The current atlas baseline has been refreshed through Rotation HS.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
