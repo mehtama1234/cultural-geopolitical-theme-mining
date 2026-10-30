@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation KB
+**Date:** 2026-10-30; refreshed through Rotation KC
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3434,6 +3434,10 @@ The KA packet adds **lunar-activity-to-shared-access-heritage-protection-environ
 283. **An atom-based prototype, sensitivity claim, roadmap, pathfinder mission, national strategy, defense use case, PNT promise, environmental-data concept or quantum-sensor demonstration is not by itself calibrated field performance, affordable deployment, better public decisions, equitable geographic coverage, health benefit, ecological protection, privacy, civilian control or legitimate strategic advantage.** A sensor can be more precise yet less useful if it is fragile, expensive, poorly calibrated or disconnected from action.
 
 The KB packet adds **quantum-sensing-to-calibrated-public-measurement-resilient-PNT-equitable-coverage-and-legitimate-dual-use conversion** with a source boundary around sensor/platform/place, modality, calibration, operating conditions, data access, operator, decision, service continuity, affected geography, cost, privacy/security and later public or strategic outcome. NIST supplies the application landscape, noise, national capability, workforce and prototype frames; the UK supplies space qualification, PNT resilience and ethical-competition pathways; and the European Commission supplies Earth-observation and defense pathways. These close application, mechanism, ecosystem, readiness, integration, dual-use, policy and prototype stages, but no public source here closes a comparable sensor/platform chain through calibrated field performance, affordable deployment, better public decisions, equitable coverage, health or ecological benefit, privacy, civilian control and legitimate strategic advantage.
+
+284. **An assistive-technology policy, robot prototype, rental price, pilot, user-positive survey, caregiver time saving, behavioral report, hospital interaction or workforce forecast is not by itself sustained autonomy, better health, reduced loneliness, safe care, dignity, privacy, equitable access, cultural legitimacy or durable caregiver relief.** A robot can reduce one physical burden while adding monitoring, maintenance or emotional labor; and positive trial attitudes do not prove long-term voluntary use.
+
+The KC packet adds **care-robotics-to-person-centred-autonomy-caregiver-relief-cultural-fit-and-accountable-home-care conversion** with a source boundary around person/provider/place, device and task, financing, consent, language and disability fit, training, use, alert or interaction, caregiver time, older-person experience, privacy, safety, repair, human fallback and later continuity or health outcome. WHO supplies the autonomy, ageing-in-place, financing, cost, ethics and safety frame; OECD supplies augmentation, PALRO rental, caregiver-burden, ROB-IN, workforce and informal-care evidence; and the European Commission supplies the ARI hospital-interaction case. These close opportunity, financing, labor, named-robot, access, home-data, hospital, health-system and workforce-pressure stages, but no public source here closes a comparable person/provider chain through sustained autonomy, better health, reduced loneliness, safe care, dignity, privacy, equitable access, cultural legitimacy and durable caregiver relief.
 
 ## What the evidence does not support
 
