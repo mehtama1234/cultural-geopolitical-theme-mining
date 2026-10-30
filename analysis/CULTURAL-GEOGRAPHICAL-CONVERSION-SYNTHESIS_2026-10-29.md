@@ -3599,6 +3599,14 @@ The BI follow-up adds a **critical-mineral-demand-to-jurisdictional-pathway-scie
 
 The BI evidence adds **national-permit-acceleration-to-multilateral-compatibility-and-ocean-community-authority** as a separate conversion question. The next ledger should put one U.S. application beside Pacific, Atlantic and Indian Ocean ISA contract areas and record where jurisdiction, evidence, consultation, monitoring, enforcement and benefit routes diverge.
 
+325. **A published home-BCI randomized outcome, 109-person enrollment, motor-recovery effect, home-exercise comparator, recruiting pediatric access study or implanted-BCI feasibility pathway is not by itself durable restored agency, equitable access, safe deployment, mental privacy, family-supported participation or transferable clinical benefit.** The BCI-REHAB publication reports stronger motor improvement in the BCI arm but includes assignment-related control attrition and does not close minority or rural access; BCI@Home is recruiting; and UAE-PRIME is a small feasibility pathway without safety or efficacy results.
+
+The KE follow-up adds a **home-neurotechnology-clinical-signal-to-representative-reach-durable-agency-and-cross-context-accountability** distinction. The evidence closes a stronger clinical outcome stage and makes geographic access an explicit mechanism, but no public source here closes long-term maintenance, cost, subgroup transferability, clinical integration, everyday participation or remedy.
+
+326. **A global neurotechnology recommendation, child-assent principle, community-engagement requirement, independent-oversight proposal or cross-border-data warning is not by itself enforceable mental privacy, safe school or workplace practice, meaningful refusal, data deletion, redress or culturally legitimate governance.** UNESCO’s 2026 Africa dialogue makes consent insufficiency, language, representation and extractive data flows visible, but it does not establish national implementation or protection for a named child, worker, patient or community.
+
+The KE evidence adds **neural-data-norm-to-local-assent-independent-oversight-withdrawal-redress-and-cultural-authority** as a separate conversion question. The next ledger should track a named deployment from consent/assent through signal inference, data access, withdrawal, complaint, remedy and later outcome, with the affected community’s interpretation and bargaining power recorded rather than inferred from a policy document.
+
 ## What the evidence does not support
 
 Do not claim that:
