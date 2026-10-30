@@ -27,10 +27,15 @@ platform / sequence / delivery system / manufacturing site
 | KG6 | A 2025 phase I/II study of WT1-mRNA dendritic-cell vaccination reports feasibility, tolerability, immune response and clinical-activity signals in advanced solid tumors. | Named clinical signal and feasibility. | Randomized comparative benefit, causality, long-term survival or affordability. |
 | KG7 | FDA materials explain that mRNA delivery depends on lipid nanoparticle encapsulation to protect the molecule and enable cellular uptake, illustrating formulation and manufacturing complexity. | Delivery-system and quality constraint. | Stable cold chain, scale, cost, cross-site comparability or patient access. |
 | KG8 | WHO identifies misinformation and vaccine hesitancy as structural hurdles while emphasizing regional production and health security. | Trust and political-economy barrier. | Causal hesitancy response, therapeutic acceptance, public financing or equitable uptake. |
+| KG9 | NCI's personalized mRNA cancer-vaccine study NCT03480152 required tumor resection, exome/RNA sequencing, neoantigen selection, cGMP manufacture, repeated vaccination and long follow-up; the registry history records that it was terminated for slow accrual. | Named end-to-end individualized-treatment workflow and a recruitment feasibility counterexample. | Efficacy, scalable turnaround, manufacturing economics, representativeness or durable patient benefit. |
+| KG10 | ClinicalTrials.gov lists a recruiting, single-center, open-label, single-arm Phase I study of deepGeneAI-001 for gastrointestinal solid tumors, with an estimated enrollment of 40 and completion in 2027; no results are posted. | Current product-level clinical development and explicit no-results boundary. | Safety, efficacy, comparative benefit, generalizability, affordability or access outside the study site. |
+| KG11 | A separate ClinicalTrials.gov record lists an ongoing Phase I study of individualized mRNA neoantigen vaccine mRNA-0523-L001 for advanced endocrine tumors, measuring safety/tolerability, immune response, objective response, disease control and progression-free survival. | Cross-tumor clinical pathway and prespecified endpoint structure. | Reported endpoint results, causal benefit, manufacturing turnaround, patient selection equity or authorization. |
 
 ## Cultural, geographical and geopolitical reading
 
-Personalization can widen or narrow access. A vaccine designed from an individual tumor may be clinically meaningful, but it requires pathology, sequencing, bioinformatics, manufacturing slots and a health system capable of turning a sample into a timely dose. Patients without those diagnostic and production pathways may be excluded even if the platform is scientifically successful.
+Personalization can widen or narrow access. A vaccine designed from an individual tumor may be clinically meaningful, but the NCI protocol makes the operational chain visible: tumor resection, exome and RNA sequencing, neoantigen selection, cGMP manufacture, repeated dosing and multi-year follow-up. Its termination for slow accrual is a useful counterexample to treating scientific feasibility as deployable access. Patients without diagnostic, recruitment and production pathways may be excluded even if the platform is scientifically successful.
+
+The current pipeline is still heterogeneous rather than a single maturity curve. The China-based deepGeneAI-001 record is a small, single-center, single-arm Phase I study with no posted results; the mRNA-0523-L001 record defines safety, immune and tumor-response endpoints but does not report them. These records prove active experimentation and explicit measurement plans, not treatment efficacy. The operational question is therefore not only whether a vaccine works, but whether a health system can repeatedly move a representative patient from sample to released product within a clinically useful time.
 
 Regional manufacturing is more than geographic distribution of factories. It requires trained staff, quality systems, lipid and nucleotide inputs, regulatory capacity, cold chain, procurement and a market that can sustain production between emergencies. Technology transfer can build sovereignty, but it can also create dependence if partners receive equipment without control over IP, inputs, validation or product-selection decisions.
 
@@ -38,7 +43,7 @@ Cancer and other therapeutic choices are culturally and socially situated. Patie
 
 ## Counterexample and source boundary
 
-An mRNA platform, technology-transfer partner, GMP plan, personalized sequence, immune response, early clinical signal, orphan designation, FDA briefing, manufacturing site or regional-health-security claim is not by itself authorized treatment, durable survival, affordable access, scalable quality, patient consent, public trust, local capability or equitable benefit. A promising early trial can fail in larger comparison; a designated product is not approved; and a factory can exist without a sustainable product portfolio.
+An mRNA platform, technology-transfer partner, GMP plan, personalized sequence, immune response, early clinical signal, orphan designation, FDA briefing, manufacturing site or regional-health-security claim is not by itself authorized treatment, durable survival, affordable access, scalable quality, patient consent, public trust, local capability or equitable benefit. A promising early trial can fail in larger comparison; a designated product is not approved; an administratively complete or slow-accrual study is not a scalable service; and a factory can exist without a sustainable product portfolio.
 
 ## Promotion decision
 
@@ -54,4 +59,7 @@ An mRNA platform, technology-transfer partner, GMP plan, personalized sequence, 
 - FDA, [mRNA vaccine formulation and lipid nanoparticles](https://www.fda.gov/media/193131/download)
 - PubMed Central, [mRNA-based personalized cancer vaccines review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12755870/)
 - PubMed, [WT1-mRNA dendritic-cell vaccination clinical study](https://pubmed.ncbi.nlm.nih.gov/39849594/)
+- NCI, [NCT03480152 personalized mRNA vaccine protocol](https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2018-03656)
+- ClinicalTrials.gov, [NCT07067385 deepGeneAI-001 trial](https://clinicaltrials.gov/study/NCT07067385)
+- ClinicalTrials.gov, [NCT06141369 mRNA-0523-L001 trial](https://clinicaltrials.gov/study/NCT06141369)
 
