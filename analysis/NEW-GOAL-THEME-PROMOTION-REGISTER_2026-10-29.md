@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29  
 **Purpose:** integrate the cross-rotation portfolio and the named conversion packets into one research-control register  
-**Status:** promotion-controlled living atlas; refreshed through Rotation HN; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
+**Status:** promotion-controlled living atlas; refreshed through Rotation HO; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
 
 ## Executive decision
 
@@ -439,6 +439,8 @@ and are not promoted as facts.
 | [Vaccination coverage/trust/equitable protection rotation](ROTATION-HM-VACCINATION-COVERAGE-TRUST-EQUITABLE-PROTECTION-2026-10-30.md) | public health/culture/geography/trust/conflict/global cooperation/immunization/zero-dose/measles/outbreaks/campaigns/home visits/language/disability/displacement/access | medium; WHO 2025 coverage and methodology, global inequality, CDC US outbreak and New Mexico response, named Viet Nam, Syria and Mongolia delivery/trust cases | coverage estimate, zero-dose signal, campaign, outbreak, response operation, access adaptation and confidence challenge | child-level receipt, dose validity, completion, protection, adverse-event response, subgroup trust, routine continuity and durable local legitimacy | Tier 1 bounded distinction plus Tier 2 vaccination-to-protection-and-durable-trust question |
 
 | [Health-worker migration/local capability rotation](ROTATION-HN-HEALTH-WORKFORCE-MIGRATION-LOCAL-CAPABILITY-2026-10-30.md) | health workforce/migration/geopolitics/labour/care/geography/international recruitment/licensing/recognition/retention/rural access/worker welfare/patient continuity/source-country replenishment | medium; WHO global Code and safeguards, WHO Europe nine-country cases and Romania retention, OECD destination dependence/licensing evidence, WHO Africa consultation, UK Health and Care route and workforce data boundary | recruitment, migration, foreign-trained workforce, ethical framework, licensing barrier, named retention response, route and administrative leave | worker contract, pay, safety, skill use, wellbeing, facility staffing, rural distribution, patient access, continuity, outcome, return and source-country replenishment | Tier 1 bounded distinction plus Tier 2 health-worker-mobility-to-reciprocal-care question |
+
+| [Migrant social-protection portability/household security rotation](ROTATION-HO-MIGRANT-SOCIAL-PROTECTION-PORTABILITY-HOUSEHOLD-SECURITY-2026-10-30.md) | migration/social protection/labour/household security/digital public administration/geopolitics/agreements/pensions/healthcare/injury/family/return/portability/ESSPASS/EESSI/ASEAN/Ukraine/Philippines | medium; ILO portability architecture, EU EESSI/ESSPASS infrastructure and case volume, ASEAN policy coordination, World Bank mobile-population guidance, OECD Ukraine/Philippines return cases and digital-error boundaries | migration event, eligibility, contribution, agreement, portable document, digital proof, administrative exchange, named policy route, pension/health coordination and return mechanism | worker/household claim, delay, correction, payment, adequacy, health/injury continuity, informal status, gender/age/disability access, return and durable security | Tier 1 bounded distinction plus Tier 2 cross-border-entitlement-to-received-protection question |
 
 ## Decision
 

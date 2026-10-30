@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HN
+**Date:** 2026-10-30; refreshed through Rotations D–HO
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3179,6 +3179,10 @@ The HM packet adds **vaccination-coverage-to-equitable-protection-and-durable-tr
 
 The HN packet adds **health-worker-mobility-to-reciprocal-care-and-local-capability conversion** with a source boundary around origin, destination, occupation, training, licensing, contract, recruiter, fees, language, race/gender, workload, pay, safety, family, retention, rural/urban posting, patient volume, continuity, complaint, return, source-country investment and patient outcome. WHO and OECD establish governance, scale, destination dependence, licensing barriers and named European/African pathways; UK data add a current route signal. These close migration and some retention/skills stages, but no public source here closes a comparable worker/facility/patient chain through safe employment, local distribution, care continuity and source-country replenishment.
 
+220. **A social-security agreement, eligibility rule, contribution record, portable document, digital certificate, administrative exchange, pension coordination, health-card rule, welfare fund, claim route or payment policy is not by itself benefit receipt, continuity, adequacy, correction, household security, dignified return or reduced poverty.** A system can be technically interoperable while a migrant cannot discover, prove, claim or correct an entitlement; an agreement can cover pensions but not healthcare or injury; and legal inclusion can coexist with informal work, status barriers, gendered access and delayed payment.
+
+The HO packet adds **cross-border-entitlement-to-received-protection-and-household-security conversion** with a source boundary around movement, status, sector, contribution, benefit, agreement, document, language, digital access, claim, wait, correction, payment, health/pension/injury event, family, return, adequacy, debt and care continuity. ILO supplies portability architecture; the EU supplies EESSI/ESSPASS infrastructure and case-volume evidence; ASEAN and World Bank supply regional policy routes; and OECD supplies Ukraine/Philippines return cases. These close formal coordination, proof and policy stages, but no public source here closes a comparable household chain through claim, payment, adequacy and later security.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3215,7 +3219,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HN.
+living goal. The current atlas baseline has been refreshed through Rotation HO.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
