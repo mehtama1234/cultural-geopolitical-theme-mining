@@ -122,6 +122,32 @@ housing without expanding services for residents who cannot work remotely.
 
 Source: [OECD, Reinforcing Rural Resilience](https://www.oecd.org/en/publications/reinforcing-rural-resilience_7cd485e3-en/full-report/trends-opportunities-and-challenges-for-rural-regions_64b6ba0e.html).
 
+### 6. Madeira provides a named attraction-and-integration programme
+
+Madeira's regional government and Startup Madeira describe Ponta do Sol's
+Digital Nomad Village as a pilot launched in 2021 to attract remote workers,
+involve local businesses and residents, provide coworking and accommodation
+guidance, and build a social and economic community. The official programme
+reports 4,670 nomads arriving on the island at the point of the OECD analysis.
+This closes a named policy-to-arrival and local-integration design, but arrival
+and participation do not establish local tax contribution, durable skills
+transfer, resident benefit, affordability or retention after incentives.
+
+Sources: [Startup Madeira programme](https://digitalnomads.startupmadeira.eu/about-us/) and [OECD Madeira case](https://www.oecd.org/en/publications/rethinking-regional-attractiveness-in-the-new-global-environment_a9448db4-en/full-report/component-8.html).
+
+### 7. Madeira now has a measurable housing-pressure indicator, but not causal attribution
+
+Madeira's statistics office reports that median rents for new contracts rose
+16% year-on-year in the first quarter of 2026. The regional median was €11.82
+per square metre, while Funchal was €13.60 per square metre; T0/T1 units had
+the highest regional median at €14.45 per square metre and Funchal reached
+€16.00. This advances the DQ chain from externality warning to a current
+place-level housing signal. It cannot by itself attribute the increase to
+digital nomads: tourism, local incomes, supply, second homes, migration and
+other housing-market forces must be separated.
+
+Source: [Madeira Regional Directorate of Statistics, Q1 2026 rents](https://estatistica.madeira.gov.pt/download-now/economica/const-hab-pt/rendas-da-habitacao-ao-nivel-local/noticias-rendas-hab-local/5847-26-06-2026-no-1-trimestre-de-2026-a-renda-mediana-dos-novos-contratos-de-arrendamento-aumentou-16-0-e-o-numero-de-novos-contratos-diminuiu-8-6-em-relacao-ao-periodo-homologo.html).
+
 ## Bounded proposition 122
 
 **A digital-nomad visa, remote-work strategy, broadband upgrade, coworking hub,
@@ -197,6 +223,8 @@ contracts and workers who returned or exited.
 ## Source boundary
 
 The current packet closes the policy opportunity, worker-risk and place-
-externality mechanisms. It does not close named household affordability,
-local productivity, social protection, cultural integration, tax contribution,
-care redistribution or long-run retention. Those remain acquisition targets.
+externality mechanisms, and now adds a named Madeira attraction/integration
+programme plus a current regional housing-pressure indicator. It does not close
+causal housing attribution, named household affordability, local productivity,
+social protection, cultural integration, tax contribution, care redistribution
+or long-run retention. Those remain acquisition targets.

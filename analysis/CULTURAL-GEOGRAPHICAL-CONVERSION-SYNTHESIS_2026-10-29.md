@@ -2523,6 +2523,17 @@ affordability protection. They do not close tariff fairness, uptime, outage and
 maintenance, household welfare, revenue control, durable ownership or
 post-finance local power.
 
+The DQ refresh adds a named Madeira attraction and housing-pressure case. The
+Digital Nomad Village model links remote-worker arrivals to coworking,
+accommodation guidance, local businesses and community activity, while the
+OECD reports 4,670 arrivals at the point of analysis. Madeira's 2026 statistics
+then show a 16% year-on-year increase in median new-contract rents, with higher
+values in Funchal and for small units. This advances DQ from externality warning
+to place-level indicators, but cannot attribute rent changes to nomads without
+separating tourism, supply, second homes, migration, local income and other
+forces; local productivity, cultural integration, tax, care and retention remain
+open.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
