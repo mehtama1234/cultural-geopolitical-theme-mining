@@ -29,6 +29,81 @@ in-migration/out-migration
 | MIG-004 | [Census migration-flow data](https://www.census.gov/topics/population/migration/guidance/migration-flows.html) | ACS provides state-to-county flows, including current residence and residence one year earlier, supporting place-to-place movement analysis | Movement measurement observed |
 | MIG-005 | [GAO Native American housing and homelessness observations](https://files.gao.gov/reports/GAO-26-109173/index.html) | GAO identifies targeted housing and homelessness programs and notes that AI/AN people may use Tribal, non-Tribal or both service systems depending on local preferences and service availability | Service-route and governance diversity observed |
 
+## Named-case refresh
+
+The cases below test the conversion at different points. Amsterdam and
+Brussels document municipal and refugee-led capacity; Fuenlabrada documents a
+labor-market route; Lansing documents coordinated voice and resettlement
+services; and the South Australia study preserves the counterevidence that
+arrival housing can be mismatched, discriminatory or too remote even when
+later settlement improves.
+
+### MIG-006 — Amsterdam refugee housing and integration response
+
+The OECD reports that in 2016 Amsterdam placed 2,013 recognised refugees in
+social housing or asylum accommodation, agreed with housing associations that
+30% of available rentals would go to vulnerable groups, and planned 2,700 new
+dwellings for vulnerable groups by 2018. The city used a multi-level chain
+involving the municipality, housing associations, the national reception system
+and case managers. This closes a named-place route from refugee assignment to
+housing coordination and shows local capacity as negotiated allocation, not
+simply population absorption. It does not establish long-run tenure, rent
+burden, neighborhood belonging, employment quality or whether the new supply
+met demand.
+
+### MIG-007 — MILMA in Fuenlabrada, Madrid
+
+The OECD reports that Fuenlabrada's 2018–2021 MILMA project responded to rapid
+demographic growth, unemployment and social exclusion by combining skills,
+social integration and employer-linked work contexts for migrants, low-skilled
+youth and other unemployed residents. The project reported a 32.5% job
+placement rate, above typical training-program outcomes. The case demonstrates
+that local integration can be designed as a joint resident-and-migrant labor
+market intervention rather than a migrant-only service. It does not prove
+stable wages, housing affordability, retention, social mixing or belonging
+after placement.
+
+### MIG-008 — refugee-led shelters in Brussels
+
+UNHCR reports that refugee committees in Brussels, supported by the Brussels
+Capital Region and partners, helped run reception sites in former offices and a
+container village with nearly 500 beds. Refugees participated in decisions
+about housing, education, health services and work. This closes an important
+agency stage: newcomers are not only recipients of capacity but can help govern
+the reception environment. The report does not provide occupancy duration,
+move-on housing, income, service quality or longer-term neighborhood relations.
+
+### MIG-009 — Lansing, Michigan refugee service coalition
+
+An Administration for Children and Families case study describes St. Vincent
+Catholic Charities and partner organizations in Lansing coordinating housing,
+airport arrival, orientation, workforce development, schools, medical
+providers and law enforcement, with the stated aim of giving refugees a
+collective voice. This is a named place-level service architecture linking
+arrival to housing and social institutions. Because it is a program case study,
+it does not close the same-person route to durable housing, employment quality,
+health access, civic influence or belonging.
+
+### MIG-010 — rural settlement in South Australia: housing as a belonging test
+
+An interview and survey study of people from refugee backgrounds in a rural
+South Australian town found mixed settlement outcomes. Initial housing could
+be too small, too large or split families across dwellings; some African
+participants reported discrimination in rental applications, while many later
+found suitable housing and some longer-settled families achieved home
+ownership. The case is a necessary counterexample to “affordable rural housing
+equals successful integration”: place, neighborhood, discrimination, health
+access and social connection mediate whether a housing offer becomes a lived
+settlement.
+
+## Sources added in the named-case refresh
+
+- [OECD: Amsterdam local integration case](https://www.oecd.org/en/publications/working-together-for-local-integration-of-migrants-and-refugees-in-amsterdam_9789264299726-en/full-report/component-14.html)
+- [OECD: Fuenlabrada MILMA project](https://www.oecd.org/en/publications/inclusive-growth-in-cities_3320b636-en/migrants-labour-integration-model-based-on-acculturation-milma-project-in-fuenlabrada-madrid_1aea633e-en.html)
+- [UNHCR: refugee-run shelters in Brussels](https://www.unhcr.org/be/en/news/stories/refugee-run-shelters-brussels-offer-safety-and-integration-support)
+- [ACF: Lansing refugee integration case study](https://acf.gov/sites/default/files/documents/orr/lansing_mi_case_study_7_15_13a_508.pdf?nocache=1400180538)
+- [South Australia rural settlement study](https://pmc.ncbi.nlm.nih.gov/articles/PMC7663864/)
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |

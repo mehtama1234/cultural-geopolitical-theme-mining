@@ -2553,6 +2553,20 @@ fields remain household connection and affordability, compliance and outage
 records, operator retention, long-run O&M finance, cultural acceptance and the
 final legal/policy allocation of maintenance responsibility.
 
+The O refresh adds five named migration-and-place cases. Amsterdam shows
+municipal allocation and planned housing supply as a negotiated response to
+refugee arrival; Fuenlabrada's MILMA project links migrant and resident labor
+integration to a reported 32.5% placement rate; Brussels shows refugee-led
+governance inside nearly 500 reception beds; Lansing shows the local service
+coalition needed to connect arrival with housing and institutions; and South
+Australia preserves the lived counterexample of mismatched housing and rental
+discrimination despite later settlement progress. The cases sharpen the O
+proposition: migration changes a place through the capacity and legitimacy of
+housing, work, services and relationships—not through population counts alone.
+The missing conversion remains matched household tenure, affordability, job
+quality, service use, discrimination, belonging, political voice and later
+mobility.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
