@@ -3703,6 +3703,14 @@ The JW follow-up adds **digital-therapeutic-access-or-trial-to-human-supported-r
 
 The JW evidence adds **digital-therapy-design-to-language-device-human-support-crisis-fit-completion-escalation-and-equitable-outcome** as a separate conversion question. The next ledger should compare device/phone access, language, literacy, disability, supporter role, crisis setting, completion, safety flag, referral and follow-up across places rather than using download or engagement counts as the outcome.
 
+351. **A cross-border-care right, referral approval, destination accreditation, successful procedure, medical record, reimbursement rule or national contact point is not by itself usable access, safe recovery, continuity, affordability, informed consent or enforceable liability.** The 2026 European Parliament assessment identifies a gap between rights under the EU Cross-Border Healthcare Directive and their effective use; the EU factsheet shows variation in prior authorization and reimbursement; and CDC guidance treats records, return financing and local follow-up as safeguards that must be arranged rather than presumed.
+
+The JV follow-up adds **medical-travel-right-to-navigable-referral-upfront-payment-records-return-follow-up-reimbursement-remedy-and-recovery** as a separate conversion question. The evidence closes legal architecture, friction points and practical safeguards, but no public source here closes a named patient through complication, home-system continuity, household cost, liability and later outcome.
+
+352. **Cross-border mobility can expand patient agency while redistributing clinical, financial and accountability burdens across places.** A patient may choose a destination to overcome a wait, restriction or capability gap, but the return pathway can shift records, complication care, payment and legal recourse onto the home system and household; destination revenue does not prove local capacity or equity.
+
+The JV evidence adds **cross-border-treatment-choice-to-home-system-capacity-household-burden-and-shared-accountability** as a separate conversion question. The next ledger should preserve patient reason for travel, language, financing, destination and home providers, workforce effects, records, complication, remedy and local access rather than treating mobility or procedure volume as benefit.
+
 ## What the evidence does not support
 
 Do not claim that:
