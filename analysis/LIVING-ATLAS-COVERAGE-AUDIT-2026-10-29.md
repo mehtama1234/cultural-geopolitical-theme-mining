@@ -37,6 +37,7 @@ research goal.
 | GP packet CSV shape | ten rows and nine fields for GP; all ten source IDs present after Kenya, Oversight Board and EU redress named-case refresh | `ROTATION-GP-CONTENT-MODERATION-CULTURAL-EXPRESSION-APPEAL-2026-10-29.csv` |
 | GV packet CSV shape | ten rows and nine fields for GV; all ten source IDs present after SESAME, ICTP, Open Quantum Institute and Levant named-case refresh | `ROTATION-GV-SCIENCE-DIPLOMACY-RECIPROCAL-COOPERATION-2026-10-29.csv` |
 | GT packet CSV shape | ten rows and nine fields for GT; all ten source IDs present after Air India, PEBA, Included Health and Store Assistant named-deployment refresh | `ROTATION-GT-AGENTIC-AI-ACCOUNTABLE-ACTION-REVERSIBILITY-2026-10-29.csv` |
+| GS packet CSV shape | ten rows and nine fields for GS; all ten source IDs present after OpenSAFELY, Greater Manchester, ONS and EU data-altruism named-case refresh | `ROTATION-GS-DATA-GOVERNANCE-INFORMATIONAL-AUTONOMY-TRUST-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 

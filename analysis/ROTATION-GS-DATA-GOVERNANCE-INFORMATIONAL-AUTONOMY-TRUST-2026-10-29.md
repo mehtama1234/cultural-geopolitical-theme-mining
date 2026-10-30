@@ -146,6 +146,81 @@ benefit, complaint and remedy. Record language, accessibility, jurisdiction,
 vendor/intermediary role, retention, security, human fallback and whether the
 subject could meaningfully refuse or exit.
 
+## Named intermediary, refusal and public-value refresh
+
+### 7. OpenSAFELY: secure analysis supported COVID-19 risk identification without direct researcher access
+
+The UK Centre for Data Ethics and Innovation describes OpenSAFELY as a secure
+analytics platform developed by the University of Oxford's DataLab with NHS
+electronic-record providers on behalf of NHS England and NHSX. Researchers run
+analyses on large volumes of health records without directly observing or
+transferring the underlying data. An early project identified people at higher
+risk of dying from COVID-19 with higher accuracy than other approaches, helping
+organisations target resources to vulnerable groups.
+
+This is a strong privacy-and-public-value mechanism linked to a named health
+use. It closes secure analysis and a risk-identification pathway, not patient
+comprehension, correction of source records, consent or refusal, language and
+disability equity, clinical receipt, false-negative remedy or whether the
+benefit was experienced by the identified people. “Higher accuracy” is not the
+same as equitable health outcome.
+
+Source: [UK CDEI, data-intermediary case studies](https://www.gov.uk/government/publications/unlocking-the-value-of-data-exploring-the-role-of-data-intermediaries/unlocking-the-value-of-data-exploring-the-role-of-data-intermediaries).
+
+### 8. Greater Manchester GP Data Trust: opt-out revealed the social licence problem
+
+Greater Manchester's case study describes a General Practice Data Trust pilot
+that began after more than one million people opted out of a national plan to
+collect primary-care data. The pilot explored why people opted out and whether
+a data trust could make sharing more acceptable. It therefore treats refusal,
+public understanding and governance acceptability as evidence rather than
+assuming that de-identification alone creates trust.
+
+This closes an important negative and participatory mechanism: people can
+withdraw or reject a data-sharing design, and that response can trigger a new
+governance model. The pilot does not establish that a data trust achieved
+representative consent, changed service quality, reduced exclusion, enabled
+correction or produced benefits that returned to patients. Opt-out volume is a
+signal of legitimacy tension, not proof of what every person wanted.
+
+Source: [Greater Manchester Combined Authority, GP Data Trust case](https://www.greatermanchester-ca.gov.uk/what-we-do/digital/case-studies/case-study-can-a-data-trust-give-people-the-control-they-want-over-how-their-data-is-shared/).
+
+### 9. ONS intermediary for the Troubled Families evaluation: de-identification and power are not identical
+
+The UK government describes a cross-government evaluation involving data from
+149 local authorities and four central departments, with an estimated 1.5
+million individual records. The Office for National Statistics acted as a
+third-party intermediary: it received identifiable matching information,
+created pseudonymous identifiers, and returned a de-identified dataset for
+analysis. The case also records that the population was vulnerable, individual
+informed consent was difficult because of unequal power, and families were
+expected to be able to object through local authorities.
+
+This is a useful institutional case because security, matching quality,
+intermediary reassurance and meaningful refusal are all visible in the same
+design. It does not establish that families understood the use, could exercise
+objection without service pressure, corrected records, received a direct
+benefit, or saw an accessible remedy when matching was wrong.
+
+Source: [UK CDEI, public-sector data-sharing case studies](https://www.gov.uk/government/publications/addressing-trust-in-public-sector-data-use/addressing-trust-in-public-sector-data-use).
+
+### 10. EU data-altruism register: formal trust infrastructure before demonstrated benefit
+
+The European Commission's register lists recognised data-altruism organisations
+under the Data Governance Act, including 101 Genomes and the European Brain
+Data Hub in Belgium, Datalog in Spain, Elec-tariffs.ie in Ireland and named
+organisations in Austria and Italy. Recognition requires a not-for-profit
+character, transparency and safeguards for people and companies that voluntarily
+make data available without reward for objectives of general interest.
+
+This closes a legal and institutional route for voluntary data contribution and
+public scrutiny. The register does not demonstrate contributor comprehension,
+withdrawal in practice, data quality, research or service benefit, equitable
+distribution, community governance or remedy after misuse. Registration is an
+entry condition, not evidence that altruism produced public value.
+
+Source: [European Commission, EU register of recognised data-altruism organisations](https://digital-strategy.ec.europa.eu/en/policies/data-altruism-organisations).
+
 ## Source boundary
 
 The official record is strong for governance principles, legal mechanisms,

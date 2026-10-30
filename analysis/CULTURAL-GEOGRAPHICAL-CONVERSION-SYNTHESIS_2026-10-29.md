@@ -2615,6 +2615,18 @@ and human escalation. They do not establish independent correctness, user
 equity, authority per action, reversibility, clinical or benefit outcomes,
 privacy, worker effects, compensation or durable public legitimacy.
 
+The GS refresh adds four named data-governance cases. OpenSAFELY joins secure
+analysis to COVID-19 risk identification without direct researcher access;
+Greater Manchester's GP Data Trust pilot makes more than one million opt-outs
+visible as a social-licence and governance-design signal; the ONS Troubled
+Families intermediary shows de-identification, matching and objection in a
+vulnerable population; and the EU data-altruism register shows formal voluntary
+contribution infrastructure through named organisations. These close parts of
+privacy-preserving analysis, refusal, intermediary design, matching and legal
+registration. They do not establish comprehension, correction, equitable
+service, clinical or family benefit, withdrawal in practice, community control,
+remedy or durable trust.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
