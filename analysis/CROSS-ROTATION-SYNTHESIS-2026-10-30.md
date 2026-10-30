@@ -1,10 +1,12 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 305 registered packet links, 309 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 400, and the latest rotations through LR.  
+**Inputs:** 305 unique registered packet paths, 310 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 405, and the latest rotations through KC, KK, KF, JZ and LR.  
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
+
+Quality-control companion: [atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md).
 
 ## Executive readout
 
