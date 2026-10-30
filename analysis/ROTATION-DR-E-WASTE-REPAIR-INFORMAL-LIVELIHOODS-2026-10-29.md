@@ -73,6 +73,48 @@ stream and unsafe processing intact.
 Sources: [WHO e-waste and child health](https://www.who.int/news-room/questions-and-answers/item/children-and-digital-dumpsites-e-waste-and-health)
 and [WHO prevention of e-waste impacts](https://www.who.int/health-topics/environmental-health/preventing-impacts-of-electronic-waste-on-child-health).
 
+### 6. Agbogbloshie shows why formalisation must preserve livelihoods while reducing exposure
+
+WHO documents a pilot facility established by Pure Earth and Green Advocacy
+Ghana at Accra's Agbogbloshie site. The facility enabled workers to strip and
+recycle copper and aluminium without burning plastic sheaths; the project had
+to adapt after initial machines were unsuitable for small wires and cables, and
+training was provided with Ghana Health Service support. This is a named
+informal-work-to-safer-processing case and an important counterexample to
+one-time technology transfer. The public record does not establish exposure
+reduction, worker income, child-labour exit, equipment uptime, recovered
+material qualification or long-term livelihood transition.
+
+Source: [WHO, Agbogbloshie risk-reduction intervention](https://iris.who.int/bitstream/handle/10665/341718/9789240023901-eng.pdf).
+
+### 7. Coventry connects device reuse to digital inclusion
+
+Coventry's #CovConnects system reports more than 6,000 devices distributed,
+350 devices repaired, more than 2,800 kg of e-waste responsibly handled,
+220,000+ kg CO2-equivalent emissions saved and 15,000+ residents impacted.
+Devices, MiFi units and SIM cards were distributed through 200+ partners and
+133 digital-inclusion hubs, including support for older adults, young people
+and survivors of domestic abuse in temporary accommodation. This closes a
+device-reuse-to-access pathway with local institutional reach, but the public
+report does not provide device-level usable lifetime, recipient affordability,
+repair recurrence, data-erasure outcomes, accessibility or employment and
+education continuity.
+
+Source: [Coventry City Council, #CovConnects phase-one report](https://www.coventry.gov.uk/cov-connects/help-people-impact-coventry/2).
+
+### 8. Kingston separates collection from reuse and repair
+
+The Royal Borough of Kingston's E-Waste Race engaged ten primary schools,
+trained 547 students and reached more than 5,000 students, parents and
+community members. In four weeks it collected 3,917 kg of material, with 732 kg
+redirected for repair and reuse and 3,185 kg sent for recycling. The case makes
+the material pathway more legible than a single collection tonnage and connects
+circularity to STEM learning and local cultural practice. It still does not
+establish final recycler destination, usable-life extension, household digital
+access, worker safety or whether behaviour persisted after the event.
+
+Source: [Local Government Association, Kingston E-Waste Race](https://lb2.local.gov.uk/case-studies/royal-borough-kingston-upon-thames-e-waste-race).
+
 ### 3. Right-to-repair policy closes a consumer-rights mechanism, not the whole loop
 
 The EU’s Directive 2024/1799 promotes repair by requiring repair of specified
@@ -191,6 +233,9 @@ and facilities that safely recovered material as counterexamples.
 ## Source boundary
 
 The current packet closes the global scale, health-risk, consumer-rights and
-policy mechanisms. It does not close named repair affordability, data safety,
-worker transition, exposure reduction, child protection, final material use or
-local legitimacy. Those remain acquisition targets.
+policy mechanisms, and now adds named safer informal processing in Ghana,
+device-reuse/digital-inclusion operation in Coventry, and a Kingston
+repair/reuse-versus-recycling material split. It does not close named repair
+affordability, data safety, worker transition, exposure reduction, child
+protection, usable-life extension, final material use or local legitimacy.
+Those remain acquisition targets.

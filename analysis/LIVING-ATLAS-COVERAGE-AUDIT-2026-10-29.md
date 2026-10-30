@@ -30,6 +30,7 @@ research goal.
 | DM packet CSV shape | eight rows and nine fields for DM; all eight source IDs present after Solomon Islands, Cambodia and Mapuche food-system case refresh | `ROTATION-DM-INDIGENOUS-FOOD-SOVEREIGNTY-CLIMATE-ADAPTATION-CULTURAL-CONTINUITY-2026-10-29.csv` |
 | DN packet CSV shape | eight rows and nine fields for DN; all eight source IDs present after Indonesia productive-use, women-tariff and Moldova affordability/community refresh | `ROTATION-DN-COMMUNITY-ENERGY-OWNERSHIP-JUST-TRANSITION-AFFORDABILITY-2026-10-29.csv` |
 | DQ packet CSV shape | seven rows and nine fields for DQ; all seven source IDs present after Madeira attraction and housing-pressure refresh | `ROTATION-DQ-REMOTE-WORK-DIGITAL-NOMADS-PLACE-IMPACTS-2026-10-29.csv` |
+| DR packet CSV shape | eight rows and nine fields for DR; all eight source IDs present after Ghana, Coventry and Kingston named-case refresh | `ROTATION-DR-E-WASTE-REPAIR-INFORMAL-LIVELIHOODS-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 

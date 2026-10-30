@@ -2534,6 +2534,15 @@ separating tourism, supply, second homes, migration, local income and other
 forces; local productivity, cultural integration, tax, care and retention remain
 open.
 
+The DR refresh adds named e-waste conversion cases: a WHO-documented
+Agbogbloshie facility adapted safer copper and aluminium recovery with worker
+training; Coventry's #CovConnects connected device reuse to digital inclusion;
+and Kingston's school/community race separated repair/reuse from recycling while
+building circular-economy learning. These close parts of safer informal
+processing, device reuse, institutional reach and material-pathway visibility,
+but not exposure reduction, worker livelihood transition, usable device life,
+data safety, final destination, household continuity or durable behaviour.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
