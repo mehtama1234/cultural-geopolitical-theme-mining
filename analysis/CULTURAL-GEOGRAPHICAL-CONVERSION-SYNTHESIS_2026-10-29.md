@@ -3827,6 +3827,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 404. **Shared forecasting infrastructure is both a public good and a geopolitical relationship.** An international AI-weather initiative can reduce capability gaps while creating dependence on an external model, data standard, platform or funding relationship; aggregate avoided-loss claims do not prove partner-country authority, household action or AI-specific benefit.
 
+405. **Care technology must be evaluated as a relationship and a system, not a device.** A sensor can reduce an observed risk or intrusive check while shifting interpretation, surveillance and responsibility to care workers; whole-system standards, human review, consent, privacy and quality monitoring remain necessary to establish person-centred autonomy.
+
 ## What the evidence does not support
 
 Do not claim that:
