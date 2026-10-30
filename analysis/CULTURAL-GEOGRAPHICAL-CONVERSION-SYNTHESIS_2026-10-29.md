@@ -3841,6 +3841,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 411. **Climate-relocation capacity is not community continuity.** A displacement count, taskforce, consultation, finance rule or managed-retreat vocabulary can clarify risk and options while consent, land, host capacity, livelihood, cultural authority, return and post-move belonging remain unresolved.
 
+412. **An early warning received is not an accessible protective action.** Population-level warning coverage, multichannel design, child-risk mapping or inclusive anticipatory-action protocols can coexist with disability-specific barriers in comprehension, transport, assistance, shelter, medication, service continuity and recovery voice.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3859,7 +3861,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 411 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 412 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 

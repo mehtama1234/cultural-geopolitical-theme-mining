@@ -31,14 +31,43 @@ The theme is geographical because terrain, distance, communications and infrastr
 | HW6 | UNICEF’s India case reports support to the National Disaster Management Authority to revise emergency handbooks with disability inclusion, gender-responsive principles and child protection. | National guidance revision and institutional route. | Accessible dissemination, local implementation, family support or child safety. |
 | HW7 | UNICEF’s Indonesia landscape analysis reports that a survey of 769 teachers found none of the DRR education programmes in use were accessible for children with disabilities. | A named counterexample showing formal DRR education can exclude disabled children. | Hazard exposure, later warning, household adaptation or school continuity outcome. |
 | HW8 | A World Bank review of EU national DRR policies finds disability inclusion uneven: among 34 countries, 32% scored zero and 44% scored one on its policy-inclusion scale, while accessible information and services are identified as preparedness requirements. | Cross-country policy implementation gap. | Real-time warning access, evacuation, shelter conditions, recovery and lived safety. |
+| HW9 | UNDRR’s 2026 review of the Lloyd’s Register Foundation World Risk Poll reports that four in five people who experienced a disaster received a warning, but only 64% of those warned could act; the action rate rose from 37% with one channel to 64% with three channels. | Population-level warning-to-action gap and multichannel mechanism. | Disability-specific receipt, comprehension, mobility support, evacuation, shelter access and subgroup causality. |
+| HW10 | The Malagasy Red Cross’s 2026 Cyclone Gezani Early Action Protocol integrated protection, gender and inclusion, community-based dissemination and preventive evacuation before the cyclone, with post-distribution monitoring. | Named anticipatory-action and inclusion mechanism in a live cyclone case. | Disability-specific warning receipt, evacuation safety, accessible shelter, service continuity, harm and durable recovery. |
+| HW11 | UNICEF’s 2026–2027 El Niño brief identifies children with disabilities among groups at particular risk and calls for forecast-based action across health, nutrition, education, protection, social protection and WASH, with pre-arranged finance and long-term DRR. | Current hazard forecast, child-risk and anticipatory-action architecture. | Local warning receipt, household action, disability accommodations, service delivery and child outcome. |
+| HW12 | UNICEF and Timor-Leste’s 2026 subnational Children’s Climate Risk Index combines 66 indicators across 13 municipalities and an interactive platform to target child-centred disaster-risk investments. | Named geographic risk stratification and planning tool. | Whether risk maps change budgets, accessible warnings, evacuation, services, household action or child safety. |
+| HW13 | Nepal Red Cross’s REDI project reports inclusive multichannel warning, local-government protocols, sirens, door-to-door visits and information sessions in 15 communities reaching nearly 65,000 people because formal channels were not understood, trusted or acted on by all residents. | Named locally led, multichannel and trust-building operation. | Disability-specific reach, actual evacuation, shelter accessibility, avoided harm, subgroup action and continuity. |
 
 ## Cultural, geographical and geopolitical reading
 
 “Accessible” is not one format. It can mean captioning, sign language, easy language, screen-reader compatibility, tactile or visual alerts, trusted intermediaries, medication continuity, transport, personal assistance, accessible toilets and safe spaces. A household may rely on informal care or community organizations that are not visible in official data. In conflict or displacement, documents, assistive devices, family separation and changing control of territory create additional failure points.
 
+The 2026 warning-to-action evidence strengthens the conversion audit. Receiving
+a warning is not the same as being able to act: the global poll reports a large
+gap, and more communication channels correlate with higher action. The Nepal and
+Madagascar cases show why locally trusted intermediaries, door-to-door contact,
+community protocols and protection/gender/inclusion checks can matter alongside
+technical dissemination. They still do not establish that a person with a
+specific impairment received the message, had transport or assistance, reached
+an accessible shelter, kept medication or influenced recovery.
+
+Risk maps also have a social geography. Timor-Leste’s 66-indicator municipal
+index can direct attention and investment, but a high-risk map does not itself
+create an accessible warning, a functioning road, a carer, an evacuation space
+or a budget. UNICEF’s El Niño planning frame makes the same point at regional
+scale: forecast-based action requires pre-arranged finance and service capacity,
+not merely a better forecast.
+
 ## Counterexample and source boundary
 
 Indonesia’s teacher survey is a direct counterexample to treating a DRR curriculum as inclusive because it exists. The global MHEWS mortality association is important but cannot establish that disabled people received or acted on warnings. Public evidence closes system architecture, policy, governance participation and selected implementation examples, but not a comparable disabled-person chain from warning receipt through evacuation, accessible shelter, service continuity and recovery voice.
+
+A warning-to-action correlation is not disability-specific causal evidence;
+barriers may arise from transport, household resources, trust, terrain, conflict
+or shelter capacity rather than message format alone. A multichannel operation
+can improve reach while still missing people without phones, carers, assistive
+devices, transport or safe family-separation plans. A child-risk index can
+improve geographic prioritization while leaving local budgets, accessible
+services and household action unchanged.
 
 ## Promotion decision
 
@@ -56,3 +85,8 @@ Indonesia’s teacher survey is a direct counterexample to treating a DRR curric
 - UNICEF, [Children with disabilities in emergencies](https://www.unicef.org/disabilities/emergencies)
 - UNICEF, [Inclusive humanitarian-action checklists](https://www.unicef.org/disabilities/documents/inclusive-humanitarian-action-checklists)
 - World Bank, [Disability inclusion](https://www.worldbank.org/ext/en/topic/social-development/disability-inclusion)
+- UNDRR, [Early warning to action gap and 2026 World Risk Poll](https://www.undrr.org/implementing-sendai-framework/bridging-the-early-warning-to-action-gap-requires-building-resilience-at-home)
+- IFRC, [Madagascar Cyclone Gezani inclusive anticipatory action](https://pgi.ifrc.org/resources/integrating-protection-gender-and-inclusion-anticipatory-action-experience-cyclone-early)
+- UNICEF, [El Niño 2026–2027 child-centred anticipatory action](https://www.unicef.org/documents/el-nino-2026-2027-protect-children-now-build-resilience)
+- UNICEF Timor-Leste, [Subnational Children’s Climate Risk Index](https://www.unicef.org/timorleste/reports/timor-leste-subnational-childrens-climate-risk-index)
+- IFRC, [World Disasters Report 2026](https://www.ifrc.org/sites/default/files/2026-02/WDR2026_FullReport_EN.pdf)

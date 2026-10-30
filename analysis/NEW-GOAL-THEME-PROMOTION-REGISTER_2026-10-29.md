@@ -581,6 +581,7 @@ and are not promoted as facts.
 - The digital-identity packet now includes UK 2026 inclusion monitoring, EU wallet rollout/onboarding, GOV.UK accessibility testing and the children-in-need pilot; these close market, interoperability and test-surface evidence, not completed service access, subgroup fairness or human recovery.
 - The G2P packet now includes the World Bank’s 2026 global stocktake, Sahel layered-payment transition, Tanzania cash-plus results, payment-modality counterexample and national payment-infrastructure frame; these close scale, selected welfare and architecture signals, not same-recipient receipt, control, real value or remedy.
 - The climate-relocation packet now includes IDMC’s 2026 displacement scale, U.S. Tribal relocation/cultural-loss evidence, BIA consultations, UNFCCC sustained-finance requirements and Atlantic Canada public-language research; these close scale, choice, finance and meaning mechanisms, not community continuity after a move.
+- The disability-inclusive-warning packet now includes the 2026 warning-to-action gap, Madagascar anticipatory action, El Niño child-risk planning, Timor-Leste risk mapping and Nepal multichannel community warning; these close population, planning and operation signals, not impairment-specific receipt, evacuation, shelter or recovery outcomes.
 
 ## Decision
 
