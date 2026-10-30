@@ -2567,6 +2567,18 @@ close parts of deployment, training, human-support dependence and failure
 pathways, but not worker-level safety rates, care quality, workload, wage or
 skill change, maintenance, stop authority, remedy or fair gain sharing.
 
+The GQ refresh adds four named community-control cases. Mukurtu and the Huna
+Heritage Digital Archives make item-level cultural access protocols visible;
+Westbank First Nation uses OCAP principles and community clearance before
+public release; the Urarina pilot combines Mukurtu, Indigenous information
+management and English, Spanish and Urarina metadata; and the Sharamentsa
+Achuar project returned documentation of a functioning Jea and associated
+knowledge to the community. These close parts of access governance, publication
+review, multilingual context and local return. They do not establish durable
+custodian authority, correction or revocation, sacred or gendered protection,
+language and youth transmission, livelihood benefit or community-wide cultural
+continuity.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and

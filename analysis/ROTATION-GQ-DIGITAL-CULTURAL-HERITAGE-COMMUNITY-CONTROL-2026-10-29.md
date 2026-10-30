@@ -127,6 +127,83 @@ youth and diaspora use the material in ongoing transmission. Compare open,
 restricted and community-controlled models, including sacred or gender-
 restricted knowledge and disability-access pathways.
 
+## Named community-control and living-archive refresh
+
+### 7. Mukurtu and the Huna Heritage Digital Archives: access can be protocolled at item level
+
+The Mukurtu Alaska Hub describes Mukurtu as a community-driven platform built
+with Indigenous communities. Its design supports local cultural protocols that
+set granular access parameters—who may see what, when and how—alongside
+community records, culturally specific metadata and Traditional Knowledge
+labels. The Huna Heritage Digital Archives in Hoonah is described as a living
+record containing photographs, video and audio of cultural and historical
+significance.
+
+This is a concrete design-to-operation case for refusing the false choice between
+fully open and fully closed archives. It closes platform affordance and
+community-curation mechanisms, not proof that every item is governed by the
+appropriate custodian, that protocols are maintained across staff turnover, or
+that the archive changes language transmission, youth practice, livelihood or
+community safety over time.
+
+Source: [Mukurtu Alaska Hub](https://mukurtu-alaska.libraries.wsu.edu/about).
+
+### 8. Westbank First Nation: public release was subordinated to community review
+
+The Westbank First Nation archaeology and digital-heritage project uses OCAP
+(Ownership, Control, Access and Possession) principles in its digital strategy.
+The project describes a digital map for items considered safe for public
+viewing; material is reviewed by originating staff and public release requires
+clearance from Westbank First Nation communications. The project also confronts
+the problem that universal metadata can erase cultural protocol and uses
+Indigenous data-governance concepts to shape the archive.
+
+This closes a named governance and publication gate: digitization can be
+followed by community-controlled release rather than automatic public access.
+The project is not evidence of completed community-wide authority, inter-
+generational transmission, correction after publication, revenue or livelihood
+benefit. It also leaves open how contested community views and future withdrawal
+are handled.
+
+Source: [Westbank First Nation digital heritage project](https://pmc.ncbi.nlm.nih.gov/articles/PMC9702736/).
+
+### 9. Urarina Digital Heritage Project: multilingual access joined public and community audiences
+
+The University of Kansas describes a collaborative Urarina project involving
+the Spencer Museum of Art, Mukurtu developers, researchers and Urarina
+community members. Its pilot presented 104 collection images with English,
+Spanish and Urarina metadata and used Indigenous information-management
+systems and cultural protocols. Planned next steps included adding community
+context and audio descriptions and refining the collection with local partners
+and Urarina participants.
+
+The case closes a meaningful inclusion mechanism: language and community
+context are part of the digital object, not a later translation layer. It does
+not yet close local infrastructure, custodian authority, access enforcement,
+community benefit, correction, youth transmission or the durability of the
+international collaboration; the source explicitly presents the work as a
+pilot with further testing required.
+
+Source: [University of Kansas, Urarina Digital Heritage Project](https://clacs.ku.edu/center-supports-urarina-indigenous-digital-project-peruvian-amazon).
+
+### 10. Sharamentsa Achuar digital archive: documentation returned to the community
+
+An interdisciplinary University of Oklahoma project with the Achuar community
+of Sharamentsa documented construction of a Jea and its associated materials,
+techniques, collective labour, rituals, stories and ecological knowledge. Over
+two years it produced 1,169 assets across 42 interconnected processes, and
+copies of the documentation were returned to the community for future education
+and research.
+
+This advances the packet from archive-as-storage to documentation embedded in a
+functioning community practice and returned for local use. It does not prove
+that the archive is governed by all relevant custodians, that sacred or
+gendered access is protected, that knowledge remains in practice, or that the
+project produced durable livelihoods, language revitalization or community-wide
+authority. The asset count is an operational output, not a continuity outcome.
+
+Source: [University of Oklahoma, Achuar digital-knowledge project](https://www.ou.edu/disc/news-events/newsroom-events/2026/how-disc-helped-preserve-indigenous-knowledge-through-data).
+
 ## Source boundary
 
 The public record closes the preservation opportunity, digital-divide concern,
