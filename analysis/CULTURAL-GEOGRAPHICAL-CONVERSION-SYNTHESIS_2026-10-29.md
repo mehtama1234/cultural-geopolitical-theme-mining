@@ -3761,6 +3761,12 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 371. **Island autonomy should be evaluated as continuity of lived access, not as a technology label.** Passenger certification and designated-area operation can support a route, but they do not establish affordable frequency, accessibility, evacuation capability, food and health access, trust or resilience for the island communities that depend on it.
 
+372. **Daily remote-control activity is evidence of an operating corridor, not proof of stable autonomous service.** Vendor-reported activity must be joined to route utilization, permits, autonomy mode, onboard staffing, intervention and failure-recovery records before it can support a reliability or trust claim.
+
+373. **Low-emission logistics must pass a commercial-durability test as well as an environmental one.** A company’s material operating loss can be a warning that infrastructure, technology, maintenance, financing or utilization costs remain unresolved, but financial results alone do not establish route-level causation; the next evidence must reconcile audited accounts, parent support, subsidies, cost per crossing and service continuity.
+
+374. **Modal shift can reduce road exposure while relocating risk and cost to ports, water users and remote operations.** Grocery or residual-material benefits require a whole-corridor account covering ferry interaction, charging, emergency response, worker authority, local exposure, customer continuity and the counterfactual land route.
+
 ## What the evidence does not support
 
 Do not claim that:

@@ -31,6 +31,8 @@ grocery warehouses / residual-material source
 | LN10 | Massterly’s public project page still describes uncrewed operation as a future state after testing, while its 2026 update reports increasing shore supervision. | Source-date conflict and staged transition boundary. | Final uncrewed certification, current operating envelope, emergency response or legal liability. |
 | LN11 | The original Norwegian public model assumed full operation at 150 lorry trips replaced per day, 2.2 million road kilometres avoided and 5,095 tonnes of CO2 reduced annually; ASKO’s January 2026 account reports 9,000 truckloads moved fossil-free in 2024 while still acknowledging unstable operations. | Projection-to-observed activity bridge and operator reliability boundary. | Comparable denominator, utilization, actual emissions, service continuity, cost or local outcome. |
 | LN12 | Norwegian law provides a route for autonomous coastal navigation in pilotage waters through permission, with the stated requirement that safety be at least as good as using a pilot or qualified navigator. | National legal authorization and equivalence-of-safety principle. | ASKO-specific permit, current operating envelope, enforcement, incident performance or public legitimacy. |
+| LN13 | Kongsberg’s June 2026 account says Yara Birkeland and ASKO Maritime vessels are active daily in the Oslofjord, remotely controlled from land and integrated into a digital logistics chain; it presents observed use as important to building customer and authority trust. | Current vendor-reported operating and digital-integration signal. | ASKO-specific permit, route utilization, crew status, intervention rate, stable-service performance or independent trust evidence. |
+| LN14 | Public company-register-derived financial data for ASKO Maritime reports 2025 revenue of NOK 16.8 million, operating loss of NOK 188.4 million, net loss of NOK 158.1 million and negative equity of NOK 4.9 million; the record does not isolate causes or route economics. | Financial viability warning and a counterweight to technical/green success narratives. | Audited causal attribution to sea drones, parent-company support, route-level cost per trip, subsidy treatment, future solvency or service continuity. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -44,11 +46,15 @@ The worker transition is visible through the Chief-to-Shore project and the thre
 
 The projection-to-observation gap is itself a reliability finding. A planned full-operation capacity or emissions estimate cannot be compared directly with a reported annual truckload count unless the route denominator, voyage schedule, payload, land alternative and energy boundary are explicit. ASKO’s own statement that stable operations remain difficult means the next acquisition should treat utilization and failure recovery as first-order service variables, not as footnotes to autonomy.
 
+The 2026 evidence adds an economic constraint to the same conversion. Kongsberg’s daily-activity account indicates that the corridor is materially integrated into a remote digital logistics chain, but public company-register-derived accounts show substantial ASKO Maritime losses in 2025. That does not prove the vessels caused the loss—financial data may include development, impairment, financing or corporate-allocation effects—but it prevents “operating daily” from being treated as “commercially sustainable.” The next test is route-level cost, asset utilization, parent support, subsidies, maintenance and the cost of reliability recovery.
+
 Geopolitically, the corridor is a small-scale model of resilient regional logistics. It combines Norwegian maritime institutions, Indian-built hulls, Kongsberg autonomy, Massterly operations, ASKO cargo and public investment. Replication therefore depends on a distributed industrial ecosystem: vessel supply, batteries, software, port construction, maritime skills, regulatory approval, data and emergency capacity. The capability is not easily reduced to purchasing an autonomous vessel.
 
 ## Counterexample and source boundary
 
 An electric sea drone, vessel launch, port infrastructure, 9,000 truckloads shifted, 6,000-truckload forecast, 150-truck projection, emissions estimate, autonomous-coastal-navigation permission, remote-operations trial, shore-based approval or “fully electric transport chain” is not by itself stable freight service, food-supply resilience, safe interaction with ferries, verified lifecycle emissions reduction, decent worker transition, affordable logistics, local consent or scalable corridor capability. ASKO’s own 2026 account explicitly keeps stable operation open; projected full-operation benefits cannot be treated as achieved outcomes.
+
+Daily operation and a financial loss should also not be collapsed into a causal verdict. The former shows activity; the latter is a corporate viability warning whose causes require audited notes and route economics. Both are needed to test whether a low-emission corridor can survive without hidden parent subsidy or degraded service.
 
 ## Promotion decision
 
@@ -65,3 +71,5 @@ An electric sea drone, vessel launch, port infrastructure, 9,000 truckloads shif
 - Massterly, [Autonomous shipping projects](https://www.massterly.com/projects)
 - Government of Norway, [Autonomous electric cargo vessels](https://www.regjeringen.no/en/documents/meld.-st.-20-20192020/id2699370/?ch=5)
 - Government of Norway, [Legal basis for autonomous coastal navigation](https://www.regjeringen.no/en/documents/prop.-86-l-20182019/id2640729/?ch=12)
+- Kongsberg Maritime, [Autonomous ships and new regulation for greener freight](https://kommunikasjon.ntb.no/pressemelding/18933414/autonome-skip-og-nytt-regelverk-baner-vei-for-gronnere-godstransport?lang=no&publisherId=17849151)
+- Byggsikt, [ASKO Maritime public-register-derived 2025 accounts](https://www.byggsikt.no/firma/asko-maritime-as-925216534-c1_gyWdspFJ_lAtctPaUgxn5SRYp-909_1GTbIqV54LE_U)
