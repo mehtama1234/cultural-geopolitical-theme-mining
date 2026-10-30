@@ -3845,6 +3845,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 413. **Energy-affordability policy is not safe household energy.** Price forecasts, cooling-demand growth, efficiency incentives, weatherization reach or large affordability support can coexist with unaffordable operation, unsafe indoor conditions, service interruption, food/medicine trade-offs and no durable customer recovery.
 
+414. **Food-market availability is not safe, affordable and culturally usable nutrition.** Healthy-diet cost, market functionality, food-safety guidance, school-food procurement or conflict-price monitoring can reveal system pressure while the named household’s purchase, preparation, safety, diet quality, illness, vendor livelihood and remedy remain unobserved.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3863,7 +3865,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 413 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 414 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 

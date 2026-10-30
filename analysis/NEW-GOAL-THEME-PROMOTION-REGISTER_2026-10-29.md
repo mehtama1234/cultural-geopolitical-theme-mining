@@ -583,6 +583,7 @@ and are not promoted as facts.
 - The climate-relocation packet now includes IDMC’s 2026 displacement scale, U.S. Tribal relocation/cultural-loss evidence, BIA consultations, UNFCCC sustained-finance requirements and Atlantic Canada public-language research; these close scale, choice, finance and meaning mechanisms, not community continuity after a move.
 - The disability-inclusive-warning packet now includes the 2026 warning-to-action gap, Madagascar anticipatory action, El Niño child-risk planning, Timor-Leste risk mapping and Nepal multichannel community warning; these close population, planning and operation signals, not impairment-specific receipt, evacuation, shelter or recovery outcomes.
 - The energy-insecurity packet now includes EIA 2026 price/grid pressure, IEA cooling-demand growth, clean-energy adoption and policy-targeting evidence, and the preliminary subgroup energy-insecurity table; these close system and policy signals, not safe indoor conditions, affordable operation or same-household recovery.
+- The informal-food-market packet now includes SOFI 2026 healthy-diet costs, WFP Armenia/Cambodia market monitoring, UNICEF Indonesia climate-food coherence and WFP Myanmar conflict-price evidence; these close price, value-chain and policy mechanisms, not named household nutrition, safety or vendor livelihood outcomes.
 
 ## Decision
 

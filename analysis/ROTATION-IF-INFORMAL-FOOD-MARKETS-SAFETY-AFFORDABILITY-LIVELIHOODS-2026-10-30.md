@@ -31,14 +31,43 @@ Food-safety enforcement that ignores affordability, water access, vendor finance
 | IF6 | FAO 2025 guidance says traditional markets are associated with 40% of foodborne illness in Viet Nam and links food safety with market management and supportive local governance. | Named risk signal and governance approach. | Causal attribution, current incidence, vendor/consumer behavior or market affordability. |
 | IF7 | UNICEF’s Kenya food-system analysis notes that food safety, physical access and purchasing power shape food acquisition, and that women weigh street-vendor convenience against home preparation, cost, time and water availability. | Consumer decision, gendered time and affordability mechanism. | Market-level contamination, vendor income, diet quality or health outcome. |
 | IF8 | UNICEF’s 2025 child-nutrition reporting flags safety and quality concerns in commercially processed complementary foods, showing that child nutrition requires more than calories or availability. | Child-nutrition quality boundary. | Informal-market exposure, household substitution, affordability, feeding practice or growth outcome. |
+| IF9 | SOFI 2026 reports that the global cost of a healthy diet rose to PPP$4.28 in 2025, 2.69 billion people could not afford one, and post-farmgate processing, logistics and wholesale account for 70–75% of what consumers pay. | Global affordability, diet-quality and value-chain cost mechanism. | Local market price, safety, cultural acceptability, household purchase, diet, illness or vendor margin. |
+| IF10 | WFP’s 2026 Armenia market-price bulletins monitor monthly retail food and non-food prices, exchange rates and purchasing-power implications. | Named recurring market-monitoring and household-purchasing-power route. | Vendor safety, dietary diversity, actual household substitution, food intake or nutrition outcome. |
+| IF11 | WFP’s 2026 Cambodia market and seasonal monitoring tracks food prices and market functionality across ten provinces supporting home-grown school-feeding procurement. | Named subnational price, functionality and public-procurement mechanism. | School-child receipt, meal quality, vendor livelihood, food safety, seasonal affordability or nutrition. |
+| IF12 | UNICEF Indonesia’s 2026 climate-food-systems analysis links rising temperatures, erratic rainfall and extreme events to food insecurity and nutrition risk, while finding limited policy integration across climate, food and nutrition agendas. | Climate-to-food-system and policy-coherence mechanism. | Market-level safety, price, household purchase, child diet, service response or resilience. |
+| IF13 | WFP reports that conflict and fuel shocks in Myanmar in 2026 raised staple prices by 18% nationally, with sharper increases in Magway, Kayin and Rakhine, while humanitarian funding supports food and nutrition response. | Named conflict, fuel, market-price and humanitarian-access mechanism. | Same-household affordability, market safety, culturally adequate diet, vendor survival, receipt and recovery. |
 
 ## Cultural, geographical and geopolitical reading
 
 Markets have local foods, trust relationships, languages and customary practices. Vendor regulation can protect consumers or become a licensing and eviction mechanism. Water scarcity, heat, electricity, conflict and urban density alter contamination risk and storage. Aflatoxin, pesticide residues and imported food standards connect local markets to agriculture, trade and geopolitical supply chains.
 
+The 2026 evidence separates three pressures that are often collapsed into
+“food access.” SOFI identifies the cost structure of a healthy diet and the
+post-farmgate bottleneck; WFP’s Armenia and Cambodia monitoring shows why price
+and market functionality need frequent, subnational observation; and the
+Myanmar case shows how conflict and fuel prices can rapidly alter a basic basket.
+UNICEF Indonesia adds a climate-policy coherence problem: food, nutrition and
+climate plans may acknowledge the same risk without coordinating the market,
+water, transport and household interventions needed to change it.
+
+For informal markets, this means a lower price is not automatically a safer or
+more nutritious choice, and a safer market is not automatically affordable. The
+same vendor may be a livelihood, a trusted cultural food intermediary and a
+possible food-safety risk depending on water, storage, enforcement and the
+consumer’s alternatives. The decisive unit remains a named market/vendor and
+household purchase chain, not a national food-price average.
+
 ## Counterexample and source boundary
 
 An inspection guide or market-cleaning activity is not evidence of safe food at the point of consumption. A hygiene rule can be impossible without water, cold storage or affordable equipment. Consumer demand for safety can conflict with vendor willingness or ability to pay, while stricter enforcement can push vendors into less visible channels. Public evidence closes governance tools, pilots, infrastructure, hazards, consumer constraints and child-nutrition boundaries, but not a comparable vendor/consumer chain through contamination, purchase, illness, livelihood and remedy.
+
+A healthy-diet cost estimate is not the price, safety or cultural acceptability of
+a meal in a named neighborhood. A monthly market bulletin can reveal price
+pressure without showing what households substituted, skipped or safely
+consumed. School-feeding procurement functionality does not establish meal
+quality, vendor income, child receipt or nutrition. Conflict-driven price
+increases do not identify the household, vendor or market-level pathway through
+which food access failed or recovered.
 
 ## Promotion decision
 
@@ -56,3 +85,8 @@ An inspection guide or market-cleaning activity is not evidence of safe food at 
 - FAO, [Risk-based approach for traditional markets](https://www.fao.org/agroecology/new-knowledge-module/publications/detail/1681667/en)
 - UNICEF Kenya, [Food-system landscape for children](https://www.unicef.org/kenya/media/4651/file/Food%20System%20Landscape%20for%20Children%20in%20Kenya%2025%20JUNE%20FINAL_compressed.pdf.pdf)
 - UNICEF, [Child Nutrition Report 2025](https://data.unicef.org/wp-content/uploads/2025/09/Child-Nutrition-Report-2025-Feeding-Profit-English.pdf)
+- FAO, IFAD, UNICEF, WFP and WHO, [State of Food Security and Nutrition in the World 2026](https://data.unicef.org/resources/sofi-2026/)
+- WFP, [Armenia Market Price Monitoring Bulletin](https://www.wfp.org/publications/market-price-monitoring-bulletin-wfp-armenia)
+- WFP, [Cambodia Market and Seasonal Monitoring Update](https://www.wfp.org/publications/wfp-cambodia-market-seasonal-monitoring-update)
+- UNICEF Indonesia, [Climate change, food systems and child nutrition](https://www.unicef.org/indonesia/nutrition/reports/climate-change-food-systems-and-child-nutrition-indonesia)
+- WFP, [Myanmar conflict and food-price crisis](https://www.wfp.org/news/middle-east-crisis-deepens-hunger-myanmar-eu-responds-8-million-urgent-relief)
