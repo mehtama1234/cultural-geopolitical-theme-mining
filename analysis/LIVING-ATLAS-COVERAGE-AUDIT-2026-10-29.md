@@ -2,7 +2,7 @@
 
 **Scope:** cultural, social, geographical, technological and geopolitical
 theme-mining atlas  
-**Baseline:** refreshed through Rotation FL
+**Baseline:** refreshed through Rotation FM
 **Purpose:** verify artifact coverage, index integrity, local link integrity and
 the boundary between the current bounded evidence release and the still-active
 research goal.
@@ -11,12 +11,12 @@ research goal.
 
 | Check | Result | Evidence |
 |---|---:|---|
-| Numbered synthesis propositions | 168 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–168 in strict order |
-| Standard rotation markdown packets | 167 | `analysis/ROTATION-*.md` |
-| Standard rotation CSV ledgers | 167 | `analysis/ROTATION-*.csv` |
-| Register rotation rows | 167 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
-| Local register links | checked after FL; 0 missing | link-target scan of the register |
-| Recent packet CSV shape | six rows and nine fields for FL; all six source IDs present | `ROTATION-FL-AUTONOMOUS-MOBILITY-SAFE-ACCESSIBLE-URBAN-LIFE-2026-10-29.csv` |
+| Numbered synthesis propositions | 169 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–169 in strict order |
+| Standard rotation markdown packets | 168 | `analysis/ROTATION-*.md` |
+| Standard rotation CSV ledgers | 168 | `analysis/ROTATION-*.csv` |
+| Register rotation rows | 168 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
+| Local register links | checked after FM; 0 missing | link-target scan of the register |
+| Recent packet CSV shape | six rows and nine fields for FM; all six source IDs present | `ROTATION-FM-BUILDING-RETROFIT-AFFORDABLE-HEALTHY-HOUSING-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
