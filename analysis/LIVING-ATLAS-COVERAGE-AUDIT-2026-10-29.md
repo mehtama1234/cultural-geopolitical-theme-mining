@@ -19,6 +19,7 @@ research goal.
 | Recent packet CSV shape | twelve rows and nine fields for HC; all twelve source IDs present after named-case refresh | `ROTATION-HC-CONTRACT-MANAGEMENT-PAYMENT-SERVICE-CONTINUITY-2026-10-29.csv` |
 | Refreshed heat packet CSV shape | nine rows and nine fields for HHT; all nine source IDs present after affordability refresh | `ROTATION-X-EXTREME-HEAT-COOLING-PLACE-HEALTH-2026-10-29.csv` |
 | Heat outcome-case CSV shape | twelve rows and nine fields for HHT; all twelve source IDs present after named outcome refresh | `ROTATION-X-EXTREME-HEAT-COOLING-PLACE-HEALTH-2026-10-29.csv` |
+| Energy-affordability refresh CSV shape | eight rows and nine fields for ENR; all eight source IDs present after IEA/EPA refresh | `ROTATION-Z-ENERGY-INSECURITY-UTILITY-DISCONNECTION-HOUSEHOLD-OPTIONS-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 

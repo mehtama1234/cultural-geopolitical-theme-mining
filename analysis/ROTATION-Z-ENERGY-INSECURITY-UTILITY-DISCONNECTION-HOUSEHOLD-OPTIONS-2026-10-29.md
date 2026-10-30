@@ -29,6 +29,9 @@ energy cost/income/weather
 | ENR-003 | [LIHEAP Performance Management data warehouse](https://stage.liheappm.acf.hhs.gov/) | ACF provides state LIHEAP performance data, reports and a data warehouse; FY2025 state data are preliminary and include program-performance measures | Assistance measurement route observed; final validation pending |
 | ENR-004 | [LIHEAP performance-measures guidance](https://stage.liheappm.acf.hhs.gov/performance-measures) | ACF states FY2023–FY2025 performance data are preliminary pending validation and includes energy-burden targeting and billing-reliability measures | Program measurement and uncertainty observed |
 | ENR-005 | [EIA residential electricity price/bill data](https://www.eia.gov/todayinenergy/detail.php?id=65244) | Average U.S. residential electricity price rose from 16.0 cents/kWh in 2023 to 16.5 cents/kWh in 2024; average bills vary materially across states | Price and place variation observed |
+| ENR-006 | [IEA Household Energy Affordability 2026](https://www.iea.org/reports/household-energy-affordability) | More than 120 million households in advanced economies spend over 10% of income on heating, cooling and appliances; only one-third of tracked 2025 affordability policies specifically targeted households most in need | Cross-country affordability and targeting mechanism observed |
+| ENR-007 | [IEA Household Energy Affordability executive summary](https://www.iea.org/reports/household-energy-affordability/executive-summary) | Energy is a major household expense; lower-income households often occupy less efficient homes and face higher energy burdens, while cooling access is increasingly a health issue | Housing-efficiency, cooling and household-budget mechanism observed |
+| ENR-008 | [US EPA extreme heat](https://www.epa.gov/climatechange-science/extreme-heat) | Rising energy costs and older or poorly insulated homes can make cooling increasingly unaffordable; heat also raises electricity demand and can disrupt infrastructure | Weather-to-bill, housing and continuity interaction observed |
 
 ## Stage audit
 
@@ -54,6 +57,13 @@ household-reported consequences. They still do not identify the same account and
 household through notice, disconnection, assistance, reconnection and later
 health or housing outcomes. LIHEAP performance data add an administrative route,
 but preliminary status and aggregate reporting require caution.
+
+The IEA/EPA refresh clarifies that cooling affordability belongs inside the
+energy-insecurity chain but is not equivalent to a heat-health outcome. A policy
+can lower bills through efficiency while leaving high-risk households excluded;
+an AC or fan can reduce heat exposure while increasing electricity demand or
+bill stress; and an efficient home can still lose protection during an outage or
+when the tenant cannot control equipment or repairs.
 
 ## Cultural and geographical meaning
 

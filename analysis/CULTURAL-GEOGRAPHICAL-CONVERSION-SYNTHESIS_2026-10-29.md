@@ -628,6 +628,13 @@ The same-account/same-household bridge remains open: a reconnection may restore
 service while debt, unhealthy temperature, food/medicine sacrifice, care
 disruption or repeat shutoff continues.
 
+The energy-affordability refresh adds IEA and EPA evidence that lower-income
+households' housing efficiency, cooling access, bill burden and exposure to heat
+interact. This deepens the energy-security mechanism but does not merge it with
+the heat packet: a lower bill, efficient appliance, reconnection or outage
+response remains distinct from safe indoor conditions, care continuity and
+durable household agency.
+
 ## Cross-domain evidence matrix
 
 | Domain | Encounter unit | Burden/effort | Voice/correction | Material endpoint | Cultural/geopolitical meaning |
