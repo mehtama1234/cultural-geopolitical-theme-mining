@@ -1,0 +1,58 @@
+# Rotation KA — Lunar resources, heritage and benefit governance
+
+**Date:** 2026-10-30  
+**Research question:** As governments and companies prepare to operate near the lunar south pole and use lunar resources, will activity create shared scientific and human benefit under transparent rules—or produce de facto exclusion, heritage damage, environmental degradation, liability gaps and a new geography of strategic control?
+
+## Why this packet matters
+
+The Moon is becoming an operating environment rather than only a destination. Water ice, landing zones, communications, science sites and heritage locations are finite or spatially concentrated. A mission, safety zone, extraction test or international accord may reduce immediate interference while leaving unresolved who decides, who benefits, who bears risk and how future generations’ scientific, cultural and environmental interests are represented.
+
+```text
+mission / landing site / resource / infrastructure / heritage location
+  -> information sharing, deconfliction, licensing and international norms
+  -> access, extraction, exclusion zone, data, liability and environmental effect
+  -> science, commercial value, national capability and cultural meaning
+  -> legitimate shared use, benefit distribution and durable lunar stewardship
+```
+
+## Evidence ledger
+
+| ID | Named evidence | What it closes | What it does not close |
+|---|---|---|---|
+| KA1 | NASA’s Artemis Accords identify peaceful exploration, transparency, interoperability, scientific-data release, heritage preservation, resource use and deconfliction as governance principles. | Normative operating framework. | Binding global law, enforcement, benefit distribution or consent of non-signatories. |
+| KA2 | NASA states that resource extraction and utilization can support safe and sustainable exploration, while its Moon Base material describes increasing activity near the south pole and the need to prevent interference. | Resource-use rationale and location-specific coordination need. | Sustainable extraction, equitable access, environmental impact or long-term stewardship. |
+| KA3 | UNOOSA’s lunar-policy materials identify unresolved issues around resource regulation, non-appropriation, property claims, environmental protection, waste, heritage, scientific cooperation and interoperability. | Multilateral issue map and governance gaps. | Agreed rules, dispute settlement, liability allocation or implementation. |
+| KA4 | UNOOSA’s 2025 Lunar Policy Priorities Report records actor calls for legal clarity, special-location and heritage mechanisms, and shared liability/dispute procedures, while noting divergent interests between scientific and commercial actors. | Named stakeholder conflict and institutional design problem. | Consensus, legitimacy, operational compliance or benefit sharing. |
+| KA5 | A 2025 UNOOSA/COPUOS paper frames lunar-resource governance as requiring legal clarification, environmental sustainability, knowledge sharing, international cooperation, capacity building and access-and-benefit-sharing capability. | Capacity and benefit-sharing pathway. | Actual access for emerging space actors, financial benefit or technology transfer. |
+| KA6 | NASA’s lunar landing policy analysis says heritage protection requires identifying sites and developing protective measures, and notes the absence of a formal international or domestic process for future-site identification. | Heritage-protection implementation gap. | Complete heritage inventory, neutral designation authority or enforceable protection. |
+| KA7 | NASA’s Moon Base FAQ describes active site assessment, overlapping interest near the south pole, information sharing and coordination with international and commercial partners. | Named operational planning and overlap risk. | Fair allocation, non-exclusion, local/global legitimacy or future conflict avoidance. |
+| KA8 | The 2026 COPUOS transcript reports progress on draft principles for space-resource activities and continuing governance challenges as lunar and in-orbit activity expands. | Current multilateral process and governance momentum. | Final principles, binding obligations, implementation, liability or durable legitimacy. |
+
+## Cultural, geographical and geopolitical reading
+
+The lunar south pole is a geography of scarcity. Locations with favorable illumination, access to water ice or communications value can attract multiple actors. “Safety zones” and coordination areas may prevent harmful interference, but they can also function as temporary exclusion if their duration, extent, transparency and review are not clear. The difference between coordination and control is therefore a central legitimacy question.
+
+Heritage is broader than the Apollo landing sites. Scientific locations, future landing sites, artifacts from many nations and the lunar environment itself can acquire cultural meaning. Protection cannot be reduced to a private operator’s operating procedure; it requires a credible process for identifying what deserves protection and who participates in that decision.
+
+The geopolitical opportunity is shared capability: open scientific data, interoperable systems, capacity building, transparent registration, benefit sharing and participation by countries that cannot independently land or extract. The risk is a first-mover settlement in which national law, commercial capital and technical infrastructure establish practical control before multilateral rules mature. Lunar governance should therefore be judged by access, reversibility, accountability and distributive benefit—not by the number of signatories, missions or announcements.
+
+## Counterexample and source boundary
+
+An Artemis Accords signature, mission, landing, resource prospect, extraction demonstration, safety zone, heritage guideline, data release, national law, investment or draft UN principle is not by itself equitable access, sustainable extraction, protected heritage, environmental safety, liability clarity, benefit sharing, scientific openness or legitimate shared governance. Coordination language can coexist with exclusion; open data can coexist with concentrated infrastructure; and a draft principle can remain non-binding.
+
+## Promotion decision
+
+**Tier 1 bounded finding:** Lunar activity is moving from exploration toward an operating governance problem, but principles, missions and resource-use plans remain separate from fair access, heritage protection, environmental stewardship, liability, benefit sharing and durable legitimacy.
+
+**Tier 2 mechanism candidate:** The next high-value conversion is **lunar-activity-to-shared-access-heritage-protection-environmental-stewardship-and-benefit-legitimacy**. The strongest next acquisition is a named site/mission/operator chain linking location, resource, license or accord, safety zone, data, infrastructure, affected scientific/cultural interest, environmental indicator, liability rule, benefit recipient and later compliance or dispute outcome.
+
+## Sources
+
+- NASA, [Artemis Accords](https://www.nasa.gov/artemis-accords.-/)
+- NASA, [Moon Base frequently asked questions](https://www.nasa.gov/moon-base-frequently-asked-questions/)
+- UNOOSA, [Potential topics for lunar activities](https://www.unoosa.org/documents/pdf/copuos/ATLAC/Potential_Topics_7Febr2025_20250303_Potential_topics_5_Februar_Rev_1_UB_rev_clean.pdf)
+- UNOOSA, [Lunar Policy Priorities Report](https://www.unoosa.org/res/oosadoc/data/documents/2025/aac_1052025crp/aac_1052025crp_11_0_html/AC105_2025_CRP11E.pdf)
+- UNOOSA, [Space-resources governance paper](https://www.unoosa.org/res/oosadoc/data/documents/2025/aac_1052025crp/aac_1052025crp_18_0_html/AC105_2025_CRP18E.pdf)
+- NASA, [Lunar Landing and Operations Policy Analysis](https://www.nasa.gov/wp-content/uploads/2022/10/lunar_landing_and_operations_policy_analysis_final_report_24oct2022_tagged_0.pdf)
+- United Nations, [2026 COPUOS space-resources discussion](https://transcripts.un.org/en/asset/k1g/k1giatwpoo)
+
