@@ -31,6 +31,9 @@ climate shock or slow-onset loss
 | World Bank Loss and Damage Fund | The Fund seeks new, additional, predictable and adequate resources for vulnerable developing countries. | institutional objective and fiduciary route | funds out the door, local control, non-economic loss and durable recovery |
 | World Bank climate-finance data | FY25 climate finance and adaptation financing increased, with regional distribution across low- and middle-income countries. | portfolio scale and allocation measurement | project-level access, outcomes, additionality and household/community benefit |
 | World Bank locally led adaptation evidence | Local actors often receive limited resources; locally led planning and decision authority can improve fit and resilience while reducing maladaptation risk. | local-governance mechanism and evidence direction | sustained local control, measurable adaptation, cultural continuity and equity |
+| Ghana LoCAL-ACE | UNCDF reports a completed four-year Norway-funded programme that channelled finance through six local-government systems, reached more than 69,000 people and financed 35 climate-resilient infrastructure and circular-economy investments, including more than 34,000 women beneficiaries. | Named local-government channel, implementation and beneficiary/investment outputs. | Attribution of resilience, livelihood and cultural outcomes, maintenance, grievance response or post-program financing. |
+| Fiji Climate Catalytic Fund | Fiji and IOM launched a 2026 fund aimed at communities facing climate impacts and displacement, prioritizing Ba and Macuata and providing hands-on proposal support for flood, coastal, livelihood and nature-based measures. | Direct-access design and community proposal-support mechanism. | Approved/disbursed grants, project completion, relocation/stay outcomes, affordability, equity or community-defined recovery. |
+| Kenya FLLoCA | Kenya’s National Treasury describes a USD 294 million, 2022–2027 programme across all 47 counties that empowers wards to plan, budget, implement and monitor climate actions through county systems. | Nationally embedded locally led finance architecture and coverage. | Ward-level disbursement timing, project completion, maintenance, outcome distribution and grievance/remedy. |
 
 ## Stage audit
 
@@ -67,6 +70,8 @@ can protect income while damaging burial grounds, language, social networks or
 sovereignty. Adaptation finance therefore has to be assessed through the route
 from global commitment to local decision and lived continuity.
 
+The new place-based evidence shows that the conversion can close more stages than a global pledge. Ghana’s LoCAL-ACE case reports money channelled through local government, named investments and beneficiary reach; Kenya’s FLLoCA embeds planning and budgeting across all 47 counties; Fiji’s Climate Catalytic Fund lowers proposal-writing barriers for communities facing displacement. These are stronger than commitment-only evidence, but they still stop short of proving durable resilience, maintained assets, cultural continuity or grievance resolution. The useful distinction is between access architecture, funded outputs and lived recovery.
+
 Small island states, fragile and conflict-affected places, Indigenous and
 low-income communities may face the highest climate exposure and the highest
 borrowing or administrative barriers. “Access” must include grant versus debt,
@@ -83,6 +88,10 @@ solution preserves the option to stay, move safely or maintain cultural ties.
   and accountable measurement still matter.
 - A pledge shortfall does not prove that a fund will fail; it identifies an open
   conversion stage.
+- A local-government channel or beneficiary count does not prove that assets are
+  maintained, risks reduced, livelihoods restored or cultural loss addressed.
+- Proposal support and a community-focused fund do not prove grants were approved,
+  disbursed on time or sufficient for people who stay or move.
 
 ## Promotion decision
 
@@ -106,3 +115,6 @@ cultural outcome, and grievance response.
 3. [World Bank Fund for Responding to Loss and Damage](https://www.worldbank.org/en/programs/funding-for-loss-and-damage/about)
 4. [World Bank Climate Finance 2025](https://thedocs.worldbank.org/en/doc/af985cf92e8b967ba707f43fb2dd9de7-0320012025/original/FY25-Project-Level-WB-CCB-data.pdf)
 5. [World Bank locally led climate action](https://www.worldbank.org/en/results/2024/11/19/scaling-up-locally-led-climate-action-to-enable-community-resilience)
+6. [Kenya National Treasury — Financing Locally-Led Climate Action](https://fsad.treasury.go.ke/projects/flloca)
+7. [UNCDF Ghana LoCAL-ACE results](https://www.uncdf.org/article/9300/norway-funded-climate-initiative-by-uncdf-surpasses-targets-in-ghana-proving-power-of-locally-led-adaptation)
+8. [Fiji Climate Catalytic Fund](https://www.fiji.gov.fj/ccf-launched/)

@@ -3767,6 +3767,12 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 374. **Modal shift can reduce road exposure while relocating risk and cost to ports, water users and remote operations.** Grocery or residual-material benefits require a whole-corridor account covering ferry interaction, charging, emergency response, worker authority, local exposure, customer continuity and the counterfactual land route.
 
+375. **Climate-finance evidence becomes materially stronger when it names the local channel, investment and beneficiary, but outputs are still not recovery.** Ghana’s completed LoCAL-ACE programme, Kenya’s ward-based FLLoCA architecture and Fiji’s community proposal-support fund close access and implementation stages while leaving maintenance, risk reduction, cultural continuity, displacement choice and grievance open.
+
+376. **Local-government intermediation can be a route to power or another bottleneck.** Embedding funds in county and municipal systems may improve accountability and scale, but the decisive test remains ward-level disbursement timing, local decision authority, procurement, maintenance and whether affected people can challenge or redirect the investment.
+
+377. **Climate justice requires distinguishing people reached from people protected.** Beneficiary counts, women’s participation, infrastructure completions and proposal support are valuable distributional signals, but they do not establish reduced exposure, restored livelihoods, non-economic-loss protection or durable place and cultural continuity.
+
 ## What the evidence does not support
 
 Do not claim that:
