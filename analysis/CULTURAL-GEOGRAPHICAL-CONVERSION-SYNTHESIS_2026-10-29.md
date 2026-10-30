@@ -3535,6 +3535,10 @@ The KF follow-up adds an **SRM-research-to-cross-regime-assessment-and-non-deplo
 
 The KB follow-up adds a **quantum-sensing-to-terrestrial-deployment-space-qualification-and-off-Earth-infrastructure** distinction. UK evidence closes a defense PNT trial and civilian/dual-use commercialization portfolio; ESA closes an explicit orbit-qualification bottleneck; and NIST closes a named lunar timing/navigation concept. These broaden the strategic map, but no public source here closes a sensor/platform/place chain through calibration, service continuity, equitable access, accountable data governance and verified public outcomes.
 
+309. **A public eDNA dataset, national research indicator, autonomous sampler, high-frequency signal, validated assay, range-wide survey design or conventional-sampling comparison is not by itself species abundance, local presence, eradication, ecosystem recovery, fisheries benefit, public-health protection, enforcement legitimacy or community consent.** NOAA explicitly describes eDNA as complementary to conventional sampling; EPA still classifies its aquatic use as a research indicator; and USGS reports temporal variability associated with discharge and turbidity.
+
+The KD follow-up adds an **eDNA-signal-to-open-national-monitoring-hydrological-validation-and-locally-legitimate-action** distinction. NOAA closes an open deep-ocean data workflow, EPA closes national survey integration, USGS closes a high-frequency sampling/confounding boundary, and the sawfish assay closes a validated cross-range method pathway. These show institutional scale-up without closing the chain through abundance, proportionate intervention, community authority, recovery or livelihood outcome.
+
 ## What the evidence does not support
 
 Do not claim that:
