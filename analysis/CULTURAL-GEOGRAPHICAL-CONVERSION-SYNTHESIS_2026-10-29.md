@@ -3801,6 +3801,12 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 391. **A relocated house is not a relocated community.** Durable continuity requires functioning services, livelihood access, social networks, customary and intergenerational authority, cultural sites, host-community legitimacy, return or mobility options and a remedy pathway after the project is declared complete.
 
+392. **A reported insurance payout is not the same as a farmer receiving usable protection.** Aggregate claims, digital settlement capacity and sovereign payouts close a transfer or system-capacity signal; they do not close same-farmer receipt, timing, adequacy, basis-risk fit or recovery.
+
+393. **Climate insurance converts loss into protection only when the trigger and the last mile close together.** Area-based rules, individual assessments, payment penalties and risk pools matter, but the decisive chain remains local loss, eligibility, claim or automatic trigger, receipt before harmful coping, food/debt/input choice and durable recovery.
+
+394. **Administrative digitization can reveal geography without resolving justice.** District-level pending, rejected and returned claims make operational variation visible, but disposal rates and portal activity do not establish claim value, appeal quality, farmer agency, household recovery or trust to renew.
+
 ## What the evidence does not support
 
 Do not claim that:
