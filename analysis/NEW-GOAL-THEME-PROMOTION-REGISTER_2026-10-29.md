@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29  
 **Purpose:** integrate the cross-rotation portfolio and the named conversion packets into one research-control register  
-**Status:** promotion-controlled living atlas; refreshed through Rotation HK; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
+**Status:** promotion-controlled living atlas; refreshed through Rotation HL; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
 
 ## Executive decision
 
@@ -433,6 +433,8 @@ and are not promoted as facts.
 | [Forced-labour due diligence/worker remedy rotation](ROTATION-HJ-FORCED-LABOUR-DUE-DILIGENCE-WORKER-REMEDY-2026-10-30.md) | labour/supply chains/trade/geopolitics/migration/worker agency/recruitment debt/documents/wages/hours/movement/grievance/remedy/shipments/borders/buyers/suppliers/informal tiers/Top Glove/Zhen Fa 7/Egypt/Uganda | medium; ILO forced-labour indicators and handbook, OECD remedy and implementation gaps, CBP named Zhen Fa 7 WRO, ILO Top Glove remediation case, Egypt assessment and Uganda community-monitoring/referral case, EU due-diligence architecture | risk signal, indicators, due diligence, grievance infrastructure, supplier monitoring, WRO/seizure/release, named remediation and referral operation | worker identity, safe disclosure, retaliation, remedy receipt, freedom, wages, livelihood, voice, commercial-practice change, recurrence and local legitimacy | Tier 1 bounded distinction plus Tier 2 forced-labour-to-safe-recovery-and-non-recurrence question |
 
 | [Cross-border student mobility/belonging/skills rotation](ROTATION-HK-CROSS-BORDER-STUDENT-MOBILITY-BELONGING-SKILLS-2026-10-30.md) | education/migration/culture/labour/housing/geography/international enrolment/visa/fees/language/family/disability/progression/completion/work rights/retention/return/belonging/reciprocity | medium; OECD and UNESCO mobility scale and policy-package evidence plus named UK Graduate-route work, retention, policy-change and self-reported integration evidence | enrolment, destination concentration, visa, policy package, progression, completion, route transition, employment and reported integration | student housing, safety, support use, debt, learning, work quality, discrimination, independent belonging, local reciprocity, return, retention and long-run capability | Tier 1 bounded distinction plus Tier 2 cross-border-student-to-reciprocal-capability question |
+
+| [AMR surveillance/equitable treatment rotation](ROTATION-HL-AMR-SURVEILLANCE-EQUITABLE-TREATMENT-2026-10-30.md) | antimicrobial resistance/health security/geopolitics/public health/local capability/One Health/laboratories/diagnostics/stewardship/medicines/supply/access/conflict/displacement | medium; WHO global resistance and GLASS evidence, updated 2026–2036 global action plan, named Kenya/Rwanda/Sierra Leone surveillance cases, CDC XDR Salmonella case, UN mandate and AWaRe availability signal | resistance prevalence, reporting coverage, GLASS architecture, global governance, named laboratory capacity, clinical treatment boundary and medicine availability concerns | patient diagnosis, stock, price, prescription, dispensing, completion, recovery, recurrence, peripheral access, mortality and local legitimacy | Tier 1 bounded distinction plus Tier 2 AMR-signal-to-equitable-treatment-and-local-health-security question |
 
 ## Decision
 

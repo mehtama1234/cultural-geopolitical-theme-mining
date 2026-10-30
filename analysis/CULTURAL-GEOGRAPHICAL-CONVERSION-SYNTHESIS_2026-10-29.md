@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HK
+**Date:** 2026-10-30; refreshed through Rotations D–HL
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3167,6 +3167,10 @@ The HJ packet adds **forced-labour-due-diligence-to-safe-worker-recovery-and-non
 
 The HK packet adds **cross-border-student-mobility-to-reciprocal-capability-and-belonging conversion** with a source boundary around origin, destination, institution, programme, fee, funding, visa, language, housing, family, support, progression, completion, debt, work quality, safety, belonging, complaint, return and local relationship. OECD and UNESCO establish scale, concentration and policy-package mechanisms; UK administrative and evaluation sources add named work, retention, policy-change and self-reported integration signals. These close mobility and some transition stages, but no public source here closes a comparable cohort chain from arrival through housing, learning, independent belonging, decent work and reciprocal capability.
 
+217. **An antimicrobial-resistance estimate, GLASS submission, laboratory training, national action plan, stewardship rule, AWaRe classification, susceptibility-guided recommendation, medicine-availability concern or global target is not by itself timely effective treatment, affordability, adherence, recovery, survival, equitable access or durable local health security.** Better surveillance can reveal inequality without removing it; stewardship can preserve antibiotics while a patient lacks diagnosis or stock; and a global plan can coexist with peripheral facilities, displaced people or conflict-affected communities outside the data and care pathway.
+
+The HL packet adds **AMR-signal-to-equitable-treatment-and-local-health-security conversion** with a source boundary around specimen, pathogen, resistance, diagnosis, laboratory, facility, geography, medicine, stock, price, prescription, dispensing, adherence, referral, outcome and recurrence across human, animal, plant and environmental systems. WHO supplies global surveillance, governance and named African capacity cases; CDC supplies a current XDR clinical boundary; the UN supplies the geopolitical review clock; and WHO AWaRe supplies availability concerns. These close measurement, governance and parts of clinical decision stages, but no public source here closes a comparable patient or cohort chain through receipt, completion, recovery and equity.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3203,7 +3207,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HK.
+living goal. The current atlas baseline has been refreshed through Rotation HL.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
