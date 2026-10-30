@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HQ
+**Date:** 2026-10-30; refreshed through Rotations D–HR
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3191,6 +3191,10 @@ The HP packet adds **compute-controls-to-qualified-local-capability-and-geopolit
 
 The HQ packet adds **data-centre-buildout-to-legitimate-place-benefit conversion** with a source boundary around facility, permit, owner, construction, load, power, water, cooling, emissions, noise, traffic, housing, jobs, wages, taxes, grid investment, outages, emergency services, Tribal/community voice, complaints, mitigation, benefit-sharing and support. IEA supplies global demand, investment and community-risk signals; DOE supplies national scenarios and dynamic-load mechanisms; EPA supplies local governance and site-planning pathways; and GAO supplies a disclosure boundary. These close demand, risk and mitigation-design stages, but no public source here closes a comparable facility/place chain through burden, influence, benefit and durable legitimacy.
 
+223. **A desalination plant, reuse facility, treated-volume statistic, microbial target, water-reuse policy, energy-efficient membrane, circularity claim, demonstration project or installed capacity is not by itself safe affordable delivered water, household health, drought resilience, ecosystem protection, cultural acceptance, equitable distribution or basin security.** Capacity can be disconnected from a network; treated water can be fit for one use but not another; and new supply can reduce scarcity for one customer while shifting energy, tariff, brine or governance burdens to another place.
+
+The HR packet adds **new-water-to-equitable-basin-security-and-legitimacy conversion** with a source boundary around plant, basin, source, treatment, energy, quality, brine/effluent, permit, uptime, network, tariff, household receipt, income, language, trust, outage, ecosystem, complaint, remedy and distribution. IEA supplies global stress, capacity and energy evidence; EPA supplies reuse governance, risk targets and named examples; World Bank supplies governance and adoption boundaries; and UN-Water supplies circularity potential. These close technology, policy and opportunity stages, but no public source here closes a comparable plant-to-customer-and-basin chain through affordability, safety, ecology and legitimacy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3227,7 +3231,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HQ.
+living goal. The current atlas baseline has been refreshed through Rotation HR.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,

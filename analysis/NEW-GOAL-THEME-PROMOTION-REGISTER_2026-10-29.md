@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29  
 **Purpose:** integrate the cross-rotation portfolio and the named conversion packets into one research-control register  
-**Status:** promotion-controlled living atlas; refreshed through Rotation HQ; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
+**Status:** promotion-controlled living atlas; refreshed through Rotation HR; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
 
 ## Executive decision
 
@@ -445,6 +445,8 @@ and are not promoted as facts.
 | [AI-compute controls/local capability/geopolitical access rotation](ROTATION-HP-AI-COMPUTE-CONTROLS-LOCAL-CAPABILITY-GEOPOLITICAL-ACCESS-2026-10-30.md) | technology/semiconductors/AI infrastructure/geopolitics/industrial policy/competition/export controls/licensing/chips/fabs/cloud/energy/water/skills/sovereign compute/qualification/market concentration | medium; BIS current licensing/control architecture, OECD AI market/compute concentration and geographic availability, GAO named semiconductor awards, OECD sovereign-compute cases, DOE R&D mechanism and multilevel competition boundary | control policy, licensing safeguards, market concentration, compute-zone availability, public awards, intended capacity, sovereign strategy and R&D mechanism | actual approvals/end use, operating fabs, qualification/yield, affordable access, user eligibility, energy/water, contestability, jobs, innovation and public value | Tier 1 bounded distinction plus Tier 2 compute-controls-to-qualified-local-capability question |
 
 | [AI data-centre/local water-energy legitimacy rotation](ROTATION-HQ-AI-DATA-CENTRE-LOCAL-WATER-ENERGY-LEGITIMACY-2026-10-30.md) | technology/infrastructure/energy/water/place/community legitimacy/data centres/AI loads/grids/cooling/emissions/air/water/housing/noise/traffic/Tribes/permits/benefit-sharing/resident voice | medium; IEA global energy/investment and community-risk evidence, DOE national demand/resource/grid mechanisms, EPA community and brownfield guidance, GAO disclosure gap | demand forecast, investment, site, permit, power, water, cooling, emissions, governance dialogue, mitigation option and technical grid mechanism | facility load, household price, water allocation/return, reliability, air quality, housing, jobs, taxes, infrastructure contribution, Tribal/community influence, complaint, remedy and durable support | Tier 1 bounded distinction plus Tier 2 data-centre-buildout-to-legitimate-place-benefit question |
+
+| [Water reuse/desalination/affordable security rotation](ROTATION-HR-WATER-REUSE-DESALINATION-AFFORDABLE-SECURITY-2026-10-30.md) | water/infrastructure/climate/energy/public health/culture/geography/desalination/reuse/treatment/brine/effluent/tariff/quality/trust/basin/ecosystem/household/farm/industry | medium; IEA global stress, desalination capacity and energy nexus, EPA WRAP 2.0 policy/facility/examples, World Bank governance and reuse-scale evidence, UN-Water circularity opportunity | stress, plant, treatment, energy, policy, risk target, reuse volume, named end uses, governance and opportunity signal | uptime, quality, brine/effluent, network, tariff, household receipt, affordability, health, ecosystem, distribution, complaint, remedy and basin legitimacy | Tier 1 bounded distinction plus Tier 2 new-water-to-basin-security-and-legitimacy question |
 
 ## Decision
 
