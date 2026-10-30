@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IQ
+**Date:** 2026-10-30; refreshed through Rotations D–IR
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3294,6 +3294,10 @@ The IP packet adds **Indigenous-language-policy-to-everyday-use-service-access-a
 248. **A language speaker count, school-enrollment figure, teacher-development programme, statutory target, staff-language register, community media centre or language dashboard is not by itself proficiency, daily use, accurate service access, family transmission, cultural authority or durable vitality.** A rise in learners can coexist with low daily use; a statutory target can coexist with missing social spaces; and staff capability can coexist with a failed care encounter.
 
 The IQ packet adds **language-revitalization-policy-to-same-family-daily-use-service-access-and-transmission conversion** with a source boundary around family/cohort, home language, school pathway, proficiency, peer/community spaces, service encounter, media use, identity, youth uptake and repeat intergenerational transmission, with community-controlled definitions of success. New Zealand supplies state-of-language, Māori schooling, teacher-evaluation and Te Mātāwai outcome systems; Wales supplies population, daily-use, geography, statutory education/social-space and social-care workforce measures; Australia supplies a community-language outcome and data-governance framework. These close named measurement and intervention pathways, but no public source here closes a comparable same-family chain through repeated home use, service access, youth uptake and durable transmission.
+
+249. **A cultural-property return, repatriation ceremony, title transfer, provenance study, museum inventory, mediation process or digital record is not by itself community repair, cultural authority, spiritual safety, living practice, reconciliation or durable trust.** A state can receive an object while the relevant community remains excluded from custody; an inventory can support accountability while exposing painful information; and a returned object can remain disconnected from language, ceremony, care and everyday cultural life.
+
+The IR packet adds **heritage-restitution-to-community-controlled-repair-and-living-cultural-continuity conversion** with a source boundary around object/remains, provenance, claimant authority, consent, return, custody, ceremony, language, access, interpretation, care, reburial/display choice, youth participation, healing and repeated cultural practice. UNESCO supplies the Southern Africa healing frame, Ecuador and Swiss-Greek named returns, regional diplomacy, mediation/conciliation, legal boundaries and community-informed measurement; UK guidance supplies human-remains provenance and ethical-care constraints. These close normative repair, provenance, transfer, diplomacy, dispute, legal, care and measurement stages, but no public source here closes a comparable community chain through decision power, custody, ceremony, healing and durable cultural governance.
 
 ## What the evidence does not support
 
