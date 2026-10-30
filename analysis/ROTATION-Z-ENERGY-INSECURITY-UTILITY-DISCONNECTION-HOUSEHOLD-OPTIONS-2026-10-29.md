@@ -32,6 +32,11 @@ energy cost/income/weather
 | ENR-006 | [IEA Household Energy Affordability 2026](https://www.iea.org/reports/household-energy-affordability) | More than 120 million households in advanced economies spend over 10% of income on heating, cooling and appliances; only one-third of tracked 2025 affordability policies specifically targeted households most in need | Cross-country affordability and targeting mechanism observed |
 | ENR-007 | [IEA Household Energy Affordability executive summary](https://www.iea.org/reports/household-energy-affordability/executive-summary) | Energy is a major household expense; lower-income households often occupy less efficient homes and face higher energy burdens, while cooling access is increasingly a health issue | Housing-efficiency, cooling and household-budget mechanism observed |
 | ENR-008 | [US EPA extreme heat](https://www.epa.gov/climatechange-science/extreme-heat) | Rising energy costs and older or poorly insulated homes can make cooling increasingly unaffordable; heat also raises electricity demand and can disrupt infrastructure | Weather-to-bill, housing and continuity interaction observed |
+| ENR-014 | [EIA Short-Term Energy Outlook, October 2026](https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php) | EIA reports higher wholesale prices after weather events and heat, with residential electricity prices and grid-upgrade costs affected by extreme weather and rising demand | Current price/grid pressure signal | Same-household bill, indoor temperature, appliance use, assistance, health and disconnection remain open |
+| ENR-015 | [IEA Cooling a hotter world](https://www.iea.org/commentaries/cooling-a-hotter-world-el-nino-meets-strong-growth-in-global-electricity-demand) | IEA reports global space-cooling demand around 2,900 TWh, cooling responsible for 14% of electricity-demand growth since 2015, and governments introducing 2026 cooling measures amid affordability pressure | Cooling-demand, system-pressure and policy mechanism | Whether vulnerable households gain affordable cooling, safe temperature, lower health risk or avoid bill stress |
+| ENR-016 | [IEA Best Practices for clean-energy access and adoption](https://www.iea.org/reports/best-practices-and-insights-to-expand-clean-energy-access-and-adoption) | IEA’s 2026 review links affordability, fairness, public engagement, infrastructure and targeted measures to durable clean-energy adoption rather than relying on individual behaviour alone | Policy and adoption architecture | Household take-up, rent/ownership control, bill impact, maintenance, trust and long-term access |
+| ENR-017 | [IEA State of Energy Policy 2026](https://www.iea.org/reports/state-of-energy-policy-2026/executive-summary) | IEA reports about USD 220 billion in household energy-affordability support during 2022–2023 and says emergency measures were often not targeted to those most in need; 2026 fiscal and geopolitical pressures remain high | Scale and targeting counterexample | Named recipient adequacy, repeat affordability, health, energy access and distributional incidence |
+| ENR-018 | [EIA 2024 household energy-insecurity preliminary release](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf) | EIA’s March 2026 preliminary release disaggregates food/medicine sacrifice, unhealthy temperature, disconnection notices and inability to use heating or air-conditioning equipment by income and household characteristics | Current subgroup measurement route | Validated account event, duration, indoor measurement, assistance, health and later stability |
 
 ## Stage audit
 
@@ -64,6 +69,18 @@ can lower bills through efficiency while leaving high-risk households excluded;
 an AC or fan can reduce heat exposure while increasing electricity demand or
 bill stress; and an efficient home can still lose protection during an outage or
 when the tenant cannot control equipment or repairs.
+
+The 2026 evidence makes the supply-to-household tension more explicit. EIA
+projects residential electricity prices of about 18.2 cents/kWh in 2026 and
+attributes regional pressure partly to fuel, extreme-weather resilience and
+large-load/grid-upgrade costs. IEA simultaneously reports cooling demand at
+roughly 2,900 TWh and multiple governments introducing cooling measures. These
+are system-level facts, not proof that a particular household can afford a fan,
+air-conditioner, insulation, repair or the electricity needed to operate it.
+The policy lesson is distributional: untargeted affordability support and
+efficiency incentives may lower aggregate pressure while missing renters,
+low-income homes, people with medical cooling needs and households without
+control over building upgrades.
 
 ## Named-case refresh
 
@@ -129,6 +146,12 @@ optionality, but only if the household can access, own, operate and maintain it.
   same-household receipt, adequacy or later stability.
 - State price and bill differences do not identify the causes of household burden
   without income, housing, weather, equipment and tariff context.
+- A forecasted price increase or cooling-demand statistic is not a household
+  bill, indoor temperature or health outcome.
+- Aggregate energy-affordability support can be large while the most vulnerable
+  households remain untargeted or unable to access retrofits.
+- Lower system demand or efficient equipment does not establish that tenants can
+  install, operate, repair or afford the equipment.
 
 ## Promotion decision
 
@@ -143,4 +166,12 @@ continuity, trust and long-term optionality as Tier 2. The next decisive test is
 a same-account/same-household ledger linking notice, arrears, disconnection,
 assistance, reconnection, indoor conditions, essential trade-offs and later
 security.
+
+## 2026 refresh sources
+
+- [EIA Short-Term Energy Outlook, October 2026](https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php)
+- [IEA: Cooling a hotter world](https://www.iea.org/commentaries/cooling-a-hotter-world-el-nino-meets-strong-growth-in-global-electricity-demand)
+- [IEA: Best practices to expand clean-energy access and adoption](https://www.iea.org/reports/best-practices-and-insights-to-expand-clean-energy-access-and-adoption)
+- [IEA: State of Energy Policy 2026](https://www.iea.org/reports/state-of-energy-policy-2026/executive-summary)
+- [EIA: 2024 household energy-insecurity table](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
 

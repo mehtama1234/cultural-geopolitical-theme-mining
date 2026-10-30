@@ -3843,6 +3843,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 412. **An early warning received is not an accessible protective action.** Population-level warning coverage, multichannel design, child-risk mapping or inclusive anticipatory-action protocols can coexist with disability-specific barriers in comprehension, transport, assistance, shelter, medication, service continuity and recovery voice.
 
+413. **Energy-affordability policy is not safe household energy.** Price forecasts, cooling-demand growth, efficiency incentives, weatherization reach or large affordability support can coexist with unaffordable operation, unsafe indoor conditions, service interruption, food/medicine trade-offs and no durable customer recovery.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3861,7 +3863,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 412 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 413 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 

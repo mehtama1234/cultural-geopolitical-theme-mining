@@ -1,7 +1,7 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 306 unique registered packet paths, 311 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 412, and the latest rotations through AG, EN, IB, HW, KC, KK, KF, JZ and LS, with current 2026 digital-identity, G2P, climate-relocation and disability-inclusive-warning evidence integrated.
+**Inputs:** 306 unique registered packet paths, 311 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 413, and the latest rotations through AG, EN, IB, HW, KC, KK, KF, JZ, LS and Z, with current 2026 digital-identity, G2P, climate-relocation, disability-inclusive-warning and energy-affordability evidence integrated.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
