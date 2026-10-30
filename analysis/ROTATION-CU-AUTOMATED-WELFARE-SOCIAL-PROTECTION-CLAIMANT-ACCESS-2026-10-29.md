@@ -32,6 +32,11 @@ need, shock, household, claim, eligibility rule or suspected anomaly
 | OECD minimum-income and unemployment-assistance paper | AI may improve timeliness and take-up but can produce systematically biased eligibility assessments or increase inequality; use ranges from information through eligibility and undue-payment detection. | benefit-route opportunity/risk architecture | named system performance, claimant understanding, appeal, correction and material outcome |
 | EU Artificial Intelligence Act | AI used by authorities to grant, deny, reduce, revoke or reclaim essential benefits can significantly affect livelihood and fundamental rights and is classified as high-risk, with human-rights, oversight and governance implications. | legal risk classification and accountability baseline | actual compliance, deployment inventory, claimant notice, human review, appeal and payment continuity |
 | OECD social-protection trust evidence | Fewer than one in three respondents across 27 OECD countries feel they could easily receive public benefits if needed; only 40% view AI-assisted processing/approval as good for users and only 32% trust government with collected data. | public-perception and navigation-friction signal | whether trust reflects actual service experience, and whether automation improves or worsens access for excluded groups |
+| UK Universal Credit Advances model assessment 2026 | DWP reports a live machine-learning model prioritizing advance requests for fraud-prevention intervention during April 2025–March 2026; it says the model supports prioritization and a human reviews evidence and decides, while describing the analysis as experimental and iterative. | Named benefit-fraud deployment, human-review safeguard and evaluation boundary. | False-positive/negative claimant rates, subgroup fairness, intervention burden, payment delay, hardship, appeal and actual fraud avoided. |
+| Australian National Audit Office Medicare Benefits Integrity audit 2026 | ANAO reports the AI-enabled fraud model operated July 2024–December 2025, had irregular monitoring, lacked implemented fairness/bias metrics and had 22% accuracy in one model analysis; the department switched to logistic regression and planned future AI use. | Named model performance, governance deficiency and model-substitution case. | Claimant/provider consequences, subgroup distribution, recovered money, wrongful suspicion, remedy and whether the replacement improved outcomes. |
+| EU AI Act Service Desk essential-services guidance | EU guidance gives examples of high-risk systems scoring social-housing or unemployment eligibility and fraud/dependency risk using demographic, behavioural and financial data; it also describes benefit-fraud profiling as potentially prohibited or disproportionate in some contexts. | Concrete legal classification and discriminatory-use boundary. | National deployment inventory, claimant notice, data access, human override, appeal, benefit continuity and enforcement. |
+| GAO fraud and improper-payments AI guidance 2026 | GAO says AI-enabled fraud tools require high-quality relevant data, risk understanding, skilled staff and human oversight; bad data can make models unreliable and erode public trust. | Data-quality, workforce and human-oversight mechanism. | Benefit claimant outcomes, false flags, interruption, correction, costs and trust after a case-level decision. |
+| UK Public Sector Fraud Authority FRA Accelerator | The 2026 FRA Accelerator uses generative AI and a private knowledge base to draft fraud-risk assessments for public schemes, categorizing actors, actions and outcomes to support control design. | Upstream scheme-risk analysis rather than claimant-level decision. | Hallucination, expert correction, control adoption, fraud incidence, distributional effects and separation from benefit eligibility decisions. |
 
 ## Stage audit
 
@@ -78,6 +83,25 @@ are therefore part of legitimacy, not inefficiency. A benefit system is
 successful only when the intended person receives adequate support and can
 repair an error without losing the period of need.
 
+The 2026 audit evidence makes the human-in-the-loop claim more precise. The UK
+Universal Credit Advances model is explicitly described as a prioritization aid,
+with a human reviewing evidence and deciding; that closes a formal control but
+not the claimant’s intervention burden or payment continuity. The Australian
+Medicare Benefits Integrity case is a stronger counterexample: monitoring was
+irregular, fairness metrics were not implemented, one AI-enabled model’s true
+positive rate in the reported analysis was 22%, and the department moved to a
+logistic-regression model while considering future AI. A system can therefore
+be auditable in parts and still lack a documented basis for deciding whether its
+selection burden is worth the false-positive and resource cost.
+
+The EU examples also separate upstream fraud-risk analysis from downstream
+benefit decisions. A generative tool that drafts a scheme risk assessment is not
+the same as a model that scores a claimant, but both require traceable data,
+expert correction and a clear boundary against punitive or discriminatory
+profiling. The decisive ledger must show which model touched which claimant,
+what the human did, whether payment changed, and how the person corrected or
+contested the record.
+
 ## Counterexamples and limits
 
 - Automation can identify eligible people who would not apply and reduce
@@ -91,6 +115,14 @@ repair an error without losing the period of need.
   compliance or improved claimant outcomes.
 - Administrative data can improve matching while reproducing missingness,
   historical exclusion, household privacy violations or proxy discrimination.
+- A human decision-maker does not prove meaningful oversight if the model output
+  determines the queue, evidence burden or available options.
+- A true-positive rate for provider or application selection is not a claimant
+  false-positive rate, avoided loss, fair treatment or benefit continuity.
+- Replacing an AI model with a statistical model can reduce operational burden
+  without proving that eligible people received benefits more accurately.
+- An upstream fraud-risk drafting tool should not be treated as evidence that a
+  downstream claimant decision was automated, fair or effective.
 
 ## Promotion decision
 
@@ -116,3 +148,8 @@ digital and assisted applicants, and people who never completed the application.
 3. [OECD — Using AI to manage minimum-income benefits and unemployment assistance](https://www.oecd.org/en/publications/using-ai-to-manage-minimum-income-benefits-and-unemployment-assistance_718c93a1-en.html)
 4. [EU Artificial Intelligence Act — EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32024R1689)
 5. [OECD — More effective social protection and public trust](https://www.oecd.org/en/publications/more-effective-social-protection-for-stronger-economic-growth_8ab7879c/full-report/component-6.html)
+6. [UK Universal Credit Advances model effectiveness assessment 2026](https://www.gov.uk/government/publications/effectiveness-assessment-including-statistical-analysis-of-the-universal-credit-advances-machine-learning-model-1-april-2025-to-31-march-2026/effectiveness-assessment-of-universal-credit-advances-model)
+7. [Australian National Audit Office — AI and Medicare Benefits Integrity](https://www.anao.gov.au/work/performance-audit/artificial-intelligence-and-medicare-benefits-integrity)
+8. [EU AI Act Service Desk — Essential Services](https://ai-act-service-desk.ec.europa.eu/en/essential-services)
+9. [GAO — Fraud and improper payments: data quality and skilled workforce](https://www.gao.gov/assets/890/883324.pdf)
+10. [UK Public Sector Fraud Authority — FRA Accelerator](https://www.gov.uk/guidance/fraud-risk-assessment-fra-accelerator)
