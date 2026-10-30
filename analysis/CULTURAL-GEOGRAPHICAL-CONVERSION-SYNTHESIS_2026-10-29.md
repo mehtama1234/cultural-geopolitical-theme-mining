@@ -1689,6 +1689,17 @@ support, could remain safely in a chosen place, or that unpaid and paid
 caregivers retained health, income, voice, rest, protection and remedy when the
 arrangement failed.
 
+142. **A mental-health strategy, community team, psychiatric-bed reduction, crisis
+line, screening campaign, workplace programme, peer-support standard, digital
+tool, referral, discharge plan or anti-stigma campaign is not by itself safety,
+recovery, autonomy, dignity, participation, decent work, family resilience or
+community belonging.** Budgets, beds, contacts, screenings, referrals, trained
+workers, app downloads, hotline volume, reduced restraint or declared peer
+roles do not establish that a named person reached culturally safe and
+continuous support, retained housing and relationships, exercised legal
+capacity, returned to learning or work, avoided preventable harm, or obtained
+voice and remedy when the system failed.
+
 143. **A park, library, café, community centre, faith programme, sports initiative,
 school club, workplace network, neighbourhood event, digital platform,
 anti-loneliness campaign or social-connection strategy is not by itself
@@ -1721,17 +1732,6 @@ volume, transaction speed, cash-out availability, programme reach or service
 linkage do not establish that a named recipient received the full value on time,
 could safely and privately use it, controlled the funds, obtained remedy, or
 converted the payment into durable household security.
-
-142. **A mental-health strategy, community team, psychiatric-bed reduction, crisis
-line, screening campaign, workplace programme, peer-support standard, digital
-tool, referral, discharge plan or anti-stigma campaign is not by itself safety,
-recovery, autonomy, dignity, participation, decent work, family resilience or
-community belonging.** Budgets, beds, contacts, screenings, referrals, trained
-workers, app downloads, hotline volume, reduced restraint or declared peer
-roles do not establish that a named person reached culturally safe and
-continuous support, retained housing and relationships, exercised legal
-capacity, returned to learning or work, avoided preventable harm, or obtained
-voice and remedy when the system failed.
 
 The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior. The DT packet adds **informal-food-market-policy-to-safe-affordable-cultural-food-and-dignified-livelihood** with a source boundary around nutrition, affordability, foodborne illness, vendor income, women’s control, displacement, cultural continuity and post-shock governance. The DU packet adds **local-medicine-production-to-quality-assured-patient-continuity-and-regional-health-sovereignty** with a source boundary around product availability, affordability, quality, rural continuity, workforce capability and durable geopolitical leverage. The DV packet adds **mega-event-to-durable-host-city-legacy-and-legitimate-geopolitical-reputation** with a source boundary around resident wellbeing, worker remedy, post-event affordability, maintenance, cultural belonging and reputation after scrutiny. The DW packet adds **Arctic-corridor-to-Indigenous-community-sovereignty-and-safe-local-benefit** with a source boundary around community benefit, food security, cultural continuity, emergency response, remedy and durable sovereignty.
 
