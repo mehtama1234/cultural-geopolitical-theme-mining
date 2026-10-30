@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JT
+**Date:** 2026-10-30; refreshed through Rotation JU
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3403,6 +3403,10 @@ The JS packet adds **CBDC-development-to-private-resilient-inclusive-everyday-pa
 
 The JT packet adds **precision-fermentation-to-safe-affordable-nutritious-culturally-legitimate-food-and-local-capability conversion** with a source boundary around product/facility/community, organism and feedstock, energy/water, process, safety dossier, label, price, nutrition, buyer, farmer/worker effect, IP/control, cultural response and later food-access and environmental outcome. FAO supplies the food-safety, terminology and regulatory-capacity frame; EFSA supplies the EU authorization and maturity pathway; USDA supplies investment, commercialization, labeling and scale-up evidence; and Codex supplies emerging international classification work. These close technology, safety, authorization, maturity, investment, labeling, regulatory-capacity, engineering and standards stages, but no public source here closes a comparable product/community chain through affordable nutritious food, cultural legitimacy, resilient local capability, equitable transition and verified environmental benefit.
 
+276. **An authorization decision, prevalence decline, flavor statistic, enforcement action, product seizure, public-health message, flavor restriction or cessation referral is not by itself reduced nicotine dependence, youth safety, adult health benefit, mental-health recovery, equitable exposure reduction or durable market control.** National use can fall while rural or demographic disparities persist; seizures can shift supply; and cross-sectional associations cannot establish causal direction.
+
+The JU packet adds **vaping-regulation-to-youth-protection-adult-health-benefit-mental-health-support-and-durable-market-accountability conversion** with a source boundary around product/channel/place/population, marketing and flavor, age/access, device, frequency, dependence, mental health, school/work, enforcement, cessation support, substitution and later health outcome. FDA and CDC supply current youth prevalence, product dominance, flavor, place/demographic, enforcement and mental-health evidence; WHO supplies comparative European regulatory diversity. These close prevalence, product, flavor, distributional, informal-supply, device, mental-health and comparative-regulation stages, but no public source here closes a comparable product/channel/place chain through durable youth protection, reduced dependence, adult health benefit, mental-health recovery and accountable market control.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3439,7 +3443,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JT.
+living goal. The current atlas baseline has been refreshed through Rotation JU.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
