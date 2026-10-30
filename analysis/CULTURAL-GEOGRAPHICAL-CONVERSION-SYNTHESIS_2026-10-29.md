@@ -2640,6 +2640,18 @@ not establish equal implementation, subgroup benefit, user understanding,
 downstream harm accounting, policy reach, clinical transfer or durable public
 trust.
 
+The GR refresh adds four place-bound open-science cases. South Africa's
+Mthinzima Catchment links citizen monitoring to a water-quality-credit pilot;
+Rio Doce joins residents' empirical knowledge to post-dam-disaster monitoring;
+Kathmandu OpenDRI turns community mapping of schools and health facilities into
+freely reusable resilience data; and UNESCO's Indigenous Language Data Commons
+Incubator records a 19-member Indigenous steering group and approximately 155
+applications from 55 countries. These close parts of local data generation,
+knowledge co-production, open-data-to-planning and collective governance demand.
+They do not establish water or river recovery, facility safety, maintained
+reuse, language revitalisation, benefit, refusal, community power or durable
+local agency.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and

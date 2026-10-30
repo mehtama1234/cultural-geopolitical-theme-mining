@@ -139,6 +139,85 @@ benefit and governance. Record language, device/connectivity, intermediary,
 data rights, attribution, decision recipient, observed outcome and any refusal
 or correction. Do not infer local agency from repository or publication metrics.
 
+## Named local-use and community-governance refresh
+
+### 7. Mthinzima Catchment: citizen monitoring linked to proposed water-quality credits
+
+UNESCO's Citizens4Water portal describes the Mthinzima Catchment project in
+South Africa, led by the Water Research Commission and implemented by
+GroundTruth. Mpophomeni EnviroChamps trained in citizen science conduct regular
+monitoring, rapid reporting and community education in a catchment affected by
+ageing infrastructure, sewage and household pollution. The project is testing
+whether water-quality credits can reward households, communities and
+municipalities; learning laboratories bring officials, NGOs, utilities,
+scientists and community representatives together, with UNICEF YOMA being used
+to test verification and incentives.
+
+This closes a named pathway from local observation to co-designed governance and
+potential benefit. The source reports early promise and ongoing refinement, not
+verified water-quality improvement, credit payment, household fairness,
+municipal adoption or durable local authority. It is a live experiment, not a
+completed impact claim.
+
+Source: [UNESCO Citizens4Water, Mthinzima Catchment](https://ihp-wins.unesco.org/citizens4water/project/40).
+
+### 8. Rio Doce Basin: local empirical knowledge joined post-disaster monitoring
+
+UNESCO's Brazil project describes a citizen-science programme in the Rio Doce
+Basin, an area affected by the 2015 Fundão dam collapse. The project combines
+UNESCO and Renova Foundation technical resources for water-quality analysis
+with the Rio Doce Basin Committee and riverside residents' empirical knowledge.
+It involves local university students and participatory monitoring of water,
+health and the environment, with an explicit aim of sharing scientific
+knowledge and involving residents in defining questions and analysis.
+
+This closes a post-disaster knowledge-co-production and local-context pathway.
+It does not establish that monitoring changed remediation, health protection,
+damages, trust, compensation or river conditions, nor that the power imbalance
+between affected communities and the foundation was resolved. Participation and
+technical exchange should not be promoted to restoration.
+
+Source: [UNESCO, Citizen Science in the Rio Doce Basin](https://www.unesco.org/en/articles/citizen-science-rio-doce-basin-project).
+
+### 9. Kathmandu OpenDRI: community mapping made missing infrastructure data usable for resilience planning
+
+The World Bank's Open Cities/OpenDRI case describes a year-long Kathmandu
+programme in which university students and community groups mapped the location
+and physical characteristics of schools and health facilities. The data were
+uploaded to OpenStreetMap and made freely available to support disaster-risk
+management; the programme addressed the absence of complete, current maps in
+the Kathmandu Valley while the World Bank and Nepal government worked on
+earthquake resilience in health and education.
+
+This is a concrete open-data-to-planning pathway: local contributors generated
+place-specific information that public agencies could use. It does not prove
+that a named school or clinic became safer, that maps were maintained, that
+contributors were credited or paid, or that disaster decisions and outcomes
+improved. A freely available layer is an operational asset, not resilience
+itself.
+
+Source: [World Bank, OpenDRI Kathmandu case](https://documents1.worldbank.org/curated/en/099837111102538220/pdf/IDU-e39416e6-3dcc-4712-937b-6ee08a33c58a.pdf).
+
+### 10. Indigenous Language Data Commons Incubator: governance demand exceeds outcome evidence
+
+UNESCO describes a New Commons Incubator for Indigenous Languages and Cultures
+that supports Indigenous-led data commons through mentorship, technical
+guidance and capacity building. The initiative was co-designed with a 19-member
+global steering committee of Indigenous language-data experts; its first call
+received approximately 155 complete submissions referencing 55 countries, with
+language revitalisation, cultural practices, voice technologies and education
+among the main interests.
+
+This closes a significant demand and governance-design signal: communities are
+not merely asking for access to data, but for collective authority over how
+language and cultural data are collected, used and benefited from. The public
+record does not yet close which teams were selected, what protocols or products
+were delivered, whether languages were strengthened, or whether communities
+could refuse extraction and retain benefit. Applications and a steering group
+are not living language continuity.
+
+Source: [UNESCO, Data Commons and Indigenous language governance](https://www.unesco.org/en/data-governance-digital-age/data-commons).
+
 ## Source boundary
 
 The official record is strong for the definition, policy intent, infrastructure
