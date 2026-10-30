@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29; refreshed through Rotations D–EQ
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
-**Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
+**Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
 ## Executive proposition
 

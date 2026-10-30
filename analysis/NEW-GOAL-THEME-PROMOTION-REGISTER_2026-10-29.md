@@ -366,9 +366,10 @@ and are not promoted as facts.
 ## Decision
 
 The research program has moved from broad discovery to **promotion-controlled
-conversion research**. The current atlas is complete as a bounded evidence
+conversion research**. The current release is complete as a bounded evidence
 product: it contains named packets, ledgers, counterexamples, promotion tiers,
 later-stage closures where publicly available, and explicit source boundaries
-where later outcomes could not be verified. Future work can reopen the Tier 2
-questions, but it must not silently promote them.
+where later outcomes could not be verified. The living research goal remains
+active; future work can reopen Tier 2 questions, but it must not silently
+promote them.
 
