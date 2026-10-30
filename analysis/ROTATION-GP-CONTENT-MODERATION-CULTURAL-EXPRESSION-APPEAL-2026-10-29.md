@@ -129,6 +129,78 @@ notice, appeal time, reviewer expertise, reversal, reach after reversal,
 harassment or safety outcome, user cost and trust. Compare platform rules,
 state requests, community moderation and independent redress.
 
+## Named context and remedy refresh
+
+### 7. Kenya's “tugeges” case: local political critique was read as ethnic hate speech
+
+UNESCO's Kenya Social Media 4 Peace account describes a case in which the
+National Coalition on Freedom of Expression and Content Moderation engaged
+Meta's Oversight Board over the Kenyan term “tugeges.” The coalition argued
+that the term was being used as political critique rather than ethnic hate
+speech. The case made local linguistic, cultural and political context visible
+inside a global moderation system; the same programme is developing stronger
+moderation in Swahili and Sheng and a trusted-flagger mechanism for youth peace
+organisations.
+
+This closes a named cultural-context and governance mechanism, not a complete
+user-remedy chain. The public account does not establish the original decision,
+final reach restoration, retaliation or safety outcome for affected users, or
+whether the proposed language improvements changed error rates over time.
+
+Source: [UNESCO, Social Media 4 Peace in Kenya](https://www.unesco.org/en/social-media4peace/kenya).
+
+### 8. Meta Oversight Board “Slurs in Positive Context”: five reversals across five countries
+
+In June 2026, Meta's Oversight Board published a bundled summary decision
+covering five users in Greece, Germany, Ecuador, the United States and India.
+Each post contained a slur used in a self-referential, artistic or positive
+context; Meta initially removed all five posts under its hateful-conduct rule
+and restored all five after the Board brought the appeals to the company. The
+examples include rap wordplay, an Ecuadorian term used endearingly and a Hindi
+historical story.
+
+This is direct evidence that reclaimed language, artistic form, national usage
+and historical context can change the meaning of a matched keyword. It is not a
+population error rate: the Board says these summary decisions have no
+precedential value and do not measure restored reach, user safety, trust or
+future enforcement consistency.
+
+Source: [Meta Oversight Board, Slurs in Positive Context](https://www.oversightboard.com/decision/bun-wm722fgm/).
+
+### 9. EU out-of-court settlement: a second route exists, but access is conditional
+
+The European Commission describes Digital Services Act out-of-court dispute
+settlement bodies as an additional route after a platform's internal complaint
+system. Users can submit moderation disputes to a certified body; the process
+is intended to be faster and lower-cost than court, platforms and users must
+engage in good faith, and bodies must meet independence, expertise, accessibility
+and efficiency conditions. Certification can be limited by content type,
+platform or language.
+
+This closes a procedural-redress architecture with language and cost dimensions.
+It does not establish that a user understood the process, could safely afford
+it, received a binding remedy, regained reach or experienced less harassment.
+The ledger must follow case selection and non-use, not only the number of
+available bodies.
+
+Source: [European Commission, DSA out-of-court dispute settlement](https://digital-strategy.ec.europa.eu/en/policies/dsa-out-court-dispute-settlement).
+
+### 10. Account-level enforcement: content appeal is not enough when the account disappears
+
+The Oversight Board's account-ban case examines a permanent account disablement
+for targeting public figures and sets account-governance principles around
+detailed reasons, accessible and reliable appeal options, and disclosure of the
+role of government requests and automation. This matters because an account
+loss can remove a user's accumulated audience, livelihood, archive and civic
+presence even when no single post captures the harm.
+
+The case closes the distinction between post-level and account-level remedy
+design. It does not show that every affected user receives a comprehensible
+explanation, that an appeal is timely, that followers can find the user again,
+or that reinstatement restores meaningful participation and income.
+
+Source: [Meta Oversight Board, Account Ban for Targeting Public Figures](https://www.oversightboard.com/decision/bun-zhslvjo2/).
+
 ## Source boundary
 
 The public record closes the scale of expression risk, platform-governance

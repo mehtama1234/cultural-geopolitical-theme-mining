@@ -2579,6 +2579,18 @@ custodian authority, correction or revocation, sacred or gendered protection,
 language and youth transmission, livelihood benefit or community-wide cultural
 continuity.
 
+The GP refresh adds a named multilingual appeal contrast set. UNESCO documents
+the Kenyan “tugeges” case, where local political critique was distinguished from
+ethnic hate speech, and ongoing Swahili/Sheng localisation work. Meta's
+Oversight Board reports five positive-context slur removals reversed across
+Greece, Germany, Ecuador, the United States and India. The EU out-of-court
+settlement route adds independent procedural redress, while an account-ban case
+shows why account-level explanations and appeals differ from post-level review.
+These close parts of cultural-context detection, named correction, local
+governance and procedural route design. They do not establish representative
+error rates, restored reach, safety, trust, livelihood, retaliation reduction,
+timely remedy or durable multilingual civic agency.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and

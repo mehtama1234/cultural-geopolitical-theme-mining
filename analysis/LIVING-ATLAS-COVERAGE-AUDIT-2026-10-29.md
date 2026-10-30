@@ -34,6 +34,7 @@ research goal.
 | DT packet CSV shape | nine rows and nine fields for DT; all nine source IDs present after Indonesia, Accra and Pasto named-case refresh | `ROTATION-DT-INFORMAL-FOOD-MARKETS-VENDORS-FOOD-SECURITY-2026-10-29.csv` |
 | GZ packet CSV shape | ten rows and nine fields for GZ; all ten source IDs present after AMG, Poly-Tech, hospital-cobot and adverse-safety named-case refresh | `ROTATION-GZ-PHYSICAL-AI-ROBOTICS-SAFE-INCLUSIVE-WORK-2026-10-29.csv` |
 | GQ packet CSV shape | ten rows and nine fields for GQ; all ten source IDs present after Mukurtu, Westbank, Urarina and Sharamentsa named-case refresh | `ROTATION-GQ-DIGITAL-CULTURAL-HERITAGE-COMMUNITY-CONTROL-2026-10-29.csv` |
+| GP packet CSV shape | ten rows and nine fields for GP; all ten source IDs present after Kenya, Oversight Board and EU redress named-case refresh | `ROTATION-GP-CONTENT-MODERATION-CULTURAL-EXPRESSION-APPEAL-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
