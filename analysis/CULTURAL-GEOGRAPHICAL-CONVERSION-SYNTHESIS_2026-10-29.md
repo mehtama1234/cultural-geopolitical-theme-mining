@@ -3523,6 +3523,10 @@ The JZ follow-up adds an **agricultural-automation-to-scale-appropriate-service-
 
 The KE follow-up adds a **neurotechnology-to-cross-border-clinical-evidence-and-implementable-mental-privacy** distinction. UNESCO closes the move from norm adoption toward readiness and ethical-impact assessment; the completed remote-home trial closes a larger clinical-design and home-use stage; and UAE-PRIME closes a named implanted-BCI jurisdictional pathway. These show different maturity levels and governance clocks, but no public source here closes the chain through durable everyday agency, inclusive access, data minimization, refusal, independent oversight and remedy across jurisdictions.
 
+306. **A CLPS contract, provider count, successful landing, tipped lander, recurring-delivery plan, south-pole infrastructure roadmap or resource-use principle is not by itself an open lunar market, reliable logistics, sustainable extraction, protected heritage, environmental safety, liability clarity, benefit sharing or legitimate shared governance.** NASA’s current program scale is a procurement and capability signal; Blue Ghost and IM-2 provide contrasting operational outcomes; and planned Moon Base logistics remain prospective.
+
+The KA follow-up adds a **lunar-capability-to-commercial-logistics-reliability-and-shared-governance** distinction. CLPS closes a concrete public procurement and delivery-market pathway; the Blue Ghost/IM-2 record closes a reliability counterexample; and Moon Base plans close a transition toward recurring south-pole logistics. These strengthen the claim that lunar activity is becoming infrastructural, but no public source here closes site-level environmental protection, heritage authority, non-exclusion, cross-border liability, benefit sharing or durable legitimacy.
+
 ## What the evidence does not support
 
 Do not claim that:
