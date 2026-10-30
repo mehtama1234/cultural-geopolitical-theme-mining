@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–ID
+**Date:** 2026-10-30; refreshed through Rotations D–IE
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3242,6 +3242,10 @@ The IC packet adds **assistive-technology-system-to-sustained-person-controlled-
 235. **Fisheries investment, marine conservation, climate-resilience infrastructure, value-chain planning, catch or protein contribution is not by itself secure access, safe work, fair income, household nutrition, ecological stewardship or cultural continuity.** A landing facility can coexist with restricted access, a protein statistic can coexist with household food insecurity, and community-management language can coexist with weak decision power or unequal value capture.
 
 The ID packet adds **small-scale-fisheries-investment-to-secure-access-food-livelihood-and-cultural-continuity conversion** with a source boundary around fishery, coast, climate pressure, access rights, governance voice, boat, landing, cold chain, finance, catch, processing, market, price, women’s labor/value, food/nutrition, safety, social protection, ecosystem, conflict, displacement and intergenerational continuity. FAO supplies regional/global scale, gender, value, Namibia governance and cold-chain evidence; World Bank supplies Guinea, Tanzania and Yemen investment/cultural cases; the UN Ocean Assessment supplies rights, distribution and wellbeing factors. These close sector importance, investment, governance, food significance, gender, technology and cultural framing, but no public source here closes a comparable fisher/community chain through secure access, value capture, nutrition, safety, ecology and continuity.
+
+236. **Facility delivery, skilled-attendance coverage, respectful-care training, maternal-mortality improvement, clinical guidance, birth-companion policy or referral plan is not by itself a respectful encounter, informed consent, timely treatment, safety, autonomy or durable trust.** A facility can be reachable yet abusive or unaffordable; a mortality trend can have multiple causes; and a guideline can exist without changed practice or remedy.
+
+The IE packet adds **respectful-maternity-system-to-consented-safe-referral-and-postnatal-continuity conversion** with a source boundary around pregnancy/labor, warning sign, language, trust, arrival, dignity, consent, communication, companion, pain, mobility, clinical assessment, medicines, referral, cost, treatment, birth/newborn care, complaint, postnatal follow-up and maternal/family outcome. WHO supplies the respectful-care definition, mistreatment signal, encounter rights, Senegal model and individualized sickle-cell guidance; UNFPA supplies Paraguay autonomy, Dhaka inequality, Serbia accountability and human-rights standards. These close definitions, mistreatment, encounter requirements, country models, accountability and personalization stages, but no public source here closes a comparable woman/family chain through consent, referral, treatment, safety and postnatal continuity.
 
 ## What the evidence does not support
 
