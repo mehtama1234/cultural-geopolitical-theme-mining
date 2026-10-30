@@ -3355,6 +3355,10 @@ The JE packet adds **wildlife-trade-governance-to-lower-trafficking-zoonotic-ris
 
 The JF packet adds **mountain-cryosphere-change-to-safe-water-livelihood-cultural-continuity-and-shared-basin-governance conversion** with a source boundary around glacier/basin/community, ice and snow baseline, hazard, forecast, warning, language, route, household water, irrigation, pasture, energy, protection, migration, income, cultural practice, downstream allocation, finance and long-term governance. UNESCO/UN-Water supplies global water-tower scale, mountain dependence and policy recommendations; WMO supplies global, Asian and transboundary hydrological trends; UNESCO supplies named Sagarmatha planning and Thame living-heritage recovery; and the World Bank supplies peak-water and adaptation trade-offs. These close global scale, monitoring, hazard, regional, planning, disaster, heritage, policy and nonlinear storage stages, but no public source here closes a comparable mountain/community chain through warning receipt, reliable water, safe livelihoods, cultural continuity, equitable downstream allocation and durable shared governance.
 
+264. **A pH trend, shellfish sensitivity result, vulnerability map, hatchery retrofit, fishermen workshop, adaptive-management recommendation, fishery closure or modeled catch projection is not by itself stable seafood access, income, food affordability, cultural continuity, reef protection, equitable adaptation or community resilience.** A hatchery can buffer water chemistry while excluding small operators; a fishery can maintain aggregate catch while home-port revenue falls; and a decline attributed partly to acidification can still require action on other stressors.
+
+The JG packet adds **ocean-acidification-science-to-coastal-food-livelihood-cultural-continuity-and-equitable-adaptation conversion** with a source boundary around species/fishery/community, chemistry, co-stressors, biology, catch, aquaculture, price, fishing rights, labor, food use, cultural practice, monitoring, adaptation cost, management decision, benefit and long-term resilience. UNESCO IOC supplies the global chemistry-biology and coastal-protection mechanism; NOAA supplies red-king-crab attribution, shellfish biology, hatchery/Tribal adaptation, scallop co-production and home-port revenue evidence; and the IPCC supplies small-island distributional risk. These close global mechanism, named species, biological, co-production, place-economy, technical, rights, island and multi-stressor stages, but no public source here closes a comparable fishery/community chain through stable food access, fair income, cultural continuity, reef protection and equitable long-term adaptation.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3391,7 +3395,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JF.
+living goal. The current atlas baseline has been refreshed through Rotation JG.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
