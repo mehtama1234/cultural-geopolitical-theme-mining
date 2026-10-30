@@ -3687,6 +3687,14 @@ The JT follow-up adds **precision-fermentation-regulatory-entry-to-monitored-saf
 
 The JT evidence adds **food-technology-rule-to-cross-border-capability-consumer-clarity-local-production-and-cultural-legitimacy** as a separate conversion question. The next ledger should compare jurisdiction, product, conditions, enforcement, monitoring, price, trade route, local capability and community response rather than treating regulatory approval as a universal endpoint.
 
+347. **An FDA marketing authorization, adult harm-reduction rationale, product withdrawal power, legal-sales list or enforcement guidance is not by itself complete adult switching, youth protection, reduced dependence, mental-health recovery or controlled nicotine supply.** FDA authorized additional ENDS products in May 2026 while retaining youth-use monitoring and withdrawal authority; FDA also maintains enforcement priorities for unauthorized products, while CDC states that no e-cigarette is approved as a cessation aid and that dual use can retain substantial harm.
+
+The JU follow-up adds **vaping-authorization-and-enforcement-to-complete-adult-switching-youth-protection-dependence-reduction-and-market-accountability** as a separate conversion question. The evidence closes conditional authorization, legal/enforcement boundaries and the adult-versus-youth policy trade-off, but no public source here closes a named product and population through age exposure, complete switching, cessation adherence, dual use, informal supply, mental-health support and later health outcome.
+
+348. **A public-health balancing test can authorize a product while leaving the cultural and geographic distribution of risk unresolved.** The same product category may be a lower-risk substitute for an adult smoker, an attractive nicotine product for a youth or non-user, a dual-use pathway, or an informal-market good; authorization status does not make these pathways equivalent.
+
+The JU evidence adds **nicotine-product-policy-to-context-specific-exposure-switching-dependence-and-equitable-health-benefit** as a separate conversion question. The next ledger should preserve product, flavor, channel, age, place, complete/dual use, cessation support, enforcement, mental health and subgroup outcomes rather than treating authorization or prevalence as the endpoint.
+
 ## What the evidence does not support
 
 Do not claim that:

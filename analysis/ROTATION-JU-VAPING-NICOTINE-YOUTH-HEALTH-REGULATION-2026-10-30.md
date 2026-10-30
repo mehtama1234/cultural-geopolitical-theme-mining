@@ -27,6 +27,9 @@ product / flavor / marketing / access / social setting
 | JU6 | FDA’s 2025 enforcement guidance prioritizes unauthorized products and notes that disposables were the most common device among youth users, while some respondents were unsure of device type. | Product-form and enforcement targeting. | Product availability, compliance, illicit-market adaptation or cessation outcomes. |
 | JU7 | CDC research on 2024 NYTS examines the association between e-cigarette use and depression/anxiety symptoms and recommends integrating mental-health support with prevention and cessation, while noting the cross-sectional design. | Mental-health co-occurrence and support pathway. | Causal direction, treatment effectiveness, long-term recovery or subgroup mechanisms. |
 | JU8 | WHO’s European-region review describes e-cigarette regulation and calls for comprehensive, monitored measures to prevent youth and non-smoker uptake and nicotine addiction; it notes varied national approaches including a 2025 Uzbekistan ban. | Comparative regulatory and geopolitical diversity. | Cross-country causal comparison, enforcement capacity, adult harm reduction or market response. |
+| JU9 | FDA authorized four additional ENDS products in May 2026 and reported 45 authorized products, allowing specified products to be marketed to adults 21+ while retaining authority to suspend or withdraw authorization if youth use rises or public-health benefits no longer outweigh risks. | Conditional authorization and adult/youth balancing mechanism. | Real-world switching, youth exposure, dependence, cessation, marketing compliance or long-term health. |
+| JU10 | FDA’s 2026 enforcement guidance states that only FDA-authorized e-cigarettes may lawfully be sold in the US, while unauthorized ENDS and oral nicotine products remain enforcement priorities; the guidance itself is not legally enforceable and does not establish a broad safe harbor. | Authorization/enforcement boundary and compliance uncertainty. | Market coverage, supply displacement, retailer compliance, product substitution or durable deterrence. |
+| JU11 | CDC states that no e-cigarette has been approved as a smoking-cessation aid; potential adult benefit depends on completely substituting for smoked tobacco, while dual use can produce similar or additional harms. | Adult harm-reduction qualification and cessation boundary. | Population-level switching, adherence, relapse, youth spillover or comparative long-term health. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -36,15 +39,32 @@ The geography of exposure is unequal. CDC’s rural/urban data suggest that nati
 
 The harm-reduction debate is also politically and culturally charged. Adult smokers may seek lower-risk alternatives, while youth protection requires preventing initiation and addiction. The atlas should preserve both concerns and avoid treating one aggregate indicator as proof that the policy balance has been achieved. Durable outcomes require product-level exposure, age, flavor, frequency, cessation, mental-health support and local enforcement data.
 
+The 2026 FDA actions make the trade-off operational rather than rhetorical:
+authorization is conditional on a population-health balance, but legal status is
+not the same as cessation efficacy, youth-safe use or market control. FDA permits
+specified products for adults while monitoring youth use and retaining withdrawal
+authority; at the same time, CDC states that no e-cigarette is approved as a
+cessation aid and that dual use can retain substantial harm. The relevant unit is
+therefore a complete switching pathway for an adult smoker alongside product,
+age, flavor, channel and dependence outcomes for youth and non-users.
+
 ## Counterexample and source boundary
 
 An authorization decision, prevalence decline, flavor statistic, enforcement action, product seizure, public-health message, flavor restriction or cessation referral is not by itself reduced nicotine dependence, youth safety, adult health benefit, mental-health recovery, equitable exposure reduction or durable market control. National use can fall while rural or demographic disparities persist; seizures can shift supply; and cross-sectional associations cannot establish causal direction.
+
+An FDA authorization can coexist with unauthorized products dominating retail or
+online supply, while an enforcement policy can clarify legal status without
+showing that products disappeared or that users switched to safer behavior.
 
 ## Promotion decision
 
 **Tier 1 bounded finding:** Youth-use declines, regulatory authorizations, flavor data, seizures, enforcement guidance and prevention messages are not by themselves durable youth protection, reduced nicotine dependence, adult harm reduction, mental-health recovery or controlled product supply.
 
 **Tier 2 mechanism candidate:** The next high-value conversion is **vaping-regulation-to-youth-protection-adult-health-benefit-mental-health-support-and-durable-market-accountability**. The strongest next acquisition is a named product/channel/place/population chain linking marketing and flavor, age/access, device, frequency, dependence, mental health, school/work, enforcement, cessation support, substitution and later health outcome.
+
+Add authorization status, complete versus dual use, product withdrawal or
+continued marketing, retailer/channel, youth exposure, adult switching, cessation
+support, dependence, enforcement outcome and later health evidence.
 
 ## Sources
 
@@ -55,3 +75,6 @@ An authorization decision, prevalence decline, flavor statistic, enforcement act
 - FDA, [Unauthorized e-cigarette enforcement seizure](https://www.fda.gov/tobacco-products/ctp-newsroom/more-7-million-worth-illegal-e-cigarettes-seized-federal-operation)
 - CDC, [E-cigarette use and depression/anxiety symptoms](https://www.cdc.gov/pcd/issues/2025/25_0186.htm)
 - WHO, [E-cigarette regulation in the European Region](https://www.who.int/docs/librariesprovider2/default-document-library/10_e-cigs_2025.pdf)
+- FDA, [May 2026 authorization of additional ENDS products](https://www.fda.gov/news-events/press-announcements/fda-expands-market-access-authorizes-new-ends-products)
+- FDA, [2026 enforcement priorities for unauthorized tobacco products](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/enforcement-priorities-certain-new-tobacco-products-marketed-without-premarket-authorization)
+- CDC, [E-cigarettes and smoking cessation evidence boundary](https://www.cdc.gov/tobacco/e-cigarettes/)
