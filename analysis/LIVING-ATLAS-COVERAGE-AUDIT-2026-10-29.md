@@ -11,26 +11,27 @@ research goal.
 
 | Check | Result | Evidence |
 |---|---:|---|
-| Numbered synthesis propositions | 211 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–211 in strict order |
-| Standard rotation markdown packets | 210 | `analysis/ROTATION-*.md` |
-| Standard rotation CSV ledgers | 210 | `analysis/ROTATION-*.csv` |
-| Register rotation rows | 210 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
+| Numbered synthesis propositions | 212 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–212 in strict order |
+| Standard rotation markdown packets | 211 | `analysis/ROTATION-*.md` |
+| Standard rotation CSV ledgers | 211 | `analysis/ROTATION-*.csv` |
+| Register rotation rows | 211 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
 | Local register links | checked after HC; 0 missing | link-target scan of the register |
 | Recent packet CSV shape | twelve rows and nine fields for HC; all twelve source IDs present after named-case refresh | `ROTATION-HC-CONTRACT-MANAGEMENT-PAYMENT-SERVICE-CONTINUITY-2026-10-29.csv` |
 | Refreshed heat packet CSV shape | nine rows and nine fields for HHT; all nine source IDs present after affordability refresh | `ROTATION-X-EXTREME-HEAT-COOLING-PLACE-HEALTH-2026-10-29.csv` |
 | Heat outcome-case CSV shape | twelve rows and nine fields for HHT; all twelve source IDs present after named outcome refresh | `ROTATION-X-EXTREME-HEAT-COOLING-PLACE-HEALTH-2026-10-29.csv` |
 | Energy-affordability refresh CSV shape | eight rows and nine fields for ENR; all eight source IDs present after IEA/EPA refresh | `ROTATION-Z-ENERGY-INSECURITY-UTILITY-DISCONNECTION-HOUSEHOLD-OPTIONS-2026-10-29.csv` |
+| HD packet CSV shape | six rows and nine fields for HD; all six source IDs present | `ROTATION-HD-CLIMATE-MENTAL-HEALTH-PSYCHOSOCIAL-AGENCY-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
 ## Why packet and proposition counts differ
 
-The 211 propositions are conversion propositions in the synthesis. The 210
+The 212 propositions are conversion propositions in the synthesis. The 211
 rotation rows are register entries for the current packet portfolio. They are
 not required to be one-to-one because the portfolio includes earlier
 cross-rotation and first-pass architecture.
 
-The standard packet directory contains 210 markdown and 210 CSV files, but the
+The standard packet directory contains 211 markdown and 211 CSV files, but the
 first-pass/source-ledger architecture has three intentional naming pairs:
 
 - `ROTATION-A-FIRST-PASS` ↔ `ROTATION-A-SOURCE-LEDGER`

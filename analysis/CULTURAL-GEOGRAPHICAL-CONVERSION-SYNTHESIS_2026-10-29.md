@@ -2421,6 +2421,10 @@ The HB packet adds **public-procurement-to-local-capability-and-fair-value conve
 
 The HC packet adds **contract-management-to-continuous-public-service-and-remedy conversion** with a source boundary around roles, baselines, KPIs, milestone verification, invoice and payment, inspection, risk, variation, subcontractor and worker receipt, maintenance, outage, user experience, complaint, correction, sanction, termination and handover.
 
+212. **A climate hazard, disaster declaration, climate-anxiety survey, resilience campaign, psychological-first-aid training, MHPSS minimum-service package, school activity, youth consultation, helpline, referral, community ritual or adaptation plan is not by itself mental-health recovery, safety, functioning, belonging, agency, learning continuity, cultural continuity or durable collective resilience.** Distress can be a valid response rather than a disorder; a support route can be available without being trusted, culturally safe, accessible, confidential, sustained or connected to housing, livelihood, health, school and displacement needs.
+
+The HD packet adds **climate-exposure-to-psychosocial-agency-and-community-continuity conversion** with a source boundary around hazard, loss, displacement, uncertainty, distress, grief, outreach, MHPSS, psychological first aid, cultural safety, school/work/care functioning, social support, youth voice, adaptation participation, recurrence, clinical care and remedy.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
