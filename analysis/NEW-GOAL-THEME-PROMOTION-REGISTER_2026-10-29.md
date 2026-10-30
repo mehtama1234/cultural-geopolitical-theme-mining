@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29  
 **Purpose:** integrate the cross-rotation portfolio and the named conversion packets into one research-control register  
-**Status:** promotion-controlled living atlas; refreshed through Rotation HA; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
+**Status:** promotion-controlled living atlas; refreshed through Rotation HB; current priority lanes have either a closed later-stage result or a documented public-source boundary; the research goal remains active
 
 ## Executive decision
 
@@ -423,6 +423,8 @@ exist for platform, SNAP, public AI, infrastructure incidence and geopolitical
 leverage. The final synthesis preserves signal, mechanism, operation, material
 consequence, meaning and power; the unresolved Tier 2 questions remain visible
 and are not promoted as facts.
+
+| [Public procurement/local capability/fair public value rotation](ROTATION-HB-PUBLIC-PROCUREMENT-LOCAL-CAPABILITY-FAIR-VALUE-2026-10-29.md) | public procurement/tenders/awards/local content/SME access/social value/labour clauses/market engagement/lotting/qualification/competition/finance/payment/prime/subcontractor/delivery/quality/affordability/maintenance/workers/users/geography/complaint/remedy | high for strategic-procurement purpose, SME-access mechanisms, implementation barriers, labour/social-clause logic and competition trade-offs; medium for named supplier capability, fair competition, wages, safety, delivery, quality, affordability, maintenance, user benefit, remedy and local legitimacy | OECD strategic public procurement, OECD procurement implementation review, OECD 2026 trade and industrial policies, ILO social procurement guide, ILO labour clauses, ILO 2025 human-rights procurement guidance | named buyer/tender/supplier/prime/subcontractor/worker/user/asset/service/place, specification, bid, ownership, local content, payment, wage, safety, delivery, quality, maintenance, complaint and remedy | Tier 1 bounded distinction plus Tier 2 public-procurement-to-local-capability-and-fair-value question |
 
 ## Decision
 
