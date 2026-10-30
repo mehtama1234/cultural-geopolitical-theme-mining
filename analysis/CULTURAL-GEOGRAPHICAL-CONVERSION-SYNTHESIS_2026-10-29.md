@@ -3739,6 +3739,12 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 360. **Forecast equity includes authority over observations, models, uncertainty and public accountability, not only nominal access to a cheaper AI output.** National validation against local high-impact hazards can improve trustworthiness, but it does not by itself prove comparative skill, warning reach, action, maintenance or durable control by the communities and public agencies exposed to risk.
 
+361. **Autonomous-shipping permission is geographically produced at the port, not only certified on the vessel.** Harbour-master approval, traffic density, navigational hazards, pilotage, tug access, communications and local emergency capacity define the operating envelope; a global code or vessel-level safety case cannot substitute for place-specific authority and response capability.
+
+362. **Ship-port interoperability is not crewless autonomy.** A demonstration can successfully exchange vessel-traffic data and onshore pilotage information while retaining the master, bridge team and pilot and restricting remote control to a bounded channel; this closes an interface test, not safe autonomous service, worker transition, or resilience under abnormal conditions.
+
+363. **Remote operations move accountability into a multi-agency data and labour system.** Port response requires shared situational awareness, qualified local authorities, remote operators, pilots, responders and remedy pathways; integrating data or standardizing review can improve coordination without proving faster response, lower harm, fair workload or clear liability after an incident.
+
 ## What the evidence does not support
 
 Do not claim that:
