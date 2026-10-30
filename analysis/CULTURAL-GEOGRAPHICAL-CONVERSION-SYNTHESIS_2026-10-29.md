@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HX
+**Date:** 2026-10-30; refreshed through Rotations D–HY
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3218,6 +3218,10 @@ The HW packet adds **inclusive-warning-to-disabled-person-protection-and-recover
 229. **A social registry, eligibility decision, electronic payment, cash-transfer count, response-time improvement, digital public good or grievance mechanism is not by itself received, adequate, safe, controlled or outcome-producing household protection.** A payment can fail at identity, device, connectivity, cash-out, fees, prices, intrahousehold control or service availability; and rapid reach can coexist with inadequate recovery.
 
 The HX packet adds **shock-responsive-cash-to-received-household-protection-and-recovery conversion** with a source boundary around shock, poverty, displacement, eligibility, registration, identity, contact, consent, payment, cash-out, fees, privacy, gender, disability, price, spending, control, food, health, school, shelter, harm avoided, grievance and recovery. UNICEF supplies global reach, HOPE digital infrastructure, Armenia, Myanmar and Haiti cases; World Bank supplies Egypt registry/grievance/shock expansion, Somalia and Pakistan reach/speed evidence; South Sudan supplies a humanitarian-to-development transition boundary. These close scale, platform, policy, targeting, payment route, grievance and response-speed stages, but no public source here closes a comparable household chain through adequacy, safe receipt, control, material protection and recovery.
+
+230. **A youth mental-health plan, awareness campaign, screening activity, trained counsellor, school integration, platform user, hotline contact, referral or outreach count is not by itself trusted care, confidentiality, therapeutic receipt, safety, continuity, functioning or recovery.** A service can expand reach while specialist scarcity, stigma, privacy, referral failure, language, disability, displacement or family risk still prevent usable help.
+
+The HY packet adds **youth-mental-health-access-to-trusted-continuous-functioning conversion** with a source boundary around distress, recognition, help-seeking, contact, confidentiality, consent, language, stigma, assessment, referral, specialist capacity, treatment/support, repeat contact, safeguarding, school/work functioning, safety, family, disability, migration and youth-defined agency. WHO supplies service and rights guidance; UNICEF supplies global scale, Viet Nam, Türkiye, Brazil, Nepal, North Macedonia and Eastern/Southern Africa evidence. These close service design, policy, training, reach, digital contact, outreach and system-gap stages, but no public source here closes a comparable young-person chain through confidential receipt, continuous care, functioning and recovery.
 
 ## What the evidence does not support
 
