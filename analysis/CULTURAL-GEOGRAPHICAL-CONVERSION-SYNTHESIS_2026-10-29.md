@@ -3831,6 +3831,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 406. **A regional AI-health roadmap is collective governance intent, not patient-level safety.** A 53-country strategy can align principles, data intelligence and innovation while national procurement, language, disability access, liability, clinical oversight and redress remain geographically uneven.
 
+407. **AI language capability is not linguistic sovereignty.** A corpus, model or data commons can increase representation while leaving communities without control over consent, restricted knowledge, correction, withdrawal, benefit sharing, dialect performance or consequential-service use.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3849,7 +3851,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 406 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 407 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 
