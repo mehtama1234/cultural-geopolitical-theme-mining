@@ -3623,6 +3623,14 @@ The KC follow-up adds a **care-robotics-to-technical-usability-relational-experi
 
 The KC evidence adds **care-technology-acceptability-to-cultural-fit-language-disability-access-data-control-human-fallback-and-local-care-legitimacy** as a separate conversion question. The next ledger should retain site, language, disability, household, care-worker and provider context and should measure not only use but the ability to refuse, stop, repair, contest and preserve human relationships.
 
+331. **An eDNA assay, autonomous sampler, public data release, national research indicator, Alaska eulachon monitoring plan, citizen-science activity or species-inventory tool is not by itself local presence, abundance, recovery, fisheries protection, subsistence security, data sovereignty, community authority or ecological outcome.** DOI’s 2026 plan makes eDNA and Alaska Native/rural capacity-building visible in a culturally significant fishery, but it does not yet close assay performance, trend, decision authority, benefit, consent or recovery.
+
+The KD follow-up adds an **eDNA-signal-to-culturally-significant-species-local-interpretation-community-authority-subsistence-outcome** distinction. The evidence closes a named place and participation infrastructure, but no public source here closes the chain from signal through locally governed decision, management response, subsistence effect and recovery.
+
+332. **Community science, internships, public presentations, open sequences or agency-to-local monitoring partnerships are not by themselves data sovereignty, shared decision power, culturally legitimate interpretation or protection from premature enforcement.** Participation can build technical capacity while the laboratory, database, agency or funding body retains control over sampling design, uncertainty, access and the resulting management action.
+
+The KD evidence adds **environmental-monitoring-participation-to-data-authority-contestation-proportionate-action-and-livelihood-protection** as a separate conversion question. The next ledger should record who defines the question, owns or governs the data, interprets uncertainty, can challenge a result, authorizes action and receives benefit—not only who collected the sample.
+
 ## What the evidence does not support
 
 Do not claim that:
