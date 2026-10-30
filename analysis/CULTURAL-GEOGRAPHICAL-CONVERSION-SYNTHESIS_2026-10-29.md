@@ -3745,6 +3745,12 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 363. **Remote operations move accountability into a multi-agency data and labour system.** Port response requires shared situational awareness, qualified local authorities, remote operators, pilots, responders and remedy pathways; integrating data or standardizing review can improve coordination without proving faster response, lower harm, fair workload or clear liability after an incident.
 
+364. **A safety-control failure record is not yet a liability outcome, but it defines the evidence chain needed to reach one.** When collision avoidance is disabled during an autonomous test, observer manning, operator training, local-authority communication, written risk controls and deviation logs become material facts; without them, later attribution and learning are weakened.
+
+365. **Specialist autonomous-vessel insurance shows market formation, not universal protection.** A policy count or broad coverage menu does not establish affordability, exclusions, claims payment, supplier responsibility, cyber/systemic coverage, or reachable compensation for people harmed across sea and shore.
+
+366. **More local autonomous-ship approvals can coexist with unresolved cross-border authority.** Regulatory volume and comparative guidance show institutional activity, but they do not harmonize the status of the master, remote operator, software provider, insurer or investigating State, nor guarantee a claimant a practical remedy.
+
 ## What the evidence does not support
 
 Do not claim that:
