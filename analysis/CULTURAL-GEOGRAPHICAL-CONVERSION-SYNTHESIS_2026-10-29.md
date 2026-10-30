@@ -3821,6 +3821,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 401. **Community co-design and staged reversibility are stronger than generic consultation, but they do not automatically establish authority.** A named Nunavut climate-cooling experiment can close place, oversight and engagement stages while leaving local decision power, ecological effect, benefit distribution and global climate accountability open.
 
+402. **A service-provider pipeline is closer to smallholder capability than an equipment award, but it is still not farmer-level access.** Named providers, off-takers, finance and a smallholder cohort close an operating ecosystem; booking, price, timing, uptime, repair, gendered reach, income and post-support continuity remain the decisive conversion.
+
 ## What the evidence does not support
 
 Do not claim that:

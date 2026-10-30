@@ -33,6 +33,8 @@ robot / drone / autonomous machine / data platform
 | JZ12 | FAO reports Tanzania launched a 2026–2036 National Agricultural Mechanization Strategy and warns that earlier efforts faltered when equipment was poorly suited to smallholder systems and unsupported by local maintenance, spare-parts and repair chains. | Named national strategy and failure-mode evidence. | Strategy implementation, service uptime, affordability, labor effects, gender distribution or farm outcomes. |
 | JZ13 | The World Bank’s 2026 AgriConnect implementation plan aims to reach 300 million smallholder and family farmers by 2030 through six linked pillars spanning AgTech, services, markets, finance, jobs and resilience. | Large-scale service and institutional architecture. | Actual reach, machine access, causal productivity/income, data governance, local ownership or durable resilience. |
 | JZ14 | ADB’s 2026 Asia mechanization review finds machinery and digital tools can improve yields, labor productivity, income, dietary diversity and efficiency, but impacts vary widely by country and community and depend on service models, finance, extension and distributional policy. | Comparative outcome and policy-conditionality evidence. | Generalizable causal effect, worker transition, environmental impact, affordability or smallholder agency in a named place. |
+| JZ15 | IFAD’s 2025–26 FARM P3 Zimbabwe pilot developed 73 investment-ready mechanization service providers, connected 78% of providers to off-takers, engaged 2,023 smallholder farmers and mobilized about US$150,000 in co-financing; it reports 104 providers, 14 off-takers and four financial institutions in the pilot ecosystem. | Named service-provider, finance and value-chain operating chain. | Per-farmer service receipt, price, uptime, repair, yield/income change, gender distribution, debt, subsidy dependence or post-pilot durability. |
+| JZ16 | FAO’s 2026 Africa mechanization conference frames hire services, repair workshops and small value-addition enterprises as routes to access without ownership, while identifying capital, skills, finance, inclusion and coordination constraints for smallholders, youth, cooperatives and local providers. | Current regional institutional and business-model direction. | Whether the models remain viable after support, reach women and poorer farms, reduce labor harm or improve food-system outcomes. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -50,9 +52,15 @@ service providers, data governance and markets. A robot can be technically
 capable and still be a poor rural intervention if it cannot be repaired, booked,
 financed, shared or operated safely during the planting window.
 
+The Zimbabwe FARM P3 pilot supplies a stronger operating bridge than a target
+or strategy: providers, off-takers, finance institutions and smallholder
+farmers are named in one value-chain design. It still does not close the farmer
+encounter. A service-provider pipeline can be investment-ready while actual
+booking, price, timing, repair and crop-income outcomes remain unobserved.
+
 ## Counterexample and source boundary
 
-An autonomous machine, field demonstration, accuracy metric, labor-saving estimate, adoption statistic, funding award, drone service, cooperative training program, machine-as-a-service model, digital-platform enrollment or productivity claim is not by itself affordable access, safe work, decent rural livelihoods, reliable food production, local repair capability, farmer data control, reduced environmental burden or equitable transition. FAO’s Karamoja farmer account is a lived productivity signal, not a controlled impact estimate; the African innovation cases show fit and capability pathways, not durable business viability; and platform reach does not prove sustained use, income or food resilience.
+An autonomous machine, field demonstration, accuracy metric, labor-saving estimate, adoption statistic, funding award, drone service, cooperative training program, machine-as-a-service model, digital-platform enrollment or productivity claim is not by itself affordable access, safe work, decent rural livelihoods, reliable food production, local repair capability, farmer data control, reduced environmental burden or equitable transition. FAO’s Karamoja farmer account and IFAD’s Zimbabwe provider pipeline are stronger named operating signals, not proof of same-farmer service receipt, affordability, income recovery or durable viability; the African innovation cases show fit and capability pathways, not durable business viability; and platform reach does not prove sustained use, income or food resilience.
 
 A national mechanization strategy, a target number of farmers, a service-platform
 enrollment or an aggregate review of positive impacts does not prove that a
@@ -85,4 +93,6 @@ worker transition, gender, debt, data rights, yield, income and exit.
 - FAO, [Tanzania National Agricultural Mechanization Strategy 2026–2036](https://fao.sitefinity.cloud/newsroom/detail/africalaunches-pushtoclose-agricultural-mechanization-gap-as-landmarkconference-begins/en)
 - World Bank, [AgriConnect Implementation Plan 2026](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099083126084511951)
 - Asian Development Bank, [Transforming Smallholder Agriculture Through Mechanization in Asia](https://www.adb.org/adbi/publications/transforming-smallholder-agriculture-through-mechanization-in-asia-volume-2-impacts-and-policy-options)
+- IFAD, [FARM P3 Zimbabwe mechanization service-provider pilot](https://www.ifad.org/en/w/publications/food-and-agriculture-resilience-mission-pillar-3-farm-p3-zimbabwe-final-report-2025-2026)
+- FAO, [Africa Conference on Sustainable Agricultural Mechanization 2026](https://www.fao.org/africa/events/events-detail/africa-conference-on-sustainable-agricultural-mechanization/en)
 
