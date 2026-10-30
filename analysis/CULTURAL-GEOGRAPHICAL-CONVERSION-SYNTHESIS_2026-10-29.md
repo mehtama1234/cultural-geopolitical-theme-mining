@@ -1965,6 +1965,17 @@ not establish that named people can understand and choose care, receive it
 safely, afford the pathway, retain data and bodily agency, or obtain durable
 benefit and remedy.
 
+167. **A synthetic-biology platform, DNA-synthesis screen, AI design tool,
+engineered organism, biomanufacturing facility, biosafety committee, national
+strategy, regulatory sandbox, dual-use assessment or innovation grant is not by
+itself safe containment, environmental protection, public health, food security,
+community consent, equitable benefit, incident resilience, accountability or
+legitimate innovation.** Designs generated, sequences screened, labs certified,
+products manufactured, field trials approved, partnerships formed or risks
+assessed do not establish that named people, workers, ecosystems and
+communities are protected from misuse, accidental release, unequal exposure or
+unremedied harm.
+
 The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior. The DT packet adds **informal-food-market-policy-to-safe-affordable-cultural-food-and-dignified-livelihood** with a source boundary around nutrition, affordability, foodborne illness, vendor income, women’s control, displacement, cultural continuity and post-shock governance. The DU packet adds **local-medicine-production-to-quality-assured-patient-continuity-and-regional-health-sovereignty** with a source boundary around product availability, affordability, quality, rural continuity, workforce capability and durable geopolitical leverage. The DV packet adds **mega-event-to-durable-host-city-legacy-and-legitimate-geopolitical-reputation** with a source boundary around resident wellbeing, worker remedy, post-event affordability, maintenance, cultural belonging and reputation after scrutiny. The DW packet adds **Arctic-corridor-to-Indigenous-community-sovereignty-and-safe-local-benefit** with a source boundary around community benefit, food security, cultural continuity, emergency response, remedy and durable sovereignty.
 
 The ET packet adds **tax-capacity-to-visible-public-value-and-voluntary-compliance** with a source boundary around named taxpayer burden, local service receipt, budget execution, refund and appeal fairness, household and firm consequences, gendered burden, later voluntary compliance and durable fiscal legitimacy.
@@ -1998,6 +2009,8 @@ The FH packet adds **cloud-sovereignty-to-public-service-continuity-and-local-co
 The FI packet adds **post-quantum-migration-to-secure-continuity-and-equitable-digital-trust** with a source boundary around named workload completion, user continuity, accessibility, privacy preservation, recovery, small-operator capacity, vendor dependence, cost, algorithm failure, legal conflict and durable digital trust.
 
 The FJ packet adds **genomic-medicine-to-equitable-care-and-community-consent** with a source boundary around named patient outcomes, affordable treatment, safety, long-term follow-up, data and bodily agency, community consent, local capability, benefit sharing, cultural safety, pricing, refusal and remedy.
+
+The FK packet adds **synthetic-biology-to-biorisk-resilience-and-legitimate-innovation** with a source boundary around named exposure, containment, community consent, environmental effect, worker safety, benefit distribution, incident response, geopolitical spillover, accountability and durable trust.
 
 The DX packet adds **municipal-waste-policy-to-safe-circular-service-and-waste-picker-just-transition** with a source boundary around exposure reduction, service reliability, worker income, child protection, social protection, material recovery, neighbourhood equity and post-reform power.
 

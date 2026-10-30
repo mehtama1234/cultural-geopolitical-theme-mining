@@ -2,7 +2,7 @@
 
 **Scope:** cultural, social, geographical, technological and geopolitical
 theme-mining atlas  
-**Baseline:** refreshed through Rotation FJ
+**Baseline:** refreshed through Rotation FK
 **Purpose:** verify artifact coverage, index integrity, local link integrity and
 the boundary between the current bounded evidence release and the still-active
 research goal.
@@ -11,12 +11,12 @@ research goal.
 
 | Check | Result | Evidence |
 |---|---:|---|
-| Numbered synthesis propositions | 166 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–166 in strict order |
-| Standard rotation markdown packets | 165 | `analysis/ROTATION-*.md` |
-| Standard rotation CSV ledgers | 165 | `analysis/ROTATION-*.csv` |
-| Register rotation rows | 165 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
-| Local register links | checked after FJ; 0 missing | link-target scan of the register |
-| Recent packet CSV shape | six rows and nine fields for FJ; all six source IDs present | `ROTATION-FJ-GENOMIC-MEDICINE-GENE-EDITING-EQUITABLE-CARE-2026-10-29.csv` |
+| Numbered synthesis propositions | 167 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–167 in strict order |
+| Standard rotation markdown packets | 166 | `analysis/ROTATION-*.md` |
+| Standard rotation CSV ledgers | 166 | `analysis/ROTATION-*.csv` |
+| Register rotation rows | 166 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
+| Local register links | checked after FK; 0 missing | link-target scan of the register |
+| Recent packet CSV shape | six rows and nine fields for FK; all six source IDs present | `ROTATION-FK-SYNTHETIC-BIOLOGY-DUAL-USE-BIORISK-RESILIENCE-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
