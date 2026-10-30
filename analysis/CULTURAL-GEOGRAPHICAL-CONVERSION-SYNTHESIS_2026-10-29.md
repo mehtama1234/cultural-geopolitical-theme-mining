@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IM
+**Date:** 2026-10-30; refreshed through Rotations D–IN
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3278,6 +3278,10 @@ The IL packet adds **community-health-worker-system-to-supplied-trusted-primary-
 244. **A land law, cadastral record, electronic title, joint ownership, inheritance reform, parcel count, climate-smart project or women’s job statistic is not by itself secure control, credit, bargaining power, adaptation investment, income, safety or durable land security.** A woman’s name on a title can coexist with restricted possession or decision power; legal recognition can coexist with insecure customary tenure; and registration can precede actual protection.
 
 The IM packet adds **women-land-rights-to-controlled-climate-resilient-livelihood-and-security conversion** with a source boundary around legal/customary status, title, possession, control, inheritance, dispute, credit, inputs, extension, climate investment, production, income, food, housing, bargaining power, safety and intergenerational security. FAO supplies Asia-Pacific baseline, legal/customary and climate/gender evidence; World Bank supplies documentation scale, Philippines e-titles, Mozambique evaluation design and Ethiopia restoration/employment; UN-Habitat supplies the land/housing/service mechanism. These close baseline, documentation, digitization, evaluation, restoration, employment and governance stages, but no public source here closes a comparable woman-level chain through control, finance, adaptation, safety and intergenerational security.
+
+245. **A critical-minerals target, exploration permit, mine/refinery announcement, export-control response, local-content rule, traceability record, recycling capacity figure, job count or community consultation is not by itself secure supply, free consent, decent work, fair local value, cultural continuity, ecological protection or a just transition.** Supply diversification can coexist with local dispossession; consultation can fall short of consent; and traceability can make a chain legible without making remedy available.
+
+The IN packet adds **critical-minerals-development-to-consented-safe-local-value-and-just-transition conversion** with a source boundary around mineral, territory, governance, consent, water, land, contractor, worker, wage, safety, skills, local supplier, revenue, benefit sharing, gender, ecological monitoring, grievance, remedy and post-closure outcomes. IEA supplies concentration, recycling and traceability evidence; ILO supplies decent-work and skills risks; World Bank supplies local-value policy and Oyu Tolgoi mechanisms; UN sources supply Indigenous-consent and cultural-livelihood boundaries. These close strategic concentration, circularity, traceability, workforce, policy, named-project, consent and informality stages, but no public source here closes a comparable mine/community/worker chain through consent, water, income, safety, ecological condition, grievance and durable legitimacy.
 
 ## What the evidence does not support
 
