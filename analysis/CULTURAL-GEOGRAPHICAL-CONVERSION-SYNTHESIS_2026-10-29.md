@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JU
+**Date:** 2026-10-30; refreshed through Rotation JV
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3407,6 +3407,10 @@ The JT packet adds **precision-fermentation-to-safe-affordable-nutritious-cultur
 
 The JU packet adds **vaping-regulation-to-youth-protection-adult-health-benefit-mental-health-support-and-durable-market-accountability conversion** with a source boundary around product/channel/place/population, marketing and flavor, age/access, device, frequency, dependence, mental health, school/work, enforcement, cessation support, substitution and later health outcome. FDA and CDC supply current youth prevalence, product dominance, flavor, place/demographic, enforcement and mental-health evidence; WHO supplies comparative European regulatory diversity. These close prevalence, product, flavor, distributional, informal-supply, device, mental-health and comparative-regulation stages, but no public source here closes a comparable product/channel/place chain through durable youth protection, reduced dependence, adult health benefit, mental-health recovery and accountable market control.
 
+277. **A destination accreditation, referral approval, successful procedure, medical-tourism revenue, international-patient count, discharge summary, telemedicine link or cross-border agreement is not by itself safe recovery, informed consent, continuity, affordability, local-system benefit, workforce sustainability or enforceable liability.** A patient can receive technically successful treatment and still face unplanned costs or poor follow-up; and a destination can attract revenue while local access worsens.
+
+The JV packet adds **medical-travel-to-safe-continuous-equitable-care-local-capability-and-cross-border-accountability conversion** with a source boundary around patient/provider/destination/home-system, need, referral, consent, language, payment, procedure, records, complication, follow-up, rehabilitation, liability, household cost, workforce effect and later health outcome. WHO supplies ethics, equity, destination-system, continuity, language, information, cultural/legal-mobility and regional-governance evidence; Cyprus supplies a named managed-referral case; and OECD supplies the health-worker geography and origin-country shortage context. These close ethical, distributional, continuity, information, cultural/legal, managed-referral, regional-governance and workforce stages, but no public source here closes a comparable patient/destination/home-system chain through safe recovery, equitable local capability, reliable follow-up, enforceable liability and durable cross-border trust.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3443,7 +3447,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JU.
+living goal. The current atlas baseline has been refreshed through Rotation JV.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
