@@ -31,6 +31,9 @@ child’s digital use and platform risk
 | Ofcom 2026 use-of-age-assurance report | Age checks are being deployed at scale after UK child-protection duties; the report evaluates early use, but states that more action is needed and the job is not done. | regulatory deployment and early compliance evidence | accuracy, circumvention, privacy, unequal access, actual harm reduction and child wellbeing |
 | Ofcom age-assurance duties and guidance | The UK framework treats highly effective age assurance as a basis for targeting protections and requires attention to privacy and data protection. | legal duty, method and privacy governance | child-level experience, false positives/negatives, remedy and long-term trust |
 | UNICEF Childhood in a Digital World | Children need digital opportunities and skills as well as protection; low-connectivity settings risk exclusion, and professional capacity and broader protection systems matter. | opportunity/protection tension and geographic inclusion | named child exposure, access quality, safety response and developmental outcome |
+| Ofcom 2026 report on app stores by children | Ofcom is separately examining children’s use of app stores and whether greater use of age assurance or other measures would better protect them; the report does not by itself establish safer downstream app use. | app-store distribution channel and regulatory option set | app-level exposure, account/device controls, sideloading, privacy, access loss, reporting and child outcome |
+| ICO May 2026 age-assurance statement | After contacting major platforms, the ICO said it had not yet seen new viable and privacy-friendly age-assurance solutions and lacked confidence that appropriate measures were being put in place. | implementation gap and privacy-governance warning | actual platform methods, accuracy, bias, data retention, enforcement, exposure and remedy |
+| ICO principles for age assurance | Age assurance should be effective, proportionate, privacy-preserving, non-discriminatory and compatible with children’s best interests and access to information. | rights and privacy design criteria | operational trade-offs, error by subgroup, contestability, cultural fit and child-level safety |
 
 ## Stage audit
 
@@ -89,6 +92,14 @@ alone.
   reducing use is not equivalent to improving wellbeing.
 - A regulator may observe deployment and compliance without observing private
   child-level exposure, harm, reporting, remedy or long-term development.
+- A system can satisfy a regulatory deployment milestone while the privacy
+  regulator still finds no viable privacy-friendly method; this is evidence of
+  an implementation and accountability gap, not proof that the regulatory
+  architecture has failed or succeeded at child safety.
+- App stores may be a high-leverage distribution intermediary because they sit
+  before many downloaded services, but app-store age checks do not automatically
+  govern web access, shared devices, sideloading, account transfer or the
+  design and moderation of the downstream service.
 
 ## Promotion decision
 
@@ -97,15 +108,21 @@ moderation, encounter, report, remedy, privacy, inclusion and wellbeing are
 separate stages. Keep age-signal-to-child-outcome claims in Tier 2 until a named
 service or cohort ledger joins assurance result, exposure, safety action,
 workaround, privacy burden, complaint/remedy and later wellbeing or participation.
+Treat app stores as a separate intermediary stage, and treat regulator-versus-
+privacy-regulator disagreement or sequencing as evidence about implementation
+governance rather than as a child outcome.
 
 ## Next test
 
-Compare one regulated platform, one messaging/game service and one low-connectivity
-or shared-device setting. Record age-assurance method, accuracy, false positive/
-negative, data retained, device/account context, exposure, recommender, report,
-response time, remedy, workaround, access loss, child/family perception and
-wellbeing. Include children’s own accounts of what worked, what felt invasive,
-and what they did when the control failed.
+Compare one regulated platform, one app-store route, one messaging/game service
+and one low-connectivity or shared-device setting. Record age-assurance method,
+accuracy, false positive/negative, data retained, device/account context,
+sideloading or web route, exposure, recommender, report, response time, remedy,
+workaround, access loss, child/family perception and wellbeing. Include
+children’s own accounts of what worked, what felt invasive, and what they did
+when the control failed. Add an audit field for whether the platform’s claim of
+privacy preservation is supported by data minimisation, deletion, vendor due
+diligence, bias testing and a usable challenge route.
 
 ## Sources
 
@@ -114,3 +131,6 @@ and what they did when the control failed.
 3. [Ofcom 2026 use of age assurance report](https://www.ofcom.org.uk/online-safety/protecting-children/use-of-age-assurance-report-2026)
 4. [Ofcom age-assurance duties under the Online Safety Act](https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance)
 5. [UNICEF Childhood in a Digital World](https://www.unicef.org/innocenti/reports/childhood-digital-world)
+6. [Ofcom report on the use of app stores by children](https://www.ofcom.org.uk/online-safety/protecting-children/report-on-the-use-of-app-stores-by-children)
+7. [ICO statement on age assurance, 21 May 2026](https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/05/ico-statement-on-age-assurance/)
+8. [ICO principles for a common international approach to age assurance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/joint-statement-on-a-common-international-approach-to-age-assurance/principles/)

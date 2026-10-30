@@ -3655,6 +3655,14 @@ The JS follow-up adds a **CBDC-policy-momentum-to-public-interest-test-design-of
 
 The JS evidence adds **payment-problem-to-public-option-counterfactual-inclusion-privacy-resilience-and-monetary-agency** as a separate conversion question. The next ledger should compare CBDC, cash, instant payments, bank deposits, stablecoins and tokenized-money alternatives for the same user, merchant or emergency context rather than treating CBDC status as the unit of progress.
 
+339. **An age-assurance deployment milestone, app-store age check, child account, privacy commitment or regulatory report is not by itself reduced child exposure, usable remedy, inclusive access, child wellbeing or trust.** Ofcom’s 2026 work shows age assurance being examined across regulated services and app-store distribution, while the ICO’s May 2026 statement still reported no new viable privacy-friendly solutions among major platforms and no confidence that appropriate measures were in place. These sources close implementation and governance scrutiny, not child-level safety outcomes.
+
+The BO follow-up adds **age-assurance-deployment-to-app-store-intermediary-platform-design-exposure-remedy-and-child-outcome** as a separate conversion question. The next ledger should join route, device, age method, error, data lifecycle, downstream service design, exposure, report, remedy and child experience rather than treating deployment as protection.
+
+340. **Privacy-preserving age assurance is a design requirement, not a demonstrated cultural or geographical fit.** The ICO principles require proportionality, non-discrimination, data minimisation, best interests and continued access to information, but a method can meet a stated design criterion while imposing identity, device, parent, connectivity or contestation burdens unevenly across children and households.
+
+The BO evidence adds **age-signal-rights-criterion-to-subgroup-error-contestability-access-and-local-legitimacy** as a separate conversion question. The next test should compare app-store, web, shared-device and low-connectivity routes and record who can refuse, challenge, recover access, delete data and obtain remedy—not only whether the service labels the method privacy-friendly.
+
 ## What the evidence does not support
 
 Do not claim that:
