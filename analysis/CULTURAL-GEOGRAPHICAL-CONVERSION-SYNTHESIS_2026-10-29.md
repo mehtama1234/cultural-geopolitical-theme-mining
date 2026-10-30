@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation LM
+**Date:** 2026-10-30; refreshed through Rotation LN
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3482,6 +3482,10 @@ The LM packet adds **named-autonomous-route-to-measured-road-substitution-safe-p
 295. **A supplier’s voyage count, container count, replaced-truck estimate, CO2 estimate, trade-press crew report, remote-centre workload description or forecast of full autonomy is not by itself a primary certification record, independently audited environmental benefit, safe multi-vessel supervision, decent worker transition, current operating status or proof that autonomy has crossed from supervised automation to uncrewed commercial service.** The new evidence narrows uncertainty: the vessel is operating materially and crew roles are moving ashore. But the current public record contains stale/future-dated descriptions, secondary-source status claims and no located public certification or independent impact audit.
 
 The LM follow-up therefore promotes a **named-case evidence conflict** rather than a success claim. Leclanché reports more than 250 voyages and more than 35,000 containers by May 2025; AMNYTT reports two navigators and staged movement toward one or zero personnel in 2026–27; Massterly’s public project page still describes uncrewed operation as a future state after testing; and the Norwegian Maritime Authority’s March 2026 study confirms that ROC jurisdiction remains an active legal issue. The next acquisition must reconcile source dates and roles against primary certification, crewing, incident, remote-centre, port and independent environmental records.
+
+296. **An electric sea drone, vessel launch, port infrastructure, 9,000 truckloads shifted, 6,000-truckload forecast, 150-truck projection, emissions estimate, remote-operations trial, shore-based approval or “fully electric transport chain” is not by itself stable freight service, food-supply resilience, safe interaction with ferries, verified lifecycle emissions reduction, decent worker transition, affordable logistics, local consent or scalable corridor capability.** ASKO’s own January 2026 account explicitly keeps stable operation open; projected full-operation benefits cannot be treated as achieved outcomes.
+
+The LN packet adds **autonomous-sea-drone-to-stable-grocery-logistics-safe-ferry-interface-decent-remote-work-and-local-environmental-benefit conversion** with a source boundary around vessel/route/port, cargo, crossing, payload, schedule, delay, cancellation, charging, ferry encounter, incident, crew and ROC workload, customer service, road substitution, emissions, local exposure, worker or community feedback and later corridor capability. ASKO supplies the named Moss–Horten vessels, current first-party activity signal, explicit stable-operation challenge, fly-ash expansion and whole-chain architecture; Massterly supplies shore-approval, operator-scaling, three-vessel-trial and sea–shore trust evidence; and Norway supplies the full-operation opportunity model. These close the named route, current activity, reliability boundary, local-material expansion, labour pathway, ROC milestones, organizational mechanism and system opportunity stages, but no public source here closes a comparable corridor through stable grocery logistics, safe ferry interaction, verified lifecycle benefit, decent remote work, affordable service, local consent and scalable capability.
 
 ## What the evidence does not support
 
