@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation LQ
+**Date:** 2026-10-30; refreshed through Rotation LO follow-up
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3502,6 +3502,10 @@ The LQ packet adds **uncrewed-offshore-vessel-to-visible-mixed-traffic-safe-inte
 300. **A second unmanned-asset casualty, a control-transfer finding, diesel-pollution volume, hazardous-material detection boat, remote-control validation or occupational-exposure reduction claim is not by itself reliable mixed-traffic detection, safe handover, complete accountability, verified emergency response, pollution prevention, worker protection or a general autonomous-vessel failure rate.** Kirkella/Shovette identifies a specific propulsion-control changeover weakness around a moored unmanned tug; Japan’s Albatross is still in validation; and neither should be treated as equivalent to the Iceni/X18 collision.
 
 The LQ follow-up adds a second official casualty and a positive safety-substitution case. MAIB’s Kirkella/Shovette report records a 2022 collision with a moored unmanned tug, partial sinking and about 7,000 litres of diesel pollution, identifying mismatched propulsion-control levers and absent changeover procedure as safety issues. Japan Coast Guard is validating the Albatross unmanned boat for hazardous-material detection, rapid launch, accuracy and remote control to reduce officer exposure. These add control-transfer, unmanned-asset pollution and exposure-substitution stages, but no public source here closes a comparable chain through reliable detection, safe handover, verified emergency response, pollution prevention, worker protection, liability and public trust.
+
+301. **A national autonomous-ship certificate, Level 4-equivalent label, commercial launch or collision-avoidance system is not by itself crewless operation, remote-only control, safe passenger service, reduced workload, reliable island continuity or proof of international equivalence.** MLIT's first certificate explicitly retained continuous onboard crew monitoring of radio communications and navigation lights/shapes, while broader program materials use Level 4-equivalent language.
+
+The LO follow-up adds an **autonomous-certification-to-operational-boundary-and-worker-outcome** distinction. Nippon Foundation, MOL and MTI close certification and commercial-entry milestones across four vessel types; MLIT closes the current onboard-crew boundary and keeps workload change as a future verification question. The source conflict is itself a finding: commercial autonomous operation and crewless remote operation should be measured separately through autonomy hours, interventions, crew/FOC staffing, workload, incidents and route outcomes.
 
 ## What the evidence does not support
 
