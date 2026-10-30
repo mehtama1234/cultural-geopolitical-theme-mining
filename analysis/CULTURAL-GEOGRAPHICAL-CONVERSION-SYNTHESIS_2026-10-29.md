@@ -3527,6 +3527,10 @@ The KE follow-up adds a **neurotechnology-to-cross-border-clinical-evidence-and-
 
 The KA follow-up adds a **lunar-capability-to-commercial-logistics-reliability-and-shared-governance** distinction. CLPS closes a concrete public procurement and delivery-market pathway; the Blue Ghost/IM-2 record closes a reliability counterexample; and Moon Base plans close a transition toward recurring south-pole logistics. These strengthen the claim that lunar activity is becoming infrastructural, but no public source here closes site-level environmental protection, heritage authority, non-exclusion, cross-border liability, benefit sharing or durable legitimacy.
 
+307. **A national non-deployment statement, model-only research program, ozone-assessment mandate, governance dialogue, SRM model, investment, outdoor experiment or climate scenario is not by itself global authorization, regional safety, ecological protection, equitable participation, compensation, mitigation continuity, public consent or legitimate deployment authority.** The UK supplies a bounded national policy and institutional research posture; the Montreal Protocol supplies an assessment mandate for ozone and ecosystem effects; neither resolves global decision rights or liability.
+
+The KF follow-up adds an **SRM-research-to-cross-regime-assessment-and-non-deployment-boundary** distinction. UK policy closes a national “research without deployment” position; the Met Office closes a model-only institutional boundary; and the Montreal Protocol closes an ozone/UV/health/biodiversity assessment pathway with regional and gender-balance language. These make governance more concrete without converting research into a climate solution or a global consent mechanism.
+
 ## What the evidence does not support
 
 Do not claim that:
