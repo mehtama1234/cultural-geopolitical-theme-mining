@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–GI
+**Date:** 2026-10-30; refreshed through Rotations D–HI
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3155,6 +3155,10 @@ The FW packet adds **school-safety-to-safe-learning-and-belonging** with a sourc
 
 The FX packet adds **legal-need-to-affordable-fair-remedy-and-household-security** with a source boundary around named person or group, legal need, route, language, disability, cost, safety, intermediary, service, hearing or mediation, decision, enforcement, material result, fairness, recurrence and remedy.
 
+214. **An age-verification request, facial age estimate, digital-ID check, content gate, platform safety duty, privacy notice, vendor assurance, enforcement action, reduced visit or self-reported deterrence is not by itself safer youth participation, lawful information access, privacy, non-discrimination, help-seeking, wellbeing or durable trust.** A gate can reduce exposure on one route while shifting use to search, VPN, shared accounts or another service; an estimate can misclassify or exclude; and a formal appeal or deletion promise can remain unusable without comprehension, access, correction and timely remedy.
+
+The HI packet adds **age-assurance-to-safe-and-legitimate-youth-participation conversion** with a source boundary around age-risk signal, method, threshold, deployment, pass/fail, error, privacy, deletion, appeal, content/contact exposure, displaced route, help-seeking, wellbeing and trust. Ofcom supplies current deployment, deterrence and circumvention evidence; ICO supplies rights, design, named enforcement and a provider case; and the FTC supplies a narrow US processing condition. These close parts of the gate and governance stages, but no public source here closes a comparable subgroup-aware child-level chain from assurance result through appeal, displaced use and later safety or wellbeing.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3191,7 +3195,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HA.
+living goal. The current atlas baseline has been refreshed through Rotation HI.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
