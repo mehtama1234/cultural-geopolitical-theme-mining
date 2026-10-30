@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JM
+**Date:** 2026-10-30; refreshed through Rotation JN
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3375,6 +3375,10 @@ The JL packet adds **geothermal-development-to-affordable-reliable-energy-local-
 
 The JM packet adds **deep-sea-mineral-governance-to-precautionary-biodiversity-protection-fair-benefit-and-geopolitical-legitimacy conversion** with a source boundary around contract/area/decision, mineral need and alternatives, baseline science, contractor, EIA, independent review, monitoring, plume/habitat/food-web effects, enforcement, benefit allocation, affected communities, remedy and later ecological and diplomatic outcomes. ISA supplies current exploration-versus-exploitation status, environmental safeguards and Common Heritage Fund architecture; the UN Scientific Advisory Board supplies precaution, irreversibility and necessity questions; IUCN supplies conservation uncertainty; NOAA supplies mapping, baseline and retrospective recovery evidence; and the BBNJ Agreement supplies the wider 2026 biodiversity-governance context. These close legal status, formal safeguards, risk principles, conservation concern, scientific gaps, biodiversity governance, necessity and recovery-evidence stages, but no public source here closes a comparable contract/area/community chain through precautionary ecosystem protection, sustainable mineral supply, fair benefit, scientific accountability and durable geopolitical legitimacy.
 
+269. **An IPCC pathway, technology roadmap, pilot, carbon-removal credit, offtake agreement, registry, MRV protocol, restored hectare, biomass supply contract, direct-air-capture plant or geological-storage permit is not by itself additional durable atmospheric removal, climate benefit, affordability, environmental justice, community consent or evidence that emissions cuts are not being delayed.** A tonne can be counted while reversal liability is unclear; a project can improve soil while failing additionality; and durable storage can coexist with upstream energy, land, water or community burdens.
+
+The JN packet adds **carbon-dioxide-removal-to-verifiable-permanent-climate-benefit-and-just-local-transition conversion** with a source boundary around project/method/community, residual-emissions rationale, baseline, energy/land/water inputs, measured removal, storage permanence, leakage/reversal, lifecycle emissions, credit issuance, buyer use, local consent, benefit receipt, liability and later verification. IPCC supplies the pathway role, method heterogeneity and accounting-development boundary; DOE supplies current maturity, environmental-justice, market-design and MRV evidence; and IEA supplies innovation, finance, offtake and credit-demand evidence. These close climate-system framing, maturity, innovation, uncertainty, market design, demand, justice and accounting-process stages, but no public source here closes a comparable project/community chain through additional durable removal, full lifecycle climate benefit, equitable local outcomes and proof that CDR complements rather than delays direct emissions reduction.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3411,7 +3415,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JM.
+living goal. The current atlas baseline has been refreshed through Rotation JN.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
