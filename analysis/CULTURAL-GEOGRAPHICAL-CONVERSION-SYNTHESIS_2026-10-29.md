@@ -3671,6 +3671,14 @@ The JR follow-up adds **advanced-air-mobility-certification-to-local-siting-comm
 
 The JR evidence adds **AAM-governance-handoff-to-public-data-local-decision-route-change-exposure-remedy-and-shared-benefit** as a separate conversion question. The next ledger should record the actor, decision, evidence available, objection, change, operating condition and post-deployment outcome at each named vertiport or route rather than treating “community engagement” as the endpoint.
 
+343. **A customer interaction, automated harm marker, safer-gambling message, account restriction, self-exclusion record, participation change or operator metric is not by itself reduced gambling harm, preserved household essentials, improved health, youth safety or durable recovery.** The Gambling Commission reports 20.5 million online customer interactions in 2025–26 but explicitly says it does not yet measure their quality or impact; its March 2026 market data show rising interaction volume alongside very large online-slots activity and methodology changes.
+
+The JP follow-up adds **online-gambling-intervention-volume-to-play-interruption-household-protection-support-recovery-and-operator-accountability** as a separate conversion question. The evidence closes intervention scale, product intensity and the measurement gap, but no public source here closes a named person/household from trigger through continued play, payment, essential spending, support, recovery or cross-operator substitution.
+
+344. **A product mix, demographic association or youth-exposure statistic is not by itself a causal explanation or an effective prevention result.** The 2026 Gambling Commission analysis finds that gambling activity explains only part of the elevated adverse-consequence risk among younger adults, ethnic-minority participants and lower-income households, and warns that its cross-sectional design cannot establish causality; the 2025 youth survey records online access, parent-account use and digital advertising exposure without proving platform enforcement or later harm.
+
+The JP evidence adds **gambling-exposure-social-context-to-household-financial-health-youth-safety-and-durable-recovery** as a separate conversion question. The next ledger should preserve age, ethnicity, income, family context, product, payment, ad exposure, account-sharing, support barriers and substitution rather than reducing vulnerability to an individual risk score or intervention count.
+
 ## What the evidence does not support
 
 Do not claim that:
