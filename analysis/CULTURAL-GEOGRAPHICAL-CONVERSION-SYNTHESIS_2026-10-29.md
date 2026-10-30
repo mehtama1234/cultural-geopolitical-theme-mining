@@ -3631,6 +3631,14 @@ The KD follow-up adds an **eDNA-signal-to-culturally-significant-species-local-i
 
 The KD evidence adds **environmental-monitoring-participation-to-data-authority-contestation-proportionate-action-and-livelihood-protection** as a separate conversion question. The next ledger should record who defines the question, owns or governs the data, interprets uncertainty, can challenge a result, authorizes action and receives benefit—not only who collected the sample.
 
+333. **A phase-I personalized mRNA vaccine, durable T-cell response, 11 relapse-free patients, immune-escape analysis, phase-III conference result or recurrence-risk signal is not by itself authorized treatment, comparative survival benefit, scalable turnaround, affordable access, representative efficacy or regional therapeutic sovereignty.** The 2026 TNBC study supplies durable immunogenicity and a small clinical signal but has no control group and reports three recurrences; the melanoma phase-III result is a consequential top-line conference signal pending full peer-reviewed and regulatory evidence.
+
+The KG follow-up adds a **personalized-mRNA-platform-to-durable-immunity-tumor-evolution-comparative-benefit-regulatory-access-and-regional-capability** distinction. Clinical evidence is now stronger, but no public source here closes the chain through mature survival evidence, safety, authorization, individualized manufacturing turnaround, price, reimbursement, representative access or long-term patient benefit.
+
+334. **A personalized vaccine’s clinical maturity and its production/access maturity are separate clocks.** A patient-specific sequence, successful immune response or late-stage efficacy signal does not establish that a representative patient can receive diagnosis, sequencing, design, GMP release, cold-chain delivery, repeated dosing, follow-up and reimbursement within a clinically useful and affordable pathway; a regional manufacturing program can exist without controlling inputs, IP, quality release or product selection.
+
+The KG evidence adds **clinical-proof-to-manufacturable-timely-affordable-patient-pathway-and-regional-health-sovereignty** as a separate conversion question. The next ledger should join patient-level clinical evidence to production time, site capability, quality, reimbursement, access geography and follow-up rather than allowing a clinical headline to stand in for therapeutic availability.
+
 ## What the evidence does not support
 
 Do not claim that:
