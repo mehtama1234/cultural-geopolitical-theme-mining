@@ -2677,6 +2677,21 @@ remains control-first: adoption is upstream, while shared productivity requires
 worker voice, skills, quality, bargaining power and durable distribution of the
 gain.
 
+The X refresh adds municipal and worker-facing heat cases. Ahmedabad’s heat
+action plan links a catastrophic 2010 heat wave to public awareness, tiered
+warnings, health capacity and outreach, with a reported fall in heat deaths
+after implementation but no randomized causal estimate. The 2023 Maricopa
+evaluation identifies transportation, awareness, hours and pet access as
+barriers and records a bilingual call-center and extended-hours response; it
+also supplies the counterexample that cooling centers doubled while county heat
+deaths rose sharply. Nepalgunj adds water ATMs for laborers, vendors and auto
+drivers; Bangkok links heat to scenario-based mortality, wage and electricity
+burdens; and an Ahmedabad worker account makes gender, informal work and the
+ability to pause work visible. X therefore advances from risk mapping to
+response design and distributional burden, but still does not show that the
+same household received a warning, reached affordable cooling, maintained safe
+indoor or work conditions, avoided illness and adapted across seasons.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.

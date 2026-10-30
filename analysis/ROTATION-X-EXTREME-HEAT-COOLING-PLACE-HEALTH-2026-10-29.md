@@ -60,6 +60,87 @@ These cases close part of the operation-to-health arrow while leaving avoided
 illness, care continuity, long-run affordability and repeated-season adaptation
 open.
 
+## Named-case refresh
+
+The new cases widen the geography and make access failures more visible:
+
+### HHT-013 — Ahmedabad Heat Action Plan
+
+WHO describes Ahmedabad’s response to a 2010 heat wave in which maximum
+temperatures reached 46.8°C and excess deaths in May rose by 1,344. The
+municipality implemented a heat action plan in 2014 built around public
+awareness, forecasting and tiered warnings, health-care capacity and targeted
+outreach. WHO reports that a study found heat-related deaths fell in the first
+two years after implementation, while also noting that other factors may have
+contributed. This is an important municipal warning-to-health bridge and shows
+that community and health-system coordination can matter. It is not a
+randomized intervention estimate and does not identify household warning
+receipt, indoor temperature, cooling affordability or care continuity.
+
+### HHT-014 — Maricopa County cooling-center evaluation, 2023
+
+The 2025 CDC field report evaluated 944 cooling-center visitors and 1,260
+general-public respondents in Maricopa County during summer 2023. Lack of
+transportation was the most common visitor barrier, reported by 31%; lack of
+awareness affected 36% of visitors and 49% of the public, and many respondents
+wanted later hours or pet access. The county responded with longer hours at 17
+centers, more street signage and a bilingual heat-relief call center supporting
+location and transportation. This closes a warning/access/response-design
+loop. It does not establish that the changes reduced illness or mortality, and
+the report records that county heat deaths rose from 61 in 2014 to 645 in 2023
+while centers increased from 56 to 112—a direct counterexample to treating
+facility count as protection.
+
+### HHT-015 — Nepalgunj heat action plan and water ATMs
+
+The World Bank’s 2025 Urban Heat Management Handbook describes Nepalgunj’s
+heat-risk study, stakeholder process and 2023 heat action plan. In 2024, the
+city allocated resources for prioritized measures including water ATMs for
+laborers, street vendors and auto drivers during peak hot periods. This adds a
+livelihood and occupational route that is absent from a purely residential
+cooling-center model. The case documents planning, partnership and a concrete
+water-access intervention, but not user reach, hydration, work hours, heat
+illness, maintenance, affordability or seasonal outcome.
+
+### HHT-016 — Bangkok urban-heat planning
+
+The World Bank and Bangkok Metropolitan Administration report that Bangkok’s
+heat is threatening lives, livelihoods and economic resilience. Their analysis
+estimates that a one-degree Celsius rise could produce more than 2,300
+additional heat-related deaths, 44 billion baht in lost wages and 17 billion
+baht in additional cooling electricity costs annually without sufficient
+intervention. Bangkok has initiated heat alerts and greening, but the report
+identifies remaining gaps in coverage, cooling resources and long-term policy
+commitments. This links heat to wages and household electricity rather than
+only mortality. The estimates are scenario results, not observed causal
+effects, and do not establish which neighborhoods or households receive
+protection.
+
+### HHT-017 — Ahmedabad worker and household adaptation boundary
+
+The World Bank’s Ahmedabad account describes Fatima, a kite maker in Danilimda,
+who reported dizziness, headaches and skin rash when temperatures reached 45°C
+on successive days. It also describes a city-linked mechanism through which
+heat-wave payments can allow women workers to pause work without jeopardizing
+family welfare. This makes income, gender, informal work and heat exposure
+visible in the conversion chain. It is a lived-experience and program account,
+not a representative health panel; it does not measure payment receipt,
+indoor conditions, lost earnings or long-term health.
+
+### Case-ledger conclusion
+
+The refresh closes portions of warning-to-coordination, cooling-center design,
+occupational water access, heat-to-wage scenario analysis and community
+adaptation. It also strengthens the counterexample: more centers, alerts or
+plans can coexist with rising deaths when transport, timing, pets, housing,
+energy cost, trust or repeated exposure remain unresolved. The next decisive
+ledger remains:
+
+`heat exposure → warning receipt → reachable and affordable cooling/water → indoor or work exposure → health/care event → repeated-season adaptation`
+
+No case in the packet yet closes that chain for the same person or household
+across multiple heat seasons.
+
 ## New trend interpretation
 
 The sharper trend is not simply “heat is getting worse.” It is:
