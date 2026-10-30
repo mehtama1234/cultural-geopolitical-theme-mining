@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IO
+**Date:** 2026-10-30; refreshed through Rotations D–IP
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3286,6 +3286,10 @@ The IN packet adds **critical-minerals-development-to-consented-safe-local-value
 246. **A mine’s ESIA, bilingual disclosure, consultation meeting, monitoring network, grievance mechanism, complaint count, resettlement plan, local supplier program or lender action plan is not by itself valid consent, safe water, restored livelihood, decent work, fair benefit, ecological recovery or remedy.** Monitoring points are not safe water; closed grievances are not necessarily fair remedy; and participation or information sharing is not automatically consent.
 
 The IO packet adds **named-mineral-project-to-consented-safe-water-livelihood-worker-and-remedy-outcomes conversion** with a source boundary around affected person/community, land and water baseline, consent/representation, displacement, worker contract and safety, procurement/revenue, monitoring result, complaint, investigation, correction, payment or restoration and post-closure condition. IFC supplies Oyu Tolgoi herder water, displacement, monitoring, worker and community grievance disclosures; UN supplies the Sami consent/remedy finding; World Bank supplies community-led mining reporting and external grievance infrastructure; EBRD supplies a 2026 lifecycle risk taxonomy. These close named exposure, mechanisms, rights standards and accountability architecture, but no public source here closes a comparable project chain through actual water, worker safety, income, cultural continuity, ecological condition, grievance outcome and post-closure accountability.
+
+247. **A language-rights declaration, multilingual-education policy, bilingual material, digital archive, AI tool, translation service, media programme or cultural event is not by itself language vitality, accurate public service, learner success, data sovereignty, speaker agency or intergenerational continuity.** A language can be officially recognized yet absent from a clinic, court, school assessment, keyboard, public alert or family conversation; a digital tool can preserve recordings without preserving community control or everyday use.
+
+The IP packet adds **Indigenous-language-policy-to-everyday-use-service-access-and-intergenerational-vitality conversion** with a source boundary around speaker status, home use, teacher/content, digital tool, consent, comprehension, service encounter, learning, safety, participation, media reach, youth uptake and repeated intergenerational transmission. UNESCO supplies global risk, education scarcity, policy guidance, India classroom practice, Timor-Leste transition, cyberspace and media evidence; UN DESA supplies AI, digital-access and data-risk boundaries. These close global framing, education, policy, classroom, country, digital and media stages, but no public source here closes a comparable speaker/family/service chain through daily use, learning, consent, data governance and durable continuity.
 
 ## What the evidence does not support
 
