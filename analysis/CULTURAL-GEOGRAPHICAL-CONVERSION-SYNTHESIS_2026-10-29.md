@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HP
+**Date:** 2026-10-30; refreshed through Rotations D–HQ
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3187,6 +3187,10 @@ The HO packet adds **cross-border-entitlement-to-received-protection-and-househo
 
 The HP packet adds **compute-controls-to-qualified-local-capability-and-geopolitical-access conversion** with a source boundary around chip, equipment, fab, license, customer screening, capacity, qualification, yield, cloud zone, power, water, skills, price, eligibility, workload, security, procurement, jobs, innovation and public service. BIS supplies current control architecture; OECD supplies concentration, geography, sovereignty and competition evidence; GAO supplies named US semiconductor awards; and DOE supplies an R&D mechanism. These close policy, market-structure and intended-capacity stages, but no public source here closes a comparable project/user chain through operating qualification, affordable access and public value.
 
+222. **A data-centre investment, load forecast, site proposal, permit, clean-power contract, cooling design, community meeting, mitigation option, national demand scenario or grid-monitoring mechanism is not by itself reliable affordable local electricity, water safety, lower emissions, good jobs, public contribution, resident influence, consent, remedy or legitimate place benefit.** A global AI buildout can shift costs and burdens into a particular basin, grid or community; a brownfield can remain contested; and a technical risk can remain unobserved in customer experience.
+
+The HQ packet adds **data-centre-buildout-to-legitimate-place-benefit conversion** with a source boundary around facility, permit, owner, construction, load, power, water, cooling, emissions, noise, traffic, housing, jobs, wages, taxes, grid investment, outages, emergency services, Tribal/community voice, complaints, mitigation, benefit-sharing and support. IEA supplies global demand, investment and community-risk signals; DOE supplies national scenarios and dynamic-load mechanisms; EPA supplies local governance and site-planning pathways; and GAO supplies a disclosure boundary. These close demand, risk and mitigation-design stages, but no public source here closes a comparable facility/place chain through burden, influence, benefit and durable legitimacy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3223,7 +3227,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HP.
+living goal. The current atlas baseline has been refreshed through Rotation HQ.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
