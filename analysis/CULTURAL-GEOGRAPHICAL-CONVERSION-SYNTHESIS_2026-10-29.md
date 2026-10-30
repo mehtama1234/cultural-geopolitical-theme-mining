@@ -2760,6 +2760,18 @@ victim harm and preparedness, but it does not yet prove that labels, provenance
 or official corrections changed what the same person believed, shared, bought,
 voted on or recovered from.
 
+The AD refresh adds named sanctions-execution cases. Somalia shows a
+humanitarian carve-out and domestic dialogue unlocking bank transactions held
+for weeks; Afghanistan shows that a legal exception still needed a UN cash
+facility to fully support operations; Syria pairs an earthquake-relief license
+with reporting of bank, intermediary and delivery friction; DPRK exemption
+projects show that Committee approval leaves domestic licensing, translation,
+customs and cash requirements in place; and Venezuela shows why oversight must
+track adverse humanitarian effects rather than assume that a license equals
+assistance. AD therefore advances from legal architecture to bank, cash,
+procurement and customs execution, but it still does not establish comparable
+shipment timing, cost, beneficiary receipt, protection or civilian legitimacy.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
