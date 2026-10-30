@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IK
+**Date:** 2026-10-30; refreshed through Rotations D–IL
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3270,6 +3270,10 @@ The IJ packet adds **smallholder-climate-insurance-to-accurate-timely-payout-and
 242. **A dementia plan, diagnosis, telemedicine tool, caregiver course, community-care service, respite recommendation or independence statistic is not by itself culturally safe continuous care, caregiver relief, autonomy, social participation or durable dignity.** Diagnosis can exist without support; telemedicine can exist without privacy or human continuity; and family care can preserve belonging while imposing gendered exhaustion and lost income.
 
 The IK packet adds **dementia-community-care-to-continuous-person-and-caregiver-wellbeing conversion** with a source boundary around concern, diagnosis, language, disclosure, care plan, daily support, medication, safety, social participation, respite, caregiver mental health, cost, rurality, telemedicine, transition, autonomy and dignity. WHO supplies community architecture, caregiver interventions, gender/policy and diagnostic gaps, telemedicine and rights evidence; World Bank supplies North Macedonia in-home-care and inclusion evidence; WHO supplies caregiver-training infrastructure. These close architecture, recommendations, burden, measurement, technology, independence and training stages, but no public source here closes a comparable person–caregiver chain through continuity, respite, functioning and dignity.
+
+243. **A community-health-worker headcount, training, certification, digital record, home visit, strategy, formalization or supply-chain plan is not by itself delivered quality care, stocked treatment, completed referral, fair work, worker retention, household continuity or health outcome.** A worker can be nearby but unsupported, a digital system can reduce paperwork without changing action, and a formal cadre can still lack supplies, supervision or safe workload.
+
+The IL packet adds **community-health-worker-system-to-supplied-trusted-primary-care-continuity conversion** with a source boundary around household need, contact, task, language, data, device, supplies, treatment, referral, facility feedback, supervision, pay, safety, workload, training, follow-up, health and trust. World Bank supplies Mozambique formalization/home-care/supply evidence, Eswatini digital reporting and Diabetes Compass; UNICEF supplies Rwanda, Cameroon and Somalia digital/training/strategy cases; WHO supplies role, supervision and measurement boundaries. These close workforce, formalization, household access, supply intention, digital, workflow and strategy stages, but no public source here closes a comparable worker–household chain through supplies, referral, treatment, pay, workload and health outcomes.
 
 ## What the evidence does not support
 
