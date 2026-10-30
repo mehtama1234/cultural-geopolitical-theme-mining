@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IN
+**Date:** 2026-10-30; refreshed through Rotations D–IO
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3282,6 +3282,10 @@ The IM packet adds **women-land-rights-to-controlled-climate-resilient-livelihoo
 245. **A critical-minerals target, exploration permit, mine/refinery announcement, export-control response, local-content rule, traceability record, recycling capacity figure, job count or community consultation is not by itself secure supply, free consent, decent work, fair local value, cultural continuity, ecological protection or a just transition.** Supply diversification can coexist with local dispossession; consultation can fall short of consent; and traceability can make a chain legible without making remedy available.
 
 The IN packet adds **critical-minerals-development-to-consented-safe-local-value-and-just-transition conversion** with a source boundary around mineral, territory, governance, consent, water, land, contractor, worker, wage, safety, skills, local supplier, revenue, benefit sharing, gender, ecological monitoring, grievance, remedy and post-closure outcomes. IEA supplies concentration, recycling and traceability evidence; ILO supplies decent-work and skills risks; World Bank supplies local-value policy and Oyu Tolgoi mechanisms; UN sources supply Indigenous-consent and cultural-livelihood boundaries. These close strategic concentration, circularity, traceability, workforce, policy, named-project, consent and informality stages, but no public source here closes a comparable mine/community/worker chain through consent, water, income, safety, ecological condition, grievance and durable legitimacy.
+
+246. **A mine’s ESIA, bilingual disclosure, consultation meeting, monitoring network, grievance mechanism, complaint count, resettlement plan, local supplier program or lender action plan is not by itself valid consent, safe water, restored livelihood, decent work, fair benefit, ecological recovery or remedy.** Monitoring points are not safe water; closed grievances are not necessarily fair remedy; and participation or information sharing is not automatically consent.
+
+The IO packet adds **named-mineral-project-to-consented-safe-water-livelihood-worker-and-remedy-outcomes conversion** with a source boundary around affected person/community, land and water baseline, consent/representation, displacement, worker contract and safety, procurement/revenue, monitoring result, complaint, investigation, correction, payment or restoration and post-closure condition. IFC supplies Oyu Tolgoi herder water, displacement, monitoring, worker and community grievance disclosures; UN supplies the Sami consent/remedy finding; World Bank supplies community-led mining reporting and external grievance infrastructure; EBRD supplies a 2026 lifecycle risk taxonomy. These close named exposure, mechanisms, rights standards and accountability architecture, but no public source here closes a comparable project chain through actual water, worker safety, income, cultural continuity, ecological condition, grievance outcome and post-closure accountability.
 
 ## What the evidence does not support
 
