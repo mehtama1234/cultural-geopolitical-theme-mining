@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IT
+**Date:** 2026-10-30; refreshed through Rotations D–IU
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3306,6 +3306,10 @@ The IS packet adds **repatriation-to-community-controlled-custody-ceremony-teach
 251. **A climate-risk map, heritage inventory, documentation project, safeguarding plan, disaster-risk training, youth workshop, adaptation project or community consultation is not by itself living-practice continuity, safe livelihood, cultural authority, intergenerational transmission or durable resilience.** A practice can be documented after its habitat and livelihood have been disrupted; a cultural activity can be used rhetorically as a resilience asset while its bearers lack land, income or decision power.
 
 The IT packet adds **climate-hazard-to-community-controlled-living-heritage-practice-and-resilient-livelihood conversion** with a source boundary around community, practice, place, hazard, habitat/material, practitioner, livelihood, warning, decision authority, safeguarding, youth learning, adaptation action, displacement, recovery, wellbeing and repeated practice. UNESCO supplies 15 Asia-Pacific cases, a climate-risk taxonomy and rights-based guidance, Pacific emergency and education/DRR mechanisms, the Thame Sherpa GLOF response, urban heritage adaptation and culture-emergency architecture. These close regional cases, risk, named mechanisms, education, hazard response, urban and emergency stages, but no public source here closes a comparable community chain through hazard, resource, practice, livelihood, youth transmission and repeated recovery.
+
+252. **A protected sacred site, legal designation, security protocol, access permit, monitoring report, dialogue initiative or reconstruction plan is not by itself safe worship, equal access, living ritual, community authority, cultural continuity, accountability or durable peace.** Legal designation can coexist with restricted access; physical preservation can coexist with ritual loss; and dialogue can coexist with unequal power.
+
+The IU packet adds **conflict-pressure-to-safe-sacred-access-living-heritage-and-community-authority conversion** with a source boundary around site, community, custodian, worshipper, hazard, access rule, identity, route, security encounter, ritual, custodial decision, damage, humanitarian support, complaint, accountability, return and repeated practice. UNESCO supplies the conflict/displacement living-heritage risk taxonomy, Hague and special-protection architecture; the UN Commission of Inquiry supplies a named Palestine/Israel access and religious/cultural-site case, explicitly attributed to its report; UNESCO supplies Nahlé’s provisional protection record; and UN materials supply dialogue and prevention architecture. These close risk, displacement, named access, legal, designation and dialogue stages, but no public source here closes a comparable site/community chain through safe worship, equal access, custodial authority, accountability and durable peace.
 
 ## What the evidence does not support
 
