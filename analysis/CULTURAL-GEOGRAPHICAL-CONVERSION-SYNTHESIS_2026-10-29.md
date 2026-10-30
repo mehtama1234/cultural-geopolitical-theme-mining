@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HI
+**Date:** 2026-10-30; refreshed through Rotations D–HJ
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3159,6 +3159,10 @@ The FX packet adds **legal-need-to-affordable-fair-remedy-and-household-security
 
 The HI packet adds **age-assurance-to-safe-and-legitimate-youth-participation conversion** with a source boundary around age-risk signal, method, threshold, deployment, pass/fail, error, privacy, deletion, appeal, content/contact exposure, displaced route, help-seeking, wellbeing and trust. Ofcom supplies current deployment, deterrence and circumvention evidence; ICO supplies rights, design, named enforcement and a provider case; and the FTC supplies a narrow US processing condition. These close parts of the gate and governance stages, but no public source here closes a comparable subgroup-aware child-level chain from assurance result through appeal, displaced use and later safety or wellbeing.
 
+215. **A supplier code, audit, risk assessment, due-diligence report, grievance mechanism, Withhold Release Order, seizure, import release, remediation plan, referral, payment or restored market access is not by itself worker freedom, safe disclosure, wage recovery, livelihood continuity, agency, non-retaliation, improved conditions or non-recurrence.** A trade control can create leverage, and a named case can show substantial remediation, while affected workers remain hard to identify, unable to use a grievance route, pushed into less visible work or unverified after the intervention.
+
+The HJ packet adds **forced-labour-due-diligence-to-safe-worker-recovery-and-non-recurrence conversion** with a source boundary around recruitment, coercion, documents, pay, hours, movement, language, migration, disclosure, retaliation, remedy, livelihood, buyer practice, shipment control, referral, local institutions and repeat findings. ILO supplies indicators and named remediation/community routes; OECD supplies remedy and disclosure gaps; CBP supplies a current named trade-control action; and the EU supplies regulatory architecture. These close parts of the risk, control and remediation-design stages, but no public source here closes a comparable worker-cohort chain through safe receipt, agency and recurrence.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3195,7 +3199,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HI.
+living goal. The current atlas baseline has been refreshed through Rotation HJ.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
