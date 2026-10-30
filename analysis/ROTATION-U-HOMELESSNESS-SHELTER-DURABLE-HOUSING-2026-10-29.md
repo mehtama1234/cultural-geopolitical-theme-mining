@@ -29,6 +29,74 @@ housing loss/risk
 | HOM-004 | [GAO Native American housing and homelessness observations](https://files.gao.gov/reports/GAO-26-109173/index.html) | AI/AN people may use Tribal, non-Tribal or both homelessness-service systems depending on preferences and local service availability; programs and housing entities differ by place and governance | Route and governance diversity observed |
 | HOM-005 | [HUD archived veteran-homelessness results](https://archives.hud.gov/news/2024/veteran_homelessness_drops.cfm) | HUD and VA reported veteran homelessness declined from 35,574 in 2023 to 32,882 in 2024 and described the measure as the lowest since the 2009 PIT series began | Counterexample: a population-specific decline exists within a broader homelessness system |
 
+## Named-case refresh
+
+These cases distinguish a named household or program from population-level
+counts. The positive cases are primarily agency or beneficiary accounts; the
+ledger therefore records lease, retention, recurrence, affordability and
+agency as open unless the source actually closes them.
+
+### HOM-006 — Moore Place permanent supportive housing, Charlotte, North Carolina
+
+The VA Housing First toolkit describes a Moore Place evaluation that opened 85
+permanent supportive-housing units for people with long histories of
+homelessness, chronic conditions and disabilities. The case tests whether a
+low-barrier permanent home can be paired with support rather than requiring a
+person to become “housing ready” first. It closes a named program's housing-
+and-support design, but the toolkit summary does not establish each resident's
+lease duration, rent burden, health, social connection or recurrence.
+
+### HOM-007 — Chicago Housing Locator Program
+
+HUD's case study reports that Chicago's Housing Locator Program had housed more
+than 845 households since its 2006 inception, including 279 in 2008, by
+building landlord relationships and helping households move from shelter or
+imminent homelessness into permanent housing. The program addresses the
+geographical and market-making bottleneck between a shelter referral and an
+actual unit. The case study also records provider doubts about locating
+affordable housing, so placement volume is not treated as proof of long-term
+retention, affordability or choice.
+
+### HOM-008 — HATAS Next Step Rapid Rehousing, Albany County, New York
+
+HUD's cross-system partnership case describes the Homeless and Travelers Aid
+Society's Next Step program for justice-involved single adults with significant
+needs. Initial data reported that 85% of participants did not return to either
+homelessness or incarceration, and the program attributed part of its route to
+understanding parole/probation partners and simplifying referrals. This links
+reentry, rapid rehousing and recurrence prevention, but the figure is initial
+program data, not a randomized estimate, and does not establish housing quality,
+voluntary choice or the experience of the remaining 15%.
+
+### HOM-009 — Grady Kendall, Montana HUD-VASH and Freedom's Path
+
+The VA reports that Coast Guard Veteran Grady Kendall moved from homelessness
+through temporary hotel placement, HUD-VASH and Freedom's Path housing, with
+help applying for SNAP and maintaining VA health and mental-health care. The
+account says he purchased his first home in 2024. This closes a named person's
+route from housing loss through interim shelter, supportive housing and later
+homeownership, while leaving debt, affordability, social ties and whether the
+route is replicable for other veterans open.
+
+### HOM-010 — returns after permanent housing as a durability boundary
+
+The VA's research program maintains a dedicated analysis of veterans who exit
+VA homeless programs to permanent housing and subsequently return to VA
+homeless programs. The existence of this longitudinal return analysis is an
+important counterexample to treating move-in or permanent-destination exit as
+closure: the system must observe what happens after the lease or placement.
+The public report listing does not, by itself, resolve the causes of return,
+the timing, housing quality, health, rent burden or the person's preferred
+alternative.
+
+## Sources added in the named-case refresh
+
+- [VA Housing First toolkit and Moore Place case](https://www.va.gov/HOMELESS/docs/toolkit/HousingToolkit.pdf)
+- [HUD Chicago Housing Locator case study](https://files.hudexchange.info/resources/documents/HousingLocatorChicago.pdf)
+- [HUD cross-system partnership case: Albany HATAS](https://files.hudexchange.info/resources/documents/CJS-Toolkit-Building-and-Maintaining-Cross-System-Partnerships-with-the-CJS.pdf)
+- [VA: Grady Kendall Housing First case](https://news.va.gov/135559/veteran-tells-how-va-housing-first-changed-life/)
+- [VA homeless-program reports, including returns after permanent housing](https://department.va.gov/homeless/nchav/resources/reports/)
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |

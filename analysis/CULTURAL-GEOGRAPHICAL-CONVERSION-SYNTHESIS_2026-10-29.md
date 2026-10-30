@@ -2632,6 +2632,18 @@ a settlement or turnout cannot substitute for the same person's information,
 arrival, accommodation, ballot resolution, count, trust and later institutional
 response.
 
+The U refresh adds five named homelessness and durable-housing cases. Moore
+Place tests low-barrier permanent supportive housing for people with chronic
+conditions; Chicago's Housing Locator shows the landlord and affordable-unit
+relationship needed to convert shelter into a lease; Albany's HATAS program
+links justice-system reentry, rapid rehousing and an initial nonreturn measure;
+Grady Kendall's account traces one veteran from hotel and supportive housing to
+reported homeownership; and the VA return-analysis boundary keeps a permanent
+destination from being treated as durable closure. The U proposition is
+therefore retention and agency: a count, bed, service contact or exit becomes
+security only when a person can remain safely and affordably housed with health,
+choice and social connection, without an unobserved return to homelessness.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
