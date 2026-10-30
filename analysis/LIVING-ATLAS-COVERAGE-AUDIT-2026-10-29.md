@@ -16,7 +16,7 @@ research goal.
 | Standard rotation CSV ledgers | 210 | `analysis/ROTATION-*.csv` |
 | Register rotation rows | 210 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
 | Local register links | checked after HC; 0 missing | link-target scan of the register |
-| Recent packet CSV shape | six rows and nine fields for HC; all six source IDs present | `ROTATION-HC-CONTRACT-MANAGEMENT-PAYMENT-SERVICE-CONTINUITY-2026-10-29.csv` |
+| Recent packet CSV shape | nine rows and nine fields for HC; all nine source IDs present after named-case refresh | `ROTATION-HC-CONTRACT-MANAGEMENT-PAYMENT-SERVICE-CONTINUITY-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 

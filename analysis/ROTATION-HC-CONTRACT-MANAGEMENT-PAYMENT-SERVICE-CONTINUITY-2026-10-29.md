@@ -57,6 +57,22 @@ contract award / contract-management plan / baseline / KPI / payment schedule
    payment, and identifies delayed payments, weak contract management and low
    professionalisation as barriers to participation and investment. This links
    public-side execution to supplier capability and future competition.
+6. The World Bank's Bangladesh case reports that e-GP reduced procurement lead
+   time from 100 to 53 days by 2023, expanded registered bidders, and added
+   electronic contract management, payment, geo-tagging and citizen monitoring.
+   These are meaningful operating improvements, but they remain system and
+   process evidence; they do not alone establish asset quality, supplier-worker
+   receipt or sustained user service.
+7. OECD's Nuevo León review reports payment terms of 45 working days that in
+   practice extended to double or triple that period, disrupting suppliers and
+   discouraging new firms and SMEs from bidding. This is a named mechanism
+   linking public-side execution to competition and local supplier capacity,
+   while not proving that every delayed payment caused an exit or service loss.
+8. OECD's IMSS review reports medicine-payment delays that at times averaged
+   nearly ten months despite a statutory 20-day term, with implications for
+   suppliers' willingness to meet costly obligations such as delivery to remote
+   locations. This is a concrete buyer-supplier and geographical-continuity
+   risk; it is not a complete patient-level outcome chain.
 
 ## Bounded proposition
 
@@ -147,3 +163,6 @@ research opportunity, not a promoted causal finding.
 - World Bank, [STEP contract-management module](https://www.worldbank.org/en/projects-operations/products-and-services/brief/systematic-tracking-of-exchanges-in-procurement-step).
 - World Bank, [Managing PPP contracts](https://ppp.worldbank.org/managing-ppp-contracts).
 - OECD, [Competition in public procurement](https://www.oecd.org/en/publications/competition-in-public-procurement_fcc81703-en/full-report.html).
+- World Bank, [Bangladesh e-GP results](https://www.worldbank.org/en/results/2023/05/03/world-bank-helps-bangladesh-transform-public-procurement-into-a-sustainable-online-system).
+- OECD, [Post-award contract management in Nuevo León](https://www.oecd.org/en/publications/2018/01/public-procurement-in-nuevo-leon-mexico_g1g87a3e/full-report/component-13.html).
+- OECD, [IMSS contract management and performance](https://www.oecd.org/en/publications/second-public-procurement-review-of-the-mexican-institute-of-social-security-imss_9789264190191-en/full-report/component-9.html).
