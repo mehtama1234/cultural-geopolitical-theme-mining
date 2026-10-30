@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JR
+**Date:** 2026-10-30; refreshed through Rotation JS
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3395,6 +3395,10 @@ The JQ packet adds **fusion-development-to-safe-reliable-affordable-grid-power-i
 
 The JR packet adds **advanced-air-mobility-to-safe-affordable-inclusive-access-lower-local-burden-and-legitimate-airspace-governance conversion** with a source boundary around route/vertiport/community, aircraft certification, operator, airspace, charging, route, noise, land, fare, travel-time change, medical or commercial service, affected residents, complaint, remedy and later safety/access outcome. FAA supplies system definition, LAX and Orlando operational simulations and infrastructure research; NASA supplies geographic human-response evidence on air-taxi noise; EASA supplies European service and regulatory pathways; and ICAO supplies global interoperability, infrastructure and workforce framing. These close system, simulation, siting, noise, service, regulatory, global-governance and infrastructure stages, but no public source here closes a comparable route/community chain through safe regular service, affordable inclusive access, lower local burden, emergency reliability and legitimate airspace governance.
 
+274. **An exploration survey, design paper, privacy promise, offline prototype, pilot, wallet, provider contract, interoperability forum or cash-coexistence statement is not by itself trusted everyday use, inclusion, privacy in practice, merchant acceptance, emergency continuity, financial stability or monetary sovereignty.** A pilot can demonstrate technical settlement without proving adoption; offline payment can depend on pre-funding and hardware; and privacy at the central ledger can coexist with identification by intermediaries.
+
+The JS packet adds **CBDC-development-to-private-resilient-inclusive-everyday-payments-and-public-monetary-agency conversion** with a source boundary around jurisdiction/user/community, mandate, wallet, identity, intermediary, device, network/offline event, merchant acceptance, fee, privacy exposure, fraud remedy, cash alternative and later household/business payment outcome. BIS supplies global exploration and stablecoin-response evidence; the ECB supplies digital-euro design, offline, privacy, inclusion and pilot architecture; and the Bank of England supplies exploratory governance, public-private infrastructure, cash coexistence and programmability boundaries. These close global momentum, design, pilot, offline, privacy, engagement, intermediary, cash and monetary-competition stages, but no public source here closes a comparable jurisdiction/user chain through trusted inclusive use, practical privacy, merchant acceptance, emergency continuity, financial stability and durable public monetary agency.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3431,7 +3435,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JR.
+living goal. The current atlas baseline has been refreshed through Rotation JS.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
