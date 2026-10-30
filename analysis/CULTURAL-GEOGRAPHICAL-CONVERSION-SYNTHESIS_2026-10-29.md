@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HU
+**Date:** 2026-10-30; refreshed through Rotations D–HV
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3206,6 +3206,10 @@ The HT packet adds **diagnostic-network-to-equitable-clinical-action conversion*
 226. **A menstrual-health survey, product distribution, toilet, WASH room, curriculum lesson, youth campaign, training session or local enterprise is not by itself affordable safe use, privacy, pain or bleeding care, attendance, work continuity, bodily autonomy, belonging or durable norm change.** A facility can lack water or disposal, a product can be unavailable when needed, a lesson can exclude peers, and an attendance signal can lack person-level attribution.
 
 The HU packet adds **menstrual-health-system-to-dignified-participation conversion** with a source boundary around need, cycle, product/material choice, cost, water, privacy, disposal, pain, heavy bleeding, health care, language, disability, stigma, absence/presence, school, work, mobility, agency, belonging, complaint and norm change. WHO supplies the multi-component definition and global access signal; World Bank supplies Ethiopia school-WASH and Bangladesh enterprise cases; UNICEF supplies Mexico, Mozambique, Mali and school-education evidence. These close problem framing, infrastructure, education, local enterprise and norm-articulation stages, but no public source here closes a comparable person-level chain through affordable use, health, participation and durable dignity.
+
+227. **Clean-cooking access, stove distribution, electrification, fuel availability, an emissions classification, an awareness campaign, a national transition statistic or a household intervention is not by itself primary use, affordability, lower indoor exposure, health protection, time agency or durable household resilience.** A device can be owned but not used as the primary cooker; fuel can be unaffordable or unreliable; cooking practices can make a technology unsuitable; and ambient pollution or heating can remain a major burden.
+
+The HV packet adds **clean-cooking-access-to-reliable-safe-household-agency conversion** with a source boundary around technology, fuel, price, supply, installation, repair, meal compatibility, primary use, indoor exposure, ambient pollution, heating, cooking time, care/work allocation, child and maternal health, reversion and local legitimacy. WHO supplies burden, health-oriented clean-fuel criteria and the household-energy boundary; IEA supplies Africa, Kenya, global access, affordability and shock-response evidence; UNICEF supplies the Mongolia intervention and ambient-pollution counterexample. These close burden, policy, technology, scenario, country progress and intervention stages, but no public source here closes a comparable same-household chain through daily use, exposure, health, time and resilience.
 
 ## What the evidence does not support
 
