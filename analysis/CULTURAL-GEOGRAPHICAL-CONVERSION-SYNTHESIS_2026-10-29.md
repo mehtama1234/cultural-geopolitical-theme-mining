@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IH
+**Date:** 2026-10-30; refreshed through Rotations D–II
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3258,6 +3258,10 @@ The IG packet adds **sanitation-construction-to-safe-affordable-worker-protected
 239. **A farmer registry, app, advisory, digital marketplace, platform-user count, climate-smart project or reported income signal is not by itself locally relevant advice, trusted use, affordable action, harvest, resilient income, food security or data agency.** A tool can be paid, inaccessible in local languages, late, disconnected from inputs or markets, or used without proving a causal farm outcome.
 
 The IH packet adds **digital-agriculture-delivery-to-locally-trusted-farmer-decision-and-resilient-income conversion** with a source boundary around farm need, language, identity, connectivity, privacy, weather, agronomy, market, advisory, interpretation, trust, input, finance, irrigation, action, cost, harvest, loss, price, income, food use, data control and repeat adaptation. IFAD supplies DPI/registry and delivery-system architecture; FAO supplies inclusion and evidence-quality warnings; World Bank supplies Kenya, KALRO, Côte d’Ivoire, West Africa and Sri Lanka cases. These close strategy, infrastructure, inclusion risk, scale, localization, marketplace, data integration and investment stages, but no public source here closes a comparable same-farmer chain through interpretation, action, harvest, income and repeat resilience.
+
+240. **Care-worker recruitment, migration, shortage estimates, training, social-protection policy, resource centres or bilateral pathways are not by themselves safe work, fair pay, care quality, portable protection, family security or worker voice.** A destination can fill a care gap while excluding domestic workers from labor law; a training programme can coexist with long hours and low pay; and a portability scheme can exist without a worker’s received claim.
+
+The II packet adds **care-migration-recruitment-to-decent-portable-work-and-reciprocal-care-security conversion** with a source boundary around care demand, recruitment, fee, contract, status, housing, hours, pay, training, safety, care recipient, complaint, social-protection contribution/claim, health/injury, remittance, family care, return and portability. ILO supplies global care/domestic-work scale and informality, migrant-care dependence, Kenya disability-care conditions, Malaysia coverage, South Asia–GCC portability gaps, Thailand demand and ASEAN resource-centre evidence. These close workforce, legal, policy, corridor and remedy-infrastructure stages, but no public source here closes a comparable worker–care recipient–family chain through rights, care quality and durable security.
 
 ## What the evidence does not support
 
