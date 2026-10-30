@@ -64,6 +64,22 @@ climate hazard / forecast / damaged school / unsafe heat or air / displacement
    documentation, damaged schools, overcrowding and teacher/material shortages
    as barriers. Climate continuity therefore has cultural and geographical
    dimensions beyond infrastructure alone.
+7. UNICEF's Nepal 2026 flood response reports that learning was disrupted for
+   more than 14,000 children across 62 schools and learning centres; temporary
+   learning centres with inclusive WASH were used to restore routine and safe
+   access while damaged classrooms were being addressed. This closes part of the
+   safe-space and continuity operation, not actual learning recovery or equity.
+8. UNICEF's Mali case reports more than 600 schools damaged or destroyed in the
+   2024 floods and describes prepositioned education supplies, temporary spaces,
+   rehabilitation, teacher training, community learning centres, catch-up and
+   radio education, contingency planning and relocation of vulnerable schools.
+   The integrated response is a useful mechanism case, while very low baseline
+   learning and insecurity complicate attribution of later outcomes.
+9. UNICEF's Timor-Leste case describes flood-damaged school recovery with
+   disaster-risk information, learning materials and furniture for affected
+   learners. It shows that physical recovery and child learning continuity are
+   linked but not identical; the public account does not provide a longitudinal
+   progression comparison.
 
 ## Bounded proposition
 
@@ -157,3 +173,6 @@ Tier 2 research opportunity, not a promoted causal finding.
 - World Bank, [Choosing Our Future: Education for Climate Action](https://www.worldbank.org/en/news/press-release/2024/09/04/education-for-climate-action-400m-students-affected-climate-related-school-closures).
 - UNICEF Malaysia, [Haze and the right to breathe clean air](https://www.unicef.org/malaysia/stories/every-child-has-right-breathe-clean-air).
 - UNESCO, [Education in emergencies](https://www.unesco.org/en/emergencies/education/need-know).
+- UNICEF Nepal, [One month after floods: restoring education](https://www.unicef.org/press-releases/one-month-after-floods-efforts-restore-education-are-helping-children-return).
+- UNICEF, [Mali climate education case study](https://www.unicef.org/media/176381/file/Climate%20Education%20Case%20Study%20Mali%202025.pdf).
+- UNICEF Timor-Leste, [School recovery after floods](https://www.unicef.org/timorleste/stories/nonias-school-prepares-climate-disasters-timor-leste).

@@ -2429,6 +2429,13 @@ The HD packet adds **climate-exposure-to-psychosocial-agency-and-community-conti
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
 
+The HE case refresh adds Nepal, Mali and Timor-Leste implementation evidence:
+temporary learning centres and inclusive WASH, integrated flood-response
+packages, teacher and psychosocial support, radio/catch-up routes, safer school
+relocation and learning materials. These close parts of the operation stage, but
+public case accounts do not yet establish comparable child-level learning,
+progression, dropout prevention, household burden or multi-season agency.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
