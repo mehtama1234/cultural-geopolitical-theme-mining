@@ -30,6 +30,36 @@ harm/complaint
 | REM-004 | [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/) | Complaint analysis covers 2025; credit/consumer-reporting complaints rose sharply and the report distinguishes explanation, monetary relief and non-monetary relief | Complaint volume and outcome categories observed |
 | REM-005 | [CFPB complaint-system correction notice](https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-is-correcting-flaws-to-restore-integrity-and-utility-to-the-consumer-complaint-system/) | CFPB reports complaint volume exceeding five million in 2025 and says companies operationalized “closed with non-monetary relief” differently | Administrative legibility problem observed |
 
+## Named-case refresh
+
+6. The CFPB reports that Bilt reimbursed all eligible consumers—more than
+   2,000 people—for $264,792.71 after a bank-partner transition generated
+   overdraft, late and insufficient-funds fees. Bilt proactively contacted
+   potentially affected customers and the CFPB closed the matter after
+   reimbursement. This is unusually strong evidence for eligibility-to-payment
+   completion, while it still does not establish whether all indirect losses,
+   credit effects or future trust were restored.
+7. The FTC's FloatMe case shows why a second distribution matters. The agency
+   alleged that the cash-advance provider marketed quick advances, charged
+   subscription fees and excluded consumers whose income came from Social
+   Security benefits; the FTC reports more than $1.5 million in first-round
+   refunds and more than $1 million in a second round to consumers who accepted
+   the first payment. This closes issuance and acceptance for a named case and
+   preserves an older-consumer/disparate-treatment lens, but not full loss or
+   household recovery.
+8. In the Synchrony/GE Capital action, CFPB and DOJ required at least $259
+   million in redress and an additional $169 million for about 108,000
+   borrowers excluded from debt-relief offers because of national origin. The
+   case joins discriminatory exclusion, remedy population and payment scale;
+   it still requires recipient-level testing of payment receipt, debt position,
+   residual harm and whether future credit treatment changed.
+9. An FTC complaint concerning Instacart reports that consumers accepted
+   revised-flow credits more often than a direct-refund option, with some
+   consumers placing additional orders solely to use the credit. This is a
+   critical counterexample to treating acceptance as recovery: the consumer
+   may accept an instrument shaped by the provider's interface even when a
+   refund would better restore the original loss.
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |

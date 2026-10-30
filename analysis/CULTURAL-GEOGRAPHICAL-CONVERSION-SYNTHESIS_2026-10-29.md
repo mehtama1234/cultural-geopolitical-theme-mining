@@ -2504,6 +2504,18 @@ barriers. The cases sharpen the conversion test: count not only network size,
 but reach, help received, adequacy, reliability, worker burden, reciprocity and
 what persists after funding or crisis support ends.
 
+The K refresh adds four remedy chains and one important warning. Bilt's
+voluntary process reimbursed all reported eligible consumers after a
+bank-transition fee problem; FloatMe shows first and second refund rounds for
+older and Social Security-income consumers; Synchrony/GE Capital joins
+national-origin exclusion to large-scale debt-relief redress; and an FTC
+Instacart complaint reports consumers accepting credits more often than direct
+refunds, sometimes creating additional purchases merely to use the credit.
+These cases sharpen the distinction between eligibility, issuance, acceptance
+and usable recovery: an accepted instrument may still be inferior to the loss,
+and a closed case may leave credit, debt, indirect-loss or repeat-exposure
+questions unresolved.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.
