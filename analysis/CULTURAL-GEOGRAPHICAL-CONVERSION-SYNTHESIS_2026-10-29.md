@@ -1822,6 +1822,17 @@ reach an empowered and independent reviewer, obtained timely correction and
 recovered the material service, income, housing, health, education, liberty or
 dignity lost through the AI-enabled action.
 
+154. **A climate-relocation plan, managed-retreat programme, resettlement site,
+evacuation, compensation package, new house, land purchase, adaptation project,
+mobility pathway or “safer” destination is not by itself durable safety,
+secure tenure, restored livelihood, household resilience, cultural continuity,
+social belonging, host-community legitimacy or agency.** People moved, homes
+built, parcels acquired, funds disbursed, services planned or displacement
+recorded do not establish that named households can remain or move by choice,
+retain land and social ties, recover income and food security, access services,
+avoid repeated displacement, or obtain remedy when relocation damages their
+rights, culture or livelihood.
+
 The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior. The DT packet adds **informal-food-market-policy-to-safe-affordable-cultural-food-and-dignified-livelihood** with a source boundary around nutrition, affordability, foodborne illness, vendor income, women’s control, displacement, cultural continuity and post-shock governance. The DU packet adds **local-medicine-production-to-quality-assured-patient-continuity-and-regional-health-sovereignty** with a source boundary around product availability, affordability, quality, rural continuity, workforce capability and durable geopolitical leverage. The DV packet adds **mega-event-to-durable-host-city-legacy-and-legitimate-geopolitical-reputation** with a source boundary around resident wellbeing, worker remedy, post-event affordability, maintenance, cultural belonging and reputation after scrutiny. The DW packet adds **Arctic-corridor-to-Indigenous-community-sovereignty-and-safe-local-benefit** with a source boundary around community benefit, food security, cultural continuity, emergency response, remedy and durable sovereignty.
 
 The ET packet adds **tax-capacity-to-visible-public-value-and-voluntary-compliance** with a source boundary around named taxpayer burden, local service receipt, budget execution, refund and appeal fairness, household and firm consequences, gendered burden, later voluntary compliance and durable fiscal legitimacy.
@@ -1829,6 +1840,8 @@ The ET packet adds **tax-capacity-to-visible-public-value-and-voluntary-complian
 The EU packet adds **debt-relief-to-protected-public-value-and-burden-sharing** with a source boundary around named budget execution, service receipt, real spending protection, domestic creditor incidence, household recovery, local participation, complaint, remedy and durable legitimacy.
 
 The EV packet adds **AI-justice-to-fair-remedy-and-institutional-accountability** with a source boundary around named exposure, notice comprehension, evidence access, reviewer authority, correction, compensation, service restoration, subgroup burden, retaliation, model change and durable institutional learning.
+
+The EW packet adds **climate-hazard-to-durable-relocation-and-place-continuity** with a source boundary around named consent, secure tenure, income recovery, service continuity, cultural practice, host-community effects, repeated movement, return, agency and remedy.
 
 The DX packet adds **municipal-waste-policy-to-safe-circular-service-and-waste-picker-just-transition** with a source boundary around exposure reduction, service reliability, worker income, child protection, social protection, material recovery, neighbourhood equity and post-reform power.
 
@@ -1910,7 +1923,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation EV.
+living goal. The current atlas baseline has been refreshed through Rotation EW.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
