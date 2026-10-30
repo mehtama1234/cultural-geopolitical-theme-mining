@@ -2481,6 +2481,17 @@ still faces a funding-to-scale boundary. These cases close reach and response
 mechanisms more than recovery: the next test is sustained functioning, school,
 work or care continuity, worker retention, cultural fit and recurrence.
 
+The I refresh adds four named voice-to-belonging cases. Kerala's People's Plan
+links neighbourhood deliberation to 30% of state plan funds and reported basic
+service gains; New Zealand's Māori engagement cases show multiple participation
+mechanisms alongside a direct warning that governance-level inclusion and
+resourcing remained incomplete; the West of England's 52-person Citizens for
+Culture assembly co-created a cultural plan; and Italy's Monumenti Aperti links
+heritage stewardship to 17,000 students, 3,500 volunteers and 220,000 visitors
+across 83 municipalities. These cases move beyond sentiment to route and
+resource, but the conversion remains open until recommendations, budgets,
+feedback, nonparticipant experience and durable agenda power are joined.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.

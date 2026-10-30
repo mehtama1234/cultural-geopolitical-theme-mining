@@ -90,3 +90,40 @@ The next qualifying evidence is a named place or group with a documented cultura
 or civic participation route, decision-maker response, later trust/belonging or
 organized refusal, and a comparison with an excluded or nonparticipating group.
 
+## Named-case refresh
+
+6. Kerala's People's Plan Campaign placed 30% of state annual-plan funds under
+   local-body responsibility and used neighbourhood groups, ward committees,
+   municipal conventions and councils to propose, negotiate, implement and
+   monitor projects. The World Bank case reports improved basic services and
+   greater client power for poorer citizens. This is stronger voice-to-resource
+   evidence than a consultation count, while the case still requires scrutiny
+   of who attended, whose proposals lost, and whether gains endured across
+   places and groups.
+7. New Zealand's Māori participation case studies show that statutory
+   participation duties produced multiple council mechanisms, but also record
+   Māori participants' view that councils had further to go, especially on
+   governance-level inclusion, resourcing and reflecting Māori ways of working.
+   This is a useful cultural-power counterexample: a formal engagement route can
+   strengthen relationships without yet equalising agenda-setting authority.
+8. The West of England's Citizens for Culture assembled 52 randomly selected
+   residents to co-create a regional Cultural Plan around wellbeing, placemaking,
+   inclusion and economic opportunity. The case moves beyond a one-off opinion
+   survey toward deliberation and shared cultural governance, but the public
+   record still needs to show which recommendations received resources,
+   implementation, feedback and durable trust among nonparticipants.
+9. Italy's Monumenti Aperti connects cultural heritage with active citizenship:
+   UNESCO reports that in 2025 around 17,000 students and 3,500 volunteers
+   opened about 800 sites across 83 municipalities to more than 220,000 visitors,
+   including multisensory and easy-to-read access. This closes a cultural-entry
+   and participation route and reports cohesion signals, but it does not prove
+   that participants gained institutional power or that access was equal across
+   language, class, disability and locality.
+
+## Sources added in the named-case refresh
+
+- World Bank, [Participatory Budgeting in Kerala](https://documents1.worldbank.org/curated/en/427971468331860811/pdf/778220WP0Engag0Box0377295B00PUBLIC0.pdf).
+- New Zealand Department of Internal Affairs, [Māori Participation and Engagement with Local Government](https://thehub.sia.govt.nz/resources/maori-participation-and-engagement-with-local-government).
+- Local Government Association, [Citizens for Culture in the West of England](https://www.local.gov.uk/case-studies/citizens-culture-citizen-led-cultural-plan-west-england).
+- UNESCO, [Monumenti Aperti and participatory education in Italy](https://www.unesco.org/sdg4education2030/en/knowledge-hub/shared-heritage-shared-learning-participatory-education-active-citizenship-italy).
+
