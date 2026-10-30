@@ -2,7 +2,7 @@
 
 **Scope:** cultural, social, geographical, technological and geopolitical
 theme-mining atlas  
-**Baseline:** refreshed through Rotation ER
+**Baseline:** refreshed through Rotation ES
 **Purpose:** verify artifact coverage, index integrity, local link integrity and
 the boundary between the current bounded evidence release and the still-active
 research goal.
@@ -11,12 +11,12 @@ research goal.
 
 | Check | Result | Evidence |
 |---|---:|---|
-| Numbered synthesis propositions | 149 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–149 in strict order |
-| Standard rotation markdown packets | 148 | `analysis/ROTATION-*.md` |
-| Standard rotation CSV ledgers | 148 | `analysis/ROTATION-*.csv` |
-| Register rotation rows | 148 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
-| Local register links | 184 checked; 0 missing | link-target scan of the register |
-| Recent packet CSV shape | six rows and nine fields for ER; all six source IDs present | `ROTATION-ER-SCHOOL-MEALS-NUTRITION-LOCAL-FOOD-SYSTEMS-2026-10-29.csv` |
+| Numbered synthesis propositions | 150 | `CULTURAL-GEOGRAPHICAL-CONVERSION-SYNTHESIS_2026-10-29.md`, propositions 1–150 in strict order |
+| Standard rotation markdown packets | 149 | `analysis/ROTATION-*.md` |
+| Standard rotation CSV ledgers | 149 | `analysis/ROTATION-*.csv` |
+| Register rotation rows | 149 | `NEW-GOAL-THEME-PROMOTION-REGISTER_2026-10-29.md` |
+| Local register links | 186 checked; 0 missing | link-target scan of the register |
+| Recent packet CSV shape | six rows and nine fields for ES; all six source IDs present | `ROTATION-ES-HEALTH-FINANCIAL-PROTECTION-CARE-CONTINUITY-2026-10-29.csv` |
 | Scoped whitespace validation | passed | `git diff --check` on latest packet, register and synthesis |
 | Remote branch | synchronized | `origin/main` at the latest pushed commit |
 
@@ -27,7 +27,7 @@ rotation rows are register entries for the current packet portfolio. They are
 not required to be one-to-one because the portfolio includes earlier
 cross-rotation and first-pass architecture.
 
-The standard packet directory contains 148 markdown and 148 CSV files, but the
+The standard packet directory contains 149 markdown and 149 CSV files, but the
 first-pass/source-ledger architecture has three intentional naming pairs:
 
 - `ROTATION-A-FIRST-PASS` ↔ `ROTATION-A-SOURCE-LEDGER`
