@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JQ
+**Date:** 2026-10-30; refreshed through Rotation JR
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3391,6 +3391,10 @@ The JP packet adds **online-gambling-to-household-financial-health-mental-health
 
 The JQ packet adds **fusion-development-to-safe-reliable-affordable-grid-power-industrial-capability-and-shared-energy-security conversion** with a source boundary around facility/program/community, plasma result, engineering readiness, materials and fuel cycle, regulation, construction, workforce, grid connection, operating availability, cost, safety, local jobs, supply-chain transfer and later public-energy outcome. DOE supplies the US commercialization roadmap, challenge architecture and public-private mechanism; the UK supplies named investment, STEP, skills, regional and strategic-benefit claims; and ITER/JT-60SA supply the staged international experimental and cooperation boundary. These close commercialization strategy, infrastructure planning, national investment, workforce, experimental, scientific-cooperation, industrial-policy and uncertainty stages, but no public source here closes a comparable facility/community chain through safe reliable affordable grid power, durable industrial capability, equitable local benefit and shared energy-security leverage.
 
+273. **An aircraft concept, flight test, simulation, vertiport standard, certification pathway, noise study, medical-use case, pilot program or interoperability forum is not by itself safe regular service, affordable access, lower emissions, reduced congestion, quiet neighborhoods, emergency reliability or legitimate airspace governance.** A simulation can show operational feasibility without proving public acceptance; an eVTOL can be electric without proving lifecycle benefit; and a route can improve travel time for some while displacing noise and land burdens onto others.
+
+The JR packet adds **advanced-air-mobility-to-safe-affordable-inclusive-access-lower-local-burden-and-legitimate-airspace-governance conversion** with a source boundary around route/vertiport/community, aircraft certification, operator, airspace, charging, route, noise, land, fare, travel-time change, medical or commercial service, affected residents, complaint, remedy and later safety/access outcome. FAA supplies system definition, LAX and Orlando operational simulations and infrastructure research; NASA supplies geographic human-response evidence on air-taxi noise; EASA supplies European service and regulatory pathways; and ICAO supplies global interoperability, infrastructure and workforce framing. These close system, simulation, siting, noise, service, regulatory, global-governance and infrastructure stages, but no public source here closes a comparable route/community chain through safe regular service, affordable inclusive access, lower local burden, emergency reliability and legitimate airspace governance.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3427,7 +3431,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JQ.
+living goal. The current atlas baseline has been refreshed through Rotation JR.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
