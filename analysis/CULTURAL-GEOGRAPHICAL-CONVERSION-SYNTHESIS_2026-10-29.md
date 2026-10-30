@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation KA
+**Date:** 2026-10-30; refreshed through Rotation KB
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3430,6 +3430,10 @@ The JZ packet adds **agricultural-robotics-to-safe-work-smallholder-access-rural
 282. **An Artemis Accords signature, mission, landing, resource prospect, extraction demonstration, safety zone, heritage guideline, data release, national law, investment or draft UN principle is not by itself equitable access, sustainable extraction, protected heritage, environmental safety, liability clarity, benefit sharing, scientific openness or legitimate shared governance.** Coordination language can coexist with exclusion; open data can coexist with concentrated infrastructure; and a draft principle can remain non-binding.
 
 The KA packet adds **lunar-activity-to-shared-access-heritage-protection-environmental-stewardship-and-benefit-legitimacy conversion** with a source boundary around site/mission/operator, location and resource, license or accord, safety zone, data, infrastructure, affected scientific or cultural interest, environmental indicator, liability rule, benefit recipient and later compliance or dispute outcome. NASA supplies the Artemis principles, south-pole coordination and resource-use frame; UNOOSA supplies the multilateral issue map, stakeholder conflict, capacity and benefit-sharing pathway; NASA’s policy analysis supplies the heritage-identification gap; and the 2026 COPUOS record supplies current draft-principles momentum. These close normative, resource, multilateral, stakeholder, capacity, heritage, operational and process stages, but no public source here closes a comparable site/mission chain through equitable access, sustainable extraction, protected heritage, environmental safety, liability clarity, benefit sharing, scientific openness and legitimate shared governance.
+
+283. **An atom-based prototype, sensitivity claim, roadmap, pathfinder mission, national strategy, defense use case, PNT promise, environmental-data concept or quantum-sensor demonstration is not by itself calibrated field performance, affordable deployment, better public decisions, equitable geographic coverage, health benefit, ecological protection, privacy, civilian control or legitimate strategic advantage.** A sensor can be more precise yet less useful if it is fragile, expensive, poorly calibrated or disconnected from action.
+
+The KB packet adds **quantum-sensing-to-calibrated-public-measurement-resilient-PNT-equitable-coverage-and-legitimate-dual-use conversion** with a source boundary around sensor/platform/place, modality, calibration, operating conditions, data access, operator, decision, service continuity, affected geography, cost, privacy/security and later public or strategic outcome. NIST supplies the application landscape, noise, national capability, workforce and prototype frames; the UK supplies space qualification, PNT resilience and ethical-competition pathways; and the European Commission supplies Earth-observation and defense pathways. These close application, mechanism, ecosystem, readiness, integration, dual-use, policy and prototype stages, but no public source here closes a comparable sensor/platform chain through calibrated field performance, affordable deployment, better public decisions, equitable coverage, health or ecological benefit, privacy, civilian control and legitimate strategic advantage.
 
 ## What the evidence does not support
 
