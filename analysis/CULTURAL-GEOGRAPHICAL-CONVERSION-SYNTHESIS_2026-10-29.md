@@ -3511,6 +3511,10 @@ The LO follow-up adds an **autonomous-certification-to-operational-boundary-and-
 
 The KK follow-up adds an **AI-forecast-to-locally-governed-warning-and-action-equity** distinction. NOAA closes a second national operational transition and a hybrid AI/physics architecture; WMO closes the Malawi pilot’s training, workflow, participatory-evaluation and scale-up stages; and ANDeL closes a locally developed West African nowcasting and talent pathway. These strengthen the case for regional capability, but no public source here closes a named hazard/place chain through warning receipt, comprehension, authorized action, response capacity, avoided loss and durable trust.
 
+303. **A care-robot policy, prototype, rental model, positive trial attitude, registered LLM-companion study, usage-retention endpoint or public evaluation program is not by itself sustained older-person autonomy, better health, reduced loneliness, safe care, privacy, dignity, equitable access, worker agency or durable caregiver relief.** Japan’s registered study measures continued use and interaction/relationship signals, but results are not yet public and its eligibility excludes some people with dementia and significant hearing-related communication difficulty.
+
+The KC follow-up adds a **care-robotics-to-measured-home-acceptance-and-accountable-person-centred-use** distinction. Japan closes a named 12-week home-study design, explicit retention criteria, server-log measurement, support/adverse-event tracking and a public care-technology evaluation/diffusion infrastructure. These strengthen the measurement pathway, but no public source here closes the chain through inclusive recruitment, sustained voluntary use, privacy-respecting data governance, caregiver relief, health or loneliness outcomes and culturally legitimate care.
+
 ## What the evidence does not support
 
 Do not claim that:
