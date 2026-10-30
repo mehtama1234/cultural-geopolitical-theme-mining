@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JL
+**Date:** 2026-10-30; refreshed through Rotation JM
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3371,6 +3371,10 @@ The JK packet adds **maritime-decarbonization-to-safe-seafarer-work-lower-port-e
 
 The JL packet adds **geothermal-development-to-affordable-reliable-energy-local-benefit-and-cultural-land-governance conversion** with a source boundary around field/project/community, reservoir baseline, drilling, water, seismicity, reinjection, plant or heat user, tariff/offtake, jobs, ownership, customary values, consent, grievance, benefit receipt and post-project reservoir and community outcomes. IRENA supplies current scale, capacity-factor, cost and technology-maturity evidence; IEA supplies next-generation geothermal investment and dispatchable-power potential; the World Bank supplies benefit mechanisms; the US Department of Energy supplies water, air and induced-seismicity risks; and New Zealand/Bay of Plenty sources supply a named Indigenous-partnership, consent and adaptive-field-governance case. These close global scale, innovation, economics, benefit design, environmental-risk, national-policy, customary-use, consent and adaptive-monitoring stages, but no public source here closes a comparable field/community chain through affordable energy, safe water and land use, sustainable reservoir performance, fair benefit, cultural continuity and durable local authority.
 
+268. **An exploration contract, sponsoring state, mineral estimate, technology demonstration, environmental impact assessment, baseline dataset, protected area, public consultation, draft mining code, benefit-sharing mechanism, circularity claim or critical-mineral forecast is not by itself biodiversity protection, sustainable supply, fair benefit, scientific independence, recoverability, food-web safety or durable geopolitical legitimacy.** More data can improve knowledge without closing the decision; a protected reference area can coexist with damage elsewhere; and a global agreement can leave authority, funding and enforcement fragmented.
+
+The JM packet adds **deep-sea-mineral-governance-to-precautionary-biodiversity-protection-fair-benefit-and-geopolitical-legitimacy conversion** with a source boundary around contract/area/decision, mineral need and alternatives, baseline science, contractor, EIA, independent review, monitoring, plume/habitat/food-web effects, enforcement, benefit allocation, affected communities, remedy and later ecological and diplomatic outcomes. ISA supplies current exploration-versus-exploitation status, environmental safeguards and Common Heritage Fund architecture; the UN Scientific Advisory Board supplies precaution, irreversibility and necessity questions; IUCN supplies conservation uncertainty; NOAA supplies mapping, baseline and retrospective recovery evidence; and the BBNJ Agreement supplies the wider 2026 biodiversity-governance context. These close legal status, formal safeguards, risk principles, conservation concern, scientific gaps, biodiversity governance, necessity and recovery-evidence stages, but no public source here closes a comparable contract/area/community chain through precautionary ecosystem protection, sustainable mineral supply, fair benefit, scientific accountability and durable geopolitical legitimacy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3407,7 +3411,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JL.
+living goal. The current atlas baseline has been refreshed through Rotation JM.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
