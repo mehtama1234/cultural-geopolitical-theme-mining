@@ -29,6 +29,62 @@ hazard and damage
 | DRM-004 | [GAO homeowners insurance report](https://files.gao.gov/reports/GAO-26-106867/index.html) | During fiscal years 2015–2024, the federal government appropriated at least $448 billion for disaster assistance; insurance premiums rose more in disaster-prone areas, while resilience savings are difficult to quantify | Place-based affordability and prevention pressure observed |
 | DRM-005 | [GAO EDA disaster recovery outcomes report](https://files.gao.gov/reports/GAO-26-107742/index.html) | EDA disaster-recovery performance measures need assessment against leading practices; recovery spans housing, infrastructure, economic, health, education and natural/cultural capabilities | Aggregate recovery measurement boundary observed |
 
+## Named-case refresh
+
+The following cases close parts of the conversion chain, but they are not
+equivalent forms of evidence. World Bank beneficiary stories are useful for
+household agency, design choice and perceived dignity; they are not independent
+audits of every construction, utility or displacement outcome.
+
+### DRM-006 — Bimala Tamang, Sindhupalchowk, Nepal
+
+The World Bank reports that Bimala Tamang and her family received a housing
+grant in installments after the 2015 earthquake, rebuilt their house and jointly
+owned it with her husband. The account also describes increased interaction
+with government and project staff, participation in training and a stronger
+role in a community women's group. This closes a named household's route from
+damage to grant to rebuilt home and agency. It does not establish the home's
+ongoing affordability, accessibility, utility reliability, structural quality
+under a later hazard or whether the family would be able to remain after a
+future shock.
+
+### DRM-007 — Wazira Bibi, Dur Muhammad Abro, Sindh, Pakistan
+
+After the 2022 floods destroyed her home for the second time, Wazira chose to
+rebuild on the same slope but raise and strengthen the foundations beyond the
+minimum described in the project guidance. The case makes the household's
+place attachment and risk judgment visible: resilience is not necessarily
+relocation, and a safer replacement can be a way of remaining. At the point of
+the World Bank account, the home was shown at the construction site; completion,
+utilities, finance adequacy and post-occupancy safety were not independently
+closed.
+
+### DRM-008 — the Raloso family, Philippines
+
+Following Typhoon Haiyan, the Raloso family rebuilt and retrofitted its home;
+the World Bank reports that when another typhoon struck just over a year later,
+the family and 17 neighbours used the resilient house for shelter. This is a
+strong named example of repair becoming a protective place-level capability,
+not just a private asset. The source does not provide the household's full
+cost, insurance or utility record, nor does it show that the retrofit model
+would scale to renters or households without capital.
+
+### DRM-009 — Usha Devi, Kedarnath/Uttarakhand, India
+
+The World Bank describes Usha Devi choosing owner-driven reconstruction after
+the 2013 floods, while still struggling to put life together in difficult
+terrain. The account records a meaningful decision right—choosing the kind of
+house and rebuilding herself—but it is not a completion certificate. It is a
+useful counterexample: a credible offer and household preference can exist
+before repair, service restoration and return are actually achieved.
+
+## Sources added in the named-case refresh
+
+- [World Bank: Bimala's Nepal earthquake reconstruction story](https://www.worldbank.org/en/news/feature/2020/07/28/rising-from-the-rubble-rebuilding-after-the-nepalese-earthquake-bimalas-story)
+- [World Bank: Wazira's resilient Sindh reconstruction story](https://www.worldbank.org/en/news/feature/2023/08/03/i-decide-my-own-destiny-taking-ownership-for-a-resilient-sindh)
+- [World Bank: resilient retrofit and the Raloso family](https://blogs.worldbank.org/en/sustainablecities/building-better-next-disaster-retrofitting-homes-can-save-lives-and-strengthen-economies)
+- [World Bank: Usha Devi's owner-driven reconstruction choice](https://blogs.worldbank.org/en/endpovertyinsouthasia/i-will-construct-my-house-myself)
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |
