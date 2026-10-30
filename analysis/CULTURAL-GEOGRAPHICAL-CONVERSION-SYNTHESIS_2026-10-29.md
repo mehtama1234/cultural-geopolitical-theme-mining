@@ -3835,6 +3835,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 408. **Humanitarian AI efficiency is not civilian protection under resource scarcity and conflict proximity.** Faster analysis, returned staff time or a multi-country pilot can coexist with funding cuts, model error, missing people, military-data exposure and no person-level remedy.
 
+409. **Digital identity interoperability is not completed service access.** A certified wallet, biometric assurance level or accessibility test can improve portability while device binding, demographic error, revocation, stigma, non-digital fallback and human recovery remain uneven across people and places.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3853,7 +3855,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 408 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 409 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 
