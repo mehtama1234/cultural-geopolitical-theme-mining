@@ -3531,6 +3531,10 @@ The KA follow-up adds a **lunar-capability-to-commercial-logistics-reliability-a
 
 The KF follow-up adds an **SRM-research-to-cross-regime-assessment-and-non-deployment-boundary** distinction. UK policy closes a national “research without deployment” position; the Met Office closes a model-only institutional boundary; and the Montreal Protocol closes an ozone/UV/health/biodiversity assessment pathway with regional and gender-balance language. These make governance more concrete without converting research into a climate solution or a global consent mechanism.
 
+308. **A quantum-sensor prototype, defense trial, commercialization grant, space-qualification report, Earth-observation pathfinder, lunar timing concept or national strategy is not by itself calibrated field performance, affordable deployment, reliable PNT, equitable coverage, health benefit, ecological protection, civilian control or legitimate strategic advantage.** The UK Dstl trial has a future aircraft target; UKRI funding names intended products rather than achieved service outcomes; ESA says key space technology remains early-stage; and NIST’s lunar laser is a future infrastructure concept.
+
+The KB follow-up adds a **quantum-sensing-to-terrestrial-deployment-space-qualification-and-off-Earth-infrastructure** distinction. UK evidence closes a defense PNT trial and civilian/dual-use commercialization portfolio; ESA closes an explicit orbit-qualification bottleneck; and NIST closes a named lunar timing/navigation concept. These broaden the strategic map, but no public source here closes a sensor/platform/place chain through calibration, service continuity, equitable access, accountable data governance and verified public outcomes.
+
 ## What the evidence does not support
 
 Do not claim that:
