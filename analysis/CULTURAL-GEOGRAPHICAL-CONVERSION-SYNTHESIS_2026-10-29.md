@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HY
+**Date:** 2026-10-30; refreshed through Rotations D–HZ
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3222,6 +3222,10 @@ The HX packet adds **shock-responsive-cash-to-received-household-protection-and-
 230. **A youth mental-health plan, awareness campaign, screening activity, trained counsellor, school integration, platform user, hotline contact, referral or outreach count is not by itself trusted care, confidentiality, therapeutic receipt, safety, continuity, functioning or recovery.** A service can expand reach while specialist scarcity, stigma, privacy, referral failure, language, disability, displacement or family risk still prevent usable help.
 
 The HY packet adds **youth-mental-health-access-to-trusted-continuous-functioning conversion** with a source boundary around distress, recognition, help-seeking, contact, confidentiality, consent, language, stigma, assessment, referral, specialist capacity, treatment/support, repeat contact, safeguarding, school/work functioning, safety, family, disability, migration and youth-defined agency. WHO supplies service and rights guidance; UNICEF supplies global scale, Viet Nam, Türkiye, Brazil, Nepal, North Macedonia and Eastern/Southern Africa evidence. These close service design, policy, training, reach, digital contact, outreach and system-gap stages, but no public source here closes a comparable young-person chain through confidential receipt, continuous care, functioning and recovery.
+
+231. **E-waste volume, collection, recycling, extended producer responsibility, circularity policy, recovered material or formalization is not by itself safe work, decent income, child protection, environmental recovery, traceability or accountable cross-border value.** A formal channel can exclude or displace informal workers; documentation is not proof of recovery; and hazardous exposure can persist in homes, workplaces, soil and water.
+
+The HZ packet adds **e-waste-circularity-to-safe-inclusive-material-recovery conversion** with a source boundary around device, design, discard, repair, resale, collection, ownership, trade, sorting, dismantling, exposure, PPE/controls, wages, gender/age, material recovery, soil, water, food, child/household pathway, formalization, complaint, remedy and producer responsibility. WHO supplies global scale, hazard, child/household and environmental-health evidence; UNEP supplies transboundary and Mexico circularity evidence; ILO supplies employment measurement and India’s E-SAFE occupational-safety case. These close scale, hazard, trade, policy, employment and intervention stages, but no public source here closes a comparable worker/community chain through exposure, income, recovery, remedy and health.
 
 ## What the evidence does not support
 
