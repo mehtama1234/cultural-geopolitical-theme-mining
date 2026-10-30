@@ -3547,6 +3547,10 @@ The KI follow-up adds an **AI-drug-development-to-context-qualified-evidence-cli
 
 The KG follow-up adds an **mRNA-platform-to-individualized-clinical-workflow-and-regional-capability** distinction. WHO closes a regional manufacturing and training network; NCI closes the operational burden and recruitment counterexample; and current ClinicalTrials.gov records close active product-level experimentation and measurement plans. These strengthen the case for a conversion opportunity, but no public source here closes the chain through timely patient-specific production, comparative efficacy, durable safety, affordability, equitable selection, or post-treatment outcome.
 
+312. **A microplastic detection in blood, a co-exposure association, a multi-study biomonitoring synthesis, a drinking-water measurement method or a plastic-pellet-loss rule is not by itself causal human disease, a safe threshold, lower exposure, equitable protection or health improvement.** A 36-person blood pilot did not establish that additives came from detected particles; a 70-study synthesis found method-dependent results, uneven representation and no demonstrated causal human relationships; and European controls close measurement and source-control steps without closing health outcomes.
+
+The KH follow-up adds a **microplastic-detection-to-comparable-exposure-source-control-and-health-protection** distinction. The blood pilot closes a named human co-exposure signal; the biomonitoring synthesis closes an analytical-comparability and representation warning; and European policy closes jurisdiction-specific measurement and pellet-loss milestones. These support a prevention and monitoring opportunity, but no public source here closes the chain through representative exposure attribution, dose-response, worker/community protection, lower body burden or clinical benefit.
+
 ## What the evidence does not support
 
 Do not claim that:
