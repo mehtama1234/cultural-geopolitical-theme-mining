@@ -3695,6 +3695,14 @@ The JU follow-up adds **vaping-authorization-and-enforcement-to-complete-adult-s
 
 The JU evidence adds **nicotine-product-policy-to-context-specific-exposure-switching-dependence-and-equitable-health-benefit** as a separate conversion question. The next ledger should preserve product, flavor, channel, age, place, complete/dual use, cessation support, enforcement, mental health and subgroup outcomes rather than treating authorization or prevalence as the endpoint.
 
+349. **A digital-therapy regulatory-access pilot, app authorization, evidence-generation plan, engagement metric or single-country trial is not by itself safe equitable treatment, sustained adherence, clinical recovery, language inclusion, privacy or patient agency.** FDA’s 2026 TEMPO participants are linked to real-world outcome reporting, but FDA states their effectiveness has not yet been evaluated and one AI-voice device excludes non-English speakers/readers and people without telephone access; WHO’s Step-by-Step program provides a stronger named implementation and outcome signal but remains a specific adapted pathway.
+
+The JW follow-up adds **digital-therapeutic-access-or-trial-to-human-supported-routine-care-language-inclusion-adherence-and-clinical-benefit** as a separate conversion question. The evidence closes two different pathways—conditional access and locally adapted human-supported delivery—but no public source here closes broad transfer, long-term use, privacy, reimbursement or durable patient control.
+
+350. **Digital health equity is not produced by making software free or technically available; it depends on who can read, connect, enroll, complete, disclose, escalate and remain supported.** WHO’s Step-by-Step model pairs picture-based content with weekly non-specialist support, while FDA’s TEMPO records explicit language and telephone exclusions for at least one intended use; the same “digital therapy” label can therefore represent radically different access conditions.
+
+The JW evidence adds **digital-therapy-design-to-language-device-human-support-crisis-fit-completion-escalation-and-equitable-outcome** as a separate conversion question. The next ledger should compare device/phone access, language, literacy, disability, supporter role, crisis setting, completion, safety flag, referral and follow-up across places rather than using download or engagement counts as the outcome.
+
 ## What the evidence does not support
 
 Do not claim that:

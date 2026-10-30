@@ -27,6 +27,8 @@ condition / referral / app or software
 | JW6 | WHO’s European equity review finds digital-health access, use and engagement are higher among urban, higher-income, younger, more educated, English-speaking and non-disabled groups. | Distributional access and engagement pattern. | Digital-therapeutic-specific effect, mitigation, adherence or clinical recovery. |
 | JW7 | FDA defines Software as a Medical Device as software intended for medical purposes without being part of hardware and describes the need for common regulatory principles to protect patient safety while enabling innovation. | Regulatory category and safety rationale. | Clinical effectiveness, real-world use, data governance or reimbursement. |
 | JW8 | FDA’s digital-health guidance identifies lifecycle management, cybersecurity, AI-enabled software and clinical evaluation as active regulatory concerns, while its 2026 TEMPO pilot seeks meaningful patient outcomes for selected digital-health devices. | Lifecycle, cybersecurity and outcome-measurement pathway. | Patient-level benefit, equitable scale, long-term safety or durable trust. |
+| JW9 | FDA’s first TEMPO participants are offered a pathway tied to CMS ACCESS and real-world outcome reporting, but FDA states that the effectiveness of selected devices for their intended uses has not yet been evaluated; one AI-voice behavioral-health device excludes non-English speakers/readers and people without telephone access. | Named regulatory-access experiment and explicit inclusion boundary. | FDA-verified benefit, routine-care adherence, language equity, safety, reimbursement or long-term outcome. |
+| JW10 | WHO’s Step-by-Step digital self-help program uses five picture-based modules with weekly light guidance from trained non-specialists; Lebanon trials involving Lebanese and Syrian participants reported reduced depression, anxiety and stress, improved functioning and different response rates, and the program is adapted in Lebanon, Thailand and India. | Named cross-cultural implementation and clinical outcome signal. | Generalizability, independent replication, long-term adherence, scale quality, privacy or equitable reach. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -36,15 +38,34 @@ The geography of digital access matters. WHO’s equity evidence shows that the 
 
 Digital therapeutics also change professional roles and accountability. Practitioner support may be essential for adherence, escalation and interpretation, yet the software can be procured as if it replaces care. Regulators, health systems and vendors must decide who monitors deterioration, handles data, updates an algorithm, responds to adverse events and pays when the subscription ends. The geopolitical dimension is the concentration of clinical software, cloud infrastructure, data and evidence standards across jurisdictions.
 
+The evidence now shows two distinct implementation modes. A high-income
+regulatory-access pathway can accelerate availability while explicitly deferring
+effectiveness evaluation and embedding eligibility exclusions, as in TEMPO. A
+public-interest humanitarian pathway can pair a free tool with a trained human
+supporter, local-language or picture-based adaptation and named cross-country
+outcomes, as in Step-by-Step. Neither model automatically resolves continuity,
+privacy, financing, cultural fit or scale quality; the decisive evidence is the
+patient/provider pathway and the ability to stop, escalate, recover and remain
+included.
+
 ## Counterexample and source boundary
 
 An app listing, regulatory category, early-value recommendation, randomized trial, engagement metric, cybersecurity document, procurement approval or evidence-generation plan is not by itself sustained adherence, clinical recovery, privacy, affordability, inclusion, practitioner continuity or patient agency. A therapy can show symptom improvement in a study while failing in routine care; a secure product can remain inaccessible; and an evidence-generation requirement can exist without public results.
+
+A trial outcome in one adapted program does not establish universal transfer,
+while an access pilot does not establish efficacy. The ledger must preserve
+language, literacy, device, supporter, crisis setting, contraindication,
+referral, completion, escalation and follow-up conditions.
 
 ## Promotion decision
 
 **Tier 1 bounded finding:** Digital-therapeutic apps, regulatory pathways, early-value recommendations, engagement metrics and evidence-generation plans are not by themselves safe effective equitable treatment, sustained adherence, privacy, reimbursement or continuity.
 
 **Tier 2 mechanism candidate:** The next high-value conversion is **digital-therapeutics-to-safe-equitable-adherent-clinical-benefit-and-patient-agency**. The strongest next acquisition is a named therapy/patient/provider/system chain linking condition, referral, eligibility, device, language, onboarding, use, clinician support, symptom outcome, safety escalation, privacy, reimbursement, discontinuation and later health result.
+
+Add human-support intensity, language/reading eligibility, crisis setting,
+adaptation, module completion, symptom response, escalation, device/phone access,
+privacy, reimbursement and long-term follow-up fields.
 
 ## Sources
 
@@ -56,3 +77,5 @@ An app listing, regulatory category, early-value recommendation, randomized tria
 - NICE, [Digital front-door technologies](https://www.nice.org.uk/guidance/htg756/chapter/1-Recommendations)
 - FDA, [Software as a Medical Device](https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd)
 - FDA, [Digital-health guidance and TEMPO pilot](https://www.fda.gov/medical-devices/digital-health-center-excellence/guidances-digital-health-content)
+- FDA, [TEMPO pilot participants and evaluation boundary](https://www.fda.gov/medical-devices/digital-health-center-excellence/participants-selected-tempo-digital-health-devices-pilot)
+- WHO, [Step-by-Step humanitarian mental-health program](https://www.who.int/singapore/news/detail-global/17-06-2026-who-step-by-step-programme-recognized-as-a-promising-innovation-for-mental-health-in-humanitarian-settings)
