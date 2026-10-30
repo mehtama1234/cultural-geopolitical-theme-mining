@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IY
+**Date:** 2026-10-30; refreshed through Rotation JL
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3367,6 +3367,10 @@ The JH packet adds **aviation-transition-to-lower-local-exposure-affordable-conn
 
 The JK packet adds **maritime-decarbonization-to-safe-seafarer-work-lower-port-exposure-affordable-trade-and-regional-capability conversion** with a source boundary around vessel/route/port/worker/community, fuel origin, certification, ship, bunkering, training, safety, emissions, cargo cost, jobs, local air/water, trade continuity, consultation, grievance and post-project capability. IMO supplies the net-zero framework, governance uncertainty, chain-of-custody, renewable-fuel infrastructure, seafarer-training, Barbados corridor, South-East Asia implementation and emission-control evidence; UNCTAD supplies the fleet and port-investment burden. These close global regulation, uncertainty, infrastructure, worker, island, regional, health and finance stages, but no public source here closes a comparable vessel/route/community chain through verified lower emissions, safe decent work, affordable trade, lower local exposure and durable regional capability.
 
+267. **An exploration license, resource estimate, successful well, renewable label, capacity announcement, concessional loan, jobs estimate, community consultation, reinjection plan or cultural-impact assessment is not by itself reliable affordable energy, safe water and land use, sustainable reservoir performance, fair benefit, cultural continuity or legitimate stewardship.** A high capacity factor can coexist with high connection costs; reinjection can reduce some impacts without proving long-term field health; and partnership language can exist without decision rights or benefit receipt.
+
+The JL packet adds **geothermal-development-to-affordable-reliable-energy-local-benefit-and-cultural-land-governance conversion** with a source boundary around field/project/community, reservoir baseline, drilling, water, seismicity, reinjection, plant or heat user, tariff/offtake, jobs, ownership, customary values, consent, grievance, benefit receipt and post-project reservoir and community outcomes. IRENA supplies current scale, capacity-factor, cost and technology-maturity evidence; IEA supplies next-generation geothermal investment and dispatchable-power potential; the World Bank supplies benefit mechanisms; the US Department of Energy supplies water, air and induced-seismicity risks; and New Zealand/Bay of Plenty sources supply a named Indigenous-partnership, consent and adaptive-field-governance case. These close global scale, innovation, economics, benefit design, environmental-risk, national-policy, customary-use, consent and adaptive-monitoring stages, but no public source here closes a comparable field/community chain through affordable energy, safe water and land use, sustainable reservoir performance, fair benefit, cultural continuity and durable local authority.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3403,7 +3407,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JK.
+living goal. The current atlas baseline has been refreshed through Rotation JL.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
