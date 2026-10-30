@@ -572,6 +572,13 @@ air conditioning is not protection if energy cost, equipment failure, housing
 rules or power outages prevent operation. The cultural endpoint is whether people
 can remain safe in a place they recognize as home and community.
 
+The affordability refresh adds IEA, EPA and World Bank evidence: household
+income, housing efficiency, appliance choice, electricity prices, grid
+reliability and culturally workable cooling routes mediate whether heat
+protection is usable. More cooling can reduce exposure while increasing bill
+stress, peak demand or dependence on communal routes; the person-level health
+and care-continuity chain remains open.
+
 ### 27. Refugee integration is local, reciprocal belonging
 
 The [refugee resettlement rotation](ROTATION-Y-REFUGEE-RESETTLEMENT-LOCAL-INTEGRATION-2026-10-29.md)
