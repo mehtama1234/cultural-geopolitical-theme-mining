@@ -3817,6 +3817,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 399. **Strategic status can strengthen public obligations while also narrowing the space for refusal.** National AI, sovereignty and competitiveness narratives may justify accelerated connections; therefore local legitimacy must be tested through transparent water/energy reporting, meaningful participation, benefit allocation, remedy and post-operation reliability rather than strategic designation alone.
 
+400. **A public hearing closes visibility of conflict, not influence over the project.** A named 120 MW proposal can expose noise, trees, water, electricity and bushland-interface trade-offs; only recorded conditions, community influence, compliance, remedy and post-operation evidence show whether participation changed the host-place bargain.
+
 ## What the evidence does not support
 
 Do not claim that:
