@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JV
+**Date:** 2026-10-30; refreshed through Rotation JW
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3411,6 +3411,10 @@ The JU packet adds **vaping-regulation-to-youth-protection-adult-health-benefit-
 
 The JV packet adds **medical-travel-to-safe-continuous-equitable-care-local-capability-and-cross-border-accountability conversion** with a source boundary around patient/provider/destination/home-system, need, referral, consent, language, payment, procedure, records, complication, follow-up, rehabilitation, liability, household cost, workforce effect and later health outcome. WHO supplies ethics, equity, destination-system, continuity, language, information, cultural/legal-mobility and regional-governance evidence; Cyprus supplies a named managed-referral case; and OECD supplies the health-worker geography and origin-country shortage context. These close ethical, distributional, continuity, information, cultural/legal, managed-referral, regional-governance and workforce stages, but no public source here closes a comparable patient/destination/home-system chain through safe recovery, equitable local capability, reliable follow-up, enforceable liability and durable cross-border trust.
 
+278. **An app listing, regulatory category, early-value recommendation, randomized trial, engagement metric, cybersecurity document, procurement approval or evidence-generation plan is not by itself sustained adherence, clinical recovery, privacy, affordability, inclusion, practitioner continuity or patient agency.** A therapy can show symptom improvement in a study while failing in routine care; a secure product can remain inaccessible; and an evidence-generation requirement can exist without public results.
+
+The JW packet adds **digital-therapeutics-to-safe-equitable-adherent-clinical-benefit-and-patient-agency conversion** with a source boundary around therapy/patient/provider/system, condition, referral, eligibility, device, language, onboarding, use, clinician support, symptom outcome, safety escalation, privacy, reimbursement, discontinuation and later health result. WHO supplies system-level caution, evidence gaps and equity patterns; NICE supplies named conditional depression/anxiety pathways, heterogeneous evidence and assurance gates; and FDA supplies the software-as-medical-device, lifecycle, cybersecurity and meaningful-outcomes framework. These close system caution, evidence uncertainty, conditional adoption, comparative evidence, procurement assurance, equity, regulatory category and lifecycle stages, but no public source here closes a comparable therapy/patient chain through safe effective equitable treatment, sustained adherence, privacy, reimbursement, clinical continuity and patient agency.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3447,7 +3451,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JV.
+living goal. The current atlas baseline has been refreshed through Rotation JW.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
