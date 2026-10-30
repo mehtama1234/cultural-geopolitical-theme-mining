@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JW
+**Date:** 2026-10-30; refreshed through Rotation JX
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3415,6 +3415,10 @@ The JV packet adds **medical-travel-to-safe-continuous-equitable-care-local-capa
 
 The JW packet adds **digital-therapeutics-to-safe-equitable-adherent-clinical-benefit-and-patient-agency conversion** with a source boundary around therapy/patient/provider/system, condition, referral, eligibility, device, language, onboarding, use, clinician support, symptom outcome, safety escalation, privacy, reimbursement, discontinuation and later health result. WHO supplies system-level caution, evidence gaps and equity patterns; NICE supplies named conditional depression/anxiety pathways, heterogeneous evidence and assurance gates; and FDA supplies the software-as-medical-device, lifecycle, cybersecurity and meaningful-outcomes framework. These close system caution, evidence uncertainty, conditional adoption, comparative evidence, procurement assurance, equity, regulatory category and lifecycle stages, but no public source here closes a comparable therapy/patient chain through safe effective equitable treatment, sustained adherence, privacy, reimbursement, clinical continuity and patient agency.
 
+279. **An inoculant, microbial strain, product authorization, positive-list entry, demonstration plot, market-development plan, training session, compost hub or yield claim is not by itself reliable field performance, affordable access, food security, safe ecology, farmer income, local ownership or durable reduction in mineral-fertilizer dependence.** A product can work in trials but fail in storage; a soil-health practice can improve yields without proving causality for the product; and regulatory delay can restrict access without proving that faster approval would be safe.
+
+The JX packet adds **biofertilizer-development-to-reliable-yield-affordable-smallholder-inputs-soil-resilience-and-local-input-sovereignty conversion** with a source boundary around product/strain/farm/community, soil and crop baseline, carrier/storage, application, regulation, price, extension, microbial viability, yield, nutrient use, ecological effect, farmer income and later adoption or import dependence. FAO supplies microbial mechanisms, viability and context-specific evidence; the European Commission supplies biosafety, organic-use, market-development and regulatory-bottleneck evidence; and the World Bank supplies named Ethiopia soil-health and local-production pathways. These close mechanism, storage, safety, recognized use, market, regulatory, place-based soil-health and input-sovereignty opportunity stages, but no public source here closes a comparable product/farm chain through reliable yields, affordable access, safe ecology, farmer income, local ownership and durable reduction in mineral-fertilizer dependence.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3451,7 +3455,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JW.
+living goal. The current atlas baseline has been refreshed through Rotation JX.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
