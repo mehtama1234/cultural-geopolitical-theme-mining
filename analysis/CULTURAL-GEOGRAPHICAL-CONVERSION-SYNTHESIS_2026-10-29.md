@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation KH
+**Date:** 2026-10-30; refreshed through Rotation KI
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3458,6 +3458,10 @@ The KG packet adds **mRNA-platform-to-personalized-therapeutic-benefit-regional-
 289. **A particle detection in water, food, air or tissue, biomarker association, laboratory toxicity result, review, public concern, treatment-removal claim, plastic treaty, monitoring standard or source-reduction promise is not by itself causal disease, safe exposure threshold, clinical diagnosis, equitable protection, worker safety, community remedy or health improvement.** Detection methods differ; particles carry mixtures; and associations can reflect confounding, reverse causation or exposure-measurement error.
 
 The KH packet adds **microplastic-source-to-validated-exposure-health-protection-and-exposure-justice conversion** with a source boundary around place/population/source, plastic stream, occupation or household, sampling method, particle characteristics, exposure route, biomarker or clinical signal, uncertainty, intervention, cost, worker/community participation and later exposure or health outcome. WHO supplies exposure, drinking-water, hazard-pathway, measurement and source-reduction evidence; recent human reviews supply detection, association and methodological-bias boundaries; JAMA supplies the tissue-detection and international-cooperation signal; and UNEP supplies the global public-salience frame. These close exposure, research, human-evidence, uncertainty, transboundary, salience, hazard and treatment stages, but no public source here closes a comparable place/population chain through causal disease attribution, safe threshold, clinical diagnosis, equitable protection, worker safety, community remedy and verified health improvement.
+
+290. **An AI-generated molecule, protein structure, candidate ranking, benchmark, patent, investment, qualified software tool, regulatory submission, reduced animal-study claim or laboratory result is not by itself a drug, target engagement, safety, efficacy, manufacturability, regulatory approval, affordability, patient trust, public-health benefit or biosafety.** A model can generate many candidates while increasing validation burden; a qualified tool can support measurement without improving treatment; and human review can be nominal if context, data and uncertainty are hidden.
+
+The KI packet adds **AI-drug-discovery-to-experimentally-validated-safe-affordable-therapeutic-and-distributed-biological-capability conversion** with a source boundary around model/candidate/indication, training data, target, generated molecule, synthesis, assay, toxicology, manufacturing, trial population, regulatory context, price, access, adverse event, post-market signal and later patient outcome. WHO supplies the pharmaceutical-lifecycle and public-health frame; FDA and EMA supply good-practice principles, submission and discovery/regulatory boundaries, and the AIM-NASH qualification case; and the National Academies supplies the protein-design and candidate-generation mechanism. These close lifecycle, regulatory, submission, qualification, design, evidence, boundary and public-value stages, but no public source here closes a comparable model/candidate chain through experimentally validated safe affordable therapy, patient trust, distributed biological capability and responsible biosafety.
 
 ## What the evidence does not support
 
