@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–EK
+**Date:** 2026-10-29; refreshed through Rotations D–EL
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -1689,6 +1689,17 @@ support, could remain safely in a chosen place, or that unpaid and paid
 caregivers retained health, income, voice, rest, protection and remedy when the
 arrangement failed.
 
+143. **A park, library, café, community centre, faith programme, sports initiative,
+school club, workplace network, neighbourhood event, digital platform,
+anti-loneliness campaign or social-connection strategy is not by itself
+belonging, friendship, support, mental or physical health, civic trust,
+collective resilience or social cohesion.** Attendance, membership, footfall,
+screen time, event counts, contact frequency, volunteer hours, engagement,
+campaign reach or self-reported participation do not establish that named people
+formed safe and reciprocal relationships, received support when needed, were
+included across cultural and geographic difference, or gained voice and remedy
+when the connection environment became exclusionary, hostile or surveillant.
+
 142. **A mental-health strategy, community team, psychiatric-bed reduction, crisis
 line, screening campaign, workplace programme, peer-support standard, digital
 tool, referral, discharge plan or anti-stigma campaign is not by itself safety,
@@ -1730,6 +1741,8 @@ The EJ packet adds **care-infrastructure-to-autonomy-and-caregiver-resilience** 
 
 The EK packet adds **community-mental-health-to-recovery-and-agency** with a source boundary around named recovery, continuous access, safety, housing retention, family burden, return to work or education, trust after crisis, technology equity and remedy.
 
+The EL packet adds **social-infrastructure-to-reciprocal-connection-and-belonging** with a source boundary around named repeated connection, reciprocity, safety, belonging, health, collective action, digital harms and remedy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -1766,7 +1779,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation EK.
+living goal. The current atlas baseline has been refreshed through Rotation EL.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
