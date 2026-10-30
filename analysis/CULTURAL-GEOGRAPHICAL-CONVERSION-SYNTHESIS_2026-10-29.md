@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HV
+**Date:** 2026-10-30; refreshed through Rotations D–HW
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3210,6 +3210,10 @@ The HU packet adds **menstrual-health-system-to-dignified-participation conversi
 227. **Clean-cooking access, stove distribution, electrification, fuel availability, an emissions classification, an awareness campaign, a national transition statistic or a household intervention is not by itself primary use, affordability, lower indoor exposure, health protection, time agency or durable household resilience.** A device can be owned but not used as the primary cooker; fuel can be unaffordable or unreliable; cooking practices can make a technology unsuitable; and ambient pollution or heating can remain a major burden.
 
 The HV packet adds **clean-cooking-access-to-reliable-safe-household-agency conversion** with a source boundary around technology, fuel, price, supply, installation, repair, meal compatibility, primary use, indoor exposure, ambient pollution, heating, cooking time, care/work allocation, child and maternal health, reversion and local legitimacy. WHO supplies burden, health-oriented clean-fuel criteria and the household-energy boundary; IEA supplies Africa, Kenya, global access, affordability and shock-response evidence; UNICEF supplies the Mongolia intervention and ambient-pollution counterexample. These close burden, policy, technology, scenario, country progress and intervention stages, but no public source here closes a comparable same-household chain through daily use, exposure, health, time and resilience.
+
+228. **An early-warning system, risk map, emergency handbook, shelter, drill, policy score, disability-inclusive consultation or response operation is not by itself an accessible warning, understood risk, safe evacuation, accessible care, family continuity, survival, recovery or agency for disabled people.** System presence can coexist with inaccessible formats, missing transport, medication and assistive-device disruption, unsafe shelters, or exclusion from decisions.
+
+The HW packet adds **inclusive-warning-to-disabled-person-protection-and-recovery conversion** with a source boundary around hazard, forecast, warning format, receipt, language, sensory/cognitive access, trust, support, transport, medication, assistive device, evacuation, shelter, water/sanitation, family, school, work, survival, complaint and recovery voice. UNDRR supplies global MHEWS status, inclusive architecture, Baguio participation and Cambodia/diverse-context cases; UNICEF supplies child-disability, India and Indonesia evidence; World Bank supplies a cross-country policy-inclusion boundary. These close system presence, design, participation, policy and education-access stages, but no public source here closes a comparable disabled-person chain through warning, evacuation, accessible shelter, continuity and recovery influence.
 
 ## What the evidence does not support
 
