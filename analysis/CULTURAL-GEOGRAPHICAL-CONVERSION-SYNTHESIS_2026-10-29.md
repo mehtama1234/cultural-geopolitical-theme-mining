@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotation JS
+**Date:** 2026-10-30; refreshed through Rotation JT
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3399,6 +3399,10 @@ The JR packet adds **advanced-air-mobility-to-safe-affordable-inclusive-access-l
 
 The JS packet adds **CBDC-development-to-private-resilient-inclusive-everyday-payments-and-public-monetary-agency conversion** with a source boundary around jurisdiction/user/community, mandate, wallet, identity, intermediary, device, network/offline event, merchant acceptance, fee, privacy exposure, fraud remedy, cash alternative and later household/business payment outcome. BIS supplies global exploration and stablecoin-response evidence; the ECB supplies digital-euro design, offline, privacy, inclusion and pilot architecture; and the Bank of England supplies exploratory governance, public-private infrastructure, cash coexistence and programmability boundaries. These close global momentum, design, pilot, offline, privacy, engagement, intermediary, cash and monetary-competition stages, but no public source here closes a comparable jurisdiction/user chain through trusted inclusive use, practical privacy, merchant acceptance, emergency continuity, financial stability and durable public monetary agency.
 
+275. **An investment total, patent, pilot plant, novel-food dossier, safety opinion, label, life-cycle claim, scale-up milestone or alternative-protein forecast is not by itself affordable nutritious food, cultural acceptance, transparent choice, farmer or worker benefit, lower environmental burden, resilient local supply or public trust.** A product can be safe but unaffordable; lower land use but energy-intensive; clearly labeled but culturally rejected; or commercially available while inputs and intellectual property remain concentrated.
+
+The JT packet adds **precision-fermentation-to-safe-affordable-nutritious-culturally-legitimate-food-and-local-capability conversion** with a source boundary around product/facility/community, organism and feedstock, energy/water, process, safety dossier, label, price, nutrition, buyer, farmer/worker effect, IP/control, cultural response and later food-access and environmental outcome. FAO supplies the food-safety, terminology and regulatory-capacity frame; EFSA supplies the EU authorization and maturity pathway; USDA supplies investment, commercialization, labeling and scale-up evidence; and Codex supplies emerging international classification work. These close technology, safety, authorization, maturity, investment, labeling, regulatory-capacity, engineering and standards stages, but no public source here closes a comparable product/community chain through affordable nutritious food, cultural legitimacy, resilient local capability, equitable transition and verified environmental benefit.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3435,7 +3439,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JS.
+living goal. The current atlas baseline has been refreshed through Rotation JT.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
