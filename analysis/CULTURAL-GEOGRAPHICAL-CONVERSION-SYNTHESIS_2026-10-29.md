@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–HM
+**Date:** 2026-10-30; refreshed through Rotations D–HN
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3175,6 +3175,10 @@ The HL packet adds **AMR-signal-to-equitable-treatment-and-local-health-security
 
 The HM packet adds **vaccination-coverage-to-equitable-protection-and-durable-trust conversion** with a source boundary around antigen, dose, date, location, stock, outreach, language, disability, displacement, consent, confidence, adverse event, completion, protection, outbreak exposure and later routine uptake. WHO/UNICEF supply current global estimates and uncertainty; CDC supplies a named US outbreak and response; and WHO/UNICEF country cases supply Viet Nam, Syria and Mongolia delivery and trust mechanisms. These close coverage, response and access-adaptation stages, but no public source here closes a comparable child-level chain through valid completion, protection, safety response and durable routine trust.
 
+219. **An international recruitment campaign, foreign-trained worker count, visa grant, ethical-recruitment code, licensing reform, retention change, staffing increase or source-country training agreement is not by itself safe decent work, skills-appropriate employment, patient access, continuity, quality, rural coverage, worker wellbeing, reciprocal capability or durable health security.** A destination can gain staff while a source loses scarce workers; a source can reduce outflow through better pay while remaining understaffed; and a voluntary code can coexist with employer dependence, deskilling or patient-level gaps.
+
+The HN packet adds **health-worker-mobility-to-reciprocal-care-and-local-capability conversion** with a source boundary around origin, destination, occupation, training, licensing, contract, recruiter, fees, language, race/gender, workload, pay, safety, family, retention, rural/urban posting, patient volume, continuity, complaint, return, source-country investment and patient outcome. WHO and OECD establish governance, scale, destination dependence, licensing barriers and named European/African pathways; UK data add a current route signal. These close migration and some retention/skills stages, but no public source here closes a comparable worker/facility/patient chain through safe employment, local distribution, care continuity and source-country replenishment.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3211,7 +3215,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation HM.
+living goal. The current atlas baseline has been refreshed through Rotation HN.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
