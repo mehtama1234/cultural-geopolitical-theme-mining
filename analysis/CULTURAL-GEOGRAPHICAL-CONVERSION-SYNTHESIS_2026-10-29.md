@@ -3359,6 +3359,10 @@ The JF packet adds **mountain-cryosphere-change-to-safe-water-livelihood-cultura
 
 The JG packet adds **ocean-acidification-science-to-coastal-food-livelihood-cultural-continuity-and-equitable-adaptation conversion** with a source boundary around species/fishery/community, chemistry, co-stressors, biology, catch, aquaculture, price, fishing rights, labor, food use, cultural practice, monitoring, adaptation cost, management decision, benefit and long-term resilience. UNESCO IOC supplies the global chemistry-biology and coastal-protection mechanism; NOAA supplies red-king-crab attribution, shellfish biology, hatchery/Tribal adaptation, scallop co-production and home-port revenue evidence; and the IPCC supplies small-island distributional risk. These close global mechanism, named species, biological, co-production, place-economy, technical, rights, island and multi-stressor stages, but no public source here closes a comparable fishery/community chain through stable food access, fair income, cultural continuity, reef protection and equitable long-term adaptation.
 
+265. **A net-zero target, SAF certificate, announced plant, blend mandate, emissions model, quieter-aircraft scenario, route redesign, airport consultation or jobs estimate is not by itself lower neighborhood exposure, affordable connectivity, safe work, equitable supply-chain benefit, health protection or durable place legitimacy.** Lifecycle carbon reduction can coexist with local exhaust and noise; a noise reduction can move exposure; and aggregate passenger growth can conceal exclusion or fare burden.
+
+The JH packet adds **aviation-transition-to-lower-local-exposure-affordable-connectivity-and-airport-community-legitimacy conversion** with a source boundary around route/airport/neighborhood/worker, aircraft, fuel pathway, lifecycle and local emissions, noise, monitoring, route change, health, jobs, fares, access, supply-chain land/labor, consultation, complaint, remedy and durable agreement. ICAO supplies the 2026–2050 target, noise, local-air-quality, community-engagement and operational frameworks; IATA supplies current SAF scale, scarcity, cost, lifecycle and announced-capacity boundaries; and ICAO supplies global noise scenarios and airport environmental-management guidance. These close sector, fuel, lifecycle, operational, exposure, airport, supply-chain and portfolio stages, but no public source here closes a comparable route/neighborhood chain through lower exposure, affordable connectivity, safe work, equitable transition benefit and durable place legitimacy.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3395,7 +3399,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation JG.
+living goal. The current atlas baseline has been refreshed through Rotation JH.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
