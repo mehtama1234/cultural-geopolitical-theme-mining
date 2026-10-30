@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–DR
+**Date:** 2026-10-29; refreshed through Rotations D–DS
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -1483,7 +1483,18 @@ remedy, children were protected, informal livelihoods transitioned fairly,
 hazardous residues were contained, or recovered material entered a qualified
 product stream.
 
-The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy.
+124. **A cultural-diplomacy strategy, international exhibition, language
+programme, sports exchange, festival, museum partnership, creative-industry
+grant, diaspora network or culture-for-peace project is not by itself reciprocal
+understanding, local ownership, cultural rights, social cohesion, peace or
+geopolitical influence.** Attendance, reach, positive sentiment, media
+coverage, artist mobility, cultural export, partnership agreement or diplomatic
+visibility does not establish that named local actors shared agenda-setting
+power, received fair benefit, could contest representation, sustained the
+relationship, changed everyday interaction, obtained remedy, or influenced
+later policy or behaviour.
+
+The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior.
 
 ## What the evidence does not support
 
@@ -1521,7 +1532,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation DR.
+living goal. The current atlas baseline has been refreshed through Rotation DS.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
