@@ -29,6 +29,8 @@ autonomous vessel / ROC / software / connectivity / port
 | LP8 | The International Group says malicious cyber risks remain within mutual P&I practice but encourages owners to assess autonomous-system exposures with Clubs and underwriters. | Cyber-insurance continuity and increased exposure signal. | Coverage for systemic software failure, supplier negligence, business interruption, data loss or correlated fleet events. |
 | LP9 | IUMI says autonomous systems introduce new failure modes, unforeseen interdependencies, cyber attack, connectivity and human-system interaction risks, and require standards, certification and classification for insurability. | Insurer risk and evidence requirements. | Quantified loss frequencies, common standards, pricing or claims experience. |
 | LP10 | IMO’s Legal Committee covers liability and compensation for damage, pollution, passenger claims and wreck removal, while the LLMC provides existing limitation architecture for maritime claims. | Existing maritime legal mechanisms potentially relevant to MASS. | Whether current limits and conventions fit remote operators, software suppliers, passenger autonomy or mixed sea/shore incidents. |
+| LP11 | IMO’s MASS legal scoping exercise says the role of the remote operator may need clarification within terms such as operator, servant or agent; it identifies new actors including ROCs, network/computer-system providers and system developers, and says fault, negligence, intention, definitions and insurance-certificate access may need review. | Direct convention-level liability-gap evidence for new sea/shore actors. | Final allocation among shipowner, remote operator, supplier, programmer, insurer or State; no automatic private remedy. |
+| LP12 | IMO’s Legal Committee approved methodologies for collecting incident/damage experience and assessing changes in monetary value to evaluate whether liability limits need amendment. | Evidence and review pathway for future compensation-limit decisions. | MASS-specific incident dataset, amended limits, claimant recovery, cross-border enforcement or software/cyber loss treatment. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -40,9 +42,11 @@ Geography matters in at least four ways: the ship’s flag, the ROC’s location
 
 The geopolitical implication is that remote operations centres become regulatory and strategic infrastructure. States may seek control over the data, personnel, certification, software and communications that make a vessel legally operable. The North Sea MoU and Norway’s UNCLOS study show that cooperation is being built, but information exchange is not the same as reciprocal jurisdiction, mutual recognition or enforceable remedy.
 
+IMO’s legal scoping makes the attribution problem more concrete than a generic “regulatory gap.” Existing maritime concepts may not clearly capture remote operators, ROC providers, network and computer-system providers, system developers or programmers; even fault, negligence, intention and access to insurance certificates require interpretation. The Legal Committee’s incident and monetary-value methodologies create a route for evidence-based review, but they are not themselves a compensation regime for a MASS casualty.
+
 ## Counterexample and source boundary
 
-A MASS Safety Certificate, IMO Code, P&I pooling decision, classification notation, ROC certificate, cyber policy, North Sea MoU, liability limit or national approval is not by itself clear fault attribution, prompt compensation, universal insurance, cyber resilience, software accountability, passenger remedy, worker protection, port-community trust or harmonized cross-border enforcement. Marine insurance availability can coexist with gaps at the ROC, supplier, employment, premises, data and jurisdiction layers.
+A MASS Safety Certificate, IMO Code, P&I pooling decision, classification notation, ROC certificate, cyber policy, North Sea MoU, liability-limit methodology or national approval is not by itself clear fault attribution, prompt compensation, universal insurance, cyber resilience, software accountability, passenger remedy, worker protection, port-community trust or harmonized cross-border enforcement. Marine insurance availability can coexist with gaps at the ROC, supplier, employment, premises, data and jurisdiction layers.
 
 ## Promotion decision
 
@@ -60,3 +64,5 @@ A MASS Safety Certificate, IMO Code, P&I pooling decision, classification notati
 - IUMI, [Autonomous/unmanned transport](https://iumi.com/policy/autonomous-unmanned-transport/)
 - IMO, [Legal Committee](https://www.imo.org/en/knowledgecentre/indexofimoresolutions/pages/leg.aspx)
 - IMO, [Convention on Limitation of Liability for Maritime Claims](https://www.imo.org/en/about/conventions/pages/convention-on-limitation-of-liability-for-maritime-claims-%28llmc%29.aspx)
+- IMO, [MASS legal regulatory-scoping and liability-gap circular](https://wwwcdn.imo.org/localresources/en/MediaCentre/HotTopics/Documents/LEG.1-Circ.11%20-%20Outcome%20Of%20The%20Regulatory%20Scoping%20Exercise%20And%20Gap%20Analysis%20Of%20Conventions%20Emanating%20From...%20%28Secretariat%29.pdf)
+- IMO, [Legal Committee 111th session and liability-limit methodologies](https://www.imo.org/en/mediacentre/meetingsummaries/pages/leg-111th-session.aspx)

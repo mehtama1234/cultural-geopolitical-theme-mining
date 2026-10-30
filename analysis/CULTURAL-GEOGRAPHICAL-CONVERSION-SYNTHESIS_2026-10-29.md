@@ -3579,6 +3579,10 @@ The LN follow-up adds a **sea-drone-projection-to-observed-utilization-failure-r
 
 The LO follow-up adds an **autonomous-vessel-certification-to-function-level-human-boundary-island-continuity-and-decent-work** distinction. Japan’s portfolio closes a stronger certification and system-integration stage than a single demonstration, but no public source here closes actual autonomous hours, intervention frequency, workload, emergency performance, passenger/cargo outcomes, insurance/liability, affordability or durable island-community benefit.
 
+320. **A MASS Safety Certificate, P&I pooling decision, classification notation, ROC certificate, cross-border study, liability-limit methodology or national approval is not by itself clear fault attribution, prompt compensation, universal insurance, software accountability, passenger/worker remedy or harmonized enforcement.** IMO’s legal scoping says remote operators, ROC providers, network/system providers and developers may not fit cleanly within existing terms and identifies fault, negligence, intention and certificate access as issues; its later methodology creates an evidence route without creating a MASS compensation regime.
+
+The LP follow-up adds a **MASS-certification-to-new-actor-attribution-incident-evidence-compensation-and-cross-border-remedy** distinction. The architecture now includes safety, P&I, cyber, sea/shore boundaries, foreign ROC jurisdiction and an incident-based review path, but no public source here closes a named casualty through responsible actor, applicable policy, preserved evidence, claimant access, compensation, limitation, enforcement and post-incident learning.
+
 ## What the evidence does not support
 
 Do not claim that:
