@@ -194,6 +194,78 @@ one disruption. Include customers who stopped buying, vendors who left,
 unlicensed sellers, safe markets that remained affordable and unsafe markets
 that improved after infrastructure support.
 
+## Named outcome and operating-case refresh
+
+### 6. Indonesia risk-based inspection pilot: prioritisation reached 3,681 vendors
+
+Indonesia's Ministry of Health and WHO piloted risk-based food inspection in
+five districts and municipalities. The programme assessed 3,681 vendors using a
+risk calculator that combined food profile, mitigation, business size and prior
+inspection discrepancies. It covered 159 community health centres and produced
+different inspection frequencies for high-, medium- and low-risk establishments;
+sanitarian food-safety knowledge rose from 60% to 76%.
+
+This is a useful operating case for proportional enforcement: scarce public
+health capacity was allocated by risk rather than treating every seller as an
+identical compliance problem. It closes inspection architecture and workforce
+capability, not consumer illness reduction, vendor cost, affordability, food
+quality at point of purchase, appeal, bribery reduction or durable compliance.
+
+Source: [WHO Indonesia, risk-based food inspection pilot](https://www.who.int/indonesia/news-room/item/02-11-2023-breaking-new-ground--piloting-risk-based-food-inspection-in-five-districts-for-better-food-safety).
+
+### 7. Indonesia traditional-market Five Keys pilot: knowledge and cleaning practices moved
+
+WHO supported market communities in three locations across Semarang, Bandung
+and Samarinda. The pilot identified missing water-quality assessment, cleaning
+protocols, pest control and live-animal handling practices. Across the sites,
+vendors' average knowledge of key hygiene measures rose from 84% to 90%, and
+the share reporting kiosk and floor cleaning with water and soap or disinfectant
+rose from 70% to 80%.
+
+The case supports a market-community intervention that combines communication,
+vendor discussion and local authority engagement. It does not show a reduction
+in foodborne illness or zoonoses, and it does not report price, income, vendor
+retention, women’s control, customer access or maintenance after the programme.
+The metric is self-reported or practice-level change, not a completed health
+outcome chain.
+
+Source: [WHO Indonesia, Five Keys traditional-market pilot](https://www.who.int/indonesia/news/detail/24-06-2024-managing-food-safety-in-traditional-food-markets--who-pilots-five-keys-strategy-to-raise-hygiene-and-sanitation-standards).
+
+### 8. Accra street-food survey: women vendors sit inside the school-food geography
+
+FAO's interim Central Accra survey covered 1,700 street-food vendors. It found
+that vendors were almost all women, that the activity was concentrated in
+poverty-pocket areas and near schools, and that almost half operated near a
+school. The survey reported overall hygiene and safety conditions as acceptable
+in its sample while also documenting the vendors' role in income, food access
+and school-child nutrition.
+
+This named case prevents the food-safety lens from erasing gender, location and
+child-consumer exposure. It closes a spatial and livelihood mechanism, but the
+interim survey does not establish dietary adequacy, child health, vendor profit,
+women’s control of earnings, causal proximity effects or what happened after a
+licensing, relocation or enforcement change. “Acceptable” must not be converted
+into proof of safe food for every consumer or durable livelihood security.
+
+Source: [FAO, street-food vendors in Accra](https://www.fao.org/gender/success-stories/success-stories-detail/FAO-survey-on-street-food-vendors-in-Accra-finds-women-play-a-central-role/en).
+
+### 9. Pasto resilience plan: El Potrerillo market is a climate and food-security node
+
+UN-Habitat's Urban Resilience Action Plan for Pasto identifies the El Potrerillo
+market as a critical hub for local livelihoods and food security. The plan joins
+the market to watershed, climate and biodiversity action and explicitly includes
+local institutions, universities, community organisations, informal workers and
+market actors in shaping long-term resilience.
+
+This expands the packet beyond hygiene and licensing: a market can be a
+geographical node connecting food flows, livelihoods, flood or climate exposure
+and local institutional capacity. The plan is a design and governance signal,
+not evidence that resilience investments reduced prices, protected incomes,
+maintained food supply during a shock or gave informal workers binding decision
+rights. Those outcomes require a named implementation and follow-up ledger.
+
+Source: [UN-Habitat, Urban Resilience Action Plan for Pasto](https://unhabitat.org/urban-resilience-action-plan-urap-for-pasto-colombia-planning-for-climate-urban-and-biodiversity).
+
 ## Source boundary
 
 The current packet closes the food-security, public-health, infrastructure and

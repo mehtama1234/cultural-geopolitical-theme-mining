@@ -2543,6 +2543,18 @@ processing, device reuse, institutional reach and material-pathway visibility,
 but not exposure reduction, worker livelihood transition, usable device life,
 data safety, final destination, household continuity or durable behaviour.
 
+The DT refresh adds four named market cases. Indonesia's risk-based inspection
+pilot assessed 3,681 vendors across 159 health centres and improved sanitarian
+knowledge, while its Five Keys traditional-market pilot improved reported
+hygiene knowledge and cleaning practice across three locations. Accra's 1,700-
+vendor survey makes women vendors, school proximity and poverty-pocket food
+access visible; Pasto's resilience plan identifies El Potrerillo as a market
+node for livelihoods, food security and climate action. These close parts of
+proportional inspection, practice change, gendered market geography and
+place-based resilience design. They do not establish illness reduction,
+affordability, nutrition, vendor income, women's control, displacement,
+cultural continuity, shock continuity or binding informal-worker power.
+
 The HC case refresh adds named evidence from Bangladesh e-GP, Nuevo León and
 Mexico IMSS: digital process integration can reduce lead time and widen access,
 while payment and acceptance bottlenecks can suppress SME participation and
