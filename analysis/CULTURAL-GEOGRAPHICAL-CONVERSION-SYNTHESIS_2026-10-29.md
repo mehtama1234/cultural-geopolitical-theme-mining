@@ -3787,6 +3787,14 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 384. **Child agency is not the same as unrestricted access or parental control.** A legitimate design must balance age-appropriate autonomy, informed consent, guardian and community responsibility, accessible human handoff, privacy, disability and language inclusion, and the ability to leave without losing essential support.
 
+385. **AI-education adoption should be treated as a learning hypothesis, not a productivity fact.** A procurement decision can identify a problem, population, duration and evidence requirement without proving that students learned, retained, transferred or benefited equitably; the decisive comparison includes performance with and without AI and the teacher mediation that makes the tool pedagogically meaningful.
+
+386. **Early engagement or grade gains can coexist with later privacy, assessment and trust failure.** A tutoring platform may improve visible performance while a data leak or compromised grading system harms students and fractures family/community legitimacy; learning evidence and data-governance evidence must therefore be joined rather than traded off.
+
+387. **Teacher agency is an institutional condition, not a human-in-the-loop slogan.** Teachers need authority to inspect, correct, refuse and explain AI outputs, time to verify them, and a route to report failures; otherwise AI can reduce visible preparation effort while increasing invisible correction, surveillance and liability work.
+
+388. **AI literacy is a cultural capability for questioning systems, not merely a technical skill for using them.** Critical verification and human agency can be taught, but their effects depend on language, devices, teacher capacity, curriculum, family trust and whether the institution rewards independent thinking rather than efficient output.
+
 ## What the evidence does not support
 
 Do not claim that:

@@ -31,6 +31,10 @@ learning need, teacher workload, inequality and local pedagogy
 | UNICEF Guidance on AI and Children 3.0 | Child-centred AI requires safety, privacy, fairness, transparency, inclusion, best interests, skills and accountability; education use should be evidence-based and rights-respecting. | child-rights requirements and procurement boundary | real-world school implementation, remedy, family consent, learning and wellbeing outcomes |
 | UNESCO multilingual education and language/AI evidence | A large share of learners lack education in a language they understand; AI and digital education can widen linguistic exclusion when dominant-language tools displace local language and pedagogy. | language-access and cultural-legibility risk | named language performance, teacher correction, mother-tongue learning, transmission and local legitimacy |
 | World Bank Nigeria AI tutoring evaluation / research portfolio | A six-week GPT-4 tutoring intervention for Nigerian secondary students reported positive English and AI/digital-skills assessment effects; other studies are still evaluating teacher training, coaching and mathematics outcomes. | bounded short-term intervention result in one setting | persistence, transfer, cost, teacher mediation, language/cultural fit, safety and replication |
+| U.S. Department of Education responsible-use guidance | In August 2026 the Department urged educator-led, ethical, accessible, transparent and student-data-protective use, and asked schools to identify the learning problem, users, duration and evidence before adopting a tool; it says ineffective tools should be changed or removed. | Procurement and evidence-gate architecture. | Enforcement, actual school decisions, independent learning outcomes, teacher voice or subgroup equity. |
+| UK Department for Education generative-AI guidance | UK guidance says AI may reduce administrative burden but evidence on learner development, educational outcomes and child safety remains limited; it emphasizes the teacher-learner relationship, bias and misinformation. | Official uncertainty and implementation boundary. | Named classroom outcomes, workload redistribution, local-language quality or sustained safety. |
+| U.S. Student Privacy Policy Office breach scenarios | Federal privacy training uses AI-tutoring data-leak and AI-grading-compromise scenarios in which initial grades/engagement and administrative confidence precede exposure of student data or unexplained grading failures. | Concrete privacy, assessment-integrity and trust failure mechanisms. | Actual incident prevalence, legal remedy, family notification, learning loss or correction outcomes. |
+| UNESCO media and information literacy in AI-mediated environments | UNESCO’s 2026 module centers critical thinking and human agency, reporting high youth AI use and concern about cognitive effects while teaching learners to question generated information and understand system power. | AI-literacy and agency curriculum pathway. | Measured changes in verification, independent learning, teacher practice, language inclusion or long-term cognition. |
 
 ## Stage audit
 
@@ -74,6 +78,8 @@ requires more than translation: examples, histories, classroom relationships,
 community knowledge and definitions of a good learner must remain contestable
 by local educators and families.
 
+The 2026 policy evidence sharpens the institutional conversion. The U.S. Department of Education’s five-question gate—what problem, for whom, for how long and what evidence—makes procurement a learning hypothesis rather than an adoption claim. UK guidance explicitly says the evidence base for learner development, educational outcomes and child safety remains limited. The federal privacy-office scenarios add a cultural trust boundary: a tool can show early grade or engagement gains while a data leak or unexplained grading failure later changes family and community legitimacy. UNESCO’s media-and-information-literacy response treats verification and human agency as learnable institutional capabilities, not automatic side effects of tool access.
+
 ## Counterexamples and limits
 
 - A short-term assessment gain may not survive when AI access is removed or may
@@ -86,6 +92,13 @@ by local educators and families.
   data or narrowing what counts as learning.
 - A device or platform rollout does not prove meaningful access where power,
   connectivity, disability support, affordability or teacher time are weak.
+- A procurement checklist or responsible-use framework does not prove that a
+  school removed an ineffective tool, protected data or improved learning.
+- Early grade or engagement gains do not prove that students retained learning,
+  could perform without AI, or were protected from later privacy or assessment
+  failures.
+- AI-literacy instruction can improve skepticism and agency without resolving
+  unequal devices, teacher time, language quality or institutional incentives.
 - Human oversight is not meaningful if teachers cannot inspect, override,
   explain or refuse the system, or if families have no remedy.
 - AI can improve accessibility for disabled learners while creating new
@@ -120,3 +133,7 @@ tool, and test performance both with and without AI access.
 4. [UNESCO Languages matter: global guidance on multilingual education](https://www.unesco.org/en/articles/languages-matter-global-guidance-multilingual-education)
 5. [World Bank Nigeria AI tutoring evaluation reproducibility package](https://reproducibility.worldbank.org/index.php/catalog/419)
 6. [UNESCO AI and education: protecting the rights of learners](https://www.unesco.org/en/articles/ai-and-education-protecting-rights-learners)
+7. [U.S. Department of Education responsible-use guidance](https://www.ed.gov/about/news/press-release/department-education-releases-guidance-responsible-use-education-technology-classroom)
+8. [UK Department for Education generative-AI guidance](https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education/generative-artificial-intelligence-ai-in-education)
+9. [U.S. Student Privacy Policy Office breach scenario trainings](https://studentprivacy.ed.gov/data-breach-scenario-trainings)
+10. [UNESCO media and information literacy in the age of AI](https://www.unesco.org/en/artificial-intelligence/mil-age-ai)
