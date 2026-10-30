@@ -2593,6 +2593,19 @@ destination. Capital, route presence, ridership, agency savings or a funded
 vehicle are still incomplete until the rider boards, arrives and can perform
 the intended work, care, education, food or social activity.
 
+The R refresh adds five named library cases. Kansas City Public Library's IMLS
+mentoring model shows small and rural libraries building digital-inclusion
+capacity through peer support; Columbus makes the quality of a digital-help
+encounter visible; Hartford shows the library as a trusted civic convener;
+Jarrell shows community-led programming adapting a small library to disability,
+caregiving and military-family needs; and Bangor supplies the counterexample
+of a co-working space whose use was lower than anticipated. Together they
+sharpen the R proposition: a library becomes civic and cultural infrastructure
+through a maintained, accessible and trusted encounter. A building, program,
+visit, Wi-Fi signal or plausible community need is still incomplete until the
+person can enter or connect, receive the intended help, return, and experience
+a defined learning, benefit, civic, cultural or belonging outcome.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.

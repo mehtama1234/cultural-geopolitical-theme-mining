@@ -29,6 +29,76 @@ library presence and public funding
 | LIB-004 | [IMLS library service adaptations analysis](https://www.imls.gov/publications/state-level-analysis-public-library-service-adaptations-response-covid-19-pandemic) | IMLS reports outside Wi-Fi as a popular way libraries met digital needs, especially in rural and town libraries, while tracking finances, resources, staffing, services and usage | Digital/civic adaptation observed; outcomes open |
 | LIB-005 | [GAO rural housing service-coordination report](https://files.gao.gov/reports/GAO-26-107802/index.html) | Local stakeholders reported that limited reliable broadband and cell service constrain virtual service coordination and telehealth; digital transitions can leave rural residents without digital skills unable to access benefits | Library-adjacent service-access need observed; library contribution unclosed |
 
+## Named-case refresh
+
+These cases test libraries as maintained places and relational institutions,
+not just as buildings or aggregate visit counts. Program and professional
+accounts establish reported activities and perceived value; they do not by
+themselves prove representative downstream outcomes.
+
+### LIB-006 — Kansas City Public Library digital-inclusion mentoring
+
+An IMLS evaluation describes the Kansas City Public Library as mentor to 13
+small and rural libraries in two cohorts. The model used in-person meetings,
+virtual cohort sessions, a shared portal and one-to-one coaching to help
+libraries develop digital-inclusion programming. The evaluation found evidence
+that participating libraries improved their capacity and connections to the
+larger library community, while also noting meaningful differences between the
+two cohorts. This closes an institutional learning and peer-capacity route, not
+the same patron's device access, service completion or later employment,
+benefit, health or civic outcome.
+
+### LIB-007 — Columbus Metropolitan Library digital navigators
+
+The Public Library Association's technology survey describes Columbus
+Metropolitan Library's 23-outlet digital-navigator program and its emphasis on
+help that feels safe, unhurried and non-judgmental. All adult-services staff
+received training, with a dedicated Community Support Center for complex
+questions. The case makes the encounter quality visible: staff assess a
+patron's goal, barriers and unexpressed needs rather than treating device
+possession as completion. It does not provide a representative measure of
+repeat use, problem resolution, privacy, or downstream outcomes.
+
+### LIB-008 — Hartford Public Library community-convening work
+
+The American Library Association reports that Hartford Public Library used
+community-engagement training to reach residents in an underserved North End
+neighborhood, improve relationships with important institutions and act as a
+trusted convener. This is a named civic-cultural case in which the library's
+value lies in relationship-building and local voice, not only circulation or
+computer access. The account does not close which residents participated,
+whether institutional decisions changed, or whether trust persisted beyond the
+initiative.
+
+### LIB-009 — Jarrell Community Library and Resource Center, Texas
+
+The ALA describes Jarrell Community Library and Resource Center as a
+community-led library serving a rapidly growing area north of Austin. Its
+reported users include families with neurodivergent children, dementia
+caregivers, older adults with sensory disabilities and military families. The
+case shows how local demographic change and disability/care needs can turn a
+small library into a broader community center. It does not establish staffing
+adequacy, accessible design, repeat participation or service outcomes for each
+group.
+
+### LIB-010 — Bangor Public Library, Maine: underused co-working space
+
+An IMLS workforce and small-business case study reports that Bangor Public
+Library opened a co-working space in 2021 in response to community needs
+identified during renovation planning, but its use was lower than anticipated.
+Staff developed referral networks and partnerships despite the weak uptake.
+This is a useful counterexample: a plausible civic/workforce program and a
+renovated or dedicated space do not guarantee demand, fit, repeat use or local
+economic impact.
+
+## Sources added in the named-case refresh
+
+- [IMLS APP evaluation: digital-inclusion mentoring](https://www.imls.gov/sites/default/files/2023-08/app-evaluation-report.pdf)
+- [Public Library Association: 2023 technology survey](https://www.ala.org/sites/default/files/2024-07/PLA_Tech_Survey_Report_2024.pdf)
+- [ALA: Hartford Public Library case study](https://www.ala.org/tools/librariestransform/libraries-transforming-communities/case-studies/hartford)
+- [ALA: Jarrell Community Library case study](https://www.ala.org/tools/librariestransform/libraries-transforming-communities/access/casestudies/Jarrell)
+- [IMLS: public-library workforce and small-business case studies](https://www.imls.gov/sites/default/files/2024-05/public-library-role-workforce-small-business-report.pdf)
+
 ## Stage audit
 
 | Stage | Evidence | Safe conclusion | Missing field |
