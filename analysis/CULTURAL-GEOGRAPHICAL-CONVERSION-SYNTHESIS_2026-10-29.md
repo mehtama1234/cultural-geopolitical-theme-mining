@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IJ
+**Date:** 2026-10-30; refreshed through Rotations D–IK
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3266,6 +3266,10 @@ The II packet adds **care-migration-recruitment-to-decent-portable-work-and-reci
 241. **Insurance enrollment, coverage, premium subsidy, weather index, trigger, payout report or risk-pool architecture is not by itself accurate loss protection, received money, adequacy, food security, debt relief, recovery or future investment.** A trigger can miss a farmer’s actual loss; data can be too weak to calibrate the index; and insurance cannot replace physical-risk reduction or social protection.
 
 The IJ packet adds **smallholder-climate-insurance-to-accurate-timely-payout-and-recovery conversion** with a source boundary around hazard, crop/livestock exposure, awareness, eligibility, premium, subsidy, data, trigger, claim, payout timing/amount, basis risk, dispute, food, debt, inputs, harvest, income, investment, trust and repeat resilience. World Bank supplies West Africa scale, index-investment evidence limits, Zambia payout, product-design and Central America data cases; IFAD supplies Kenya trust, toolkit and co-design evidence; UNFCCC supplies insurance/adaptation and risk-pooling boundaries. These close coverage, design, payout, trust, data and pooled-risk stages, but no public source here closes a comparable same-farmer chain through actual loss, received adequacy, household decision and durable recovery.
+
+242. **A dementia plan, diagnosis, telemedicine tool, caregiver course, community-care service, respite recommendation or independence statistic is not by itself culturally safe continuous care, caregiver relief, autonomy, social participation or durable dignity.** Diagnosis can exist without support; telemedicine can exist without privacy or human continuity; and family care can preserve belonging while imposing gendered exhaustion and lost income.
+
+The IK packet adds **dementia-community-care-to-continuous-person-and-caregiver-wellbeing conversion** with a source boundary around concern, diagnosis, language, disclosure, care plan, daily support, medication, safety, social participation, respite, caregiver mental health, cost, rurality, telemedicine, transition, autonomy and dignity. WHO supplies community architecture, caregiver interventions, gender/policy and diagnostic gaps, telemedicine and rights evidence; World Bank supplies North Macedonia in-home-care and inclusion evidence; WHO supplies caregiver-training infrastructure. These close architecture, recommendations, burden, measurement, technology, independence and training stages, but no public source here closes a comparable person–caregiver chain through continuity, respite, functioning and dignity.
 
 ## What the evidence does not support
 
