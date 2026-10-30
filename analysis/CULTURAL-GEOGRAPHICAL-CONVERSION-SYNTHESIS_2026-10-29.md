@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-30; refreshed through Rotations D–IU
+**Date:** 2026-10-30; refreshed through Rotations D–IV
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** living bounded synthesis snapshot; not a pooled causal model or universal legitimacy index
 
@@ -3310,6 +3310,10 @@ The IT packet adds **climate-hazard-to-community-controlled-living-heritage-prac
 252. **A protected sacred site, legal designation, security protocol, access permit, monitoring report, dialogue initiative or reconstruction plan is not by itself safe worship, equal access, living ritual, community authority, cultural continuity, accountability or durable peace.** Legal designation can coexist with restricted access; physical preservation can coexist with ritual loss; and dialogue can coexist with unequal power.
 
 The IU packet adds **conflict-pressure-to-safe-sacred-access-living-heritage-and-community-authority conversion** with a source boundary around site, community, custodian, worshipper, hazard, access rule, identity, route, security encounter, ritual, custodial decision, damage, humanitarian support, complaint, accountability, return and repeated practice. UNESCO supplies the conflict/displacement living-heritage risk taxonomy, Hague and special-protection architecture; the UN Commission of Inquiry supplies a named Palestine/Israel access and religious/cultural-site case, explicitly attributed to its report; UNESCO supplies Nahlé’s provisional protection record; and UN materials supply dialogue and prevention architecture. These close risk, displacement, named access, legal, designation and dialogue stages, but no public source here closes a comparable site/community chain through safe worship, equal access, custodial authority, accountability and durable peace.
+
+253. **A shutdown order, network measurement, platform block, bandwidth restriction, VPN ban, election warning, legal safeguard or restoration announcement is not by itself civic exclusion, household harm, service failure, electoral distortion, humanitarian loss, misinformation increase, compensation or durable distrust.** A shutdown may be bypassed by some users and devastating for others; restoration may return connectivity without restoring lost income, safety or evidence.
+
+The IV packet adds **internet-disruption-to-civic-service-household-and-humanitarian-continuity conversion** with a source boundary around place/cohort/incident, order, network, duration, geography, language, device, service, information, substitution, income, health, education, safety, political participation, complaint, court review, restoration and recovery. UNESCO supplies the current global trend and information/service mechanism; OHCHR supplies legal, proportionality, notice and redress requirements plus Myanmar, Rakhine/Chin, India and Tanzania monitoring evidence; UN reporting supplies the election pathway. These close trend, safeguards, election, conflict, health/humanitarian, minority-region and media stages, but no public source here closes a comparable user-level chain through service loss, household effect, recovery and durable trust.
 
 ## What the evidence does not support
 
