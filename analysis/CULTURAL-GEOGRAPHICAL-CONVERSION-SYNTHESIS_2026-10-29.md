@@ -3773,6 +3773,12 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 377. **Climate justice requires distinguishing people reached from people protected.** Beneficiary counts, women’s participation, infrastructure completions and proposal support are valuable distributional signals, but they do not establish reduced exposure, restored livelihoods, non-economic-loss protection or durable place and cultural continuity.
 
+378. **AI-healthcare authorization is not patient safety; the decisive conversion is traceable correction in the care pathway.** FDA’s generative-device framework, UK lifecycle recommendations and the VA OIG’s missing safety feedback loop all point to the same open stage: linking model version and workflow use to clinician action, patient exposure, adverse event, investigation, correction and redress.
+
+379. **The scale of authorized medical AI increases, rather than resolves, the need for post-market visibility.** A large device inventory can close an authorization count while leaving clinical benefit, subgroup performance, alert receipt, human factors, cybersecurity, continuity and patient understanding unobserved.
+
+380. **Patient agency depends on handover points between vendor, provider, clinician and patient.** If responsibilities for training, cybersecurity, override, explanation, monitoring and escalation are not explicit, a harm can be technically detected yet socially unowned, delaying correction and weakening the patient’s practical route to remedy.
+
 ## What the evidence does not support
 
 Do not claim that:

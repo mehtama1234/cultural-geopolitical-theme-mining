@@ -31,6 +31,10 @@ symptom, clinical need, workforce pressure, access gap or public-health question
 | WHO/Europe readiness assessment | Across the European Region, AI-assisted diagnostics and patient chatbots are already being adopted, while legal, liability, workforce and public-engagement safeguards remain uneven. | regional adoption and governance gap | country-specific patient outcomes, accountability after error, access, trust and cross-border data effects |
 | FDA smartphone-connected diabetes-device safety communication | Hardware/software changes and phone settings can interrupt critical safety alerts and have been associated in reports with severe diabetic harm; users may believe alerts are configured when they are not delivered. | concrete device-to-alert failure mechanism and safety signal | population incidence, equitable warning receipt, remediation, patient comprehension and recurrence |
 | WHO digital-health cybersecurity/privacy assessment | AI and connected digital-health systems operate within cybersecurity- and privacy-challenged environments, including ransomware, cloud, apps and connected devices. | threat and organizational risk-assessment boundary | patient-level exposure, service continuity, recovery, trust and protection for low-capacity settings |
+| FDA GenAI medical-device discussion paper | In August 2026 FDA opened feedback on GenAI-enabled medical devices, proposing risk assessment, competency-style premarket evaluation, clinical confirmation and risk-proportionate postmarket monitoring, including foundation and agentic systems. | Current regulatory-design response to generative and adaptive device risk. | Binding framework, device-level clinical outcome, subgroup performance, workflow safety or patient remedy. |
+| VA OIG VHA review | A January 2026 preliminary memorandum found VHA had authorized two general-purpose AI chat tools for clinical care/documentation but lacked a formal process to report, track and respond to AI safety issues; outputs could enter medical decision-making and the EHR. | Named deployment and governance/feedback-loop failure mechanism. | Confirmed patient harm, prevalence, clinician use, correction, accountability or final OIG findings. |
+| UK National Commission on AI in Healthcare | The 2026 recommendations say pre-market assurance may differ from real-world performance and call for lifecycle oversight, traceability, redress, cybersecurity, human factors and subgroup/equity monitoring. | System-wide responsibility and patient-redress architecture. | Enacted rules, implementation resources, named patient outcomes or cross-border enforcement. |
+| FDA AI-device market scale | FDA reports more than 1,600 AI-enabled medical devices authorized for US marketing as of September 2026 and emphasizes lifecycle monitoring, modification controls and public device information. | Scale and authorization landscape. | Clinical benefit, equitable performance, post-market incidence, patient understanding or real-world safety for the aggregate device population. |
 
 ## Stage audit
 
@@ -76,6 +80,8 @@ also depends on whether a person can obtain an explanation in a usable language,
 challenge a recommendation, reach a human clinician and continue care after an
 outage or vendor change.
 
+The 2026 evidence shifts the audit from “is the device authorized?” to “can the health system see and correct harm?” FDA is exploring competency-style clinical confirmation and risk-proportionate postmarket monitoring for generative devices; the UK Commission emphasizes traceability, handover points and redress; and the VA OIG shows a concrete failure mode in which authorized general-purpose tools entered clinical workflows without a formal AI safety reporting and tracking process. The scale signal—more than 1,600 FDA-authorized devices—therefore increases the importance of post-deployment visibility rather than closing the safety case.
+
 ## Counterexamples and limits
 
 - A cleared device can meet a defined premarket pathway without proving equal
@@ -92,6 +98,12 @@ outage or vendor change.
   it without penalty, explain the result or report a near miss.
 - A national AI strategy or hospital deployment does not prove access for rural,
   disabled, elderly, low-income or language-minority patients.
+- A large authorized-device inventory does not establish clinical benefit or
+  equitable real-world performance across the patients and workflows using it.
+- A hospital’s authorization of a general-purpose AI tool does not establish a
+  safety feedback loop, accountable clinical ownership or patient redress.
+- A proposed lifecycle framework does not prove that regulators, providers and
+  vendors can trace a patient-level error and correct it in time.
 
 ## Promotion decision
 
@@ -120,3 +132,7 @@ positives, and follow patients for 3/6/12 months.
 3. [WHO/Europe — Is your doctor’s AI safe?](https://www.who.int/europe/news/item/19-11-2025-is-your-doctor-s-ai-safe)
 4. [FDA safety communication on smartphone-connected diabetes devices](https://www.fda.gov/news-events/press-announcements/fda-alerts-patients-potential-to-miss-critical-safety-alerts-due-phone-settings-when-using-smartphone)
 5. [WHO/Europe cybersecurity and privacy maturity assessment for digital health](https://www.who.int/europe/publications/i/item/WHO-EURO-2025-11827-51599-78854)
+6. [FDA discussion paper on GenAI-enabled medical devices](https://content.govdelivery.com/accounts/USFDA/bulletins/4258517)
+7. [VA Office of Inspector General review of VHA generative AI](https://vaoig.gov/reports/preliminary-result-advisory-memorandum/review-vhas-use-generative-artificial-intelligence)
+8. [UK National Commission into the Regulation of AI in Healthcare](https://www.gov.uk/government/publications/national-commission-into-the-regulation-of-ai-in-healthcare-recommendations-for-a-future-regulatory-framework/national-commission-into-the-regulation-of-ai-in-healthcare-recommendations-for-a-future-regulatory-framework)
+9. [FDA AI-enabled medical-device inventory and lifecycle resources](https://www.fda.gov/medical-devices/digital-health-center-excellence/artificial-intelligence-enabled-medical-devices)
