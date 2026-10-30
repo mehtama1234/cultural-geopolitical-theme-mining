@@ -2692,6 +2692,22 @@ response design and distributional burden, but still does not show that the
 same household received a warning, reached affordable cooling, maintained safe
 indoor or work conditions, avoided illness and adapted across seasons.
 
+The Y refresh adds named local-integration cases. Chicago’s Global Garden farm
+connects refugee families’ cultural knowledge to food production, supplemental
+income and cross-language belonging; Sjöbo’s matched local-guide programme
+connects language learning with ordinary social relationships; Brussels’ nearly
+500-bed refugee-led shelter route makes lived experience part of housing,
+education, health and work governance; Aguascalientes shows relocation toward
+formal work while preserving banking, school-place and retention barriers; and
+the Thessaloniki account of Binta shows why employment counselling must be
+combined with language, social-work and financial support in a context of
+racism and hardship. These cases advance Y from admission and service
+architecture to local agency and relationship-building, but employment, arrival
+or shelter still do not establish safe housing retention, decent work, health,
+family continuity, legal/economic stability or durable belonging. The Y
+conversion test remains same-family longitudinal integration plus the receiving
+place’s capacity and reciprocal response.
+
 213. **A climate-related school closure, shortened timetable, damaged classroom, heat-safe schedule, contingency plan, remote-learning platform, teacher training, learning kit, reopened school, enrolment, attendance count or climate-finance commitment is not by itself learning continuity, progression, safety, belonging, child agency, equitable access, recovery or future income.** A closure can protect health while interrupting learning; reopening can occur with unsafe heat, damaged facilities or absent teachers; and remote provision can preserve contact for some children while excluding those without devices, connectivity, quiet space, language access, disability support or adult help.
 
 The HE packet adds **climate-disruption-to-learning-continuity-and-child-agency conversion** with a source boundary around hazard, forecast, closure, timetable, school damage, transport, heat/air quality, teacher capacity, devices, meals, care, displacement, learning contact, assessment, attendance, progression, belonging, child voice, recovery and remedy.

@@ -56,6 +56,81 @@ measurement risk is that short-term employment or arrival can be easier to count
 than safety, belonging, family continuity, health, job quality or local service
 capacity.
 
+## Named-case refresh
+
+These cases add local institutions, refugee agency, housing and work routes to
+the aggregate admissions and service evidence:
+
+### RFS-006 — Global Garden Refugee Training Farm, Chicago
+
+UNHCR describes a Chicago farm supporting more than 100 refugee families with
+land, tools, seeds and training. Celestine, a refugee from Burundi who had
+spent time in a Tanzanian camp, uses farming as a bridge between her earlier
+life and resettlement. The project reported more than $100,000 in fresh produce
+in 2023, sold at markets and donated to food pantries, while participants
+gained supplemental income, autonomy and cross-language community. This closes
+a culturally legible livelihood-and-belonging route. It is a story and program
+account, not evidence of representative income, housing retention, language
+progress or multi-year integration.
+
+### RFS-007 — Sjöbo Municipality community-support programme
+
+UNHCR describes a Swedish pilot in which local welcome guide Minette and her
+daughter Vanessa were matched with Lana Alnajjar, a Syrian refugee, and her
+family. The municipality made the programme permanent after reported success.
+The case makes relationship, language learning and ordinary social contact part
+of the integration infrastructure rather than treating employment as the only
+endpoint. It does not report a comparison group, school/health outcomes,
+housing stability, discrimination, or whether all participants experienced the
+same benefit.
+
+### RFS-008 — Refugee-led shelters, Brussels
+
+UNHCR reports that refugee-led committees in Brussels helped manage shelters
+with backing from the Brussels Capital Region and UNHCR. Three sites provided
+nearly 500 beds, while refugee committees helped shape access to housing,
+education, health services and work, including employment registration, CVs and
+bank accounts. This is a governance and agency case: people with lived
+experience help design the local response. The source does not establish
+durable housing after shelter, job quality, service congestion, legal status,
+school continuity or long-term belonging.
+
+### RFS-009 — Aguascalientes relocation-to-work route, Mexico
+
+UNHCR describes an integration programme moving refugees from Mexico’s
+congested southern border toward cities with formal-work opportunities. Daysi
+Cruz Martinez, a Honduran refugee, found work at a textile factory in
+Aguascalientes about six months after arrival; the account also notes that
+families faced difficulty opening bank accounts and finding school places, and
+that some refugees moved on. This case tests whether geographic relocation can
+convert arrival into work and family opportunity, while preserving the
+counterexample that employment does not guarantee banking, school access or
+retention in the receiving city.
+
+### RFS-010 — Binta’s Thessaloniki integration route
+
+UNHCR describes Binta, a refugee from Sierra Leone who arrived in Greece six
+years before the 2025 account and encountered language barriers, financial
+struggles and racism. A Thessaloniki refugee centre combined employment
+counselling, social work, accounting and Greek-language support. The case
+illustrates a service route that treats work as one part of a wider stability
+problem. It is not a population estimate or causal evaluation; the account does
+not close housing retention, job quality, health, family stability or belonging
+for the wider cohort.
+
+### Case-ledger conclusion
+
+The refresh closes parts of culturally continuous livelihood, social matching,
+refugee-led governance, relocation-to-work and multi-service counselling. It
+also shows why “employed” is not a sufficient endpoint: banking, school places,
+housing, language, discrimination, legal security, relationships and the choice
+to stay or move remain open. The decisive ledger is:
+
+`arrival → safe housing → benefits/health/language/school → decent work → relationships and agency → legal/economic stability → belonging and durable stay or chosen mobility`
+
+No case yet closes that chain for the same family across several years with
+comparable local-capacity and wellbeing measures.
+
 ## Cultural and geographical meaning
 
 Resettlement changes both the newcomer’s relationship to place and the receiving
