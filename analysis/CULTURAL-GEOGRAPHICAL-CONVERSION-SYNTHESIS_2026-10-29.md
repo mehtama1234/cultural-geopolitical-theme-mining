@@ -1,6 +1,6 @@
 # Cultural and geographical conversion synthesis
 
-**Date:** 2026-10-29; refreshed through Rotations D–EE
+**Date:** 2026-10-29; refreshed through Rotations D–EF
 **Purpose:** connect the broad theme portfolio to cultural meaning, place, local permission and geopolitical legitimacy  
 **Status:** final bounded synthesis; not a pooled causal model or universal legitimacy index
 
@@ -1631,6 +1631,17 @@ experienced safe access, lower intrusion, protected sleep, maintained
 ecological behaviour, affordable energy, cultural continuity, equal enforcement
 or remedy when light was displaced or exceptions expanded.
 
+137. **A building retrofit, insulation project, heat pump, ventilation upgrade,
+mould remediation, indoor-air monitor, school HVAC programme, energy certificate,
+landlord repair, heating subsidy or healthy-housing standard is not by itself
+healthy indoor air, thermal comfort, lower energy burden, better attendance,
+respiratory health, secure tenancy or retrofit justice.** Retrofit counts, CO2
+readings, temperature compliance, energy savings, complaint closure, mould
+removal, equipment installation or heating assistance do not establish that
+named households, students, workers and tenants experienced lower dampness and
+pollutant exposure, affordable operation, fewer symptoms, improved learning or
+work, protected tenure, root-cause repair, equal enforcement or remedy.
+
 The DP packet leaves a named Tier 2 question—**night-time-economy-to-inclusive-cultural-life-and-decent-work conversion**—with a source boundary around individual safety, worker rest/pay/remedy, cultural inclusion, resident acceptance, displacement and long-run operating viability. The DQ packet adds **remote-work-and-digital-nomad-policy-to-reciprocal-place-development** with a source boundary around housing, local jobs, social protection, care redistribution, cultural integration, tax contribution and retention. The DR packet adds **repair-and-e-waste-policy-to-affordable-safe-circular-device-life** with a source boundary around repair affordability, data safety, worker transition, exposure reduction, child protection, final material use and local legitimacy. The DS packet adds **cultural-diplomacy-to-reciprocal-local-ownership-and-geopolitical-cooperation** with a source boundary around agenda power, benefit, representation, remedy, durable relationships and later policy behavior. The DT packet adds **informal-food-market-policy-to-safe-affordable-cultural-food-and-dignified-livelihood** with a source boundary around nutrition, affordability, foodborne illness, vendor income, women’s control, displacement, cultural continuity and post-shock governance. The DU packet adds **local-medicine-production-to-quality-assured-patient-continuity-and-regional-health-sovereignty** with a source boundary around product availability, affordability, quality, rural continuity, workforce capability and durable geopolitical leverage. The DV packet adds **mega-event-to-durable-host-city-legacy-and-legitimate-geopolitical-reputation** with a source boundary around resident wellbeing, worker remedy, post-event affordability, maintenance, cultural belonging and reputation after scrutiny. The DW packet adds **Arctic-corridor-to-Indigenous-community-sovereignty-and-safe-local-benefit** with a source boundary around community benefit, food security, cultural continuity, emergency response, remedy and durable sovereignty.
 
 The DX packet adds **municipal-waste-policy-to-safe-circular-service-and-waste-picker-just-transition** with a source boundary around exposure reduction, service reliability, worker income, child protection, social protection, material recovery, neighbourhood equity and post-reform power.
@@ -1648,6 +1659,8 @@ The EC packet adds **environmental-noise-policy-to-sleep-quiet-cultural-life-and
 The ED packet adds **agrochemical-policy-to-worker-family-food-and-biodiversity-justice** with a source boundary around worker and household dose, illness, food and water safety, farm income, ecosystem recovery, enforcement and remedy.
 
 The EE packet adds **artificial-light-policy-to-safe-night-sleep-ecology-and-cultural-sky-justice** with a source boundary around human and species exposure, sleep, safety, energy cost, ecological recovery, cultural continuity, enforcement and remedy.
+
+The EF packet adds **indoor-building-policy-to-healthy-affordable-retained-place** with a source boundary around indoor exposure, health, energy affordability, attendance, tenancy, maintenance, displacement, enforcement and remedy.
 
 ## What the evidence does not support
 
@@ -1685,7 +1698,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation EE.
+living goal. The current atlas baseline has been refreshed through Rotation EF.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
