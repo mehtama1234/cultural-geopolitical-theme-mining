@@ -2,7 +2,7 @@
 
 **Manifest:** `observation-manifest.json`
 **Candidate set:** `candidate-comparisons.json`
-**Status:** Candidate 1 partially reviewed; Candidates 2–4 remain unreviewed.
+**Status:** Candidates 1–2 partially reviewed; Candidates 3–4 remain unreviewed.
 
 ## Duplicate URL findings
 
@@ -35,7 +35,13 @@ independence remain open.
 
 ## Independence decision
 
-Candidates 2–4 remain `independence_status: unverified` because:
+Candidate 2 has seven identifiable source sets: ABS Time Use, Colombia DANE
+ENUT, EIGE CARE Survey, England DHSC SACE, ABS General Social Survey, ANZ/Roy
+Morgan Consumer Confidence, and 4Culture/Wilkening. This is partial lineage,
+not proof that the measures are directly comparable. The ABS Time Use tables
+within one record are one survey, not independent studies.
+
+Candidates 3–4 remain `independence_status: unverified` because:
 
 - a different host can republish the same study, dataset, press release, or
   institutional claim;

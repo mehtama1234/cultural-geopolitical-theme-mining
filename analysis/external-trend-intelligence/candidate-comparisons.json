@@ -76,7 +76,13 @@
       "mechanism": "material or care pressure -> hidden time price and coordination work -> substitution, delayed completion, or unequal participation",
       "counter_signal": "Flexible schedules, paid support, community infrastructure, or higher resources can preserve participation.",
       "next_comparison": "Keep participant and total-population denominators separate and distinguish nominal spending from quantities, access, and wellbeing.",
-      "lineage_review": {"status": "not_started", "primary_artifact_count": null, "independence_status": "unverified", "assessment": "Requires source-packet review."},
+      "lineage_review": {
+        "status": "partial",
+        "primary_artifact_count": 7,
+        "independence_status": "partially_reviewed",
+        "assessment": "Seven source sets are identifiable: ABS Time Use Survey tables, Colombia DANE ENUT, EIGE CARE Survey, England DHSC SACE, ABS General Social Survey, ANZ/Roy Morgan Consumer Confidence, and 4Culture/Wilkening Culture and Communities.",
+        "remaining": "The ABS tables within one record are one survey, and cross-country survey definitions and causal comparability remain open."
+      },
       "coverage": {
         "evidence_record_count": 7,
         "source_host_count": 8,
