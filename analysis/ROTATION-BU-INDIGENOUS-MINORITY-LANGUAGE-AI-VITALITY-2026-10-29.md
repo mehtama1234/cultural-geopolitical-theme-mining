@@ -67,6 +67,7 @@ language exclusion, low-resource data and intergenerational decline
 | Jacaranda Health multilingual model rollout | The same report says models were rolled out during 2024 in Swahili, Yoruba, Hausa, Zulu and isiXhosa, with open-source language-model variants and an intended scale-up path for services such as Hausa support for Nigerian mothers. | five-language model rollout and reusable artifact pathway | downloads and downstream reuse, language-specific quality, consent/licensing, production deployment outside PROMPTS, clinical validation, user outcomes and sustainability |
 | Jacaranda UlizaLlama open-source construction and human review | Jacaranda describes extending Llama2/Llama3 for Swahili, Hausa, Yoruba, Xhosa and Zulu, merging language-specific pretraining and fine-tuning for maternal-health support; it reports evaluation on 2,500 extracted questions using automated similarity/fluency metrics and says responses are reviewed and edited by humans before being sent to mothers. | public model cards, domain adaptation method, task-specific evaluation sample and human-in-the-loop control | model-card licenses, dataset rights, native-speaker and clinician evaluation, full benchmark artifacts, downstream reuse, error analysis and whether human review is consistently resourced at scale |
 | Jacaranda Swahili ASR model-card limitation | Jacaranda’s ASR model card reports a Swahili-English speech-to-text model fine-tuned from Whisper Medium with a 14.7% WER result and warns that performance may vary across Swahili dialects, regional accents and code-switching patterns absent from training data; commercial use is directed to contact Jacaranda. | named speech artifact, training setup, quantitative error signal and explicit dialect limitation | broader dialect test sets, speaker-disaggregated WER, consent/licensing, real-world noise performance, correction workflow, commercial access and downstream service safety |
+| Jacaranda Swahili voice prototype engagement | Jacaranda’s Q2 2025 report says a Swahili-speaking voice alternative was launched for low-literacy and sight-impaired mothers; it reports 80% accuracy for Swahili voice support, 90% for English and that 30% of mothers who had not previously opted into PROMPTS did so after receiving a voice call. The team was still experimenting with Kenyan accents and dialects and planned wider rollout. | user engagement signal and accessibility-focused voice prototype with a reported language-specific accuracy figure | sample size and denominator, opt-in definition, retention and repeat use, error and safety review, accent/dialect results, health-information comprehension, care-seeking and maternal outcomes |
 
 ## Stage audit
 
@@ -276,6 +277,14 @@ warning also show why “Swahili support” is not a single quality level. A
 service can be operational for a dominant or represented variety while failing
 in another accent, noisy environment or mixed-language interaction.
 
+The Q2 voice result closes a further behavioral gate: a voice call appears to
+have converted some previously unengaged mothers into PROMPTS users. It remains
+a prototype result, not a causal or health-outcome finding. Without the sample
+size, denominator construction, comparison group, follow-up retention and
+language/dialect breakdown, “30% opted in” cannot be generalized to all
+low-literacy or sight-impaired mothers. It is nevertheless stronger evidence of
+access conversion than a model card or product description alone.
+
 ## Cross-case synthesis
 
 | Case | Strongest evidence currently closed | Conversion stage still unproven |
@@ -412,3 +421,4 @@ collection; do not infer vitality from model or corpus size.
 41. [Jacaranda Health 2024 Annual Impact Report](https://jacarandahealth.org/ypoagriw/2025/06/Jacaranda-Health-2024-Annual-Report-1.pdf)
 42. [Jacaranda five-language open-source UlizaLlama announcement](https://jacarandahealth.org/jacaranda-launches-open-source-llm-in-five-african-languages/)
 43. [Jacaranda Health Swahili ASR model card](https://huggingface.co/Jacaranda-Health/ASR-STT)
+44. [Jacaranda Health Q2 2025 voice prototype impact report](https://jacarandahealth.org/ypoagriw/2025/08/Q2-2025-Impact-Report-13082025.pdf)
