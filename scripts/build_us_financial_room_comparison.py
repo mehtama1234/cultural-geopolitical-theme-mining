@@ -26,11 +26,17 @@ def main() -> int:
         "status": "mechanism_comparison_only",
         "source_families": [shed["source_unit"], usda["source_unit"]],
         "rows": rows,
-        "directional_readout": "Both independent U.S. series indicate continued resource pressure between 2022 and 2024, but they measure different constructs and use adult versus household denominators.",
+        "directional_readout": "The independent U.S. series do not move identically: SHED self-assessed wellbeing is flat from 2022 to 2024, while USDA food insecurity rises slightly. Together they show persistent but non-uniform resource pressure, not a common trend estimate.",
         "supports": ["independent publisher challenge", "same-geography directional comparison", "counter-signal review"],
         "does_not_support": ["pooled prevalence", "common-unit effect estimate", "causality", "qualified trend", "company exposure"],
         "blocking_items": ["SHED is adult self-assessed financial wellbeing while USDA is household food insecurity", "different questionnaires and sampling frames", "USDA 2024 change is not statistically significant versus 2023", "no common outcome definition"],
-        "next_action": "Retrieve full codebooks and uncertainty intervals, then pre-specify whether the comparison is a mechanism challenge or a separate U.S. trend lane.",
+        "uncertainty_audit": {
+            "status": "intervals_not_comparable_in_current_artifacts",
+            "shed": "The public chart artifact supplies point estimates only; the 2024 codebook identifies 12,295 respondents, but no interval was attached to the normalized series.",
+            "usda": "USDA publishes statistical-significance guidance and calculates standard errors with balanced repeated replication; the 2022-2024 national points are not statistically distinguishable on the published comparison.",
+            "use": "Keep the comparison descriptive and unpooled until year-specific intervals or a reproducible variance extract is attached to both series."
+        },
+        "next_action": "Attach year-specific uncertainty intervals or a reproducible variance extract before any quantitative comparison; keep this lane as a mechanism challenge in the meantime.",
         "boundary": "Independent sources can converge directionally without measuring the same population outcome. No pooling or trend promotion is authorized."
     }
     OUTPUT.write_text(json.dumps(payload, indent=2) + "\n")
