@@ -331,9 +331,11 @@ def main() -> int:
     assert uncertainty["release_decision"] == "hold"
     reproduction = json.loads((ANALYSIS / "shed-point-estimate-reproduction-audit.json").read_text())
     assert reproduction["schema"] == "external-trend-intelligence.reproduction-audit.v1"
-    assert reproduction["status"] == "reproduction_mismatch_hold"
+    assert reproduction["status"] == "point_estimate_reproduced_variance_open"
     assert reproduction["microdata"]["row_count"] == 12295
-    assert len(reproduction["reconstructions"]) == 2
+    assert len(reproduction["reconstructions"]) == 3
+    assert reproduction["reconstructions"][0]["rule"] == "publisher-derived pay_casheqv == Yes"
+    assert reproduction["reconstructions"][0]["published_rounding"] == "63%"
     assert reproduction["next_test"] and reproduction["boundary"]
     trend_map = json.loads((ANALYSIS / "trend-hunting-source-map.json").read_text())
     assert trend_map["schema"] == "external-trend-intelligence.trend-hunting-source-map.v1"

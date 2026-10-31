@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "fa2d35cbcc248e5e078a013538a778700ad84695",
+  "source_tree_commit": "9fe55ffcbb276ffef5d8ec2ec86a3400d0aedf7c",
   "artifact_count": 76,
   "artifacts": [
     {
@@ -146,8 +146,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 4491,
-      "sha256": "549c03961627e8be1a8de199ef919245425103755a720d15000c40b78c8989b2"
+      "bytes": 4492,
+      "sha256": "b20dd13845a45317fb119cfb7390cd9c8c3dd251299fe14c3b933a9eb7e86bf3"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
@@ -296,8 +296,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/shed-point-estimate-reproduction-audit.json",
-      "bytes": 1871,
-      "sha256": "010b3456944f7e745c08999608cb16b0b6d1367f4b6f515e509179cdb9dbc1d1"
+      "bytes": 1959,
+      "sha256": "972765fd6484d6b6221dd1cf2e8dd4c2179fd25b3408f60ed8cf64a37422c603"
     },
     {
       "path": "analysis/external-trend-intelligence/usda-temporal-holdout.json",

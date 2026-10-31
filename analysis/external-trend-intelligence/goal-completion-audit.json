@@ -31,7 +31,7 @@
         "test_rights_release_gate.py",
         "observation-manifest.json"
       ],
-      "gap": "Rights and publisher dependence remain unverified for all families; the SHED audit documents that only a non-release naive interval is available and the published point estimate does not yet reproduce from obvious public-use recodes. The release gate is tested to fail closed."
+      "gap": "Rights and publisher dependence remain unverified for all families; the SHED point estimate now reproduces through the publisher-derived field, but only a non-release naive interval is available and design-based variance remains open. The release gate is tested to fail closed."
     },
     {
       "id": "independent_source_comparison",

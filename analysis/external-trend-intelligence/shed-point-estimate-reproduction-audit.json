@@ -14,6 +14,12 @@
   },
   "reconstructions": [
     {
+      "rule": "publisher-derived pay_casheqv == Yes",
+      "unweighted_percent": 65.92,
+      "weighted_percent": 62.7365,
+      "published_rounding": "63%"
+    },
+    {
       "rule": "EF3_c == Yes (cash/checking/savings only)",
       "unweighted_percent": 43.65,
       "weighted_percent": 42.5493
@@ -24,13 +30,12 @@
       "weighted_percent": 71.2942
     }
   ],
-  "status": "reproduction_mismatch_hold",
-  "interpretation": "The published 63% cannot be reproduced from the obvious EF3 response combinations with the public 2024 weight using the current codebook interpretation. The chart construction, denominator, recode, or response universe requires source-owner clarification before treating the microdata as a validated estimate.",
+  "status": "point_estimate_reproduced_variance_open",
+  "interpretation": "The published 63% reproduces when the public-use publisher-derived pay_casheqv field is weighted with the main weight and rounded to a whole percent. The obvious EF3 component recodes do not match, so the derived field and its construction are retained as the authoritative lineage path.",
   "missing_inputs": [
-    "publisher chart construction or analysis code",
-    "exact response recode and denominator universe",
-    "design-based variance method"
+    "design-based variance method",
+    "replicate weights or equivalent variance instructions"
   ],
-  "next_test": "Reconcile the chart CSV, codebook, and microdata using the publisher's exact recode; retain the mismatch as a falsifier until the point estimate reproduces.",
-  "boundary": "This audit does not replace the publisher estimate and does not authorize a recalculated trend, interval, pooling, or company decision."
+  "next_test": "Reproduce pay_casheqv for at least one additional year and attach design-based standard errors before cross-source significance or promotion.",
+  "boundary": "Point-estimate reproduction does not establish uncertainty, causality, trend qualification, pooling, or company relevance."
 }
