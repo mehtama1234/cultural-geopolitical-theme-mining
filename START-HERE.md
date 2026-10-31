@@ -6,6 +6,8 @@ The larger program is the [two-year external trend-intelligence observatory
 goal](TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md). It defines the 24-month
 outcomes, operating model, qualification gates, and first 30-day actions. The
 external goal below is the current execution contract inside that program.
+The day-to-day analyst handoff is documented in the [analyst operating
+model](analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md).
 
 ## New external-first goal
 
