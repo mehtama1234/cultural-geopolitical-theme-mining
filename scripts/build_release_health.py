@@ -29,6 +29,7 @@ def main() -> int:
     rights_evidence = load("rights-evidence-register.json")
     holdout = load("temporal-holdout-result.json")
     food_holdout = load("food-insecurity-temporal-holdout.json")
+    food_rights = load("food-insecurity-rights-review.json")
     denominator = load("denominator-reconciliation-review.json")
     health = {
         "source_refresh": {
@@ -90,6 +91,7 @@ def main() -> int:
             "candidate_id": food_holdout["candidate_id"],
             "status": food_holdout["status"],
             "direction": food_holdout["readout"]["direction"],
+            "rights_decision": food_rights["release_decision"],
             "boundary": food_holdout["boundary"],
         },
         "monitoring": {

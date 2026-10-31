@@ -1,0 +1,31 @@
+{
+  "schema": "external-trend-intelligence.food-insecurity-rights-review.v1",
+  "candidate_id": "candidate-us-food-insecurity-persistence",
+  "reviewed_on": "2026-10-31",
+  "sources": [
+    {
+      "record_id": "comparative-usda-food-security-2022-2024",
+      "publisher": "USDA Economic Research Service",
+      "terms_url": "https://www.ers.usda.gov/developer/api-terms-of-service",
+      "source_url": "https://www.ers.usda.gov/publications/113622",
+      "rights_status": "conditional_attribution_use_documented",
+      "observed_terms": "ERS API terms permit searching, displaying, analyzing, retrieving, viewing, and otherwise getting ERS API data, require a prominent non-endorsement notice, prohibit false representation, and reserve access limits and term changes.",
+      "permitted_scope_for_this_observatory": "Store normalized values, source locator, retrieval hash, and derived internal-review calculations with ERS attribution and the required non-endorsement notice.",
+      "not_cleared": "Raw publication reproduction, redistribution of source tables, and commercial downstream reuse outside the documented API route require separate review.",
+      "publisher_dependence": "direct_official_publisher"
+    },
+    {
+      "record_id": "us-urban-wbns-food-insecurity-persistence-2019-2025",
+      "publisher": "Urban Institute",
+      "terms_url": "https://www.urban.org/terms-service",
+      "source_url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025%2C%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
+      "rights_status": "permission_required_for_republication",
+      "observed_terms": "Urban states that site content is copyrighted; reproduction, modification, distribution, display, derivative works, and non-personal storage are prohibited unless expressly authorized, and directs users to obtain written permission.",
+      "permitted_scope_for_this_observatory": "Retain citation metadata, hashes, normalized values, and a non-republished internal review note; link to the official source.",
+      "not_cleared": "Redistributing Urban tables, charts, PDF content, or derived public-facing charts is not cleared without permission.",
+      "publisher_dependence": "direct_official_publisher"
+    }
+  ],
+  "release_decision": "retain_as_attributed_metadata_and_internal_review_only; do_not_redistribute_upstream_content_or_connect_company_data_until_rights_owner_approves",
+  "boundary": "This is an operational rights review, not legal advice or a license grant. Terms can change and source-specific notices may add restrictions."
+}

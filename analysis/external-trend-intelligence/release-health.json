@@ -68,6 +68,7 @@
       "candidate_id": "candidate-us-food-insecurity-persistence",
       "status": "descriptive_holdout_supported",
       "direction": "increase",
+      "rights_decision": "retain_as_attributed_metadata_and_internal_review_only; do_not_redistribute_upstream_content_or_connect_company_data_until_rights_owner_approves",
       "boundary": "This is a descriptive temporal holdout with a non-pooled independent challenge. It qualifies external persistence for monitoring, not a causal or company result."
     },
     "monitoring": {

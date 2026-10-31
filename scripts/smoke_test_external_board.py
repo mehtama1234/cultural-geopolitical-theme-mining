@@ -55,6 +55,7 @@ def main() -> int:
                             "candidate-lineage-dependency-review.json",
                             "Qualified food-insecurity temporal holdout",
                             "food-insecurity-temporal-holdout.json",
+                            "food-insecurity-rights-review.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:
