@@ -114,6 +114,12 @@ company will experience the same effect.
   occupational structure, local labor-market alternatives, public legitimacy,
   and geopolitical technology dependence.
 
+## Time horizon
+
+- **Now (0–12 months):** Identify changed tasks, review burden, worker control, and severe-error exposure in named workflows.
+- **Next (1–3 years):** Test whether training, worker voice, redesign, and human fallback improve quality, retention, and household security.
+- **Longer term (3+ years):** Reassess bargaining power, job quality, capability concentration, and the distribution of productivity gains.
+
 ## Leading indicators
 
 | Indicator | Why it matters | Source or owner | Review cadence | Trigger |

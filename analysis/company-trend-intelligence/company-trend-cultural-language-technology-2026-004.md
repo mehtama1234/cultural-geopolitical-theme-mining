@@ -95,6 +95,12 @@ business outcomes remain open.
 | Reputation | Community authority and respectful representation can strengthen legitimacy; extractive use can damage it | medium | Who is recognized as the authority when dialects or naming conventions differ? |
 | Geopolitical | Language infrastructure affects cultural sovereignty, digital dependence, and public-service legitimacy | low | Does local capability reduce dependence on external platforms? |
 
+## Time horizon
+
+- **Now (0–12 months):** Establish rights, community authority, language quality, accessibility, and correction baselines.
+- **Next (1–3 years):** Test completed tasks, repeated use, safety, and trust in one named language workflow.
+- **Longer term (3+ years):** Sustain community-governed language capability, cultural vitality, and trusted market or public-service access.
+
 ## Leading indicators
 
 | Indicator | Why it matters | Source or owner | Review cadence | Trigger |

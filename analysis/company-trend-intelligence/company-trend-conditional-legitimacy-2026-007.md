@@ -87,6 +87,12 @@ causal attribution and durable institutional change remain open.
 | Reputation | Cultural meaning can shift quickly when identity, dignity, or fairness is implicated | medium | Which communities and trusted intermediaries shape interpretation? |
 | Geopolitical | National or local legitimacy affects permission for infrastructure, technology, and security action | low | When does domestic meaning alter external room to maneuver? |
 
+## Time horizon
+
+- **Now (0–12 months):** Track attribution, identity, trust, practical room, and perceived control around a dated encounter.
+- **Next (1–3 years):** Follow explanation, voice, remedy, acceptance, non-use, and later action after the encounter.
+- **Longer term (3+ years):** Build legitimacy as a measurable operating capability tied to visible benefit and contestability.
+
 ## Leading indicators
 
 | Indicator | Why it matters | Source or owner | Review cadence | Trigger |

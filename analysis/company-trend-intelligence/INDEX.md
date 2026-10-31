@@ -88,16 +88,17 @@ exposure.
 
 ## Next record queue
 
-The next records should cover different parts of the 14-theme program and
-different company decisions:
+The initial seven-record set is now in place. The next records should extend
+coverage into underrepresented parts of the 14-theme program while preserving
+the same company decision contract:
 
-1. **Infrastructure capacity and local incidence:** whether announced energy,
-   data, transport, or broadband capacity becomes reliable service and how
-   costs and dependency are distributed.
-2. **Cultural and language technology:** whether digitization and AI create
-   real access, repeated use, community control, and market-localization value.
-3. **Geopolitical dependence:** how supply, technology, sanctions, or alliance
-   changes affect operating continuity, strategic options, and state leverage.
+1. **Health, disability, and care access:** where cost, waiting, and unequal
+   care capacity alter workforce, customer, and insurance exposure.
+2. **Housing, place, mobility, and insurance:** where location and physical
+   dependency change operating continuity, labor access, and demand.
+3. **Firm, market, and ownership concentration:** where control over data,
+   platforms, suppliers, or capital changes alternatives and bargaining power.
 
-Each new record should use the same schema and should be promoted only after a
-counter-signal and an independent evidence check.
+Each new record should use the same schema, include now/next/longer-term
+horizons, and be promoted only after a counter-signal and an independent
+evidence check.

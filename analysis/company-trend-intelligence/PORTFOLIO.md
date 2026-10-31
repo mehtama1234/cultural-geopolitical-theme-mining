@@ -12,10 +12,12 @@ layer, not a replacement for the underlying evidence.
 | [Geopolitical permission gap](company-trend-geopolitical-permission-gap-2026-002.md) | State power, security, legitimacy | Capability and formal response can precede durable permission or leverage | Whether behavior, burden, host acceptance, and deterrence change after the response |
 | [Language technology](company-trend-cultural-language-technology-2026-004.md) | Culture, identity, localization | Digital representation and access can precede repeated use and cultural vitality | Whether governance, dialect quality, correction, and workflow produce trust and market value |
 | [Infrastructure bargain](company-trend-infrastructure-bargain-2026-005.md) | Energy, data, capacity, operations | Capacity, revenue, readiness, and projected savings appear before user benefit | Whether customers receive reliable service and who carries cost, risk, and dependence |
+| [Household financial room](company-trend-household-financial-room-2026-006.md) | Household finance, demand, trust | Financial pressure can create search, substitution, and support work before visible demand change | Whether search becomes completed purchase, payment stress, recovery, or exit |
+| [Conditional legitimacy](company-trend-conditional-legitimacy-2026-007.md) | Trust, culture, political meaning | Material pressure becomes political meaning through attribution, identity, and practical room | Whether explanation, voice, remedy, and visible benefit sustain acceptance |
 
 ## Cross-domain pattern
 
-The five records point to one recurring company problem:
+The seven records point to one recurring company problem:
 
 > Capability and institutional output are becoming easier to produce and report,
 > but the conversion into usable benefit, trust, control, and durable value is
@@ -36,7 +38,7 @@ This is not a claim that the five domains have one causal driver. It is a
 cross-source operating lens: each record identifies a different place where
 the conversion can stop.
 
-## The five recurring business questions
+## The seven recurring business questions
 
 ### 1. Who controls the system?
 
@@ -91,6 +93,24 @@ The next implementation should track these cross-record indicators:
 | Residual burden | Who absorbs money, time, error, privacy, land, safety, or legitimacy cost |
 | Trust after outcome | Whether explanation and remedy produce durable acceptance |
 | Recovery and reversibility | Whether the company can restore service, undo harm, or change provider |
+
+## Three-horizon operating view
+
+The portfolio uses the same time vocabulary for every record. “Now” means the
+observable signal and immediate exposure; “next” means the evidence or operating
+change that should be tested within the next planning cycle; “longer term” means
+the structural capability, dependency, legitimacy, or market consequence that
+could persist if the mechanism holds.
+
+| Record | Now | Next | Longer term |
+|---|---|---|---|
+| AI workplace control | Identify changed tasks, review burden, and worker control | Run a named-employer ledger with quality, training, voice, and retention outcomes | Redesign work, bargaining, capability, and household security around proven outcomes |
+| Consumer recourse | Measure repeat effort, accessibility, and response-to-remedy gaps | Follow cases through verified correction, restored access, and practical exit | Build contestable service systems where remedy and switching are durable capabilities |
+| Geopolitical permission gap | Map capability, formal response, host permission, and burden | Test one incident-country-party recovery ledger | Reconfigure supply, alliance, resilience, and state-dependence options |
+| Language technology | Establish rights, authority, language quality, and access baseline | Test completed tasks and repeated use in one named workflow | Sustain community-governed language capability and trusted market access |
+| Infrastructure bargain | Separate announced capacity from readiness, reliability, and user receipt | Trace one project from approval through operation and burden | Rebalance cost, dependency, resilience, and social licence over the asset life |
+| Household financial room | Monitor search, substitution, payment stress, and support load | Link a search episode to completion, recovery, and exit | Adapt pricing, product, and service models to changing financial room |
+| Conditional legitimacy | Track attribution, identity, trust, and practical room around an encounter | Follow remedy, voice, acceptance, and non-use after the encounter | Build legitimacy as a measurable operating capability, not a communications claim |
 
 ## Promotion rule
 

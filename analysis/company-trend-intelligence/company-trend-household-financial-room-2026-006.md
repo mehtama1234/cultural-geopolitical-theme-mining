@@ -85,6 +85,12 @@ search to usable result, purchase, recovery, or exit is still open.
 | Reputation | A mismatch between firm messaging and lived affordability can damage trust | medium | Does transparent pricing and remedy change attribution? |
 | Geopolitical | Energy, rates, trade, or conflict shocks may pass through to household expectations and category demand | low | Which external shocks persist long enough to change behavior? |
 
+## Time horizon
+
+- **Now (0–12 months):** Monitor search, substitution, payment stress, support load, and affordability differences.
+- **Next (1–3 years):** Link a search episode to completion, payment, recovery, repeat use, and exit.
+- **Longer term (3+ years):** Adapt pricing, product, and service models to durable changes in household financial room and choice.
+
 ## Leading indicators
 
 | Indicator | Why it matters | Source or owner | Review cadence | Trigger |

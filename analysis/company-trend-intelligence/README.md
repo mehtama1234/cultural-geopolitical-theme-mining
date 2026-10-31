@@ -17,12 +17,13 @@ people, and public-affairs teams.
 - `schema.json` defines the required machine-readable fields.
 - `portfolio.json` exposes the current records and portfolio lens to a frontend
   or downstream analysis.
-- `portfolio.csv` provides the same six-record index for spreadsheets and BI
+- `portfolio.csv` provides the same seven-record index for spreadsheets and BI
   tools; pipe-delimited values preserve multi-value fields.
 - `board.html` is a lightweight browser reader for the JSON portfolio.
 - `TEMPLATE.md` is the plain-language authoring template.
 - A record must preserve the source claim, mechanism, affected groups,
-  uncertainty, counterevidence, business exposure, indicators, and next test.
+  uncertainty, counterevidence, business exposure, three time horizons,
+  indicators, and next test.
 
 Do not call a candidate a confirmed trend merely because it is repeated in
 news or public discussion. Public discussion can discover a signal; research,

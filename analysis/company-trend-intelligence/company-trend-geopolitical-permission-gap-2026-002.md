@@ -87,6 +87,12 @@ burden, permission, and leverage remain partly open.
 | Reputation | Public legitimacy may depend on who bears risk and who is consulted | medium | Does visible burden-sharing sustain trust during escalation? |
 | Geopolitical | Capability may strengthen leverage only if cooperation and permission persist | low | What behavior changes after the response, and for how long? |
 
+## Time horizon
+
+- **Now (0–12 months):** Map capability, formal response, host permission, partner cohesion, and immediate burden.
+- **Next (1–3 years):** Test incident recovery, burden sharing, customer authority, and whether later behavior changes.
+- **Longer term (3+ years):** Reconfigure supply, alliance, resilience, and state-dependence options around durable leverage or constraint.
+
 ## Leading indicators
 
 | Indicator | Why it matters | Source or owner | Review cadence | Trigger |

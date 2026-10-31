@@ -82,6 +82,12 @@ later choice remain the critical missing middle and endpoint.
 | Reputation | Visibility without repair can be interpreted as disbelief or entrapment | medium | Does public explanation restore trust when money or access remains unresolved? |
 | Geopolitical | Cross-border payment and digital-service dependence can amplify recourse risk | low | How do jurisdiction and provider concentration affect exit? |
 
+## Time horizon
+
+- **Now (0–12 months):** Measure repeat effort, accessibility, response-to-remedy gaps, and time to restored access.
+- **Next (1–3 years):** Follow cases through verified correction, payment, switching, non-use, and later trust.
+- **Longer term (3+ years):** Build contestable service systems where remedy, human reach, and practical exit are durable capabilities.
+
 ## Leading indicators
 
 | Indicator | Why it matters | Source or owner | Review cadence | Trigger |

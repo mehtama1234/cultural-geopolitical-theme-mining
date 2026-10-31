@@ -89,6 +89,12 @@ durability, and alternatives are the main measurement gap.
 | Reputation | Visible local burden can undermine a project that looks successful in aggregate | medium | Does compensation or benefit sharing improve acceptance? |
 | Geopolitical | Cross-border energy, digital, and defense infrastructure can reduce or deepen dependence | medium | Does operation change another actor’s behavior or only provide capability? |
 
+## Time horizon
+
+- **Now (0–12 months):** Separate announced capacity from readiness, reliability, cost allocation, and user receipt.
+- **Next (1–3 years):** Trace one project through operation, maintenance, burden, transfer, and practical alternatives.
+- **Longer term (3+ years):** Rebalance dependency, resilience, local acceptance, and lifecycle cost over the asset’s life.
+
 ## Leading indicators
 
 | Indicator | Why it matters | Source or owner | Review cadence | Trigger |
