@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "49f4d0cdecc7c522364212bc6c57f65e5d5b42a6",
+  "source_tree_commit": "af3369f0c7b10257a72e8d0a789b7ef05f753abd",
   "artifact_count": 85,
   "artifacts": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "path": "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
-      "bytes": 5424,
-      "sha256": "51196dffd588f73b10b9d44a4060a1d05acd417a2746d1899cc43a52984d839c"
+      "bytes": 5453,
+      "sha256": "58b8675947fe6a0c1ffb4ca5849a51ceb88c6ea1f50b89e81ccc3448b19bd3ac"
     },
     {
       "path": "EXTERNAL_SOURCE_REGISTRY.md",
@@ -31,8 +31,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md",
-      "bytes": 4227,
-      "sha256": "39c937c2e3b1af5b03423c056dd2e24684b83a115e4ac9e4a5f2f7ba42db0585"
+      "bytes": 4267,
+      "sha256": "3507dc70ba2914fb4509718c54be5bb68c4dd5fb704bb018eafb8125c14daf3f"
     },
     {
       "path": "analysis/external-trend-intelligence/operating-handoff.json",

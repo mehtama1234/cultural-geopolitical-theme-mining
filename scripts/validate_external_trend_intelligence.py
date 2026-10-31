@@ -521,6 +521,15 @@ def main() -> int:
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
+    goal_doc = (ROOT / "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md").read_text()
+    handoff_doc = (ANALYSIS / "ANALYST-OPERATING-MODEL.md").read_text()
+    expected_records = f"{manifest['record_count']:,}"
+    expected_candidates = str(len(machine["candidates"]))
+    assert f"`{expected_records}` source-backed observations" in goal_doc
+    assert f"`{source_snapshot['source_count']}` candidate external sources" in goal_doc
+    assert f"`{expected_candidates}` cross-source candidates" in goal_doc
+    assert f"{expected_records} indexed records" in handoff_doc
+    assert "cross-source candidates (" in handoff_doc
     handoff = json.loads((ANALYSIS / "operating-handoff.json").read_text())
     assert handoff["schema"] == "external-trend-intelligence.operating-handoff.v1"
     assert len(handoff["roles"]) == 6
