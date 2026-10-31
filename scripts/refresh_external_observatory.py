@@ -19,6 +19,7 @@ STEPS = [
     ["scripts/build_external_evidence_gap_queue.py"],
     ["scripts/build_external_refresh_status.py"],
     ["scripts/build_source_family_controls.py"],
+    ["scripts/build_rights_review_queue.py"],
     ["scripts/build_candidate_qualification_matrix.py"],
     ["scripts/build_backtest_source_snapshot.py"],
     ["scripts/build_backtest_readiness.py"],

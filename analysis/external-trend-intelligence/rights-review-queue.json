@@ -1,0 +1,128 @@
+{
+  "schema": "external-trend-intelligence.rights-review-queue.v1",
+  "family_count": 8,
+  "review_required_count": 8,
+  "rows": [
+    {
+      "family_id": "cultural-geopolitical-theme-mining",
+      "status": "review_required",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence_required": [
+        "access route and terms or license basis",
+        "permitted storage, transformation, and redistribution scope",
+        "publisher and upstream dataset identity",
+        "shared-publisher/shared-dataset dependence assessment",
+        "retention and refresh obligation"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
+      "owner": "external evidence review queue"
+    },
+    {
+      "family_id": "social-research",
+      "status": "review_required",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence_required": [
+        "access route and terms or license basis",
+        "permitted storage, transformation, and redistribution scope",
+        "publisher and upstream dataset identity",
+        "shared-publisher/shared-dataset dependence assessment",
+        "retention and refresh obligation"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
+      "owner": "external evidence review queue"
+    },
+    {
+      "family_id": "trend-hunting",
+      "status": "review_required",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence_required": [
+        "access route and terms or license basis",
+        "permitted storage, transformation, and redistribution scope",
+        "publisher and upstream dataset identity",
+        "shared-publisher/shared-dataset dependence assessment",
+        "retention and refresh obligation"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
+      "owner": "external evidence review queue"
+    },
+    {
+      "family_id": "annual-report-research",
+      "status": "review_required",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence_required": [
+        "access route and terms or license basis",
+        "permitted storage, transformation, and redistribution scope",
+        "publisher and upstream dataset identity",
+        "shared-publisher/shared-dataset dependence assessment",
+        "retention and refresh obligation"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
+      "owner": "external evidence review queue"
+    },
+    {
+      "family_id": "inc5000-analysis",
+      "status": "review_required",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence_required": [
+        "access route and terms or license basis",
+        "permitted storage, transformation, and redistribution scope",
+        "publisher and upstream dataset identity",
+        "shared-publisher/shared-dataset dependence assessment",
+        "retention and refresh obligation"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
+      "owner": "external evidence review queue"
+    },
+    {
+      "family_id": "ibis-industries",
+      "status": "review_required",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence_required": [
+        "access route and terms or license basis",
+        "permitted storage, transformation, and redistribution scope",
+        "publisher and upstream dataset identity",
+        "shared-publisher/shared-dataset dependence assessment",
+        "retention and refresh obligation"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
+      "owner": "external evidence review queue"
+    },
+    {
+      "family_id": "research-signals",
+      "status": "review_required",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence_required": [
+        "access route and terms or license basis",
+        "permitted storage, transformation, and redistribution scope",
+        "publisher and upstream dataset identity",
+        "shared-publisher/shared-dataset dependence assessment",
+        "retention and refresh obligation"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
+      "owner": "external evidence review queue"
+    },
+    {
+      "family_id": "organization-intelligence-system",
+      "status": "review_required",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence_required": [
+        "access route and terms or license basis",
+        "permitted storage, transformation, and redistribution scope",
+        "publisher and upstream dataset identity",
+        "shared-publisher/shared-dataset dependence assessment",
+        "retention and refresh obligation"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
+      "owner": "external evidence review queue"
+    }
+  ],
+  "boundary": "This queue identifies evidence needed for clearance; it is not a legal determination or a claim that any source is licensed."
+}
