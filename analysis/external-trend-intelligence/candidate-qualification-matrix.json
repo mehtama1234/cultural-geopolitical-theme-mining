@@ -30,6 +30,12 @@
         "backtest",
         "decision_relevance"
       ],
+      "backtest_plan": {
+        "status": "not_started",
+        "holdout": "later case or release after the source observation period",
+        "outcome": "receipt, usable recovery, durable access, and exit after formal response",
+        "required_evidence": "dated comparable cases with the same response, implementation, receipt, recovery, and exit stages"
+      },
       "evidence_record_count": 7,
       "source_host_count": 6,
       "next_action": "Code formal response, implementation, receipt, durable access, and exit stages across independent labor, consumer, health, and public-service records.",
@@ -60,6 +66,12 @@
         "backtest",
         "decision_relevance"
       ],
+      "backtest_plan": {
+        "status": "not_started",
+        "holdout": "later survey wave or geography held out from candidate construction",
+        "outcome": "time pressure, participation, substitution, or delayed completion using compatible denominators",
+        "required_evidence": "at least two comparable waves or places with common unit, population, and participation measure"
+      },
       "evidence_record_count": 7,
       "source_host_count": 8,
       "next_action": "Preserve compatible time, cost, participation, and wellbeing units before interpreting practical-room change.",
@@ -90,6 +102,12 @@
         "backtest",
         "decision_relevance"
       ],
+      "backtest_plan": {
+        "status": "not_started",
+        "holdout": "later attitude, adoption, or control-measure release",
+        "outcome": "capability adoption alongside verification, contestability, remedy, or trust",
+        "required_evidence": "repeated independent measures separating capability from control and trust"
+      },
       "evidence_record_count": 7,
       "source_host_count": 13,
       "next_action": "Separate efficiency, delegation, trust, control, recourse, retention, and exit measures.",
@@ -120,11 +138,20 @@
         "backtest",
         "decision_relevance"
       ],
+      "backtest_plan": {
+        "status": "not_started",
+        "holdout": "later operating or disruption window after the candidate period",
+        "outcome": "operation followed by reliability, tariff, bill, compensation, or acceptance outcome",
+        "required_evidence": "dated event and outcome records linked by compatible geography and system unit"
+      },
       "evidence_record_count": 7,
       "source_host_count": 14,
       "next_action": "Link capacity or ownership claims to operation, actual receipt, local burden, maintenance, and acceptance.",
       "internal_bridge_ready": false
     }
   ],
-  "boundary": "This matrix is conservative: absent evidence is a failed gate, not an inferred pass. A qualified candidate is not automatically a qualified trend or an internal company finding."
+  "backtest_status_counts": {
+    "not_started": 4
+  },
+  "boundary": "This matrix is conservative: absent evidence is a failed gate, not an inferred pass. A qualified candidate is not automatically a qualified trend or an internal company finding. A backtest plan is not a backtest result."
 }

@@ -210,8 +210,9 @@
       const title = document.createElement('h3'); title.textContent = row.title;
       const gates = document.createElement('p'); gates.innerHTML = `<strong>Blocking:</strong> ${row.blocking_gates.join('; ') || 'none'}`;
       const next = document.createElement('p'); next.innerHTML = `<strong>Next action:</strong> ${row.next_action}`;
+      const backtest = document.createElement('p'); backtest.innerHTML = `<strong>Backtest:</strong> ${row.backtest_plan.status}; holdout = ${row.backtest_plan.holdout}`;
       const evidence = document.createElement('code'); evidence.textContent = `${row.evidence_record_count} evidence records · ${row.source_host_count || '—'} hosts · internal bridge ready: ${row.internal_bridge_ready}`;
-      article.append(pill, title, gates, next, evidence); return article;
+      article.append(pill, title, gates, next, backtest, evidence); return article;
     }
     function sourceFamilyCard(family, schedule) {
       const article = document.createElement('article');
