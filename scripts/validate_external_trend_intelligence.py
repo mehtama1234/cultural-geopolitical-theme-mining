@@ -297,7 +297,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 43
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 44
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -374,6 +374,10 @@ def main() -> int:
     assert progress["baseline"]["records"] == 2131
     assert progress["baseline"]["qualified_external_trends"] == 0
     assert len(progress["phases"]) == 5
+    independent = json.loads((ANALYSIS / "independent-stage-comparison.json").read_text())
+    assert independent["schema"] == "external-trend-intelligence.independent-stage-comparison.v1"
+    assert independent["status"] == "mechanism_comparison_only"
+    assert independent["record_count"] == 2
     rights_queue = json.loads((ANALYSIS / "rights-review-queue.json").read_text())
     assert rights_queue["schema"] == "external-trend-intelligence.rights-review-queue.v1"
     assert rights_queue["family_count"] == 8

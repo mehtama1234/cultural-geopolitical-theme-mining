@@ -27,6 +27,7 @@ STEPS = [
     ["scripts/build_bounded_subset_register.py"],
     ["scripts/build_case_stage_panel.py"],
     ["scripts/build_bounded_subset_lineage.py"],
+    ["scripts/build_independent_stage_comparison.py"],
     ["scripts/build_release_health.py"],
     ["scripts/build_external_release_manifest.py"],
     ["scripts/validate_external_trend_intelligence.py"],

@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "d0a781c211992ee7d0d09e9593bdca8a15ed5472",
-  "artifact_count": 43,
+  "source_tree_commit": "46e4be96108fe026269838c652892e2e003305b8",
+  "artifact_count": 44,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -33,6 +33,11 @@
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
       "bytes": 2768,
       "sha256": "ec78105561f5aaa2b544f19d60333e685050d4dfc4ae24a90b1a765cf9cea67b"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/independent-stage-comparison.json",
+      "bytes": 5153,
+      "sha256": "62182c62915d3d4bbb73a0b8ca5d115ebabd400e019eda48e0ae49dfd282775a"
     },
     {
       "path": "analysis/external-trend-intelligence/backtest-readiness.json",
@@ -96,8 +101,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5233,
-      "sha256": "a3ada24ad5ffdc7c76df1b3df122e7affaf026228f14c7e89823d56c9d2c264c"
+      "bytes": 5232,
+      "sha256": "25ca1c8cb039427da5b43b1d7726f0db57f8619e7509fafce4dbea62e04f85d2"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -206,8 +211,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 34967,
-      "sha256": "e86acd6f4a39f1295af52cedfc36aadd9a9146f1591d8e1c4e7c8fc2da7178d2"
+      "bytes": 36345,
+      "sha256": "8bb95ce1646bb2b1113df4052eb07475a5a677169585c944fed274dc3d326d07"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",

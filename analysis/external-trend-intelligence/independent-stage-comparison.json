@@ -1,0 +1,111 @@
+{
+  "schema": "external-trend-intelligence.independent-stage-comparison.v1",
+  "status": "mechanism_comparison_only",
+  "record_count": 2,
+  "records": [
+    {
+      "record_id": "comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust",
+      "geography": "Six ASEAN countries; consumer survey estimates reported by the GSM Association",
+      "source_unit": "GSMA ASEAN Consumer Scam Report 2026, covering Indonesia, Malaysia, the Philippines, Singapore, Thailand, and Vietnam",
+      "source_hosts": [
+        "www.gsma.com"
+      ],
+      "stages": {
+        "formal_response": {
+          "victims_reporting": {
+            "value": 69,
+            "unit": "percent of scam victims reporting the incident",
+            "period": "2026 report; reported scam cases and institutional resolution"
+          }
+        },
+        "implementation_gap": {
+          "reported_cases_unresolved": {
+            "value": 45,
+            "unit": "percent of reported scam cases remaining unresolved",
+            "period": "2026 report; reported scam cases and institutional resolution"
+          }
+        },
+        "recovery_or_trust": {
+          "money_losing_victims_recovered_none": {
+            "value": 82,
+            "unit": "percent of money-losing victims recovering none of their losses",
+            "period": "2026 report; previous 12 months; scam exposure and financial recovery"
+          },
+          "money_losing_victims_recovered_all": {
+            "value": 10,
+            "unit": "percent of money-losing victims recovering all losses",
+            "period": "2026 report; previous 12 months; scam exposure and financial recovery"
+          },
+          "channel_trust_effect": {
+            "value": "Consumers with unresolved cases report lower trust in communications channels, digital platforms, and data sharing",
+            "unit": "reported association",
+            "period": "2026 report; reported scam cases and institutional resolution"
+          },
+          "provider_switching": {
+            "value": "Consumers who experienced scams were more than twice as likely to switch accounts or service providers than consumers who had not been affected",
+            "unit": "reported relative association",
+            "period": "2026 report; scam channels, worry, and consumer switching"
+          }
+        }
+      }
+    },
+    {
+      "record_id": "bsa43-nhs-waiting-legitimacy-2026",
+      "geography": "Great Britain; BSA adult respondents, with service-performance comparisons primarily for England and historical NHS series",
+      "source_unit": "National Centre for Social Research, British Social Attitudes 43, Waiting for treatment",
+      "source_hosts": [
+        "natcen.ac.uk"
+      ],
+      "stages": {
+        "formal_response": {
+          "policy_feedback": {
+            "value": "Funding, targets, staffing, choice, migration, social care, and productivity are linked to legitimacy only when they become visible as shorter waits and reachable service",
+            "unit": "reported policy interpretation",
+            "period": "1997-2010 versus 2024-2025; resources, productivity, and visible feedback"
+          },
+          "legitimacy_route": {
+            "value": "Public satisfaction can recover over years when system performance becomes visibly better, but post-pandemic legitimacy remains historically weak",
+            "unit": "reported longitudinal pattern",
+            "period": "1983-2025; overall NHS satisfaction and dissatisfaction"
+          }
+        },
+        "implementation_gap": {
+          "waiting_as_hidden_price": {
+            "value": "Access time is experienced as a system cost and a visible test of whether public provision is reachable",
+            "unit": "reported interpretive mechanism",
+            "period": "2023-2025; waiting as the dominant dissatisfaction route"
+          },
+          "quality_access_split": {
+            "value": "The public can remain more positive about care quality than about the time and route required to reach care",
+            "unit": "reported contrast",
+            "period": "2010-2025; quality and access diverge across NHS services"
+          }
+        },
+        "recovery_or_trust": {}
+      }
+    }
+  ],
+  "independent_source_families": [
+    "GSMA",
+    "National Centre for Social Research / British Social Attitudes"
+  ],
+  "supports": [
+    "independent mechanism challenge",
+    "counter-signal design",
+    "candidate outcome vocabulary"
+  ],
+  "does_not_support": [
+    "pooled prevalence",
+    "common-unit effect estimate",
+    "formal-response causal claim",
+    "company exposure"
+  ],
+  "blocking_items": [
+    "different populations and geographies",
+    "survey definitions and periods differ",
+    "no common denominator or holdout",
+    "publisher/study lineage still needs review"
+  ],
+  "next_action": "Use the shared unresolved/recovery/trust vocabulary to acquire a genuinely comparable repeated measure before any backtest or promotion.",
+  "boundary": "Independent publishers can challenge a mechanism without making unlike survey and case measures numerically comparable."
+}
