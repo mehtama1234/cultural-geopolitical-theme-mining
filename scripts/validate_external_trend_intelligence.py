@@ -273,12 +273,19 @@ def main() -> int:
     assert ibis_review["sample_industry_count"] == 100
     assert ibis_review["independence_status"] == "not_qualified"
     assert ibis_review["outcome_validation_status"] == "not_observed_in_traceability_sample"
+    ibis_force_map = json.loads((ANALYSIS / "ibis-force-claim-map.json").read_text())
+    assert ibis_force_map["schema"] == "external-trend-intelligence.ibis-force-claim-map.v1"
+    assert ibis_force_map["force_count"] == len(ibis_force_map["forces"]) == 6
+    assert ibis_force_map["aggregate"]["declared_source_id_count"] == 21
+    assert ibis_force_map["aggregate"]["claim_reference_count"] > 0
+    assert all(force["falsifiers"] and force["outcome_measure_candidates"] for force in ibis_force_map["forces"])
+    assert all(force["review_status"] == "held_claim_level_lineage_and_independence" for force in ibis_force_map["forces"])
     refresh_history = json.loads((ANALYSIS / "refresh-history.json").read_text())
     assert refresh_history["schema"] == "external-trend-intelligence.refresh-history.v1"
     assert refresh_history["run_count"] >= 1
     assert refresh_history["latest"]["record_count"] == 2134
     assert refresh_history["latest"]["parse_error_count"] == 0
-    assert refresh_history["latest"]["pipeline_step_count"] == 43
+    assert refresh_history["latest"]["pipeline_step_count"] == 44
     assert refresh_history["latest"]["pipeline_status"] == "passed"
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
@@ -310,7 +317,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 66
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 67
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     assert any(item["path"] == ".github/workflows/external-observatory-refresh.yml" for item in release_manifest["artifacts"])
@@ -418,7 +425,7 @@ def main() -> int:
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
     assert progress["baseline"]["records"] == 2134
     assert progress["baseline"]["qualified_external_trends"] == 0
-    assert progress["baseline"]["release_artifacts"] == 66
+    assert progress["baseline"]["release_artifacts"] == 67
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
@@ -431,7 +438,7 @@ def main() -> int:
     assert scorecard["schema"] == "external-trend-intelligence.program-scorecard.v1"
     assert scorecard["metrics"]["records"] == 2134
     assert scorecard["metrics"]["source_families"] == 8
-    assert scorecard["metrics"]["latest_pipeline_steps"] == 43
+    assert scorecard["metrics"]["latest_pipeline_steps"] == 44
     assert scorecard["metrics"]["latest_pipeline_status"] == "passed"
     assert scorecard["metrics"]["scheduled_workflow_contract"] == "passed"
     assert scorecard["metrics"]["refresh_runs"] == refresh_history["run_count"]

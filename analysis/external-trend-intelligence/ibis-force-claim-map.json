@@ -1,0 +1,1156 @@
+{
+  "schema": "external-trend-intelligence.ibis-force-claim-map.v1",
+  "purpose": "Claim-level lineage map for the pinned IBIS cross-industry force register.",
+  "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+  "source_path": "cross_industry_trends_2025_2026.json",
+  "force_count": 6,
+  "record_count_scanned": 1491,
+  "forces": [
+    {
+      "force_id": "force_power_constrained_compute",
+      "title": "Compute growth meets power and infrastructure scarcity",
+      "categories": [
+        "technology",
+        "infrastructure",
+        "geopolitical",
+        "regulatory"
+      ],
+      "thesis": "AI, cloud, and digital workloads are shifting competitive advantage from access to compute toward access to energized, permitted, cooled, connected capacity.",
+      "causal_chain": [
+        "AI and digital demand increases compute requirements",
+        "compute demand increases electricity and cooling load",
+        "grid and interconnection constraints lengthen project timelines",
+        "scarce energized capacity gains pricing and strategic value",
+        "utilities, communities, and regulators demand clearer cost and resource allocation"
+      ],
+      "affected_industries": [
+        "data-center-colocation-services-in-the-us",
+        "hospital-construction",
+        "industrial-machinery-and-equipment-wholesaling-in-the-us",
+        "industrial-supplies-wholesaling-in-the-us",
+        "identity-management-software-in-the-us"
+      ],
+      "leading_indicators": [
+        "contracted versus deliverable MW",
+        "interconnection queue duration",
+        "substation and transmission milestones",
+        "PUE and cooling mix",
+        "local permitting outcomes",
+        "customer pre-commitments"
+      ],
+      "outcome_measure_candidates": [
+        "contracted versus deliverable MW",
+        "interconnection queue duration",
+        "substation and transmission milestones",
+        "PUE and cooling mix",
+        "local permitting outcomes",
+        "customer pre-commitments"
+      ],
+      "decision_questions": [
+        "Is capacity actually energized on the promised date?",
+        "Who absorbs tariff, curtailment, and construction risk?",
+        "Does the project have local legitimacy as well as technical feasibility?"
+      ],
+      "falsifiers": [
+        "AI demand does not convert into contracted capacity",
+        "power prices and construction costs permanently outrun achievable pricing",
+        "customers increasingly self-build rather than use colocation"
+      ],
+      "confidence": "medium",
+      "source_ids_declared": [
+        "src_15929",
+        "src_15930",
+        "src_15931",
+        "src_15932"
+      ],
+      "sources": [
+        {
+          "id": "src_15929",
+          "title": "AEO2026: Data Center Electricity Use",
+          "publisher": "U.S. Energy Information Administration",
+          "url": "https://www.eia.gov/TODAYINENERGY/detail.php?id=67704",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_15930",
+          "title": "United States Data Center Energy Usage Report: 2025 Update",
+          "publisher": "U.S. Department of Energy",
+          "url": "https://www.energy.gov/documents/united-states-data-center-energy-usage-report-2025-update",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_15931",
+          "title": "Large-Load Interconnection: FERC RM26-4",
+          "publisher": "Federal Energy Regulatory Commission",
+          "url": "https://www.ferc.gov/rm26-4",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        }
+      ],
+      "unresolved_source_ids": [
+        "src_15932"
+      ],
+      "claim_reference_count": 5,
+      "claim_type_counts": {
+        "estimate": 1,
+        "fact": 2,
+        "forecast": 2
+      },
+      "claim_references": [
+        {
+          "industry_slug": "data-center-colocation-services-in-the-us",
+          "industry_title": "Data Center Colocation Services",
+          "industry_sector": "Information Infrastructure",
+          "claim_id": "dc-2023-electricity",
+          "claim_text": "U.S. data centers used an estimated 176 TWh of electricity in 2023, approximately 4.4% of total U.S. electricity use.",
+          "claim_type": "fact",
+          "period": "2023",
+          "confidence": "high",
+          "source_ids": [
+            "src_15930"
+          ]
+        },
+        {
+          "industry_slug": "data-center-colocation-services-in-the-us",
+          "industry_title": "Data Center Colocation Services",
+          "industry_sector": "Information Infrastructure",
+          "claim_id": "dc-2024-25-growth",
+          "claim_text": "The DOE 2025 update describes 22% reference-case data-center electricity growth from 2024 to 2025.",
+          "claim_type": "forecast",
+          "period": "2024-2025",
+          "confidence": "high",
+          "source_ids": [
+            "src_15930"
+          ]
+        },
+        {
+          "industry_slug": "data-center-colocation-services-in-the-us",
+          "industry_title": "Data Center Colocation Services",
+          "industry_sector": "Information Infrastructure",
+          "claim_id": "dc-2025-commercial-share",
+          "claim_text": "EIA's AEO2026 estimates data-center server electricity at 7% of commercial-sector electricity in 2025.",
+          "claim_type": "estimate",
+          "period": "2025",
+          "confidence": "high",
+          "source_ids": [
+            "src_15929"
+          ]
+        },
+        {
+          "industry_slug": "data-center-colocation-services-in-the-us",
+          "industry_title": "Data Center Colocation Services",
+          "industry_sector": "Information Infrastructure",
+          "claim_id": "dc-2050-range",
+          "claim_text": "EIA's AEO2026 cases project 446 to 818 billion kWh of data-center server electricity use in 2050.",
+          "claim_type": "forecast",
+          "period": "2050",
+          "confidence": "high",
+          "source_ids": [
+            "src_15929"
+          ]
+        },
+        {
+          "industry_slug": "data-center-colocation-services-in-the-us",
+          "industry_title": "Data Center Colocation Services",
+          "industry_sector": "Information Infrastructure",
+          "claim_id": "dc-ferc-large-load",
+          "claim_text": "FERC's RM26-4 proceeding addresses large-load interconnection issues relevant to data centers and other loads generally above 20 MW.",
+          "claim_type": "fact",
+          "period": "2026",
+          "confidence": "high",
+          "source_ids": [
+            "src_15931"
+          ]
+        }
+      ],
+      "publisher_count": 3,
+      "publisher_names": [
+        "Federal Energy Regulatory Commission",
+        "U.S. Department of Energy",
+        "U.S. Energy Information Administration"
+      ],
+      "source_type_counts": {
+        "government": 3
+      },
+      "source_url_count": 3,
+      "source_host_count": 3,
+      "source_hosts": [
+        "www.eia.gov",
+        "www.energy.gov",
+        "www.ferc.gov"
+      ],
+      "review_status": "held_claim_level_lineage_and_independence"
+    },
+    {
+      "force_id": "force_care_labor_demography",
+      "title": "Aging expands demand while labor becomes the scarce input",
+      "categories": [
+        "demographic",
+        "social",
+        "labor",
+        "healthcare",
+        "regulatory"
+      ],
+      "thesis": "An older population increases care demand, but the economic bottleneck is the availability, retention, supervision, and productivity of caregivers and other frontline workers.",
+      "causal_chain": [
+        "more older adults and chronic-care needs increase service demand",
+        "families prefer or require care at home",
+        "labor scarcity limits filled service hours",
+        "wages, travel time, scheduling, and supervision pressure margins",
+        "operators invest in density, training, technology, and compliance systems"
+      ],
+      "affected_industries": [
+        "in-home-senior-care-franchises",
+        "hospital-construction",
+        "hospitals-in-the-us",
+        "online-medical-supplies-sales",
+        "medical-device-manufacturing-in-the-us",
+        "fast-food-restaurants-in-the-us",
+        "credit-unions-in-the-us"
+      ],
+      "leading_indicators": [
+        "filled versus requested hours",
+        "caregiver turnover",
+        "wage and travel-time pressure",
+        "authorization delays",
+        "quality incidents",
+        "age-65 population and household caregiver burden"
+      ],
+      "outcome_measure_candidates": [
+        "filled versus requested hours",
+        "caregiver turnover",
+        "wage and travel-time pressure",
+        "authorization delays",
+        "quality incidents",
+        "age-65 population and household caregiver burden"
+      ],
+      "decision_questions": [
+        "Can the operator recruit and retain enough labor to serve new customers?",
+        "Who pays for compliance administration?",
+        "Does growth improve density or merely add geographically dispersed work?"
+      ],
+      "falsifiers": [
+        "automation materially reduces frontline labor needs",
+        "family or institutional care substitutes for home care faster than demographic demand grows",
+        "payer rates rise enough to remove labor pressure"
+      ],
+      "confidence": "medium",
+      "source_ids_declared": [
+        "src_10423",
+        "src_15925",
+        "src_15926",
+        "src_15928"
+      ],
+      "sources": [
+        {
+          "id": "src_10423",
+          "title": "Industry and occupational employment projections overview",
+          "publisher": "Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/opub/mlr/2026/article/industry-and-occupational-employment-projections-overview.htm",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-22",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_15925",
+          "title": "ACS 2024 S0103 Population 65 Years and Over",
+          "publisher": "U.S. Census Bureau",
+          "url": "https://data.census.gov/cedsci/table?q=s0103",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_15926",
+          "title": "CY 2025 Home Health PPS Final Rule Fact Sheet",
+          "publisher": "Centers for Medicare & Medicaid Services",
+          "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2025-home-health-prospective-payment-system-final-rule-fact-sheet-cms-1803-f",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_15928",
+          "title": "Medicaid Scorecard: Home and Community-Based Services",
+          "publisher": "Centers for Medicare & Medicaid Services",
+          "url": "https://www.medicaid.gov/state-overviews/scorecard/main",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        }
+      ],
+      "unresolved_source_ids": [],
+      "claim_reference_count": 8,
+      "claim_type_counts": {
+        "fact": 4,
+        "forecast": 1,
+        "hypothesis": 3
+      },
+      "claim_references": [
+        {
+          "industry_slug": "in-home-senior-care-franchises",
+          "industry_title": "In-Home Senior Care Franchises",
+          "industry_sector": "Healthcare",
+          "claim_id": "care-older-population",
+          "claim_text": "The U.S. population age 65 and older was 61,245,283 in the 2024 ACS 1-year estimates.",
+          "claim_type": "fact",
+          "period": "2024",
+          "confidence": "high",
+          "source_ids": [
+            "src_15925"
+          ]
+        },
+        {
+          "industry_slug": "in-home-senior-care-franchises",
+          "industry_title": "In-Home Senior Care Franchises",
+          "industry_sector": "Healthcare",
+          "claim_id": "care-aide-employment",
+          "claim_text": "Home health and personal care aides represented approximately 4.3477 million jobs in 2024.",
+          "claim_type": "fact",
+          "period": "2024",
+          "confidence": "high",
+          "source_ids": [
+            "src_10423"
+          ]
+        },
+        {
+          "industry_slug": "in-home-senior-care-franchises",
+          "industry_title": "In-Home Senior Care Franchises",
+          "industry_sector": "Healthcare",
+          "claim_id": "care-aide-growth",
+          "claim_text": "BLS projects 739,800 additional home health and personal care aide jobs from 2024 to 2034, or 17.0% growth.",
+          "claim_type": "forecast",
+          "period": "2024-2034",
+          "confidence": "high",
+          "source_ids": [
+            "src_10423"
+          ]
+        },
+        {
+          "industry_slug": "in-home-senior-care-franchises",
+          "industry_title": "In-Home Senior Care Franchises",
+          "industry_sector": "Healthcare",
+          "claim_id": "care-payment-update",
+          "claim_text": "CMS reported a 2.7% CY 2025 home-health market-basket update, with a 0.7% update for agencies that do not submit required quality data.",
+          "claim_type": "fact",
+          "period": "2025",
+          "confidence": "high",
+          "source_ids": [
+            "src_15926"
+          ]
+        },
+        {
+          "industry_slug": "in-home-senior-care-franchises",
+          "industry_title": "In-Home Senior Care Franchises",
+          "industry_sector": "Healthcare",
+          "claim_id": "care-hcbs",
+          "claim_text": "The Medicaid scorecard reported 51 states and territories delivering HCBS through any authority as of May 31, 2025.",
+          "claim_type": "fact",
+          "period": "2025-05-31",
+          "confidence": "high",
+          "source_ids": [
+            "src_15928"
+          ]
+        },
+        {
+          "industry_slug": "trade-and-technical-schools-in-the-us",
+          "industry_title": "Trade & Technical Schools in the US",
+          "industry_sector": "Business Services",
+          "claim_id": "tradeschool-demand",
+          "claim_text": "IPEDS participation, education revenue, occupational projections, workforce funding, and public school activity create demand channels for technical education, but program-level demand and outcomes remain evidence debt.",
+          "claim_type": "hypothesis",
+          "period": "2026-2030",
+          "confidence": "low",
+          "source_ids": [
+            "src_10423"
+          ]
+        },
+        {
+          "industry_slug": "trade-and-technical-schools-in-the-us",
+          "industry_title": "Trade & Technical Schools in the US",
+          "industry_sector": "Business Services",
+          "claim_id": "tradeschool-supply",
+          "claim_text": "Employer occupational change, equipment, instructors, labs, and workforce programs shape technical-school capacity and program relevance.",
+          "claim_type": "hypothesis",
+          "period": "2026-2030",
+          "confidence": "low",
+          "source_ids": [
+            "src_10423"
+          ]
+        },
+        {
+          "industry_slug": "trade-and-technical-schools-in-the-us",
+          "industry_title": "Trade & Technical Schools in the US",
+          "industry_sector": "Business Services",
+          "claim_id": "tradeschool-macro",
+          "claim_text": "Tuition, education revenue, prices, aid, wages, employment, rates, and student debt are likely drivers of school enrollment, cash, and viability.",
+          "claim_type": "hypothesis",
+          "period": "2026-2030",
+          "confidence": "low",
+          "source_ids": [
+            "src_10423"
+          ]
+        }
+      ],
+      "publisher_count": 3,
+      "publisher_names": [
+        "Bureau of Labor Statistics",
+        "Centers for Medicare & Medicaid Services",
+        "U.S. Census Bureau"
+      ],
+      "source_type_counts": {
+        "government": 4
+      },
+      "source_url_count": 4,
+      "source_host_count": 4,
+      "source_hosts": [
+        "data.census.gov",
+        "www.bls.gov",
+        "www.cms.gov",
+        "www.medicaid.gov"
+      ],
+      "review_status": "held_claim_level_lineage_and_independence"
+    },
+    {
+      "force_id": "force_trade_fragmentation",
+      "title": "Geopolitical fragmentation turns procurement into strategy",
+      "categories": [
+        "geopolitical",
+        "trade",
+        "industrial",
+        "financial",
+        "regulatory"
+      ],
+      "thesis": "Tariffs, export controls, reshoring, sanctions, and supply-chain diversification make sourcing, inventory, and supplier concentration part of the competitive strategy rather than back-office purchasing.",
+      "causal_chain": [
+        "geopolitical tension changes trade access and input prices",
+        "landed cost and lead-time uncertainty increase",
+        "buyers diversify suppliers or hold more inventory",
+        "working capital and qualification costs rise",
+        "domestic capacity, distribution, repair, and compliance services gain value"
+      ],
+      "affected_industries": [
+        "hybrid-and-electric-vehicle-manufacturing",
+        "industrial-machinery-and-equipment-wholesaling-in-the-us",
+        "industrial-supplies-wholesaling-in-the-us",
+        "hospital-construction",
+        "hospitals-in-the-us",
+        "online-medical-supplies-sales",
+        "medical-device-manufacturing-in-the-us",
+        "fast-food-restaurants-in-the-us"
+      ],
+      "leading_indicators": [
+        "tariff and customs changes",
+        "supplier concentration",
+        "lead times",
+        "inventory days",
+        "domestic-content requirements",
+        "expedite and substitution rates"
+      ],
+      "outcome_measure_candidates": [
+        "tariff and customs changes",
+        "supplier concentration",
+        "lead times",
+        "inventory days",
+        "domestic-content requirements",
+        "expedite and substitution rates"
+      ],
+      "decision_questions": [
+        "Can pricing pass through input shocks?",
+        "What is the cash cost of redundancy?",
+        "Does the company know the origin and compliance status of critical inputs?"
+      ],
+      "falsifiers": [
+        "trade tensions ease and price dominates resilience",
+        "customers refuse to pay for redundancy",
+        "domestic capacity cannot reach competitive quality or scale"
+      ],
+      "confidence": "low",
+      "source_ids_declared": [
+        "src_00168",
+        "src_00169",
+        "src_01532",
+        "src_03168"
+      ],
+      "sources": [
+        {
+          "id": "src_00168",
+          "title": "Tariffs and Geopolitics Impacting Commodities",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/4-ways-tariffs-geopolitics-impacting-095218307.html",
+          "source_type": "news",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "global and US context",
+          "evidence_quality": "secondary"
+        },
+        {
+          "id": "src_00169",
+          "title": "Tariffs and Geopolitics Impacting Commodity Markets",
+          "publisher": "Supply Chain Dive",
+          "url": "https://www.supplychaindive.com/news/4-ways-tariffs-and-geopolitics-impacting-commodity-markets/825482/",
+          "source_type": "news",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "global and US context",
+          "evidence_quality": "secondary"
+        },
+        {
+          "id": "src_03168",
+          "title": "Electric Vehicles and Automotive Supply Chain",
+          "publisher": "source inventory",
+          "url": "https://www.pwc.com/us/en/industries/industrial-products/library/electric-vehicles-supply-chain.html",
+          "source_type": "other",
+          "published_at": null,
+          "retrieved_at": "2026-10-20",
+          "geography": "United States",
+          "evidence_quality": "secondary"
+        }
+      ],
+      "unresolved_source_ids": [
+        "src_01532"
+      ],
+      "claim_reference_count": 5,
+      "claim_type_counts": {
+        "estimate": 4,
+        "interpretation": 1
+      },
+      "claim_references": [
+        {
+          "industry_slug": "auto-parts-remanufacturing",
+          "industry_title": "US Auto Parts Remanufacturing Industry: Current State 2025-2026",
+          "industry_sector": "Manufacturing",
+          "claim_id": "reman-structure",
+          "claim_text": "EV batteries, circularity, tariffs, supplier stress, aftermarket consolidation, bankruptcies, quality, and repairability reshape US auto-parts remanufacturing competition and resilience.",
+          "claim_type": "estimate",
+          "period": "2025-2026",
+          "confidence": "medium",
+          "source_ids": [
+            "src_03168"
+          ]
+        },
+        {
+          "industry_slug": "auto-parts-wholesaling-in-the-us",
+          "industry_title": "US Auto Parts Wholesaling 2025-2026",
+          "industry_sector": "Business Services",
+          "claim_id": "wholesale-demand",
+          "claim_text": "US auto-parts wholesale demand is shaped by aging vehicles, repair volumes, fleet miles, aftermarket growth, collision, dealer service, e-commerce, and replacement needs.",
+          "claim_type": "estimate",
+          "period": "2025-2026",
+          "confidence": "medium",
+          "source_ids": [
+            "src_03168"
+          ]
+        },
+        {
+          "industry_slug": "auto-parts-wholesaling-in-the-us",
+          "industry_title": "US Auto Parts Wholesaling 2025-2026",
+          "industry_sector": "Business Services",
+          "claim_id": "wholesale-structure",
+          "claim_text": "Aftermarket consolidation, e-commerce, EV supply chains, tariffs, bankruptcies, automation, private label, and right-to-repair reshape US auto-parts wholesale competition and resilience.",
+          "claim_type": "estimate",
+          "period": "2025-2026",
+          "confidence": "medium",
+          "source_ids": [
+            "src_03168"
+          ]
+        },
+        {
+          "industry_slug": "commodity-dealing-and-brokerage-in-the-us",
+          "industry_title": "Commodity Dealing and Brokerage in the US",
+          "industry_sector": "Finance & Insurance",
+          "claim_id": "commodity-geopolitics",
+          "claim_text": "Energy, supply-chain, and macro sources identify geopolitical tension, tariffs, weather, and trade uncertainty as drivers of commodity volatility and hedging demand.",
+          "claim_type": "interpretation",
+          "period": "2025-2026",
+          "confidence": "medium",
+          "source_ids": [
+            "src_00168",
+            "src_00169"
+          ]
+        },
+        {
+          "industry_slug": "engine-rebuilding-and-remanufacturing",
+          "industry_title": "US US Engine Rebuilding & Remanufacturing Industry (2025-2026) Industry: Current State 2025-2026",
+          "industry_sector": "Manufacturing",
+          "claim_id": "reman-structure",
+          "claim_text": "EV batteries, circularity, tariffs, supplier stress, aftermarket consolidation, bankruptcies, quality, and repairability reshape US auto-engine components remanufacturing competition and resilience.",
+          "claim_type": "estimate",
+          "period": "2025-2026",
+          "confidence": "medium",
+          "source_ids": [
+            "src_03168"
+          ]
+        }
+      ],
+      "publisher_count": 3,
+      "publisher_names": [
+        "Supply Chain Dive",
+        "Yahoo Finance",
+        "source inventory"
+      ],
+      "source_type_counts": {
+        "news": 2,
+        "other": 1
+      },
+      "source_url_count": 3,
+      "source_host_count": 3,
+      "source_hosts": [
+        "finance.yahoo.com",
+        "www.pwc.com",
+        "www.supplychaindive.com"
+      ],
+      "review_status": "held_claim_level_lineage_and_independence"
+    },
+    {
+      "force_id": "force_compliance_as_fixed_cost",
+      "title": "Compliance becomes a fixed operating system",
+      "categories": [
+        "regulatory",
+        "legal",
+        "cybersecurity",
+        "institutional_trust",
+        "technology"
+      ],
+      "thesis": "Privacy, cybersecurity, safety, quality, licensing, payer, and reporting expectations increasingly require repeatable systems; the burden is disproportionately heavy for small operators.",
+      "causal_chain": [
+        "more data, liability, and institutional scrutiny increase required controls",
+        "controls require people, software, documentation, audits, and incident response",
+        "fixed compliance cost spreads better across scale",
+        "smaller operators outsource, specialize, or exit",
+        "compliant platforms gain a moat and compliance vendors gain a market"
+      ],
+      "affected_industries": [
+        "identity-management-software-in-the-us",
+        "credit-unions-in-the-us",
+        "in-home-senior-care-franchises",
+        "data-center-colocation-services-in-the-us",
+        "hospital-construction",
+        "hospitals-in-the-us",
+        "online-medical-supplies-sales",
+        "medical-device-manufacturing-in-the-us"
+      ],
+      "leading_indicators": [
+        "audit findings",
+        "insurance exclusions and premiums",
+        "customer security questionnaires",
+        "regulatory enforcement",
+        "vendor concentration",
+        "time spent on documentation"
+      ],
+      "outcome_measure_candidates": [
+        "audit findings",
+        "insurance exclusions and premiums",
+        "customer security questionnaires",
+        "regulatory enforcement",
+        "vendor concentration",
+        "time spent on documentation"
+      ],
+      "decision_questions": [
+        "Which controls protect revenue versus merely satisfy paperwork?",
+        "Can the compliance system scale with locations and customers?",
+        "Who owns the evidence when a regulator, lender, or customer asks?"
+      ],
+      "falsifiers": [
+        "requirements simplify materially",
+        "customers stop valuing assurance",
+        "automation reduces control cost faster than obligations expand"
+      ],
+      "confidence": "medium",
+      "source_ids_declared": [
+        "src_15923",
+        "src_15924",
+        "src_15927",
+        "src_15931"
+      ],
+      "sources": [
+        {
+          "id": "src_15923",
+          "title": "NCUA Cyber Incident Reporting Guide",
+          "publisher": "NCUA",
+          "url": "https://ncua.gov/regulation-supervision/regulatory-compliance-resources/cybersecurity-resources/cyber-incident-reporting-guide",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_15924",
+          "title": "NCUA Risk-Based Capital Rule Resources",
+          "publisher": "NCUA",
+          "url": "https://ncua.gov/regulation-supervision/regulatory-compliance-resources/risk-based-capital-rule-resources",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_15931",
+          "title": "Large-Load Interconnection: FERC RM26-4",
+          "publisher": "Federal Energy Regulatory Commission",
+          "url": "https://www.ferc.gov/rm26-4",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        }
+      ],
+      "unresolved_source_ids": [
+        "src_15927"
+      ],
+      "claim_reference_count": 3,
+      "claim_type_counts": {
+        "fact": 3
+      },
+      "claim_references": [
+        {
+          "industry_slug": "credit-unions-in-the-us",
+          "industry_title": "Credit Unions in the US",
+          "industry_sector": "Finance & Insurance",
+          "claim_id": "cu-cyber-reporting",
+          "claim_text": "Federally insured credit unions must report qualifying cyber incidents to NCUA within 72 hours after reasonable belief.",
+          "claim_type": "fact",
+          "period": "2023 onward",
+          "confidence": "high",
+          "source_ids": [
+            "src_15923"
+          ]
+        },
+        {
+          "industry_slug": "credit-unions-in-the-us",
+          "industry_title": "Credit Unions in the US",
+          "industry_sector": "Finance & Insurance",
+          "claim_id": "cu-risk-capital",
+          "claim_text": "Complex credit unions are subject to risk-based capital requirements or an eligible alternative framework.",
+          "claim_type": "fact",
+          "period": "ongoing",
+          "confidence": "high",
+          "source_ids": [
+            "src_15924"
+          ]
+        },
+        {
+          "industry_slug": "data-center-colocation-services-in-the-us",
+          "industry_title": "Data Center Colocation Services",
+          "industry_sector": "Information Infrastructure",
+          "claim_id": "dc-ferc-large-load",
+          "claim_text": "FERC's RM26-4 proceeding addresses large-load interconnection issues relevant to data centers and other loads generally above 20 MW.",
+          "claim_type": "fact",
+          "period": "2026",
+          "confidence": "high",
+          "source_ids": [
+            "src_15931"
+          ]
+        }
+      ],
+      "publisher_count": 2,
+      "publisher_names": [
+        "Federal Energy Regulatory Commission",
+        "NCUA"
+      ],
+      "source_type_counts": {
+        "government": 3
+      },
+      "source_url_count": 3,
+      "source_host_count": 2,
+      "source_hosts": [
+        "ncua.gov",
+        "www.ferc.gov"
+      ],
+      "review_status": "held_claim_level_lineage_and_independence"
+    },
+    {
+      "force_id": "force_consumer_bifurcation_health_identity",
+      "title": "Consumers split between value, identity, health, and experience",
+      "categories": [
+        "social",
+        "cultural",
+        "consumer",
+        "health",
+        "financial"
+      ],
+      "thesis": "Consumers are not simply trading down or up; they are reallocating spending toward categories that signal health, identity, convenience, belonging, or experience while becoming more price-sensitive in routine categories.",
+      "causal_chain": [
+        "household budgets face recurring cost pressure",
+        "consumers protect meaningful or identity-linked purchases",
+        "routine categories face substitution and private-label pressure",
+        "businesses segment offers, formats, channels, and experience",
+        "brand trust and cultural relevance become operating assets"
+      ],
+      "affected_industries": [
+        "fast-food-restaurants-in-the-us",
+        "hybrid-and-electric-vehicle-manufacturing",
+        "in-home-senior-care-franchises",
+        "industrial-supplies-wholesaling-in-the-us",
+        "hospitals-in-the-us",
+        "online-medical-supplies-sales",
+        "medical-device-manufacturing-in-the-us"
+      ],
+      "leading_indicators": [
+        "traffic versus ticket",
+        "mix by price tier",
+        "repeat rate",
+        "private-label share",
+        "health and convenience claims",
+        "customer sentiment by segment"
+      ],
+      "outcome_measure_candidates": [
+        "traffic versus ticket",
+        "mix by price tier",
+        "repeat rate",
+        "private-label share",
+        "health and convenience claims",
+        "customer sentiment by segment"
+      ],
+      "decision_questions": [
+        "Is the offer meaningfully cheaper, better, healthier, faster, or more identity-relevant?",
+        "Can the business serve value and premium customers without confusing its brand?",
+        "Which costs are visible to the customer and which are silently eroding margin?"
+      ],
+      "falsifiers": [
+        "income growth broadens enough to restore middle-market demand",
+        "consumer preferences converge rather than fragment",
+        "brand and experience fail to change willingness to pay"
+      ],
+      "confidence": "low",
+      "source_ids_declared": [
+        "src_11919",
+        "src_13258",
+        "src_15533"
+      ],
+      "sources": [
+        {
+          "id": "src_11919",
+          "title": "Bureau of Labor Statistics Consumer Price Index News Release, June 2026",
+          "publisher": "US Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/archives/cpi_07142026.htm",
+          "source_type": "government",
+          "published_at": "2026-07-14",
+          "retrieved_at": "2026-10-21",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_13258",
+          "title": "Consumer Price Index",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/cpi.htm?lv=true",
+          "source_type": "government",
+          "retrieved_at": "2026-10-22"
+        },
+        {
+          "id": "src_15533",
+          "title": "Consumer Price Index",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/cpi/'",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-22",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        }
+      ],
+      "unresolved_source_ids": [],
+      "claim_reference_count": 5,
+      "claim_type_counts": {
+        "estimate": 2,
+        "fact": 2,
+        "interpretation": 1
+      },
+      "claim_references": [
+        {
+          "industry_slug": "egg-and-poultry-wholesaling-in-the-us",
+          "industry_title": "Egg & Poultry Wholesaling in the US",
+          "industry_sector": "Food & Drink",
+          "claim_id": "poultry-market",
+          "claim_text": "USDA outlooks, NASS production data, and BLS price data show active production, price, and market-cycle variables affecting egg and poultry wholesalers.",
+          "claim_type": "fact",
+          "period": "2025-2026",
+          "confidence": "high",
+          "source_ids": [
+            "src_15533"
+          ]
+        },
+        {
+          "industry_slug": "egg-and-poultry-wholesaling-in-the-us",
+          "industry_title": "Egg & Poultry Wholesaling in the US",
+          "industry_sector": "Food & Drink",
+          "claim_id": "poultry-economics",
+          "claim_text": "Wholesale returns depend on procurement, product mix, cold chain, route density, customer terms, perishability, disease exposure, and working capital.",
+          "claim_type": "interpretation",
+          "period": "2025-2030",
+          "confidence": "medium",
+          "source_ids": [
+            "src_15533"
+          ]
+        },
+        {
+          "industry_slug": "health-and-wellness-spas",
+          "industry_title": "Health & Wellness Spas — 2025-2026 Industry Brief",
+          "industry_sector": "Consumer Services",
+          "claim_id": "labor",
+          "claim_text": "ISPA reported 376,900 spa employees in January 2026 and identified staffing as the leading operating challenge; BLS reported personal-care service prices up 4.4% year over year in June 2026.",
+          "claim_type": "fact",
+          "period": null,
+          "confidence": null,
+          "source_ids": [
+            "src_13258"
+          ]
+        },
+        {
+          "industry_slug": "womens-girls-and-infants-apparel-manufacturing-in-the-us",
+          "industry_title": "Women's, Girls' and Infants' Apparel Manufacturing in the US",
+          "industry_sector": "Manufacturing",
+          "claim_id": "apparel-demand",
+          "claim_text": "Women's, girls', and infants' apparel manufacturing demand depends on consumer spending, fashion cycles, retail sell-through, seasonality, and replenishment behavior.",
+          "claim_type": "estimate",
+          "period": "2024-2026",
+          "confidence": "medium",
+          "source_ids": [
+            "src_11919"
+          ]
+        },
+        {
+          "industry_slug": "womens-girls-and-infants-apparel-manufacturing-in-the-us",
+          "industry_title": "Women's, Girls' and Infants' Apparel Manufacturing in the US",
+          "industry_sector": "Manufacturing",
+          "claim_id": "apparel-mix",
+          "claim_text": "Value pressure, promotion, category shifts, and selective premium or quality demand affect apparel assortment, pricing, and manufacturer orders.",
+          "claim_type": "estimate",
+          "period": "2025-2026",
+          "confidence": "medium",
+          "source_ids": [
+            "src_11919"
+          ]
+        }
+      ],
+      "publisher_count": 2,
+      "publisher_names": [
+        "U.S. Bureau of Labor Statistics",
+        "US Bureau of Labor Statistics"
+      ],
+      "source_type_counts": {
+        "government": 3
+      },
+      "source_url_count": 3,
+      "source_host_count": 1,
+      "source_hosts": [
+        "www.bls.gov"
+      ],
+      "review_status": "held_claim_level_lineage_and_independence"
+    },
+    {
+      "force_id": "force_capital_selectivity_consolidation",
+      "title": "Capital selectivity accelerates consolidation and operating discipline",
+      "categories": [
+        "financial",
+        "business-model",
+        "technology",
+        "regulatory"
+      ],
+      "thesis": "When capital is expensive or selective, businesses with recurring revenue, pricing power, compliance infrastructure, and measurable unit economics gain access while fragile independents face acquisition, restructuring, or exit.",
+      "causal_chain": [
+        "financing and labor costs pressure free cash flow",
+        "buyers and lenders demand visibility and controls",
+        "scale lowers procurement, technology, and compliance cost",
+        "fragmented businesses consolidate or specialize",
+        "local market knowledge remains valuable where service density and trust matter"
+      ],
+      "affected_industries": [
+        "credit-unions-in-the-us",
+        "in-home-senior-care-franchises",
+        "fast-food-restaurants-in-the-us",
+        "industrial-machinery-and-equipment-wholesaling-in-the-us",
+        "identity-management-software-in-the-us",
+        "hospitals-in-the-us",
+        "medical-device-manufacturing-in-the-us",
+        "online-medical-supplies-sales"
+      ],
+      "leading_indicators": [
+        "interest coverage",
+        "working-capital turns",
+        "customer concentration",
+        "same-unit growth",
+        "acquisition multiples",
+        "owner succession",
+        "audit and compliance readiness"
+      ],
+      "outcome_measure_candidates": [
+        "interest coverage",
+        "working-capital turns",
+        "customer concentration",
+        "same-unit growth",
+        "acquisition multiples",
+        "owner succession",
+        "audit and compliance readiness"
+      ],
+      "decision_questions": [
+        "Does scale improve the actual unit economics?",
+        "Can the platform integrate people, systems, and compliance?",
+        "Is the seller’s margin real after normalized labor, maintenance, and working capital?"
+      ],
+      "falsifiers": [
+        "capital becomes broadly cheap",
+        "small operators regain bargaining power through local specialization",
+        "integration costs destroy the expected scale advantage"
+      ],
+      "confidence": "medium",
+      "source_ids_declared": [
+        "src_15920",
+        "src_15921",
+        "src_15922",
+        "src_15924"
+      ],
+      "sources": [
+        {
+          "id": "src_15920",
+          "title": "2022 Q4 Credit Union System Performance Data",
+          "publisher": "NCUA",
+          "url": "https://ncua.gov/newsroom/press-release/2023/credit-union-assets-shares-and-deposits-grow-fourth-quarter",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_15921",
+          "title": "2023 Q4 Credit Union System Performance Data",
+          "publisher": "NCUA",
+          "url": "https://ncua.gov/newsroom/press-release/2024/credit-union-assets-and-delinquencies-grow-fourth-quarter",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_15922",
+          "title": "2024 NCUA Annual Report",
+          "publisher": "NCUA",
+          "url": "https://ncua.gov/files/annual-reports/annual-report-2024.pdf",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        },
+        {
+          "id": "src_15924",
+          "title": "NCUA Risk-Based Capital Rule Resources",
+          "publisher": "NCUA",
+          "url": "https://ncua.gov/regulation-supervision/regulatory-compliance-resources/risk-based-capital-rule-resources",
+          "source_type": "government",
+          "published_at": null,
+          "retrieved_at": "2026-10-15",
+          "geography": "United States",
+          "evidence_quality": "primary"
+        }
+      ],
+      "unresolved_source_ids": [],
+      "claim_reference_count": 4,
+      "claim_type_counts": {
+        "fact": 4
+      },
+      "claim_references": [
+        {
+          "industry_slug": "credit-unions-in-the-us",
+          "industry_title": "Credit Unions in the US",
+          "industry_sector": "Finance & Insurance",
+          "claim_id": "cu-2022-assets",
+          "claim_text": "Federally insured credit-union assets were $2.17 trillion in 2022-Q4.",
+          "claim_type": "fact",
+          "period": "2022-Q4",
+          "confidence": "high",
+          "source_ids": [
+            "src_15920"
+          ]
+        },
+        {
+          "industry_slug": "credit-unions-in-the-us",
+          "industry_title": "Credit Unions in the US",
+          "industry_sector": "Finance & Insurance",
+          "claim_id": "cu-2023-assets",
+          "claim_text": "Federally insured credit-union assets were $2.26 trillion in 2023-Q4.",
+          "claim_type": "fact",
+          "period": "2023-Q4",
+          "confidence": "high",
+          "source_ids": [
+            "src_15921"
+          ]
+        },
+        {
+          "industry_slug": "credit-unions-in-the-us",
+          "industry_title": "Credit Unions in the US",
+          "industry_sector": "Finance & Insurance",
+          "claim_id": "cu-2024-assets",
+          "claim_text": "Credit-union system assets reached $2.31 trillion by December 2024.",
+          "claim_type": "fact",
+          "period": "2024-Q4",
+          "confidence": "high",
+          "source_ids": [
+            "src_15922"
+          ]
+        },
+        {
+          "industry_slug": "credit-unions-in-the-us",
+          "industry_title": "Credit Unions in the US",
+          "industry_sector": "Finance & Insurance",
+          "claim_id": "cu-risk-capital",
+          "claim_text": "Complex credit unions are subject to risk-based capital requirements or an eligible alternative framework.",
+          "claim_type": "fact",
+          "period": "ongoing",
+          "confidence": "high",
+          "source_ids": [
+            "src_15924"
+          ]
+        }
+      ],
+      "publisher_count": 1,
+      "publisher_names": [
+        "NCUA"
+      ],
+      "source_type_counts": {
+        "government": 4
+      },
+      "source_url_count": 4,
+      "source_host_count": 1,
+      "source_hosts": [
+        "ncua.gov"
+      ],
+      "review_status": "held_claim_level_lineage_and_independence"
+    }
+  ],
+  "aggregate": {
+    "declared_source_id_count": 21,
+    "resolved_source_id_count": 18,
+    "unresolved_source_id_count": 3,
+    "claim_reference_count": 30,
+    "publisher_count": 12,
+    "source_url_count": 18
+  },
+  "boundary": "This map attaches force citations to claims in affected industry records. It does not establish that the forces are independent, causal, current, representative, or outcome-valid; shared publishers and synthesis dependence require separate review.",
+  "next_test": "Select one force, pre-specify an independent outcome measure and counterexample set, and review source rights, periods, units, and publisher dependence before promotion."
+}

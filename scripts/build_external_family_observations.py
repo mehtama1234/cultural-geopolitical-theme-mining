@@ -78,6 +78,9 @@ def main() -> int:
     ibis_source_inventory_path = "source_inventory.json"
     ibis_source_inventory = json.loads(show(IBIS_REPO, IBIS_REV, ibis_source_inventory_path))
     ibis_sources_by_id = {source["source_id"]: source for source in ibis_source_inventory["sources"]}
+    ibis_force_claim_map = json.loads(
+        (ROOT / "analysis" / "external-trend-intelligence" / "ibis-force-claim-map.json").read_text()
+    )
     ibis_findings_path = "cross_industry_findings_register.json"
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
     ibis_pattern_inventory_path = "cross_industry_pattern_inventory.json"
@@ -268,6 +271,9 @@ def main() -> int:
                     for source_id in force.get("source_ids", [])
                     if source_id in ibis_sources_by_id and ibis_sources_by_id[source_id].get("url")
                 }),
+                claim_map_path="ibis-force-claim-map.json",
+                claim_reference_count=ibis_force_claim_map["aggregate"]["claim_reference_count"],
+                unresolved_source_id_count=ibis_force_claim_map["aggregate"]["unresolved_source_id_count"],
                 observation_period=ibis_forces.get("metadata", {}).get("as_of", "IBIS 2025-2026 working hypothesis register"),
             ),
         ]

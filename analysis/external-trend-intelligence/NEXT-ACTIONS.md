@@ -53,7 +53,10 @@ Next test:
 
 ## Remaining medium-priority work
 
-- Map the 21 IBIS force URLs to individual force claims and outcomes.
+- Review the new [IBIS force claim map](ibis-force-claim-map.json): all 21
+  declared source IDs are recorded, 18 resolve to claim-level source records,
+  and 30 claim references are attached. Resolve the three remaining source IDs
+  (`src_15932`, `src_01532`, and `src_15927`) and add independent outcomes.
 - Map the 25 annual-report citation URLs to specific themes and companies.
 - Map the 39 Inc. opportunity URLs to the five opportunity hypotheses and
   independently test buyer demand and outcomes.
