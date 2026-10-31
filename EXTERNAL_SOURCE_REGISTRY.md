@@ -104,10 +104,11 @@ Every external observation entering the system should preserve:
 ## External-to-frontend contract
 
 The external source layer should feed normalized observations and trend records;
-the frontend should not scrape or reinterpret raw external pages. The current
-frontend contract is `analysis/company-trend-intelligence/portfolio.json`.
-Future ingestion work should add a machine-readable source-observation
-manifest with stable IDs, provenance, timestamps, and links back to the
+the frontend should not scrape or reinterpret raw external pages. The live
+external reader is `analysis/external-trend-intelligence/board.html`; the
+company-facing portfolio remains a downstream translation surface at
+`analysis/company-trend-intelligence/portfolio.json`. Machine-readable source
+observations preserve stable IDs, provenance, timestamps, and links back to the
 source packet and trend record.
 
 ## First implementation sequence
@@ -118,4 +119,9 @@ source packet and trend record.
    community sources for mechanism and meaning.
 4. Run scheduled refreshes and revision checks.
 5. Generate candidate comparisons, counter-signals, and promotion queues.
+
+The initial implementation now has the source snapshot, normalized family
+intake, lineage review, held comparisons, and external board. Remaining work is
+to resolve artifact-level independence and outcome gates before any candidate
+is bridged to internal company data.
 6. Publish only promoted findings to the company-facing board.
