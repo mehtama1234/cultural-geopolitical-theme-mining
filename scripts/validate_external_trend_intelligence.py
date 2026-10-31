@@ -129,6 +129,18 @@ def main() -> int:
         assert item["target_observations"]
         assert item["status"] == "ready_for_extraction"
         assert item["boundary"]
+    family_observations = json.loads((ANALYSIS / "external-family-observations.json").read_text())
+    assert family_observations["schema"] == "external-trend-intelligence.external-family-observations.v1"
+    assert family_observations["observation_count"] == len(family_observations["observations"]) == 5
+    observation_ids = [observation["observation_id"] for observation in family_observations["observations"]]
+    assert len(set(observation_ids)) == len(observation_ids)
+    for observation in family_observations["observations"]:
+        assert observation["family_id"] in snapshot_families
+        assert observation["source_path"]
+        assert observation["source_revision"] == snapshot_families[observation["family_id"]]["revision"]
+        assert observation["title"] and observation["unit"]
+        assert observation["evidence_status"] in {"reported_candidate", "reported_queue", "reported_provenance", "reported_synthesis"}
+        assert observation["boundary"]
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage

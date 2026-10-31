@@ -50,6 +50,13 @@ The first bounded intake queue is in
 names the exact Inc. 5000 and annual-report artifacts to extract next and
 states what each artifact can—and cannot—support.
 
+The first normalized intake is in
+[`external-family-observations.json`](external-family-observations.json). It
+contains five reported observations from those pinned artifacts. They are
+deliberately not merged into the 2,131-record observation manifest yet: their
+source URLs, units, geographies, and independence still require artifact-level
+review.
+
 The later internal-data step is documented in
 [`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
 not change the meaning or status of external evidence.
