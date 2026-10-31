@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "aae0b90248321d939a4619abec1601dbd07d39c0",
+  "source_tree_commit": "91cb3e3a783cd4fdbd105ef76c5e5ec02e87ea09",
   "artifact_count": 76,
   "artifacts": [
     {
@@ -296,8 +296,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/shed-point-estimate-reproduction-audit.json",
-      "bytes": 1959,
-      "sha256": "972765fd6484d6b6221dd1cf2e8dd4c2179fd25b3408f60ed8cf64a37422c603"
+      "bytes": 2614,
+      "sha256": "756761528d73971c4e617bd6cf97c83736e8c6b0904c4241f2d4dfa2642abbfb"
     },
     {
       "path": "analysis/external-trend-intelligence/usda-temporal-holdout.json",
