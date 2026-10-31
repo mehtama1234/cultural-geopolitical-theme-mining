@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "5fe90e60bee97c71fa9d4d45fe1b226e8490a31a",
+  "source_tree_commit": "04415b5fac6a935794f5be8f67aa9a4bb2fceebd",
   "artifact_count": 77,
   "artifacts": [
     {
@@ -386,8 +386,8 @@
     },
     {
       "path": "analysis/records/comparative-jpmorgan-household-liquidity-2023.json",
-      "bytes": 3185,
-      "sha256": "5540e1c2870f5076f29051be2d351c0207d10a19c72ace173529f64d222b1927"
+      "bytes": 4464,
+      "sha256": "e3deb8b2e5f9727f3f48fa7e1e80c03b20ef24d80e9b8a5f007996c7934c6e15"
     }
   ],
   "boundary": "This release manifest proves which local reader artifacts were packaged together. It does not prove that the underlying external sources are independent, current, licensed, or outcome-valid."

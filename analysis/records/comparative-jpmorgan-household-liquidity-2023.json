@@ -20,14 +20,31 @@
     }
   ],
   "method": "JPMorganChase Institute administrative-data analysis of household cash savings, disposable income, and short-term credit capacity.",
-  "method_change_notes": "The research snapshot reports a December 2023 endpoint and a statement that the share unable to cover an unexpected expense remained steady throughout 2022 and 2023; a complete repeated numeric series is not included in the snapshot.",
+  "method_change_notes": "The official landing page adds Figure 6, a monthly line chart for January 2022 through December 2023 by income quartile, plus a text transcript describing steady levels and seasonal dips around tax-refund months. The chart is published as a raster image without a downloadable numeric table, so exact monthly values are not transcribed into this record.",
   "uncertainty": "The snapshot does not provide a reproducible public variance extract or a common denominator definition that can be pooled with SHED adult estimates or USDA household food-security estimates.",
   "counterinterpretation": "Broader liquidity access produces a materially higher coverage estimate than cash savings alone; financial room depends on the resource definition and cannot be inferred from a single cash-only measure.",
   "related_sources": [
     {"source_url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/institute/pdf/how-vulnerable-are-americans-to-unexpected-expenses-snapshot.pdf", "claim": "Official research snapshot with December 2023 household liquidity estimates.", "status": "official-source"},
-    {"source_url": "https://www.jpmorganchase.com/institute/all-topics/financial-health-wealth-creation/how-vulnerable-are-americans-to-unexpected-expenses", "claim": "Research landing page and citation context.", "status": "official-source"}
+    {"source_url": "https://www.jpmorganchase.com/institute/all-topics/household-financial-health/how-vulnerable-are-americans-to-unexpected-expenses", "claim": "Official research landing page with Figure 6 monthly chart and text transcript.", "status": "official-source"}
   ],
-  "retrieval_hash": "source_pdf_available_at_pinned_url; exact_file_hash_to_be_recorded_before_redistribution",
+  "chart_asset": {
+    "figure": "Figure 6",
+    "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/images/institute/are-americans-vulnerable-to-unexpected-expenses/are-americans-vulnerable-to-unexpected-expenses-fig6.png",
+    "period": "January 2022 through December 2023",
+    "measure": "share of households unable to cover an unexpected $400 expense, by income quartile",
+    "retrieved_on": "2026-10-31",
+    "sha256": "37dd380e3b10d202d112b1a736ef481f108d99125e074d0536bb190b7e3a32da",
+    "dimensions_px": [1070, 802],
+    "machine_readable_numeric_series": false,
+    "visible_endpoint_labels": {
+      "lowest_income_quartile": {"January 2022": 25, "December 2023": 23},
+      "second_income_quartile": {"January 2022": 7, "December 2023": 8},
+      "third_income_quartile": {"January 2022": 2, "December 2023": 2},
+      "highest_income_quartile": {"January 2022": 0, "December 2023": 0}
+    },
+    "qualitative_transcript": "Low-income inability hovers around 25 percent with seasonal dips around April; each income group remains broadly steady during 2022 and 2023."
+  },
+  "retrieval_hash": "source_pdf_available_at_pinned_url; chart_asset_sha256_pinned_above; exact_pdf_hash_recorded_in_release_manifest",
   "boundary": "This is an independent mechanism challenge, not a pooled U.S. trend estimate, causal result, qualified trend, or company exposure finding. The source snapshot carries a written republication restriction.",
   "reproduction_audit": {"status": "reported_snapshot_not_reproducible_from_public_microdata", "checked": "2026-10-31"}
 }
