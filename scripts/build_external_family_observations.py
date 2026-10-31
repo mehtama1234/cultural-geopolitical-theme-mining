@@ -87,6 +87,9 @@ def main() -> int:
     annual_report_citation_map = json.loads(
         (ROOT / "analysis" / "external-trend-intelligence" / "annual-report-citation-map.json").read_text()
     )
+    social_publication_citation_map = json.loads(
+        (ROOT / "analysis" / "external-trend-intelligence" / "social-publication-citation-map.json").read_text()
+    )
     ibis_findings_path = "cross_industry_findings_register.json"
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
     ibis_pattern_inventory_path = "cross_industry_pattern_inventory.json"
@@ -321,6 +324,10 @@ def main() -> int:
                 source_urls=social_appendix_urls,
                 source_url_status="present_in_artifact",
                 source_url_count=len(social_appendix_urls),
+                citation_map_path="social-publication-citation-map.json",
+                citation_map_raw_url_count=social_publication_citation_map["appendix_raw_url_count"],
+                theme_linked_citation_count=social_publication_citation_map["theme_linked_citation_count"],
+                theme_linked_unique_url_count=social_publication_citation_map["theme_linked_unique_url_count"],
                 observation_period=f"Social atlas generated {social_report['generated_at']}",
             ),
             record(

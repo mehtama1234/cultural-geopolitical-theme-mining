@@ -72,6 +72,11 @@ Next test:
   independently test buyer demand and outcomes.
 - Map the 89 social publication URLs to atlas claims while keeping platform
   discussion separate from prevalence.
+- The social citation map now preserves 89 raw appendix URL occurrences, 70
+  normalized URLs, and 31 theme-linked citations across ten themes. The
+  remaining URLs are explicitly unmapped; platform evidence remains bounded
+  signal until publisher lineage and independent population or outcome evidence
+  are checked.
 - Review shared URLs and hosts across observations before counting repeated
   publisher material as independent confirmation.
 

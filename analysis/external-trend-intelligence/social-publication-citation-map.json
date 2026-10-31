@@ -1,0 +1,725 @@
+{
+  "schema": "external-trend-intelligence.social-publication-citation-map.v1",
+  "source_family": "social-research",
+  "source_revision": "c2ff3e3a49129117802425514660ce4b2cf67744",
+  "source_path": "analysis/social/publication-evidence-appendix.md",
+  "atlas_report_path": "analysis/social/integrated-trend-atlas-report.json",
+  "atlas_theme_count": 11,
+  "atlas_cross_theme_finding_count": 6,
+  "appendix_raw_url_count": 89,
+  "appendix_url_count": 70,
+  "theme_linked_citation_count": 31,
+  "theme_linked_unique_url_count": 26,
+  "unmapped_url_count": 44,
+  "raw_url_normalization_count": 19,
+  "publisher_host_count": 27,
+  "theme_counts": {
+    "AI, Work, And Authority Transfer": 3,
+    "Affordability, Substitution, And Constrained Choice": 3,
+    "Climate, Resilience, And Outage Anxiety": 3,
+    "Creator Commerce And Recommendation Fatigue": 3,
+    "Education, Career Anxiety, And Reinvention": 3,
+    "Health, Body Optimization, And Self-Surveillance": 3,
+    "Industrial And Geopolitical Bottlenecks": 2,
+    "Membership, Embedded Finance, And Private Capital": 6,
+    "Ritual, Identity, And The Managed Home": 1,
+    "Trust, Proof, Scams, And Authenticity": 4
+  },
+  "rows": [
+    {
+      "theme": "Health, Body Optimization, And Self-Surveillance",
+      "label": "FDA Questions and Answers on Dietary Supplements",
+      "category": "clinical/regulatory",
+      "url": "https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements",
+      "publisher_host": "www.fda.gov",
+      "appendix_line": 147,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Health, Body Optimization, And Self-Surveillance",
+      "label": "FDA Health Fraud Product Database",
+      "category": "clinical/regulatory",
+      "url": "https://www.fda.gov/consumers/health-fraud-scams/health-fraud-product-database",
+      "publisher_host": "www.fda.gov",
+      "appendix_line": 148,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Health, Body Optimization, And Self-Surveillance",
+      "label": "NCCIH Probiotics: Usefulness and Safety",
+      "category": "clinical",
+      "url": "https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety",
+      "publisher_host": "www.nccih.nih.gov",
+      "appendix_line": 149,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Ritual, Identity, And The Managed Home",
+      "label": "USDA ERS Food Market Segments",
+      "category": "consumer_market/food",
+      "url": "https://www.ers.usda.gov/topics/food-markets-prices/food-service-industry/market-segments",
+      "publisher_host": "www.ers.usda.gov",
+      "appendix_line": 177,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Education, Career Anxiety, And Reinvention",
+      "label": "OECD A Skills-First Labour Market",
+      "category": "labor/education",
+      "url": "https://www.oecd.org/en/publications/a-skills-first-labour-market_2e1b85f0-en/full-report/positioning-skills-as-the-new-currency-of-work_40815b16.html",
+      "publisher_host": "www.oecd.org",
+      "appendix_line": 205,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Education, Career Anxiety, And Reinvention",
+      "label": "BLS Employment Projections",
+      "category": "labor/education",
+      "url": "https://www.bls.gov/emp/",
+      "publisher_host": "www.bls.gov",
+      "appendix_line": 206,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Education, Career Anxiety, And Reinvention",
+      "label": "BLS Education Level and Projected Openings, 2024-34",
+      "category": "labor/education",
+      "url": "https://www.bls.gov/careeroutlook/2025/article/education-level-and-openings-2024-34.htm",
+      "publisher_host": "www.bls.gov",
+      "appendix_line": 207,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Creator Commerce And Recommendation Fatigue",
+      "label": "FTC Advertisement Endorsements",
+      "category": "consumer_protection",
+      "url": "https://www.ftc.gov/news-events/topics/truth-advertising/advertisement-endorsements",
+      "publisher_host": "www.ftc.gov",
+      "appendix_line": 230,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Creator Commerce And Recommendation Fatigue",
+      "label": "FTC Endorsement Guides: What People Are Asking",
+      "category": "consumer_protection",
+      "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+      "publisher_host": "www.ftc.gov",
+      "appendix_line": 231,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Creator Commerce And Recommendation Fatigue",
+      "label": "Federal Register Consumer Reviews and Testimonials Rule",
+      "category": "consumer_protection",
+      "url": "https://www.federalregister.gov/documents/2024/08/22/2024-18519/trade-regulation-rule-on-the-use-of-consumer-reviews-and-testimonials",
+      "publisher_host": "www.federalregister.gov",
+      "appendix_line": 232,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Industrial And Geopolitical Bottlenecks",
+      "label": "IEA Global Critical Minerals Outlook 2025",
+      "category": "supply_chain/geopolitical",
+      "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2025",
+      "publisher_host": "www.iea.org",
+      "appendix_line": 257,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Industrial And Geopolitical Bottlenecks",
+      "label": "IEA Rare Earth Elements",
+      "category": "supply_chain/geopolitical",
+      "url": "https://www.iea.org/reports/rare-earth-elements",
+      "publisher_host": "www.iea.org",
+      "appendix_line": 258,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Trust, Proof, Scams, And Authenticity",
+      "label": "FTC Advertisement Endorsements",
+      "category": "consumer_protection",
+      "url": "https://www.ftc.gov/news-events/topics/truth-advertising/advertisement-endorsements",
+      "publisher_host": "www.ftc.gov",
+      "appendix_line": 282,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Trust, Proof, Scams, And Authenticity",
+      "label": "FTC Endorsement Guides: What People Are Asking",
+      "category": "consumer_protection",
+      "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+      "publisher_host": "www.ftc.gov",
+      "appendix_line": 283,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Trust, Proof, Scams, And Authenticity",
+      "label": "Federal Register Consumer Reviews and Testimonials Rule",
+      "category": "consumer_protection",
+      "url": "https://www.federalregister.gov/documents/2024/08/22/2024-18519/trade-regulation-rule-on-the-use-of-consumer-reviews-and-testimonials",
+      "publisher_host": "www.federalregister.gov",
+      "appendix_line": 284,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Trust, Proof, Scams, And Authenticity",
+      "label": "FDA Health Fraud Product Database",
+      "category": "clinical/regulatory",
+      "url": "https://www.fda.gov/consumers/health-fraud-scams/health-fraud-product-database",
+      "publisher_host": "www.fda.gov",
+      "appendix_line": 285,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Affordability, Substitution, And Constrained Choice",
+      "label": "USDA ERS Food Price Outlook",
+      "category": "consumer_prices/food",
+      "url": "https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings",
+      "publisher_host": "www.ers.usda.gov",
+      "appendix_line": 309,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Affordability, Substitution, And Constrained Choice",
+      "label": "BLS Consumer Price Index: 2025 in Review",
+      "category": "consumer_prices",
+      "url": "https://www.bls.gov/opub/ted/2026/consumer-price-index-2025-in-review.htm",
+      "publisher_host": "www.bls.gov",
+      "appendix_line": 310,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Affordability, Substitution, And Constrained Choice",
+      "label": "Federal Reserve Economic Well-Being of U.S. Households in 2025",
+      "category": "household_finance",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260513a.htm",
+      "publisher_host": "www.federalreserve.gov",
+      "appendix_line": 311,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Climate, Resilience, And Outage Anxiety",
+      "label": "NOAA Billion-Dollar Weather and Climate Disasters",
+      "category": "climate/policy",
+      "url": "https://www.ncei.noaa.gov/access/billions/",
+      "publisher_host": "www.ncei.noaa.gov",
+      "appendix_line": 357,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Climate, Resilience, And Outage Anxiety",
+      "label": "GAO Electricity Grid Resilience",
+      "category": "infrastructure/policy",
+      "url": "https://www.gao.gov/products/gao-21-423t",
+      "publisher_host": "www.gao.gov",
+      "appendix_line": 358,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Climate, Resilience, And Outage Anxiety",
+      "label": "DOE Extreme Weather Resiliency",
+      "category": "infrastructure/policy",
+      "url": "https://www.energy.gov/topics/extreme-weather-resiliency",
+      "publisher_host": "www.energy.gov",
+      "appendix_line": 359,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "AI, Work, And Authority Transfer",
+      "label": "BLS Artificial Intelligence, Information Technology, and Employment, 2024-34",
+      "category": "labor/technology",
+      "url": "https://www.bls.gov/opub/ted/2026/artificial-intelligence-information-technology-and-employment-2024-34.htm",
+      "publisher_host": "www.bls.gov",
+      "appendix_line": 382,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "AI, Work, And Authority Transfer",
+      "label": "OECD AI and Work",
+      "category": "labor/policy",
+      "url": "https://www.oecd.org/en/topics/ai-and-work.html",
+      "publisher_host": "www.oecd.org",
+      "appendix_line": 383,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "AI, Work, And Authority Transfer",
+      "label": "OECD A Skills-First Labour Market",
+      "category": "labor/education",
+      "url": "https://www.oecd.org/en/publications/a-skills-first-labour-market_2e1b85f0-en/full-report/positioning-skills-as-the-new-currency-of-work_40815b16.html",
+      "publisher_host": "www.oecd.org",
+      "appendix_line": 384,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Membership, Embedded Finance, And Private Capital",
+      "label": "Federal Reserve Economic Well-Being of U.S. Households in 2025: Credit",
+      "category": "household_finance/credit",
+      "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "publisher_host": "www.federalreserve.gov",
+      "appendix_line": 407,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Membership, Embedded Finance, And Private Capital",
+      "label": "New York Fed Household Debt and Credit Report",
+      "category": "household_finance/credit",
+      "url": "https://www.newyorkfed.org/microeconomics/hhdc",
+      "publisher_host": "www.newyorkfed.org",
+      "appendix_line": 408,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Membership, Embedded Finance, And Private Capital",
+      "label": "CFPB The Buy Now, Pay Later Market",
+      "category": "consumer_finance/credit",
+      "url": "https://www.consumerfinance.gov/data-research/research-reports/the-buy-now-pay-later-market/",
+      "publisher_host": "www.consumerfinance.gov",
+      "appendix_line": 409,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Membership, Embedded Finance, And Private Capital",
+      "label": "Federal Reserve Buy Now, Pay Later Beyond Pay in 4",
+      "category": "consumer_finance/credit",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/buy-now-pay-later-beyond-pay-in-4-a-comprehensive-product-overview-20260605.html",
+      "publisher_host": "www.federalreserve.gov",
+      "appendix_line": 410,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Membership, Embedded Finance, And Private Capital",
+      "label": "FTC Final Click-to-Cancel Rule",
+      "category": "consumer_protection/subscriptions",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/10/federal-trade-commission-announces-final-click-cancel-rule-making-it-easier-consumers-end-recurring",
+      "publisher_host": "www.ftc.gov",
+      "appendix_line": 411,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "theme": "Membership, Embedded Finance, And Private Capital",
+      "label": "Federal Register Negative Option Rule",
+      "category": "consumer_protection/subscriptions",
+      "url": "https://www.federalregister.gov/documents/2024/11/15/2024-25534/negative-option-rule",
+      "publisher_host": "www.federalregister.gov",
+      "appendix_line": 412,
+      "lineage_status": "theme_linked_citation",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://ich.unesco.org/en/traditional-craftsmanship-00057",
+      "publisher_host": "ich.unesco.org",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/coe/indicator/sae/nondegree-work-credentials",
+      "publisher_host": "nces.ed.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29280711/",
+      "publisher_host": "pubmed.ncbi.nlm.nih.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41460528/",
+      "publisher_host": "pubmed.ncbi.nlm.nih.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://pubs.usgs.gov/publication/mcs2026",
+      "publisher_host": "pubs.usgs.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://unctad.org/system/files/information-document/tsce-myem2022-Creative-Economy_en.pdf",
+      "publisher_host": "unctad.org",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.bls.gov/careeroutlook/2025/article/education-level-and-openings-2024-34.htm\n\nCase",
+      "publisher_host": "www.bls.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.bls.gov/emp/chart-unemployment-earnings-education.htm",
+      "publisher_host": "www.bls.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.bls.gov/opub/mlr/2025/article/incorporating-ai-impacts-in-bls-employment-projections.htm",
+      "publisher_host": "www.bls.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/circulars/consumer-financial-protection-circular-2023-01-unlawful-negative-option-marketing-practices/",
+      "publisher_host": "www.consumerfinance.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.cpsc.gov/Safety-Education/Product-Safety-for-Consumers-with-Intellectual-and-Developmental-Disabilities",
+      "publisher_host": "www.cpsc.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-260",
+      "publisher_host": "www.ecfr.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.eia.gov/electricity/data/eia861/",
+      "publisher_host": "www.eia.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=67926",
+      "publisher_host": "www.eia.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.energy.gov/cmei/buildings/articles/energy-efficient-home-improvement-credit-insulation-and-air-sealing",
+      "publisher_host": "www.energy.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.energy.gov/topics/extreme-weather-resiliency\n\nCase",
+      "publisher_host": "www.energy.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.energystar.gov/about/federal-tax-credits/insulation",
+      "publisher_host": "www.energystar.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.epa.gov/air-sensor-toolbox",
+      "publisher_host": "www.epa.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors",
+      "publisher_host": "www.epa.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.ers.usda.gov/topics/food-markets-prices/food-service-industry/market-segments\n\nCase",
+      "publisher_host": "www.ers.usda.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.fda.gov/consumers/health-fraud-scams/health-fraud-product-database\n\nCase",
+      "publisher_host": "www.fda.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.fda.gov/food/dietary-supplements",
+      "publisher_host": "www.fda.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2024/08/22/2024-18519/trade-regulation-rule-on-the-use-of-consumer-reviews-and-testimonials\n\nCase",
+      "publisher_host": "www.federalregister.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2024/11/15/2024-25534/negative-option-rule\n\nCase",
+      "publisher_host": "www.federalregister.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2026/03/13/2026-04952/rule-concerning-the-use-of-prenotification-negative-option-plans",
+      "publisher_host": "www.federalregister.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260513a.htm\n\nCase",
+      "publisher_host": "www.federalreserve.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm",
+      "publisher_host": "www.federalreserve.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food",
+      "publisher_host": "www.fsis.usda.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "publisher_host": "www.ftc.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/rules/negative-option-rule",
+      "publisher_host": "www.ftc.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option",
+      "publisher_host": "www.ftc.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/topics/truth-advertising/green-guides",
+      "publisher_host": "www.ftc.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.ftc.gov/reports/nixing-fix-ftc-report-congress-repair-restrictions",
+      "publisher_host": "www.ftc.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
+      "publisher_host": "www.iea.org",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+      "publisher_host": "www.iea.org",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.iea.org/reports/rare-earth-elements\n\nCase",
+      "publisher_host": "www.iea.org",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety\n\nCase",
+      "publisher_host": "www.nccih.nih.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.nccih.nih.gov/health/rhodiola",
+      "publisher_host": "www.nccih.nih.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/access/billions/mapping",
+      "publisher_host": "www.ncei.noaa.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.newyorkfed.org/research/college-labor-market",
+      "publisher_host": "www.newyorkfed.org",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/skills-in-the-ai-age_e8d8c1e6/972bd15e-en.pdf",
+      "publisher_host": "www.oecd.org",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/a-skills-first-labour-market_2e1b85f0-en/full-report/positioning-skills-as-the-new-currency-of-work_40815b16.html\n\nCase",
+      "publisher_host": "www.oecd.org",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.richmondfed.org/publications/research/economic_brief/2026/eb_26-05",
+      "publisher_host": "www.richmondfed.org",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "url": "https://www.usgs.gov/news/national-news-release/value-us-mineral-production-rose-last-year-driven-precious-metals-prices",
+      "publisher_host": "www.usgs.gov",
+      "theme": null,
+      "lineage_status": "appendix_url_unmapped",
+      "rights_status": "not_yet_verified",
+      "independence_status": "not_reviewed"
+    }
+  ],
+  "boundary": "This map links selected publication citations to social-atlas themes and preserves the remaining appendix URLs as unmapped. Platform discussion and creator signals are bounded signals, not representative prevalence, causality, market size, or buying intent.",
+  "next_test": "Map the remaining URLs to specific atlas claims, verify publisher and collection lineage, and compare each material claim with an independent population or outcome source before promotion."
+}
