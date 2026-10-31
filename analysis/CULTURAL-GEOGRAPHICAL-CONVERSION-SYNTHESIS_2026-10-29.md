@@ -3855,6 +3855,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 418. **A hydrogen-hub award is not delivered decarbonization.** A phased grant, environmental review, proposed production capacity, community-benefit commitment or named end use can establish a regional option while construction, qualified delivery, price, uptime, lifecycle emissions, incumbent-fuel displacement, safety, jobs and local influence remain unobserved.
 
+419. **A live carbon border is not verified industrial transition.** Customs integration, certificate prices, importer accounts, default emissions values, verified-data requirements, technical assistance and parallel trade measures can make carbon a border-administered cost while exporter investment, small-firm survival, worker outcomes, consumer pass-through, trade access and actual emissions change remain unobserved.
+
 ## What the evidence does not support
 
 Do not claim that:

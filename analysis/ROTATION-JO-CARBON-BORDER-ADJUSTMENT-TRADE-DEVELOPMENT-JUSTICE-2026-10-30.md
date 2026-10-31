@@ -27,6 +27,10 @@ import / production process / embedded emissions
 | JO6 | WTO records a formal dispute over the EU CBAM package and describes concerns about GATT and subsidies rules, demonstrating that climate ambition also creates a live trade-law legitimacy question. | Geopolitical and legal contestation. | Final adjudication, broader member consensus or practical dispute settlement. |
 | JO7 | WTO’s 2026 environment discussions record member concerns about market access, compliance burdens for developing and least-developed countries and SMEs, while emphasizing transparency and methodological exchange. | Multilateral coordination and burden concerns. | Whether transparency reduces costs, improves access or produces convergent standards. |
 | JO8 | EU material says it intends to support developing and least-developed countries with implementation, industrial greening and renewable transition, including assessment of technical assistance. | Official support and capacity-building promise. | Funding adequacy, delivery, recipient capability, industrial jobs, export retention or equitable outcomes. |
+| JO9 | The Commission reports that CBAM entered force on 1 January 2026 with customs validation, registry integration and monitoring of the 50-tonne threshold; its first reporting window covered 1.655 million tonnes of goods. | Live customs/registry operation and an initial import-volume signal. | Data accuracy, exporter burden, certificate liability, trade rerouting, emissions reduction or firm survival. |
+| JO10 | The Commission published the first 2026 CBAM certificate price in April and set quarterly prices for 2026, with weekly pricing from 2027; importers purchase certificates from February 2027 for 2026 imports. | A dated price-discovery and financial-obligation mechanism. | Actual price pass-through, producer investment, consumer effect, revenue use, trade response or emissions change. |
+| JO11 | The Commission’s 2026 guidance says actual-value reporting requires verified emissions data from the third-country producer, while default values remain available; declarations for 2026 imports are due in 2027. | A concrete information asymmetry and verification gate between importer, producer and verifier. | Whether smaller exporters can produce verified data, whether defaults are punitive or accurate, and whether verification changes production. |
+| JO12 | WTO members’ September 2026 trade-and-environment discussion records concerns over market access and compliance burdens for developing/LDC countries and SMEs, while the UK shared its planned 1 January 2027 CBAM monitoring/reporting/verification approach. | Live multilateral coordination, diffusion and burden-contestation mechanism. | Common methodology, legal settlement, implementation cost, development support, trade diversion or climate outcome. |
 
 ## Cultural, geographical and geopolitical reading
 
@@ -39,6 +43,15 @@ CBAM is also a geopolitical test of climate cooperation. Exporting countries may
 ## Counterexample and source boundary
 
 An entered-into-force regulation, covered sector, customs account, embedded-emissions report, default value, verifier accreditation, certificate price, technical-assistance promise or WTO consultation is not by itself lower global emissions, fair trade, exporter survival, industrial investment, worker protection, consumer affordability or geopolitical legitimacy. A clean producer can gain market access while a smaller producer exits; a reported emissions value can be compliant but inaccurate; and a dispute can remain unresolved while compliance costs are already incurred.
+
+The 2026 operating evidence makes the distinction sharper. CBAM now has customs
+interfaces, a live registry, an initial import-volume signal, published prices and
+an approaching certificate-surrender date. Those close administrative operation,
+not the industrial conversion. The decisive next record remains a named
+exporter/facility with verified and default emissions values, certificate cost,
+buyer response, production investment, employment and later emissions or market
+access. The same regime may reward a well-capitalized producer and exclude a
+smaller one even when both face the same formal rule.
 
 ## Promotion decision
 
@@ -56,3 +69,6 @@ An entered-into-force regulation, covered sector, customs account, embedded-emis
 - WTO, [EU CBAM dispute DS639](https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds639_e.htm)
 - WTO, [2026 trade and climate discussions](https://www.wto.org/english/news_e/news26_e/envir_28sep26_501_e.htm)
 - European Commission, [CBAM and developing countries](https://taxation-customs.ec.europa.eu/document/download/7abe56cc-4af0-490d-90e1-0a0825aabe37_en?filename=CBAM+and+developing+countries.pdf)
+- European Commission, [CBAM enters force and first import signal](https://taxation-customs.ec.europa.eu/news/cbam-successfully-entered-force-1-january-2026-2026-01-14_en)
+- European Commission, [first 2026 CBAM certificate price](https://taxation-customs.ec.europa.eu/news/first-cbam-certificate-price-now-available-2026-04-07_en)
+- European Commission, [CBAM definitive-regime guidance and support](https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en)
