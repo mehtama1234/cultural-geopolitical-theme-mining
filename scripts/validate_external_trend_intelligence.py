@@ -278,6 +278,8 @@ def main() -> int:
     assert refresh_history["run_count"] >= 1
     assert refresh_history["latest"]["record_count"] == 2134
     assert refresh_history["latest"]["parse_error_count"] == 0
+    assert refresh_history["latest"]["pipeline_step_count"] == 40
+    assert refresh_history["latest"]["pipeline_status"] == "passed"
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
     assert ibis_sample["counter_signals"]

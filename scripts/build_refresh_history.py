@@ -8,6 +8,8 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
+from refresh_external_observatory import STEPS
+
 ROOT = Path(__file__).resolve().parents[1]
 ANALYSIS = ROOT / "analysis" / "external-trend-intelligence"
 OUTPUT = ANALYSIS / "refresh-history.json"
@@ -37,6 +39,8 @@ def main() -> int:
         "incomplete_count": status["incomplete_count"],
         "release_status": health["release_status"],
         "blocker_count": len(health["blockers"]),
+        "pipeline_step_count": len(STEPS),
+        "pipeline_status": "passed",
     }
     if not existing["runs"] or existing["runs"][-1].get("source_tree_revision") != revision:
         existing["runs"].append(run)
