@@ -60,6 +60,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/refresh-history.json",
     "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
     "analysis/external-trend-intelligence/shed-temporal-holdout.json",
+    "analysis/external-trend-intelligence/us-financial-room-independent-comparison.json",
     "analysis/external-trend-intelligence/external-family-comparisons.json",
     "analysis/external-trend-intelligence/candidate-comparisons.json",
     "analysis/external-trend-intelligence/candidate-qualification-matrix.json",

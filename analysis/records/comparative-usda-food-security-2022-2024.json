@@ -1,0 +1,24 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-usda-food-security-2022-2024",
+  "title": "U.S. household food insecurity remained elevated and increased slightly in 2024",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "U.S. Department of Agriculture Economic Research Service, Household Food Security in the United States",
+  "geography": "United States; households",
+  "observations": [
+    {"period": "2022", "denominator": {"unit": "U.S. households in the CPS Food Security Supplement", "value_type": "reported_household_survey_frame"}, "measures": {"food_insecure": {"value": 12.8, "unit": "percent of households food insecure at some time during the year", "value_type": "reported_survey_share"}, "very_low_food_security": {"value": 5.1, "unit": "percent of households with very low food security", "value_type": "reported_survey_share"}}, "status": "reported"},
+    {"period": "2023", "denominator": {"unit": "U.S. households in the CPS Food Security Supplement", "value_type": "reported_household_survey_frame"}, "measures": {"food_insecure": {"value": 13.5, "unit": "percent of households food insecure at some time during the year", "value_type": "reported_survey_share"}, "very_low_food_security": {"value": 5.1, "unit": "percent of households with very low food security", "value_type": "reported_survey_share"}}, "status": "reported"},
+    {"period": "2024", "denominator": {"unit": "U.S. households in the CPS Food Security Supplement", "value_type": "reported_household_survey_frame"}, "measures": {"food_insecure": {"value": 13.7, "unit": "percent of households food insecure at some time during the year", "value_type": "reported_survey_share"}, "very_low_food_security": {"value": 5.4, "unit": "percent of households with very low food security", "value_type": "reported_survey_share"}}, "status": "reported"}
+  ],
+  "method": "Annual CPS Food Security Supplement household survey; USDA ERS publishes prevalence and statistical significance notes.",
+  "uncertainty": "Food insecurity is a resource-constrained food-access outcome, not a general financial-wellbeing or consumption measure. Annual estimates have sampling error and should be interpreted with the USDA significance guidance.",
+  "counterinterpretation": "The 2024 food-insecurity prevalence was not statistically significantly different from 2023; a small numerical increase is not necessarily a population-level change.",
+  "related_sources": [
+    {"source_url": "https://www.ers.usda.gov/publications/113622", "claim": "USDA ERS Household Food Security in the United States in 2024 report.", "status": "official-source"},
+    {"source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics", "claim": "USDA ERS key statistics and historical chart data route.", "status": "official-data-route"}
+  ],
+  "retrieval_hash": "sha256:79ff71e761ff6690aa9e36828f2a65b35af625eb688f8cf70e06e7be0160b613",
+  "boundary": "This record is an independent U.S. household resource-strain measure for mechanism comparison. It does not establish equivalence with SHED financial wellbeing, Australian measures, causal hardship, or company exposure.",
+  "reproduction_audit": {"retrieval_hash_scope": "USDA ERS publication page reviewed for 2022-2024 food-security prevalence and significance notes", "checked": "2026-10-31"}
+}

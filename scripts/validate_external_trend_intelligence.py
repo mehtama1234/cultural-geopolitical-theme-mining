@@ -276,7 +276,7 @@ def main() -> int:
     refresh_history = json.loads((ANALYSIS / "refresh-history.json").read_text())
     assert refresh_history["schema"] == "external-trend-intelligence.refresh-history.v1"
     assert refresh_history["run_count"] >= 1
-    assert refresh_history["latest"]["record_count"] == 2133
+    assert refresh_history["latest"]["record_count"] == 2134
     assert refresh_history["latest"]["parse_error_count"] == 0
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
@@ -308,7 +308,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 60
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 61
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -413,9 +413,9 @@ def main() -> int:
     assert bounded_lineage["independence_status"] == "partial_independence_review"
     progress = json.loads((ANALYSIS / "program-progress.json").read_text())
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
-    assert progress["baseline"]["records"] == 2133
+    assert progress["baseline"]["records"] == 2134
     assert progress["baseline"]["qualified_external_trends"] == 0
-    assert progress["baseline"]["release_artifacts"] == 60
+    assert progress["baseline"]["release_artifacts"] == 61
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
@@ -446,6 +446,12 @@ def main() -> int:
     assert shed_holdout["status"] == "descriptive_single_family_holdout"
     assert shed_holdout["construction_period"] == "2013-2021"
     assert shed_holdout["holdout_period"] == "2022-2025"
+    usda = json.loads((ANALYSIS / "../records/comparative-usda-food-security-2022-2024.json").resolve().read_text())
+    assert usda["trend_id"] == "comparative-usda-food-security-2022-2024"
+    us_comparison = json.loads((ANALYSIS / "us-financial-room-independent-comparison.json").read_text())
+    assert us_comparison["schema"] == "external-trend-intelligence.us-financial-room-independent-comparison.v1"
+    assert us_comparison["status"] == "mechanism_comparison_only"
+    assert len(us_comparison["rows"]) == 2
     assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}
