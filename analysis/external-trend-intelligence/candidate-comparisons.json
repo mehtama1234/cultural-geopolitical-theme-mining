@@ -31,6 +31,11 @@
           "kingsfund.org.uk": 1,
           "natcen.ac.uk": 1
         },
+        "unique_source_url_count": 17,
+        "duplicate_source_urls": {
+          "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-10-31.htm": 2,
+          "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders": 3
+        },
         "program_theme_counts": {
           "trust_identity_meaning": 7,
           "consumer_power_recourse": 6,
@@ -45,7 +50,7 @@
           "infrastructure_technology_dependency": 1
         },
         "independence_status": "unverified",
-        "interpretation": "Distinct hosts are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
+        "interpretation": "Distinct hosts and URLs are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
       }
     },
     {
@@ -77,6 +82,8 @@
           "roymorgan.com": 1,
           "4culture.org": 1
         },
+        "unique_source_url_count": 25,
+        "duplicate_source_urls": {},
         "program_theme_counts": {
           "unequal_exposure_status": 7,
           "household_room_consumption": 6,
@@ -90,7 +97,7 @@
           "political_judgment_action": 1
         },
         "independence_status": "unverified",
-        "interpretation": "Distinct hosts are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
+        "interpretation": "Distinct hosts and URLs are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
       }
     },
     {
@@ -127,6 +134,8 @@
           "bcg.com": 1,
           "cpl.thalesgroup.com": 1
         },
+        "unique_source_url_count": 19,
+        "duplicate_source_urls": {},
         "program_theme_counts": {
           "trust_identity_meaning": 7,
           "consumer_power_recourse": 5,
@@ -142,7 +151,7 @@
           "political_judgment_action": 1
         },
         "independence_status": "unverified",
-        "interpretation": "Distinct hosts are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
+        "interpretation": "Distinct hosts and URLs are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
       }
     },
     {
@@ -180,6 +189,8 @@
           "documents.worldbank.org": 1,
           "search.worldbank.org": 1
         },
+        "unique_source_url_count": 26,
+        "duplicate_source_urls": {},
         "program_theme_counts": {
           "infrastructure_technology_dependency": 7,
           "public_systems_feedback": 7,
@@ -196,7 +207,7 @@
           "trust_identity_meaning": 1
         },
         "independence_status": "unverified",
-        "interpretation": "Distinct hosts are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
+        "interpretation": "Distinct hosts and URLs are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
       }
     }
   ]

@@ -25,6 +25,8 @@ def main() -> int:
         assert record["title"] and record["boundary"]
         assert record["observation_count"] >= 1
         assert record["program_theme_ids"]
+        assert isinstance(record["source_urls"], list)
+        assert isinstance(record["source_hosts"], list)
 
     candidates = (ANALYSIS / "CROSS-SOURCE-CANDIDATES.md").read_text()
     references = set(re.findall(r"`([a-z0-9][a-z0-9-]+)`", candidates))
@@ -52,6 +54,8 @@ def main() -> int:
         coverage = candidate["coverage"]
         assert coverage["evidence_record_count"] == len(candidate["evidence_record_ids"])
         assert coverage["source_host_count"] == len(coverage["source_host_counts"])
+        assert coverage["unique_source_url_count"] >= coverage["source_host_count"]
+        assert all(count > 1 for count in coverage["duplicate_source_urls"].values())
         assert coverage["independence_status"] == "unverified"
         assert coverage["interpretation"]
     bridge_schema = json.loads((ANALYSIS / "internal-bridge-schema.json").read_text())

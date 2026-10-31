@@ -10,16 +10,17 @@ the same people, firms, places, or events.
 
 ## Coverage snapshot
 
-| Candidate | Evidence records | Distinct source hosts in records | Independence status |
-|---|---:|---:|---|
-| Formal response before usable recovery | 7 | 6 | Unverified; lineage review required |
-| Time and financial pressure / practical room | 7 | 8 | Unverified; lineage review required |
-| Digital capability, control, and trust | 7 | 13 | Unverified; lineage review required |
-| Infrastructure dependency and power | 7 | 14 | Unverified; lineage review required |
+| Candidate | Evidence records | Distinct source hosts | Unique source URLs | Repeated URLs | Independence status |
+|---|---:|---:|---:|---:|---|
+| Formal response before usable recovery | 7 | 6 | 17 | 2 | Unverified; lineage review required |
+| Time and financial pressure / practical room | 7 | 8 | 25 | 0 | Unverified; lineage review required |
+| Digital capability, control, and trust | 7 | 13 | 19 | 0 | Unverified; lineage review required |
+| Infrastructure dependency and power | 7 | 14 | 26 | 0 | Unverified; lineage review required |
 
-Host diversity is a discovery-coverage measure only. It is not independent
-confirmation because multiple publications may reuse one study, press release,
-dataset, or institutional claim.
+Host and URL diversity are discovery-coverage measures only. They are not
+independent confirmation because multiple publications may reuse one study,
+press release, dataset, or institutional claim. Candidate 1 already contains
+two repeated source URLs and therefore requires explicit lineage review.
 
 ## Candidate 1 — Formal response arrives before usable recovery
 

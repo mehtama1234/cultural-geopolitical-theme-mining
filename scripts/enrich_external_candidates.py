@@ -22,14 +22,17 @@ def main() -> int:
     for candidate in payload["candidates"]:
         records = [by_id[record_id] for record_id in candidate["evidence_record_ids"]]
         hosts = Counter(host for record in records for host in record.get("source_hosts", []))
+        urls = Counter(url for record in records for url in record.get("source_urls", []))
         themes = Counter(theme for record in records for theme in record.get("program_theme_ids", []))
         candidate["coverage"] = {
             "evidence_record_count": len(records),
             "source_host_count": len(hosts),
             "source_host_counts": dict(hosts.most_common()),
+            "unique_source_url_count": len(urls),
+            "duplicate_source_urls": {url: count for url, count in urls.items() if count > 1},
             "program_theme_counts": dict(themes.most_common()),
             "independence_status": "unverified",
-            "interpretation": "Distinct hosts are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
+            "interpretation": "Distinct hosts and URLs are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
         }
     output = Path(args.output or args.candidates)
     output.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")

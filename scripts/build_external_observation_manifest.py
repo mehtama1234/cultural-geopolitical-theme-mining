@@ -41,6 +41,18 @@ def archived_records(ref: str):
 
 
 def source_hosts(record: dict) -> list[str]:
+    urls = source_urls(record)
+    hosts = set()
+    for url in urls:
+        host = urlparse(url).netloc.lower()
+        if host.startswith("www."):
+            host = host[4:]
+        if host:
+            hosts.add(host)
+    return sorted(hosts)
+
+
+def source_urls(record: dict) -> list[str]:
     urls: set[str] = set()
     for observation in record.get("observations", []):
         if observation.get("source_url"):
@@ -50,14 +62,7 @@ def source_hosts(record: dict) -> list[str]:
             urls.add(related)
         elif related.get("source_url"):
             urls.add(related["source_url"])
-    hosts = set()
-    for url in urls:
-        host = urlparse(url).netloc.lower()
-        if host.startswith("www."):
-            host = host[4:]
-        if host:
-            hosts.add(host)
-    return sorted(hosts)
+    return sorted(urls)
 
 
 def compact_record(path: str, record: dict) -> dict:
@@ -72,6 +77,7 @@ def compact_record(path: str, record: dict) -> dict:
         "program_theme_ids": record.get("program_theme_ids", []),
         "observation_count": len(observations),
         "observation_statuses": statuses,
+        "source_urls": source_urls(record),
         "source_hosts": source_hosts(record),
         "boundary": record.get("boundary"),
     }
