@@ -1,6 +1,6 @@
 # Source registry coverage audit v1
 
-**Checked:** 2026-10-20
+**Checked:** 2026-10-29
 
 This control compares the registered source universe with the files under
 `analysis/`. It distinguishes a registered source from evidence that uses
@@ -92,7 +92,7 @@ or proof that every source item was read in full.
 | [American Community Survey](https://www.census.gov/programs-surveys/acs) | US place-level population, housing, income, migration, language, commuting, and inequality context | 31 | 1119 | 456 | 3 | evidence-bearing; machine-record URL |
 | [US Energy Information Administration](https://www.eia.gov/) | US energy prices, consumption, insecurity, electricity systems, and infrastructure context | 21 | 80 | 31 | 27 | evidence-bearing; machine-record URL |
 | [US Department of Energy](https://www.energy.gov/) | US energy policy, affordability tools, infrastructure, technology, and public investment context | 18 | 80 | 37 | 21 | evidence-bearing; machine-record URL |
-| [US Federal Trade Commission](https://www.ftc.gov/) | US consumer protection, competition, privacy, fraud, platform, and enforcement evidence | 31 | 396 | 134 | 140 | evidence-bearing; machine-record URL |
+| [US Federal Trade Commission](https://www.ftc.gov/) | US consumer protection, competition, privacy, fraud, platform, and enforcement evidence | 31 | 401 | 136 | 144 | evidence-bearing; machine-record URL |
 | [US Department of Health and Human Services](https://www.hhs.gov/) | US health, care, public benefit, medical access, and program administration evidence | 8 | 46 | 22 | 0 | evidence-bearing |
 | [Centers for Medicare & Medicaid Services](https://www.cms.gov/data-research) | US health coverage, claims, providers, spending, quality, and public-program evidence | 1 | 22 | 8 | 4 | evidence-bearing; machine-record URL |
 | [US Small Business Administration](https://www.sba.gov/) | US small-business programs, lending, disaster support, procurement, and firm access context | 2 | 9 | 7 | 1 | evidence-bearing; machine-record URL |

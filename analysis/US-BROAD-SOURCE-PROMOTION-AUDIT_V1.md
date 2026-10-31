@@ -4,26 +4,26 @@
 
 This is a routing control, not an evidence-quality, importance, or omission score. A record not directly named here can still be represented indirectly by a project finding or cross-source bridge. Direct promotion means its exact trend ID appears in the [central synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [societal subtheme register](US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md), [broad theme map](US-BROAD-THEME-SUBTHEME-MAP_V1.md), or one of the [source-led subtheme maps](US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md).
 
-The current corpus has **2130 records**; **1725** are directly named in at least one of those reader documents.
+The current corpus has **2131 records**; **1725** are directly named in at least one of those reader documents.
 
 ## Direct-ID promotion by theme
 
 | Theme | Corpus records | Directly named | Not directly named |
 |---|---:|---:|---:|
-| Unequal exposure and status | 1828 | 1501 | 327 |
-| Public systems and policy feedback | 1594 | 1317 | 277 |
+| Unequal exposure and status | 1829 | 1501 | 328 |
+| Public systems and policy feedback | 1595 | 1317 | 278 |
 | Household room and consumption | 1311 | 1040 | 271 |
-| Trust, identity, and cultural meaning | 1309 | 1073 | 236 |
+| Trust, identity, and cultural meaning | 1310 | 1073 | 237 |
 | Infrastructure, technology, and dependency | 837 | 687 | 150 |
 | Work, control, and bargaining | 733 | 593 | 140 |
-| Firm, sector, and market power | 789 | 651 | 138 |
+| Firm, sector, and market power | 790 | 651 | 139 |
 | Political judgment and collective action | 782 | 645 | 137 |
 | Care, health, and social reproduction | 672 | 538 | 134 |
 | Geopolitical and state consequences | 621 | 521 | 100 |
-| Consumer power and recourse | 439 | 344 | 95 |
+| Consumer power and recourse | 440 | 344 | 96 |
 | Time as a hidden price | 405 | 319 | 86 |
 | Housing, place, and mobility | 469 | 397 | 72 |
-| Platforms, data, and attention | 378 | 332 | 46 |
+| Platforms, data, and attention | 379 | 332 | 47 |
 
 ## Candidate pool for the four lowest-density theme surfaces
 
@@ -31,6 +31,7 @@ These are alphabetized direct-ID candidates, not ranked recommendations. The nex
 
 ### Platforms, data, and attention
 
+- [A court-approved YouTube child-data order links content labeling to parental consent without proving restored privacy or reduced exposure](records/us-ftc-disney-youtube-coppa-parental-consent-order-2025.json)
 - [A merger remedy can formalize neutral access and data firewalls around a digital-advertising intermediary while leaving implementation open](records/us-ftc-publicis-liveramp-data-neutrality-remedy-2026.json)
 - [Fashion culture is moving from algorithmic novelty toward edited identity, repeatable staples, nostalgia, everyday ritual, and circular self-expression](records/comparative-depop-edited-self-2026-fashion-resale-identity-ritual.json)
 - [Gen Z and millennials are sequencing ambition around stability, sustainable work, purpose and AI readiness rather than rejecting advancement](records/comparative-deloitte-genz-millennial-survey-2026-sequenced-ambition-ai-work.json)
@@ -42,7 +43,6 @@ These are alphabetized direct-ID candidates, not ranked recommendations. The nex
 - [Healthcare AI is moving into routine diagnostic work faster than trust is generalizing across clinical tasks](records/comparative-ipsos-ai-trust-deficit-healthcare-2026-diagnostic-adoption-task-trust.json)
 - [Hello Digit redress moves from automated-savings enforcement to a dated payment-notification stage](records/us-cfpb-hello-digit-redress-payment-notification-2026.json)
 - [High average human development does not settle the question of who can exercise new choices](records/us-undp-human-development-ai-choice-2023-2025.json)
-- [Hobby culture is moving toward screen-free, tactile, repair-oriented, and highly personal practices that turn online discovery into offline attention and visible results](records/comparative-pinterest-hobbies-2026-screen-free-tactile-repair-identity.json)
 
 ### Time as a hidden price
 
@@ -61,6 +61,7 @@ These are alphabetized direct-ID candidates, not ranked recommendations. The nex
 
 ### Consumer power and recourse
 
+- [A court-approved YouTube child-data order links content labeling to parental consent without proving restored privacy or reduced exposure](records/us-ftc-disney-youtube-coppa-parental-consent-order-2025.json)
 - [A large product recall can provide a repair route while leaving owner-level safety restoration unmeasured](records/us-cpsc-sauna360-infrared-fire-recall-2026.json)
 - [A large rent-to-own refund reaches a prior-cashing subgroup without proving price correction or durable household relief](records/us-ftc-progressive-leasing-repeat-refund-2025.json)
 - [A merger remedy can formalize neutral access and data firewalls around a digital-advertising intermediary while leaving implementation open](records/us-ftc-publicis-liveramp-data-neutrality-remedy-2026.json)
@@ -72,7 +73,6 @@ These are alphabetized direct-ID candidates, not ranked recommendations. The nex
 - [A worker question can trigger large back-pay correction while individual reachability remains unresolved](records/comparative-australia-fwo-southern-cross-care-underpayment-reachability-2026.json)
 - [Aggregate redress cashing can be followed by reissue payments without proving account correction or same-consumer recovery](records/us-cfpb-premier-student-loan-redress-reissue-2025.json)
 - [Agrifood futures are being modeled as an interconnected system where population, income, technology, climate, demand, production, nutrition, livelihoods, and natural resources co-determine long-term outcomes](records/comparative-ifpri-cgiar-agrifood-outlook-2050-climate-nutrition-livelihoods.json)
-- [Alternative employment can coexist with an unfair-dismissal remedy and an unresolved payment boundary](records/comparative-australia-fwc-westrip-dismissal-alternative-employment-remedy-2023.json)
 
 ### Housing, place, and mobility
 

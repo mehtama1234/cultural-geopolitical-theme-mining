@@ -22,22 +22,22 @@
     "analysis/US-BROAD-PUBLIC-SYSTEMS-SOURCE-LED-SUBTHEME-MAP_V1.md",
     "analysis/US-BROAD-EXTERNAL-DATA-FIRST-PASS_2026-09-25.md"
   ],
-  "total_records": 2130,
+  "total_records": 2131,
   "directly_promoted_record_count": 1725,
   "themes": [
     {
       "theme_id": "unequal_exposure_status",
       "theme": "Unequal exposure and status",
-      "records": 1828,
+      "records": 1829,
       "directly_promoted_records": 1501,
-      "not_directly_named": 327
+      "not_directly_named": 328
     },
     {
       "theme_id": "public_systems_feedback",
       "theme": "Public systems and policy feedback",
-      "records": 1594,
+      "records": 1595,
       "directly_promoted_records": 1317,
-      "not_directly_named": 277
+      "not_directly_named": 278
     },
     {
       "theme_id": "household_room_consumption",
@@ -49,9 +49,9 @@
     {
       "theme_id": "trust_identity_meaning",
       "theme": "Trust, identity, and cultural meaning",
-      "records": 1309,
+      "records": 1310,
       "directly_promoted_records": 1073,
-      "not_directly_named": 236
+      "not_directly_named": 237
     },
     {
       "theme_id": "infrastructure_technology_dependency",
@@ -70,9 +70,9 @@
     {
       "theme_id": "firm_sector_market_power",
       "theme": "Firm, sector, and market power",
-      "records": 789,
+      "records": 790,
       "directly_promoted_records": 651,
-      "not_directly_named": 138
+      "not_directly_named": 139
     },
     {
       "theme_id": "political_judgment_action",
@@ -98,9 +98,9 @@
     {
       "theme_id": "consumer_power_recourse",
       "theme": "Consumer power and recourse",
-      "records": 439,
+      "records": 440,
       "directly_promoted_records": 344,
-      "not_directly_named": 95
+      "not_directly_named": 96
     },
     {
       "theme_id": "time_hidden_price",
@@ -119,13 +119,17 @@
     {
       "theme_id": "platforms_data_attention",
       "theme": "Platforms, data, and attention",
-      "records": 378,
+      "records": 379,
       "directly_promoted_records": 332,
-      "not_directly_named": 46
+      "not_directly_named": 47
     }
   ],
   "low_density_theme_candidates": {
     "platforms_data_attention": [
+      {
+        "trend_id": "us-ftc-disney-youtube-coppa-parental-consent-order-2025",
+        "title": "A court-approved YouTube child-data order links content labeling to parental consent without proving restored privacy or reduced exposure"
+      },
       {
         "trend_id": "us-ftc-publicis-liveramp-data-neutrality-remedy-2026",
         "title": "A merger remedy can formalize neutral access and data firewalls around a digital-advertising intermediary while leaving implementation open"
@@ -169,10 +173,6 @@
       {
         "trend_id": "us-undp-human-development-ai-choice-2023-2025",
         "title": "High average human development does not settle the question of who can exercise new choices"
-      },
-      {
-        "trend_id": "comparative-pinterest-hobbies-2026-screen-free-tactile-repair-identity",
-        "title": "Hobby culture is moving toward screen-free, tactile, repair-oriented, and highly personal practices that turn online discovery into offline attention and visible results"
       }
     ],
     "time_hidden_price": [
@@ -227,6 +227,10 @@
     ],
     "consumer_power_recourse": [
       {
+        "trend_id": "us-ftc-disney-youtube-coppa-parental-consent-order-2025",
+        "title": "A court-approved YouTube child-data order links content labeling to parental consent without proving restored privacy or reduced exposure"
+      },
+      {
         "trend_id": "us-cpsc-sauna360-infrared-fire-recall-2026",
         "title": "A large product recall can provide a repair route while leaving owner-level safety restoration unmeasured"
       },
@@ -269,10 +273,6 @@
       {
         "trend_id": "comparative-ifpri-cgiar-agrifood-outlook-2050-climate-nutrition-livelihoods",
         "title": "Agrifood futures are being modeled as an interconnected system where population, income, technology, climate, demand, production, nutrition, livelihoods, and natural resources co-determine long-term outcomes"
-      },
-      {
-        "trend_id": "comparative-australia-fwc-westrip-dismissal-alternative-employment-remedy-2023",
-        "title": "Alternative employment can coexist with an unfair-dismissal remedy and an unresolved payment boundary"
       }
     ],
     "housing_place_mobility": [
