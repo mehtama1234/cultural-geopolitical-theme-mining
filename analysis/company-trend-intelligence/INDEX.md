@@ -71,6 +71,14 @@ This qualified trend translates consumer confidence and household search
 evidence into affordability, substitution, support-load, payment, and demand
 exposure. Its open test is a transaction or panel link from search to outcome.
 
+### Material pressure becomes political meaning through attribution
+
+[Conditional legitimacy trend record](company-trend-conditional-legitimacy-2026-007.md)
+
+This qualified trend translates trust, identity, belonging, and civic-action
+evidence into reputation, public-affairs, workforce, customer, and legitimacy
+exposure.
+
 ## Record contract
 
 - [Company trend-intelligence goal](../../COMPANY_TREND_INTELLIGENCE_GOAL_V1.md)

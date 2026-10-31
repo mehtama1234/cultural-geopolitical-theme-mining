@@ -80,6 +80,19 @@
       "domains": ["household_finance", "consumer", "time_and_care", "trust", "political_meaning"],
       "decision_owners": ["pricing", "growth", "customer_strategy", "finance", "product", "risk"],
       "open_test": "Transaction or household-panel link from search episode to completion, payment, recovery, and exit"
+    },
+    {
+      "trend_id": "company-trend-2026-007",
+      "title": "Material pressure becomes political meaning through attribution and practical room",
+      "summary": "Hardship is interpreted through trust, identity, belonging, and efficacy before it becomes action.",
+      "path": "company-trend-conditional-legitimacy-2026-007.md",
+      "source_packets": ["../US-BROAD-CULTURAL-POLITICAL-MEANING-SUBTHEME-SYNTHESIS_V1.md", "../projects/us-cost-trust-politics/cross-source-trust-action-layer-v1.md"],
+      "status": "qualified_trend",
+      "confidence": "medium",
+      "horizon": ["now", "next"],
+      "domains": ["trust", "culture", "political_meaning", "customer", "workforce"],
+      "decision_owners": ["public_affairs", "reputation", "people", "customer_trust", "policy", "strategy"],
+      "open_test": "Dated encounter ledger from condition through attribution, remedy, later action, and non-use"
     }
   ],
   "portfolio_lens": [
