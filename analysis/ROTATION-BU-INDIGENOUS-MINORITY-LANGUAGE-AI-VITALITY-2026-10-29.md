@@ -45,6 +45,8 @@ language exclusion, low-resource data and intergenerational decline
 | TalkLink Annual Report 2024 Tua o te Pae | TalkLink reports a Te Hiku Media te reo Māori male synthetic voice running on an Accent 1000 communication device with acceptable quality and speed; a named user received it on her own device and used it to deliver a mihi. | device operation and named-user communication proof of concept | number of users, repeated use, communication outcomes, pronunciation evaluation, broader compatibility and language/cultural participation outcomes |
 | TalkLink Annual Report 2025 Tua o te Pae | TalkLink reports Te Hiku Media voices being tested by a small number of Māori Accent-device users, positive feedback, preferred-gender voice options and work to adapt voices for Grid 3 and wider devices. | small-cohort user testing and compatibility expansion | cohort size, participant characteristics, repeated daily use, communication success, language participation, user safety and broad rollout |
 | Te Taura Whiri i te Reo Māori and Google Maps text-to-speech | The Māori Language Commission reports a public Google Maps voice that pronounces Māori place names, a feedback route for errors, Commission-guided pronunciation, New Zealand Geographic Board data, Commission kaitiakitanga and Google licensing; the release is currently limited to Google Maps and does not cover dialect variation. | public-facing geographic voice deployment with named stewardship and correction route | usage volume, correction counts, pronunciation quality by region/dialect, long-term kaitiaki structure, benefit sharing and effect on Māori-language use or place-name behavior |
+| Say It Tika correction-loop failure | Māori Television reported that the 2017 Say It Tika campaign collected more than 67,000 place-name corrections in two weeks, but the Māori Language Commission later said Google could not complete the promised pronunciation fix because an English voice platform could not handle the Māori sounds. | historical demand signal and documented failure to convert community corrections into a working technical intervention | correction-to-deployment accountability, ownership, technical capability, community terms, unresolved errors and whether later systems close the previously failed loop |
+| University of Auckland Māori Pronunciation Coach | The University of Auckland describes a Māori-owned/partnered pronunciation-coaching platform that grew from pepeha recordings and educator feedback; it aims to identify how a learner mispronounced a word, provide targeted feedback and recognize an acceptable pronunciation range rather than binary right/wrong scoring. The initial web version is intended for university systems, with a five-year goal of one million users and an MBIE Smart Ideas grant. | community-linked educational prototype with a defined learner feedback mechanism and institutional launch route | released product, learner sample and improvement results, acceptable-range governance, dialect coverage, teacher workload, retention, user trust and evidence of increased speaking/use |
 | Welsh Government review of Welsh-language health and social-care data | A 2026 review supporting the Active Offer finds fragmented and inconsistently recorded data, gaps in coverage, limited user-experience data and weak links between workforce skills and service delivery; it proposes 39 indicators across service delivery, demand, workforce ability and future workforce ability. | explicit outcome-measurement framework and evidence-gap diagnosis for language access in care | routine indicator production, user-level service completion, actual demand, quality and safety, organization-level comparability and whether technology changes access or experience |
 | Sámi AI Lab Ábo Web Service | The Sámi AI Lab, hosted by Sámi University of Applied Sciences and UiT, reports a functional public-facing Ábo service that lets users speak naturally in Sámi and receive real-time transcription and translation, aimed at reducing language switching in digital spaces. | public-facing speech-to-text/translation service and named Indigenous-led development route | active users, language coverage, transcription/translation error by dialect, repeat use, professional or educational outcomes, privacy and community control of speech data |
 | Sámi AI Lab health, cultural-generation and evaluation tracks | Sámi AI Lab describes developmental work on Sámi-specific cognitive assessment, culturally accurate generative tools for duodji and a Sámi understanding benchmark; it states that the benchmark and clinical platform remain in development and positions Sámi-led governance as a control surface. | named high-stakes use cases, evaluation agenda and Indigenous-led governance structure | validated clinical performance, safety, clinical adoption, benchmark release, cultural-fidelity testing, data access rules, traditional-knowledge restrictions and outcomes for Sámi users |
@@ -180,6 +182,27 @@ but shows that fragmented administrative data and limited user-experience
 measurement prevent routine system-level evaluation. Geographic visibility and
 service accessibility are therefore separate conversion stages, even when both
 are described as language inclusion.
+
+The historical Say It Tika record is a necessary counterexample to the current
+Google Maps launch. More than 67,000 corrections demonstrate substantial public
+attention and a rich error-discovery channel, but the earlier campaign did not
+produce the promised pronunciation repair. The current Commission page shows a
+different governance design—Commission-led kaitiakitanga, licensed data, a
+feedback form and an explicit statement that dialect variation is out of scope—
+but it does not yet publish correction counts, resolution time, error rates or
+the promised long-term kaitiaki group. The lesson is not simply “community
+feedback works”; it is that a correction loop must be audited from report to
+technical change, authorization and sustained quality.
+
+The University of Auckland pronunciation coach provides a complementary
+education route. Its design is more culturally and pedagogically specific than a
+generic speech score: it starts from pepeha learning, treats pronunciation as an
+acceptable range and gives constructive remediation. The public account closes
+the problem-definition, partner and prototype-design stages, but its one-million
+user goal is an ambition, not adoption evidence. A future audit should test
+whether feedback improves learner pronunciation and confidence, whether the
+acceptable range is governed across dialects, and whether educators and learners
+actually use the tool repeatedly.
 
 The Sámi case adds a third conversion route: community-led service capability.
 Ábo is reported as a functional public platform, so it is stronger than a plan
@@ -330,6 +353,8 @@ still be evaluated separately.
 |---|---|---|
 | Māori / Te Hiku and TalkLink | Community-linked synthetic voices operate in a named AAC device and have reached small-cohort testing; a user used the voice for a mihi. | Scale, repeat use, device coverage, safety, pronunciation quality and wider cultural participation. |
 | Māori / Te Taura Whiri and Google Maps | A public place-name voice exists with Commission-guided pronunciation, a correction route, named data stewardship and a product boundary. | Usage, correction performance, dialect coverage, durable kaitiaki arrangements and changed language behavior. |
+| Māori / Say It Tika | A 2017 campaign generated more than 67,000 corrections, exposing demand and a large error-discovery stream. | Conversion of corrections into a functioning, governed and sustained pronunciation improvement. |
+| Māori / Auckland Pronunciation Coach | A community-linked learner tool defines targeted feedback and an acceptable pronunciation range. | Released product, learner improvement, dialect governance, retention and increased speaking/use. |
 | Wales | Technology outputs, mapping, translation, transcription and a proposed health/social-care indicator framework are documented. | Consistent service completion, user experience, adoption denominators and causal language-vitality effects. |
 | Sámi | An Indigenous-led lab reports a functional public Ábo platform and separates clinical, cultural-generation and benchmark workstreams. | Public telemetry, error/dialect evidence, validated high-stakes tools and outcomes for Sámi users. |
 | Basque / Euskorpus | Public funding, a public-private coalition, corpus/model infrastructure and an explicit sector-transfer plan are named. | Released artifacts, sector pilots, rights settlement, adoption and citizen outcomes. |
@@ -351,7 +376,9 @@ for all downstream gates.
 ## Next-audit queue
 
 1. **Māori:** obtain Google Maps usage/correction evidence and durable kaitiaki
-   documentation; obtain TalkLink phase-two cohort and deployment results.
+   documentation; obtain TalkLink phase-two cohort and deployment results; audit
+   the Say It Tika-to-current-voice continuity and the Pronunciation Coach
+   release/evaluation.
 2. **Welsh:** locate implementation of the 39 health/social-care indicators and
    link language skill, service encounter, user experience and outcome fields.
 3. **Sámi:** verify Ábo availability, language coverage and error evaluation;
@@ -476,3 +503,5 @@ collection; do not infer vitality from model or corpus size.
 49. [South Africa Department of Sport, Arts and Culture human-language-technology call](https://www.dsac.gov.za/index.php/OPENCALLFORPROPOSALSHUMANLANGUAGETECHNOLOGYPROJECTS2025%E2%80%932028)
 50. [Rising Academies Rori Ghana evaluation and scale-up update](https://www.risingacademies.com/risingnews/testing-rori-at-scale-a-new-rct-in-ghana)
 51. [Rori Ghana evaluation research paper](https://arxiv.org/abs/2402.09809)
+52. [Māori Television report on the Say It Tika correction-loop failure](https://www.teaonews.co.nz/2022/05/16/google-fails-to-deliver-campaign-promise-to-fix-maori-pronunciation-on-google-maps/)
+53. [University of Auckland Māori Pronunciation Coach](https://www.auckland.ac.nz/en/news/2025/07/28/building-an-ai-pronunciation-coach-for-te-reo-maori-learners.html)
