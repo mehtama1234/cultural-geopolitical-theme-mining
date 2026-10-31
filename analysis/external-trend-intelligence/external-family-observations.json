@@ -217,7 +217,10 @@
       "subtheme_leads": 61,
       "proof_cards": 40,
       "paid_records": 1374,
-      "headline": "The atlas points to an adaptation economy: people and institutions are buying control, proof, substitution, resilience, and workflow leverage in response to instability."
+      "headline": "The atlas points to an adaptation economy: people and institutions are buying control, proof, substitution, resilience, and workflow leverage in response to instability.",
+      "generated_at": "2026-09-03T02:49:42.951678+00:00",
+      "method": "Combines executive findings, level synthesis, theme/subtheme compendium, proof cards, paid evidence, and completion audit into one integrated report.",
+      "artifact_evidence_boundary": "This report is writing-ready but not claim-final. Preserve the per-theme claim limits and validate market, policy, clinical, financial, and geopolitical assertions before external publication."
     },
     {
       "observation_id": "trend-hunting-ai-deep-synthesis",
@@ -234,7 +237,27 @@
       "boundary": "The synthesis traces a bounded AI control/recourse chain; it is not an adoption estimate or proof that formal control produced durable outcomes.",
       "synthesis_status": "bounded_synthesis_outcome_link_open",
       "falsifier_count": 3,
-      "next_test": "Obtain and code the first missing implementation record in each core case, beginning with Workado notice delivery, CMG payment/fund execution, the 2026 Amazon Flex Zelle distribution, and Rytr post-reversal exposure or conduct; retain separate denominators and outcome units."
+      "next_test": "Obtain and code the first missing implementation record in each core case, beginning with Workado notice delivery, CMG payment/fund execution, the 2026 Amazon Flex Zelle distribution, and Rytr post-reversal exposure or conduct; retain separate denominators and outcome units.",
+      "checked": "2026-09-20",
+      "input_checksum_count": 16,
+      "artifact_inputs": [
+        "data/processed/signal_to_outcome_funnel_v1.json",
+        "data/processed/ai_v7_ftc_remedy_register_v1.json",
+        "data/processed/ai_v7_implementation_search_audit_v1.json",
+        "data/processed/ai_v7_recourse_maturity_matrix_v1.json",
+        "data/processed/ai_v7_acquisition_ledger_v1.json",
+        "data/processed/ai_v7_completed_redress_comparator_v1.json",
+        "data/processed/ai_v7_amazon_flex_tip_redress_comparator_v1.json",
+        "data/processed/ai_v7_worker_outcome_comparator_v1.json",
+        "data/processed/ai_v7_worker_counterexample_comparator_v1.json",
+        "data/processed/ai_v7_hotak_outcome_comparator_v1.json",
+        "data/processed/ai_v7_ayyub_comparator_v1.json",
+        "data/processed/ai_v7_observed_remedy_endpoint_register_v1.json",
+        "data/processed/ai_v7_ibm_deployment_outcome_comparator_v1.json",
+        "data/processed/ftc_rytr_post_reversal_surface_v1.json",
+        "data/processed/ai_v7_cmg_implementation_refresh_20260917.json",
+        "data/processed/ai_v7_workado_implementation_refresh_20260917.json"
+      ]
     },
     {
       "observation_id": "inc5000-rebuild-public-input-inventory",

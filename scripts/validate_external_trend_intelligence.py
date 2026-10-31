@@ -231,6 +231,10 @@ def main() -> int:
     assert len(held_candidates["candidates"]) == 2
     assert all(candidate["status"] == "held_candidate" for candidate in held_candidates["candidates"])
     assert all(candidate["mechanism"] and candidate["counter_signal"] and candidate["next_test"] for candidate in held_candidates["candidates"])
+    social_observation = next(observation for observation in family_observations["observations"] if observation["family_id"] == "social-research")
+    trend_observation = next(observation for observation in family_observations["observations"] if observation["family_id"] == "trend-hunting")
+    assert social_observation["generated_at"] and social_observation["method"] and social_observation["artifact_evidence_boundary"]
+    assert trend_observation["checked"] and trend_observation["input_checksum_count"] >= 1 and trend_observation["artifact_inputs"]
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage

@@ -187,6 +187,9 @@ def main() -> int:
                 proof_cards=social_report["counts"]["proof_cards"],
                 paid_records=social_report["counts"]["paid_records"],
                 headline=social_report["headline"],
+                generated_at=social_report["generated_at"],
+                method=social_report["method"],
+                artifact_evidence_boundary=social_report["evidence_boundary"],
                 source_url_status="not_present_in_artifact",
             ),
             record(
@@ -202,6 +205,9 @@ def main() -> int:
                 synthesis_status=trend_report["status"],
                 falsifier_count=len(trend_report.get("falsifiers", [])),
                 next_test=trend_report.get("next_test"),
+                checked=trend_report["checked"],
+                input_checksum_count=len(trend_report.get("input_checksums", {})),
+                artifact_inputs=trend_report.get("inputs", []),
                 source_url_status="not_present_in_artifact",
             ),
         ]
