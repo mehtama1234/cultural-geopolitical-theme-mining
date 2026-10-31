@@ -35,6 +35,10 @@ learning need, teacher workload, inequality and local pedagogy
 | UK Department for Education generative-AI guidance | UK guidance says AI may reduce administrative burden but evidence on learner development, educational outcomes and child safety remains limited; it emphasizes the teacher-learner relationship, bias and misinformation. | Official uncertainty and implementation boundary. | Named classroom outcomes, workload redistribution, local-language quality or sustained safety. |
 | U.S. Student Privacy Policy Office breach scenarios | Federal privacy training uses AI-tutoring data-leak and AI-grading-compromise scenarios in which initial grades/engagement and administrative confidence precede exposure of student data or unexplained grading failures. | Concrete privacy, assessment-integrity and trust failure mechanisms. | Actual incident prevalence, legal remedy, family notification, learning loss or correction outcomes. |
 | UNESCO media and information literacy in AI-mediated environments | UNESCO’s 2026 module centers critical thinking and human agency, reporting high youth AI use and concern about cognitive effects while teaching learners to question generated information and understand system power. | AI-literacy and agency curriculum pathway. | Measured changes in verification, independent learning, teacher practice, language inclusion or long-term cognition. |
+| World Bank 2026 EdTech meta-analysis | A systematic review of 191 effect sizes from 14 studies in ten economies estimates adaptive/AI interventions raise learning by 0.125 standard deviations and AI tutoring by about 0.12, but finds no evidence GenAI outperforms earlier technologies; the evidence has no low-income settings and only two studies report costs. | Bounded cross-study learning signal and explicit evidence limitations. | Durability, teacher practice, low-income transfer, cost-effectiveness, subgroup equity, language fit and independent performance without AI. |
+| World Bank Peru AI learning/career programme | Peru launched an AI Math Tutor and AI career coach in 2026, using curriculum-aligned diagnostic content and an evaluation designed to examine mathematics and labor-market connection outcomes. | Named country intervention and outcome-evaluation design. | Final randomized results, teacher mediation, student persistence, cost, language/disability access and outcomes after tool removal. |
+| World Bank EdTech evaluation portfolio | The 2026 portfolio includes randomized studies in Jordan, Pakistan, Peru, Uzbekistan and other settings testing AI tutoring, teacher analytics, lesson planning, coaching, disability access and conflict-disrupted learning. | A geographically varied evaluation pipeline and comparison architecture. | Results, implementation fidelity, teacher workload, sustained use, subgroup effects and local governance. |
+| OECD teacher-AI teaming evidence | OECD describes teacher agency as interpreting and contextualizing AI outputs; it cites an England randomized trial in which guided GenAI reduced lesson/resource planning time by 31% without reducing plan quality, while noting that how teachers use saved time is scarcely observed. | Teacher-agency mechanism and bounded workload result. | Whether saved time reaches students, reduces stress, increases relational work, shifts verification burden or persists across schools. |
 
 ## Stage audit
 
@@ -99,6 +103,13 @@ The 2026 policy evidence sharpens the institutional conversion. The U.S. Departm
   failures.
 - AI-literacy instruction can improve skepticism and agency without resolving
   unequal devices, teacher time, language quality or institutional incentives.
+- A positive pooled effect can coexist with wide study variation, no low-income
+  evidence and unknown cost-effectiveness; the average is not a universal
+  classroom result.
+- A named evaluation pipeline or launched programme is not a result; it closes
+  the test design and implementation stages only.
+- Reduced planning time is not lower total workload or improved teacher agency if
+  verification, monitoring and accountability work expand elsewhere.
 - Human oversight is not meaningful if teachers cannot inspect, override,
   explain or refuse the system, or if families have no remedy.
 - AI can improve accessibility for disabled learners while creating new
@@ -137,3 +148,7 @@ tool, and test performance both with and without AI access.
 8. [UK Department for Education generative-AI guidance](https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education/generative-artificial-intelligence-ai-in-education)
 9. [U.S. Student Privacy Policy Office breach scenario trainings](https://studentprivacy.ed.gov/data-breach-scenario-trainings)
 10. [UNESCO media and information literacy in the age of AI](https://www.unesco.org/en/artificial-intelligence/mil-age-ai)
+11. [World Bank 2026 EdTech meta-analysis](https://thedocs.worldbank.org/en/doc/2fba81cd6cd60d2f54532fc7062395fb-0050062026/can-edtech-close-learning-gaps-global-evidence-from-digital-interventions)
+12. [World Bank Peru AI learning and career programme](https://www.worldbank.org/en/brief/2026/02/25/eligiendo-mi-camino)
+13. [World Bank EdTech evaluation portfolio](https://www.worldbank.org/en/brief/2026/06/22/educational-technology-edtech0-evaluations)
+14. [OECD Digital Education Outlook 2026 teacher-AI teaming](https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/01/oecd-digital-education-outlook-2026_940e0dd8/062a7394-en.pdf)
