@@ -74,6 +74,9 @@ The corresponding URL, host, denominator, and independence audit is in
 [`external-family-lineage-review.json`](external-family-lineage-review.json).
 The two Inc. 5000 trend records have partial URL coverage review; every new
 observation remains on hold until independence and outcome evidence are checked.
+The social observation now also carries collection-round, platform, file,
+failure, and credit metadata from its pinned collection manifest; this is
+provenance context, not representative population evidence.
 The audit now also records URL and host overlap across observations, making
 possible restatement or shared-publisher dependence visible before anyone
 counts those observations as separate confirmation.

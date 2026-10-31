@@ -183,6 +183,11 @@ def main() -> int:
             assert observation["source_inventory_count"] == 17998
             assert observation["public_url_count"] == 17087
             assert observation["unlinked_source_count"] == 911
+        if observation["observation_id"] == "social-integrated-trend-atlas":
+            assert observation["collection_round_count"] >= 1
+            assert observation["collection_file_count"] >= 1
+            assert observation["collection_failure_count"] == 0
+            assert observation["collection_platform_counts"]
     family_comparisons = json.loads((ANALYSIS / "external-family-comparisons.json").read_text())
     assert family_comparisons["schema"] == "external-trend-intelligence.external-family-comparisons.v1"
     assert len(family_comparisons["comparisons"]) == 8

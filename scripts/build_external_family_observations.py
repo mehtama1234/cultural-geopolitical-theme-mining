@@ -73,6 +73,8 @@ def main() -> int:
     ibis_forces = json.loads(show(IBIS_REPO, IBIS_REV, ibis_forces_path))
     social_path = "analysis/social/integrated-trend-atlas-report.json"
     social_report = json.loads(show(SOCIAL_REPO, SOCIAL_REV, social_path))
+    social_collection_path = "analysis/social/multi-platform-collection-manifest.json"
+    social_collection = json.loads(show(SOCIAL_REPO, SOCIAL_REV, social_collection_path))
     trend_path = "data/processed/ai_v7_deep_trend_synthesis_v1.json"
     trend_report = json.loads(show(TREND_REPO, TREND_REV, trend_path))
     theme_path = "annual-report-research/analysis/company-first-principles/annual-report-final-integrated-theme-map-pass-1.md"
@@ -202,6 +204,15 @@ def main() -> int:
                 generated_at=social_report["generated_at"],
                 method=social_report["method"],
                 artifact_evidence_boundary=social_report["evidence_boundary"],
+                collection_manifest_path=social_collection_path,
+                collection_round_count=len(social_collection["rounds"]),
+                collection_file_count=sum(round_data["files"] for round_data in social_collection["rounds"]),
+                collection_failure_count=sum(round_data["failures"] for round_data in social_collection["rounds"]),
+                collection_credits_charged=sum(round_data["credits_charged"] for round_data in social_collection["rounds"]),
+                collection_platform_counts={
+                    platform: sum(round_data.get("platforms", {}).get(platform, 0) for round_data in social_collection["rounds"])
+                    for platform in sorted({platform for round_data in social_collection["rounds"] for platform in round_data.get("platforms", {})})
+                },
                 source_url_status="not_present_in_artifact",
                 observation_period=f"Social atlas generated {social_report['generated_at']}",
             ),
