@@ -200,6 +200,43 @@ scale, improves a public service, benefits smaller language communities or
 changes everyday language use. The next audit should connect platform records
 and regional commitments to named models, contracts, deployments and users.
 
+## Cross-case synthesis
+
+| Case | Strongest evidence currently closed | Conversion stage still unproven |
+|---|---|---|
+| Māori / Te Hiku and TalkLink | Community-linked synthetic voices operate in a named AAC device and have reached small-cohort testing; a user used the voice for a mihi. | Scale, repeat use, device coverage, safety, pronunciation quality and wider cultural participation. |
+| Māori / Te Taura Whiri and Google Maps | A public place-name voice exists with Commission-guided pronunciation, a correction route, named data stewardship and a product boundary. | Usage, correction performance, dialect coverage, durable kaitiaki arrangements and changed language behavior. |
+| Wales | Technology outputs, mapping, translation, transcription and a proposed health/social-care indicator framework are documented. | Consistent service completion, user experience, adoption denominators and causal language-vitality effects. |
+| Sámi | An Indigenous-led lab reports a functional public Ábo platform and separates clinical, cultural-generation and benchmark workstreams. | Public telemetry, error/dialect evidence, validated high-stakes tools and outcomes for Sámi users. |
+| Basque / Euskorpus | Public funding, a public-private coalition, corpus/model infrastructure and an explicit sector-transfer plan are named. | Released artifacts, sector pilots, rights settlement, adoption and citizen outcomes. |
+| Ireland | Technical governance, active-offer design, language-choice portability and procurement requirements are institutionalized in plans and a working group. | Changed systems, enforceable procurement, portable language choice and completed Irish-language encounters. |
+| Africa / AfriEval and EAC | Evaluation infrastructure and a regional sovereignty agenda connect language, data, compute, finance and governance. | Publicly verified deployments, smaller-language inclusion, regional infrastructure delivery and service outcomes. |
+
+The cross-case pattern is not “AI preserves minority languages.” It is a
+conversion problem with distinct gates: community authority, usable data,
+quality/evaluation, deployable product, institutional workflow, repeated user
+behavior and intergenerational or service outcomes. Different cases close
+different gates. A strong claim must name the case, gate and outcome; a funding
+announcement, benchmark, governance group or public-facing demo cannot stand in
+for all downstream gates.
+
+## Next-audit queue
+
+1. **Māori:** obtain Google Maps usage/correction evidence and durable kaitiaki
+   documentation; obtain TalkLink phase-two cohort and deployment results.
+2. **Welsh:** locate implementation of the 39 health/social-care indicators and
+   link language skill, service encounter, user experience and outcome fields.
+3. **Sámi:** verify Ábo availability, language coverage and error evaluation;
+   locate benchmark artifacts and clinical validation plans.
+4. **Basque:** track Euskorpus phase completion, released models/data, sector
+   pilots and rights/licensing terms.
+5. **Ireland:** read technical working-group minutes and trace at least one
+   public system from requirement to procurement, deployment and Irish-language
+   completion.
+6. **Africa/EAC:** identify named models, funded infrastructure, contributor
+   governance and country-level deployments rather than relying on platform or
+   declaration claims.
+
 ## Cultural and geographical interpretation
 
 Low-resource is not the same as low-value. A language can be economically small
