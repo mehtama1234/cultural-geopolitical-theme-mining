@@ -92,6 +92,24 @@ def main() -> int:
             "uncertainty": "Weighted estimate; standard error 0.97; includes Medicaid state plan, waiver, managed care, or PACE participation.",
             "standard_error": 0.97,
         },
+        {
+            "period": "2021",
+            "source_id": "cms-nj-spa-21-0012",
+            "source_url": "https://www.medicaid.gov/medicaid/spa/downloads/NJ-21-0012.pdf",
+            "measure": "new_jersey_adult_medical_day_care_per_diem",
+            "value": 86.10,
+            "unit": "US dollars per adult service day",
+            "uncertainty": "State-specific approved per-diem rate; applies to adult medical day care/ADHS and is not a national adult-day-services rate.",
+        },
+        {
+            "period": "2025",
+            "source_id": "cms-nj-spa-25-0009",
+            "source_url": "https://www.medicaid.gov/medicaid/spa/downloads/NJ-25-0009.pdf",
+            "measure": "new_jersey_adult_medical_day_care_per_diem",
+            "value": 94.66,
+            "unit": "US dollars per adult service day",
+            "uncertainty": "State-specific approved per-diem rate effective July 16, 2025; applies to adult medical day care/ADHS and is not a national adult-day-services rate.",
+        },
     ]
     by_measure = {}
     for row in observations:
@@ -101,6 +119,7 @@ def main() -> int:
         "enrolled_participants_percent_change_2022_to_2025": pct_change(by_measure["enrolled_participants"]["2022"], by_measure["enrolled_participants"]["2025"]),
         "2025_average_daily_attendance_to_enrollment_percent": round(by_measure["average_daily_attendance"]["2025"] / by_measure["enrolled_participants"]["2025"] * 100, 1),
         "2025_average_daily_attendance_to_capacity_percent": round(by_measure["average_daily_attendance"]["2025"] / by_measure["maximum_allowed_capacity"]["2025"] * 100, 1),
+        "new_jersey_adult_medical_day_care_per_diem_percent_change_2021_to_2025": pct_change(by_measure["new_jersey_adult_medical_day_care_per_diem"]["2021"], by_measure["new_jersey_adult_medical_day_care_per_diem"]["2025"]),
     }
     report = {
         "schema": "external-trend-intelligence.ibis-adult-day-outcome-review.v1",
@@ -111,13 +130,13 @@ def main() -> int:
         "ibis_claim_boundary": "IBIS describes adult-day capacity as constrained by payer authorization, attendance, documentation, staffing, and transportation; the industry record does not itself establish an outcome series.",
         "observations": observations,
         "derived_changes": changes,
-        "interpretation": "The CDC series documents a larger national adult-day service footprint in 2025 than the 2022 estimate and supplies payer, attendance, and capacity measures that can test the capacity mechanism. The measures are descriptive and do not show that compliance caused the changes.",
-        "independence_status": "same_publisher_temporal_series",
-        "outcome_status": "dated_outcome_measures_present",
-        "backtest_status": "descriptive_temporal_comparison_only",
+        "interpretation": "The CDC series documents a larger national adult-day service footprint in 2025 than the 2022 estimate, while CMS records a New Jersey adult medical day-care per-diem increase from $86.10 in 2021 to $94.66 effective July 16, 2025. These measures support a bounded capacity-and-payer mechanism comparison but do not show that compliance caused the changes.",
+        "independence_status": "partial_cross_publisher_temporal_mechanism_comparison",
+        "outcome_status": "dated_outcomes_and_independent_policy_measure_present",
+        "backtest_status": "bounded_cross_publisher_mechanism_comparison",
         "counter_signal": "Growth in centers and participants does not prove improved access, margins, staffing, or service quality; 2022 and 2025 survey frames and definitions must be reconciled before treating changes as a structural trend.",
         "falsifier": "After frame and definition reconciliation, the capacity and payer measures do not move in the hypothesized direction or independent state-level outcomes contradict the national pattern.",
-        "next_action": "Add an independent state Medicaid authorization/rate or service-utilization series and reconcile 2022 versus 2025 NPALS frames before using this lane in qualification.",
+        "next_action": "Add state-level attendance, authorization, or claims utilization and reconcile 2022 versus 2025 NPALS frames before using this lane in qualification.",
         "boundary": "This bounded review covers one IBIS industry and one CDC source family. It does not validate the full IBIS finding, establish causal compliance effects, or authorize an internal company bridge.",
     }
     OUTPUT.write_text(json.dumps(report, indent=2) + "\n")

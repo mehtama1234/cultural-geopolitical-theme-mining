@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "e7bfd1b30f251abbfe6a0005441b3aabb5c7df08",
+  "source_tree_commit": "16b26dc46cfcea5f7db2445c50422c1da652da0c",
   "artifact_count": 84,
   "artifacts": [
     {
@@ -122,7 +122,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1833,
-      "sha256": "15b0d895b1f50dea24cfacce30b904e24861b7506dd7bebb54224a15f6a59376"
+      "sha256": "aa9fa17ddf6f379417021b7aa26fb0918037c84601437f75dc3080ab644ab040"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -176,8 +176,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5732,
-      "sha256": "6618941bcf6be9367d1dfd28df0ecef667a005743fb21d82e29d6ebe057a8008"
+      "bytes": 5733,
+      "sha256": "e012b12607d758e17f7a04ee621615c75a924ef377c819ac4ae21f53aad25b29"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -276,13 +276,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-adult-day-outcome-review.json",
-      "bytes": 5644,
-      "sha256": "7089c9b6fe841a028dee7f898d34580e7e33770238848c3709cbd770d839757e"
+      "bytes": 6760,
+      "sha256": "f67797b62627462a1601c8c73aa067ba111a6d0962904e8e527a81b006bcee03"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 20449,
-      "sha256": "5f36729ad117b5456e134cc739b6b015cf1fc4f0f8c5ee516dfd33dbc5e1a6eb"
+      "bytes": 20883,
+      "sha256": "0228108074a2b9fb211f4239fe10cb7362298a725627c863c9d57c34833477b3"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
