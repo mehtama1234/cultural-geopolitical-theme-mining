@@ -61,6 +61,8 @@ language exclusion, low-resource data and intergenerational decline
 | Vambo AI MORENA open-weight model | Vambo’s research page and model card describe MORENA as a 1.5-billion-parameter decoder trained from scratch for 12 Latin-script African languages plus English, French and code; the model card publishes weights and reports held-out language-model and translation metrics, while Vambo’s research page presents the result as open research. | named released model artifact, language coverage and reproducible headline evaluation record | independent replication, training-data provenance and licensing, dialect coverage, safety/cultural evaluation, downstream fine-tunes, production users, service outcomes and sustainability |
 | MORENA model-card evaluation and disclosure boundary | The model card identifies an Apache-2.0 license and detailed results, but says the training corpus is not released, no native speaker has yet rated an answer, grounded generation is fully faithful in 23% of attempts, benign requests are answered well in 58.9%, and the checkpoint is not deployed by an inference provider. | transparent disclosure of several quality and access limitations alongside the released weights | native-speaker evaluation, dataset rights and coverage, independent replication, culturally safe deployment, production access and user or service outcomes |
 | Vambo AI developer API preview | Vambo’s developer page presents translation, transcription, language detection, generation and text-to-speech endpoints for 60+ African languages, but labels the API a developer preview and asks users to join a waitlist. | product-surface definition and intended application route | public availability, uptime, actual language-by-language quality, customer adoption, pricing, data handling, safety controls and deployed applications |
+| Vambo named case studies | Vambo’s case-studies page names Valingo in education, Hazina Africa in fintech and NoDozz in health; it describes local-language learning content, multilingual banking interfaces and voice-based health information, and reports improved comprehension/engagement, expanded financial access and health-information delivery. | named organizational use cases across education, finance and health | customer contracts, user counts, language/dialect coverage, repeated use, outcome measurement, safety, retention, independent corroboration and whether the results are attributable to Vambo |
+| Vambo self-reported commercial scale | Vambo’s investor page reports 10M+ API calls per month, 15+ enterprise partners, an 80+ linguist network, 60+ supported languages, 99.9% uptime and on-device inference; these are company-reported metrics rather than independently audited operating data. | commercial and operational scale claims with named capacity indicators | metric definitions, time series, partner identities, call quality, geographic/language distribution, retention, revenue, SLA evidence and public-benefit outcomes |
 
 ## Stage audit
 
@@ -243,6 +245,14 @@ over-refusal, no native-speaker answer rating and no inference-provider
 deployment. Open weights and strong aggregate metrics can coexist with poor
 task reliability, incomplete cultural evaluation and limited access to a
 production service.
+The named case studies move one stage further by identifying organizations and
+intended domains, but their “results” remain vendor-reported. They do not yet
+show denominators, baseline comparisons, language-specific quality, safety
+incidents, retention or independently measured comprehension, financial access
+or health outcomes. This is customer/use-case evidence, not customer-impact
+evidence. The investor metrics should be treated similarly: API volume and
+partner counts are useful leads, but without definitions and time series they
+cannot establish durable adoption or equitable coverage.
 
 ## Cross-case synthesis
 
@@ -375,3 +385,5 @@ collection; do not infer vitality from model or corpus size.
 36. [Vambo AI research and MORENA model announcement](https://vambo.ai/research)
 37. [MORENA 1.5B model card](https://huggingface.co/vamboai/morena-1.5b-instruct)
 38. [Vambo AI developer API preview](https://vambo.ai/developers)
+39. [Vambo AI named case studies](https://vambo.ai/case-studies)
+40. [Vambo AI investor and commercial-scale claims](https://vambo.ai/investors)
