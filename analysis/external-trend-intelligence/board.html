@@ -561,6 +561,10 @@
       ibisSampleDuplicateUrlCount = Object.keys(ibisSample.duplicate_source_urls).length;
       const ibisSamples = el('ibis-sample'); ibisSample.samples.forEach(sample => ibisSamples.append(ibisSampleCard(sample)));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
+    fetch('program-scorecard.json').then(r => r.json()).then(scorecard => {
+      const m = scorecard.metrics;
+      el('goal-audit').append(card('Program scorecard', 'measured', `${m.records.toLocaleString()} records · ${m.source_families} source families · ${m.refresh_runs} refresh runs · ${m.latest_pipeline_steps} steps ${m.latest_pipeline_status} · ${m.qualified_external_trends} qualified trends · ${m.approved_company_pilots} approved pilots`));
+    });
   </script>
 </body>
 </html>

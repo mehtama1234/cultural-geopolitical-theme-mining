@@ -47,6 +47,7 @@ STEPS = [
     ["scripts/test_rights_release_gate.py"],
     ["scripts/test_internal_bridge_gate.py"],
     ["scripts/build_refresh_history.py"],
+    ["scripts/build_program_scorecard.py"],
     ["scripts/build_external_release_manifest.py"],
     ["scripts/validate_external_trend_intelligence.py"],
     ["scripts/smoke_test_external_board.py"],

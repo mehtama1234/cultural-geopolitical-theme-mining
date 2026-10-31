@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "1adedb4e587866bea64380765fef4c1c51e2aea6",
-  "artifact_count": 63,
+  "source_tree_commit": "5363ba2677716b63a48ddd44279c1e8863cbffcf",
+  "artifact_count": 64,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -107,7 +107,12 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2238,
-      "sha256": "3bd54775eb5fcd584e79b39cad9e6d6074f065eb9097dee4b56570616a325401"
+      "sha256": "ea6f440e144caaa7aebc56d783a06d79d69f8fd7c171bcfd39c19ab9160e99fc"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/program-scorecard.json",
+      "bytes": 1788,
+      "sha256": "130eae4a7b39ef8cdc9fad5c82cdeb26dbdcc6a2278a62db7a86fde56a29acd1"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -131,8 +136,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 3871,
-      "sha256": "b8e15047fdb79887fbe7bfd261858787a94eda1c03caccf809ab16303491cc5b"
+      "bytes": 3898,
+      "sha256": "0c1d23b0c9c8c3b59421a101e7b9ac95bcaeca406c728f650d8eae92161b1e78"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
@@ -162,7 +167,7 @@
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
       "bytes": 5728,
-      "sha256": "8bfc20658393712dd2530d414fb40cbac68ad3e6fed9a262359025b1743a7863"
+      "sha256": "66b827b38c26480d0a63fc6a617b7e9e6f44b6058eb4cd55979eeddcdfb6e97b"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -221,8 +226,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 5259,
-      "sha256": "9d43beba082bc736c19b97ee7d52a1f275dc044ffa61e66a4e240fd2f4ead4d3"
+      "bytes": 5693,
+      "sha256": "a84b5991ab5e3d90d22ec64d76c7183ca0f01da141f334b4248520bbbd833b78"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
@@ -306,8 +311,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 47148,
-      "sha256": "3367aeae59d24395dd7b6543f1cd3852b633bed99d40092deb0516161e369110"
+      "bytes": 47615,
+      "sha256": "f13c8d19ff9f87fe1b18efd5ca45586e09dea2c94d796194601cc2d97055fe1e"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",

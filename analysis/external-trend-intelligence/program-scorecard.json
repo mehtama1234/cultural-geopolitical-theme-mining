@@ -1,0 +1,63 @@
+{
+  "schema": "external-trend-intelligence.program-scorecard.v1",
+  "as_of": "2026-10-31",
+  "objective": "two-year external-first enterprise trend-intelligence observatory",
+  "metrics": {
+    "records": 2134,
+    "themes": 14,
+    "source_families": 8,
+    "refresh_runs": 13,
+    "latest_pipeline_steps": 41,
+    "latest_pipeline_status": "passed",
+    "stale_families": 0,
+    "qualified_external_trends": 0,
+    "approved_company_pilots": 0,
+    "rights_reviews_required": 8
+  },
+  "phases": [
+    {
+      "phase": "months_0_3_control_plane",
+      "status": "established",
+      "exit_evidence": [
+        "source-family-registry.json",
+        "trend-qualification-rubric.json",
+        "release-manifest.json"
+      ]
+    },
+    {
+      "phase": "months_4_6_dependable_external_intake",
+      "status": "operational",
+      "exit_evidence": [
+        "refresh-history.json",
+        "refresh-status.json",
+        "test_refresh_stale_gate.py"
+      ]
+    },
+    {
+      "phase": "months_7_12_trend_qualification",
+      "status": "in_progress",
+      "exit_evidence": [
+        "candidate-qualification-matrix.json",
+        "backtest-readiness.json",
+        "trend-monitoring-register.json"
+      ]
+    },
+    {
+      "phase": "months_13_18_decision_relevance",
+      "status": "design_only",
+      "exit_evidence": [
+        "pilot-register.json",
+        "test_internal_bridge_gate.py"
+      ]
+    },
+    {
+      "phase": "months_19_24_operational_handoff",
+      "status": "future",
+      "exit_evidence": [
+        "ANALYST-OPERATING-MODEL.md",
+        "program-scorecard.json"
+      ]
+    }
+  ],
+  "boundary": "This scorecard measures program control-plane progress. It does not claim that sources are rights-cleared, trends are causal, or company pilots are validated."
+}
