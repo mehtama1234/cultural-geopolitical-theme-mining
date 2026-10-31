@@ -86,7 +86,7 @@
       <div class="held-candidates" id="held-candidates"></div>
       <div class="measurements" id="care-measurements"></div>
     </section>
-    <footer>Serve this directory over HTTP to load the JSON manifests. Source records remain authoritative; this board is a reader.</footer>
+    <footer>Serve this directory over HTTP to load the JSON manifests. Source records remain authoritative; this board is a reader. Release: <code id="release-commit">—</code></footer>
   </main>
   <script>
     const el = id => document.getElementById(id);
@@ -157,7 +157,8 @@
       fetch('external-family-observations.json').then(r => r.json()),
       fetch('care-capacity-candidate.json').then(r => r.json()),
       fetch('care-capacity-comparable-subset.json').then(r => r.json()),
-    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidate, careSubset]) => {
+      fetch('release-manifest.json').then(r => r.json()),
+    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidate, careSubset, release]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -166,6 +167,7 @@
       el('intake-count').textContent = familyComparisons.comparisons.length;
       el('family-observation-count').textContent = familyObservations.observation_count;
       el('held-candidate-count').textContent = 1;
+      el('release-commit').textContent = release.repository_commit.slice(0, 12);
       barChart(el('theme-chart'), Object.entries(manifest.program_theme_counts).sort((a,b) => b[1]-a[1]), manifest.record_count);
       barChart(el('host-chart'), Object.entries(manifest.source_host_counts).slice(0, 16), manifest.record_count);
       const sourceTypes = {};
