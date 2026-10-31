@@ -43,6 +43,8 @@ def main() -> int:
                             "pipeline_status",
                             "U.S. USDA food-security temporal holdout",
                             "Falsifier:",
+                            "Program scorecard",
+                            "program-scorecard.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:
