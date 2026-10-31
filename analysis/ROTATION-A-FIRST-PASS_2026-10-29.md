@@ -105,6 +105,18 @@ The machine-readable source ledger is
 The broader prioritization rule is the
 [trend/subtheme discovery queue](US-BROAD-TREND-DISCOVERY-QUEUE_V1.md).
 
+## Sources
+
+The six source records below are also preserved in the companion
+[`ROTATION-A-SOURCE-LEDGER_2026-10-29.csv`](ROTATION-A-SOURCE-LEDGER_2026-10-29.csv):
+
+- FTC, [Complying with the Take It Down Act](https://www.ftc.gov/business-guidance/resources/complying-take-it-down-act)
+- FTC, [GM/OnStar privacy order](https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-finalizes-order-settling-allegations-gm-onstar-collected-sold-geolocation-data-without-consumers)
+- PJM, [review of the large-load transfer event](https://insidelines.pjm.com/pjm-dominion-review-large-load-transfer-event/)
+- PJM, [FERC technical-conference operating requirements](https://insidelines.pjm.com/pjm-ferc-focus-on-large-load-challenges-at-tech-conference/)
+- NATO, [role in capability development](https://nato.int/en/what-we-do/deterrence-and-defence/natos-role-in-capability-development)
+- NATO, [Ankara Summit Declaration](https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/the-ankara-summit-declaration)
+
 ## Decision boundary
 
 This first pass adds source-led hypotheses and sharper acquisition targets. It
