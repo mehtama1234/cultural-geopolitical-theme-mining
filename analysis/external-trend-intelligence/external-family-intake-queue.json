@@ -65,6 +65,24 @@
       "target_observations": ["force", "category", "causal chain", "affected industry", "leading indicator", "falsifier"],
       "status": "ready_for_extraction",
       "boundary": "Force chains are working hypotheses until claim-level evidence, counterevidence, and falsifiers are attached."
+    },
+    {
+      "id": "social-integrated-trend-atlas",
+      "family_id": "social-research",
+      "source_path": "analysis/social/integrated-trend-atlas-report.json",
+      "intake_type": "public-signal-trend-atlas",
+      "target_observations": ["theme", "cross-theme finding", "subtheme lead", "proof card", "paid-record count", "evidence boundary"],
+      "status": "ready_for_extraction",
+      "boundary": "Public discussion and trend synthesis are signals, not representative prevalence, causality, market size, or buying intent."
+    },
+    {
+      "id": "trend-hunting-ai-deep-synthesis",
+      "family_id": "trend-hunting",
+      "source_path": "data/processed/ai_v7_deep_trend_synthesis_v1.json",
+      "intake_type": "bounded-deep-trend-synthesis",
+      "target_observations": ["claim", "control/recourse chain", "falsifier", "next decisive test", "outcome boundary"],
+      "status": "ready_for_extraction",
+      "boundary": "The synthesis is bounded interpretation; it is not an adoption estimate or proof of durable outcomes."
     }
   ]
 }

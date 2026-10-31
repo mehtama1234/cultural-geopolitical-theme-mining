@@ -47,6 +47,28 @@ FAMILIES = [
         ],
         "directory_prefixes": ["trend-review-batches/"],
     },
+    {
+        "id": "social-research",
+        "repository_path": "/home/mehta/git-repo/social-research",
+        "revision": "c2ff3e3a49129117802425514660ce4b2cf67744",
+        "manifest_paths": [
+            "analysis/social/integrated-trend-atlas-report.json",
+            "analysis/social/multi-platform-collection-manifest.json",
+            "analysis/social/publication-release-manifest.json",
+        ],
+        "directory_prefixes": ["analysis/social/", "social-trends/"],
+    },
+    {
+        "id": "trend-hunting",
+        "repository_path": "/home/mehta/git-repo/trend-hunting",
+        "revision": "19d8b2443f26f52da2331736320dcb265a9de34f",
+        "manifest_paths": [
+            "analysis/DEEP-TRENDS-EVIDENCE-GRAPH-V1.md",
+            "analysis/CROSS-REPOSITORY-DEEP-TRENDS-INTEGRATION-V1.md",
+            "data/processed/ai_v7_deep_trend_synthesis_v1.json",
+        ],
+        "directory_prefixes": ["analysis/", "data/processed/"],
+    },
 ]
 
 

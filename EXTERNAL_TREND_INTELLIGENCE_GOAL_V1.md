@@ -97,8 +97,9 @@ The first implementation is live in
   snapshot;
 - `14` program themes and `4` qualified-but-unconfirmed cross-source
   candidates are visible on the board;
-- `8` observations from pinned Inc. 5000, annual-report, and IBIS artifacts
-  have been normalized with source paths, revisions, units, and boundaries;
+- `10` observations from pinned Inc. 5000, annual-report, IBIS,
+  social-research, and trend-hunting artifacts have been normalized with
+  source paths, revisions, units, and boundaries;
 - `6` external-family comparisons and `1` held care/longevity candidate have
   been added without treating thematic adjacency as a valid join; and
 - `0` internal company datasets have been joined or used to claim company

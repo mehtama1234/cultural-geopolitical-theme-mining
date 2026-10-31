@@ -112,7 +112,7 @@ def main() -> int:
     repository_snapshot = json.loads((ANALYSIS / "repository-family-snapshot.json").read_text())
     assert repository_snapshot["schema"] == "external-trend-intelligence.repository-family-snapshot.v1"
     snapshot_families = {family["id"]: family for family in repository_snapshot["families"]}
-    for family_id in ("annual-report-research", "inc5000-analysis", "ibis-industries"):
+    for family_id in ("annual-report-research", "inc5000-analysis", "ibis-industries", "social-research", "trend-hunting"):
         family = snapshot_families[family_id]
         assert family["revision"] == families[family_id]["revision"]
         assert family["manifest_paths"]
@@ -121,7 +121,7 @@ def main() -> int:
         assert family["boundary"]
     intake_queue = json.loads((ANALYSIS / "external-family-intake-queue.json").read_text())
     assert intake_queue["schema"] == "external-trend-intelligence.external-family-intake-queue.v1"
-    assert len(intake_queue["items"]) == 7
+    assert len(intake_queue["items"]) == 9
     assert intake_queue["promotion_rule"]
     for item in intake_queue["items"]:
         assert item["family_id"] in snapshot_families
@@ -131,7 +131,7 @@ def main() -> int:
         assert item["boundary"]
     family_observations = json.loads((ANALYSIS / "external-family-observations.json").read_text())
     assert family_observations["schema"] == "external-trend-intelligence.external-family-observations.v1"
-    assert family_observations["observation_count"] == len(family_observations["observations"]) == 8
+    assert family_observations["observation_count"] == len(family_observations["observations"]) == 10
     observation_ids = [observation["observation_id"] for observation in family_observations["observations"]]
     assert len(set(observation_ids)) == len(observation_ids)
     for observation in family_observations["observations"]:

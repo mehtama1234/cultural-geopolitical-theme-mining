@@ -17,6 +17,10 @@ ANNUAL_REPO = "/home/mehta/git-repo/organization-intelligence-system"
 ANNUAL_REV = "5d4434b9ff46e8d28176624a7ec44dfddee8be4b"
 IBIS_REPO = "/home/mehta/git-repo/ibis-industries"
 IBIS_REV = "b895acd021fbe3dc1d610255952b1373748e3bc3"
+SOCIAL_REPO = "/home/mehta/git-repo/social-research"
+SOCIAL_REV = "c2ff3e3a49129117802425514660ce4b2cf67744"
+TREND_REPO = "/home/mehta/git-repo/trend-hunting"
+TREND_REV = "19d8b2443f26f52da2331736320dcb265a9de34f"
 
 
 def show(repo: str, revision: str, path: str) -> str:
@@ -65,6 +69,10 @@ def main() -> int:
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
     ibis_forces_path = "cross_industry_trends_2025_2026.json"
     ibis_forces = json.loads(show(IBIS_REPO, IBIS_REV, ibis_forces_path))
+    social_path = "analysis/social/integrated-trend-atlas-report.json"
+    social_report = json.loads(show(SOCIAL_REPO, SOCIAL_REV, social_path))
+    trend_path = "data/processed/ai_v7_deep_trend_synthesis_v1.json"
+    trend_report = json.loads(show(TREND_REPO, TREND_REV, trend_path))
     theme_path = "annual-report-research/analysis/company-first-principles/annual-report-final-integrated-theme-map-pass-1.md"
     theme_map = show(ANNUAL_REPO, ANNUAL_REV, theme_path)
     theme_rows = re.findall(r"\| (Core|Expansion) \| ([^|]+) \|", theme_map)
@@ -158,6 +166,42 @@ def main() -> int:
                 "reported_synthesis",
                 "Business-force chains connect external conditions to industry mechanisms but remain hypotheses until claim-level evidence and falsifiers are checked.",
                 force_titles=[force["title"] for force in ibis_forces["forces"]],
+                source_url_status="not_present_in_artifact",
+            ),
+        ]
+    )
+    observations.extend(
+        [
+            record(
+                "social-integrated-trend-atlas",
+                "social-research",
+                social_path,
+                SOCIAL_REV,
+                social_report["title"],
+                social_report["counts"]["themes"],
+                "themes in integrated social atlas",
+                "reported_synthesis",
+                "The social atlas synthesizes public-signal and paid-research inputs; discussion and trend signals are not representative prevalence, causal effects, or market size.",
+                cross_theme_findings=social_report["counts"]["cross_theme_findings"],
+                subtheme_leads=social_report["counts"]["subtheme_leads"],
+                proof_cards=social_report["counts"]["proof_cards"],
+                paid_records=social_report["counts"]["paid_records"],
+                headline=social_report["headline"],
+                source_url_status="not_present_in_artifact",
+            ),
+            record(
+                "trend-hunting-ai-deep-synthesis",
+                "trend-hunting",
+                trend_path,
+                TREND_REV,
+                "Trend-hunting AI deep-trend synthesis",
+                len(trend_report["claims"]),
+                "bounded synthesis claims",
+                "reported_synthesis",
+                "The synthesis traces a bounded AI control/recourse chain; it is not an adoption estimate or proof that formal control produced durable outcomes.",
+                synthesis_status=trend_report["status"],
+                falsifier_count=len(trend_report.get("falsifiers", [])),
+                next_test=trend_report.get("next_test"),
                 source_url_status="not_present_in_artifact",
             ),
         ]

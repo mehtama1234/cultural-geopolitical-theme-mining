@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.external-family-observations.v1",
   "purpose": "First normalized observations from pinned external repository artifacts; these are not yet promoted cross-source trends.",
-  "observation_count": 8,
+  "observation_count": 10,
   "observations": [
     {
       "observation_id": "inc5000-health-longevity-demand-source-linked-share",
@@ -199,6 +199,42 @@
         "Consumers split between value, identity, health, and experience",
         "Capital selectivity accelerates consolidation and operating discipline"
       ]
+    },
+    {
+      "observation_id": "social-integrated-trend-atlas",
+      "family_id": "social-research",
+      "source_path": "analysis/social/integrated-trend-atlas-report.json",
+      "source_revision": "c2ff3e3a49129117802425514660ce4b2cf67744",
+      "title": "Integrated Social Trend Atlas Report",
+      "value": 11,
+      "unit": "themes in integrated social atlas",
+      "observation_period": "artifact release dated 2026-10-30 or pinned revision",
+      "geography": "not specified in the artifact",
+      "source_url_status": "not_present_in_artifact",
+      "evidence_status": "reported_synthesis",
+      "boundary": "The social atlas synthesizes public-signal and paid-research inputs; discussion and trend signals are not representative prevalence, causal effects, or market size.",
+      "cross_theme_findings": 6,
+      "subtheme_leads": 61,
+      "proof_cards": 40,
+      "paid_records": 1374,
+      "headline": "The atlas points to an adaptation economy: people and institutions are buying control, proof, substitution, resilience, and workflow leverage in response to instability."
+    },
+    {
+      "observation_id": "trend-hunting-ai-deep-synthesis",
+      "family_id": "trend-hunting",
+      "source_path": "data/processed/ai_v7_deep_trend_synthesis_v1.json",
+      "source_revision": "19d8b2443f26f52da2331736320dcb265a9de34f",
+      "title": "Trend-hunting AI deep-trend synthesis",
+      "value": 6,
+      "unit": "bounded synthesis claims",
+      "observation_period": "artifact release dated 2026-10-30 or pinned revision",
+      "geography": "not specified in the artifact",
+      "source_url_status": "not_present_in_artifact",
+      "evidence_status": "reported_synthesis",
+      "boundary": "The synthesis traces a bounded AI control/recourse chain; it is not an adoption estimate or proof that formal control produced durable outcomes.",
+      "synthesis_status": "bounded_synthesis_outcome_link_open",
+      "falsifier_count": 3,
+      "next_test": "Obtain and code the first missing implementation record in each core case, beginning with Workado notice delivery, CMG payment/fund execution, the 2026 Amazon Flex Zelle distribution, and Rytr post-reversal exposure or conduct; retain separate denominators and outcome units."
     },
     {
       "observation_id": "inc5000-rebuild-public-input-inventory",

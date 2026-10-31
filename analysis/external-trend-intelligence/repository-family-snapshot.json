@@ -91,6 +91,60 @@
         "trend-review-batches/": 4854
       },
       "boundary": "Blob lineage proves what was present at the pinned revision; it does not prove that every record is independent, current, representative, or suitable for a trend claim."
+    },
+    {
+      "id": "social-research",
+      "repository_path": "/home/mehta/git-repo/social-research",
+      "revision": "c2ff3e3a49129117802425514660ce4b2cf67744",
+      "manifest_paths": [
+        {
+          "path": "analysis/social/integrated-trend-atlas-report.json",
+          "blob": "b1fa15b6c0714cba492bacc7095e7b1f5841ae17",
+          "size": 81965
+        },
+        {
+          "path": "analysis/social/multi-platform-collection-manifest.json",
+          "blob": "3e63e77d3ec88a497482a2d4de32a448f457fcad",
+          "size": 5805
+        },
+        {
+          "path": "analysis/social/publication-release-manifest.json",
+          "blob": "458ba76de740daaf512356885a21447f580657e0",
+          "size": 6979
+        }
+      ],
+      "directory_prefix_counts": {
+        "analysis/social/": 4777,
+        "social-trends/": 133
+      },
+      "boundary": "Blob lineage proves what was present at the pinned revision; it does not prove that every record is independent, current, representative, or suitable for a trend claim."
+    },
+    {
+      "id": "trend-hunting",
+      "repository_path": "/home/mehta/git-repo/trend-hunting",
+      "revision": "19d8b2443f26f52da2331736320dcb265a9de34f",
+      "manifest_paths": [
+        {
+          "path": "analysis/DEEP-TRENDS-EVIDENCE-GRAPH-V1.md",
+          "blob": "17c78a8a459c39995cd79d0fe9ae11f1cbfae6cb",
+          "size": 2403
+        },
+        {
+          "path": "analysis/CROSS-REPOSITORY-DEEP-TRENDS-INTEGRATION-V1.md",
+          "blob": "b8d1bbc0a7240c90dc344ada46b3b7e0139f8419",
+          "size": 8427
+        },
+        {
+          "path": "data/processed/ai_v7_deep_trend_synthesis_v1.json",
+          "blob": "917bba38ef7466b26d294bc62fd0cdb8c59dc6b5",
+          "size": 11999
+        }
+      ],
+      "directory_prefix_counts": {
+        "analysis/": 1134,
+        "data/processed/": 1299
+      },
+      "boundary": "Blob lineage proves what was present at the pinned revision; it does not prove that every record is independent, current, representative, or suitable for a trend claim."
     }
   ]
 }
