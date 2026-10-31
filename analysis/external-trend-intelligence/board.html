@@ -169,6 +169,12 @@
       <div class="promotion-gates" id="temporal-holdout"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>U.S. SHED temporal holdout</h2>
+      <p class="muted">Federal Reserve SHED data are shown as a single-family U.S. holdout. This is descriptive evidence, not independent confirmation or a pooled international trend.</p>
+      <div class="panel" style="margin:12px 0"><h3>Construction versus holdout endpoint</h3><div id="shed-holdout-chart"></div></div>
+      <div class="promotion-gates" id="shed-holdout"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>External source families and refresh cadence</h2>
       <p class="muted">These families feed discovery. The cadence is a maintenance trigger, not proof that sources are independent or continuously available.</p>
       <div class="source-families" id="source-families"></div>
@@ -477,6 +483,14 @@
       });
       fetch('temporal-decision-narrative.json').then(r => r.json()).then(narrative => {
         el('temporal-holdout').append(card(narrative.headline, narrative.status, narrative.decision_use + ' ' + narrative.counter_signal));
+      });
+      fetch('shed-temporal-holdout.json').then(r => r.json()).then(holdout => {
+        holdoutChart(el('shed-holdout-chart'), [{
+          measure: 'doing okay / living comfortably',
+          construction_value: holdout.construction_end.value,
+          holdout_value: holdout.holdout_end.value,
+        }]);
+        el('shed-holdout').append(card(`${holdout.construction_period} → ${holdout.holdout_period}`, holdout.status, `${holdout.readout} ${holdout.falsifier}`));
       });
       el('bounded-lineage').append(boundedLineageCard(boundedLineage));
       const rightsCards = el('rights-queue'); rightsQueue.rows.forEach(row => rightsCards.append(rightsCard(row)));
