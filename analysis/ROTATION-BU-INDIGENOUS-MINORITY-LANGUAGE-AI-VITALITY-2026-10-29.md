@@ -39,6 +39,7 @@ language exclusion, low-resource data and intergenerational decline
 | Welsh Government technology and AI summary 2025–2026 | Welsh Government reports nearly half a million new English–Welsh sentences, improved Welsh transcription and synthetic voices, named tools including Trawsgrifiwr and Macsen, and Welsh transcription used in government meetings and press work. | data/tool production plus named workflow use | tool users, usage volume, accuracy, correction, repeat adoption, service completion and effect on daily language use |
 | Welsh Government technology summary and Mapio Cymru | Welsh Government reports over 30,000 Welsh names on OpenStreetMap, Welsh mapping services and community contribution; Senedd Cymru uses Mapio Cymru work as the basis for its constituency map. | open geographic data and institutional map deployment | active users, search/routing use, place-name correction, community participation and effect on language visibility |
 | Business Wales Helo Blod milestone | Business Wales reports one million translated words and more than 1,000 participating businesses; one named business describes using Welsh social media, product descriptions and labelling. | service reach and named business implementation | repeat requests, retained content, customer interaction, revenue or language-use change and representativeness of the success case |
+| Welsh Government Annual Population Survey 2025–2026 refresh | APS estimates 843,700 Welsh speakers and 446,800 people reporting daily Welsh use; the release says the change is not statistically significant, APS accreditation is suspended, survey mode may affect results and the census remains the target measure. | updated population and daily-use signal with explicit uncertainty | causal link to technology, education or service interventions; durable cohort use, transmission and comparable census/National Survey trend |
 
 ## Stage audit
 
@@ -101,6 +102,14 @@ describes outputs or examples rather than denominator-based adoption. A million
 translated words, 30,000 place names or 1,000 businesses can demonstrate reach
 without showing repeat use, quality across dialects, retention, customer
 behavior or intergenerational transmission.
+
+The latest APS refresh does not justify a simple “vitality is rising” claim.
+The survey estimate moves to 843,700 speakers and 446,800 daily speakers, but
+the Welsh Government says the change is not statistically significant, the APS
+has increased uncertainty, and the census—not APS—is the measure for the
+million-speaker target. This makes the measurement problem part of the theme:
+technology outputs can be documented faster than population-level language
+change can be attributed or reliably observed.
 
 ## Cultural and geographical interpretation
 
@@ -171,3 +180,4 @@ collection; do not infer vitality from model or corpus size.
 11. [Welsh Government technology and AI summary 2025–2026](https://www.gov.wales/welsh-language-technology-and-artificial-intelligence-ai-summary-2025-2026)
 12. [Welsh Government technology and AI summary 2024–2025](https://www.gov.wales/welsh-technology-and-artificial-intelligence-ai-summary-2024-2025)
 13. [Business Wales Helo Blod one-million-word milestone](https://businesswales.gov.wales/news-and-blog/1-million-milestone-marked-free-welsh-translation-service)
+14. [Welsh Government Annual Population Survey 2025–2026](https://www.gov.wales/welsh-language-data-annual-population-survey-april-2025-march-2026-html)
