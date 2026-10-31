@@ -46,6 +46,8 @@ language exclusion, low-resource data and intergenerational decline
 | TalkLink Annual Report 2025 Tua o te Pae | TalkLink reports Te Hiku Media voices being tested by a small number of Māori Accent-device users, positive feedback, preferred-gender voice options and work to adapt voices for Grid 3 and wider devices. | small-cohort user testing and compatibility expansion | cohort size, participant characteristics, repeated daily use, communication success, language participation, user safety and broad rollout |
 | Te Taura Whiri i te Reo Māori and Google Maps text-to-speech | The Māori Language Commission reports a public Google Maps voice that pronounces Māori place names, a feedback route for errors, Commission-guided pronunciation, New Zealand Geographic Board data, Commission kaitiakitanga and Google licensing; the release is currently limited to Google Maps and does not cover dialect variation. | public-facing geographic voice deployment with named stewardship and correction route | usage volume, correction counts, pronunciation quality by region/dialect, long-term kaitiaki structure, benefit sharing and effect on Māori-language use or place-name behavior |
 | Say It Tika correction-loop failure | Māori Television reported that the 2017 Say It Tika campaign collected more than 67,000 place-name corrections in two weeks, but the Māori Language Commission later said Google could not complete the promised pronunciation fix because an English voice platform could not handle the Māori sounds. | historical demand signal and documented failure to convert community corrections into a working technical intervention | correction-to-deployment accountability, ownership, technical capability, community terms, unresolved errors and whether later systems close the previously failed loop |
+| New Zealand Geographic Board Say It Tika orthography follow-through | An official NZGB/LINZ record says the Say It Tika work led to recommendations for 629 recorded names to be approved with standardized orthography and 24 official names to receive corrigenda, while approximately 5,700 names were deferred for further analysis or consultation. It also distinguishes spelling standardization from correcting a name’s meaning. | partial institutional conversion of public-discovered errors into authoritative naming actions, with explicit exclusions and public-objection safeguards | completion of deferred names, pronunciation rather than spelling, community acceptance, downstream map/voice updates and accountability for unresolved names |
+| LINZ Māori place-name audio resource | LINZ reports that 10,000 Māori place-name audio clips were launched in September 2026; the NZ Gazetteer contains more than 54,000 official and unofficial names and the recordings are associated with a named Māori voice expert. | large public audio-resource release connected to official geographic data and pronunciation visibility | clip coverage and metadata, dialect/variation policy, usage, reuse in navigation or education, correction workflow, licensing and effects on everyday pronunciation |
 | University of Auckland Māori Pronunciation Coach | The University of Auckland describes a Māori-owned/partnered pronunciation-coaching platform that grew from pepeha recordings and educator feedback; it aims to identify how a learner mispronounced a word, provide targeted feedback and recognize an acceptable pronunciation range rather than binary right/wrong scoring. The initial web version is intended for university systems, with a five-year goal of one million users and an MBIE Smart Ideas grant. | community-linked educational prototype with a defined learner feedback mechanism and institutional launch route | released product, learner sample and improvement results, acceptable-range governance, dialect coverage, teacher workload, retention, user trust and evidence of increased speaking/use |
 | Welsh Government review of Welsh-language health and social-care data | A 2026 review supporting the Active Offer finds fragmented and inconsistently recorded data, gaps in coverage, limited user-experience data and weak links between workforce skills and service delivery; it proposes 39 indicators across service delivery, demand, workforce ability and future workforce ability. | explicit outcome-measurement framework and evidence-gap diagnosis for language access in care | routine indicator production, user-level service completion, actual demand, quality and safety, organization-level comparability and whether technology changes access or experience |
 | Sámi AI Lab Ábo Web Service | The Sámi AI Lab, hosted by Sámi University of Applied Sciences and UiT, reports a functional public-facing Ábo service that lets users speak naturally in Sámi and receive real-time transcription and translation, aimed at reducing language switching in digital spaces. | public-facing speech-to-text/translation service and named Indigenous-led development route | active users, language coverage, transcription/translation error by dialect, repeat use, professional or educational outcomes, privacy and community control of speech data |
@@ -193,6 +195,25 @@ but it does not yet publish correction counts, resolution time, error rates or
 the promised long-term kaitiaki group. The lesson is not simply “community
 feedback works”; it is that a correction loop must be audited from report to
 technical change, authorization and sustained quality.
+
+The NZGB/LINZ record prevents an overly simple failure narrative as well. The
+campaign did produce formal orthographic action for 629 names and 24 corrigenda,
+while the authority deferred roughly 5,700 names where analysis, jurisdiction,
+possible objection or Treaty-settlement issues required more work. That is
+institutional conversion of a community signal, but it is not the same as
+pronunciation correction: spelling, official naming, audio, map display and
+navigation voice are separate artifacts with different owners and acceptance
+criteria. A named pipeline can therefore be partly successful and still leave a
+large unresolved tail.
+
+The 10,000-clip LINZ release adds an important public-resource stage. It makes
+pronunciation auditable and potentially reusable beyond one commercial product,
+but the public announcement does not establish how many names are covered by
+region or dialect, how clips are corrected, whether APIs or licenses support
+reuse, or whether people actually use the clips in schools, navigation or
+everyday conversation. The appropriate next test is crosswalking a sample of
+clips to NZGB authority, Google Maps output and learner/service usage rather than
+counting clips as revitalization.
 
 The University of Auckland pronunciation coach provides a complementary
 education route. Its design is more culturally and pedagogically specific than a
@@ -354,6 +375,8 @@ still be evaluated separately.
 | Māori / Te Hiku and TalkLink | Community-linked synthetic voices operate in a named AAC device and have reached small-cohort testing; a user used the voice for a mihi. | Scale, repeat use, device coverage, safety, pronunciation quality and wider cultural participation. |
 | Māori / Te Taura Whiri and Google Maps | A public place-name voice exists with Commission-guided pronunciation, a correction route, named data stewardship and a product boundary. | Usage, correction performance, dialect coverage, durable kaitiaki arrangements and changed language behavior. |
 | Māori / Say It Tika | A 2017 campaign generated more than 67,000 corrections, exposing demand and a large error-discovery stream. | Conversion of corrections into a functioning, governed and sustained pronunciation improvement. |
+| Māori / NZGB-LINZ | Official naming records show 629 standardized approvals and 24 corrigenda, with roughly 5,700 names deferred. | Completion of the deferred tail, pronunciation quality, community acceptance and downstream voice/map updates. |
+| Māori / LINZ audio resource | 10,000 place-name audio clips are publicly announced alongside a 54,000-plus-name Gazetteer. | Coverage, reuse, correction, dialect policy and actual learning/navigation use. |
 | Māori / Auckland Pronunciation Coach | A community-linked learner tool defines targeted feedback and an acceptable pronunciation range. | Released product, learner improvement, dialect governance, retention and increased speaking/use. |
 | Wales | Technology outputs, mapping, translation, transcription and a proposed health/social-care indicator framework are documented. | Consistent service completion, user experience, adoption denominators and causal language-vitality effects. |
 | Sámi | An Indigenous-led lab reports a functional public Ábo platform and separates clinical, cultural-generation and benchmark workstreams. | Public telemetry, error/dialect evidence, validated high-stakes tools and outcomes for Sámi users. |
@@ -377,8 +400,8 @@ for all downstream gates.
 
 1. **Māori:** obtain Google Maps usage/correction evidence and durable kaitiaki
    documentation; obtain TalkLink phase-two cohort and deployment results; audit
-   the Say It Tika-to-current-voice continuity and the Pronunciation Coach
-   release/evaluation.
+   the Say It Tika-to-current-voice continuity, deferred NZGB names, LINZ audio
+   reuse and the Pronunciation Coach release/evaluation.
 2. **Welsh:** locate implementation of the 39 health/social-care indicators and
    link language skill, service encounter, user experience and outcome fields.
 3. **Sámi:** verify Ábo availability, language coverage and error evaluation;
@@ -505,3 +528,5 @@ collection; do not infer vitality from model or corpus size.
 51. [Rori Ghana evaluation research paper](https://arxiv.org/abs/2402.09809)
 52. [Māori Television report on the Say It Tika correction-loop failure](https://www.teaonews.co.nz/2022/05/16/google-fails-to-deliver-campaign-promise-to-fix-maori-pronunciation-on-google-maps/)
 53. [University of Auckland Māori Pronunciation Coach](https://www.auckland.ac.nz/en/news/2025/07/28/building-an-ai-pronunciation-coach-for-te-reo-maori-learners.html)
+54. [LINZ 10,000 Māori place-name audio clips](https://www.linz.govt.nz/news/2026-09/10000-maori-place-name-audio-clips-launched-time-te-wiki-o-te-reo-maori)
+55. [NZGB/LINZ Say It Tika place-name follow-through report](https://www.linz.govt.nz/sites/default/files/2025-02/7%20Say%20it%20Tika%20-%20top%20200%20names%20searched%20on%20Google%20-%20Report.pdf)
