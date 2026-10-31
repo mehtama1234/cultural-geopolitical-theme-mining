@@ -134,6 +134,21 @@ def main() -> int:
         "independence_status": "partial_cross_publisher_temporal_mechanism_comparison",
         "outcome_status": "dated_outcomes_and_independent_policy_measure_present",
         "backtest_status": "bounded_cross_publisher_mechanism_comparison",
+        "rights_review": {
+            "cdc_2022": {
+                "status": "government_public_domain_with_citation",
+                "boundary": "CDC states the 2022 report material is public domain; retain citation and source link, and keep normalized values tied to the official report.",
+            },
+            "cdc_2025": {
+                "status": "government_source_metadata_only",
+                "boundary": "Retain normalized values, standard errors, citation, and official PDF link; do not redistribute the full source tables through this board.",
+            },
+            "cms_new_jersey_spas": {
+                "status": "official_policy_document_metadata_only",
+                "boundary": "Retain the approved rate, effective date, citation, and official PDF link; do not redistribute the full approval documents through this board.",
+            },
+            "release_decision": "normalized_values_and_citations_only",
+        },
         "counter_signal": "Growth in centers and participants does not prove improved access, margins, staffing, or service quality; 2022 and 2025 survey frames and definitions must be reconciled before treating changes as a structural trend.",
         "falsifier": "After frame and definition reconciliation, the capacity and payer measures do not move in the hypothesized direction or independent state-level outcomes contradict the national pattern.",
         "next_action": "Add state-level attendance, authorization, or claims utilization and reconcile 2022 versus 2025 NPALS frames before using this lane in qualification.",

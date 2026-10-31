@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "6ad36aa60239301a44c4db599d59d7bf17386c45",
+  "source_tree_commit": "53bec30fc6ead684dea3e0d0f0e0baac4f391a2b",
   "artifact_count": 84,
   "artifacts": [
     {
@@ -276,8 +276,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-adult-day-outcome-review.json",
-      "bytes": 6760,
-      "sha256": "f67797b62627462a1601c8c73aa067ba111a6d0962904e8e527a81b006bcee03"
+      "bytes": 7587,
+      "sha256": "db1967e1a900aff34e7a5a27fb9f9697b690e8a2b0824c529c8e3807ee627c18"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",

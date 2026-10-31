@@ -448,6 +448,7 @@ def main() -> int:
     assert ibis_outcome["industry_slug"] == "adult-day-care"
     assert ibis_outcome["outcome_status"] == "dated_outcomes_and_independent_policy_measure_present"
     assert ibis_outcome["independence_status"] == "partial_cross_publisher_temporal_mechanism_comparison"
+    assert ibis_outcome["rights_review"]["release_decision"] == "normalized_values_and_citations_only"
     comparability = json.loads((ANALYSIS / "backtest-comparability-review.json").read_text())
     assert comparability["schema"] == "external-trend-intelligence.backtest-comparability-review.v1"
     assert comparability["candidate_count"] == 5
