@@ -159,6 +159,7 @@
     <section style="margin-top:28px">
       <h2>Independent mechanism comparison</h2>
       <p class="muted">Independent publishers can challenge a mechanism without making unlike populations numerically comparable.</p>
+      <div class="panel" style="margin:12px 0"><h3>Directional agreement by source</h3><div id="room-independent-chart"></div></div>
       <div class="promotion-gates" id="independent-comparison"></div>
     </section>
     <section style="margin-top:28px">
@@ -217,6 +218,17 @@
         const fill = document.createElement('span'); fill.className = 'fill'; fill.style.width = `${Math.max(2, (row.holdout_value / max) * 100)}%`; track.append(fill);
         const count = document.createElement('strong'); count.textContent = `${row.construction_value} → ${row.holdout_value}`;
         article.append(name, track, count); target.append(article);
+      });
+    }
+    function independentResultChart(target, rows) {
+      target.replaceChildren();
+      rows.forEach(row => {
+        const item = document.createElement('div'); item.className = 'bar-row';
+        const label = document.createElement('span'); label.textContent = `${row.source} · ${row.measure.replaceAll('_', ' ')}`;
+        const track = document.createElement('span'); track.className = 'track';
+        const fill = document.createElement('span'); fill.className = 'fill'; fill.style.width = `${Math.max(2, Math.min(100, Math.abs(row.change) * 10))}%`; track.append(fill);
+        const value = document.createElement('strong'); value.textContent = `${row.change > 0 ? '+' : ''}${row.change}`;
+        item.append(label, track, value); target.append(item);
       });
     }
     function candidateCard(candidate) {
@@ -484,6 +496,7 @@
         el('independent-comparison').append(card('Household-room comparison', room.status, room.source_families.join(' vs. ') + ' · ' + room.blocking_items.join(' · ')));
       });
       fetch('room-independent-result.json').then(r => r.json()).then(result => {
+        independentResultChart(el('room-independent-chart'), result.rows);
         el('independent-comparison').append(card('Cross-source direction', result.status, result.directional_summary + ' ' + result.counter_signal));
       });
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
