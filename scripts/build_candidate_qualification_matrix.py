@@ -37,6 +37,13 @@ BACKTEST_DESIGNS = {
     },
 }
 
+FALSIFIERS = {
+    "candidate-formal-response-before-recovery": "If comparable cases repeatedly show usable recovery before formal response, or formal response without durable access improvement, the sequence claim is weakened.",
+    "candidate-time-financial-pressure-practical-room": "If compatible repeated measures show pressure rising without reduced participation, substitution, or delayed completion, the practical-room mechanism is weakened.",
+    "candidate-digital-capability-control-trust": "If capability adoption repeatedly coincides with stronger control, remedy, and trust outcomes across independent measures, the contested-control claim is weakened.",
+    "candidate-infrastructure-dependency-power": "If comparable infrastructure events show no durable reliability, cost, compensation, or acceptance consequence, the dependency-to-power mechanism is weakened.",
+}
+
 
 def main() -> int:
     candidates = json.loads((ANALYSIS / "candidate-comparisons.json").read_text())["candidates"]
@@ -76,6 +83,7 @@ def main() -> int:
             "gate_count": len(gates),
             "blocking_gates": blocking,
             "backtest_plan": backtest_plan,
+            "falsifier": FALSIFIERS.get(candidate["id"], "A later comparable release that reverses the stated mechanism would falsify the candidate."),
             "evidence_record_count": coverage.get("evidence_record_count", len(candidate.get("evidence_record_ids", []))),
             "source_host_count": coverage.get("source_host_count"),
             "next_action": queue_item.get("next_action") or candidate.get("next_comparison"),

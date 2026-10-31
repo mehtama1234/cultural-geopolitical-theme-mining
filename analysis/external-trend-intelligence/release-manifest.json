@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "280ff280227ca7d94846a8468e0e33d53d7e04bc",
+  "source_tree_commit": "6bbc1b22181f4b280f3c2923d949c71fa1d42b07",
   "artifact_count": 62,
   "artifacts": [
     {
@@ -256,8 +256,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/candidate-qualification-matrix.json",
-      "bytes": 5943,
-      "sha256": "9666d586ca139c45008aeeaa78a844f379c1d25b35c8f4f43b6f97375bd3e68c"
+      "bytes": 6680,
+      "sha256": "5158c646634a0c5dfcd10efb30f9cf27449e48bb7164f20b3f9a4205e8e46222"
     },
     {
       "path": "analysis/external-trend-intelligence/pilot-register.json",
@@ -301,8 +301,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 45877,
-      "sha256": "7a8f84916db36602362fb60ef256cdb7cbeabf0aa53be47382bdeef36bd04d54"
+      "bytes": 46011,
+      "sha256": "b474d6166cdd34fc0cd729292b061b120fb607255457a6c65e7c4bbde35316d7"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
