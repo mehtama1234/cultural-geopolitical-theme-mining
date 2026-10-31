@@ -37,6 +37,16 @@ def main() -> int:
             try:
                 with urllib.request.urlopen(f"http://127.0.0.1:{PORT}/board.html", timeout=1) as response:
                     if response.status == 200:
+                        board_text = response.read().decode("utf-8")
+                        required_markers = [
+                            "Release blockers",
+                            "pipeline_status",
+                            "U.S. USDA food-security temporal holdout",
+                            "Falsifier:",
+                        ]
+                        missing = [marker for marker in required_markers if marker not in board_text]
+                        if missing:
+                            raise RuntimeError(f"board.html missing required reader markers: {missing}")
                         break
             except (urllib.error.URLError, ConnectionError):
                 if time.time() >= deadline:
