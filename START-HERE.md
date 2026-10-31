@@ -14,6 +14,9 @@ the pinned repository lineage is in the [repository-family snapshot](analysis/ex
 and the current normalized intake is in the [external-family observations](analysis/external-trend-intelligence/external-family-observations.json).
 The [held candidate comparisons](analysis/external-trend-intelligence/external-family-comparisons.json)
 show what is being tested without treating thematic similarity as a company join.
+The [lineage review](analysis/external-trend-intelligence/external-family-lineage-review.json)
+and [evidence review queue](analysis/external-trend-intelligence/external-evidence-gap-queue.json)
+show which source overlaps and missing source identities still block promotion.
 
 ## Company trend-intelligence goal
 

@@ -23,9 +23,10 @@ These are the named upstream sources already used by the wider program:
 5. **`inc5000-analysis`** — private-company and bottom-up market signals,
    growth patterns, business models, and emerging commercial responses.
 6. **`ibis-industries`** — industry definitions, structures, forces, capacity,
-   dependencies, and operating pressures. Its current 80-item package is
-   analytic synthesis and explicitly does not establish customer demand,
-   prevalence, willingness to pay, or a live customer outcome.
+   dependencies, and operating pressures. Its pinned corpus contains 1,491
+   industry records and a separate 17,998-source provenance inventory; the
+   analytic synthesis still does not establish customer demand, prevalence,
+   willingness to pay, or a live customer outcome.
 
 `research-signals` provides source capture and provenance infrastructure, while
 `organization-intelligence-system` provides shared identity, evidence,
