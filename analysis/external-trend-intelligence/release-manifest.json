@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "fc52811ff5d710fdfe9cdf88e0188e6732146abe",
+  "source_tree_commit": "364752801f4df18f7342e963db80b2b1ec4111e5",
   "artifact_count": 79,
   "artifacts": [
     {
@@ -122,7 +122,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1833,
-      "sha256": "6ded270a9e75ffc729e494a6f589d9250e4a5005a17f7cee72f54141f8b1d87e"
+      "sha256": "d55103c64b76e253bdc58a8520e57927f18861c613f544b6c631fc7ccdbfc5b4"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -271,8 +271,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 15675,
-      "sha256": "6252cc67b7cf4ca6581487ef97fba5199b9b6aa29d441060bebdba9a8795c50b"
+      "bytes": 16109,
+      "sha256": "94ef9777da2caa1c8e7074c3a25921b9e0f2fd920f007102d011904f663a37b0"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
