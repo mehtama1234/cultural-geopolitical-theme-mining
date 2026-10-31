@@ -31,6 +31,10 @@ ecosystem loss or climate risk
 | CBD/Cali Fund pathway | Parties agreed on mobilizing biodiversity resources and involving Indigenous peoples, local communities and other stakeholders; digital sequence information benefit sharing creates a new finance/governance route. | global finance and participation architecture | revenue arrival, local control, genetic-resource benefit and conservation outcome |
 | World Bank MDB Common Nature Finance Taxonomy | MDBs define nature finance across restoration/conservation, drivers of loss, nature-based solutions and enabling policy instruments. | classification and tracking architecture | additionality, ecological quality and lived local benefit |
 | World Bank NBS evidence | Projects can support resilience, jobs and livelihoods, but wider adoption needs policy, technical capacity, diversified funding and equity/community needs. | implementation mechanism and examples | durable maintenance, ecosystem function, cultural rights and distribution |
+| UNEP State of Finance for Nature 2026 | UNEP reports $7.3 trillion in nature-negative finance in 2023 versus $220 billion in nature-based-solution finance; private NbS finance was only $23.4 billion and annual NbS investment needs to reach $571 billion by 2030. | Current finance imbalance and scale requirement. | Whether redirecting flows changes ecosystem condition, livelihood distribution, corporate behavior or local rights. |
+| World Bank South Africa Wildlife Conservation Bond | Between 2022 and 2025, the outcome bond supported nearly 8% compound annual black-rhino population growth, about 155,000 hectares under improved management and benefits for more than 2,700 park staff, youth, contractors and community members across two protected areas. | A named finance-to-ecological-and-community-outcome chain with independent outcome verification architecture. | Long-term population durability, distribution of tourism/revenue benefits, land rights, displacement risk and replication outside the named sites. |
+| World Bank South Africa Biodiversity Stewardship assessment | A 20-year assessment reports nearly 2.8 million hectares secured across 469 sites, strong outcomes on communal and land-reform sites, jobs/enterprises and protection of strategic water-source areas, based on interviews with traditional communities and workshops. | Long-duration governance, ecological-area and livelihood evidence across a named national programme. | Counterfactual additionality, unequal local outcomes, tenure security, maintenance finance and transferability to other geographies. |
+| World Bank/Malaysia LEAP for Nature | A 2026 assessment reports 54% of Malaysian financial-sector lending is highly dependent on ecosystem services and 36% of loans exert high or very high pressure on nature, while identifying gaps in nature-related risk assessment and disclosure. | Financial-system exposure and disclosure mechanism in a biodiverse middle-income economy. | Actual portfolio reallocation, ecosystem improvement, borrower transition, community livelihoods and enforcement. |
 
 ## Stage audit
 
@@ -82,6 +86,12 @@ operating infrastructure.
   it.
 - Community participation is not equivalent to consent, authority or equitable
   benefit sharing.
+- A named outcome bond can demonstrate a real ecological and community result
+  without proving that its payment model is additional, rights-safe or scalable
+  across other landscapes.
+- Long-duration conservation stewardship can secure large areas and support
+  livelihoods while leaving tenure, opportunity cost, benefit distribution and
+  counterfactual land-use questions open.
 
 ## Promotion decision
 
@@ -104,3 +114,7 @@ livelihood result, revenue/benefit sharing, cultural continuity and grievance.
 3. [UN biodiversity resource-mobilization agreement](https://www.un.org/sustainabledevelopment/blog/2025/02/press-release-governments-agree-on-the-way-forward-to-mobilise-the-resources-needed-to-protect-biodiversity-for-people-and-planet/)
 4. [World Bank MDB Common Nature Finance Taxonomy](https://www.worldbank.org/en/topic/environment/publication/mdb-common-nature-finance-taxonomy)
 5. [World Bank nature-based solutions for resilience](https://www.worldbank.org/en/results/2025/07/10/mobilizing-nature-based-solutions-nbs-for-disaster-and-climate-resilience)
+6. [UNEP State of Finance for Nature 2026](https://wedocs.unep.org/items/a4a8edaa-3896-4811-b527-1583dfce7201)
+7. [World Bank South Africa Wildlife Conservation Bond](https://www.worldbank.org/en/results/2026/04/10/south-africa-delivering-capital-markets-innovation-to-create-jobs-build-skills-and-conserve-biodiversity)
+8. [World Bank South Africa Biodiversity Stewardship assessment](https://www.worldbank.org/en/brief/2026/09/08/analysis-of-20-years-of-implementing-south-africa-s-biodiversity-stewardship-progr)
+9. [World Bank/Malaysia LEAP for Nature](https://www.worldbank.org/en/events/2026/06/11/report-launch-a-leap-for-nature-advancing-nature-related-financial-risk-and-opport)

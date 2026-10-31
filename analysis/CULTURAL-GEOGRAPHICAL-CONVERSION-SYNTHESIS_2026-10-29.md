@@ -3861,6 +3861,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 421. **Climate-finance access architecture is not community recovery.** A costed national need, fund board, trustee, technical guide, readiness roadmap, local-government channel or proposal-support mechanism can improve the route to finance while approval, disbursement timing, grant/debt burden, local authority, maintained assets, livelihood, cultural continuity and grievance remain unobserved.
 
+422. **A biodiversity-finance outcome is real but not automatically transferable or rights-safe.** A verified species result, conserved hectares, stewardship programme, community jobs, nature-risk disclosure or finance-flow shift can close an ecological or local stage for a named landscape while additionality, tenure, benefit distribution, displacement risk, maintenance, enforcement and replication remain unobserved.
+
 ## What the evidence does not support
 
 Do not claim that:
