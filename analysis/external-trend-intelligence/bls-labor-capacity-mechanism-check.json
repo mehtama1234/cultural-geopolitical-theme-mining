@@ -1,0 +1,114 @@
+{
+  "schema": "external-trend-intelligence.bls-labor-capacity-mechanism-check.v1",
+  "status": "held_mechanism_check_same_publisher",
+  "question": "Do compatible labor-market indicators show persistent capacity pressure in education and health services, with manufacturing as a broad comparator?",
+  "source_family": "Bureau of Labor Statistics",
+  "source_publisher_dependence": "Both JOLTS and CES are BLS products; this is triangulation within one publisher, not independent-source confirmation.",
+  "rows": [
+    {
+      "industry": "600000",
+      "geography": "United States",
+      "periods": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "job_openings_rate_percent": [
+        8.1917,
+        7.0667,
+        6.1667,
+        5.375
+      ],
+      "hires_rate_percent": [
+        3.5083,
+        3.5083,
+        3.2333,
+        2.975
+      ],
+      "quits_rate_percent": [
+        2.45,
+        2.275,
+        2.05,
+        1.9333
+      ],
+      "average_hourly_earnings_dollars": [
+        31.88,
+        33.1408,
+        34.3433,
+        35.5917
+      ],
+      "opening_rate_change_2022_to_2025_percentage_points": -2.8167,
+      "hires_rate_change_2022_to_2025_percentage_points": -0.5333,
+      "earnings_change_2022_to_2025_dollars": 3.7117,
+      "earnings_change_2022_to_2025_percent": 11.64,
+      "industry_label": "education_and_health_services"
+    },
+    {
+      "industry": "300000",
+      "geography": "United States",
+      "periods": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "job_openings_rate_percent": [
+        6.2083,
+        4.4667,
+        3.625,
+        3.1333
+      ],
+      "hires_rate_percent": [
+        3.5917,
+        3.0583,
+        2.6,
+        2.35
+      ],
+      "quits_rate_percent": [
+        2.3167,
+        1.9667,
+        1.6083,
+        1.3917
+      ],
+      "average_hourly_earnings_dollars": [
+        30.9358,
+        32.3992,
+        33.9783,
+        35.45
+      ],
+      "opening_rate_change_2022_to_2025_percentage_points": -3.075,
+      "hires_rate_change_2022_to_2025_percentage_points": -1.2417,
+      "earnings_change_2022_to_2025_dollars": 4.5142,
+      "earnings_change_2022_to_2025_percent": 14.59,
+      "industry_label": "manufacturing"
+    }
+  ],
+  "observed_pattern": "Education and health services show falling annual-average job-openings and hires rates from 2022 to 2025 while average hourly earnings rise. Manufacturing shows the same direction, so the result may reflect broad labor-market cooling plus wage adjustment rather than a sector-specific scarcity mechanism.",
+  "supporting_signal": "Hourly earnings rose in education and health services from $31.88 to $35.59 (11.64%) between 2022 and 2025.",
+  "counter_signal": "Education and health job-openings rate fell from 8.1917% to 5.3750% and hires rate fell from 3.5083% to 2.9750%; this does not by itself show worsening unfilled capacity.",
+  "alternative_explanation": "Hiring normalization, reduced labor churn, composition changes, inflation, or delayed wage adjustment could produce the observed combination without a persistent staffing bottleneck.",
+  "falsifier": "A compatible sector-specific source showing stable or rising unmet labor demand, filled/requested hours, vacancy duration, or service rationing after 2025 would be needed to distinguish capacity pressure from broad labor-market cooling.",
+  "methods": {
+    "jolts": "Arithmetic mean of twelve monthly, seasonally adjusted national JOLTS rates for each selected industry and calendar year; each rate retains its BLS-specific denominator.",
+    "ces": "Arithmetic mean of 12 monthly, seasonally adjusted average hourly earnings of all employees for each selected private-industry series.",
+    "period_alignment": "Annual means of monthly observations; common comparison window 2022-2025.",
+    "units": "JOLTS rates are percentages; CES is dollars per hour. They are shown side-by-side, not pooled."
+  },
+  "sources": [
+    {
+      "artifact": "analysis/projects/ai-work-control/data/bls-jolts-selected-industries-2020-2025-derived.json",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "unit": "annual mean of monthly rates, percent"
+    },
+    {
+      "artifact": "analysis/projects/ai-work-control/data/bls-ces-industry-earnings-2022-2025-derived.json",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "3444b358cab149acb24f45e31da88fa8cfe874fdf5eeb13f969aebe78cc42602",
+      "unit": "annual mean of monthly average hourly earnings, dollars per hour"
+    }
+  ],
+  "boundary": "This is a descriptive same-publisher mechanism challenge. It does not estimate caregiver shortages, service quality, unmet care demand, causality, or company exposure, and it does not clear the independent-source qualification gate.",
+  "next_test": "Acquire a separate source family with a compatible vacancy, filled-hours, or service-rationing measure and pre-specify a post-2025 holdout."
+}

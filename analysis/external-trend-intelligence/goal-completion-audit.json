@@ -17,7 +17,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 44-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 45-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",

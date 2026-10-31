@@ -56,8 +56,13 @@ Next test:
 - Review the new [IBIS force claim map](ibis-force-claim-map.json): all 21
   declared source IDs now resolve to the pinned source inventory, and claim
   references are attached where the reviewed claim inventory supports them.
-  Claim-level review remains partial for some forces; add independent
-  outcomes and retain the finding on hold.
+  Claim-level review remains partial for some forces. The new
+  [BLS labor-capacity mechanism check](bls-labor-capacity-mechanism-check.json)
+  shows rising earnings alongside falling openings and hires in education and
+  health services, with the same direction in manufacturing. Treat that as a
+  counter-signal, not proof of a care-labor shortage; add an independent
+  vacancy, filled-hours, or service-rationing measure and retain the finding on
+  hold.
 - Map the 25 annual-report citation URLs to specific themes and companies.
 - Map the 39 Inc. opportunity URLs to the five opportunity hypotheses and
   independently test buyer demand and outcomes.

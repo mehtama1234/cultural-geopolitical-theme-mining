@@ -81,6 +81,9 @@ def main() -> int:
     ibis_force_claim_map = json.loads(
         (ROOT / "analysis" / "external-trend-intelligence" / "ibis-force-claim-map.json").read_text()
     )
+    bls_labor_capacity_check = json.loads(
+        (ROOT / "analysis" / "external-trend-intelligence" / "bls-labor-capacity-mechanism-check.json").read_text()
+    )
     ibis_findings_path = "cross_industry_findings_register.json"
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
     ibis_pattern_inventory_path = "cross_industry_pattern_inventory.json"
@@ -274,6 +277,9 @@ def main() -> int:
                 claim_map_path="ibis-force-claim-map.json",
                 claim_reference_count=ibis_force_claim_map["aggregate"]["claim_reference_count"],
                 unresolved_source_id_count=ibis_force_claim_map["aggregate"]["unresolved_source_id_count"],
+                mechanism_check_path="bls-labor-capacity-mechanism-check.json",
+                mechanism_check_status=bls_labor_capacity_check["status"],
+                mechanism_check_counter_signal=bls_labor_capacity_check["counter_signal"],
                 observation_period=ibis_forces.get("metadata", {}).get("as_of", "IBIS 2025-2026 working hypothesis register"),
             ),
         ]

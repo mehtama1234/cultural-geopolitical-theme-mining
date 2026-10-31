@@ -565,7 +565,10 @@
       "source_url_count": 21,
       "claim_map_path": "ibis-force-claim-map.json",
       "claim_reference_count": 25,
-      "unresolved_source_id_count": 0
+      "unresolved_source_id_count": 0,
+      "mechanism_check_path": "bls-labor-capacity-mechanism-check.json",
+      "mechanism_check_status": "held_mechanism_check_same_publisher",
+      "mechanism_check_counter_signal": "Education and health job-openings rate fell from 8.1917% to 5.3750% and hires rate fell from 3.5083% to 2.9750%; this does not by itself show worsening unfilled capacity."
     },
     {
       "observation_id": "social-integrated-trend-atlas",

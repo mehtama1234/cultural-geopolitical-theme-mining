@@ -13,6 +13,7 @@ STEPS = [
     ["scripts/build_external_source_registry_snapshot.py"],
     ["scripts/build_external_repository_family_snapshot.py"],
     ["scripts/build_ibis_force_claim_map.py"],
+    ["scripts/build_bls_labor_capacity_check.py"],
     ["scripts/build_external_observation_manifest.py", "--git-ref", "HEAD", "--output", "analysis/external-trend-intelligence/observation-manifest.json"],
     ["scripts/build_external_family_observations.py"],
     ["scripts/build_external_family_lineage_review.py"],
