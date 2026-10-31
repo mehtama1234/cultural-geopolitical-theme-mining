@@ -76,3 +76,8 @@ python3 scripts/refresh_external_observatory.py
 No action in this queue authorizes an internal company join. A candidate must
 pass source lineage, denominator, comparability, counter-signal, and outcome
 gates before entering the internal bridge.
+
+The cross-publisher panel's computed host review is in
+[`bounded-subset-lineage-review.json`](bounded-subset-lineage-review.json). It
+finds two hosts (`fwc.gov.au` and `fairwork.gov.au`), with four records sharing
+the FWC host; this is partial lineage diversity, not independent confirmation.

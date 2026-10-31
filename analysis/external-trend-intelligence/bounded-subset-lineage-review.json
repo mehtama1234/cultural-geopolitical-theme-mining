@@ -1,0 +1,76 @@
+{
+  "schema": "external-trend-intelligence.bounded-subset-lineage-review.v1",
+  "subset_id": "australia-remedy-cross-publisher-panel-001",
+  "record_count": 5,
+  "publisher_families": [
+    "Fair Work Commission",
+    "Fair Work Ombudsman"
+  ],
+  "source_host_count": 2,
+  "source_hosts": [
+    "www.fairwork.gov.au",
+    "www.fwc.gov.au"
+  ],
+  "shared_hosts": {
+    "www.fwc.gov.au": [
+      "au-al-hussein-reactivation-deemed-work-2025",
+      "au-fwc-khan-platform-repeat-deactivation-2026",
+      "au-mansoor-platform-alternative-earnings-remedy-2025",
+      "comparative-australia-fwc-no-alternative-employment-remedy-2024"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "au-al-hussein-reactivation-deemed-work-2025",
+      "source_urls": [
+        "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792947.pdf",
+        "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3176.pdf",
+        "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders"
+      ],
+      "source_hosts": [
+        "www.fwc.gov.au"
+      ]
+    },
+    {
+      "record_id": "au-fwc-khan-platform-repeat-deactivation-2026",
+      "source_urls": [
+        "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc48.pdf"
+      ],
+      "source_hosts": [
+        "www.fwc.gov.au"
+      ]
+    },
+    {
+      "record_id": "au-mansoor-platform-alternative-earnings-remedy-2025",
+      "source_urls": [
+        "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792727.pdf",
+        "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3111.pdf",
+        "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders"
+      ],
+      "source_hosts": [
+        "www.fwc.gov.au"
+      ]
+    },
+    {
+      "record_id": "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018",
+      "source_urls": [
+        "https://www.fairwork.gov.au/newsroom/media-releases/2018-media-releases/january-2018/20180117-atkins-appeal-dismissed"
+      ],
+      "source_hosts": [
+        "www.fairwork.gov.au"
+      ]
+    },
+    {
+      "record_id": "comparative-australia-fwc-no-alternative-employment-remedy-2024",
+      "source_urls": [
+        "https://www.fwc.gov.au/documents/decisionssigned/pdf/2024fwc3523.pdf"
+      ],
+      "source_hosts": [
+        "www.fwc.gov.au"
+      ]
+    }
+  ],
+  "independence_status": "partial_independence_review",
+  "boundary": "Different publisher families and hosts provide lineage diversity, not proof of independent populations, methods, or outcomes.",
+  "next_action": "Review underlying study/data lineage and harmonize case type, denominator, period, and outcome before counting this panel as corroboration."
+}
