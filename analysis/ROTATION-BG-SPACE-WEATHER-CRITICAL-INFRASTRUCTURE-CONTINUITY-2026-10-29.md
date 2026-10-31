@@ -31,6 +31,10 @@ solar event and near-Earth disturbance
 | ESA space-weather hazards page | Telecommunications, navigation, aviation, transport, power distribution and satellites are exposed; effects vary by infrastructure and latitude. | cross-sector and geographic exposure | operator action, user-level service and place-level recovery |
 | GAO electric-grid protection report | Geomagnetic disturbances can affect the power grid; federal and industry actors have planning and protection responsibilities. | governance and critical-grid risk | actual warning-to-action performance, transformer damage, outage and customer impact |
 | ESA lessons from November 2025 solar storm | ESA monitored a strong event, coordinated expert services and describes earlier warning as a way for operators to prepare and reduce impacts. | observed event monitoring and potential lead-time mechanism | which operator acted, what was avoided, and whether service remained usable |
+| ESA aviation assessment of the November 2025 storm | ESA reports no major aviation impacts so far, while noting that extreme events can degrade polar/ocean radio and GNSS and that aviation has multiple backup systems. | A named sector counterexample in which redundancy can preserve safety while efficiency and passenger impacts remain possible. | Which routes, delays, reroutes, communications and costs occurred, and whether less-resourced operators had equivalent fallback. |
+| ESA account of the February 2022 geomagnetic storm | ESA reports that increased atmospheric drag after a moderate storm prevented 38 of 49 newly deployed Starlink satellites from reaching operational orbit. | A dated space-asset loss mechanism linking storm conditions to a material deployment outcome. | Operator warning/action, insurance, replacement cost, service effect, affected users and whether improved forecasts would have changed the outcome. |
+| ESA CryoSat account of the January 2026 storm | ESA describes a strong X-class flare, high radiation storm and geomagnetic disturbance observed by CryoSat and other satellites, with peak disturbance on 20 January. | A current event-observation record and space-system monitoring pathway. | Satellite protective mode, instrument degradation, data continuity, operator decisions and downstream user effect. |
+| FAA performance-based-navigation guidance | FAA warns that solar activity can degrade GNSS and instructs pilots to monitor equipment, notify ATC and be prepared to operate without GNSS. | A formal aviation fallback and human-operator action requirement. | Actual flight-level use, delays, reroutes, safety margin, crew workload and geographic/route inequality. |
 
 ## Stage audit
 
@@ -89,6 +93,12 @@ onto places with the least ability to contest or substitute.
   the action window, authority and reversibility of the protective measure.
 - Public sources often describe hazard and capability more clearly than they
   disclose operator-specific incidents, avoided loss or customer continuity.
+- A sector can report no major safety impact because redundancy worked while
+  suffering hidden delay, cost, workload or efficiency losses; safety continuity
+  must not be conflated with unchanged service.
+- Asset loss in one constellation does not prove all satellite operators were
+  exposed equally; orbit, launch timing, design, warning access and operator
+  action remain unit-specific.
 
 ## Promotion decision
 
@@ -112,3 +122,7 @@ what would have happened without the warning and identify who could not act.
 3. [ESA: space weather and its hazards](https://www.esa.int/Space_Safety/Space_weather/Space_weather_and_its_hazards)
 4. [GAO: protecting the electric grid from geomagnetic disturbances](https://www.gao.gov/products/gao-19-98)
 5. [ESA: lessons from the November 2025 solar storm](https://www.esa.int/Space_Safety/Space_weather/Lessons_from_the_November_2025_solar_storm)
+6. [ESA: when the Sun disrupts aviation](https://www.esa.int/Space_Safety/Space_weather/When_the_Sun_disrupts_aviation)
+7. [ESA: February 2022 storm and Starlink satellite loss](https://eo4society.esa.int/2026/06/19/from-solar-storms-to-volcanoes-identifying-signals-hidden-in-EO-data/)
+8. [ESA: January 2026 CryoSat geomagnetic storm](https://www.esa.int/ESA_Multimedia/Images/2026/03/CryoSat_views_a_geomagnetic_storm)
+9. [FAA performance-based navigation and GNSS degradation guidance](https://www.faa.gov/air_traffic/publications/atpubs/aip_html/part2_enr_section_1.16.html)

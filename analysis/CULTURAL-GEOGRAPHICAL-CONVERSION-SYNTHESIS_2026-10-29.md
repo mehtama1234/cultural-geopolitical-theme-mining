@@ -3857,6 +3857,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 419. **A live carbon border is not verified industrial transition.** Customs integration, certificate prices, importer accounts, default emissions values, verified-data requirements, technical assistance and parallel trade measures can make carbon a border-administered cost while exporter investment, small-firm survival, worker outcomes, consumer pass-through, trade access and actual emissions change remain unobserved.
 
+420. **Infrastructure continuity can conceal unequal space-weather burden.** A forecast, backup system, safe-mode response or absence of a major safety failure can preserve one service while satellite assets are lost, routes are delayed, data quality degrades, operator workload rises and high-latitude, remote or less-resourced users lack equivalent fallback.
+
 ## What the evidence does not support
 
 Do not claim that:
