@@ -352,7 +352,7 @@ def main() -> int:
     assert refresh_history["run_count"] >= 1
     assert refresh_history["latest"]["record_count"] == 2135
     assert refresh_history["latest"]["parse_error_count"] == 0
-    assert refresh_history["latest"]["pipeline_step_count"] == 53
+    assert refresh_history["latest"]["pipeline_step_count"] == 54
     assert refresh_history["latest"]["pipeline_status"] == "passed"
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
@@ -507,7 +507,7 @@ def main() -> int:
     assert scorecard["schema"] == "external-trend-intelligence.program-scorecard.v1"
     assert scorecard["metrics"]["records"] == 2135
     assert scorecard["metrics"]["source_families"] == 8
-    assert scorecard["metrics"]["latest_pipeline_steps"] == 53
+    assert scorecard["metrics"]["latest_pipeline_steps"] == 54
     assert scorecard["metrics"]["latest_pipeline_status"] == "passed"
     assert scorecard["metrics"]["scheduled_workflow_contract"] == "passed"
     assert scorecard["metrics"]["refresh_runs"] == refresh_history["run_count"]
