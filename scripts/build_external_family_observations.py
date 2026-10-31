@@ -237,7 +237,7 @@ def main() -> int:
                 pattern_claim_count_total=sum(pattern.get("claim_count", 0) for pattern in ibis_pattern_inventory["ranked_patterns"]),
                 pattern_source_count_total=sum(pattern.get("source_count", 0) for pattern in ibis_pattern_inventory["ranked_patterns"]),
                 traceability_sample_path="ibis-finding-claim-sample.json",
-                traceability_sample_industry_count=10,
+                traceability_sample_industry_count=25,
                 source_urls=ibis_finding_sample_urls,
                 source_url_status="bounded_sample_present",
                 source_url_count=len(ibis_finding_sample_urls),

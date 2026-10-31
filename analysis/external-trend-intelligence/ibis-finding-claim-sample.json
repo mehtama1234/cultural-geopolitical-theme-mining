@@ -4,7 +4,7 @@
   "finding_title": "Compliance Is Becoming Economic Architecture",
   "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
   "sample_status": "bounded_traceability_sample",
-  "sample_industry_count": 10,
+  "sample_industry_count": 25,
   "counter_signals": [
     "low enforcement",
     "voluntary adoption",
@@ -12,86 +12,202 @@
     "cost pass-through",
     "rules that impose similar burden on all competitors"
   ],
-  "outcome_measure_candidate_count": 76,
+  "outcome_measure_candidate_count": 428,
   "sample_source_urls": [
     "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/3d-printer-manufacturing.txt",
+    "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/adjustable-bed-and-mattress-manufacturing.txt",
+    "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/adoption-and-child-welfare-services-in-the-us.txt",
+    "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/adult-and-pornographic-websites.txt",
+    "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/adult-day-care.txt",
+    "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/adult-stores.txt",
+    "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/air-and-gas-compressor-manufacturing.txt",
     "https://3dprint.com/322764/who-merged-who-was-acquired-and-who-disappeared-in-3d-printing-in-2025-",
+    "https://acf.gov/cb/research-data-technology/statistics-research/afcars'}",
+    "https://acf.gov/cj'}",
+    "https://acf.gov/ocs/programs/ssbg'}",
+    "https://action.freespeechcoalition.com/age-verification-bills/",
+    "https://action.freespeechcoalition.com/age-verification-resources/state-avs-laws/",
     "https://acupuncturetoday.com/article/39566-acupuncture-in-medicare-legislation-reintroduced",
+    "https://adage.com/datacenter/aa-agency-report-2026-employment-revenue/",
     "https://adivi.com/blog/cloud-computing-is-changing-the-accounting-industry/",
+    "https://adoptioncouncil.org/article/foster-care-and-adoption-statistics/'}",
+    "https://agamerica.com/blog/farm-trends-2026/",
+    "https://agamerica.com/blog/tariffs-agriculture/",
+    "https://agamerica.com/blog/the-impact-of-the-farm-labor-shortage/",
+    "https://allanchem.com/guide-adhesive-raw-materials/",
+    "https://arstechnica.com/tech-policy/2024/06/adult-sites-blocking-more-states-this-summer-to-protest-age-verification-laws/",
+    "https://blogs.edf.org/growingreturns/2025/06/26/modernizing-agricultural-insurance/",
+    "https://deepmarketinsights.com/vista/insights/adjustable-bed-bases-market/united-states",
+    "https://farmdocdaily.illinois.edu/2026/07/crop-insurance-loss-experience-in-2025-more-of-the-same.html",
+    "https://farmonaut.com/usa/top-us-agriculture-exports-2026-trends-global-growth",
+    "https://fred.stlouisfed.org/data/PCU333912333912",
+    "https://fred.stlouisfed.org/series/PCU3339123339121",
+    "https://fruitgrowersnews.com/article/2026-fgn-labor-survey-h2a-automation/",
     "https://gitnux.org/guitar-industry-statistics/",
     "https://guitar-muse.com/the-electric-guitar-market-boom-in-2025-why-electrics-are-outselling-acoustics-27328",
+    "https://investor.genworth.com/news-events/press-releases/detail/982/genworth-and-carescout-release-cost-of-care-survey-results'}",
+    "https://investor.somnigroup.com/newsroom/news-details/2025/Tempur-Sealy-Successfully-Completes-Acquisition-of-Mattress-Firm/default.aspx",
+    "https://investor.somnigroup.com/newsroom/news-details/2026/Somnigroup-International-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
     "https://investors.stratasys.com/news-events/press-releases/detail/975/stratasys-releases-fourth-quarter-and-full-year-2025/",
+    "https://ir.sleepnumber.com/news/news-details/2026/Sleep-Number-Announces-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
     "https://jamanetwork.com/journals/jama-health-forum/fullarticle/2846547",
+    "https://leggett.gcs-web.com/news-releases/news-release-details/leggett-platt-reports-4q-and-full-year-2025-results",
+    "https://loversstores.com/",
+    "https://market.us/report/global-crop-insurance-market/",
     "https://medvidi.com/blog/adhd-medication-shortage",
+    "https://news.bloomberglaw.com/insurance/top-air-ambulance-firm-to-seek-creditor-vote-on-bankruptcy-plan",
+    "https://nyfarminsurance.com/post/climate-change-impact-farm-insurance-2025/",
     "https://oysterlink.com/spotlight/hospitality-wages-2025/",
     "https://oysterlink.com/spotlight/inflation-impact-restaurant-industry/",
     "https://pharmaceutical-journal.com/article/news/adhd-medicines-prescriptions-rose-again-in-2025",
+    "https://phys.org/news/2024-07-farmers-climate-crop-wont.html",
     "https://pos.toasttab.com/blog/data/2025-voice-of-restaurant-industry-survey",
     "https://prosperousamerica.org/new-cpa-report-shows-domestic-manufacturing-market-share-rebounds-in-2025-as-tariffs-begin-to-reshape-u-s-industry/",
+    "https://quasa.io/media/ai-hits-advertising-agencies-hard-in-2025-but-the-rebound-could-be-coming",
     "https://reason.com/2026/07/31/trumps-tariffs-will-cost-each-american-household-900-in-2026/",
+    "https://sextechguide.com/news/pornhub-year-in-review-2024/",
+    "https://sleepproducts.org/2026/07/mattress-industry-trends-report-2026-overview/",
+    "https://southernagtoday.org/2026/03/12/u-s-agricultural-export-trends-stability-growth-and-a-china-driven-rollercoaster",
+    "https://supreme.justia.com/cases/federal/us/606/23-1122/",
+    "https://sztxtape.com/blog/trump-tariffs-adhesive-tape-impact/",
     "https://taxdome.com/blog/accounting-statistics",
     "https://taxfoundation.org/blog/trump-tariffs-food-prices/",
+    "https://verticalmag.com/features/how-to-build-a-robust-air-medical-talent-pipeline/",
+    "https://wits.worldbank.org/trade/comtrade/en/country/USA/year/2024/tradeflow/Imports/partner/ALL/product/841480",
     "https://www.accio.com/business/latest-guitar-trend",
     "https://www.accountingseed.com/resources/the-state-of-ai-in-accounting-2026-alt/",
     "https://www.accountingtoday.com/list/ai-thought-leaders-survey-2026-process-predictions",
+    "https://www.activeday.com/about-us/'}",
+    "https://www.adameve.com/store",
+    "https://www.adweek.com/agencies/the-real-wpp-story-is-in-the-margin-not-the-revenue/",
     "https://www.ahla.com/news/ahla-releases-2026-state-industry",
     "https://www.astm.org/news/press-releases/wohlers-report-2025",
     "https://www.astm.org/news/press-releases/wohlers-report-2026",
+    "https://www.aylo.com/newsroom/mindgeek-becomes-aylo/",
+    "https://www.badcredit.org/news/debt-is-crushing-farmers-and-bankruptcy-isnt-an-option-for-many/",
     "https://www.bestdosage.com/blog/acupuncture-insurance-coverage-2026-guide",
+    "https://www.capstonepartners.com/insights/article-agtech-market-update/",
+    "https://www.carescout.com/cost-of-care'}",
+    "https://www.cdc.gov/nchs/data/hestat/adultday/adult-day-2022.htm'}",
+    "https://www.cdc.gov/nchs/fastats/adsc.htm'}",
+    "https://www.cdc.gov/nchs/products/databriefs/db502.htm'}",
+    "https://www.census.gov/economic-indicators/",
+    "https://www.census.gov/newsroom/press-releases/2025/older-adults-outnumber-children.html",
+    "https://www.chartis.com/insights/2026-rural-health-state-state",
+    "https://www.classaction.org/news/200.2m-settlement-with-beef-pork-processing-plants-ends-class-action-lawsuit-over-alleged-wage-suppression",
+    "https://www.cms.gov/medicare/payment/fee-schedules/ambulance",
     "https://www.coherentmarketinsights.com/industry-reports/activated-carbon-market",
     "https://www.coherentmarketinsights.com/industry-reports/acupuncture-market",
+    "https://www.commonwealthfund.org/blog/2024/expanding-no-surprises-act-protect-consumers-surprise-ambulance-bills",
     "https://www.congress.gov/bill/119th-congress/house-bill/1667",
+    "https://www.congress.gov/bill/119th-congress/senate-bill/2518",
     "https://www.contextworld.com/en/quarterly-3d-printer-shipments-face-turbulence-amid-shifting-market-dynamics",
     "https://www.contextworld.com/en/quarterly-3d-printer-shipments-show-entry-level-remains-hot-while-industrial-segment-still-caught-in-catch-22",
+    "https://www.cornellhealthcarereview.org/post/critical-lifelines-air-ambulances-in-rural-america",
     "https://www.cpapracticeadvisor.com/2025/11/25/salary-and-hiring-trends-in-accounting-what-cpa-firms-should-know-to-stay-competitive/173594/",
+    "https://www.credenceresearch.com/report/united-states-butchery-and-meat-processing-market",
     "https://www.databridgemarketresearch.com/reports/us-abrasive-market",
     "https://www.dermatologytimes.com/view/fda-approves-otc-differin-epiduo-gel-for-acne-in-patients-12-and-older",
+    "https://www.ebc.com/forex/us-farm-debt-bankruptcies-2026",
+    "https://www.emarketer.com/content/faq-on-ad-agencies--consolidation--ai-disruption--what-s-changing-in-2026",
+    "https://www.ems1.com/ems-trend-report/what-paramedics-want-in-2026-take-the-ems-workforce-survey/",
     "https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas",
+    "https://www.ewg.org/research/crop-insurance-pays-farmers-billions-dollars-weather-related-losses-closely-linked-climate",
+    "https://www.fas.usda.gov/data/2025-us-agricultural-export-yearbook",
+    "https://www.fb.org/market-intel/hurricanes-heat-and-hardship-counting-2024s-crop-losses",
     "https://www.federalregister.gov/documents/2026/07/13/2026-14028/certain-activated-carbon-from-the-peoples-republic-of-china-preliminary-results-and-rescission-in",
     "https://www.fictiv.com/articles/2025-u-s-tariff-updates-key-trade-policy-changes",
+    "https://www.fns.usda.gov/research/cacfp/characteristics-adc'}",
     "https://www.fortunebusinessinsights.com/accounting-services-market-114727",
     "https://www.fortunebusinessinsights.com/acne-treatment-market-103361",
+    "https://www.fortunebusinessinsights.com/aerial-work-platforms-market-105377",
+    "https://www.fortunebusinessinsights.com/air-ambulance-services-market-102577",
+    "https://www.fortunebusinessinsights.com/crop-insurance-market-113633",
     "https://www.fortunebusinessinsights.com/rapid-prototyping-materials-market-106524",
+    "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2025.1649540/full",
+    "https://www.ftc.gov/legal-library/browse/cases-proceedings/pornhubmindgeekaylo",
+    "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-takes-action-against-operators-pornhub-other-pornographic-sites-deceiving-users-about-efforts",
     "https://www.futuremarketinsights.com/reports/accounting-software-market",
     "https://www.futuremarketinsights.com/reports/acne-treatment-solution-market",
+    "https://www.futuremarketinsights.com/reports/aerospace-adhesives-and-sealants-market",
     "https://www.futuremarketinsights.com/reports/guitar-market",
+    "https://www.futuremarketinsights.com/reports/packaging-tapes-market",
+    "https://www.gfb.org/news/ag-news/post/farm-chapter-12-bankruptcies-in-2026-up-46-from-2024",
     "https://www.globalgrowthinsights.com/market-reports/guitar-market-121877",
+    "https://www.globenewswire.com/news-release/2025/01/03/3003909/28124/en/Air-Ambulance-Services-Global-Market-Opportunities-and-Strategies-to-2033-Strategic-Partnerships-Among-Market-Players-Focus-on-Expansion-of-Fleets-to-Enhance-Services-Offerings.html",
     "https://www.globenewswire.com/news-release/2026/03/09/3251676/8852/en/3D-Systems-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html",
+    "https://www.gminsights.com/industry-analysis/north-america-adult-incontinence-products-market",
     "https://www.grandviewresearch.com/industry-analysis/3d-printing-industry-analysis",
     "https://www.grandviewresearch.com/industry-analysis/abrasives-market",
     "https://www.grandviewresearch.com/industry-analysis/activated-carbon-market",
+    "https://www.grandviewresearch.com/industry-analysis/adhesive-tapes-market-report",
+    "https://www.grandviewresearch.com/industry-analysis/adhesives-and-sealants-market",
     "https://www.grandviewresearch.com/industry-analysis/guitar-market-report",
     "https://www.grandviewresearch.com/industry-analysis/organic-skin-care-market",
+    "https://www.grandviewresearch.com/industry-analysis/us-adjustable-bed-frames-market-report",
+    "https://www.grandviewresearch.com/industry-analysis/us-aerial-work-platform-market-report",
     "https://www.grandviewresearch.com/industry-analysis/us-attention-deficit-hyperactivity-disorder-market-report",
+    "https://www.grandviewresearch.com/industry-analysis/us-sex-toys-market-report",
     "https://www.guitarworld.com/gear/electric-guitars/fender-year-in-review-2024",
+    "https://www.hhs.gov/about/budget/fy2026/index.html'}",
     "https://www.hotelnewsresource.com/article134309.html",
     "https://www.hp.com/us-en/newsroom/press-releases/2025/hp-drives-additive-manufacturing.html",
     "https://www.ibisworld.com/united-states/industry/3d-printing-rapid-prototyping-services/4581/",
     "https://www.ibisworld.com/united-states/industry/accommodation-food-services/1658/",
     "https://www.ibisworld.com/united-states/industry/acne-treatment-manufacturing-otc/4125/",
+    "https://www.ibisworld.com/united-states/industry/adhesive-manufacturing/493/",
+    "https://www.ibisworld.com/united-states/industry/adhesive-tape-manufacturing/4963/",
+    "https://www.ibisworld.com/united-states/industry/advertising-agencies/1433/",
+    "https://www.ibisworld.com/united-states/market-size/air-ambulance-services/5969/",
+    "https://www.imarcgroup.com/adhesive-tapes-market",
     "https://www.imarcgroup.com/global-semiconductor-wafer-polishing-grinding-equipment-market",
+    "https://www.imarcgroup.com/united-states-adult-diaper-market",
     "https://www.indexbox.io/blog/abrasives-china-market-overview-2024/",
     "https://www.indexbox.io/blog/metal-3d-printing-market-forecast-points-higher-toward-2035-driven-by-aerospace-production-scaling/",
+    "https://www.industrialairpower.com/blog/airflow-update-september-2025/",
+    "https://www.industrialinfo.com/news/article/active-us-meat-and-poultry-construction-adds-up-to-25-billion--358936",
     "https://www.invensis.net/blog/impact-of-ai-on-accounting-industry",
+    "https://www.marketdataforecast.com/market-reports/united-states-sexual-wellness-market",
+    "https://www.marketresearch.com/Market-Glass-Inc-v1039/Adult-Stores-44877814/",
     "https://www.marketresearchfuture.com/reports/activated-carbon-market-1744",
     "https://www.marketresearchfuture.com/reports/adhd-therapeutics-market-1573",
+    "https://www.marketresearchfuture.com/reports/agricultural-insurance-market-23918",
     "https://www.marketresearchfuture.com/reports/us-acupuncture-market-12641",
+    "https://www.marketresearchfuture.com/reports/us-aircraft-maintenance-repair-and-overhaul-market-21422",
+    "https://www.marketsandmarkets.com/Market-Reports/adhesive-tapes-market-251563138.html",
     "https://www.mindbody7.com/news/adhd-medication-shortages-in-2026/",
     "https://www.mordorintelligence.com/industry-reports/abrasives-market",
     "https://www.mordorintelligence.com/industry-reports/activated-carbon-market",
+    "https://www.mordorintelligence.com/industry-reports/agribusiness-market",
     "https://www.mordorintelligence.com/industry-reports/united-states-activated-carbon-market",
+    "https://www.ncsl.org/human-services/family-first-state-plans-and-enacted-legislation'}",
+    "https://www.nembgroup.com/medicare-ambulance-reimbursement-2026/",
+    "https://www.numberanalytics.com/blog/adapting-to-climate-change-with-crop-insurance",
     "https://www.patientcareonline.com/view/fda-clears-otc-adapalene-benzoyl-peroxide-gel-for-acne-in-patients-12-and-older",
     "https://www.precedenceresearch.com/3d-printing-market",
     "https://www.researchandmarkets.com/report/accounting-services",
+    "https://www.researchandmarkets.com/report/united-states-adult-day-center-market'}",
+    "https://www.researchandmarkets.com/report/united-states-adult-store-market",
+    "https://www.researchandmarkets.com/reports/5686153/2026-agribusiness-market-outlook-size-share",
+    "https://www.researchandmarkets.com/reports/5792846/crop-insurance-market-report",
     "https://www.researchandmarkets.com/reports/5852400/acne-treatment-manufacturing-otc-in-the-us",
     "https://www.roberthalf.com/us/en/insights/hiring-help/accountant-shortage-how-to-compete-for-skilled-talent",
     "https://www.roberthalf.com/us/en/insights/research/data-reveals-which-finance-and-accounting-roles-are-in-highest-demand",
     "https://www.sec.gov/Archives/edgar/data/1643303/000121390025035275/ea023872401ex99-1_nano.htm",
+    "https://www.sec.gov/Archives/edgar/data/1834376/000183437625000062/innv-20250630.htm'}",
+    "https://www.sec.gov/Archives/edgar/data/39368/000003936826000002/fulars25.pdf",
     "https://www.side-line.com/best-online-music-lessons-and-learning-platforms-2026/",
+    "https://www.similarweb.com/blog/research/market-research/most-visited-websites-usa/",
+    "https://www.statista.com/outlook/io/agriculture/united-states",
+    "https://www.storyboard18.com/how-it-works/wpps-painful-reset-revenue-falls-clients-exit-margins-shrink-500-million-cuts-and-9000-jobs-gone-92795.htm",
     "https://www.thebusinessresearchcompany.com/report/accounting-services-global-market-report",
+    "https://www.thebusinessresearchcompany.com/report/crop-insurance-global-market-report",
+    "https://www.thedrum.com/news/forrester-predicts-15-agency-job-losses-2026-the-agencies-agents-era-over",
+    "https://www.usda.gov/sites/default/files/documents/2025AOF-grains-oilseeds-outlook.pdf",
     "https://www.usitc.gov/publications/701_731/pub5474.pdf",
     "https://www.verifiedmarketreports.com/product/adhd-medication-market/",
-    "https://www.verifiedmarketresearch.com/product/abrasives-market/"
+    "https://www.verifiedmarketresearch.com/product/abrasives-market/",
+    "local://adult-diaper-manufacturing-in-the-us.txt"
   ],
   "samples": [
     {
@@ -1489,11 +1605,2602 @@
         "quality and compliance investment does not protect approvals or continuity",
         "API, quota, and plant conditions do not affect cost, release, or cash"
       ]
+    },
+    {
+      "industry_slug": "adhesive-manufacturing-in-the-us",
+      "industry_title": "US Adhesive Manufacturing — 2025-2026 Market Brief",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "claims": [
+        {
+          "claim_id": "adhesive-market",
+          "claim_text": "US adhesive manufacturing market estimates are classification-sensitive and span commodity, specialty, structural, pressure-sensitive, and application-specific products.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06880",
+            "src_06881"
+          ],
+          "sources": [
+            {
+              "id": "src_06880",
+              "title": "Adhesive Manufacturing",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/adhesive-manufacturing/493/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06881",
+              "title": "Adhesives and Sealants Market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/adhesives-and-sealants-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "adhesive-demand",
+          "claim_text": "Packaging, construction, automotive, aerospace, electronics, medical, furniture, hygiene, and industrial assembly support adhesive demand.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06880",
+            "src_06881",
+            "src_06883"
+          ],
+          "sources": [
+            {
+              "id": "src_06880",
+              "title": "Adhesive Manufacturing",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/adhesive-manufacturing/493/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06881",
+              "title": "Adhesives and Sealants Market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/adhesives-and-sealants-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06883",
+              "title": "Aerospace Adhesives and Sealants Market",
+              "publisher": "Future Market Insights",
+              "url": "https://www.futuremarketinsights.com/reports/aerospace-adhesives-and-sealants-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "adhesive-inputs",
+          "claim_text": "Resins, polymers, solvents, additives, energy, freight, and packaging affect adhesive manufacturing cost, supply, and price pass-through.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06880",
+            "src_06884",
+            "src_06887"
+          ],
+          "sources": [
+            {
+              "id": "src_06880",
+              "title": "Adhesive Manufacturing",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/adhesive-manufacturing/493/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06884",
+              "title": "Adhesive Raw Materials Guide",
+              "publisher": "Allanchem",
+              "url": "https://allanchem.com/guide-adhesive-raw-materials/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06887",
+              "title": "Annual Report",
+              "publisher": "SEC",
+              "url": "https://www.sec.gov/Archives/edgar/data/39368/000003936826000002/fulars25.pdf",
+              "source_type": "filing",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [],
+      "record_falsifiers": [
+        "end-market changes do not affect volume or mix",
+        "raw-material and energy conditions do not affect cost or cash",
+        "qualification and technical service do not affect price or retention",
+        "sustainable chemistry does not improve access or value",
+        "compliance investment does not protect permits, uptime, or customers",
+        "customer concentration and pass-through do not affect returns"
+      ]
+    },
+    {
+      "industry_slug": "adhesive-tape-manufacturing",
+      "industry_title": "US Adhesive Tape Manufacturing 2025-2026",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "claims": [
+        {
+          "claim_id": "tape-market",
+          "claim_text": "US adhesive tape manufacturing market estimates are classification-sensitive and span packaging, industrial, pressure-sensitive, medical, and engineered tape products.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06889",
+            "src_06890",
+            "src_06891"
+          ],
+          "sources": [
+            {
+              "id": "src_06889",
+              "title": "Adhesive Tape Manufacturing",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/adhesive-tape-manufacturing/4963/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06890",
+              "title": "Adhesive Tapes Market",
+              "publisher": "IMARC Group",
+              "url": "https://www.imarcgroup.com/adhesive-tapes-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06891",
+              "title": "Adhesive Tapes Market Report",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/adhesive-tapes-market-report",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "tape-demand",
+          "claim_text": "Packaging, construction, automotive, electronics, medical, hygiene, and industrial assembly support adhesive-tape demand.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06890",
+            "src_06891",
+            "src_06897"
+          ],
+          "sources": [
+            {
+              "id": "src_06890",
+              "title": "Adhesive Tapes Market",
+              "publisher": "IMARC Group",
+              "url": "https://www.imarcgroup.com/adhesive-tapes-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06891",
+              "title": "Adhesive Tapes Market Report",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/adhesive-tapes-market-report",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06897",
+              "title": "Packaging Tapes Market",
+              "publisher": "Future Market Insights",
+              "url": "https://www.futuremarketinsights.com/reports/packaging-tapes-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "tape-inputs",
+          "claim_text": "Films, foams, papers, foils, liners, adhesives, energy, freight, and packaging affect tape manufacturing cost, supply, and price pass-through.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06889",
+            "src_06896",
+            "src_06893"
+          ],
+          "sources": [
+            {
+              "id": "src_06889",
+              "title": "Adhesive Tape Manufacturing",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/adhesive-tape-manufacturing/4963/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06893",
+              "title": "Adhesive Tapes Market",
+              "publisher": "MarketsandMarkets",
+              "url": "https://www.marketsandmarkets.com/Market-Reports/adhesive-tapes-market-251563138.html",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06896",
+              "title": "Tariff Impact on Adhesive Tape",
+              "publisher": "SZTX Tape",
+              "url": "https://sztxtape.com/blog/trump-tariffs-adhesive-tape-impact/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [],
+      "record_falsifiers": [
+        "end-market changes do not affect volume or mix",
+        "input and energy conditions do not affect cost or cash",
+        "qualification and technical service do not affect price or retention",
+        "sustainable tapes do not improve access or value",
+        "compliance investment does not protect permits, uptime, or customers",
+        "custom conversion and specialty products do not improve lifecycle economics"
+      ]
+    },
+    {
+      "industry_slug": "adjustable-bed-and-mattress-manufacturing",
+      "industry_title": "Adjustable Bed & Mattress Manufacturing",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "claims": [
+        {
+          "claim_id": "mattress-model",
+          "claim_text": "Adjustable-bed and mattress manufacturers combine bulky physical products with retail, direct, delivery, financing, trial, and warranty economics.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15577",
+            "src_15581",
+            "src_15582",
+            "src_15583"
+          ],
+          "sources": [
+            {
+              "id": "src_15577",
+              "title": "Adjustable bed and mattress manufacturing baseline",
+              "publisher": "IBISWorld local baseline",
+              "url": "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/adjustable-bed-and-mattress-manufacturing.txt",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15581",
+              "title": "Mattress Firm acquisition",
+              "publisher": "Somnigroup International",
+              "url": "https://investor.somnigroup.com/newsroom/news-details/2025/Tempur-Sealy-Successfully-Completes-Acquisition-of-Mattress-Firm/default.aspx",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15582",
+              "title": "2025 full-year results",
+              "publisher": "Somnigroup International",
+              "url": "https://investor.somnigroup.com/newsroom/news-details/2026/Somnigroup-International-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15583",
+              "title": "2025 full-year results",
+              "publisher": "Sleep Number",
+              "url": "https://ir.sleepnumber.com/news/news-details/2026/Sleep-Number-Announces-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "mattress-market",
+          "claim_text": "Market evidence and company results indicate that affordability, channel mix, product mix, and industry consolidation shape current performance.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15578",
+            "src_15579",
+            "src_15580",
+            "src_15582",
+            "src_15583",
+            "src_15584",
+            "src_15585"
+          ],
+          "sources": [
+            {
+              "id": "src_15578",
+              "title": "Mattress industry trends report 2026",
+              "publisher": "International Sleep Products Association",
+              "url": "https://sleepproducts.org/2026/07/mattress-industry-trends-report-2026-overview/",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15579",
+              "title": "US adjustable bed bases market",
+              "publisher": "Deep Market Insights",
+              "url": "https://deepmarketinsights.com/vista/insights/adjustable-bed-bases-market/united-states",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15580",
+              "title": "US adjustable bed frames market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/us-adjustable-bed-frames-market-report",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15582",
+              "title": "2025 full-year results",
+              "publisher": "Somnigroup International",
+              "url": "https://investor.somnigroup.com/newsroom/news-details/2026/Somnigroup-International-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15583",
+              "title": "2025 full-year results",
+              "publisher": "Sleep Number",
+              "url": "https://ir.sleepnumber.com/news/news-details/2026/Sleep-Number-Announces-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15584",
+              "title": "2025 full-year results",
+              "publisher": "Leggett & Platt",
+              "url": "https://leggett.gcs-web.com/news-releases/news-release-details/leggett-platt-reports-4q-and-full-year-2025-results",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15585",
+              "title": "Economic indicators",
+              "publisher": "U.S. Census Bureau",
+              "url": "https://www.census.gov/economic-indicators/",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "mattress-structure",
+          "claim_text": "Large-company acquisition and results disclosures show scale, brand, retail reach, and operational execution as important competitive variables.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15581",
+            "src_15582",
+            "src_15583",
+            "src_15584"
+          ],
+          "sources": [
+            {
+              "id": "src_15581",
+              "title": "Mattress Firm acquisition",
+              "publisher": "Somnigroup International",
+              "url": "https://investor.somnigroup.com/newsroom/news-details/2025/Tempur-Sealy-Successfully-Completes-Acquisition-of-Mattress-Firm/default.aspx",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15582",
+              "title": "2025 full-year results",
+              "publisher": "Somnigroup International",
+              "url": "https://investor.somnigroup.com/newsroom/news-details/2026/Somnigroup-International-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15583",
+              "title": "2025 full-year results",
+              "publisher": "Sleep Number",
+              "url": "https://ir.sleepnumber.com/news/news-details/2026/Sleep-Number-Announces-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15584",
+              "title": "2025 full-year results",
+              "publisher": "Leggett & Platt",
+              "url": "https://leggett.gcs-web.com/news-releases/news-release-details/leggett-platt-reports-4q-and-full-year-2025-results",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "CAC",
+        "adjustable-base penetration",
+        "age mix",
+        "claim substantiation",
+        "complaints",
+        "consumer credit",
+        "delivery damage",
+        "direct mix",
+        "freight",
+        "housing turnover",
+        "input prices",
+        "recalls",
+        "retail traffic",
+        "retailer audits",
+        "returns and reviews",
+        "service time",
+        "supplier lead times",
+        "wage growth",
+        "wellness spending"
+      ],
+      "record_falsifiers": [
+        "premium adjustability fails to improve net margin",
+        "housing and affordability weakness persists",
+        "delivery and warranty losses overwhelm product margin",
+        "retail consolidation reduces supplier economics"
+      ]
+    },
+    {
+      "industry_slug": "adoption-and-child-welfare-services-in-the-us",
+      "industry_title": "Adoption & Child Welfare Services in the US",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "claims": [
+        {
+          "claim_id": "childwelfare-model",
+          "claim_text": "Adoption and child-welfare providers combine public program funding, grants, case management, placement, prevention, family services, and adoption support.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15586",
+            "src_15587",
+            "src_15589",
+            "src_15590",
+            "src_15592"
+          ],
+          "sources": [
+            {
+              "id": "src_15586",
+              "title": "Adoption and child-welfare services baseline",
+              "publisher": "IBISWorld local baseline",
+              "url": "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/adoption-and-child-welfare-services-in-the-us.txt",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15587",
+              "title": "AFCARS data page",
+              "publisher": "Administration for Children and Families",
+              "url": "https://acf.gov/cb/research-data-technology/statistics-research/afcars'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15589",
+              "title": "HHS FY 2026 Budget in Brief",
+              "publisher": "U.S. Department of Health and Human Services",
+              "url": "https://www.hhs.gov/about/budget/fy2026/index.html'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15590",
+              "title": "ACF FY 2026 Congressional Justification",
+              "publisher": "Administration for Children and Families",
+              "url": "https://acf.gov/cj'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15592",
+              "title": "Social Services Block Grant Program",
+              "publisher": "Administration for Children and Families",
+              "url": "https://acf.gov/ocs/programs/ssbg'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "childwelfare-population",
+          "claim_text": "AFCARS and adoption statistics provide the core evidence base for foster-care, permanency, and adoption activity, while counts do not directly establish provider profitability.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15587",
+            "src_15588"
+          ],
+          "sources": [
+            {
+              "id": "src_15587",
+              "title": "AFCARS data page",
+              "publisher": "Administration for Children and Families",
+              "url": "https://acf.gov/cb/research-data-technology/statistics-research/afcars'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15588",
+              "title": "Foster care and adoption statistics: AFCARS 2025 update",
+              "publisher": "National Council For Adoption",
+              "url": "https://adoptioncouncil.org/article/foster-care-and-adoption-statistics/'}",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "childwelfare-policy",
+          "claim_text": "Family First state plans and federal budget materials make prevention, evidence, eligibility, and public funding central operating variables.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15589",
+            "src_15590",
+            "src_15591",
+            "src_15592"
+          ],
+          "sources": [
+            {
+              "id": "src_15589",
+              "title": "HHS FY 2026 Budget in Brief",
+              "publisher": "U.S. Department of Health and Human Services",
+              "url": "https://www.hhs.gov/about/budget/fy2026/index.html'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15590",
+              "title": "ACF FY 2026 Congressional Justification",
+              "publisher": "Administration for Children and Families",
+              "url": "https://acf.gov/cj'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15591",
+              "title": "Family First state plans and enacted legislation",
+              "publisher": "National Conference of State Legislatures",
+              "url": "https://www.ncsl.org/human-services/family-first-state-plans-and-enacted-legislation'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15592",
+              "title": "Social Services Block Grant Program",
+              "publisher": "Administration for Children and Families",
+              "url": "https://acf.gov/ocs/programs/ssbg'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "ICPC timing",
+        "adoption finalizations",
+        "appropriations",
+        "caseload",
+        "complaints",
+        "contract rates",
+        "contract renewals",
+        "data incidents",
+        "duplicate entry",
+        "intercountry cases",
+        "licensed homes",
+        "outcomes",
+        "payment days",
+        "placement stability",
+        "qualified programs",
+        "remote service use",
+        "restricted funds",
+        "reunification",
+        "state plans",
+        "state rule changes",
+        "system uptime",
+        "turnover",
+        "vacancies"
+      ],
+      "record_falsifiers": [
+        "prevention funding does not translate into provider demand",
+        "public rates remain structurally below safe delivery cost",
+        "workforce shortages prevent scalable service",
+        "policy changes materially reduce eligible services or placements"
+      ]
+    },
+    {
+      "industry_slug": "adult-and-pornographic-websites",
+      "industry_title": "Adult & Pornographic Websites",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "claims": [
+        {
+          "claim_id": "adult-model",
+          "claim_text": "Adult websites monetize traffic through advertising, subscriptions, creator transactions, and digital distribution while depending on hosting, payments, and platform access.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15594",
+            "src_15600",
+            "src_15602",
+            "src_15605"
+          ],
+          "sources": [
+            {
+              "id": "src_15594",
+              "title": "Adult and pornographic websites baseline",
+              "publisher": "IBISWorld local baseline",
+              "url": "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/adult-and-pornographic-websites.txt",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15600",
+              "title": "MindGeek becomes Aylo",
+              "publisher": "Aylo",
+              "url": "https://www.aylo.com/newsroom/mindgeek-becomes-aylo/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15602",
+              "title": "Most visited websites in the USA",
+              "publisher": "Similarweb",
+              "url": "https://www.similarweb.com/blog/research/market-research/most-visited-websites-usa/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15605",
+              "title": "Pornhub year in review",
+              "publisher": "SexTechGuide",
+              "url": "https://sextechguide.com/news/pornhub-year-in-review-2024/",
+              "source_type": "news",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "adult-enforcement",
+          "claim_text": "FTC enforcement and litigation demonstrate that privacy, age, safety, and consumer representations can create direct operating and legal exposure.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15595",
+            "src_15596",
+            "src_15597"
+          ],
+          "sources": [
+            {
+              "id": "src_15595",
+              "title": "Supreme Court case",
+              "publisher": "Justia",
+              "url": "https://supreme.justia.com/cases/federal/us/606/23-1122/",
+              "source_type": "academic",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15596",
+              "title": "FTC action concerning adult websites",
+              "publisher": "Federal Trade Commission",
+              "url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-takes-action-against-operators-pornhub-other-pornographic-sites-deceiving-users-about-efforts",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15597",
+              "title": "FTC case record",
+              "publisher": "Federal Trade Commission",
+              "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/pornhubmindgeekaylo",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "adult-age",
+          "claim_text": "State age-verification activity creates a fragmented access and privacy environment whose conversion and compliance effects must be assessed jurisdiction by jurisdiction.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15598",
+            "src_15599",
+            "src_15601"
+          ],
+          "sources": [
+            {
+              "id": "src_15598",
+              "title": "State age-verification laws",
+              "publisher": "Free Speech Coalition",
+              "url": "https://action.freespeechcoalition.com/age-verification-resources/state-avs-laws/",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15599",
+              "title": "Age-verification bills",
+              "publisher": "Free Speech Coalition",
+              "url": "https://action.freespeechcoalition.com/age-verification-bills/",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15601",
+              "title": "Adult sites and age-verification laws",
+              "publisher": "Ars Technica",
+              "url": "https://arstechnica.com/tech-policy/2024/06/adult-sites-blocking-more-states-this-summer-to-protest-age-verification-laws/",
+              "source_type": "news",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "advertiser demand",
+        "breach incidents",
+        "chargebacks",
+        "complaints",
+        "content removals",
+        "creator payouts",
+        "false positives",
+        "litigation",
+        "policy changes",
+        "processor approvals",
+        "reserve levels",
+        "retention",
+        "state laws",
+        "subscriber retention",
+        "takedown time",
+        "time spent",
+        "traffic sources",
+        "verification completion",
+        "verification cost"
+      ],
+      "record_falsifiers": [
+        "age assurance destroys conversion without improving access or trust",
+        "payment and platform restrictions eliminate monetization",
+        "moderation and privacy costs exceed recurring revenue",
+        "enforcement materially fragments the addressable market"
+      ]
+    },
+    {
+      "industry_slug": "adult-day-care",
+      "industry_title": "Adult Day Care",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "claims": [
+        {
+          "claim_id": "adc-model",
+          "claim_text": "Adult day centers provide daytime supervision, activities, meals, social services, transportation, and in some models health or personal-care support funded by public and private payers.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15606",
+            "src_15607",
+            "src_15615",
+            "src_15616"
+          ],
+          "sources": [
+            {
+              "id": "src_15606",
+              "title": "Adult day care baseline",
+              "publisher": "IBISWorld local baseline",
+              "url": "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/adult-day-care.txt",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15607",
+              "title": "Adult Day Care in the US",
+              "publisher": "Research and Markets",
+              "url": "https://www.researchandmarkets.com/report/united-states-adult-day-center-market'}",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15615",
+              "title": "Characteristics of Adult Day Care Centers participating in CACFP",
+              "publisher": "USDA Food and Nutrition Service",
+              "url": "https://www.fns.usda.gov/research/cacfp/characteristics-adc'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15616",
+              "title": "About our adult day center",
+              "publisher": "Active Day",
+              "url": "https://www.activeday.com/about-us/'}",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "adc-population",
+          "claim_text": "CDC adult day services data provide evidence on center operations and participant characteristics, while utilization alone does not establish provider profitability.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15609",
+            "src_15610",
+            "src_15611"
+          ],
+          "sources": [
+            {
+              "id": "src_15609",
+              "title": "Adult Day Services Centers FastStats",
+              "publisher": "CDC National Center for Health Statistics",
+              "url": "https://www.cdc.gov/nchs/fastats/adsc.htm'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15610",
+              "title": "Adult Day Services Center Participant Characteristics",
+              "publisher": "CDC National Center for Health Statistics",
+              "url": "https://www.cdc.gov/nchs/products/databriefs/db502.htm'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15611",
+              "title": "Operating Status of Adult Day Services Centers in 2022",
+              "publisher": "CDC National Center for Health Statistics",
+              "url": "https://www.cdc.gov/nchs/data/hestat/adultday/adult-day-2022.htm'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "adc-economics",
+          "claim_text": "Cost-of-care benchmarks and provider disclosures make affordability, payer rates, attendance, staffing, and operating scale important economic variables.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15612",
+            "src_15613",
+            "src_15616",
+            "src_15617"
+          ],
+          "sources": [
+            {
+              "id": "src_15612",
+              "title": "Cost of Care 2025",
+              "publisher": "CareScout",
+              "url": "https://www.carescout.com/cost-of-care'}",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15613",
+              "title": "2024 Cost of Care Survey",
+              "publisher": "Genworth and CareScout",
+              "url": "https://investor.genworth.com/news-events/press-releases/detail/982/genworth-and-carescout-release-cost-of-care-survey-results'}",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15616",
+              "title": "About our adult day center",
+              "publisher": "Active Day",
+              "url": "https://www.activeday.com/about-us/'}",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15617",
+              "title": "SEC filing",
+              "publisher": "InnovAge",
+              "url": "https://www.sec.gov/Archives/edgar/data/1834376/000183437625000062/innv-20250630.htm'}",
+              "source_type": "filing",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "attendance",
+        "attendance accuracy",
+        "audit findings",
+        "authorization days",
+        "budget changes",
+        "caregiver labor-force participation",
+        "denials",
+        "duplicate work",
+        "family satisfaction",
+        "incidents",
+        "older population",
+        "overtime",
+        "payment days",
+        "person-centered plans",
+        "private-pay mix",
+        "rates",
+        "referrals",
+        "route cost",
+        "staff turnover",
+        "system uptime",
+        "vacancies",
+        "waitlists"
+      ],
+      "record_falsifiers": [
+        "demand does not convert into reliable attendance",
+        "rates remain below safe service cost",
+        "workforce shortages prevent capacity growth",
+        "payer audits or policy changes materially reduce eligible volume"
+      ]
+    },
+    {
+      "industry_slug": "adult-diaper-manufacturing-in-the-us",
+      "industry_title": "Adult Diaper Manufacturing in the US",
+      "geography": "United States",
+      "as_of": "2025-12-31",
+      "claims": [
+        {
+          "claim_id": "diaper-baseline",
+          "claim_text": "The source-specific baseline reports approximately $4.362 billion US adult diaper manufacturing revenue, 18.1% profit margin, 5,568 employees, and 11 establishments in 2022.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_15871"
+          ],
+          "sources": [
+            {
+              "id": "src_15871",
+              "title": "Adult Diaper Manufacturing baseline file",
+              "publisher": "IBISWorld source file",
+              "url": "local://adult-diaper-manufacturing-in-the-us.txt",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "diaper-aging",
+          "claim_text": "The US Census Bureau reports that the population age 65 and over reached approximately 61.2 million in 2024, supporting long-run incontinence demand.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_07325"
+          ],
+          "sources": [
+            {
+              "id": "src_07325",
+              "title": "Older Adults Outnumber Children",
+              "publisher": "US Census Bureau",
+              "url": "https://www.census.gov/newsroom/press-releases/2025/older-adults-outnumber-children.html",
+              "source_type": "government",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        },
+        {
+          "claim_id": "diaper-market",
+          "claim_text": "Market sources describe approximately $6.43 billion US adult diaper demand in 2025 and growth supported by premium formats, home care, and recurring consumption.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_15872",
+            "src_15876"
+          ],
+          "sources": [
+            {
+              "id": "src_15872",
+              "title": "United States Adult Diaper Market",
+              "publisher": "IMARC",
+              "url": "https://www.imarcgroup.com/united-states-adult-diaper-market",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_15876",
+              "title": "North America Adult Incontinence Products Market",
+              "publisher": "Global Market Insights",
+              "url": "https://www.gminsights.com/industry-analysis/north-america-adult-incontinence-products-market",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States and North America",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "65+ population",
+        "SAP price",
+        "absorbency",
+        "automation payback",
+        "basket",
+        "care capacity",
+        "claims",
+        "delivery",
+        "fill rate",
+        "freight",
+        "home care",
+        "institutional census",
+        "institutional volume",
+        "inventory",
+        "labor cost",
+        "packaging",
+        "premium spread",
+        "procurement rules",
+        "pull-up mix",
+        "pulp",
+        "recalls",
+        "reimbursement",
+        "repeat",
+        "returns",
+        "reviews",
+        "scrap",
+        "stockouts",
+        "tariffs",
+        "trade-down",
+        "units",
+        "uptime",
+        "warehouse turns",
+        "yield"
+      ],
+      "record_falsifiers": [
+        "demographic growth does not increase consumption",
+        "premium formats fail to earn price",
+        "raw materials normalize without margin recovery",
+        "private label and imports commoditize the category"
+      ]
+    },
+    {
+      "industry_slug": "adult-stores",
+      "industry_title": "Adult Stores",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "claims": [
+        {
+          "claim_id": "adult-store-model",
+          "claim_text": "Adult stores monetize sexual-wellness products, lingerie, media, private-label goods, and ecommerce through trust, privacy, assortment, and repeat purchase.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15880",
+            "src_15881",
+            "src_15882"
+          ],
+          "sources": [
+            {
+              "id": "src_15880",
+              "title": "Adult stores baseline",
+              "publisher": "IBISWorld local baseline",
+              "url": "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/adult-stores.txt",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15881",
+              "title": "United States adult store market",
+              "publisher": "Research and Markets",
+              "url": "https://www.researchandmarkets.com/report/united-states-adult-store-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15882",
+              "title": "US sex toys market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/us-sex-toys-market-report",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "adult-market",
+          "claim_text": "Market research sources describe US adult-store and sexual-wellness demand, product categories, channel development, and competitive conditions.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15881",
+            "src_15882",
+            "src_15883",
+            "src_15884"
+          ],
+          "sources": [
+            {
+              "id": "src_15881",
+              "title": "United States adult store market",
+              "publisher": "Research and Markets",
+              "url": "https://www.researchandmarkets.com/report/united-states-adult-store-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15882",
+              "title": "US sex toys market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/us-sex-toys-market-report",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15883",
+              "title": "United States sexual wellness market",
+              "publisher": "Market Data Forecast",
+              "url": "https://www.marketdataforecast.com/market-reports/united-states-sexual-wellness-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15884",
+              "title": "Adult stores market report",
+              "publisher": "MarketResearch.com",
+              "url": "https://www.marketresearch.com/Market-Glass-Inc-v1039/Adult-Stores-44877814/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "adult-retailers",
+          "claim_text": "Adult retail operators provide evidence of physical-store and ecommerce formats, assortment, and customer-facing category positioning.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15885",
+            "src_15886"
+          ],
+          "sources": [
+            {
+              "id": "src_15885",
+              "title": "Store locator",
+              "publisher": "Adam & Eve",
+              "url": "https://www.adameve.com/store",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15886",
+              "title": "Lovers stores",
+              "publisher": "Lovers",
+              "url": "https://loversstores.com/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "CAC",
+        "ad availability",
+        "age checks",
+        "approval rates",
+        "basket size",
+        "breaches",
+        "category search",
+        "chargebacks",
+        "defects",
+        "fraud",
+        "lawsuits",
+        "lead time",
+        "license actions",
+        "online conversion",
+        "payment declines",
+        "platform policy",
+        "privacy complaints",
+        "repeat purchase",
+        "returns",
+        "supplier audits"
+      ],
+      "record_falsifiers": [
+        "payment and advertising access contracts sharply",
+        "privacy or product failures destroy trust",
+        "age or zoning rules eliminate viable locations",
+        "competition erodes repeat purchase and pricing"
+      ]
+    },
+    {
+      "industry_slug": "advertising-agencies-in-the-us",
+      "industry_title": "Advertising Agencies in the US",
+      "geography": "United States",
+      "as_of": "2025-12-31",
+      "claims": [
+        {
+          "claim_id": "agency-demand",
+          "claim_text": "US advertising agencies provide brand, creative, media, digital, performance, social, content, production, and marketing-technology services to advertisers.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_02518",
+            "src_02519"
+          ],
+          "sources": [
+            {
+              "id": "src_02518",
+              "title": "https://www.ibisworld.com/united-states/industry/advertising-agencies/1433/",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/advertising-agencies/1433/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02519",
+              "title": "https://www.emarketer.com/content/faq-on-ad-agencies--consolidation--ai-disruption--what-s-changing-in-2026",
+              "publisher": "source inventory",
+              "url": "https://www.emarketer.com/content/faq-on-ad-agencies--consolidation--ai-disruption--what-s-changing-in-2026",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "agency-ai",
+          "claim_text": "AI content, automation, media optimization, analytics, and workflow tools are reshaping agency productivity, staffing, creative processes, and client expectations.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_02519",
+            "src_02520",
+            "src_02526"
+          ],
+          "sources": [
+            {
+              "id": "src_02519",
+              "title": "https://www.emarketer.com/content/faq-on-ad-agencies--consolidation--ai-disruption--what-s-changing-in-2026",
+              "publisher": "source inventory",
+              "url": "https://www.emarketer.com/content/faq-on-ad-agencies--consolidation--ai-disruption--what-s-changing-in-2026",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02520",
+              "title": "https://quasa.io/media/ai-hits-advertising-agencies-hard-in-2025-but-the-rebound-could-be-coming",
+              "publisher": "source inventory",
+              "url": "https://quasa.io/media/ai-hits-advertising-agencies-hard-in-2025-but-the-rebound-could-be-coming",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02526",
+              "title": "https://www.thedrum.com/news/forrester-predicts-15-agency-job-losses-2026-the-agencies-agents-era-over",
+              "publisher": "source inventory",
+              "url": "https://www.thedrum.com/news/forrester-predicts-15-agency-job-losses-2026-the-agencies-agents-era-over",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "agency-economics",
+          "claim_text": "Client budgets, media spend, utilization, talent, attribution, pricing, margin, and platform fees determine advertising-agency profitability and client value.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_02518",
+            "src_02521",
+            "src_02522",
+            "src_02527"
+          ],
+          "sources": [
+            {
+              "id": "src_02518",
+              "title": "https://www.ibisworld.com/united-states/industry/advertising-agencies/1433/",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/advertising-agencies/1433/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02521",
+              "title": "https://www.adweek.com/agencies/the-real-wpp-story-is-in-the-margin-not-the-revenue/",
+              "publisher": "source inventory",
+              "url": "https://www.adweek.com/agencies/the-real-wpp-story-is-in-the-margin-not-the-revenue/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02522",
+              "title": "https://www.storyboard18.com/how-it-works/wpps-painful-reset-revenue-falls-clients-exit-margins-shrink-500-million-cuts-and-9000-jobs-gone-92795.htm",
+              "publisher": "source inventory",
+              "url": "https://www.storyboard18.com/how-it-works/wpps-painful-reset-revenue-falls-clients-exit-margins-shrink-500-million-cuts-and-9000-jobs-gone-92795.htm",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02527",
+              "title": "https://adage.com/datacenter/aa-agency-report-2026-employment-revenue/",
+              "publisher": "source inventory",
+              "url": "https://adage.com/datacenter/aa-agency-report-2026-employment-revenue/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "AI campaign adoption",
+        "IP claims",
+        "M&A",
+        "ad disclosures",
+        "advertiser budgets",
+        "availability",
+        "backlog",
+        "brand lift",
+        "brand-safety complaints",
+        "brand-safety exceptions",
+        "campaign performance",
+        "campaign uptime",
+        "client acceptance",
+        "client retention",
+        "compensation",
+        "data-transfer restrictions",
+        "international campaign share",
+        "localization demand",
+        "media spend",
+        "media-market access",
+        "outages",
+        "privacy rule changes",
+        "product launches",
+        "production hours",
+        "recovery tests",
+        "referrals",
+        "remediation",
+        "retention",
+        "security incidents",
+        "storage cost",
+        "tool adoption",
+        "utilization",
+        "vacancies"
+      ],
+      "record_falsifiers": [
+        "Brand, creative, media, digital, performance, content, and growth needs do not affect agency demand.",
+        "Strategy, creativity, talent, utilization, attribution, pricing, and collections do not affect agency margins or value.",
+        "AI, martech, analytics, automation, and platforms do not affect productivity, quality, liability, or competitiveness.",
+        "Privacy, consent, advertising, copyright, disclosure, accessibility, and consumer rules do not affect eligible work or trust.",
+        "Client outcomes, media efficiency, relationships, specialization, and channel diversity do not affect renewals or performance."
+      ]
+    },
+    {
+      "industry_slug": "aerial-work-platform-manufacturing",
+      "industry_title": "Aerial Work Platform Manufacturing",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "claims": [
+        {
+          "claim_id": "awp-baseline",
+          "claim_text": "The available corpus identifies aerial work platform manufacturing as an in-scope industry and provides market-report candidates, but does not supply a normalized US manufacturer revenue or margin baseline.",
+          "claim_type": "hypothesis",
+          "source_ids": [
+            "src_15890",
+            "src_15891"
+          ],
+          "sources": [
+            {
+              "id": "src_15890",
+              "title": "US aerial work platform market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/us-aerial-work-platform-market-report",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_15891",
+              "title": "Aerial work platforms market",
+              "publisher": "Fortune Business Insights",
+              "url": "https://www.fortunebusinessinsights.com/aerial-work-platforms-market-105377",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "Global and United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "awp-demand",
+          "claim_text": "Construction, industrial maintenance, rental fleets, and work-at-height safety provide plausible demand channels for aerial work platforms; US segment-specific demand remains evidence debt.",
+          "claim_type": "hypothesis",
+          "source_ids": [
+            "src_15890",
+            "src_15891"
+          ],
+          "sources": [
+            {
+              "id": "src_15890",
+              "title": "US aerial work platform market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/us-aerial-work-platform-market-report",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_15891",
+              "title": "Aerial work platforms market",
+              "publisher": "Fortune Business Insights",
+              "url": "https://www.fortunebusinessinsights.com/aerial-work-platforms-market-105377",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "Global and United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "awp-inputs",
+          "claim_text": "Steel, hydraulics, batteries, electronics, and motors are likely material input and lead-time drivers for aerial work platforms; supplier-specific exposure remains unverified.",
+          "claim_type": "hypothesis",
+          "source_ids": [
+            "src_15890"
+          ],
+          "sources": [
+            {
+              "id": "src_15890",
+              "title": "US aerial work platform market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/us-aerial-work-platform-market-report",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "audits",
+        "battery cost",
+        "battery life",
+        "certification",
+        "commercial capex",
+        "electric mix",
+        "fleet age",
+        "incidents",
+        "inspections",
+        "lead time",
+        "orders",
+        "rates",
+        "recalls",
+        "rental utilization",
+        "residual value",
+        "safety spend",
+        "service backlog",
+        "starts",
+        "steel",
+        "tariffs",
+        "telematics",
+        "training",
+        "uptime",
+        "utilization",
+        "vacancies",
+        "wages"
+      ],
+      "record_falsifiers": [
+        "Construction and rental utilization do not affect equipment demand.",
+        "Lifecycle service and compliance do not create pricing or retention advantage.",
+        "Electric and connected platforms do not improve total cost or uptime.",
+        "Safety regulation does not affect market access, liability, or trust."
+      ]
+    },
+    {
+      "industry_slug": "agribusiness-in-the-us",
+      "industry_title": "US Agribusiness Industry Brief",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "claims": [
+        {
+          "claim_id": "ag-demand",
+          "claim_text": "US agribusiness serves food, feed, fiber, fuel, domestic, export, livestock, specialty, processor, retailer, restaurant, and institutional demand shaped by population, diets, trade, and commodity cycles.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_02827",
+            "src_02828",
+            "src_02829",
+            "src_02838",
+            "src_02841",
+            "src_02842"
+          ],
+          "sources": [
+            {
+              "id": "src_02827",
+              "title": "2025 US Agricultural Export Yearbook",
+              "publisher": "source inventory",
+              "url": "https://www.fas.usda.gov/data/2025-us-agricultural-export-yearbook",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02828",
+              "title": "Agribusiness Market",
+              "publisher": "source inventory",
+              "url": "https://www.mordorintelligence.com/industry-reports/agribusiness-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02829",
+              "title": "2026 Agribusiness Market Outlook",
+              "publisher": "source inventory",
+              "url": "https://www.researchandmarkets.com/reports/5686153/2026-agribusiness-market-outlook-size-share",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02838",
+              "title": "USDA Grains and Oilseeds Outlook",
+              "publisher": "source inventory",
+              "url": "https://www.usda.gov/sites/default/files/documents/2025AOF-grains-oilseeds-outlook.pdf",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02841",
+              "title": "US Agriculture Exports 2026 Trends",
+              "publisher": "source inventory",
+              "url": "https://farmonaut.com/usa/top-us-agriculture-exports-2026-trends-global-growth",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02842",
+              "title": "US Agricultural Export Trends and China",
+              "publisher": "source inventory",
+              "url": "https://southernagtoday.org/2026/03/12/u-s-agricultural-export-trends-stability-growth-and-a-china-driven-rollercoaster",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "ag-monetization",
+          "claim_text": "Commodity sales, inputs, equipment, storage, processing, trading, logistics, exports, contracts, data, and agtech determine agribusiness value-chain revenue mix and margin.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_02827",
+            "src_02828",
+            "src_02831",
+            "src_02832",
+            "src_02834"
+          ],
+          "sources": [
+            {
+              "id": "src_02827",
+              "title": "2025 US Agricultural Export Yearbook",
+              "publisher": "source inventory",
+              "url": "https://www.fas.usda.gov/data/2025-us-agricultural-export-yearbook",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02828",
+              "title": "Agribusiness Market",
+              "publisher": "source inventory",
+              "url": "https://www.mordorintelligence.com/industry-reports/agribusiness-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02831",
+              "title": "US Butchery and Meat Processing Market",
+              "publisher": "source inventory",
+              "url": "https://www.credenceresearch.com/report/united-states-butchery-and-meat-processing-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02832",
+              "title": "US Meat and Poultry Construction Investment",
+              "publisher": "source inventory",
+              "url": "https://www.industrialinfo.com/news/article/active-us-meat-and-poultry-construction-adds-up-to-25-billion--358936",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02834",
+              "title": "AgTech Market Update",
+              "publisher": "source inventory",
+              "url": "https://www.capstonepartners.com/insights/article-agtech-market-update/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "ag-costs",
+          "claim_text": "Land, labor, seed, feed, fertilizer, chemicals, energy, equipment, water, storage, processing, debt, and insurance determine agribusiness operating leverage and cash needs.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_02830",
+            "src_02831",
+            "src_02832",
+            "src_02833",
+            "src_02835",
+            "src_02836",
+            "src_02837",
+            "src_02849",
+            "src_02850"
+          ],
+          "sources": [
+            {
+              "id": "src_02830",
+              "title": "Tariffs and Agriculture",
+              "publisher": "source inventory",
+              "url": "https://agamerica.com/blog/tariffs-agriculture/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02831",
+              "title": "US Butchery and Meat Processing Market",
+              "publisher": "source inventory",
+              "url": "https://www.credenceresearch.com/report/united-states-butchery-and-meat-processing-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02832",
+              "title": "US Meat and Poultry Construction Investment",
+              "publisher": "source inventory",
+              "url": "https://www.industrialinfo.com/news/article/active-us-meat-and-poultry-construction-adds-up-to-25-billion--358936",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02833",
+              "title": "Wage Suppression Settlement with Beef and Pork Processing Plants",
+              "publisher": "source inventory",
+              "url": "https://www.classaction.org/news/200.2m-settlement-with-beef-pork-processing-plants-ends-class-action-lawsuit-over-alleged-wage-suppression",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02835",
+              "title": "Farm Chapter 12 Bankruptcies in 2026",
+              "publisher": "source inventory",
+              "url": "https://www.gfb.org/news/ag-news/post/farm-chapter-12-bankruptcies-in-2026-up-46-from-2024",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02836",
+              "title": "Farm Debt and Bankruptcy Pressure",
+              "publisher": "source inventory",
+              "url": "https://www.badcredit.org/news/debt-is-crushing-farmers-and-bankruptcy-isnt-an-option-for-many/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02837",
+              "title": "US Farm Debt and Bankruptcies 2026",
+              "publisher": "source inventory",
+              "url": "https://www.ebc.com/forex/us-farm-debt-bankruptcies-2026",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02849",
+              "title": "2026 Labor Survey: Rising Costs and H-2A",
+              "publisher": "source inventory",
+              "url": "https://fruitgrowersnews.com/article/2026-fgn-labor-survey-h2a-automation/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02850",
+              "title": "Farm Labor Shortage Impact",
+              "publisher": "source inventory",
+              "url": "https://agamerica.com/blog/the-impact-of-the-farm-labor-shortage/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "H-2A",
+        "M&A",
+        "ROI",
+        "adoption",
+        "automation",
+        "bankruptcies",
+        "basis",
+        "capex",
+        "commodity prices",
+        "contract changes",
+        "debt service",
+        "disease",
+        "export volume",
+        "exports",
+        "foodservice",
+        "input use",
+        "insurance losses",
+        "inventories",
+        "labor hours",
+        "margins",
+        "plant throughput",
+        "planted acres",
+        "policy",
+        "rates",
+        "soil moisture",
+        "tariffs",
+        "vacancies",
+        "wages",
+        "water",
+        "yield"
+      ],
+      "record_falsifiers": [
+        "Food, feed, fiber, fuel, export, and processor demand do not affect agribusiness economics.",
+        "Commodity sales, inputs, equipment, storage, processing, trading, logistics, contracts, and agtech do not affect resilience.",
+        "Land, labor, weather, inputs, water, equipment, storage, debt, insurance, and processing do not affect value or survival.",
+        "Trade, tariff, food, environmental, labor, H-2A, safety, animal, and contract rules do not affect operations or liability.",
+        "Yield, market access, labor, technology, liquidity, diversification, and risk discipline do not affect agribusiness outcomes."
+      ]
+    },
+    {
+      "industry_slug": "agricultural-insurance",
+      "industry_title": "Agricultural Insurance",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "claims": [
+        {
+          "claim_id": "ag-market",
+          "claim_text": "Crop and agricultural insurance demand is supported by weather risk, farm-finance needs, public-private programs, and producer interest in income stabilization.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_00426",
+            "src_00427",
+            "src_00428",
+            "src_00431",
+            "src_00432"
+          ],
+          "sources": [
+            {
+              "id": "src_00426",
+              "title": "Crop Insurance Market",
+              "publisher": "Fortune Business Insights",
+              "url": "https://www.fortunebusinessinsights.com/crop-insurance-market-113633",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00427",
+              "title": "Global Crop Insurance Market",
+              "publisher": "Market.us",
+              "url": "https://market.us/report/global-crop-insurance-market/",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00428",
+              "title": "Agricultural Insurance Market",
+              "publisher": "Market Research Future",
+              "url": "https://www.marketresearchfuture.com/reports/agricultural-insurance-market-23918",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00431",
+              "title": "Crop Insurance Market Report",
+              "publisher": "Research and Markets",
+              "url": "https://www.researchandmarkets.com/reports/5792846/crop-insurance-market-report",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00432",
+              "title": "Crop Insurance Global Market Report",
+              "publisher": "The Business Research Company",
+              "url": "https://www.thebusinessresearchcompany.com/report/crop-insurance-global-market-report",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "ag-loss",
+          "claim_text": "Weather, climate, drought, heat, flood, and yield volatility continue to produce material crop-insurance losses and regional correlation.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_00436",
+            "src_00437",
+            "src_00438",
+            "src_00441",
+            "src_00443"
+          ],
+          "sources": [
+            {
+              "id": "src_00436",
+              "title": "Climate Change and Crop Insurance",
+              "publisher": "Frontiers in Climate",
+              "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2025.1649540/full",
+              "source_type": "academic",
+              "published_at": "2025-01-01",
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_00437",
+              "title": "Farmers and Climate Crop Risk",
+              "publisher": "Phys.org",
+              "url": "https://phys.org/news/2024-07-farmers-climate-crop-wont.html",
+              "source_type": "news",
+              "published_at": "2024-07-01",
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00438",
+              "title": "Crop Insurance Pays Farmers Billions for Weather-Related Losses",
+              "publisher": "Environmental Working Group",
+              "url": "https://www.ewg.org/research/crop-insurance-pays-farmers-billions-dollars-weather-related-losses-closely-linked-climate",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00441",
+              "title": "Crop Insurance Loss Experience in 2025",
+              "publisher": "Farmdoc Daily",
+              "url": "https://farmdocdaily.illinois.edu/2026/07/crop-insurance-loss-experience-in-2025-more-of-the-same.html",
+              "source_type": "academic",
+              "published_at": "2026-07-01",
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00443",
+              "title": "Hurricanes, Heat, and Hardship: Counting 2024 Crop Losses",
+              "publisher": "American Farm Bureau Federation",
+              "url": "https://www.fb.org/market-intel/hurricanes-heat-and-hardship-counting-2024s-crop-losses",
+              "source_type": "trade_association",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "ag-climate",
+          "claim_text": "Climate change is altering agricultural risk through heat, drought, water stress, extreme precipitation, and changing yield distributions.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_00434",
+            "src_00436",
+            "src_00437",
+            "src_00439",
+            "src_00440"
+          ],
+          "sources": [
+            {
+              "id": "src_00434",
+              "title": "Adapting to Climate Change with Crop Insurance",
+              "publisher": "Number Analytics",
+              "url": "https://www.numberanalytics.com/blog/adapting-to-climate-change-with-crop-insurance",
+              "source_type": "company",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00436",
+              "title": "Climate Change and Crop Insurance",
+              "publisher": "Frontiers in Climate",
+              "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2025.1649540/full",
+              "source_type": "academic",
+              "published_at": "2025-01-01",
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_00437",
+              "title": "Farmers and Climate Crop Risk",
+              "publisher": "Phys.org",
+              "url": "https://phys.org/news/2024-07-farmers-climate-crop-wont.html",
+              "source_type": "news",
+              "published_at": "2024-07-01",
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00439",
+              "title": "Modernizing Agricultural Insurance",
+              "publisher": "Environmental Defense Fund",
+              "url": "https://blogs.edf.org/growingreturns/2025/06/26/modernizing-agricultural-insurance/",
+              "source_type": "research_firm",
+              "published_at": "2025-06-26",
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00440",
+              "title": "Climate Change Impact on Farm Insurance 2025",
+              "publisher": "New York Farm Insurance",
+              "url": "https://nyfarminsurance.com/post/climate-change-impact-farm-insurance-2025/",
+              "source_type": "company",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "AI adoption",
+        "Farm Bill",
+        "average farm size",
+        "basis complaints",
+        "budget proposals",
+        "claim cycle time",
+        "commodity prices",
+        "coverage by operator age",
+        "coverage uptake",
+        "data resolution",
+        "drought indices",
+        "export volumes",
+        "extreme weather",
+        "farm debt",
+        "farm exits",
+        "farm margins",
+        "food prices",
+        "input prices",
+        "land prices",
+        "loan delinquency",
+        "new products",
+        "planting mix",
+        "portfolio yield",
+        "premium subsidy",
+        "program audits",
+        "subsidy rates",
+        "succession",
+        "water availability",
+        "yield variance"
+      ],
+      "record_falsifiers": [
+        "Climate and weather change do not affect yield, correlation, claims, or subsidy demand.",
+        "Subsidy and policy changes do not affect participation, capacity, or producer behavior.",
+        "Technology does not improve claims, fraud, basis, or adjustment economics.",
+        "Farm-finance and commodity conditions do not affect coverage or loss selection."
+      ]
+    },
+    {
+      "industry_slug": "agriculture-forestry-fishing-and-hunting-in-the-us",
+      "industry_title": "US Agriculture, Forestry, Fishing and Hunting Industry 2025-2026",
+      "geography": "United States",
+      "as_of": "2025-12-31",
+      "claims": [
+        {
+          "claim_id": "ag-baseline",
+          "claim_text": "The source-specific brief reports approximately $465.6 billion in 2021 US agriculture, forestry, fishing and hunting revenue in 2022 materials.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_02843"
+          ],
+          "sources": [
+            {
+              "id": "src_02843",
+              "title": "US Agriculture Market Size and Forecast",
+              "publisher": "Statista",
+              "url": "https://www.statista.com/outlook/io/agriculture/united-states",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "ag-market",
+          "claim_text": "The current brief reports approximately $438.95 billion 2025 market size and a fragmented, consolidating sector; the aggregation should not be treated as a single subsector margin pool.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_02843",
+            "src_02846"
+          ],
+          "sources": [
+            {
+              "id": "src_02843",
+              "title": "US Agriculture Market Size and Forecast",
+              "publisher": "Statista",
+              "url": "https://www.statista.com/outlook/io/agriculture/united-states",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02846",
+              "title": "Key Farm Trends 2026",
+              "publisher": "AgAmerica",
+              "url": "https://agamerica.com/blog/farm-trends-2026/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "ag-labor",
+          "claim_text": "Current labor sources describe rising agricultural labor cost, H-2A and seasonal labor pressure, and automation as material production constraints.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_02849",
+            "src_02850"
+          ],
+          "sources": [
+            {
+              "id": "src_02849",
+              "title": "2026 Labor Survey: Rising Costs and H-2A",
+              "publisher": "Fruit Growers News",
+              "url": "https://fruitgrowersnews.com/article/2026-fgn-labor-survey-h2a-automation/",
+              "source_type": "news",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02850",
+              "title": "Farm Labor Shortage Impact",
+              "publisher": "AgAmerica",
+              "url": "https://agamerica.com/blog/the-impact-of-the-farm-labor-shortage/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "H-2A",
+        "acreage abandoned",
+        "adoption",
+        "aid",
+        "automation",
+        "basis",
+        "buyer standards",
+        "complaints",
+        "debt service",
+        "direct sales",
+        "downtime",
+        "enforcement",
+        "export volume",
+        "feed",
+        "futures",
+        "herd",
+        "input intensity",
+        "input origin",
+        "inspections",
+        "insurance",
+        "inventory",
+        "organic premium",
+        "outages",
+        "payback",
+        "permits",
+        "processing capacity",
+        "rates",
+        "reservoirs",
+        "rule changes",
+        "storage",
+        "tariffs",
+        "traceability",
+        "transport",
+        "vacancies",
+        "wages",
+        "yield"
+      ],
+      "record_falsifiers": [
+        "drought and labor conditions normalize without production loss",
+        "trade restrictions do not affect farmgate or input economics",
+        "precision adoption fails to improve yield or labor productivity",
+        "commodity and livestock cycles converge into stable margins"
+      ]
+    },
+    {
+      "industry_slug": "air-ambulance-services",
+      "industry_title": "US Air Ambulance Services Industry",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "claims": [
+        {
+          "claim_id": "air-demand",
+          "claim_text": "US air ambulance services serve emergency, trauma, rural, interfacility, transplant, specialty, disaster, and time-critical transport demand shaped by geography, hospital capacity, and acuity.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_02865",
+            "src_02866",
+            "src_02872",
+            "src_02875",
+            "src_02876"
+          ],
+          "sources": [
+            {
+              "id": "src_02865",
+              "title": "IBISWorld US Air Ambulance Services Market Size",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/market-size/air-ambulance-services/5969/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02866",
+              "title": "Air Ambulance Services Market",
+              "publisher": "source inventory",
+              "url": "https://www.fortunebusinessinsights.com/air-ambulance-services-market-102577",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02872",
+              "title": "Air Ambulance Services Market Strategies 2025",
+              "publisher": "source inventory",
+              "url": "https://www.globenewswire.com/news-release/2025/01/03/3003909/28124/en/Air-Ambulance-Services-Global-Market-Opportunities-and-Strategies-to-2033-Strategic-Partnerships-Among-Market-Players-Focus-on-Expansion-of-Fleets-to-Enhance-Services-Offerings.html",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02875",
+              "title": "Air Ambulances in Rural America",
+              "publisher": "source inventory",
+              "url": "https://www.cornellhealthcarereview.org/post/critical-lifelines-air-ambulances-in-rural-america",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02876",
+              "title": "2026 Rural Health State of the State",
+              "publisher": "source inventory",
+              "url": "https://www.chartis.com/insights/2026-rural-health-state-state",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "air-monetization",
+          "claim_text": "Medicare, Medicaid, commercial, hospital, government, membership, travel, specialty, and private-pay arrangements determine air-ambulance revenue mix and resilience.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_02865",
+            "src_02869",
+            "src_02870",
+            "src_02877",
+            "src_02878"
+          ],
+          "sources": [
+            {
+              "id": "src_02865",
+              "title": "IBISWorld US Air Ambulance Services Market Size",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/market-size/air-ambulance-services/5969/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02869",
+              "title": "Protecting Air Ambulance Services for Americans Act",
+              "publisher": "source inventory",
+              "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2518",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02870",
+              "title": "No Surprises Act and Ambulance Billing",
+              "publisher": "source inventory",
+              "url": "https://www.commonwealthfund.org/blog/2024/expanding-no-surprises-act-protect-consumers-surprise-ambulance-bills",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02877",
+              "title": "CMS Medicare Ambulance Fee Schedule",
+              "publisher": "source inventory",
+              "url": "https://www.cms.gov/medicare/payment/fee-schedules/ambulance",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02878",
+              "title": "Medicare Ambulance Reimbursement 2026",
+              "publisher": "source inventory",
+              "url": "https://www.nembgroup.com/medicare-ambulance-reimbursement-2026/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "air-costs",
+          "claim_text": "Aircraft, pilots, clinicians, fuel, maintenance, bases, equipment, insurance, dispatch, staffing, and compliance determine air-ambulance operating leverage and cash needs.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_02865",
+            "src_02867",
+            "src_02879",
+            "src_02880",
+            "src_02881"
+          ],
+          "sources": [
+            {
+              "id": "src_02865",
+              "title": "IBISWorld US Air Ambulance Services Market Size",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/market-size/air-ambulance-services/5969/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02867",
+              "title": "Air Methods Bankruptcy",
+              "publisher": "source inventory",
+              "url": "https://news.bloomberglaw.com/insurance/top-air-ambulance-firm-to-seek-creditor-vote-on-bankruptcy-plan",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02879",
+              "title": "EMS Workforce Survey and Trends 2026",
+              "publisher": "source inventory",
+              "url": "https://www.ems1.com/ems-trend-report/what-paramedics-want-in-2026-take-the-ems-workforce-survey/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02880",
+              "title": "Building an Air Medical Talent Pipeline",
+              "publisher": "source inventory",
+              "url": "https://verticalmag.com/features/how-to-build-a-robust-air-medical-talent-pipeline/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02881",
+              "title": "US Aircraft Maintenance Repair and Overhaul Market",
+              "publisher": "source inventory",
+              "url": "https://www.marketresearchfuture.com/reports/us-aircraft-maintenance-repair-and-overhaul-market-21422",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "M&A",
+        "acuity",
+        "aircraft availability",
+        "authorization",
+        "base coverage",
+        "cancellations",
+        "collections",
+        "contracts",
+        "crew availability",
+        "denials",
+        "downtime",
+        "flight volume",
+        "fuel",
+        "hospital closures",
+        "hospital transfers",
+        "incidents",
+        "insurance",
+        "maintenance cost",
+        "overtime",
+        "parts",
+        "policy",
+        "rates",
+        "referrals",
+        "risk controls",
+        "rural closures",
+        "vacancies",
+        "wages",
+        "weather",
+        "weather cancellations"
+      ],
+      "record_falsifiers": [
+        "Trauma, rural access, specialty need, hospitals, and time-critical demand do not affect air-ambulance economics.",
+        "Medicare, Medicaid, commercial, hospital, government, membership, and private-pay revenue do not affect resilience.",
+        "Aircraft, pilots, clinicians, fuel, maintenance, bases, insurance, dispatch, and compliance do not affect value or survival.",
+        "FAA, CMS, EMS, clinical, privacy, surprise-billing, and state rules do not affect operations or liability.",
+        "Fleet readiness, crew capacity, safety, payer access, and liquidity discipline do not affect air-ambulance outcomes."
+      ]
+    },
+    {
+      "industry_slug": "air-and-gas-compressor-manufacturing",
+      "industry_title": "Air & Gas Compressor Manufacturing",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "claims": [
+        {
+          "claim_id": "agc-market",
+          "claim_text": "The cited industry update provides U.S. compressed-air market and operating context; market-size scope should be separated between compressors, packages, and service.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15910",
+            "src_15911"
+          ],
+          "sources": [
+            {
+              "id": "src_15910",
+              "title": "Air & Gas Compressor Manufacturing industry research file",
+              "publisher": "IBIS Industries research file",
+              "url": "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/air-and-gas-compressor-manufacturing.txt",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "tertiary"
+            },
+            {
+              "id": "src_15911",
+              "title": "Airflow update",
+              "publisher": "Industrial Air Power",
+              "url": "https://www.industrialairpower.com/blog/airflow-update-september-2025/",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "agc-prices",
+          "claim_text": "The Federal Reserve producer-price series for air and gas compressor manufacturing is a relevant indicator of pricing and cost-cycle pressure.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15912",
+            "src_15913"
+          ],
+          "sources": [
+            {
+              "id": "src_15912",
+              "title": "Producer Price Index data for air and gas compressor manufacturing",
+              "publisher": "Federal Reserve Bank of St. Louis",
+              "url": "https://fred.stlouisfed.org/data/PCU333912333912",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_15913",
+              "title": "Producer Price Index series for air and gas compressor manufacturing",
+              "publisher": "Federal Reserve Bank of St. Louis",
+              "url": "https://fred.stlouisfed.org/series/PCU3339123339121",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        },
+        {
+          "claim_id": "agc-trade",
+          "claim_text": "WITS HS 841480 trade data provide a proxy for U.S. imports and global competitive supply in air or gas compressors.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15914"
+          ],
+          "sources": [
+            {
+              "id": "src_15914",
+              "title": "WITS trade data for HS 841480",
+              "publisher": "World Bank",
+              "url": "https://wits.worldbank.org/trade/comtrade/en/country/USA/year/2024/tradeflow/Imports/partner/ALL/product/841480",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "alternate qualification",
+        "backlog",
+        "book-to-bill",
+        "cancellations",
+        "capex",
+        "cash flow",
+        "cyber events",
+        "delivery",
+        "energy per unit",
+        "energy prices",
+        "field utilization",
+        "gas throughput",
+        "insurance",
+        "inventory",
+        "lead time",
+        "maintenance",
+        "margin",
+        "orders",
+        "origin",
+        "outages",
+        "payback",
+        "price index",
+        "production",
+        "recovery time",
+        "remote resolution",
+        "tariffs",
+        "test capacity",
+        "time to hire",
+        "training",
+        "turnover",
+        "uptime",
+        "vacancies",
+        "warranty"
+      ],
+      "record_falsifiers": [
+        "Connected and efficient equipment does not improve uptime, energy, labor, or payback.",
+        "Service, parts, rebuilds, retrofit, and software do not improve recurring revenue or margin resilience.",
+        "Component, trade, energy, or labor shocks do not affect delivery, cost, warranty, or cash.",
+        "Industrial and energy capex does not affect orders, backlog conversion, or liquidity.",
+        "Safety, environmental, cyber, and documentation quality do not affect acceptance, liability, insurance, or retention."
+      ]
     }
   ],
-  "boundary": "This sample traces three matched industries to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
+  "boundary": "This bounded sample traces 25 matched industries to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
   "next_test": "Expand the same traceability method across a pre-specified industry sample, add counterexamples and outcomes, and review publisher independence before promotion.",
-  "sample_source_url_count": 78,
-  "sample_source_host_count": 55,
+  "sample_source_url_count": 194,
+  "sample_source_host_count": 126,
   "duplicate_source_urls": {}
 }

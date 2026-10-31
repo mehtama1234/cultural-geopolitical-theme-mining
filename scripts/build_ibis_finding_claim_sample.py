@@ -25,7 +25,7 @@ def show(path: str) -> str:
 def main() -> int:
     inventory = json.loads(show(PATTERN_PATH))
     pattern = next(item for item in inventory["ranked_patterns"] if item["slug"] == "compliance-as-economic-architecture")
-    industries = sorted(pattern["matched_industries"])[:10]
+    industries = sorted(pattern["matched_industries"])[:25]
     samples = []
     for slug in industries:
         record = json.loads(show(f"business_knowledge_examples/{slug}.json"))
@@ -74,7 +74,7 @@ def main() -> int:
             if source.get("url")
         }),
         "samples": samples,
-        "boundary": "This sample traces three matched industries to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
+        "boundary": "This bounded sample traces 25 matched industries to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
         "next_test": "Expand the same traceability method across a pre-specified industry sample, add counterexamples and outcomes, and review publisher independence before promotion.",
     }
     payload["sample_source_url_count"] = len(payload["sample_source_urls"])

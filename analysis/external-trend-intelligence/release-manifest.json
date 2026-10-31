@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "2ebb21685d568bf7da0a1263ad790087a5275690",
+  "source_tree_commit": "4cb32c7fb5418e950aafe9dc96c672b37b25aee3",
   "artifact_count": 45,
   "artifacts": [
     {
@@ -21,8 +21,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/README.md",
-      "bytes": 11881,
-      "sha256": "626ddccccb7dd699bd87f9601f699773bbdc593a6e56bb94cff494102c414877"
+      "bytes": 11880,
+      "sha256": "f273b1f9018ca53a137f5a4e4e982284283cc858c3b6bfb176cbf1258de85408"
     },
     {
       "path": "analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md",
@@ -96,8 +96,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
-      "bytes": 4004,
-      "sha256": "b939d562af83c031ff43e4aaceb15540f6a8018646c7444be5ebd3623707f6d1"
+      "bytes": 4002,
+      "sha256": "80ace739c0d99ca0fd7ee4319ca31338c50769814523ee2f677e0bdf87389a9f"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -106,8 +106,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5241,
-      "sha256": "ca4399f891fdf2b720eb0254c6fcafd2f42dd6a9c9eb80ca930cd7588aefa081"
+      "bytes": 5242,
+      "sha256": "e10f5ad07698dc25eaa0df9316faf3bdb6657320ee0e375ea86f51d9f428ae7f"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -137,7 +137,7 @@
     {
       "path": "analysis/external-trend-intelligence/external-family-observations.json",
       "bytes": 75962,
-      "sha256": "9bc63026ba0a911e61a917ffc9644584fbc596ba1ff3cb2c3613744c898f42d0"
+      "sha256": "7a15e3c6680879a3921aa4f2dc4b99fc0bdee9d3108b1d69884c4bdecaaf639c"
     },
     {
       "path": "analysis/external-trend-intelligence/evidence-contract-audit.json",
@@ -156,8 +156,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",
-      "bytes": 66507,
-      "sha256": "9e59e1a667cfc8e6a09e00fcbc8067ead2353c0478a081a0e7fdeadefb067a07"
+      "bytes": 180526,
+      "sha256": "4a8e868047b1801d9265ad359450a54ec8586c612310420968002a73758c4ce2"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",

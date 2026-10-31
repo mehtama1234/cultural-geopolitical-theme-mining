@@ -24,12 +24,12 @@ an independence-review panel, not a pooled estimate.
 has five discovery findings, three pinned pattern artifacts, 12 aggregate
 pattern entries, 52,593 aggregate claims, and 77,606 aggregate source
 references. It does not identify which source record supports each finding.
-The family is no longer an untraced URL gap: a bounded ten-industry sample is
+The family is no longer an untraced URL gap: a bounded 25-industry sample is
 present. The full finding remains held until that sample expands and outcomes
 are independently checked.
 
 A first [bounded traceability sample](ibis-finding-claim-sample.json) now
-traces ten matched industries and their claim-level source IDs and URLs.
+traces 25 matched industries and their claim-level source IDs and URLs.
 This is progress toward the gate, not full-finding validation.
 
 Next test:
