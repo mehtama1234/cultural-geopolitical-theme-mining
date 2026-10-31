@@ -15,6 +15,7 @@ people, and public-affairs teams.
 - `schema.json` defines the required machine-readable fields.
 - `portfolio.json` exposes the current records and portfolio lens to a frontend
   or downstream analysis.
+- `board.html` is a lightweight browser reader for the JSON portfolio.
 - `TEMPLATE.md` is the plain-language authoring template.
 - A record must preserve the source claim, mechanism, affected groups,
   uncertainty, counterevidence, business exposure, indicators, and next test.

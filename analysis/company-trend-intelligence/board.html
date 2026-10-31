@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Company trend intelligence</title>
+  <style>
+    :root { color-scheme: light; --ink:#17202a; --muted:#5f6b76; --line:#d9e1e8; --paper:#f6f8fa; --card:#fff; --accent:#075985; --accent-soft:#e0f2fe; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif; }
+    main { max-width:1180px; margin:0 auto; padding:32px 20px 64px; }
+    header { display:flex; gap:20px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; border-bottom:1px solid var(--line); padding-bottom:24px; }
+    h1 { margin:0; font-size:clamp(2rem,5vw,3.6rem); line-height:1.05; letter-spacing:-.04em; max-width:760px; }
+    .lede { color:var(--muted); max-width:760px; margin:14px 0 0; }
+    nav { display:flex; gap:12px; flex-wrap:wrap; margin-top:18px; }
+    nav a { color:var(--accent); font-weight:650; }
+    .controls { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:26px 0 18px; }
+    label { color:var(--muted); font-size:.9rem; font-weight:650; }
+    select { border:1px solid var(--line); border-radius:8px; background:#fff; color:var(--ink); padding:9px 32px 9px 10px; font:inherit; }
+    .status { color:var(--muted); font-size:.92rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(285px,1fr)); gap:16px; }
+    article { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; box-shadow:0 2px 10px #17202a0b; display:flex; flex-direction:column; min-height:260px; }
+    article h2 { font-size:1.22rem; line-height:1.2; margin:12px 0 9px; }
+    article p { color:var(--muted); margin:0 0 16px; }
+    .tag { align-self:flex-start; background:var(--accent-soft); color:var(--accent); border-radius:999px; padding:3px 9px; font-size:.78rem; font-weight:750; text-transform:uppercase; letter-spacing:.04em; }
+    .domains { color:var(--muted); font-size:.86rem; margin-top:auto; padding-top:14px; border-top:1px solid var(--line); }
+    article a { color:var(--accent); font-weight:700; }
+    .empty { color:var(--muted); padding:28px 0; }
+    footer { color:var(--muted); font-size:.9rem; margin-top:28px; border-top:1px solid var(--line); padding-top:18px; }
+    @media (prefers-reduced-motion:no-preference) { article { transition:transform .15s ease, box-shadow .15s ease; } article:hover { transform:translateY(-2px); box-shadow:0 8px 24px #17202a14; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <p class="tag">Company trend intelligence</p>
+        <h1>See the change before it becomes obvious.</h1>
+        <p class="lede">A source-traceable atlas for customer, workforce, product, financial, operational, cultural, institutional, and geopolitical decisions. Each card separates evidence from implication and keeps the next test visible.</p>
+        <nav>
+          <a href="../../COMPANY_TREND_INTELLIGENCE_GOAL_V1.md">Read the goal</a>
+          <a href="INDEX.md">Open the index</a>
+          <a href="PORTFOLIO.md">Read the portfolio view</a>
+        </nav>
+      </div>
+    </header>
+    <section class="controls" aria-label="Trend filters">
+      <label for="domain">Filter by domain</label>
+      <select id="domain"><option value="all">All domains</option></select>
+      <label for="status">Status</label>
+      <select id="status"><option value="all">All statuses</option></select>
+      <span class="status" id="count" role="status" aria-live="polite"></span>
+    </section>
+    <section class="grid" id="cards" aria-live="polite"></section>
+    <p class="empty" id="empty" hidden>No trends match these filters.</p>
+    <footer>Use `python3 -m http.server` from the repository root to load the JSON-backed board locally. The underlying Markdown records remain the evidence source.</footer>
+  </main>
+  <script>
+    const cards = document.querySelector('#cards');
+    const empty = document.querySelector('#empty');
+    const count = document.querySelector('#count');
+    const domainSelect = document.querySelector('#domain');
+    const statusSelect = document.querySelector('#status');
+
+    function option(value, label) {
+      const el = document.createElement('option'); el.value = value; el.textContent = label; return el;
+    }
+
+    function render(records) {
+      const domain = domainSelect.value;
+      const status = statusSelect.value;
+      const filtered = records.filter(r => (domain === 'all' || r.domains.includes(domain)) && (status === 'all' || r.status === status));
+      cards.replaceChildren();
+      filtered.forEach(record => {
+        const article = document.createElement('article');
+        article.innerHTML = `<span class="tag">${record.status.replaceAll('_', ' ')}</span><h2>${record.title}</h2><p>${record.open_test}</p><div class="domains">${record.domains.join(' · ')}<br><a href="${record.path}">Read evidence-backed record →</a></div>`;
+        cards.append(article);
+      });
+      empty.hidden = filtered.length !== 0;
+      count.textContent = `${filtered.length} of ${records.length} trend records`;
+    }
+
+    fetch('portfolio.json').then(response => {
+      if (!response.ok) throw new Error('portfolio.json unavailable');
+      return response.json();
+    }).then(portfolio => {
+      const records = portfolio.records;
+      [...new Set(records.flatMap(r => r.domains))].sort().forEach(value => domainSelect.append(option(value, value.replaceAll('_', ' '))));
+      [...new Set(records.map(r => r.status))].sort().forEach(value => statusSelect.append(option(value, value.replaceAll('_', ' '))));
+      domainSelect.addEventListener('change', () => render(records));
+      statusSelect.addEventListener('change', () => render(records));
+      render(records);
+    }).catch(error => {
+      count.textContent = 'Portfolio data could not be loaded.';
+      empty.hidden = false;
+      empty.textContent = `${error.message}. Serve this directory over HTTP to load the JSON manifest.`;
+    });
+  </script>
+</body>
+</html>
