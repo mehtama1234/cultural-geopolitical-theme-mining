@@ -20,6 +20,7 @@ blockers.
 | Temporal holdout and narrative | `temporal-holdout-design.json`, `temporal-holdout-result.json`, `temporal-decision-narrative.json` | construction/holdout periods, units, directional result, counter-signal, uncertainty, decision use |
 | Rights evidence | `rights-review-queue.json`, `rights-evidence-register.json` | rights status, local evidence files, hashes, publisher dependence, stop rule |
 | Acquisition queue | `evidence-acquisition-plan.json` | target source, required fields, acceptance criteria, stop rule, owner |
+| Program completion audit | `goal-completion-audit.json` | requirement status, evidence, gap, release status, next action |
 | Pilot view | `pilot-register.json` | design status, external gate, company/data contract, privacy, falsifier |
 | Release banner | `release-health.json`, `release-manifest.json` | release status, blockers, source commit, artifact count |
 

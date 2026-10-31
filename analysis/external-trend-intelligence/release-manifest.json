@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "5fc1249f6f3cfbb7d9e257b8f5aba3424f2a4208",
-  "artifact_count": 53,
+  "source_tree_commit": "880b006f30896f48c448e8fb22c8da2f7c419039",
+  "artifact_count": 54,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -31,8 +31,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 3470,
-      "sha256": "e86187f0fcad768b61186e7c5aa2d7eb7258ef20fecd13109907b2cc9ed17253"
+      "bytes": 3595,
+      "sha256": "825ed6e22c38904c8f2316a49b0422df66401b52ba5a9acd61598a745cd921c5"
     },
     {
       "path": "analysis/external-trend-intelligence/PILOT-VALIDATION-PROTOCOL.md",
@@ -128,6 +128,11 @@
       "path": "analysis/external-trend-intelligence/evidence-acquisition-plan.json",
       "bytes": 3019,
       "sha256": "8989db0d3b5a5d619349846675fe20d1c6e3ac19fd5d08684122a03a9c06d67f"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
+      "bytes": 3227,
+      "sha256": "d6baba513ff0fc32c712f5a0b3e4f636e58b6bf71e18cfe803b3e6e6e692d500"
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
