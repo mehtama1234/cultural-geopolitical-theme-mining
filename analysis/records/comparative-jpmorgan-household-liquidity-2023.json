@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-jpmorgan-household-liquidity-2023",
+  "title": "Household liquidity coverage depends on whether disposable income and short-term credit are counted",
+  "theme_ids": ["cost", "time"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "JPMorganChase Institute household liquidity analysis",
+  "geography": "United States; households in the JPMorganChase Institute administrative-data analysis",
+  "observations": [
+    {
+      "period": "December 2023",
+      "denominator": {"unit": "households in JPMorganChase Institute analysis", "value_type": "reported_household_frame"},
+      "measures": {
+        "cash_savings_cover_400_shock": {"value": 67, "unit": "percent of households", "value_type": "reported_share"},
+        "cash_disposable_income_or_short_term_credit_cover_400_shock": {"value": 92, "unit": "percent of households", "value_type": "reported_share"},
+        "low_income_cash_cover_400_shock": {"value": 43, "unit": "percent of low-income households", "value_type": "reported_share"},
+        "low_income_broader_liquidity_cover_400_shock": {"value": 77, "unit": "percent of low-income households", "value_type": "reported_share"}
+      },
+      "status": "reported"
+    }
+  ],
+  "method": "JPMorganChase Institute administrative-data analysis of household cash savings, disposable income, and short-term credit capacity.",
+  "method_change_notes": "The research snapshot reports a December 2023 endpoint and a statement that the share unable to cover an unexpected expense remained steady throughout 2022 and 2023; a complete repeated numeric series is not included in the snapshot.",
+  "uncertainty": "The snapshot does not provide a reproducible public variance extract or a common denominator definition that can be pooled with SHED adult estimates or USDA household food-security estimates.",
+  "counterinterpretation": "Broader liquidity access produces a materially higher coverage estimate than cash savings alone; financial room depends on the resource definition and cannot be inferred from a single cash-only measure.",
+  "related_sources": [
+    {"source_url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/institute/pdf/how-vulnerable-are-americans-to-unexpected-expenses-snapshot.pdf", "claim": "Official research snapshot with December 2023 household liquidity estimates.", "status": "official-source"},
+    {"source_url": "https://www.jpmorganchase.com/institute/all-topics/financial-health-wealth-creation/how-vulnerable-are-americans-to-unexpected-expenses", "claim": "Research landing page and citation context.", "status": "official-source"}
+  ],
+  "retrieval_hash": "source_pdf_available_at_pinned_url; exact_file_hash_to_be_recorded_before_redistribution",
+  "boundary": "This is an independent mechanism challenge, not a pooled U.S. trend estimate, causal result, qualified trend, or company exposure finding. The source snapshot carries a written republication restriction.",
+  "reproduction_audit": {"status": "reported_snapshot_not_reproducible_from_public_microdata", "checked": "2026-10-31"}
+}

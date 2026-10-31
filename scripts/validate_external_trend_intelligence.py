@@ -350,7 +350,7 @@ def main() -> int:
     refresh_history = json.loads((ANALYSIS / "refresh-history.json").read_text())
     assert refresh_history["schema"] == "external-trend-intelligence.refresh-history.v1"
     assert refresh_history["run_count"] >= 1
-    assert refresh_history["latest"]["record_count"] == 2134
+    assert refresh_history["latest"]["record_count"] == 2135
     assert refresh_history["latest"]["parse_error_count"] == 0
     assert refresh_history["latest"]["pipeline_step_count"] == 53
     assert refresh_history["latest"]["pipeline_status"] == "passed"
@@ -384,7 +384,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 76
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 77
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     assert any(item["path"] == ".github/workflows/external-observatory-refresh.yml" for item in release_manifest["artifacts"])
@@ -490,9 +490,9 @@ def main() -> int:
     assert bounded_lineage["independence_status"] == "partial_independence_review"
     progress = json.loads((ANALYSIS / "program-progress.json").read_text())
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
-    assert progress["baseline"]["records"] == 2134
+    assert progress["baseline"]["records"] == 2135
     assert progress["baseline"]["qualified_external_trends"] == 0
-    assert progress["baseline"]["release_artifacts"] == 76
+    assert progress["baseline"]["release_artifacts"] == 77
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
@@ -503,7 +503,7 @@ def main() -> int:
     assert handoff["exercised_controls"]["independent_successor_run"] is False
     scorecard = json.loads((ANALYSIS / "program-scorecard.json").read_text())
     assert scorecard["schema"] == "external-trend-intelligence.program-scorecard.v1"
-    assert scorecard["metrics"]["records"] == 2134
+    assert scorecard["metrics"]["records"] == 2135
     assert scorecard["metrics"]["source_families"] == 8
     assert scorecard["metrics"]["latest_pipeline_steps"] == 53
     assert scorecard["metrics"]["latest_pipeline_status"] == "passed"
