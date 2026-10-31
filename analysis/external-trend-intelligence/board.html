@@ -30,6 +30,7 @@
     .measurements { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin-top:16px; }
     .promotion-gates { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
     .source-families { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
+    .source-registry { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:10px; margin-top:16px; }
     .lineage-warnings { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
     .evidence-gaps { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
     .ibis-sample { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
@@ -207,6 +208,11 @@
       <h2>External source families and refresh cadence</h2>
       <p class="muted">These families feed discovery. The cadence is a maintenance trigger, not proof that sources are independent or continuously available.</p>
       <div class="source-families" id="source-families"></div>
+    </section>
+    <section style="margin-top:28px">
+      <h2>Registered external datasets and publishers</h2>
+      <p class="muted">This is the 118-source discovery universe behind the families above. A registered source is an intake target, not proof that its current data are fresh, comparable, licensed, or independent.</p>
+      <div class="source-registry" id="source-registry"></div>
     </section>
     <section style="margin-top:28px">
       <h2>Refresh control plane</h2>
@@ -402,6 +408,16 @@
       const boundary = document.createElement('p'); boundary.innerHTML = `<strong>Boundary:</strong> ${family.evidence_boundary}`;
       const control = document.createElement('code'); control.textContent = `rights: ${controls.rights_status} · publisher dependence: ${controls.publisher_dependence} · lineage: ${controls.lineage_status}`;
       article.append(pill, title, role, cadence, trigger, boundary, control); return article;
+    }
+    function sourceRegistryCard(source) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = source.source_types.slice(0, 2).join(' · ').replaceAll('_', ' ');
+      const title = document.createElement('h3'); title.textContent = source.name;
+      const id = document.createElement('code'); id.textContent = source.id;
+      const role = document.createElement('p'); role.innerHTML = `<strong>Use:</strong> ${source.role}`;
+      const link = document.createElement('p'); link.innerHTML = `<strong>Publisher:</strong> <a href="${source.url}" target="_blank" rel="noreferrer">${new URL(source.url).hostname}</a>`;
+      const boundary = document.createElement('p'); boundary.textContent = source.license_note;
+      article.append(pill, title, id, role, link, boundary); return article;
     }
     function refreshStatusCard(family) {
       const article = document.createElement('article');
@@ -618,6 +634,8 @@
         const control = controls.get(family.id);
         if (schedule && control) sourceFamilies.append(sourceFamilyCard(family, schedule, control));
       });
+      const sourceRegistryCards = el('source-registry');
+      sourceRegistry.sources.forEach(source => sourceRegistryCards.append(sourceRegistryCard(source)));
       const refreshCards = el('refresh-status'); refreshStatus.families.forEach(family => refreshCards.append(refreshStatusCard(family)));
       refreshCards.prepend(card('Release blockers', releaseHealth.release_status, releaseHealth.blockers.join(' · ')));
       fetch('refresh-history.json').then(r => r.json()).then(history => {

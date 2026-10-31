@@ -59,6 +59,8 @@ def main() -> int:
                             "food-insecurity-rights-review.json",
                             "IBIS bounded outcome review",
                             "ibis-adult-day-outcome-review.json",
+                            "Registered external datasets and publishers",
+                            "source-registry-snapshot.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:
