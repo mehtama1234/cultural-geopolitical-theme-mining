@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "967847d8ef9ef50e4102fc0f5ca7e2ce20d05b71",
+  "source_tree_commit": "26b3c5fa38c432010ff0044e609c973981027b60",
   "artifact_count": 56,
   "artifacts": [
     {
@@ -151,8 +151,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
-      "bytes": 4345,
-      "sha256": "964c816d47b0dbe59d9bde1f4957ba2184732eab35b76a676e7e69e917e363b9"
+      "bytes": 4370,
+      "sha256": "c3f3ef107f986bec1c7d717b74070067b0c6a860803fa5503c54c7c10e95c5b7"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -161,8 +161,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5231,
-      "sha256": "17f373b74f7bf03fc7f9e17dce8b1e1059b072ba929079a6f2a6d11e99ef5e9d"
+      "bytes": 5243,
+      "sha256": "9247cd53c25708816cfcb370abf20f8977f6ac652fd64ff7cfd9cf31df7d3381"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -191,8 +191,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-observations.json",
-      "bytes": 75962,
-      "sha256": "7a15e3c6680879a3921aa4f2dc4b99fc0bdee9d3108b1d69884c4bdecaaf639c"
+      "bytes": 75963,
+      "sha256": "950a7cf016f70a3abdffd92faab90f7f2eabc126134fbb48f095931ea936caa7"
     },
     {
       "path": "analysis/external-trend-intelligence/evidence-contract-audit.json",
@@ -211,8 +211,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",
-      "bytes": 180526,
-      "sha256": "4a8e868047b1801d9265ad359450a54ec8586c612310420968002a73758c4ce2"
+      "bytes": 802877,
+      "sha256": "0e0969d8b9b76f86b2652c3ebdca88b490e7032872c16b2d02b454aa75fdc3ee"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",
@@ -271,8 +271,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 43306,
-      "sha256": "4b1d8bd63cc09ff38c225287de83ce2e5e2b1b75d46d9886474123cae84f5642"
+      "bytes": 43322,
+      "sha256": "5c58b8a17ac28fd2b7fc81e17f8988b66185b55c9d5085cc13dcd73f09351fb7"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",

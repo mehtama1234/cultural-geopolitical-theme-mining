@@ -16,6 +16,7 @@ OUTPUT = ANALYSIS / "ibis-finding-claim-sample.json"
 REPO = "/home/mehta/git-repo/ibis-industries"
 REVISION = "b895acd021fbe3dc1d610255952b1373748e3bc3"
 PATTERN_PATH = "cross_industry_pattern_inventory.json"
+SAMPLE_SIZE = 100
 
 
 def show(path: str) -> str:
@@ -25,7 +26,21 @@ def show(path: str) -> str:
 def main() -> int:
     inventory = json.loads(show(PATTERN_PATH))
     pattern = next(item for item in inventory["ranked_patterns"] if item["slug"] == "compliance-as-economic-architecture")
-    industries = sorted(pattern["matched_industries"])[:25]
+    # Select a deterministic, sector-covered sample rather than taking the
+    # first alphabetical records, which over-represents a few sectors.
+    matched = []
+    for slug in sorted(pattern["matched_industries"]):
+        record = json.loads(show(f"business_knowledge_examples/{slug}.json"))
+        matched.append((record["identity"].get("sector", "Unknown"), slug))
+    by_sector = {}
+    for sector, slug in matched:
+        by_sector.setdefault(sector, []).append(slug)
+    industries = []
+    for sector in sorted(by_sector):
+        industries.append(by_sector[sector][0])
+    remaining = [slug for _, slug in matched if slug not in set(industries)]
+    industries.extend(remaining[: max(0, SAMPLE_SIZE - len(industries))])
+    industries = industries[:SAMPLE_SIZE]
     samples = []
     for slug in industries:
         record = json.loads(show(f"business_knowledge_examples/{slug}.json"))
@@ -46,6 +61,7 @@ def main() -> int:
             {
                 "industry_slug": slug,
                 "industry_title": record["identity"]["title"],
+                "industry_sector": record["identity"].get("sector", "Unknown"),
                 "geography": record["identity"]["geography"],
                 "as_of": record["scope"]["as_of"],
                 "claims": claims,
@@ -63,7 +79,10 @@ def main() -> int:
         "finding_title": pattern["title"],
         "source_revision": REVISION,
         "sample_status": "bounded_traceability_sample",
+        "sampling_method": "one_record_per_observed_sector_then_sorted_fill",
         "sample_industry_count": len(samples),
+        "sample_sector_count": len({sample["industry_sector"] for sample in samples}),
+        "sample_sector_counts": dict(sorted(Counter(sample["industry_sector"] for sample in samples).items())),
         "counter_signals": pattern["counterforces"],
         "outcome_measure_candidate_count": sum(len(sample["outcome_measure_candidates"]) for sample in samples),
         "sample_source_urls": sorted({
@@ -74,7 +93,7 @@ def main() -> int:
             if source.get("url")
         }),
         "samples": samples,
-        "boundary": "This bounded sample traces 25 matched industries to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
+        "boundary": "This bounded sample traces 100 matched industries across the observed sectors to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
         "next_test": "Expand the same traceability method across a pre-specified industry sample, add counterexamples and outcomes, and review publisher independence before promotion.",
     }
     payload["sample_source_url_count"] = len(payload["sample_source_urls"])

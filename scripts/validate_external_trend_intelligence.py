@@ -217,7 +217,7 @@ def main() -> int:
             assert observation["pattern_claim_count_total"] > 0
             assert observation["pattern_source_count_total"] > 0
             assert observation["source_url_status"] == "bounded_sample_present"
-            assert observation["traceability_sample_industry_count"] == 25
+            assert observation["traceability_sample_industry_count"] == 100
             assert observation["source_url_count"] == len(observation["source_urls"]) >= 1
         if observation["observation_id"] == "trend-hunting-ai-deep-synthesis":
             assert observation["source_url_status"] == "present_in_artifact"
@@ -266,7 +266,8 @@ def main() -> int:
     assert ibis_sample["schema"] == "external-trend-intelligence.ibis-finding-claim-sample.v1"
     assert ibis_sample["finding_slug"] == "compliance-as-economic-architecture"
     assert ibis_sample["sample_status"] == "bounded_traceability_sample"
-    assert ibis_sample["sample_industry_count"] == len(ibis_sample["samples"]) == 25
+    assert ibis_sample["sample_industry_count"] == len(ibis_sample["samples"]) == 100
+    assert ibis_sample["sample_sector_count"] >= 20
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
     assert ibis_sample["counter_signals"]

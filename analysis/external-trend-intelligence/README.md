@@ -103,7 +103,7 @@ The IBIS discovery-findings observation also records its three pinned pattern
 artifacts and their aggregate claim/source counts, while correctly keeping
 claim-level source identity as an open gap.
 The first [IBIS claim traceability sample](ibis-finding-claim-sample.json)
-now traces 25 matched industries to source IDs and URLs without promoting the
+now traces 100 matched industries across observed sectors to source IDs and URLs without promoting the
 full finding.
 The trend-hunting synthesis now resolves 33 URLs across its 16 pinned input
 artifacts; those inputs remain synthesis support, not independent outcome proof.
