@@ -26,6 +26,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/case-stage-panel.json",
     "analysis/external-trend-intelligence/release-health.json",
     "analysis/external-trend-intelligence/bounded-subset-lineage-review.json",
+    "analysis/external-trend-intelligence/program-progress.json",
     "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
     "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
     "analysis/external-trend-intelligence/refresh-schedule.json",

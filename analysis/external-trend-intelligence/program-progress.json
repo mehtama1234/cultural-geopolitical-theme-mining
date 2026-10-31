@@ -1,0 +1,44 @@
+{
+  "schema": "external-trend-intelligence.program-progress.v1",
+  "program": "two-year external-first enterprise trend-intelligence observatory",
+  "as_of": "2026-10-31",
+  "phases": [
+    {
+      "phase": "months_0_3_control_plane",
+      "status": "established",
+      "evidence": ["source-family-registry.json", "source-family-controls.json", "refresh-schedule.json", "evidence-contract-audit.json", "ANALYST-OPERATING-MODEL.md"]
+    },
+    {
+      "phase": "months_4_6_dependable_external_intake",
+      "status": "operational",
+      "evidence": ["refresh_external_observatory.py", "refresh-status.json", "release-manifest.json", "backtest-source-snapshot.json"]
+    },
+    {
+      "phase": "months_7_12_trend_qualification",
+      "status": "in_progress",
+      "evidence": ["candidate-qualification-matrix.json", "trend-qualification-rubric.json", "trend-monitoring-register.json", "backtest-comparability-review.json"],
+      "open_gate": "All four current candidates remain held; no comparable backtest subset is qualified."
+    },
+    {
+      "phase": "months_13_18_decision_relevance",
+      "status": "design_only",
+      "evidence": ["pilot-register.json", "internal-bridge-schema.json"],
+      "open_gate": "No internal company data may be connected until an external trend clears every qualification gate."
+    },
+    {
+      "phase": "months_19_24_operational_handoff",
+      "status": "partially_established",
+      "evidence": ["ANALYST-OPERATING-MODEL.md", "release-health.json", "smoke_test_external_board.py"],
+      "open_gate": "Ownership, refresh history, validated trends, and pilot case studies remain future work."
+    }
+  ],
+  "baseline": {
+    "records": 2131,
+    "themes": 14,
+    "source_families": 8,
+    "candidates": 4,
+    "qualified_external_trends": 0,
+    "approved_company_pilots": 0
+  },
+  "boundary": "This progress view is a program handoff, not a claim that the two-year objective is complete."
+}
