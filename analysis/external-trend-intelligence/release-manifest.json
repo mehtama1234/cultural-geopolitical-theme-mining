@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "3117da33eb22c43246f76fb16b0fc954bcc67695",
+  "source_tree_commit": "560e461be7251bac4b4615e567a6d4ad70e98590",
   "artifact_count": 76,
   "artifacts": [
     {
@@ -306,13 +306,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/us-financial-room-independent-comparison.json",
-      "bytes": 3118,
-      "sha256": "a0995576f6e193f41607f906413e0af0f5351fc1b1636b8919393dd4f8b35032"
+      "bytes": 4087,
+      "sha256": "8ef29b9a1480b014d84e1862bb133f5a136bfad9b3f0a776bc49eaf0a52c1dea"
     },
     {
       "path": "analysis/external-trend-intelligence/external-acquisition-rights-review.json",
-      "bytes": 3833,
-      "sha256": "22335541cfcdf35e10db0a45525989ca4960029b82fd03790c09a7b6007cc2f4"
+      "bytes": 5039,
+      "sha256": "269f40227647e72af0c3696ca26645597c9c736d48f2b5980a69d82363f2bcbe"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",

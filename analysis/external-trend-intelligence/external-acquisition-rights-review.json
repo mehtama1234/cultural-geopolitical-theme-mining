@@ -40,7 +40,20 @@
       "derived_use_status": "review_required_before_redistribution",
       "retention_scope": "retain chart URL, microdata URL, retrieval dates, version hashes, and normalized values; confirm publisher terms before distributing raw files or derived charts",
       "next_action": "Review Federal Reserve data-page terms and attribution requirements for both chart and public-use microdata artifacts; document derived-chart boundaries."
+    },
+    {
+      "acquisition_id": "jpmorganchase-household-liquidity-2023",
+      "publisher": "JPMorganChase Institute",
+      "source_url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/institute/pdf/how-vulnerable-are-americans-to-unexpected-expenses-snapshot.pdf",
+      "terms_evidence_urls": ["https://www.jpmorganchase.com/institute/all-topics/financial-health-wealth-creation/how-vulnerable-are-americans-to-unexpected-expenses"],
+      "access_basis": "official research snapshot PDF",
+      "upstream_identity": "JPMorganChase Institute household liquidity analysis, December 2023",
+      "publisher_dependence": "single_publisher_for_series",
+      "rights_evidence_status": "restrictive_republication_notice_review_open",
+      "derived_use_status": "internal_review_only_until_permission_or_licensed_derived_use_confirmed",
+      "retention_scope": "retain citation, URL, retrieval date, and normalized metadata; do not redistribute report text, figures, or raw material without written permission",
+      "next_action": "Confirm whether a derived internal comparison is permitted under the report's written-republication notice and record attribution requirements."
     }
   ],
-  "boundary": "This register records rights evidence and review tasks for three official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
+  "boundary": "This register records rights evidence and review tasks for four official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
 }
