@@ -5,6 +5,14 @@
   "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
   "sample_status": "bounded_traceability_sample",
   "sample_industry_count": 3,
+  "counter_signals": [
+    "low enforcement",
+    "voluntary adoption",
+    "easy substitution",
+    "cost pass-through",
+    "rules that impose similar burden on all competitors"
+  ],
+  "outcome_measure_candidate_count": 18,
   "samples": [
     {
       "industry_slug": "3d-printer-manufacturing",
@@ -147,6 +155,32 @@
             }
           ]
         }
+      ],
+      "outcome_measure_candidates": [
+        "backlog",
+        "capex budgets",
+        "certification",
+        "customer audits",
+        "cyber incidents",
+        "export rules",
+        "exposure controls",
+        "machine utilization",
+        "material qualification",
+        "open roles",
+        "order cancellations",
+        "production parts",
+        "qualification wins",
+        "recurring revenue",
+        "service response",
+        "supplier concentration",
+        "training time",
+        "workflow integrations"
+      ],
+      "record_falsifiers": [
+        "industrial qualification remains too slow for attractive returns",
+        "open or low-cost alternatives eliminate consumables lock-in",
+        "capital-cycle weakness causes persistent underutilization",
+        "safety and cyber costs exceed application value"
       ]
     },
     {
@@ -245,6 +279,15 @@
             }
           ]
         }
+      ],
+      "outcome_measure_candidates": [],
+      "record_falsifiers": [
+        "production applications fail to improve repeat revenue or contribution",
+        "utilization and scale do not reduce cost per part",
+        "tariffs and supply disruption do not affect cost, availability, or qualification",
+        "automation fails to improve yield or throughput after implementation cost",
+        "quality and compliance investment does not protect customer access or pricing",
+        "consolidation does not improve utilization, purchasing, software, or customer reach"
       ]
     },
     {
@@ -370,6 +413,15 @@
             }
           ]
         }
+      ],
+      "outcome_measure_candidates": [],
+      "record_falsifiers": [
+        "specialty and precision products fail to improve pricing or contribution",
+        "tariffs and domestic sourcing do not change share, cost, or lead time",
+        "semiconductor, battery, and EV demand does not offset cyclical end markets",
+        "automation fails to improve yield, labor productivity, or safety after capex",
+        "scale and qualification do not improve purchasing, customer access, or pricing",
+        "compliance investment does not protect safety, customer approval, or liability"
       ]
     }
   ],

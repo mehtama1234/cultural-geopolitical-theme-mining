@@ -47,6 +47,12 @@ def main() -> int:
                 "geography": record["identity"]["geography"],
                 "as_of": record["scope"]["as_of"],
                 "claims": claims,
+                "outcome_measure_candidates": sorted({
+                    signal
+                    for force in record.get("forces", [])
+                    for signal in force.get("signals_to_watch", [])
+                }),
+                "record_falsifiers": record.get("judgment", {}).get("falsifiers", []),
             }
         )
     payload = {
@@ -56,6 +62,8 @@ def main() -> int:
         "source_revision": REVISION,
         "sample_status": "bounded_traceability_sample",
         "sample_industry_count": len(samples),
+        "counter_signals": pattern["counterforces"],
+        "outcome_measure_candidate_count": sum(len(sample["outcome_measure_candidates"]) for sample in samples),
         "samples": samples,
         "boundary": "This sample traces three matched industries to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
         "next_test": "Expand the same traceability method across a pre-specified industry sample, add counterexamples and outcomes, and review publisher independence before promotion.",
