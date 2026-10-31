@@ -120,6 +120,11 @@
       <div class="promotion-gates" id="monitoring-register"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Bounded case-stage panel</h2>
+      <p class="muted">Three same-frame cases are coded by stage. “Not observed” is not treated as a negative outcome.</p>
+      <div class="promotion-gates" id="case-stage-panel"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>External source families and refresh cadence</h2>
       <p class="muted">These families feed discovery. The cadence is a maintenance trigger, not proof that sources are independent or continuously available.</p>
       <div class="source-families" id="source-families"></div>
@@ -245,6 +250,13 @@
       const reversal = document.createElement('p'); reversal.innerHTML = `<strong>Reversal conditions:</strong> ${trend.reversal_conditions.join('; ')}`;
       article.append(pill, title, cadence, indicators, reversal); return article;
     }
+    function caseStageCard(item) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = 'stage coded';
+      const title = document.createElement('h3'); title.textContent = item.record_id.replaceAll('-', ' ');
+      const stages = document.createElement('p'); stages.innerHTML = `<strong>Stages:</strong> ${Object.entries(item.stages).map(([name, value]) => `${name.replaceAll('_', ' ')} — ${value.status.replaceAll('_', ' ')}`).join('; ')}`;
+      article.append(pill, title, stages); return article;
+    }
     function sourceFamilyCard(family, schedule, controls) {
       const article = document.createElement('article');
       const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = family.status.replaceAll('_', ' ');
@@ -312,12 +324,13 @@
       fetch('source-family-controls.json').then(r => r.json()),
       fetch('backtest-readiness.json').then(r => r.json()),
       fetch('backtest-comparability-review.json').then(r => r.json()),
+      fetch('case-stage-panel.json').then(r => r.json()),
       fetch('refresh-schedule.json').then(r => r.json()),
       fetch('refresh-status.json').then(r => r.json()),
       fetch('external-family-lineage-review.json').then(r => r.json()),
       fetch('external-evidence-gap-queue.json').then(r => r.json()),
       fetch('ibis-finding-claim-sample.json').then(r => r.json()),
-    ]).then(([manifest, comparison, qualificationMatrix, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, pilotRegister, monitoringRegister, sourceControls, backtestReadiness, comparabilityReview, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
+    ]).then(([manifest, comparison, qualificationMatrix, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, pilotRegister, monitoringRegister, sourceControls, backtestReadiness, comparabilityReview, stagePanel, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -349,6 +362,7 @@
       const queue = el('promotion-queue'); promotionQueue.candidates.forEach(candidate => queue.append(promotionCard(candidate)));
       const pilots = el('pilot-register'); pilotRegister.pilots.forEach(pilot => pilots.append(pilotCard(pilot)));
       const monitoringCards = el('monitoring-register'); monitoringRegister.trends.forEach(trend => monitoringCards.append(monitoringCard(trend)));
+      const stageCards = el('case-stage-panel'); stagePanel.cases.forEach(item => stageCards.append(caseStageCard(item)));
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
       const controls = new Map(sourceControls.families.map(item => [item.family_id, item]));
       const sourceFamilies = el('source-families'); sourceRegistry.source_families.forEach(family => {
