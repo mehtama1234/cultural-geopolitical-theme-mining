@@ -1,0 +1,57 @@
+# Source-link hygiene audit — 2026-10-30
+
+**Scope:** 327 `ROTATION-*.md` packets under `analysis/`.  
+**Purpose:** distinguish structural source-link coverage from source validity,
+quality and substantive evidence closure.
+
+## Snapshot
+
+| Check | Result | Meaning |
+|---|---:|---|
+| Rotation Markdown packets scanned | 327 | Current packet population only; synthesis and audit files excluded. |
+| HTTP/HTTPS URL occurrences | 2,423 | Literal links found in packet text. |
+| Unique URL values | 2,221 | Repeated official sources are common across related packets. |
+| URL values repeated at least twice | 176 | Duplication is not itself an error; it can show shared evidence or source concentration. |
+| Packets with no literal URL | 13 | Priority provenance-repair queue. |
+| Packets without a literal `## Sources` heading | 102 | A heading is a discoverability check, not proof that sources are absent. |
+
+## Priority provenance-repair queue
+
+These packets contain no literal HTTP/HTTPS URL and should be repaired or
+explicitly marked as synthesis-only before being used as fresh evidence:
+
+- `ROTATION-A-FIRST-PASS_2026-10-29.md`
+- `ROTATION-B-FIRST-PASS_2026-10-29.md`
+- `ROTATION-C-FIRST-PASS_2026-10-29.md`
+- `ROTATION-FS-PRESS-FREEDOM-LOCAL-INFORMATION-PUBLIC-GOOD-2026-10-29.md`
+- `ROTATION-FT-DATA-PRIVACY-INFORMATIONAL-AUTONOMY-2026-10-29.md`
+- `ROTATION-FU-PUBLIC-INTEGRITY-PROCUREMENT-CITIZEN-VALUE-2026-10-29.md`
+- `ROTATION-FO-FOOD-WASTE-AFFORDABLE-NUTRITION-CIRCULAR-LIVELIHOODS-2026-10-29.md`
+- `ROTATION-FP-YOUTH-SCHOOL-TO-WORK-DECENT-TRANSITION-2026-10-29.md`
+- `ROTATION-FQ-RELIGIOUS-FREEDOM-LIVED-BELIEF-MINORITY-AGENCY-2026-10-29.md`
+- `ROTATION-FR-ACADEMIC-FREEDOM-KNOWLEDGE-AUTONOMY-2026-10-29.md`
+- `ROTATION-FV-PARTICIPATORY-BUDGETING-DELIBERATIVE-LOCAL-POWER-2026-10-29.md`
+- `ROTATION-FW-SCHOOL-SAFETY-VIOLENCE-SAFE-LEARNING-2026-10-29.md`
+- `ROTATION-FX-ACCESS-TO-JUSTICE-LEGAL-AID-PEOPLE-CENTRED-2026-10-29.md`
+
+## Interpretation and limits
+
+This audit checks only literal URL presence and simple duplication. It does
+not test HTTP reachability, publication date, source authority, quoted-claim
+accuracy, paywalls, redirects, link rot, whether the URL supports the exact
+claim, or whether the packet preserves a counterexample. A packet with many
+URLs can still have weak evidence, and a packet with no URLs may be an early
+concept note rather than a research claim.
+
+The next repair pass should add source provenance to the 13 zero-URL packets,
+add a consistent `## Sources` heading where sources are present but hard to
+discover, and then run a reachability and claim-to-source review in batches.
+Do not silently invent citations or treat this structural audit as substantive
+validation.
+
+## Re-run contract
+
+Scan only `analysis/ROTATION-*.md`; count URLs matching `https?://[^)\\s>]+`,
+count unique values and repeated values, identify files without a `## Sources`
+or `## Sources and` heading, and list files with zero URLs. Record the date and
+scope whenever the snapshot changes.

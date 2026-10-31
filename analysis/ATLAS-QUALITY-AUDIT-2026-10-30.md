@@ -4,6 +4,8 @@
 atlas after the food-biotech local-adaptation synthesis refresh. This is a repository
 quality snapshot, not a claim that the substantive evidence is complete.
 
+Source-provenance companion: [source-link hygiene audit](SOURCE-LINK-HYGIENE-AUDIT-2026-10-30.md).
+
 ## Verified invariants
 
 | Check | Result | Interpretation |
