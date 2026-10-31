@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import csv
+import subprocess
 from pathlib import Path
 
 
@@ -41,6 +42,15 @@ def main() -> int:
         assert record["trend_id"] in text, record["trend_id"]
         assert record["title"] in text, record["title"]
         assert record["summary"], record["trend_id"]
+        for source in record["source_packets"]:
+            repo_path = (BASE / source).resolve().relative_to(ROOT)
+            check = subprocess.run(
+                ["git", "cat-file", "-e", f"HEAD:{repo_path}"],
+                cwd=ROOT,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+            )
+            assert check.returncode == 0, f"untracked or missing source packet: {repo_path}"
         for heading in ("## Source packet", "## Evidence", "## Mechanism", "## Business exposure", "## Leading indicators", "## Counterevidence and limits", "## Next test"):
             assert heading in text, f"{path}: missing {heading}"
 
