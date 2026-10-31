@@ -1,0 +1,21 @@
+{
+  "schema": "external-trend-intelligence.external-care-capacity-candidate.v1",
+  "candidate_id": "candidate-care-longevity-access-capacity",
+  "title": "Care and longevity demand are becoming an access-time-work capacity problem",
+  "status": "held_candidate",
+  "mechanism": "Aging, health needs, and care demand create pressure that is experienced through waiting time, unpaid care, employment tradeoffs, household room, and service capacity—not only through demand for a product or treatment.",
+  "main_manifest_evidence_ids": [
+    "bsa43-nhs-waiting-legitimacy-2026",
+    "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+    "comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point",
+    "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+    "comparative-eu-jrc-demographic-transformation-2026-ageing-work-care-housing-migration",
+    "us-pew-family-caregiving-aging-burden-2025-2026",
+    "us-nber-family-caregiving-gendered-earnings-employment-2023"
+  ],
+  "external_family_observation_ids": ["inc5000-health-longevity-demand-source-linked-share"],
+  "counter_signal": "The Inc. 5000 health/longevity signal contains discretionary consumer and pet-wellness examples, while care-access records span different countries, populations, and institutional systems. The evidence may represent several mechanisms rather than one common market trend.",
+  "next_test": "Build a comparable dated panel of care demand, waiting/access time, unpaid-care hours, employment effect, service capacity, and spending across at least two independent source families and geographies.",
+  "promotion_gate": "Do not promote to a structural trend until units, populations, periods, geographies, source lineage, and outcome direction are reconciled.",
+  "internal_bridge": "Only after external qualification: test whether the company operates in care delivery, workforce capacity, scheduling, benefits, health technology, or household-support infrastructure."
+}

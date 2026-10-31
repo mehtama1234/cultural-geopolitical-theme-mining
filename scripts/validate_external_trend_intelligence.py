@@ -168,6 +168,17 @@ def main() -> int:
         assert review["independence_status"] == "unverified"
         assert review["promotion_decision"] == "hold"
         assert review["remaining"]
+    care_candidate = json.loads((ANALYSIS / "care-capacity-candidate.json").read_text())
+    assert care_candidate["schema"] == "external-trend-intelligence.external-care-capacity-candidate.v1"
+    assert care_candidate["status"] == "held_candidate"
+    assert len(care_candidate["main_manifest_evidence_ids"]) == 7
+    assert set(care_candidate["main_manifest_evidence_ids"]) <= ids
+    assert set(care_candidate["external_family_observation_ids"]) <= family_observation_ids
+    assert care_candidate["mechanism"] and care_candidate["counter_signal"]
+    assert care_candidate["next_test"] and care_candidate["promotion_gate"]
+    care_markdown = (ANALYSIS / "CARE-CAPACITY-CANDIDATE.md").read_text()
+    assert "held_candidate" in care_markdown
+    assert "Promotion test" in care_markdown
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage

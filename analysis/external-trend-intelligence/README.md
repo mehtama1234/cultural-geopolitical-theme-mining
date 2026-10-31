@@ -69,6 +69,13 @@ The corresponding URL, host, denominator, and independence audit is in
 The two Inc. 5000 trend records have partial URL coverage review; every new
 observation remains on hold until independence and outcome evidence are checked.
 
+The first broader candidate built from these lanes is documented in
+[`CARE-CAPACITY-CANDIDATE.md`](CARE-CAPACITY-CANDIDATE.md) and
+[`care-capacity-candidate.json`](care-capacity-candidate.json). It is a held
+candidate linking care/longevity company signals to access time, unpaid care,
+work, demographic, and service-capacity evidence; it is not yet a promoted
+structural trend.
+
 The later internal-data step is documented in
 [`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
 not change the meaning or status of external evidence.
