@@ -1,21 +1,21 @@
 # Atlas quality audit — 2026-10-30
 
 **Scope:** structural audit of the current cultural/geographical theme-mining
-atlas after the horizon-scanning/anticipatory-governance evidence refresh. This is a repository
+atlas after the climate-mobility/health-continuity evidence refresh. This is a repository
 quality snapshot, not a claim that the substantive evidence is complete.
 
 ## Verified invariants
 
 | Check | Result | Interpretation |
 |---|---:|---|
-| CSV files under `analysis/` | 322 | Includes packet ledgers and older control/audit tables. |
-| CSV data rows | 2,552 | Counts exclude headers and do not imply comparable units. |
+| CSV files under `analysis/` | 323 | Includes packet ledgers and older control/audit tables. |
+| CSV data rows | 2,561 | Counts exclude headers and do not imply comparable units. |
 | Files with internally inconsistent row widths | 0 | Every CSV has a consistent width within its own file. |
-| Registered Markdown packet links | 347 | The register contains repeated links across its historical and current sections. |
-| Unique registered packet paths | 317 | Deduplicated path count. |
+| Registered Markdown packet links | 348 | The register contains repeated links across its historical and current sections. |
+| Unique registered packet paths | 318 | Deduplicated path count. |
 | Missing registered packet files | 0 | Every registered `.md` packet path resolves under `analysis/`. |
-| Master synthesis propositions | 446 | Numbered propositions before the evidence-boundary section. |
-| Proposition sequence | strict 1–446 | No missing or duplicate proposition number in the current range. |
+| Master synthesis propositions | 447 | Numbered propositions before the evidence-boundary section. |
+| Proposition sequence | strict 1–447 | No missing or duplicate proposition number in the current range. |
 
 ## Intentional schema families
 
