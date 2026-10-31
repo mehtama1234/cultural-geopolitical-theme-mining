@@ -44,6 +44,7 @@ large-load growth
 | VA-LL-018 | [PJM Board large-load registry and billing-data action](https://insidelines.pjm.com/pjm-board-directs-action-on-resource-adequacy-affordability-and-large-loads/) | 2026-07-27 | PJM large-load registry and settlement/billing data | PJM says future forecasting and capacity planning will use information from a new Large Load Registry and data available through settlement and billing processes | Registry fields, facility access, customer payments, forecast error and public disclosure remain open |
 | VA-LL-019 | [PJM proposed reliability standards for large-load disconnection events](https://insidelines.pjm.com/reliability-standards-to-manage-large-load-disconnection-events-proposed-by-pjm/) | 2026-09-10 | Northern Virginia computational loads and PJM interconnection requirements | PJM describes the July 22 event as the third separate measurable large-load event in two years and proposes ride-through/interconnection changes | Named facility participation, backup fuel/emissions, compliance date, cost and neighboring-customer effect remain open |
 | VA-LL-020 | [Virginia SCC Plaza 500 transmission testimony](https://www.scc.virginia.gov/docketsearch/DOCS/831001%21.PDF) | 2024-12-13 | Fairfax County Plaza 500 prospective data-center customer and Van Dorn/Edsall project | SCC testimony describes a proposed transmission/substation project intended solely to serve a prospective 176 MW data-center customer at Plaza 500; the record includes community concerns about route, residential proximity and whether the customer should bear project costs | Named site/load/project and public contestation are observed, but customer identity, final CPCN outcome, assigned/paid costs, construction/operation, environmental or household effect and later acceptance remain open |
+| VA-LL-021 | [Virginia SCC Edsall final order](https://www.dominionenergy.com/-/media/content/about/power-line-projects/edsall/pdfs/edsall-scc-final-order.pdf) | 2025-08-08 | Fairfax County PUR-2024-00135 Edsall Lines and Edsall Substation | SCC granted Dominion a CPCN to construct and operate the Edsall Project for a planned data-center campus requesting 176 MW; the order records approximately $23.1 million in conceptual project cost and requires construction/in-service by October 1, 2027 while stating cost allocation belongs in a rate proceeding | Project permission and schedule are observed, but customer identity, actual construction/energization, final cost, payer, rate-proceeding assignment, environmental/household effect and later acceptance remain open |
 
 ## Stage audit
 
@@ -75,6 +76,16 @@ customer remains anonymized in the source and the testimony is not a final
 commission decision or proof of payment. It should therefore be used as a
 project-level accountability lead, not as evidence that a particular operator
 or household bore the cost.
+
+The subsequent SCC Final Order closes the permission stage. The Commission
+authorized the project and issued a CPCN, recorded approximately $23.1 million
+in conceptual cost, and required construction/in-service by October 1, 2027.
+However, it declined to decide who would bear the cost in the CPCN proceeding,
+holding that allocation belongs in a rate proceeding. This is a substantive
+finding, not merely a missing document: a project can receive infrastructure
+permission while the distributional payer question remains institutionally
+deferred. The Commissioner’s concurrence explicitly identified the unresolved
+“who pays?” issue as a continuing fairness concern.
 
 ## Preliminary finding
 
@@ -163,12 +174,13 @@ public comments/challenge | commission decision | later compliance or acceptance
 ```
 
 The immediate named-facility targets are the NVIDIA AI factory in Manassas and
-one Dominion interconnection or Rider T1 filing that can be linked to it. A
-parallel named-project target is the Plaza 500 176 MW customer and its
-Van Dorn/Edsall CPCN record. The PJM Large Load Registry and settlement/billing
-references should be treated as data-access leads, not as evidence that the
-registry is publicly available or that a customer-level payment has been
-observed.
+one Dominion interconnection or Rider T1 filing that can be linked to it. For
+Plaza 500, the next decisive record is no longer the CPCN; it is the subsequent
+rate or Rider T1 assignment record, together with construction, energization
+and local-permitting evidence. The PJM Large Load Registry and
+settlement/billing references should be treated as data-access leads, not as
+evidence that the registry is publicly available or that a customer-level
+payment has been observed.
 
 ### Pass condition
 
