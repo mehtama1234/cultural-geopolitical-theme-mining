@@ -1,0 +1,55 @@
+{
+  "schema": "external-trend-intelligence.internal-bridge.v1",
+  "bridge_id": "bridge-YYYY-NNN",
+  "candidate_id": "candidate-…",
+  "external_record_ids": [],
+  "company_ref": {
+    "company_id": "",
+    "company_name": "",
+    "scope_note": ""
+  },
+  "internal_source_ref": {
+    "system": "",
+    "dataset": "",
+    "snapshot_or_query": "",
+    "owner": ""
+  },
+  "entity_key": {
+    "field": "",
+    "value_or_crosswalk": "",
+    "identity_confidence": "unknown"
+  },
+  "geography": {
+    "external": "",
+    "internal": "",
+    "compatibility": "unknown"
+  },
+  "period": {
+    "external": "",
+    "internal": "",
+    "alignment": "unknown"
+  },
+  "join_basis": "no_valid_join",
+  "hypothesis": "",
+  "outcome": {
+    "measure": "",
+    "unit": "",
+    "expected_direction": "",
+    "decision_owner": ""
+  },
+  "denominator": {
+    "external": "",
+    "internal": "",
+    "compatibility": "unknown"
+  },
+  "unmatched_records": [],
+  "rights_and_privacy": {
+    "access_basis": "",
+    "privacy_class": "",
+    "retention_limit": "",
+    "redistribution_limit": ""
+  },
+  "status": "draft",
+  "falsifier": "",
+  "notes": []
+}

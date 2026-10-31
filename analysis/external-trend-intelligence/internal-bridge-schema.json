@@ -1,0 +1,31 @@
+{
+  "schema": "external-trend-intelligence.internal-bridge.v1",
+  "purpose": "Bounded second-stage test connecting a qualified external trend to internal company data.",
+  "required": [
+    "bridge_id",
+    "candidate_id",
+    "external_record_ids",
+    "company_ref",
+    "internal_source_ref",
+    "entity_key",
+    "geography",
+    "period",
+    "join_basis",
+    "hypothesis",
+    "outcome",
+    "denominator",
+    "unmatched_records",
+    "rights_and_privacy",
+    "status",
+    "falsifier"
+  ],
+  "status_values": ["draft", "review_required", "approved_test", "rejected", "complete"],
+  "join_basis_values": ["exact_identifier", "documented_crosswalk", "aggregate_comparison", "no_valid_join"],
+  "rules": [
+    "A thematic, industry, ranking, name, or coincident-time match is not an exact join.",
+    "External and internal periods, geography, unit, and denominator must be stated separately.",
+    "Unmatched, incompatible, suppressed, and missing records must remain visible.",
+    "The bridge tests a hypothesis; it does not upgrade an external candidate into a company fact.",
+    "Rights, privacy, access, and retention limits must be recorded before data is connected."
+  ]
+}

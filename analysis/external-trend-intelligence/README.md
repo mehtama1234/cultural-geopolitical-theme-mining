@@ -18,6 +18,10 @@ The first cross-source comparison is in
 [`CROSS-SOURCE-CANDIDATES.md`](CROSS-SOURCE-CANDIDATES.md). These are
 qualified candidates, not yet company findings or forecasts.
 
+The later internal-data step is documented in
+[`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
+not change the meaning or status of external evidence.
+
 ## Stages
 
 1. **Capture:** preserve the external URL/API, publisher, date, retrieval

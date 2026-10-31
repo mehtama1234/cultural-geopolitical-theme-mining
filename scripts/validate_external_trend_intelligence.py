@@ -49,6 +49,13 @@ def main() -> int:
         assert candidate["mechanism"]
         assert candidate["counter_signal"]
         assert candidate["next_comparison"]
+    bridge_schema = json.loads((ANALYSIS / "internal-bridge-schema.json").read_text())
+    bridge_template = json.loads((ANALYSIS / "internal-bridge-template.json").read_text())
+    assert bridge_schema["schema"] == "external-trend-intelligence.internal-bridge.v1"
+    assert bridge_template["schema"] == bridge_schema["schema"]
+    assert set(bridge_schema["required"]) <= set(bridge_template)
+    assert bridge_template["join_basis"] in bridge_schema["join_basis_values"]
+    assert bridge_template["status"] in bridge_schema["status_values"]
     print(
         "valid external trend intelligence:",
         manifest["record_count"],
