@@ -181,7 +181,13 @@
         "Working Capital and Cash Conversion Become Strategic Constraints",
         "Physical Infrastructure and Energy Access Gate Growth",
         "Scale and Platforms Capture More of the Value Stack"
-      ]
+      ],
+      "pattern_artifact_paths": [
+        "cross_industry_pattern_matrix.json",
+        "cross_industry_pattern_inventory.json",
+        "cross_industry_pattern_deep_dives.json"
+      ],
+      "pattern_artifacts_pinned": true
     },
     {
       "observation_id": "ibis-cross-industry-business-forces",

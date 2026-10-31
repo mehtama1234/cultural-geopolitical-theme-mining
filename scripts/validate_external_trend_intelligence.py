@@ -201,6 +201,9 @@ def main() -> int:
         if observation["observation_id"] == "ibis-cross-industry-business-forces":
             assert observation["source_url_status"] == "present_in_artifact"
             assert observation["source_ids"] and observation["source_url_count"] == len(observation["source_urls"]) >= 1
+        if observation["observation_id"] == "ibis-cross-industry-discovery-findings":
+            assert observation["pattern_artifacts_pinned"] is True
+            assert len(observation["pattern_artifact_paths"]) == 3
     family_comparisons = json.loads((ANALYSIS / "external-family-comparisons.json").read_text())
     assert family_comparisons["schema"] == "external-trend-intelligence.external-family-comparisons.v1"
     assert len(family_comparisons["comparisons"]) == 8

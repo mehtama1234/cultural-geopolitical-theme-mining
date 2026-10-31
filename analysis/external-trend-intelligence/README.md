@@ -95,6 +95,8 @@ The Inc. 5000 rebuild observation now also carries its independent-source index:
 The IBIS force register now resolves its explicit source IDs against the pinned
 source inventory; the force synthesis remains a hypothesis until those sources
 are mapped to individual claims and outcomes.
+The IBIS discovery-findings observation also records its three pinned pattern
+artifacts, while correctly keeping claim-level source identity as an open gap.
 
 The first broader candidate built from these lanes is documented in
 [`CARE-CAPACITY-CANDIDATE.md`](CARE-CAPACITY-CANDIDATE.md) and

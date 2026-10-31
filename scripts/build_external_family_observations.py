@@ -176,6 +176,8 @@ def main() -> int:
                 "reported_synthesis",
                 "The findings are explicitly discovery hypotheses, not causal validation or proof of market outcomes.",
                 finding_titles=[finding["title"] for finding in ibis_findings["findings"]],
+                pattern_artifact_paths=ibis_findings["metadata"]["source_artifacts"],
+                pattern_artifacts_pinned=True,
                 source_url_status="not_present_in_artifact",
                 observation_period="IBIS baseline findings register at pinned revision; current data window 2025-2026",
             ),
