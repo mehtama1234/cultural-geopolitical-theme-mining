@@ -455,7 +455,7 @@ def main() -> int:
     acquisition_rights = json.loads((ANALYSIS / "external-acquisition-rights-review.json").read_text())
     assert acquisition_rights["schema"] == "external-trend-intelligence.external-acquisition-rights-review.v1"
     assert len(acquisition_rights["rows"]) == 2
-    assert all(row["rights_evidence_status"] == "terms_not_yet_verified" for row in acquisition_rights["rows"])
+    assert all(row["rights_evidence_status"] == "official_policy_identified_exact_artifact_review_open" for row in acquisition_rights["rows"])
     assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}
