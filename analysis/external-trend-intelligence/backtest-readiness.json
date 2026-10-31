@@ -17,11 +17,14 @@
         "analysis/records/comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust.json",
         "analysis/records/bsa43-nhs-waiting-legitimacy-2026.json"
       ],
+      "pinned_git_record_path_count": 7,
+      "missing_pinned_git_record_paths": [],
+      "sparse_checkout_excluded_path_count": 7,
       "snapshot_record_count": 7,
       "missing_snapshot_record_ids": [],
       "source_url_count": 20,
       "status": "records_available_comparability_review",
-      "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
+      "boundary": "Working-tree availability can be reduced by sparse checkout. Pinned Git records make review possible but do not harmonize units, establish independence, or prove a backtest result."
     },
     {
       "candidate_id": "candidate-time-financial-pressure-practical-room",
@@ -36,11 +39,14 @@
         "analysis/records/comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook.json",
         "analysis/records/comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging.json"
       ],
+      "pinned_git_record_path_count": 8,
+      "missing_pinned_git_record_paths": [],
+      "sparse_checkout_excluded_path_count": 7,
       "snapshot_record_count": 8,
       "missing_snapshot_record_ids": [],
       "source_url_count": 27,
       "status": "records_available_comparability_review",
-      "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
+      "boundary": "Working-tree availability can be reduced by sparse checkout. Pinned Git records make review possible but do not harmonize units, establish independence, or prove a backtest result."
     },
     {
       "candidate_id": "candidate-digital-capability-control-trust",
@@ -55,11 +61,14 @@
         "analysis/records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json",
         "analysis/records/comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight.json"
       ],
+      "pinned_git_record_path_count": 7,
+      "missing_pinned_git_record_paths": [],
+      "sparse_checkout_excluded_path_count": 7,
       "snapshot_record_count": 7,
       "missing_snapshot_record_ids": [],
       "source_url_count": 19,
       "status": "records_available_comparability_review",
-      "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
+      "boundary": "Working-tree availability can be reduced by sparse checkout. Pinned Git records make review possible but do not harmonize units, establish independence, or prove a backtest result."
     },
     {
       "candidate_id": "candidate-infrastructure-dependency-power",
@@ -74,11 +83,14 @@
         "analysis/records/comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security.json",
         "analysis/records/comparative-world-bank-cloud-procurement-public-capability-lockin-2026.json"
       ],
+      "pinned_git_record_path_count": 7,
+      "missing_pinned_git_record_paths": [],
+      "sparse_checkout_excluded_path_count": 7,
       "snapshot_record_count": 7,
       "missing_snapshot_record_ids": [],
       "source_url_count": 26,
       "status": "records_available_comparability_review",
-      "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
+      "boundary": "Working-tree availability can be reduced by sparse checkout. Pinned Git records make review possible but do not harmonize units, establish independence, or prove a backtest result."
     },
     {
       "candidate_id": "candidate-us-food-insecurity-persistence",
@@ -87,11 +99,14 @@
       "missing_local_record_paths": [
         "analysis/records/us-urban-wbns-food-insecurity-persistence-2019-2025.json"
       ],
+      "pinned_git_record_path_count": 2,
+      "missing_pinned_git_record_paths": [],
+      "sparse_checkout_excluded_path_count": 1,
       "snapshot_record_count": 2,
       "missing_snapshot_record_ids": [],
       "source_url_count": 6,
       "status": "records_available_comparability_review",
-      "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
+      "boundary": "Working-tree availability can be reduced by sparse checkout. Pinned Git records make review possible but do not harmonize units, establish independence, or prove a backtest result."
     }
   ],
   "next_action": "Review pinned records for compatible units, periods, populations, outcomes, and independent lineage before attempting a temporal backtest."
