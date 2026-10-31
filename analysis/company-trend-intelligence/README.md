@@ -19,6 +19,8 @@ people, and public-affairs teams.
   or downstream analysis.
 - `portfolio.csv` provides the same seven-record index for spreadsheets and BI
   tools; pipe-delimited values preserve multi-value fields.
+- `THEME-COVERAGE-MATRIX.csv` provides the fourteen-theme scope and coverage
+  state for spreadsheets, BI, and frontend work.
 - `board.html` is a lightweight browser reader for the JSON portfolio.
 - `TEMPLATE.md` is the plain-language authoring template.
 - A record must preserve the source claim, mechanism, affected groups,

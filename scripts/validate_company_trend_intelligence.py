@@ -18,6 +18,8 @@ def main() -> int:
     portfolio = json.loads((BASE / "portfolio.json").read_text(encoding="utf-8"))
     with (BASE / "portfolio.csv").open(newline="", encoding="utf-8") as handle:
         csv_rows = list(csv.DictReader(handle))
+    with (BASE / "THEME-COVERAGE-MATRIX.csv").open(newline="", encoding="utf-8") as handle:
+        theme_rows = list(csv.DictReader(handle))
 
     assert schema["schema"] == "company-trend-intelligence-record-v1"
     assert portfolio["schema"] == "company-trend-intelligence-portfolio-v1"
@@ -28,8 +30,12 @@ def main() -> int:
     ids = [record["trend_id"] for record in records]
     theme_coverage = portfolio["theme_coverage"]
     assert len(theme_coverage) == 14, "theme coverage must contain all 14 programme themes"
+    assert len(theme_rows) == 14, "theme coverage CSV must contain all 14 programme themes"
+    assert {int(row["theme_number"]) for row in theme_rows} == set(range(1, 15)), "theme CSV numbers must be 1..14"
     assert {item["number"] for item in theme_coverage} == set(range(1, 15)), "theme numbers must be 1..14"
     assert {item["coverage"] for item in theme_coverage} <= {"deep", "lens", "open"}, "invalid theme coverage"
+    assert {int(row["theme_number"]) for row in theme_rows} == {item["number"] for item in theme_coverage}, "theme JSON and CSV numbers differ"
+    assert {row["coverage"] for row in theme_rows} <= {"deep", "lens", "open"}, "invalid theme CSV coverage"
     record_ids = set(ids)
     for item in theme_coverage:
         assert set(item["record_ids"]) <= record_ids, f"unknown trend in theme coverage: {item}"
