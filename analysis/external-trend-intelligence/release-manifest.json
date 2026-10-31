@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "c44bc8d6dec69c78ec6dfbf72ec011d50a9a7adf",
+  "source_tree_commit": "6aa2ed876100fe0137624805f03bbe0bac19680b",
   "artifact_count": 62,
   "artifacts": [
     {
@@ -236,8 +236,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/us-financial-room-independent-comparison.json",
-      "bytes": 2049,
-      "sha256": "7a91aeb515ae2a5860185c79567930c5f2ca17003f6b342f51e5d46df37dade5"
+      "bytes": 2149,
+      "sha256": "0f8487c958f8c5081afa68575dcd3493375fe82ea1f39c01b8a5369d7bf85f89"
     },
     {
       "path": "analysis/external-trend-intelligence/external-acquisition-rights-review.json",

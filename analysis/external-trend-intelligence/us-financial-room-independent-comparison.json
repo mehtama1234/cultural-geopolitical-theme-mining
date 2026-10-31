@@ -28,10 +28,10 @@
       "unit": "percent of households"
     }
   ],
-  "directional_readout": "Both independent U.S. series indicate continued resource pressure between 2022 and 2024, but they measure different constructs and use adult versus household denominators.",
+  "directional_readout": "The independent U.S. series do not move identically: SHED self-assessed wellbeing is flat from 2022 to 2024, while USDA food insecurity rises slightly. Together they show persistent but non-uniform resource pressure, not a common trend estimate.",
   "supports": [
     "independent publisher challenge",
-    "same-geography directional comparison",
+    "same-geography mechanism comparison",
     "counter-signal review"
   ],
   "does_not_support": [
@@ -48,5 +48,5 @@
     "no common outcome definition"
   ],
   "next_action": "Retrieve full codebooks and uncertainty intervals, then pre-specify whether the comparison is a mechanism challenge or a separate U.S. trend lane.",
-  "boundary": "Independent sources can converge directionally without measuring the same population outcome. No pooling or trend promotion is authorized."
+  "boundary": "Independent sources can converge, diverge, or move at different magnitudes without measuring the same population outcome. No pooling or trend promotion is authorized."
 }
