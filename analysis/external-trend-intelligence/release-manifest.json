@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "acec47aed8ef5863ad08f5afec556b82859cfca8",
-  "artifact_count": 57,
+  "source_tree_commit": "d3f626c2087e4c206f8653713062fec234b1f629",
+  "artifact_count": 58,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -107,7 +107,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2114,
-      "sha256": "991f10d2547c046ce607c3074850931c8ba5be352396764879bee4dcea5371a6"
+      "sha256": "79f91f8c49424fcd781502b2fa87f50486e00383279368660883b5353c8387eb"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -131,8 +131,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 3302,
-      "sha256": "1b115694a83e0e3ca49c1486f8bb8c2fac3ada2f57b6afb88ec253a8a70d03a2"
+      "bytes": 3372,
+      "sha256": "9d4c34a3d8632cf7d547d5acea4a66c989abfc34f6ee8648c91347c665fba6ec"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
@@ -161,8 +161,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5243,
-      "sha256": "ecdcc5677a01371f01256b8ebf0d0ef65c746b8e5794aa8a4c33aa0a5c8367fd"
+      "bytes": 5241,
+      "sha256": "d0043aace0d1b4930229560ebcdaaf2b25c744675ab11f15bfac68c4b39f2d4e"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -218,6 +218,11 @@
       "path": "analysis/external-trend-intelligence/ibis-claim-source-review.json",
       "bytes": 11765,
       "sha256": "74693da0899a6c8f53acd30f7337d89453e5dea3b79a769cd5300d2b9ca1324a"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/refresh-history.json",
+      "bytes": 1032,
+      "sha256": "de59e3b22a540dce86f044a7c8af1fb8dfb43377cb2ea0506872da3763830901"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",

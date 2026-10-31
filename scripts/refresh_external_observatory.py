@@ -40,6 +40,7 @@ STEPS = [
     ["scripts/build_denominator_reconciliation_review.py"],
     ["scripts/build_release_health.py"],
     ["scripts/build_goal_completion_audit.py"],
+    ["scripts/build_refresh_history.py"],
     ["scripts/build_external_release_manifest.py"],
     ["scripts/validate_external_trend_intelligence.py"],
     ["scripts/smoke_test_external_board.py"],

@@ -10,9 +10,10 @@
       "evidence": [
         "source-family-registry.json",
         "refresh_external_observatory.py",
-        "refresh-status.json"
+        "refresh-status.json",
+        "refresh-history.json"
       ],
-      "gap": "Longitudinal refresh history and stale-source recovery are not yet demonstrated over multiple cycles."
+      "gap": "Refresh history is now recorded, but stale-source recovery and sustained operation over multiple scheduled cycles are not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",

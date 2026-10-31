@@ -24,7 +24,7 @@ def main() -> int:
         "as_of": progress["as_of"],
         "overall_status": "in_progress_with_open_gates",
         "requirements": [
-            {"id": "external_capture_refresh", "status": "partial", "evidence": ["source-family-registry.json", "refresh_external_observatory.py", "refresh-status.json"], "gap": "Longitudinal refresh history and stale-source recovery are not yet demonstrated over multiple cycles."},
+            {"id": "external_capture_refresh", "status": "partial", "evidence": ["source-family-registry.json", "refresh_external_observatory.py", "refresh-status.json", "refresh-history.json"], "gap": "Refresh history is now recorded, but stale-source recovery and sustained operation over multiple scheduled cycles are not yet demonstrated."},
             {"id": "lineage_rights_units_periods_uncertainty", "status": "partial", "evidence": ["external-family-lineage-review.json", "rights-review-queue.json", "rights-evidence-register.json", "observation-manifest.json"], "gap": "Rights and publisher dependence remain unverified for all families."},
             {"id": "independent_source_comparison", "status": "partial", "evidence": ["independent-stage-comparison.json", "room-independent-comparison.json", "room-independent-result.json", "bounded-subset-lineage-review.json"], "gap": "Comparisons now show directional agreement but remain mechanism-only; no common unit and holdout have passed."},
             {"id": "trend_qualification", "status": "open", "evidence": ["candidate-qualification-matrix.json", "trend-qualification-rubric.json"], "gap": f"{qualification['qualified_external_trend_count']} qualified trends; {qualification['held_count']} candidates held."},
