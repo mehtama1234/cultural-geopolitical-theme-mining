@@ -199,3 +199,16 @@ research into decision relevance while keeping observation, inference,
 uncertainty, and open questions visible. Any downstream company application
 should reuse the record contract without silently inheriting another company’s
 assumptions.
+
+## External-source operating requirement
+
+This is a living program, not a finished nine-record report. The system must
+continuously ingest and refresh external evidence from official statistics,
+administrative records, firm and market data, infrastructure and place data,
+cultural and community sources, research, and geopolitical records. It should
+compare independent sources, preserve counter-signals, identify trends and
+reversals, and promote only supported findings into the company-facing layer.
+
+The source inventory, provenance fields, refresh logic, and external-to-
+frontend handoff are maintained in
+[the external source registry](EXTERNAL_SOURCE_REGISTRY.md).

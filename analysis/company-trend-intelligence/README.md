@@ -8,6 +8,9 @@ schema and template to extend the record set.
 
 For frontend integration and handoff instructions, read [HANDOFF.md](HANDOFF.md).
 
+For the ongoing external-data ingestion and trend-analysis loop, read
+[the external source registry](../../EXTERNAL_SOURCE_REGISTRY.md).
+
 The existing 14-theme atlas remains the evidence base. These records add the
 business translation needed by strategy, product, risk, finance, operations,
 people, and public-affairs teams.
