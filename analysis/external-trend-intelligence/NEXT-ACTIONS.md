@@ -14,6 +14,9 @@ zero comparable backtest subsets: units, denominators, geographies, and outcome
 definitions remain heterogeneous. The next test is to acquire an independent
 source family using the same stage or outcome definitions, not to pool the
 current records.
+The bounded-subset register now includes a five-case cross-publisher review
+candidate spanning Fair Work Commission and Fair Work Ombudsman records; it is
+an independence-review panel, not a pooled estimate.
 
 ## One substantive open gate
 

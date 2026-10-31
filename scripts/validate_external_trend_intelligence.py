@@ -352,6 +352,9 @@ def main() -> int:
     assert bounded["schema"] == "external-trend-intelligence.bounded-subset-register.v1"
     assert bounded["subsets"][0]["status"] == "bounded_panel_not_backtest"
     assert len(bounded["subsets"][0]["record_ids"]) == 3
+    assert bounded["subsets"][1]["status"] == "independence_review_candidate"
+    assert bounded["subsets"][1]["publisher_families"] == ["Fair Work Commission", "Fair Work Ombudsman"]
+    assert len(bounded["subsets"][1]["record_ids"]) == 5
     stage_panel = json.loads((ANALYSIS / "case-stage-panel.json").read_text())
     assert stage_panel["schema"] == "external-trend-intelligence.case-stage-panel.v1"
     assert stage_panel["case_count"] == 3

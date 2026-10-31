@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "5ced87d27bd254c8176a0db5986ba8744e94367c",
+  "source_tree_commit": "5a14b35ca014fb30fa5594cb251d397125e78a30",
   "artifact_count": 39,
   "artifacts": [
     {
@@ -46,8 +46,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/bounded-subset-register.json",
-      "bytes": 3974,
-      "sha256": "c63cdc490a7dc0567b94e8e0341ad2acc1d2130b69d206aa1a570fb786fe78c3"
+      "bytes": 5414,
+      "sha256": "3a4d8efe91c762d6317bde284f12277fc5ae6052b110d751e52cbd2f40de44b0"
     },
     {
       "path": "analysis/external-trend-intelligence/case-stage-panel.json",
@@ -66,8 +66,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
-      "bytes": 3260,
-      "sha256": "5fbfe9d96526c200a966f0d2e753fa518353923726501a1096765c673e5c1c23"
+      "bytes": 3468,
+      "sha256": "465e99a72f71ef33a511afaec69fe52286851e194d4312a5cb4362f439b06014"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -76,8 +76,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5232,
-      "sha256": "10349104a4ba47e3718e711b0c79288b2d9b4165b3203dd1172972e997e4bcae"
+      "bytes": 5233,
+      "sha256": "b9ee0289dbddddf21d4d1d28d0c6a31d18ad3d6e36bab8de98c5fdd3b0c52673"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",

@@ -42,6 +42,21 @@ def main() -> int:
                 "does_not_support": ["population prevalence", "independent-source confirmation", "causal effect", "company exposure"],
                 "blocking_gates": ["shared Fair Work Commission publisher lineage", "incomplete payment/receipt and durable-access outcomes", "no independent holdout source family"],
                 "next_action": "Code common response, implementation, receipt, recovery, and exit stages; then add an independent non-FWC source family before any trend promotion.",
+            },
+            {
+                "subset_id": "australia-remedy-cross-publisher-panel-001",
+                "candidate_id": "candidate-formal-response-before-recovery",
+                "status": "independence_review_candidate",
+                "record_ids": panel_ids + [
+                    "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018",
+                    "comparative-australia-fwc-no-alternative-employment-remedy-2024",
+                ],
+                "publisher_families": ["Fair Work Commission", "Fair Work Ombudsman"],
+                "common_frame": "Australia; formal employment or platform remedy cases with implementation and recovery stages",
+                "supports": ["cross-publisher lineage review", "stage-definition refinement", "counterexample discovery"],
+                "does_not_support": ["population prevalence", "same-mechanism estimate", "causal effect", "company exposure"],
+                "blocking_gates": ["case types and outcome units are not identical", "periods and denominators remain case-specific", "no pre-specified independent holdout"],
+                "next_action": "Map both publishers to the common stage vocabulary and preserve case-type differences; do not pool outcomes until comparability is demonstrated.",
             }
         ],
         "boundary": "A bounded subset narrows the comparison frame; it does not make shared-publisher cases independent or turn missing outcomes into zeros.",
