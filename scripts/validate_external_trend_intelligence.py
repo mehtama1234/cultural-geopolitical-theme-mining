@@ -308,7 +308,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 62
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 63
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -415,7 +415,7 @@ def main() -> int:
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
     assert progress["baseline"]["records"] == 2134
     assert progress["baseline"]["qualified_external_trends"] == 0
-    assert progress["baseline"]["release_artifacts"] == 62
+    assert progress["baseline"]["release_artifacts"] == 63
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
@@ -447,6 +447,11 @@ def main() -> int:
     assert shed_holdout["status"] == "descriptive_single_family_holdout"
     assert shed_holdout["construction_period"] == "2013-2021"
     assert shed_holdout["holdout_period"] == "2022-2025"
+    usda_holdout = json.loads((ANALYSIS / "usda-temporal-holdout.json").read_text())
+    assert usda_holdout["schema"] == "external-trend-intelligence.usda-temporal-holdout.v1"
+    assert usda_holdout["status"] == "descriptive_single_family_holdout"
+    assert usda_holdout["construction_period"] == "2022-2023"
+    assert usda_holdout["holdout_period"] == "2024"
     usda = json.loads((ANALYSIS / "../records/comparative-usda-food-security-2022-2024.json").resolve().read_text())
     assert usda["trend_id"] == "comparative-usda-food-security-2022-2024"
     us_comparison = json.loads((ANALYSIS / "us-financial-room-independent-comparison.json").read_text())

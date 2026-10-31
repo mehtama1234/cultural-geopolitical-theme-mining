@@ -175,6 +175,12 @@
       <div class="promotion-gates" id="shed-holdout"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>U.S. USDA food-security temporal holdout</h2>
+      <p class="muted">USDA CPS-FSS is shown as a single-family holdout. The numerical movement is retained with the published significance caveat; it is not independent validation.</p>
+      <div class="panel" style="margin:12px 0"><h3>Construction versus holdout endpoint</h3><div id="usda-holdout-chart"></div></div>
+      <div class="promotion-gates" id="usda-holdout"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>U.S. independent financial-room comparison</h2>
       <p class="muted">Federal Reserve SHED and USDA ERS do not move identically: they measure different outcomes and must not be pooled. The comparison is a mechanism challenge, not a common trend estimate.</p>
       <div class="panel" style="margin:12px 0"><h3>2022 → 2024 directional change</h3><div id="us-financial-room-chart"></div></div>
@@ -498,6 +504,10 @@
           holdout_value: holdout.holdout_end.value,
         }]);
         el('shed-holdout').append(card(`${holdout.construction_period} → ${holdout.holdout_period}`, holdout.status, `${holdout.readout} ${holdout.falsifier}`));
+      });
+      fetch('usda-temporal-holdout.json').then(r => r.json()).then(holdout => {
+        holdoutChart(el('usda-holdout-chart'), [{label: 'Food insecurity', construction_value: holdout.construction_end.value, holdout_value: holdout.holdout_end.value}]);
+        el('usda-holdout').append(card(`${holdout.construction_period} → ${holdout.holdout_period}`, holdout.status, `${holdout.readout} ${holdout.falsifier}`));
       });
       fetch('us-financial-room-independent-comparison.json').then(r => r.json()).then(comparison => {
         independentResultChart(el('us-financial-room-chart'), comparison.rows);

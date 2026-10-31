@@ -1,0 +1,53 @@
+{
+  "schema": "external-trend-intelligence.usda-temporal-holdout.v1",
+  "record_id": "comparative-usda-food-security-2022-2024",
+  "source_family": "U.S. Department of Agriculture Economic Research Service, Household Food Security in the United States",
+  "status": "descriptive_single_family_holdout",
+  "construction_period": "2022-2023",
+  "holdout_period": "2024",
+  "measure": "percent of households food insecure at some time during the year",
+  "construction": [
+    {
+      "period": 2022,
+      "value": 12.8
+    },
+    {
+      "period": 2023,
+      "value": 13.5
+    }
+  ],
+  "holdout": [
+    {
+      "period": 2024,
+      "value": 13.7
+    }
+  ],
+  "construction_start": {
+    "period": 2022,
+    "value": 12.8
+  },
+  "construction_end": {
+    "period": 2023,
+    "value": 13.5
+  },
+  "holdout_start": {
+    "period": 2024,
+    "value": 13.7
+  },
+  "holdout_end": {
+    "period": 2024,
+    "value": 13.7
+  },
+  "change_to_holdout": 0.1999999999999993,
+  "readout": "Food insecurity rose numerically from 2022 through the 2024 holdout, but USDA reports the 2024 prevalence was not statistically significantly different from 2023 or 2022.",
+  "falsifier": "A later compatible release showing a statistically reliable reversal or a method break would weaken this descriptive persistence readout.",
+  "does_not_support": [
+    "independent-source confirmation",
+    "causality",
+    "pooled adult-household estimate",
+    "company exposure",
+    "qualified trend"
+  ],
+  "next_action": "Attach year-specific standard errors or confidence intervals and compare with a pre-specified independent household-finance measure.",
+  "boundary": "This is a descriptive repeated-cross-section holdout from one USDA survey family. It is not a causal or independent validation result."
+}

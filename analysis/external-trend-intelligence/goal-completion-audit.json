@@ -57,9 +57,10 @@
         "backtest-comparability-review.json",
         "temporal-holdout-design.json",
         "temporal-holdout-result.json",
-        "shed-temporal-holdout.json"
+        "shed-temporal-holdout.json",
+        "usda-temporal-holdout.json"
       ],
-      "gap": "The temporal readouts are single-family and descriptive; the SHED/USDA comparison is not a compatible common-unit backtest."
+      "gap": "The temporal readouts now cover both SHED and USDA but remain single-family and descriptive; the SHED/USDA comparison is not a compatible common-unit backtest."
     },
     {
       "id": "decision_ready_frontend",
