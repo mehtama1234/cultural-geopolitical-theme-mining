@@ -9,9 +9,10 @@ method, date, population, authority or evidence quality.
 
 ## Results
 
-- **29 endpoints returned HTTP 200** after the retry pass.
-- **11 endpoints remained HTTP 403** under both the default request and a
-  browser-like request with standard HTML/PDF accept headers.
+- **29 endpoints returned HTTP 200** from the shell or retry pass, and **9 of
+  the former 403 endpoints were retrievable through the browser path**.
+- **2 endpoints remain unresolved:** UNECE and IPCC returned HTTP 403 through
+  both the shell and browser retrieval paths.
 - **0 endpoints returned 404, 5xx or transport errors** in the final ledger.
 - One DOE carbon-removal report URL returned 404 and was replaced by a stable
   official DOE program page. The claim was downgraded to partial support because
@@ -22,10 +23,11 @@ method, date, population, authority or evidence quality.
 
 ## Interpretation
 
-The 11 remaining 403 responses are access restrictions, not evidence that the
-sources are dead or that the claims are true. They require manual/browser or
-alternate official-document review. The two UN endpoints that initially
-returned 403 resolved under the retry request and are now marked reachable.
+The 2 remaining 403 responses are access restrictions, not evidence that the
+sources are dead or that the claims are true. Nine former 403 responses were
+resolved through browser retrieval and are marked `browser_retrievable`; the
+UN endpoints were among them. The UNECE and IPCC sources still require a
+permitted browser, alternate official PDF or document mirror.
 
 Reachability is therefore a separate status from substantive support:
 
