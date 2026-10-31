@@ -25,6 +25,7 @@
     .fill { height:100%; background:var(--accent); border-radius:inherit; min-width:2px; }
     .candidates { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; }
     .comparisons { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
+    .observations { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-top:16px; }
     article { display:flex; flex-direction:column; gap:8px; }
     article h3 { margin:0; font-size:1.05rem; line-height:1.25; }
     .pill { display:inline-block; width:max-content; border-radius:999px; padding:3px 9px; background:var(--soft); color:var(--accent); font-size:.75rem; font-weight:750; text-transform:uppercase; }
@@ -52,6 +53,7 @@
       <div class="stat"><strong id="candidate-count">—</strong><span>qualified candidates</span></div>
       <div class="stat"><strong id="source-count">—</strong><span>registered external sources</span></div>
       <div class="stat"><strong id="intake-count">—</strong><span>held intake comparisons</span></div>
+      <div class="stat"><strong id="family-observation-count">—</strong><span>new family observations</span></div>
     </section>
     <section class="charts" aria-label="External evidence coverage">
       <div class="panel"><h2>Theme coverage</h2><div id="theme-chart"></div></div>
@@ -62,6 +64,11 @@
       <h2>Cross-source candidates</h2>
       <p class="muted">These are qualified candidates, not forecasts and not internal company findings.</p>
       <div class="candidates" id="candidates"></div>
+    </section>
+    <section style="margin-top:28px">
+      <h2>Normalized external-family observations</h2>
+      <p class="muted">These values come from pinned Inc. 5000 and annual-report artifacts. Their evidence status and boundaries travel with the value.</p>
+      <div class="observations" id="family-observations"></div>
     </section>
     <section style="margin-top:28px">
       <h2>New external-family intake</h2>
@@ -105,18 +112,29 @@
       const next = document.createElement('p'); next.innerHTML = `<strong>Next test:</strong> ${comparison.next_test}`;
       article.append(pill, title, relationship, rationale, counter, next); return article;
     }
+    function familyObservationCard(observation) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = observation.evidence_status.replaceAll('_', ' ');
+      const title = document.createElement('h3'); title.textContent = observation.title;
+      const value = document.createElement('p'); value.innerHTML = `<strong>Value:</strong> ${observation.value} ${observation.unit}`;
+      const source = document.createElement('code'); source.textContent = `${observation.family_id} · ${observation.source_path}`;
+      const boundary = document.createElement('p'); boundary.innerHTML = `<strong>Boundary:</strong> ${observation.boundary}`;
+      article.append(pill, title, value, source, boundary); return article;
+    }
     Promise.all([
       fetch('observation-manifest.json').then(r => r.json()),
       fetch('candidate-comparisons.json').then(r => r.json()),
       fetch('source-registry-snapshot.json').then(r => r.json()),
       fetch('external-family-comparisons.json').then(r => r.json()),
-    ]).then(([manifest, comparison, sourceRegistry, familyComparisons]) => {
+      fetch('external-family-observations.json').then(r => r.json()),
+    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
       el('candidate-count').textContent = comparison.candidates.length;
       el('source-count').textContent = sourceRegistry.source_count.toLocaleString();
       el('intake-count').textContent = familyComparisons.comparisons.length;
+      el('family-observation-count').textContent = familyObservations.observation_count;
       barChart(el('theme-chart'), Object.entries(manifest.program_theme_counts).sort((a,b) => b[1]-a[1]), manifest.record_count);
       barChart(el('host-chart'), Object.entries(manifest.source_host_counts).slice(0, 16), manifest.record_count);
       const sourceTypes = {};
@@ -124,6 +142,7 @@
       barChart(el('source-type-chart'), Object.entries(sourceTypes).sort((a,b) => b[1]-a[1]).slice(0, 16), sourceRegistry.source_count);
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
       const familyCards = el('family-comparisons'); familyComparisons.comparisons.forEach(item => familyCards.append(familyComparisonCard(item)));
+      const observationCards = el('family-observations'); familyObservations.observations.forEach(item => observationCards.append(familyObservationCard(item)));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
   </script>
 </body>
