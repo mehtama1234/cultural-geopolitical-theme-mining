@@ -4,6 +4,11 @@ This is the operating procedure for keeping the external-first goal current.
 It keeps source capture, normalization, comparison, and company bridging as
 separate stages.
 
+[`refresh-schedule.json`](refresh-schedule.json) is the machine-readable
+cadence and trigger register for the eight source families. Use it to decide
+when to rerun a family-specific refresh; every refresh still follows the full
+pin, normalize, lineage, challenge, promotion, and validation sequence below.
+
 ## 1. Pin the external inputs
 
 Update the revisions and manifest paths in

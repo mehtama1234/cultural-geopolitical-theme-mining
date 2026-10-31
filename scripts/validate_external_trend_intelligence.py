@@ -50,6 +50,23 @@ def main() -> int:
     assert "build_external_family_observations.py" in runbook
     assert "validate_external_trend_intelligence.py" in runbook
     assert "No internal company join" in runbook
+    refresh_schedule = json.loads((ANALYSIS / "refresh-schedule.json").read_text())
+    assert refresh_schedule["schema"] == "external-trend-intelligence.refresh-schedule.v1"
+    assert len(refresh_schedule["families"]) == 8
+    assert {family["family_id"] for family in refresh_schedule["families"]} == {
+        "cultural-geopolitical-theme-mining",
+        "social-research",
+        "trend-hunting",
+        "annual-report-research",
+        "inc5000-analysis",
+        "ibis-industries",
+        "research-signals",
+        "organization-intelligence-system",
+    }
+    assert all(
+        family["cadence"] and family["trigger"] and family["refresh_artifacts"]
+        for family in refresh_schedule["families"]
+    )
     machine = json.loads((ANALYSIS / "candidate-comparisons.json").read_text())
     assert machine["schema"] == "external-trend-intelligence.candidate-comparisons.v1"
     assert len(machine["candidates"]) == 4
@@ -207,7 +224,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 20
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 21
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:

@@ -1,0 +1,55 @@
+{
+  "schema": "external-trend-intelligence.refresh-schedule.v1",
+  "purpose": "Planned refresh cadence for the external-first trend-intelligence program.",
+  "rule": "A refresh updates the pinned artifact and reruns normalization, lineage review, comparison challenge, promotion gates, and release validation. A schedule does not imply that a source is continuously available or independent.",
+  "families": [
+    {
+      "family_id": "cultural-geopolitical-theme-mining",
+      "cadence": "on source-record commit and monthly audit",
+      "trigger": "new source-backed record, revision, or counter-signal",
+      "refresh_artifacts": ["observation-manifest.json", "candidate-comparisons.json"]
+    },
+    {
+      "family_id": "social-research",
+      "cadence": "monthly or on publication release",
+      "trigger": "new atlas, collection manifest, or approved source snapshot",
+      "refresh_artifacts": ["external-family-observations.json", "external-family-lineage-review.json"]
+    },
+    {
+      "family_id": "trend-hunting",
+      "cadence": "monthly or on synthesis release",
+      "trigger": "new deep-trend synthesis, falsifier, or input checksum set",
+      "refresh_artifacts": ["external-family-observations.json", "external-family-comparisons.json"]
+    },
+    {
+      "family_id": "annual-report-research",
+      "cadence": "quarterly and filing-season event-driven",
+      "trigger": "new filing, earnings period, theme-map revision, or source-owner correction",
+      "refresh_artifacts": ["repository-family-snapshot.json", "external-family-observations.json"]
+    },
+    {
+      "family_id": "inc5000-analysis",
+      "cadence": "annual release and quarterly evidence refresh",
+      "trigger": "new ranking release, source-linked company evidence, or field-validation result",
+      "refresh_artifacts": ["repository-family-snapshot.json", "external-family-observations.json"]
+    },
+    {
+      "family_id": "ibis-industries",
+      "cadence": "quarterly or on industry-corpus revision",
+      "trigger": "new industry record, force register, finding, or falsifier",
+      "refresh_artifacts": ["repository-family-snapshot.json", "external-family-observations.json", "external-family-comparisons.json"]
+    },
+    {
+      "family_id": "research-signals",
+      "cadence": "on provenance-schema or capture-contract revision",
+      "trigger": "new custody, deduplication, rights, or verification contract",
+      "refresh_artifacts": ["source-family-registry.json", "REFRESH-RUNBOOK.md"]
+    },
+    {
+      "family_id": "organization-intelligence-system",
+      "cadence": "on identity, comparability, rights, or release-contract revision",
+      "trigger": "governance contract changes the permitted bridge or review state",
+      "refresh_artifacts": ["source-family-registry.json", "internal-bridge-schema.json"]
+    }
+  ]
+}

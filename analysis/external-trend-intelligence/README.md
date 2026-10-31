@@ -179,3 +179,9 @@ counts, checksums, and the source-tree commit used to build the package.
 [`promotion-queue.json`](promotion-queue.json) is the consolidated gate for
 the four qualified candidates and two held candidates. It records the blocking
 evidence work and confirms that none is ready for an internal company bridge.
+
+[`refresh-schedule.json`](refresh-schedule.json) defines the living cadence and
+event triggers for each external source family. A refresh always reruns
+normalization, lineage review, comparison challenge, promotion gates, and
+release validation; the schedule does not imply source independence or
+continuous availability.
