@@ -68,6 +68,9 @@ language exclusion, low-resource data and intergenerational decline
 | Jacaranda UlizaLlama open-source construction and human review | Jacaranda describes extending Llama2/Llama3 for Swahili, Hausa, Yoruba, Xhosa and Zulu, merging language-specific pretraining and fine-tuning for maternal-health support; it reports evaluation on 2,500 extracted questions using automated similarity/fluency metrics and says responses are reviewed and edited by humans before being sent to mothers. | public model cards, domain adaptation method, task-specific evaluation sample and human-in-the-loop control | model-card licenses, dataset rights, native-speaker and clinician evaluation, full benchmark artifacts, downstream reuse, error analysis and whether human review is consistently resourced at scale |
 | Jacaranda Swahili ASR model-card limitation | Jacaranda’s ASR model card reports a Swahili-English speech-to-text model fine-tuned from Whisper Medium with a 14.7% WER result and warns that performance may vary across Swahili dialects, regional accents and code-switching patterns absent from training data; commercial use is directed to contact Jacaranda. | named speech artifact, training setup, quantitative error signal and explicit dialect limitation | broader dialect test sets, speaker-disaggregated WER, consent/licensing, real-world noise performance, correction workflow, commercial access and downstream service safety |
 | Jacaranda Swahili voice prototype engagement | Jacaranda’s Q2 2025 report says a Swahili-speaking voice alternative was launched for low-literacy and sight-impaired mothers; it reports 80% accuracy for Swahili voice support, 90% for English and that 30% of mothers who had not previously opted into PROMPTS did so after receiving a voice call. The team was still experimenting with Kenyan accents and dialects and planned wider rollout. | user engagement signal and accessibility-focused voice prototype with a reported language-specific accuracy figure | sample size and denominator, opt-in definition, retention and repeat use, error and safety review, accent/dialect results, health-information comprehension, care-seeking and maternal outcomes |
+| India BHASHINI national language-technology hub | India’s Ministry of Electronics and Information Technology reports BHASHINI operating on a vendor- and cloud-agnostic sovereign AI cloud with 350+ optimized models, support for 36 text and 23 voice languages, and public-sector use cases spanning conversational assistants, citizen-service platforms, governance interfaces and public digital applications. Other official updates report hundreds of websites/use cases and billions of inferences at different dates. | state-scale multilingual AI infrastructure, sovereignty architecture and broad service integration claims | language-by-language quality, active-user and service denominators, error/correction rates, rural/dialect inclusion, accessibility, procurement, completed transactions, privacy and independent evaluation |
+| BHASHINI Kumbh Sah’AI’yak cultural-event deployment | India’s Press Information Bureau reports BHASHINI powered a multilingual, voice-enabled Kumbh Sah’AI’yak assistant at Maha Kumbh 2025, providing navigation and event information in 11 languages and supporting a digital Lost & Found function with real-time text and voice translation. | named public cultural-event deployment with a concrete multilingual service workflow | user volume, successful navigation/retrieval, language-specific errors, accessibility, lost-and-found resolution, repeat use, safety and whether the deployment transfers to ordinary public services |
+| BHASHINI–Indian Railways public-service integration pathway | India’s Press Information Bureau reports a June 2025 MoU between Digital India BHASHINI Division and the Centre for Railway Information Systems to deploy multilingual AI across public-facing railway platforms, including NTES and RailMadad, with ASR, translation, TTS, OCR, chatbots, voice assistants, kiosks and call-centre interfaces. | named government-to-government deployment pathway and high-volume service targets | production launch, transaction completion, passenger uptake, language/dialect coverage, correction and escalation, accessibility, privacy and service-quality outcomes |
 
 ## Stage audit
 
@@ -285,6 +288,17 @@ language/dialect breakdown, “30% opted in” cannot be generalized to all
 low-literacy or sight-impaired mothers. It is nevertheless stronger evidence of
 access conversion than a model card or product description alone.
 
+BHASHINI adds a public-digital-infrastructure route at a much larger declared
+scale. The sovereign-cloud architecture, model inventory and cultural-event
+deployment show that language technology can be positioned as national
+infrastructure rather than as a single product. The railway MoU shows a route
+into recurring public-service workflows. Yet platform inferences, supported
+languages and a successful event assistant still do not prove that a passenger
+completed a transaction accurately, that a rural dialect user was served
+equally, or that language access improved a durable public outcome. The India
+case therefore separates infrastructure scale, event service operation and
+ordinary public-service realization.
+
 ## Cross-case synthesis
 
 | Case | Strongest evidence currently closed | Conversion stage still unproven |
@@ -296,6 +310,7 @@ access conversion than a model card or product description alone.
 | Basque / Euskorpus | Public funding, a public-private coalition, corpus/model infrastructure and an explicit sector-transfer plan are named. | Released artifacts, sector pilots, rights settlement, adoption and citizen outcomes. |
 | Ireland | Technical governance, active-offer design, language-choice portability and procurement requirements are institutionalized in plans and a working group. | Changed systems, enforceable procurement, portable language choice and completed Irish-language encounters. |
 | Africa / AfriEval and EAC | Evaluation infrastructure and a regional sovereignty agenda connect language, data, compute, finance and governance. | Publicly verified deployments, smaller-language inclusion, regional infrastructure delivery and service outcomes. |
+| India / BHASHINI | National sovereign language infrastructure, a named cultural-event assistant and a railway integration pathway are documented. | Language-specific quality, completed public transactions, rural/dialect equity and durable user outcomes. |
 
 The cross-case pattern is not “AI preserves minority languages.” It is a
 conversion problem with distinct gates: community authority, usable data,
@@ -422,3 +437,6 @@ collection; do not infer vitality from model or corpus size.
 42. [Jacaranda five-language open-source UlizaLlama announcement](https://jacarandahealth.org/jacaranda-launches-open-source-llm-in-five-african-languages/)
 43. [Jacaranda Health Swahili ASR model card](https://huggingface.co/Jacaranda-Health/ASR-STT)
 44. [Jacaranda Health Q2 2025 voice prototype impact report](https://jacarandahealth.org/ypoagriw/2025/08/Q2-2025-Impact-Report-13082025.pdf)
+45. [India BHASHINI national language-technology hub](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239132&lang=1&reg=1)
+46. [BHASHINI Kumbh Sah’AI’yak cultural-event deployment](https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157269&lang=1&reg=3)
+47. [BHASHINI–Indian Railways public-service integration pathway](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209737&lang=1&reg=1)
