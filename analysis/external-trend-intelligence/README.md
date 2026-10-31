@@ -78,6 +78,11 @@ The audit now also records URL and host overlap across observations, making
 possible restatement or shared-publisher dependence visible before anyone
 counts those observations as separate confirmation.
 
+[`external-evidence-gap-queue.json`](external-evidence-gap-queue.json) turns
+that audit into an explicit next-review queue. It currently contains ten held
+observation gaps, eight of them high priority because the pinned artifact does
+not expose source URLs or filing identities.
+
 The first broader candidate built from these lanes is documented in
 [`CARE-CAPACITY-CANDIDATE.md`](CARE-CAPACITY-CANDIDATE.md) and
 [`care-capacity-candidate.json`](care-capacity-candidate.json). It is a held

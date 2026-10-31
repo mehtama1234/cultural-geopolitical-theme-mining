@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "587b1ddd369179f40935bd1afebd446d1958f767",
-  "artifact_count": 21,
+  "source_tree_commit": "f95f2271bbc18682e43d2467fe04761724e232bb",
+  "artifact_count": 22,
   "artifacts": [
     {
       "path": "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -16,13 +16,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/README.md",
-      "bytes": 9411,
-      "sha256": "f00aad947d6365426ca6f450b7e72423462b06e57e44d08cd36753001d482bc7"
+      "bytes": 9691,
+      "sha256": "ba3171242ea17c43c5f138b2e6ac5e46cc35c1333646246e9045803b54738c76"
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
-      "bytes": 3905,
-      "sha256": "8e78c5f8a12d0dfe3d7d38929f2dfb43f21ae85f8acca1fdd19a5e30b1b681e9"
+      "bytes": 4028,
+      "sha256": "1affa39d225f1558b47772178e58624ffba1d2f292e8d3a0e3810ebb022dfe70"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -58,6 +58,11 @@
       "path": "analysis/external-trend-intelligence/external-family-lineage-review.json",
       "bytes": 14024,
       "sha256": "bc7211f3632b8557609e5a85f2cc569aaa687ba9f0437a1e0a37665e907d2aa5"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/external-evidence-gap-queue.json",
+      "bytes": 5556,
+      "sha256": "2a085e2e34b8fab52807fb43c26cdf64a576181db049251052ae3d4fb3d0ad99"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",
@@ -96,8 +101,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 19401,
-      "sha256": "bcda425b49a308b4e2c7e9caf71be00b681050ffbb25be0f9bae85c6b9acbe55"
+      "bytes": 20692,
+      "sha256": "dd5dabe788b027b6b0b7d484cdf56854e50dcb4abd9445676fef6d05cb641f1f"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",

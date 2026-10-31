@@ -207,6 +207,12 @@ def main() -> int:
         assert review["independence_status"] == "unverified"
         assert review["promotion_decision"] == "hold"
         assert review["remaining"]
+    gap_queue = json.loads((ANALYSIS / "external-evidence-gap-queue.json").read_text())
+    assert gap_queue["schema"] == "external-trend-intelligence.external-evidence-gap-queue.v1"
+    assert gap_queue["gap_count"] == len(gap_queue["gaps"]) == len(lineage_review["reviews"])
+    assert gap_queue["high_priority_count"] == 8
+    assert {gap["observation_id"] for gap in gap_queue["gaps"]} == family_observation_ids
+    assert all(gap["decision"] == "hold" and gap["missing_evidence"] for gap in gap_queue["gaps"])
     care_candidate = json.loads((ANALYSIS / "care-capacity-candidate.json").read_text())
     assert care_candidate["schema"] == "external-trend-intelligence.external-care-capacity-candidate.v1"
     assert care_candidate["status"] == "held_candidate"
@@ -229,7 +235,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 21
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 22
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:

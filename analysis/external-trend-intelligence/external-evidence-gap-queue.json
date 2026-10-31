@@ -1,0 +1,149 @@
+{
+  "schema": "external-trend-intelligence.external-evidence-gap-queue.v1",
+  "purpose": "Explicit next-review queue for external observations that cannot yet support independent trend promotion.",
+  "gap_count": 10,
+  "high_priority_count": 8,
+  "gaps": [
+    {
+      "observation_id": "annual-report-integrated-theme-map",
+      "family_id": "annual-report-research",
+      "title": "Annual-report integrated operating-pressure theme map",
+      "priority": "high",
+      "missing_evidence": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 0,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "ibis-cross-industry-business-forces",
+      "family_id": "ibis-industries",
+      "title": "IBIS cross-industry business forces",
+      "priority": "high",
+      "missing_evidence": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 0,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "ibis-cross-industry-discovery-findings",
+      "family_id": "ibis-industries",
+      "title": "IBIS baseline cross-industry discovery findings",
+      "priority": "high",
+      "missing_evidence": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 0,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "ibis-industry-record-corpus",
+      "family_id": "ibis-industries",
+      "title": "IBIS industry evidence corpus",
+      "priority": "high",
+      "missing_evidence": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 0,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "inc5000-opportunity-intelligence-screen",
+      "family_id": "inc5000-analysis",
+      "title": "Inc. 5000 opportunity screen",
+      "priority": "high",
+      "missing_evidence": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 0,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "inc5000-rebuild-public-input-inventory",
+      "family_id": "inc5000-analysis",
+      "title": "Inc. 5000 reproducibility input inventory",
+      "priority": "high",
+      "missing_evidence": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 0,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "social-integrated-trend-atlas",
+      "family_id": "social-research",
+      "title": "Integrated Social Trend Atlas Report",
+      "priority": "high",
+      "missing_evidence": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 0,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "trend-hunting-ai-deep-synthesis",
+      "family_id": "trend-hunting",
+      "title": "Trend-hunting AI deep-trend synthesis",
+      "priority": "high",
+      "missing_evidence": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 0,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "inc5000-creator-brand-commerce-source-linked-share",
+      "family_id": "inc5000-analysis",
+      "title": "Creator, brand, and commerce systems",
+      "priority": "medium",
+      "missing_evidence": [
+        "publisher and artifact identity review for each URL",
+        "check whether URLs repeat the same company claim or underlying source",
+        "independent population-level or outcome measure"
+      ],
+      "shared_url_count": 11,
+      "shared_host_count": 10,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "inc5000-health-longevity-demand-source-linked-share",
+      "family_id": "inc5000-analysis",
+      "title": "Health, care, and longevity demand",
+      "priority": "medium",
+      "missing_evidence": [
+        "publisher and artifact identity review for each URL",
+        "check whether URLs repeat the same company claim or underlying source",
+        "independent population-level or outcome measure"
+      ],
+      "shared_url_count": 11,
+      "shared_host_count": 10,
+      "decision": "hold"
+    }
+  ],
+  "boundary": "A gap queue identifies missing review work; it does not establish that an observation is false or that a candidate is ready for internal company testing."
+}
