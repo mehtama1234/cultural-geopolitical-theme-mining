@@ -104,6 +104,19 @@ The machine-readable source ledger is
 The broader queue is the
 [trend/subtheme discovery queue](US-BROAD-TREND-DISCOVERY-QUEUE_V1.md).
 
+## Sources
+
+The seven source records below are preserved in the companion
+[`ROTATION-C-SOURCE-LEDGER_2026-10-29.csv`](ROTATION-C-SOURCE-LEDGER_2026-10-29.csv):
+
+- NBER, [Firm data on AI](https://www.nber.org/papers/w34836)
+- NBER, [AI productivity and workforce evidence](https://www.nber.org/papers/w34984)
+- ILO, [Decent Work in the Platform Economy Convention 2026](https://wwwex.ilo.org/dyn/f?p=NORMLEXPUB%3A12100%3A0%3A%3ANO%3A%3AP12100_INSTRUMENT_ID%3A4496059)
+- U.S. GAO, [critical-minerals substitution and recycling](https://www.gao.gov/products/gao-26-108687)
+- U.S. GAO, [foreign investment in critical-mineral mines on federal lands](https://www.gao.gov/products/gao-27-108094)
+- World Bank, [from AI pilots to public-service scale](https://blogs.worldbank.org/en/developmenttalk/from-ai-pilots-to-scale--improving-the-delivery-of-public-servic)
+- ILO, [social dialogue for green and digital transitions](https://www.ilo.org/publications/institutionalizing-social-dialogue-green-and)
+
 ## Decision boundary
 
 This rotation identifies source-supported mechanisms and sharper next tests. It
