@@ -178,3 +178,17 @@ community chain through funding, representation, local decision power,
 resource/rights terms, repeated interaction, contestation or remedy,
 participant outcome and later institutional or diplomatic behavior, with a
 high-reach or non-participating comparator.
+
+## Digital product passports and circular-value comparator
+
+Digital product passports add a record-to-action test to the portfolio. Legal
+information duties and repair rights can improve traceability while leaving
+households without money or time, repairers without authenticated parts or
+software, and recyclers without timely usable data. They can also concentrate
+industrial data and shift waste or labor across borders without changing who
+captures value.
+
+The next acquisition is a same-product chain through ownership, fault, data
+access, diagnosis, parts/software, technician, cost, repair outcome, resale,
+recycling and destination, comparing manufacturer, independent and replacement
+routes and recording data control, worker conditions and local incidence.

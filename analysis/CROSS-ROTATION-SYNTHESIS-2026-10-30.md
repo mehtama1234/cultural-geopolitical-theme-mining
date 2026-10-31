@@ -406,6 +406,23 @@ resource and rights terms, repeated interaction, conflict/repair, participant
 outcomes and later institutional or diplomatic behavior, with a high-reach or
 non-participating comparator.
 
+## Digital product passports, repair rights and circular value — 2026-10-30
+
+The new [digital-product-passport and repair packet](ROTATION-LZ-DIGITAL-PRODUCT-PASSPORTS-REPAIR-CIRCULAR-VALUE-2026-10-30.md)
+adds a circular-economy and industrial-data lane. EU ecodesign and repair
+instruments close legal, information and service-design stages, but not whether
+a named household, technician, recycler or small firm can access reliable data,
+obtain affordable repair, preserve safety and warranty, retain local value or
+avoid displaced waste and labor burdens.
+
+The key conversion is from record to action. A passport becomes socially and
+geographically meaningful only when it changes a purchase, diagnosis, repair,
+resale or recovery decision and the responsible actor can correct the record.
+The next acquisition should follow one product configuration through ownership,
+fault, repair search, parts/software access, technician encounter, cost,
+outcome, resale, recycling and geographic destination, comparing manufacturer,
+independent and replacement routes.
+
 ## Strongest open conversion lanes
 
 1. **Facility-to-household incidence:** AI/data-centre, transmission, water,
