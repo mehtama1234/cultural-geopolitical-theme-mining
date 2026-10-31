@@ -92,6 +92,15 @@ This qualified trend translates disability, time, appointment, transportation,
 and caregiving evidence into customer-access, workforce, product, operational,
 institutional, and service-continuity exposure.
 
+### Care time and work capacity
+
+[Care time and work capacity trend record](company-trend-time-care-work-capacity-2026-009.md)
+
+This qualified trend translates official time-use and eldercare evidence into
+workforce, benefits, service, customer-access, scheduling, and retention
+exposure. Its open test is a permissioned workflow record linking care load and
+schedule flexibility to completed tasks and recovery.
+
 ## Record contract
 
 - [Company trend-intelligence goal](../../COMPANY_TREND_INTELLIGENCE_GOAL_V1.md)
@@ -101,15 +110,13 @@ institutional, and service-continuity exposure.
 
 ## Next record queue
 
-The initial eight-record set is now in place. The next records should extend
+The initial nine-record set is now in place. The next records should extend
 coverage into underrepresented parts of the 14-theme program while preserving
 the same company decision contract:
 
-1. **Time, care, and social reproduction:** where care coordination and
-   household time alter workforce, customer, and service decisions.
-2. **Housing, place, mobility, and insurance:** where location and physical
+1. **Housing, place, mobility, and insurance:** where location and physical
    dependency change operating continuity, labor access, and demand.
-3. **Firm, market, and ownership concentration:** where control over data,
+2. **Firm, market, and ownership concentration:** where control over data,
    platforms, suppliers, or capital changes alternatives and bargaining power.
 
 Each new record should use the same schema, include now/next/longer-term

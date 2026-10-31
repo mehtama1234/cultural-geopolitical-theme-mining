@@ -22,7 +22,7 @@ financial, institutional, and geopolitical atlas.
 
 ## Current record set
 
-There are eight qualified trend records:
+There are nine qualified trend records:
 
 1. AI and workplace control.
 2. Consumer recourse and practical exit.
@@ -32,6 +32,7 @@ There are eight qualified trend records:
 6. Household financial pressure and navigation work.
 7. Conditional legitimacy: material pressure becomes political meaning through attribution and practical room.
 8. Health access and care burden create operating constraints before continuity is visible.
+9. Care time competes with work capacity before absence is visible.
 
 These are not universal forecasts or company rankings. They are evidence-backed
 trend candidates with explicit business exposure, confidence, time horizon,

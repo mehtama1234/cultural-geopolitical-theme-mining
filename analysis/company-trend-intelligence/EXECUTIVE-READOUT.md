@@ -2,14 +2,14 @@
 
 ## What the portfolio says now
 
-Across eight evidence-backed records, the repeated pattern is:
+Across nine evidence-backed records, the repeated pattern is:
 
 > Companies can create capability, formal access, or institutional output faster
 > than they can prove usable benefit, shared control, trust, or durable value.
 
 This is a cross-domain lens, not a claim that every trend has one cause.
 
-## Eight findings in plain language
+## Nine findings in plain language
 
 | Area | What appears to be changing | Immediate company question |
 |---|---|---|
@@ -21,6 +21,7 @@ This is a cross-domain lens, not a claim that every trend has one cause.
 | Household finance | Financial pressure can increase search and substitution before visible demand collapse | Is more navigation creating choice, or exposing constrained households to more effort? |
 | Conditional legitimacy | Material pressure becomes political meaning through attribution, identity, and practical room | Does explanation, voice, remedy, and visible benefit sustain acceptance? |
 | Health access and care burden | Disability, time, transport, and caregiving barriers can block needed care or work tasks before visible failure | Which access or accommodation intervention improves completed tasks without shifting burden? |
+| Care time and work capacity | Childcare and eldercare consume measurable time before absence, churn, or service failure is visible | Where can flexibility, scheduling, and service design improve completion without shifting care burden? |
 
 ## What to do now
 

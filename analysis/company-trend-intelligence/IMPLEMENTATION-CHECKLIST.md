@@ -14,7 +14,7 @@ column; it does not mean company-specific impact has been proven.
 | 14-theme scope control | Markdown, JSON, and CSV coverage matrix | Validator checks exactly 14 themes and matching JSON/CSV numbers |
 | Visual frontend | JSON-backed board with domain, confidence, horizon, and 14-theme charts | Local HTTP smoke test loads the board and portfolio |
 | Management operating rhythm | Decision playbook with weekly, monthly, quarterly actions and ownership | Playbook defines action, evidence, ownership, and review boundaries |
-| Future work discipline | Next-record queue for health/care, time/care, and concentration themes | Queue defines evidence required before promotion |
+| Future work discipline | Next-record queue for company-specific care outcomes and concentration themes | Queue defines evidence required before promotion |
 
 ## What is still open
 

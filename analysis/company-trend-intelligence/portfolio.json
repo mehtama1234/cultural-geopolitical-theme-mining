@@ -106,11 +106,24 @@
       "domains": ["health", "disability", "care", "workforce", "customer_access", "public_systems"],
       "decision_owners": ["people", "customer_access", "operations", "benefits", "safety", "service"],
       "open_test": "Permissioned workflow record from access or accommodation request through completed task, burden, correction, and repeat use"
+    },
+    {
+      "trend_id": "company-trend-2026-009",
+      "title": "Care time competes with work capacity before absence is visible",
+      "summary": "Childcare and eldercare consume measurable time, creating uneven capacity for work, service use, and household recovery before absence or churn appears.",
+      "path": "company-trend-time-care-work-capacity-2026-009.md",
+      "source_packets": ["../projects/cross-domain/us-time-care-work-capacity-2026-10-31.md"],
+      "status": "qualified_trend",
+      "confidence": "medium",
+      "horizon": ["now", "next", "longer_term"],
+      "domains": ["time_and_care", "workforce", "household", "health", "customer_access"],
+      "decision_owners": ["people", "operations", "benefits", "customer_access", "service", "strategy"],
+      "open_test": "Permissioned workflow record linking care load and schedule flexibility to completed work or service tasks, burden, recovery, and retention"
     }
   ],
   "theme_coverage": [
     {"number": 1, "theme": "household room, prices, debt, and financial security", "coverage": "deep", "record_ids": ["company-trend-2026-006", "company-trend-2026-002"]},
-    {"number": 2, "theme": "time, care, family life, and social reproduction", "coverage": "lens", "record_ids": ["company-trend-2026-006", "company-trend-2026-008"]},
+    {"number": 2, "theme": "time, care, family life, and social reproduction", "coverage": "deep", "record_ids": ["company-trend-2026-006", "company-trend-2026-008", "company-trend-2026-009"]},
     {"number": 3, "theme": "consumer power, recourse, and service dependence", "coverage": "deep", "record_ids": ["company-trend-2026-002"]},
     {"number": 4, "theme": "platforms, data, attention, and digital agency", "coverage": "lens", "record_ids": ["company-trend-2026-001", "company-trend-2026-002"]},
     {"number": 5, "theme": "work, control, bargaining, and labour-market change", "coverage": "deep", "record_ids": ["company-trend-2026-001"]},
