@@ -449,6 +449,9 @@
         evidence.rows.forEach(row => el('rights-evidence').append(card(row.family_id, row.evidence_status, row.observed_files.length ? row.observed_files.map(file => file.path).join(' · ') : 'No local terms file found; upstream terms still require review.')));
       });
       el('independent-comparison').append(independentComparisonCard(independentComparison));
+      fetch('room-independent-comparison.json').then(r => r.json()).then(room => {
+        el('independent-comparison').append(card('Household-room comparison', room.status, room.source_families.join(' vs. ') + ' · ' + room.blocking_items.join(' · ')));
+      });
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
       const controls = new Map(sourceControls.families.map(item => [item.family_id, item]));
       const sourceFamilies = el('source-families'); sourceRegistry.source_families.forEach(family => {

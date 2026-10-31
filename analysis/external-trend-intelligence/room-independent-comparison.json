@@ -1,0 +1,95 @@
+{
+  "schema": "external-trend-intelligence.room-independent-comparison.v1",
+  "candidate_id": "candidate-time-financial-pressure-practical-room",
+  "status": "mechanism_comparison_only",
+  "source_families": [
+    "Australian Bureau of Statistics General Social Survey",
+    "ANZ / Roy Morgan"
+  ],
+  "records": [
+    {
+      "publisher": "Australian Bureau of Statistics",
+      "record_id": "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection",
+      "geography": "Australia; people aged 15 years and over for cultural participation and people aged 18 years and over for social experiences, with all-household financial-stress measures",
+      "measures": {
+        "cash_flow_problem_2020": {
+          "value": 20.7,
+          "unit": "percent of households reporting at least one cash-flow problem in the previous 12 months",
+          "value_type": "reported_survey_share"
+        },
+        "cash_flow_problem_2025": {
+          "value": 25.3,
+          "unit": "percent of households reporting at least one cash-flow problem in the previous 12 months",
+          "value_type": "reported_survey_share"
+        },
+        "dissaving_2020": {
+          "value": 22.9,
+          "unit": "percent of households reporting at least one dissaving action in the previous 12 months",
+          "value_type": "reported_survey_share"
+        },
+        "dissaving_2025": {
+          "value": 25.7,
+          "unit": "percent of households reporting at least one dissaving action in the previous 12 months",
+          "value_type": "reported_survey_share"
+        },
+        "outside_household_weekly_contact_2020": {
+          "value": 41.3,
+          "unit": "percent of adults with weekly face-to-face contact with family or friends outside the household in the previous three months",
+          "value_type": "reported_survey_share"
+        },
+        "outside_household_weekly_contact_2025": {
+          "value": 52.2,
+          "unit": "percent of adults with weekly face-to-face contact with family or friends outside the household in the previous three months",
+          "value_type": "reported_survey_share"
+        }
+      }
+    },
+    {
+      "publisher": "ANZ / Roy Morgan",
+      "record_id": "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook",
+      "geography": "Australia; weekly national consumer-confidence survey, with state-level movement reported",
+      "measures": {
+        "confidence_index": {
+          "value": 70.5,
+          "unit": "consumer-confidence index points",
+          "value_type": "reported_index"
+        },
+        "better_off_now": {
+          "value": 17,
+          "unit": "percent saying their family is better off financially than a year ago, down 2 percentage points",
+          "value_type": "reported_share"
+        },
+        "worse_off_now": {
+          "value": 50,
+          "unit": "percent saying their family is worse off financially than a year ago",
+          "value_type": "reported_share"
+        },
+        "buying_intention": {
+          "value": "16% said it was a good time to buy major household items, while 44% said it was a bad time",
+          "unit": "reported purchase-timing shares",
+          "value_type": "reported_share"
+        }
+      }
+    }
+  ],
+  "supports": [
+    "independent mechanism challenge",
+    "counter-signal design",
+    "future compatible-source selection"
+  ],
+  "does_not_support": [
+    "pooled prevalence",
+    "common-unit effect estimate",
+    "temporal backtest across publishers",
+    "causal effect",
+    "company exposure"
+  ],
+  "blocking_items": [
+    "ABS measures are 2020-to-2025 repeated cross-sections while ANZ/Roy Morgan is a weekly 2026 release",
+    "household financial-stress, adult social-contact, and confidence-index denominators differ",
+    "no common holdout period or outcome definition",
+    "publisher methods and sampling frames differ"
+  ],
+  "next_action": "Acquire an independent repeated household-finance or purchase-behavior series with a compatible population and period before promoting the candidate.",
+  "boundary": "Independent publishers can challenge the household-room mechanism without making unlike measures numerically comparable."
+}

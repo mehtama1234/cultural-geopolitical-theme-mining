@@ -297,7 +297,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 51
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 52
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -414,6 +414,10 @@ def main() -> int:
     assert rights_evidence["schema"] == "external-trend-intelligence.rights-evidence-register.v1"
     assert rights_evidence["family_count"] == 8
     assert all(row["rights_status"] == "not_verified" for row in rights_evidence["rows"])
+    room_comparison = json.loads((ANALYSIS / "room-independent-comparison.json").read_text())
+    assert room_comparison["schema"] == "external-trend-intelligence.room-independent-comparison.v1"
+    assert room_comparison["status"] == "mechanism_comparison_only"
+    assert room_comparison["source_families"] == ["Australian Bureau of Statistics General Social Survey", "ANZ / Roy Morgan"]
     care_subset = json.loads((ANALYSIS / "care-capacity-comparable-subset.json").read_text())
     assert care_subset["schema"] == "external-trend-intelligence.care-capacity-comparable-subset.v1"
     assert care_subset["candidate_id"] == care_candidate["candidate_id"]
