@@ -18,6 +18,7 @@ ARTIFACTS = [
     "EXTERNAL_SOURCE_REGISTRY.md",
     "analysis/external-trend-intelligence/README.md",
     "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
+    "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
     "analysis/external-trend-intelligence/refresh-schedule.json",
     "analysis/external-trend-intelligence/source-family-registry.json",
     "analysis/external-trend-intelligence/observation-manifest.json",

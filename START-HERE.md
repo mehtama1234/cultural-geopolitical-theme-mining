@@ -17,6 +17,8 @@ show what is being tested without treating thematic similarity as a company join
 The [lineage review](analysis/external-trend-intelligence/external-family-lineage-review.json)
 and [evidence review queue](analysis/external-trend-intelligence/external-evidence-gap-queue.json)
 show which source overlaps and missing source identities still block promotion.
+The [next-actions handoff](analysis/external-trend-intelligence/NEXT-ACTIONS.md)
+names the one remaining high-priority review and the exact rebuild commands.
 
 ## Company trend-intelligence goal
 

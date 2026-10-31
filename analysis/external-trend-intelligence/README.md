@@ -217,3 +217,6 @@ event triggers for each external source family. A refresh always reruns
 normalization, lineage review, comparison challenge, promotion gates, and
 release validation; the schedule does not imply source independence or
 continuous availability.
+
+[`NEXT-ACTIONS.md`](NEXT-ACTIONS.md) is the current handoff for the remaining
+claim-level lineage and outcome work.

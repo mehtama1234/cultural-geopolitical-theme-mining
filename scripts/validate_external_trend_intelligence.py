@@ -46,10 +46,13 @@ def main() -> int:
     assert "CARE-CAPACITY-CANDIDATE.md" in candidates
     assert "adaptation-control-candidate.json" in candidates
     runbook = (ANALYSIS / "REFRESH-RUNBOOK.md").read_text()
+    next_actions = (ANALYSIS / "NEXT-ACTIONS.md").read_text()
     assert "build_external_repository_family_snapshot.py" in runbook
     assert "build_external_family_observations.py" in runbook
     assert "validate_external_trend_intelligence.py" in runbook
     assert "No internal company join" in runbook
+    assert "IBIS discovery findings" in next_actions
+    assert "build_external_evidence_gap_queue.py" in next_actions
     refresh_schedule = json.loads((ANALYSIS / "refresh-schedule.json").read_text())
     assert refresh_schedule["schema"] == "external-trend-intelligence.refresh-schedule.v1"
     assert len(refresh_schedule["families"]) == 8
@@ -277,7 +280,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 22
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 23
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
