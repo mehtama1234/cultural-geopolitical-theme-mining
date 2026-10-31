@@ -26,6 +26,7 @@
     .candidates { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; }
     .comparisons { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
     .observations { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-top:16px; }
+    .held-candidates { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:16px; margin-top:16px; }
     article { display:flex; flex-direction:column; gap:8px; }
     article h3 { margin:0; font-size:1.05rem; line-height:1.25; }
     .pill { display:inline-block; width:max-content; border-radius:999px; padding:3px 9px; background:var(--soft); color:var(--accent); font-size:.75rem; font-weight:750; text-transform:uppercase; }
@@ -54,6 +55,7 @@
       <div class="stat"><strong id="source-count">—</strong><span>registered external sources</span></div>
       <div class="stat"><strong id="intake-count">—</strong><span>held intake comparisons</span></div>
       <div class="stat"><strong id="family-observation-count">—</strong><span>new family observations</span></div>
+      <div class="stat"><strong id="held-candidate-count">—</strong><span>held candidates</span></div>
     </section>
     <section class="charts" aria-label="External evidence coverage">
       <div class="panel"><h2>Theme coverage</h2><div id="theme-chart"></div></div>
@@ -74,6 +76,11 @@
       <h2>New external-family intake</h2>
       <p class="muted">These comparisons connect the pinned Inc. 5000 and annual-report artifacts to broader themes. “Held — no join” means the relationship needs compatible denominators, periods, geography, and independent evidence.</p>
       <div class="comparisons" id="family-comparisons"></div>
+    </section>
+    <section style="margin-top:28px">
+      <h2>Held candidates</h2>
+      <p class="muted">Held candidates are promising cross-source explanations that still need comparable units, populations, periods, and independent outcomes.</p>
+      <div class="held-candidates" id="held-candidates"></div>
     </section>
     <footer>Serve this directory over HTTP to load the JSON manifests. Source records remain authoritative; this board is a reader.</footer>
   </main>
@@ -121,13 +128,23 @@
       const boundary = document.createElement('p'); boundary.innerHTML = `<strong>Boundary:</strong> ${observation.boundary}`;
       article.append(pill, title, value, source, boundary); return article;
     }
+    function heldCandidateCard(candidate) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = candidate.status.replaceAll('_', ' ');
+      const title = document.createElement('h3'); title.textContent = candidate.title;
+      const mechanism = document.createElement('p'); mechanism.innerHTML = `<strong>Mechanism:</strong> ${candidate.mechanism}`;
+      const counter = document.createElement('p'); counter.innerHTML = `<strong>Counter-signal:</strong> ${candidate.counter_signal}`;
+      const next = document.createElement('p'); next.innerHTML = `<strong>Promotion test:</strong> ${candidate.next_test}`;
+      article.append(pill, title, mechanism, counter, next); return article;
+    }
     Promise.all([
       fetch('observation-manifest.json').then(r => r.json()),
       fetch('candidate-comparisons.json').then(r => r.json()),
       fetch('source-registry-snapshot.json').then(r => r.json()),
       fetch('external-family-comparisons.json').then(r => r.json()),
       fetch('external-family-observations.json').then(r => r.json()),
-    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations]) => {
+      fetch('care-capacity-candidate.json').then(r => r.json()),
+    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidate]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -135,6 +152,7 @@
       el('source-count').textContent = sourceRegistry.source_count.toLocaleString();
       el('intake-count').textContent = familyComparisons.comparisons.length;
       el('family-observation-count').textContent = familyObservations.observation_count;
+      el('held-candidate-count').textContent = 1;
       barChart(el('theme-chart'), Object.entries(manifest.program_theme_counts).sort((a,b) => b[1]-a[1]), manifest.record_count);
       barChart(el('host-chart'), Object.entries(manifest.source_host_counts).slice(0, 16), manifest.record_count);
       const sourceTypes = {};
@@ -143,6 +161,7 @@
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
       const familyCards = el('family-comparisons'); familyComparisons.comparisons.forEach(item => familyCards.append(familyComparisonCard(item)));
       const observationCards = el('family-observations'); familyObservations.observations.forEach(item => observationCards.append(familyObservationCard(item)));
+      el('held-candidates').append(heldCandidateCard(heldCandidate));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
   </script>
 </body>
