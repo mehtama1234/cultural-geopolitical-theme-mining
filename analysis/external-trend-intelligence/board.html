@@ -69,6 +69,7 @@
       <div class="stat"><strong id="refresh-ready-count">—</strong><span>families ready for review</span></div>
       <div class="stat"><strong id="refresh-incomplete-count">—</strong><span>incomplete refreshes</span></div>
       <div class="stat"><strong id="contract-gap-count">—</strong><span>evidence contract gaps</span></div>
+      <div class="stat"><strong id="backtest-ready-count">—</strong><span>backtests ready for comparability review</span></div>
       <div class="stat"><strong id="backtest-blocked-count">—</strong><span>backtests blocked by missing records</span></div>
     </section>
     <section class="charts" aria-label="External evidence coverage">
@@ -329,6 +330,7 @@
       el('refresh-incomplete-count').textContent = refreshStatus.incomplete_count;
       el('contract-gap-count').textContent = contractAudit.contract_gap_count;
       el('backtest-blocked-count').textContent = backtestReadiness.blocked_missing_local_record_count;
+      el('backtest-ready-count').textContent = backtestReadiness.ready_for_design_review_count;
       el('release-commit').textContent = `source ${release.source_tree_commit.slice(0, 12)}`;
       barChart(el('theme-chart'), Object.entries(manifest.program_theme_counts).sort((a,b) => b[1]-a[1]), manifest.record_count);
       barChart(el('host-chart'), Object.entries(manifest.source_host_counts).slice(0, 16), manifest.record_count);

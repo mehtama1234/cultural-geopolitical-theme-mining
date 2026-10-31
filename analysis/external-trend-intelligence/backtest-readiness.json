@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.backtest-readiness.v1",
   "candidate_count": 4,
-  "ready_for_design_review_count": 0,
-  "blocked_missing_local_record_count": 4,
+  "ready_for_design_review_count": 4,
+  "blocked_missing_local_record_count": 0,
   "rows": [
     {
       "candidate_id": "candidate-formal-response-before-recovery",
@@ -17,9 +17,11 @@
         "analysis/records/comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust.json",
         "analysis/records/bsa43-nhs-waiting-legitimacy-2026.json"
       ],
+      "snapshot_record_count": 7,
+      "missing_snapshot_record_ids": [],
       "source_url_count": 20,
-      "status": "blocked_missing_local_record",
-      "boundary": "Source URLs in the manifest do not substitute for the missing local record; no backtest result is inferred."
+      "status": "records_available_comparability_review",
+      "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
     },
     {
       "candidate_id": "candidate-time-financial-pressure-practical-room",
@@ -34,9 +36,11 @@
         "analysis/records/comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook.json",
         "analysis/records/comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging.json"
       ],
+      "snapshot_record_count": 7,
+      "missing_snapshot_record_ids": [],
       "source_url_count": 25,
-      "status": "blocked_missing_local_record",
-      "boundary": "Source URLs in the manifest do not substitute for the missing local record; no backtest result is inferred."
+      "status": "records_available_comparability_review",
+      "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
     },
     {
       "candidate_id": "candidate-digital-capability-control-trust",
@@ -51,9 +55,11 @@
         "analysis/records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json",
         "analysis/records/comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight.json"
       ],
+      "snapshot_record_count": 7,
+      "missing_snapshot_record_ids": [],
       "source_url_count": 19,
-      "status": "blocked_missing_local_record",
-      "boundary": "Source URLs in the manifest do not substitute for the missing local record; no backtest result is inferred."
+      "status": "records_available_comparability_review",
+      "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
     },
     {
       "candidate_id": "candidate-infrastructure-dependency-power",
@@ -68,10 +74,12 @@
         "analysis/records/comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security.json",
         "analysis/records/comparative-world-bank-cloud-procurement-public-capability-lockin-2026.json"
       ],
+      "snapshot_record_count": 7,
+      "missing_snapshot_record_ids": [],
       "source_url_count": 26,
-      "status": "blocked_missing_local_record",
-      "boundary": "Source URLs in the manifest do not substitute for the missing local record; no backtest result is inferred."
+      "status": "records_available_comparability_review",
+      "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
     }
   ],
-  "next_action": "Acquire or repin the missing source-backed record artifacts before attempting a temporal backtest; preserve source identity and rights during acquisition."
+  "next_action": "Review pinned records for compatible units, periods, populations, outcomes, and independent lineage before attempting a temporal backtest."
 }
