@@ -51,6 +51,7 @@ def main() -> int:
                 stderr=subprocess.DEVNULL,
             )
             assert check.returncode == 0, f"untracked or missing source packet: {repo_path}"
+            assert repo_path.name in text, f"source packet not linked in record: {repo_path}"
         for heading in ("## Source packet", "## Evidence", "## Mechanism", "## Business exposure", "## Leading indicators", "## Counterevidence and limits", "## Next test"):
             assert heading in text, f"{path}: missing {heading}"
 
