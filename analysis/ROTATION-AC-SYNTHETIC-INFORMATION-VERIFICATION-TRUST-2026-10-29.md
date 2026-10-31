@@ -172,3 +172,9 @@ intermediary, user verification step, action, correction and recovery. Pair
 platform telemetry or browsing data with consented interviews and a named
 community setting so the atlas can distinguish reach from belief and belief from
 consequence.
+
+## Sources
+
+- NIST, [Reducing risks posed by synthetic content](https://www.nist.gov/publications/reducing-risks-posed-synthetic-content-overview-technical-approaches-digital-content): provenance, detection and technical-risk context.
+- Pew Research Center, [AI and its impact](https://www.pewresearch.org/wp-content/uploads/sites/20/2025/09/PS_2025.9.15_AI-and-its-impact_report.pdf) and [AI summaries in search](https://www.pewresearch.org/short-reads/2025/10/01/americans-have-mixed-feelings-about-ai-summaries-in-search-results/): public perception and information-use context.
+- Federal Trade Commission, [Imposter-scam loss data](https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025): reported-loss signal, not a causal estimate of synthetic-media harm.

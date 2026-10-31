@@ -173,3 +173,10 @@ implementing bank, correspondent, supplier, customs event, shipment movement,
 local authority interaction, delivery date, beneficiary receipt and delay/cost
 reason. Record whether each obstacle is legal, compliance, commercial,
 logistical, political or security-related.
+
+## Sources
+
+- U.S. Treasury OFAC, [Humanitarian-related FAQ 1106](https://ofac.treasury.gov/faqs/1106): authorization and humanitarian-channel context.
+- UN Security Council, [Humanitarian exemption requests](https://main.un.org/securitycouncil/en/sanctions/1718/exemptions-measures/humanitarian-exemption-requests): exemption and implementation context.
+- U.S. Government Accountability Office, [Foreign-assistance oversight](https://files.gao.gov/reports/GAO-26-108945/index.html): delivery, management and control-risk context.
+- United Nations Digital Library, [humanitarian access and sanctions materials](https://digitallibrary.un.org/record/4051016/files/A_79_78--E_2024_53-EN.pdf): civilian-impact and operational-friction context.

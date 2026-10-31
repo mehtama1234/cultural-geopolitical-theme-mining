@@ -9,11 +9,11 @@ quality and substantive evidence closure.
 | Check | Result | Meaning |
 |---|---:|---|
 | Rotation Markdown packets scanned | 327 | Current packet population only; synthesis and audit files excluded. |
-| HTTP/HTTPS URL occurrences | 2,494 | Literal links found in packet text. |
+| HTTP/HTTPS URL occurrences | 2,518 | Literal links found in packet text. |
 | Unique URL values | 2,277 | Repeated official sources are common across related packets. |
-| URL values repeated at least twice | 189 | Duplication is not itself an error; it can show shared evidence or source concentration. |
+| URL values repeated at least twice | 210 | Duplication is not itself an error; it can show shared evidence or source concentration. |
 | Packets with no literal URL | 0 | All current rotation packets have at least one URL; this is only a structural result. |
-| Packets without a literal `## Sources` heading | 89 | A heading is a discoverability check, not proof that sources are absent. |
+| Packets without a literal `## Sources` heading | 84 | A heading is a discoverability check, not proof that sources are absent. |
 
 ## Priority provenance-repair queue
 

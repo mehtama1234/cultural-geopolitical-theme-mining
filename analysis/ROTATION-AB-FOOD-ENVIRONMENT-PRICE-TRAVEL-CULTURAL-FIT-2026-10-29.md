@@ -135,3 +135,9 @@ Construct a place-by-household bridge using FoodAPS variables, the ERS food
 environment/access layers, BLS food-price categories, transit/vehicle access
 and repeated food-security observations. Add fields for culturally acceptable
 choice, substitute source, time cost and trip failure—not just store distance.
+
+## Sources
+
+- USDA ERS, [Food Environment Atlas](https://ers.usda.gov/data-products/food-environment-atlas), [Food Access Research Atlas](https://ers.usda.gov/data-products/food-access-research-atlas) and [FoodAPS](https://www.ers.usda.gov/data-products/foodaps-national-household-food-acquisition-and-purchase-survey): place, price and household acquisition measures.
+- U.S. Bureau of Labor Statistics, [Consumer Price Index 2025 in review](https://www.bls.gov/opub/ted/2026/consumer-price-index-2025-in-review.htm): national price context and limits.
+- USDA Agricultural Marketing Service, [Local sourcing and independent groceries](https://www.ams.usda.gov/services/local-regional/research-publications/resources/local-sourcing-innovation-independent-and-locally-owned-groceries): local-retail and culturally relevant supply context.

@@ -83,6 +83,12 @@ price-sensitive acquisition. It does not close the same-household chain:
 Retailer presence and benefit redemption remain upstream unless the household’s
 actual acquisition, substitutions, burden and later security are observed.
 
+## Sources
+
+- USDA ERS, [Food Access Research Atlas](https://ers.usda.gov/data-products/food-access-research-atlas), [food-access report](https://ers.usda.gov/publications/113622) and [food-purchase evidence](https://www.ers.usda.gov/amber-waves/2015/january-february/prices-play-greater-role-than-access-in-food-purchase-decisions-for-snap-households): access, price and household food-acquisition context.
+- USDA FNS, [WIC evidence and evaluation](https://www.fns.usda.gov/research/wic/eer/2023) and [SNAP online purchasing](https://ers.usda.gov/amber-waves/2024/april/snap-online-purchasing-pilot-reduced-food-insufficiency-among-low-income-households-during-early-pandemic): benefit-use and access-route context.
+- USDA/NIFA, [Food on the Move project account](https://training-portal.nifa.usda.gov/web/crisprojectpages/1024568-increasing-fruit-and-vegetable-consumption-and-improving-health-status-with-food-on-the-move.html): bounded program case.
+
 ## Cultural and geographical interpretation
 
 Food access is lived through the route between a household and a usable food source: time, vehicle or transit, store choice, price, identity and trust, child-care constraints, disability access, language, refrigeration and the ability to return. A national participation rate can therefore coexist with very different meanings in a rural county, a transit-poor suburb, a dense neighborhood with high prices, or a Tribal and culturally specific food system.

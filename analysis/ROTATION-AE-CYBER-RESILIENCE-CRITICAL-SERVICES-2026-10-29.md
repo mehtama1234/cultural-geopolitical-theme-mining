@@ -169,3 +169,10 @@ Create a service-level ledger for one critical sector with fields for asset,
 vulnerability, disclosure, KEV date, patch/configuration, detection, downtime,
 manual workaround, restoration, affected users, cost, repeat event and public
 attribution. Compare operators with and without a documented remediation path.
+
+## Sources
+
+- CISA, [Lessons learned from incident-response engagements](https://www.cisa.gov/sites/default/files/2025-09/AA25-266A_advisory_cisa_shares_lessons_learned_from_ir_engagement.pdf): incident-response and resilience context.
+- FBI, [Internet Crime Report 2025](https://www.fbi.gov/file-repository/2025_ic3report.pdf): reported cybercrime and loss signals, not a complete harm census.
+- U.S. Government Accountability Office, [Cybersecurity oversight](https://www.gao.gov/products/gao-24-107733) and [critical-service risk](https://files.gao.gov/reports/GAO-25-108138/index.html): governance, exposure and continuity context.
+- CISA, [law-enforcement cyber incident reporting](https://www.cisa.gov/sites/default/files/publications/Law%20Enforcement%20Cyber%20Incident%20Reporting_3.pdf): reporting and measurement boundary.
