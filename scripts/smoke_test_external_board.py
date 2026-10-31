@@ -63,6 +63,8 @@ def main() -> int:
                             "ibis-adult-day-outcome-review.json",
                             "Registered external datasets and publishers",
                             "source-registry-snapshot.json",
+                            "Backtest evidence readiness",
+                            "pinned_git_record_path_count",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:

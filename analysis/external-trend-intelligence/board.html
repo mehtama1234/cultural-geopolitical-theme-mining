@@ -92,6 +92,11 @@
       <div class="promotion-gates" id="qualification-matrix"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Backtest evidence readiness</h2>
+      <p class="muted">Pinned Git records remain reviewable even when sparse checkout excludes their files from the working tree. This status says evidence is available for design review; it does not mean units or outcomes are harmonized.</p>
+      <div class="promotion-gates" id="backtest-readiness"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Normalized external-family observations</h2>
       <p class="muted">These values come from pinned Inc. 5000 and annual-report artifacts. Their evidence status and boundaries travel with the value.</p>
       <div class="observations" id="family-observations"></div>
@@ -419,6 +424,15 @@
       const boundary = document.createElement('p'); boundary.textContent = source.license_note;
       article.append(pill, title, id, role, link, boundary); return article;
     }
+    function backtestReadinessCard(row) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = row.status.replaceAll('_', ' ');
+      const title = document.createElement('h3'); title.textContent = row.candidate_id.replaceAll('-', ' ');
+      const availability = document.createElement('p'); availability.innerHTML = `<strong>Evidence:</strong> ${row.pinned_git_record_path_count}/${row.evidence_record_count} pinned Git records · ${row.local_record_path_count} in working tree · ${row.sparse_checkout_excluded_path_count} sparse-excluded`;
+      const sources = document.createElement('p'); sources.innerHTML = `<strong>Source URLs:</strong> ${row.source_url_count}; snapshot records: ${row.snapshot_record_count}`;
+      const boundary = document.createElement('p'); boundary.textContent = row.boundary;
+      article.append(pill, title, availability, sources, boundary); return article;
+    }
     function refreshStatusCard(family) {
       const article = document.createElement('article');
       const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = family.status.replaceAll('_', ' ');
@@ -524,6 +538,7 @@
       barChart(el('source-type-chart'), Object.entries(sourceTypes).sort((a,b) => b[1]-a[1]).slice(0, 16), sourceRegistry.source_count);
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
       const qualificationCards = el('qualification-matrix'); qualificationMatrix.rows.forEach(row => qualificationCards.append(qualificationCard(row)));
+      const backtestCards = el('backtest-readiness'); backtestReadiness.rows.forEach(row => backtestCards.append(backtestReadinessCard(row)));
       const familyCards = el('family-comparisons'); familyComparisons.comparisons.forEach(item => familyCards.append(familyComparisonCard(item)));
       const observationCards = el('family-observations'); familyObservations.observations.forEach(item => observationCards.append(familyObservationCard(item)));
       const heldCards = el('held-candidates'); heldCandidates.candidates.forEach(item => heldCards.append(heldCandidateCard(item)));
