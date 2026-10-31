@@ -82,6 +82,11 @@ Each executive briefing should fit on one page before linking to the evidence:
 8. **Limit:** what remains unproven.
 9. **Next test:** the smallest evidence that could change the decision.
 
+For company-specific work, use the [company trend exposure assessment
+template](COMPANY-ASSESSMENT-TEMPLATE.md) to add the company’s own products,
+customers, dependencies, and operating data without rewriting the general trend
+record.
+
 ## Red flags
 
 Pause promotion or escalation when:
