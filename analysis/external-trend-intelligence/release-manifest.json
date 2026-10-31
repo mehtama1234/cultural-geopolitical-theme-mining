@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "fabada013e8732ed38fe5562652437be118ea1e2",
-  "artifact_count": 56,
+  "source_tree_commit": "6ceef2e406cb386851a4f4ced79a99e906c3c159",
+  "artifact_count": 57,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -161,8 +161,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5235,
-      "sha256": "0ac49979f4228ca241b3ad44308df6fcbcd8bf9e9c31b50cf0922aa760998063"
+      "bytes": 5243,
+      "sha256": "ecdcc5677a01371f01256b8ebf0d0ef65c746b8e5794aa8a4c33aa0a5c8367fd"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -213,6 +213,11 @@
       "path": "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",
       "bytes": 802877,
       "sha256": "0e0969d8b9b76f86b2652c3ebdca88b490e7032872c16b2d02b454aa75fdc3ee"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/ibis-claim-source-review.json",
+      "bytes": 11765,
+      "sha256": "74693da0899a6c8f53acd30f7337d89453e5dea3b79a769cd5300d2b9ca1324a"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",

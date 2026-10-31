@@ -268,6 +268,11 @@ def main() -> int:
     assert ibis_sample["sample_status"] == "bounded_traceability_sample"
     assert ibis_sample["sample_industry_count"] == len(ibis_sample["samples"]) == 100
     assert ibis_sample["sample_sector_count"] >= 20
+    ibis_review = json.loads((ANALYSIS / "ibis-claim-source-review.json").read_text())
+    assert ibis_review["schema"] == "external-trend-intelligence.ibis-claim-source-review.v1"
+    assert ibis_review["sample_industry_count"] == 100
+    assert ibis_review["independence_status"] == "not_qualified"
+    assert ibis_review["outcome_validation_status"] == "not_observed_in_traceability_sample"
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
     assert ibis_sample["counter_signals"]
@@ -298,7 +303,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 56
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 57
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:

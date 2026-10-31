@@ -56,6 +56,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/external-family-lineage-review.json",
     "analysis/external-trend-intelligence/external-evidence-gap-queue.json",
     "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",
+    "analysis/external-trend-intelligence/ibis-claim-source-review.json",
     "analysis/external-trend-intelligence/external-family-comparisons.json",
     "analysis/external-trend-intelligence/candidate-comparisons.json",
     "analysis/external-trend-intelligence/candidate-qualification-matrix.json",
