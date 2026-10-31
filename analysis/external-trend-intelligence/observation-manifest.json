@@ -3,22 +3,22 @@
   "generated_on": "2026-10-31",
   "source_git_ref": "HEAD",
   "record_root": "analysis/records",
-  "record_count": 2131,
+  "record_count": 2132,
   "parse_error_count": 0,
   "program_theme_counts": {
     "care_health_reproduction": 672,
     "consumer_power_recourse": 440,
     "firm_sector_market_power": 790,
     "geopolitical_state_consequences": 621,
-    "household_room_consumption": 1311,
+    "household_room_consumption": 1312,
     "housing_place_mobility": 469,
     "infrastructure_technology_dependency": 837,
     "platforms_data_attention": 379,
     "political_judgment_action": 782,
     "public_systems_feedback": 1595,
-    "time_hidden_price": 405,
+    "time_hidden_price": 406,
     "trust_identity_meaning": 1310,
-    "unequal_exposure_status": 1829,
+    "unequal_exposure_status": 1830,
     "work_control_bargaining": 733
   },
   "source_host_counts": {
@@ -347,6 +347,8 @@
     "afdb.org": 1,
     "cdn.vanderbilt.edu": 1,
     "vanderbilt.edu": 1,
+    "aihw.gov.au": 1,
+    "dataverse.ada.edu.au": 1,
     "roymorgan-cms-prod.s3.ap-southeast-2.amazonaws.com": 1,
     "roymorgan.com": 1,
     "ark.ac.uk": 1,
@@ -1768,6 +1770,31 @@
         "vanderbilt.edu"
       ],
       "boundary": "This record adds a comparative democratic-legitimacy mechanism: improvements in economic security, food security and neighborhood safety coincide with a modest recovery in democratic support, while corruption, weak public services and doubts about government honesty and responsiveness keep that recovery fragile. It is a repeated cross-national public-opinion program, not a causal panel, administrative security dataset, direct measure of democratic durability or proof that material improvement alone restores institutional trust."
+    },
+    {
+      "record_path": "analysis/records/comparative-anupoll-financial-stress-2025.json",
+      "trend_id": "comparative-anupoll-financial-stress-2025",
+      "title": "Adult-reported difficulty meeting household expenses rose from the pre-pandemic baseline to 2025",
+      "source_unit": "ANU COVID-19 Monitoring Survey Program / ANUPoll, summarized by the Australian Institute of Health and Welfare",
+      "geography": "Australia; adults surveyed by ANUPoll",
+      "program_theme_ids": [
+        "household_room_consumption",
+        "unequal_exposure_status",
+        "time_hidden_price"
+      ],
+      "observation_count": 2,
+      "observation_statuses": [
+        "reported"
+      ],
+      "source_urls": [
+        "https://dataverse.ada.edu.au/dataverse/anupoll",
+        "https://www.aihw.gov.au/reports/australias-welfare/income-and-income-inequality"
+      ],
+      "source_hosts": [
+        "aihw.gov.au",
+        "dataverse.ada.edu.au"
+      ],
+      "boundary": "This record adds an adult-level repeated ANUPoll household-expenses measure to challenge household-level ABS and HILDA evidence. It does not establish causal financial hardship, household prevalence, individual change, or a company effect."
     },
     {
       "record_path": "analysis/records/comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook.json",

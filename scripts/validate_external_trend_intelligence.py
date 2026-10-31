@@ -399,7 +399,7 @@ def main() -> int:
     assert bounded_lineage["independence_status"] == "partial_independence_review"
     progress = json.loads((ANALYSIS / "program-progress.json").read_text())
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
-    assert progress["baseline"]["records"] == 2131
+    assert progress["baseline"]["records"] == 2132
     assert progress["baseline"]["qualified_external_trends"] == 0
     assert progress["baseline"]["release_artifacts"] == 55
     assert progress["baseline"]["rights_reviews_required"] == 8
