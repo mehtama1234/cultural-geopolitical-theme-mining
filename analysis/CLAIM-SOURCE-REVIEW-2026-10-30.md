@@ -6,15 +6,18 @@ This is the first bounded claim-level review after the domain triage. It tests
 whether a source supports the stage claimed by a packet, rather than treating
 an official URL as proof of the whole conversion chain.
 
-The 20 reviewed claims span AI infrastructure, linguistic sovereignty, student
-mobility, critical minerals, shutdowns, AI weather forecasting, displacement,
-digital public infrastructure, carbon-dioxide removal and neurotechnology.
-They were selected because they connect directly to the latest portfolio
-clusters and because their packets contain explicit next tests.
+The first 20 reviewed claims span AI infrastructure, linguistic sovereignty,
+student mobility, critical minerals, shutdowns, AI weather forecasting,
+displacement, digital public infrastructure, carbon-dioxide removal and
+neurotechnology. The second 20 add fusion, advanced air mobility, CBDCs,
+precision fermentation, digital therapeutics, biofertilizers, gene-edited crops,
+agricultural robotics, sovereign AI compute and horizon scanning. They were
+selected because they connect directly to the latest portfolio clusters and
+because their packets contain explicit next tests.
 
 ## Findings
 
-- **20 claims reviewed:** 20 retain a bounded support statement.
+- **40 claims reviewed:** 40 retain a bounded support statement.
 - **Signals and scenarios:** the source base is strongest for global scale,
   operational transitions, policy architecture and risk signals.
 - **Mechanisms:** several claims are supported as mechanisms or norms, but not
