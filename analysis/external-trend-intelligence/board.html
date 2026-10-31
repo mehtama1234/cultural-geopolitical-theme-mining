@@ -30,6 +30,7 @@
     .measurements { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin-top:16px; }
     .promotion-gates { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
     .source-families { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
+    .lineage-warnings { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
     article { display:flex; flex-direction:column; gap:8px; }
     article h3 { margin:0; font-size:1.05rem; line-height:1.25; }
     .pill { display:inline-block; width:max-content; border-radius:999px; padding:3px 9px; background:var(--soft); color:var(--accent); font-size:.75rem; font-weight:750; text-transform:uppercase; }
@@ -97,6 +98,11 @@
       <h2>External source families and refresh cadence</h2>
       <p class="muted">These families feed discovery. The cadence is a maintenance trigger, not proof that sources are independent or continuously available.</p>
       <div class="source-families" id="source-families"></div>
+    </section>
+    <section style="margin-top:28px">
+      <h2>Lineage warnings</h2>
+      <p class="muted">Shared URLs and hosts are visible here so repeated publisher material is not counted as independent confirmation.</p>
+      <div class="lineage-warnings" id="lineage-warnings"></div>
     </section>
     <footer>Serve this directory over HTTP to load the JSON manifests. Source records remain authoritative; this board is a reader. Release: <code id="release-commit">—</code></footer>
   </main>
@@ -181,6 +187,14 @@
       const boundary = document.createElement('p'); boundary.innerHTML = `<strong>Boundary:</strong> ${family.evidence_boundary}`;
       article.append(pill, title, role, cadence, trigger, boundary); return article;
     }
+    function lineageWarningCard(url, observationIds) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = 'shared URL';
+      const title = document.createElement('h3'); title.textContent = url;
+      const ids = document.createElement('p'); ids.innerHTML = `<strong>Appears in:</strong> ${observationIds.join('; ')}`;
+      const warning = document.createElement('p'); warning.textContent = 'Review publisher and underlying study identity before treating these observations as independent.';
+      article.append(pill, title, ids, warning); return article;
+    }
     Promise.all([
       fetch('observation-manifest.json').then(r => r.json()),
       fetch('candidate-comparisons.json').then(r => r.json()),
@@ -192,7 +206,8 @@
       fetch('release-manifest.json').then(r => r.json()),
       fetch('promotion-queue.json').then(r => r.json()),
       fetch('refresh-schedule.json').then(r => r.json()),
-    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidates, careSubset, release, promotionQueue, refreshSchedule]) => {
+      fetch('external-family-lineage-review.json').then(r => r.json()),
+    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidates, careSubset, release, promotionQueue, refreshSchedule, lineageReview]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -218,6 +233,8 @@
         const schedule = schedules.get(family.id);
         if (schedule) sourceFamilies.append(sourceFamilyCard(family, schedule));
       });
+      const lineageWarnings = el('lineage-warnings');
+      Object.entries(lineageReview.cross_observation_url_overlap).forEach(([url, observationIds]) => lineageWarnings.append(lineageWarningCard(url, observationIds)));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
   </script>
 </body>
