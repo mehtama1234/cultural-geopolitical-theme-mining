@@ -2,22 +2,8 @@
   "schema": "external-trend-intelligence.external-evidence-gap-queue.v1",
   "purpose": "Explicit next-review queue for external observations that cannot yet support independent trend promotion.",
   "gap_count": 10,
-  "high_priority_count": 1,
+  "high_priority_count": 0,
   "gaps": [
-    {
-      "observation_id": "ibis-cross-industry-discovery-findings",
-      "family_id": "ibis-industries",
-      "title": "IBIS baseline cross-industry discovery findings",
-      "priority": "high",
-      "missing_evidence": [
-        "source URLs or filing identities for the underlying records",
-        "unit, geography, period, and denominator audit",
-        "independence review against the synthesis source"
-      ],
-      "shared_url_count": 0,
-      "shared_host_count": 0,
-      "decision": "hold"
-    },
     {
       "observation_id": "annual-report-integrated-theme-map",
       "family_id": "annual-report-research",
@@ -41,6 +27,20 @@
         "publisher, filing, and artifact identity review for each URL",
         "map citations to the specific theme or company record",
         "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 7,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "ibis-cross-industry-discovery-findings",
+      "family_id": "ibis-industries",
+      "title": "IBIS baseline cross-industry discovery findings",
+      "priority": "medium",
+      "missing_evidence": [
+        "expand bounded sample to a pre-specified coverage set",
+        "add independent outcome measures and counterexamples",
+        "independence review against the aggregate synthesis source"
       ],
       "shared_url_count": 0,
       "shared_host_count": 5,
@@ -127,7 +127,7 @@
         "independence review against the synthesis source"
       ],
       "shared_url_count": 0,
-      "shared_host_count": 5,
+      "shared_host_count": 6,
       "decision": "hold"
     },
     {

@@ -83,7 +83,7 @@ counts those observations as separate confirmation.
 
 [`external-evidence-gap-queue.json`](external-evidence-gap-queue.json) turns
 that audit into an explicit next-review queue. It currently contains ten held
-observation gaps, one of them high priority because the pinned artifact does
+observation gaps, none of them high priority because every pinned family now
 not expose source URLs or filing identities. The annual-report theme map now
 links to its pinned public citation list, while the IBIS corpus exposes its
 separate source inventory (17,998 sources, including 17,087 public URLs), but

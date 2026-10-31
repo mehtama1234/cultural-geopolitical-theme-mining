@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "277cb92bd33ded917f7326dbeecdfef11ca6ebaf",
+  "source_tree_commit": "1715d1dce79043d67c7f53431ddef900a5f535c2",
   "artifact_count": 24,
   "artifacts": [
     {
@@ -17,7 +17,7 @@
     {
       "path": "analysis/external-trend-intelligence/README.md",
       "bytes": 11694,
-      "sha256": "cd17ae09bc658b116ac829cf508e1e3abb0dd062b4fe1fa339ce93dc5faebaad"
+      "sha256": "cfca7049200dd08ce6c221df55e3d55f4cd2826281d7c149444ff87bbc6d17b8"
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
@@ -26,8 +26,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
-      "bytes": 2388,
-      "sha256": "fda466f388910bcb11194bda57a3b50175ed339358bb51aaaad1596bbe1ca364"
+      "bytes": 2575,
+      "sha256": "fa94bd8598e1973de34b680d6a887afa5625e3f221950a26a6125c6f6f119f21"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -56,18 +56,18 @@
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-observations.json",
-      "bytes": 61998,
-      "sha256": "28e81da7064db6473782032c72f472118454f72d5eaf38299b5799d926301a80"
+      "bytes": 73580,
+      "sha256": "0f693f623d25c96422d70d37b4aac42ae5a30a453dbcaa34cafb360f895d6171"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-lineage-review.json",
-      "bytes": 25218,
-      "sha256": "e0687ddfa5b03415758d9346d3cae2b4106e776ba74b90a601bb246cbd6c7187"
+      "bytes": 28632,
+      "sha256": "ed17f6b7a185f7c9523cdf35b3bb03df539b2e5d7af5d29821b3c110828c22f3"
     },
     {
       "path": "analysis/external-trend-intelligence/external-evidence-gap-queue.json",
-      "bytes": 5619,
-      "sha256": "bebd1f5f6bc0b67ffde97c41aa7e598eca135e4e2343ffec18ad4701c4750024"
+      "bytes": 5631,
+      "sha256": "9aeda92f961f51151bcef7b4107265ed2185ddb9adb457fbec9e9270b77ca852"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",

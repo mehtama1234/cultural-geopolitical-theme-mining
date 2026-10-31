@@ -4,12 +4,15 @@ This is the current handoff for the living external-first goal. All actions
 below preserve the rule that external evidence is qualified before any company
 data is joined.
 
-## One high-priority gap
+## One substantive open gate
 
 **IBIS discovery findings — claim-level source mapping.** The pinned register
 has five discovery findings, three pinned pattern artifacts, 12 aggregate
 pattern entries, 52,593 aggregate claims, and 77,606 aggregate source
 references. It does not identify which source record supports each finding.
+The family is no longer an untraced URL gap: a bounded ten-industry sample is
+present. The full finding remains held until that sample expands and outcomes
+are independently checked.
 
 A first [bounded traceability sample](ibis-finding-claim-sample.json) now
 traces ten matched industries and their claim-level source IDs and URLs.

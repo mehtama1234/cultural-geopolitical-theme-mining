@@ -76,6 +76,16 @@ def main() -> int:
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
     ibis_pattern_inventory_path = "cross_industry_pattern_inventory.json"
     ibis_pattern_inventory = json.loads(show(IBIS_REPO, IBIS_REV, ibis_pattern_inventory_path))
+    ibis_finding_pattern = next(
+        pattern for pattern in ibis_pattern_inventory["ranked_patterns"]
+        if pattern["slug"] == "compliance-as-economic-architecture"
+    )
+    ibis_finding_sample_urls = sorted({
+        source["url"]
+        for slug in sorted(ibis_finding_pattern["matched_industries"])[:10]
+        for source in json.loads(show(IBIS_REPO, IBIS_REV, f"business_knowledge_examples/{slug}.json")).get("evidence", {}).get("sources", [])
+        if source.get("url")
+    })
     ibis_forces_path = "cross_industry_trends_2025_2026.json"
     ibis_forces = json.loads(show(IBIS_REPO, IBIS_REV, ibis_forces_path))
     social_path = "analysis/social/integrated-trend-atlas-report.json"
@@ -220,7 +230,11 @@ def main() -> int:
                 ],
                 pattern_claim_count_total=sum(pattern.get("claim_count", 0) for pattern in ibis_pattern_inventory["ranked_patterns"]),
                 pattern_source_count_total=sum(pattern.get("source_count", 0) for pattern in ibis_pattern_inventory["ranked_patterns"]),
-                source_url_status="not_present_in_artifact",
+                traceability_sample_path="ibis-finding-claim-sample.json",
+                traceability_sample_industry_count=10,
+                source_urls=ibis_finding_sample_urls,
+                source_url_status="bounded_sample_present",
+                source_url_count=len(ibis_finding_sample_urls),
                 observation_period="IBIS baseline findings register at pinned revision; current data window 2025-2026",
             ),
             record(

@@ -216,6 +216,9 @@ def main() -> int:
             assert len(observation["pattern_aggregate_counts"]) == 12
             assert observation["pattern_claim_count_total"] > 0
             assert observation["pattern_source_count_total"] > 0
+            assert observation["source_url_status"] == "bounded_sample_present"
+            assert observation["traceability_sample_industry_count"] == 10
+            assert observation["source_url_count"] == len(observation["source_urls"]) >= 1
         if observation["observation_id"] == "trend-hunting-ai-deep-synthesis":
             assert observation["source_url_status"] == "present_in_artifact"
             assert len(observation["source_input_paths"]) == 16
@@ -256,7 +259,7 @@ def main() -> int:
     gap_queue = json.loads((ANALYSIS / "external-evidence-gap-queue.json").read_text())
     assert gap_queue["schema"] == "external-trend-intelligence.external-evidence-gap-queue.v1"
     assert gap_queue["gap_count"] == len(gap_queue["gaps"]) == len(lineage_review["reviews"])
-    assert gap_queue["high_priority_count"] == 1
+    assert gap_queue["high_priority_count"] == 0
     assert {gap["observation_id"] for gap in gap_queue["gaps"]} == family_observation_ids
     assert all(gap["decision"] == "hold" and gap["missing_evidence"] for gap in gap_queue["gaps"])
     ibis_sample = json.loads((ANALYSIS / "ibis-finding-claim-sample.json").read_text())

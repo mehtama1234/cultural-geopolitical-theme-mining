@@ -62,6 +62,13 @@ def main() -> int:
                 "independence review against the synthesis source",
             ]
             status = "partial"
+        elif observation.get("source_url_status") == "bounded_sample_present":
+            remaining = [
+                "expand bounded sample to a pre-specified coverage set",
+                "add independent outcome measures and counterexamples",
+                "independence review against the aggregate synthesis source",
+            ]
+            status = "partial"
         else:
             remaining = [
                 "source URLs or filing identities for the underlying records",
