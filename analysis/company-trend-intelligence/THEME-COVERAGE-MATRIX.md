@@ -12,11 +12,11 @@ the next company-facing record should establish the evidence and exposure.
 | # | Programme theme | Current company-trend record(s) | Coverage | Next company question |
 |---:|---|---|---|---|
 | 1 | Household room, prices, debt, and financial security | 006 Household financial room; 002 Consumer recourse | Deep | When does financial pressure change completion, payment, recovery, or exit? |
-| 2 | Time, care, family life, and social reproduction | 006 Household financial room | Lens | How do time and care constraints alter workforce, customer, and service decisions? |
+| 2 | Time, care, family life, and social reproduction | 006 Household financial room; 008 Health access and care burden | Lens | How do time and care constraints alter workforce, customer, and service decisions? |
 | 3 | Consumer power, recourse, and service dependence | 002 Consumer recourse | Deep | Does a visible response become verified remedy, restored access, and practical exit? |
 | 4 | Platforms, data, attention, and digital agency | 001 AI workplace control; 002 Consumer recourse | Lens | Who controls data, attention, defaults, and correction in the L&T workflow? |
 | 5 | Work, control, bargaining, and labour-market change | 001 AI workplace control | Deep | Does AI change worker authority, quality, bargaining, and job meaning? |
-| 6 | Health, disability, aging, and unequal care access | — | Open | Which access, safety, care, and workforce decisions have measurable unequal exposure? |
+| 6 | Health, disability, aging, and unequal care access | 008 Health access and care burden | Deep | Which access, safety, care, and workforce decisions have measurable unequal exposure? |
 | 7 | Housing, place, mobility, and insurance | 005 Infrastructure bargain; 006 Household financial room | Lens | How do place, mobility, and insurance constraints change operating continuity and demand? |
 | 8 | Unequal exposure, status, race, gender, age, and belonging | 004 Language technology; 007 Conditional legitimacy | Lens | Who receives the benefit, burden, voice, or correction route first? |
 | 9 | Trust, identity, cultural meaning, and changing norms | 004 Language technology; 007 Conditional legitimacy | Deep | Does representation, explanation, and remedy create trust and repeated use? |
@@ -28,17 +28,17 @@ the next company-facing record should establish the evidence and exposure.
 
 ## Current coverage decision
 
-The portfolio has six deep themes, seven lens-level themes, and one theme that
-is currently open as a dedicated record (health, disability, aging, and care
-access). The remaining lens-level themes should not be treated as absent; they
+The portfolio has seven deep themes and seven lens-level themes. The health,
+disability, aging, and care theme now has a qualified record, while the
+remaining lens-level themes should not be treated as absent; they
 are present as mechanisms or affected-group questions, but they need a named
 decision, direct evidence, and a next test before promotion.
 
 The next record queue should therefore prioritize:
 
-1. health, disability, aging, and unequal care access;
-2. time, care, and social reproduction as a company operating constraint; and
-3. firm, market, ownership, and concentration power.
+1. time, care, and social reproduction as a company operating constraint;
+2. firm, market, ownership, and concentration power; and
+3. deeper company-specific access, accommodation, and care outcome tests.
 
 ## Promotion rule
 

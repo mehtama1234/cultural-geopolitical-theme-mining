@@ -2,7 +2,7 @@
 
 ## What the portfolio says now
 
-Across seven evidence-backed records, the repeated pattern is:
+Across eight evidence-backed records, the repeated pattern is:
 
 > Companies can create capability, formal access, or institutional output faster
 > than they can prove usable benefit, shared control, trust, or durable value.
@@ -18,7 +18,7 @@ evidence gaps, and next tests. It does not establish L&T demand, ROI,
 readiness, or deployment authorization; those require named sponsors,
 permissioned data, accepted baselines, control review, and measured outcomes.
 
-## Seven findings in plain language
+## Eight findings in plain language
 
 | Area | What appears to be changing | Immediate company question |
 |---|---|---|
@@ -29,6 +29,7 @@ permissioned data, accepted baselines, control review, and measured outcomes.
 | Infrastructure | Capacity, revenue, and readiness can precede reliable user benefit | Who gets the service, who pays, and what happens under stress? |
 | Household finance | Financial pressure can increase search and substitution before visible demand collapse | Is more navigation creating choice, or exposing constrained households to more effort? |
 | Conditional legitimacy | Material pressure becomes political meaning through attribution, identity, and practical room | Does explanation, voice, remedy, and visible benefit sustain acceptance? |
+| Health access and care burden | Disability, time, transport, and caregiving barriers can block needed care or work tasks before visible failure | Which access or accommodation intervention improves completed tasks without shifting burden? |
 
 ## What to do now
 

@@ -93,15 +93,28 @@
       "domains": ["trust", "culture", "political_meaning", "customer", "workforce"],
       "decision_owners": ["public_affairs", "reputation", "people", "customer_trust", "policy", "strategy"],
       "open_test": "Dated encounter ledger from condition through attribution, remedy, later action, and non-use"
+    },
+    {
+      "trend_id": "company-trend-2026-008",
+      "title": "Health access and care burden create operating constraints before continuity is visible",
+      "summary": "Disability, time, transportation, and caregiving barriers can block needed care or work tasks before a clear company failure signal appears.",
+      "path": "company-trend-health-disability-care-access-2026-008.md",
+      "source_packets": ["../projects/cross-domain/us-health-disability-care-access-2026-10-31.md"],
+      "status": "qualified_trend",
+      "confidence": "medium",
+      "horizon": ["now", "next", "longer_term"],
+      "domains": ["health", "disability", "care", "workforce", "customer_access", "public_systems"],
+      "decision_owners": ["people", "customer_access", "operations", "benefits", "safety", "service"],
+      "open_test": "Permissioned workflow record from access or accommodation request through completed task, burden, correction, and repeat use"
     }
   ],
   "theme_coverage": [
     {"number": 1, "theme": "household room, prices, debt, and financial security", "coverage": "deep", "record_ids": ["company-trend-2026-006", "company-trend-2026-002"]},
-    {"number": 2, "theme": "time, care, family life, and social reproduction", "coverage": "lens", "record_ids": ["company-trend-2026-006"]},
+    {"number": 2, "theme": "time, care, family life, and social reproduction", "coverage": "lens", "record_ids": ["company-trend-2026-006", "company-trend-2026-008"]},
     {"number": 3, "theme": "consumer power, recourse, and service dependence", "coverage": "deep", "record_ids": ["company-trend-2026-002"]},
     {"number": 4, "theme": "platforms, data, attention, and digital agency", "coverage": "lens", "record_ids": ["company-trend-2026-001", "company-trend-2026-002"]},
     {"number": 5, "theme": "work, control, bargaining, and labour-market change", "coverage": "deep", "record_ids": ["company-trend-2026-001"]},
-    {"number": 6, "theme": "health, disability, aging, and unequal care access", "coverage": "open", "record_ids": []},
+    {"number": 6, "theme": "health, disability, aging, and unequal care access", "coverage": "deep", "record_ids": ["company-trend-2026-008"]},
     {"number": 7, "theme": "housing, place, mobility, and insurance", "coverage": "lens", "record_ids": ["company-trend-2026-005", "company-trend-2026-006"]},
     {"number": 8, "theme": "unequal exposure, status, race, gender, age, and belonging", "coverage": "lens", "record_ids": ["company-trend-2026-004", "company-trend-2026-007"]},
     {"number": 9, "theme": "trust, identity, cultural meaning, and changing norms", "coverage": "deep", "record_ids": ["company-trend-2026-004", "company-trend-2026-007"]},

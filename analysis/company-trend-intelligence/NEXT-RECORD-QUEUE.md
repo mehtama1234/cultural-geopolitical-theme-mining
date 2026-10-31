@@ -1,36 +1,11 @@
 # Next company-trend record queue
 
-The current seven records are sufficient to test the company-facing contract,
+The current eight records are sufficient to test the company-facing contract,
 but they do not complete the 14-theme programme. This queue defines the next
 records without pretending that a source packet or business effect already
 exists.
 
-## Queue 1 — health, disability, aging, and unequal care access
-
-**Why next:** This is the only programme theme currently marked `open` in the
-coverage matrix.
-
-**Candidate company decisions:** workforce absence and retention; accessible
-customer service; care-related scheduling; health and safety; insurance,
-benefits, and service continuity.
-
-**Evidence needed before promotion:**
-
-- population or household survey with disability, age, care, or health-access
-  measures and a clear denominator;
-- administrative, claims, waiting-time, or service-use record showing access,
-  delay, or remedy;
-- employer or operational record showing the burden on workers, customers, or
-  carers;
-- subgroup and place comparison, including people who cannot enter the visible
-  service denominator;
-- counterevidence showing where access, care, or outcome is improving.
-
-**Smallest next test:** Follow one named service or workplace pathway from
-need, request, or absence through access, waiting, accommodation, outcome, and
-repeat use, with an accessible counterexample.
-
-## Queue 2 — time, care, and social reproduction
+## Queue 1 — time, care, and social reproduction
 
 **Why next:** The household-financial record identifies navigation work, but it
 does not yet isolate the time and care system that makes that work possible or
@@ -45,7 +20,7 @@ household composition; work schedule or service-contact record; distribution by
 income, gender, age, disability, and place; and a measured consequence for
 completion, absence, retention, or service access.
 
-## Queue 3 — firm, market, ownership, and concentration power
+## Queue 2 — firm, market, ownership, and concentration power
 
 **Why next:** Existing records identify dependence and alternatives, but do not
 yet isolate how ownership or concentration changes bargaining power.
@@ -56,6 +31,14 @@ dependency; data access; switching and exit; pricing and procurement.
 **Evidence needed before promotion:** firm or market concentration measure;
 contract, price, or procurement record; substitute and switching evidence;
 affected buyer or worker outcome; and a regulatory or institutional response.
+
+## Queue 3 — company-specific health and care outcome test
+
+The health-access record is qualified at the population level, but its company
+effect remains open. The next test should follow one named L&T or company
+workflow from access or accommodation request through completed task, burden,
+correction, and repeat use, with subgroup denominators and an accessible
+counterexample.
 
 ## Promotion gate for every queued record
 

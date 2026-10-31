@@ -84,6 +84,14 @@ This qualified trend translates trust, identity, belonging, and civic-action
 evidence into reputation, public-affairs, workforce, customer, and legitimacy
 exposure.
 
+### Health access and care burden
+
+[Health access and care burden trend record](company-trend-health-disability-care-access-2026-008.md)
+
+This qualified trend translates disability, time, appointment, transportation,
+and caregiving evidence into customer-access, workforce, product, operational,
+institutional, and service-continuity exposure.
+
 ## Record contract
 
 - [Company trend-intelligence goal](../../COMPANY_TREND_INTELLIGENCE_GOAL_V1.md)
@@ -93,12 +101,12 @@ exposure.
 
 ## Next record queue
 
-The initial seven-record set is now in place. The next records should extend
+The initial eight-record set is now in place. The next records should extend
 coverage into underrepresented parts of the 14-theme program while preserving
 the same company decision contract:
 
-1. **Health, disability, and care access:** where cost, waiting, and unequal
-   care capacity alter workforce, customer, and insurance exposure.
+1. **Time, care, and social reproduction:** where care coordination and
+   household time alter workforce, customer, and service decisions.
 2. **Housing, place, mobility, and insurance:** where location and physical
    dependency change operating continuity, labor access, and demand.
 3. **Firm, market, and ownership concentration:** where control over data,

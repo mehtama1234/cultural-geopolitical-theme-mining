@@ -8,7 +8,7 @@ column; it does not mean company-specific impact has been proven.
 |---|---|---|
 | Governing company-facing goal | `COMPANY_TREND_INTELLIGENCE_GOAL_V1.md` | Goal names the evidence chain, 14 themes, business translation, L&T first context, and limits |
 | L&T first implementation context | Goal links the L&T assessment, register, and portal | L&T register validator: 7 rows |
-| Source-traceable trend records | Seven Markdown records with source packets, methods, limits, and next tests | Portfolio validator checks IDs, titles, source links, and committed source packets |
+| Source-traceable trend records | Eight Markdown records with source packets, methods, limits, and next tests | Portfolio validator checks IDs, titles, source links, and committed source packets |
 | Business translation | Each record has customer, workforce, product, finance, operations, institutional, reputation, and geopolitical exposure | Validator checks the business-exposure section |
 | Cross-domain interpretation | Each record has cultural, financial, institutional, and geopolitical interpretation | Validator checks the explicit section |
 | Three horizons | Each record has now, next, and longer-term implications | Validator checks all three horizon labels |
@@ -21,7 +21,7 @@ column; it does not mean company-specific impact has been proven.
 
 - Company-specific causal impact, ROI, readiness, safety, and deployment remain
   unproven until the named L&T tests return evidence.
-- Health, disability, aging, and care access remains the only open programme
-  theme without a dedicated company-trend record.
+- Health, disability, aging, and care now has a qualified record, but its
+  company-specific outcome remains open until a named workflow is tested.
 - The current worktree contains unrelated pre-existing source deletions; this
   checklist does not restore or reinterpret them.

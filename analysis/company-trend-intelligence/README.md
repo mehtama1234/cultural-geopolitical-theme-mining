@@ -17,7 +17,7 @@ people, and public-affairs teams.
 - `schema.json` defines the required machine-readable fields.
 - `portfolio.json` exposes the current records and portfolio lens to a frontend
   or downstream analysis.
-- `portfolio.csv` provides the same seven-record index for spreadsheets and BI
+- `portfolio.csv` provides the same eight-record index for spreadsheets and BI
   tools; pipe-delimited values preserve multi-value fields.
 - `THEME-COVERAGE-MATRIX.csv` provides the fourteen-theme scope and coverage
   state for spreadsheets, BI, and frontend work.
