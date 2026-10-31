@@ -1,0 +1,77 @@
+{
+  "schema": "external-trend-intelligence.backtest-readiness.v1",
+  "candidate_count": 4,
+  "ready_for_design_review_count": 0,
+  "blocked_missing_local_record_count": 4,
+  "rows": [
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "evidence_record_count": 7,
+      "local_record_path_count": 0,
+      "missing_local_record_paths": [
+        "analysis/records/au-al-hussein-reactivation-deemed-work-2025.json",
+        "analysis/records/au-fwc-khan-platform-repeat-deactivation-2026.json",
+        "analysis/records/au-mansoor-platform-alternative-earnings-remedy-2025.json",
+        "analysis/records/comparative-australia-fwc-no-alternative-employment-remedy-2024.json",
+        "analysis/records/comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018.json",
+        "analysis/records/comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust.json",
+        "analysis/records/bsa43-nhs-waiting-legitimacy-2026.json"
+      ],
+      "source_url_count": 20,
+      "status": "blocked_missing_local_record",
+      "boundary": "Source URLs in the manifest do not substitute for the missing local record; no backtest result is inferred."
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "evidence_record_count": 7,
+      "local_record_path_count": 0,
+      "missing_local_record_paths": [
+        "analysis/records/comparative-abs-australia-time-use-2024-disability-carer-free-time-2026.json",
+        "analysis/records/comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration.json",
+        "analysis/records/comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools.json",
+        "analysis/records/comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity.json",
+        "analysis/records/comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection.json",
+        "analysis/records/comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook.json",
+        "analysis/records/comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging.json"
+      ],
+      "source_url_count": 25,
+      "status": "blocked_missing_local_record",
+      "boundary": "Source URLs in the manifest do not substitute for the missing local record; no backtest result is inferred."
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "evidence_record_count": 7,
+      "local_record_path_count": 0,
+      "missing_local_record_paths": [
+        "analysis/records/comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries.json",
+        "analysis/records/comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership.json",
+        "analysis/records/comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social.json",
+        "analysis/records/comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai.json",
+        "analysis/records/comparative-oecd-ai-markets-2026-concentration-competition-strategic-advantage.json",
+        "analysis/records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json",
+        "analysis/records/comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight.json"
+      ],
+      "source_url_count": 19,
+      "status": "blocked_missing_local_record",
+      "boundary": "Source URLs in the manifest do not substitute for the missing local record; no backtest result is inferred."
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "evidence_record_count": 7,
+      "local_record_path_count": 0,
+      "missing_local_record_paths": [
+        "analysis/records/us-pjm-large-load-disconnection-response-2026.json",
+        "analysis/records/us-uscc-transpacific-undersea-cable-gray-zone-resilience-2026.json",
+        "analysis/records/comparative-oecd-space-economy-2026-dependencies-sustainability-security.json",
+        "analysis/records/comparative-africa-sustainable-development-report-2026-water-energy-cities-finance.json",
+        "analysis/records/comparative-oecd-eu-social-economy-europe-2025-care-housing-delivery.json",
+        "analysis/records/comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security.json",
+        "analysis/records/comparative-world-bank-cloud-procurement-public-capability-lockin-2026.json"
+      ],
+      "source_url_count": 26,
+      "status": "blocked_missing_local_record",
+      "boundary": "Source URLs in the manifest do not substitute for the missing local record; no backtest result is inferred."
+    }
+  ],
+  "next_action": "Acquire or repin the missing source-backed record artifacts before attempting a temporal backtest; preserve source identity and rights during acquisition."
+}

@@ -297,7 +297,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 33
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 34
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -336,6 +336,10 @@ def main() -> int:
     assert controls["schema"] == "external-trend-intelligence.source-family-controls.v1"
     assert controls["family_count"] == 8
     assert all(item["rights_status"] and item["publisher_dependence"] for item in controls["families"])
+    backtest_readiness = json.loads((ANALYSIS / "backtest-readiness.json").read_text())
+    assert backtest_readiness["schema"] == "external-trend-intelligence.backtest-readiness.v1"
+    assert backtest_readiness["candidate_count"] == 4
+    assert backtest_readiness["blocked_missing_local_record_count"] == 4
     care_subset = json.loads((ANALYSIS / "care-capacity-comparable-subset.json").read_text())
     assert care_subset["schema"] == "external-trend-intelligence.care-capacity-comparable-subset.v1"
     assert care_subset["candidate_id"] == care_candidate["candidate_id"]
