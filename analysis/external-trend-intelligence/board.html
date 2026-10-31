@@ -154,6 +154,7 @@
     <section style="margin-top:28px">
       <h2>Temporal holdout design</h2>
       <p class="muted">A same-instrument 2020-to-2025 check is registered as a holdout design, not a qualified trend.</p>
+      <div class="panel" style="margin:12px 0"><h3>Separate directional measures</h3><div id="temporal-holdout-chart"></div></div>
       <div class="promotion-gates" id="temporal-holdout"></div>
     </section>
     <section style="margin-top:28px">
@@ -194,6 +195,18 @@
         const fill = document.createElement('span'); fill.className = 'fill'; fill.style.width = `${Math.max(2, (value / total) * 100)}%`; track.append(fill);
         const count = document.createElement('strong'); count.textContent = value;
         row.append(name, track, count); target.append(row);
+      });
+    }
+    function holdoutChart(target, rows) {
+      target.replaceChildren();
+      const max = Math.max(...rows.flatMap(row => [row.construction_value, row.holdout_value].filter(value => typeof value === 'number')), 1);
+      rows.forEach(row => {
+        const article = document.createElement('div'); article.className = 'bar-row';
+        const name = document.createElement('span'); name.textContent = row.measure.replaceAll('_', ' ');
+        const track = document.createElement('span'); track.className = 'track';
+        const fill = document.createElement('span'); fill.className = 'fill'; fill.style.width = `${Math.max(2, (row.holdout_value / max) * 100)}%`; track.append(fill);
+        const count = document.createElement('strong'); count.textContent = `${row.construction_value} → ${row.holdout_value}`;
+        article.append(name, track, count); target.append(article);
       });
     }
     function candidateCard(candidate) {
@@ -437,6 +450,7 @@
         el('temporal-holdout').append(card(`${holdout.construction_period} → ${holdout.holdout_period} · ${holdout.measures.length} measures`, holdout.status, holdout.method_cautions.join(' · ')));
       });
       fetch('temporal-holdout-result.json').then(r => r.json()).then(result => {
+        holdoutChart(el('temporal-holdout-chart'), result.result);
         el('temporal-holdout').append(card('Directional readout', result.status, result.signal_summary + ' ' + result.boundary));
       });
       fetch('temporal-decision-narrative.json').then(r => r.json()).then(narrative => {
