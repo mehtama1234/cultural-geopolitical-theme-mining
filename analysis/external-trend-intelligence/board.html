@@ -63,6 +63,7 @@
       <div class="stat"><strong id="intake-count">—</strong><span>held intake comparisons</span></div>
       <div class="stat"><strong id="family-observation-count">—</strong><span>new family observations</span></div>
       <div class="stat"><strong id="held-candidate-count">—</strong><span>held candidates</span></div>
+      <div class="stat"><strong id="high-gap-count">—</strong><span>high-priority evidence gaps</span></div>
     </section>
     <section class="charts" aria-label="External evidence coverage">
       <div class="panel"><h2>Theme coverage</h2><div id="theme-chart"></div></div>
@@ -231,6 +232,7 @@
       el('intake-count').textContent = familyComparisons.comparisons.length;
       el('family-observation-count').textContent = familyObservations.observation_count;
       el('held-candidate-count').textContent = heldCandidates.candidates.length;
+      el('high-gap-count').textContent = gapQueue.high_priority_count;
       el('release-commit').textContent = `source ${release.source_tree_commit.slice(0, 12)}`;
       barChart(el('theme-chart'), Object.entries(manifest.program_theme_counts).sort((a,b) => b[1]-a[1]), manifest.record_count);
       barChart(el('host-chart'), Object.entries(manifest.source_host_counts).slice(0, 16), manifest.record_count);
