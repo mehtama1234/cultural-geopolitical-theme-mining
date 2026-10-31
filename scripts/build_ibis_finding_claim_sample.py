@@ -5,7 +5,9 @@ from __future__ import annotations
 
 import json
 import subprocess
+from collections import Counter
 from pathlib import Path
+from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -64,10 +66,21 @@ def main() -> int:
         "sample_industry_count": len(samples),
         "counter_signals": pattern["counterforces"],
         "outcome_measure_candidate_count": sum(len(sample["outcome_measure_candidates"]) for sample in samples),
+        "sample_source_urls": sorted({
+            source["url"]
+            for sample in samples
+            for claim in sample["claims"]
+            for source in claim["sources"]
+            if source.get("url")
+        }),
         "samples": samples,
         "boundary": "This sample traces three matched industries to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
         "next_test": "Expand the same traceability method across a pre-specified industry sample, add counterexamples and outcomes, and review publisher independence before promotion.",
     }
+    payload["sample_source_url_count"] = len(payload["sample_source_urls"])
+    payload["sample_source_host_count"] = len({urlparse(url).netloc.lower() for url in payload["sample_source_urls"] if urlparse(url).netloc})
+    url_counts = Counter(payload["sample_source_urls"])
+    payload["duplicate_source_urls"] = {url: count for url, count in url_counts.items() if count > 1}
     OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
     print(f"wrote {OUTPUT} ({len(samples)} industries)")
     return 0

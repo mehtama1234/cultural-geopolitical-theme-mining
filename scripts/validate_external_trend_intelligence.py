@@ -269,6 +269,9 @@ def main() -> int:
     assert ibis_sample["counter_signals"]
     assert ibis_sample["outcome_measure_candidate_count"] > 0
     assert all(sample["record_falsifiers"] for sample in ibis_sample["samples"])
+    assert ibis_sample["sample_source_url_count"] == len(ibis_sample["sample_source_urls"]) >= 1
+    assert ibis_sample["sample_source_host_count"] >= 1
+    assert all(count > 1 for count in ibis_sample["duplicate_source_urls"].values())
     care_candidate = json.loads((ANALYSIS / "care-capacity-candidate.json").read_text())
     assert care_candidate["schema"] == "external-trend-intelligence.external-care-capacity-candidate.v1"
     assert care_candidate["status"] == "held_candidate"

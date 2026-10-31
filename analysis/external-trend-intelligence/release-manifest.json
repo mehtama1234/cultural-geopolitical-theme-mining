@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "d5f58fcecfd7979dd3e7c0b2ea4327c77d234380",
+  "source_tree_commit": "bbe5e453ac0f34a51ade0a7a1c2ae86a647efb99",
   "artifact_count": 24,
   "artifacts": [
     {
@@ -71,8 +71,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",
-      "bytes": 59353,
-      "sha256": "1feacba2904d18aa4f8a5d5b03d5079458e8f0ecb2a49c922f600bcbe1adb744"
+      "bytes": 66507,
+      "sha256": "9e59e1a667cfc8e6a09e00fcbc8067ead2353c0478a081a0e7fdeadefb067a07"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",
