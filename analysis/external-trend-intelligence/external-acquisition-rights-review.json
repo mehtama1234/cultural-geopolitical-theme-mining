@@ -1,0 +1,31 @@
+{
+  "schema": "external-trend-intelligence.external-acquisition-rights-review.v1",
+  "purpose": "Record rights and publisher-dependence evidence for newly acquired official datasets without making a legal-clearance determination.",
+  "rows": [
+    {
+      "acquisition_id": "federal-reserve-shed-financial-room-2013-2025",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "access_basis": "official public CSV and codebook release page",
+      "upstream_identity": "Federal Reserve SHED annual survey and chart-data ZIP",
+      "publisher_dependence": "single_publisher_for_series",
+      "rights_evidence_status": "terms_not_yet_verified",
+      "derived_use_status": "review_required_before_redistribution",
+      "retention_scope": "retain source URL, retrieval date, version hash, and normalized values; confirm publisher terms before distributing raw files",
+      "next_action": "Review Federal Reserve data-page terms and attribution requirements; document whether derived chart publication is permitted."
+    },
+    {
+      "acquisition_id": "comparative-usda-food-security-2022-2024",
+      "publisher": "U.S. Department of Agriculture Economic Research Service",
+      "source_url": "https://www.ers.usda.gov/publications/113622",
+      "access_basis": "official publication and statistical supplement route",
+      "upstream_identity": "USDA ERS CPS Food Security Supplement estimates",
+      "publisher_dependence": "single_publisher_for_series",
+      "rights_evidence_status": "terms_not_yet_verified",
+      "derived_use_status": "review_required_before_redistribution",
+      "retention_scope": "retain source URL, retrieval date, page hash, and normalized estimates; confirm report/chart reuse terms before distributing raw tables",
+      "next_action": "Review USDA ERS publication and data-use terms; document attribution and derived-chart boundaries."
+    }
+  ],
+  "boundary": "This register records rights evidence and review tasks for two official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
+}

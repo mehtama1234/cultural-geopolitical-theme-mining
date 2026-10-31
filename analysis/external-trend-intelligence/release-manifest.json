@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "3ff28d56faaa559bdb82967934ccd0fd3121f6de",
-  "artifact_count": 61,
+  "source_tree_commit": "72fe566ba344b79035dafc7a2dffc73f8b695bf8",
+  "artifact_count": 62,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -107,7 +107,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2114,
-      "sha256": "3348fc6bdfc16dd2087098d13b552b3c99f4a5fd38910a84e17e8ada78937a56"
+      "sha256": "29bf59d8c3c3a9b5909334226d630426c0ce1956df151fc057657c771aa96934"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -240,6 +240,11 @@
       "sha256": "7a91aeb515ae2a5860185c79567930c5f2ca17003f6b342f51e5d46df37dade5"
     },
     {
+      "path": "analysis/external-trend-intelligence/external-acquisition-rights-review.json",
+      "bytes": 2178,
+      "sha256": "82ea344f9f125dcb67c458344287ec4a19642bd7556bee6dc7bb52322b61f633"
+    },
+    {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",
       "bytes": 8300,
       "sha256": "493f68e0e03b67aeae67273a2d695bccf231bdaafe0232fe597e05df4ad5bb12"
@@ -296,8 +301,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 45133,
-      "sha256": "a1ce430d609b69f8254089e3cfd9c4ae4b2186f657e93355d51e414176cc97c5"
+      "bytes": 45420,
+      "sha256": "5c525c25165cb8ab528ea77ea044834aad670a5892200f28c31f4410ca53f9fe"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
