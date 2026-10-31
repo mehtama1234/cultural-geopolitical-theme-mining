@@ -348,6 +348,24 @@ biodiversity effects, food-safety evidence, consumer and cultural response,
 label treatment and cross-border market access, with a public-breeding or
 non-edited comparator.
 
+## Carbon-removal permanence and climate-justice comparator — 2026-10-30
+
+The existing [carbon-dioxide-removal packet](ROTATION-JN-CARBON-DIOXIDE-REMOVAL-PERMANENCE-JUSTICE-2026-10-30.md)
+extends the conversion lens into climate mitigation. IPCC, DOE and IEA evidence
+closes the role of CDR in mitigation pathways, method heterogeneity, innovation
+finance, emerging offtake, MRV design and the current pilot-to-scale boundary.
+It does not close whether a named project delivers additional and durable
+atmospheric removal, or whether present land, water, energy, biomass, transport
+and community burdens are fairly governed and compensated.
+
+CDR adds a temporal-geographic test: the buyer or state may claim a future tonne
+while a different community bears present costs, and the site of removal may be
+far from the site of emissions or benefit. The next acquisition should follow
+one method/project/community from residual-emissions rationale and baseline
+through inputs, measured removal, storage permanence, leakage or reversal,
+lifecycle emissions, credit use, consent, benefit receipt, liability and later
+verification, while comparing direct-abatement and non-deployment alternatives.
+
 ## Strongest open conversion lanes
 
 1. **Facility-to-household incidence:** AI/data-centre, transmission, water,

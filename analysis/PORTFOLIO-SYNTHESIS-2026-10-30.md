@@ -133,3 +133,17 @@ The next acquisition is a named crop/trait/place ledger from germplasm and
 licensing through seed access, multi-season field results, farmer adoption,
 non-target effects, food use, consumer/cultural response, labeling and trade,
 with a public-breeding or non-edited comparator.
+
+## Carbon-removal permanence and climate-justice comparator
+
+The carbon-dioxide-removal packet adds a temporal-geographic test to local
+adaptation. A buyer or state may claim a future tonne while another community
+bears present land, water, energy, biomass, transport or storage burdens. The
+portfolio should therefore distinguish a CDR pathway, pilot, credit, offtake or
+MRV protocol from additional and durable atmospheric removal, fair benefit,
+local authority and liability for reversal.
+
+The next acquisition is a named method/project/community chain through baseline,
+inputs, measured removal, permanence, lifecycle emissions, credit use, consent,
+benefit receipt, liability and later verification, compared with direct
+abatement and non-deployment alternatives.
