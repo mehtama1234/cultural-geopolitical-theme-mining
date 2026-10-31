@@ -9,9 +9,9 @@ Across eight evidence-backed records, the repeated pattern is:
 
 This is a cross-domain lens, not a claim that every trend has one cause.
 
-## First implementation: L&T AI CoE
+## Optional implementation example: L&T AI CoE
 
-L&T AI CoE is the first concrete implementation context. The [L&T exposure
+L&T AI CoE is one downstream implementation example. The [L&T exposure
 assessment](../../lnt-ai-coe-charter/07-codex-analysis/COMPANY-TREND-INTELLIGENCE-LNT-ASSESSMENT-2026-10-31.md)
 translates these external hypotheses into L&T exposure questions, owners,
 evidence gaps, and next tests. It does not establish L&T demand, ROI,

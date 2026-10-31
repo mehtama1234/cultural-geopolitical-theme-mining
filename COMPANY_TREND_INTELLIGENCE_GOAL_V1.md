@@ -3,7 +3,7 @@
 **Program:** Cultural, Social, and Geopolitical Theme Mining
 **Audience:** Companies, strategy teams, investors, risk leaders, product
 leaders, and public-affairs teams
-**Status:** Governing goal; L&T AI CoE is the first implementation context
+**Status:** Governing, company-agnostic goal
 
 ## The goal
 
@@ -28,13 +28,14 @@ interpretation system.
 Help a company see important change early, understand it correctly, and make
 better decisions before the change becomes obvious.
 
-## First implementation context: L&T AI CoE
+## Optional implementation example: L&T AI CoE
 
-This is a general company-facing goal, with L&T AI CoE as the first concrete
-implementation context. L&T is the proving ground for whether the system can
-move from external cultural, financial, technological, institutional,
-infrastructure, and geopolitical signals to an accountable enterprise AI
-decision.
+This is a general company-facing goal. L&T AI CoE is retained only as one
+downstream example of how the method can be applied; it is not required for the
+research system, and it is not the focus of this goal. Any company should be
+able to use the same contract to move from external cultural, financial,
+technological, institutional, infrastructure, and geopolitical signals to an
+accountable enterprise decision.
 
 The L&T translation must remain explicit about the boundary between public
 evidence and company evidence:
@@ -53,7 +54,7 @@ deployment authorization, or customer value by itself. Those claims require
 L&T-owned evidence, Finance and control review, affected-party safeguards, and
 an explicit decision record.
 
-The L&T implementation artifacts are maintained in the companion repository:
+An optional L&T implementation is maintained in a companion repository:
 
 - [L&T company-trend assessment](../lnt-ai-coe-charter/07-codex-analysis/COMPANY-TREND-INTELLIGENCE-LNT-ASSESSMENT-2026-10-31.md)
 - [L&T exposure register](../lnt-ai-coe-charter/07-codex-analysis/LNT-COMPANY-TREND-EXPOSURE-REGISTER-V1.csv)
@@ -227,6 +228,6 @@ geopolitical work should use the same evidence and handoff discipline.
 
 The company-facing layer does not replace the research goal. It translates the
 research into decision relevance while keeping observation, inference,
-uncertainty, and open questions visible. L&T is the first end-to-end test of
-that translation; additional companies should reuse the record contract without
-silently inheriting L&T-specific assumptions.
+uncertainty, and open questions visible. Any downstream company application
+should reuse the record contract without silently inheriting another company’s
+assumptions.

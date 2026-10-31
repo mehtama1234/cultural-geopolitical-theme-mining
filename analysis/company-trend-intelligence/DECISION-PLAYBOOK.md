@@ -2,9 +2,9 @@
 
 This playbook turns the trend board into a repeatable management rhythm.
 
-## First implementation: L&T AI CoE
+## Optional implementation example: L&T AI CoE
 
-Use the [L&T company-trend assessment](../../lnt-ai-coe-charter/07-codex-analysis/COMPANY-TREND-INTELLIGENCE-LNT-ASSESSMENT-2026-10-31.md)
+If an L&T application is desired, use the [L&T company-trend assessment](../../lnt-ai-coe-charter/07-codex-analysis/COMPANY-TREND-INTELLIGENCE-LNT-ASSESSMENT-2026-10-31.md)
 and [exposure register](../../lnt-ai-coe-charter/07-codex-analysis/LNT-COMPANY-TREND-EXPOSURE-REGISTER-V1.csv)
 as the first application of this rhythm. The current L&T release boundary is
 `HOLD`: external trends are hypotheses until L&T names a sponsor, permits the
