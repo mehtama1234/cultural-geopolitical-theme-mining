@@ -46,6 +46,8 @@ language exclusion, low-resource data and intergenerational decline
 | TalkLink Annual Report 2025 Tua o te Pae | TalkLink reports Te Hiku Media voices being tested by a small number of Māori Accent-device users, positive feedback, preferred-gender voice options and work to adapt voices for Grid 3 and wider devices. | small-cohort user testing and compatibility expansion | cohort size, participant characteristics, repeated daily use, communication success, language participation, user safety and broad rollout |
 | Te Taura Whiri i te Reo Māori and Google Maps text-to-speech | The Māori Language Commission reports a public Google Maps voice that pronounces Māori place names, a feedback route for errors, Commission-guided pronunciation, New Zealand Geographic Board data, Commission kaitiakitanga and Google licensing; the release is currently limited to Google Maps and does not cover dialect variation. | public-facing geographic voice deployment with named stewardship and correction route | usage volume, correction counts, pronunciation quality by region/dialect, long-term kaitiaki structure, benefit sharing and effect on Māori-language use or place-name behavior |
 | Welsh Government review of Welsh-language health and social-care data | A 2026 review supporting the Active Offer finds fragmented and inconsistently recorded data, gaps in coverage, limited user-experience data and weak links between workforce skills and service delivery; it proposes 39 indicators across service delivery, demand, workforce ability and future workforce ability. | explicit outcome-measurement framework and evidence-gap diagnosis for language access in care | routine indicator production, user-level service completion, actual demand, quality and safety, organization-level comparability and whether technology changes access or experience |
+| Sámi AI Lab Ábo Web Service | The Sámi AI Lab, hosted by Sámi University of Applied Sciences and UiT, reports a functional public-facing Ábo service that lets users speak naturally in Sámi and receive real-time transcription and translation, aimed at reducing language switching in digital spaces. | public-facing speech-to-text/translation service and named Indigenous-led development route | active users, language coverage, transcription/translation error by dialect, repeat use, professional or educational outcomes, privacy and community control of speech data |
+| Sámi AI Lab health, cultural-generation and evaluation tracks | Sámi AI Lab describes developmental work on Sámi-specific cognitive assessment, culturally accurate generative tools for duodji and a Sámi understanding benchmark; it states that the benchmark and clinical platform remain in development and positions Sámi-led governance as a control surface. | named high-stakes use cases, evaluation agenda and Indigenous-led governance structure | validated clinical performance, safety, clinical adoption, benchmark release, cultural-fidelity testing, data access rules, traditional-knowledge restrictions and outcomes for Sámi users |
 
 ## Stage audit
 
@@ -153,6 +155,15 @@ measurement prevent routine system-level evaluation. Geographic visibility and
 service accessibility are therefore separate conversion stages, even when both
 are described as language inclusion.
 
+The Sámi case adds a third conversion route: community-led service capability.
+Ábo is reported as a functional public platform, so it is stronger than a plan
+or corpus announcement, but the public description does not provide user
+counts, error rates, dialect coverage or service outcomes. In parallel, the
+same lab treats clinical assessment, cultural generation and evaluation as
+separate workstreams. That separation is analytically important: an Indigenous
+institution can control the agenda and still need independent evidence that a
+tool is safe, accurate, repeatedly used and beneficial in high-stakes settings.
+
 ## Cultural and geographical interpretation
 
 Low-resource is not the same as low-value. A language can be economically small
@@ -229,3 +240,4 @@ collection; do not infer vitality from model or corpus size.
 18. [TalkLink Annual Report 2025 Tua o te Pae](https://talklink.org.nz/uploads/147704481b6d997ccea42b4501bc6d36.pdf)
 19. [Te Taura Whiri i te Reo Māori and Google Maps text-to-speech](https://en.tetaurawhiri.govt.nz/google-maps)
 20. [Welsh Government review of Welsh-language health and social-care data](https://www.gov.wales/review-data-measure-progress-against-more-just-words-plan-2022-2027-health-and-social-care)
+21. [Sámi AI Lab](https://samiailab.github.io/)
