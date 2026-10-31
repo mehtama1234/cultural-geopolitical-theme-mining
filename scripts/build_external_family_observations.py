@@ -84,6 +84,9 @@ def main() -> int:
     bls_labor_capacity_check = json.loads(
         (ROOT / "analysis" / "external-trend-intelligence" / "bls-labor-capacity-mechanism-check.json").read_text()
     )
+    annual_report_citation_map = json.loads(
+        (ROOT / "analysis" / "external-trend-intelligence" / "annual-report-citation-map.json").read_text()
+    )
     ibis_findings_path = "cross_industry_findings_register.json"
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
     ibis_pattern_inventory_path = "cross_industry_pattern_inventory.json"
@@ -385,6 +388,9 @@ def main() -> int:
             theme_names=[name.strip() for _, name in theme_rows],
             citation_source_path=annual_citation_path,
             citation_row_count=len(annual_citation_rows),
+            citation_map_path="annual-report-citation-map.json",
+            citation_map_status="normalized",
+            citation_publisher_host_count=annual_report_citation_map["publisher_host_count"],
             citation_source_ids=[row[0] for row in annual_citation_rows],
             citation_category_counts=annual_category_counts,
             source_urls=annual_source_urls,

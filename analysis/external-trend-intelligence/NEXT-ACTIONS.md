@@ -64,6 +64,10 @@ Next test:
   vacancy, filled-hours, or service-rationing measure and retain the finding on
   hold.
 - Map the 25 annual-report citation URLs to specific themes and companies.
+- The annual-report citation map now preserves all 25 rows, five source
+  packets, ten publisher hosts, periods, document types, status, and claim
+  boundaries. It remains source-scoped until each citation is tied to a theme
+  claim and checked against an independent outcome source.
 - Map the 39 Inc. opportunity URLs to the five opportunity hypotheses and
   independently test buyer demand and outcomes.
 - Map the 89 social publication URLs to atlas claims while keeping platform
