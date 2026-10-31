@@ -44,6 +44,11 @@ def main() -> int:
     assert "external-family-observations.json" in candidates
     assert "external-family-comparisons.json" in candidates
     assert "CARE-CAPACITY-CANDIDATE.md" in candidates
+    runbook = (ANALYSIS / "REFRESH-RUNBOOK.md").read_text()
+    assert "build_external_repository_family_snapshot.py" in runbook
+    assert "build_external_family_observations.py" in runbook
+    assert "validate_external_trend_intelligence.py" in runbook
+    assert "No internal company join" in runbook
     machine = json.loads((ANALYSIS / "candidate-comparisons.json").read_text())
     assert machine["schema"] == "external-trend-intelligence.candidate-comparisons.v1"
     assert len(machine["candidates"]) == 4

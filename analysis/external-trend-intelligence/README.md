@@ -158,3 +158,8 @@ from a pinned source tree. The next build is deeper lineage and cross-source
 candidate comparison for the 14 themes, with counter-signals and a promotion
 queue. The company trend board remains a downstream view, not the discovery
 engine.
+
+The repeatable refresh procedure is in
+[`REFRESH-RUNBOOK.md`](REFRESH-RUNBOOK.md). It covers pinning sibling
+repositories, rebuilding observations, auditing lineage, challenging
+comparisons, and publishing the board.

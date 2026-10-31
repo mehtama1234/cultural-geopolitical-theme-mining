@@ -114,4 +114,5 @@ useful signal, make uncertainty visible, and keep testing before promotion.
 
 - [External source registry](EXTERNAL_SOURCE_REGISTRY.md)
 - [External trend-analysis contract](analysis/external-trend-intelligence/README.md)
+- [External refresh runbook](analysis/external-trend-intelligence/REFRESH-RUNBOOK.md)
 - [Company-facing translation layer](COMPANY_TREND_INTELLIGENCE_GOAL_V1.md)
