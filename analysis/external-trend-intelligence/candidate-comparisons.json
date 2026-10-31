@@ -191,7 +191,13 @@
       "mechanism": "capacity or ownership concentration -> dependency and unequal access -> local burden, public legitimacy, resilience, or state leverage",
       "counter_signal": "Redundancy, public governance, open access, local benefits, and credible substitutes can create shared capacity.",
       "next_comparison": "Link operation, actual user receipt, local incidence, maintenance, and later behavior; announced capacity is not reliable benefit.",
-      "lineage_review": {"status": "not_started", "primary_artifact_count": null, "independence_status": "unverified", "assessment": "Requires source-packet review."},
+      "lineage_review": {
+        "status": "partial",
+        "primary_artifact_count": 7,
+        "independence_status": "partially_reviewed",
+        "assessment": "Seven source sets are identifiable: PJM/DOE/FERC large-load reliability materials for one operating event, USCC trans-Pacific cable research, OECD Space Economy, Africa Sustainable Development Report, OECD/EU Social Economy in Europe, IRENA Renewable Capacity Statistics, and World Bank cloud-procurement guidance.",
+        "remaining": "PJM materials are one event with multiple documents; OECD/EU pages are one report; guidance and modeled risks are not observed user outcomes. Cross-source comparability remains open."
+      },
       "coverage": {
         "evidence_record_count": 7,
         "source_host_count": 14,

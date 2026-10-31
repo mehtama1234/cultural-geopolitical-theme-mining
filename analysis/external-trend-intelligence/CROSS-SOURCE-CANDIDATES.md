@@ -15,7 +15,7 @@ the same people, firms, places, or events.
 | Formal response before usable recovery | 7 | 6 | 17 | 2 | Partially reviewed; publisher/study lineage open |
 | Time and financial pressure / practical room | 7 | 8 | 25 | 0 | Partially reviewed; survey comparability open |
 | Digital capability, control, and trust | 7 | 13 | 19 | 0 | Partially reviewed; sponsorship/method comparability open |
-| Infrastructure dependency and power | 7 | 14 | 26 | 0 | Unverified; lineage review required |
+| Infrastructure dependency and power | 7 | 14 | 26 | 0 | Partially reviewed; event/report comparability open |
 
 Host and URL diversity are discovery-coverage measures only. They are not
 independent confirmation because multiple publications may reuse one study,

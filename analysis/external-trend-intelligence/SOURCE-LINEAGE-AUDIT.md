@@ -2,7 +2,8 @@
 
 **Manifest:** `observation-manifest.json`
 **Candidate set:** `candidate-comparisons.json`
-**Status:** Candidates 1–3 partially reviewed; Candidate 4 remains unreviewed.
+**Status:** Candidates 1–4 partially reviewed; first-wave primary-source review
+is complete, but full publisher/study independence remains open.
 
 ## Duplicate URL findings
 
@@ -49,7 +50,17 @@ the HBS page is a secondary representation of the INFORMS paper; and DIMA
 depends on MusicWatch research. This supports partial lineage only. Survey
 sponsorship, methods, and population comparability remain open.
 
-Candidate 4 remains `independence_status: unverified` because:
+Candidate 4 has seven source sets: PJM/DOE/FERC large-load reliability
+materials for one operating event, USCC trans-Pacific cable research, OECD
+Space Economy, Africa Sustainable Development Report, OECD/EU Social Economy
+in Europe, IRENA Renewable Capacity Statistics, and World Bank cloud-procurement
+guidance. PJM materials describe one event across multiple documents, and the
+OECD/EU pages are one report. Guidance and modeled risks are not observed user
+outcomes. This supports partial lineage only; cross-source comparability and
+publisher/study independence remain open.
+
+The first-wave candidates are therefore all at least partially source-mapped,
+but none is promoted to confirmed independent evidence. Remaining checks are:
 
 - a different host can republish the same study, dataset, press release, or
   institutional claim;

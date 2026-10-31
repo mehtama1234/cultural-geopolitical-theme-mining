@@ -83,7 +83,8 @@ def main() -> int:
     assert len(internal_catalog["sources"]) >= 8
     assert all("authority" in source and "readiness" in source for source in internal_catalog["sources"])
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
-    assert "independence_status: unverified" in lineage
+    assert "source-independence result" in lineage
+    assert "partially source-mapped" in lineage
     assert "dependent_restatement" in lineage
     print(
         "valid external trend intelligence:",
