@@ -21,6 +21,22 @@ worker voice, job quality, trust, retention, customer outcomes, and firm
 capability. Its strongest open test is a named-employer ledger connecting
 implementation to worker and household outcomes.
 
+### Consumer recourse is visible before it is effective
+
+[Consumer recourse trend record](company-trend-consumer-recourse-2026-001.md)
+
+This qualified trend translates CFPB, household, and recall evidence into
+customer, product, financial, operational, and reputation exposure. Its open
+test is verified correction or payment followed through to practical exit.
+
+### Geopolitical capability creates a permission gap
+
+[Geopolitical permission-gap trend record](company-trend-geopolitical-permission-gap-2026-002.md)
+
+This qualified trend separates operational capability, alliance response,
+local coordination, public permission, and durable leverage. Its open test is a
+dated incident ledger with later behavior and burden measures.
+
 ## Record contract
 
 - [Company trend-intelligence goal](../../COMPANY_TREND_INTELLIGENCE_GOAL_V1.md)
@@ -33,15 +49,12 @@ implementation to worker and household outcomes.
 The next records should cover different parts of the 14-theme program and
 different company decisions:
 
-1. **Consumer affordability and recourse:** whether formal refunds, benefits,
-   or protections are usable in practice and how that changes loyalty, churn,
-   and trust.
-2. **Infrastructure capacity and local incidence:** whether announced energy,
+1. **Infrastructure capacity and local incidence:** whether announced energy,
    data, transport, or broadband capacity becomes reliable service and how
    costs and dependency are distributed.
-3. **Cultural and language technology:** whether digitization and AI create
+2. **Cultural and language technology:** whether digitization and AI create
    real access, repeated use, community control, and market-localization value.
-4. **Geopolitical dependence:** how supply, technology, sanctions, or alliance
+3. **Geopolitical dependence:** how supply, technology, sanctions, or alliance
    changes affect operating continuity, strategic options, and state leverage.
 
 Each new record should use the same schema and should be promoted only after a
