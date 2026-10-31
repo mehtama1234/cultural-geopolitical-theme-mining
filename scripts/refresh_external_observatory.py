@@ -44,6 +44,7 @@ STEPS = [
     ["scripts/build_usda_temporal_holdout.py"],
     ["scripts/build_shed_emergency_expense_acquisition.py"],
     ["scripts/build_shed_uncertainty_audit.py"],
+    ["scripts/build_shed_point_estimate_reproduction.py"],
     ["scripts/build_us_financial_room_comparison.py"],
     ["scripts/build_temporal_decision_narrative.py"],
     ["scripts/build_bounded_subset_lineage.py"],

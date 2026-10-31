@@ -17,7 +17,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 52-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 53-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -27,10 +27,11 @@
         "rights-review-queue.json",
         "rights-evidence-register.json",
         "shed-emergency-expense-uncertainty-audit.json",
+        "shed-point-estimate-reproduction-audit.json",
         "test_rights_release_gate.py",
         "observation-manifest.json"
       ],
-      "gap": "Rights and publisher dependence remain unverified for all families, and the SHED uncertainty audit documents that only a non-release naive interval is currently available; the release gate is tested to fail closed."
+      "gap": "Rights and publisher dependence remain unverified for all families; the SHED audit documents that only a non-release naive interval is available and the published point estimate does not yet reproduce from obvious public-use recodes. The release gate is tested to fail closed."
     },
     {
       "id": "independent_source_comparison",
