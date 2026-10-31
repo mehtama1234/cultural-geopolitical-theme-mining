@@ -34,6 +34,8 @@ language exclusion, low-resource data and intergenerational decline
 | Welsh Government Welsh language technology and AI priorities | Welsh Government identifies daily use of Cymraeg, access to Welsh technology, and improved AI/speech technologies as explicit priorities, with data sharing and work across education, workplaces, procurement and services. | named policy and institutional implementation routes | live tool availability, completed service encounters, quality, daily use and speaker growth |
 | FirstVoices community language platform | FirstVoices describes Indigenous communities as managing, curating and sharing language sites, with community-uploaded data available through mobile and desktop applications. | named community-managed platform and access route | site-level governance, sensitive-data restrictions, repeated use, learning, transmission and stewardship |
 | University of Waikato Waikato-Maniapoto AI voice project | University of Waikato reports a dialect-specific AI voice intended to help future generations hear and connect with Waikato-Maniapoto te reo Māori and describes high perceptual similarity to the original speaker. | named dialect-specific technology and cultural-identity rationale | authorization, speaker rights, deployment, learner uptake, repeated use, transmission and misuse safeguards |
+| Welsh Government Annual Population Survey Welsh language data | APS estimates 828,600 Welsh speakers and 423,900 people reporting daily Welsh use for April 2024–March 2025, while the release warns of survey uncertainty and says the census remains the key measure for the national target. | population and daily-use outcome signal with explicit measurement caveat | causal link to a technology, education or service intervention; durable cohort use and transmission |
+| Estyn post-16 Welsh-language training evaluation | Estyn reports more Welsh-capable practitioners and more learning activities containing a small amount of Welsh-medium learning, but no direct attribution to training and no comparable increase in higher-intensity Welsh-medium or Welsh-only activity. | staff-skill and low-intensity provision signal | student/apprentice repeated use, higher-intensity provision, causal attribution and long-term transmission |
 
 ## Stage audit
 
@@ -78,6 +80,15 @@ languages” claims, but none of the three sources alone proves repeated use,
 child transmission, safe service completion or durable vitality. The next
 measurement unit must therefore be the named language site, classroom,
 workplace, service encounter or media deployment—not the existence of the tool.
+
+The Welsh outcome evidence supplies a useful counterexample to easy success
+narratives. A population survey reports substantial daily use, but its methods
+note warns about uncertainty and divergence from census results. The post-16
+evaluation finds progress in practitioner capability and small amounts of
+Welsh-medium activity while higher-intensity provision remains flat and causal
+attribution is absent. Technology and training can therefore move early
+capability indicators without yet producing consistent institutional use or
+transmission.
 
 ## Cultural and geographical interpretation
 
@@ -143,3 +154,5 @@ collection; do not infer vitality from model or corpus size.
 6. [Welsh Government Welsh language technology and AI updates](https://www.gov.wales/welsh-language-technology-and-artificial-intelligence-ai-updates)
 7. [FirstVoices community language platform](https://www.firstvoices.com/)
 8. [University of Waikato Waikato-Maniapoto AI voice project](https://www.waikato.ac.nz/news-events/news/a-voice-for-the-future-the-first-ai-generated-waikato-maniapoto-voice/)
+9. [Welsh Government Annual Population Survey Welsh language data](https://www.gov.wales/welsh-language-data-annual-population-survey-april-2024-march-2025-html)
+10. [Estyn post-16 Welsh-language training evaluation](https://estyn.gov.wales/improvement-resources/thematic-report-increasing-the-use-of-the-welsh-language-in-the-post-16-sectors/)
