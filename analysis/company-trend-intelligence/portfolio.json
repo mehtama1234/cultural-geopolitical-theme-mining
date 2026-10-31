@@ -8,6 +8,8 @@
       "title": "AI changes workplace control before it settles productivity",
       "path": "company-trend-ai-workplace-control-2026-10-29.md",
       "status": "qualified_trend",
+      "confidence": "medium",
+      "horizon": ["now", "next"],
       "domains": ["work", "technology", "firm_power", "trust"],
       "decision_owners": ["workforce", "product", "operations", "risk", "strategy"],
       "open_test": "Named-employer implementation ledger linking AI exposure to worker and household outcomes"
@@ -17,6 +19,8 @@
       "title": "Consumer recourse is visible before it is effective",
       "path": "company-trend-consumer-recourse-2026-001.md",
       "status": "qualified_trend",
+      "confidence": "medium",
+      "horizon": ["now", "next"],
       "domains": ["consumer", "finance", "public_systems", "trust"],
       "decision_owners": ["customer_operations", "compliance", "product", "risk", "reputation"],
       "open_test": "Essential-service case record from initial contact through verified remedy and practical exit"
@@ -26,6 +30,8 @@
       "title": "Geopolitical capability creates a permission gap before it creates leverage",
       "path": "company-trend-geopolitical-permission-gap-2026-002.md",
       "status": "qualified_trend",
+      "confidence": "medium",
+      "horizon": ["now", "next", "longer_term"],
       "domains": ["geopolitics", "state_power", "infrastructure", "legitimacy"],
       "decision_owners": ["enterprise_risk", "supply_chain", "public_affairs", "security", "strategy"],
       "open_test": "Incident-country-party ledger linking capability, response, burden, permission, recovery, and later behavior"
@@ -35,6 +41,8 @@
       "title": "Language technology creates visibility before it creates vitality",
       "path": "company-trend-cultural-language-technology-2026-004.md",
       "status": "qualified_trend",
+      "confidence": "medium",
+      "horizon": ["now", "next", "longer_term"],
       "domains": ["culture", "identity", "localization", "accessibility", "technology"],
       "decision_owners": ["product_localization", "accessibility", "public_affairs", "data_governance", "market_entry"],
       "open_test": "Stable Gazetteer crosswalk plus repeated use and completed tasks in a real workflow"
@@ -44,6 +52,8 @@
       "title": "Infrastructure capacity creates a bargain before it creates reliable benefit",
       "path": "company-trend-infrastructure-bargain-2026-005.md",
       "status": "qualified_trend",
+      "confidence": "medium",
+      "horizon": ["now", "next", "longer_term"],
       "domains": ["infrastructure", "operations", "finance", "public_systems", "geopolitics"],
       "decision_owners": ["operations", "finance", "resilience", "procurement", "regulatory", "strategy"],
       "open_test": "Identifier-bearing project record from approval through operation, user receipt, burden, maintenance, and exit"
@@ -53,6 +63,8 @@
       "title": "Financial pressure creates navigation work before it creates visible demand change",
       "path": "company-trend-household-financial-room-2026-006.md",
       "status": "qualified_trend",
+      "confidence": "medium",
+      "horizon": ["now", "next"],
       "domains": ["household_finance", "consumer", "time_and_care", "trust", "political_meaning"],
       "decision_owners": ["pricing", "growth", "customer_strategy", "finance", "product", "risk"],
       "open_test": "Transaction or household-panel link from search episode to completion, payment, recovery, and exit"
