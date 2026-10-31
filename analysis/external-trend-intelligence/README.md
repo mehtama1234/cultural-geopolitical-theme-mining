@@ -3,6 +3,17 @@
 This directory defines the first-stage external analysis layer. It discovers
 and qualifies trends before any internal company data is used.
 
+`observation-manifest.json` is the current provenance-preserving index of the
+source-backed records already in this repository. It contains record metadata,
+themes, source hosts, and boundaries; it does not copy or merge the underlying
+measurements. Rebuild it from a pinned tree with:
+
+```text
+python3 scripts/build_external_observation_manifest.py \
+  --git-ref HEAD \
+  --output analysis/external-trend-intelligence/observation-manifest.json
+```
+
 ## Stages
 
 1. **Capture:** preserve the external URL/API, publisher, date, retrieval
@@ -54,8 +65,7 @@ timing are candidate connections—not proof of a valid join.
 
 ## Current next build
 
-Create a machine-readable external-observation manifest from the existing
-source registry and upstream repository snapshots. Then generate cross-source
-candidate comparisons for the 14 themes, with counter-signals and a promotion
-queue. The company trend board remains a downstream view, not the discovery
-engine.
+The first machine-readable manifest is now generated from the pinned source
+tree. The next build is cross-source candidate comparison for the 14 themes,
+with counter-signals and a promotion queue. The company trend board remains a
+downstream view, not the discovery engine.
