@@ -59,6 +59,11 @@ require artifact-level review. The two Inc. 5000 trend records now preserve
 their example URLs and denominator explicitly; the other records remain
 artifact-level synthesis or provenance signals.
 
+The held comparison layer is
+[`external-family-comparisons.json`](external-family-comparisons.json). It
+records three thematic/mechanism relationships without treating adjacency as
+a data join or promoting any new trend prematurely.
+
 The later internal-data step is documented in
 [`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
 not change the meaning or status of external evidence.

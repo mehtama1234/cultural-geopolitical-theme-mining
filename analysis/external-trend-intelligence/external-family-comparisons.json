@@ -1,0 +1,37 @@
+{
+  "schema": "external-trend-intelligence.external-family-comparisons.v1",
+  "purpose": "Held cross-source comparisons between newly ingested repository observations and the annual-report/Inc. 5000 evidence lanes.",
+  "join_policy": "Thematic adjacency is not a valid data join. Promotion requires compatible entity, unit, geography, period, denominator, and independent source lineage.",
+  "comparisons": [
+    {
+      "id": "health-longevity-to-healthcare-access",
+      "observation_ids": ["inc5000-health-longevity-demand-source-linked-share", "annual-report-integrated-theme-map"],
+      "relationship": "thematic_adjacency",
+      "status": "held_no_join",
+      "rationale": "The Inc. 5000 ledger reports health/longevity offers and source-linked company coverage; the annual-report map names healthcare access as an operating-pressure theme. Neither establishes the same population, period, geography, or outcome.",
+      "counter_signal": "The Inc. 5000 record includes low-growth counterexamples and discretionary pet/consumer offers, so the signal may reflect business-model variety rather than broad healthcare demand.",
+      "next_test": "Capture comparable dated demand, utilization, reimbursement, capacity, or spending measures from independent official or research sources.",
+      "promotion_gate": "Do not promote until denominator, geography, period, and independent outcome evidence are present."
+    },
+    {
+      "id": "creator-commerce-to-household-value",
+      "observation_ids": ["inc5000-creator-brand-commerce-source-linked-share", "annual-report-integrated-theme-map"],
+      "relationship": "thematic_adjacency",
+      "status": "held_no_join",
+      "rationale": "The Inc. 5000 ledger reports creator/brand/commerce examples; the annual-report map includes services, cultural consumption, household identity, and value retail. These are compatible themes but not a shared customer or sales denominator.",
+      "counter_signal": "The ledger’s high-growth examples can be concentrated company cases, while value-retail pressure may reduce discretionary spend and weaken the inferred mechanism.",
+      "next_test": "Compare dated consumer spending, household budget, channel, and repeat-purchase measures across independent sources.",
+      "promotion_gate": "Do not infer consumer prevalence or willingness to pay from company examples alone."
+    },
+    {
+      "id": "opportunity-screen-to-digital-control",
+      "observation_ids": ["inc5000-opportunity-intelligence-screen", "annual-report-integrated-theme-map"],
+      "relationship": "mechanism_hypothesis",
+      "status": "held_no_join",
+      "rationale": "Compliance/proof-of-work and labor-capacity opportunities could relate to the annual-report digital-control and industrial/healthcare operating themes, but the opportunity screen is a queue, not observed adoption or outcomes.",
+      "counter_signal": "There are zero field-evidence submissions and zero field-evidence assessments in the cited opportunity manifest.",
+      "next_test": "Acquire dated buyer, implementation, retention, and outcome records for each opportunity before comparing it with external adoption or regulatory pressure.",
+      "promotion_gate": "Keep as a hypothesis until field evidence and independent implementation outcomes exist."
+    }
+  ]
+}

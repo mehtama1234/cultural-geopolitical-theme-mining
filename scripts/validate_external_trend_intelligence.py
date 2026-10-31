@@ -147,6 +147,17 @@ def main() -> int:
             assert observation["source_url_count"] == len(observation["source_urls"])
             assert observation["denominator"] == "candidate_flagged_companies"
             assert observation["low_growth_counterexample_count"] >= 1
+    family_comparisons = json.loads((ANALYSIS / "external-family-comparisons.json").read_text())
+    assert family_comparisons["schema"] == "external-trend-intelligence.external-family-comparisons.v1"
+    assert len(family_comparisons["comparisons"]) == 3
+    family_observation_ids = set(observation_ids)
+    for comparison in family_comparisons["comparisons"]:
+        assert comparison["observation_ids"]
+        assert set(comparison["observation_ids"]) <= family_observation_ids
+        assert comparison["relationship"] in {"thematic_adjacency", "mechanism_hypothesis"}
+        assert comparison["status"] == "held_no_join"
+        assert comparison["rationale"] and comparison["counter_signal"]
+        assert comparison["next_test"] and comparison["promotion_gate"]
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage
