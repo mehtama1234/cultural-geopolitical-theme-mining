@@ -148,3 +148,16 @@ measurement gaps, urban governance, prevention hierarchy and circular options.
 They do not by themselves establish named household nutrition, affordability,
 worker safety, farmer or vendor resilience, cultural continuity, or a verified
 local methane reduction.
+
+## Sources
+
+The packet’s evidence snapshot is anchored to these official source families.
+They support global measurement, prevention hierarchy, urban governance and
+policy mechanisms; they do not close the named household, worker, diet or
+environmental outcomes identified above.
+
+- UNEP, [Food Waste Index Report 2024](https://www.unep.org/resources/report/food-waste-index-report-2024)
+- UNEP, [Food Waste Index 2024 key messages](https://www.unep.org/resources/report/food-waste-index-report-2024-key-messages)
+- UNEP, [Food Waste Index 2024 methodology](https://www.unep.org/resources/report/food-waste-index-report-2024-methodology)
+- UNEP, [food loss and waste](https://www.unep.org/topics/food-systems/food-loss-and-waste)
+- OECD, [food loss and waste](https://www.oecd.org/en/topics/food-loss-and-waste.html)
