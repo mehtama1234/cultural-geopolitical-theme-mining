@@ -23,9 +23,10 @@
         "external-family-lineage-review.json",
         "rights-review-queue.json",
         "rights-evidence-register.json",
+        "test_rights_release_gate.py",
         "observation-manifest.json"
       ],
-      "gap": "Rights and publisher dependence remain unverified for all families."
+      "gap": "Rights and publisher dependence remain unverified for all families, but the release gate is now tested to fail closed."
     },
     {
       "id": "independent_source_comparison",

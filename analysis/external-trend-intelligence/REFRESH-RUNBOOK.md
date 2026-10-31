@@ -18,6 +18,15 @@ python3 scripts/build_external_refresh_status.py
 age. It is a control-plane check, not proof that a source is current or
 independent.
 
+Verify the rights gate remains fail-closed while any family is unresolved:
+
+```text
+python3 scripts/test_rights_release_gate.py
+```
+
+This confirms that every registered family has a matching rights record and
+that unresolved rights or publisher dependence keeps release health on hold.
+
 Exercise the stale gate and its recovery path without mutating the release
 tree:
 
