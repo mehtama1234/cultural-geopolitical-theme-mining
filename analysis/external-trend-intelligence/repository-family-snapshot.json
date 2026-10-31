@@ -65,6 +65,32 @@
         "data/public_company_intelligence/": 592
       },
       "boundary": "Blob lineage proves what was present at the pinned revision; it does not prove that every record is independent, current, representative, or suitable for a trend claim."
+    },
+    {
+      "id": "ibis-industries",
+      "repository_path": "/home/mehta/git-repo/ibis-industries",
+      "revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+      "manifest_paths": [
+        {
+          "path": "research_manifest.json",
+          "blob": "bd5c8d5ce3037686197697c574c833699e0a057f",
+          "size": 15056
+        },
+        {
+          "path": "cross_industry_findings_register.json",
+          "blob": "b9b1288f61d659605c9f7e5ed1aec88679f64330",
+          "size": 9751
+        },
+        {
+          "path": "cross_industry_trends_2025_2026.json",
+          "blob": "a64e824968a202fb8a5fe4e04da04dfc8c8814f0",
+          "size": 18350
+        }
+      ],
+      "directory_prefix_counts": {
+        "trend-review-batches/": 4854
+      },
+      "boundary": "Blob lineage proves what was present at the pinned revision; it does not prove that every record is independent, current, representative, or suitable for a trend claim."
     }
   ]
 }

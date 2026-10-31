@@ -102,6 +102,57 @@
       "promotion_decision": "hold"
     },
     {
+      "observation_id": "ibis-industry-record-corpus",
+      "status": "not_started",
+      "source_url_count": 0,
+      "source_host_count": 0,
+      "source_hosts": [],
+      "duplicate_source_urls": {},
+      "denominator": null,
+      "source_url_status": "not_present_in_artifact",
+      "independence_status": "unverified",
+      "remaining": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "promotion_decision": "hold"
+    },
+    {
+      "observation_id": "ibis-cross-industry-discovery-findings",
+      "status": "not_started",
+      "source_url_count": 0,
+      "source_host_count": 0,
+      "source_hosts": [],
+      "duplicate_source_urls": {},
+      "denominator": null,
+      "source_url_status": "not_present_in_artifact",
+      "independence_status": "unverified",
+      "remaining": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "promotion_decision": "hold"
+    },
+    {
+      "observation_id": "ibis-cross-industry-business-forces",
+      "status": "not_started",
+      "source_url_count": 0,
+      "source_host_count": 0,
+      "source_hosts": [],
+      "duplicate_source_urls": {},
+      "denominator": null,
+      "source_url_status": "not_present_in_artifact",
+      "independence_status": "unverified",
+      "remaining": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "promotion_decision": "hold"
+    },
+    {
       "observation_id": "inc5000-rebuild-public-input-inventory",
       "status": "not_started",
       "source_url_count": 0,

@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.external-family-observations.v1",
   "purpose": "First normalized observations from pinned external repository artifacts; these are not yet promoted cross-source trends.",
-  "observation_count": 5,
+  "observation_count": 8,
   "observations": [
     {
       "observation_id": "inc5000-health-longevity-demand-source-linked-share",
@@ -141,6 +141,64 @@
         "monitor": 5,
         "kill": 0
       }
+    },
+    {
+      "observation_id": "ibis-industry-record-corpus",
+      "family_id": "ibis-industries",
+      "source_path": "research_manifest.json",
+      "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+      "title": "IBIS industry evidence corpus",
+      "value": 1491,
+      "unit": "industry records",
+      "observation_period": "artifact release dated 2026-10-30 or pinned revision",
+      "geography": "United States",
+      "source_url_status": "not_present_in_artifact",
+      "evidence_status": "reported_provenance",
+      "boundary": "Corpus size describes the research inventory; it does not establish that every record is current, independent, or evidence for a trend.",
+      "data_window": "2025-2026"
+    },
+    {
+      "observation_id": "ibis-cross-industry-discovery-findings",
+      "family_id": "ibis-industries",
+      "source_path": "cross_industry_findings_register.json",
+      "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+      "title": "IBIS baseline cross-industry discovery findings",
+      "value": 5,
+      "unit": "discovery hypotheses",
+      "observation_period": "artifact release dated 2026-10-30 or pinned revision",
+      "geography": "not specified in the artifact",
+      "source_url_status": "not_present_in_artifact",
+      "evidence_status": "reported_synthesis",
+      "boundary": "The findings are explicitly discovery hypotheses, not causal validation or proof of market outcomes.",
+      "finding_titles": [
+        "Compliance Is Becoming Economic Architecture",
+        "Labor Availability Is a Capacity Constraint, Not Just a Cost",
+        "Working Capital and Cash Conversion Become Strategic Constraints",
+        "Physical Infrastructure and Energy Access Gate Growth",
+        "Scale and Platforms Capture More of the Value Stack"
+      ]
+    },
+    {
+      "observation_id": "ibis-cross-industry-business-forces",
+      "family_id": "ibis-industries",
+      "source_path": "cross_industry_trends_2025_2026.json",
+      "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+      "title": "IBIS cross-industry business forces",
+      "value": 6,
+      "unit": "working hypotheses",
+      "observation_period": "artifact release dated 2026-10-30 or pinned revision",
+      "geography": "not specified in the artifact",
+      "source_url_status": "not_present_in_artifact",
+      "evidence_status": "reported_synthesis",
+      "boundary": "Business-force chains connect external conditions to industry mechanisms but remain hypotheses until claim-level evidence and falsifiers are checked.",
+      "force_titles": [
+        "Compute growth meets power and infrastructure scarcity",
+        "Aging expands demand while labor becomes the scarce input",
+        "Geopolitical fragmentation turns procurement into strategy",
+        "Compliance becomes a fixed operating system",
+        "Consumers split between value, identity, health, and experience",
+        "Capital selectivity accelerates consolidation and operating discipline"
+      ]
     },
     {
       "observation_id": "inc5000-rebuild-public-input-inventory",

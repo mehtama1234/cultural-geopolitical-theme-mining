@@ -38,6 +38,33 @@
       "target_observations": ["theme", "pressure mechanism", "sector", "company evidence pointer", "proof boundary"],
       "status": "ready_for_extraction",
       "boundary": "The theme map is an editorial synthesis. It identifies repeated pressure patterns but does not prove every company, payment, causal mechanism, or investment result."
+    },
+    {
+      "id": "ibis-industry-corpus",
+      "family_id": "ibis-industries",
+      "source_path": "research_manifest.json",
+      "intake_type": "industry-corpus-provenance",
+      "target_observations": ["industry record count", "data window", "geography", "corpus boundary"],
+      "status": "ready_for_extraction",
+      "boundary": "Corpus size establishes inventory scope, not independent confirmation, currentness, causality, or customer outcomes."
+    },
+    {
+      "id": "ibis-cross-industry-findings",
+      "family_id": "ibis-industries",
+      "source_path": "cross_industry_findings_register.json",
+      "intake_type": "discovery-findings-register",
+      "target_observations": ["finding title", "discovery status", "mechanism", "falsifier", "industry coverage"],
+      "status": "ready_for_extraction",
+      "boundary": "IBIS labels these findings discovery hypotheses; they are not causal validation or evidence of realized market outcomes."
+    },
+    {
+      "id": "ibis-cross-industry-forces",
+      "family_id": "ibis-industries",
+      "source_path": "cross_industry_trends_2025_2026.json",
+      "intake_type": "business-force-hypothesis-register",
+      "target_observations": ["force", "category", "causal chain", "affected industry", "leading indicator", "falsifier"],
+      "status": "ready_for_extraction",
+      "boundary": "Force chains are working hypotheses until claim-level evidence, counterevidence, and falsifiers are attached."
     }
   ]
 }

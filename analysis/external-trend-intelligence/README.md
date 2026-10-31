@@ -52,7 +52,8 @@ states what each artifact can—and cannot—support.
 
 The first normalized intake is in
 [`external-family-observations.json`](external-family-observations.json). It
-contains five reported observations from those pinned artifacts. They are
+contains eight reported observations from the pinned Inc. 5000,
+annual-report, and IBIS artifacts. They are
 deliberately not merged into the 2,131-record observation manifest yet: their
 source coverage is uneven, and units, geographies, and independence still
 require artifact-level review. The two Inc. 5000 trend records now preserve

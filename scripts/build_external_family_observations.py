@@ -15,6 +15,8 @@ INC_REPO = "/home/mehta/git-repo/inc5000-analysis"
 INC_REV = "92fad318ff05efcc5707f997bb1b5b18f3bceab2"
 ANNUAL_REPO = "/home/mehta/git-repo/organization-intelligence-system"
 ANNUAL_REV = "5d4434b9ff46e8d28176624a7ec44dfddee8be4b"
+IBIS_REPO = "/home/mehta/git-repo/ibis-industries"
+IBIS_REV = "b895acd021fbe3dc1d610255952b1373748e3bc3"
 
 
 def show(repo: str, revision: str, path: str) -> str:
@@ -57,6 +59,12 @@ def main() -> int:
     opportunities = json.loads(show(INC_REPO, INC_REV, opportunities_path))
     rebuild_path = "data/processed/inc5000_rebuild_manifest_v1.json"
     rebuild = json.loads(show(INC_REPO, INC_REV, rebuild_path))
+    ibis_manifest_path = "research_manifest.json"
+    ibis_manifest = json.loads(show(IBIS_REPO, IBIS_REV, ibis_manifest_path))
+    ibis_findings_path = "cross_industry_findings_register.json"
+    ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
+    ibis_forces_path = "cross_industry_trends_2025_2026.json"
+    ibis_forces = json.loads(show(IBIS_REPO, IBIS_REV, ibis_forces_path))
     theme_path = "annual-report-research/analysis/company-first-principles/annual-report-final-integrated-theme-map-pass-1.md"
     theme_map = show(ANNUAL_REPO, ANNUAL_REV, theme_path)
     theme_rows = re.findall(r"\| (Core|Expansion) \| ([^|]+) \|", theme_map)
@@ -109,6 +117,50 @@ def main() -> int:
             field_evidence_submissions=opportunities["counts"]["field_evidence_submissions"],
             decisions=opportunities["decisions"],
         )
+    )
+    observations.extend(
+        [
+            record(
+                "ibis-industry-record-corpus",
+                "ibis-industries",
+                ibis_manifest_path,
+                IBIS_REV,
+                "IBIS industry evidence corpus",
+                ibis_manifest["corpus"]["industry_record_count"],
+                "industry records",
+                "reported_provenance",
+                "Corpus size describes the research inventory; it does not establish that every record is current, independent, or evidence for a trend.",
+                data_window=ibis_manifest["corpus"]["current_data_window"],
+                geography=ibis_manifest["geography"],
+                source_url_status="not_present_in_artifact",
+            ),
+            record(
+                "ibis-cross-industry-discovery-findings",
+                "ibis-industries",
+                ibis_findings_path,
+                IBIS_REV,
+                "IBIS baseline cross-industry discovery findings",
+                len(ibis_findings["findings"]),
+                "discovery hypotheses",
+                "reported_synthesis",
+                "The findings are explicitly discovery hypotheses, not causal validation or proof of market outcomes.",
+                finding_titles=[finding["title"] for finding in ibis_findings["findings"]],
+                source_url_status="not_present_in_artifact",
+            ),
+            record(
+                "ibis-cross-industry-business-forces",
+                "ibis-industries",
+                ibis_forces_path,
+                IBIS_REV,
+                "IBIS cross-industry business forces",
+                len(ibis_forces["forces"]),
+                "working hypotheses",
+                "reported_synthesis",
+                "Business-force chains connect external conditions to industry mechanisms but remain hypotheses until claim-level evidence and falsifiers are checked.",
+                force_titles=[force["title"] for force in ibis_forces["forces"]],
+                source_url_status="not_present_in_artifact",
+            ),
+        ]
     )
     observations.append(
         record(

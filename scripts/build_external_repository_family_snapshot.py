@@ -36,6 +36,17 @@ FAMILIES = [
         ],
         "directory_prefixes": ["data/processed/", "data/public_company_intelligence/"],
     },
+    {
+        "id": "ibis-industries",
+        "repository_path": "/home/mehta/git-repo/ibis-industries",
+        "revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+        "manifest_paths": [
+            "research_manifest.json",
+            "cross_industry_findings_register.json",
+            "cross_industry_trends_2025_2026.json",
+        ],
+        "directory_prefixes": ["trend-review-batches/"],
+    },
 ]
 
 
