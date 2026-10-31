@@ -32,6 +32,7 @@
     .source-families { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
     .lineage-warnings { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
     .evidence-gaps { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
+    .ibis-sample { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
     article { display:flex; flex-direction:column; gap:8px; }
     article h3 { margin:0; font-size:1.05rem; line-height:1.25; }
     .pill { display:inline-block; width:max-content; border-radius:999px; padding:3px 9px; background:var(--soft); color:var(--accent); font-size:.75rem; font-weight:750; text-transform:uppercase; }
@@ -110,6 +111,11 @@
       <h2>Evidence review queue</h2>
       <p class="muted">These are the missing evidence tasks that block external promotion. High priority means the pinned artifact has no source URLs or filing identities.</p>
       <div class="evidence-gaps" id="evidence-gaps"></div>
+    </section>
+    <section style="margin-top:28px">
+      <h2>IBIS claim traceability sample</h2>
+      <p class="muted">This bounded sample traces three industries to claims and source records. It is evidence for the review process, not validation of the full IBIS finding.</p>
+      <div class="ibis-sample" id="ibis-sample"></div>
     </section>
     <footer>Serve this directory over HTTP to load the JSON manifests. Source records remain authoritative; this board is a reader. Release: <code id="release-commit">—</code></footer>
   </main>
@@ -210,6 +216,16 @@
       const missing = document.createElement('p'); missing.innerHTML = `<strong>Missing:</strong> ${gap.missing_evidence.join('; ')}`;
       article.append(pill, title, family, missing); return article;
     }
+    function ibisSampleCard(sample) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = 'bounded sample';
+      const title = document.createElement('h3'); title.textContent = sample.industry_title;
+      const meta = document.createElement('code'); meta.textContent = `${sample.industry_slug} · ${sample.geography} · ${sample.as_of}`;
+      const claims = document.createElement('p'); claims.innerHTML = `<strong>Claims traced:</strong> ${sample.claims.length}`;
+      const sources = document.createElement('p'); sources.innerHTML = `<strong>Source records:</strong> ${new Set(sample.claims.flatMap(claim => claim.source_ids)).size}`;
+      const outcomes = document.createElement('p'); outcomes.innerHTML = `<strong>Outcome candidates:</strong> ${sample.outcome_measure_candidates.join('; ') || '—'}`;
+      article.append(pill, title, meta, claims, sources, outcomes); return article;
+    }
     Promise.all([
       fetch('observation-manifest.json').then(r => r.json()),
       fetch('candidate-comparisons.json').then(r => r.json()),
@@ -223,7 +239,8 @@
       fetch('refresh-schedule.json').then(r => r.json()),
       fetch('external-family-lineage-review.json').then(r => r.json()),
       fetch('external-evidence-gap-queue.json').then(r => r.json()),
-    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidates, careSubset, release, promotionQueue, refreshSchedule, lineageReview, gapQueue]) => {
+      fetch('ibis-finding-claim-sample.json').then(r => r.json()),
+    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidates, careSubset, release, promotionQueue, refreshSchedule, lineageReview, gapQueue, ibisSample]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -253,6 +270,7 @@
       const lineageWarnings = el('lineage-warnings');
       Object.entries(lineageReview.cross_observation_url_overlap).forEach(([url, observationIds]) => lineageWarnings.append(lineageWarningCard(url, observationIds)));
       const evidenceGaps = el('evidence-gaps'); gapQueue.gaps.forEach(gap => evidenceGaps.append(evidenceGapCard(gap)));
+      const ibisSamples = el('ibis-sample'); ibisSample.samples.forEach(sample => ibisSamples.append(ibisSampleCard(sample)));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
   </script>
 </body>
