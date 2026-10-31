@@ -16,6 +16,7 @@ STEPS = [
     ["scripts/build_bls_labor_capacity_check.py"],
     ["scripts/build_annual_report_citation_map.py"],
     ["scripts/build_social_publication_citation_map.py"],
+    ["scripts/build_inc5000_opportunity_source_map.py"],
     ["scripts/build_external_observation_manifest.py", "--git-ref", "HEAD", "--output", "analysis/external-trend-intelligence/observation-manifest.json"],
     ["scripts/build_external_family_observations.py"],
     ["scripts/build_external_family_lineage_review.py"],

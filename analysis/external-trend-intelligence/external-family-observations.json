@@ -153,6 +153,9 @@
       "canonical_release_path": "data/processed/opportunity_validation_release.json",
       "opportunity_evidence_record_count": 16,
       "opportunity_evidence_opportunity_count": 5,
+      "source_map_path": "inc5000-opportunity-source-map.json",
+      "source_map_evidence_row_count": 39,
+      "source_map_buyer_proxy_row_count": 22,
       "opportunity_evidence_source_urls": [
         "https://auditfile.com/",
         "https://auditfile.com/product-overview",

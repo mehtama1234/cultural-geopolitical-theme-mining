@@ -90,6 +90,9 @@ def main() -> int:
     social_publication_citation_map = json.loads(
         (ROOT / "analysis" / "external-trend-intelligence" / "social-publication-citation-map.json").read_text()
     )
+    inc5000_opportunity_source_map = json.loads(
+        (ROOT / "analysis" / "external-trend-intelligence" / "inc5000-opportunity-source-map.json").read_text()
+    )
     ibis_findings_path = "cross_industry_findings_register.json"
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
     ibis_pattern_inventory_path = "cross_industry_pattern_inventory.json"
@@ -179,6 +182,9 @@ def main() -> int:
             canonical_release_path=opportunity_release_path,
             opportunity_evidence_record_count=sum(len(item.get("evidence", [])) for item in opportunity_release["records"]),
             opportunity_evidence_opportunity_count=len(opportunity_release["records"]),
+            source_map_path="inc5000-opportunity-source-map.json",
+            source_map_evidence_row_count=inc5000_opportunity_source_map["evidence_row_count"],
+            source_map_buyer_proxy_row_count=inc5000_opportunity_source_map["buyer_proxy_row_count"],
             opportunity_evidence_source_urls=sorted({
                 url
                 for item in opportunity_release["records"]

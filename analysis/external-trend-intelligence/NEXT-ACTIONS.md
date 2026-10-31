@@ -70,6 +70,10 @@ Next test:
   claim and checked against an independent outcome source.
 - Map the 39 Inc. opportunity URLs to the five opportunity hypotheses and
   independently test buyer demand and outcomes.
+- The Inc. opportunity source map now preserves 39 evidence rows, 22 buyer
+  proxy rows, five hypotheses, and 45 distinct URLs. All five remain
+  `monitor`: direct interviews and field outcome cohorts are still pending, so
+  public company pages are not treated as validated demand.
 - Map the 89 social publication URLs to atlas claims while keeping platform
   discussion separate from prevalence.
 - The social citation map now preserves 89 raw appendix URL occurrences, 70
