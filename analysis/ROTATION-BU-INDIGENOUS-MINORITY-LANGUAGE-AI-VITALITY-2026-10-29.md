@@ -36,6 +36,9 @@ language exclusion, low-resource data and intergenerational decline
 | University of Waikato Waikato-Maniapoto AI voice project | University of Waikato reports a dialect-specific AI voice intended to help future generations hear and connect with Waikato-Maniapoto te reo Māori and describes high perceptual similarity to the original speaker. | named dialect-specific technology and cultural-identity rationale | authorization, speaker rights, deployment, learner uptake, repeated use, transmission and misuse safeguards |
 | Welsh Government Annual Population Survey Welsh language data | APS estimates 828,600 Welsh speakers and 423,900 people reporting daily Welsh use for April 2024–March 2025, while the release warns of survey uncertainty and says the census remains the key measure for the national target. | population and daily-use outcome signal with explicit measurement caveat | causal link to a technology, education or service intervention; durable cohort use and transmission |
 | Estyn post-16 Welsh-language training evaluation | Estyn reports more Welsh-capable practitioners and more learning activities containing a small amount of Welsh-medium learning, but no direct attribution to training and no comparable increase in higher-intensity Welsh-medium or Welsh-only activity. | staff-skill and low-intensity provision signal | student/apprentice repeated use, higher-intensity provision, causal attribution and long-term transmission |
+| Welsh Government technology and AI summary 2025–2026 | Welsh Government reports nearly half a million new English–Welsh sentences, improved Welsh transcription and synthetic voices, named tools including Trawsgrifiwr and Macsen, and Welsh transcription used in government meetings and press work. | data/tool production plus named workflow use | tool users, usage volume, accuracy, correction, repeat adoption, service completion and effect on daily language use |
+| Welsh Government technology summary and Mapio Cymru | Welsh Government reports over 30,000 Welsh names on OpenStreetMap, Welsh mapping services and community contribution; Senedd Cymru uses Mapio Cymru work as the basis for its constituency map. | open geographic data and institutional map deployment | active users, search/routing use, place-name correction, community participation and effect on language visibility |
+| Business Wales Helo Blod milestone | Business Wales reports one million translated words and more than 1,000 participating businesses; one named business describes using Welsh social media, product descriptions and labelling. | service reach and named business implementation | repeat requests, retained content, customer interaction, revenue or language-use change and representativeness of the success case |
 
 ## Stage audit
 
@@ -89,6 +92,15 @@ Welsh-medium activity while higher-intensity provision remains flat and causal
 attribution is absent. Technology and training can therefore move early
 capability indicators without yet producing consistent institutional use or
 transmission.
+
+The new deployment records close more of the operational stage. Welsh language
+technology is not only being funded: it has generated training data, named
+transcription services, government workflows, a Senedd map, and business-facing
+translation support. Yet the evidence remains provider-reported and mostly
+describes outputs or examples rather than denominator-based adoption. A million
+translated words, 30,000 place names or 1,000 businesses can demonstrate reach
+without showing repeat use, quality across dialects, retention, customer
+behavior or intergenerational transmission.
 
 ## Cultural and geographical interpretation
 
@@ -156,3 +168,6 @@ collection; do not infer vitality from model or corpus size.
 8. [University of Waikato Waikato-Maniapoto AI voice project](https://www.waikato.ac.nz/news-events/news/a-voice-for-the-future-the-first-ai-generated-waikato-maniapoto-voice/)
 9. [Welsh Government Annual Population Survey Welsh language data](https://www.gov.wales/welsh-language-data-annual-population-survey-april-2024-march-2025-html)
 10. [Estyn post-16 Welsh-language training evaluation](https://estyn.gov.wales/improvement-resources/thematic-report-increasing-the-use-of-the-welsh-language-in-the-post-16-sectors/)
+11. [Welsh Government technology and AI summary 2025–2026](https://www.gov.wales/welsh-language-technology-and-artificial-intelligence-ai-summary-2025-2026)
+12. [Welsh Government technology and AI summary 2024–2025](https://www.gov.wales/welsh-technology-and-artificial-intelligence-ai-summary-2024-2025)
+13. [Business Wales Helo Blod one-million-word milestone](https://businesswales.gov.wales/news-and-blog/1-million-milestone-marked-free-welsh-translation-service)
