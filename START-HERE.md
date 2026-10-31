@@ -8,6 +8,8 @@ outcomes, operating model, qualification gates, and first 30-day actions. The
 external goal below is the current execution contract inside that program.
 The day-to-day analyst handoff is documented in the [analyst operating
 model](analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md).
+Frontend consumers should use the [frontend integration contract](analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md)
+for artifact mappings and status semantics.
 
 ## New external-first goal
 

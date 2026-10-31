@@ -1,0 +1,48 @@
+# Frontend integration contract
+
+The external observatory exposes JSON artifacts as the reader API. Frontend
+pages may compose these artifacts, but must preserve their status and boundary
+fields. Do not turn a held candidate into a positive signal by hiding its
+blockers.
+
+## Core page data
+
+| UI section | Artifact | Required visible fields |
+| --- | --- | --- |
+| Inventory charts | `observation-manifest.json` | record count, theme, host, source unit, geography, boundary |
+| Source family cards | `source-family-registry.json`, `source-family-controls.json`, `refresh-status.json` | role, cadence, revision, rights status, publisher dependence, lineage status, file age |
+| Candidate cards | `candidate-comparisons.json`, `candidate-qualification-matrix.json` | title, mechanism, counter-signal, evidence count, gate status, blocking gates, next action |
+| Promotion queue | `promotion-queue.json` | current status, blocking gates, internal bridge readiness |
+| Backtest view | `backtest-readiness.json`, `backtest-comparability-review.json` | record availability, periods, units, geographies, outcomes, harmonization blockers |
+| Monitoring view | `trend-monitoring-register.json` | state, cadence, leading indicators, reversal conditions |
+| Case panel | `case-stage-panel.json`, `bounded-subset-lineage-review.json` | stage status, not-observed distinction, hosts, shared-host overlap, independence status |
+| Pilot view | `pilot-register.json` | design status, external gate, company/data contract, privacy, falsifier |
+| Release banner | `release-health.json`, `release-manifest.json` | release status, blockers, source commit, artifact count |
+
+## Status semantics
+
+- `candidate` or `qualified_candidate` means a hypothesis is being tested, not
+  that it is a qualified trend.
+- `held` means one or more required gates lack evidence.
+- `not_observed_in_public_record` is not a zero and not evidence of absence.
+- `review_required`, `not_yet_verified`, and `partial_independence_review`
+  must remain visible wherever rights or lineage are shown.
+- `design_only_external_gate` means no company data has been connected.
+- `operational_with_open_gates` means the pipeline runs and validates while
+  substantive evidence gates remain unresolved.
+
+## Frontend boundary
+
+The board is a reader, not the source of truth. Every displayed value must be
+traceable to a release-manifest artifact, and every chart or narrative must
+retain its period, unit, geography, denominator or scope, uncertainty,
+counter-signal, and evidence boundary. Internal company exposure is not a
+frontend join; it requires the separate bridge contract after qualification.
+
+## Runtime check
+
+Serve this directory over HTTP and run:
+
+```text
+python3 scripts/smoke_test_external_board.py
+```

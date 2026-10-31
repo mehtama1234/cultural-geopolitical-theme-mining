@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "289c382b7bc9e0a456b6939bc988313a6ce66477",
-  "artifact_count": 42,
+  "source_tree_commit": "d0a781c211992ee7d0d09e9593bdca8a15ed5472",
+  "artifact_count": 43,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -28,6 +28,11 @@
       "path": "analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md",
       "bytes": 4227,
       "sha256": "0f7fc9e2b1d695f473432860062d0631398a6b0b0d9197521b50e2404c59417f"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
+      "bytes": 2768,
+      "sha256": "ec78105561f5aaa2b544f19d60333e685050d4dfc4ae24a90b1a765cf9cea67b"
     },
     {
       "path": "analysis/external-trend-intelligence/backtest-readiness.json",

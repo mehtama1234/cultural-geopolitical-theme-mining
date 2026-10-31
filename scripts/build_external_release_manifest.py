@@ -19,6 +19,7 @@ ARTIFACTS = [
     "EXTERNAL_SOURCE_REGISTRY.md",
     "analysis/external-trend-intelligence/README.md",
     "analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md",
+    "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
     "analysis/external-trend-intelligence/backtest-readiness.json",
     "analysis/external-trend-intelligence/backtest-source-snapshot.json",
     "analysis/external-trend-intelligence/backtest-comparability-review.json",
