@@ -53,7 +53,7 @@
         "candidate-qualification-matrix.json",
         "trend-qualification-rubric.json"
       ],
-      "gap": "0 qualified trends; 5 candidates held."
+      "gap": "1 qualified trends; 4 candidates held."
     },
     {
       "id": "backtest_and_falsification",
@@ -74,9 +74,10 @@
       "evidence": [
         "board.html",
         "FRONTEND-INTEGRATION.md",
+        "candidate-qualification-matrix.json",
         "temporal-decision-narrative.json"
       ],
-      "gap": "Reader surface is operational, but it does not yet expose a qualified trend or validated company outcome."
+      "gap": "Reader surface exposes the qualified external food-insecurity pattern and held candidates, but no validated company outcome is published."
     },
     {
       "id": "analyst_operating_model",
@@ -97,7 +98,7 @@
         "PILOT-VALIDATION-PROTOCOL.md",
         "test_internal_bridge_gate.py"
       ],
-      "gap": "No pilot is approved because no external trend has cleared qualification; the fail-closed bridge gate is exercised."
+      "gap": "No pilot is approved because the qualified trend has not yet cleared its monitored backtest and decision-relevance gates; the fail-closed bridge gate is exercised."
     }
   ],
   "release_status": "operational_with_open_gates",

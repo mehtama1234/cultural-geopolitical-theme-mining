@@ -100,7 +100,7 @@ def main() -> int:
     if health["backtest"]["harmonization_required"]:
         blockers.append("backtest units, periods, populations, or geographies require harmonization")
     if health["company_pilots"]["approved_tests"] == 0:
-        blockers.append("no company pilot is approved; external qualification gate is not passed")
+        blockers.append("no company pilot is approved; monitored backtest and decision-relevance gates are not passed")
     if health["rights_and_publisher_dependence"]["status"] == "hold":
         blockers.append("rights and publisher-dependence review remains open for source families")
     if health["independent_source_comparison"]["status"] == "hold":

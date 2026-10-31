@@ -251,6 +251,24 @@
       "mechanism": "support and price changes -> persistent food-access strain -> unequal hardship by income, age, and household context",
       "counter_signal": "USDA reports the 2024 increase was not statistically significant versus 2023, while the Urban series declined in 2024 before remaining high in 2025.",
       "next_comparison": "Align the USDA annual household series with the Urban six-item survey series, preserve the 2025 Urban method change, and hold out the next release before promotion.",
+      "qualification_evidence": {
+        "comparability": {
+          "status": "bounded",
+          "basis": "The claim is directional persistence across explicitly separate U.S. survey frames; prevalence levels are not pooled because USDA measures households with the full module while Urban reports household food insecurity through adults ages 18–64 using the six-item short form."
+        },
+        "independence": {
+          "status": "independent",
+          "basis": "USDA ERS and Urban Institute are distinct publishers and survey programs with separate samples and publication artifacts; shared use of the USDA module is documented as instrument lineage, not shared observations."
+        },
+        "persistence": {
+          "status": "pass",
+          "basis": "Urban working-age estimates remain elevated in 2022–2025 and USDA household estimates remain elevated in 2022–2024."
+        },
+        "falsifier": {
+          "status": "pass",
+          "basis": "A later compatible release showing sustained reversion toward the pre-2022 baseline in both frames, or a documented questionnaire break that explains the movement, would weaken or reverse the claim."
+        }
+      },
       "lineage_review": {
         "status": "partial",
         "primary_artifact_count": 2,

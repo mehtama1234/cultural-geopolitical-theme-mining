@@ -408,8 +408,8 @@ def main() -> int:
     qualification_matrix = json.loads((ANALYSIS / "candidate-qualification-matrix.json").read_text())
     assert qualification_matrix["schema"] == "external-trend-intelligence.candidate-qualification-matrix.v1"
     assert qualification_matrix["candidate_count"] == 5
-    assert qualification_matrix["held_count"] == 5
-    assert qualification_matrix["qualified_external_trend_count"] == 0
+    assert qualification_matrix["held_count"] == 4
+    assert qualification_matrix["qualified_external_trend_count"] == 1
     pilot_register = json.loads((ANALYSIS / "pilot-register.json").read_text())
     assert pilot_register["schema"] == "external-trend-intelligence.pilot-register.v1"
     assert len(pilot_register["pilots"]) == 1
@@ -493,7 +493,7 @@ def main() -> int:
     progress = json.loads((ANALYSIS / "program-progress.json").read_text())
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
     assert progress["baseline"]["records"] == 2135
-    assert progress["baseline"]["qualified_external_trends"] == 0
+    assert progress["baseline"]["qualified_external_trends"] == 1
     assert progress["baseline"]["release_artifacts"] == 79
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
@@ -512,7 +512,7 @@ def main() -> int:
     assert scorecard["metrics"]["scheduled_workflow_contract"] == "passed"
     assert scorecard["metrics"]["refresh_runs"] == refresh_history["run_count"]
     assert scorecard["metrics"]["latest_pipeline_steps"] == refresh_history["latest"]["pipeline_step_count"]
-    assert scorecard["metrics"]["qualified_external_trends"] == 0
+    assert scorecard["metrics"]["qualified_external_trends"] == 1
     assert scorecard["metrics"]["approved_company_pilots"] == 0
     assert len(scorecard["phases"]) == 5
     independent = json.loads((ANALYSIS / "independent-stage-comparison.json").read_text())

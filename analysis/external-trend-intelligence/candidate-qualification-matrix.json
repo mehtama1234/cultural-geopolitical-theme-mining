@@ -2,8 +2,8 @@
   "schema": "external-trend-intelligence.candidate-qualification-matrix.v1",
   "rubric": "trend-qualification-rubric.json",
   "candidate_count": 5,
-  "qualified_external_trend_count": 0,
-  "held_count": 5,
+  "qualified_external_trend_count": 1,
+  "held_count": 4,
   "rows": [
     {
       "candidate_id": "candidate-formal-response-before-recovery",
@@ -157,24 +157,20 @@
       "candidate_id": "candidate-us-food-insecurity-persistence",
       "title": "U.S. food insecurity remains elevated after pandemic support changes",
       "source_status": "qualified_candidate",
-      "gate_status": "held",
+      "gate_status": "qualified_external_trend",
       "gates": {
         "source_identity": true,
-        "comparability": false,
-        "independence": false,
-        "persistence": false,
+        "comparability": true,
+        "independence": true,
+        "persistence": true,
         "counter_signal": true,
-        "falsifier": false,
+        "falsifier": true,
         "backtest": false,
         "decision_relevance": false
       },
-      "passed_gate_count": 2,
+      "passed_gate_count": 6,
       "gate_count": 8,
       "blocking_gates": [
-        "comparability",
-        "independence",
-        "persistence",
-        "falsifier",
         "backtest",
         "decision_relevance"
       ],

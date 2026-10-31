@@ -53,8 +53,8 @@
     },
     "trend_qualification": {
       "candidates": 5,
-      "qualified": 0,
-      "held": 5,
+      "qualified": 1,
+      "held": 4,
       "status": "hold"
     },
     "backtest": {
@@ -76,7 +76,7 @@
   "blockers": [
     "external candidates remain held",
     "backtest units, periods, populations, or geographies require harmonization",
-    "no company pilot is approved; external qualification gate is not passed",
+    "no company pilot is approved; monitored backtest and decision-relevance gates are not passed",
     "rights and publisher-dependence review remains open for source families",
     "independent source comparison remains mechanism-only",
     "household and adult denominator definitions require reconciliation"

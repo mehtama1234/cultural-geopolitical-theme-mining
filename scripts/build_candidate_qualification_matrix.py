@@ -61,17 +61,20 @@ def main() -> int:
     for candidate in candidates:
         review = candidate.get("lineage_review", {})
         coverage = candidate.get("coverage", {})
+        qualification_evidence = candidate.get("qualification_evidence", {})
         gates = {
             "source_identity": bool(candidate.get("evidence_record_ids")) and review.get("primary_artifact_count", 0) > 0,
-            "comparability": False,
-            "independence": review.get("independence_status") == "independent",
-            "persistence": False,
+            "comparability": qualification_evidence.get("comparability", {}).get("status") in {"compatible", "bounded"},
+            "independence": qualification_evidence.get("independence", {}).get("status") == "independent",
+            "persistence": qualification_evidence.get("persistence", {}).get("status") == "pass",
             "counter_signal": bool(candidate.get("counter_signal")),
-            "falsifier": False,
+            "falsifier": qualification_evidence.get("falsifier", {}).get("status") == "pass",
             "backtest": False,
             "decision_relevance": False,
         }
+        qualification_gate_names = ["source_identity", "comparability", "independence", "persistence", "counter_signal", "falsifier"]
         blocking = [name for name, passed in gates.items() if not passed]
+        qualification_ready = all(gates[name] for name in qualification_gate_names)
         queue_item = queue.get(candidate["id"], {})
         backtest_plan = BACKTEST_DESIGNS.get(candidate["id"], {
             "status": "not_started",
@@ -83,7 +86,7 @@ def main() -> int:
             "candidate_id": candidate["id"],
             "title": candidate["title"],
             "source_status": candidate.get("status"),
-            "gate_status": "qualified_external_trend" if not blocking else "held",
+            "gate_status": "qualified_external_trend" if qualification_ready else "held",
             "gates": gates,
             "passed_gate_count": sum(gates.values()),
             "gate_count": len(gates),

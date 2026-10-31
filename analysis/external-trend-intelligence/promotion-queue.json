@@ -33,8 +33,8 @@
     },
     {
       "candidate_id": "candidate-us-food-insecurity-persistence",
-      "current_status": "qualified_candidate",
-      "blocking_gates": ["household versus adult-respondent denominator", "questionnaire threshold alignment", "2025 Urban methodology change", "uncertainty and next-release holdout"],
+      "current_status": "qualified_external_trend",
+      "blocking_gates": ["backtest holdout", "decision relevance without internal connection", "rights clearance for any downstream reuse"],
       "next_action": "Align USDA and Urban definitions, preserve the methodology break, and acquire the next comparable release before any monitored state or internal bridge.",
       "internal_bridge_ready": false
     },

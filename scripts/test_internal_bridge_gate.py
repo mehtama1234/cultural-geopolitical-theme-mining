@@ -17,14 +17,14 @@ def main() -> int:
     qualification = load("candidate-qualification-matrix.json")
     pilots = load("pilot-register.json")
     health = load("release-health.json")
-    assert qualification["qualified_external_trend_count"] == 0
+    assert qualification["qualified_external_trend_count"] >= 1
     assert pilots["pilots"]
     assert all(item["status"] == "design_only_external_gate" for item in pilots["pilots"])
     assert all(item["external_gate"]["current_status"] == "held" for item in pilots["pilots"])
     assert all(item["company_ref"]["company_id"] is None for item in pilots["pilots"])
     assert health["sections"]["company_pilots"]["approved_tests"] == 0
-    assert "no company pilot is approved; external qualification gate is not passed" in health["blockers"]
-    print("internal bridge gate: no company connection is allowed before qualification")
+    assert "no company pilot is approved; monitored backtest and decision-relevance gates are not passed" in health["blockers"]
+    print("internal bridge gate: no company connection is allowed before monitored qualification")
     return 0
 
 
