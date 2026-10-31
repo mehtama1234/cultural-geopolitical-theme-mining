@@ -537,6 +537,10 @@
         if (schedule && control) sourceFamilies.append(sourceFamilyCard(family, schedule, control));
       });
       const refreshCards = el('refresh-status'); refreshStatus.families.forEach(family => refreshCards.append(refreshStatusCard(family)));
+      fetch('refresh-history.json').then(r => r.json()).then(history => {
+        const latest = history.latest;
+        refreshCards.prepend(card(`${history.run_count} recorded refresh runs`, latest.release_status, `Latest ${latest.run_id} · ${latest.record_count.toLocaleString()} records · ${latest.blocker_count} blockers · source ${latest.source_tree_revision.slice(0, 12)}`));
+      });
       const lineageWarnings = el('lineage-warnings');
       Object.entries(lineageReview.cross_observation_url_overlap).forEach(([url, observationIds]) => lineageWarnings.append(lineageWarningCard(url, observationIds)));
       const evidenceGaps = el('evidence-gaps'); gapQueue.gaps.forEach(gap => evidenceGaps.append(evidenceGapCard(gap)));
