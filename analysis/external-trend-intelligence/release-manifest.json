@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "ae3b4c81b15c1f26214d91019f99a0d5b45daae3",
+  "source_tree_commit": "5b842ac7763aac77ac44afa1179516e3cda79b4d",
   "artifact_count": 63,
   "artifacts": [
     {
@@ -107,7 +107,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2237,
-      "sha256": "620f0a172efbef717ff8c88091f58552d1f1ff310242785beddbee57475eb878"
+      "sha256": "73e5ee8068dd9b5ff5dc24127ed10443513b13a0317b8fe930271ffea210de5c"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -131,8 +131,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 3760,
-      "sha256": "fd5e1616379ea7212166a0ab9695eaf4418fec48219ea89a1c882c777ed60842"
+      "bytes": 3759,
+      "sha256": "0c7d7fc14379cd2e8b5029cb1e472a6aac2153242a3215f274c4cb71a3094713"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
