@@ -56,6 +56,8 @@ language exclusion, low-resource data and intergenerational decline
 | Irish technical working-group activity update | The Department’s technical-working-group page lists six meetings from 15 October 2025 through 24 March 2026, with agendas and minutes linked, and says the group operates for three years subject to annual review. The public page still exposes the group’s remit and meeting record rather than a named production-system change or service-outcome result. | active governance mechanism and time-bounded audit trail | implementation decisions, changed systems, procurement requirements, language-choice portability, user feedback and completed Irish-language service encounters |
 | AfriEval African-language data and evaluation platform | AfriEval presents a workflow for collecting, annotating, evaluating and safety-testing speech, text, images, documents and model outputs in languages including Swahili, Yoruba, Hausa, Amharic, Igbo and Zulu. It describes native-speaker and domain-expert review, consent and licensing metadata, multi-stage quality checks, provenance, benchmark traces and exportable datasets. | named regional data/evaluation infrastructure with human and domain-expert controls | verified customer projects, contributor compensation and consent practice, language/dialect coverage, benchmark results, model improvements, production deployment, safety incidents and public benefit |
 | East African Community AI sovereignty declaration | The EAC reports that eight partner states resolved to establish a regional AI fund and promote systems speaking regional languages, trained on East African data, stored on regional infrastructure and governed by East Africans; it also names a regional centre of excellence, AI alliance, shared compute and data-centre infrastructure, procurement reform and indigenous knowledge integration. | regional geopolitical commitment linking language, infrastructure, financing, governance and industrial policy | fund capitalization, legal/data-governance instruments, infrastructure delivery, language models or services deployed, cross-border adoption, public outcomes, inclusion of smaller languages and implementation accountability |
+| EAC Kiswahili AI Trust Mark and regional language resolutions | The EAC reports July 2026 resolutions treating Kiswahili as strategic digital infrastructure and calling for a regional roadmap, open language datasets/corpora, standardised AI terminology and African ownership of language data. The EAC AI Alliance and East African Kiswahili Commission announce work on a Kiswahili Trust Mark to assess linguistic quality, terminology, cultural context and safety, with a public register of certified systems intended. | regional language standardisation and certification mechanism with a named evaluation target | published standard, assessment protocol, certified systems, audit results, public-register operation, procurement or user adoption and inclusion of non-Kiswahili languages |
+| EAC Regional AI Network and AI4EAC skills pipeline | The EAC AI Alliance, IUCEA, EASTECO and GIZ report a distributed university network with national nodes and a 2026 AI4EAC campaign intended to reach 20,000 East Africans through applied-AI skilling and regional innovation challenges. | regional institutional and talent infrastructure for AI research, skills and innovation | node activity, curriculum and language coverage, funded projects, named language systems, startup or public-service deployments, participant outcomes and regional retention |
 
 ## Stage audit
 
@@ -215,6 +217,15 @@ scale, improves a public service, benefits smaller language communities or
 changes everyday language use. The next audit should connect platform records
 and regional commitments to named models, contracts, deployments and users.
 
+The EAC follow-through closes more than a declaration alone. The proposed
+Kiswahili Trust Mark names evaluation dimensions and a public-register mechanism,
+while the university network and AI4EAC campaign create institutional and human
+capacity for delivery. The evidence still stops before certification, because
+the standard, assessment results and certified systems are not yet publicly
+identified. This is a useful geopolitical conversion sequence—regional agenda
+to standard to talent network to deployed system—but each arrow remains
+auditable rather than assumed.
+
 ## Cross-case synthesis
 
 | Case | Strongest evidence currently closed | Conversion stage still unproven |
@@ -340,3 +351,6 @@ collection; do not infer vitality from model or corpus size.
 27. [AfriEval African-language data and evaluation platform](https://afrieval.com/)
 28. [East African Community AI sovereignty declaration](https://www.eac.int/press-releases/138-education,-science-technology-news/3491-eac-adopts-ai-declaration-resolving-to-establish-regional-ai-fund-and-prioritise-ai-sovereignty)
 29. [Irish technical-working-group activity update](https://www.gov.ie/en/department-of-rural-and-community-development-and-the-gaeltacht/publications/technical-working-group-under-the-national-plan-for-irish-language-public-services/)
+33. [EAC Kiswahili AI Trust Mark and regional language resolutions](https://www.eac.int/press-releases/3563-east-africa-puts-kiswahili-at-the-heart-of-the-artificial-intelligence-era-as-bujumbura-hosts-the-5th-eac-world-kiswahili-language-day-celebrations)
+34. [EAC Regional AI Network of Universities](https://ai4eac.org/)
+35. [EAC AI Alliance regional university-network announcement](https://www.eac.int/press-releases/138-education,-science-technology-news/3488-eac-ai-alliance-invites-universities-to-become-national-hubs-in-regional-ai-network)
