@@ -198,6 +198,9 @@ def main() -> int:
             assert observation["independent_source_record_count"] == 104
             assert observation["independent_source_unique_company_count"] == 95
             assert observation["source_url_count"] == len(observation["source_urls"]) >= 1
+        if observation["observation_id"] == "ibis-cross-industry-business-forces":
+            assert observation["source_url_status"] == "present_in_artifact"
+            assert observation["source_ids"] and observation["source_url_count"] == len(observation["source_urls"]) >= 1
     family_comparisons = json.loads((ANALYSIS / "external-family-comparisons.json").read_text())
     assert family_comparisons["schema"] == "external-trend-intelligence.external-family-comparisons.v1"
     assert len(family_comparisons["comparisons"]) == 8
@@ -230,7 +233,7 @@ def main() -> int:
     gap_queue = json.loads((ANALYSIS / "external-evidence-gap-queue.json").read_text())
     assert gap_queue["schema"] == "external-trend-intelligence.external-evidence-gap-queue.v1"
     assert gap_queue["gap_count"] == len(gap_queue["gaps"]) == len(lineage_review["reviews"])
-    assert gap_queue["high_priority_count"] == 5
+    assert gap_queue["high_priority_count"] == 4
     assert {gap["observation_id"] for gap in gap_queue["gaps"]} == family_observation_ids
     assert all(gap["decision"] == "hold" and gap["missing_evidence"] for gap in gap_queue["gaps"])
     care_candidate = json.loads((ANALYSIS / "care-capacity-candidate.json").read_text())

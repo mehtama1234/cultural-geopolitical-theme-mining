@@ -69,6 +69,7 @@ def main() -> int:
     ibis_manifest = json.loads(show(IBIS_REPO, IBIS_REV, ibis_manifest_path))
     ibis_source_inventory_path = "source_inventory.json"
     ibis_source_inventory = json.loads(show(IBIS_REPO, IBIS_REV, ibis_source_inventory_path))
+    ibis_sources_by_id = {source["source_id"]: source for source in ibis_source_inventory["sources"]}
     ibis_findings_path = "cross_industry_findings_register.json"
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
     ibis_forces_path = "cross_industry_trends_2025_2026.json"
@@ -189,7 +190,20 @@ def main() -> int:
                 "reported_synthesis",
                 "Business-force chains connect external conditions to industry mechanisms but remain hypotheses until claim-level evidence and falsifiers are checked.",
                 force_titles=[force["title"] for force in ibis_forces["forces"]],
-                source_url_status="not_present_in_artifact",
+                source_ids=sorted({source_id for force in ibis_forces["forces"] for source_id in force.get("source_ids", [])}),
+                source_urls=sorted({
+                    ibis_sources_by_id[source_id]["url"]
+                    for force in ibis_forces["forces"]
+                    for source_id in force.get("source_ids", [])
+                    if source_id in ibis_sources_by_id and ibis_sources_by_id[source_id].get("url")
+                }),
+                source_url_status="present_in_artifact",
+                source_url_count=len({
+                    ibis_sources_by_id[source_id]["url"]
+                    for force in ibis_forces["forces"]
+                    for source_id in force.get("source_ids", [])
+                    if source_id in ibis_sources_by_id and ibis_sources_by_id[source_id].get("url")
+                }),
                 observation_period=ibis_forces.get("metadata", {}).get("as_of", "IBIS 2025-2026 working hypothesis register"),
             ),
         ]

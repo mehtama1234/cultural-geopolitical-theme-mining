@@ -2,22 +2,8 @@
   "schema": "external-trend-intelligence.external-evidence-gap-queue.v1",
   "purpose": "Explicit next-review queue for external observations that cannot yet support independent trend promotion.",
   "gap_count": 10,
-  "high_priority_count": 5,
+  "high_priority_count": 4,
   "gaps": [
-    {
-      "observation_id": "ibis-cross-industry-business-forces",
-      "family_id": "ibis-industries",
-      "title": "IBIS cross-industry business forces",
-      "priority": "high",
-      "missing_evidence": [
-        "source URLs or filing identities for the underlying records",
-        "unit, geography, period, and denominator audit",
-        "independence review against the synthesis source"
-      ],
-      "shared_url_count": 0,
-      "shared_host_count": 0,
-      "decision": "hold"
-    },
     {
       "observation_id": "ibis-cross-industry-discovery-findings",
       "family_id": "ibis-industries",
@@ -89,6 +75,20 @@
       "decision": "hold"
     },
     {
+      "observation_id": "ibis-cross-industry-business-forces",
+      "family_id": "ibis-industries",
+      "title": "IBIS cross-industry business forces",
+      "priority": "medium",
+      "missing_evidence": [
+        "publisher, filing, and artifact identity review for each URL",
+        "map citations to the specific theme or company record",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 1,
+      "decision": "hold"
+    },
+    {
       "observation_id": "ibis-industry-record-corpus",
       "family_id": "ibis-industries",
       "title": "IBIS industry evidence corpus",
@@ -141,7 +141,7 @@
         "independence review against the synthesis source"
       ],
       "shared_url_count": 6,
-      "shared_host_count": 8,
+      "shared_host_count": 9,
       "decision": "hold"
     }
   ],

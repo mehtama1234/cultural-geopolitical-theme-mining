@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "5d4156deb27ea372064f139d3e8d9856bdd629b3",
+  "source_tree_commit": "26bc381740b83a75f84d66512c5d4d78d1bcfd9d",
   "artifact_count": 22,
   "artifacts": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/README.md",
-      "bytes": 10439,
-      "sha256": "30e9b3b048289c7cfec1ddebda5c8da89f8342bf7448fa145839b3e4f965a32c"
+      "bytes": 10644,
+      "sha256": "016e8dd0077473918d64ae18e8611ab3bd79533a6a5885c82fe98efa700dbc09"
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
@@ -51,18 +51,18 @@
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-observations.json",
-      "bytes": 38642,
-      "sha256": "e1087659452fa64c397f320ceb510a98786d41ea19e6847994e4edf15da3a03f"
+      "bytes": 41161,
+      "sha256": "56223d6ba6f45363c20179c4807b53f512df72c2454dcf45784cc02b3eeb0397"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-lineage-review.json",
-      "bytes": 21285,
-      "sha256": "6d865475e27107e9fdddbb00ed6e8c7dab645aebe8558a9b324125ae2cf46acf"
+      "bytes": 21798,
+      "sha256": "0486038577ad250da4b7f5794d64f223577af6c65bca7167e83c8af2e0ce383e"
     },
     {
       "path": "analysis/external-trend-intelligence/external-evidence-gap-queue.json",
-      "bytes": 5579,
-      "sha256": "ec63df0b5b2f687777eda878d1310def922f9379e24534fab64e32d26aff44cf"
+      "bytes": 5589,
+      "sha256": "f5e1469d0cf71508ab2d68a984f14c77fd572e407697bf18e86b9b123996a1e1"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",

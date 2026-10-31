@@ -101,6 +101,10 @@
       "inc5000-health-longevity-demand-source-linked-share",
       "inc5000-rebuild-public-input-inventory"
     ],
+    "www.cms.gov": [
+      "ibis-cross-industry-business-forces",
+      "inc5000-rebuild-public-input-inventory"
+    ],
     "www.inc.com": [
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share",
@@ -346,19 +350,35 @@
     },
     {
       "observation_id": "ibis-cross-industry-business-forces",
-      "status": "not_started",
-      "source_url_count": 0,
-      "source_host_count": 0,
-      "source_hosts": [],
+      "status": "partial",
+      "source_url_count": 21,
+      "source_host_count": 13,
+      "source_hosts": [
+        "data.census.gov",
+        "finance.yahoo.com",
+        "ncua.gov",
+        "www.bls.gov",
+        "www.cms.gov",
+        "www.eia.gov",
+        "www.energy.gov",
+        "www.epa.gov",
+        "www.ferc.gov",
+        "www.ibisworld.com",
+        "www.medicaid.gov",
+        "www.pwc.com",
+        "www.supplychaindive.com"
+      ],
       "duplicate_source_urls": {},
       "cross_observation_shared_urls": [],
-      "cross_observation_shared_hosts": [],
+      "cross_observation_shared_hosts": [
+        "www.cms.gov"
+      ],
       "denominator": null,
-      "source_url_status": "not_present_in_artifact",
+      "source_url_status": "present_in_artifact",
       "independence_status": "unverified",
       "remaining": [
-        "source URLs or filing identities for the underlying records",
-        "unit, geography, period, and denominator audit",
+        "publisher, filing, and artifact identity review for each URL",
+        "map citations to the specific theme or company record",
         "independence review against the synthesis source"
       ],
       "promotion_decision": "hold"
@@ -555,6 +575,7 @@
         "rudishhealth.com",
         "videa.ai",
         "www.action1.com",
+        "www.cms.gov",
         "www.inc.com",
         "www.linkedin.com",
         "www.sec.gov"

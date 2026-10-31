@@ -83,7 +83,7 @@ counts those observations as separate confirmation.
 
 [`external-evidence-gap-queue.json`](external-evidence-gap-queue.json) turns
 that audit into an explicit next-review queue. It currently contains ten held
-observation gaps, five of them high priority because the pinned artifact does
+observation gaps, four of them high priority because the pinned artifact does
 not expose source URLs or filing identities. The annual-report theme map now
 links to its pinned public citation list, while the IBIS corpus exposes its
 separate source inventory (17,998 sources, including 17,087 public URLs), but
@@ -92,6 +92,9 @@ promotion. The annual citation list currently contributes 25 URLs and 25
 identified citation rows across its source categories.
 The Inc. 5000 rebuild observation now also carries its independent-source index:
 104 adjudicated records across 95 companies with public source URLs.
+The IBIS force register now resolves its explicit source IDs against the pinned
+source inventory; the force synthesis remains a hypothesis until those sources
+are mapped to individual claims and outcomes.
 
 The first broader candidate built from these lanes is documented in
 [`CARE-CAPACITY-CANDIDATE.md`](CARE-CAPACITY-CANDIDATE.md) and
