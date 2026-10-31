@@ -140,3 +140,15 @@ deliberative governance. Public sources support process scale, design
 conditions, case architecture, inclusion risks and the information-to-influence
 gap. They do not by themselves establish representative voice, changed
 allocation, delivered public value, service improvement or durable trust.
+
+## Sources
+
+These source-family anchors support the packet’s process, design and
+measurement claims; they are not proof that a particular process was
+representative, consequential or durable.
+
+- OECD, [Government at a Glance 2025](https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html): public-governance and deliberative-participation context.
+- OECD, [Citizen participation](https://www.oecd.org/en/topics/sub-issues/citizen-participation.html): participation design, inclusion, capacity, impact and accountability context.
+- World Bank, [Social accountability](https://www.worldbank.org/en/topic/socialdevelopment/brief/social-accountability): citizen engagement, oversight and service-accountability context.
+- World Bank, [Community and local development](https://www.worldbank.org/en/topic/communitydrivendevelopment): local decision-making, inclusion and implementation context.
+- OECD, [Open government](https://www.oecd.org/en/topics/sub-issues/open-government.html): transparency, participation and public-sector responsiveness context.

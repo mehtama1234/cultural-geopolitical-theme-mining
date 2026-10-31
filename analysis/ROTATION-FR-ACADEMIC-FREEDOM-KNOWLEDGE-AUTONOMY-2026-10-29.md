@@ -146,3 +146,16 @@ autonomy. Public sources support the normative scope, global pressure signals,
 institutional-autonomy gap, revision agenda and data limitations. They do not
 by themselves establish a named scholar’s or student’s protection, knowledge
 quality, community benefit, cultural control or durable institutional trust.
+
+## Sources
+
+These are source-family anchors for the claims above; they support the
+frameworks, signals and measurement cautions, not a completed case-level
+finding about any named scholar, student or institution.
+
+- UNESCO, [Freedom of expression](https://www.unesco.org/en/freedom-expression)
+  and [World Trends in Freedom of Expression and Media Development](https://www.unesco.org/en/world-media-trends): global expression and institutional-climate context.
+- UNESCO, [Recommendation concerning the Status of Higher-Education Teaching Personnel](https://www.unesco.org/en/legal-affairs/recommendation-concerning-status-higher-education-teaching-personnel): normative scope for academic freedom, autonomy and professional conditions.
+- UNESCO, [Recommendation on Open Science](https://www.unesco.org/en/legal-affairs/recommendation-open-science?hub=704): access, participation and knowledge-sharing principles relevant to knowledge autonomy.
+- OHCHR, [Special Rapporteur on the promotion and protection of the right to freedom of opinion and expression](https://www.ohchr.org/en/special-procedures/sr-freedom-of-opinion-and-expression): rights-based expression and accountability context.
+- European Commission, [Strategic autonomy and European economic and research security](https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/europe-world/international-cooperation/strategic-autonomy-and-european-economic-and-research-security_en): research-security and geopolitical-dependence context.
