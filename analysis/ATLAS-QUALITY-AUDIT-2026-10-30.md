@@ -8,21 +8,21 @@ quality snapshot, not a claim that the substantive evidence is complete.
 
 | Check | Result | Interpretation |
 |---|---:|---|
-| CSV files under `analysis/` | 334 | Includes packet ledgers and older control/audit tables. |
-| CSV data rows | 2,658 | Counts exclude headers and do not imply comparable units. |
+| CSV files under `analysis/` | 335 | Includes packet ledgers and older control/audit tables. |
+| CSV data rows | 2,665 | Counts exclude headers and do not imply comparable units. |
 | Files with internally inconsistent row widths | 0 | Every CSV has a consistent width within its own file. |
-| Registered Markdown packet links | 359 | The register contains repeated links across its historical and current sections. |
-| Unique registered packet paths | 329 | Deduplicated path count. |
+| Registered Markdown packet links | 360 | The register contains repeated links across its historical and current sections. |
+| Unique registered packet paths | 330 | Deduplicated path count. |
 | Missing registered packet files | 0 | Every registered `.md` packet path resolves under `analysis/`. |
-| Master synthesis propositions | 458 | Numbered propositions before the evidence-boundary section. |
-| Proposition sequence | strict 1–458 | No missing or duplicate proposition number in the current range. |
+| Master synthesis propositions | 459 | Numbered propositions before the evidence-boundary section. |
+| Proposition sequence | strict 1–459 | No missing or duplicate proposition number in the current range. |
 
 ## Intentional schema families
 
 The atlas does not force every CSV into one schema because older packet types
 capture different evidence contracts. Current internally consistent widths are:
 
-- 226 files with 9 columns;
+- 227 files with 9 columns;
 - 99 files with 8 columns;
 - 4 files with 10 columns;
 - 4 files with 7 columns;

@@ -1,7 +1,7 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 329 unique registered packet paths, 334 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 458, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity and portfolio-synthesis evidence integrated.
+**Inputs:** 330 unique registered packet paths, 335 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 459, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation and portfolio-synthesis evidence integrated.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
@@ -221,6 +221,22 @@ performance, prices, relief/public-service continuity and contrasting user or
 place outcomes. This strengthens the route-to-local-continuity lane without
 promoting technical restoration into equal lived resilience.
 
+## Selective digital participation refresh — 2026-10-30
+
+The latest Ofcom and Pew evidence adds a social-cultural lane between platform
+presence and platform exit. Active public posting appears to be becoming more
+selective in the UK, and safety-control/default experiments show that choice
+architecture can alter behavior. At the same time, use remains widespread and
+social connection remains a reported benefit. The defensible finding is a
+distinction between presence, public visibility, control use, private/ephemeral
+participation and practical agency—not a claim of mass digital withdrawal.
+
+The next acquisition is a longitudinal multi-platform ledger that follows a
+named cohort through posting reduction, private messaging, passive use,
+content-control use, app deletion, substitution, opportunity cost, wellbeing,
+voice and re-entry or durable exit, preserving both high-benefit users and
+protective or forced non-users.
+
 ## Strongest open conversion lanes
 
 1. **Facility-to-household incidence:** AI/data-centre, transmission, water,
@@ -243,6 +259,9 @@ promoting technical restoration into equal lived resilience.
 7. **Route-to-local-continuity:** submarine cables, landing stations, satellite
    fallback and repair systems need same-event evidence for main-island and
    outer-island users, public services, affordability and local control.
+8. **Selective participation-to-agency:** social platforms need same-user
+   evidence distinguishing public visibility, private connection, passive use,
+   safety controls, substitution, lost opportunity and durable wellbeing.
 
 ## Counterexamples the atlas must preserve
 
