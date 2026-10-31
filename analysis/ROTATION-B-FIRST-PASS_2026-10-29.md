@@ -107,6 +107,19 @@ The machine-readable source ledger is
 The broader queue is the
 [trend/subtheme discovery queue](US-BROAD-TREND-DISCOVERY-QUEUE_V1.md).
 
+## Sources
+
+The seven source records below are preserved in the companion
+[`ROTATION-B-SOURCE-LEDGER_2026-10-29.csv`](ROTATION-B-SOURCE-LEDGER_2026-10-29.csv):
+
+- BLS, [American Time Use Survey annual results](https://www.bls.gov/news.release/atus.htm)
+- Federal Reserve, [2025 household income and expenses](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm)
+- Federal Reserve, [2025 overall financial well-being](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-Overall-Financial-Well-Being.htm)
+- USDA FNS, [SNAP recipient rights](https://www.fns.usda.gov/snap/recipient/your-rights)
+- Gallup, [community connection, belonging and agency](https://news.gallup.com/poll/714935/involved-americans-feel-greater-belonging-agency.aspx)
+- Gallup, [shared values survey](https://news.gallup.com/poll/716093/three-quarters-identify-shared-values.aspx)
+- Pew Research Center, [civic and public-life engagement](https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/)
+
 ## Decision boundary
 
 This rotation adds source-led subtheme hypotheses and specific acquisition
