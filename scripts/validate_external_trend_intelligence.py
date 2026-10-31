@@ -325,10 +325,11 @@ def main() -> int:
     assert shed_emergency["boundary"] and shed_emergency["comparability_review"]["next_test"]
     uncertainty = json.loads((ANALYSIS / "shed-emergency-expense-uncertainty-audit.json").read_text())
     assert uncertainty["schema"] == "external-trend-intelligence.uncertainty-audit.v1"
-    assert uncertainty["public_sample_size"] == 12295
+    assert uncertainty["public_sample_size"] == {"2023": 11400, "2024": 12295}
     assert uncertainty["naive_srs_interval"]["status"] == "diagnostic_only_not_release_valid"
     assert uncertainty["design_based_status"] == "not_estimable_from_current_pinned_artifacts"
     assert uncertainty["release_decision"] == "hold"
+    assert len(uncertainty["naive_srs_interval"]["diagnostics"]) == 2
     reproduction = json.loads((ANALYSIS / "shed-point-estimate-reproduction-audit.json").read_text())
     assert reproduction["schema"] == "external-trend-intelligence.reproduction-audit.v1"
     assert reproduction["status"] == "point_estimate_reproduced_variance_open"

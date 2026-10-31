@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "b56b8e1625e292792ad6ce668bdd261a9aa2837c",
+  "source_tree_commit": "0f26dbacd4431d306a96460bcadad2cecd4ee9a7",
   "artifact_count": 76,
   "artifacts": [
     {
@@ -291,8 +291,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/shed-emergency-expense-uncertainty-audit.json",
-      "bytes": 1938,
-      "sha256": "2e36409e141bda11a6393a3c3e7a484a9c4fc405236e830c1dc5ecf33149f4da"
+      "bytes": 2397,
+      "sha256": "15c33005e120d9689383d1662fa7352a02eb325b8cb4750715213ce3a227dd19"
     },
     {
       "path": "analysis/external-trend-intelligence/shed-point-estimate-reproduction-audit.json",

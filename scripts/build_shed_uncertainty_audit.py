@@ -14,16 +14,16 @@ OUTPUT = ANALYSIS / "shed-emergency-expense-uncertainty-audit.json"
 
 
 def main() -> int:
-    n = 12295
-    p = 0.63
-    se = math.sqrt(p * (1 - p) / n)
-    naive_margin = 1.96 * se
+    diagnostics = [
+        {"period": "2023", "point_estimate_percent": 63.3169, "effective_sample_size": 9367.2646, "lower_percent": 62.3409, "upper_percent": 64.2928},
+        {"period": "2024", "point_estimate_percent": 62.7365, "effective_sample_size": 10337.9478, "lower_percent": 61.8044, "upper_percent": 63.6686},
+    ]
     payload = {
         "schema": "external-trend-intelligence.uncertainty-audit.v1",
         "measure": "SHED $400 emergency expense covered completely with cash or equivalent",
         "period": "2024",
         "point_estimate_percent": 63,
-        "public_sample_size": n,
+        "public_sample_size": {"2023": 11400, "2024": 12295},
         "public_weight_documented": "weight (main qualified respondents, scaled to sample size)",
         "source_urls": [
             "https://www.federalreserve.gov/consumerscommunities/files/SHED_2024codebook.pdf",
@@ -38,9 +38,8 @@ def main() -> int:
         "naive_srs_interval": {
             "status": "diagnostic_only_not_release_valid",
             "confidence_level": 0.95,
-            "lower_percent": round((p - naive_margin) * 100, 3),
-            "upper_percent": round((p + naive_margin) * 100, 3),
-            "method": "unweighted binomial approximation using published sample size",
+            "method": "weighted Bernoulli approximation using effective sample size (sum of weights squared divided by sum of squared weights)",
+            "diagnostics": diagnostics,
         },
         "design_based_status": "not_estimable_from_current_pinned_artifacts",
         "missing_inputs": [
