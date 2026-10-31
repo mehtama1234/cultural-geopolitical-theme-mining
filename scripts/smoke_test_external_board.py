@@ -7,6 +7,7 @@ import http.server
 import pathlib
 import subprocess
 import time
+import urllib.error
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -31,7 +32,16 @@ def main() -> int:
         stderr=subprocess.DEVNULL,
     )
     try:
-        time.sleep(0.4)
+        deadline = time.time() + 5
+        while True:
+            try:
+                with urllib.request.urlopen(f"http://127.0.0.1:{PORT}/board.html", timeout=1) as response:
+                    if response.status == 200:
+                        break
+            except (urllib.error.URLError, ConnectionError):
+                if time.time() >= deadline:
+                    raise RuntimeError("external board server did not become ready within 5 seconds")
+                time.sleep(0.1)
         for artifact in ARTIFACTS:
             with urllib.request.urlopen(f"http://127.0.0.1:{PORT}/{artifact}", timeout=5) as response:
                 if response.status != 200:
