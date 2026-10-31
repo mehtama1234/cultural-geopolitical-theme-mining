@@ -2,7 +2,7 @@
   "schema": "external-trend-intelligence.external-evidence-gap-queue.v1",
   "purpose": "Explicit next-review queue for external observations that cannot yet support independent trend promotion.",
   "gap_count": 10,
-  "high_priority_count": 4,
+  "high_priority_count": 3,
   "gaps": [
     {
       "observation_id": "ibis-cross-industry-discovery-findings",
@@ -36,20 +36,6 @@
       "observation_id": "social-integrated-trend-atlas",
       "family_id": "social-research",
       "title": "Integrated Social Trend Atlas Report",
-      "priority": "high",
-      "missing_evidence": [
-        "source URLs or filing identities for the underlying records",
-        "unit, geography, period, and denominator audit",
-        "independence review against the synthesis source"
-      ],
-      "shared_url_count": 0,
-      "shared_host_count": 0,
-      "decision": "hold"
-    },
-    {
-      "observation_id": "trend-hunting-ai-deep-synthesis",
-      "family_id": "trend-hunting",
-      "title": "Trend-hunting AI deep-trend synthesis",
       "priority": "high",
       "missing_evidence": [
         "source URLs or filing identities for the underlying records",
@@ -113,7 +99,7 @@
         "independent population-level or outcome measure"
       ],
       "shared_url_count": 13,
-      "shared_host_count": 12,
+      "shared_host_count": 13,
       "decision": "hold"
     },
     {
@@ -142,6 +128,20 @@
       ],
       "shared_url_count": 6,
       "shared_host_count": 9,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "trend-hunting-ai-deep-synthesis",
+      "family_id": "trend-hunting",
+      "title": "Trend-hunting AI deep-trend synthesis",
+      "priority": "medium",
+      "missing_evidence": [
+        "publisher, filing, and artifact identity review for each URL",
+        "map citations to the specific theme or company record",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 1,
       "decision": "hold"
     }
   ],

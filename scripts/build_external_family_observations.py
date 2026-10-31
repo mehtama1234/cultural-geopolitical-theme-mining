@@ -80,6 +80,9 @@ def main() -> int:
     social_collection = json.loads(show(SOCIAL_REPO, SOCIAL_REV, social_collection_path))
     trend_path = "data/processed/ai_v7_deep_trend_synthesis_v1.json"
     trend_report = json.loads(show(TREND_REPO, TREND_REV, trend_path))
+    trend_input_urls = set()
+    for input_path in trend_report.get("inputs", []):
+        trend_input_urls.update(re.findall(r"https?://[^\s)\\\"`]+", show(TREND_REPO, TREND_REV, input_path)))
     theme_path = "annual-report-research/analysis/company-first-principles/annual-report-final-integrated-theme-map-pass-1.md"
     theme_map = show(ANNUAL_REPO, ANNUAL_REV, theme_path)
     annual_citation_path = "annual-report-research/analysis/company-first-principles/annual-report-public-citation-source-list-pass-1.md"
@@ -258,7 +261,10 @@ def main() -> int:
                 checked=trend_report["checked"],
                 input_checksum_count=len(trend_report.get("input_checksums", {})),
                 artifact_inputs=trend_report.get("inputs", []),
-                source_url_status="not_present_in_artifact",
+                source_input_paths=trend_report.get("inputs", []),
+                source_urls=sorted(trend_input_urls),
+                source_url_status="present_in_artifact",
+                source_url_count=len(trend_input_urls),
                 observation_period=f"Trend-hunting synthesis checked {trend_report['checked']}",
             ),
         ]
