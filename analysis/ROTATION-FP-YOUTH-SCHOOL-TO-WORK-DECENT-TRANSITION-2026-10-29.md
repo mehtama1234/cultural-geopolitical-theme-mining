@@ -151,3 +151,16 @@ transition. Public sources support scale, gender and geography, programme
 mechanisms, and the distinction between employment quantity and quality. They
 do not by themselves establish a named participant’s retained decent work,
 fair pay, protection, wellbeing, agency or durable local belonging.
+
+## Sources
+
+The packet’s evidence snapshot is anchored to these official source families.
+They support scale, labour-market quality, education-to-work patterns, career
+guidance and youth-employment framing; they do not close the named participant
+and 12–24-month outcomes required by the next test.
+
+- ILO, [youth employment](https://www.ilo.org/topics/youth-employment)
+- OECD, [Education at a Glance 2025](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/education-at-a-glance-2025_c58fc9ae/1c0d9c79-en.pdf)
+- OECD, [Skills Outlook 2025](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/oecd-skills-outlook-2025_ac37c7d4/26163cd3-en.pdf)
+- World Bank, [jobs and development](https://www.worldbank.org/en/topic/jobsanddevelopment)
+- ILO, [decent work](https://www.ilo.org/topics/decent-work)
