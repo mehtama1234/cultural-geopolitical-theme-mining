@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>External trend intelligence</title>
+  <style>
+    :root { color-scheme: light; --ink:#17202a; --muted:#5f6b76; --line:#d9e1e8; --paper:#f6f8fa; --card:#fff; --accent:#7c2d12; --soft:#ffedd5; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif; }
+    main { max-width:1240px; margin:0 auto; padding:32px 20px 64px; }
+    header { border-bottom:1px solid var(--line); padding-bottom:22px; }
+    h1 { margin:0; font-size:clamp(2rem,5vw,3.5rem); line-height:1.05; letter-spacing:-.04em; max-width:820px; }
+    h2 { margin:0 0 12px; font-size:1.1rem; }
+    .lede { color:var(--muted); max-width:820px; margin:14px 0 0; }
+    nav { display:flex; gap:14px; flex-wrap:wrap; margin-top:18px; }
+    nav a { color:var(--accent); font-weight:700; }
+    .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin:24px 0; }
+    .stat, .panel, article { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
+    .stat strong { display:block; font-size:1.8rem; line-height:1.1; }
+    .stat span, .muted { color:var(--muted); font-size:.9rem; }
+    .charts { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:16px; margin-bottom:22px; }
+    .bar-row { display:grid; grid-template-columns:minmax(120px,1fr) 2fr auto; gap:8px; align-items:center; margin:8px 0; font-size:.82rem; }
+    .track { height:10px; background:#edf2f7; border-radius:99px; overflow:hidden; }
+    .fill { height:100%; background:var(--accent); border-radius:inherit; min-width:2px; }
+    .candidates { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; }
+    article { display:flex; flex-direction:column; gap:8px; }
+    article h3 { margin:0; font-size:1.05rem; line-height:1.25; }
+    .pill { display:inline-block; width:max-content; border-radius:999px; padding:3px 9px; background:var(--soft); color:var(--accent); font-size:.75rem; font-weight:750; text-transform:uppercase; }
+    article p { margin:0; color:var(--muted); }
+    article code { color:var(--accent); font-size:.78rem; }
+    footer { margin-top:28px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>See external change before connecting it to a company.</h1>
+      <p class="lede">This board is the first-stage external trend layer. It indexes source-backed observations, shows where the evidence comes from, and displays qualified candidates. It does not claim a company impact or silently join populations.</p>
+      <nav>
+        <a href="../../EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md">Read the external goal</a>
+        <a href="CROSS-SOURCE-CANDIDATES.md">Read candidate comparisons</a>
+        <a href="INTERNAL-BRIDGE.md">Read the internal bridge contract</a>
+        <a href="../../START-HERE.md">Start here</a>
+      </nav>
+    </header>
+    <section class="stats" aria-label="External inventory summary">
+      <div class="stat"><strong id="record-count">—</strong><span>source-backed records</span></div>
+      <div class="stat"><strong id="host-count">—</strong><span>source hosts</span></div>
+      <div class="stat"><strong id="theme-count">—</strong><span>program themes</span></div>
+      <div class="stat"><strong id="candidate-count">—</strong><span>qualified candidates</span></div>
+    </section>
+    <section class="charts" aria-label="External evidence coverage">
+      <div class="panel"><h2>Theme coverage</h2><div id="theme-chart"></div></div>
+      <div class="panel"><h2>Most-used source hosts</h2><div id="host-chart"></div></div>
+    </section>
+    <section>
+      <h2>Cross-source candidates</h2>
+      <p class="muted">These are qualified candidates, not forecasts and not internal company findings.</p>
+      <div class="candidates" id="candidates"></div>
+    </section>
+    <footer>Serve this directory over HTTP to load the JSON manifests. Source records remain authoritative; this board is a reader.</footer>
+  </main>
+  <script>
+    const el = id => document.getElementById(id);
+    function barChart(target, entries, total) {
+      target.replaceChildren();
+      entries.forEach(([label, value]) => {
+        const row = document.createElement('div'); row.className = 'bar-row';
+        const name = document.createElement('span'); name.textContent = label.replaceAll('_', ' ');
+        const track = document.createElement('span'); track.className = 'track';
+        const fill = document.createElement('span'); fill.className = 'fill'; fill.style.width = `${Math.max(2, (value / total) * 100)}%`; track.append(fill);
+        const count = document.createElement('strong'); count.textContent = value;
+        row.append(name, track, count); target.append(row);
+      });
+    }
+    function candidateCard(candidate) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = candidate.status.replaceAll('_', ' ');
+      const title = document.createElement('h3'); title.textContent = candidate.title;
+      const mechanism = document.createElement('p'); mechanism.innerHTML = `<strong>Mechanism:</strong> ${candidate.mechanism}`;
+      const counter = document.createElement('p'); counter.innerHTML = `<strong>Counter-signal:</strong> ${candidate.counter_signal}`;
+      const next = document.createElement('p'); next.innerHTML = `<strong>Next comparison:</strong> ${candidate.next_comparison}`;
+      const refs = document.createElement('code'); refs.textContent = `${candidate.evidence_record_ids.length} evidence records`;
+      article.append(pill, title, mechanism, counter, next, refs); return article;
+    }
+    Promise.all([fetch('observation-manifest.json').then(r => r.json()), fetch('candidate-comparisons.json').then(r => r.json())]).then(([manifest, comparison]) => {
+      el('record-count').textContent = manifest.record_count.toLocaleString();
+      el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
+      el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
+      el('candidate-count').textContent = comparison.candidates.length;
+      barChart(el('theme-chart'), Object.entries(manifest.program_theme_counts).sort((a,b) => b[1]-a[1]), manifest.record_count);
+      barChart(el('host-chart'), Object.entries(manifest.source_host_counts).slice(0, 16), manifest.record_count);
+      const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
+    }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
+  </script>
+</body>
+</html>

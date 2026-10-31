@@ -27,6 +27,9 @@ Potential internal systems and their authority boundaries are listed in
 [`internal-source-catalog.json`](internal-source-catalog.json). The catalog is
 inventory-only until an owner approves a specific source and snapshot.
 
+For a visual readout of the external inventory and candidate comparisons, open
+[`board.html`](board.html) through a local HTTP server.
+
 ## Stages
 
 1. **Capture:** preserve the external URL/API, publisher, date, retrieval
