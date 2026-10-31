@@ -37,6 +37,15 @@ This qualified trend separates operational capability, alliance response,
 local coordination, public permission, and durable leverage. Its open test is a
 dated incident ledger with later behavior and burden measures.
 
+### Language technology creates visibility before it creates vitality
+
+[Cultural and language technology trend record](company-trend-cultural-language-technology-2026-004.md)
+
+This qualified trend translates Māori and comparative language-AI evidence into
+localization, accessibility, governance, reputation, and market-entry exposure.
+Its open test is a stable Gazetteer crosswalk plus repeated use and completed
+tasks in a real product or public-service workflow.
+
 ## Record contract
 
 - [Company trend-intelligence goal](../../COMPANY_TREND_INTELLIGENCE_GOAL_V1.md)
