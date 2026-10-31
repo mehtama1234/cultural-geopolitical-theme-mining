@@ -11,6 +11,7 @@ financial, institutional, and geopolitical atlas.
 - [Portfolio JSON](portfolio.json) — frontend/downstream data contract.
 - [Portfolio CSV](portfolio.csv) — spreadsheet and BI export.
 - [Board](board.html) — lightweight browser reader.
+- [Decision playbook](DECISION-PLAYBOOK.md) — weekly, monthly, and quarterly use.
 - [Schema](schema.json) and [template](TEMPLATE.md) — record contract.
 - [Validator](../../scripts/validate_company_trend_intelligence.py) — integrity check.
 

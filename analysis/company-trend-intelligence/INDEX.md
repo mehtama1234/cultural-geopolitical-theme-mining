@@ -8,6 +8,8 @@ For the cross-domain interpretation, read the [portfolio view](PORTFOLIO.md).
 For a browser-based reader, open the [company trend board](board.html) from a
 local HTTP server.
 
+For management use, read the [decision playbook](DECISION-PLAYBOOK.md).
+
 ## What this layer does
 
 It turns source-backed research into decision-relevant trend records. A record
