@@ -38,6 +38,11 @@
       "measures": 3,
       "single_source_family": true
     },
+    "denominator_reconciliation": {
+      "source_decisions": 4,
+      "pooling_decision": "do_not_pool",
+      "status": "hold"
+    },
     "trend_qualification": {
       "candidates": 4,
       "qualified": 0,
@@ -65,7 +70,8 @@
     "backtest units, periods, populations, or geographies require harmonization",
     "no company pilot is approved; external qualification gate is not passed",
     "rights and publisher-dependence review remains open for source families",
-    "independent source comparison remains mechanism-only"
+    "independent source comparison remains mechanism-only",
+    "household and adult denominator definitions require reconciliation"
   ],
   "boundary": "This is a release-control summary, not evidence that any trend is causal, forecast-valid, rights-cleared, independent, or company-relevant."
 }

@@ -27,6 +27,7 @@ def main() -> int:
     room_comparison = load("room-independent-comparison.json")
     rights_evidence = load("rights-evidence-register.json")
     holdout = load("temporal-holdout-result.json")
+    denominator = load("denominator-reconciliation-review.json")
     health = {
         "source_refresh": {
             "families": status["family_count"],
@@ -61,6 +62,11 @@ def main() -> int:
             "measures": len(holdout["result"]),
             "single_source_family": True,
         },
+        "denominator_reconciliation": {
+            "source_decisions": len(denominator["rows"]),
+            "pooling_decision": denominator["common_pooling_decision"],
+            "status": "hold" if denominator["status"] != "qualified" else "pass",
+        },
         "trend_qualification": {
             "candidates": qualification["candidate_count"],
             "qualified": qualification["qualified_external_trend_count"],
@@ -94,6 +100,8 @@ def main() -> int:
         blockers.append("rights and publisher-dependence review remains open for source families")
     if health["independent_source_comparison"]["status"] == "hold":
         blockers.append("independent source comparison remains mechanism-only")
+    if health["denominator_reconciliation"]["status"] == "hold":
+        blockers.append("household and adult denominator definitions require reconciliation")
     report = {
         "schema": "external-trend-intelligence.release-health.v1",
         "release_status": "operational_with_gates" if not any(section["status"] == "hold" for section in health.values()) else "operational_with_open_gates",

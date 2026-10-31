@@ -386,11 +386,13 @@ def main() -> int:
     release_health = json.loads((ANALYSIS / "release-health.json").read_text())
     assert release_health["schema"] == "external-trend-intelligence.release-health.v1"
     assert release_health["release_status"] == "operational_with_open_gates"
-    assert len(release_health["blockers"]) == 5
+    assert len(release_health["blockers"]) == 6
     assert release_health["sections"]["rights_and_publisher_dependence"]["rights_unverified"] == 8
     assert release_health["sections"]["rights_and_publisher_dependence"]["local_evidence_families"] >= 1
     assert release_health["sections"]["temporal_holdout"]["status"] == "design_readout_only"
     assert release_health["sections"]["independent_source_comparison"]["directional_agreement_status"] == "directional_agreement_mechanism_only"
+    assert release_health["sections"]["denominator_reconciliation"]["pooling_decision"] == "do_not_pool"
+    assert release_health["sections"]["denominator_reconciliation"]["status"] == "hold"
     assert release_health["sections"]["independent_source_comparison"]["comparison_status"] == "mechanism_comparison_only"
     bounded_lineage = json.loads((ANALYSIS / "bounded-subset-lineage-review.json").read_text())
     assert bounded_lineage["schema"] == "external-trend-intelligence.bounded-subset-lineage-review.v1"
@@ -401,7 +403,7 @@ def main() -> int:
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
     assert progress["baseline"]["records"] == 2132
     assert progress["baseline"]["qualified_external_trends"] == 0
-    assert progress["baseline"]["release_artifacts"] == 55
+    assert progress["baseline"]["release_artifacts"] == 56
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
