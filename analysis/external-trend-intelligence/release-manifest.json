@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "b771a0d5b100c88e8745ca639447f69acc963aee",
-  "artifact_count": 36,
+  "source_tree_commit": "ed9073bd4150ec590c97af549fb8adad99d68a3f",
+  "artifact_count": 37,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -43,6 +43,11 @@
       "path": "analysis/external-trend-intelligence/backtest-comparability-review.json",
       "bytes": 49174,
       "sha256": "8aa4a3dc2bef13e832df78870e99ac60c9cdea12f2914c3dca88db050005a646"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/bounded-subset-register.json",
+      "bytes": 3974,
+      "sha256": "c63cdc490a7dc0567b94e8e0341ad2acc1d2130b69d206aa1a570fb786fe78c3"
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",

@@ -1,0 +1,80 @@
+{
+  "schema": "external-trend-intelligence.bounded-subset-register.v1",
+  "subsets": [
+    {
+      "subset_id": "australia-platform-remedy-case-panel-001",
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "status": "bounded_panel_not_backtest",
+      "record_ids": [
+        "au-al-hussein-reactivation-deemed-work-2025",
+        "au-fwc-khan-platform-repeat-deactivation-2026",
+        "au-mansoor-platform-alternative-earnings-remedy-2025"
+      ],
+      "common_frame": "Australia; adjudicated platform-worker remedy cases; case-level stages",
+      "panel": [
+        {
+          "record_id": "au-al-hussein-reactivation-deemed-work-2025",
+          "source_path": "analysis/records/au-al-hussein-reactivation-deemed-work-2025.json",
+          "geography": "Australia; comparative case used to test platform remedy and recovery stages in the US-centered atlas",
+          "source_unit": "One adjudicated Fair Work Commission platform-worker case, UDE2025/134",
+          "periods": [
+            "2025-10-17; merits decision",
+            "2025-10-31; lost-pay confer direction",
+            "2026-09-18; targeted public implementation recheck"
+          ],
+          "source_urls": [
+            "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792947.pdf",
+            "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3176.pdf",
+            "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders"
+          ]
+        },
+        {
+          "record_id": "au-fwc-khan-platform-repeat-deactivation-2026",
+          "source_path": "analysis/records/au-fwc-khan-platform-repeat-deactivation-2026.json",
+          "geography": "Australia; Uber Eats delivery platform, FWC UDE2025/185",
+          "source_unit": "Fair Work Commission Uber Eats platform reactivation and repeat-deactivation case [2026] FWC 48",
+          "periods": [
+            "August 2024 through January 12, 2026; repeated complaint, block, reactivation, deactivation, and order sequence"
+          ],
+          "source_urls": [
+            "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc48.pdf"
+          ]
+        },
+        {
+          "record_id": "au-mansoor-platform-alternative-earnings-remedy-2025",
+          "source_path": "analysis/records/au-mansoor-platform-alternative-earnings-remedy-2025.json",
+          "geography": "Australia; comparative case used to test the platform-remedy stage of the US-centered atlas",
+          "source_unit": "One adjudicated Fair Work Commission platform-worker case, UDE2025/141 / PR792727",
+          "periods": [
+            "2025-06-13; platform deactivation and subsequent substitute-work period",
+            "2025-10-17; Fair Work Commission remedy order",
+            "2026-09-18; targeted public implementation recheck"
+          ],
+          "source_urls": [
+            "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792727.pdf",
+            "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3111.pdf",
+            "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders"
+          ]
+        }
+      ],
+      "supports": [
+        "stage coding",
+        "formal-response-to-recovery pathway review",
+        "falsifier design"
+      ],
+      "does_not_support": [
+        "population prevalence",
+        "independent-source confirmation",
+        "causal effect",
+        "company exposure"
+      ],
+      "blocking_gates": [
+        "shared Fair Work Commission publisher lineage",
+        "incomplete payment/receipt and durable-access outcomes",
+        "no independent holdout source family"
+      ],
+      "next_action": "Code common response, implementation, receipt, recovery, and exit stages; then add an independent non-FWC source family before any trend promotion."
+    }
+  ],
+  "boundary": "A bounded subset narrows the comparison frame; it does not make shared-publisher cases independent or turn missing outcomes into zeros."
+}

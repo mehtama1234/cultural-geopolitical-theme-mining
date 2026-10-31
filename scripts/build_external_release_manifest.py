@@ -22,6 +22,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/backtest-readiness.json",
     "analysis/external-trend-intelligence/backtest-source-snapshot.json",
     "analysis/external-trend-intelligence/backtest-comparability-review.json",
+    "analysis/external-trend-intelligence/bounded-subset-register.json",
     "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
     "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
     "analysis/external-trend-intelligence/refresh-schedule.json",
