@@ -65,6 +65,8 @@
       <div class="stat"><strong id="family-observation-count">—</strong><span>new family observations</span></div>
       <div class="stat"><strong id="held-candidate-count">—</strong><span>held candidates</span></div>
       <div class="stat"><strong id="high-gap-count">—</strong><span>high-priority evidence gaps</span></div>
+      <div class="stat"><strong id="refresh-ready-count">—</strong><span>families ready for review</span></div>
+      <div class="stat"><strong id="refresh-incomplete-count">—</strong><span>incomplete refreshes</span></div>
     </section>
     <section class="charts" aria-label="External evidence coverage">
       <div class="panel"><h2>Theme coverage</h2><div id="theme-chart"></div></div>
@@ -101,6 +103,11 @@
       <h2>External source families and refresh cadence</h2>
       <p class="muted">These families feed discovery. The cadence is a maintenance trigger, not proof that sources are independent or continuously available.</p>
       <div class="source-families" id="source-families"></div>
+    </section>
+    <section style="margin-top:28px">
+      <h2>Refresh control plane</h2>
+      <p class="muted">This view reports whether scheduled artifacts exist and how old the local files are. It does not prove source freshness, licensing, independence, or outcome validity.</p>
+      <div class="source-families" id="refresh-status"></div>
     </section>
     <section style="margin-top:28px">
       <h2>Lineage warnings</h2>
@@ -200,6 +207,15 @@
       const boundary = document.createElement('p'); boundary.innerHTML = `<strong>Boundary:</strong> ${family.evidence_boundary}`;
       article.append(pill, title, role, cadence, trigger, boundary); return article;
     }
+    function refreshStatusCard(family) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = family.status.replaceAll('_', ' ');
+      const title = document.createElement('h3'); title.textContent = family.family_id.replaceAll('-', ' ');
+      const details = document.createElement('p');
+      details.textContent = family.artifacts.map(item => `${item.path}: ${item.age_hours === null ? 'missing' : `${item.age_hours}h old`}`).join(' · ');
+      const missing = document.createElement('code'); missing.textContent = family.missing_artifacts.length ? `missing: ${family.missing_artifacts.join(', ')}` : 'all scheduled artifacts present';
+      article.append(pill, title, details, missing); return article;
+    }
     function lineageWarningCard(url, observationIds) {
       const article = document.createElement('article');
       const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = 'shared URL';
@@ -241,10 +257,11 @@
       fetch('release-manifest.json').then(r => r.json()),
       fetch('promotion-queue.json').then(r => r.json()),
       fetch('refresh-schedule.json').then(r => r.json()),
+      fetch('refresh-status.json').then(r => r.json()),
       fetch('external-family-lineage-review.json').then(r => r.json()),
       fetch('external-evidence-gap-queue.json').then(r => r.json()),
       fetch('ibis-finding-claim-sample.json').then(r => r.json()),
-    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidates, careSubset, release, promotionQueue, refreshSchedule, lineageReview, gapQueue, ibisSample]) => {
+    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidates, careSubset, release, promotionQueue, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -254,6 +271,8 @@
       el('family-observation-count').textContent = familyObservations.observation_count;
       el('held-candidate-count').textContent = heldCandidates.candidates.length;
       el('high-gap-count').textContent = gapQueue.high_priority_count;
+      el('refresh-ready-count').textContent = refreshStatus.ready_for_review_count;
+      el('refresh-incomplete-count').textContent = refreshStatus.incomplete_count;
       el('release-commit').textContent = `source ${release.source_tree_commit.slice(0, 12)}`;
       barChart(el('theme-chart'), Object.entries(manifest.program_theme_counts).sort((a,b) => b[1]-a[1]), manifest.record_count);
       barChart(el('host-chart'), Object.entries(manifest.source_host_counts).slice(0, 16), manifest.record_count);
@@ -271,6 +290,7 @@
         const schedule = schedules.get(family.id);
         if (schedule) sourceFamilies.append(sourceFamilyCard(family, schedule));
       });
+      const refreshCards = el('refresh-status'); refreshStatus.families.forEach(family => refreshCards.append(refreshStatusCard(family)));
       const lineageWarnings = el('lineage-warnings');
       Object.entries(lineageReview.cross_observation_url_overlap).forEach(([url, observationIds]) => lineageWarnings.append(lineageWarningCard(url, observationIds)));
       const evidenceGaps = el('evidence-gaps'); gapQueue.gaps.forEach(gap => evidenceGaps.append(evidenceGapCard(gap)));
