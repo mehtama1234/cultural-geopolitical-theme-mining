@@ -2,8 +2,7 @@
 
 **Manifest:** `observation-manifest.json`
 **Candidate set:** `candidate-comparisons.json`
-**Status:** reviewed navigation-level duplication; substantive independence is
-still unverified.
+**Status:** Candidate 1 partially reviewed; Candidates 2–4 remain unreviewed.
 
 ## Duplicate URL findings
 
@@ -19,9 +18,24 @@ study locators. They must not be counted as independent confirmation, but they
 also do not prove that the underlying records are duplicates. The record-level
 source URLs and retrieval hashes remain the authority for deciding that.
 
+## Candidate 1 partial review
+
+The seven selected records identify seven distinct primary artifacts:
+
+- four separate Fair Work Commission cases (`2025 FWC 3176`, `2026 FWC 48`,
+  `2025 FWC 3111`, and `2024 FWC 3523`);
+- one Fair Work Ombudsman Atkins enforcement follow-up;
+- one GSMA ASEAN Consumer Scam Report 2026; and
+- one British Social Attitudes 43 NHS report.
+
+This supports `partially_reviewed` lineage for Candidate 1. It does not make
+the four FWC cases independent institutions, and it does not establish that
+the reports use unrelated underlying datasets. Publisher-level and study-level
+independence remain open.
+
 ## Independence decision
 
-All four candidates remain `independence_status: unverified` because:
+Candidates 2–4 remain `independence_status: unverified` because:
 
 - a different host can republish the same study, dataset, press release, or
   institutional claim;

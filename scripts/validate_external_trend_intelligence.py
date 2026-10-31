@@ -58,6 +58,12 @@ def main() -> int:
         assert all(count > 1 for count in coverage["duplicate_source_urls"].values())
         assert coverage["independence_status"] == "unverified"
         assert coverage["interpretation"]
+        lineage_review = candidate["lineage_review"]
+        assert lineage_review["status"] in {"not_started", "partial", "complete"}
+        assert lineage_review["independence_status"] in {"unverified", "partially_reviewed", "independent", "dependent_restatement", "same_artifact"}
+        if lineage_review["status"] == "partial":
+            assert lineage_review["primary_artifact_count"] >= 1
+            assert lineage_review["remaining"]
     bridge_schema = json.loads((ANALYSIS / "internal-bridge-schema.json").read_text())
     bridge_template = json.loads((ANALYSIS / "internal-bridge-template.json").read_text())
     assert bridge_schema["schema"] == "external-trend-intelligence.internal-bridge.v1"

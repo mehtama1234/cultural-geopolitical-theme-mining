@@ -12,7 +12,7 @@ the same people, firms, places, or events.
 
 | Candidate | Evidence records | Distinct source hosts | Unique source URLs | Repeated URLs | Independence status |
 |---|---:|---:|---:|---:|---|
-| Formal response before usable recovery | 7 | 6 | 17 | 2 | Unverified; lineage review required |
+| Formal response before usable recovery | 7 | 6 | 17 | 2 | Partially reviewed; publisher/study lineage open |
 | Time and financial pressure / practical room | 7 | 8 | 25 | 0 | Unverified; lineage review required |
 | Digital capability, control, and trust | 7 | 13 | 19 | 0 | Unverified; lineage review required |
 | Infrastructure dependency and power | 7 | 14 | 26 | 0 | Unverified; lineage review required |

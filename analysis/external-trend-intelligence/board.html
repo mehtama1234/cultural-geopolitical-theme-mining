@@ -82,7 +82,8 @@
       const counter = document.createElement('p'); counter.innerHTML = `<strong>Counter-signal:</strong> ${candidate.counter_signal}`;
       const next = document.createElement('p'); next.innerHTML = `<strong>Next comparison:</strong> ${candidate.next_comparison}`;
       const coverage = candidate.coverage || {};
-      const refs = document.createElement('code'); refs.textContent = `${candidate.evidence_record_ids.length} evidence records · ${coverage.source_host_count || '—'} hosts · ${coverage.unique_source_url_count || '—'} URLs · independence ${coverage.independence_status || 'not measured'}`;
+      const review = candidate.lineage_review || {};
+      const refs = document.createElement('code'); refs.textContent = `${candidate.evidence_record_ids.length} evidence records · ${coverage.source_host_count || '—'} hosts · ${coverage.unique_source_url_count || '—'} URLs · lineage ${review.status || 'not measured'}`;
       article.append(pill, title, mechanism, counter, next, refs); return article;
     }
     Promise.all([fetch('observation-manifest.json').then(r => r.json()), fetch('candidate-comparisons.json').then(r => r.json())]).then(([manifest, comparison]) => {
