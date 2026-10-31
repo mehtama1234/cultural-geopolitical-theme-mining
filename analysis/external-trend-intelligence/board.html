@@ -420,6 +420,9 @@
       const crossStageCards = el('cross-publisher-stage-panel');
       crossStageCards.append(card(`${crossPublisherStage.case_count} cases · ${crossPublisherStage.publisher_families.join(' / ')}`, crossPublisherStage.status, crossPublisherStage.boundary));
       crossPublisherStage.cases.forEach(item => crossStageCards.append(caseStageCard(item)));
+      fetch('cross-publisher-stage-comparison.json').then(r => r.json()).then(summary => {
+        crossStageCards.prepend(card(`${summary.case_count} case stages · descriptive only`, summary.status, summary.blocking_items.join(' · ')));
+      });
       el('bounded-lineage').append(boundedLineageCard(boundedLineage));
       const rightsCards = el('rights-queue'); rightsQueue.rows.forEach(row => rightsCards.append(rightsCard(row)));
       el('independent-comparison').append(independentComparisonCard(independentComparison));

@@ -16,6 +16,9 @@ RECORD_IDS = [
     "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018",
     "comparative-australia-fwc-no-alternative-employment-remedy-2024",
 ]
+PUBLISHERS = {
+    "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018": "Fair Work Ombudsman",
+}
 
 STAGES = {
     "formal_response": ("reactivation_order", "reactivation", "procedural_finding", "remedy", "compensation_order"),
@@ -39,7 +42,7 @@ def main() -> int:
         for stage, keys in STAGES.items():
             refs = {key: measures[key] for key in keys if key in measures}
             stage_values[stage] = {"status": "observed" if refs else "not_observed_in_public_record", "measure_refs": refs}
-        cases.append({"record_id": record_id, "publisher_family": record.get("publisher"), "geography": record.get("geography"), "stages": stage_values})
+        cases.append({"record_id": record_id, "publisher_family": PUBLISHERS.get(record_id, "Fair Work Commission"), "geography": record.get("geography"), "stages": stage_values})
     report = {
         "schema": "external-trend-intelligence.cross-publisher-stage-panel.v1",
         "subset_id": "australia-remedy-cross-publisher-panel-001",

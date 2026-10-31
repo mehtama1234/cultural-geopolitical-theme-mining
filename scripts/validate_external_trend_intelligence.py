@@ -364,6 +364,10 @@ def main() -> int:
     assert cross_stage["case_count"] == 5
     assert cross_stage["status"] == "stage_coded_cross_publisher_panel"
     assert cross_stage["publisher_families"] == ["Fair Work Commission", "Fair Work Ombudsman"]
+    cross_comparison = json.loads((ANALYSIS / "cross-publisher-stage-comparison.json").read_text())
+    assert cross_comparison["schema"] == "external-trend-intelligence.cross-publisher-stage-comparison.v1"
+    assert cross_comparison["case_count"] == 5
+    assert cross_comparison["status"] == "descriptive_stage_coverage_only"
     release_health = json.loads((ANALYSIS / "release-health.json").read_text())
     assert release_health["schema"] == "external-trend-intelligence.release-health.v1"
     assert release_health["release_status"] == "operational_with_open_gates"
