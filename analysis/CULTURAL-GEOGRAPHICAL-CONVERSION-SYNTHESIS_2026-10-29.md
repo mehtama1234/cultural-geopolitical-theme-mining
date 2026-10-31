@@ -3905,6 +3905,7 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 461. **Demographic pressure can explain AI adoption without proving care capacity or social benefit.** Aging, labour scarcity, firm constraints, automation, AI-product development, productivity opportunity or adoption depth can close a demographic-to-firm or process/product mechanism while a named older person, caregiver, worker, small firm or place's care quality, accessibility, affordability, agency, wellbeing, continuity and intergenerational distribution remain unobserved.
 462. **Continuity, control and distribution are the social test of capability.** A repaired route, backup system, participation control, productivity estimate, occupational premium, demographic adoption response or AI product can close a system, platform, firm or policy stage while a named person's, worker's, older user's, caregiver's, small firm's, household's or place's ability to continue, control, benefit, receive care, retain voice and sustain durable agency remains unobserved.
 463. **AI adoption is not AI capability or local value.** A firm-use percentage, AI strategy, imported tool, digital-service export, frontier partnership or expected productivity gain can close an access or experimentation stage while local data, language, skills, organizational learning, worker outcomes, supplier spillovers, public-service quality, value retention and geopolitical dependence remain unobserved.
+464. **Ocean monitoring or adaptation finance is not coastal livelihood continuity.** A pH trend, vulnerability map, regional network, fishery plan, insurance payout, aquaculture intervention or blue-economy project can close a science, planning or financial stage while a named fisher, household, women’s value-chain worker, Tribe, subsistence community or coastal place's food, income, safety, cultural practice, authority and durable adaptation remain unobserved.
 
 ## What the evidence does not support
 
@@ -3924,7 +3925,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 463 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 464 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 
@@ -3944,7 +3945,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation LX.
+living goal. The current atlas baseline has been refreshed through Rotation LY.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,

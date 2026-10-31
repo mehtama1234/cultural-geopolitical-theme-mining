@@ -1,7 +1,7 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 333 unique registered packet paths, 338 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 463, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, LV, LW, LX, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation, AI-gains-early-career-local-demand, aging-AI-adoption-care-labour, emerging-market-AI-adoption-depth and portfolio-synthesis evidence integrated.
+**Inputs:** 334 unique registered packet paths, 339 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 464, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, LV, LW, LX, LY, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation, AI-gains-early-career-local-demand, aging-AI-adoption-care-labour, emerging-market-AI-adoption-depth, ocean-acidification-coastal-livelihood and portfolio-synthesis evidence integrated.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
@@ -299,6 +299,21 @@ multinational affiliate, small analogue firm and public-service use case. It
 must record complements, adaptation, task and hiring effects, data/IP control,
 supplier spillovers and later capability retention, including a rapid adopter
 with shallow use and a slower adopter with deep local adaptation.
+
+## Ocean acidification and coastal livelihood refresh — 2026-10-30
+
+The latest NOAA, UNESCO IOC and World Bank evidence adds a distinct ecological
+conversion lane: ocean chemistry is global in cause but local in exposure,
+species, food, tenure, markets and cultural meaning. Monitoring, vulnerability
+assessment, regional governance and insurance can close science, planning and
+financial stages without proving that a named fisher, household, Tribe,
+subsistence community or women’s value-chain worker retains food, income,
+safety, authority or cultural continuity.
+
+The next acquisition is a paired coastal ledger joining chemistry, temperature,
+oxygen, species/catch, forecast, rule, tenure, adaptation cost, insurance,
+household food/income, women’s work, Indigenous/community authority, cultural
+practice, grievance and later ecological and livelihood outcomes.
 
 ## Strongest open conversion lanes
 
