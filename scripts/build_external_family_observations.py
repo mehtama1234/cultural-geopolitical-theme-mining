@@ -108,6 +108,7 @@ def main() -> int:
                 source_url_count=len(source_urls),
                 high_growth_example_count=len(trend.get("high_growth_examples", [])),
                 low_growth_counterexample_count=len(trend.get("low_growth_counterexamples", [])),
+                observation_period="Inc. 5000 2026 release; strategic ledger artifact generated 2026-10-30",
             )
         )
     observations.append(
@@ -124,6 +125,7 @@ def main() -> int:
             opportunity_titles=opportunities["opportunities"],
             field_evidence_submissions=opportunities["counts"]["field_evidence_submissions"],
             decisions=opportunities["decisions"],
+            observation_period="Inc. 5000 opportunity-intelligence artifact; release generated 2026-10-30",
         )
     )
     observations.extend(
@@ -141,6 +143,7 @@ def main() -> int:
                 data_window=ibis_manifest["corpus"]["current_data_window"],
                 geography=ibis_manifest["geography"],
                 source_url_status="not_present_in_artifact",
+                observation_period=f"IBIS current data window {ibis_manifest['corpus']['current_data_window']}; research cutoff {ibis_manifest['research_cutoff']}",
             ),
             record(
                 "ibis-cross-industry-discovery-findings",
@@ -154,6 +157,7 @@ def main() -> int:
                 "The findings are explicitly discovery hypotheses, not causal validation or proof of market outcomes.",
                 finding_titles=[finding["title"] for finding in ibis_findings["findings"]],
                 source_url_status="not_present_in_artifact",
+                observation_period="IBIS baseline findings register at pinned revision; current data window 2025-2026",
             ),
             record(
                 "ibis-cross-industry-business-forces",
@@ -167,6 +171,7 @@ def main() -> int:
                 "Business-force chains connect external conditions to industry mechanisms but remain hypotheses until claim-level evidence and falsifiers are checked.",
                 force_titles=[force["title"] for force in ibis_forces["forces"]],
                 source_url_status="not_present_in_artifact",
+                observation_period=ibis_forces.get("metadata", {}).get("as_of", "IBIS 2025-2026 working hypothesis register"),
             ),
         ]
     )
@@ -191,6 +196,7 @@ def main() -> int:
                 method=social_report["method"],
                 artifact_evidence_boundary=social_report["evidence_boundary"],
                 source_url_status="not_present_in_artifact",
+                observation_period=f"Social atlas generated {social_report['generated_at']}",
             ),
             record(
                 "trend-hunting-ai-deep-synthesis",
@@ -209,6 +215,7 @@ def main() -> int:
                 input_checksum_count=len(trend_report.get("input_checksums", {})),
                 artifact_inputs=trend_report.get("inputs", []),
                 source_url_status="not_present_in_artifact",
+                observation_period=f"Trend-hunting synthesis checked {trend_report['checked']}",
             ),
         ]
     )
@@ -225,6 +232,7 @@ def main() -> int:
             "Input hashes establish reproducibility lineage, not the truth of the underlying rankings or business claims.",
             release=rebuild["release"],
             generated_on=rebuild["generated_on"],
+            observation_period=f"Inc. 5000 rebuild artifact generated {rebuild['generated_on']}",
         )
     )
     observations.append(
@@ -242,6 +250,7 @@ def main() -> int:
             expansion_theme_count=sum(1 for layer, _ in theme_rows if layer == "Expansion"),
             company_folder_reference=int(folder_match.group(1)) if folder_match else None,
             theme_names=[name.strip() for _, name in theme_rows],
+            observation_period="Annual-report integrated theme map pass 1 at pinned revision",
         )
     )
     payload = {

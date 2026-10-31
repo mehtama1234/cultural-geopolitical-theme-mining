@@ -152,6 +152,7 @@ def main() -> int:
         assert observation["source_path"]
         assert observation["source_revision"] == snapshot_families[observation["family_id"]]["revision"]
         assert observation["title"] and observation["unit"]
+        assert observation["observation_period"] and observation["observation_period"] != "artifact release dated 2026-10-30 or pinned revision"
         assert observation["evidence_status"] in {"reported_candidate", "reported_queue", "reported_provenance", "reported_synthesis"}
         assert observation["boundary"]
         if observation["observation_id"].endswith("source-linked-share"):
