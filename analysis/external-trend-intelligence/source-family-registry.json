@@ -14,17 +14,29 @@
       "id": "social-research",
       "repository": "https://github.com/mehtama1234/social-research",
       "revision": "c2ff3e3a49129117802425514660ce4b2cf67744",
+      "manifest_paths": [
+        "analysis/social/integrated-trend-atlas-report.json",
+        "analysis/social/multi-platform-collection-manifest.json",
+        "analysis/social/publication-release-manifest.json"
+      ],
       "role": "bounded public discussion and creator-signal observatory",
       "evidence_boundary": "Discussion signals are not representative prevalence, causality, market size, or buying intent.",
-      "status": "pinned_external_snapshot"
+      "status": "pinned_external_snapshot",
+      "pin_note": "Use the pinned revision and manifest paths for source-level review; public discussion remains a bounded signal layer."
     },
     {
       "id": "trend-hunting",
       "repository": "https://github.com/mehtama1234/trend-hunting",
       "revision": "19d8b2443f26f52da2331736320dcb265a9de34f",
+      "manifest_paths": [
+        "analysis/DEEP-TRENDS-EVIDENCE-GRAPH-V1.md",
+        "analysis/CROSS-REPOSITORY-DEEP-TRENDS-INTEGRATION-V1.md",
+        "data/processed/ai_v7_deep_trend_synthesis_v1.json"
+      ],
       "role": "public-signal, consumer-trend, theme, subtheme, and counter-signal synthesis",
       "evidence_boundary": "Trend synthesis is a candidate signal until underlying observations and limits are checked.",
-      "status": "pinned_external_snapshot"
+      "status": "pinned_external_snapshot",
+      "pin_note": "Use the pinned revision and manifest paths for source-level review; synthesis does not substitute for underlying observations."
     },
     {
       "id": "annual-report-research",
@@ -62,9 +74,15 @@
       "id": "ibis-industries",
       "repository": "https://github.com/mehtama1234/ibis-industries",
       "revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+      "manifest_paths": [
+        "research_manifest.json",
+        "cross_industry_findings_register.json",
+        "cross_industry_trends_2025_2026.json"
+      ],
       "role": "industry definitions, structures, forces, bottlenecks, capacity, and dependencies",
       "evidence_boundary": "Analytic synthesis; does not establish customer demand, prevalence, willingness to pay, or live customer outcomes.",
-      "status": "pinned_external_snapshot"
+      "status": "pinned_external_snapshot",
+      "pin_note": "Use the pinned revision and manifest paths for industry context; force and finding registers remain hypotheses until claim-level evidence is checked."
     },
     {
       "id": "research-signals",

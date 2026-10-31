@@ -112,7 +112,7 @@ def main() -> int:
     assert family_registry["schema"] == "external-trend-intelligence.source-family-registry.v1"
     families = {family["id"]: family for family in family_registry["source_families"]}
     assert len(families) == 8
-    for family_id in ("annual-report-research", "inc5000-analysis"):
+    for family_id in ("annual-report-research", "inc5000-analysis", "ibis-industries", "social-research", "trend-hunting"):
         family = families[family_id]
         assert family["status"] == "pinned_external_snapshot"
         assert family["revision"]
@@ -128,6 +128,7 @@ def main() -> int:
         family = snapshot_families[family_id]
         assert family["revision"] == families[family_id]["revision"]
         assert family["manifest_paths"]
+        assert {entry["path"] for entry in family["manifest_paths"]} == set(families[family_id]["manifest_paths"])
         assert all(entry["blob"] and entry["size"] >= 0 for entry in family["manifest_paths"])
         assert all(count >= 0 for count in family["directory_prefix_counts"].values())
         assert family["boundary"]
