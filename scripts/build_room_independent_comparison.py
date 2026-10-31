@@ -46,7 +46,10 @@ def main() -> int:
                     "unable_to_raise_2000_2020": {"value": 26.6, "unit": "percent of households with at least one person unable to raise $2,000", "period": "2020"},
                     "unable_to_raise_2000_2023": {"value": 27.1, "unit": "percent of households with at least one person unable to raise $2,000", "period": "2023"}
                 },
-                "source_url": "https://www.abs.gov.au/statistics/measuring-what-matters/measuring-what-matters-themes-and-indicators/secure/making-ends-meet",
+                "source_urls": [
+                    "https://www.aihw.gov.au/reports/australias-welfare/income-and-income-inequality",
+                    "https://www.abs.gov.au/statistics/measuring-what-matters/measuring-what-matters-themes-and-indicators/secure/making-ends-meet"
+                ],
                 "retrieval_hash": "sha256:ad78b94069aa43911be3a9a8de2f9ddb645785a545f4076971c7e8b5c5c60620",
                 "checked": "2026-10-31",
                 "lineage_note": "AIHW presents custom HILDA analysis; HILDA is a separate longitudinal source from the ABS General Social Survey."
