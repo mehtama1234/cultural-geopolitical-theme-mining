@@ -43,6 +43,7 @@ large-load growth
 | VA-LL-017 | [PJM/FERC large-load technical conference account](https://insidelines.pjm.com/pjm-ferc-focus-on-large-load-challenges-at-tech-conference/) | 2026-10-22 | NVIDIA AI factory in Manassas, Virginia and PJM service area | PJM says compute-flexibility practices are being or will be studied at multiple data centres, including an NVIDIA AI factory in Manassas | Named facility-to-policy link; actual load profile, event participation, ride-through performance, backup runtime and customer incidence remain open |
 | VA-LL-018 | [PJM Board large-load registry and billing-data action](https://insidelines.pjm.com/pjm-board-directs-action-on-resource-adequacy-affordability-and-large-loads/) | 2026-07-27 | PJM large-load registry and settlement/billing data | PJM says future forecasting and capacity planning will use information from a new Large Load Registry and data available through settlement and billing processes | Registry fields, facility access, customer payments, forecast error and public disclosure remain open |
 | VA-LL-019 | [PJM proposed reliability standards for large-load disconnection events](https://insidelines.pjm.com/reliability-standards-to-manage-large-load-disconnection-events-proposed-by-pjm/) | 2026-09-10 | Northern Virginia computational loads and PJM interconnection requirements | PJM describes the July 22 event as the third separate measurable large-load event in two years and proposes ride-through/interconnection changes | Named facility participation, backup fuel/emissions, compliance date, cost and neighboring-customer effect remain open |
+| VA-LL-020 | [Virginia SCC Plaza 500 transmission testimony](https://www.scc.virginia.gov/docketsearch/DOCS/831001%21.PDF) | 2024-12-13 | Fairfax County Plaza 500 prospective data-center customer and Van Dorn/Edsall project | SCC testimony describes a proposed transmission/substation project intended solely to serve a prospective 176 MW data-center customer at Plaza 500; the record includes community concerns about route, residential proximity and whether the customer should bear project costs | Named site/load/project and public contestation are observed, but customer identity, final CPCN outcome, assigned/paid costs, construction/operation, environmental or household effect and later acceptance remain open |
 
 ## Stage audit
 
@@ -64,6 +65,16 @@ plausible route to facility-level forecasting and payment evidence. That is a
 stronger acquisition target than a generic national forecast, but it remains a
 policy/measurement link until a docket, operating record or billing record is
 matched to the facility.
+
+The Plaza 500 record adds a separate named-project route. The SCC testimony
+describes a 176 MW prospective customer and a Van Dorn/Edsall transmission and
+substation project that would not otherwise be needed at that scale, while
+residents contest route, proximity and who should pay. This closes more of the
+project-to-public-contestation chain than a statewide tariff summary, but the
+customer remains anonymized in the source and the testimony is not a final
+commission decision or proof of payment. It should therefore be used as a
+project-level accountability lead, not as evidence that a particular operator
+or household bore the cost.
 
 ## Preliminary finding
 
@@ -152,10 +163,12 @@ public comments/challenge | commission decision | later compliance or acceptance
 ```
 
 The immediate named-facility targets are the NVIDIA AI factory in Manassas and
-one Dominion interconnection or Rider T1 filing that can be linked to it. The
-PJM Large Load Registry and settlement/billing references should be treated as
-data-access leads, not as evidence that the registry is publicly available or
-that a customer-level payment has been observed.
+one Dominion interconnection or Rider T1 filing that can be linked to it. A
+parallel named-project target is the Plaza 500 176 MW customer and its
+Van Dorn/Edsall CPCN record. The PJM Large Load Registry and settlement/billing
+references should be treated as data-access leads, not as evidence that the
+registry is publicly available or that a customer-level payment has been
+observed.
 
 ### Pass condition
 
