@@ -18,6 +18,9 @@ qualified finding → bounded connection to internal company data. The company
 trend board is a downstream translation layer, not the starting point.
 
 For the live external view, open the [external trend board](analysis/external-trend-intelligence/board.html).
+To rebuild the complete external layer, run `python3 scripts/refresh_external_observatory.py`;
+the command validates the release and smoke-tests the board before it exits.
+The current release health is in [release-health.json](analysis/external-trend-intelligence/release-health.json).
 The current source universe is in the [source-family registry](analysis/external-trend-intelligence/source-family-registry.json),
 the pinned repository lineage is in the [repository-family snapshot](analysis/external-trend-intelligence/repository-family-snapshot.json),
 and the current normalized intake is in the [external-family observations](analysis/external-trend-intelligence/external-family-observations.json).
