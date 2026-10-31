@@ -37,6 +37,10 @@ symptom, clinical need, workforce pressure, access gap or public-health question
 | FDA AI-device market scale | FDA reports more than 1,600 AI-enabled medical devices authorized for US marketing as of September 2026 and emphasizes lifecycle monitoring, modification controls and public device information. | Scale and authorization landscape. | Clinical benefit, equitable performance, post-market incidence, patient understanding or real-world safety for the aggregate device population. |
 | WHO/Europe 2026 AI-health roadmap | The 53 WHO European Region Member States adopted a regional AI-in-health roadmap alongside a healthy-ageing strategy; the roadmap responds to AI entering healthcare faster than governance and emphasizes safer, fairer and accountable use. | Current regional political commitment and governance direction. | National implementation, procurement, patient-level safety, subgroup performance, consent, liability or actual redress. |
 | WHO/Europe 2026 healthy-ageing strategy | The same regional decision links healthy ageing to care closer to home, support for families/carers, data and intelligence, and scaling innovation. | Wider social and geographical care-system context for AI and robotics. | Whether technology improves autonomy, caregiver burden, access, health or cultural fit in named communities. |
+| WHO/Europe AI governance readiness statement | WHO reports nearly two thirds of countries in the Region are already deploying AI in diagnostics, while only 8% have a health-specific AI strategy and only 8% have liability standards defining responsibility when AI fails. | A current deployment-to-governance gap with explicit liability and capability measures. | Named clinical outcomes, patient harm, clinician training, country implementation and usable redress. |
+| UK Government response to AI-health Commission | Government accepted all 44 recommendations, committed to lifecycle-based assessment, staged authorization, AI Airlock testing, patient engagement and improved redress, including underserved groups. | A named implementation response and regulatory sandbox pathway. | Enacted rules, actual staged devices, real-world performance, subgroup safety, patient compensation and resource adequacy. |
+| VA generative-AI guidance | VA requires documentation of AI use cases, risk management for high-impact health decisions, caution about non-explainable outputs, approved services for sensitive data and continuing human accountability. | A concrete public-health-system control surface for generative AI. | Compliance in clinical sites, clinician workload, patient disclosure, near misses, subgroup effects and remedy. |
+| FDA AI-enabled device list | FDA’s public list identifies AI-enabled devices authorized for US marketing and says listed devices met applicable premarket requirements for intended use and technological characteristics. | Authorization transparency and intended-use boundary. | Post-market performance, clinical benefit, subgroup equity, alert receipt, incident recurrence and patient understanding. |
 
 ## Stage audit
 
@@ -84,6 +88,14 @@ outage or vendor change.
 
 The 2026 evidence shifts the audit from “is the device authorized?” to “can the health system see and correct harm?” FDA is exploring competency-style clinical confirmation and risk-proportionate postmarket monitoring for generative devices; the UK Commission emphasizes traceability, handover points and redress; and the VA OIG shows a concrete failure mode in which authorized general-purpose tools entered clinical workflows without a formal AI safety reporting and tracking process. The scale signal—more than 1,600 FDA-authorized devices—therefore increases the importance of post-deployment visibility rather than closing the safety case.
 
+The newer governance evidence reinforces the same boundary. A health system can
+document a use case, require human accountability, publish an authorized-device
+list or accept a regulatory blueprint while still lacking patient-level evidence
+that an alert arrived, a clinician understood the output, a subgroup received
+equal performance or a harmed person could obtain redress. The governance gap is
+itself geographically uneven: readiness, liability rules, workforce training and
+patient participation vary across countries and care settings.
+
 ## Counterexamples and limits
 
 - A cleared device can meet a defined premarket pathway without proving equal
@@ -106,6 +118,12 @@ The 2026 evidence shifts the audit from “is the device authorized?” to “ca
   safety feedback loop, accountable clinical ownership or patient redress.
 - A proposed lifecycle framework does not prove that regulators, providers and
   vendors can trace a patient-level error and correct it in time.
+- A public AI-use inventory or human-accountability rule can clarify ownership on
+  paper while leaving actual clinical disclosure, override, monitoring and remedy
+  unobserved.
+- Acceptance of regulatory recommendations or operation of a sandbox shows
+  institutional movement, not the safety or equity of the devices eventually
+  deployed.
 
 ## Promotion decision
 
@@ -139,3 +157,7 @@ positives, and follow patients for 3/6/12 months.
 8. [UK National Commission into the Regulation of AI in Healthcare](https://www.gov.uk/government/publications/national-commission-into-the-regulation-of-ai-in-healthcare-recommendations-for-a-future-regulatory-framework/national-commission-into-the-regulation-of-ai-in-healthcare-recommendations-for-a-future-regulatory-framework)
 9. [FDA AI-enabled medical-device inventory and lifecycle resources](https://www.fda.gov/medical-devices/digital-health-center-excellence/artificial-intelligence-enabled-medical-devices)
 10. [WHO/Europe regional AI-health roadmap and healthy-ageing strategy](https://www.who.int/europe/news/item/30-10-2026-member-states-of-the-who-european-region-adopt-new-plans-on-healthy-ageing-and-ai-in-health)
+11. [WHO/Europe AI-health governance readiness statement](https://www.who.int/europe/news/item/15-07-2026-statement---govern-ai-in-health-before-the-gaps-become-irreversible)
+12. [UK Government response to AI-health Commission](https://www.gov.uk/government/news/government-backs-recommendations-of-nhs-doctors-led-ai-commission)
+13. [VA guidance for generative AI use](https://department.va.gov/ai/guidance-for-generative-ai-use-at-va/)
+14. [FDA AI-enabled medical-device list](https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices)

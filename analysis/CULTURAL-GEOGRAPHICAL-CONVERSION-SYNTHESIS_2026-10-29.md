@@ -3863,6 +3863,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 422. **A biodiversity-finance outcome is real but not automatically transferable or rights-safe.** A verified species result, conserved hectares, stewardship programme, community jobs, nature-risk disclosure or finance-flow shift can close an ecological or local stage for a named landscape while additionality, tenure, benefit distribution, displacement risk, maintenance, enforcement and replication remain unobserved.
 
+423. **AI-health governance is not patient safety.** A national readiness statistic, use-case inventory, human-accountability rule, authorized-device list, regulatory sandbox or accepted reform can clarify responsibility and intended use while clinical performance, alert receipt, subgroup equity, patient understanding, clinician workload, harm correction and redress remain unobserved.
+
 ## What the evidence does not support
 
 Do not claim that:
