@@ -51,7 +51,7 @@ def main() -> int:
     manifest = {
         "schema": "external-trend-intelligence.release-manifest.v1",
         "release_id": "external-trend-intelligence-current",
-        "repository_commit": subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip(),
+        "source_tree_commit": subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip(),
         "artifact_count": len(entries),
         "artifacts": entries,
         "boundary": "This release manifest proves which local reader artifacts were packaged together. It does not prove that the underlying external sources are independent, current, licensed, or outcome-valid.",

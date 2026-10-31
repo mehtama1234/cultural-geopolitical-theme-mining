@@ -82,7 +82,8 @@ python3 scripts/validate_external_trend_intelligence.py
 ```
 
 Run the release-manifest build after all artifact changes so the frontend and
-downstream consumers can identify one checksum-backed package.
+downstream consumers can identify one checksum-backed package and its
+source-tree commit.
 
 Serve `analysis/external-trend-intelligence/` over HTTP and smoke-test
 `board.html` after changing a JSON artifact. The board is a reader; source

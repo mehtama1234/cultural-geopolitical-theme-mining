@@ -174,4 +174,4 @@ comparisons, and publishing the board.
 
 [`release-manifest.json`](release-manifest.json) is the single local release
 index for the reader surface. It records the packaged artifact paths, byte
-counts, checksums, and repository commit.
+counts, checksums, and the source-tree commit used to build the package.
