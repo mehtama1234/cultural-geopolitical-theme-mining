@@ -49,6 +49,8 @@ language exclusion, low-resource data and intergenerational decline
 | Sámi AI Lab Ábo Web Service | The Sámi AI Lab, hosted by Sámi University of Applied Sciences and UiT, reports a functional public-facing Ábo service that lets users speak naturally in Sámi and receive real-time transcription and translation, aimed at reducing language switching in digital spaces. | public-facing speech-to-text/translation service and named Indigenous-led development route | active users, language coverage, transcription/translation error by dialect, repeat use, professional or educational outcomes, privacy and community control of speech data |
 | Sámi AI Lab health, cultural-generation and evaluation tracks | Sámi AI Lab describes developmental work on Sámi-specific cognitive assessment, culturally accurate generative tools for duodji and a Sámi understanding benchmark; it states that the benchmark and clinical platform remain in development and positions Sámi-led governance as a control surface. | named high-stakes use cases, evaluation agenda and Indigenous-led governance structure | validated clinical performance, safety, clinical adoption, benchmark release, cultural-fidelity testing, data access rules, traditional-knowledge restrictions and outcomes for Sámi users |
 | Euskorpus Basque AI-language project | The Basque Government reports a €10.55 million 2025–2027 public-private project led by Euskorpora to build a quality Basque corpus, open-source base models and infrastructure, identify sector applications across justice, education, health, e-government and industry, and transfer outputs to companies, institutions and citizens. Spain’s ministry separately describes a three-year €5 million contribution to enrich public ALIA models and connect Basque resources to the European language-resource framework. | funded language infrastructure, public-private delivery coalition and explicit transfer pathway | corpus composition and rights, model quality by dialect and task, released artifacts, sector deployments, users, service completion, industrial uptake, governance and whether the infrastructure changes everyday Basque use |
+| Irish National Plan technical working group | Ireland’s Department of Rural and Community Development and the Gaeltacht reports a cross-government technical group established under the 2024–2030 National Plan, with representatives from central government, social protection, passports, transport, health, policing, local government, revenue and public transport. Its remit includes embedding Irish at the outset of AI and technology developments, bilingual systems, active offer, reusable citizen language choice and employee support tools. | upstream cross-government technical governance and named institutional ownership | meeting outputs, standards adopted, systems changed, citizen language-choice reuse, accessible services, procurement compliance, user experience and actual Irish-language service completion |
+| Irish Action Plan for Irish Language Public Services 2026–2028 | The Irish Government’s 2026–2028 action plan calls for Irish-language elements in AI, feasibility work on a single citizen language choice across common services, proactive proofing tools and interfaces, public feedback routes, procurement compliance, and technical working-group implementation. | policy-to-procurement and service-design bridge for bilingual digital public services | funded delivery, system-by-system implementation, language-choice portability, procurement enforcement, feedback volume and resolution, service use and quality in Irish |
 
 ## Stage audit
 
@@ -175,6 +177,16 @@ sector-level adoption, user outcomes, dialect performance or rights settlement.
 The atlas should therefore record funding and coalition design as enabling
 evidence, not as proof of digital vitality.
 
+Ireland adds an upstream governance pattern that is not visible in the Māori,
+Sámi or Basque deployment records. Its technical working group brings the
+language requirement into system design, procurement, identity and AI planning
+before a public service is released. The action plan also names the “active
+offer”—service provision without the citizen first requesting Irish—as a design
+and implementation problem. This is a strong conversion mechanism on paper,
+but its evidence burden is operational: the atlas must find changed systems,
+portable language choices, procurement clauses, user feedback and completed
+service encounters rather than treating the group’s existence as delivery.
+
 ## Cultural and geographical interpretation
 
 Low-resource is not the same as low-value. A language can be economically small
@@ -254,3 +266,6 @@ collection; do not infer vitality from model or corpus size.
 21. [Sámi AI Lab](https://samiailab.github.io/)
 22. [Basque Government Euskorpus project](https://www.euskadi.eus/gobierno-vasco/-/noticia/2025/el-gobierno-vasco-destina-5-millones-euros-impulsar-desarrollo-inteligencia-artificial-euskera-mediante-proyecto-euskorpus-consejo-gobierno-22-07-2025/)
 23. [Spanish Ministry funding for Basque AI language resources](https://digital.gob.es/comunicacion/notas-prensa/secretaria-digitalizacion-inteligencia-artificial/2025/07/2025-07-08)
+24. [Irish National Plan technical working group](https://www.gov.ie/en/department-of-rural-and-community-development-and-the-gaeltacht/publications/technical-working-group-under-the-national-plan-for-irish-language-public-services/)
+25. [Irish Action Plan for Irish Language Public Services 2026–2028](https://www.gov.ie/en/department-of-rural-and-community-development-and-the-gaeltacht/press-releases/minister-calleary-publishes-action-plan-for-irish-language-public-services-2026-2028/)
+26. [National Plan for Irish Language Public Services 2024–2030](https://www.gov.ie/en/department-of-rural-and-community-development-and-the-gaeltacht/publications/national-plan-for-irish-language-public-services/)
