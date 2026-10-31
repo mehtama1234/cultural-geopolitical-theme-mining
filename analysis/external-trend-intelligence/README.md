@@ -76,6 +76,12 @@ candidate linking care/longevity company signals to access time, unpaid care,
 work, demographic, and service-capacity evidence; it is not yet a promoted
 structural trend.
 
+Its measurement audit is in
+[`care-capacity-measurement-matrix.json`](care-capacity-measurement-matrix.json).
+The matrix preserves each record’s period, geography, denominator, and measure
+definitions and confirms that the current evidence is heterogeneous rather than
+poolable.
+
 The later internal-data step is documented in
 [`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
 not change the meaning or status of external evidence.

@@ -179,6 +179,15 @@ def main() -> int:
     care_markdown = (ANALYSIS / "CARE-CAPACITY-CANDIDATE.md").read_text()
     assert "held_candidate" in care_markdown
     assert "Promotion test" in care_markdown
+    measurement_matrix = json.loads((ANALYSIS / "care-capacity-measurement-matrix.json").read_text())
+    assert measurement_matrix["schema"] == "external-trend-intelligence.care-capacity-measurement-matrix.v1"
+    assert measurement_matrix["candidate_id"] == care_candidate["candidate_id"]
+    assert measurement_matrix["status"] == "measurement_reconciliation_required"
+    assert len(measurement_matrix["rows"]) == len(care_candidate["main_manifest_evidence_ids"]) == 7
+    assert set(row["record_id"] for row in measurement_matrix["rows"]) == set(care_candidate["main_manifest_evidence_ids"])
+    assert all(row["observations"] for row in measurement_matrix["rows"])
+    assert measurement_matrix["decision"] == "hold"
+    assert measurement_matrix["decision_reason"]
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage

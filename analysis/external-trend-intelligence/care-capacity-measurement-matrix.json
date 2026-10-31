@@ -1,0 +1,1010 @@
+{
+  "schema": "external-trend-intelligence.care-capacity-measurement-matrix.v1",
+  "candidate_id": "candidate-care-longevity-access-capacity",
+  "status": "measurement_reconciliation_required",
+  "comparison_dimensions": [
+    "period",
+    "geography",
+    "population",
+    "denominator",
+    "unit",
+    "measure_definition",
+    "source_lineage"
+  ],
+  "rows": [
+    {
+      "record_id": "bsa43-nhs-waiting-legitimacy-2026",
+      "record_path": "analysis/records/bsa43-nhs-waiting-legitimacy-2026.json",
+      "title": "NHS legitimacy is increasingly an access-time problem: care quality remains more trusted than the ability to reach it",
+      "source_unit": "National Centre for Social Research, British Social Attitudes 43, Waiting for treatment",
+      "geography": "Great Britain; BSA adult respondents, with service-performance comparisons primarily for England and historical NHS series",
+      "source_urls": [
+        "https://natcen.ac.uk/publications/bsa-43-waiting-treatment",
+        "https://natcen.ac.uk/sites/default/files/2026-09/BSA43-NHS.pdf",
+        "https://www.kingsfund.org.uk/insight-and-analysis/reports"
+      ],
+      "observation_count": 4,
+      "observations": [
+        {
+          "period": "1983-2025; overall NHS satisfaction and dissatisfaction",
+          "denominator": {
+            "value": 3464,
+            "unit": "unweighted BSA respondents in the 2025 overall NHS satisfaction series; historical bases vary",
+            "value_type": "unweighted_base"
+          },
+          "measure_names": [
+            "dissatisfied_1997",
+            "dissatisfied_2024",
+            "legitimacy_route",
+            "satisfied_1997",
+            "satisfied_2010",
+            "satisfied_2024",
+            "satisfied_2025"
+          ],
+          "measures": {
+            "satisfied_1997": {
+              "value": 34,
+              "unit": "percent very or quite satisfied with the NHS",
+              "value_type": "reported_survey_share"
+            },
+            "dissatisfied_1997": {
+              "value": 50,
+              "unit": "percent very or quite dissatisfied",
+              "value_type": "reported_survey_share"
+            },
+            "satisfied_2010": {
+              "value": 70,
+              "unit": "percent satisfied",
+              "value_type": "reported_survey_share"
+            },
+            "satisfied_2024": {
+              "value": 21,
+              "unit": "percent satisfied",
+              "value_type": "reported_survey_share"
+            },
+            "dissatisfied_2024": {
+              "value": 59,
+              "unit": "percent dissatisfied",
+              "value_type": "reported_survey_share"
+            },
+            "satisfied_2025": {
+              "value": 26,
+              "unit": "percent satisfied",
+              "value_type": "reported_survey_share"
+            },
+            "legitimacy_route": {
+              "value": "Public satisfaction can recover over years when system performance becomes visibly better, but post-pandemic legitimacy remains historically weak",
+              "unit": "reported longitudinal pattern",
+              "value_type": "analytic_mechanism"
+            }
+          }
+        },
+        {
+          "period": "2023-2025; waiting as the dominant dissatisfaction route",
+          "denominator": {
+            "value": 3464,
+            "unit": "unweighted BSA respondents in the 2025 overall satisfaction series; service-specific item bases vary",
+            "value_type": "unweighted_base"
+          },
+          "measure_names": [
+            "ae_wait_satisfaction",
+            "gp_wait_satisfaction",
+            "hospital_appointment_time_satisfaction",
+            "waiting_as_hidden_price",
+            "waiting_dissatisfaction_2023"
+          ],
+          "measures": {
+            "waiting_dissatisfaction_2023": {
+              "value": 71,
+              "unit": "percent citing long waits for a GP or hospital appointment as a reason for NHS dissatisfaction",
+              "value_type": "reported_survey_share"
+            },
+            "hospital_appointment_time_satisfaction": {
+              "value": 16,
+              "unit": "percent satisfied with the time before a hospital appointment in the latest survey",
+              "value_type": "reported_survey_share"
+            },
+            "ae_wait_satisfaction": {
+              "value": 14,
+              "unit": "percent satisfied with time spent waiting in A&E",
+              "value_type": "reported_survey_share"
+            },
+            "gp_wait_satisfaction": {
+              "value": 27,
+              "unit": "percent satisfied with GP appointment waiting time",
+              "value_type": "reported_survey_share"
+            },
+            "waiting_as_hidden_price": {
+              "value": "Access time is experienced as a system cost and a visible test of whether public provision is reachable",
+              "unit": "reported interpretive mechanism",
+              "value_type": "analytic_mechanism"
+            }
+          }
+        },
+        {
+          "period": "2010-2025; quality and access diverge across NHS services",
+          "denominator": {
+            "value": 1460,
+            "unit": "unweighted BSA respondents in the 2025 specific-service satisfaction comparison; item bases and service availability vary",
+            "value_type": "unweighted_base"
+          },
+          "measure_names": [
+            "ae_satisfaction_2010",
+            "ae_satisfaction_latest",
+            "care_quality_satisfied",
+            "gp_satisfaction_2010",
+            "gp_satisfaction_2023",
+            "hospital_appointment_satisfied",
+            "quality_access_split"
+          ],
+          "measures": {
+            "care_quality_satisfied": {
+              "value": 50,
+              "unit": "percent satisfied with quality of care provided by the NHS in the latest comparison",
+              "value_type": "reported_survey_share"
+            },
+            "hospital_appointment_satisfied": {
+              "value": 16,
+              "unit": "percent satisfied with time before hospital appointment",
+              "value_type": "reported_survey_share"
+            },
+            "gp_satisfaction_2010": {
+              "value": 78,
+              "unit": "percent satisfied with GP services",
+              "value_type": "reported_survey_share"
+            },
+            "gp_satisfaction_2023": {
+              "value": 34,
+              "unit": "percent satisfied with GP services",
+              "value_type": "reported_survey_share"
+            },
+            "ae_satisfaction_2010": {
+              "value": 61,
+              "unit": "percent satisfied with accident and emergency",
+              "value_type": "reported_survey_share"
+            },
+            "ae_satisfaction_latest": {
+              "value": 22,
+              "unit": "percent satisfied with accident and emergency",
+              "value_type": "reported_survey_share"
+            },
+            "quality_access_split": {
+              "value": "The public can remain more positive about care quality than about the time and route required to reach care",
+              "unit": "reported contrast",
+              "value_type": "analytic_mechanism"
+            }
+          }
+        },
+        {
+          "period": "1997-2010 versus 2024-2025; resources, productivity, and visible feedback",
+          "denominator": {
+            "value": null,
+            "unit": "Historical BSA survey, NHS performance, workforce, demographic, and fiscal indicators combined in a comparative chapter; no single respondent denominator",
+            "value_type": "not_disclosed"
+          },
+          "measure_names": [
+            "ae_four_hour_2002_03",
+            "ae_four_hour_2010",
+            "ae_four_hour_2024",
+            "policy_feedback",
+            "waiting_list_pandemic_change"
+          ],
+          "measures": {
+            "waiting_list_pandemic_change": {
+              "value": 34,
+              "unit": "percent increase in the number waiting for treatment at end-2021 compared with 2020",
+              "value_type": "reported_change"
+            },
+            "ae_four_hour_2002_03": {
+              "value": 79,
+              "unit": "percent leaving A&E within four hours in 2002/03",
+              "value_type": "reported_service_indicator"
+            },
+            "ae_four_hour_2010": {
+              "value": 98,
+              "unit": "percent leaving A&E within four hours by the end of New Labour",
+              "value_type": "reported_service_indicator"
+            },
+            "ae_four_hour_2024": {
+              "value": 59,
+              "unit": "percent leaving A&E within four hours when Labour regained office",
+              "value_type": "reported_service_indicator"
+            },
+            "policy_feedback": {
+              "value": "Funding, targets, staffing, choice, migration, social care, and productivity are linked to legitimacy only when they become visible as shorter waits and reachable service",
+              "unit": "reported policy interpretation",
+              "value_type": "analytic_mechanism"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+      "record_path": "analysis/records/comparative-abs-australia-time-use-2024-disability-carer-free-time-2026.json",
+      "title": "Diary-based time use shows care and disability as hidden conversion costs for free time and social life",
+      "source_unit": "Australian Bureau of Statistics, How Australians use their time, 2024; supplementary disability, carer, and time-pressure tables released August 5, 2026",
+      "geography": "Australia; people aged 15 years and over in in-scope private households",
+      "source_urls": [
+        "https://www.abs.gov.au/methodologies/how-australians-use-their-time-methodology/2024",
+        "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/2024/TUSDC01.xlsx",
+        "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/2024/TUSDC08.xlsx",
+        "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/2024/TUSDC11.xlsx",
+        "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/2024/TUSDC12.xlsx",
+        "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/latest-release"
+      ],
+      "observation_count": 3,
+      "observations": [
+        {
+          "period": "2024 Time Use Survey; two diary days per in-scope person; total population averages",
+          "denominator": {
+            "value": 2,
+            "unit": "assigned diary days per person for the main survey design; the published tables provide weighted national estimates",
+            "value_type": "reported_diary_design"
+          },
+          "measure_names": [
+            "free_time_average_total_population",
+            "free_time_participation",
+            "in_person_socialising_average_total_population",
+            "in_person_socialising_participation"
+          ],
+          "measures": {
+            "free_time_participation": {
+              "value": 91.0,
+              "unit": "percent participating in free-time activities on a diary day",
+              "value_type": "reported_share"
+            },
+            "in_person_socialising_participation": {
+              "value": 27.1,
+              "unit": "percent talking and socialising in person on a diary day",
+              "value_type": "reported_share"
+            },
+            "free_time_average_total_population": {
+              "value": "5:04",
+              "unit": "hours:minutes average per day across the total population",
+              "value_type": "reported_time_average"
+            },
+            "in_person_socialising_average_total_population": {
+              "value": "2:19",
+              "unit": "hours:minutes average per day among people who participated in the activity",
+              "value_type": "reported_time_average"
+            }
+          }
+        },
+        {
+          "period": "2024 Time Use Survey; disability-status supplementary tables",
+          "denominator": {
+            "value": 1,
+            "unit": "weighted national population frame for people aged 15 years and over, split by ABS disability status; table reports participation and participant-time averages",
+            "value_type": "reported_population_frame"
+          },
+          "measure_names": [
+            "free_time_average_among_participants_has_disability",
+            "free_time_average_among_participants_no_disability",
+            "in_person_socialising_participation_has_disability",
+            "in_person_socialising_participation_no_disability",
+            "mechanism"
+          ],
+          "measures": {
+            "in_person_socialising_participation_has_disability": {
+              "value": 27.4,
+              "unit": "percent of people with disability participating on a diary day",
+              "value_type": "reported_share"
+            },
+            "in_person_socialising_participation_no_disability": {
+              "value": 27.0,
+              "unit": "percent of people without disability participating on a diary day",
+              "value_type": "reported_share"
+            },
+            "free_time_average_among_participants_has_disability": {
+              "value": "6:26",
+              "unit": "hours:minutes average per day among people with disability who participated in free time",
+              "value_type": "reported_time_average"
+            },
+            "free_time_average_among_participants_no_disability": {
+              "value": "5:31",
+              "unit": "hours:minutes average per day among people without disability who participated in free time",
+              "value_type": "reported_time_average"
+            },
+            "mechanism": {
+              "value": "Disability does not appear as a simple attendance gap in the diary-day socialising measure, but participant time differs: access, energy, health, transport, and available alternatives may shape the duration and composition of free time after participation occurs",
+              "unit": "bounded analytical mechanism",
+              "value_type": "bounded_mechanism"
+            }
+          }
+        },
+        {
+          "period": "2024 Time Use Survey; carer-status supplementary tables",
+          "denominator": {
+            "value": 1,
+            "unit": "weighted national population frame for people aged 15 years and over, split by whether the person reported providing care to another person",
+            "value_type": "reported_population_frame"
+          },
+          "measure_names": [
+            "caring_support_average_among_participants_carers",
+            "caring_support_average_among_participants_noncarers",
+            "caring_support_participation_carers",
+            "caring_support_participation_noncarers",
+            "free_time_average_among_participants_carers",
+            "free_time_average_among_participants_noncarers",
+            "mechanism"
+          ],
+          "measures": {
+            "caring_support_participation_carers": {
+              "value": 32.6,
+              "unit": "percent of people who provided care to another person participating in caring and support on a diary day",
+              "value_type": "reported_share"
+            },
+            "caring_support_participation_noncarers": {
+              "value": 7.0,
+              "unit": "percent of people who did not provide care to another person participating in caring and support on a diary day",
+              "value_type": "reported_share"
+            },
+            "caring_support_average_among_participants_carers": {
+              "value": "2:45",
+              "unit": "hours:minutes average per day among carers who participated in caring and support",
+              "value_type": "reported_time_average"
+            },
+            "caring_support_average_among_participants_noncarers": {
+              "value": "1:46",
+              "unit": "hours:minutes average per day among non-carers who participated in caring and support",
+              "value_type": "reported_time_average"
+            },
+            "free_time_average_among_participants_carers": {
+              "value": "5:25",
+              "unit": "hours:minutes average per day among carers who participated in free time",
+              "value_type": "reported_time_average"
+            },
+            "free_time_average_among_participants_noncarers": {
+              "value": "5:36",
+              "unit": "hours:minutes average per day among non-carers who participated in free time",
+              "value_type": "reported_time_average"
+            },
+            "mechanism": {
+              "value": "Care is a hidden time-price route: carers are much more likely to record caring and support on the diary day and spend longer in that activity, while their participant-level free-time average is slightly lower",
+              "unit": "bounded analytical mechanism",
+              "value_type": "bounded_mechanism"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point",
+      "record_path": "analysis/records/comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point.json",
+      "title": "Unpaid care is becoming an employment-continuity fault line: workers cut hours, absorb stress, or leave depending on the support around them",
+      "source_unit": "Carers UK, Balancing work and unpaid care: a critical issue",
+      "geography": "United Kingdom; adults and workers with current or past unpaid-care experience",
+      "source_urls": [
+        "https://www.carersuk.org/media/3dsbct4j/cuk-balancing-work-and-unpaid-care_digital.pdf",
+        "https://www.carersuk.org/reports/balancing-work-and-unpaid-care-a-critical-issue/"
+      ],
+      "observation_count": 4,
+      "observations": [
+        {
+          "period": "July 14-17, 2026; current unpaid care and comparison with 2019",
+          "denominator": {
+            "value": 4000,
+            "unit": "UK adults; item-specific worker and carer bases vary",
+            "value_type": "reported_survey_sample"
+          },
+          "measure_names": [
+            "current_unpaid_care",
+            "current_unpaid_care_2019",
+            "scale_mechanism",
+            "workers_combining_paid_and_unpaid_care",
+            "workers_combining_paid_and_unpaid_care_2019"
+          ],
+          "measures": {
+            "workers_combining_paid_and_unpaid_care": {
+              "value": 20,
+              "unit": "percent of UK workers, estimated 6.7 million",
+              "value_type": "published_survey_estimate"
+            },
+            "workers_combining_paid_and_unpaid_care_2019": {
+              "value": 15,
+              "unit": "percent of UK workers, estimated 4.9 million in the comparable 2019 survey",
+              "value_type": "published_survey_estimate"
+            },
+            "current_unpaid_care": {
+              "value": 20,
+              "unit": "percent of UK adults, estimated 11 million",
+              "value_type": "published_survey_estimate"
+            },
+            "current_unpaid_care_2019": {
+              "value": 17,
+              "unit": "percent of UK adults, estimated 8.8 million in the comparable 2019 survey",
+              "value_type": "published_survey_estimate"
+            },
+            "scale_mechanism": {
+              "value": "Unpaid care is increasingly present inside working life, making employment continuity a care-system outcome as well as an individual choice.",
+              "unit": "reported mechanism",
+              "value_type": "reported_mechanism"
+            }
+          }
+        },
+        {
+          "period": "July 14-17, 2026; employment adaptations associated with unpaid care",
+          "denominator": {
+            "value": 4000,
+            "unit": "UK adults; item-specific bases vary",
+            "value_type": "reported_survey_sample"
+          },
+          "measure_names": [
+            "employment_tipping_point",
+            "left_work_at_some_point",
+            "left_work_last_two_years",
+            "reduced_hours"
+          ],
+          "measures": {
+            "reduced_hours": {
+              "value": 7.5,
+              "unit": "percent of UK adults, estimated 4.1 million, reporting reduced hours because of caring; about 20% among current carers",
+              "value_type": "published_survey_estimate"
+            },
+            "left_work_at_some_point": {
+              "value": 6,
+              "unit": "percent of UK adults, estimated 3.3 million, reporting giving up work to care; 16% among current carers",
+              "value_type": "published_survey_estimate"
+            },
+            "left_work_last_two_years": {
+              "value": 1100000,
+              "unit": "estimated people who left work to care in the last two years, approximately 1,500 per day",
+              "value_type": "published_population_estimate"
+            },
+            "employment_tipping_point": {
+              "value": "Care pressure converts into a graded employment response: schedule reduction, accumulated strain, or exit, rather than a single work-versus-care decision.",
+              "unit": "reported mechanism",
+              "value_type": "reported_mechanism"
+            }
+          }
+        },
+        {
+          "period": "July 14-17, 2026; workplace impact and strain",
+          "denominator": {
+            "value": 4000,
+            "unit": "UK adults; employee and current-carer bases vary",
+            "value_type": "reported_survey_sample"
+          },
+          "measure_names": [
+            "no_reported_work_impact_current_carers",
+            "stress_or_tiredness_affecting_work",
+            "support_buffer_mechanism",
+            "workplace_impact_current_carers",
+            "workplace_impact_with_caring_experience"
+          ],
+          "measures": {
+            "workplace_impact_with_caring_experience": {
+              "value": 59,
+              "unit": "percent of employees with caring experience saying caring impacted their workplace",
+              "value_type": "published_subgroup_estimate"
+            },
+            "workplace_impact_current_carers": {
+              "value": 52,
+              "unit": "percent of current carers saying caring negatively affected employment",
+              "value_type": "published_subgroup_estimate"
+            },
+            "stress_or_tiredness_affecting_work": {
+              "value": 8,
+              "unit": "percent of UK adults; 18% among current carers",
+              "value_type": "published_subgroup_estimate"
+            },
+            "no_reported_work_impact_current_carers": {
+              "value": 28,
+              "unit": "percent of current carers saying care did not affect work",
+              "value_type": "published_subgroup_estimate"
+            },
+            "support_buffer_mechanism": {
+              "value": "Care does not produce one uniform employment outcome; intensity, duration, employer flexibility, formal care, and other support likely shape whether pressure becomes disruption.",
+              "unit": "report interpretation and mechanism",
+              "value_type": "reported_mechanism"
+            }
+          }
+        },
+        {
+          "period": "September 16, 2026; policy conversion proposed by the report",
+          "denominator": {
+            "value": 4000,
+            "unit": "UK adults; advocacy recommendations are not survey estimates",
+            "value_type": "reported_survey_sample"
+          },
+          "measure_names": [
+            "leave_conversion",
+            "paid_carers_leave_proposal"
+          ],
+          "measures": {
+            "paid_carers_leave_proposal": {
+              "value": 10,
+              "unit": "days of paid Carer's Leave called for by Carers UK",
+              "value_type": "report_recommendation"
+            },
+            "leave_conversion": {
+              "value": "The report treats unpaid leave as financially unusable for many carers and frames paid leave plus stronger employment rights as a way to keep care from converting into preventable labour-market exit.",
+              "unit": "report advocacy mechanism",
+              "value_type": "reported_mechanism"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+      "record_path": "analysis/records/comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity.json",
+      "title": "Unpaid carers face a durable time-and-work conversion constraint while service involvement remains limited",
+      "source_unit": "Department of Health and Social Care, Survey of Adult Carers in England 2025 to 2026",
+      "geography": "England; unpaid adult carers aged 18 and over known to local authorities",
+      "source_urls": [
+        "https://www.gov.uk/government/collections/survey-of-adult-carers-in-england",
+        "https://www.gov.uk/government/statistics/survey-of-adult-carers-in-england-2025-to-2026-report",
+        "https://www.gov.uk/government/statistics/survey-of-adult-carers-in-england-2025-to-2026-report/survey-of-adult-carers-in-england-2025-to-2026-commentary"
+      ],
+      "observation_count": 3,
+      "observations": [
+        {
+          "period": "2016-17 to 2025-26; carer time, self-care, and social contact",
+          "denominator": {
+            "value": 311660,
+            "unit": "eligible carers known to English councils in 2025-26; 43,460 responses were received",
+            "value_type": "published_eligible_population"
+          },
+          "measure_names": [
+            "adequate_social_contact",
+            "mechanism",
+            "often_always_lonely",
+            "self_care",
+            "time_for_value"
+          ],
+          "measures": {
+            "time_for_value": {
+              "value": 16.8,
+              "unit": "percent feeling able to spend their time as they want, doing things they value or enjoy",
+              "value_type": "reported_survey_share"
+            },
+            "adequate_social_contact": {
+              "value": 31.0,
+              "unit": "percent saying they have as much social contact as they want with people they like",
+              "value_type": "reported_survey_share"
+            },
+            "often_always_lonely": {
+              "value": 13.8,
+              "unit": "percent reporting often or always feeling lonely",
+              "value_type": "reported_survey_share"
+            },
+            "self_care": {
+              "value": 46.0,
+              "unit": "percent saying they can look after themselves in terms of sleep or eating well",
+              "value_type": "reported_survey_share"
+            },
+            "mechanism": {
+              "value": "Unpaid care converts household and public-service gaps into lost discretionary time, constrained social contact, and reduced self-maintenance",
+              "unit": "bounded social-reproduction mechanism",
+              "value_type": "bounded_mechanism"
+            }
+          }
+        },
+        {
+          "period": "2016-17 to 2025-26; work, financial difficulty, and high-intensity care",
+          "denominator": {
+            "value": 311660,
+            "unit": "eligible carers known to English councils in 2025-26; employment and caring measures are response distributions within that survey",
+            "value_type": "published_eligible_population"
+          },
+          "measure_names": [
+            "a_lot_financial_difficulty",
+            "care_100_plus_hours",
+            "health_effects",
+            "mechanism",
+            "not_in_paid_work_due_to_care"
+          ],
+          "measures": {
+            "not_in_paid_work_due_to_care": {
+              "value": 19.5,
+              "unit": "percent saying they are not in paid employment because of caring responsibilities",
+              "value_type": "reported_survey_share"
+            },
+            "a_lot_financial_difficulty": {
+              "value": 9.9,
+              "unit": "percent saying caring caused them a lot of financial difficulties in the last 12 months",
+              "value_type": "reported_survey_share"
+            },
+            "care_100_plus_hours": {
+              "value": 34.7,
+              "unit": "percent spending 100 or more hours per week looking after or helping the person they care for",
+              "value_type": "reported_survey_share"
+            },
+            "health_effects": {
+              "value": "79.4% felt tired, 67.1% reported disturbed sleep, and 64.8% reported general stress",
+              "unit": "reported carer health-impact shares",
+              "value_type": "reported_distribution"
+            },
+            "mechanism": {
+              "value": "High unpaid-care intensity can be converted into employment exit, financial pressure, sleep loss, and stress, making care a household room and labor-market constraint",
+              "unit": "bounded time-work-cost mechanism",
+              "value_type": "bounded_mechanism"
+            }
+          }
+        },
+        {
+          "period": "2023-24 to 2025-26; service satisfaction, involvement, and information access",
+          "denominator": {
+            "value": 311660,
+            "unit": "eligible carers known to English councils; service-satisfaction figures exclude carers who had not received local-authority support or services",
+            "value_type": "published_eligible_population"
+          },
+          "measure_names": [
+            "always_involved_or_consulted",
+            "did_not_try_information",
+            "easy_information",
+            "extremely_satisfied_support",
+            "mechanism"
+          ],
+          "measures": {
+            "extremely_satisfied_support": {
+              "value": 14.2,
+              "unit": "percent of carers who received local-authority support or services and were extremely satisfied",
+              "value_type": "reported_conditional_survey_share"
+            },
+            "always_involved_or_consulted": {
+              "value": 26.2,
+              "unit": "percent saying they always felt involved or consulted in discussions about support services",
+              "value_type": "reported_survey_share"
+            },
+            "easy_information": {
+              "value": 43.3,
+              "unit": "percent finding information or advice very or fairly easy to find",
+              "value_type": "reported_survey_share"
+            },
+            "did_not_try_information": {
+              "value": 29.9,
+              "unit": "percent who had not tried to find information or advice about support, services, or benefits",
+              "value_type": "reported_survey_share"
+            },
+            "mechanism": {
+              "value": "Service contact does not automatically become voice or usable support: involvement, information reach, satisfaction, and substantive care adequacy are separate stages",
+              "unit": "bounded public-service feedback mechanism",
+              "value_type": "bounded_mechanism"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "comparative-eu-jrc-demographic-transformation-2026-ageing-work-care-housing-migration",
+      "record_path": "analysis/records/comparative-eu-jrc-demographic-transformation-2026-ageing-work-care-housing-migration.json",
+      "title": "Demographic change is reorganizing labor, care, housing, migration, regional cohesion, and public finance at the same time",
+      "source_unit": "European Commission Joint Research Centre, Demographic transformation in the EU: challenges and opportunities, July 14, 2026",
+      "geography": "European Union; population, labor-market, care, housing, migration, and regional-policy synthesis",
+      "source_urls": [
+        "https://ec.europa.eu/commission/presscorner/detail/en/ip_23_3568",
+        "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/demographic-transformation-eu-challenges-and-opportunities-2026-07-14_en",
+        "https://population.un.org/wpp/"
+      ],
+      "observation_count": 4,
+      "observations": [
+        {
+          "period": "2024–2100 EU population and longevity projections",
+          "denominator": {
+            "value": 450.6,
+            "unit": "million EU residents at the current population peak cited by the report",
+            "value_type": "reported_population_estimate"
+          },
+          "measure_names": [
+            "life_expectancy_2024",
+            "mechanism",
+            "population_2050",
+            "population_2100",
+            "population_change"
+          ],
+          "measures": {
+            "population_2050": {
+              "value": 445,
+              "unit": "million projected EU residents in 2050",
+              "value_type": "reported_projection"
+            },
+            "population_2100": {
+              "value": 398.8,
+              "unit": "million projected EU residents in 2100",
+              "value_type": "reported_projection"
+            },
+            "population_change": {
+              "value": -11.7,
+              "unit": "percent projected decline from the current population peak to 2100",
+              "value_type": "reported_projection"
+            },
+            "life_expectancy_2024": {
+              "value": 81.5,
+              "unit": "years life expectancy at birth in 2024",
+              "value_type": "reported_average"
+            },
+            "mechanism": {
+              "value": "Population decline and longer lives create simultaneous pressure on labor supply, care demand, public finance, housing, and regional continuity rather than a single aging effect",
+              "unit": "bounded analytical mechanism",
+              "value_type": "bounded_mechanism"
+            }
+          }
+        },
+        {
+          "period": "2024–2050 EU age structure and healthy longevity",
+          "denominator": {
+            "value": 1,
+            "unit": "EU population projection frame; age shares and life-course indicators",
+            "value_type": "reported_population_frame"
+          },
+          "measure_names": [
+            "age_65_2050",
+            "care_need_2070",
+            "healthy_life_years",
+            "mechanism"
+          ],
+          "measures": {
+            "age_65_2050": {
+              "value": "nearly one in three EU residents projected to be age 65 or older by 2050, compared with about one in five today",
+              "unit": "reported age-share comparison",
+              "value_type": "reported_projection"
+            },
+            "healthy_life_years": {
+              "value": 75.3,
+              "unit": "years without major illness expected for a child born in the EU in 2023",
+              "value_type": "reported_average"
+            },
+            "care_need_2070": {
+              "value": "people needing support projected to rise from 36 million to 48 million by 2070",
+              "unit": "reported population projection",
+              "value_type": "reported_projection"
+            },
+            "mechanism": {
+              "value": "The care economy becomes a central labor, time, health, and public-finance system as longevity increases and the population needing support expands",
+              "unit": "bounded analytical mechanism",
+              "value_type": "bounded_mechanism"
+            }
+          }
+        },
+        {
+          "period": "Current EU labor-market and population-pressure indicators",
+          "denominator": {
+            "value": 1,
+            "unit": "EU working-age and youth population frame",
+            "value_type": "reported_population_frame"
+          },
+          "measure_names": [
+            "gender_employment_gap",
+            "mechanism",
+            "outside_labor_market",
+            "skilled_migration",
+            "youth_neet"
+          ],
+          "measures": {
+            "outside_labor_market": {
+              "value": 20,
+              "unit": "percent of working-age people outside the labor market",
+              "value_type": "reported_share"
+            },
+            "gender_employment_gap": {
+              "value": 10,
+              "unit": "percentage-point gender employment gap cited by the report",
+              "value_type": "reported_gap"
+            },
+            "youth_neet": {
+              "value": 8,
+              "unit": "million young people not in education, employment, or training",
+              "value_type": "reported_population_count"
+            },
+            "skilled_migration": {
+              "value": "skilled migration is already helping address labor shortages while the report also prioritizes upskilling and reskilling people already in the EU",
+              "unit": "reported policy pattern",
+              "value_type": "reported_pattern"
+            },
+            "mechanism": {
+              "value": "Demographic pressure is distributed through participation gaps, gendered work, youth transitions, skills, and migration policy rather than solved by one fertility or retirement intervention",
+              "unit": "bounded analytical mechanism",
+              "value_type": "bounded_mechanism"
+            }
+          }
+        },
+        {
+          "period": "EU demographic policy response; 2023–2034 policy architecture",
+          "denominator": {
+            "value": 27,
+            "unit": "EU Member States receiving coordinated demographic-policy tools",
+            "value_type": "reported_policy_frame"
+          },
+          "measure_names": [
+            "demography_toolbox",
+            "future_budget",
+            "mechanism",
+            "policy_routes"
+          ],
+          "measures": {
+            "demography_toolbox": {
+              "value": "EU Demography Toolbox adopted in October 2023 and welcomed by all Member States",
+              "unit": "reported policy milestone",
+              "value_type": "reported_policy_status"
+            },
+            "policy_routes": {
+              "value": "policy responses cover affordable housing, intergenerational fairness, anti-poverty, lifelong skills, care, rural areas, and regions losing working-age population",
+              "unit": "reported policy portfolio",
+              "value_type": "reported_policy_pattern"
+            },
+            "future_budget": {
+              "value": "the proposed 2028–2034 EU multiannual financial framework includes demographic change as an objective of national and regional partnership plans",
+              "unit": "reported policy proposal",
+              "value_type": "reported_policy_status"
+            },
+            "mechanism": {
+              "value": "Demography becomes a coordination problem linking housing, care, work, skills, migration, rural development, and intergenerational fairness across policy levels",
+              "unit": "bounded analytical mechanism",
+              "value_type": "bounded_mechanism"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "us-pew-family-caregiving-aging-burden-2025-2026",
+      "record_path": "analysis/records/us-pew-family-caregiving-aging-burden-2025-2026.json",
+      "title": "Family caregiving operates as unpaid social infrastructure while shifting health, work, money, and social costs onto caregivers",
+      "source_unit": "Pew Research Center American Trends Panel survey of US adults with aging parents or spouses/partners",
+      "geography": "United States",
+      "source_urls": [
+        "https://www.pewresearch.org/social-trends/2026/02/26/family-caregiving-in-an-aging-america/"
+      ],
+      "observation_count": 3,
+      "observations": [
+        {
+          "period": "September 2-8, 2025; reported in February 2026",
+          "denominator": {
+            "value": 8750,
+            "unit": "US adults surveyed; 1,193 identify as caregivers for an aging parent, spouse, or partner",
+            "value_type": "survey_sample"
+          },
+          "measure_names": [
+            "among_people_with_aging_parent",
+            "among_people_with_aging_spouse",
+            "parent_caregiver",
+            "spouse_partner_caregiver"
+          ],
+          "measures": {
+            "parent_caregiver": {
+              "value": 10,
+              "unit": "percent of all US adults identifying as a caregiver for a parent age 65 or older",
+              "value_type": "reported_share"
+            },
+            "spouse_partner_caregiver": {
+              "value": 3,
+              "unit": "percent of all US adults identifying as a caregiver for an aging spouse or partner",
+              "value_type": "reported_share"
+            },
+            "among_people_with_aging_parent": {
+              "value": 24,
+              "unit": "percent identifying as a caregiver among adults with a parent age 65 or older",
+              "value_type": "reported_share"
+            },
+            "among_people_with_aging_spouse": {
+              "value": 25,
+              "unit": "percent identifying as a caregiver among adults with an aging spouse or partner",
+              "value_type": "reported_share"
+            }
+          }
+        },
+        {
+          "period": "September 2-8, 2025; caregiving tasks and household role",
+          "denominator": {
+            "value": 1193,
+            "unit": "Pew survey respondents identifying as caregivers for an aging parent, spouse, or partner; task-specific valid universes vary",
+            "value_type": "survey_subsample"
+          },
+          "measure_names": [
+            "care_tasks",
+            "regular_parent_care_tasks",
+            "regular_spouse_care_tasks"
+          ],
+          "measures": {
+            "regular_parent_care_tasks": {
+              "value": "about 68% of parent caregivers regularly help with at least one of errands/housework/home repairs, health-care management, financial management, or personal care",
+              "unit": "percent among parent caregivers",
+              "value_type": "reported_share"
+            },
+            "regular_spouse_care_tasks": {
+              "value": "about 66% of spouse/partner caregivers regularly help with at least one of the listed tasks",
+              "unit": "percent among spouse/partner caregivers",
+              "value_type": "reported_share"
+            },
+            "care_tasks": {
+              "value": "tasks include appointments and medication, bills and budgeting, errands and repairs, and bathing or dressing",
+              "unit": "reported task categories",
+              "value_type": "reported_task_surface"
+            }
+          }
+        },
+        {
+          "period": "September 2-8, 2025; reported caregiver effects and inequality",
+          "denominator": {
+            "value": 1,
+            "unit": "Pew caregiver subgroups with regular-task and impact responses; item-specific valid denominators",
+            "value_type": "survey_subgroup_universe"
+          },
+          "measure_names": [
+            "gender_emotional_effect",
+            "gender_physical_effect",
+            "lower_income_caregiving",
+            "parent_caregiver_negative_effects"
+          ],
+          "measures": {
+            "lower_income_caregiving": {
+              "value": "39% of lower-income adults with an aging parent or partner identify as caregivers, versus 23% of middle-income and 16% of upper-income adults",
+              "unit": "reported income-group comparison",
+              "value_type": "reported_comparison"
+            },
+            "parent_caregiver_negative_effects": {
+              "value": "parent caregivers report more negative than positive effects on emotional well-being, physical health, job/career, financial situation, and social life, while relationship effects tend more positive",
+              "unit": "reported impact pattern",
+              "value_type": "reported_comparison"
+            },
+            "gender_emotional_effect": {
+              "value": "47% of women versus 30% of men caring for a parent report a negative emotional-well-being impact",
+              "unit": "percent among parent caregivers with the relevant response",
+              "value_type": "reported_comparison"
+            },
+            "gender_physical_effect": {
+              "value": "38% of women versus 26% of men report a negative physical-health impact when caring for a parent",
+              "unit": "percent among parent caregivers with the relevant response",
+              "value_type": "reported_comparison"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "us-nber-family-caregiving-gendered-earnings-employment-2023",
+      "record_path": "analysis/records/us-nber-family-caregiving-gendered-earnings-employment-2023.json",
+      "title": "Family caregiving is followed by different labor-market paths for women and men",
+      "source_unit": "NBER Working Paper 31450; survey responses about family caregiving linked to administrative earnings records",
+      "geography": "United States family caregivers and matched comparison workers; long-term-care and labor-market trajectories",
+      "source_urls": [
+        "https://doi.org/10.3386/w31450",
+        "https://www.nber.org/papers/w31450"
+      ],
+      "observation_count": 1,
+      "observations": [
+        {
+          "period": "U.S. family caregiving and employment trajectories over a 25-year window around reported caregiving onset; paper issued 2023",
+          "denominator": {
+            "value": 25,
+            "unit": "years around reported caregiving-episode start",
+            "value_type": "reported_followup_window"
+          },
+          "measure_names": [
+            "data_linkage",
+            "gender_difference",
+            "men_trajectory",
+            "women_trajectory"
+          ],
+          "measures": {
+            "data_linkage": {
+              "value": "survey responses about family caregiving roles are linked to administrative earnings records",
+              "unit": "caregiving-to-earnings longitudinal linkage",
+              "value_type": "reported_method"
+            },
+            "women_trajectory": {
+              "value": "relative to a matched comparison group, family caregiving precedes a drop in both earnings and employment for women",
+              "unit": "caregiving-associated labor trajectory",
+              "value_type": "reported_comparison"
+            },
+            "men_trajectory": {
+              "value": "men enter family caregiving after experiencing significant labor-supply disruptions",
+              "unit": "caregiving-entry timing and prior labor disruption",
+              "value_type": "reported_comparison"
+            },
+            "gender_difference": {
+              "value": "employment trajectories around caregiving vary significantly by gender",
+              "unit": "gender-differentiated labor trajectory",
+              "value_type": "reported_finding"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "decision": "hold",
+  "decision_reason": "The records offer multiple care/access/work signals, but their periods, populations, denominators, and units are heterogeneous. They cannot be pooled or treated as one trend measure without reconciliation."
+}
