@@ -9,18 +9,16 @@ quality and substantive evidence closure.
 | Check | Result | Meaning |
 |---|---:|---|
 | Rotation Markdown packets scanned | 327 | Current packet population only; synthesis and audit files excluded. |
-| HTTP/HTTPS URL occurrences | 2,489 | Literal links found in packet text. |
-| Unique URL values | 2,273 | Repeated official sources are common across related packets. |
-| URL values repeated at least twice | 188 | Duplication is not itself an error; it can show shared evidence or source concentration. |
-| Packets with no literal URL | 1 | Priority provenance-repair queue. |
-| Packets without a literal `## Sources` heading | 90 | A heading is a discoverability check, not proof that sources are absent. |
+| HTTP/HTTPS URL occurrences | 2,494 | Literal links found in packet text. |
+| Unique URL values | 2,277 | Repeated official sources are common across related packets. |
+| URL values repeated at least twice | 189 | Duplication is not itself an error; it can show shared evidence or source concentration. |
+| Packets with no literal URL | 0 | All current rotation packets have at least one URL; this is only a structural result. |
+| Packets without a literal `## Sources` heading | 89 | A heading is a discoverability check, not proof that sources are absent. |
 
 ## Priority provenance-repair queue
 
-These packets contain no literal HTTP/HTTPS URL and should be repaired or
-explicitly marked as synthesis-only before being used as fresh evidence:
-
-- `ROTATION-FX-ACCESS-TO-JUSTICE-LEGAL-AID-PEOPLE-CENTRED-2026-10-29.md`
+There are currently no rotation packets without a literal HTTP/HTTPS URL. This
+does not mean every claim has been source-matched or that every URL is live.
 
 ## Interpretation and limits
 
@@ -31,9 +29,10 @@ claim, or whether the packet preserves a counterexample. A packet with many
 URLs can still have weak evidence, and a packet with no URLs may be an early
 concept note rather than a research claim.
 
-The next repair pass should add source provenance to the 1 zero-URL packet,
-add a consistent `## Sources` heading where sources are present but hard to
-discover, and then run a reachability and claim-to-source review in batches.
+The next repair pass should add a consistent `## Sources` heading where
+sources are present but hard to discover, and then run a reachability and
+claim-to-source review in batches. The zero-URL queue is closed for this
+snapshot, but should be recomputed after every new packet.
 Do not silently invent citations or treat this structural audit as substantive
 validation.
 

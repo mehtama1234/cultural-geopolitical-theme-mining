@@ -142,3 +142,15 @@ Public sources support legal-needs prevalence, people-centred design,
 community pathways, affordability and subgroup/geographic gaps. They do not by
 themselves establish a named person’s fair hearing, enforceable remedy,
 household recovery, safety or durable trust.
+
+## Sources
+
+These source-family anchors support the packet’s legal-needs, people-centred
+design, legal-aid, community-pathway and measurement framing; they do not
+establish a named person’s fair hearing, enforceable remedy or recovery.
+
+- OECD, [Access to justice](https://www.oecd.org/en/topics/access-to-justice.html): people-centred justice, legal needs, service design and outcome-measurement context.
+- OECD, [Government at a Glance 2025](https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html): justice, public-service and institutional-capacity context.
+- UNDP, [Rule of law and human rights](https://www.undp.org/rolhr): legal empowerment, inclusive justice and access-to-remedy context.
+- World Bank, [Justice](https://www.worldbank.org/en/topic/governance/brief/justice): justice-sector delivery, legal aid and user-facing access context.
+- UNODC, [Access to legal aid](https://www.unodc.org/unodc/en/justice-and-prison-reform/legal-aid.html): legal-aid principles, coverage and fair-process context.
