@@ -87,6 +87,28 @@ refreshable pipeline that can move from external evidence to qualified trends,
 then to clearly bounded internal tests, while retaining source lineage,
 uncertainty, counterevidence, and the ability to revise or reject a finding.
 
+## Current operating state
+
+The first implementation is live in
+[`analysis/external-trend-intelligence`](analysis/external-trend-intelligence):
+
+- `2,131` source-backed observations are indexed in the current repository;
+- `118` candidate external sources are preserved in the source-registry
+  snapshot;
+- `14` program themes and `4` qualified-but-unconfirmed cross-source
+  candidates are visible on the board;
+- `5` observations from pinned Inc. 5000 and annual-report artifacts have been
+  normalized with source paths, revisions, units, and boundaries;
+- `3` external-family comparisons and `1` held care/longevity candidate have
+  been added without treating thematic adjacency as a valid join; and
+- `0` internal company datasets have been joined or used to claim company
+  impact.
+
+The care/longevity candidate has a measurement matrix and a contextual subset,
+but remains held because its source populations, periods, denominators, and
+units are heterogeneous. This is the intended operating posture: preserve a
+useful signal, make uncertainty visible, and keep testing before promotion.
+
 ## Operating materials
 
 - [External source registry](EXTERNAL_SOURCE_REGISTRY.md)
