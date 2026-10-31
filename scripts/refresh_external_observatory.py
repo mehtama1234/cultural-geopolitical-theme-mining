@@ -50,6 +50,7 @@ STEPS = [
     ["scripts/build_refresh_history.py"],
     ["scripts/build_program_scorecard.py"],
     ["scripts/build_external_release_manifest.py"],
+    ["scripts/test_program_baseline_consistency.py"],
     ["scripts/validate_external_trend_intelligence.py"],
     ["scripts/smoke_test_external_board.py"],
 ]
