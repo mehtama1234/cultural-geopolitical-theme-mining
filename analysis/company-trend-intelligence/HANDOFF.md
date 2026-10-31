@@ -11,6 +11,7 @@ financial, institutional, and geopolitical atlas.
 - [Portfolio JSON](portfolio.json) — frontend/downstream data contract.
 - [Portfolio CSV](portfolio.csv) — spreadsheet and BI export.
 - [14-theme coverage matrix](THEME-COVERAGE-MATRIX.md) and [CSV export](THEME-COVERAGE-MATRIX.csv) — scope and coverage state.
+- [Next-record queue](NEXT-RECORD-QUEUE.md) — evidence requirements for the open themes.
 - [Board](board.html) — lightweight browser reader.
 - [Decision playbook](DECISION-PLAYBOOK.md) — weekly, monthly, and quarterly use.
 - [Executive readout](EXECUTIVE-READOUT.md) — one-page leadership view.

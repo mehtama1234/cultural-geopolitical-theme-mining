@@ -15,6 +15,8 @@ For an executive one-page view, read the [executive readout](EXECUTIVE-READOUT.m
 For scope control across the wider research programme, read the [14-theme
 coverage matrix](THEME-COVERAGE-MATRIX.md).
 
+For the next evidence work, read the [next-record queue](NEXT-RECORD-QUEUE.md).
+
 ## What this layer does
 
 It turns source-backed research into decision-relevant trend records. A record
