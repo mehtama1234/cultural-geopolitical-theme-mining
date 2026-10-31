@@ -1,7 +1,7 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 332 unique registered packet paths, 337 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 462, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, LV, LW, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation, AI-gains-early-career-local-demand, aging-AI-adoption-care-labour and portfolio-synthesis evidence integrated.
+**Inputs:** 333 unique registered packet paths, 338 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 463, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, LV, LW, LX, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation, AI-gains-early-career-local-demand, aging-AI-adoption-care-labour, emerging-market-AI-adoption-depth and portfolio-synthesis evidence integrated.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
@@ -283,6 +283,22 @@ The portfolio synthesis therefore adds a sixth priority: join infrastructure,
 platform, labour and demographic evidence through capability, encounter,
 distribution and continuity, preserving successful, excluded and human-
 preference/non-adopting comparators.
+
+## Emerging-market AI adoption-depth refresh — 2026-10-30
+
+The World Bank evidence separates adoption prevalence from adoption depth. An
+emerging-market firm can use an imported tool in one workflow while lacking the
+data, language, skills, organizational capability, compute, capital and
+interoperability needed to adapt AI locally. The WDR adopt/adapt/advance frame,
+IFC portfolio survey, South Asia regional evidence and cross-country diffusion
+study close a useful capability mechanism but not realized productivity, jobs,
+public-service quality, local value retention or reduced geopolitical dependence.
+
+The next acquisition is a matched firm-and-place ledger covering a local firm,
+multinational affiliate, small analogue firm and public-service use case. It
+must record complements, adaptation, task and hiring effects, data/IP control,
+supplier spillovers and later capability retention, including a rapid adopter
+with shallow use and a slower adopter with deep local adaptation.
 
 ## Strongest open conversion lanes
 
