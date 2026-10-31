@@ -11,7 +11,7 @@
     {
       "phase": "months_4_6_dependable_external_intake",
       "status": "operational",
-      "evidence": ["refresh_external_observatory.py", "refresh-status.json", "release-manifest.json", "backtest-source-snapshot.json"]
+      "evidence": ["refresh_external_observatory.py", "refresh-status.json", "refresh-history.json", "test_refresh_stale_gate.py", "release-manifest.json", "backtest-source-snapshot.json"]
     },
     {
       "phase": "months_7_12_trend_qualification",
@@ -40,6 +40,8 @@
     "qualified_external_trends": 0,
     "approved_company_pilots": 0,
     "release_artifacts": 62,
+    "refresh_runs_recorded": 8,
+    "stale_recovery_test": "passed",
     "rights_reviews_required": 8,
     "independent_comparison_status": "directional_agreement_mechanism_only"
   },
