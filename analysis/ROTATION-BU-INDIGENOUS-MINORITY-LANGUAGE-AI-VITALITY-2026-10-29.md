@@ -40,6 +40,7 @@ language exclusion, low-resource data and intergenerational decline
 | Welsh Government technology summary and Mapio Cymru | Welsh Government reports over 30,000 Welsh names on OpenStreetMap, Welsh mapping services and community contribution; Senedd Cymru uses Mapio Cymru work as the basis for its constituency map. | open geographic data and institutional map deployment | active users, search/routing use, place-name correction, community participation and effect on language visibility |
 | Business Wales Helo Blod milestone | Business Wales reports one million translated words and more than 1,000 participating businesses; one named business describes using Welsh social media, product descriptions and labelling. | service reach and named business implementation | repeat requests, retained content, customer interaction, revenue or language-use change and representativeness of the success case |
 | Welsh Government Annual Population Survey 2025–2026 refresh | APS estimates 843,700 Welsh speakers and 446,800 people reporting daily Welsh use; the release says the change is not statistically significant, APS accreditation is suspended, survey mode may affect results and the census remains the target measure. | updated population and daily-use signal with explicit uncertainty | causal link to technology, education or service interventions; durable cohort use, transmission and comparable census/National Survey trend |
+| University of Waikato responsible Waikato-Maniapoto AI voice development | University of Waikato reports a local Māori language authority recording thousands of sentences, Māori language experts supporting development, Google funding for responsible Māori language technology protocols, and the voice remaining in testing with release expected later. | community participation and responsible-development intent plus pre-deployment readiness | release authority, speaker rights, data retention, consent, licensing, misuse safeguards, learner deployment, repeated use, pronunciation quality and transmission |
 
 ## Stage audit
 
@@ -84,6 +85,14 @@ languages” claims, but none of the three sources alone proves repeated use,
 child transmission, safe service completion or durable vitality. The next
 measurement unit must therefore be the named language site, classroom,
 workplace, service encounter or media deployment—not the existence of the tool.
+
+The Māori case also makes readiness itself auditable. The source exposes who
+contributed speech, the role of language experts, the stated purpose of the
+funding and the fact that the model was still in testing. That is evidence of a
+community-informed development process, not evidence that the voice was
+released, authorized for unrestricted use, adopted by rangatahi or changing
+transmission. A responsible protocol is a control surface whose operation and
+enforcement still need evidence.
 
 The Welsh outcome evidence supplies a useful counterexample to easy success
 narratives. A population survey reports substantial daily use, but its methods
@@ -181,3 +190,4 @@ collection; do not infer vitality from model or corpus size.
 12. [Welsh Government technology and AI summary 2024–2025](https://www.gov.wales/welsh-technology-and-artificial-intelligence-ai-summary-2024-2025)
 13. [Business Wales Helo Blod one-million-word milestone](https://businesswales.gov.wales/news-and-blog/1-million-milestone-marked-free-welsh-translation-service)
 14. [Welsh Government Annual Population Survey 2025–2026](https://www.gov.wales/welsh-language-data-annual-population-survey-april-2025-march-2026-html)
+15. [University of Waikato responsible Waikato-Maniapoto AI voice development](https://www.waikato.ac.nz/news-events/news/a-voice-for-the-future-the-first-ai-generated-waikato-maniapoto-voice/)
