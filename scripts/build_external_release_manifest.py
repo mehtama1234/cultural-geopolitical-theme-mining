@@ -20,6 +20,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/README.md",
     "analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md",
     "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
+    "analysis/external-trend-intelligence/PILOT-VALIDATION-PROTOCOL.md",
     "analysis/external-trend-intelligence/independent-stage-comparison.json",
     "analysis/external-trend-intelligence/backtest-readiness.json",
     "analysis/external-trend-intelligence/backtest-source-snapshot.json",

@@ -10,6 +10,7 @@ The day-to-day analyst handoff is documented in the [analyst operating
 model](analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md).
 Frontend consumers should use the [frontend integration contract](analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md)
 for artifact mappings and status semantics.
+The future company-test standard is the [pilot validation protocol](analysis/external-trend-intelligence/PILOT-VALIDATION-PROTOCOL.md).
 
 ## New external-first goal
 

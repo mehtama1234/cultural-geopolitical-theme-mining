@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "e1b3d21625479114d95b7e7465930113ec8254f6",
-  "artifact_count": 44,
+  "source_tree_commit": "2bab20d804111a61e7192649f025de295bac89dd",
+  "artifact_count": 45,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -33,6 +33,11 @@
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
       "bytes": 2907,
       "sha256": "b620cf1f6235523b0593c8e5de74947b3afc05efa5cd4f4db7baada37d497894"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/PILOT-VALIDATION-PROTOCOL.md",
+      "bytes": 2455,
+      "sha256": "ce4f4f533b812d6554e22373145efa4d18b834e18944e61f5294f62788a2a8e4"
     },
     {
       "path": "analysis/external-trend-intelligence/independent-stage-comparison.json",
