@@ -85,3 +85,9 @@ The independent GSMA/British Social Attitudes mechanism comparison is in
 [`independent-stage-comparison.json`](independent-stage-comparison.json); it
 remains mechanism-only until common units, populations, periods, and outcomes
 are acquired.
+
+The household-room comparison now includes a normalized ANUPoll record and a
+2020-to-2025 adult-level endpoint alongside ABS GSS and HILDA evidence. Source
+custody is complete for ANUPoll; the remaining gate is denominator and measure
+reconciliation between adult-level expense difficulty and household-level
+cash-flow or dissaving measures.
