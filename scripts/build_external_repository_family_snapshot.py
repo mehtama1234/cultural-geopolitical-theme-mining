@@ -34,6 +34,7 @@ FAMILIES = [
             "data/processed/inc5000_rebuild_manifest_v1.json",
             "data/processed/opportunity_intelligence_manifest.json",
             "data/processed/strategic_source_ledger.json",
+            "data/processed/inc5000_independent_source_index_v1.json",
         ],
         "directory_prefixes": ["data/processed/", "data/public_company_intelligence/"],
     },

@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "64e7ccc9d9e3e4d7cec2c2783e239c1a8aa1aace",
+  "source_tree_commit": "5d4156deb27ea372064f139d3e8d9856bdd629b3",
   "artifact_count": 22,
   "artifacts": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/README.md",
-      "bytes": 10171,
-      "sha256": "8ec08e5601531880ed868cf6103ed50b482ad8da42ad71dcc3c3f2b9ba856976"
+      "bytes": 10439,
+      "sha256": "30e9b3b048289c7cfec1ddebda5c8da89f8342bf7448fa145839b3e4f965a32c"
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
@@ -31,8 +31,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/source-family-registry.json",
-      "bytes": 6112,
-      "sha256": "6411a498ba2c5307501e0c24ca1b8e1d85793c33006c253db1dab530a14a0512"
+      "bytes": 6179,
+      "sha256": "24e53c040fec70a003d507c8c389416ef4753aff6862fefd2780bd9a2b71a041"
     },
     {
       "path": "analysis/external-trend-intelligence/observation-manifest.json",
@@ -46,23 +46,23 @@
     },
     {
       "path": "analysis/external-trend-intelligence/repository-family-snapshot.json",
-      "bytes": 6144,
-      "sha256": "8f7752c4f30fd315224ee5ea4261d21e127d55cd5a357a8973c2f9bb330b688a"
+      "bytes": 6329,
+      "sha256": "9d1ba89f6353667ee3314c6cd33c9e9b865155b5a6a56c2a53b455e6c2616be6"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-observations.json",
-      "bytes": 21252,
-      "sha256": "a803843caf991452e6a57d0ab80672eb7785ae10b78606d2c4fb6d5a2ffcefc6"
+      "bytes": 38642,
+      "sha256": "e1087659452fa64c397f320ceb510a98786d41ea19e6847994e4edf15da3a03f"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-lineage-review.json",
-      "bytes": 14310,
-      "sha256": "56ed0a6ef232911d0d77fb10ed4ffff7fb33d9b94a6e7e97b3473f34bf3ad194"
+      "bytes": 21285,
+      "sha256": "6d865475e27107e9fdddbb00ed6e8c7dab645aebe8558a9b324125ae2cf46acf"
     },
     {
       "path": "analysis/external-trend-intelligence/external-evidence-gap-queue.json",
-      "bytes": 5569,
-      "sha256": "13d549e928c4b600363f3bfc7f00b33ab47bf9ce130930302a89e30f0bbedec4"
+      "bytes": 5579,
+      "sha256": "ec63df0b5b2f687777eda878d1310def922f9379e24534fab64e32d26aff44cf"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",

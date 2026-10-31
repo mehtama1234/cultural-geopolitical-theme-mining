@@ -63,6 +63,8 @@ def main() -> int:
     opportunities = json.loads(show(INC_REPO, INC_REV, opportunities_path))
     rebuild_path = "data/processed/inc5000_rebuild_manifest_v1.json"
     rebuild = json.loads(show(INC_REPO, INC_REV, rebuild_path))
+    independent_index_path = "data/processed/inc5000_independent_source_index_v1.json"
+    independent_index = json.loads(show(INC_REPO, INC_REV, independent_index_path))
     ibis_manifest_path = "research_manifest.json"
     ibis_manifest = json.loads(show(IBIS_REPO, IBIS_REV, ibis_manifest_path))
     ibis_source_inventory_path = "source_inventory.json"
@@ -258,6 +260,14 @@ def main() -> int:
             "Input hashes establish reproducibility lineage, not the truth of the underlying rankings or business claims.",
             release=rebuild["release"],
             generated_on=rebuild["generated_on"],
+            independent_source_index_path=independent_index_path,
+            independent_source_record_count=independent_index["record_count"],
+            independent_source_unique_company_count=independent_index["unique_company_count"],
+            independent_source_tranche_count=independent_index["tranche_count"],
+            independent_source_role_counts=independent_index["role_counts"],
+            source_urls=sorted({url for item in independent_index["records"] for url in item.get("sources", []) if url.startswith("http")}),
+            source_url_status="present_in_artifact",
+            source_url_count=len({url for item in independent_index["records"] for url in item.get("sources", []) if url.startswith("http")}),
             observation_period=f"Inc. 5000 rebuild artifact generated {rebuild['generated_on']}",
         )
     )

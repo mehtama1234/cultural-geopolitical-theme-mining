@@ -3,13 +3,37 @@
   "purpose": "Lineage and independence review for the first normalized external-family intake.",
   "promotion_rule": "URL count and host diversity are coverage measures, not independent confirmation.",
   "cross_observation_url_overlap": {
+    "https://app.action1.com/apidocs/": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
+    ],
+    "https://doradonutrition.com/": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
+    ],
     "https://franchise.neighborly.com/": [
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share"
     ],
+    "https://rudishhealth.com/": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
+    ],
     "https://time.com/7095038/woof-pet-pupsicle/": [
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://videa.ai/news/videa-dental-assist-clearance": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
+    ],
+    "https://www.action1.com/wp-content/uploads/datasheet/Action1-Datasheet.pdf": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
+    ],
+    "https://www.inc.com/profile/dorado-nutrition": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
     ],
     "https://www.ldi.la.gov/onlineservices/ProducerAdjusterSearch/Detail.aspx?LicenseNumber=947557&LicenseType=Producer+Agency": [
       "inc5000-creator-brand-commerce-source-linked-share",
@@ -49,21 +73,46 @@
     ]
   },
   "cross_observation_host_overlap": {
+    "app.action1.com": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
+    ],
+    "doradonutrition.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
+    ],
     "franchise.neighborly.com": [
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "rudishhealth.com": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
     ],
     "time.com": [
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share"
     ],
+    "videa.ai": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
+    ],
+    "www.action1.com": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
+    ],
     "www.inc.com": [
       "inc5000-creator-brand-commerce-source-linked-share",
-      "inc5000-health-longevity-demand-source-linked-share"
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
     ],
     "www.ldi.la.gov": [
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "www.linkedin.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-rebuild-public-input-inventory"
     ],
     "www.neighborly.com": [
       "inc5000-creator-brand-commerce-source-linked-share",
@@ -72,6 +121,10 @@
     "www.neighborlybrands.com": [
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "www.sec.gov": [
+      "annual-report-integrated-theme-map",
+      "inc5000-rebuild-public-input-inventory"
     ],
     "www.sednacg.com": [
       "inc5000-creator-brand-commerce-source-linked-share",
@@ -122,8 +175,12 @@
       ],
       "duplicate_source_urls": {},
       "cross_observation_shared_urls": [
+        "https://app.action1.com/apidocs/",
         "https://franchise.neighborly.com/",
+        "https://rudishhealth.com/",
         "https://time.com/7095038/woof-pet-pupsicle/",
+        "https://videa.ai/news/videa-dental-assist-clearance",
+        "https://www.action1.com/wp-content/uploads/datasheet/Action1-Datasheet.pdf",
         "https://www.ldi.la.gov/onlineservices/ProducerAdjusterSearch/Detail.aspx?LicenseNumber=947557&LicenseType=Producer+Agency",
         "https://www.neighborly.com/own-a-franchise",
         "https://www.neighborlybrands.com/about-us/",
@@ -135,8 +192,12 @@
         "https://www.woofpetbrand.com/"
       ],
       "cross_observation_shared_hosts": [
+        "app.action1.com",
         "franchise.neighborly.com",
+        "rudishhealth.com",
         "time.com",
+        "videa.ai",
+        "www.action1.com",
         "www.inc.com",
         "www.ldi.la.gov",
         "www.neighborly.com",
@@ -188,8 +249,10 @@
       ],
       "duplicate_source_urls": {},
       "cross_observation_shared_urls": [
+        "https://doradonutrition.com/",
         "https://franchise.neighborly.com/",
         "https://time.com/7095038/woof-pet-pupsicle/",
+        "https://www.inc.com/profile/dorado-nutrition",
         "https://www.ldi.la.gov/onlineservices/ProducerAdjusterSearch/Detail.aspx?LicenseNumber=947557&LicenseType=Producer+Agency",
         "https://www.neighborly.com/own-a-franchise",
         "https://www.neighborlybrands.com/about-us/",
@@ -201,10 +264,12 @@
         "https://www.woofpetbrand.com/"
       ],
       "cross_observation_shared_hosts": [
+        "doradonutrition.com",
         "franchise.neighborly.com",
         "time.com",
         "www.inc.com",
         "www.ldi.la.gov",
+        "www.linkedin.com",
         "www.neighborly.com",
         "www.neighborlybrands.com",
         "www.sednacg.com",
@@ -338,19 +403,168 @@
     },
     {
       "observation_id": "inc5000-rebuild-public-input-inventory",
-      "status": "not_started",
-      "source_url_count": 0,
-      "source_host_count": 0,
-      "source_hosts": [],
+      "status": "partial",
+      "source_url_count": 291,
+      "source_host_count": 132,
+      "source_hosts": [
+        "akadian.com",
+        "americanstaffing.net",
+        "app.action1.com",
+        "apps.apple.com",
+        "arizonalandconsulting.com",
+        "baskandlatherco.com",
+        "billergenie.com",
+        "billergenie.helpjuice.com",
+        "bluesignal.com",
+        "branchapp.com",
+        "cityofevanston.civicweb.net",
+        "compeo.io",
+        "completecaremanagement.com",
+        "consolidatedanalytics.com",
+        "copyleaks.com",
+        "d3n9y02raazwpg.cloudfront.net",
+        "discoverc15.com",
+        "docs.branchapp.com",
+        "docs.copyleaks.com",
+        "doradonutrition.com",
+        "drinkwildwonder.com",
+        "elmgrovecompanies.com",
+        "evereye.com",
+        "evolvedcommerce.com",
+        "faustocommercial.com",
+        "financial-cents.com",
+        "fliartists.com",
+        "folklore.digital",
+        "glhstaffing.com",
+        "go-alliant.com",
+        "goakadian.com",
+        "gotu.com",
+        "help.getmaintainx.com",
+        "help.getskimmer.com",
+        "improving.com",
+        "info.rxlogic.com",
+        "innovativegummies.com",
+        "introl.com",
+        "isms.startengine.com",
+        "joemccall.com",
+        "klarivis.com",
+        "legal.insightsoftware.com",
+        "lotuspharmacy.com",
+        "luishess.submitrequests.com",
+        "luishesslaw.com",
+        "luminize.com",
+        "lumistry.com",
+        "mail.elmgrovecompanies.com",
+        "mma.prnewswire.com",
+        "paint-rx.com",
+        "papercrowns.com",
+        "pictory.ai",
+        "purehomeriver.com",
+        "reliablehousebuyers.com",
+        "resimplifi.com",
+        "rhodes.com",
+        "rudishhealth.com",
+        "rxlogic.com",
+        "sciww.com",
+        "search.sunbiz.org",
+        "sednacg.com",
+        "seraphinatherapeutics.com",
+        "shopmoco.com",
+        "superiorskilledtrades.com",
+        "suprahuman.com",
+        "suprahumanhealth.com",
+        "topdoglaw.com",
+        "trust.getmaintainx.com",
+        "videa.ai",
+        "www.aba.com",
+        "www.accessdata.fda.gov",
+        "www.action1.com",
+        "www.anntoine.com",
+        "www.ardenlogisticsparks.com",
+        "www.bbb.org",
+        "www.bizzycoffee.com",
+        "www.bkbeauty.com",
+        "www.bluecoding.com",
+        "www.bluevine.com",
+        "www.businessloans.com",
+        "www.carefeed.com",
+        "www.chicknlegs.com",
+        "www.cms.gov",
+        "www.coherehealth.com",
+        "www.compassdatacenters.com",
+        "www.consolidatedanalytics.com",
+        "www.contractingrg.com",
+        "www.cookunity.com",
+        "www.cryobuilt.com",
+        "www.elmgrovecompanies.com",
+        "www.erescompanies.com",
+        "www.firstdue.com",
+        "www.getmaintainx.com",
+        "www.getskimmer.com",
+        "www.goodranchers.com",
+        "www.govchime.com",
+        "www.greatworkperks.com",
+        "www.growagency.co.uk",
+        "www.gsaelibrary.gsa.gov",
+        "www.heartbeathealth.com",
+        "www.htgf.com",
+        "www.inc.com",
+        "www.insightsoftware.com",
+        "www.kamind.com",
+        "www.liminal.ai",
+        "www.linkedin.com",
+        "www.lotuspharmacy.com",
+        "www.lovellgov.com",
+        "www.mentorcollective.org",
+        "www.mygoconsulting.com",
+        "www.parafin.com",
+        "www.parentsquare.com",
+        "www.prialto.com",
+        "www.radai.com",
+        "www.redesign-group.com",
+        "www.reliablyhome.com",
+        "www.remofirst.com",
+        "www.reyeslaw.com",
+        "www.rxlogic.com",
+        "www.saddlebrookelife.com",
+        "www.scc.virginia.gov",
+        "www.sec.gov",
+        "www.startengine.com",
+        "www.strongpointpartners.com",
+        "www.swingtech.com",
+        "www.talentburst.com",
+        "www.texasbar.com",
+        "www.thehypegroup.com",
+        "www.usaviationacademy.com",
+        "www.vantaca.com",
+        "zilkermedia.com",
+        "zmbz.com"
+      ],
       "duplicate_source_urls": {},
-      "cross_observation_shared_urls": [],
-      "cross_observation_shared_hosts": [],
+      "cross_observation_shared_urls": [
+        "https://app.action1.com/apidocs/",
+        "https://doradonutrition.com/",
+        "https://rudishhealth.com/",
+        "https://videa.ai/news/videa-dental-assist-clearance",
+        "https://www.action1.com/wp-content/uploads/datasheet/Action1-Datasheet.pdf",
+        "https://www.inc.com/profile/dorado-nutrition"
+      ],
+      "cross_observation_shared_hosts": [
+        "app.action1.com",
+        "doradonutrition.com",
+        "rudishhealth.com",
+        "videa.ai",
+        "www.action1.com",
+        "www.inc.com",
+        "www.linkedin.com",
+        "www.sec.gov"
+      ],
       "denominator": null,
-      "source_url_status": "not_present_in_artifact",
+      "source_url_status": "present_in_artifact",
       "independence_status": "unverified",
       "remaining": [
-        "source URLs or filing identities for the underlying records",
-        "unit, geography, period, and denominator audit",
+        "publisher, filing, and artifact identity review for each URL",
+        "map citations to the specific theme or company record",
         "independence review against the synthesis source"
       ],
       "promotion_decision": "hold"
@@ -374,7 +588,9 @@
       ],
       "duplicate_source_urls": {},
       "cross_observation_shared_urls": [],
-      "cross_observation_shared_hosts": [],
+      "cross_observation_shared_hosts": [
+        "www.sec.gov"
+      ],
       "denominator": null,
       "source_url_status": "present_in_artifact",
       "independence_status": "unverified",
