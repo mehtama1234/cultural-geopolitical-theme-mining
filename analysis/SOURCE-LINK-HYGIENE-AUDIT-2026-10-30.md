@@ -1,6 +1,6 @@
 # Source-link hygiene audit — 2026-10-30
 
-**Scope:** 327 `ROTATION-*.md` packets under `analysis/`.  
+**Scope:** 327 `ROTATION-*.md` packets under `analysis/`.
 **Purpose:** distinguish structural source-link coverage from source validity,
 quality and substantive evidence closure.
 
