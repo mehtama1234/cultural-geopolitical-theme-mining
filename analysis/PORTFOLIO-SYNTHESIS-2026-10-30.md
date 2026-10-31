@@ -118,3 +118,18 @@ as local capability. The next portfolio test joins the technical/ecological
 signal to a named firm, public service, fisher, household, worker or community,
 then follows access, adaptation, distribution, continuity and later bargaining
 power with both successful and exposed comparators.
+
+## Food-biotech local adaptation comparator
+
+The gene-edited-crops packet shows that local adaptation is also a food-
+sovereignty question. Regulatory visibility, food-safety review and a field
+performance advantage can close technical stages while seed ownership, price,
+availability, farmer choice, biodiversity, cultural legitimacy and cross-border
+market continuity remain open. This is a useful comparator because it tests the
+portfolio lens against a crop, trait, farmer and food-market chain rather than
+an AI or climate system alone.
+
+The next acquisition is a named crop/trait/place ledger from germplasm and
+licensing through seed access, multi-season field results, farmer adoption,
+non-target effects, food use, consumer/cultural response, labeling and trade,
+with a public-breeding or non-edited comparator.

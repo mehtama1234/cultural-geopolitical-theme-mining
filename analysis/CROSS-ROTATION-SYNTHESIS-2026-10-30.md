@@ -329,6 +329,25 @@ named firm, public service, fisher, household, worker or community chain through
 access, adaptation, distribution, continuity and later bargaining power, with
 successful and exposed comparators.
 
+## Gene-edited crops and food-sovereignty comparator — 2026-10-30
+
+The existing [gene-edited crops packet](ROTATION-JY-GENE-EDITED-CROPS-SEED-FOOD-SOVEREIGNTY-2026-10-30.md)
+adds a food and biotechnology expression of the same local-adaptation problem.
+FAO, EFSA, APHIS, FDA and the waxy-corn field comparison close technology,
+regulatory, safety-assessment, product-pipeline and selected field-performance
+stages. They do not yet show that a named farmer can obtain affordable seed,
+retain meaningful choice, preserve local varieties and biodiversity, navigate
+different national market rules, or capture durable food, income and cultural
+value.
+
+The important comparator is that a technically successful intervention can still
+be locally incomplete. The next acquisition should follow one crop/trait/place
+from edit and germplasm through ownership or licensing, seed price and
+availability, multi-season field performance, farmer adoption, non-target and
+biodiversity effects, food-safety evidence, consumer and cultural response,
+label treatment and cross-border market access, with a public-breeding or
+non-edited comparator.
+
 ## Strongest open conversion lanes
 
 1. **Facility-to-household incidence:** AI/data-centre, transmission, water,
