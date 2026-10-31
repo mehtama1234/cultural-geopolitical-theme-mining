@@ -1,12 +1,14 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 327 unique registered packet paths, 332 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 456, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment and critical-minerals evidence integrated.
+**Inputs:** 328 unique registered packet paths, 333 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 457, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals and portfolio-synthesis evidence integrated.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
 
 Quality-control companion: [atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md).
+
+Portfolio review: [latest convergence matrix and acquisition queue](PORTFOLIO-SYNTHESIS-2026-10-30.md), with its [machine-readable matrix](PORTFOLIO-SYNTHESIS-2026-10-30.csv).
 
 ## Executive readout
 
@@ -187,6 +189,22 @@ inventory. It is a joined, dated ledger in which a named person, household,
 vendor, community or facility crosses at least two operational stages and the
 record preserves a failed, excluded or counterexample unit alongside the
 successful one.
+
+## Portfolio refresh — 2026-10-30
+
+The latest mobility, digital-trade, strategic-investment and critical-minerals
+rotations do not establish a universal trend. They sharpen eight recurring
+portfolio clusters: portable rights and mobility; mobility as development
+infrastructure; strategic material value chains; local legitimacy and
+distribution; forecast and preparedness; circularity and recovery; algorithmic
+and institutional correction; and geopolitical capability and reciprocity.
+
+The portfolio matrix records the common false completion and the next highest-
+value acquisition for each cluster. Its key design choice is to keep the unit
+stable across at least two stages and to preserve a failed, excluded or
+alternative case. The current queue prioritizes facility-to-household incidence,
+person/account-to-cross-border remedy, forecast-to-safe-action, material-to-
+rights-safe local value and participation-to-influence.
 
 ## Strongest open conversion lanes
 
