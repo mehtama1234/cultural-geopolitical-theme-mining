@@ -31,9 +31,10 @@
       "evidence": [
         "independent-stage-comparison.json",
         "room-independent-comparison.json",
+        "room-independent-result.json",
         "bounded-subset-lineage-review.json"
       ],
-      "gap": "Comparisons remain mechanism-only; no common unit and holdout have passed."
+      "gap": "Comparisons now show directional agreement but remain mechanism-only; no common unit and holdout have passed."
     },
     {
       "id": "trend_qualification",
