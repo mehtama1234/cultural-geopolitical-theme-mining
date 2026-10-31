@@ -129,8 +129,9 @@
       const title = document.createElement('h3'); title.textContent = observation.title;
       const value = document.createElement('p'); value.innerHTML = `<strong>Value:</strong> ${observation.value} ${observation.unit}`;
       const source = document.createElement('code'); source.textContent = `${observation.family_id} · ${observation.source_path}`;
+      const period = document.createElement('code'); period.textContent = `Period: ${observation.observation_period}`;
       const boundary = document.createElement('p'); boundary.innerHTML = `<strong>Boundary:</strong> ${observation.boundary}`;
-      article.append(pill, title, value, source, boundary); return article;
+      article.append(pill, title, value, source, period, boundary); return article;
     }
     function heldCandidateCard(candidate) {
       const article = document.createElement('article');
