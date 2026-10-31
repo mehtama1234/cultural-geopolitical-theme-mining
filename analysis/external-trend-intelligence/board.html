@@ -147,6 +147,11 @@
       <div class="promotion-gates" id="rights-evidence"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Two-year goal completion audit</h2>
+      <p class="muted">Requirement-level status is shown conservatively; partial control-plane completion is not treated as end-state completion.</p>
+      <div class="promotion-gates" id="goal-audit"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Independent mechanism comparison</h2>
       <p class="muted">Independent publishers can challenge a mechanism without making unlike populations numerically comparable.</p>
       <div class="promotion-gates" id="independent-comparison"></div>
@@ -461,6 +466,10 @@
       fetch('rights-evidence-register.json').then(r => r.json()).then(evidence => {
         el('rights-evidence').append(card(`${evidence.partial_file_evidence_count} families with local files · ${evidence.no_local_terms_file_count} without`, 'partial_file_evidence', evidence.boundary));
         evidence.rows.forEach(row => el('rights-evidence').append(card(row.family_id, row.evidence_status, row.observed_files.length ? row.observed_files.map(file => file.path).join(' · ') : 'No local terms file found; upstream terms still require review.')));
+      });
+      fetch('goal-completion-audit.json').then(r => r.json()).then(audit => {
+        el('goal-audit').append(card(audit.overall_status, audit.release_status, audit.next_action));
+        audit.requirements.forEach(item => el('goal-audit').append(card(item.id.replaceAll('_', ' '), item.status, `${item.gap} Evidence: ${item.evidence.join(', ')}`)));
       });
       el('independent-comparison').append(independentComparisonCard(independentComparison));
       fetch('room-independent-comparison.json').then(r => r.json()).then(room => {
