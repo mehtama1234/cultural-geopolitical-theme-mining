@@ -44,6 +44,7 @@ def main() -> int:
     assert "external-family-observations.json" in candidates
     assert "external-family-comparisons.json" in candidates
     assert "CARE-CAPACITY-CANDIDATE.md" in candidates
+    assert "adaptation-control-candidate.json" in candidates
     runbook = (ANALYSIS / "REFRESH-RUNBOOK.md").read_text()
     assert "build_external_repository_family_snapshot.py" in runbook
     assert "build_external_family_observations.py" in runbook
@@ -204,7 +205,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 18
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 19
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["repository_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:

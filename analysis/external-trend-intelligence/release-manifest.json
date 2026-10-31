@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "repository_commit": "7b16e776fcfeca5abe1e76f4a8448f9a4aa1e492",
-  "artifact_count": 18,
+  "repository_commit": "ac0accf45aaeb047fb1e4a00c708b5cd1fe5128c",
+  "artifact_count": 19,
   "artifacts": [
     {
       "path": "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -93,6 +93,11 @@
       "path": "analysis/external-trend-intelligence/board.html",
       "bytes": 14661,
       "sha256": "8c5ed512365f9dc9e440399e7071fbc0e2495753a6bb32d74219397810c92d20"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
+      "bytes": 8880,
+      "sha256": "26bbb83623fe9f5a9702fb13425529f6727c1d117aa05743837791c8bab7f8f5"
     }
   ],
   "boundary": "This release manifest proves which local reader artifacts were packaged together. It does not prove that the underlying external sources are independent, current, licensed, or outcome-valid."

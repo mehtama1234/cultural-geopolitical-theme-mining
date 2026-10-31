@@ -45,6 +45,18 @@ The first broader held candidate is
 matrix and contextual subset preserve denominators and show why the lane is
 not yet poolable.
 
+The second broader held candidate is
+[`adaptation-control-candidate.json`](adaptation-control-candidate.json):
+
+> Adaptation demand is shifting toward control, proof, substitution, and
+> resilience.
+
+It links the social-research adaptation atlas, trend-hunting AI control/recourse
+chain, IBIS compliance/labor/infrastructure forces, and an Inc. 5000
+creator-commerce signal. This remains a held candidate because the inputs are
+mostly synthesis or company-coverage measures, not a common population,
+adoption, spending, or outcome series.
+
 ## Candidate 1 — Formal response arrives before usable recovery
 
 **Provisional finding:** Courts, agencies, platforms, and service systems can
