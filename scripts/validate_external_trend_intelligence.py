@@ -517,6 +517,7 @@ def main() -> int:
     assert progress["baseline"]["records"] == 2135
     assert progress["baseline"]["qualified_external_trends"] == 1
     assert progress["baseline"]["release_artifacts"] == 85
+    assert progress["baseline"]["refresh_runs_recorded"] == refresh_history["run_count"]
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
