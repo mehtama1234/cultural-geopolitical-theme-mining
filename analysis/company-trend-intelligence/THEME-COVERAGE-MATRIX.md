@@ -14,13 +14,13 @@ the next company-facing record should establish the evidence and exposure.
 | 1 | Household room, prices, debt, and financial security | 006 Household financial room; 002 Consumer recourse | Deep | When does financial pressure change completion, payment, recovery, or exit? |
 | 2 | Time, care, family life, and social reproduction | 006 Household financial room; 008 Health access and care burden | Lens | How do time and care constraints alter workforce, customer, and service decisions? |
 | 3 | Consumer power, recourse, and service dependence | 002 Consumer recourse | Deep | Does a visible response become verified remedy, restored access, and practical exit? |
-| 4 | Platforms, data, attention, and digital agency | 001 AI workplace control; 002 Consumer recourse | Lens | Who controls data, attention, defaults, and correction in the L&T workflow? |
+| 4 | Platforms, data, attention, and digital agency | 001 AI workplace control; 002 Consumer recourse | Lens | Who controls data, attention, defaults, and correction in the company workflow? |
 | 5 | Work, control, bargaining, and labour-market change | 001 AI workplace control | Deep | Does AI change worker authority, quality, bargaining, and job meaning? |
 | 6 | Health, disability, aging, and unequal care access | 008 Health access and care burden | Deep | Which access, safety, care, and workforce decisions have measurable unequal exposure? |
 | 7 | Housing, place, mobility, and insurance | 005 Infrastructure bargain; 006 Household financial room | Lens | How do place, mobility, and insurance constraints change operating continuity and demand? |
 | 8 | Unequal exposure, status, race, gender, age, and belonging | 004 Language technology; 007 Conditional legitimacy | Lens | Who receives the benefit, burden, voice, or correction route first? |
 | 9 | Trust, identity, cultural meaning, and changing norms | 004 Language technology; 007 Conditional legitimacy | Deep | Does representation, explanation, and remedy create trust and repeated use? |
-| 10 | Public systems, administrative access, and policy feedback | 002 Consumer recourse; 005 Infrastructure bargain | Lens | Which public or regulated interfaces change the L&T decision boundary? |
+| 10 | Public systems, administrative access, and policy feedback | 002 Consumer recourse; 005 Infrastructure bargain | Lens | Which public or regulated interfaces change the company decision boundary? |
 | 11 | Political judgment, civic participation, and collective action | 007 Conditional legitimacy; 003 Geopolitical permission gap | Lens | How do attribution, voice, and practical room change acceptance or non-use? |
 | 12 | Firm, market, ownership, and concentration power | 002 Consumer recourse; 005 Infrastructure bargain | Lens | Where do supplier, platform, capital, or buyer alternatives narrow? |
 | 13 | Infrastructure, energy, technology, and dependency | 005 Infrastructure bargain; 003 Geopolitical permission gap | Deep | Does announced capacity become reliable service, and who carries dependency? |

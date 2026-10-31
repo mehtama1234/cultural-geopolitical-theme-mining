@@ -35,7 +35,7 @@ affected buyer or worker outcome; and a regulatory or institutional response.
 ## Queue 3 — company-specific health and care outcome test
 
 The health-access record is qualified at the population level, but its company
-effect remains open. The next test should follow one named L&T or company
+effect remains open. The next test should follow one named company
 workflow from access or accommodation request through completed task, burden,
 correction, and repeat use, with subgroup denominators and an accessible
 counterexample.

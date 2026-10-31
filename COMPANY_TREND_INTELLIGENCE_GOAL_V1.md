@@ -28,38 +28,6 @@ interpretation system.
 Help a company see important change early, understand it correctly, and make
 better decisions before the change becomes obvious.
 
-## Optional implementation example: L&T AI CoE
-
-This is a general company-facing goal. L&T AI CoE is retained only as one
-downstream example of how the method can be applied; it is not required for the
-research system, and it is not the focus of this goal. Any company should be
-able to use the same contract to move from external cultural, financial,
-technological, institutional, infrastructure, and geopolitical signals to an
-accountable enterprise decision.
-
-The L&T translation must remain explicit about the boundary between public
-evidence and company evidence:
-
-```text
-external trend record
-  -> L&T exposure hypothesis
-  -> named L&T sponsor and operating decision
-  -> permissioned data and accepted baseline
-  -> supervised proof and control review
-  -> measured outcome, transfer, hold, or stop
-```
-
-The external portfolio does not establish L&T demand, ROI, readiness, safety,
-deployment authorization, or customer value by itself. Those claims require
-L&T-owned evidence, Finance and control review, affected-party safeguards, and
-an explicit decision record.
-
-An optional L&T implementation is maintained in a companion repository:
-
-- [L&T company-trend assessment](../lnt-ai-coe-charter/07-codex-analysis/COMPANY-TREND-INTELLIGENCE-LNT-ASSESSMENT-2026-10-31.md)
-- [L&T exposure register](../lnt-ai-coe-charter/07-codex-analysis/LNT-COMPANY-TREND-EXPOSURE-REGISTER-V1.csv)
-- [L&T portal company-trends page](../lnt-ai-coe-charter/portal/company-trends.html)
-
 ## The end-to-end intelligence chain
 
 ```text

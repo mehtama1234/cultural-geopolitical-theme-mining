@@ -137,7 +137,7 @@ without shifting work or risk to another affected group.
 
 ## Next test
 
-Select one L&T or company workflow involving care, accessibility, scheduling, or
+Select one company workflow involving care, accessibility, scheduling, or
 service access. Follow a permissioned sample from request through completed
 task, delay, correction, burden, and repeat use, with subgroup denominators and
 an accessible counterexample.
