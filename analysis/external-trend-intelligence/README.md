@@ -14,6 +14,10 @@ python3 scripts/build_external_observation_manifest.py \
   --output analysis/external-trend-intelligence/observation-manifest.json
 ```
 
+The first cross-source comparison is in
+[`CROSS-SOURCE-CANDIDATES.md`](CROSS-SOURCE-CANDIDATES.md). These are
+qualified candidates, not yet company findings or forecasts.
+
 ## Stages
 
 1. **Capture:** preserve the external URL/API, publisher, date, retrieval

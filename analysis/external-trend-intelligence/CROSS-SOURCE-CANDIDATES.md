@@ -1,0 +1,128 @@
+# First cross-source trend candidates
+
+**Source inventory:** 2,131 records from the pinned `HEAD` tree, indexed in
+[`observation-manifest.json`](observation-manifest.json).
+**Status:** candidate comparison, not a final trend forecast.
+
+These candidates are generated from multiple external records that share a
+mechanism or conversion gap. The records are not treated as if they followed
+the same people, firms, places, or events.
+
+## Candidate 1 — Formal response arrives before usable recovery
+
+**Provisional finding:** Courts, agencies, platforms, and service systems can
+produce a formal response or remedy before the affected person has verified
+payment, restored access, durable work, or practical exit.
+
+**External evidence lanes:**
+
+- `au-al-hussein-reactivation-deemed-work-2025`
+- `au-fwc-khan-platform-repeat-deactivation-2026`
+- `au-mansoor-platform-alternative-earnings-remedy-2025`
+- `comparative-australia-fwc-no-alternative-employment-remedy-2024`
+- `comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018`
+- `comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust`
+- `bsa43-nhs-waiting-legitimacy-2026`
+
+**Supporting mechanism:** formal output → implementation gap → repeated effort,
+waiting, residual loss, or non-use.
+
+**Counter-signal:** Some cases do reach payment, continued work, restoration,
+or improved access. The candidate is about the missing stage, not a claim that
+remedy never works.
+
+**Current status:** qualified candidate. The next comparison should code the
+same outcome stages across labor, consumer, health, and public-service records
+without treating legal or administrative action as recovery.
+
+## Candidate 2 — Time and financial pressure reduce practical room before demand disappears
+
+**Provisional finding:** Households can preserve visible participation or
+purchase activity while absorbing more unpaid care, search, delay, transport,
+or financial-navigation work.
+
+**External evidence lanes:**
+
+- `comparative-abs-australia-time-use-2024-disability-carer-free-time-2026`
+- `comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration`
+- `comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools`
+- `comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity`
+- `comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection`
+- `comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook`
+- `comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging`
+
+**Supporting mechanism:** material or care pressure → hidden time price and
+coordination work → substitution, delayed completion, or unequal participation.
+
+**Counter-signal:** Some households maintain participation, spending, or social
+connection through flexible schedules, paid support, community infrastructure,
+or higher resources.
+
+**Current status:** qualified candidate. The next comparison should preserve
+participant-versus-total-population denominators and distinguish nominal
+spending from quantities, access, and wellbeing.
+
+## Candidate 3 — Digital capability expands while control and trust remain contested
+
+**Provisional finding:** AI and digital systems can improve speed, discovery,
+or access while shifting control over data, attention, explanation, identity,
+and recourse toward platforms or infrastructure owners.
+
+**External evidence lanes:**
+
+- `comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries`
+- `comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership`
+- `comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social`
+- `comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai`
+- `comparative-oecd-ai-markets-2026-concentration-competition-strategic-advantage`
+- `us-hbs-ai-customer-service-contextual-recourse-2020-2021`
+- `comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight`
+
+**Supporting mechanism:** capability or convenience → delegated control and
+platform dependency → trust, portability, explanation, or correction gap.
+
+**Counter-signal:** Users may prefer delegation when stakes are low and
+control, human review, or switching remains credible.
+
+**Current status:** qualified candidate. The next comparison should separate
+task-level efficiency from later correction, retention, switching, and
+institutional legitimacy.
+
+## Candidate 4 — Infrastructure dependency becomes cultural and geopolitical power
+
+**Provisional finding:** Energy, cloud, cable, space, transport, and other
+infrastructure dependencies become political and cultural questions when
+capacity, ownership, access, and burden are uneven.
+
+**External evidence lanes:**
+
+- `us-pjm-large-load-disconnection-response-2026`
+- `us-uscc-transpacific-undersea-cable-gray-zone-resilience-2026`
+- `comparative-oecd-space-economy-2026-dependencies-sustainability-security`
+- `comparative-africa-sustainable-development-report-2026-water-energy-cities-finance`
+- `comparative-oecd-eu-social-economy-europe-2025-care-housing-delivery`
+- `comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security`
+- `comparative-world-bank-cloud-procurement-public-capability-lockin-2026`
+
+**Supporting mechanism:** capacity or ownership concentration → dependency and
+unequal access → local burden, public legitimacy, resilience, or state leverage.
+
+**Counter-signal:** Redundancy, public governance, open access, local benefits,
+and credible substitutes can convert dependency into reliable shared capacity.
+
+**Current status:** qualified candidate. The next comparison should link
+operation, actual user receipt, local incidence, maintenance, and later
+behavior; announced capacity is not reliable benefit.
+
+## Promotion gate
+
+Do not promote a candidate to the company-facing board until it has:
+
+- at least two independent source families;
+- compatible units, periods, and geographic scope for each comparison;
+- a named mechanism and affected-group distribution;
+- a supporting signal and a credible counter-signal;
+- a clear boundary between observed, reported, compared, and inferred claims;
+- a smallest next test; and
+- a separate internal-data bridge that names the company, unit, identifier,
+  period, and outcome rather than assuming a thematic match is a join.
