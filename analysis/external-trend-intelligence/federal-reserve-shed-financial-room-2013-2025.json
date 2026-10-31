@@ -1,0 +1,53 @@
+{
+  "schema": "external-trend-intelligence.external-acquisition.v1",
+  "acquisition_id": "federal-reserve-shed-financial-room-2013-2025",
+  "source_family": "Federal Reserve Survey of Household Economics and Decisionmaking",
+  "status": "acquired_pending_normalization",
+  "publisher": "Board of Governors of the Federal Reserve System",
+  "geography": "United States",
+  "population": "U.S. adults age 18 and above",
+  "measure": "percent of all adults who were doing okay financially or living comfortably",
+  "unit": "percent of adults",
+  "denominator": "all adult respondents in the SHED survey year",
+  "method": "Annual SHED repeated cross-sectional survey; values are published chart-data percentages, not a longitudinal panel estimate.",
+  "observations": [
+    {"period": "2013", "value": 62},
+    {"period": "2014", "value": 65},
+    {"period": "2015", "value": 69},
+    {"period": "2016", "value": 70},
+    {"period": "2017", "value": 74},
+    {"period": "2018", "value": 75},
+    {"period": "2019", "value": 75},
+    {"period": "2020", "value": 75},
+    {"period": "2021", "value": 78},
+    {"period": "2022", "value": 73},
+    {"period": "2023", "value": 72},
+    {"period": "2024", "value": 73},
+    {"period": "2025", "value": 73}
+  ],
+  "source_urls": [
+    "https://www.federalreserve.gov/consumerscommunities/shed.htm",
+    "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+    "https://www.federalreserve.gov/consumerscommunities/sheddataviz/SHED_visualiziations_at_least_doing_okay.zip"
+  ],
+  "retrieval": {
+    "retrieved_at": "2026-10-31",
+    "artifact": "SHED_visualiziations_at_least_doing_okay.zip",
+    "artifact_sha256": "sha256:9bb2e085e206639cf2ab40913344835a8ea1efb0020ded6b70278e5bbe3ffbce",
+    "contents": ["atleast_doing_okay_financially.csv", "atleast_doing_okay_financially_data_descriptions.txt"]
+  },
+  "comparability_review": {
+    "candidate_use": "independent U.S. household-room context and future U.S. holdout design",
+    "not_comparable_without_review": [
+      "Australian ABS/HILDA household measures",
+      "ANUPoll adult difficulty-meeting-expenses measure",
+      "SHED doing-okay/living-comfortably measure is not a cash-flow-problem measure"
+    ],
+    "independence_status": "independent_publisher_candidate",
+    "outcome_status": "self-assessed_financial_wellbeing_not_realized_consumption",
+    "counter_signal": "The series improved through 2021 and remained near 73 percent in 2024-2025; financial pressure need not move monotonically.",
+    "next_test": "Retrieve a SHED measure with a closer emergency-expense or bill-payment definition and compare pre-specified U.S. periods without pooling with Australian estimates."
+  },
+  "rights_boundary": "The Federal Reserve publishes the data and documentation; retain the source URL, retrieval date, version hash, and chart-data attribution. This artifact does not determine redistribution or derived-chart rights beyond the publisher's terms.",
+  "boundary": "This is a pinned acquisition candidate, not a qualified trend, causal estimate, or company finding. It must be normalized and independently reviewed before use in a cross-source comparison."
+}

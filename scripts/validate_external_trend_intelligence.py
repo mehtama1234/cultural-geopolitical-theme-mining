@@ -308,7 +308,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 58
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 59
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -415,7 +415,7 @@ def main() -> int:
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
     assert progress["baseline"]["records"] == 2132
     assert progress["baseline"]["qualified_external_trends"] == 0
-    assert progress["baseline"]["release_artifacts"] == 58
+    assert progress["baseline"]["release_artifacts"] == 59
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
@@ -437,9 +437,15 @@ def main() -> int:
     assert room_comparison["source_families"] == ["Australian Bureau of Statistics General Social Survey", "HILDA via Australian Institute of Health and Welfare", "ANU COVID-19 Monitoring Survey / ANUPoll", "ANZ / Roy Morgan"]
     acquisition = json.loads((ANALYSIS / "evidence-acquisition-plan.json").read_text())
     assert acquisition["schema"] == "external-trend-intelligence.evidence-acquisition-plan.v1"
-    assert len(acquisition["tracks"]) == 3
+    shed = json.loads((ANALYSIS / "federal-reserve-shed-financial-room-2013-2025.json").read_text())
+    assert shed["schema"] == "external-trend-intelligence.external-acquisition.v1"
+    assert shed["status"] == "acquired_pending_normalization"
+    assert len(shed["observations"]) == 13
+    assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
-    assert acquisition["tracks"][0]["status"] == "partial_bridge_found"
+    track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}
+    assert track_by_id["time-pressure-independent-holdout"]["status"] == "partial_bridge_found"
+    assert track_by_id["us-shed-financial-room-acquisition"]["status"] == "acquired_pending_normalization"
     completion_audit = json.loads((ANALYSIS / "goal-completion-audit.json").read_text())
     assert completion_audit["schema"] == "external-trend-intelligence.goal-completion-audit.v1"
     assert completion_audit["overall_status"] == "in_progress_with_open_gates"

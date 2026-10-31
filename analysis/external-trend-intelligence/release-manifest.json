@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "5bd2db3b0e58a4c94cdad3936b6068009c9e2bf5",
-  "artifact_count": 58,
+  "source_tree_commit": "7d03763dddc23b5c7e39c5268e4b510db53cccc4",
+  "artifact_count": 59,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -107,7 +107,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2114,
-      "sha256": "79f91f8c49424fcd781502b2fa87f50486e00383279368660883b5353c8387eb"
+      "sha256": "56c091f88419dece337ce060df15004d2c77cd8de934eb82009756946bcd86c0"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -126,8 +126,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/evidence-acquisition-plan.json",
-      "bytes": 3539,
-      "sha256": "f5465930d0ca1d5cb4bd50a7d7510bb79fc63ae77095914858541041602dcb92"
+      "bytes": 4843,
+      "sha256": "f449cdbb4398e6d92a6a5c60518668305dffbed57bafb81343372847e71ca25e"
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
@@ -162,7 +162,7 @@
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
       "bytes": 5735,
-      "sha256": "6996397c56af81dc5ddc18ecb7cf29e17272a1da9bbb9bedf47d1dcb3317fe56"
+      "sha256": "2c7c393507cfd65563cd57fe44c039f9efe671513f127b57df96f5af777ce6bc"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -221,8 +221,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 1398,
-      "sha256": "0d9772a87efd1c51d2bc04d1aa661b59f8f8912155607ed35de8a68baa64df72"
+      "bytes": 1764,
+      "sha256": "f314cb954c851eea80975dd86ac7f03a1d02efeb2389b7ee9595305b35e91421"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
+      "bytes": 3181,
+      "sha256": "c1dd40287366a6e11d62e6cb31b873df9a2bb147f92cee681f1f51dc7c1a7dd1"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",

@@ -3,6 +3,18 @@
   "purpose": "Turn open qualification gates into bounded, reviewable external acquisition tasks.",
   "tracks": [
     {
+      "track_id": "us-shed-financial-room-acquisition",
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "status": "acquired_pending_normalization",
+      "progress_evidence": "Federal Reserve SHED chart data for 2013-2025 is pinned in federal-reserve-shed-financial-room-2013-2025.json with source URLs, download hash, denominator, and method boundary.",
+      "remaining_gap": "The SHED measure is U.S. adult self-assessed financial well-being, not the Australian household cash-flow measure; a closer emergency-expense or bill-payment definition must be retrieved before comparison.",
+      "target_source": "Federal Reserve SHED public CSV and codebook",
+      "required_fields": ["publisher", "population", "geography", "period", "denominator", "unit", "question_or_measure_definition", "source_url", "rights_basis", "method_change_notes"],
+      "acceptance_criteria": ["repeated 2013-2025 observations pinned", "official download hash recorded", "question definition preserved", "measure kept separate from cash-flow hardship", "counter-signal retained"],
+      "stop_rule": "Do not pool SHED with ABS, HILDA, or ANUPoll until the question, denominator, geography, and period are explicitly reconciled.",
+      "owner": "external evidence review queue"
+    },
+    {
       "track_id": "time-pressure-independent-holdout",
       "candidate_id": "candidate-time-financial-pressure-practical-room",
       "status": "partial_bridge_found",
