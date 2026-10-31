@@ -4,7 +4,7 @@
   "finding_title": "Compliance Is Becoming Economic Architecture",
   "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
   "sample_status": "bounded_traceability_sample",
-  "sample_industry_count": 3,
+  "sample_industry_count": 10,
   "counter_signals": [
     "low enforcement",
     "voluntary adoption",
@@ -12,7 +12,7 @@
     "cost pass-through",
     "rules that impose similar burden on all competitors"
   ],
-  "outcome_measure_candidate_count": 18,
+  "outcome_measure_candidate_count": 76,
   "samples": [
     {
       "industry_slug": "3d-printer-manufacturing",
@@ -422,6 +422,992 @@
         "automation fails to improve yield, labor productivity, or safety after capex",
         "scale and qualification do not improve purchasing, customer access, or pricing",
         "compliance investment does not protect safety, customer approval, or liability"
+      ]
+    },
+    {
+      "industry_slug": "accommodation-and-food-services-in-the-us",
+      "industry_title": "Accommodation and Food Services in the US — 2025-2026 Industry Brief",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "claims": [
+        {
+          "claim_id": "afs-market",
+          "claim_text": "US accommodation and food services is a broad, classification-sensitive sector spanning lodging, restaurants, bars, catering, and contract food service.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06811",
+            "src_06822"
+          ],
+          "sources": [
+            {
+              "id": "src_06811",
+              "title": "Accommodation & Food Services in the US Industry Analysis, 2026",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/accommodation-food-services/1658/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06822",
+              "title": "AHLA Releases 2026 State of the Industry",
+              "publisher": "American Hotel and Lodging Association",
+              "url": "https://www.ahla.com/news/ahla-releases-2026-state-industry",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "afs-labor",
+          "claim_text": "Labor availability, wages, retention, and service productivity are central operating and margin issues across hospitality.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06813",
+            "src_06814",
+            "src_06820"
+          ],
+          "sources": [
+            {
+              "id": "src_06813",
+              "title": "US Restaurant Trends 2025",
+              "publisher": "Toast",
+              "url": "https://pos.toasttab.com/blog/data/2025-voice-of-restaurant-industry-survey",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06814",
+              "title": "Rising Food and Beverage Labor Costs Push Hotel Expenses",
+              "publisher": "Hotel News Resource",
+              "url": "https://www.hotelnewsresource.com/article134309.html",
+              "source_type": "news",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06820",
+              "title": "Hospitality Wages and Salaries: 2026 Data and Trends",
+              "publisher": "Oysterlink",
+              "url": "https://oysterlink.com/spotlight/hospitality-wages-2025/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "afs-cost",
+          "claim_text": "Food, beverage, energy, property, insurance, and inflation pressure affect hospitality pricing, margins, and closures.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06812",
+            "src_06814",
+            "src_06818",
+            "src_06819"
+          ],
+          "sources": [
+            {
+              "id": "src_06812",
+              "title": "Restaurant Industry Inflation: Impact, Costs and Consumer Trends",
+              "publisher": "Oysterlink",
+              "url": "https://oysterlink.com/spotlight/inflation-impact-restaurant-industry/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06814",
+              "title": "Rising Food and Beverage Labor Costs Push Hotel Expenses",
+              "publisher": "Hotel News Resource",
+              "url": "https://www.hotelnewsresource.com/article134309.html",
+              "source_type": "news",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06818",
+              "title": "Tariffs and Household Costs in 2026",
+              "publisher": "Reason",
+              "url": "https://reason.com/2026/07/31/trumps-tariffs-will-cost-each-american-household-900-in-2026/",
+              "source_type": "news",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06819",
+              "title": "Tariffs Will Raise the Cost of Food",
+              "publisher": "Tax Foundation",
+              "url": "https://taxfoundation.org/blog/trump-tariffs-food-prices/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [],
+      "record_falsifiers": [
+        "demand and channel changes do not affect utilization or cash",
+        "labor and input costs do not affect service, margin, or capacity",
+        "technology fails to improve productivity, utilization, or customer value",
+        "events and ancillary services do not diversify core demand",
+        "property and fixed-cost conditions do not affect returns",
+        "compliance investment does not protect licenses, trust, or continuity"
+      ]
+    },
+    {
+      "industry_slug": "accounting-services-in-the-us",
+      "industry_title": "Accounting Services in the US",
+      "geography": "United States",
+      "as_of": "2025-12-31",
+      "claims": [
+        {
+          "claim_id": "acct-demand",
+          "claim_text": "US accounting providers deliver bookkeeping, tax, audit, payroll, outsourced finance, compliance, and advisory services to businesses, individuals, institutions, and investors.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_02345",
+            "src_02346",
+            "src_02347",
+            "src_02348"
+          ],
+          "sources": [
+            {
+              "id": "src_02345",
+              "title": "https://www.fortunebusinessinsights.com/accounting-services-market-114727",
+              "publisher": "source inventory",
+              "url": "https://www.fortunebusinessinsights.com/accounting-services-market-114727",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02346",
+              "title": "https://www.thebusinessresearchcompany.com/report/accounting-services-global-market-report",
+              "publisher": "source inventory",
+              "url": "https://www.thebusinessresearchcompany.com/report/accounting-services-global-market-report",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02347",
+              "title": "https://taxdome.com/blog/accounting-statistics",
+              "publisher": "source inventory",
+              "url": "https://taxdome.com/blog/accounting-statistics",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02348",
+              "title": "https://www.researchandmarkets.com/report/accounting-services",
+              "publisher": "source inventory",
+              "url": "https://www.researchandmarkets.com/report/accounting-services",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "acct-ai",
+          "claim_text": "AI and cloud workflow tools are expanding automation in accounting while increasing requirements for validation, professional judgment, security, and governance.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_02349",
+            "src_02350",
+            "src_02351",
+            "src_02361",
+            "src_02362"
+          ],
+          "sources": [
+            {
+              "id": "src_02349",
+              "title": "https://www.invensis.net/blog/impact-of-ai-on-accounting-industry",
+              "publisher": "source inventory",
+              "url": "https://www.invensis.net/blog/impact-of-ai-on-accounting-industry",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02350",
+              "title": "https://www.accountingseed.com/resources/the-state-of-ai-in-accounting-2026-alt/",
+              "publisher": "source inventory",
+              "url": "https://www.accountingseed.com/resources/the-state-of-ai-in-accounting-2026-alt/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02351",
+              "title": "https://www.accountingtoday.com/list/ai-thought-leaders-survey-2026-process-predictions",
+              "publisher": "source inventory",
+              "url": "https://www.accountingtoday.com/list/ai-thought-leaders-survey-2026-process-predictions",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02361",
+              "title": "https://www.futuremarketinsights.com/reports/accounting-software-market",
+              "publisher": "source inventory",
+              "url": "https://www.futuremarketinsights.com/reports/accounting-software-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02362",
+              "title": "https://adivi.com/blog/cloud-computing-is-changing-the-accounting-industry/",
+              "publisher": "source inventory",
+              "url": "https://adivi.com/blog/cloud-computing-is-changing-the-accounting-industry/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "acct-talent",
+          "claim_text": "Talent shortages, compensation, seasonal workload, and demand for finance and accounting roles constrain capacity, quality, and client service.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_02354",
+            "src_02355",
+            "src_02356"
+          ],
+          "sources": [
+            {
+              "id": "src_02354",
+              "title": "https://www.roberthalf.com/us/en/insights/hiring-help/accountant-shortage-how-to-compete-for-skilled-talent",
+              "publisher": "source inventory",
+              "url": "https://www.roberthalf.com/us/en/insights/hiring-help/accountant-shortage-how-to-compete-for-skilled-talent",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02355",
+              "title": "https://www.roberthalf.com/us/en/insights/research/data-reveals-which-finance-and-accounting-roles-are-in-highest-demand",
+              "publisher": "source inventory",
+              "url": "https://www.roberthalf.com/us/en/insights/research/data-reveals-which-finance-and-accounting-roles-are-in-highest-demand",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02356",
+              "title": "https://www.cpapracticeadvisor.com/2025/11/25/salary-and-hiring-trends-in-accounting-what-cpa-firms-should-know-to-stay-competitive/173594/",
+              "publisher": "source inventory",
+              "url": "https://www.cpapracticeadvisor.com/2025/11/25/salary-and-hiring-trends-in-accounting-what-cpa-firms-should-know-to-stay-competitive/173594/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "IT budgets",
+        "M&A",
+        "automation adoption",
+        "backlog",
+        "client retention",
+        "compensation",
+        "complaints",
+        "data-transfer restrictions",
+        "inspection findings",
+        "international revenue",
+        "outages",
+        "realization",
+        "recovery tests",
+        "referrals",
+        "remediation",
+        "reporting complexity",
+        "restatements",
+        "restructurings",
+        "retention",
+        "review hours",
+        "rule changes",
+        "seasonal availability",
+        "security incidents",
+        "storage cost",
+        "tax deadlines",
+        "tax filings",
+        "tool adoption",
+        "utilization",
+        "vacancies",
+        "validation exceptions",
+        "workflow uptime"
+      ],
+      "record_falsifiers": [
+        "Business complexity, tax, reporting, audit, payroll, and advisory needs do not affect accounting demand.",
+        "Accuracy, judgment, deadlines, utilization, talent, and realization do not affect accounting margins or retention.",
+        "AI, cloud, workflow, and automation do not affect productivity, quality, liability, or competitiveness.",
+        "Licensing, tax, audit, independence, privacy, payroll, and professional rules do not affect eligibility or trust.",
+        "Client relationships, specialization, succession, M&A, and staffing do not affect accounting firm value."
+      ]
+    },
+    {
+      "industry_slug": "acne-treatment-manufacturing-otc",
+      "industry_title": "US Acne Treatment Manufacturing OTC — 2025-2026 Industry Brief",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "claims": [
+        {
+          "claim_id": "acne-market",
+          "claim_text": "US OTC acne-treatment manufacturing market estimates are classification-sensitive and span regulated OTC medicines, skin-care products, private label, and contract production.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06823",
+            "src_06824",
+            "src_06826"
+          ],
+          "sources": [
+            {
+              "id": "src_06823",
+              "title": "Acne Treatment Manufacturing OTC in the US",
+              "publisher": "Research and Markets",
+              "url": "https://www.researchandmarkets.com/reports/5852400/acne-treatment-manufacturing-otc-in-the-us",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06824",
+              "title": "Acne Treatment Manufacturing OTC",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/acne-treatment-manufacturing-otc/4125/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06826",
+              "title": "Acne Treatment Market",
+              "publisher": "Fortune Business Insights",
+              "url": "https://www.fortunebusinessinsights.com/acne-treatment-market-103361",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "acne-demand",
+          "claim_text": "Acne-treatment demand spans pharmacy, mass retail, beauty, dermatology, e-commerce, and regimen-based consumer channels.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06825",
+            "src_06826",
+            "src_06833"
+          ],
+          "sources": [
+            {
+              "id": "src_06825",
+              "title": "Acne Treatment Solution Market",
+              "publisher": "Future Market Insights",
+              "url": "https://www.futuremarketinsights.com/reports/acne-treatment-solution-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06826",
+              "title": "Acne Treatment Market",
+              "publisher": "Fortune Business Insights",
+              "url": "https://www.fortunebusinessinsights.com/acne-treatment-market-103361",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06833",
+              "title": "Organic Skin Care Market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/organic-skin-care-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "acne-products",
+          "claim_text": "OTC adapalene and benzoyl-peroxide products and alternative formats broaden accessible acne treatment while requiring product and claim discipline.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_06827",
+            "src_06828"
+          ],
+          "sources": [
+            {
+              "id": "src_06827",
+              "title": "FDA Clears OTC Adapalene and Benzoyl Peroxide Gel",
+              "publisher": "Patient Care Online",
+              "url": "https://www.patientcareonline.com/view/fda-clears-otc-adapalene-benzoyl-peroxide-gel-for-acne-in-patients-12-and-older",
+              "source_type": "news",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06828",
+              "title": "FDA Approves OTC Differin Epiduo Gel",
+              "publisher": "Dermatology Times",
+              "url": "https://www.dermatologytimes.com/view/fda-approves-otc-differin-epiduo-gel-for-acne-in-patients-12-and-older",
+              "source_type": "news",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [],
+      "record_falsifiers": [
+        "efficacy and trust do not affect repeat, price, or channel access",
+        "digital and social channels do not affect discovery or contribution",
+        "input and packaging conditions do not affect cost, availability, or cash",
+        "new formats do not improve basket, repeat, or differentiation",
+        "compliance investment does not protect trust, access, or liability",
+        "retail and platform bargaining does not affect net revenue or margin"
+      ]
+    },
+    {
+      "industry_slug": "acoustic-and-electric-guitar-manufacturing",
+      "industry_title": "US Acoustic & Electric Guitar Manufacturing — 2025-2026 Industry Brief",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "claims": [
+        {
+          "claim_id": "guitar-market",
+          "claim_text": "US acoustic and electric guitar manufacturing market estimates are classification-sensitive and span branded, private-label, premium, entry-level, and accessory activity.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06835",
+            "src_06836",
+            "src_06837"
+          ],
+          "sources": [
+            {
+              "id": "src_06835",
+              "title": "Guitar Market Size and Demand Analysis by 2035",
+              "publisher": "Global Growth Insights",
+              "url": "https://www.globalgrowthinsights.com/market-reports/guitar-market-121877",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06836",
+              "title": "Guitar Market Size, Share and Trends Report",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/guitar-market-report",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06837",
+              "title": "Guitar Market Size, Trends and Forecast",
+              "publisher": "Future Market Insights",
+              "url": "https://www.futuremarketinsights.com/reports/guitar-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "guitar-demand",
+          "claim_text": "Guitar demand varies by electric and acoustic format, price tier, learning, performance, collecting, artist, and enthusiast use cases.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06836",
+            "src_06837",
+            "src_06840"
+          ],
+          "sources": [
+            {
+              "id": "src_06836",
+              "title": "Guitar Market Size, Share and Trends Report",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/guitar-market-report",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06837",
+              "title": "Guitar Market Size, Trends and Forecast",
+              "publisher": "Future Market Insights",
+              "url": "https://www.futuremarketinsights.com/reports/guitar-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06840",
+              "title": "Guitar Industry Statistics 2026",
+              "publisher": "Gitnux",
+              "url": "https://gitnux.org/guitar-industry-statistics/",
+              "source_type": "other",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "guitar-trends",
+          "claim_text": "Electric and acoustic trends, artist influence, online learning, and digital discovery shape guitar category competition and consumer choice.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06842",
+            "src_06843",
+            "src_06846",
+            "src_06857"
+          ],
+          "sources": [
+            {
+              "id": "src_06842",
+              "title": "Latest Guitar Trend 2025",
+              "publisher": "Accio",
+              "url": "https://www.accio.com/business/latest-guitar-trend",
+              "source_type": "other",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06843",
+              "title": "Electric Guitar Market Boom in 2025",
+              "publisher": "Guitar Muse",
+              "url": "https://guitar-muse.com/the-electric-guitar-market-boom-in-2025-why-electrics-are-outselling-acoustics-27328",
+              "source_type": "news",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06846",
+              "title": "Fender Year in Review",
+              "publisher": "Guitar World",
+              "url": "https://www.guitarworld.com/gear/electric-guitars/fender-year-in-review-2024",
+              "source_type": "news",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06857",
+              "title": "Best Online Music Lessons and Learning Platforms",
+              "publisher": "Side-Line",
+              "url": "https://www.side-line.com/best-online-music-lessons-and-learning-platforms-2026/",
+              "source_type": "other",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [],
+      "record_falsifiers": [
+        "brand and craft value do not affect price or repeat",
+        "digital and learning channels do not affect discovery or economics",
+        "tariffs and supply do not affect cost, availability, or cash",
+        "premium and custom products do not improve contribution",
+        "parts and accessories do not improve lifecycle value",
+        "sourcing and compliance investment does not protect access or trust"
+      ]
+    },
+    {
+      "industry_slug": "activated-carbon-manufacturing",
+      "industry_title": "US Activated Carbon Manufacturing — 2025-2026 Industry Brief",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "claims": [
+        {
+          "claim_id": "carbon-market",
+          "claim_text": "Activated-carbon market estimates vary by feedstock, grade, application, virgin versus reactivated media, and geography.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06866",
+            "src_06867",
+            "src_06868",
+            "src_06869"
+          ],
+          "sources": [
+            {
+              "id": "src_06866",
+              "title": "Activated Carbon Market",
+              "publisher": "Market Research Future",
+              "url": "https://www.marketresearchfuture.com/reports/activated-carbon-market-1744",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06867",
+              "title": "Activated Carbon Market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/activated-carbon-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06868",
+              "title": "Activated Carbon Market",
+              "publisher": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/activated-carbon-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06869",
+              "title": "United States Activated Carbon Market",
+              "publisher": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/united-states-activated-carbon-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "carbon-demand",
+          "claim_text": "Water, wastewater, air, food, chemical, metals, and remediation applications support activated-carbon demand.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06867",
+            "src_06868",
+            "src_06870"
+          ],
+          "sources": [
+            {
+              "id": "src_06867",
+              "title": "Activated Carbon Market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/activated-carbon-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06868",
+              "title": "Activated Carbon Market",
+              "publisher": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/activated-carbon-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06870",
+              "title": "Activated Carbon Market",
+              "publisher": "Coherent Market Insights",
+              "url": "https://www.coherentmarketinsights.com/industry-reports/activated-carbon-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "carbon-regulation",
+          "claim_text": "PFAS, drinking-water, wastewater, air-quality, emissions, and remediation requirements influence activated-carbon applications and qualification.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_06874",
+            "src_06875",
+            "src_06877"
+          ],
+          "sources": [
+            {
+              "id": "src_06874",
+              "title": "Certain Activated Carbon from China: Preliminary Results",
+              "publisher": "Federal Register",
+              "url": "https://www.federalregister.gov/documents/2026/07/13/2026-14028/certain-activated-carbon-from-the-peoples-republic-of-china-preliminary-results-and-rescission-in",
+              "source_type": "government",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06875",
+              "title": "Activated Carbon Trade Investigation",
+              "publisher": "US International Trade Commission",
+              "url": "https://www.usitc.gov/publications/701_731/pub5474.pdf",
+              "source_type": "government",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06877",
+              "title": "PFAS and Drinking Water",
+              "publisher": "US Environmental Protection Agency",
+              "url": "https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas",
+              "source_type": "government",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [],
+      "record_falsifiers": [
+        "water and air regulation does not affect demand or qualification",
+        "feedstock and energy do not affect cost, availability, or cash",
+        "performance and application engineering do not affect price or retention",
+        "regeneration does not improve lifecycle economics",
+        "trade conditions do not affect supply, price, or margin",
+        "compliance investment does not protect permits, uptime, trust, or cash"
+      ]
+    },
+    {
+      "industry_slug": "acupuncturists",
+      "industry_title": "Acupuncturists",
+      "geography": "United States",
+      "as_of": "2025-12-31",
+      "claims": [
+        {
+          "claim_id": "acu-baseline",
+          "claim_text": "The source-specific baseline and market brief report a narrow US acupuncturist industry baseline of approximately $664 million in 2022, distinct from broader market estimates.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_00735"
+          ],
+          "sources": [
+            {
+              "id": "src_00735",
+              "title": "US Acupuncture Market",
+              "publisher": "Market Research Future",
+              "url": "https://www.marketresearchfuture.com/reports/us-acupuncture-market-12641",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "acu-market",
+          "claim_text": "Current market sources report US acupuncture market growth from approximately $11.8 billion in 2024 to $12.66 billion in 2025, but the scope is broader than practitioner revenue.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_00735",
+            "src_00738"
+          ],
+          "sources": [
+            {
+              "id": "src_00735",
+              "title": "US Acupuncture Market",
+              "publisher": "Market Research Future",
+              "url": "https://www.marketresearchfuture.com/reports/us-acupuncture-market-12641",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00738",
+              "title": "Acupuncture Market",
+              "publisher": "Coherent Market Insights",
+              "url": "https://www.coherentmarketinsights.com/industry-reports/acupuncture-market",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States and global",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "acu-coverage",
+          "claim_text": "Congressional and industry sources identify Medicare policy, proposed coverage expansion, and private insurance coverage as material access and reimbursement drivers.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_00736",
+            "src_00737",
+            "src_00742"
+          ],
+          "sources": [
+            {
+              "id": "src_00736",
+              "title": "H.R. 1667 Acupuncture for Our Seniors Act",
+              "publisher": "US Congress",
+              "url": "https://www.congress.gov/bill/119th-congress/house-bill/1667",
+              "source_type": "government",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_00737",
+              "title": "Acupuncture in Medicare Legislation Reintroduced",
+              "publisher": "Acupuncture Today",
+              "url": "https://acupuncturetoday.com/article/39566-acupuncture-in-medicare-legislation-reintroduced",
+              "source_type": "news",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00742",
+              "title": "Acupuncture Insurance Coverage Guide 2026",
+              "publisher": "Best Dosage",
+              "url": "https://www.bestdosage.com/blog/acupuncture-insurance-coverage-2026-guide",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [
+        "audits",
+        "cash share",
+        "clinic utilization",
+        "complaints",
+        "copays",
+        "coverage",
+        "covered indications",
+        "credentialing",
+        "denials",
+        "graduates",
+        "legislation",
+        "new patients",
+        "no-shows",
+        "online share",
+        "outcomes",
+        "privacy incidents",
+        "referrals",
+        "repeat visits",
+        "rule changes",
+        "system uptime",
+        "turnover",
+        "utilization",
+        "vacancies",
+        "visits",
+        "wages",
+        "wait time",
+        "wait times"
+      ],
+      "record_falsifiers": [
+        "coverage expansion fails to increase paid visits",
+        "clinical evidence does not broaden indications",
+        "practitioner supply expands faster than demand",
+        "cash affordability and payer denials compress utilization"
+      ]
+    },
+    {
+      "industry_slug": "adhd-medication-manufacturing",
+      "industry_title": "US ADHD Medication Manufacturing — 2025-2026 Industry Brief",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "claims": [
+        {
+          "claim_id": "adhd-market",
+          "claim_text": "ADHD medication market estimates vary substantially depending on whether the scope is therapies, prescriptions, manufacturers, or sales, but the US is a major demand and production market.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06754",
+            "src_06755",
+            "src_06765"
+          ],
+          "sources": [
+            {
+              "id": "src_06754",
+              "title": "ADHD Medication Market",
+              "publisher": "Verified Market Reports",
+              "url": "https://www.verifiedmarketreports.com/product/adhd-medication-market/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06755",
+              "title": "ADHD Therapeutics Market",
+              "publisher": "Market Research Future",
+              "url": "https://www.marketresearchfuture.com/reports/adhd-therapeutics-market-1573",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06765",
+              "title": "US Attention Deficit Hyperactivity Disorder Market Report",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/us-attention-deficit-hyperactivity-disorder-market-report",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "adhd-demand",
+          "claim_text": "ADHD prescription demand is influenced by diagnosis, clinical practice, access, coverage, and adherence, with prescription activity reported to rise in recent periods.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06761",
+            "src_06766"
+          ],
+          "sources": [
+            {
+              "id": "src_06761",
+              "title": "ADHD Medicines Prescriptions Rose Again in 2025",
+              "publisher": "The Pharmaceutical Journal",
+              "url": "https://pharmaceutical-journal.com/article/news/adhd-medicines-prescriptions-rose-again-in-2025",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06766",
+              "title": "ADHD Medication and Diagnosis Research",
+              "publisher": "JAMA Health Forum",
+              "url": "https://jamanetwork.com/journals/jama-health-forum/fullarticle/2846547",
+              "source_type": "academic",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "adhd-shortage",
+          "claim_text": "ADHD medicine shortages and uneven pharmacy availability create supply and access risk across stimulant products and channels.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_06759",
+            "src_06760",
+            "src_06761"
+          ],
+          "sources": [
+            {
+              "id": "src_06759",
+              "title": "ADHD Medication Shortage",
+              "publisher": "Medvidi",
+              "url": "https://medvidi.com/blog/adhd-medication-shortage",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06760",
+              "title": "ADHD Medication Shortages in 2026",
+              "publisher": "Mindbody7",
+              "url": "https://www.mindbody7.com/news/adhd-medication-shortages-in-2026/",
+              "source_type": "news",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06761",
+              "title": "ADHD Medicines Prescriptions Rose Again in 2025",
+              "publisher": "The Pharmaceutical Journal",
+              "url": "https://pharmaceutical-journal.com/article/news/adhd-medicines-prescriptions-rose-again-in-2025",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "outcome_measure_candidates": [],
+      "record_falsifiers": [
+        "demand and diagnosis do not affect volume or mix",
+        "shortage resilience does not improve service, share, or pricing",
+        "generic entry does not affect price or returns",
+        "formulation innovation does not improve adherence, access, or lifecycle value",
+        "quality and compliance investment does not protect approvals or continuity",
+        "API, quota, and plant conditions do not affect cost, release, or cash"
       ]
     }
   ],

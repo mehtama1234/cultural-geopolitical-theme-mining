@@ -263,7 +263,7 @@ def main() -> int:
     assert ibis_sample["schema"] == "external-trend-intelligence.ibis-finding-claim-sample.v1"
     assert ibis_sample["finding_slug"] == "compliance-as-economic-architecture"
     assert ibis_sample["sample_status"] == "bounded_traceability_sample"
-    assert ibis_sample["sample_industry_count"] == len(ibis_sample["samples"]) == 3
+    assert ibis_sample["sample_industry_count"] == len(ibis_sample["samples"]) == 10
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
     assert ibis_sample["counter_signals"]

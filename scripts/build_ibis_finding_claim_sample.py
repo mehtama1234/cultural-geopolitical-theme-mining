@@ -23,7 +23,7 @@ def show(path: str) -> str:
 def main() -> int:
     inventory = json.loads(show(PATTERN_PATH))
     pattern = next(item for item in inventory["ranked_patterns"] if item["slug"] == "compliance-as-economic-architecture")
-    industries = sorted(pattern["matched_industries"])[:3]
+    industries = sorted(pattern["matched_industries"])[:10]
     samples = []
     for slug in industries:
         record = json.loads(show(f"business_knowledge_examples/{slug}.json"))
