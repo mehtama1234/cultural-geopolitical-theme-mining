@@ -130,7 +130,13 @@
       "mechanism": "capability or convenience -> delegated control and platform dependency -> trust, portability, explanation, or correction gap",
       "counter_signal": "Delegation can be preferred when stakes are low and control, human review, or switching remain credible.",
       "next_comparison": "Separate task efficiency from later correction, retention, switching, and institutional legitimacy.",
-      "lineage_review": {"status": "not_started", "primary_artifact_count": null, "independence_status": "unverified", "assessment": "Requires source-packet review."},
+      "lineage_review": {
+        "status": "partial",
+        "primary_artifact_count": 7,
+        "independence_status": "partially_reviewed",
+        "assessment": "Seven primary source sets are identifiable: Accenture Consumer Pulse, Assurant Connected Consumer Trends, Deloitte Digital Media Trends, DIMA/MusicWatch streaming research, OECD AI markets, the INFORMS field experiment, and BCG Digital Government Citizen Survey.",
+        "remaining": "OECD DOI and web page are one artifact; the HBS summary is a secondary representation of the INFORMS paper; DIMA depends on MusicWatch; survey sponsorship and method comparability remain open."
+      },
       "coverage": {
         "evidence_record_count": 7,
         "source_host_count": 13,

@@ -2,7 +2,7 @@
 
 **Manifest:** `observation-manifest.json`
 **Candidate set:** `candidate-comparisons.json`
-**Status:** Candidates 1–2 partially reviewed; Candidates 3–4 remain unreviewed.
+**Status:** Candidates 1–3 partially reviewed; Candidate 4 remains unreviewed.
 
 ## Duplicate URL findings
 
@@ -41,7 +41,15 @@ Morgan Consumer Confidence, and 4Culture/Wilkening. This is partial lineage,
 not proof that the measures are directly comparable. The ABS Time Use tables
 within one record are one survey, not independent studies.
 
-Candidates 3–4 remain `independence_status: unverified` because:
+Candidate 3 has seven primary source sets: Accenture Consumer Pulse, Assurant
+Connected Consumer Trends, Deloitte Digital Media Trends, DIMA/MusicWatch
+streaming research, OECD AI markets, the INFORMS field experiment, and BCG
+Digital Government Citizen Survey. The OECD DOI and web page are one artifact;
+the HBS page is a secondary representation of the INFORMS paper; and DIMA
+depends on MusicWatch research. This supports partial lineage only. Survey
+sponsorship, methods, and population comparability remain open.
+
+Candidate 4 remains `independence_status: unverified` because:
 
 - a different host can republish the same study, dataset, press release, or
   institutional claim;
