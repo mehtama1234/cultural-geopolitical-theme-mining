@@ -9,7 +9,7 @@ Across seven evidence-backed records, the repeated pattern is:
 
 This is a cross-domain lens, not a claim that every trend has one cause.
 
-## Six findings in plain language
+## Seven findings in plain language
 
 | Area | What appears to be changing | Immediate company question |
 |---|---|---|

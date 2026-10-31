@@ -34,7 +34,7 @@ capability or formal offer
   -> durable business and societal value
 ```
 
-This is not a claim that the five domains have one causal driver. It is a
+This is not a claim that the seven records have one causal driver. It is a
 cross-source operating lens: each record identifies a different place where
 the conversion can stop.
 
