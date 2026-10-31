@@ -47,7 +47,7 @@ repositories into this one.
 
 The first bounded intake queue is in
 [`external-family-intake-queue.json`](external-family-intake-queue.json). It
-names the exact Inc. 5000 and annual-report artifacts to extract next and
+names the exact Inc. 5000, annual-report, and IBIS artifacts to extract next and
 states what each artifact can—and cannot—support.
 
 The first normalized intake is in
@@ -63,7 +63,9 @@ artifact-level synthesis or provenance signals.
 The held comparison layer is
 [`external-family-comparisons.json`](external-family-comparisons.json). It
 records three thematic/mechanism relationships without treating adjacency as
-a data join or promoting any new trend prematurely.
+a data join or promoting any new trend prematurely. It now includes three
+additional held comparisons for IBIS compliance, labor-capacity, and
+infrastructure forces.
 
 The corresponding URL, host, denominator, and independence audit is in
 [`external-family-lineage-review.json`](external-family-lineage-review.json).

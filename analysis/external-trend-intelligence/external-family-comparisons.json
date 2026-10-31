@@ -32,6 +32,39 @@
       "counter_signal": "There are zero field-evidence submissions and zero field-evidence assessments in the cited opportunity manifest.",
       "next_test": "Acquire dated buyer, implementation, retention, and outcome records for each opportunity before comparing it with external adoption or regulatory pressure.",
       "promotion_gate": "Keep as a hypothesis until field evidence and independent implementation outcomes exist."
+    },
+    {
+      "id": "ibis-compliance-to-formal-response",
+      "observation_ids": ["ibis-cross-industry-discovery-findings", "ibis-cross-industry-business-forces"],
+      "existing_candidate_ids": ["candidate-formal-response-before-recovery"],
+      "relationship": "mechanism_hypothesis",
+      "status": "held_no_join",
+      "rationale": "IBIS identifies compliance as economic architecture and the existing candidate tracks formal response before usable recovery. The relationship is a mechanism hypothesis, not evidence that the same entities or outcomes are observed.",
+      "counter_signal": "IBIS findings are explicitly discovery hypotheses and may restate common industry narratives rather than independent observations.",
+      "next_test": "Attach dated regulatory or administrative records and outcome measures showing whether proof requirements change operating time, cost, access, or recovery.",
+      "promotion_gate": "Do not count IBIS synthesis as an independent confirming source."
+    },
+    {
+      "id": "ibis-labor-capacity-to-practical-room",
+      "observation_ids": ["ibis-cross-industry-discovery-findings", "ibis-cross-industry-business-forces"],
+      "existing_candidate_ids": ["candidate-time-financial-pressure-practical-room"],
+      "relationship": "mechanism_hypothesis",
+      "status": "held_no_join",
+      "rationale": "IBIS frames labor availability as a capacity constraint; the existing candidate concerns time and financial room. Both may describe constrained operating capacity, but the units and affected populations are not shared.",
+      "counter_signal": "The force register is a U.S.-focused working-hypothesis layer and does not itself quantify labor shortage, time loss, or household outcomes.",
+      "next_test": "Compare dated vacancy, wage, hours, care burden, service capacity, and output measures by industry and geography.",
+      "promotion_gate": "Require independent labor, household, or administrative measures before treating the mechanism as repeated."
+    },
+    {
+      "id": "ibis-power-infrastructure-to-dependency",
+      "observation_ids": ["ibis-cross-industry-business-forces", "ibis-industry-record-corpus"],
+      "existing_candidate_ids": ["candidate-infrastructure-dependency-power"],
+      "relationship": "thematic_adjacency",
+      "status": "held_no_join",
+      "rationale": "IBIS explicitly identifies power-constrained compute and physical infrastructure/energy access as business forces; the existing candidate describes infrastructure dependency as cultural and geopolitical power.",
+      "counter_signal": "Industry-record volume and force synthesis do not show realized outages, prices, access, or geopolitical effects.",
+      "next_test": "Attach dated grid, energy, infrastructure, procurement, and regional access observations with common units and locations.",
+      "promotion_gate": "Treat corpus size and force count as provenance/context, never as independent confirmation."
     }
   ]
 }

@@ -149,11 +149,14 @@ def main() -> int:
             assert observation["low_growth_counterexample_count"] >= 1
     family_comparisons = json.loads((ANALYSIS / "external-family-comparisons.json").read_text())
     assert family_comparisons["schema"] == "external-trend-intelligence.external-family-comparisons.v1"
-    assert len(family_comparisons["comparisons"]) == 3
+    assert len(family_comparisons["comparisons"]) == 6
     family_observation_ids = set(observation_ids)
+    candidate_ids = {candidate["id"] for candidate in machine["candidates"]}
     for comparison in family_comparisons["comparisons"]:
         assert comparison["observation_ids"]
         assert set(comparison["observation_ids"]) <= family_observation_ids
+        if "existing_candidate_ids" in comparison:
+            assert set(comparison["existing_candidate_ids"]) <= candidate_ids
         assert comparison["relationship"] in {"thematic_adjacency", "mechanism_hypothesis"}
         assert comparison["status"] == "held_no_join"
         assert comparison["rationale"] and comparison["counter_signal"]
