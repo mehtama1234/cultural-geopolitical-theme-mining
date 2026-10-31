@@ -2,6 +2,94 @@
   "schema": "external-trend-intelligence.external-family-lineage-review.v1",
   "purpose": "Lineage and independence review for the first normalized external-family intake.",
   "promotion_rule": "URL count and host diversity are coverage measures, not independent confirmation.",
+  "cross_observation_url_overlap": {
+    "https://franchise.neighborly.com/": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://time.com/7095038/woof-pet-pupsicle/": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://www.ldi.la.gov/onlineservices/ProducerAdjusterSearch/Detail.aspx?LicenseNumber=947557&LicenseType=Producer+Agency": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://www.neighborly.com/own-a-franchise": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://www.neighborlybrands.com/about-us/": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://www.sednacg.com/about": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://www.sednacg.com/public-sector": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://www.streamcompanies.com/": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://www.streamcompanies.com/about/": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://www.teamscf.com/about": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "https://www.woofpetbrand.com/": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ]
+  },
+  "cross_observation_host_overlap": {
+    "franchise.neighborly.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "time.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "www.inc.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "www.ldi.la.gov": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "www.neighborly.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "www.neighborlybrands.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "www.sednacg.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "www.streamcompanies.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "www.teamscf.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ],
+    "www.woofpetbrand.com": [
+      "inc5000-creator-brand-commerce-source-linked-share",
+      "inc5000-health-longevity-demand-source-linked-share"
+    ]
+  },
   "reviews": [
     {
       "observation_id": "inc5000-health-longevity-demand-source-linked-share",
@@ -33,6 +121,31 @@
         "www.woofpetbrand.com"
       ],
       "duplicate_source_urls": {},
+      "cross_observation_shared_urls": [
+        "https://franchise.neighborly.com/",
+        "https://time.com/7095038/woof-pet-pupsicle/",
+        "https://www.ldi.la.gov/onlineservices/ProducerAdjusterSearch/Detail.aspx?LicenseNumber=947557&LicenseType=Producer+Agency",
+        "https://www.neighborly.com/own-a-franchise",
+        "https://www.neighborlybrands.com/about-us/",
+        "https://www.sednacg.com/about",
+        "https://www.sednacg.com/public-sector",
+        "https://www.streamcompanies.com/",
+        "https://www.streamcompanies.com/about/",
+        "https://www.teamscf.com/about",
+        "https://www.woofpetbrand.com/"
+      ],
+      "cross_observation_shared_hosts": [
+        "franchise.neighborly.com",
+        "time.com",
+        "www.inc.com",
+        "www.ldi.la.gov",
+        "www.neighborly.com",
+        "www.neighborlybrands.com",
+        "www.sednacg.com",
+        "www.streamcompanies.com",
+        "www.teamscf.com",
+        "www.woofpetbrand.com"
+      ],
       "denominator": "candidate_flagged_companies",
       "source_url_status": "present_in_artifact",
       "independence_status": "unverified",
@@ -74,6 +187,31 @@
         "www.woofpetbrand.com"
       ],
       "duplicate_source_urls": {},
+      "cross_observation_shared_urls": [
+        "https://franchise.neighborly.com/",
+        "https://time.com/7095038/woof-pet-pupsicle/",
+        "https://www.ldi.la.gov/onlineservices/ProducerAdjusterSearch/Detail.aspx?LicenseNumber=947557&LicenseType=Producer+Agency",
+        "https://www.neighborly.com/own-a-franchise",
+        "https://www.neighborlybrands.com/about-us/",
+        "https://www.sednacg.com/about",
+        "https://www.sednacg.com/public-sector",
+        "https://www.streamcompanies.com/",
+        "https://www.streamcompanies.com/about/",
+        "https://www.teamscf.com/about",
+        "https://www.woofpetbrand.com/"
+      ],
+      "cross_observation_shared_hosts": [
+        "franchise.neighborly.com",
+        "time.com",
+        "www.inc.com",
+        "www.ldi.la.gov",
+        "www.neighborly.com",
+        "www.neighborlybrands.com",
+        "www.sednacg.com",
+        "www.streamcompanies.com",
+        "www.teamscf.com",
+        "www.woofpetbrand.com"
+      ],
       "denominator": "candidate_flagged_companies",
       "source_url_status": "present_in_artifact",
       "independence_status": "unverified",
@@ -91,6 +229,8 @@
       "source_host_count": 0,
       "source_hosts": [],
       "duplicate_source_urls": {},
+      "cross_observation_shared_urls": [],
+      "cross_observation_shared_hosts": [],
       "denominator": null,
       "source_url_status": "not_present_in_artifact",
       "independence_status": "unverified",
@@ -108,6 +248,8 @@
       "source_host_count": 0,
       "source_hosts": [],
       "duplicate_source_urls": {},
+      "cross_observation_shared_urls": [],
+      "cross_observation_shared_hosts": [],
       "denominator": null,
       "source_url_status": "not_present_in_artifact",
       "independence_status": "unverified",
@@ -125,6 +267,8 @@
       "source_host_count": 0,
       "source_hosts": [],
       "duplicate_source_urls": {},
+      "cross_observation_shared_urls": [],
+      "cross_observation_shared_hosts": [],
       "denominator": null,
       "source_url_status": "not_present_in_artifact",
       "independence_status": "unverified",
@@ -142,6 +286,8 @@
       "source_host_count": 0,
       "source_hosts": [],
       "duplicate_source_urls": {},
+      "cross_observation_shared_urls": [],
+      "cross_observation_shared_hosts": [],
       "denominator": null,
       "source_url_status": "not_present_in_artifact",
       "independence_status": "unverified",
@@ -159,6 +305,8 @@
       "source_host_count": 0,
       "source_hosts": [],
       "duplicate_source_urls": {},
+      "cross_observation_shared_urls": [],
+      "cross_observation_shared_hosts": [],
       "denominator": null,
       "source_url_status": "not_present_in_artifact",
       "independence_status": "unverified",
@@ -176,6 +324,8 @@
       "source_host_count": 0,
       "source_hosts": [],
       "duplicate_source_urls": {},
+      "cross_observation_shared_urls": [],
+      "cross_observation_shared_hosts": [],
       "denominator": null,
       "source_url_status": "not_present_in_artifact",
       "independence_status": "unverified",
@@ -193,6 +343,8 @@
       "source_host_count": 0,
       "source_hosts": [],
       "duplicate_source_urls": {},
+      "cross_observation_shared_urls": [],
+      "cross_observation_shared_hosts": [],
       "denominator": null,
       "source_url_status": "not_present_in_artifact",
       "independence_status": "unverified",
@@ -210,6 +362,8 @@
       "source_host_count": 0,
       "source_hosts": [],
       "duplicate_source_urls": {},
+      "cross_observation_shared_urls": [],
+      "cross_observation_shared_hosts": [],
       "denominator": null,
       "source_url_status": "not_present_in_artifact",
       "independence_status": "unverified",

@@ -74,6 +74,9 @@ The corresponding URL, host, denominator, and independence audit is in
 [`external-family-lineage-review.json`](external-family-lineage-review.json).
 The two Inc. 5000 trend records have partial URL coverage review; every new
 observation remains on hold until independence and outcome evidence are checked.
+The audit now also records URL and host overlap across observations, making
+possible restatement or shared-publisher dependence visible before anyone
+counts those observations as separate confirmation.
 
 The first broader candidate built from these lanes is documented in
 [`CARE-CAPACITY-CANDIDATE.md`](CARE-CAPACITY-CANDIDATE.md) and

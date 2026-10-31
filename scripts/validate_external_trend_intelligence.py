@@ -196,8 +196,13 @@ def main() -> int:
     assert lineage_review["schema"] == "external-trend-intelligence.external-family-lineage-review.v1"
     assert len(lineage_review["reviews"]) == len(family_observations["observations"])
     assert lineage_review["promotion_rule"]
+    assert "cross_observation_url_overlap" in lineage_review
+    assert "cross_observation_host_overlap" in lineage_review
+    assert all(len(ids) > 1 for ids in lineage_review["cross_observation_url_overlap"].values())
     for review in lineage_review["reviews"]:
         assert review["observation_id"] in family_observation_ids
+        assert isinstance(review["cross_observation_shared_urls"], list)
+        assert isinstance(review["cross_observation_shared_hosts"], list)
         assert review["status"] in {"not_started", "partial", "complete"}
         assert review["independence_status"] == "unverified"
         assert review["promotion_decision"] == "hold"
