@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-us-shed-financial-wellbeing-2013-2025",
+  "title": "Self-assessed U.S. financial wellbeing peaked in 2021 and settled below that level by 2025",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "time_hidden_price"],
+  "source_unit": "Federal Reserve Board Survey of Household Economics and Decisionmaking (SHED)",
+  "geography": "United States; adults age 18 and above",
+  "observations": [
+    {"period": "2013", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 62, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2014", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 65, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2015", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 69, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2016", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 70, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2017", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 74, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2018", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 75, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2019", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 75, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2020", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 75, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2021", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 78, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2022", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 73, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2023", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 72, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2024", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 73, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"},
+    {"period": "2025", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 73, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"}
+  ],
+  "method": "Annual repeated cross-sectional SHED survey; chart-data series downloaded from the Federal Reserve public data page.",
+  "uncertainty": "The series is self-assessed financial wellbeing, not a household cash-flow, consumption, income, or administrative hardship outcome. Survey wording, sample, weighting, and public-file revisions must be checked against each year's codebook before formal comparison.",
+  "counterinterpretation": "The measure rose through 2021 and remained near 73 percent in 2024-2025; financial room does not move monotonically and may diverge from emergency-expense capacity or realized spending.",
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/consumerscommunities/shed.htm", "claim": "Official SHED survey landing page and annual survey context.", "status": "official-source"},
+    {"source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm", "claim": "Official public data and codebook release page.", "status": "official-data-route"},
+    {"source_url": "https://www.federalreserve.gov/consumerscommunities/sheddataviz/SHED_visualiziations_at_least_doing_okay.zip", "claim": "Chart-data ZIP containing the normalized series and description file.", "status": "retrieved-artifact"}
+  ],
+  "retrieval_hash": "sha256:9bb2e085e206639cf2ab40913344835a8ea1efb0020ded6b70278e5bbe3ffbce",
+  "boundary": "This record is a U.S. external comparison candidate. It does not establish a pooled international trend, causal financial hardship, company exposure, or equivalence with ABS, HILDA, or ANUPoll measures.",
+  "reproduction_audit": {"retrieval_hash_scope": "Federal Reserve SHED chart-data ZIP and description file for the all-adults annual series", "checked": "2026-10-31"}
+}
