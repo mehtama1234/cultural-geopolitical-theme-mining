@@ -4,6 +4,17 @@ This is the current handoff for the living external-first goal. All actions
 below preserve the rule that external evidence is qualified before any company
 data is joined.
 
+## Current backtest gate
+
+The historical records for all four candidates are now pinned in
+[`backtest-source-snapshot.json`](backtest-source-snapshot.json), and the
+bounded Australian platform-remedy panel is stage-coded in
+[`case-stage-panel.json`](case-stage-panel.json). Structural review still finds
+zero comparable backtest subsets: units, denominators, geographies, and outcome
+definitions remain heterogeneous. The next test is to acquire an independent
+source family using the same stage or outcome definitions, not to pool the
+current records.
+
 ## One substantive open gate
 
 **IBIS discovery findings — claim-level source mapping.** The pinned register
@@ -51,6 +62,12 @@ python3 scripts/build_ibis_finding_claim_sample.py
 python3 scripts/build_external_evidence_gap_queue.py
 python3 scripts/build_external_release_manifest.py
 python3 scripts/validate_external_trend_intelligence.py
+```
+
+Or run the full ordered pipeline, including the frontend smoke test:
+
+```text
+python3 scripts/refresh_external_observatory.py
 ```
 
 No action in this queue authorizes an internal company join. A candidate must
