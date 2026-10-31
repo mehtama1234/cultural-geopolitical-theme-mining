@@ -64,12 +64,13 @@
         "backtest-readiness.json",
         "backtest-comparability-review.json",
         "food-insecurity-temporal-holdout.json",
+        "ibis-adult-day-outcome-review.json",
         "temporal-holdout-design.json",
         "temporal-holdout-result.json",
         "shed-temporal-holdout.json",
         "usda-temporal-holdout.json"
       ],
-      "gap": "The food-insecurity candidate now has a descriptive Urban 2019\u20132023 to 2024\u20132025 holdout and non-pooled USDA challenge; causal validation, uncertainty harmonization, and holdouts for the other candidates remain open."
+      "gap": "The food-insecurity candidate has a descriptive Urban 2019\u20132023 to 2024\u20132025 holdout and non-pooled USDA challenge, and the IBIS adult-day-care lane now has a dated 2022-to-2025 CDC outcome comparison; causal validation, uncertainty harmonization, independent outcomes, and holdouts for the other candidates remain open."
     },
     {
       "id": "decision_ready_frontend",
