@@ -550,7 +550,7 @@
       const refreshCards = el('refresh-status'); refreshStatus.families.forEach(family => refreshCards.append(refreshStatusCard(family)));
       fetch('refresh-history.json').then(r => r.json()).then(history => {
         const latest = history.latest;
-        refreshCards.prepend(card(`${history.run_count} recorded refresh runs`, latest.release_status, `Latest ${latest.run_id} · ${latest.record_count.toLocaleString()} records · ${latest.blocker_count} blockers · source ${latest.source_tree_revision.slice(0, 12)}`));
+        refreshCards.prepend(card(`${history.run_count} recorded refresh runs`, latest.release_status, `Latest ${latest.run_id} · ${latest.record_count.toLocaleString()} records · ${latest.pipeline_step_count || '—'} pipeline steps ${latest.pipeline_status || 'unreported'} · ${latest.blocker_count} open gates · source ${latest.source_tree_revision.slice(0, 12)}`));
       });
       const lineageWarnings = el('lineage-warnings');
       Object.entries(lineageReview.cross_observation_url_overlap).forEach(([url, observationIds]) => lineageWarnings.append(lineageWarningCard(url, observationIds)));
