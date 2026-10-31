@@ -18,6 +18,10 @@ The first cross-source comparison is in
 [`CROSS-SOURCE-CANDIDATES.md`](CROSS-SOURCE-CANDIDATES.md). These are
 qualified candidates, not yet company findings or forecasts.
 
+The first URL and publisher-lineage review is in
+[`SOURCE-LINEAGE-AUDIT.md`](SOURCE-LINEAGE-AUDIT.md). Host and URL counts are
+coverage measures, not independent-confirmation scores.
+
 The later internal-data step is documented in
 [`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
 not change the meaning or status of external evidence.

@@ -76,6 +76,9 @@ def main() -> int:
     assert internal_catalog["status"] == "inventory_only"
     assert len(internal_catalog["sources"]) >= 8
     assert all("authority" in source and "readiness" in source for source in internal_catalog["sources"])
+    lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
+    assert "independence_status: unverified" in lineage
+    assert "dependent_restatement" in lineage
     print(
         "valid external trend intelligence:",
         manifest["record_count"],
