@@ -28,6 +28,7 @@ STEPS = [
     ["scripts/build_case_stage_panel.py"],
     ["scripts/build_cross_publisher_stage_panel.py"],
     ["scripts/build_cross_publisher_stage_comparison.py"],
+    ["scripts/build_temporal_holdout_design.py"],
     ["scripts/build_bounded_subset_lineage.py"],
     ["scripts/build_independent_stage_comparison.py"],
     ["scripts/build_release_health.py"],

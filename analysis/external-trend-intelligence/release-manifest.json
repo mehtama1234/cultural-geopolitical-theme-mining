@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "11a4c6e975ec62e13dec5c0ccbd6a19cfc3b465b",
-  "artifact_count": 47,
+  "source_tree_commit": "e0cd6682d2f34b846d2e1f9f2483c40e74386d72",
+  "artifact_count": 48,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -78,6 +78,11 @@
       "path": "analysis/external-trend-intelligence/cross-publisher-stage-comparison.json",
       "bytes": 2527,
       "sha256": "7b2662ae0ec01ed6bb6b99988770d2cd5794754a229df4e16ef99398ab8e7394"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/temporal-holdout-design.json",
+      "bytes": 2732,
+      "sha256": "2f985f89645c844daf2fed6b05b215db9666e6c516c22193c86a1267f926bc1c"
     },
     {
       "path": "analysis/external-trend-intelligence/release-health.json",

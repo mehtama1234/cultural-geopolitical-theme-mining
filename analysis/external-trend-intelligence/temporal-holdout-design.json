@@ -1,0 +1,62 @@
+{
+  "schema": "external-trend-intelligence.temporal-holdout-design.v1",
+  "candidate_id": "candidate-time-financial-pressure-practical-room",
+  "record_id": "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection",
+  "status": "design_ready_single_family_holdout",
+  "construction_period": "2020",
+  "holdout_period": "2025",
+  "geography": "Australia",
+  "source_family": "Australian Bureau of Statistics General Social Survey",
+  "measures": [
+    {
+      "measure": "cash_flow_problem",
+      "construction_period": "2020",
+      "holdout_period": "2025",
+      "construction_value": 20.7,
+      "holdout_value": 25.3,
+      "unit": "percent of households reporting at least one cash-flow problem in the previous 12 months",
+      "change": null,
+      "status": "same_instrument_repeated_cross_section"
+    },
+    {
+      "measure": "dissaving",
+      "construction_period": "2020",
+      "holdout_period": "2025",
+      "construction_value": 22.9,
+      "holdout_value": 25.7,
+      "unit": "percent of households reporting at least one dissaving action in the previous 12 months",
+      "change": null,
+      "status": "same_instrument_repeated_cross_section"
+    },
+    {
+      "measure": "outside_household_weekly_contact",
+      "construction_period": "2020",
+      "holdout_period": "2025",
+      "construction_value": 41.3,
+      "holdout_value": 52.2,
+      "unit": "percent of adults with weekly face-to-face contact with family or friends outside the household in the previous three months",
+      "change": null,
+      "status": "same_instrument_repeated_cross_section"
+    }
+  ],
+  "supports": [
+    "pre-specified temporal holdout",
+    "same-instrument direction check",
+    "counter-signal separation between financial stress and social contact"
+  ],
+  "does_not_support": [
+    "independent-source confirmation",
+    "individual longitudinal change",
+    "causal effect",
+    "company exposure",
+    "pooled denominator across measures"
+  ],
+  "method_cautions": [
+    "2020 and 2025 are repeated cross-sections, not a panel",
+    "financial-stress measures use households while social-contact measures use adults",
+    "ABS warns that questionnaire wording and methodology changes require care in cycle comparisons",
+    "the holdout is one source family and cannot satisfy the independence gate"
+  ],
+  "next_action": "Compare the 2020-to-2025 direction against an independent source with a compatible population and period; retain the ABS result as a temporal check, not a qualified trend.",
+  "boundary": "This artifact registers a reproducible holdout design. It is not a statistical backtest result or evidence that financial pressure caused participation change."
+}

@@ -147,6 +147,11 @@
       <div class="promotion-gates" id="independent-comparison"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Temporal holdout design</h2>
+      <p class="muted">A same-instrument 2020-to-2025 check is registered as a holdout design, not a qualified trend.</p>
+      <div class="promotion-gates" id="temporal-holdout"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>External source families and refresh cadence</h2>
       <p class="muted">These families feed discovery. The cadence is a maintenance trigger, not proof that sources are independent or continuously available.</p>
       <div class="source-families" id="source-families"></div>
@@ -422,6 +427,9 @@
       crossPublisherStage.cases.forEach(item => crossStageCards.append(caseStageCard(item)));
       fetch('cross-publisher-stage-comparison.json').then(r => r.json()).then(summary => {
         crossStageCards.prepend(card(`${summary.case_count} case stages · descriptive only`, summary.status, summary.blocking_items.join(' · ')));
+      });
+      fetch('temporal-holdout-design.json').then(r => r.json()).then(holdout => {
+        el('temporal-holdout').append(card(`${holdout.construction_period} → ${holdout.holdout_period} · ${holdout.measures.length} measures`, holdout.status, holdout.method_cautions.join(' · ')));
       });
       el('bounded-lineage').append(boundedLineageCard(boundedLineage));
       const rightsCards = el('rights-queue'); rightsQueue.rows.forEach(row => rightsCards.append(rightsCard(row)));
