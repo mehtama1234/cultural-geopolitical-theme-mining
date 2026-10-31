@@ -1,0 +1,57 @@
+{
+  "schema": "external-trend-intelligence.trend-qualification-rubric.v1",
+  "purpose": "A repeatable gate for moving an external pattern from candidate to qualified and monitored trend.",
+  "states": ["candidate", "held", "qualified", "monitored", "reversed"],
+  "rules": [
+    {
+      "id": "source_identity",
+      "question": "Can every material claim be traced to an identified artifact, publisher, URL or stable locator, and revision?",
+      "required_for": ["qualified", "monitored"],
+      "failure_action": "hold"
+    },
+    {
+      "id": "comparability",
+      "question": "Are unit, denominator, population, geography, and observation period compatible or explicitly bounded?",
+      "required_for": ["qualified", "monitored"],
+      "failure_action": "hold"
+    },
+    {
+      "id": "independence",
+      "question": "Has shared publisher, shared dataset, repeated URL, and restatement dependence been reviewed?",
+      "required_for": ["qualified", "monitored"],
+      "failure_action": "hold"
+    },
+    {
+      "id": "persistence",
+      "question": "Does the pattern recur across releases, periods, places, or source families rather than appearing once?",
+      "required_for": ["qualified", "monitored"],
+      "failure_action": "candidate"
+    },
+    {
+      "id": "counter_signal",
+      "question": "Is a plausible counter-signal or subgroup exception recorded?",
+      "required_for": ["qualified", "monitored"],
+      "failure_action": "hold"
+    },
+    {
+      "id": "falsifier",
+      "question": "Is there a concrete observation that would weaken, reverse, or disconfirm the trend?",
+      "required_for": ["qualified", "monitored"],
+      "failure_action": "hold"
+    },
+    {
+      "id": "backtest",
+      "question": "Has the candidate been checked against a later release or held-out period where one exists?",
+      "required_for": ["monitored"],
+      "failure_action": "qualified"
+    },
+    {
+      "id": "decision_relevance",
+      "question": "Is the proposed company decision, exposure, or scenario explicit without claiming causality?",
+      "required_for": ["monitored"],
+      "failure_action": "qualified"
+    }
+  ],
+  "promotion_rule": "Promote only when every criterion required for the target state has evidence recorded; otherwise retain the lower state and name the next decisive test.",
+  "boundary": "A qualified external trend is not a causal claim, forecast, or internal company finding. An internal bridge requires a separate bridge contract."
+}

@@ -297,13 +297,21 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 25
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 27
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
         path = ROOT / artifact["path"]
         assert path.exists(), artifact["path"]
         assert artifact["bytes"] == path.stat().st_size
+    refresh_status = json.loads((ANALYSIS / "refresh-status.json").read_text())
+    assert refresh_status["schema"] == "external-trend-intelligence.refresh-status.v1"
+    assert refresh_status["family_count"] == 8
+    assert refresh_status["ready_for_review_count"] == 8
+    rubric = json.loads((ANALYSIS / "trend-qualification-rubric.json").read_text())
+    assert rubric["schema"] == "external-trend-intelligence.trend-qualification-rubric.v1"
+    assert len(rubric["rules"]) == 8
+    assert "qualified" in rubric["states"] and "reversed" in rubric["states"]
     care_subset = json.loads((ANALYSIS / "care-capacity-comparable-subset.json").read_text())
     assert care_subset["schema"] == "external-trend-intelligence.care-capacity-comparable-subset.v1"
     assert care_subset["candidate_id"] == care_candidate["candidate_id"]

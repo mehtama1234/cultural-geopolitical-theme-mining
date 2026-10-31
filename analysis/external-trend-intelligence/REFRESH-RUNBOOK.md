@@ -8,6 +8,15 @@ separate stages.
 cadence and trigger register for the eight source families. Use it to decide
 when to rerun a family-specific refresh; every refresh still follows the full
 pin, normalize, lineage, challenge, promotion, and validation sequence below.
+The operational status report can be rebuilt with:
+
+```text
+python3 scripts/build_external_refresh_status.py
+```
+
+`refresh-status.json` reports whether scheduled artifacts exist and their file
+age. It is a control-plane check, not proof that a source is current or
+independent.
 
 ## 1. Pin the external inputs
 
@@ -72,6 +81,10 @@ confirmation.
 Use [`promotion-queue.json`](promotion-queue.json) as the single gate register;
 do not create an internal bridge from a candidate that is not marked
 `internal_bridge_ready`.
+
+Apply the machine-readable [`trend-qualification-rubric.json`](trend-qualification-rubric.json)
+to every candidate. Record evidence for each gate; do not infer a pass from a
+candidate title or a high source count.
 
 ## 4. Promote cautiously
 

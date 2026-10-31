@@ -21,6 +21,8 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
     "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
     "analysis/external-trend-intelligence/refresh-schedule.json",
+    "analysis/external-trend-intelligence/refresh-status.json",
+    "analysis/external-trend-intelligence/trend-qualification-rubric.json",
     "analysis/external-trend-intelligence/source-family-registry.json",
     "analysis/external-trend-intelligence/observation-manifest.json",
     "analysis/external-trend-intelligence/source-registry-snapshot.json",
