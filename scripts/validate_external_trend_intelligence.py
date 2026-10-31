@@ -390,6 +390,7 @@ def main() -> int:
     assert release_health["sections"]["rights_and_publisher_dependence"]["rights_unverified"] == 8
     assert release_health["sections"]["rights_and_publisher_dependence"]["local_evidence_families"] >= 1
     assert release_health["sections"]["temporal_holdout"]["status"] == "design_readout_only"
+    assert release_health["sections"]["independent_source_comparison"]["directional_agreement_status"] == "directional_agreement_mechanism_only"
     assert release_health["sections"]["independent_source_comparison"]["comparison_status"] == "mechanism_comparison_only"
     bounded_lineage = json.loads((ANALYSIS / "bounded-subset-lineage-review.json").read_text())
     assert bounded_lineage["schema"] == "external-trend-intelligence.bounded-subset-lineage-review.v1"

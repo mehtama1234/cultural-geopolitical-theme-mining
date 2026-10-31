@@ -53,6 +53,7 @@ def main() -> int:
             "status": "hold" if independent["status"] != "qualified_comparison" else "pass",
             "comparison_status": independent["status"],
             "additional_mechanism_comparisons": 1 if room_comparison["status"] == "mechanism_comparison_only" else 0,
+            "directional_agreement_status": "directional_agreement_mechanism_only" if room_comparison.get("status") == "mechanism_comparison_only" else room_comparison.get("status"),
         },
         "temporal_holdout": {
             "status": "design_readout_only",

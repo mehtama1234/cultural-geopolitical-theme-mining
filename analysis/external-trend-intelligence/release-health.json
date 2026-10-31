@@ -29,7 +29,8 @@
       ],
       "status": "hold",
       "comparison_status": "mechanism_comparison_only",
-      "additional_mechanism_comparisons": 1
+      "additional_mechanism_comparisons": 1,
+      "directional_agreement_status": "directional_agreement_mechanism_only"
     },
     "temporal_holdout": {
       "status": "design_readout_only",
