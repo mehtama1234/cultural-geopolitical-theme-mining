@@ -1,0 +1,787 @@
+{
+  "schema": "external-trend-intelligence.trend-hunting-source-map.v1",
+  "source_family": "trend-hunting",
+  "source_revision": "19d8b2443f26f52da2331736320dcb265a9de34f",
+  "source_path": "data/processed/ai_v7_deep_trend_synthesis_v1.json",
+  "synthesis_status": "bounded_synthesis_outcome_link_open",
+  "input_artifact_count": 16,
+  "input_summary": [
+    {
+      "path": "data/processed/signal_to_outcome_funnel_v1.json",
+      "url_count": 0,
+      "sha256": "44f782a0805591444cdfe334e1e4c79744c998418e60002aae1a93c986e6d24c"
+    },
+    {
+      "path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "url_count": 7,
+      "sha256": "8d77b37fe068d73935c457b1456755622fa73f69806405dc807229ed5f9a221d"
+    },
+    {
+      "path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "url_count": 5,
+      "sha256": "e63eafacc60d9a1e55d4d1c4ad2b535650139166094f769bc1650e3ba2d27e32"
+    },
+    {
+      "path": "data/processed/ai_v7_recourse_maturity_matrix_v1.json",
+      "url_count": 0,
+      "sha256": "f04e483ec69dda2c60f1951ebd933f06baf931abf6a113ca80c9118a30d8a779"
+    },
+    {
+      "path": "data/processed/ai_v7_acquisition_ledger_v1.json",
+      "url_count": 0,
+      "sha256": "a67daf45214789a7aca34726013903a426e2c62e9ce3c23363a4d1c7323b7f81"
+    },
+    {
+      "path": "data/processed/ai_v7_completed_redress_comparator_v1.json",
+      "url_count": 3,
+      "sha256": "a65ece1028a47180ff416bd4caacefa0740a38beafa5afdb9ec1d40b5c680407"
+    },
+    {
+      "path": "data/processed/ai_v7_amazon_flex_tip_redress_comparator_v1.json",
+      "url_count": 3,
+      "sha256": "8bd6f0af8b5937acc987c443f11d345c510a9fce5fb85ba030a2462bb490e0b3"
+    },
+    {
+      "path": "data/processed/ai_v7_worker_outcome_comparator_v1.json",
+      "url_count": 5,
+      "sha256": "da6b3120d6a0039e405741c6de91ceae9aaf8cb1354873386c87c548d3dafe8c"
+    },
+    {
+      "path": "data/processed/ai_v7_worker_counterexample_comparator_v1.json",
+      "url_count": 1,
+      "sha256": "3311dbb39ec8920f3ca22cb0e2c0cf220aa365a4b7d34965c93fb6731504a855"
+    },
+    {
+      "path": "data/processed/ai_v7_hotak_outcome_comparator_v1.json",
+      "url_count": 1,
+      "sha256": "3d716732d65360b4156471359a1f903099cc8e4e7d61e3bada3794a93d9a51a5"
+    },
+    {
+      "path": "data/processed/ai_v7_ayyub_comparator_v1.json",
+      "url_count": 2,
+      "sha256": "5ac53f83e569c5547252798656debc90bc755eb914d41f967658af9a421ae366"
+    },
+    {
+      "path": "data/processed/ai_v7_observed_remedy_endpoint_register_v1.json",
+      "url_count": 0,
+      "sha256": "2d163ca018a9ed662ec955aa0c4dbd36abc111e59521230193a3f700a16d1178"
+    },
+    {
+      "path": "data/processed/ai_v7_ibm_deployment_outcome_comparator_v1.json",
+      "url_count": 5,
+      "sha256": "3b0d0415b8cf9309c818aef657558a9deb3058f8683469653c350028c05af7e0"
+    },
+    {
+      "path": "data/processed/ftc_rytr_post_reversal_surface_v1.json",
+      "url_count": 1,
+      "sha256": "5e4a72bd7d37bd028ecd8b0cf200d35bb6aa3d77632e387a92a0555e5d249843"
+    },
+    {
+      "path": "data/processed/ai_v7_cmg_implementation_refresh_20260917.json",
+      "url_count": 4,
+      "sha256": "08a38f597ce6b9f9d2de2d6f5d0d20bc53988faae6781327812de54449e42d28"
+    },
+    {
+      "path": "data/processed/ai_v7_workado_implementation_refresh_20260917.json",
+      "url_count": 3,
+      "sha256": "542a31d9d53c722db6a92eb43d2e854166cce795c05818c7d0fd9e712a37dc41"
+    }
+  ],
+  "claim_count": 6,
+  "mapped_row_count": 52,
+  "unique_url_count": 33,
+  "publisher_host_count": 9,
+  "claim_state_counts": {
+    "bounded_inference": 1,
+    "observed": 1,
+    "observed_comparison": 1,
+    "observed_public_evidence_boundary": 1,
+    "observed_qualitative_case_outcome": 1,
+    "signal_inventory": 1
+  },
+  "rows": [
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "signal_to_authority"
+      ],
+      "claim_state": "observed",
+      "claim": "In the 2024–2026 records reviewed, AI-related disputes are translated into formal controls, restrictions, deadlines, and redress authority.",
+      "claim_limit": "Formal authority does not establish exposure, use, compliance, or benefit.",
+      "url": "https://rytr.me/reviews",
+      "publisher_host": "rytr.me",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "signal_to_authority"
+      ],
+      "claim_state": "observed",
+      "claim": "In the 2024–2026 records reviewed, AI-related disputes are translated into formal controls, restrictions, deadlines, and redress authority.",
+      "claim_limit": "Formal authority does not establish exposure, use, compliance, or benefit.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2323092-content-scale-ai",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "signal_to_authority"
+      ],
+      "claim_state": "observed",
+      "claim": "In the 2024–2026 records reviewed, AI-related disputes are translated into formal controls, restrictions, deadlines, and redress authority.",
+      "claim_limit": "Formal authority does not establish exposure, use, compliance, or benefit.",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-reopens-sets-aside-rytr-final-order-response-trump-administrations-ai-action-plan",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "signal_to_authority"
+      ],
+      "claim_state": "observed",
+      "claim": "In the 2024–2026 records reviewed, AI-related disputes are translated into formal controls, restrictions, deadlines, and redress authority.",
+      "claim_limit": "Formal authority does not establish exposure, use, compliance, or benefit.",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "signal_to_authority"
+      ],
+      "claim_state": "observed",
+      "claim": "In the 2024–2026 records reviewed, AI-related disputes are translated into formal controls, restrictions, deadlines, and redress authority.",
+      "claim_limit": "Formal authority does not establish exposure, use, compliance, or benefit.",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/CMGDecisionandOrderwithoutsignatures.pdf",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "signal_to_authority"
+      ],
+      "claim_state": "observed",
+      "claim": "In the 2024–2026 records reviewed, AI-related disputes are translated into formal controls, restrictions, deadlines, and redress authority.",
+      "claim_limit": "Formal authority does not establish exposure, use, compliance, or benefit.",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ContentatScaleAI-DecisionandOrder.pdf",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "signal_to_authority"
+      ],
+      "claim_state": "observed",
+      "claim": "In the 2024–2026 records reviewed, AI-related disputes are translated into formal controls, restrictions, deadlines, and redress authority.",
+      "claim_limit": "Formal authority does not establish exposure, use, compliance, or benefit.",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Rytr-Order.pdf",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://rytr.me/reviews",
+      "publisher_host": "rytr.me",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2323092-content-scale-ai",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-reopens-sets-aside-rytr-final-order-response-trump-administrations-ai-action-plan",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/CMGDecisionandOrderwithoutsignatures.pdf",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ContentatScaleAI-DecisionandOrder.pdf",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ftc_remedy_register_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Rytr-Order.pdf",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/enforcement/refunds",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/232-3052-rytr-llc-matter",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2323092-content-scale-ai",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/242-3029-cmg-media-corporation-matter",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/case-document-search?field_document_description=settlement&page=0",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "claim_ids": [
+        "control_burden_redistribution"
+      ],
+      "claim_state": "bounded_inference",
+      "claim": "Where implementation is opaque, the burden of proving exposure, access, correction, and remedy shifts toward affected people and outside investigators.",
+      "claim_limit": "The current records do not estimate the burden's size, distribution by subgroup, or welfare effect.",
+      "url": "https://www.ftc.gov/enforcement/refunds",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "claim_ids": [
+        "control_burden_redistribution"
+      ],
+      "claim_state": "bounded_inference",
+      "claim": "Where implementation is opaque, the burden of proving exposure, access, correction, and remedy shifts toward affected people and outside investigators.",
+      "claim_limit": "The current records do not estimate the burden's size, distribution by subgroup, or welfare effect.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/232-3052-rytr-llc-matter",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "claim_ids": [
+        "control_burden_redistribution"
+      ],
+      "claim_state": "bounded_inference",
+      "claim": "Where implementation is opaque, the burden of proving exposure, access, correction, and remedy shifts toward affected people and outside investigators.",
+      "claim_limit": "The current records do not estimate the burden's size, distribution by subgroup, or welfare effect.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2323092-content-scale-ai",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "claim_ids": [
+        "control_burden_redistribution"
+      ],
+      "claim_state": "bounded_inference",
+      "claim": "Where implementation is opaque, the burden of proving exposure, access, correction, and remedy shifts toward affected people and outside investigators.",
+      "claim_limit": "The current records do not estimate the burden's size, distribution by subgroup, or welfare effect.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/242-3029-cmg-media-corporation-matter",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_implementation_search_audit_v1.json",
+      "claim_ids": [
+        "control_burden_redistribution"
+      ],
+      "claim_state": "bounded_inference",
+      "claim": "Where implementation is opaque, the burden of proving exposure, access, correction, and remedy shifts toward affected people and outside investigators.",
+      "claim_limit": "The current records do not estimate the burden's size, distribution by subgroup, or welfare effect.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/case-document-search?field_document_description=settlement&page=0",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_completed_redress_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.ftc.gov/enforcement/refunds/avast-settlement",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_completed_redress_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2023033-avast",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_completed_redress_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-sends-payments-consumers-impacted-avasts-deceptive-privacy-claims",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_amazon_flex_tip_redress_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://search.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf",
+      "publisher_host": "search.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_amazon_flex_tip_redress_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.ftc.gov/enforcement/refunds/refunds-amazon-flex-drivers",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_amazon_flex_tip_redress_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2021/11/ftc-returns-nearly-60-million-drivers-whose-tips-were-illegally-withheld-amazon",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_worker_outcome_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://dms-uat.fwc.gov.au/document-view/secure/804210/1773029497.827765041ea9e869",
+      "publisher_host": "dms-uat.fwc.gov.au",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_worker_outcome_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://dms-uat.fwc.gov.au/document-view/secure/804211/1773028956.bf5ccb4e7690b0cd",
+      "publisher_host": "dms-uat.fwc.gov.au",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_worker_outcome_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.abc.net.au/news/2025-12-18/amazon-sydney-worker-unlawful-dismissal/106154060",
+      "publisher_host": "www.abc.net.au",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_worker_outcome_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-12-31.htm",
+      "publisher_host": "www.fwc.gov.au",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_worker_outcome_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3842.pdf",
+      "publisher_host": "www.fwc.gov.au",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_worker_counterexample_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2275.pdf",
+      "publisher_host": "www.fwc.gov.au",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_hotak_outcome_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf",
+      "publisher_host": "www.fwc.gov.au",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ayyub_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwcfb135.pdf",
+      "publisher_host": "www.fwc.gov.au",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ayyub_comparator_v1.json",
+      "claim_ids": [
+        "counterexample"
+      ],
+      "claim_state": "observed_comparison",
+      "claim": "Recourse is not binary: public evidence includes payment endpoints, an adjudicated restoration order, and a compliant-review dismissal.",
+      "claim_limit": "These comparators are not pooled rates and do not prove durable welfare or recurrence prevention.",
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwcfb81.pdf",
+      "publisher_host": "www.fwc.gov.au",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ibm_deployment_outcome_comparator_v1.json",
+      "claim_ids": [
+        "worker_deployment_outcome_boundary"
+      ],
+      "claim_state": "observed_qualitative_case_outcome",
+      "claim": "A named AI deployment can be paired with a reported employee-inclusion and qualification response, but the worker outcome remains qualitative and unmeasured.",
+      "claim_limit": "The IBM-authored account reports no affected-worker denominator, comparison group, program completion, independent corroboration, or pay/time/wellbeing outcome.",
+      "url": "https://web.arbeitsagentur.de/cms-zentrales-portal-prod-media/prod/s3fs-public/2026-04/Geschaeftsbericht_2025_Bundesagentur_fuer_Arbeit.pdf",
+      "publisher_host": "web.arbeitsagentur.de",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ibm_deployment_outcome_comparator_v1.json",
+      "claim_ids": [
+        "worker_deployment_outcome_boundary"
+      ],
+      "claim_state": "observed_qualitative_case_outcome",
+      "claim": "A named AI deployment can be paired with a reported employee-inclusion and qualification response, but the worker outcome remains qualitative and unmeasured.",
+      "claim_limit": "The IBM-authored account reports no affected-worker denominator, comparison group, program completion, independent corroboration, or pay/time/wellbeing outcome.",
+      "url": "https://www.arbeitsagentur.de/datei/geschaeftsbericht-2022_ba043736.pdf",
+      "publisher_host": "www.arbeitsagentur.de",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ibm_deployment_outcome_comparator_v1.json",
+      "claim_ids": [
+        "worker_deployment_outcome_boundary"
+      ],
+      "claim_state": "observed_qualitative_case_outcome",
+      "claim": "A named AI deployment can be paired with a reported employee-inclusion and qualification response, but the worker outcome remains qualitative and unmeasured.",
+      "claim_limit": "The IBM-authored account reports no affected-worker denominator, comparison group, program completion, independent corroboration, or pay/time/wellbeing outcome.",
+      "url": "https://www.arbeitsagentur.de/presse/2025-42-human-friendly-automation-day-hfa-eine-allianz-fuer-die-zukunft-der-beschaeftigten-in-der-ki-aera",
+      "publisher_host": "www.arbeitsagentur.de",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ibm_deployment_outcome_comparator_v1.json",
+      "claim_ids": [
+        "worker_deployment_outcome_boundary"
+      ],
+      "claim_state": "observed_qualitative_case_outcome",
+      "claim": "A named AI deployment can be paired with a reported employee-inclusion and qualification response, but the worker outcome remains qualitative and unmeasured.",
+      "claim_limit": "The IBM-authored account reports no affected-worker denominator, comparison group, program completion, independent corroboration, or pay/time/wellbeing outcome.",
+      "url": "https://www.arbeitsagentur.de/vor-ort/it-systemhaus/themen/automatisierung",
+      "publisher_host": "www.arbeitsagentur.de",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_ibm_deployment_outcome_comparator_v1.json",
+      "claim_ids": [
+        "worker_deployment_outcome_boundary"
+      ],
+      "claim_state": "observed_qualitative_case_outcome",
+      "claim": "A named AI deployment can be paired with a reported employee-inclusion and qualification response, but the worker outcome remains qualitative and unmeasured.",
+      "claim_limit": "The IBM-authored account reports no affected-worker denominator, comparison group, program completion, independent corroboration, or pay/time/wellbeing outcome.",
+      "url": "https://www.ibm.com/downloads/documents/de-de/10c31775c0d40a7b",
+      "publisher_host": "www.ibm.com",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ftc_rytr_post_reversal_surface_v1.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://rytr.me/reviews",
+      "publisher_host": "rytr.me",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_cmg_implementation_refresh_20260917.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/enforcement/refunds",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_cmg_implementation_refresh_20260917.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/242-3029-cmg-media-corporation-matter",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_cmg_implementation_refresh_20260917.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/case-document-search?field_document_description=settlement&page=0",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_cmg_implementation_refresh_20260917.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2423029c4838cmgfinalorder.pdf",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_workado_implementation_refresh_20260917.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2323092-content-scale-ai",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_workado_implementation_refresh_20260917.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/case-document-search?page=0",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    },
+    {
+      "input_path": "data/processed/ai_v7_workado_implementation_refresh_20260917.json",
+      "claim_ids": [
+        "authority_to_recourse_gap"
+      ],
+      "claim_state": "observed_public_evidence_boundary",
+      "claim": "The public record becomes materially thinner at the transition from formal control to usable individual recourse.",
+      "claim_limit": "Not locating a record is not proof that the process did not occur.",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ContentatScaleAI-DecisionandOrder.pdf",
+      "publisher_host": "www.ftc.gov",
+      "lineage_status": "claim_input_linked",
+      "independence_status": "not_reviewed"
+    }
+  ],
+  "falsifiers": [
+    "Complete implementation records show that the apparent public gap is only a publication artifact and that affected people consistently received and used recourse.",
+    "Compatible case-level outcome records show no meaningful relationship between formal control and access, correction, payment, or changed outcome.",
+    "A documented subgroup comparison shows the burden or benefit is distributed differently from the bounded interpretation."
+  ],
+  "next_test": "Obtain and code the first missing implementation record in each core case, beginning with Workado notice delivery, CMG payment/fund execution, the 2026 Amazon Flex Zelle distribution, and Rytr post-reversal exposure or conduct; retain separate denominators and outcome units.",
+  "boundary": "This map connects a bounded Trend-hunting synthesis to its pinned input artifacts and any URLs found inside them. Synthesis remains interpretation and signal inventory; it does not establish prevalence, causality, adoption, or outcomes, and shared publishers require independence review."
+}

@@ -93,6 +93,9 @@ def main() -> int:
     inc5000_opportunity_source_map = json.loads(
         (ROOT / "analysis" / "external-trend-intelligence" / "inc5000-opportunity-source-map.json").read_text()
     )
+    trend_hunting_source_map = json.loads(
+        (ROOT / "analysis" / "external-trend-intelligence" / "trend-hunting-source-map.json").read_text()
+    )
     ibis_findings_path = "cross_industry_findings_register.json"
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
     ibis_pattern_inventory_path = "cross_industry_pattern_inventory.json"
@@ -353,6 +356,11 @@ def main() -> int:
                 input_checksum_count=len(trend_report.get("input_checksums", {})),
                 artifact_inputs=trend_report.get("inputs", []),
                 source_input_paths=trend_report.get("inputs", []),
+                source_map_path="trend-hunting-source-map.json",
+                source_map_input_count=trend_hunting_source_map["input_artifact_count"],
+                source_map_mapped_row_count=trend_hunting_source_map["mapped_row_count"],
+                source_map_unique_url_count=trend_hunting_source_map["unique_url_count"],
+                source_map_publisher_host_count=trend_hunting_source_map["publisher_host_count"],
                 source_urls=sorted(trend_input_urls),
                 source_url_status="present_in_artifact",
                 source_url_count=len(trend_input_urls),
