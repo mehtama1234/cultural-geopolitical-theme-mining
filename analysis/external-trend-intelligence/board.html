@@ -66,6 +66,7 @@
       <div class="stat"><strong id="family-observation-count">—</strong><span>new family observations</span></div>
       <div class="stat"><strong id="held-candidate-count">—</strong><span>held candidates</span></div>
       <div class="stat"><strong id="high-gap-count">—</strong><span>high-priority evidence gaps</span></div>
+      <div class="stat"><strong id="release-health-status">—</strong><span>release health</span></div>
       <div class="stat"><strong id="refresh-ready-count">—</strong><span>families ready for review</span></div>
       <div class="stat"><strong id="refresh-incomplete-count">—</strong><span>incomplete refreshes</span></div>
       <div class="stat"><strong id="contract-gap-count">—</strong><span>evidence contract gaps</span></div>
@@ -325,12 +326,13 @@
       fetch('backtest-readiness.json').then(r => r.json()),
       fetch('backtest-comparability-review.json').then(r => r.json()),
       fetch('case-stage-panel.json').then(r => r.json()),
+      fetch('release-health.json').then(r => r.json()),
       fetch('refresh-schedule.json').then(r => r.json()),
       fetch('refresh-status.json').then(r => r.json()),
       fetch('external-family-lineage-review.json').then(r => r.json()),
       fetch('external-evidence-gap-queue.json').then(r => r.json()),
       fetch('ibis-finding-claim-sample.json').then(r => r.json()),
-    ]).then(([manifest, comparison, qualificationMatrix, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, pilotRegister, monitoringRegister, sourceControls, backtestReadiness, comparabilityReview, stagePanel, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
+    ]).then(([manifest, comparison, qualificationMatrix, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, pilotRegister, monitoringRegister, sourceControls, backtestReadiness, comparabilityReview, stagePanel, releaseHealth, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -341,6 +343,7 @@
       el('family-observation-count').textContent = familyObservations.observation_count;
       el('held-candidate-count').textContent = heldCandidates.candidates.length;
       el('high-gap-count').textContent = gapQueue.high_priority_count;
+      el('release-health-status').textContent = releaseHealth.release_status.replaceAll('_', ' ');
       el('refresh-ready-count').textContent = refreshStatus.ready_for_review_count;
       el('refresh-incomplete-count').textContent = refreshStatus.incomplete_count;
       el('contract-gap-count').textContent = contractAudit.contract_gap_count;

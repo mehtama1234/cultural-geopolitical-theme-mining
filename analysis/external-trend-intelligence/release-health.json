@@ -1,0 +1,44 @@
+{
+  "schema": "external-trend-intelligence.release-health.v1",
+  "release_status": "operational_with_open_gates",
+  "sections": {
+    "source_refresh": {
+      "families": 8,
+      "ready_for_review": 8,
+      "incomplete": 0,
+      "status": "pass"
+    },
+    "evidence_contract": {
+      "observations": 10,
+      "gaps": 0,
+      "status": "pass"
+    },
+    "trend_qualification": {
+      "candidates": 4,
+      "qualified": 0,
+      "held": 4,
+      "status": "hold"
+    },
+    "backtest": {
+      "records_available_for_review": 4,
+      "comparable_subsets": 0,
+      "harmonization_required": 4,
+      "status": "hold"
+    },
+    "monitoring": {
+      "registered": 4,
+      "status": "pass"
+    },
+    "company_pilots": {
+      "registered": 1,
+      "approved_tests": 0,
+      "status": "hold"
+    }
+  },
+  "blockers": [
+    "external candidates remain held",
+    "backtest units, periods, populations, or geographies require harmonization",
+    "no company pilot is approved; external qualification gate is not passed"
+  ],
+  "boundary": "This is a release-control summary, not evidence that any trend is causal, forecast-valid, rights-cleared, independent, or company-relevant."
+}
