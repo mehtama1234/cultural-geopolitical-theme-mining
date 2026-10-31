@@ -33,9 +33,10 @@
         "independent-stage-comparison.json",
         "room-independent-comparison.json",
         "room-independent-result.json",
+        "us-financial-room-independent-comparison.json",
         "bounded-subset-lineage-review.json"
       ],
-      "gap": "Comparisons now show directional agreement but remain mechanism-only; no common unit and holdout have passed."
+      "gap": "Comparisons now include an independent U.S. SHED/USDA mechanism challenge but remain mechanism-only; no common unit and holdout have passed."
     },
     {
       "id": "trend_qualification",
@@ -53,9 +54,10 @@
         "backtest-readiness.json",
         "backtest-comparability-review.json",
         "temporal-holdout-design.json",
-        "temporal-holdout-result.json"
+        "temporal-holdout-result.json",
+        "shed-temporal-holdout.json"
       ],
-      "gap": "The temporal readout is single-family and descriptive; no independent compatible backtest is qualified."
+      "gap": "The temporal readouts are single-family and descriptive; the SHED/USDA comparison is not a compatible common-unit backtest."
     },
     {
       "id": "decision_ready_frontend",
