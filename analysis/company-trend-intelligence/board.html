@@ -66,6 +66,7 @@
       <div class="chart"><h2>Domain coverage</h2><div id="domain-chart"></div></div>
       <div class="chart"><h2>Confidence</h2><div id="confidence-chart"></div></div>
       <div class="chart"><h2>Time horizon</h2><div id="horizon-chart"></div></div>
+      <div class="chart"><h2>14-theme coverage</h2><div id="theme-chart"></div></div>
     </section>
     <section class="grid" id="cards" aria-live="polite"></section>
     <p class="empty" id="empty" hidden>No trends match these filters.</p>
@@ -82,6 +83,7 @@
     const domainChart = document.querySelector('#domain-chart');
     const confidenceChart = document.querySelector('#confidence-chart');
     const horizonChart = document.querySelector('#horizon-chart');
+    const themeChart = document.querySelector('#theme-chart');
 
     function option(value, label) {
       const el = document.createElement('option'); el.value = value; el.textContent = label; return el;
@@ -116,7 +118,7 @@
       });
     }
 
-    function renderOverview(records) {
+    function renderOverview(records, themeCoverage) {
       const domains = {}; const confidence = {}; const horizon = {};
       records.forEach(record => {
         record.domains.forEach(value => domains[value] = (domains[value] || 0) + 1);
@@ -126,6 +128,9 @@
       renderChart(domainChart, domains, records.length);
       renderChart(confidenceChart, confidence, records.length);
       renderChart(horizonChart, horizon, records.length);
+      const themes = {};
+      themeCoverage.forEach(item => themes[item.coverage] = (themes[item.coverage] || 0) + 1);
+      renderChart(themeChart, themes, themeCoverage.length);
     }
 
     fetch('portfolio.json').then(response => {
@@ -134,7 +139,7 @@
     }).then(portfolio => {
       const records = portfolio.records;
       document.querySelector('#updated').textContent = `Updated ${portfolio.updated} · ${records.length} qualified trend records`;
-      renderOverview(records);
+      renderOverview(records, portfolio.theme_coverage || []);
       [...new Set(records.flatMap(r => r.domains))].sort().forEach(value => domainSelect.append(option(value, value.replaceAll('_', ' '))));
       [...new Set(records.map(r => r.status))].sort().forEach(value => statusSelect.append(option(value, value.replaceAll('_', ' '))));
       [...new Set(records.map(r => r.confidence))].sort().forEach(value => confidenceSelect.append(option(value, value)));

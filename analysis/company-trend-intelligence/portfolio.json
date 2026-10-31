@@ -95,6 +95,22 @@
       "open_test": "Dated encounter ledger from condition through attribution, remedy, later action, and non-use"
     }
   ],
+  "theme_coverage": [
+    {"number": 1, "theme": "household room, prices, debt, and financial security", "coverage": "deep", "record_ids": ["company-trend-2026-006", "company-trend-2026-002"]},
+    {"number": 2, "theme": "time, care, family life, and social reproduction", "coverage": "lens", "record_ids": ["company-trend-2026-006"]},
+    {"number": 3, "theme": "consumer power, recourse, and service dependence", "coverage": "deep", "record_ids": ["company-trend-2026-002"]},
+    {"number": 4, "theme": "platforms, data, attention, and digital agency", "coverage": "lens", "record_ids": ["company-trend-2026-001", "company-trend-2026-002"]},
+    {"number": 5, "theme": "work, control, bargaining, and labour-market change", "coverage": "deep", "record_ids": ["company-trend-2026-001"]},
+    {"number": 6, "theme": "health, disability, aging, and unequal care access", "coverage": "open", "record_ids": []},
+    {"number": 7, "theme": "housing, place, mobility, and insurance", "coverage": "lens", "record_ids": ["company-trend-2026-005", "company-trend-2026-006"]},
+    {"number": 8, "theme": "unequal exposure, status, race, gender, age, and belonging", "coverage": "lens", "record_ids": ["company-trend-2026-004", "company-trend-2026-007"]},
+    {"number": 9, "theme": "trust, identity, cultural meaning, and changing norms", "coverage": "deep", "record_ids": ["company-trend-2026-004", "company-trend-2026-007"]},
+    {"number": 10, "theme": "public systems, administrative access, and policy feedback", "coverage": "lens", "record_ids": ["company-trend-2026-002", "company-trend-2026-005"]},
+    {"number": 11, "theme": "political judgment, civic participation, and collective action", "coverage": "lens", "record_ids": ["company-trend-2026-007", "company-trend-2026-003"]},
+    {"number": 12, "theme": "firm, market, ownership, and concentration power", "coverage": "lens", "record_ids": ["company-trend-2026-002", "company-trend-2026-005"]},
+    {"number": 13, "theme": "infrastructure, energy, technology, and dependency", "coverage": "deep", "record_ids": ["company-trend-2026-005", "company-trend-2026-003"]},
+    {"number": 14, "theme": "geopolitical and state consequences", "coverage": "deep", "record_ids": ["company-trend-2026-003", "company-trend-2026-005"]}
+  ],
   "portfolio_lens": [
     "control",
     "practical alternatives",

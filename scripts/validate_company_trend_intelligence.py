@@ -25,8 +25,15 @@ def main() -> int:
     required = set(schema["required"])
     statuses = set(schema["status_values"])
     records = portfolio["records"]
-    assert len(csv_rows) == len(records), "CSV and JSON record counts differ"
     ids = [record["trend_id"] for record in records]
+    theme_coverage = portfolio["theme_coverage"]
+    assert len(theme_coverage) == 14, "theme coverage must contain all 14 programme themes"
+    assert {item["number"] for item in theme_coverage} == set(range(1, 15)), "theme numbers must be 1..14"
+    assert {item["coverage"] for item in theme_coverage} <= {"deep", "lens", "open"}, "invalid theme coverage"
+    record_ids = set(ids)
+    for item in theme_coverage:
+        assert set(item["record_ids"]) <= record_ids, f"unknown trend in theme coverage: {item}"
+    assert len(csv_rows) == len(records), "CSV and JSON record counts differ"
     assert len(ids) == len(set(ids)), "duplicate trend_id"
     assert records, "portfolio has no records"
 
