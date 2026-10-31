@@ -386,6 +386,26 @@ sharing, dual-use review, manufacturing, cost, access, outcome, ecological
 effect, complaint and local control, with a public or lower-capability
 comparator.
 
+## Cultural diplomacy, reciprocity and local ownership — 2026-10-30
+
+The existing [cultural-diplomacy packet](ROTATION-DS-CULTURAL-DIPLOMACY-RECIPROCITY-LOCAL-OWNERSHIP-2026-10-29.md)
+adds a specifically geopolitical and cultural test. European Parliament,
+UNESCO, UN Peacebuilding, Council of Europe and British Council evidence
+distinguishes reciprocal cultural relations from state-led diplomacy, and closes
+useful middle stages such as local-partnership design, equal-status contact,
+continued relationships and participant-reported equity. It does not close
+agenda-setting power, fair budget and IP control, cultural-rights remedy,
+community-wide benefit, changed institutional decisions, reduced conflict or
+later geopolitical behavior.
+
+The key mechanism is reception and translation: a cultural signal can be
+adapted, appropriated, contested, refused or made locally useful. The next
+acquisition should follow one named exchange, corridor, institution, artist or
+community from funding and representation through local decision power,
+resource and rights terms, repeated interaction, conflict/repair, participant
+outcomes and later institutional or diplomatic behavior, with a high-reach or
+non-participating comparator.
+
 ## Strongest open conversion lanes
 
 1. **Facility-to-household incidence:** AI/data-centre, transmission, water,

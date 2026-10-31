@@ -162,3 +162,19 @@ The next acquisition is a named country/lab/community/product chain through
 provenance, design, ownership, biosafety/biosecurity, manufacturing,
 authorization, cost, access, outcome, ecological effect, complaint and benefit
 distribution, compared with a public or lower-capability pathway.
+
+## Cultural diplomacy, reciprocity and local ownership comparator
+
+Cultural diplomacy tests whether the portfolio can distinguish visibility from
+reciprocal power. Exchanges, festivals, language programmes, museums and
+culture-for-peace projects can create continued relationships and participant-
+reported equity while leaving agenda-setting, budget, intellectual-property,
+cultural-rights and institutional-response power unchanged. Reception is part
+of the mechanism: local actors may adapt, appropriate, contest, refuse or make
+the relationship useful.
+
+The next acquisition is a named exchange, corridor, institution, artist or
+community chain through funding, representation, local decision power,
+resource/rights terms, repeated interaction, contestation or remedy,
+participant outcome and later institutional or diplomatic behavior, with a
+high-reach or non-participating comparator.
