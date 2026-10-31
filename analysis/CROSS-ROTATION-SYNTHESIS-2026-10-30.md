@@ -1,7 +1,7 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 331 unique registered packet paths, 336 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 460, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, LV, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation, AI-gains-early-career-local-demand and portfolio-synthesis evidence integrated.
+**Inputs:** 332 unique registered packet paths, 337 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 461, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, LV, LW, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation, AI-gains-early-career-local-demand, aging-AI-adoption-care-labour and portfolio-synthesis evidence integrated.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
@@ -253,6 +253,22 @@ household consumption, housing pressure, service employment and local business
 outcomes, with a matched lower-exposure place and both gaining and excluded
 entrants.
 
+## Aging and AI adoption refresh — 2026-10-30
+
+The latest demographic-technology evidence separates two channels that are often
+collapsed: process adoption that may substitute for scarce labour, and product
+adoption that may serve labour-constrained customers. The IMF firm-level study
+finds an aging-to-adoption association across a large cross-country enterprise
+sample, but firm size, capital, sector and regional capability mediate the
+pathway. OECD and World Bank evidence reinforces that productivity opportunity
+and adoption depth do not establish better care, older-person agency or local
+service continuity.
+
+The next acquisition is a matched place-and-firm ledger that follows process and
+product adopters separately through skills, task redesign, staffing, care/service
+encounters, accessibility, caregiver time, wages, small-firm survival and local
+continuity, preserving non-adoption and human-preference comparators.
+
 ## Strongest open conversion lanes
 
 1. **Facility-to-household incidence:** AI/data-centre, transmission, water,
@@ -281,6 +297,9 @@ entrants.
 9. **AI-value-to-local-demand:** AI adoption and time savings need same-place
    evidence for early-career entry, worker control, household income,
    consumption, housing pressure, service employment and legitimacy.
+10. **Aging-pressure-to-care-capability:** demographic pressure and AI adoption
+   need separate process/product evidence for older-user access, caregiver time,
+   worker agency, small-firm inclusion and sustained local care capacity.
 
 ## Counterexamples the atlas must preserve
 

@@ -3902,6 +3902,7 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 458. **A cable fault, repair milestone or backup link is not local digital continuity.** A named submarine-cable failure, satellite fallback, international restoration, regional repair hub, redundancy plan or resilience investment can close a route, technical-restoration or governance stage while outer-island and household service, affordability, public-service continuity, licensing, local agency, data sovereignty and later redundancy remain unobserved.
 459. **Selective digital participation is not digital exit or restored agency.** Lower posting, ephemeral sharing, app deletion, safety-control uptake or reduced screen time can change exposure and visibility while a named person or cohort remains dependent on platforms for relationships, work, services, news or civic voice; protective effects, lost opportunity, substitution, coercion, wellbeing and durable re-entry or exit remain unobserved.
 460. **Measured AI value is not shared prosperity or local demand.** A productivity estimate, AI-skill premium, firm adoption rate or high-exposure employment change can close an aggregate or occupational stage while early-career entry, worker control, household income, local consumption, service employment, geographic distribution and social legitimacy remain unobserved.
+461. **Demographic pressure can explain AI adoption without proving care capacity or social benefit.** Aging, labour scarcity, firm constraints, automation, AI-product development, productivity opportunity or adoption depth can close a demographic-to-firm or process/product mechanism while a named older person, caregiver, worker, small firm or place's care quality, accessibility, affordability, agency, wellbeing, continuity and intergenerational distribution remain unobserved.
 
 ## What the evidence does not support
 
@@ -3921,7 +3922,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 460 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 461 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 
@@ -3941,7 +3942,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation LV.
+living goal. The current atlas baseline has been refreshed through Rotation LW.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
