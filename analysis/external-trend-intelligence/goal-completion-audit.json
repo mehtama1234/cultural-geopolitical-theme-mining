@@ -13,9 +13,10 @@
         "refresh-status.json",
         "refresh-history.json",
         "test_refresh_stale_gate.py",
+        "test_external_refresh_workflow.py",
         "program-scorecard.json"
       ],
-      "gap": "The stale gate and recovery path are exercised and fourteen refresh runs are recorded with 41-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The stale gate, scheduled workflow contract, and recovery path are exercised and fifteen refresh runs are recorded with 42-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
