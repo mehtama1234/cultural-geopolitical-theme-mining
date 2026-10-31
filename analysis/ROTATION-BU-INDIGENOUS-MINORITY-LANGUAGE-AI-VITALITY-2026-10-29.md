@@ -71,6 +71,9 @@ language exclusion, low-resource data and intergenerational decline
 | India BHASHINI national language-technology hub | India’s Ministry of Electronics and Information Technology reports BHASHINI operating on a vendor- and cloud-agnostic sovereign AI cloud with 350+ optimized models, support for 36 text and 23 voice languages, and public-sector use cases spanning conversational assistants, citizen-service platforms, governance interfaces and public digital applications. Other official updates report hundreds of websites/use cases and billions of inferences at different dates. | state-scale multilingual AI infrastructure, sovereignty architecture and broad service integration claims | language-by-language quality, active-user and service denominators, error/correction rates, rural/dialect inclusion, accessibility, procurement, completed transactions, privacy and independent evaluation |
 | BHASHINI Kumbh Sah’AI’yak cultural-event deployment | India’s Press Information Bureau reports BHASHINI powered a multilingual, voice-enabled Kumbh Sah’AI’yak assistant at Maha Kumbh 2025, providing navigation and event information in 11 languages and supporting a digital Lost & Found function with real-time text and voice translation. | named public cultural-event deployment with a concrete multilingual service workflow | user volume, successful navigation/retrieval, language-specific errors, accessibility, lost-and-found resolution, repeat use, safety and whether the deployment transfers to ordinary public services |
 | BHASHINI–Indian Railways public-service integration pathway | India’s Press Information Bureau reports a June 2025 MoU between Digital India BHASHINI Division and the Centre for Railway Information Systems to deploy multilingual AI across public-facing railway platforms, including NTES and RailMadad, with ASR, translation, TTS, OCR, chatbots, voice assistants, kiosks and call-centre interfaces. | named government-to-government deployment pathway and high-volume service targets | production launch, transaction completion, passenger uptake, language/dialect coverage, correction and escalation, accessibility, privacy and service-quality outcomes |
+| Ghana local-language speech-AI pathway | Ghana’s Information Services Department reports that the education ministry said Google was working with the University of Ghana and GDI Hub on speech recognition and AI tools for Twi, Ewe and Dagbani, with emphasis on non-standard speech for education and digital services; the minister also called for Hausa inclusion. | named national language set, institutional partners and an accessibility/service rationale | production tools, language-by-language quality, dialect and non-standard-speech performance, user uptake, completed education/service tasks, privacy, procurement and independent evaluation |
+| South Africa human-language-technology funding mechanism | South Africa’s Department of Sport, Arts and Culture calls for 2025–2028 human-language-technology proposals across all official languages, including multilingual public-sector communication, government, healthcare, legal and education barriers, accessibility for vision/hearing impairments and commercialization or citizen benefit from publicly funded research. | explicit multi-year funding route and target domains connecting language technology to public services and inclusion | awarded projects, released tools, language/dialect quality, accessibility testing, public deployments, user outcomes, IP/benefit-sharing execution and independent evaluation |
+| Ghana Rori low-bandwidth AI tutoring evidence | Rising Academies reports an eight-month evaluation of its WhatsApp math tutor across 11 Ghanaian schools, with roughly 1,000 students and a reported 0.36 SD treatment advantage; the published research describes a preliminary year-one result, basic-phone/low-bandwidth delivery and continued need to test implementation and scale. | named low-connectivity education deployment with a measured learning signal and a replicable delivery channel | local-language interaction quality, teacher mediation, device/charging support, attrition, school-level replication, cost at scale, longer-term retention and whether language access—not only channel access—drives the gain |
 
 ## Stage audit
 
@@ -299,6 +302,28 @@ equally, or that language access improved a durable public outcome. The India
 case therefore separates infrastructure scale, event service operation and
 ordinary public-service realization.
 
+The Ghana and South Africa records add a different conversion gate: public
+language-AI intent is becoming an investment and procurement surface. Ghana’s
+named partners and focus on non-standard speech are more specific than a generic
+commitment to “local languages,” but the public record still describes a
+pathway, not a production service or measured user benefit. South Africa’s call
+is stronger as an institutional mechanism because it specifies official-language
+coverage, public-service domains, accessibility and a multi-year funding window;
+it is still an input-side signal until awards, tools, deployment and outcomes are
+auditable. These cases show why a country can have a coherent language-technology
+strategy while language-specific quality and service completion remain unknown.
+
+Rori is a useful adjacent counterexample because it closes an outcome gate
+without proving a language-vitality gate. A WhatsApp tutor working on basic
+devices and low-bandwidth networks has a reported positive learning signal in a
+school evaluation, so access channel and learning effect can be measured. That
+does not establish that the intervention operated in a Ghanaian language, that
+local-language interaction caused the result, or that the result will replicate
+outside the original school and implementation conditions. The correct inference
+is narrower: low-bandwidth delivery plus a measured learning outcome is a stronger
+service-efficacy lead than a model or policy claim, while language inclusion must
+still be evaluated separately.
+
 ## Cross-case synthesis
 
 | Case | Strongest evidence currently closed | Conversion stage still unproven |
@@ -311,6 +336,9 @@ ordinary public-service realization.
 | Ireland | Technical governance, active-offer design, language-choice portability and procurement requirements are institutionalized in plans and a working group. | Changed systems, enforceable procurement, portable language choice and completed Irish-language encounters. |
 | Africa / AfriEval and EAC | Evaluation infrastructure and a regional sovereignty agenda connect language, data, compute, finance and governance. | Publicly verified deployments, smaller-language inclusion, regional infrastructure delivery and service outcomes. |
 | India / BHASHINI | National sovereign language infrastructure, a named cultural-event assistant and a railway integration pathway are documented. | Language-specific quality, completed public transactions, rural/dialect equity and durable user outcomes. |
+| Ghana / local-language speech AI | Named partners, target languages and a non-standard-speech accessibility rationale are documented. | Production tools, language/dialect quality, user uptake and completed education or public-service tasks. |
+| South Africa / human-language technology | A multi-year official funding and commercialization route covers all official languages, public services and accessibility. | Funded projects, released tools, deployment, benefit sharing and user outcomes. |
+| Ghana / Rori | A low-bandwidth WhatsApp tutoring channel has a reported preliminary learning effect in a named school evaluation. | Language-specific contribution, implementation fidelity, replication, retention and durable learning outcomes. |
 
 The cross-case pattern is not “AI preserves minority languages.” It is a
 conversion problem with distinct gates: community authority, usable data,
@@ -336,6 +364,10 @@ for all downstream gates.
 6. **Africa/EAC:** identify named models, funded infrastructure, contributor
    governance and country-level deployments rather than relying on platform or
    declaration claims.
+7. **Ghana/South Africa:** verify whether the Ghana speech-AI pathway produced
+   public tools and trace South African awards from proposal to deployment;
+   obtain Rori’s full evaluation and language/implementation breakdown before
+   treating the learning result as portable.
 
 ## Cultural and geographical interpretation
 
@@ -440,3 +472,7 @@ collection; do not infer vitality from model or corpus size.
 45. [India BHASHINI national language-technology hub](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239132&lang=1&reg=1)
 46. [BHASHINI Kumbh Sah’AI’yak cultural-event deployment](https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=157269&lang=1&reg=3)
 47. [BHASHINI–Indian Railways public-service integration pathway](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209737&lang=1&reg=1)
+48. [Ghana Information Services Department local-language speech-AI pathway](https://www.isd.gov.gh/googles-education-tools-will-be-deployed-in-ghana-on-a-zero-rated-basis-education-minister/)
+49. [South Africa Department of Sport, Arts and Culture human-language-technology call](https://www.dsac.gov.za/index.php/OPENCALLFORPROPOSALSHUMANLANGUAGETECHNOLOGYPROJECTS2025%E2%80%932028)
+50. [Rising Academies Rori Ghana evaluation and scale-up update](https://www.risingacademies.com/risingnews/testing-rori-at-scale-a-new-rct-in-ghana)
+51. [Rori Ghana evaluation research paper](https://arxiv.org/abs/2402.09809)
