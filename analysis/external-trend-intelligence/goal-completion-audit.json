@@ -17,7 +17,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 50-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 51-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -39,9 +39,10 @@
         "room-independent-comparison.json",
         "room-independent-result.json",
         "us-financial-room-independent-comparison.json",
+        "shed-emergency-expense-2013-2025.json",
         "bounded-subset-lineage-review.json"
       ],
-      "gap": "Comparisons now include an independent U.S. SHED/USDA mechanism challenge but remain mechanism-only; no common unit and holdout have passed."
+      "gap": "Comparisons now include a closer SHED emergency-liquidity measure and an independent U.S. SHED/USDA mechanism challenge, but remain mechanism-only; no common unit and holdout have passed."
     },
     {
       "id": "trend_qualification",

@@ -42,6 +42,7 @@ STEPS = [
     ["scripts/build_temporal_holdout_result.py"],
     ["scripts/build_shed_temporal_holdout.py"],
     ["scripts/build_usda_temporal_holdout.py"],
+    ["scripts/build_shed_emergency_expense_acquisition.py"],
     ["scripts/build_us_financial_room_comparison.py"],
     ["scripts/build_temporal_decision_narrative.py"],
     ["scripts/build_bounded_subset_lineage.py"],

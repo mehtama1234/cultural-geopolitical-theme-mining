@@ -1,0 +1,88 @@
+{
+  "schema": "external-trend-intelligence.external-acquisition.v1",
+  "acquisition_id": "federal-reserve-shed-emergency-expense-2013-2025",
+  "source_family": "Federal Reserve Survey of Household Economics and Decisionmaking",
+  "status": "acquired_pending_uncertainty_review",
+  "publisher": "Board of Governors of the Federal Reserve System",
+  "geography": "United States",
+  "population": "U.S. adults age 18 and above",
+  "measure": "percent of all adults who would cover a $400 emergency expense completely using cash or its equivalent",
+  "unit": "percent of adults",
+  "denominator": "all adult respondents in the SHED survey year",
+  "method": "Annual SHED repeated cross-sectional survey; values are published chart-data percentages, not a longitudinal panel estimate.",
+  "observations": [
+    {
+      "period": "2013",
+      "value": 50
+    },
+    {
+      "period": "2014",
+      "value": 53
+    },
+    {
+      "period": "2015",
+      "value": 54
+    },
+    {
+      "period": "2016",
+      "value": 56
+    },
+    {
+      "period": "2017",
+      "value": 59
+    },
+    {
+      "period": "2018",
+      "value": 61
+    },
+    {
+      "period": "2019",
+      "value": 63
+    },
+    {
+      "period": "2020",
+      "value": 64
+    },
+    {
+      "period": "2021",
+      "value": 68
+    },
+    {
+      "period": "2022",
+      "value": 63
+    },
+    {
+      "period": "2023",
+      "value": 63
+    },
+    {
+      "period": "2024",
+      "value": 63
+    },
+    {
+      "period": "2025",
+      "value": 63
+    }
+  ],
+  "source_urls": [
+    "https://www.federalreserve.gov/consumerscommunities/sheddataviz/unexpectedexpenses.html",
+    "https://www.federalreserve.gov/consumerscommunities/sheddataviz/SHED_visualizations_unexpected_expenses.zip"
+  ],
+  "retrieval": {
+    "retrieved_at": "2026-10-31",
+    "artifact": "SHED_visualizations_unexpected_expenses.zip",
+    "artifact_sha256": "sha256:c54990ece065ea8b116dcda4e45b553d9a88ff4b580cd9c87205084c0b92aa40",
+    "source_csv": "unexpected_expenses.csv",
+    "publisher_last_update": "2026-05-13"
+  },
+  "comparability_review": {
+    "candidate_use": "closer U.S. adult financial-capacity measure for the practical-room holdout",
+    "improvement_over_existing_measure": "This measures emergency liquidity directly, rather than self-assessed financial comfort.",
+    "remaining_mismatch": "It remains an adult-level U.S. survey measure and is not interchangeable with Australian household cash-flow or USDA household food-security measures.",
+    "independence_status": "independent_publisher_candidate",
+    "counter_signal": "The measure improved through 2021 and then held at 63 percent in 2022-2025; financial capacity need not move monotonically with pressure narratives.",
+    "next_test": "Attach year-specific uncertainty intervals and pre-specify a same-population comparison before any quantitative cross-source claim."
+  },
+  "rights_boundary": "The Federal Reserve publishes the data and documentation; retain the source URL, retrieval date, version hash, and chart-data attribution. This artifact does not determine redistribution or derived-chart rights beyond the publisher's terms.",
+  "boundary": "This is a pinned acquisition candidate, not a qualified trend, causal estimate, or company finding. It must be uncertainty-reviewed before cross-source comparison."
+}
