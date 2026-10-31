@@ -242,7 +242,7 @@
       const reversal = document.createElement('p'); reversal.innerHTML = `<strong>Reversal conditions:</strong> ${trend.reversal_conditions.join('; ')}`;
       article.append(pill, title, cadence, indicators, reversal); return article;
     }
-    function sourceFamilyCard(family, schedule) {
+    function sourceFamilyCard(family, schedule, controls) {
       const article = document.createElement('article');
       const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = family.status.replaceAll('_', ' ');
       const title = document.createElement('h3'); title.textContent = family.id.replaceAll('-', ' ');
@@ -250,7 +250,8 @@
       const cadence = document.createElement('p'); cadence.innerHTML = `<strong>Refresh:</strong> ${schedule.cadence}`;
       const trigger = document.createElement('p'); trigger.innerHTML = `<strong>Trigger:</strong> ${schedule.trigger}`;
       const boundary = document.createElement('p'); boundary.innerHTML = `<strong>Boundary:</strong> ${family.evidence_boundary}`;
-      article.append(pill, title, role, cadence, trigger, boundary); return article;
+      const control = document.createElement('code'); control.textContent = `rights: ${controls.rights_status} · publisher dependence: ${controls.publisher_dependence} · lineage: ${controls.lineage_status}`;
+      article.append(pill, title, role, cadence, trigger, boundary, control); return article;
     }
     function refreshStatusCard(family) {
       const article = document.createElement('article');
@@ -305,12 +306,13 @@
       fetch('promotion-queue.json').then(r => r.json()),
       fetch('pilot-register.json').then(r => r.json()),
       fetch('trend-monitoring-register.json').then(r => r.json()),
+      fetch('source-family-controls.json').then(r => r.json()),
       fetch('refresh-schedule.json').then(r => r.json()),
       fetch('refresh-status.json').then(r => r.json()),
       fetch('external-family-lineage-review.json').then(r => r.json()),
       fetch('external-evidence-gap-queue.json').then(r => r.json()),
       fetch('ibis-finding-claim-sample.json').then(r => r.json()),
-    ]).then(([manifest, comparison, qualificationMatrix, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, pilotRegister, monitoringRegister, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
+    ]).then(([manifest, comparison, qualificationMatrix, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, pilotRegister, monitoringRegister, sourceControls, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -340,9 +342,11 @@
       const pilots = el('pilot-register'); pilotRegister.pilots.forEach(pilot => pilots.append(pilotCard(pilot)));
       const monitoringCards = el('monitoring-register'); monitoringRegister.trends.forEach(trend => monitoringCards.append(monitoringCard(trend)));
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
+      const controls = new Map(sourceControls.families.map(item => [item.family_id, item]));
       const sourceFamilies = el('source-families'); sourceRegistry.source_families.forEach(family => {
         const schedule = schedules.get(family.id);
-        if (schedule) sourceFamilies.append(sourceFamilyCard(family, schedule));
+        const control = controls.get(family.id);
+        if (schedule && control) sourceFamilies.append(sourceFamilyCard(family, schedule, control));
       });
       const refreshCards = el('refresh-status'); refreshStatus.families.forEach(family => refreshCards.append(refreshStatusCard(family)));
       const lineageWarnings = el('lineage-warnings');

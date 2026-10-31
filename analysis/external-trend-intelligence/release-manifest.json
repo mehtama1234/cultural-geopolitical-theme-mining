@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "c0c9addd8719fc4a96cb6c06ecaf71a3906eb7c5",
-  "artifact_count": 31,
+  "source_tree_commit": "feeb3479fba80b6096da2144626ebf7e84b6a0a9",
+  "artifact_count": 32,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -120,6 +120,11 @@
       "sha256": "1efdebe2d3c6e635d5ee477516ad5803ee1ed0c886c879291777b0c62dd250c4"
     },
     {
+      "path": "analysis/external-trend-intelligence/source-family-controls.json",
+      "bytes": 8898,
+      "sha256": "dd7017fce040d9380e68cd335b36dfbb128af8aac044c06cb6e031e68f38b547"
+    },
+    {
       "path": "analysis/external-trend-intelligence/care-capacity-candidate.json",
       "bytes": 2011,
       "sha256": "9ba10fd1f802c50a91292cfbe7075e66e78573e28bc326273a0caf2d7df93b9d"
@@ -146,8 +151,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 29746,
-      "sha256": "9f891c4a0e0a97921c2b51482e940a90ea4606dcfaf15a5024629b2a28f185de"
+      "bytes": 30217,
+      "sha256": "ea2ec797f585c5ceebf38a81d4ffb5005157df3d97d47ebfca36e903830a7807"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
