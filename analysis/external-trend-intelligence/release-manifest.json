@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "ce77931101155c2edaf5ff1799e45a788e855f5a",
+  "source_tree_commit": "3bdecac64aaf5ad8702b81d10fdcd5fdd222d24b",
   "artifact_count": 39,
   "artifacts": [
     {
@@ -61,8 +61,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
-      "bytes": 4661,
-      "sha256": "95448d2881718169429ac70e701ca565b9e8c64140881bf7417b6ed5de81b82c"
+      "bytes": 4923,
+      "sha256": "1f38c8feccfe9cadbdd8ca8810a80470867d09cd6f43ea29c201c168c2afdd19"
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
@@ -76,8 +76,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5240,
-      "sha256": "1e3fb06bd18c6352abc6574f45455eaeab142385aaacb00f93221b860463f215"
+      "bytes": 5231,
+      "sha256": "2f0af541d97c23a0e3c9fa73da2ce77e2c5291f856322463a1b03d8554b2d40b"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",

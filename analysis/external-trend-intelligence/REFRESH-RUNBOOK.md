@@ -18,6 +18,15 @@ python3 scripts/build_external_refresh_status.py
 age. It is a control-plane check, not proof that a source is current or
 independent.
 
+For a full ordered rebuild and validation, run:
+
+```text
+python3 scripts/refresh_external_observatory.py
+```
+
+The orchestrator stops on the first failed step and leaves the prior artifacts
+available for review; it does not silently continue past a failed gate.
+
 ## 1. Pin the external inputs
 
 Update the revisions and manifest paths in

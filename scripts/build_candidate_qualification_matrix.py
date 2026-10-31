@@ -10,6 +10,33 @@ ROOT = Path(__file__).resolve().parents[1]
 ANALYSIS = ROOT / "analysis" / "external-trend-intelligence"
 OUTPUT = ANALYSIS / "candidate-qualification-matrix.json"
 
+BACKTEST_DESIGNS = {
+    "candidate-formal-response-before-recovery": {
+        "status": "not_started",
+        "holdout": "later case or release after the source observation period",
+        "outcome": "receipt, usable recovery, durable access, and exit after formal response",
+        "required_evidence": "dated comparable cases with the same response, implementation, receipt, recovery, and exit stages",
+    },
+    "candidate-time-financial-pressure-practical-room": {
+        "status": "not_started",
+        "holdout": "later survey wave or geography held out from candidate construction",
+        "outcome": "time pressure, participation, substitution, or delayed completion using compatible denominators",
+        "required_evidence": "at least two comparable waves or places with common unit, population, and participation measure",
+    },
+    "candidate-digital-capability-control-trust": {
+        "status": "not_started",
+        "holdout": "later attitude, adoption, or control-measure release",
+        "outcome": "capability adoption alongside verification, contestability, remedy, or trust",
+        "required_evidence": "repeated independent measures separating capability from control and trust",
+    },
+    "candidate-infrastructure-dependency-power": {
+        "status": "not_started",
+        "holdout": "later operating or disruption window after the candidate period",
+        "outcome": "operation followed by reliability, tariff, bill, compensation, or acceptance outcome",
+        "required_evidence": "dated event and outcome records linked by compatible geography and system unit",
+    },
+}
+
 
 def main() -> int:
     candidates = json.loads((ANALYSIS / "candidate-comparisons.json").read_text())["candidates"]
@@ -33,6 +60,12 @@ def main() -> int:
         }
         blocking = [name for name, passed in gates.items() if not passed]
         queue_item = queue.get(candidate["id"], {})
+        backtest_plan = BACKTEST_DESIGNS.get(candidate["id"], {
+            "status": "not_started",
+            "holdout": "later comparable release",
+            "outcome": "candidate-specific outcome",
+            "required_evidence": "dated repeated measure",
+        })
         rows.append({
             "candidate_id": candidate["id"],
             "title": candidate["title"],
@@ -42,6 +75,7 @@ def main() -> int:
             "passed_gate_count": sum(gates.values()),
             "gate_count": len(gates),
             "blocking_gates": blocking,
+            "backtest_plan": backtest_plan,
             "evidence_record_count": coverage.get("evidence_record_count", len(candidate.get("evidence_record_ids", []))),
             "source_host_count": coverage.get("source_host_count"),
             "next_action": queue_item.get("next_action") or candidate.get("next_comparison"),
@@ -54,7 +88,8 @@ def main() -> int:
         "qualified_external_trend_count": sum(row["gate_status"] == "qualified_external_trend" for row in rows),
         "held_count": sum(row["gate_status"] == "held" for row in rows),
         "rows": rows,
-        "boundary": "This matrix is conservative: absent evidence is a failed gate, not an inferred pass. A qualified candidate is not automatically a qualified trend or an internal company finding.",
+        "backtest_status_counts": {"not_started": sum(row["backtest_plan"]["status"] == "not_started" for row in rows)},
+        "boundary": "This matrix is conservative: absent evidence is a failed gate, not an inferred pass. A qualified candidate is not automatically a qualified trend or an internal company finding. A backtest plan is not a backtest result.",
     }
     OUTPUT.write_text(json.dumps(report, indent=2) + "\n")
     print(f"wrote {OUTPUT} ({len(rows)} candidates)")
