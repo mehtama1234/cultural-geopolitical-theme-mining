@@ -44,6 +44,11 @@ political or consumer response.
 or social signal alone does not predict voting, protest, loyalty, legitimacy,
 or policy demand.
 
+## Source packet
+
+- [Cultural and political meaning synthesis](../US-BROAD-CULTURAL-POLITICAL-MEANING-SUBTHEME-SYNTHESIS_V1.md)
+- [Cross-source trust and action layer](../projects/us-cost-trust-politics/cross-source-trust-action-layer-v1.md)
+
 ## Mechanism
 
 ```text
