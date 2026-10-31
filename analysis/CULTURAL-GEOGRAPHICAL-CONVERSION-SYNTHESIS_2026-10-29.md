@@ -3859,6 +3859,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 420. **Infrastructure continuity can conceal unequal space-weather burden.** A forecast, backup system, safe-mode response or absence of a major safety failure can preserve one service while satellite assets are lost, routes are delayed, data quality degrades, operator workload rises and high-latitude, remote or less-resourced users lack equivalent fallback.
 
+421. **Climate-finance access architecture is not community recovery.** A costed national need, fund board, trustee, technical guide, readiness roadmap, local-government channel or proposal-support mechanism can improve the route to finance while approval, disbursement timing, grant/debt burden, local authority, maintained assets, livelihood, cultural continuity and grievance remain unobserved.
+
 ## What the evidence does not support
 
 Do not claim that:

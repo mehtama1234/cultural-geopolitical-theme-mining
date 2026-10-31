@@ -34,6 +34,10 @@ climate shock or slow-onset loss
 | Ghana LoCAL-ACE | UNCDF reports a completed four-year Norway-funded programme that channelled finance through six local-government systems, reached more than 69,000 people and financed 35 climate-resilient infrastructure and circular-economy investments, including more than 34,000 women beneficiaries. | Named local-government channel, implementation and beneficiary/investment outputs. | Attribution of resilience, livelihood and cultural outcomes, maintenance, grievance response or post-program financing. |
 | Fiji Climate Catalytic Fund | Fiji and IOM launched a 2026 fund aimed at communities facing climate impacts and displacement, prioritizing Ba and Macuata and providing hands-on proposal support for flood, coastal, livelihood and nature-based measures. | Direct-access design and community proposal-support mechanism. | Approved/disbursed grants, project completion, relocation/stay outcomes, affordability, equity or community-defined recovery. |
 | Kenya FLLoCA | Kenya’s National Treasury describes a USD 294 million, 2022–2027 programme across all 47 counties that empowers wards to plan, budget, implement and monitor climate actions through county systems. | Nationally embedded locally led finance architecture and coverage. | Ward-level disbursement timing, project completion, maintenance, outcome distribution and grievance/remedy. |
+| UNFCCC 2026 NDC Synthesis | Parties’ costed NDCs estimate adaptation needs of about USD 893–898 billion and 33% identify capacity needs for addressing loss and damage and accessing related funds. | A current scale/access-capacity gap linking national plans to finance readiness. | Whether capacity support produces approvals, disbursements, locally chosen action, reduced loss or durable recovery. |
+| UNFCCC human-mobility finance guide | The January 2026 guide maps finance across adaptation, preparedness, response, recovery and durable solutions for climate-related displacement and proposes needs assessment, governance, appraisal and finance-matching steps. | A named operational framework for connecting mobility needs to finance instruments. | Actual country adoption, funding terms, relocation/stay choice, cultural continuity, livelihood and post-move outcomes. |
+| UNFCCC Climate Capital Marketplace | The 2026 marketplace describes a persistent access gap and a pre-readiness gap involving climate rationale, data, institutions and partner identification; participating countries receive roadmaps and direct guidance from multiple funds. | A concrete access bottleneck and readiness-support mechanism. | Roadmap completion, approved projects, disbursement speed, grant/debt terms, local authority and community recovery. |
+| World Bank Loss and Damage Fund FAQ | The World Bank says the Fund’s Board determines funding and eligibility, while its trustee role provides financial services and does not supervise fund use; implementing entities receive allocations decided by the Board. | A clear governance/intermediation boundary for attribution and accountability. | Board decisions, recipient-level control, implementing-entity performance, project outcomes, remedy and non-economic loss. |
 
 ## Stage audit
 
@@ -78,6 +82,14 @@ borrowing or administrative barriers. “Access” must include grant versus deb
 application burden, timing, local authority, grievance, and whether the funded
 solution preserves the option to stay, move safely or maintain cultural ties.
 
+The newer global evidence makes access itself a measurable conversion stage.
+Nationally costed needs and capacity gaps explain why a fund can be formally
+available but practically unreachable. A roadmap, technical guide or
+pre-readiness workshop can reduce an application bottleneck without proving a
+grant, a safe relocation choice or a maintained livelihood. The trustee/Fund
+Board distinction also matters: holding or administering money is not the same
+as supervising the implementing entity or guaranteeing local accountability.
+
 ## Counterexamples and limits
 
 - Aggregate climate finance can increase while a particular community receives
@@ -92,6 +104,12 @@ solution preserves the option to stay, move safely or maintain cultural ties.
   maintained, risks reduced, livelihoods restored or cultural loss addressed.
 - Proposal support and a community-focused fund do not prove grants were approved,
   disbursed on time or sufficient for people who stay or move.
+- A quantified national finance need is not a measure of a particular community’s
+  unmet claim; costed plans can omit informal, cultural or non-economic loss.
+- A technical guide can correctly map funding instruments while leaving the
+  political decision, eligibility, debt burden and local implementation unchanged.
+- A trustee’s financial-service role should not be interpreted as evidence that
+  the trustee monitored project performance or community remedy.
 
 ## Promotion decision
 
@@ -118,3 +136,7 @@ cultural outcome, and grievance response.
 6. [Kenya National Treasury — Financing Locally-Led Climate Action](https://fsad.treasury.go.ke/projects/flloca)
 7. [UNCDF Ghana LoCAL-ACE results](https://www.uncdf.org/article/9300/norway-funded-climate-initiative-by-uncdf-surpasses-targets-in-ghana-proving-power-of-locally-led-adaptation)
 8. [Fiji Climate Catalytic Fund](https://www.fiji.gov.fj/ccf-launched/)
+9. [UNFCCC 2026 NDC Synthesis Report](https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/2026-ndc-synthesis-report)
+10. [UNFCCC climate-mobility finance guide](https://unfccc.int/technical-guide-on-accessing_financial_resources)
+11. [UNFCCC Climate Capital Marketplace](https://unfccc.int/event/climate-capital-marketplace)
+12. [World Bank Loss and Damage Fund FAQs](https://www.worldbank.org/en/programs/funding-for-loss-and-damage/faqs)
