@@ -1,0 +1,212 @@
+{
+  "schema": "external-trend-intelligence.rights-evidence-register.v1",
+  "family_count": 8,
+  "partial_file_evidence_count": 3,
+  "no_local_terms_file_count": 5,
+  "rows": [
+    {
+      "family_id": "cultural-geopolitical-theme-mining",
+      "repository_path": "/home/mehta/git-repo/cultural-geopolitical-theme-mining",
+      "evidence_status": "no_local_terms_file_found",
+      "observed_files": [],
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "legal_boundary": "A local license, terms, or notice file is evidence to review, not legal clearance for third-party source material, redistribution, or derived charts.",
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "social-research",
+      "repository_path": "/home/mehta/git-repo/social-research",
+      "evidence_status": "partial_file_evidence",
+      "observed_files": [
+        {
+          "path": "launch/TERMS_AND_DISCLOSURES.md",
+          "bytes": 804,
+          "sha256": "ffe73176582e26e61f0e0df13da7a1f1d13846bd579144a126cb287b567043ab"
+        }
+      ],
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "legal_boundary": "A local license, terms, or notice file is evidence to review, not legal clearance for third-party source material, redistribution, or derived charts.",
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "trend-hunting",
+      "repository_path": "/home/mehta/git-repo/trend-hunting",
+      "evidence_status": "no_local_terms_file_found",
+      "observed_files": [],
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "legal_boundary": "A local license, terms, or notice file is evidence to review, not legal clearance for third-party source material, redistribution, or derived charts.",
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "annual-report-research",
+      "repository_path": "/home/mehta/git-repo/organization-intelligence-system/annual-report-research",
+      "evidence_status": "no_local_terms_file_found",
+      "observed_files": [],
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "legal_boundary": "A local license, terms, or notice file is evidence to review, not legal clearance for third-party source material, redistribution, or derived charts.",
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "inc5000-analysis",
+      "repository_path": "/home/mehta/git-repo/inc5000-analysis",
+      "evidence_status": "no_local_terms_file_found",
+      "observed_files": [],
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "legal_boundary": "A local license, terms, or notice file is evidence to review, not legal clearance for third-party source material, redistribution, or derived charts.",
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "ibis-industries",
+      "repository_path": "/home/mehta/git-repo/ibis-industries",
+      "evidence_status": "partial_file_evidence",
+      "observed_files": [
+        {
+          "path": "business_knowledge_examples/licensed-sports-apparel-stores.json",
+          "bytes": 27844,
+          "sha256": "852319f55564d1e0b35974b89519c171495d5f6aba1f6d0200873866be92fcaf"
+        }
+      ],
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "legal_boundary": "A local license, terms, or notice file is evidence to review, not legal clearance for third-party source material, redistribution, or derived charts.",
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "research-signals",
+      "repository_path": "/home/mehta/git-repo/research-signals",
+      "evidence_status": "partial_file_evidence",
+      "observed_files": [
+        {
+          "path": "design/claude-reader/screenshots/connected-v6/states/notice-fingerprint-and-missing-1440.png",
+          "bytes": 168101,
+          "sha256": "dd788b39d1bde9fd1dcd9aacf7323f35669254bbdced58a789c631cd5c5491e6"
+        },
+        {
+          "path": "design/claude-reader/screenshots/connected-v6/states/notice-fingerprint-and-missing-390.png",
+          "bytes": 140249,
+          "sha256": "4c8448e9c5953bd1d119f5f1e75c718d58b99dc4876b6e9929782c01aac60ebf"
+        },
+        {
+          "path": "design/claude-reader/screenshots/connected-v6/states/notice-wrong-shape-1440.png",
+          "bytes": 156568,
+          "sha256": "779269d8f591c7636935d6e2c40df6a9a264d1dbeba8d7f679c4ef9a4f21fbdf"
+        },
+        {
+          "path": "design/claude-reader/screenshots/connected-v7/notice-390.png",
+          "bytes": 149828,
+          "sha256": "769b233b89b0b64c3128c2c2a7ba828001625c4fee5b71e00fbe298d141cc0f4"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2608.12564/LICENSE",
+          "bytes": 11364,
+          "sha256": "c27868d0bd8e35731673c0d5a8d9c7c990087b4b73f89ca24a2e5f2aa35d432c"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.01591/LICENSE",
+          "bytes": 1075,
+          "sha256": "40f011272724ef2ffe657ab17089cda9641050ce84d005ecdf9ff8f678b4c6d8"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.02749/LICENSE",
+          "bytes": 11344,
+          "sha256": "53ec4f1fc089929231324592f7cb091c5ed66c242a1083610f27e4d7304d16c9"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.02749/cli/LICENSE",
+          "bytes": 1069,
+          "sha256": "0457f5bcec3b3b211605dfb5d1a49042fd638f3686a410fe099c24a25af13c48"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.02886/LICENSE",
+          "bytes": 11358,
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.02886/NOTICE",
+          "bytes": 2164,
+          "sha256": "3d1dd99c099d4a69c72599468bf87d45f9dc9ca142377adb4138f64f9138a927"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.04010/LICENSE",
+          "bytes": 11358,
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.04010/NOTICE",
+          "bytes": 2625,
+          "sha256": "62dc7428fb0127cc655c04b282febd4a449685ea0941def5db409a5c5b94ce50"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.07064/LICENSE",
+          "bytes": 11352,
+          "sha256": "1f625a5c9e54fe104021a019eda1abc2e542d68428bd3106ad2a651f6d30cc1f"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.10522/LICENSE",
+          "bytes": 11560,
+          "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.15818/LICENSE",
+          "bytes": 1066,
+          "sha256": "a6e6e16bacc54c7154620c4e98e69f832566ed696b61c200933f0cb5089cb235"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.17488/LICENSE.txt",
+          "bytes": 13818,
+          "sha256": "9ee3aff29e60ce688610eafb31060f2d79944065f8ea3cbb15ab9d6ee4c20c68"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.20519/LICENSE",
+          "bytes": 1116,
+          "sha256": "9616468e1dc7dd6ba2edd2a408df9830d2020606defd6cd8aba80f60b6729ab8"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.25001/LICENSE",
+          "bytes": 11558,
+          "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.32607/LICENSE",
+          "bytes": 1089,
+          "sha256": "052a705b8c79f135f670a6a9aca38b7fab9630151be21915edf824008c08feff"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.34981/LICENSE",
+          "bytes": 1210,
+          "sha256": "8379dddfbbb1154ad9cc57f008f1f8d4a8d26c3de99bd6b36aa4d8067888aa92"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.36012/LICENSE",
+          "bytes": 1068,
+          "sha256": "c8603e8e97c8834e0ca6440027e2669cbb7f40eefb6c5137902d04d4320ce55a"
+        },
+        {
+          "path": "research/huggingface/2026-09/native/concepts/source-custody/2609.37372/LICENSE",
+          "bytes": 1074,
+          "sha256": "78e9667ad77c306d5b41d15f008240294822ce978634e4f119180ed4ddbd55cd"
+        }
+      ],
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "legal_boundary": "A local license, terms, or notice file is evidence to review, not legal clearance for third-party source material, redistribution, or derived charts.",
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "organization-intelligence-system",
+      "repository_path": "/home/mehta/git-repo/organization-intelligence-system",
+      "evidence_status": "no_local_terms_file_found",
+      "observed_files": [],
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "legal_boundary": "A local license, terms, or notice file is evidence to review, not legal clearance for third-party source material, redistribution, or derived charts.",
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    }
+  ],
+  "boundary": "This register records local evidence discovery only. It does not determine license scope, publisher permission, fair use, retention rights, or independence."
+}

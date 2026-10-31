@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "56202101a602865e65f8a6ba6379bfeacd73f5f9",
-  "artifact_count": 50,
+  "source_tree_commit": "13095b86ac94f3418266c29255d2d8e65cba5043",
+  "artifact_count": 51,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -113,6 +113,11 @@
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
       "bytes": 5745,
       "sha256": "e7e025737ab8053224bf70721455ffe6a28f2f717e08319a27ac5c81a7116213"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/rights-evidence-register.json",
+      "bytes": 11227,
+      "sha256": "63e5b63afbb884eb76b29176f2ce6e8b6071fb5e51ab8ced9faedbafa2301edd"
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
