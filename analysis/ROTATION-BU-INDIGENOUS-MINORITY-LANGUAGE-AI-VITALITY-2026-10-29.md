@@ -31,6 +31,9 @@ language exclusion, low-resource data and intergenerational decline
 | UNESCO Global Roadmap for Multilingualism in the Digital Era | Calls for low-resource and endangered languages to have digital presence and for language communities to participate in decision-making, data governance, documentation and tool development. | policy architecture and participation requirement | actual product availability, public-service completion, quality and everyday adoption |
 | UNESCO African languages and AI analysis | Notes low recognition and hallucination/translation failures for underrepresented African languages while describing large speech-data initiatives. | performance gap and dataset response | named user harm, correction, dialect coverage, trust, access and learning/health/service outcomes |
 | WIPO documentation and traditional-cultural-expression guidance | Documentation can improve retrieval and preservation but is not an end in itself; rights, risks, benefits and traditional-holder control must guide digitization. | IP/data-governance boundary and consent risk | community authority, benefit sharing, access restrictions, misuse, revenue and intergenerational use |
+| Welsh Government Welsh language technology and AI priorities | Welsh Government identifies daily use of Cymraeg, access to Welsh technology, and improved AI/speech technologies as explicit priorities, with data sharing and work across education, workplaces, procurement and services. | named policy and institutional implementation routes | live tool availability, completed service encounters, quality, daily use and speaker growth |
+| FirstVoices community language platform | FirstVoices describes Indigenous communities as managing, curating and sharing language sites, with community-uploaded data available through mobile and desktop applications. | named community-managed platform and access route | site-level governance, sensitive-data restrictions, repeated use, learning, transmission and stewardship |
+| University of Waikato Waikato-Maniapoto AI voice project | University of Waikato reports a dialect-specific AI voice intended to help future generations hear and connect with Waikato-Maniapoto te reo Māori and describes high perceptual similarity to the original speaker. | named dialect-specific technology and cultural-identity rationale | authorization, speaker rights, deployment, learner uptake, repeated use, transmission and misuse safeguards |
 
 ## Stage audit
 
@@ -62,6 +65,19 @@ language exclusion, low-resource data and intergenerational decline
 > speakers can use the language reliably in daily life, that children are
 > transmitting it, that a public service was completed safely, or that the
 > community retains control over its language and knowledge.
+
+### Named intervention bridge
+
+The new named cases show three different conversion routes. Wales is a state
+strategy trying to move from language technology to everyday use in workplaces,
+education and services. FirstVoices places curation and sharing inside a
+community-managed platform. Waikato-Maniapoto demonstrates a dialect-specific
+voice technology whose stated purpose is cultural and intergenerational
+connection. These are materially stronger than generic “AI can preserve
+languages” claims, but none of the three sources alone proves repeated use,
+child transmission, safe service completion or durable vitality. The next
+measurement unit must therefore be the named language site, classroom,
+workplace, service encounter or media deployment—not the existence of the tool.
 
 ## Cultural and geographical interpretation
 
@@ -124,3 +140,6 @@ collection; do not infer vitality from model or corpus size.
 3. [UNESCO Global Roadmap for Multilingualism in the Digital Era](https://www.unesco.org/en/global-roadmap-multilingualism)
 4. [UNESCO African languages, the blind spot of AI](https://www.unesco.org/en/articles/african-languages-blind-spot-ai)
 5. [WIPO documentation of traditional knowledge and traditional cultural expressions](https://www.wipo.int/publications/en/details.jsp?id=4695)
+6. [Welsh Government Welsh language technology and AI updates](https://www.gov.wales/welsh-language-technology-and-artificial-intelligence-ai-updates)
+7. [FirstVoices community language platform](https://www.firstvoices.com/)
+8. [University of Waikato Waikato-Maniapoto AI voice project](https://www.waikato.ac.nz/news-events/news/a-voice-for-the-future-the-first-ai-generated-waikato-maniapoto-voice/)
