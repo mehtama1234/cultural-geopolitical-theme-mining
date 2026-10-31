@@ -152,3 +152,16 @@ sources support the legal scope, country-level patterns, social-hostility
 distinction, mobility relevance and designation limitations. They do not by
 themselves establish a named person’s safe daily practice, equal treatment,
 family security, cultural continuity, remedy or durable coexistence.
+
+## Sources
+
+The packet’s evidence snapshot is anchored to these official or primary source
+families. They support the legal scope, comparative restriction patterns,
+designation method and mobility relevance; they do not close the named
+person/community outcomes required by the next test.
+
+- Pew Research Center, [religion and public life research](https://www.pewresearch.org/religion/)
+- USCIRF, [annual reports and country recommendations](https://www.uscirf.gov/reports-briefs/annual-report)
+- OHCHR, [Special Rapporteur on freedom of religion or belief](https://www.ohchr.org/en/special-procedures/sr-religion-or-belief)
+- OHCHR, [freedom of religion or belief](https://www.ohchr.org/en/special-procedures/sr-religion-or-belief)
+- United Nations, [freedom of religion or belief](https://www.un.org/en/observances/religious-freedom-day)
