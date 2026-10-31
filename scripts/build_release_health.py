@@ -31,6 +31,7 @@ def main() -> int:
     holdout = load("temporal-holdout-result.json")
     food_holdout = load("food-insecurity-temporal-holdout.json")
     food_rights = load("food-insecurity-rights-review.json")
+    ibis_outcome = load("ibis-adult-day-outcome-review.json")
     denominator = load("denominator-reconciliation-review.json")
     health = {
         "source_refresh": {
@@ -94,6 +95,15 @@ def main() -> int:
             "direction": food_holdout["readout"]["direction"],
             "rights_decision": food_rights["release_decision"],
             "boundary": food_holdout["boundary"],
+        },
+        "ibis_adult_day_outcome": {
+            "industry": ibis_outcome["industry_slug"],
+            "status": ibis_outcome["backtest_status"],
+            "independence_status": ibis_outcome["independence_status"],
+            "outcome_status": ibis_outcome["outcome_status"],
+            "rights_decision": ibis_outcome["rights_review"]["release_decision"],
+            "derived_changes": ibis_outcome["derived_changes"],
+            "boundary": ibis_outcome["boundary"],
         },
         "monitoring": {
             "registered": len(monitoring["trends"]),

@@ -495,6 +495,8 @@ def main() -> int:
     assert release_health["sections"]["rights_and_publisher_dependence"]["rights_unverified"] == 8
     assert release_health["sections"]["rights_and_publisher_dependence"]["local_evidence_families"] >= 1
     assert release_health["sections"]["temporal_holdout"]["status"] == "design_readout_only"
+    assert release_health["sections"]["ibis_adult_day_outcome"]["status"] == "bounded_cross_publisher_mechanism_comparison"
+    assert release_health["sections"]["ibis_adult_day_outcome"]["rights_decision"] == "normalized_values_and_citations_only"
     assert release_health["sections"]["independent_source_comparison"]["directional_agreement_status"] == "directional_agreement_mechanism_only"
     assert release_health["sections"]["denominator_reconciliation"]["pooling_decision"] == "do_not_pool"
     assert release_health["sections"]["denominator_reconciliation"]["status"] == "hold"

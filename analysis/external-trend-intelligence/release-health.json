@@ -71,6 +71,21 @@
       "rights_decision": "retain_as_attributed_metadata_and_internal_review_only; do_not_redistribute_upstream_content_or_connect_company_data_until_rights_owner_approves",
       "boundary": "This is a descriptive temporal holdout with a non-pooled independent challenge. It qualifies external persistence for monitoring, not a causal or company result."
     },
+    "ibis_adult_day_outcome": {
+      "industry": "adult-day-care",
+      "status": "bounded_cross_publisher_mechanism_comparison",
+      "independence_status": "partial_cross_publisher_temporal_mechanism_comparison",
+      "outcome_status": "dated_outcomes_and_independent_policy_measure_present",
+      "rights_decision": "normalized_values_and_citations_only",
+      "derived_changes": {
+        "adult_day_services_centers_percent_change_2022_to_2025": 43.5,
+        "enrolled_participants_percent_change_2022_to_2025": 24.8,
+        "2025_average_daily_attendance_to_enrollment_percent": 69.3,
+        "2025_average_daily_attendance_to_capacity_percent": 59.9,
+        "new_jersey_adult_medical_day_care_per_diem_percent_change_2021_to_2025": 9.9
+      },
+      "boundary": "This bounded review covers one IBIS industry and one CDC source family. It does not validate the full IBIS finding, establish causal compliance effects, or authorize an internal company bridge."
+    },
     "monitoring": {
       "registered": 4,
       "status": "pass"

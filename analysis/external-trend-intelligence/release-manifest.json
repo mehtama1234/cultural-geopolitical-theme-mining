@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "53bec30fc6ead684dea3e0d0f0e0baac4f391a2b",
+  "source_tree_commit": "aad543eb0caf3ded7142b536e7468f8f8335eea8",
   "artifact_count": 84,
   "artifacts": [
     {
@@ -106,8 +106,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/release-health.json",
-      "bytes": 3657,
-      "sha256": "b95272f5a395679057e5a7704fb8064855af9d5fc0b7ea21729580db19a3253f"
+      "bytes": 4639,
+      "sha256": "2f4466078bcf16a19ac988a9a3f0f535203b54f27bf1b29c2e23606f38ac8462"
     },
     {
       "path": "analysis/external-trend-intelligence/bounded-subset-lineage-review.json",
