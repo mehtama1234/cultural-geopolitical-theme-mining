@@ -3867,6 +3867,7 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 424. **An AI-education effect is not durable equitable learning or teacher agency.** A pooled test-score estimate, launched tutoring programme, teacher-AI framework, reduced planning time or evaluation pipeline can close a bounded task or implementation signal while retention, transfer without AI, low-income and language/disability equity, total workload, professional authority, privacy and sustained progression remain unobserved.
 425. **An AI-companion safeguard is not social wellbeing or safe care.** An adolescent-use survey, clinical warning, crisis protocol, parental control, independent audit, age gate, disclosure, provider study or practitioner report can close a bounded exposure or governance stage while attachment, substitution for human relationships, culturally appropriate help-seeking, privacy, exit, clinical safety, recovery and unequal effects remain unobserved.
+426. **A personalized mRNA platform is not equitable therapeutic access.** A regional technology-transfer network, sequencing workflow, manufacturing-feasibility trial, immune response, clinical roadmap or phase-III signal can close a capability or clinical-development stage while batch turnaround, quality release, comparative survival, affordability, reimbursement, patient consent, regional authority and representative access remain unobserved.
 
 ## What the evidence does not support
 
