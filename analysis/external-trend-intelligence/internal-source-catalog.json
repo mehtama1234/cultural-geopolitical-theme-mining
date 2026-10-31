@@ -1,0 +1,15 @@
+{
+  "schema": "external-trend-intelligence.internal-source-catalog.v1",
+  "status": "inventory_only",
+  "sources": [
+    {"id": "company-atlas-organization-intelligence", "role": "company identity and operating context", "authority": "source-owner and identity-review contracts", "readiness": "candidate_context"},
+    {"id": "business-operations", "role": "company economics and operating model", "authority": "business-operations source owner", "readiness": "candidate_context"},
+    {"id": "customer-intelligence", "role": "bounded customer question and evidence-test coordination", "authority": "customer source owners; no customer-proof promotion", "readiness": "candidate_test_coordinator"},
+    {"id": "finance-technology-platform", "role": "quotes, payments, approvals, and finance outcomes", "authority": "Finance", "readiness": "owner_approval_required"},
+    {"id": "supply-chain-platform", "role": "procurement, delivery, receiving, credits, and receipt", "authority": "Supply Chain", "readiness": "owner_approval_required"},
+    {"id": "workforce-people-systems", "role": "schedule, absence, retention, accommodation, and workforce outcomes", "authority": "People/workforce data owner", "readiness": "not_selected"},
+    {"id": "crm-customer-service", "role": "customer completion, repeat effort, correction, retention, and exit", "authority": "Customer-data owner", "readiness": "not_selected"},
+    {"id": "operations-product-systems", "role": "workflow completion, latency, quality, outages, fallback, and service receipt", "authority": "Operations/product data owner", "readiness": "not_selected"}
+  ],
+  "rule": "Inventory does not imply access, authorization, identity compatibility, or a valid bridge."
+}

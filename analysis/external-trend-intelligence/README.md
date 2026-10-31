@@ -22,6 +22,11 @@ The later internal-data step is documented in
 [`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
 not change the meaning or status of external evidence.
 
+Potential internal systems and their authority boundaries are listed in
+[`INTERNAL-SOURCE-READINESS.md`](INTERNAL-SOURCE-READINESS.md) and
+[`internal-source-catalog.json`](internal-source-catalog.json). The catalog is
+inventory-only until an owner approves a specific source and snapshot.
+
 ## Stages
 
 1. **Capture:** preserve the external URL/API, publisher, date, retrieval

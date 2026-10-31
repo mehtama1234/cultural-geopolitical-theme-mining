@@ -62,6 +62,11 @@ def main() -> int:
     assert set(bridge_request["external_record_ids"]) <= ids
     assert bridge_request["join_basis"] == "no_valid_join"
     assert bridge_request["status"] == "review_required"
+    internal_catalog = json.loads((ANALYSIS / "internal-source-catalog.json").read_text())
+    assert internal_catalog["schema"] == "external-trend-intelligence.internal-source-catalog.v1"
+    assert internal_catalog["status"] == "inventory_only"
+    assert len(internal_catalog["sources"]) >= 8
+    assert all("authority" in source and "readiness" in source for source in internal_catalog["sources"])
     print(
         "valid external trend intelligence:",
         manifest["record_count"],
