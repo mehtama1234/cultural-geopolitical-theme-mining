@@ -46,6 +46,14 @@ localization, accessibility, governance, reputation, and market-entry exposure.
 Its open test is a stable Gazetteer crosswalk plus repeated use and completed
 tasks in a real product or public-service workflow.
 
+### Infrastructure capacity creates a bargain before reliable benefit
+
+[Infrastructure bargain trend record](company-trend-infrastructure-bargain-2026-005.md)
+
+This qualified trend translates energy, data-center, transmission, community
+solar, grid, and readiness evidence into operating continuity, cost allocation,
+customer receipt, local burden, and dependency exposure.
+
 ## Record contract
 
 - [Company trend-intelligence goal](../../COMPANY_TREND_INTELLIGENCE_GOAL_V1.md)
