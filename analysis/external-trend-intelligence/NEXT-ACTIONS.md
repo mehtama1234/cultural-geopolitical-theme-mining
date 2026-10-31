@@ -81,3 +81,7 @@ The cross-publisher panel's computed host review is in
 [`bounded-subset-lineage-review.json`](bounded-subset-lineage-review.json). It
 finds two hosts (`fwc.gov.au` and `fairwork.gov.au`), with four records sharing
 the FWC host; this is partial lineage diversity, not independent confirmation.
+The independent GSMA/British Social Attitudes mechanism comparison is in
+[`independent-stage-comparison.json`](independent-stage-comparison.json); it
+remains mechanism-only until common units, populations, periods, and outcomes
+are acquired.

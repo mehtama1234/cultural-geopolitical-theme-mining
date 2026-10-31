@@ -16,6 +16,7 @@ blockers.
 | Backtest view | `backtest-readiness.json`, `backtest-comparability-review.json` | record availability, periods, units, geographies, outcomes, harmonization blockers |
 | Monitoring view | `trend-monitoring-register.json` | state, cadence, leading indicators, reversal conditions |
 | Case panel | `case-stage-panel.json`, `bounded-subset-lineage-review.json` | stage status, not-observed distinction, hosts, shared-host overlap, independence status |
+| Independent comparison | `independent-stage-comparison.json` | source families, mechanism status, blocking items, non-pooling boundary |
 | Pilot view | `pilot-register.json` | design status, external gate, company/data contract, privacy, falsifier |
 | Release banner | `release-health.json`, `release-manifest.json` | release status, blockers, source commit, artifact count |
 
