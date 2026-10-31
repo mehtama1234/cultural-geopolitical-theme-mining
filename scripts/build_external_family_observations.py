@@ -74,6 +74,8 @@ def main() -> int:
     ibis_sources_by_id = {source["source_id"]: source for source in ibis_source_inventory["sources"]}
     ibis_findings_path = "cross_industry_findings_register.json"
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
+    ibis_pattern_inventory_path = "cross_industry_pattern_inventory.json"
+    ibis_pattern_inventory = json.loads(show(IBIS_REPO, IBIS_REV, ibis_pattern_inventory_path))
     ibis_forces_path = "cross_industry_trends_2025_2026.json"
     ibis_forces = json.loads(show(IBIS_REPO, IBIS_REV, ibis_forces_path))
     social_path = "analysis/social/integrated-trend-atlas-report.json"
@@ -208,6 +210,16 @@ def main() -> int:
                 finding_titles=[finding["title"] for finding in ibis_findings["findings"]],
                 pattern_artifact_paths=ibis_findings["metadata"]["source_artifacts"],
                 pattern_artifacts_pinned=True,
+                pattern_aggregate_counts=[
+                    {
+                        "pattern_slug": pattern["slug"],
+                        "claim_count": pattern.get("claim_count"),
+                        "source_count": pattern.get("source_count"),
+                    }
+                    for pattern in ibis_pattern_inventory["ranked_patterns"]
+                ],
+                pattern_claim_count_total=sum(pattern.get("claim_count", 0) for pattern in ibis_pattern_inventory["ranked_patterns"]),
+                pattern_source_count_total=sum(pattern.get("source_count", 0) for pattern in ibis_pattern_inventory["ranked_patterns"]),
                 source_url_status="not_present_in_artifact",
                 observation_period="IBIS baseline findings register at pinned revision; current data window 2025-2026",
             ),

@@ -273,7 +273,71 @@
         "cross_industry_pattern_inventory.json",
         "cross_industry_pattern_deep_dives.json"
       ],
-      "pattern_artifacts_pinned": true
+      "pattern_artifacts_pinned": true,
+      "pattern_aggregate_counts": [
+        {
+          "pattern_slug": "compliance-as-economic-architecture",
+          "claim_count": 8062,
+          "source_count": 11514
+        },
+        {
+          "pattern_slug": "trust-identity-and-resilience",
+          "claim_count": 7630,
+          "source_count": 11151
+        },
+        {
+          "pattern_slug": "labor-capacity-and-automation",
+          "claim_count": 7269,
+          "source_count": 10443
+        },
+        {
+          "pattern_slug": "housing-land-and-local-friction",
+          "claim_count": 4413,
+          "source_count": 6414
+        },
+        {
+          "pattern_slug": "working-capital-and-cash-conversion",
+          "claim_count": 5762,
+          "source_count": 8428
+        },
+        {
+          "pattern_slug": "consumer-bifurcation-and-channel-shift",
+          "claim_count": 4499,
+          "source_count": 6587
+        },
+        {
+          "pattern_slug": "platforms-scale-and-consolidation",
+          "claim_count": 3913,
+          "source_count": 5784
+        },
+        {
+          "pattern_slug": "supply-chain-and-geopolitical-fragmentation",
+          "claim_count": 3834,
+          "source_count": 5689
+        },
+        {
+          "pattern_slug": "climate-resource-and-insurance-risk",
+          "claim_count": 1957,
+          "source_count": 3106
+        },
+        {
+          "pattern_slug": "ai-workflow-and-compute-buildout",
+          "claim_count": 2545,
+          "source_count": 3911
+        },
+        {
+          "pattern_slug": "infrastructure-and-energy-scarcity",
+          "claim_count": 909,
+          "source_count": 1610
+        },
+        {
+          "pattern_slug": "aging-care-and-assistance",
+          "claim_count": 1800,
+          "source_count": 2969
+        }
+      ],
+      "pattern_claim_count_total": 52593,
+      "pattern_source_count_total": 77606
     },
     {
       "observation_id": "ibis-cross-industry-business-forces",

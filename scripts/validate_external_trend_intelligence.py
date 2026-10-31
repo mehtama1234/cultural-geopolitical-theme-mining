@@ -209,6 +209,9 @@ def main() -> int:
         if observation["observation_id"] == "ibis-cross-industry-discovery-findings":
             assert observation["pattern_artifacts_pinned"] is True
             assert len(observation["pattern_artifact_paths"]) == 3
+            assert len(observation["pattern_aggregate_counts"]) == 12
+            assert observation["pattern_claim_count_total"] > 0
+            assert observation["pattern_source_count_total"] > 0
         if observation["observation_id"] == "trend-hunting-ai-deep-synthesis":
             assert observation["source_url_status"] == "present_in_artifact"
             assert len(observation["source_input_paths"]) == 16

@@ -96,7 +96,8 @@ The IBIS force register now resolves its explicit source IDs against the pinned
 source inventory; the force synthesis remains a hypothesis until those sources
 are mapped to individual claims and outcomes.
 The IBIS discovery-findings observation also records its three pinned pattern
-artifacts, while correctly keeping claim-level source identity as an open gap.
+artifacts and their aggregate claim/source counts, while correctly keeping
+claim-level source identity as an open gap.
 The trend-hunting synthesis now resolves 33 URLs across its 16 pinned input
 artifacts; those inputs remain synthesis support, not independent outcome proof.
 The social atlas now also resolves 89 unique URLs from its pinned publication-evidence
