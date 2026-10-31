@@ -144,3 +144,15 @@ principles, cross-border tension, operational gap and emerging technology
 issues. They do not by themselves establish a named person’s comprehension,
 freedom to refuse, harmful inference, correction, service outcome or effective
 remedy.
+
+## Sources
+
+The packet’s evidence snapshot is anchored to these primary or official source
+families. The links establish provenance for the normative, governance and
+cross-border mechanisms; they do not close the packet’s user-level outcomes.
+
+- United Nations, [privacy in the digital age resolution](https://docs.un.org/A/RES/79/175)
+- Council of Europe, [Convention 108 and data protection](https://www.coe.int/en/web/data-protection/convention108-and-protocol)
+- OECD, [Digital Government Outlook 2026](https://www.oecd.org/en/publications/digital-government-outlook_0496b2bc-en.html)
+- OECD, [economic implications of data regulation](https://www.oecd.org/en/publications/economic-implications-of-data-regulation_aa285504-en.html)
+- OECD, [Digital Government Outlook 2026: data governance and DPI](https://www.oecd.org/en/publications/digital-government-outlook_0496b2bc-en/full-report/strengthening-digital-public-infrastructure-and-data-governance_2c7323c7.html)

@@ -9,18 +9,17 @@ quality and substantive evidence closure.
 | Check | Result | Meaning |
 |---|---:|---|
 | Rotation Markdown packets scanned | 327 | Current packet population only; synthesis and audit files excluded. |
-| HTTP/HTTPS URL occurrences | 2,448 | Literal links found in packet text. |
-| Unique URL values | 2,241 | Repeated official sources are common across related packets. |
-| URL values repeated at least twice | 181 | Duplication is not itself an error; it can show shared evidence or source concentration. |
-| Packets with no literal URL | 9 | Priority provenance-repair queue. |
-| Packets without a literal `## Sources` heading | 98 | A heading is a discoverability check, not proof that sources are absent. |
+| HTTP/HTTPS URL occurrences | 2,453 | Literal links found in packet text. |
+| Unique URL values | 2,243 | Repeated official sources are common across related packets. |
+| URL values repeated at least twice | 183 | Duplication is not itself an error; it can show shared evidence or source concentration. |
+| Packets with no literal URL | 8 | Priority provenance-repair queue. |
+| Packets without a literal `## Sources` heading | 97 | A heading is a discoverability check, not proof that sources are absent. |
 
 ## Priority provenance-repair queue
 
 These packets contain no literal HTTP/HTTPS URL and should be repaired or
 explicitly marked as synthesis-only before being used as fresh evidence:
 
-- `ROTATION-FT-DATA-PRIVACY-INFORMATIONAL-AUTONOMY-2026-10-29.md`
 - `ROTATION-FU-PUBLIC-INTEGRITY-PROCUREMENT-CITIZEN-VALUE-2026-10-29.md`
 - `ROTATION-FO-FOOD-WASTE-AFFORDABLE-NUTRITION-CIRCULAR-LIVELIHOODS-2026-10-29.md`
 - `ROTATION-FP-YOUTH-SCHOOL-TO-WORK-DECENT-TRANSITION-2026-10-29.md`
@@ -39,7 +38,7 @@ claim, or whether the packet preserves a counterexample. A packet with many
 URLs can still have weak evidence, and a packet with no URLs may be an early
 concept note rather than a research claim.
 
-The next repair pass should add source provenance to the 9 zero-URL packets,
+The next repair pass should add source provenance to the 8 zero-URL packets,
 add a consistent `## Sources` heading where sources are present but hard to
 discover, and then run a reachability and claim-to-source review in batches.
 Do not silently invent citations or treat this structural audit as substantive
