@@ -71,21 +71,22 @@
         "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
         "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection",
         "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook",
-        "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging"
+        "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging",
+        "comparative-jpmorgan-household-liquidity-2023"
       ],
       "mechanism": "material or care pressure -> hidden time price and coordination work -> substitution, delayed completion, or unequal participation",
       "counter_signal": "Flexible schedules, paid support, community infrastructure, or higher resources can preserve participation.",
       "next_comparison": "Keep participant and total-population denominators separate and distinguish nominal spending from quantities, access, and wellbeing.",
       "lineage_review": {
         "status": "partial",
-        "primary_artifact_count": 7,
+        "primary_artifact_count": 8,
         "independence_status": "partially_reviewed",
-        "assessment": "Seven source sets are identifiable: ABS Time Use Survey tables, Colombia DANE ENUT, EIGE CARE Survey, England DHSC SACE, ABS General Social Survey, ANZ/Roy Morgan Consumer Confidence, and 4Culture/Wilkening Culture and Communities.",
-        "remaining": "The ABS tables within one record are one survey, and cross-country survey definitions and causal comparability remain open."
+        "assessment": "Eight source sets are identifiable: ABS Time Use Survey tables, Colombia DANE ENUT, EIGE CARE Survey, England DHSC SACE, ABS General Social Survey, ANZ/Roy Morgan Consumer Confidence, 4Culture/Wilkening Culture and Communities, and the JPMorganChase Institute household liquidity snapshot.",
+        "remaining": "The ABS tables within one record are one survey, JPMorganChase is a single endpoint with a restrictive republication notice, and cross-country survey definitions and causal comparability remain open."
       },
       "coverage": {
-        "evidence_record_count": 7,
-        "source_host_count": 8,
+        "evidence_record_count": 8,
+        "source_host_count": 9,
         "source_host_counts": {
           "abs.gov.au": 2,
           "dane.gov.co": 1,
@@ -94,13 +95,14 @@
           "gov.uk": 1,
           "roymorgan-cms-prod.s3.ap-southeast-2.amazonaws.com": 1,
           "roymorgan.com": 1,
-          "4culture.org": 1
+          "4culture.org": 1,
+          "jpmorganchase.com": 1
         },
-        "unique_source_url_count": 25,
+        "unique_source_url_count": 27,
         "duplicate_source_urls": {},
         "program_theme_counts": {
-          "unequal_exposure_status": 7,
-          "household_room_consumption": 6,
+          "unequal_exposure_status": 8,
+          "household_room_consumption": 7,
           "time_hidden_price": 5,
           "care_health_reproduction": 5,
           "trust_identity_meaning": 5,

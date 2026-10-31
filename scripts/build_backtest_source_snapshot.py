@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ANALYSIS = ROOT / "analysis" / "external-trend-intelligence"
 OUTPUT = ANALYSIS / "backtest-source-snapshot.json"
-SOURCE_COMMIT = "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382"
+SOURCE_COMMIT = "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4"
 
 
 def main() -> int:

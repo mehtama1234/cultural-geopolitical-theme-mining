@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "158c6f35f372c9e1424ce83e726c00622b9ef1d9",
+  "source_tree_commit": "6aa4e192d679b5ea607ee256e0bf57f702408c68",
   "artifact_count": 77,
   "artifacts": [
     {
@@ -57,17 +57,17 @@
     {
       "path": "analysis/external-trend-intelligence/backtest-readiness.json",
       "bytes": 5288,
-      "sha256": "984733187ac8c805c65a07d1cf5d744f97d39f026bbbe3cacf35bacd35f55453"
+      "sha256": "df910e263ea4145311779d58a2758a938d51aae90a834aa1c6592dbaaf5c941e"
     },
     {
       "path": "analysis/external-trend-intelligence/backtest-source-snapshot.json",
-      "bytes": 327012,
-      "sha256": "64ebeab0411a424ee598c7b31b0475ebc75925aca86f4a44800812d379ed8016"
+      "bytes": 331199,
+      "sha256": "71ac139c4936fcc5e5be07b1f056ca9789f8aa51e9888056cd749b4e8c6eb44c"
     },
     {
       "path": "analysis/external-trend-intelligence/backtest-comparability-review.json",
-      "bytes": 49174,
-      "sha256": "8aa4a3dc2bef13e832df78870e99ac60c9cdea12f2914c3dca88db050005a646"
+      "bytes": 49431,
+      "sha256": "cc3034f609035cb6336a1c9f06fd0b40b1cf70d3d909508e9d8ad86296a0c982"
     },
     {
       "path": "analysis/external-trend-intelligence/bounded-subset-register.json",
@@ -321,13 +321,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/candidate-comparisons.json",
-      "bytes": 12993,
-      "sha256": "defde7800fc8a6d39ddd578077ca735daf35be7734b96f3f40ddbf6f6a3c2958"
+      "bytes": 13218,
+      "sha256": "51895962a7f73690dc92afe38c0e1646f6720e83b2404d51f3f8bbb98794e5db"
     },
     {
       "path": "analysis/external-trend-intelligence/candidate-qualification-matrix.json",
       "bytes": 6680,
-      "sha256": "5158c646634a0c5dfcd10efb30f9cf27449e48bb7164f20b3f9a4205e8e46222"
+      "sha256": "79974fd01b2e29363514b804ddfd63adcc08036917af86bb0928fa1512cbc007"
     },
     {
       "path": "analysis/external-trend-intelligence/pilot-register.json",

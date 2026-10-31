@@ -1,12 +1,12 @@
 {
   "schema": "external-trend-intelligence.backtest-source-snapshot.v1",
-  "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+  "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
   "candidate_count": 4,
-  "record_count": 28,
+  "record_count": 29,
   "records": {
     "au-al-hussein-reactivation-deemed-work-2025": {
       "record_path": "analysis/records/au-al-hussein-reactivation-deemed-work-2025.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "76b8139ef89414238f6e1dc6034f21a62d2b808a69cccbf82571d2b3115f6aaa",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -143,7 +143,7 @@
     },
     "au-fwc-khan-platform-repeat-deactivation-2026": {
       "record_path": "analysis/records/au-fwc-khan-platform-repeat-deactivation-2026.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "94088f015c653ce42c94860d35563de4a23a08a4bba3b8fe05287b3966ceb7ba",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -222,7 +222,7 @@
     },
     "au-mansoor-platform-alternative-earnings-remedy-2025": {
       "record_path": "analysis/records/au-mansoor-platform-alternative-earnings-remedy-2025.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "cf61984e55251b40933e1a8ec124531d8ab18455330395d09cf4d6696fe30ce6",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -359,7 +359,7 @@
     },
     "comparative-australia-fwc-no-alternative-employment-remedy-2024": {
       "record_path": "analysis/records/comparative-australia-fwc-no-alternative-employment-remedy-2024.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "8704f2afbc493b4bf8c75d4c86366215a4d798ebb8d48aff5f71ee4f95f23aa5",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -448,7 +448,7 @@
     },
     "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018": {
       "record_path": "analysis/records/comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "76bfa6a3ddb7a778adcf5c3963edd2f099430c964d073c1fd963facdce1fda16",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -531,7 +531,7 @@
     },
     "comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust": {
       "record_path": "analysis/records/comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "4a867a1db6179bcc73de36b11a9bb2a57108ad58b5040c8f596b4bfc7789e71d",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -710,7 +710,7 @@
     },
     "bsa43-nhs-waiting-legitimacy-2026": {
       "record_path": "analysis/records/bsa43-nhs-waiting-legitimacy-2026.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "938f35f3d0f4c9a01df6e98efde9aec4d97821fbce2acafd84d67c1370910a1d",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -945,7 +945,7 @@
     },
     "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026": {
       "record_path": "analysis/records/comparative-abs-australia-time-use-2024-disability-carer-free-time-2026.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "e1e0c0e615b8a957ac7a93bc39818dfff81cbc955e66c7dc1df863e5385f8e89",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -1129,7 +1129,7 @@
     },
     "comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration": {
       "record_path": "analysis/records/comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "69f99e1a1c6e1fab6de73071568d2915d8b08aacafc83cd9f298c3e2625a1eb9",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -1330,7 +1330,7 @@
     },
     "comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools": {
       "record_path": "analysis/records/comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "248a3c6171a2c9eb148ddc5db2436c7ba1b8b0eb5536c7608f145b3a375a1b3a",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -1517,7 +1517,7 @@
     },
     "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity": {
       "record_path": "analysis/records/comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "6b886a4303a2668bfb62d81cd569232c6fa28cfea900385c70bc45234ee549fa",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -1689,7 +1689,7 @@
     },
     "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection": {
       "record_path": "analysis/records/comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "843783b222fe18cf93491191cf466ca16e02037212b5d5d2fe2a5e860c8779d9",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -1900,7 +1900,7 @@
     },
     "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook": {
       "record_path": "analysis/records/comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "4c6c8b9225a1f703e979df30b5f6e7bd856852d8b2761190ae1f3c556f498ea8",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -2075,7 +2075,7 @@
     },
     "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging": {
       "record_path": "analysis/records/comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "61dcf8a6ffaee521cd36c386db6bd4031b1c376ff2ad06857574d4a08d3d42de",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -2264,9 +2264,83 @@
         }
       }
     },
+    "comparative-jpmorgan-household-liquidity-2023": {
+      "record_path": "analysis/records/comparative-jpmorgan-household-liquidity-2023.json",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
+      "blob_sha256": "5540e1c2870f5076f29051be2d351c0207d10a19c72ace173529f64d222b1927",
+      "record": {
+        "format": "us-trend-observation-record-v1",
+        "trend_id": "comparative-jpmorgan-household-liquidity-2023",
+        "title": "Household liquidity coverage depends on whether disposable income and short-term credit are counted",
+        "theme_ids": [
+          "cost",
+          "time"
+        ],
+        "program_theme_ids": [
+          "household_room_consumption",
+          "unequal_exposure_status"
+        ],
+        "source_unit": "JPMorganChase Institute household liquidity analysis",
+        "geography": "United States; households in the JPMorganChase Institute administrative-data analysis",
+        "observations": [
+          {
+            "period": "December 2023",
+            "denominator": {
+              "unit": "households in JPMorganChase Institute analysis",
+              "value_type": "reported_household_frame"
+            },
+            "measures": {
+              "cash_savings_cover_400_shock": {
+                "value": 67,
+                "unit": "percent of households",
+                "value_type": "reported_share"
+              },
+              "cash_disposable_income_or_short_term_credit_cover_400_shock": {
+                "value": 92,
+                "unit": "percent of households",
+                "value_type": "reported_share"
+              },
+              "low_income_cash_cover_400_shock": {
+                "value": 43,
+                "unit": "percent of low-income households",
+                "value_type": "reported_share"
+              },
+              "low_income_broader_liquidity_cover_400_shock": {
+                "value": 77,
+                "unit": "percent of low-income households",
+                "value_type": "reported_share"
+              }
+            },
+            "status": "reported"
+          }
+        ],
+        "method": "JPMorganChase Institute administrative-data analysis of household cash savings, disposable income, and short-term credit capacity.",
+        "method_change_notes": "The research snapshot reports a December 2023 endpoint and a statement that the share unable to cover an unexpected expense remained steady throughout 2022 and 2023; a complete repeated numeric series is not included in the snapshot.",
+        "uncertainty": "The snapshot does not provide a reproducible public variance extract or a common denominator definition that can be pooled with SHED adult estimates or USDA household food-security estimates.",
+        "counterinterpretation": "Broader liquidity access produces a materially higher coverage estimate than cash savings alone; financial room depends on the resource definition and cannot be inferred from a single cash-only measure.",
+        "related_sources": [
+          {
+            "source_url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/institute/pdf/how-vulnerable-are-americans-to-unexpected-expenses-snapshot.pdf",
+            "claim": "Official research snapshot with December 2023 household liquidity estimates.",
+            "status": "official-source"
+          },
+          {
+            "source_url": "https://www.jpmorganchase.com/institute/all-topics/financial-health-wealth-creation/how-vulnerable-are-americans-to-unexpected-expenses",
+            "claim": "Research landing page and citation context.",
+            "status": "official-source"
+          }
+        ],
+        "retrieval_hash": "source_pdf_available_at_pinned_url; exact_file_hash_to_be_recorded_before_redistribution",
+        "boundary": "This is an independent mechanism challenge, not a pooled U.S. trend estimate, causal result, qualified trend, or company exposure finding. The source snapshot carries a written republication restriction.",
+        "reproduction_audit": {
+          "status": "reported_snapshot_not_reproducible_from_public_microdata",
+          "checked": "2026-10-31"
+        }
+      }
+    },
     "comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries": {
       "record_path": "analysis/records/comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "7ab01f3364ec16d02beb44925f5c4c0bb09ae4b8475ad0980eeae95e4b486b3e",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -2439,7 +2513,7 @@
     },
     "comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership": {
       "record_path": "analysis/records/comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "44663760a3dc1cb442258454fb2aa1d8e11a0f0e03c11a5a70137e4bc85aecbe",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -2626,7 +2700,7 @@
     },
     "comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social": {
       "record_path": "analysis/records/comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "3cf90120c9d9a34c585f6f1ab92ea024113032a8f23c300daee3d65b78600ea3",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -2838,7 +2912,7 @@
     },
     "comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai": {
       "record_path": "analysis/records/comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "2b027eeaff2beb599ccc33f831c86af010280104f7386873ddb3b63bd506eea1",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -3053,7 +3127,7 @@
     },
     "comparative-oecd-ai-markets-2026-concentration-competition-strategic-advantage": {
       "record_path": "analysis/records/comparative-oecd-ai-markets-2026-concentration-competition-strategic-advantage.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "a09ef57a1a44aedf2feeb02bf1ab84f6c99f095969bac2f261dc4f0159e48555",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -3229,7 +3303,7 @@
     },
     "us-hbs-ai-customer-service-contextual-recourse-2020-2021": {
       "record_path": "analysis/records/us-hbs-ai-customer-service-contextual-recourse-2020-2021.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "466c9f9142a2d5556fe61f70abf50ab6887ba1bca6f180872c5834d1ddf32b54",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -3344,7 +3418,7 @@
     },
     "comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight": {
       "record_path": "analysis/records/comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "0e543867ac71b3584f0efc2ba0b35a3dca3939b421d207c54c3bec7972461176",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -3536,7 +3610,7 @@
     },
     "us-pjm-large-load-disconnection-response-2026": {
       "record_path": "analysis/records/us-pjm-large-load-disconnection-response-2026.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "06a5dd7ac69d8c3d0ea65d5b5faa9c16954682cf5519d0883e31171d46cd2004",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -3818,7 +3892,7 @@
     },
     "us-uscc-transpacific-undersea-cable-gray-zone-resilience-2026": {
       "record_path": "analysis/records/us-uscc-transpacific-undersea-cable-gray-zone-resilience-2026.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "269f7ab4c6db894bdf323d85b793ca1f82b4f831799190374ea1168932dce72f",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -3938,7 +4012,7 @@
     },
     "comparative-oecd-space-economy-2026-dependencies-sustainability-security": {
       "record_path": "analysis/records/comparative-oecd-space-economy-2026-dependencies-sustainability-security.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "8bc018ac67b76cbf5873035c070149f3888d02fd1f426fe6d43de5beaeec14f7",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -4131,7 +4205,7 @@
     },
     "comparative-africa-sustainable-development-report-2026-water-energy-cities-finance": {
       "record_path": "analysis/records/comparative-africa-sustainable-development-report-2026-water-energy-cities-finance.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "161c769ed74416f7f62b8e8bcb8e9fa467f672f957ea621c68076384da37703f",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -4309,7 +4383,7 @@
     },
     "comparative-oecd-eu-social-economy-europe-2025-care-housing-delivery": {
       "record_path": "analysis/records/comparative-oecd-eu-social-economy-europe-2025-care-housing-delivery.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "757f6dbe4d52533d7dc35d8c8f9d7f097676baacf9c3ec3275ba8f4f83a4bd7d",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -4518,7 +4592,7 @@
     },
     "comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security": {
       "record_path": "analysis/records/comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "1932cf7b9b9998d4396d574ac1564da76e2c5598d1f6416a02821538db2ba543",
       "record": {
         "format": "us-trend-observation-record-v1",
@@ -4727,7 +4801,7 @@
     },
     "comparative-world-bank-cloud-procurement-public-capability-lockin-2026": {
       "record_path": "analysis/records/comparative-world-bank-cloud-procurement-public-capability-lockin-2026.json",
-      "source_commit": "0ef63b3b5ebadb69e89ed5d453eb38038a9b2382",
+      "source_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
       "blob_sha256": "58528aac904458bd17c7d00285fea4dacbee8c5e2834d5b1e9afbce1a0c102bf",
       "record": {
         "format": "us-trend-observation-record-v1",

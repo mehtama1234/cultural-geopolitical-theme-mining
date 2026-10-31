@@ -432,7 +432,7 @@ def main() -> int:
     assert backtest_readiness["blocked_missing_local_record_count"] == 0
     snapshot = json.loads((ANALYSIS / "backtest-source-snapshot.json").read_text())
     assert snapshot["schema"] == "external-trend-intelligence.backtest-source-snapshot.v1"
-    assert snapshot["record_count"] == 28
+    assert snapshot["record_count"] == 29
     comparability = json.loads((ANALYSIS / "backtest-comparability-review.json").read_text())
     assert comparability["schema"] == "external-trend-intelligence.backtest-comparability-review.v1"
     assert comparability["candidate_count"] == 4
