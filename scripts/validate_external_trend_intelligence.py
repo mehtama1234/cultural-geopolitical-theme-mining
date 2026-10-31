@@ -141,6 +141,12 @@ def main() -> int:
         assert observation["title"] and observation["unit"]
         assert observation["evidence_status"] in {"reported_candidate", "reported_queue", "reported_provenance", "reported_synthesis"}
         assert observation["boundary"]
+        if observation["observation_id"].endswith("source-linked-share"):
+            assert observation["source_url_status"] == "present_in_artifact"
+            assert observation["source_urls"]
+            assert observation["source_url_count"] == len(observation["source_urls"])
+            assert observation["denominator"] == "candidate_flagged_companies"
+            assert observation["low_growth_counterexample_count"] >= 1
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage

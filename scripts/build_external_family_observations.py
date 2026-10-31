@@ -64,6 +64,14 @@ def main() -> int:
 
     observations = []
     for trend in strategic["trends"]:
+        source_urls = sorted(
+            {
+                url
+                for example_group in ("high_growth_examples", "low_growth_counterexamples")
+                for example in trend.get(example_group, [])
+                for url in example.get("source_urls", [])
+            }
+        )
         observations.append(
             record(
                 f"inc5000-{trend['trend_id']}-source-linked-share",
@@ -78,6 +86,12 @@ def main() -> int:
                 candidate_flagged_companies=trend["candidate_flagged_companies"],
                 source_linked_companies=trend["source_linked_companies"],
                 counter_signal_present=bool(trend.get("low_growth_counterexamples")),
+                denominator="candidate_flagged_companies",
+                source_urls=source_urls,
+                source_url_status="present_in_artifact",
+                source_url_count=len(source_urls),
+                high_growth_example_count=len(trend.get("high_growth_examples", [])),
+                low_growth_counterexample_count=len(trend.get("low_growth_counterexamples", [])),
             )
         )
     observations.append(
