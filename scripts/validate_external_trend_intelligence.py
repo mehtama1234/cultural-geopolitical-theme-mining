@@ -424,6 +424,7 @@ def main() -> int:
     assert acquisition["schema"] == "external-trend-intelligence.evidence-acquisition-plan.v1"
     assert len(acquisition["tracks"]) == 3
     assert all(track["stop_rule"] for track in acquisition["tracks"])
+    assert acquisition["tracks"][0]["status"] == "partial_bridge_found"
     completion_audit = json.loads((ANALYSIS / "goal-completion-audit.json").read_text())
     assert completion_audit["schema"] == "external-trend-intelligence.goal-completion-audit.v1"
     assert completion_audit["overall_status"] == "in_progress_with_open_gates"

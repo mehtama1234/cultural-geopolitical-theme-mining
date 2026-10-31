@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "630f2b8b4c85baa4d07f0cdd5944c7ce16482aba",
+  "source_tree_commit": "c263726eac5f2230e3fd5c7570f71ef82054b3be",
   "artifact_count": 54,
   "artifacts": [
     {
@@ -126,8 +126,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/evidence-acquisition-plan.json",
-      "bytes": 3019,
-      "sha256": "8989db0d3b5a5d619349846675fe20d1c6e3ac19fd5d08684122a03a9c06d67f"
+      "bytes": 3338,
+      "sha256": "af35cc69b9669d2eb3c397923d0902a670cb51c9b8e7ab708c7b7c3b04ad0a69"
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
