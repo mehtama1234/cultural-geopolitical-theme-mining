@@ -565,6 +565,10 @@
       const m = scorecard.metrics;
       el('goal-audit').append(card('Program scorecard', 'measured', `${m.records.toLocaleString()} records · ${m.source_families} source families · ${m.refresh_runs} refresh runs · ${m.latest_pipeline_steps} steps ${m.latest_pipeline_status} · ${m.qualified_external_trends} qualified trends · ${m.approved_company_pilots} approved pilots`));
     });
+    fetch('operating-handoff.json').then(r => r.json()).then(handoff => {
+      const assigned = handoff.roles.filter(role => role.owner !== 'unassigned').length;
+      el('goal-audit').append(card('Operating handoff', handoff.status, `${assigned}/${handoff.roles.length} roles assigned · successor run exercised: ${handoff.exercised_controls.independent_successor_run} · ${handoff.next_action}`));
+    });
   </script>
 </body>
 </html>

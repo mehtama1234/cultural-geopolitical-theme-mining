@@ -45,6 +45,8 @@ def main() -> int:
                             "Falsifier:",
                             "Program scorecard",
                             "program-scorecard.json",
+                            "Operating handoff",
+                            "operating-handoff.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:
