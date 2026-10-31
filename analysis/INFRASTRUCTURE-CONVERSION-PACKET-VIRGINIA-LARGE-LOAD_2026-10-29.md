@@ -97,6 +97,15 @@ next docket therefore matters because it should define the actual facility
 scope, contribution formula, revenue credit and effective date needed to test
 whether the approved framework changes project-level incidence.
 
+The current public-status check adds an important visibility boundary: a
+specialist report found no proposed amended policy visible in PUR-2026-00131 as
+of October 22, while reporting Dominion’s statement that it had been working
+with SCC Staff. This is not evidence of noncompliance or a final absence; it is
+evidence that the implementation artifact was not publicly observable at that
+date. The next refresh must check the official docket after the October 29
+90-day boundary and distinguish a filed policy, an extension/order, a sealed or
+unindexed filing, and continued absence.
+
 ## Preliminary finding
 
 **Operational accountability is moving closer to the point of dependence.**
