@@ -13,6 +13,12 @@
       "gaps": 0,
       "status": "pass"
     },
+    "rights_and_publisher_dependence": {
+      "families": 8,
+      "rights_unverified": 8,
+      "dependence_review_required": 8,
+      "status": "hold"
+    },
     "trend_qualification": {
       "candidates": 4,
       "qualified": 0,
@@ -38,7 +44,8 @@
   "blockers": [
     "external candidates remain held",
     "backtest units, periods, populations, or geographies require harmonization",
-    "no company pilot is approved; external qualification gate is not passed"
+    "no company pilot is approved; external qualification gate is not passed",
+    "rights and publisher-dependence review remains open for source families"
   ],
   "boundary": "This is a release-control summary, not evidence that any trend is causal, forecast-valid, rights-cleared, independent, or company-relevant."
 }

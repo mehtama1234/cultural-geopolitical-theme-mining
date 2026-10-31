@@ -22,6 +22,7 @@ def main() -> int:
     comparability = load("backtest-comparability-review.json")
     monitoring = load("trend-monitoring-register.json")
     pilots = load("pilot-register.json")
+    controls = load("source-family-controls.json")
     health = {
         "source_refresh": {
             "families": status["family_count"],
@@ -33,6 +34,12 @@ def main() -> int:
             "observations": contract["observation_count"],
             "gaps": contract["contract_gap_count"],
             "status": "pass" if contract["contract_gap_count"] == 0 else "hold",
+        },
+        "rights_and_publisher_dependence": {
+            "families": controls["family_count"],
+            "rights_unverified": sum(item["rights_status"] != "verified" for item in controls["families"]),
+            "dependence_review_required": sum(item["publisher_dependence"] == "review_required" for item in controls["families"]),
+            "status": "hold" if any(item["rights_status"] != "verified" or item["publisher_dependence"] == "review_required" for item in controls["families"]) else "pass",
         },
         "trend_qualification": {
             "candidates": qualification["candidate_count"],
@@ -63,6 +70,8 @@ def main() -> int:
         blockers.append("backtest units, periods, populations, or geographies require harmonization")
     if health["company_pilots"]["approved_tests"] == 0:
         blockers.append("no company pilot is approved; external qualification gate is not passed")
+    if health["rights_and_publisher_dependence"]["status"] == "hold":
+        blockers.append("rights and publisher-dependence review remains open for source families")
     report = {
         "schema": "external-trend-intelligence.release-health.v1",
         "release_status": "operational_with_gates" if not any(section["status"] == "hold" for section in health.values()) else "operational_with_open_gates",
