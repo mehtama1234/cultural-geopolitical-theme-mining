@@ -118,6 +118,12 @@ Serve `analysis/external-trend-intelligence/` over HTTP and smoke-test
 `board.html` after changing a JSON artifact. The board is a reader; source
 records and lineage files remain authoritative.
 
+The repeatable smoke test is:
+
+```text
+python3 scripts/smoke_test_external_board.py
+```
+
 ## Current held work
 
 The care/longevity lane has a measurement matrix and contextual subset but is
