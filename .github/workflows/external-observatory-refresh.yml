@@ -8,11 +8,16 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: external-observatory-refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
     # The pinned sibling repositories are required by the lineage snapshot.
     # Configure a self-hosted runner with the shared /home/mehta/git-repo tree.
     runs-on: [self-hosted, external-observatory]
+    timeout-minutes: 45
     steps:
       - name: Check out observatory
         uses: actions/checkout@v4

@@ -1,13 +1,13 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "179881f18d65fb3b3a75f26a7e3a311797839331",
+  "source_tree_commit": "e9a828e5909aef7cceb3e93a392fae4b7cf3419d",
   "artifact_count": 65,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
-      "bytes": 1664,
-      "sha256": "16515e11e77e9a22ce40f7bfa8fb1416f5638d2c047c9599d1fef047af5fb6e9"
+      "bytes": 1768,
+      "sha256": "75fbacef1a55b7ad0b0afe71af246205cf024519d7811041d5bd6cfd67cbb432"
     },
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
