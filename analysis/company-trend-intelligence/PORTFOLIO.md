@@ -14,10 +14,11 @@ layer, not a replacement for the underlying evidence.
 | [Infrastructure bargain](company-trend-infrastructure-bargain-2026-005.md) | Energy, data, capacity, operations | Capacity, revenue, readiness, and projected savings appear before user benefit | Whether customers receive reliable service and who carries cost, risk, and dependence |
 | [Household financial room](company-trend-household-financial-room-2026-006.md) | Household finance, demand, trust | Financial pressure can create search, substitution, and support work before visible demand change | Whether search becomes completed purchase, payment stress, recovery, or exit |
 | [Conditional legitimacy](company-trend-conditional-legitimacy-2026-007.md) | Trust, culture, political meaning | Material pressure becomes political meaning through attribution, identity, and practical room | Whether explanation, voice, remedy, and visible benefit sustain acceptance |
+| [Health access and care burden](company-trend-health-disability-care-access-2026-008.md) | Health, disability, care, workforce, access | Disability, time, transport, and caregiving barriers can block needed care or work tasks before visible failure | Whether an accommodation or access intervention improves completion without shifting burden |
 
 ## Cross-domain pattern
 
-The seven records point to one recurring company problem:
+The eight records point to one recurring company problem:
 
 > Capability and institutional output are becoming easier to produce and report,
 > but the conversion into usable benefit, trust, control, and durable value is
@@ -34,11 +35,11 @@ capability or formal offer
   -> durable business and societal value
 ```
 
-This is not a claim that the seven records have one causal driver. It is a
+This is not a claim that the eight records have one causal driver. It is a
 cross-source operating lens: each record identifies a different place where
 the conversion can stop.
 
-## The seven recurring business questions
+## The eight recurring business questions
 
 ### 1. Who controls the system?
 
