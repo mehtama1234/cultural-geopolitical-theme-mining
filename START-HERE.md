@@ -8,6 +8,13 @@ The sequence is external sources → cross-source trend identification →
 qualified finding → bounded connection to internal company data. The company
 trend board is a downstream translation layer, not the starting point.
 
+For the live external view, open the [external trend board](analysis/external-trend-intelligence/board.html).
+The current source universe is in the [source-family registry](analysis/external-trend-intelligence/source-family-registry.json),
+the pinned repository lineage is in the [repository-family snapshot](analysis/external-trend-intelligence/repository-family-snapshot.json),
+and the current normalized intake is in the [external-family observations](analysis/external-trend-intelligence/external-family-observations.json).
+The [held candidate comparisons](analysis/external-trend-intelligence/external-family-comparisons.json)
+show what is being tested without treating thematic similarity as a company join.
+
 ## Company trend-intelligence goal
 
 The atlas is being developed as a company-facing trend-intelligence system:
