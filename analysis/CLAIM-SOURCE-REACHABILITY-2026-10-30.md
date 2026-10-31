@@ -11,8 +11,9 @@ method, date, population, authority or evidence quality.
 
 - **29 endpoints returned HTTP 200** from the shell or retry pass, and **9 of
   the former 403 endpoints were retrievable through the browser path**.
-- **2 endpoints remain unresolved:** UNECE and IPCC returned HTTP 403 through
-  both the shell and browser retrieval paths.
+- **0 endpoints remain unresolved after alternate-route review:** UNECE is
+  represented by an accessible official summary and IPCC by the stable AR6
+  Technical Summary PDF.
 - **0 endpoints returned 404, 5xx or transport errors** in the final ledger.
 - One DOE carbon-removal report URL returned 404 and was replaced by a stable
   official DOE program page. The claim was downgraded to partial support because
@@ -23,11 +24,12 @@ method, date, population, authority or evidence quality.
 
 ## Interpretation
 
-The 2 remaining 403 responses are access restrictions, not evidence that the
-sources are dead or that the claims are true. Nine former 403 responses were
-resolved through browser retrieval and are marked `browser_retrievable`; the
-UN endpoints were among them. The UNECE and IPCC sources still require a
-permitted browser, alternate official PDF or document mirror.
+The original restricted endpoints were access restrictions, not evidence that
+the sources were dead or that the claims were true. Nine were resolved through
+browser retrieval and two more through stable alternate official routes. The
+UNECE row now uses an official summary rather than pretending the full report
+was retrieved; the IPCC row uses the official Technical Summary PDF and keeps
+the scenario-versus-project outcome boundary.
 
 Reachability is therefore a separate status from substantive support:
 

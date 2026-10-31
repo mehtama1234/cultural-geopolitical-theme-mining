@@ -49,6 +49,7 @@ An IPCC pathway, technology roadmap, pilot, announced capacity, carbon-removal c
 ## Sources
 
 - IPCC, [AR6 WGIII technical summary: Carbon dioxide removal](https://www.ipcc.ch/report/ar6/wg3/chapter/technical-summary/)
+- IPCC, [AR6 WGIII Technical Summary PDF](https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_TechnicalSummary.pdf): stable official document route for the CDR pathway, maturity and uncertainty claims.
 - U.S. Department of Energy, [Carbon Dioxide Removal program](https://www.energy.gov/hgeo/carbon-dioxide-removal-0): current program and approach context; the report-level maturity claim remains subject to document retrieval.
 - IEA, [State of Energy Innovation 2025](https://www.iea.org/reports/the-state-of-energy-innovation-2025/executive-summary)
 - IEA, [CCUS projects around the world](https://www.iea.org/commentaries/ccus-projects-around-the-world-are-reaching-new-milestones)

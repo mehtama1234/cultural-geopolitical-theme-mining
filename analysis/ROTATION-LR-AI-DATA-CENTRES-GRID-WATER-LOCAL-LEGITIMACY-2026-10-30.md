@@ -66,6 +66,7 @@ The new U.S. evidence sharpens the conversion test. Rate design can specify who 
 - IEA, [Powering Artificial Intelligence: integrating data centres into electricity systems](https://www.iea.org/reports/powering-artificial-intelligence)
 - IEA, [Energy and AI: local concentration and system implications](https://www.iea.org/reports/energy-and-ai/executive-summary)
 - UNECE, [Aligning data-centre and large-load growth with grid resilience](https://unece.org/info/publications/pub/416640)
+- UNECE, [Datacentres threaten electricity-system resilience](https://unece.org/media/Sustainable-Development/SDGs/press/416181): accessible official summary of the same risk frame and policy recommendations.
 - Infrastructure Australia, [2026 Infrastructure Priority List](https://www.infrastructureaustralia.gov.au/sites/default/files/2026-03/2026-Infrastructure-Priority-List.pdf)
 - CRU Ireland, [new electricity connection policy for data centres](https://www.cru.ie/en-ie/about-us/news/the-cru-publishes-its-decision-on-new-electricity-connection-policy-for-data-centres/)
 - NSW Government, [Data Centre Policy Framework and Guidelines](https://www.infrastructure.nsw.gov.au/expert-advice/data-centres)
