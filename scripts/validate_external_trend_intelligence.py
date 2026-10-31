@@ -352,7 +352,7 @@ def main() -> int:
     assert refresh_history["run_count"] >= 1
     assert refresh_history["latest"]["record_count"] == 2135
     assert refresh_history["latest"]["parse_error_count"] == 0
-    assert refresh_history["latest"]["pipeline_step_count"] == 58
+    assert refresh_history["latest"]["pipeline_step_count"] == 59
     assert refresh_history["latest"]["pipeline_status"] == "passed"
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
@@ -384,7 +384,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 82
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 83
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     assert any(item["path"] == ".github/workflows/external-observatory-refresh.yml" for item in release_manifest["artifacts"])
@@ -438,6 +438,11 @@ def main() -> int:
     snapshot = json.loads((ANALYSIS / "backtest-source-snapshot.json").read_text())
     assert snapshot["schema"] == "external-trend-intelligence.backtest-source-snapshot.v1"
     assert snapshot["record_count"] == 31
+    ibis_dependency = json.loads((ANALYSIS / "ibis-claim-dependency-review.json").read_text())
+    assert ibis_dependency["schema"] == "external-trend-intelligence.ibis-claim-dependency-review.v1"
+    assert ibis_dependency["sample_industry_count"] == 100
+    assert ibis_dependency["independence_status"] == "partial_dependency_review"
+    assert ibis_dependency["shared_source_id_count"] >= 0
     comparability = json.loads((ANALYSIS / "backtest-comparability-review.json").read_text())
     assert comparability["schema"] == "external-trend-intelligence.backtest-comparability-review.v1"
     assert comparability["candidate_count"] == 5
@@ -499,7 +504,7 @@ def main() -> int:
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
     assert progress["baseline"]["records"] == 2135
     assert progress["baseline"]["qualified_external_trends"] == 1
-    assert progress["baseline"]["release_artifacts"] == 82
+    assert progress["baseline"]["release_artifacts"] == 83
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
@@ -512,7 +517,7 @@ def main() -> int:
     assert scorecard["schema"] == "external-trend-intelligence.program-scorecard.v1"
     assert scorecard["metrics"]["records"] == 2135
     assert scorecard["metrics"]["source_families"] == 8
-    assert scorecard["metrics"]["latest_pipeline_steps"] == 58
+    assert scorecard["metrics"]["latest_pipeline_steps"] == 59
     assert scorecard["metrics"]["latest_pipeline_status"] == "passed"
     assert scorecard["metrics"]["scheduled_workflow_contract"] == "passed"
     assert scorecard["metrics"]["refresh_runs"] == refresh_history["run_count"]

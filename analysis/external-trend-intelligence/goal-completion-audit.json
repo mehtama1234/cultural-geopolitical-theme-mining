@@ -17,7 +17,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 57-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 58-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -27,12 +27,13 @@
         "rights-review-queue.json",
         "rights-evidence-register.json",
         "food-insecurity-rights-review.json",
+        "ibis-claim-dependency-review.json",
         "shed-emergency-expense-uncertainty-audit.json",
         "shed-point-estimate-reproduction-audit.json",
         "test_rights_release_gate.py",
         "observation-manifest.json"
       ],
-      "gap": "Rights and publisher dependence remain unverified for all source families; the monitored food-security lane now has source-specific USDA and Urban reuse boundaries, but upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
+      "gap": "Rights and publisher dependence remain unverified for all source families; the monitored food-security lane now has source-specific USDA and Urban reuse boundaries, while the IBIS sample now exposes repeated source IDs, URLs, and metadata gaps for dependency review. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
     },
     {
       "id": "independent_source_comparison",

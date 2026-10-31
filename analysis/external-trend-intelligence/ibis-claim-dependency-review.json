@@ -1,0 +1,486 @@
+{
+  "schema": "external-trend-intelligence.ibis-claim-dependency-review.v1",
+  "finding_slug": "compliance-as-economic-architecture",
+  "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+  "sample_industry_count": 100,
+  "claim_count": 300,
+  "unique_source_count": 745,
+  "shared_source_id_count": 16,
+  "shared_url_count": 16,
+  "shared_source_ids": [
+    {
+      "source_id": "src_07629",
+      "industry_count": 3,
+      "industry_slugs": [
+        "auto-glass-repair-and-replacement-franchises",
+        "auto-maintenance-and-repair-franchises",
+        "auto-windshield-repair-services"
+      ],
+      "publisher": "S&P Global Mobility",
+      "url": "https://press.spglobal.com/2025-05-21-U-S-Vehicle-Age-Rises-Again-to-12-8-Years-in-2025%2C-According-to-S-P-Global-Mobility"
+    },
+    {
+      "source_id": "src_02849",
+      "industry_count": 2,
+      "industry_slugs": [
+        "agribusiness-in-the-us",
+        "agriculture-forestry-fishing-and-hunting-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://fruitgrowersnews.com/article/2026-fgn-labor-survey-h2a-automation/"
+    },
+    {
+      "source_id": "src_02850",
+      "industry_count": 2,
+      "industry_slugs": [
+        "agribusiness-in-the-us",
+        "agriculture-forestry-fishing-and-hunting-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://agamerica.com/blog/the-impact-of-the-farm-labor-shortage/"
+    },
+    {
+      "source_id": "src_02881",
+      "industry_count": 2,
+      "industry_slugs": [
+        "air-ambulance-services",
+        "aircraft-maintenance-repair-and-overhaul-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.marketresearchfuture.com/reports/us-aircraft-maintenance-repair-and-overhaul-market-21422"
+    },
+    {
+      "source_id": "src_02927",
+      "industry_count": 2,
+      "industry_slugs": [
+        "airport-shuttle-operators",
+        "airport-terminal-construction"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.thebusinessresearchcompany.com/report/airport-construction-global-market-report"
+    },
+    {
+      "source_id": "src_02928",
+      "industry_count": 2,
+      "industry_slugs": [
+        "airport-shuttle-operators",
+        "airport-terminal-construction"
+      ],
+      "publisher": "source inventory",
+      "url": "https://constructionreviewonline.com/major-us-airport-terminal-upgrades-taking-off/"
+    },
+    {
+      "source_id": "src_03162",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-parts-remanufacturing",
+        "auto-parts-wholesaling-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.ibisworld.com/united-states/industry/auto-parts-wholesaling/914/"
+    },
+    {
+      "source_id": "src_03163",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-parts-remanufacturing",
+        "auto-parts-wholesaling-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.mordorintelligence.com/industry-reports/us-aftermarket-automotive-parts-and-components-market"
+    },
+    {
+      "source_id": "src_03164",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-parts-remanufacturing",
+        "auto-parts-wholesaling-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.grandviewresearch.com/industry-analysis/aftermarket-automotive-parts-market"
+    },
+    {
+      "source_id": "src_03166",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-parts-remanufacturing",
+        "auto-parts-wholesaling-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.forvismazars.us/forsights/2025/04/tariff-implications-on-auto-parts-manufacturers"
+    },
+    {
+      "source_id": "src_03167",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-parts-remanufacturing",
+        "auto-parts-wholesaling-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://primaryignition.com/2025/09/19/us-auto-parts-tariffs-spark-supply-chain-concerns-2/"
+    },
+    {
+      "source_id": "src_06787",
+      "industry_count": 2,
+      "industry_slugs": [
+        "atv-golf-cart-and-snowmobile-manufacturing-in-the-us",
+        "atv-manufacturing"
+      ],
+      "publisher": "ATV.com",
+      "url": "https://www.atv.com/atv/tariffs-affect-powersports-industry-44742991"
+    },
+    {
+      "source_id": "src_08325",
+      "industry_count": 2,
+      "industry_slugs": [
+        "recyclable-material-wholesaling-in-the-us",
+        "recycling-facilities-in-the-us"
+      ],
+      "publisher": "U.S. Environmental Protection Agency",
+      "url": "https://www.epa.gov/smm/us-recycling-infrastructure-assessment-and-state-data-collection-reports"
+    },
+    {
+      "source_id": "src_09762",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-glass-repair-and-replacement-franchises",
+        "auto-windshield-repair-services"
+      ],
+      "publisher": "Federal Highway Administration",
+      "url": "https://www.fhwa.dot.gov/policyinformation/statistics/2024/vm1.cfm"
+    },
+    {
+      "source_id": "src_10110",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-glass-repair-and-replacement-franchises",
+        "auto-windshield-repair-services"
+      ],
+      "publisher": "Federal Highway Administration",
+      "url": "https://www.fhwa.dot.gov/policyinformation/tables/vmt/vmt_forecast_sum.cfm"
+    },
+    {
+      "source_id": "src_13250",
+      "industry_count": 2,
+      "industry_slugs": [
+        "ambulance-manufacturing",
+        "antiseptic-manufacturing"
+      ],
+      "publisher": "CMS",
+      "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet"
+    }
+  ],
+  "shared_urls": [
+    {
+      "url": "https://press.spglobal.com/2025-05-21-U-S-Vehicle-Age-Rises-Again-to-12-8-Years-in-2025%2C-According-to-S-P-Global-Mobility",
+      "industry_count": 3,
+      "industry_slugs": [
+        "auto-glass-repair-and-replacement-franchises",
+        "auto-maintenance-and-repair-franchises",
+        "auto-windshield-repair-services"
+      ]
+    },
+    {
+      "url": "https://agamerica.com/blog/the-impact-of-the-farm-labor-shortage/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "agribusiness-in-the-us",
+        "agriculture-forestry-fishing-and-hunting-in-the-us"
+      ]
+    },
+    {
+      "url": "https://constructionreviewonline.com/major-us-airport-terminal-upgrades-taking-off/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "airport-shuttle-operators",
+        "airport-terminal-construction"
+      ]
+    },
+    {
+      "url": "https://fruitgrowersnews.com/article/2026-fgn-labor-survey-h2a-automation/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "agribusiness-in-the-us",
+        "agriculture-forestry-fishing-and-hunting-in-the-us"
+      ]
+    },
+    {
+      "url": "https://primaryignition.com/2025/09/19/us-auto-parts-tariffs-spark-supply-chain-concerns-2/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-parts-remanufacturing",
+        "auto-parts-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.atv.com/atv/tariffs-affect-powersports-industry-44742991",
+      "industry_count": 2,
+      "industry_slugs": [
+        "atv-golf-cart-and-snowmobile-manufacturing-in-the-us",
+        "atv-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+      "industry_count": 2,
+      "industry_slugs": [
+        "ambulance-manufacturing",
+        "antiseptic-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/smm/us-recycling-infrastructure-assessment-and-state-data-collection-reports",
+      "industry_count": 2,
+      "industry_slugs": [
+        "recyclable-material-wholesaling-in-the-us",
+        "recycling-facilities-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.fhwa.dot.gov/policyinformation/statistics/2024/vm1.cfm",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-glass-repair-and-replacement-franchises",
+        "auto-windshield-repair-services"
+      ]
+    },
+    {
+      "url": "https://www.fhwa.dot.gov/policyinformation/tables/vmt/vmt_forecast_sum.cfm",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-glass-repair-and-replacement-franchises",
+        "auto-windshield-repair-services"
+      ]
+    },
+    {
+      "url": "https://www.forvismazars.us/forsights/2025/04/tariff-implications-on-auto-parts-manufacturers",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-parts-remanufacturing",
+        "auto-parts-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/aftermarket-automotive-parts-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-parts-remanufacturing",
+        "auto-parts-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/united-states/industry/auto-parts-wholesaling/914/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-parts-remanufacturing",
+        "auto-parts-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.marketresearchfuture.com/reports/us-aircraft-maintenance-repair-and-overhaul-market-21422",
+      "industry_count": 2,
+      "industry_slugs": [
+        "air-ambulance-services",
+        "aircraft-maintenance-repair-and-overhaul-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.mordorintelligence.com/industry-reports/us-aftermarket-automotive-parts-and-components-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "auto-parts-remanufacturing",
+        "auto-parts-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.thebusinessresearchcompany.com/report/airport-construction-global-market-report",
+      "industry_count": 2,
+      "industry_slugs": [
+        "airport-shuttle-operators",
+        "airport-terminal-construction"
+      ]
+    }
+  ],
+  "top_publishers_by_claim_link": [
+    [
+      "source inventory",
+      394
+    ],
+    [
+      "Grand View Research",
+      24
+    ],
+    [
+      "IBISWorld",
+      22
+    ],
+    [
+      "Research and Markets",
+      12
+    ],
+    [
+      "www.ibisworld.com",
+      12
+    ],
+    [
+      "U.S. Energy Information Administration",
+      11
+    ],
+    [
+      "Federal Reserve Bank of St. Louis",
+      10
+    ],
+    [
+      "Fortune Business Insights",
+      9
+    ],
+    [
+      "Mordor Intelligence",
+      8
+    ],
+    [
+      "IBISWorld local baseline",
+      8
+    ],
+    [
+      "US Census Bureau",
+      6
+    ],
+    [
+      "RVshare",
+      6
+    ],
+    [
+      "Administration for Children and Families",
+      6
+    ],
+    [
+      "IBIS Industries",
+      6
+    ],
+    [
+      "Federal Highway Administration",
+      6
+    ],
+    [
+      "US Environmental Protection Agency",
+      5
+    ],
+    [
+      "Future Market Insights",
+      5
+    ],
+    [
+      "National Shooting Sports Foundation",
+      5
+    ],
+    [
+      "SEC",
+      5
+    ],
+    [
+      "Market Research Future",
+      5
+    ]
+  ],
+  "top_source_hosts_by_claim_link": [
+    [
+      "www.ibisworld.com",
+      70
+    ],
+    [
+      "www.grandviewresearch.com",
+      42
+    ],
+    [
+      "www.mordorintelligence.com",
+      30
+    ],
+    [
+      "www.researchandmarkets.com",
+      22
+    ],
+    [
+      "www.fortunebusinessinsights.com",
+      22
+    ],
+    [
+      "fred.stlouisfed.org",
+      19
+    ],
+    [
+      "www.sec.gov",
+      17
+    ],
+    [
+      "www.globenewswire.com",
+      16
+    ],
+    [
+      "www.thebusinessresearchcompany.com",
+      13
+    ],
+    [
+      "www.marketresearchfuture.com",
+      13
+    ],
+    [
+      "www.eia.gov",
+      11
+    ],
+    [
+      "www.congress.gov",
+      9
+    ],
+    [
+      "www.verifiedmarketreports.com",
+      9
+    ],
+    [
+      "www.futuremarketinsights.com",
+      8
+    ],
+    [
+      "www.epa.gov",
+      8
+    ],
+    [
+      "www.imarcgroup.com",
+      8
+    ],
+    [
+      "www.globalgrowthinsights.com",
+      7
+    ],
+    [
+      "www.census.gov",
+      6
+    ],
+    [
+      "acf.gov",
+      6
+    ],
+    [
+      "www.cms.gov",
+      6
+    ]
+  ],
+  "missing_metadata": {
+    "missing_url": 11,
+    "missing_publisher": 0,
+    "missing_published_at": 724,
+    "missing_source_type": 0
+  },
+  "independence_status": "partial_dependency_review",
+  "review_findings": [
+    "Repeated source IDs or URLs across industries are dependence signals, not independent confirmation.",
+    "Publisher concentration is a review priority and is not an independence score.",
+    "Missing publication dates prevent complete temporal ordering of claim evidence."
+  ],
+  "next_actions": [
+    "Resolve shared source IDs to the underlying study, filing, dataset, or company release.",
+    "Separate primary observations from secondary summaries before counting corroboration.",
+    "Add dated independent outcome measures for selected matched and non-matching industries."
+  ],
+  "boundary": "This artifact audits source reuse inside the 100-industry matched sample. It does not establish independent corroboration, causal validity, rights clearance, or trend qualification."
+}

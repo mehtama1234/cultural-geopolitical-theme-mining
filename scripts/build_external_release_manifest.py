@@ -67,6 +67,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/publisher-dependence-summary.json",
     "analysis/external-trend-intelligence/trend-hunting-source-map.json",
     "analysis/external-trend-intelligence/ibis-claim-source-review.json",
+    "analysis/external-trend-intelligence/ibis-claim-dependency-review.json",
     "analysis/external-trend-intelligence/refresh-history.json",
     "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
     "analysis/external-trend-intelligence/shed-temporal-holdout.json",
