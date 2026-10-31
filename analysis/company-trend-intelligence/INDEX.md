@@ -3,6 +3,8 @@
 This is the working entry point for the company-facing layer of the cultural,
 social, and geopolitical research atlas.
 
+For the cross-domain interpretation, read the [portfolio view](PORTFOLIO.md).
+
 ## What this layer does
 
 It turns source-backed research into decision-relevant trend records. A record
