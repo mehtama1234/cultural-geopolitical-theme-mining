@@ -61,7 +61,7 @@ The first normalized intake is in
 [`external-family-observations.json`](external-family-observations.json). It
 contains ten reported observations from the pinned Inc. 5000,
 annual-report, IBIS, social-research, and trend-hunting artifacts. They are
-deliberately not merged into the 2,134-record observation manifest yet: their
+deliberately not merged into the 2,135-record observation manifest yet: their
 source coverage is uneven, and units, geographies, and independence still
 require artifact-level review. The two Inc. 5000 trend records now preserve
 their example URLs and denominator explicitly; the other records remain
@@ -216,7 +216,7 @@ index for the reader surface. It records the packaged artifact paths, byte
 counts, checksums, and the source-tree commit used to build the package.
 
 [`promotion-queue.json`](promotion-queue.json) is the consolidated gate for
-the four qualified candidates and two held candidates. It records the blocking
+the five qualified candidates and two held candidates. It records the blocking
 evidence work and confirms that none is ready for an internal company bridge.
 
 [`refresh-schedule.json`](refresh-schedule.json) defines the living cadence and

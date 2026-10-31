@@ -6,7 +6,7 @@ data is joined.
 
 ## Current backtest gate
 
-The historical records for all four candidates are now pinned in
+The historical records for all five candidate comparisons are now pinned in
 [`backtest-source-snapshot.json`](backtest-source-snapshot.json), and the
 bounded Australian platform-remedy panel is stage-coded in
 [`case-stage-panel.json`](case-stage-panel.json). Structural review still finds

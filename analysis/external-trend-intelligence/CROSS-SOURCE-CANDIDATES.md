@@ -1,6 +1,6 @@
 # First cross-source trend candidates
 
-**Source inventory:** 2,134 records from the pinned `HEAD` tree, indexed in
+**Source inventory:** 2,135 records from the pinned `HEAD` tree, indexed in
 [`observation-manifest.json`](observation-manifest.json).
 **Status:** candidate comparison, not a final trend forecast.
 

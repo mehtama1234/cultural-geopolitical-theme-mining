@@ -523,6 +523,10 @@ def main() -> int:
     assert len(progress["phases"]) == 5
     goal_doc = (ROOT / "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md").read_text()
     handoff_doc = (ANALYSIS / "ANALYST-OPERATING-MODEL.md").read_text()
+    readme_doc = (ANALYSIS / "README.md").read_text()
+    candidate_doc = (ANALYSIS / "CROSS-SOURCE-CANDIDATES.md").read_text()
+    next_actions_doc = (ANALYSIS / "NEXT-ACTIONS.md").read_text()
+    runbook_doc = (ANALYSIS / "REFRESH-RUNBOOK.md").read_text()
     expected_records = f"{manifest['record_count']:,}"
     expected_candidates = str(len(machine["candidates"]))
     assert f"`{expected_records}` source-backed observations" in goal_doc
@@ -530,6 +534,11 @@ def main() -> int:
     assert f"`{expected_candidates}` cross-source candidates" in goal_doc
     assert f"{expected_records} indexed records" in handoff_doc
     assert "cross-source candidates (" in handoff_doc
+    assert f"{expected_records}-record observation manifest" in readme_doc
+    assert "the five qualified candidates and two held candidates" in readme_doc
+    assert f"**Source inventory:** {expected_records} records" in candidate_doc
+    assert "all five candidate comparisons" in next_actions_doc
+    assert f"{expected_records}-record local" in runbook_doc
     handoff = json.loads((ANALYSIS / "operating-handoff.json").read_text())
     assert handoff["schema"] == "external-trend-intelligence.operating-handoff.v1"
     assert len(handoff["roles"]) == 6

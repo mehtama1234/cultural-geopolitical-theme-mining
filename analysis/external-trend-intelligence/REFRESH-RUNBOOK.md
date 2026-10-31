@@ -98,7 +98,7 @@ python3 scripts/build_ibis_finding_claim_sample.py
 python3 scripts/build_external_release_manifest.py
 ```
 
-The sibling intake is deliberately separate from the 2,134-record local
+The sibling intake is deliberately separate from the 2,135-record local
 manifest until its source URLs, units, populations, periods, and independence
 have been reviewed. The lineage review also checks URL and host overlap across
 observations so shared publishers are not mistaken for independent evidence.
