@@ -40,6 +40,9 @@ large-load growth
 | VA-LL-014 | [PJM reliability account of backup activations](https://insidelines.pjm.com/providing-reliable-electricity-in-a-new-reality/) | 2026-10-16 | PJM system; data centres and other large-load customers | PJM reports DOE authorization for backup generation at large-load customers on nine days in 2026, including October 13–14, and says approximately 11,000 MW of data-centre load is already on the system | Repeated system-level flexibility/backup operation and updated realized-load signal; facility identity, runtime, fuel/emissions, compensation and neighboring-customer effect remain open |
 | VA-LL-015 | [Virginia SCC large-load customer-protection explanation](https://www.scc.virginia.gov/about-the-scc/scc-facts/) | 2026-09-03 | Virginia existing customers and new large-load customers | SCC says Rider T1 and related reforms directly assign direct-connect transmission costs to large-load customers and retain tools to adjust safeguards if insufficient | Official attribution and regulatory backstop; actual cost assignment, payment, bill effect, compliance and public acceptance remain open |
 | VA-LL-016 | [Virginia SCC biennial-review order summary](https://www.scc.virginia.gov/about-the-scc/newsreleases/release/scc-issues-order-on-dev-biennial-review-2025/scc-rules-in-dev-biennial-review-case.html) | 2025-11-25 | Dominion residential and large-scale energy-user classes | SCC created GS-5 for customers demanding 25 MW or more and specified minimum payment percentages for distribution, transmission and generation while rejecting part of Dominion’s requested base-rate increases | Formal class and minimum-payment decision; no named-facility payment or observed residential-bill counterfactual |
+| VA-LL-017 | [PJM/FERC large-load technical conference account](https://insidelines.pjm.com/pjm-ferc-focus-on-large-load-challenges-at-tech-conference/) | 2026-10-22 | NVIDIA AI factory in Manassas, Virginia and PJM service area | PJM says compute-flexibility practices are being or will be studied at multiple data centres, including an NVIDIA AI factory in Manassas | Named facility-to-policy link; actual load profile, event participation, ride-through performance, backup runtime and customer incidence remain open |
+| VA-LL-018 | [PJM Board large-load registry and billing-data action](https://insidelines.pjm.com/pjm-board-directs-action-on-resource-adequacy-affordability-and-large-loads/) | 2026-07-27 | PJM large-load registry and settlement/billing data | PJM says future forecasting and capacity planning will use information from a new Large Load Registry and data available through settlement and billing processes | Registry fields, facility access, customer payments, forecast error and public disclosure remain open |
+| VA-LL-019 | [PJM proposed reliability standards for large-load disconnection events](https://insidelines.pjm.com/reliability-standards-to-manage-large-load-disconnection-events-proposed-by-pjm/) | 2026-09-10 | Northern Virginia computational loads and PJM interconnection requirements | PJM describes the July 22 event as the third separate measurable large-load event in two years and proposes ride-through/interconnection changes | Named facility participation, backup fuel/emissions, compliance date, cost and neighboring-customer effect remain open |
 
 ## Stage audit
 
@@ -51,6 +54,16 @@ large-load growth
 | Cost allocation | GS-5, minimum charges, collateral and direct-assignment frameworks are documented | Virginia is attempting to place more responsibility on large-load customers and reduce cross-subsidy risk | Actual project assignment, customer payment, residential bill effect and avoided cost shift |
 | Public attribution | State materials and executive statements frame the issue as protection of families/small businesses and fair share; the Golden-Mars record contains substantial local participation | The distributional question is politically legible: who pays for AI-scale infrastructure and who bears transmission siting costs | Measured public opinion, locality-level attribution to a named data center, compensation or durable acceptance |
 | Social/geopolitical meaning | AI infrastructure is linked to reliability, affordability and national capability | Technical operation is being translated into public legitimacy and state-capacity questions | A demonstrated link between a particular burden and later trust, policy reversal or local consent |
+
+### Named-facility bridge added in the refresh
+
+The new evidence improves the operation stage without closing material
+incidence. The Manassas NVIDIA AI factory is a named facility attached to a
+PJM compute-flexibility study, and PJM’s registry/settlement references create a
+plausible route to facility-level forecasting and payment evidence. That is a
+stronger acquisition target than a generic national forecast, but it remains a
+policy/measurement link until a docket, operating record or billing record is
+matched to the facility.
 
 ## Preliminary finding
 
@@ -137,6 +150,12 @@ generation/transmission/distribution cost assignment | minimum-charge payment
 customer class/bill effect | affected locality/service area
 public comments/challenge | commission decision | later compliance or acceptance
 ```
+
+The immediate named-facility targets are the NVIDIA AI factory in Manassas and
+one Dominion interconnection or Rider T1 filing that can be linked to it. The
+PJM Large Load Registry and settlement/billing references should be treated as
+data-access leads, not as evidence that the registry is publicly available or
+that a customer-level payment has been observed.
 
 ### Pass condition
 

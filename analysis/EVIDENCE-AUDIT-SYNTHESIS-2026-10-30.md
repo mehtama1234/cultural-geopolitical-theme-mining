@@ -92,3 +92,13 @@ The next pass should prioritize named conversion records, in this order:
 
 The goal is not to make the atlas sound more certain. It is to make the next
 evidence acquisition more decisive.
+
+## Latest acquisition progress
+
+The Virginia large-load packet now adds a named NVIDIA AI factory in Manassas
+to the acquisition frame and records PJM’s planned Large Load Registry and
+settlement/billing data route. This advances the facility-to-outcome queue from
+an abstract target to a concrete docket/interconnection target. It does not yet
+close facility participation, actual load, backup runtime, payment, customer
+bill, water burden or host-community response; those fields remain explicitly
+open in the packet ledger.
