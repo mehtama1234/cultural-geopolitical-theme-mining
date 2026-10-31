@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "2b139f489fb2fd23c6c9ad9d1d439ab641612fa0",
+  "source_tree_commit": "c53154b5424a488445ea27b16fa4a785e89f2fce",
   "artifact_count": 85,
   "artifacts": [
     {
@@ -116,13 +116,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
-      "bytes": 2238,
-      "sha256": "03f166c870fdc939251292a3e89f64ce38fbe6a344328aaa5f22f4ab43a23ca7"
+      "bytes": 2446,
+      "sha256": "21979c7b9c0bd05a825d79c6c793f84be69de3c4a9740c5297b522816943b840"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1833,
-      "sha256": "813b9487c69607882f05dc0811e024966c0b3b790704ab2aad817681c8548908"
+      "sha256": "26255c23ba00a6d59e65902be4a75a897637fdf5c6732512b0b3e68aec3ed665"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -181,8 +181,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5735,
-      "sha256": "e24b3cf65d725cd4ce70b5507fa162c0f8b60d778198f2c2450451f2577cd6e7"
+      "bytes": 5734,
+      "sha256": "dbbf20d3d8d6fa8c0b94d068a6ffc288c4c993be9ada96fe2405d30184302d22"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -286,8 +286,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 21317,
-      "sha256": "a1e0ecbcd32804e6e7e9aeb99fd3ec33860ad39686574cdf85d2c73cadaeb5e9"
+      "bytes": 21751,
+      "sha256": "66be02945db6178938346ff7d4bf051e071fa2c8a4fe484352a5a8684422941b"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
@@ -411,8 +411,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 54964,
-      "sha256": "0c9d7cc043fe6810ed09e03a39643e13825b00a320e78085086552402c00df4a"
+      "bytes": 56536,
+      "sha256": "fd178ad8c1bfe02fd7fda2da4c3b2cc2f59219f00ceb44a104a72500451511b7"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",

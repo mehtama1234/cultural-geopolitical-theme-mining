@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import http.server
+import json
 import pathlib
 import subprocess
 import time
@@ -22,6 +23,7 @@ ARTIFACTS = [
     "case-stage-panel.json",
     "pilot-register.json",
     "ibis-adult-day-outcome-review.json",
+    "source-registry-snapshot.json",
 ]
 
 
@@ -74,7 +76,12 @@ def main() -> int:
             with urllib.request.urlopen(f"http://127.0.0.1:{PORT}/{artifact}", timeout=5) as response:
                 if response.status != 200:
                     raise RuntimeError(f"{artifact}: HTTP {response.status}")
-                print(f"{artifact}: HTTP {response.status} ({len(response.read())} bytes)")
+                body = response.read()
+                if artifact == "source-registry-snapshot.json":
+                    snapshot = json.loads(body)
+                    if snapshot.get("source_count") != 118 or len(snapshot.get("sources", [])) != 118:
+                        raise RuntimeError("source-registry-snapshot.json does not expose the expected 118 sources")
+                print(f"{artifact}: HTTP {response.status} ({len(body)} bytes)")
     finally:
         proc.terminate()
         proc.wait(timeout=5)

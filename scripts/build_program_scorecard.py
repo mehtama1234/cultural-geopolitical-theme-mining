@@ -22,6 +22,14 @@ def main() -> int:
     qualification = load("candidate-qualification-matrix.json")
     pilots = load("pilot-register.json")
     controls = load("source-family-controls.json")
+    # Keep the handoff snapshot's refresh baseline tied to the authoritative
+    # append-only ledger. This prevents a manually maintained progress file
+    # from drifting after a successful scheduled run.
+    progress_path = ANALYSIS / "program-progress.json"
+    progress = json.loads(progress_path.read_text())
+    progress["baseline"]["refresh_runs_recorded"] = history["run_count"]
+    progress["as_of"] = date.today().isoformat()
+    progress_path.write_text(json.dumps(progress, indent=2) + "\n")
     scorecard = {
         "schema": "external-trend-intelligence.program-scorecard.v1",
         "as_of": date.today().isoformat(),
