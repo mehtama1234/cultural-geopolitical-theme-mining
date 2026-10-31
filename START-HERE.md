@@ -1,5 +1,12 @@
 # Start here
 
+## Two-year program goal
+
+The larger program is the [two-year external trend-intelligence observatory
+goal](TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md). It defines the 24-month
+outcomes, operating model, qualification gates, and first 30-day actions. The
+external goal below is the current execution contract inside that program.
+
 ## New external-first goal
 
 Start with the [external trend-intelligence goal](EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md)

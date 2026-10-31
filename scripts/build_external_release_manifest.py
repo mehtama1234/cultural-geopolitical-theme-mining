@@ -14,6 +14,7 @@ ANALYSIS = ROOT / "analysis" / "external-trend-intelligence"
 OUTPUT = ANALYSIS / "release-manifest.json"
 
 ARTIFACTS = [
+    "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
     "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
     "EXTERNAL_SOURCE_REGISTRY.md",
     "analysis/external-trend-intelligence/README.md",

@@ -1,5 +1,9 @@
 # External trend-intelligence operating contract
 
+The repository-level [two-year observatory goal](../../TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md)
+is the program charter. This directory is its current external execution
+surface.
+
 This directory defines the first-stage external analysis layer. It discovers
 and qualifies trends before any internal company data is used.
 
