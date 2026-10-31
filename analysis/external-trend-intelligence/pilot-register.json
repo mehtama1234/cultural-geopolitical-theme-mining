@@ -1,0 +1,45 @@
+{
+  "schema": "external-trend-intelligence.pilot-register.v1",
+  "purpose": "Design-only register for bounded company decision pilots that may begin only after external qualification.",
+  "boundary": "No company data is connected by this register. A pilot cannot move to approved_test while its external candidate is held.",
+  "pilots": [
+    {
+      "pilot_id": "pilot-care-time-workflow-capacity-001",
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "status": "design_only_external_gate",
+      "decision_question": "Does a specific company workflow show measurable delay, repeat effort, absence, or retention differences consistent with an externally qualified time/care constraint pattern?",
+      "company_ref": {
+        "company_id": null,
+        "company_name": null,
+        "business_unit": null,
+        "decision_owner": null
+      },
+      "internal_data_contract": {
+        "dataset": null,
+        "snapshot_or_query": null,
+        "entity_key": null,
+        "geography": null,
+        "period": null,
+        "outcome": null,
+        "unit": null,
+        "denominator": null,
+        "unmatched_case_policy": "Report unmatched, suppressed, missing, and incompatible records separately; never drop them silently."
+      },
+      "external_gate": {
+        "candidate_must_be": "qualified_external_trend",
+        "required_gates": ["comparability", "independence", "persistence", "counter_signal", "falsifier", "backtest", "decision_relevance"],
+        "current_status": "held",
+        "current_blockers": ["survey denominator comparability", "participant versus total-population distinction"]
+      },
+      "hypothesis": "After external qualification, a pre-specified company workflow may show a bounded association between time/care constraints and task completion, delay, repeat effort, absence, or retention.",
+      "falsifier": "No measurable difference under the pre-specified comparison, a reversed direction, or a stronger explanation unrelated to the proposed time/care mechanism.",
+      "privacy_and_rights": {
+        "access_basis": "Pending named data owner and lawful access review",
+        "privacy_class": "Not assessed",
+        "retention_limit": "Not assessed",
+        "redistribution_limit": "No connection, export, or decision use before approval"
+      },
+      "next_action": "Finish the external candidate gates and select a named company workflow only after a qualified trend is recorded."
+    }
+  ]
+}

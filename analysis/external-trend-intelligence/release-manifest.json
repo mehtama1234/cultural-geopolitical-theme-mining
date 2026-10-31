@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "7d82aa669070198adb55f61662132b9f3bfe198b",
-  "artifact_count": 29,
+  "source_tree_commit": "8d0f0b849932f68d6100434ab6d0404068c93079",
+  "artifact_count": 30,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -106,8 +106,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/candidate-qualification-matrix.json",
-      "bytes": 4355,
-      "sha256": "d80334d47cb36d1ab9775eaf665a6a3919fbfcc1c056c1073f332a1d18ad3241"
+      "bytes": 5943,
+      "sha256": "9666d586ca139c45008aeeaa78a844f379c1d25b35c8f4f43b6f97375bd3e68c"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/pilot-register.json",
+      "bytes": 2486,
+      "sha256": "9a8898f6afef256fd6c923cf6ba6a656d9ad82f656a7d0225961ebfe6c39f952"
     },
     {
       "path": "analysis/external-trend-intelligence/care-capacity-candidate.json",
@@ -136,8 +141,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 26841,
-      "sha256": "38ba34a72646b41769d9d49bc0cc88055c3b9036a239fefd9e45e23d3794bcd9"
+      "bytes": 28366,
+      "sha256": "0ef858af1958d36c41731d45bc8b2679c556a7ef8125b952033930e4d77b0d29"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
