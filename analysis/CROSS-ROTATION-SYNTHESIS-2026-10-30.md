@@ -366,6 +366,26 @@ through inputs, measured removal, storage permanence, leakage or reversal,
 lifecycle emissions, credit use, consent, benefit receipt, liability and later
 verification, while comparing direct-abatement and non-deployment alternatives.
 
+## Synthetic-biology capability, biorisk and equitable public value — 2026-10-30
+
+The existing [synthetic-biology packet](ROTATION-IY-SYNTHETIC-BIOLOGY-EQUITY-BIORISK-PUBLIC-VALUE-2026-10-30.md)
+adds a cross-sector capability test. UN, OECD, WHO, UK and Northern Ireland
+evidence closes the opportunity/risk frame, anticipatory-governance architecture,
+dual-use and laboratory-biorisk tools, national and regional investment,
+workforce bottlenecks and public-engagement pathways. It does not close
+implementation, incident reduction, safe product use, local value capture,
+affordability, ecological outcome, worker protection or meaningful community
+authority.
+
+Synthetic biology is distinct from gene editing because the unit of analysis is
+not only a crop or trait: it is a distributed bioeconomy spanning biological
+inputs, sequence/data, design, IP, lab infrastructure, manufacturing, skills,
+regulatory authority and users. The next acquisition should follow one
+country/lab/community/product chain through those stages, including benefit
+sharing, dual-use review, manufacturing, cost, access, outcome, ecological
+effect, complaint and local control, with a public or lower-capability
+comparator.
+
 ## Strongest open conversion lanes
 
 1. **Facility-to-household incidence:** AI/data-centre, transmission, water,

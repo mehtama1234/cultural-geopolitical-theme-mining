@@ -147,3 +147,18 @@ The next acquisition is a named method/project/community chain through baseline,
 inputs, measured removal, permanence, lifecycle emissions, credit use, consent,
 benefit receipt, liability and later verification, compared with direct
 abatement and non-deployment alternatives.
+
+## Synthetic-biology capability and biorisk comparator
+
+Synthetic biology tests whether the portfolio can follow a distributed
+technology rather than a single asset. A strategy, biofoundry, workforce plan,
+dual-use tool or public consultation can establish governance architecture
+without establishing safe deployment, affordable access, local ownership,
+ecological benefit or meaningful community authority. The relevant chain runs
+from biological input and data through design, IP, lab, manufacturing, regulator
+and user, with biorisk and benefit sharing visible at each stage.
+
+The next acquisition is a named country/lab/community/product chain through
+provenance, design, ownership, biosafety/biosecurity, manufacturing,
+authorization, cost, access, outcome, ecological effect, complaint and benefit
+distribution, compared with a public or lower-capability pathway.
