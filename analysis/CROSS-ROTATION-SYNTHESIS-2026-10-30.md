@@ -1,7 +1,7 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 334 unique registered packet paths, 339 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 464, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, LV, LW, LX, LY, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation, AI-gains-early-career-local-demand, aging-AI-adoption-care-labour, emerging-market-AI-adoption-depth, ocean-acidification-coastal-livelihood and portfolio-synthesis evidence integrated.
+**Inputs:** 334 unique registered packet paths, 339 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 465, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, LV, LW, LX, LY, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation, AI-gains-early-career-local-demand, aging-AI-adoption-care-labour, emerging-market-AI-adoption-depth, ocean-acidification-coastal-livelihood and portfolio-synthesis evidence integrated.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
@@ -314,6 +314,20 @@ The next acquisition is a paired coastal ledger joining chemistry, temperature,
 oxygen, species/catch, forecast, rule, tenure, adaptation cost, insurance,
 household food/income, women’s work, Indigenous/community authority, cultural
 practice, grievance and later ecological and livelihood outcomes.
+
+## Latest two-rotation portfolio refresh — 2026-10-30
+
+The emerging-market AI and ocean-acidification rotations extend the same
+conversion lens into development and ecology: **local adaptation is the bridge
+between global pressure and durable capability**. AI use can spread while local
+data, language, skills and value retention remain shallow; ocean chemistry can
+be globally measured while species, tenure, food, income, culture and authority
+remain locally uneven.
+
+The portfolio synthesis now prioritizes a matched technical/ecological signal to
+named firm, public service, fisher, household, worker or community chain through
+access, adaptation, distribution, continuity and later bargaining power, with
+successful and exposed comparators.
 
 ## Strongest open conversion lanes
 

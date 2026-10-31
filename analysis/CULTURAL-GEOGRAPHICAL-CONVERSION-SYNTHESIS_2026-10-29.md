@@ -3906,6 +3906,7 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 462. **Continuity, control and distribution are the social test of capability.** A repaired route, backup system, participation control, productivity estimate, occupational premium, demographic adoption response or AI product can close a system, platform, firm or policy stage while a named person's, worker's, older user's, caregiver's, small firm's, household's or place's ability to continue, control, benefit, receive care, retain voice and sustain durable agency remains unobserved.
 463. **AI adoption is not AI capability or local value.** A firm-use percentage, AI strategy, imported tool, digital-service export, frontier partnership or expected productivity gain can close an access or experimentation stage while local data, language, skills, organizational learning, worker outcomes, supplier spillovers, public-service quality, value retention and geopolitical dependence remain unobserved.
 464. **Ocean monitoring or adaptation finance is not coastal livelihood continuity.** A pH trend, vulnerability map, regional network, fishery plan, insurance payout, aquaculture intervention or blue-economy project can close a science, planning or financial stage while a named fisher, household, women’s value-chain worker, Tribe, subsistence community or coastal place's food, income, safety, cultural practice, authority and durable adaptation remain unobserved.
+465. **Local adaptation is the bridge between global pressure and durable capability.** A global AI, demographic, ocean-chemistry, climate or geopolitical signal plus a local firm, public-service, fishery, insurance, governance or adaptation intervention can close discovery, planning, access or experimentation while a named user's, worker's, fisher's, household's or community's local learning, value retention, food, income, care, culture, authority, continuity and later bargaining power remain unobserved.
 
 ## What the evidence does not support
 
@@ -3925,7 +3926,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 464 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 465 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 

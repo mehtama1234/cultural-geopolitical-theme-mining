@@ -100,3 +100,21 @@ substitute for same-unit continuity, causal attribution or lived outcome.
 The four latest rotations close discovery and comparison stages for these
 bounded mechanisms, not causal attribution, representativeness, household or
 user welfare, care quality, worker agency, local demand, durability or power.
+
+## Latest two-rotation refresh
+
+The emerging-market AI and ocean-acidification rotations extend the same lens
+into development and ecology: **local adaptation is the bridge between global
+pressure and durable capability**.
+
+- **AI adoption depth:** access and use can spread quickly while adaptation,
+  skills, data/language fit, value retention and local learning remain shallow.
+- **Coastal livelihood continuity:** global chemistry and regional finance can be
+  visible while species, tenure, food, income, cultural practice and authority
+  remain unevenly protected.
+
+The new false completion is to treat a global signal plus a local intervention
+as local capability. The next portfolio test joins the technical/ecological
+signal to a named firm, public service, fisher, household, worker or community,
+then follows access, adaptation, distribution, continuity and later bargaining
+power with both successful and exposed comparators.
