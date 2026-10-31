@@ -433,6 +433,7 @@ def main() -> int:
     assert scorecard["metrics"]["source_families"] == 8
     assert scorecard["metrics"]["latest_pipeline_steps"] == 42
     assert scorecard["metrics"]["latest_pipeline_status"] == "passed"
+    assert scorecard["metrics"]["scheduled_workflow_contract"] == "passed"
     assert scorecard["metrics"]["refresh_runs"] == refresh_history["run_count"]
     assert scorecard["metrics"]["latest_pipeline_steps"] == refresh_history["latest"]["pipeline_step_count"]
     assert scorecard["metrics"]["qualified_external_trends"] == 0

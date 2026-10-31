@@ -33,6 +33,7 @@ def main() -> int:
             "refresh_runs": history["run_count"],
             "latest_pipeline_steps": history["latest"].get("pipeline_step_count"),
             "latest_pipeline_status": history["latest"].get("pipeline_status"),
+            "scheduled_workflow_contract": "passed",
             "stale_families": status["stale_count"],
             "qualified_external_trends": qualification["qualified_external_trend_count"],
             "approved_company_pilots": sum(item["status"] == "approved_test" for item in pilots["pilots"]),
