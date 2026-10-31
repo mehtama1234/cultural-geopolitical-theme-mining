@@ -43,6 +43,7 @@
         <p class="tag">Company trend intelligence</p>
         <h1>See the change before it becomes obvious.</h1>
         <p class="lede">A source-traceable atlas for customer, workforce, product, financial, operational, cultural, institutional, and geopolitical decisions. Each card separates evidence from implication and keeps the next test visible.</p>
+        <p class="status" id="updated">Loading portfolio…</p>
         <nav>
           <a href="../../COMPANY_TREND_INTELLIGENCE_GOAL_V1.md">Read the goal</a>
           <a href="INDEX.md">Open the index</a>
@@ -132,6 +133,7 @@
       return response.json();
     }).then(portfolio => {
       const records = portfolio.records;
+      document.querySelector('#updated').textContent = `Updated ${portfolio.updated} · ${records.length} qualified trend records`;
       renderOverview(records);
       [...new Set(records.flatMap(r => r.domains))].sort().forEach(value => domainSelect.append(option(value, value.replaceAll('_', ' '))));
       [...new Set(records.map(r => r.status))].sort().forEach(value => statusSelect.append(option(value, value.replaceAll('_', ' '))));
