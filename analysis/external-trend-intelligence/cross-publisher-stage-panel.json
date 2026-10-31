@@ -1,0 +1,329 @@
+{
+  "schema": "external-trend-intelligence.cross-publisher-stage-panel.v1",
+  "subset_id": "australia-remedy-cross-publisher-panel-001",
+  "case_count": 5,
+  "publisher_families": [
+    "Fair Work Commission",
+    "Fair Work Ombudsman"
+  ],
+  "stage_definitions": {
+    "formal_response": [
+      "reactivation_order",
+      "reactivation",
+      "procedural_finding",
+      "remedy",
+      "compensation_order"
+    ],
+    "implementation": [
+      "deemed_work_during_interruption",
+      "payment_deadline_days",
+      "lost_pay_confer_direction"
+    ],
+    "receipt": [
+      "payment_receipt_observed",
+      "workers_reported_receiving",
+      "payment_receipt_and_later_work"
+    ],
+    "durable_access": [
+      "actual_access_after_order_observed",
+      "continued_work_or_switching_observed",
+      "later_continued_use_or_exit_observed",
+      "payment_and_durability"
+    ],
+    "substitution_or_exit": [
+      "alternative_employment_search",
+      "baysec_substitute_earnings",
+      "didi_post_deactivation_earnings",
+      "continued_work_or_switching_observed",
+      "later_continued_use_or_exit_observed"
+    ]
+  },
+  "cases": [
+    {
+      "record_id": "au-al-hussein-reactivation-deemed-work-2025",
+      "publisher_family": null,
+      "geography": "Australia; comparative case used to test platform remedy and recovery stages in the US-centered atlas",
+      "stages": {
+        "formal_response": {
+          "status": "observed",
+          "measure_refs": {
+            "reactivation_order": {
+              "value": 1,
+              "unit": "reactivation ordered",
+              "period": "2025-10-17; merits decision",
+              "status": "observed"
+            }
+          }
+        },
+        "implementation": {
+          "status": "observed",
+          "measure_refs": {
+            "deemed_work_during_interruption": {
+              "value": 1,
+              "unit": "deemed-work remedy stage ordered",
+              "period": "2025-10-17; merits decision",
+              "status": "observed"
+            },
+            "lost_pay_confer_direction": {
+              "value": 1,
+              "unit": "parties directed to confer and report by 2025-11-07",
+              "period": "2025-10-31; lost-pay confer direction",
+              "status": "reported"
+            }
+          }
+        },
+        "receipt": {
+          "status": "observed",
+          "measure_refs": {
+            "payment_receipt_observed": {
+              "value": 0,
+              "unit": "public payment-receipt records located",
+              "period": "2026-09-18; targeted public implementation recheck",
+              "status": "open"
+            }
+          }
+        },
+        "durable_access": {
+          "status": "observed",
+          "measure_refs": {
+            "actual_access_after_order_observed": {
+              "value": 0,
+              "unit": "public account-access records located",
+              "period": "2026-09-18; targeted public implementation recheck",
+              "status": "open"
+            },
+            "continued_work_or_switching_observed": {
+              "value": 0,
+              "unit": "public later-work or switching records located",
+              "period": "2026-09-18; targeted public implementation recheck",
+              "status": "open"
+            }
+          }
+        },
+        "substitution_or_exit": {
+          "status": "observed",
+          "measure_refs": {
+            "continued_work_or_switching_observed": {
+              "value": 0,
+              "unit": "public later-work or switching records located",
+              "period": "2026-09-18; targeted public implementation recheck",
+              "status": "open"
+            }
+          }
+        }
+      }
+    },
+    {
+      "record_id": "au-fwc-khan-platform-repeat-deactivation-2026",
+      "publisher_family": null,
+      "geography": "Australia; Uber Eats delivery platform, FWC UDE2025/185",
+      "stages": {
+        "formal_response": {
+          "status": "observed",
+          "measure_refs": {
+            "procedural_finding": {
+              "value": "Commission found warnings and deactivation inconsistent with the Digital Labour Platform Deactivation Code and found no valid reason for final deactivation",
+              "unit": "adjudicated procedural finding",
+              "period": "August 2024 through January 12, 2026; repeated complaint, block, reactivation, deactivation, and order sequence",
+              "status": "observed"
+            },
+            "remedy": {
+              "value": "reactivation, deemed work from July 20, 2025 until reactivation, and lost-pay quantum to be discussed by the parties",
+              "unit": "reported remedy order",
+              "period": "August 2024 through January 12, 2026; repeated complaint, block, reactivation, deactivation, and order sequence",
+              "status": "observed"
+            }
+          }
+        },
+        "implementation": {
+          "status": "not_observed_in_public_record",
+          "measure_refs": {}
+        },
+        "receipt": {
+          "status": "not_observed_in_public_record",
+          "measure_refs": {}
+        },
+        "durable_access": {
+          "status": "observed",
+          "measure_refs": {
+            "payment_and_durability": {
+              "value": "not observed",
+              "unit": "missing final reactivation, lost-pay amount, payment receipt, post-order account activity, earnings, recurrence, alternative work, trust, and exit",
+              "period": "August 2024 through January 12, 2026; repeated complaint, block, reactivation, deactivation, and order sequence",
+              "status": "observed"
+            }
+          }
+        },
+        "substitution_or_exit": {
+          "status": "not_observed_in_public_record",
+          "measure_refs": {}
+        }
+      }
+    },
+    {
+      "record_id": "au-mansoor-platform-alternative-earnings-remedy-2025",
+      "publisher_family": null,
+      "geography": "Australia; comparative case used to test the platform-remedy stage of the US-centered atlas",
+      "stages": {
+        "formal_response": {
+          "status": "observed",
+          "measure_refs": {
+            "reactivation": {
+              "value": 1,
+              "unit": "reactivation on prior terms ordered",
+              "period": "2025-10-17; Fair Work Commission remedy order",
+              "status": "reported"
+            }
+          }
+        },
+        "implementation": {
+          "status": "observed",
+          "measure_refs": {
+            "payment_deadline_days": {
+              "value": 14,
+              "unit": "days after order date",
+              "period": "2025-10-17; Fair Work Commission remedy order",
+              "status": "reported"
+            }
+          }
+        },
+        "receipt": {
+          "status": "observed",
+          "measure_refs": {
+            "payment_receipt_observed": {
+              "value": 0,
+              "unit": "public payment-receipt records located",
+              "period": "2026-09-18; targeted public implementation recheck",
+              "status": "open"
+            }
+          }
+        },
+        "durable_access": {
+          "status": "observed",
+          "measure_refs": {
+            "actual_access_after_order_observed": {
+              "value": 0,
+              "unit": "public account-reactivation records located",
+              "period": "2026-09-18; targeted public implementation recheck",
+              "status": "open"
+            },
+            "later_continued_use_or_exit_observed": {
+              "value": 0,
+              "unit": "public later-use, switch, non-use, or exit records located",
+              "period": "2026-09-18; targeted public implementation recheck",
+              "status": "open"
+            }
+          }
+        },
+        "substitution_or_exit": {
+          "status": "observed",
+          "measure_refs": {
+            "baysec_substitute_earnings": {
+              "value": 9000.0,
+              "unit": "AUD received for work performed after deactivation",
+              "period": "2025-06-13; platform deactivation and subsequent substitute-work period",
+              "status": "observed"
+            },
+            "didi_post_deactivation_earnings": {
+              "value": 3044.0,
+              "unit": "AUD across the following four months as described by the Commission",
+              "period": "2025-06-13; platform deactivation and subsequent substitute-work period",
+              "status": "observed"
+            },
+            "later_continued_use_or_exit_observed": {
+              "value": 0,
+              "unit": "public later-use, switch, non-use, or exit records located",
+              "period": "2026-09-18; targeted public implementation recheck",
+              "status": "open"
+            }
+          }
+        }
+      }
+    },
+    {
+      "record_id": "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018",
+      "publisher_family": null,
+      "geography": "Adelaide, Australia",
+      "stages": {
+        "formal_response": {
+          "status": "not_observed_in_public_record",
+          "measure_refs": {}
+        },
+        "implementation": {
+          "status": "not_observed_in_public_record",
+          "measure_refs": {}
+        },
+        "receipt": {
+          "status": "observed",
+          "measure_refs": {
+            "workers_reported_receiving": {
+              "value": 10,
+              "unit": "drivers; institutionally reported",
+              "period": "2007\u20132009 underpayment; January 17, 2018 appeal-dismissal and payment follow-up",
+              "status": "reported"
+            }
+          }
+        },
+        "durable_access": {
+          "status": "not_observed_in_public_record",
+          "measure_refs": {}
+        },
+        "substitution_or_exit": {
+          "status": "not_observed_in_public_record",
+          "measure_refs": {}
+        }
+      }
+    },
+    {
+      "record_id": "comparative-australia-fwc-no-alternative-employment-remedy-2024",
+      "publisher_family": null,
+      "geography": "Australia",
+      "stages": {
+        "formal_response": {
+          "status": "observed",
+          "measure_refs": {
+            "compensation_order": {
+              "value": 8025,
+              "unit": "Australian dollars gross less tax plus 11.5% superannuation, payable by 2025-01-17",
+              "period": "July 8, 2024\u2013January 17, 2025; dismissal, unsuccessful job search, and compensation deadline",
+              "status": "observed"
+            }
+          }
+        },
+        "implementation": {
+          "status": "not_observed_in_public_record",
+          "measure_refs": {}
+        },
+        "receipt": {
+          "status": "observed",
+          "measure_refs": {
+            "payment_receipt_and_later_work": {
+              "value": "not observed",
+              "unit": "missing execution, receipt, net recovery, household, and post-order employment evidence",
+              "period": "July 8, 2024\u2013January 17, 2025; dismissal, unsuccessful job search, and compensation deadline",
+              "status": "observed"
+            }
+          }
+        },
+        "durable_access": {
+          "status": "not_observed_in_public_record",
+          "measure_refs": {}
+        },
+        "substitution_or_exit": {
+          "status": "observed",
+          "measure_refs": {
+            "alternative_employment_search": {
+              "value": "unsuccessful by the hearing",
+              "unit": "reported worker search outcome",
+              "period": "July 8, 2024\u2013January 17, 2025; dismissal, unsuccessful job search, and compensation deadline",
+              "status": "observed"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "status": "stage_coded_cross_publisher_panel",
+  "boundary": "Common stage labels expose comparable structure; they do not make case types, denominators, periods, publishers, or outcomes identical. This is not a backtest, prevalence estimate, causal finding, or company finding.",
+  "next_action": "Review underlying legal and administrative lineage, preserve publisher differences, and pre-specify an independent holdout before any promotion."
+}
