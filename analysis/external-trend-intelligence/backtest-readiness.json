@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.backtest-readiness.v1",
-  "candidate_count": 4,
-  "ready_for_design_review_count": 4,
+  "candidate_count": 5,
+  "ready_for_design_review_count": 5,
   "blocked_missing_local_record_count": 0,
   "rows": [
     {
@@ -77,6 +77,19 @@
       "snapshot_record_count": 7,
       "missing_snapshot_record_ids": [],
       "source_url_count": 26,
+      "status": "records_available_comparability_review",
+      "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
+    },
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "evidence_record_count": 2,
+      "local_record_path_count": 1,
+      "missing_local_record_paths": [
+        "analysis/records/us-urban-wbns-food-insecurity-persistence-2019-2025.json"
+      ],
+      "snapshot_record_count": 2,
+      "missing_snapshot_record_ids": [],
+      "source_url_count": 6,
       "status": "records_available_comparability_review",
       "boundary": "Pinned historical records make review possible but do not harmonize units, establish independence, or prove a backtest result."
     }

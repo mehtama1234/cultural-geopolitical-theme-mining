@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.candidate-lineage-dependency-review.v1",
   "purpose": "Explicit dependency review for candidate evidence before independence or trend qualification.",
-  "candidate_count": 4,
+  "candidate_count": 5,
   "rows": [
     {
       "candidate_id": "candidate-formal-response-before-recovery",
@@ -120,6 +120,20 @@
         "comparative-oecd-eu-social-economy-europe-2025-care-housing-delivery",
         "comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security",
         "comparative-world-bank-cloud-procurement-public-capability-lockin-2026"
+      ],
+      "independence_status": "unverified",
+      "promotion_decision": "hold",
+      "boundary": "Dependency groups identify reasons not to count records as independent. Records outside a group are not automatically independent; publisher, dataset, population, method, and outcome review remains required.",
+      "next_test": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+    },
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "evidence_record_count": 2,
+      "dependency_group_count": 0,
+      "dependency_groups": [],
+      "unclassified_record_ids": [
+        "comparative-usda-food-security-2022-2024",
+        "us-urban-wbns-food-insecurity-persistence-2019-2025"
       ],
       "independence_status": "unverified",
       "promotion_decision": "hold",

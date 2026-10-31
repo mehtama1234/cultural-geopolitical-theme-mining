@@ -35,6 +35,12 @@ BACKTEST_DESIGNS = {
         "outcome": "operation followed by reliability, tariff, bill, compensation, or acceptance outcome",
         "required_evidence": "dated event and outcome records linked by compatible geography and system unit",
     },
+    "candidate-us-food-insecurity-persistence": {
+        "status": "not_started",
+        "holdout": "next USDA annual release and next Urban WBNS release, with 2025 Urban methodology break preserved",
+        "outcome": "food-insecurity prevalence and subgroup persistence under clearly defined survey frames",
+        "required_evidence": "same questionnaire threshold, denominator, geography, and uncertainty treatment across at least one new release",
+    },
 }
 
 FALSIFIERS = {

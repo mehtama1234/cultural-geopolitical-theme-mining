@@ -1,9 +1,9 @@
 {
   "schema": "external-trend-intelligence.candidate-qualification-matrix.v1",
   "rubric": "trend-qualification-rubric.json",
-  "candidate_count": 4,
+  "candidate_count": 5,
   "qualified_external_trend_count": 0,
-  "held_count": 4,
+  "held_count": 5,
   "rows": [
     {
       "candidate_id": "candidate-formal-response-before-recovery",
@@ -152,10 +152,47 @@
       "source_host_count": 14,
       "next_action": "Link capacity or ownership claims to operation, actual receipt, local burden, maintenance, and acceptance.",
       "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "title": "U.S. food insecurity remains elevated after pandemic support changes",
+      "source_status": "qualified_candidate",
+      "gate_status": "held",
+      "gates": {
+        "source_identity": true,
+        "comparability": false,
+        "independence": false,
+        "persistence": false,
+        "counter_signal": true,
+        "falsifier": false,
+        "backtest": false,
+        "decision_relevance": false
+      },
+      "passed_gate_count": 2,
+      "gate_count": 8,
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "backtest_plan": {
+        "status": "not_started",
+        "holdout": "next USDA annual release and next Urban WBNS release, with 2025 Urban methodology break preserved",
+        "outcome": "food-insecurity prevalence and subgroup persistence under clearly defined survey frames",
+        "required_evidence": "same questionnaire threshold, denominator, geography, and uncertainty treatment across at least one new release"
+      },
+      "falsifier": "A later comparable release that reverses the stated mechanism would falsify the candidate.",
+      "evidence_record_count": 2,
+      "source_host_count": 2,
+      "next_action": "Align USDA and Urban definitions, preserve the methodology break, and acquire the next comparable release before any monitored state or internal bridge.",
+      "internal_bridge_ready": false
     }
   ],
   "backtest_status_counts": {
-    "not_started": 4
+    "not_started": 5
   },
   "boundary": "This matrix is conservative: absent evidence is a failed gate, not an inferred pass. A qualified candidate is not automatically a qualified trend or an internal company finding. A backtest plan is not a backtest result."
 }

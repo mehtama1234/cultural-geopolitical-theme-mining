@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.backtest-comparability-review.v1",
-  "candidate_count": 4,
+  "candidate_count": 5,
   "comparable_subset_candidate_count": 0,
-  "harmonization_required_count": 4,
+  "harmonization_required_count": 5,
   "rows": [
     {
       "candidate_id": "candidate-formal-response-before-recovery",
@@ -751,6 +751,53 @@
         "denominator_harmonization",
         "geography_harmonization",
         "measure_unit_harmonization",
+        "single_denominator_unit",
+        "single_geography",
+        "single_measure_unit"
+      ],
+      "next_action": "Define a common unit, population, geography, and period before selecting a holdout window."
+    },
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "record_count": 2,
+      "periods": [
+        "2022",
+        "2023",
+        "2024",
+        "December 2019\u2013December 2025; annual working-age series",
+        "December 2025; age expansion",
+        "December 2025; working-age adults by household and income context"
+      ],
+      "geographies": [
+        "United States",
+        "United States; households"
+      ],
+      "denominator_units": [
+        "U.S. households in the CPS Food Security Supplement",
+        "adults ages 18\u201364 in the published subgroup universe; exact analytic denominators not disclosed",
+        "adults ages 18\u201364; exact annual analytic denominators not disclosed in the published brief",
+        "all adults ages 18+ in the expanded 2025 WBNS; exact analytic denominators not disclosed"
+      ],
+      "measure_units": [
+        "percent",
+        "percent of households food insecure at some time during the year",
+        "percent of households with very low food security"
+      ],
+      "outcome_measures": [],
+      "flags": {
+        "periods_present": true,
+        "geographies_present": true,
+        "single_geography": false,
+        "single_denominator_unit": false,
+        "single_measure_unit": false,
+        "outcome_measure_present": false
+      },
+      "status": "harmonization_required",
+      "blocking_items": [
+        "denominator_harmonization",
+        "geography_harmonization",
+        "measure_unit_harmonization",
+        "outcome_measure_present",
         "single_denominator_unit",
         "single_geography",
         "single_measure_unit"

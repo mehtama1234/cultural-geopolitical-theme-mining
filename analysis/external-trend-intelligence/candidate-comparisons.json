@@ -239,6 +239,44 @@
         "independence_status": "unverified",
         "interpretation": "Distinct hosts and URLs are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
       }
+    },
+    {
+      "id": "candidate-us-food-insecurity-persistence",
+      "title": "U.S. food insecurity remains elevated after pandemic support changes",
+      "status": "qualified_candidate",
+      "evidence_record_ids": [
+        "comparative-usda-food-security-2022-2024",
+        "us-urban-wbns-food-insecurity-persistence-2019-2025"
+      ],
+      "mechanism": "support and price changes -> persistent food-access strain -> unequal hardship by income, age, and household context",
+      "counter_signal": "USDA reports the 2024 increase was not statistically significant versus 2023, while the Urban series declined in 2024 before remaining high in 2025.",
+      "next_comparison": "Align the USDA annual household series with the Urban six-item survey series, preserve the 2025 Urban method change, and hold out the next release before promotion.",
+      "lineage_review": {
+        "status": "partial",
+        "primary_artifact_count": 2,
+        "independence_status": "partially_reviewed",
+        "assessment": "USDA ERS and Urban Institute are distinct publishers and survey programs; Urban uses the six-item USDA module but administers a separate survey with different frame and reporting unit.",
+        "remaining": "Household versus adult-respondent denominator, questionnaire threshold, uncertainty disclosure, and 2025 methodology change require explicit harmonization."
+      },
+      "coverage": {
+        "evidence_record_count": 2,
+        "source_host_count": 2,
+        "source_host_counts": {
+          "ers.usda.gov": 2,
+          "urban.org": 1
+        },
+        "unique_source_url_count": 6,
+        "duplicate_source_urls": {},
+        "program_theme_counts": {
+          "household_room_consumption": 2,
+          "unequal_exposure_status": 2,
+          "time_hidden_price": 1,
+          "public_systems_feedback": 1,
+          "political_judgment_action": 1
+        },
+        "independence_status": "unverified",
+        "interpretation": "Distinct hosts and URLs are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
+      }
     }
   ]
 }

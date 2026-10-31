@@ -73,7 +73,7 @@ def main() -> int:
     )
     machine = json.loads((ANALYSIS / "candidate-comparisons.json").read_text())
     assert machine["schema"] == "external-trend-intelligence.candidate-comparisons.v1"
-    assert len(machine["candidates"]) == 4
+    assert len(machine["candidates"]) == 5
     for candidate in machine["candidates"]:
         assert candidate["status"] == "qualified_candidate"
         assert candidate["evidence_record_ids"]
@@ -407,8 +407,8 @@ def main() -> int:
     assert contract_audit["contract_gap_count"] == 0
     qualification_matrix = json.loads((ANALYSIS / "candidate-qualification-matrix.json").read_text())
     assert qualification_matrix["schema"] == "external-trend-intelligence.candidate-qualification-matrix.v1"
-    assert qualification_matrix["candidate_count"] == 4
-    assert qualification_matrix["held_count"] == 4
+    assert qualification_matrix["candidate_count"] == 5
+    assert qualification_matrix["held_count"] == 5
     assert qualification_matrix["qualified_external_trend_count"] == 0
     pilot_register = json.loads((ANALYSIS / "pilot-register.json").read_text())
     assert pilot_register["schema"] == "external-trend-intelligence.pilot-register.v1"
@@ -427,15 +427,15 @@ def main() -> int:
     assert all(item["rights_status"] and item["publisher_dependence"] for item in controls["families"])
     backtest_readiness = json.loads((ANALYSIS / "backtest-readiness.json").read_text())
     assert backtest_readiness["schema"] == "external-trend-intelligence.backtest-readiness.v1"
-    assert backtest_readiness["candidate_count"] == 4
-    assert backtest_readiness["ready_for_design_review_count"] == 4
+    assert backtest_readiness["candidate_count"] == 5
+    assert backtest_readiness["ready_for_design_review_count"] == 5
     assert backtest_readiness["blocked_missing_local_record_count"] == 0
     snapshot = json.loads((ANALYSIS / "backtest-source-snapshot.json").read_text())
     assert snapshot["schema"] == "external-trend-intelligence.backtest-source-snapshot.v1"
-    assert snapshot["record_count"] == 29
+    assert snapshot["record_count"] == 31
     comparability = json.loads((ANALYSIS / "backtest-comparability-review.json").read_text())
     assert comparability["schema"] == "external-trend-intelligence.backtest-comparability-review.v1"
-    assert comparability["candidate_count"] == 4
+    assert comparability["candidate_count"] == 5
     assert comparability["comparable_subset_candidate_count"] == 0
     bounded = json.loads((ANALYSIS / "bounded-subset-register.json").read_text())
     assert bounded["schema"] == "external-trend-intelligence.bounded-subset-register.v1"
@@ -607,6 +607,7 @@ def main() -> int:
         "candidate-time-financial-pressure-practical-room",
         "candidate-digital-capability-control-trust",
         "candidate-infrastructure-dependency-power",
+        "candidate-us-food-insecurity-persistence",
         "candidate-care-longevity-access-capacity",
         "candidate-adaptation-control-proof-resilience",
     }
