@@ -554,7 +554,7 @@ def main() -> int:
     assert any(row["measure"] == "would_cover_400_dollar_emergency" for row in us_comparison["rows"])
     acquisition_rights = json.loads((ANALYSIS / "external-acquisition-rights-review.json").read_text())
     assert acquisition_rights["schema"] == "external-trend-intelligence.external-acquisition-rights-review.v1"
-    assert len(acquisition_rights["rows"]) == 2
+    assert len(acquisition_rights["rows"]) == 3
     assert all(row["rights_evidence_status"] == "official_policy_identified_exact_artifact_review_open" for row in acquisition_rights["rows"])
     assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
