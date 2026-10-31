@@ -152,6 +152,11 @@
       <div class="promotion-gates" id="goal-audit"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Evidence acquisition queue</h2>
+      <p class="muted">These tracks define the next external-only evidence work and its stop rules.</p>
+      <div class="promotion-gates" id="acquisition-queue"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Independent mechanism comparison</h2>
       <p class="muted">Independent publishers can challenge a mechanism without making unlike populations numerically comparable.</p>
       <div class="promotion-gates" id="independent-comparison"></div>
@@ -470,6 +475,9 @@
       fetch('goal-completion-audit.json').then(r => r.json()).then(audit => {
         el('goal-audit').append(card(audit.overall_status, audit.release_status, audit.next_action));
         audit.requirements.forEach(item => el('goal-audit').append(card(item.id.replaceAll('_', ' '), item.status, `${item.gap} Evidence: ${item.evidence.join(', ')}`)));
+      });
+      fetch('evidence-acquisition-plan.json').then(r => r.json()).then(plan => {
+        plan.tracks.forEach(track => el('acquisition-queue').append(card(track.track_id.replaceAll('-', ' '), track.owner, `${track.target_source}. Acceptance: ${track.acceptance_criteria.join(' · ')} Stop: ${track.stop_rule}`)));
       });
       el('independent-comparison').append(independentComparisonCard(independentComparison));
       fetch('room-independent-comparison.json').then(r => r.json()).then(room => {
