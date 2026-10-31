@@ -6,6 +6,8 @@ This folder is the operating layer for the company-facing goal in
 Start with the [company trend-intelligence index](INDEX.md), then use the
 schema and template to extend the record set.
 
+For frontend integration and handoff instructions, read [HANDOFF.md](HANDOFF.md).
+
 The existing 14-theme atlas remains the evidence base. These records add the
 business translation needed by strategy, product, risk, finance, operations,
 people, and public-affairs teams.
