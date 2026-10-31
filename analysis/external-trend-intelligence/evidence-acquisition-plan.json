@@ -6,7 +6,7 @@
       "track_id": "time-pressure-independent-holdout",
       "candidate_id": "candidate-time-financial-pressure-practical-room",
       "status": "partial_bridge_found",
-      "progress_evidence": "HILDA household cash-flow and emergency-fund measures are now recorded for 2020 and 2023 in room-independent-comparison.json.",
+      "progress_evidence": "HILDA household cash-flow and emergency-fund measures are now recorded for 2020 and 2023 in room-independent-comparison.json; the normalized observation manifest also contains comparative-hilda-australia-household-security-2026.",
       "remaining_gap": "No independent household measure yet reaches the ABS 2025 endpoint with a reconciled definition.",
       "target_source": "An independent household-finance or purchase-behavior series with Australia coverage and a period overlapping ABS GSS 2020/2025",
       "required_fields": ["publisher", "population", "geography", "period", "denominator", "unit", "question_or_measure_definition", "source_url", "rights_basis", "method_change_notes"],
