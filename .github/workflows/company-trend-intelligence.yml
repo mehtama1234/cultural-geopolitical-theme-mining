@@ -1,0 +1,31 @@
+name: Company trend intelligence validation
+
+on:
+  push:
+    paths:
+      - 'COMPANY_TREND_INTELLIGENCE_GOAL_V1.md'
+      - 'analysis/company-trend-intelligence/**'
+      - 'scripts/validate_company_trend_intelligence.py'
+      - '.github/workflows/company-trend-intelligence.yml'
+  pull_request:
+    paths:
+      - 'COMPANY_TREND_INTELLIGENCE_GOAL_V1.md'
+      - 'analysis/company-trend-intelligence/**'
+      - 'scripts/validate_company_trend_intelligence.py'
+      - '.github/workflows/company-trend-intelligence.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validate company trend portfolio
+        run: python3 scripts/validate_company_trend_intelligence.py
