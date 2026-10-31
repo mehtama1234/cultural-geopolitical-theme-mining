@@ -29,6 +29,7 @@
     .held-candidates { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:16px; margin-top:16px; }
     .measurements { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin-top:16px; }
     .promotion-gates { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
+    .source-families { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:16px; }
     article { display:flex; flex-direction:column; gap:8px; }
     article h3 { margin:0; font-size:1.05rem; line-height:1.25; }
     .pill { display:inline-block; width:max-content; border-radius:999px; padding:3px 9px; background:var(--soft); color:var(--accent); font-size:.75rem; font-weight:750; text-transform:uppercase; }
@@ -91,6 +92,11 @@
       <h2>Promotion gates</h2>
       <p class="muted">A candidate cannot move to internal company testing until its external evidence gates pass.</p>
       <div class="promotion-gates" id="promotion-queue"></div>
+    </section>
+    <section style="margin-top:28px">
+      <h2>External source families and refresh cadence</h2>
+      <p class="muted">These families feed discovery. The cadence is a maintenance trigger, not proof that sources are independent or continuously available.</p>
+      <div class="source-families" id="source-families"></div>
     </section>
     <footer>Serve this directory over HTTP to load the JSON manifests. Source records remain authoritative; this board is a reader. Release: <code id="release-commit">—</code></footer>
   </main>
@@ -165,6 +171,16 @@
       const bridge = document.createElement('code'); bridge.textContent = `internal bridge ready: ${candidate.internal_bridge_ready}`;
       article.append(pill, title, gates, next, bridge); return article;
     }
+    function sourceFamilyCard(family, schedule) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = family.status.replaceAll('_', ' ');
+      const title = document.createElement('h3'); title.textContent = family.id.replaceAll('-', ' ');
+      const role = document.createElement('p'); role.innerHTML = `<strong>Role:</strong> ${family.role}`;
+      const cadence = document.createElement('p'); cadence.innerHTML = `<strong>Refresh:</strong> ${schedule.cadence}`;
+      const trigger = document.createElement('p'); trigger.innerHTML = `<strong>Trigger:</strong> ${schedule.trigger}`;
+      const boundary = document.createElement('p'); boundary.innerHTML = `<strong>Boundary:</strong> ${family.evidence_boundary}`;
+      article.append(pill, title, role, cadence, trigger, boundary); return article;
+    }
     Promise.all([
       fetch('observation-manifest.json').then(r => r.json()),
       fetch('candidate-comparisons.json').then(r => r.json()),
@@ -175,7 +191,8 @@
       fetch('care-capacity-comparable-subset.json').then(r => r.json()),
       fetch('release-manifest.json').then(r => r.json()),
       fetch('promotion-queue.json').then(r => r.json()),
-    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidates, careSubset, release, promotionQueue]) => {
+      fetch('refresh-schedule.json').then(r => r.json()),
+    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidates, careSubset, release, promotionQueue, refreshSchedule]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -196,6 +213,11 @@
       const heldCards = el('held-candidates'); heldCandidates.candidates.forEach(item => heldCards.append(heldCandidateCard(item)));
       const measurements = el('care-measurements'); careSubset.measures.forEach(measure => measurements.append(measurementCard(measure)));
       const queue = el('promotion-queue'); promotionQueue.candidates.forEach(candidate => queue.append(promotionCard(candidate)));
+      const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
+      const sourceFamilies = el('source-families'); sourceRegistry.source_families.forEach(family => {
+        const schedule = schedules.get(family.id);
+        if (schedule) sourceFamilies.append(sourceFamilyCard(family, schedule));
+      });
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
   </script>
 </body>
