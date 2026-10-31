@@ -24,6 +24,12 @@ news or public discussion. Public discussion can discover a signal; research,
 official records, market data, or other independent evidence must qualify or
 confirm it.
 
+Validate the portfolio and every linked record with:
+
+```bash
+python3 scripts/validate_company_trend_intelligence.py
+```
+
 ## Lifecycle
 
 ```text
