@@ -483,6 +483,8 @@ def main() -> int:
     assert release_health["sections"]["denominator_reconciliation"]["pooling_decision"] == "do_not_pool"
     assert release_health["sections"]["denominator_reconciliation"]["status"] == "hold"
     assert release_health["sections"]["independent_source_comparison"]["comparison_status"] == "mechanism_comparison_only"
+    assert release_health["sections"]["independent_source_comparison"]["mechanism_comparison_source_family_count"] == 3
+    assert "JPMorganChase Institute household liquidity study" in release_health["sections"]["independent_source_comparison"]["mechanism_comparison_source_families"]
     bounded_lineage = json.loads((ANALYSIS / "bounded-subset-lineage-review.json").read_text())
     assert bounded_lineage["schema"] == "external-trend-intelligence.bounded-subset-lineage-review.v1"
     assert bounded_lineage["record_count"] == 5

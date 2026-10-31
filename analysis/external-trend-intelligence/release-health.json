@@ -31,6 +31,13 @@
       "status": "hold",
       "comparison_status": "mechanism_comparison_only",
       "additional_mechanism_comparisons": 1,
+      "mechanism_comparison_source_families": [
+        "Federal Reserve Board Survey of Household Economics and Decisionmaking (SHED)",
+        "U.S. Department of Agriculture Economic Research Service, Household Food Security in the United States",
+        "JPMorganChase Institute household liquidity study"
+      ],
+      "mechanism_comparison_source_family_count": 3,
+      "rights_boundary": "The JPMorganChase snapshot carries a restrictive republication notice; its values are retained as normalized metadata and a mechanism challenge only.",
       "directional_agreement_status": "directional_agreement_mechanism_only"
     },
     "temporal_holdout": {

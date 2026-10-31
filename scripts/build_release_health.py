@@ -25,6 +25,7 @@ def main() -> int:
     controls = load("source-family-controls.json")
     independent = load("independent-stage-comparison.json")
     room_comparison = load("room-independent-comparison.json")
+    us_financial_comparison = load("us-financial-room-independent-comparison.json")
     rights_evidence = load("rights-evidence-register.json")
     holdout = load("temporal-holdout-result.json")
     denominator = load("denominator-reconciliation-review.json")
@@ -55,6 +56,9 @@ def main() -> int:
             "status": "hold" if independent["status"] != "qualified_comparison" else "pass",
             "comparison_status": independent["status"],
             "additional_mechanism_comparisons": 1 if room_comparison["status"] == "mechanism_comparison_only" else 0,
+            "mechanism_comparison_source_families": us_financial_comparison.get("source_families", []),
+            "mechanism_comparison_source_family_count": len(us_financial_comparison.get("source_families", [])),
+            "rights_boundary": "The JPMorganChase snapshot carries a restrictive republication notice; its values are retained as normalized metadata and a mechanism challenge only.",
             "directional_agreement_status": "directional_agreement_mechanism_only" if room_comparison.get("status") == "mechanism_comparison_only" else room_comparison.get("status"),
         },
         "temporal_holdout": {
