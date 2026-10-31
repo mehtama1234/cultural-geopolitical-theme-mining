@@ -29,9 +29,12 @@ across 48 observed sectors is present. The full finding remains held until the
 expanded sample's outcomes and source independence are independently checked.
 
 A first [bounded traceability sample](ibis-finding-claim-sample.json) now
-traces 100 matched industries across observed sectors and their claim-level
-source IDs and URLs.
-This is progress toward the gate, not full-finding validation.
+traces 100 matched industries across 48 observed sectors and 24 non-matching
+comparator industries across 18 sectors, with claim-level source IDs, URLs,
+publisher identities, and source types. The non-matching records are explicit
+counterexample candidates; they are not proof that the finding is false or
+that the pattern engine's threshold is unbiased. This is progress toward the
+gate, not full-finding validation.
 
 Next test:
 
@@ -41,8 +44,11 @@ Next test:
    artifacts and source inventory.
 3. Attach source IDs, URLs, publisher identity, period, geography, unit, and
    claim type to a bounded sample.
-4. Add at least one counterexample and one outcome measure.
-5. Keep the finding held until the sample is traceable and independently
+4. Review the 24 comparator candidates against at least one independent
+   outcome measure and document why each comparator is informative.
+5. Check publisher dependence and shared URLs at claim level, then expand the
+   outcome sample before promotion.
+6. Keep the finding held until the sample is traceable and independently
    reviewed.
 
 ## Remaining medium-priority work
