@@ -20,6 +20,7 @@ FAMILIES = [
             "annual-report-research/README.md",
             "annual-report-research/START-HERE.md",
             "annual-report-research/analysis/company-first-principles/annual-report-final-integrated-theme-map-pass-1.md",
+            "annual-report-research/analysis/company-first-principles/annual-report-public-citation-source-list-pass-1.md",
             "annual-report-research/scripts/verify-trend-archive-json.py",
         ],
         "directory_prefixes": ["annual-report-research/analysis/", "annual-report-research/data/"],

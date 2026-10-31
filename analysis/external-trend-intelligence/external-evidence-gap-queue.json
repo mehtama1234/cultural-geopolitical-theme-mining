@@ -2,22 +2,8 @@
   "schema": "external-trend-intelligence.external-evidence-gap-queue.v1",
   "purpose": "Explicit next-review queue for external observations that cannot yet support independent trend promotion.",
   "gap_count": 10,
-  "high_priority_count": 7,
+  "high_priority_count": 6,
   "gaps": [
-    {
-      "observation_id": "annual-report-integrated-theme-map",
-      "family_id": "annual-report-research",
-      "title": "Annual-report integrated operating-pressure theme map",
-      "priority": "high",
-      "missing_evidence": [
-        "source URLs or filing identities for the underlying records",
-        "unit, geography, period, and denominator audit",
-        "independence review against the synthesis source"
-      ],
-      "shared_url_count": 0,
-      "shared_host_count": 0,
-      "decision": "hold"
-    },
     {
       "observation_id": "ibis-cross-industry-business-forces",
       "family_id": "ibis-industries",
@@ -96,6 +82,20 @@
       "missing_evidence": [
         "source URLs or filing identities for the underlying records",
         "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 0,
+      "shared_host_count": 0,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "annual-report-integrated-theme-map",
+      "family_id": "annual-report-research",
+      "title": "Annual-report integrated operating-pressure theme map",
+      "priority": "medium",
+      "missing_evidence": [
+        "publisher, filing, and artifact identity review for each URL",
+        "map citations to the specific theme or company record",
         "independence review against the synthesis source"
       ],
       "shared_url_count": 0,

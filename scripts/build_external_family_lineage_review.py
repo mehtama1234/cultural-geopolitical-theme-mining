@@ -55,6 +55,13 @@ def main() -> int:
                 "independence review against the synthesis source",
             ]
             status = "partial"
+        elif observation.get("source_url_status") == "present_in_artifact":
+            remaining = [
+                "publisher, filing, and artifact identity review for each URL",
+                "map citations to the specific theme or company record",
+                "independence review against the synthesis source",
+            ]
+            status = "partial"
         else:
             remaining = [
                 "source URLs or filing identities for the underlying records",

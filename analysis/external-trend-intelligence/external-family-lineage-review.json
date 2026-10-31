@@ -357,19 +357,30 @@
     },
     {
       "observation_id": "annual-report-integrated-theme-map",
-      "status": "not_started",
-      "source_url_count": 0,
-      "source_host_count": 0,
-      "source_hosts": [],
+      "status": "partial",
+      "source_url_count": 25,
+      "source_host_count": 10,
+      "source_hosts": [
+        "bn.brookfield.com",
+        "investors.mastec.com",
+        "ir.apollo.com",
+        "ir.ares.com",
+        "ir.kkr.com",
+        "www.blackstone.com",
+        "www.floridapsc.com",
+        "www.investor.nexteraenergy.com",
+        "www.psc.state.fl.us",
+        "www.sec.gov"
+      ],
       "duplicate_source_urls": {},
       "cross_observation_shared_urls": [],
       "cross_observation_shared_hosts": [],
       "denominator": null,
-      "source_url_status": "not_present_in_artifact",
+      "source_url_status": "present_in_artifact",
       "independence_status": "unverified",
       "remaining": [
-        "source URLs or filing identities for the underlying records",
-        "unit, geography, period, and denominator audit",
+        "publisher, filing, and artifact identity review for each URL",
+        "map citations to the specific theme or company record",
         "independence review against the synthesis source"
       ],
       "promotion_decision": "hold"

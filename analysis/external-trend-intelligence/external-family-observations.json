@@ -301,7 +301,7 @@
       "unit": "named themes",
       "observation_period": "Annual-report integrated theme map pass 1 at pinned revision",
       "geography": "not specified in the artifact",
-      "source_url_status": "not_present_in_artifact",
+      "source_url_status": "present_in_artifact",
       "evidence_status": "reported_synthesis",
       "boundary": "This is an editorial synthesis over an annual-report archive; it does not prove every company, cash flow, causal mechanism, or investment result.",
       "core_theme_count": 7,
@@ -323,7 +323,36 @@
         "Healthcare tools and medical infrastructure",
         "Energy affordability and supply route",
         "Ordinary finance"
-      ]
+      ],
+      "citation_source_path": "annual-report-research/analysis/company-first-principles/annual-report-public-citation-source-list-pass-1.md",
+      "source_urls": [
+        "https://bn.brookfield.com/sites/brookfield-bn-v2/files/Brookfield-BN-IR-V2/2026/Q2/2026-Q2-BN-Supplemental.pdf",
+        "https://bn.brookfield.com/sites/brookfield-bn-v2/files/Brookfield-BN-IR-V2/2026/Q2/Q2-26-Brookfield-Letter-to-Shareholders.pdf",
+        "https://investors.mastec.com/node/20456/html",
+        "https://investors.mastec.com/static-files/66dc3ba6-b539-4c37-8693-789360cc2db7",
+        "https://ir.apollo.com/_assets/_a556f37ed6c1e02d1a506a47b0d64e41/apollo/db/2247/22879/financial_supplement/Q2%2726+Financial+Supplement.xlsx",
+        "https://ir.apollo.com/sec-filings/content/0001858681-26-000040/0001858681-26-000040.pdf",
+        "https://ir.ares.com/media/document/580ab3f3-3635-4fe9-b1e0-3c7b95adc2ae/assets/ARES_2Q2026_10-Q.pdf?disposition=inline",
+        "https://ir.ares.com/news/ares-management-announces-second-quarter-2026-us-direct-lending-origination-activity/3a0619d9-6b06-4091-84af-556ab80b0f8d",
+        "https://ir.ares.com/news/ares-management-corporation-reports-second-quarter-2026-results/ad134858-5eeb-4533-aa55-0ad63d6d1217",
+        "https://ir.kkr.com/media/document/15a25fa9-8226-4da1-9ff3-027b9803d436/assets/KKR_Q226_Earnings_Release.pdf?disposition=inline",
+        "https://www.blackstone.com/blackstone2q26earningspressrelease/",
+        "https://www.floridapsc.com/pscfiles/library/filings/2025/15236-2025/15236-2025.pdf",
+        "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2026/Q2%202026/2026-0724%20NEEQ22026News%20Release%20vFINAL.pdf",
+        "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2026/Q2%202026/Q2%202026%20Earnings%20Slides_vF.pdf",
+        "https://www.psc.state.fl.us/library/FILINGS/2025/03306-2025/03306-2025.pdf",
+        "https://www.psc.state.fl.us/library/filings/2026/01940-2026/01940-2026.pdf",
+        "https://www.psc.state.fl.us/library/filings/2026/01960-2026/01960-2026.pdf",
+        "https://www.psc.state.fl.us/library/filings/2026/02560-2026/02560-2026.pdf",
+        "https://www.psc.state.fl.us/library/filings/2026/03227-2026/03227-2026.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1287750/000162828026050307/arcc-20260630.htm",
+        "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000027/kkr-20260630.htm",
+        "https://www.sec.gov/Archives/edgar/data/1736035/000173603526000016/bxsl-20260630.htm",
+        "https://www.sec.gov/Archives/edgar/data/1837429/000183742926000008/bnt-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000013/apo-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/37634/000075330826000028/neeq12026exhibit99.htm"
+      ],
+      "source_url_count": 25
     }
   ]
 }

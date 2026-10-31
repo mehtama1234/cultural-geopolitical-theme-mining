@@ -83,10 +83,12 @@ counts those observations as separate confirmation.
 
 [`external-evidence-gap-queue.json`](external-evidence-gap-queue.json) turns
 that audit into an explicit next-review queue. It currently contains ten held
-observation gaps, seven of them high priority because the pinned artifact does
-not expose source URLs or filing identities. The IBIS corpus now exposes its
+observation gaps, six of them high priority because the pinned artifact does
+not expose source URLs or filing identities. The annual-report theme map now
+links to its pinned public citation list, while the IBIS corpus exposes its
 separate source inventory (17,998 sources, including 17,087 public URLs), but
-those URLs still need to be mapped to specific findings before promotion.
+those citations and URLs still need to be mapped to specific findings before
+promotion.
 
 The first broader candidate built from these lanes is documented in
 [`CARE-CAPACITY-CANDIDATE.md`](CARE-CAPACITY-CANDIDATE.md) and

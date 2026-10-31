@@ -79,6 +79,9 @@ def main() -> int:
     trend_report = json.loads(show(TREND_REPO, TREND_REV, trend_path))
     theme_path = "annual-report-research/analysis/company-first-principles/annual-report-final-integrated-theme-map-pass-1.md"
     theme_map = show(ANNUAL_REPO, ANNUAL_REV, theme_path)
+    annual_citation_path = "annual-report-research/analysis/company-first-principles/annual-report-public-citation-source-list-pass-1.md"
+    annual_citation = show(ANNUAL_REPO, ANNUAL_REV, annual_citation_path)
+    annual_source_urls = sorted(set(re.findall(r"https?://[^ )|`]+", annual_citation)))
     theme_rows = re.findall(r"\| (Core|Expansion) \| ([^|]+) \|", theme_map)
     folder_match = re.search(r"`(\d+)` company folder", theme_map)
 
@@ -268,6 +271,10 @@ def main() -> int:
             expansion_theme_count=sum(1 for layer, _ in theme_rows if layer == "Expansion"),
             company_folder_reference=int(folder_match.group(1)) if folder_match else None,
             theme_names=[name.strip() for _, name in theme_rows],
+            citation_source_path=annual_citation_path,
+            source_urls=annual_source_urls,
+            source_url_count=len(annual_source_urls),
+            source_url_status="present_in_artifact",
             observation_period="Annual-report integrated theme map pass 1 at pinned revision",
         )
     )
