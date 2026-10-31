@@ -83,7 +83,7 @@ counts those observations as separate confirmation.
 
 [`external-evidence-gap-queue.json`](external-evidence-gap-queue.json) turns
 that audit into an explicit next-review queue. It currently contains ten held
-observation gaps, three of them high priority because the pinned artifact does
+observation gaps, two of them high priority because the pinned artifact does
 not expose source URLs or filing identities. The annual-report theme map now
 links to its pinned public citation list, while the IBIS corpus exposes its
 separate source inventory (17,998 sources, including 17,087 public URLs), but
@@ -99,6 +99,9 @@ The IBIS discovery-findings observation also records its three pinned pattern
 artifacts, while correctly keeping claim-level source identity as an open gap.
 The trend-hunting synthesis now resolves 33 URLs across its 16 pinned input
 artifacts; those inputs remain synthesis support, not independent outcome proof.
+The social atlas now also resolves 89 unique URLs from its pinned publication-evidence
+appendix; those citations do not turn platform discussion into representative
+prevalence evidence.
 
 The first broader candidate built from these lanes is documented in
 [`CARE-CAPACITY-CANDIDATE.md`](CARE-CAPACITY-CANDIDATE.md) and

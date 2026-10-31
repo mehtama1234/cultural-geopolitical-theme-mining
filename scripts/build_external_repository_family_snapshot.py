@@ -61,6 +61,7 @@ FAMILIES = [
             "analysis/social/integrated-trend-atlas-report.json",
             "analysis/social/multi-platform-collection-manifest.json",
             "analysis/social/publication-release-manifest.json",
+            "analysis/social/publication-evidence-appendix.md",
         ],
         "directory_prefixes": ["analysis/social/", "social-trends/"],
     },

@@ -78,6 +78,9 @@ def main() -> int:
     social_report = json.loads(show(SOCIAL_REPO, SOCIAL_REV, social_path))
     social_collection_path = "analysis/social/multi-platform-collection-manifest.json"
     social_collection = json.loads(show(SOCIAL_REPO, SOCIAL_REV, social_collection_path))
+    social_appendix_path = "analysis/social/publication-evidence-appendix.md"
+    social_appendix = show(SOCIAL_REPO, SOCIAL_REV, social_appendix_path)
+    social_appendix_urls = sorted(set(re.findall(r"https?://[^ )>`]+", social_appendix)))
     trend_path = "data/processed/ai_v7_deep_trend_synthesis_v1.json"
     trend_report = json.loads(show(TREND_REPO, TREND_REV, trend_path))
     trend_input_urls = set()
@@ -242,7 +245,11 @@ def main() -> int:
                     platform: sum(round_data.get("platforms", {}).get(platform, 0) for round_data in social_collection["rounds"])
                     for platform in sorted({platform for round_data in social_collection["rounds"] for platform in round_data.get("platforms", {})})
                 },
-                source_url_status="not_present_in_artifact",
+                publication_evidence_appendix_path=social_appendix_path,
+                publication_evidence_url_count=len(social_appendix_urls),
+                source_urls=social_appendix_urls,
+                source_url_status="present_in_artifact",
+                source_url_count=len(social_appendix_urls),
                 observation_period=f"Social atlas generated {social_report['generated_at']}",
             ),
             record(

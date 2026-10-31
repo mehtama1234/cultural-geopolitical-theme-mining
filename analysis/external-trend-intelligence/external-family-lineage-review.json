@@ -101,12 +101,29 @@
       "inc5000-health-longevity-demand-source-linked-share",
       "inc5000-rebuild-public-input-inventory"
     ],
+    "www.bls.gov": [
+      "ibis-cross-industry-business-forces",
+      "social-integrated-trend-atlas"
+    ],
     "www.cms.gov": [
       "ibis-cross-industry-business-forces",
       "inc5000-rebuild-public-input-inventory"
     ],
+    "www.eia.gov": [
+      "ibis-cross-industry-business-forces",
+      "social-integrated-trend-atlas"
+    ],
+    "www.energy.gov": [
+      "ibis-cross-industry-business-forces",
+      "social-integrated-trend-atlas"
+    ],
+    "www.epa.gov": [
+      "ibis-cross-industry-business-forces",
+      "social-integrated-trend-atlas"
+    ],
     "www.ftc.gov": [
       "inc5000-creator-brand-commerce-source-linked-share",
+      "social-integrated-trend-atlas",
       "trend-hunting-ai-deep-synthesis"
     ],
     "www.inc.com": [
@@ -376,7 +393,11 @@
       "duplicate_source_urls": {},
       "cross_observation_shared_urls": [],
       "cross_observation_shared_hosts": [
-        "www.cms.gov"
+        "www.bls.gov",
+        "www.cms.gov",
+        "www.eia.gov",
+        "www.energy.gov",
+        "www.epa.gov"
       ],
       "denominator": null,
       "source_url_status": "present_in_artifact",
@@ -390,19 +411,53 @@
     },
     {
       "observation_id": "social-integrated-trend-atlas",
-      "status": "not_started",
-      "source_url_count": 0,
-      "source_host_count": 0,
-      "source_hosts": [],
+      "status": "partial",
+      "source_url_count": 89,
+      "source_host_count": 27,
+      "source_hosts": [
+        "ich.unesco.org",
+        "nces.ed.gov",
+        "pubmed.ncbi.nlm.nih.gov",
+        "pubs.usgs.gov",
+        "unctad.org",
+        "www.bls.gov",
+        "www.consumerfinance.gov",
+        "www.cpsc.gov",
+        "www.ecfr.gov",
+        "www.eia.gov",
+        "www.energy.gov",
+        "www.energystar.gov",
+        "www.epa.gov",
+        "www.ers.usda.gov",
+        "www.fda.gov",
+        "www.federalregister.gov",
+        "www.federalreserve.gov",
+        "www.fsis.usda.gov",
+        "www.ftc.gov",
+        "www.gao.gov",
+        "www.iea.org",
+        "www.nccih.nih.gov",
+        "www.ncei.noaa.gov",
+        "www.newyorkfed.org",
+        "www.oecd.org",
+        "www.richmondfed.org",
+        "www.usgs.gov"
+      ],
       "duplicate_source_urls": {},
       "cross_observation_shared_urls": [],
-      "cross_observation_shared_hosts": [],
+      "cross_observation_shared_hosts": [
+        "www.bls.gov",
+        "www.eia.gov",
+        "www.energy.gov",
+        "www.epa.gov",
+        "www.ftc.gov"
+      ],
       "denominator": null,
-      "source_url_status": "not_present_in_artifact",
+      "source_url_status": "present_in_artifact",
       "independence_status": "unverified",
       "remaining": [
-        "source URLs or filing identities for the underlying records",
-        "unit, geography, period, and denominator audit",
+        "publisher, filing, and artifact identity review for each URL",
+        "map citations to the specific theme or company record",
         "independence review against the synthesis source"
       ],
       "promotion_decision": "hold"
