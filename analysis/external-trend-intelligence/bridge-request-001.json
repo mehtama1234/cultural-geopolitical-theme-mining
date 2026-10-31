@@ -1,0 +1,66 @@
+{
+  "schema": "external-trend-intelligence.internal-bridge.v1",
+  "bridge_id": "bridge-2026-001",
+  "candidate_id": "candidate-time-financial-pressure-practical-room",
+  "external_record_ids": [
+    "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+    "comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration",
+    "comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools",
+    "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+    "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection",
+    "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook",
+    "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging"
+  ],
+  "company_ref": {
+    "company_id": null,
+    "company_name": null,
+    "scope_note": "Company and workflow not yet selected; this is an open bridge request."
+  },
+  "internal_source_ref": {
+    "system": null,
+    "dataset": null,
+    "snapshot_or_query": null,
+    "owner": null
+  },
+  "entity_key": {
+    "field": null,
+    "value_or_crosswalk": null,
+    "identity_confidence": "unknown"
+  },
+  "geography": {
+    "external": "Multiple countries and places; source-specific",
+    "internal": null,
+    "compatibility": "unknown"
+  },
+  "period": {
+    "external": "Source-specific observation periods",
+    "internal": null,
+    "alignment": "unknown"
+  },
+  "join_basis": "no_valid_join",
+  "hypothesis": "In a selected company workflow, care/time constraint or lower schedule flexibility may be associated with task completion, delay, repeat effort, absence, or retention differences.",
+  "outcome": {
+    "measure": null,
+    "unit": null,
+    "expected_direction": "To be specified before analysis",
+    "decision_owner": null
+  },
+  "denominator": {
+    "external": "Source-specific; not pooled",
+    "internal": null,
+    "compatibility": "unknown"
+  },
+  "unmatched_records": [],
+  "rights_and_privacy": {
+    "access_basis": "Pending internal data-owner approval",
+    "privacy_class": "Not assessed",
+    "retention_limit": "Not assessed",
+    "redistribution_limit": "Do not connect or export until reviewed"
+  },
+  "status": "review_required",
+  "falsifier": "No measurable difference after a pre-specified comparison, or a stronger explanation unrelated to care/time constraints.",
+  "notes": [
+    "External sources are context and cannot be treated as the same population.",
+    "A company, workflow, internal dataset, entity key, and lawful proxy are still missing."
+  ]
+}

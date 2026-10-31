@@ -56,6 +56,12 @@ def main() -> int:
     assert set(bridge_schema["required"]) <= set(bridge_template)
     assert bridge_template["join_basis"] in bridge_schema["join_basis_values"]
     assert bridge_template["status"] in bridge_schema["status_values"]
+    bridge_request = json.loads((ANALYSIS / "bridge-request-001.json").read_text())
+    assert bridge_request["schema"] == bridge_schema["schema"]
+    assert bridge_request["candidate_id"] == "candidate-time-financial-pressure-practical-room"
+    assert set(bridge_request["external_record_ids"]) <= ids
+    assert bridge_request["join_basis"] == "no_valid_join"
+    assert bridge_request["status"] == "review_required"
     print(
         "valid external trend intelligence:",
         manifest["record_count"],
