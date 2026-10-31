@@ -243,7 +243,7 @@
     },
     {
       "observation_id": "ibis-industry-record-corpus",
-      "status": "not_started",
+      "status": "partial",
       "source_url_count": 0,
       "source_host_count": 0,
       "source_hosts": [],
@@ -251,10 +251,10 @@
       "cross_observation_shared_urls": [],
       "cross_observation_shared_hosts": [],
       "denominator": null,
-      "source_url_status": "not_present_in_artifact",
+      "source_url_status": "inventory_present",
       "independence_status": "unverified",
       "remaining": [
-        "source URLs or filing identities for the underlying records",
+        "map inventory sources to the specific observation or finding",
         "unit, geography, period, and denominator audit",
         "independence review against the synthesis source"
       ],

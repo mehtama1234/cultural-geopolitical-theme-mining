@@ -65,6 +65,8 @@ def main() -> int:
     rebuild = json.loads(show(INC_REPO, INC_REV, rebuild_path))
     ibis_manifest_path = "research_manifest.json"
     ibis_manifest = json.loads(show(IBIS_REPO, IBIS_REV, ibis_manifest_path))
+    ibis_source_inventory_path = "source_inventory.json"
+    ibis_source_inventory = json.loads(show(IBIS_REPO, IBIS_REV, ibis_source_inventory_path))
     ibis_findings_path = "cross_industry_findings_register.json"
     ibis_findings = json.loads(show(IBIS_REPO, IBIS_REV, ibis_findings_path))
     ibis_forces_path = "cross_industry_trends_2025_2026.json"
@@ -142,7 +144,12 @@ def main() -> int:
                 "Corpus size describes the research inventory; it does not establish that every record is current, independent, or evidence for a trend.",
                 data_window=ibis_manifest["corpus"]["current_data_window"],
                 geography=ibis_manifest["geography"],
-                source_url_status="not_present_in_artifact",
+                source_url_status="inventory_present",
+                source_inventory_path=ibis_source_inventory_path,
+                source_inventory_count=ibis_source_inventory["metadata"]["source_count"],
+                public_url_count=ibis_source_inventory["metadata"]["linked_source_count"],
+                unlinked_source_count=ibis_source_inventory["metadata"]["unlinked_source_count"],
+                unresolved_label_count=ibis_source_inventory["metadata"]["descriptive_label_resolution"]["unresolved"],
                 observation_period=f"IBIS current data window {ibis_manifest['corpus']['current_data_window']}; research cutoff {ibis_manifest['research_cutoff']}",
             ),
             record(

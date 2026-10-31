@@ -152,10 +152,15 @@
       "unit": "industry records",
       "observation_period": "IBIS current data window 2025-2026; research cutoff 2026-10-22",
       "geography": "United States",
-      "source_url_status": "not_present_in_artifact",
+      "source_url_status": "inventory_present",
       "evidence_status": "reported_provenance",
       "boundary": "Corpus size describes the research inventory; it does not establish that every record is current, independent, or evidence for a trend.",
-      "data_window": "2025-2026"
+      "data_window": "2025-2026",
+      "source_inventory_path": "source_inventory.json",
+      "source_inventory_count": 17998,
+      "public_url_count": 17087,
+      "unlinked_source_count": 911,
+      "unresolved_label_count": 6
     },
     {
       "observation_id": "ibis-cross-industry-discovery-findings",

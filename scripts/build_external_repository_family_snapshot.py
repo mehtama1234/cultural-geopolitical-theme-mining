@@ -44,6 +44,7 @@ FAMILIES = [
             "research_manifest.json",
             "cross_industry_findings_register.json",
             "cross_industry_trends_2025_2026.json",
+            "source_inventory.json",
         ],
         "directory_prefixes": ["trend-review-batches/"],
     },

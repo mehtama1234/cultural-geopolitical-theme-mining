@@ -48,6 +48,13 @@ def main() -> int:
                 "independent population-level or outcome measure",
             ]
             status = "partial"
+        elif observation.get("source_url_status") == "inventory_present":
+            remaining = [
+                "map inventory sources to the specific observation or finding",
+                "unit, geography, period, and denominator audit",
+                "independence review against the synthesis source",
+            ]
+            status = "partial"
         else:
             remaining = [
                 "source URLs or filing identities for the underlying records",
