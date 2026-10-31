@@ -21,6 +21,7 @@ ARTIFACTS = [
     "backtest-readiness.json",
     "case-stage-panel.json",
     "pilot-register.json",
+    "ibis-adult-day-outcome-review.json",
 ]
 
 
@@ -56,6 +57,8 @@ def main() -> int:
                             "Qualified food-insecurity temporal holdout",
                             "food-insecurity-temporal-holdout.json",
                             "food-insecurity-rights-review.json",
+                            "IBIS bounded outcome review",
+                            "ibis-adult-day-outcome-review.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:

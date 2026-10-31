@@ -228,6 +228,11 @@
       <p class="muted">This bounded sample traces 100 industries across sectors to claims and source records. It is evidence for the review process, not validation of the full IBIS finding.</p>
       <div class="ibis-sample" id="ibis-sample"></div>
     </section>
+    <section style="margin-top:28px">
+      <h2>IBIS bounded outcome review</h2>
+      <p class="muted">One industry is paired with dated CDC capacity measures and a CMS Medicaid rate measure. The comparison is descriptive and mechanism-level, not a qualified trend or company finding.</p>
+      <div class="promotion-gates" id="ibis-outcome-review"></div>
+    </section>
     <footer>Serve this directory over HTTP to load the JSON manifests. Source records remain authoritative; this board is a reader. Release: <code id="release-commit">—</code></footer>
   </main>
   <script>
@@ -437,6 +442,16 @@
       const outcomes = document.createElement('p'); outcomes.innerHTML = `<strong>Outcome candidates:</strong> ${sample.outcome_measure_candidates.join('; ') || '—'}`;
       article.append(pill, title, meta, claims, sources, diversity, outcomes); return article;
     }
+    function ibisOutcomeCard(review) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = review.backtest_status.replaceAll('_', ' ');
+      const title = document.createElement('h3'); title.textContent = `${review.industry_slug.replaceAll('-', ' ')} · ${review.finding_slug.replaceAll('-', ' ')}`;
+      const measures = document.createElement('p'); measures.innerHTML = `<strong>Measures:</strong> ${review.observations.length} dated observations · ${review.independence_status.replaceAll('_', ' ')}`;
+      const changes = document.createElement('p'); changes.innerHTML = `<strong>Derived changes:</strong> ${Object.entries(review.derived_changes).map(([key, value]) => `${key.replaceAll('_', ' ')}: ${value}%`).join('; ')}`;
+      const boundary = document.createElement('p'); boundary.textContent = review.counter_signal;
+      const next = document.createElement('p'); next.innerHTML = `<strong>Next action:</strong> ${review.next_action}`;
+      article.append(pill, title, measures, changes, boundary, next); return article;
+    }
     Promise.all([
       fetch('observation-manifest.json').then(r => r.json()),
       fetch('candidate-comparisons.json').then(r => r.json()),
@@ -592,6 +607,9 @@
           const groups = row.dependency_groups.map(group => `${group.group_id}: ${group.classification}`).join(' · ') || 'no explicit dependency group recorded';
           el('lineage-warnings').append(card(row.candidate_id.replaceAll('-', ' '), `dependency review · ${row.independence_status}`, `${groups}. ${row.next_test}`));
         });
+      });
+      fetch('ibis-adult-day-outcome-review.json').then(r => r.json()).then(review => {
+        el('ibis-outcome-review').append(ibisOutcomeCard(review));
       });
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
       const controls = new Map(sourceControls.families.map(item => [item.family_id, item]));
