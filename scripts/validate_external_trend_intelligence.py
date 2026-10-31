@@ -41,6 +41,9 @@ def main() -> int:
     assert candidates.count("**Counter-signal:**") >= 4
     assert candidates.count("**External evidence lanes:**") >= 4
     assert "Promotion gate" in candidates
+    assert "external-family-observations.json" in candidates
+    assert "external-family-comparisons.json" in candidates
+    assert "CARE-CAPACITY-CANDIDATE.md" in candidates
     machine = json.loads((ANALYSIS / "candidate-comparisons.json").read_text())
     assert machine["schema"] == "external-trend-intelligence.candidate-comparisons.v1"
     assert len(machine["candidates"]) == 4

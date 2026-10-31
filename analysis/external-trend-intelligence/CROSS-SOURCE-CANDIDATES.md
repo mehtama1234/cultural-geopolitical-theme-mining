@@ -22,6 +22,29 @@ independent confirmation because multiple publications may reuse one study,
 press release, dataset, or institutional claim. Candidate 1 already contains
 two repeated source URLs and therefore requires explicit lineage review.
 
+## New external-family evidence lanes
+
+The pinned Inc. 5000, annual-report, IBIS, social-research, and trend-hunting
+artifacts are tracked separately in
+[`external-family-observations.json`](external-family-observations.json).
+Their eight held comparisons to the candidate set are in
+[`external-family-comparisons.json`](external-family-comparisons.json).
+
+The current interpretation is deliberately bounded:
+
+- IBIS adds industry structure, compliance, labor-capacity, and
+  infrastructure-force hypotheses, but its synthesis is not independent
+  confirmation;
+- social-research adds public-signal and adaptation-economy synthesis, but its
+  counts are not population prevalence or adoption estimates; and
+- trend-hunting adds an AI control-to-recourse mechanism, but outcome linkage
+  remains open.
+
+The first broader held candidate is
+[`CARE-CAPACITY-CANDIDATE.md`](CARE-CAPACITY-CANDIDATE.md). Its measurement
+matrix and contextual subset preserve denominators and show why the lane is
+not yet poolable.
+
 ## Candidate 1 — Formal response arrives before usable recovery
 
 **Provisional finding:** Courts, agencies, platforms, and service systems can
