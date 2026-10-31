@@ -40,6 +40,11 @@ verified remedy or usable alternative.
 **What it does not support:** Complaint response shares are not consumer-harm
 rates, remedy rates, loyalty measures, trust measures, or exit rates.
 
+## Source packet
+
+- [Consumer recourse, institutional power, and practical exit](../projects/us-customer-automation-recourse/consumer-recourse-power-exit-cross-source-bridge-v1.md)
+- [Consumer participation, trust, and power synthesis](../projects/us-consumer-culture/consumer-participation-trust-power-cross-source-synthesis-v1.md)
+
 ## Mechanism
 
 ```text

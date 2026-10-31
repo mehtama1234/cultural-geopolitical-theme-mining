@@ -48,6 +48,11 @@ educational workflow are material implementation conditions.
 a language, increases everyday use, improves transmission, or produces market
 benefit merely because a model, archive, voice, or dataset exists.
 
+## Source packet
+
+- [Cultural-language AI vitality packet](../ROTATION-BU-INDIGENOUS-MINORITY-LANGUAGE-AI-VITALITY-2026-10-29.md)
+- [Cultural-language AI vitality handoff](../cultural-language-ai-vitality/GOAL-AND-HANDOFF.md)
+
 ## Mechanism
 
 ```text

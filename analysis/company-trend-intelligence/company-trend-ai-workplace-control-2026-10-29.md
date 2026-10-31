@@ -49,6 +49,11 @@ shape how the technology is experienced.
 loss, higher earnings, durable productivity, reduced workload, household
 benefit, or a single causal pathway from AI exposure to political action.
 
+## Source packet
+
+- [AI concern, workplace meaning, and political interpretation](../projects/ai-work-control/ai-concern-management-meaning-cross-source-synthesis-v1.md)
+- [AI at work, control, and job quality rotation](../ROTATION-W-AI-WORK-CONTROL-JOB-QUALITY-2026-10-29.md)
+
 ## Mechanism
 
 ```text

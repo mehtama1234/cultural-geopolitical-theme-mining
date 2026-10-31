@@ -42,6 +42,11 @@ measure of demand or welfare.
 destruction, realized purchases, debt, income change, successful search,
 financial recovery, or political causation.
 
+## Source packet
+
+- [Consumer confidence, current conditions, and future expectations](../projects/cross-domain/conference-board-consumer-confidence-september-2026-multi-clock-household-room-2026-09-29.md)
+- [Material pressure and option-search work](../projects/us-consumer-culture/material-pressure-option-search-cultural-agency-synthesis-v1.md)
+
 ## Mechanism
 
 ```text

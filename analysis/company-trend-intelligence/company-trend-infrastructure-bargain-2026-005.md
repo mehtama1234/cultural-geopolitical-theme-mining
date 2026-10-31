@@ -46,6 +46,11 @@ of equal benefit or acceptable burden.
 readiness, or capacity do not by themselves establish household benefit,
 reliability, public acceptance, or strategic leverage.
 
+## Source packet
+
+- [Infrastructure bargains: capacity, burden, voice, and realized benefit](../US-BROAD-INFRASTRUCTURE-BARGAIN-SYNTHESIS_V1.md)
+- [Infrastructure operation-to-incidence acceptance](../projects/cross-domain/us-infrastructure-operation-incidence-acceptance-2026-09-29.md)
+
 ## Mechanism
 
 ```text

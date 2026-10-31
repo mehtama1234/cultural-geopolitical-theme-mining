@@ -40,7 +40,7 @@ def main() -> int:
         assert record["trend_id"] in text, record["trend_id"]
         assert record["title"] in text, record["title"]
         assert record["summary"], record["trend_id"]
-        for heading in ("## Evidence", "## Mechanism", "## Business exposure", "## Leading indicators", "## Counterevidence and limits", "## Next test"):
+        for heading in ("## Source packet", "## Evidence", "## Mechanism", "## Business exposure", "## Leading indicators", "## Counterevidence and limits", "## Next test"):
             assert heading in text, f"{path}: missing {heading}"
 
     assert {row["trend_id"] for row in csv_rows} == set(ids), "CSV and JSON IDs differ"

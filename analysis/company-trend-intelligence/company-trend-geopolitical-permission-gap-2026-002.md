@@ -42,6 +42,11 @@ or alliance can advance one stage without closing the next.
 adversary behavior, civilian safety, willingness to bear a specific cost, or
 durable leverage.
 
+## Source packet
+
+- [Geopolitical operation, external response, and public permission](../projects/cross-domain/us-geopolitical-operation-response-legitimacy-2026-09-29.md)
+- [Geopolitical capability-to-response packet](../GEOPOLITICAL-CAPABILITY-TO-RESPONSE-PACKET-POLAND_2026-10-29.md)
+
 ## Mechanism
 
 ```text
