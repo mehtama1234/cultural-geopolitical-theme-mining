@@ -58,6 +58,8 @@ language exclusion, low-resource data and intergenerational decline
 | East African Community AI sovereignty declaration | The EAC reports that eight partner states resolved to establish a regional AI fund and promote systems speaking regional languages, trained on East African data, stored on regional infrastructure and governed by East Africans; it also names a regional centre of excellence, AI alliance, shared compute and data-centre infrastructure, procurement reform and indigenous knowledge integration. | regional geopolitical commitment linking language, infrastructure, financing, governance and industrial policy | fund capitalization, legal/data-governance instruments, infrastructure delivery, language models or services deployed, cross-border adoption, public outcomes, inclusion of smaller languages and implementation accountability |
 | EAC Kiswahili AI Trust Mark and regional language resolutions | The EAC reports July 2026 resolutions treating Kiswahili as strategic digital infrastructure and calling for a regional roadmap, open language datasets/corpora, standardised AI terminology and African ownership of language data. The EAC AI Alliance and East African Kiswahili Commission announce work on a Kiswahili Trust Mark to assess linguistic quality, terminology, cultural context and safety, with a public register of certified systems intended. | regional language standardisation and certification mechanism with a named evaluation target | published standard, assessment protocol, certified systems, audit results, public-register operation, procurement or user adoption and inclusion of non-Kiswahili languages |
 | EAC Regional AI Network and AI4EAC skills pipeline | The EAC AI Alliance, IUCEA, EASTECO and GIZ report a distributed university network with national nodes and a 2026 AI4EAC campaign intended to reach 20,000 East Africans through applied-AI skilling and regional innovation challenges. | regional institutional and talent infrastructure for AI research, skills and innovation | node activity, curriculum and language coverage, funded projects, named language systems, startup or public-service deployments, participant outcomes and regional retention |
+| Vambo AI MORENA open-weight model | Vambo’s research page and model card describe MORENA as a 1.5-billion-parameter decoder trained from scratch for 12 Latin-script African languages plus English, French and code; the model card publishes weights and reports held-out language-model and translation metrics, while Vambo’s research page presents the result as open research. | named released model artifact, language coverage and reproducible headline evaluation record | independent replication, training-data provenance and licensing, dialect coverage, safety/cultural evaluation, downstream fine-tunes, production users, service outcomes and sustainability |
+| Vambo AI developer API preview | Vambo’s developer page presents translation, transcription, language detection, generation and text-to-speech endpoints for 60+ African languages, but labels the API a developer preview and asks users to join a waitlist. | product-surface definition and intended application route | public availability, uptime, actual language-by-language quality, customer adoption, pricing, data handling, safety controls and deployed applications |
 
 ## Stage audit
 
@@ -226,6 +228,15 @@ identified. This is a useful geopolitical conversion sequence—regional agenda
 to standard to talent network to deployed system—but each arrow remains
 auditable rather than assumed.
 
+Vambo’s MORENA provides the first clearly shipped model artifact in the African
+comparison: weights, a model card and headline evaluation results are publicly
+available. That closes “model release” more convincingly than a strategy or
+funding announcement, but not “trusted deployment.” Independent replication,
+training-data rights, dialect and cultural-safety evaluation, fine-tuned users
+and public-service outcomes remain open. The separate API page is even earlier
+on the adoption chain because it is a developer preview with a waitlist. Model
+availability and product access must therefore remain separate ledger stages.
+
 ## Cross-case synthesis
 
 | Case | Strongest evidence currently closed | Conversion stage still unproven |
@@ -354,3 +365,6 @@ collection; do not infer vitality from model or corpus size.
 33. [EAC Kiswahili AI Trust Mark and regional language resolutions](https://www.eac.int/press-releases/3563-east-africa-puts-kiswahili-at-the-heart-of-the-artificial-intelligence-era-as-bujumbura-hosts-the-5th-eac-world-kiswahili-language-day-celebrations)
 34. [EAC Regional AI Network of Universities](https://ai4eac.org/)
 35. [EAC AI Alliance regional university-network announcement](https://www.eac.int/press-releases/138-education,-science-technology-news/3488-eac-ai-alliance-invites-universities-to-become-national-hubs-in-regional-ai-network)
+36. [Vambo AI research and MORENA model announcement](https://vambo.ai/research)
+37. [MORENA 1.5B model card](https://huggingface.co/vamboai/morena-1.5b-instruct)
+38. [Vambo AI developer API preview](https://vambo.ai/developers)
