@@ -10,6 +10,8 @@ local HTTP server.
 
 For management use, read the [decision playbook](DECISION-PLAYBOOK.md).
 
+For an executive one-page view, read the [executive readout](EXECUTIVE-READOUT.md).
+
 ## What this layer does
 
 It turns source-backed research into decision-relevant trend records. A record

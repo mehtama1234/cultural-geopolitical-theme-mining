@@ -12,6 +12,7 @@ financial, institutional, and geopolitical atlas.
 - [Portfolio CSV](portfolio.csv) — spreadsheet and BI export.
 - [Board](board.html) — lightweight browser reader.
 - [Decision playbook](DECISION-PLAYBOOK.md) — weekly, monthly, and quarterly use.
+- [Executive readout](EXECUTIVE-READOUT.md) — one-page leadership view.
 - [Company assessment template](COMPANY-ASSESSMENT-TEMPLATE.md) — company-specific exposure and scenarios.
 - [Schema](schema.json) and [template](TEMPLATE.md) — record contract.
 - [Validator](../../scripts/validate_company_trend_intelligence.py) — integrity check.
