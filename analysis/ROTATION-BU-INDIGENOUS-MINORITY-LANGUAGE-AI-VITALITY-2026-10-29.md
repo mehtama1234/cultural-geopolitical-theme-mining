@@ -65,6 +65,8 @@ language exclusion, low-resource data and intergenerational decline
 | Vambo self-reported commercial scale | Vambo’s investor page reports 10M+ API calls per month, 15+ enterprise partners, an 80+ linguist network, 60+ supported languages, 99.9% uptime and on-device inference; these are company-reported metrics rather than independently audited operating data. | commercial and operational scale claims with named capacity indicators | metric definitions, time series, partner identities, call quality, geographic/language distribution, retention, revenue, SLA evidence and public-benefit outcomes |
 | Jacaranda Health UlizaMama deployment | Jacaranda Health’s 2024 impact report says it launched an early Swahili-speaking LLM prototype, finetuned it for pregnancy and motherhood questions, receives 12,000+ PROMPTS questions daily, and reports that the model answers 70% of low-priority questions with human oversight while clinical agents prioritize high-risk cases. | named health-service deployment with operational volume, triage role and human escalation | independent accuracy audit, language/dialect breakdown, clinical safety, false reassurance or escalation, maternal outcomes, repeat use, equity and attribution of engagement or care-seeking changes |
 | Jacaranda Health multilingual model rollout | The same report says models were rolled out during 2024 in Swahili, Yoruba, Hausa, Zulu and isiXhosa, with open-source language-model variants and an intended scale-up path for services such as Hausa support for Nigerian mothers. | five-language model rollout and reusable artifact pathway | downloads and downstream reuse, language-specific quality, consent/licensing, production deployment outside PROMPTS, clinical validation, user outcomes and sustainability |
+| Jacaranda UlizaLlama open-source construction and human review | Jacaranda describes extending Llama2/Llama3 for Swahili, Hausa, Yoruba, Xhosa and Zulu, merging language-specific pretraining and fine-tuning for maternal-health support; it reports evaluation on 2,500 extracted questions using automated similarity/fluency metrics and says responses are reviewed and edited by humans before being sent to mothers. | public model cards, domain adaptation method, task-specific evaluation sample and human-in-the-loop control | model-card licenses, dataset rights, native-speaker and clinician evaluation, full benchmark artifacts, downstream reuse, error analysis and whether human review is consistently resourced at scale |
+| Jacaranda Swahili ASR model-card limitation | Jacaranda’s ASR model card reports a Swahili-English speech-to-text model fine-tuned from Whisper Medium with a 14.7% WER result and warns that performance may vary across Swahili dialects, regional accents and code-switching patterns absent from training data; commercial use is directed to contact Jacaranda. | named speech artifact, training setup, quantitative error signal and explicit dialect limitation | broader dialect test sets, speaker-disaggregated WER, consent/licensing, real-world noise performance, correction workflow, commercial access and downstream service safety |
 
 ## Stage audit
 
@@ -266,6 +268,14 @@ also closes model availability and intended reuse more than it closes safe,
 equitable service delivery. This is an operational deployment with a measurable
 workflow, not yet a fully validated health impact claim.
 
+The open-source and ASR records make the reuse boundary more precise. Jacaranda
+has published model artifacts and a domain-adaptation route, but automated
+metrics on 2,500 questions are not equivalent to native-speaker or clinician
+review. The speech model’s reported WER and explicit dialect/code-switching
+warning also show why “Swahili support” is not a single quality level. A
+service can be operational for a dominant or represented variety while failing
+in another accent, noisy environment or mixed-language interaction.
+
 ## Cross-case synthesis
 
 | Case | Strongest evidence currently closed | Conversion stage still unproven |
@@ -400,3 +410,5 @@ collection; do not infer vitality from model or corpus size.
 39. [Vambo AI named case studies](https://vambo.ai/case-studies)
 40. [Vambo AI investor and commercial-scale claims](https://vambo.ai/investors)
 41. [Jacaranda Health 2024 Annual Impact Report](https://jacarandahealth.org/ypoagriw/2025/06/Jacaranda-Health-2024-Annual-Report-1.pdf)
+42. [Jacaranda five-language open-source UlizaLlama announcement](https://jacarandahealth.org/jacaranda-launches-open-source-llm-in-five-african-languages/)
+43. [Jacaranda Health Swahili ASR model card](https://huggingface.co/Jacaranda-Health/ASR-STT)
