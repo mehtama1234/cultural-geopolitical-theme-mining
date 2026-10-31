@@ -24,6 +24,7 @@ For the live external view, open the [external trend board](analysis/external-tr
 To rebuild the complete external layer, run `python3 scripts/refresh_external_observatory.py`;
 the command validates the release and smoke-tests the board before it exits.
 The current release health is in [release-health.json](analysis/external-trend-intelligence/release-health.json).
+The requirement-by-requirement status is in the [goal completion audit](analysis/external-trend-intelligence/goal-completion-audit.json).
 The current temporal holdout design, result, and bounded decision narrative are in
 [temporal-holdout-design.json](analysis/external-trend-intelligence/temporal-holdout-design.json),
 [temporal-holdout-result.json](analysis/external-trend-intelligence/temporal-holdout-result.json),
