@@ -3876,6 +3876,7 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 432. **AI forecast skill or coverage is not equitable protective action.** An operational model, ensemble, lead-time gain, computational saving, open-data release, local validation, co-production roadmap, public-confidence study or early-warning call can close a forecast, infrastructure or institutional stage while local calibration, trust, last-mile receipt, comprehension, authorized action, response capacity, avoided loss and distributional resilience remain unobserved.
 433. **Autonomous-shipping readiness is not safe accountable maritime transition.** A MASS code, autonomy notation, remote-operations centre, port trial, interoperability requirement, career pathway, local approval or oversight instruction can close a regulatory, technical or workforce stage while abnormal-event performance, clear liability, worker authority and pay, responder capability, coastal legitimacy, service reliability and remedy remain unobserved.
 434. **Lunar capability or activity cadence is not shared legitimate stewardship.** A phased Moon Base, interoperable infrastructure plan, commercial lander market, vendor plurality, landing target, contamination finding, resource prospect, heritage rule or international participation pathway can close a capability, environmental or governance stage while site access, priority allocation, planetary protection, heritage integrity, liability, benefit distribution, provider resilience and future generations’ authority remain unobserved.
+435. **Quantum-sensing precision or sovereign PNT investment is not equitable, accountable measurement infrastructure.** A robust-sensor programme, field test, commercialization competition, Earth-observation concept, space qualification, strategic investment or lunar timing architecture can close a technical, funding or infrastructure stage while calibration, maintenance, interoperability, coverage, civilian access, privacy, dual-use control, local decision, cost and later public or strategic outcome remain unobserved.
 
 ## What the evidence does not support
 
@@ -3895,7 +3896,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 416 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 435 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 
