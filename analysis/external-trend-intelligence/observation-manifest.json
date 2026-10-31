@@ -3,22 +3,22 @@
   "generated_on": "2026-10-31",
   "source_git_ref": "HEAD",
   "record_root": "analysis/records",
-  "record_count": 2132,
+  "record_count": 2133,
   "parse_error_count": 0,
   "program_theme_counts": {
     "care_health_reproduction": 672,
     "consumer_power_recourse": 440,
     "firm_sector_market_power": 790,
     "geopolitical_state_consequences": 621,
-    "household_room_consumption": 1312,
+    "household_room_consumption": 1313,
     "housing_place_mobility": 469,
     "infrastructure_technology_dependency": 837,
     "platforms_data_attention": 379,
     "political_judgment_action": 782,
     "public_systems_feedback": 1595,
-    "time_hidden_price": 406,
+    "time_hidden_price": 407,
     "trust_identity_meaning": 1310,
-    "unequal_exposure_status": 1830,
+    "unequal_exposure_status": 1831,
     "work_control_bargaining": 733
   },
   "source_host_counts": {
@@ -31,8 +31,8 @@
     "oecd.org": 92,
     "worldbank.org": 84,
     "files.gao.gov": 79,
+    "federalreserve.gov": 63,
     "ilo.org": 62,
-    "federalreserve.gov": 62,
     "ftc.gov": 53,
     "documents.worldbank.org": 48,
     "gov.uk": 46,
@@ -24017,6 +24017,31 @@
         "un.org"
       ],
       "boundary": "This record adds a demographic-structure route across falling fertility, longevity, population shrinkage, aging, households, care, work, age-friendly communities, AI, health systems, and humanitarian disasters. It uses Census Bureau aggregate demographic estimates, projections, socioeconomic statistics, and literature synthesis, not respondent-level data, individual life histories, household care records, causal estimates of aging on politics or welfare, or proof that demographic change produces one universal social outcome."
+    },
+    {
+      "record_path": "analysis/records/comparative-us-shed-financial-wellbeing-2013-2025.json",
+      "trend_id": "comparative-us-shed-financial-wellbeing-2013-2025",
+      "title": "Self-assessed U.S. financial wellbeing peaked in 2021 and settled below that level by 2025",
+      "source_unit": "Federal Reserve Board Survey of Household Economics and Decisionmaking (SHED)",
+      "geography": "United States; adults age 18 and above",
+      "program_theme_ids": [
+        "household_room_consumption",
+        "unequal_exposure_status",
+        "time_hidden_price"
+      ],
+      "observation_count": 13,
+      "observation_statuses": [
+        "reported"
+      ],
+      "source_urls": [
+        "https://www.federalreserve.gov/consumerscommunities/shed.htm",
+        "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+        "https://www.federalreserve.gov/consumerscommunities/sheddataviz/SHED_visualiziations_at_least_doing_okay.zip"
+      ],
+      "source_hosts": [
+        "federalreserve.gov"
+      ],
+      "boundary": "This record is a U.S. external comparison candidate. It does not establish a pooled international trend, causal financial hardship, company exposure, or equivalence with ABS, HILDA, or ANUPoll measures."
     },
     {
       "record_path": "analysis/records/comparative-usc-schaeffer-index-2026-civic-association-populism-20-countries.json",

@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "7d03763dddc23b5c7e39c5268e4b510db53cccc4",
+  "source_tree_commit": "24cce73114620d2ab5f728978e34689658fa8702",
   "artifact_count": 59,
   "artifacts": [
     {
@@ -107,7 +107,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2114,
-      "sha256": "56c091f88419dece337ce060df15004d2c77cd8de934eb82009756946bcd86c0"
+      "sha256": "ebabf68d2e5c1094155b095f8de022080944c6fe6edbc0ddbd1f364f52675a78"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -162,7 +162,7 @@
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
       "bytes": 5735,
-      "sha256": "2c7c393507cfd65563cd57fe44c039f9efe671513f127b57df96f5af777ce6bc"
+      "sha256": "15662d08e1809e17e659f9ded64b425ec4436bf3781efa8d5ce2e188d2ebef26"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -176,8 +176,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/observation-manifest.json",
-      "bytes": 3603909,
-      "sha256": "783173cbb27a798fd77e7d228734e46f660cf3ff1d5747a3ba3f9cff5df5979f"
+      "bytes": 3605176,
+      "sha256": "7807158741e9b1044cfe9592e62296646c92bb2f7acb7147b7ec964d168490f8"
     },
     {
       "path": "analysis/external-trend-intelligence/source-registry-snapshot.json",
@@ -221,8 +221,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 1764,
-      "sha256": "f314cb954c851eea80975dd86ac7f03a1d02efeb2389b7ee9595305b35e91421"
+      "bytes": 2130,
+      "sha256": "ffe1385abdfa020ba4cc49ae70f6aa65bf641f37462f3e5967065d5d45d962fa"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
