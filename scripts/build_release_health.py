@@ -33,7 +33,8 @@ def main() -> int:
             "families": status["family_count"],
             "ready_for_review": status["ready_for_review_count"],
             "incomplete": status["incomplete_count"],
-            "status": "pass" if status["incomplete_count"] == 0 else "hold",
+            "stale": status.get("stale_count", 0),
+            "status": "pass" if status["incomplete_count"] == 0 and status.get("stale_count", 0) == 0 else "hold",
         },
         "evidence_contract": {
             "observations": contract["observation_count"],
@@ -102,6 +103,8 @@ def main() -> int:
         blockers.append("independent source comparison remains mechanism-only")
     if health["denominator_reconciliation"]["status"] == "hold":
         blockers.append("household and adult denominator definitions require reconciliation")
+    if health["source_refresh"]["stale"]:
+        blockers.append("one or more source families have stale refresh artifacts")
     report = {
         "schema": "external-trend-intelligence.release-health.v1",
         "release_status": "operational_with_gates" if not any(section["status"] == "hold" for section in health.values()) else "operational_with_open_gates",

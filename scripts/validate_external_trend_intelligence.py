@@ -317,6 +317,7 @@ def main() -> int:
         assert artifact["bytes"] == path.stat().st_size
     refresh_status = json.loads((ANALYSIS / "refresh-status.json").read_text())
     assert refresh_status["schema"] == "external-trend-intelligence.refresh-status.v1"
+    assert refresh_status["stale_count"] == 0
     assert refresh_status["family_count"] == 8
     assert refresh_status["ready_for_review_count"] == 8
     rubric = json.loads((ANALYSIS / "trend-qualification-rubric.json").read_text())

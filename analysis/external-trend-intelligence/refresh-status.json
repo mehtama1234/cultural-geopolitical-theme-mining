@@ -1,37 +1,41 @@
 {
   "schema": "external-trend-intelligence.refresh-status.v1",
-  "generated_at": "2026-10-31T22:08:51.941695+00:00",
+  "generated_at": "2026-10-31T22:10:43.976884+00:00",
   "source_schedule": "refresh-schedule.json",
   "source_registry": "source-family-registry.json",
   "family_count": 8,
   "ready_for_review_count": 8,
   "incomplete_count": 0,
+  "stale_count": 0,
   "families": [
     {
       "family_id": "cultural-geopolitical-theme-mining",
       "registered": true,
       "cadence": "on source-record commit and monthly audit",
       "trigger": "new source-backed record, revision, or counter-signal",
+      "stale_threshold_hours": 1080,
       "artifacts": [
         {
           "path": "observation-manifest.json",
           "exists": true,
-          "age_hours": 0.01
+          "age_hours": 0.02
         },
         {
           "path": "candidate-comparisons.json",
           "exists": true,
-          "age_hours": 3.4
+          "age_hours": 3.44
         }
       ],
       "status": "ready_for_review",
-      "missing_artifacts": []
+      "missing_artifacts": [],
+      "stale": false
     },
     {
       "family_id": "social-research",
       "registered": true,
       "cadence": "monthly or on publication release",
       "trigger": "new atlas, collection manifest, or approved source snapshot",
+      "stale_threshold_hours": 1080,
       "artifacts": [
         {
           "path": "external-family-observations.json",
@@ -45,13 +49,15 @@
         }
       ],
       "status": "ready_for_review",
-      "missing_artifacts": []
+      "missing_artifacts": [],
+      "stale": false
     },
     {
       "family_id": "trend-hunting",
       "registered": true,
       "cadence": "monthly or on synthesis release",
       "trigger": "new deep-trend synthesis, falsifier, or input checksum set",
+      "stale_threshold_hours": 1080,
       "artifacts": [
         {
           "path": "external-family-observations.json",
@@ -61,22 +67,24 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 2.85
+          "age_hours": 2.88
         }
       ],
       "status": "ready_for_review",
-      "missing_artifacts": []
+      "missing_artifacts": [],
+      "stale": false
     },
     {
       "family_id": "annual-report-research",
       "registered": true,
       "cadence": "quarterly and filing-season event-driven",
       "trigger": "new filing, earnings period, theme-map revision, or source-owner correction",
+      "stale_threshold_hours": 2880,
       "artifacts": [
         {
           "path": "repository-family-snapshot.json",
           "exists": true,
-          "age_hours": 0.01
+          "age_hours": 0.02
         },
         {
           "path": "external-family-observations.json",
@@ -85,18 +93,20 @@
         }
       ],
       "status": "ready_for_review",
-      "missing_artifacts": []
+      "missing_artifacts": [],
+      "stale": false
     },
     {
       "family_id": "inc5000-analysis",
       "registered": true,
       "cadence": "annual release and quarterly evidence refresh",
       "trigger": "new ranking release, source-linked company evidence, or field-validation result",
+      "stale_threshold_hours": 9600,
       "artifacts": [
         {
           "path": "repository-family-snapshot.json",
           "exists": true,
-          "age_hours": 0.01
+          "age_hours": 0.02
         },
         {
           "path": "external-family-observations.json",
@@ -105,18 +115,20 @@
         }
       ],
       "status": "ready_for_review",
-      "missing_artifacts": []
+      "missing_artifacts": [],
+      "stale": false
     },
     {
       "family_id": "ibis-industries",
       "registered": true,
       "cadence": "quarterly or on industry-corpus revision",
       "trigger": "new industry record, force register, finding, or falsifier",
+      "stale_threshold_hours": 2880,
       "artifacts": [
         {
           "path": "repository-family-snapshot.json",
           "exists": true,
-          "age_hours": 0.01
+          "age_hours": 0.02
         },
         {
           "path": "external-family-observations.json",
@@ -126,51 +138,56 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 2.85
+          "age_hours": 2.88
         }
       ],
       "status": "ready_for_review",
-      "missing_artifacts": []
+      "missing_artifacts": [],
+      "stale": false
     },
     {
       "family_id": "research-signals",
       "registered": true,
       "cadence": "on provenance-schema or capture-contract revision",
       "trigger": "new custody, deduplication, rights, or verification contract",
+      "stale_threshold_hours": 9600,
       "artifacts": [
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 1.75
+          "age_hours": 1.79
         },
         {
           "path": "REFRESH-RUNBOOK.md",
           "exists": true,
-          "age_hours": 1.0
+          "age_hours": 1.03
         }
       ],
       "status": "ready_for_review",
-      "missing_artifacts": []
+      "missing_artifacts": [],
+      "stale": false
     },
     {
       "family_id": "organization-intelligence-system",
       "registered": true,
       "cadence": "on identity, comparability, rights, or release-contract revision",
       "trigger": "governance contract changes the permitted bridge or review state",
+      "stale_threshold_hours": 9600,
       "artifacts": [
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 1.75
+          "age_hours": 1.79
         },
         {
           "path": "internal-bridge-schema.json",
           "exists": true,
-          "age_hours": 3.79
+          "age_hours": 3.82
         }
       ],
       "status": "ready_for_review",
-      "missing_artifacts": []
+      "missing_artifacts": [],
+      "stale": false
     }
   ],
   "boundary": "Artifact presence and file age are operational checks, not proof that an external source is current, reachable, licensed, independent, or outcome-valid."
