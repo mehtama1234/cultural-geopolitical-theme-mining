@@ -400,7 +400,7 @@ def main() -> int:
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
     assert progress["baseline"]["records"] == 2131
     assert progress["baseline"]["qualified_external_trends"] == 0
-    assert progress["baseline"]["release_artifacts"] == 45
+    assert progress["baseline"]["release_artifacts"] == 55
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "mechanism_comparison_only"
     assert len(progress["phases"]) == 5

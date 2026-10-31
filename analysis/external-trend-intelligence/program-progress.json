@@ -16,7 +16,7 @@
     {
       "phase": "months_7_12_trend_qualification",
       "status": "in_progress",
-      "evidence": ["candidate-qualification-matrix.json", "trend-qualification-rubric.json", "trend-monitoring-register.json", "backtest-comparability-review.json"],
+      "evidence": ["candidate-qualification-matrix.json", "trend-qualification-rubric.json", "trend-monitoring-register.json", "backtest-comparability-review.json", "room-independent-result.json"],
       "open_gate": "All four current candidates remain held; no comparable backtest subset is qualified."
     },
     {
@@ -39,7 +39,7 @@
     "candidates": 4,
     "qualified_external_trends": 0,
     "approved_company_pilots": 0,
-    "release_artifacts": 45,
+    "release_artifacts": 55,
     "rights_reviews_required": 8,
     "independent_comparison_status": "mechanism_comparison_only"
   },
