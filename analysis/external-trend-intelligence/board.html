@@ -192,6 +192,12 @@
       <div class="promotion-gates" id="shed-reproduction"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>JPMorgan household-liquidity chart</h2>
+      <p class="muted">Official external chart evidence for January 2022–December 2023. The publisher provides a raster chart and text description, not a downloadable monthly table; it is shown for mechanism context, not pooled estimation.</p>
+      <div class="panel" style="margin:12px 0" id="jpmorgan-liquidity-chart"></div>
+      <div class="promotion-gates" id="jpmorgan-liquidity-note"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>External source families and refresh cadence</h2>
       <p class="muted">These families feed discovery. The cadence is a maintenance trigger, not proof that sources are independent or continuously available.</p>
       <div class="source-families" id="source-families"></div>
@@ -523,6 +529,21 @@
         const target = el('shed-reproduction');
         target.append(card('Two-year point estimate', audit.status, `${audit.interpretation} ${audit.next_test}`));
         audit.reconstructions.slice(0, 2).forEach(row => target.append(card(`${row.period} · ${row.rule}`, row.published_rounding, `${row.weighted_percent}% weighted · ${row.unweighted_percent}% unweighted`)));
+      });
+      fetch('jpmorgan-household-liquidity-chart.json').then(r => r.json()).then(record => {
+        const asset = record.chart_asset;
+        const target = el('jpmorgan-liquidity-chart');
+        const image = document.createElement('img');
+        image.src = asset.source_url;
+        image.alt = `${asset.figure}: ${asset.measure}, ${asset.period}`;
+        image.loading = 'lazy';
+        image.style.width = '100%';
+        image.style.maxWidth = '1070px';
+        image.style.height = 'auto';
+        image.style.display = 'block';
+        target.append(image);
+        const note = el('jpmorgan-liquidity-note');
+        note.append(card(`${asset.figure} · ${asset.period}`, 'pinned_external_chart', `${asset.qualitative_transcript} Endpoint labels: lowest quartile ${asset.visible_endpoint_labels.lowest_income_quartile['January 2022']}% → ${asset.visible_endpoint_labels.lowest_income_quartile['December 2023']}%; highest quartile ${asset.visible_endpoint_labels.highest_income_quartile['January 2022']}% → ${asset.visible_endpoint_labels.highest_income_quartile['December 2023']}%. Numeric series available: ${asset.machine_readable_numeric_series}. SHA-256 ${asset.sha256}.`));
       });
       el('bounded-lineage').append(boundedLineageCard(boundedLineage));
       const rightsCards = el('rights-queue'); rightsQueue.rows.forEach(row => rightsCards.append(rightsCard(row)));

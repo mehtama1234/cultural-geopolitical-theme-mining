@@ -1,0 +1,40 @@
+{
+  "schema": "external-trend-intelligence.frontend-chart-artifact.v1",
+  "record_id": "comparative-jpmorgan-household-liquidity-2023",
+  "title": "Household liquidity coverage depends on whether disposable income and short-term credit are counted",
+  "source_unit": "JPMorganChase Institute household liquidity analysis",
+  "chart_asset": {
+    "figure": "Figure 6",
+    "source_url": "https://www.jpmorganchase.com/content/dam/jpmorganchase/images/institute/are-americans-vulnerable-to-unexpected-expenses/are-americans-vulnerable-to-unexpected-expenses-fig6.png",
+    "period": "January 2022 through December 2023",
+    "measure": "share of households unable to cover an unexpected $400 expense, by income quartile",
+    "retrieved_on": "2026-10-31",
+    "sha256": "37dd380e3b10d202d112b1a736ef481f108d99125e074d0536bb190b7e3a32da",
+    "dimensions_px": [
+      1070,
+      802
+    ],
+    "machine_readable_numeric_series": false,
+    "visible_endpoint_labels": {
+      "lowest_income_quartile": {
+        "January 2022": 25,
+        "December 2023": 23
+      },
+      "second_income_quartile": {
+        "January 2022": 7,
+        "December 2023": 8
+      },
+      "third_income_quartile": {
+        "January 2022": 2,
+        "December 2023": 2
+      },
+      "highest_income_quartile": {
+        "January 2022": 0,
+        "December 2023": 0
+      }
+    },
+    "qualitative_transcript": "Low-income inability hovers around 25 percent with seasonal dips around April; each income group remains broadly steady during 2022 and 2023."
+  },
+  "rights_boundary": "This is an independent mechanism challenge, not a pooled U.S. trend estimate, causal result, qualified trend, or company exposure finding. The source snapshot carries a written republication restriction.",
+  "source_record": "../records/comparative-jpmorgan-household-liquidity-2023.json"
+}

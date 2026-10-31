@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "04415b5fac6a935794f5be8f67aa9a4bb2fceebd",
-  "artifact_count": 77,
+  "source_tree_commit": "b54a4a63017aa36bc25b5c5c8bc1c40191d2dffa",
+  "artifact_count": 78,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -117,7 +117,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2238,
-      "sha256": "74367b7f279bb0b30adb992541c66ae5f86778ae12590e8a6db3e063da97144f"
+      "sha256": "1f3ed311a2ece246067d072e7b18703d702fc2d1bdca5416d64b3bc3a1453ebd"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -300,6 +300,11 @@
       "sha256": "756761528d73971c4e617bd6cf97c83736e8c6b0904c4241f2d4dfa2642abbfb"
     },
     {
+      "path": "analysis/external-trend-intelligence/jpmorgan-household-liquidity-chart.json",
+      "bytes": 1855,
+      "sha256": "d7d5fd62a4f87adc901a72398016dac7ce500d2cbe45242bd4ba69ef0e66f471"
+    },
+    {
       "path": "analysis/external-trend-intelligence/usda-temporal-holdout.json",
       "bytes": 1782,
       "sha256": "181045888866062a2a35652dfa541306da61cad5b02304192da521805d80674c"
@@ -371,8 +376,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 49336,
-      "sha256": "10312fb887284fa4471841573cc38fea0f91206b5b9a3daac569e960690b4ab8"
+      "bytes": 51045,
+      "sha256": "696d5b0894056cf96f7b7ed6065dc441358d85b4ba95aea6b701bb9aad2a5024"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
