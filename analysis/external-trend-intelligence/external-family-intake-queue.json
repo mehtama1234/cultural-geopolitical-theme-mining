@@ -1,0 +1,43 @@
+{
+  "schema": "external-trend-intelligence.external-family-intake-queue.v1",
+  "purpose": "First bounded intake queue for external repository families before cross-source trend promotion.",
+  "promotion_rule": "An intake item creates observations only after source URL or filing identity, date, unit, denominator, geography, and evidence boundary are captured. A repository-level synthesis is never promoted as an observed outcome by itself.",
+  "items": [
+    {
+      "id": "inc5000-rebuild-public-company-growth",
+      "family_id": "inc5000-analysis",
+      "source_path": "data/processed/inc5000_rebuild_manifest_v1.json",
+      "intake_type": "source_manifest",
+      "target_observations": ["company ranking", "reported growth", "industry/category", "geography", "source vintage"],
+      "status": "ready_for_extraction",
+      "boundary": "Ranking and reported growth are source-scoped signals. They do not establish demand, causality, peer identity, or customer outcomes."
+    },
+    {
+      "id": "inc5000-strategic-source-ledger",
+      "family_id": "inc5000-analysis",
+      "source_path": "data/processed/strategic_source_ledger.json",
+      "intake_type": "candidate-trend-ledger",
+      "target_observations": ["theme", "candidate company", "growth example", "source-linked company", "observed offer", "buyer proxy"],
+      "status": "ready_for_extraction",
+      "boundary": "This is a synthesis over company records. It is a candidate signal until the underlying company and independent source links are captured and checked."
+    },
+    {
+      "id": "inc5000-opportunity-intelligence",
+      "family_id": "inc5000-analysis",
+      "source_path": "data/processed/opportunity_intelligence_manifest.json",
+      "intake_type": "opportunity-screen",
+      "target_observations": ["opportunity theme", "reviewed evidence count", "buyer/operator proxy", "decision status", "field-validation state"],
+      "status": "ready_for_extraction",
+      "boundary": "Opportunity screens describe a research queue, not verified market size, willingness to pay, or realized outcomes."
+    },
+    {
+      "id": "annual-report-integrated-theme-map",
+      "family_id": "annual-report-research",
+      "source_path": "annual-report-research/analysis/company-first-principles/annual-report-final-integrated-theme-map-pass-1.md",
+      "intake_type": "cross-company-theme-map",
+      "target_observations": ["theme", "pressure mechanism", "sector", "company evidence pointer", "proof boundary"],
+      "status": "ready_for_extraction",
+      "boundary": "The theme map is an editorial synthesis. It identifies repeated pressure patterns but does not prove every company, payment, causal mechanism, or investment result."
+    }
+  ]
+}

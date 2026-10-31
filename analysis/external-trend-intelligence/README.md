@@ -45,6 +45,11 @@ the exact Git blob IDs and file sizes for those pinned manifests. This makes
 the lineage auditable without copying or silently importing the sibling
 repositories into this one.
 
+The first bounded intake queue is in
+[`external-family-intake-queue.json`](external-family-intake-queue.json). It
+names the exact Inc. 5000 and annual-report artifacts to extract next and
+states what each artifact can—and cannot—support.
+
 The later internal-data step is documented in
 [`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
 not change the meaning or status of external evidence.

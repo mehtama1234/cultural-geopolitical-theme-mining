@@ -119,6 +119,16 @@ def main() -> int:
         assert all(entry["blob"] and entry["size"] >= 0 for entry in family["manifest_paths"])
         assert all(count >= 0 for count in family["directory_prefix_counts"].values())
         assert family["boundary"]
+    intake_queue = json.loads((ANALYSIS / "external-family-intake-queue.json").read_text())
+    assert intake_queue["schema"] == "external-trend-intelligence.external-family-intake-queue.v1"
+    assert len(intake_queue["items"]) == 4
+    assert intake_queue["promotion_rule"]
+    for item in intake_queue["items"]:
+        assert item["family_id"] in snapshot_families
+        assert item["source_path"]
+        assert item["target_observations"]
+        assert item["status"] == "ready_for_extraction"
+        assert item["boundary"]
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage
