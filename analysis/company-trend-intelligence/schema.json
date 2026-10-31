@@ -1,0 +1,51 @@
+{
+  "schema": "company-trend-intelligence-record-v1",
+  "required": [
+    "trend_id",
+    "title",
+    "status",
+    "detected_at",
+    "observation_window",
+    "geography",
+    "themes",
+    "one_sentence_finding",
+    "signal",
+    "evidence",
+    "mechanism",
+    "affected_groups",
+    "business_exposure",
+    "horizon",
+    "leading_indicators",
+    "counterevidence",
+    "limits",
+    "next_test"
+  ],
+  "status_values": [
+    "emerging_signal",
+    "repeated_pattern",
+    "qualified_trend",
+    "confirmed_trend",
+    "structural_shift",
+    "reversing_trend",
+    "contested",
+    "rejected"
+  ],
+  "evidence_status_values": [
+    "directly_observed",
+    "measured_study_result",
+    "official_record",
+    "reported_claim",
+    "cross_source_inference",
+    "open"
+  ],
+  "business_exposure_dimensions": [
+    "customer",
+    "workforce",
+    "product",
+    "finance",
+    "operations",
+    "institutional",
+    "reputation",
+    "geopolitical"
+  ]
+}
