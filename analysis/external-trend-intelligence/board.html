@@ -434,6 +434,9 @@
       fetch('temporal-holdout-result.json').then(r => r.json()).then(result => {
         el('temporal-holdout').append(card('Directional readout', result.status, result.signal_summary + ' ' + result.boundary));
       });
+      fetch('temporal-decision-narrative.json').then(r => r.json()).then(narrative => {
+        el('temporal-holdout').append(card(narrative.headline, narrative.status, narrative.decision_use + ' ' + narrative.counter_signal));
+      });
       el('bounded-lineage').append(boundedLineageCard(boundedLineage));
       const rightsCards = el('rights-queue'); rightsQueue.rows.forEach(row => rightsCards.append(rightsCard(row)));
       el('independent-comparison').append(independentComparisonCard(independentComparison));

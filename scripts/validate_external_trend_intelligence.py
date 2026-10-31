@@ -297,7 +297,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 49
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 50
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -379,6 +379,10 @@ def main() -> int:
     assert holdout_result["status"] == "descriptive_holdout_readout_single_family"
     assert len(holdout_result["result"]) == 3
     assert "counter-signal" in holdout_result["result"][2]["interpretation"]
+    narrative = json.loads((ANALYSIS / "temporal-decision-narrative.json").read_text())
+    assert narrative["schema"] == "external-trend-intelligence.temporal-decision-narrative.v1"
+    assert narrative["status"] == "bounded_external_narrative"
+    assert len(narrative["what_the_evidence_shows"]) == 3
     release_health = json.loads((ANALYSIS / "release-health.json").read_text())
     assert release_health["schema"] == "external-trend-intelligence.release-health.v1"
     assert release_health["release_status"] == "operational_with_open_gates"

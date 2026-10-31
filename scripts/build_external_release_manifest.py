@@ -31,6 +31,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/cross-publisher-stage-comparison.json",
     "analysis/external-trend-intelligence/temporal-holdout-design.json",
     "analysis/external-trend-intelligence/temporal-holdout-result.json",
+    "analysis/external-trend-intelligence/temporal-decision-narrative.json",
     "analysis/external-trend-intelligence/release-health.json",
     "analysis/external-trend-intelligence/bounded-subset-lineage-review.json",
     "analysis/external-trend-intelligence/program-progress.json",
