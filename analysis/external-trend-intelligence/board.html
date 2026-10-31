@@ -142,6 +142,11 @@
       <div class="promotion-gates" id="rights-queue"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Local rights evidence discovery</h2>
+      <p class="muted">Local license or terms files are evidence to review, not legal clearance.</p>
+      <div class="promotion-gates" id="rights-evidence"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Independent mechanism comparison</h2>
       <p class="muted">Independent publishers can challenge a mechanism without making unlike populations numerically comparable.</p>
       <div class="promotion-gates" id="independent-comparison"></div>
@@ -439,6 +444,10 @@
       });
       el('bounded-lineage').append(boundedLineageCard(boundedLineage));
       const rightsCards = el('rights-queue'); rightsQueue.rows.forEach(row => rightsCards.append(rightsCard(row)));
+      fetch('rights-evidence-register.json').then(r => r.json()).then(evidence => {
+        el('rights-evidence').append(card(`${evidence.partial_file_evidence_count} families with local files · ${evidence.no_local_terms_file_count} without`, 'partial_file_evidence', evidence.boundary));
+        evidence.rows.forEach(row => el('rights-evidence').append(card(row.family_id, row.evidence_status, row.observed_files.length ? row.observed_files.map(file => file.path).join(' · ') : 'No local terms file found; upstream terms still require review.')));
+      });
       el('independent-comparison').append(independentComparisonCard(independentComparison));
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
       const controls = new Map(sourceControls.families.map(item => [item.family_id, item]));
