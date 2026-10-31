@@ -15,6 +15,8 @@ people, and public-affairs teams.
 - `schema.json` defines the required machine-readable fields.
 - `portfolio.json` exposes the current records and portfolio lens to a frontend
   or downstream analysis.
+- `portfolio.csv` provides the same six-record index for spreadsheets and BI
+  tools; pipe-delimited values preserve multi-value fields.
 - `board.html` is a lightweight browser reader for the JSON portfolio.
 - `TEMPLATE.md` is the plain-language authoring template.
 - A record must preserve the source claim, mechanism, affected groups,
