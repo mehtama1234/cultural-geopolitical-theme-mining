@@ -28,7 +28,13 @@ def main() -> int:
         "source_urls": [
             "https://www.federalreserve.gov/consumerscommunities/files/SHED_2024codebook.pdf",
             "https://www.federalreserve.gov/consumerscommunities/files/SHED_public_use_data_2024_%28CSV%29.zip",
+            "https://www.federalreserve.gov/publications/files/2024-report-economic-well-being-us-households-202505.pdf",
         ],
+        "official_uncertainty_search": {
+            "report_interval_text_found": False,
+            "codebook_replicate_weight_text_found": False,
+            "basis": "The official report publishes point estimates and the codebook documents analysis weights, but neither artifact provides a design-based interval or replicate-weight procedure for this measure.",
+        },
         "naive_srs_interval": {
             "status": "diagnostic_only_not_release_valid",
             "confidence_level": 0.95,
