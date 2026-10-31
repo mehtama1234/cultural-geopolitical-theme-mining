@@ -44,6 +44,8 @@ language exclusion, low-resource data and intergenerational decline
 | University of Waikato Summer Research project abstract for a new reo Māori AI voice | The project abstract specifies meetings with Te Hiku Media and an iwi speaker, approximately 30 hours of recordings, creation and testing of a new voice, documentation of the process and a final research poster as expected outputs. | documented production workflow and partner route | actual recording consent terms, speaker authority, model release, licensing, quality results, learner/media deployment and repeated use |
 | TalkLink Annual Report 2024 Tua o te Pae | TalkLink reports a Te Hiku Media te reo Māori male synthetic voice running on an Accent 1000 communication device with acceptable quality and speed; a named user received it on her own device and used it to deliver a mihi. | device operation and named-user communication proof of concept | number of users, repeated use, communication outcomes, pronunciation evaluation, broader compatibility and language/cultural participation outcomes |
 | TalkLink Annual Report 2025 Tua o te Pae | TalkLink reports Te Hiku Media voices being tested by a small number of Māori Accent-device users, positive feedback, preferred-gender voice options and work to adapt voices for Grid 3 and wider devices. | small-cohort user testing and compatibility expansion | cohort size, participant characteristics, repeated daily use, communication success, language participation, user safety and broad rollout |
+| Te Taura Whiri i te Reo Māori and Google Maps text-to-speech | The Māori Language Commission reports a public Google Maps voice that pronounces Māori place names, a feedback route for errors, Commission-guided pronunciation, New Zealand Geographic Board data, Commission kaitiakitanga and Google licensing; the release is currently limited to Google Maps and does not cover dialect variation. | public-facing geographic voice deployment with named stewardship and correction route | usage volume, correction counts, pronunciation quality by region/dialect, long-term kaitiaki structure, benefit sharing and effect on Māori-language use or place-name behavior |
+| Welsh Government review of Welsh-language health and social-care data | A 2026 review supporting the Active Offer finds fragmented and inconsistently recorded data, gaps in coverage, limited user-experience data and weak links between workforce skills and service delivery; it proposes 39 indicators across service delivery, demand, workforce ability and future workforce ability. | explicit outcome-measurement framework and evidence-gap diagnosis for language access in care | routine indicator production, user-level service completion, actual demand, quality and safety, organization-level comparability and whether technology changes access or experience |
 
 ## Stage audit
 
@@ -140,6 +142,17 @@ million-speaker target. This makes the measurement problem part of the theme:
 technology outputs can be documented faster than population-level language
 change can be attributed or reliably observed.
 
+The new cross-case evidence sharpens the geography-to-service distinction. The
+Māori Google Maps voice puts culturally guided pronunciation into an everyday
+navigation surface and creates a visible correction loop, but it is an English
+voice for place names, limited to one product and explicitly outside dialect
+variation. The Welsh health and social-care review moves in the opposite
+direction: it defines the service-outcome indicators needed for an Active Offer
+but shows that fragmented administrative data and limited user-experience
+measurement prevent routine system-level evaluation. Geographic visibility and
+service accessibility are therefore separate conversion stages, even when both
+are described as language inclusion.
+
 ## Cultural and geographical interpretation
 
 Low-resource is not the same as low-value. A language can be economically small
@@ -214,3 +227,5 @@ collection; do not infer vitality from model or corpus size.
 16. [University of Waikato Summer Research project abstract for a new reo Māori AI voice](https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/The-Summer-Research-Scholarship-Programme/Project-Abstracts-2024-2025/20-A-new-reo-Maori-AI-Voice.pdf)
 17. [TalkLink Annual Report 2024 Tua o te Pae](https://talklink.org.nz/uploads/51f1e99151f3d82f8a83adb938411974.pdf)
 18. [TalkLink Annual Report 2025 Tua o te Pae](https://talklink.org.nz/uploads/147704481b6d997ccea42b4501bc6d36.pdf)
+19. [Te Taura Whiri i te Reo Māori and Google Maps text-to-speech](https://en.tetaurawhiri.govt.nz/google-maps)
+20. [Welsh Government review of Welsh-language health and social-care data](https://www.gov.wales/review-data-measure-progress-against-more-just-words-plan-2022-2027-health-and-social-care)
