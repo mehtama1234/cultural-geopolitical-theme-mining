@@ -48,6 +48,7 @@ language exclusion, low-resource data and intergenerational decline
 | Welsh Government review of Welsh-language health and social-care data | A 2026 review supporting the Active Offer finds fragmented and inconsistently recorded data, gaps in coverage, limited user-experience data and weak links between workforce skills and service delivery; it proposes 39 indicators across service delivery, demand, workforce ability and future workforce ability. | explicit outcome-measurement framework and evidence-gap diagnosis for language access in care | routine indicator production, user-level service completion, actual demand, quality and safety, organization-level comparability and whether technology changes access or experience |
 | Sámi AI Lab Ábo Web Service | The Sámi AI Lab, hosted by Sámi University of Applied Sciences and UiT, reports a functional public-facing Ábo service that lets users speak naturally in Sámi and receive real-time transcription and translation, aimed at reducing language switching in digital spaces. | public-facing speech-to-text/translation service and named Indigenous-led development route | active users, language coverage, transcription/translation error by dialect, repeat use, professional or educational outcomes, privacy and community control of speech data |
 | Sámi AI Lab health, cultural-generation and evaluation tracks | Sámi AI Lab describes developmental work on Sámi-specific cognitive assessment, culturally accurate generative tools for duodji and a Sámi understanding benchmark; it states that the benchmark and clinical platform remain in development and positions Sámi-led governance as a control surface. | named high-stakes use cases, evaluation agenda and Indigenous-led governance structure | validated clinical performance, safety, clinical adoption, benchmark release, cultural-fidelity testing, data access rules, traditional-knowledge restrictions and outcomes for Sámi users |
+| Euskorpus Basque AI-language project | The Basque Government reports a €10.55 million 2025–2027 public-private project led by Euskorpora to build a quality Basque corpus, open-source base models and infrastructure, identify sector applications across justice, education, health, e-government and industry, and transfer outputs to companies, institutions and citizens. Spain’s ministry separately describes a three-year €5 million contribution to enrich public ALIA models and connect Basque resources to the European language-resource framework. | funded language infrastructure, public-private delivery coalition and explicit transfer pathway | corpus composition and rights, model quality by dialect and task, released artifacts, sector deployments, users, service completion, industrial uptake, governance and whether the infrastructure changes everyday Basque use |
 
 ## Stage audit
 
@@ -164,6 +165,16 @@ separate workstreams. That separation is analytically important: an Indigenous
 institution can control the agenda and still need independent evidence that a
 tool is safe, accurate, repeatedly used and beneficial in high-stakes settings.
 
+The Basque Euskorpus case adds a funded ecosystem-building route between
+infrastructure and deployment. Its three-phase design explicitly names
+planning, corpus/model development and transfer to firms, institutions and
+citizens, while the sector list makes potential public-service conversion
+visible. That is stronger than an abstract preservation claim but still a
+planned pathway: the public announcements do not establish released artifacts,
+sector-level adoption, user outcomes, dialect performance or rights settlement.
+The atlas should therefore record funding and coalition design as enabling
+evidence, not as proof of digital vitality.
+
 ## Cultural and geographical interpretation
 
 Low-resource is not the same as low-value. A language can be economically small
@@ -241,3 +252,5 @@ collection; do not infer vitality from model or corpus size.
 19. [Te Taura Whiri i te Reo Māori and Google Maps text-to-speech](https://en.tetaurawhiri.govt.nz/google-maps)
 20. [Welsh Government review of Welsh-language health and social-care data](https://www.gov.wales/review-data-measure-progress-against-more-just-words-plan-2022-2027-health-and-social-care)
 21. [Sámi AI Lab](https://samiailab.github.io/)
+22. [Basque Government Euskorpus project](https://www.euskadi.eus/gobierno-vasco/-/noticia/2025/el-gobierno-vasco-destina-5-millones-euros-impulsar-desarrollo-inteligencia-artificial-euskera-mediante-proyecto-euskorpus-consejo-gobierno-22-07-2025/)
+23. [Spanish Ministry funding for Basque AI language resources](https://digital.gob.es/comunicacion/notas-prensa/secretaria-digitalizacion-inteligencia-artificial/2025/07/2025-07-08)
