@@ -1,7 +1,7 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 328 unique registered packet paths, 333 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 457, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals and portfolio-synthesis evidence integrated.
+**Inputs:** 329 unique registered packet paths, 334 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 458, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity and portfolio-synthesis evidence integrated.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
@@ -206,6 +206,21 @@ alternative case. The current queue prioritizes facility-to-household incidence,
 person/account-to-cross-border remedy, forecast-to-safe-action, material-to-
 rights-safe local value and participation-to-influence.
 
+## Subsea cable refresh — 2026-10-30
+
+The Tonga follow-up adds a named-event test to the existing cable-capacity
+distinction. The 2019 and 2022 incidents close route failure, differentiated
+exposure and repair asymmetry; the 2024 satellite response is a useful
+counterexample to a prolonged total blackout. None of these closes the same
+event for main-island and outer-island users, public services, prices,
+licensing, local control, remedy or post-event redundancy.
+
+The next acquisition is therefore a route-to-user ledger: fault, detection,
+permission, repair, fallback capacity and priority rules joined to ISP
+performance, prices, relief/public-service continuity and contrasting user or
+place outcomes. This strengthens the route-to-local-continuity lane without
+promoting technical restoration into equal lived resilience.
+
 ## Strongest open conversion lanes
 
 1. **Facility-to-household incidence:** AI/data-centre, transmission, water,
@@ -225,6 +240,9 @@ rights-safe local value and participation-to-influence.
 6. **Digital record-to-personal control:** identity, health data, neural data,
    public AI and cross-border data systems need access, correction, refusal,
    privacy and downstream service consequences.
+7. **Route-to-local-continuity:** submarine cables, landing stations, satellite
+   fallback and repair systems need same-event evidence for main-island and
+   outer-island users, public services, affordability and local control.
 
 ## Counterexamples the atlas must preserve
 

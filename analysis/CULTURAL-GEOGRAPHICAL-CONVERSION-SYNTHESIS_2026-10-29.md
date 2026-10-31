@@ -3899,6 +3899,7 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 455. **Strategic-sector investment or industrial policy is not local productive capacity, shared value or resilient development.** An announced greenfield project, subsidy, investment-screening decision, data centre, mine, factory, jobs target, supplier programme, technology-transfer clause, local-content rule, strategic-sector share or geopolitical partnership can close an investment, policy, infrastructure, resource or security stage while a named place and population's land, energy, water, consent, suppliers, employment, skills, technology/IP, tax, environmental burden, local ownership, bargaining power, operation, reinvestment and exit remain unobserved.
 456. **Critical-mineral reserves, extraction or diversification are not a rights-safe resilient supply chain or community benefit.** A reserve estimate, mine, concession, production target, refinery, export control, supply-gap projection, stockpile, recycling rate, local-content rule, traceability system, revenue promise, public-finance commitment or community consultation can close a geological, mining, processing, trade, circularity, investment or governance stage while a named community's consent, land, water, energy, labour, culture, suppliers, refining, recycling, revenue, technology, environmental burden, remediation, grievance and later livelihood remain unobserved.
 457. **A mature evidence portfolio is not a universal trend or causal model.** A large packet inventory, repeated mechanism, cross-domain convergence, policy cluster, source count, named case, negative case, machine-readable ledger or executive synthesis can close discovery, comparison and research-design stages while same-unit continuity, representativeness, causal attribution, distribution, lived outcome, counterfactual, durability and power remain unobserved.
+458. **A cable fault, repair milestone or backup link is not local digital continuity.** A named submarine-cable failure, satellite fallback, international restoration, regional repair hub, redundancy plan or resilience investment can close a route, technical-restoration or governance stage while outer-island and household service, affordability, public-service continuity, licensing, local agency, data sovereignty and later redundancy remain unobserved.
 
 ## What the evidence does not support
 
@@ -3918,7 +3919,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 435 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 458 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 
@@ -3938,7 +3939,7 @@ for discovery, but they should not replace the named conversion packets.
 ## Decision
 
 This synthesis serves as the cultural/geographical interpretation layer for the
-living goal. The current atlas baseline has been refreshed through Rotation LR.
+living goal. The current atlas baseline has been refreshed through Rotation LT.
 It contains closed later-stage results where the public record supports them and
 explicit source-boundary findings for claimant-level public-AI outcomes,
 facility-to-customer infrastructure incidence, construction/appeal outcomes,
