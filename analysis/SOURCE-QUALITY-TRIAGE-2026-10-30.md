@@ -59,7 +59,9 @@ not silently carry a high-stakes proposition when a primary source is available.
 
 ## Next evidence action
 
-The next batch should select the 20 highest-weight packet propositions whose
+The first 20-claim batch is recorded in
+`CLAIM-SOURCE-REVIEW-2026-10-30.csv`. The next batch should select the 20
+highest-weight packet propositions whose
 source domain is in the high-priority group. For each, record:
 
 - exact source title, authoring institution and publication date;
