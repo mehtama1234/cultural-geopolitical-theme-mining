@@ -297,7 +297,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 30
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 31
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -328,6 +328,10 @@ def main() -> int:
     assert pilot["status"] == "design_only_external_gate"
     assert pilot["external_gate"]["current_status"] == "held"
     assert pilot["company_ref"]["company_id"] is None
+    monitoring = json.loads((ANALYSIS / "trend-monitoring-register.json").read_text())
+    assert monitoring["schema"] == "external-trend-intelligence.trend-monitoring-register.v1"
+    assert len(monitoring["trends"]) == 4
+    assert all(item["state"] == "pre_qualification_watch" for item in monitoring["trends"])
     care_subset = json.loads((ANALYSIS / "care-capacity-comparable-subset.json").read_text())
     assert care_subset["schema"] == "external-trend-intelligence.care-capacity-comparable-subset.v1"
     assert care_subset["candidate_id"] == care_candidate["candidate_id"]

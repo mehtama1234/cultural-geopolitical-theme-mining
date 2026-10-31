@@ -36,6 +36,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/candidate-comparisons.json",
     "analysis/external-trend-intelligence/candidate-qualification-matrix.json",
     "analysis/external-trend-intelligence/pilot-register.json",
+    "analysis/external-trend-intelligence/trend-monitoring-register.json",
     "analysis/external-trend-intelligence/care-capacity-candidate.json",
     "analysis/external-trend-intelligence/care-capacity-measurement-matrix.json",
     "analysis/external-trend-intelligence/care-capacity-comparable-subset.json",

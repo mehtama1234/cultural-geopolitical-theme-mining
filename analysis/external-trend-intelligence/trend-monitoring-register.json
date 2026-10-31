@@ -1,0 +1,44 @@
+{
+  "schema": "external-trend-intelligence.trend-monitoring-register.v1",
+  "purpose": "Operational watch register for held and qualified external trend candidates.",
+  "state_values": ["pre_qualification_watch", "qualified_monitor", "reversed", "retired"],
+  "boundary": "A watch state records what to refresh and challenge. It does not promote a candidate or establish a company effect.",
+  "trends": [
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "state": "pre_qualification_watch",
+      "cadence": "monthly and on new remedy or implementation release",
+      "leading_indicators": ["formal response date", "implementation step", "receipt or restoration", "repeat effort", "durable exit"],
+      "reversal_conditions": ["later comparable cases consistently reach usable recovery", "implementation gap disappears across independent source families"],
+      "next_review": "after the next comparable case panel is assembled",
+      "owner": "external evidence review queue"
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "state": "pre_qualification_watch",
+      "cadence": "quarterly or on a new comparable survey wave",
+      "leading_indicators": ["compatible time burden", "cost pressure", "participation or completion", "substitution", "wellbeing or connection"],
+      "reversal_conditions": ["later compatible waves show stable practical room despite pressure", "higher-resource and constrained groups converge without support change"],
+      "next_review": "after compatible denominator and participant-population reconciliation",
+      "owner": "external evidence review queue"
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "state": "pre_qualification_watch",
+      "cadence": "monthly or on a new adoption, control, or trust release",
+      "leading_indicators": ["capability adoption", "verification effort", "contestability", "remedy", "switching or exit", "repeat reliance"],
+      "reversal_conditions": ["capability growth is accompanied by durable control and trust across independent measures", "correction and exit rates decline without governance change"],
+      "next_review": "after repeated task-level measures are identified",
+      "owner": "external evidence review queue"
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "state": "pre_qualification_watch",
+      "cadence": "monthly and on operation or disruption event",
+      "leading_indicators": ["system operation", "disruption", "tariff or bill", "reliability", "compensation", "local acceptance"],
+      "reversal_conditions": ["capacity claims repeatedly reach measured user receipt without material burden", "local acceptance and reliability improve in later windows"],
+      "next_review": "after operation-to-user-incidence evidence is linked",
+      "owner": "external evidence review queue"
+    }
+  ]
+}
