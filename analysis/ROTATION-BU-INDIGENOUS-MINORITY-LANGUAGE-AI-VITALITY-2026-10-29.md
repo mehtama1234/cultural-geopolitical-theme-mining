@@ -42,6 +42,8 @@ language exclusion, low-resource data and intergenerational decline
 | Welsh Government Annual Population Survey 2025–2026 refresh | APS estimates 843,700 Welsh speakers and 446,800 people reporting daily Welsh use; the release says the change is not statistically significant, APS accreditation is suspended, survey mode may affect results and the census remains the target measure. | updated population and daily-use signal with explicit uncertainty | causal link to technology, education or service interventions; durable cohort use, transmission and comparable census/National Survey trend |
 | University of Waikato responsible Waikato-Maniapoto AI voice development | University of Waikato reports a local Māori language authority recording thousands of sentences, Māori language experts supporting development, Google funding for responsible Māori language technology protocols, and the voice remaining in testing with release expected later. | community participation and responsible-development intent plus pre-deployment readiness | release authority, speaker rights, data retention, consent, licensing, misuse safeguards, learner deployment, repeated use, pronunciation quality and transmission |
 | University of Waikato Summer Research project abstract for a new reo Māori AI voice | The project abstract specifies meetings with Te Hiku Media and an iwi speaker, approximately 30 hours of recordings, creation and testing of a new voice, documentation of the process and a final research poster as expected outputs. | documented production workflow and partner route | actual recording consent terms, speaker authority, model release, licensing, quality results, learner/media deployment and repeated use |
+| TalkLink Annual Report 2024 Tua o te Pae | TalkLink reports a Te Hiku Media te reo Māori male synthetic voice running on an Accent 1000 communication device with acceptable quality and speed; a named user received it on her own device and used it to deliver a mihi. | device operation and named-user communication proof of concept | number of users, repeated use, communication outcomes, pronunciation evaluation, broader compatibility and language/cultural participation outcomes |
+| TalkLink Annual Report 2025 Tua o te Pae | TalkLink reports Te Hiku Media voices being tested by a small number of Māori Accent-device users, positive feedback, preferred-gender voice options and work to adapt voices for Grid 3 and wider devices. | small-cohort user testing and compatibility expansion | cohort size, participant characteristics, repeated daily use, communication success, language participation, user safety and broad rollout |
 
 ## Stage audit
 
@@ -102,6 +104,15 @@ the remaining gap precise. The public record still does not show the recording
 consent terms, speaker authority, final evaluation, release license or repeated
 use by learners/media. The project is therefore a high-quality readiness and
 governance lead, not a completed vitality intervention.
+
+The adjacent Tua o te Pae pathway reaches further into real use. TalkLink
+documents a voice operating on an AAC device, a named user using it for a mihi,
+and later testing by a small group of Māori AAC users. This closes the
+technology-to-user-operation stage for a specific accessibility context and
+shows cultural participation as a concrete use case. It still does not establish
+large-scale rollout, long-term daily use, standardized pronunciation or
+language-vitality effects; the sample and feedback remain small and device
+compatibility work is still expanding.
 
 The Welsh outcome evidence supplies a useful counterexample to easy success
 narratives. A population survey reports substantial daily use, but its methods
@@ -201,3 +212,5 @@ collection; do not infer vitality from model or corpus size.
 14. [Welsh Government Annual Population Survey 2025–2026](https://www.gov.wales/welsh-language-data-annual-population-survey-april-2025-march-2026-html)
 15. [University of Waikato responsible Waikato-Maniapoto AI voice development](https://www.waikato.ac.nz/news-events/news/a-voice-for-the-future-the-first-ai-generated-waikato-maniapoto-voice/)
 16. [University of Waikato Summer Research project abstract for a new reo Māori AI voice](https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/The-Summer-Research-Scholarship-Programme/Project-Abstracts-2024-2025/20-A-new-reo-Maori-AI-Voice.pdf)
+17. [TalkLink Annual Report 2024 Tua o te Pae](https://talklink.org.nz/uploads/51f1e99151f3d82f8a83adb938411974.pdf)
+18. [TalkLink Annual Report 2025 Tua o te Pae](https://talklink.org.nz/uploads/147704481b6d997ccea42b4501bc6d36.pdf)
