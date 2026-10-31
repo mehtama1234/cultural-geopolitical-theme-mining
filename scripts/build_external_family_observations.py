@@ -82,6 +82,11 @@ def main() -> int:
     annual_citation_path = "annual-report-research/analysis/company-first-principles/annual-report-public-citation-source-list-pass-1.md"
     annual_citation = show(ANNUAL_REPO, ANNUAL_REV, annual_citation_path)
     annual_source_urls = sorted(set(re.findall(r"https?://[^ )|`]+", annual_citation)))
+    annual_citation_rows = re.findall(r"\|\s*(ARPCSL-\d+)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|", annual_citation)
+    annual_category_counts = {}
+    for _, category, _, _ in annual_citation_rows:
+        category = category.strip()
+        annual_category_counts[category] = annual_category_counts.get(category, 0) + 1
     theme_rows = re.findall(r"\| (Core|Expansion) \| ([^|]+) \|", theme_map)
     folder_match = re.search(r"`(\d+)` company folder", theme_map)
 
@@ -272,6 +277,9 @@ def main() -> int:
             company_folder_reference=int(folder_match.group(1)) if folder_match else None,
             theme_names=[name.strip() for _, name in theme_rows],
             citation_source_path=annual_citation_path,
+            citation_row_count=len(annual_citation_rows),
+            citation_source_ids=[row[0] for row in annual_citation_rows],
+            citation_category_counts=annual_category_counts,
             source_urls=annual_source_urls,
             source_url_count=len(annual_source_urls),
             source_url_status="present_in_artifact",

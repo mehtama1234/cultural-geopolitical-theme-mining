@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "a43974daa20bc94311863dea10f30e5a7b9f86cd",
+  "source_tree_commit": "64e7ccc9d9e3e4d7cec2c2783e239c1a8aa1aace",
   "artifact_count": 22,
   "artifacts": [
     {
@@ -51,8 +51,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-observations.json",
-      "bytes": 20428,
-      "sha256": "0670c9ba8b2846578f3ea3be10481dcb46f53da8e9d230016113663978316cf0"
+      "bytes": 21252,
+      "sha256": "a803843caf991452e6a57d0ab80672eb7785ae10b78606d2c4fb6d5a2ffcefc6"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-lineage-review.json",

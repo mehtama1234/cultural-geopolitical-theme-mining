@@ -88,7 +88,8 @@ not expose source URLs or filing identities. The annual-report theme map now
 links to its pinned public citation list, while the IBIS corpus exposes its
 separate source inventory (17,998 sources, including 17,087 public URLs), but
 those citations and URLs still need to be mapped to specific findings before
-promotion.
+promotion. The annual citation list currently contributes 25 URLs and 25
+identified citation rows across its source categories.
 
 The first broader candidate built from these lanes is documented in
 [`CARE-CAPACITY-CANDIDATE.md`](CARE-CAPACITY-CANDIDATE.md) and

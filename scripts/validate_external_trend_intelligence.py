@@ -191,6 +191,8 @@ def main() -> int:
         if observation["observation_id"] == "annual-report-integrated-theme-map":
             assert observation["source_url_status"] == "present_in_artifact"
             assert observation["source_url_count"] == len(observation["source_urls"]) >= 1
+            assert observation["citation_row_count"] == len(observation["citation_source_ids"]) >= observation["source_url_count"]
+            assert sum(observation["citation_category_counts"].values()) == observation["citation_row_count"]
     family_comparisons = json.loads((ANALYSIS / "external-family-comparisons.json").read_text())
     assert family_comparisons["schema"] == "external-trend-intelligence.external-family-comparisons.v1"
     assert len(family_comparisons["comparisons"]) == 8
