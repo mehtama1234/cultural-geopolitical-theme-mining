@@ -71,6 +71,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
     "analysis/external-trend-intelligence/shed-temporal-holdout.json",
     "analysis/external-trend-intelligence/shed-emergency-expense-2013-2025.json",
+    "analysis/external-trend-intelligence/shed-emergency-expense-uncertainty-audit.json",
     "analysis/external-trend-intelligence/usda-temporal-holdout.json",
     "analysis/external-trend-intelligence/us-financial-room-independent-comparison.json",
     "analysis/external-trend-intelligence/external-acquisition-rights-review.json",

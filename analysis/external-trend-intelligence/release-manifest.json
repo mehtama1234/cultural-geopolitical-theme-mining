@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "aa1be41f4fb0a6b57bbed7edec98cbc6ad16a855",
-  "artifact_count": 74,
+  "source_tree_commit": "6911bc90833da499547157577b4f7dafd2a68b9f",
+  "artifact_count": 75,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -117,12 +117,12 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2238,
-      "sha256": "76acd870ca6f1db975050e9ae986f4b79a5f99d46a9c892d52add7d35ab70f77"
+      "sha256": "e74fae4f482d4f8406980f9534699c72a6541d1a11e4661d91cec5605ec75089"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1833,
-      "sha256": "cbdb7ee6f856c999ced5c12963c1201ffe561d07f4fa3a57093348da3d7b0e41"
+      "sha256": "936fa20ec0f18ccc1eb2e68dbf5ef9444703cf0644464cb7c46577f564f8120f"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -146,8 +146,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 4221,
-      "sha256": "5111c844d116ffcb6771e1d0fc2bef6c6193f61eed2e0f47fa2dbf1a9ba28128"
+      "bytes": 4374,
+      "sha256": "e5ff1ca74b594019407ee5d56fb5165d5390cd9ce20a704f36b0b7bfda4fab32"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
@@ -176,8 +176,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5735,
-      "sha256": "dd12c6e1896086699662698eb70486c4499a7d902890155136e561ab08fb0ba5"
+      "bytes": 5733,
+      "sha256": "4c40b4b454322ea9f3c79fd9d1fb70b3d8fd9347c2fc55696b6600e94d415dc0"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -271,8 +271,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 12637,
-      "sha256": "d42ba6cd77a5bdef416698b615e268617e35e03d1a49bd2eba51be43acdfdda0"
+      "bytes": 13071,
+      "sha256": "60e4046bfe6e11473127739d8615af053bbfa38aac355d6dc4296d864267bf7f"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
@@ -288,6 +288,11 @@
       "path": "analysis/external-trend-intelligence/shed-emergency-expense-2013-2025.json",
       "bytes": 3338,
       "sha256": "542398eb9a72d0bae501c547bcd369414957a3b88cf0c3d7c47a03c1c4c740eb"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/shed-emergency-expense-uncertainty-audit.json",
+      "bytes": 1484,
+      "sha256": "7ac2ad3d3a29b110bedb69876e6c6a499245b4b90685508e73cf81037fdebbdf"
     },
     {
       "path": "analysis/external-trend-intelligence/usda-temporal-holdout.json",
