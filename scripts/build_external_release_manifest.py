@@ -38,6 +38,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/rights-review-queue.json",
     "analysis/external-trend-intelligence/rights-evidence-register.json",
     "analysis/external-trend-intelligence/room-independent-comparison.json",
+    "analysis/external-trend-intelligence/evidence-acquisition-plan.json",
     "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
     "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
     "analysis/external-trend-intelligence/refresh-schedule.json",

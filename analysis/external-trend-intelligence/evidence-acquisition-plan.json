@@ -1,0 +1,34 @@
+{
+  "schema": "external-trend-intelligence.evidence-acquisition-plan.v1",
+  "purpose": "Turn open qualification gates into bounded, reviewable external acquisition tasks.",
+  "tracks": [
+    {
+      "track_id": "time-pressure-independent-holdout",
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "target_source": "An independent household-finance or purchase-behavior series with Australia coverage and a period overlapping ABS GSS 2020/2025",
+      "required_fields": ["publisher", "population", "geography", "period", "denominator", "unit", "question_or_measure_definition", "source_url", "rights_basis", "method_change_notes"],
+      "acceptance_criteria": ["same measure observed in at least two periods", "compatible household or adult denominator", "independent publisher lineage", "documented methodology and revision history", "counter-signal or null result retained"],
+      "stop_rule": "Do not pool with ABS or promote the candidate if the measure, population, period, or rights basis cannot be reconciled.",
+      "owner": "external evidence review queue"
+    },
+    {
+      "track_id": "formal-response-independent-outcome",
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "target_source": "A non-Fair-Work source family with repeated, public response-to-recovery stages and recipient-level or population-denominator outcomes",
+      "required_fields": ["response_date", "implementation", "receipt_or_restoration", "durability", "exit_or_switching", "population_or_case_frame", "publisher_lineage", "rights_basis"],
+      "acceptance_criteria": ["same stage vocabulary across at least two periods or cohorts", "public non-observation distinguished from zero", "independent publisher or dataset", "pre-specified holdout", "falsifier recorded"],
+      "stop_rule": "Do not treat additional Fair Work Commission/Ombudsman cases as independent confirmation without a separate source lineage review.",
+      "owner": "external evidence review queue"
+    },
+    {
+      "track_id": "rights-and-retention-clearance",
+      "candidate_id": "all-candidates",
+      "target_source": "Repository and upstream publisher terms for every registered source family",
+      "required_fields": ["access_route", "license_or_terms", "storage_scope", "transformation_scope", "redistribution_scope", "retention_obligation", "upstream_identity", "publisher_dependence"],
+      "acceptance_criteria": ["evidence file or authoritative terms URL pinned", "derived-chart and narrative use documented", "refresh and deletion obligations recorded", "shared-publisher dependence assessed"],
+      "stop_rule": "No trend promotion or internal company bridge while rights or publisher dependence remains unresolved.",
+      "owner": "source governance and external evidence review queue"
+    }
+  ],
+  "boundary": "This plan authorizes acquisition and review work only. It does not authorize internal-data connection, trend promotion, legal clearance, or pooling unlike sources."
+}
