@@ -20,6 +20,8 @@ source
 
 The writing rule is simple: use ordinary words, show the causal steps, name the evidence, separate fact from inference, and say what would prove us wrong.
 
+For the company-facing purpose of the atlas, read the [company trend-intelligence goal](COMPANY_TREND_INTELLIGENCE_GOAL_V1.md). It translates the research program into an evidence-based early-warning and strategic-interpretation system for customer, workforce, product, financial, operational, institutional, cultural, and geopolitical decisions.
+
 For a synchronized handoff check, run `python3 scripts/validate_long_term_publication_gate.py`.
 
 ## The broad program

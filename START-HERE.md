@@ -1,5 +1,12 @@
 # Start here
 
+## Company trend-intelligence goal
+
+The atlas is being developed as a company-facing trend-intelligence system:
+use the [company trend-intelligence goal](COMPANY_TREND_INTELLIGENCE_GOAL_V1.md)
+to understand how the 14 research themes become signals, tested trends,
+business exposures, scenarios, leading indicators, and decision options.
+
 **Current continuation checkpoint — 2026-10-19:** the active four-rotation pass
 has added a [remote-work and care bargain finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-047.md),
 a [nursing-home finance-to-capacity synthesis](analysis/projects/us-nursing-home-inspection-quality/findings/us-nursing-home-finance-quality-capacity-2026-002.md),
