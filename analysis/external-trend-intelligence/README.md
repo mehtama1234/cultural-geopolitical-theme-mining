@@ -14,6 +14,18 @@ python3 scripts/build_external_observation_manifest.py \
   --output analysis/external-trend-intelligence/observation-manifest.json
 ```
 
+`source-registry-snapshot.json` preserves the complete 118-source inventory
+from `manifests/source-registry.json`, even when that upstream manifest is not
+present in the working tree. It is a source-universe map, not proof that a
+source is currently reachable, licensed, fresh, or independent. Rebuild it
+with:
+
+```text
+python3 scripts/build_external_source_registry_snapshot.py \
+  --git-ref HEAD \
+  --output analysis/external-trend-intelligence/source-registry-snapshot.json
+```
+
 The first cross-source comparison is in
 [`CROSS-SOURCE-CANDIDATES.md`](CROSS-SOURCE-CANDIDATES.md). These are
 qualified candidates, not yet company findings or forecasts.
@@ -85,7 +97,8 @@ timing are candidate connections—not proof of a valid join.
 
 ## Current next build
 
-The first machine-readable manifest is now generated from the pinned source
-tree. The next build is cross-source candidate comparison for the 14 themes,
-with counter-signals and a promotion queue. The company trend board remains a
-downstream view, not the discovery engine.
+The machine-readable manifest and full source-universe snapshot are generated
+from a pinned source tree. The next build is deeper lineage and cross-source
+candidate comparison for the 14 themes, with counter-signals and a promotion
+queue. The company trend board remains a downstream view, not the discovery
+engine.

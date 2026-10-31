@@ -82,6 +82,23 @@ def main() -> int:
     assert internal_catalog["status"] == "inventory_only"
     assert len(internal_catalog["sources"]) >= 8
     assert all("authority" in source and "readiness" in source for source in internal_catalog["sources"])
+    source_snapshot = json.loads((ANALYSIS / "source-registry-snapshot.json").read_text())
+    assert source_snapshot["schema"] == "external-trend-intelligence.source-registry-snapshot.v1"
+    assert source_snapshot["upstream_registry_path"] == "manifests/source-registry.json"
+    assert source_snapshot["upstream_format"] == "cultural-geopolitical-theme-mining-source-registry-v1"
+    assert source_snapshot["source_count"] == len(source_snapshot["sources"]) == 118
+    assert source_snapshot["boundary"]
+    source_ids = [source["id"] for source in source_snapshot["sources"]]
+    assert len(set(source_ids)) == len(source_ids)
+    assert all(
+        source["name"]
+        and source["url"]
+        and source["role"]
+        and source["source_types"]
+        and source["license_note"]
+        and source["access_notes"]
+        for source in source_snapshot["sources"]
+    )
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage
