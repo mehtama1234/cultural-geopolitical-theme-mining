@@ -3,14 +3,14 @@
   "generated_on": "2026-10-31",
   "source_git_ref": "HEAD",
   "record_root": "analysis/records",
-  "record_count": 2134,
+  "record_count": 2135,
   "parse_error_count": 0,
   "program_theme_counts": {
     "care_health_reproduction": 672,
     "consumer_power_recourse": 440,
     "firm_sector_market_power": 790,
     "geopolitical_state_consequences": 621,
-    "household_room_consumption": 1314,
+    "household_room_consumption": 1315,
     "housing_place_mobility": 469,
     "infrastructure_technology_dependency": 837,
     "platforms_data_attention": 379,
@@ -18,7 +18,7 @@
     "public_systems_feedback": 1595,
     "time_hidden_price": 407,
     "trust_identity_meaning": 1310,
-    "unequal_exposure_status": 1832,
+    "unequal_exposure_status": 1833,
     "work_control_bargaining": 733
   },
   "source_host_counts": {
@@ -477,6 +477,7 @@
     "esri.cao.go.jp": 1,
     "cao.go.jp": 1,
     "caa.go.jp": 1,
+    "jpmorganchase.com": 1,
     "jppi.org.il": 1,
     "policy-lab.ec.europa.eu": 1,
     "kantar.com": 1,
@@ -11065,6 +11066,29 @@
         "stat.go.jp"
       ],
       "boundary": "This record adds an observed household internet-shopping and ticket-channel layer to Japan's broader consumption and income contraction. It does not measure cultural attendance, household welfare, real expenditure, platform causality, or whether online substitution preserved access for households that stopped shopping online."
+    },
+    {
+      "record_path": "analysis/records/comparative-jpmorgan-household-liquidity-2023.json",
+      "trend_id": "comparative-jpmorgan-household-liquidity-2023",
+      "title": "Household liquidity coverage depends on whether disposable income and short-term credit are counted",
+      "source_unit": "JPMorganChase Institute household liquidity analysis",
+      "geography": "United States; households in the JPMorganChase Institute administrative-data analysis",
+      "program_theme_ids": [
+        "household_room_consumption",
+        "unequal_exposure_status"
+      ],
+      "observation_count": 1,
+      "observation_statuses": [
+        "reported"
+      ],
+      "source_urls": [
+        "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/institute/pdf/how-vulnerable-are-americans-to-unexpected-expenses-snapshot.pdf",
+        "https://www.jpmorganchase.com/institute/all-topics/financial-health-wealth-creation/how-vulnerable-are-americans-to-unexpected-expenses"
+      ],
+      "source_hosts": [
+        "jpmorganchase.com"
+      ],
+      "boundary": "This is an independent mechanism challenge, not a pooled U.S. trend estimate, causal result, qualified trend, or company exposure finding. The source snapshot carries a written republication restriction."
     },
     {
       "record_path": "analysis/records/comparative-jppi-israel-society-index-september-2026-election-security-social-cohesion.json",

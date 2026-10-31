@@ -383,13 +383,39 @@
       "blocker_count": 6,
       "pipeline_step_count": 53,
       "pipeline_status": "passed"
+    },
+    {
+      "run_id": "2026-10-31T23:19:00+00:00",
+      "source_tree_revision": "46c2d385447ea63d5a3d2b0aa2b7dfb62376d107",
+      "record_count": 2134,
+      "parse_error_count": 0,
+      "source_family_count": 8,
+      "ready_for_review_count": 8,
+      "incomplete_count": 0,
+      "release_status": "operational_with_open_gates",
+      "blocker_count": 6,
+      "pipeline_step_count": 53,
+      "pipeline_status": "passed"
+    },
+    {
+      "run_id": "2026-10-31T23:20:15+00:00",
+      "source_tree_revision": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
+      "record_count": 2135,
+      "parse_error_count": 0,
+      "source_family_count": 8,
+      "ready_for_review_count": 8,
+      "incomplete_count": 0,
+      "release_status": "operational_with_open_gates",
+      "blocker_count": 6,
+      "pipeline_step_count": 53,
+      "pipeline_status": "passed"
     }
   ],
   "append_only": true,
   "latest": {
-    "run_id": "2026-10-31T23:12:30+00:00",
-    "source_tree_revision": "e80fdeb1fbe9d3a0f82bc780a01e99623f8eddab",
-    "record_count": 2134,
+    "run_id": "2026-10-31T23:20:15+00:00",
+    "source_tree_revision": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
+    "record_count": 2135,
     "parse_error_count": 0,
     "source_family_count": 8,
     "ready_for_review_count": 8,
@@ -399,6 +425,6 @@
     "pipeline_step_count": 53,
     "pipeline_status": "passed"
   },
-  "run_count": 31,
+  "run_count": 33,
   "boundary": "This ledger proves refresh execution and observed control-plane state across runs. It does not prove source freshness, rights clearance, trend validity, or causal outcomes."
 }

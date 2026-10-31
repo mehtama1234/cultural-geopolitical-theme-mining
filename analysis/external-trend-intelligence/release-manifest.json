@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "ca6fe9fb0a6999137349668009c293a24f05f2f1",
-  "artifact_count": 76,
+  "source_tree_commit": "85a14dc6e1e8457be6f050c8ef388f5564cbd7c4",
+  "artifact_count": 77,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -117,12 +117,12 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2238,
-      "sha256": "8bdd9d0cc922c9934c640ce6e4ba85eb7d16e9d889b5d180412097e836385b52"
+      "sha256": "9f49cab45e026c8eebc7d11da9b3c25644f4d6a6b36d01330cd05572e3a4da8d"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1833,
-      "sha256": "2b26dee79c8e2a0419553ec38ab708db516d1dc527cabfed007d3f9a3b66e214"
+      "sha256": "d4989800ae7436fda0bab0c9da7c5db62f699e4d462d528fe70fe5bef91e66eb"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -177,7 +177,7 @@
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
       "bytes": 5735,
-      "sha256": "8d315c451bdec057fa386f4bb515fceb984d7d28da0107d987ea30fa5a159808"
+      "sha256": "7ece6b6895cc58a26c4aa2e1b460dad234fde604dc80024891401da3c9771125"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -191,8 +191,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/observation-manifest.json",
-      "bytes": 3606310,
-      "sha256": "ba3698182a2d98b098f5e44585400ff2ee8c008a3ea047de3ea189fddfa0a8c3"
+      "bytes": 3607635,
+      "sha256": "8cad0f3c7d9ebedc458b782d135f16dcb2b702321ea7665a904ad7a3b5a9f980"
     },
     {
       "path": "analysis/external-trend-intelligence/source-registry-snapshot.json",
@@ -271,8 +271,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 13505,
-      "sha256": "fa4645ae66b425d6fd0f3736b880a2c416b07fda48c949cf87b0893762e08c3c"
+      "bytes": 14373,
+      "sha256": "fc2ca84af224217168c4bcb9ec9f5cda606aad0c2a7bf51eafc51be845864cb6"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
@@ -383,6 +383,11 @@
       "path": "analysis/external-trend-intelligence/promotion-queue.json",
       "bytes": 2866,
       "sha256": "c83e775163129ce55bd75d809ee7503e93b676992c6adb036e7c3f1505710d3e"
+    },
+    {
+      "path": "analysis/records/comparative-jpmorgan-household-liquidity-2023.json",
+      "bytes": 3185,
+      "sha256": "5540e1c2870f5076f29051be2d351c0207d10a19c72ace173529f64d222b1927"
     }
   ],
   "boundary": "This release manifest proves which local reader artifacts were packaged together. It does not prove that the underlying external sources are independent, current, licensed, or outcome-valid."
