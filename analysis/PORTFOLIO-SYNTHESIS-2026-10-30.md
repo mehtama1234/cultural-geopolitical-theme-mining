@@ -24,6 +24,29 @@ macro scale, policy design, infrastructure, investment or formal entitlement
 often closes one stage while the named person's, worker's, household's,
 community's or place's usable outcome remains unobserved.
 
+## Latest four-rotation refresh
+
+The subsea-cable, selective-participation, AI-distribution and aging/AI
+rotations add one connected lens: **continuity, control and distribution are
+the social test of capability**.
+
+- **Continuity:** a repaired cable or satellite fallback can restore technical
+  connectivity without restoring equal local service, affordability or public
+  continuity.
+- **Control:** lower public posting, ephemeral participation or safety-control
+  use can reduce exposure without proving agency, voice or durable wellbeing.
+- **Distribution:** AI value or occupational adoption can coexist with lost
+  early-career entry, unequal country capture and uncertain household demand.
+- **Demographic adaptation:** aging can increase firm incentives to adopt process
+  or product AI without proving better care, accessibility, caregiver relief or
+  older-person agency.
+
+The common false completion is to treat a system-level response as a person,
+worker, household, caregiver, small-firm or place-level outcome. The next
+portfolio test is therefore a joined unit across capability, encounter,
+distribution and continuity, with a successful, excluded and human-preference
+or non-adopting comparator.
+
 ## Portfolio conversion matrix
 
 | Cluster | What the atlas now sees | Common false completion | Highest-value next acquisition |
@@ -65,6 +88,7 @@ community's or place's usable outcome remains unobserved.
 | P3 | Forecast/warning/plan → subgroup action and avoided loss | Unifies migration anticipation, weather, climate finance, space weather and preparedness. |
 | P4 | Material/project → extraction, processing, recycling and rights-safe local value | Unifies critical minerals, batteries, hydrogen, AI hardware and circularity. |
 | P5 | Participation → changed terms, authority and post-operation legitimacy | Unifies relocation, Indigenous/community consent, infrastructure and cultural continuity. |
+| P6 | Infrastructure/control/adoption → unequal continuity and distribution | Joins cable restoration, platform participation, AI labour distribution and aging-related AI adoption around the question of who can continue, control and benefit. |
 
 ## Evidence discipline
 
@@ -72,3 +96,7 @@ The atlas should promote a theme only when the packet identifies the named unit,
 the stage it actually closes, the next unobserved stage, a counterexample and the
 acquisition that could change the promotion tier. Source volume is not a
 substitute for same-unit continuity, causal attribution or lived outcome.
+
+The four latest rotations close discovery and comparison stages for these
+bounded mechanisms, not causal attribution, representativeness, household or
+user welfare, care quality, worker agency, local demand, durability or power.

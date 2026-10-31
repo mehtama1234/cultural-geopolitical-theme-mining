@@ -1,7 +1,7 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 332 unique registered packet paths, 337 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 461, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, LV, LW, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation, AI-gains-early-career-local-demand, aging-AI-adoption-care-labour and portfolio-synthesis evidence integrated.
+**Inputs:** 332 unique registered packet paths, 337 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 462, and the latest rotations through AG, BB, BD, BE, BG, CD, CF, CU, EN, IB, HW, IF, KC, KK, KF, JZ, JO, LS, LR, LT, LU, LV, LW, VA-LL and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability, AI-data-centre incidence, hydrogen-hub, carbon-border, space-weather, climate-finance, biodiversity-finance, AI-health, AI-education, AI-companion, mRNA-therapeutics, neurotechnology, SRM-governance, microplastics, AI-drug-discovery, digital-twin, AI-weather, autonomous-shipping, lunar-governance, quantum-sensing/PNT, embodied-AI/robotics, new-water/desalination/reuse, agentic-AI identity, sovereign-AI-compute, orbital-traffic, science-diplomacy/research-security, local-language AI, DPI interoperability, refugee-identity portability, internet-shutdown, horizon-scanning, climate-mobility-health, cross-border-platform-work, disability-migration, internal-displacement-solutions, international-student-mobility, regular-pathway, migration-remittance, digital-services-trade, strategic-investment, critical-minerals, subsea-cable fault-to-local-continuity, selective-digital-participation, AI-gains-early-career-local-demand, aging-AI-adoption-care-labour and portfolio-synthesis evidence integrated.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
@@ -268,6 +268,21 @@ The next acquisition is a matched place-and-firm ledger that follows process and
 product adopters separately through skills, task redesign, staffing, care/service
 encounters, accessibility, caregiver time, wages, small-firm survival and local
 continuity, preserving non-adoption and human-preference comparators.
+
+## Four-rotation portfolio refresh — 2026-10-30
+
+The latest four rotations converge on a useful portfolio lens: continuity,
+control and distribution are the social test of capability. Cable restoration
+tests continuity; selective participation tests control; AI early-career and
+aging-adoption packets test distribution and demographic adaptation. Across all
+four, a system-level milestone can be real while a named person, worker,
+caregiver, older user, small firm, household or place remains excluded or
+unobserved.
+
+The portfolio synthesis therefore adds a sixth priority: join infrastructure,
+platform, labour and demographic evidence through capability, encounter,
+distribution and continuity, preserving successful, excluded and human-
+preference/non-adopting comparators.
 
 ## Strongest open conversion lanes
 
