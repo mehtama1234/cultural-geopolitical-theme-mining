@@ -28,15 +28,32 @@
     },
     {
       "id": "annual-report-research",
+      "repository": "local sibling: organization-intelligence-system/annual-report-research",
+      "revision": "5d4434b9ff46e8d28176624a7ec44dfddee8be4b",
+      "manifest_paths": [
+        "annual-report-research/README.md",
+        "annual-report-research/data",
+        "annual-report-research/scripts/verify-trend-archive-json.py"
+      ],
       "role": "public-company filings, strategy, operating constraints, financial claims, and burden transfer",
       "evidence_boundary": "Company disclosures are reported claims; independently observed outcomes remain separate.",
-      "status": "external_family_pin_required"
+      "status": "pinned_external_snapshot",
+      "pin_note": "The repository is nested in the organization-intelligence-system checkout; use the revision and paths above when producing an external observation snapshot."
     },
     {
       "id": "inc5000-analysis",
+      "repository": "local sibling: inc5000-analysis",
+      "revision": "92fad318ff05efcc5707f997bb1b5b18f3bceab2",
+      "manifest_paths": [
+        "data/processed/inc5000_rebuild_manifest_v1.json",
+        "data/processed/opportunity_intelligence_manifest.json",
+        "data/processed/strategic_source_ledger.json",
+        "INC5000-INDEPENDENT-SOURCE-INDEX-V1.md"
+      ],
       "role": "private-company growth, business models, and bottom-up market signals",
       "evidence_boundary": "Ranking and growth records are source-scoped; they do not prove peer identity, causality, or demand.",
-      "status": "external_family_pin_required"
+      "status": "pinned_external_snapshot",
+      "pin_note": "Use the pinned revision and manifest paths above; do not treat ranking, growth, or company records as independent demand or outcome evidence without source-level review."
     },
     {
       "id": "ibis-industries",

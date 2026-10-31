@@ -99,6 +99,16 @@ def main() -> int:
         and source["access_notes"]
         for source in source_snapshot["sources"]
     )
+    family_registry = json.loads((ANALYSIS / "source-family-registry.json").read_text())
+    assert family_registry["schema"] == "external-trend-intelligence.source-family-registry.v1"
+    families = {family["id"]: family for family in family_registry["source_families"]}
+    assert len(families) == 8
+    for family_id in ("annual-report-research", "inc5000-analysis"):
+        family = families[family_id]
+        assert family["status"] == "pinned_external_snapshot"
+        assert family["revision"]
+        assert family["manifest_paths"]
+        assert family["pin_note"]
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage

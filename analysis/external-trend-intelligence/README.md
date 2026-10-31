@@ -34,6 +34,12 @@ The first URL and publisher-lineage review is in
 [`SOURCE-LINEAGE-AUDIT.md`](SOURCE-LINEAGE-AUDIT.md). Host and URL counts are
 coverage measures, not independent-confirmation scores.
 
+The broader repository-level source universe is pinned in
+[`source-family-registry.json`](source-family-registry.json). The annual-report
+research family and Inc. 5000 family now have explicit sibling-repository
+revisions and manifest paths; their records remain source-scoped until their
+individual evidence and independence are reviewed.
+
 The later internal-data step is documented in
 [`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
 not change the meaning or status of external evidence.
