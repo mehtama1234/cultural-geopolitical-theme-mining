@@ -1,0 +1,20 @@
+{
+  "schema": "external-trend-intelligence.refresh-schedule-health.v1",
+  "workflow": ".github/workflows/external-observatory-refresh.yml",
+  "configured_cadence": "weekly_monday_06_17_utc",
+  "registered_family_count": 8,
+  "event_triggered_family_count": 8,
+  "checks": {
+    "weekly_cron_present": true,
+    "manual_dispatch_present": true,
+    "concurrency_guard_present": true,
+    "pinned_workspace_check_present": true,
+    "full_refresh_command_present": true,
+    "generated_artifact_push_present": true,
+    "all_registered_families_have_triggers": true,
+    "all_registered_families_have_artifacts": true
+  },
+  "status": "configured",
+  "boundary": "This proves the schedule and workflow contract are configured. It does not prove two years of unattended execution, source freshness, rights clearance, or trend validity.",
+  "next_action": "Review refresh-history.json after each scheduled run and investigate any missed, stale, or incomplete run."
+}

@@ -57,6 +57,7 @@ STEPS = [
     ["scripts/build_independent_stage_comparison.py"],
     ["scripts/build_room_independent_result.py"],
     ["scripts/build_denominator_reconciliation_review.py"],
+    ["scripts/build_refresh_schedule_health.py"],
     ["scripts/build_pilot_readiness.py"],
     ["scripts/build_release_health.py"],
     ["scripts/build_goal_completion_audit.py"],
