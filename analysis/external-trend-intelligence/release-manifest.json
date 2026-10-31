@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "c263726eac5f2230e3fd5c7570f71ef82054b3be",
+  "source_tree_commit": "85addc3c7edbccdef70a923b5d0f2de9fc24ff9c",
   "artifact_count": 54,
   "artifacts": [
     {
@@ -121,8 +121,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-comparison.json",
-      "bytes": 5709,
-      "sha256": "f81d95ec78d033e9b124fe104b37ee77115a8b5f24098e40590c6a23a31a0307"
+      "bytes": 5839,
+      "sha256": "0f079f4f962d82368c72b2c72a51a49ae3a11e0f01efe5d181eff306a296154c"
     },
     {
       "path": "analysis/external-trend-intelligence/evidence-acquisition-plan.json",
