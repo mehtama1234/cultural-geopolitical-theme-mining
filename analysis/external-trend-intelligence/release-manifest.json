@@ -1,13 +1,13 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "aad543eb0caf3ded7142b536e7468f8f8335eea8",
+  "source_tree_commit": "4fa6108fb1f541941d1e543aaed73b41e410a3a5",
   "artifact_count": 84,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
       "bytes": 1768,
-      "sha256": "75fbacef1a55b7ad0b0afe71af246205cf024519d7811041d5bd6cfd67cbb432"
+      "sha256": "e87774eed6d1443d0088bd99e2abeba22cf9f0f03cbc0bd12a0126b91ea4b352"
     },
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -161,8 +161,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
-      "bytes": 6222,
-      "sha256": "531f1bd48f5d6c114e0608fdb6ab2287d0ab9ef97d0db19f96c306dc69942cb0"
+      "bytes": 6221,
+      "sha256": "6cf17d2469adbc0ca753d7a0d3de98494c4716c595d1f83019626ee3208e1b56"
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",

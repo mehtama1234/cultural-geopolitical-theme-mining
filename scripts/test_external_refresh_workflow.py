@@ -12,7 +12,7 @@ def main() -> int:
     text = WORKFLOW.read_text()
     required = [
         "schedule:",
-        "cron: '17 6 1 * *'",
+        "cron: '17 6 * * 1'",
         "workflow_dispatch:",
         "runs-on: [self-hosted, external-observatory]",
         "concurrency:",

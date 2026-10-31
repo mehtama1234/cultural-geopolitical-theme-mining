@@ -55,7 +55,7 @@ python3 scripts/refresh_external_observatory.py
 The orchestrator stops on the first failed step and leaves the prior artifacts
 available for review; it does not silently continue past a failed gate.
 
-The repository also defines a monthly scheduled workflow at
+The repository also defines a weekly scheduled workflow at
 `.github/workflows/external-observatory-refresh.yml`. It intentionally runs on
 a self-hosted `external-observatory` runner because the pinned sibling source
 repositories are not copied into this repository. The workflow fails before
