@@ -61,7 +61,7 @@ The first normalized intake is in
 [`external-family-observations.json`](external-family-observations.json). It
 contains ten reported observations from the pinned Inc. 5000,
 annual-report, IBIS, social-research, and trend-hunting artifacts. They are
-deliberately not merged into the 2,131-record observation manifest yet: their
+deliberately not merged into the 2,134-record observation manifest yet: their
 source coverage is uneven, and units, geographies, and independence still
 require artifact-level review. The two Inc. 5000 trend records now preserve
 their example URLs and denominator explicitly; the other records remain
