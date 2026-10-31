@@ -142,3 +142,15 @@ Public sources support prevalence signals, legal and program mechanisms,
 cyberbullying, conflict attacks and measurement limitations. They do not by
 themselves establish a named learner’s safe daily experience, effective remedy,
 learning outcome or durable non-recurrence.
+
+## Sources
+
+These source-family anchors support the packet’s prevalence, rights, health,
+conflict and measurement framing; they do not establish a named learner’s
+safety, effective remedy or non-recurrence.
+
+- UNESCO, [School violence and bullying](https://www.unesco.org/en/health-education/school-violence-and-bullying): school-violence prevalence, prevention and safe-learning context.
+- UNESCO, [Education in emergencies](https://www.unesco.org/en/education/emergencies): attacks, disruption and continuity context.
+- WHO Regional Office for Europe, [Health Behaviour in School-aged Children](https://www.who.int/europe/initiatives/health-behaviour-in-school-aged-children-(hbsc-study)): adolescent health, bullying and cyberbullying survey context.
+- UNICEF, [Education in emergencies](https://www.unicef.org/education/emergencies): conflict-related closure, displacement, protection and learning-continuity context.
+- UNESCO, [Safe to learn and thrive](https://www.unesco.org/en/health-education/safe-to-learn-and-thrive): violence-prevention, safeguarding and inclusive-schooling context.
