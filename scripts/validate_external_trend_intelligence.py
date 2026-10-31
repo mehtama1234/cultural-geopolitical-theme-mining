@@ -277,6 +277,8 @@ def main() -> int:
     assert ibis_force_map["schema"] == "external-trend-intelligence.ibis-force-claim-map.v1"
     assert ibis_force_map["force_count"] == len(ibis_force_map["forces"]) == 6
     assert ibis_force_map["aggregate"]["declared_source_id_count"] == 21
+    assert ibis_force_map["aggregate"]["resolved_source_id_count"] == 21
+    assert ibis_force_map["aggregate"]["unresolved_source_id_count"] == 0
     assert ibis_force_map["aggregate"]["claim_reference_count"] > 0
     assert all(force["falsifiers"] and force["outcome_measure_candidates"] for force in ibis_force_map["forces"])
     assert all(force["review_status"] == "held_claim_level_lineage_and_independence" for force in ibis_force_map["forces"])

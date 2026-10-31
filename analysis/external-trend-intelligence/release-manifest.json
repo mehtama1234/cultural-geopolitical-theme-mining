@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "d868c3d781d1350b0bd010d8b14f3aa19831e3d5",
+  "source_tree_commit": "ad3784de4a8f2535a50ce0270ebfd048ebd3631e",
   "artifact_count": 67,
   "artifacts": [
     {
@@ -122,7 +122,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1833,
-      "sha256": "ff17711809133f2313ba0f8b5ec9f0cbb7004eb9f8a14baefe70011a174662f5"
+      "sha256": "afb9e70c9b667ea4a5b5dffc685dd0de11fa9ec5dbed2c91dbd4fe179cb36a30"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -166,8 +166,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
-      "bytes": 5110,
-      "sha256": "07934e9319de45503ff862a331bcd67180d6b176432fc777505e647540526b45"
+      "bytes": 5142,
+      "sha256": "1eb4191c95dbb656df23f1c4ec52ec5ef65c78c1006c45a3fa313faf83f9d772"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -177,7 +177,7 @@
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
       "bytes": 5733,
-      "sha256": "fcb1987d1b92825324f7eaff353018f03233fa99758f2814b8502e527bcfc056"
+      "sha256": "5864d42643f115cf8d16a6af676232e34fb53ac203b16f59fcc21de7e88e27ee"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -207,7 +207,7 @@
     {
       "path": "analysis/external-trend-intelligence/external-family-observations.json",
       "bytes": 76090,
-      "sha256": "6cc80c0884dce23701497ce6bc14dc56fc2ba33ddc21e6c83efbf847841b1391"
+      "sha256": "9b2347e6347502dac44164a7cef8184e30173aece156ce8b49cc94d9736d4f8c"
     },
     {
       "path": "analysis/external-trend-intelligence/evidence-contract-audit.json",
@@ -231,8 +231,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-force-claim-map.json",
-      "bytes": 45344,
-      "sha256": "a434cc23b2c45bc88bcd4bc01fe5e674613b2be0519ca25e1009d81ad6cebffb"
+      "bytes": 42607,
+      "sha256": "cb0ca86cf5c487287d8cb3d513307100912d71343ffed32ca1236bfaa1607c57"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-claim-source-review.json",
@@ -241,8 +241,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 9165,
-      "sha256": "b4e081e9a83954ff3f2a1e90670c7c525caf6cbd96905e3e730a0869f8320464"
+      "bytes": 9599,
+      "sha256": "412a591ae78ee564151c9d10b56d73a00f53f6f50458f0910d8594c63c18da29"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",

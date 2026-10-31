@@ -19,6 +19,8 @@ OUTPUT = ROOT / "analysis" / "external-trend-intelligence" / "ibis-force-claim-m
 REPO = "/home/mehta/git-repo/ibis-industries"
 REVISION = "b895acd021fbe3dc1d610255952b1373748e3bc3"
 FORCE_PATH = "cross_industry_trends_2025_2026.json"
+SOURCE_INVENTORY_PATH = "source_inventory.json"
+CLAIM_INVENTORY_PATH = "claim_inventory_reviewed.json"
 
 
 def show(path: str) -> str:
@@ -27,10 +29,16 @@ def show(path: str) -> str:
 
 def main() -> int:
     register = json.loads(show(FORCE_PATH))
+    inventory = json.loads(show(SOURCE_INVENTORY_PATH))
+    inventory_by_id = {source["source_id"]: source for source in inventory["sources"]}
+    claim_inventory = json.loads(show(CLAIM_INVENTORY_PATH))
     paths = subprocess.check_output(
         ["git", "-C", REPO, "ls-tree", "-r", "--name-only", REVISION, "business_knowledge_examples"],
         text=True,
     ).splitlines()
+    claim_link_paths = [path for path in subprocess.check_output(
+        ["git", "-C", REPO, "ls-tree", "-r", "--name-only", REVISION], text=True
+    ).splitlines() if path.startswith("claim_link_review_") and path.endswith(".json")]
     records = []
     for path in paths:
         records.append((path, json.loads(show(path))))
@@ -40,39 +48,75 @@ def main() -> int:
     for force in register["forces"]:
         source_ids = set(force.get("source_ids", []))
         claim_refs = []
-        source_rows = {}
         affected = set(force.get("affected_industries", []))
         for path, record in records:
             slug = Path(path).stem
-            record_has_source = any(
-                source_ids.intersection(claim.get("source_ids", []))
-                for claim in record.get("evidence", {}).get("claims", [])
-            )
-            if slug not in affected and not record_has_source:
+            if slug not in affected:
                 continue
-            for claim in record.get("evidence", {}).get("claims", []):
+
+        # The force register's source IDs are authoritative against the pinned
+        # source inventory, even when the industry record itself stores the
+        # citation in a separate claim-link review file.
+        source_list = []
+        for sid in sorted(source_ids):
+            source = inventory_by_id.get(sid)
+            if source:
+                source_list.append(
+                    {
+                        "id": sid,
+                        "title": source.get("raw"),
+                        "publisher": source.get("publisher_domain"),
+                        "url": source.get("url"),
+                        "source_type": source.get("provenance_class"),
+                        "record_slugs": source.get("record_slugs", []),
+                    }
+                )
+        unresolved_source_ids = sorted(source_ids - {source["id"] for source in source_list})
+        for claim in claim_inventory["claims"]:
+            claim_source_ids = set(claim.get("source_ids", [])) | set(claim.get("review_source_ids", []))
+            matched = sorted(source_ids.intersection(claim_source_ids))
+            if not matched:
+                continue
+            claim_refs.append(
+                {
+                    "industry_slug": claim.get("record_slug"),
+                    "claim_id": claim.get("claim_id"),
+                    "claim_field": claim.get("field"),
+                    "claim_text": claim.get("text"),
+                    "claim_type": claim.get("claim_type"),
+                    "period": claim.get("period"),
+                    "citation_status": claim.get("citation_status"),
+                    "review_status": claim.get("review_status"),
+                    "source_ids": matched,
+                }
+            )
+        # Some reviewed claim links live outside the general claim inventory.
+        # Include them as a distinct review source so a zero in the inventory
+        # does not look like an absent citation.
+        seen_claims = {(ref.get("claim_id"), tuple(ref.get("source_ids", []))) for ref in claim_refs}
+        for path in claim_link_paths:
+            review = json.loads(show(path))
+            record_slug = review.get("record_slug")
+            if record_slug not in affected:
+                continue
+            for claim in review.get("reviewed_claims", []):
                 matched = sorted(source_ids.intersection(claim.get("source_ids", [])))
-                if not matched:
+                key = (claim.get("claim_id"), tuple(matched))
+                if not matched or key in seen_claims:
                     continue
+                seen_claims.add(key)
                 claim_refs.append(
                     {
-                        "industry_slug": slug,
-                        "industry_title": record.get("identity", {}).get("title"),
-                        "industry_sector": record.get("identity", {}).get("sector"),
-                        "claim_id": claim.get("id"),
-                        "claim_text": claim.get("text"),
-                        "claim_type": claim.get("claim_type"),
-                        "period": claim.get("period"),
-                        "confidence": claim.get("confidence"),
+                        "industry_slug": record_slug,
+                        "claim_id": claim.get("claim_id"),
+                        "claim_text": None,
+                        "claim_type": "reviewed_claim_link",
+                        "citation_status": claim.get("status"),
+                        "supported_scope": claim.get("supported_scope"),
+                        "review_note": claim.get("review_note"),
                         "source_ids": matched,
                     }
                 )
-            for source in record.get("evidence", {}).get("sources", []):
-                if source.get("id") in source_ids:
-                    source_rows[source["id"]] = source
-
-        source_list = [source_rows[sid] for sid in sorted(source_rows)]
-        unresolved_source_ids = sorted(source_ids - set(source_rows))
         all_source_rows.extend(source_list)
         hosts = sorted({urlparse(source.get("url", "")).netloc.lower() for source in source_list if source.get("url")})
         force_rows.append(
