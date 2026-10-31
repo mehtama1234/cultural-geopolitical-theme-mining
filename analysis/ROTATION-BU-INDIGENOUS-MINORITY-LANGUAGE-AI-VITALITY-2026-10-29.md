@@ -41,6 +41,7 @@ language exclusion, low-resource data and intergenerational decline
 | Business Wales Helo Blod milestone | Business Wales reports one million translated words and more than 1,000 participating businesses; one named business describes using Welsh social media, product descriptions and labelling. | service reach and named business implementation | repeat requests, retained content, customer interaction, revenue or language-use change and representativeness of the success case |
 | Welsh Government Annual Population Survey 2025–2026 refresh | APS estimates 843,700 Welsh speakers and 446,800 people reporting daily Welsh use; the release says the change is not statistically significant, APS accreditation is suspended, survey mode may affect results and the census remains the target measure. | updated population and daily-use signal with explicit uncertainty | causal link to technology, education or service interventions; durable cohort use, transmission and comparable census/National Survey trend |
 | University of Waikato responsible Waikato-Maniapoto AI voice development | University of Waikato reports a local Māori language authority recording thousands of sentences, Māori language experts supporting development, Google funding for responsible Māori language technology protocols, and the voice remaining in testing with release expected later. | community participation and responsible-development intent plus pre-deployment readiness | release authority, speaker rights, data retention, consent, licensing, misuse safeguards, learner deployment, repeated use, pronunciation quality and transmission |
+| University of Waikato Summer Research project abstract for a new reo Māori AI voice | The project abstract specifies meetings with Te Hiku Media and an iwi speaker, approximately 30 hours of recordings, creation and testing of a new voice, documentation of the process and a final research poster as expected outputs. | documented production workflow and partner route | actual recording consent terms, speaker authority, model release, licensing, quality results, learner/media deployment and repeated use |
 
 ## Stage audit
 
@@ -93,6 +94,14 @@ community-informed development process, not evidence that the voice was
 released, authorized for unrestricted use, adopted by rangatahi or changing
 transmission. A responsible protocol is a control surface whose operation and
 enforcement still need evidence.
+
+The research abstract adds process-level specificity: a named external partner,
+an iwi speaker, a planned recording workload, testing, documentation and a
+research poster. This improves provenance and reproducibility, but it also makes
+the remaining gap precise. The public record still does not show the recording
+consent terms, speaker authority, final evaluation, release license or repeated
+use by learners/media. The project is therefore a high-quality readiness and
+governance lead, not a completed vitality intervention.
 
 The Welsh outcome evidence supplies a useful counterexample to easy success
 narratives. A population survey reports substantial daily use, but its methods
@@ -191,3 +200,4 @@ collection; do not infer vitality from model or corpus size.
 13. [Business Wales Helo Blod one-million-word milestone](https://businesswales.gov.wales/news-and-blog/1-million-milestone-marked-free-welsh-translation-service)
 14. [Welsh Government Annual Population Survey 2025–2026](https://www.gov.wales/welsh-language-data-annual-population-survey-april-2025-march-2026-html)
 15. [University of Waikato responsible Waikato-Maniapoto AI voice development](https://www.waikato.ac.nz/news-events/news/a-voice-for-the-future-the-first-ai-generated-waikato-maniapoto-voice/)
+16. [University of Waikato Summer Research project abstract for a new reo Māori AI voice](https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/The-Summer-Research-Scholarship-Programme/Project-Abstracts-2024-2025/20-A-new-reo-Maori-AI-Voice.pdf)
