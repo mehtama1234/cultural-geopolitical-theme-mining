@@ -31,6 +31,10 @@ industrial fuel or emissions problem
 | DOE-OIG H2Hub audit | DOE selected seven hubs with multiple production sources, locations and end uses under the $8 billion program. | portfolio, award and intended use architecture | project completion, performance, oversight, emissions and local outcomes |
 | GAO clean-energy demonstration oversight | Delays to demonstration schedules can affect project financial viability; DOE’s portfolio requires stronger planning and performance management. | management and schedule risk | completed demonstrations and durable economics |
 | DOE California EIS | A proposed hub includes production, pipelines, refueling, trucks, buses, marine vessels, cargo equipment, power and stationary fuel cells, with environmental review. | integrated project scope and environmental-review pathway | final siting, construction, operations, emissions, water, jobs and community response |
+| GAO federal-awards oversight review | H2Hub Phase 4 is expected to ramp up full operations and collect performance and financial-viability data; GAO reports DOE had obligated about $109 million and disbursed about $9 million for H2Hubs in FY2024. | A dated funding/phase boundary and the point at which operational evidence should become available. | Whether any named hub reached Phase 4, completed end use, delivered hydrogen, reduced emissions or produced local benefits. |
+| GAO clean-energy-demonstration plan review | H2Hub awardees face schedule pressure because construction cannot begin before NEPA review and the 45V tax-credit construction deadline was moved to the end of 2027; some awardees expected reviews to take years. | A concrete schedule, permitting and commercial-viability risk mechanism. | Final NEPA decisions, construction, tax-credit eligibility, project survival, delivered cost and offtake. |
+| DOE Heartland and Mid-Atlantic award announcement | DOE awarded $20 million of up to $925 million to Heartland and $18.8 million of up to $750 million to MACH2 for Phase 1 planning/design/community and labor engagement, with proposed fertilizer, power, industrial and heavy-transport uses. | Named hubs, proposed end uses and an explicit early-stage community/workforce architecture. | Production, delivered hydrogen, farm or industrial price, lifecycle emissions, safety, jobs and community influence. |
+| DOE ARCHES project description | ARCHES is structured as approximately 35 proposed California projects that could produce 450–500 metric tonnes/day, with refueling, pipelines, trucks, buses, marine and stationary uses; DOE’s record identifies staged funding and a May 2026 decision boundary. | Scale, geographic spread, multi-end-use design and staged federal review. | Final site selection, construction, operating volume, delivered price, water/power burden, end-use uptime and local outcomes. |
 
 ## Stage audit
 
@@ -80,6 +84,13 @@ test is therefore an end-use and place ledger, not a national announcement.
   feedstock assumptions change.
 - Environmental review identifies potential impacts and mitigations; it does not
   prove final operation, safety or community acceptance.
+- A Phase 1 award or community-benefit commitment can be a meaningful governance
+  gate while still being far from construction, production or use.
+- A hub can have a large proposed nameplate capacity and multiple end uses while
+  actual phase progression, hydrogen delivery and incumbent-fuel displacement
+  remain unobserved.
+- Schedule pressure can make a project financially fragile without proving that
+  delay caused cancellation or that acceleration would improve public value.
 
 ## Promotion decision
 
@@ -102,3 +113,7 @@ whether the incumbent fuel or emissions actually declined.
 3. [DOE-OIG H2Hubs audit](https://www.energy.gov/ig/articles/audit-doe-oig-25-23)
 4. [GAO-26-107997, DOE clean-energy demonstrations](https://www.gao.gov/products/gao-26-107997)
 5. [DOE California Hydrogen Hub environmental review](https://www.energy.gov/nepa/doeeis-0570)
+6. [GAO federal-awards oversight review](https://files.gao.gov/reports/GAO-26-107444/index.html)
+7. [GAO clean-energy demonstration plan review](https://www.gao.gov/products/gao-26-107997)
+8. [DOE Heartland and Mid-Atlantic H2Hub awards](https://www.energy.gov/cmei/oced/articles/oced-awards-final-two-regional-clean-hydrogen-hubs-establish-critical-energy)
+9. [DOE ARCHES California Hydrogen Hub factsheet](https://www.energy.gov/sites/default/files/2024-08/H2Hubs%20Arches%20Booklet_Factsheet.pdf)

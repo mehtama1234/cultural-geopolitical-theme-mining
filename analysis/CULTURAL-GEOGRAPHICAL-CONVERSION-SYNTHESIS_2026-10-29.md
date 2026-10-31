@@ -3853,6 +3853,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 417. **Grid recovery is not absence of local burden.** Operators can restore frequency and remain within reliability standards after a large computational load transfers to backup generation while facility identity, backup fuel and emissions, compensation, tax destination, residential bill effect, host-place service burden and public influence remain unobserved.
 
+418. **A hydrogen-hub award is not delivered decarbonization.** A phased grant, environmental review, proposed production capacity, community-benefit commitment or named end use can establish a regional option while construction, qualified delivery, price, uptime, lifecycle emissions, incumbent-fuel displacement, safety, jobs and local influence remain unobserved.
+
 ## What the evidence does not support
 
 Do not claim that:
