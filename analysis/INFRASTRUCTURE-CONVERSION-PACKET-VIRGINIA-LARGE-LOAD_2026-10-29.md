@@ -45,6 +45,7 @@ large-load growth
 | VA-LL-019 | [PJM proposed reliability standards for large-load disconnection events](https://insidelines.pjm.com/reliability-standards-to-manage-large-load-disconnection-events-proposed-by-pjm/) | 2026-09-10 | Northern Virginia computational loads and PJM interconnection requirements | PJM describes the July 22 event as the third separate measurable large-load event in two years and proposes ride-through/interconnection changes | Named facility participation, backup fuel/emissions, compliance date, cost and neighboring-customer effect remain open |
 | VA-LL-020 | [Virginia SCC Plaza 500 transmission testimony](https://www.scc.virginia.gov/docketsearch/DOCS/831001%21.PDF) | 2024-12-13 | Fairfax County Plaza 500 prospective data-center customer and Van Dorn/Edsall project | SCC testimony describes a proposed transmission/substation project intended solely to serve a prospective 176 MW data-center customer at Plaza 500; the record includes community concerns about route, residential proximity and whether the customer should bear project costs | Named site/load/project and public contestation are observed, but customer identity, final CPCN outcome, assigned/paid costs, construction/operation, environmental or household effect and later acceptance remain open |
 | VA-LL-021 | [Virginia SCC Edsall final order](https://www.dominionenergy.com/-/media/content/about/power-line-projects/edsall/pdfs/edsall-scc-final-order.pdf) | 2025-08-08 | Fairfax County PUR-2024-00135 Edsall Lines and Edsall Substation | SCC granted Dominion a CPCN to construct and operate the Edsall Project for a planned data-center campus requesting 176 MW; the order records approximately $23.1 million in conceptual project cost and requires construction/in-service by October 1, 2027 while stating cost allocation belongs in a rate proceeding | Project permission and schedule are observed, but customer identity, actual construction/energization, final cost, payer, rate-proceeding assignment, environmental/household effect and later acceptance remain open |
+| VA-LL-022 | [Virginia SCC Rider T1 cost-allocation decision summary](https://www.scc.virginia.gov/about-the-scc/scc-facts/) | 2026-07-31 | Dominion PUR-2026-00056 and prospective PUR-2026-00131 | SCC reports that its Rider T1 decision approved a forecast-adjusted allocation method and a prospective framework requiring large-load customers to fund direct-connect transmission facilities; the projected typical residential increase was reduced from $2.90 to $0.94 per month and details were assigned to a supplemental docket | Policy mechanism and modeled residential effect are observed, but no customer-specific CIAC amount, payment, Edsall applicability, final line-extension policy or observed household bill is established |
 
 ## Stage audit
 
@@ -86,6 +87,15 @@ finding, not merely a missing document: a project can receive infrastructure
 permission while the distributional payer question remains institutionally
 deferred. The Commissioner’s concurrence explicitly identified the unresolved
 “who pays?” issue as a continuing fairness concern.
+
+The later Rider T1 decision moves the policy response forward, but only at the
+framework level. SCC describes a prospective direct-connect funding mechanism
+for large-load customers and a modeled reduction in the typical residential
+Rider T1 increase from $2.90 to $0.94 per month. That is not a payment record,
+an observed household bill, or proof that the Edsall project is covered. The
+next docket therefore matters because it should define the actual facility
+scope, contribution formula, revenue credit and effective date needed to test
+whether the approved framework changes project-level incidence.
 
 ## Preliminary finding
 
