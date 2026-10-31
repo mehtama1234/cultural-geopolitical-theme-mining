@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "6aa2ed876100fe0137624805f03bbe0bac19680b",
+  "source_tree_commit": "3113e2341696b15a71d25e603a1fd0cc52bd5a38",
   "artifact_count": 62,
   "artifacts": [
     {
@@ -226,8 +226,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
-      "bytes": 3181,
-      "sha256": "c1dd40287366a6e11d62e6cb31b873df9a2bb147f92cee681f1f51dc7c1a7dd1"
+      "bytes": 3431,
+      "sha256": "b102f25debaf8186c84ad53f63c64bf681aad5a52e85b369515d508f73104297"
     },
     {
       "path": "analysis/external-trend-intelligence/shed-temporal-holdout.json",

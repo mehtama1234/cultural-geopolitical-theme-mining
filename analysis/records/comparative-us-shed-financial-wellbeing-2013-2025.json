@@ -22,6 +22,7 @@
     {"period": "2025", "denominator": {"unit": "all adult SHED respondents", "value_type": "reported_survey_frame"}, "measures": {"doing_okay_or_living_comfortably": {"value": 73, "unit": "percent of adults", "value_type": "reported_chart_data_share"}}, "status": "reported"}
   ],
   "method": "Annual repeated cross-sectional SHED survey; chart-data series downloaded from the Federal Reserve public data page.",
+  "method_change_notes": "The Federal Reserve data page records 2025 public-data and codebook updates in 2026. The normalized wellbeing series must be checked against the 2025 codebook before treating the 2021-to-2025 comparison as an unchanged instrument.",
   "uncertainty": "The series is self-assessed financial wellbeing, not a household cash-flow, consumption, income, or administrative hardship outcome. Survey wording, sample, weighting, and public-file revisions must be checked against each year's codebook before formal comparison.",
   "counterinterpretation": "The measure rose through 2021 and remained near 73 percent in 2024-2025; financial room does not move monotonically and may diverge from emergency-expense capacity or realized spending.",
   "related_sources": [

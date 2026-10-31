@@ -441,6 +441,7 @@ def main() -> int:
     assert shed["schema"] == "external-trend-intelligence.external-acquisition.v1"
     assert shed["status"] == "acquired_pending_normalization"
     assert len(shed["observations"]) == 13
+    assert "method_change_notes" in shed
     shed_holdout = json.loads((ANALYSIS / "shed-temporal-holdout.json").read_text())
     assert shed_holdout["schema"] == "external-trend-intelligence.shed-temporal-holdout.v1"
     assert shed_holdout["status"] == "descriptive_single_family_holdout"

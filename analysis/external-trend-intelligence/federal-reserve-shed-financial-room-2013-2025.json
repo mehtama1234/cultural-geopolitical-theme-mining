@@ -10,6 +10,7 @@
   "unit": "percent of adults",
   "denominator": "all adult respondents in the SHED survey year",
   "method": "Annual SHED repeated cross-sectional survey; values are published chart-data percentages, not a longitudinal panel estimate.",
+  "method_change_notes": "The official data page notes 2025 public-data and codebook updates in 2026. Exact question and weighting continuity for this wellbeing series must be checked against the 2025 codebook before formal holdout interpretation.",
   "observations": [
     {"period": "2013", "value": 62},
     {"period": "2014", "value": 65},
