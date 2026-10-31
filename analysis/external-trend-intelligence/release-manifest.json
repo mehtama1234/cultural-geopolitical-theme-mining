@@ -1,13 +1,13 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "repository_commit": "91c838140fd49c3db0d414024f26fb91c5e7ae65",
-  "artifact_count": 16,
+  "repository_commit": "7b16e776fcfeca5abe1e76f4a8448f9a4aa1e492",
+  "artifact_count": 18,
   "artifacts": [
     {
       "path": "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
-      "bytes": 5379,
-      "sha256": "b9da260eea344991b107c2d230dd5d2b28539a799637721e9004b2b387c643ca"
+      "bytes": 5424,
+      "sha256": "51196dffd588f73b10b9d44a4060a1d05acd417a2746d1899cc43a52984d839c"
     },
     {
       "path": "EXTERNAL_SOURCE_REGISTRY.md",
@@ -16,8 +16,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/README.md",
-      "bytes": 8409,
-      "sha256": "e47fab36a599dfcce6e697507a02d4c31c2d6e0d69f0a1d97a2a43e960523e0b"
+      "bytes": 8621,
+      "sha256": "afdfc9d28595401de971205c9e03ef9d374360954c7bf77a46f3ef1ba4b0e493"
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
@@ -80,9 +80,19 @@
       "sha256": "e82a1801c5c3a7084551be90e19921e73316ce0f8410fa1e9a82f19666f1cb4f"
     },
     {
+      "path": "analysis/external-trend-intelligence/adaptation-control-candidate.json",
+      "bytes": 1561,
+      "sha256": "5518f92e9fc21552972e7464109cf20d86815000157e5135bec57ad17fe24368"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/held-candidates.json",
+      "bytes": 1610,
+      "sha256": "f410148502d800679f29cad5cef42f9636284c63d74e1e1feb84194c65bab2e7"
+    },
+    {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 14574,
-      "sha256": "c9cd801cd430a916e6c6da54e8ed2e45b8fea15921bd9bcf192c5aa7daacf0a7"
+      "bytes": 14661,
+      "sha256": "8c5ed512365f9dc9e440399e7071fbc0e2495753a6bb32d74219397810c92d20"
     }
   ],
   "boundary": "This release manifest proves which local reader artifacts were packaged together. It does not prove that the underlying external sources are independent, current, licensed, or outcome-valid."

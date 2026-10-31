@@ -155,10 +155,10 @@
       fetch('source-registry-snapshot.json').then(r => r.json()),
       fetch('external-family-comparisons.json').then(r => r.json()),
       fetch('external-family-observations.json').then(r => r.json()),
-      fetch('care-capacity-candidate.json').then(r => r.json()),
+      fetch('held-candidates.json').then(r => r.json()),
       fetch('care-capacity-comparable-subset.json').then(r => r.json()),
       fetch('release-manifest.json').then(r => r.json()),
-    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidate, careSubset, release]) => {
+    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidates, careSubset, release]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -166,7 +166,7 @@
       el('source-count').textContent = sourceRegistry.source_count.toLocaleString();
       el('intake-count').textContent = familyComparisons.comparisons.length;
       el('family-observation-count').textContent = familyObservations.observation_count;
-      el('held-candidate-count').textContent = 1;
+      el('held-candidate-count').textContent = heldCandidates.candidates.length;
       el('release-commit').textContent = release.repository_commit.slice(0, 12);
       barChart(el('theme-chart'), Object.entries(manifest.program_theme_counts).sort((a,b) => b[1]-a[1]), manifest.record_count);
       barChart(el('host-chart'), Object.entries(manifest.source_host_counts).slice(0, 16), manifest.record_count);
@@ -176,7 +176,7 @@
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
       const familyCards = el('family-comparisons'); familyComparisons.comparisons.forEach(item => familyCards.append(familyComparisonCard(item)));
       const observationCards = el('family-observations'); familyObservations.observations.forEach(item => observationCards.append(familyObservationCard(item)));
-      el('held-candidates').append(heldCandidateCard(heldCandidate));
+      const heldCards = el('held-candidates'); heldCandidates.candidates.forEach(item => heldCards.append(heldCandidateCard(item)));
       const measurements = el('care-measurements'); careSubset.measures.forEach(measure => measurements.append(measurementCard(measure)));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
   </script>

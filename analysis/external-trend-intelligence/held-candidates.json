@@ -1,0 +1,21 @@
+{
+  "schema": "external-trend-intelligence.held-candidates.v1",
+  "candidates": [
+    {
+      "candidate_id": "candidate-care-longevity-access-capacity",
+      "title": "Care and longevity demand are becoming an access-time-work capacity problem",
+      "status": "held_candidate",
+      "mechanism": "Aging, health needs, and care demand create pressure through waiting time, unpaid care, employment tradeoffs, household room, and uneven service capacity.",
+      "counter_signal": "Company examples include discretionary pet-wellness offers, while care-access records span different countries, populations, periods, and institutional systems.",
+      "next_test": "Build a comparable dated panel of care demand, access/waiting time, unpaid-care hours, employment effect, service capacity, and spending across independent source families."
+    },
+    {
+      "candidate_id": "candidate-adaptation-control-proof-resilience",
+      "title": "Adaptation demand is shifting toward control, proof, substitution, and resilience",
+      "status": "held_candidate",
+      "mechanism": "Under instability, buyers may pay for workflow control, compliance proof, trusted guidance, substitution, and resilience rather than novelty alone.",
+      "counter_signal": "The inputs are synthesis layers and a source-linked company coverage measure; they do not establish population demand or willingness to pay.",
+      "next_test": "Compare dated spending, procurement, adoption, retention, compliance cost, switching, and outcome measures across independent source families for the same mechanism and geography."
+    }
+  ]
+}

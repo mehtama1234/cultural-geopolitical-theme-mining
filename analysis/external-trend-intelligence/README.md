@@ -82,6 +82,11 @@ candidate linking care/longevity company signals to access time, unpaid care,
 work, demographic, and service-capacity evidence; it is not yet a promoted
 structural trend.
 
+The second held candidate is
+[`adaptation-control-candidate.json`](adaptation-control-candidate.json). The
+frontend-safe summaries for both held candidates are in
+[`held-candidates.json`](held-candidates.json).
+
 Its measurement audit is in
 [`care-capacity-measurement-matrix.json`](care-capacity-measurement-matrix.json).
 The matrix preserves each record’s period, geography, denominator, and measure

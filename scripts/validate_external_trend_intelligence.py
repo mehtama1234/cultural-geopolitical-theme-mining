@@ -204,7 +204,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 16
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 18
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["repository_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -219,6 +219,17 @@ def main() -> int:
     assert set(measure["record_id"] for measure in care_subset["measures"]) <= set(care_candidate["main_manifest_evidence_ids"])
     assert care_subset["decision"] == "hold"
     assert care_subset["next_test"] and care_subset["boundary"]
+    adaptation_candidate = json.loads((ANALYSIS / "adaptation-control-candidate.json").read_text())
+    assert adaptation_candidate["schema"] == "external-trend-intelligence.external-adaptation-control-candidate.v1"
+    assert adaptation_candidate["status"] == "held_candidate"
+    assert set(adaptation_candidate["external_family_observation_ids"]) <= family_observation_ids
+    assert adaptation_candidate["mechanism"] and adaptation_candidate["counter_signal"]
+    assert adaptation_candidate["next_test"] and adaptation_candidate["promotion_gate"]
+    held_candidates = json.loads((ANALYSIS / "held-candidates.json").read_text())
+    assert held_candidates["schema"] == "external-trend-intelligence.held-candidates.v1"
+    assert len(held_candidates["candidates"]) == 2
+    assert all(candidate["status"] == "held_candidate" for candidate in held_candidates["candidates"])
+    assert all(candidate["mechanism"] and candidate["counter_signal"] and candidate["next_test"] for candidate in held_candidates["candidates"])
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage
