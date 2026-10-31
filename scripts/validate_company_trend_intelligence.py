@@ -30,7 +30,8 @@ def main() -> int:
     assert records, "portfolio has no records"
 
     for record in records:
-        assert set(("trend_id", "title", "summary", "path", "status", "confidence", "horizon", "domains", "decision_owners", "open_test")) <= set(record), record
+        assert set(("trend_id", "title", "summary", "path", "source_packets", "status", "confidence", "horizon", "domains", "decision_owners", "open_test")) <= set(record), record
+        assert len(record["source_packets"]) >= 1, record["trend_id"]
         assert record["status"] in statuses, record
         assert record["confidence"] in {"high", "medium", "low"}, record
         assert set(record["horizon"]) <= {"now", "next", "longer_term"}, record
@@ -44,6 +45,7 @@ def main() -> int:
             assert heading in text, f"{path}: missing {heading}"
 
     assert {row["trend_id"] for row in csv_rows} == set(ids), "CSV and JSON IDs differ"
+    assert all(row["source_packets"] for row in csv_rows), "CSV source packets missing"
 
     assert required >= {"trend_id", "title", "status", "evidence", "business_exposure", "leading_indicators", "next_test"}
     print(f"valid company trend portfolio: {len(records)} records")
