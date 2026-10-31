@@ -27,6 +27,10 @@
       "inc5000-health-longevity-demand-source-linked-share",
       "inc5000-rebuild-public-input-inventory"
     ],
+    "https://wiki.uptimehealth.com/what-is-the-facilities-section": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-opportunity-intelligence-screen"
+    ],
     "https://www.action1.com/wp-content/uploads/datasheet/Action1-Datasheet.pdf": [
       "inc5000-health-longevity-demand-source-linked-share",
       "inc5000-rebuild-public-input-inventory"
@@ -67,6 +71,10 @@
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share"
     ],
+    "https://www.uptimehealth.com/": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-opportunity-intelligence-screen"
+    ],
     "https://www.woofpetbrand.com/": [
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share"
@@ -96,6 +104,10 @@
     "videa.ai": [
       "inc5000-health-longevity-demand-source-linked-share",
       "inc5000-rebuild-public-input-inventory"
+    ],
+    "wiki.uptimehealth.com": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-opportunity-intelligence-screen"
     ],
     "www.action1.com": [
       "inc5000-health-longevity-demand-source-linked-share",
@@ -163,6 +175,10 @@
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share"
     ],
+    "www.uptimehealth.com": [
+      "inc5000-health-longevity-demand-source-linked-share",
+      "inc5000-opportunity-intelligence-screen"
+    ],
     "www.woofpetbrand.com": [
       "inc5000-creator-brand-commerce-source-linked-share",
       "inc5000-health-longevity-demand-source-linked-share"
@@ -205,6 +221,7 @@
         "https://rudishhealth.com/",
         "https://time.com/7095038/woof-pet-pupsicle/",
         "https://videa.ai/news/videa-dental-assist-clearance",
+        "https://wiki.uptimehealth.com/what-is-the-facilities-section",
         "https://www.action1.com/wp-content/uploads/datasheet/Action1-Datasheet.pdf",
         "https://www.ldi.la.gov/onlineservices/ProducerAdjusterSearch/Detail.aspx?LicenseNumber=947557&LicenseType=Producer+Agency",
         "https://www.neighborly.com/own-a-franchise",
@@ -214,6 +231,7 @@
         "https://www.streamcompanies.com/",
         "https://www.streamcompanies.com/about/",
         "https://www.teamscf.com/about",
+        "https://www.uptimehealth.com/",
         "https://www.woofpetbrand.com/"
       ],
       "cross_observation_shared_hosts": [
@@ -222,6 +240,7 @@
         "rudishhealth.com",
         "time.com",
         "videa.ai",
+        "wiki.uptimehealth.com",
         "www.action1.com",
         "www.inc.com",
         "www.ldi.la.gov",
@@ -230,6 +249,7 @@
         "www.sednacg.com",
         "www.streamcompanies.com",
         "www.teamscf.com",
+        "www.uptimehealth.com",
         "www.woofpetbrand.com"
       ],
       "denominator": "candidate_flagged_companies",
@@ -315,19 +335,44 @@
     },
     {
       "observation_id": "inc5000-opportunity-intelligence-screen",
-      "status": "not_started",
-      "source_url_count": 0,
-      "source_host_count": 0,
-      "source_hosts": [],
+      "status": "partial",
+      "source_url_count": 39,
+      "source_host_count": 18,
+      "source_hosts": [
+        "auditfile.com",
+        "blog.servicedirect.com",
+        "bluetail.aero",
+        "connextglobal.com",
+        "outcomes4me.com",
+        "saferidehealth.com",
+        "sevensundays.com",
+        "solsticewi.com",
+        "support.servicedirect.com",
+        "thecollinsbusinessgroup.com",
+        "vynemedical.com",
+        "wiki.uptimehealth.com",
+        "www.fedwriters.com",
+        "www.qualityze.com",
+        "www.shipbots.com",
+        "www.tidalwaveautospa.com",
+        "www.trellahealth.com",
+        "www.uptimehealth.com"
+      ],
       "duplicate_source_urls": {},
-      "cross_observation_shared_urls": [],
-      "cross_observation_shared_hosts": [],
+      "cross_observation_shared_urls": [
+        "https://wiki.uptimehealth.com/what-is-the-facilities-section",
+        "https://www.uptimehealth.com/"
+      ],
+      "cross_observation_shared_hosts": [
+        "wiki.uptimehealth.com",
+        "www.uptimehealth.com"
+      ],
       "denominator": null,
-      "source_url_status": "not_present_in_artifact",
+      "source_url_status": "present_in_artifact",
       "independence_status": "unverified",
       "remaining": [
-        "source URLs or filing identities for the underlying records",
-        "unit, geography, period, and denominator audit",
+        "publisher, filing, and artifact identity review for each URL",
+        "map citations to the specific theme or company record",
         "independence review against the synthesis source"
       ],
       "promotion_decision": "hold"

@@ -61,6 +61,8 @@ def main() -> int:
     strategic = json.loads(show(INC_REPO, INC_REV, strategic_path))
     opportunities_path = "data/processed/opportunity_intelligence_manifest.json"
     opportunities = json.loads(show(INC_REPO, INC_REV, opportunities_path))
+    opportunity_release_path = "data/processed/opportunity_validation_release.json"
+    opportunity_release = json.loads(show(INC_REPO, INC_REV, opportunity_release_path))
     rebuild_path = "data/processed/inc5000_rebuild_manifest_v1.json"
     rebuild = json.loads(show(INC_REPO, INC_REV, rebuild_path))
     independent_index_path = "data/processed/inc5000_independent_source_index_v1.json"
@@ -144,6 +146,28 @@ def main() -> int:
             "reported_queue",
             "The screen is a research queue. It does not prove market size, willingness to pay, or realized outcomes.",
             opportunity_titles=opportunities["opportunities"],
+            canonical_release_path=opportunity_release_path,
+            opportunity_evidence_record_count=sum(len(item.get("evidence", [])) for item in opportunity_release["records"]),
+            opportunity_evidence_opportunity_count=len(opportunity_release["records"]),
+            opportunity_evidence_source_urls=sorted({
+                url
+                for item in opportunity_release["records"]
+                for evidence in item.get("evidence", [])
+                for url in evidence.get("source_urls", [])
+            }),
+            source_urls=sorted({
+                url
+                for item in opportunity_release["records"]
+                for evidence in item.get("evidence", [])
+                for url in evidence.get("source_urls", [])
+            }),
+            source_url_status="present_in_artifact",
+            source_url_count=len({
+                url
+                for item in opportunity_release["records"]
+                for evidence in item.get("evidence", [])
+                for url in evidence.get("source_urls", [])
+            }),
             field_evidence_submissions=opportunities["counts"]["field_evidence_submissions"],
             decisions=opportunities["decisions"],
             observation_period="Inc. 5000 opportunity-intelligence artifact; release generated 2026-10-30",

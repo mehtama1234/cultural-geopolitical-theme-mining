@@ -2,26 +2,12 @@
   "schema": "external-trend-intelligence.external-evidence-gap-queue.v1",
   "purpose": "Explicit next-review queue for external observations that cannot yet support independent trend promotion.",
   "gap_count": 10,
-  "high_priority_count": 2,
+  "high_priority_count": 1,
   "gaps": [
     {
       "observation_id": "ibis-cross-industry-discovery-findings",
       "family_id": "ibis-industries",
       "title": "IBIS baseline cross-industry discovery findings",
-      "priority": "high",
-      "missing_evidence": [
-        "source URLs or filing identities for the underlying records",
-        "unit, geography, period, and denominator audit",
-        "independence review against the synthesis source"
-      ],
-      "shared_url_count": 0,
-      "shared_host_count": 0,
-      "decision": "hold"
-    },
-    {
-      "observation_id": "inc5000-opportunity-intelligence-screen",
-      "family_id": "inc5000-analysis",
-      "title": "Inc. 5000 opportunity screen",
       "priority": "high",
       "missing_evidence": [
         "source URLs or filing identities for the underlying records",
@@ -98,8 +84,22 @@
         "check whether URLs repeat the same company claim or underlying source",
         "independent population-level or outcome measure"
       ],
-      "shared_url_count": 15,
-      "shared_host_count": 14,
+      "shared_url_count": 17,
+      "shared_host_count": 16,
+      "decision": "hold"
+    },
+    {
+      "observation_id": "inc5000-opportunity-intelligence-screen",
+      "family_id": "inc5000-analysis",
+      "title": "Inc. 5000 opportunity screen",
+      "priority": "medium",
+      "missing_evidence": [
+        "publisher, filing, and artifact identity review for each URL",
+        "map citations to the specific theme or company record",
+        "independence review against the synthesis source"
+      ],
+      "shared_url_count": 2,
+      "shared_host_count": 2,
       "decision": "hold"
     },
     {

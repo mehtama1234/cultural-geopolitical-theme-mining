@@ -83,7 +83,7 @@ counts those observations as separate confirmation.
 
 [`external-evidence-gap-queue.json`](external-evidence-gap-queue.json) turns
 that audit into an explicit next-review queue. It currently contains ten held
-observation gaps, two of them high priority because the pinned artifact does
+observation gaps, one of them high priority because the pinned artifact does
 not expose source URLs or filing identities. The annual-report theme map now
 links to its pinned public citation list, while the IBIS corpus exposes its
 separate source inventory (17,998 sources, including 17,087 public URLs), but
@@ -102,6 +102,9 @@ artifacts; those inputs remain synthesis support, not independent outcome proof.
 The social atlas now also resolves 89 unique URLs from its pinned publication-evidence
 appendix; those citations do not turn platform discussion into representative
 prevalence evidence.
+The Inc. opportunity screen now links its canonical validation release: five
+opportunities, 16 evidence records, and 39 public URLs. All five remain
+`monitor` because buyer interviews and outcome validation are still pending.
 
 The first broader candidate built from these lanes is documented in
 [`CARE-CAPACITY-CANDIDATE.md`](CARE-CAPACITY-CANDIDATE.md) and
