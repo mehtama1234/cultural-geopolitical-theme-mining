@@ -22,6 +22,7 @@ def main() -> int:
     comparability = load("backtest-comparability-review.json")
     monitoring = load("trend-monitoring-register.json")
     pilots = load("pilot-register.json")
+    pilot_readiness = load("pilot-readiness.json")
     controls = load("source-family-controls.json")
     independent = load("independent-stage-comparison.json")
     room_comparison = load("room-independent-comparison.json")
@@ -102,6 +103,10 @@ def main() -> int:
             "registered": len(pilots["pilots"]),
             "approved_tests": sum(item["status"] == "approved_test" for item in pilots["pilots"]),
             "status": "hold" if any(item["status"] != "approved_test" for item in pilots["pilots"]) else "pass",
+            "readiness": {
+                "ready_for_approved_test": pilot_readiness["ready_for_approved_test_count"],
+                "blocked_external_first": pilot_readiness["blocked_external_first_count"],
+            },
         },
     }
     blockers = []

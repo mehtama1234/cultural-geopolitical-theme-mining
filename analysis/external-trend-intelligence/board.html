@@ -335,14 +335,15 @@
       const evidence = document.createElement('code'); evidence.textContent = `${row.evidence_record_count} evidence records · ${row.source_host_count || '—'} hosts · internal bridge ready: ${row.internal_bridge_ready}`;
       article.append(pill, title, gates, next, falsifier, backtest, evidence); return article;
     }
-    function pilotCard(pilot) {
+    function pilotCard(pilot, readiness) {
       const article = document.createElement('article');
       const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = pilot.status.replaceAll('_', ' ');
       const title = document.createElement('h3'); title.textContent = pilot.pilot_id.replaceAll('-', ' ');
       const question = document.createElement('p'); question.innerHTML = `<strong>Decision question:</strong> ${pilot.decision_question}`;
       const gate = document.createElement('p'); gate.innerHTML = `<strong>External gate:</strong> ${pilot.external_gate.current_status}; blockers: ${pilot.external_gate.current_blockers.join('; ')}`;
+      const checks = document.createElement('p'); checks.innerHTML = `<strong>Readiness:</strong> ${readiness ? readiness.readiness_status.replaceAll('_', ' ') : 'not loaded'}; blocking checks: ${readiness ? readiness.blocking_check_ids.join(', ') : '—'}`;
       const next = document.createElement('p'); next.innerHTML = `<strong>Next action:</strong> ${pilot.next_action}`;
-      article.append(pill, title, question, gate, next); return article;
+      article.append(pill, title, question, gate, checks, next); return article;
     }
     function monitoringCard(trend) {
       const article = document.createElement('article');
@@ -449,6 +450,7 @@
       fetch('release-manifest.json').then(r => r.json()),
       fetch('promotion-queue.json').then(r => r.json()),
       fetch('pilot-register.json').then(r => r.json()),
+      fetch('pilot-readiness.json').then(r => r.json()),
       fetch('trend-monitoring-register.json').then(r => r.json()),
       fetch('source-family-controls.json').then(r => r.json()),
       fetch('backtest-readiness.json').then(r => r.json()),
@@ -465,7 +467,7 @@
       fetch('external-evidence-gap-queue.json').then(r => r.json()),
       fetch('ibis-finding-claim-sample.json').then(r => r.json()),
       fetch('publisher-dependence-summary.json').then(r => r.json()),
-    ]).then(([manifest, comparison, qualificationMatrix, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, pilotRegister, monitoringRegister, sourceControls, backtestReadiness, comparabilityReview, stagePanel, crossPublisherStage, releaseHealth, boundedLineage, rightsQueue, independentComparison, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample, publisherDependence]) => {
+    ]).then(([manifest, comparison, qualificationMatrix, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, pilotRegister, pilotReadiness, monitoringRegister, sourceControls, backtestReadiness, comparabilityReview, stagePanel, crossPublisherStage, releaseHealth, boundedLineage, rightsQueue, independentComparison, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample, publisherDependence]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -496,7 +498,7 @@
       const heldCards = el('held-candidates'); heldCandidates.candidates.forEach(item => heldCards.append(heldCandidateCard(item)));
       const measurements = el('care-measurements'); careSubset.measures.forEach(measure => measurements.append(measurementCard(measure)));
       const queue = el('promotion-queue'); promotionQueue.candidates.forEach(candidate => queue.append(promotionCard(candidate)));
-      const pilots = el('pilot-register'); pilotRegister.pilots.forEach(pilot => pilots.append(pilotCard(pilot)));
+      const pilots = el('pilot-register'); const readinessByPilot = Object.fromEntries(pilotReadiness.pilots.map(item => [item.pilot_id, item])); pilotRegister.pilots.forEach(pilot => pilots.append(pilotCard(pilot, readinessByPilot[pilot.pilot_id])));
       const monitoringCards = el('monitoring-register'); monitoringRegister.trends.forEach(trend => monitoringCards.append(monitoringCard(trend)));
       const stageCards = el('case-stage-panel'); stagePanel.cases.forEach(item => stageCards.append(caseStageCard(item)));
       const crossStageCards = el('cross-publisher-stage-panel');

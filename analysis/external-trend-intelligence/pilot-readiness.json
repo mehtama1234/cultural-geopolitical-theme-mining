@@ -1,0 +1,60 @@
+{
+  "schema": "external-trend-intelligence.pilot-readiness.v1",
+  "pilot_count": 1,
+  "ready_for_approved_test_count": 0,
+  "blocked_external_first_count": 1,
+  "pilots": [
+    {
+      "pilot_id": "pilot-care-time-workflow-capacity-001",
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "current_status": "design_only_external_gate",
+      "readiness_status": "blocked_external_first",
+      "checks": [
+        {
+          "id": "external_qualification",
+          "label": "External candidate has passed all qualification gates",
+          "status": "blocked",
+          "evidence": "candidate-qualification-matrix.json",
+          "detail": "held"
+        },
+        {
+          "id": "company_decision_contract",
+          "label": "Company, business unit, decision owner, and decision are registered",
+          "status": "blocked",
+          "evidence": "pilot-register.json",
+          "detail": "company identity and decision owner are required before internal access"
+        },
+        {
+          "id": "internal_data_contract",
+          "label": "Internal dataset, snapshot, key, period, outcome, unit, and denominator are specified",
+          "status": "blocked",
+          "evidence": "pilot-register.json",
+          "detail": "no internal dataset is connected at design stage"
+        },
+        {
+          "id": "access_privacy_rights",
+          "label": "Lawful access, privacy class, retention, and redistribution rules are approved",
+          "status": "blocked",
+          "evidence": "PILOT-VALIDATION-PROTOCOL.md",
+          "detail": "data-owner and privacy review remain pending"
+        },
+        {
+          "id": "analysis_preregistration",
+          "label": "Crosswalk, comparison, primary outcome, falsifier, stop rule, and analysis owner are registered",
+          "status": "blocked",
+          "evidence": "PILOT-VALIDATION-PROTOCOL.md",
+          "detail": "pre-registration is prohibited until the external gate passes"
+        }
+      ],
+      "blocking_check_ids": [
+        "external_qualification",
+        "company_decision_contract",
+        "internal_data_contract",
+        "access_privacy_rights",
+        "analysis_preregistration"
+      ],
+      "boundary": "A readiness pass authorizes only a separately approved test; it never proves causality or permits unregistered reuse of company data."
+    }
+  ],
+  "boundary": "This artifact is a fail-closed checklist. It does not connect internal company data and does not upgrade an external candidate."
+}
