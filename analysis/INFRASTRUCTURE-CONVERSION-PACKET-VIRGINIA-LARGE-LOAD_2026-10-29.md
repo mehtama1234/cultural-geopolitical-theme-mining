@@ -35,6 +35,11 @@ large-load growth
 | VA-LL-009 | [Virginia SCC Rider T1 facts](https://www.scc.virginia.gov/about-the-scc/scc-facts/), Case Nos. PUR-2026-00056 and PUR-2026-00131 | 2026-09-03 | Dominion transmission cost allocation and follow-on line-extension proceeding | SCC reports a framework for direct assignment of direct-connect transmission facilities to large-load customers and gives a projected typical residential Rider T1 increase reduction from $2.90 to $0.94 per month under the amended method | Commission modeling and framework; not a household bill observation or facility payment |
 | VA-LL-010 | [Golden-Mars transmission project and public-input record](https://www.scc.virginia.gov/about-the-scc/scc-facts/), Case No. PUR-2025-00056 | 2025-2026 | Loudoun County 500 kV/230 kV transmission projects | SCC reports more than 600 people registered to speak and hundreds of pages of comments, with residents raising undergrounding, home-value, landscape and health concerns | Local public response to infrastructure; data-center attribution and later acceptance/decision consequences need separate coding |
 | VA-LL-011 | [Dominion high-load proposal and recommended stipulation](https://www.scc.virginia.gov/docketsearch/DOCS/87_%4001%21.PDF), Case No. PUR-2025-00058 | 2025-08-29 | Named large-load stakeholder group and proposed GS-5 terms | Filing identifies Amazon, CloudHQ, Google, Iron Mountain, Microsoft, STACK and others as participating stakeholders and proposes minimum demand obligations for customers at or above 50 MW | Named stakeholder and tariff-design evidence; not proof of any named customer's executed contract or payment |
+| VA-LL-012 | [Virginia SCC data-center initiatives factsheet](https://www.scc.virginia.gov/media/sccvirginiagov-home/about-the-scc/fact-sheets/scc-data-center-initiatives-02-2026.pdf) | 2026-02-24 | Dominion GS-5 large-load customers | SCC states that large-load customers must take and pay for service for at least 14 years under new contracts, and must pay at least 85% of transmission and distribution costs incurred to serve them each month, subject to stated exemptions | Commission-approved tariff design with explicit duration and minimum-charge mechanism; not evidence of a particular facility’s payment or household bill |
+| VA-LL-013 | [Virginia SCC data-center electricity consumption tax](https://www.scc.virginia.gov/regulated-industries/public-taxation/taxes-and-fees/) | 2026-09-03 | Certain Virginia data-center operators and electricity consumed | SCC reports a $0.011/kWh data-center electricity-consumption tax from July 1, 2026 through June 30, 2028, registration requirements and monthly reporting/remittance procedures | Named public-revenue and reporting channel; operator registration, remittance, local use of revenue and service/community outcome remain open |
+| VA-LL-014 | [PJM reliability account of backup activations](https://insidelines.pjm.com/providing-reliable-electricity-in-a-new-reality/) | 2026-10-16 | PJM system; data centres and other large-load customers | PJM reports DOE authorization for backup generation at large-load customers on nine days in 2026, including October 13–14, and says approximately 11,000 MW of data-centre load is already on the system | Repeated system-level flexibility/backup operation and updated realized-load signal; facility identity, runtime, fuel/emissions, compensation and neighboring-customer effect remain open |
+| VA-LL-015 | [Virginia SCC large-load customer-protection explanation](https://www.scc.virginia.gov/about-the-scc/scc-facts/) | 2026-09-03 | Virginia existing customers and new large-load customers | SCC says Rider T1 and related reforms directly assign direct-connect transmission costs to large-load customers and retain tools to adjust safeguards if insufficient | Official attribution and regulatory backstop; actual cost assignment, payment, bill effect, compliance and public acceptance remain open |
+| VA-LL-016 | [Virginia SCC biennial-review order summary](https://www.scc.virginia.gov/about-the-scc/newsreleases/release/scc-issues-order-on-dev-biennial-review-2025/scc-rules-in-dev-biennial-review-case.html) | 2025-11-25 | Dominion residential and large-scale energy-user classes | SCC created GS-5 for customers demanding 25 MW or more and specified minimum payment percentages for distribution, transmission and generation while rejecting part of Dominion’s requested base-rate increases | Formal class and minimum-payment decision; no named-facility payment or observed residential-bill counterfactual |
 
 ## Stage audit
 
@@ -67,6 +72,16 @@ data-center capacity -> facility behavior during stress
 It is not yet evidence that a household paid more, that a specific locality
 experienced a service burden, or that public acceptance changed. The observed
 event and the policy response are not the same as realized incidence.
+
+The refreshed record adds a second conversion layer: Virginia has moved from
+general cost-allocation intent toward enforceable-looking instruments—minimum
+payment percentages, a minimum contract duration, direct assignment, a
+consumption tax and monthly reporting. PJM’s repeated 2026 backup activations
+also show that flexibility is becoming an operating practice rather than only a
+planning concept. But the ledger still cannot identify the facility-level payer,
+backup fuel/emissions, tax destination, residential bill counterfactual or
+local service effect. These are precisely the fields needed to distinguish a
+credible protection architecture from realized public value.
 
 ## Cultural and political interpretation
 
@@ -101,6 +116,13 @@ It is whether affected people can identify:
 - A state-level fairness frame can coexist with local acceptance, local
   opposition or no organized public response. Those outcomes must be measured
   separately.
+- Repeated backup-generation activation can support system reliability while
+  shifting fuel, emissions, noise, maintenance and compensation questions to a
+  facility or host place; “the grid remained reliable” is therefore not a
+  complete no-harm finding.
+- A statutory tax and monthly remittance process can create public revenue
+  without establishing that the revenue reaches the affected locality or
+  improves a named service, bill, watershed or community decision.
 
 ## Decisive next acquisition
 

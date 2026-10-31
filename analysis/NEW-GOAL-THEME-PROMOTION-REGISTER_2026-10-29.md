@@ -586,6 +586,7 @@ and are not promoted as facts.
 - The informal-food-market packet now includes SOFI 2026 healthy-diet costs, WFP Armenia/Cambodia market monitoring, UNICEF Indonesia climate-food coherence and WFP Myanmar conflict-price evidence; these close price, value-chain and policy mechanisms, not named household nutrition, safety or vendor livelihood outcomes.
 - The automated-welfare packet now includes UK Universal Credit model assessment, Australian Medicare fraud-model audit, EU benefit-risk examples, GAO data-quality guidance and the UK fraud-risk accelerator; these close deployment, audit and legal-boundary mechanisms, not claimant-level fairness, continuity, correction or hardship outcomes.
 - The AI-data-centre packet now includes DOE large-load rate-design guidance, named Southern Ohio and Savannah River compute-energy proposals, underground thermal cooling evidence and the U.S. ratepayer-protection architecture; these close cost-allocation, project-design and technical-pathway mechanisms, not post-operation customer bills, water burden, job quality, reliability or host-community influence.
+- The Virginia large-load packet now includes the SCC’s 14-year/85%-minimum-charge design, data-centre electricity-consumption tax and reporting channel, Rider T1 customer-protection explanation, 2025 GS-5 order and PJM’s repeated 2026 backup-activation account; these close repeated operating and formal-accountability mechanisms, not named-facility payment, fuel/emissions, residential bill, local revenue or community-outcome records.
 
 ## Decision
 
