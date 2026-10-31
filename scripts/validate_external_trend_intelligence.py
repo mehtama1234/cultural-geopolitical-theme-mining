@@ -362,8 +362,9 @@ def main() -> int:
     release_health = json.loads((ANALYSIS / "release-health.json").read_text())
     assert release_health["schema"] == "external-trend-intelligence.release-health.v1"
     assert release_health["release_status"] == "operational_with_open_gates"
-    assert len(release_health["blockers"]) == 4
+    assert len(release_health["blockers"]) == 5
     assert release_health["sections"]["rights_and_publisher_dependence"]["rights_unverified"] == 8
+    assert release_health["sections"]["independent_source_comparison"]["comparison_status"] == "mechanism_comparison_only"
     bounded_lineage = json.loads((ANALYSIS / "bounded-subset-lineage-review.json").read_text())
     assert bounded_lineage["schema"] == "external-trend-intelligence.bounded-subset-lineage-review.v1"
     assert bounded_lineage["record_count"] == 5

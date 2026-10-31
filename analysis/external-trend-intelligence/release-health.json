@@ -19,6 +19,15 @@
       "dependence_review_required": 8,
       "status": "hold"
     },
+    "independent_source_comparison": {
+      "records": 2,
+      "source_families": [
+        "GSMA",
+        "National Centre for Social Research / British Social Attitudes"
+      ],
+      "status": "hold",
+      "comparison_status": "mechanism_comparison_only"
+    },
     "trend_qualification": {
       "candidates": 4,
       "qualified": 0,
@@ -45,7 +54,8 @@
     "external candidates remain held",
     "backtest units, periods, populations, or geographies require harmonization",
     "no company pilot is approved; external qualification gate is not passed",
-    "rights and publisher-dependence review remains open for source families"
+    "rights and publisher-dependence review remains open for source families",
+    "independent source comparison remains mechanism-only"
   ],
   "boundary": "This is a release-control summary, not evidence that any trend is causal, forecast-valid, rights-cleared, independent, or company-relevant."
 }

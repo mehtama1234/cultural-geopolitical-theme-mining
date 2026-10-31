@@ -23,6 +23,7 @@ def main() -> int:
     monitoring = load("trend-monitoring-register.json")
     pilots = load("pilot-register.json")
     controls = load("source-family-controls.json")
+    independent = load("independent-stage-comparison.json")
     health = {
         "source_refresh": {
             "families": status["family_count"],
@@ -40,6 +41,12 @@ def main() -> int:
             "rights_unverified": sum(item["rights_status"] != "verified" for item in controls["families"]),
             "dependence_review_required": sum(item["publisher_dependence"] == "review_required" for item in controls["families"]),
             "status": "hold" if any(item["rights_status"] != "verified" or item["publisher_dependence"] == "review_required" for item in controls["families"]) else "pass",
+        },
+        "independent_source_comparison": {
+            "records": independent["record_count"],
+            "source_families": independent["independent_source_families"],
+            "status": "hold" if independent["status"] != "qualified_comparison" else "pass",
+            "comparison_status": independent["status"],
         },
         "trend_qualification": {
             "candidates": qualification["candidate_count"],
@@ -72,6 +79,8 @@ def main() -> int:
         blockers.append("no company pilot is approved; external qualification gate is not passed")
     if health["rights_and_publisher_dependence"]["status"] == "hold":
         blockers.append("rights and publisher-dependence review remains open for source families")
+    if health["independent_source_comparison"]["status"] == "hold":
+        blockers.append("independent source comparison remains mechanism-only")
     report = {
         "schema": "external-trend-intelligence.release-health.v1",
         "release_status": "operational_with_gates" if not any(section["status"] == "hold" for section in health.values()) else "operational_with_open_gates",
