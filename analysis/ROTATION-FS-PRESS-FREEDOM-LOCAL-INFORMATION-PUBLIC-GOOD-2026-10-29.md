@@ -148,3 +148,15 @@ as a public good. Public sources support global trends, journalist safety,
 impunity, economic viability, exile and measurement limits. They do not by
 themselves establish a named community's trusted information access, a
 journalist's durable protection, or a later civic or institutional outcome.
+
+## Sources
+
+The packet's evidence snapshot is anchored to these UNESCO source families and
+landing pages. The links support source discovery; the packet does not treat a
+landing page, index or aggregate count as proof of a named community outcome.
+
+- UNESCO, [freedom of expression](https://www.unesco.org/en/freedom-expression)
+- UNESCO, [safety of journalists](https://www.unesco.org/en/safety-journalists)
+- UNESCO, [World Trends in Freedom of Expression and Media Development](https://www.unesco.org/en/world-media-trends)
+- UNESCO, [information as a public good](https://www.unesco.org/en/information-public-good)
+- UNESCO/UNDP, [AI, freedom of expression and elections](https://www.unesco.org/en/articles/new-unesco-undp-issue-brief-highlights-impacts-ai-freedom-expression-and-elections)
