@@ -19,7 +19,34 @@
       ],
       "mechanism": "formal output -> implementation gap -> repeated effort, waiting, residual loss, or non-use",
       "counter_signal": "Some cases reach payment, continued work, restoration, or improved access.",
-      "next_comparison": "Code the same remedy, implementation, receipt, recovery, and exit stages across labor, consumer, health, and public-service records."
+      "next_comparison": "Code the same remedy, implementation, receipt, recovery, and exit stages across labor, consumer, health, and public-service records.",
+      "coverage": {
+        "evidence_record_count": 7,
+        "source_host_count": 6,
+        "source_host_counts": {
+          "fwc.gov.au": 4,
+          "fairwork.gov.au": 1,
+          "gsma.com": 1,
+          "publicnow.com": 1,
+          "kingsfund.org.uk": 1,
+          "natcen.ac.uk": 1
+        },
+        "program_theme_counts": {
+          "trust_identity_meaning": 7,
+          "consumer_power_recourse": 6,
+          "work_control_bargaining": 5,
+          "unequal_exposure_status": 5,
+          "public_systems_feedback": 5,
+          "time_hidden_price": 4,
+          "firm_sector_market_power": 3,
+          "household_room_consumption": 2,
+          "care_health_reproduction": 1,
+          "political_judgment_action": 1,
+          "infrastructure_technology_dependency": 1
+        },
+        "independence_status": "unverified",
+        "interpretation": "Distinct hosts are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
+      }
     },
     {
       "id": "candidate-time-financial-pressure-practical-room",
@@ -36,7 +63,35 @@
       ],
       "mechanism": "material or care pressure -> hidden time price and coordination work -> substitution, delayed completion, or unequal participation",
       "counter_signal": "Flexible schedules, paid support, community infrastructure, or higher resources can preserve participation.",
-      "next_comparison": "Keep participant and total-population denominators separate and distinguish nominal spending from quantities, access, and wellbeing."
+      "next_comparison": "Keep participant and total-population denominators separate and distinguish nominal spending from quantities, access, and wellbeing.",
+      "coverage": {
+        "evidence_record_count": 7,
+        "source_host_count": 8,
+        "source_host_counts": {
+          "abs.gov.au": 2,
+          "dane.gov.co": 1,
+          "eige.europa.eu": 1,
+          "ilo.org": 1,
+          "gov.uk": 1,
+          "roymorgan-cms-prod.s3.ap-southeast-2.amazonaws.com": 1,
+          "roymorgan.com": 1,
+          "4culture.org": 1
+        },
+        "program_theme_counts": {
+          "unequal_exposure_status": 7,
+          "household_room_consumption": 6,
+          "time_hidden_price": 5,
+          "care_health_reproduction": 5,
+          "trust_identity_meaning": 5,
+          "public_systems_feedback": 5,
+          "work_control_bargaining": 3,
+          "infrastructure_technology_dependency": 2,
+          "consumer_power_recourse": 1,
+          "political_judgment_action": 1
+        },
+        "independence_status": "unverified",
+        "interpretation": "Distinct hosts are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
+      }
     },
     {
       "id": "candidate-digital-capability-control-trust",
@@ -53,7 +108,42 @@
       ],
       "mechanism": "capability or convenience -> delegated control and platform dependency -> trust, portability, explanation, or correction gap",
       "counter_signal": "Delegation can be preferred when stakes are low and control, human review, or switching remain credible.",
-      "next_comparison": "Separate task efficiency from later correction, retention, switching, and institutional legitimacy."
+      "next_comparison": "Separate task efficiency from later correction, retention, switching, and institutional legitimacy.",
+      "coverage": {
+        "evidence_record_count": 7,
+        "source_host_count": 13,
+        "source_host_counts": {
+          "accenture.com": 1,
+          "assurant.com": 1,
+          "azure-na-assets.contentstack.com": 1,
+          "deloitte.com": 1,
+          "dima.org": 1,
+          "luminatedata.com": 1,
+          "doi.org": 1,
+          "oecd.org": 1,
+          "worldbank.org": 1,
+          "library.hbs.edu": 1,
+          "pubsonline.informs.org": 1,
+          "bcg.com": 1,
+          "cpl.thalesgroup.com": 1
+        },
+        "program_theme_counts": {
+          "trust_identity_meaning": 7,
+          "consumer_power_recourse": 5,
+          "infrastructure_technology_dependency": 5,
+          "firm_sector_market_power": 5,
+          "platforms_data_attention": 4,
+          "household_room_consumption": 4,
+          "public_systems_feedback": 4,
+          "unequal_exposure_status": 3,
+          "geopolitical_state_consequences": 2,
+          "work_control_bargaining": 2,
+          "time_hidden_price": 1,
+          "political_judgment_action": 1
+        },
+        "independence_status": "unverified",
+        "interpretation": "Distinct hosts are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
+      }
     },
     {
       "id": "candidate-infrastructure-dependency-power",
@@ -70,7 +160,44 @@
       ],
       "mechanism": "capacity or ownership concentration -> dependency and unequal access -> local burden, public legitimacy, resilience, or state leverage",
       "counter_signal": "Redundancy, public governance, open access, local benefits, and credible substitutes can create shared capacity.",
-      "next_comparison": "Link operation, actual user receipt, local incidence, maintenance, and later behavior; announced capacity is not reliable benefit."
+      "next_comparison": "Link operation, actual user receipt, local incidence, maintenance, and later behavior; announced capacity is not reliable benefit.",
+      "coverage": {
+        "evidence_record_count": 7,
+        "source_host_count": 14,
+        "source_host_counts": {
+          "oecd.org": 2,
+          "energy.gov": 1,
+          "ferc.gov": 1,
+          "insidelines.pjm.com": 1,
+          "pjm.com": 1,
+          "uscc.gov": 1,
+          "worldenergy.org": 1,
+          "un.org": 1,
+          "undp.org": 1,
+          "worldbank.org": 1,
+          "doi.org": 1,
+          "irena.org": 1,
+          "documents.worldbank.org": 1,
+          "search.worldbank.org": 1
+        },
+        "program_theme_counts": {
+          "infrastructure_technology_dependency": 7,
+          "public_systems_feedback": 7,
+          "geopolitical_state_consequences": 6,
+          "unequal_exposure_status": 6,
+          "firm_sector_market_power": 4,
+          "housing_place_mobility": 3,
+          "care_health_reproduction": 3,
+          "political_judgment_action": 2,
+          "household_room_consumption": 2,
+          "work_control_bargaining": 2,
+          "platforms_data_attention": 1,
+          "consumer_power_recourse": 1,
+          "trust_identity_meaning": 1
+        },
+        "independence_status": "unverified",
+        "interpretation": "Distinct hosts are discovery coverage, not proof of independent confirmation; publisher lineage and shared source material still require review."
+      }
     }
   ]
 }

@@ -8,6 +8,19 @@ These candidates are generated from multiple external records that share a
 mechanism or conversion gap. The records are not treated as if they followed
 the same people, firms, places, or events.
 
+## Coverage snapshot
+
+| Candidate | Evidence records | Distinct source hosts in records | Independence status |
+|---|---:|---:|---|
+| Formal response before usable recovery | 7 | 6 | Unverified; lineage review required |
+| Time and financial pressure / practical room | 7 | 8 | Unverified; lineage review required |
+| Digital capability, control, and trust | 7 | 13 | Unverified; lineage review required |
+| Infrastructure dependency and power | 7 | 14 | Unverified; lineage review required |
+
+Host diversity is a discovery-coverage measure only. It is not independent
+confirmation because multiple publications may reuse one study, press release,
+dataset, or institutional claim.
+
 ## Candidate 1 — Formal response arrives before usable recovery
 
 **Provisional finding:** Courts, agencies, platforms, and service systems can
