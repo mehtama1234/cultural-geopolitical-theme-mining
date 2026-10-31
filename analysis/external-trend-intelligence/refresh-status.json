@@ -1,6 +1,6 @@
 {
   "schema": "external-trend-intelligence.refresh-status.v1",
-  "generated_at": "2026-10-31T21:08:48.134968+00:00",
+  "generated_at": "2026-10-31T21:09:15.165969+00:00",
   "source_schedule": "refresh-schedule.json",
   "source_registry": "source-family-registry.json",
   "family_count": 8,
@@ -21,7 +21,7 @@
         {
           "path": "candidate-comparisons.json",
           "exists": true,
-          "age_hours": 2.4
+          "age_hours": 2.41
         }
       ],
       "status": "ready_for_review",
@@ -61,7 +61,7 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 1.85
+          "age_hours": 1.86
         }
       ],
       "status": "ready_for_review",
@@ -126,7 +126,7 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 1.85
+          "age_hours": 1.86
         }
       ],
       "status": "ready_for_review",
@@ -141,7 +141,7 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 0.75
+          "age_hours": 0.76
         },
         {
           "path": "REFRESH-RUNBOOK.md",
@@ -161,7 +161,7 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 0.75
+          "age_hours": 0.76
         },
         {
           "path": "internal-bridge-schema.json",
