@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-anupoll-financial-stress-2025",
+  "title": "Adult-reported difficulty meeting household expenses rose from the pre-pandemic baseline to 2025",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "time_hidden_price"],
+  "source_unit": "ANU COVID-19 Monitoring Survey Program / ANUPoll, summarized by the Australian Institute of Health and Welfare",
+  "geography": "Australia; adults surveyed by ANUPoll",
+  "observations": [
+    {
+      "period": "January 2020",
+      "denominator": {"value": null, "unit": "Australian adults responding to the ANUPoll household-expenses question", "value_type": "reported_adult_survey_frame"},
+      "measures": {
+        "difficult_meet_expenses": {"value": 27, "unit": "percent finding it difficult or very difficult to meet household expenses", "value_type": "reported_survey_share"}
+      },
+      "method": "ANUPoll repeated survey question summarized in the AIHW income and income inequality report.",
+      "uncertainty": "The summary does not provide the full 2020 wave sample, weighting, question wording, or subgroup denominator in the accessible page; this is an adult-level perception measure, not a household administrative outcome.",
+      "subgroup": "Australian adults answering the household-expenses difficulty question.",
+      "counterinterpretation": "Reported difficulty can reflect expectations, temporary shocks, household composition, or survey mode and does not identify bills, debt, income, or realized consumption.",
+      "source_url": "https://www.aihw.gov.au/reports/australias-welfare/income-and-income-inequality",
+      "retrieval_hash": "sha256:ad78b94069aa43911be3a9a8de2f9ddb645785a545f4076971c7e8b5c5c60620",
+      "status": "reported"
+    },
+    {
+      "period": "April 2025",
+      "denominator": {"value": null, "unit": "Australian adults responding to the ANUPoll household-expenses question", "value_type": "reported_adult_survey_frame"},
+      "measures": {
+        "difficult_meet_expenses": {"value": 35, "unit": "percent finding it difficult or very difficult to meet household expenses", "value_type": "reported_survey_share"},
+        "change_from_2020": {"value": 8, "unit": "percentage-point increase from January 2020", "value_type": "calculated_difference_from_published_summary"}
+      },
+      "method": "ANUPoll repeated survey question summarized in the AIHW income and income inequality report; the report describes polls from February 2020 through April 2025.",
+      "uncertainty": "The accessible summary does not establish individual longitudinal change, causal drivers, exact wave sample, or equivalence with ABS household-level cash-flow questions; the 2025 result is a reported adult survey share.",
+      "subgroup": "Australian adults answering the household-expenses difficulty question.",
+      "counterinterpretation": "Higher reported difficulty can coexist with employment growth, social reconnection, transfers, savings drawdown, or improved expectations in other domains; it is not a complete household-welfare measure.",
+      "source_url": "https://www.aihw.gov.au/reports/australias-welfare/income-and-income-inequality",
+      "retrieval_hash": "sha256:ad78b94069aa43911be3a9a8de2f9ddb645785a545f4076971c7e8b5c5c60620",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://dataverse.ada.edu.au/dataverse/anupoll", "claim": "ANU Data Archive route for ANUPoll datasets and study documentation.", "status": "official-data-route"},
+    {"source_url": "https://www.aihw.gov.au/reports/australias-welfare/income-and-income-inequality", "claim": "AIHW summary reports the January 2020 and April 2025 adult financial-stress comparison and ANUPoll coverage.", "status": "official-summary"}
+  ],
+  "boundary": "This record adds an adult-level repeated ANUPoll household-expenses measure to challenge household-level ABS and HILDA evidence. It does not establish causal financial hardship, household prevalence, individual change, or a company effect.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "AIHW income and income inequality page reviewed for ANUPoll coverage, January 2020 baseline, April 2025 estimate, and survey limitations.",
+    "source_url_sha256": "sha256:ad78b94069aa43911be3a9a8de2f9ddb645785a545f4076971c7e8b5c5c60620",
+    "checked": "2026-10-31"
+  }
+}
