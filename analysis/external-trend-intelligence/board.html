@@ -49,10 +49,12 @@
       <div class="stat"><strong id="host-count">—</strong><span>source hosts</span></div>
       <div class="stat"><strong id="theme-count">—</strong><span>program themes</span></div>
       <div class="stat"><strong id="candidate-count">—</strong><span>qualified candidates</span></div>
+      <div class="stat"><strong id="source-count">—</strong><span>registered external sources</span></div>
     </section>
     <section class="charts" aria-label="External evidence coverage">
       <div class="panel"><h2>Theme coverage</h2><div id="theme-chart"></div></div>
       <div class="panel"><h2>Most-used source hosts</h2><div id="host-chart"></div></div>
+      <div class="panel"><h2>Source inventory types</h2><div id="source-type-chart"></div></div>
     </section>
     <section>
       <h2>Cross-source candidates</h2>
@@ -86,13 +88,21 @@
       const refs = document.createElement('code'); refs.textContent = `${candidate.evidence_record_ids.length} evidence records · ${coverage.source_host_count || '—'} hosts · ${coverage.unique_source_url_count || '—'} URLs · lineage ${review.status || 'not measured'}`;
       article.append(pill, title, mechanism, counter, next, refs); return article;
     }
-    Promise.all([fetch('observation-manifest.json').then(r => r.json()), fetch('candidate-comparisons.json').then(r => r.json())]).then(([manifest, comparison]) => {
+    Promise.all([
+      fetch('observation-manifest.json').then(r => r.json()),
+      fetch('candidate-comparisons.json').then(r => r.json()),
+      fetch('source-registry-snapshot.json').then(r => r.json()),
+    ]).then(([manifest, comparison, sourceRegistry]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
       el('candidate-count').textContent = comparison.candidates.length;
+      el('source-count').textContent = sourceRegistry.source_count.toLocaleString();
       barChart(el('theme-chart'), Object.entries(manifest.program_theme_counts).sort((a,b) => b[1]-a[1]), manifest.record_count);
       barChart(el('host-chart'), Object.entries(manifest.source_host_counts).slice(0, 16), manifest.record_count);
+      const sourceTypes = {};
+      sourceRegistry.sources.forEach(source => source.source_types.forEach(type => { sourceTypes[type] = (sourceTypes[type] || 0) + 1; }));
+      barChart(el('source-type-chart'), Object.entries(sourceTypes).sort((a,b) => b[1]-a[1]).slice(0, 16), sourceRegistry.source_count);
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
   </script>
