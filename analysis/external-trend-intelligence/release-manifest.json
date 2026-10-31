@@ -1,9 +1,14 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "88f2aa9a8685bebbe0d4ec17586595e8aa7bed03",
-  "artifact_count": 64,
+  "source_tree_commit": "063bbe4b20a901f313a4c45c51dda504efd2d0eb",
+  "artifact_count": 65,
   "artifacts": [
+    {
+      "path": ".github/workflows/external-observatory-refresh.yml",
+      "bytes": 1664,
+      "sha256": "16515e11e77e9a22ce40f7bfa8fb1416f5638d2c047c9599d1fef047af5fb6e9"
+    },
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
       "bytes": 7011,
@@ -107,7 +112,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2238,
-      "sha256": "5dff78dec3768eff05c1e12cca7e716594c9f9fc42df68a9a5899bce0462a1e9"
+      "sha256": "0bd4660a138caf2ae3faf767386a70a2d6e20b9ac2aca6a0bef304199f4a76d8"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -151,8 +156,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
-      "bytes": 5792,
-      "sha256": "7e9798e8b37be00bc96d062e17142d7895c1713ede74deb843aa5c8a0750ca6f"
+      "bytes": 6222,
+      "sha256": "531f1bd48f5d6c114e0608fdb6ab2287d0ab9ef97d0db19f96c306dc69942cb0"
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",

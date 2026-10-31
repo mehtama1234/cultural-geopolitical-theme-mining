@@ -1,0 +1,49 @@
+name: External observatory refresh
+
+on:
+  schedule:
+    - cron: '17 6 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    # The pinned sibling repositories are required by the lineage snapshot.
+    # Configure a self-hosted runner with the shared /home/mehta/git-repo tree.
+    runs-on: [self-hosted, external-observatory]
+    steps:
+      - name: Check out observatory
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Verify pinned sibling workspace
+        run: |
+          set -eu
+          for path in \
+            /home/mehta/git-repo/organization-intelligence-system \
+            /home/mehta/git-repo/inc5000-analysis \
+            /home/mehta/git-repo/ibis-industries \
+            /home/mehta/git-repo/social-research \
+            /home/mehta/git-repo/trend-hunting; do
+            test -d "$path" || { echo "missing pinned sibling workspace: $path" >&2; exit 1; }
+          done
+      - name: Run full external refresh
+        run: python3 scripts/refresh_external_observatory.py
+      - name: Commit generated release artifacts
+        run: |
+          set -eu
+          git config user.name "external-observatory-bot"
+          git config user.email "external-observatory-bot@users.noreply.github.com"
+          git add -- analysis/external-trend-intelligence
+          if git diff --cached --quiet; then
+            echo "No generated artifact changes"
+          else
+            git commit -m "Scheduled external observatory refresh"
+            git push
+          fi
