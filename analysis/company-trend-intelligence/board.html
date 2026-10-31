@@ -49,6 +49,8 @@
       <select id="domain"><option value="all">All domains</option></select>
       <label for="status">Status</label>
       <select id="status"><option value="all">All statuses</option></select>
+      <label for="confidence">Confidence</label>
+      <select id="confidence"><option value="all">All confidence levels</option></select>
       <span class="status" id="count" role="status" aria-live="polite"></span>
     </section>
     <section class="grid" id="cards" aria-live="polite"></section>
@@ -61,6 +63,7 @@
     const count = document.querySelector('#count');
     const domainSelect = document.querySelector('#domain');
     const statusSelect = document.querySelector('#status');
+    const confidenceSelect = document.querySelector('#confidence');
 
     function option(value, label) {
       const el = document.createElement('option'); el.value = value; el.textContent = label; return el;
@@ -69,7 +72,8 @@
     function render(records) {
       const domain = domainSelect.value;
       const status = statusSelect.value;
-      const filtered = records.filter(r => (domain === 'all' || r.domains.includes(domain)) && (status === 'all' || r.status === status));
+      const confidence = confidenceSelect.value;
+      const filtered = records.filter(r => (domain === 'all' || r.domains.includes(domain)) && (status === 'all' || r.status === status) && (confidence === 'all' || r.confidence === confidence));
       cards.replaceChildren();
       filtered.forEach(record => {
         const article = document.createElement('article');
@@ -87,8 +91,10 @@
       const records = portfolio.records;
       [...new Set(records.flatMap(r => r.domains))].sort().forEach(value => domainSelect.append(option(value, value.replaceAll('_', ' '))));
       [...new Set(records.map(r => r.status))].sort().forEach(value => statusSelect.append(option(value, value.replaceAll('_', ' '))));
+      [...new Set(records.map(r => r.confidence))].sort().forEach(value => confidenceSelect.append(option(value, value)));
       domainSelect.addEventListener('change', () => render(records));
       statusSelect.addEventListener('change', () => render(records));
+      confidenceSelect.addEventListener('change', () => render(records));
       render(records);
     }).catch(error => {
       count.textContent = 'Portfolio data could not be loaded.';
