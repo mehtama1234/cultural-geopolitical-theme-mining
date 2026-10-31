@@ -56,6 +56,14 @@ This qualified trend translates energy, data-center, transmission, community
 solar, grid, and readiness evidence into operating continuity, cost allocation,
 customer receipt, local burden, and dependency exposure.
 
+### Financial pressure creates navigation work before visible demand change
+
+[Household financial-room trend record](company-trend-household-financial-room-2026-006.md)
+
+This qualified trend translates consumer confidence and household search
+evidence into affordability, substitution, support-load, payment, and demand
+exposure. Its open test is a transaction or panel link from search to outcome.
+
 ## Record contract
 
 - [Company trend-intelligence goal](../../COMPANY_TREND_INTELLIGENCE_GOAL_V1.md)
