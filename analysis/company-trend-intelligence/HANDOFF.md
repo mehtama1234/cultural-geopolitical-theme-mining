@@ -10,6 +10,7 @@ financial, institutional, and geopolitical atlas.
 - [Portfolio](PORTFOLIO.md) — cross-domain interpretation.
 - [Portfolio JSON](portfolio.json) — frontend/downstream data contract.
 - [Portfolio CSV](portfolio.csv) — spreadsheet and BI export.
+- [14-theme coverage matrix](THEME-COVERAGE-MATRIX.md) and [CSV export](THEME-COVERAGE-MATRIX.csv) — scope and coverage state.
 - [Board](board.html) — lightweight browser reader.
 - [Decision playbook](DECISION-PLAYBOOK.md) — weekly, monthly, and quarterly use.
 - [Executive readout](EXECUTIVE-READOUT.md) — one-page leadership view.
@@ -19,7 +20,7 @@ financial, institutional, and geopolitical atlas.
 
 ## Current record set
 
-There are six qualified trend records:
+There are seven qualified trend records:
 
 1. AI and workplace control.
 2. Consumer recourse and practical exit.
@@ -27,6 +28,7 @@ There are six qualified trend records:
 4. Cultural and language technology.
 5. Infrastructure capacity and reliable benefit.
 6. Household financial pressure and navigation work.
+7. Conditional legitimacy: material pressure becomes political meaning through attribution and practical room.
 
 These are not universal forecasts or company rankings. They are evidence-backed
 trend candidates with explicit business exposure, confidence, time horizon,
@@ -60,8 +62,8 @@ Then open:
 http://localhost:8000/analysis/company-trend-intelligence/board.html
 ```
 
-The validator checks JSON, CSV, record paths, IDs, titles, required headings,
-statuses, confidence, and horizons.
+The validator checks JSON, CSV, theme coverage, record paths, IDs, titles,
+required headings, statuses, confidence, and horizons.
 
 ## Evidence boundary
 

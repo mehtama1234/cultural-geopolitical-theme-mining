@@ -2,7 +2,7 @@
 
 ## What the portfolio says now
 
-Across six evidence-backed records, the repeated pattern is:
+Across seven evidence-backed records, the repeated pattern is:
 
 > Companies can create capability, formal access, or institutional output faster
 > than they can prove usable benefit, shared control, trust, or durable value.
@@ -19,6 +19,7 @@ This is a cross-domain lens, not a claim that every trend has one cause.
 | Language and culture | Digital representation can precede repeated use, trust, and cultural vitality | Is the tool governed, usable by the dialect community, and part of a real workflow? |
 | Infrastructure | Capacity, revenue, and readiness can precede reliable user benefit | Who gets the service, who pays, and what happens under stress? |
 | Household finance | Financial pressure can increase search and substitution before visible demand collapse | Is more navigation creating choice, or exposing constrained households to more effort? |
+| Conditional legitimacy | Material pressure becomes political meaning through attribution, identity, and practical room | Does explanation, voice, remedy, and visible benefit sustain acceptance? |
 
 ## What to do now
 
