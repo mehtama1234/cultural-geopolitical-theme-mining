@@ -39,6 +39,9 @@ The broader repository-level source universe is pinned in
 research family and Inc. 5000 family now have explicit sibling-repository
 revisions and manifest paths; their records remain source-scoped until their
 individual evidence and independence are reviewed.
+The registry records `trends-observatory` as an alias for the annual-report
+family; no separate local checkout was found, so it is not treated as a second
+independent source family.
 
 [`repository-family-snapshot.json`](repository-family-snapshot.json) records
 the exact Git blob IDs and file sizes for those pinned manifests. This makes

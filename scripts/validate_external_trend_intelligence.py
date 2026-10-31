@@ -117,6 +117,9 @@ def main() -> int:
         assert family["revision"]
         assert family["manifest_paths"]
         assert family["pin_note"]
+    assert "trends-observatory" in families["annual-report-research"]["aliases"]
+    assert families["annual-report-research"]["alias_status"] == "no_separate_local_checkout_found"
+    assert "source-level lineage" in family_registry["next_action"]
     repository_snapshot = json.loads((ANALYSIS / "repository-family-snapshot.json").read_text())
     assert repository_snapshot["schema"] == "external-trend-intelligence.repository-family-snapshot.v1"
     snapshot_families = {family["id"]: family for family in repository_snapshot["families"]}

@@ -32,9 +32,12 @@
       "revision": "5d4434b9ff46e8d28176624a7ec44dfddee8be4b",
       "manifest_paths": [
         "annual-report-research/README.md",
-        "annual-report-research/data",
+        "annual-report-research/START-HERE.md",
+        "annual-report-research/analysis/company-first-principles/annual-report-final-integrated-theme-map-pass-1.md",
         "annual-report-research/scripts/verify-trend-archive-json.py"
       ],
+      "aliases": ["trends-observatory"],
+      "alias_status": "no_separate_local_checkout_found",
       "role": "public-company filings, strategy, operating constraints, financial claims, and burden transfer",
       "evidence_boundary": "Company disclosures are reported claims; independently observed outcomes remain separate.",
       "status": "pinned_external_snapshot",
@@ -78,5 +81,5 @@
       "status": "pinned_external_snapshot"
     }
   ],
-  "next_action": "Add exact approved revisions and source manifests for annual-report-research and inc5000-analysis before using them in an automated cross-source run."
+  "next_action": "Review source-level lineage and independence for the pinned family observations before promoting any synthesis into a qualified trend."
 }
