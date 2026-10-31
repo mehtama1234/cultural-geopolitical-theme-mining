@@ -1,0 +1,70 @@
+{
+  "schema": "external-trend-intelligence.repository-family-snapshot.v1",
+  "purpose": "Pinned lineage for external repository source families used before internal company-data validation.",
+  "families": [
+    {
+      "id": "annual-report-research",
+      "repository_path": "/home/mehta/git-repo/organization-intelligence-system",
+      "revision": "5d4434b9ff46e8d28176624a7ec44dfddee8be4b",
+      "manifest_paths": [
+        {
+          "path": "annual-report-research/README.md",
+          "blob": "4ce41e678b833b36cffbccc25de14c2372baedf4",
+          "size": 30895
+        },
+        {
+          "path": "annual-report-research/START-HERE.md",
+          "blob": "61764c69fc29c39f85b39f85d2159c257b8d5954",
+          "size": 65773
+        },
+        {
+          "path": "annual-report-research/analysis/company-first-principles/annual-report-final-integrated-theme-map-pass-1.md",
+          "blob": "b3986361c53968f4491f5feb470fd84b9337ee37",
+          "size": 5887
+        },
+        {
+          "path": "annual-report-research/scripts/verify-trend-archive-json.py",
+          "blob": "ef97794b8124bed698fe400ae372092323c46b3a",
+          "size": 3669
+        }
+      ],
+      "directory_prefix_counts": {
+        "annual-report-research/analysis/": 5162,
+        "annual-report-research/data/": 0
+      },
+      "boundary": "Blob lineage proves what was present at the pinned revision; it does not prove that every record is independent, current, representative, or suitable for a trend claim."
+    },
+    {
+      "id": "inc5000-analysis",
+      "repository_path": "/home/mehta/git-repo/inc5000-analysis",
+      "revision": "92fad318ff05efcc5707f997bb1b5b18f3bceab2",
+      "manifest_paths": [
+        {
+          "path": "INC5000-INDEPENDENT-SOURCE-INDEX-V1.md",
+          "blob": "dca7e8ae88ac5c79f89c420420c9c0caff680a49",
+          "size": 38247
+        },
+        {
+          "path": "data/processed/inc5000_rebuild_manifest_v1.json",
+          "blob": "e1348a3fce8d6e5fd03835fac506eb621a3a1316",
+          "size": 82814
+        },
+        {
+          "path": "data/processed/opportunity_intelligence_manifest.json",
+          "blob": "0cb15e7effd16320dd59f5b415d6db070fbb55c4",
+          "size": 11912
+        },
+        {
+          "path": "data/processed/strategic_source_ledger.json",
+          "blob": "945607dcec0a07cf4c37008645d7cabf111d6b00",
+          "size": 48101
+        }
+      ],
+      "directory_prefix_counts": {
+        "data/processed/": 3600,
+        "data/public_company_intelligence/": 592
+      },
+      "boundary": "Blob lineage proves what was present at the pinned revision; it does not prove that every record is independent, current, representative, or suitable for a trend claim."
+    }
+  ]
+}

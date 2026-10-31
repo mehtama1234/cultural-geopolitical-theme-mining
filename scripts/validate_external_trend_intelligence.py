@@ -109,6 +109,16 @@ def main() -> int:
         assert family["revision"]
         assert family["manifest_paths"]
         assert family["pin_note"]
+    repository_snapshot = json.loads((ANALYSIS / "repository-family-snapshot.json").read_text())
+    assert repository_snapshot["schema"] == "external-trend-intelligence.repository-family-snapshot.v1"
+    snapshot_families = {family["id"]: family for family in repository_snapshot["families"]}
+    for family_id in ("annual-report-research", "inc5000-analysis"):
+        family = snapshot_families[family_id]
+        assert family["revision"] == families[family_id]["revision"]
+        assert family["manifest_paths"]
+        assert all(entry["blob"] and entry["size"] >= 0 for entry in family["manifest_paths"])
+        assert all(count >= 0 for count in family["directory_prefix_counts"].values())
+        assert family["boundary"]
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage
