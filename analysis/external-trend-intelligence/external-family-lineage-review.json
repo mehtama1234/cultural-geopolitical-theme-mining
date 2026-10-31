@@ -1,0 +1,139 @@
+{
+  "schema": "external-trend-intelligence.external-family-lineage-review.v1",
+  "purpose": "Lineage and independence review for the first normalized external-family intake.",
+  "promotion_rule": "URL count and host diversity are coverage measures, not independent confirmation.",
+  "reviews": [
+    {
+      "observation_id": "inc5000-health-longevity-demand-source-linked-share",
+      "status": "partial",
+      "source_url_count": 33,
+      "source_host_count": 22,
+      "source_hosts": [
+        "app.action1.com",
+        "franchise.neighborly.com",
+        "jobs.rudishhealth.com",
+        "myisi.net",
+        "razormetrics.com",
+        "rudishhealth.com",
+        "time.com",
+        "videa.ai",
+        "wiki.uptimehealth.com",
+        "www.achc.org",
+        "www.action1.com",
+        "www.dmcserviceinc.com",
+        "www.encorewoundcare.com",
+        "www.inc.com",
+        "www.ldi.la.gov",
+        "www.neighborly.com",
+        "www.neighborlybrands.com",
+        "www.sednacg.com",
+        "www.streamcompanies.com",
+        "www.teamscf.com",
+        "www.uptimehealth.com",
+        "www.woofpetbrand.com"
+      ],
+      "duplicate_source_urls": {},
+      "denominator": "candidate_flagged_companies",
+      "source_url_status": "present_in_artifact",
+      "independence_status": "unverified",
+      "remaining": [
+        "publisher and artifact identity review for each URL",
+        "check whether URLs repeat the same company claim or underlying source",
+        "independent population-level or outcome measure"
+      ],
+      "promotion_decision": "hold"
+    },
+    {
+      "observation_id": "inc5000-creator-brand-commerce-source-linked-share",
+      "status": "partial",
+      "source_url_count": 33,
+      "source_host_count": 23,
+      "source_hosts": [
+        "doradonutrition.com",
+        "franchise.neighborly.com",
+        "go.shopmy.us",
+        "jeffsbagelrun.com",
+        "shopmy.us",
+        "stonegatefirm.com",
+        "time.com",
+        "victra.com",
+        "www.ftc.gov",
+        "www.inc.com",
+        "www.jeffsbagelrun.com",
+        "www.ldi.la.gov",
+        "www.linkedin.com",
+        "www.neighborly.com",
+        "www.neighborlybrands.com",
+        "www.onyxrenewables.com",
+        "www.propensity.com",
+        "www.sednacg.com",
+        "www.serviceup.com",
+        "www.streamcompanies.com",
+        "www.teamscf.com",
+        "www.telyon.com",
+        "www.woofpetbrand.com"
+      ],
+      "duplicate_source_urls": {},
+      "denominator": "candidate_flagged_companies",
+      "source_url_status": "present_in_artifact",
+      "independence_status": "unverified",
+      "remaining": [
+        "publisher and artifact identity review for each URL",
+        "check whether URLs repeat the same company claim or underlying source",
+        "independent population-level or outcome measure"
+      ],
+      "promotion_decision": "hold"
+    },
+    {
+      "observation_id": "inc5000-opportunity-intelligence-screen",
+      "status": "not_started",
+      "source_url_count": 0,
+      "source_host_count": 0,
+      "source_hosts": [],
+      "duplicate_source_urls": {},
+      "denominator": null,
+      "source_url_status": "not_present_in_artifact",
+      "independence_status": "unverified",
+      "remaining": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "promotion_decision": "hold"
+    },
+    {
+      "observation_id": "inc5000-rebuild-public-input-inventory",
+      "status": "not_started",
+      "source_url_count": 0,
+      "source_host_count": 0,
+      "source_hosts": [],
+      "duplicate_source_urls": {},
+      "denominator": null,
+      "source_url_status": "not_present_in_artifact",
+      "independence_status": "unverified",
+      "remaining": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "promotion_decision": "hold"
+    },
+    {
+      "observation_id": "annual-report-integrated-theme-map",
+      "status": "not_started",
+      "source_url_count": 0,
+      "source_host_count": 0,
+      "source_hosts": [],
+      "duplicate_source_urls": {},
+      "denominator": null,
+      "source_url_status": "not_present_in_artifact",
+      "independence_status": "unverified",
+      "remaining": [
+        "source URLs or filing identities for the underlying records",
+        "unit, geography, period, and denominator audit",
+        "independence review against the synthesis source"
+      ],
+      "promotion_decision": "hold"
+    }
+  ]
+}

@@ -158,6 +158,16 @@ def main() -> int:
         assert comparison["status"] == "held_no_join"
         assert comparison["rationale"] and comparison["counter_signal"]
         assert comparison["next_test"] and comparison["promotion_gate"]
+    lineage_review = json.loads((ANALYSIS / "external-family-lineage-review.json").read_text())
+    assert lineage_review["schema"] == "external-trend-intelligence.external-family-lineage-review.v1"
+    assert len(lineage_review["reviews"]) == len(family_observations["observations"])
+    assert lineage_review["promotion_rule"]
+    for review in lineage_review["reviews"]:
+        assert review["observation_id"] in family_observation_ids
+        assert review["status"] in {"not_started", "partial", "complete"}
+        assert review["independence_status"] == "unverified"
+        assert review["promotion_decision"] == "hold"
+        assert review["remaining"]
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage

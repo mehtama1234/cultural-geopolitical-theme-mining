@@ -64,6 +64,11 @@ The held comparison layer is
 records three thematic/mechanism relationships without treating adjacency as
 a data join or promoting any new trend prematurely.
 
+The corresponding URL, host, denominator, and independence audit is in
+[`external-family-lineage-review.json`](external-family-lineage-review.json).
+The two Inc. 5000 trend records have partial URL coverage review; every new
+observation remains on hold until independence and outcome evidence are checked.
+
 The later internal-data step is documented in
 [`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
 not change the meaning or status of external evidence.
