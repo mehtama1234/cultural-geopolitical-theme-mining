@@ -48,6 +48,8 @@ def main() -> int:
                             "Operating handoff",
                             "operating-handoff.json",
                             "publisher-dependence-summary.json",
+                            "SHED point-estimate reproduction",
+                            "shed-point-estimate-reproduction-audit.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:
