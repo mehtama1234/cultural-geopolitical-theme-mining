@@ -1,0 +1,65 @@
+{
+  "schema": "external-trend-intelligence.source-family-registry.v1",
+  "purpose": "External sources used for trend discovery before internal company-data validation.",
+  "join_policy": "Do not join sources by name, theme, ranking, category, or timing without compatible entity, unit, geography, and period evidence.",
+  "source_families": [
+    {
+      "id": "cultural-geopolitical-theme-mining",
+      "repository": "https://github.com/mehtama1234/cultural-geopolitical-theme-mining",
+      "role": "cultural, social, institutional, place, consumer, and geopolitical research",
+      "evidence_boundary": "Source-led research records with explicit units, limits, counterevidence, and open tests.",
+      "status": "active_local_source"
+    },
+    {
+      "id": "social-research",
+      "repository": "https://github.com/mehtama1234/social-research",
+      "revision": "c2ff3e3a49129117802425514660ce4b2cf67744",
+      "role": "bounded public discussion and creator-signal observatory",
+      "evidence_boundary": "Discussion signals are not representative prevalence, causality, market size, or buying intent.",
+      "status": "pinned_external_snapshot"
+    },
+    {
+      "id": "trend-hunting",
+      "repository": "https://github.com/mehtama1234/trend-hunting",
+      "revision": "19d8b2443f26f52da2331736320dcb265a9de34f",
+      "role": "public-signal, consumer-trend, theme, subtheme, and counter-signal synthesis",
+      "evidence_boundary": "Trend synthesis is a candidate signal until underlying observations and limits are checked.",
+      "status": "pinned_external_snapshot"
+    },
+    {
+      "id": "annual-report-research",
+      "role": "public-company filings, strategy, operating constraints, financial claims, and burden transfer",
+      "evidence_boundary": "Company disclosures are reported claims; independently observed outcomes remain separate.",
+      "status": "external_family_pin_required"
+    },
+    {
+      "id": "inc5000-analysis",
+      "role": "private-company growth, business models, and bottom-up market signals",
+      "evidence_boundary": "Ranking and growth records are source-scoped; they do not prove peer identity, causality, or demand.",
+      "status": "external_family_pin_required"
+    },
+    {
+      "id": "ibis-industries",
+      "repository": "https://github.com/mehtama1234/ibis-industries",
+      "revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+      "role": "industry definitions, structures, forces, bottlenecks, capacity, and dependencies",
+      "evidence_boundary": "Analytic synthesis; does not establish customer demand, prevalence, willingness to pay, or live customer outcomes.",
+      "status": "pinned_external_snapshot"
+    },
+    {
+      "id": "research-signals",
+      "revision": "6a8e74aeb03a64f4f6d67b7ab331a5d83e8d6a26",
+      "role": "capture, provenance, normalization, deduplication, verification, and connection infrastructure",
+      "evidence_boundary": "Provenance infrastructure does not itself establish a trend.",
+      "status": "pinned_external_snapshot"
+    },
+    {
+      "id": "organization-intelligence-system",
+      "revision": "e3d08b7faa10bdcb2fc5d8300f7f51c96bdb7252",
+      "role": "shared identity, evidence, comparability, review, rights, and release contracts",
+      "evidence_boundary": "Integration and governance layer; it must not rewrite source-owner conclusions.",
+      "status": "pinned_external_snapshot"
+    }
+  ],
+  "next_action": "Add exact approved revisions and source manifests for annual-report-research and inc5000-analysis before using them in an automated cross-source run."
+}

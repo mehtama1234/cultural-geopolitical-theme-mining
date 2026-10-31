@@ -1,5 +1,13 @@
 # Start here
 
+## New external-first goal
+
+Start with the [external trend-intelligence goal](EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md)
+and the [external analysis contract](analysis/external-trend-intelligence/README.md).
+The sequence is external sources → cross-source trend identification →
+qualified finding → bounded connection to internal company data. The company
+trend board is a downstream translation layer, not the starting point.
+
 ## Company trend-intelligence goal
 
 The atlas is being developed as a company-facing trend-intelligence system:
