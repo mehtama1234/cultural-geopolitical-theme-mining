@@ -100,7 +100,7 @@ The first implementation is live in
 - `10` observations from pinned Inc. 5000, annual-report, IBIS,
   social-research, and trend-hunting artifacts have been normalized with
   source paths, revisions, units, and boundaries;
-- `6` external-family comparisons and `1` held care/longevity candidate have
+- `8` external-family comparisons and `1` held care/longevity candidate have
   been added without treating thematic adjacency as a valid join; and
 - `0` internal company datasets have been joined or used to claim company
   impact.

@@ -65,6 +65,28 @@
       "counter_signal": "Industry-record volume and force synthesis do not show realized outages, prices, access, or geopolitical effects.",
       "next_test": "Attach dated grid, energy, infrastructure, procurement, and regional access observations with common units and locations.",
       "promotion_gate": "Treat corpus size and force count as provenance/context, never as independent confirmation."
+    },
+    {
+      "id": "social-adaptation-to-digital-control",
+      "observation_ids": ["social-integrated-trend-atlas"],
+      "existing_candidate_ids": ["candidate-digital-capability-control-trust"],
+      "relationship": "thematic_adjacency",
+      "status": "held_no_join",
+      "rationale": "The social atlas describes an adaptation economy in which people and institutions seek control, proof, substitution, resilience, and workflow leverage; the existing candidate concerns expanding digital capability under contested control and trust.",
+      "counter_signal": "The atlas combines public-signal, paid research, proof cards, and local cases; counts do not estimate population prevalence or adoption.",
+      "next_test": "Compare dated adoption, trust, privacy, control, and recourse measures from representative surveys, administrative records, and observed implementations.",
+      "promotion_gate": "Do not treat the number of themes, leads, or proof cards as independent confirmation."
+    },
+    {
+      "id": "trend-hunting-ai-control-to-digital-capability",
+      "observation_ids": ["trend-hunting-ai-deep-synthesis"],
+      "existing_candidate_ids": ["candidate-digital-capability-control-trust"],
+      "relationship": "mechanism_hypothesis",
+      "status": "held_no_join",
+      "rationale": "The trend-hunting synthesis asks whether formal AI control becomes usable recourse with a changed outcome, which is a mechanism-level refinement of the digital-capability/control candidate.",
+      "counter_signal": "The synthesis is bounded and explicitly leaves outcome linkage open; visibility of a control or redress channel does not establish successful use or durable correction.",
+      "next_test": "Attach dated implementation, user uptake, correction, and durable-outcome records for AI-enabled systems and their affected populations.",
+      "promotion_gate": "Require observed outcome change and counterexamples before promoting a control-to-recourse mechanism."
     }
   ]
 }

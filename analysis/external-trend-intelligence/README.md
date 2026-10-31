@@ -65,7 +65,7 @@ The held comparison layer is
 records three thematic/mechanism relationships without treating adjacency as
 a data join or promoting any new trend prematurely. It now includes three
 additional held comparisons for IBIS compliance, labor-capacity, and
-infrastructure forces.
+infrastructure forces, plus social adaptation and AI-control comparisons.
 
 The corresponding URL, host, denominator, and independence audit is in
 [`external-family-lineage-review.json`](external-family-lineage-review.json).
