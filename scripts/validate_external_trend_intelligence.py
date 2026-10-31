@@ -402,7 +402,7 @@ def main() -> int:
     assert progress["baseline"]["qualified_external_trends"] == 0
     assert progress["baseline"]["release_artifacts"] == 55
     assert progress["baseline"]["rights_reviews_required"] == 8
-    assert progress["baseline"]["independent_comparison_status"] == "mechanism_comparison_only"
+    assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
     independent = json.loads((ANALYSIS / "independent-stage-comparison.json").read_text())
     assert independent["schema"] == "external-trend-intelligence.independent-stage-comparison.v1"
