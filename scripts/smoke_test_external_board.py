@@ -52,6 +52,7 @@ def main() -> int:
                             "shed-point-estimate-reproduction-audit.json",
                             "JPMorgan household-liquidity chart",
                             "jpmorgan-household-liquidity-chart.json",
+                            "candidate-lineage-dependency-review.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:

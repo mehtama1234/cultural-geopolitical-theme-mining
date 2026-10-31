@@ -1,0 +1,131 @@
+{
+  "schema": "external-trend-intelligence.candidate-lineage-dependency-review.v1",
+  "purpose": "Explicit dependency review for candidate evidence before independence or trend qualification.",
+  "candidate_count": 4,
+  "rows": [
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "evidence_record_count": 7,
+      "dependency_group_count": 1,
+      "dependency_groups": [
+        {
+          "group_id": "fair-work-commission-case-family",
+          "record_ids": [
+            "au-al-hussein-reactivation-deemed-work-2025",
+            "au-fwc-khan-platform-repeat-deactivation-2026",
+            "au-mansoor-platform-alternative-earnings-remedy-2025",
+            "comparative-australia-fwc-no-alternative-employment-remedy-2024"
+          ],
+          "classification": "same_publisher_family",
+          "reason": "Four records are Fair Work Commission cases; separate case IDs do not establish independent publisher or population evidence."
+        }
+      ],
+      "unclassified_record_ids": [
+        "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018",
+        "comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust",
+        "bsa43-nhs-waiting-legitimacy-2026"
+      ],
+      "independence_status": "unverified",
+      "promotion_decision": "hold",
+      "boundary": "Dependency groups identify reasons not to count records as independent. Records outside a group are not automatically independent; publisher, dataset, population, method, and outcome review remains required.",
+      "next_test": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "evidence_record_count": 8,
+      "dependency_group_count": 2,
+      "dependency_groups": [
+        {
+          "group_id": "abs-general-social-survey",
+          "record_ids": [
+            "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection"
+          ],
+          "classification": "same_survey_family",
+          "reason": "Multiple measures in this record come from one ABS General Social Survey family and are not independent observations."
+        },
+        {
+          "group_id": "jpmorgan-single-endpoint",
+          "record_ids": [
+            "comparative-jpmorgan-household-liquidity-2023"
+          ],
+          "classification": "single_publisher_endpoint",
+          "reason": "JPMorgan is one administrative-data endpoint with a restrictive republication notice; the chart does not expose a numeric table."
+        }
+      ],
+      "unclassified_record_ids": [
+        "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+        "comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration",
+        "comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools",
+        "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+        "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook",
+        "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging"
+      ],
+      "independence_status": "unverified",
+      "promotion_decision": "hold",
+      "boundary": "Dependency groups identify reasons not to count records as independent. Records outside a group are not automatically independent; publisher, dataset, population, method, and outcome review remains required.",
+      "next_test": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "evidence_record_count": 7,
+      "dependency_group_count": 2,
+      "dependency_groups": [
+        {
+          "group_id": "informs-hbs-study-lineage",
+          "record_ids": [
+            "us-hbs-ai-customer-service-contextual-recourse-2020-2021"
+          ],
+          "classification": "secondary_summary_underlying_study",
+          "reason": "The HBS record summarizes an INFORMS field experiment; a summary and its underlying study must not be counted twice."
+        },
+        {
+          "group_id": "dima-musicwatch-lineage",
+          "record_ids": [
+            "comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai"
+          ],
+          "classification": "secondary_publisher_dependency",
+          "reason": "The DIMA record depends on MusicWatch research and requires claim-level source review."
+        }
+      ],
+      "unclassified_record_ids": [
+        "comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries",
+        "comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership",
+        "comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social",
+        "comparative-oecd-ai-markets-2026-concentration-competition-strategic-advantage",
+        "comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight"
+      ],
+      "independence_status": "unverified",
+      "promotion_decision": "hold",
+      "boundary": "Dependency groups identify reasons not to count records as independent. Records outside a group are not automatically independent; publisher, dataset, population, method, and outcome review remains required.",
+      "next_test": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "evidence_record_count": 7,
+      "dependency_group_count": 1,
+      "dependency_groups": [
+        {
+          "group_id": "pjm-large-load-event",
+          "record_ids": [
+            "us-pjm-large-load-disconnection-response-2026"
+          ],
+          "classification": "single_event_record",
+          "reason": "The PJM material describes one operating event; multiple documents about that event would not be independent replications."
+        }
+      ],
+      "unclassified_record_ids": [
+        "us-uscc-transpacific-undersea-cable-gray-zone-resilience-2026",
+        "comparative-oecd-space-economy-2026-dependencies-sustainability-security",
+        "comparative-africa-sustainable-development-report-2026-water-energy-cities-finance",
+        "comparative-oecd-eu-social-economy-europe-2025-care-housing-delivery",
+        "comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security",
+        "comparative-world-bank-cloud-procurement-public-capability-lockin-2026"
+      ],
+      "independence_status": "unverified",
+      "promotion_decision": "hold",
+      "boundary": "Dependency groups identify reasons not to count records as independent. Records outside a group are not automatically independent; publisher, dataset, population, method, and outcome review remains required.",
+      "next_test": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+    }
+  ],
+  "boundary": "This is a conservative dependency register, not a legal rights determination, independence score, or qualified trend result."
+}
