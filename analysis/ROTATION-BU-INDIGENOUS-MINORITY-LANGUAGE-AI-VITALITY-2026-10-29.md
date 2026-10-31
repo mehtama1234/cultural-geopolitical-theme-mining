@@ -59,6 +59,7 @@ language exclusion, low-resource data and intergenerational decline
 | EAC Kiswahili AI Trust Mark and regional language resolutions | The EAC reports July 2026 resolutions treating Kiswahili as strategic digital infrastructure and calling for a regional roadmap, open language datasets/corpora, standardised AI terminology and African ownership of language data. The EAC AI Alliance and East African Kiswahili Commission announce work on a Kiswahili Trust Mark to assess linguistic quality, terminology, cultural context and safety, with a public register of certified systems intended. | regional language standardisation and certification mechanism with a named evaluation target | published standard, assessment protocol, certified systems, audit results, public-register operation, procurement or user adoption and inclusion of non-Kiswahili languages |
 | EAC Regional AI Network and AI4EAC skills pipeline | The EAC AI Alliance, IUCEA, EASTECO and GIZ report a distributed university network with national nodes and a 2026 AI4EAC campaign intended to reach 20,000 East Africans through applied-AI skilling and regional innovation challenges. | regional institutional and talent infrastructure for AI research, skills and innovation | node activity, curriculum and language coverage, funded projects, named language systems, startup or public-service deployments, participant outcomes and regional retention |
 | Vambo AI MORENA open-weight model | Vambo’s research page and model card describe MORENA as a 1.5-billion-parameter decoder trained from scratch for 12 Latin-script African languages plus English, French and code; the model card publishes weights and reports held-out language-model and translation metrics, while Vambo’s research page presents the result as open research. | named released model artifact, language coverage and reproducible headline evaluation record | independent replication, training-data provenance and licensing, dialect coverage, safety/cultural evaluation, downstream fine-tunes, production users, service outcomes and sustainability |
+| MORENA model-card evaluation and disclosure boundary | The model card identifies an Apache-2.0 license and detailed results, but says the training corpus is not released, no native speaker has yet rated an answer, grounded generation is fully faithful in 23% of attempts, benign requests are answered well in 58.9%, and the checkpoint is not deployed by an inference provider. | transparent disclosure of several quality and access limitations alongside the released weights | native-speaker evaluation, dataset rights and coverage, independent replication, culturally safe deployment, production access and user or service outcomes |
 | Vambo AI developer API preview | Vambo’s developer page presents translation, transcription, language detection, generation and text-to-speech endpoints for 60+ African languages, but labels the API a developer preview and asks users to join a waitlist. | product-surface definition and intended application route | public availability, uptime, actual language-by-language quality, customer adoption, pricing, data handling, safety controls and deployed applications |
 
 ## Stage audit
@@ -236,6 +237,12 @@ training-data rights, dialect and cultural-safety evaluation, fine-tuned users
 and public-service outcomes remain open. The separate API page is even earlier
 on the adoption chain because it is a developer preview with a waitlist. Model
 availability and product access must therefore remain separate ledger stages.
+The model card also supplies a useful counterexample to benchmark triumphalism:
+the same release reports weak grounded generation, substantial benign-request
+over-refusal, no native-speaker answer rating and no inference-provider
+deployment. Open weights and strong aggregate metrics can coexist with poor
+task reliability, incomplete cultural evaluation and limited access to a
+production service.
 
 ## Cross-case synthesis
 
