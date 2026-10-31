@@ -27,6 +27,33 @@ qualified. Add the company-specific product, customer, workforce, financial,
 operational, regulatory, reputational, or geopolitical fact that connects the
 trend to this company.
 
+## Three-horizon translation
+
+For every material exposure, write the implication separately for each horizon
+and name the evidence that would move it forward or backward:
+
+| Horizon | Company question | Evidence needed | Decision posture |
+|---|---|---|---|
+| **Now (0–12 months)** | What is already observable in the company’s customers, workforce, products, finances, operations, institutions, reputation, or geopolitical exposure? | Current metric, denominator, owner, and baseline | Monitor or prepare |
+| **Next (1–3 years)** | What operating change, scenario, or dependency could become material? | Leading indicator, trigger, test, and reversible option | Prepare, pilot, or partner |
+| **Longer term (3+ years)** | What structural capability, market position, legitimacy, or loss of alternatives could persist? | Scenario range, second-context evidence, and exit condition | Act, scale, hold, or stop |
+
+## Eight-dimension exposure checklist
+
+Do not collapse these dimensions into a single opportunity score. Record the
+evidence, uncertainty, affected group, and owner separately.
+
+| Dimension | Required question |
+|---|---|
+| Customer | Who changes behavior, demand, willingness to pay, trust, access, or switching? |
+| Workforce | What changes in skills, control, bargaining, retention, meaning, or burden? |
+| Product | Which need, feature, language, accessibility, reliability, or remedy requirement changes? |
+| Finance | What changes in affordability, margin, capital, credit, insurance, or valuation? |
+| Operations | What changes in suppliers, infrastructure, data, energy, logistics, or recovery? |
+| Institutional | What changes in regulation, procurement, standards, enforcement, or public capacity? |
+| Reputation | Which identities, communities, values, or trust relationships affect legitimacy? |
+| Geopolitics | What changes in trade, sanctions, alliances, dependence, state leverage, or market access? |
+
 ## Decision pathway
 
 For each material exposure, document:
