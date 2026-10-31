@@ -53,6 +53,7 @@ def main() -> int:
     assert "No internal company join" in runbook
     assert "IBIS discovery findings" in next_actions
     assert "build_external_evidence_gap_queue.py" in next_actions
+    assert "build_ibis_finding_claim_sample.py" in runbook
     refresh_schedule = json.loads((ANALYSIS / "refresh-schedule.json").read_text())
     assert refresh_schedule["schema"] == "external-trend-intelligence.refresh-schedule.v1"
     assert len(refresh_schedule["families"]) == 8

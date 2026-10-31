@@ -41,6 +41,7 @@ For the pinned sibling families, rebuild the bounded intake:
 ```text
 python3 scripts/build_external_family_observations.py
 python3 scripts/build_external_family_lineage_review.py
+python3 scripts/build_ibis_finding_claim_sample.py
 python3 scripts/build_external_release_manifest.py
 ```
 

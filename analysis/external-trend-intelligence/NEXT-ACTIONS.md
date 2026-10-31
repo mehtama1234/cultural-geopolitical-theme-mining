@@ -44,6 +44,7 @@ Next test:
 python3 scripts/build_external_repository_family_snapshot.py
 python3 scripts/build_external_family_observations.py
 python3 scripts/build_external_family_lineage_review.py
+python3 scripts/build_ibis_finding_claim_sample.py
 python3 scripts/build_external_evidence_gap_queue.py
 python3 scripts/build_external_release_manifest.py
 python3 scripts/validate_external_trend_intelligence.py
