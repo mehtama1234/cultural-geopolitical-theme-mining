@@ -17,7 +17,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 58-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 60-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -70,7 +70,7 @@
         "shed-temporal-holdout.json",
         "usda-temporal-holdout.json"
       ],
-      "gap": "The food-insecurity candidate has a descriptive Urban 2019\u20132023 to 2024\u20132025 holdout and non-pooled USDA challenge, and the IBIS adult-day-care lane now has a dated 2022-to-2025 CDC outcome comparison; causal validation, uncertainty harmonization, independent outcomes, and holdouts for the other candidates remain open."
+      "gap": "The food-insecurity candidate has a descriptive Urban 2019\u20132023 to 2024\u20132025 holdout and non-pooled USDA challenge, and the IBIS adult-day-care lane now has a dated CDC outcome series plus a CMS Medicaid rate comparison; causal validation, uncertainty harmonization, independent utilization outcomes, and holdouts for the other candidates remain open."
     },
     {
       "id": "decision_ready_frontend",
