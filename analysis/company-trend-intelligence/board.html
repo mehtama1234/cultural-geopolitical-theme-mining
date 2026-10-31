@@ -19,6 +19,12 @@
     select { border:1px solid var(--line); border-radius:8px; background:#fff; color:var(--ink); padding:9px 32px 9px 10px; font:inherit; }
     .status { color:var(--muted); font-size:.92rem; }
     .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(285px,1fr)); gap:16px; }
+    .overview { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin:8px 0 24px; }
+    .chart { background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px; }
+    .chart h2 { font-size:1rem; margin:0 0 12px; }
+    .bar-row { display:grid; grid-template-columns:minmax(100px,1fr) 2fr auto; gap:8px; align-items:center; margin:8px 0; font-size:.84rem; }
+    .bar-track { background:#edf2f7; border-radius:99px; height:10px; overflow:hidden; }
+    .bar-fill { background:var(--accent); height:100%; border-radius:inherit; }
     article { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; box-shadow:0 2px 10px #17202a0b; display:flex; flex-direction:column; min-height:260px; }
     article h2 { font-size:1.22rem; line-height:1.2; margin:12px 0 9px; }
     article p { color:var(--muted); margin:0 0 16px; }
@@ -55,6 +61,11 @@
       <select id="horizon"><option value="all">All horizons</option></select>
       <span class="status" id="count" role="status" aria-live="polite"></span>
     </section>
+    <section class="overview" id="overview" aria-label="Portfolio overview">
+      <div class="chart"><h2>Domain coverage</h2><div id="domain-chart"></div></div>
+      <div class="chart"><h2>Confidence</h2><div id="confidence-chart"></div></div>
+      <div class="chart"><h2>Time horizon</h2><div id="horizon-chart"></div></div>
+    </section>
     <section class="grid" id="cards" aria-live="polite"></section>
     <p class="empty" id="empty" hidden>No trends match these filters.</p>
     <footer>Use `python3 -m http.server` from the repository root to load the JSON-backed board locally. The underlying Markdown records remain the evidence source.</footer>
@@ -67,6 +78,9 @@
     const statusSelect = document.querySelector('#status');
     const confidenceSelect = document.querySelector('#confidence');
     const horizonSelect = document.querySelector('#horizon');
+    const domainChart = document.querySelector('#domain-chart');
+    const confidenceChart = document.querySelector('#confidence-chart');
+    const horizonChart = document.querySelector('#horizon-chart');
 
     function option(value, label) {
       const el = document.createElement('option'); el.value = value; el.textContent = label; return el;
@@ -88,11 +102,36 @@
       count.textContent = `${filtered.length} of ${records.length} trend records`;
     }
 
+    function renderChart(target, counts, total) {
+      target.replaceChildren();
+      Object.entries(counts).sort((a, b) => b[1] - a[1]).forEach(([label, value]) => {
+        const row = document.createElement('div'); row.className = 'bar-row';
+        const text = document.createElement('span'); text.textContent = label.replaceAll('_', ' ');
+        const track = document.createElement('span'); track.className = 'bar-track'; track.setAttribute('aria-hidden', 'true');
+        const fill = document.createElement('span'); fill.className = 'bar-fill'; fill.style.width = `${Math.max(8, (value / total) * 100)}%`; track.append(fill);
+        const number = document.createElement('strong'); number.textContent = value;
+        row.append(text, track, number); target.append(row);
+      });
+    }
+
+    function renderOverview(records) {
+      const domains = {}; const confidence = {}; const horizon = {};
+      records.forEach(record => {
+        record.domains.forEach(value => domains[value] = (domains[value] || 0) + 1);
+        confidence[record.confidence] = (confidence[record.confidence] || 0) + 1;
+        record.horizon.forEach(value => horizon[value] = (horizon[value] || 0) + 1);
+      });
+      renderChart(domainChart, domains, records.length);
+      renderChart(confidenceChart, confidence, records.length);
+      renderChart(horizonChart, horizon, records.length);
+    }
+
     fetch('portfolio.json').then(response => {
       if (!response.ok) throw new Error('portfolio.json unavailable');
       return response.json();
     }).then(portfolio => {
       const records = portfolio.records;
+      renderOverview(records);
       [...new Set(records.flatMap(r => r.domains))].sort().forEach(value => domainSelect.append(option(value, value.replaceAll('_', ' '))));
       [...new Set(records.map(r => r.status))].sort().forEach(value => statusSelect.append(option(value, value.replaceAll('_', ' '))));
       [...new Set(records.map(r => r.confidence))].sort().forEach(value => confidenceSelect.append(option(value, value)));
