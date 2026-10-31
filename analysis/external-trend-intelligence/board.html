@@ -499,6 +499,9 @@
         independentResultChart(el('room-independent-chart'), result.rows);
         el('independent-comparison').append(card('Cross-source direction', result.status, result.directional_summary + ' ' + result.counter_signal));
       });
+      fetch('denominator-reconciliation-review.json').then(r => r.json()).then(review => {
+        el('independent-comparison').append(card('Denominator reconciliation', review.status, `${review.common_pooling_decision} · ${review.next_action}`));
+      });
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
       const controls = new Map(sourceControls.families.map(item => [item.family_id, item]));
       const sourceFamilies = el('source-families'); sourceRegistry.source_families.forEach(family => {

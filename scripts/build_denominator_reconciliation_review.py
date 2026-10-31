@@ -1,0 +1,66 @@
+#!/usr/bin/env python3
+"""Make denominator compatibility decisions explicit for the household-room comparison."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ANALYSIS = Path(__file__).resolve().parents[1] / "analysis" / "external-trend-intelligence"
+OUTPUT = ANALYSIS / "denominator-reconciliation-review.json"
+
+
+def main() -> int:
+    comparison = json.loads((ANALYSIS / "room-independent-comparison.json").read_text())
+    rows = [
+        {
+            "publisher": "Australian Bureau of Statistics General Social Survey",
+            "population": "Australian households for financial-stress measures",
+            "denominator": "weighted household estimates; 2020 and 2025 cycle comparison",
+            "unit": "percent of households",
+            "compatibility": "anchor_household_measure",
+            "pooling_decision": "retain_as_household_anchor_only",
+        },
+        {
+            "publisher": "HILDA via Australian Institute of Health and Welfare",
+            "population": "Australian households with at least one person reporting a financial-stress factor",
+            "denominator": "household-level custom HILDA analysis; 2020 and 2023",
+            "unit": "percent of households",
+            "compatibility": "household_directional_bridge",
+            "pooling_decision": "compare_direction_only_until_questionnaire_alignment",
+        },
+        {
+            "publisher": "ANU COVID-19 Monitoring Survey / ANUPoll",
+            "population": "Australian adults answering difficulty-meeting-household-expenses question",
+            "denominator": "adult survey frame; January 2020 and April 2025",
+            "unit": "percent of adults",
+            "compatibility": "adult_level_non_poolable_with_household",
+            "pooling_decision": "retain_as_independent_adult_challenge_only",
+        },
+        {
+            "publisher": "ANZ / Roy Morgan",
+            "population": "Australian consumers/households in weekly confidence survey",
+            "denominator": "weekly survey response frame and index components; September 2026",
+            "unit": "index points and reported shares",
+            "compatibility": "sentiment_context_not_same_outcome",
+            "pooling_decision": "retain_as_context_only",
+        },
+    ]
+    report = {
+        "schema": "external-trend-intelligence.denominator-reconciliation-review.v1",
+        "candidate_id": comparison["candidate_id"],
+        "status": "reconciliation_required",
+        "rows": rows,
+        "common_pooling_decision": "do_not_pool",
+        "supports": ["explicit denominator boundaries", "directional challenge design", "future holdout specification"],
+        "blocking_items": ["household versus adult population", "different question wording and response frames", "HILDA ends in 2023", "ANZ/Roy Morgan is sentiment context rather than the same outcome"],
+        "next_action": "Acquire a repeated independent household-level measure with the same financial-stress definition through 2025 or later.",
+        "boundary": "This review protects against denominator substitution; it does not establish that the sources measure one common population or causal process.",
+    }
+    OUTPUT.write_text(json.dumps(report, indent=2) + "\n")
+    print(f"wrote {OUTPUT} ({len(rows)} source decisions)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

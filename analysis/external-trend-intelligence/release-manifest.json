@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "a1eaa592b2b0736b5a05e519171672cabccb88ec",
-  "artifact_count": 55,
+  "source_tree_commit": "ae3d78bb62780373ce73973af272afe8c236b0a4",
+  "artifact_count": 56,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -140,14 +140,19 @@
       "sha256": "b78cbe29301e0ac791fad1e914f69687d59ed54cdb29e43f6c4613bcae1111bc"
     },
     {
+      "path": "analysis/external-trend-intelligence/denominator-reconciliation-review.json",
+      "bytes": 2552,
+      "sha256": "1179f07d0482d16f48988233818818489e63197fc5c949d89d631a6567203583"
+    },
+    {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
       "bytes": 4923,
       "sha256": "1f38c8feccfe9cadbdd8ca8810a80470867d09cd6f43ea29c201c168c2afdd19"
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
-      "bytes": 4002,
-      "sha256": "80ace739c0d99ca0fd7ee4319ca31338c50769814523ee2f677e0bdf87389a9f"
+      "bytes": 4345,
+      "sha256": "964c816d47b0dbe59d9bde1f4957ba2184732eab35b76a676e7e69e917e363b9"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -266,8 +271,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 43047,
-      "sha256": "53474ebbce277df232401af5f48c165fb3588cfa6006bb30549e55912affdd11"
+      "bytes": 43306,
+      "sha256": "4b1d8bd63cc09ff38c225287de83ce2e5e2b1b75d46d9886474123cae84f5642"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
