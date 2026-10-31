@@ -1,7 +1,7 @@
 # Cross-rotation synthesis — usable capability, place, correction and legitimacy
 
 **Date:** 2026-10-30  
-**Inputs:** 306 unique registered packet paths, 311 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 415, and the latest rotations through AG, CU, EN, IB, HW, IF, KC, KK, KF, JZ, LS and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market and energy-affordability evidence integrated.
+**Inputs:** 306 unique registered packet paths, 311 machine-readable CSV ledgers, the cultural/geographical master synthesis through proposition 416, and the latest rotations through AG, CU, EN, IB, HW, IF, KC, KK, KF, JZ, LS, LR and Z, with current 2026 digital-identity, automated-welfare, G2P, climate-relocation, disability-inclusive-warning, informal-food-market, energy-affordability and AI-data-centre incidence evidence integrated.
 **Status:** bounded portfolio synthesis; not a pooled causal model, trend-rate estimate or universal legitimacy index.
 
 Machine-readable companion: [cross-rotation mechanism ledger](CROSS-ROTATION-SYNTHESIS-2026-10-30.csv).
@@ -151,6 +151,7 @@ be simultaneously useful for one unit and exclusionary for another.
 | Informal food markets and energy insecurity | Healthy-diet cost, value-chain bottlenecks, market-price shocks, food-safety governance, utility events, cooling demand and policy targeting | Same household’s purchase/temperature, food/medicine trade-off, safety, health, vendor livelihood, bill, reconnection and remedy | Pair market/utility event data with household purchase, indoor-condition, health and repeated-use records |
 | AI, humanitarian action and linguistic sovereignty | Human-validation, data-commons, representation, consent, pilot and humanitarian/military governance boundaries | Community control, model error, civilian protection, safe service, benefit sharing, correction and remedy | Name one community/person and trace data or model exposure through decision, service, refusal, correction and outcome |
 | Place and legitimacy | Local forums, relocation consultations, infrastructure, cultural and public-language mechanisms | Whether participation changes terms, authority, burden distribution, trust or durable acceptance | Compare a recorded decision term before/after participation with post-operation community response |
+| AI data-centre incidence and ratepayer protection | Large-load demand concentration, cost-allocation design, dedicated generation, transmission payment, cooling flexibility, jobs and local-benefit commitments | Whether the operating facility pays its incremental grid/water/backup burden and produces observed customer affordability, reliability, job quality, emergency performance and community influence | Join a named facility’s tariff, generation, water, construction and operation records to customer bills, reliability, workforce and host-community outcomes |
 
 **Synthesis finding:** the highest-value next evidence is not another policy
 inventory. It is a joined, dated ledger in which a named person, household,

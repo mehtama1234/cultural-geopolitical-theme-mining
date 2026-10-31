@@ -3849,6 +3849,8 @@ The JZ evidence adds **mechanization-productivity-to-labor-income-capital-cost-d
 
 415. **A welfare fraud signal is not claimant justice.** A risk score, prioritization model, human-review safeguard, audit metric or fraud-risk draft can protect administrative resources while false positives, evidence burden, payment interruption, inaccessible notice, subgroup bias, correction and hardship remain unobserved for the person or household.
 
+416. **A ratepayer-protection architecture is not a protected customer.** A dedicated tariff, new generation, transmission payment, on-site power, cooling-efficiency claim, jobs pledge or grid-flexibility commitment can assign responsibility on paper while the operating facility’s incremental cost, household bill, reliability, water burden, emissions, job quality, emergency performance and community influence remain unobserved.
+
 ## What the evidence does not support
 
 Do not claim that:
@@ -3867,7 +3869,7 @@ Do not claim that:
 
 ## Final research architecture
 
-For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 415 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
+For a concise cross-rotation readout, see the [30 October 2026 cross-rotation synthesis](CROSS-ROTATION-SYNTHESIS-2026-10-30.md). It summarizes the 416 propositions without collapsing their distinct units or causal clocks. The [30 October 2026 atlas quality audit](ATLAS-QUALITY-AUDIT-2026-10-30.md) records the current structural verification and its limitations.
 
 The next-stage atlas should retain six separate clocks:
 
