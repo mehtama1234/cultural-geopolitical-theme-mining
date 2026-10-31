@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "4cf88f199ecaffd7c7c89d59d29265fa9123eea5",
+  "source_tree_commit": "64a92b4f19988102beaccea3780a8fbb138c3c0f",
   "artifact_count": 55,
   "artifacts": [
     {
@@ -121,13 +121,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-comparison.json",
-      "bytes": 5949,
-      "sha256": "0a5c1ccefb683e28e58bfb082546dfb27c0cddd913356623cadbf051f5e09b92"
+      "bytes": 7099,
+      "sha256": "67f02cb4ff344b6869c0783c2ba9b91416949001e2ecee03a041a22b6b41ef1b"
     },
     {
       "path": "analysis/external-trend-intelligence/evidence-acquisition-plan.json",
-      "bytes": 3441,
-      "sha256": "a3d1412c82eafce1c31ab7db6fca561e8ce517eeed54020736ea53cbc586b540"
+      "bytes": 3545,
+      "sha256": "63dd9de6af882c82ca609e21888df5630011c97baa51b0d0075d6c478ac46b22"
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
@@ -136,8 +136,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
-      "bytes": 2114,
-      "sha256": "d9e40735c2c7cdf965f99ca8e82f526a6bb0db648166f6a0b4f1458b5c253550"
+      "bytes": 2415,
+      "sha256": "b78cbe29301e0ac791fad1e914f69687d59ed54cdb29e43f6c4613bcae1111bc"
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",

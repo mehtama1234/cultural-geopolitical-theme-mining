@@ -420,7 +420,7 @@ def main() -> int:
     room_comparison = json.loads((ANALYSIS / "room-independent-comparison.json").read_text())
     assert room_comparison["schema"] == "external-trend-intelligence.room-independent-comparison.v1"
     assert room_comparison["status"] == "mechanism_comparison_only"
-    assert room_comparison["source_families"] == ["Australian Bureau of Statistics General Social Survey", "HILDA via Australian Institute of Health and Welfare", "ANZ / Roy Morgan"]
+    assert room_comparison["source_families"] == ["Australian Bureau of Statistics General Social Survey", "HILDA via Australian Institute of Health and Welfare", "ANU COVID-19 Monitoring Survey / ANUPoll", "ANZ / Roy Morgan"]
     acquisition = json.loads((ANALYSIS / "evidence-acquisition-plan.json").read_text())
     assert acquisition["schema"] == "external-trend-intelligence.evidence-acquisition-plan.v1"
     assert len(acquisition["tracks"]) == 3
@@ -433,8 +433,8 @@ def main() -> int:
     assert any(item["status"] == "open" for item in completion_audit["requirements"])
     room_result = json.loads((ANALYSIS / "room-independent-result.json").read_text())
     assert room_result["schema"] == "external-trend-intelligence.room-independent-result.v1"
-    assert room_result["status"] == "directional_cross_source_agreement_only"
-    assert len(room_result["rows"]) == 4
+    assert room_result["status"] == "directional_cross_source_agreement_with_2025_adult_endpoint"
+    assert len(room_result["rows"]) == 5
     care_subset = json.loads((ANALYSIS / "care-capacity-comparable-subset.json").read_text())
     assert care_subset["schema"] == "external-trend-intelligence.care-capacity-comparable-subset.v1"
     assert care_subset["candidate_id"] == care_candidate["candidate_id"]

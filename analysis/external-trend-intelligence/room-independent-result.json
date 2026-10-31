@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.room-independent-result.v1",
   "candidate_id": "candidate-time-financial-pressure-practical-room",
-  "status": "directional_cross_source_agreement_only",
+  "status": "directional_cross_source_agreement_with_2025_adult_endpoint",
   "rows": [
     {
       "source": "ABS GSS",
@@ -42,21 +42,31 @@
       "to_value": 27.1,
       "change": 0.5,
       "direction": "increase"
+    },
+    {
+      "source": "ANUPoll",
+      "measure": "difficult_meet_expenses",
+      "from_period": "January 2020",
+      "to_period": "April 2025",
+      "from_value": 27,
+      "to_value": 35,
+      "change": 8,
+      "direction": "increase"
     }
   ],
   "directional_summary": "ABS GSS and HILDA both show increases in household financial-pressure measures across their available periods.",
   "counter_signal": "ABS GSS also shows increased weekly outside-household contact; financial pressure and social reconnection should remain separate signals.",
   "does_not_support": [
-    "common-period effect estimate",
+    "common-population effect estimate",
     "pooled prevalence",
     "causality",
     "qualified trend",
     "company exposure"
   ],
   "blocking_items": [
-    "HILDA ends in 2023 while ABS reaches 2025",
+    "ANUPoll is adult-level while ABS and HILDA household measures differ",
     "measure definitions and source methods differ",
-    "no common independent 2025 endpoint"
+    "no common denominator across sources"
   ],
   "next_action": "Acquire or refresh an independent household-finance measure through 2025 and reconcile definitions before a formal backtest.",
   "boundary": "Directional agreement across independent sources is a stronger mechanism check, not proof of a single population trend."

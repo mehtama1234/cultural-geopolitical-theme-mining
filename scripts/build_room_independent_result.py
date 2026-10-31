@@ -12,13 +12,15 @@ OUTPUT = ANALYSIS / "room-independent-result.json"
 
 def main() -> int:
     comparison = json.loads((ANALYSIS / "room-independent-comparison.json").read_text())
-    abs_measures = comparison["records"][0]["measures"]
-    hilda = comparison["records"][1]["measures"]
+    abs_measures = next(item["measures"] for item in comparison["records"] if item["publisher"] == "Australian Bureau of Statistics")
+    hilda = next(item["measures"] for item in comparison["records"] if item["publisher"] == "Australian Institute of Health and Welfare / HILDA")
+    anupoll = next(item["measures"] for item in comparison["records"] if item["publisher"] == "ANU COVID-19 Monitoring Survey / ANUPoll")
     rows = [
         {"source": "ABS GSS", "measure": "cash_flow_problem", "from_period": "2020", "to_period": "2025", "from_value": abs_measures["cash_flow_problem_2020"]["value"], "to_value": abs_measures["cash_flow_problem_2025"]["value"]},
         {"source": "ABS GSS", "measure": "dissaving", "from_period": "2020", "to_period": "2025", "from_value": abs_measures["dissaving_2020"]["value"], "to_value": abs_measures["dissaving_2025"]["value"]},
         {"source": "HILDA via AIHW", "measure": "cash_flow_problem", "from_period": "2020", "to_period": "2023", "from_value": hilda["cash_flow_problem_2020"]["value"], "to_value": hilda["cash_flow_problem_2023"]["value"]},
         {"source": "HILDA via AIHW", "measure": "unable_to_raise_2000", "from_period": "2020", "to_period": "2023", "from_value": hilda["unable_to_raise_2000_2020"]["value"], "to_value": hilda["unable_to_raise_2000_2023"]["value"]},
+        {"source": "ANUPoll", "measure": "difficult_meet_expenses", "from_period": "January 2020", "to_period": "April 2025", "from_value": anupoll["difficult_meet_expenses_2020"]["value"], "to_value": anupoll["difficult_meet_expenses_2025"]["value"]},
     ]
     for row in rows:
         row["change"] = row["to_value"] - row["from_value"]
@@ -26,12 +28,12 @@ def main() -> int:
     report = {
         "schema": "external-trend-intelligence.room-independent-result.v1",
         "candidate_id": comparison["candidate_id"],
-        "status": "directional_cross_source_agreement_only",
+        "status": "directional_cross_source_agreement_with_2025_adult_endpoint",
         "rows": rows,
         "directional_summary": "ABS GSS and HILDA both show increases in household financial-pressure measures across their available periods.",
         "counter_signal": "ABS GSS also shows increased weekly outside-household contact; financial pressure and social reconnection should remain separate signals.",
-        "does_not_support": ["common-period effect estimate", "pooled prevalence", "causality", "qualified trend", "company exposure"],
-        "blocking_items": ["HILDA ends in 2023 while ABS reaches 2025", "measure definitions and source methods differ", "no common independent 2025 endpoint"],
+        "does_not_support": ["common-population effect estimate", "pooled prevalence", "causality", "qualified trend", "company exposure"],
+        "blocking_items": ["ANUPoll is adult-level while ABS and HILDA household measures differ", "measure definitions and source methods differ", "no common denominator across sources"],
         "next_action": "Acquire or refresh an independent household-finance measure through 2025 and reconcile definitions before a formal backtest.",
         "boundary": "Directional agreement across independent sources is a stronger mechanism check, not proof of a single population trend.",
     }

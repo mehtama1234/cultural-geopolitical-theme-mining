@@ -21,7 +21,7 @@ def main() -> int:
         "schema": "external-trend-intelligence.room-independent-comparison.v1",
         "candidate_id": "candidate-time-financial-pressure-practical-room",
         "status": "mechanism_comparison_only",
-        "source_families": ["Australian Bureau of Statistics General Social Survey", "HILDA via Australian Institute of Health and Welfare", "ANZ / Roy Morgan"],
+        "source_families": ["Australian Bureau of Statistics General Social Survey", "HILDA via Australian Institute of Health and Welfare", "ANU COVID-19 Monitoring Survey / ANUPoll", "ANZ / Roy Morgan"],
         "records": [
             {
                 "publisher": "Australian Bureau of Statistics",
@@ -55,6 +55,20 @@ def main() -> int:
                 "lineage_note": "AIHW presents custom HILDA analysis; HILDA is a separate longitudinal source from the ABS General Social Survey."
             },
             {
+                "publisher": "ANU COVID-19 Monitoring Survey / ANUPoll",
+                "record_id": "anupoll-financial-stress-2020-2025",
+                "geography": "Australia; adults surveyed by ANUPoll",
+                "measures": {
+                    "difficult_meet_expenses_2020": {"value": 27, "unit": "percent of Australian adults finding it difficult or very difficult to meet household expenses", "period": "January 2020"},
+                    "difficult_meet_expenses_2025": {"value": 35, "unit": "percent of Australian adults finding it difficult or very difficult to meet household expenses", "period": "April 2025"}
+                },
+                "source_urls": [
+                    "https://www.aihw.gov.au/reports/australias-welfare/income-and-income-inequality",
+                    "https://dataverse.ada.edu.au/dataverse/anupoll"
+                ],
+                "lineage_note": "AIHW summarizes ANUPoll; ANUPoll is an adult-level survey series distinct from ABS GSS and HILDA household measures."
+            },
+            {
                 "publisher": "ANZ / Roy Morgan",
                 "record_id": anz_record["trend_id"],
                 "geography": anz_record["geography"],
@@ -71,6 +85,7 @@ def main() -> int:
         "blocking_items": [
             "ABS measures are 2020-to-2025 repeated cross-sections while ANZ/Roy Morgan is a weekly 2026 release",
             "HILDA is 2020-to-2023 and does not extend to the ABS 2025 holdout",
+            "ANUPoll is adult-level and its expense question is not identical to ABS household cash-flow measures",
             "household financial-stress, adult social-contact, and confidence-index denominators differ",
             "no common holdout period or outcome definition",
             "publisher methods and sampling frames differ",
