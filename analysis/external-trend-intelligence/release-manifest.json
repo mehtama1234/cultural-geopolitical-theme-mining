@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "5b842ac7763aac77ac44afa1179516e3cda79b4d",
+  "source_tree_commit": "bbfd33388a076c1083f124fafd82bb2af98d7166",
   "artifact_count": 63,
   "artifacts": [
     {
@@ -131,8 +131,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 3759,
-      "sha256": "0c7d7fc14379cd2e8b5029cb1e472a6aac2153242a3215f274c4cb71a3094713"
+      "bytes": 3841,
+      "sha256": "cafb9955b6f327b2ce79a4103cea86aafd2ec4e9cf8b7b3805f9b1886e9c83b1"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
@@ -146,8 +146,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
-      "bytes": 5503,
-      "sha256": "38c24c886346e12c36887f328bcf3a2fc552179282603e8f78775d60ea1e922f"
+      "bytes": 5792,
+      "sha256": "7e9798e8b37be00bc96d062e17142d7895c1713ede74deb843aa5c8a0750ca6f"
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",

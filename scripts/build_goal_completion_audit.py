@@ -31,7 +31,7 @@ def main() -> int:
             {"id": "backtest_and_falsification", "status": "partial", "evidence": ["backtest-readiness.json", "backtest-comparability-review.json", "temporal-holdout-design.json", "temporal-holdout-result.json", "shed-temporal-holdout.json", "usda-temporal-holdout.json"], "gap": "The temporal readouts now cover both SHED and USDA but remain single-family and descriptive; the SHED/USDA comparison is not a compatible common-unit backtest."},
             {"id": "decision_ready_frontend", "status": "partial", "evidence": ["board.html", "FRONTEND-INTEGRATION.md", "temporal-decision-narrative.json"], "gap": "Reader surface is operational, but it does not yet expose a qualified trend or validated company outcome."},
             {"id": "analyst_operating_model", "status": "partial", "evidence": ["ANALYST-OPERATING-MODEL.md", "REFRESH-RUNBOOK.md", "evidence-acquisition-plan.json"], "gap": "Ownership and succession need to be exercised through sustained operating cycles."},
-            {"id": "validated_company_pilots", "status": "open", "evidence": ["pilot-register.json", "PILOT-VALIDATION-PROTOCOL.md"], "gap": "No pilot is approved because no external trend has cleared qualification."},
+            {"id": "validated_company_pilots", "status": "open", "evidence": ["pilot-register.json", "PILOT-VALIDATION-PROTOCOL.md", "test_internal_bridge_gate.py"], "gap": "No pilot is approved because no external trend has cleared qualification; the fail-closed bridge gate is exercised."},
         ],
         "release_status": health["release_status"],
         "boundary": "This audit is a conservative program status report. It does not redefine the goal as complete because the control plane and frontend are operational.",

@@ -27,6 +27,15 @@ python3 scripts/test_rights_release_gate.py
 This confirms that every registered family has a matching rights record and
 that unresolved rights or publisher dependence keeps release health on hold.
 
+Verify the internal bridge remains blocked until an external trend qualifies:
+
+```text
+python3 scripts/test_internal_bridge_gate.py
+```
+
+This confirms that pilots remain design-only, company identifiers are empty,
+and release health reports zero approved tests while candidates are held.
+
 Exercise the stale gate and its recovery path without mutating the release
 tree:
 
