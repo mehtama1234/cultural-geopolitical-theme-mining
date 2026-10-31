@@ -145,3 +145,15 @@ Public sources support procurement risk, red-flag limits, transparency,
 beneficial ownership, review mechanisms and citizen-value concerns. They do not
 by themselves establish a named public good’s quality, a resident’s receipt,
 fair competition, protection from retaliation or durable trust.
+
+## Sources
+
+The packet’s claims are anchored to these official source families. They support
+the integrity, procurement and implementation-gap mechanisms; they do not close
+the named delivery, resident receipt or trust outcomes identified above.
+
+- OECD, [Anti-Corruption and Integrity Outlook 2026](https://www.oecd.org/en/publications/anti-corruption-and-integrity-outlook-2026_16708b78-en/full-report.html)
+- OECD, [integrity in public procurement](https://www.oecd.org/en/publications/anti-corruption-and-integrity-outlook-2026_16708b78-en/full-report/component-14.html)
+- OECD, [strategic public procurement](https://www.oecd.org/en/topics/strategic-public-procurement.html)
+- UNODC, [United Nations Convention against Corruption](https://www.unodc.org/unodc/en/corruption/uncac.html)
+- World Bank, [procurement framework](https://www.worldbank.org/en/projects-operations/products-and-services/brief/procurement-new-framework)
