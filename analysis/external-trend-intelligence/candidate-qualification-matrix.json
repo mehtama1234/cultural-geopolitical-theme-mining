@@ -1,0 +1,130 @@
+{
+  "schema": "external-trend-intelligence.candidate-qualification-matrix.v1",
+  "rubric": "trend-qualification-rubric.json",
+  "candidate_count": 4,
+  "qualified_external_trend_count": 0,
+  "held_count": 4,
+  "rows": [
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "title": "Formal response arrives before usable recovery",
+      "source_status": "qualified_candidate",
+      "gate_status": "held",
+      "gates": {
+        "source_identity": true,
+        "comparability": false,
+        "independence": false,
+        "persistence": false,
+        "counter_signal": true,
+        "falsifier": false,
+        "backtest": false,
+        "decision_relevance": false
+      },
+      "passed_gate_count": 2,
+      "gate_count": 8,
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "evidence_record_count": 7,
+      "source_host_count": 6,
+      "next_action": "Code formal response, implementation, receipt, durable access, and exit stages across independent labor, consumer, health, and public-service records.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "title": "Time and financial pressure reduce practical room before demand disappears",
+      "source_status": "qualified_candidate",
+      "gate_status": "held",
+      "gates": {
+        "source_identity": true,
+        "comparability": false,
+        "independence": false,
+        "persistence": false,
+        "counter_signal": true,
+        "falsifier": false,
+        "backtest": false,
+        "decision_relevance": false
+      },
+      "passed_gate_count": 2,
+      "gate_count": 8,
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "evidence_record_count": 7,
+      "source_host_count": 8,
+      "next_action": "Preserve compatible time, cost, participation, and wellbeing units before interpreting practical-room change.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "title": "Digital capability expands while control and trust remain contested",
+      "source_status": "qualified_candidate",
+      "gate_status": "held",
+      "gates": {
+        "source_identity": true,
+        "comparability": false,
+        "independence": false,
+        "persistence": false,
+        "counter_signal": true,
+        "falsifier": false,
+        "backtest": false,
+        "decision_relevance": false
+      },
+      "passed_gate_count": 2,
+      "gate_count": 8,
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "evidence_record_count": 7,
+      "source_host_count": 13,
+      "next_action": "Separate efficiency, delegation, trust, control, recourse, retention, and exit measures.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "title": "Infrastructure dependency becomes cultural and geopolitical power",
+      "source_status": "qualified_candidate",
+      "gate_status": "held",
+      "gates": {
+        "source_identity": true,
+        "comparability": false,
+        "independence": false,
+        "persistence": false,
+        "counter_signal": true,
+        "falsifier": false,
+        "backtest": false,
+        "decision_relevance": false
+      },
+      "passed_gate_count": 2,
+      "gate_count": 8,
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "evidence_record_count": 7,
+      "source_host_count": 14,
+      "next_action": "Link capacity or ownership claims to operation, actual receipt, local burden, maintenance, and acceptance.",
+      "internal_bridge_ready": false
+    }
+  ],
+  "boundary": "This matrix is conservative: absent evidence is a failed gate, not an inferred pass. A qualified candidate is not automatically a qualified trend or an internal company finding."
+}

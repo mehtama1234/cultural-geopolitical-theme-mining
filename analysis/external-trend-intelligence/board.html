@@ -60,6 +60,7 @@
       <div class="stat"><strong id="host-count">—</strong><span>source hosts</span></div>
       <div class="stat"><strong id="theme-count">—</strong><span>program themes</span></div>
       <div class="stat"><strong id="candidate-count">—</strong><span>qualified candidates</span></div>
+      <div class="stat"><strong id="qualified-trend-count">—</strong><span>qualified external trends</span></div>
       <div class="stat"><strong id="source-count">—</strong><span>registered external sources</span></div>
       <div class="stat"><strong id="intake-count">—</strong><span>held intake comparisons</span></div>
       <div class="stat"><strong id="family-observation-count">—</strong><span>new family observations</span></div>
@@ -78,6 +79,11 @@
       <h2>Cross-source candidates</h2>
       <p class="muted">These are qualified candidates, not forecasts and not internal company findings.</p>
       <div class="candidates" id="candidates"></div>
+    </section>
+    <section style="margin-top:28px">
+      <h2>Qualification gate matrix</h2>
+      <p class="muted">A candidate is held when a required gate lacks evidence. Missing evidence is not treated as a pass.</p>
+      <div class="promotion-gates" id="qualification-matrix"></div>
     </section>
     <section style="margin-top:28px">
       <h2>Normalized external-family observations</h2>
@@ -198,6 +204,15 @@
       const bridge = document.createElement('code'); bridge.textContent = `internal bridge ready: ${candidate.internal_bridge_ready}`;
       article.append(pill, title, gates, next, bridge); return article;
     }
+    function qualificationCard(row) {
+      const article = document.createElement('article');
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = `${row.gate_status.replaceAll('_', ' ')} · ${row.passed_gate_count}/${row.gate_count} gates`;
+      const title = document.createElement('h3'); title.textContent = row.title;
+      const gates = document.createElement('p'); gates.innerHTML = `<strong>Blocking:</strong> ${row.blocking_gates.join('; ') || 'none'}`;
+      const next = document.createElement('p'); next.innerHTML = `<strong>Next action:</strong> ${row.next_action}`;
+      const evidence = document.createElement('code'); evidence.textContent = `${row.evidence_record_count} evidence records · ${row.source_host_count || '—'} hosts · internal bridge ready: ${row.internal_bridge_ready}`;
+      article.append(pill, title, gates, next, evidence); return article;
+    }
     function sourceFamilyCard(family, schedule) {
       const article = document.createElement('article');
       const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = family.status.replaceAll('_', ' ');
@@ -250,6 +265,7 @@
     Promise.all([
       fetch('observation-manifest.json').then(r => r.json()),
       fetch('candidate-comparisons.json').then(r => r.json()),
+      fetch('candidate-qualification-matrix.json').then(r => r.json()),
       fetch('source-registry-snapshot.json').then(r => r.json()),
       fetch('external-family-comparisons.json').then(r => r.json()),
       fetch('external-family-observations.json').then(r => r.json()),
@@ -263,11 +279,12 @@
       fetch('external-family-lineage-review.json').then(r => r.json()),
       fetch('external-evidence-gap-queue.json').then(r => r.json()),
       fetch('ibis-finding-claim-sample.json').then(r => r.json()),
-    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
+    ]).then(([manifest, comparison, qualificationMatrix, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
       el('candidate-count').textContent = comparison.candidates.length;
+      el('qualified-trend-count').textContent = qualificationMatrix.qualified_external_trend_count;
       el('source-count').textContent = sourceRegistry.source_count.toLocaleString();
       el('intake-count').textContent = familyComparisons.comparisons.length;
       el('family-observation-count').textContent = familyObservations.observation_count;
@@ -283,6 +300,7 @@
       sourceRegistry.sources.forEach(source => source.source_types.forEach(type => { sourceTypes[type] = (sourceTypes[type] || 0) + 1; }));
       barChart(el('source-type-chart'), Object.entries(sourceTypes).sort((a,b) => b[1]-a[1]).slice(0, 16), sourceRegistry.source_count);
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
+      const qualificationCards = el('qualification-matrix'); qualificationMatrix.rows.forEach(row => qualificationCards.append(qualificationCard(row)));
       const familyCards = el('family-comparisons'); familyComparisons.comparisons.forEach(item => familyCards.append(familyComparisonCard(item)));
       const observationCards = el('family-observations'); familyObservations.observations.forEach(item => observationCards.append(familyObservationCard(item)));
       const heldCards = el('held-candidates'); heldCandidates.candidates.forEach(item => heldCards.append(heldCandidateCard(item)));
