@@ -39,7 +39,7 @@ def record(
     boundary: str,
     **extra,
 ) -> dict:
-    return {
+    observation = {
         "observation_id": observation_id,
         "family_id": family_id,
         "source_path": source_path,
@@ -52,8 +52,14 @@ def record(
         "source_url_status": "not_present_in_artifact",
         "evidence_status": evidence_status,
         "boundary": boundary,
+        "rights_status": "not_yet_verified",
+        "uncertainty": "qualitative_boundary_only",
+        "publisher_dependence": "review_required",
+        "lineage_status": "source_artifact_pinned",
+        "counter_signal_status": "recorded" if extra.get("counter_signal_present") else "not_recorded",
         **extra,
     }
+    return observation
 
 
 def main() -> int:

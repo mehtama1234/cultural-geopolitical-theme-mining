@@ -1,0 +1,114 @@
+{
+  "schema": "external-trend-intelligence.evidence-contract-audit.v1",
+  "input": "external-family-observations.json",
+  "required_fields": [
+    "boundary",
+    "counter_signal_status",
+    "geography",
+    "lineage_status",
+    "observation_period",
+    "publisher_dependence",
+    "rights_status",
+    "source_path",
+    "source_revision",
+    "title",
+    "uncertainty",
+    "unit"
+  ],
+  "observation_count": 10,
+  "contract_complete_count": 10,
+  "contract_gap_count": 0,
+  "observations": [
+    {
+      "observation_id": "inc5000-health-longevity-demand-source-linked-share",
+      "family_id": "inc5000-analysis",
+      "status": "contract_complete",
+      "missing_fields": [],
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "lineage_status": "source_artifact_pinned"
+    },
+    {
+      "observation_id": "inc5000-creator-brand-commerce-source-linked-share",
+      "family_id": "inc5000-analysis",
+      "status": "contract_complete",
+      "missing_fields": [],
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "lineage_status": "source_artifact_pinned"
+    },
+    {
+      "observation_id": "inc5000-opportunity-intelligence-screen",
+      "family_id": "inc5000-analysis",
+      "status": "contract_complete",
+      "missing_fields": [],
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "lineage_status": "source_artifact_pinned"
+    },
+    {
+      "observation_id": "ibis-industry-record-corpus",
+      "family_id": "ibis-industries",
+      "status": "contract_complete",
+      "missing_fields": [],
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "lineage_status": "source_artifact_pinned"
+    },
+    {
+      "observation_id": "ibis-cross-industry-discovery-findings",
+      "family_id": "ibis-industries",
+      "status": "contract_complete",
+      "missing_fields": [],
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "lineage_status": "source_artifact_pinned"
+    },
+    {
+      "observation_id": "ibis-cross-industry-business-forces",
+      "family_id": "ibis-industries",
+      "status": "contract_complete",
+      "missing_fields": [],
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "lineage_status": "source_artifact_pinned"
+    },
+    {
+      "observation_id": "social-integrated-trend-atlas",
+      "family_id": "social-research",
+      "status": "contract_complete",
+      "missing_fields": [],
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "lineage_status": "source_artifact_pinned"
+    },
+    {
+      "observation_id": "trend-hunting-ai-deep-synthesis",
+      "family_id": "trend-hunting",
+      "status": "contract_complete",
+      "missing_fields": [],
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "lineage_status": "source_artifact_pinned"
+    },
+    {
+      "observation_id": "inc5000-rebuild-public-input-inventory",
+      "family_id": "inc5000-analysis",
+      "status": "contract_complete",
+      "missing_fields": [],
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "lineage_status": "source_artifact_pinned"
+    },
+    {
+      "observation_id": "annual-report-integrated-theme-map",
+      "family_id": "annual-report-research",
+      "status": "contract_complete",
+      "missing_fields": [],
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "lineage_status": "source_artifact_pinned"
+    }
+  ],
+  "boundary": "Field presence is a preservation check. 'not_yet_verified' and 'review_required' remain unresolved evidence states and do not establish rights or independence."
+}

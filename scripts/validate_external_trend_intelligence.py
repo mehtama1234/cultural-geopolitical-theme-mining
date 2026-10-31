@@ -297,7 +297,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 27
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 28
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -312,6 +312,10 @@ def main() -> int:
     assert rubric["schema"] == "external-trend-intelligence.trend-qualification-rubric.v1"
     assert len(rubric["rules"]) == 8
     assert "qualified" in rubric["states"] and "reversed" in rubric["states"]
+    contract_audit = json.loads((ANALYSIS / "evidence-contract-audit.json").read_text())
+    assert contract_audit["schema"] == "external-trend-intelligence.evidence-contract-audit.v1"
+    assert contract_audit["observation_count"] == 10
+    assert contract_audit["contract_gap_count"] == 0
     care_subset = json.loads((ANALYSIS / "care-capacity-comparable-subset.json").read_text())
     assert care_subset["schema"] == "external-trend-intelligence.care-capacity-comparable-subset.v1"
     assert care_subset["candidate_id"] == care_candidate["candidate_id"]

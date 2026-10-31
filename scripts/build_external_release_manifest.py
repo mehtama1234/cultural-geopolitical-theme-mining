@@ -28,6 +28,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/source-registry-snapshot.json",
     "analysis/external-trend-intelligence/repository-family-snapshot.json",
     "analysis/external-trend-intelligence/external-family-observations.json",
+    "analysis/external-trend-intelligence/evidence-contract-audit.json",
     "analysis/external-trend-intelligence/external-family-lineage-review.json",
     "analysis/external-trend-intelligence/external-evidence-gap-queue.json",
     "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",

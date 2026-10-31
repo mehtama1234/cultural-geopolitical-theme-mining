@@ -67,6 +67,7 @@
       <div class="stat"><strong id="high-gap-count">—</strong><span>high-priority evidence gaps</span></div>
       <div class="stat"><strong id="refresh-ready-count">—</strong><span>families ready for review</span></div>
       <div class="stat"><strong id="refresh-incomplete-count">—</strong><span>incomplete refreshes</span></div>
+      <div class="stat"><strong id="contract-gap-count">—</strong><span>evidence contract gaps</span></div>
     </section>
     <section class="charts" aria-label="External evidence coverage">
       <div class="panel"><h2>Theme coverage</h2><div id="theme-chart"></div></div>
@@ -252,6 +253,7 @@
       fetch('source-registry-snapshot.json').then(r => r.json()),
       fetch('external-family-comparisons.json').then(r => r.json()),
       fetch('external-family-observations.json').then(r => r.json()),
+      fetch('evidence-contract-audit.json').then(r => r.json()),
       fetch('held-candidates.json').then(r => r.json()),
       fetch('care-capacity-comparable-subset.json').then(r => r.json()),
       fetch('release-manifest.json').then(r => r.json()),
@@ -261,7 +263,7 @@
       fetch('external-family-lineage-review.json').then(r => r.json()),
       fetch('external-evidence-gap-queue.json').then(r => r.json()),
       fetch('ibis-finding-claim-sample.json').then(r => r.json()),
-    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, heldCandidates, careSubset, release, promotionQueue, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
+    ]).then(([manifest, comparison, sourceRegistry, familyComparisons, familyObservations, contractAudit, heldCandidates, careSubset, release, promotionQueue, refreshSchedule, refreshStatus, lineageReview, gapQueue, ibisSample]) => {
       el('record-count').textContent = manifest.record_count.toLocaleString();
       el('host-count').textContent = Object.keys(manifest.source_host_counts).length.toLocaleString();
       el('theme-count').textContent = Object.keys(manifest.program_theme_counts).length;
@@ -273,6 +275,7 @@
       el('high-gap-count').textContent = gapQueue.high_priority_count;
       el('refresh-ready-count').textContent = refreshStatus.ready_for_review_count;
       el('refresh-incomplete-count').textContent = refreshStatus.incomplete_count;
+      el('contract-gap-count').textContent = contractAudit.contract_gap_count;
       el('release-commit').textContent = `source ${release.source_tree_commit.slice(0, 12)}`;
       barChart(el('theme-chart'), Object.entries(manifest.program_theme_counts).sort((a,b) => b[1]-a[1]), manifest.record_count);
       barChart(el('host-chart'), Object.entries(manifest.source_host_counts).slice(0, 16), manifest.record_count);

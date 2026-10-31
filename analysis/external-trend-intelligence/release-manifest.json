@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "69ac072939315d6ba85052da844a93c5a28388ac",
-  "artifact_count": 27,
+  "source_tree_commit": "5f7c418fcc33d894c698cca1cc99338487a0aed7",
+  "artifact_count": 28,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -71,8 +71,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-observations.json",
-      "bytes": 73580,
-      "sha256": "0f693f623d25c96422d70d37b4aac42ae5a30a453dbcaa34cafb360f895d6171"
+      "bytes": 75962,
+      "sha256": "9bc63026ba0a911e61a917ffc9644584fbc596ba1ff3cb2c3613744c898f42d0"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/evidence-contract-audit.json",
+      "bytes": 3912,
+      "sha256": "06449f159c92ed696ddd536aca7b33fa1915bbdd1a46698ee26eaa41d74a4dd3"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-lineage-review.json",
@@ -126,8 +131,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 24893,
-      "sha256": "6cf12109304b4c9dff0dfddc8935878b64fe8a5bbd8ab3249589245e033896b1"
+      "bytes": 25162,
+      "sha256": "1492cf3e87fbbf6e0e834e272aa9b3dac0cba2474c8cd6045f74d83f23e4e601"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
