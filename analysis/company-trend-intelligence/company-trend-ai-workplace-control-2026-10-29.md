@@ -103,6 +103,13 @@ partially open and require named-employer or worker-linked evidence.
 These are business implications and exposure hypotheses, not claims that every
 company will experience the same effect.
 
+## Cross-domain interpretation
+
+- **Cultural:** AI changes the meaning of competence, authority, and a fair day’s work before shared gains are visible.
+- **Financial:** Productivity, pay, training, and error costs may be redistributed before the business effect is measured.
+- **Institutional:** Labour, safety, quality, privacy, and governance rules determine who can challenge or stop the system.
+- **Geopolitical:** Compute, models, data, and standards can create new technology dependencies and strategic exposure.
+
 ## Time horizon
 
 - **Now (0–12 months):** Audit task changes, worker notice, training, human

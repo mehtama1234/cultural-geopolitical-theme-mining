@@ -95,6 +95,13 @@ business outcomes remain open.
 | Reputation | Community authority and respectful representation can strengthen legitimacy; extractive use can damage it | medium | Who is recognized as the authority when dialects or naming conventions differ? |
 | Geopolitical | Language infrastructure affects cultural sovereignty, digital dependence, and public-service legitimacy | low | Does local capability reduce dependence on external platforms? |
 
+## Cross-domain interpretation
+
+- **Cultural:** Representation can increase visibility without community authority, transmission, or vitality.
+- **Financial:** Language quality and access can affect market entry, completion, support cost, and exclusion.
+- **Institutional:** Rights, consent, public-service standards, correction, and data governance shape legitimate use.
+- **Geopolitical:** Language capability can affect cultural sovereignty, local legitimacy, and dependence on external platforms.
+
 ## Time horizon
 
 - **Now (0–12 months):** Establish rights, community authority, language quality, accessibility, and correction baselines.

@@ -87,6 +87,13 @@ causal attribution and durable institutional change remain open.
 | Reputation | Cultural meaning can shift quickly when identity, dignity, or fairness is implicated | medium | Which communities and trusted intermediaries shape interpretation? |
 | Geopolitical | National or local legitimacy affects permission for infrastructure, technology, and security action | low | When does domestic meaning alter external room to maneuver? |
 
+## Cross-domain interpretation
+
+- **Cultural:** Material pressure becomes meaning through identity, attribution, belonging, and perceived control.
+- **Financial:** Unequal costs and constrained alternatives shape whether an intervention is experienced as fair or extractive.
+- **Institutional:** Voice, remedy, procurement, enforcement, and public capacity determine whether legitimacy can recover.
+- **Geopolitical:** State action, external dependence, and security narratives can amplify or redirect local attribution.
+
 ## Time horizon
 
 - **Now (0–12 months):** Track attribution, identity, trust, practical room, and perceived control around a dated encounter.

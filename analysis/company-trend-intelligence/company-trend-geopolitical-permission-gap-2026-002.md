@@ -87,6 +87,13 @@ burden, permission, and leverage remain partly open.
 | Reputation | Public legitimacy may depend on who bears risk and who is consulted | medium | Does visible burden-sharing sustain trust during escalation? |
 | Geopolitical | Capability may strengthen leverage only if cooperation and permission persist | low | What behavior changes after the response, and for how long? |
 
+## Cross-domain interpretation
+
+- **Cultural:** Public and host interpretation can decide whether capability is seen as protection, intrusion, or abandonment.
+- **Financial:** Recovery, insurance, continuity, and burden-sharing costs can outlast the formal response.
+- **Institutional:** Permits, alliances, authorities, and accountability determine whether action is durable.
+- **Geopolitical:** Capability may increase options without producing permission, cohesion, or leverage.
+
 ## Time horizon
 
 - **Now (0–12 months):** Map capability, formal response, host permission, partner cohesion, and immediate burden.

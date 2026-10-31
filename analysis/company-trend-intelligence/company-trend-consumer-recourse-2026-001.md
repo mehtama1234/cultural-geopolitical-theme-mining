@@ -82,6 +82,13 @@ later choice remain the critical missing middle and endpoint.
 | Reputation | Visibility without repair can be interpreted as disbelief or entrapment | medium | Does public explanation restore trust when money or access remains unresolved? |
 | Geopolitical | Cross-border payment and digital-service dependence can amplify recourse risk | low | How do jurisdiction and provider concentration affect exit? |
 
+## Cross-domain interpretation
+
+- **Cultural:** A visible response without repair can be read as disbelief, disrespect, or entrapment.
+- **Financial:** Waiting, repeat contact, unrecovered loss, and switching costs can remain with the customer.
+- **Institutional:** Complaint, appeal, accessibility, and redress systems define whether formal protection becomes usable remedy.
+- **Geopolitical:** Cross-border providers, payment rails, and jurisdiction can narrow practical exit.
+
 ## Time horizon
 
 - **Now (0–12 months):** Measure repeat effort, accessibility, response-to-remedy gaps, and time to restored access.

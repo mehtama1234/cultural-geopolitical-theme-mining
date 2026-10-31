@@ -67,6 +67,13 @@ condition or shock -> constraint or opportunity -> behavior or response
 
 Keep plausible scenarios separate from measured business effects.
 
+## Cross-domain interpretation
+
+- **Cultural:** [How identity, meaning, trust, norms, or belonging may change]
+- **Financial:** [How affordability, margin, capital, insurance, or residual loss may change]
+- **Institutional:** [How regulation, procurement, standards, enforcement, or public capacity may change]
+- **Geopolitical:** [How trade, sanctions, alliances, dependence, state leverage, or market access may change]
+
 ## Time horizon
 
 - **Now (0–12 months):**

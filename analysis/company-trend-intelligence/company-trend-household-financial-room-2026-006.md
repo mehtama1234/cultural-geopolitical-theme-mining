@@ -85,6 +85,13 @@ search to usable result, purchase, recovery, or exit is still open.
 | Reputation | A mismatch between firm messaging and lived affordability can damage trust | medium | Does transparent pricing and remedy change attribution? |
 | Geopolitical | Energy, rates, trade, or conflict shocks may pass through to household expectations and category demand | low | Which external shocks persist long enough to change behavior? |
 
+## Cross-domain interpretation
+
+- **Cultural:** Search and substitution express agency, identity, and constraint rather than simple preference.
+- **Financial:** Prices, debt, payment timing, and recovery capacity can change before aggregate demand visibly falls.
+- **Institutional:** Benefits, credit rules, public programmes, and provider practices shape the room households can navigate.
+- **Geopolitical:** Trade, energy, food, and technology shocks can pass through prices and reduce available alternatives.
+
 ## Time horizon
 
 - **Now (0–12 months):** Monitor search, substitution, payment stress, support load, and affordability differences.

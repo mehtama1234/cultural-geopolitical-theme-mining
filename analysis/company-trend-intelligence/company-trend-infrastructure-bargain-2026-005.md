@@ -89,6 +89,13 @@ durability, and alternatives are the main measurement gap.
 | Reputation | Visible local burden can undermine a project that looks successful in aggregate | medium | Does compensation or benefit sharing improve acceptance? |
 | Geopolitical | Cross-border energy, digital, and defense infrastructure can reduce or deepen dependence | medium | Does operation change another actor’s behavior or only provide capability? |
 
+## Cross-domain interpretation
+
+- **Cultural:** Projects are judged through place, fairness, identity, voice, and whether promised benefit is felt locally.
+- **Financial:** Capacity can shift cost, tariff, insurance, capital, and maintenance burden before reliable service arrives.
+- **Institutional:** Permits, procurement, standards, public capacity, and remedy determine who receives the benefit.
+- **Geopolitical:** Energy, data, materials, and infrastructure dependencies can alter resilience and state leverage.
+
 ## Time horizon
 
 - **Now (0–12 months):** Separate announced capacity from readiness, reliability, cost allocation, and user receipt.
