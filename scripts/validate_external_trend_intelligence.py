@@ -310,7 +310,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 65
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 66
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     assert any(item["path"] == ".github/workflows/external-observatory-refresh.yml" for item in release_manifest["artifacts"])
@@ -418,10 +418,15 @@ def main() -> int:
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
     assert progress["baseline"]["records"] == 2134
     assert progress["baseline"]["qualified_external_trends"] == 0
-    assert progress["baseline"]["release_artifacts"] == 65
+    assert progress["baseline"]["release_artifacts"] == 66
     assert progress["baseline"]["rights_reviews_required"] == 8
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
+    handoff = json.loads((ANALYSIS / "operating-handoff.json").read_text())
+    assert handoff["schema"] == "external-trend-intelligence.operating-handoff.v1"
+    assert len(handoff["roles"]) == 6
+    assert handoff["exercised_controls"]["full_refresh"] is True
+    assert handoff["exercised_controls"]["independent_successor_run"] is False
     scorecard = json.loads((ANALYSIS / "program-scorecard.json").read_text())
     assert scorecard["schema"] == "external-trend-intelligence.program-scorecard.v1"
     assert scorecard["metrics"]["records"] == 2134

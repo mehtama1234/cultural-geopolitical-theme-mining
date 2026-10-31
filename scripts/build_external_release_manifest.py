@@ -20,6 +20,7 @@ ARTIFACTS = [
     "EXTERNAL_SOURCE_REGISTRY.md",
     "analysis/external-trend-intelligence/README.md",
     "analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md",
+    "analysis/external-trend-intelligence/operating-handoff.json",
     "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
     "analysis/external-trend-intelligence/PILOT-VALIDATION-PROTOCOL.md",
     "analysis/external-trend-intelligence/independent-stage-comparison.json",

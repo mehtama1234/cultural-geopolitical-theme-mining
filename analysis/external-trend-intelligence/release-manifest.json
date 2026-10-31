@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "e9a828e5909aef7cceb3e93a392fae4b7cf3419d",
-  "artifact_count": 65,
+  "source_tree_commit": "3c648b895c9c516513084c2a56e83e6a75a376d3",
+  "artifact_count": 66,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -33,6 +33,11 @@
       "path": "analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md",
       "bytes": 4227,
       "sha256": "39c937c2e3b1af5b03423c056dd2e24684b83a115e4ac9e4a5f2f7ba42db0585"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/operating-handoff.json",
+      "bytes": 1468,
+      "sha256": "5e2fab932d157a54939c5b0a5bcb577cebef321f93c1bbf16c484e32a7ff8bf3"
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
@@ -112,7 +117,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2238,
-      "sha256": "dbf23e34123c9e17c63f65ea186e85c6a6fc10a2e71f2274eb3feddeab00fe2b"
+      "sha256": "07354db7a42afa805479e524b5ffbca4a72f5d1733de47cc8176b45f54fc4209"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -141,8 +146,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 3981,
-      "sha256": "0da98352d7586e91682eb567651600e00a67c72c4e75b26199ceeeb4626f2486"
+      "bytes": 4063,
+      "sha256": "b191e8d0cd7f4c2257cdf7d78e41747029cb786534233c1f49598806b2ab92d8"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
