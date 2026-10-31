@@ -22,6 +22,12 @@ def main() -> int:
     assert progress["baseline"]["themes"] == len(manifest["program_theme_counts"]) == scorecard["metrics"]["themes"]
     assert progress["baseline"]["source_families"] == scorecard["metrics"]["source_families"] == 8
     assert progress["baseline"]["release_artifacts"] == release["artifact_count"]
+    release_paths = {item["path"] for item in release["artifacts"]}
+    assert {
+        ".github/workflows/external-observatory-refresh.yml",
+        "analysis/external-trend-intelligence/program-scorecard.json",
+        "analysis/external-trend-intelligence/operating-handoff.json",
+    }.issubset(release_paths)
     print("program baseline consistency: passed")
     return 0
 
