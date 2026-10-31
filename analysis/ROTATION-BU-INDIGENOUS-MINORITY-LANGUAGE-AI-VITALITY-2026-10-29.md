@@ -63,6 +63,8 @@ language exclusion, low-resource data and intergenerational decline
 | Vambo AI developer API preview | Vambo’s developer page presents translation, transcription, language detection, generation and text-to-speech endpoints for 60+ African languages, but labels the API a developer preview and asks users to join a waitlist. | product-surface definition and intended application route | public availability, uptime, actual language-by-language quality, customer adoption, pricing, data handling, safety controls and deployed applications |
 | Vambo named case studies | Vambo’s case-studies page names Valingo in education, Hazina Africa in fintech and NoDozz in health; it describes local-language learning content, multilingual banking interfaces and voice-based health information, and reports improved comprehension/engagement, expanded financial access and health-information delivery. | named organizational use cases across education, finance and health | customer contracts, user counts, language/dialect coverage, repeated use, outcome measurement, safety, retention, independent corroboration and whether the results are attributable to Vambo |
 | Vambo self-reported commercial scale | Vambo’s investor page reports 10M+ API calls per month, 15+ enterprise partners, an 80+ linguist network, 60+ supported languages, 99.9% uptime and on-device inference; these are company-reported metrics rather than independently audited operating data. | commercial and operational scale claims with named capacity indicators | metric definitions, time series, partner identities, call quality, geographic/language distribution, retention, revenue, SLA evidence and public-benefit outcomes |
+| Jacaranda Health UlizaMama deployment | Jacaranda Health’s 2024 impact report says it launched an early Swahili-speaking LLM prototype, finetuned it for pregnancy and motherhood questions, receives 12,000+ PROMPTS questions daily, and reports that the model answers 70% of low-priority questions with human oversight while clinical agents prioritize high-risk cases. | named health-service deployment with operational volume, triage role and human escalation | independent accuracy audit, language/dialect breakdown, clinical safety, false reassurance or escalation, maternal outcomes, repeat use, equity and attribution of engagement or care-seeking changes |
+| Jacaranda Health multilingual model rollout | The same report says models were rolled out during 2024 in Swahili, Yoruba, Hausa, Zulu and isiXhosa, with open-source language-model variants and an intended scale-up path for services such as Hausa support for Nigerian mothers. | five-language model rollout and reusable artifact pathway | downloads and downstream reuse, language-specific quality, consent/licensing, production deployment outside PROMPTS, clinical validation, user outcomes and sustainability |
 
 ## Stage audit
 
@@ -254,6 +256,16 @@ evidence. The investor metrics should be treated similarly: API volume and
 partner counts are useful leads, but without definitions and time series they
 cannot establish durable adoption or equitable coverage.
 
+Jacaranda supplies a stronger service-side comparison than the vendor case
+studies because its impact report names a live maternal-health workflow, daily
+question volume, a triage function and human escalation. It still does not make
+the 70% figure a clinical-outcome result: the report does not provide a
+language-by-language confusion matrix, independent safety review, false-negative
+rate, maternal morbidity outcome or counterfactual. Its five-language rollout
+also closes model availability and intended reuse more than it closes safe,
+equitable service delivery. This is an operational deployment with a measurable
+workflow, not yet a fully validated health impact claim.
+
 ## Cross-case synthesis
 
 | Case | Strongest evidence currently closed | Conversion stage still unproven |
@@ -387,3 +399,4 @@ collection; do not infer vitality from model or corpus size.
 38. [Vambo AI developer API preview](https://vambo.ai/developers)
 39. [Vambo AI named case studies](https://vambo.ai/case-studies)
 40. [Vambo AI investor and commercial-scale claims](https://vambo.ai/investors)
+41. [Jacaranda Health 2024 Annual Impact Report](https://jacarandahealth.org/ypoagriw/2025/06/Jacaranda-Health-2024-Annual-Report-1.pdf)
