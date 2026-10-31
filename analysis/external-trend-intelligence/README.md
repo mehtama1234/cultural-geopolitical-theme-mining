@@ -82,6 +82,11 @@ The matrix preserves each record’s period, geography, denominator, and measure
 definitions and confirms that the current evidence is heterogeneous rather than
 poolable.
 
+[`care-capacity-comparable-subset.json`](care-capacity-comparable-subset.json)
+then isolates six contextual measures—work participation, work exit, care
+intensity, diary-day time, and support satisfaction. These illuminate the
+mechanism but remain explicitly non-pooled and held.
+
 The later internal-data step is documented in
 [`INTERNAL-BRIDGE.md`](INTERNAL-BRIDGE.md). It is a separate contract and does
 not change the meaning or status of external evidence.

@@ -188,6 +188,14 @@ def main() -> int:
     assert all(row["observations"] for row in measurement_matrix["rows"])
     assert measurement_matrix["decision"] == "hold"
     assert measurement_matrix["decision_reason"]
+    care_subset = json.loads((ANALYSIS / "care-capacity-comparable-subset.json").read_text())
+    assert care_subset["schema"] == "external-trend-intelligence.care-capacity-comparable-subset.v1"
+    assert care_subset["candidate_id"] == care_candidate["candidate_id"]
+    assert care_subset["status"] == "contextual_comparison_only"
+    assert len(care_subset["measures"]) == 6
+    assert set(measure["record_id"] for measure in care_subset["measures"]) <= set(care_candidate["main_manifest_evidence_ids"])
+    assert care_subset["decision"] == "hold"
+    assert care_subset["next_test"] and care_subset["boundary"]
     lineage = (ANALYSIS / "SOURCE-LINEAGE-AUDIT.md").read_text()
     assert "source-independence result" in lineage
     assert "partially source-mapped" in lineage

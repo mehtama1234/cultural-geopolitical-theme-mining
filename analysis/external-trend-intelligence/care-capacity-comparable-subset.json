@@ -1,0 +1,65 @@
+{
+  "schema": "external-trend-intelligence.care-capacity-comparable-subset.v1",
+  "candidate_id": "candidate-care-longevity-access-capacity",
+  "status": "contextual_comparison_only",
+  "purpose": "A small set of explicitly labeled measures that illuminate the mechanism without pooling unlike populations.",
+  "measures": [
+    {
+      "record_id": "comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point",
+      "measure": "workers_combining_paid_and_unpaid_care",
+      "value": 20,
+      "unit": "percent of UK workers",
+      "period": "July 14-17, 2026",
+      "comparison": "The same survey reports 15% in the comparable 2019 survey.",
+      "interpretation": "Care is present inside working life; this is not proof of a cross-country trend."
+    },
+    {
+      "record_id": "comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point",
+      "measure": "left_work_at_some_point",
+      "value": 16,
+      "unit": "percent among current carers",
+      "period": "July 14-17, 2026",
+      "comparison": "The report also estimates 6% of UK adults gave up work to care.",
+      "interpretation": "Care pressure can convert into labor-market exit; the estimate is survey-reported and population-specific."
+    },
+    {
+      "record_id": "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+      "measure": "not_in_paid_work_due_to_care",
+      "value": 19.5,
+      "unit": "percent of eligible carers in England",
+      "period": "2016-17 to 2025-26 series; latest reported wave",
+      "comparison": "This denominator is eligible carers known to English councils, not all UK adults or workers.",
+      "interpretation": "A similar mechanism appears in a different administrative population, but the percentages are not directly comparable."
+    },
+    {
+      "record_id": "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+      "measure": "care_100_plus_hours",
+      "value": 34.7,
+      "unit": "percent of eligible carers",
+      "period": "2016-17 to 2025-26 series; latest reported wave",
+      "comparison": "High-intensity care is measured within the English carer population.",
+      "interpretation": "Time intensity is a plausible route from care demand to work, health, and household-room constraints."
+    },
+    {
+      "record_id": "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+      "measure": "caring_support_participation_carers",
+      "value": 32.6,
+      "unit": "percent of carers on a diary day",
+      "period": "2024 Time Use Survey",
+      "comparison": "Non-carers’ corresponding diary-day participation was 7.0%; this is a within-country time-use contrast, not a prevalence estimate.",
+      "interpretation": "Care consumes observed daily time and is a distinct route from employment or service outcomes."
+    },
+    {
+      "record_id": "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+      "measure": "extremely_satisfied_support",
+      "value": 14.2,
+      "unit": "percent of carers receiving local-authority support or services",
+      "period": "2023-24 to 2025-26",
+      "comparison": "Support satisfaction is observed only among carers who received local-authority support or services.",
+      "interpretation": "Care need does not automatically convert into usable or satisfying support."
+    }
+  ],
+  "decision": "hold",
+  "next_test": "Acquire harmonized UK/England/Australia measures with stable population definitions and repeated periods, then test direction and effect size without treating survey, administrative, and diary denominators as interchangeable.",
+  "boundary": "These measures describe related mechanisms but are not a pooled prevalence, causal estimate, market size, or company-impact estimate."
+}
