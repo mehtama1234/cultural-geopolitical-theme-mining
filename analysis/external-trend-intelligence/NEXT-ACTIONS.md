@@ -83,6 +83,10 @@ Next test:
   are checked.
 - Review shared URLs and hosts across observations before counting repeated
   publisher material as independent confirmation.
+- The new [publisher-dependence summary](publisher-dependence-summary.json)
+  compares 184 normalized source rows across four maps, finding 67 hosts and
+  four shared hosts. These are dependency warnings, not an independence score;
+  claim-level publisher ownership and dataset lineage remain to be reviewed.
 
 ## Rebuild and validate
 

@@ -1,0 +1,66 @@
+{
+  "schema": "external-trend-intelligence.publisher-dependence-summary.v1",
+  "purpose": "Cross-family host overlap summary for lineage review; it is not an independence score.",
+  "source_maps": {
+    "ibis": "ibis-force-claim-map.json",
+    "annual_report": "annual-report-citation-map.json",
+    "social": "social-publication-citation-map.json",
+    "inc5000": "inc5000-opportunity-source-map.json"
+  },
+  "source_row_count": 184,
+  "family_row_counts": {
+    "annual_report": 25,
+    "ibis": 23,
+    "inc5000": 61,
+    "social": 75
+  },
+  "unique_host_count": 67,
+  "shared_host_count": 4,
+  "shared_hosts": {
+    "www.bls.gov": {
+      "families": [
+        "ibis",
+        "social"
+      ],
+      "family_count": 2,
+      "url_count": 11,
+      "dependence_warning": "shared host is not independent confirmation"
+    },
+    "www.eia.gov": {
+      "families": [
+        "ibis",
+        "social"
+      ],
+      "family_count": 2,
+      "url_count": 3,
+      "dependence_warning": "shared host is not independent confirmation"
+    },
+    "www.energy.gov": {
+      "families": [
+        "ibis",
+        "social"
+      ],
+      "family_count": 2,
+      "url_count": 4,
+      "dependence_warning": "shared host is not independent confirmation"
+    },
+    "www.epa.gov": {
+      "families": [
+        "ibis",
+        "social"
+      ],
+      "family_count": 2,
+      "url_count": 3,
+      "dependence_warning": "shared host is not independent confirmation"
+    }
+  },
+  "family_host_counts": {
+    "annual_report": 10,
+    "ibis": 13,
+    "inc5000": 21,
+    "social": 27
+  },
+  "independence_status": "unverified",
+  "boundary": "Host diversity is a lineage diagnostic only. Different URLs on different hosts may restate the same publisher, dataset, company claim, or synthesis; no source is counted as independent confirmation until artifact-level review is complete.",
+  "next_test": "Review shared hosts and publisher ownership at claim level, then compare genuinely independent outcome measures with aligned units, periods, populations, and geographies."
+}

@@ -47,6 +47,7 @@ def main() -> int:
                             "program-scorecard.json",
                             "Operating handoff",
                             "operating-handoff.json",
+                            "publisher-dependence-summary.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:
