@@ -17,6 +17,7 @@ REPO = "/home/mehta/git-repo/ibis-industries"
 REVISION = "b895acd021fbe3dc1d610255952b1373748e3bc3"
 PATTERN_PATH = "cross_industry_pattern_inventory.json"
 SAMPLE_SIZE = 100
+COUNTEREXAMPLE_SIZE = 24
 
 
 def show(path: str) -> str:
@@ -32,6 +33,7 @@ def main() -> int:
     for slug in sorted(pattern["matched_industries"]):
         record = json.loads(show(f"business_knowledge_examples/{slug}.json"))
         matched.append((record["identity"].get("sector", "Unknown"), slug))
+    matched_slugs = {slug for _, slug in matched}
     by_sector = {}
     for sector, slug in matched:
         by_sector.setdefault(sector, []).append(slug)
@@ -73,6 +75,71 @@ def main() -> int:
                 "record_falsifiers": record.get("judgment", {}).get("falsifiers", []),
             }
         )
+
+    # Keep a deterministic set of industries that were not matched to the
+    # finding.  These are comparator/counterexample candidates, not proof that
+    # compliance has no effect: the pattern engine's matching rule may simply
+    # have failed to clear its threshold for that industry.  One record per
+    # observed sector is retained before filling the remaining slots so the
+    # comparison does not over-represent one part of the corpus.
+    all_paths = subprocess.check_output(
+        ["git", "-C", REPO, "ls-tree", "-r", "--name-only", REVISION, "business_knowledge_examples"],
+        text=True,
+    ).splitlines()
+    unmatched = []
+    for path in all_paths:
+        slug = Path(path).stem
+        if slug in matched_slugs:
+            continue
+        record = json.loads(show(path))
+        unmatched.append((record["identity"].get("sector", "Unknown"), slug, record))
+    by_sector_unmatched = {}
+    for sector, slug, record in unmatched:
+        by_sector_unmatched.setdefault(sector, []).append((slug, record))
+    counterexample_records = []
+    for sector in sorted(by_sector_unmatched):
+        slug, record = by_sector_unmatched[sector][0]
+        counterexample_records.append((sector, slug, record))
+    selected = {(sector, slug) for sector, slug, _ in counterexample_records}
+    for sector, slug, record in unmatched:
+        if len(counterexample_records) >= COUNTEREXAMPLE_SIZE:
+            break
+        if (sector, slug) not in selected:
+            counterexample_records.append((sector, slug, record))
+            selected.add((sector, slug))
+    counterexamples = []
+    for sector, slug, record in counterexample_records[:COUNTEREXAMPLE_SIZE]:
+        claims = []
+        for claim in record.get("evidence", {}).get("claims", [])[:2]:
+            source_ids = claim.get("source_ids", [])
+            sources = [source for source in record.get("evidence", {}).get("sources", []) if source.get("id") in source_ids]
+            claims.append({
+                "claim_id": claim.get("id"),
+                "claim_text": claim.get("text"),
+                "claim_type": claim.get("claim_type"),
+                "source_ids": source_ids,
+                "sources": sources,
+            })
+        counterexamples.append({
+            "industry_slug": slug,
+            "industry_title": record["identity"]["title"],
+            "industry_sector": sector,
+            "geography": record["identity"].get("geography"),
+            "as_of": record.get("scope", {}).get("as_of"),
+            "pattern_match": False,
+            "comparison_role": "non_matching_comparator",
+            "claims": claims,
+            "record_falsifiers": record.get("judgment", {}).get("falsifiers", []),
+        })
+
+    source_rows = [
+        source
+        for sample in samples + counterexamples
+        for claim in sample["claims"]
+        for source in claim["sources"]
+    ]
+    publisher_counts = Counter(source.get("publisher", "unknown") for source in source_rows)
+    source_type_counts = Counter(source.get("source_type", "unknown") for source in source_rows)
     payload = {
         "schema": "external-trend-intelligence.ibis-finding-claim-sample.v1",
         "finding_slug": pattern["slug"],
@@ -85,6 +152,12 @@ def main() -> int:
         "sample_sector_counts": dict(sorted(Counter(sample["industry_sector"] for sample in samples).items())),
         "counter_signals": pattern["counterforces"],
         "outcome_measure_candidate_count": sum(len(sample["outcome_measure_candidates"]) for sample in samples),
+        "counterexample_industry_count": len(counterexamples),
+        "counterexample_sector_count": len({sample["industry_sector"] for sample in counterexamples}),
+        "counterexample_sector_counts": dict(sorted(Counter(sample["industry_sector"] for sample in counterexamples).items())),
+        "counterexample_selection": "one non-matching industry per observed sector, then sorted fill",
+        "source_publisher_counts_in_sample": dict(sorted(publisher_counts.items())),
+        "source_type_counts_in_sample": dict(sorted(source_type_counts.items())),
         "sample_source_urls": sorted({
             source["url"]
             for sample in samples
@@ -93,8 +166,9 @@ def main() -> int:
             if source.get("url")
         }),
         "samples": samples,
-        "boundary": "This bounded sample traces 100 matched industries across the observed sectors to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
-        "next_test": "Expand the same traceability method across a pre-specified industry sample, add counterexamples and outcomes, and review publisher independence before promotion.",
+        "counterexamples": counterexamples,
+        "boundary": "This bounded sample traces 100 matched industries and 24 non-matching comparator industries to claim-level source IDs and URLs. Non-matching records are counterexample candidates, not proof that compliance has no effect. The artifact does not validate the full finding, establish causality, or represent all 1,161 matched industries and 330 non-matching industries.",
+        "next_test": "Review the comparator industries against an independent outcome measure, verify claim-level publisher independence, and expand coverage before promotion.",
     }
     payload["sample_source_url_count"] = len(payload["sample_source_urls"])
     payload["sample_source_host_count"] = len({urlparse(url).netloc.lower() for url in payload["sample_source_urls"] if urlparse(url).netloc})

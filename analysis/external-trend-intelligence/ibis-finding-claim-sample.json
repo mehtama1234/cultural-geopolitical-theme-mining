@@ -65,6 +65,362 @@
     "rules that impose similar burden on all competitors"
   ],
   "outcome_measure_candidate_count": 2176,
+  "counterexample_industry_count": 24,
+  "counterexample_sector_count": 18,
+  "counterexample_sector_counts": {
+    "Agriculture": 1,
+    "Business Services": 1,
+    "Construction": 1,
+    "Consumer Services": 1,
+    "Energy & Environment": 1,
+    "Finance & Insurance": 3,
+    "Financial Services": 1,
+    "Food & Drink": 1,
+    "Healthcare": 1,
+    "Internet Infrastructure and Digital Marketplaces": 1,
+    "Manufacturing": 5,
+    "Media & Entertainment": 1,
+    "Real Estate": 1,
+    "Retail": 1,
+    "Technology & Digital": 1,
+    "Transport & Logistics": 1,
+    "Water Utilities and Infrastructure": 1,
+    "Wholesale": 1
+  },
+  "counterexample_selection": "one non-matching industry per observed sector, then sorted fill",
+  "source_publisher_counts_in_sample": {
+    "3D Systems": 1,
+    "3DPrint.com": 1,
+    "A. O. Smith": 1,
+    "ACCO Brands": 2,
+    "AHRI": 4,
+    "APLF": 1,
+    "ASPCA": 3,
+    "ASTM International": 3,
+    "ATM Advantage": 1,
+    "ATV.com": 2,
+    "Accio": 1,
+    "AccuWeather": 1,
+    "Active Day": 2,
+    "Acupuncture Today": 1,
+    "Ad-hoc News": 1,
+    "Adam & Eve": 1,
+    "Administration for Children and Families": 6,
+    "Afterschool Alliance": 1,
+    "AgAmerica": 2,
+    "Allanchem": 1,
+    "American Banker": 1,
+    "American Bankers Association": 1,
+    "American Farm Bureau Federation": 1,
+    "American Hotel and Lodging Association": 1,
+    "American Med Spa Association": 1,
+    "American Pet Products Association": 1,
+    "American Society of Plastic Surgeons": 3,
+    "American Water Works Association": 1,
+    "Andretti Indoor Karting & Games": 1,
+    "Ars Technica": 1,
+    "Art Basel and UBS": 2,
+    "Association of American Publishers": 3,
+    "Association of American Railroads": 2,
+    "Audio Publishers Association": 2,
+    "Auto Care Association": 2,
+    "Autobody News": 1,
+    "Aylo": 1,
+    "BNSF Railway": 1,
+    "BPN News": 2,
+    "Becker's Payer": 1,
+    "Beinsure": 1,
+    "Best Dosage": 1,
+    "Best Friends Animal Society": 2,
+    "Bureau of Economic Analysis via FRED": 2,
+    "Bureau of Transportation Statistics": 2,
+    "Business Wire": 1,
+    "CBRE": 1,
+    "CDC National Center for Health Statistics": 3,
+    "CMS": 3,
+    "Canary Media": 3,
+    "Capital Press": 1,
+    "Cardinal Health": 1,
+    "CareScout": 1,
+    "Chef Bill Blackburn": 1,
+    "Chuck E. Cheese": 1,
+    "Circana": 2,
+    "CleanTechnica": 1,
+    "Coalition for a Prosperous America": 1,
+    "Coherent Market Insights": 2,
+    "Congressional Research Service": 2,
+    "Consumer Financial Protection Bureau": 2,
+    "Context": 2,
+    "Cox Automotive": 3,
+    "Curate": 1,
+    "DAT Freight & Analytics": 1,
+    "DNIB": 1,
+    "Daisy": 1,
+    "Data Bridge Market Research": 1,
+    "Datos Insights": 1,
+    "Deep Market Insights": 1,
+    "Dermatology Times": 1,
+    "Donaldson": 2,
+    "Enterprise Products Partners": 2,
+    "Environmental Defense Fund": 1,
+    "Environmental Working Group": 1,
+    "FDA": 2,
+    "FRED and U.S. Bureau of Labor Statistics": 2,
+    "Fairsettlement.org": 1,
+    "Fannie Mae": 3,
+    "Farmdoc Daily": 1,
+    "Farmdoc Daily, University of Illinois": 1,
+    "Federal Highway Administration": 8,
+    "Federal Housing Finance Agency": 2,
+    "Federal Maritime Commission": 1,
+    "Federal Register": 1,
+    "Federal Reserve": 2,
+    "Federal Reserve Bank of New York": 1,
+    "Federal Reserve Bank of St. Louis": 10,
+    "Federal Reserve Board": 1,
+    "Federal Reserve Financial Services": 1,
+    "Federal Trade Commission": 2,
+    "Fervo Energy": 1,
+    "Fictiv": 1,
+    "Fooda": 1,
+    "Fortune Business Insights": 9,
+    "Freddie Mac": 3,
+    "Free Speech Coalition": 2,
+    "Freeway Insurance": 1,
+    "Frontiers in Climate": 2,
+    "Fruit Growers News": 1,
+    "Fugro": 1,
+    "Furniture Industry News": 1,
+    "Future Market Insights": 5,
+    "GII Research": 1,
+    "Gallup": 1,
+    "General Mills": 2,
+    "Genworth and CareScout": 1,
+    "Gitnux": 2,
+    "Giving USA Foundation": 2,
+    "Global Growth Insights": 1,
+    "Global Market Insights": 3,
+    "GlobeNewswire": 2,
+    "Golf Inc.": 1,
+    "GolfN": 2,
+    "Grand View Research": 28,
+    "Groupon": 3,
+    "Guitar Muse": 1,
+    "Guitar World": 1,
+    "HFR": 2,
+    "HP": 2,
+    "Health Affairs and CMS": 1,
+    "Horegener": 1,
+    "Hotel News Resource": 2,
+    "Humane World for Animals": 1,
+    "IBIS Industries": 10,
+    "IBIS Industries research corpus": 1,
+    "IBIS Industries research file": 4,
+    "IBIS source file": 3,
+    "IBISWorld": 29,
+    "IBISWorld local baseline": 9,
+    "IBISWorld source file": 5,
+    "IMARC": 1,
+    "IMARC Group": 4,
+    "IndexBox": 2,
+    "Industrial Air Power": 1,
+    "InnovAge": 1,
+    "Insurance Business": 1,
+    "Insurance Edge": 1,
+    "Insurance Journal": 1,
+    "Integrated Insight": 1,
+    "International Sleep Products Association": 1,
+    "JAMA Health Forum": 1,
+    "JLL": 1,
+    "Justia": 1,
+    "Kentley Insights": 1,
+    "LP Gas Magazine": 2,
+    "Leggett & Platt": 2,
+    "Lovers": 1,
+    "MarkNtel Advisors": 1,
+    "Market Data Forecast": 1,
+    "Market Research Future": 5,
+    "Market.us": 1,
+    "MarketResearch.com": 1,
+    "MarketsandMarkets": 1,
+    "Medvidi": 1,
+    "MetLife": 1,
+    "Mindbody7": 1,
+    "Mordor Intelligence": 8,
+    "NCR Atleos": 1,
+    "NOAA EPIC": 2,
+    "NOAA Global Systems Laboratory": 2,
+    "Namecheap": 1,
+    "National Center for Education Statistics": 2,
+    "National Conference of State Legislatures": 1,
+    "National Council For Adoption": 1,
+    "National Highway Traffic Safety Administration": 1,
+    "National Renewable Energy Laboratory": 1,
+    "National Restaurant Association": 3,
+    "National Shooting Sports Foundation": 5,
+    "National Weather Service": 1,
+    "New York Farm Insurance": 1,
+    "Newell Brands": 2,
+    "Norfolk Southern": 1,
+    "Number Analytics": 1,
+    "ONEOK / SEC": 2,
+    "Ormat Technologies": 1,
+    "Our Culture Mag": 1,
+    "Oysterlink": 2,
+    "P&S Intelligence": 1,
+    "PR Newswire": 1,
+    "PS Market Research": 1,
+    "Packaging Dive": 5,
+    "Patient Care Online": 1,
+    "Pew Research Center": 3,
+    "Phys.org": 2,
+    "Pipeline and Hazardous Materials Safety Administration": 1,
+    "Plains All American / SEC": 1,
+    "Powersports Business": 3,
+    "Precedence Research": 1,
+    "Public company release": 1,
+    "Publishers Weekly": 1,
+    "PwC": 1,
+    "PwC/ULI": 1,
+    "REV Group": 1,
+    "RIAA": 2,
+    "RVshare": 6,
+    "Reason": 1,
+    "Recycling Today": 1,
+    "Repairer Driven News": 2,
+    "Republic Services": 1,
+    "Research and Markets": 13,
+    "Resideo Technologies": 2,
+    "S&P Global Market Intelligence": 1,
+    "S&P Global Mobility": 4,
+    "SEC": 6,
+    "SEC EDGAR": 1,
+    "SIFMA": 2,
+    "SNS Insider via GlobeNewswire": 1,
+    "SZTX Tape": 1,
+    "SexTechGuide": 1,
+    "Shelter Animals Count": 1,
+    "Side-Line": 1,
+    "Similarweb": 1,
+    "Sims Metal": 1,
+    "Six Flags": 2,
+    "Sleep Number": 3,
+    "Somnigroup International": 5,
+    "Source of Asia": 1,
+    "Statista": 2,
+    "Stratasys": 2,
+    "Tax Foundation": 1,
+    "Technavio": 1,
+    "The Business Research Company": 2,
+    "The Campbell's Company": 4,
+    "The Cool Down": 1,
+    "The Pharmaceutical Journal": 2,
+    "The Recycling Partnership": 1,
+    "The Weather Company": 1,
+    "The Zebra": 2,
+    "TheStreet": 1,
+    "Themed Entertainment Association": 2,
+    "Toast": 1,
+    "Tomorrow.io": 1,
+    "U.S. Bureau of Economic Analysis": 1,
+    "U.S. Bureau of Labor Statistics": 2,
+    "U.S. Bureau of Labor Statistics via FRED": 2,
+    "U.S. Census Bureau": 5,
+    "U.S. Census Bureau via FRED": 1,
+    "U.S. Congress": 1,
+    "U.S. Consumer Product Safety Commission": 2,
+    "U.S. Customs and Border Protection": 2,
+    "U.S. Department of Agriculture Economic Research Service": 1,
+    "U.S. Department of Commerce": 2,
+    "U.S. Department of Energy": 3,
+    "U.S. Department of Health and Human Services": 2,
+    "U.S. Energy Information Administration": 11,
+    "U.S. Environmental Protection Agency": 5,
+    "U.S. International Trade Commission": 1,
+    "U.S. Securities and Exchange Commission": 3,
+    "U.S. Senate Committee on Environment and Public Works": 1,
+    "UBS": 1,
+    "US Bureau of Labor Statistics": 1,
+    "US Census Bureau": 6,
+    "US Congress": 1,
+    "US Department of Agriculture Agricultural Marketing Service": 1,
+    "US Department of Energy": 1,
+    "US Environmental Protection Agency": 9,
+    "US International Trade Commission": 1,
+    "USDA Food and Nutrition Service": 1,
+    "USDA Rural Development": 1,
+    "Umarex USA": 1,
+    "United Parks and Resorts": 3,
+    "Verified Market Reports": 2,
+    "Verified Market Research": 1,
+    "Verisign": 4,
+    "Vertical IQ": 1,
+    "Waste Connections / SEC": 1,
+    "Waste Management": 2,
+    "Waste Management / SEC": 1,
+    "World Bank": 1,
+    "Yahoo Finance": 1,
+    "aci.aero": 2,
+    "airadvisor.com": 1,
+    "aviation.direct": 1,
+    "aviationa2z.com": 2,
+    "blog.iq.dwellsy.com": 1,
+    "buildermuse.com": 1,
+    "centuryaluminum.com": 1,
+    "corporate.oreillyauto.com": 5,
+    "finance.yahoo.com": 1,
+    "investors.dicks.com": 2,
+    "ipropertymanagement.com": 2,
+    "naahq.org": 1,
+    "news.alcoa.com": 1,
+    "press.spglobal.com": 2,
+    "retailfreak.com": 2,
+    "simpleflying.com": 2,
+    "source inventory": 487,
+    "themilitant.com": 2,
+    "travel.yahoo.com": 1,
+    "wwd.com": 3,
+    "www.alixpartners.com": 1,
+    "www.aluminium-journal.com": 1,
+    "www.baselane.com": 2,
+    "www.biospace.com": 1,
+    "www.calcmytariff.com": 1,
+    "www.cnbc.com": 1,
+    "www.coherentmarketinsights.com": 3,
+    "www.congress.gov": 5,
+    "www.costargroup.com": 1,
+    "www.custommarketinsights.com": 2,
+    "www.einpresswire.com": 1,
+    "www.eplaneai.com": 1,
+    "www.faa.gov": 1,
+    "www.forbes.com": 1,
+    "www.fortunebusinessinsights.com": 4,
+    "www.fox13seattle.com": 1,
+    "www.futuremarketinsights.com": 2,
+    "www.grandviewresearch.com": 2,
+    "www.healio.com": 1,
+    "www.iata.org": 2,
+    "www.ibisworld.com": 12,
+    "www.jchs.harvard.edu": 2,
+    "www.marketdataforecast.com": 1,
+    "www.mightytravels.com": 1,
+    "www.modernretail.co": 2,
+    "www.mordorintelligence.com": 2,
+    "www.multifamilydive.com": 1,
+    "www.nextmsc.com": 1,
+    "www.theinsightpartners.com": 1,
+    "www.usgs.gov": 1
+  },
+  "source_type_counts_in_sample": {
+    "academic": 7,
+    "company": 99,
+    "filing": 25,
+    "government": 129,
+    "news": 53,
+    "other": 631,
+    "research_firm": 161,
+    "trade_association": 50
+  },
   "sample_source_urls": [
     "/home/manishmehta/ui-projects/ibis-industries/txt_full/shooting-ranges.txt",
     "/home/manishmehta/ui-projects/ibis-industries/txt_full/stevedoring-and-marine-cargo-handling-in-the-us.txt",
@@ -18268,8 +18624,2765 @@
       ]
     }
   ],
-  "boundary": "This bounded sample traces 100 matched industries across the observed sectors to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
-  "next_test": "Expand the same traceability method across a pre-specified industry sample, add counterexamples and outcomes, and review publisher independence before promotion.",
+  "counterexamples": [
+    {
+      "industry_slug": "beef-cattle-production-in-the-us",
+      "industry_title": "US Beef Cattle Production Industry: 2025-2026 Brief",
+      "industry_sector": "Agriculture",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "cattle-demand",
+          "claim_text": "US beef-cattle production revenue and demand are shaped by a tight cattle herd, beef demand, cattle prices, packer and feedlot demand, exports, imports, and consumer affordability.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_03379",
+            "src_03380",
+            "src_03381",
+            "src_03382",
+            "src_03384",
+            "src_03385",
+            "src_03391",
+            "src_03392",
+            "src_03393"
+          ],
+          "sources": [
+            {
+              "id": "src_03379",
+              "title": "US Beef Market Size, Share, Trends and Growth 2034",
+              "publisher": "source inventory",
+              "url": "https://www.marketdataforecast.com/market-reports/united-states-beef-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03380",
+              "title": "US Beef Market Size and Industry Growth Report 2032",
+              "publisher": "source inventory",
+              "url": "https://www.fortunebusinessinsights.com/u-s-beef-market-109237",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03381",
+              "title": "Smaller Cattle Herd Creates Market Volatility",
+              "publisher": "source inventory",
+              "url": "https://www.fb.org/market-intel/smaller-cattle-herd-creates-market-volatility",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03382",
+              "title": "US Beef Market Outlook 2026",
+              "publisher": "source inventory",
+              "url": "https://beefweb.com/us-beef-market-outlook-2026/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03384",
+              "title": "CattleFax Outlook Signals Cattle Cycle Turning",
+              "publisher": "source inventory",
+              "url": "https://www.ncba.org/news-media/news/details/46676/cattlefax-outlook-signals-cattle-cycle-turning-as-strong-demand-meets-tight-supplies-in-2026",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03385",
+              "title": "Beef Supply Drops Push Cattle Prices Higher",
+              "publisher": "source inventory",
+              "url": "https://www.farmprogress.com/livestock/pause-in-cow-slaughter-doesn-t-signal-herd-rebuilding-this-year",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03391",
+              "title": "US Beef Herd Continues Downward",
+              "publisher": "source inventory",
+              "url": "https://www.drovers.com/news/industry/u-s-beef-herd-continues-downward-86-2-million-head",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03392",
+              "title": "Why the US Cattle Herd Is at a 75-Year Low",
+              "publisher": "source inventory",
+              "url": "https://www.houstonpublicmedia.org/npr/2026/05/29/nx-s1-5719511/why-the-u-s-cattle-herd-is-at-a-75-year-low-and-what-it-means-for-beef-prices/",
+              "source_type": "other",
+              "published_at": "2026-05-29",
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03393",
+              "title": "US Cattle Numbers at a 75-Year Low",
+              "publisher": "source inventory",
+              "url": "https://www.uaex.uada.edu/media-resources/news/2026/february/02-05-2026-ark-us-cattle-numbers.aspx",
+              "source_type": "other",
+              "published_at": "2026-02-05",
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        },
+        {
+          "claim_id": "cattle-monetization",
+          "claim_text": "Beef-cattle producers monetize calves, feeder cattle, fed cattle, breeding stock, cull animals, genetics, specialty, premium, direct, and related land or conservation activities.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_03379",
+            "src_03380",
+            "src_03383",
+            "src_03384",
+            "src_03394",
+            "src_03395",
+            "src_03396"
+          ],
+          "sources": [
+            {
+              "id": "src_03379",
+              "title": "US Beef Market Size, Share, Trends and Growth 2034",
+              "publisher": "source inventory",
+              "url": "https://www.marketdataforecast.com/market-reports/united-states-beef-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03380",
+              "title": "US Beef Market Size and Industry Growth Report 2032",
+              "publisher": "source inventory",
+              "url": "https://www.fortunebusinessinsights.com/u-s-beef-market-109237",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03383",
+              "title": "Beef Cattle Ranching and Farming Market Size",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/market-size/beef-cattle-production/46",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03384",
+              "title": "CattleFax Outlook Signals Cattle Cycle Turning",
+              "publisher": "source inventory",
+              "url": "https://www.ncba.org/news-media/news/details/46676/cattlefax-outlook-signals-cattle-cycle-turning-as-strong-demand-meets-tight-supplies-in-2026",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03394",
+              "title": "Bridging Genetics, Management and Technology in Beef Production",
+              "publisher": "source inventory",
+              "url": "https://www.drovers.com/news/beef-production/701x-bridging-genetics-management-and-technology-beef-production",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03395",
+              "title": "Cattle Farming Innovations Coming in 2026",
+              "publisher": "source inventory",
+              "url": "https://cattledaily.com/cattle-farming-innovations-coming-in-2026/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03396",
+              "title": "Bovine Artificial Insemination Market Forecast",
+              "publisher": "source inventory",
+              "url": "https://www.coherentmarketinsights.com/industry-reports/bovine-artificial-insemination-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Herd size, heifer retention, drought, pasture, feed, slaughter, beef demand, exports, and imports do not affect production or price.",
+        "Fertility, genetics, animal health, nutrition, labor, equipment, records, and technology do not affect productivity, quality, or cost.",
+        "Land, water, debt, interest, insurance, packer concentration, trade, and policy do not affect return, resilience, or continuity.",
+        "Animal health, welfare, identification, water, environmental, labor, trade, and market rules do not affect access or liability.",
+        "Healthy, productive, diversified, liquid, risk-managed, and stewardship-oriented producers do not outperform poorly controlled alternatives."
+      ]
+    },
+    {
+      "industry_slug": "business-brokers",
+      "industry_title": "US Business Brokers Industry: Current Brief (2025-2026)",
+      "industry_sector": "Business Services",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "broker-demand",
+          "claim_text": "US business-broker demand is shaped by owner retirement, succession, entrepreneurship, small-business transfer, franchise resale, strategic acquisition, and financing activity.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_03721",
+            "src_03722",
+            "src_03723",
+            "src_03725",
+            "src_03726",
+            "src_03727",
+            "src_03728"
+          ],
+          "sources": [
+            {
+              "id": "src_03721",
+              "title": "Business Brokers Market Size",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/market-size/business-brokers/4796/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03722",
+              "title": "US Business Brokers Industry Report",
+              "publisher": "source inventory",
+              "url": "https://www.businesswire.com/news/home/20241128043522/en/U-S-Business-Brokers-Industry-Research-Report-2024-An-Untapped-%241.8-Billion-Market-Featuring-Transworld-Business-Advisors-Murphy-Business-Sunbelt-Business-Brokers-and-First-Choice-Business-Brokers---ResearchAndMarkets.com",
+              "source_type": "other",
+              "published_at": "2024-11-28",
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03723",
+              "title": "US Business Brokers Industry Research Report 2024-2030",
+              "publisher": "source inventory",
+              "url": "https://www.globenewswire.com/news-release/2024/11/26/2987233/28124/en/U-S-Business-Brokers-Industry-Research-Report-2024-2030-Retiring-Baby-Boomers-AI-Franchising-Younger-Brokers-and-Diversified-Revenues-Reshaping-the-Untapped-Market.html",
+              "source_type": "other",
+              "published_at": "2024-11-26",
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03725",
+              "title": "BizBuySell Q4 2025 Insight Report",
+              "publisher": "source inventory",
+              "url": "https://www.bizbuysell.com/news/bizbuysell-2025-fourth-quarter-insight-report/",
+              "source_type": "other",
+              "published_at": "2025-12-01",
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_03726",
+              "title": "Great Small Business Ownership Transition",
+              "publisher": "source inventory",
+              "url": "https://www.mckinsey.com/institute-for-economic-mobility/our-insights/the-great-ownership-transfer-a-new-era-of-business-stewardship",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03727",
+              "title": "Business Brokers Market Outlook",
+              "publisher": "source inventory",
+              "url": "https://www.baystatebusinessbrokers.com/our-early-2025-market-outlook/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03728",
+              "title": "Small Business Succession Resource",
+              "publisher": "source inventory",
+              "url": "https://becomebusinessbroker.com/silver-tsunami-small-business-broker-opportunity/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "broker-monetization",
+          "claim_text": "Business brokers monetize success fees, commissions, retainers, listing, buyer representation, valuation, readiness, financing, franchise, referral, technology, and consulting services.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_03721",
+            "src_03722",
+            "src_03723",
+            "src_03724",
+            "src_03730"
+          ],
+          "sources": [
+            {
+              "id": "src_03721",
+              "title": "Business Brokers Market Size",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/market-size/business-brokers/4796/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03722",
+              "title": "US Business Brokers Industry Report",
+              "publisher": "source inventory",
+              "url": "https://www.businesswire.com/news/home/20241128043522/en/U-S-Business-Brokers-Industry-Research-Report-2024-An-Untapped-%241.8-Billion-Market-Featuring-Transworld-Business-Advisors-Murphy-Business-Sunbelt-Business-Brokers-and-First-Choice-Business-Brokers---ResearchAndMarkets.com",
+              "source_type": "other",
+              "published_at": "2024-11-28",
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03723",
+              "title": "US Business Brokers Industry Research Report 2024-2030",
+              "publisher": "source inventory",
+              "url": "https://www.globenewswire.com/news-release/2024/11/26/2987233/28124/en/U-S-Business-Brokers-Industry-Research-Report-2024-2030-Retiring-Baby-Boomers-AI-Franchising-Younger-Brokers-and-Diversified-Revenues-Reshaping-the-Untapped-Market.html",
+              "source_type": "other",
+              "published_at": "2024-11-26",
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03724",
+              "title": "Business Broker Services Market",
+              "publisher": "source inventory",
+              "url": "https://www.businessresearchinsights.com/market-reports/business-broker-services-market-112868",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03730",
+              "title": "How to Become a Business Broker 2026",
+              "publisher": "source inventory",
+              "url": "https://ctacquisitions.com/how-to-become-a-business-broker/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Readiness, valuation, financing, diligence, negotiation, cycle, and close rate do not affect revenue or cash.",
+        "Rates, lender standards, cash flow, multiples, equity, seller financing, and tax do not affect transaction feasibility.",
+        "Trust, confidentiality, financial accuracy, buyer quality, referrals, and professional coordination do not affect closings.",
+        "Technology, data, AI, franchise, network, privacy, and licensing do not affect productivity, quality, or reputation.",
+        "Realistic, qualified, confidential, compliance-disciplined brokers with diversified pipelines do not outperform listing-volume businesses."
+      ]
+    },
+    {
+      "industry_slug": "artificial-grass-turf-installation",
+      "industry_title": "Artificial Grass Turf Installation — 2025-2026 Industry Brief",
+      "industry_sector": "Construction",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "turf-baseline",
+          "claim_text": "The supplied baseline cites 2020 US artificial-grass installation revenue of $2.645 billion, a 7.7% margin, 1,720 establishments, and 12,042 workers, with a 2025 forecast near $3.0 billion and 7.9% margin.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_12972"
+          ],
+          "sources": [
+            {
+              "id": "src_12972",
+              "title": "Artificial Grass Turf Installation local baseline brief",
+              "publisher": "IBIS Industries",
+              "url": "",
+              "source_type": "other",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "turf-market",
+          "claim_text": "Grand View Research estimates 2025 US artificial turf product-market revenue of $1.163 billion and an 8.3% CAGR for 2026-2033.",
+          "claim_type": "forecast",
+          "source_ids": [
+            "src_12973",
+            "src_12974"
+          ],
+          "sources": [
+            {
+              "id": "src_12973",
+              "title": "US Artificial Turf Market Outlook",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/horizon/outlook/artificial-turf-market/united-states",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_12974",
+              "title": "Artificial Turf Market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/artificial-turf-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "sports and water-conservation demand do not create funded installations",
+        "owners ignore PFAS, heat, drainage, and lifecycle evidence",
+        "construction finance does not affect residential or public project starts",
+        "testing and compliance do not change bids, cost, or customer choice",
+        "replacement and end-of-life work fails to become recurring demand"
+      ]
+    },
+    {
+      "industry_slug": "after-school-program-providers",
+      "industry_title": "After-School Program Providers",
+      "industry_sector": "Consumer Services",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "after-demand",
+          "claim_text": "After-school demand exceeds available access for many families, with affordability and availability limiting participation.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15901",
+            "src_15904"
+          ],
+          "sources": [
+            {
+              "id": "src_15901",
+              "title": "Lost Opportunity: Afterschool in Demand But Out of Reach",
+              "publisher": "Afterschool Alliance",
+              "url": "https://afterschoolalliance.org/afterschoolsnack/Lost-Opportunity-Afterschool-in-Demand-But-Out-of-Reach-for_10-15-2025.cfm",
+              "source_type": "trade_association",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_15904",
+              "title": "Most U.S. public K-12 schools offer after-school programs; many cannot accommodate all students",
+              "publisher": "National Center for Education Statistics",
+              "url": "https://ies.ed.gov/learn/press-release/most-u-s-public-k-12-schools-offer-after-school-programs-many-cannot-accommodate-all-students-who",
+              "source_type": "government",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        },
+        {
+          "claim_id": "after-capacity",
+          "claim_text": "Public schools commonly offer or coordinate after-school programming, but many cannot accommodate all interested students.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15904"
+          ],
+          "sources": [
+            {
+              "id": "src_15904",
+              "title": "Most U.S. public K-12 schools offer after-school programs; many cannot accommodate all students",
+              "publisher": "National Center for Education Statistics",
+              "url": "https://ies.ed.gov/learn/press-release/most-u-s-public-k-12-schools-offer-after-school-programs-many-cannot-accommodate-all-students-who",
+              "source_type": "government",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Unmet demand does not produce enrollment or waitlists where programs are affordable and staffed.",
+        "Labor availability and wages do not affect hours, capacity, quality, or margins.",
+        "Public funding and procurement changes do not affect provider continuity, cash flow, or family price.",
+        "Safety, licensing, privacy, accessibility, and reporting failures do not affect market access, liability, or renewal.",
+        "Site utilization and transportation density do not affect unit economics."
+      ]
+    },
+    {
+      "industry_slug": "biomass-power",
+      "industry_title": "US Biomass Power Industry",
+      "industry_sector": "Energy & Environment",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "biomass-demand",
+          "claim_text": "US biomass-power demand is shaped by utility capacity, dispatchable renewable need, industrial heat, waste management, landfill gas, corporate procurement, and environmental policy.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_03491",
+            "src_03492",
+            "src_03495",
+            "src_03496",
+            "src_03497",
+            "src_03498"
+          ],
+          "sources": [
+            {
+              "id": "src_03491",
+              "title": "Biomass Power Market Size and Share Report",
+              "publisher": "source inventory",
+              "url": "https://www.grandviewresearch.com/industry-analysis/biomass-power-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03492",
+              "title": "North America Biomass Power Market Forecast",
+              "publisher": "source inventory",
+              "url": "https://www.kenresearch.com/industry-reports/north-america-biomass-power-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "North America",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03495",
+              "title": "US Biomass Power Capacity Outlook",
+              "publisher": "source inventory",
+              "url": "https://www.world-energy.org/article/42107.html",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03496",
+              "title": "US Biomass Power Production Outlook 2025-2026",
+              "publisher": "source inventory",
+              "url": "https://biomassmagazine.com/articles/eia-biomass-power-production-to-fall-slightly-in-2025-2026",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03497",
+              "title": "Biomass Power in the US Industry Analysis 2026",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/biomass-power/4497/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03498",
+              "title": "US Waste Biomass Generating Capacity Outlook",
+              "publisher": "source inventory",
+              "url": "https://www.bioenergy-news.com/news/us-waste-biomass-generating-capacity-set-to-grow-through-2027-eia-forecasts/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "biomass-monetization",
+          "claim_text": "Biomass-power operators monetize electricity, capacity, PPAs, renewable credits, carbon attributes, tipping fees, heat, steam, biogas, and environmental services.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_03491",
+            "src_03492",
+            "src_03497",
+            "src_03498"
+          ],
+          "sources": [
+            {
+              "id": "src_03491",
+              "title": "Biomass Power Market Size and Share Report",
+              "publisher": "source inventory",
+              "url": "https://www.grandviewresearch.com/industry-analysis/biomass-power-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03492",
+              "title": "North America Biomass Power Market Forecast",
+              "publisher": "source inventory",
+              "url": "https://www.kenresearch.com/industry-reports/north-america-biomass-power-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "North America",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03497",
+              "title": "Biomass Power in the US Industry Analysis 2026",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/biomass-power/4497/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03498",
+              "title": "US Waste Biomass Generating Capacity Outlook",
+              "publisher": "source inventory",
+              "url": "https://www.bioenergy-news.com/news/us-waste-biomass-generating-capacity-set-to-grow-through-2027-eia-forecasts/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Feedstock, waste, power, heat, capacity, PPAs, tipping fees, and environmental demand do not affect output or cash.",
+        "Collection, transport, quality, contamination, plant availability, maintenance, water, emissions, and ash do not affect cost or reliability.",
+        "Renewable credits, carbon, policy, lifecycle accounting, permits, community acceptance, and environmental rules do not affect access or revenue.",
+        "Capital, debt, power prices, substitutes, fuel contracts, plant reliability, and project distress do not affect survival.",
+        "Reliable, fuel-secure, compliant, flexible, high-availability, and capital-disciplined projects do not outperform poorly controlled alternatives."
+      ]
+    },
+    {
+      "industry_slug": "adandd-insurance",
+      "industry_title": "AD&D Insurance",
+      "industry_sector": "Finance & Insurance",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "ad-market",
+          "claim_text": "AD&D insurance is distributed through employer, voluntary, individual, travel, credit, and affinity channels, with market growth tied to supplemental protection demand and partner distribution.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_00417",
+            "src_00418",
+            "src_00419",
+            "src_00425"
+          ],
+          "sources": [
+            {
+              "id": "src_00417",
+              "title": "Accidental Death and Dismemberment Insurance Market",
+              "publisher": "Verified Market Reports",
+              "url": "https://www.verifiedmarketreports.com/product/accidental-death-and-dismemberment-insurance-market/",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00418",
+              "title": "Accidental Death and Dismemberment Insurance Market",
+              "publisher": "Research and Markets",
+              "url": "https://www.researchandmarkets.com/report/accidental-death-and-dismemberment-insurance",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "Global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00419",
+              "title": "Accidental Death and Dismemberment Insurance",
+              "publisher": "MetLife",
+              "url": "https://www.metlife.com/insurance/life-insurance/accidental-death-and-dismemberment/",
+              "source_type": "company",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_00425",
+              "title": "What 2025 Revealed About the Life Insurance Landscape",
+              "publisher": "Insurance Edge",
+              "url": "https://insurance-edge.net/2026/01/15/what-2025-revealed-about-the-life-insurance-landscape-and-what-is-to-come-in-2026/",
+              "source_type": "news",
+              "published_at": "2026-01-15",
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "ad-workplace",
+          "claim_text": "Workplace injury, occupation, workforce, and benefit conditions influence AD&D exposure, participation, and group pricing.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_00421",
+            "src_00422",
+            "src_00424"
+          ],
+          "sources": [
+            {
+              "id": "src_00421",
+              "title": "Workplace Injury Statistics",
+              "publisher": "Fairsettlement.org",
+              "url": "https://fairsettlement.org/workplace-injury-statistics",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "tertiary"
+            },
+            {
+              "id": "src_00422",
+              "title": "Healthcare Workforce",
+              "publisher": "Becker's Payer",
+              "url": "https://www.beckerspayer.com/workforce/",
+              "source_type": "news",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00424",
+              "title": "US Insurance Sector to Lose Around 400,000 Workers by 2026",
+              "publisher": "Insurance Business",
+              "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/us-insurance-sector-to-lose-around-400000-workers-by-2026-466593.aspx",
+              "source_type": "news",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Accident exposure and event accumulation do not affect claims, reinsurance, or pricing.",
+        "Consumer understanding does not affect sales, retention, or disputes.",
+        "Automation does not change claims cost, speed, or beneficiary experience.",
+        "Regulatory changes do not affect product wording, distribution, or claims."
+      ]
+    },
+    {
+      "industry_slug": "hedge-funds",
+      "industry_title": "Hedge Funds — 2025-2026 Industry Brief",
+      "industry_sector": "Financial Services",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "baseline",
+          "claim_text": "The local baseline forecasts US hedge fund industry revenue of $130.1 billion in 2026 from $103.1 billion in 2021 at a 4.8% forecast CAGR.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_13364"
+          ],
+          "sources": [
+            {
+              "id": "src_13364",
+              "title": "Hedge Funds local baseline brief",
+              "publisher": "IBIS Industries",
+              "url": "",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "capital",
+          "claim_text": "HFR reported global hedge fund capital of $5.15 trillion at 2025 year-end and $5.6 trillion in 2026 Q2, including strong capital growth and net inflows.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_10666",
+            "src_13365"
+          ],
+          "sources": [
+            {
+              "id": "src_10666",
+              "title": "Global Hedge Fund Industry Capital Surges Past Historic $5 Trillion Milestone",
+              "publisher": "HFR",
+              "url": "https://www.hfr.com/media/market-commentary/global-hedge-fund-industry-capital-surges-past-historic-5-trillion-milestone/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_13365",
+              "title": "Hedge Fund Industry Asset Growth Shatters Records",
+              "publisher": "HFR",
+              "url": "https://www.hfr.com/media/market-commentary/hedge-fund-industry-asset-growth-shatters-records/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "AUM growth does not translate to management-fee revenue",
+        "performance and volatility do not affect incentive fees or flows",
+        "scale does not improve cost, financing or distribution economics",
+        "regulatory reporting does not affect platform cost or market access",
+        "leverage and liquidity stress do not affect survival"
+      ]
+    },
+    {
+      "industry_slug": "caterers-in-the-us",
+      "industry_title": "US Caterers (2025-2026)",
+      "industry_sector": "Food & Drink",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "ct-market",
+          "claim_text": "The supplied brief estimates US catering revenue near $15.7 billion in 2026 after post-pandemic growth, with a highly fragmented operator base.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_04018",
+            "src_04026",
+            "src_04027"
+          ],
+          "sources": [
+            {
+              "id": "src_04018",
+              "title": "Caterers in the US Market Analysis",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/caterers/1682/",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_04026",
+              "title": "Catering Services Market Growth Analysis",
+              "publisher": "Technavio",
+              "url": "https://www.technavio.com/report/catering-services-market-industry-analysis",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_04027",
+              "title": "US Catering Market",
+              "publisher": "MarkNtel Advisors",
+              "url": "https://www.marknteladvisors.com/research-library/us-catering-market.html",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "ct-corporate",
+          "claim_text": "Corporate workplace catering is described as a major growth engine as return-to-office policies and food benefits increase meal occasions.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_04019",
+            "src_04021",
+            "src_04022",
+            "src_04023"
+          ],
+          "sources": [
+            {
+              "id": "src_04019",
+              "title": "2026 Catering Industry Trends",
+              "publisher": "Curate",
+              "url": "https://curate.co/blog/2026-catering-industry-trends/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_04021",
+              "title": "Corporate Catering Statistics 2025",
+              "publisher": "Chef Bill Blackburn",
+              "url": "https://chefbillblackburn.com/corporate-catering-statistics-2025/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_04022",
+              "title": "Stricter Return-to-Office Policies Boost Catering Growth",
+              "publisher": "Insurance Journal",
+              "url": "https://www.insurancejournal.com/news/international/2025/08/25/836685.htm",
+              "source_type": "news",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "global with US relevance",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_04023",
+              "title": "Corporate Cafeteria Trends 2026",
+              "publisher": "Fooda",
+              "url": "https://www.fooda.com/blog/corporate-cafeteria-trends-2025-modern-models-for-the-future-of-workplace-dining",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Return-to-office demand fades without corporate catering support.",
+        "Customers accept full labor and ingredient pass-through.",
+        "Platforms improve margins rather than capture value.",
+        "Technology fails to reduce waste, labor, or booking friction.",
+        "Scale does not improve purchasing, route density, or staffing reliability."
+      ]
+    },
+    {
+      "industry_slug": "animal-health-biotechnology",
+      "industry_title": "US Animal Health Biotechnology Industry",
+      "industry_sector": "Healthcare",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "animal-biotech-demand",
+          "claim_text": "US animal-health biotechnology serves companion-animal, livestock, disease-prevention, diagnostic, welfare, food-safety, and outbreak-related demand across species.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_02988",
+            "src_02989",
+            "src_02990",
+            "src_02991"
+          ],
+          "sources": [
+            {
+              "id": "src_02988",
+              "title": "Animal Biotechnology Market",
+              "publisher": "source inventory",
+              "url": "https://www.mordorintelligence.com/industry-reports/animal-biotechnology-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02989",
+              "title": "Animal Biotechnology Market Report",
+              "publisher": "source inventory",
+              "url": "https://www.grandviewresearch.com/industry-analysis/animal-biotechnology-market-report",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02990",
+              "title": "Animal Health Market",
+              "publisher": "source inventory",
+              "url": "https://www.grandviewresearch.com/industry-analysis/animal-health-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02991",
+              "title": "Animal Health Market",
+              "publisher": "source inventory",
+              "url": "https://www.imarcgroup.com/animal-health-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "animal-biotech-monetization",
+          "claim_text": "Vaccines, biologics, therapeutics, diagnostics, platforms, licensing, and distribution determine animal-health biotechnology revenue, adoption, and recurring prevention economics.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_02988",
+            "src_02990",
+            "src_02992",
+            "src_02994",
+            "src_02995"
+          ],
+          "sources": [
+            {
+              "id": "src_02988",
+              "title": "Animal Biotechnology Market",
+              "publisher": "source inventory",
+              "url": "https://www.mordorintelligence.com/industry-reports/animal-biotechnology-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02990",
+              "title": "Animal Health Market",
+              "publisher": "source inventory",
+              "url": "https://www.grandviewresearch.com/industry-analysis/animal-health-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02992",
+              "title": "Animal Health Industry Competitive Landscape",
+              "publisher": "source inventory",
+              "url": "https://www.grandviewresearch.com/market-trends/animal-health-industry-competitive-landscape",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_02994",
+              "title": "Elanco Announces FDA Approval and Launch of Zenrelia",
+              "publisher": "source inventory",
+              "url": "https://www.elanco.com/us/newsroom/press-releases/elanco-announces-fda-approval-and-launch-of-zenrelia-ilunocitinib-tablets",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_02995",
+              "title": "Veterinary Pharmaceutical Companies",
+              "publisher": "source inventory",
+              "url": "https://www.marketsandmarkets.com/ResearchInsight/veterinary-pharmaceuticals-companies.asp",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Animal disease, pet, livestock, diagnostic, welfare, and food-safety demand do not affect animal-health biotechnology economics.",
+        "Biology, efficacy, safety, resistance, approval, and stewardship do not affect adoption, price, or value.",
+        "Trials, manufacturing, quality, cold chain, supply, and regulatory controls do not affect availability, liability, or cash.",
+        "Veterinary, producer, owner, distributor, and government adoption does not affect revenue or resilience.",
+        "Portfolio, licensing, capital, and partnership discipline do not affect animal-health biotechnology outcomes."
+      ]
+    },
+    {
+      "industry_slug": "web-domain-name-sales",
+      "industry_title": "Web Domain Name Sales — 2025-2026 Industry Brief",
+      "industry_sector": "Internet Infrastructure and Digital Marketplaces",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "domain-market",
+          "claim_text": "The domain-name ecosystem is a large recurring infrastructure market spanning registrations, renewals, registries, registrars, aftermarket, and related services.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06956",
+            "src_06960",
+            "src_06964"
+          ],
+          "sources": [
+            {
+              "id": "src_06956",
+              "title": "Domain Name Industry Brief Q2 2026",
+              "publisher": "DNIB",
+              "url": "https://www.dnib.com/articles/the-domain-name-industry-brief-q2-2026",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06960",
+              "title": "DNIB Internet Domain Name Report",
+              "publisher": "Verisign",
+              "url": "https://investor.verisign.com/news-releases/news-release-details/dnibcom-reports-internet-has-3925-million-domain-name",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06964",
+              "title": "Domain Registration Report 2026",
+              "publisher": "Namecheap",
+              "url": "https://www.namecheap.com/about/press-releases/26-01-29/namecheap-domain-registration-report-offers-insights-for-2026/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "domain-registry",
+          "claim_text": "Registry volume, renewal economics, wholesale pricing, and policy shape recurring domain infrastructure and registrar economics.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_06958",
+            "src_06959",
+            "src_06960"
+          ],
+          "sources": [
+            {
+              "id": "src_06958",
+              "title": "Verisign Second Quarter 2026 Results",
+              "publisher": "Verisign",
+              "url": "https://investor.verisign.com/news-releases/news-release-details/verisign-reports-second-quarter-2026-results",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06959",
+              "title": "Verisign First Quarter 2026 Results",
+              "publisher": "Verisign",
+              "url": "https://investor.verisign.com/news-releases/news-release-details/verisign-reports-first-quarter-2026-results",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06960",
+              "title": "DNIB Internet Domain Name Report",
+              "publisher": "Verisign",
+              "url": "https://investor.verisign.com/news-releases/news-release-details/dnibcom-reports-internet-has-3925-million-domain-name",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "digital identity and scarcity do not affect price or demand",
+        "registry and policy changes do not affect supply or margin",
+        "aftermarket liquidity does not affect inventory value or cash",
+        "security and trust do not affect losses, retention, or contracts",
+        "AI does not affect discovery, supply, conversion, or portfolio economics",
+        "registration volume does not translate into durable renewal or profit"
+      ]
+    },
+    {
+      "industry_slug": "air-purification-equipment-manufacturing",
+      "industry_title": "Air Purification Equipment Manufacturing",
+      "industry_sector": "Manufacturing",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "airpur-model",
+          "claim_text": "Air-purification manufacturers monetize equipment, filters, service, and integrated air-quality solutions across residential, commercial, healthcare, and industrial applications.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15618",
+            "src_15619",
+            "src_15624",
+            "src_15625"
+          ],
+          "sources": [
+            {
+              "id": "src_15618",
+              "title": "Air purification equipment manufacturing baseline",
+              "publisher": "IBISWorld local baseline",
+              "url": "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/air-purification-equipment-manufacturing.txt",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15619",
+              "title": "U.S. air purifier market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/us-air-purifier-market'}",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15624",
+              "title": "Fiscal 2025 results",
+              "publisher": "Donaldson",
+              "url": "https://ir.donaldson.com/news/news-details/2025/Donaldson-Reports-Record-Fourth-Quarter-Full-Year-2025-Sales-and-Earnings/default.aspx'}",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15625",
+              "title": "Fiscal 2026 third-quarter results",
+              "publisher": "Donaldson",
+              "url": "https://ir.donaldson.com/news/news-details/2026/Donaldson-Reports-Record-Third-Quarter-Fiscal-2026-Sales-and-Earnings/default.aspx'}",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "airpur-demand",
+          "claim_text": "Market, industrial-production, wildfire-smoke, and indoor-air-quality evidence supports demand but does not establish profitability without utilization, energy, and replacement economics.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15619",
+            "src_15620",
+            "src_15622",
+            "src_15623"
+          ],
+          "sources": [
+            {
+              "id": "src_15619",
+              "title": "U.S. air purifier market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/us-air-purifier-market'}",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15620",
+              "title": "Industrial Production and Capacity Utilization",
+              "publisher": "Federal Reserve",
+              "url": "https://www.federalreserve.gov/Releases/g17/20260116/default.htm'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15622",
+              "title": "Wildfires and indoor air quality",
+              "publisher": "U.S. Environmental Protection Agency",
+              "url": "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15623",
+              "title": "Research on DIY air cleaners and wildfire smoke",
+              "publisher": "U.S. Environmental Protection Agency",
+              "url": "https://www.epa.gov/air-research/research-diy-air-cleaners-reduce-wildfire-smoke-indoors'}",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "awareness does not convert into replacement demand",
+        "low-cost substitutes commoditize the market",
+        "energy and installation cost deter adoption",
+        "claims or safety enforcement damages channel access"
+      ]
+    },
+    {
+      "industry_slug": "audio-production-studios-in-the-us",
+      "industry_title": "Audio Production Studios in the US — 2025-2026 Industry Brief",
+      "industry_sector": "Media & Entertainment",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "baseline",
+          "claim_text": "The local baseline reports 2022 US audio production studio revenue of $1.473 billion, 30,675 establishments, 31,183 workers and a 9.0% EBIT margin.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_13485",
+            "src_13490"
+          ],
+          "sources": [
+            {
+              "id": "src_13485",
+              "title": "Audio Production Studios in the US local baseline brief",
+              "publisher": "IBIS Industries",
+              "url": "",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_13490",
+              "title": "Audio Production Studios Industry Profile",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/north-carolina/audio-production-studios/34105/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "music",
+          "claim_text": "RIAA reported 2025 US recorded music wholesale revenue of $11.5 billion, including $9.5 billion streaming revenue and 106.5 million paid streaming accounts.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_09023",
+            "src_13486"
+          ],
+          "sources": [
+            {
+              "id": "src_09023",
+              "title": "2025 Year-End Music Industry Revenue Report",
+              "publisher": "RIAA",
+              "url": "https://www.riaa.com/reports/2025-year-end-music-industry-revenue-report-riaa/",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_13486",
+              "title": "Mid-Year 2025 US Recorded Music Revenues",
+              "publisher": "RIAA",
+              "url": "https://www.riaa.com/growth-in-paid-subscription-streaming-drives-mid-year-2025-us-recorded-music-revenues-to-new-high-reports-riaa/",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "streaming, podcast and audiobook growth does not create studio demand",
+        "specialist talent does not command premium pricing",
+        "AI does not change editing productivity or rates",
+        "rights and metadata errors do not affect revenue",
+        "utilization and rent do not determine studio profitability"
+      ]
+    },
+    {
+      "industry_slug": "commercial-leasing-in-the-us",
+      "industry_title": "US Commercial Leasing 2025–2026: The Tale of Two Markets",
+      "industry_sector": "Real Estate",
+      "geography": "United States",
+      "as_of": "2025-12-31",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "lease-market",
+          "claim_text": "The brief estimates the US commercial leasing market at $276.7 billion in 2026 with approximately 1% growth and reports a $220.4 billion 2022 baseline; the series requires reconciliation across definitions and property types.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_04343"
+          ],
+          "sources": [
+            {
+              "id": "src_04343",
+              "title": "Commercial Leasing in the US",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/market-size/commercial-leasing/1350/",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "lease-office",
+          "claim_text": "Office conditions are bifurcated: the brief reports 18.6% vacancy in Q1 2026 after a 19.6% peak, with prime downtown properties outperforming secondary and suburban assets.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_04344",
+            "src_04346",
+            "src_04348"
+          ],
+          "sources": [
+            {
+              "id": "src_04344",
+              "title": "Q1 2026 US Office Market Report",
+              "publisher": "CBRE",
+              "url": "https://www.cbre.com/insights/figures/q1-2026-us-office-market-report",
+              "source_type": "company",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_04346",
+              "title": "US Office Market Dynamics",
+              "publisher": "JLL",
+              "url": "https://www.jll.com/en/us/insights/market-dynamics/us-office",
+              "source_type": "company",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_04348",
+              "title": "Emerging Trends in Real Estate: Office Outlook",
+              "publisher": "PwC/ULI",
+              "url": "https://www.pwc.com/us/en/industries/financial-services/asset-wealth-management/real-estate/emerging-trends-in-real-estate-pwc-uli/property-type-outlook/office.html",
+              "source_type": "company",
+              "published_at": null,
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Secondary office and traditional retail recover without substantial conversion or rent concessions.",
+        "Loan maturities refinance without meaningful equity, impairment, or asset-quality differentiation.",
+        "Industrial and AI demand fail to translate into signed, financed, permitted, occupied facilities.",
+        "Climate, insurance, infrastructure, and code exposure do not affect occupancy, capex, financing, or exit liquidity."
+      ]
+    },
+    {
+      "industry_slug": "art-dealers-in-the-us",
+      "industry_title": "Art Dealers in the US — 2025-2026 Industry Brief",
+      "industry_sector": "Retail",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "art-baseline",
+          "claim_text": "The supplied baseline cites 2022 US art-dealer revenue of $11.403 billion, $1.038 billion profit, a 9.1% margin, 21,452 establishments, 21,217 enterprises, 33,762 workers, and $1.325 billion wages.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_12963"
+          ],
+          "sources": [
+            {
+              "id": "src_12963",
+              "title": "Art Dealers local baseline brief",
+              "publisher": "IBIS Industries",
+              "url": "",
+              "source_type": "other",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "market-recovery",
+          "claim_text": "Art Basel and UBS data cited in the brief show 2025 global art-market sales of $59.6 billion, up 4%, and US sales of $26.0 billion, up 5% year over year.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_12964",
+            "src_12965",
+            "src_12966"
+          ],
+          "sources": [
+            {
+              "id": "src_12964",
+              "title": "Art Basel and UBS Global Art Market Report 2026",
+              "publisher": "Art Basel and UBS",
+              "url": "https://www.artbasel.com/stories/the-art-basel-and-ubs-global-art-market-report-2026?lang=en",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_12965",
+              "title": "UBS US highlights for Global Art Market Report 2026",
+              "publisher": "UBS",
+              "url": "https://www.ubs.com/us/en/wealth-management/who-we-serve/ultra-high-net-worth-investors/art-advisory/art-basel-art-market-report.html",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_12966",
+              "title": "Global Art Market Report 2026: Global Sales",
+              "publisher": "Art Basel and UBS",
+              "url": "https://theartmarket.artbasel.com/global-sales",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "high-end auction growth does not translate into dealer or gallery sales",
+        "collectors do not pay for provenance, curation, or relationships",
+        "online channels permanently replace fairs and high-touch transactions",
+        "operating costs do not affect dealer margins or inventory decisions",
+        "AML, sanctions, title, and cultural-property controls are immaterial to market access"
+      ]
+    },
+    {
+      "industry_slug": "daily-deals-sites",
+      "industry_title": "Daily Deals Sites",
+      "industry_sector": "Technology & Digital",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "deals-model",
+          "claim_text": "Daily-deals sites aggregate merchants and consumers and monetize discounted transactions, marketing reach, and commissions.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15363",
+            "src_15364"
+          ],
+          "sources": [
+            {
+              "id": "src_15363",
+              "title": "Daily deals sites baseline",
+              "publisher": "IBIS Industries research file",
+              "url": "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/daily-deals-sites.txt",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "tertiary"
+            },
+            {
+              "id": "src_15364",
+              "title": "Groupon annual filing",
+              "publisher": "U.S. Securities and Exchange Commission",
+              "url": "https://www.sec.gov/Archives/edgar/data/1490281/000162828026016429/grpn-20251231.htm",
+              "source_type": "filing",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        },
+        {
+          "claim_id": "deals-groupon",
+          "claim_text": "Groupon filings and results describe a marketplace business serving local and global merchants and consumers and managing transaction and operating economics.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15364",
+            "src_15365",
+            "src_15366",
+            "src_15367"
+          ],
+          "sources": [
+            {
+              "id": "src_15364",
+              "title": "Groupon annual filing",
+              "publisher": "U.S. Securities and Exchange Commission",
+              "url": "https://www.sec.gov/Archives/edgar/data/1490281/000162828026016429/grpn-20251231.htm",
+              "source_type": "filing",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_15365",
+              "title": "Groupon 2025 results",
+              "publisher": "Groupon",
+              "url": "https://investor.groupon.com/press-releases/press-release-details/2026/Groupon-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+              "source_type": "company",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_15366",
+              "title": "Groupon first quarter 2026 results",
+              "publisher": "Groupon",
+              "url": "https://investor.groupon.com/press-releases/press-release-details/2026/Groupon-Reports-First-Quarter-2026-Results/default.aspx",
+              "source_type": "company",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_15367",
+              "title": "Groupon second quarter 2025 results",
+              "publisher": "Groupon",
+              "url": "https://investor.groupon.com/press-releases/press-release-details/2025/Groupon-Reports-Second-Quarter-2025-Results/default.aspx",
+              "source_type": "company",
+              "published_at": null,
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Audience scale alone produces durable margin without retention or merchant ROI.",
+        "Personalization fails to improve contribution or increases trust cost.",
+        "Merchant discounts do not affect renewal, redemption, or full-price cannibalization.",
+        "Compliance incidents do not affect payment, marketing, conversion, or retention."
+      ]
+    },
+    {
+      "industry_slug": "automobile-towing-in-the-us",
+      "industry_title": "US Automobile Towing Industry 2025-2026",
+      "industry_sector": "Transport & Logistics",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "towing-demand",
+          "claim_text": "US automobile towing demand is shaped by vehicle breakdowns, collisions, traffic, aging vehicles, fleets, roadside memberships, police and municipal calls, weather, and EV recovery.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_03255",
+            "src_03256",
+            "src_03257",
+            "src_03258",
+            "src_03260",
+            "src_03261",
+            "src_03264"
+          ],
+          "sources": [
+            {
+              "id": "src_03255",
+              "title": "Automobile Towing 2026 Report",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/automobile-towing/1206/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03256",
+              "title": "Towing Industry Report 2025",
+              "publisher": "source inventory",
+              "url": "https://www.kentleyinsights.com/automobile-towing-industry-market-research-report/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03257",
+              "title": "Tow Truck Market Report",
+              "publisher": "source inventory",
+              "url": "https://www.researchandmarkets.com/report/towing-vehicle",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03258",
+              "title": "Towing Equipment Market Analysis",
+              "publisher": "source inventory",
+              "url": "https://www.technavio.com/report/towing-equipment-market-industry-analysis",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03260",
+              "title": "AAA Roadside Assistance for Electric Vehicles",
+              "publisher": "source inventory",
+              "url": "https://mwg.aaa.com/automotive/roadside/electric-vehicle",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03261",
+              "title": "AAA Auto Repair and Maintenance 2025",
+              "publisher": "source inventory",
+              "url": "https://newsroom.aaa.com/2025/04/aaa-urges-drivers-to-stay-proactive-on-auto-repair-and-maintenance/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_03264",
+              "title": "Tow Truck Industry Statistics 2026",
+              "publisher": "source inventory",
+              "url": "https://gitnux.org/tow-truck-industry-statistics/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "towing-monetization",
+          "claim_text": "Tow charges, mileage, roadside, storage, impound, insurer, motor-club, fleet, municipal, auction, transport, and specialty contracts determine towing revenue mix.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_03255",
+            "src_03256",
+            "src_03257",
+            "src_03258",
+            "src_03262",
+            "src_03274",
+            "src_03275"
+          ],
+          "sources": [
+            {
+              "id": "src_03255",
+              "title": "Automobile Towing 2026 Report",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/automobile-towing/1206/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03256",
+              "title": "Towing Industry Report 2025",
+              "publisher": "source inventory",
+              "url": "https://www.kentleyinsights.com/automobile-towing-industry-market-research-report/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03257",
+              "title": "Tow Truck Market Report",
+              "publisher": "source inventory",
+              "url": "https://www.researchandmarkets.com/report/towing-vehicle",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03258",
+              "title": "Towing Equipment Market Analysis",
+              "publisher": "source inventory",
+              "url": "https://www.technavio.com/report/towing-equipment-market-industry-analysis",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03262",
+              "title": "Towing Software Market",
+              "publisher": "source inventory",
+              "url": "https://www.futuremarketinsights.com/reports/towing-software-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03274",
+              "title": "ADESA Auctions",
+              "publisher": "source inventory",
+              "url": "https://www.adesa.com/auctions/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_03275",
+              "title": "ACV Auctions Wholesale Vehicles",
+              "publisher": "source inventory",
+              "url": "https://www.acvauctions.com/wholesale",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Breakdowns, collisions, traffic, vehicle age, fleets, weather, police, and roadside memberships do not affect towing economics.",
+        "Drivers, trucks, fuel, maintenance, yards, insurance, dispatch, storage, and safety do not affect capacity, margin, or cash.",
+        "Insurer, motor-club, fleet, municipal, police, dealer, repair, auction, and direct channels do not affect utilization, price, or resilience.",
+        "EV, high-voltage, autonomous, licensing, storage, consumer, privacy, insurance, and predatory-towing rules do not affect operations or liability.",
+        "Reliable fleets, trained crews, transparent pricing, compliant storage, safe recovery, and liquidity discipline do not affect towing outcomes."
+      ]
+    },
+    {
+      "industry_slug": "water-supply-and-irrigation-systems-in-the-us",
+      "industry_title": "Water Supply & Irrigation Systems in the US — 2025-2026 Industry Brief",
+      "industry_sector": "Water Utilities and Infrastructure",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "water-system-market",
+          "claim_text": "US water-supply and irrigation systems are long-lived, regulated infrastructure businesses shaped by demand, source, quality, capital, rates, and hydrology.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06920",
+            "src_06921",
+            "src_06927"
+          ],
+          "sources": [
+            {
+              "id": "src_06920",
+              "title": "EPA Seventh Drinking Water Infrastructure Needs Survey",
+              "publisher": "US Environmental Protection Agency",
+              "url": "https://www.epa.gov/dwsrf/epas-7th-drinking-water-infrastructure-needs-survey-and-assessment",
+              "source_type": "government",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06921",
+              "title": "Information About Public Water Systems",
+              "publisher": "US Environmental Protection Agency",
+              "url": "https://www.epa.gov/dwreginfo/information-about-public-water-systems",
+              "source_type": "government",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06927",
+              "title": "American Water Works 2025 Form 10-K",
+              "publisher": "SEC",
+              "url": "https://www.sec.gov/Archives/edgar/data/1410636/000141063626000034/awk-20251231.htm",
+              "source_type": "filing",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "water-infrastructure",
+          "claim_text": "Aging drinking-water infrastructure and identified system needs support continuing capital investment, maintenance, and funding requirements.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_06920",
+            "src_06922",
+            "src_06923"
+          ],
+          "sources": [
+            {
+              "id": "src_06920",
+              "title": "EPA Seventh Drinking Water Infrastructure Needs Survey",
+              "publisher": "US Environmental Protection Agency",
+              "url": "https://www.epa.gov/dwsrf/epas-7th-drinking-water-infrastructure-needs-survey-and-assessment",
+              "source_type": "government",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06922",
+              "title": "WIFIA Funding",
+              "publisher": "US Environmental Protection Agency",
+              "url": "https://www.epa.gov/newsreleases/epa-announces-7-billion-newly-available-wifia-funding-and-five-new-wifia-loan",
+              "source_type": "government",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06923",
+              "title": "Water Infrastructure and Federal Policy",
+              "publisher": "Congressional Research Service",
+              "url": "https://www.everycrsreport.com/files/2026-06-23_R49007_1cb70f69691fce50917aea54370b14a169211ab3.html",
+              "source_type": "government",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "demand and infrastructure do not affect capacity or cash",
+        "drought and source conditions do not affect quality or cost",
+        "funding and rates do not affect project delivery or reliability",
+        "technology does not improve loss, energy, quality, or resilience",
+        "compliance investment does not protect public health, permits, or trust",
+        "affordability and public acceptance do not affect rate recovery or capital"
+      ]
+    },
+    {
+      "industry_slug": "refrigeration-equipment-wholesaling-in-the-us",
+      "industry_title": "Refrigeration Equipment Wholesaling in the US",
+      "industry_sector": "Wholesale",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "foodservice",
+          "claim_text": "Restaurant-industry outlooks show a large U.S. foodservice demand base with persistent labor and input-cost pressure, supporting ongoing refrigeration replacement and project need.",
+          "claim_type": "forecast",
+          "source_ids": [
+            "src_08292",
+            "src_09091",
+            "src_09092"
+          ],
+          "sources": [
+            {
+              "id": "src_08292",
+              "title": "Restaurant sales forecast",
+              "publisher": "National Restaurant Association",
+              "url": "https://www.restaurant.org/education-and-resources/resource-library/report-sales-to-hit-%241-55t-in-2026-despite-challenging-business-environment/",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_09091",
+              "title": "Restaurant industry growth outlook",
+              "publisher": "National Restaurant Association",
+              "url": "https://www.restaurant.org/research-and-media/media/press-releases/restaurant-industry-poised-for-growth-in-2025-industry-expected-to-employ-15-9-million-people-and-r/",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_09092",
+              "title": "Restaurant industry 2026 cost and demand outlook",
+              "publisher": "National Restaurant Association",
+              "url": "https://www.restaurant.org/research-and-media/media/press-releases/persistent-cost-increases-and-enduring-demand-will-shape-the-restaurant-industry-in-2026/",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "construction",
+          "claim_text": "Census construction data provides a continuing commercial-building and renovation driver for refrigeration equipment and distribution demand.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_09090"
+          ],
+          "sources": [
+            {
+              "id": "src_09090",
+              "title": "Value of private construction put in place",
+              "publisher": "U.S. Census Bureau",
+              "url": "https://www.census.gov/construction/c30/pdf/privsa.pdf",
+              "source_type": "government",
+              "retrieved_at": "2026-10-21",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Foodservice, construction, cold-chain, and replacement cycles do not affect equipment demand, turns, or cash.",
+        "Refrigerant and efficiency rules do not change SKU mix, obsolescence, retrofit, training, or margins.",
+        "Branch density and technical expertise create no durable availability, pricing, service, or retention advantage.",
+        "Digital ordering, controls, and data do not improve turns, energy, uptime, or customer outcomes.",
+        "Consolidation creates no purchasing, inventory, technical, branch, or integration advantage."
+      ]
+    },
+    {
+      "industry_slug": "agricultural-banks",
+      "industry_title": "Agricultural Banks",
+      "industry_sector": "Finance & Insurance",
+      "geography": "United States",
+      "as_of": "2026-10-15",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "agbank-baseline",
+          "claim_text": "The industry baseline describes approximately $17.6 billion of 2021 revenue, with farm real-estate lending the largest revenue source and net interest income the dominant economic engine.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_00089"
+          ],
+          "sources": [
+            {
+              "id": "src_00089",
+              "title": "Agricultural Banks Industry",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/agricultural-banks/4739/",
+              "source_type": "research_firm",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "agbank-scale",
+          "claim_text": "The brief reports approximately 945 agricultural banks and $215 billion in farm loans in 2025, while the broader Farm Credit System is a separate and larger lending population.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_00090",
+            "src_00092",
+            "src_00093"
+          ],
+          "sources": [
+            {
+              "id": "src_00090",
+              "title": "2025 Farm Bank Performance Report",
+              "publisher": "American Bankers Association",
+              "url": "https://www.aba.com/news-research/analysis-guides/2025-farm-bank-performance-report",
+              "source_type": "trade_association",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_00092",
+              "title": "US Commercial Banks Participating in Agricultural Lending: 2024 Q4",
+              "publisher": "Farmdoc Daily, University of Illinois",
+              "url": "https://farmdocdaily.illinois.edu/2025/03/us-commercial-banks-participating-in-agricultural-lending-report-2024-q4.html",
+              "source_type": "academic",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_00093",
+              "title": "Number of Farm Lenders Shrinks as Loan Volume Increases",
+              "publisher": "Capital Press",
+              "url": "https://capitalpress.com/2026/04/13/number-of-farm-lenders-shrinks-as-loan-volume-increases/",
+              "source_type": "news",
+              "published_at": null,
+              "retrieved_at": "2026-10-15",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "relationship depth fails to improve retention or risk outcomes",
+        "digital lenders capture profitable routine and complex credit without loss penalty",
+        "farm profitability recovers without stronger underwriting or capital differentiation",
+        "stable deposits and local knowledge do not offset margin compression",
+        "regulatory and technology investment fails to improve resilience or access"
+      ]
+    },
+    {
+      "industry_slug": "alarm-horn-and-traffic-control-equipment-manufacturing-in-the-us",
+      "industry_title": "Alarm, Horn & Traffic Control Equipment Manufacturing in the US",
+      "industry_sector": "Manufacturing",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "baseline_2022",
+          "claim_text": "The 2022 baseline reported $4.549 billion revenue, $296 million profit, a 6.5% margin and wages of $964 million.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_13833"
+          ],
+          "sources": [
+            {
+              "id": "src_13833",
+              "title": "Alarm, Horn & Traffic Control Equipment Manufacturing baseline",
+              "publisher": "IBISWorld",
+              "url": "",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "hsip",
+          "claim_text": "FHWA materials identified Highway Safety Improvement Program funding of approximately $3.177 billion in 2025 and $3.246 billion in 2026.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_13834",
+            "src_13835"
+          ],
+          "sources": [
+            {
+              "id": "src_13834",
+              "title": "FHWA Highway Safety Improvement Program IIJA funding",
+              "publisher": "Federal Highway Administration",
+              "url": "https://highways.dot.gov/iija/fact-sheets/highway-safety-improvement-program-hsip",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_13835",
+              "title": "FHWA IIJA funding",
+              "publisher": "Federal Highway Administration",
+              "url": "https://highways.dot.gov/iija/funding",
+              "source_type": "government",
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "public funding does not convert to equipment orders",
+        "connected systems fail to earn premium or recurring service",
+        "domestic sourcing adds cost without bid advantage",
+        "private construction rebounds enough to remove mix pressure",
+        "commodity products retain pricing power"
+      ]
+    },
+    {
+      "industry_slug": "allergy-medicine-manufacturing-otc",
+      "industry_title": "Allergy Medicine Manufacturing OTC",
+      "industry_sector": "Manufacturing",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "baseline_2021",
+          "claim_text": "The baseline reported $3.623 billion US OTC allergy medicine manufacturing revenue in 2021 and a 6.7% profit margin.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_13845"
+          ],
+          "sources": [
+            {
+              "id": "src_13845",
+              "title": "OTC Allergy Medicine Manufacturing baseline",
+              "publisher": "IBISWorld",
+              "url": "",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "baseline_outlook",
+          "claim_text": "The baseline projected 3.1% annual revenue growth from 2021 through 2026 and a 6.8% 2026 EBIT margin.",
+          "claim_type": "forecast",
+          "source_ids": [
+            "src_13845"
+          ],
+          "sources": [
+            {
+              "id": "src_13845",
+              "title": "OTC Allergy Medicine Manufacturing baseline",
+              "publisher": "IBISWorld",
+              "url": "",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "allergy prevalence does not sustain demand",
+        "private label loses share despite molecule maturity",
+        "FDA changes do not affect product mix or cost",
+        "flexible plants do not outperform fixed portfolios",
+        "seasonal variability is immaterial to inventory returns"
+      ]
+    },
+    {
+      "industry_slug": "armored-vehicle-manufacturing",
+      "industry_title": "US Armored Vehicle Manufacturing (2025-2026)",
+      "industry_sector": "Manufacturing",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "armored-vehicle-demand",
+          "claim_text": "US armored-vehicle demand is shaped by Army modernization, protected mobility, infantry fighting vehicles, tactical vehicles, allied procurement, readiness, and conflict lessons.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_03056",
+            "src_03057",
+            "src_03058",
+            "src_03059",
+            "src_03062"
+          ],
+          "sources": [
+            {
+              "id": "src_03056",
+              "title": "Tank and Armored Vehicle Manufacturing in the US Industry Analysis",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/tank-armored-vehicle-manufacturing/857/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03057",
+              "title": "North America Armored Fighting Vehicles Market Analysis",
+              "publisher": "source inventory",
+              "url": "https://www.mordorintelligence.com/industry-reports/north-america-armored-fighting-vehicles-market",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03058",
+              "title": "Joint Light Tactical Vehicle",
+              "publisher": "source inventory",
+              "url": "https://www.congress.gov/crs-product/IF11729",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_03059",
+              "title": "US Army Enhances Firepower with M1304 Stryker Vehicles",
+              "publisher": "source inventory",
+              "url": "https://www.armyrecognition.com/news/army-news/2025/us-army-enhances-firepower-of-infantry-divisions-with-new-m1304-icvva1-stryker-infantry-fighting-vehicles",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03062",
+              "title": "FY2026 Defense Budget: Funding for Selected Weapon Systems",
+              "publisher": "source inventory",
+              "url": "https://www.congress.gov/crs-product/R48860",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        },
+        {
+          "claim_id": "armored-vehicle-monetization",
+          "claim_text": "Development, prototypes, production, upgrades, sustainment, spare parts, training, and lifecycle support determine armored-vehicle manufacturer revenue and program value.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_03056",
+            "src_03058",
+            "src_03060",
+            "src_03061",
+            "src_03062"
+          ],
+          "sources": [
+            {
+              "id": "src_03056",
+              "title": "Tank and Armored Vehicle Manufacturing in the US Industry Analysis",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/tank-armored-vehicle-manufacturing/857/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03058",
+              "title": "Joint Light Tactical Vehicle",
+              "publisher": "source inventory",
+              "url": "https://www.congress.gov/crs-product/IF11729",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_03060",
+              "title": "AM General JLTV A2 Production and Full-Rate Testing",
+              "publisher": "source inventory",
+              "url": "https://www.armyrecognition.com/news/army-news/2025/am-general-to-deliver-first-jltv-a2-armored-vehicles-for-us-army-testing-to-validate-250-functional-upgrades",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03061",
+              "title": "General Dynamics Reports Fourth-Quarter and Full-Year 2025 Results",
+              "publisher": "source inventory",
+              "url": "https://www.gd.com/Articles/2026/01/28/general-dynamics-reports-fourth-quarter-and-full-year-2025-financial-results",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_03062",
+              "title": "FY2026 Defense Budget: Funding for Selected Weapon Systems",
+              "publisher": "source inventory",
+              "url": "https://www.congress.gov/crs-product/R48860",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Defense modernization, protected mobility, allied procurement, and readiness do not affect armored-vehicle manufacturing economics.",
+        "Appropriations, acquisition policy, requirements, qualification, acceptance, and contracts do not affect program value or cash.",
+        "Engineering, labor, armor, engines, electronics, suppliers, factories, testing, quality, and schedule do not affect delivery or margin.",
+        "Cybersecurity, classified, export, contract, quality, labor, environmental, and safety rules do not affect operations or liability.",
+        "Production rate, platform reliability, sustainment, supplier resilience, and liquidity discipline do not affect armored-vehicle outcomes."
+      ]
+    },
+    {
+      "industry_slug": "asphalt-manufacturing-in-the-us",
+      "industry_title": "US Asphalt Manufacturing 2025-2026",
+      "industry_sector": "Manufacturing",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "asphalt-demand",
+          "claim_text": "US asphalt demand is shaped by highways, roads, airports, parking, commercial and industrial sites, maintenance backlogs, infrastructure funding, and construction activity.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_03069",
+            "src_03070",
+            "src_03071",
+            "src_03072",
+            "src_03075",
+            "src_03076"
+          ],
+          "sources": [
+            {
+              "id": "src_03069",
+              "title": "Asphalt Manufacturing in the US Market Size Statistics",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/industry-statistics/market-size/asphalt-manufacturing-united-states/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03070",
+              "title": "Asphalt Manufacturing in the US Industry Analysis 2026",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/asphalt-manufacturing/450/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03071",
+              "title": "Paving the Way to Growth in Pavement Services",
+              "publisher": "source inventory",
+              "url": "https://www.rwbaird.com/corporations-and-institutions/investment-banking/insights/2025/02/paving-the-way-to-growth-in-pavement-services/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03072",
+              "title": "2026 Asphalt Industry Outlook",
+              "publisher": "source inventory",
+              "url": "https://www.constructionowners.com/news/2026-road-building-outlook-work-is-strong-risks-are-growing",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03075",
+              "title": "Infrastructure Investment and Jobs Act",
+              "publisher": "source inventory",
+              "url": "https://highways.dot.gov/infrastructure-investment-and-jobs-act",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_03076",
+              "title": "Infrastructure Investment and Jobs Act Funding Status",
+              "publisher": "source inventory",
+              "url": "https://www.transportation.gov/mission/budget/infrastructure-investment-and-jobs-act-iija-funding-status",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        },
+        {
+          "claim_id": "asphalt-monetization",
+          "claim_text": "Mix tons, specifications, local prices, contractor and agency contracts, recycled products, and integrated paving relationships determine asphalt manufacturing revenue and utilization.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_03069",
+            "src_03070",
+            "src_03071",
+            "src_03073",
+            "src_03077"
+          ],
+          "sources": [
+            {
+              "id": "src_03069",
+              "title": "Asphalt Manufacturing in the US Market Size Statistics",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/industry-statistics/market-size/asphalt-manufacturing-united-states/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03070",
+              "title": "Asphalt Manufacturing in the US Industry Analysis 2026",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/asphalt-manufacturing/450/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03071",
+              "title": "Paving the Way to Growth in Pavement Services",
+              "publisher": "source inventory",
+              "url": "https://www.rwbaird.com/corporations-and-institutions/investment-banking/insights/2025/02/paving-the-way-to-growth-in-pavement-services/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03073",
+              "title": "Recycled Asphalt Research Report 2026",
+              "publisher": "source inventory",
+              "url": "https://www.globenewswire.com/news-release/2026/01/28/3227403/28124/en/Recycled-Asphalt-Research-Report-2026-10-95-Bn-Market-Opportunities-Trends-Competitive-Analysis-Strategies-Forecasts-2020-2025-2025-2030F-2035F.html",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03077",
+              "title": "Construction Partners Form 8-K",
+              "publisher": "source inventory",
+              "url": "https://www.sec.gov/Archives/edgar/data/1718227/000119312524240069/d855143dex991.htm",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Highway, road, airport, parking, maintenance, and infrastructure funding do not affect asphalt demand or utilization.",
+        "Binder, aggregates, energy, fuel, labor, haul distance, plants, weather, and maintenance do not affect cost or delivery.",
+        "DOT specifications, public procurement, quality testing, agency acceptance, and project timing do not affect revenue or cash.",
+        "Emissions, hazardous-air, stormwater, recycling, OSHA, transportation, and environmental rules do not affect operations or liability.",
+        "Local plant density, recycling, quality, seasonal liquidity, and cost discipline do not affect asphalt manufacturing outcomes."
+      ]
+    },
+    {
+      "industry_slug": "auto-extended-warranty-providers",
+      "industry_title": "US Auto Extended Warranty Providers",
+      "industry_sector": "Finance & Insurance",
+      "geography": "United States",
+      "as_of": "2026-10-20",
+      "pattern_match": false,
+      "comparison_role": "non_matching_comparator",
+      "claims": [
+        {
+          "claim_id": "warranty-demand",
+          "claim_text": "US auto extended-warranty demand is shaped by vehicle age, mileage, repair inflation, consumer budgets, used-vehicle ownership, EV technology, and dealer finance.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_03119",
+            "src_03120",
+            "src_03121",
+            "src_03122",
+            "src_03128"
+          ],
+          "sources": [
+            {
+              "id": "src_03119",
+              "title": "Auto Extended Warranty Providers in the US Industry Analysis 2025",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/auto-extended-warranty-providers/5038/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03120",
+              "title": "Extended Warranty Market Size and Share Report",
+              "publisher": "source inventory",
+              "url": "https://www.grandviewresearch.com/industry-analysis/extended-warranty-market-report",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03121",
+              "title": "Auto Extended Warranty Market Forecast to 2030",
+              "publisher": "source inventory",
+              "url": "https://www.researchandmarkets.com/report/automotive-extended-warranty",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03122",
+              "title": "Vehicle Service Contracts Market Forecast 2025-2032",
+              "publisher": "source inventory",
+              "url": "https://www.researchandmarkets.com/reports/6055164/vehicle-service-contracts-market-global",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03128",
+              "title": "Best Warranties for Electric Cars in 2025",
+              "publisher": "source inventory",
+              "url": "https://www.recurrentauto.com/research/best-warranties-for-electric-cars-in-2025",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            }
+          ]
+        },
+        {
+          "claim_id": "warranty-monetization",
+          "claim_text": "Contract premiums, dealer, manufacturer, lender, direct, affinity, administration, roadside, ancillary, and reinsurance arrangements determine auto warranty revenue mix and persistency.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_03119",
+            "src_03120",
+            "src_03121",
+            "src_03122",
+            "src_03123",
+            "src_03124"
+          ],
+          "sources": [
+            {
+              "id": "src_03119",
+              "title": "Auto Extended Warranty Providers in the US Industry Analysis 2025",
+              "publisher": "source inventory",
+              "url": "https://www.ibisworld.com/united-states/industry/auto-extended-warranty-providers/5038/",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03120",
+              "title": "Extended Warranty Market Size and Share Report",
+              "publisher": "source inventory",
+              "url": "https://www.grandviewresearch.com/industry-analysis/extended-warranty-market-report",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03121",
+              "title": "Auto Extended Warranty Market Forecast to 2030",
+              "publisher": "source inventory",
+              "url": "https://www.researchandmarkets.com/report/automotive-extended-warranty",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03122",
+              "title": "Vehicle Service Contracts Market Forecast 2025-2032",
+              "publisher": "source inventory",
+              "url": "https://www.researchandmarkets.com/reports/6055164/vehicle-service-contracts-market-global",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "secondary"
+            },
+            {
+              "id": "src_03123",
+              "title": "Assurant Reports Strong Fourth Quarter and Full Year 2025 Results",
+              "publisher": "source inventory",
+              "url": "https://www.businesswire.com/news/home/20260210146531/en/Assurant-Reports-Strong-Fourth-Quarter-and-Full-Year-2025-Financial-Results",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            },
+            {
+              "id": "src_03124",
+              "title": "Assurant Form 8-K FY2025",
+              "publisher": "source inventory",
+              "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723825000024/aiz-20250331exx991pressrel.htm",
+              "source_type": "other",
+              "published_at": null,
+              "retrieved_at": "2026-10-20",
+              "geography": "United States",
+              "evidence_quality": "primary"
+            }
+          ]
+        }
+      ],
+      "record_falsifiers": [
+        "Vehicle age, mileage, repair inflation, EV technology, and consumer affordability do not affect warranty demand or claims.",
+        "Pricing, reserves, repair networks, parts, labor, fraud, and capital do not affect margin, service, solvency, or cash.",
+        "Dealer, manufacturer, lender, direct, affinity, and repair channels do not affect volume, price, persistency, or concentration.",
+        "Licensing, FTC, warranty, right-to-repair, privacy, claims, reserve, and solvency rules do not affect operations or liability.",
+        "Transparent sales, credible claims, adequate reserves, repair access, and liquidity discipline do not affect auto warranty outcomes."
+      ]
+    }
+  ],
+  "boundary": "This bounded sample traces 100 matched industries and 24 non-matching comparator industries to claim-level source IDs and URLs. Non-matching records are counterexample candidates, not proof that compliance has no effect. The artifact does not validate the full finding, establish causality, or represent all 1,161 matched industries and 330 non-matching industries.",
+  "next_test": "Review the comparator industries against an independent outcome measure, verify claim-level publisher independence, and expand coverage before promotion.",
   "sample_source_url_count": 733,
   "sample_source_host_count": 416,
   "duplicate_source_urls": {}

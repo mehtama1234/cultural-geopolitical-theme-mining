@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "bf58c9294e4aa2780338836280a94ca225e5a550",
+  "source_tree_commit": "a2477a7e55b87713c1bd0b72c3988854c1b50673",
   "artifact_count": 66,
   "artifacts": [
     {
@@ -122,7 +122,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1833,
-      "sha256": "15e311cf61db354bb6d071d4a5e6754c2fd668eac3c3d9d5b4ebcc99ce1da831"
+      "sha256": "284058e40f5e930dc8ba4a2c28b2a9be3c4ebb5bf579ca9c5f6731d75390be9e"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -176,8 +176,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5727,
-      "sha256": "868b826d47b4179257e3844a51dc804c875a1bb093b5ba2f8bb9f3e6174ccad6"
+      "bytes": 5735,
+      "sha256": "ab7e79ffffa590fc636702a56b4748aa6e7b5a50dff2123bf8505fedc119bd6d"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -226,8 +226,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",
-      "bytes": 802877,
-      "sha256": "0e0969d8b9b76f86b2652c3ebdca88b490e7032872c16b2d02b454aa75fdc3ee"
+      "bytes": 935615,
+      "sha256": "bbd2cec31cdc5c26b6df698c9c0e97ea242388ab058729050da9b29ae2959f89"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-claim-source-review.json",
@@ -236,8 +236,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 8297,
-      "sha256": "6fac848e7ba7d7d33c3232d3161d960dd75b077934a21df43a2ac3d46b74cf34"
+      "bytes": 8731,
+      "sha256": "58d60c7bd56f056248c6ca28f22660a0e0fdaf52432151c0552604b7b0f5a470"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
