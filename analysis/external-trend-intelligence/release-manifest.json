@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "24cce73114620d2ab5f728978e34689658fa8702",
-  "artifact_count": 59,
+  "source_tree_commit": "7cfad82f2a6869f2b870aa698957a6ecaa1da71a",
+  "artifact_count": 60,
   "artifacts": [
     {
       "path": "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -107,7 +107,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2114,
-      "sha256": "ebabf68d2e5c1094155b095f8de022080944c6fe6edbc0ddbd1f364f52675a78"
+      "sha256": "07e6b368c299ed3de1191e8b2d3a33e377ada96852a6e588d22d0032c07fc536"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -228,6 +228,11 @@
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
       "bytes": 3181,
       "sha256": "c1dd40287366a6e11d62e6cb31b873df9a2bb147f92cee681f1f51dc7c1a7dd1"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/shed-temporal-holdout.json",
+      "bytes": 2254,
+      "sha256": "9d0dc430dace64d72b7763d29d2460047159ba1f28e39e730519a22c1b7929d0"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",

@@ -1,0 +1,97 @@
+{
+  "schema": "external-trend-intelligence.shed-temporal-holdout.v1",
+  "record_id": "comparative-us-shed-financial-wellbeing-2013-2025",
+  "source_family": "Federal Reserve Board Survey of Household Economics and Decisionmaking (SHED)",
+  "status": "descriptive_single_family_holdout",
+  "construction_period": "2013-2021",
+  "holdout_period": "2022-2025",
+  "measure": "percent of adults",
+  "construction": [
+    {
+      "period": 2013,
+      "value": 62
+    },
+    {
+      "period": 2014,
+      "value": 65
+    },
+    {
+      "period": 2015,
+      "value": 69
+    },
+    {
+      "period": 2016,
+      "value": 70
+    },
+    {
+      "period": 2017,
+      "value": 74
+    },
+    {
+      "period": 2018,
+      "value": 75
+    },
+    {
+      "period": 2019,
+      "value": 75
+    },
+    {
+      "period": 2020,
+      "value": 75
+    },
+    {
+      "period": 2021,
+      "value": 78
+    }
+  ],
+  "holdout": [
+    {
+      "period": 2022,
+      "value": 73
+    },
+    {
+      "period": 2023,
+      "value": 72
+    },
+    {
+      "period": 2024,
+      "value": 73
+    },
+    {
+      "period": 2025,
+      "value": 73
+    }
+  ],
+  "construction_start": {
+    "period": 2013,
+    "value": 62
+  },
+  "construction_end": {
+    "period": 2021,
+    "value": 78
+  },
+  "holdout_start": {
+    "period": 2022,
+    "value": 73
+  },
+  "holdout_end": {
+    "period": 2025,
+    "value": 73
+  },
+  "peak_observation": {
+    "period": 2021,
+    "value": 78
+  },
+  "peak_to_holdout_end_change": -5,
+  "readout": "The measure rose through a 2021 peak, then remained below peak through the 2022-2025 holdout window.",
+  "falsifier": "A later compatible wave returning to or exceeding the 2021 peak without a documented method break would weaken the persistence interpretation.",
+  "does_not_support": [
+    "independent-source confirmation",
+    "causality",
+    "pooled international estimate",
+    "company exposure",
+    "qualified trend"
+  ],
+  "next_action": "Compare the SHED holdout with an independent U.S. household-finance or hardship measure using a pre-specified denominator and period.",
+  "boundary": "This is a descriptive repeated-cross-section holdout from one survey family. It is a backtest design/readout, not a causal or independent validation result."
+}
