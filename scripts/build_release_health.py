@@ -24,6 +24,9 @@ def main() -> int:
     pilots = load("pilot-register.json")
     controls = load("source-family-controls.json")
     independent = load("independent-stage-comparison.json")
+    room_comparison = load("room-independent-comparison.json")
+    rights_evidence = load("rights-evidence-register.json")
+    holdout = load("temporal-holdout-result.json")
     health = {
         "source_refresh": {
             "families": status["family_count"],
@@ -41,12 +44,21 @@ def main() -> int:
             "rights_unverified": sum(item["rights_status"] != "verified" for item in controls["families"]),
             "dependence_review_required": sum(item["publisher_dependence"] == "review_required" for item in controls["families"]),
             "status": "hold" if any(item["rights_status"] != "verified" or item["publisher_dependence"] == "review_required" for item in controls["families"]) else "pass",
+            "local_evidence_families": rights_evidence["partial_file_evidence_count"],
+            "no_local_terms_file_families": rights_evidence["no_local_terms_file_count"],
         },
         "independent_source_comparison": {
             "records": independent["record_count"],
             "source_families": independent["independent_source_families"],
             "status": "hold" if independent["status"] != "qualified_comparison" else "pass",
             "comparison_status": independent["status"],
+            "additional_mechanism_comparisons": 1 if room_comparison["status"] == "mechanism_comparison_only" else 0,
+        },
+        "temporal_holdout": {
+            "status": "design_readout_only",
+            "candidate_id": holdout["candidate_id"],
+            "measures": len(holdout["result"]),
+            "single_source_family": True,
         },
         "trend_qualification": {
             "candidates": qualification["candidate_count"],

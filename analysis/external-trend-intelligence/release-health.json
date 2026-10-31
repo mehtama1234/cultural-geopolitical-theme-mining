@@ -17,7 +17,9 @@
       "families": 8,
       "rights_unverified": 8,
       "dependence_review_required": 8,
-      "status": "hold"
+      "status": "hold",
+      "local_evidence_families": 3,
+      "no_local_terms_file_families": 5
     },
     "independent_source_comparison": {
       "records": 2,
@@ -26,7 +28,14 @@
         "National Centre for Social Research / British Social Attitudes"
       ],
       "status": "hold",
-      "comparison_status": "mechanism_comparison_only"
+      "comparison_status": "mechanism_comparison_only",
+      "additional_mechanism_comparisons": 1
+    },
+    "temporal_holdout": {
+      "status": "design_readout_only",
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "measures": 3,
+      "single_source_family": true
     },
     "trend_qualification": {
       "candidates": 4,
