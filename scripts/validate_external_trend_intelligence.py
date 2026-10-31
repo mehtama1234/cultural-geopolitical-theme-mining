@@ -202,6 +202,15 @@ def main() -> int:
     assert all(row["observations"] for row in measurement_matrix["rows"])
     assert measurement_matrix["decision"] == "hold"
     assert measurement_matrix["decision_reason"]
+    release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
+    assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 16
+    assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["repository_commit"])
+    assert release_manifest["boundary"]
+    for artifact in release_manifest["artifacts"]:
+        path = ROOT / artifact["path"]
+        assert path.exists(), artifact["path"]
+        assert artifact["bytes"] == path.stat().st_size
     care_subset = json.loads((ANALYSIS / "care-capacity-comparable-subset.json").read_text())
     assert care_subset["schema"] == "external-trend-intelligence.care-capacity-comparable-subset.v1"
     assert care_subset["candidate_id"] == care_candidate["candidate_id"]

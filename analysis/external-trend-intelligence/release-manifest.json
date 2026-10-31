@@ -1,0 +1,89 @@
+{
+  "schema": "external-trend-intelligence.release-manifest.v1",
+  "release_id": "external-trend-intelligence-current",
+  "repository_commit": "d7eff998ad49dd8b8d921eaf9835ffee11beff5c",
+  "artifact_count": 16,
+  "artifacts": [
+    {
+      "path": "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
+      "bytes": 5379,
+      "sha256": "b9da260eea344991b107c2d230dd5d2b28539a799637721e9004b2b387c643ca"
+    },
+    {
+      "path": "EXTERNAL_SOURCE_REGISTRY.md",
+      "bytes": 7420,
+      "sha256": "94bede6d26b6e6beb98c67e6a74d896a6e244b863e7bc9693f3351dfc90d154a"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/README.md",
+      "bytes": 8409,
+      "sha256": "e47fab36a599dfcce6e697507a02d4c31c2d6e0d69f0a1d97a2a43e960523e0b"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
+      "bytes": 3260,
+      "sha256": "092db86ac106337c62a90781d2467c4eade06883a6637a4f63d27fc34db6fe76"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/source-family-registry.json",
+      "bytes": 4897,
+      "sha256": "108e3bd4ce9dfff8ac887cd1c1788367bbc7b40c66082659a0040ad08fb18f96"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/observation-manifest.json",
+      "bytes": 3602626,
+      "sha256": "9a8377bf0de1af79bca5f7c2ad7765c2d482c5b89a31a5ed7de7c70e4623322e"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/source-registry-snapshot.json",
+      "bytes": 81597,
+      "sha256": "5abc13c605d01b1d001a2b23c23780b359336517f3ad40562975b491f7a8dae1"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/repository-family-snapshot.json",
+      "bytes": 5755,
+      "sha256": "c5ed7dd7d2664cbc0f8b67b6978a8cfa6e2da416a45ee540e47b6d21809d0cf3"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/external-family-observations.json",
+      "bytes": 15238,
+      "sha256": "c484047715998f14621bab92f2391815082314bf32aff3ed968954233ccaedb4"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/external-family-lineage-review.json",
+      "bytes": 7725,
+      "sha256": "8f88c0180330322c635043055e2a6452c870311497d9d9734524d7c6503bae1a"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/external-family-comparisons.json",
+      "bytes": 8300,
+      "sha256": "493f68e0e03b67aeae67273a2d695bccf231bdaafe0232fe597e05df4ad5bb12"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/candidate-comparisons.json",
+      "bytes": 12993,
+      "sha256": "defde7800fc8a6d39ddd578077ca735daf35be7734b96f3f40ddbf6f6a3c2958"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/care-capacity-candidate.json",
+      "bytes": 2011,
+      "sha256": "9ba10fd1f802c50a91292cfbe7075e66e78573e28bc326273a0caf2d7df93b9d"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/care-capacity-measurement-matrix.json",
+      "bytes": 47639,
+      "sha256": "c47f184fff1b31e3b44fa470bb3d09ce1cadec3b9cc46d6e6ad911d3113d38ba"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/care-capacity-comparable-subset.json",
+      "bytes": 3793,
+      "sha256": "e82a1801c5c3a7084551be90e19921e73316ce0f8410fa1e9a82f19666f1cb4f"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/board.html",
+      "bytes": 14252,
+      "sha256": "3a0286bc186dad9d8cbf5f12d125ca5054ed7d73219ace3e84f060e8a99ffde1"
+    }
+  ],
+  "boundary": "This release manifest proves which local reader artifacts were packaged together. It does not prove that the underlying external sources are independent, current, licensed, or outcome-valid."
+}

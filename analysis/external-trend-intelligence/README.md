@@ -166,3 +166,7 @@ The repeatable refresh procedure is in
 [`REFRESH-RUNBOOK.md`](REFRESH-RUNBOOK.md). It covers pinning sibling
 repositories, rebuilding observations, auditing lineage, challenging
 comparisons, and publishing the board.
+
+[`release-manifest.json`](release-manifest.json) is the single local release
+index for the reader surface. It records the packaged artifact paths, byte
+counts, checksums, and repository commit.

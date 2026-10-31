@@ -36,6 +36,7 @@ For the pinned sibling families, rebuild the bounded intake:
 ```text
 python3 scripts/build_external_family_observations.py
 python3 scripts/build_external_family_lineage_review.py
+python3 scripts/build_external_release_manifest.py
 ```
 
 The sibling intake is deliberately separate from the 2,131-record local
@@ -79,6 +80,9 @@ Run:
 ```text
 python3 scripts/validate_external_trend_intelligence.py
 ```
+
+Run the release-manifest build after all artifact changes so the frontend and
+downstream consumers can identify one checksum-backed package.
 
 Serve `analysis/external-trend-intelligence/` over HTTP and smoke-test
 `board.html` after changing a JSON artifact. The board is a reader; source
