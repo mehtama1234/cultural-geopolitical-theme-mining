@@ -1,0 +1,52 @@
+{
+  "schema": "external-trend-intelligence.us-financial-room-independent-comparison.v1",
+  "candidate_id": "candidate-time-financial-pressure-practical-room",
+  "status": "mechanism_comparison_only",
+  "source_families": [
+    "Federal Reserve Board Survey of Household Economics and Decisionmaking (SHED)",
+    "U.S. Department of Agriculture Economic Research Service, Household Food Security in the United States"
+  ],
+  "rows": [
+    {
+      "source": "Federal Reserve SHED",
+      "measure": "doing_okay_or_living_comfortably",
+      "from_period": "2022",
+      "to_period": "2024",
+      "from_value": 73,
+      "to_value": 73,
+      "change": 0,
+      "unit": "percent of adults"
+    },
+    {
+      "source": "USDA ERS CPS-FSS",
+      "measure": "food_insecure",
+      "from_period": "2022",
+      "to_period": "2024",
+      "from_value": 12.8,
+      "to_value": 13.7,
+      "change": 0.8999999999999986,
+      "unit": "percent of households"
+    }
+  ],
+  "directional_readout": "Both independent U.S. series indicate continued resource pressure between 2022 and 2024, but they measure different constructs and use adult versus household denominators.",
+  "supports": [
+    "independent publisher challenge",
+    "same-geography directional comparison",
+    "counter-signal review"
+  ],
+  "does_not_support": [
+    "pooled prevalence",
+    "common-unit effect estimate",
+    "causality",
+    "qualified trend",
+    "company exposure"
+  ],
+  "blocking_items": [
+    "SHED is adult self-assessed financial wellbeing while USDA is household food insecurity",
+    "different questionnaires and sampling frames",
+    "USDA 2024 change is not statistically significant versus 2023",
+    "no common outcome definition"
+  ],
+  "next_action": "Retrieve full codebooks and uncertainty intervals, then pre-specify whether the comparison is a mechanism challenge or a separate U.S. trend lane.",
+  "boundary": "Independent sources can converge directionally without measuring the same population outcome. No pooling or trend promotion is authorized."
+}

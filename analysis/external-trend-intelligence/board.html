@@ -175,6 +175,12 @@
       <div class="promotion-gates" id="shed-holdout"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>U.S. independent financial-room comparison</h2>
+      <p class="muted">Federal Reserve SHED and USDA ERS point in a similar direction, but they measure different outcomes and must not be pooled.</p>
+      <div class="panel" style="margin:12px 0"><h3>2022 → 2024 directional change</h3><div id="us-financial-room-chart"></div></div>
+      <div class="promotion-gates" id="us-financial-room-comparison"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>External source families and refresh cadence</h2>
       <p class="muted">These families feed discovery. The cadence is a maintenance trigger, not proof that sources are independent or continuously available.</p>
       <div class="source-families" id="source-families"></div>
@@ -491,6 +497,10 @@
           holdout_value: holdout.holdout_end.value,
         }]);
         el('shed-holdout').append(card(`${holdout.construction_period} → ${holdout.holdout_period}`, holdout.status, `${holdout.readout} ${holdout.falsifier}`));
+      });
+      fetch('us-financial-room-independent-comparison.json').then(r => r.json()).then(comparison => {
+        independentResultChart(el('us-financial-room-chart'), comparison.rows);
+        el('us-financial-room-comparison').append(card('Mechanism comparison only', comparison.status, `${comparison.directional_readout} ${comparison.blocking_items.join(' · ')}`));
       });
       el('bounded-lineage').append(boundedLineageCard(boundedLineage));
       const rightsCards = el('rights-queue'); rightsQueue.rows.forEach(row => rightsCards.append(rightsCard(row)));
