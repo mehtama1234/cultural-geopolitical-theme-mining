@@ -75,6 +75,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/shed-point-estimate-reproduction-audit.json",
     "analysis/external-trend-intelligence/jpmorgan-household-liquidity-chart.json",
     "analysis/external-trend-intelligence/usda-temporal-holdout.json",
+    "analysis/external-trend-intelligence/food-insecurity-temporal-holdout.json",
     "analysis/external-trend-intelligence/us-financial-room-independent-comparison.json",
     "analysis/external-trend-intelligence/external-acquisition-rights-review.json",
     "analysis/external-trend-intelligence/external-family-comparisons.json",

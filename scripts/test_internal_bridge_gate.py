@@ -23,8 +23,8 @@ def main() -> int:
     assert all(item["external_gate"]["current_status"] == "held" for item in pilots["pilots"])
     assert all(item["company_ref"]["company_id"] is None for item in pilots["pilots"])
     assert health["sections"]["company_pilots"]["approved_tests"] == 0
-    assert "no company pilot is approved; monitored backtest and decision-relevance gates are not passed" in health["blockers"]
-    print("internal bridge gate: no company connection is allowed before monitored qualification")
+    assert "no company pilot is approved; company decision contract, rights owner, and internal exposure definition remain open" in health["blockers"]
+    print("internal bridge gate: no company connection is allowed before an approved decision contract")
     return 0
 
 

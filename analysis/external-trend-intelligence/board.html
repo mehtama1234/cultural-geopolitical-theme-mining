@@ -187,6 +187,12 @@
       <div class="promotion-gates" id="us-financial-room-comparison"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Qualified food-insecurity temporal holdout</h2>
+      <p class="muted">This is the first qualified external pattern. The holdout is descriptive and non-pooled; it does not authorize a company join.</p>
+      <div class="panel" style="margin:12px 0"><h3>Urban construction mean → holdout mean</h3><div id="food-insecurity-holdout-chart"></div></div>
+      <div class="promotion-gates" id="food-insecurity-holdout"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>SHED point-estimate reproduction</h2>
       <p class="muted">The publisher-derived $400 emergency-expense estimate is reproduced from public-use microdata for two years. Design-based uncertainty remains a release hold.</p>
       <div class="promotion-gates" id="shed-reproduction"></div>
@@ -524,6 +530,10 @@
       fetch('us-financial-room-independent-comparison.json').then(r => r.json()).then(comparison => {
         independentResultChart(el('us-financial-room-chart'), comparison.rows);
         el('us-financial-room-comparison').append(card('Mechanism comparison only', comparison.status, `${comparison.directional_readout} ${comparison.blocking_items.join(' · ')}`));
+      });
+      fetch('food-insecurity-temporal-holdout.json').then(r => r.json()).then(holdout => {
+        holdoutChart(el('food-insecurity-holdout-chart'), [{measure: 'Urban WBNS food insecurity', construction_value: holdout.construction.mean_percent, holdout_value: holdout.holdout.mean_percent}]);
+        el('food-insecurity-holdout').append(card('Monitored external trend', holdout.status, `${holdout.readout.interpretation} ${holdout.independent_challenge.boundary} ${holdout.next_action}`));
       });
       fetch('shed-point-estimate-reproduction-audit.json').then(r => r.json()).then(audit => {
         const target = el('shed-reproduction');

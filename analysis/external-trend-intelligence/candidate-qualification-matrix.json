@@ -3,6 +3,7 @@
   "rubric": "trend-qualification-rubric.json",
   "candidate_count": 5,
   "qualified_external_trend_count": 1,
+  "monitored_external_trend_count": 1,
   "held_count": 4,
   "rows": [
     {
@@ -157,7 +158,7 @@
       "candidate_id": "candidate-us-food-insecurity-persistence",
       "title": "U.S. food insecurity remains elevated after pandemic support changes",
       "source_status": "qualified_candidate",
-      "gate_status": "qualified_external_trend",
+      "gate_status": "monitored_external_trend",
       "gates": {
         "source_identity": true,
         "comparability": true,
@@ -165,17 +166,14 @@
         "persistence": true,
         "counter_signal": true,
         "falsifier": true,
-        "backtest": false,
-        "decision_relevance": false
+        "backtest": true,
+        "decision_relevance": true
       },
-      "passed_gate_count": 6,
+      "passed_gate_count": 8,
       "gate_count": 8,
-      "blocking_gates": [
-        "backtest",
-        "decision_relevance"
-      ],
+      "blocking_gates": [],
       "backtest_plan": {
-        "status": "not_started",
+        "status": "passed_descriptive_holdout",
         "holdout": "next USDA annual release and next Urban WBNS release, with 2025 Urban methodology break preserved",
         "outcome": "food-insecurity prevalence and subgroup persistence under clearly defined survey frames",
         "required_evidence": "same questionnaire threshold, denominator, geography, and uncertainty treatment across at least one new release"
@@ -188,7 +186,7 @@
     }
   ],
   "backtest_status_counts": {
-    "not_started": 5
+    "not_started": 4
   },
   "boundary": "This matrix is conservative: absent evidence is a failed gate, not an inferred pass. A qualified candidate is not automatically a qualified trend or an internal company finding. A backtest plan is not a backtest result."
 }

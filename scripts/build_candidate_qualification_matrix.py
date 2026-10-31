@@ -36,7 +36,7 @@ BACKTEST_DESIGNS = {
         "required_evidence": "dated event and outcome records linked by compatible geography and system unit",
     },
     "candidate-us-food-insecurity-persistence": {
-        "status": "not_started",
+        "status": "passed_descriptive_holdout",
         "holdout": "next USDA annual release and next Urban WBNS release, with 2025 Urban methodology break preserved",
         "outcome": "food-insecurity prevalence and subgroup persistence under clearly defined survey frames",
         "required_evidence": "same questionnaire threshold, denominator, geography, and uncertainty treatment across at least one new release",
@@ -69,12 +69,13 @@ def main() -> int:
             "persistence": qualification_evidence.get("persistence", {}).get("status") == "pass",
             "counter_signal": bool(candidate.get("counter_signal")),
             "falsifier": qualification_evidence.get("falsifier", {}).get("status") == "pass",
-            "backtest": False,
-            "decision_relevance": False,
+            "backtest": qualification_evidence.get("backtest", {}).get("status") == "pass",
+            "decision_relevance": qualification_evidence.get("decision_relevance", {}).get("status") == "pass",
         }
         qualification_gate_names = ["source_identity", "comparability", "independence", "persistence", "counter_signal", "falsifier"]
         blocking = [name for name, passed in gates.items() if not passed]
         qualification_ready = all(gates[name] for name in qualification_gate_names)
+        monitoring_ready = qualification_ready and gates["backtest"] and gates["decision_relevance"]
         queue_item = queue.get(candidate["id"], {})
         backtest_plan = BACKTEST_DESIGNS.get(candidate["id"], {
             "status": "not_started",
@@ -86,7 +87,7 @@ def main() -> int:
             "candidate_id": candidate["id"],
             "title": candidate["title"],
             "source_status": candidate.get("status"),
-            "gate_status": "qualified_external_trend" if qualification_ready else "held",
+            "gate_status": "monitored_external_trend" if monitoring_ready else ("qualified_external_trend" if qualification_ready else "held"),
             "gates": gates,
             "passed_gate_count": sum(gates.values()),
             "gate_count": len(gates),
@@ -102,7 +103,8 @@ def main() -> int:
         "schema": "external-trend-intelligence.candidate-qualification-matrix.v1",
         "rubric": "trend-qualification-rubric.json",
         "candidate_count": len(rows),
-        "qualified_external_trend_count": sum(row["gate_status"] == "qualified_external_trend" for row in rows),
+        "qualified_external_trend_count": sum(row["gate_status"] in {"qualified_external_trend", "monitored_external_trend"} for row in rows),
+        "monitored_external_trend_count": sum(row["gate_status"] == "monitored_external_trend" for row in rows),
         "held_count": sum(row["gate_status"] == "held" for row in rows),
         "rows": rows,
         "backtest_status_counts": {"not_started": sum(row["backtest_plan"]["status"] == "not_started" for row in rows)},

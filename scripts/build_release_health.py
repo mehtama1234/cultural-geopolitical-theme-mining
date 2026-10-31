@@ -28,6 +28,7 @@ def main() -> int:
     us_financial_comparison = load("us-financial-room-independent-comparison.json")
     rights_evidence = load("rights-evidence-register.json")
     holdout = load("temporal-holdout-result.json")
+    food_holdout = load("food-insecurity-temporal-holdout.json")
     denominator = load("denominator-reconciliation-review.json")
     health = {
         "source_refresh": {
@@ -75,6 +76,7 @@ def main() -> int:
         "trend_qualification": {
             "candidates": qualification["candidate_count"],
             "qualified": qualification["qualified_external_trend_count"],
+            "monitored": qualification.get("monitored_external_trend_count", 0),
             "held": qualification["held_count"],
             "status": "hold" if qualification["held_count"] else "pass",
         },
@@ -83,6 +85,12 @@ def main() -> int:
             "comparable_subsets": comparability["comparable_subset_candidate_count"],
             "harmonization_required": comparability["harmonization_required_count"],
             "status": "hold" if comparability["harmonization_required_count"] else "pass",
+        },
+        "qualified_external_holdout": {
+            "candidate_id": food_holdout["candidate_id"],
+            "status": food_holdout["status"],
+            "direction": food_holdout["readout"]["direction"],
+            "boundary": food_holdout["boundary"],
         },
         "monitoring": {
             "registered": len(monitoring["trends"]),
@@ -100,7 +108,7 @@ def main() -> int:
     if health["backtest"]["harmonization_required"]:
         blockers.append("backtest units, periods, populations, or geographies require harmonization")
     if health["company_pilots"]["approved_tests"] == 0:
-        blockers.append("no company pilot is approved; monitored backtest and decision-relevance gates are not passed")
+        blockers.append("no company pilot is approved; company decision contract, rights owner, and internal exposure definition remain open")
     if health["rights_and_publisher_dependence"]["status"] == "hold":
         blockers.append("rights and publisher-dependence review remains open for source families")
     if health["independent_source_comparison"]["status"] == "hold":

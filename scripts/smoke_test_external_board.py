@@ -53,6 +53,8 @@ def main() -> int:
                             "JPMorgan household-liquidity chart",
                             "jpmorgan-household-liquidity-chart.json",
                             "candidate-lineage-dependency-review.json",
+                            "Qualified food-insecurity temporal holdout",
+                            "food-insecurity-temporal-holdout.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:

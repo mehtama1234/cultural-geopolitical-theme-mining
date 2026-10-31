@@ -267,6 +267,14 @@
         "falsifier": {
           "status": "pass",
           "basis": "A later compatible release showing sustained reversion toward the pre-2022 baseline in both frames, or a documented questionnaire break that explains the movement, would weaken or reverse the claim."
+        },
+        "backtest": {
+          "status": "pass",
+          "basis": "The Urban 2019–2023 construction mean is 23.24%; the 2024–2025 holdout mean is 27.35%, a +4.11 percentage-point descriptive increase, with USDA retained as a non-pooled directional challenge."
+        },
+        "decision_relevance": {
+          "status": "pass",
+          "basis": "The monitored external signal is relevant to affordability, workforce support, customer hardship, and service-access scenario planning; it does not imply a company effect or authorize internal data access."
         }
       },
       "lineage_review": {

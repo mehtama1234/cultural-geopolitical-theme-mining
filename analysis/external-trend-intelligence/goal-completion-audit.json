@@ -17,7 +17,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 55-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The stale gate, scheduled workflow contract, baseline consistency, and recovery path are exercised and refresh runs are recorded with 56-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -61,12 +61,13 @@
       "evidence": [
         "backtest-readiness.json",
         "backtest-comparability-review.json",
+        "food-insecurity-temporal-holdout.json",
         "temporal-holdout-design.json",
         "temporal-holdout-result.json",
         "shed-temporal-holdout.json",
         "usda-temporal-holdout.json"
       ],
-      "gap": "The temporal readouts now cover both SHED and USDA but remain single-family and descriptive; the SHED/USDA comparison is not a compatible common-unit backtest."
+      "gap": "The food-insecurity candidate now has a descriptive Urban 2019\u20132023 to 2024\u20132025 holdout and non-pooled USDA challenge; causal validation, uncertainty harmonization, and holdouts for the other candidates remain open."
     },
     {
       "id": "decision_ready_frontend",
@@ -98,7 +99,7 @@
         "PILOT-VALIDATION-PROTOCOL.md",
         "test_internal_bridge_gate.py"
       ],
-      "gap": "No pilot is approved because the qualified trend has not yet cleared its monitored backtest and decision-relevance gates; the fail-closed bridge gate is exercised."
+      "gap": "No pilot is approved because a company decision contract, named rights owner, internal exposure definition, and privacy review are still required after external monitoring; the fail-closed bridge gate is exercised."
     }
   ],
   "release_status": "operational_with_open_gates",

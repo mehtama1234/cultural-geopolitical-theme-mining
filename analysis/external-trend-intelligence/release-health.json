@@ -54,6 +54,7 @@
     "trend_qualification": {
       "candidates": 5,
       "qualified": 1,
+      "monitored": 1,
       "held": 4,
       "status": "hold"
     },
@@ -62,6 +63,12 @@
       "comparable_subsets": 0,
       "harmonization_required": 5,
       "status": "hold"
+    },
+    "qualified_external_holdout": {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "status": "descriptive_holdout_supported",
+      "direction": "increase",
+      "boundary": "This is a descriptive temporal holdout with a non-pooled independent challenge. It qualifies external persistence for monitoring, not a causal or company result."
     },
     "monitoring": {
       "registered": 4,
@@ -76,7 +83,7 @@
   "blockers": [
     "external candidates remain held",
     "backtest units, periods, populations, or geographies require harmonization",
-    "no company pilot is approved; monitored backtest and decision-relevance gates are not passed",
+    "no company pilot is approved; company decision contract, rights owner, and internal exposure definition remain open",
     "rights and publisher-dependence review remains open for source families",
     "independent source comparison remains mechanism-only",
     "household and adult denominator definitions require reconciliation"
