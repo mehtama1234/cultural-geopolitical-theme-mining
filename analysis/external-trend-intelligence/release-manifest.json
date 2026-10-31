@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "repository_commit": "d7eff998ad49dd8b8d921eaf9835ffee11beff5c",
+  "repository_commit": "ec3f8d9715c659e614f4aa28f9bd10df69849c49",
   "artifact_count": 16,
   "artifacts": [
     {
@@ -81,8 +81,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 14252,
-      "sha256": "3a0286bc186dad9d8cbf5f12d125ca5054ed7d73219ace3e84f060e8a99ffde1"
+      "bytes": 14380,
+      "sha256": "c99937abcce28d93e3ca8f032ef358146494a94420acbc994f61ffd1aa2f4b81"
     }
   ],
   "boundary": "This release manifest proves which local reader artifacts were packaged together. It does not prove that the underlying external sources are independent, current, licensed, or outcome-valid."
