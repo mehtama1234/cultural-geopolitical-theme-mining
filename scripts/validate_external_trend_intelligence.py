@@ -419,7 +419,7 @@ def main() -> int:
     room_comparison = json.loads((ANALYSIS / "room-independent-comparison.json").read_text())
     assert room_comparison["schema"] == "external-trend-intelligence.room-independent-comparison.v1"
     assert room_comparison["status"] == "mechanism_comparison_only"
-    assert room_comparison["source_families"] == ["Australian Bureau of Statistics General Social Survey", "ANZ / Roy Morgan"]
+    assert room_comparison["source_families"] == ["Australian Bureau of Statistics General Social Survey", "HILDA via Australian Institute of Health and Welfare", "ANZ / Roy Morgan"]
     acquisition = json.loads((ANALYSIS / "evidence-acquisition-plan.json").read_text())
     assert acquisition["schema"] == "external-trend-intelligence.evidence-acquisition-plan.v1"
     assert len(acquisition["tracks"]) == 3

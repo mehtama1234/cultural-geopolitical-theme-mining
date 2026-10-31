@@ -21,7 +21,7 @@ def main() -> int:
         "schema": "external-trend-intelligence.room-independent-comparison.v1",
         "candidate_id": "candidate-time-financial-pressure-practical-room",
         "status": "mechanism_comparison_only",
-        "source_families": ["Australian Bureau of Statistics General Social Survey", "ANZ / Roy Morgan"],
+        "source_families": ["Australian Bureau of Statistics General Social Survey", "HILDA via Australian Institute of Health and Welfare", "ANZ / Roy Morgan"],
         "records": [
             {
                 "publisher": "Australian Bureau of Statistics",
@@ -35,6 +35,19 @@ def main() -> int:
                     "outside_household_weekly_contact_2020": abs_obs["outside_household_weekly_contact_2020"],
                     "outside_household_weekly_contact_2025": abs_obs["outside_household_weekly_contact_2025"],
                 },
+            },
+            {
+                "publisher": "Australian Institute of Health and Welfare / HILDA",
+                "record_id": "aihw-hilda-financial-stress-2001-2023",
+                "geography": "Australia; HILDA household-level custom analysis",
+                "measures": {
+                    "cash_flow_problem_2020": {"value": 26.9, "unit": "percent of households with at least one person reporting a cash-flow problem", "period": "2020"},
+                    "cash_flow_problem_2023": {"value": 28.1, "unit": "percent of households with at least one person reporting a cash-flow problem", "period": "2023"},
+                    "unable_to_raise_2000_2020": {"value": 26.6, "unit": "percent of households with at least one person unable to raise $2,000", "period": "2020"},
+                    "unable_to_raise_2000_2023": {"value": 27.1, "unit": "percent of households with at least one person unable to raise $2,000", "period": "2023"}
+                },
+                "source_url": "https://www.abs.gov.au/statistics/measuring-what-matters/measuring-what-matters-themes-and-indicators/secure/making-ends-meet",
+                "lineage_note": "AIHW presents custom HILDA analysis; HILDA is a separate longitudinal source from the ABS General Social Survey."
             },
             {
                 "publisher": "ANZ / Roy Morgan",
@@ -52,6 +65,7 @@ def main() -> int:
         "does_not_support": ["pooled prevalence", "common-unit effect estimate", "temporal backtest across publishers", "causal effect", "company exposure"],
         "blocking_items": [
             "ABS measures are 2020-to-2025 repeated cross-sections while ANZ/Roy Morgan is a weekly 2026 release",
+            "HILDA is 2020-to-2023 and does not extend to the ABS 2025 holdout",
             "household financial-stress, adult social-contact, and confidence-index denominators differ",
             "no common holdout period or outcome definition",
             "publisher methods and sampling frames differ",

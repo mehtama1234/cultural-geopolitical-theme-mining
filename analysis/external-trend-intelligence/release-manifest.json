@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "880b006f30896f48c448e8fb22c8da2f7c419039",
+  "source_tree_commit": "630f2b8b4c85baa4d07f0cdd5944c7ce16482aba",
   "artifact_count": 54,
   "artifacts": [
     {
@@ -121,8 +121,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-comparison.json",
-      "bytes": 4265,
-      "sha256": "6853edc275e61684bd24b5fd6f1a57e623b8c5e7e44f2a331c754fa5d3aad331"
+      "bytes": 5709,
+      "sha256": "f81d95ec78d033e9b124fe104b37ee77115a8b5f24098e40590c6a23a31a0307"
     },
     {
       "path": "analysis/external-trend-intelligence/evidence-acquisition-plan.json",
@@ -261,8 +261,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 40562,
-      "sha256": "b64e8eae325dc5c6956cdfeb8eec70698868222c0235ce4815068c3ca7ecbcff"
+      "bytes": 41817,
+      "sha256": "9e8820ed3dcc1e8b4c1aa57126d6d0458bc874538aedca68c04e50b5e892b33a"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
