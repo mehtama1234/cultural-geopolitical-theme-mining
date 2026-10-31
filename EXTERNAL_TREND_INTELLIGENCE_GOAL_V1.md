@@ -92,11 +92,11 @@ uncertainty, counterevidence, and the ability to revise or reject a finding.
 The first implementation is live in
 [`analysis/external-trend-intelligence`](analysis/external-trend-intelligence):
 
-- `2,131` source-backed observations are indexed in the current repository;
+- `2,135` source-backed observations are indexed in the current repository;
 - `118` candidate external sources are preserved in the source-registry
   snapshot;
-- `14` program themes and `4` qualified-but-unconfirmed cross-source
-  candidates are visible on the board;
+- `14` program themes and `5` cross-source candidates are visible on the board
+  (`1` monitored external trend and `4` held candidates);
 - `10` observations from pinned Inc. 5000, annual-report, IBIS,
   social-research, and trend-hunting artifacts have been normalized with
   source paths, revisions, units, and boundaries;
