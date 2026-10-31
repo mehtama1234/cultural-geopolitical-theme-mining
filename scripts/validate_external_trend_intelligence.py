@@ -258,6 +258,13 @@ def main() -> int:
     assert gap_queue["high_priority_count"] == 1
     assert {gap["observation_id"] for gap in gap_queue["gaps"]} == family_observation_ids
     assert all(gap["decision"] == "hold" and gap["missing_evidence"] for gap in gap_queue["gaps"])
+    ibis_sample = json.loads((ANALYSIS / "ibis-finding-claim-sample.json").read_text())
+    assert ibis_sample["schema"] == "external-trend-intelligence.ibis-finding-claim-sample.v1"
+    assert ibis_sample["finding_slug"] == "compliance-as-economic-architecture"
+    assert ibis_sample["sample_status"] == "bounded_traceability_sample"
+    assert ibis_sample["sample_industry_count"] == len(ibis_sample["samples"]) == 3
+    assert all(sample["claims"] for sample in ibis_sample["samples"])
+    assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
     care_candidate = json.loads((ANALYSIS / "care-capacity-candidate.json").read_text())
     assert care_candidate["schema"] == "external-trend-intelligence.external-care-capacity-candidate.v1"
     assert care_candidate["status"] == "held_candidate"
@@ -280,7 +287,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 23
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 24
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:

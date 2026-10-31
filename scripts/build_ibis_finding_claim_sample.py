@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+"""Build a bounded claim/source traceability sample for one IBIS finding."""
+
+from __future__ import annotations
+
+import json
+import subprocess
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+ANALYSIS = ROOT / "analysis" / "external-trend-intelligence"
+OUTPUT = ANALYSIS / "ibis-finding-claim-sample.json"
+REPO = "/home/mehta/git-repo/ibis-industries"
+REVISION = "b895acd021fbe3dc1d610255952b1373748e3bc3"
+PATTERN_PATH = "cross_industry_pattern_inventory.json"
+
+
+def show(path: str) -> str:
+    return subprocess.check_output(["git", "-C", REPO, "show", f"{REVISION}:{path}"], text=True)
+
+
+def main() -> int:
+    inventory = json.loads(show(PATTERN_PATH))
+    pattern = next(item for item in inventory["ranked_patterns"] if item["slug"] == "compliance-as-economic-architecture")
+    industries = sorted(pattern["matched_industries"])[:3]
+    samples = []
+    for slug in industries:
+        record = json.loads(show(f"business_knowledge_examples/{slug}.json"))
+        claims = []
+        for claim in record.get("evidence", {}).get("claims", [])[:3]:
+            source_ids = claim.get("source_ids", [])
+            sources = [source for source in record.get("evidence", {}).get("sources", []) if source.get("id") in source_ids]
+            claims.append(
+                {
+                    "claim_id": claim.get("id"),
+                    "claim_text": claim.get("text"),
+                    "claim_type": claim.get("claim_type"),
+                    "source_ids": source_ids,
+                    "sources": sources,
+                }
+            )
+        samples.append(
+            {
+                "industry_slug": slug,
+                "industry_title": record["identity"]["title"],
+                "geography": record["identity"]["geography"],
+                "as_of": record["scope"]["as_of"],
+                "claims": claims,
+            }
+        )
+    payload = {
+        "schema": "external-trend-intelligence.ibis-finding-claim-sample.v1",
+        "finding_slug": pattern["slug"],
+        "finding_title": pattern["title"],
+        "source_revision": REVISION,
+        "sample_status": "bounded_traceability_sample",
+        "sample_industry_count": len(samples),
+        "samples": samples,
+        "boundary": "This sample traces three matched industries to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
+        "next_test": "Expand the same traceability method across a pre-specified industry sample, add counterexamples and outcomes, and review publisher independence before promotion.",
+    }
+    OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+    print(f"wrote {OUTPUT} ({len(samples)} industries)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -1,0 +1,378 @@
+{
+  "schema": "external-trend-intelligence.ibis-finding-claim-sample.v1",
+  "finding_slug": "compliance-as-economic-architecture",
+  "finding_title": "Compliance Is Becoming Economic Architecture",
+  "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+  "sample_status": "bounded_traceability_sample",
+  "sample_industry_count": 3,
+  "samples": [
+    {
+      "industry_slug": "3d-printer-manufacturing",
+      "industry_title": "3D Printer Manufacturing",
+      "geography": "United States",
+      "as_of": "2026-10-22",
+      "claims": [
+        {
+          "claim_id": "3dp-model",
+          "claim_text": "3D-printer manufacturers monetize hardware alongside materials, software, service, and application expertise, with industrial economics depending on utilization and qualification.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15568",
+            "src_15569",
+            "src_15573",
+            "src_15575"
+          ],
+          "sources": [
+            {
+              "id": "src_15568",
+              "title": "3D printer manufacturing baseline",
+              "publisher": "IBISWorld local baseline",
+              "url": "file:///home/manishmehta/ui-projects/ibis-industries/txt_full/3d-printer-manufacturing.txt",
+              "source_type": "other",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15569",
+              "title": "Wohlers Report 2026",
+              "publisher": "ASTM International",
+              "url": "https://www.astm.org/news/press-releases/wohlers-report-2026",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15573",
+              "title": "2025 full-year results",
+              "publisher": "Stratasys",
+              "url": "https://investors.stratasys.com/news-events/press-releases/detail/975/stratasys-releases-fourth-quarter-and-full-year-2025/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15575",
+              "title": "HP additive manufacturing",
+              "publisher": "HP",
+              "url": "https://www.hp.com/us-en/newsroom/press-releases/2025/hp-drives-additive-manufacturing.html",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "3dp-market",
+          "claim_text": "Recent market evidence distinguishes entry-level shipment activity from the more qualification-intensive industrial segment.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_15569",
+            "src_15570",
+            "src_15571",
+            "src_15572"
+          ],
+          "sources": [
+            {
+              "id": "src_15569",
+              "title": "Wohlers Report 2026",
+              "publisher": "ASTM International",
+              "url": "https://www.astm.org/news/press-releases/wohlers-report-2026",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15570",
+              "title": "Wohlers Report 2025",
+              "publisher": "ASTM International",
+              "url": "https://www.astm.org/news/press-releases/wohlers-report-2025",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15571",
+              "title": "Quarterly 3D printer shipments",
+              "publisher": "Context",
+              "url": "https://www.contextworld.com/en/quarterly-3d-printer-shipments-show-entry-level-remains-hot-while-industrial-segment-still-caught-in-catch-22",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15572",
+              "title": "3D printer shipment market dynamics",
+              "publisher": "Context",
+              "url": "https://www.contextworld.com/en/quarterly-3d-printer-shipments-face-turbulence-amid-shifting-market-dynamics",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "claim_id": "3dp-company",
+          "claim_text": "Public-company and manufacturer disclosures show continuing investment in additive manufacturing, applications, and business-model adaptation.",
+          "claim_type": "fact",
+          "source_ids": [
+            "src_15573",
+            "src_15574",
+            "src_15575",
+            "src_15576"
+          ],
+          "sources": [
+            {
+              "id": "src_15573",
+              "title": "2025 full-year results",
+              "publisher": "Stratasys",
+              "url": "https://investors.stratasys.com/news-events/press-releases/detail/975/stratasys-releases-fourth-quarter-and-full-year-2025/",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15574",
+              "title": "2025 financial results",
+              "publisher": "3D Systems",
+              "url": "https://www.globenewswire.com/news-release/2026/03/09/3251676/8852/en/3D-Systems-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15575",
+              "title": "HP additive manufacturing",
+              "publisher": "HP",
+              "url": "https://www.hp.com/us-en/newsroom/press-releases/2025/hp-drives-additive-manufacturing.html",
+              "source_type": "company",
+              "retrieved_at": "2026-10-22"
+            },
+            {
+              "id": "src_15576",
+              "title": "Company filing",
+              "publisher": "SEC EDGAR",
+              "url": "https://www.sec.gov/Archives/edgar/data/1643303/000121390025035275/ea023872401ex99-1_nano.htm",
+              "source_type": "filing",
+              "retrieved_at": "2026-10-22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "industry_slug": "3d-printing-and-rapid-prototyping-services",
+      "industry_title": "US 3D Printing & Rapid Prototyping Services",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "claims": [
+        {
+          "claim_id": "am-market",
+          "claim_text": "The brief reports a US 3D printing and rapid prototyping services benchmark of $4.0 billion in 2026 versus $1.9 billion in 2021, but market boundaries vary and the figures are estimates.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06742",
+            "src_06743",
+            "src_06745"
+          ],
+          "sources": [
+            {
+              "id": "src_06742",
+              "title": "3D Printing & Rapid Prototyping Services",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/3d-printing-rapid-prototyping-services/4581/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06743",
+              "title": "Rapid Prototyping Materials Market",
+              "publisher": "Fortune Business Insights",
+              "url": "https://www.fortunebusinessinsights.com/rapid-prototyping-materials-market-106524",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06745",
+              "title": "3D Printing Industry Analysis",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/3d-printing-industry-analysis",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "am-structure",
+          "claim_text": "The brief estimates about 1,020 US establishments in 2025 and describes a moderately concentrated market with consolidation accelerating.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06742",
+            "src_06751"
+          ],
+          "sources": [
+            {
+              "id": "src_06742",
+              "title": "3D Printing & Rapid Prototyping Services",
+              "publisher": "IBISWorld",
+              "url": "https://www.ibisworld.com/united-states/industry/3d-printing-rapid-prototyping-services/4581/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06751",
+              "title": "Who Merged, Was Acquired, or Disappeared in 3D Printing in 2025",
+              "publisher": "3DPrint.com",
+              "url": "https://3dprint.com/322764/who-merged-who-was-acquired-and-who-disappeared-in-3d-printing-in-2025-",
+              "source_type": "news",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "am-metal",
+          "claim_text": "Metal additive manufacturing, especially for aerospace and defense, is described as a high-growth opportunity, while forecast rates vary by scope.",
+          "claim_type": "forecast",
+          "source_ids": [
+            "src_06744",
+            "src_06749"
+          ],
+          "sources": [
+            {
+              "id": "src_06744",
+              "title": "3D Printing Market",
+              "publisher": "Precedence Research",
+              "url": "https://www.precedenceresearch.com/3d-printing-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06749",
+              "title": "Metal 3D Printing Market Forecast",
+              "publisher": "IndexBox",
+              "url": "https://www.indexbox.io/blog/metal-3d-printing-market-forecast-points-higher-toward-2035-driven-by-aerospace-production-scaling/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "industry_slug": "abrasive-and-sandpaper-manufacturing-in-the-us",
+      "industry_title": "US Abrasive & Sandpaper Manufacturing (2025-2026)",
+      "geography": "United States",
+      "as_of": "2026-10-21",
+      "claims": [
+        {
+          "claim_id": "abrasive-market",
+          "claim_text": "The brief reports a US abrasive and sandpaper benchmark of $4.1 billion in 2021 and about $5.4 billion in 2025-2026, but estimates vary by product and geography.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06798",
+            "src_06799",
+            "src_06800",
+            "src_06809"
+          ],
+          "sources": [
+            {
+              "id": "src_06798",
+              "title": "Abrasives Market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/abrasives-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06799",
+              "title": "Abrasives Market",
+              "publisher": "Verified Market Research",
+              "url": "https://www.verifiedmarketresearch.com/product/abrasives-market/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06800",
+              "title": "Abrasives Market",
+              "publisher": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/abrasives-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06809",
+              "title": "US Abrasive Market",
+              "publisher": "Data Bridge Market Research",
+              "url": "https://www.databridgemarketresearch.com/reports/us-abrasive-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "abrasive-demand",
+          "claim_text": "Automotive, construction, industrial, semiconductor, battery, and precision manufacturing are key demand channels with different cyclicality and qualification economics.",
+          "claim_type": "interpretation",
+          "source_ids": [
+            "src_06798",
+            "src_06800",
+            "src_06806"
+          ],
+          "sources": [
+            {
+              "id": "src_06798",
+              "title": "Abrasives Market",
+              "publisher": "Grand View Research",
+              "url": "https://www.grandviewresearch.com/industry-analysis/abrasives-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06800",
+              "title": "Abrasives Market",
+              "publisher": "Mordor Intelligence",
+              "url": "https://www.mordorintelligence.com/industry-reports/abrasives-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06806",
+              "title": "Semiconductor Wafer Polishing and Grinding Equipment Market",
+              "publisher": "IMARC Group",
+              "url": "https://www.imarcgroup.com/global-semiconductor-wafer-polishing-grinding-equipment-market",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "claim_id": "abrasive-domestic",
+          "claim_text": "The source set describes tariff-driven domestic sourcing and a reported domestic producer share increase, but the exact share depends on product and measurement scope.",
+          "claim_type": "estimate",
+          "source_ids": [
+            "src_06803",
+            "src_04457",
+            "src_06804"
+          ],
+          "sources": [
+            {
+              "id": "src_06803",
+              "title": "Domestic Manufacturing Market Share Rebounds as Tariffs Reshape Industry",
+              "publisher": "Coalition for a Prosperous America",
+              "url": "https://prosperousamerica.org/new-cpa-report-shows-domestic-manufacturing-market-share-rebounds-in-2025-as-tariffs-begin-to-reshape-u-s-industry/",
+              "source_type": "trade_association",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_04457",
+              "title": "2025 US Tariff Updates",
+              "publisher": "Fictiv",
+              "url": "https://www.fictiv.com/articles/2025-u-s-tariff-updates-key-trade-policy-changes",
+              "source_type": "company",
+              "retrieved_at": "2026-10-21"
+            },
+            {
+              "id": "src_06804",
+              "title": "Abrasives China Market Overview",
+              "publisher": "IndexBox",
+              "url": "https://www.indexbox.io/blog/abrasives-china-market-overview-2024/",
+              "source_type": "research_firm",
+              "retrieved_at": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "boundary": "This sample traces three matched industries to claim-level source IDs and URLs. It does not validate the full finding, establish causality, or represent all 1,161 matched industries.",
+  "next_test": "Expand the same traceability method across a pre-specified industry sample, add counterexamples and outcomes, and review publisher independence before promotion."
+}

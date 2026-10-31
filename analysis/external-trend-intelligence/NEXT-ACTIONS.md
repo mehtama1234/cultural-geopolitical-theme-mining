@@ -11,6 +11,10 @@ has five discovery findings, three pinned pattern artifacts, 12 aggregate
 pattern entries, 52,593 aggregate claims, and 77,606 aggregate source
 references. It does not identify which source record supports each finding.
 
+A first [bounded traceability sample](ibis-finding-claim-sample.json) now
+traces three matched industries and their claim-level source IDs and URLs.
+This is progress toward the gate, not full-finding validation.
+
 Next test:
 
 1. Select one finding, beginning with “Compliance Is Becoming Economic

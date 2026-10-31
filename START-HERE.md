@@ -19,6 +19,8 @@ and [evidence review queue](analysis/external-trend-intelligence/external-eviden
 show which source overlaps and missing source identities still block promotion.
 The [next-actions handoff](analysis/external-trend-intelligence/NEXT-ACTIONS.md)
 names the one remaining high-priority review and the exact rebuild commands.
+The first IBIS claim-level sample is in
+[ibis-finding-claim-sample.json](analysis/external-trend-intelligence/ibis-finding-claim-sample.json).
 
 ## Company trend-intelligence goal
 
