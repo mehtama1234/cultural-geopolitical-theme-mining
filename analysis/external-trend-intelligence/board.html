@@ -218,6 +218,7 @@
     }
     let ibisSampleSourceUrlCount = 0;
     let ibisSampleSourceHostCount = 0;
+    let ibisSampleDuplicateUrlCount = 0;
     function ibisSampleCard(sample) {
       const article = document.createElement('article');
       const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = 'bounded sample';
@@ -225,7 +226,7 @@
       const meta = document.createElement('code'); meta.textContent = `${sample.industry_slug} · ${sample.geography} · ${sample.as_of}`;
       const claims = document.createElement('p'); claims.innerHTML = `<strong>Claims traced:</strong> ${sample.claims.length}`;
       const sources = document.createElement('p'); sources.innerHTML = `<strong>Source records:</strong> ${new Set(sample.claims.flatMap(claim => claim.source_ids)).size}`;
-      const diversity = document.createElement('p'); diversity.innerHTML = `<strong>Sample diversity:</strong> ${ibisSampleSourceUrlCount} URLs · ${ibisSampleSourceHostCount} hosts`;
+      const diversity = document.createElement('p'); diversity.innerHTML = `<strong>Sample diversity:</strong> ${ibisSampleSourceUrlCount} URLs · ${ibisSampleSourceHostCount} hosts · ${ibisSampleDuplicateUrlCount} repeated URLs`;
       const outcomes = document.createElement('p'); outcomes.innerHTML = `<strong>Outcome candidates:</strong> ${sample.outcome_measure_candidates.join('; ') || '—'}`;
       article.append(pill, title, meta, claims, sources, diversity, outcomes); return article;
     }
@@ -275,6 +276,7 @@
       const evidenceGaps = el('evidence-gaps'); gapQueue.gaps.forEach(gap => evidenceGaps.append(evidenceGapCard(gap)));
       ibisSampleSourceUrlCount = ibisSample.sample_source_url_count;
       ibisSampleSourceHostCount = ibisSample.sample_source_host_count;
+      ibisSampleDuplicateUrlCount = Object.keys(ibisSample.duplicate_source_urls).length;
       const ibisSamples = el('ibis-sample'); ibisSample.samples.forEach(sample => ibisSamples.append(ibisSampleCard(sample)));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
   </script>
