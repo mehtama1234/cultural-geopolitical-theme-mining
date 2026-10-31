@@ -23,17 +23,14 @@ STALE_THRESHOLDS_HOURS = {
 }
 
 
-def main() -> int:
-    schedule = json.loads((ANALYSIS / "refresh-schedule.json").read_text())
-    registry = json.loads((ANALYSIS / "source-family-registry.json").read_text())
+def build_report(schedule: dict, registry: dict, now: datetime, *, root: Path = ROOT, analysis: Path = ANALYSIS) -> dict:
     registered = {family["id"] for family in registry["source_families"]}
-    now = datetime.now(timezone.utc)
     families = []
     for item in schedule["families"]:
         family_id = item["family_id"]
         artifacts = []
         for relative in item["refresh_artifacts"]:
-            path = ANALYSIS / relative if "/" not in relative else ROOT / relative
+            path = analysis / relative if "/" not in relative else root / relative
             exists = path.exists()
             age_hours = None
             if exists:
@@ -54,7 +51,7 @@ def main() -> int:
             "missing_artifacts": missing,
             "stale": stale,
         })
-    report = {
+    return {
         "schema": "external-trend-intelligence.refresh-status.v1",
         "generated_at": now.isoformat(),
         "source_schedule": "refresh-schedule.json",
@@ -66,8 +63,12 @@ def main() -> int:
         "families": families,
         "boundary": "Artifact presence and file age are operational checks, not proof that an external source is current, reachable, licensed, independent, or outcome-valid.",
     }
+def main() -> int:
+    schedule = json.loads((ANALYSIS / "refresh-schedule.json").read_text())
+    registry = json.loads((ANALYSIS / "source-family-registry.json").read_text())
+    report = build_report(schedule, registry, datetime.now(timezone.utc))
     OUTPUT.write_text(json.dumps(report, indent=2) + "\n")
-    print(f"wrote {OUTPUT} ({len(families)} families)")
+    print(f"wrote {OUTPUT} ({len(report['families'])} families)")
     return 0
 
 

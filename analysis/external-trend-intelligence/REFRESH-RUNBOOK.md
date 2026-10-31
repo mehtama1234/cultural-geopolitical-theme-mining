@@ -18,6 +18,16 @@ python3 scripts/build_external_refresh_status.py
 age. It is a control-plane check, not proof that a source is current or
 independent.
 
+Exercise the stale gate and its recovery path without mutating the release
+tree:
+
+```text
+python3 scripts/test_refresh_stale_gate.py
+```
+
+The check creates a temporary old artifact, verifies that the family becomes
+`stale`, rewrites the artifact, and verifies recovery to `ready_for_review`.
+
 For a full ordered rebuild and validation, run:
 
 ```text
