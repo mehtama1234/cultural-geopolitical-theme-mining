@@ -30,7 +30,7 @@ def main() -> int:
     assert records, "portfolio has no records"
 
     for record in records:
-        assert set(("trend_id", "title", "path", "status", "confidence", "horizon", "domains", "decision_owners", "open_test")) <= set(record), record
+        assert set(("trend_id", "title", "summary", "path", "status", "confidence", "horizon", "domains", "decision_owners", "open_test")) <= set(record), record
         assert record["status"] in statuses, record
         assert record["confidence"] in {"high", "medium", "low"}, record
         assert set(record["horizon"]) <= {"now", "next", "longer_term"}, record
@@ -39,6 +39,7 @@ def main() -> int:
         text = path.read_text(encoding="utf-8")
         assert record["trend_id"] in text, record["trend_id"]
         assert record["title"] in text, record["title"]
+        assert record["summary"], record["trend_id"]
         for heading in ("## Evidence", "## Mechanism", "## Business exposure", "## Leading indicators", "## Counterevidence and limits", "## Next test"):
             assert heading in text, f"{path}: missing {heading}"
 

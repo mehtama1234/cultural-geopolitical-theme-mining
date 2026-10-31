@@ -81,7 +81,7 @@
       cards.replaceChildren();
       filtered.forEach(record => {
         const article = document.createElement('article');
-        article.innerHTML = `<span class="tag">${record.status.replaceAll('_', ' ')} · ${record.confidence} confidence</span><h2>${record.title}</h2><p>${record.open_test}</p><div class="domains">${record.domains.join(' · ')}<br>Horizon: ${record.horizon.join(' · ')}<br><a href="${record.path}">Read evidence-backed record →</a></div>`;
+        article.innerHTML = `<span class="tag">${record.status.replaceAll('_', ' ')} · ${record.confidence} confidence</span><h2>${record.title}</h2><p>${record.summary}</p><p><strong>Open test:</strong> ${record.open_test}</p><div class="domains">${record.domains.join(' · ')}<br>Horizon: ${record.horizon.join(' · ')}<br><a href="${record.path}">Read evidence-backed record →</a></div>`;
         cards.append(article);
       });
       empty.hidden = filtered.length !== 0;
