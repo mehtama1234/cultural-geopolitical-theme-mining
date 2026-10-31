@@ -33,6 +33,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/held-candidates.json",
     "analysis/external-trend-intelligence/board.html",
     "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
+    "analysis/external-trend-intelligence/promotion-queue.json",
 ]
 
 

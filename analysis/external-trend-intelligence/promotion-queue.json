@@ -1,0 +1,49 @@
+{
+  "schema": "external-trend-intelligence.promotion-queue.v1",
+  "purpose": "Single promotion and internal-bridge gate for external trend candidates.",
+  "internal_bridge_rule": "No candidate is bridge-ready until external lineage, comparability, counter-signal, mechanism, and outcome gates pass.",
+  "candidates": [
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "current_status": "qualified_candidate",
+      "blocking_gates": ["publisher/study lineage", "implementation and recovery outcome comparison"],
+      "next_action": "Code formal response, implementation, receipt, durable access, and exit stages across independent labor, consumer, health, and public-service records.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "current_status": "qualified_candidate",
+      "blocking_gates": ["survey denominator comparability", "participant versus total-population distinction"],
+      "next_action": "Preserve compatible time, cost, participation, and wellbeing units before interpreting practical-room change.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "current_status": "qualified_candidate",
+      "blocking_gates": ["task-level method comparability", "later correction, switching, and legitimacy outcomes"],
+      "next_action": "Separate efficiency, delegation, trust, control, recourse, retention, and exit measures.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "current_status": "qualified_candidate",
+      "blocking_gates": ["event/report lineage", "operation-to-user-receipt and local-incidence evidence"],
+      "next_action": "Link capacity or ownership claims to operation, actual receipt, local burden, maintenance, and acceptance.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-care-longevity-access-capacity",
+      "current_status": "held_candidate",
+      "blocking_gates": ["heterogeneous populations and denominators", "comparable dated outcome panel", "independent lineage"],
+      "next_action": "Reconcile care demand, access time, unpaid-care hours, employment effect, service capacity, and spending across geographies.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-adaptation-control-proof-resilience",
+      "current_status": "held_candidate",
+      "blocking_gates": ["synthesis versus independent observation", "common adoption/spending/outcome units", "counterexamples"],
+      "next_action": "Test control, proof, substitution, and resilience demand with dated procurement, adoption, retention, cost, and outcome measures.",
+      "internal_bridge_ready": false
+    }
+  ]
+}

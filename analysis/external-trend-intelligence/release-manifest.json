@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "cebf917666ac5bedddf8b1b3ab4a7a1246ab68a5",
-  "artifact_count": 19,
+  "source_tree_commit": "69e917589498263426556fcaf4aae01a3a2e1952",
+  "artifact_count": 20,
   "artifacts": [
     {
       "path": "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
@@ -16,13 +16,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/README.md",
-      "bytes": 8652,
-      "sha256": "88f29fa0007067074765cc91fadbef7008ee2e2e34ba2b013521964de73ae8de"
+      "bytes": 8886,
+      "sha256": "642e7c5bc002900970b19058073a0dcb6bfba61386d2e5435f175797f800df78"
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
-      "bytes": 3287,
-      "sha256": "8a787f526783b5188da155adebd16e5c85360edd0948e4bfa6d49ea5a9ace97f"
+      "bytes": 3462,
+      "sha256": "6eee6c04dc8824e156c773378082df75349acd63631c24d84e6c0534f4d2012f"
     },
     {
       "path": "analysis/external-trend-intelligence/source-family-registry.json",
@@ -98,6 +98,11 @@
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
       "bytes": 8880,
       "sha256": "26bbb83623fe9f5a9702fb13425529f6727c1d117aa05743837791c8bab7f8f5"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/promotion-queue.json",
+      "bytes": 2866,
+      "sha256": "c83e775163129ce55bd75d809ee7503e93b676992c6adb036e7c3f1505710d3e"
     }
   ],
   "boundary": "This release manifest proves which local reader artifacts were packaged together. It does not prove that the underlying external sources are independent, current, licensed, or outcome-valid."

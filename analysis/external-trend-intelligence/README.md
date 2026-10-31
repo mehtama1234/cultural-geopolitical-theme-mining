@@ -175,3 +175,7 @@ comparisons, and publishing the board.
 [`release-manifest.json`](release-manifest.json) is the single local release
 index for the reader surface. It records the packaged artifact paths, byte
 counts, checksums, and the source-tree commit used to build the package.
+
+[`promotion-queue.json`](promotion-queue.json) is the consolidated gate for
+the four qualified candidates and two held candidates. It records the blocking
+evidence work and confirms that none is ready for an internal company bridge.

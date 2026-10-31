@@ -57,6 +57,10 @@ Thematic adjacency, shared words, industry labels, ranking, or timing is not a
 valid join. Host count and URL count are coverage measures, not independent
 confirmation.
 
+Use [`promotion-queue.json`](promotion-queue.json) as the single gate register;
+do not create an internal bridge from a candidate that is not marked
+`internal_bridge_ready`.
+
 ## 4. Promote cautiously
 
 Before moving a candidate from held to qualified, reconcile:

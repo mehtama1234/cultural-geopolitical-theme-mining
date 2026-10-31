@@ -207,7 +207,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 19
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 20
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     for artifact in release_manifest["artifacts"]:
@@ -233,6 +233,20 @@ def main() -> int:
     assert len(held_candidates["candidates"]) == 2
     assert all(candidate["status"] == "held_candidate" for candidate in held_candidates["candidates"])
     assert all(candidate["mechanism"] and candidate["counter_signal"] and candidate["next_test"] for candidate in held_candidates["candidates"])
+    promotion_queue = json.loads((ANALYSIS / "promotion-queue.json").read_text())
+    assert promotion_queue["schema"] == "external-trend-intelligence.promotion-queue.v1"
+    assert promotion_queue["internal_bridge_rule"]
+    promotion_ids = {candidate["candidate_id"] for candidate in promotion_queue["candidates"]}
+    assert promotion_ids == {
+        "candidate-formal-response-before-recovery",
+        "candidate-time-financial-pressure-practical-room",
+        "candidate-digital-capability-control-trust",
+        "candidate-infrastructure-dependency-power",
+        "candidate-care-longevity-access-capacity",
+        "candidate-adaptation-control-proof-resilience",
+    }
+    assert all(candidate["blocking_gates"] and candidate["next_action"] for candidate in promotion_queue["candidates"])
+    assert all(candidate["internal_bridge_ready"] is False for candidate in promotion_queue["candidates"])
     social_observation = next(observation for observation in family_observations["observations"] if observation["family_id"] == "social-research")
     trend_observation = next(observation for observation in family_observations["observations"] if observation["family_id"] == "trend-hunting")
     assert social_observation["generated_at"] and social_observation["method"] and social_observation["artifact_evidence_boundary"]
