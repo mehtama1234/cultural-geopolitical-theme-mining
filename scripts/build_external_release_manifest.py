@@ -40,6 +40,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/room-independent-comparison.json",
     "analysis/external-trend-intelligence/evidence-acquisition-plan.json",
     "analysis/external-trend-intelligence/goal-completion-audit.json",
+    "analysis/external-trend-intelligence/room-independent-result.json",
     "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
     "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
     "analysis/external-trend-intelligence/refresh-schedule.json",

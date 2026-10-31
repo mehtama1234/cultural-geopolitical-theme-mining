@@ -483,6 +483,9 @@
       fetch('room-independent-comparison.json').then(r => r.json()).then(room => {
         el('independent-comparison').append(card('Household-room comparison', room.status, room.source_families.join(' vs. ') + ' · ' + room.blocking_items.join(' · ')));
       });
+      fetch('room-independent-result.json').then(r => r.json()).then(result => {
+        el('independent-comparison').append(card('Cross-source direction', result.status, result.directional_summary + ' ' + result.counter_signal));
+      });
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
       const controls = new Map(sourceControls.families.map(item => [item.family_id, item]));
       const sourceFamilies = el('source-families'); sourceRegistry.source_families.forEach(family => {
