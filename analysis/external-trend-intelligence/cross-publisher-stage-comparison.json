@@ -1,0 +1,86 @@
+{
+  "schema": "external-trend-intelligence.cross-publisher-stage-comparison.v1",
+  "panel": "australia-remedy-cross-publisher-panel-001",
+  "status": "descriptive_stage_coverage_only",
+  "case_count": 5,
+  "publisher_case_counts": {
+    "Fair Work Commission": 4,
+    "Fair Work Ombudsman": 1
+  },
+  "stage_coverage_by_publisher": {
+    "Fair Work Commission": {
+      "formal_response": {
+        "observed_case_count": 4,
+        "not_observed_case_count": 0,
+        "case_count": 4
+      },
+      "implementation": {
+        "observed_case_count": 2,
+        "not_observed_case_count": 2,
+        "case_count": 4
+      },
+      "receipt": {
+        "observed_case_count": 3,
+        "not_observed_case_count": 1,
+        "case_count": 4
+      },
+      "durable_access": {
+        "observed_case_count": 3,
+        "not_observed_case_count": 1,
+        "case_count": 4
+      },
+      "substitution_or_exit": {
+        "observed_case_count": 3,
+        "not_observed_case_count": 1,
+        "case_count": 4
+      }
+    },
+    "Fair Work Ombudsman": {
+      "formal_response": {
+        "observed_case_count": 0,
+        "not_observed_case_count": 1,
+        "case_count": 1
+      },
+      "implementation": {
+        "observed_case_count": 0,
+        "not_observed_case_count": 1,
+        "case_count": 1
+      },
+      "receipt": {
+        "observed_case_count": 1,
+        "not_observed_case_count": 0,
+        "case_count": 1
+      },
+      "durable_access": {
+        "observed_case_count": 0,
+        "not_observed_case_count": 1,
+        "case_count": 1
+      },
+      "substitution_or_exit": {
+        "observed_case_count": 0,
+        "not_observed_case_count": 1,
+        "case_count": 1
+      }
+    }
+  },
+  "supports": [
+    "stage-definition review",
+    "missing-outcome visibility",
+    "holdout design"
+  ],
+  "does_not_support": [
+    "pooled rates",
+    "publisher-independent confirmation",
+    "causal effect",
+    "population prevalence",
+    "company exposure"
+  ],
+  "blocking_items": [
+    "case types and denominators differ",
+    "periods and legal processes differ",
+    "no pre-specified independent holdout",
+    "public non-observation is not a negative outcome"
+  ],
+  "next_action": "Pre-specify a non-case-based holdout with compatible population, period, and outcome definitions before any trend promotion.",
+  "boundary": "This is a descriptive coverage comparison. It counts observed stage evidence by publisher but never treats missing public evidence as failure or pools unlike cases."
+}
