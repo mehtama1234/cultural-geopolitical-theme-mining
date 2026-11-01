@@ -102,8 +102,8 @@ Every review note must answer:
 ## Current handoff
 
 The current release has eight source families, 2,135 indexed records, five
-cross-source candidates (one monitored external trend and four held), two
-design-only company pilots (both blocked by the external-first gate), and a
+cross-source candidates (one monitored external trend and four held), three
+design-only company pilots (all blocked by the external-first gate), and a
 monitoring register. The next analyst actions
 are the claim-level source maps and dated holdout evidence named in the
 qualification and backtest registers.
