@@ -63,6 +63,9 @@ path through CDC/NCHS NPALS 2025 web tables, the 2022 public-use frame, and
 Medicaid state context. It specifies the required denominator, period,
 uncertainty, survey-frame, and rights fields. This is an acquisition gate, not
 a utilization result; do not label policy rates as service utilization.
+The 2025 weighted-estimates PDF is now recorded as national-only public evidence
+with published standard errors; state-level fields still require verified web-
+table/API extraction or separately approved restricted-data access.
 
 The forecast comparison now has a separate [forecast lineage review](forecast-lineage-review.json):
 four rows resolve to three publisher hosts, with the repeated UN DESA host

@@ -136,6 +136,21 @@
   "outcome_acquisition_plan": {
     "status": "targeted_public_source_identified_pending_extraction",
     "target_outcome": "state-level adult-day service supply, attendance, authorization, or utilization measure with a comparable 2022-to-2025 frame",
+    "public_evidence_assessment": {
+      "cdc_2025_weighted_estimates_pdf": {
+        "url": "https://www.cdc.gov/nchs/data/npals/2025/2025-NPALS-ADSC-weighted-estimates.pdf",
+        "public_national_estimates": true,
+        "standard_errors_published": true,
+        "state_level_fields_in_this_artifact": false,
+        "microdata_access": "restricted_nchs_research_data_center",
+        "interpretation": "The public PDF supports national weighted capacity and payer measures with standard errors; it does not by itself provide a state-level utilization panel."
+      },
+      "cdc_npals_web_tables": {
+        "url": "https://www.cdc.gov/nchs/npals/webtables/overview.htm",
+        "state_level_public_extract": "requires table/API extraction and verification",
+        "interpretation": "State-level availability must be confirmed from the interactive tables or an explicitly downloadable public extract before use."
+      }
+    },
     "source_targets": [
       {
         "publisher": "CDC/NCHS NPALS",

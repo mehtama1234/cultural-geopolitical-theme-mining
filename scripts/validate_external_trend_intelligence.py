@@ -505,6 +505,10 @@ def main() -> int:
     assert outcome_plan["status"] == "targeted_public_source_identified_pending_extraction"
     assert len(outcome_plan["source_targets"]) == 3
     assert outcome_plan["required_fields"] and outcome_plan["acceptance_criteria"] and outcome_plan["stop_rule"]
+    public_assessment = outcome_plan["public_evidence_assessment"]
+    assert public_assessment["cdc_2025_weighted_estimates_pdf"]["public_national_estimates"] is True
+    assert public_assessment["cdc_2025_weighted_estimates_pdf"]["standard_errors_published"] is True
+    assert public_assessment["cdc_2025_weighted_estimates_pdf"]["state_level_fields_in_this_artifact"] is False
     assert ibis_outcome["rights_review"]["release_decision"] == "normalized_values_and_citations_only"
     schedule_health = json.loads((ANALYSIS / "refresh-schedule-health.json").read_text())
     assert schedule_health["schema"] == "external-trend-intelligence.refresh-schedule-health.v1"

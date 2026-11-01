@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "95d1c45ba8f1235c11b001fb29af6cb6936b6277",
+  "source_tree_commit": "5ac33c88736b595cf1a01780bd38418577b27c7e",
   "artifact_count": 102,
   "artifacts": [
     {
@@ -201,8 +201,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
-      "bytes": 7865,
-      "sha256": "8e7698088be191908f15de749acc2f8f17a65e160ca82826bbce5e7981ade815"
+      "bytes": 8093,
+      "sha256": "a92744453816fbdeb4395f1a77b6ff740f858e4191c7262f0af4e755ebf17fba"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -341,8 +341,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-adult-day-outcome-review.json",
-      "bytes": 10053,
-      "sha256": "e9a58cb958b39c20359b83aa3ca4967b712a299f422060914c9bd8e43ff1dc56"
+      "bytes": 10993,
+      "sha256": "899d79399bb9fccb1a32eda0178284dbb60e37a7a2206fe8ec165d77905b07b9"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
