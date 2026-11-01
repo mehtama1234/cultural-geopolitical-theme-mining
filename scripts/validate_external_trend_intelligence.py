@@ -896,6 +896,12 @@ def main() -> int:
     assert all(row["theme"] and row["subtheme"] and row["concept"] for row in chart_catalog["charts"])
     assert all(row["source_artifacts"] and row["required_visible_fields"] for row in chart_catalog["charts"])
     assert chart_catalog["boundary"] and chart_catalog["next_action"]
+    continuity_plan = json.loads((ANALYSIS / "continuity-coverage-plan.json").read_text())
+    assert continuity_plan["schema"] == "external-trend-intelligence.continuity-coverage-plan.v1"
+    assert continuity_plan["required_week_count"] == 104
+    assert continuity_plan["observed_distinct_week_count"] == len(continuity_plan["observed_weeks"])
+    assert continuity_plan["remaining_week_count"] == max(continuity_plan["required_week_count"] - continuity_plan["observed_distinct_week_count"], 0)
+    assert continuity_plan["acceptance"] and continuity_plan["boundary"] and continuity_plan["next_action"]
     room_comparison = json.loads((ANALYSIS / "room-independent-comparison.json").read_text())
     assert room_comparison["schema"] == "external-trend-intelligence.room-independent-comparison.v1"
     assert room_comparison["status"] == "mechanism_comparison_only"

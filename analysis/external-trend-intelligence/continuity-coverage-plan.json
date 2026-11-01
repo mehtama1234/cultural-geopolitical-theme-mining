@@ -1,0 +1,24 @@
+{
+  "schema": "external-trend-intelligence.continuity-coverage-plan.v1",
+  "status": "two_year_weekly_coverage_not_demonstrated",
+  "expected_cadence": "weekly",
+  "required_week_count": 104,
+  "observed_distinct_week_count": 1,
+  "remaining_week_count": 103,
+  "observed_week_coverage_ratio": 0.0096,
+  "observed_week_coverage_percent": 0.96,
+  "observed_weeks": [
+    {
+      "week": "2026-W44",
+      "run_count": 143,
+      "passed_run_count": 133,
+      "first_run": "2026-10-31T22:09:08+00:00",
+      "latest_run": "2026-11-01T04:47:09+00:00"
+    }
+  ],
+  "run_count": 143,
+  "passed_run_count": 133,
+  "acceptance": "Each of 104 distinct weekly windows must contain a passed full refresh, with missed-window recovery evidence retained.",
+  "next_action": "Allow the scheduled workflow to accumulate distinct weekly windows; investigate any missing or stale window and retain manual-dispatch recovery evidence.",
+  "boundary": "This plan measures observed weekly coverage only. It does not predict future execution, clear rights, qualify trends, or authorize internal company access."
+}

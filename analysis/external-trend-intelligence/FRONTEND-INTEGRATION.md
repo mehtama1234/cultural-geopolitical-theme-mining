@@ -22,6 +22,7 @@ blockers.
 | Forecast outcome eligibility | `forecast-outcome-eligibility.json` | distinguishes forecast periods still open from eligible-but-missing realized outcomes so the board never scores a partial-year result as a backtest |
 | Refresh freshness decisions | `refresh-freshness-decision.json` | converts artifact age, missing files, and incomplete states into explicit per-family ready/hold decisions and actions |
 | Open-gate history | `open-gate-history.json` | preserves append-only gate workload snapshots so closure, reopening, and long-lived critical work can be monitored across refreshes |
+| Continuity coverage plan | `continuity-coverage-plan.json` | measures distinct weekly windows observed against the 104-week requirement, passed runs, remaining windows, and recovery boundary |
 | Operating ownership readiness | `operating-ownership-readiness.json` | separates passing successor-control checks from named role assignment and signed handoff readiness |
 | Rights review readiness | `rights-review-readiness.json` | separates local terms-file discovery and accountable owner assignment from actual rights clearance or redistribution permission |
 | Compatible-measure search | `compatible-measure-search.json` | scanned record count, candidate measure/unit groups, hosts, periods, review boundary |
