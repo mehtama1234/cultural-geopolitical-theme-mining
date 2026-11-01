@@ -1,6 +1,6 @@
 {
   "schema": "external-trend-intelligence.refresh-freshness-decision.v1",
-  "generated_at": "2026-11-01T06:57:02.690654+00:00",
+  "generated_at": "2026-11-01T07:01:21.230429+00:00",
   "family_count": 8,
   "fresh_ready_count": 8,
   "hold_count": 0,
@@ -21,7 +21,7 @@
         {
           "path": "candidate-comparisons.json",
           "exists": true,
-          "age_hours": 7.39
+          "age_hours": 7.46
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -63,7 +63,7 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 11.65
+          "age_hours": 11.72
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -131,7 +131,7 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 11.65
+          "age_hours": 11.72
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -147,12 +147,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 10.56
+          "age_hours": 10.63
         },
         {
           "path": "REFRESH-RUNBOOK.md",
           "exists": true,
-          "age_hours": 1.6
+          "age_hours": 1.68
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -168,12 +168,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 10.56
+          "age_hours": 10.63
         },
         {
           "path": "internal-bridge-schema.json",
           "exists": true,
-          "age_hours": 12.59
+          "age_hours": 12.66
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
