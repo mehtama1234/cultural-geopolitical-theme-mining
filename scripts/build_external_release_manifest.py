@@ -32,6 +32,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
     "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
     "analysis/external-trend-intelligence/PILOT-VALIDATION-PROTOCOL.md",
+    "analysis/external-trend-intelligence/PILOT-ACTIVATION-REQUEST.md",
     "analysis/external-trend-intelligence/pilot-contract-intake.json",
     "analysis/external-trend-intelligence/pilot-bridge-simulation.json",
     "analysis/external-trend-intelligence/pilot-food-security-service-room-blueprint.json",
