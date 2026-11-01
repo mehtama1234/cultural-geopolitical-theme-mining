@@ -796,6 +796,9 @@
       fetch('external-acquisition-rights-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => el('rights-evidence').append(card(`Acquisition · ${row.publisher}`, row.rights_evidence_status, `${row.upstream_identity} · ${row.next_action}`)));
       });
+      fetch('feeding-america-rights-review.json').then(r => r.json()).then(review => {
+        el('rights-evidence').append(card('Feeding America public snapshot rights', review.rights_evidence_status, `${review.permitted_scope_for_this_observatory} ${review.not_cleared} Next: ${review.next_action}`));
+      });
       fetch('financial-room-rights-review.json').then(r => r.json()).then(review => {
         el('rights-evidence').append(card('Financial-room candidate rights', review.release_decision, `${review.source_count} source-specific reviews · ${review.boundary}`));
         review.rows.forEach(row => el('rights-evidence').append(card(`Financial room · ${row.publisher}`, row.rights_status, `${row.observed_boundary} Next: ${row.next_action}`)));
