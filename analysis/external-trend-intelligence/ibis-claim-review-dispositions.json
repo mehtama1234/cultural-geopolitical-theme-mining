@@ -2,17 +2,14 @@
   "schema": "external-trend-intelligence.ibis-claim-review-dispositions.v1",
   "finding_slug": "compliance-as-economic-architecture",
   "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
-  "status": "two_conservative_triage_dispositions_recorded",
+  "status": "five_conservative_triage_dispositions_recorded",
   "review_method": "metadata-only triage from pinned repository artifacts; not legal rights clearance or independent outcome validation",
-  "completed_disposition_count": 2,
-  "pending_first_batch_count": 8,
+  "completed_disposition_count": 5,
+  "pending_first_batch_count": 5,
   "pending_review_ids": [
-    "ibis-independence::atm-manufacturing::atm-cash",
     "ibis-independence::community-housing-and-homeless-shelters-in-the-us::shelter-affordability",
     "ibis-independence::dna-and-dna-forensic-laboratories::dna-public",
-    "ibis-independence::eating-disorder-clinics::ed-need",
     "ibis-independence::family-law-and-divorce-lawyers-and-attorneys::family-demographics",
-    "ibis-independence::flying-schools::flight-demand",
     "ibis-independence::commercial-oven-manufacturing::com-scale",
     "ibis-independence::financial-data-service-providers::fdsp-alternative"
   ],
@@ -81,8 +78,110 @@
       "next_test": "Verify the enacted-law versions and effective dates, then acquire a dated independent outcome series with a defined device population and denominator (repair volume, repair rate, device age, or e-waste).",
       "company_bridge_status": "blocked_external_first_gate",
       "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
+    },
+    {
+      "review_id": "ibis-independence::atm-manufacturing::atm-cash",
+      "industry_slug": "atm-manufacturing",
+      "claim_id": "atm-cash",
+      "claim_text": "Cash remains important to portions of US consumers and commerce even as digital payments change transaction behavior and ATM location economics.",
+      "review_scope": "repository_metadata_triage",
+      "review_status": "triage_complete_full_review_required",
+      "disposition": "held_outcome_missing",
+      "evidence_checked": {
+        "source_count": 2,
+        "publisher_counts": {
+          "ATM Advantage": 1,
+          "Federal Reserve Financial Services": 1
+        },
+        "source_type_counts": {
+          "other": 1,
+          "government": 1
+        },
+        "missing_published_at_count": 2,
+        "source_urls": [
+          "https://www.atmadvantage.com/atm-trends-2025-future-of-banking-technology-cash/",
+          "https://www.frbservices.org/news/fed360/issues/080426/cash-remains-essential-us-consumers"
+        ]
+      },
+      "independence_finding": "Publisher diversity is provisional: ATM Advantage and Federal Reserve Financial Services are distinct hosts, but the metadata does not establish whether the trade article restates the same Fed evidence or uses a compatible population.",
+      "outcome_finding": "Not observed: the claim has no dated outcome candidates in the pinned artifact for cash use, withdrawal volume, transaction share, or ATM economics.",
+      "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
+      "counter_signal": "Cash-importance context and ATM-location economics are different measures; neither establishes a persistent consumer or operator trend by itself.",
+      "next_test": "Recover the underlying Federal Reserve survey/table and acquire a dated transaction or cash-use series with a stated denominator before any trend claim.",
+      "company_bridge_status": "blocked_external_first_gate",
+      "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
+    },
+    {
+      "review_id": "ibis-independence::eating-disorder-clinics::ed-need",
+      "industry_slug": "eating-disorder-clinics",
+      "claim_id": "ed-need",
+      "claim_text": "NIMH statistics and NIH funding sources document substantial eating-disorder need and a continuing research and care ecosystem.",
+      "review_scope": "repository_metadata_triage",
+      "review_status": "triage_complete_full_review_required",
+      "disposition": "held_insufficient_evidence",
+      "evidence_checked": {
+        "source_count": 2,
+        "publisher_counts": {
+          "National Institute of Mental Health": 1,
+          "National Institutes of Health": 1
+        },
+        "source_type_counts": {
+          "government": 2
+        },
+        "missing_published_at_count": 2,
+        "source_urls": [
+          "https://www.nimh.nih.gov/health/statistics/eating-disorders",
+          "https://report.nih.gov/funding/categorical-spending"
+        ]
+      },
+      "independence_finding": "Not established: NIMH and NIH are both U.S. federal health publishers, and the local metadata does not establish separate study, sample, or methodological lineage.",
+      "outcome_finding": "Not observed: candidate measures are listed, but no dated independent clinic demand, wait-time, treatment, or utilization outcome is attached.",
+      "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
+      "counter_signal": "A federal evidence page and a federal research page can describe need without measuring clinic capacity or realized service use.",
+      "next_test": "Map the exact NIMH/NIH source artifacts and acquire a dated independent utilization or capacity series with a defined population and denominator.",
+      "company_bridge_status": "blocked_external_first_gate",
+      "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
+    },
+    {
+      "review_id": "ibis-independence::flying-schools::flight-demand",
+      "industry_slug": "flying-schools",
+      "claim_id": "flight-demand",
+      "claim_text": "Industry and school sources describe persistent long-term pilot demand and regional-carrier hiring, while student enrollment is sensitive to tuition, debt, and perceived job timing.",
+      "review_scope": "repository_metadata_triage",
+      "review_status": "triage_complete_full_review_required",
+      "disposition": "held_insufficient_evidence",
+      "evidence_checked": {
+        "source_count": 6,
+        "publisher_counts": {
+          "ATP Flight School": 1,
+          "PEA": 1,
+          "Skyfarer Academy": 1,
+          "Pelican Flight School": 1,
+          "Coast Flight": 1,
+          "Flight School USA": 1
+        },
+        "source_type_counts": {
+          "company": 6
+        },
+        "missing_published_at_count": 6,
+        "source_urls": [
+          "https://atpflightschool.com/become-a-pilot/airline-career/pilot-hiring-outlook.html",
+          "https://pea.com/blog/global-pilot-shortage/",
+          "https://blog.skyfareracademy.com/2026/03/06/pilot-shortage-in-2026-is-there-still-strong-demand-for-pilots/",
+          "https://pelicanflightschool.com/pilot-demand",
+          "https://iflycoast.com/va-benefit-flight-training/",
+          "https://www.flightschoolusa.com/aviation-school-with-gi-bill/"
+        ]
+      },
+      "independence_finding": "Not established: all six source rows are flight-school company pages; distinct URLs do not establish independent market evidence and may reflect promotional positioning.",
+      "outcome_finding": "Not observed: the artifact lists candidate demand measures but contains no dated enrollment, completion, utilization, or licensing outcome series.",
+      "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
+      "counter_signal": "School-reported offerings and testimonials can coexist with flat or declining realized student demand; the source frame cannot resolve that direction.",
+      "next_test": "Acquire an independent FAA, enrollment, certification, or utilization series and separate company marketing claims from observed outcomes.",
+      "company_bridge_status": "blocked_external_first_gate",
+      "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
     }
   ],
   "next_action": "Complete the remaining first-batch reviews, then acquire dated independent outcomes for claims that survive metadata triage.",
-  "boundary": "This artifact records two held triage dispositions. It does not qualify either claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge."
+  "boundary": "This artifact records five held triage dispositions. It does not qualify any claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge."
 }

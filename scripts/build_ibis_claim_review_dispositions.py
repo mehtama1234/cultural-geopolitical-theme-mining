@@ -45,6 +45,9 @@ def main() -> int:
         }
     target = next(row for row in batch["claims"] if row["review_id"].endswith("drug-and-alcohol-test-kit-manufacturing::test-demand"))
     repair = next(row for row in batch["claims"] if row["review_id"].endswith("cell-phone-repair::repair-policy"))
+    atm = next(row for row in batch["claims"] if row["review_id"].endswith("atm-manufacturing::atm-cash"))
+    eating = next(row for row in batch["claims"] if row["review_id"].endswith("eating-disorder-clinics::ed-need"))
+    flying = next(row for row in batch["claims"] if row["review_id"].endswith("flying-schools::flight-demand"))
     dispositions = [
         summarize(
             target,
@@ -62,6 +65,30 @@ def main() -> int:
             counter_signal="Two state policy examples may not represent national policy adoption or consumer behavior; states differ in implementation, coverage, and effective dates.",
             next_test="Verify the enacted-law versions and effective dates, then acquire a dated independent outcome series with a defined device population and denominator (repair volume, repair rate, device age, or e-waste).",
         ),
+        summarize(
+            atm,
+            disposition="held_outcome_missing",
+            independence_finding="Publisher diversity is provisional: ATM Advantage and Federal Reserve Financial Services are distinct hosts, but the metadata does not establish whether the trade article restates the same Fed evidence or uses a compatible population.",
+            outcome_finding="Not observed: the claim has no dated outcome candidates in the pinned artifact for cash use, withdrawal volume, transaction share, or ATM economics.",
+            counter_signal="Cash-importance context and ATM-location economics are different measures; neither establishes a persistent consumer or operator trend by itself.",
+            next_test="Recover the underlying Federal Reserve survey/table and acquire a dated transaction or cash-use series with a stated denominator before any trend claim.",
+        ),
+        summarize(
+            eating,
+            disposition="held_insufficient_evidence",
+            independence_finding="Not established: NIMH and NIH are both U.S. federal health publishers, and the local metadata does not establish separate study, sample, or methodological lineage.",
+            outcome_finding="Not observed: candidate measures are listed, but no dated independent clinic demand, wait-time, treatment, or utilization outcome is attached.",
+            counter_signal="A federal evidence page and a federal research page can describe need without measuring clinic capacity or realized service use.",
+            next_test="Map the exact NIMH/NIH source artifacts and acquire a dated independent utilization or capacity series with a defined population and denominator.",
+        ),
+        summarize(
+            flying,
+            disposition="held_insufficient_evidence",
+            independence_finding="Not established: all six source rows are flight-school company pages; distinct URLs do not establish independent market evidence and may reflect promotional positioning.",
+            outcome_finding="Not observed: the artifact lists candidate demand measures but contains no dated enrollment, completion, utilization, or licensing outcome series.",
+            counter_signal="School-reported offerings and testimonials can coexist with flat or declining realized student demand; the source frame cannot resolve that direction.",
+            next_test="Acquire an independent FAA, enrollment, certification, or utilization series and separate company marketing claims from observed outcomes.",
+        ),
     ]
     disposition_ids = {row["review_id"] for row in dispositions}
     pending = [row["review_id"] for row in batch["claims"] if row["review_id"] not in disposition_ids]
@@ -69,14 +96,14 @@ def main() -> int:
         "schema": "external-trend-intelligence.ibis-claim-review-dispositions.v1",
         "finding_slug": batch["finding_slug"],
         "source_revision": batch["source_revision"],
-        "status": "two_conservative_triage_dispositions_recorded",
+        "status": "five_conservative_triage_dispositions_recorded",
         "review_method": "metadata-only triage from pinned repository artifacts; not legal rights clearance or independent outcome validation",
         "completed_disposition_count": len(dispositions),
         "pending_first_batch_count": len(pending),
         "pending_review_ids": pending,
         "dispositions": dispositions,
         "next_action": "Complete the remaining first-batch reviews, then acquire dated independent outcomes for claims that survive metadata triage.",
-        "boundary": "This artifact records two held triage dispositions. It does not qualify either claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge.",
+        "boundary": "This artifact records five held triage dispositions. It does not qualify any claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge.",
     }
     OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
     print(f"wrote {OUTPUT} ({len(dispositions)} dispositions; {len(pending)} first-batch claims pending)")
