@@ -210,6 +210,11 @@
       <div class="promotion-gates" id="chart-catalog"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Frontend publication review</h2>
+      <p class="muted">This is the handoff checklist for turning chart contracts into visible, decision-safe frontend components. “Review required” means the chart must not be described as decision-ready yet.</p>
+      <div class="promotion-gates" id="frontend-publication-review"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Successor validation control</h2>
       <p class="muted">This is a read-only reproducibility check. It does not substitute for named human ownership or approve an internal company pilot.</p>
       <div class="promotion-gates" id="successor-validation"></div>
@@ -874,6 +879,11 @@
         const target = el('chart-catalog');
         target.append(card(`${catalog.chart_count} reusable chart contracts`, catalog.status, `${catalog.boundary} Next: ${catalog.next_action}`));
         catalog.charts.forEach(chart => target.append(card(chart.title, `${chart.theme} · ${chart.subtheme}`, `${chart.chart_type} · ${chart.concept}. Sources: ${chart.source_artifacts.join(', ')}. ${chart.boundary}`)));
+      });
+      fetch('frontend-publication-review-packet.json').then(r => r.json()).then(packet => {
+        const target = el('frontend-publication-review');
+        target.append(card(`${packet.review_count} chart publication reviews`, `${packet.open_review_count} review required`, `${packet.boundary} Next: ${packet.next_action}`));
+        packet.reviews.forEach(review => target.append(card(review.title, review.contract_status, `${review.theme} / ${review.subtheme}. Missing chart-level declarations: ${review.missing_chart_level_declarations.join(', ') || 'none'}. ${review.boundary}`)));
       });
       fetch('evidence-acquisition-plan.json').then(r => r.json()).then(plan => {
         plan.tracks.forEach(track => el('acquisition-queue').append(card(track.track_id.replaceAll('-', ' '), track.owner, `${track.target_source}. Acceptance: ${track.acceptance_criteria.join(' · ')} Stop: ${track.stop_rule}`)));
