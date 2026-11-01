@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "82a9f5357a2204297f8b4de356f3e2e6c4cfcbc6",
+  "source_tree_commit": "122e84cdbf017e6e6710df098ca7d94611c9007d",
   "artifact_count": 170,
   "artifacts": [
     {
@@ -56,13 +56,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
-      "bytes": 4226,
-      "sha256": "cc3e7fb7096edd08214c1256718374becd4ebfd7a26e525dc76c5b1f8acab068"
+      "bytes": 5962,
+      "sha256": "fae595fb28b372edc790e0977b8eac3c7f72a8d299e5143137d9b8b3261dad66"
     },
     {
       "path": "analysis/external-trend-intelligence/OWNERSHIP-ASSIGNMENT-REQUEST.md",
-      "bytes": 2486,
-      "sha256": "5ba00d2effa5e361030fa4f6325a45cbaab9a2b1cca5f0c0a32004048064844b"
+      "bytes": 3074,
+      "sha256": "4a41f0b24a9084bef509d2659a9f3cc449ee90956a177d5c89f6829af7feafce"
     },
     {
       "path": "analysis/external-trend-intelligence/INDEPENDENCE-ADJUDICATION-REQUEST.md",
@@ -92,7 +92,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
       "bytes": 3448,
-      "sha256": "c51dd4f687e290dd38450548cc8da448e2d0f4bed5bae68fc365cf532b46e641"
+      "sha256": "50d95c6eecb8c47442d984b184bba0621d203a6fc3bde2e104f7b981b6f1e837"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",

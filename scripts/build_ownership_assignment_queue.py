@@ -10,6 +10,15 @@ from pathlib import Path
 ANALYSIS = Path(__file__).resolve().parents[1] / "analysis" / "external-trend-intelligence"
 OUTPUT = ANALYSIS / "ownership-assignment-queue.json"
 
+ROLE_HANDOFFS = {
+    "source_steward": {"first_30_day_action": "Review the acquired-source register and close or escalate one rights/release question.", "required_evidence": ["acquired-source-register.json", "external-acquisition-rights-review.json", "release-watchlist.json"]},
+    "evidence_analyst": {"first_30_day_action": "Reproduce one external source snapshot and reconcile its rows to the release manifest.", "required_evidence": ["release-manifest.json", "refresh-history.json", "EXTERNAL-DATA-SOURCES.md"]},
+    "lineage_reviewer": {"first_30_day_action": "Adjudicate one publisher/upstream dependence question and record the unresolved boundary.", "required_evidence": ["rights-review-queue.json", "rights-evidence-register.json", "publisher-dependence-summary.json"]},
+    "trend_challenger": {"first_30_day_action": "Challenge one held candidate using its counter-signal, falsifier, and next acquisition step.", "required_evidence": ["candidate-qualification-matrix.json", "falsification-review-queue.json", "candidate-lineage-dependency-review.json"]},
+    "decision_translator": {"first_30_day_action": "Translate one monitored or qualified trend into a bounded decision question without requesting company data.", "required_evidence": ["PILOT-VALIDATION-PROTOCOL.md", "trend-qualification-matrix.json", "goal-completion-audit.json"]},
+    "release_owner": {"first_30_day_action": "Run the release controls and preserve terminal evidence for a passing refresh and frontend smoke test.", "required_evidence": ["REFRESH-RUNBOOK.md", "refresh-history.json", "release-manifest.json", "operating-ownership-readiness.json"]},
+}
+
 
 def main() -> int:
     handoff = json.loads((ANALYSIS / "operating-handoff.json").read_text())
@@ -29,6 +38,8 @@ def main() -> int:
                     "one independently reviewable run or decision note signed",
                 ],
                 "handoff_checkpoint": "month_21_successor_validation",
+                "first_30_day_action": ROLE_HANDOFFS[role["role"]]["first_30_day_action"],
+                "required_evidence": ROLE_HANDOFFS[role["role"]]["required_evidence"],
             }
         )
     assigned = sum(item["current_status"] == "assigned" for item in roles)
