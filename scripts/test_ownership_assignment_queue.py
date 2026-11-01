@@ -29,6 +29,12 @@ def main() -> int:
     assert protocol["assignment_sla_business_days"] > 0
     assert protocol["required_fields"] and protocol["backup_activation"] and protocol["escalation_path"]
     assert protocol["acceptance_evidence"]
+    request = (ANALYSIS / "OWNERSHIP-ASSIGNMENT-REQUEST.md").read_text()
+    assert "Required fields for every role" in request
+    for role in queue["roles"]:
+        assert f"`{role['role']}`" in request
+    for field in protocol["required_fields"]:
+        assert field.replace("_", " ") in request.lower()
     print("ownership assignment queue: reconciled")
     return 0
 

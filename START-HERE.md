@@ -43,6 +43,10 @@ is the human handoff for assigning owners and recording exact terms decisions.
 The fillable [pilot activation request](analysis/external-trend-intelligence/PILOT-ACTIVATION-REQUEST.md)
 is the human handoff for a bounded company decision test; it remains blocked
 until the external, rights, privacy, and preregistration gates pass.
+The fillable [ownership assignment request](analysis/external-trend-intelligence/OWNERSHIP-ASSIGNMENT-REQUEST.md)
+is the human handoff for assigning primary and backup owners to the six
+operating roles; it does not imply that a role is assigned until the queue is
+updated and acknowledged.
 The [held candidate comparisons](analysis/external-trend-intelligence/external-family-comparisons.json)
 show what is being tested without treating thematic similarity as a company join.
 The [lineage review](analysis/external-trend-intelligence/external-family-lineage-review.json)
