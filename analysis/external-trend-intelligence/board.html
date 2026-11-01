@@ -333,6 +333,11 @@
       <div class="ibis-sample" id="ibis-sample"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>IBIS independent-outcome acquisition queue</h2>
+      <p class="muted">This queue turns IBIS claim leads into dated outcome work. A candidate outcome is only a discovery lead; it is not evidence until publisher, unit, period, uncertainty, rights, and lineage are reviewed.</p>
+      <div class="promotion-gates" id="ibis-outcome-acquisition"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>IBIS bounded outcome review</h2>
       <p class="muted">One industry is paired with dated CDC capacity measures and a CMS Medicaid rate measure. The comparison is descriptive and mechanism-level, not a qualified trend or company finding.</p>
       <div class="panel" style="margin:12px 0"><h3>Separate measure changes</h3><div id="ibis-outcome-chart"></div></div>
@@ -986,6 +991,11 @@
       });
       fetch('ibis-force-claim-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => ibisSamples.append(card(`${row.title} · ${row.publisher_count} publishers`, row.review_status, `${row.claim_reference_count} claim references · ${row.claim_period_missing_count} missing periods · ${row.independence_status}. ${row.next_action}`)));
+      });
+      fetch('ibis-outcome-acquisition-queue.json').then(r => r.json()).then(queue => {
+        const target = el('ibis-outcome-acquisition');
+        target.append(card(`${queue.with_outcome_candidate_count} of ${queue.candidate_count} claims have outcome leads`, queue.status, `${queue.unacquired_count} outcomes remain unacquired. ${queue.next_action}`));
+        queue.rows.slice(0, 12).forEach(row => target.append(card(`#${row.acquisition_rank} · ${row.industry_slug} · ${row.claim_id}`, row.acquisition_status, `${row.outcome_candidate_count} outcome leads · ${row.next_action}`)));
       });
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
     fetch('program-scorecard.json').then(r => r.json()).then(scorecard => {

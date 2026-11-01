@@ -153,6 +153,8 @@ def main() -> int:
                             "claim_level_review",
                             "ibis-sector-chart",
                             "ibis-source-type-chart",
+                            "IBIS independent-outcome acquisition queue",
+                            "ibis-outcome-acquisition-queue.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:
