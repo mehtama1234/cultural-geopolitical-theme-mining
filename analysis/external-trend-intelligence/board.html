@@ -178,6 +178,11 @@
       <div class="promotion-gates" id="operational-kpis"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>24-month review calendar</h2>
+      <p class="muted">These checkpoints schedule evidence, gate, and ownership reviews. A scheduled checkpoint does not mean its phase has passed or that a company pilot is authorized.</p>
+      <div class="promotion-gates" id="review-calendar"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Evidence acquisition queue</h2>
       <p class="muted">These tracks define the next external-only evidence work and its stop rules.</p>
       <div class="promotion-gates" id="acquisition-queue"></div>
@@ -709,6 +714,13 @@
       const t = scorecard.thresholds;
       el('operational-kpis').append(card('Operating metrics', 'measured', `${m.refresh_runs_recorded} refresh runs · ${m.latest_pipeline_steps} steps ${m.latest_pipeline_status} · ${m.stale_source_families} stale families · ${m.rights_reviews_required} rights reviews · ${m.qualified_external_trends} qualified / ${m.held_candidates} held · ${m.approved_company_pilots} approved pilots`));
       Object.entries(t).forEach(([name, value]) => el('operational-kpis').append(card(name.replaceAll('_', ' '), value.status, `Target: ${value.target}`)));
+    });
+    fetch('review-calendar.json').then(r => r.json()).then(calendar => {
+      const container = el('review-calendar');
+      container.append(card(`${calendar.horizon_months}-month program · ${calendar.checkpoint_count} checkpoints`, 'scheduled', `As of ${calendar.as_of}. ${calendar.boundary}`));
+      calendar.checkpoints.forEach(checkpoint => {
+        container.append(card(`Month ${checkpoint.month} · ${checkpoint.review}`, `${checkpoint.phase_status} · ${checkpoint.cadence}`, `Owner: ${checkpoint.owner} · Evidence: ${checkpoint.evidence.join(', ')}`));
+      });
     });
     fetch('trend-monitoring-status.json').then(r => r.json()).then(status => {
       el('monitoring-status').append(card('Monitoring watches', 'measured', `${status.trend_count} watches · ${status.qualified_monitor_count} qualified monitor · ${status.prequalification_watch_count} pre-qualification`));
