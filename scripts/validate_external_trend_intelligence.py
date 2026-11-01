@@ -502,6 +502,8 @@ def main() -> int:
     assert release_health["schema"] == "external-trend-intelligence.release-health.v1"
     assert release_health["release_status"] == "operational_with_open_gates"
     assert len(release_health["blockers"]) == 6
+    assert release_health["sections"]["monitoring"]["registered"] == len(monitoring["trends"])
+    assert release_health["sections"]["monitoring"]["status"] == "pass"
     assert release_health["sections"]["rights_and_publisher_dependence"]["rights_unverified"] == 8
     assert release_health["sections"]["rights_and_publisher_dependence"]["local_evidence_families"] >= 1
     assert release_health["sections"]["temporal_holdout"]["status"] == "design_readout_only"
