@@ -46,6 +46,7 @@ STEPS = [
     ["scripts/build_usda_community_food_assistance_snapshot.py"],
     ["scripts/build_feeding_america_map_snapshot.py"],
     ["scripts/build_ibis_outcome_linkage_review.py"],
+    ["scripts/build_ibis_community_food_comparison.py"],
     ["scripts/build_ibis_claim_review_dispositions.py"],
     ["scripts/build_cell_phone_repair_outcome_plan.py"],
     ["scripts/build_open_repair_alliance_mobile_snapshot.py"],

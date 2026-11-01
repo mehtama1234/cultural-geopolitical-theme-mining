@@ -386,6 +386,13 @@ def main() -> int:
     assert ibis_linkage["independent_publisher_challenge"]["publisher"] == "Feeding America"
     assert ibis_linkage["decision"].startswith("retain_as_acquired_external_context")
     assert ibis_linkage["required_next_steps"] and ibis_linkage["boundary"]
+    ibis_food_comparison = json.loads((ANALYSIS / "ibis-community-food-comparison.json").read_text())
+    assert ibis_food_comparison["schema"] == "external-trend-intelligence.ibis-community-food-comparison.v1"
+    assert ibis_food_comparison["status"] == "non_pooled_directional_context_only"
+    assert len(ibis_food_comparison["rows"]) == 2
+    assert ibis_food_comparison["decision"] == "hold"
+    assert ibis_food_comparison["lineage_and_dependence"]["publisher_diversity"] == "distinct_publishers"
+    assert ibis_food_comparison["next_action"] and ibis_food_comparison["boundary"]
     ibis_dispositions = json.loads((ANALYSIS / "ibis-claim-review-dispositions.json").read_text())
     assert ibis_dispositions["schema"] == "external-trend-intelligence.ibis-claim-review-dispositions.v1"
     assert ibis_dispositions["status"] == "ten_conservative_triage_dispositions_recorded"
