@@ -1014,6 +1014,14 @@ def main() -> int:
     assert food_comparison["urban_methodology_review"]["reference_period_confirmed"] == "12 months"
     assert food_comparison["urban_methodology_review"]["sample_change"]
     assert food_comparison["urban_methodology_review"]["uncertainty_status"]
+    urban_sig = food_comparison["urban_methodology_review"]["source_reported_significance"]
+    assert urban_sig["reference_estimate"] == "December 2025 working-age-adult estimate (27.7 percent)"
+    assert "reconstructed intervals" in urban_sig["interpretation_boundary"]
+    directional_sig = food_comparison["directional_readout"]["urban_source_reported_significance"]
+    assert directional_sig["statistically_unchanged_from"] == [2023, 2024]
+    assert directional_sig["significantly_higher_than"] == [2019, 2020, 2021, 2022]
+    food_holdout = json.loads((ANALYSIS / "food-insecurity-temporal-holdout.json").read_text())
+    assert food_holdout["readout"]["source_reported_significance"]["statistically_unchanged_from"] == [2023, 2024]
     food_rights = json.loads((ANALYSIS / "food-insecurity-rights-review.json").read_text())
     assert food_rights["alternate_data_access_path"]["catalog_license_label"] == "odc-by"
     assert food_rights["alternate_data_access_path"]["catalog_url"]

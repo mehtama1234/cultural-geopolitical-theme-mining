@@ -32,6 +32,12 @@ def main() -> int:
             "usda_change_2022_to_2024_percentage_points": round(usda[2024] - usda[2022], 1),
             "direction": "both_series_increase",
             "uncertainty": "USDA reports the 2024 change was not statistically significant; comparable Urban uncertainty was not available in the retained artifact.",
+            "urban_source_reported_significance": {
+                "reference_estimate": "December 2025",
+                "statistically_unchanged_from": [2023, 2024],
+                "significantly_higher_than": [2019, 2020, 2021, 2022],
+                "test_note": "Urban reports two-tailed significance annotations at the 0.10, 0.05, and 0.01 levels; the retained publication does not provide machine-readable standard errors or confidence intervals.",
+            },
         },
         "independence_review": {
             "publisher_distinct": True,
@@ -46,7 +52,14 @@ def main() -> int:
             "instrument": "six-item short form of the USDA Household Food Security Survey Module",
             "sample_change": "More than 7,500 adults ages 18–64 in each 2017–2024 round; approximately 2,500 adults ages 65+ added in 2025.",
             "weighting": "KnowledgePanel probability-based sample with weights poststratified to CPS and ACS benchmarks.",
-            "uncertainty_status": "Published significance annotations are available, but a full machine-readable standard-error table is not retained in this artifact.",
+            "uncertainty_status": "Published significance annotations are captured below, but a full machine-readable standard-error table is not retained in this artifact.",
+            "source_reported_significance": {
+                "reference_estimate": "December 2025 working-age-adult estimate (27.7 percent)",
+                "unchanged_comparisons": "December 2023 and December 2024",
+                "higher_comparisons": "December 2022 and earlier years",
+                "annotation_basis": "two-tailed tests with 0.10, 0.05, and 0.01 significance markers",
+                "interpretation_boundary": "These are publisher-reported hypothesis-test annotations, not reconstructed intervals; they do not harmonize the Urban and USDA series.",
+            },
             "reviewed_on": "2026-10-31"
         },
         "blocking_items": ["different population denominator", "instrument and threshold implementation differ despite shared six-item short-form lineage", "Urban uncertainty not retained", "Urban republication permission remains open"],

@@ -32,6 +32,12 @@ def main() -> int:
             "change_percentage_points": 4.11,
             "direction": "increase",
             "interpretation": "The holdout remains above the 2019–2023 construction mean, supporting persistence of elevated food insecurity in the Urban working-age series.",
+            "source_reported_significance": {
+                "reference_estimate": "December 2025",
+                "statistically_unchanged_from": [2023, 2024],
+                "significantly_higher_than": [2019, 2020, 2021, 2022],
+                "test_note": "Urban publication reports two-tailed significance annotations at the 0.10, 0.05, and 0.01 levels; machine-readable standard errors are not retained.",
+            },
         },
         "independent_challenge": {
             "source": "USDA ERS CPS Food Security Supplement",

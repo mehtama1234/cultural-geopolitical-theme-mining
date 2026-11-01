@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "f96c152ff31aad506108a5141e43f694e98fad2f",
+  "source_tree_commit": "612c472b43558cbb12e47569398c41504bc9ec08",
   "artifact_count": 151,
   "artifacts": [
     {
@@ -586,13 +586,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/food-insecurity-temporal-holdout.json",
-      "bytes": 2146,
-      "sha256": "76204cf5ae9a5af90e5e4e6edcf982ce6639526ae781ab219494a64657698a09"
+      "bytes": 2583,
+      "sha256": "4aaf8dc2a683755e185657a5dca7d66f9df1cff60bebcd7da3ffe20f1488435e"
     },
     {
       "path": "analysis/external-trend-intelligence/food-insecurity-independent-comparison.json",
-      "bytes": 3483,
-      "sha256": "d8f5acf9a000ab63788ea27e87160339c1f43c0a1167f57082d123e9d2c298e6"
+      "bytes": 4493,
+      "sha256": "b07ccd7b40da1e3ec50b63469cbd5f9ca11549244ab9c02389b4e7218652ffe0"
     },
     {
       "path": "analysis/external-trend-intelligence/mobility-access-independent-comparison.json",
