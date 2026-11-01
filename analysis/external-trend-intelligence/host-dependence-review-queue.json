@@ -24,7 +24,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on doi.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:nber.org",
@@ -45,7 +59,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on nber.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:census.gov",
@@ -66,7 +94,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on census.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:gao.gov",
@@ -87,7 +129,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on gao.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:www2.census.gov",
@@ -108,7 +164,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on www2.census.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:pewresearch.org",
@@ -129,7 +199,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on pewresearch.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:oecd.org",
@@ -150,7 +234,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on oecd.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:worldbank.org",
@@ -171,7 +269,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on worldbank.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:files.gao.gov",
@@ -192,7 +304,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on files.gao.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:federalreserve.gov",
@@ -213,7 +339,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on federalreserve.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:ilo.org",
@@ -234,7 +374,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on ilo.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:ftc.gov",
@@ -255,7 +409,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on ftc.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:documents.worldbank.org",
@@ -276,7 +444,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on documents.worldbank.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:gov.uk",
@@ -297,7 +479,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on gov.uk, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:bls.gov",
@@ -318,7 +514,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on bls.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:news.gallup.com",
@@ -339,7 +549,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on news.gallup.com, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:ipsos.com",
@@ -360,7 +584,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on ipsos.com, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:reproducibility.worldbank.org",
@@ -381,7 +619,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on reproducibility.worldbank.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:consumerfinance.gov",
@@ -402,7 +654,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on consumerfinance.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:un.org",
@@ -423,7 +689,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on un.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:unesco.org",
@@ -444,7 +724,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on unesco.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:who.int",
@@ -465,7 +759,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on who.int, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:weforum.org",
@@ -486,7 +794,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on weforum.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:undp.org",
@@ -507,7 +829,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on undp.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:gallup.com",
@@ -528,7 +864,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on gallup.com, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:imf.org",
@@ -549,7 +899,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on imf.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:bea.gov",
@@ -570,7 +934,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on bea.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:unstats.un.org",
@@ -591,7 +969,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on unstats.un.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:ec.europa.eu",
@@ -612,7 +1004,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on ec.europa.eu, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:fwc.gov.au",
@@ -633,7 +1039,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on fwc.gov.au, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:meps.ahrq.gov",
@@ -654,7 +1074,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on meps.ahrq.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:unctad.org",
@@ -675,7 +1109,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on unctad.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:fao.org",
@@ -696,7 +1144,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on fao.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:unicef.org",
@@ -717,7 +1179,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on unicef.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:lehd.ces.census.gov",
@@ -738,7 +1214,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on lehd.ces.census.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:ons.gov.uk",
@@ -759,7 +1249,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on ons.gov.uk, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:kam.lt",
@@ -780,7 +1284,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on kam.lt, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:search.worldbank.org",
@@ -801,7 +1319,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on search.worldbank.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:desapublications.un.org",
@@ -822,7 +1354,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on desapublications.un.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:gov.pl",
@@ -843,7 +1389,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on gov.pl, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:ideas.repec.org",
@@ -864,7 +1424,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on ideas.repec.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:documents1.worldbank.org",
@@ -885,7 +1459,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on documents1.worldbank.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:ers.usda.gov",
@@ -906,7 +1494,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on ers.usda.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:www150.statcan.gc.ca",
@@ -927,7 +1529,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on www150.statcan.gc.ca, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:itu.int",
@@ -948,7 +1564,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on itu.int, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:iea.org",
@@ -969,7 +1599,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on iea.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:nato.int",
@@ -990,7 +1634,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on nato.int, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:newyorkfed.org",
@@ -1011,7 +1669,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on newyorkfed.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:energy.gov",
@@ -1032,7 +1704,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on energy.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:files.consumerfinance.gov",
@@ -1053,7 +1739,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on files.consumerfinance.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:openknowledge.worldbank.org",
@@ -1074,7 +1774,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on openknowledge.worldbank.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:cdc.gov",
@@ -1095,7 +1809,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on cdc.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:insurance.ca.gov",
@@ -1116,7 +1844,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on insurance.ca.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:unep.org",
@@ -1137,7 +1879,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on unep.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:blogs.worldbank.org",
@@ -1158,7 +1914,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on blogs.worldbank.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:papers.ssrn.com",
@@ -1179,7 +1949,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on papers.ssrn.com, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:urban.org",
@@ -1200,7 +1984,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on urban.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:bis.gov",
@@ -1221,7 +2019,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on bis.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:cdn.www.census.gov",
@@ -1242,7 +2054,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on cdn.www.census.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:resources.ipsos.com",
@@ -1263,7 +2089,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on resources.ipsos.com, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:sec.gov",
@@ -1284,7 +2124,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on sec.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:unhcr.org",
@@ -1305,7 +2159,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on unhcr.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:api.usaspending.gov",
@@ -1326,7 +2194,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on api.usaspending.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:cbo.gov",
@@ -1347,7 +2229,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on cbo.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:data.bls.gov",
@@ -1368,7 +2264,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on data.bls.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:edelman.com",
@@ -1389,7 +2299,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on edelman.com, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:eia.gov",
@@ -1410,7 +2334,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on eia.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:financialresearch.gov",
@@ -1431,7 +2369,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on financialresearch.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:idea.int",
@@ -1452,7 +2404,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on idea.int, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:nyc.gov",
@@ -1473,7 +2439,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on nyc.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:ofcom.org.uk",
@@ -1494,7 +2474,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on ofcom.org.uk, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:search.ftc.gov",
@@ -1515,7 +2509,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on search.ftc.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:static.cninfo.com.cn",
@@ -1536,7 +2544,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on static.cninfo.com.cn, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:abs.gov.au",
@@ -1557,7 +2579,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on abs.gov.au, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:academic.oup.com",
@@ -1578,7 +2614,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on academic.oup.com, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:bjs.ojp.gov",
@@ -1599,7 +2649,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on bjs.ojp.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:commission.europa.eu",
@@ -1620,7 +2684,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on commission.europa.eu, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:cpsc.gov",
@@ -1641,7 +2719,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on cpsc.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:data.hrsa.gov",
@@ -1662,7 +2754,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on data.hrsa.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:deloitte.com",
@@ -1683,7 +2789,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on deloitte.com, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:hdr.undp.org",
@@ -1704,7 +2824,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on hdr.undp.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:ikea.com",
@@ -1725,7 +2859,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on ikea.com, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:justice.gov",
@@ -1746,7 +2894,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on justice.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:nisrf.nato.int",
@@ -1767,7 +2929,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on nisrf.nato.int, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:pmc.ncbi.nlm.nih.gov",
@@ -1788,7 +2964,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on pmc.ncbi.nlm.nih.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:portal.ct.gov",
@@ -1809,7 +2999,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on portal.ct.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:scc.virginia.gov",
@@ -1830,7 +3034,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on scc.virginia.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:sda.berkeley.edu",
@@ -1851,7 +3069,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on sda.berkeley.edu, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:statssa.gov.za",
@@ -1872,7 +3104,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on statssa.gov.za, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:unesdoc.unesco.org",
@@ -1893,7 +3139,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on unesdoc.unesco.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:unwomen.org",
@@ -1914,7 +3174,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on unwomen.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:wipo.int",
@@ -1935,7 +3209,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on wipo.int, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:api.bls.gov",
@@ -1956,7 +3244,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on api.bls.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:arxiv.org",
@@ -1977,7 +3279,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on arxiv.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:bis.org",
@@ -1998,7 +3314,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on bis.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:canada.ca",
@@ -2019,7 +3349,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on canada.ca, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:data.worldbank.org",
@@ -2040,7 +3384,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on data.worldbank.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:fna.usda.gov",
@@ -2061,7 +3419,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on fna.usda.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:huduser.gov",
@@ -2082,7 +3454,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on huduser.gov, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     },
     {
       "review_id": "host:kff.org",
@@ -2103,7 +3489,21 @@
         "shared-dataset or restatement dependence assessed",
         "rights route and restrictions recorded",
         "independence disposition recorded before promotion"
-      ]
+      ],
+      "first_30_day_action": "Review the highest-volume artifacts on kff.org, resolve publisher and upstream identity, and classify one shared URL cluster before counting any repetition.",
+      "required_evidence": [
+        "record-host-dependence-audit.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "lineage reviewer acknowledgement",
+        "rights route recorded",
+        "independence disposition recorded",
+        "second-reviewer check for high-priority hosts"
+      ],
+      "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved."
     }
   ],
   "high_priority_count": 23,

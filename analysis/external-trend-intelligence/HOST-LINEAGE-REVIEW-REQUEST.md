@@ -58,3 +58,8 @@ Do not count a host as independent confirmation until all fields are reviewed.
 Escalate unresolved publisher or rights questions to `lineage_reviewer` →
 `source_steward` → `rights_and_privacy_owner`. Until review is complete, shared
 host repetition must not be counted as independent confirmation.
+
+The machine-readable queue records a first-30-day action, required evidence,
+sign-off fields, and stop rule for every queued host. Start with the 23
+high-priority hosts, then work the remaining queue by record volume; a shared
+host is never treated as an independent source merely because it has many URLs.

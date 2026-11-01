@@ -38,6 +38,23 @@ def main() -> int:
                     "rights route and restrictions recorded",
                     "independence disposition recorded before promotion",
                 ],
+                "first_30_day_action": (
+                    f"Review the highest-volume artifacts on {host['host']}, resolve publisher and upstream identity, "
+                    "and classify one shared URL cluster before counting any repetition."
+                ),
+                "required_evidence": [
+                    "record-host-dependence-audit.json",
+                    "observation-manifest.json",
+                    "rights-review-queue.json",
+                    "publisher-dependence-summary.json",
+                ],
+                "required_signoff": [
+                    "lineage reviewer acknowledgement",
+                    "rights route recorded",
+                    "independence disposition recorded",
+                    "second-reviewer check for high-priority hosts",
+                ],
+                "stop_rule": "Do not count shared-host repetition as independent confirmation while publisher, upstream, or rights evidence is unresolved.",
             }
         )
     rows.sort(key=lambda row: (0 if row["priority"] == "high" else 1, -row["record_count"], row["host"]))
