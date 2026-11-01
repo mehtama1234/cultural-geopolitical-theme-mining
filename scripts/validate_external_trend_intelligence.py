@@ -717,6 +717,11 @@ def main() -> int:
     assert mobility_comparison["independence_review"]["publisher_distinct"] is True
     assert mobility_comparison["pooling_decision"] == "do_not_pool"
     assert len(mobility_comparison["source_families"]) == 2
+    mobility_rights = json.loads((ANALYSIS / "mobility-access-rights-review.json").read_text())
+    assert mobility_rights["schema"] == "external-trend-intelligence.mobility-access-rights-review.v1"
+    assert mobility_rights["source_count"] == 2
+    assert all(row["rights_status"] and row["terms_urls"] and row["next_action"] for row in mobility_rights["rows"])
+    assert "do_not_redistribute" in mobility_rights["release_decision"]
     assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}
