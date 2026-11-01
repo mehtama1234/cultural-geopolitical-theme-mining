@@ -1104,8 +1104,8 @@ def main() -> int:
     assert financial_card["company_gate"] and financial_card["boundary"]
     acquisition_rights = json.loads((ANALYSIS / "external-acquisition-rights-review.json").read_text())
     assert acquisition_rights["schema"] == "external-trend-intelligence.external-acquisition-rights-review.v1"
-    assert len(acquisition_rights["rows"]) == 9
-    assert all(row["rights_evidence_status"] in {"official_policy_identified_exact_artifact_review_open", "restrictive_republication_notice_review_open", "license_identified_exact_archive_review_open", "official_terms_identified_exact_artifact_review_open", "official_source_metadata_exact_artifact_review_open", "official_api_terms_exact_artifact_review_open"} for row in acquisition_rights["rows"])
+    assert len(acquisition_rights["rows"]) == 10
+    assert all(row["rights_evidence_status"] in {"official_policy_identified_exact_artifact_review_open", "restrictive_republication_notice_review_open", "license_identified_exact_archive_review_open", "official_terms_identified_exact_artifact_review_open", "official_source_metadata_exact_artifact_review_open", "official_api_terms_exact_artifact_review_open", "catalog_license_identified_exact_brief_reuse_review_open"} for row in acquisition_rights["rows"])
     ora_rights = next(row for row in acquisition_rights["rows"] if row["acquisition_id"] == "ora-ords-v03-mobile-aggregate-202607")
     assert ora_rights["publisher"] == "Open Repair Alliance"
     assert "CC BY-SA" in ora_rights["official_policy_observation"]
@@ -1122,6 +1122,9 @@ def main() -> int:
     execution_rights = next(row for row in acquisition_rights["rows"] if row["acquisition_id"] == "usaspending-bath-iron-works-execution-2024-2026")
     assert execution_rights["publisher"] == "USAspending.gov / U.S. Department of the Treasury"
     assert execution_rights["rights_evidence_status"] == "official_api_terms_exact_artifact_review_open"
+    urban_rights = next(row for row in acquisition_rights["rows"] if row["acquisition_id"] == "urban-wbns-food-insecurity-2025")
+    assert urban_rights["publisher"] == "Urban Institute"
+    assert urban_rights["rights_evidence_status"] == "catalog_license_identified_exact_brief_reuse_review_open"
     assert all(
         "https://www.census.gov/data/developers/about/terms-of-service.html" in row["terms_evidence_urls"]
         and "https://www.census.gov/about/policies/citation.html" in row["terms_evidence_urls"]

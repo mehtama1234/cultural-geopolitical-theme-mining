@@ -31,6 +31,20 @@
       "next_action": "Apply the ERS attribution notice where API content is used, verify whether the publication/statistical supplement has any additional reuse restriction, and document the derived-chart boundary before redistribution."
     },
     {
+      "acquisition_id": "urban-wbns-food-insecurity-2025",
+      "publisher": "Urban Institute",
+      "source_url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025%2C%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
+      "terms_evidence_urls": ["https://datacatalog.urban.org/dataset/well-being-and-basic-needs-survey", "https://www.urban.org/fundingprinciples"],
+      "official_policy_observation": "The Urban Data Catalog identifies the WBNS dataset as public access with an ODC-By license and distinguishes restricted variables that require an ICPSR agreement. The exact March 2026 brief is a publisher report with its own attribution and reproduction boundary; the catalog license does not by itself clear redistribution of the PDF or its figures.",
+      "access_basis": "official Urban Institute publication and WBNS data-catalog route",
+      "upstream_identity": "Urban Institute Well-Being and Basic Needs Survey, December 2025 round",
+      "publisher_dependence": "single_publisher_survey_series",
+      "rights_evidence_status": "catalog_license_identified_exact_brief_reuse_review_open",
+      "derived_use_status": "normalized_attributed_internal_review_only_until_exact_brief_and_table_terms_confirmed",
+      "retention_scope": "retain source URL, retrieval date, PDF hash, normalized values, method-break notes, and attribution; do not redistribute the PDF, chart image, or restricted microdata without exact permission and access review",
+      "next_action": "Confirm whether the ODC-By catalog terms cover the exact 2025 table artifact and document attribution, share-alike, and restricted-variable boundaries before any public derived chart or company pilot."
+    },
+    {
       "acquisition_id": "federal-reserve-shed-emergency-expense-2013-2025",
       "publisher": "Board of Governors of the Federal Reserve System",
       "source_url": "https://www.federalreserve.gov/consumerscommunities/sheddataviz/unexpectedexpenses.html",
@@ -142,5 +156,5 @@
       "next_action": "Confirm API terms and attribution requirements for the exact transaction query, then reconcile award modifications and fiscal-year scope before any external release."
     }
   ],
-  "boundary": "This register records rights evidence and review tasks for nine official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
+  "boundary": "This register records rights evidence and review tasks for ten official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
 }
