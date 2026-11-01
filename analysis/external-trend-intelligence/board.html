@@ -272,6 +272,11 @@
       <div class="promotion-gates" id="forecast-backtest"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>24-month observatory roadmap</h2>
+      <p class="muted">This operating plan moves from external evidence capture to qualified trends and, only later, bounded company decision pilots. Phase status is evidence-based and does not assume future completion.</p>
+      <div class="promotion-gates" id="two-year-roadmap"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Refresh control plane</h2>
       <p class="muted">This view reports whether scheduled artifacts exist and how old the local files are. It does not prove source freshness, licensing, independence, or outcome validity.</p>
       <div class="source-families" id="refresh-status"></div>
@@ -753,6 +758,14 @@
       fetch('forecast-backtest-register.json').then(r => r.json()).then(register => {
         el('forecast-backtest').append(card(`${register.pending_count} forecasts awaiting outcomes`, 'backtest_pending', register.next_action));
         register.rows.forEach(row => el('forecast-backtest').append(card(`${row.source_host} · ${row.measure}`, row.status, `${row.forecast_period}: ${row.forecast_value} ${row.unit}. ${row.refresh_trigger}`)));
+      });
+      fetch('two-year-roadmap.json').then(r => r.json()).then(roadmap => {
+        const target = el('two-year-roadmap');
+        target.append(card(`${roadmap.horizon_months}-month horizon · ${roadmap.phase_count} phases`, 'operational_control', `${roadmap.current_focus} ${roadmap.boundary}`));
+        roadmap.phases.forEach(phase => {
+          const statuses = Object.entries(phase.blocking_statuses).map(([key, value]) => `${key.replaceAll('_', ' ')}: ${value}`).join(' · ');
+          target.append(card(`${phase.window.replaceAll('_', ' ')} · ${phase.title}`, phase.status, `${phase.outcomes.join(' · ')} Gates: ${statuses}`));
+        });
       });
       const refreshCards = el('refresh-status'); refreshStatus.families.forEach(family => refreshCards.append(refreshStatusCard(family)));
       refreshCards.prepend(card('Release blockers', releaseHealth.release_status, releaseHealth.blockers.join(' · ')));

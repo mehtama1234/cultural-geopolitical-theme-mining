@@ -63,6 +63,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/compatible-measure-search.json",
     "analysis/external-trend-intelligence/global-growth-forecast-comparison.json",
     "analysis/external-trend-intelligence/forecast-backtest-register.json",
+    "analysis/external-trend-intelligence/two-year-roadmap.json",
     "analysis/external-trend-intelligence/source-registry-snapshot.json",
     "analysis/external-trend-intelligence/repository-family-snapshot.json",
     "analysis/external-trend-intelligence/external-family-observations.json",

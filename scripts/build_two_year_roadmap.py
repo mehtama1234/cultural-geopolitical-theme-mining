@@ -1,0 +1,152 @@
+#!/usr/bin/env python3
+"""Build the machine-readable 24-month observatory roadmap."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+ANALYSIS = ROOT / "analysis" / "external-trend-intelligence"
+OUTPUT = ANALYSIS / "two-year-roadmap.json"
+
+
+def main() -> int:
+    audit = json.loads((ANALYSIS / "goal-completion-audit.json").read_text())
+    statuses = {item["id"]: item["status"] for item in audit["requirements"]}
+    phases = [
+        {
+            "phase_id": "control_plane",
+            "window": "months_0_3",
+            "title": "Establish the control plane",
+            "status": "in_progress",
+            "outcomes": [
+                "external-first boundary is enforced",
+                "source registry, evidence contracts, rights queue, and release manifest are reproducible",
+                "qualification and internal-bridge gates fail closed",
+            ],
+            "acceptance_criteria": [
+                "all registered observations retain source, unit, geography, period, and boundary",
+                "release validation and frontend smoke test pass",
+                "open rights and provenance gaps remain visible rather than silently promoted",
+            ],
+            "evidence": [
+                "goal-completion-audit.json",
+                "source-family-registry.json",
+                "evidence-contract-audit.json",
+                "release-manifest.json",
+            ],
+            "blocking_requirements": ["external_capture_refresh", "lineage_rights_units_periods_uncertainty"],
+        },
+        {
+            "phase_id": "dependable_intake",
+            "window": "months_4_6",
+            "title": "Make external intake dependable",
+            "status": "in_progress",
+            "outcomes": [
+                "scheduled refreshes preserve immutable revisions and checksums",
+                "stale, unavailable, and recovery states are visible",
+                "every published chart resolves to a source artifact",
+            ],
+            "acceptance_criteria": [
+                "weekly refresh contract and stale gate remain green",
+                "source freshness and recovery telemetry are recorded",
+                "unattended continuity is measured separately from a short burst of runs",
+            ],
+            "evidence": [
+                "refresh-schedule.json",
+                "refresh-schedule-health.json",
+                "refresh-continuity-audit.json",
+                "refresh-status.json",
+            ],
+            "blocking_requirements": ["external_capture_refresh", "analyst_operating_model"],
+        },
+        {
+            "phase_id": "trend_qualification",
+            "window": "months_7_12",
+            "title": "Qualify recurring trends",
+            "status": "in_progress",
+            "outcomes": [
+                "independent source families are compared without double-counting shared publishers",
+                "candidate trends carry counter-signals, falsifiers, and backtests",
+                "qualified and held findings are distinct on the reader surface",
+            ],
+            "acceptance_criteria": [
+                "a candidate cannot pass without comparability, independence, persistence, uncertainty, and a falsifier",
+                "at least one later release or held-out period is recorded for each promoted trend",
+                "reversal and retirement remain possible and visible",
+            ],
+            "evidence": [
+                "candidate-qualification-matrix.json",
+                "trend-qualification-rubric.json",
+                "falsification-review-queue.json",
+                "forecast-backtest-register.json",
+            ],
+            "blocking_requirements": ["independent_source_comparison", "trend_qualification", "backtest_and_falsification"],
+        },
+        {
+            "phase_id": "decision_relevance",
+            "window": "months_13_18",
+            "title": "Test decision relevance",
+            "status": "not_started",
+            "outcomes": [
+                "a small set of qualified trends has bounded company bridge contracts",
+                "internal exposure tests specify identifiers, periods, outcomes, unmatched cases, privacy, and stop rules",
+                "external evidence remains separate from company outcomes",
+            ],
+            "acceptance_criteria": [
+                "each pilot names a qualified external trend and an approved internal decision question",
+                "rights owner and privacy review are recorded before any internal join",
+                "pilot usefulness is measured without claiming external causality",
+            ],
+            "evidence": [
+                "pilot-register.json",
+                "PILOT-VALIDATION-PROTOCOL.md",
+                "internal-bridge-schema.json",
+            ],
+            "blocking_requirements": ["validated_company_pilots"],
+        },
+        {
+            "phase_id": "operationalize_handoff",
+            "window": "months_19_24",
+            "title": "Operationalize and hand off",
+            "status": "in_progress",
+            "outcomes": [
+                "refresh reliability, review time, promotion/reversal rates, and pilot usefulness are measured",
+                "named primary and backup owners can run and audit the system",
+                "case studies document what the observatory changed and where it was wrong",
+            ],
+            "acceptance_criteria": [
+                "an independently signed successor run passes the release gates",
+                "weekly continuity is demonstrated over the defined operating window",
+                "handoff includes open gates, known limitations, and next review dates",
+            ],
+            "evidence": [
+                "ANALYST-OPERATING-MODEL.md",
+                "ownership-assignment-queue.json",
+                "successor-run-evidence.json",
+                "operational-kpi-scorecard.json",
+            ],
+            "blocking_requirements": ["analyst_operating_model", "external_capture_refresh"],
+        },
+    ]
+    for phase in phases:
+        phase["blocking_statuses"] = {key: statuses.get(key, "missing") for key in phase["blocking_requirements"]}
+    report = {
+        "schema": "external-trend-intelligence.two-year-roadmap.v1",
+        "objective": audit["objective"],
+        "as_of": audit["as_of"],
+        "horizon_months": 24,
+        "phase_count": len(phases),
+        "phases": phases,
+        "current_focus": "Close independent-source, rights, and uncertainty gates before any internal company bridge.",
+        "completion_rule": "The roadmap is complete only when every phase acceptance criterion is evidenced and the goal-completion audit reports no open or partial requirement.",
+        "boundary": "This roadmap is an operating control, not evidence that future milestones or company pilots have already been completed.",
+    }
+    OUTPUT.write_text(json.dumps(report, indent=2) + "\n")
+    print(f"wrote {OUTPUT} ({len(phases)} phases; current focus recorded)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

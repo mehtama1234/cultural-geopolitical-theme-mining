@@ -472,6 +472,12 @@ def main() -> int:
     assert backtest_register["pending_count"] == backtest_register["row_count"]
     assert all(row["status"] == "awaiting_realized_outcome" and row["observed_outcome"] is None for row in backtest_register["rows"])
     assert all(row["acceptance_criteria"] and row["refresh_trigger"] for row in backtest_register["rows"])
+    roadmap = json.loads((ANALYSIS / "two-year-roadmap.json").read_text())
+    assert roadmap["schema"] == "external-trend-intelligence.two-year-roadmap.v1"
+    assert roadmap["horizon_months"] == 24
+    assert roadmap["phase_count"] == len(roadmap["phases"]) == 5
+    assert all(phase["acceptance_criteria"] and phase["evidence"] for phase in roadmap["phases"])
+    assert roadmap["completion_rule"]
     ibis_dependency = json.loads((ANALYSIS / "ibis-claim-dependency-review.json").read_text())
     assert ibis_dependency["schema"] == "external-trend-intelligence.ibis-claim-dependency-review.v1"
     assert ibis_dependency["sample_industry_count"] == ibis_sample["sample_industry_count"]

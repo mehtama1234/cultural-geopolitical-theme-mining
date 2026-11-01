@@ -33,6 +33,12 @@ It is scenario context, not a realized trend or a pooled estimate.
 separate realized-outcome slot. A missing outcome is left as missing; the
 register never converts it to zero or overwrites the original forecast.
 
+`two-year-roadmap.json` is rebuilt on every refresh. It maps the five program
+phases (months 0–3, 4–6, 7–12, 13–18, and 19–24) to acceptance criteria,
+evidence links, and current goal-audit blockers. It is an operating control,
+not evidence that future continuity, rights approval, or company pilots already
+exist.
+
 Verify the rights gate remains fail-closed while any family is unresolved:
 
 ```text
