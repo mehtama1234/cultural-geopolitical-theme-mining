@@ -38,8 +38,15 @@ def main() -> int:
         "assigned_role_count": assigned,
         "unassigned_role_count": len(roles) - assigned,
         "status": "assignment_required" if assigned < len(roles) else "assigned_pending_successor_signoff",
+        "assignment_protocol": {
+            "required_fields": ["person_or_team", "primary_acknowledgement", "backup_person_or_team", "scope_acknowledgement", "conflict_declaration", "effective_date"],
+            "assignment_sla_business_days": 10,
+            "backup_activation": "Activate the named backup after two missed review cycles, an unacknowledged release hold, or a primary conflict declaration.",
+            "escalation_path": ["release_owner", "program_sponsor", "rights_and_privacy_owner"],
+            "acceptance_evidence": ["signed role acknowledgement", "one independently reviewable run or decision note", "handoff update with open gates and next review date"],
+        },
         "roles": roles,
-        "next_action": "Record named primary and backup owners for every role, then have a second analyst run the full refresh and sign the handoff independently.",
+        "next_action": "Use the assignment protocol to record named primary and backup owners for every role, then have a second analyst run the full refresh and sign the handoff independently.",
         "boundary": "This queue requests operational ownership; it does not infer identity, authorize internal data access, or prove that a successor run has occurred.",
     }
     OUTPUT.write_text(json.dumps(payload, indent=2) + "\n")

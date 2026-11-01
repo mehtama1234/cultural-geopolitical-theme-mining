@@ -25,6 +25,10 @@ def main() -> int:
         assert item["acceptance_criteria"] and item["handoff_checkpoint"]
     assert queue["assigned_role_count"] == sum(role["owner"] != "unassigned" for role in handoff["roles"])
     assert queue["unassigned_role_count"] + queue["assigned_role_count"] == queue["role_count"]
+    protocol = queue["assignment_protocol"]
+    assert protocol["assignment_sla_business_days"] > 0
+    assert protocol["required_fields"] and protocol["backup_activation"] and protocol["escalation_path"]
+    assert protocol["acceptance_evidence"]
     print("ownership assignment queue: reconciled")
     return 0
 

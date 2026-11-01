@@ -69,6 +69,12 @@ run spacing and explicitly distinguishes a short run burst from demonstrated
 weekly operation. These controls must remain visible in the handoff; neither
 one invents an owner or proves future two-year continuity.
 
+The ownership queue also carries the assignment protocol: required identity
+and acknowledgement fields, a ten-business-day assignment target, backup
+activation triggers, an escalation path, and evidence required to accept a
+role. Until a person or accountable team is recorded, the role remains
+unassigned and release ownership is not inferred.
+
 ## Required review record
 
 Every review note must answer:
