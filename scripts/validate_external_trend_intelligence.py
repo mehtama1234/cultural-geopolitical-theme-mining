@@ -289,6 +289,11 @@ def main() -> int:
     assert ibis_force_map["aggregate"]["claim_reference_count"] > 0
     assert all(force["falsifiers"] and force["outcome_measure_candidates"] for force in ibis_force_map["forces"])
     assert all(force["review_status"] == "held_claim_level_lineage_and_independence" for force in ibis_force_map["forces"])
+    ibis_force_review = json.loads((ANALYSIS / "ibis-force-claim-review.json").read_text())
+    assert ibis_force_review["schema"] == "external-trend-intelligence.ibis-force-claim-review.v1"
+    assert ibis_force_review["force_count"] == 6
+    assert ibis_force_review["status"] == "held_pending_claim_level_lineage_independence_and_outcome_review"
+    assert all(row["falsifiers"] and row["outcome_measure_candidates"] for row in ibis_force_review["rows"])
     labor_check = json.loads((ANALYSIS / "bls-labor-capacity-mechanism-check.json").read_text())
     assert labor_check["schema"] == "external-trend-intelligence.bls-labor-capacity-mechanism-check.v1"
     assert labor_check["status"] == "held_mechanism_check_same_publisher"

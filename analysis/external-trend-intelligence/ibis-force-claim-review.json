@@ -1,0 +1,229 @@
+{
+  "schema": "external-trend-intelligence.ibis-force-claim-review.v1",
+  "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+  "force_count": 6,
+  "rows": [
+    {
+      "force_id": "force_power_constrained_compute",
+      "title": "Compute growth meets power and infrastructure scarcity",
+      "source_count": 4,
+      "publisher_count": 4,
+      "publishers": [
+        "www.eia.gov",
+        "www.energy.gov",
+        "www.epa.gov",
+        "www.ferc.gov"
+      ],
+      "host_count": 4,
+      "hosts": [
+        "www.eia.gov",
+        "www.energy.gov",
+        "www.epa.gov",
+        "www.ferc.gov"
+      ],
+      "claim_reference_count": 6,
+      "claim_period_missing_count": 6,
+      "unresolved_source_id_count": 0,
+      "outcome_measure_candidates": [
+        "contracted versus deliverable MW",
+        "interconnection queue duration",
+        "substation and transmission milestones",
+        "PUE and cooling mix",
+        "local permitting outcomes",
+        "customer pre-commitments"
+      ],
+      "falsifiers": [
+        "AI demand does not convert into contracted capacity",
+        "power prices and construction costs permanently outrun achievable pricing",
+        "customers increasingly self-build rather than use colocation"
+      ],
+      "independence_status": "publisher_diversity_signal_pending_dataset_and_claim_review",
+      "review_status": "held_claim_level_lineage_independence_and_outcome_review",
+      "next_action": "Resolve claim periods, distinguish primary observations from secondary summaries, and attach an independent outcome measure before promotion."
+    },
+    {
+      "force_id": "force_care_labor_demography",
+      "title": "Aging expands demand while labor becomes the scarce input",
+      "source_count": 4,
+      "publisher_count": 4,
+      "publishers": [
+        "data.census.gov",
+        "www.bls.gov",
+        "www.cms.gov",
+        "www.medicaid.gov"
+      ],
+      "host_count": 4,
+      "hosts": [
+        "data.census.gov",
+        "www.bls.gov",
+        "www.cms.gov",
+        "www.medicaid.gov"
+      ],
+      "claim_reference_count": 7,
+      "claim_period_missing_count": 6,
+      "unresolved_source_id_count": 0,
+      "outcome_measure_candidates": [
+        "filled versus requested hours",
+        "caregiver turnover",
+        "wage and travel-time pressure",
+        "authorization delays",
+        "quality incidents",
+        "age-65 population and household caregiver burden"
+      ],
+      "falsifiers": [
+        "automation materially reduces frontline labor needs",
+        "family or institutional care substitutes for home care faster than demographic demand grows",
+        "payer rates rise enough to remove labor pressure"
+      ],
+      "independence_status": "publisher_diversity_signal_pending_dataset_and_claim_review",
+      "review_status": "held_claim_level_lineage_independence_and_outcome_review",
+      "next_action": "Resolve claim periods, distinguish primary observations from secondary summaries, and attach an independent outcome measure before promotion."
+    },
+    {
+      "force_id": "force_trade_fragmentation",
+      "title": "Geopolitical fragmentation turns procurement into strategy",
+      "source_count": 4,
+      "publisher_count": 4,
+      "publishers": [
+        "finance.yahoo.com",
+        "www.ibisworld.com",
+        "www.pwc.com",
+        "www.supplychaindive.com"
+      ],
+      "host_count": 4,
+      "hosts": [
+        "finance.yahoo.com",
+        "www.ibisworld.com",
+        "www.pwc.com",
+        "www.supplychaindive.com"
+      ],
+      "claim_reference_count": 0,
+      "claim_period_missing_count": 0,
+      "unresolved_source_id_count": 0,
+      "outcome_measure_candidates": [
+        "tariff and customs changes",
+        "supplier concentration",
+        "lead times",
+        "inventory days",
+        "domestic-content requirements",
+        "expedite and substitution rates"
+      ],
+      "falsifiers": [
+        "trade tensions ease and price dominates resilience",
+        "customers refuse to pay for redundancy",
+        "domestic capacity cannot reach competitive quality or scale"
+      ],
+      "independence_status": "publisher_diversity_signal_pending_dataset_and_claim_review",
+      "review_status": "held_claim_level_lineage_independence_and_outcome_review",
+      "next_action": "Resolve claim periods, distinguish primary observations from secondary summaries, and attach an independent outcome measure before promotion."
+    },
+    {
+      "force_id": "force_compliance_as_fixed_cost",
+      "title": "Compliance becomes a fixed operating system",
+      "source_count": 4,
+      "publisher_count": 3,
+      "publishers": [
+        "ncua.gov",
+        "www.cms.gov",
+        "www.ferc.gov"
+      ],
+      "host_count": 3,
+      "hosts": [
+        "ncua.gov",
+        "www.cms.gov",
+        "www.ferc.gov"
+      ],
+      "claim_reference_count": 10,
+      "claim_period_missing_count": 9,
+      "unresolved_source_id_count": 0,
+      "outcome_measure_candidates": [
+        "audit findings",
+        "insurance exclusions and premiums",
+        "customer security questionnaires",
+        "regulatory enforcement",
+        "vendor concentration",
+        "time spent on documentation"
+      ],
+      "falsifiers": [
+        "requirements simplify materially",
+        "customers stop valuing assurance",
+        "automation reduces control cost faster than obligations expand"
+      ],
+      "independence_status": "publisher_diversity_signal_pending_dataset_and_claim_review",
+      "review_status": "held_claim_level_lineage_independence_and_outcome_review",
+      "next_action": "Resolve claim periods, distinguish primary observations from secondary summaries, and attach an independent outcome measure before promotion."
+    },
+    {
+      "force_id": "force_consumer_bifurcation_health_identity",
+      "title": "Consumers split between value, identity, health, and experience",
+      "source_count": 3,
+      "publisher_count": 1,
+      "publishers": [
+        "www.bls.gov"
+      ],
+      "host_count": 1,
+      "hosts": [
+        "www.bls.gov"
+      ],
+      "claim_reference_count": 0,
+      "claim_period_missing_count": 0,
+      "unresolved_source_id_count": 0,
+      "outcome_measure_candidates": [
+        "traffic versus ticket",
+        "mix by price tier",
+        "repeat rate",
+        "private-label share",
+        "health and convenience claims",
+        "customer sentiment by segment"
+      ],
+      "falsifiers": [
+        "income growth broadens enough to restore middle-market demand",
+        "consumer preferences converge rather than fragment",
+        "brand and experience fail to change willingness to pay"
+      ],
+      "independence_status": "single_publisher_or_unresolved",
+      "review_status": "held_claim_level_lineage_independence_and_outcome_review",
+      "next_action": "Resolve claim periods, distinguish primary observations from secondary summaries, and attach an independent outcome measure before promotion."
+    },
+    {
+      "force_id": "force_capital_selectivity_consolidation",
+      "title": "Capital selectivity accelerates consolidation and operating discipline",
+      "source_count": 4,
+      "publisher_count": 1,
+      "publishers": [
+        "ncua.gov"
+      ],
+      "host_count": 1,
+      "hosts": [
+        "ncua.gov"
+      ],
+      "claim_reference_count": 2,
+      "claim_period_missing_count": 2,
+      "unresolved_source_id_count": 0,
+      "outcome_measure_candidates": [
+        "interest coverage",
+        "working-capital turns",
+        "customer concentration",
+        "same-unit growth",
+        "acquisition multiples",
+        "owner succession",
+        "audit and compliance readiness"
+      ],
+      "falsifiers": [
+        "capital becomes broadly cheap",
+        "small operators regain bargaining power through local specialization",
+        "integration costs destroy the expected scale advantage"
+      ],
+      "independence_status": "single_publisher_or_unresolved",
+      "review_status": "held_claim_level_lineage_independence_and_outcome_review",
+      "next_action": "Resolve claim periods, distinguish primary observations from secondary summaries, and attach an independent outcome measure before promotion."
+    }
+  ],
+  "aggregate": {
+    "publisher_diversity_signal_count": 4,
+    "claims_missing_period_count": 23,
+    "unresolved_source_id_count": 0
+  },
+  "status": "held_pending_claim_level_lineage_independence_and_outcome_review",
+  "boundary": "Distinct publishers or hosts are signals for review, not proof of independent evidence. This force review does not qualify an IBIS finding or authorize a company bridge."
+}

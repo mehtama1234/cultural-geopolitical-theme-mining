@@ -13,6 +13,7 @@ STEPS = [
     ["scripts/build_external_source_registry_snapshot.py"],
     ["scripts/build_external_repository_family_snapshot.py"],
     ["scripts/build_ibis_force_claim_map.py"],
+    ["scripts/build_ibis_force_claim_review.py"],
     ["scripts/build_bls_labor_capacity_check.py"],
     ["scripts/build_annual_report_citation_map.py"],
     ["scripts/build_social_publication_citation_map.py"],

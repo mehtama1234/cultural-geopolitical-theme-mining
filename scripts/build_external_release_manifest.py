@@ -73,6 +73,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/external-evidence-gap-queue.json",
     "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",
     "analysis/external-trend-intelligence/ibis-force-claim-map.json",
+    "analysis/external-trend-intelligence/ibis-force-claim-review.json",
     "analysis/external-trend-intelligence/bls-labor-capacity-mechanism-check.json",
     "analysis/external-trend-intelligence/annual-report-citation-map.json",
     "analysis/external-trend-intelligence/social-publication-citation-map.json",
