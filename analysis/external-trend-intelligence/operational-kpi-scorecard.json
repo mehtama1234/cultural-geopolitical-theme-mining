@@ -2,8 +2,8 @@
   "schema": "external-trend-intelligence.operational-kpi-scorecard.v1",
   "as_of": "2026-10-31",
   "metrics": {
-    "refresh_runs_recorded": 62,
-    "latest_pipeline_steps": 63,
+    "refresh_runs_recorded": 63,
+    "latest_pipeline_steps": 64,
     "latest_pipeline_status": "passed",
     "stale_source_families": 0,
     "incomplete_source_families": 0,
@@ -15,7 +15,8 @@
     "held_candidates": 4,
     "approved_company_pilots": 0,
     "blocked_design_only_pilots": 2,
-    "successor_validation_status": "pass"
+    "successor_validation_status": "pass",
+    "external_only_boundary": "passed"
   },
   "thresholds": {
     "refresh_pipeline_pass_rate": {
@@ -37,6 +38,10 @@
     "external_first_pilot_gate": {
       "target": "0 approved tests until all gates pass",
       "status": "pass"
+    },
+    "external_only_boundary": {
+      "target": "no connected company data in release",
+      "status": "passed"
     }
   },
   "review_cadence": "weekly refresh review; monthly evidence and rights review; quarterly qualification and decision review",
