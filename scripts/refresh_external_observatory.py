@@ -34,6 +34,7 @@ STEPS = [
     ["scripts/build_room_independent_comparison.py"],
     ["scripts/build_candidate_lineage_dependency_review.py"],
     ["scripts/build_candidate_qualification_matrix.py"],
+    ["scripts/build_trend_monitoring_status.py"],
     ["scripts/build_backtest_source_snapshot.py"],
     ["scripts/build_backtest_readiness.py"],
     ["scripts/build_backtest_comparability_review.py"],

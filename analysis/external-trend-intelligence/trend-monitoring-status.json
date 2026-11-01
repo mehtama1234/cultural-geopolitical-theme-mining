@@ -1,0 +1,60 @@
+{
+  "schema": "external-trend-intelligence.trend-monitoring-status.v1",
+  "as_of": "2026-10-31",
+  "trend_count": 5,
+  "qualified_monitor_count": 1,
+  "prequalification_watch_count": 4,
+  "rows": [
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "state": "pre_qualification_watch",
+      "execution_status": "blocked_prequalification",
+      "cadence": "monthly and on new remedy or implementation release",
+      "next_review": "after the next comparable case panel is assembled",
+      "leading_indicator_count": 5,
+      "reversal_condition_count": 2,
+      "owner": "external evidence review queue"
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "state": "pre_qualification_watch",
+      "execution_status": "blocked_prequalification",
+      "cadence": "quarterly or on a new comparable survey wave",
+      "next_review": "after compatible denominator and participant-population reconciliation",
+      "leading_indicator_count": 5,
+      "reversal_condition_count": 2,
+      "owner": "external evidence review queue"
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "state": "pre_qualification_watch",
+      "execution_status": "blocked_prequalification",
+      "cadence": "monthly or on a new adoption, control, or trust release",
+      "next_review": "after repeated task-level measures are identified",
+      "leading_indicator_count": 6,
+      "reversal_condition_count": 2,
+      "owner": "external evidence review queue"
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "state": "pre_qualification_watch",
+      "execution_status": "blocked_prequalification",
+      "cadence": "monthly and on operation or disruption event",
+      "next_review": "after operation-to-user-incidence evidence is linked",
+      "leading_indicator_count": 6,
+      "reversal_condition_count": 2,
+      "owner": "external evidence review queue"
+    },
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "state": "qualified_monitor",
+      "execution_status": "awaiting_next_comparable_release",
+      "cadence": "annually at the USDA release and on the next comparable Urban WBNS release",
+      "next_review": "next comparable USDA and Urban release with definitions and methodology preserved",
+      "leading_indicator_count": 5,
+      "reversal_condition_count": 3,
+      "owner": "external evidence review queue"
+    }
+  ],
+  "boundary": "This status records monitoring execution state and next-review conditions. It does not promote held candidates, predict outcomes, or authorize company data access."
+}

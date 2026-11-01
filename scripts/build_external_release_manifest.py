@@ -92,6 +92,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/pilot-register.json",
     "analysis/external-trend-intelligence/pilot-readiness.json",
     "analysis/external-trend-intelligence/trend-monitoring-register.json",
+    "analysis/external-trend-intelligence/trend-monitoring-status.json",
     "analysis/external-trend-intelligence/source-family-controls.json",
     "analysis/external-trend-intelligence/care-capacity-candidate.json",
     "analysis/external-trend-intelligence/care-capacity-measurement-matrix.json",
