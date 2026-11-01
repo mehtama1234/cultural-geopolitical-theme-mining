@@ -158,6 +158,11 @@
       <div class="promotion-gates" id="goal-audit"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Successor validation control</h2>
+      <p class="muted">This is a read-only reproducibility check. It does not substitute for named human ownership or approve an internal company pilot.</p>
+      <div class="promotion-gates" id="successor-validation"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Evidence acquisition queue</h2>
       <p class="muted">These tracks define the next external-only evidence work and its stop rules.</p>
       <div class="promotion-gates" id="acquisition-queue"></div>
@@ -679,6 +684,10 @@
     fetch('operating-handoff.json').then(r => r.json()).then(handoff => {
       const assigned = handoff.roles.filter(role => role.owner !== 'unassigned').length;
       el('goal-audit').append(card('Operating handoff', handoff.status, `${assigned}/${handoff.roles.length} roles assigned · successor run exercised: ${handoff.exercised_controls.independent_successor_run} · ${handoff.next_action}`));
+    });
+    fetch('successor-run-evidence.json').then(r => r.json()).then(evidence => {
+      const passed = evidence.checks.filter(check => check.status === 'pass').length;
+      el('successor-validation').append(card('Read-only successor validation', evidence.status, `${passed}/${evidence.checks.length} checks passed · internal data access: ${evidence.internal_data_access} · human assignment: ${evidence.human_successor_assignment} · ${evidence.boundary}`));
     });
   </script>
 </body>

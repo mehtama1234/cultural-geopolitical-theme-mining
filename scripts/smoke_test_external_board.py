@@ -24,6 +24,7 @@ ARTIFACTS = [
     "pilot-register.json",
     "ibis-adult-day-outcome-review.json",
     "source-registry-snapshot.json",
+    "successor-run-evidence.json",
 ]
 
 
@@ -50,6 +51,8 @@ def main() -> int:
                             "program-scorecard.json",
                             "Operating handoff",
                             "operating-handoff.json",
+                            "Successor validation control",
+                            "successor-run-evidence.json",
                             "publisher-dependence-summary.json",
                             "SHED point-estimate reproduction",
                             "shed-point-estimate-reproduction-audit.json",
