@@ -32,6 +32,7 @@ def main() -> int:
         "analysis/external-trend-intelligence/operating-handoff.json",
         "analysis/external-trend-intelligence/successor-run-evidence.json",
         "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
+        "analysis/external-trend-intelligence/pilot-design-dry-run.json",
     }.issubset(release_paths)
     print("program baseline consistency: passed")
     return 0

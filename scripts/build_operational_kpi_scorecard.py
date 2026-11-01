@@ -23,6 +23,7 @@ def main() -> int:
     rights = load("source-family-controls.json")
     pilots = load("pilot-readiness.json")
     successor = load("successor-run-evidence.json")
+    pilot_dry_run = load("pilot-design-dry-run.json")
     latest = history["latest"]
     metrics = {
         "refresh_runs_recorded": history["run_count"],
@@ -40,6 +41,7 @@ def main() -> int:
         "blocked_design_only_pilots": pilots["blocked_external_first_count"],
         "successor_validation_status": successor["status"],
         "external_only_boundary": "passed",
+        "pilot_design_dry_run": pilot_dry_run["status"],
     }
     thresholds = {
         "refresh_pipeline_pass_rate": {"target": "100% latest run", "status": "pass" if metrics["latest_pipeline_status"] == "passed" else "hold"},
@@ -48,6 +50,7 @@ def main() -> int:
         "successor_validation": {"target": "read-only validation passes", "status": successor["status"]},
         "external_first_pilot_gate": {"target": "0 approved tests until all gates pass", "status": "pass" if metrics["approved_company_pilots"] == 0 else "review"},
         "external_only_boundary": {"target": "no connected company data in release", "status": metrics["external_only_boundary"]},
+        "pilot_design_contracts": {"target": "all design-only pilots pass contract dry run", "status": metrics["pilot_design_dry_run"]},
     }
     payload = {
         "schema": "external-trend-intelligence.operational-kpi-scorecard.v1",

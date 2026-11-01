@@ -1,0 +1,20 @@
+{
+  "schema": "external-trend-intelligence.pilot-design-dry-run.v1",
+  "status": "pass",
+  "pilot_count": 2,
+  "checks": [
+    {
+      "pilot_id": "pilot-care-time-workflow-capacity-001",
+      "status": "pass",
+      "company_data_accessed": false
+    },
+    {
+      "pilot_id": "pilot-food-security-service-room-001",
+      "status": "pass",
+      "company_data_accessed": false
+    }
+  ],
+  "company_data_accessed": false,
+  "approved_test_count": 0,
+  "boundary": "This dry run validates pilot design contracts only. It does not approve a pilot, connect internal data, establish causality, or clear rights/privacy review."
+}
