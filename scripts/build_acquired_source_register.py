@@ -24,6 +24,7 @@ def main() -> int:
     community = load("usda-community-food-assistance-2024.json")
     feeding_america = load("feeding-america-map-meal-gap-2026-national.json")
     dock_defense = load("ibis-dock-defense-outcome-review.json")
+    navy_execution = load("usaspending-bath-iron-works-execution-snapshot.json")
     rows = [
         {
             "source_id": ora["acquisition_id"],
@@ -168,6 +169,24 @@ def main() -> int:
             "interpretation_status": dock_defense["independence_status"],
             "rights_boundary": dock_defense["rights_boundary"],
             "next_review": dock_defense["next_action"],
+        },
+        {
+            "source_id": "usaspending-bath-iron-works-execution-2024-2026",
+            "publisher": navy_execution["publisher"],
+            "dataset": "USAspending Bath Iron Works transaction snapshot",
+            "artifact": "usaspending-bath-iron-works-execution-snapshot.json",
+            "source_url": navy_execution["api_url"],
+            "retrieved_at": navy_execution["retrieved_at"],
+            "revision_or_release": "FY2025-FY2026 bounded transaction query; 658 transactions",
+            "checksum": navy_execution["normalized_rows_sha256"],
+            "license_or_terms": navy_execution["rights_boundary"],
+            "access_status": navy_execution["status"],
+            "population_and_unit": navy_execution["unit_and_denominator"],
+            "geography_and_period": "Bath, Maine recipient match; 2024-10-01 through 2026-09-30 action dates",
+            "publisher_dependence": "single_publisher_federal_spending_transaction_series",
+            "interpretation_status": navy_execution["independence_status"],
+            "rights_boundary": navy_execution["rights_boundary"],
+            "next_review": navy_execution["next_action"],
         },
     ]
     payload = {

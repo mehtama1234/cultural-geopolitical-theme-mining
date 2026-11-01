@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.source-release-watchlist.v1",
   "status": "acquired_source_release_targets_recorded",
-  "source_count": 8,
+  "source_count": 9,
   "rows": [
     {
       "source_id": "ora-ords-v03-mobile-aggregate-202607",
@@ -107,6 +107,16 @@
       "cadence_or_trigger": "annual Navy budget release and execution/award update",
       "status": "official_execution_snapshot_acquired_lineage_review_pending",
       "acquisition_action": "Reconcile the USAspending execution snapshot against the Navy budget context and complete award, facility, fiscal-year, and rights review before treating this as independent confirmation or promoting the IBIS claim."
+    },
+    {
+      "source_id": "usaspending-bath-iron-works-execution-2024-2026",
+      "publisher": "USAspending.gov / U.S. Department of the Treasury",
+      "artifact": "usaspending-bath-iron-works-execution-snapshot.json",
+      "latest_observation_period": "FY2025-FY2026 action dates",
+      "next_target_period": "next FY2027 transaction refresh",
+      "cadence_or_trigger": "weekly API refresh and fiscal-year close",
+      "status": "official_execution_snapshot_lineage_review_pending",
+      "acquisition_action": "Reconcile transaction descriptions, award identity, fiscal-year aggregation, and facility scope against the Navy budget context before any trend qualification or company bridge."
     }
   ],
   "boundary": "The watchlist records release targets from pinned artifacts. It does not prove upstream freshness, rights clearance, independence, comparability, or a trend result.",

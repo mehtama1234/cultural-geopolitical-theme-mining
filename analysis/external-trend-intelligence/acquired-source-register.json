@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.acquired-source-register.v1",
   "status": "acquired_sources_registered_with_lineage_and_boundaries",
-  "source_count": 8,
+  "source_count": 9,
   "required_fields": [
     "source_id",
     "publisher",
@@ -164,6 +164,24 @@
       "interpretation_status": "publisher_distinct_official_budget_context_lineage_review_pending",
       "rights_boundary": "Retain normalized observations, source URLs, retrieval time, hashes, and attribution. Do not redistribute the source PDFs or imply that metadata retention clears downstream commercial reuse without exact-artifact review.",
       "next_review": "Reconcile the USAspending execution snapshot against the Navy budget context and complete award, facility, fiscal-year, and rights review before treating this as independent confirmation or promoting the IBIS claim."
+    },
+    {
+      "source_id": "usaspending-bath-iron-works-execution-2024-2026",
+      "publisher": "USAspending.gov / U.S. Department of the Treasury",
+      "dataset": "USAspending Bath Iron Works transaction snapshot",
+      "artifact": "usaspending-bath-iron-works-execution-snapshot.json",
+      "source_url": "https://api.usaspending.gov/api/v2/search/spending_by_transaction/",
+      "retrieved_at": "2026-11-01T06:44:34.166763+00:00",
+      "revision_or_release": "FY2025-FY2026 bounded transaction query; 658 transactions",
+      "checksum": "sha256:579f4373570740a57594b08381501ec90ef401071759963c829451965c76aa40",
+      "license_or_terms": "Retain normalized API observations, query parameters, retrieval timestamp, and hash with USAspending attribution. Do not redistribute bulk downloads or imply that API access is legal clearance for commercial derived products without exact terms review.",
+      "access_status": "official_execution_snapshot_lineage_review_pending",
+      "population_and_unit": "federal transaction amount in USD per returned USAspending transaction; recipient search is Bath Iron Works text match, not all shipyard activity",
+      "geography_and_period": "Bath, Maine recipient match; 2024-10-01 through 2026-09-30 action dates",
+      "publisher_dependence": "single_publisher_federal_spending_transaction_series",
+      "interpretation_status": "publisher_distinct_execution_source_lineage_review_pending",
+      "rights_boundary": "Retain normalized API observations, query parameters, retrieval timestamp, and hash with USAspending attribution. Do not redistribute bulk downloads or imply that API access is legal clearance for commercial derived products without exact terms review.",
+      "next_review": "Reconcile transaction descriptions, award identity, fiscal-year aggregation, and facility scope against the Navy budget context before any trend qualification or company bridge."
     }
   ],
   "boundary": "This register covers acquired artifacts only. It supplements, but does not replace, the 118-source discovery registry; it is not legal clearance, independence proof, or permission to pool unlike populations.",

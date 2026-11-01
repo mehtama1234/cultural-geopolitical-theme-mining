@@ -123,7 +123,24 @@
       "derived_use_status": "normalized_internal_context_only_until_exact_artifact_terms_reviewed",
       "retention_scope": "retain source URLs, retrieval timestamp, PDF hashes, normalized observations, attribution, and explicit budget-versus-realization caveats; do not redistribute the source PDFs through the observatory",
       "next_action": "Confirm exact Navy artifact reuse terms and acquire an execution or award series before any external promotion or company-facing derived chart."
+    },
+    {
+      "acquisition_id": "usaspending-bath-iron-works-execution-2024-2026",
+      "publisher": "USAspending.gov / U.S. Department of the Treasury",
+      "source_url": "https://api.usaspending.gov/api/v2/search/spending_by_transaction/",
+      "terms_evidence_urls": [
+        "https://api.usaspending.gov/docs/endpoints",
+        "https://api.usaspending.gov/docs/intro-tutorial"
+      ],
+      "official_policy_observation": "USAspending documents a public API for filtered award and transaction search. The snapshot retains the exact query, pagination metadata, normalized rows, and hash; API availability does not by itself clear bulk redistribution or commercial derived use.",
+      "access_basis": "official USAspending transaction-search API",
+      "upstream_identity": "FY2025-FY2026 federal transactions returned for recipient search text BATH IRON WORKS",
+      "publisher_dependence": "single_publisher_federal_spending_transaction_series",
+      "rights_evidence_status": "official_api_terms_exact_artifact_review_open",
+      "derived_use_status": "normalized_internal_review_only_until_exact_terms_and_attribution_boundary_confirmed",
+      "retention_scope": "retain API URL, exact filters and fields, retrieval time, normalized-row hash, pagination metadata, and attribution; do not redistribute bulk downloads through the observatory",
+      "next_action": "Confirm API terms and attribution requirements for the exact transaction query, then reconcile award modifications and fiscal-year scope before any external release."
     }
   ],
-  "boundary": "This register records rights evidence and review tasks for eight official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
+  "boundary": "This register records rights evidence and review tasks for nine official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
 }

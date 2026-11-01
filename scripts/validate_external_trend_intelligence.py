@@ -389,6 +389,11 @@ def main() -> int:
     assert navy_execution["summary"]["transaction_count"] > 0
     assert navy_execution["normalized_rows_sha256"].startswith("sha256:")
     assert navy_execution["rights_boundary"] and navy_execution["counter_signal"]
+    dock_comparison = json.loads((ANALYSIS / "ibis-dock-defense-execution-comparison.json").read_text())
+    assert dock_comparison["schema"] == "external-trend-intelligence.ibis-dock-defense-execution-comparison.v1"
+    assert dock_comparison["status"] == "non_pooled_execution_context_comparison"
+    assert dock_comparison["rows"] and dock_comparison["comparability_limits"]
+    assert dock_comparison["release_decision"] == "internal_review_only_no_pooling"
     navy_request = (ANALYSIS / "NAVY-EXECUTION-DATA-REQUEST.md").read_text()
     assert "USAspending.gov" in navy_request
     assert "Required review fields" in navy_request
@@ -713,7 +718,7 @@ def main() -> int:
     acquired_sources = json.loads((ANALYSIS / "acquired-source-register.json").read_text())
     assert acquired_sources["schema"] == "external-trend-intelligence.acquired-source-register.v1"
     assert acquired_sources["status"] == "acquired_sources_registered_with_lineage_and_boundaries"
-    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 8
+    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 9
     community_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "usda-community-food-assistance-2024-ap126")
     assert community_source["artifact"] == "usda-community-food-assistance-2024.json"
     assert community_source["checksum"].startswith("sha256:")
@@ -726,11 +731,15 @@ def main() -> int:
         assert source["rights_boundary"] and source["next_review"]
     release_watchlist = json.loads((ANALYSIS / "source-release-watchlist.json").read_text())
     assert release_watchlist["schema"] == "external-trend-intelligence.source-release-watchlist.v1"
-    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 8
+    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 9
     navy_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "us-navy-fy2026-ship-maintenance-context")
     assert navy_source["artifact"] == "ibis-dock-defense-outcome-review.json"
     navy_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "us-navy-fy2026-ship-maintenance-context")
     assert navy_watch["next_target_period"] == "FY2027 Navy budget and execution release"
+    execution_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "usaspending-bath-iron-works-execution-2024-2026")
+    assert execution_source["artifact"] == "usaspending-bath-iron-works-execution-snapshot.json"
+    execution_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "usaspending-bath-iron-works-execution-2024-2026")
+    assert execution_watch["next_target_period"] == "next FY2027 transaction refresh"
     community_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "usda-community-food-assistance-2024-ap126")
     assert community_watch["next_target_period"] == "2025 annual CPS Food Security Supplement"
     feeding_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "feeding-america-map-meal-gap-2026-national")
@@ -1079,8 +1088,8 @@ def main() -> int:
     assert financial_card["company_gate"] and financial_card["boundary"]
     acquisition_rights = json.loads((ANALYSIS / "external-acquisition-rights-review.json").read_text())
     assert acquisition_rights["schema"] == "external-trend-intelligence.external-acquisition-rights-review.v1"
-    assert len(acquisition_rights["rows"]) == 8
-    assert all(row["rights_evidence_status"] in {"official_policy_identified_exact_artifact_review_open", "restrictive_republication_notice_review_open", "license_identified_exact_archive_review_open", "official_terms_identified_exact_artifact_review_open", "official_source_metadata_exact_artifact_review_open"} for row in acquisition_rights["rows"])
+    assert len(acquisition_rights["rows"]) == 9
+    assert all(row["rights_evidence_status"] in {"official_policy_identified_exact_artifact_review_open", "restrictive_republication_notice_review_open", "license_identified_exact_archive_review_open", "official_terms_identified_exact_artifact_review_open", "official_source_metadata_exact_artifact_review_open", "official_api_terms_exact_artifact_review_open"} for row in acquisition_rights["rows"])
     ora_rights = next(row for row in acquisition_rights["rows"] if row["acquisition_id"] == "ora-ords-v03-mobile-aggregate-202607")
     assert ora_rights["publisher"] == "Open Repair Alliance"
     assert "CC BY-SA" in ora_rights["official_policy_observation"]
@@ -1094,6 +1103,9 @@ def main() -> int:
     navy_rights = next(row for row in acquisition_rights["rows"] if row["acquisition_id"] == "us-navy-fy2026-ship-maintenance-context")
     assert navy_rights["publisher"] == "U.S. Department of the Navy"
     assert navy_rights["rights_evidence_status"] == "official_source_metadata_exact_artifact_review_open"
+    execution_rights = next(row for row in acquisition_rights["rows"] if row["acquisition_id"] == "usaspending-bath-iron-works-execution-2024-2026")
+    assert execution_rights["publisher"] == "USAspending.gov / U.S. Department of the Treasury"
+    assert execution_rights["rights_evidence_status"] == "official_api_terms_exact_artifact_review_open"
     assert all(
         "https://www.census.gov/data/developers/about/terms-of-service.html" in row["terms_evidence_urls"]
         and "https://www.census.gov/about/policies/citation.html" in row["terms_evidence_urls"]

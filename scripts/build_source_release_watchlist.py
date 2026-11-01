@@ -29,6 +29,7 @@ def main() -> int:
     community = load("usda-community-food-assistance-2024.json")
     feeding_america = load("feeding-america-map-meal-gap-2026-national.json")
     dock_defense = load("ibis-dock-defense-outcome-review.json")
+    navy_execution = load("usaspending-bath-iron-works-execution-snapshot.json")
 
     cbp_latest = max(row["year"] for row in cbp["source"]["retrievals"])
     nes_latest = max(row["year"] for row in nes["source"]["retrievals"])
@@ -115,6 +116,16 @@ def main() -> int:
             "cadence_or_trigger": "annual Navy budget release and execution/award update",
             "status": dock_defense["review_status"],
             "acquisition_action": dock_defense["next_action"],
+        },
+        {
+            "source_id": "usaspending-bath-iron-works-execution-2024-2026",
+            "publisher": navy_execution["publisher"],
+            "artifact": "usaspending-bath-iron-works-execution-snapshot.json",
+            "latest_observation_period": "FY2025-FY2026 action dates",
+            "next_target_period": "next FY2027 transaction refresh",
+            "cadence_or_trigger": "weekly API refresh and fiscal-year close",
+            "status": navy_execution["status"],
+            "acquisition_action": navy_execution["next_action"],
         },
     ]
     payload = {
