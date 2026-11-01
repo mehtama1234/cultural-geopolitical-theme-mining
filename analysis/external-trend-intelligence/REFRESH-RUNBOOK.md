@@ -18,6 +18,12 @@ python3 scripts/build_external_refresh_status.py
 age. It is a control-plane check, not proof that a source is current or
 independent.
 
+`source-release-watchlist.json` records the latest pinned period and next
+official release target for each acquired artifact. At every scheduled run,
+compare the pinned period with the target, preserve the new checksum and terms,
+and route any definition, method, or rights break to review before updating a
+chart or narrative.
+
 `compatible-measure-search.json` is a discovery aid generated from the pinned
 record tree. It finds repeated measure keys and units across source hosts, then
 leaves population, denominator, period, uncertainty, rights, and publisher
