@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "1fa9736766fce627526732ab945c97916fcc3543",
-  "artifact_count": 169,
+  "source_tree_commit": "ba886e360b5c319fcc090f74438e5a28f7580d2f",
+  "artifact_count": 170,
   "artifacts": [
     {
       "path": "analysis/external-trend-intelligence/TWO-YEAR-GOAL.md",
@@ -217,7 +217,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "c477a4503abce7ac698ddc60c91f1a845e6a95fb81af5383c896ab9c8e69fa6b"
+      "sha256": "d230e41a7d013e4824068b6f6f0abaec5de3d4208a134deb3dcddb2755510bde"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -755,6 +755,11 @@
       "sha256": "52c9c743c852889901ab7d4b05fc2bdd196b8cf01768faa20cd4e05f64f99d47"
     },
     {
+      "path": "analysis/external-trend-intelligence/food-security-independence-review-packet.json",
+      "bytes": 5384,
+      "sha256": "dda4503743f14201980da9713142b371293a8303db90df5fdc4af50ca63cabd1"
+    },
+    {
       "path": "analysis/external-trend-intelligence/candidate-qualification-matrix.json",
       "bytes": 8176,
       "sha256": "b1a4d90dac3d174b7848f928a854666fc47e2fc800658ada674c711825ba9b25"
@@ -826,8 +831,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 100688,
-      "sha256": "a0eca7ea80ff2a4b637f890a407588beef844fb0ccd5da88367b8f0616179416"
+      "bytes": 101023,
+      "sha256": "0b01066f48120b72ded65cab444497457c531fc95d5caaa2cecdcfad72c0172e"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",

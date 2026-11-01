@@ -1,0 +1,87 @@
+{
+  "schema": "external-trend-intelligence.food-security-independence-review-packet.v1",
+  "candidate_id": "candidate-us-food-insecurity-persistence",
+  "status": "ready_for_human_independence_signoff",
+  "machine_recommendation": "publisher_distinct_directional_challenge_noncomparable_hold",
+  "evidence": {
+    "urban": {
+      "publisher": "Urban Institute",
+      "artifact": "urban-wbns-food-insecurity-2025.json",
+      "source_url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025%2C%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
+      "checksum": "sha256:8c099a3ca11f3130613ad51035eaf5f18cf99652940c48b42459cada84e8f16f",
+      "population_and_unit": "U.S. adults age 18 and older; percent reporting household food insecurity",
+      "geography_and_period": "United States; December 2025; household food insecurity in the last 12 months",
+      "instrument_and_method": "Urban Institute normalized figures from the December 2025 WBNS release; the 2025 sample expanded to include adults age 65 and older and the publication reports an updated estimation approach.",
+      "uncertainty_and_limits": [
+        "WBNS is an annual survey of adults and is not numerically interchangeable with USDA's CPS household series.",
+        "The 2025 methodology update means estimates differ slightly from earlier Urban publications; preserve the publication's definitions and significance annotations.",
+        "The survey has a low cumulative response rate and may underrepresent people experiencing homelessness, low literacy, or limited English/Spanish proficiency.",
+        "The figures describe reported household food insecurity, not provider utilization, capacity, revenue, or company demand."
+      ]
+    },
+    "usda": {
+      "publisher": "USDA Economic Research Service",
+      "artifact": "usda-temporal-holdout.json",
+      "source_url": "https://www.ers.usda.gov/publications/113622",
+      "record_id": "comparative-usda-food-security-2022-2024",
+      "population_and_unit": "percent of households food insecure at some time during the year",
+      "geography_and_period": "U.S. Department of Agriculture Economic Research Service, Household Food Security in the United States; 2022-2023 construction and 2024 holdout",
+      "instrument_and_method": "Annual CPS Food Security Supplement household survey",
+      "uncertainty_and_limits": [
+        "Food insecurity rose numerically from 2022 through the 2024 holdout, but USDA reports the 2024 prevalence was not statistically significantly different from 2023 or 2022.",
+        "This is a descriptive repeated-cross-section holdout from one USDA survey family. It is not a causal or independent validation result."
+      ]
+    },
+    "comparison_artifact": "food-insecurity-independent-comparison.json",
+    "comparison_rows": [
+      {
+        "period": 2022,
+        "urban_working_age_percent": 24.7,
+        "usda_household_percent": 12.8,
+        "difference_percentage_points": 11.9
+      },
+      {
+        "period": 2023,
+        "urban_working_age_percent": 27.2,
+        "usda_household_percent": 13.5,
+        "difference_percentage_points": 13.7
+      },
+      {
+        "period": 2024,
+        "urban_working_age_percent": 27.0,
+        "usda_household_percent": 13.7,
+        "difference_percentage_points": 13.3
+      }
+    ],
+    "pooling_decision": "do_not_pool"
+  },
+  "independence_assessment": {
+    "publisher_families_distinct": true,
+    "hosts_distinct": true,
+    "shared_dependency_groups": [],
+    "same_population_or_denominator": false,
+    "same_instrument": false,
+    "assessment": "Distinct publisher families provide a directional challenge, but different populations, denominators, uncertainty treatment, and method details prevent a common estimate or independent confirmation claim."
+  },
+  "rights_assessment": {
+    "urban_status": "catalog_license_identified_exact_brief_reuse_review_open",
+    "urban_next_action": "Confirm whether the ODC-By catalog terms cover the exact 2025 table artifact and document attribution, share-alike, and restricted-variable boundaries before any public derived chart or company pilot.",
+    "release_boundary": "Do not redistribute upstream tables, figures, or company-linked outputs until exact-artifact rights review is signed."
+  },
+  "human_review": {
+    "reviewer": null,
+    "review_date": null,
+    "final_disposition": null,
+    "evidence_link_or_signoff": null
+  },
+  "required_signoff_fields": [
+    "canonical artifact identity confirmed for both publishers",
+    "population, denominator, geography, period, unit, and outcome checked",
+    "method and uncertainty differences acknowledged",
+    "rights and downstream reuse boundary approved or held",
+    "final disposition recorded as independent, dependent_restatement, same_artifact, or noncomparable_directional_challenge"
+  ],
+  "stop_rule": "Keep the candidate at monitored or held status and do not use it for a company bridge until a human reviewer signs the explicit disposition.",
+  "boundary": "This packet makes the human review actionable; it is not a human adjudication, legal clearance, pooled estimate, causal result, or company authorization.",
+  "next_action": "Assign a lineage reviewer, complete the five signoff fields, and write the final disposition back to candidate-independence-adjudication-queue.json."
+}

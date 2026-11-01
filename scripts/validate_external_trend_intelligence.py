@@ -1155,6 +1155,14 @@ def main() -> int:
     assert all(row["latest_observation_period"] and row["next_target_status"] and row["release_action"] for row in food_tracker["source_records"])
     assert food_tracker["monitoring_decision"] == "continue_monitored_external_trend"
     assert food_tracker["comparability_boundary"] and food_tracker["rights_boundary"] and food_tracker["next_review"]
+    food_packet = json.loads((ANALYSIS / "food-security-independence-review-packet.json").read_text())
+    assert food_packet["schema"] == "external-trend-intelligence.food-security-independence-review-packet.v1"
+    assert food_packet["status"] == "ready_for_human_independence_signoff"
+    assert food_packet["machine_recommendation"] == "publisher_distinct_directional_challenge_noncomparable_hold"
+    assert food_packet["independence_assessment"]["publisher_families_distinct"] is True
+    assert food_packet["independence_assessment"]["same_population_or_denominator"] is False
+    assert food_packet["human_review"]["final_disposition"] is None
+    assert len(food_packet["required_signoff_fields"]) == 5
     food_comparison = json.loads((ANALYSIS / "food-insecurity-independent-comparison.json").read_text())
     assert food_comparison["schema"] == "external-trend-intelligence.food-insecurity-independent-comparison.v1"
     assert food_comparison["status"] == "independent_directional_challenge_not_comparable"

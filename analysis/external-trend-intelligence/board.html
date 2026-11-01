@@ -758,6 +758,9 @@
       fetch('food-insecurity-independent-comparison.json').then(r => r.json()).then(comparison => {
         el('food-insecurity-holdout').append(card('Independent publisher challenge', comparison.status, `${comparison.directional_readout.direction}; ${comparison.pooling_decision}. ${comparison.blocking_items.join(' · ')}`));
       });
+      fetch('food-security-independence-review-packet.json').then(r => r.json()).then(packet => {
+        el('food-insecurity-holdout').append(card('Independence review packet', packet.status, `${packet.machine_recommendation}. ${packet.required_signoff_fields.length} human sign-off fields remain. ${packet.next_action}`));
+      });
       fetch('shed-point-estimate-reproduction-audit.json').then(r => r.json()).then(audit => {
         const target = el('shed-reproduction');
         target.append(card('Two-year point estimate', audit.status, `${audit.interpretation} ${audit.next_test}`));

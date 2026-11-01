@@ -100,6 +100,7 @@ STEPS = [
     ["scripts/build_food_security_decision_brief.py"],
     ["scripts/build_food_security_release_tracker.py"],
     ["scripts/build_candidate_independence_precheck.py"],
+    ["scripts/build_food_security_independence_review_packet.py"],
     ["scripts/build_financial_room_rights_review.py"],
     ["scripts/build_shed_emergency_expense_acquisition.py"],
     ["scripts/build_shed_uncertainty_audit.py"],
