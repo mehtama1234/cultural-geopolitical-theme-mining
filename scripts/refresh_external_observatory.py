@@ -23,6 +23,7 @@ STEPS = [
     ["scripts/build_external_observation_manifest.py", "--git-ref", "HEAD", "--output", "analysis/external-trend-intelligence/observation-manifest.json"],
     ["scripts/build_record_quality_audit.py"],
     ["scripts/build_record_quality_remediation_queue.py"],
+    ["scripts/build_record_host_dependence_audit.py"],
     ["scripts/build_theme_coverage_audit.py"],
     ["scripts/build_compatible_measure_search.py"],
     ["scripts/build_global_growth_forecast_comparison.py"],

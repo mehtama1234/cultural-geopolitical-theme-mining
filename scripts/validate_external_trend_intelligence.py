@@ -42,6 +42,13 @@ def main() -> int:
     assert remediation["record_count_with_gaps"] >= remediation["high_priority_count"] >= 0
     assert len(remediation["rows"]) <= remediation["row_limit"]
     assert remediation["boundary"] and remediation["next_action"]
+    host_dependence = json.loads((ANALYSIS / "record-host-dependence-audit.json").read_text())
+    assert host_dependence["schema"] == "external-trend-intelligence.record-host-dependence-audit.v1"
+    assert host_dependence["record_count"] == manifest["record_count"]
+    assert host_dependence["unique_host_count"] >= host_dependence["shared_host_count"] >= 0
+    assert len(host_dependence["host_rows"]) <= host_dependence["host_row_limit"]
+    assert len(host_dependence["shared_host_pairs"]) <= host_dependence["shared_host_pair_limit"]
+    assert host_dependence["boundary"] and host_dependence["next_action"]
     ids = {record["trend_id"] for record in manifest["records"]}
     assert len(ids) == manifest["record_count"]
     for record in manifest["records"]:

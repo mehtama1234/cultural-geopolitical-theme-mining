@@ -1,0 +1,2340 @@
+{
+  "schema": "external-trend-intelligence.record-host-dependence-audit.v1",
+  "status": "host_overlap_visible_independence_unverified",
+  "record_count": 2135,
+  "unique_host_count": 892,
+  "shared_host_count": 315,
+  "shared_host_record_count": 3160,
+  "host_rows": [
+    {
+      "host": "doi.org",
+      "record_count": 242,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "nber.org",
+      "record_count": 237,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "census.gov",
+      "record_count": 167,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "gao.gov",
+      "record_count": 134,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "www2.census.gov",
+      "record_count": 110,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "pewresearch.org",
+      "record_count": 97,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "oecd.org",
+      "record_count": 92,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "worldbank.org",
+      "record_count": 84,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "files.gao.gov",
+      "record_count": 79,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "federalreserve.gov",
+      "record_count": 63,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "ilo.org",
+      "record_count": 62,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "ftc.gov",
+      "record_count": 53,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "documents.worldbank.org",
+      "record_count": 48,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "gov.uk",
+      "record_count": 46,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "bls.gov",
+      "record_count": 45,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "news.gallup.com",
+      "record_count": 37,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "ipsos.com",
+      "record_count": 34,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "reproducibility.worldbank.org",
+      "record_count": 34,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "consumerfinance.gov",
+      "record_count": 31,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "un.org",
+      "record_count": 31,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "unesco.org",
+      "record_count": 30,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "who.int",
+      "record_count": 28,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "weforum.org",
+      "record_count": 25,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "undp.org",
+      "record_count": 24,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "gallup.com",
+      "record_count": 21,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "imf.org",
+      "record_count": 21,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "bea.gov",
+      "record_count": 20,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "unstats.un.org",
+      "record_count": 20,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "ec.europa.eu",
+      "record_count": 19,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "fwc.gov.au",
+      "record_count": 19,
+      "theme_count": 11,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "meps.ahrq.gov",
+      "record_count": 19,
+      "theme_count": 10,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "unctad.org",
+      "record_count": 19,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "fao.org",
+      "record_count": 18,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "unicef.org",
+      "record_count": 18,
+      "theme_count": 11,
+      "themes": [
+        "care_health_reproduction",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "lehd.ces.census.gov",
+      "record_count": 17,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "ons.gov.uk",
+      "record_count": 17,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "kam.lt",
+      "record_count": 16,
+      "theme_count": 8,
+      "themes": [
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "search.worldbank.org",
+      "record_count": 16,
+      "theme_count": 9,
+      "themes": [
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "desapublications.un.org",
+      "record_count": 15,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "gov.pl",
+      "record_count": 15,
+      "theme_count": 9,
+      "themes": [
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "ideas.repec.org",
+      "record_count": 15,
+      "theme_count": 11,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "documents1.worldbank.org",
+      "record_count": 14,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "ers.usda.gov",
+      "record_count": 14,
+      "theme_count": 10,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "www150.statcan.gc.ca",
+      "record_count": 14,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "itu.int",
+      "record_count": 13,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "iea.org",
+      "record_count": 12,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "nato.int",
+      "record_count": 12,
+      "theme_count": 9,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "newyorkfed.org",
+      "record_count": 12,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "energy.gov",
+      "record_count": 11,
+      "theme_count": 10,
+      "themes": [
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "files.consumerfinance.gov",
+      "record_count": 11,
+      "theme_count": 9,
+      "themes": [
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "openknowledge.worldbank.org",
+      "record_count": 11,
+      "theme_count": 11,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "cdc.gov",
+      "record_count": 10,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "insurance.ca.gov",
+      "record_count": 10,
+      "theme_count": 11,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "unep.org",
+      "record_count": 10,
+      "theme_count": 10,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "blogs.worldbank.org",
+      "record_count": 9,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "papers.ssrn.com",
+      "record_count": 9,
+      "theme_count": 11,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "urban.org",
+      "record_count": 9,
+      "theme_count": 10,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "bis.gov",
+      "record_count": 8,
+      "theme_count": 5,
+      "themes": [
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback"
+      ]
+    },
+    {
+      "host": "cdn.www.census.gov",
+      "record_count": 8,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "resources.ipsos.com",
+      "record_count": 8,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "sec.gov",
+      "record_count": 8,
+      "theme_count": 7,
+      "themes": [
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "unhcr.org",
+      "record_count": 8,
+      "theme_count": 11,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "api.usaspending.gov",
+      "record_count": 7,
+      "theme_count": 7,
+      "themes": [
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "cbo.gov",
+      "record_count": 7,
+      "theme_count": 11,
+      "themes": [
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "data.bls.gov",
+      "record_count": 7,
+      "theme_count": 10,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "edelman.com",
+      "record_count": 7,
+      "theme_count": 10,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "eia.gov",
+      "record_count": 7,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "financialresearch.gov",
+      "record_count": 7,
+      "theme_count": 11,
+      "themes": [
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "idea.int",
+      "record_count": 7,
+      "theme_count": 11,
+      "themes": [
+        "consumer_power_recourse",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "nyc.gov",
+      "record_count": 7,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "ofcom.org.uk",
+      "record_count": 7,
+      "theme_count": 10,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "search.ftc.gov",
+      "record_count": 7,
+      "theme_count": 11,
+      "themes": [
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "static.cninfo.com.cn",
+      "record_count": 7,
+      "theme_count": 4,
+      "themes": [
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "infrastructure_technology_dependency",
+        "public_systems_feedback"
+      ]
+    },
+    {
+      "host": "abs.gov.au",
+      "record_count": 6,
+      "theme_count": 9,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "platforms_data_attention",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "academic.oup.com",
+      "record_count": 6,
+      "theme_count": 7,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "household_room_consumption",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "bjs.ojp.gov",
+      "record_count": 6,
+      "theme_count": 9,
+      "themes": [
+        "care_health_reproduction",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "commission.europa.eu",
+      "record_count": 6,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "cpsc.gov",
+      "record_count": 6,
+      "theme_count": 8,
+      "themes": [
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "data.hrsa.gov",
+      "record_count": 6,
+      "theme_count": 8,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "deloitte.com",
+      "record_count": 6,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "hdr.undp.org",
+      "record_count": 6,
+      "theme_count": 12,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "ikea.com",
+      "record_count": 6,
+      "theme_count": 11,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "justice.gov",
+      "record_count": 6,
+      "theme_count": 8,
+      "themes": [
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "nisrf.nato.int",
+      "record_count": 6,
+      "theme_count": 7,
+      "themes": [
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "pmc.ncbi.nlm.nih.gov",
+      "record_count": 6,
+      "theme_count": 11,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "portal.ct.gov",
+      "record_count": 6,
+      "theme_count": 6,
+      "themes": [
+        "consumer_power_recourse",
+        "household_room_consumption",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "scc.virginia.gov",
+      "record_count": 6,
+      "theme_count": 9,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "public_systems_feedback",
+        "trust_identity_meaning"
+      ]
+    },
+    {
+      "host": "sda.berkeley.edu",
+      "record_count": 6,
+      "theme_count": 9,
+      "themes": [
+        "care_health_reproduction",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "statssa.gov.za",
+      "record_count": 6,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "unesdoc.unesco.org",
+      "record_count": 6,
+      "theme_count": 14,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "unwomen.org",
+      "record_count": 6,
+      "theme_count": 10,
+      "themes": [
+        "care_health_reproduction",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "wipo.int",
+      "record_count": 6,
+      "theme_count": 10,
+      "themes": [
+        "care_health_reproduction",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "api.bls.gov",
+      "record_count": 5,
+      "theme_count": 7,
+      "themes": [
+        "firm_sector_market_power",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "arxiv.org",
+      "record_count": 5,
+      "theme_count": 11,
+      "themes": [
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "bis.org",
+      "record_count": 5,
+      "theme_count": 10,
+      "themes": [
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "canada.ca",
+      "record_count": 5,
+      "theme_count": 13,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "platforms_data_attention",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "data.worldbank.org",
+      "record_count": 5,
+      "theme_count": 11,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "firm_sector_market_power",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "fna.usda.gov",
+      "record_count": 5,
+      "theme_count": 9,
+      "themes": [
+        "care_health_reproduction",
+        "consumer_power_recourse",
+        "household_room_consumption",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status"
+      ]
+    },
+    {
+      "host": "huduser.gov",
+      "record_count": 5,
+      "theme_count": 8,
+      "themes": [
+        "care_health_reproduction",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "public_systems_feedback",
+        "time_hidden_price",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    },
+    {
+      "host": "kff.org",
+      "record_count": 5,
+      "theme_count": 10,
+      "themes": [
+        "care_health_reproduction",
+        "geopolitical_state_consequences",
+        "household_room_consumption",
+        "housing_place_mobility",
+        "infrastructure_technology_dependency",
+        "political_judgment_action",
+        "public_systems_feedback",
+        "trust_identity_meaning",
+        "unequal_exposure_status",
+        "work_control_bargaining"
+      ]
+    }
+  ],
+  "host_row_limit": 100,
+  "shared_host_pairs": [
+    {
+      "host_a": "doi.org",
+      "host_b": "nber.org",
+      "record_count": 105
+    },
+    {
+      "host_a": "census.gov",
+      "host_b": "www2.census.gov",
+      "record_count": 90
+    },
+    {
+      "host_a": "files.gao.gov",
+      "host_b": "gao.gov",
+      "record_count": 66
+    },
+    {
+      "host_a": "doi.org",
+      "host_b": "oecd.org",
+      "record_count": 41
+    },
+    {
+      "host_a": "doi.org",
+      "host_b": "ilo.org",
+      "record_count": 28
+    },
+    {
+      "host_a": "documents.worldbank.org",
+      "host_b": "reproducibility.worldbank.org",
+      "record_count": 18
+    },
+    {
+      "host_a": "reproducibility.worldbank.org",
+      "host_b": "worldbank.org",
+      "record_count": 17
+    },
+    {
+      "host_a": "documents.worldbank.org",
+      "host_b": "search.worldbank.org",
+      "record_count": 16
+    },
+    {
+      "host_a": "census.gov",
+      "host_b": "lehd.ces.census.gov",
+      "record_count": 16
+    },
+    {
+      "host_a": "documents.worldbank.org",
+      "host_b": "ideas.repec.org",
+      "record_count": 14
+    },
+    {
+      "host_a": "documents1.worldbank.org",
+      "host_b": "worldbank.org",
+      "record_count": 12
+    },
+    {
+      "host_a": "ideas.repec.org",
+      "host_b": "reproducibility.worldbank.org",
+      "record_count": 12
+    },
+    {
+      "host_a": "documents.worldbank.org",
+      "host_b": "worldbank.org",
+      "record_count": 12
+    },
+    {
+      "host_a": "lehd.ces.census.gov",
+      "host_b": "www2.census.gov",
+      "record_count": 12
+    },
+    {
+      "host_a": "openknowledge.worldbank.org",
+      "host_b": "worldbank.org",
+      "record_count": 9
+    },
+    {
+      "host_a": "consumerfinance.gov",
+      "host_b": "files.consumerfinance.gov",
+      "record_count": 9
+    },
+    {
+      "host_a": "news.gallup.com",
+      "host_b": "pewresearch.org",
+      "record_count": 8
+    },
+    {
+      "host_a": "ipsos.com",
+      "host_b": "resources.ipsos.com",
+      "record_count": 8
+    },
+    {
+      "host_a": "desapublications.un.org",
+      "host_b": "un.org",
+      "record_count": 8
+    },
+    {
+      "host_a": "census.gov",
+      "host_b": "federalreserve.gov",
+      "record_count": 8
+    },
+    {
+      "host_a": "bea.gov",
+      "host_b": "bls.gov",
+      "record_count": 8
+    },
+    {
+      "host_a": "census.gov",
+      "host_b": "nber.org",
+      "record_count": 8
+    },
+    {
+      "host_a": "oecd.org",
+      "host_b": "weforum.org",
+      "record_count": 7
+    },
+    {
+      "host_a": "documents1.worldbank.org",
+      "host_b": "reproducibility.worldbank.org",
+      "record_count": 7
+    },
+    {
+      "host_a": "blogs.worldbank.org",
+      "host_b": "worldbank.org",
+      "record_count": 7
+    },
+    {
+      "host_a": "documents.worldbank.org",
+      "host_b": "doi.org",
+      "record_count": 7
+    },
+    {
+      "host_a": "doi.org",
+      "host_b": "reproducibility.worldbank.org",
+      "record_count": 7
+    },
+    {
+      "host_a": "gallup.com",
+      "host_b": "news.gallup.com",
+      "record_count": 6
+    },
+    {
+      "host_a": "doi.org",
+      "host_b": "imf.org",
+      "record_count": 6
+    },
+    {
+      "host_a": "doi.org",
+      "host_b": "worldbank.org",
+      "record_count": 6
+    },
+    {
+      "host_a": "unesco.org",
+      "host_b": "unesdoc.unesco.org",
+      "record_count": 6
+    },
+    {
+      "host_a": "bea.gov",
+      "host_b": "federalreserve.gov",
+      "record_count": 6
+    },
+    {
+      "host_a": "federalreserve.gov",
+      "host_b": "newyorkfed.org",
+      "record_count": 6
+    },
+    {
+      "host_a": "federalreserve.gov",
+      "host_b": "nber.org",
+      "record_count": 6
+    },
+    {
+      "host_a": "bls.gov",
+      "host_b": "census.gov",
+      "record_count": 6
+    },
+    {
+      "host_a": "bls.gov",
+      "host_b": "federalreserve.gov",
+      "record_count": 6
+    },
+    {
+      "host_a": "consumerfinance.gov",
+      "host_b": "federalreserve.gov",
+      "record_count": 6
+    },
+    {
+      "host_a": "ftc.gov",
+      "host_b": "search.ftc.gov",
+      "record_count": 6
+    },
+    {
+      "host_a": "www150.statcan.gc.ca",
+      "host_b": "www23.statcan.gc.ca",
+      "record_count": 5
+    },
+    {
+      "host_a": "unep.org",
+      "host_b": "unstats.un.org",
+      "record_count": 5
+    },
+    {
+      "host_a": "bls.gov",
+      "host_b": "nber.org",
+      "record_count": 5
+    },
+    {
+      "host_a": "api.bls.gov",
+      "host_b": "bls.gov",
+      "record_count": 5
+    },
+    {
+      "host_a": "bis.gov",
+      "host_b": "gao.gov",
+      "record_count": 5
+    },
+    {
+      "host_a": "bis.gov",
+      "host_b": "media.bis.gov",
+      "record_count": 5
+    },
+    {
+      "host_a": "bls.gov",
+      "host_b": "data.bls.gov",
+      "record_count": 5
+    },
+    {
+      "host_a": "doi.org",
+      "host_b": "www2.census.gov",
+      "record_count": 5
+    },
+    {
+      "host_a": "federalreserve.gov",
+      "host_b": "ftc.gov",
+      "record_count": 5
+    },
+    {
+      "host_a": "doi.org",
+      "host_b": "pmc.ncbi.nlm.nih.gov",
+      "record_count": 4
+    },
+    {
+      "host_a": "gov.uk",
+      "host_b": "ons.gov.uk",
+      "record_count": 4
+    },
+    {
+      "host_a": "edelman.com",
+      "host_b": "ipsos.com",
+      "record_count": 4
+    },
+    {
+      "host_a": "nber.org",
+      "host_b": "papers.ssrn.com",
+      "record_count": 4
+    },
+    {
+      "host_a": "oecd.org",
+      "host_b": "worldbank.org",
+      "record_count": 4
+    },
+    {
+      "host_a": "unep.org",
+      "host_b": "wedocs.unep.org",
+      "record_count": 4
+    },
+    {
+      "host_a": "iris.who.int",
+      "host_b": "who.int",
+      "record_count": 4
+    },
+    {
+      "host_a": "documents.worldbank.org",
+      "host_b": "documents1.worldbank.org",
+      "record_count": 4
+    },
+    {
+      "host_a": "financialresearch.gov",
+      "host_b": "worldbank.org",
+      "record_count": 4
+    },
+    {
+      "host_a": "federalreserve.gov",
+      "host_b": "financialresearch.gov",
+      "record_count": 4
+    },
+    {
+      "host_a": "bea.gov",
+      "host_b": "newyorkfed.org",
+      "record_count": 4
+    },
+    {
+      "host_a": "census.gov",
+      "host_b": "ers.usda.gov",
+      "record_count": 4
+    },
+    {
+      "host_a": "consumerfinance.gov",
+      "host_b": "ftc.gov",
+      "record_count": 4
+    },
+    {
+      "host_a": "academic.oup.com",
+      "host_b": "doi.org",
+      "record_count": 4
+    },
+    {
+      "host_a": "nber.org",
+      "host_b": "socialscienceregistry.org",
+      "record_count": 4
+    },
+    {
+      "host_a": "ers.usda.gov",
+      "host_b": "nber.org",
+      "record_count": 4
+    },
+    {
+      "host_a": "undp.org",
+      "host_b": "worldbank.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "un.org",
+      "host_b": "undp.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "cambridge.org",
+      "host_b": "doi.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "doi.org",
+      "host_b": "nature.com",
+      "record_count": 3
+    },
+    {
+      "host_a": "edelman.com",
+      "host_b": "oecd.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "edelman.com",
+      "host_b": "weforum.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "assets.publishing.service.gov.uk",
+      "host_b": "gov.uk",
+      "record_count": 3
+    },
+    {
+      "host_a": "fao.org",
+      "host_b": "openknowledge.fao.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "fao.org",
+      "host_b": "worldbank.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "ilo.org",
+      "host_b": "researchrepository.ilo.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "ilo.org",
+      "host_b": "ilostat.ilo.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "oecd.org",
+      "host_b": "un.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "uis.unesco.org",
+      "host_b": "unesco.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "statcan.gc.ca",
+      "host_b": "www150.statcan.gc.ca",
+      "record_count": 3
+    },
+    {
+      "host_a": "unhabitat.org",
+      "host_b": "unstats.un.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "un.org",
+      "host_b": "unu.edu",
+      "record_count": 3
+    },
+    {
+      "host_a": "undp.org",
+      "host_b": "unesco.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "oecd.org",
+      "host_b": "unesco.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "unicef.org",
+      "host_b": "who.int",
+      "record_count": 3
+    },
+    {
+      "host_a": "iea.org",
+      "host_b": "weforum.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "blogs.worldbank.org",
+      "host_b": "reproducibility.worldbank.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "thedocs.worldbank.org",
+      "host_b": "worldbank.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "ideas.repec.org",
+      "host_b": "worldbank.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "bea.gov",
+      "host_b": "imf.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "federalreserve.gov",
+      "host_b": "imf.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "federalreserve.gov",
+      "host_b": "worldbank.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "data.hrsa.gov",
+      "host_b": "www2.census.gov",
+      "record_count": 3
+    },
+    {
+      "host_a": "cdc.gov",
+      "host_b": "data.cdc.gov",
+      "record_count": 3
+    },
+    {
+      "host_a": "gao.gov",
+      "host_b": "media.bis.gov",
+      "record_count": 3
+    },
+    {
+      "host_a": "bls.gov",
+      "host_b": "files.gao.gov",
+      "record_count": 3
+    },
+    {
+      "host_a": "cbo.gov",
+      "host_b": "fhfa.gov",
+      "record_count": 3
+    },
+    {
+      "host_a": "cdn.www.census.gov",
+      "host_b": "census.gov",
+      "record_count": 3
+    },
+    {
+      "host_a": "consumerfinance.gov",
+      "host_b": "nber.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "gxt.hunan.gov.cn",
+      "host_b": "static.cninfo.com.cn",
+      "record_count": 3
+    },
+    {
+      "host_a": "ftc.gov",
+      "host_b": "pewresearch.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "fna.usda.gov",
+      "host_b": "urban.org",
+      "record_count": 3
+    },
+    {
+      "host_a": "ftc.gov",
+      "host_b": "nber.org",
+      "record_count": 3
+    }
+  ],
+  "shared_host_pair_limit": 100,
+  "boundary": "A shared host can represent one publisher, multiple publishers, a distributor, or a common upstream dataset. Host diversity and overlap are lineage diagnostics only; they do not prove independent confirmation or clear rights.",
+  "next_action": "Review high-volume shared hosts and source ownership at artifact level before treating cross-record or cross-theme repetition as independent evidence."
+}

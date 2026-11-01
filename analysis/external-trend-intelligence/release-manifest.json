@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "42d2e65a193d8be487be569e3432ea7809b9f82a",
-  "artifact_count": 130,
+  "source_tree_commit": "5939e1907ef5b353c367e087f28a178870adf07e",
+  "artifact_count": 131,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -66,8 +66,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 8914,
-      "sha256": "b51b920d2c27b346e09b66db4716732448a458db9c57e6dbfcf36ae0088d427d"
+      "bytes": 9087,
+      "sha256": "1186f9ea1d67950738f5e0da992616b12b1e90f4bfaf7d2ae3e5709d463cf50e"
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
@@ -157,7 +157,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "cca23ecc837cb2d7f2f939d8b4bea97af473bcef291ba6545cff1f0c7308445f"
+      "sha256": "8776e65c64ebf05902519817d97827ba436fdcf73004ca20e2c6d0d43a6e5df8"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -263,6 +263,11 @@
       "path": "analysis/external-trend-intelligence/record-quality-remediation-queue.json",
       "bytes": 567,
       "sha256": "345a1e6dca9b7e86cb506cc1250f63412dee55b683b8c4031f84ec07bc90f8df"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/record-host-dependence-audit.json",
+      "bytes": 64233,
+      "sha256": "83a7d4cccfb5f47895b4219f702f41c7a00939cee4f5efcf0b095076675229b1"
     },
     {
       "path": "analysis/external-trend-intelligence/theme-coverage-audit.json",
@@ -631,8 +636,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 85742,
-      "sha256": "4dc7364978f49caa87411152d4419a3bf78400f0856234f249b49ce248c2e2e6"
+      "bytes": 86084,
+      "sha256": "82130fcb048e5c9f9c9d3181a9ee8997afde619abd8547831bee1424de03db2c"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",
