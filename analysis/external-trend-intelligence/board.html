@@ -387,8 +387,11 @@
       const question = document.createElement('p'); question.innerHTML = `<strong>Decision question:</strong> ${pilot.decision_question}`;
       const gate = document.createElement('p'); gate.innerHTML = `<strong>External gate:</strong> ${pilot.external_gate.current_status}; blockers: ${pilot.external_gate.current_blockers.join('; ')}`;
       const checks = document.createElement('p'); checks.innerHTML = `<strong>Readiness:</strong> ${readiness ? readiness.readiness_status.replaceAll('_', ' ') : 'not loaded'}; blocking checks: ${readiness ? readiness.blocking_check_ids.join(', ') : '—'}`;
+      const separation = document.createElement('p');
+      const checkById = readiness ? Object.fromEntries(readiness.checks.map(check => [check.id, check.status])) : {};
+      separation.innerHTML = `<strong>Gate separation:</strong> external qualification ${checkById.external_qualification || '—'} · external rights reuse ${checkById.external_rights_reuse || '—'} · company access ${checkById.company_decision_contract || '—'}`;
       const next = document.createElement('p'); next.innerHTML = `<strong>Next action:</strong> ${pilot.next_action}`;
-      article.append(pill, title, question, gate, checks, next); return article;
+      article.append(pill, title, question, gate, checks, separation, next); return article;
     }
     function monitoringCard(trend) {
       const article = document.createElement('article');
