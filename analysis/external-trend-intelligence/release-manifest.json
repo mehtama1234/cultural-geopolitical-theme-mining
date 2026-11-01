@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "dd126ecd0a399d19f159e16675147855a9d2de35",
+  "source_tree_commit": "0dad3cd79e8390b58f95b6acb8588951ff7c348b",
   "artifact_count": 159,
   "artifacts": [
     {
@@ -516,8 +516,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-outcome-acquisition-queue.json",
-      "bytes": 100625,
-      "sha256": "4ecb5f718bd178dd5aaa48eb2d190b8b5452525def57be95e6239e3333ce117b"
+      "bytes": 100369,
+      "sha256": "cc91601b5e562d643830e97e4fdf0bf0939ead47ac0615f29ee29370b5e3dff7"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-community-food-outcome-linkage-review.json",

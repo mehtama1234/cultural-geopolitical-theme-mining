@@ -5,8 +5,9 @@
   "status": "outcome_acquisition_queue_ready",
   "candidate_count": 47,
   "with_outcome_candidate_count": 38,
-  "unacquired_count": 47,
-  "selection_rule": "rank claims with named outcome candidates first, then high-priority claims and source-host diversity; retain all rows as unacquired until an official artifact is reviewed",
+  "unacquired_count": 46,
+  "acquired_context_count": 1,
+  "selection_rule": "rank claims with named outcome candidates first, then high-priority claims and source-host diversity; acquired context remains blocked until scope and lineage review",
   "review_owner_role": "evidence analyst with lineage reviewer support",
   "promotion_boundary": "An outcome candidate is a discovery lead, not an observation. No claim is promoted or bridged to company data from this queue alone.",
   "next_action": "Assign the top-ranked candidates, acquire official outcome artifacts, and complete the required fields before any IBIS finding promotion.",
@@ -54,7 +55,7 @@
         "wait time"
       ],
       "outcome_candidate_count": 28,
-      "acquisition_status": "candidate_outcome_not_acquired",
+      "acquisition_status": "official_context_acquired_scope_review_pending",
       "required_fields": [
         "canonical publisher and exact artifact",
         "outcome definition, unit, denominator, population, geography, and period",
@@ -64,7 +65,8 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact.",
+      "acquired_artifact": "ibis-community-food-outcome-linkage-review.json"
     },
     {
       "acquisition_rank": 2,
@@ -130,7 +132,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 3,
@@ -181,7 +183,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 4,
@@ -239,7 +241,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 5,
@@ -296,7 +298,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 6,
@@ -354,7 +356,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 7,
@@ -385,7 +387,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 8,
@@ -431,7 +433,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 9,
@@ -462,7 +464,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 10,
@@ -518,7 +520,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 11,
@@ -568,7 +570,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 12,
@@ -622,7 +624,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 13,
@@ -683,7 +685,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 14,
@@ -747,7 +749,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 15,
@@ -815,7 +817,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 16,
@@ -881,7 +883,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 17,
@@ -933,7 +935,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 18,
@@ -985,7 +987,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 19,
@@ -1050,7 +1052,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 20,
@@ -1116,7 +1118,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 21,
@@ -1175,7 +1177,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 22,
@@ -1240,7 +1242,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 23,
@@ -1296,7 +1298,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 24,
@@ -1355,7 +1357,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 25,
@@ -1415,7 +1417,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 26,
@@ -1482,7 +1484,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 27,
@@ -1549,7 +1551,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 28,
@@ -1594,7 +1596,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 29,
@@ -1652,7 +1654,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 30,
@@ -1702,7 +1704,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 31,
@@ -1751,7 +1753,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 32,
@@ -1810,7 +1812,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 33,
@@ -1869,7 +1871,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 34,
@@ -1931,7 +1933,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 35,
@@ -1989,7 +1991,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 36,
@@ -2051,7 +2053,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 37,
@@ -2108,7 +2110,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 38,
@@ -2174,7 +2176,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 39,
@@ -2199,7 +2201,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 40,
@@ -2224,7 +2226,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 41,
@@ -2249,7 +2251,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 42,
@@ -2274,7 +2276,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 43,
@@ -2299,7 +2301,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 44,
@@ -2324,7 +2326,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 45,
@@ -2349,7 +2351,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 46,
@@ -2374,7 +2376,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     },
     {
       "acquisition_rank": 47,
@@ -2399,7 +2401,7 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Select one candidate outcome, acquire the official artifact, preserve its metadata and checksum, and reconcile its unit and period with the claim."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
     }
   ]
 }

@@ -360,9 +360,10 @@ def main() -> int:
     assert ibis_outcomes["schema"] == "external-trend-intelligence.ibis-outcome-acquisition-queue.v1"
     assert ibis_outcomes["status"] == "outcome_acquisition_queue_ready"
     assert ibis_outcomes["candidate_count"] == len(ibis_outcomes["rows"]) == ibis_queue["candidate_count"]
-    assert ibis_outcomes["unacquired_count"] == ibis_outcomes["candidate_count"]
+    assert ibis_outcomes["unacquired_count"] + ibis_outcomes["acquired_context_count"] == ibis_outcomes["candidate_count"]
     assert ibis_outcomes["with_outcome_candidate_count"] == sum(bool(row["outcome_candidate_count"]) for row in ibis_outcomes["rows"])
-    assert all(row["acquisition_status"] == "candidate_outcome_not_acquired" for row in ibis_outcomes["rows"])
+    assert ibis_outcomes["acquired_context_count"] == sum(row["acquisition_status"] == "official_context_acquired_scope_review_pending" for row in ibis_outcomes["rows"])
+    assert all(row["acquisition_status"] in {"candidate_outcome_not_acquired", "official_context_acquired_scope_review_pending"} for row in ibis_outcomes["rows"])
     assert all(row["required_fields"] and row["stop_rule"] and row["next_action"] for row in ibis_outcomes["rows"])
     ibis_linkage = json.loads((ANALYSIS / "ibis-community-food-outcome-linkage-review.json").read_text())
     assert ibis_linkage["schema"] == "external-trend-intelligence.ibis-community-food-outcome-linkage-review.v1"
