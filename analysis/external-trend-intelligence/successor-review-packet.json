@@ -23,7 +23,7 @@
     {
       "task_id": "full_refresh_reproduction",
       "owner_role": "release_owner",
-      "instruction": "Run scripts/refresh_external_observatory.py from a clean checkout and preserve the terminal 100-step output.",
+      "instruction": "Run scripts/refresh_external_observatory.py from a clean checkout and preserve the terminal output showing every configured refresh step passed.",
       "evidence_required": [
         "refresh-history.json",
         "release-manifest.json",

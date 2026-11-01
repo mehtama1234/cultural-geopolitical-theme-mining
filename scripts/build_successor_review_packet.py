@@ -38,7 +38,7 @@ def main() -> int:
             {
                 "task_id": "full_refresh_reproduction",
                 "owner_role": "release_owner",
-                "instruction": "Run scripts/refresh_external_observatory.py from a clean checkout and preserve the terminal 100-step output.",
+            "instruction": "Run scripts/refresh_external_observatory.py from a clean checkout and preserve the terminal output showing every configured refresh step passed.",
                 "evidence_required": ["refresh-history.json", "release-manifest.json", "validate_external_trend_intelligence.py", "smoke_test_external_board.py"],
                 "stop_rule": "Stop and retain the prior release if any step fails, a rights gate changes unexpectedly, or the frontend smoke test is not HTTP 200.",
                 "assignee": None,

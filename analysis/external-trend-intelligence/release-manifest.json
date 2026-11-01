@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "bcf2ed4042d0bb9e9454f1fae92640e2d95809d2",
+  "source_tree_commit": "0117a04ec2e2395b0b215f57441f1c47bc3bb6fc",
   "artifact_count": 148,
   "artifacts": [
     {
@@ -52,7 +52,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1003,
-      "sha256": "668d229f2d91944cf3f364a000d289ebd9fd504f711ceb73b9f6bc028ae50e46"
+      "sha256": "91db1fc316efd69600ac9dad32651ee662a8666e5472d026b948260c4e360480"
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
@@ -61,8 +61,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
-      "bytes": 3412,
-      "sha256": "939bae6d42b245ea042c06fca92ecef5a865de3e1c151232f586f57f5f490628"
+      "bytes": 3448,
+      "sha256": "5a886c9782b818bad126efe8e3bc093713d379dfb76fb0a0d259bfe179f0516d"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
