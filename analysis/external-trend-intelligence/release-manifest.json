@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "ea9171aa93fe1de95cd4fe86aa8318715e62c436",
+  "source_tree_commit": "0bf0948a0e971ea89d582eb1e669b5a7375b49b7",
   "artifact_count": 96,
   "artifacts": [
     {
@@ -61,8 +61,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 3595,
-      "sha256": "825ed6e22c38904c8f2316a49b0422df66401b52ba5a9acd61598a745cd921c5"
+      "bytes": 3765,
+      "sha256": "c7971fae1b6d3cb6eab863a15ee68bbfeac93a2c28f57aeb7780518ab0ca1541"
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
@@ -466,8 +466,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 65929,
-      "sha256": "80be7b352d82d8907168dc73f3f4bead037643628eee47eb9c14b3a36fe9a845"
+      "bytes": 67043,
+      "sha256": "d163299e08b7c007c1f63d20ea2c118ea99b9f0c6ff2d5df799ce1780c2c4c6f"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",

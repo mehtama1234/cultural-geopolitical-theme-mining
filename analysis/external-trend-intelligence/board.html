@@ -277,6 +277,7 @@
     <section style="margin-top:28px">
       <h2>IBIS bounded outcome review</h2>
       <p class="muted">One industry is paired with dated CDC capacity measures and a CMS Medicaid rate measure. The comparison is descriptive and mechanism-level, not a qualified trend or company finding.</p>
+      <div class="panel" style="margin:12px 0"><h3>Separate measure changes</h3><div id="ibis-outcome-chart"></div></div>
       <div class="promotion-gates" id="ibis-outcome-review"></div>
     </section>
     <footer>Serve this directory over HTTP to load the JSON manifests. Source records remain authoritative; this board is a reader. Release: <code id="release-commit">—</code></footer>
@@ -315,6 +316,19 @@
         const fill = document.createElement('span'); fill.className = 'fill'; fill.style.width = `${Math.max(2, Math.min(100, Math.abs(row.change) * 10))}%`; track.append(fill);
         const value = document.createElement('strong'); value.textContent = `${row.change > 0 ? '+' : ''}${row.change}`;
         item.append(label, track, value); target.append(item);
+      });
+    }
+    function outcomeChangeChart(target, changes) {
+      target.replaceChildren();
+      const entries = Object.entries(changes).filter(([, value]) => typeof value === 'number');
+      const max = Math.max(...entries.map(([, value]) => Math.abs(value)), 1);
+      entries.forEach(([label, value]) => {
+        const row = document.createElement('div'); row.className = 'bar-row';
+        const name = document.createElement('span'); name.textContent = label.replaceAll('_', ' ');
+        const track = document.createElement('span'); track.className = 'track';
+        const fill = document.createElement('span'); fill.className = 'fill'; fill.style.width = `${Math.max(2, Math.abs(value) / max * 100)}%`; track.append(fill);
+        const count = document.createElement('strong'); count.textContent = `${value > 0 ? '+' : ''}${value}%`;
+        row.append(name, track, count); target.append(row);
       });
     }
     function candidateCard(candidate) {
@@ -689,6 +703,7 @@
         });
       });
       fetch('ibis-adult-day-outcome-review.json').then(r => r.json()).then(review => {
+        outcomeChangeChart(el('ibis-outcome-chart'), review.derived_changes);
         el('ibis-outcome-review').append(ibisOutcomeCard(review));
       });
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
