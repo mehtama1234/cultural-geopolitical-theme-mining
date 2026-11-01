@@ -648,6 +648,10 @@
       });
       fetch('open-gate-register.json').then(r => r.json()).then(register => {
         el('goal-audit').append(card('Open-gate register', `${register.critical_gate_count} critical gates`, `${register.total_open_work_items.toLocaleString()} open work items across ${register.gate_count} gates · ${register.next_action}`));
+        register.gates.forEach(gate => {
+          const priority = gate.priority === 'critical' ? 'critical' : gate.priority === 'high' ? 'high priority' : 'normal';
+          el('goal-audit').append(card(`${gate.gate_id.replaceAll('_', ' ')} · ${gate.open_count} open`, `${priority} · ${gate.status.replaceAll('_', ' ')}`, `Owner: ${gate.owner}. Acceptance: ${gate.acceptance}`));
+        });
       });
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
       const qualificationCards = el('qualification-matrix'); qualificationMatrix.rows.forEach(row => qualificationCards.append(qualificationCard(row)));

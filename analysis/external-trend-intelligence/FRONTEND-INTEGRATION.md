@@ -14,7 +14,7 @@ blockers.
 | Record quality remediation | `record-quality-remediation-queue.json` | prioritized records missing counter-signals or retrieval hashes, acceptance criteria, and fail-closed boundary |
 | Host dependence audit | `record-host-dependence-audit.json` | full-inventory shared-host counts, host/theme coverage, co-occurring host pairs, and independence boundary |
 | Host dependence review queue | `host-dependence-review-queue.json` | prioritized shared-host lineage tasks, review questions, acceptance criteria, and unassigned status |
-| Open-gate register | `open-gate-register.json` | consolidated rights, independence, qualification, backtest, pilot, ownership, and continuity work with priority and acceptance criteria |
+| Open-gate register | `open-gate-register.json` | consolidated rights, independence, qualification, backtest, pilot, ownership, and continuity work; the board renders each gate's open count, priority, owner, status, and acceptance criteria |
 | Compatible-measure search | `compatible-measure-search.json` | scanned record count, candidate measure/unit groups, hosts, periods, review boundary |
 | Global forecast comparison | `global-growth-forecast-comparison.json` | publisher, forecast period, value, spread, vintage/uncertainty boundary, backtest next action |
 | Forecast lineage review | `forecast-lineage-review.json` | source host, publisher-distinct check, vintage/rights/uncertainty/outcome review status, boundary |
