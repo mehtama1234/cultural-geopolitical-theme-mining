@@ -67,6 +67,7 @@ blockers.
 | Release banner | `release-health.json`, `release-manifest.json` | release status, blockers, source commit, artifact count |
 | Publication registry | `frontend-publication-registry.json` | every reader-facing chart/narrative's period, unit, geography, denominator/scope, uncertainty, counter-signal, evidence boundary, and company gate |
 | Observatory chart catalog | `observatory-chart-catalog.json` | chart theme, subtheme, concept, visual encoding, source artifacts, required caveats, and frontend boundary for each reusable chart contract |
+| Frontend publication review | `frontend-publication-review-packet.json` | one review row per chart, chart-level metadata declarations, missing-field list, reviewer/disposition fields, and explicit `review_required` status before a chart can be called decision-ready |
 | Ownership queue | `ownership-assignment-queue.json` | assigned/unassigned roles, assignment SLA, backup activation, escalation path, and acceptance evidence |
 
 ## Status semantics
@@ -88,6 +89,17 @@ traceable to a release-manifest artifact, and every chart or narrative must
 retain its period, unit, geography, denominator or scope, uncertainty,
 counter-signal, and evidence boundary. Internal company exposure is not a
 frontend join; it requires the separate bridge contract after qualification.
+
+## Publication handoff
+
+The chart catalog is the reusable design contract; the publication review packet
+is the implementation handoff. A frontend page should not promote a chart from
+`review_required` until a reviewer has mapped each required field to a visible
+label, tooltip, or accessible description. The first qualified food-security
+chart demonstrates the intended pattern: its holdout visual is accompanied by a
+metadata card containing period, unit, geography, denominator, uncertainty,
+counter-signal, evidence boundary, and company gate. Held candidates may be
+shown for monitoring, but must retain their held status and blockers.
 
 ## Runtime check
 
