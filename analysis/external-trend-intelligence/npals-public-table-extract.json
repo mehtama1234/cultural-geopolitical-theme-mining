@@ -1,0 +1,1449 @@
+{
+  "schema": "external-trend-intelligence.npals-public-table-extract.v1",
+  "source_id": "cdc-npals-public-biennial-overview-wibz-pb5q",
+  "source_url": "https://data.cdc.gov/National-Center-for-Health-Statistics/Biennial-Overview-of-Post-acute-and-Long-term-Care/wibz-pb5q",
+  "api_url": "https://data.cdc.gov/resource/wibz-pb5q.json?%24where=%28survey_year%3D%272020%27+OR+survey_year%3D%272022%27+OR+survey_year%3D%272025%27%29+AND+%28select_setting%3D%27Adult+Day+Services+Center%27+OR+select_setting%3D%27Adult+day+services+center%27%29+AND+select_measure+in%28%27Number+of+providers%27%2C%27Number+of+people+served%27%2C%27Capacity%27%29+AND+value_type%3D%27Number%27&%24limit=5000",
+  "retrieved_at": "2026-11-01T01:35:35.769835+00:00",
+  "raw_row_count": 270,
+  "numeric_row_count": 141,
+  "state_2020_row_count": 132,
+  "state_2020_geography_count": 44,
+  "state_2020_frame_geography_count": 52,
+  "national_row_count": 9,
+  "rows": [
+    {
+      "survey_year": 2020,
+      "geography": "Alabama",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 690.0,
+      "standard_error": 100.0,
+      "low_95_ci": 490.0,
+      "high_95_ci": 900.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Alabama",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 23.0,
+      "standard_error": 3.0,
+      "low_95_ci": 18.0,
+      "high_95_ci": 29.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Alabama",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 10.0,
+      "standard_error": 0.0,
+      "low_95_ci": 10.0,
+      "high_95_ci": 10.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Alaska",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 460.0,
+      "standard_error": 40.0,
+      "low_95_ci": 370.0,
+      "high_95_ci": 540.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Alaska",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 66.0,
+      "standard_error": 37.0,
+      "low_95_ci": -7.0,
+      "high_95_ci": 140.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Alaska",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 10.0,
+      "standard_error": 0.0,
+      "low_95_ci": 10.0,
+      "high_95_ci": 10.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Arizona",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 660.0,
+      "standard_error": 80.0,
+      "low_95_ci": 510.0,
+      "high_95_ci": 820.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Arizona",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 19.0,
+      "standard_error": 2.0,
+      "low_95_ci": 15.0,
+      "high_95_ci": 23.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Arizona",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Arkansas",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 1100.0,
+      "standard_error": 290.0,
+      "low_95_ci": 490.0,
+      "high_95_ci": 1600.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Arkansas",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 13.0,
+      "standard_error": 5.0,
+      "low_95_ci": 3.0,
+      "high_95_ci": 24.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Arkansas",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "California",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 89500.0,
+      "standard_error": 2500.0,
+      "low_95_ci": 84600.0,
+      "high_95_ci": 94300.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "California",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 64.0,
+      "standard_error": 3.0,
+      "low_95_ci": 58.0,
+      "high_95_ci": 69.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "California",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 1100.0,
+      "standard_error": 0.0,
+      "low_95_ci": 1100.0,
+      "high_95_ci": 1100.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Colorado",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 4200.0,
+      "standard_error": 490.0,
+      "low_95_ci": 3300.0,
+      "high_95_ci": 5200.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Colorado",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 21.0,
+      "standard_error": 3.0,
+      "low_95_ci": 15.0,
+      "high_95_ci": 27.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Colorado",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 70.0,
+      "standard_error": 0.0,
+      "low_95_ci": 70.0,
+      "high_95_ci": 70.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Connecticut",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 1700.0,
+      "standard_error": 270.0,
+      "low_95_ci": 1200.0,
+      "high_95_ci": 2200.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Connecticut",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 27.0,
+      "standard_error": 5.0,
+      "low_95_ci": 18.0,
+      "high_95_ci": 36.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Connecticut",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 30.0,
+      "standard_error": 0.0,
+      "low_95_ci": 30.0,
+      "high_95_ci": 30.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Delaware",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 1300.0,
+      "standard_error": 120.0,
+      "low_95_ci": 1100.0,
+      "high_95_ci": 1500.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Delaware",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 26.0,
+      "standard_error": 5.0,
+      "low_95_ci": 17.0,
+      "high_95_ci": 36.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Delaware",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Florida",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 14300.0,
+      "standard_error": 650.0,
+      "low_95_ci": 13000.0,
+      "high_95_ci": 15600.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Florida",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 20.0,
+      "standard_error": 1.0,
+      "low_95_ci": 17.0,
+      "high_95_ci": 22.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Florida",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 260.0,
+      "standard_error": 0.0,
+      "low_95_ci": 260.0,
+      "high_95_ci": 260.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Georgia",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 9200.0,
+      "standard_error": 1400.0,
+      "low_95_ci": 6400.0,
+      "high_95_ci": 11900.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Georgia",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 23.0,
+      "standard_error": 2.0,
+      "low_95_ci": 18.0,
+      "high_95_ci": 27.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Georgia",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 130.0,
+      "standard_error": 0.0,
+      "low_95_ci": 130.0,
+      "high_95_ci": 130.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Hawaii",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 2800.0,
+      "standard_error": 360.0,
+      "low_95_ci": 2100.0,
+      "high_95_ci": 3400.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Hawaii",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 21.0,
+      "standard_error": 2.0,
+      "low_95_ci": 18.0,
+      "high_95_ci": 25.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Hawaii",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 60.0,
+      "standard_error": 0.0,
+      "low_95_ci": 60.0,
+      "high_95_ci": 60.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Idaho",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 1200.0,
+      "standard_error": 330.0,
+      "low_95_ci": 580.0,
+      "high_95_ci": 1900.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Idaho",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 31.0,
+      "standard_error": 12.0,
+      "low_95_ci": 7.0,
+      "high_95_ci": 54.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Idaho",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 10.0,
+      "standard_error": 0.0,
+      "low_95_ci": 10.0,
+      "high_95_ci": 10.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Illinois",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 4100.0,
+      "standard_error": 630.0,
+      "low_95_ci": 2800.0,
+      "high_95_ci": 5300.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Illinois",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 30.0,
+      "standard_error": 8.0,
+      "low_95_ci": 16.0,
+      "high_95_ci": 45.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Illinois",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 60.0,
+      "standard_error": 0.0,
+      "low_95_ci": 60.0,
+      "high_95_ci": 60.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Indiana",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 2100.0,
+      "standard_error": 130.0,
+      "low_95_ci": 1800.0,
+      "high_95_ci": 2300.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Indiana",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 30.0,
+      "standard_error": 4.0,
+      "low_95_ci": 23.0,
+      "high_95_ci": 38.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Indiana",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 50.0,
+      "standard_error": 0.0,
+      "low_95_ci": 50.0,
+      "high_95_ci": 50.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Iowa",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 1100.0,
+      "standard_error": 100.0,
+      "low_95_ci": 910.0,
+      "high_95_ci": 1300.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Iowa",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 19.0,
+      "standard_error": 2.0,
+      "low_95_ci": 15.0,
+      "high_95_ci": 22.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Iowa",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Kansas",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 440.0,
+      "standard_error": 130.0,
+      "low_95_ci": 190.0,
+      "high_95_ci": 700.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Kansas",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 21.0,
+      "standard_error": 5.0,
+      "low_95_ci": 11.0,
+      "high_95_ci": 30.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Kansas",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 10.0,
+      "standard_error": 0.0,
+      "low_95_ci": 10.0,
+      "high_95_ci": 10.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Kentucky",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 5100.0,
+      "standard_error": 450.0,
+      "low_95_ci": 4200.0,
+      "high_95_ci": 5900.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Kentucky",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 26.0,
+      "standard_error": 4.0,
+      "low_95_ci": 19.0,
+      "high_95_ci": 33.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Kentucky",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 80.0,
+      "standard_error": 0.0,
+      "low_95_ci": 80.0,
+      "high_95_ci": 80.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Louisiana",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 1300.0,
+      "standard_error": 290.0,
+      "low_95_ci": 760.0,
+      "high_95_ci": 1900.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Louisiana",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 19.0,
+      "standard_error": 3.0,
+      "low_95_ci": 13.0,
+      "high_95_ci": 25.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Louisiana",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 30.0,
+      "standard_error": 0.0,
+      "low_95_ci": 30.0,
+      "high_95_ci": 30.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Maine",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 530.0,
+      "standard_error": 80.0,
+      "low_95_ci": 380.0,
+      "high_95_ci": 680.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Maine",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 10.0,
+      "standard_error": 4.0,
+      "low_95_ci": 3.0,
+      "high_95_ci": 17.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Maine",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Maryland",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 9500.0,
+      "standard_error": 540.0,
+      "low_95_ci": 8400.0,
+      "high_95_ci": 10500.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Maryland",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 61.0,
+      "standard_error": 4.0,
+      "low_95_ci": 52.0,
+      "high_95_ci": 70.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Maryland",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 110.0,
+      "standard_error": 0.0,
+      "low_95_ci": 110.0,
+      "high_95_ci": 110.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Massachusetts",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 7000.0,
+      "standard_error": 680.0,
+      "low_95_ci": 5700.0,
+      "high_95_ci": 8400.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Massachusetts",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 39.0,
+      "standard_error": 5.0,
+      "low_95_ci": 29.0,
+      "high_95_ci": 50.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Massachusetts",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 100.0,
+      "standard_error": 0.0,
+      "low_95_ci": 100.0,
+      "high_95_ci": 100.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Michigan",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 3100.0,
+      "standard_error": 460.0,
+      "low_95_ci": 2300.0,
+      "high_95_ci": 4000.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Michigan",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 28.0,
+      "standard_error": 5.0,
+      "low_95_ci": 18.0,
+      "high_95_ci": 39.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Michigan",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 60.0,
+      "standard_error": 0.0,
+      "low_95_ci": 60.0,
+      "high_95_ci": 60.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Minnesota",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 4700.0,
+      "standard_error": 480.0,
+      "low_95_ci": 3800.0,
+      "high_95_ci": 5700.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Minnesota",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 27.0,
+      "standard_error": 4.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 34.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Minnesota",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 90.0,
+      "standard_error": 0.0,
+      "low_95_ci": 90.0,
+      "high_95_ci": 90.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Mississippi",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 2900.0,
+      "standard_error": 260.0,
+      "low_95_ci": 2400.0,
+      "high_95_ci": 3400.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Mississippi",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 16.0,
+      "standard_error": 2.0,
+      "low_95_ci": 13.0,
+      "high_95_ci": 19.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Mississippi",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 60.0,
+      "standard_error": 0.0,
+      "low_95_ci": 60.0,
+      "high_95_ci": 60.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Missouri",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 4300.0,
+      "standard_error": 230.0,
+      "low_95_ci": 3800.0,
+      "high_95_ci": 4700.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Missouri",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 14.0,
+      "standard_error": 1.0,
+      "low_95_ci": 13.0,
+      "high_95_ci": 16.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Missouri",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 100.0,
+      "standard_error": 0.0,
+      "low_95_ci": 100.0,
+      "high_95_ci": 100.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "National",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 294000.0,
+      "standard_error": 4100.0,
+      "low_95_ci": 285900.0,
+      "high_95_ci": 302200.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "National",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 40.0,
+      "standard_error": 1.0,
+      "low_95_ci": 38.0,
+      "high_95_ci": 42.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "National",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 4100.0,
+      "standard_error": 0.0,
+      "low_95_ci": 4100.0,
+      "high_95_ci": 4100.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Nebraska",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 860.0,
+      "standard_error": 200.0,
+      "low_95_ci": 460.0,
+      "high_95_ci": 1300.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Nebraska",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 33.0,
+      "standard_error": 7.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 46.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Nebraska",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Nevada",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 2300.0,
+      "standard_error": 280.0,
+      "low_95_ci": 1700.0,
+      "high_95_ci": 2800.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Nevada",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 35.0,
+      "standard_error": 6.0,
+      "low_95_ci": 24.0,
+      "high_95_ci": 46.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Nevada",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "New Jersey",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 19300.0,
+      "standard_error": 1000.0,
+      "low_95_ci": 17300.0,
+      "high_95_ci": 21300.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "New Jersey",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 87.0,
+      "standard_error": 7.0,
+      "low_95_ci": 74.0,
+      "high_95_ci": 100.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "New Jersey",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 150.0,
+      "standard_error": 0.0,
+      "low_95_ci": 150.0,
+      "high_95_ci": 150.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "New Mexico",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 2100.0,
+      "standard_error": 220.0,
+      "low_95_ci": 1700.0,
+      "high_95_ci": 2500.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "New Mexico",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 20.0,
+      "standard_error": 3.0,
+      "low_95_ci": 14.0,
+      "high_95_ci": 26.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "New Mexico",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 70.0,
+      "standard_error": 0.0,
+      "low_95_ci": 70.0,
+      "high_95_ci": 70.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "New York",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 11600.0,
+      "standard_error": 1100.0,
+      "low_95_ci": 9400.0,
+      "high_95_ci": 13800.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "New York",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 35.0,
+      "standard_error": 4.0,
+      "low_95_ci": 28.0,
+      "high_95_ci": 42.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "New York",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 180.0,
+      "standard_error": 0.0,
+      "low_95_ci": 180.0,
+      "high_95_ci": 180.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "North Carolina",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 4300.0,
+      "standard_error": 240.0,
+      "low_95_ci": 3800.0,
+      "high_95_ci": 4700.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "North Carolina",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 25.0,
+      "standard_error": 3.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 30.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "North Carolina",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 80.0,
+      "standard_error": 0.0,
+      "low_95_ci": 80.0,
+      "high_95_ci": 80.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "North Dakota",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 560.0,
+      "standard_error": 230.0,
+      "low_95_ci": 120.0,
+      "high_95_ci": 1000.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "North Dakota",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 20.0,
+      "standard_error": 4.0,
+      "low_95_ci": 13.0,
+      "high_95_ci": 27.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "North Dakota",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Ohio",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 3100.0,
+      "standard_error": 390.0,
+      "low_95_ci": 2300.0,
+      "high_95_ci": 3900.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Ohio",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 16.0,
+      "standard_error": 2.0,
+      "low_95_ci": 12.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Ohio",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 60.0,
+      "standard_error": 0.0,
+      "low_95_ci": 60.0,
+      "high_95_ci": 60.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Oklahoma",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 1700.0,
+      "standard_error": 250.0,
+      "low_95_ci": 1200.0,
+      "high_95_ci": 2200.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Oklahoma",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 25.0,
+      "standard_error": 5.0,
+      "low_95_ci": 15.0,
+      "high_95_ci": 34.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Oklahoma",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Oregon",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 400.0,
+      "standard_error": 70.0,
+      "low_95_ci": 270.0,
+      "high_95_ci": 540.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Oregon",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 8.0,
+      "standard_error": 2.0,
+      "low_95_ci": 5.0,
+      "high_95_ci": 11.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Oregon",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 10.0,
+      "standard_error": 0.0,
+      "low_95_ci": 10.0,
+      "high_95_ci": 10.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Pennsylvania",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 16600.0,
+      "standard_error": 1100.0,
+      "low_95_ci": 14400.0,
+      "high_95_ci": 18700.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Pennsylvania",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 28.0,
+      "standard_error": 2.0,
+      "low_95_ci": 23.0,
+      "high_95_ci": 33.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Pennsylvania",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 240.0,
+      "standard_error": 0.0,
+      "low_95_ci": 240.0,
+      "high_95_ci": 240.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Rhode Island",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 1300.0,
+      "standard_error": 130.0,
+      "low_95_ci": 1100.0,
+      "high_95_ci": 1600.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Rhode Island",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 22.0,
+      "standard_error": 5.0,
+      "low_95_ci": 12.0,
+      "high_95_ci": 31.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Rhode Island",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "South Carolina",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 4000.0,
+      "standard_error": 370.0,
+      "low_95_ci": 3300.0,
+      "high_95_ci": 4700.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "South Carolina",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 19.0,
+      "standard_error": 3.0,
+      "low_95_ci": 14.0,
+      "high_95_ci": 24.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "South Carolina",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 80.0,
+      "standard_error": 0.0,
+      "low_95_ci": 80.0,
+      "high_95_ci": 80.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Tennessee",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 1700.0,
+      "standard_error": 230.0,
+      "low_95_ci": 1300.0,
+      "high_95_ci": 2200.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Tennessee",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 16.0,
+      "standard_error": 2.0,
+      "low_95_ci": 12.0,
+      "high_95_ci": 19.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Tennessee",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 30.0,
+      "standard_error": 0.0,
+      "low_95_ci": 30.0,
+      "high_95_ci": 30.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Texas",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 40400.0,
+      "standard_error": 1300.0,
+      "low_95_ci": 37900.0,
+      "high_95_ci": 43000.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Texas",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 50.0,
+      "standard_error": 3.0,
+      "low_95_ci": 45.0,
+      "high_95_ci": 56.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Texas",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 390.0,
+      "standard_error": 0.0,
+      "low_95_ci": 390.0,
+      "high_95_ci": 390.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Vermont",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 540.0,
+      "standard_error": 40.0,
+      "low_95_ci": 460.0,
+      "high_95_ci": 630.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Vermont",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 29.0,
+      "standard_error": 5.0,
+      "low_95_ci": 19.0,
+      "high_95_ci": 40.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Vermont",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 10.0,
+      "standard_error": 0.0,
+      "low_95_ci": 10.0,
+      "high_95_ci": 10.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Virginia",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 3900.0,
+      "standard_error": 300.0,
+      "low_95_ci": 3300.0,
+      "high_95_ci": 4400.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Virginia",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 24.0,
+      "standard_error": 4.0,
+      "low_95_ci": 17.0,
+      "high_95_ci": 31.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Virginia",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 70.0,
+      "standard_error": 0.0,
+      "low_95_ci": 70.0,
+      "high_95_ci": 70.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Washington",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 770.0,
+      "standard_error": 140.0,
+      "low_95_ci": 490.0,
+      "high_95_ci": 1100.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Washington",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 16.0,
+      "standard_error": 2.0,
+      "low_95_ci": 11.0,
+      "high_95_ci": 21.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Washington",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 20.0,
+      "standard_error": 0.0,
+      "low_95_ci": 20.0,
+      "high_95_ci": 20.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Wisconsin",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 3800.0,
+      "standard_error": 550.0,
+      "low_95_ci": 2700.0,
+      "high_95_ci": 4900.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Wisconsin",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 16.0,
+      "standard_error": 2.0,
+      "low_95_ci": 12.0,
+      "high_95_ci": 19.0
+    },
+    {
+      "survey_year": 2020,
+      "geography": "Wisconsin",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 100.0,
+      "standard_error": 0.0,
+      "low_95_ci": 100.0,
+      "high_95_ci": 100.0
+    },
+    {
+      "survey_year": 2022,
+      "geography": "National",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 239100.0,
+      "standard_error": 10600.0,
+      "low_95_ci": 218200.0,
+      "high_95_ci": 260000.0
+    },
+    {
+      "survey_year": 2022,
+      "geography": "National",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 45.0,
+      "standard_error": 3.0,
+      "low_95_ci": 40.0,
+      "high_95_ci": 51.0
+    },
+    {
+      "survey_year": 2022,
+      "geography": "National",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 3100.0,
+      "standard_error": 10.0,
+      "low_95_ci": 3100.0,
+      "high_95_ci": 3100.0
+    },
+    {
+      "survey_year": 2025,
+      "geography": "National",
+      "measure": "Capacity",
+      "level": "Total licensed maximum capacity or total number of beds",
+      "value": 262900.0,
+      "standard_error": 5200.0,
+      "low_95_ci": 252700.0,
+      "high_95_ci": 273200.0
+    },
+    {
+      "survey_year": 2025,
+      "geography": "National",
+      "measure": "Number of people served",
+      "level": "Daily average",
+      "value": 48.0,
+      "standard_error": 1.0,
+      "low_95_ci": 46.0,
+      "high_95_ci": 51.0
+    },
+    {
+      "survey_year": 2025,
+      "geography": "National",
+      "measure": "Number of providers",
+      "level": "Number of providers",
+      "value": 3300.0,
+      "standard_error": 0.0,
+      "low_95_ci": 3300.0,
+      "high_95_ci": 3300.0
+    }
+  ],
+  "reconciliation": {
+    "status": "definition_reconciliation_required",
+    "comparisons": [
+      {
+        "period": 2022,
+        "measure": "adult_day_services_centers",
+        "public_table_value": 3100,
+        "existing_pdf_normalized_value": 3100,
+        "comparison_status": "directionally_aligned_but_definition_and_rounding_review_required"
+      },
+      {
+        "period": 2025,
+        "measure": "adult_day_services_centers",
+        "public_table_value": 3300,
+        "existing_pdf_normalized_value": 4448,
+        "comparison_status": "not_comparable_without_definition_review",
+        "note": "The public table provider-count field and the weighted PDF center estimate do not match; retain both values and do not calculate a growth rate across them."
+      }
+    ],
+    "boundary": "The public table and weighted PDF may use different universes, definitions, or table constructions. This extract is a reconciliation control, not a validated utilization trend."
+  },
+  "rights_boundary": "Retain normalized API observations, query URL, retrieval time, and source metadata; do not redistribute upstream table contents beyond the permitted public-data use.",
+  "next_action": "Map the API table definition and 2025 survey universe to the weighted PDF before using provider, capacity, or attendance changes in qualification.",
+  "normalized_rows_sha256": "09d4a1b2045cfcaf5eb5a1847867149659063d34664fa93d641f094aa71fd83c"
+}

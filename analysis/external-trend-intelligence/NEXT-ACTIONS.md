@@ -66,6 +66,12 @@ a utilization result; do not label policy rates as service utilization.
 The 2025 weighted-estimates PDF is now recorded as national-only public evidence
 with published standard errors; state-level fields still require verified web-
 table/API extraction or separately approved restricted-data access.
+The CDC public table API has now been queried and pinned: it exposes a 2020
+state frame (52 geographies in the raw table, 44 with numeric rows in the
+selected measures) and national 2022/2025 rows. Its 2025 provider value is
+3,300 versus 4,448 in the weighted PDF, so the extract is retained as a
+definition-reconciliation counter-signal and no cross-vintage growth rate is
+calculated.
 
 The forecast comparison now has a separate [forecast lineage review](forecast-lineage-review.json):
 four rows resolve to three publisher hosts, with the repeated UN DESA host

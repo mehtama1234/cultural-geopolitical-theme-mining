@@ -509,6 +509,12 @@ def main() -> int:
     assert public_assessment["cdc_2025_weighted_estimates_pdf"]["public_national_estimates"] is True
     assert public_assessment["cdc_2025_weighted_estimates_pdf"]["standard_errors_published"] is True
     assert public_assessment["cdc_2025_weighted_estimates_pdf"]["state_level_fields_in_this_artifact"] is False
+    npals = json.loads((ANALYSIS / "npals-public-table-extract.json").read_text())
+    assert npals["schema"] == "external-trend-intelligence.npals-public-table-extract.v1"
+    assert npals["numeric_row_count"] == len(npals["rows"]) > 0
+    assert npals["state_2020_frame_geography_count"] >= 50
+    assert npals["reconciliation"]["status"] == "definition_reconciliation_required"
+    assert npals["reconciliation"]["comparisons"][1]["comparison_status"] == "not_comparable_without_definition_review"
     assert ibis_outcome["rights_review"]["release_decision"] == "normalized_values_and_citations_only"
     schedule_health = json.loads((ANALYSIS / "refresh-schedule-health.json").read_text())
     assert schedule_health["schema"] == "external-trend-intelligence.refresh-schedule-health.v1"

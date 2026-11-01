@@ -739,6 +739,10 @@
         const plan = review.outcome_acquisition_plan;
         el('ibis-outcome-review').append(card('Next outcome acquisition', plan.status, `${plan.target_outcome}. Required: ${plan.required_fields.join(', ')} Stop rule: ${plan.stop_rule}`));
       });
+      fetch('npals-public-table-extract.json').then(r => r.json()).then(extract => {
+        const comparison = extract.reconciliation.comparisons[1];
+        el('ibis-outcome-review').append(card('NPALS public table reconciliation', extract.reconciliation.status, `${extract.state_2020_geography_count} 2020 geographies extracted; 2025 provider value ${comparison.public_table_value} versus PDF normalized value ${comparison.existing_pdf_normalized_value}. ${comparison.note}`));
+      });
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
       const controls = new Map(sourceControls.families.map(item => [item.family_id, item]));
       const sourceFamilies = el('source-families'); sourceRegistry.source_families.forEach(family => {
