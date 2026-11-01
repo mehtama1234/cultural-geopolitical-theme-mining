@@ -1,0 +1,257 @@
+{
+  "schema": "external-trend-intelligence.candidate-independence-adjudication-queue.v1",
+  "status": "manual_adjudication_queue_ready",
+  "candidate_count": 5,
+  "high_priority_count": 4,
+  "unassigned_count": 5,
+  "rows": [
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "title": "Formal response arrives before usable recovery",
+      "priority": "high",
+      "review_status": "pending_manual_adjudication",
+      "publisher_or_dataset_candidates": {
+        "fwc.gov.au": 4,
+        "fairwork.gov.au": 1,
+        "gsma.com": 1,
+        "publicnow.com": 1,
+        "kingsfund.org.uk": 1,
+        "natcen.ac.uk": 1
+      },
+      "dependency_group_count": 1,
+      "dependency_groups": [
+        {
+          "group_id": "fair-work-commission-case-family",
+          "record_ids": [
+            "au-al-hussein-reactivation-deemed-work-2025",
+            "au-fwc-khan-platform-repeat-deactivation-2026",
+            "au-mansoor-platform-alternative-earnings-remedy-2025",
+            "comparative-australia-fwc-no-alternative-employment-remedy-2024"
+          ],
+          "classification": "same_publisher_family",
+          "reason": "Four records are Fair Work Commission cases; separate case IDs do not establish independent publisher or population evidence."
+        }
+      ],
+      "unresolved_record_ids": [
+        "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018",
+        "comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust",
+        "bsa43-nhs-waiting-legitimacy-2026"
+      ],
+      "required_evidence": [
+        "canonical publisher and source-family identity",
+        "underlying dataset or event, not only a summary or citation",
+        "population, geography, period, unit, denominator, and outcome",
+        "method overlap or non-overlap with every comparator",
+        "rights and redistribution boundary for the exact artifact",
+        "explicit reason the comparison is independent, dependent, or non-comparable"
+      ],
+      "stop_rule": "Do not count the candidate as independently confirmed when any comparator lacks canonical publisher, underlying dataset, compatible unit, or rights evidence.",
+      "assignee": null,
+      "due_date": null,
+      "disposition": "pending",
+      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "title": "Time and financial pressure reduce practical room before demand disappears",
+      "priority": "high",
+      "review_status": "pending_manual_adjudication",
+      "publisher_or_dataset_candidates": {
+        "abs.gov.au": 2,
+        "dane.gov.co": 1,
+        "eige.europa.eu": 1,
+        "ilo.org": 1,
+        "gov.uk": 1,
+        "roymorgan-cms-prod.s3.ap-southeast-2.amazonaws.com": 1,
+        "roymorgan.com": 1,
+        "4culture.org": 1,
+        "jpmorganchase.com": 1
+      },
+      "dependency_group_count": 2,
+      "dependency_groups": [
+        {
+          "group_id": "abs-general-social-survey",
+          "record_ids": [
+            "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection"
+          ],
+          "classification": "same_survey_family",
+          "reason": "Multiple measures in this record come from one ABS General Social Survey family and are not independent observations."
+        },
+        {
+          "group_id": "jpmorgan-single-endpoint",
+          "record_ids": [
+            "comparative-jpmorgan-household-liquidity-2023"
+          ],
+          "classification": "single_publisher_endpoint",
+          "reason": "JPMorgan is one administrative-data endpoint with a restrictive republication notice; the chart does not expose a numeric table."
+        }
+      ],
+      "unresolved_record_ids": [
+        "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+        "comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration",
+        "comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools",
+        "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+        "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook",
+        "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging"
+      ],
+      "required_evidence": [
+        "canonical publisher and source-family identity",
+        "underlying dataset or event, not only a summary or citation",
+        "population, geography, period, unit, denominator, and outcome",
+        "method overlap or non-overlap with every comparator",
+        "rights and redistribution boundary for the exact artifact",
+        "explicit reason the comparison is independent, dependent, or non-comparable"
+      ],
+      "stop_rule": "Do not count the candidate as independently confirmed when any comparator lacks canonical publisher, underlying dataset, compatible unit, or rights evidence.",
+      "assignee": null,
+      "due_date": null,
+      "disposition": "pending",
+      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "title": "Digital capability expands while control and trust remain contested",
+      "priority": "high",
+      "review_status": "pending_manual_adjudication",
+      "publisher_or_dataset_candidates": {
+        "accenture.com": 1,
+        "assurant.com": 1,
+        "azure-na-assets.contentstack.com": 1,
+        "deloitte.com": 1,
+        "dima.org": 1,
+        "luminatedata.com": 1,
+        "doi.org": 1,
+        "oecd.org": 1,
+        "worldbank.org": 1,
+        "library.hbs.edu": 1,
+        "pubsonline.informs.org": 1,
+        "bcg.com": 1,
+        "cpl.thalesgroup.com": 1
+      },
+      "dependency_group_count": 2,
+      "dependency_groups": [
+        {
+          "group_id": "informs-hbs-study-lineage",
+          "record_ids": [
+            "us-hbs-ai-customer-service-contextual-recourse-2020-2021"
+          ],
+          "classification": "secondary_summary_underlying_study",
+          "reason": "The HBS record summarizes an INFORMS field experiment; a summary and its underlying study must not be counted twice."
+        },
+        {
+          "group_id": "dima-musicwatch-lineage",
+          "record_ids": [
+            "comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai"
+          ],
+          "classification": "secondary_publisher_dependency",
+          "reason": "The DIMA record depends on MusicWatch research and requires claim-level source review."
+        }
+      ],
+      "unresolved_record_ids": [
+        "comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries",
+        "comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership",
+        "comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social",
+        "comparative-oecd-ai-markets-2026-concentration-competition-strategic-advantage",
+        "comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight"
+      ],
+      "required_evidence": [
+        "canonical publisher and source-family identity",
+        "underlying dataset or event, not only a summary or citation",
+        "population, geography, period, unit, denominator, and outcome",
+        "method overlap or non-overlap with every comparator",
+        "rights and redistribution boundary for the exact artifact",
+        "explicit reason the comparison is independent, dependent, or non-comparable"
+      ],
+      "stop_rule": "Do not count the candidate as independently confirmed when any comparator lacks canonical publisher, underlying dataset, compatible unit, or rights evidence.",
+      "assignee": null,
+      "due_date": null,
+      "disposition": "pending",
+      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "title": "Infrastructure dependency becomes cultural and geopolitical power",
+      "priority": "high",
+      "review_status": "pending_manual_adjudication",
+      "publisher_or_dataset_candidates": {
+        "oecd.org": 2,
+        "energy.gov": 1,
+        "ferc.gov": 1,
+        "insidelines.pjm.com": 1,
+        "pjm.com": 1,
+        "uscc.gov": 1,
+        "worldenergy.org": 1,
+        "un.org": 1,
+        "undp.org": 1,
+        "worldbank.org": 1,
+        "doi.org": 1,
+        "irena.org": 1,
+        "documents.worldbank.org": 1,
+        "search.worldbank.org": 1
+      },
+      "dependency_group_count": 1,
+      "dependency_groups": [
+        {
+          "group_id": "pjm-large-load-event",
+          "record_ids": [
+            "us-pjm-large-load-disconnection-response-2026"
+          ],
+          "classification": "single_event_record",
+          "reason": "The PJM material describes one operating event; multiple documents about that event would not be independent replications."
+        }
+      ],
+      "unresolved_record_ids": [
+        "us-uscc-transpacific-undersea-cable-gray-zone-resilience-2026",
+        "comparative-oecd-space-economy-2026-dependencies-sustainability-security",
+        "comparative-africa-sustainable-development-report-2026-water-energy-cities-finance",
+        "comparative-oecd-eu-social-economy-europe-2025-care-housing-delivery",
+        "comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security",
+        "comparative-world-bank-cloud-procurement-public-capability-lockin-2026"
+      ],
+      "required_evidence": [
+        "canonical publisher and source-family identity",
+        "underlying dataset or event, not only a summary or citation",
+        "population, geography, period, unit, denominator, and outcome",
+        "method overlap or non-overlap with every comparator",
+        "rights and redistribution boundary for the exact artifact",
+        "explicit reason the comparison is independent, dependent, or non-comparable"
+      ],
+      "stop_rule": "Do not count the candidate as independently confirmed when any comparator lacks canonical publisher, underlying dataset, compatible unit, or rights evidence.",
+      "assignee": null,
+      "due_date": null,
+      "disposition": "pending",
+      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+    },
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "title": "U.S. food insecurity remains elevated after pandemic support changes",
+      "priority": "standard",
+      "review_status": "pending_manual_adjudication",
+      "publisher_or_dataset_candidates": {
+        "ers.usda.gov": 2,
+        "urban.org": 1
+      },
+      "dependency_group_count": 0,
+      "dependency_groups": [],
+      "unresolved_record_ids": [
+        "comparative-usda-food-security-2022-2024",
+        "us-urban-wbns-food-insecurity-persistence-2019-2025"
+      ],
+      "required_evidence": [
+        "canonical publisher and source-family identity",
+        "underlying dataset or event, not only a summary or citation",
+        "population, geography, period, unit, denominator, and outcome",
+        "method overlap or non-overlap with every comparator",
+        "rights and redistribution boundary for the exact artifact",
+        "explicit reason the comparison is independent, dependent, or non-comparable"
+      ],
+      "stop_rule": "Do not count the candidate as independently confirmed when any comparator lacks canonical publisher, underlying dataset, compatible unit, or rights evidence.",
+      "assignee": null,
+      "due_date": null,
+      "disposition": "pending",
+      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+    }
+  ],
+  "boundary": "This queue operationalizes independence review; distinct hosts or URLs are not treated as independent confirmation without adjudication.",
+  "next_action": "Assign a reviewer to each candidate, resolve the required evidence, and record an explicit disposition before any qualification or company bridge."
+}

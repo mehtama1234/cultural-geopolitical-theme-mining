@@ -51,6 +51,7 @@ STEPS = [
     ["scripts/build_rights_evidence_register.py"],
     ["scripts/build_room_independent_comparison.py"],
     ["scripts/build_candidate_lineage_dependency_review.py"],
+    ["scripts/build_candidate_independence_adjudication_queue.py"],
     ["scripts/build_candidate_qualification_matrix.py"],
     ["scripts/build_trend_monitoring_status.py"],
     ["scripts/build_falsification_review_queue.py"],

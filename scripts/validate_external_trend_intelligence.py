@@ -444,6 +444,12 @@ def main() -> int:
     assert len(successor_packet["review_tasks"]) == 3
     assert all(task["assignee"] is None and task["signoff"] is None for task in successor_packet["review_tasks"])
     assert successor_packet["acceptance_criteria"] and successor_packet["boundary"]
+    independence_queue = json.loads((ANALYSIS / "candidate-independence-adjudication-queue.json").read_text())
+    assert independence_queue["schema"] == "external-trend-intelligence.candidate-independence-adjudication-queue.v1"
+    assert independence_queue["status"] == "manual_adjudication_queue_ready"
+    assert independence_queue["candidate_count"] == 5
+    assert independence_queue["unassigned_count"] == independence_queue["candidate_count"]
+    assert all(row["required_evidence"] and row["stop_rule"] and row["disposition"] == "pending" for row in independence_queue["rows"])
     pilot_intake = json.loads((ANALYSIS / "pilot-contract-intake.json").read_text())
     assert pilot_intake["schema"] == "external-trend-intelligence.pilot-contract-intake.v1"
     assert pilot_intake["status"] == "template_only_no_company_data"
