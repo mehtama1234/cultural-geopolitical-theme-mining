@@ -313,11 +313,22 @@ def main() -> int:
     assert repair_plan["schema"] == "external-trend-intelligence.cell-phone-repair-outcome-acquisition-plan.v1"
     assert repair_plan["status"] == "held_outcome_acquisition_ready"
     assert repair_plan["current_disposition"] == "held_outcome_missing"
+    assert repair_plan["observed_proxy_artifact"] == "census-repair-industry-snapshot.json"
+    assert repair_plan["observed_proxy_status"] == "descriptive_industry_proxy_not_phone_outcome"
     assert len(repair_plan["why_not_pooled"]) >= 3
     assert repair_plan["target_outcome"]["required_measures"]
     assert repair_plan["acceptance_criteria"] and repair_plan["stop_rule"]
     assert len(repair_plan["source_screen_2026_10_31"]) == 5
     assert {row["screen_status"] for row in repair_plan["source_screen_2026_10_31"]} >= {"best_public_candidate", "counter_signal_only"}
+    census_repair = json.loads((ANALYSIS / "census-repair-industry-snapshot.json").read_text())
+    assert census_repair["schema"] == "external-trend-intelligence.census-repair-industry-snapshot.v1"
+    assert census_repair["status"] == "descriptive_industry_proxy_not_phone_outcome"
+    assert census_repair["coverage"]["years"] == [2019, 2020, 2021, 2022, 2023]
+    assert census_repair["coverage"]["national_row_count"] == 10
+    assert census_repair["coverage"]["state_row_count"] > 400
+    assert len(census_repair["source"]["retrievals"]) == 10
+    assert census_repair["pooling_decision"] == "do_not_pool_with_state_policy_or_global_ewaste"
+    assert census_repair["interpretation_boundary"] and census_repair["uncertainty"]
     ibis_force_map = json.loads((ANALYSIS / "ibis-force-claim-map.json").read_text())
     assert ibis_force_map["schema"] == "external-trend-intelligence.ibis-force-claim-map.v1"
     assert ibis_force_map["force_count"] == len(ibis_force_map["forces"]) == 6

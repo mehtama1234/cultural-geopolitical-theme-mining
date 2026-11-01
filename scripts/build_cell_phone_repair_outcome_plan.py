@@ -35,6 +35,8 @@ def main() -> int:
         "status": "held_outcome_acquisition_ready",
         "claim": "New York and Colorado materials illustrate rising state-level consumer access and right-to-repair policy for electronics.",
         "current_disposition": "held_outcome_missing",
+        "observed_proxy_artifact": "census-repair-industry-snapshot.json",
+        "observed_proxy_status": "descriptive_industry_proxy_not_phone_outcome",
         "pinned_context": {
             "state_policy_sources": [
                 {

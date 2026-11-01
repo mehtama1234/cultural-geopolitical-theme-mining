@@ -81,6 +81,12 @@ An official-source screen now ranks Census NES (NAICS 811211/811213) as the
 best public industry-scale candidate, while Census AIES, EPA electronics
 tables/ADEPT, and BLS repair employment are retained with narrower context or
 modeling boundaries. None is yet a phone-level repair outcome.
+The resulting [Census CBP snapshot](census-repair-industry-snapshot.json)
+contains 2019–2023 national and state rows for NAICS 811211 and 811213 with
+download checksums and Census noise flags. It shows descriptive industry
+movement, not a policy effect: 811211 establishments fell by 112 while
+employees rose by 296; 811213 establishments fell by 218 and employees fell
+by 8,869. These broad categories cannot be interpreted as phone-repair demand.
 
 Next test:
 
