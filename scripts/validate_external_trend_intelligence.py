@@ -1078,9 +1078,13 @@ def main() -> int:
     assert scorecard["metrics"]["release_watch_targets"] == release_watch["source_count"] == 10
     shed = json.loads((ANALYSIS / "federal-reserve-shed-financial-room-2013-2025.json").read_text())
     assert shed["schema"] == "external-trend-intelligence.external-acquisition.v1"
-    assert shed["status"] == "acquired_pending_normalization"
+    assert shed["status"] == "acquired_normalized_pending_rights_and_comparability_review"
     assert len(shed["observations"]) == 13
     assert "method_change_notes" in shed
+    shed_audit = json.loads((ANALYSIS / "shed-normalization-audit.json").read_text())
+    assert shed_audit["schema"] == "external-trend-intelligence.shed-normalization-audit.v1"
+    assert shed_audit["status"] == "normalized_metadata_verified_pending_rights_and_comparability_review"
+    assert all(shed_audit["checks"].values())
     shed_holdout = json.loads((ANALYSIS / "shed-temporal-holdout.json").read_text())
     assert shed_holdout["schema"] == "external-trend-intelligence.shed-temporal-holdout.v1"
     assert shed_holdout["status"] == "descriptive_single_family_holdout"
@@ -1225,7 +1229,7 @@ def main() -> int:
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}
     assert track_by_id["time-pressure-independent-holdout"]["status"] == "partial_bridge_found"
-    assert track_by_id["us-shed-financial-room-acquisition"]["status"] == "acquired_pending_normalization"
+    assert track_by_id["us-shed-financial-room-acquisition"]["status"] == "acquired_normalized_pending_rights_and_comparability_review"
     assert track_by_id["navy-execution-lineage-reconciliation"]["status"] == "execution_snapshot_acquired_lineage_review_pending"
     assert "Do not count the Navy budget" in track_by_id["navy-execution-lineage-reconciliation"]["stop_rule"]
     completion_audit = json.loads((ANALYSIS / "goal-completion-audit.json").read_text())

@@ -136,6 +136,7 @@ def main() -> int:
                             "publisher-dependence-summary.json",
                             "SHED point-estimate reproduction",
                             "shed-point-estimate-reproduction-audit.json",
+    "shed-normalization-audit.json",
                             "JPMorgan household-liquidity chart",
                             "jpmorgan-household-liquidity-chart.json",
                             "candidate-lineage-dependency-review.json",

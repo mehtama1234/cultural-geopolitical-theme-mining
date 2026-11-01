@@ -256,6 +256,11 @@
       <div class="promotion-gates" id="shed-reproduction"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>SHED normalization audit</h2>
+      <p class="muted">This verifies the pinned 2013–2025 chart-data rows and custody metadata; it does not clear rights or cross-source comparability.</p>
+      <div class="promotion-gates" id="shed-normalization-audit"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>JPMorgan household-liquidity chart</h2>
       <p class="muted">Official external chart evidence for January 2022–December 2023. The publisher provides a raster chart and text description, not a downloadable monthly table; it is shown for mechanism context, not pooled estimation.</p>
       <div class="panel" style="margin:12px 0" id="jpmorgan-liquidity-chart"></div>
@@ -765,6 +770,9 @@
         const target = el('shed-reproduction');
         target.append(card('Two-year point estimate', audit.status, `${audit.interpretation} ${audit.next_test}`));
         audit.reconstructions.slice(0, 2).forEach(row => target.append(card(`${row.period} · ${row.rule}`, row.published_rounding, `${row.weighted_percent}% weighted · ${row.unweighted_percent}% unweighted`)));
+      });
+      fetch('shed-normalization-audit.json').then(r => r.json()).then(audit => {
+        el('shed-normalization-audit').append(card('Normalized SHED metadata', audit.status, `${audit.observation_count} observations; ${audit.next_action}`));
       });
       fetch('jpmorgan-household-liquidity-chart.json').then(r => r.json()).then(record => {
         const asset = record.chart_asset;

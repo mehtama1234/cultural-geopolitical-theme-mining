@@ -1,0 +1,36 @@
+{
+  "schema": "external-trend-intelligence.shed-normalization-audit.v1",
+  "source_artifact": "federal-reserve-shed-financial-room-2013-2025.json",
+  "status": "normalized_metadata_verified_pending_rights_and_comparability_review",
+  "observation_count": 13,
+  "periods": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "value_range": [
+    62,
+    78
+  ],
+  "checks": {
+    "schema_and_acquisition_id": true,
+    "required_metadata": true,
+    "annual_periods_2013_2025": true,
+    "numeric_percent_values": true,
+    "retrieval_hash_present": true,
+    "comparability_boundary_present": true,
+    "rights_boundary_present": true
+  },
+  "interpretation_boundary": "The audit verifies normalized chart-data rows, metadata, and custody fields. It does not prove question continuity, uncertainty comparability, redistribution permission, causal effect, or a cross-source financial-room trend.",
+  "next_action": "Review the 2025 codebook, exact chart/data terms, and a closer emergency-expense or bill-payment measure before pooling or promotion."
+}
