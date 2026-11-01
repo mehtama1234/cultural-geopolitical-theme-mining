@@ -21,6 +21,7 @@ ARTIFACTS = [
     "release-health.json",
     "refresh-status.json",
     "candidate-qualification-matrix.json",
+    "candidate-independence-review-packet.json",
     "candidate-qualification-review-packet.json",
     "backtest-readiness.json",
     "case-stage-panel.json",

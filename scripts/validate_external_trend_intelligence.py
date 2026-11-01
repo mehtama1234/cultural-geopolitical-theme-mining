@@ -804,6 +804,12 @@ def main() -> int:
     assert qualification_matrix["candidate_count"] == len(qualification_matrix["rows"]) == len(machine["candidates"])
     assert qualification_matrix["held_count"] == sum(row["gate_status"] == "held" for row in qualification_matrix["rows"])
     assert qualification_matrix["qualified_external_trend_count"] == sum(row["gate_status"] in {"qualified_external_trend", "monitored_external_trend"} for row in qualification_matrix["rows"])
+    independence_packet = json.loads((ANALYSIS / "candidate-independence-review-packet.json").read_text())
+    assert independence_packet["schema"] == "external-trend-intelligence.candidate-independence-review-packet.v1"
+    assert independence_packet["status"] == "ready_for_human_independence_signoff"
+    assert independence_packet["candidate_count"] == independence_queue["candidate_count"] == len(independence_packet["rows"])
+    assert all(row["required_decision_fields"] and row["decision_options"] and row["stop_rule"] for row in independence_packet["rows"])
+    assert all(value is None for row in independence_packet["rows"] for value in row["signoff"].values())
     qualification_packet = json.loads((ANALYSIS / "candidate-qualification-review-packet.json").read_text())
     assert qualification_packet["schema"] == "external-trend-intelligence.candidate-qualification-review-packet.v1"
     assert qualification_packet["status"] == "ready_for_human_qualification_signoff"

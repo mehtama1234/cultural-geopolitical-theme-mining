@@ -160,6 +160,11 @@
       <div class="promotion-gates" id="bounded-lineage"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Signable candidate independence packet</h2>
+      <p class="muted">This packet records the exact lineage, dependence, rights, and reviewer decisions required before a candidate can be promoted.</p>
+      <div class="promotion-gates" id="candidate-independence-packet"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Cross-publisher stage panel</h2>
       <p class="muted">Five Australian remedy cases share a stage vocabulary; case-type and publisher differences remain visible.</p>
       <div class="promotion-gates" id="cross-publisher-stage-panel"></div>
@@ -1100,6 +1105,10 @@
       el('qualification-signoff-packet').append(card('Qualification signoff packet', packet.status, `${packet.candidate_count} candidates · ${packet.unassigned_candidate_count} unassigned. ${packet.next_action}`));
       packet.rows.forEach(row => el('qualification-signoff-packet').append(card(row.candidate_id, row.current_state, `Blocking gates: ${row.blocking_gates.join(' · ') || 'none'}. Falsifier: ${row.falsification.falsifier}`)));
     });
+      fetch('candidate-independence-review-packet.json').then(r => r.json()).then(packet => {
+        el('candidate-independence-packet').append(card('Candidate independence packet', packet.status, `${packet.candidate_count} candidates · ${packet.unassigned_candidate_count} unassigned. ${packet.next_action}`));
+        packet.rows.forEach(row => el('candidate-independence-packet').append(card(row.candidate_id, row.review_status, `${row.unresolved_record_ids.length} unresolved records · ${row.dependency_groups.length} dependency groups. Stop rule: ${row.stop_rule}`)));
+      });
   </script>
 </body>
 </html>
