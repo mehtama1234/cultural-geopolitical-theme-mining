@@ -152,12 +152,13 @@
         "pilot-readiness.json",
         "pilot-contract-intake.json",
         "pilot-activation-queue.json",
+        "PILOT-ACTIVATION-REQUEST.md",
         "pilot-bridge-simulation.json",
         "PILOT-VALIDATION-PROTOCOL.md",
         "test_internal_bridge_gate.py",
         "test_external_only_boundary.py"
       ],
-      "gap": "The synthetic bridge simulation now exercises aggregate matching, unmatched and missing-outcome visibility, falsifier, and stop-rule behavior without company data; the pilot activation queue sequences the missing approvals and confirms all three designs are still blocked. No real pilot is approved because a company decision contract, named rights owner, internal exposure definition, and privacy review are still required after external monitoring; the fail-closed bridge and external-only release gates are exercised."
+      "gap": "The synthetic bridge simulation and the human pilot activation request now exercise aggregate matching, unmatched and missing-outcome visibility, falsifier, stop-rule, rights, privacy, and sign-off requirements without company data; the pilot activation queue sequences the missing approvals and confirms all three designs are still blocked. No real pilot is approved because a company decision contract, named rights owner, internal exposure definition, and privacy review are still required after external monitoring; the fail-closed bridge and external-only release gates are exercised."
     }
   ],
   "release_status": "operational_with_open_gates",
