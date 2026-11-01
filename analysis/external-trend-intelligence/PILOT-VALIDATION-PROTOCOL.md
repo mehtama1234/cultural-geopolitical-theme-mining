@@ -6,11 +6,15 @@ trend caused a company outcome.
 
 ## Entry gate
 
-The linked external candidate must be marked `qualified_external_trend` in the
-qualification matrix, with source identity, comparable unit/population/
+The linked external candidate must have all qualification gates passed in the
+qualification matrix. The release may represent that state as
+`qualified_external_trend` or as `monitored_external_trend`/`qualified_monitor`
+when the trend is fully qualified but is being actively watched for reversal.
+The required evidence is source identity, comparable unit/population/
 geography/period, independence review, persistence, counter-signal, falsifier,
-and backtest evidence. A pilot remains `design_only_external_gate` while any
-gate is missing.
+and backtest evidence. Monitoring is not a company finding: a pilot remains
+`design_only_external_gate` until rights, company access, privacy, and
+pre-registration gates also pass.
 
 ## Pre-registration
 
