@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.source-release-watchlist.v1",
   "status": "acquired_source_release_targets_recorded",
-  "source_count": 5,
+  "source_count": 6,
   "rows": [
     {
       "source_id": "ora-ords-v03-mobile-aggregate-202607",
@@ -25,7 +25,7 @@
         "schema": "external-trend-intelligence.census-cbp-release-check.v1",
         "publisher": "U.S. Census Bureau",
         "dataset": "County Business Patterns",
-        "checked_at": "2026-11-01T06:13:04.786315+00:00",
+        "checked_at": "2026-11-01T06:16:32.032010+00:00",
         "latest_pinned_year": 2023,
         "target_year": 2024,
         "checks": [
@@ -77,6 +77,16 @@
       "cadence_or_trigger": "annual SHED release and codebook update",
       "status": "latest_report_context_recorded_uncertainty_open",
       "acquisition_action": "Acquire the next SHED chart-data and codebook release; preserve question wording, weights, design-effect context, and exact-artifact rights review."
+    },
+    {
+      "source_id": "usda-community-food-assistance-2024-ap126",
+      "publisher": "USDA Economic Research Service",
+      "artifact": "usda-community-food-assistance-2024.json",
+      "latest_observation_period": "12 months ending December 2024",
+      "next_target_period": "2025 annual CPS Food Security Supplement",
+      "cadence_or_trigger": "annual ERS household food-security supplement release",
+      "status": "official_source_available",
+      "acquisition_action": "Use as a bounded community-food-use outcome context; acquire a provider-side utilization or capacity series before treating it as an industry demand or performance measure."
     }
   ],
   "boundary": "The watchlist records release targets from pinned artifacts. It does not prove upstream freshness, rights clearance, independence, comparability, or a trend result.",

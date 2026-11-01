@@ -21,6 +21,7 @@ def main() -> int:
     nes = load("census-nonemployer-repair-snapshot.json")
     npals = load("npals-public-table-extract.json")
     shed = load("federal-reserve-shed-financial-room-2013-2025.json")
+    community = load("usda-community-food-assistance-2024.json")
     rows = [
         {
             "source_id": ora["acquisition_id"],
@@ -111,6 +112,24 @@ def main() -> int:
             "interpretation_status": shed["status"],
             "rights_boundary": shed["rights_boundary"],
             "next_review": "Complete uncertainty and exact-artifact rights review before derived-chart redistribution.",
+        },
+        {
+            "source_id": "usda-community-food-assistance-2024-ap126",
+            "publisher": community["publisher"],
+            "dataset": community["dataset"],
+            "artifact": "usda-community-food-assistance-2024.json",
+            "source_url": community["source_url"],
+            "retrieved_at": community["retrieved_at"],
+            "revision_or_release": "AP-126; December 2024 CPS Food Security Supplement",
+            "checksum": community["source_checksum"],
+            "license_or_terms": community["rights_boundary"],
+            "access_status": community["availability_check"]["availability"],
+            "population_and_unit": community["population_and_unit"],
+            "geography_and_period": "United States; 12 months ending December 2024",
+            "publisher_dependence": "single_publisher_government_survey_series",
+            "interpretation_status": "household_community_food_use_context_not_provider_capacity",
+            "rights_boundary": community["rights_boundary"],
+            "next_review": community["next_action"],
         },
     ]
     payload = {

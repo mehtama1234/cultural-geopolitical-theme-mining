@@ -26,6 +26,7 @@ def main() -> int:
     nes = load("census-nonemployer-repair-snapshot.json")
     npals = load("npals-public-table-extract.json")
     shed = load("federal-reserve-shed-financial-room-2013-2025.json")
+    community = load("usda-community-food-assistance-2024.json")
 
     cbp_latest = max(row["year"] for row in cbp["source"]["retrievals"])
     nes_latest = max(row["year"] for row in nes["source"]["retrievals"])
@@ -82,6 +83,16 @@ def main() -> int:
             "cadence_or_trigger": "annual SHED release and codebook update",
             "status": "latest_report_context_recorded_uncertainty_open",
             "acquisition_action": "Acquire the next SHED chart-data and codebook release; preserve question wording, weights, design-effect context, and exact-artifact rights review.",
+        },
+        {
+            "source_id": "usda-community-food-assistance-2024-ap126",
+            "publisher": community["publisher"],
+            "artifact": "usda-community-food-assistance-2024.json",
+            "latest_observation_period": community["observation_period"],
+            "next_target_period": "2025 annual CPS Food Security Supplement",
+            "cadence_or_trigger": "annual ERS household food-security supplement release",
+            "status": community["availability_check"]["availability"],
+            "acquisition_action": community["next_action"],
         },
     ]
     payload = {

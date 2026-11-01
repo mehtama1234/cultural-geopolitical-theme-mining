@@ -10,14 +10,14 @@
   "observed_weeks": [
     {
       "week": "2026-W44",
-      "run_count": 163,
-      "passed_run_count": 153,
+      "run_count": 164,
+      "passed_run_count": 154,
       "first_run": "2026-10-31T22:09:08+00:00",
-      "latest_run": "2026-11-01T06:13:33+00:00"
+      "latest_run": "2026-11-01T06:17:04+00:00"
     }
   ],
-  "run_count": 163,
-  "passed_run_count": 153,
+  "run_count": 164,
+  "passed_run_count": 154,
   "acceptance": "Each of 104 distinct weekly windows must contain a passed full refresh, with missed-window recovery evidence retained.",
   "next_action": "Allow the scheduled workflow to accumulate distinct weekly windows; investigate any missing or stale window and retain manual-dispatch recovery evidence.",
   "boundary": "This plan measures observed weekly coverage only. It does not predict future execution, clear rights, qualify trends, or authorize internal company access."

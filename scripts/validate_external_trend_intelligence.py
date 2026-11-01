@@ -670,7 +670,10 @@ def main() -> int:
     acquired_sources = json.loads((ANALYSIS / "acquired-source-register.json").read_text())
     assert acquired_sources["schema"] == "external-trend-intelligence.acquired-source-register.v1"
     assert acquired_sources["status"] == "acquired_sources_registered_with_lineage_and_boundaries"
-    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 5
+    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 6
+    community_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "usda-community-food-assistance-2024-ap126")
+    assert community_source["artifact"] == "usda-community-food-assistance-2024.json"
+    assert community_source["checksum"].startswith("sha256:")
     required_acquired_fields = set(acquired_sources["required_fields"])
     for source in acquired_sources["sources"]:
         assert required_acquired_fields <= set(source)
@@ -678,7 +681,9 @@ def main() -> int:
         assert source["rights_boundary"] and source["next_review"]
     release_watchlist = json.loads((ANALYSIS / "source-release-watchlist.json").read_text())
     assert release_watchlist["schema"] == "external-trend-intelligence.source-release-watchlist.v1"
-    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 5
+    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 6
+    community_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "usda-community-food-assistance-2024-ap126")
+    assert community_watch["next_target_period"] == "2025 annual CPS Food Security Supplement"
     assert {row["source_id"] for row in release_watchlist["rows"]} == {source["source_id"] for source in acquired_sources["sources"]}
     for row in release_watchlist["rows"]:
         assert row["latest_observation_period"] and row["next_target_period"]

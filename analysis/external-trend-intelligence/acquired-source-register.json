@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.acquired-source-register.v1",
   "status": "acquired_sources_registered_with_lineage_and_boundaries",
-  "source_count": 5,
+  "source_count": 6,
   "required_fields": [
     "source_id",
     "publisher",
@@ -81,7 +81,7 @@
       "dataset": "NPALS public biennial overview API extract",
       "artifact": "npals-public-table-extract.json",
       "source_url": "https://data.cdc.gov/National-Center-for-Health-Statistics/Biennial-Overview-of-Post-acute-and-Long-term-Care/wibz-pb5q",
-      "retrieved_at": "2026-11-01T06:13:11.935362+00:00",
+      "retrieved_at": "2026-11-01T06:16:44.076736+00:00",
       "revision_or_release": "2020 state frame and 2022/2025 national rows",
       "checksum": "09d4a1b2045cfcaf5eb5a1847867149659063d34664fa93d641f094aa71fd83c",
       "license_or_terms": "Retain normalized API observations, query URL, retrieval time, and source metadata; do not redistribute upstream table contents beyond the permitted public-data use.",
@@ -110,6 +110,24 @@
       "interpretation_status": "acquired_pending_normalization",
       "rights_boundary": "The Federal Reserve publishes the data and documentation; retain the source URL, retrieval date, version hash, and chart-data attribution. This artifact does not determine redistribution or derived-chart rights beyond the publisher's terms.",
       "next_review": "Complete uncertainty and exact-artifact rights review before derived-chart redistribution."
+    },
+    {
+      "source_id": "usda-community-food-assistance-2024-ap126",
+      "publisher": "USDA Economic Research Service",
+      "dataset": "Statistical Supplement to Household Food Security in the United States in 2024, AP-126, Table S-11",
+      "artifact": "usda-community-food-assistance-2024.json",
+      "source_url": "https://www.ers.usda.gov/media/9160/ap-126.pdf?v=79725",
+      "retrieved_at": "2026-11-01T06:15:40.772602+00:00",
+      "revision_or_release": "AP-126; December 2024 CPS Food Security Supplement",
+      "checksum": "sha256:e5f8428ede1ee0e2a5ea7d35845b2849f0c830aaf1a19ee57831c759c657789d",
+      "license_or_terms": "Retain normalized values, source locator, checksum, and attribution; do not redistribute the upstream PDF or reproduce its tables without exact-artifact rights review.",
+      "access_status": "official_source_available",
+      "population_and_unit": "U.S. households and persons in households represented by the December 2024 CPS Food Security Supplement",
+      "geography_and_period": "United States; 12 months ending December 2024",
+      "publisher_dependence": "single_publisher_government_survey_series",
+      "interpretation_status": "household_community_food_use_context_not_provider_capacity",
+      "rights_boundary": "Retain normalized values, source locator, checksum, and attribution; do not redistribute the upstream PDF or reproduce its tables without exact-artifact rights review.",
+      "next_review": "Use as a bounded community-food-use outcome context; acquire a provider-side utilization or capacity series before treating it as an industry demand or performance measure."
     }
   ],
   "boundary": "This register covers acquired artifacts only. It supplements, but does not replace, the 118-source discovery registry; it is not legal clearance, independence proof, or permission to pool unlike populations.",
