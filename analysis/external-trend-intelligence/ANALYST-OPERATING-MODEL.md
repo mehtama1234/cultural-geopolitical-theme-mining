@@ -39,10 +39,11 @@ described as corroboration.
 
 ### Monthly challenge
 
-The trend challenger reviews every candidate in the qualification matrix,
-updates the next decisive test, and records whether the candidate should remain
-held, move to qualified, enter monitoring, or be marked reversed. A candidate
-with absent evidence fails the gate; it is not scored by optimism.
+The trend challenger reviews every candidate in the qualification matrix and
+the falsification review queue, updates the next decisive test, and records
+whether the candidate should remain held, move to qualified, enter monitoring,
+or be marked reversed. A candidate with absent evidence fails the gate; it is
+not scored by optimism.
 
 ### Quarterly decision review
 
@@ -55,10 +56,11 @@ that no internal join was made before approval.
 ### Release and handoff
 
 The release owner runs the refresh-status report, evidence-contract audit,
-qualification matrix, release-manifest build, and external validator. The
-handoff records the commit, artifact checksums, open gaps, held candidates, and
-the next review date. A frontend chart is not authoritative unless its source
-artifact appears in the release manifest.
+qualification matrix, monitoring status, falsification queue, release-manifest
+build, and external validator. The handoff records the commit, artifact
+checksums, open gaps, held candidates, and the next review date. A frontend
+chart is not authoritative unless its source artifact appears in the release
+manifest.
 
 ## Required review record
 
