@@ -62,15 +62,17 @@ that queue using an explicit rule favoring government/academic source types,
 host diversity, and source count. It is a work packet only: all ten remain
 `pending_manual_review`, with no qualification or internal-data permission.
 
-The first two metadata triages are recorded in
+The first ten metadata triages are now recorded in
 [`ibis-claim-review-dispositions.json`](ibis-claim-review-dispositions.json).
-The drug-testing demand claim is held because three of four source rows are
-Quest Diagnostics material, two lack publication dates, and no dated
-independent outcome is present in the pinned artifact. This is a conservative
-hold—not a finding that the claim is false. The cell-phone repair policy claim
-has distinct New York and Colorado government publishers, but it is still held
-because dates and a comparable repair or device-life outcome series are absent.
-The other eight first-batch claims remain pending.
+All ten are held because source ownership/lineage, dated outcomes, compatible
+denominators, or exact-artifact rights remain incomplete. The drug-testing
+demand claim is held because three of four source rows are Quest Diagnostics
+material, two lack publication dates, and no dated independent outcome is
+present. The cell-phone repair policy claim has distinct New York and Colorado
+government publishers, but no comparable repair or device-life outcome series.
+The remaining dispositions similarly separate company marketing, policy
+context, federal program material, and demographic context from realized
+outcomes. These are conservative holds—not findings that the claims are false.
 
 The [cell-phone repair outcome plan](cell-phone-repair-outcome-acquisition-plan.json)
 now links the state policy records to the existing FTC repair-barrier evidence
