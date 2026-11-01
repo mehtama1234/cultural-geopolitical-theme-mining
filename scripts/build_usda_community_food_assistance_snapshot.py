@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+"""Record the official USDA 2024 community-food-assistance table."""
+
+from __future__ import annotations
+
+import hashlib
+import json
+import urllib.error
+import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
+
+
+ANALYSIS = Path(__file__).resolve().parents[1] / "analysis" / "external-trend-intelligence"
+OUTPUT = ANALYSIS / "usda-community-food-assistance-2024.json"
+SOURCE_URL = "https://www.ers.usda.gov/media/9160/ap-126.pdf?v=79725"
+SOURCE_HASH = "sha256:e5f8428ede1ee0e2a5ea7d35845b2849f0c830aaf1a19ee57831c759c657789d"
+
+
+def availability() -> dict:
+    request = urllib.request.Request(SOURCE_URL, method="HEAD", headers={"User-Agent": "external-observatory/1.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=15) as response:
+            return {"http_status": response.status, "availability": "official_source_available"}
+    except urllib.error.HTTPError as exc:
+        return {"http_status": exc.code, "availability": "official_source_unavailable"}
+    except (urllib.error.URLError, TimeoutError, OSError) as exc:
+        return {"http_status": None, "availability": "source_check_failed", "error_type": type(exc).__name__}
+
+
+def main() -> int:
+    check = availability()
+    payload = {
+        "schema": "external-trend-intelligence.usda-community-food-assistance-snapshot.v1",
+        "status": "pinned_official_table_normalized",
+        "publisher": "USDA Economic Research Service",
+        "dataset": "Statistical Supplement to Household Food Security in the United States in 2024, AP-126, Table S-11",
+        "source_url": SOURCE_URL,
+        "publication_date": "2025-12-30",
+        "retrieved_at": datetime.now(timezone.utc).isoformat(),
+        "source_checksum": SOURCE_HASH,
+        "availability_check": check,
+        "observation_period": "12 months ending December 2024",
+        "population_and_unit": "U.S. households and persons in households represented by the December 2024 CPS Food Security Supplement",
+        "rows": [
+            {"category": "all_households", "free_groceries_total_thousand": 133356, "free_groceries_users_thousand": 9616, "free_groceries_percent": 7.2, "free_meals_total_thousand": 133211, "free_meals_users_thousand": 3284, "free_meals_percent": 2.5},
+            {"category": "food_insecure_households", "free_groceries_total_thousand": 17985, "free_groceries_users_thousand": 5561, "free_groceries_percent": 30.9, "free_meals_total_thousand": 17964, "free_meals_users_thousand": 1754, "free_meals_percent": 9.8},
+            {"category": "food_secure_households", "free_groceries_total_thousand": 115295, "free_groceries_users_thousand": 4050, "free_groceries_percent": 3.5, "free_meals_total_thousand": 115173, "free_meals_users_thousand": 1525, "free_meals_percent": 1.3},
+            {"category": "very_low_food_security_households", "free_groceries_total_thousand": 7063, "free_groceries_users_thousand": 2515, "free_groceries_percent": 35.6, "free_meals_total_thousand": 7042, "free_meals_users_thousand": 898, "free_meals_percent": 12.8},
+        ],
+        "method": "USDA ERS normalized Table S-11 values from the December 2024 CPS Food Security Supplement; households above 185 percent of the poverty threshold were generally not asked unless preliminary food-need screen responses triggered the questions.",
+        "comparability_and_uncertainty": [
+            "Question wording changed in 2022, so free-grocery and free-meal estimates are not comparable with earlier pantry/kitchen series.",
+            "Address-based CPS sampling excludes people experiencing homelessness and may underrepresent tenuously housed people, especially for free-meal use.",
+            "The table measures household-reported receipt, not provider visits, meals served, capacity, wait time, cost, or revenue.",
+        ],
+        "rights_boundary": "Retain normalized values, source locator, checksum, and attribution; do not redistribute the upstream PDF or reproduce its tables without exact-artifact rights review.",
+        "next_action": "Use as a bounded community-food-use outcome context; acquire a provider-side utilization or capacity series before treating it as an industry demand or performance measure.",
+        "boundary": "This is an official household-reported outcome context. It does not establish causality, provider capacity, market size, or independent confirmation of an IBIS claim.",
+    }
+    OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+    print(f"wrote {OUTPUT} ({len(payload['rows'])} normalized rows; {check['availability']})")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

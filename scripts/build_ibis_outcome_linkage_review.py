@@ -11,6 +11,7 @@ ANALYSIS = Path(__file__).resolve().parents[1] / "analysis" / "external-trend-in
 QUEUE = ANALYSIS / "ibis-outcome-acquisition-queue.json"
 INDEPENDENCE_QUEUE = ANALYSIS / "ibis-claim-independence-review-queue.json"
 USDA = Path(__file__).resolve().parents[1] / "analysis" / "records" / "comparative-usda-food-security-2022-2024.json"
+COMMUNITY = ANALYSIS / "usda-community-food-assistance-2024.json"
 OUTPUT = ANALYSIS / "ibis-community-food-outcome-linkage-review.json"
 
 
@@ -18,6 +19,7 @@ def main() -> int:
     queue = json.loads(QUEUE.read_text())
     independence_queue = json.loads(INDEPENDENCE_QUEUE.read_text())
     record = json.loads(USDA.read_text())
+    community = json.loads(COMMUNITY.read_text())
     target = next(row for row in queue["rows"] if row["review_id"] == "ibis-independence::community-food-services-in-the-us::community-demand")
     source_review = next(row for row in independence_queue["candidates"] if row["review_id"] == target["review_id"])
     payload = {
@@ -34,33 +36,25 @@ def main() -> int:
             "as_of": target["claim_as_of"],
         },
         "outcome_artifact": {
-            "record_id": record["trend_id"],
+            "record_id": community["schema"],
             "publisher": "USDA Economic Research Service",
-            "source_unit": record["source_unit"],
-            "source_urls": [item["source_url"] for item in record["related_sources"]],
-            "retrieval_hash": record["retrieval_hash"],
-            "population": record["geography"],
-            "periods": [observation["period"] for observation in record["observations"]],
-            "measure": "percent of U.S. households food insecure at some time during the year",
-            "observations": [
-                {
-                    "period": observation["period"],
-                    "value": observation["measures"]["food_insecure"]["value"],
-                    "unit": observation["measures"]["food_insecure"]["unit"],
-                    "denominator": observation["denominator"]["unit"],
-                }
-                for observation in record["observations"]
-            ],
-            "uncertainty": record["uncertainty"],
-            "counterinterpretation": record["counterinterpretation"],
-            "rights_boundary": "Retain normalized values, source locator, retrieval hash, and derived internal-review calculations with ERS attribution; raw publication reproduction and redistribution remain uncleared.",
+            "source_unit": community["dataset"],
+            "source_urls": [community["source_url"]],
+            "retrieval_hash": community["source_checksum"],
+            "population": community["population_and_unit"],
+            "periods": [community["observation_period"]],
+            "measure": "household-reported receipt of free groceries and free meals from community food and nutrition assistance programs",
+            "observations": community["rows"],
+            "uncertainty": community["comparability_and_uncertainty"],
+            "counterinterpretation": community["boundary"],
+            "rights_boundary": community["rights_boundary"],
         },
         "lineage_adjudication": {
             "publisher_status": "canonical_official_publisher_resolved",
             "independence_status": "dependent_restatement_possible",
             "reason": "FRAC may summarize the same USDA series; the direct USDA record is a canonical outcome artifact but is not counted as a second independent publisher until source-level lineage is signed off.",
             "population_compatibility": "not_comparable_to_the_IBIS_industry_population_without_a_service-use denominator",
-            "outcome_linkage": "food-insecurity outcome is relevant context for community food-service demand but does not measure visits, meals, pantry capacity, enrollment, or provider revenue",
+            "outcome_linkage": "household receipt of free groceries and free meals is a closer community-food-use outcome than food insecurity alone, but it still does not measure provider visits, capacity, wait time, cost, or revenue",
             "rights_status": "conditional_attribution_use_documented",
             "review_status": "pending_human_lineage_and_outcome_scope_signoff",
         },

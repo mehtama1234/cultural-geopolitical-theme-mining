@@ -368,8 +368,14 @@ def main() -> int:
     ibis_linkage = json.loads((ANALYSIS / "ibis-community-food-outcome-linkage-review.json").read_text())
     assert ibis_linkage["schema"] == "external-trend-intelligence.ibis-community-food-outcome-linkage-review.v1"
     assert ibis_linkage["status"] == "official_outcome_acquired_lineage_review_pending"
-    assert ibis_linkage["outcome_artifact"]["record_id"] == "comparative-usda-food-security-2022-2024"
-    assert len(ibis_linkage["outcome_artifact"]["observations"]) == 3
+    assert ibis_linkage["outcome_artifact"]["record_id"] == "external-trend-intelligence.usda-community-food-assistance-snapshot.v1"
+    assert len(ibis_linkage["outcome_artifact"]["observations"]) == 4
+    community_food = json.loads((ANALYSIS / "usda-community-food-assistance-2024.json").read_text())
+    assert community_food["schema"] == "external-trend-intelligence.usda-community-food-assistance-snapshot.v1"
+    assert community_food["status"] == "pinned_official_table_normalized"
+    assert len(community_food["rows"]) == 4
+    assert all(row["free_groceries_percent"] >= 0 and row["free_meals_percent"] >= 0 for row in community_food["rows"])
+    assert community_food["source_checksum"].startswith("sha256:")
     assert ibis_linkage["lineage_adjudication"]["independence_status"] == "dependent_restatement_possible"
     assert ibis_linkage["decision"].startswith("retain_as_acquired_external_context")
     assert ibis_linkage["required_next_steps"] and ibis_linkage["boundary"]

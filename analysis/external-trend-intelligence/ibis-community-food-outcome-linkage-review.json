@@ -20,51 +20,70 @@
     "as_of": "2026-10-20"
   },
   "outcome_artifact": {
-    "record_id": "comparative-usda-food-security-2022-2024",
+    "record_id": "external-trend-intelligence.usda-community-food-assistance-snapshot.v1",
     "publisher": "USDA Economic Research Service",
-    "source_unit": "U.S. Department of Agriculture Economic Research Service, Household Food Security in the United States",
+    "source_unit": "Statistical Supplement to Household Food Security in the United States in 2024, AP-126, Table S-11",
     "source_urls": [
-      "https://www.ers.usda.gov/publications/113622",
-      "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics"
+      "https://www.ers.usda.gov/media/9160/ap-126.pdf?v=79725"
     ],
-    "retrieval_hash": "sha256:79ff71e761ff6690aa9e36828f2a65b35af625eb688f8cf70e06e7be0160b613",
-    "population": "United States; households",
+    "retrieval_hash": "sha256:e5f8428ede1ee0e2a5ea7d35845b2849f0c830aaf1a19ee57831c759c657789d",
+    "population": "U.S. households and persons in households represented by the December 2024 CPS Food Security Supplement",
     "periods": [
-      "2022",
-      "2023",
-      "2024"
+      "12 months ending December 2024"
     ],
-    "measure": "percent of U.S. households food insecure at some time during the year",
+    "measure": "household-reported receipt of free groceries and free meals from community food and nutrition assistance programs",
     "observations": [
       {
-        "period": "2022",
-        "value": 12.8,
-        "unit": "percent of households food insecure at some time during the year",
-        "denominator": "U.S. households in the CPS Food Security Supplement"
+        "category": "all_households",
+        "free_groceries_total_thousand": 133356,
+        "free_groceries_users_thousand": 9616,
+        "free_groceries_percent": 7.2,
+        "free_meals_total_thousand": 133211,
+        "free_meals_users_thousand": 3284,
+        "free_meals_percent": 2.5
       },
       {
-        "period": "2023",
-        "value": 13.5,
-        "unit": "percent of households food insecure at some time during the year",
-        "denominator": "U.S. households in the CPS Food Security Supplement"
+        "category": "food_insecure_households",
+        "free_groceries_total_thousand": 17985,
+        "free_groceries_users_thousand": 5561,
+        "free_groceries_percent": 30.9,
+        "free_meals_total_thousand": 17964,
+        "free_meals_users_thousand": 1754,
+        "free_meals_percent": 9.8
       },
       {
-        "period": "2024",
-        "value": 13.7,
-        "unit": "percent of households food insecure at some time during the year",
-        "denominator": "U.S. households in the CPS Food Security Supplement"
+        "category": "food_secure_households",
+        "free_groceries_total_thousand": 115295,
+        "free_groceries_users_thousand": 4050,
+        "free_groceries_percent": 3.5,
+        "free_meals_total_thousand": 115173,
+        "free_meals_users_thousand": 1525,
+        "free_meals_percent": 1.3
+      },
+      {
+        "category": "very_low_food_security_households",
+        "free_groceries_total_thousand": 7063,
+        "free_groceries_users_thousand": 2515,
+        "free_groceries_percent": 35.6,
+        "free_meals_total_thousand": 7042,
+        "free_meals_users_thousand": 898,
+        "free_meals_percent": 12.8
       }
     ],
-    "uncertainty": "Food insecurity is a resource-constrained food-access outcome, not a general financial-wellbeing or consumption measure. Annual estimates have sampling error and should be interpreted with the USDA significance guidance.",
-    "counterinterpretation": "The 2024 food-insecurity prevalence was not statistically significantly different from 2023; a small numerical increase is not necessarily a population-level change.",
-    "rights_boundary": "Retain normalized values, source locator, retrieval hash, and derived internal-review calculations with ERS attribution; raw publication reproduction and redistribution remain uncleared."
+    "uncertainty": [
+      "Question wording changed in 2022, so free-grocery and free-meal estimates are not comparable with earlier pantry/kitchen series.",
+      "Address-based CPS sampling excludes people experiencing homelessness and may underrepresent tenuously housed people, especially for free-meal use.",
+      "The table measures household-reported receipt, not provider visits, meals served, capacity, wait time, cost, or revenue."
+    ],
+    "counterinterpretation": "This is an official household-reported outcome context. It does not establish causality, provider capacity, market size, or independent confirmation of an IBIS claim.",
+    "rights_boundary": "Retain normalized values, source locator, checksum, and attribution; do not redistribute the upstream PDF or reproduce its tables without exact-artifact rights review."
   },
   "lineage_adjudication": {
     "publisher_status": "canonical_official_publisher_resolved",
     "independence_status": "dependent_restatement_possible",
     "reason": "FRAC may summarize the same USDA series; the direct USDA record is a canonical outcome artifact but is not counted as a second independent publisher until source-level lineage is signed off.",
     "population_compatibility": "not_comparable_to_the_IBIS_industry_population_without_a_service-use denominator",
-    "outcome_linkage": "food-insecurity outcome is relevant context for community food-service demand but does not measure visits, meals, pantry capacity, enrollment, or provider revenue",
+    "outcome_linkage": "household receipt of free groceries and free meals is a closer community-food-use outcome than food insecurity alone, but it still does not measure provider visits, capacity, wait time, cost, or revenue",
     "rights_status": "conditional_attribution_use_documented",
     "review_status": "pending_human_lineage_and_outcome_scope_signoff"
   },

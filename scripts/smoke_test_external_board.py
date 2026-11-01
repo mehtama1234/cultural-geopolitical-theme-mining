@@ -57,6 +57,7 @@ ARTIFACTS = [
     "trend-monitoring-status.json",
     "falsification-review-queue.json",
     "ibis-outcome-acquisition-queue.json",
+    "usda-community-food-assistance-2024.json",
     "ibis-community-food-outcome-linkage-review.json",
 ]
 
