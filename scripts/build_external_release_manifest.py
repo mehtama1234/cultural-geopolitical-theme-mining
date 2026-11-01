@@ -75,6 +75,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/financial-room-decision-card.json",
     "analysis/external-trend-intelligence/denominator-reconciliation-review.json",
     "analysis/external-trend-intelligence/uncertainty-coverage-audit.json",
+    "analysis/external-trend-intelligence/uncertainty-review-packet.json",
     "analysis/external-trend-intelligence/shed-normalization-audit.json",
     "analysis/external-trend-intelligence/shed-emergency-normalization-audit.json",
     "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",

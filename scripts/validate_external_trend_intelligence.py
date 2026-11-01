@@ -1306,6 +1306,13 @@ def main() -> int:
     assert uncertainty_audit["status"] == "uncertainty_visible_with_open_gates"
     assert uncertainty_audit["artifact_count"] == 6
     assert uncertainty_audit["incomplete_or_pending_count"] > 0
+    uncertainty_packet = json.loads((ANALYSIS / "uncertainty-review-packet.json").read_text())
+    assert uncertainty_packet["schema"] == "external-trend-intelligence.uncertainty-review-packet.v1"
+    assert uncertainty_packet["status"] == "ready_for_uncertainty_review"
+    assert uncertainty_packet["artifact_count"] == uncertainty_audit["artifact_count"] == len(uncertainty_packet["rows"])
+    assert uncertainty_packet["complete_source_level_count"] == uncertainty_audit["complete_source_level_count"]
+    assert all(row["required_review_fields"] and row["decision_options"] and row["signoff"] for row in uncertainty_packet["rows"])
+    assert all(value is None for row in uncertainty_packet["rows"] for value in row["signoff"].values())
     care_subset = json.loads((ANALYSIS / "care-capacity-comparable-subset.json").read_text())
     assert care_subset["schema"] == "external-trend-intelligence.care-capacity-comparable-subset.v1"
     assert care_subset["candidate_id"] == care_candidate["candidate_id"]

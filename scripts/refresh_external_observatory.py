@@ -119,6 +119,7 @@ STEPS = [
     ["scripts/build_denominator_reconciliation_review.py"],
     ["scripts/build_financial_room_decision_card.py"],
     ["scripts/build_uncertainty_coverage_audit.py"],
+    ["scripts/build_uncertainty_review_packet.py"],
     ["scripts/build_refresh_schedule_health.py"],
     ["scripts/build_pilot_readiness.py"],
     ["scripts/build_pilot_contract_intake.py"],
