@@ -884,6 +884,12 @@ def main() -> int:
     assert rights_evidence["schema"] == "external-trend-intelligence.rights-evidence-register.v1"
     assert rights_evidence["family_count"] == 8
     assert all(row["rights_status"] == "not_verified" for row in rights_evidence["rows"])
+    rights_readiness = json.loads((ANALYSIS / "rights-review-readiness.json").read_text())
+    assert rights_readiness["schema"] == "external-trend-intelligence.rights-review-readiness.v1"
+    assert rights_readiness["family_count"] == rights_evidence["family_count"]
+    assert rights_readiness["review_ready_family_count"] == 0
+    assert rights_readiness["unassigned_owner_count"] == rights_assignment["unassigned_family_count"]
+    assert rights_readiness["boundary"] and rights_readiness["next_action"]
     room_comparison = json.loads((ANALYSIS / "room-independent-comparison.json").read_text())
     assert room_comparison["schema"] == "external-trend-intelligence.room-independent-comparison.v1"
     assert room_comparison["status"] == "mechanism_comparison_only"

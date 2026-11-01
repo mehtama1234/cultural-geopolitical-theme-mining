@@ -23,6 +23,7 @@ blockers.
 | Refresh freshness decisions | `refresh-freshness-decision.json` | converts artifact age, missing files, and incomplete states into explicit per-family ready/hold decisions and actions |
 | Open-gate history | `open-gate-history.json` | preserves append-only gate workload snapshots so closure, reopening, and long-lived critical work can be monitored across refreshes |
 | Operating ownership readiness | `operating-ownership-readiness.json` | separates passing successor-control checks from named role assignment and signed handoff readiness |
+| Rights review readiness | `rights-review-readiness.json` | separates local terms-file discovery and accountable owner assignment from actual rights clearance or redistribution permission |
 | Compatible-measure search | `compatible-measure-search.json` | scanned record count, candidate measure/unit groups, hosts, periods, review boundary |
 | Global forecast comparison | `global-growth-forecast-comparison.json` | publisher, forecast period, value, spread, vintage/uncertainty boundary, backtest next action |
 | Forecast lineage review | `forecast-lineage-review.json` | source host, publisher-distinct check, vintage/rights/uncertainty/outcome review status, boundary |

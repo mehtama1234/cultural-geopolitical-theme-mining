@@ -21,7 +21,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, append-only gate workload history, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 123-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, append-only gate workload history, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 124-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -31,6 +31,7 @@
         "rights-review-queue.json",
         "rights-assignment-queue.json",
         "rights-evidence-register.json",
+        "rights-review-readiness.json",
         "food-insecurity-rights-review.json",
         "financial-room-rights-review.json",
         "mobility-access-rights-review.json",
@@ -51,7 +52,7 @@
         "test_rights_release_gate.py",
         "observation-manifest.json"
       ],
-      "gap": "Rights and publisher dependence remain unverified for all source families; the rights-assignment queue now makes the eight-family ownership work explicit, and the candidate independence adjudication queue makes all five candidate reviews assignable with 4 high-priority rows. Candidate-specific reviews cover the monitored food-security lane, the mobility comparison, and 7 financial-room sources. Record metadata quality is now audited across 2135 records, with remediation status no_open_record_metadata_gaps; this makes source identity, lineage locator, period, unit, geography, uncertainty, counter-signal, and retrieval hash testable rather than implicit. The uncertainty coverage audit makes source-level, incomplete, and pending uncertainty visible across six decision-facing artifacts. The 500-industry IBIS sample and six-force review expose repeated source IDs, URLs, missing claim periods, and metadata gaps for dependency review; the claim-independence audit mechanically flags reused URLs, hosts, and publishers, the review queue turns the remaining low-dependency claims into assigned work, the first ten-claim packet is now fully triaged with 10 conservative held dispositions and 0 pending rows, rather than unsupported promotion. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
+      "gap": "Rights and publisher dependence remain unverified for all source families; the rights-assignment queue and rights-review-readiness artifact now make the eight-family ownership and sign-off prerequisites explicit, and the candidate independence adjudication queue makes all five candidate reviews assignable with 4 high-priority rows. Candidate-specific reviews cover the monitored food-security lane, the mobility comparison, and 7 financial-room sources. Record metadata quality is now audited across 2135 records, with remediation status no_open_record_metadata_gaps; this makes source identity, lineage locator, period, unit, geography, uncertainty, counter-signal, and retrieval hash testable rather than implicit. The uncertainty coverage audit makes source-level, incomplete, and pending uncertainty visible across six decision-facing artifacts. The 500-industry IBIS sample and six-force review expose repeated source IDs, URLs, missing claim periods, and metadata gaps for dependency review; the claim-independence audit mechanically flags reused URLs, hosts, and publishers, the review queue turns the remaining low-dependency claims into assigned work, the first ten-claim packet is now fully triaged with 10 conservative held dispositions and 0 pending rows, rather than unsupported promotion. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
     },
     {
       "id": "independent_source_comparison",

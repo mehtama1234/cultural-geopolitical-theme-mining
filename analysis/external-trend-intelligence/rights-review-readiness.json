@@ -1,0 +1,93 @@
+{
+  "schema": "external-trend-intelligence.rights-review-readiness.v1",
+  "status": "rights_review_not_ready_for_signoff",
+  "family_count": 8,
+  "review_ready_family_count": 0,
+  "partial_local_evidence_count": 3,
+  "no_local_terms_file_count": 5,
+  "unassigned_owner_count": 8,
+  "rows": [
+    {
+      "family_id": "cultural-geopolitical-theme-mining",
+      "local_evidence_status": "no_local_terms_file_found",
+      "observed_file_count": 0,
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "owner_status": "unassigned",
+      "review_ready": false,
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "social-research",
+      "local_evidence_status": "partial_file_evidence",
+      "observed_file_count": 1,
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "owner_status": "unassigned",
+      "review_ready": false,
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "trend-hunting",
+      "local_evidence_status": "no_local_terms_file_found",
+      "observed_file_count": 0,
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "owner_status": "unassigned",
+      "review_ready": false,
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "annual-report-research",
+      "local_evidence_status": "no_local_terms_file_found",
+      "observed_file_count": 0,
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "owner_status": "unassigned",
+      "review_ready": false,
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "inc5000-analysis",
+      "local_evidence_status": "no_local_terms_file_found",
+      "observed_file_count": 0,
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "owner_status": "unassigned",
+      "review_ready": false,
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "ibis-industries",
+      "local_evidence_status": "partial_file_evidence",
+      "observed_file_count": 1,
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "owner_status": "unassigned",
+      "review_ready": false,
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "research-signals",
+      "local_evidence_status": "partial_file_evidence",
+      "observed_file_count": 22,
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "owner_status": "unassigned",
+      "review_ready": false,
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    },
+    {
+      "family_id": "organization-intelligence-system",
+      "local_evidence_status": "no_local_terms_file_found",
+      "observed_file_count": 0,
+      "rights_status": "not_verified",
+      "publisher_dependence": "review_required",
+      "owner_status": "unassigned",
+      "review_ready": false,
+      "next_action": "Review the observed file or confirm the absence of repository-level terms, then separately document upstream publisher terms and retention/redistribution limits."
+    }
+  ],
+  "boundary": "This is a readiness evaluation, not a license determination. Local terms files and named owners are prerequisites for review, not proof of permission or redistribution rights.",
+  "next_action": "Assign primary and backup rights owners, review exact upstream terms for each family, and record a signed storage/transformation/redistribution decision before release or company use."
+}

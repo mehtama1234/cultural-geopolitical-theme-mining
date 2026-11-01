@@ -752,6 +752,9 @@
         el('rights-evidence').append(card(`${evidence.partial_file_evidence_count} families with local files · ${evidence.no_local_terms_file_count} without`, 'partial_file_evidence', evidence.boundary));
         evidence.rows.forEach(row => el('rights-evidence').append(card(row.family_id, row.evidence_status, row.observed_files.length ? row.observed_files.map(file => file.path).join(' · ') : 'No local terms file found; upstream terms still require review.')));
       });
+      fetch('rights-review-readiness.json').then(r => r.json()).then(readiness => {
+        el('rights-evidence').append(card('Rights review readiness', readiness.status, `${readiness.review_ready_family_count}/${readiness.family_count} families ready for sign-off · ${readiness.unassigned_owner_count} owners unassigned. ${readiness.next_action}`));
+      });
       fetch('rights-assignment-queue.json').then(r => r.json()).then(queue => {
         el('rights-assignment').append(card(`${queue.unassigned_family_count} of ${queue.family_count} families unassigned`, queue.status, queue.next_action));
         queue.rows.forEach(row => el('rights-assignment').append(card(row.family_id, row.current_status, `${row.rights_status} · dependence ${row.publisher_dependence} · ${row.acceptance_criteria.join(' · ')}`)));
