@@ -1,0 +1,146 @@
+{
+  "schema": "external-trend-intelligence.pilot-activation-queue.v1",
+  "status": "design_contracts_ready_activation_blocked",
+  "pilot_count": 3,
+  "design_complete_count": 3,
+  "approved_test_count": 0,
+  "company_data_accessed": false,
+  "rows": [
+    {
+      "pilot_id": "pilot-care-time-workflow-capacity-001",
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "external_gate": "held",
+      "readiness_status": "blocked_external_first",
+      "design_contract_complete": true,
+      "design_fields": {
+        "decision_question": true,
+        "falsifier": true,
+        "unmatched_case_policy": true,
+        "required_before_approved_test": true
+      },
+      "missing_approval_inputs": [
+        "company_id",
+        "business_unit",
+        "decision_owner",
+        "internal_dataset",
+        "period",
+        "primary_outcome",
+        "unit",
+        "denominator",
+        "privacy_class",
+        "lawful_access_basis",
+        "analysis_owner",
+        "stop_rule"
+      ],
+      "blocking_check_ids": [
+        "external_qualification",
+        "external_rights_reuse",
+        "company_decision_contract",
+        "internal_data_contract",
+        "access_privacy_rights",
+        "analysis_preregistration"
+      ],
+      "ordered_prerequisites": [
+        "external candidate is qualified or monitored",
+        "source-specific rights reuse is approved",
+        "company decision owner and business unit are named",
+        "internal dataset, denominator, period, and crosswalk are registered",
+        "privacy, lawful access, retention, and redistribution review pass",
+        "analysis is preregistered with falsifier and stop rule"
+      ],
+      "company_data_accessed": false,
+      "next_action": "Complete the next unmet prerequisite in order; do not connect internal data while any earlier gate is blocked."
+    },
+    {
+      "pilot_id": "pilot-food-security-service-room-001",
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "external_gate": "monitored_external_trend",
+      "readiness_status": "blocked_external_first",
+      "design_contract_complete": true,
+      "design_fields": {
+        "decision_question": true,
+        "falsifier": true,
+        "unmatched_case_policy": true,
+        "required_before_approved_test": true
+      },
+      "missing_approval_inputs": [
+        "company_id",
+        "business_unit",
+        "decision_owner",
+        "internal_dataset",
+        "period",
+        "primary_outcome",
+        "unit",
+        "denominator",
+        "privacy_class",
+        "lawful_access_basis",
+        "analysis_owner",
+        "stop_rule"
+      ],
+      "blocking_check_ids": [
+        "external_rights_reuse",
+        "company_decision_contract",
+        "internal_data_contract",
+        "access_privacy_rights",
+        "analysis_preregistration"
+      ],
+      "ordered_prerequisites": [
+        "external candidate is qualified or monitored",
+        "source-specific rights reuse is approved",
+        "company decision owner and business unit are named",
+        "internal dataset, denominator, period, and crosswalk are registered",
+        "privacy, lawful access, retention, and redistribution review pass",
+        "analysis is preregistered with falsifier and stop rule"
+      ],
+      "company_data_accessed": false,
+      "next_action": "Complete the next unmet prerequisite in order; do not connect internal data while any earlier gate is blocked."
+    },
+    {
+      "pilot_id": "pilot-formal-response-recovery-workflow-001",
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "external_gate": "held",
+      "readiness_status": "blocked_external_first",
+      "design_contract_complete": true,
+      "design_fields": {
+        "decision_question": true,
+        "falsifier": true,
+        "unmatched_case_policy": true,
+        "required_before_approved_test": true
+      },
+      "missing_approval_inputs": [
+        "company_id",
+        "business_unit",
+        "decision_owner",
+        "internal_dataset",
+        "period",
+        "primary_outcome",
+        "unit",
+        "denominator",
+        "privacy_class",
+        "lawful_access_basis",
+        "analysis_owner",
+        "stop_rule"
+      ],
+      "blocking_check_ids": [
+        "external_qualification",
+        "external_rights_reuse",
+        "company_decision_contract",
+        "internal_data_contract",
+        "access_privacy_rights",
+        "analysis_preregistration"
+      ],
+      "ordered_prerequisites": [
+        "external candidate is qualified or monitored",
+        "source-specific rights reuse is approved",
+        "company decision owner and business unit are named",
+        "internal dataset, denominator, period, and crosswalk are registered",
+        "privacy, lawful access, retention, and redistribution review pass",
+        "analysis is preregistered with falsifier and stop rule"
+      ],
+      "company_data_accessed": false,
+      "next_action": "Complete the next unmet prerequisite in order; do not connect internal data while any earlier gate is blocked."
+    }
+  ],
+  "boundary": "This queue sequences approvals; it does not name a company, authorize access, create a join, or turn synthetic bridge cells into a pilot result.",
+  "next_action": "A named decision owner must complete one pilot's registration fields only after its external and rights gates pass."
+}

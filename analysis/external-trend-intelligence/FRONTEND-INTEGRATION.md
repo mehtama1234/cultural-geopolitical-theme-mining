@@ -57,6 +57,7 @@ blockers.
 | Acquisition queue | `evidence-acquisition-plan.json` | target source, required fields, acceptance criteria, stop rule, owner |
 | Program completion audit | `goal-completion-audit.json` | requirement status, evidence, gap, release status, next action |
 | Pilot view | `pilot-register.json` | design status, external gate, company/data contract, privacy, falsifier |
+| Pilot activation queue | `pilot-activation-queue.json` | ordered prerequisites, missing approval inputs, design completeness, fail-closed company-data boundary, and next action for each pilot |
 | First pilot execution blueprint | `pilot-food-security-service-room-blueprint.json` | external qualification basis, permitted aggregate design, crosswalk boundary, blockers, falsifier, stop rule; never display it as an approved company test |
 | Release banner | `release-health.json`, `release-manifest.json` | release status, blockers, source commit, artifact count |
 | Publication registry | `frontend-publication-registry.json` | every reader-facing chart/narrative's period, unit, geography, denominator/scope, uncertainty, counter-signal, evidence boundary, and company gate |

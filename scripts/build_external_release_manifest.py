@@ -143,6 +143,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/candidate-qualification-matrix.json",
     "analysis/external-trend-intelligence/pilot-register.json",
     "analysis/external-trend-intelligence/pilot-readiness.json",
+    "analysis/external-trend-intelligence/pilot-activation-queue.json",
     "analysis/external-trend-intelligence/trend-monitoring-register.json",
     "analysis/external-trend-intelligence/trend-monitoring-status.json",
     "analysis/external-trend-intelligence/trend-monitoring-evaluation.json",

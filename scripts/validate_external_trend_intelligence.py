@@ -662,6 +662,13 @@ def main() -> int:
     assert pilot_readiness["pilot_count"] == len(pilot_register["pilots"])
     assert pilot_readiness["ready_for_approved_test_count"] == 0
     assert all(item["readiness_status"] == "blocked_external_first" for item in pilot_readiness["pilots"])
+    activation_queue = json.loads((ANALYSIS / "pilot-activation-queue.json").read_text())
+    assert activation_queue["schema"] == "external-trend-intelligence.pilot-activation-queue.v1"
+    assert activation_queue["pilot_count"] == len(activation_queue["rows"]) == pilot_readiness["pilot_count"]
+    assert activation_queue["approved_test_count"] == 0
+    assert activation_queue["company_data_accessed"] is False
+    assert all(row["ordered_prerequisites"] and row["blocking_check_ids"] for row in activation_queue["rows"])
+    assert activation_queue["boundary"] and activation_queue["next_action"]
     pilot_simulation = json.loads((ANALYSIS / "pilot-bridge-simulation.json").read_text())
     assert pilot_simulation["schema"] == "external-trend-intelligence.pilot-bridge-simulation.v1"
     assert pilot_simulation["status"] == "synthetic_contract_exercised_fail_closed"

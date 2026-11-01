@@ -23,7 +23,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, append-only gate workload history, explicit 104-week coverage plan, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 126-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, append-only gate workload history, explicit 104-week coverage plan, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 127-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -146,12 +146,15 @@
       "status": "open",
       "evidence": [
         "pilot-register.json",
+        "pilot-readiness.json",
+        "pilot-contract-intake.json",
+        "pilot-activation-queue.json",
         "pilot-bridge-simulation.json",
         "PILOT-VALIDATION-PROTOCOL.md",
         "test_internal_bridge_gate.py",
         "test_external_only_boundary.py"
       ],
-      "gap": "The synthetic bridge simulation now exercises aggregate matching, unmatched and missing-outcome visibility, falsifier, and stop-rule behavior without company data. No real pilot is approved because a company decision contract, named rights owner, internal exposure definition, and privacy review are still required after external monitoring; the fail-closed bridge and external-only release gates are exercised."
+      "gap": "The synthetic bridge simulation now exercises aggregate matching, unmatched and missing-outcome visibility, falsifier, and stop-rule behavior without company data; the pilot activation queue sequences the missing approvals and confirms all three designs are still blocked. No real pilot is approved because a company decision contract, named rights owner, internal exposure definition, and privacy review are still required after external monitoring; the fail-closed bridge and external-only release gates are exercised."
     }
   ],
   "release_status": "operational_with_open_gates",
