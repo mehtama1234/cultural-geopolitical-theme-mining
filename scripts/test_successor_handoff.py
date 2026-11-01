@@ -48,7 +48,12 @@ def main() -> int:
         "handoff_sha256": hashlib.sha256((ANALYSIS / "operating-handoff.json").read_bytes()).hexdigest(),
         "boundary": "This proves a reproducible read-only validation path, not named human ownership or approval of a company pilot.",
     }
-    OUTPUT.write_text(json.dumps(payload, indent=2) + "\n")
+    # During the refresh pipeline the manifest is built against the current
+    # tree, so refresh the generated evidence. After a release is committed,
+    # ordinary validation must remain read-only; rewriting the evidence with a
+    # newer HEAD would make the packaged manifest internally inconsistent.
+    if manifest.get("source_tree_commit") == commit:
+        OUTPUT.write_text(json.dumps(payload, indent=2) + "\n")
     print(f"successor handoff validation: {status}")
     return 0 if status == "pass" else 1
 
