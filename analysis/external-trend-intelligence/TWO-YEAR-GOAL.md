@@ -141,9 +141,14 @@ company decision contracts with privacy and lawful-access approval.
 - `observation-manifest.json` and `evidence-contract-audit.json` — evidence;
 - `candidate-qualification-matrix.json` and `falsification-review-queue.json`;
 - `observatory-chart-catalog.json` and `frontend-publication-registry.json`;
+- `frontend-publication-review-packet.json` — chart-to-board target mapping and
+  visible-field review handoff;
 - `continuity-coverage-plan.json` and `refresh-continuity-audit.json`;
+- `continuity-review-packet.json` — scheduled weekly windows and release-owner
+  signoff fields;
 - `pilot-activation-queue.json` and `pilot-bridge-simulation.json`; and
-- `ANALYST-OPERATING-MODEL.md` and `REFRESH-RUNBOOK.md` — operating workflow.
+- `ANALYST-OPERATING-MODEL.md`, `successor-review-packet.json`, and
+  `REFRESH-RUNBOOK.md` — operating and handoff workflow.
 
 This document describes the goal and operating contract. The JSON artifacts,
 source records, validators, and release manifest remain the source of truth for
