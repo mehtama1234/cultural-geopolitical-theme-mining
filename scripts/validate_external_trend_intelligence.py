@@ -318,8 +318,9 @@ def main() -> int:
     assert len(repair_plan["why_not_pooled"]) >= 3
     assert repair_plan["target_outcome"]["required_measures"]
     assert repair_plan["acceptance_criteria"] and repair_plan["stop_rule"]
-    assert len(repair_plan["source_screen_2026_10_31"]) == 5
+    assert len(repair_plan["source_screen_2026_10_31"]) == 6
     assert {row["screen_status"] for row in repair_plan["source_screen_2026_10_31"]} >= {"best_public_candidate", "counter_signal_only"}
+    assert any(row["publisher"] == "Open Repair Alliance" and row["screen_status"] == "phone_specific_global_outcome_candidate_gated_download" for row in repair_plan["source_screen_2026_10_31"])
     census_repair = json.loads((ANALYSIS / "census-repair-industry-snapshot.json").read_text())
     assert census_repair["schema"] == "external-trend-intelligence.census-repair-industry-snapshot.v1"
     assert census_repair["status"] == "descriptive_industry_proxy_not_phone_outcome"

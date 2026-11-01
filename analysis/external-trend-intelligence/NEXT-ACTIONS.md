@@ -103,6 +103,15 @@ measurement-boundary check, not independent confirmation: both series come
 from Census, cover different populations, and use different repair-category
 granularity.
 
+The phone-repair acquisition screen now includes the [Open Repair Alliance
+dataset](https://openrepair.org/open-data/downloads/), a potentially useful
+phone-specific outcome source with row-level repair attempts, outcomes, device
+age, barriers, dates, and geography. ORA describes the current release as
+global community-repair data under CC BY-SA 4.0. It is not a representative US
+transaction panel, and the download is gated by a publisher contact form, so
+the candidate remains held until the issued file, checksum, missingness, and
+country/event selection are reviewed.
+
 The food-insecurity independent challenge was also corrected against Urban's
 published methods: the WBNS measure uses a 12-month reference period and the
 six-item USDA short form, not a 30-day period. The comparison still remains

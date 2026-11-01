@@ -1410,12 +1410,25 @@
       "blocker_count": 6,
       "pipeline_step_count": 104,
       "pipeline_status": "passed"
+    },
+    {
+      "run_id": "2026-11-01T02:50:21+00:00",
+      "source_tree_revision": "15b0b4997bb09fc50063c72782b9b455c43ed3e5",
+      "record_count": 2135,
+      "parse_error_count": 0,
+      "source_family_count": 8,
+      "ready_for_review_count": 8,
+      "incomplete_count": 0,
+      "release_status": "operational_with_open_gates",
+      "blocker_count": 6,
+      "pipeline_step_count": 104,
+      "pipeline_status": "passed"
     }
   ],
   "append_only": true,
   "latest": {
-    "run_id": "2026-11-01T02:46:52+00:00",
-    "source_tree_revision": "117fecb44c6a309373b47910bc60b9580f38b019",
+    "run_id": "2026-11-01T02:50:21+00:00",
+    "source_tree_revision": "15b0b4997bb09fc50063c72782b9b455c43ed3e5",
     "record_count": 2135,
     "parse_error_count": 0,
     "source_family_count": 8,
@@ -1426,6 +1439,6 @@
     "pipeline_step_count": 104,
     "pipeline_status": "passed"
   },
-  "run_count": 110,
+  "run_count": 111,
   "boundary": "This ledger proves refresh execution and observed control-plane state across runs. It does not prove source freshness, rights clearance, trend validity, or causal outcomes."
 }

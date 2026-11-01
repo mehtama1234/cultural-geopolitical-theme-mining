@@ -124,6 +124,16 @@
       "screen_status": "labor_context_only",
       "what_it_can_support": "broad employment/output context for electronic and precision equipment repair",
       "limitation": "category is broader than phone repair and cannot establish consumer repair access or policy effect"
+    },
+    {
+      "publisher": "Open Repair Alliance",
+      "artifact": "Open Repair Alliance full open repair dataset, ORDS v0.3",
+      "url": "https://openrepair.org/open-data/downloads/",
+      "screen_status": "phone_specific_global_outcome_candidate_gated_download",
+      "what_it_can_support": "row-level community repair attempts, device category, repair outcome, product age, barriers, event date, and geography; the current release includes more than 416,000 EEE records through July 2026",
+      "rights_basis": "Open Repair Alliance states CC BY-SA 4.0; the download form requests contact/use information before issuing the dataset link",
+      "limitation": "global community-repair events are not a representative US transaction panel; selection, event coverage, partner composition, and phone-category completeness must be assessed before any US policy comparison",
+      "acquisition_next_step": "Complete the publisher download form, retain the issued URL and checksum, inspect ORDS v0.3 fields, and screen mobile-phone rows by country, event date, outcome, and missingness"
     }
   ],
   "required_fields": [
