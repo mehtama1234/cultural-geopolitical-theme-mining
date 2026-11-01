@@ -57,6 +57,11 @@ publisher/type/date fields, required evidence, four possible dispositions, a
 10-business-day assignment target, and a fail-closed stop rule. All 47 start
 unassigned and remain blocked from any company bridge until review is complete.
 
+The [first review batch](ibis-first-review-batch.json) selects ten claims from
+that queue using an explicit rule favoring government/academic source types,
+host diversity, and source count. It is a work packet only: all ten remain
+`pending_manual_review`, with no qualification or internal-data permission.
+
 Next test:
 
 1. Select one finding, beginning with “Compliance Is Becoming Economic

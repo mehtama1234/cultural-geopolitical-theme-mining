@@ -295,6 +295,12 @@ def main() -> int:
     assert ibis_queue["unassigned_count"] == ibis_queue["candidate_count"]
     assert all(row["required_evidence"] and row["stop_rule"] for row in ibis_queue["candidates"])
     assert all(row["company_bridge_status"] == "blocked_external_first_gate" for row in ibis_queue["candidates"])
+    ibis_batch = json.loads((ANALYSIS / "ibis-first-review-batch.json").read_text())
+    assert ibis_batch["schema"] == "external-trend-intelligence.ibis-first-review-batch.v1"
+    assert ibis_batch["status"] == "first_batch_ready_for_manual_review"
+    assert ibis_batch["batch_size"] == len(ibis_batch["claims"]) == min(10, ibis_queue["candidate_count"])
+    assert all(row["review_status"] == "pending_manual_review" and row["disposition"] == "pending" for row in ibis_batch["claims"])
+    assert all(row["required_review"] and row["stop_rule"] for row in ibis_batch["claims"])
     ibis_force_map = json.loads((ANALYSIS / "ibis-force-claim-map.json").read_text())
     assert ibis_force_map["schema"] == "external-trend-intelligence.ibis-force-claim-map.v1"
     assert ibis_force_map["force_count"] == len(ibis_force_map["forces"]) == 6

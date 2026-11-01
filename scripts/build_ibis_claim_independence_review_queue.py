@@ -16,18 +16,26 @@ OUTPUT = ANALYSIS / "ibis-claim-independence-review-queue.json"
 def main() -> int:
     audit = json.loads(AUDIT.read_text())
     sample = json.loads(SAMPLE.read_text())
-    source_by_claim = {}
+    claim_by_key = {}
     for industry in sample["samples"]:
         for claim in industry["claims"]:
             key = f"{industry['industry_slug']}::{claim.get('claim_id')}"
-            source_by_claim[key] = claim.get("sources", [])
+            claim_by_key[key] = {
+                "claim_text": claim.get("claim_text"),
+                "sources": claim.get("sources", []),
+                "outcome_measure_candidates": industry.get("outcome_measure_candidates", []),
+                "industry_sector": industry.get("industry_sector"),
+                "geography": industry.get("geography"),
+                "as_of": industry.get("as_of"),
+            }
 
     candidates = []
     for row in audit["claims"]:
         if row["independence_status"] != "candidate_for_manual_review":
             continue
         key = f"{row['industry_slug']}::{row['claim_id']}"
-        sources = source_by_claim.get(key, [])
+        claim_context = claim_by_key.get(key, {})
+        sources = claim_context.get("sources", [])
         source_rows = [
             {
                 "source_id": source.get("id"),
@@ -44,7 +52,11 @@ def main() -> int:
                 "review_id": f"ibis-independence::{key}",
                 "industry_slug": row["industry_slug"],
                 "claim_id": row["claim_id"],
+                "claim_text": claim_context.get("claim_text"),
                 "claim_type": row["claim_type"],
+                "industry_sector": claim_context.get("industry_sector"),
+                "geography": claim_context.get("geography"),
+                "as_of": claim_context.get("as_of"),
                 "priority": priority,
                 "review_status": "unassigned",
                 "independence_candidate_basis": {
@@ -54,6 +66,7 @@ def main() -> int:
                     "dependency_flags": row["dependency_flags"],
                 },
                 "sources": source_rows,
+                "outcome_measure_candidates": claim_context.get("outcome_measure_candidates", []),
                 "required_evidence": [
                     "verify the named publisher and legal source owner",
                     "confirm whether each source is primary, secondary, or company-sponsored",
