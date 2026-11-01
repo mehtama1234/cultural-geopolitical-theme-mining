@@ -1,6 +1,6 @@
 {
   "schema": "external-trend-intelligence.refresh-status.v1",
-  "generated_at": "2026-11-01T03:34:35.538640+00:00",
+  "generated_at": "2026-11-01T03:37:45.496519+00:00",
   "source_schedule": "refresh-schedule.json",
   "source_registry": "source-family-registry.json",
   "family_count": 8,
@@ -23,7 +23,7 @@
         {
           "path": "candidate-comparisons.json",
           "exists": true,
-          "age_hours": 4.01
+          "age_hours": 4.07
         }
       ],
       "status": "ready_for_review",
@@ -40,12 +40,12 @@
         {
           "path": "external-family-observations.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.02
         },
         {
           "path": "external-family-lineage-review.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.02
         }
       ],
       "status": "ready_for_review",
@@ -62,12 +62,12 @@
         {
           "path": "external-family-observations.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.02
         },
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 8.28
+          "age_hours": 8.33
         }
       ],
       "status": "ready_for_review",
@@ -89,7 +89,7 @@
         {
           "path": "external-family-observations.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.02
         }
       ],
       "status": "ready_for_review",
@@ -111,7 +111,7 @@
         {
           "path": "external-family-observations.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.02
         }
       ],
       "status": "ready_for_review",
@@ -133,12 +133,12 @@
         {
           "path": "external-family-observations.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.02
         },
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 8.28
+          "age_hours": 8.33
         }
       ],
       "status": "ready_for_review",
@@ -155,12 +155,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 7.18
+          "age_hours": 7.24
         },
         {
           "path": "REFRESH-RUNBOOK.md",
           "exists": true,
-          "age_hours": 1.66
+          "age_hours": 1.71
         }
       ],
       "status": "ready_for_review",
@@ -177,12 +177,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 7.18
+          "age_hours": 7.24
         },
         {
           "path": "internal-bridge-schema.json",
           "exists": true,
-          "age_hours": 9.22
+          "age_hours": 9.27
         }
       ],
       "status": "ready_for_review",
