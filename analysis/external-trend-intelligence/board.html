@@ -858,6 +858,9 @@
       fetch('open-repair-alliance-mobile-snapshot.json').then(r => r.json()).then(snapshot => {
         ibisSamples.prepend(card('Open Repair Alliance mobile outcomes', snapshot.status, `${snapshot.coverage.mobile_record_count.toLocaleString()} global mobile records · ${snapshot.coverage.us_mobile_record_count} USA records. Community-event proxy only; ${snapshot.pooling_decision}.`));
       });
+      fetch('open-repair-alliance-mobile-adequacy-review.json').then(r => r.json()).then(review => {
+        ibisSamples.prepend(card('ORA policy-backtest adequacy', review.status, `${review.observed_scope.global_mobile_records.toLocaleString()} global / ${review.observed_scope.us_mobile_records} USA records reviewed. ${review.decision} Next: ${review.next_action}`));
+      });
       fetch('ibis-force-claim-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => ibisSamples.append(card(`${row.title} · ${row.publisher_count} publishers`, row.review_status, `${row.claim_reference_count} claim references · ${row.claim_period_missing_count} missing periods · ${row.independence_status}. ${row.next_action}`)));
       });

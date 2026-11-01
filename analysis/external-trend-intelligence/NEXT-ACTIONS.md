@@ -120,6 +120,14 @@ This is now an observed phone-specific proxy, not merely an acquisition
 candidate; it remains non-pooled and cannot support a U.S. policy effect or
 company exposure claim.
 
+The companion [ORA adequacy review](open-repair-alliance-mobile-adequacy-review.json)
+records the explicit qualification decision: acquisition is complete, but the
+dataset lacks state geography, a policy treatment/control definition, a stable
+population denominator, price, replacement, and device-life outcomes. It is
+therefore useful for descriptive context and hypothesis generation only, not a
+policy backtest or company pilot. The next acquisition target is a
+representative US transaction or consumer panel with those fields.
+
 The food-insecurity independent challenge was also corrected against Urban's
 published methods: the WBNS measure uses a 12-month reference period and the
 six-item USDA short form, not a 30-day period. The comparison still remains

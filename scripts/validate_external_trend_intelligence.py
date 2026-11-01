@@ -331,6 +331,13 @@ def main() -> int:
     assert ora_mobile["source"]["license"] == "CC BY-SA 4.0"
     assert ora_mobile["pooling_decision"] == "do_not_pool_with_census_industry_proxies_state_policy_or_global_ewaste"
     assert ora_mobile["interpretation_boundary"] and ora_mobile["uncertainty"] and ora_mobile["falsifier"]
+    ora_adequacy = json.loads((ANALYSIS / "open-repair-alliance-mobile-adequacy-review.json").read_text())
+    assert ora_adequacy["schema"] == "external-trend-intelligence.open-repair-alliance-mobile-adequacy-review.v1"
+    assert ora_adequacy["status"] == "acquired_but_policy_backtest_inadequate"
+    assert ora_adequacy["observed_scope"]["global_mobile_records"] == ora_mobile["coverage"]["mobile_record_count"]
+    assert ora_adequacy["observed_scope"]["us_mobile_records"] == ora_mobile["coverage"]["us_mobile_record_count"]
+    assert not any(ora_adequacy["field_coverage_assessment"].values())
+    assert len(ora_adequacy["why_held"]) >= 3 and ora_adequacy["next_action"] and ora_adequacy["falsifier"]
     census_repair = json.loads((ANALYSIS / "census-repair-industry-snapshot.json").read_text())
     assert census_repair["schema"] == "external-trend-intelligence.census-repair-industry-snapshot.v1"
     assert census_repair["status"] == "descriptive_industry_proxy_not_phone_outcome"

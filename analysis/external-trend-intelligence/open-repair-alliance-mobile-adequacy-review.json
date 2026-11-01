@@ -1,0 +1,48 @@
+{
+  "schema": "external-trend-intelligence.open-repair-alliance-mobile-adequacy-review.v1",
+  "status": "acquired_but_policy_backtest_inadequate",
+  "source_artifact": "open-repair-alliance-mobile-snapshot.json",
+  "question": "Can this external phone-specific outcome proxy test whether repair-policy exposure changes repair outcomes for a US company-relevant population?",
+  "observed_scope": {
+    "global_mobile_records": 6290,
+    "us_mobile_records": 230,
+    "population": "items logged at participating community repair events",
+    "geography": "country only in the published EEE extract"
+  },
+  "available_fields": [
+    "country",
+    "event_date",
+    "repair_status",
+    "product_age",
+    "brand",
+    "data_provider",
+    "partner_product_category",
+    "repair_barrier_if_end_of_life"
+  ],
+  "required_for_policy_backtest": [
+    "state_or_subnational_geography",
+    "policy_exposure_date_and_treatment_definition",
+    "comparison_geography_or_control_group",
+    "stable_outcome_denominator_and_sampling_frame",
+    "repair_price_or_cost",
+    "replacement_decision_or_device_life_outcome"
+  ],
+  "field_coverage_assessment": {
+    "state_or_subnational_geography": false,
+    "policy_exposure_date_and_treatment_definition": false,
+    "comparison_geography_or_control_group": false,
+    "stable_outcome_denominator_and_sampling_frame": false,
+    "repair_price_or_cost": false,
+    "replacement_decision_or_device_life_outcome": false
+  },
+  "decision": "Use for descriptive global/US community-repair context and hypothesis generation only. Do not pool with Census proxies, state-policy records, e-waste, or company data; do not claim a policy effect or population repair rate.",
+  "why_held": [
+    "The file has country but no state or other subnational treatment geography.",
+    "Community-event participation is a selected convenience sample, not a population denominator.",
+    "Repair status is observed, but price, replacement, and device-life outcomes are absent."
+  ],
+  "next_action": "Acquire a representative US transaction or consumer panel with state, policy timing, denominator, and replacement/device-life measures; use ORA only as a descriptive external comparator until then.",
+  "falsifier": "A later state-resolved, representative outcome source shows a materially different direction or timing than the ORA descriptive signal.",
+  "rights_and_lineage": "Carry forward the ORA CC BY-SA 4.0 attribution, archive checksum, and field-level transformation notes from the source snapshot.",
+  "boundary": "Acquisition is complete; qualification for the policy or company-pilot question is not."
+}
