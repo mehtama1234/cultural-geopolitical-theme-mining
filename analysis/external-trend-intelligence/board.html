@@ -888,7 +888,7 @@
       fetch('frontend-publication-review-packet.json').then(r => r.json()).then(packet => {
         const target = el('frontend-publication-review');
         target.append(card(`${packet.review_count} chart publication reviews`, `${packet.open_review_count} review required`, `${packet.boundary} Next: ${packet.next_action}`));
-        packet.reviews.forEach(review => target.append(card(review.title, review.contract_status, `${review.theme} / ${review.subtheme}. Missing chart-level declarations: ${review.missing_chart_level_declarations.join(', ') || 'none'}. ${review.boundary}`)));
+        packet.reviews.forEach(review => target.append(card(review.title, `${review.contract_status} · ${review.frontend_target_status}`, `${review.theme} / ${review.subtheme}. Frontend target: ${review.frontend_target_id || 'unassigned'}. Missing chart-level declarations: ${review.missing_chart_level_declarations.join(', ') || 'none'}. ${review.boundary}`)));
       });
       fetch('evidence-acquisition-plan.json').then(r => r.json()).then(plan => {
         plan.tracks.forEach(track => el('acquisition-queue').append(card(track.track_id.replaceAll('-', ' '), track.owner, `${track.target_source}. Acceptance: ${track.acceptance_criteria.join(' · ')} Stop: ${track.stop_rule}`)));

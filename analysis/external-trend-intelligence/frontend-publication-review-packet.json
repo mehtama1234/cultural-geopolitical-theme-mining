@@ -46,6 +46,8 @@
         "uncertainty",
         "unit"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -77,6 +79,8 @@
         "uncertainty",
         "unit"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -108,6 +112,8 @@
         "subtheme",
         "theme"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -137,6 +143,8 @@
         "theme",
         "uncertainty"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -166,6 +174,8 @@
         "subtheme",
         "theme"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -199,6 +209,8 @@
         "theme",
         "unit"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -232,6 +244,8 @@
         "uncertainty",
         "unit"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -261,6 +275,8 @@
         "subtheme",
         "theme"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -290,6 +306,8 @@
         "subtheme",
         "theme"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -324,6 +342,8 @@
         "uncertainty",
         "unit"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -357,11 +377,13 @@
         "uncertainty",
         "unit"
       ],
+      "frontend_target_id": "",
+      "frontend_target_status": "target_assignment_required",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
     }
   ],
   "boundary": "This packet checks publication-contract completeness only. It does not render charts, grant rights, qualify a trend, or authorize a company bridge.",
-  "next_action": "For every chart, map period, unit, geography, denominator, uncertainty, counter-signal, evidence boundary, and company gate to visible frontend fields; record reviewer disposition before calling the chart decision-ready."
+  "next_action": "For every chart, assign a frontend page/component target and map period, unit, geography, denominator, uncertainty, counter-signal, evidence boundary, and company gate to visible fields; record reviewer disposition before calling the chart decision-ready."
 }

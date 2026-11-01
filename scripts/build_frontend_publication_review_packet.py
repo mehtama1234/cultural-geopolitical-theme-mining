@@ -33,6 +33,8 @@ def main() -> int:
                 "boundary": chart["boundary"],
                 "contract_status": "source_contract_review_required" if missing_declaration else "declared",
                 "missing_chart_level_declarations": missing_declaration,
+                "frontend_target_id": "",
+                "frontend_target_status": "target_assignment_required",
                 "reviewer": "",
                 "reviewed_at": "",
                 "disposition": "",
@@ -48,7 +50,7 @@ def main() -> int:
         "required_chart_metadata": sorted(required),
         "reviews": reviews,
         "boundary": "This packet checks publication-contract completeness only. It does not render charts, grant rights, qualify a trend, or authorize a company bridge.",
-        "next_action": "For every chart, map period, unit, geography, denominator, uncertainty, counter-signal, evidence boundary, and company gate to visible frontend fields; record reviewer disposition before calling the chart decision-ready.",
+        "next_action": "For every chart, assign a frontend page/component target and map period, unit, geography, denominator, uncertainty, counter-signal, evidence boundary, and company gate to visible fields; record reviewer disposition before calling the chart decision-ready.",
     }
     OUTPUT.write_text(json.dumps(packet, indent=2) + "\n")
     print(f"wrote {OUTPUT} ({len(reviews)} charts; {packet['open_review_count']} require review)")
