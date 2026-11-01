@@ -104,6 +104,7 @@ def main() -> int:
                             "Backtest evidence readiness",
                             "pinned_git_record_path_count",
                             "IBIS sample coverage",
+                            "claim_level_review",
                             "ibis-sector-chart",
                             "ibis-source-type-chart",
                         ]

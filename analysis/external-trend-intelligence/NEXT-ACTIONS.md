@@ -36,6 +36,13 @@ counterexample candidates; they are not proof that the finding is false or
 that the pattern engine's threshold is unbiased. This is progress toward the
 gate, not full-finding validation.
 
+The sample now also carries a claim-level review table for 1,500 sampled claims.
+It explicitly counts URL-locator, publisher-identity, temporal-metadata,
+source-type, outcome-linkage, and independence-review status. In the current
+refresh, 1,452 claims have URL locators, 1,227 have publisher identity, and
+1,230 have temporal metadata; all 1,500 remain pending independence review.
+These counts are evidence of the remaining work, not a promotion decision.
+
 Next test:
 
 1. Select one finding, beginning with “Compliance Is Becoming Economic

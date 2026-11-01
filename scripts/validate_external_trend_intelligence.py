@@ -379,6 +379,12 @@ def main() -> int:
     assert ibis_sample["sample_source_url_count"] == len(ibis_sample["sample_source_urls"]) >= 1
     assert ibis_sample["sample_source_host_count"] >= 1
     assert all(count > 1 for count in ibis_sample["duplicate_source_urls"].values())
+    claim_review = ibis_sample["claim_review_summary"]
+    assert claim_review["claim_count"] == sum(len(sample["claims"]) for sample in ibis_sample["samples"])
+    assert claim_review["claim_count"] == len(claim_review["review_rows"])
+    assert claim_review["source_identity_pass_count"] == claim_review["claim_count"]
+    assert claim_review["independence_pending_count"] == claim_review["claim_count"]
+    assert all("review" in claim for sample in ibis_sample["samples"] for claim in sample["claims"])
     care_candidate = json.loads((ANALYSIS / "care-capacity-candidate.json").read_text())
     assert care_candidate["schema"] == "external-trend-intelligence.external-care-capacity-candidate.v1"
     assert care_candidate["status"] == "held_candidate"

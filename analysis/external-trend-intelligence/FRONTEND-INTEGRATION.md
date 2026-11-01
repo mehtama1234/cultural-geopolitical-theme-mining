@@ -21,6 +21,7 @@ blockers.
 | Monitoring view | `trend-monitoring-register.json` | state, cadence, leading indicators, reversal conditions |
 | Case panel | `case-stage-panel.json`, `bounded-subset-lineage-review.json` | stage status, not-observed distinction, hosts, shared-host overlap, independence status |
 | IBIS bounded outcome panel | `ibis-adult-day-outcome-review.json` | dated measures, derived changes, uncertainty, cross-publisher status, counter-signal, next action |
+| IBIS claim review | `ibis-finding-claim-sample.json` | sampled claim count, source identity, URL/publisher/time metadata, outcome-linkage candidate, independence pending status |
 | Independent comparison | `independent-stage-comparison.json`, `room-independent-comparison.json` | source families, mechanism status, blocking items, non-pooling boundary |
 | Temporal holdout and narrative | `temporal-holdout-design.json`, `temporal-holdout-result.json`, `temporal-decision-narrative.json` | construction/holdout periods, units, directional result, counter-signal, uncertainty, decision use |
 | Rights evidence | `rights-review-queue.json`, `rights-assignment-queue.json`, `rights-evidence-register.json` | rights status, accountable review owner, local evidence files, hashes, publisher dependence, stop rule |

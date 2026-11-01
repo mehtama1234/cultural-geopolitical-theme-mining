@@ -785,7 +785,10 @@
       ibisSampleDuplicateUrlCount = Object.keys(ibisSample.duplicate_source_urls).length;
       barChart(el('ibis-sector-chart'), Object.entries(ibisSample.sample_sector_counts).sort((a, b) => b[1] - a[1]).slice(0, 18), ibisSample.sample_industry_count);
       barChart(el('ibis-source-type-chart'), Object.entries(ibisSample.source_type_counts_in_sample).sort((a, b) => b[1] - a[1]), Math.max(...Object.values(ibisSample.source_type_counts_in_sample), 1));
-      const ibisSamples = el('ibis-sample'); ibisSample.samples.forEach(sample => ibisSamples.append(ibisSampleCard(sample)));
+      const ibisSamples = el('ibis-sample');
+      const claimReview = ibisSample.claim_review_summary;
+      ibisSamples.append(card(`${claimReview.claim_count} sampled claims adjudicated`, 'claim_level_review', `${claimReview.url_locator_pass_count} have URL locators · ${claimReview.publisher_identity_pass_count} have publisher identity · ${claimReview.temporal_metadata_pass_count} have temporal metadata · ${claimReview.independence_pending_count} remain pending independence review`));
+      ibisSample.samples.forEach(sample => ibisSamples.append(ibisSampleCard(sample)));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
     fetch('program-scorecard.json').then(r => r.json()).then(scorecard => {
       const m = scorecard.metrics;

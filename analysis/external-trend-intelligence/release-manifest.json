@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "f8b1a66cf90e3b66b2f9947af9d3257eaf7bdd38",
+  "source_tree_commit": "de051738c88439db3172dee803ebbe8bbbd82947",
   "artifact_count": 101,
   "artifacts": [
     {
@@ -61,8 +61,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 4488,
-      "sha256": "6a404c091233b79a0e0a594e9b377b8a608339fd673ee533a5f08a431cc56cee"
+      "bytes": 4669,
+      "sha256": "ad30123f55ae3469de2a10b8702b663a09a28fe7f87cbc4e0d8f80f4af39d072"
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
@@ -201,8 +201,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
-      "bytes": 6693,
-      "sha256": "e74a09608573a386aa92e9150fd0df6851690d427704e761a7c0d456dcf213af"
+      "bytes": 7152,
+      "sha256": "4d2a40cde2d4dd2da4649ad691b057b6538aa0475b041587b526330e19bb29d0"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -286,8 +286,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",
-      "bytes": 4317492,
-      "sha256": "7adc48fad551db21756b793ed60c63587a82f1fe8a561626dc96e114da208242"
+      "bytes": 5538582,
+      "sha256": "8fab08441df3feb8fbafde20f47036b2fd9324e082e446427611d3ea3199a13d"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-force-claim-map.json",
@@ -491,8 +491,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 71658,
-      "sha256": "e701bde6feb93635ff7f78173bc9aaf0cf80781af7456c8d603a639267abff88"
+      "bytes": 72115,
+      "sha256": "d8e4c07d7f910da8e5b1050c46de7ae2216d57928b84b955f7288b56d1e355ad"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",

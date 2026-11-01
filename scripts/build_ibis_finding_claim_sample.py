@@ -46,10 +46,18 @@ def main() -> int:
     samples = []
     for slug in industries:
         record = json.loads(show(f"business_knowledge_examples/{slug}.json"))
+        outcome_measure_candidates = sorted({
+            signal
+            for force in record.get("forces", [])
+            for signal in force.get("signals_to_watch", [])
+        })
         claims = []
         for claim in record.get("evidence", {}).get("claims", [])[:3]:
             source_ids = claim.get("source_ids", [])
             sources = [source for source in record.get("evidence", {}).get("sources", []) if source.get("id") in source_ids]
+            has_url = bool(sources) and all(source.get("url") for source in sources)
+            has_publisher = bool(sources) and all(source.get("publisher") and source.get("publisher") != "source inventory" for source in sources)
+            has_time = bool(claim.get("period")) or any(source.get("published_at") for source in sources)
             claims.append(
                 {
                     "claim_id": claim.get("id"),
@@ -57,6 +65,15 @@ def main() -> int:
                     "claim_type": claim.get("claim_type"),
                     "source_ids": source_ids,
                     "sources": sources,
+                    "review": {
+                        "source_identity": "pass" if source_ids and sources else "fail",
+                        "url_locator": "pass" if has_url else "fail",
+                        "publisher_identity": "pass" if has_publisher else "fail",
+                        "temporal_metadata": "pass" if has_time else "fail",
+                        "source_type": "pass" if sources and all(source.get("source_type") for source in sources) else "fail",
+                        "outcome_linkage": "candidate_available" if outcome_measure_candidates else "missing",
+                        "independence": "pending_claim_level_review",
+                    },
                 }
             )
         samples.append(
@@ -67,11 +84,7 @@ def main() -> int:
                 "geography": record["identity"]["geography"],
                 "as_of": record["scope"]["as_of"],
                 "claims": claims,
-                "outcome_measure_candidates": sorted({
-                    signal
-                    for force in record.get("forces", [])
-                    for signal in force.get("signals_to_watch", [])
-                }),
+                "outcome_measure_candidates": outcome_measure_candidates,
                 "record_falsifiers": record.get("judgment", {}).get("falsifiers", []),
             }
         )
@@ -110,15 +123,32 @@ def main() -> int:
     counterexamples = []
     for sector, slug, record in counterexample_records[:COUNTEREXAMPLE_SIZE]:
         claims = []
+        outcome_measure_candidates = sorted({
+            signal
+            for force in record.get("forces", [])
+            for signal in force.get("signals_to_watch", [])
+        })
         for claim in record.get("evidence", {}).get("claims", [])[:2]:
             source_ids = claim.get("source_ids", [])
             sources = [source for source in record.get("evidence", {}).get("sources", []) if source.get("id") in source_ids]
+            has_url = bool(sources) and all(source.get("url") for source in sources)
+            has_publisher = bool(sources) and all(source.get("publisher") and source.get("publisher") != "source inventory" for source in sources)
+            has_time = bool(claim.get("period")) or any(source.get("published_at") for source in sources)
             claims.append({
                 "claim_id": claim.get("id"),
                 "claim_text": claim.get("text"),
                 "claim_type": claim.get("claim_type"),
                 "source_ids": source_ids,
                 "sources": sources,
+                "review": {
+                    "source_identity": "pass" if source_ids and sources else "fail",
+                    "url_locator": "pass" if has_url else "fail",
+                    "publisher_identity": "pass" if has_publisher else "fail",
+                    "temporal_metadata": "pass" if has_time else "fail",
+                    "source_type": "pass" if sources and all(source.get("source_type") for source in sources) else "fail",
+                    "outcome_linkage": "candidate_available" if outcome_measure_candidates else "missing",
+                    "independence": "pending_claim_level_review",
+                },
             })
         counterexamples.append({
             "industry_slug": slug,
@@ -140,6 +170,22 @@ def main() -> int:
     ]
     publisher_counts = Counter(source.get("publisher", "unknown") for source in source_rows)
     source_type_counts = Counter(source.get("source_type", "unknown") for source in source_rows)
+    claim_rows = [
+        {"industry_slug": sample["industry_slug"], "claim_id": claim["claim_id"], "review": claim["review"]}
+        for sample in samples
+        for claim in sample["claims"]
+    ]
+    review_summary = {
+        "claim_count": len(claim_rows),
+        "source_identity_pass_count": sum(row["review"]["source_identity"] == "pass" for row in claim_rows),
+        "url_locator_pass_count": sum(row["review"]["url_locator"] == "pass" for row in claim_rows),
+        "publisher_identity_pass_count": sum(row["review"]["publisher_identity"] == "pass" for row in claim_rows),
+        "temporal_metadata_pass_count": sum(row["review"]["temporal_metadata"] == "pass" for row in claim_rows),
+        "source_type_pass_count": sum(row["review"]["source_type"] == "pass" for row in claim_rows),
+        "outcome_linkage_candidate_count": sum(row["review"]["outcome_linkage"] == "candidate_available" for row in claim_rows),
+        "independence_pending_count": sum(row["review"]["independence"] == "pending_claim_level_review" for row in claim_rows),
+        "review_rows": claim_rows,
+    }
     payload = {
         "schema": "external-trend-intelligence.ibis-finding-claim-sample.v1",
         "finding_slug": pattern["slug"],
@@ -158,6 +204,7 @@ def main() -> int:
         "counterexample_selection": "one non-matching industry per observed sector, then sorted fill",
         "source_publisher_counts_in_sample": dict(sorted(publisher_counts.items())),
         "source_type_counts_in_sample": dict(sorted(source_type_counts.items())),
+        "claim_review_summary": review_summary,
         "sample_source_urls": sorted({
             source["url"]
             for sample in samples
