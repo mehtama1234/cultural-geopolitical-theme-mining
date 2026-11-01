@@ -58,6 +58,13 @@ def main() -> int:
         ],
         "interpretation": "The official FY2026 Navy budget context documents planned maintenance funding and availability workload relevant to the dry-dock/defense claim. It is an external demand and policy context signal, not proof of contract awards, berth utilization, inspection volume, or company performance.",
         "independence_status": "publisher_distinct_official_budget_context_lineage_review_pending",
+        "lineage_adjudication": {
+            "publisher_relationship": "distinct_publication_routes",
+            "upstream_overlap_risk": "high",
+            "basis": "Navy budget PDFs and USAspending transactions may describe the same Department of Defense/Navy program activity through different publication systems.",
+            "disposition": "publisher_distinct_upstream_overlap_possible",
+            "required_next_test": "Match award IDs, program elements, facility identity, fiscal-year scope, and execution milestones before counting the sources as independent.",
+        },
         "rights_boundary": "Retain normalized observations, source URLs, retrieval time, hashes, and attribution. Do not redistribute the source PDFs or imply that metadata retention clears downstream commercial reuse without exact-artifact review.",
         "counter_signal": "Budgeted workload can be delayed, reprogrammed, or executed by different facilities; planned availabilities do not establish realized demand or capacity utilization.",
         "falsifier": "Subsequent execution records show no corresponding awards, availabilities, or maintenance workload, or the budget context is not comparable to the IBIS claim's unit and period.",

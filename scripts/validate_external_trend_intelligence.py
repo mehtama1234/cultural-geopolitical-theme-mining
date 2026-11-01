@@ -383,6 +383,8 @@ def main() -> int:
     assert len(dock_outcome["observations"]) == 4
     assert dock_outcome["release_decision"] == "retain_normalized_official_context_only"
     assert dock_outcome["rights_boundary"] and dock_outcome["next_action"]
+    assert dock_outcome["lineage_adjudication"]["upstream_overlap_risk"] == "high"
+    assert dock_outcome["lineage_adjudication"]["disposition"] == "publisher_distinct_upstream_overlap_possible"
     navy_execution = json.loads((ANALYSIS / "usaspending-bath-iron-works-execution-snapshot.json").read_text())
     assert navy_execution["schema"] == "external-trend-intelligence.usaspending-bath-iron-works-execution-snapshot.v1"
     assert navy_execution["status"] == "official_execution_snapshot_lineage_review_pending"

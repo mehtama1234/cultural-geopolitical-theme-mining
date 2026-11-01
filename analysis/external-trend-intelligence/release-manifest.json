@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "b26a99c090df273efcca87d2d9d276348d0b7353",
+  "source_tree_commit": "6b05a233f8e06acd1363c31d2188349c1ddaa40a",
   "artifact_count": 168,
   "artifacts": [
     {
@@ -541,8 +541,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-dock-defense-outcome-review.json",
-      "bytes": 4042,
-      "sha256": "014fb706d5b98f8cc264214c27798f2ea27166a4734e5dc4ab630ff5d4370746"
+      "bytes": 4577,
+      "sha256": "713d407c46d832c76fef8f6bfbc454be97bf0d952a3d0300be2b0b755f446a05"
     },
     {
       "path": "analysis/external-trend-intelligence/usaspending-bath-iron-works-execution-snapshot.json",
