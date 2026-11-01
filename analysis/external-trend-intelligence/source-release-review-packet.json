@@ -1,0 +1,415 @@
+{
+  "schema": "external-trend-intelligence.source-release-review-packet.v1",
+  "status": "ready_for_source_steward_review",
+  "source_count": 10,
+  "rows": [
+    {
+      "source_id": "ora-ords-v03-mobile-aggregate-202607",
+      "publisher": "Open Repair Alliance",
+      "artifact": "open-repair-alliance-mobile-snapshot.json",
+      "current_status": "latest_pinned_period_recorded",
+      "latest_observation_period": "through July 2026",
+      "next_target_period": "next ORA aggregate release",
+      "cadence_or_trigger": "new aggregate archive or schema revision",
+      "acquisition_action": "Screen USA rows and event dates against New York and Colorado policy effective dates only as descriptive context; acquire a representative US transaction or consumer outcome before any policy or company claim.",
+      "current_checksum": "sha256:48479df5238feecd52507db20faf9561a35818b9bfb70a0d96091c0af8853775",
+      "current_rights_boundary": "ORA publishes the aggregate dataset under CC BY-SA 4.0; retain attribution and share-alike notices, the exact archive checksum, and field-level transformation notes.",
+      "current_lineage": {
+        "publisher_dependence": "single_publisher_community_event_series",
+        "population_and_unit": "one logged repair attempt/item observed at a participating community repair event",
+        "geography_and_period": "country-level global and USA rows; events through July 2026"
+      },
+      "decision_options": [
+        "acquire_and_replace",
+        "retain_current_artifact",
+        "hold_pending_rights_or_method_review",
+        "retire_watch_target"
+      ],
+      "required_decision_fields": [
+        "official release URL or locator",
+        "release period and revision",
+        "retrieval timestamp and checksum",
+        "population, unit, geography, and period comparison",
+        "method and definition break assessment",
+        "rights and terms evidence",
+        "publisher/upstream dependence disposition",
+        "owner, decision, and next review date"
+      ],
+      "signoff": {
+        "source_steward": null,
+        "lineage_reviewer": null,
+        "rights_reviewer": null,
+        "decision": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "source_id": "census-cbp-electronic-repair-2019-2023",
+      "publisher": "U.S. Census Bureau",
+      "artifact": "census-repair-industry-snapshot.json",
+      "current_status": "target_not_published_or_unavailable",
+      "latest_observation_period": "2023",
+      "next_target_period": "2024",
+      "cadence_or_trigger": "annual CBP release",
+      "acquisition_action": "Retain the current pinned snapshot and recheck the exact official URLs at the next scheduled refresh; do not infer a zero or a missing observation from an unavailable release.",
+      "current_checksum": "multiple_download_checksums_preserved_in_artifact",
+      "current_rights_boundary": "Official Census public download; retain normalized values, source URLs, checksums, and suppression flags rather than redistributing raw ZIP files through the frontend.",
+      "current_lineage": {
+        "publisher_dependence": "single_publisher_census_series",
+        "population_and_unit": "count of establishments with paid employees",
+        "geography_and_period": "US national and state; 2019-2023"
+      },
+      "decision_options": [
+        "acquire_and_replace",
+        "retain_current_artifact",
+        "hold_pending_rights_or_method_review",
+        "retire_watch_target"
+      ],
+      "required_decision_fields": [
+        "official release URL or locator",
+        "release period and revision",
+        "retrieval timestamp and checksum",
+        "population, unit, geography, and period comparison",
+        "method and definition break assessment",
+        "rights and terms evidence",
+        "publisher/upstream dependence disposition",
+        "owner, decision, and next review date"
+      ],
+      "signoff": {
+        "source_steward": null,
+        "lineage_reviewer": null,
+        "rights_reviewer": null,
+        "decision": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "source_id": "census-nes-electronic-repair-2019-2024",
+      "publisher": "U.S. Census Bureau",
+      "artifact": "census-nonemployer-repair-snapshot.json",
+      "current_status": "next_annual_release_targeted",
+      "latest_observation_period": "2024",
+      "next_target_period": "2025",
+      "cadence_or_trigger": "annual NES release",
+      "acquisition_action": "Use as small-business context only; acquire phone-specific transactions or consumer outcomes before any policy, market, or causal claim.",
+      "current_checksum": "multiple_download_checksums_preserved_in_artifact",
+      "current_rights_boundary": "Official Census public downloads; retain normalized values, source URLs, checksums, and flags rather than raw ZIP files in the frontend.",
+      "current_lineage": {
+        "publisher_dependence": "single_publisher_census_series",
+        "population_and_unit": "nonemployer businesses reported by Census",
+        "geography_and_period": "US national and state; 2019-2024"
+      },
+      "decision_options": [
+        "acquire_and_replace",
+        "retain_current_artifact",
+        "hold_pending_rights_or_method_review",
+        "retire_watch_target"
+      ],
+      "required_decision_fields": [
+        "official release URL or locator",
+        "release period and revision",
+        "retrieval timestamp and checksum",
+        "population, unit, geography, and period comparison",
+        "method and definition break assessment",
+        "rights and terms evidence",
+        "publisher/upstream dependence disposition",
+        "owner, decision, and next review date"
+      ],
+      "signoff": {
+        "source_steward": null,
+        "lineage_reviewer": null,
+        "rights_reviewer": null,
+        "decision": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "source_id": "cdc-npals-public-biennial-overview-wibz-pb5q",
+      "publisher": "CDC/NCHS",
+      "artifact": "npals-public-table-extract.json",
+      "current_status": "fresh_api_extract",
+      "latest_observation_period": "2025",
+      "next_target_period": "next biennial or table revision",
+      "cadence_or_trigger": "new NPALS public table or API revision",
+      "acquisition_action": "Map the API table definition and 2025 survey universe to the weighted PDF before using provider, capacity, or attendance changes in qualification.",
+      "current_checksum": "09d4a1b2045cfcaf5eb5a1847867149659063d34664fa93d641f094aa71fd83c",
+      "current_rights_boundary": "Retain normalized API observations, query URL, retrieval time, and source metadata; do not redistribute upstream table contents beyond the permitted public-data use.",
+      "current_lineage": {
+        "publisher_dependence": "single_publisher_government_survey_series",
+        "population_and_unit": "provider, capacity, and people-served rows with CDC table definitions",
+        "geography_and_period": "52 2020 geographies in frame; 44 numeric geographies; national 2022/2025"
+      },
+      "decision_options": [
+        "acquire_and_replace",
+        "retain_current_artifact",
+        "hold_pending_rights_or_method_review",
+        "retire_watch_target"
+      ],
+      "required_decision_fields": [
+        "official release URL or locator",
+        "release period and revision",
+        "retrieval timestamp and checksum",
+        "population, unit, geography, and period comparison",
+        "method and definition break assessment",
+        "rights and terms evidence",
+        "publisher/upstream dependence disposition",
+        "owner, decision, and next review date"
+      ],
+      "signoff": {
+        "source_steward": null,
+        "lineage_reviewer": null,
+        "rights_reviewer": null,
+        "decision": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "source_id": "federal-reserve-shed-financial-room-2013-2025",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "artifact": "federal-reserve-shed-financial-room-2013-2025.json",
+      "current_status": "latest_report_context_recorded_uncertainty_open",
+      "latest_observation_period": "2025",
+      "next_target_period": "2026",
+      "cadence_or_trigger": "annual SHED release and codebook update",
+      "acquisition_action": "Acquire the next SHED chart-data and codebook release; preserve question wording, weights, design-effect context, and exact-artifact rights review.",
+      "current_checksum": "sha256:9bb2e085e206639cf2ab40913344835a8ea1efb0020ded6b70278e5bbe3ffbce",
+      "current_rights_boundary": "The Federal Reserve publishes the data and documentation; retain the source URL, retrieval date, version hash, and chart-data attribution. This artifact does not determine redistribution or derived-chart rights beyond the publisher's terms.",
+      "current_lineage": {
+        "publisher_dependence": "single_publisher_government_survey_series",
+        "population_and_unit": "U.S. adults age 18 and above; percent of adults",
+        "geography_and_period": "United States"
+      },
+      "decision_options": [
+        "acquire_and_replace",
+        "retain_current_artifact",
+        "hold_pending_rights_or_method_review",
+        "retire_watch_target"
+      ],
+      "required_decision_fields": [
+        "official release URL or locator",
+        "release period and revision",
+        "retrieval timestamp and checksum",
+        "population, unit, geography, and period comparison",
+        "method and definition break assessment",
+        "rights and terms evidence",
+        "publisher/upstream dependence disposition",
+        "owner, decision, and next review date"
+      ],
+      "signoff": {
+        "source_steward": null,
+        "lineage_reviewer": null,
+        "rights_reviewer": null,
+        "decision": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "source_id": "usda-community-food-assistance-2024-ap126",
+      "publisher": "USDA Economic Research Service",
+      "artifact": "usda-community-food-assistance-2024.json",
+      "current_status": "official_source_available",
+      "latest_observation_period": "12 months ending December 2024",
+      "next_target_period": "2025 annual CPS Food Security Supplement",
+      "cadence_or_trigger": "annual ERS household food-security supplement release",
+      "acquisition_action": "Use as a bounded community-food-use outcome context; acquire a provider-side utilization or capacity series before treating it as an industry demand or performance measure.",
+      "current_checksum": "sha256:e5f8428ede1ee0e2a5ea7d35845b2849f0c830aaf1a19ee57831c759c657789d",
+      "current_rights_boundary": "Retain normalized values, source locator, checksum, and attribution; do not redistribute the upstream PDF or reproduce its tables without exact-artifact rights review.",
+      "current_lineage": {
+        "publisher_dependence": "single_publisher_government_survey_series",
+        "population_and_unit": "U.S. households and persons in households represented by the December 2024 CPS Food Security Supplement",
+        "geography_and_period": "United States; 12 months ending December 2024"
+      },
+      "decision_options": [
+        "acquire_and_replace",
+        "retain_current_artifact",
+        "hold_pending_rights_or_method_review",
+        "retire_watch_target"
+      ],
+      "required_decision_fields": [
+        "official release URL or locator",
+        "release period and revision",
+        "retrieval timestamp and checksum",
+        "population, unit, geography, and period comparison",
+        "method and definition break assessment",
+        "rights and terms evidence",
+        "publisher/upstream dependence disposition",
+        "owner, decision, and next review date"
+      ],
+      "signoff": {
+        "source_steward": null,
+        "lineage_reviewer": null,
+        "rights_reviewer": null,
+        "decision": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "source_id": "feeding-america-map-meal-gap-2026-national",
+      "publisher": "Feeding America",
+      "artifact": "feeding-america-map-meal-gap-2026-national.json",
+      "current_status": "official_source_available",
+      "latest_observation_period": "2024 estimate published in 2026",
+      "next_target_period": "next annual Map the Meal Gap release",
+      "cadence_or_trigger": "annual Feeding America model and public-map release",
+      "acquisition_action": "Use as an independent publisher challenge and acquire the request-gated underlying data or technical appendix before any pooled estimate or IBIS promotion.",
+      "current_checksum": "sha256:25ef8a90c4d8c680483fa2604401e57bfe455eb02553d9ce2e8c4f82aa87db23",
+      "current_rights_boundary": "The public page is observable and citable; the underlying county dataset is request-gated. Do not redistribute bulk data or create company-facing derived charts until exact dataset terms and permission are recorded.",
+      "current_lineage": {
+        "publisher_dependence": "single_publisher_modeled_estimate_using_public_inputs",
+        "population_and_unit": "modeled share of individuals living in food-insecure households; estimated population count; annual food budget shortfall in USD; average meal cost in USD",
+        "geography_and_period": "United States national; 2024 estimate published in 2026"
+      },
+      "decision_options": [
+        "acquire_and_replace",
+        "retain_current_artifact",
+        "hold_pending_rights_or_method_review",
+        "retire_watch_target"
+      ],
+      "required_decision_fields": [
+        "official release URL or locator",
+        "release period and revision",
+        "retrieval timestamp and checksum",
+        "population, unit, geography, and period comparison",
+        "method and definition break assessment",
+        "rights and terms evidence",
+        "publisher/upstream dependence disposition",
+        "owner, decision, and next review date"
+      ],
+      "signoff": {
+        "source_steward": null,
+        "lineage_reviewer": null,
+        "rights_reviewer": null,
+        "decision": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "source_id": "urban-wbns-food-insecurity-2025",
+      "publisher": "Urban Institute",
+      "artifact": "urban-wbns-food-insecurity-2025.json",
+      "current_status": "official_source_available",
+      "latest_observation_period": "December 2025; household food insecurity in the last 12 months",
+      "next_target_period": "December 2026 WBNS release",
+      "cadence_or_trigger": "annual Urban Institute WBNS release",
+      "acquisition_action": "Use as the next Urban monitoring vintage and reconcile the methodology break before comparing 2025 with earlier values or using it in a company pilot.",
+      "current_checksum": "sha256:8c099a3ca11f3130613ad51035eaf5f18cf99652940c48b42459cada84e8f16f",
+      "current_rights_boundary": "Retain normalized values, source locator, checksum, and attribution; do not redistribute the upstream PDF or reproduce its tables in a commercial frontend without exact-artifact terms review.",
+      "current_lineage": {
+        "publisher_dependence": "single_publisher_survey_series",
+        "population_and_unit": "U.S. adults age 18 and older; percent reporting household food insecurity",
+        "geography_and_period": "United States; December 2025; household food insecurity in the last 12 months"
+      },
+      "decision_options": [
+        "acquire_and_replace",
+        "retain_current_artifact",
+        "hold_pending_rights_or_method_review",
+        "retire_watch_target"
+      ],
+      "required_decision_fields": [
+        "official release URL or locator",
+        "release period and revision",
+        "retrieval timestamp and checksum",
+        "population, unit, geography, and period comparison",
+        "method and definition break assessment",
+        "rights and terms evidence",
+        "publisher/upstream dependence disposition",
+        "owner, decision, and next review date"
+      ],
+      "signoff": {
+        "source_steward": null,
+        "lineage_reviewer": null,
+        "rights_reviewer": null,
+        "decision": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "source_id": "us-navy-fy2026-ship-maintenance-context",
+      "publisher": "U.S. Department of the Navy",
+      "artifact": "ibis-dock-defense-outcome-review.json",
+      "current_status": "official_execution_snapshot_acquired_lineage_review_pending",
+      "latest_observation_period": "FY2026",
+      "next_target_period": "FY2027 Navy budget and execution release",
+      "cadence_or_trigger": "annual Navy budget release and execution/award update",
+      "acquisition_action": "Reconcile the USAspending execution snapshot against the Navy budget context and complete award, facility, fiscal-year, and rights review before treating this as independent confirmation or promoting the IBIS claim.",
+      "current_checksum": "not_available",
+      "current_rights_boundary": "Retain normalized observations, source URLs, retrieval time, hashes, and attribution. Do not redistribute the source PDFs or imply that metadata retention clears downstream commercial reuse without exact-artifact review.",
+      "current_lineage": {
+        "publisher_dependence": "single_publisher_official_budget_context",
+        "population_and_unit": "US Navy planned maintenance funding, requirement coverage, and availability counts",
+        "geography_and_period": "United States Navy; FY2026 budget context"
+      },
+      "decision_options": [
+        "acquire_and_replace",
+        "retain_current_artifact",
+        "hold_pending_rights_or_method_review",
+        "retire_watch_target"
+      ],
+      "required_decision_fields": [
+        "official release URL or locator",
+        "release period and revision",
+        "retrieval timestamp and checksum",
+        "population, unit, geography, and period comparison",
+        "method and definition break assessment",
+        "rights and terms evidence",
+        "publisher/upstream dependence disposition",
+        "owner, decision, and next review date"
+      ],
+      "signoff": {
+        "source_steward": null,
+        "lineage_reviewer": null,
+        "rights_reviewer": null,
+        "decision": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "source_id": "usaspending-bath-iron-works-execution-2024-2026",
+      "publisher": "USAspending.gov / U.S. Department of the Treasury",
+      "artifact": "usaspending-bath-iron-works-execution-snapshot.json",
+      "current_status": "official_execution_snapshot_lineage_review_pending",
+      "latest_observation_period": "FY2025-FY2026 action dates",
+      "next_target_period": "next FY2027 transaction refresh",
+      "cadence_or_trigger": "weekly API refresh and fiscal-year close",
+      "acquisition_action": "Reconcile transaction descriptions, award identity, fiscal-year aggregation, and facility scope against the Navy budget context before any trend qualification or company bridge.",
+      "current_checksum": "sha256:579f4373570740a57594b08381501ec90ef401071759963c829451965c76aa40",
+      "current_rights_boundary": "Retain normalized API observations, query parameters, retrieval timestamp, and hash with USAspending attribution. Do not redistribute bulk downloads or imply that API access is legal clearance for commercial derived products without exact terms review.",
+      "current_lineage": {
+        "publisher_dependence": "single_publisher_federal_spending_transaction_series",
+        "population_and_unit": "federal transaction amount in USD per returned USAspending transaction; recipient search is Bath Iron Works text match, not all shipyard activity",
+        "geography_and_period": "Bath, Maine recipient match; 2024-10-01 through 2026-09-30 action dates"
+      },
+      "decision_options": [
+        "acquire_and_replace",
+        "retain_current_artifact",
+        "hold_pending_rights_or_method_review",
+        "retire_watch_target"
+      ],
+      "required_decision_fields": [
+        "official release URL or locator",
+        "release period and revision",
+        "retrieval timestamp and checksum",
+        "population, unit, geography, and period comparison",
+        "method and definition break assessment",
+        "rights and terms evidence",
+        "publisher/upstream dependence disposition",
+        "owner, decision, and next review date"
+      ],
+      "signoff": {
+        "source_steward": null,
+        "lineage_reviewer": null,
+        "rights_reviewer": null,
+        "decision": null,
+        "reviewed_on": null
+      }
+    }
+  ],
+  "acceptance_criteria": [
+    "Every acquired source has a next-release decision and retained current checksum.",
+    "New releases are not substituted when a method, definition, rights, or lineage break is unresolved.",
+    "Unavailable releases remain unavailable rather than being converted to zero or silently dropped.",
+    "A release decision updates the watchlist and acquired-source register together."
+  ],
+  "next_action": "Assign a source steward and lineage reviewer, complete one row per source at each scheduled release check, and update the watchlist only after evidence is retained.",
+  "boundary": "This packet makes release monitoring executable; it is not proof of freshness, rights clearance, comparability, or trend qualification."
+}

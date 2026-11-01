@@ -43,6 +43,7 @@ ARTIFACTS = [
     "food-security-decision-brief.json",
     "food-security-release-tracker.json",
     "source-release-watchlist.json",
+    "source-release-review-packet.json",
     "refresh-continuity-audit.json",
     "continuity-coverage-plan.json",
     "continuity-review-packet.json",

@@ -763,6 +763,12 @@ def main() -> int:
     assert execution_source["artifact"] == "usaspending-bath-iron-works-execution-snapshot.json"
     execution_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "usaspending-bath-iron-works-execution-2024-2026")
     assert execution_watch["next_target_period"] == "next FY2027 transaction refresh"
+    release_packet = json.loads((ANALYSIS / "source-release-review-packet.json").read_text())
+    assert release_packet["schema"] == "external-trend-intelligence.source-release-review-packet.v1"
+    assert release_packet["status"] == "ready_for_source_steward_review"
+    assert release_packet["source_count"] == release_watchlist["source_count"] == len(release_packet["rows"])
+    assert all(row["required_decision_fields"] and row["decision_options"] and row["signoff"] for row in release_packet["rows"])
+    assert all(value is None for row in release_packet["rows"] for value in row["signoff"].values())
     community_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "usda-community-food-assistance-2024-ap126")
     assert community_watch["next_target_period"] == "2025 annual CPS Food Security Supplement"
     feeding_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "feeding-america-map-meal-gap-2026-national")

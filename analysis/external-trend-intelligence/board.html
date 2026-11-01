@@ -931,6 +931,11 @@
         target.append(card(`${watchlist.source_count} release targets`, watchlist.status, watchlist.boundary));
         watchlist.rows.forEach(row => target.append(card(`${row.publisher} · ${row.latest_observation_period} → ${row.next_target_period}`, row.status, `${row.cadence_or_trigger}. ${row.acquisition_action}`)));
       });
+      fetch('source-release-review-packet.json').then(r => r.json()).then(packet => {
+        const target = el('source-release-watchlist');
+        target.append(card('Source release review packet', packet.status, `${packet.source_count} sources · ${packet.next_action}`));
+        packet.rows.forEach(row => target.append(card(`${row.publisher} · ${row.source_id}`, row.current_status, `Decision options: ${row.decision_options.join(' · ')} Required fields: ${row.required_decision_fields.join(' · ')}`)));
+      });
       fetch('compatible-measure-search.json').then(r => r.json()).then(search => {
         const target = el('compatible-measures');
         target.append(card(`${search.candidate_compatibility_group_count} candidate groups`, search.status, `${search.record_count_scanned_at_pinned_head} records scanned at pinned HEAD. ${search.next_action}`));
