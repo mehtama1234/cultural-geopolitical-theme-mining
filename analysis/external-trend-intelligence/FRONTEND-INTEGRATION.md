@@ -59,6 +59,7 @@ blockers.
 | First pilot execution blueprint | `pilot-food-security-service-room-blueprint.json` | external qualification basis, permitted aggregate design, crosswalk boundary, blockers, falsifier, stop rule; never display it as an approved company test |
 | Release banner | `release-health.json`, `release-manifest.json` | release status, blockers, source commit, artifact count |
 | Publication registry | `frontend-publication-registry.json` | every reader-facing chart/narrative's period, unit, geography, denominator/scope, uncertainty, counter-signal, evidence boundary, and company gate |
+| Observatory chart catalog | `observatory-chart-catalog.json` | chart theme, subtheme, concept, visual encoding, source artifacts, required caveats, and frontend boundary for each reusable chart contract |
 | Ownership queue | `ownership-assignment-queue.json` | assigned/unassigned roles, assignment SLA, backup activation, escalation path, and acceptance evidence |
 
 ## Status semantics

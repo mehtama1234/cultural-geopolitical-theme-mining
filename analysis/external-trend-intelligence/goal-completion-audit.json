@@ -21,7 +21,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, append-only gate workload history, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 124-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, append-only gate workload history, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 125-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -113,6 +113,8 @@
       "evidence": [
         "board.html",
         "FRONTEND-INTEGRATION.md",
+        "frontend-publication-registry.json",
+        "observatory-chart-catalog.json",
         "candidate-qualification-matrix.json",
         "temporal-decision-narrative.json",
         "record-quality-audit.json",
@@ -120,7 +122,7 @@
         "open-gate-register.json",
         "review-calendar.json"
       ],
-      "gap": "Reader surface exposes the qualified external food-insecurity pattern, held candidates, metadata quality, host-dependence review queue, and 9 consolidated open gates (3 critical), but no validated company outcome is published."
+      "gap": "Reader surface exposes the qualified external food-insecurity pattern, held candidates, metadata quality, host-dependence review queue, and 9 consolidated open gates (3 critical); the chart catalog now provides reusable theme/subtheme/concept and caveat contracts, but no validated company outcome is published."
     },
     {
       "id": "analyst_operating_model",

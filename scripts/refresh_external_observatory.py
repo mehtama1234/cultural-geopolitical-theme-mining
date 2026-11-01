@@ -130,6 +130,7 @@ STEPS = [
     ["scripts/test_operational_kpi_scorecard.py"],
     ["scripts/build_acquired_source_register.py"],
     ["scripts/build_frontend_publication_registry.py"],
+    ["scripts/build_observatory_chart_catalog.py"],
     ["scripts/build_external_release_manifest.py"],
     ["scripts/test_program_baseline_consistency.py"],
     ["scripts/validate_external_trend_intelligence.py"],

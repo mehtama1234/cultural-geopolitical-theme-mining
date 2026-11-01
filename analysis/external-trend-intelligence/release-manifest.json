@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "de7d18a1cd3173ffc956cea5659c3ea64c50f131",
-  "artifact_count": 142,
+  "source_tree_commit": "62901a32cb9a5e6b472f6a0efa56e9b052e5293f",
+  "artifact_count": 143,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -42,7 +42,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1003,
-      "sha256": "011032ebb8731d0059df754cf983701560c86020c18463f4b8648aa1f4d6ce49"
+      "sha256": "d6c5f90c5098df4dd708697971c17b4ad113f5e8c144a8a09cc994176d5bcbd9"
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
@@ -52,12 +52,12 @@
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
       "bytes": 3412,
-      "sha256": "cf8d013089d66cd8317f37450ed2f9b60ae1a2b9ed927076ad7583cba7655f02"
+      "sha256": "66a766a3e796622deb2610cfc1381af40e306e85fd954f7d88ff969353d457f8"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
       "bytes": 3758,
-      "sha256": "2278ac7621480b89bb7cdeafe8d9a107345cfe9984a596e75683e6090fade11e"
+      "sha256": "71d2031ebe1186d72531fa0f5d558b53daee52815d8b3a72cbe91abe21254a0c"
     },
     {
       "path": "analysis/external-trend-intelligence/operating-ownership-readiness.json",
@@ -71,8 +71,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 11465,
-      "sha256": "ebdd479d29731cd40d55e26ce7d8f813ea4637b1a38161033e977011e0a6d04e"
+      "bytes": 11672,
+      "sha256": "ee3e191e58dc8971da1b40c9934fc5d4f60f3bda74a4d69126e1a93216163c6b"
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
@@ -160,6 +160,11 @@
       "sha256": "0b7c973e911b9f95b2890320f0a45e6585c06b5cfa265967386a7e1dd0587563"
     },
     {
+      "path": "analysis/external-trend-intelligence/observatory-chart-catalog.json",
+      "bytes": 8485,
+      "sha256": "71cd8ee28d2e0724c1d07c6772e7d56a3a7f3f5f9eef26f5cddea9f9ac8a8e2b"
+    },
+    {
       "path": "analysis/external-trend-intelligence/bounded-subset-lineage-review.json",
       "bytes": 2673,
       "sha256": "ba1f48d3a7f72fca6483ea5d8a696b7d34d6aa183f11adb6461a9eb4fa9a9cb5"
@@ -167,12 +172,12 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "4924682666a155f707a3ee7f49dbe56e906a79b986e52cf58334fe3919880daf"
+      "sha256": "8ddd330efb3954d9c17bbe07e563bafd0ca4e8fff037e020a318a45d44d382fe"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1991,
-      "sha256": "2e3088ee07c34058d5e9ec01f7f42e97c5dfed9c6b63141fef47e406e205bfcd"
+      "sha256": "bf2e5f3d4cb60693af9238cb2e5d97507090dcd317044724dfb2b2f87eb3fbe3"
     },
     {
       "path": "analysis/external-trend-intelligence/review-calendar.json",
@@ -211,8 +216,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 10200,
-      "sha256": "b1c8a7b327aac559ec0819ab4c1c8ac30cd9bafb254e76af4643b3f401f570e0"
+      "bytes": 10373,
+      "sha256": "341d6114eb0ff985308448fcac1dcd78c073a4ead3a915b0fcd0a446b5a66c4e"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
@@ -256,13 +261,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5735,
-      "sha256": "cb59c0b3b45edbbb5fbb674fe7fabaf4b3892e7b8908c6c68f03d5dc2485e850"
+      "bytes": 5736,
+      "sha256": "5c8f860bb2b33e4cd2c4758e4a3b117dff84e1c46899770c165a200b98cc4fa4"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-freshness-decision.json",
-      "bytes": 5736,
-      "sha256": "effaff43f8168f25030624a72a61e759d9e63b5a0c81c2e87494ceb5a267b2d2"
+      "bytes": 5737,
+      "sha256": "5907a271e70ca16c00ff534d330c5a2a2cdda20b889044b81dbf1b14b022db1b"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -306,8 +311,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/open-gate-history.json",
-      "bytes": 6957,
-      "sha256": "a8eaafe24817bcd890f3a8f041de63ebe2475dda0259de5cb2d4bcf36abe7453"
+      "bytes": 8543,
+      "sha256": "721ab36bec4b196e5dcb8c26910fe11ba4610f7ca5cdba9293effca003f46273"
     },
     {
       "path": "analysis/external-trend-intelligence/theme-coverage-audit.json",
@@ -362,7 +367,7 @@
     {
       "path": "analysis/external-trend-intelligence/acquired-source-register.json",
       "bytes": 8295,
-      "sha256": "aa78ed53206ebcc1984f9e8060d2da5362475bd491561b1becb9556af2388990"
+      "sha256": "7c4f975a9745411654fd4acac01d77f30e6047b2291f983bf25c4601d3db3626"
     },
     {
       "path": "analysis/external-trend-intelligence/repository-family-snapshot.json",
@@ -502,17 +507,17 @@
     {
       "path": "analysis/external-trend-intelligence/npals-public-table-extract.json",
       "bytes": 39190,
-      "sha256": "8cbcb6766c0912f0ce9e8ba4a77d4e9d4b02be749737818647a6158f17609b4b"
+      "sha256": "a9363deef42a713873bca4e1f40f1f4b2bb1b65b8eb9f75d1c3731531662de8f"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 61284,
-      "sha256": "3bffd0566104d1fe3732afcb2c7b2f90feb03d841f70cd3bc6aec5637bab1e19"
+      "bytes": 61719,
+      "sha256": "51c0cb83acc1a8f86064745dc52d81f2370e280eb1eea9d627e3f21ebe8b1487"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-continuity-audit.json",
       "bytes": 1033,
-      "sha256": "102a1bf1f52660667baaa1a58b8fb355c07af5aaf847ba98aa84e7bac2f2f2de"
+      "sha256": "d2b107d31f5ad642c635c368a2fb8e1161ee45d273a6235284a8588563c6fbf0"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
