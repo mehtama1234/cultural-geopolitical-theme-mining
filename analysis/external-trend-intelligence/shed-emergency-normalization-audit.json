@@ -1,0 +1,37 @@
+{
+  "schema": "external-trend-intelligence.shed-emergency-normalization-audit.v1",
+  "source_artifact": "shed-emergency-expense-2013-2025.json",
+  "status": "normalized_metadata_verified_pending_design_based_uncertainty",
+  "observation_count": 13,
+  "periods": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "value_range": [
+    50,
+    68
+  ],
+  "checks": {
+    "schema_and_acquisition_id": true,
+    "required_metadata": true,
+    "annual_periods_2013_2025": true,
+    "numeric_percent_values": true,
+    "retrieval_hash_present": true,
+    "latest_report_context_present": true,
+    "uncertainty_hold_preserved": true,
+    "point_estimate_reproduction_linked": true
+  },
+  "interpretation_boundary": "The audit verifies normalized chart rows and lineage custody. It does not supply design-based variance, prove question continuity, establish cross-source significance, or qualify a trend.",
+  "next_action": "Acquire reproducible design-based variance or replicate-weight instructions and attach year-specific uncertainty before any cross-source significance or promotion."
+}

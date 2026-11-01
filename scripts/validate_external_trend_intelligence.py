@@ -545,6 +545,7 @@ def main() -> int:
     shed_emergency = json.loads((ANALYSIS / "shed-emergency-expense-2013-2025.json").read_text())
     assert shed_emergency["schema"] == "external-trend-intelligence.external-acquisition.v1"
     assert shed_emergency["acquisition_id"] == "federal-reserve-shed-emergency-expense-2013-2025"
+    assert shed_emergency["status"] == "acquired_normalized_pending_design_based_uncertainty"
     assert len(shed_emergency["observations"]) == 13
     assert shed_emergency["observations"][0]["value"] == 50
     assert shed_emergency["observations"][-1]["value"] == 63
@@ -572,6 +573,10 @@ def main() -> int:
     assert all(row["rule"] == "publisher-derived pay_casheqv == Yes" for row in reproduction["reconstructions"][:2])
     assert all(row["published_rounding"] == "63%" for row in reproduction["reconstructions"][:2])
     assert reproduction["next_test"] and reproduction["boundary"]
+    emergency_audit = json.loads((ANALYSIS / "shed-emergency-normalization-audit.json").read_text())
+    assert emergency_audit["schema"] == "external-trend-intelligence.shed-emergency-normalization-audit.v1"
+    assert emergency_audit["status"] == "normalized_metadata_verified_pending_design_based_uncertainty"
+    assert all(emergency_audit["checks"].values())
     trend_map = json.loads((ANALYSIS / "trend-hunting-source-map.json").read_text())
     assert trend_map["schema"] == "external-trend-intelligence.trend-hunting-source-map.v1"
     assert trend_map["source_family"] == "trend-hunting"

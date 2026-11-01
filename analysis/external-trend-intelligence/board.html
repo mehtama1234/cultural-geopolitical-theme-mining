@@ -774,6 +774,9 @@
       fetch('shed-normalization-audit.json').then(r => r.json()).then(audit => {
         el('shed-normalization-audit').append(card('Normalized SHED metadata', audit.status, `${audit.observation_count} observations; ${audit.next_action}`));
       });
+      fetch('shed-emergency-normalization-audit.json').then(r => r.json()).then(audit => {
+        el('shed-reproduction').append(card('Emergency-expense normalization', audit.status, `${audit.observation_count} observations; ${audit.next_action}`));
+      });
       fetch('jpmorgan-household-liquidity-chart.json').then(r => r.json()).then(record => {
         const asset = record.chart_asset;
         const target = el('jpmorgan-liquidity-chart');
