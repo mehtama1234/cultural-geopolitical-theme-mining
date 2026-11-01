@@ -38,7 +38,7 @@ def main() -> int:
     assert record_quality["boundary"] and record_quality["next_action"]
     remediation = json.loads((ANALYSIS / "record-quality-remediation-queue.json").read_text())
     assert remediation["schema"] == "external-trend-intelligence.record-quality-remediation-queue.v1"
-    assert remediation["status"] == "remediation_required"
+    assert remediation["status"] in {"remediation_required", "no_open_record_metadata_gaps"}
     assert remediation["record_count_with_gaps"] >= remediation["high_priority_count"] >= 0
     assert len(remediation["rows"]) <= remediation["row_limit"]
     assert remediation["boundary"] and remediation["next_action"]

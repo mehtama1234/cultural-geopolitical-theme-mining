@@ -55,7 +55,18 @@ def has_uncertainty(record: dict) -> bool:
 
 def has_counter_signal(record: dict) -> bool:
     keys = ("counterinterpretation", "counter_signal", "counter_signals", "counterevidence", "counter_signal_status")
-    return any(text(record.get(key)) or (isinstance(record.get(key), list) and bool(record[key])) for key in keys)
+    if any(text(record.get(key)) or (isinstance(record.get(key), list) and bool(record[key])) for key in keys):
+        return True
+    return any(
+        any(text(observation.get(key)) or (isinstance(observation.get(key), list) and bool(observation[key])) for key in keys)
+        for observation in record.get("observations", [])
+    )
+
+
+def has_retrieval_hash(record: dict) -> bool:
+    if text(record.get("retrieval_hash")):
+        return True
+    return any(text(observation.get("retrieval_hash")) for observation in record.get("observations", []))
 
 
 def audit_row(path: str, record: dict) -> dict:
@@ -70,7 +81,7 @@ def audit_row(path: str, record: dict) -> dict:
         "uncertainty": has_uncertainty(record),
         "counter_signal": has_counter_signal(record),
         "boundary": text(record.get("boundary")),
-        "retrieval_hash": text(record.get("retrieval_hash")),
+        "retrieval_hash": has_retrieval_hash(record),
     }
     return {"record_path": path, "trend_id": record.get("trend_id"), "checks": checks}
 

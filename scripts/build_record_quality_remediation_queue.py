@@ -43,16 +43,22 @@ def main() -> int:
     for row in rows:
         for field in row["missing_fields"]:
             counts[field] = counts.get(field, 0) + 1
+    status = "remediation_required" if rows else "no_open_record_metadata_gaps"
+    next_action = (
+        "Assign the high-priority counter-signal rows first; document an explicit null review when no counter-signal is found, then pin retrieval hashes where source custody permits."
+        if rows
+        else "Keep the nested observation-level fields intact and re-run this audit when new records or source revisions are added."
+    )
     payload = {
         "schema": "external-trend-intelligence.record-quality-remediation-queue.v1",
-        "status": "remediation_required",
+        "status": status,
         "record_count_with_gaps": len(rows),
         "missing_field_counts": dict(sorted(counts.items())),
         "high_priority_count": sum(row["priority"] == "high" for row in rows),
         "row_limit": 100,
         "rows": rows[:100],
         "boundary": "This queue assigns metadata repair work only. It does not invent counter-signals, create retrieval evidence, clear rights, prove independence, or qualify a trend.",
-        "next_action": "Assign the high-priority counter-signal rows first; document an explicit null review when no counter-signal is found, then pin retrieval hashes where source custody permits.",
+        "next_action": next_action,
     }
     OUTPUT.write_text(json.dumps(payload, indent=2) + "\n")
     print(f"wrote {OUTPUT} ({len(rows)} records with gaps; {payload['high_priority_count']} high priority)")
