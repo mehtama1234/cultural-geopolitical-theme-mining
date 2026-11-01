@@ -88,6 +88,7 @@ STEPS = [
     ["scripts/build_mobility_access_temporal_holdout.py"],
     ["scripts/build_food_insecurity_rights_review.py"],
     ["scripts/build_food_security_decision_brief.py"],
+    ["scripts/build_food_security_release_tracker.py"],
     ["scripts/build_candidate_independence_precheck.py"],
     ["scripts/build_financial_room_rights_review.py"],
     ["scripts/build_shed_emergency_expense_acquisition.py"],

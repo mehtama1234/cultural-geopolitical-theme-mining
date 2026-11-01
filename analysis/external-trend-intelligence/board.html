@@ -804,6 +804,9 @@
         target.append(card('Uncertainty and rights', 'review_required', `${brief.uncertainty.join(' · ')} Rights: ${brief.rights_boundary}`));
         target.append(card('Company boundary', 'blocked_external_first', `${brief.company_gate} Next: ${brief.next_action}`));
       });
+      fetch('food-security-release-tracker.json').then(r => r.json()).then(tracker => {
+        el('qualified-trend-brief').append(card('Next food-security releases', tracker.monitoring_decision, `${tracker.source_records.map(row => `${row.publisher}: ${row.latest_observation_period} latest; next ${row.next_target_period}`).join(' · ')} Review: ${tracker.next_review}`));
+      });
       fetch('frontend-publication-registry.json').then(r => r.json()).then(registry => {
         const target = el('publication-registry');
         target.append(card(`${registry.publication_count} reader publications`, registry.status, `${registry.boundary} Next: ${registry.next_action}`));

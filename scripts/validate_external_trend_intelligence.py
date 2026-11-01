@@ -983,6 +983,14 @@ def main() -> int:
     assert brief["evidence"]["primary_holdout"] == "food-insecurity-temporal-holdout.json"
     assert brief["uncertainty"] and brief["falsifier"] and brief["company_gate"]
     assert "not" in brief["boundary"]
+    food_tracker = json.loads((ANALYSIS / "food-security-release-tracker.json").read_text())
+    assert food_tracker["schema"] == "external-trend-intelligence.food-security-release-tracker.v1"
+    assert food_tracker["candidate_id"] == brief["candidate_id"]
+    assert len(food_tracker["source_records"]) == 2
+    assert {row["publisher"] for row in food_tracker["source_records"]} == {"USDA Economic Research Service", "Urban Institute"}
+    assert all(row["latest_observation_period"] and row["next_target_status"] and row["release_action"] for row in food_tracker["source_records"])
+    assert food_tracker["monitoring_decision"] == "continue_monitored_external_trend"
+    assert food_tracker["comparability_boundary"] and food_tracker["rights_boundary"] and food_tracker["next_review"]
     food_comparison = json.loads((ANALYSIS / "food-insecurity-independent-comparison.json").read_text())
     assert food_comparison["schema"] == "external-trend-intelligence.food-insecurity-independent-comparison.v1"
     assert food_comparison["status"] == "independent_directional_challenge_not_comparable"

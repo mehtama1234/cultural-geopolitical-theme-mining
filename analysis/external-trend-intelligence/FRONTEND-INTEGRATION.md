@@ -48,6 +48,7 @@ blockers.
 | IBIS force review | `ibis-force-claim-map.json`, `ibis-force-claim-review.json` | force-level source and publisher counts, missing claim periods, outcome candidates, falsifiers, independence and promotion hold |
 | Independent comparison | `independent-stage-comparison.json`, `room-independent-comparison.json` | source families, mechanism status, blocking items, non-pooling boundary |
 | Food-insecurity independent challenge | `food-insecurity-independent-comparison.json` | distinct publishers/hosts, overlapping periods, directional change, uncertainty, pooling decision, rights and comparability blockers |
+| Food-security release tracker | `food-security-release-tracker.json` | latest official release by source family, next target period, acquisition action, comparability boundary, and next review date |
 | Mobility independent challenge | `mobility-access-independent-comparison.json` | distinct datasets, income-gradient values, counter-signal, frame differences, pooling decision, and next holdout |
 | Mobility rights review | `mobility-access-rights-review.json` | source URLs, terms routes, rights status, permitted scope, non-cleared reuse, and stop rule |
 | Mobility temporal holdout | `mobility-access-temporal-holdout.json` | ACS construction/holdout periods, measures, uncertainty limitation, counter-signal, falsifier, and next test |
