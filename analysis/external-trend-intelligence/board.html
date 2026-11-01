@@ -880,7 +880,7 @@
         const control = controls.get(family.id);
         if (schedule && control) sourceFamilies.append(sourceFamilyCard(family, schedule, control));
       });
-      el('external-data-map').append(card('Named external datasets', 'source_guide', 'USDA ERS, Urban WBNS, SHED, ACS, NHTS, Census CBP/NES, NPALS, Open Repair Alliance, CDC, CMS, BLS, OECD, UN DESA, World Bank, infrastructure records, IBIS, annual reports, Inc. 5000, social research, and trend-hunting inputs. See EXTERNAL-DATA-SOURCES.md for populations, periods, units, rights, and boundaries.'));
+      el('external-data-map').append(card('Named external datasets', 'source_guide', 'USDA ERS, Urban WBNS, SHED, ACS, NHTS, Census CBP/NES, NPALS, Open Repair Alliance, CDC, CMS, BLS, OECD, UN DESA, World Bank, Navy/USAspending execution context, infrastructure records, IBIS, annual reports, Inc. 5000, social research, and trend-hunting inputs. See EXTERNAL-DATA-SOURCES.md for populations, periods, units, rights, and boundaries.'));
       const sourceRegistryCards = el('source-registry');
       sourceRegistry.sources.forEach(source => sourceRegistryCards.append(sourceRegistryCard(source)));
       fetch('acquired-source-register.json').then(r => r.json()).then(register => {

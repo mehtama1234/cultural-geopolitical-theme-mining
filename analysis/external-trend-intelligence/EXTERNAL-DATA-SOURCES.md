@@ -33,6 +33,8 @@ These are the concrete source records already used in the release artifacts:
   time/care measures.
 - CDC capacity observations and CMS Medicaid-rate evidence in the bounded IBIS
   adult-day-care review.
+- U.S. Navy FY2026 maintenance-budget context and USAspending Bath Iron Works
+  transaction records used for a held dry-dock/defense execution comparison.
 - BLS labor-capacity comparison measures used as a counter-signal.
 - GSMA consumer-scam resolution/recovery evidence and British Social Attitudes
   waiting/legitimacy evidence used for a mechanism challenge.
@@ -43,6 +45,11 @@ The named records are not one pooled dataset. They have different populations,
 geographies, periods, methods, units, and publishers. The observatory keeps
 those differences visible and only compares them when the comparison contract
 allows it.
+
+The Navy/USAspending lane is especially constrained: budget requests and
+transaction obligations are different constructs, and both may describe the
+same Department of Defense program. They are therefore publisher-distinct but
+not yet independent confirmation.
 
 ## How a source reaches the frontend
 

@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "6b05a233f8e06acd1363c31d2188349c1ddaa40a",
+  "source_tree_commit": "8cebe2ea165d27a315bb75aedaae76daca4d8af1",
   "artifact_count": 168,
   "artifacts": [
     {
@@ -11,8 +11,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
-      "bytes": 4942,
-      "sha256": "f9d5217bad4f1e8b590109e1214a6a18f247e336c09129821782905adcfe251b"
+      "bytes": 5359,
+      "sha256": "a03b28ff62af12793e776b284823633142973b16966acdc8c9246d45bf67422e"
     },
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -116,8 +116,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
-      "bytes": 4942,
-      "sha256": "f9d5217bad4f1e8b590109e1214a6a18f247e336c09129821782905adcfe251b"
+      "bytes": 5359,
+      "sha256": "a03b28ff62af12793e776b284823633142973b16966acdc8c9246d45bf67422e"
     },
     {
       "path": "analysis/external-trend-intelligence/PILOT-VALIDATION-PROTOCOL.md",
@@ -821,8 +821,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 100501,
-      "sha256": "5e0512cc571524957a742e63f06454556a2ed21393d1e68b91dafffdea231c46"
+      "bytes": 100537,
+      "sha256": "ae66feb763e085d3f792b1f8c9dd16a880f45d19a255900a4b04e2a8d6cedb5a"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",
