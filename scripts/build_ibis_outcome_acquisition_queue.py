@@ -11,6 +11,10 @@ ANALYSIS = Path(__file__).resolve().parents[1] / "analysis" / "external-trend-in
 INPUT = ANALYSIS / "ibis-claim-independence-review-queue.json"
 OUTPUT = ANALYSIS / "ibis-outcome-acquisition-queue.json"
 LINKAGE = ANALYSIS / "ibis-community-food-outcome-linkage-review.json"
+ACQUIRED_CONTEXTS = {
+    "community-food-services-in-the-us::community-demand": "ibis-community-food-outcome-linkage-review.json",
+    "dry-docks-and-cargo-inspection-services-in-the-us::dock-defense": "ibis-dock-defense-outcome-review.json",
+}
 
 
 def priority(row: dict) -> tuple[int, int, int, str]:
@@ -27,11 +31,8 @@ def main() -> int:
     rows = []
     for rank, row in enumerate(sorted(queue["candidates"], key=priority), start=1):
         outcome_candidates = row.get("outcome_measure_candidates", [])
-        acquired_context = bool(
-            prior_linkage
-            and prior_linkage.get("status") == "official_outcome_acquired_lineage_review_pending"
-            and prior_linkage.get("review_id") == row["review_id"]
-        )
+        acquired_artifact = ACQUIRED_CONTEXTS.get(f"{row['industry_slug']}::{row['claim_id']}")
+        acquired_context = bool(acquired_artifact)
         row_payload = {
             "acquisition_rank": rank,
             "review_id": row["review_id"],
@@ -58,7 +59,7 @@ def main() -> int:
             "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact.",
         }
         if acquired_context:
-            row_payload["acquired_artifact"] = "ibis-community-food-outcome-linkage-review.json"
+            row_payload["acquired_artifact"] = acquired_artifact
         rows.append(
             row_payload
         )

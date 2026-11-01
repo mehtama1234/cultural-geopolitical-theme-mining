@@ -376,6 +376,13 @@ def main() -> int:
     assert len(community_food["rows"]) == 4
     assert all(row["free_groceries_percent"] >= 0 and row["free_meals_percent"] >= 0 for row in community_food["rows"])
     assert community_food["source_checksum"].startswith("sha256:")
+    dock_outcome = json.loads((ANALYSIS / "ibis-dock-defense-outcome-review.json").read_text())
+    assert dock_outcome["schema"] == "external-trend-intelligence.ibis-dock-defense-outcome-review.v1"
+    assert dock_outcome["review_id"].endswith("dry-docks-and-cargo-inspection-services-in-the-us::dock-defense")
+    assert dock_outcome["review_status"] == "official_context_acquired_scope_review_pending"
+    assert len(dock_outcome["observations"]) == 4
+    assert dock_outcome["release_decision"] == "retain_normalized_official_context_only"
+    assert dock_outcome["rights_boundary"] and dock_outcome["next_action"]
     feeding_america = json.loads((ANALYSIS / "feeding-america-map-meal-gap-2026-national.json").read_text())
     assert feeding_america["schema"] == "external-trend-intelligence.feeding-america-map-meal-gap-snapshot.v1"
     assert feeding_america["status"] == "public_national_estimate_snapshot_method_review_pending"

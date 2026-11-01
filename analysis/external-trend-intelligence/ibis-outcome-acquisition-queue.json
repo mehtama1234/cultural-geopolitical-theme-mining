@@ -5,8 +5,8 @@
   "status": "outcome_acquisition_queue_ready",
   "candidate_count": 47,
   "with_outcome_candidate_count": 38,
-  "unacquired_count": 46,
-  "acquired_context_count": 1,
+  "unacquired_count": 45,
+  "acquired_context_count": 2,
   "selection_rule": "rank claims with named outcome candidates first, then high-priority claims and source-host diversity; acquired context remains blocked until scope and lineage review",
   "review_owner_role": "evidence analyst with lineage reviewer support",
   "promotion_boundary": "An outcome candidate is a discovery lead, not an observation. No claim is promoted or bridged to company data from this queue alone.",
@@ -231,7 +231,7 @@
         "weather disruption"
       ],
       "outcome_candidate_count": 32,
-      "acquisition_status": "candidate_outcome_not_acquired",
+      "acquisition_status": "official_context_acquired_scope_review_pending",
       "required_fields": [
         "canonical publisher and exact artifact",
         "outcome definition, unit, denominator, population, geography, and period",
@@ -241,7 +241,8 @@
         "independence and upstream-lineage disposition against the IBIS claim"
       ],
       "stop_rule": "Do not use the outcome as independent confirmation or promote the claim until the source review and outcome fields are complete.",
-      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact."
+      "next_action": "Complete lineage and outcome-scope review for the acquired context, or select another candidate outcome and acquire the official artifact.",
+      "acquired_artifact": "ibis-dock-defense-outcome-review.json"
     },
     {
       "acquisition_rank": 5,

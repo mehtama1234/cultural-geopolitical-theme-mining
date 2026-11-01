@@ -61,6 +61,7 @@ ARTIFACTS = [
     "feeding-america-map-meal-gap-2026-national.json",
     "feeding-america-rights-review.json",
     "ibis-community-food-outcome-linkage-review.json",
+    "ibis-dock-defense-outcome-review.json",
     "ibis-community-food-comparison.json",
     "FEEDING-AMERICA-DATA-REQUEST.md",
 ]
@@ -164,6 +165,7 @@ def main() -> int:
                             "ibis-outcome-acquisition-queue.json",
                             "Official USDA outcome + Feeding America challenge",
                             "USDA versus Feeding America comparison",
+                            "Navy ship-maintenance context",
                             "ibis-food-comparison-chart",
                             "ibis-community-food-outcome-linkage-review.json",
                             "feeding-america-rights-review.json",

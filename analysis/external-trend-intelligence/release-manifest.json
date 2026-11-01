@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "f8e73b80b910daefd6c872e898ec17030aadf64f",
-  "artifact_count": 164,
+  "source_tree_commit": "749630d6385691b485852013eb26a615cc928de2",
+  "artifact_count": 165,
   "artifacts": [
     {
       "path": "analysis/external-trend-intelligence/TWO-YEAR-GOAL.md",
@@ -217,7 +217,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "7dfd3e1ff1a5f88d6e3b40529198be0123efcb9f98c6994817034411b01a1899"
+      "sha256": "190dc7fb1a9fcc695ca284146e4185cd903f1602204583d59d1d5a955df4b4d2"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -516,8 +516,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-outcome-acquisition-queue.json",
-      "bytes": 100369,
-      "sha256": "cc91601b5e562d643830e97e4fdf0bf0939ead47ac0615f29ee29370b5e3dff7"
+      "bytes": 100453,
+      "sha256": "9a2d5a7beb83f6209c2587130d6134abf34a13e4e57feee1a9a799dce03710ff"
     },
     {
       "path": "analysis/external-trend-intelligence/usda-community-food-assistance-2024.json",
@@ -538,6 +538,11 @@
       "path": "analysis/external-trend-intelligence/ibis-community-food-outcome-linkage-review.json",
       "bytes": 7163,
       "sha256": "c7a02d02444d2b86f86767dcd6a93da9f65070e8631cebfbf833c9eb4ab6f1aa"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/ibis-dock-defense-outcome-review.json",
+      "bytes": 3691,
+      "sha256": "12c218a11b380eedfcb1ca1ba4052df47387abd2b4e06306520f787e2929b211"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-community-food-comparison.json",
@@ -801,8 +806,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 98695,
-      "sha256": "3102f686f942acb46204ea93f10fb22514dce2b8bb914cef7dfdf1fd7c868165"
+      "bytes": 99027,
+      "sha256": "f48938a8469280d3e01b2393685051db8b1df212614b6760ba13562f29bad4dc"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",
