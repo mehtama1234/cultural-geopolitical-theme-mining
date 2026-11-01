@@ -23,7 +23,7 @@ def main() -> int:
         "candidate_id": "candidate-us-food-insecurity-persistence",
         "status": "independent_directional_challenge_not_comparable",
         "source_families": [
-            {"publisher": "Urban Institute", "host": "www.urban.org", "population": "U.S. working-age adults", "instrument": "Well-Being and Basic Needs Survey", "measure": "food insecurity in the prior 30 days", "periods": "2019-2025", "rights_status": "permission_required_for_republication"},
+            {"publisher": "Urban Institute", "host": "www.urban.org", "population": "U.S. working-age adults", "instrument": "Well-Being and Basic Needs Survey", "measure": "household food insecurity in the prior 12 months using the six-item USDA short form", "periods": "2019-2025", "rights_status": "permission_required_for_republication"},
             {"publisher": "USDA Economic Research Service", "host": "www.ers.usda.gov", "population": "U.S. households", "instrument": "Current Population Survey Food Security Supplement", "measure": "food insecure at some time during the year", "periods": "2022-2024", "rights_status": "conditional_attribution_use_documented"},
         ],
         "overlap_rows": rows,
@@ -37,10 +37,19 @@ def main() -> int:
             "publisher_distinct": True,
             "host_distinct": True,
             "same_underlying_instrument": False,
-            "status": "distinct_publishers_but_population_measure_and_uncertainty_differ",
+            "status": "distinct_publishers_but_population_and_uncertainty_differ",
         },
         "pooling_decision": "do_not_pool",
-        "blocking_items": ["different population denominator", "30-day versus annual reference period", "instrument and threshold differ", "Urban uncertainty not retained", "Urban republication permission remains open"],
+        "urban_methodology_review": {
+            "source_url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025%2C%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
+            "reference_period_confirmed": "12 months",
+            "instrument": "six-item short form of the USDA Household Food Security Survey Module",
+            "sample_change": "More than 7,500 adults ages 18–64 in each 2017–2024 round; approximately 2,500 adults ages 65+ added in 2025.",
+            "weighting": "KnowledgePanel probability-based sample with weights poststratified to CPS and ACS benchmarks.",
+            "uncertainty_status": "Published significance annotations are available, but a full machine-readable standard-error table is not retained in this artifact.",
+            "reviewed_on": "2026-10-31"
+        },
+        "blocking_items": ["different population denominator", "instrument and threshold implementation differ despite shared six-item short-form lineage", "Urban uncertainty not retained", "Urban republication permission remains open"],
         "next_action": "Acquire comparable uncertainty and questionnaire documentation for the next Urban and USDA releases before revising the monitored trend or using it in a company decision contract.",
         "boundary": "This is a directional independent challenge. It supports monitoring, not a common prevalence estimate, causal effect, forecast, or company exposure.",
     }

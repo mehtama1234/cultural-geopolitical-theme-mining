@@ -103,6 +103,13 @@ measurement-boundary check, not independent confirmation: both series come
 from Census, cover different populations, and use different repair-category
 granularity.
 
+The food-insecurity independent challenge was also corrected against Urban's
+published methods: the WBNS measure uses a 12-month reference period and the
+six-item USDA short form, not a 30-day period. The comparison still remains
+non-pooled because the populations, implementation details, uncertainty
+release, and rights conditions differ; the 2025 WBNS sample also expanded to
+include older adults.
+
 Next test:
 
 1. Select one finding, beginning with “Compliance Is Becoming Economic

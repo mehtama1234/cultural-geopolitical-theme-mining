@@ -778,6 +778,10 @@ def main() -> int:
     assert food_comparison["independence_review"]["publisher_distinct"] is True
     assert food_comparison["pooling_decision"] == "do_not_pool"
     assert len(food_comparison["overlap_rows"]) == 3
+    assert food_comparison["source_families"][0]["measure"].endswith("prior 12 months using the six-item USDA short form")
+    assert food_comparison["urban_methodology_review"]["reference_period_confirmed"] == "12 months"
+    assert food_comparison["urban_methodology_review"]["sample_change"]
+    assert food_comparison["urban_methodology_review"]["uncertainty_status"]
     mobility_comparison = json.loads((ANALYSIS / "mobility-access-independent-comparison.json").read_text())
     assert mobility_comparison["schema"] == "external-trend-intelligence.mobility-access-independent-comparison.v1"
     assert mobility_comparison["status"] == "directional_gradient_agreement_not_common_holdout"
