@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "abbf2e65df3c1d39ba7587c0219a58817306fb00",
-  "artifact_count": 126,
+  "source_tree_commit": "2770cfaf7b6cdfa572bc80ba7bc9450813dd4d7a",
+  "artifact_count": 127,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -42,7 +42,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1003,
-      "sha256": "43dcfc2acad5ddc72d7544374745400c8ebba891a9f378e2453bda6eb8fff3ae"
+      "sha256": "c8c369ed0382c6a7e6b7a2724f8ff962df65971fc714de5e8fab1e761ac5c02b"
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
@@ -52,12 +52,12 @@
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
       "bytes": 3412,
-      "sha256": "baea166a8927e4c554b17de8b975e5156f6d9b8576cb3fd1945b6989b0c5bdfb"
+      "sha256": "b5e63b99f11d3832a63277ecd11b7debf4ef2507713447bd81137b8fa3a2906e"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
       "bytes": 3076,
-      "sha256": "267f5f3731ac8c11f7aeb39b38a1c952a8411a896bb29bd71e68a06ba420a3c3"
+      "sha256": "4e3eef8da6b9eeb8b68f3824596afdb0e32139db359c366c642460d4426d2419"
     },
     {
       "path": "analysis/external-trend-intelligence/pilot-design-dry-run.json",
@@ -152,12 +152,12 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "2d4a258ba39a517c303e827bf253208f84a338b82669b8698b98943501135386"
+      "sha256": "8cec68c0d8d0c30a3efdee14f1f6818efc6c5322a3d3126eb9f53677a04ef0c0"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1991,
-      "sha256": "b7b277dbe228e2ba1099ce89203870f8f05cff964b3efa01ff0aed2aad201d7a"
+      "sha256": "db66a220eb3a5fc15256508e3946f74dbe511304cd7e62179d33734872538289"
     },
     {
       "path": "analysis/external-trend-intelligence/review-calendar.json",
@@ -192,7 +192,7 @@
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
       "bytes": 7930,
-      "sha256": "93e70c38b172d5c1ba6f0cfde0c0b79d2b1f8843b2abc2132e35f66471b174e2"
+      "sha256": "e441aca2264177970b9c36ebeab651cb0801715b76cada18f0f4b88006ff85e7"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
@@ -232,7 +232,7 @@
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
       "bytes": 5735,
-      "sha256": "f4c50e9e9cc85abe6d4e2af85690edb57376efa18550a496b6bc4e734c9defd5"
+      "sha256": "e2cfd3e4c5ac057ed38079d66efc9a53dc9ffd00d2c6a891002fa5a929c3a798"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -248,6 +248,11 @@
       "path": "analysis/external-trend-intelligence/observation-manifest.json",
       "bytes": 3607629,
       "sha256": "ad94f10b9665f8278d1e5e8e625317a83ff6550f6ee9c4e21475d8e5a148268f"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/theme-coverage-audit.json",
+      "bytes": 175293,
+      "sha256": "9c90977b00f02cd1cbaccba3ee8bbf90282734924739e163838e8495d643eb34"
     },
     {
       "path": "analysis/external-trend-intelligence/compatible-measure-search.json",
@@ -287,7 +292,7 @@
     {
       "path": "analysis/external-trend-intelligence/acquired-source-register.json",
       "bytes": 8295,
-      "sha256": "cf56c6f7b2450a56c41ba398e76514c9cd96d9003e6a95b289069200f51420d6"
+      "sha256": "7c213aaf19ab0c0b2b53a6b07a15d3be2a3283c383a280dfcc79a49e1bf1e473"
     },
     {
       "path": "analysis/external-trend-intelligence/repository-family-snapshot.json",
@@ -427,17 +432,17 @@
     {
       "path": "analysis/external-trend-intelligence/npals-public-table-extract.json",
       "bytes": 39190,
-      "sha256": "21cd774c9b24e2dddcfcbb0c3c2093bca8d9f9a67d794e241325204f71d978fd"
+      "sha256": "39ede5ad91580a84d1148b0f51d045264105a7526878c29380cc2429a0d34500"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 52584,
-      "sha256": "a7e61fa5ad423a5aa73d3b830c326fe3f71a9b26a597b8eec8aae62d05bed5d0"
+      "bytes": 53019,
+      "sha256": "af025bd972b4991b55ffbbac4b663b10eb193507f0f19c3b97088231ae646e55"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-continuity-audit.json",
       "bytes": 879,
-      "sha256": "c88a7ea84cfe9dab1fa724db70c96b7a3c506e43d1cb8c3a6b3afeba447afa79"
+      "sha256": "ed73a116bcf2518e8d5dcb48f9d056388779721a45981d14cd40e8f229bce90f"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
@@ -611,8 +616,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 83644,
-      "sha256": "9363e7e799a09958b8d32cd7a47e02fac0c7c400b4734a2b8361151b28b1461a"
+      "bytes": 84295,
+      "sha256": "beb85d2759b275a050662adfd8b10a1535f9c73c2d4516c2fe6845a08fc9ce70"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",

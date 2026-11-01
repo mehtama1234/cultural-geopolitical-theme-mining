@@ -18,6 +18,12 @@ def main() -> int:
     assert manifest["record_count"] == len(manifest["records"])
     assert manifest["parse_error_count"] == 0
     assert len(manifest["program_theme_counts"]) == 14
+    theme_audit = json.loads((ANALYSIS / "theme-coverage-audit.json").read_text())
+    assert theme_audit["schema"] == "external-trend-intelligence.theme-coverage-audit.v1"
+    assert theme_audit["status"] == "theme_coverage_visible_quality_unresolved"
+    assert theme_audit["theme_count"] == theme_audit["observed_theme_count"] == 14
+    assert theme_audit["sparse_theme_count"] == len(theme_audit["sparse_themes"])
+    assert all(row["coverage_status"] == "observed" and row["quality_boundary"] for row in theme_audit["themes"].values())
     ids = {record["trend_id"] for record in manifest["records"]}
     assert len(ids) == manifest["record_count"]
     for record in manifest["records"]:

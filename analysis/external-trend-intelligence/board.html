@@ -81,6 +81,7 @@
       <div class="panel"><h2>Theme coverage</h2><div id="theme-chart"></div></div>
       <div class="panel"><h2>Most-used source hosts</h2><div id="host-chart"></div></div>
       <div class="panel"><h2>Source inventory types</h2><div id="source-type-chart"></div></div>
+      <div class="panel"><h2>Theme coverage audit</h2><div id="theme-coverage-audit"></div></div>
     </section>
     <section>
       <h2>Cross-source candidates</h2>
@@ -625,6 +626,11 @@
       const sourceTypes = {};
       sourceRegistry.sources.forEach(source => source.source_types.forEach(type => { sourceTypes[type] = (sourceTypes[type] || 0) + 1; }));
       barChart(el('source-type-chart'), Object.entries(sourceTypes).sort((a,b) => b[1]-a[1]).slice(0, 16), sourceRegistry.source_count);
+      fetch('theme-coverage-audit.json').then(r => r.json()).then(audit => {
+        const entries = Object.entries(audit.themes).map(([theme, row]) => [`${theme} · ${row.source_host_count} hosts`, row.record_count]);
+        barChart(el('theme-coverage-audit'), entries, Math.max(...entries.map(([, value]) => value), 1));
+        el('theme-coverage-audit').append(card(`${audit.observed_theme_count}/${audit.theme_count} themes observed`, audit.status, `${audit.sparse_theme_count} sparse themes. ${audit.boundary} ${audit.next_action}`));
+      });
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
       const qualificationCards = el('qualification-matrix'); qualificationMatrix.rows.forEach(row => qualificationCards.append(qualificationCard(row)));
       const backtestCards = el('backtest-readiness'); backtestReadiness.rows.forEach(row => backtestCards.append(backtestReadinessCard(row)));
