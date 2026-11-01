@@ -735,6 +735,8 @@
       fetch('ibis-adult-day-outcome-review.json').then(r => r.json()).then(review => {
         outcomeChangeChart(el('ibis-outcome-chart'), review.derived_changes);
         el('ibis-outcome-review').append(ibisOutcomeCard(review));
+        const plan = review.outcome_acquisition_plan;
+        el('ibis-outcome-review').append(card('Next outcome acquisition', plan.status, `${plan.target_outcome}. Required: ${plan.required_fields.join(', ')} Stop rule: ${plan.stop_rule}`));
       });
       const schedules = new Map(refreshSchedule.families.map(item => [item.family_id, item]));
       const controls = new Map(sourceControls.families.map(item => [item.family_id, item]));

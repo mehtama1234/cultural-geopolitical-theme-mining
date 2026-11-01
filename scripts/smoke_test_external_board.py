@@ -91,6 +91,7 @@ def main() -> int:
                             "food-insecurity-rights-review.json",
                             "IBIS bounded outcome review",
                             "ibis-adult-day-outcome-review.json",
+                            "Next outcome acquisition",
                             "Registered external datasets and publishers",
                             "source-registry-snapshot.json",
                             "Compatible-measure search",

@@ -121,6 +121,51 @@ def main() -> int:
         "2025_average_daily_attendance_to_capacity_percent": round(by_measure["average_daily_attendance"]["2025"] / by_measure["maximum_allowed_capacity"]["2025"] * 100, 1),
         "new_jersey_adult_medical_day_care_per_diem_percent_change_2021_to_2025": pct_change(by_measure["new_jersey_adult_medical_day_care_per_diem"]["2021"], by_measure["new_jersey_adult_medical_day_care_per_diem"]["2025"]),
     }
+    outcome_acquisition_plan = {
+        "status": "targeted_public_source_identified_pending_extraction",
+        "target_outcome": "state-level adult-day service supply, attendance, authorization, or utilization measure with a comparable 2022-to-2025 frame",
+        "source_targets": [
+            {
+                "publisher": "CDC/NCHS NPALS",
+                "artifact": "2025 NPALS web tables and weighted national/state estimates",
+                "url": "https://www.cdc.gov/nchs/npals/study-cycles/2025.html",
+                "access_boundary": "public tables and normalized metadata; do not redistribute restricted microdata",
+            },
+            {
+                "publisher": "CDC/NCHS NPALS",
+                "artifact": "2022 Adult Day Services Center public-use files and methodology",
+                "url": "https://www.cdc.gov/nchs/npals/index.html",
+                "access_boundary": "public-use aggregate or de-identified file only; preserve survey weights and methodology",
+            },
+            {
+                "publisher": "CMS / Medicaid",
+                "artifact": "state Medicaid managed-care and HCBS access/utilization context",
+                "url": "https://data.medicaid.gov/",
+                "access_boundary": "contextual state policy or access measures; do not label as adult-day utilization without an explicit service definition",
+            },
+        ],
+        "required_fields": [
+            "state_or_geography",
+            "provider_or_participant_universe",
+            "measure_definition",
+            "period",
+            "denominator",
+            "estimate",
+            "standard_error_or_confidence_interval",
+            "survey_frame_or_claims_frame",
+            "source_revision",
+            "rights_basis",
+        ],
+        "acceptance_criteria": [
+            "same adult-day service definition is available for at least two periods",
+            "state or national denominator and provider/user universe are explicit",
+            "2022 and 2025 survey-frame changes are recorded rather than pooled silently",
+            "uncertainty and reliability flags are retained",
+            "an independent outcome or utilization measure is linked without treating policy rate as utilization",
+        ],
+        "stop_rule": "Do not promote the IBIS finding or run an internal bridge if the public tables do not provide a comparable denominator, period, uncertainty treatment, and service definition; restricted-data access requires a separate approved rights and privacy review.",
+        "next_action": "Extract the 2025 web-table state/national fields and reconcile them with the 2022 public-use frame before adding any derived utilization claim.",
+    }
     report = {
         "schema": "external-trend-intelligence.ibis-adult-day-outcome-review.v1",
         "finding_slug": "compliance-as-economic-architecture",
@@ -152,6 +197,7 @@ def main() -> int:
         "counter_signal": "Growth in centers and participants does not prove improved access, margins, staffing, or service quality; 2022 and 2025 survey frames and definitions must be reconciled before treating changes as a structural trend.",
         "falsifier": "After frame and definition reconciliation, the capacity and payer measures do not move in the hypothesized direction or independent state-level outcomes contradict the national pattern.",
         "next_action": "Add state-level attendance, authorization, or claims utilization and reconcile 2022 versus 2025 NPALS frames before using this lane in qualification.",
+        "outcome_acquisition_plan": outcome_acquisition_plan,
         "boundary": "This bounded review covers one IBIS industry and one CDC source family. It does not validate the full IBIS finding, establish causal compliance effects, or authorize an internal company bridge.",
     }
     OUTPUT.write_text(json.dumps(report, indent=2) + "\n")

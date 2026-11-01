@@ -494,6 +494,10 @@ def main() -> int:
     assert ibis_outcome["industry_slug"] == "adult-day-care"
     assert ibis_outcome["outcome_status"] == "dated_outcomes_and_independent_policy_measure_present"
     assert ibis_outcome["independence_status"] == "partial_cross_publisher_temporal_mechanism_comparison"
+    outcome_plan = ibis_outcome["outcome_acquisition_plan"]
+    assert outcome_plan["status"] == "targeted_public_source_identified_pending_extraction"
+    assert len(outcome_plan["source_targets"]) == 3
+    assert outcome_plan["required_fields"] and outcome_plan["acceptance_criteria"] and outcome_plan["stop_rule"]
     assert ibis_outcome["rights_review"]["release_decision"] == "normalized_values_and_citations_only"
     schedule_health = json.loads((ANALYSIS / "refresh-schedule-health.json").read_text())
     assert schedule_health["schema"] == "external-trend-intelligence.refresh-schedule-health.v1"

@@ -58,6 +58,12 @@ Next test:
 6. Keep the finding held until the sample is traceable and independently
    reviewed.
 
+The adult-day-care outcome review now identifies a bounded public acquisition
+path through CDC/NCHS NPALS 2025 web tables, the 2022 public-use frame, and
+Medicaid state context. It specifies the required denominator, period,
+uncertainty, survey-frame, and rights fields. This is an acquisition gate, not
+a utilization result; do not label policy rates as service utilization.
+
 ## Remaining medium-priority work
 
 - Review the new [IBIS force claim map](ibis-force-claim-map.json): all 21
