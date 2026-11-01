@@ -16,8 +16,8 @@ OUTPUT = ANALYSIS / "ibis-finding-claim-sample.json"
 REPO = "/home/mehta/git-repo/ibis-industries"
 REVISION = "b895acd021fbe3dc1d610255952b1373748e3bc3"
 PATTERN_PATH = "cross_industry_pattern_inventory.json"
-SAMPLE_SIZE = 100
-COUNTEREXAMPLE_SIZE = 24
+SAMPLE_SIZE = 200
+COUNTEREXAMPLE_SIZE = 48
 
 
 def show(path: str) -> str:
@@ -167,7 +167,7 @@ def main() -> int:
         }),
         "samples": samples,
         "counterexamples": counterexamples,
-        "boundary": "This bounded sample traces 100 matched industries and 24 non-matching comparator industries to claim-level source IDs and URLs. Non-matching records are counterexample candidates, not proof that compliance has no effect. The artifact does not validate the full finding, establish causality, or represent all 1,161 matched industries and 330 non-matching industries.",
+        "boundary": f"This bounded sample traces {len(samples)} matched industries and {len(counterexamples)} non-matching comparator industries to claim-level source IDs and URLs. Non-matching records are counterexample candidates, not proof that compliance has no effect. The artifact does not validate the full finding, establish causality, or represent all 1,161 matched industries and 330 non-matching industries.",
         "next_test": "Review the comparator industries against an independent outcome measure, verify claim-level publisher independence, and expand coverage before promotion.",
     }
     payload["sample_source_url_count"] = len(payload["sample_source_urls"])

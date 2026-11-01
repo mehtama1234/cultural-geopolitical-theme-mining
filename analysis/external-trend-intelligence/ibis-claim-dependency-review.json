@@ -2,12 +2,23 @@
   "schema": "external-trend-intelligence.ibis-claim-dependency-review.v1",
   "finding_slug": "compliance-as-economic-architecture",
   "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
-  "sample_industry_count": 100,
-  "claim_count": 300,
-  "unique_source_count": 745,
-  "shared_source_id_count": 16,
-  "shared_url_count": 16,
+  "sample_industry_count": 200,
+  "claim_count": 600,
+  "unique_source_count": 1503,
+  "shared_source_id_count": 22,
+  "shared_url_count": 23,
   "shared_source_ids": [
+    {
+      "source_id": "src_03796",
+      "industry_count": 3,
+      "industry_slugs": [
+        "automatic-fire-sprinkler-system-manufacturing",
+        "building-inspectors-in-the-us",
+        "cabinet-and-vanity-manufacturing-in-the-us"
+      ],
+      "publisher": "US Census Bureau",
+      "url": "https://www.census.gov/construction/c30/current/index.html"
+    },
     {
       "source_id": "src_07629",
       "industry_count": 3,
@@ -18,6 +29,16 @@
       ],
       "publisher": "S&P Global Mobility",
       "url": "https://press.spglobal.com/2025-05-21-U-S-Vehicle-Age-Rises-Again-to-12-8-Years-in-2025%2C-According-to-S-P-Global-Mobility"
+    },
+    {
+      "source_id": "src_01292",
+      "industry_count": 2,
+      "industry_slugs": [
+        "beer-wholesaling-in-the-us",
+        "breweries-in-the-us"
+      ],
+      "publisher": "www.brewersassociation.org",
+      "url": "https://www.brewersassociation.org/association-news/2026-midyear-report-pressure-persists-as-signs-of-stability-emerge/"
     },
     {
       "source_id": "src_02849",
@@ -120,6 +141,36 @@
       "url": "https://primaryignition.com/2025/09/19/us-auto-parts-tariffs-spark-supply-chain-concerns-2/"
     },
     {
+      "source_id": "src_03244",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-interior-manufacturing-in-the-us",
+        "automobile-metal-stamping-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.ibisworld.com/united-states/industry/automobile-metal-stamping/836/"
+    },
+    {
+      "source_id": "src_03252",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-interior-manufacturing-in-the-us",
+        "automobile-metal-stamping-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.talenttraction.org/automotive-parts-manufacturing-workforce-trends/"
+    },
+    {
+      "source_id": "src_03253",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-interior-manufacturing-in-the-us",
+        "automobile-metal-stamping-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://tiretalent.com/workforce-trends-shaping-automotive-in-2026/"
+    },
+    {
       "source_id": "src_06787",
       "industry_count": 2,
       "industry_slugs": [
@@ -168,6 +219,16 @@
       ],
       "publisher": "CMS",
       "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet"
+    },
+    {
+      "source_id": "src_14077",
+      "industry_count": 2,
+      "industry_slugs": [
+        "bbq-and-outdoor-cooking-stores",
+        "bbq-charcoal-manufacturing"
+      ],
+      "publisher": "Hearth, Patio & Barbecue Association",
+      "url": "https://hpba.org/fire-up-the-grill-celebrate-julys-national-grilling-month-with-insights-into-premium-outdoor-cooking-trends/"
     }
   ],
   "shared_urls": [
@@ -178,6 +239,15 @@
         "auto-glass-repair-and-replacement-franchises",
         "auto-maintenance-and-repair-franchises",
         "auto-windshield-repair-services"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/construction/c30/current/index.html",
+      "industry_count": 3,
+      "industry_slugs": [
+        "automatic-fire-sprinkler-system-manufacturing",
+        "building-inspectors-in-the-us",
+        "cabinet-and-vanity-manufacturing-in-the-us"
       ]
     },
     {
@@ -205,6 +275,14 @@
       ]
     },
     {
+      "url": "https://hpba.org/fire-up-the-grill-celebrate-julys-national-grilling-month-with-insights-into-premium-outdoor-cooking-trends/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "bbq-and-outdoor-cooking-stores",
+        "bbq-charcoal-manufacturing"
+      ]
+    },
+    {
       "url": "https://primaryignition.com/2025/09/19/us-auto-parts-tariffs-spark-supply-chain-concerns-2/",
       "industry_count": 2,
       "industry_slugs": [
@@ -213,11 +291,27 @@
       ]
     },
     {
+      "url": "https://tiretalent.com/workforce-trends-shaping-automotive-in-2026/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-interior-manufacturing-in-the-us",
+        "automobile-metal-stamping-in-the-us"
+      ]
+    },
+    {
       "url": "https://www.atv.com/atv/tariffs-affect-powersports-industry-44742991",
       "industry_count": 2,
       "industry_slugs": [
         "atv-golf-cart-and-snowmobile-manufacturing-in-the-us",
         "atv-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.brewersassociation.org/association-news/2026-midyear-report-pressure-persists-as-signs-of-stability-emerge/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "beer-wholesaling-in-the-us",
+        "breweries-in-the-us"
       ]
     },
     {
@@ -277,6 +371,14 @@
       ]
     },
     {
+      "url": "https://www.ibisworld.com/united-states/industry/automobile-metal-stamping/836/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-interior-manufacturing-in-the-us",
+        "automobile-metal-stamping-in-the-us"
+      ]
+    },
+    {
       "url": "https://www.marketresearchfuture.com/reports/us-aircraft-maintenance-repair-and-overhaul-market-21422",
       "industry_count": 2,
       "industry_slugs": [
@@ -293,6 +395,22 @@
       ]
     },
     {
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/audio-books/article/100588-u-s-audiobook-sales-up-9-in-2025-reaches-2-43-billion.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "audiobook-publishing",
+        "book-publishing-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.talenttraction.org/automotive-parts-manufacturing-workforce-trends/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-interior-manufacturing-in-the-us",
+        "automobile-metal-stamping-in-the-us"
+      ]
+    },
+    {
       "url": "https://www.thebusinessresearchcompany.com/report/airport-construction-global-market-report",
       "industry_count": 2,
       "industry_slugs": [
@@ -304,26 +422,38 @@
   "top_publishers_by_claim_link": [
     [
       "source inventory",
-      394
-    ],
-    [
-      "Grand View Research",
-      24
+      1047
     ],
     [
       "IBISWorld",
-      22
-    ],
-    [
-      "Research and Markets",
-      12
+      41
     ],
     [
       "www.ibisworld.com",
+      37
+    ],
+    [
+      "Grand View Research",
+      25
+    ],
+    [
+      "Research and Markets",
+      17
+    ],
+    [
+      "US Census Bureau",
       12
     ],
     [
+      "Fortune Business Insights",
+      11
+    ],
+    [
       "U.S. Energy Information Administration",
+      11
+    ],
+    [
+      "Mordor Intelligence",
       11
     ],
     [
@@ -331,144 +461,132 @@
       10
     ],
     [
-      "Fortune Business Insights",
+      "www.mordorintelligence.com",
       9
     ],
     [
-      "Mordor Intelligence",
-      8
-    ],
-    [
       "IBISWorld local baseline",
-      8
-    ],
-    [
-      "US Census Bureau",
-      6
-    ],
-    [
-      "RVshare",
-      6
-    ],
-    [
-      "Administration for Children and Families",
-      6
-    ],
-    [
-      "IBIS Industries",
-      6
-    ],
-    [
-      "Federal Highway Administration",
-      6
-    ],
-    [
-      "US Environmental Protection Agency",
-      5
-    ],
-    [
-      "Future Market Insights",
-      5
-    ],
-    [
-      "National Shooting Sports Foundation",
-      5
-    ],
-    [
-      "SEC",
-      5
+      9
     ],
     [
       "Market Research Future",
-      5
+      8
+    ],
+    [
+      "Packaging Dive",
+      8
+    ],
+    [
+      "www.congress.gov",
+      8
+    ],
+    [
+      "www.fortunebusinessinsights.com",
+      7
+    ],
+    [
+      "www.brewersassociation.org",
+      7
+    ],
+    [
+      "www.imarcgroup.com",
+      7
+    ],
+    [
+      "IBIS Industries research corpus",
+      6
+    ],
+    [
+      "GlobeNewswire",
+      6
     ]
   ],
   "top_source_hosts_by_claim_link": [
     [
       "www.ibisworld.com",
-      70
+      188
     ],
     [
       "www.grandviewresearch.com",
-      42
+      73
     ],
     [
       "www.mordorintelligence.com",
-      30
+      69
     ],
     [
       "www.researchandmarkets.com",
-      22
+      50
     ],
     [
       "www.fortunebusinessinsights.com",
-      22
-    ],
-    [
-      "fred.stlouisfed.org",
-      19
+      39
     ],
     [
       "www.sec.gov",
-      17
+      38
     ],
     [
       "www.globenewswire.com",
-      16
-    ],
-    [
-      "www.thebusinessresearchcompany.com",
-      13
+      32
     ],
     [
       "www.marketresearchfuture.com",
-      13
-    ],
-    [
-      "www.eia.gov",
-      11
-    ],
-    [
-      "www.congress.gov",
-      9
-    ],
-    [
-      "www.verifiedmarketreports.com",
-      9
-    ],
-    [
-      "www.futuremarketinsights.com",
-      8
-    ],
-    [
-      "www.epa.gov",
-      8
+      29
     ],
     [
       "www.imarcgroup.com",
-      8
+      25
     ],
     [
-      "www.globalgrowthinsights.com",
-      7
+      "fred.stlouisfed.org",
+      23
+    ],
+    [
+      "www.gminsights.com",
+      17
+    ],
+    [
+      "www.thebusinessresearchcompany.com",
+      16
+    ],
+    [
+      "www.congress.gov",
+      15
+    ],
+    [
+      "www.verifiedmarketreports.com",
+      15
+    ],
+    [
+      "www.prnewswire.com",
+      13
+    ],
+    [
+      "www.epa.gov",
+      12
+    ],
+    [
+      "www.bls.gov",
+      12
     ],
     [
       "www.census.gov",
-      6
+      12
     ],
     [
-      "acf.gov",
-      6
+      "www.globalgrowthinsights.com",
+      12
     ],
     [
-      "www.cms.gov",
-      6
+      "www.futuremarketinsights.com",
+      11
     ]
   ],
   "missing_metadata": {
-    "missing_url": 11,
+    "missing_url": 16,
     "missing_publisher": 0,
-    "missing_published_at": 724,
+    "missing_published_at": 1447,
     "missing_source_type": 0
   },
   "independence_status": "partial_dependency_review",
@@ -482,5 +600,5 @@
     "Separate primary observations from secondary summaries before counting corroboration.",
     "Add dated independent outcome measures for selected matched and non-matching industries."
   ],
-  "boundary": "This artifact audits source reuse inside the 100-industry matched sample. It does not establish independent corroboration, causal validity, rights clearance, or trend qualification."
+  "boundary": "This artifact audits source reuse inside the 200-industry matched sample. It does not establish independent corroboration, causal validity, rights clearance, or trend qualification."
 }

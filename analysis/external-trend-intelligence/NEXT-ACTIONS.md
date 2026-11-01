@@ -24,13 +24,13 @@ an independence-review panel, not a pooled estimate.
 has five discovery findings, three pinned pattern artifacts, 12 aggregate
 pattern entries, 52,593 aggregate claims, and 77,606 aggregate source
 references. It does not identify which source record supports each finding.
-The family is no longer an untraced URL gap: a bounded 100-industry sample
-across 48 observed sectors is present. The full finding remains held until the
+The family is no longer an untraced URL gap: a bounded 200-industry sample
+across observed sectors is present. The full finding remains held until the
 expanded sample's outcomes and source independence are independently checked.
 
 A first [bounded traceability sample](ibis-finding-claim-sample.json) now
-traces 100 matched industries across 48 observed sectors and 24 non-matching
-comparator industries across 18 sectors, with claim-level source IDs, URLs,
+traces 200 matched industries across observed sectors and 48 non-matching
+comparator industries across observed sectors, with claim-level source IDs, URLs,
 publisher identities, and source types. The non-matching records are explicit
 counterexample candidates; they are not proof that the finding is false or
 that the pattern engine's threshold is unbiased. This is progress toward the

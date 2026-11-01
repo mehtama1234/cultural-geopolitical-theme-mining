@@ -75,7 +75,7 @@ def main() -> int:
             "Deduplicate shared studies and company-sponsored material before counting corroboration.",
             "Retain counterexamples and null outcomes in the next review sample.",
         ],
-        "boundary": "This review audits the source links inside a 100-industry IBIS traceability sample. It does not clear rights, establish independent corroboration, validate outcomes, or qualify the finding.",
+        "boundary": f"This review audits the source links inside a {sample['sample_industry_count']}-industry IBIS traceability sample. It does not clear rights, establish independent corroboration, validate outcomes, or qualify the finding.",
     }
     OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
     print(f"wrote {OUTPUT} ({len(sources)} unique sources)")

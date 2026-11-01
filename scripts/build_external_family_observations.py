@@ -104,6 +104,9 @@ def main() -> int:
         pattern for pattern in ibis_pattern_inventory["ranked_patterns"]
         if pattern["slug"] == "compliance-as-economic-architecture"
     )
+    ibis_finding_sample = json.loads(
+        (ROOT / "analysis" / "external-trend-intelligence" / "ibis-finding-claim-sample.json").read_text()
+    )
     ibis_finding_sample_urls = sorted({
         source["url"]
         for slug in sorted(ibis_finding_pattern["matched_industries"])[:10]
@@ -258,7 +261,7 @@ def main() -> int:
                 pattern_claim_count_total=sum(pattern.get("claim_count", 0) for pattern in ibis_pattern_inventory["ranked_patterns"]),
                 pattern_source_count_total=sum(pattern.get("source_count", 0) for pattern in ibis_pattern_inventory["ranked_patterns"]),
                 traceability_sample_path="ibis-finding-claim-sample.json",
-                traceability_sample_industry_count=100,
+                traceability_sample_industry_count=ibis_finding_sample["sample_industry_count"],
                 source_urls=ibis_finding_sample_urls,
                 source_url_status="bounded_sample_present",
                 source_url_count=len(ibis_finding_sample_urls),

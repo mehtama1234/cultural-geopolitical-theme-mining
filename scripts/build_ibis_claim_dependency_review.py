@@ -77,7 +77,7 @@ def main() -> int:
             "Separate primary observations from secondary summaries before counting corroboration.",
             "Add dated independent outcome measures for selected matched and non-matching industries.",
         ],
-        "boundary": "This artifact audits source reuse inside the 100-industry matched sample. It does not establish independent corroboration, causal validity, rights clearance, or trend qualification.",
+        "boundary": f"This artifact audits source reuse inside the {sample['sample_industry_count']}-industry matched sample. It does not establish independent corroboration, causal validity, rights clearance, or trend qualification.",
     }
     OUTPUT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n")
     print(f"wrote {OUTPUT} ({len(shared_sources)} shared source IDs; {len(shared_urls)} shared URLs)")
