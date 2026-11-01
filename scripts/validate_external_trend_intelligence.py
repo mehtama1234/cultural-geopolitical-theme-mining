@@ -67,6 +67,12 @@ def main() -> int:
     assert open_gates["critical_gate_count"] >= 0
     assert open_gates["total_open_work_items"] == sum(gate["open_count"] for gate in open_gates["gates"])
     assert open_gates["boundary"] and open_gates["next_action"]
+    gate_history = json.loads((ANALYSIS / "open-gate-history.json").read_text())
+    assert gate_history["schema"] == "external-trend-intelligence.open-gate-history.v1"
+    assert gate_history["snapshot_count"] == len(gate_history["snapshots"]) >= 1
+    assert gate_history["latest_total_open_work_items"] == open_gates["total_open_work_items"]
+    assert gate_history["latest_critical_gate_count"] == open_gates["critical_gate_count"]
+    assert gate_history["append_only"] is True and gate_history["boundary"] and gate_history["next_action"]
     ids = {record["trend_id"] for record in manifest["records"]}
     assert len(ids) == manifest["record_count"]
     for record in manifest["records"]:

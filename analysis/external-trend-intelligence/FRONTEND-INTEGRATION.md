@@ -21,6 +21,7 @@ blockers.
 | Trend monitoring evaluation | `trend-monitoring-evaluation.json` | records current continue/hold decisions, reversal and retirement triggers, evidence basis, and next review for every watched candidate |
 | Forecast outcome eligibility | `forecast-outcome-eligibility.json` | distinguishes forecast periods still open from eligible-but-missing realized outcomes so the board never scores a partial-year result as a backtest |
 | Refresh freshness decisions | `refresh-freshness-decision.json` | converts artifact age, missing files, and incomplete states into explicit per-family ready/hold decisions and actions |
+| Open-gate history | `open-gate-history.json` | preserves append-only gate workload snapshots so closure, reopening, and long-lived critical work can be monitored across refreshes |
 | Compatible-measure search | `compatible-measure-search.json` | scanned record count, candidate measure/unit groups, hosts, periods, review boundary |
 | Global forecast comparison | `global-growth-forecast-comparison.json` | publisher, forecast period, value, spread, vintage/uncertainty boundary, backtest next action |
 | Forecast lineage review | `forecast-lineage-review.json` | source host, publisher-distinct check, vintage/rights/uncertainty/outcome review status, boundary |

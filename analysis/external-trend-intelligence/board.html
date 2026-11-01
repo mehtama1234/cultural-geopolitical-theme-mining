@@ -658,6 +658,9 @@
           el('goal-audit').append(card(`${gate.gate_id.replaceAll('_', ' ')} · ${gate.open_count} open`, `${priority} · ${gate.status.replaceAll('_', ' ')}`, `Owner: ${gate.owner}. Acceptance: ${gate.acceptance}`));
         });
       });
+      fetch('open-gate-history.json').then(r => r.json()).then(history => {
+        el('goal-audit').append(card('Gate workload history', `${history.snapshot_count} snapshots`, `${history.latest_total_open_work_items.toLocaleString()} current open work items · ${history.next_action}`));
+      });
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
       const qualificationCards = el('qualification-matrix'); qualificationMatrix.rows.forEach(row => qualificationCards.append(qualificationCard(row)));
       const backtestCards = el('backtest-readiness'); backtestReadiness.rows.forEach(row => backtestCards.append(backtestReadinessCard(row)));
