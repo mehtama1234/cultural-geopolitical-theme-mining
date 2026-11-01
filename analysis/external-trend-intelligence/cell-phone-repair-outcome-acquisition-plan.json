@@ -82,6 +82,48 @@
       "acceptance": "publisher, sampling frame, uncertainty, and rights are documented; vendor marketing alone is insufficient"
     }
   ],
+  "source_screen_2026_10_31": [
+    {
+      "publisher": "U.S. Census Bureau",
+      "artifact": "Nonemployer Statistics (NES), NAICS 811211/811213",
+      "url": "https://www.census.gov/programs-surveys/nonemployer-statistics.html",
+      "screen_status": "best_public_candidate",
+      "what_it_can_support": "annual subnational establishments and receipts for consumer-electronics and communication-equipment repair categories",
+      "limitation": "industry receipts are not phone-repair transactions, policy exposure, prices, or repair outcomes; NAICS mapping must be verified"
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "artifact": "Annual Integrated Economic Survey, NAICS 811212",
+      "url": "https://data.census.gov/table?codeset=naics~811212&g=010XX00US",
+      "screen_status": "context_candidate",
+      "what_it_can_support": "annual computer and office machine repair revenue/payroll context",
+      "limitation": "not phone-specific and does not measure repair attempts, completion, price, or device life"
+    },
+    {
+      "publisher": "U.S. EPA",
+      "artifact": "Durable Goods: Product-Specific Data",
+      "url": "https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/durable-goods-product-specific-data",
+      "screen_status": "counter_signal_only",
+      "what_it_can_support": "selected consumer-electronics generation and recycling context through 2018",
+      "limitation": "includes phones with other electronics, ends in 2018, and measures end-of-life tonnage rather than repair or replacement behavior"
+    },
+    {
+      "publisher": "U.S. EPA",
+      "artifact": "Alternatives for Disposition of Electronics Planning Tool (ADEPT)",
+      "url": "https://www.epa.gov/land-research/alternatives-disposition-electronics-planning-tool-adept",
+      "screen_status": "modeled_candidate_not_observed_outcome",
+      "what_it_can_support": "state-level modeled reuse, recycling, and disposal pathways",
+      "limitation": "uses top-down data and bottom-up assumptions; not a direct repair transaction series or policy evaluation"
+    },
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "artifact": "Employment and output by industry, NAICS 811200",
+      "url": "https://www.bls.gov/emp/tables/industry-employment-and-output.htm",
+      "screen_status": "labor_context_only",
+      "what_it_can_support": "broad employment/output context for electronic and precision equipment repair",
+      "limitation": "category is broader than phone repair and cannot establish consumer repair access or policy effect"
+    }
+  ],
   "required_fields": [
     "source_owner_and_rights_basis",
     "policy_effective_date_or_exposure_definition",

@@ -316,6 +316,8 @@ def main() -> int:
     assert len(repair_plan["why_not_pooled"]) >= 3
     assert repair_plan["target_outcome"]["required_measures"]
     assert repair_plan["acceptance_criteria"] and repair_plan["stop_rule"]
+    assert len(repair_plan["source_screen_2026_10_31"]) == 5
+    assert {row["screen_status"] for row in repair_plan["source_screen_2026_10_31"]} >= {"best_public_candidate", "counter_signal_only"}
     ibis_force_map = json.loads((ANALYSIS / "ibis-force-claim-map.json").read_text())
     assert ibis_force_map["schema"] == "external-trend-intelligence.ibis-force-claim-map.v1"
     assert ibis_force_map["force_count"] == len(ibis_force_map["forces"]) == 6

@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "cb79208dd7a4bb26e02ba9f7fbbec2915a8b6079",
+  "source_tree_commit": "4f5349668cdcf4ca3eaa9496482d50d81e096191",
   "artifact_count": 115,
   "artifacts": [
     {
@@ -206,8 +206,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
-      "bytes": 10668,
-      "sha256": "9259751dc03306e42c24de432117ebc42a7c2e8299727a0dbac75ece66a96c0a"
+      "bytes": 10958,
+      "sha256": "c780cec5812547fe91ba9ae9c438441f22d9462d3b0edfcfa31f5a820007255e"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -371,8 +371,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/cell-phone-repair-outcome-acquisition-plan.json",
-      "bytes": 5825,
-      "sha256": "5efbf84ee06b2bf5d864eedad4fff2377c1bbe6ea75c4c3c94c24ca48735725c"
+      "bytes": 8427,
+      "sha256": "2913811c79c464a390a61abc5d433c39788faf98a1c6b2caf00162cfd54d4eab"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-claim-dependency-review.json",

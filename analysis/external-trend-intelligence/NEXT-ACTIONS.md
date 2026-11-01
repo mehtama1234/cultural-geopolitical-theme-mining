@@ -77,6 +77,10 @@ now links the state policy records to the existing FTC repair-barrier evidence
 and the ITU e-waste counter-signal. It explicitly refuses to pool them because
 their populations, geographies, units, and outcomes differ, and specifies the
 US repair/replacement panel needed for a real backtest.
+An official-source screen now ranks Census NES (NAICS 811211/811213) as the
+best public industry-scale candidate, while Census AIES, EPA electronics
+tables/ADEPT, and BLS repair employment are retained with narrower context or
+modeling boundaries. None is yet a phone-level repair outcome.
 
 Next test:
 
