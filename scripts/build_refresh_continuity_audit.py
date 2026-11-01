@@ -23,6 +23,9 @@ def main() -> int:
     intervals_hours = [(later - earlier).total_seconds() / 3600 for earlier, later in zip(times, times[1:])]
     pass_count = sum(run.get("pipeline_status") == "passed" for run in runs)
     observed_days = sorted({time.date().isoformat() for time in times})
+    observed_weeks = sorted({time.strftime("%G-W%V") for time in times})
+    required_two_year_weeks = 104
+    coverage_ratio = min(len(observed_weeks) / required_two_year_weeks, 1.0)
     payload = {
         "schema": "external-trend-intelligence.refresh-continuity-audit.v1",
         "run_count": len(runs),
@@ -34,6 +37,10 @@ def main() -> int:
         "max_interval_hours": round(max(intervals_hours), 3) if intervals_hours else None,
         "median_interval_hours": round(sorted(intervals_hours)[len(intervals_hours) // 2], 3) if intervals_hours else None,
         "expected_cadence": "weekly",
+        "required_two_year_weeks": required_two_year_weeks,
+        "observed_distinct_week_count": len(observed_weeks),
+        "observed_week_coverage_ratio": round(coverage_ratio, 4),
+        "observed_week_coverage_percent": round(coverage_ratio * 100, 1),
         "continuity_status": "observed_burst_only" if intervals_hours and max(intervals_hours) < 168 else "gaps_require_review",
         "unattended_two_year_coverage": "not_demonstrated",
         "next_action": "Allow the scheduled workflow to accumulate weekly runs across distinct weeks; investigate any gap over 168 hours and retain the workflow dispatch path for recovery.",

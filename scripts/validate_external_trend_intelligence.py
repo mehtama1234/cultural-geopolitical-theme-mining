@@ -458,6 +458,10 @@ def main() -> int:
     assert continuity["schema"] == "external-trend-intelligence.refresh-continuity-audit.v1"
     assert continuity["run_count"] == refresh_history["run_count"]
     assert continuity["expected_cadence"] == "weekly"
+    assert continuity["required_two_year_weeks"] == 104
+    assert continuity["observed_distinct_week_count"] >= 0
+    assert 0 <= continuity["observed_week_coverage_ratio"] <= 1
+    assert continuity["observed_week_coverage_percent"] == round(continuity["observed_week_coverage_ratio"] * 100, 1)
     assert continuity["unattended_two_year_coverage"] == "not_demonstrated"
     assert continuity["next_action"] and continuity["boundary"]
     ownership = json.loads((ANALYSIS / "ownership-assignment-queue.json").read_text())
