@@ -104,6 +104,7 @@ STEPS = [
     ["scripts/test_successor_handoff.py"],
     ["scripts/build_ownership_assignment_queue.py"],
     ["scripts/build_successor_review_packet.py"],
+    ["scripts/test_successor_review_packet.py"],
     ["scripts/test_ownership_assignment_queue.py"],
     ["scripts/build_operational_kpi_scorecard.py"],
     ["scripts/test_operational_kpi_scorecard.py"],
