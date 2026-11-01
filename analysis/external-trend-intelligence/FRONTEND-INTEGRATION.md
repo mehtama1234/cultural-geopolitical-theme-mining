@@ -31,7 +31,7 @@ blockers.
 | Mobility independent challenge | `mobility-access-independent-comparison.json` | distinct datasets, income-gradient values, counter-signal, frame differences, pooling decision, and next holdout |
 | Mobility rights review | `mobility-access-rights-review.json` | source URLs, terms routes, rights status, permitted scope, non-cleared reuse, and stop rule |
 | Temporal holdout and narrative | `temporal-holdout-design.json`, `temporal-holdout-result.json`, `temporal-decision-narrative.json` | construction/holdout periods, units, directional result, counter-signal, uncertainty, decision use |
-| Rights evidence | `rights-review-queue.json`, `rights-assignment-queue.json`, `rights-evidence-register.json` | rights status, accountable review owner, local evidence files, hashes, publisher dependence, stop rule |
+| Rights evidence | `rights-review-queue.json`, `rights-assignment-queue.json`, `rights-evidence-register.json` | rights status, accountable review owner, family-specific first artifact, rights/lineage questions, completion evidence, local files, hashes, publisher dependence, stop rule |
 | Uncertainty coverage | `uncertainty-coverage-audit.json` | uncertainty state, evidence, release implication, and open acquisition action across decision-facing artifacts |
 | Acquisition queue | `evidence-acquisition-plan.json` | target source, required fields, acceptance criteria, stop rule, owner |
 | Program completion audit | `goal-completion-audit.json` | requirement status, evidence, gap, release status, next action |

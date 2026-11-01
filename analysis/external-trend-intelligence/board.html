@@ -698,6 +698,9 @@
         el('rights-assignment').append(card(`${queue.unassigned_family_count} of ${queue.family_count} families unassigned`, queue.status, queue.next_action));
         queue.rows.forEach(row => el('rights-assignment').append(card(row.family_id, row.current_status, `${row.rights_status} · dependence ${row.publisher_dependence} · ${row.acceptance_criteria.join(' · ')}`)));
       });
+      fetch('rights-review-queue.json').then(r => r.json()).then(queue => {
+        queue.rows.forEach(row => el('rights-evidence').append(card(`Review plan · ${row.family_id}`, row.status, `First artifact: ${row.review_plan.first_artifact}. Rights questions: ${row.review_plan.rights_questions.join(' · ')} Lineage questions: ${row.review_plan.lineage_questions.join(' · ')}`)));
+      });
       fetch('external-acquisition-rights-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => el('rights-evidence').append(card(`Acquisition · ${row.publisher}`, row.rights_evidence_status, `${row.upstream_identity} · ${row.next_action}`)));
       });

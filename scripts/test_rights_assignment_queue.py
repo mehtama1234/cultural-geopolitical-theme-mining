@@ -20,6 +20,7 @@ def main() -> int:
     assert observed == expected
     assert queue["unassigned_family_count"] + queue["assigned_family_count"] == queue["family_count"]
     assert all(row["acceptance_criteria"] and row["checkpoint"] for row in queue["rows"])
+    assert all(row.get("review_plan") and row["review_plan"]["first_artifact"] for row in review["rows"])
     print("rights assignment queue: reconciled")
     return 0
 
