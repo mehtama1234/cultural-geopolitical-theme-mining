@@ -869,6 +869,9 @@
       });
       const refreshCards = el('refresh-status'); refreshStatus.families.forEach(family => refreshCards.append(refreshStatusCard(family)));
       refreshCards.prepend(card('Release blockers', releaseHealth.release_status, releaseHealth.blockers.join(' · ')));
+      fetch('refresh-freshness-decision.json').then(r => r.json()).then(freshness => {
+        refreshCards.prepend(card('Freshness decisions', `${freshness.fresh_ready_count}/${freshness.family_count} ready`, `${freshness.hold_count} families held for stale, missing, or incomplete artifacts. ${freshness.next_action}`));
+      });
       fetch('refresh-history.json').then(r => r.json()).then(history => {
         const latest = history.latest;
         refreshCards.prepend(card(`${history.run_count} recorded refresh runs`, latest.release_status, `Latest ${latest.run_id} · ${latest.record_count.toLocaleString()} records · ${latest.pipeline_step_count || '—'} pipeline steps ${latest.pipeline_status || 'unreported'} · ${latest.blocker_count} open gates · source ${latest.source_tree_revision.slice(0, 12)}`));

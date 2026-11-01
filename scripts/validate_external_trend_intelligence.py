@@ -620,6 +620,11 @@ def main() -> int:
     assert refresh_status["stale_count"] == 0
     assert refresh_status["family_count"] == 8
     assert refresh_status["ready_for_review_count"] == 8
+    freshness = json.loads((ANALYSIS / "refresh-freshness-decision.json").read_text())
+    assert freshness["schema"] == "external-trend-intelligence.refresh-freshness-decision.v1"
+    assert freshness["family_count"] == refresh_status["family_count"]
+    assert freshness["fresh_ready_count"] + freshness["hold_count"] == freshness["family_count"]
+    assert freshness["boundary"] and freshness["next_action"]
     rubric = json.loads((ANALYSIS / "trend-qualification-rubric.json").read_text())
     assert rubric["schema"] == "external-trend-intelligence.trend-qualification-rubric.v1"
     assert len(rubric["rules"]) == 8

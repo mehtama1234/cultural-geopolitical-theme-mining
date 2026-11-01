@@ -12,6 +12,7 @@
         "refresh_external_observatory.py",
         "refresh-schedule-health.json",
         "refresh-status.json",
+        "refresh-freshness-decision.json",
         "refresh-history.json",
         "domain-coverage-audit.json",
         "test_refresh_stale_gate.py",
@@ -19,7 +20,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 120-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 121-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",

@@ -63,6 +63,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/refresh-schedule.json",
     "analysis/external-trend-intelligence/refresh-schedule-health.json",
     "analysis/external-trend-intelligence/refresh-status.json",
+    "analysis/external-trend-intelligence/refresh-freshness-decision.json",
     "analysis/external-trend-intelligence/trend-qualification-rubric.json",
     "analysis/external-trend-intelligence/source-family-registry.json",
     "analysis/external-trend-intelligence/observation-manifest.json",

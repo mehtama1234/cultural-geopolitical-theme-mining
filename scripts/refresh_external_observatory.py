@@ -54,6 +54,7 @@ STEPS = [
     ["scripts/test_npals_source_recovery.py"],
     ["scripts/build_external_evidence_gap_queue.py"],
     ["scripts/build_external_refresh_status.py"],
+    ["scripts/build_refresh_freshness_decision.py"],
     ["scripts/build_source_family_controls.py"],
     ["scripts/build_rights_review_queue.py"],
     ["scripts/build_rights_assignment_queue.py"],
