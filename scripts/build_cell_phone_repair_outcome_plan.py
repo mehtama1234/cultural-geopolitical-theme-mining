@@ -164,6 +164,8 @@ def main() -> int:
                 "acquisition_next_step": "Complete the publisher download form, retain the issued URL and checksum, inspect ORDS v0.3 fields, and screen mobile-phone rows by country, event date, outcome, and missingness",
             },
         ],
+        "observed_outcome_proxy_artifact": "open-repair-alliance-mobile-snapshot.json",
+        "observed_outcome_proxy_status": "acquired_phone_specific_global_community_repair_proxy_not_policy_outcome",
         "required_fields": [
             "source_owner_and_rights_basis",
             "policy_effective_date_or_exposure_definition",

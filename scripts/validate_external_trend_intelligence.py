@@ -321,6 +321,16 @@ def main() -> int:
     assert len(repair_plan["source_screen_2026_10_31"]) == 6
     assert {row["screen_status"] for row in repair_plan["source_screen_2026_10_31"]} >= {"best_public_candidate", "counter_signal_only"}
     assert any(row["publisher"] == "Open Repair Alliance" and row["screen_status"] == "phone_specific_global_outcome_candidate_gated_download" for row in repair_plan["source_screen_2026_10_31"])
+    assert repair_plan["observed_outcome_proxy_artifact"] == "open-repair-alliance-mobile-snapshot.json"
+    assert repair_plan["observed_outcome_proxy_status"] == "acquired_phone_specific_global_community_repair_proxy_not_policy_outcome"
+    ora_mobile = json.loads((ANALYSIS / "open-repair-alliance-mobile-snapshot.json").read_text())
+    assert ora_mobile["schema"] == "external-trend-intelligence.open-repair-alliance-mobile-snapshot.v1"
+    assert ora_mobile["status"] == "acquired_phone_specific_global_community_repair_proxy_not_policy_outcome"
+    assert ora_mobile["coverage"]["mobile_record_count"] > 6000
+    assert ora_mobile["coverage"]["us_mobile_record_count"] > 200
+    assert ora_mobile["source"]["license"] == "CC BY-SA 4.0"
+    assert ora_mobile["pooling_decision"] == "do_not_pool_with_census_industry_proxies_state_policy_or_global_ewaste"
+    assert ora_mobile["interpretation_boundary"] and ora_mobile["uncertainty"] and ora_mobile["falsifier"]
     census_repair = json.loads((ANALYSIS / "census-repair-industry-snapshot.json").read_text())
     assert census_repair["schema"] == "external-trend-intelligence.census-repair-industry-snapshot.v1"
     assert census_repair["status"] == "descriptive_industry_proxy_not_phone_outcome"

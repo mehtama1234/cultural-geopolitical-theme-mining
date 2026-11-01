@@ -855,6 +855,9 @@
         const d = comparison.descriptive_changes;
         ibisSamples.prepend(card('CBP versus NES repair comparison', comparison.status, `2019→2023: CBP paid-employee establishments ${d.cbp_paid_employee_establishments}; NES nonemployer establishments ${d.nes_nonemployer_establishments}. Same publisher, different populations; ${comparison.pooling_decision}.`));
       });
+      fetch('open-repair-alliance-mobile-snapshot.json').then(r => r.json()).then(snapshot => {
+        ibisSamples.prepend(card('Open Repair Alliance mobile outcomes', snapshot.status, `${snapshot.coverage.mobile_record_count.toLocaleString()} global mobile records · ${snapshot.coverage.us_mobile_record_count} USA records. Community-event proxy only; ${snapshot.pooling_decision}.`));
+      });
       fetch('ibis-force-claim-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => ibisSamples.append(card(`${row.title} · ${row.publisher_count} publishers`, row.review_status, `${row.claim_reference_count} claim references · ${row.claim_period_missing_count} missing periods · ${row.independence_status}. ${row.next_action}`)));
       });

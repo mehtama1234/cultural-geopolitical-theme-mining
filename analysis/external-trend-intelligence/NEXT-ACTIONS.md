@@ -112,6 +112,14 @@ transaction panel, and the download is gated by a publisher contact form, so
 the candidate remains held until the issued file, checksum, missingness, and
 country/event selection are reviewed.
 
+The direct ORA archive is now reproducibly acquired from its official WordPress
+media URL. The normalized [mobile snapshot](open-repair-alliance-mobile-snapshot.json)
+contains 6,290 mobile records globally and 230 USA records, with outcome
+counts, event years, country coverage, missingness, and the archive checksum.
+This is now an observed phone-specific proxy, not merely an acquisition
+candidate; it remains non-pooled and cannot support a U.S. policy effect or
+company exposure claim.
+
 The food-insecurity independent challenge was also corrected against Urban's
 published methods: the WBNS measure uses a 12-month reference period and the
 six-item USDA short form, not a 30-day period. The comparison still remains

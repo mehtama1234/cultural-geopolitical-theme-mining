@@ -1,0 +1,250 @@
+{
+  "schema": "external-trend-intelligence.open-repair-alliance-mobile-snapshot.v1",
+  "acquisition_id": "ora-ords-v03-mobile-aggregate-202607",
+  "status": "acquired_phone_specific_global_community_repair_proxy_not_policy_outcome",
+  "retrieved_at": "2026-10-31",
+  "source": {
+    "publisher": "Open Repair Alliance",
+    "dataset": "Open Repair Data Standard v0.3 aggregate EEE file",
+    "download_page": "https://openrepair.org/open-data/downloads/",
+    "download_url": "https://openrepair.org/wp-content/uploads/2026/10/OpenRepairData_v0.3_aggregate_202607.zip",
+    "schema_url": "https://standard.openrepair.org/",
+    "license": "CC BY-SA 4.0",
+    "artifact_sha256": "sha256:48479df5238feecd52507db20faf9561a35818b9bfb70a0d96091c0af8853775",
+    "raw_member": "OpenRepairData_v0.3_aggregate_202607_eee.csv",
+    "archive_member_count": 3,
+    "reported_release_scope": "Data updated October 2026, including records through July 2026."
+  },
+  "filter": {
+    "field": "product_category",
+    "value": "Mobile",
+    "interpretation": "ORA's mobile category is the closest available phone-specific category; retain partner_product_category for any future row-level analysis."
+  },
+  "coverage": {
+    "mobile_record_count": 6290,
+    "country_count": 27,
+    "countries_top": [
+      [
+        "GBR",
+        1407
+      ],
+      [
+        "DEU",
+        1221
+      ],
+      [
+        "NOR",
+        582
+      ],
+      [
+        "BEL",
+        477
+      ],
+      [
+        "CAN",
+        463
+      ],
+      [
+        "DNK",
+        392
+      ],
+      [
+        "NLD",
+        381
+      ],
+      [
+        "FRA",
+        272
+      ],
+      [
+        "USA",
+        230
+      ],
+      [
+        "ITA",
+        170
+      ],
+      [
+        "ARG",
+        115
+      ],
+      [
+        "HKG",
+        108
+      ],
+      [
+        "NZL",
+        102
+      ],
+      [
+        "ESP",
+        98
+      ],
+      [
+        "SWE",
+        78
+      ]
+    ],
+    "us_mobile_record_count": 230,
+    "global_event_years": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ]
+  },
+  "global_mobile": {
+    "record_count": 6290,
+    "status_counts": {
+      "End of life": 962,
+      "Fixed": 3552,
+      "Repairable": 1547,
+      "Unknown": 229
+    },
+    "status_percentages": {
+      "End of life": 15.29,
+      "Fixed": 56.47,
+      "Repairable": 24.59,
+      "Unknown": 3.64
+    },
+    "barrier_counts_top": [
+      [
+        "Missing",
+        5940
+      ],
+      [
+        "Spare parts not available",
+        88
+      ],
+      [
+        "Repair information not available",
+        70
+      ],
+      [
+        "Spare parts too expensive",
+        58
+      ],
+      [
+        "Lack of equipment",
+        56
+      ],
+      [
+        "No way to open product",
+        40
+      ],
+      [
+        "Product too worn out",
+        38
+      ]
+    ],
+    "event_year_counts": {
+      "2012": 1,
+      "2013": 31,
+      "2014": 90,
+      "2015": 104,
+      "2016": 234,
+      "2017": 385,
+      "2018": 560,
+      "2019": 668,
+      "2020": 195,
+      "2021": 186,
+      "2022": 482,
+      "2023": 935,
+      "2024": 994,
+      "2025": 999,
+      "2026": 426
+    },
+    "product_age_observed_count": 1802,
+    "product_age_median_years": 4,
+    "missingness": {
+      "country": 0,
+      "event_date": 0,
+      "repair_status": 0,
+      "product_age": 4403,
+      "brand": 0,
+      "repair_barrier_if_end_of_life": 5940
+    }
+  },
+  "us_mobile": {
+    "record_count": 230,
+    "status_counts": {
+      "End of life": 17,
+      "Fixed": 179,
+      "Repairable": 30,
+      "Unknown": 4
+    },
+    "status_percentages": {
+      "End of life": 7.39,
+      "Fixed": 77.83,
+      "Repairable": 13.04,
+      "Unknown": 1.74
+    },
+    "barrier_counts_top": [
+      [
+        "Missing",
+        227
+      ],
+      [
+        "No way to open product",
+        1
+      ],
+      [
+        "Spare parts not available",
+        1
+      ],
+      [
+        "Spare parts too expensive",
+        1
+      ]
+    ],
+    "event_year_counts": {
+      "2015": 9,
+      "2016": 49,
+      "2017": 67,
+      "2018": 54,
+      "2019": 11,
+      "2020": 2,
+      "2021": 2,
+      "2022": 7,
+      "2023": 7,
+      "2024": 3,
+      "2025": 7,
+      "2026": 12
+    },
+    "product_age_observed_count": 30,
+    "product_age_median_years": 4,
+    "missingness": {
+      "country": 0,
+      "event_date": 0,
+      "repair_status": 0,
+      "product_age": 200,
+      "brand": 0,
+      "repair_barrier_if_end_of_life": 227
+    }
+  },
+  "units": {
+    "record": "one logged repair attempt/item observed at a participating community repair event",
+    "repair_status": "ORA categorical outcome (Fixed, Repairable, End of life, Unknown)",
+    "product_age": "years where supplied by the data provider",
+    "event_date": "date of logged repair event"
+  },
+  "uncertainty": "This is a convenience/community-event sample, not a probability sample or census of repair transactions. Missing product age and barrier fields are preserved in counts; no sampling variance is supplied.",
+  "interpretation_boundary": "The artifact measures observed mobile items brought to participating repair events. It does not estimate US population repair demand, policy exposure, prices, waiting time, replacement decisions, or device-life effects.",
+  "counter_signal": "High observed fix rates may reflect self-selection of repairable items, volunteer expertise, event access, partner composition, and country mix; low end-of-life counts cannot be interpreted as low replacement or disposal.",
+  "pooling_decision": "do_not_pool_with_census_industry_proxies_state_policy_or_global_ewaste",
+  "falsifier": "A later ORA release, or a verified US transaction/consumer panel, shows materially different mobile repair direction or timing from this community-event proxy.",
+  "next_action": "Screen USA rows and event dates against New York and Colorado policy effective dates only as descriptive context; acquire a representative US transaction or consumer outcome before any policy or company claim.",
+  "rights_basis": "ORA publishes the aggregate dataset under CC BY-SA 4.0; retain attribution and share-alike notices, the exact archive checksum, and field-level transformation notes.",
+  "boundary": "This is the first acquired phone-specific outcome proxy in the observatory, but it remains an external descriptive community-repair signal and does not qualify a policy effect."
+}
