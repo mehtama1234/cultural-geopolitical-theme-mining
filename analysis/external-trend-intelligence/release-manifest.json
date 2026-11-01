@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "2e9679ae5f9e030003320790e6a39499917a34c5",
+  "source_tree_commit": "e2f56370207f174e4bd251e42bf21af4aefcd802",
   "artifact_count": 151,
   "artifacts": [
     {
@@ -616,8 +616,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/food-security-decision-brief.json",
-      "bytes": 2715,
-      "sha256": "200a30fd8e381d318498573d58b2e6a98ae18ea39d21c2f9d1518492bcb42e8d"
+      "bytes": 3226,
+      "sha256": "da8e80c3f1a675d14750197489fc34f63b35b266fdf915388fd0f77408871c93"
     },
     {
       "path": "analysis/external-trend-intelligence/food-security-release-tracker.json",

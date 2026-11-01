@@ -995,6 +995,8 @@ def main() -> int:
     assert brief["qualification_state"] == "monitored_external_trend"
     assert brief["evidence"]["primary_holdout"] == "food-insecurity-temporal-holdout.json"
     assert brief["uncertainty"] and brief["falsifier"] and brief["company_gate"]
+    assert brief["source_reported_significance"]["reference_estimate"].startswith("December 2025")
+    assert "reconstructed intervals" in brief["source_reported_significance"]["interpretation_boundary"]
     assert "not" in brief["boundary"]
     food_tracker = json.loads((ANALYSIS / "food-security-release-tracker.json").read_text())
     assert food_tracker["schema"] == "external-trend-intelligence.food-security-release-tracker.v1"

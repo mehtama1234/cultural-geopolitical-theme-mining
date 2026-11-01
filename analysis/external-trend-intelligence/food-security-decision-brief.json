@@ -24,6 +24,13 @@
     "The 2025 Urban methodology break must remain visible in future refreshes.",
     "The current result is descriptive persistence, not causal validation or a forecast."
   ],
+  "source_reported_significance": {
+    "reference_estimate": "December 2025 working-age-adult estimate (27.7 percent)",
+    "unchanged_comparisons": "December 2023 and December 2024",
+    "higher_comparisons": "December 2022 and earlier years",
+    "annotation_basis": "two-tailed tests with 0.10, 0.05, and 0.01 significance markers",
+    "interpretation_boundary": "These are publisher-reported hypothesis-test annotations, not reconstructed intervals; they do not harmonize the Urban and USDA series."
+  },
   "falsifier": "A later Urban release that falls below the 2019\u20132021 baseline without a documented questionnaire or frame change, or a later USDA release showing a sustained reversal, would weaken the persistence claim.",
   "next_action": "Refresh both source families on their next releases, preserve questionnaire and denominator definitions, and review whether the 2025 Urban method change alters the holdout interpretation.",
   "rights_boundary": "retain_as_attributed_metadata_and_internal_review_only; do_not_redistribute_upstream_content_or_connect_company_data_until_rights_owner_approves",

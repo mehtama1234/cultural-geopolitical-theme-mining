@@ -18,6 +18,7 @@ def load(name: str) -> dict:
 def main() -> int:
     holdout = load("food-insecurity-temporal-holdout.json")
     usda = load("usda-temporal-holdout.json")
+    comparison = load("food-insecurity-independent-comparison.json")
     rights = load("food-insecurity-rights-review.json")
     matrix = load("candidate-qualification-matrix.json")
     candidate = next(row for row in matrix["rows"] if row["candidate_id"] == "candidate-us-food-insecurity-persistence")
@@ -44,6 +45,7 @@ def main() -> int:
             "The 2025 Urban methodology break must remain visible in future refreshes.",
             "The current result is descriptive persistence, not causal validation or a forecast.",
         ],
+        "source_reported_significance": comparison["urban_methodology_review"]["source_reported_significance"],
         "falsifier": holdout["falsifier"],
         "next_action": holdout["next_action"],
         "rights_boundary": rights["release_decision"],
