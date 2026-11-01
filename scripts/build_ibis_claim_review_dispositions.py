@@ -14,20 +14,20 @@ OUTPUT = ANALYSIS / "ibis-claim-review-dispositions.json"
 
 def main() -> int:
     batch = json.loads(INPUT.read_text())
-    target = next(row for row in batch["claims"] if row["review_id"].endswith("drug-and-alcohol-test-kit-manufacturing::test-demand"))
-    publisher_counts = {}
-    source_type_counts = {}
-    for source in target["sources"]:
-        publisher_counts[source.get("publisher", "unknown")] = publisher_counts.get(source.get("publisher", "unknown"), 0) + 1
-        source_type_counts[source.get("source_type", "unknown")] = source_type_counts.get(source.get("source_type", "unknown"), 0) + 1
-    disposition = {
+    def summarize(target: dict, *, disposition: str, independence_finding: str, outcome_finding: str, counter_signal: str, next_test: str) -> dict:
+        publisher_counts = {}
+        source_type_counts = {}
+        for source in target["sources"]:
+            publisher_counts[source.get("publisher", "unknown")] = publisher_counts.get(source.get("publisher", "unknown"), 0) + 1
+            source_type_counts[source.get("source_type", "unknown")] = source_type_counts.get(source.get("source_type", "unknown"), 0) + 1
+        return {
         "review_id": target["review_id"],
         "industry_slug": target["industry_slug"],
         "claim_id": target["claim_id"],
         "claim_text": target["claim_text"],
         "review_scope": "repository_metadata_triage",
         "review_status": "triage_complete_full_review_required",
-        "disposition": "held_insufficient_evidence",
+        "disposition": disposition,
         "evidence_checked": {
             "source_count": len(target["sources"]),
             "publisher_counts": publisher_counts,
@@ -35,30 +35,51 @@ def main() -> int:
             "missing_published_at_count": sum(source.get("published_at") is None for source in target["sources"]),
             "source_urls": [source.get("url") for source in target["sources"]],
         },
-        "independence_finding": "Not established: three of four source rows are Quest Diagnostics material, and the local records do not establish whether those publications share an underlying study, sample, or methodology.",
-        "outcome_finding": "Not observed: the artifact lists candidate measures such as test volume, positivity, turnaround, and lab capacity but contains no dated independent outcome series.",
+        "independence_finding": independence_finding,
+        "outcome_finding": outcome_finding,
         "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
-        "counter_signal": "The government source describes population substance-use context, while the company sources describe a vendor's testing observations; the populations and denominators are not interchangeable.",
-        "next_test": "Recover the exact Quest methodology and sample frame, then acquire an independent dated testing-volume or positivity series with a compatible population and denominator.",
+        "counter_signal": counter_signal,
+        "next_test": next_test,
         "company_bridge_status": "blocked_external_first_gate",
         "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed.",
-    }
-    pending = [row["review_id"] for row in batch["claims"] if row["review_id"] != target["review_id"]]
+        }
+    target = next(row for row in batch["claims"] if row["review_id"].endswith("drug-and-alcohol-test-kit-manufacturing::test-demand"))
+    repair = next(row for row in batch["claims"] if row["review_id"].endswith("cell-phone-repair::repair-policy"))
+    dispositions = [
+        summarize(
+            target,
+            disposition="held_insufficient_evidence",
+            independence_finding="Not established: three of four source rows are Quest Diagnostics material, and the local records do not establish whether those publications share an underlying study, sample, or methodology.",
+            outcome_finding="Not observed: the artifact lists candidate measures such as test volume, positivity, turnaround, and lab capacity but contains no dated independent outcome series.",
+            counter_signal="The government source describes population substance-use context, while the company sources describe a vendor's testing observations; the populations and denominators are not interchangeable.",
+            next_test="Recover the exact Quest methodology and sample frame, then acquire an independent dated testing-volume or positivity series with a compatible population and denominator.",
+        ),
+        summarize(
+            repair,
+            disposition="held_outcome_missing",
+            independence_finding="Provisional source diversity only: New York Attorney General and Colorado General Assembly are distinct government publishers and URLs, with no shared host in the pinned metadata. This is not yet a verified independent comparison because publication dates and underlying policy-document lineage remain unresolved.",
+            outcome_finding="Not observed: state policy materials establish legal or program context but do not provide a comparable repair-volume, repair-versus-replace, e-waste, or device-life outcome series.",
+            counter_signal="Two state policy examples may not represent national policy adoption or consumer behavior; states differ in implementation, coverage, and effective dates.",
+            next_test="Verify the enacted-law versions and effective dates, then acquire a dated independent outcome series with a defined device population and denominator (repair volume, repair rate, device age, or e-waste).",
+        ),
+    ]
+    disposition_ids = {row["review_id"] for row in dispositions}
+    pending = [row["review_id"] for row in batch["claims"] if row["review_id"] not in disposition_ids]
     payload = {
         "schema": "external-trend-intelligence.ibis-claim-review-dispositions.v1",
         "finding_slug": batch["finding_slug"],
         "source_revision": batch["source_revision"],
-        "status": "one_conservative_triage_disposition_recorded",
+        "status": "two_conservative_triage_dispositions_recorded",
         "review_method": "metadata-only triage from pinned repository artifacts; not legal rights clearance or independent outcome validation",
-        "completed_disposition_count": 1,
+        "completed_disposition_count": len(dispositions),
         "pending_first_batch_count": len(pending),
         "pending_review_ids": pending,
-        "dispositions": [disposition],
-        "next_action": disposition["next_test"],
-        "boundary": "This artifact records one held triage disposition. It does not qualify the claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge.",
+        "dispositions": dispositions,
+        "next_action": "Complete the remaining first-batch reviews, then acquire dated independent outcomes for claims that survive metadata triage.",
+        "boundary": "This artifact records two held triage dispositions. It does not qualify either claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge.",
     }
     OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
-    print(f"wrote {OUTPUT} (1 disposition; {len(pending)} first-batch claims pending)")
+    print(f"wrote {OUTPUT} ({len(dispositions)} dispositions; {len(pending)} first-batch claims pending)")
     return 0
 
 

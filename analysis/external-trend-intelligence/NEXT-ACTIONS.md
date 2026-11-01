@@ -62,13 +62,15 @@ that queue using an explicit rule favoring government/academic source types,
 host diversity, and source count. It is a work packet only: all ten remain
 `pending_manual_review`, with no qualification or internal-data permission.
 
-The first metadata triage is recorded in
+The first two metadata triages are recorded in
 [`ibis-claim-review-dispositions.json`](ibis-claim-review-dispositions.json).
 The drug-testing demand claim is held because three of four source rows are
 Quest Diagnostics material, two lack publication dates, and no dated
 independent outcome is present in the pinned artifact. This is a conservative
-hold—not a finding that the claim is false—and the other nine first-batch
-claims remain pending.
+hold—not a finding that the claim is false. The cell-phone repair policy claim
+has distinct New York and Colorado government publishers, but it is still held
+because dates and a comparable repair or device-life outcome series are absent.
+The other eight first-batch claims remain pending.
 
 Next test:
 

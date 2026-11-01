@@ -303,11 +303,11 @@ def main() -> int:
     assert all(row["required_review"] and row["stop_rule"] for row in ibis_batch["claims"])
     ibis_dispositions = json.loads((ANALYSIS / "ibis-claim-review-dispositions.json").read_text())
     assert ibis_dispositions["schema"] == "external-trend-intelligence.ibis-claim-review-dispositions.v1"
-    assert ibis_dispositions["status"] == "one_conservative_triage_disposition_recorded"
-    assert ibis_dispositions["completed_disposition_count"] == 1
-    assert ibis_dispositions["pending_first_batch_count"] == ibis_batch["batch_size"] - 1
-    assert ibis_dispositions["dispositions"][0]["disposition"] == "held_insufficient_evidence"
-    assert ibis_dispositions["dispositions"][0]["company_bridge_status"] == "blocked_external_first_gate"
+    assert ibis_dispositions["status"] == "two_conservative_triage_dispositions_recorded"
+    assert ibis_dispositions["completed_disposition_count"] == 2
+    assert ibis_dispositions["pending_first_batch_count"] == ibis_batch["batch_size"] - 2
+    assert {row["disposition"] for row in ibis_dispositions["dispositions"]} == {"held_insufficient_evidence", "held_outcome_missing"}
+    assert all(row["company_bridge_status"] == "blocked_external_first_gate" for row in ibis_dispositions["dispositions"])
     assert ibis_dispositions["next_action"] and ibis_dispositions["boundary"]
     ibis_force_map = json.loads((ANALYSIS / "ibis-force-claim-map.json").read_text())
     assert ibis_force_map["schema"] == "external-trend-intelligence.ibis-force-claim-map.v1"

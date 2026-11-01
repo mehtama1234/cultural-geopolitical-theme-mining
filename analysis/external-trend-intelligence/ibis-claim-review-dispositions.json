@@ -2,13 +2,12 @@
   "schema": "external-trend-intelligence.ibis-claim-review-dispositions.v1",
   "finding_slug": "compliance-as-economic-architecture",
   "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
-  "status": "one_conservative_triage_disposition_recorded",
+  "status": "two_conservative_triage_dispositions_recorded",
   "review_method": "metadata-only triage from pinned repository artifacts; not legal rights clearance or independent outcome validation",
-  "completed_disposition_count": 1,
-  "pending_first_batch_count": 9,
+  "completed_disposition_count": 2,
+  "pending_first_batch_count": 8,
   "pending_review_ids": [
     "ibis-independence::atm-manufacturing::atm-cash",
-    "ibis-independence::cell-phone-repair::repair-policy",
     "ibis-independence::community-housing-and-homeless-shelters-in-the-us::shelter-affordability",
     "ibis-independence::dna-and-dna-forensic-laboratories::dna-public",
     "ibis-independence::eating-disorder-clinics::ed-need",
@@ -51,8 +50,39 @@
       "next_test": "Recover the exact Quest methodology and sample frame, then acquire an independent dated testing-volume or positivity series with a compatible population and denominator.",
       "company_bridge_status": "blocked_external_first_gate",
       "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
+    },
+    {
+      "review_id": "ibis-independence::cell-phone-repair::repair-policy",
+      "industry_slug": "cell-phone-repair",
+      "claim_id": "repair-policy",
+      "claim_text": "New York and Colorado materials illustrate rising state-level consumer access and right-to-repair policy for electronics.",
+      "review_scope": "repository_metadata_triage",
+      "review_status": "triage_complete_full_review_required",
+      "disposition": "held_outcome_missing",
+      "evidence_checked": {
+        "source_count": 2,
+        "publisher_counts": {
+          "New York Attorney General": 1,
+          "Colorado General Assembly": 1
+        },
+        "source_type_counts": {
+          "government": 2
+        },
+        "missing_published_at_count": 2,
+        "source_urls": [
+          "https://ag.ny.gov/press-release/2024/attorney-general-james-reminds-consumers-its-easier-ever-get-electronics",
+          "https://www.leg.colorado.gov/bills/hb24-1121"
+        ]
+      },
+      "independence_finding": "Provisional source diversity only: New York Attorney General and Colorado General Assembly are distinct government publishers and URLs, with no shared host in the pinned metadata. This is not yet a verified independent comparison because publication dates and underlying policy-document lineage remain unresolved.",
+      "outcome_finding": "Not observed: state policy materials establish legal or program context but do not provide a comparable repair-volume, repair-versus-replace, e-waste, or device-life outcome series.",
+      "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
+      "counter_signal": "Two state policy examples may not represent national policy adoption or consumer behavior; states differ in implementation, coverage, and effective dates.",
+      "next_test": "Verify the enacted-law versions and effective dates, then acquire a dated independent outcome series with a defined device population and denominator (repair volume, repair rate, device age, or e-waste).",
+      "company_bridge_status": "blocked_external_first_gate",
+      "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
     }
   ],
-  "next_action": "Recover the exact Quest methodology and sample frame, then acquire an independent dated testing-volume or positivity series with a compatible population and denominator.",
-  "boundary": "This artifact records one held triage disposition. It does not qualify the claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge."
+  "next_action": "Complete the remaining first-batch reviews, then acquire dated independent outcomes for claims that survive metadata triage.",
+  "boundary": "This artifact records two held triage dispositions. It does not qualify either claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge."
 }
