@@ -673,6 +673,9 @@
       fetch('pilot-food-security-service-room-blueprint.json').then(r => r.json()).then(blueprint => {
         pilots.prepend(card('First pilot blueprint', blueprint.status, `${blueprint.current_blockers.length} blockers · ${blueprint.permitted_design.minimum_internal_grain} ${blueprint.boundary}`));
       });
+      fetch('pilot-bridge-simulation.json').then(r => r.json()).then(simulation => {
+        pilots.prepend(card('Synthetic bridge simulation', simulation.status, `${simulation.matched_cells.length} matched aggregate cells · ${simulation.unmatched_external_cells.length} unmatched external cells · ${simulation.missing_outcome_cells.length} missing-outcome cells remain visible · company data accessed: ${simulation.company_data_accessed}.`));
+      });
       const monitoringCards = el('monitoring-register'); monitoringRegister.trends.forEach(trend => monitoringCards.append(monitoringCard(trend)));
       const stageCards = el('case-stage-panel'); stagePanel.cases.forEach(item => stageCards.append(caseStageCard(item)));
       const crossStageCards = el('cross-publisher-stage-panel');

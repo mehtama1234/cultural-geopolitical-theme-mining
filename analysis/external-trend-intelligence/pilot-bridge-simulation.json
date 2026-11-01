@@ -1,0 +1,62 @@
+{
+  "schema": "external-trend-intelligence.pilot-bridge-simulation.v1",
+  "status": "synthetic_contract_exercised_fail_closed",
+  "pilot_id": "pilot-food-security-service-room-001",
+  "candidate_id": "candidate-us-food-insecurity-persistence",
+  "join_basis": "aggregate_comparison",
+  "synthetic_only": true,
+  "company_data_accessed": false,
+  "matched_cells": [
+    {
+      "key": {
+        "geography": "synthetic-west",
+        "period": "2026-Q1"
+      },
+      "external_context_rate": 0.18,
+      "workflow_completion_rate": 0.74,
+      "denominator": 100
+    },
+    {
+      "key": {
+        "geography": "synthetic-east",
+        "period": "2026-Q1"
+      },
+      "external_context_rate": 0.11,
+      "workflow_completion_rate": 0.81,
+      "denominator": 120
+    }
+  ],
+  "unmatched_external_cells": [
+    {
+      "geography": "synthetic-unmatched",
+      "period": "2026-Q1",
+      "external_context_rate": 0.15
+    }
+  ],
+  "missing_outcome_cells": [
+    {
+      "external": {
+        "geography": "synthetic-missing-outcome",
+        "period": "2026-Q1",
+        "external_context_rate": 0.14
+      },
+      "internal": {
+        "geography": "synthetic-missing-outcome",
+        "period": "2026-Q1",
+        "workflow_completion_rate": null,
+        "denominator": 90
+      }
+    }
+  ],
+  "required_visibility_checks": {
+    "unmatched_remain_visible": true,
+    "missing_outcomes_remain_visible": true,
+    "denominators_present_for_matched": true,
+    "no_individual_identity": true
+  },
+  "falsifier": "A later compatible comparison with no stable difference, reversed direction, or stronger operational explanation stops the pilot claim.",
+  "stop_rule": "Stop before real internal access if rights, privacy, denominator, external monitoring, or preregistration gates fail.",
+  "approved_test_count": 0,
+  "boundary": "Synthetic aggregate cells exercise schema and visibility behavior only. They are not company data, a pilot result, causal evidence, or authorization to connect an internal system.",
+  "next_action": "Have a named decision owner complete the real contract only after external qualification, rights, privacy, and access gates pass."
+}

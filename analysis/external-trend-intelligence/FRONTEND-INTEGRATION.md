@@ -17,6 +17,7 @@ blockers.
 | Open-gate register | `open-gate-register.json` | consolidated rights, independence, qualification, backtest, pilot, ownership, and continuity work; the board renders each gate's open count, priority, owner, status, and acceptance criteria |
 | Domain coverage audit | `domain-coverage-audit.json` | maps the required cultural, social, geopolitical, financial, industry, workforce, technology, infrastructure, and market domains to observed themes, records, hosts, and URLs; the board renders domain coverage without treating it as validity |
 | Financial-room decision card | `financial-room-decision-card.json` | consolidates Australia/U.S. directional evidence, the JPMorgan chart endpoint, uncertainty, rights status, counter-signal, and the no-bridge company gate into one bounded mechanism-context card |
+| Synthetic pilot bridge simulation | `pilot-bridge-simulation.json` | exercises aggregate matching, unmatched and missing-outcome visibility, falsifier, and stop-rule behavior without accessing company data or authorizing a test |
 | Compatible-measure search | `compatible-measure-search.json` | scanned record count, candidate measure/unit groups, hosts, periods, review boundary |
 | Global forecast comparison | `global-growth-forecast-comparison.json` | publisher, forecast period, value, spread, vintage/uncertainty boundary, backtest next action |
 | Forecast lineage review | `forecast-lineage-review.json` | source host, publisher-distinct check, vintage/rights/uncertainty/outcome review status, boundary |

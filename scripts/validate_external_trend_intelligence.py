@@ -644,6 +644,12 @@ def main() -> int:
     assert pilot_readiness["pilot_count"] == len(pilot_register["pilots"])
     assert pilot_readiness["ready_for_approved_test_count"] == 0
     assert all(item["readiness_status"] == "blocked_external_first" for item in pilot_readiness["pilots"])
+    pilot_simulation = json.loads((ANALYSIS / "pilot-bridge-simulation.json").read_text())
+    assert pilot_simulation["schema"] == "external-trend-intelligence.pilot-bridge-simulation.v1"
+    assert pilot_simulation["status"] == "synthetic_contract_exercised_fail_closed"
+    assert pilot_simulation["synthetic_only"] is True and pilot_simulation["company_data_accessed"] is False
+    assert pilot_simulation["approved_test_count"] == 0
+    assert all(pilot_simulation["required_visibility_checks"].values())
     monitoring = json.loads((ANALYSIS / "trend-monitoring-register.json").read_text())
     assert monitoring["schema"] == "external-trend-intelligence.trend-monitoring-register.v1"
     assert len(monitoring["trends"]) == qualification_matrix["candidate_count"]
