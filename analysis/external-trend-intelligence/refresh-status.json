@@ -1,6 +1,6 @@
 {
   "schema": "external-trend-intelligence.refresh-status.v1",
-  "generated_at": "2026-11-01T01:35:35.907327+00:00",
+  "generated_at": "2026-11-01T01:38:25.932767+00:00",
   "source_schedule": "refresh-schedule.json",
   "source_registry": "source-family-registry.json",
   "family_count": 8,
@@ -18,12 +18,12 @@
         {
           "path": "observation-manifest.json",
           "exists": true,
-          "age_hours": 0.02
+          "age_hours": 0.01
         },
         {
           "path": "candidate-comparisons.json",
           "exists": true,
-          "age_hours": 2.03
+          "age_hours": 2.08
         }
       ],
       "status": "ready_for_review",
@@ -67,7 +67,7 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 6.29
+          "age_hours": 6.34
         }
       ],
       "status": "ready_for_review",
@@ -138,7 +138,7 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 6.29
+          "age_hours": 6.34
         }
       ],
       "status": "ready_for_review",
@@ -155,12 +155,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 5.2
+          "age_hours": 5.25
         },
         {
           "path": "REFRESH-RUNBOOK.md",
           "exists": true,
-          "age_hours": 0.05
+          "age_hours": 0.02
         }
       ],
       "status": "ready_for_review",
@@ -177,12 +177,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 5.2
+          "age_hours": 5.25
         },
         {
           "path": "internal-bridge-schema.json",
           "exists": true,
-          "age_hours": 7.23
+          "age_hours": 7.28
         }
       ],
       "status": "ready_for_review",

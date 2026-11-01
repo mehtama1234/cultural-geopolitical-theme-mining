@@ -31,6 +31,7 @@ STEPS = [
     ["scripts/build_ibis_claim_dependency_review.py"],
     ["scripts/build_ibis_adult_day_outcome_review.py"],
     ["scripts/build_npals_public_table_extract.py"],
+    ["scripts/test_npals_source_recovery.py"],
     ["scripts/build_external_evidence_gap_queue.py"],
     ["scripts/build_external_refresh_status.py"],
     ["scripts/build_source_family_controls.py"],

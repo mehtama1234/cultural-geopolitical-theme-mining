@@ -69,6 +69,19 @@ tree:
 python3 scripts/test_refresh_stale_gate.py
 ```
 
+The live CDC NPALS extract also has a deterministic outage test. It checks
+that a successful extract is preserved when the API is unavailable, that the
+artifact is marked stale instead of pretending to be fresh, and that a later
+successful fetch recovers the artifact:
+
+```text
+python3 scripts/test_npals_source_recovery.py
+```
+
+This test runs inside the full refresh immediately after the NPALS extraction
+step, so source continuity is tested on every release rather than only during
+manual incident handling.
+
 The check creates a temporary old artifact, verifies that the family becomes
 `stale`, rewrites the artifact, and verifies recovery to `ready_for_review`.
 
