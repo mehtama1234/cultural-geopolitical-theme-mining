@@ -36,6 +36,7 @@ STEPS = [
     ["scripts/build_candidate_qualification_matrix.py"],
     ["scripts/build_trend_monitoring_status.py"],
     ["scripts/build_falsification_review_queue.py"],
+    ["scripts/test_falsification_review_queue.py"],
     ["scripts/build_backtest_source_snapshot.py"],
     ["scripts/build_backtest_readiness.py"],
     ["scripts/build_backtest_comparability_review.py"],
