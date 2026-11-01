@@ -43,6 +43,7 @@ STEPS = [
     ["scripts/build_ibis_claim_independence_review_queue.py"],
     ["scripts/build_ibis_first_review_batch.py"],
     ["scripts/build_ibis_outcome_acquisition_queue.py"],
+    ["scripts/build_ibis_outcome_linkage_review.py"],
     ["scripts/build_ibis_claim_review_dispositions.py"],
     ["scripts/build_cell_phone_repair_outcome_plan.py"],
     ["scripts/build_open_repair_alliance_mobile_snapshot.py"],

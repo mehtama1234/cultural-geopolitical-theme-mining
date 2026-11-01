@@ -997,6 +997,9 @@
         target.append(card(`${queue.with_outcome_candidate_count} of ${queue.candidate_count} claims have outcome leads`, queue.status, `${queue.unacquired_count} outcomes remain unacquired. ${queue.next_action}`));
         queue.rows.slice(0, 12).forEach(row => target.append(card(`#${row.acquisition_rank} · ${row.industry_slug} · ${row.claim_id}`, row.acquisition_status, `${row.outcome_candidate_count} outcome leads · ${row.next_action}`)));
       });
+      fetch('ibis-community-food-outcome-linkage-review.json').then(r => r.json()).then(review => {
+        el('ibis-outcome-acquisition').prepend(card('Official USDA outcome context', review.status, `${review.outcome_artifact.periods.join(', ')} household observations acquired. Independence: ${review.lineage_adjudication.independence_status}. ${review.lineage_adjudication.outcome_linkage}`));
+      });
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
     fetch('program-scorecard.json').then(r => r.json()).then(scorecard => {
       const m = scorecard.metrics;

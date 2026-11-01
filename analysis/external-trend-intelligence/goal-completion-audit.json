@@ -25,7 +25,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, append-only gate workload history, explicit 104-week coverage plan, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 136-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, append-only gate workload history, explicit 104-week coverage plan, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 137-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -49,6 +49,7 @@
         "ibis-claim-independence-review-queue.json",
         "ibis-first-review-batch.json",
         "ibis-outcome-acquisition-queue.json",
+        "ibis-community-food-outcome-linkage-review.json",
         "ibis-claim-review-dispositions.json",
         "ibis-force-claim-review.json",
         "shed-emergency-expense-uncertainty-audit.json",
@@ -58,7 +59,7 @@
         "test_rights_release_gate.py",
         "observation-manifest.json"
       ],
-      "gap": "Rights and publisher dependence remain unverified for all source families; the rights-assignment queue and rights-review-readiness artifact now make the eight-family ownership and sign-off prerequisites explicit, and the rights review request turns those prerequisites into a fillable human handoff. The candidate independence adjudication queue makes all five candidate reviews assignable with 4 high-priority rows. Candidate-specific reviews cover the monitored food-security lane, the mobility comparison, and 7 financial-room sources. Record metadata quality is now audited across 2135 records, with remediation status no_open_record_metadata_gaps; this makes source identity, lineage locator, period, unit, geography, uncertainty, counter-signal, and retrieval hash testable rather than implicit. The uncertainty coverage audit makes source-level, incomplete, and pending uncertainty visible across six decision-facing artifacts. The 500-industry IBIS sample and six-force review expose repeated source IDs, URLs, missing claim periods, and metadata gaps for dependency review; the claim-independence audit mechanically flags reused URLs, hosts, and publishers, the review queue turns the remaining low-dependency claims into assigned work, the outcome-acquisition queue identifies 38 claim-level outcome leads while keeping all outcomes unacquired, and the first ten-claim packet is now fully triaged with 10 conservative held dispositions and 0 pending rows, rather than unsupported promotion. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
+      "gap": "Rights and publisher dependence remain unverified for all source families; the rights-assignment queue and rights-review-readiness artifact now make the eight-family ownership and sign-off prerequisites explicit, and the rights review request turns those prerequisites into a fillable human handoff. The candidate independence adjudication queue makes all five candidate reviews assignable with 4 high-priority rows. Candidate-specific reviews cover the monitored food-security lane, the mobility comparison, and 7 financial-room sources. Record metadata quality is now audited across 2135 records, with remediation status no_open_record_metadata_gaps; this makes source identity, lineage locator, period, unit, geography, uncertainty, counter-signal, and retrieval hash testable rather than implicit. The uncertainty coverage audit makes source-level, incomplete, and pending uncertainty visible across six decision-facing artifacts. The 500-industry IBIS sample and six-force review expose repeated source IDs, URLs, missing claim periods, and metadata gaps for dependency review; the claim-independence audit mechanically flags reused URLs, hosts, and publishers, the review queue turns the remaining low-dependency claims into assigned work, the outcome-acquisition queue identifies 38 claim-level outcome leads, and the community-food linkage review records one official USDA outcome context with lineage and denominator limits while keeping promotion blocked. The first ten-claim packet is now fully triaged with 10 conservative held dispositions and 0 pending rows, rather than unsupported promotion. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
     },
     {
       "id": "independent_source_comparison",
@@ -104,6 +105,7 @@
         "mobility-access-temporal-holdout.json",
         "ibis-adult-day-outcome-review.json",
         "ibis-outcome-acquisition-queue.json",
+        "ibis-community-food-outcome-linkage-review.json",
         "cell-phone-repair-outcome-acquisition-plan.json",
         "census-repair-industry-snapshot.json",
         "census-nonemployer-repair-snapshot.json",
@@ -112,7 +114,7 @@
         "shed-temporal-holdout.json",
         "usda-temporal-holdout.json"
       ],
-      "gap": "The food-insecurity candidate has a descriptive Urban 2019\u20132023 to 2024\u20132025 holdout and non-pooled USDA challenge; the mobility lane has a bounded ACS 2023\u21922024 holdout plus an independent NHTS directional challenge; and the IBIS adult-day-care lane has a dated CDC outcome series plus a CMS Medicaid rate comparison. The IBIS outcome-acquisition queue now turns 38 claim-level outcome leads into explicit unacquired work with required unit, period, uncertainty, rights, and independence fields. The forecast eligibility audit now distinguishes periods still open from eligible outcomes missing, so no partial-year score is created. The cell-phone repair lane now has reproducible 2019\u20132023 paid-employee CBP and 2019\u20132024 nonemployer Census proxies, but neither is phone-specific and they cannot be pooled with policy or e-waste evidence. Causal validation, uncertainty harmonization, independent utilization outcomes, and holdouts for the other candidates remain open."
+      "gap": "The food-insecurity candidate has a descriptive Urban 2019\u20132023 to 2024\u20132025 holdout and non-pooled USDA challenge; the mobility lane has a bounded ACS 2023\u21922024 holdout plus an independent NHTS directional challenge; and the IBIS adult-day-care lane has a dated CDC outcome series plus a CMS Medicaid rate comparison. The IBIS outcome-acquisition queue now turns 38 claim-level outcome leads into explicit work, and the first official USDA outcome context is acquired for one community-food-services claim but remains a possible restatement with a non-comparable service-use denominator. The forecast eligibility audit now distinguishes periods still open from eligible outcomes missing, so no partial-year score is created. The cell-phone repair lane now has reproducible 2019\u20132023 paid-employee CBP and 2019\u20132024 nonemployer Census proxies, but neither is phone-specific and they cannot be pooled with policy or e-waste evidence. Causal validation, uncertainty harmonization, independent utilization outcomes, and holdouts for the other candidates remain open."
     },
     {
       "id": "decision_ready_frontend",

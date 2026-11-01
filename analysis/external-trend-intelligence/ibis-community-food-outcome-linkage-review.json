@@ -1,0 +1,78 @@
+{
+  "schema": "external-trend-intelligence.ibis-community-food-outcome-linkage-review.v1",
+  "status": "official_outcome_acquired_lineage_review_pending",
+  "review_id": "ibis-independence::community-food-services-in-the-us::community-demand",
+  "industry_slug": "community-food-services-in-the-us",
+  "claim_id": "community-demand",
+  "claim": {
+    "text": "Approximately 47.9 million people experienced food insecurity in 2024, and household food insecurity remained around 13.7% in the current brief.",
+    "publisher_candidates": [
+      "Feeding America",
+      "Urban Institute",
+      "FRAC"
+    ],
+    "source_urls": [
+      "https://www.feedingamerica.org/about-us/press-room/Map-the-Meal-Gap-2025",
+      "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025,%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
+      "https://frac.org/news/usdafoodsecurityreportdec2025"
+    ],
+    "geography": "United States",
+    "as_of": "2026-10-20"
+  },
+  "outcome_artifact": {
+    "record_id": "comparative-usda-food-security-2022-2024",
+    "publisher": "USDA Economic Research Service",
+    "source_unit": "U.S. Department of Agriculture Economic Research Service, Household Food Security in the United States",
+    "source_urls": [
+      "https://www.ers.usda.gov/publications/113622",
+      "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics"
+    ],
+    "retrieval_hash": "sha256:79ff71e761ff6690aa9e36828f2a65b35af625eb688f8cf70e06e7be0160b613",
+    "population": "United States; households",
+    "periods": [
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "measure": "percent of U.S. households food insecure at some time during the year",
+    "observations": [
+      {
+        "period": "2022",
+        "value": 12.8,
+        "unit": "percent of households food insecure at some time during the year",
+        "denominator": "U.S. households in the CPS Food Security Supplement"
+      },
+      {
+        "period": "2023",
+        "value": 13.5,
+        "unit": "percent of households food insecure at some time during the year",
+        "denominator": "U.S. households in the CPS Food Security Supplement"
+      },
+      {
+        "period": "2024",
+        "value": 13.7,
+        "unit": "percent of households food insecure at some time during the year",
+        "denominator": "U.S. households in the CPS Food Security Supplement"
+      }
+    ],
+    "uncertainty": "Food insecurity is a resource-constrained food-access outcome, not a general financial-wellbeing or consumption measure. Annual estimates have sampling error and should be interpreted with the USDA significance guidance.",
+    "counterinterpretation": "The 2024 food-insecurity prevalence was not statistically significantly different from 2023; a small numerical increase is not necessarily a population-level change.",
+    "rights_boundary": "Retain normalized values, source locator, retrieval hash, and derived internal-review calculations with ERS attribution; raw publication reproduction and redistribution remain uncleared."
+  },
+  "lineage_adjudication": {
+    "publisher_status": "canonical_official_publisher_resolved",
+    "independence_status": "dependent_restatement_possible",
+    "reason": "FRAC may summarize the same USDA series; the direct USDA record is a canonical outcome artifact but is not counted as a second independent publisher until source-level lineage is signed off.",
+    "population_compatibility": "not_comparable_to_the_IBIS_industry_population_without_a_service-use denominator",
+    "outcome_linkage": "food-insecurity outcome is relevant context for community food-service demand but does not measure visits, meals, pantry capacity, enrollment, or provider revenue",
+    "rights_status": "conditional_attribution_use_documented",
+    "review_status": "pending_human_lineage_and_outcome_scope_signoff"
+  },
+  "decision": "retain_as_acquired_external_context; do_not_promote_ibis_claim_or_bridge_to_company_data",
+  "required_next_steps": [
+    "Confirm whether the FRAC record is a restatement of the USDA artifact and record the source lineage.",
+    "Acquire a direct community-food-service utilization or capacity outcome with a defined denominator.",
+    "Reconcile the outcome period, population, unit, uncertainty, and rights before any IBIS qualification."
+  ],
+  "boundary": "This artifact documents one acquired official outcome context and its limits. It does not validate the IBIS claim, establish demand causality, prove independent confirmation, or authorize an internal company bridge."
+}

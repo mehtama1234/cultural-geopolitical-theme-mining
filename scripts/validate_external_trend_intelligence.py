@@ -364,6 +364,14 @@ def main() -> int:
     assert ibis_outcomes["with_outcome_candidate_count"] == sum(bool(row["outcome_candidate_count"]) for row in ibis_outcomes["rows"])
     assert all(row["acquisition_status"] == "candidate_outcome_not_acquired" for row in ibis_outcomes["rows"])
     assert all(row["required_fields"] and row["stop_rule"] and row["next_action"] for row in ibis_outcomes["rows"])
+    ibis_linkage = json.loads((ANALYSIS / "ibis-community-food-outcome-linkage-review.json").read_text())
+    assert ibis_linkage["schema"] == "external-trend-intelligence.ibis-community-food-outcome-linkage-review.v1"
+    assert ibis_linkage["status"] == "official_outcome_acquired_lineage_review_pending"
+    assert ibis_linkage["outcome_artifact"]["record_id"] == "comparative-usda-food-security-2022-2024"
+    assert len(ibis_linkage["outcome_artifact"]["observations"]) == 3
+    assert ibis_linkage["lineage_adjudication"]["independence_status"] == "dependent_restatement_possible"
+    assert ibis_linkage["decision"].startswith("retain_as_acquired_external_context")
+    assert ibis_linkage["required_next_steps"] and ibis_linkage["boundary"]
     ibis_dispositions = json.loads((ANALYSIS / "ibis-claim-review-dispositions.json").read_text())
     assert ibis_dispositions["schema"] == "external-trend-intelligence.ibis-claim-review-dispositions.v1"
     assert ibis_dispositions["status"] == "ten_conservative_triage_dispositions_recorded"
