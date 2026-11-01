@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "88e25304a55f1f6a36e436d4e0977b4cb2e83224",
+  "source_tree_commit": "62741ec03b0b9dc3fefd87434708b2b5aaccd52c",
   "artifact_count": 90,
   "artifacts": [
     {
@@ -436,8 +436,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 61524,
-      "sha256": "fd60ddaca346758a45c8a3d58ec32fe842a28d1b53bcc77e17be0037d7a58fea"
+      "bytes": 62403,
+      "sha256": "3af611d3c804cc01ca3428fd561ec5d5bf7b27102b84102bbf3f9d34f1a0d029"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",

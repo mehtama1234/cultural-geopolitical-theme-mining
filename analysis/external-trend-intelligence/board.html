@@ -133,6 +133,11 @@
       <div class="promotion-gates" id="monitoring-status"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Falsification review queue</h2>
+      <p class="muted">Every candidate has a stated way it could be weakened or reversed and a next decisive test. Held candidates remain held until that evidence exists.</p>
+      <div class="promotion-gates" id="falsification-queue"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Bounded case-stage panel</h2>
       <p class="muted">Three same-frame cases are coded by stage. “Not observed” is not treated as a negative outcome.</p>
       <div class="promotion-gates" id="case-stage-panel"></div>
@@ -708,6 +713,10 @@
     fetch('trend-monitoring-status.json').then(r => r.json()).then(status => {
       el('monitoring-status').append(card('Monitoring watches', 'measured', `${status.trend_count} watches · ${status.qualified_monitor_count} qualified monitor · ${status.prequalification_watch_count} pre-qualification`));
       status.rows.forEach(row => el('monitoring-status').append(card(row.candidate_id, row.execution_status, `${row.leading_indicator_count} leading indicators · ${row.reversal_condition_count} reversal conditions · next review: ${row.next_review}`)));
+    });
+    fetch('falsification-review-queue.json').then(r => r.json()).then(queue => {
+      el('falsification-queue').append(card('Challenge queue', 'measured', `${queue.candidate_count} candidates · ${queue.ready_for_monitoring_challenge_count} ready for monitoring challenge · ${queue.held_pending_decisive_evidence_count} held pending decisive evidence`));
+      queue.rows.forEach(row => el('falsification-queue').append(card(row.candidate_id, row.review_state, `Falsifier: ${row.falsifier} Next test: ${row.next_decisive_test}`)));
     });
   </script>
 </body>
