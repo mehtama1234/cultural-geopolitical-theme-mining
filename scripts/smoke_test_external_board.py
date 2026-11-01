@@ -56,6 +56,7 @@ ARTIFACTS = [
     "observatory-chart-catalog.json",
     "trend-monitoring-status.json",
     "falsification-review-queue.json",
+    "ibis-outcome-acquisition-queue.json",
 ]
 
 

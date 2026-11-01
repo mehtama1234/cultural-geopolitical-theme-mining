@@ -356,6 +356,14 @@ def main() -> int:
     assert ibis_batch["batch_size"] == len(ibis_batch["claims"]) == min(10, ibis_queue["candidate_count"])
     assert all(row["review_status"] == "pending_manual_review" and row["disposition"] == "pending" for row in ibis_batch["claims"])
     assert all(row["required_review"] and row["stop_rule"] for row in ibis_batch["claims"])
+    ibis_outcomes = json.loads((ANALYSIS / "ibis-outcome-acquisition-queue.json").read_text())
+    assert ibis_outcomes["schema"] == "external-trend-intelligence.ibis-outcome-acquisition-queue.v1"
+    assert ibis_outcomes["status"] == "outcome_acquisition_queue_ready"
+    assert ibis_outcomes["candidate_count"] == len(ibis_outcomes["rows"]) == ibis_queue["candidate_count"]
+    assert ibis_outcomes["unacquired_count"] == ibis_outcomes["candidate_count"]
+    assert ibis_outcomes["with_outcome_candidate_count"] == sum(bool(row["outcome_candidate_count"]) for row in ibis_outcomes["rows"])
+    assert all(row["acquisition_status"] == "candidate_outcome_not_acquired" for row in ibis_outcomes["rows"])
+    assert all(row["required_fields"] and row["stop_rule"] and row["next_action"] for row in ibis_outcomes["rows"])
     ibis_dispositions = json.loads((ANALYSIS / "ibis-claim-review-dispositions.json").read_text())
     assert ibis_dispositions["schema"] == "external-trend-intelligence.ibis-claim-review-dispositions.v1"
     assert ibis_dispositions["status"] == "ten_conservative_triage_dispositions_recorded"
