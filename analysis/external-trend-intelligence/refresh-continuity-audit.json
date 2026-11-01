@@ -1,16 +1,16 @@
 {
   "schema": "external-trend-intelligence.refresh-continuity-audit.v1",
-  "run_count": 166,
-  "passed_run_count": 156,
+  "run_count": 167,
+  "passed_run_count": 157,
   "observed_day_count": 2,
   "observed_days": [
     "2026-10-31",
     "2026-11-01"
   ],
   "first_observed_run": "2026-10-31T22:09:08+00:00",
-  "latest_observed_run": "2026-11-01T06:25:34+00:00",
+  "latest_observed_run": "2026-11-01T06:31:30+00:00",
   "max_interval_hours": 0.171,
-  "median_interval_hours": 0.051,
+  "median_interval_hours": 0.052,
   "expected_cadence": "weekly",
   "required_two_year_weeks": 104,
   "observed_distinct_week_count": 1,
