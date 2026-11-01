@@ -24,6 +24,12 @@ def main() -> int:
     assert theme_audit["theme_count"] == theme_audit["observed_theme_count"] == 14
     assert theme_audit["sparse_theme_count"] == len(theme_audit["sparse_themes"])
     assert all(row["coverage_status"] == "observed" and row["quality_boundary"] for row in theme_audit["themes"].values())
+    assert all(
+        row["source_url_count"] >= row["unique_source_url_count"] >= 0
+        and row["reused_source_url_count"] == row["source_url_count"] - row["unique_source_url_count"]
+        and 0 <= row["source_url_reuse_ratio"] <= 1
+        for row in theme_audit["themes"].values()
+    )
     ids = {record["trend_id"] for record in manifest["records"]}
     assert len(ids) == manifest["record_count"]
     for record in manifest["records"]:

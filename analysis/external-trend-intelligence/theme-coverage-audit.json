@@ -355,6 +355,10 @@
         "yecap-ap.org",
         "yougov.com"
       ],
+      "source_url_count": 1976,
+      "unique_source_url_count": 1629,
+      "reused_source_url_count": 347,
+      "source_url_reuse_ratio": 0.1756,
       "observation_status_counts": {
         "compared": 87,
         "estimated": 70,
@@ -653,6 +657,10 @@
         "www23.statcan.gc.ca",
         "yougov.com"
       ],
+      "source_url_count": 1281,
+      "unique_source_url_count": 1128,
+      "reused_source_url_count": 153,
+      "source_url_reuse_ratio": 0.1194,
       "observation_status_counts": {
         "compared": 36,
         "estimated": 23,
@@ -1082,6 +1090,10 @@
         "yougov.com",
         "zms.bundeswehr.de"
       ],
+      "source_url_count": 2415,
+      "unique_source_url_count": 2012,
+      "reused_source_url_count": 403,
+      "source_url_reuse_ratio": 0.1669,
       "observation_status_counts": {
         "compared": 63,
         "estimated": 77,
@@ -1477,6 +1489,10 @@
         "yougov.com",
         "zms.bundeswehr.de"
       ],
+      "source_url_count": 1921,
+      "unique_source_url_count": 1631,
+      "reused_source_url_count": 290,
+      "source_url_reuse_ratio": 0.151,
       "observation_status_counts": {
         "compared": 32,
         "estimated": 39,
@@ -2110,6 +2126,10 @@
         "ymcagta.org",
         "yougov.com"
       ],
+      "source_url_count": 3905,
+      "unique_source_url_count": 3167,
+      "reused_source_url_count": 738,
+      "source_url_reuse_ratio": 0.189,
       "observation_status_counts": {
         "compared": 137,
         "estimated": 150,
@@ -2399,6 +2419,10 @@
         "ymcagta.org",
         "yougov.com"
       ],
+      "source_url_count": 1381,
+      "unique_source_url_count": 1201,
+      "reused_source_url_count": 180,
+      "source_url_reuse_ratio": 0.1303,
       "observation_status_counts": {
         "compared": 50,
         "estimated": 45,
@@ -2902,6 +2926,10 @@
         "yougov.com",
         "zms.bundeswehr.de"
       ],
+      "source_url_count": 2554,
+      "unique_source_url_count": 2218,
+      "reused_source_url_count": 336,
+      "source_url_reuse_ratio": 0.1316,
       "observation_status_counts": {
         "compared": 35,
         "estimated": 47,
@@ -3190,6 +3218,10 @@
         "yougov.com",
         "zenodo.org"
       ],
+      "source_url_count": 1073,
+      "unique_source_url_count": 940,
+      "reused_source_url_count": 133,
+      "source_url_reuse_ratio": 0.124,
       "observation_status_counts": {
         "compared": 23,
         "estimated": 10,
@@ -3631,6 +3663,10 @@
         "zenodo.org",
         "zms.bundeswehr.de"
       ],
+      "source_url_count": 2293,
+      "unique_source_url_count": 1976,
+      "reused_source_url_count": 317,
+      "source_url_reuse_ratio": 0.1382,
       "observation_status_counts": {
         "compared": 92,
         "estimated": 54,
@@ -4357,6 +4393,10 @@
         "ymcagta.org",
         "yougov.com"
       ],
+      "source_url_count": 4639,
+      "unique_source_url_count": 3885,
+      "reused_source_url_count": 754,
+      "source_url_reuse_ratio": 0.1625,
       "observation_status_counts": {
         "compared": 95,
         "estimated": 120,
@@ -4626,6 +4666,10 @@
         "ymcagta.org",
         "yougov.com"
       ],
+      "source_url_count": 1165,
+      "unique_source_url_count": 971,
+      "reused_source_url_count": 194,
+      "source_url_reuse_ratio": 0.1665,
       "observation_status_counts": {
         "compared": 60,
         "estimated": 49,
@@ -5310,6 +5354,10 @@
         "zenodo.org",
         "zms.bundeswehr.de"
       ],
+      "source_url_count": 3648,
+      "unique_source_url_count": 3139,
+      "reused_source_url_count": 509,
+      "source_url_reuse_ratio": 0.1395,
       "observation_status_counts": {
         "compared": 104,
         "estimated": 61,
@@ -6093,6 +6141,10 @@
         "yougov.com",
         "zenodo.org"
       ],
+      "source_url_count": 5231,
+      "unique_source_url_count": 4277,
+      "reused_source_url_count": 954,
+      "source_url_reuse_ratio": 0.1824,
       "observation_status_counts": {
         "compared": 173,
         "estimated": 151,
@@ -6427,6 +6479,10 @@
         "yecap-ap.org",
         "yougov.com"
       ],
+      "source_url_count": 2190,
+      "unique_source_url_count": 1828,
+      "reused_source_url_count": 362,
+      "source_url_reuse_ratio": 0.1653,
       "observation_status_counts": {
         "compared": 65,
         "estimated": 79,
@@ -6439,6 +6495,6 @@
       "quality_boundary": "Coverage indicates captured records and hosts only; it does not prove independence, comparability, rights, persistence, or trend qualification."
     }
   },
-  "boundary": "This audit checks breadth of the external observation inventory. A large record count or multiple hosts is not independent confirmation and does not authorize company use.",
-  "next_action": "Review sparse themes and source-family mapping during the next coverage review; preserve missing, dependent, and non-comparable evidence explicitly."
+  "boundary": "This audit checks breadth and repeated-URL pressure in the external observation inventory. A large record count, multiple hosts, or unique URLs is not independent confirmation and does not authorize company use.",
+  "next_action": "Review sparse themes, repeated URLs, and source-family mapping during the next coverage review; preserve missing, dependent, and non-comparable evidence explicitly."
 }

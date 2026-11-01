@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "d762756b6922580b9f70904ddcb85adcddbaa727",
+  "source_tree_commit": "ce3bc84f76d6bc10c23eeff807c73dc75d627458",
   "artifact_count": 128,
   "artifacts": [
     {
@@ -256,8 +256,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/theme-coverage-audit.json",
-      "bytes": 175293,
-      "sha256": "9c90977b00f02cd1cbaccba3ee8bbf90282734924739e163838e8495d643eb34"
+      "bytes": 177430,
+      "sha256": "b65cc040033e9d269b3d3f494ac98eea36bfd735e1262bf237c2a702e663e41f"
     },
     {
       "path": "analysis/external-trend-intelligence/compatible-measure-search.json",
@@ -621,8 +621,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 84740,
-      "sha256": "01f47c89b76674b24749dddcb76a59af34a05fd8dd28e8741e10d08b9bdaf610"
+      "bytes": 84912,
+      "sha256": "f2da1ad47956a80d7c73df7c41f9e938510dd87f50fb65f37eb90f287ed165f5"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",
