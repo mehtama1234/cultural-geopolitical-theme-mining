@@ -125,6 +125,11 @@
       <div class="promotion-gates" id="pilot-register"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Pilot activation queue</h2>
+      <p class="muted">This shows the ordered approvals required before any internal connection. It is not an authorization.</p>
+      <div class="promotion-gates" id="pilot-activation-queue"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Trend monitoring register</h2>
       <p class="muted">Held candidates remain watchable: each has a cadence, leading indicators, and explicit reversal conditions.</p>
       <div class="promotion-gates" id="monitoring-register"></div>
@@ -183,6 +188,11 @@
       <h2>Reader publication contract</h2>
       <p class="muted">Every published chart or narrative is registered with its period, unit, scope, uncertainty, counter-signal, and company boundary.</p>
       <div class="promotion-gates" id="publication-registry"></div>
+    </section>
+    <section style="margin-top:28px">
+      <h2>Observatory chart catalog</h2>
+      <p class="muted">Reusable chart contracts keep themes, visual encodings, source artifacts, and caveats consistent across frontend pages.</p>
+      <div class="promotion-gates" id="chart-catalog"></div>
     </section>
     <section style="margin-top:28px">
       <h2>Successor validation control</h2>
@@ -679,6 +689,11 @@
       fetch('pilot-bridge-simulation.json').then(r => r.json()).then(simulation => {
         pilots.prepend(card('Synthetic bridge simulation', simulation.status, `${simulation.matched_cells.length} matched aggregate cells · ${simulation.unmatched_external_cells.length} unmatched external cells · ${simulation.missing_outcome_cells.length} missing-outcome cells remain visible · company data accessed: ${simulation.company_data_accessed}.`));
       });
+      fetch('pilot-activation-queue.json').then(r => r.json()).then(queue => {
+        const target = el('pilot-activation-queue');
+        target.append(card(`${queue.design_complete_count}/${queue.pilot_count} design contracts complete`, queue.status, `${queue.approved_test_count} approved tests · company data accessed: ${queue.company_data_accessed}. ${queue.boundary}`));
+        queue.rows.forEach(row => target.append(card(row.pilot_id, `${row.external_gate} · ${row.blocking_check_ids.length} blockers`, `Missing approval inputs: ${row.missing_approval_inputs.join(', ') || 'none'}. ${row.next_action}`)));
+      });
       const monitoringCards = el('monitoring-register'); monitoringRegister.trends.forEach(trend => monitoringCards.append(monitoringCard(trend)));
       const stageCards = el('case-stage-panel'); stagePanel.cases.forEach(item => stageCards.append(caseStageCard(item)));
       const crossStageCards = el('cross-publisher-stage-panel');
@@ -788,6 +803,11 @@
         const target = el('publication-registry');
         target.append(card(`${registry.publication_count} reader publications`, registry.status, `${registry.boundary} Next: ${registry.next_action}`));
         registry.publications.forEach(publication => target.append(card(publication.title, publication.status, `${publication.period} · ${publication.unit} · ${publication.geography}. ${publication.evidence_boundary} ${publication.company_gate}`)));
+      });
+      fetch('observatory-chart-catalog.json').then(r => r.json()).then(catalog => {
+        const target = el('chart-catalog');
+        target.append(card(`${catalog.chart_count} reusable chart contracts`, catalog.status, `${catalog.boundary} Next: ${catalog.next_action}`));
+        catalog.charts.forEach(chart => target.append(card(chart.title, `${chart.theme} · ${chart.subtheme}`, `${chart.chart_type} · ${chart.concept}. Sources: ${chart.source_artifacts.join(', ')}. ${chart.boundary}`)));
       });
       fetch('evidence-acquisition-plan.json').then(r => r.json()).then(plan => {
         plan.tracks.forEach(track => el('acquisition-queue').append(card(track.track_id.replaceAll('-', ' '), track.owner, `${track.target_source}. Acceptance: ${track.acceptance_criteria.join(' · ')} Stop: ${track.stop_rule}`)));
