@@ -106,7 +106,24 @@
       "derived_use_status": "attributed_normalized_internal_review_appears_supported_subject_to_exact_product_notice; raw_and_public_derived_chart_scope_open",
       "retention_scope": "retain source URL, retrieval dates, download hashes, suppression flags, and Census citation; do not redistribute raw files or publish derived charts until exact product terms and rights-owner approval are recorded",
       "next_action": "Attach the exact NES product notice and attribution language to the acquired-source record and document the permitted derived-chart scope."
+    },
+    {
+      "acquisition_id": "us-navy-fy2026-ship-maintenance-context",
+      "publisher": "U.S. Department of the Navy",
+      "source_url": "https://www.secnav.navy.mil/fmc/fmb/Documents/26pres/OMN_Book.pdf",
+      "terms_evidence_urls": [
+        "https://www.secnav.navy.mil/fmc/fmb/Documents/26pres/OMN_Book.pdf",
+        "https://www.secnav.navy.mil/fmc/fmb/Documents/26pres/SCN_Book.pdf"
+      ],
+      "official_policy_observation": "The official Navy budget PDFs are government publications and are retained here as cited metadata and normalized observations. Exact artifact reuse and any redistribution of PDF content remain subject to source-specific review.",
+      "access_basis": "official Navy FY2026 budget and ship-production schedule PDFs",
+      "upstream_identity": "FY2026 ship-maintenance funding and planned availability context",
+      "publisher_dependence": "single_publisher_official_budget_context",
+      "rights_evidence_status": "official_source_metadata_exact_artifact_review_open",
+      "derived_use_status": "normalized_internal_context_only_until_exact_artifact_terms_reviewed",
+      "retention_scope": "retain source URLs, retrieval timestamp, PDF hashes, normalized observations, attribution, and explicit budget-versus-realization caveats; do not redistribute the source PDFs through the observatory",
+      "next_action": "Confirm exact Navy artifact reuse terms and acquire an execution or award series before any external promotion or company-facing derived chart."
     }
   ],
-  "boundary": "This register records rights evidence and review tasks for seven official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
+  "boundary": "This register records rights evidence and review tasks for eight official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
 }
