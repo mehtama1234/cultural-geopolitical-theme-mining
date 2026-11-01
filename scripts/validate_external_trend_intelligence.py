@@ -280,6 +280,14 @@ def main() -> int:
     assert ibis_review["sample_industry_count"] == ibis_sample["sample_industry_count"]
     assert ibis_review["independence_status"] == "not_qualified"
     assert ibis_review["outcome_validation_status"] == "not_observed_in_traceability_sample"
+    ibis_independence = json.loads((ANALYSIS / "ibis-claim-independence-audit.json").read_text())
+    assert ibis_independence["schema"] == "external-trend-intelligence.ibis-claim-independence-audit.v1"
+    assert ibis_independence["status"] == "dependency_audit_complete_independence_unverified"
+    assert ibis_independence["sample_claim_count"] == ibis_sample["claim_review_summary"]["claim_count"]
+    assert ibis_independence["unique_url_count"] >= ibis_independence["reused_url_count"]
+    assert ibis_independence["unique_host_count"] >= ibis_independence["reused_host_count"]
+    assert ibis_independence["dependency_flag_counts"]
+    assert ibis_independence["next_action"] and ibis_independence["boundary"]
     ibis_force_map = json.loads((ANALYSIS / "ibis-force-claim-map.json").read_text())
     assert ibis_force_map["schema"] == "external-trend-intelligence.ibis-force-claim-map.v1"
     assert ibis_force_map["force_count"] == len(ibis_force_map["forces"]) == 6

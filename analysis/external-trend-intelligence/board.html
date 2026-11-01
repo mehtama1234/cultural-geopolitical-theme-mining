@@ -821,6 +821,10 @@
       const claimReview = ibisSample.claim_review_summary;
       ibisSamples.append(card(`${claimReview.claim_count} sampled claims adjudicated`, 'claim_level_review', `${claimReview.url_locator_pass_count} have URL locators · ${claimReview.publisher_identity_pass_count} have publisher identity · ${claimReview.temporal_metadata_pass_count} have temporal metadata · ${claimReview.independence_pending_count} remain pending independence review`));
       ibisSample.samples.forEach(sample => ibisSamples.append(ibisSampleCard(sample)));
+      fetch('ibis-claim-independence-audit.json').then(r => r.json()).then(audit => {
+        const flags = Object.entries(audit.dependency_flag_counts).map(([name, count]) => `${name.replaceAll('_', ' ')}: ${count}`).join(' · ');
+        ibisSamples.prepend(card(`${audit.sample_claim_count} claims · ${audit.reused_url_count} reused URLs · ${audit.reused_host_count} reused hosts`, audit.status, `${flags}. No dependency flag is treated as independent confirmation. ${audit.next_action}`));
+      });
       fetch('ibis-force-claim-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => ibisSamples.append(card(`${row.title} · ${row.publisher_count} publishers`, row.review_status, `${row.claim_reference_count} claim references · ${row.claim_period_missing_count} missing periods · ${row.independence_status}. ${row.next_action}`)));
       });

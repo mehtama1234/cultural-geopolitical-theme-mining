@@ -43,6 +43,14 @@ refresh, 1,452 claims have URL locators, 1,227 have publisher identity, and
 1,230 have temporal metadata; all 1,500 remain pending independence review.
 These counts are evidence of the remaining work, not a promotion decision.
 
+The new [IBIS claim-independence audit](ibis-claim-independence-audit.json)
+now makes dependency visible at claim level: the sample contains 3,110 unique
+URLs, 895 reused URLs, 1,324 hosts, and 517 reused hosts. It flags 1,453
+claims with a dependency warning and leaves only 47 as candidates for manual
+independence review. Reused URLs, hosts, or publishers are not counted as
+independent confirmation; publisher ownership and study lineage still require
+human verification.
+
 Next test:
 
 1. Select one finding, beginning with “Compliance Is Becoming Economic

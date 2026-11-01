@@ -30,6 +30,7 @@ STEPS = [
     ["scripts/build_external_family_lineage_review.py"],
     ["scripts/build_ibis_finding_claim_sample.py"],
     ["scripts/build_ibis_claim_source_review.py"],
+    ["scripts/build_ibis_claim_independence_audit.py"],
     ["scripts/build_ibis_claim_dependency_review.py"],
     ["scripts/build_ibis_adult_day_outcome_review.py"],
     ["scripts/build_npals_public_table_extract.py"],

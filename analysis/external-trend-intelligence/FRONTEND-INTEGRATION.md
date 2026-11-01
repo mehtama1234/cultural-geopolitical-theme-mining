@@ -24,7 +24,7 @@ blockers.
 | Case panel | `case-stage-panel.json`, `bounded-subset-lineage-review.json` | stage status, not-observed distinction, hosts, shared-host overlap, independence status |
 | IBIS bounded outcome panel | `ibis-adult-day-outcome-review.json` | dated measures, derived changes, uncertainty, cross-publisher status, counter-signal, next action, outcome acquisition plan and stop rule |
 | NPALS public-table reconciliation | `npals-public-table-extract.json` | API query, retrieval/hash, 2020 state coverage, 2022/2025 national rows, definition mismatch and non-pooling boundary |
-| IBIS claim review | `ibis-finding-claim-sample.json` | sampled claim count, source identity, URL/publisher/time metadata, outcome-linkage candidate, independence pending status |
+| IBIS claim review | `ibis-finding-claim-sample.json`, `ibis-claim-independence-audit.json` | sampled claim count, source identity, URL/publisher/time metadata, reused URL/host/publisher dependency flags, outcome-linkage candidate, independence pending status |
 | IBIS force review | `ibis-force-claim-map.json`, `ibis-force-claim-review.json` | force-level source and publisher counts, missing claim periods, outcome candidates, falsifiers, independence and promotion hold |
 | Independent comparison | `independent-stage-comparison.json`, `room-independent-comparison.json` | source families, mechanism status, blocking items, non-pooling boundary |
 | Food-insecurity independent challenge | `food-insecurity-independent-comparison.json` | distinct publishers/hosts, overlapping periods, directional change, uncertainty, pooling decision, rights and comparability blockers |

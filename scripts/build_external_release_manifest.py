@@ -83,6 +83,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/publisher-dependence-summary.json",
     "analysis/external-trend-intelligence/trend-hunting-source-map.json",
     "analysis/external-trend-intelligence/ibis-claim-source-review.json",
+    "analysis/external-trend-intelligence/ibis-claim-independence-audit.json",
     "analysis/external-trend-intelligence/ibis-claim-dependency-review.json",
     "analysis/external-trend-intelligence/ibis-adult-day-outcome-review.json",
     "analysis/external-trend-intelligence/npals-public-table-extract.json",
