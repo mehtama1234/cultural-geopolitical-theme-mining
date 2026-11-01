@@ -14,6 +14,7 @@ ANALYSIS = ROOT / "analysis" / "external-trend-intelligence"
 
 def main() -> int:
     manifest = json.loads((ANALYSIS / "observation-manifest.json").read_text())
+    release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert manifest["schema"] == "external-trend-intelligence.observation-manifest.v1"
     assert manifest["record_count"] == len(manifest["records"])
     assert manifest["parse_error_count"] == 0
@@ -624,6 +625,10 @@ def main() -> int:
     assert len(successor_packet["review_tasks"]) == 3
     assert all(task["assignee"] is None and task["signoff"] is None for task in successor_packet["review_tasks"])
     assert successor_packet["acceptance_criteria"] and successor_packet["boundary"]
+    assert successor_packet["release"]["source_tree_commit"] == release_manifest["source_tree_commit"]
+    successor_evidence = json.loads((ANALYSIS / "successor-run-evidence.json").read_text())
+    assert successor_evidence["schema"] == "external-trend-intelligence.successor-run-evidence.v1"
+    assert successor_evidence["source_tree_commit"] == release_manifest["source_tree_commit"]
     independence_queue = json.loads((ANALYSIS / "candidate-independence-adjudication-queue.json").read_text())
     assert independence_queue["schema"] == "external-trend-intelligence.candidate-independence-adjudication-queue.v1"
     assert independence_queue["status"] == "manual_adjudication_queue_ready"
@@ -733,7 +738,6 @@ def main() -> int:
     assert all(row["observations"] for row in measurement_matrix["rows"])
     assert measurement_matrix["decision"] == "hold"
     assert measurement_matrix["decision_reason"]
-    release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
     assert release_manifest["artifact_count"] == len(release_manifest["artifacts"])
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])

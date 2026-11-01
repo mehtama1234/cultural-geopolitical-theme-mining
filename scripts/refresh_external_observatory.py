@@ -163,6 +163,12 @@ STEPS = [
     ["scripts/build_observatory_chart_catalog.py"],
     ["scripts/build_frontend_publication_review_packet.py"],
     ["scripts/build_external_release_manifest.py"],
+    # Rebuild handoff evidence against the freshly built manifest, then hash
+    # those final handoff artifacts into a final manifest. This prevents the
+    # successor packet from describing the prior release commit.
+    ["scripts/test_successor_handoff.py"],
+    ["scripts/build_successor_review_packet.py"],
+    ["scripts/build_external_release_manifest.py"],
     ["scripts/test_frontend_publication_contract.py"],
     ["scripts/test_program_baseline_consistency.py"],
     ["scripts/validate_external_trend_intelligence.py"],
