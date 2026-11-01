@@ -39,7 +39,17 @@ jobs:
             test -d "$path" || { echo "missing pinned sibling workspace: $path" >&2; exit 1; }
           done
       - name: Run full external refresh
-        run: python3 scripts/refresh_external_observatory.py
+        run: |
+          set -o pipefail
+          python3 scripts/refresh_external_observatory.py 2>&1 | tee external-observatory-refresh.log
+      - name: Retain refresh diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: external-observatory-refresh-log-${{ github.run_id }}
+          path: external-observatory-refresh.log
+          if-no-files-found: warn
+          retention-days: 30
       - name: Commit generated release artifacts
         run: |
           set -eu

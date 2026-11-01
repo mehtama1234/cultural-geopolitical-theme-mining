@@ -99,7 +99,10 @@ The repository also defines a weekly scheduled workflow at
 a self-hosted `external-observatory` runner because the pinned sibling source
 repositories are not copied into this repository. The workflow fails before
 refresh if any required sibling workspace is missing, then runs the full
-orchestrator and commits only generated observatory artifacts.
+orchestrator and commits only generated observatory artifacts. Each run also
+retains a 30-day diagnostic log in the workflow artifact store, including
+failed runs, so missed, partial, or source-outage executions can be audited
+without treating a missing commit as a successful refresh.
 
 The continuity and ownership controls are generated inside the full pipeline:
 `build_refresh_continuity_audit.py` measures observed run spacing, while

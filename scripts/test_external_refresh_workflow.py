@@ -20,7 +20,10 @@ def main() -> int:
         "cancel-in-progress: false",
         "timeout-minutes: 45",
         "Verify pinned sibling workspace",
-        "python3 scripts/refresh_external_observatory.py",
+        "python3 scripts/refresh_external_observatory.py 2>&1 | tee external-observatory-refresh.log",
+        "Retain refresh diagnostics",
+        "actions/upload-artifact@v4",
+        "retention-days: 30",
         "git push",
     ]
     missing = [marker for marker in required if marker not in text]
