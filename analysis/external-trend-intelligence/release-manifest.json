@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "360a4739c2ebf8984e77b0cfc0c74ae7ce108570",
+  "source_tree_commit": "3842882f9f89be0c0ae7a16980d4a6c34e867957",
   "artifact_count": 149,
   "artifacts": [
     {
@@ -81,8 +81,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 12265,
-      "sha256": "d8396addb1c890600646efcfb8ad718e25f47a0154d9d91e9114fefed043fbe2"
+      "bytes": 12477,
+      "sha256": "3eb1617463f5915073b6629e777215dfc2ae648594d955aeca1c744536155589"
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",

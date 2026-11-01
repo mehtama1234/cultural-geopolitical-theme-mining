@@ -49,6 +49,7 @@ blockers.
 | Independent comparison | `independent-stage-comparison.json`, `room-independent-comparison.json` | source families, mechanism status, blocking items, non-pooling boundary |
 | Food-insecurity independent challenge | `food-insecurity-independent-comparison.json` | distinct publishers/hosts, overlapping periods, directional change, uncertainty, pooling decision, rights and comparability blockers |
 | Food-security release tracker | `food-security-release-tracker.json` | latest official release by source family, next target period, acquisition action, comparability boundary, and next review date |
+| Acquired-source release watchlist | `source-release-watchlist.json` | latest pinned period and next official release target for each acquired artifact, with cadence, acquisition action, and evidence boundary |
 | Mobility independent challenge | `mobility-access-independent-comparison.json` | distinct datasets, income-gradient values, counter-signal, frame differences, pooling decision, and next holdout |
 | Mobility rights review | `mobility-access-rights-review.json` | source URLs, terms routes, rights status, permitted scope, non-cleared reuse, and stop rule |
 | Mobility temporal holdout | `mobility-access-temporal-holdout.json` | ACS construction/holdout periods, measures, uncertainty limitation, counter-signal, falsifier, and next test |
