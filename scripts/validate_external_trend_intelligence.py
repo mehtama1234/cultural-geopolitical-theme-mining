@@ -429,8 +429,9 @@ def main() -> int:
     assert all(item["readiness_status"] == "blocked_external_first" for item in pilot_readiness["pilots"])
     monitoring = json.loads((ANALYSIS / "trend-monitoring-register.json").read_text())
     assert monitoring["schema"] == "external-trend-intelligence.trend-monitoring-register.v1"
-    assert len(monitoring["trends"]) == 4
-    assert all(item["state"] == "pre_qualification_watch" for item in monitoring["trends"])
+    assert len(monitoring["trends"]) == qualification_matrix["candidate_count"]
+    assert {item["candidate_id"] for item in monitoring["trends"]} == {row["candidate_id"] for row in qualification_matrix["rows"]}
+    assert all(item["state"] in {"pre_qualification_watch", "qualified_monitor"} for item in monitoring["trends"])
     controls = json.loads((ANALYSIS / "source-family-controls.json").read_text())
     assert controls["schema"] == "external-trend-intelligence.source-family-controls.v1"
     assert controls["family_count"] == 8

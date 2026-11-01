@@ -39,6 +39,15 @@
       "reversal_conditions": ["capacity claims repeatedly reach measured user receipt without material burden", "local acceptance and reliability improve in later windows"],
       "next_review": "after operation-to-user-incidence evidence is linked",
       "owner": "external evidence review queue"
+    },
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "state": "qualified_monitor",
+      "cadence": "annually at the USDA release and on the next comparable Urban WBNS release",
+      "leading_indicators": ["USDA household food-security prevalence", "Urban WBNS comparable threshold", "subgroup persistence", "survey methodology change", "published uncertainty or significance note"],
+      "reversal_conditions": ["the next comparable release reverses the direction under a stable definition", "the apparent persistence is explained by a denominator or methodology change", "independent challenge measures no longer support the bounded pattern"],
+      "next_review": "next comparable USDA and Urban release with definitions and methodology preserved",
+      "owner": "external evidence review queue"
     }
   ]
 }
