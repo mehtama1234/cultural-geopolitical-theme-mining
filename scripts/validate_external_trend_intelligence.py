@@ -846,6 +846,10 @@ def main() -> int:
         assert f"`{row['candidate_id']}`" in backtest_request
     for field in ("construction period", "holdout period", "uncertainty", "falsifier", "second reviewer"):
         assert field in backtest_request.lower()
+    qualification_request = (ANALYSIS / "QUALIFICATION-REVIEW-REQUEST.md").read_text()
+    assert "Promotion rule" in qualification_request
+    for row in qualification_matrix["rows"]:
+        assert f"`{row['candidate_id']}`" in qualification_request
     snapshot = json.loads((ANALYSIS / "backtest-source-snapshot.json").read_text())
     assert snapshot["schema"] == "external-trend-intelligence.backtest-source-snapshot.v1"
     assert snapshot["record_count"] == 31
