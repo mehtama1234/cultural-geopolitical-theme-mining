@@ -54,9 +54,12 @@
     },
     {
       "phase": "months_19_24_operational_handoff",
-      "status": "future",
+      "status": "in_progress",
       "exit_evidence": [
         "ANALYST-OPERATING-MODEL.md",
+        "operating-handoff.json",
+        "successor-run-evidence.json",
+        "operational-kpi-scorecard.json",
         "program-scorecard.json"
       ]
     }

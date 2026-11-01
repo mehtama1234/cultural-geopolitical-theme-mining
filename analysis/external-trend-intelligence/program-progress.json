@@ -49,13 +49,13 @@
     },
     {
       "phase": "months_19_24_operational_handoff",
-      "status": "partially_established",
+      "status": "in_progress",
       "evidence": [
         "ANALYST-OPERATING-MODEL.md",
         "release-health.json",
         "smoke_test_external_board.py"
       ],
-      "open_gate": "Ownership, refresh history, validated trends, and pilot case studies remain future work."
+      "open_gate": "Named human ownership, an independently signed successor run, additional validated trends, and pilot case studies remain open."
     }
   ],
   "baseline": {

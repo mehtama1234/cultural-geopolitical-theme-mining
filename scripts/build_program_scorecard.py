@@ -54,7 +54,7 @@ def main() -> int:
             {"phase": "months_4_6_dependable_external_intake", "status": "operational", "exit_evidence": ["refresh-history.json", "refresh-status.json", "test_refresh_stale_gate.py"]},
             {"phase": "months_7_12_trend_qualification", "status": "in_progress", "exit_evidence": ["candidate-qualification-matrix.json", "backtest-readiness.json", "trend-monitoring-register.json"]},
             {"phase": "months_13_18_decision_relevance", "status": "design_only", "exit_evidence": ["pilot-register.json", "test_internal_bridge_gate.py"]},
-            {"phase": "months_19_24_operational_handoff", "status": "future", "exit_evidence": ["ANALYST-OPERATING-MODEL.md", "program-scorecard.json"]},
+            {"phase": "months_19_24_operational_handoff", "status": "in_progress", "exit_evidence": ["ANALYST-OPERATING-MODEL.md", "operating-handoff.json", "successor-run-evidence.json", "operational-kpi-scorecard.json", "program-scorecard.json"]},
         ],
         "boundary": "This scorecard measures program control-plane progress. It does not claim that sources are rights-cleared, trends are causal, or company pilots are validated.",
     }
