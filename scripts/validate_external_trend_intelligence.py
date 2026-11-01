@@ -30,6 +30,12 @@ def main() -> int:
         and 0 <= row["source_url_reuse_ratio"] <= 1
         for row in theme_audit["themes"].values()
     )
+    record_quality = json.loads((ANALYSIS / "record-quality-audit.json").read_text())
+    assert record_quality["schema"] == "external-trend-intelligence.record-quality-audit.v1"
+    assert record_quality["record_count"] == manifest["record_count"]
+    assert set(record_quality["field_counts"]) == set(record_quality["field_coverage"])
+    assert all(0 <= value <= 1 for value in record_quality["field_coverage"].values())
+    assert record_quality["boundary"] and record_quality["next_action"]
     ids = {record["trend_id"] for record in manifest["records"]}
     assert len(ids) == manifest["record_count"]
     for record in manifest["records"]:

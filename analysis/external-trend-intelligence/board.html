@@ -632,6 +632,11 @@
         const reused = Object.values(audit.themes).reduce((sum, row) => sum + row.reused_source_url_count, 0);
         el('theme-coverage-audit').append(card(`${audit.observed_theme_count}/${audit.theme_count} themes observed`, audit.status, `${audit.sparse_theme_count} sparse themes · ${reused.toLocaleString()} repeated source-URL references. ${audit.boundary} ${audit.next_action}`));
       });
+      fetch('record-quality-audit.json').then(r => r.json()).then(audit => {
+        const fields = ['lineage_locator', 'period', 'unit', 'uncertainty', 'counter_signal', 'retrieval_hash'];
+        const missing = fields.map(field => `${field.replaceAll('_', ' ')} ${((1 - audit.field_coverage[field]) * 100).toFixed(1)}% missing`).join(' · ');
+        el('theme-coverage-audit').append(card('Record quality metadata', audit.status, `${audit.record_count.toLocaleString()} records · ${missing}. ${audit.boundary}`));
+      });
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
       const qualificationCards = el('qualification-matrix'); qualificationMatrix.rows.forEach(row => qualificationCards.append(qualificationCard(row)));
       const backtestCards = el('backtest-readiness'); backtestReadiness.rows.forEach(row => backtestCards.append(backtestReadinessCard(row)));
