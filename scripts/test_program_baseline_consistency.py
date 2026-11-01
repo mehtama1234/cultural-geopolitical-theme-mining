@@ -19,9 +19,10 @@ def main() -> int:
     scorecard = load("program-scorecard.json")
     release = load("release-manifest.json")
     history = load("refresh-history.json")
+    refresh_status = load("refresh-status.json")
     assert progress["baseline"]["records"] == manifest["record_count"] == scorecard["metrics"]["records"]
     assert progress["baseline"]["themes"] == len(manifest["program_theme_counts"]) == scorecard["metrics"]["themes"]
-    assert progress["baseline"]["source_families"] == scorecard["metrics"]["source_families"] == 8
+    assert progress["baseline"]["source_families"] == scorecard["metrics"]["source_families"] == refresh_status["family_count"]
     assert progress["baseline"]["release_artifacts"] == release["artifact_count"]
     assert progress["baseline"]["refresh_runs_recorded"] == history["run_count"]
     release_paths = {item["path"] for item in release["artifacts"]}

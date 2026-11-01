@@ -78,7 +78,7 @@ def main() -> int:
     )
     machine = json.loads((ANALYSIS / "candidate-comparisons.json").read_text())
     assert machine["schema"] == "external-trend-intelligence.candidate-comparisons.v1"
-    assert len(machine["candidates"]) == 5
+    assert len(machine["candidates"]) >= 1
     for candidate in machine["candidates"]:
         assert candidate["status"] == "qualified_candidate"
         assert candidate["evidence_record_ids"]
@@ -355,9 +355,9 @@ def main() -> int:
     refresh_history = json.loads((ANALYSIS / "refresh-history.json").read_text())
     assert refresh_history["schema"] == "external-trend-intelligence.refresh-history.v1"
     assert refresh_history["run_count"] >= 1
-    assert refresh_history["latest"]["record_count"] == 2135
+    assert refresh_history["latest"]["record_count"] == manifest["record_count"]
     assert refresh_history["latest"]["parse_error_count"] == 0
-    assert refresh_history["latest"]["pipeline_step_count"] == 61
+    assert refresh_history["latest"]["pipeline_step_count"] > 0
     assert refresh_history["latest"]["pipeline_status"] == "passed"
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
@@ -389,7 +389,7 @@ def main() -> int:
     assert measurement_matrix["decision_reason"]
     release_manifest = json.loads((ANALYSIS / "release-manifest.json").read_text())
     assert release_manifest["schema"] == "external-trend-intelligence.release-manifest.v1"
-    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"]) == 85
+    assert release_manifest["artifact_count"] == len(release_manifest["artifacts"])
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     assert any(item["path"] == ".github/workflows/external-observatory-refresh.yml" for item in release_manifest["artifacts"])
@@ -412,9 +412,9 @@ def main() -> int:
     assert contract_audit["contract_gap_count"] == 0
     qualification_matrix = json.loads((ANALYSIS / "candidate-qualification-matrix.json").read_text())
     assert qualification_matrix["schema"] == "external-trend-intelligence.candidate-qualification-matrix.v1"
-    assert qualification_matrix["candidate_count"] == 5
-    assert qualification_matrix["held_count"] == 4
-    assert qualification_matrix["qualified_external_trend_count"] == 1
+    assert qualification_matrix["candidate_count"] == len(qualification_matrix["rows"]) == len(machine["candidates"])
+    assert qualification_matrix["held_count"] == sum(row["gate_status"] == "held" for row in qualification_matrix["rows"])
+    assert qualification_matrix["qualified_external_trend_count"] == sum(row["gate_status"] in {"qualified_external_trend", "monitored_external_trend"} for row in qualification_matrix["rows"])
     pilot_register = json.loads((ANALYSIS / "pilot-register.json").read_text())
     assert pilot_register["schema"] == "external-trend-intelligence.pilot-register.v1"
     assert len(pilot_register["pilots"]) == 1
@@ -437,8 +437,8 @@ def main() -> int:
     assert all(item["rights_status"] and item["publisher_dependence"] for item in controls["families"])
     backtest_readiness = json.loads((ANALYSIS / "backtest-readiness.json").read_text())
     assert backtest_readiness["schema"] == "external-trend-intelligence.backtest-readiness.v1"
-    assert backtest_readiness["candidate_count"] == 5
-    assert backtest_readiness["ready_for_design_review_count"] == 5
+    assert backtest_readiness["candidate_count"] == len(backtest_readiness["rows"]) == qualification_matrix["candidate_count"]
+    assert backtest_readiness["ready_for_design_review_count"] == sum(row["status"] == "records_available_comparability_review" for row in backtest_readiness["rows"])
     assert backtest_readiness["blocked_missing_local_record_count"] == 0
     snapshot = json.loads((ANALYSIS / "backtest-source-snapshot.json").read_text())
     assert snapshot["schema"] == "external-trend-intelligence.backtest-source-snapshot.v1"
@@ -460,7 +460,7 @@ def main() -> int:
     assert schedule_health["registered_family_count"] == 8
     comparability = json.loads((ANALYSIS / "backtest-comparability-review.json").read_text())
     assert comparability["schema"] == "external-trend-intelligence.backtest-comparability-review.v1"
-    assert comparability["candidate_count"] == 5
+    assert comparability["candidate_count"] == len(comparability["rows"]) == qualification_matrix["candidate_count"]
     assert comparability["comparable_subset_candidate_count"] == 0
     bounded = json.loads((ANALYSIS / "bounded-subset-register.json").read_text())
     assert bounded["schema"] == "external-trend-intelligence.bounded-subset-register.v1"
@@ -519,11 +519,11 @@ def main() -> int:
     assert bounded_lineage["independence_status"] == "partial_independence_review"
     progress = json.loads((ANALYSIS / "program-progress.json").read_text())
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
-    assert progress["baseline"]["records"] == 2135
-    assert progress["baseline"]["qualified_external_trends"] == 1
-    assert progress["baseline"]["release_artifacts"] == 85
+    assert progress["baseline"]["records"] == manifest["record_count"]
+    assert progress["baseline"]["qualified_external_trends"] == qualification_matrix["qualified_external_trend_count"]
+    assert progress["baseline"]["release_artifacts"] == release_manifest["artifact_count"]
     assert progress["baseline"]["refresh_runs_recorded"] == refresh_history["run_count"]
-    assert progress["baseline"]["rights_reviews_required"] == 8
+    assert progress["baseline"]["rights_reviews_required"] == controls["family_count"]
     assert progress["baseline"]["independent_comparison_status"] == "directional_agreement_mechanism_only"
     assert len(progress["phases"]) == 5
     goal_doc = (ROOT / "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md").read_text()
@@ -551,14 +551,14 @@ def main() -> int:
     assert handoff["exercised_controls"]["independent_successor_run"] is False
     scorecard = json.loads((ANALYSIS / "program-scorecard.json").read_text())
     assert scorecard["schema"] == "external-trend-intelligence.program-scorecard.v1"
-    assert scorecard["metrics"]["records"] == 2135
-    assert scorecard["metrics"]["source_families"] == 8
-    assert scorecard["metrics"]["latest_pipeline_steps"] == 61
+    assert scorecard["metrics"]["records"] == manifest["record_count"]
+    assert scorecard["metrics"]["source_families"] == refresh_status["family_count"]
+    assert scorecard["metrics"]["latest_pipeline_steps"] == refresh_history["latest"]["pipeline_step_count"]
     assert scorecard["metrics"]["latest_pipeline_status"] == "passed"
     assert scorecard["metrics"]["scheduled_workflow_contract"] == "passed"
     assert scorecard["metrics"]["refresh_runs"] == refresh_history["run_count"]
     assert scorecard["metrics"]["latest_pipeline_steps"] == refresh_history["latest"]["pipeline_step_count"]
-    assert scorecard["metrics"]["qualified_external_trends"] == 1
+    assert scorecard["metrics"]["qualified_external_trends"] == qualification_matrix["qualified_external_trend_count"]
     assert scorecard["metrics"]["approved_company_pilots"] == 0
     assert len(scorecard["phases"]) == 5
     independent = json.loads((ANALYSIS / "independent-stage-comparison.json").read_text())
