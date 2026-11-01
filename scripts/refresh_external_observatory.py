@@ -71,6 +71,7 @@ STEPS = [
     ["scripts/test_external_refresh_workflow.py"],
     ["scripts/build_refresh_history.py"],
     ["scripts/build_program_scorecard.py"],
+    ["scripts/build_review_calendar.py"],
     ["scripts/build_goal_completion_audit.py"],
     ["scripts/test_successor_handoff.py"],
     ["scripts/build_operational_kpi_scorecard.py"],

@@ -41,6 +41,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/bounded-subset-lineage-review.json",
     "analysis/external-trend-intelligence/program-progress.json",
     "analysis/external-trend-intelligence/program-scorecard.json",
+    "analysis/external-trend-intelligence/review-calendar.json",
     "analysis/external-trend-intelligence/rights-review-queue.json",
     "analysis/external-trend-intelligence/rights-evidence-register.json",
     "analysis/external-trend-intelligence/room-independent-comparison.json",

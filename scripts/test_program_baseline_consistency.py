@@ -29,6 +29,7 @@ def main() -> int:
     assert {
         ".github/workflows/external-observatory-refresh.yml",
         "analysis/external-trend-intelligence/program-scorecard.json",
+        "analysis/external-trend-intelligence/review-calendar.json",
         "analysis/external-trend-intelligence/operating-handoff.json",
         "analysis/external-trend-intelligence/successor-run-evidence.json",
         "analysis/external-trend-intelligence/operational-kpi-scorecard.json",

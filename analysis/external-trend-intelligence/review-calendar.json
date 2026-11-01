@@ -1,0 +1,128 @@
+{
+  "schema": "external-trend-intelligence.review-calendar.v1",
+  "as_of": "2026-10-31",
+  "horizon_months": 24,
+  "checkpoint_count": 9,
+  "checkpoints": [
+    {
+      "month": 1,
+      "cadence": "monthly",
+      "phase": "months_0_3_control_plane",
+      "review": "source registry, evidence contract, and rights queue",
+      "owner": "source steward",
+      "phase_status": "established",
+      "evidence": [
+        "source-family-registry.json",
+        "trend-qualification-rubric.json",
+        "release-manifest.json"
+      ]
+    },
+    {
+      "month": 3,
+      "cadence": "quarterly",
+      "phase": "months_0_3_control_plane",
+      "review": "control-plane exit review and release-manifest audit",
+      "owner": "release owner",
+      "phase_status": "established",
+      "evidence": [
+        "source-family-registry.json",
+        "trend-qualification-rubric.json",
+        "release-manifest.json"
+      ]
+    },
+    {
+      "month": 6,
+      "cadence": "quarterly",
+      "phase": "months_4_6_dependable_external_intake",
+      "review": "refresh SLA, stale recovery, lineage, and rights evidence",
+      "owner": "release owner",
+      "phase_status": "operational",
+      "evidence": [
+        "refresh-history.json",
+        "refresh-status.json",
+        "test_refresh_stale_gate.py"
+      ]
+    },
+    {
+      "month": 9,
+      "cadence": "monthly",
+      "phase": "months_7_12_trend_qualification",
+      "review": "candidate challenge and falsification queue",
+      "owner": "trend challenger",
+      "phase_status": "in_progress",
+      "evidence": [
+        "candidate-qualification-matrix.json",
+        "backtest-readiness.json",
+        "trend-monitoring-register.json"
+      ]
+    },
+    {
+      "month": 12,
+      "cadence": "quarterly",
+      "phase": "months_7_12_trend_qualification",
+      "review": "qualification, holdout, reversal, and monitoring review",
+      "owner": "trend challenger",
+      "phase_status": "in_progress",
+      "evidence": [
+        "candidate-qualification-matrix.json",
+        "backtest-readiness.json",
+        "trend-monitoring-register.json"
+      ]
+    },
+    {
+      "month": 15,
+      "cadence": "monthly",
+      "phase": "months_13_18_decision_relevance",
+      "review": "design-only pilot contract and external gate review",
+      "owner": "decision translator",
+      "phase_status": "design_only",
+      "evidence": [
+        "pilot-register.json",
+        "test_internal_bridge_gate.py"
+      ]
+    },
+    {
+      "month": 18,
+      "cadence": "quarterly",
+      "phase": "months_13_18_decision_relevance",
+      "review": "pilot authorization review; no internal join before approval",
+      "owner": "release owner",
+      "phase_status": "design_only",
+      "evidence": [
+        "pilot-register.json",
+        "test_internal_bridge_gate.py"
+      ]
+    },
+    {
+      "month": 21,
+      "cadence": "monthly",
+      "phase": "months_19_24_operational_handoff",
+      "review": "successor validation and ownership assignment",
+      "owner": "release owner",
+      "phase_status": "in_progress",
+      "evidence": [
+        "ANALYST-OPERATING-MODEL.md",
+        "operating-handoff.json",
+        "successor-run-evidence.json",
+        "operational-kpi-scorecard.json",
+        "program-scorecard.json"
+      ]
+    },
+    {
+      "month": 24,
+      "cadence": "quarterly",
+      "phase": "months_19_24_operational_handoff",
+      "review": "two-year outcome, reversal rate, pilot usefulness, and handoff",
+      "owner": "program owner",
+      "phase_status": "in_progress",
+      "evidence": [
+        "ANALYST-OPERATING-MODEL.md",
+        "operating-handoff.json",
+        "successor-run-evidence.json",
+        "operational-kpi-scorecard.json",
+        "program-scorecard.json"
+      ]
+    }
+  ],
+  "boundary": "This calendar schedules review and ownership work. It does not imply that a phase has passed its gates or that company pilots are authorized."
+}
