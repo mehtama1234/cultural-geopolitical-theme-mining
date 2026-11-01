@@ -557,6 +557,8 @@ def main() -> int:
     uncertainty = json.loads((ANALYSIS / "shed-emergency-expense-uncertainty-audit.json").read_text())
     assert uncertainty["schema"] == "external-trend-intelligence.uncertainty-audit.v1"
     assert uncertainty["public_sample_size"] == {"2023": 11400, "2024": 12295}
+    assert uncertainty["official_weight_documentation"]["single_year_weight"] == "weight / weight_pop"
+    assert uncertainty["official_weight_documentation"]["panel_weight"] == "panel_weight / panel_weight_pop"
     assert uncertainty["naive_srs_interval"]["status"] == "diagnostic_only_not_release_valid"
     assert uncertainty["design_based_status"] == "not_estimable_from_current_pinned_artifacts"
     assert uncertainty["official_uncertainty_search"]["latest_report_context"]["reported_overall_design_effect"] == 1.14
