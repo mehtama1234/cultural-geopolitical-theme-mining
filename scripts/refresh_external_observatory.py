@@ -121,6 +121,7 @@ STEPS = [
     ["scripts/build_review_calendar.py"],
     ["scripts/test_review_calendar.py"],
     ["scripts/build_goal_completion_audit.py"],
+    ["scripts/test_two_year_goal_document.py"],
     ["scripts/build_two_year_roadmap.py"],
     ["scripts/test_successor_handoff.py"],
     ["scripts/build_ownership_assignment_queue.py"],
