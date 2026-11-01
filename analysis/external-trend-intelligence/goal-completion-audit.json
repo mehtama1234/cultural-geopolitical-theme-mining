@@ -43,10 +43,12 @@
         "ibis-force-claim-review.json",
         "shed-emergency-expense-uncertainty-audit.json",
         "shed-point-estimate-reproduction-audit.json",
+        "record-quality-audit.json",
+        "record-quality-remediation-queue.json",
         "test_rights_release_gate.py",
         "observation-manifest.json"
       ],
-      "gap": "Rights and publisher dependence remain unverified for all source families; the rights-assignment queue now makes the eight-family ownership work explicit, and the candidate independence adjudication queue makes all five candidate reviews assignable with 4 high-priority rows. Candidate-specific reviews cover the monitored food-security lane, the mobility comparison, and 7 financial-room sources. The uncertainty coverage audit makes source-level, incomplete, and pending uncertainty visible across six decision-facing artifacts. The 500-industry IBIS sample and six-force review expose repeated source IDs, URLs, missing claim periods, and metadata gaps for dependency review; the claim-independence audit mechanically flags reused URLs, hosts, and publishers, the review queue turns the remaining low-dependency claims into assigned work, the first ten-claim packet is now fully triaged with 10 conservative held dispositions and 0 pending rows, rather than unsupported promotion. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
+      "gap": "Rights and publisher dependence remain unverified for all source families; the rights-assignment queue now makes the eight-family ownership work explicit, and the candidate independence adjudication queue makes all five candidate reviews assignable with 4 high-priority rows. Candidate-specific reviews cover the monitored food-security lane, the mobility comparison, and 7 financial-room sources. Record metadata quality is now audited across 2135 records, with remediation status no_open_record_metadata_gaps; this makes source identity, lineage locator, period, unit, geography, uncertainty, counter-signal, and retrieval hash testable rather than implicit. The uncertainty coverage audit makes source-level, incomplete, and pending uncertainty visible across six decision-facing artifacts. The 500-industry IBIS sample and six-force review expose repeated source IDs, URLs, missing claim periods, and metadata gaps for dependency review; the claim-independence audit mechanically flags reused URLs, hosts, and publishers, the review queue turns the remaining low-dependency claims into assigned work, the first ten-claim packet is now fully triaged with 10 conservative held dispositions and 0 pending rows, rather than unsupported promotion. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
     },
     {
       "id": "independent_source_comparison",
@@ -62,9 +64,11 @@
         "global-growth-forecast-comparison.json",
         "shed-emergency-expense-2013-2025.json",
         "bounded-subset-lineage-review.json",
-        "census-repair-proxy-comparison.json"
+        "census-repair-proxy-comparison.json",
+        "record-host-dependence-audit.json",
+        "host-dependence-review-queue.json"
       ],
-      "gap": "The compatibility scan now finds 209 cross-host measure groups and the release includes bounded food-insecurity, mobility-access, OECD/UN DESA/World Bank, and a same-publisher CBP-versus-NES repair measurement comparison. Distinct-publisher comparisons remain non-comparable holdouts because populations, reference periods, uncertainty, weighting, and rights differ; the Census repair comparison explicitly cannot count as independent confirmation, and no common-unit observed holdout has passed."
+      "gap": "The compatibility scan now finds 209 cross-host measure groups and the release includes bounded food-insecurity, mobility-access, OECD/UN DESA/World Bank, and a same-publisher CBP-versus-NES repair measurement comparison. Host dependence is now explicit across 892 hosts, including 315 shared hosts and 23 high-priority review rows, but publisher independence is not thereby established. Distinct-publisher comparisons remain non-comparable holdouts because populations, reference periods, uncertainty, weighting, and rights differ; the Census repair comparison explicitly cannot count as independent confirmation, and no common-unit observed holdout has passed."
     },
     {
       "id": "trend_qualification",
@@ -101,9 +105,13 @@
         "board.html",
         "FRONTEND-INTEGRATION.md",
         "candidate-qualification-matrix.json",
-        "temporal-decision-narrative.json"
+        "temporal-decision-narrative.json",
+        "record-quality-audit.json",
+        "host-dependence-review-queue.json",
+        "open-gate-register.json",
+        "review-calendar.json"
       ],
-      "gap": "Reader surface exposes the qualified external food-insecurity pattern and held candidates, but no validated company outcome is published."
+      "gap": "Reader surface exposes the qualified external food-insecurity pattern, held candidates, metadata quality, host-dependence review queue, and 9 consolidated open gates (3 critical), but no validated company outcome is published."
     },
     {
       "id": "analyst_operating_model",
@@ -133,5 +141,5 @@
   ],
   "release_status": "operational_with_open_gates",
   "boundary": "This audit is a conservative program status report. It does not redefine the goal as complete because the control plane and frontend are operational.",
-  "next_action": "Use evidence-acquisition-plan.json to close the independent compatible holdout and rights gates, then re-run this audit before any internal bridge."
+  "next_action": "Use open-gate-register.json and evidence-acquisition-plan.json to assign and close rights, host-dependence, independent-compatible-holdout, backtest, ownership, and continuity work; then re-run this audit before any internal bridge."
 }
