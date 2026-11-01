@@ -57,6 +57,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/rights-assignment-queue.json",
     "analysis/external-trend-intelligence/rights-evidence-register.json",
     "analysis/external-trend-intelligence/rights-review-readiness.json",
+    "analysis/external-trend-intelligence/RIGHTS-REVIEW-REQUEST.md",
     "analysis/external-trend-intelligence/room-independent-comparison.json",
     "analysis/external-trend-intelligence/evidence-acquisition-plan.json",
     "analysis/external-trend-intelligence/goal-completion-audit.json",

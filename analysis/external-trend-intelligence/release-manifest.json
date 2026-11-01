@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "c3e7d87a319eb2043f853a24ef65f4c82311746f",
-  "artifact_count": 150,
+  "source_tree_commit": "4259854d485ce171fcc91c6b57bf62115b346c20",
+  "artifact_count": 151,
   "artifacts": [
     {
       "path": "analysis/external-trend-intelligence/TWO-YEAR-GOAL.md",
@@ -81,8 +81,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 12674,
-      "sha256": "5a2bfbde0edceaedc4c45c0d4708a697fb8f64f96e76a397898e386f3538c18d"
+      "bytes": 12864,
+      "sha256": "ddfe6cf9e54ca70d294cd78d89d2d5219cbb19bf339d8102e26ac3917f799fb8"
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
@@ -187,7 +187,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "d5c8820c2ee504b56418992fba455931cfb8904efaec44cff51cf3c3ca887aa7"
+      "sha256": "c1951990da4914ea3bf1f6ab7a14e59a4235453f4365c9e453f6777a84586ecd"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -220,6 +220,11 @@
       "sha256": "c97938ec788a85ce2f4fea98733efb4f64b77f9925d001b692ce2d1ccaf8b932"
     },
     {
+      "path": "analysis/external-trend-intelligence/RIGHTS-REVIEW-REQUEST.md",
+      "bytes": 2230,
+      "sha256": "5edd9d891b0eed33e36982588a97746467c0f458ee72512d8c41da99d50deadb"
+    },
+    {
       "path": "analysis/external-trend-intelligence/room-independent-comparison.json",
       "bytes": 7099,
       "sha256": "67f02cb4ff344b6869c0783c2ba9b91416949001e2ecee03a041a22b6b41ef1b"
@@ -231,8 +236,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 11036,
-      "sha256": "e31b3da3f5646277ef1409d3198d1f9117c2b89cfb9eae3e272a0f337a831600"
+      "bytes": 11155,
+      "sha256": "90c83e80047feb03b2cb7079d25d86036bae68fe6939fa5f9a44a03f057de935"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
@@ -731,8 +736,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 95027,
-      "sha256": "775f3fb59a730ecb9eafdfbeddf6bafb6262b6a30afdd7dc6a38389685b2458a"
+      "bytes": 95098,
+      "sha256": "0e60475acc39dd618bb967ed105c78215b50ef49c9c992f1e0d6ecb499a8ae7c"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",
