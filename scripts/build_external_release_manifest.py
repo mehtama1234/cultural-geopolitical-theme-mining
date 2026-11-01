@@ -21,6 +21,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/README.md",
     "analysis/external-trend-intelligence/ANALYST-OPERATING-MODEL.md",
     "analysis/external-trend-intelligence/operating-handoff.json",
+    "analysis/external-trend-intelligence/successor-run-evidence.json",
     "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
     "analysis/external-trend-intelligence/PILOT-VALIDATION-PROTOCOL.md",
     "analysis/external-trend-intelligence/independent-stage-comparison.json",
@@ -103,6 +104,14 @@ ARTIFACTS = [
 
 
 def main() -> int:
+    # Keep the handoff baseline synchronized before hashing the packaged files.
+    # The manifest itself is one of the packaged files, so this must happen
+    # before entry hashes are computed.
+    progress_path = ANALYSIS / "program-progress.json"
+    if progress_path.exists():
+        progress = json.loads(progress_path.read_text())
+        progress["baseline"]["release_artifacts"] = len(ARTIFACTS)
+        progress_path.write_text(json.dumps(progress, indent=2) + "\n")
     entries = []
     for relative in ARTIFACTS:
         path = ROOT / relative

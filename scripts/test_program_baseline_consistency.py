@@ -30,6 +30,7 @@ def main() -> int:
         ".github/workflows/external-observatory-refresh.yml",
         "analysis/external-trend-intelligence/program-scorecard.json",
         "analysis/external-trend-intelligence/operating-handoff.json",
+        "analysis/external-trend-intelligence/successor-run-evidence.json",
     }.issubset(release_paths)
     print("program baseline consistency: passed")
     return 0
