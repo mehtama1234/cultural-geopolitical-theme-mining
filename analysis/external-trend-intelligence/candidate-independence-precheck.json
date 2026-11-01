@@ -35,7 +35,21 @@
           "urban_change_2022_to_2024_percentage_points": 2.3,
           "usda_change_2022_to_2024_percentage_points": 0.9,
           "direction": "both_series_increase",
-          "uncertainty": "USDA reports the 2024 change was not statistically significant; comparable Urban uncertainty was not available in the retained artifact."
+          "uncertainty": "USDA reports the 2024 change was not statistically significant; comparable Urban uncertainty was not available in the retained artifact.",
+          "urban_source_reported_significance": {
+            "reference_estimate": "December 2025",
+            "statistically_unchanged_from": [
+              2023,
+              2024
+            ],
+            "significantly_higher_than": [
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "test_note": "Urban reports two-tailed significance annotations at the 0.10, 0.05, and 0.01 levels; the retained publication does not provide machine-readable standard errors or confidence intervals."
+          }
         },
         "pooling_decision": "do_not_pool"
       },
