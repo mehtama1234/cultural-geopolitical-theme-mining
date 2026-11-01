@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "476100b9742fecb3403a202c95e814cb300caa8e",
+  "source_tree_commit": "5c285621fd67ac9ca2244850644451c9093099b8",
   "artifact_count": 183,
   "artifacts": [
     {
@@ -52,7 +52,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1003,
-      "sha256": "c9868a369a4a54cc491a5ee3e3ceeba52e11183eb98e6a5657002482786068d4"
+      "sha256": "7485442229a8c656920b7d78ad629ea92e4d336e6124faf787676e8738e674eb"
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
@@ -97,7 +97,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
       "bytes": 3448,
-      "sha256": "3fc2679381844552f4a48d8ca040f7f779e817cf78637a50ba2da9cbbf952830"
+      "sha256": "d8b021edcac99df5ebdd88f47caa4796b8344454478b39a4893aea20f5acf96f"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
@@ -691,8 +691,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/continuity-review-packet.json",
-      "bytes": 52961,
-      "sha256": "15ac8188f09f94e2a91caa9233ddab8d866e232461c6acffb2af0a12aa99f1ba"
+      "bytes": 55977,
+      "sha256": "5a398ad866a894f0ba684d952bd1a5e6f35361b5a464b0f08c2c36fe3d9cf0b0"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",

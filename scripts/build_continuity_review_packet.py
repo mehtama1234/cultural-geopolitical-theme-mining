@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,12 +32,16 @@ def main() -> int:
             "manual_dispatch_recovery_artifact_or_null": None,
             "release_owner_review_and_next_review_date": None,
         })
+    next_window = audit.get("next_scheduled_window_utc")
+    next_window_dt = datetime.fromisoformat(next_window) if next_window else None
     for index in range(len(rows) + 1, plan["required_week_count"] + 1):
+        scheduled_window = (next_window_dt + timedelta(days=7 * (index - len(rows) - 1))) if next_window_dt else None
+        scheduled_week = scheduled_window.strftime("%G-W%V") if scheduled_window else None
         rows.append({
-            "week": None,
+            "week": scheduled_week,
             "slot_index": index,
             "status": "unobserved",
-            "scheduled_window_utc": None,
+            "scheduled_window_utc": scheduled_window.isoformat() if scheduled_window else None,
             "actual_run_timestamp_utc": None,
             "run_count": 0,
             "passed_run_count": 0,
@@ -60,7 +65,7 @@ def main() -> int:
             "Every distinct weekly window has one passed full refresh and the required evidence fields.",
             "A gap over 168 hours retains the prior release and manual-dispatch recovery evidence.",
             "A burst of runs in one week is not counted as multiple weekly windows.",
-            "Unobserved future slots remain blank rather than being treated as passed.",
+            "Scheduled future slots show the expected window but remain unobserved and are never treated as passed.",
         ],
         "next_action": plan["next_action"],
         "boundary": "This packet structures continuity review; it does not predict future execution or convert configured scheduling into two-year evidence.",
