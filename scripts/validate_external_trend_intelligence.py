@@ -711,6 +711,12 @@ def main() -> int:
     assert food_comparison["independence_review"]["publisher_distinct"] is True
     assert food_comparison["pooling_decision"] == "do_not_pool"
     assert len(food_comparison["overlap_rows"]) == 3
+    mobility_comparison = json.loads((ANALYSIS / "mobility-access-independent-comparison.json").read_text())
+    assert mobility_comparison["schema"] == "external-trend-intelligence.mobility-access-independent-comparison.v1"
+    assert mobility_comparison["status"] == "directional_gradient_agreement_not_common_holdout"
+    assert mobility_comparison["independence_review"]["publisher_distinct"] is True
+    assert mobility_comparison["pooling_decision"] == "do_not_pool"
+    assert len(mobility_comparison["source_families"]) == 2
     assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}

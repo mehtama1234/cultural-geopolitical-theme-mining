@@ -730,6 +730,9 @@
       fetch('denominator-reconciliation-review.json').then(r => r.json()).then(review => {
         el('independent-comparison').append(card('Denominator reconciliation', review.status, `${review.common_pooling_decision} · ${review.next_action}`));
       });
+      fetch('mobility-access-independent-comparison.json').then(r => r.json()).then(comparison => {
+        el('independent-comparison').append(card('Mobility access independent challenge', comparison.status, `${comparison.directional_readout} ${comparison.pooling_decision}. ${comparison.blocking_items.join(' · ')}`));
+      });
       fetch('candidate-lineage-dependency-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => {
           const groups = row.dependency_groups.map(group => `${group.group_id}: ${group.classification}`).join(' · ') || 'no explicit dependency group recorded';

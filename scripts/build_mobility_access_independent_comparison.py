@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+"""Compare independent mobility datasets while preserving frame differences."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ANALYSIS = Path(__file__).resolve().parents[1] / "analysis" / "external-trend-intelligence"
+OUTPUT = ANALYSIS / "mobility-access-independent-comparison.json"
+
+
+def main() -> int:
+    rows = [
+        {"source_family": "2024 ACS 1-year PUMS", "publisher": "U.S. Census Bureau", "host": "www2.census.gov", "period": 2024, "population": "U.S. households", "low_income_percent_zero_vehicle": 22.25, "high_income_percent_zero_vehicle": 3.74, "income_gradient_percentage_points": 18.51, "geography": "United States"},
+        {"source_family": "2022 National Household Travel Survey", "publisher": "Federal Highway Administration / ORNL", "host": "nhts.ornl.gov", "period": 2022, "population": "Urban U.S. households", "low_income_percent_zero_vehicle": 35.23, "high_income_percent_zero_vehicle": 3.54, "income_gradient_percentage_points": 31.69, "geography": "United States urban households"},
+    ]
+    report = {
+        "schema": "external-trend-intelligence.mobility-access-independent-comparison.v1",
+        "candidate_id": "candidate-time-financial-pressure-practical-room",
+        "status": "directional_gradient_agreement_not_common_holdout",
+        "source_families": rows,
+        "directional_readout": "Both independent datasets show materially higher zero-vehicle prevalence among lower-income households than higher-income households.",
+        "counter_signal": {"source_family": "2022 National Household Travel Survey", "rural_low_income_percent_zero_vehicle": 12.79, "rural_high_income_percent_zero_vehicle": 0.71, "interpretation": "The income gradient persists in the rural slice but its level differs from the urban frame."},
+        "independence_review": {"publisher_distinct": True, "host_distinct": True, "instrument_distinct": True, "status": "distinct_datasets_directional_challenge"},
+        "pooling_decision": "do_not_pool",
+        "blocking_items": ["2022 versus 2024 periods", "urban-only NHTS comparison versus all-household ACS frame", "different sampling and weighting designs", "zero-vehicle status is not the same as transport affordability or unmet access", "rights and downstream chart reuse require source-specific review"],
+        "next_action": "Acquire a repeated compatible mobility measure or harmonized geography before treating this directional gradient as a temporal holdout or decision effect.",
+        "boundary": "This is independent directional evidence about mobility exposure. It is not a pooled estimate, causal result, forecast, or company exposure finding.",
+    }
+    OUTPUT.write_text(json.dumps(report, indent=2) + "\n")
+    print(f"wrote {OUTPUT} ({len(rows)} source families; pooling={report['pooling_decision']})")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
