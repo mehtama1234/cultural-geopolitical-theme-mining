@@ -25,7 +25,7 @@
         "schema": "external-trend-intelligence.census-cbp-release-check.v1",
         "publisher": "U.S. Census Bureau",
         "dataset": "County Business Patterns",
-        "checked_at": "2026-11-01T06:45:29.714243+00:00",
+        "checked_at": "2026-11-01T06:52:19.491213+00:00",
         "latest_pinned_year": 2023,
         "target_year": 2024,
         "checks": [
@@ -95,7 +95,7 @@
       "latest_observation_period": "2024 estimate published in 2026",
       "next_target_period": "next annual Map the Meal Gap release",
       "cadence_or_trigger": "annual Feeding America model and public-map release",
-      "status": "official_source_available",
+      "status": "pinned_snapshot_retained_fetch_failed",
       "acquisition_action": "Use as an independent publisher challenge and acquire the request-gated underlying data or technical appendix before any pooled estimate or IBIS promotion."
     },
     {
