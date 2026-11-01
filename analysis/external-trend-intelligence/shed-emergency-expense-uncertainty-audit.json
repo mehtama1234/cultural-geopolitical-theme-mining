@@ -18,6 +18,13 @@
     "codebook_replicate_weight_text_found": false,
     "basis": "The official report publishes point estimates and the codebook documents analysis weights, but neither artifact provides a design-based interval or replicate-weight procedure for this measure."
   },
+  "official_significance_statement": {
+    "status": "publisher_interpretation_preserved",
+    "source_url": "https://www.federalreserve.gov/publications/files/2024-report-economic-well-being-us-households-202505.pdf",
+    "locator": "pages 44-45, Figure 20 and surrounding text",
+    "statement": "The Federal Reserve reports that 63 percent of adults would cover a hypothetical $400 expense with cash or its equivalent in 2024, unchanged from 2022 and 2023; the cash-equivalent definition includes cash, savings, or a credit card paid off at the next statement.",
+    "boundary": "This is the publisher's descriptive interpretation, not a reproducible design-based interval or a cross-source significance test."
+  },
   "naive_srs_interval": {
     "status": "diagnostic_only_not_release_valid",
     "confidence_level": 0.95,
