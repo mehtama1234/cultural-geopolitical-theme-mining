@@ -504,6 +504,14 @@ def main() -> int:
     assert len(release_health["blockers"]) == 6
     assert release_health["sections"]["monitoring"]["registered"] == len(monitoring["trends"])
     assert release_health["sections"]["monitoring"]["status"] == "pass"
+    qualification_health = release_health["sections"]["trend_qualification"]
+    assert qualification_health["candidates"] == qualification_matrix["candidate_count"]
+    assert qualification_health["qualified"] == qualification_matrix["qualified_external_trend_count"]
+    assert qualification_health["monitored"] == sum(row["gate_status"] == "monitored_external_trend" for row in qualification_matrix["rows"])
+    assert qualification_health["held"] == qualification_matrix["held_count"]
+    pilot_health = release_health["sections"]["company_pilots"]
+    assert pilot_health["registered"] == len(pilot_register["pilots"])
+    assert pilot_health["approved_tests"] == pilot_readiness["ready_for_approved_test_count"]
     assert release_health["sections"]["rights_and_publisher_dependence"]["rights_unverified"] == 8
     assert release_health["sections"]["rights_and_publisher_dependence"]["local_evidence_families"] >= 1
     assert release_health["sections"]["temporal_holdout"]["status"] == "design_readout_only"
