@@ -643,6 +643,9 @@
       fetch('record-host-dependence-audit.json').then(r => r.json()).then(audit => {
         el('theme-coverage-audit').append(card('Host dependence audit', `${audit.shared_host_count}/${audit.unique_host_count} shared hosts`, `${audit.shared_host_record_count.toLocaleString()} records touch a shared host · ${audit.boundary}`));
       });
+      fetch('host-dependence-review-queue.json').then(r => r.json()).then(queue => {
+        el('theme-coverage-audit').append(card('Host dependence review queue', `${queue.high_priority_count} high priority`, `${queue.unassigned_count} shared-host reviews · ${queue.next_action}`));
+      });
       const cards = el('candidates'); comparison.candidates.forEach(candidate => cards.append(candidateCard(candidate)));
       const qualificationCards = el('qualification-matrix'); qualificationMatrix.rows.forEach(row => qualificationCards.append(qualificationCard(row)));
       const backtestCards = el('backtest-readiness'); backtestReadiness.rows.forEach(row => backtestCards.append(backtestReadinessCard(row)));

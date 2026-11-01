@@ -49,6 +49,12 @@ def main() -> int:
     assert len(host_dependence["host_rows"]) <= host_dependence["host_row_limit"]
     assert len(host_dependence["shared_host_pairs"]) <= host_dependence["shared_host_pair_limit"]
     assert host_dependence["boundary"] and host_dependence["next_action"]
+    host_queue = json.loads((ANALYSIS / "host-dependence-review-queue.json").read_text())
+    assert host_queue["schema"] == "external-trend-intelligence.host-dependence-review-queue.v1"
+    assert host_queue["shared_host_count"] == host_dependence["shared_host_count"]
+    assert host_queue["unassigned_count"] >= host_queue["high_priority_count"] >= 0
+    assert len(host_queue["rows"]) <= host_queue["row_limit"]
+    assert host_queue["boundary"] and host_queue["next_action"]
     ids = {record["trend_id"] for record in manifest["records"]}
     assert len(ids) == manifest["record_count"]
     for record in manifest["records"]:

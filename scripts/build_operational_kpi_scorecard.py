@@ -33,6 +33,7 @@ def main() -> int:
     inventory_dependence = load("record-host-dependence-audit.json")
     record_quality = load("record-quality-audit.json")
     remediation = load("record-quality-remediation-queue.json")
+    host_queue = load("host-dependence-review-queue.json")
     latest = history["latest"]
     metrics = {
         "refresh_runs_recorded": history["run_count"],
@@ -60,6 +61,8 @@ def main() -> int:
         "inventory_unique_host_count": inventory_dependence["unique_host_count"],
         "inventory_shared_host_count": inventory_dependence["shared_host_count"],
         "inventory_shared_host_record_count": inventory_dependence["shared_host_record_count"],
+        "host_dependence_reviews_unassigned": host_queue["unassigned_count"],
+        "host_dependence_reviews_high_priority": host_queue["high_priority_count"],
         "publisher_independence_status": dependence["independence_status"],
         "record_quality_min_coverage": min(record_quality["field_coverage"].values()),
         "record_quality_gap_count": remediation["record_count_with_gaps"],
@@ -81,6 +84,7 @@ def main() -> int:
         "monitoring_register_coverage": {"target": "every candidate has an execution state", "status": "pass" if metrics["monitoring_watches"] == qualification["candidate_count"] else "hold"},
         "publisher_dependence_review": {"target": "shared hosts remain visible and reviewed", "status": "pass" if metrics["inventory_shared_host_count"] >= 0 and metrics["publisher_independence_status"] != "unreviewed" else "hold"},
         "record_metadata_completeness": {"target": "all required record metadata fields explicitly present", "status": "pass" if metrics["record_quality_gap_count"] == 0 and metrics["record_quality_min_coverage"] == 1 else "hold"},
+        "host_dependence_review_queue": {"target": "shared-host lineage work is assigned and dispositioned", "status": "pass" if metrics["host_dependence_reviews_unassigned"] == 0 else "hold"},
         "named_operating_ownership": {"target": "0 unassigned primary/backup roles", "status": "pass" if metrics["unassigned_operating_roles"] == 0 else "hold"},
         "independence_adjudication": {"target": "every candidate has a disposition and reviewer", "status": "pass" if metrics["independence_adjudication_pending"] == 0 else "hold"},
         "refresh_continuity": {"target": "weekly runs observed across distinct weeks", "status": "pass" if metrics["unattended_two_year_coverage"] == "demonstrated" else "hold"},

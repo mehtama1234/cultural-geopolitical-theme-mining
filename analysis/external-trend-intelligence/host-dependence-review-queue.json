@@ -1,0 +1,2113 @@
+{
+  "schema": "external-trend-intelligence.host-dependence-review-queue.v1",
+  "status": "review_required",
+  "unique_host_count": 892,
+  "shared_host_count": 315,
+  "row_limit": 100,
+  "rows": [
+    {
+      "review_id": "host:doi.org",
+      "host": "doi.org",
+      "priority": "high",
+      "record_count": 242,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:nber.org",
+      "host": "nber.org",
+      "priority": "high",
+      "record_count": 237,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:census.gov",
+      "host": "census.gov",
+      "priority": "high",
+      "record_count": 167,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:gao.gov",
+      "host": "gao.gov",
+      "priority": "high",
+      "record_count": 134,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:www2.census.gov",
+      "host": "www2.census.gov",
+      "priority": "high",
+      "record_count": 110,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:pewresearch.org",
+      "host": "pewresearch.org",
+      "priority": "high",
+      "record_count": 97,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:oecd.org",
+      "host": "oecd.org",
+      "priority": "high",
+      "record_count": 92,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:worldbank.org",
+      "host": "worldbank.org",
+      "priority": "high",
+      "record_count": 84,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:files.gao.gov",
+      "host": "files.gao.gov",
+      "priority": "high",
+      "record_count": 79,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:federalreserve.gov",
+      "host": "federalreserve.gov",
+      "priority": "high",
+      "record_count": 63,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:ilo.org",
+      "host": "ilo.org",
+      "priority": "high",
+      "record_count": 62,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:ftc.gov",
+      "host": "ftc.gov",
+      "priority": "high",
+      "record_count": 53,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:documents.worldbank.org",
+      "host": "documents.worldbank.org",
+      "priority": "high",
+      "record_count": 48,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:gov.uk",
+      "host": "gov.uk",
+      "priority": "high",
+      "record_count": 46,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:bls.gov",
+      "host": "bls.gov",
+      "priority": "high",
+      "record_count": 45,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:news.gallup.com",
+      "host": "news.gallup.com",
+      "priority": "high",
+      "record_count": 37,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:ipsos.com",
+      "host": "ipsos.com",
+      "priority": "high",
+      "record_count": 34,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:reproducibility.worldbank.org",
+      "host": "reproducibility.worldbank.org",
+      "priority": "high",
+      "record_count": 34,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:consumerfinance.gov",
+      "host": "consumerfinance.gov",
+      "priority": "high",
+      "record_count": 31,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:un.org",
+      "host": "un.org",
+      "priority": "high",
+      "record_count": 31,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:unesco.org",
+      "host": "unesco.org",
+      "priority": "high",
+      "record_count": 30,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:who.int",
+      "host": "who.int",
+      "priority": "high",
+      "record_count": 28,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:weforum.org",
+      "host": "weforum.org",
+      "priority": "high",
+      "record_count": 25,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:undp.org",
+      "host": "undp.org",
+      "priority": "normal",
+      "record_count": 24,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:gallup.com",
+      "host": "gallup.com",
+      "priority": "normal",
+      "record_count": 21,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:imf.org",
+      "host": "imf.org",
+      "priority": "normal",
+      "record_count": 21,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:bea.gov",
+      "host": "bea.gov",
+      "priority": "normal",
+      "record_count": 20,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:unstats.un.org",
+      "host": "unstats.un.org",
+      "priority": "normal",
+      "record_count": 20,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:ec.europa.eu",
+      "host": "ec.europa.eu",
+      "priority": "normal",
+      "record_count": 19,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:fwc.gov.au",
+      "host": "fwc.gov.au",
+      "priority": "normal",
+      "record_count": 19,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:meps.ahrq.gov",
+      "host": "meps.ahrq.gov",
+      "priority": "normal",
+      "record_count": 19,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:unctad.org",
+      "host": "unctad.org",
+      "priority": "normal",
+      "record_count": 19,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:fao.org",
+      "host": "fao.org",
+      "priority": "normal",
+      "record_count": 18,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:unicef.org",
+      "host": "unicef.org",
+      "priority": "normal",
+      "record_count": 18,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:lehd.ces.census.gov",
+      "host": "lehd.ces.census.gov",
+      "priority": "normal",
+      "record_count": 17,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:ons.gov.uk",
+      "host": "ons.gov.uk",
+      "priority": "normal",
+      "record_count": 17,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:kam.lt",
+      "host": "kam.lt",
+      "priority": "normal",
+      "record_count": 16,
+      "theme_count": 8,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:search.worldbank.org",
+      "host": "search.worldbank.org",
+      "priority": "normal",
+      "record_count": 16,
+      "theme_count": 9,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:desapublications.un.org",
+      "host": "desapublications.un.org",
+      "priority": "normal",
+      "record_count": 15,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:gov.pl",
+      "host": "gov.pl",
+      "priority": "normal",
+      "record_count": 15,
+      "theme_count": 9,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:ideas.repec.org",
+      "host": "ideas.repec.org",
+      "priority": "normal",
+      "record_count": 15,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:documents1.worldbank.org",
+      "host": "documents1.worldbank.org",
+      "priority": "normal",
+      "record_count": 14,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:ers.usda.gov",
+      "host": "ers.usda.gov",
+      "priority": "normal",
+      "record_count": 14,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:www150.statcan.gc.ca",
+      "host": "www150.statcan.gc.ca",
+      "priority": "normal",
+      "record_count": 14,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:itu.int",
+      "host": "itu.int",
+      "priority": "normal",
+      "record_count": 13,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:iea.org",
+      "host": "iea.org",
+      "priority": "normal",
+      "record_count": 12,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:nato.int",
+      "host": "nato.int",
+      "priority": "normal",
+      "record_count": 12,
+      "theme_count": 9,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:newyorkfed.org",
+      "host": "newyorkfed.org",
+      "priority": "normal",
+      "record_count": 12,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:energy.gov",
+      "host": "energy.gov",
+      "priority": "normal",
+      "record_count": 11,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:files.consumerfinance.gov",
+      "host": "files.consumerfinance.gov",
+      "priority": "normal",
+      "record_count": 11,
+      "theme_count": 9,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:openknowledge.worldbank.org",
+      "host": "openknowledge.worldbank.org",
+      "priority": "normal",
+      "record_count": 11,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:cdc.gov",
+      "host": "cdc.gov",
+      "priority": "normal",
+      "record_count": 10,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:insurance.ca.gov",
+      "host": "insurance.ca.gov",
+      "priority": "normal",
+      "record_count": 10,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:unep.org",
+      "host": "unep.org",
+      "priority": "normal",
+      "record_count": 10,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:blogs.worldbank.org",
+      "host": "blogs.worldbank.org",
+      "priority": "normal",
+      "record_count": 9,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:papers.ssrn.com",
+      "host": "papers.ssrn.com",
+      "priority": "normal",
+      "record_count": 9,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:urban.org",
+      "host": "urban.org",
+      "priority": "normal",
+      "record_count": 9,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:bis.gov",
+      "host": "bis.gov",
+      "priority": "normal",
+      "record_count": 8,
+      "theme_count": 5,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:cdn.www.census.gov",
+      "host": "cdn.www.census.gov",
+      "priority": "normal",
+      "record_count": 8,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:resources.ipsos.com",
+      "host": "resources.ipsos.com",
+      "priority": "normal",
+      "record_count": 8,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:sec.gov",
+      "host": "sec.gov",
+      "priority": "normal",
+      "record_count": 8,
+      "theme_count": 7,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:unhcr.org",
+      "host": "unhcr.org",
+      "priority": "normal",
+      "record_count": 8,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:api.usaspending.gov",
+      "host": "api.usaspending.gov",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 7,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:cbo.gov",
+      "host": "cbo.gov",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:data.bls.gov",
+      "host": "data.bls.gov",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:edelman.com",
+      "host": "edelman.com",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:eia.gov",
+      "host": "eia.gov",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:financialresearch.gov",
+      "host": "financialresearch.gov",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:idea.int",
+      "host": "idea.int",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:nyc.gov",
+      "host": "nyc.gov",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:ofcom.org.uk",
+      "host": "ofcom.org.uk",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:search.ftc.gov",
+      "host": "search.ftc.gov",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:static.cninfo.com.cn",
+      "host": "static.cninfo.com.cn",
+      "priority": "normal",
+      "record_count": 7,
+      "theme_count": 4,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:abs.gov.au",
+      "host": "abs.gov.au",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 9,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:academic.oup.com",
+      "host": "academic.oup.com",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 7,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:bjs.ojp.gov",
+      "host": "bjs.ojp.gov",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 9,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:commission.europa.eu",
+      "host": "commission.europa.eu",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:cpsc.gov",
+      "host": "cpsc.gov",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 8,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:data.hrsa.gov",
+      "host": "data.hrsa.gov",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 8,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:deloitte.com",
+      "host": "deloitte.com",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:hdr.undp.org",
+      "host": "hdr.undp.org",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 12,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:ikea.com",
+      "host": "ikea.com",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:justice.gov",
+      "host": "justice.gov",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 8,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:nisrf.nato.int",
+      "host": "nisrf.nato.int",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 7,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:pmc.ncbi.nlm.nih.gov",
+      "host": "pmc.ncbi.nlm.nih.gov",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:portal.ct.gov",
+      "host": "portal.ct.gov",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 6,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:scc.virginia.gov",
+      "host": "scc.virginia.gov",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 9,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:sda.berkeley.edu",
+      "host": "sda.berkeley.edu",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 9,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:statssa.gov.za",
+      "host": "statssa.gov.za",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:unesdoc.unesco.org",
+      "host": "unesdoc.unesco.org",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 14,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:unwomen.org",
+      "host": "unwomen.org",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:wipo.int",
+      "host": "wipo.int",
+      "priority": "normal",
+      "record_count": 6,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:api.bls.gov",
+      "host": "api.bls.gov",
+      "priority": "normal",
+      "record_count": 5,
+      "theme_count": 7,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:arxiv.org",
+      "host": "arxiv.org",
+      "priority": "normal",
+      "record_count": 5,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:bis.org",
+      "host": "bis.org",
+      "priority": "normal",
+      "record_count": 5,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:canada.ca",
+      "host": "canada.ca",
+      "priority": "normal",
+      "record_count": 5,
+      "theme_count": 13,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:data.worldbank.org",
+      "host": "data.worldbank.org",
+      "priority": "normal",
+      "record_count": 5,
+      "theme_count": 11,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:fna.usda.gov",
+      "host": "fna.usda.gov",
+      "priority": "normal",
+      "record_count": 5,
+      "theme_count": 9,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:huduser.gov",
+      "host": "huduser.gov",
+      "priority": "normal",
+      "record_count": 5,
+      "theme_count": 8,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    },
+    {
+      "review_id": "host:kff.org",
+      "host": "kff.org",
+      "priority": "normal",
+      "record_count": 5,
+      "theme_count": 10,
+      "status": "unassigned",
+      "owner": "lineage review queue",
+      "review_questions": [
+        "Which publisher or publishers control the cited artifacts?",
+        "Do multiple URLs resolve to the same upstream dataset, report, or synthesis?",
+        "Does the source provide a distinct outcome measure or only restate another source?",
+        "What exact storage, transformation, and derived-chart rights apply?"
+      ],
+      "acceptance": [
+        "publisher and upstream identity recorded",
+        "shared-dataset or restatement dependence assessed",
+        "rights route and restrictions recorded",
+        "independence disposition recorded before promotion"
+      ]
+    }
+  ],
+  "high_priority_count": 23,
+  "unassigned_count": 100,
+  "boundary": "This queue assigns lineage questions for shared hosts. It does not infer publisher identity, grant rights, or count any host as independent confirmation.",
+  "next_action": "Assign the highest-volume shared hosts to a lineage reviewer and record a publisher, upstream-dependence, rights, and independence disposition before using repetition as confirmation."
+}

@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "e285582c4730eb6b21c05cf9bd788f78aca0d9d5",
-  "artifact_count": 131,
+  "source_tree_commit": "c9f7306f543451020743c09fb6d9057477da376c",
+  "artifact_count": 132,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -56,8 +56,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
-      "bytes": 3421,
-      "sha256": "acf0c3fff464d7415dd49151db80446c1b220251448c0d45fb754f3ac0a7a5c1"
+      "bytes": 3659,
+      "sha256": "8f5853d69789eff8a3200f3df3f4283474ac964a73746510a27464ab94e62319"
     },
     {
       "path": "analysis/external-trend-intelligence/pilot-design-dry-run.json",
@@ -66,8 +66,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 9087,
-      "sha256": "1186f9ea1d67950738f5e0da992616b12b1e90f4bfaf7d2ae3e5709d463cf50e"
+      "bytes": 9260,
+      "sha256": "6e8c60f10e4cf3e7736e5fdf840762369d34d306c0862d49ee3e4a85a7bb9d16"
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
@@ -157,7 +157,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "2d7c58cd6c20e7b4d283444ad537583704a151101b496ad7d2602bc470f3d47f"
+      "sha256": "3cce403e071362c740c6e1a0f63ad811e4707edfbbba33781659852627aedbd0"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -268,6 +268,11 @@
       "path": "analysis/external-trend-intelligence/record-host-dependence-audit.json",
       "bytes": 64233,
       "sha256": "83a7d4cccfb5f47895b4219f702f41c7a00939cee4f5efcf0b095076675229b1"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/host-dependence-review-queue.json",
+      "bytes": 85799,
+      "sha256": "a3add81ddcd245601bbf0f2b4e07ceb93e9b2a57b13786e97e4c4ae82aa52757"
     },
     {
       "path": "analysis/external-trend-intelligence/theme-coverage-audit.json",
@@ -636,8 +641,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 86084,
-      "sha256": "82130fcb048e5c9f9c9d3181a9ee8997afde619abd8547831bee1424de03db2c"
+      "bytes": 86379,
+      "sha256": "2d8c51230e6fcfcdef6ab3038ceca940d752cc23e4aa447ec150e89600738572"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",

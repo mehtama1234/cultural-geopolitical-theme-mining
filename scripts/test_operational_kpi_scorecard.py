@@ -27,6 +27,7 @@ def main() -> int:
     inventory_dependence = load("record-host-dependence-audit.json")
     record_quality = load("record-quality-audit.json")
     remediation = load("record-quality-remediation-queue.json")
+    host_queue = load("host-dependence-review-queue.json")
     dry_run = load("pilot-design-dry-run.json")
     intake = load("pilot-contract-intake.json")
     m = kpi["metrics"]
@@ -53,6 +54,8 @@ def main() -> int:
     assert m["inventory_shared_host_record_count"] == inventory_dependence["shared_host_record_count"]
     assert m["record_quality_min_coverage"] == min(record_quality["field_coverage"].values())
     assert m["record_quality_gap_count"] == remediation["record_count_with_gaps"]
+    assert m["host_dependence_reviews_unassigned"] == host_queue["unassigned_count"]
+    assert m["host_dependence_reviews_high_priority"] == host_queue["high_priority_count"]
     print("operational KPI scorecard: reconciled")
     return 0
 
