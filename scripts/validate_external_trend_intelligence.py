@@ -880,8 +880,8 @@ def main() -> int:
     assert any(row["source"] == "JPMorganChase Institute" for row in us_comparison["rows"])
     acquisition_rights = json.loads((ANALYSIS / "external-acquisition-rights-review.json").read_text())
     assert acquisition_rights["schema"] == "external-trend-intelligence.external-acquisition-rights-review.v1"
-    assert len(acquisition_rights["rows"]) == 5
-    assert all(row["rights_evidence_status"] in {"official_policy_identified_exact_artifact_review_open", "restrictive_republication_notice_review_open", "license_identified_exact_archive_review_open"} for row in acquisition_rights["rows"])
+    assert len(acquisition_rights["rows"]) == 7
+    assert all(row["rights_evidence_status"] in {"official_policy_identified_exact_artifact_review_open", "restrictive_republication_notice_review_open", "license_identified_exact_archive_review_open", "official_terms_identified_exact_artifact_review_open"} for row in acquisition_rights["rows"])
     ora_rights = next(row for row in acquisition_rights["rows"] if row["acquisition_id"] == "ora-ords-v03-mobile-aggregate-202607")
     assert ora_rights["publisher"] == "Open Repair Alliance"
     assert "CC BY-SA" in ora_rights["official_policy_observation"]

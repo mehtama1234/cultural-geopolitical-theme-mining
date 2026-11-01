@@ -70,7 +70,43 @@
       "derived_use_status": "derived_aggregate_display_appears_permitted_with_attribution_share_alike_subject_to_exact_archive_review",
       "retention_scope": "retain archive URL, retrieval date, SHA-256, filtered field definition, attribution, and share-alike notice; do not imply that the license makes the sample representative or policy-valid",
       "next_action": "Preserve the CC BY-SA attribution/share-alike notice in every frontend export and confirm whether any contributor-specific material or raw-row redistribution condition applies before external redistribution."
+    },
+    {
+      "acquisition_id": "census-cbp-electronic-repair-2019-2023",
+      "publisher": "U.S. Census Bureau",
+      "source_url": "https://www.census.gov/data/developers/data-sets/cbp-zbp/cbp-api.html",
+      "terms_evidence_urls": [
+        "https://www.census.gov/data/developers/about/terms-of-service.html",
+        "https://www.census.gov/about/policies/citation.html",
+        "https://www.census.gov/about/policies/quality/guidelines/transparency.html"
+      ],
+      "official_policy_observation": "Census API use is subject to the Bureau's terms and website policies. Census citation guidance says users creating estimates from disseminated tables should cite Census as the original source and that analytical conclusions are the user's responsibility. Census transparency guidance requires methods and use-relevant information to remain documented.",
+      "access_basis": "official County Business Patterns download/API route",
+      "upstream_identity": "U.S. Census Bureau County Business Patterns, NAICS repair proxy",
+      "publisher_dependence": "single_publisher_census_series",
+      "rights_evidence_status": "official_terms_identified_exact_artifact_review_open",
+      "derived_use_status": "attributed_normalized_internal_review_appears_supported_subject_to_exact_product_notice; raw_and_public_derived_chart_scope_open",
+      "retention_scope": "retain source URL, retrieval dates, download hashes, suppression flags, and Census citation; do not redistribute raw ZIP files or publish derived charts until exact product terms and rights-owner approval are recorded",
+      "next_action": "Attach the exact CBP product notice and attribution language to the acquired-source record and document the permitted derived-chart scope."
+    },
+    {
+      "acquisition_id": "census-nes-electronic-repair-2019-2024",
+      "publisher": "U.S. Census Bureau",
+      "source_url": "https://www.census.gov/data/datasets/2024/econ/nonemployer-statistics/2024-ns.html",
+      "terms_evidence_urls": [
+        "https://www.census.gov/data/developers/about/terms-of-service.html",
+        "https://www.census.gov/about/policies/citation.html",
+        "https://www.census.gov/about/policies/quality/guidelines/transparency.html"
+      ],
+      "official_policy_observation": "Census API and website terms govern access routes; Census citation guidance requires attribution of original data for user-created estimates, while transparency guidance requires methods and use-relevant limitations to remain visible. Exact Nonemployer Statistics product notices remain controlling.",
+      "access_basis": "official Nonemployer Statistics download route",
+      "upstream_identity": "U.S. Census Bureau Nonemployer Statistics, NAICS repair proxy",
+      "publisher_dependence": "single_publisher_census_series",
+      "rights_evidence_status": "official_terms_identified_exact_artifact_review_open",
+      "derived_use_status": "attributed_normalized_internal_review_appears_supported_subject_to_exact_product_notice; raw_and_public_derived_chart_scope_open",
+      "retention_scope": "retain source URL, retrieval dates, download hashes, suppression flags, and Census citation; do not redistribute raw files or publish derived charts until exact product terms and rights-owner approval are recorded",
+      "next_action": "Attach the exact NES product notice and attribution language to the acquired-source record and document the permitted derived-chart scope."
     }
   ],
-  "boundary": "This register records rights evidence and review tasks for five official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
+  "boundary": "This register records rights evidence and review tasks for seven official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
 }
