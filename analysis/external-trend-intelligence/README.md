@@ -34,6 +34,10 @@ The first cross-source comparison is in
 [`CROSS-SOURCE-CANDIDATES.md`](CROSS-SOURCE-CANDIDATES.md). These are
 qualified candidates, not yet company findings or forecasts.
 
+The plain-language inventory of the external families and named datasets is in
+[`EXTERNAL-DATA-SOURCES.md`](EXTERNAL-DATA-SOURCES.md). It is a source map,
+not a rights clearance or an independence result.
+
 The first URL and publisher-lineage review is in
 [`SOURCE-LINEAGE-AUDIT.md`](SOURCE-LINEAGE-AUDIT.md). Host and URL counts are
 coverage measures, not independent-confirmation scores.

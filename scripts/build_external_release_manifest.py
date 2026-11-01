@@ -26,6 +26,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
     "analysis/external-trend-intelligence/pilot-design-dry-run.json",
     "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
+    "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
     "analysis/external-trend-intelligence/PILOT-VALIDATION-PROTOCOL.md",
     "analysis/external-trend-intelligence/independent-stage-comparison.json",
     "analysis/external-trend-intelligence/backtest-readiness.json",
