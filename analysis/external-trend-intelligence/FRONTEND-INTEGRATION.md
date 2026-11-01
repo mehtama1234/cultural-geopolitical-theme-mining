@@ -12,6 +12,7 @@ blockers.
 | Inventory charts | `observation-manifest.json` | record count, theme, host, source unit, geography, boundary |
 | Compatible-measure search | `compatible-measure-search.json` | scanned record count, candidate measure/unit groups, hosts, periods, review boundary |
 | Global forecast comparison | `global-growth-forecast-comparison.json` | publisher, forecast period, value, spread, vintage/uncertainty boundary, backtest next action |
+| Forecast lineage review | `forecast-lineage-review.json` | source host, publisher-distinct check, vintage/rights/uncertainty/outcome review status, boundary |
 | Forecast backtest register | `forecast-backtest-register.json` | original forecast, realized-outcome slot, error field, refresh trigger, acceptance criteria, pending/completed status |
 | 24-month roadmap | `two-year-roadmap.json` | phase window, current status, outcomes, acceptance criteria, evidence links, blocking requirement statuses |
 | Source family cards | `source-family-registry.json`, `source-family-controls.json`, `refresh-status.json` | role, cadence, revision, rights status, publisher dependence, lineage status, file age |

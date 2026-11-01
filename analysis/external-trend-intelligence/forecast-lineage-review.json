@@ -1,0 +1,81 @@
+{
+  "schema": "external-trend-intelligence.forecast-lineage-review.v1",
+  "comparison_artifact": "global-growth-forecast-comparison.json",
+  "status": "publisher_distinct_pending_vintage_rights_and_outcome_review",
+  "record_count": 4,
+  "source_host_count": 3,
+  "shared_host_count": 1,
+  "rows": [
+    {
+      "record_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room",
+      "source_family": "www.oecd.org",
+      "source_host": "www.oecd.org",
+      "title": "Energy shocks are being absorbed by supply substitution and reserves, but renewed inflation and depleted buffers narrow household and policy room",
+      "forecast_period": "2026-2027; global growth and energy-shock baseline",
+      "publication_date": null,
+      "vintage_status": "not_present_in_comparison_artifact",
+      "rights_status": "not_verified",
+      "publisher_dependence": "requires_source-level_review"
+    },
+    {
+      "record_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock",
+      "source_family": "desapublications.un.org",
+      "source_host": "desapublications.un.org",
+      "title": "A geopolitical energy shock is compressing global growth, reigniting inflation, and narrowing fiscal room for social and development responses",
+      "forecast_period": "September 2026; global growth outlook",
+      "publication_date": null,
+      "vintage_status": "not_present_in_comparison_artifact",
+      "rights_status": "not_verified",
+      "publisher_dependence": "requires_source-level_review"
+    },
+    {
+      "record_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks",
+      "source_family": "www.worldbank.org",
+      "source_host": "www.worldbank.org",
+      "title": "Geopolitical energy shocks are narrowing growth and fiscal room unevenly, making debt capacity, buffers, and private investment central to social and institutional resilience",
+      "forecast_period": "2025-2028; global growth and geopolitical energy shock",
+      "publication_date": null,
+      "vintage_status": "not_present_in_comparison_artifact",
+      "rights_status": "not_verified",
+      "publisher_dependence": "requires_source-level_review"
+    },
+    {
+      "record_id": "comparative-un-wesp-mid-2026-energy-inflation-supply-chain-shock",
+      "source_family": "desapublications.un.org",
+      "source_host": "desapublications.un.org",
+      "title": "Geopolitical energy disruption is transmitting through inflation, supply chains, household purchasing power, and developing-country fiscal space",
+      "forecast_period": "2026-2027; global growth and inflation outlook after the mid-2026 energy shock",
+      "publication_date": null,
+      "vintage_status": "not_present_in_comparison_artifact",
+      "rights_status": "not_verified",
+      "publisher_dependence": "requires_source-level_review"
+    }
+  ],
+  "measure_record_map": {
+    "global_growth_2026": [
+      "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room",
+      "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock",
+      "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks"
+    ],
+    "global_growth_2027": [
+      "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room",
+      "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock",
+      "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks"
+    ],
+    "global_inflation_2026": [
+      "comparative-un-wesp-mid-2026-energy-inflation-supply-chain-shock",
+      "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks"
+    ]
+  },
+  "independence_checks": {
+    "distinct_publisher_hosts": true,
+    "same_host_duplicate_count": 1,
+    "common_model_or_input_review": "pending",
+    "forecast_vintage_review": "pending",
+    "uncertainty_interval_review": "pending",
+    "rights_review": "pending",
+    "realized_outcome_backtest": "pending"
+  },
+  "next_action": "Attach publication date, forecast vintage, scenario or interval metadata, source terms, and the realized outcome to each row without collapsing revisions.",
+  "boundary": "Distinct publisher hosts are a lineage signal, not proof of independent models or forecast accuracy. This artifact does not endorse a forecast or authorize company exposure."
+}

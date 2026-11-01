@@ -64,6 +64,11 @@ Medicaid state context. It specifies the required denominator, period,
 uncertainty, survey-frame, and rights fields. This is an acquisition gate, not
 a utilization result; do not label policy rates as service utilization.
 
+The forecast comparison now has a separate [forecast lineage review](forecast-lineage-review.json):
+four rows resolve to three publisher hosts, with the repeated UN DESA host
+visible. Distinct hosts are treated as a lineage signal only; model dependence,
+forecast vintage, uncertainty, rights, and realized-outcome checks remain open.
+
 ## Remaining medium-priority work
 
 - Review the new [IBIS force claim map](ibis-force-claim-map.json): all 21

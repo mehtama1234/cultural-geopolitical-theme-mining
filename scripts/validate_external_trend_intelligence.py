@@ -472,6 +472,13 @@ def main() -> int:
     assert forecast["source_families"] == ["OECD", "UN DESA", "World Bank"]
     assert len(forecast["forecasts"]) == 3
     assert all(item["values"] and item["spread"] >= 0 for item in forecast["forecasts"])
+    forecast_lineage = json.loads((ANALYSIS / "forecast-lineage-review.json").read_text())
+    assert forecast_lineage["schema"] == "external-trend-intelligence.forecast-lineage-review.v1"
+    assert forecast_lineage["record_count"] == len(forecast_lineage["rows"]) == 4
+    assert forecast_lineage["source_host_count"] == 3
+    assert forecast_lineage["shared_host_count"] == 1
+    assert forecast_lineage["independence_checks"]["distinct_publisher_hosts"] is True
+    assert forecast_lineage["status"] == "publisher_distinct_pending_vintage_rights_and_outcome_review"
     backtest_register = json.loads((ANALYSIS / "forecast-backtest-register.json").read_text())
     assert backtest_register["schema"] == "external-trend-intelligence.forecast-backtest-register.v1"
     assert backtest_register["row_count"] == len(backtest_register["rows"])

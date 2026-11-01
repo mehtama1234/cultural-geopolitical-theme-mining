@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "274d41af6e36942c5e1ae9b8fbd3d9430f041813",
-  "artifact_count": 101,
+  "source_tree_commit": "95d1c45ba8f1235c11b001fb29af6cb6936b6277",
+  "artifact_count": 102,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -61,8 +61,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 4709,
-      "sha256": "d586f50b182afffe7911e6da3a90892fab4e209c957bad7523beaa335067bf61"
+      "bytes": 4870,
+      "sha256": "f5abb2057732688d7a468555bea3f6d1d31cb22e0edd94b6c564fd3c62684e3e"
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
@@ -142,7 +142,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2511,
-      "sha256": "e103d34cb69a72b6720307e6bed19166325719298d9211aa711cb90a08cc0d3d"
+      "sha256": "2d749b3ec1890ed39e94db871389c605b4a447543cf4fc898c8e0365cdace0b4"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -196,13 +196,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/REFRESH-RUNBOOK.md",
-      "bytes": 7770,
-      "sha256": "5545ee5df333f8711b9b30d8e990bc96f7dba66c76e048a5f816496a21a1b4c0"
+      "bytes": 8036,
+      "sha256": "c11720372b0bec92c1baf66c5dcf6a6d5090a62a362fcb831e604a67e64b367d"
     },
     {
       "path": "analysis/external-trend-intelligence/NEXT-ACTIONS.md",
-      "bytes": 7529,
-      "sha256": "e7d6d24ce3a90816b4167a202493ec8f847757cf24c4b979bdbbb7d3c459fb83"
+      "bytes": 7865,
+      "sha256": "8e7698088be191908f15de749acc2f8f17a65e160ca82826bbce5e7981ade815"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-schedule.json",
@@ -243,6 +243,11 @@
       "path": "analysis/external-trend-intelligence/global-growth-forecast-comparison.json",
       "bytes": 5561,
       "sha256": "31c22a68418806799ea354b574a0cd7b44f52d6a59bc68179ca2f5834e4f4341"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/forecast-lineage-review.json",
+      "bytes": 4413,
+      "sha256": "7724dbc221be1858dd4b4a9ddae43de515d5dcd12f1a8f503c0438d2e4582b1b"
     },
     {
       "path": "analysis/external-trend-intelligence/forecast-backtest-register.json",
@@ -491,8 +496,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 72359,
-      "sha256": "c4c0eb59b26be944e1bb8a9b8ad22ddd50528cf79c3f1a46343f4d9571a686ff"
+      "bytes": 72880,
+      "sha256": "cf577a2ba5e5e57edf03f5263c089a881451848e536f499987be44ccaf810777"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",

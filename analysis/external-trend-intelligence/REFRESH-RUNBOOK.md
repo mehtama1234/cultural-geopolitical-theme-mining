@@ -33,6 +33,11 @@ It is scenario context, not a realized trend or a pooled estimate.
 separate realized-outcome slot. A missing outcome is left as missing; the
 register never converts it to zero or overwrites the original forecast.
 
+`forecast-lineage-review.json` records whether the forecast rows come from
+distinct publisher hosts and keeps model/vintage, uncertainty, rights, and
+outcome checks separate. Distinct hosts are a lineage signal, not proof that
+the forecasts use independent models.
+
 `two-year-roadmap.json` is rebuilt on every refresh. It maps the five program
 phases (months 0–3, 4–6, 7–12, 13–18, and 19–24) to acceptance criteria,
 evidence links, and current goal-audit blockers. It is an operating control,

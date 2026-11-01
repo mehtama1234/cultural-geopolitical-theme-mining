@@ -265,6 +265,7 @@
       <p class="muted">OECD, UN DESA, and World Bank forecasts are shown as separate forecast vintages. This is scenario context, not an observed trend or pooled estimate.</p>
       <div class="panel" style="margin:12px 0"><h3>Forecast values by publisher</h3><div id="global-growth-forecast-chart"></div></div>
       <div class="promotion-gates" id="global-growth-forecast"></div>
+      <div class="promotion-gates" id="forecast-lineage"><h3>Forecast lineage review</h3></div>
     </section>
     <section style="margin-top:28px">
       <h2>Forecast backtest register</h2>
@@ -756,6 +757,9 @@
         const entries = comparison.forecasts.flatMap(item => item.values.map(value => [`${value.source_hosts[0] || value.record_id} · ${item.measure.replaceAll('_', ' ')}`, value.value]));
         barChart(el('global-growth-forecast-chart'), entries, Math.max(...entries.map(([, value]) => value), 1));
         el('global-growth-forecast').append(card(comparison.status.replaceAll('_', ' '), comparison.status, `${comparison.supports.join(' · ')}. Blocking: ${comparison.blocking_items.join(' · ')} Next: ${comparison.next_action}`));
+      });
+      fetch('forecast-lineage-review.json').then(r => r.json()).then(review => {
+        el('forecast-lineage').append(card(`${review.record_count} forecast records · ${review.source_host_count} publisher hosts`, review.status, `${review.next_action} Remaining checks: ${Object.entries(review.independence_checks).filter(([, value]) => value === 'pending').map(([key]) => key.replaceAll('_', ' ')).join(', ')}`));
       });
       fetch('forecast-backtest-register.json').then(r => r.json()).then(register => {
         el('forecast-backtest').append(card(`${register.pending_count} forecasts awaiting outcomes`, 'backtest_pending', register.next_action));
