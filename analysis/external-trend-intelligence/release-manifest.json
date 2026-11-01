@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "c230e04657cf6415dd8b55ca3c1edd2c7ae3e30c",
+  "source_tree_commit": "e0a8ae1597be14ccf73670647cbc6968502b5bad",
   "artifact_count": 87,
   "artifacts": [
     {
@@ -156,8 +156,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 5348,
-      "sha256": "ecdae55586c2cd2a353ea00e11d7325f889e5b2338857a5b8332ae4eb0db940e"
+      "bytes": 5418,
+      "sha256": "c24b8cc4fd002a5add69e31f6dda798e4aeb485b3b760e807e9c89c3add491f7"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",

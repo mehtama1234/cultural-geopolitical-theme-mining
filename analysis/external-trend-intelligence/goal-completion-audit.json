@@ -102,9 +102,10 @@
       "evidence": [
         "pilot-register.json",
         "PILOT-VALIDATION-PROTOCOL.md",
-        "test_internal_bridge_gate.py"
+        "test_internal_bridge_gate.py",
+        "test_external_only_boundary.py"
       ],
-      "gap": "No pilot is approved because a company decision contract, named rights owner, internal exposure definition, and privacy review are still required after external monitoring; the fail-closed bridge gate is exercised."
+      "gap": "No pilot is approved because a company decision contract, named rights owner, internal exposure definition, and privacy review are still required after external monitoring; the fail-closed bridge and external-only release gates are exercised."
     }
   ],
   "release_status": "operational_with_open_gates",
