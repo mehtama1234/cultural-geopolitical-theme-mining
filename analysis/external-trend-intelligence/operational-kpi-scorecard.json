@@ -17,7 +17,10 @@
     "blocked_design_only_pilots": 2,
     "successor_validation_status": "pass",
     "external_only_boundary": "passed",
-    "pilot_design_dry_run": "pass"
+    "pilot_design_dry_run": "pass",
+    "monitoring_watches": 5,
+    "qualified_monitor_watches": 1,
+    "prequalification_watches": 4
   },
   "thresholds": {
     "refresh_pipeline_pass_rate": {
@@ -46,6 +49,10 @@
     },
     "pilot_design_contracts": {
       "target": "all design-only pilots pass contract dry run",
+      "status": "pass"
+    },
+    "monitoring_register_coverage": {
+      "target": "every candidate has an execution state",
       "status": "pass"
     }
   },

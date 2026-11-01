@@ -24,6 +24,7 @@ def main() -> int:
     pilots = load("pilot-readiness.json")
     successor = load("successor-run-evidence.json")
     pilot_dry_run = load("pilot-design-dry-run.json")
+    monitoring = load("trend-monitoring-status.json")
     latest = history["latest"]
     metrics = {
         "refresh_runs_recorded": history["run_count"],
@@ -42,6 +43,9 @@ def main() -> int:
         "successor_validation_status": successor["status"],
         "external_only_boundary": "passed",
         "pilot_design_dry_run": pilot_dry_run["status"],
+        "monitoring_watches": monitoring["trend_count"],
+        "qualified_monitor_watches": monitoring["qualified_monitor_count"],
+        "prequalification_watches": monitoring["prequalification_watch_count"],
     }
     thresholds = {
         "refresh_pipeline_pass_rate": {"target": "100% latest run", "status": "pass" if metrics["latest_pipeline_status"] == "passed" else "hold"},
@@ -51,6 +55,7 @@ def main() -> int:
         "external_first_pilot_gate": {"target": "0 approved tests until all gates pass", "status": "pass" if metrics["approved_company_pilots"] == 0 else "review"},
         "external_only_boundary": {"target": "no connected company data in release", "status": metrics["external_only_boundary"]},
         "pilot_design_contracts": {"target": "all design-only pilots pass contract dry run", "status": metrics["pilot_design_dry_run"]},
+        "monitoring_register_coverage": {"target": "every candidate has an execution state", "status": "pass" if metrics["monitoring_watches"] == qualification["candidate_count"] else "hold"},
     }
     payload = {
         "schema": "external-trend-intelligence.operational-kpi-scorecard.v1",
