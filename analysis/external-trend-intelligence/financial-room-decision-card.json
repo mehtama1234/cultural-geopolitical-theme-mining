@@ -1,0 +1,155 @@
+{
+  "schema": "external-trend-intelligence.financial-room-decision-card.v1",
+  "status": "bounded_external_mechanism_context",
+  "title": "Financial pressure is construct-dependent and should be treated as separate planning signals",
+  "candidate_id": "candidate-time-financial-pressure-practical-room",
+  "headline": "Financial pressure increased while social reconnection also increased in Australia between 2020 and 2025.",
+  "evidence": {
+    "australia_directional_panel": [
+      {
+        "source": "ABS GSS",
+        "measure": "cash_flow_problem",
+        "from_period": "2020",
+        "to_period": "2025",
+        "from_value": 20.7,
+        "to_value": 25.3,
+        "change": 4.600000000000001,
+        "direction": "increase"
+      },
+      {
+        "source": "ABS GSS",
+        "measure": "dissaving",
+        "from_period": "2020",
+        "to_period": "2025",
+        "from_value": 22.9,
+        "to_value": 25.7,
+        "change": 2.8000000000000007,
+        "direction": "increase"
+      },
+      {
+        "source": "HILDA via AIHW",
+        "measure": "cash_flow_problem",
+        "from_period": "2020",
+        "to_period": "2023",
+        "from_value": 26.9,
+        "to_value": 28.1,
+        "change": 1.2000000000000028,
+        "direction": "increase"
+      },
+      {
+        "source": "HILDA via AIHW",
+        "measure": "unable_to_raise_2000",
+        "from_period": "2020",
+        "to_period": "2023",
+        "from_value": 26.6,
+        "to_value": 27.1,
+        "change": 0.5,
+        "direction": "increase"
+      },
+      {
+        "source": "ANUPoll",
+        "measure": "difficult_meet_expenses",
+        "from_period": "January 2020",
+        "to_period": "April 2025",
+        "from_value": 27,
+        "to_value": 35,
+        "change": 8,
+        "direction": "increase"
+      }
+    ],
+    "us_cross_source_comparison": [
+      {
+        "source": "Federal Reserve SHED",
+        "measure": "doing_okay_or_living_comfortably",
+        "from_period": "2022",
+        "to_period": "2024",
+        "from_value": 73,
+        "to_value": 73,
+        "change": 0,
+        "unit": "percent of adults"
+      },
+      {
+        "source": "Federal Reserve SHED",
+        "measure": "would_cover_400_dollar_emergency",
+        "from_period": "2022",
+        "to_period": "2024",
+        "from_value": 63,
+        "to_value": 63,
+        "change": 0,
+        "unit": "percent of adults"
+      },
+      {
+        "source": "USDA ERS CPS-FSS",
+        "measure": "food_insecure",
+        "from_period": "2022",
+        "to_period": "2024",
+        "from_value": 12.8,
+        "to_value": 13.7,
+        "change": 0.8999999999999986,
+        "unit": "percent of households"
+      },
+      {
+        "source": "JPMorganChase Institute",
+        "measure": "cash_savings_cover_400_shock",
+        "from_period": "December 2023",
+        "to_period": "December 2023",
+        "from_value": 67,
+        "to_value": 67,
+        "change": 0,
+        "unit": "percent of households"
+      },
+      {
+        "source": "JPMorganChase Institute",
+        "measure": "cash_disposable_income_or_short_term_credit_cover_400_shock",
+        "from_period": "December 2023",
+        "to_period": "December 2023",
+        "from_value": 92,
+        "to_value": 92,
+        "change": 0,
+        "unit": "percent of households"
+      }
+    ],
+    "jpmorgan_chart_endpoints": {
+      "lowest_income_quartile": {
+        "January 2022": 25,
+        "December 2023": 23
+      },
+      "second_income_quartile": {
+        "January 2022": 7,
+        "December 2023": 8
+      },
+      "third_income_quartile": {
+        "January 2022": 2,
+        "December 2023": 2
+      },
+      "highest_income_quartile": {
+        "January 2022": 0,
+        "December 2023": 0
+      }
+    }
+  },
+  "interpretation": "The independent U.S. series do not move identically: both SHED adult measures are flat from 2022 to 2024, USDA household food insecurity rises slightly, and JPMorganChase reports a higher household cash-liquidity endpoint when disposable income and short-term credit are included. Together they show construct-dependent, non-uniform resource pressure, not a common trend estimate.",
+  "counter_signal": "Social contact increased alongside the financial-pressure measures; the evidence does not support a simple collapse-of-participation story.",
+  "uncertainty": {
+    "status": "intervals_not_comparable_in_current_artifacts",
+    "shed": "The public chart artifact supplies point estimates only; the 2024 codebook identifies 12,295 respondents, but no interval was attached to either normalized SHED series.",
+    "usda": "USDA publishes statistical-significance guidance and calculates standard errors with balanced repeated replication; the 2022-2024 national points are not statistically distinguishable on the published comparison.",
+    "use": "Keep the comparison descriptive and unpooled until year-specific intervals or a reproducible variance extract is attached to both series."
+  },
+  "rights": {
+    "release_decision": "retain_attributed_metadata_and_internal_mechanism_review_only; do_not_redistribute_upstream_content_or_connect_company_data_until_each_source_rights_boundary_is_reviewed",
+    "open_source_reviews": 7,
+    "source_count": 7
+  },
+  "decision_use": "Use this card to frame scenario questions about household and consumer pressure. Do not pool unlike denominators, infer causality, or label a company population from the external series.",
+  "company_gate": "No internal bridge until a compatible independent outcome, source-specific rights approval, a named decision contract, and privacy/access review pass.",
+  "next_action": "Attach year-specific uncertainty or a reproducible variance extract, complete artifact-level rights review, and keep the lane as mechanism context until the qualification gates pass.",
+  "boundary": "This is a reader-facing external evidence card, not a qualified trend, causal result, forecast, market estimate, legal clearance, or company finding.",
+  "source_artifacts": [
+    "us-financial-room-independent-comparison.json",
+    "room-independent-result.json",
+    "jpmorgan-household-liquidity-chart.json",
+    "financial-room-rights-review.json",
+    "temporal-decision-narrative.json"
+  ]
+}

@@ -707,6 +707,9 @@
         independentResultChart(el('us-financial-room-chart'), comparison.rows);
         el('us-financial-room-comparison').append(card('Mechanism comparison only', comparison.status, `${comparison.directional_readout} ${comparison.blocking_items.join(' · ')}`));
       });
+      fetch('financial-room-decision-card.json').then(r => r.json()).then(cardData => {
+        el('us-financial-room-comparison').append(card(cardData.title, cardData.status, `${cardData.interpretation} ${cardData.company_gate} ${cardData.next_action}`));
+      });
       fetch('food-insecurity-temporal-holdout.json').then(r => r.json()).then(holdout => {
         holdoutChart(el('food-insecurity-holdout-chart'), [{measure: 'Urban WBNS food insecurity', construction_value: holdout.construction.mean_percent, holdout_value: holdout.holdout.mean_percent}]);
         el('food-insecurity-holdout').append(card('Monitored external trend', holdout.status, `${holdout.readout.interpretation} ${holdout.independent_challenge.boundary} ${holdout.next_action}`));

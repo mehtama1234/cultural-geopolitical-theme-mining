@@ -19,7 +19,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 116-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 117-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -61,6 +61,7 @@
         "room-independent-comparison.json",
         "room-independent-result.json",
         "us-financial-room-independent-comparison.json",
+        "financial-room-decision-card.json",
         "compatible-measure-search.json",
         "global-growth-forecast-comparison.json",
         "shed-emergency-expense-2013-2025.json",
@@ -69,7 +70,7 @@
         "record-host-dependence-audit.json",
         "host-dependence-review-queue.json"
       ],
-      "gap": "The compatibility scan now finds 209 cross-host measure groups and the release includes bounded food-insecurity, mobility-access, OECD/UN DESA/World Bank, and a same-publisher CBP-versus-NES repair measurement comparison. Host dependence is now explicit across 892 hosts, including 315 shared hosts and 23 high-priority review rows, but publisher independence is not thereby established. Distinct-publisher comparisons remain non-comparable holdouts because populations, reference periods, uncertainty, weighting, and rights differ; the Census repair comparison explicitly cannot count as independent confirmation, and no common-unit observed holdout has passed."
+      "gap": "The compatibility scan now finds 209 cross-host measure groups and the release includes bounded food-insecurity, mobility-access, OECD/UN DESA/World Bank, and a same-publisher CBP-versus-NES repair measurement comparison. The financial-room decision card consolidates Australia and U.S. source-family evidence but remains mechanism context because denominators and uncertainty are not harmonized. Host dependence is now explicit across 892 hosts, including 315 shared hosts and 23 high-priority review rows, but publisher independence is not thereby established. Distinct-publisher comparisons remain non-comparable holdouts because populations, reference periods, uncertainty, weighting, and rights differ; the Census repair comparison explicitly cannot count as independent confirmation, and no common-unit observed holdout has passed."
     },
     {
       "id": "trend_qualification",

@@ -884,6 +884,13 @@ def main() -> int:
     assert len(us_comparison["rows"]) == 5
     assert any(row["measure"] == "would_cover_400_dollar_emergency" for row in us_comparison["rows"])
     assert any(row["source"] == "JPMorganChase Institute" for row in us_comparison["rows"])
+    financial_card = json.loads((ANALYSIS / "financial-room-decision-card.json").read_text())
+    assert financial_card["schema"] == "external-trend-intelligence.financial-room-decision-card.v1"
+    assert financial_card["status"] == "bounded_external_mechanism_context"
+    assert financial_card["candidate_id"] == us_comparison["candidate_id"]
+    assert financial_card["evidence"]["australia_directional_panel"] and financial_card["evidence"]["us_cross_source_comparison"]
+    assert financial_card["rights"]["source_count"] >= 7
+    assert financial_card["company_gate"] and financial_card["boundary"]
     acquisition_rights = json.loads((ANALYSIS / "external-acquisition-rights-review.json").read_text())
     assert acquisition_rights["schema"] == "external-trend-intelligence.external-acquisition-rights-review.v1"
     assert len(acquisition_rights["rows"]) == 7
