@@ -65,6 +65,9 @@ def main() -> int:
                             "source-registry-snapshot.json",
                             "Backtest evidence readiness",
                             "pinned_git_record_path_count",
+                            "IBIS sample coverage",
+                            "ibis-sector-chart",
+                            "ibis-source-type-chart",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
                         if missing:

@@ -237,6 +237,10 @@
     <section style="margin-top:28px">
       <h2>IBIS claim traceability sample</h2>
       <p class="muted">This bounded sample traces matched industries across sectors to claims and source records. It is evidence for the review process, not validation of the full IBIS finding.</p>
+      <div class="charts" aria-label="IBIS sample coverage">
+        <div class="panel"><h3>Matched industries by sector</h3><div id="ibis-sector-chart"></div></div>
+        <div class="panel"><h3>Linked sources by source type</h3><div id="ibis-source-type-chart"></div></div>
+      </div>
       <div class="ibis-sample" id="ibis-sample"></div>
     </section>
     <section style="margin-top:28px">
@@ -664,6 +668,8 @@
       ibisSampleSourceUrlCount = ibisSample.sample_source_url_count;
       ibisSampleSourceHostCount = ibisSample.sample_source_host_count;
       ibisSampleDuplicateUrlCount = Object.keys(ibisSample.duplicate_source_urls).length;
+      barChart(el('ibis-sector-chart'), Object.entries(ibisSample.sample_sector_counts).sort((a, b) => b[1] - a[1]).slice(0, 18), ibisSample.sample_industry_count);
+      barChart(el('ibis-source-type-chart'), Object.entries(ibisSample.source_type_counts_in_sample).sort((a, b) => b[1] - a[1]), Math.max(...Object.values(ibisSample.source_type_counts_in_sample), 1));
       const ibisSamples = el('ibis-sample'); ibisSample.samples.forEach(sample => ibisSamples.append(ibisSampleCard(sample)));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
     fetch('program-scorecard.json').then(r => r.json()).then(scorecard => {
