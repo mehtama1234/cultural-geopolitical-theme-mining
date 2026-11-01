@@ -747,6 +747,11 @@ def main() -> int:
     assert denominator["status"] == "reconciliation_required"
     assert denominator["common_pooling_decision"] == "do_not_pool"
     assert len(denominator["rows"]) == 4
+    uncertainty_audit = json.loads((ANALYSIS / "uncertainty-coverage-audit.json").read_text())
+    assert uncertainty_audit["schema"] == "external-trend-intelligence.uncertainty-coverage-audit.v1"
+    assert uncertainty_audit["status"] == "uncertainty_visible_with_open_gates"
+    assert uncertainty_audit["artifact_count"] == 6
+    assert uncertainty_audit["incomplete_or_pending_count"] > 0
     care_subset = json.loads((ANALYSIS / "care-capacity-comparable-subset.json").read_text())
     assert care_subset["schema"] == "external-trend-intelligence.care-capacity-comparable-subset.v1"
     assert care_subset["candidate_id"] == care_candidate["candidate_id"]
