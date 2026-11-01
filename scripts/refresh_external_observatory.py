@@ -11,7 +11,6 @@ ROOT = Path(__file__).resolve().parents[1]
 
 STEPS = [
     ["scripts/build_external_source_registry_snapshot.py"],
-    ["scripts/build_two_year_roadmap.py"],
     ["scripts/build_external_repository_family_snapshot.py"],
     ["scripts/build_ibis_force_claim_map.py"],
     ["scripts/build_bls_labor_capacity_check.py"],
@@ -83,6 +82,7 @@ STEPS = [
     ["scripts/build_review_calendar.py"],
     ["scripts/test_review_calendar.py"],
     ["scripts/build_goal_completion_audit.py"],
+    ["scripts/build_two_year_roadmap.py"],
     ["scripts/test_successor_handoff.py"],
     ["scripts/build_ownership_assignment_queue.py"],
     ["scripts/test_ownership_assignment_queue.py"],
