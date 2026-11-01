@@ -56,7 +56,20 @@ def numeric_rows(rows: list[dict]) -> list[dict]:
 
 
 def main() -> int:
-    url, raw_rows = fetch_rows()
+    checked_at = datetime.now(timezone.utc).isoformat()
+    try:
+        url, raw_rows = fetch_rows()
+    except Exception as error:
+        if not OUTPUT.exists():
+            raise
+        previous = json.loads(OUTPUT.read_text())
+        previous["retrieval_status"] = "stale_previous_extract_source_unavailable"
+        previous["source_available"] = False
+        previous["checked_at"] = checked_at
+        previous["retrieval_error"] = f"{type(error).__name__}: {error}"
+        OUTPUT.write_text(json.dumps(previous, indent=2) + "\n")
+        print(f"source unavailable; preserved previous NPALS extract ({previous.get('numeric_row_count', 0)} rows)")
+        return 0
     rows = numeric_rows(raw_rows)
     national = [row for row in rows if row["geography"] == "National"]
     state_2020 = [row for row in rows if row["survey_year"] == 2020 and row["geography"] != "National"]
@@ -65,7 +78,10 @@ def main() -> int:
         "source_id": "cdc-npals-public-biennial-overview-wibz-pb5q",
         "source_url": "https://data.cdc.gov/National-Center-for-Health-Statistics/Biennial-Overview-of-Post-acute-and-Long-term-Care/wibz-pb5q",
         "api_url": url,
-        "retrieved_at": datetime.now(timezone.utc).isoformat(),
+        "retrieval_status": "fresh_api_extract",
+        "source_available": True,
+        "retrieved_at": checked_at,
+        "checked_at": checked_at,
         "raw_row_count": len(raw_rows),
         "numeric_row_count": len(rows),
         "state_2020_row_count": len(state_2020),

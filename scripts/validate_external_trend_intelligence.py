@@ -512,6 +512,8 @@ def main() -> int:
     npals = json.loads((ANALYSIS / "npals-public-table-extract.json").read_text())
     assert npals["schema"] == "external-trend-intelligence.npals-public-table-extract.v1"
     assert npals["numeric_row_count"] == len(npals["rows"]) > 0
+    assert npals["retrieval_status"] in {"fresh_api_extract", "stale_previous_extract_source_unavailable"}
+    assert isinstance(npals["source_available"], bool)
     assert npals["state_2020_frame_geography_count"] >= 50
     assert npals["reconciliation"]["status"] == "definition_reconciliation_required"
     assert npals["reconciliation"]["comparisons"][1]["comparison_status"] == "not_comparable_without_definition_review"
