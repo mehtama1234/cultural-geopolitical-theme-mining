@@ -668,7 +668,7 @@
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
     fetch('program-scorecard.json').then(r => r.json()).then(scorecard => {
       const m = scorecard.metrics;
-      el('goal-audit').append(card('Program scorecard', 'measured', `${m.records.toLocaleString()} records · ${m.source_families} source families · ${m.refresh_runs} refresh runs · ${m.latest_pipeline_steps} steps ${m.latest_pipeline_status} · ${m.qualified_external_trends} qualified trends · ${m.approved_company_pilots} approved pilots`));
+      el('goal-audit').append(card('Program scorecard', 'measured', `${m.records.toLocaleString()} records · ${m.source_families} source families · ${m.refresh_runs} refresh runs · ${m.latest_pipeline_steps} steps ${m.latest_pipeline_status} · ${m.qualified_external_trends} qualified trends · ${m.monitored_external_trends} monitored · ${m.approved_company_pilots} approved pilots`));
     });
     fetch('operating-handoff.json').then(r => r.json()).then(handoff => {
       const assigned = handoff.roles.filter(role => role.owner !== 'unassigned').length;

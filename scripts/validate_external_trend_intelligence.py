@@ -532,6 +532,7 @@ def main() -> int:
     assert progress["schema"] == "external-trend-intelligence.program-progress.v1"
     assert progress["baseline"]["records"] == manifest["record_count"]
     assert progress["baseline"]["qualified_external_trends"] == qualification_matrix["qualified_external_trend_count"]
+    assert progress["baseline"]["monitored_external_trends"] == qualification_matrix["monitored_external_trend_count"]
     assert progress["baseline"]["release_artifacts"] == release_manifest["artifact_count"]
     assert progress["baseline"]["refresh_runs_recorded"] == refresh_history["run_count"]
     assert progress["baseline"]["rights_reviews_required"] == controls["family_count"]
@@ -570,6 +571,7 @@ def main() -> int:
     assert scorecard["metrics"]["refresh_runs"] == refresh_history["run_count"]
     assert scorecard["metrics"]["latest_pipeline_steps"] == refresh_history["latest"]["pipeline_step_count"]
     assert scorecard["metrics"]["qualified_external_trends"] == qualification_matrix["qualified_external_trend_count"]
+    assert scorecard["metrics"]["monitored_external_trends"] == qualification_matrix["monitored_external_trend_count"]
     assert scorecard["metrics"]["approved_company_pilots"] == 0
     assert len(scorecard["phases"]) == 5
     independent = json.loads((ANALYSIS / "independent-stage-comparison.json").read_text())

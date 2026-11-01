@@ -28,6 +28,7 @@ def main() -> int:
     progress_path = ANALYSIS / "program-progress.json"
     progress = json.loads(progress_path.read_text())
     progress["baseline"]["refresh_runs_recorded"] = history["run_count"]
+    progress["baseline"]["monitored_external_trends"] = qualification["monitored_external_trend_count"]
     progress["as_of"] = date.today().isoformat()
     progress_path.write_text(json.dumps(progress, indent=2) + "\n")
     scorecard = {
@@ -44,6 +45,7 @@ def main() -> int:
             "scheduled_workflow_contract": "passed",
             "stale_families": status["stale_count"],
             "qualified_external_trends": qualification["qualified_external_trend_count"],
+            "monitored_external_trends": qualification["monitored_external_trend_count"],
             "approved_company_pilots": sum(item["status"] == "approved_test" for item in pilots["pilots"]),
             "rights_reviews_required": sum(item["rights_status"] != "verified" for item in controls["families"]),
         },
