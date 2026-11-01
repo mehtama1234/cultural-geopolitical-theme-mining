@@ -13,8 +13,8 @@ OUTPUT = ANALYSIS / "global-growth-forecast-comparison.json"
 
 def main() -> int:
     search = json.loads((ANALYSIS / "compatible-measure-search.json").read_text())
-    rows = [row for row in search["rows"] if row["measure"] in {"global_growth_2026", "global_growth_2027"}]
-    assert len(rows) == 2
+    rows = [row for row in search["rows"] if row["measure"] in {"global_growth_2026", "global_growth_2027", "global_inflation_2026"}]
+    assert len(rows) == 3
     forecasts = []
     for row in rows:
         values = []

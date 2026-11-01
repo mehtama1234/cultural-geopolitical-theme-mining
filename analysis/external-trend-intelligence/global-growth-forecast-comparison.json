@@ -74,6 +74,31 @@
         }
       ],
       "spread": 0.2
+    },
+    {
+      "measure": "global_inflation_2026",
+      "unit": "percent projected global inflation in 2026",
+      "values": [
+        {
+          "record_id": "comparative-un-wesp-mid-2026-energy-inflation-supply-chain-shock",
+          "title": "Geopolitical energy disruption is transmitting through inflation, supply chains, household purchasing power, and developing-country fiscal space",
+          "period": "2026-2027; global growth and inflation outlook after the mid-2026 energy shock",
+          "value": 3.9,
+          "source_hosts": [
+            "desapublications.un.org"
+          ]
+        },
+        {
+          "record_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks",
+          "title": "Geopolitical energy shocks are narrowing growth and fiscal room unevenly, making debt capacity, buffers, and private investment central to social and institutional resilience",
+          "period": "2025-2028; global growth and geopolitical energy shock",
+          "value": 4.0,
+          "source_hosts": [
+            "www.worldbank.org"
+          ]
+        }
+      ],
+      "spread": 0.1
     }
   ],
   "supports": [

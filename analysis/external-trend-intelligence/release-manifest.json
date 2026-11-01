@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "92a880c06a7d84ad127ed2fc96463421e6111213",
+  "source_tree_commit": "6f82af1b474181c78cd50a2656b57b5ea3e601a7",
   "artifact_count": 99,
   "artifacts": [
     {
@@ -241,8 +241,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/global-growth-forecast-comparison.json",
-      "bytes": 4420,
-      "sha256": "58e6979c5d79f9c609bf6afb5b7c1dc87ccef2293f8e3d7ec711f367cecf03de"
+      "bytes": 5561,
+      "sha256": "31c22a68418806799ea354b574a0cd7b44f52d6a59bc68179ca2f5834e4f4341"
     },
     {
       "path": "analysis/external-trend-intelligence/source-registry-snapshot.json",

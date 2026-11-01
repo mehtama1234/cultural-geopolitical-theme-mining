@@ -464,7 +464,7 @@ def main() -> int:
     assert forecast["schema"] == "external-trend-intelligence.global-growth-forecast-comparison.v1"
     assert forecast["status"] == "independent_forecast_comparison_pending_backtest"
     assert forecast["source_families"] == ["OECD", "UN DESA", "World Bank"]
-    assert len(forecast["forecasts"]) == 2
+    assert len(forecast["forecasts"]) == 3
     assert all(item["values"] and item["spread"] >= 0 for item in forecast["forecasts"])
     ibis_dependency = json.loads((ANALYSIS / "ibis-claim-dependency-review.json").read_text())
     assert ibis_dependency["schema"] == "external-trend-intelligence.ibis-claim-dependency-review.v1"
