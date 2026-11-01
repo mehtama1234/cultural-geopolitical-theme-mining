@@ -1187,11 +1187,13 @@ def main() -> int:
     assert forecast_eligibility["row_count"] == backtest_register["row_count"]
     assert forecast_eligibility["not_yet_eligible_count"] + forecast_eligibility["eligible_outcome_missing_count"] + forecast_eligibility["outcome_present_count"] == forecast_eligibility["row_count"]
     assert forecast_eligibility["boundary"] and forecast_eligibility["next_action"]
-    assert len(acquisition["tracks"]) == 4
+    assert len(acquisition["tracks"]) == 5
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}
     assert track_by_id["time-pressure-independent-holdout"]["status"] == "partial_bridge_found"
     assert track_by_id["us-shed-financial-room-acquisition"]["status"] == "acquired_pending_normalization"
+    assert track_by_id["navy-execution-lineage-reconciliation"]["status"] == "execution_snapshot_acquired_lineage_review_pending"
+    assert "Do not count the Navy budget" in track_by_id["navy-execution-lineage-reconciliation"]["stop_rule"]
     completion_audit = json.loads((ANALYSIS / "goal-completion-audit.json").read_text())
     assert completion_audit["schema"] == "external-trend-intelligence.goal-completion-audit.v1"
     assert completion_audit["overall_status"] == "in_progress_with_open_gates"

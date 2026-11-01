@@ -43,6 +43,18 @@
       "acceptance_criteria": ["evidence file or authoritative terms URL pinned", "derived-chart and narrative use documented", "refresh and deletion obligations recorded", "shared-publisher dependence assessed"],
       "stop_rule": "No trend promotion or internal company bridge while rights or publisher dependence remains unresolved.",
       "owner": "source governance and external evidence review queue"
+    },
+    {
+      "track_id": "navy-execution-lineage-reconciliation",
+      "candidate_id": "candidate-dry-dock-defense-context",
+      "status": "execution_snapshot_acquired_lineage_review_pending",
+      "progress_evidence": "Navy FY2026 budget context and a 658-transaction USAspending Bath Iron Works snapshot are pinned with query, pagination, hashes, and non-pooling comparison.",
+      "remaining_gap": "Award modifications, fiscal-year scope, facility identity, and execution milestones have not yet been reconciled to prove independence or completed work.",
+      "target_source": "USAspending transaction snapshot plus official Navy/NAVSEA execution or delivery milestone records",
+      "required_fields": ["award_id", "transaction_date", "fiscal_year", "recipient_and_facility", "transaction_amount", "action_or_modification_type", "execution_milestone", "source_hash", "rights_basis", "upstream_lineage"],
+      "acceptance_criteria": ["award identity and facility are explicit", "budget request and transaction obligations remain separate", "zero-dollar actions and deobligations remain visible", "execution milestone or completion status is acquired", "publisher-distinct versus shared-upstream disposition is recorded", "counter-signal and falsifier remain visible"],
+      "stop_rule": "Do not count the Navy budget and USAspending pair as independent confirmation, promote the IBIS claim, or connect company data until award/facility identity, fiscal-year scope, execution outcome, and rights are reconciled.",
+      "owner": "external evidence review queue"
     }
   ],
   "boundary": "This plan authorizes acquisition and review work only. It does not authorize internal-data connection, trend promotion, legal clearance, or pooling unlike sources."
