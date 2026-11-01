@@ -58,6 +58,7 @@ ARTIFACTS = [
     "falsification-review-queue.json",
     "ibis-outcome-acquisition-queue.json",
     "usda-community-food-assistance-2024.json",
+    "feeding-america-map-meal-gap-2026-national.json",
     "ibis-community-food-outcome-linkage-review.json",
 ]
 
@@ -157,7 +158,7 @@ def main() -> int:
                             "ibis-source-type-chart",
                             "IBIS independent-outcome acquisition queue",
                             "ibis-outcome-acquisition-queue.json",
-                            "Official USDA outcome context",
+                            "Official USDA outcome + Feeding America challenge",
                             "ibis-community-food-outcome-linkage-review.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]

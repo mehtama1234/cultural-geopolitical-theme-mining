@@ -376,7 +376,14 @@ def main() -> int:
     assert len(community_food["rows"]) == 4
     assert all(row["free_groceries_percent"] >= 0 and row["free_meals_percent"] >= 0 for row in community_food["rows"])
     assert community_food["source_checksum"].startswith("sha256:")
-    assert ibis_linkage["lineage_adjudication"]["independence_status"] == "dependent_restatement_possible"
+    feeding_america = json.loads((ANALYSIS / "feeding-america-map-meal-gap-2026-national.json").read_text())
+    assert feeding_america["schema"] == "external-trend-intelligence.feeding-america-map-meal-gap-snapshot.v1"
+    assert feeding_america["status"] == "public_national_estimate_snapshot_method_review_pending"
+    assert feeding_america["observations"]["food_insecurity_rate"] >= 0
+    assert feeding_america["observations"]["food_insecure_population"] > 0
+    assert feeding_america["rights_boundary"] and feeding_america["comparability_limits"]
+    assert ibis_linkage["lineage_adjudication"]["independence_status"] == "independent_publisher_challenge_pending_method_review"
+    assert ibis_linkage["independent_publisher_challenge"]["publisher"] == "Feeding America"
     assert ibis_linkage["decision"].startswith("retain_as_acquired_external_context")
     assert ibis_linkage["required_next_steps"] and ibis_linkage["boundary"]
     ibis_dispositions = json.loads((ANALYSIS / "ibis-claim-review-dispositions.json").read_text())
@@ -670,10 +677,12 @@ def main() -> int:
     acquired_sources = json.loads((ANALYSIS / "acquired-source-register.json").read_text())
     assert acquired_sources["schema"] == "external-trend-intelligence.acquired-source-register.v1"
     assert acquired_sources["status"] == "acquired_sources_registered_with_lineage_and_boundaries"
-    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 6
+    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 7
     community_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "usda-community-food-assistance-2024-ap126")
     assert community_source["artifact"] == "usda-community-food-assistance-2024.json"
     assert community_source["checksum"].startswith("sha256:")
+    feeding_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "feeding-america-map-meal-gap-2026-national")
+    assert feeding_source["artifact"] == "feeding-america-map-meal-gap-2026-national.json"
     required_acquired_fields = set(acquired_sources["required_fields"])
     for source in acquired_sources["sources"]:
         assert required_acquired_fields <= set(source)
@@ -681,9 +690,11 @@ def main() -> int:
         assert source["rights_boundary"] and source["next_review"]
     release_watchlist = json.loads((ANALYSIS / "source-release-watchlist.json").read_text())
     assert release_watchlist["schema"] == "external-trend-intelligence.source-release-watchlist.v1"
-    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 6
+    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 7
     community_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "usda-community-food-assistance-2024-ap126")
     assert community_watch["next_target_period"] == "2025 annual CPS Food Security Supplement"
+    feeding_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "feeding-america-map-meal-gap-2026-national")
+    assert feeding_watch["next_target_period"] == "next annual Map the Meal Gap release"
     assert {row["source_id"] for row in release_watchlist["rows"]} == {source["source_id"] for source in acquired_sources["sources"]}
     for row in release_watchlist["rows"]:
         assert row["latest_observation_period"] and row["next_target_period"]

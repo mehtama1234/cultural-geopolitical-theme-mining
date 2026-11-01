@@ -12,6 +12,7 @@ QUEUE = ANALYSIS / "ibis-outcome-acquisition-queue.json"
 INDEPENDENCE_QUEUE = ANALYSIS / "ibis-claim-independence-review-queue.json"
 USDA = Path(__file__).resolve().parents[1] / "analysis" / "records" / "comparative-usda-food-security-2022-2024.json"
 COMMUNITY = ANALYSIS / "usda-community-food-assistance-2024.json"
+FEEDING_AMERICA = ANALYSIS / "feeding-america-map-meal-gap-2026-national.json"
 OUTPUT = ANALYSIS / "ibis-community-food-outcome-linkage-review.json"
 
 
@@ -20,6 +21,7 @@ def main() -> int:
     independence_queue = json.loads(INDEPENDENCE_QUEUE.read_text())
     record = json.loads(USDA.read_text())
     community = json.loads(COMMUNITY.read_text())
+    feeding_america = json.loads(FEEDING_AMERICA.read_text())
     target = next(row for row in queue["rows"] if row["review_id"] == "ibis-independence::community-food-services-in-the-us::community-demand")
     source_review = next(row for row in independence_queue["candidates"] if row["review_id"] == target["review_id"])
     payload = {
@@ -49,10 +51,22 @@ def main() -> int:
             "counterinterpretation": community["boundary"],
             "rights_boundary": community["rights_boundary"],
         },
+        "independent_publisher_challenge": {
+            "record_id": feeding_america["schema"],
+            "publisher": feeding_america["publisher"],
+            "source_url": feeding_america["source_url"],
+            "observation_period": feeding_america["observation_period"],
+            "geography": feeding_america["geography"],
+            "observations": feeding_america["observations"],
+            "retrieval_hash": feeding_america["availability_check"].get("retrieval_hash"),
+            "rights_status": feeding_america["status"],
+            "method_and_dependence": feeding_america["method_and_dependence"],
+            "comparability_limits": feeding_america["comparability_limits"],
+        },
         "lineage_adjudication": {
             "publisher_status": "canonical_official_publisher_resolved",
-            "independence_status": "dependent_restatement_possible",
-            "reason": "FRAC may summarize the same USDA series; the direct USDA record is a canonical outcome artifact but is not counted as a second independent publisher until source-level lineage is signed off.",
+            "independence_status": "independent_publisher_challenge_pending_method_review",
+            "reason": "Feeding America is a distinct publisher, but its modeled estimate uses CPS-FSS, ACS, BLS/LAUS, and food-price inputs; the USDA artifact is also direct official context and FRAC may summarize it. Distinct publishers are not counted as independent models until source-level lineage and input overlap are signed off.",
             "population_compatibility": "not_comparable_to_the_IBIS_industry_population_without_a_service-use denominator",
             "outcome_linkage": "household receipt of free groceries and free meals is a closer community-food-use outcome than food insecurity alone, but it still does not measure provider visits, capacity, wait time, cost, or revenue",
             "rights_status": "conditional_attribution_use_documented",

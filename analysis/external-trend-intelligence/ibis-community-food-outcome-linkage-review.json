@@ -78,10 +78,36 @@
     "counterinterpretation": "This is an official household-reported outcome context. It does not establish causality, provider capacity, market size, or independent confirmation of an IBIS claim.",
     "rights_boundary": "Retain normalized values, source locator, checksum, and attribution; do not redistribute the upstream PDF or reproduce its tables without exact-artifact rights review."
   },
+  "independent_publisher_challenge": {
+    "record_id": "external-trend-intelligence.feeding-america-map-meal-gap-snapshot.v1",
+    "publisher": "Feeding America",
+    "source_url": "https://map.feedingamerica.org/",
+    "observation_period": "2024 estimate published in 2026",
+    "geography": "United States national overall population",
+    "observations": {
+      "food_insecurity_rate": 0.144,
+      "food_insecure_population": 47900000,
+      "annual_food_budget_shortfall_usd": 33644026788,
+      "average_meal_cost_usd": 3.7,
+      "program_eligibility_bands": {
+        "below_snap_threshold": 0.43,
+        "between_130_and_185_percent_poverty": 0.19,
+        "above_snap_threshold": 0.38
+      }
+    },
+    "retrieval_hash": "sha256:97dae6110373699772cd64bb65298ceae42f3e6a0feafd14985efa44adc89678",
+    "rights_status": "public_national_estimate_snapshot_method_review_pending",
+    "method_and_dependence": "Feeding America models local estimates using CPS-FSS, ACS, BLS/LAUS, and local food-price inputs; the national page is a modeled estimate, not a direct provider transaction or visit count.",
+    "comparability_limits": [
+      "This publisher's modeled individual-level estimate is not directly comparable to USDA's household CPS-FSS receipt measures.",
+      "The 2026 release reports 2024 estimates and should not be treated as a contemporaneous 2026 outcome.",
+      "Food insecurity and food budget shortfall are demand-context measures, not provider capacity, visits, meals served, or revenue."
+    ]
+  },
   "lineage_adjudication": {
     "publisher_status": "canonical_official_publisher_resolved",
-    "independence_status": "dependent_restatement_possible",
-    "reason": "FRAC may summarize the same USDA series; the direct USDA record is a canonical outcome artifact but is not counted as a second independent publisher until source-level lineage is signed off.",
+    "independence_status": "independent_publisher_challenge_pending_method_review",
+    "reason": "Feeding America is a distinct publisher, but its modeled estimate uses CPS-FSS, ACS, BLS/LAUS, and food-price inputs; the USDA artifact is also direct official context and FRAC may summarize it. Distinct publishers are not counted as independent models until source-level lineage and input overlap are signed off.",
     "population_compatibility": "not_comparable_to_the_IBIS_industry_population_without_a_service-use denominator",
     "outcome_linkage": "household receipt of free groceries and free meals is a closer community-food-use outcome than food insecurity alone, but it still does not measure provider visits, capacity, wait time, cost, or revenue",
     "rights_status": "conditional_attribution_use_documented",

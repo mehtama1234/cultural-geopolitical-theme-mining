@@ -22,6 +22,7 @@ def main() -> int:
     npals = load("npals-public-table-extract.json")
     shed = load("federal-reserve-shed-financial-room-2013-2025.json")
     community = load("usda-community-food-assistance-2024.json")
+    feeding_america = load("feeding-america-map-meal-gap-2026-national.json")
     rows = [
         {
             "source_id": ora["acquisition_id"],
@@ -130,6 +131,24 @@ def main() -> int:
             "interpretation_status": "household_community_food_use_context_not_provider_capacity",
             "rights_boundary": community["rights_boundary"],
             "next_review": community["next_action"],
+        },
+        {
+            "source_id": "feeding-america-map-meal-gap-2026-national",
+            "publisher": feeding_america["publisher"],
+            "dataset": feeding_america["dataset"],
+            "artifact": "feeding-america-map-meal-gap-2026-national.json",
+            "source_url": feeding_america["source_url"],
+            "retrieved_at": feeding_america["retrieved_at"],
+            "revision_or_release": "2026 public map; 2024 estimates",
+            "checksum": feeding_america["availability_check"].get("retrieval_hash", "not_available_fetch_failed"),
+            "license_or_terms": feeding_america["rights_boundary"],
+            "access_status": feeding_america["availability_check"]["availability"],
+            "population_and_unit": feeding_america["unit_and_denominator"],
+            "geography_and_period": "United States national; 2024 estimate published in 2026",
+            "publisher_dependence": "single_publisher_modeled_estimate_using_public_inputs",
+            "interpretation_status": "independent_publisher_challenge_method_review_pending",
+            "rights_boundary": feeding_america["rights_boundary"],
+            "next_review": feeding_america["next_action"],
         },
     ]
     payload = {

@@ -998,7 +998,8 @@
         queue.rows.slice(0, 12).forEach(row => target.append(card(`#${row.acquisition_rank} · ${row.industry_slug} · ${row.claim_id}`, row.acquisition_status, `${row.outcome_candidate_count} outcome leads · ${row.next_action}`)));
       });
       fetch('ibis-community-food-outcome-linkage-review.json').then(r => r.json()).then(review => {
-        el('ibis-outcome-acquisition').prepend(card('Official USDA outcome context', review.status, `${review.outcome_artifact.periods.join(', ')} household observations acquired. Independence: ${review.lineage_adjudication.independence_status}. ${review.lineage_adjudication.outcome_linkage}`));
+        const challenge = review.independent_publisher_challenge;
+        el('ibis-outcome-acquisition').prepend(card('Official USDA outcome + Feeding America challenge', review.status, `${review.outcome_artifact.periods.join(', ')} household receipt observations acquired; Feeding America reports a ${Math.round(challenge.observations.food_insecurity_rate * 1000) / 10}% modeled 2024 national rate. Independence: ${review.lineage_adjudication.independence_status}. ${review.lineage_adjudication.outcome_linkage}`));
       });
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
     fetch('program-scorecard.json').then(r => r.json()).then(scorecard => {

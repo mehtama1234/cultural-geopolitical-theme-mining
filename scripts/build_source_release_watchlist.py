@@ -27,6 +27,7 @@ def main() -> int:
     npals = load("npals-public-table-extract.json")
     shed = load("federal-reserve-shed-financial-room-2013-2025.json")
     community = load("usda-community-food-assistance-2024.json")
+    feeding_america = load("feeding-america-map-meal-gap-2026-national.json")
 
     cbp_latest = max(row["year"] for row in cbp["source"]["retrievals"])
     nes_latest = max(row["year"] for row in nes["source"]["retrievals"])
@@ -93,6 +94,16 @@ def main() -> int:
             "cadence_or_trigger": "annual ERS household food-security supplement release",
             "status": community["availability_check"]["availability"],
             "acquisition_action": community["next_action"],
+        },
+        {
+            "source_id": "feeding-america-map-meal-gap-2026-national",
+            "publisher": feeding_america["publisher"],
+            "artifact": "feeding-america-map-meal-gap-2026-national.json",
+            "latest_observation_period": feeding_america["observation_period"],
+            "next_target_period": "next annual Map the Meal Gap release",
+            "cadence_or_trigger": "annual Feeding America model and public-map release",
+            "status": feeding_america["availability_check"]["availability"],
+            "acquisition_action": feeding_america["next_action"],
         },
     ]
     payload = {
