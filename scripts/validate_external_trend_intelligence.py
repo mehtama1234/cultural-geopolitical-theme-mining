@@ -605,6 +605,10 @@ def main() -> int:
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     assert any(item["path"] == ".github/workflows/external-observatory-refresh.yml" for item in release_manifest["artifacts"])
+    manifest_paths = {item["path"] for item in release_manifest["artifacts"]}
+    assert "analysis/external-trend-intelligence/TWO-YEAR-GOAL.md" in manifest_paths
+    assert "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md" in manifest_paths
+    assert "analysis/external-trend-intelligence/observatory-chart-catalog.json" in manifest_paths
     acquired_sources = json.loads((ANALYSIS / "acquired-source-register.json").read_text())
     assert acquired_sources["schema"] == "external-trend-intelligence.acquired-source-register.v1"
     assert acquired_sources["status"] == "acquired_sources_registered_with_lineage_and_boundaries"
