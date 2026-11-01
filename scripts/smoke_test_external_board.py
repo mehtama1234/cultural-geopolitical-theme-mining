@@ -17,6 +17,7 @@ PORT = 8765
 ARTIFACTS = [
     "board.html",
     "TWO-YEAR-GOAL.md",
+    "EXTERNAL-DATA-SOURCES.md",
     "release-health.json",
     "refresh-status.json",
     "candidate-qualification-matrix.json",
@@ -70,6 +71,7 @@ def main() -> int:
                             "Program scorecard",
                             "program-scorecard.json",
                             "TWO-YEAR-GOAL.md",
+                            "EXTERNAL-DATA-SOURCES.md",
                             "Read the full two-year goal and operating contract",
                             "Operating handoff",
                             "operating-handoff.json",
