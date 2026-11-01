@@ -782,6 +782,10 @@ def main() -> int:
     assert food_comparison["urban_methodology_review"]["reference_period_confirmed"] == "12 months"
     assert food_comparison["urban_methodology_review"]["sample_change"]
     assert food_comparison["urban_methodology_review"]["uncertainty_status"]
+    food_rights = json.loads((ANALYSIS / "food-insecurity-rights-review.json").read_text())
+    assert food_rights["alternate_data_access_path"]["catalog_license_label"] == "odc-by"
+    assert food_rights["alternate_data_access_path"]["catalog_url"]
+    assert food_rights["alternate_data_access_path"]["rights_interpretation"]
     mobility_comparison = json.loads((ANALYSIS / "mobility-access-independent-comparison.json").read_text())
     assert mobility_comparison["schema"] == "external-trend-intelligence.mobility-access-independent-comparison.v1"
     assert mobility_comparison["status"] == "directional_gradient_agreement_not_common_holdout"

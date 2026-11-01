@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "e3f57c0173fcfda870194dd77d1c2e381e9ca0c4",
+  "source_tree_commit": "c3cf0e35a468cbde1de2d8140ee3ed307f2ccd2f",
   "artifact_count": 118,
   "artifacts": [
     {
@@ -476,8 +476,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/food-insecurity-rights-review.json",
-      "bytes": 3018,
-      "sha256": "80f8ad681a9f5877b6770b74cb70794d8ce6adf79dce40fb6c6b40a474646ffc"
+      "bytes": 3956,
+      "sha256": "b074d17903c83df2ad7c1f748c59f1b67f51f1502bbd7836946d5bcbf64991bc"
     },
     {
       "path": "analysis/external-trend-intelligence/food-security-decision-brief.json",
@@ -576,8 +576,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 79436,
-      "sha256": "c36a6b09c899ad8e754529cb98e7cf35b5d7eafc6bf219a5bf39fd250a22c9ea"
+      "bytes": 79561,
+      "sha256": "2150a4cf1265452b997f87720308f7d872e6578e06e6896ed94344d841f24966"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",

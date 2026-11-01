@@ -42,6 +42,15 @@ def main() -> int:
                 "publisher_dependence": "direct_official_publisher",
             },
         ],
+        "alternate_data_access_path": {
+            "catalog_url": "https://datacatalog.urban.org/dataset/well-being-and-basic-needs-survey",
+            "catalog_license_label": "odc-by",
+            "catalog_granularity": "person",
+            "catalog_public_access_level": "public",
+            "catalog_context": "The Urban Data Catalog describes WBNS public-use files and links to ICPSR/RWJF access, while noting that restricted variables require a separate data-use agreement and institutional review process.",
+            "rights_interpretation": "The catalog license and public-use path are not assumed to clear reuse of the specific 2025 report PDF, tables, charts, or a company-facing derivative. Exact file-level license and attribution requirements must be recorded before release.",
+            "next_action": "Acquire the exact public-use file or table locator, retain its file hash and license notice, and obtain rights-owner confirmation for any company-facing derived chart.",
+        },
         "release_decision": "retain_as_attributed_metadata_and_internal_review_only; do_not_redistribute_upstream_content_or_connect_company_data_until_rights_owner_approves",
         "boundary": "This is an operational rights review, not legal advice or a license grant. Terms can change and source-specific notices may add restrictions.",
     }
