@@ -62,6 +62,12 @@ repositories are not copied into this repository. The workflow fails before
 refresh if any required sibling workspace is missing, then runs the full
 orchestrator and commits only generated observatory artifacts.
 
+The continuity and ownership controls are generated inside the full pipeline:
+`build_refresh_continuity_audit.py` measures observed run spacing, while
+`build_ownership_assignment_queue.py` and `test_ownership_assignment_queue.py`
+reconcile operational roles to the handoff. They do not assign people
+automatically; a release may remain operational with these controls on hold.
+
 ## 1. Pin the external inputs
 
 Update the revisions and manifest paths in

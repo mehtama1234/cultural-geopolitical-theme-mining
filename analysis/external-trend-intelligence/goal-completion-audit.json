@@ -93,10 +93,12 @@
         "ANALYST-OPERATING-MODEL.md",
         "REFRESH-RUNBOOK.md",
         "operating-handoff.json",
+        "ownership-assignment-queue.json",
+        "refresh-continuity-audit.json",
         "successor-run-evidence.json",
         "evidence-acquisition-plan.json"
       ],
-      "gap": "The handoff records six roles and now has a reproducible read-only successor-validation artifact; named human ownership and an independently signed successor run are still outstanding."
+      "gap": "The handoff records six roles, a reconciled ownership-assignment queue, and a reproducible read-only successor-validation artifact; named human ownership, an independently signed successor run, and sustained weekly continuity are still outstanding."
     },
     {
       "id": "validated_company_pilots",

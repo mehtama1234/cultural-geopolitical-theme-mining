@@ -62,6 +62,13 @@ checksums, open gaps, held candidates, and the next review date. A frontend
 chart is not authoritative unless its source artifact appears in the release
 manifest.
 
+The machine-readable `ownership-assignment-queue.json` reconciles the six
+roles to `operating-handoff.json` and records the acceptance criteria for named
+primary and backup owners. `refresh-continuity-audit.json` records observed
+run spacing and explicitly distinguishes a short run burst from demonstrated
+weekly operation. These controls must remain visible in the handoff; neither
+one invents an owner or proves future two-year continuity.
+
 ## Required review record
 
 Every review note must answer:
