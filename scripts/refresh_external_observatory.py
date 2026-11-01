@@ -30,6 +30,8 @@ STEPS = [
     ["scripts/build_external_refresh_status.py"],
     ["scripts/build_source_family_controls.py"],
     ["scripts/build_rights_review_queue.py"],
+    ["scripts/build_rights_assignment_queue.py"],
+    ["scripts/test_rights_assignment_queue.py"],
     ["scripts/build_rights_evidence_register.py"],
     ["scripts/build_room_independent_comparison.py"],
     ["scripts/build_candidate_lineage_dependency_review.py"],

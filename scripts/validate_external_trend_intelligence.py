@@ -591,6 +591,11 @@ def main() -> int:
     assert independent["record_count"] == 2
     rights_queue = json.loads((ANALYSIS / "rights-review-queue.json").read_text())
     assert rights_queue["schema"] == "external-trend-intelligence.rights-review-queue.v1"
+    rights_assignment = json.loads((ANALYSIS / "rights-assignment-queue.json").read_text())
+    assert rights_assignment["schema"] == "external-trend-intelligence.rights-assignment-queue.v1"
+    assert rights_assignment["family_count"] == len(rights_assignment["rows"]) == rights_queue["family_count"]
+    assert rights_assignment["unassigned_family_count"] + rights_assignment["assigned_family_count"] == rights_assignment["family_count"]
+    assert all(row["acceptance_criteria"] and row["checkpoint"] for row in rights_assignment["rows"])
     assert rights_queue["family_count"] == 8
     assert rights_queue["review_required_count"] == 8
     rights_evidence = json.loads((ANALYSIS / "rights-evidence-register.json").read_text())

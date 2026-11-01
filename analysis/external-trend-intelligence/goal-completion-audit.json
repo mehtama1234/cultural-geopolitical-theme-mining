@@ -18,7 +18,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, and recovery path are exercised and refresh runs are recorded with 76-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, and recovery path are exercised and refresh runs are recorded with 78-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -26,6 +26,7 @@
       "evidence": [
         "external-family-lineage-review.json",
         "rights-review-queue.json",
+        "rights-assignment-queue.json",
         "rights-evidence-register.json",
         "food-insecurity-rights-review.json",
         "financial-room-rights-review.json",
@@ -36,7 +37,7 @@
         "test_rights_release_gate.py",
         "observation-manifest.json"
       ],
-      "gap": "Rights and publisher dependence remain unverified for all source families; candidate-specific reviews now cover the monitored food-security lane and 7 financial-room sources, while the 500-industry IBIS sample exposes repeated source IDs, URLs, and metadata gaps for dependency review. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
+      "gap": "Rights and publisher dependence remain unverified for all source families; the rights-assignment queue now makes the eight-family ownership work explicit, while candidate-specific reviews cover the monitored food-security lane and 7 financial-room sources. The 500-industry IBIS sample exposes repeated source IDs, URLs, and metadata gaps for dependency review. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
     },
     {
       "id": "independent_source_comparison",

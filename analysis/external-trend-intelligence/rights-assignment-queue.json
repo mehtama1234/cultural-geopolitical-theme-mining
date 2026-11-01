@@ -1,0 +1,147 @@
+{
+  "schema": "external-trend-intelligence.rights-assignment-queue.v1",
+  "family_count": 8,
+  "assigned_family_count": 0,
+  "unassigned_family_count": 8,
+  "status": "assignment_required",
+  "rows": [
+    {
+      "family_id": "cultural-geopolitical-theme-mining",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence": "rights-review-queue.json",
+      "acceptance_criteria": [
+        "named primary rights owner recorded",
+        "named backup rights owner recorded",
+        "exact terms or license evidence reviewed",
+        "publisher and upstream dataset dependence assessed",
+        "permitted storage, transformation, and redistribution scope signed"
+      ],
+      "checkpoint": "before_external_trend_promotion_or_company_bridge"
+    },
+    {
+      "family_id": "social-research",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence": "rights-review-queue.json",
+      "acceptance_criteria": [
+        "named primary rights owner recorded",
+        "named backup rights owner recorded",
+        "exact terms or license evidence reviewed",
+        "publisher and upstream dataset dependence assessed",
+        "permitted storage, transformation, and redistribution scope signed"
+      ],
+      "checkpoint": "before_external_trend_promotion_or_company_bridge"
+    },
+    {
+      "family_id": "trend-hunting",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence": "rights-review-queue.json",
+      "acceptance_criteria": [
+        "named primary rights owner recorded",
+        "named backup rights owner recorded",
+        "exact terms or license evidence reviewed",
+        "publisher and upstream dataset dependence assessed",
+        "permitted storage, transformation, and redistribution scope signed"
+      ],
+      "checkpoint": "before_external_trend_promotion_or_company_bridge"
+    },
+    {
+      "family_id": "annual-report-research",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence": "rights-review-queue.json",
+      "acceptance_criteria": [
+        "named primary rights owner recorded",
+        "named backup rights owner recorded",
+        "exact terms or license evidence reviewed",
+        "publisher and upstream dataset dependence assessed",
+        "permitted storage, transformation, and redistribution scope signed"
+      ],
+      "checkpoint": "before_external_trend_promotion_or_company_bridge"
+    },
+    {
+      "family_id": "inc5000-analysis",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence": "rights-review-queue.json",
+      "acceptance_criteria": [
+        "named primary rights owner recorded",
+        "named backup rights owner recorded",
+        "exact terms or license evidence reviewed",
+        "publisher and upstream dataset dependence assessed",
+        "permitted storage, transformation, and redistribution scope signed"
+      ],
+      "checkpoint": "before_external_trend_promotion_or_company_bridge"
+    },
+    {
+      "family_id": "ibis-industries",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence": "rights-review-queue.json",
+      "acceptance_criteria": [
+        "named primary rights owner recorded",
+        "named backup rights owner recorded",
+        "exact terms or license evidence reviewed",
+        "publisher and upstream dataset dependence assessed",
+        "permitted storage, transformation, and redistribution scope signed"
+      ],
+      "checkpoint": "before_external_trend_promotion_or_company_bridge"
+    },
+    {
+      "family_id": "research-signals",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence": "rights-review-queue.json",
+      "acceptance_criteria": [
+        "named primary rights owner recorded",
+        "named backup rights owner recorded",
+        "exact terms or license evidence reviewed",
+        "publisher and upstream dataset dependence assessed",
+        "permitted storage, transformation, and redistribution scope signed"
+      ],
+      "checkpoint": "before_external_trend_promotion_or_company_bridge"
+    },
+    {
+      "family_id": "organization-intelligence-system",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "rights_status": "not_yet_verified",
+      "publisher_dependence": "review_required",
+      "evidence": "rights-review-queue.json",
+      "acceptance_criteria": [
+        "named primary rights owner recorded",
+        "named backup rights owner recorded",
+        "exact terms or license evidence reviewed",
+        "publisher and upstream dataset dependence assessed",
+        "permitted storage, transformation, and redistribution scope signed"
+      ],
+      "checkpoint": "before_external_trend_promotion_or_company_bridge"
+    }
+  ],
+  "next_action": "Record named primary and backup rights owners, then attach exact terms evidence and a signed reuse decision for each family.",
+  "boundary": "This queue requests accountable review ownership; it does not infer identity, grant a license, or clear redistribution."
+}

@@ -164,6 +164,11 @@
       <div class="promotion-gates" id="rights-evidence"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Rights ownership assignment</h2>
+      <p class="muted">This queue names the review work that needs a primary and backup owner. An assignment does not grant reuse rights.</p>
+      <div class="promotion-gates" id="rights-assignment"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Two-year goal completion audit</h2>
       <p class="muted">Requirement-level status is shown conservatively; partial control-plane completion is not treated as end-state completion.</p>
       <div class="promotion-gates" id="goal-audit"></div>
@@ -663,6 +668,10 @@
       fetch('rights-evidence-register.json').then(r => r.json()).then(evidence => {
         el('rights-evidence').append(card(`${evidence.partial_file_evidence_count} families with local files · ${evidence.no_local_terms_file_count} without`, 'partial_file_evidence', evidence.boundary));
         evidence.rows.forEach(row => el('rights-evidence').append(card(row.family_id, row.evidence_status, row.observed_files.length ? row.observed_files.map(file => file.path).join(' · ') : 'No local terms file found; upstream terms still require review.')));
+      });
+      fetch('rights-assignment-queue.json').then(r => r.json()).then(queue => {
+        el('rights-assignment').append(card(`${queue.unassigned_family_count} of ${queue.family_count} families unassigned`, queue.status, queue.next_action));
+        queue.rows.forEach(row => el('rights-assignment').append(card(row.family_id, row.current_status, `${row.rights_status} · dependence ${row.publisher_dependence} · ${row.acceptance_criteria.join(' · ')}`)));
       });
       fetch('external-acquisition-rights-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => el('rights-evidence').append(card(`Acquisition · ${row.publisher}`, row.rights_evidence_status, `${row.upstream_identity} · ${row.next_action}`)));
