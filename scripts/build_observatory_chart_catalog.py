@@ -45,7 +45,7 @@ CHARTS = [
         "concept": "persistence across construction and holdout periods",
         "title": "Food insecurity: construction versus holdout",
         "chart_type": "paired_endpoint",
-        "source_artifacts": ["food-insecurity-temporal-holdout.json", "usda-temporal-holdout.json"],
+        "source_artifacts": ["food-insecurity-temporal-holdout.json", "food-insecurity-independent-comparison.json", "urban-wbns-food-insecurity-2025.json", "usda-temporal-holdout.json"],
         "visual_encoding": {"category": "measure", "value": "value", "series": "construction_or_holdout"},
         "required_visible_fields": ["period", "unit", "geography", "uncertainty", "counter_signal"],
         "status_field": "status",

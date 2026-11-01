@@ -58,6 +58,7 @@ ARTIFACTS = [
     "falsification-review-queue.json",
     "ibis-outcome-acquisition-queue.json",
     "usda-community-food-assistance-2024.json",
+    "urban-wbns-food-insecurity-2025.json",
     "feeding-america-map-meal-gap-2026-national.json",
     "feeding-america-rights-review.json",
     "ibis-community-food-outcome-linkage-review.json",
