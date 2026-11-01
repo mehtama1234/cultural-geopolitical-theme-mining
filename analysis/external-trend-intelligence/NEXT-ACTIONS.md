@@ -72,6 +72,12 @@ has distinct New York and Colorado government publishers, but it is still held
 because dates and a comparable repair or device-life outcome series are absent.
 The other eight first-batch claims remain pending.
 
+The [cell-phone repair outcome plan](cell-phone-repair-outcome-acquisition-plan.json)
+now links the state policy records to the existing FTC repair-barrier evidence
+and the ITU e-waste counter-signal. It explicitly refuses to pool them because
+their populations, geographies, units, and outcomes differ, and specifies the
+US repair/replacement panel needed for a real backtest.
+
 Next test:
 
 1. Select one finding, beginning with “Compliance Is Becoming Economic

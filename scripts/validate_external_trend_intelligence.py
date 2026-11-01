@@ -309,6 +309,13 @@ def main() -> int:
     assert {row["disposition"] for row in ibis_dispositions["dispositions"]} == {"held_insufficient_evidence", "held_outcome_missing"}
     assert all(row["company_bridge_status"] == "blocked_external_first_gate" for row in ibis_dispositions["dispositions"])
     assert ibis_dispositions["next_action"] and ibis_dispositions["boundary"]
+    repair_plan = json.loads((ANALYSIS / "cell-phone-repair-outcome-acquisition-plan.json").read_text())
+    assert repair_plan["schema"] == "external-trend-intelligence.cell-phone-repair-outcome-acquisition-plan.v1"
+    assert repair_plan["status"] == "held_outcome_acquisition_ready"
+    assert repair_plan["current_disposition"] == "held_outcome_missing"
+    assert len(repair_plan["why_not_pooled"]) >= 3
+    assert repair_plan["target_outcome"]["required_measures"]
+    assert repair_plan["acceptance_criteria"] and repair_plan["stop_rule"]
     ibis_force_map = json.loads((ANALYSIS / "ibis-force-claim-map.json").read_text())
     assert ibis_force_map["schema"] == "external-trend-intelligence.ibis-force-claim-map.v1"
     assert ibis_force_map["force_count"] == len(ibis_force_map["forces"]) == 6
