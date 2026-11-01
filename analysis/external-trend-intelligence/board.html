@@ -806,6 +806,8 @@
         const target = el('qualified-trend-brief');
         target.append(card(brief.headline, brief.qualification_state, brief.decision_use));
         target.append(card('Signal', 'descriptive', `${brief.signal_summary} Falsifier: ${brief.falsifier}`));
+        const significance = brief.source_reported_significance;
+        target.append(card('Publisher-reported significance', 'source_annotation', `${significance.reference_estimate}; unchanged from ${significance.unchanged_comparisons}; higher than ${significance.higher_comparisons}. ${significance.annotation_basis} ${significance.interpretation_boundary}`));
         target.append(card('Uncertainty and rights', 'review_required', `${brief.uncertainty.join(' · ')} Rights: ${brief.rights_boundary}`));
         target.append(card('Company boundary', 'blocked_external_first', `${brief.company_gate} Next: ${brief.next_action}`));
       });

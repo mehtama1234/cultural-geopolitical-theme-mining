@@ -91,6 +91,7 @@ def main() -> int:
                             "Rights review readiness",
                             "Qualified external trend brief",
                             "food-security-decision-brief.json",
+                            "Publisher-reported significance",
                             "food-security-release-tracker.json",
                             "source-release-watchlist.json",
                             "refresh-continuity-audit.json",
