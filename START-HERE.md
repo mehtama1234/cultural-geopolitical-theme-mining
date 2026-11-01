@@ -54,6 +54,9 @@ confirmed.
 The [backtest design review request](analysis/external-trend-intelligence/BACKTEST-DESIGN-REVIEW-REQUEST.md)
 is the human handoff for selecting compatible construction and holdout periods,
 units, outcomes, uncertainty, and falsifiers before any score is computed.
+The [host-lineage review request](analysis/external-trend-intelligence/HOST-LINEAGE-REVIEW-REQUEST.md)
+prioritizes the 23 highest-volume shared hosts for publisher, upstream, rights,
+restatement, and independence review.
 The [held candidate comparisons](analysis/external-trend-intelligence/external-family-comparisons.json)
 show what is being tested without treating thematic similarity as a company join.
 The [lineage review](analysis/external-trend-intelligence/external-family-lineage-review.json)

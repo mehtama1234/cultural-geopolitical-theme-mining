@@ -160,6 +160,7 @@ For a visual readout of the external inventory and candidate comparisons, open
 - [`OWNERSHIP-ASSIGNMENT-REQUEST.md`](OWNERSHIP-ASSIGNMENT-REQUEST.md) — fillable primary/backup role assignment and acknowledgement handoff.
 - [`INDEPENDENCE-ADJUDICATION-REQUEST.md`](INDEPENDENCE-ADJUDICATION-REQUEST.md) — fillable candidate-level publisher, upstream, rights, and independence disposition handoff.
 - [`BACKTEST-DESIGN-REVIEW-REQUEST.md`](BACKTEST-DESIGN-REVIEW-REQUEST.md) — fillable construction, holdout, unit, uncertainty, falsifier, and sign-off review for each candidate.
+- [`HOST-LINEAGE-REVIEW-REQUEST.md`](HOST-LINEAGE-REVIEW-REQUEST.md) — prioritized shared-host publisher, upstream, rights, and dependence review handoff.
 - [`source-release-watchlist.json`](source-release-watchlist.json) — latest pinned period and next official release target for acquired sources.
 - [`goal-completion-audit.json`](goal-completion-audit.json) — conservative requirement-level status and remaining gates.
 

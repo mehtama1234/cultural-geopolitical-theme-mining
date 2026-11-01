@@ -544,6 +544,15 @@ def main() -> int:
         assert f"`{row['candidate_id']}`" in independence_request
     for field in ("canonical publisher", "underlying dataset", "population", "rights and redistribution boundary"):
         assert field in independence_request
+    host_queue = json.loads((ANALYSIS / "host-dependence-review-queue.json").read_text())
+    host_request = (ANALYSIS / "HOST-LINEAGE-REVIEW-REQUEST.md").read_text()
+    assert host_queue["high_priority_count"] == 23
+    assert "Required review fields" in host_request
+    for row in host_queue["rows"]:
+        if row["priority"] == "high":
+            assert f"`{row['host']}`" in host_request
+    for field in ("publisher or publishers", "upstream dataset", "rights route", "independence disposition"):
+        assert field in host_request.lower()
     precheck = json.loads((ANALYSIS / "candidate-independence-precheck.json").read_text())
     assert precheck["schema"] == "external-trend-intelligence.candidate-independence-precheck.v1"
     assert precheck["status"] == "machine_precheck_recorded_human_adjudication_required"
