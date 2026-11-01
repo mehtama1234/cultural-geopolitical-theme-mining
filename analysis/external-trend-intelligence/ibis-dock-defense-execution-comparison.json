@@ -1,0 +1,53 @@
+{
+  "schema": "external-trend-intelligence.ibis-dock-defense-execution-comparison.v1",
+  "status": "non_pooled_execution_context_comparison",
+  "source_artifacts": [
+    "usaspending-bath-iron-works-execution-snapshot.json",
+    "ibis-dock-defense-outcome-review.json"
+  ],
+  "rows": [
+    {
+      "period": "FY2025",
+      "measure": "transaction_obligations",
+      "transaction_count": 379,
+      "award_id_count": 24,
+      "positive_obligation_usd": 2401520886.89,
+      "negative_obligation_usd": -31079750.0,
+      "zero_amount_count": 41,
+      "description_terms": {
+        "design": 24,
+        "alteration": 61,
+        "construction": 38,
+        "engineering": 1
+      }
+    },
+    {
+      "period": "FY2026",
+      "measure": "transaction_obligations",
+      "transaction_count": 279,
+      "award_id_count": 20,
+      "positive_obligation_usd": 2210306322.98,
+      "negative_obligation_usd": -22919229.75,
+      "zero_amount_count": 43,
+      "description_terms": {
+        "delivery": 1,
+        "alteration": 51,
+        "engineering": 4,
+        "design": 19,
+        "construction": 35,
+        "deobligation": 1
+      }
+    }
+  ],
+  "interpretation": "USAspending transaction obligations provide a realized-award context for one named recipient and fiscal-year window. They are shown beside, not pooled with, Navy budget-request measures.",
+  "comparability_limits": [
+    "Transaction amounts are obligations/actions, not completed maintenance or utilization.",
+    "Bath Iron Works text matching is not all Navy shipyard activity.",
+    "Budget request dollars and transaction obligations use different constructs and cannot be subtracted or treated as a conversion rate.",
+    "Zero-dollar actions and deobligations remain visible rather than silently removed."
+  ],
+  "counter_signal": "A high transaction total can reflect modifications, advance funding, or administrative actions without equivalent completed work; a low total can reflect timing or reporting lag.",
+  "release_decision": "internal_review_only_no_pooling",
+  "next_action": "Reconcile award-level identity and fiscal-year coverage with Navy execution milestones before any trend qualification or company decision use.",
+  "boundary": "This comparison is descriptive evidence for lineage review. It does not validate the IBIS claim, establish causality, or authorize an internal company bridge."
+}

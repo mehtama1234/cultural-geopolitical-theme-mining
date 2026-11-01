@@ -342,6 +342,7 @@
       <h2>IBIS bounded outcome review</h2>
       <p class="muted">One industry is paired with dated CDC capacity measures and a CMS Medicaid rate measure. The comparison is descriptive and mechanism-level, not a qualified trend or company finding.</p>
       <div class="panel" style="margin:12px 0"><h3>Separate measure changes</h3><div id="ibis-outcome-chart"></div></div>
+      <div class="panel" style="margin:12px 0"><h3>Bath Iron Works execution obligations by fiscal year</h3><div id="ibis-dock-execution-chart"></div></div>
       <div class="promotion-gates" id="ibis-outcome-review"></div>
     </section>
     <footer>Serve this directory over HTTP to load the JSON manifests. Source records remain authoritative; this board is a reader. Release: <code id="release-commit">—</code></footer>
@@ -1014,6 +1015,10 @@
       });
       fetch('usaspending-bath-iron-works-execution-snapshot.json').then(r => r.json()).then(snapshot => {
         el('ibis-outcome-acquisition').prepend(card('USAspending Bath Iron Works execution snapshot', snapshot.status, `${snapshot.summary.transaction_count} transactions across ${snapshot.pagination.page_count} pages; ${snapshot.summary.award_id_count} awards. ${snapshot.counter_signal} Next: ${snapshot.next_action}`));
+      });
+      fetch('ibis-dock-defense-execution-comparison.json').then(r => r.json()).then(comparison => {
+        barChart(el('ibis-dock-execution-chart'), comparison.rows.map(row => [`${row.period} · obligations`, Math.round(row.positive_obligation_usd / 1000000)]), Math.max(...comparison.rows.map(row => Math.round(row.positive_obligation_usd / 1000000)), 1));
+        el('ibis-outcome-acquisition').prepend(card('Navy budget versus execution comparison', comparison.status, `${comparison.interpretation} ${comparison.comparability_limits.join(' ')} Next: ${comparison.next_action}`));
       });
       el('ibis-outcome-acquisition').append(card('Navy execution-data handoff', 'request_ready_execution_award_acquisition_only', '<a href="NAVY-EXECUTION-DATA-REQUEST.md">Open the request handoff</a> before treating budget context as realized demand or independent confirmation.'));
       el('ibis-outcome-acquisition').append(card('Feeding America data-request handoff', 'request_ready_public_snapshot_only', 'The underlying county/state release is request-gated. <a href="FEEDING-AMERICA-DATA-REQUEST.md">Open the request handoff</a> before any pooled comparison or company use.'));
