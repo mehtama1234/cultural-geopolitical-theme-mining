@@ -22,7 +22,7 @@ def main() -> int:
     for item in dependency["rows"]:
         candidate = comparisons[item["candidate_id"]]
         unresolved = item["unclassified_record_ids"]
-        rows.append({
+        row = {
             "candidate_id": item["candidate_id"],
             "title": candidate["title"],
             "priority": "high" if item["dependency_group_count"] or len(unresolved) >= 5 else "standard",
@@ -44,7 +44,11 @@ def main() -> int:
             "due_date": None,
             "disposition": "pending",
             "next_action": item["next_test"],
-        })
+        }
+        if item["candidate_id"] == "candidate-us-food-insecurity-persistence":
+            row["review_packet"] = "food-security-independence-review-packet.json"
+            row["next_action"] = "Complete food-security-independence-review-packet.json, then write the signed disposition back to this row."
+        rows.append(row)
     payload = {
         "schema": "external-trend-intelligence.candidate-independence-adjudication-queue.v1",
         "status": "manual_adjudication_queue_ready",

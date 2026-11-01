@@ -249,7 +249,8 @@
       "assignee": null,
       "due_date": null,
       "disposition": "pending",
-      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+      "next_action": "Complete food-security-independence-review-packet.json, then write the signed disposition back to this row.",
+      "review_packet": "food-security-independence-review-packet.json"
     }
   ],
   "boundary": "This queue operationalizes independence review; distinct hosts or URLs are not treated as independent confirmation without adjudication.",

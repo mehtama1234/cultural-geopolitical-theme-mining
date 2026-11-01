@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "ba886e360b5c319fcc090f74438e5a28f7580d2f",
+  "source_tree_commit": "d8f83a996fc101b3357893c4d9794cb646d855e6",
   "artifact_count": 170,
   "artifacts": [
     {
@@ -746,8 +746,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/candidate-independence-adjudication-queue.json",
-      "bytes": 12612,
-      "sha256": "cabe27afdd39eccaeec98657270eae0839101a60e1aad53e779c25af47779272"
+      "bytes": 12643,
+      "sha256": "15a1382f0f7bb87657a57858a60a9a0594ada6fbcc3b64d7e3c1ef7c0cf34566"
     },
     {
       "path": "analysis/external-trend-intelligence/candidate-independence-precheck.json",

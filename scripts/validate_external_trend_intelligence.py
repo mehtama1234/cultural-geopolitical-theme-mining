@@ -1163,6 +1163,10 @@ def main() -> int:
     assert food_packet["independence_assessment"]["same_population_or_denominator"] is False
     assert food_packet["human_review"]["final_disposition"] is None
     assert len(food_packet["required_signoff_fields"]) == 5
+    independence_queue = json.loads((ANALYSIS / "candidate-independence-adjudication-queue.json").read_text())
+    food_queue_row = next(row for row in independence_queue["rows"] if row["candidate_id"] == "candidate-us-food-insecurity-persistence")
+    assert food_queue_row["review_packet"] == "food-security-independence-review-packet.json"
+    assert "signed disposition" in food_queue_row["next_action"]
     food_comparison = json.loads((ANALYSIS / "food-insecurity-independent-comparison.json").read_text())
     assert food_comparison["schema"] == "external-trend-intelligence.food-insecurity-independent-comparison.v1"
     assert food_comparison["status"] == "independent_directional_challenge_not_comparable"
