@@ -4,7 +4,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 
@@ -24,6 +24,20 @@ def main() -> int:
     pass_count = sum(run.get("pipeline_status") == "passed" for run in runs)
     observed_days = sorted({time.date().isoformat() for time in times})
     observed_weeks = sorted({time.strftime("%G-W%V") for time in times})
+    # Count only missing weekly windows between the first and latest observed
+    # weeks; future windows remain unobserved rather than being called missed.
+    week_starts = sorted({(time - timedelta(days=time.weekday())).date() for time in times})
+    missing_intervening_week_count = sum(
+        max((later - earlier).days // 7 - 1, 0)
+        for earlier, later in zip(week_starts, week_starts[1:])
+    )
+    latest = times[-1] if times else None
+    next_scheduled = None
+    if latest:
+        next_monday = (latest + timedelta(days=(7 - latest.weekday()) % 7)).date()
+        if next_monday <= latest.date():
+            next_monday += timedelta(days=7)
+        next_scheduled = datetime.combine(next_monday, datetime.min.time(), tzinfo=timezone.utc).replace(hour=6, minute=17).isoformat()
     required_two_year_weeks = 104
     coverage_ratio = min(len(observed_weeks) / required_two_year_weeks, 1.0)
     payload = {
@@ -39,6 +53,10 @@ def main() -> int:
         "expected_cadence": "weekly",
         "required_two_year_weeks": required_two_year_weeks,
         "observed_distinct_week_count": len(observed_weeks),
+        "observed_week_keys": observed_weeks,
+        "missing_intervening_week_count": missing_intervening_week_count,
+        "next_scheduled_window_utc": next_scheduled,
+        "recovery_path": "workflow_dispatch -> full refresh -> retain diagnostics -> append refresh history",
         "observed_week_coverage_ratio": round(coverage_ratio, 4),
         "observed_week_coverage_percent": round(coverage_ratio * 100, 1),
         "continuity_status": "observed_burst_only" if intervals_hours and max(intervals_hours) < 168 else "gaps_require_review",

@@ -609,6 +609,8 @@ def main() -> int:
     assert continuity["observed_distinct_week_count"] >= 0
     assert 0 <= continuity["observed_week_coverage_ratio"] <= 1
     assert continuity["observed_week_coverage_percent"] == round(continuity["observed_week_coverage_ratio"] * 100, 1)
+    assert continuity["missing_intervening_week_count"] >= 0
+    assert continuity["recovery_path"]
     assert continuity["unattended_two_year_coverage"] == "not_demonstrated"
     assert continuity["next_action"] and continuity["boundary"]
     pilot_blueprint = json.loads((ANALYSIS / "pilot-food-security-service-room-blueprint.json").read_text())

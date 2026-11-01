@@ -14,6 +14,12 @@
   "expected_cadence": "weekly",
   "required_two_year_weeks": 104,
   "observed_distinct_week_count": 1,
+  "observed_week_keys": [
+    "2026-W44"
+  ],
+  "missing_intervening_week_count": 0,
+  "next_scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+  "recovery_path": "workflow_dispatch -> full refresh -> retain diagnostics -> append refresh history",
   "observed_week_coverage_ratio": 0.0096,
   "observed_week_coverage_percent": 1.0,
   "continuity_status": "observed_burst_only",
