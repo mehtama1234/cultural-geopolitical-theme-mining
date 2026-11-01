@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "c59ecc63109b18e2b3eacc662e2c1a9ae5d8a56b",
+  "source_tree_commit": "57932af41822bf7f5f6a2604f4848b252bc2e641",
   "artifact_count": 89,
   "artifacts": [
     {
@@ -46,8 +46,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
-      "bytes": 2008,
-      "sha256": "5e913d14f085f385297633be1e78b7addeb6bb9754217015f55e2d85c0a3bf2c"
+      "bytes": 2214,
+      "sha256": "344f69e496116bc2bd9a3aef5552f5255d2ec66903ee9aed6d8c70095a1d58ea"
     },
     {
       "path": "analysis/external-trend-intelligence/pilot-design-dry-run.json",

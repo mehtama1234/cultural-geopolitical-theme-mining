@@ -20,7 +20,9 @@
     "pilot_design_dry_run": "pass",
     "monitoring_watches": 5,
     "qualified_monitor_watches": 1,
-    "prequalification_watches": 4
+    "prequalification_watches": 4,
+    "shared_host_count": 4,
+    "publisher_independence_status": "unverified"
   },
   "thresholds": {
     "refresh_pipeline_pass_rate": {
@@ -53,6 +55,10 @@
     },
     "monitoring_register_coverage": {
       "target": "every candidate has an execution state",
+      "status": "pass"
+    },
+    "publisher_dependence_review": {
+      "target": "shared hosts remain visible and reviewed",
       "status": "pass"
     }
   },
