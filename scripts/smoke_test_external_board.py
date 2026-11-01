@@ -68,6 +68,8 @@ def main() -> int:
                             "Falsifier:",
                             "Program scorecard",
                             "program-scorecard.json",
+                            "TWO-YEAR-GOAL.md",
+                            "Read the full two-year goal and operating contract",
                             "Operating handoff",
                             "operating-handoff.json",
                             "Successor validation control",
