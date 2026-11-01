@@ -45,6 +45,11 @@ def main() -> int:
     assert "external-family-comparisons.json" in candidates
     assert "CARE-CAPACITY-CANDIDATE.md" in candidates
     assert "adaptation-control-candidate.json" in candidates
+    source_registry_doc = (ROOT / "EXTERNAL_SOURCE_REGISTRY.md").read_text()
+    assert "## Source status vocabulary" in source_registry_doc
+    assert "Registered:" in source_registry_doc
+    assert "Evidence-ready:" in source_registry_doc
+    assert "Independently confirmed:" in source_registry_doc
     runbook = (ANALYSIS / "REFRESH-RUNBOOK.md").read_text()
     next_actions = (ANALYSIS / "NEXT-ACTIONS.md").read_text()
     assert "build_external_repository_family_snapshot.py" in runbook

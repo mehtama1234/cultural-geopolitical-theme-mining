@@ -45,6 +45,26 @@ Continuously bring in external evidence, detect repeated or changing patterns,
 compare supporting and counter-signals, and promote only decision-grade
 findings into the company-facing portfolio.
 
+## Source status vocabulary
+
+The registry deliberately separates three states:
+
+- **Registered:** a source or publisher is known and worth monitoring. This is
+  an intake target, not evidence that the source is reachable, current,
+  rights-cleared, comparable, or independent.
+- **Evidence-ready:** a specific artifact has an identified publisher and
+  locator, revision, retrieval date, period, geography, unit, denominator,
+  method, uncertainty, and access boundary. It can be reviewed, but it is not
+  yet independent confirmation.
+- **Independently confirmed:** lineage and publisher dependence have been
+  reviewed, and a second source family provides a compatible measure or a
+  clearly bounded mechanism challenge. Only this state can satisfy the
+  independent-source gate for external trend qualification.
+
+Source counts in the registry measure discovery coverage. They must never be
+reported as a trend count, prevalence estimate, market size, or validation
+score.
+
 ```text
 external source
   -> dated source snapshot
