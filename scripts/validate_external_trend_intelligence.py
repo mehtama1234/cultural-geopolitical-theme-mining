@@ -30,6 +30,12 @@ def main() -> int:
         and 0 <= row["source_url_reuse_ratio"] <= 1
         for row in theme_audit["themes"].values()
     )
+    domain_audit = json.loads((ANALYSIS / "domain-coverage-audit.json").read_text())
+    assert domain_audit["schema"] == "external-trend-intelligence.domain-coverage-audit.v1"
+    assert domain_audit["required_domain_count"] == 9
+    assert domain_audit["observed_domain_count"] + len(domain_audit["missing_domains"]) == domain_audit["required_domain_count"]
+    assert all(row["coverage_status"] in {"observed", "missing"} and row["quality_boundary"] for row in domain_audit["domains"].values())
+    assert domain_audit["boundary"] and domain_audit["next_action"]
     record_quality = json.loads((ANALYSIS / "record-quality-audit.json").read_text())
     assert record_quality["schema"] == "external-trend-intelligence.record-quality-audit.v1"
     assert record_quality["record_count"] == manifest["record_count"]

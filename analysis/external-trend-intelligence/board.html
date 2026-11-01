@@ -632,6 +632,11 @@
         const reused = Object.values(audit.themes).reduce((sum, row) => sum + row.reused_source_url_count, 0);
         el('theme-coverage-audit').append(card(`${audit.observed_theme_count}/${audit.theme_count} themes observed`, audit.status, `${audit.sparse_theme_count} sparse themes · ${reused.toLocaleString()} repeated source-URL references. ${audit.boundary} ${audit.next_action}`));
       });
+      fetch('domain-coverage-audit.json').then(r => r.json()).then(audit => {
+        const missing = audit.missing_domains.length ? ` Missing: ${audit.missing_domains.join(', ')}.` : ' All required domains have mapped external records.';
+        el('theme-coverage-audit').append(card(`${audit.observed_domain_count}/${audit.required_domain_count} required domains observed`, audit.status, `${missing} ${audit.boundary}`));
+        Object.entries(audit.domains).forEach(([domain, row]) => el('theme-coverage-audit').append(card(`${domain} · ${row.record_count.toLocaleString()} records`, row.coverage_status, `${row.source_host_count} hosts · ${row.unique_source_url_count.toLocaleString()} unique URLs · mapped themes: ${row.mapped_themes.join(', ')}`)));
+      });
       fetch('record-quality-audit.json').then(r => r.json()).then(audit => {
         const fields = ['lineage_locator', 'period', 'unit', 'uncertainty', 'counter_signal', 'retrieval_hash'];
         const missing = fields.map(field => `${field.replaceAll('_', ' ')} ${((1 - audit.field_coverage[field]) * 100).toFixed(1)}% missing`).join(' · ');

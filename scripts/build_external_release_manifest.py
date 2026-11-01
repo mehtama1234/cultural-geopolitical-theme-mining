@@ -70,6 +70,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/host-dependence-review-queue.json",
     "analysis/external-trend-intelligence/open-gate-register.json",
     "analysis/external-trend-intelligence/theme-coverage-audit.json",
+    "analysis/external-trend-intelligence/domain-coverage-audit.json",
     "analysis/external-trend-intelligence/compatible-measure-search.json",
     "analysis/external-trend-intelligence/global-growth-forecast-comparison.json",
     "analysis/external-trend-intelligence/forecast-lineage-review.json",
