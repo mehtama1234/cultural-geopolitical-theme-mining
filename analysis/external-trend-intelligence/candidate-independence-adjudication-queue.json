@@ -49,7 +49,20 @@
       "assignee": null,
       "due_date": null,
       "disposition": "pending",
-      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status.",
+      "first_review_action": "Resolve every unresolved record to a canonical publisher, exact artifact, underlying dataset/event, population, period, unit, denominator, outcome, and rights boundary; then classify each dependency before deciding the candidate disposition.",
+      "review_evidence_artifacts": [
+        "candidate-lineage-dependency-review.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "reviewer acknowledgement",
+        "second-reviewer check",
+        "explicit disposition for every unresolved record",
+        "candidate-level disposition recorded without promotion"
+      ]
     },
     {
       "candidate_id": "candidate-time-financial-pressure-practical-room",
@@ -106,7 +119,20 @@
       "assignee": null,
       "due_date": null,
       "disposition": "pending",
-      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status.",
+      "first_review_action": "Resolve every unresolved record to a canonical publisher, exact artifact, underlying dataset/event, population, period, unit, denominator, outcome, and rights boundary; then classify each dependency before deciding the candidate disposition.",
+      "review_evidence_artifacts": [
+        "candidate-lineage-dependency-review.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "reviewer acknowledgement",
+        "second-reviewer check",
+        "explicit disposition for every unresolved record",
+        "candidate-level disposition recorded without promotion"
+      ]
     },
     {
       "candidate_id": "candidate-digital-capability-control-trust",
@@ -166,7 +192,20 @@
       "assignee": null,
       "due_date": null,
       "disposition": "pending",
-      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status.",
+      "first_review_action": "Resolve every unresolved record to a canonical publisher, exact artifact, underlying dataset/event, population, period, unit, denominator, outcome, and rights boundary; then classify each dependency before deciding the candidate disposition.",
+      "review_evidence_artifacts": [
+        "candidate-lineage-dependency-review.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "reviewer acknowledgement",
+        "second-reviewer check",
+        "explicit disposition for every unresolved record",
+        "candidate-level disposition recorded without promotion"
+      ]
     },
     {
       "candidate_id": "candidate-infrastructure-dependency-power",
@@ -220,7 +259,20 @@
       "assignee": null,
       "due_date": null,
       "disposition": "pending",
-      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status."
+      "next_action": "Resolve each record to a canonical publisher, artifact, underlying dataset, population, period, and outcome before assigning an independence status.",
+      "first_review_action": "Resolve every unresolved record to a canonical publisher, exact artifact, underlying dataset/event, population, period, unit, denominator, outcome, and rights boundary; then classify each dependency before deciding the candidate disposition.",
+      "review_evidence_artifacts": [
+        "candidate-lineage-dependency-review.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "reviewer acknowledgement",
+        "second-reviewer check",
+        "explicit disposition for every unresolved record",
+        "candidate-level disposition recorded without promotion"
+      ]
     },
     {
       "candidate_id": "candidate-us-food-insecurity-persistence",
@@ -250,6 +302,19 @@
       "due_date": null,
       "disposition": "pending",
       "next_action": "Complete food-security-independence-review-packet.json, then write the signed disposition back to this row.",
+      "first_review_action": "Resolve every unresolved record to a canonical publisher, exact artifact, underlying dataset/event, population, period, unit, denominator, outcome, and rights boundary; then classify each dependency before deciding the candidate disposition.",
+      "review_evidence_artifacts": [
+        "candidate-lineage-dependency-review.json",
+        "observation-manifest.json",
+        "rights-review-queue.json",
+        "publisher-dependence-summary.json"
+      ],
+      "required_signoff": [
+        "reviewer acknowledgement",
+        "second-reviewer check",
+        "explicit disposition for every unresolved record",
+        "candidate-level disposition recorded without promotion"
+      ],
       "review_packet": "food-security-independence-review-packet.json"
     }
   ],

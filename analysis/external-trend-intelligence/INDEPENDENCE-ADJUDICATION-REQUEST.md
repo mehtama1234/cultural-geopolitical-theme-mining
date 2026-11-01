@@ -21,11 +21,11 @@ independent confirmation.
 
 | Candidate | Priority | Reviewer | Due date | Publisher/upstream review | Unit/period/outcome review | Rights review | Dependence disposition | Final disposition | Evidence link / sign-off |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `candidate-formal-response-before-recovery` | high | TBD | TBD | ☐ | ☐ | ☐ | TBD | pending | TBD |
-| `candidate-time-financial-pressure-practical-room` | high | TBD | TBD | ☐ | ☐ | ☐ | TBD | pending | TBD |
-| `candidate-digital-capability-control-trust` | high | TBD | TBD | ☐ | ☐ | ☐ | TBD | pending | TBD |
-| `candidate-infrastructure-dependency-power` | high | TBD | TBD | ☐ | ☐ | ☐ | TBD | pending | TBD |
-| `candidate-us-food-insecurity-persistence` | standard | TBD | TBD | ☐ | ☐ | ☐ | TBD | pending | TBD |
+| `candidate-formal-response-before-recovery` | high | TBD | TBD | ☐ | ☐ | ☐ | TBD | pending | `candidate-lineage-dependency-review.json`; resolve 3 unclassified records |
+| `candidate-time-financial-pressure-practical-room` | high | TBD | TBD | ☐ | ☐ | ☐ | TBD | pending | `candidate-lineage-dependency-review.json`; resolve 6 unclassified records |
+| `candidate-digital-capability-control-trust` | high | TBD | TBD | ☐ | ☐ | ☐ | TBD | pending | `candidate-lineage-dependency-review.json`; resolve 5 unclassified records |
+| `candidate-infrastructure-dependency-power` | high | TBD | TBD | ☐ | ☐ | ☐ | TBD | pending | `candidate-lineage-dependency-review.json`; resolve 6 unclassified records |
+| `candidate-us-food-insecurity-persistence` | standard | TBD | TBD | ☐ | ☐ | ☐ | TBD | pending | `food-security-independence-review-packet.json`; sign disposition |
 
 ## Required evidence checklist
 
@@ -45,3 +45,7 @@ independent confirmation.
 
 The queue remains open until every candidate has an explicit disposition. The
 escalation path is `lineage_reviewer` → `trend_challenger` → `program_sponsor`.
+
+The machine-readable queue now records the first review action, evidence
+artifacts, and sign-off requirements for every candidate. A distinct host or
+URL is never treated as independent without the artifact-level review.

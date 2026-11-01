@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "d3f3d8b7d7324d0cb08d80f0a4c532e8ceb9b3de",
+  "source_tree_commit": "fa715e6fa9a228a1e350999e77b1359913f2f67b",
   "artifact_count": 170,
   "artifacts": [
     {
@@ -52,7 +52,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1003,
-      "sha256": "71456358e4289d95529d5986a751d11058a9c39e07b5c5a1181782414009932f"
+      "sha256": "2e7a0b6402a50b12c5ef1389afa981c8e1af88901344290d05eee9bb1b0e6d14"
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
@@ -66,8 +66,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/INDEPENDENCE-ADJUDICATION-REQUEST.md",
-      "bytes": 2428,
-      "sha256": "483e51ced7f0440f85259df061a44a901479f840d3552927bbbd8f4d2cbebcc9"
+      "bytes": 2996,
+      "sha256": "97cd7329b78f62217e8dc0b71a3bd8e5d84e103025703f81361b342258098b3f"
     },
     {
       "path": "analysis/external-trend-intelligence/BACKTEST-DESIGN-REVIEW-REQUEST.md",
@@ -87,17 +87,17 @@
     {
       "path": "analysis/external-trend-intelligence/census-cbp-release-check.json",
       "bytes": 1096,
-      "sha256": "68ea6e01fe1e62a5f0f6f607b63b2c87cd7640f6218a554f08a1bdebf5f24e1c"
+      "sha256": "1d2e83460265e15bb98d3f0360763de9a9df574b9bb9703fb80748a96d1bac35"
     },
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
       "bytes": 3448,
-      "sha256": "683b65675ef884947cebe739de6e15ddbab2d8b038f9bd1dc1a11b783b0ebb0c"
+      "sha256": "e11e451c1099f2ea14b464fc9c611120491a3c59d323a0c61f4ed1783fb008cf"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
       "bytes": 3758,
-      "sha256": "ee4f644c82d368f1066eb548917928f3ac8a28de1f2f964ca8e3af96cf095501"
+      "sha256": "66a4f1b9f97df8ba0a9aff312621fdc649c59e868a75add8bc5613aeca6f9bb7"
     },
     {
       "path": "analysis/external-trend-intelligence/operating-ownership-readiness.json",
@@ -217,12 +217,12 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "581019990f0d227a1a549839d15d526a4c1bb1e40b75850c9e9772bf10de44ae"
+      "sha256": "b831858d89ea81f32225f9659da5a62be2a6171ac72802e4605993ca55ff5820"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 2052,
-      "sha256": "3e4ab09b7201122ba67b22c5df01560bb7ab8d410caa175854b10eac864bf243"
+      "sha256": "751a99f6a485996ba3738a422f04a289f4f4cf17b6c767c18e16d1f59ddc4c5d"
     },
     {
       "path": "analysis/external-trend-intelligence/review-calendar.json",
@@ -311,13 +311,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
-      "bytes": 5739,
-      "sha256": "5cde3cd25ef08e7f7a2395959d8cdd0afbf69c857f06cad09fec2089c79e611f"
+      "bytes": 5740,
+      "sha256": "2917445f1365d4f1744488f12a44f56203b9b01dc17f8d02db9aefbf11a4eaa8"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-freshness-decision.json",
-      "bytes": 5740,
-      "sha256": "6b09c520db558ad4930c9938376b4a2aca97f4de3c947bf616165b9f4ffa4353"
+      "bytes": 5741,
+      "sha256": "4575cacc20a929a128ff40ceed1c578d9a77a3838f5bab8b1955ca56f7bcd8d8"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -361,8 +361,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/open-gate-history.json",
-      "bytes": 62468,
-      "sha256": "2a4f300321bbc5672e6078b4e6e881e6d5f4abfe72aa1473c14f8dbbee478ce8"
+      "bytes": 64054,
+      "sha256": "e21f1498612463ba3648b092a600f9582aefece8f418ace52f1a630ee0d86b9b"
     },
     {
       "path": "analysis/external-trend-intelligence/theme-coverage-audit.json",
@@ -417,12 +417,12 @@
     {
       "path": "analysis/external-trend-intelligence/acquired-source-register.json",
       "bytes": 17001,
-      "sha256": "0f17eb28057df5d92ddbe469eeaa89f1e3fb12b5cfc1a1b0d7605943344e4d03"
+      "sha256": "6d6f6f5d745991e587f11d0d1e8ff0a4bda77c0ad80b2953adfa96f27d748146"
     },
     {
       "path": "analysis/external-trend-intelligence/source-release-watchlist.json",
       "bytes": 8069,
-      "sha256": "140d128277c1fcd0d063837bdcff2960d30275ec94395ac8054edf9aee6809a8"
+      "sha256": "1fb70be4ca5bb8d0eb8b4f7b2d54aef97718167f772ffc6b25f82b276b9c2d9f"
     },
     {
       "path": "analysis/external-trend-intelligence/repository-family-snapshot.json",
@@ -522,17 +522,17 @@
     {
       "path": "analysis/external-trend-intelligence/usda-community-food-assistance-2024.json",
       "bytes": 3363,
-      "sha256": "0f118bb612df2c299b83d30beabf25f3ca681b59f79d745ae81119d6786edb10"
+      "sha256": "7c89d12d961a48d5a3b068d571c0405b3f5ff509b180c7a56b3381c226c855e0"
     },
     {
       "path": "analysis/external-trend-intelligence/urban-wbns-food-insecurity-2025.json",
       "bytes": 3200,
-      "sha256": "8b3b4777c7fed8913d163925e388f45387aaaba861bfe7b6209d7b15ea9b207b"
+      "sha256": "25ae1efe387b049f407914254da42b11dfb95ccea696bd944846f5b02f5490b9"
     },
     {
       "path": "analysis/external-trend-intelligence/feeding-america-map-meal-gap-2026-national.json",
       "bytes": 2455,
-      "sha256": "5c8083fc2ac530b0d004861ed9046df325fdb12ed6d93b38071701de02d9a536"
+      "sha256": "b74dd87317e02fd5531646deb5f51df27f9c864b006334e488bcdfaf92757e98"
     },
     {
       "path": "analysis/external-trend-intelligence/feeding-america-rights-review.json",
@@ -542,17 +542,17 @@
     {
       "path": "analysis/external-trend-intelligence/ibis-community-food-outcome-linkage-review.json",
       "bytes": 7163,
-      "sha256": "a9fad01c78201ea44e94afdadb45baf79b2e461ef817a5c2a524b95ad3d68afd"
+      "sha256": "fb09be5c7faee5e81774ab162eb26f7671af28dea8dece06e8851a9e4d5e5456"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-dock-defense-outcome-review.json",
       "bytes": 4577,
-      "sha256": "7a8c37ff6f608b5349cb583d49bc901d51efd902389f2b4304a5b7b898bcac4f"
+      "sha256": "941af96782b48dc3a76fa588017e6973445c8d0a44ab984aa449ccf99e07aa34"
     },
     {
       "path": "analysis/external-trend-intelligence/usaspending-bath-iron-works-execution-snapshot.json",
       "bytes": 796133,
-      "sha256": "213761b243f818d944b73898515a578b6a3efbd017a38ac57ba66b357a565c30"
+      "sha256": "c65eb7957759be0cfe407f369b7f7bc51a2e37598bef78a6d1eb81968b4537cc"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-dock-defense-execution-comparison.json",
@@ -622,22 +622,22 @@
     {
       "path": "analysis/external-trend-intelligence/npals-public-table-extract.json",
       "bytes": 39190,
-      "sha256": "7a81933376be85a892dbfb88a9a7d0ee847c80d3dd1cef1007f5f554bfb2b951"
+      "sha256": "d737e7f46870b052550ebe10808a95670019ba45b9ad28796981523e3c86add4"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 76509,
-      "sha256": "8fbac9fcd1cbace68c399855756f32e52ec91d6563b388f17da2f901864cdb48"
+      "bytes": 76944,
+      "sha256": "1e548172d0fde52d26a1e6c5c1426752dd76e58b6186902ab85151cdc4ff89f6"
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-continuity-audit.json",
       "bytes": 1033,
-      "sha256": "88db84a502aa4d84684dab2e31f8f50f6ae38c045a9f9bbc0408bc0d4d6e524f"
+      "sha256": "6c9f3e969392977940eec8891e9edeb28cfb80da0ec0364b01db6fed19340e91"
     },
     {
       "path": "analysis/external-trend-intelligence/continuity-coverage-plan.json",
       "bytes": 1093,
-      "sha256": "fa1404907db2796ff207fccab400120b3c8f7e35682ef60a9b993bcac354823b"
+      "sha256": "141a8a5f4a53129db46aa1f3d8606579d0ba999db9012823d4992c4de1297f0a"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
@@ -746,8 +746,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/candidate-independence-adjudication-queue.json",
-      "bytes": 12643,
-      "sha256": "15a1382f0f7bb87657a57858a60a9a0594ada6fbcc3b64d7e3c1ef7c0cf34566"
+      "bytes": 16243,
+      "sha256": "1687ee5e3acdb4f6d408e5409a7d7d19e6b071180ebbe5e547989c650d82c6e5"
     },
     {
       "path": "analysis/external-trend-intelligence/candidate-independence-precheck.json",

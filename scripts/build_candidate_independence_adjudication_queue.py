@@ -44,6 +44,23 @@ def main() -> int:
             "due_date": None,
             "disposition": "pending",
             "next_action": item["next_test"],
+            "first_review_action": (
+                "Resolve every unresolved record to a canonical publisher, exact artifact, "
+                "underlying dataset/event, population, period, unit, denominator, outcome, and rights boundary; "
+                "then classify each dependency before deciding the candidate disposition."
+            ),
+            "review_evidence_artifacts": [
+                "candidate-lineage-dependency-review.json",
+                "observation-manifest.json",
+                "rights-review-queue.json",
+                "publisher-dependence-summary.json",
+            ],
+            "required_signoff": [
+                "reviewer acknowledgement",
+                "second-reviewer check",
+                "explicit disposition for every unresolved record",
+                "candidate-level disposition recorded without promotion",
+            ],
         }
         if item["candidate_id"] == "candidate-us-food-insecurity-persistence":
             row["review_packet"] = "food-security-independence-review-packet.json"
