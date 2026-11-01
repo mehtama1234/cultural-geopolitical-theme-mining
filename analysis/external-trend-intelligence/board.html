@@ -175,6 +175,11 @@
       <div class="promotion-gates" id="rights-assignment"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Signable source-family rights packet</h2>
+      <p class="muted">This packet turns the eight-family rights review into one explicit decision record per family. It is a handoff for human review, not legal clearance.</p>
+      <div class="promotion-gates" id="rights-signoff-packet"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Two-year goal completion audit</h2>
       <p class="muted">Requirement-level status is shown conservatively; partial control-plane completion is not treated as end-state completion. <a href="TWO-YEAR-GOAL.md">Read the full two-year goal and operating contract</a>.</p>
       <div class="promotion-gates" id="goal-audit"></div>
@@ -804,6 +809,10 @@
       fetch('rights-assignment-queue.json').then(r => r.json()).then(queue => {
         el('rights-assignment').append(card(`${queue.unassigned_family_count} of ${queue.family_count} families unassigned`, queue.status, queue.next_action));
         queue.rows.forEach(row => el('rights-assignment').append(card(row.family_id, row.current_status, `${row.rights_status} · dependence ${row.publisher_dependence} · ${row.acceptance_criteria.join(' · ')}`)));
+      });
+      fetch('source-family-rights-review-packet.json').then(r => r.json()).then(packet => {
+        el('rights-signoff-packet').append(card('Eight-family signoff packet', packet.status, `${packet.family_count} families · ${packet.assigned_family_count} assigned. ${packet.next_action}`));
+        packet.rows.forEach(row => el('rights-signoff-packet').append(card(row.family_id, row.current_status, `First artifact: ${row.first_artifact}. Decision fields: ${row.required_decision_fields.join(' · ')} Stop rule: ${row.stop_rule}`)));
       });
       fetch('rights-review-queue.json').then(r => r.json()).then(queue => {
         queue.rows.forEach(row => el('rights-evidence').append(card(`Review plan · ${row.family_id}`, row.status, `First artifact: ${row.review_plan.first_artifact}. Rights questions: ${row.review_plan.rights_questions.join(' · ')} Lineage questions: ${row.review_plan.lineage_questions.join(' · ')}`)));

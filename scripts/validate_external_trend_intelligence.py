@@ -1060,6 +1060,13 @@ def main() -> int:
     assert rights_readiness["review_ready_family_count"] == 0
     assert rights_readiness["unassigned_owner_count"] == rights_assignment["unassigned_family_count"]
     assert rights_readiness["boundary"] and rights_readiness["next_action"]
+    rights_packet = json.loads((ANALYSIS / "source-family-rights-review-packet.json").read_text())
+    assert rights_packet["schema"] == "external-trend-intelligence.source-family-rights-review-packet.v1"
+    assert rights_packet["status"] == "ready_for_human_rights_signoff"
+    assert rights_packet["family_count"] == rights_queue["family_count"] == len(rights_packet["rows"])
+    assert rights_packet["assigned_family_count"] == rights_assignment["assigned_family_count"]
+    assert all(row["first_artifact"] and row["required_decision_fields"] and row["decision_options"] and row["stop_rule"] for row in rights_packet["rows"])
+    assert all(value is None for row in rights_packet["rows"] for value in row["signoff"].values())
     chart_catalog = json.loads((ANALYSIS / "observatory-chart-catalog.json").read_text())
     assert chart_catalog["schema"] == "external-trend-intelligence.observatory-chart-catalog.v1"
     assert chart_catalog["chart_count"] == len(chart_catalog["charts"]) >= 8

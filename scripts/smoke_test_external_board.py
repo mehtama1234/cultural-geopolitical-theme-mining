@@ -54,6 +54,7 @@ ARTIFACTS = [
     "pilot-activation-queue.json",
     "PILOT-ACTIVATION-REQUEST.md",
     "RIGHTS-REVIEW-REQUEST.md",
+    "source-family-rights-review-packet.json",
     "observatory-chart-catalog.json",
     "trend-monitoring-status.json",
     "falsification-review-queue.json",
