@@ -49,6 +49,23 @@ def main() -> int:
         "run_count": len(runs),
         "passed_run_count": sum(int(row.get("pipeline_status") == "passed") for row in runs),
         "acceptance": "Each of 104 distinct weekly windows must contain a passed full refresh, with missed-window recovery evidence retained.",
+        "weekly_window_record_schema": [
+            "scheduled_window_utc",
+            "actual_run_timestamp_utc",
+            "pipeline_status_and_step_count",
+            "source_family_freshness_decision",
+            "open_gate_delta",
+            "missed_window_reason_or_null",
+            "manual_dispatch_recovery_artifact_or_null",
+            "release_owner_review_and_next_review_date",
+        ],
+        "missed_window_policy": "Investigate any gap over 168 hours, preserve the prior release, run manual dispatch, and retain the recovery output alongside the affected weekly row.",
+        "required_review_evidence": [
+            "refresh-history.json",
+            "refresh-continuity-audit.json",
+            "refresh-schedule-health.json",
+            "release-health.json",
+        ],
         "next_action": "Allow the scheduled workflow to accumulate distinct weekly windows; investigate any missing or stale window and retain manual-dispatch recovery evidence.",
         "boundary": "This plan measures observed weekly coverage only. It does not predict future execution, clear rights, qualify trends, or authorize internal company access.",
     }
