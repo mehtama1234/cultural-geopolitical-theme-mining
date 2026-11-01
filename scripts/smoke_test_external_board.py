@@ -136,6 +136,7 @@ def main() -> int:
                             "food-insecurity-rights-review.json",
                             "IBIS bounded outcome review",
                             "ibis-adult-day-outcome-review.json",
+                            "Separate measure changes",
                             "NPALS public table reconciliation",
                             "npals-public-table-extract.json",
                             "Next outcome acquisition",
