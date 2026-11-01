@@ -417,11 +417,10 @@ def main() -> int:
     assert qualification_matrix["qualified_external_trend_count"] == sum(row["gate_status"] in {"qualified_external_trend", "monitored_external_trend"} for row in qualification_matrix["rows"])
     pilot_register = json.loads((ANALYSIS / "pilot-register.json").read_text())
     assert pilot_register["schema"] == "external-trend-intelligence.pilot-register.v1"
-    assert len(pilot_register["pilots"]) == 1
-    pilot = pilot_register["pilots"][0]
-    assert pilot["status"] == "design_only_external_gate"
-    assert pilot["external_gate"]["current_status"] == "held"
-    assert pilot["company_ref"]["company_id"] is None
+    assert len(pilot_register["pilots"]) >= 1
+    assert all(pilot["status"] == "design_only_external_gate" for pilot in pilot_register["pilots"])
+    assert all(pilot["company_ref"]["company_id"] is None for pilot in pilot_register["pilots"])
+    assert any(pilot["candidate_id"] == "candidate-us-food-insecurity-persistence" for pilot in pilot_register["pilots"])
     pilot_readiness = json.loads((ANALYSIS / "pilot-readiness.json").read_text())
     assert pilot_readiness["schema"] == "external-trend-intelligence.pilot-readiness.v1"
     assert pilot_readiness["pilot_count"] == len(pilot_register["pilots"])

@@ -91,12 +91,12 @@
       "status": "pass"
     },
     "company_pilots": {
-      "registered": 1,
+      "registered": 2,
       "approved_tests": 0,
       "status": "hold",
       "readiness": {
         "ready_for_approved_test": 0,
-        "blocked_external_first": 1
+        "blocked_external_first": 2
       }
     }
   },
