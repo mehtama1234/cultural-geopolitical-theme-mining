@@ -133,6 +133,7 @@
         "FRONTEND-INTEGRATION.md",
         "frontend-publication-registry.json",
         "observatory-chart-catalog.json",
+        "frontend-publication-review-packet.json",
         "candidate-qualification-matrix.json",
         "temporal-decision-narrative.json",
         "record-quality-audit.json",
@@ -141,7 +142,7 @@
         "review-calendar.json",
         "test_frontend_publication_contract.py"
       ],
-      "gap": "Reader surface exposes the qualified external food-insecurity pattern, held candidates, metadata quality, host-dependence review queue, and 9 consolidated open gates (3 critical); the publication contract now verifies that every registered narrative and chart resolves to a manifest-listed artifact with required caveat metadata, but no validated company outcome is published."
+      "gap": "Reader surface exposes the qualified external food-insecurity pattern, held candidates, metadata quality, host-dependence review queue, and 9 consolidated open gates (3 critical); the publication contract resolves registered artifacts and the frontend review packet tracks 11 chart handoffs (11 still require review), but no validated company outcome is published."
     },
     {
       "id": "analyst_operating_model",
@@ -154,9 +155,10 @@
         "operating-ownership-readiness.json",
         "refresh-continuity-audit.json",
         "successor-run-evidence.json",
+        "successor-review-packet.json",
         "evidence-acquisition-plan.json"
       ],
-      "gap": "The handoff records six roles, a reconciled ownership-assignment queue, a reproducible read-only successor-validation artifact, and an explicit readiness evaluation separating control pass from human assignment; named human ownership, an independently signed successor run, and sustained weekly continuity are still outstanding."
+      "gap": "The handoff records six roles, a reconciled ownership-assignment queue, a reproducible read-only successor-validation artifact, and a 3-task signable successor packet; named human ownership, an independently signed successor run, and sustained weekly continuity are still outstanding."
     },
     {
       "id": "validated_company_pilots",
