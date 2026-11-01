@@ -464,6 +464,12 @@ def main() -> int:
     assert continuity["observed_week_coverage_percent"] == round(continuity["observed_week_coverage_ratio"] * 100, 1)
     assert continuity["unattended_two_year_coverage"] == "not_demonstrated"
     assert continuity["next_action"] and continuity["boundary"]
+    pilot_blueprint = json.loads((ANALYSIS / "pilot-food-security-service-room-blueprint.json").read_text())
+    assert pilot_blueprint["schema"] == "external-trend-intelligence.pilot-blueprint.v1"
+    assert pilot_blueprint["status"] == "external_gate_passed_internal_contract_pending"
+    assert pilot_blueprint["pilot_id"] == "pilot-food-security-service-room-001"
+    assert pilot_blueprint["current_blockers"] and pilot_blueprint["falsifier"] and pilot_blueprint["stop_rule"]
+    assert pilot_blueprint["boundary"] and pilot_blueprint["decision_contract_to_complete"]["company_id"] is None
     ownership = json.loads((ANALYSIS / "ownership-assignment-queue.json").read_text())
     assert ownership["schema"] == "external-trend-intelligence.ownership-assignment-queue.v1"
     successor_packet = json.loads((ANALYSIS / "successor-review-packet.json").read_text())

@@ -643,6 +643,9 @@
       fetch('pilot-contract-intake.json').then(r => r.json()).then(intake => {
         pilots.prepend(card('Pilot contract intake', intake.status, `${intake.pilot_count} fillable contracts · no company data or identity is present · ${intake.next_action}`));
       });
+      fetch('pilot-food-security-service-room-blueprint.json').then(r => r.json()).then(blueprint => {
+        pilots.prepend(card('First pilot blueprint', blueprint.status, `${blueprint.current_blockers.length} blockers · ${blueprint.permitted_design.minimum_internal_grain} ${blueprint.boundary}`));
+      });
       const monitoringCards = el('monitoring-register'); monitoringRegister.trends.forEach(trend => monitoringCards.append(monitoringCard(trend)));
       const stageCards = el('case-stage-panel'); stagePanel.cases.forEach(item => stageCards.append(caseStageCard(item)));
       const crossStageCards = el('cross-publisher-stage-panel');

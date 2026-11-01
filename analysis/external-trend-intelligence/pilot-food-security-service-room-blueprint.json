@@ -1,0 +1,62 @@
+{
+  "schema": "external-trend-intelligence.pilot-blueprint.v1",
+  "status": "external_gate_passed_internal_contract_pending",
+  "pilot_id": "pilot-food-security-service-room-001",
+  "candidate_id": "candidate-us-food-insecurity-persistence",
+  "purpose": "Convert the monitored external food-security signal into a safe, bounded company decision-test specification without connecting company data.",
+  "external_basis": {
+    "qualification_artifact": "candidate-qualification-matrix.json",
+    "external_state": "monitored_external_trend",
+    "primary_narrative": "food-security-decision-brief.json",
+    "independent_challenge": "food-insecurity-independent-comparison.json",
+    "rights_review": "food-insecurity-rights-review.json",
+    "interpretation": "Use the external series as contextual planning evidence only; do not infer that any employee, customer, or account is food insecure."
+  },
+  "decision_contract_to_complete": {
+    "company_id": null,
+    "business_unit": null,
+    "decision_owner": null,
+    "decision_deadline": null,
+    "workflow": null,
+    "internal_dataset_or_aggregate_query": null,
+    "geography": null,
+    "period": null,
+    "primary_outcome": null,
+    "secondary_outcomes": [],
+    "unit": null,
+    "denominator": null,
+    "comparison_group": null,
+    "analysis_owner": null
+  },
+  "permitted_design": {
+    "minimum_internal_grain": "Aggregated geography-period-workflow cells unless a separately approved privacy review permits a different grain.",
+    "candidate_outcomes": [
+      "assistance-request rate",
+      "service completion rate",
+      "delay or repeat-contact rate",
+      "resource-substitution or deferral rate"
+    ],
+    "external_to_internal_crosswalk": "Map only geography, period, and decision context. Do not label an internal record as food insecure from the external prevalence series.",
+    "missing_and_unmatched": "Report suppressed, missing, unmatched, and incompatible cells separately; never convert them to zero or silently drop them.",
+    "analysis_boundary": "Descriptive association and operational scenario testing only; no causal attribution, individual risk score, eligibility decision, or population prevalence estimate."
+  },
+  "preregistration_requirements": [
+    "named company and decision owner",
+    "lawful access and privacy classification",
+    "retention and redistribution limits",
+    "primary outcome, comparison, and expected direction",
+    "external-to-internal crosswalk and incompatible-case policy",
+    "falsifier and stop rule",
+    "independent review of the analysis before release"
+  ],
+  "falsifier": "No stable difference under the pre-specified comparison, a reversed direction, or a stronger operational explanation unrelated to the contextual external signal.",
+  "stop_rule": "Stop before internal access if rights reuse is not approved, the external monitor reverses under a stable definition, the internal denominator cannot be stated, privacy review fails, or the primary outcome is not measurable.",
+  "current_blockers": [
+    "source-specific rights owner approval",
+    "named company decision contract",
+    "internal dataset and denominator definition",
+    "privacy and lawful-access review",
+    "pre-registered analysis owner"
+  ],
+  "boundary": "This blueprint makes the first pilot executable in principle but is not an approval, does not contain company identity or data, and does not authorize an internal bridge."
+}

@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "41f39c07fe4d88e1e8c034e9a7946c27786669ab",
-  "artifact_count": 127,
+  "source_tree_commit": "c503ffea13165765b0d2f5e8529e94d7a9d70f48",
+  "artifact_count": 128,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -66,8 +66,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 8267,
-      "sha256": "be403c4ade1f3ed8398be8c7cf8e4395384625c36518b49e2708dfbcf5249aee"
+      "bytes": 8512,
+      "sha256": "6b8e5f72d170cea2e02423fed456b3327e04f424fee1fa01c8e744b8176809f9"
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
@@ -76,13 +76,18 @@
     },
     {
       "path": "analysis/external-trend-intelligence/PILOT-VALIDATION-PROTOCOL.md",
-      "bytes": 2455,
-      "sha256": "ce4f4f533b812d6554e22373145efa4d18b834e18944e61f5294f62788a2a8e4"
+      "bytes": 2759,
+      "sha256": "cebbc9b2246e58c680541b9da90779f9745902d336971529eced3759815652ed"
     },
     {
       "path": "analysis/external-trend-intelligence/pilot-contract-intake.json",
       "bytes": 7693,
       "sha256": "294f4397d1e552d5d7a5b2c6b77b95911b4aa516d8b1ea22e7e1b86979752da1"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/pilot-food-security-service-room-blueprint.json",
+      "bytes": 3450,
+      "sha256": "ae4fc1c6161a2972e45b7d4e6d6a3c134c7c793b727fdd918a9c9ae3ccaf676d"
     },
     {
       "path": "analysis/external-trend-intelligence/independent-stage-comparison.json",
@@ -152,7 +157,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "8cec68c0d8d0c30a3efdee14f1f6818efc6c5322a3d3126eb9f53677a04ef0c0"
+      "sha256": "0dcf48d442024fecc242295d845ff4254e53da7ec5179ad6ca9cba840f7f151e"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -616,8 +621,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 84427,
-      "sha256": "0d3bae4c26fa5d4e81b8105eea07ef310f71b11001fe786ef33515405ce19686"
+      "bytes": 84740,
+      "sha256": "01f47c89b76674b24749dddcb76a59af34a05fd8dd28e8741e10d08b9bdaf610"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",
