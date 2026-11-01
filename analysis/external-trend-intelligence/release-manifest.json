@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "99a69fcb0039926d8c9ac1d3899ee81a805e137b",
+  "source_tree_commit": "f8e73b80b910daefd6c872e898ec17030aadf64f",
   "artifact_count": 164,
   "artifacts": [
     {
@@ -206,8 +206,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/observatory-chart-catalog.json",
-      "bytes": 8485,
-      "sha256": "71cd8ee28d2e0724c1d07c6772e7d56a3a7f3f5f9eef26f5cddea9f9ac8a8e2b"
+      "bytes": 9482,
+      "sha256": "df20bb8de4ccf843f053ad28b3510ed337f7acfe3b5740ac80466bb28222b4a9"
     },
     {
       "path": "analysis/external-trend-intelligence/bounded-subset-lineage-review.json",

@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.observatory-chart-catalog.v1",
   "status": "frontend_chart_contract_registered",
-  "chart_count": 9,
+  "chart_count": 10,
   "charts": [
     {
       "chart_id": "domain-coverage",
@@ -178,6 +178,32 @@
       ],
       "status_field": "status",
       "boundary": "Freshness permits intake only; it does not establish rights, independence, or trend validity."
+    },
+    {
+      "chart_id": "ibis-adult-day-outcome-changes",
+      "theme": "industry-and-workforce",
+      "subtheme": "adult-day-capacity-and-payer-context",
+      "concept": "bounded change across capacity, participation, and state payer context",
+      "title": "Adult-day outcome changes: separate measures",
+      "chart_type": "normalized_change_bars",
+      "source_artifacts": [
+        "ibis-adult-day-outcome-review.json",
+        "npals-public-table-extract.json"
+      ],
+      "visual_encoding": {
+        "category": "derived_measure",
+        "value": "percent_change",
+        "status": "review_status"
+      },
+      "required_visible_fields": [
+        "period",
+        "unit",
+        "geography",
+        "uncertainty",
+        "counter_signal"
+      ],
+      "status_field": "review_status",
+      "boundary": "Separate descriptive changes only; survey-frame differences, state-specific rates, and rights boundaries prevent pooled estimation or causal company claims."
     },
     {
       "chart_id": "rights-readiness",
