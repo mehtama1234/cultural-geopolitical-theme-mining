@@ -359,6 +359,12 @@ def main() -> int:
     assert refresh_history["latest"]["parse_error_count"] == 0
     assert refresh_history["latest"]["pipeline_step_count"] > 0
     assert refresh_history["latest"]["pipeline_status"] == "passed"
+    continuity = json.loads((ANALYSIS / "refresh-continuity-audit.json").read_text())
+    assert continuity["schema"] == "external-trend-intelligence.refresh-continuity-audit.v1"
+    assert continuity["run_count"] == refresh_history["run_count"]
+    assert continuity["expected_cadence"] == "weekly"
+    assert continuity["unattended_two_year_coverage"] == "not_demonstrated"
+    assert continuity["next_action"] and continuity["boundary"]
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
     assert ibis_sample["counter_signals"]

@@ -705,6 +705,9 @@
         const latest = history.latest;
         refreshCards.prepend(card(`${history.run_count} recorded refresh runs`, latest.release_status, `Latest ${latest.run_id} · ${latest.record_count.toLocaleString()} records · ${latest.pipeline_step_count || '—'} pipeline steps ${latest.pipeline_status || 'unreported'} · ${latest.blocker_count} open gates · source ${latest.source_tree_revision.slice(0, 12)}`));
       });
+      fetch('refresh-continuity-audit.json').then(r => r.json()).then(audit => {
+        refreshCards.prepend(card('Observed refresh continuity', audit.continuity_status, `${audit.run_count} runs across ${audit.observed_day_count} observed days · max interval ${audit.max_interval_hours ?? '—'} hours · unattended two-year coverage: ${audit.unattended_two_year_coverage}`));
+      });
       const lineageWarnings = el('lineage-warnings');
       lineageWarnings.append(card('Publisher dependence', `${publisherDependence.shared_host_count} shared hosts · ${publisherDependence.independence_status}`, `${publisherDependence.unique_host_count} hosts across ${Object.keys(publisherDependence.source_maps).length} normalized maps. Shared hosts are warnings, not independent confirmation. See publisher-dependence-summary.json.`));
       Object.entries(lineageReview.cross_observation_url_overlap).forEach(([url, observationIds]) => lineageWarnings.append(lineageWarningCard(url, observationIds)));

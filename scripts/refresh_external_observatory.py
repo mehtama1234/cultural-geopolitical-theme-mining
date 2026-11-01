@@ -72,6 +72,7 @@ STEPS = [
     ["scripts/test_pilot_design_dry_run.py"],
     ["scripts/test_external_refresh_workflow.py"],
     ["scripts/build_refresh_history.py"],
+    ["scripts/build_refresh_continuity_audit.py"],
     ["scripts/build_program_scorecard.py"],
     ["scripts/build_review_calendar.py"],
     ["scripts/test_review_calendar.py"],

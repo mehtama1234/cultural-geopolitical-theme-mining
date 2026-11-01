@@ -1,0 +1,19 @@
+{
+  "schema": "external-trend-intelligence.refresh-continuity-audit.v1",
+  "run_count": 77,
+  "passed_run_count": 67,
+  "observed_day_count": 2,
+  "observed_days": [
+    "2026-10-31",
+    "2026-11-01"
+  ],
+  "first_observed_run": "2026-10-31T22:09:08+00:00",
+  "latest_observed_run": "2026-11-01T00:57:27+00:00",
+  "max_interval_hours": 0.108,
+  "median_interval_hours": 0.033,
+  "expected_cadence": "weekly",
+  "continuity_status": "observed_burst_only",
+  "unattended_two_year_coverage": "not_demonstrated",
+  "next_action": "Allow the scheduled workflow to accumulate weekly runs across distinct weeks; investigate any gap over 168 hours and retain the workflow dispatch path for recovery.",
+  "boundary": "This audit describes observed run history only. It does not prove that a future weekly schedule will execute for two years or that open evidence gates have passed."
+}
