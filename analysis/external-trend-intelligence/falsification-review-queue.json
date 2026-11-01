@@ -1,0 +1,107 @@
+{
+  "schema": "external-trend-intelligence.falsification-review-queue.v1",
+  "candidate_count": 5,
+  "ready_for_monitoring_challenge_count": 1,
+  "held_pending_decisive_evidence_count": 4,
+  "rows": [
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "gate_status": "held",
+      "review_state": "held_pending_decisive_evidence",
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "falsifier": "If comparable cases repeatedly show usable recovery before formal response, or formal response without durable access improvement, the sequence claim is weakened.",
+      "next_decisive_test": "Code formal response, implementation, receipt, durable access, and exit stages across independent labor, consumer, health, and public-service records.",
+      "backtest_plan": {
+        "status": "not_started",
+        "holdout": "later case or release after the source observation period",
+        "outcome": "receipt, usable recovery, durable access, and exit after formal response",
+        "required_evidence": "dated comparable cases with the same response, implementation, receipt, recovery, and exit stages"
+      }
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "gate_status": "held",
+      "review_state": "held_pending_decisive_evidence",
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "falsifier": "If compatible repeated measures show pressure rising without reduced participation, substitution, or delayed completion, the practical-room mechanism is weakened.",
+      "next_decisive_test": "Preserve compatible time, cost, participation, and wellbeing units before interpreting practical-room change.",
+      "backtest_plan": {
+        "status": "not_started",
+        "holdout": "later survey wave or geography held out from candidate construction",
+        "outcome": "time pressure, participation, substitution, or delayed completion using compatible denominators",
+        "required_evidence": "at least two comparable waves or places with common unit, population, and participation measure"
+      }
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "gate_status": "held",
+      "review_state": "held_pending_decisive_evidence",
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "falsifier": "If capability adoption repeatedly coincides with stronger control, remedy, and trust outcomes across independent measures, the contested-control claim is weakened.",
+      "next_decisive_test": "Separate efficiency, delegation, trust, control, recourse, retention, and exit measures.",
+      "backtest_plan": {
+        "status": "not_started",
+        "holdout": "later attitude, adoption, or control-measure release",
+        "outcome": "capability adoption alongside verification, contestability, remedy, or trust",
+        "required_evidence": "repeated independent measures separating capability from control and trust"
+      }
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "gate_status": "held",
+      "review_state": "held_pending_decisive_evidence",
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "falsifier": "If comparable infrastructure events show no durable reliability, cost, compensation, or acceptance consequence, the dependency-to-power mechanism is weakened.",
+      "next_decisive_test": "Link capacity or ownership claims to operation, actual receipt, local burden, maintenance, and acceptance.",
+      "backtest_plan": {
+        "status": "not_started",
+        "holdout": "later operating or disruption window after the candidate period",
+        "outcome": "operation followed by reliability, tariff, bill, compensation, or acceptance outcome",
+        "required_evidence": "dated event and outcome records linked by compatible geography and system unit"
+      }
+    },
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "gate_status": "monitored_external_trend",
+      "review_state": "ready_for_monitoring_challenge",
+      "blocking_gates": [],
+      "falsifier": "A later comparable release that reverses the stated mechanism would falsify the candidate.",
+      "next_decisive_test": "Align USDA and Urban definitions, preserve the methodology break, and acquire the next comparable release before any monitored state or internal bridge.",
+      "backtest_plan": {
+        "status": "passed_descriptive_holdout",
+        "holdout": "next USDA annual release and next Urban WBNS release, with 2025 Urban methodology break preserved",
+        "outcome": "food-insecurity prevalence and subgroup persistence under clearly defined survey frames",
+        "required_evidence": "same questionnaire threshold, denominator, geography, and uncertainty treatment across at least one new release"
+      }
+    }
+  ],
+  "boundary": "A falsification queue records how a claim could be weakened or reversed. It does not promote a candidate or authorize an internal test."
+}

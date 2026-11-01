@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "57932af41822bf7f5f6a2604f4848b252bc2e641",
-  "artifact_count": 89,
+  "source_tree_commit": "04568b6e80b11119d79d520009d3d8846e5d9a11",
+  "artifact_count": 90,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -132,7 +132,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2510,
-      "sha256": "694117ac2e18344bd908a3e8bca48b24c2a3555fbc931ac9b5cf90abfdb48a61"
+      "sha256": "a42c93757c31f8d095482dac082ebd6ccf2bb06a04003c1ed8d532868a809c9f"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -398,6 +398,11 @@
       "path": "analysis/external-trend-intelligence/trend-monitoring-status.json",
       "bytes": 2677,
       "sha256": "44d80bc95c5ab94ee37d353b7485ff9d6451e3006fff4e4ac691579c37cb3ddc"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/falsification-review-queue.json",
+      "bytes": 5502,
+      "sha256": "b58f305fecb7f65f539a85bc01b56c9d229f9c3c5afd4468b5f56b669dc07e3d"
     },
     {
       "path": "analysis/external-trend-intelligence/source-family-controls.json",
