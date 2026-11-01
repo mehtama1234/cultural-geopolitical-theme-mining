@@ -124,9 +124,10 @@
         "record-quality-audit.json",
         "host-dependence-review-queue.json",
         "open-gate-register.json",
-        "review-calendar.json"
+        "review-calendar.json",
+        "test_frontend_publication_contract.py"
       ],
-      "gap": "Reader surface exposes the qualified external food-insecurity pattern, held candidates, metadata quality, host-dependence review queue, and 9 consolidated open gates (3 critical); the chart catalog now provides reusable theme/subtheme/concept and caveat contracts, but no validated company outcome is published."
+      "gap": "Reader surface exposes the qualified external food-insecurity pattern, held candidates, metadata quality, host-dependence review queue, and 9 consolidated open gates (3 critical); the publication contract now verifies that every registered narrative and chart resolves to a manifest-listed artifact with required caveat metadata, but no validated company outcome is published."
     },
     {
       "id": "analyst_operating_model",
