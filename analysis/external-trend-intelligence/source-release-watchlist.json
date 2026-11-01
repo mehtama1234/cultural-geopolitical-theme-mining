@@ -25,7 +25,7 @@
         "schema": "external-trend-intelligence.census-cbp-release-check.v1",
         "publisher": "U.S. Census Bureau",
         "dataset": "County Business Patterns",
-        "checked_at": "2026-11-01T06:36:16.643081+00:00",
+        "checked_at": "2026-11-01T06:41:58.008484+00:00",
         "latest_pinned_year": 2023,
         "target_year": 2024,
         "checks": [
@@ -105,8 +105,8 @@
       "latest_observation_period": "FY2026",
       "next_target_period": "FY2027 Navy budget and execution release",
       "cadence_or_trigger": "annual Navy budget release and execution/award update",
-      "status": "official_context_acquired_scope_review_pending",
-      "acquisition_action": "Acquire an official execution or award series with compatible period, geography, and outcome definition before treating this as independent confirmation or promoting the IBIS claim."
+      "status": "official_execution_snapshot_acquired_lineage_review_pending",
+      "acquisition_action": "Reconcile the USAspending execution snapshot against the Navy budget context and complete award, facility, fiscal-year, and rights review before treating this as independent confirmation or promoting the IBIS claim."
     }
   ],
   "boundary": "The watchlist records release targets from pinned artifacts. It does not prove upstream freshness, rights clearance, independence, comparability, or a trend result.",
