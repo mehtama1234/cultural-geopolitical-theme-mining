@@ -32,6 +32,7 @@ def main() -> int:
     food_holdout = load("food-insecurity-temporal-holdout.json")
     food_rights = load("food-insecurity-rights-review.json")
     ibis_outcome = load("ibis-adult-day-outcome-review.json")
+    npals = load("npals-public-table-extract.json")
     denominator = load("denominator-reconciliation-review.json")
     health = {
         "source_refresh": {
@@ -40,6 +41,12 @@ def main() -> int:
             "incomplete": status["incomplete_count"],
             "stale": status.get("stale_count", 0),
             "status": "pass" if status["incomplete_count"] == 0 and status.get("stale_count", 0) == 0 else "hold",
+        },
+        "live_source_availability": {
+            "sources_checked": 1,
+            "npals_retrieval_status": npals["retrieval_status"],
+            "npals_source_available": npals["source_available"],
+            "status": "pass" if npals["source_available"] else "hold",
         },
         "evidence_contract": {
             "observations": contract["observation_count"],
@@ -134,6 +141,8 @@ def main() -> int:
         blockers.append("household and adult denominator definitions require reconciliation")
     if health["source_refresh"]["stale"]:
         blockers.append("one or more source families have stale refresh artifacts")
+    if health["live_source_availability"]["status"] == "hold":
+        blockers.append("one or more live external sources are unavailable; preserved data is marked stale")
     report = {
         "schema": "external-trend-intelligence.release-health.v1",
         "release_status": "operational_with_gates" if not any(section["status"] == "hold" for section in health.values()) else "operational_with_open_gates",

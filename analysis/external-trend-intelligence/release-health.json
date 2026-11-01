@@ -9,6 +9,12 @@
       "stale": 0,
       "status": "pass"
     },
+    "live_source_availability": {
+      "sources_checked": 1,
+      "npals_retrieval_status": "fresh_api_extract",
+      "npals_source_available": true,
+      "status": "pass"
+    },
     "evidence_contract": {
       "observations": 10,
       "gaps": 0,
