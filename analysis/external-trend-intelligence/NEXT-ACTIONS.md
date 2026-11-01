@@ -62,6 +62,14 @@ that queue using an explicit rule favoring government/academic source types,
 host diversity, and source count. It is a work packet only: all ten remain
 `pending_manual_review`, with no qualification or internal-data permission.
 
+The first metadata triage is recorded in
+[`ibis-claim-review-dispositions.json`](ibis-claim-review-dispositions.json).
+The drug-testing demand claim is held because three of four source rows are
+Quest Diagnostics material, two lack publication dates, and no dated
+independent outcome is present in the pinned artifact. This is a conservative
+hold—not a finding that the claim is false—and the other nine first-batch
+claims remain pending.
+
 Next test:
 
 1. Select one finding, beginning with “Compliance Is Becoming Economic

@@ -1,0 +1,58 @@
+{
+  "schema": "external-trend-intelligence.ibis-claim-review-dispositions.v1",
+  "finding_slug": "compliance-as-economic-architecture",
+  "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+  "status": "one_conservative_triage_disposition_recorded",
+  "review_method": "metadata-only triage from pinned repository artifacts; not legal rights clearance or independent outcome validation",
+  "completed_disposition_count": 1,
+  "pending_first_batch_count": 9,
+  "pending_review_ids": [
+    "ibis-independence::atm-manufacturing::atm-cash",
+    "ibis-independence::cell-phone-repair::repair-policy",
+    "ibis-independence::community-housing-and-homeless-shelters-in-the-us::shelter-affordability",
+    "ibis-independence::dna-and-dna-forensic-laboratories::dna-public",
+    "ibis-independence::eating-disorder-clinics::ed-need",
+    "ibis-independence::family-law-and-divorce-lawyers-and-attorneys::family-demographics",
+    "ibis-independence::flying-schools::flight-demand",
+    "ibis-independence::commercial-oven-manufacturing::com-scale",
+    "ibis-independence::financial-data-service-providers::fdsp-alternative"
+  ],
+  "dispositions": [
+    {
+      "review_id": "ibis-independence::drug-and-alcohol-test-kit-manufacturing::test-demand",
+      "industry_slug": "drug-and-alcohol-test-kit-manufacturing",
+      "claim_id": "test-demand",
+      "claim_text": "SAMHSA and Quest sources show continuing substance-use and workplace drug-testing demand and measurable positivity patterns.",
+      "review_scope": "repository_metadata_triage",
+      "review_status": "triage_complete_full_review_required",
+      "disposition": "held_insufficient_evidence",
+      "evidence_checked": {
+        "source_count": 4,
+        "publisher_counts": {
+          "Substance Abuse and Mental Health Services Administration": 1,
+          "Quest Diagnostics": 3
+        },
+        "source_type_counts": {
+          "government": 1,
+          "company": 3
+        },
+        "missing_published_at_count": 2,
+        "source_urls": [
+          "https://www.samhsa.gov/data/report/2024-nsduh-annual-national-report",
+          "https://www.questdiagnostics.com/business-solutions/employers/drug-screening/knowledge-center/drug-testing-index",
+          "https://ir.questdiagnostics.com/press-releases/press-release-details/2026/One-in-Five-American-Workers-Tested-Had-a-Positive-Hair-Drug-Test-in-2025-Signaling-Persistent-Long-Term-Substance-Use-Patterns/default.aspx",
+          "https://www.questdiagnostics.com/business-solutions/resources-insights/workforce-health-solutions/drug-testing/quest-diagnostics-dti--insights--marijuana-is-still-number-1--just-not-in-a-good-way"
+        ]
+      },
+      "independence_finding": "Not established: three of four source rows are Quest Diagnostics material, and the local records do not establish whether those publications share an underlying study, sample, or methodology.",
+      "outcome_finding": "Not observed: the artifact lists candidate measures such as test volume, positivity, turnaround, and lab capacity but contains no dated independent outcome series.",
+      "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
+      "counter_signal": "The government source describes population substance-use context, while the company sources describe a vendor's testing observations; the populations and denominators are not interchangeable.",
+      "next_test": "Recover the exact Quest methodology and sample frame, then acquire an independent dated testing-volume or positivity series with a compatible population and denominator.",
+      "company_bridge_status": "blocked_external_first_gate",
+      "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
+    }
+  ],
+  "next_action": "Recover the exact Quest methodology and sample frame, then acquire an independent dated testing-volume or positivity series with a compatible population and denominator.",
+  "boundary": "This artifact records one held triage disposition. It does not qualify the claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge."
+}
