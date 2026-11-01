@@ -121,6 +121,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/feeding-america-map-meal-gap-2026-national.json",
     "analysis/external-trend-intelligence/ibis-community-food-outcome-linkage-review.json",
     "analysis/external-trend-intelligence/ibis-community-food-comparison.json",
+    "analysis/external-trend-intelligence/FEEDING-AMERICA-DATA-REQUEST.md",
     "analysis/external-trend-intelligence/ibis-claim-review-dispositions.json",
     "analysis/external-trend-intelligence/cell-phone-repair-outcome-acquisition-plan.json",
     "analysis/external-trend-intelligence/open-repair-alliance-mobile-snapshot.json",

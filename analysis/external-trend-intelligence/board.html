@@ -1004,6 +1004,7 @@
       fetch('ibis-community-food-comparison.json').then(r => r.json()).then(comparison => {
         el('ibis-outcome-acquisition').prepend(card('USDA versus Feeding America comparison', comparison.status, `${comparison.interpretation} Next: ${comparison.next_action}`));
       });
+      el('ibis-outcome-acquisition').append(card('Feeding America data-request handoff', 'request_ready_public_snapshot_only', 'The underlying county/state release is request-gated. <a href="FEEDING-AMERICA-DATA-REQUEST.md">Open the request handoff</a> before any pooled comparison or company use.'));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
     fetch('program-scorecard.json').then(r => r.json()).then(scorecard => {
       const m = scorecard.metrics;

@@ -393,6 +393,11 @@ def main() -> int:
     assert ibis_food_comparison["decision"] == "hold"
     assert ibis_food_comparison["lineage_and_dependence"]["publisher_diversity"] == "distinct_publishers"
     assert ibis_food_comparison["next_action"] and ibis_food_comparison["boundary"]
+    feeding_request = (ANALYSIS / "FEEDING-AMERICA-DATA-REQUEST.md").read_text()
+    assert "Request scope" in feeding_request
+    assert "Required review before acquisition is counted" in feeding_request
+    assert "request_ready_public_snapshot_only" in feeding_request
+    assert "No company data may be connected" in feeding_request
     ibis_dispositions = json.loads((ANALYSIS / "ibis-claim-review-dispositions.json").read_text())
     assert ibis_dispositions["schema"] == "external-trend-intelligence.ibis-claim-review-dispositions.v1"
     assert ibis_dispositions["status"] == "ten_conservative_triage_dispositions_recorded"

@@ -61,6 +61,7 @@ ARTIFACTS = [
     "feeding-america-map-meal-gap-2026-national.json",
     "ibis-community-food-outcome-linkage-review.json",
     "ibis-community-food-comparison.json",
+    "FEEDING-AMERICA-DATA-REQUEST.md",
 ]
 
 
