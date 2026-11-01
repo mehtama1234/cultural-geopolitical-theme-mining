@@ -55,6 +55,7 @@ ARTIFACTS = [
     "CONTINUITY-REVIEW-REQUEST.md",
     "census-cbp-release-check.json",
     "pilot-activation-queue.json",
+    "pilot-validation-review-packet.json",
     "PILOT-ACTIVATION-REQUEST.md",
     "RIGHTS-REVIEW-REQUEST.md",
     "source-family-rights-review-packet.json",

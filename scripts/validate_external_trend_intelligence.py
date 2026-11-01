@@ -847,6 +847,13 @@ def main() -> int:
     assert pilot_simulation["synthetic_only"] is True and pilot_simulation["company_data_accessed"] is False
     assert pilot_simulation["approved_test_count"] == 0
     assert all(pilot_simulation["required_visibility_checks"].values())
+    pilot_packet = json.loads((ANALYSIS / "pilot-validation-review-packet.json").read_text())
+    assert pilot_packet["schema"] == "external-trend-intelligence.pilot-validation-review-packet.v1"
+    assert pilot_packet["status"] == "design_only_ready_for_human_activation_review"
+    assert pilot_packet["pilot_count"] == activation_queue["pilot_count"] == len(pilot_packet["rows"])
+    assert pilot_packet["approved_test_count"] == 0 and pilot_packet["company_data_accessed"] is False
+    assert all(row["required_decision_fields"] and row["decision_options"] and row["stop_rule"] for row in pilot_packet["rows"])
+    assert all(value is None for row in pilot_packet["rows"] for value in row["signoff"].values())
     monitoring = json.loads((ANALYSIS / "trend-monitoring-register.json").read_text())
     assert monitoring["schema"] == "external-trend-intelligence.trend-monitoring-register.v1"
     assert len(monitoring["trends"]) == qualification_matrix["candidate_count"]

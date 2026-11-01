@@ -124,6 +124,7 @@ STEPS = [
     ["scripts/build_pilot_contract_intake.py"],
     ["scripts/build_pilot_activation_queue.py"],
     ["scripts/build_pilot_bridge_simulation.py"],
+    ["scripts/build_pilot_validation_review_packet.py"],
     ["scripts/build_release_health.py"],
     ["scripts/test_refresh_stale_gate.py"],
     ["scripts/test_rights_release_gate.py"],

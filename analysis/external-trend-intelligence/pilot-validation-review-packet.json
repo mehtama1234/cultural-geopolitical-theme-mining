@@ -1,0 +1,211 @@
+{
+  "schema": "external-trend-intelligence.pilot-validation-review-packet.v1",
+  "status": "design_only_ready_for_human_activation_review",
+  "pilot_count": 3,
+  "approved_test_count": 0,
+  "company_data_accessed": false,
+  "rows": [
+    {
+      "pilot_id": "pilot-care-time-workflow-capacity-001",
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "external_gate": "held",
+      "readiness_status": "blocked_external_first",
+      "design_contract_complete": true,
+      "decision_question": "Does a specific company workflow show measurable delay, repeat effort, absence, or retention differences consistent with an externally qualified time/care constraint pattern?",
+      "falsifier": "No measurable difference under the pre-specified comparison, a reversed direction, or a stronger explanation unrelated to the proposed time/care mechanism.",
+      "required_before_approved_test": [
+        "candidate-qualification-matrix.json",
+        "rights-review-queue.json",
+        "pilot-contract-intake.json",
+        "PILOT-VALIDATION-PROTOCOL.md",
+        "signed privacy/lawful-access decision",
+        "preregistered analysis with falsifier and stop rule"
+      ],
+      "missing_approval_inputs": [
+        "company_id",
+        "business_unit",
+        "decision_owner",
+        "internal_dataset",
+        "period",
+        "primary_outcome",
+        "unit",
+        "denominator",
+        "privacy_class",
+        "lawful_access_basis",
+        "analysis_owner",
+        "stop_rule"
+      ],
+      "blocking_check_ids": [
+        "external_qualification",
+        "external_rights_reuse",
+        "company_decision_contract",
+        "internal_data_contract",
+        "access_privacy_rights",
+        "analysis_preregistration"
+      ],
+      "synthetic_bridge_status": "not_run",
+      "readiness_evidence": [],
+      "decision_options": [
+        "hold_external_first",
+        "approve_bounded_test",
+        "reject_or_retire",
+        "return_for_contract_revision"
+      ],
+      "required_decision_fields": [
+        "external qualification and rights status",
+        "company, business unit, and decision owner",
+        "internal dataset, period, unit, denominator, and crosswalk",
+        "privacy, lawful access, retention, and redistribution decision",
+        "preregistered primary outcome, comparison, falsifier, and stop rule",
+        "unmatched, missing, suppressed, and incompatible case policy",
+        "validation result, reviewer, and effective date"
+      ],
+      "signoff": {
+        "decision_owner": null,
+        "privacy_reviewer": null,
+        "analysis_owner": null,
+        "release_owner": null,
+        "approved_on": null,
+        "validation_result": null
+      },
+      "stop_rule": "Stop before internal access if any external qualification, rights, privacy, denominator, crosswalk, or preregistration check is incomplete."
+    },
+    {
+      "pilot_id": "pilot-food-security-service-room-001",
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "external_gate": "monitored_external_trend",
+      "readiness_status": "blocked_external_first",
+      "design_contract_complete": true,
+      "decision_question": "After rights and external monitoring gates are complete, does a bounded company service or support workflow show measurable differences associated with externally observed household food-security pressure?",
+      "falsifier": "No measurable difference under the pre-specified comparison, a reversed direction in the external monitor, or a stronger explanation unrelated to the proposed mechanism.",
+      "required_before_approved_test": [
+        "candidate-qualification-matrix.json",
+        "rights-review-queue.json",
+        "pilot-contract-intake.json",
+        "PILOT-VALIDATION-PROTOCOL.md",
+        "signed privacy/lawful-access decision",
+        "preregistered analysis with falsifier and stop rule"
+      ],
+      "missing_approval_inputs": [
+        "company_id",
+        "business_unit",
+        "decision_owner",
+        "internal_dataset",
+        "period",
+        "primary_outcome",
+        "unit",
+        "denominator",
+        "privacy_class",
+        "lawful_access_basis",
+        "analysis_owner",
+        "stop_rule"
+      ],
+      "blocking_check_ids": [
+        "external_rights_reuse",
+        "company_decision_contract",
+        "internal_data_contract",
+        "access_privacy_rights",
+        "analysis_preregistration"
+      ],
+      "synthetic_bridge_status": "not_company_data; see pilot-bridge-simulation.json",
+      "readiness_evidence": [],
+      "decision_options": [
+        "hold_external_first",
+        "approve_bounded_test",
+        "reject_or_retire",
+        "return_for_contract_revision"
+      ],
+      "required_decision_fields": [
+        "external qualification and rights status",
+        "company, business unit, and decision owner",
+        "internal dataset, period, unit, denominator, and crosswalk",
+        "privacy, lawful access, retention, and redistribution decision",
+        "preregistered primary outcome, comparison, falsifier, and stop rule",
+        "unmatched, missing, suppressed, and incompatible case policy",
+        "validation result, reviewer, and effective date"
+      ],
+      "signoff": {
+        "decision_owner": null,
+        "privacy_reviewer": null,
+        "analysis_owner": null,
+        "release_owner": null,
+        "approved_on": null,
+        "validation_result": null
+      },
+      "stop_rule": "Stop before internal access if any external qualification, rights, privacy, denominator, crosswalk, or preregistration check is incomplete."
+    },
+    {
+      "pilot_id": "pilot-formal-response-recovery-workflow-001",
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "external_gate": "held",
+      "readiness_status": "blocked_external_first",
+      "design_contract_complete": true,
+      "decision_question": "After the external response-to-recovery pattern is qualified, does a bounded company case or service workflow show measurable time-to-resolution, receipt, durable-access, or repeat-contact differences?",
+      "falsifier": "No measurable difference under the pre-specified comparison, repeated receipt before formal response, or durable resolution without the proposed response sequence.",
+      "required_before_approved_test": [
+        "candidate-qualification-matrix.json",
+        "rights-review-queue.json",
+        "pilot-contract-intake.json",
+        "PILOT-VALIDATION-PROTOCOL.md",
+        "signed privacy/lawful-access decision",
+        "preregistered analysis with falsifier and stop rule"
+      ],
+      "missing_approval_inputs": [
+        "company_id",
+        "business_unit",
+        "decision_owner",
+        "internal_dataset",
+        "period",
+        "primary_outcome",
+        "unit",
+        "denominator",
+        "privacy_class",
+        "lawful_access_basis",
+        "analysis_owner",
+        "stop_rule"
+      ],
+      "blocking_check_ids": [
+        "external_qualification",
+        "external_rights_reuse",
+        "company_decision_contract",
+        "internal_data_contract",
+        "access_privacy_rights",
+        "analysis_preregistration"
+      ],
+      "synthetic_bridge_status": "not_run",
+      "readiness_evidence": [],
+      "decision_options": [
+        "hold_external_first",
+        "approve_bounded_test",
+        "reject_or_retire",
+        "return_for_contract_revision"
+      ],
+      "required_decision_fields": [
+        "external qualification and rights status",
+        "company, business unit, and decision owner",
+        "internal dataset, period, unit, denominator, and crosswalk",
+        "privacy, lawful access, retention, and redistribution decision",
+        "preregistered primary outcome, comparison, falsifier, and stop rule",
+        "unmatched, missing, suppressed, and incompatible case policy",
+        "validation result, reviewer, and effective date"
+      ],
+      "signoff": {
+        "decision_owner": null,
+        "privacy_reviewer": null,
+        "analysis_owner": null,
+        "release_owner": null,
+        "approved_on": null,
+        "validation_result": null
+      },
+      "stop_rule": "Stop before internal access if any external qualification, rights, privacy, denominator, crosswalk, or preregistration check is incomplete."
+    }
+  ],
+  "acceptance_criteria": [
+    "Every pilot has an explicit external gate and rights decision before internal access.",
+    "Every pilot has a named decision owner, privacy review, lawful-access basis, and preregistered analysis.",
+    "Synthetic bridge evidence is kept separate from company results.",
+    "No pilot is approved while any prerequisite, stop rule, or unmatched-case policy is incomplete."
+  ],
+  "next_action": "Complete the external and rights gates first; then assign a decision owner and fill one pilot contract without providing internal data until every check passes.",
+  "boundary": "This packet makes pilot activation review executable; it is not a company finding, approval, causal estimate, or authorization to access internal data."
+}

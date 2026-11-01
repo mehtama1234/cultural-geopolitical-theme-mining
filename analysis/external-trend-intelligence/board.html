@@ -731,6 +731,11 @@
         target.append(card(`${queue.design_complete_count}/${queue.pilot_count} design contracts complete`, queue.status, `${queue.approved_test_count} approved tests · company data accessed: ${queue.company_data_accessed}. ${queue.boundary}`));
         queue.rows.forEach(row => target.append(card(row.pilot_id, `${row.external_gate} · ${row.blocking_check_ids.length} blockers`, `Missing approval inputs: ${row.missing_approval_inputs.join(', ') || 'none'}. ${row.next_action}`)));
       });
+      fetch('pilot-validation-review-packet.json').then(r => r.json()).then(packet => {
+        const target = el('pilot-activation-queue');
+        target.append(card('Pilot validation signoff packet', packet.status, `${packet.pilot_count} design-only pilots · ${packet.approved_test_count} approved · company data accessed: ${packet.company_data_accessed}. ${packet.next_action}`));
+        packet.rows.forEach(row => target.append(card(row.pilot_id, row.readiness_status, `Decision: ${row.decision_question} Stop rule: ${row.stop_rule}`)));
+      });
       const monitoringCards = el('monitoring-register'); monitoringRegister.trends.forEach(trend => monitoringCards.append(monitoringCard(trend)));
       const stageCards = el('case-stage-panel'); stagePanel.cases.forEach(item => stageCards.append(caseStageCard(item)));
       const crossStageCards = el('cross-publisher-stage-panel');
