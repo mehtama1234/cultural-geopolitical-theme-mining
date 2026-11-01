@@ -16,6 +16,7 @@ BOARD = ROOT / "analysis" / "external-trend-intelligence"
 PORT = 8765
 ARTIFACTS = [
     "board.html",
+    "TWO-YEAR-GOAL.md",
     "release-health.json",
     "refresh-status.json",
     "candidate-qualification-matrix.json",
