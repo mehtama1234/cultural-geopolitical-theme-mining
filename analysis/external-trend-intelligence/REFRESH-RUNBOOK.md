@@ -18,6 +18,17 @@ python3 scripts/build_external_refresh_status.py
 age. It is a control-plane check, not proof that a source is current or
 independent.
 
+`compatible-measure-search.json` is a discovery aid generated from the pinned
+record tree. It finds repeated measure keys and units across source hosts, then
+leaves population, denominator, period, uncertainty, rights, and publisher
+dependence for human review. A match is never treated as confirmation by the
+pipeline.
+
+The global-growth forecast comparison is a bounded example of that search:
+`global-growth-forecast-comparison.json` keeps OECD, UN DESA, and World Bank
+forecast vintages separate and schedules a forecast-versus-outcome backtest.
+It is scenario context, not a realized trend or a pooled estimate.
+
 Verify the rights gate remains fail-closed while any family is unresolved:
 
 ```text

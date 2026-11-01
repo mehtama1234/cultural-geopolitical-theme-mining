@@ -20,6 +20,8 @@ STEPS = [
     ["scripts/build_publisher_dependence_summary.py"],
     ["scripts/build_trend_hunting_source_map.py"],
     ["scripts/build_external_observation_manifest.py", "--git-ref", "HEAD", "--output", "analysis/external-trend-intelligence/observation-manifest.json"],
+    ["scripts/build_compatible_measure_search.py"],
+    ["scripts/build_global_growth_forecast_comparison.py"],
     ["scripts/build_external_family_observations.py"],
     ["scripts/build_external_family_lineage_review.py"],
     ["scripts/build_ibis_finding_claim_sample.py"],

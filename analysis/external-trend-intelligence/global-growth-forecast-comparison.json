@@ -1,0 +1,99 @@
+{
+  "schema": "external-trend-intelligence.global-growth-forecast-comparison.v1",
+  "status": "independent_forecast_comparison_pending_backtest",
+  "source_families": [
+    "OECD",
+    "UN DESA",
+    "World Bank"
+  ],
+  "forecasts": [
+    {
+      "measure": "global_growth_2026",
+      "unit": "percent projected global growth in 2026",
+      "values": [
+        {
+          "record_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room",
+          "title": "Energy shocks are being absorbed by supply substitution and reserves, but renewed inflation and depleted buffers narrow household and policy room",
+          "period": "2026-2027; global growth and energy-shock baseline",
+          "value": 2.9,
+          "source_hosts": [
+            "www.oecd.org"
+          ]
+        },
+        {
+          "record_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock",
+          "title": "A geopolitical energy shock is compressing global growth, reigniting inflation, and narrowing fiscal room for social and development responses",
+          "period": "September 2026; global growth outlook",
+          "value": 2.6,
+          "source_hosts": [
+            "desapublications.un.org"
+          ]
+        },
+        {
+          "record_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks",
+          "title": "Geopolitical energy shocks are narrowing growth and fiscal room unevenly, making debt capacity, buffers, and private investment central to social and institutional resilience",
+          "period": "2025-2028; global growth and geopolitical energy shock",
+          "value": 2.5,
+          "source_hosts": [
+            "www.worldbank.org"
+          ]
+        }
+      ],
+      "spread": 0.4
+    },
+    {
+      "measure": "global_growth_2027",
+      "unit": "percent projected global growth in 2027",
+      "values": [
+        {
+          "record_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room",
+          "title": "Energy shocks are being absorbed by supply substitution and reserves, but renewed inflation and depleted buffers narrow household and policy room",
+          "period": "2026-2027; global growth and energy-shock baseline",
+          "value": 3.0,
+          "source_hosts": [
+            "www.oecd.org"
+          ]
+        },
+        {
+          "record_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock",
+          "title": "A geopolitical energy shock is compressing global growth, reigniting inflation, and narrowing fiscal room for social and development responses",
+          "period": "September 2026; global growth outlook",
+          "value": 2.9,
+          "source_hosts": [
+            "desapublications.un.org"
+          ]
+        },
+        {
+          "record_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks",
+          "title": "Geopolitical energy shocks are narrowing growth and fiscal room unevenly, making debt capacity, buffers, and private investment central to social and institutional resilience",
+          "period": "2025-2028; global growth and geopolitical energy shock",
+          "value": 2.8,
+          "source_hosts": [
+            "www.worldbank.org"
+          ]
+        }
+      ],
+      "spread": 0.2
+    }
+  ],
+  "supports": [
+    "independent forecast-range visibility",
+    "geopolitical and financial scenario framing",
+    "future forecast-versus-outcome backtest design"
+  ],
+  "does_not_support": [
+    "observed global growth trend",
+    "causal attribution to an energy shock",
+    "pooled forecast",
+    "company exposure"
+  ],
+  "blocking_items": [
+    "forecast vintages and publication dates differ",
+    "global-economy coverage and model definitions are not identical",
+    "forecast uncertainty intervals are not carried in the source records",
+    "realized 2026 and 2027 outcomes are not yet available for backtesting",
+    "rights and publisher-dependence review remains open"
+  ],
+  "next_action": "Record the forecast vintage, interval or scenario range, and realized outcome when each release becomes available; retain revisions rather than overwriting the forecast.",
+  "boundary": "This is a bounded independent forecast comparison. It is not a qualified trend, forecast endorsement, causal estimate, or internal company finding."
+}

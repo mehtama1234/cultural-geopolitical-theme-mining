@@ -256,6 +256,17 @@
       <div class="source-registry" id="source-registry"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Compatible-measure search</h2>
+      <p class="muted">This automated scan finds repeated measure keys and units across source hosts. A match is only a review candidate; it is not independent confirmation.</p>
+      <div class="promotion-gates" id="compatible-measures"></div>
+    </section>
+    <section style="margin-top:28px">
+      <h2>Global growth forecast comparison</h2>
+      <p class="muted">OECD, UN DESA, and World Bank forecasts are shown as separate forecast vintages. This is scenario context, not an observed trend or pooled estimate.</p>
+      <div class="panel" style="margin:12px 0"><h3>Forecast values by publisher</h3><div id="global-growth-forecast-chart"></div></div>
+      <div class="promotion-gates" id="global-growth-forecast"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Refresh control plane</h2>
       <p class="muted">This view reports whether scheduled artifacts exist and how old the local files are. It does not prove source freshness, licensing, independence, or outcome validity.</p>
       <div class="source-families" id="refresh-status"></div>
@@ -724,6 +735,16 @@
       });
       const sourceRegistryCards = el('source-registry');
       sourceRegistry.sources.forEach(source => sourceRegistryCards.append(sourceRegistryCard(source)));
+      fetch('compatible-measure-search.json').then(r => r.json()).then(search => {
+        const target = el('compatible-measures');
+        target.append(card(`${search.candidate_compatibility_group_count} candidate groups`, search.status, `${search.record_count_scanned_at_pinned_head} records scanned at pinned HEAD. ${search.next_action}`));
+        search.rows.forEach(row => target.append(card(`${row.measure} · ${row.unit}`, row.status, `${row.record_count} records · ${row.source_host_count} hosts · ${row.boundary}`)));
+      });
+      fetch('global-growth-forecast-comparison.json').then(r => r.json()).then(comparison => {
+        const entries = comparison.forecasts.flatMap(item => item.values.map(value => [`${value.source_hosts[0] || value.record_id} · ${item.measure.replaceAll('_', ' ')}`, value.value]));
+        barChart(el('global-growth-forecast-chart'), entries, Math.max(...entries.map(([, value]) => value), 1));
+        el('global-growth-forecast').append(card(comparison.status.replaceAll('_', ' '), comparison.status, `${comparison.supports.join(' · ')}. Blocking: ${comparison.blocking_items.join(' · ')} Next: ${comparison.next_action}`));
+      });
       const refreshCards = el('refresh-status'); refreshStatus.families.forEach(family => refreshCards.append(refreshStatusCard(family)));
       refreshCards.prepend(card('Release blockers', releaseHealth.release_status, releaseHealth.blockers.join(' · ')));
       fetch('refresh-history.json').then(r => r.json()).then(history => {

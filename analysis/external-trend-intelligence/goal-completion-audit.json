@@ -18,7 +18,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, and recovery path are exercised and refresh runs are recorded with 78-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, and recovery path are exercised and refresh runs are recorded with 79-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -47,10 +47,12 @@
         "room-independent-comparison.json",
         "room-independent-result.json",
         "us-financial-room-independent-comparison.json",
+        "compatible-measure-search.json",
+        "global-growth-forecast-comparison.json",
         "shed-emergency-expense-2013-2025.json",
         "bounded-subset-lineage-review.json"
       ],
-      "gap": "Comparisons now include a closer SHED emergency-liquidity measure and an independent U.S. SHED/USDA mechanism challenge, but remain mechanism-only; no common unit and holdout have passed."
+      "gap": "The compatibility scan now finds 209 cross-host measure groups and the release includes a bounded OECD/UN DESA/World Bank global-growth forecast comparison, but forecast vintages and other comparisons still require definition, uncertainty, rights, and outcome backtests; no common-unit observed holdout has passed."
     },
     {
       "id": "trend_qualification",

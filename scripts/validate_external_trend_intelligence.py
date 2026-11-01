@@ -455,6 +455,17 @@ def main() -> int:
     snapshot = json.loads((ANALYSIS / "backtest-source-snapshot.json").read_text())
     assert snapshot["schema"] == "external-trend-intelligence.backtest-source-snapshot.v1"
     assert snapshot["record_count"] == 31
+    compatible = json.loads((ANALYSIS / "compatible-measure-search.json").read_text())
+    assert compatible["schema"] == "external-trend-intelligence.compatible-measure-search.v1"
+    assert compatible["record_count_in_manifest"] == manifest["record_count"]
+    assert compatible["candidate_compatibility_group_count"] == len(compatible["rows"])
+    assert compatible["status"] in {"no_cross_host_measure_pairs_found", "candidates_found_pending_review"}
+    forecast = json.loads((ANALYSIS / "global-growth-forecast-comparison.json").read_text())
+    assert forecast["schema"] == "external-trend-intelligence.global-growth-forecast-comparison.v1"
+    assert forecast["status"] == "independent_forecast_comparison_pending_backtest"
+    assert forecast["source_families"] == ["OECD", "UN DESA", "World Bank"]
+    assert len(forecast["forecasts"]) == 2
+    assert all(item["values"] and item["spread"] >= 0 for item in forecast["forecasts"])
     ibis_dependency = json.loads((ANALYSIS / "ibis-claim-dependency-review.json").read_text())
     assert ibis_dependency["schema"] == "external-trend-intelligence.ibis-claim-dependency-review.v1"
     assert ibis_dependency["sample_industry_count"] == ibis_sample["sample_industry_count"]
