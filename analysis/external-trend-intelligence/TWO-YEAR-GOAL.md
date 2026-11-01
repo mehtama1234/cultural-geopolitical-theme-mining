@@ -43,6 +43,31 @@ These families are discovery and evidence layers, not automatic corroboration.
 Shared publishers, hosts, datasets, or summaries are counted once until a
 lineage reviewer records a different disposition.
 
+## Concrete external datasets already in use
+
+The current release is not built from one giant pooled dataset. It combines
+named, source-specific products such as:
+
+- USDA ERS food-security household series and Urban Institute WBNS food-security
+  releases;
+- Federal Reserve SHED emergency-expense measures and JPMorganChase household
+  liquidity chart evidence;
+- ABS, HILDA/AIHW, ANUPoll, and Roy Morgan financial-pressure, time-use, and
+  care measures;
+- CDC capacity observations, CMS Medicaid-rate evidence, and BLS labor-capacity
+  comparisons in the adult-day-care and workforce lanes;
+- ACS and NHTS mobility-access measures;
+- Census CBP and Nonemployer Statistics repair-industry proxies;
+- NPALS public tables and Open Repair Alliance mobile-repair event records;
+- OECD, UN DESA, World Bank, IRENA, PJM, undersea-cable, and regional
+  infrastructure/geopolitical records; and
+- IBIS industry reports, annual-report citations, Inc. 5000 company signals,
+  social-publication evidence, and trend-hunting synthesis inputs.
+
+The detailed source map is [EXTERNAL-DATA-SOURCES.md](EXTERNAL-DATA-SOURCES.md).
+Each item remains source-specific for population, geography, period, unit,
+uncertainty, rights, and publisher dependence.
+
 ## Reader-facing chart themes
 
 Frontend pages use the chart catalog to keep the visual language consistent:
@@ -112,6 +137,7 @@ company decision contracts with privacy and lawful-access approval.
 - `two-year-roadmap.json` — phase windows and acceptance criteria;
 - `goal-completion-audit.json` — requirement-level completion status;
 - `source-family-registry.json` and `source-registry-snapshot.json` — intake;
+- `EXTERNAL-DATA-SOURCES.md` — concrete named external datasets and boundaries;
 - `observation-manifest.json` and `evidence-contract-audit.json` — evidence;
 - `candidate-qualification-matrix.json` and `falsification-review-queue.json`;
 - `observatory-chart-catalog.json` and `frontend-publication-registry.json`;

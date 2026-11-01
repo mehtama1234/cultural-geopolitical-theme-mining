@@ -15,6 +15,7 @@ OUTPUT = ANALYSIS / "release-manifest.json"
 
 ARTIFACTS = [
     "analysis/external-trend-intelligence/TWO-YEAR-GOAL.md",
+    "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
     ".github/workflows/external-observatory-refresh.yml",
     "TWO_YEAR_EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
     "EXTERNAL_TREND_INTELLIGENCE_GOAL_V1.md",
