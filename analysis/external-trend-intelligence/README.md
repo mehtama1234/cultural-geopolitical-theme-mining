@@ -153,6 +153,18 @@ inventory-only until an owner approves a specific source and snapshot.
 For a visual readout of the external inventory and candidate comparisons, open
 [`board.html`](board.html) through a local HTTP server.
 
+## Operational handoffs
+
+- [`RIGHTS-REVIEW-REQUEST.md`](RIGHTS-REVIEW-REQUEST.md) — fillable source-family rights, publisher-dependence, and sign-off request.
+- [`PILOT-ACTIVATION-REQUEST.md`](PILOT-ACTIVATION-REQUEST.md) — fillable company decision, privacy, data, preregistration, and pilot sign-off request.
+- [`source-release-watchlist.json`](source-release-watchlist.json) — latest pinned period and next official release target for acquired sources.
+- [`goal-completion-audit.json`](goal-completion-audit.json) — conservative requirement-level status and remaining gates.
+
+These handoffs are deliberately fail-closed. Completing a form does not grant
+rights, approve a company pilot, or turn a source comparison into a qualified
+trend; the corresponding machine-readable queues and validators remain
+authoritative.
+
 ## Stages
 
 1. **Capture:** preserve the external URL/API, publisher, date, retrieval

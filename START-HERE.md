@@ -38,6 +38,11 @@ and the stop-rule queue is in
 The current source universe is in the [source-family registry](analysis/external-trend-intelligence/source-family-registry.json),
 the pinned repository lineage is in the [repository-family snapshot](analysis/external-trend-intelligence/repository-family-snapshot.json),
 and the current normalized intake is in the [external-family observations](analysis/external-trend-intelligence/external-family-observations.json).
+The fillable [rights review request](analysis/external-trend-intelligence/RIGHTS-REVIEW-REQUEST.md)
+is the human handoff for assigning owners and recording exact terms decisions.
+The fillable [pilot activation request](analysis/external-trend-intelligence/PILOT-ACTIVATION-REQUEST.md)
+is the human handoff for a bounded company decision test; it remains blocked
+until the external, rights, privacy, and preregistration gates pass.
 The [held candidate comparisons](analysis/external-trend-intelligence/external-family-comparisons.json)
 show what is being tested without treating thematic similarity as a company join.
 The [lineage review](analysis/external-trend-intelligence/external-family-lineage-review.json)
