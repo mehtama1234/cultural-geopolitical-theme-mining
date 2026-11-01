@@ -468,6 +468,16 @@ def main() -> int:
     assert independence_queue["candidate_count"] == 5
     assert independence_queue["unassigned_count"] == independence_queue["candidate_count"]
     assert all(row["required_evidence"] and row["stop_rule"] and row["disposition"] == "pending" for row in independence_queue["rows"])
+    precheck = json.loads((ANALYSIS / "candidate-independence-precheck.json").read_text())
+    assert precheck["schema"] == "external-trend-intelligence.candidate-independence-precheck.v1"
+    assert precheck["status"] == "machine_precheck_recorded_human_adjudication_required"
+    assert precheck["candidate_count"] == len(precheck["rows"]) == 1
+    precheck_row = precheck["rows"][0]
+    assert precheck_row["candidate_id"] == "candidate-us-food-insecurity-persistence"
+    assert precheck_row["precheck_status"] == "provisional_distinct_publishers_noncomparable_hold"
+    assert precheck_row["machine_evidence"]["distinct_publisher_families"] is True
+    assert precheck_row["machine_evidence"]["distinct_hosts"] is True
+    assert precheck_row["unresolved_manual_review"] and precheck_row["qualification_effect"].startswith("none")
     pilot_intake = json.loads((ANALYSIS / "pilot-contract-intake.json").read_text())
     assert pilot_intake["schema"] == "external-trend-intelligence.pilot-contract-intake.v1"
     assert pilot_intake["status"] == "template_only_no_company_data"

@@ -1,0 +1,55 @@
+{
+  "schema": "external-trend-intelligence.candidate-independence-precheck.v1",
+  "status": "machine_precheck_recorded_human_adjudication_required",
+  "candidate_count": 1,
+  "rows": [
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "precheck_status": "provisional_distinct_publishers_noncomparable_hold",
+      "machine_evidence": {
+        "source_families": [
+          {
+            "publisher": "Urban Institute",
+            "host": "www.urban.org",
+            "population": "U.S. working-age adults",
+            "instrument": "Well-Being and Basic Needs Survey",
+            "measure": "household food insecurity in the prior 12 months using the six-item USDA short form",
+            "periods": "2019-2025",
+            "rights_status": "permission_required_for_republication"
+          },
+          {
+            "publisher": "USDA Economic Research Service",
+            "host": "www.ers.usda.gov",
+            "population": "U.S. households",
+            "instrument": "Current Population Survey Food Security Supplement",
+            "measure": "food insecure at some time during the year",
+            "periods": "2022-2024",
+            "rights_status": "conditional_attribution_use_documented"
+          }
+        ],
+        "distinct_publisher_families": true,
+        "distinct_hosts": true,
+        "shared_dependency_groups_in_queue": 0,
+        "comparison_artifact": "food-insecurity-independent-comparison.json",
+        "directional_readout": {
+          "urban_change_2022_to_2024_percentage_points": 2.3,
+          "usda_change_2022_to_2024_percentage_points": 0.9,
+          "direction": "both_series_increase",
+          "uncertainty": "USDA reports the 2024 change was not statistically significant; comparable Urban uncertainty was not available in the retained artifact."
+        },
+        "pooling_decision": "do_not_pool"
+      },
+      "unresolved_manual_review": [
+        "confirm canonical dataset and exact artifact identity for both publishers",
+        "review instrument, weighting, denominator, uncertainty, and Urban 2025 method break",
+        "review exact-artifact rights and downstream reuse boundary",
+        "record signed human disposition in candidate-independence-adjudication-queue.json"
+      ],
+      "qualification_effect": "none; keep the candidate's existing monitored status and do not count this precheck as independent confirmation",
+      "company_bridge_status": "blocked_external_first_gate",
+      "boundary": "A machine precheck makes visible evidence easier to review; it is not a human adjudication, legal clearance, common-unit validation, or company authorization.",
+      "next_action": "Assign the food-security row to a human lineage reviewer and resolve the four manual items before changing the queue disposition."
+    }
+  ],
+  "boundary": "This artifact supplements the manual adjudication queue and cannot promote a candidate or authorize an internal bridge."
+}
