@@ -26,7 +26,7 @@
         "unmatched_case_policy": "Report unmatched, suppressed, missing, and incompatible records separately; never drop them silently."
       },
       "external_gate": {
-        "candidate_must_be": "qualified_external_trend",
+        "candidate_must_be": "qualified_external_trend_or_monitored_external_trend",
         "required_gates": ["comparability", "independence", "persistence", "counter_signal", "falsifier", "backtest", "decision_relevance"],
         "current_status": "held",
         "current_blockers": ["survey denominator comparability", "participant versus total-population distinction"]
@@ -64,10 +64,10 @@
         "unmatched_case_policy": "Report unmatched, suppressed, missing, and incompatible records separately; never drop them silently."
       },
       "external_gate": {
-        "candidate_must_be": "qualified_external_trend",
+        "candidate_must_be": "qualified_external_trend_or_monitored_external_trend",
         "required_gates": ["source_identity", "comparability", "independence", "persistence", "counter_signal", "falsifier", "backtest", "decision_relevance"],
-        "current_status": "held",
-        "current_blockers": ["rights clearance for downstream reuse", "next comparable USDA and Urban release"]
+        "current_status": "monitored_external_trend",
+        "current_blockers": ["rights owner approval for downstream reuse", "next comparable USDA and Urban release"]
       },
       "hypothesis": "After external qualification and a registered company decision contract, a bounded workflow may show differences in assistance demand, completion, delay, or repeat effort associated with household food-security pressure.",
       "falsifier": "No measurable difference under the pre-specified comparison, a reversed direction in the external monitor, or a stronger explanation unrelated to the proposed mechanism.",

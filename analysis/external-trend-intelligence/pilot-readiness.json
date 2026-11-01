@@ -3,6 +3,7 @@
   "pilot_count": 2,
   "ready_for_approved_test_count": 0,
   "blocked_external_first_count": 2,
+  "blocked_company_gate_count": 0,
   "pilots": [
     {
       "pilot_id": "pilot-care-time-workflow-capacity-001",
@@ -15,7 +16,14 @@
           "label": "External candidate has passed all qualification gates",
           "status": "blocked",
           "evidence": "candidate-qualification-matrix.json",
-          "detail": "candidate matrix: held; pilot gate: held"
+          "detail": "candidate matrix: held; pilot gate record: held"
+        },
+        {
+          "id": "external_rights_reuse",
+          "label": "External source rights permit the proposed downstream company use",
+          "status": "blocked",
+          "evidence": "rights-review-queue.json",
+          "detail": "no candidate-specific rights reuse review is recorded"
         },
         {
           "id": "company_decision_contract",
@@ -43,11 +51,12 @@
           "label": "Crosswalk, comparison, primary outcome, falsifier, stop rule, and analysis owner are registered",
           "status": "blocked",
           "evidence": "PILOT-VALIDATION-PROTOCOL.md",
-          "detail": "pre-registration is prohibited until the external gate passes"
+          "detail": "pre-registration is prohibited until external qualification, rights reuse, and company access gates pass"
         }
       ],
       "blocking_check_ids": [
         "external_qualification",
+        "external_rights_reuse",
         "company_decision_contract",
         "internal_data_contract",
         "access_privacy_rights",
@@ -64,9 +73,16 @@
         {
           "id": "external_qualification",
           "label": "External candidate has passed all qualification gates",
-          "status": "blocked",
+          "status": "pass",
           "evidence": "candidate-qualification-matrix.json",
-          "detail": "candidate matrix: monitored_external_trend; pilot gate: held"
+          "detail": "candidate matrix: monitored_external_trend; pilot gate record: monitored_external_trend"
+        },
+        {
+          "id": "external_rights_reuse",
+          "label": "External source rights permit the proposed downstream company use",
+          "status": "blocked",
+          "evidence": "food-insecurity-rights-review.json",
+          "detail": "retain_as_attributed_metadata_and_internal_review_only; do_not_redistribute_upstream_content_or_connect_company_data_until_rights_owner_approves"
         },
         {
           "id": "company_decision_contract",
@@ -94,11 +110,11 @@
           "label": "Crosswalk, comparison, primary outcome, falsifier, stop rule, and analysis owner are registered",
           "status": "blocked",
           "evidence": "PILOT-VALIDATION-PROTOCOL.md",
-          "detail": "pre-registration is prohibited until the external gate passes"
+          "detail": "pre-registration is prohibited until external qualification, rights reuse, and company access gates pass"
         }
       ],
       "blocking_check_ids": [
-        "external_qualification",
+        "external_rights_reuse",
         "company_decision_contract",
         "internal_data_contract",
         "access_privacy_rights",

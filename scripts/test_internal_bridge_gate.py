@@ -20,7 +20,7 @@ def main() -> int:
     assert qualification["qualified_external_trend_count"] >= 1
     assert pilots["pilots"]
     assert all(item["status"] == "design_only_external_gate" for item in pilots["pilots"])
-    assert all(item["external_gate"]["current_status"] == "held" for item in pilots["pilots"])
+    assert {item["external_gate"]["current_status"] for item in pilots["pilots"]} == {"held", "monitored_external_trend"}
     assert all(item["company_ref"]["company_id"] is None for item in pilots["pilots"])
     assert health["sections"]["company_pilots"]["approved_tests"] == 0
     assert "no company pilot is approved; company decision contract, rights owner, and internal exposure definition remain open" in health["blockers"]

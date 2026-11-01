@@ -22,16 +22,27 @@ def main() -> int:
     pilots = load("pilot-register.json")["pilots"]
     matrix = load("candidate-qualification-matrix.json")
     matrix_by_id = {item["candidate_id"]: item for item in matrix["rows"]}
+    rights_reviews = {
+        load("food-insecurity-rights-review.json")["candidate_id"]: load("food-insecurity-rights-review.json")
+    }
     rows = []
     for pilot in pilots:
         candidate = matrix_by_id.get(pilot["candidate_id"], {})
+        rights_review = rights_reviews.get(pilot["candidate_id"])
         checks = [
             {
                 "id": "external_qualification",
                 "label": "External candidate has passed all qualification gates",
-                "status": "pass" if candidate.get("gate_status") in {"qualified_external_trend", "monitored_external_trend"} and pilot["external_gate"].get("current_status") in {"qualified_external_trend", "monitored_external_trend"} else "blocked",
+                "status": "pass" if candidate.get("gate_status") in {"qualified_external_trend", "monitored_external_trend"} else "blocked",
                 "evidence": "candidate-qualification-matrix.json",
-                "detail": f"candidate matrix: {candidate.get('gate_status', 'candidate not found')}; pilot gate: {pilot['external_gate'].get('current_status', 'not recorded')}",
+                "detail": f"candidate matrix: {candidate.get('gate_status', 'candidate not found')}; pilot gate record: {pilot['external_gate'].get('current_status', 'not recorded')}",
+            },
+            {
+                "id": "external_rights_reuse",
+                "label": "External source rights permit the proposed downstream company use",
+                "status": "pass" if rights_review and "do_not_redistribute" not in rights_review.get("release_decision", "") and "do_not_connect_company_data" not in rights_review.get("release_decision", "") else "blocked",
+                "evidence": "food-insecurity-rights-review.json" if rights_review else "rights-review-queue.json",
+                "detail": rights_review.get("release_decision", "candidate-specific rights review is not complete") if rights_review else "no candidate-specific rights reuse review is recorded",
             },
             {
                 "id": "company_decision_contract",
@@ -59,14 +70,15 @@ def main() -> int:
                 "label": "Crosswalk, comparison, primary outcome, falsifier, stop rule, and analysis owner are registered",
                 "status": "blocked",
                 "evidence": "PILOT-VALIDATION-PROTOCOL.md",
-                "detail": "pre-registration is prohibited until the external gate passes",
+                "detail": "pre-registration is prohibited until external qualification, rights reuse, and company access gates pass",
             },
         ]
+        external_blocked = any(c["id"] in {"external_qualification", "external_rights_reuse"} and c["status"] != "pass" for c in checks)
         rows.append({
             "pilot_id": pilot["pilot_id"],
             "candidate_id": pilot["candidate_id"],
             "current_status": pilot["status"],
-            "readiness_status": "ready_for_approved_test" if all(c["status"] == "pass" for c in checks) else "blocked_external_first",
+            "readiness_status": "ready_for_approved_test" if all(c["status"] == "pass" for c in checks) else ("blocked_external_first" if external_blocked else "blocked_company_gate"),
             "checks": checks,
             "blocking_check_ids": [c["id"] for c in checks if c["status"] != "pass"],
             "boundary": "A readiness pass authorizes only a separately approved test; it never proves causality or permits unregistered reuse of company data.",
@@ -75,7 +87,8 @@ def main() -> int:
         "schema": "external-trend-intelligence.pilot-readiness.v1",
         "pilot_count": len(rows),
         "ready_for_approved_test_count": sum(r["readiness_status"] == "ready_for_approved_test" for r in rows),
-        "blocked_external_first_count": sum(r["readiness_status"] != "ready_for_approved_test" for r in rows),
+        "blocked_external_first_count": sum(r["readiness_status"] == "blocked_external_first" for r in rows),
+        "blocked_company_gate_count": sum(r["readiness_status"] == "blocked_company_gate" for r in rows),
         "pilots": rows,
         "boundary": "This artifact is a fail-closed checklist. It does not connect internal company data and does not upgrade an external candidate.",
     }
