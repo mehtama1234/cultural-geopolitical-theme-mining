@@ -959,6 +959,9 @@
       fetch('successor-review-packet.json').then(r => r.json()).then(packet => {
         el('successor-validation').append(card('Successor review packet', packet.status, `${packet.review_tasks.length} signable tasks · assignees and sign-offs remain intentionally blank until a human accepts the handoff. ${packet.next_action}`));
       });
+      fetch('operating-ownership-readiness.json').then(r => r.json()).then(readiness => {
+        el('successor-validation').append(card('Operating ownership readiness', readiness.status, `${readiness.assigned_role_count}/${readiness.role_count} roles assigned · successor checks ${readiness.successor_checks_passed}/${readiness.successor_check_count} · ${readiness.blockers.join(' · ') || 'no blockers'}`));
+      });
     fetch('operational-kpi-scorecard.json').then(r => r.json()).then(scorecard => {
       const m = scorecard.metrics;
       const t = scorecard.thresholds;

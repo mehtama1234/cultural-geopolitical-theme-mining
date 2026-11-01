@@ -21,7 +21,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, append-only gate workload history, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 122-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, per-family freshness decisions, append-only gate workload history, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 123-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -129,11 +129,12 @@
         "REFRESH-RUNBOOK.md",
         "operating-handoff.json",
         "ownership-assignment-queue.json",
+        "operating-ownership-readiness.json",
         "refresh-continuity-audit.json",
         "successor-run-evidence.json",
         "evidence-acquisition-plan.json"
       ],
-      "gap": "The handoff records six roles, a reconciled ownership-assignment queue, and a reproducible read-only successor-validation artifact; named human ownership, an independently signed successor run, and sustained weekly continuity are still outstanding."
+      "gap": "The handoff records six roles, a reconciled ownership-assignment queue, a reproducible read-only successor-validation artifact, and an explicit readiness evaluation separating control pass from human assignment; named human ownership, an independently signed successor run, and sustained weekly continuity are still outstanding."
     },
     {
       "id": "validated_company_pilots",
