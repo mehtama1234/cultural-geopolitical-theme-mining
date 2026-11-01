@@ -2,8 +2,8 @@
   "schema": "external-trend-intelligence.operational-kpi-scorecard.v1",
   "as_of": "2026-10-31",
   "metrics": {
-    "refresh_runs_recorded": 63,
-    "latest_pipeline_steps": 64,
+    "refresh_runs_recorded": 64,
+    "latest_pipeline_steps": 65,
     "latest_pipeline_status": "passed",
     "stale_source_families": 0,
     "incomplete_source_families": 0,
@@ -16,7 +16,8 @@
     "approved_company_pilots": 0,
     "blocked_design_only_pilots": 2,
     "successor_validation_status": "pass",
-    "external_only_boundary": "passed"
+    "external_only_boundary": "passed",
+    "pilot_design_dry_run": "pass"
   },
   "thresholds": {
     "refresh_pipeline_pass_rate": {
@@ -42,6 +43,10 @@
     "external_only_boundary": {
       "target": "no connected company data in release",
       "status": "passed"
+    },
+    "pilot_design_contracts": {
+      "target": "all design-only pilots pass contract dry run",
+      "status": "pass"
     }
   },
   "review_cadence": "weekly refresh review; monthly evidence and rights review; quarterly qualification and decision review",
