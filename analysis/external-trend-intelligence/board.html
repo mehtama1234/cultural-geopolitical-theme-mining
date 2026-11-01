@@ -282,6 +282,11 @@
       <div class="source-registry" id="acquired-source-registry"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>External release watchlist</h2>
+      <p class="muted">This tracks the latest pinned period and the next official release target for acquired sources. A target is an acquisition task, not proof that a release is current or comparable.</p>
+      <div class="promotion-gates" id="source-release-watchlist"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Compatible-measure search</h2>
       <p class="muted">This automated scan finds repeated measure keys and units across source hosts. A match is only a review candidate; it is not independent confirmation.</p>
       <div class="promotion-gates" id="compatible-measures"></div>
@@ -870,6 +875,11 @@
         const target = el('acquired-source-registry');
         target.append(card(`${register.source_count} acquired artifacts`, register.status, `${register.boundary} Next: ${register.next_action}`));
         register.sources.forEach(source => target.append(card(`${source.publisher} · ${source.dataset}`, source.access_status, `${source.revision_or_release} · ${source.geography_and_period}. ${source.interpretation_status}. Rights: ${source.rights_boundary} Next: ${source.next_review}`)));
+      });
+      fetch('source-release-watchlist.json').then(r => r.json()).then(watchlist => {
+        const target = el('source-release-watchlist');
+        target.append(card(`${watchlist.source_count} release targets`, watchlist.status, watchlist.boundary));
+        watchlist.rows.forEach(row => target.append(card(`${row.publisher} · ${row.latest_observation_period} → ${row.next_target_period}`, row.status, `${row.cadence_or_trigger}. ${row.acquisition_action}`)));
       });
       fetch('compatible-measure-search.json').then(r => r.json()).then(search => {
         const target = el('compatible-measures');

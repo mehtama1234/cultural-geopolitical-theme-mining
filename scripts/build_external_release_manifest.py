@@ -89,6 +89,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/two-year-roadmap.json",
     "analysis/external-trend-intelligence/source-registry-snapshot.json",
     "analysis/external-trend-intelligence/acquired-source-register.json",
+    "analysis/external-trend-intelligence/source-release-watchlist.json",
     "analysis/external-trend-intelligence/repository-family-snapshot.json",
     "analysis/external-trend-intelligence/external-family-observations.json",
     "analysis/external-trend-intelligence/evidence-contract-audit.json",

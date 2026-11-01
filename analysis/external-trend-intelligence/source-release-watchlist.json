@@ -1,0 +1,59 @@
+{
+  "schema": "external-trend-intelligence.source-release-watchlist.v1",
+  "status": "acquired_source_release_targets_recorded",
+  "source_count": 5,
+  "rows": [
+    {
+      "source_id": "ora-ords-v03-mobile-aggregate-202607",
+      "publisher": "Open Repair Alliance",
+      "artifact": "open-repair-alliance-mobile-snapshot.json",
+      "latest_observation_period": "through July 2026",
+      "next_target_period": "next ORA aggregate release",
+      "cadence_or_trigger": "new aggregate archive or schema revision",
+      "status": "latest_pinned_period_recorded",
+      "acquisition_action": "Screen USA rows and event dates against New York and Colorado policy effective dates only as descriptive context; acquire a representative US transaction or consumer outcome before any policy or company claim."
+    },
+    {
+      "source_id": "census-cbp-electronic-repair-2019-2023",
+      "publisher": "U.S. Census Bureau",
+      "artifact": "census-repair-industry-snapshot.json",
+      "latest_observation_period": "2023",
+      "next_target_period": "2024",
+      "cadence_or_trigger": "annual CBP release",
+      "status": "next_annual_release_targeted",
+      "acquisition_action": "Use this only as a broad descriptive context series; acquire phone-specific transactions or consumer outcomes and verify policy effective dates before any causal or qualification claim."
+    },
+    {
+      "source_id": "census-nes-electronic-repair-2019-2024",
+      "publisher": "U.S. Census Bureau",
+      "artifact": "census-nonemployer-repair-snapshot.json",
+      "latest_observation_period": "2024",
+      "next_target_period": "2025",
+      "cadence_or_trigger": "annual NES release",
+      "status": "next_annual_release_targeted",
+      "acquisition_action": "Use as small-business context only; acquire phone-specific transactions or consumer outcomes before any policy, market, or causal claim."
+    },
+    {
+      "source_id": "cdc-npals-public-biennial-overview-wibz-pb5q",
+      "publisher": "CDC/NCHS",
+      "artifact": "npals-public-table-extract.json",
+      "latest_observation_period": "2025",
+      "next_target_period": "next biennial or table revision",
+      "cadence_or_trigger": "new NPALS public table or API revision",
+      "status": "fresh_api_extract",
+      "acquisition_action": "Map the API table definition and 2025 survey universe to the weighted PDF before using provider, capacity, or attendance changes in qualification."
+    },
+    {
+      "source_id": "federal-reserve-shed-financial-room-2013-2025",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "artifact": "federal-reserve-shed-financial-room-2013-2025.json",
+      "latest_observation_period": "2025",
+      "next_target_period": "2026",
+      "cadence_or_trigger": "annual SHED release and codebook update",
+      "status": "latest_report_context_recorded_uncertainty_open",
+      "acquisition_action": "Acquire the next SHED chart-data and codebook release; preserve question wording, weights, design-effect context, and exact-artifact rights review."
+    }
+  ],
+  "boundary": "The watchlist records release targets from pinned artifacts. It does not prove upstream freshness, rights clearance, independence, comparability, or a trend result.",
+  "next_action": "At each scheduled refresh, compare the pinned period with the target period, acquire only the official revision, preserve its checksum and terms, and route method or rights breaks to review."
+}

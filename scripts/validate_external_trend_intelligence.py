@@ -623,6 +623,14 @@ def main() -> int:
         assert required_acquired_fields <= set(source)
         assert source["artifact"] and source["source_url"] and source["checksum"]
         assert source["rights_boundary"] and source["next_review"]
+    release_watchlist = json.loads((ANALYSIS / "source-release-watchlist.json").read_text())
+    assert release_watchlist["schema"] == "external-trend-intelligence.source-release-watchlist.v1"
+    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 5
+    assert {row["source_id"] for row in release_watchlist["rows"]} == {source["source_id"] for source in acquired_sources["sources"]}
+    for row in release_watchlist["rows"]:
+        assert row["latest_observation_period"] and row["next_target_period"]
+        assert row["cadence_or_trigger"] and row["acquisition_action"]
+    assert release_watchlist["boundary"] and release_watchlist["next_action"]
     publication_registry = json.loads((ANALYSIS / "frontend-publication-registry.json").read_text())
     assert publication_registry["schema"] == "external-trend-intelligence.frontend-publication-registry.v1"
     assert publication_registry["status"] == "reader_publications_registered_with_boundaries"
