@@ -114,6 +114,8 @@ def main() -> int:
                             "Next outcome acquisition",
                             "Registered external datasets and publishers",
                             "source-registry-snapshot.json",
+                            "Concrete external data map",
+                            "EXTERNAL-DATA-SOURCES.md",
                             "Compatible-measure search",
                             "compatible-measure-search.json",
                             "Global growth forecast comparison",

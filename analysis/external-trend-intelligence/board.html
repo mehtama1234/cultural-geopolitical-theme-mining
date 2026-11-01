@@ -267,6 +267,11 @@
       <div class="source-families" id="source-families"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Concrete external data map</h2>
+      <p class="muted">The named dataset map explains what each source contributes and what it cannot prove. <a href="EXTERNAL-DATA-SOURCES.md">Open the external data source guide</a>.</p>
+      <div class="promotion-gates" id="external-data-map"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Registered external datasets and publishers</h2>
       <p class="muted">This is the 118-source discovery universe behind the families above. A registered source is an intake target, not proof that its current data are fresh, comparable, licensed, or independent.</p>
       <div class="source-registry" id="source-registry"></div>
@@ -855,6 +860,7 @@
         const control = controls.get(family.id);
         if (schedule && control) sourceFamilies.append(sourceFamilyCard(family, schedule, control));
       });
+      el('external-data-map').append(card('Named external datasets', 'source_guide', 'USDA ERS, Urban WBNS, SHED, ACS, NHTS, Census CBP/NES, NPALS, Open Repair Alliance, CDC, CMS, BLS, OECD, UN DESA, World Bank, infrastructure records, IBIS, annual reports, Inc. 5000, social research, and trend-hunting inputs. See EXTERNAL-DATA-SOURCES.md for populations, periods, units, rights, and boundaries.'));
       const sourceRegistryCards = el('source-registry');
       sourceRegistry.sources.forEach(source => sourceRegistryCards.append(sourceRegistryCard(source)));
       fetch('acquired-source-register.json').then(r => r.json()).then(register => {
