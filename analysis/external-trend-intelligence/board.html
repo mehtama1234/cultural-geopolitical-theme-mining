@@ -335,6 +335,7 @@
     <section style="margin-top:28px">
       <h2>IBIS independent-outcome acquisition queue</h2>
       <p class="muted">This queue turns IBIS claim leads into dated outcome work. A candidate outcome is only a discovery lead; it is not evidence until publisher, unit, period, uncertainty, rights, and lineage are reviewed.</p>
+      <div class="panel" style="margin:12px 0"><h3>Non-pooled source comparison</h3><div id="ibis-food-comparison-chart"></div></div>
       <div class="promotion-gates" id="ibis-outcome-acquisition"></div>
     </section>
     <section style="margin-top:28px">
@@ -1002,6 +1003,7 @@
         el('ibis-outcome-acquisition').prepend(card('Official USDA outcome + Feeding America challenge', review.status, `${review.outcome_artifact.periods.join(', ')} household receipt observations acquired; Feeding America reports a ${Math.round(challenge.observations.food_insecurity_rate * 1000) / 10}% modeled 2024 national rate. Independence: ${review.lineage_adjudication.independence_status}. ${review.lineage_adjudication.outcome_linkage}`));
       });
       fetch('ibis-community-food-comparison.json').then(r => r.json()).then(comparison => {
+        barChart(el('ibis-food-comparison-chart'), comparison.rows.map(row => [`${row.publisher} · ${row.unit}`, row.value]), 100);
         el('ibis-outcome-acquisition').prepend(card('USDA versus Feeding America comparison', comparison.status, `${comparison.interpretation} Next: ${comparison.next_action}`));
       });
       el('ibis-outcome-acquisition').append(card('Feeding America data-request handoff', 'request_ready_public_snapshot_only', 'The underlying county/state release is request-gated. <a href="FEEDING-AMERICA-DATA-REQUEST.md">Open the request handoff</a> before any pooled comparison or company use.'));

@@ -162,6 +162,7 @@ def main() -> int:
                             "ibis-outcome-acquisition-queue.json",
                             "Official USDA outcome + Feeding America challenge",
                             "USDA versus Feeding America comparison",
+                            "ibis-food-comparison-chart",
                             "ibis-community-food-outcome-linkage-review.json",
                         ]
                         missing = [marker for marker in required_markers if marker not in board_text]
