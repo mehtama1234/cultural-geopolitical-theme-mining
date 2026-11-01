@@ -1,0 +1,81 @@
+{
+  "schema": "external-trend-intelligence.successor-review-packet.v1",
+  "packet_id": "successor-review-packet-current",
+  "status": "ready_for_named_human_successor",
+  "release": {
+    "artifact_count": 118,
+    "source_tree_commit": "1499f17a8ee00956f7394fca9c0a9728928463dc",
+    "qualification_summary": {
+      "candidate_count": 5,
+      "monitored_external_trend_count": 1,
+      "held_count": 4
+    }
+  },
+  "required_assignee_fields": [
+    "person_or_team",
+    "primary_acknowledgement",
+    "backup_person_or_team",
+    "scope_acknowledgement",
+    "conflict_declaration",
+    "effective_date"
+  ],
+  "review_tasks": [
+    {
+      "task_id": "full_refresh_reproduction",
+      "owner_role": "release_owner",
+      "instruction": "Run scripts/refresh_external_observatory.py from a clean checkout and preserve the terminal 100-step output.",
+      "evidence_required": [
+        "refresh-history.json",
+        "release-manifest.json",
+        "validate_external_trend_intelligence.py",
+        "smoke_test_external_board.py"
+      ],
+      "stop_rule": "Stop and retain the prior release if any step fails, a rights gate changes unexpectedly, or the frontend smoke test is not HTTP 200.",
+      "assignee": null,
+      "completed_on": null,
+      "signoff": null
+    },
+    {
+      "task_id": "held_candidate_challenge",
+      "owner_role": "trend_challenger",
+      "instruction": "Review one held candidate end-to-end, verify source identity, periods, units, counter-signal, falsifier, and next acquisition step; do not promote it.",
+      "candidate_options": [
+        "candidate-formal-response-before-recovery",
+        "candidate-time-financial-pressure-practical-room",
+        "candidate-digital-capability-control-trust",
+        "candidate-infrastructure-dependency-power"
+      ],
+      "evidence_required": [
+        "candidate-qualification-matrix.json",
+        "falsification-review-queue.json",
+        "candidate-lineage-dependency-review.json"
+      ],
+      "stop_rule": "Leave the candidate held when any required field is missing or publisher dependence is unresolved.",
+      "assignee": null,
+      "completed_on": null,
+      "signoff": null
+    },
+    {
+      "task_id": "rights_and_boundary_review",
+      "owner_role": "lineage_reviewer",
+      "instruction": "Review one source family\u2019s rights, publisher dependence, redistribution boundary, and company-bridge prohibition, then record the unresolved question.",
+      "evidence_required": [
+        "rights-review-queue.json",
+        "rights-evidence-register.json",
+        "publisher-dependence-summary.json",
+        "test_rights_release_gate.py"
+      ],
+      "stop_rule": "Do not clear reuse or internal connection from metadata alone; escalate missing terms or ownership evidence.",
+      "assignee": null,
+      "completed_on": null,
+      "signoff": null
+    }
+  ],
+  "acceptance_criteria": [
+    "All three tasks have named assignees and dated sign-off.",
+    "The successor records at least one held candidate and one unresolved rights question.",
+    "No company data is accessed and no pilot status is upgraded by this packet."
+  ],
+  "next_action": "Assign a primary and backup human for each task, then attach the signed packet to the next refresh handoff.",
+  "boundary": "This packet makes succession work executable; it is not evidence that human ownership or company-pilot approval exists."
+}

@@ -438,6 +438,12 @@ def main() -> int:
     assert continuity["next_action"] and continuity["boundary"]
     ownership = json.loads((ANALYSIS / "ownership-assignment-queue.json").read_text())
     assert ownership["schema"] == "external-trend-intelligence.ownership-assignment-queue.v1"
+    successor_packet = json.loads((ANALYSIS / "successor-review-packet.json").read_text())
+    assert successor_packet["schema"] == "external-trend-intelligence.successor-review-packet.v1"
+    assert successor_packet["status"] == "ready_for_named_human_successor"
+    assert len(successor_packet["review_tasks"]) == 3
+    assert all(task["assignee"] is None and task["signoff"] is None for task in successor_packet["review_tasks"])
+    assert successor_packet["acceptance_criteria"] and successor_packet["boundary"]
     assert ownership["role_count"] == len(ownership["roles"]) == 6
     assert ownership["unassigned_role_count"] + ownership["assigned_role_count"] == ownership["role_count"]
     assert ownership["status"] in {"assignment_required", "assigned_pending_successor_signoff"}

@@ -868,6 +868,9 @@
       fetch('ownership-assignment-queue.json').then(r => r.json()).then(queue => {
         el('successor-validation').append(card('Named ownership assignment', queue.status, `${queue.assigned_role_count}/${queue.role_count} roles assigned · ${queue.next_action}`));
       });
+      fetch('successor-review-packet.json').then(r => r.json()).then(packet => {
+        el('successor-validation').append(card('Successor review packet', packet.status, `${packet.review_tasks.length} signable tasks · assignees and sign-offs remain intentionally blank until a human accepts the handoff. ${packet.next_action}`));
+      });
     fetch('operational-kpi-scorecard.json').then(r => r.json()).then(scorecard => {
       const m = scorecard.metrics;
       const t = scorecard.thresholds;

@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "1499f17a8ee00956f7394fca9c0a9728928463dc",
-  "artifact_count": 118,
+  "source_tree_commit": "379bda5c8fded11f5887f17cf5e2fd1649cf9252",
+  "artifact_count": 119,
   "artifacts": [
     {
       "path": ".github/workflows/external-observatory-refresh.yml",
@@ -48,6 +48,11 @@
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
       "bytes": 4226,
       "sha256": "cc3e7fb7096edd08214c1256718374becd4ebfd7a26e525dc76c5b1f8acab068"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/successor-review-packet.json",
+      "bytes": 3412,
+      "sha256": "1eeec4def329ab362fe1db96683a747d55d0336b8d7c8544227c54047c51221d"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
@@ -142,7 +147,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "600ded82730e66193c88d7616a25fa1b94904365cec1d7b4e1d6cac7bf009dae"
+      "sha256": "e4411d6ec3cde9c5580ac1d2f767f980e3c26ab5a2a641f87344b25870df964b"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -576,8 +581,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 79561,
-      "sha256": "2150a4cf1265452b997f87720308f7d872e6578e06e6896ed94344d841f24966"
+      "bytes": 79902,
+      "sha256": "93a3add831452087c018ffc25a3d278085bff3042d07913287f8fa6b41918f60"
     },
     {
       "path": "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
