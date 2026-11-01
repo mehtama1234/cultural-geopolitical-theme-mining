@@ -46,8 +46,8 @@
         "uncertainty",
         "unit"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "theme-coverage-audit",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -79,8 +79,8 @@
         "uncertainty",
         "unit"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "qualification-matrix",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -112,8 +112,8 @@
         "subtheme",
         "theme"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "food-insecurity-holdout-chart",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -143,8 +143,8 @@
         "theme",
         "uncertainty"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "us-financial-room-chart",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -174,8 +174,8 @@
         "subtheme",
         "theme"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "independent-comparison",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -209,8 +209,8 @@
         "theme",
         "unit"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "global-growth-forecast-chart",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -244,8 +244,8 @@
         "uncertainty",
         "unit"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "refresh-status",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -275,8 +275,8 @@
         "subtheme",
         "theme"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "ibis-outcome-chart",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -306,8 +306,8 @@
         "subtheme",
         "theme"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "ibis-dock-execution-chart",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -342,8 +342,8 @@
         "uncertainty",
         "unit"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "rights-queue",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
@@ -377,13 +377,13 @@
         "uncertainty",
         "unit"
       ],
-      "frontend_target_id": "",
-      "frontend_target_status": "target_assignment_required",
+      "frontend_target_id": "goal-audit",
+      "frontend_target_status": "mapped_to_board_surface",
       "reviewer": "",
       "reviewed_at": "",
       "disposition": ""
     }
   ],
   "boundary": "This packet checks publication-contract completeness only. It does not render charts, grant rights, qualify a trend, or authorize a company bridge.",
-  "next_action": "For every chart, assign a frontend page/component target and map period, unit, geography, denominator, uncertainty, counter-signal, evidence boundary, and company gate to visible fields; record reviewer disposition before calling the chart decision-ready."
+  "next_action": "For every chart, verify the mapped frontend target and map period, unit, geography, denominator, uncertainty, counter-signal, evidence boundary, and company gate to visible fields; record reviewer disposition before calling the chart decision-ready."
 }

@@ -1118,8 +1118,8 @@ def main() -> int:
     assert frontend_packet["schema"] == "external-trend-intelligence.frontend-publication-review-packet.v1"
     assert frontend_packet["review_count"] == chart_catalog["chart_count"]
     assert frontend_packet["open_review_count"] >= 0
-    assert all(row["frontend_target_status"] == "target_assignment_required" for row in frontend_packet["reviews"])
-    assert all(row["frontend_target_id"] == "" for row in frontend_packet["reviews"])
+    assert all(row["frontend_target_status"] == "mapped_to_board_surface" for row in frontend_packet["reviews"])
+    assert all(row["frontend_target_id"] for row in frontend_packet["reviews"])
     assert "analysis/external-trend-intelligence/frontend-publication-review-packet.json" in manifest_paths
     assert chart_catalog["chart_count"] == len(chart_catalog["charts"]) >= 8
     assert all(row["theme"] and row["subtheme"] and row["concept"] for row in chart_catalog["charts"])

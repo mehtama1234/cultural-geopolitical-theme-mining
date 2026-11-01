@@ -10,6 +10,20 @@ ROOT = Path(__file__).resolve().parents[1]
 ANALYSIS = ROOT / "analysis" / "external-trend-intelligence"
 OUTPUT = ANALYSIS / "frontend-publication-review-packet.json"
 
+FRONTEND_TARGETS = {
+    "domain-coverage": "theme-coverage-audit",
+    "qualified-and-held-trends": "qualification-matrix",
+    "food-insecurity-holdout": "food-insecurity-holdout-chart",
+    "financial-room-context": "us-financial-room-chart",
+    "mobility-income-gradient": "independent-comparison",
+    "forecast-vintage-spread": "global-growth-forecast-chart",
+    "source-freshness": "refresh-status",
+    "ibis-adult-day-outcome-changes": "ibis-outcome-chart",
+    "ibis-dock-defense-execution-obligations": "ibis-dock-execution-chart",
+    "rights-readiness": "rights-queue",
+    "open-gate-workload": "goal-audit",
+}
+
 
 def main() -> int:
     catalog = json.loads((ANALYSIS / "observatory-chart-catalog.json").read_text())
@@ -33,8 +47,8 @@ def main() -> int:
                 "boundary": chart["boundary"],
                 "contract_status": "source_contract_review_required" if missing_declaration else "declared",
                 "missing_chart_level_declarations": missing_declaration,
-                "frontend_target_id": "",
-                "frontend_target_status": "target_assignment_required",
+                "frontend_target_id": FRONTEND_TARGETS.get(chart["chart_id"], ""),
+                "frontend_target_status": "mapped_to_board_surface" if chart["chart_id"] in FRONTEND_TARGETS else "target_assignment_required",
                 "reviewer": "",
                 "reviewed_at": "",
                 "disposition": "",
@@ -50,7 +64,7 @@ def main() -> int:
         "required_chart_metadata": sorted(required),
         "reviews": reviews,
         "boundary": "This packet checks publication-contract completeness only. It does not render charts, grant rights, qualify a trend, or authorize a company bridge.",
-        "next_action": "For every chart, assign a frontend page/component target and map period, unit, geography, denominator, uncertainty, counter-signal, evidence boundary, and company gate to visible fields; record reviewer disposition before calling the chart decision-ready.",
+        "next_action": "For every chart, verify the mapped frontend target and map period, unit, geography, denominator, uncertainty, counter-signal, evidence boundary, and company gate to visible fields; record reviewer disposition before calling the chart decision-ready.",
     }
     OUTPUT.write_text(json.dumps(packet, indent=2) + "\n")
     print(f"wrote {OUTPUT} ({len(reviews)} charts; {packet['open_review_count']} require review)")
