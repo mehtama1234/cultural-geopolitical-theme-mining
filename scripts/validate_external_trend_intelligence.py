@@ -376,6 +376,11 @@ def main() -> int:
     assert len(community_food["rows"]) == 4
     assert all(row["free_groceries_percent"] >= 0 and row["free_meals_percent"] >= 0 for row in community_food["rows"])
     assert community_food["source_checksum"].startswith("sha256:")
+    urban_food = json.loads((ANALYSIS / "urban-wbns-food-insecurity-2025.json").read_text())
+    assert urban_food["schema"] == "external-trend-intelligence.urban-wbns-food-insecurity-snapshot.v1"
+    assert urban_food["status"] == "official_release_normalized_monitoring_update"
+    assert urban_food["source_checksum"].startswith("sha256:")
+    assert any(row["category"] == "working_age_adults_18_64" and row["food_insecurity_percent"] == 27.7 for row in urban_food["rows"])
     dock_outcome = json.loads((ANALYSIS / "ibis-dock-defense-outcome-review.json").read_text())
     assert dock_outcome["schema"] == "external-trend-intelligence.ibis-dock-defense-outcome-review.v1"
     assert dock_outcome["review_id"].endswith("dry-docks-and-cargo-inspection-services-in-the-us::dock-defense")
@@ -720,12 +725,14 @@ def main() -> int:
     acquired_sources = json.loads((ANALYSIS / "acquired-source-register.json").read_text())
     assert acquired_sources["schema"] == "external-trend-intelligence.acquired-source-register.v1"
     assert acquired_sources["status"] == "acquired_sources_registered_with_lineage_and_boundaries"
-    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 9
+    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 10
     community_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "usda-community-food-assistance-2024-ap126")
     assert community_source["artifact"] == "usda-community-food-assistance-2024.json"
     assert community_source["checksum"].startswith("sha256:")
     feeding_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "feeding-america-map-meal-gap-2026-national")
     assert feeding_source["artifact"] == "feeding-america-map-meal-gap-2026-national.json"
+    urban_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "urban-wbns-food-insecurity-2025")
+    assert urban_source["artifact"] == "urban-wbns-food-insecurity-2025.json"
     required_acquired_fields = set(acquired_sources["required_fields"])
     for source in acquired_sources["sources"]:
         assert required_acquired_fields <= set(source)
@@ -733,7 +740,7 @@ def main() -> int:
         assert source["rights_boundary"] and source["next_review"]
     release_watchlist = json.loads((ANALYSIS / "source-release-watchlist.json").read_text())
     assert release_watchlist["schema"] == "external-trend-intelligence.source-release-watchlist.v1"
-    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 9
+    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 10
     navy_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "us-navy-fy2026-ship-maintenance-context")
     assert navy_source["artifact"] == "ibis-dock-defense-outcome-review.json"
     navy_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "us-navy-fy2026-ship-maintenance-context")
@@ -746,6 +753,8 @@ def main() -> int:
     assert community_watch["next_target_period"] == "2025 annual CPS Food Security Supplement"
     feeding_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "feeding-america-map-meal-gap-2026-national")
     assert feeding_watch["next_target_period"] == "next annual Map the Meal Gap release"
+    urban_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "urban-wbns-food-insecurity-2025")
+    assert urban_watch["next_target_period"] == "December 2026 WBNS release"
     assert {row["source_id"] for row in release_watchlist["rows"]} == {source["source_id"] for source in acquired_sources["sources"]}
     for row in release_watchlist["rows"]:
         assert row["latest_observation_period"] and row["next_target_period"]
@@ -1061,8 +1070,8 @@ def main() -> int:
     scorecard = json.loads((ANALYSIS / "program-scorecard.json").read_text())
     acquired_register = json.loads((ANALYSIS / "acquired-source-register.json").read_text())
     release_watch = json.loads((ANALYSIS / "source-release-watchlist.json").read_text())
-    assert scorecard["metrics"]["acquired_sources"] == acquired_register["source_count"] == 9
-    assert scorecard["metrics"]["release_watch_targets"] == release_watch["source_count"] == 9
+    assert scorecard["metrics"]["acquired_sources"] == acquired_register["source_count"] == 10
+    assert scorecard["metrics"]["release_watch_targets"] == release_watch["source_count"] == 10
     shed = json.loads((ANALYSIS / "federal-reserve-shed-financial-room-2013-2025.json").read_text())
     assert shed["schema"] == "external-trend-intelligence.external-acquisition.v1"
     assert shed["status"] == "acquired_pending_normalization"

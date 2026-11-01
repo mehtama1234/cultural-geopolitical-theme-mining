@@ -47,6 +47,7 @@ STEPS = [
     ["scripts/build_ibis_dock_defense_execution_comparison.py"],
     ["scripts/build_ibis_outcome_acquisition_queue.py"],
     ["scripts/build_usda_community_food_assistance_snapshot.py"],
+    ["scripts/build_urban_wbns_food_insecurity_2025_snapshot.py"],
     ["scripts/build_feeding_america_map_snapshot.py"],
     ["scripts/build_ibis_outcome_linkage_review.py"],
     ["scripts/build_ibis_community_food_comparison.py"],

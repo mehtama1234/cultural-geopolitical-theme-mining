@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.source-release-watchlist.v1",
   "status": "acquired_source_release_targets_recorded",
-  "source_count": 9,
+  "source_count": 10,
   "rows": [
     {
       "source_id": "ora-ords-v03-mobile-aggregate-202607",
@@ -25,7 +25,7 @@
         "schema": "external-trend-intelligence.census-cbp-release-check.v1",
         "publisher": "U.S. Census Bureau",
         "dataset": "County Business Patterns",
-        "checked_at": "2026-11-01T06:52:19.491213+00:00",
+        "checked_at": "2026-11-01T06:56:54.605022+00:00",
         "latest_pinned_year": 2023,
         "target_year": 2024,
         "checks": [
@@ -95,8 +95,18 @@
       "latest_observation_period": "2024 estimate published in 2026",
       "next_target_period": "next annual Map the Meal Gap release",
       "cadence_or_trigger": "annual Feeding America model and public-map release",
-      "status": "pinned_snapshot_retained_fetch_failed",
+      "status": "official_source_available",
       "acquisition_action": "Use as an independent publisher challenge and acquire the request-gated underlying data or technical appendix before any pooled estimate or IBIS promotion."
+    },
+    {
+      "source_id": "urban-wbns-food-insecurity-2025",
+      "publisher": "Urban Institute",
+      "artifact": "urban-wbns-food-insecurity-2025.json",
+      "latest_observation_period": "December 2025; household food insecurity in the last 12 months",
+      "next_target_period": "December 2026 WBNS release",
+      "cadence_or_trigger": "annual Urban Institute WBNS release",
+      "status": "official_source_available",
+      "acquisition_action": "Use as the next Urban monitoring vintage and reconcile the methodology break before comparing 2025 with earlier values or using it in a company pilot."
     },
     {
       "source_id": "us-navy-fy2026-ship-maintenance-context",

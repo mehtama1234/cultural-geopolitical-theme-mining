@@ -49,7 +49,7 @@ The current release is not built from one giant pooled dataset. It combines
 named, source-specific products such as:
 
 - USDA ERS food-security household series and Urban Institute WBNS food-security
-  releases;
+  releases, including the December 2025 monitoring vintage;
 - Federal Reserve SHED emergency-expense measures and JPMorganChase household
   liquidity chart evidence;
 - ABS, HILDA/AIHW, ANUPoll, and Roy Morgan financial-pressure, time-use, and

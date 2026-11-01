@@ -13,6 +13,7 @@ OUTPUT = ANALYSIS / "food-security-release-tracker.json"
 
 def main() -> int:
     holdout = json.loads((ANALYSIS / "food-insecurity-temporal-holdout.json").read_text())
+    urban_release = json.loads((ANALYSIS / "urban-wbns-food-insecurity-2025.json").read_text())
     payload = {
         "schema": "external-trend-intelligence.food-security-release-tracker.v1",
         "candidate_id": holdout["candidate_id"],
@@ -37,8 +38,10 @@ def main() -> int:
                 "latest_release_date": "2026-03",
                 "latest_release_url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025%2C%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
                 "official_catalog_url": "https://datacatalog.urban.org/dataset/well-being-and-basic-needs-survey",
-                "next_target_period": "next WBNS release",
-                "next_target_status": "awaiting_next_comparable_wave",
+                "latest_pinned_artifact": "urban-wbns-food-insecurity-2025.json",
+                "latest_pinned_status": urban_release["status"],
+                "next_target_period": "December 2026 WBNS release",
+                "next_target_status": "latest_2025_vintage_pinned_method_review_pending",
                 "measure": "percent of Urban WBNS adult-respondent households reporting food insecurity",
                 "release_action": "Preserve the 2025 instrument/method break and obtain the next compatible table or public-use file before revising the holdout.",
             },

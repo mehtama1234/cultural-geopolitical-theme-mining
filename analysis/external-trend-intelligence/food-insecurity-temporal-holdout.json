@@ -66,5 +66,9 @@
     "us-urban-wbns-food-insecurity-persistence-2019-2025",
     "comparative-usda-food-security-2022-2024"
   ],
+  "source_artifacts": [
+    "urban-wbns-food-insecurity-2025.json",
+    "usda-community-food-assistance-2024.json"
+  ],
   "boundary": "This is a descriptive temporal holdout with a non-pooled independent challenge. It qualifies external persistence for monitoring, not a causal or company result."
 }

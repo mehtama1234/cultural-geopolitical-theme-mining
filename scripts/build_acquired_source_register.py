@@ -22,6 +22,7 @@ def main() -> int:
     npals = load("npals-public-table-extract.json")
     shed = load("federal-reserve-shed-financial-room-2013-2025.json")
     community = load("usda-community-food-assistance-2024.json")
+    urban_wbns = load("urban-wbns-food-insecurity-2025.json")
     feeding_america = load("feeding-america-map-meal-gap-2026-national.json")
     dock_defense = load("ibis-dock-defense-outcome-review.json")
     navy_execution = load("usaspending-bath-iron-works-execution-snapshot.json")
@@ -151,6 +152,24 @@ def main() -> int:
             "interpretation_status": "independent_publisher_challenge_method_review_pending",
             "rights_boundary": feeding_america["rights_boundary"],
             "next_review": feeding_america["next_action"],
+        },
+        {
+            "source_id": urban_wbns["source_id"],
+            "publisher": urban_wbns["publisher"],
+            "dataset": urban_wbns["dataset"],
+            "artifact": "urban-wbns-food-insecurity-2025.json",
+            "source_url": urban_wbns["source_url"],
+            "retrieved_at": urban_wbns["retrieved_at"],
+            "revision_or_release": "December 2025 WBNS release; published March 2026",
+            "checksum": urban_wbns["source_checksum"],
+            "license_or_terms": urban_wbns["rights_boundary"],
+            "access_status": urban_wbns["availability_check"]["availability"],
+            "population_and_unit": urban_wbns["population_and_unit"],
+            "geography_and_period": f"{urban_wbns['geography']}; {urban_wbns['observation_period']}",
+            "publisher_dependence": "single_publisher_survey_series",
+            "interpretation_status": urban_wbns["status"],
+            "rights_boundary": urban_wbns["rights_boundary"],
+            "next_review": urban_wbns["next_action"],
         },
         {
             "source_id": "us-navy-fy2026-ship-maintenance-context",

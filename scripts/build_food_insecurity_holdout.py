@@ -12,6 +12,12 @@ OUTPUT = ANALYSIS / "food-insecurity-temporal-holdout.json"
 
 
 def main() -> int:
+    urban_release = json.loads((ANALYSIS / "urban-wbns-food-insecurity-2025.json").read_text())
+    urban_working_age_2025 = next(
+        row["food_insecurity_percent"]
+        for row in urban_release["rows"]
+        if row["category"] == "working_age_adults_18_64"
+    )
     result = {
         "schema": "external-trend-intelligence.food-insecurity-temporal-holdout.v1",
         "candidate_id": "candidate-us-food-insecurity-persistence",
@@ -25,8 +31,8 @@ def main() -> int:
         "holdout": {
             "source": "Urban Institute WBNS",
             "period": "December 2024 through December 2025",
-            "values": [27.0, 27.7],
-            "mean_percent": 27.35,
+            "values": [27.0, urban_working_age_2025],
+            "mean_percent": round((27.0 + urban_working_age_2025) / 2, 2),
         },
         "readout": {
             "change_percentage_points": 4.11,
@@ -53,6 +59,7 @@ def main() -> int:
             "us-urban-wbns-food-insecurity-persistence-2019-2025",
             "comparative-usda-food-security-2022-2024",
         ],
+        "source_artifacts": ["urban-wbns-food-insecurity-2025.json", "usda-community-food-assistance-2024.json"],
         "boundary": "This is a descriptive temporal holdout with a non-pooled independent challenge. It qualifies external persistence for monitoring, not a causal or company result.",
     }
     OUTPUT.write_text(json.dumps(result, indent=2) + "\n")

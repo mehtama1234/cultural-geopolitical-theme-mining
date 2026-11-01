@@ -24,6 +24,8 @@ These are the concrete source records already used in the release artifacts:
 
 - USDA Economic Research Service food-security household series.
 - Urban Institute Well-Being and Basic Needs Survey food-insecurity series.
+- Urban Institute December 2025 WBNS food-insecurity release, including the
+  working-age and income-band monitoring rows.
 - Federal Reserve SHED financial-room and emergency-expense series.
 - JPMorganChase Institute household-liquidity chart evidence.
 - ACS and NHTS mobility-access measures.
