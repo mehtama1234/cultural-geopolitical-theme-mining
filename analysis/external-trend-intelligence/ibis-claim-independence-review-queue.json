@@ -1,0 +1,2412 @@
+{
+  "schema": "external-trend-intelligence.ibis-claim-independence-review-queue.v1",
+  "finding_slug": "compliance-as-economic-architecture",
+  "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
+  "status": "manual_review_queue_ready",
+  "candidate_count": 47,
+  "high_priority_count": 24,
+  "unassigned_count": 47,
+  "review_protocol": {
+    "assignment_sla": "10 business days",
+    "required_reviewer_role": "lineage reviewer with evidence analyst support",
+    "completion_evidence": "completed required_evidence fields, source ownership decision, outcome linkage decision, rights note, and signed disposition",
+    "promotion_boundary": "No claim or finding is promoted from this queue without a recorded independent outcome or an explicit held disposition."
+  },
+  "next_action": "Assign the first high-priority claims to a lineage reviewer, resolve ownership and underlying-dataset dependence, then acquire dated independent outcome measures before any IBIS finding promotion.",
+  "boundary": "This queue identifies candidates for manual review; it does not establish independence, validate outcomes, clear rights, or authorize an internal company bridge.",
+  "candidates": [
+    {
+      "review_id": "ibis-independence::acne-treatment-manufacturing-otc::acne-products",
+      "industry_slug": "acne-treatment-manufacturing-otc",
+      "claim_id": "acne-products",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_06827",
+          "publisher": "Patient Care Online",
+          "url": "https://www.patientcareonline.com/view/fda-clears-otc-adapalene-benzoyl-peroxide-gel-for-acne-in-patients-12-and-older",
+          "source_type": "news",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06828",
+          "publisher": "Dermatology Times",
+          "url": "https://www.dermatologytimes.com/view/fda-approves-otc-differin-epiduo-gel-for-acne-in-patients-12-and-older",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::adult-stores::adult-retailers",
+      "industry_slug": "adult-stores",
+      "claim_id": "adult-retailers",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15885",
+          "publisher": "Adam & Eve",
+          "url": "https://www.adameve.com/store",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15886",
+          "publisher": "Lovers",
+          "url": "https://loversstores.com/",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::atm-manufacturing::atm-cash",
+      "industry_slug": "atm-manufacturing",
+      "claim_id": "atm-cash",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_06775",
+          "publisher": "ATM Advantage",
+          "url": "https://www.atmadvantage.com/atm-trends-2025-future-of-banking-technology-cash/",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06776",
+          "publisher": "Federal Reserve Financial Services",
+          "url": "https://www.frbservices.org/news/fed360/issues/080426/cash-remains-essential-us-consumers",
+          "source_type": "government",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::camera-stores-in-the-us::cam-cycle",
+      "industry_slug": "camera-stores-in-the-us",
+      "claim_id": "cam-cycle",
+      "claim_type": "estimate",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_01219",
+          "publisher": "www.diyphotography.net",
+          "url": "https://www.diyphotography.net/most-popular-mirrorless-cameras-in-2026-what-photographers-are-buying-and-why/",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_01220",
+          "publisher": "www.digitalcameraworld.com",
+          "url": "https://www.digitalcameraworld.com/cameras/halfway-through-2026-the-latest-numbers-from-japan-show-camera-sales-starting-to-slow-in-every-category-except-these-two",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_01221",
+          "publisher": "www.digitalcameraworld.com",
+          "url": "https://www.digitalcameraworld.com/cameras/if-there-really-is-a-decline-in-mirrorless-and-dslr-sales-as-cipa-is-saying-has-the-interchangeable-lens-camera-had-its-day",
+          "source_type": "other",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::casting-agencies::ca-production",
+      "industry_slug": "casting-agencies",
+      "claim_id": "ca-production",
+      "claim_type": "estimate",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_03993",
+          "publisher": "Señal News",
+          "url": "https://senalnews.com/en/data/global-film-and-tv-production-began-2025-with-a-downturn",
+          "source_type": "news",
+          "published_at": null
+        },
+        {
+          "source_id": "src_03994",
+          "publisher": "TheWrap",
+          "url": "https://www.thewrap.com/industry-news/industry-trends/us-film-production-2026/",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::cell-phone-repair::repair-policy",
+      "industry_slug": "cell-phone-repair",
+      "claim_id": "repair-policy",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15071",
+          "publisher": "New York Attorney General",
+          "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-reminds-consumers-its-easier-ever-get-electronics",
+          "source_type": "government",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15072",
+          "publisher": "Colorado General Assembly",
+          "url": "https://www.leg.colorado.gov/bills/hb24-1121",
+          "source_type": "government",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::community-food-services-in-the-us::community-demand",
+      "industry_slug": "community-food-services-in-the-us",
+      "claim_id": "community-demand",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_04389",
+          "publisher": "Feeding America",
+          "url": "https://www.feedingamerica.org/about-us/press-room/Map-the-Meal-Gap-2025",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04392",
+          "publisher": "Urban Institute",
+          "url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025,%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
+          "source_type": "research_firm",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04393",
+          "publisher": "FRAC",
+          "url": "https://frac.org/news/usdafoodsecurityreportdec2025",
+          "source_type": "other",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::community-food-services-in-the-us::community-funding",
+      "industry_slug": "community-food-services-in-the-us",
+      "claim_id": "community-funding",
+      "claim_type": "estimate",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_04396",
+          "publisher": "Food Bank News",
+          "url": "https://foodbanknews.org/2025-food-bank-fundraising-surpasses-covid-era-results/",
+          "source_type": "news",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04398",
+          "publisher": "3BL Media",
+          "url": "https://www.3blmedia.com/news/giving-numbersr-2026-edition-data-reveals-stark-divide-corporate-giving",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::community-housing-and-homeless-shelters-in-the-us::shelter-affordability",
+      "industry_slug": "community-housing-and-homeless-shelters-in-the-us",
+      "claim_id": "shelter-affordability",
+      "claim_type": "estimate",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_04410",
+          "publisher": "Urban Institute Housing Matters",
+          "url": "https://housingmatters.urban.org/articles-features/housing-nonprofits-face-challenges-could-threaten-their-ability-meet-increasing-demand",
+          "source_type": "academic",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04411",
+          "publisher": "DESC",
+          "url": "https://www.desc.org/ssi-vs-rent-2025/",
+          "source_type": "trade_association",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::consumer-electronics-and-appliances-rental-in-the-us::rental-debt",
+      "industry_slug": "consumer-electronics-and-appliances-rental-in-the-us",
+      "claim_id": "rental-debt",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_04586",
+          "publisher": "Equifax",
+          "url": "https://investor.equifax.com/news-events/press-releases/detail/1409/u-s-consumer-debt-hits-18-19-trillion-in-q1-2026",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04588",
+          "publisher": "TransUnion",
+          "url": "https://newsroom.transunion.com/k-shaped-q1-2026-ciir/",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::cotton-farming-in-the-us::cotton-acreage",
+      "industry_slug": "cotton-farming-in-the-us",
+      "claim_id": "cotton-acreage",
+      "claim_type": "estimate",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_04848",
+          "publisher": "Cotton Southeast AgNET",
+          "url": "https://southeastagnet.com/2026/05/13/usda-final-cotton-report-2025-production-down/",
+          "source_type": "news",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04849",
+          "publisher": "National Cotton Council",
+          "url": "https://www.cotton.org/news/releases/2026/ncc-planting-intentions.cfm",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04850",
+          "publisher": "National Cotton Council",
+          "url": "https://www.cotton.org/news/releases/2025/25amplantint.cfm",
+          "source_type": "trade_association",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::cremation-services::cremation-adoption",
+      "industry_slug": "cremation-services",
+      "claim_id": "cremation-adoption",
+      "claim_type": "estimate",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_04043",
+          "publisher": "Cremation Association of North America",
+          "url": "https://www.cremationassociation.org/industrystatistics.html",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04292",
+          "publisher": "US Funerals Online",
+          "url": "https://us-funerals.com/2026-us-cremation-rate/",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04888",
+          "publisher": "PRWeb",
+          "url": "https://www.prweb.com/releases/americans-choosing-cremation-at-historic-rates-nfda-report-finds-302556357.html",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::cremation-services::cremation-direct",
+      "industry_slug": "cremation-services",
+      "claim_id": "cremation-direct",
+      "claim_type": "estimate",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_04897",
+          "publisher": "Terracare",
+          "url": "https://www.terracareprogram.com/blog/nor-education/direct-cremation-growth-2026/",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04898",
+          "publisher": "Saint Diamonds",
+          "url": "https://saintdiamonds.com/blog/direct-cremation-cost-process-complete-guide-2025-2026/",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::dna-and-dna-forensic-laboratories::dna-public",
+      "industry_slug": "dna-and-dna-forensic-laboratories",
+      "claim_id": "dna-public",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15346",
+          "publisher": "Bureau of Justice Assistance",
+          "url": "https://bja.ojp.gov/funding/opportunities/o-bja-2025-172441",
+          "source_type": "government",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15347",
+          "publisher": "Grants.gov",
+          "url": "https://simpler.grants.gov/opportunity/273fd722-0557-4307-a1d0-78e60404b8a3",
+          "source_type": "government",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::drug-and-alcohol-test-kit-manufacturing::test-demand",
+      "industry_slug": "drug-and-alcohol-test-kit-manufacturing",
+      "claim_id": "test-demand",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 2,
+        "source_url_count": 4,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15453",
+          "publisher": "Substance Abuse and Mental Health Services Administration",
+          "url": "https://www.samhsa.gov/data/report/2024-nsduh-annual-national-report",
+          "source_type": "government",
+          "published_at": "2025-01-01"
+        },
+        {
+          "source_id": "src_15454",
+          "publisher": "Quest Diagnostics",
+          "url": "https://www.questdiagnostics.com/business-solutions/employers/drug-screening/knowledge-center/drug-testing-index",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15455",
+          "publisher": "Quest Diagnostics",
+          "url": "https://ir.questdiagnostics.com/press-releases/press-release-details/2026/One-in-Five-American-Workers-Tested-Had-a-Positive-Hair-Drug-Test-in-2025-Signaling-Persistent-Long-Term-Substance-Use-Patterns/default.aspx",
+          "source_type": "company",
+          "published_at": "2026-01-01"
+        },
+        {
+          "source_id": "src_15456",
+          "publisher": "Quest Diagnostics",
+          "url": "https://www.questdiagnostics.com/business-solutions/resources-insights/workforce-health-solutions/drug-testing/quest-diagnostics-dti--insights--marijuana-is-still-number-1--just-not-in-a-good-way",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::dry-docks-and-cargo-inspection-services-in-the-us::dock-defense",
+      "industry_slug": "dry-docks-and-cargo-inspection-services-in-the-us",
+      "claim_id": "dock-defense",
+      "claim_type": "estimate",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_05398",
+          "publisher": "Defense One",
+          "url": "https://www.defenseone.com/business/2026/01/navy-shipbuilding-stands-get-27-billion-funding-2026/410959/",
+          "source_type": "news",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05399",
+          "publisher": "Breaking Defense",
+          "url": "https://breakingdefense.com/2025/06/navys-2026-shipbuilding-budget-seeks-just-3-warships-in-base-request-16-in-reconciliation/",
+          "source_type": "news",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05405",
+          "publisher": "General Dynamics",
+          "url": "https://www.gd.com/Articles/2025/07/31/general-dynamics-bath-iron-works-awarded-contract-for-additional-ddg-51-destroyer",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::eating-disorder-clinics::ed-need",
+      "industry_slug": "eating-disorder-clinics",
+      "claim_id": "ed-need",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15504",
+          "publisher": "National Institute of Mental Health",
+          "url": "https://www.nimh.nih.gov/health/statistics/eating-disorders",
+          "source_type": "government",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15505",
+          "publisher": "National Institutes of Health",
+          "url": "https://report.nih.gov/funding/categorical-spending",
+          "source_type": "government",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::electronic-design-automation-software-developers::eda-concentration",
+      "industry_slug": "electronic-design-automation-software-developers",
+      "claim_id": "eda-concentration",
+      "claim_type": "estimate",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_05517",
+          "publisher": "SemiAnalysis",
+          "url": "https://newsletter.semianalysis.com/p/eda-market-primer",
+          "source_type": "research_firm",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05518",
+          "publisher": "Shashi",
+          "url": "https://www.shashi.co/2026/07/synopsys-cadence-and-siemens-eda-design.html",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05522",
+          "publisher": "Semiconductor Engineering",
+          "url": "https://semiengineering.com/the-state-of-the-eda-industry-in-2024/",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::farm-animal-feed-production::feed-consolidation",
+      "industry_slug": "farm-animal-feed-production",
+      "claim_id": "feed-consolidation",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_05798",
+          "publisher": "Cargill",
+          "url": "https://www.cargill.com/2024/cargill-acquires-two-us-feed-mills-strengthens-production",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05799",
+          "publisher": "Tracxn",
+          "url": "https://tracxn.com/d/acquisitions/acquisitions-by-cargill/",
+          "source_type": "other",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::food-trucks::ft-costs",
+      "industry_slug": "food-trucks",
+      "claim_id": "ft-costs",
+      "claim_type": "estimate",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_06281",
+          "publisher": "Restroworks",
+          "url": "https://www.restroworks.com/blog/food-truck-cost/",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06282",
+          "publisher": "CloudWaitress",
+          "url": "https://www.cloudwaitress.com/restaurant-management/how-much-do-food-trucks-make-2025/",
+          "source_type": "company",
+          "published_at": "2025-01-01"
+        },
+        {
+          "source_id": "src_06286",
+          "publisher": "Homebase",
+          "url": "https://www.joinhomebase.com/blog/how-much-does-it-cost-to-start-a-food-truck",
+          "source_type": "company",
+          "published_at": "2025-01-01"
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::glass-product-manufacturing-in-the-us::glass-economics",
+      "industry_slug": "glass-product-manufacturing-in-the-us",
+      "claim_id": "glass-economics",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_01710",
+          "publisher": "www.procurementresource.com",
+          "url": "https://www.procurementresource.com/resource-center/glass-and-its-products-price-trends",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_01712",
+          "publisher": "manufacturing.alboompro.com",
+          "url": "https://manufacturing.alboompro.com/post/cost-analysis-for-a-glass-manufacturing-plant-2026-setup-requirements-and-business-plan-consultant",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_01733",
+          "publisher": "gmic.org",
+          "url": "https://gmic.org/what-are-the-biggest-challenges-facing-glass-manufacturers-today/",
+          "source_type": "other",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::golf-driving-ranges-and-family-fun-centers-in-the-us::venue-performance",
+      "industry_slug": "golf-driving-ranges-and-family-fun-centers-in-the-us",
+      "claim_id": "venue-performance",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_12927",
+          "publisher": "Topgolf Callaway Brands",
+          "url": "https://ir.callawaygolf.com/node/26436",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_12930",
+          "publisher": "Dave & Buster's",
+          "url": "https://ir.daveandbusters.com/news-releases/news-release-details/dave-busters-reports-fourth-quarter-and-fiscal-year-end-2025",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::gym-health-and-fitness-clubs-in-the-us::club-scale",
+      "industry_slug": "gym-health-and-fitness-clubs-in-the-us",
+      "claim_id": "club-scale",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_13069",
+          "publisher": "Planet Fitness",
+          "url": "https://investor.planetfitness.com/investors/press-releases/press-release-details/2026/Planet-Fitness-Inc--Announces-Fourth-Quarter-and-Year-End-2025-Results/default.aspx",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_13070",
+          "publisher": "Life Time Group Holdings",
+          "url": "https://ir.lifetime.life/news-events/press-releases/detail/1192/life-time-reports-fourth-quarter-and-full-year-2025-financial-results",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::hat-and-cap-stores::lids",
+      "industry_slug": "hat-and-cap-stores",
+      "claim_id": "lids",
+      "claim_type": "fact",
+      "priority": "high",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_13209",
+          "publisher": "Fanatics",
+          "url": "https://www.fanaticsinc.com/lids",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_13210",
+          "publisher": "ScrapeHero",
+          "url": "https://www.scrapehero.com/location-reports/Lids-USA/",
+          "source_type": "other",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::adult-and-pornographic-websites::adult-age",
+      "industry_slug": "adult-and-pornographic-websites",
+      "claim_id": "adult-age",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15598",
+          "publisher": "Free Speech Coalition",
+          "url": "https://action.freespeechcoalition.com/age-verification-resources/state-avs-laws/",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15599",
+          "publisher": "Free Speech Coalition",
+          "url": "https://action.freespeechcoalition.com/age-verification-bills/",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15601",
+          "publisher": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2024/06/adult-sites-blocking-more-states-this-summer-to-protest-age-verification-laws/",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::art-and-office-supply-manufacturing-in-the-us::aos-brands",
+      "industry_slug": "art-and-office-supply-manufacturing-in-the-us",
+      "claim_id": "aos-brands",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 4,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15262",
+          "publisher": "Newell Brands",
+          "url": "https://ir.newellbrands.com/news-releases/news-release-details/newell-brands-announces-fourth-quarter-and-full-year-2025'}",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15263",
+          "publisher": "Newell Brands",
+          "url": "https://ir.newellbrands.com/news-releases/news-release-details/newell-brands-announces-first-quarter-2026-results/'}",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15264",
+          "publisher": "ACCO Brands",
+          "url": "https://ir.accobrands.com/news/news-details/2026/ACCO-Brands-Reports-Fourth-Quarter-and-Full-Year-Results-and-Provides-Outlook-for-2026/default.aspx'}",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15265",
+          "publisher": "ACCO Brands",
+          "url": "https://ir.accobrands.com/news/news-details/2025/ACCO-Brands-Reports-Second-Quarter-Results/default.aspx'}",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::burger-restaurants::burger-chains",
+      "industry_slug": "burger-restaurants",
+      "claim_id": "burger-chains",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15000",
+          "publisher": "QSR Magazine",
+          "url": "https://www.qsrmagazine.com/story/qsr-50-2025-top-fast-food-burger-chains-ranked-by-sales/'}",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15001",
+          "publisher": "Nation's Restaurant News",
+          "url": "https://www.nrn.com/top-500-restaurants/burger-brands-register-sluggish-sales-in-technomic-top-500-report'}",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::casting-agencies::ca-digital",
+      "industry_slug": "casting-agencies",
+      "claim_id": "ca-digital",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_03989",
+          "publisher": "Stage One Talent",
+          "url": "https://www.stageonetalent.co.uk/streaming-platforms-transform-casting-in-2026/",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_03998",
+          "publisher": "Style Rave",
+          "url": "https://www.stylerave.com/us-casting-directors-digital-platforms/",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_03999",
+          "publisher": "ActorLab",
+          "url": "https://actorlab.io/blog/how-to-find-casting-calls-2026",
+          "source_type": "other",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::cell-phone-recycling::phone-devices",
+      "industry_slug": "cell-phone-recycling",
+      "claim_id": "phone-devices",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15062",
+          "publisher": "IDC",
+          "url": "https://www.idc.com/promo/smartphone-market-share/?submit=Search",
+          "source_type": "research_firm",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15063",
+          "publisher": "Light Reading",
+          "url": "https://www.lightreading.com/smartphones-devices/us-smartphone-market-grows-1-in-q2-2025-as-made-in-india-shipments-surge-amid-tariff-risks-canalys",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::commercial-oven-manufacturing::com-demand",
+      "industry_slug": "commercial-oven-manufacturing",
+      "claim_id": "com-demand",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15282",
+          "publisher": "Manufacturers Agents Association for the Foodservice Industry",
+          "url": "https://www.mafsi.org/market-forecast'}",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15283",
+          "publisher": "Foodservice Equipment Distributors Association",
+          "url": "https://www.feda.com/news/equipment-sales-rose-at-close-of-2025-but-mafsi-warns-outside-factors-could-cause-slowdown'}",
+          "source_type": "trade_association",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::commercial-oven-manufacturing::com-scale",
+      "industry_slug": "commercial-oven-manufacturing",
+      "claim_id": "com-scale",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 4,
+        "publisher_count": 4,
+        "source_url_count": 4,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15284",
+          "publisher": "The Middleby Corporation",
+          "url": "https://middlebycorporation.gcs-web.com/news-releases/news-release-details/middleby-corporation-reports-fourth-quarter-and-fiscal-year'}",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15285",
+          "publisher": "Illinois Tool Works",
+          "url": "https://financialfilings.com/filings/illinois-tool-works-inc/annual-report/2026/20210929/'}",
+          "source_type": "filing",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15286",
+          "publisher": "Ali Group",
+          "url": "https://www.aligroup.com/news/ali-group-completes-acquisition-of-welbilt/'}",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15287",
+          "publisher": "Welbilt / Ali Group",
+          "url": "https://www.welbilt.us/News/News/2026/March/Ali-Group-Completes-Acquisition-of-BUNN'}",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::copier-and-optical-machinery-manufacturing-in-the-us::copier-consolidation",
+      "industry_slug": "copier-and-optical-machinery-manufacturing-in-the-us",
+      "claim_id": "copier-consolidation",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_04675",
+          "publisher": "Xerox",
+          "url": "https://www.news.xerox.com/news/xerox-completes-the-acquisition-of-lexmark-uniting-two-industry-leaders",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04678",
+          "publisher": "RTM World",
+          "url": "https://www.rtmworld.com/news/ricoh-provides-updated-joint-venture-plans-with-toshiba/",
+          "source_type": "news",
+          "published_at": null
+        },
+        {
+          "source_id": "src_04679",
+          "publisher": "The Imaging Channel",
+          "url": "https://theimagingchannel.com/ricoh-and-toshiba-launch-etria-joint-venture/",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::costume-and-team-uniform-manufacturing-in-the-us::ctu-demand",
+      "industry_slug": "costume-and-team-uniform-manufacturing-in-the-us",
+      "claim_id": "ctu-demand",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_15310",
+          "publisher": "National Student Clearinghouse Research Center",
+          "url": "https://www.studentclearinghouse.org/news/fall-postsecondary-enrollment-grows-4-5-rebounds-above-pre-covid-levels/",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_15314",
+          "publisher": "Herff Jones",
+          "url": "https://www.herffjones.com/about/",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::credit-counselors-surveyors-and-appraisers-in-the-us::ccsa-appraisal",
+      "industry_slug": "credit-counselors-surveyors-and-appraisers-in-the-us",
+      "claim_id": "ccsa-appraisal",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_00125",
+          "publisher": "Appraisal Institute",
+          "url": "https://www.appraisalinstitute.org/insights-and-resources/insights/newsroom/appraisal-now/20260407-appraisal-insights",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_00128",
+          "publisher": "Working RE",
+          "url": "https://www.workingre.com/2026-market-update-appraisal-volume-waivers-and-pdcs/",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::demolition-and-wrecking-in-the-us::demo-cost",
+      "industry_slug": "demolition-and-wrecking-in-the-us",
+      "claim_id": "demo-cost",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_05065",
+          "publisher": "JumboBee",
+          "url": "https://jumbobee.com/blog/trump-tariffs-heavy-equipment-prices-global-impact/",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05066",
+          "publisher": "Construction & Demolition Recycling",
+          "url": "https://www.cdrecycler.com/news/steel-aluminum-tariffs-usa-white-house-april-2026-recycling-construction/",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_01741",
+          "publisher": "Equitable Growth",
+          "url": "https://equitablegrowth.org/tariff-policies-in-2025-increased-input-costs-for-key-u-s-industries-threatening-growth-and-investment/",
+          "source_type": "research_firm",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::dentists-in-the-us::dent-dso",
+      "industry_slug": "dentists-in-the-us",
+      "claim_id": "dent-dso",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_00544",
+          "publisher": "Clerri",
+          "url": "https://clerri.com/blog/dso-growth-trends",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_00545",
+          "publisher": "Clerri",
+          "url": "https://clerri.com/blog/dental-practice-consolidation-trends",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_00546",
+          "publisher": "Oral Health Group",
+          "url": "https://www.oralhealthgroup.com/dental-industry/us-dental-practice-sales-2026-1003997582/",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::digital-forensic-services::forensic-demand",
+      "industry_slug": "digital-forensic-services",
+      "claim_id": "forensic-demand",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_05184",
+          "publisher": "Computer Forensics Lab",
+          "url": "https://computerforensicslab.co.uk/digital-forensic-trends-2025/",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05185",
+          "publisher": "Belkasoft",
+          "url": "https://belkasoft.com/dfir-trends-2025",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05189",
+          "publisher": "IBM",
+          "url": "https://www.ibm.com/think/topics/dfir",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::family-law-and-divorce-lawyers-and-attorneys::family-demographics",
+      "industry_slug": "family-law-and-divorce-lawyers-and-attorneys",
+      "claim_id": "family-demographics",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_05784",
+          "publisher": "Divorce.com",
+          "url": "https://divorce.com/blog/divorce-statistics/",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05785",
+          "publisher": "Bowling Green State University",
+          "url": "https://www.bgsu.edu/ncfmr/resources/data/family-profiles/fp-25-31.html",
+          "source_type": "academic",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::fence-and-scaffolding-manufacturing::fs-metals",
+      "industry_slug": "fence-and-scaffolding-manufacturing",
+      "claim_id": "fs-metals",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_05890",
+          "publisher": "Associated General Contractors",
+          "url": "https://www.agc.org/news/2026/01/30/double-digit-increases-aluminum-steel-and-copper-costs-drive-producer-price-indexes-construction",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05891",
+          "publisher": "Associated General Contractors",
+          "url": "https://www.agc.org/news/2026/02/27/extreme-increases-aluminum-steel-and-copper-costs-drive-prices-construction-materials-january",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_05892",
+          "publisher": "American Douglas Metals",
+          "url": "https://americandouglasmetals.com/aluminum-prices-hit-new-highs-u-s-construction-cost-analysis-2026/",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::financial-data-service-providers::fdsp-alternative",
+      "industry_slug": "financial-data-service-providers",
+      "claim_id": "fdsp-alternative",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 4,
+        "publisher_count": 4,
+        "source_url_count": 4,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_06004",
+          "publisher": "Neudata",
+          "url": "https://www.neudata.co/blog/state-of-the-alternative-data-market-2026",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06005",
+          "publisher": "Coalition Greenwich",
+          "url": "https://www.greenwich.com/market-structure-technology/alternative-data-2025-fueling-ai-driven-investment-revolution",
+          "source_type": "research_firm",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06006",
+          "publisher": "Ready Signal",
+          "url": "https://www.readysignal.com/alt-data-market-30b-2026-forecasting-playbook/",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06007",
+          "publisher": "Integrity Research",
+          "url": "https://www.integrity-research.com/the-explosive-growth-of-the-alternative-data-industry-trends-drivers-and-revenue-forecasts-through-2028/",
+          "source_type": "research_firm",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::fish-and-seafood-wholesaling-in-the-us::seafood-tariffs",
+      "industry_slug": "fish-and-seafood-wholesaling-in-the-us",
+      "claim_id": "seafood-tariffs",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_06205",
+          "publisher": "Undercurrent News",
+          "url": "https://www.undercurrentnews.com/2026/06/03/us-section-301-action-threatens-2-9bn-in-new-tariffs-on-seafood-imports/",
+          "source_type": "news",
+          "published_at": "2026-06-03"
+        },
+        {
+          "source_id": "src_06210",
+          "publisher": "Dimerco",
+          "url": "https://dimerco.com/us-tariff-update-2026/",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06211",
+          "publisher": "Southern Shrimp Alliance",
+          "url": "https://shrimpalliance.com/united-states-imposes-section-301-duties-on-imported-seafood/",
+          "source_type": "trade_association",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::fluid-power-equipment-distributors::fluid-tariffs",
+      "industry_slug": "fluid-power-equipment-distributors",
+      "claim_id": "fluid-tariffs",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_07002",
+          "publisher": "Power & Motion",
+          "url": "https://www.powermotiontech.com/hydraulics/article/55331507/fluid-power-industry-continues-to-navigate-market-challenges-while-embracing-new-opportunities",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_07003",
+          "publisher": "Power & Motion",
+          "url": "https://www.powermotiontech.com/market-trends/blog/55389602/fluid-power-industry-sees-challenges-and-opportunities-in-q2-2026",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_07011",
+          "publisher": "Empowering Pumps",
+          "url": "https://empoweringpumps.com/exploring-new-technologies-and-trends-shaping-the-fluid-power-landscape/",
+          "source_type": "trade_association",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::flying-schools::flight-demand",
+      "industry_slug": "flying-schools",
+      "claim_id": "flight-demand",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 6,
+        "publisher_count": 6,
+        "source_url_count": 6,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_07103",
+          "publisher": "ATP Flight School",
+          "url": "https://atpflightschool.com/become-a-pilot/airline-career/pilot-hiring-outlook.html",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_07104",
+          "publisher": "PEA",
+          "url": "https://pea.com/blog/global-pilot-shortage/",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_07105",
+          "publisher": "Skyfarer Academy",
+          "url": "https://blog.skyfareracademy.com/2026/03/06/pilot-shortage-in-2026-is-there-still-strong-demand-for-pilots/",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_07107",
+          "publisher": "Pelican Flight School",
+          "url": "https://pelicanflightschool.com/pilot-demand",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_07122",
+          "publisher": "Coast Flight",
+          "url": "https://iflycoast.com/va-benefit-flight-training/",
+          "source_type": "company",
+          "published_at": null
+        },
+        {
+          "source_id": "src_07123",
+          "publisher": "Flight School USA",
+          "url": "https://www.flightschoolusa.com/aviation-school-with-gi-bill/",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::fruit-and-vegetable-wholesaling-in-the-us::fvw-organic",
+      "industry_slug": "fruit-and-vegetable-wholesaling-in-the-us",
+      "claim_id": "fvw-organic",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 2,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_08405",
+          "publisher": "Organic Trade Association",
+          "url": "https://ota.com/about-ota/press-releases/growth-us-organic-marketplace-accelerated-2024",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_08406",
+          "publisher": "Fresh Fruit Portal",
+          "url": "https://www.freshfruitportal.com/news/2025/05/13/sales-of-organic-fresh-produce-in-the-u-s-reached-9-5b-in-2024/",
+          "source_type": "news",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::fuel-dealers-in-the-us::fd-consolidation",
+      "industry_slug": "fuel-dealers-in-the-us",
+      "claim_id": "fd-consolidation",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 2,
+        "publisher_count": 2,
+        "source_url_count": 4,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_06446",
+          "publisher": "BPN News",
+          "url": "https://bpnews.com/finance/assessing-propane-ma-sector-top-2025",
+          "source_type": "news",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06447",
+          "publisher": "BPN News",
+          "url": "https://bpnews.com/strategy/2026-state-propane-industry-what-you-need-know",
+          "source_type": "news",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06448",
+          "publisher": "LP Gas Magazine",
+          "url": "https://www.lpgasmagazine.com/2024-25-merger-and-acquisition-activity/",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06449",
+          "publisher": "LP Gas Magazine",
+          "url": "https://www.lpgasmagazine.com/2025-26-merger-and-acquisition-activity/",
+          "source_type": "trade_association",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::furniture-wholesaling-in-the-us::fw-trade",
+      "industry_slug": "furniture-wholesaling-in-the-us",
+      "claim_id": "fw-trade",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_06478",
+          "publisher": "Horegener",
+          "url": "https://horegener.com/u-s-tariffs-on-furniture-imports-and-exports/",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06482",
+          "publisher": "Source of Asia",
+          "url": "https://www.sourceofasia.com/southeast-asia-furniture-industry-2026/",
+          "source_type": "other",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06483",
+          "publisher": "APLF",
+          "url": "https://www.aplf.com/2025/06/12/vietnam-and-asean-furniture-industry-2026/",
+          "source_type": "trade_association",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    },
+    {
+      "review_id": "ibis-independence::golf-cart-manufacturing::gc-trade",
+      "industry_slug": "golf-cart-manufacturing",
+      "claim_id": "gc-trade",
+      "claim_type": "interpretation",
+      "priority": "medium",
+      "review_status": "unassigned",
+      "independence_candidate_basis": {
+        "source_host_count": 3,
+        "publisher_count": 3,
+        "source_url_count": 3,
+        "dependency_flags": []
+      },
+      "sources": [
+        {
+          "source_id": "src_06708",
+          "publisher": "Flanders-China Chamber of Commerce",
+          "url": "https://www.flanders-china.be/en/newsletterpublications/chinese-golf-cart-makers-are-moving-to-the-u-s-to-avoid-tariffs",
+          "source_type": "trade_association",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06709",
+          "publisher": "Golf Digest",
+          "url": "https://www.golfdigest.com/story/how-u-s--china-trade-tensions-now-extend-to---golf-carts",
+          "source_type": "news",
+          "published_at": null
+        },
+        {
+          "source_id": "src_06710",
+          "publisher": "Easy Ride Golf Cars",
+          "url": "https://easyridegolfcars.com/golf-cart-tariffs-and-chinese-dumping-ruling-2025",
+          "source_type": "company",
+          "published_at": null
+        }
+      ],
+      "required_evidence": [
+        "verify the named publisher and legal source owner",
+        "confirm whether each source is primary, secondary, or company-sponsored",
+        "record publication date, observation period, geography, unit, and denominator",
+        "check whether any sources share an underlying dataset, study, filing, or press release",
+        "attach one independent outcome measure or record why none is available",
+        "record rights/reuse status for the exact artifact"
+      ],
+      "decision_options": [
+        "independent_candidate",
+        "dependent_restate",
+        "insufficient_evidence",
+        "contradicted"
+      ],
+      "stop_rule": "Keep the claim held and do not use it as independent confirmation if ownership, period, outcome linkage, or rights cannot be verified.",
+      "company_bridge_status": "blocked_external_first_gate"
+    }
+  ]
+}

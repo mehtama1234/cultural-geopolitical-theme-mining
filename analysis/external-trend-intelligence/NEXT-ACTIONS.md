@@ -51,6 +51,12 @@ independence review. Reused URLs, hosts, or publishers are not counted as
 independent confirmation; publisher ownership and study lineage still require
 human verification.
 
+The [IBIS independence review queue](ibis-claim-independence-review-queue.json)
+turns those 47 candidates into assigned work. It records source URLs,
+publisher/type/date fields, required evidence, four possible dispositions, a
+10-business-day assignment target, and a fail-closed stop rule. All 47 start
+unassigned and remain blocked from any company bridge until review is complete.
+
 Next test:
 
 1. Select one finding, beginning with “Compliance Is Becoming Economic

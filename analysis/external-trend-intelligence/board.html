@@ -825,6 +825,9 @@
         const flags = Object.entries(audit.dependency_flag_counts).map(([name, count]) => `${name.replaceAll('_', ' ')}: ${count}`).join(' · ');
         ibisSamples.prepend(card(`${audit.sample_claim_count} claims · ${audit.reused_url_count} reused URLs · ${audit.reused_host_count} reused hosts`, audit.status, `${flags}. No dependency flag is treated as independent confirmation. ${audit.next_action}`));
       });
+      fetch('ibis-claim-independence-review-queue.json').then(r => r.json()).then(queue => {
+        ibisSamples.prepend(card(`${queue.candidate_count} claims queued · ${queue.high_priority_count} high priority`, queue.status, `${queue.unassigned_count} unassigned. ${queue.review_protocol.completion_evidence} ${queue.next_action}`));
+      });
       fetch('ibis-force-claim-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => ibisSamples.append(card(`${row.title} · ${row.publisher_count} publishers`, row.review_status, `${row.claim_reference_count} claim references · ${row.claim_period_missing_count} missing periods · ${row.independence_status}. ${row.next_action}`)));
       });
