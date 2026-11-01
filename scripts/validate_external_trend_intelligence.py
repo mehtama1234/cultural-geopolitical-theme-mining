@@ -1120,6 +1120,9 @@ def main() -> int:
     assert frontend_packet["open_review_count"] >= 0
     assert all(row["frontend_target_status"] == "mapped_to_board_surface" for row in frontend_packet["reviews"])
     assert all(row["frontend_target_id"] for row in frontend_packet["reviews"])
+    board_markup = (ANALYSIS / "board.html").read_text()
+    board_target_ids = set(re.findall(r'id=["\']([^"\']+)["\']', board_markup))
+    assert all(row["frontend_target_id"] in board_target_ids for row in frontend_packet["reviews"])
     assert "analysis/external-trend-intelligence/frontend-publication-review-packet.json" in manifest_paths
     assert chart_catalog["chart_count"] == len(chart_catalog["charts"]) >= 8
     assert all(row["theme"] and row["subtheme"] and row["concept"] for row in chart_catalog["charts"])
