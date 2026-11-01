@@ -22,6 +22,8 @@ def main() -> int:
     qualification = load("candidate-qualification-matrix.json")
     pilots = load("pilot-register.json")
     controls = load("source-family-controls.json")
+    acquired_sources = load("acquired-source-register.json")
+    release_watchlist = load("source-release-watchlist.json")
     # Keep the handoff snapshot's refresh baseline tied to the authoritative
     # append-only ledger. This prevents a manually maintained progress file
     # from drifting after a successful scheduled run.
@@ -39,6 +41,8 @@ def main() -> int:
             "records": manifest["record_count"],
             "themes": len(manifest["program_theme_counts"]),
             "source_families": status["family_count"],
+            "acquired_sources": acquired_sources["source_count"],
+            "release_watch_targets": release_watchlist["source_count"],
             "refresh_runs": history["run_count"],
             "latest_pipeline_steps": history["latest"].get("pipeline_step_count"),
             "latest_pipeline_status": history["latest"].get("pipeline_status"),

@@ -1058,6 +1058,11 @@ def main() -> int:
     assert room_comparison["source_families"] == ["Australian Bureau of Statistics General Social Survey", "HILDA via Australian Institute of Health and Welfare", "ANU COVID-19 Monitoring Survey / ANUPoll", "ANZ / Roy Morgan"]
     acquisition = json.loads((ANALYSIS / "evidence-acquisition-plan.json").read_text())
     assert acquisition["schema"] == "external-trend-intelligence.evidence-acquisition-plan.v1"
+    scorecard = json.loads((ANALYSIS / "program-scorecard.json").read_text())
+    acquired_register = json.loads((ANALYSIS / "acquired-source-register.json").read_text())
+    release_watch = json.loads((ANALYSIS / "source-release-watchlist.json").read_text())
+    assert scorecard["metrics"]["acquired_sources"] == acquired_register["source_count"] == 9
+    assert scorecard["metrics"]["release_watch_targets"] == release_watch["source_count"] == 9
     shed = json.loads((ANALYSIS / "federal-reserve-shed-financial-room-2013-2025.json").read_text())
     assert shed["schema"] == "external-trend-intelligence.external-acquisition.v1"
     assert shed["status"] == "acquired_pending_normalization"
