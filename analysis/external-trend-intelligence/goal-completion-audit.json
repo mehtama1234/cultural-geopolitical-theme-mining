@@ -18,7 +18,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, and recovery path are exercised and refresh runs are recorded with 99-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, and recovery path are exercised and refresh runs are recorded with 100-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -59,9 +59,10 @@
         "compatible-measure-search.json",
         "global-growth-forecast-comparison.json",
         "shed-emergency-expense-2013-2025.json",
-        "bounded-subset-lineage-review.json"
+        "bounded-subset-lineage-review.json",
+        "census-repair-proxy-comparison.json"
       ],
-      "gap": "The compatibility scan now finds 209 cross-host measure groups and the release includes bounded food-insecurity, mobility-access, and OECD/UN DESA/World Bank comparisons. These comparisons have distinct publishers and directional signals but remain non-comparable holdouts because populations, reference periods, uncertainty, weighting, and rights differ; forecast vintages and other comparisons still require outcome backtests, and no common-unit observed holdout has passed."
+      "gap": "The compatibility scan now finds 209 cross-host measure groups and the release includes bounded food-insecurity, mobility-access, OECD/UN DESA/World Bank, and a same-publisher CBP-versus-NES repair measurement comparison. Distinct-publisher comparisons remain non-comparable holdouts because populations, reference periods, uncertainty, weighting, and rights differ; the Census repair comparison explicitly cannot count as independent confirmation, and no common-unit observed holdout has passed."
     },
     {
       "id": "trend_qualification",

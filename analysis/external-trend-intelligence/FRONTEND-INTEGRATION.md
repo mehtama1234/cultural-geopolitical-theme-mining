@@ -28,6 +28,7 @@ blockers.
 | Cell-phone repair outcome acquisition | `cell-phone-repair-outcome-acquisition-plan.json` | state-policy context, FTC mechanism context, ITU counter-signal, non-pooling reasons, target outcome measures, acceptance criteria, and stop rule |
 | Census repair industry proxy | `census-repair-industry-snapshot.json` | 2019–2023 NAICS 811211/811213 national and state establishment/employment/payroll measures, download checksums, noise flags, proxy boundary, and non-pooling decision |
 | Census nonemployer repair proxy | `census-nonemployer-repair-snapshot.json` | 2019–2024 NAICS 81121 national/state nonemployer establishments and receipts, download checksums, flags, broad-category caveat, and non-pooling decision |
+| Census repair proxy comparison | `census-repair-proxy-comparison.json` | Aligned 2019–2023 CBP paid-employee and NES nonemployer repair measures, same-publisher warning, counter-signals, and explicit non-pooling decision |
 | IBIS force review | `ibis-force-claim-map.json`, `ibis-force-claim-review.json` | force-level source and publisher counts, missing claim periods, outcome candidates, falsifiers, independence and promotion hold |
 | Independent comparison | `independent-stage-comparison.json`, `room-independent-comparison.json` | source families, mechanism status, blocking items, non-pooling boundary |
 | Food-insecurity independent challenge | `food-insecurity-independent-comparison.json` | distinct publishers/hosts, overlapping periods, directional change, uncertainty, pooling decision, rights and comparability blockers |

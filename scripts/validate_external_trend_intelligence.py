@@ -338,6 +338,14 @@ def main() -> int:
     assert len(census_nonemployer["source"]["retrievals"]) == 12
     assert census_nonemployer["pooling_decision"] == "do_not_pool_with_state_policy_global_ewaste_or_cbp_paid_employee_series"
     assert census_nonemployer["interpretation_boundary"] and census_nonemployer["uncertainty"]
+    repair_comparison = json.loads((ANALYSIS / "census-repair-proxy-comparison.json").read_text())
+    assert repair_comparison["schema"] == "external-trend-intelligence.census-repair-proxy-comparison.v1"
+    assert repair_comparison["status"] == "bounded_same_publisher_comparison_not_independent_confirmation"
+    assert repair_comparison["coverage"]["years"] == [2019, 2020, 2021, 2022, 2023]
+    assert repair_comparison["coverage"]["row_count"] == 5
+    assert repair_comparison["measurement_map"]["same_publisher"] is True
+    assert repair_comparison["pooling_decision"] == "do_not_pool_or_count_as_independent_confirmation"
+    assert repair_comparison["counter_signals"] and repair_comparison["falsifier"]
     ibis_force_map = json.loads((ANALYSIS / "ibis-force-claim-map.json").read_text())
     assert ibis_force_map["schema"] == "external-trend-intelligence.ibis-force-claim-map.v1"
     assert ibis_force_map["force_count"] == len(ibis_force_map["forces"]) == 6

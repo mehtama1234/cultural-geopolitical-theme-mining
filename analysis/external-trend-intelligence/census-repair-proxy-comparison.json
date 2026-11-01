@@ -1,0 +1,79 @@
+{
+  "schema": "external-trend-intelligence.census-repair-proxy-comparison.v1",
+  "comparison_id": "census-cbp-versus-nes-repair-2019-2023",
+  "status": "bounded_same_publisher_comparison_not_independent_confirmation",
+  "source_artifacts": [
+    "census-repair-industry-snapshot.json",
+    "census-nonemployer-repair-snapshot.json"
+  ],
+  "coverage": {
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "row_count": 5
+  },
+  "rows": [
+    {
+      "year": 2019,
+      "cbp_paid_employee_establishments": 3671,
+      "cbp_paid_employee_employees": 33625,
+      "nes_nonemployer_establishments": 31177,
+      "nes_nonemployer_receipts_thousands_usd": 1333360
+    },
+    {
+      "year": 2020,
+      "cbp_paid_employee_establishments": 3614,
+      "cbp_paid_employee_employees": 35632,
+      "nes_nonemployer_establishments": 29798,
+      "nes_nonemployer_receipts_thousands_usd": 1282892
+    },
+    {
+      "year": 2021,
+      "cbp_paid_employee_establishments": 3584,
+      "cbp_paid_employee_employees": 37346,
+      "nes_nonemployer_establishments": 28908,
+      "nes_nonemployer_receipts_thousands_usd": 1341794
+    },
+    {
+      "year": 2022,
+      "cbp_paid_employee_establishments": 3589,
+      "cbp_paid_employee_employees": 38171,
+      "nes_nonemployer_establishments": 29016,
+      "nes_nonemployer_receipts_thousands_usd": 1448386
+    },
+    {
+      "year": 2023,
+      "cbp_paid_employee_establishments": 3341,
+      "cbp_paid_employee_employees": 25052,
+      "nes_nonemployer_establishments": 29040,
+      "nes_nonemployer_receipts_thousands_usd": 1485498
+    }
+  ],
+  "descriptive_changes": {
+    "cbp_paid_employee_establishments": -330,
+    "cbp_paid_employee_employees": -8573,
+    "nes_nonemployer_establishments": -2137,
+    "nes_nonemployer_receipts_thousands_usd": 152138
+  },
+  "measurement_map": {
+    "cbp": "Paid-employee establishments and employment in CBP NAICS 811211/811213.",
+    "nes": "Nonemployer establishments and gross receipts in NES NAICS 81121.",
+    "same_publisher": true,
+    "population_difference": "CBP covers employer establishments; NES covers businesses without paid employees, with different classification and reporting frames."
+  },
+  "interpretation": "The comparison tests whether broad employer and nonemployer repair signals move in the same descriptive direction. It does not estimate a market total, repair transactions, phone access, policy impact, or consumer outcomes.",
+  "counter_signals": [
+    "The CBP categories split consumer and communication equipment while NES aggregates them at five digits.",
+    "Receipts are nominal gross business receipts and are not comparable to CBP payroll or employment.",
+    "Both series share the Census publisher and administrative classification risks, so agreement is not independent confirmation."
+  ],
+  "pooling_decision": "do_not_pool_or_count_as_independent_confirmation",
+  "falsifier": "A phone-specific repair or replacement series shows a materially different direction or timing from both broad proxies.",
+  "next_action": "Use the comparison as a measurement-boundary check; acquire phone-specific transaction or consumer outcome data before qualification or internal exposure testing.",
+  "rights_basis": "Derived normalized comparison from official Census public-download artifacts; preserve source artifact names and checksums through their manifests.",
+  "boundary": "This same-publisher comparison improves external measurement discipline but leaves the phone-repair candidate held."
+}

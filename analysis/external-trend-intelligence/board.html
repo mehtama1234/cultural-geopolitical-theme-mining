@@ -845,6 +845,10 @@
         const d = snapshot.descriptive_readout;
         ibisSamples.prepend(card('Census nonemployer repair proxy', snapshot.status, `${d.establishment_change} establishments and ${d.receipts_change_thousands_usd} thousand USD receipts, ${d.first_year}→${d.last_year}. ${snapshot.interpretation_boundary} ${snapshot.next_action}`));
       });
+      fetch('census-repair-proxy-comparison.json').then(r => r.json()).then(comparison => {
+        const d = comparison.descriptive_changes;
+        ibisSamples.prepend(card('CBP versus NES repair comparison', comparison.status, `2019→2023: CBP paid-employee establishments ${d.cbp_paid_employee_establishments}; NES nonemployer establishments ${d.nes_nonemployer_establishments}. Same publisher, different populations; ${comparison.pooling_decision}.`));
+      });
       fetch('ibis-force-claim-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => ibisSamples.append(card(`${row.title} · ${row.publisher_count} publishers`, row.review_status, `${row.claim_reference_count} claim references · ${row.claim_period_missing_count} missing periods · ${row.independence_status}. ${row.next_action}`)));
       });

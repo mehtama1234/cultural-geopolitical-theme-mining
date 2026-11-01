@@ -97,6 +97,12 @@ phone transactions, workers, policy exposure, or device-life outcomes. It is
 kept as context and is explicitly not pooled with CBP, policy, or global
 e-waste signals.
 
+The [repair proxy comparison](census-repair-proxy-comparison.json) now aligns
+the CBP paid-employee series and NES nonemployer series for 2019–2023. It is a
+measurement-boundary check, not independent confirmation: both series come
+from Census, cover different populations, and use different repair-category
+granularity.
+
 Next test:
 
 1. Select one finding, beginning with “Compliance Is Becoming Economic
