@@ -804,6 +804,12 @@ def main() -> int:
     assert qualification_matrix["candidate_count"] == len(qualification_matrix["rows"]) == len(machine["candidates"])
     assert qualification_matrix["held_count"] == sum(row["gate_status"] == "held" for row in qualification_matrix["rows"])
     assert qualification_matrix["qualified_external_trend_count"] == sum(row["gate_status"] in {"qualified_external_trend", "monitored_external_trend"} for row in qualification_matrix["rows"])
+    qualification_packet = json.loads((ANALYSIS / "candidate-qualification-review-packet.json").read_text())
+    assert qualification_packet["schema"] == "external-trend-intelligence.candidate-qualification-review-packet.v1"
+    assert qualification_packet["status"] == "ready_for_human_qualification_signoff"
+    assert qualification_packet["candidate_count"] == qualification_matrix["candidate_count"] == len(qualification_packet["rows"])
+    assert all(row["required_decision_fields"] and row["decision_options"] and row["signoff"] for row in qualification_packet["rows"])
+    assert all(value is None for row in qualification_packet["rows"] for value in row["signoff"].values())
     pilot_register = json.loads((ANALYSIS / "pilot-register.json").read_text())
     assert pilot_register["schema"] == "external-trend-intelligence.pilot-register.v1"
     assert len(pilot_register["pilots"]) >= 1

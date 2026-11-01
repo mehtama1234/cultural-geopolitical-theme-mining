@@ -1,6 +1,6 @@
 {
   "schema": "external-trend-intelligence.refresh-status.v1",
-  "generated_at": "2026-11-01T07:49:46.135431+00:00",
+  "generated_at": "2026-11-01T07:54:01.847185+00:00",
   "source_schedule": "refresh-schedule.json",
   "source_registry": "source-family-registry.json",
   "family_count": 8,
@@ -23,7 +23,7 @@
         {
           "path": "candidate-comparisons.json",
           "exists": true,
-          "age_hours": 8.27
+          "age_hours": 8.34
         }
       ],
       "status": "ready_for_review",
@@ -67,7 +67,7 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 12.53
+          "age_hours": 12.6
         }
       ],
       "status": "ready_for_review",
@@ -84,7 +84,7 @@
         {
           "path": "repository-family-snapshot.json",
           "exists": true,
-          "age_hours": 0.05
+          "age_hours": 0.04
         },
         {
           "path": "external-family-observations.json",
@@ -106,7 +106,7 @@
         {
           "path": "repository-family-snapshot.json",
           "exists": true,
-          "age_hours": 0.05
+          "age_hours": 0.04
         },
         {
           "path": "external-family-observations.json",
@@ -128,7 +128,7 @@
         {
           "path": "repository-family-snapshot.json",
           "exists": true,
-          "age_hours": 0.05
+          "age_hours": 0.04
         },
         {
           "path": "external-family-observations.json",
@@ -138,7 +138,7 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 12.53
+          "age_hours": 12.6
         }
       ],
       "status": "ready_for_review",
@@ -155,12 +155,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 11.44
+          "age_hours": 11.51
         },
         {
           "path": "REFRESH-RUNBOOK.md",
           "exists": true,
-          "age_hours": 2.48
+          "age_hours": 2.55
         }
       ],
       "status": "ready_for_review",
@@ -177,12 +177,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 11.44
+          "age_hours": 11.51
         },
         {
           "path": "internal-bridge-schema.json",
           "exists": true,
-          "age_hours": 13.47
+          "age_hours": 13.54
         }
       ],
       "status": "ready_for_review",

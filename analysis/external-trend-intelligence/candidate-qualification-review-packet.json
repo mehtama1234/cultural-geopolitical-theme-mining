@@ -1,0 +1,491 @@
+{
+  "schema": "external-trend-intelligence.candidate-qualification-review-packet.v1",
+  "status": "ready_for_human_qualification_signoff",
+  "candidate_count": 5,
+  "unassigned_candidate_count": 5,
+  "rows": [
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "title": "Formal response arrives before usable recovery",
+      "current_state": "held",
+      "priority": "high",
+      "gate_statuses": {
+        "source_identity": true,
+        "comparability": false,
+        "independence": false,
+        "persistence": false,
+        "counter_signal": true,
+        "falsifier": false,
+        "backtest": false,
+        "decision_relevance": false
+      },
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "independence_review": {
+        "status": "pending_manual_adjudication",
+        "unassigned": true,
+        "unresolved_record_ids": [
+          "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018",
+          "comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust",
+          "bsa43-nhs-waiting-legitimacy-2026"
+        ],
+        "dependency_groups": [
+          {
+            "group_id": "fair-work-commission-case-family",
+            "record_ids": [
+              "au-al-hussein-reactivation-deemed-work-2025",
+              "au-fwc-khan-platform-repeat-deactivation-2026",
+              "au-mansoor-platform-alternative-earnings-remedy-2025",
+              "comparative-australia-fwc-no-alternative-employment-remedy-2024"
+            ],
+            "classification": "same_publisher_family",
+            "reason": "Four records are Fair Work Commission cases; separate case IDs do not establish independent publisher or population evidence."
+          }
+        ],
+        "required_evidence": [
+          "canonical publisher and source-family identity",
+          "underlying dataset or event, not only a summary or citation",
+          "population, geography, period, unit, denominator, and outcome",
+          "method overlap or non-overlap with every comparator",
+          "rights and redistribution boundary for the exact artifact",
+          "explicit reason the comparison is independent, dependent, or non-comparable"
+        ],
+        "stop_rule": "Do not count the candidate as independently confirmed when any comparator lacks canonical publisher, underlying dataset, compatible unit, or rights evidence."
+      },
+      "backtest_review": {
+        "status": "records_available_comparability_review",
+        "record_count": 7,
+        "pinned_git_record_path_count": 7,
+        "comparability_status": "harmonization_required",
+        "comparable_subset": [],
+        "harmonization_required": [],
+        "next_action": "Define a common unit, population, geography, and period before selecting a holdout window."
+      },
+      "falsification": {
+        "falsifier": "If comparable cases repeatedly show usable recovery before formal response, or formal response without durable access improvement, the sequence claim is weakened.",
+        "next_decisive_test": "Code formal response, implementation, receipt, durable access, and exit stages across independent labor, consumer, health, and public-service records.",
+        "backtest_plan": {
+          "status": "not_started",
+          "holdout": "later case or release after the source observation period",
+          "outcome": "receipt, usable recovery, durable access, and exit after formal response",
+          "required_evidence": "dated comparable cases with the same response, implementation, receipt, recovery, and exit stages"
+        }
+      },
+      "required_decision_fields": [
+        "target state: held, qualified, monitored, or reversed",
+        "evidence for every required rubric gate",
+        "independence disposition for every comparator",
+        "compatible unit, denominator, population, geography, and period",
+        "holdout outcome and uncertainty treatment",
+        "counter-signal and falsifier result",
+        "reviewer and second-reviewer acknowledgement",
+        "effective date and next review date"
+      ],
+      "decision_options": [
+        "retain_held",
+        "promote_to_qualified",
+        "promote_to_monitored",
+        "reverse_or_retire"
+      ],
+      "signoff": {
+        "trend_challenger": null,
+        "lineage_reviewer": null,
+        "second_reviewer": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "title": "Time and financial pressure reduce practical room before demand disappears",
+      "current_state": "held",
+      "priority": "high",
+      "gate_statuses": {
+        "source_identity": true,
+        "comparability": false,
+        "independence": false,
+        "persistence": false,
+        "counter_signal": true,
+        "falsifier": false,
+        "backtest": false,
+        "decision_relevance": false
+      },
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "independence_review": {
+        "status": "pending_manual_adjudication",
+        "unassigned": true,
+        "unresolved_record_ids": [
+          "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+          "comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration",
+          "comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools",
+          "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+          "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook",
+          "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging"
+        ],
+        "dependency_groups": [
+          {
+            "group_id": "abs-general-social-survey",
+            "record_ids": [
+              "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection"
+            ],
+            "classification": "same_survey_family",
+            "reason": "Multiple measures in this record come from one ABS General Social Survey family and are not independent observations."
+          },
+          {
+            "group_id": "jpmorgan-single-endpoint",
+            "record_ids": [
+              "comparative-jpmorgan-household-liquidity-2023"
+            ],
+            "classification": "single_publisher_endpoint",
+            "reason": "JPMorgan is one administrative-data endpoint with a restrictive republication notice; the chart does not expose a numeric table."
+          }
+        ],
+        "required_evidence": [
+          "canonical publisher and source-family identity",
+          "underlying dataset or event, not only a summary or citation",
+          "population, geography, period, unit, denominator, and outcome",
+          "method overlap or non-overlap with every comparator",
+          "rights and redistribution boundary for the exact artifact",
+          "explicit reason the comparison is independent, dependent, or non-comparable"
+        ],
+        "stop_rule": "Do not count the candidate as independently confirmed when any comparator lacks canonical publisher, underlying dataset, compatible unit, or rights evidence."
+      },
+      "backtest_review": {
+        "status": "records_available_comparability_review",
+        "record_count": 8,
+        "pinned_git_record_path_count": 8,
+        "comparability_status": "harmonization_required",
+        "comparable_subset": [],
+        "harmonization_required": [],
+        "next_action": "Define a common unit, population, geography, and period before selecting a holdout window."
+      },
+      "falsification": {
+        "falsifier": "If compatible repeated measures show pressure rising without reduced participation, substitution, or delayed completion, the practical-room mechanism is weakened.",
+        "next_decisive_test": "Preserve compatible time, cost, participation, and wellbeing units before interpreting practical-room change.",
+        "backtest_plan": {
+          "status": "not_started",
+          "holdout": "later survey wave or geography held out from candidate construction",
+          "outcome": "time pressure, participation, substitution, or delayed completion using compatible denominators",
+          "required_evidence": "at least two comparable waves or places with common unit, population, and participation measure"
+        }
+      },
+      "required_decision_fields": [
+        "target state: held, qualified, monitored, or reversed",
+        "evidence for every required rubric gate",
+        "independence disposition for every comparator",
+        "compatible unit, denominator, population, geography, and period",
+        "holdout outcome and uncertainty treatment",
+        "counter-signal and falsifier result",
+        "reviewer and second-reviewer acknowledgement",
+        "effective date and next review date"
+      ],
+      "decision_options": [
+        "retain_held",
+        "promote_to_qualified",
+        "promote_to_monitored",
+        "reverse_or_retire"
+      ],
+      "signoff": {
+        "trend_challenger": null,
+        "lineage_reviewer": null,
+        "second_reviewer": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "title": "Digital capability expands while control and trust remain contested",
+      "current_state": "held",
+      "priority": "high",
+      "gate_statuses": {
+        "source_identity": true,
+        "comparability": false,
+        "independence": false,
+        "persistence": false,
+        "counter_signal": true,
+        "falsifier": false,
+        "backtest": false,
+        "decision_relevance": false
+      },
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "independence_review": {
+        "status": "pending_manual_adjudication",
+        "unassigned": true,
+        "unresolved_record_ids": [
+          "comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries",
+          "comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership",
+          "comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social",
+          "comparative-oecd-ai-markets-2026-concentration-competition-strategic-advantage",
+          "comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight"
+        ],
+        "dependency_groups": [
+          {
+            "group_id": "informs-hbs-study-lineage",
+            "record_ids": [
+              "us-hbs-ai-customer-service-contextual-recourse-2020-2021"
+            ],
+            "classification": "secondary_summary_underlying_study",
+            "reason": "The HBS record summarizes an INFORMS field experiment; a summary and its underlying study must not be counted twice."
+          },
+          {
+            "group_id": "dima-musicwatch-lineage",
+            "record_ids": [
+              "comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai"
+            ],
+            "classification": "secondary_publisher_dependency",
+            "reason": "The DIMA record depends on MusicWatch research and requires claim-level source review."
+          }
+        ],
+        "required_evidence": [
+          "canonical publisher and source-family identity",
+          "underlying dataset or event, not only a summary or citation",
+          "population, geography, period, unit, denominator, and outcome",
+          "method overlap or non-overlap with every comparator",
+          "rights and redistribution boundary for the exact artifact",
+          "explicit reason the comparison is independent, dependent, or non-comparable"
+        ],
+        "stop_rule": "Do not count the candidate as independently confirmed when any comparator lacks canonical publisher, underlying dataset, compatible unit, or rights evidence."
+      },
+      "backtest_review": {
+        "status": "records_available_comparability_review",
+        "record_count": 7,
+        "pinned_git_record_path_count": 7,
+        "comparability_status": "harmonization_required",
+        "comparable_subset": [],
+        "harmonization_required": [],
+        "next_action": "Define a common unit, population, geography, and period before selecting a holdout window."
+      },
+      "falsification": {
+        "falsifier": "If capability adoption repeatedly coincides with stronger control, remedy, and trust outcomes across independent measures, the contested-control claim is weakened.",
+        "next_decisive_test": "Separate efficiency, delegation, trust, control, recourse, retention, and exit measures.",
+        "backtest_plan": {
+          "status": "not_started",
+          "holdout": "later attitude, adoption, or control-measure release",
+          "outcome": "capability adoption alongside verification, contestability, remedy, or trust",
+          "required_evidence": "repeated independent measures separating capability from control and trust"
+        }
+      },
+      "required_decision_fields": [
+        "target state: held, qualified, monitored, or reversed",
+        "evidence for every required rubric gate",
+        "independence disposition for every comparator",
+        "compatible unit, denominator, population, geography, and period",
+        "holdout outcome and uncertainty treatment",
+        "counter-signal and falsifier result",
+        "reviewer and second-reviewer acknowledgement",
+        "effective date and next review date"
+      ],
+      "decision_options": [
+        "retain_held",
+        "promote_to_qualified",
+        "promote_to_monitored",
+        "reverse_or_retire"
+      ],
+      "signoff": {
+        "trend_challenger": null,
+        "lineage_reviewer": null,
+        "second_reviewer": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "title": "Infrastructure dependency becomes cultural and geopolitical power",
+      "current_state": "held",
+      "priority": "high",
+      "gate_statuses": {
+        "source_identity": true,
+        "comparability": false,
+        "independence": false,
+        "persistence": false,
+        "counter_signal": true,
+        "falsifier": false,
+        "backtest": false,
+        "decision_relevance": false
+      },
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "independence_review": {
+        "status": "pending_manual_adjudication",
+        "unassigned": true,
+        "unresolved_record_ids": [
+          "us-uscc-transpacific-undersea-cable-gray-zone-resilience-2026",
+          "comparative-oecd-space-economy-2026-dependencies-sustainability-security",
+          "comparative-africa-sustainable-development-report-2026-water-energy-cities-finance",
+          "comparative-oecd-eu-social-economy-europe-2025-care-housing-delivery",
+          "comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security",
+          "comparative-world-bank-cloud-procurement-public-capability-lockin-2026"
+        ],
+        "dependency_groups": [
+          {
+            "group_id": "pjm-large-load-event",
+            "record_ids": [
+              "us-pjm-large-load-disconnection-response-2026"
+            ],
+            "classification": "single_event_record",
+            "reason": "The PJM material describes one operating event; multiple documents about that event would not be independent replications."
+          }
+        ],
+        "required_evidence": [
+          "canonical publisher and source-family identity",
+          "underlying dataset or event, not only a summary or citation",
+          "population, geography, period, unit, denominator, and outcome",
+          "method overlap or non-overlap with every comparator",
+          "rights and redistribution boundary for the exact artifact",
+          "explicit reason the comparison is independent, dependent, or non-comparable"
+        ],
+        "stop_rule": "Do not count the candidate as independently confirmed when any comparator lacks canonical publisher, underlying dataset, compatible unit, or rights evidence."
+      },
+      "backtest_review": {
+        "status": "records_available_comparability_review",
+        "record_count": 7,
+        "pinned_git_record_path_count": 7,
+        "comparability_status": "harmonization_required",
+        "comparable_subset": [],
+        "harmonization_required": [],
+        "next_action": "Define a common unit, population, geography, and period before selecting a holdout window."
+      },
+      "falsification": {
+        "falsifier": "If comparable infrastructure events show no durable reliability, cost, compensation, or acceptance consequence, the dependency-to-power mechanism is weakened.",
+        "next_decisive_test": "Link capacity or ownership claims to operation, actual receipt, local burden, maintenance, and acceptance.",
+        "backtest_plan": {
+          "status": "not_started",
+          "holdout": "later operating or disruption window after the candidate period",
+          "outcome": "operation followed by reliability, tariff, bill, compensation, or acceptance outcome",
+          "required_evidence": "dated event and outcome records linked by compatible geography and system unit"
+        }
+      },
+      "required_decision_fields": [
+        "target state: held, qualified, monitored, or reversed",
+        "evidence for every required rubric gate",
+        "independence disposition for every comparator",
+        "compatible unit, denominator, population, geography, and period",
+        "holdout outcome and uncertainty treatment",
+        "counter-signal and falsifier result",
+        "reviewer and second-reviewer acknowledgement",
+        "effective date and next review date"
+      ],
+      "decision_options": [
+        "retain_held",
+        "promote_to_qualified",
+        "promote_to_monitored",
+        "reverse_or_retire"
+      ],
+      "signoff": {
+        "trend_challenger": null,
+        "lineage_reviewer": null,
+        "second_reviewer": null,
+        "reviewed_on": null
+      }
+    },
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "title": "U.S. food insecurity remains elevated after pandemic support changes",
+      "current_state": "monitored_external_trend",
+      "priority": "standard",
+      "gate_statuses": {
+        "source_identity": true,
+        "comparability": true,
+        "independence": true,
+        "persistence": true,
+        "counter_signal": true,
+        "falsifier": true,
+        "backtest": true,
+        "decision_relevance": true
+      },
+      "blocking_gates": [],
+      "independence_review": {
+        "status": "pending_manual_adjudication",
+        "unassigned": true,
+        "unresolved_record_ids": [
+          "comparative-usda-food-security-2022-2024",
+          "us-urban-wbns-food-insecurity-persistence-2019-2025"
+        ],
+        "dependency_groups": [],
+        "required_evidence": [
+          "canonical publisher and source-family identity",
+          "underlying dataset or event, not only a summary or citation",
+          "population, geography, period, unit, denominator, and outcome",
+          "method overlap or non-overlap with every comparator",
+          "rights and redistribution boundary for the exact artifact",
+          "explicit reason the comparison is independent, dependent, or non-comparable"
+        ],
+        "stop_rule": "Do not count the candidate as independently confirmed when any comparator lacks canonical publisher, underlying dataset, compatible unit, or rights evidence."
+      },
+      "backtest_review": {
+        "status": "records_available_comparability_review",
+        "record_count": 2,
+        "pinned_git_record_path_count": 2,
+        "comparability_status": "harmonization_required",
+        "comparable_subset": [],
+        "harmonization_required": [],
+        "next_action": "Define a common unit, population, geography, and period before selecting a holdout window."
+      },
+      "falsification": {
+        "falsifier": "A later comparable release that reverses the stated mechanism would falsify the candidate.",
+        "next_decisive_test": "Align USDA and Urban definitions, preserve the methodology break, and acquire the next comparable release before any monitored state or internal bridge.",
+        "backtest_plan": {
+          "status": "passed_descriptive_holdout",
+          "holdout": "next USDA annual release and next Urban WBNS release, with 2025 Urban methodology break preserved",
+          "outcome": "food-insecurity prevalence and subgroup persistence under clearly defined survey frames",
+          "required_evidence": "same questionnaire threshold, denominator, geography, and uncertainty treatment across at least one new release"
+        }
+      },
+      "required_decision_fields": [
+        "target state: held, qualified, monitored, or reversed",
+        "evidence for every required rubric gate",
+        "independence disposition for every comparator",
+        "compatible unit, denominator, population, geography, and period",
+        "holdout outcome and uncertainty treatment",
+        "counter-signal and falsifier result",
+        "reviewer and second-reviewer acknowledgement",
+        "effective date and next review date"
+      ],
+      "decision_options": [
+        "retain_held",
+        "promote_to_qualified",
+        "promote_to_monitored",
+        "reverse_or_retire"
+      ],
+      "signoff": {
+        "trend_challenger": null,
+        "lineage_reviewer": null,
+        "second_reviewer": null,
+        "reviewed_on": null
+      }
+    }
+  ],
+  "acceptance_criteria": [
+    "Every candidate has a recorded disposition for each required qualification gate.",
+    "Independence, comparability, backtest, and falsification evidence are reviewed before promotion.",
+    "Held candidates remain held when evidence is missing, incompatible, or rights-limited.",
+    "No candidate is promoted to monitored or bridged to company data from this packet alone."
+  ],
+  "next_action": "Assign a trend challenger and lineage reviewer, complete one row per candidate, and write the signed disposition back to candidate-qualification-matrix.json and the adjudication queue.",
+  "boundary": "This packet makes qualification review executable; it is not a trend promotion, causal finding, forecast, or company authorization."
+}

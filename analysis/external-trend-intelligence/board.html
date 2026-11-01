@@ -145,6 +145,11 @@
       <div class="promotion-gates" id="falsification-queue"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Signable qualification and backtest packet</h2>
+      <p class="muted">This packet puts the trend decision, independence review, comparability design, falsifier, and human signoff in one row per candidate.</p>
+      <div class="promotion-gates" id="qualification-signoff-packet"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Bounded case-stage panel</h2>
       <p class="muted">Three same-frame cases are coded by stage. “Not observed” is not treated as a negative outcome.</p>
       <div class="promotion-gates" id="case-stage-panel"></div>
@@ -1090,6 +1095,10 @@
     fetch('falsification-review-queue.json').then(r => r.json()).then(queue => {
       el('falsification-queue').append(card('Challenge queue', 'measured', `${queue.candidate_count} candidates · ${queue.ready_for_monitoring_challenge_count} ready for monitoring challenge · ${queue.held_pending_decisive_evidence_count} held pending decisive evidence`));
       queue.rows.forEach(row => el('falsification-queue').append(card(row.candidate_id, row.review_state, `Falsifier: ${row.falsifier} Next test: ${row.next_decisive_test}`)));
+    });
+    fetch('candidate-qualification-review-packet.json').then(r => r.json()).then(packet => {
+      el('qualification-signoff-packet').append(card('Qualification signoff packet', packet.status, `${packet.candidate_count} candidates · ${packet.unassigned_candidate_count} unassigned. ${packet.next_action}`));
+      packet.rows.forEach(row => el('qualification-signoff-packet').append(card(row.candidate_id, row.current_state, `Blocking gates: ${row.blocking_gates.join(' · ') || 'none'}. Falsifier: ${row.falsification.falsifier}`)));
     });
   </script>
 </body>
