@@ -63,6 +63,7 @@ ARTIFACTS = [
     "ibis-community-food-outcome-linkage-review.json",
     "ibis-dock-defense-outcome-review.json",
     "usaspending-bath-iron-works-execution-snapshot.json",
+    "ibis-dock-defense-execution-comparison.json",
     "NAVY-EXECUTION-DATA-REQUEST.md",
     "ibis-community-food-comparison.json",
     "FEEDING-AMERICA-DATA-REQUEST.md",

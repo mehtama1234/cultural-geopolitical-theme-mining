@@ -44,6 +44,7 @@ STEPS = [
     ["scripts/build_ibis_first_review_batch.py"],
     ["scripts/build_usaspending_bath_iron_works_snapshot.py"],
     ["scripts/build_ibis_dock_defense_outcome.py"],
+    ["scripts/build_ibis_dock_defense_execution_comparison.py"],
     ["scripts/build_ibis_outcome_acquisition_queue.py"],
     ["scripts/build_usda_community_food_assistance_snapshot.py"],
     ["scripts/build_feeding_america_map_snapshot.py"],
