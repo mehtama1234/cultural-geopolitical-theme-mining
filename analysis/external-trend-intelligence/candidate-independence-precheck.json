@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.candidate-independence-precheck.v1",
   "status": "machine_precheck_recorded_human_adjudication_required",
-  "candidate_count": 1,
+  "candidate_count": 2,
   "rows": [
     {
       "candidate_id": "candidate-us-food-insecurity-persistence",
@@ -49,6 +49,36 @@
       "company_bridge_status": "blocked_external_first_gate",
       "boundary": "A machine precheck makes visible evidence easier to review; it is not a human adjudication, legal clearance, common-unit validation, or company authorization.",
       "next_action": "Assign the food-security row to a human lineage reviewer and resolve the four manual items before changing the queue disposition."
+    },
+    {
+      "candidate_id": "candidate-cell-phone-repair-policy-outcome",
+      "precheck_status": "distinct_publishers_outcome_scope_mismatch_hold",
+      "machine_evidence": {
+        "source_families": [
+          "New York Attorney General",
+          "Colorado General Assembly",
+          "Open Repair Alliance"
+        ],
+        "distinct_publisher_families": true,
+        "distinct_hosts": true,
+        "shared_dependency_groups_in_queue": 0,
+        "comparison_artifacts": [
+          "ibis-claim-review-dispositions.json",
+          "open-repair-alliance-mobile-adequacy-review.json"
+        ],
+        "directional_readout": "Policy sources are distinct government publishers and ORA is a separate community-repair source, but policy geography/effective dates and ORA country-level event records do not form a common treatment, control, or population denominator.",
+        "pooling_decision": "do_not_pool_policy_documents_with_ora_community_event_outcomes"
+      },
+      "unresolved_manual_review": [
+        "verify enacted-law versions and effective dates for each state",
+        "confirm canonical ORA archive and field-level transformation lineage",
+        "acquire state-resolved or representative repair/replacement outcome data",
+        "record signed human disposition in candidate-independence-adjudication-queue.json"
+      ],
+      "qualification_effect": "none; keep the phone policy claim held and do not count this precheck as independent confirmation",
+      "company_bridge_status": "blocked_external_first_gate",
+      "boundary": "A machine precheck makes visible evidence easier to review; it is not a human adjudication, legal clearance, common-unit validation, or company authorization.",
+      "next_action": "Resolve the policy effective dates and acquire a state-resolved or representative outcome source before changing the candidate disposition."
     }
   ],
   "boundary": "This artifact supplements the manual adjudication queue and cannot promote a candidate or authorize an internal bridge."

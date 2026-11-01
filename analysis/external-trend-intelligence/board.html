@@ -837,8 +837,7 @@
         lineageWarnings.append(card('Candidate independence adjudication', `${queue.unassigned_count} unassigned · ${queue.high_priority_count} high priority`, `${queue.next_action}`));
       });
       fetch('candidate-independence-precheck.json').then(r => r.json()).then(precheck => {
-        const row = precheck.rows[0];
-        lineageWarnings.append(card('Food-security independence precheck', row.precheck_status, `${row.machine_evidence.source_families.join(' vs. ')} are distinct publisher families, but ${row.unresolved_manual_review.length} manual checks remain. ${row.next_action}`));
+        precheck.rows.forEach(row => lineageWarnings.append(card(`${row.candidate_id} independence precheck`, row.precheck_status, `${row.machine_evidence.source_families.join(' vs. ')} are distinct publisher families, but ${row.unresolved_manual_review.length} manual checks remain. ${row.next_action}`)));
       });
       Object.entries(lineageReview.cross_observation_url_overlap).forEach(([url, observationIds]) => lineageWarnings.append(lineageWarningCard(url, observationIds)));
       const evidenceGaps = el('evidence-gaps'); gapQueue.gaps.forEach(gap => evidenceGaps.append(evidenceGapCard(gap)));
