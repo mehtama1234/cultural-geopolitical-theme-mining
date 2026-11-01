@@ -34,26 +34,30 @@
       "month": 6,
       "cadence": "quarterly",
       "phase": "months_4_6_dependable_external_intake",
-      "review": "refresh SLA, stale recovery, lineage, and rights evidence",
+      "review": "refresh SLA, stale recovery, record metadata, lineage, and rights evidence",
       "owner": "release owner",
       "phase_status": "operational",
       "evidence": [
         "refresh-history.json",
         "refresh-status.json",
-        "test_refresh_stale_gate.py"
+        "test_refresh_stale_gate.py",
+        "record-quality-audit.json",
+        "record-quality-remediation-queue.json"
       ]
     },
     {
       "month": 9,
       "cadence": "monthly",
       "phase": "months_7_12_trend_qualification",
-      "review": "candidate challenge and falsification queue",
+      "review": "candidate challenge, falsification, and shared-host dependence queue",
       "owner": "trend challenger",
       "phase_status": "in_progress",
       "evidence": [
         "candidate-qualification-matrix.json",
         "backtest-readiness.json",
-        "trend-monitoring-register.json"
+        "trend-monitoring-register.json",
+        "record-host-dependence-audit.json",
+        "host-dependence-review-queue.json"
       ]
     },
     {
@@ -66,7 +70,9 @@
       "evidence": [
         "candidate-qualification-matrix.json",
         "backtest-readiness.json",
-        "trend-monitoring-register.json"
+        "trend-monitoring-register.json",
+        "record-host-dependence-audit.json",
+        "host-dependence-review-queue.json"
       ]
     },
     {
