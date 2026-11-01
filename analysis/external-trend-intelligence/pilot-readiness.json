@@ -15,7 +15,7 @@
           "label": "External candidate has passed all qualification gates",
           "status": "blocked",
           "evidence": "candidate-qualification-matrix.json",
-          "detail": "held"
+          "detail": "candidate matrix: held; pilot gate: held"
         },
         {
           "id": "company_decision_contract",
@@ -64,9 +64,9 @@
         {
           "id": "external_qualification",
           "label": "External candidate has passed all qualification gates",
-          "status": "pass",
+          "status": "blocked",
           "evidence": "candidate-qualification-matrix.json",
-          "detail": "monitored_external_trend"
+          "detail": "candidate matrix: monitored_external_trend; pilot gate: held"
         },
         {
           "id": "company_decision_contract",
@@ -98,6 +98,7 @@
         }
       ],
       "blocking_check_ids": [
+        "external_qualification",
         "company_decision_contract",
         "internal_data_contract",
         "access_privacy_rights",

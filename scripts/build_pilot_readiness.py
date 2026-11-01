@@ -29,9 +29,9 @@ def main() -> int:
             {
                 "id": "external_qualification",
                 "label": "External candidate has passed all qualification gates",
-                "status": "pass" if candidate.get("gate_status") in {"qualified_external_trend", "monitored_external_trend"} else "blocked",
+                "status": "pass" if candidate.get("gate_status") in {"qualified_external_trend", "monitored_external_trend"} and pilot["external_gate"].get("current_status") in {"qualified_external_trend", "monitored_external_trend"} else "blocked",
                 "evidence": "candidate-qualification-matrix.json",
-                "detail": candidate.get("gate_status", "candidate not found"),
+                "detail": f"candidate matrix: {candidate.get('gate_status', 'candidate not found')}; pilot gate: {pilot['external_gate'].get('current_status', 'not recorded')}",
             },
             {
                 "id": "company_decision_contract",

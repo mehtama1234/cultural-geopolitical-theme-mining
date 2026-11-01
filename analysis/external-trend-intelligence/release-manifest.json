@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "23906e1b8db20a15c421b57965da942c9cfec133",
+  "source_tree_commit": "46365a734de917759edaefaf48d142bcb1a86df1",
   "artifact_count": 85,
   "artifacts": [
     {
@@ -117,12 +117,12 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2482,
-      "sha256": "a39ba613559dc415dea98accc8ee5fbbb4af5706e1390ad76e02926f555e19b6"
+      "sha256": "970e09be02ad5bc2350589cadd1b088c9e33e307e8674e94e4f1c2d4f8a4bad4"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1869,
-      "sha256": "ef3f32fba590b461ca9bd5b8f5c7415f36a178145763558ef2fba612bda70c48"
+      "sha256": "f9d52e923b3daaa859d54318f8fb2bf5db2b782a53ccad584a887508b81b2cf6"
     },
     {
       "path": "analysis/external-trend-intelligence/rights-review-queue.json",
@@ -182,7 +182,7 @@
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
       "bytes": 5735,
-      "sha256": "c6ed9eebaf22862ad1f7b2eb3bcedf4f266167be24c3aa8aa8b577f677655aa0"
+      "sha256": "25003280095ed6bf253447c5e95e1fda60e1de57237b6c991e6a68b762087ea0"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -286,8 +286,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 24355,
-      "sha256": "d7b91377888d63cf5b3e0a20c94933c529530a7c8870841f30133a61114a3b59"
+      "bytes": 24789,
+      "sha256": "ca12078b211959b4ba2374eafb49d8f52a45433013ff27a196f309919b3b55ca"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",
@@ -371,8 +371,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/pilot-readiness.json",
-      "bytes": 4721,
-      "sha256": "b3eaacc6da32e14631007140e1b3597864a1414dfd76f2bf59e0afa94c689678"
+      "bytes": 4830,
+      "sha256": "094b207e9b2977f491c6b08fadaa95bea6eb567ce86ead9321ebcf5112c681e6"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-monitoring-register.json",
