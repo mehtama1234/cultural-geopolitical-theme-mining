@@ -32,6 +32,7 @@ def main() -> int:
         "source_urls": [
             "https://www.federalreserve.gov/consumerscommunities/sheddataviz/unexpectedexpenses.html",
             "https://www.federalreserve.gov/consumerscommunities/sheddataviz/SHED_visualizations_unexpected_expenses.zip",
+            "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-description.htm",
         ],
         "retrieval": {
             "retrieved_at": "2026-10-31",
@@ -39,6 +40,14 @@ def main() -> int:
             "artifact_sha256": "sha256:c54990ece065ea8b116dcda4e45b553d9a88ff4b580cd9c87205084c0b92aa40",
             "source_csv": "unexpected_expenses.csv",
             "publisher_last_update": "2026-05-13",
+        },
+        "latest_official_report_context": {
+            "report_period": "2025",
+            "report_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-description.htm",
+            "field_period": "October 17-28, 2025",
+            "final_report_sample_count": 12934,
+            "reported_overall_design_effect": 1.14,
+            "scope_boundary": "The published design effect is an overall survey-precision context, not a measure-specific variance estimate for the $400 emergency-expense series.",
         },
         "comparability_review": {
             "candidate_use": "closer U.S. adult financial-capacity measure for the practical-room holdout",

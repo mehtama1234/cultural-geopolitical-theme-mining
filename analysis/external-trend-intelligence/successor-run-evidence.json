@@ -3,7 +3,7 @@
   "status": "pass",
   "mode": "read_only_successor_validation",
   "actor": "successor-analyst-simulation",
-  "source_tree_commit": "0117a04ec2e2395b0b215f57441f1c47bc3bb6fc",
+  "source_tree_commit": "fac8969777378e8b84e44c2c422d6e9ca21d3dd7",
   "checks": [
     {
       "id": "release_manifest_present",
@@ -30,6 +30,6 @@
   ],
   "internal_data_access": false,
   "human_successor_assignment": false,
-  "handoff_sha256": "ddc285132eae1f4ecec7c474479afd34303cd150b502bc266c7b39217c927093",
+  "handoff_sha256": "efe91edee18370b18af9cdeef38b06ad156ee2b38c957fe22a2003fc010735da",
   "boundary": "This proves a reproducible read-only validation path, not named human ownership or approval of a company pilot."
 }

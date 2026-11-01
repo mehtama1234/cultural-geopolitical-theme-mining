@@ -471,12 +471,17 @@ def main() -> int:
     assert shed_emergency["observations"][0]["value"] == 50
     assert shed_emergency["observations"][-1]["value"] == 63
     assert shed_emergency["retrieval"]["artifact_sha256"].startswith("sha256:")
+    assert shed_emergency["latest_official_report_context"]["report_period"] == "2025"
+    assert shed_emergency["latest_official_report_context"]["reported_overall_design_effect"] == 1.14
+    assert shed_emergency["latest_official_report_context"]["scope_boundary"]
     assert shed_emergency["boundary"] and shed_emergency["comparability_review"]["next_test"]
     uncertainty = json.loads((ANALYSIS / "shed-emergency-expense-uncertainty-audit.json").read_text())
     assert uncertainty["schema"] == "external-trend-intelligence.uncertainty-audit.v1"
     assert uncertainty["public_sample_size"] == {"2023": 11400, "2024": 12295}
     assert uncertainty["naive_srs_interval"]["status"] == "diagnostic_only_not_release_valid"
     assert uncertainty["design_based_status"] == "not_estimable_from_current_pinned_artifacts"
+    assert uncertainty["official_uncertainty_search"]["latest_report_context"]["reported_overall_design_effect"] == 1.14
+    assert uncertainty["official_uncertainty_search"]["latest_report_context"]["scope_boundary"]
     assert uncertainty["release_decision"] == "hold"
     assert len(uncertainty["naive_srs_interval"]["diagnostics"]) == 2
     reproduction = json.loads((ANALYSIS / "shed-point-estimate-reproduction-audit.json").read_text())

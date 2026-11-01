@@ -29,11 +29,19 @@ def main() -> int:
             "https://www.federalreserve.gov/consumerscommunities/files/SHED_2024codebook.pdf",
             "https://www.federalreserve.gov/consumerscommunities/files/SHED_public_use_data_2024_%28CSV%29.zip",
             "https://www.federalreserve.gov/publications/files/2024-report-economic-well-being-us-households-202505.pdf",
+            "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-description.htm",
         ],
         "official_uncertainty_search": {
             "report_interval_text_found": False,
             "codebook_replicate_weight_text_found": False,
             "basis": "The official report publishes point estimates and the codebook documents analysis weights, but neither artifact provides a design-based interval or replicate-weight procedure for this measure.",
+            "latest_report_context": {
+                "report_period": "2025",
+                "field_period": "October 17-28, 2025",
+                "final_report_sample_count": 12934,
+                "reported_overall_design_effect": 1.14,
+                "scope_boundary": "The overall survey design effect is retained as context only; it is not substituted for a measure-specific variance estimate.",
+            },
         },
         "official_significance_statement": {
             "status": "publisher_interpretation_preserved",
