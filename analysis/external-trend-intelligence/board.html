@@ -932,7 +932,7 @@
       const lineageWarnings = el('lineage-warnings');
       lineageWarnings.append(card('Publisher dependence', `${publisherDependence.shared_host_count} shared hosts · ${publisherDependence.independence_status}`, `${publisherDependence.unique_host_count} hosts across ${Object.keys(publisherDependence.source_maps).length} normalized maps. Shared hosts are warnings, not independent confirmation. See publisher-dependence-summary.json.`));
       fetch('candidate-independence-adjudication-queue.json').then(r => r.json()).then(queue => {
-        lineageWarnings.append(card('Candidate independence adjudication', `${queue.unassigned_count} unassigned · ${queue.high_priority_count} high priority`, `${queue.next_action}`));
+        lineageWarnings.append(card('Candidate independence adjudication', `${queue.unassigned_count} unassigned · ${queue.high_priority_count} high priority`, `${queue.next_action} <a href="INDEPENDENCE-ADJUDICATION-REQUEST.md">Open the adjudication request</a>`));
       });
       fetch('candidate-independence-precheck.json').then(r => r.json()).then(precheck => {
         precheck.rows.forEach(row => lineageWarnings.append(card(`${row.candidate_id} independence precheck`, row.precheck_status, `${row.machine_evidence.source_families.join(' vs. ')} are distinct publisher families, but ${row.unresolved_manual_review.length} manual checks remain. ${row.next_action}`)));

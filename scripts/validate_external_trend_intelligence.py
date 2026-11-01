@@ -538,6 +538,12 @@ def main() -> int:
     assert independence_queue["candidate_count"] == 5
     assert independence_queue["unassigned_count"] == independence_queue["candidate_count"]
     assert all(row["required_evidence"] and row["stop_rule"] and row["disposition"] == "pending" for row in independence_queue["rows"])
+    independence_request = (ANALYSIS / "INDEPENDENCE-ADJUDICATION-REQUEST.md").read_text()
+    assert "Required evidence checklist" in independence_request
+    for row in independence_queue["rows"]:
+        assert f"`{row['candidate_id']}`" in independence_request
+    for field in ("canonical publisher", "underlying dataset", "population", "rights and redistribution boundary"):
+        assert field in independence_request
     precheck = json.loads((ANALYSIS / "candidate-independence-precheck.json").read_text())
     assert precheck["schema"] == "external-trend-intelligence.candidate-independence-precheck.v1"
     assert precheck["status"] == "machine_precheck_recorded_human_adjudication_required"

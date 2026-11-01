@@ -47,6 +47,10 @@ The fillable [ownership assignment request](analysis/external-trend-intelligence
 is the human handoff for assigning primary and backup owners to the six
 operating roles; it does not imply that a role is assigned until the queue is
 updated and acknowledged.
+The [independence adjudication request](analysis/external-trend-intelligence/INDEPENDENCE-ADJUDICATION-REQUEST.md)
+is the human handoff for resolving the five candidate-level publisher and
+upstream-dependence reviews before any candidate is counted as independently
+confirmed.
 The [held candidate comparisons](analysis/external-trend-intelligence/external-family-comparisons.json)
 show what is being tested without treating thematic similarity as a company join.
 The [lineage review](analysis/external-trend-intelligence/external-family-lineage-review.json)

@@ -26,6 +26,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/successor-run-evidence.json",
     "analysis/external-trend-intelligence/ownership-assignment-queue.json",
     "analysis/external-trend-intelligence/OWNERSHIP-ASSIGNMENT-REQUEST.md",
+    "analysis/external-trend-intelligence/INDEPENDENCE-ADJUDICATION-REQUEST.md",
     "analysis/external-trend-intelligence/successor-review-packet.json",
     "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
     "analysis/external-trend-intelligence/operating-ownership-readiness.json",
