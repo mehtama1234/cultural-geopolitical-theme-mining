@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "d527e36de5c251b64681ec2da944f7457cbc0c1a",
+  "source_tree_commit": "f78a5f57b8754154d6974f1707207043b037f355",
   "artifact_count": 86,
   "artifacts": [
     {
@@ -336,8 +336,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/food-insecurity-rights-review.json",
-      "bytes": 2608,
-      "sha256": "bea58c53eb2882daa54d447afcc0406b25da0ca2c612d7c8c1f6461025a09e50"
+      "bytes": 3018,
+      "sha256": "80f8ad681a9f5877b6770b74cb70794d8ce6adf79dce40fb6c6b40a474646ffc"
     },
     {
       "path": "analysis/external-trend-intelligence/us-financial-room-independent-comparison.json",

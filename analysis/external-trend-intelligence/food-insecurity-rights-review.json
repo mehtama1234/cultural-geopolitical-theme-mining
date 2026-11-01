@@ -7,9 +7,11 @@
       "record_id": "comparative-usda-food-security-2022-2024",
       "publisher": "USDA Economic Research Service",
       "terms_url": "https://www.ers.usda.gov/developer/api-terms-of-service",
+      "quality_standards_url": "https://www.ers.usda.gov/about-ers/policies-and-standards/data-product-quality/ers-data-product-quality-standards",
       "source_url": "https://www.ers.usda.gov/publications/113622",
       "rights_status": "conditional_attribution_use_documented",
-      "observed_terms": "ERS API terms permit searching, displaying, analyzing, retrieving, viewing, and otherwise getting ERS API data, require a prominent non-endorsement notice, prohibit false representation, and reserve access limits and term changes.",
+      "terms_scope": "The cited API terms govern API content; the publication and statistical supplement remain subject to exact-artifact reuse review.",
+      "observed_terms": "ERS API terms permit searching, displaying, analyzing, retrieving, viewing, and otherwise getting ERS API data, require a prominent non-endorsement notice, prohibit false representation, and reserve access limits and term changes. ERS quality standards describe public dissemination and documentation but are not a redistribution license.",
       "permitted_scope_for_this_observatory": "Store normalized values, source locator, retrieval hash, and derived internal-review calculations with ERS attribution and the required non-endorsement notice.",
       "not_cleared": "Raw publication reproduction, redistribution of source tables, and commercial downstream reuse outside the documented API route require separate review.",
       "publisher_dependence": "direct_official_publisher"
