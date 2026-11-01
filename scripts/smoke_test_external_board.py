@@ -46,6 +46,7 @@ ARTIFACTS = [
     "refresh-continuity-audit.json",
     "continuity-coverage-plan.json",
     "ownership-assignment-queue.json",
+    "operating-ownership-review-packet.json",
     "OWNERSHIP-ASSIGNMENT-REQUEST.md",
     "INDEPENDENCE-ADJUDICATION-REQUEST.md",
     "BACKTEST-DESIGN-REVIEW-REQUEST.md",

@@ -149,6 +149,7 @@ STEPS = [
     ["scripts/test_successor_review_packet.py"],
     ["scripts/test_ownership_assignment_queue.py"],
     ["scripts/build_operating_ownership_readiness.py"],
+    ["scripts/build_operating_ownership_review_packet.py"],
     ["scripts/build_operational_kpi_scorecard.py"],
     ["scripts/test_operational_kpi_scorecard.py"],
     ["scripts/build_acquired_source_register.py"],

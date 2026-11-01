@@ -35,6 +35,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/successor-review-packet.json",
     "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
     "analysis/external-trend-intelligence/operating-ownership-readiness.json",
+    "analysis/external-trend-intelligence/operating-ownership-review-packet.json",
     "analysis/external-trend-intelligence/pilot-design-dry-run.json",
     "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
     "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",

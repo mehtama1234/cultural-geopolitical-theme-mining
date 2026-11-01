@@ -1,0 +1,270 @@
+{
+  "schema": "external-trend-intelligence.operating-ownership-review-packet.v1",
+  "status": "ready_for_named_human_assignment",
+  "role_count": 6,
+  "assigned_role_count": 0,
+  "unassigned_role_count": 6,
+  "roles": [
+    {
+      "role": "source_steward",
+      "current_status": "unassigned",
+      "primary_owner": null,
+      "backup_owner": null,
+      "scope_evidence": "ANALYST-OPERATING-MODEL.md",
+      "first_30_day_action": "Review the acquired-source register and close or escalate one rights/release question.",
+      "required_evidence": [
+        "acquired-source-register.json",
+        "external-acquisition-rights-review.json",
+        "release-watchlist.json"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "required_decision_fields": [
+        "named primary person or team",
+        "named backup person or team",
+        "primary and backup acknowledgement",
+        "scope and escalation boundary acknowledgement",
+        "conflict declaration",
+        "effective date and next review date",
+        "independently reviewable run or decision note"
+      ],
+      "decision_options": [
+        "accept_assignment",
+        "accept_with_scope",
+        "decline_and_reassign",
+        "hold_pending_sponsor_decision"
+      ],
+      "signoff": {
+        "primary_acknowledgement": null,
+        "backup_acknowledgement": null,
+        "conflict_declaration": null,
+        "sponsor_signoff": null,
+        "effective_date": null
+      }
+    },
+    {
+      "role": "evidence_analyst",
+      "current_status": "unassigned",
+      "primary_owner": null,
+      "backup_owner": null,
+      "scope_evidence": "ANALYST-OPERATING-MODEL.md",
+      "first_30_day_action": "Reproduce one external source snapshot and reconcile its rows to the release manifest.",
+      "required_evidence": [
+        "release-manifest.json",
+        "refresh-history.json",
+        "EXTERNAL-DATA-SOURCES.md"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "required_decision_fields": [
+        "named primary person or team",
+        "named backup person or team",
+        "primary and backup acknowledgement",
+        "scope and escalation boundary acknowledgement",
+        "conflict declaration",
+        "effective date and next review date",
+        "independently reviewable run or decision note"
+      ],
+      "decision_options": [
+        "accept_assignment",
+        "accept_with_scope",
+        "decline_and_reassign",
+        "hold_pending_sponsor_decision"
+      ],
+      "signoff": {
+        "primary_acknowledgement": null,
+        "backup_acknowledgement": null,
+        "conflict_declaration": null,
+        "sponsor_signoff": null,
+        "effective_date": null
+      }
+    },
+    {
+      "role": "lineage_reviewer",
+      "current_status": "unassigned",
+      "primary_owner": null,
+      "backup_owner": null,
+      "scope_evidence": "SOURCE-LINEAGE-AUDIT.md",
+      "first_30_day_action": "Adjudicate one publisher/upstream dependence question and record the unresolved boundary.",
+      "required_evidence": [
+        "rights-review-queue.json",
+        "rights-evidence-register.json",
+        "publisher-dependence-summary.json"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "required_decision_fields": [
+        "named primary person or team",
+        "named backup person or team",
+        "primary and backup acknowledgement",
+        "scope and escalation boundary acknowledgement",
+        "conflict declaration",
+        "effective date and next review date",
+        "independently reviewable run or decision note"
+      ],
+      "decision_options": [
+        "accept_assignment",
+        "accept_with_scope",
+        "decline_and_reassign",
+        "hold_pending_sponsor_decision"
+      ],
+      "signoff": {
+        "primary_acknowledgement": null,
+        "backup_acknowledgement": null,
+        "conflict_declaration": null,
+        "sponsor_signoff": null,
+        "effective_date": null
+      }
+    },
+    {
+      "role": "trend_challenger",
+      "current_status": "unassigned",
+      "primary_owner": null,
+      "backup_owner": null,
+      "scope_evidence": "trend-qualification-rubric.json",
+      "first_30_day_action": "Challenge one held candidate using its counter-signal, falsifier, and next acquisition step.",
+      "required_evidence": [
+        "candidate-qualification-matrix.json",
+        "falsification-review-queue.json",
+        "candidate-lineage-dependency-review.json"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "required_decision_fields": [
+        "named primary person or team",
+        "named backup person or team",
+        "primary and backup acknowledgement",
+        "scope and escalation boundary acknowledgement",
+        "conflict declaration",
+        "effective date and next review date",
+        "independently reviewable run or decision note"
+      ],
+      "decision_options": [
+        "accept_assignment",
+        "accept_with_scope",
+        "decline_and_reassign",
+        "hold_pending_sponsor_decision"
+      ],
+      "signoff": {
+        "primary_acknowledgement": null,
+        "backup_acknowledgement": null,
+        "conflict_declaration": null,
+        "sponsor_signoff": null,
+        "effective_date": null
+      }
+    },
+    {
+      "role": "decision_translator",
+      "current_status": "unassigned",
+      "primary_owner": null,
+      "backup_owner": null,
+      "scope_evidence": "PILOT-VALIDATION-PROTOCOL.md",
+      "first_30_day_action": "Translate one monitored or qualified trend into a bounded decision question without requesting company data.",
+      "required_evidence": [
+        "PILOT-VALIDATION-PROTOCOL.md",
+        "trend-qualification-matrix.json",
+        "goal-completion-audit.json"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "required_decision_fields": [
+        "named primary person or team",
+        "named backup person or team",
+        "primary and backup acknowledgement",
+        "scope and escalation boundary acknowledgement",
+        "conflict declaration",
+        "effective date and next review date",
+        "independently reviewable run or decision note"
+      ],
+      "decision_options": [
+        "accept_assignment",
+        "accept_with_scope",
+        "decline_and_reassign",
+        "hold_pending_sponsor_decision"
+      ],
+      "signoff": {
+        "primary_acknowledgement": null,
+        "backup_acknowledgement": null,
+        "conflict_declaration": null,
+        "sponsor_signoff": null,
+        "effective_date": null
+      }
+    },
+    {
+      "role": "release_owner",
+      "current_status": "unassigned",
+      "primary_owner": null,
+      "backup_owner": null,
+      "scope_evidence": "REFRESH-RUNBOOK.md",
+      "first_30_day_action": "Run the release controls and preserve terminal evidence for a passing refresh and frontend smoke test.",
+      "required_evidence": [
+        "REFRESH-RUNBOOK.md",
+        "refresh-history.json",
+        "release-manifest.json",
+        "operating-ownership-readiness.json"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "required_decision_fields": [
+        "named primary person or team",
+        "named backup person or team",
+        "primary and backup acknowledgement",
+        "scope and escalation boundary acknowledgement",
+        "conflict declaration",
+        "effective date and next review date",
+        "independently reviewable run or decision note"
+      ],
+      "decision_options": [
+        "accept_assignment",
+        "accept_with_scope",
+        "decline_and_reassign",
+        "hold_pending_sponsor_decision"
+      ],
+      "signoff": {
+        "primary_acknowledgement": null,
+        "backup_acknowledgement": null,
+        "conflict_declaration": null,
+        "sponsor_signoff": null,
+        "effective_date": null
+      }
+    }
+  ],
+  "acceptance_criteria": [
+    "Every role has a named primary and backup owner.",
+    "Each owner acknowledges scope, escalation, conflicts, and effective date.",
+    "A second analyst independently signs one reviewable run or decision note.",
+    "Open gates and the next review date are carried into the handoff record."
+  ],
+  "next_action": "Assign primary and backup owners, collect acknowledgements, and attach one independently reviewable run or decision note per role.",
+  "boundary": "This packet makes ownership handoff executable; it does not infer identity, authorize internal data access, or prove a successor run."
+}

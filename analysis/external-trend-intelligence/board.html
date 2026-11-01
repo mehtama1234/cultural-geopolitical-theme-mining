@@ -1077,6 +1077,10 @@
       fetch('operating-ownership-readiness.json').then(r => r.json()).then(readiness => {
         el('successor-validation').append(card('Operating ownership readiness', readiness.status, `${readiness.assigned_role_count}/${readiness.role_count} roles assigned · successor checks ${readiness.successor_checks_passed}/${readiness.successor_check_count} · ${readiness.blockers.join(' · ') || 'no blockers'}`));
       });
+      fetch('operating-ownership-review-packet.json').then(r => r.json()).then(packet => {
+        el('successor-validation').append(card('Operating ownership signoff packet', packet.status, `${packet.assigned_role_count}/${packet.role_count} roles assigned · ${packet.next_action}`));
+        packet.roles.forEach(role => el('successor-validation').append(card(role.role, role.current_status, `First 30-day action: ${role.first_30_day_action} Decision fields: ${role.required_decision_fields.join(' · ')}`)));
+      });
     fetch('operational-kpi-scorecard.json').then(r => r.json()).then(scorecard => {
       const m = scorecard.metrics;
       const t = scorecard.thresholds;

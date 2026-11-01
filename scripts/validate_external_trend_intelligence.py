@@ -685,6 +685,13 @@ def main() -> int:
     assert ownership_readiness["successor_run_status"] == "pass"
     assert ownership_readiness["status"] in {"ready_for_named_human_assignment", "handoff_incomplete"}
     assert ownership_readiness["boundary"] and ownership_readiness["next_action"]
+    ownership_packet = json.loads((ANALYSIS / "operating-ownership-review-packet.json").read_text())
+    assert ownership_packet["schema"] == "external-trend-intelligence.operating-ownership-review-packet.v1"
+    assert ownership_packet["status"] == "ready_for_named_human_assignment"
+    assert ownership_packet["role_count"] == ownership["role_count"] == len(ownership_packet["roles"])
+    assert ownership_packet["assigned_role_count"] == ownership["assigned_role_count"]
+    assert all(row["required_decision_fields"] and row["decision_options"] and row["signoff"] for row in ownership_packet["roles"])
+    assert all(value is None for row in ownership_packet["roles"] for value in row["signoff"].values())
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
     assert ibis_sample["counter_signals"]

@@ -10,14 +10,14 @@
   "observed_weeks": [
     {
       "week": "2026-W44",
-      "run_count": 186,
-      "passed_run_count": 176,
+      "run_count": 187,
+      "passed_run_count": 177,
       "first_run": "2026-10-31T22:09:08+00:00",
-      "latest_run": "2026-11-01T07:58:02+00:00"
+      "latest_run": "2026-11-01T08:01:42+00:00"
     }
   ],
-  "run_count": 186,
-  "passed_run_count": 176,
+  "run_count": 187,
+  "passed_run_count": 177,
   "acceptance": "Each of 104 distinct weekly windows must contain a passed full refresh, with missed-window recovery evidence retained.",
   "weekly_window_record_schema": [
     "scheduled_window_utc",
