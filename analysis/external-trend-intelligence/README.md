@@ -161,6 +161,7 @@ For a visual readout of the external inventory and candidate comparisons, open
 - [`INDEPENDENCE-ADJUDICATION-REQUEST.md`](INDEPENDENCE-ADJUDICATION-REQUEST.md) — fillable candidate-level publisher, upstream, rights, and independence disposition handoff.
 - [`BACKTEST-DESIGN-REVIEW-REQUEST.md`](BACKTEST-DESIGN-REVIEW-REQUEST.md) — fillable construction, holdout, unit, uncertainty, falsifier, and sign-off review for each candidate.
 - [`HOST-LINEAGE-REVIEW-REQUEST.md`](HOST-LINEAGE-REVIEW-REQUEST.md) — prioritized shared-host publisher, upstream, rights, and dependence review handoff.
+- [`CONTINUITY-REVIEW-REQUEST.md`](CONTINUITY-REVIEW-REQUEST.md) — weekly release-owner review log for the 104-window continuity requirement.
 - [`source-release-watchlist.json`](source-release-watchlist.json) — latest pinned period and next official release target for acquired sources.
 - [`goal-completion-audit.json`](goal-completion-audit.json) — conservative requirement-level status and remaining gates.
 

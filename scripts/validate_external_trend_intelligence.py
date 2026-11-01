@@ -553,6 +553,13 @@ def main() -> int:
             assert f"`{row['host']}`" in host_request
     for field in ("publisher or publishers", "upstream dataset", "rights route", "independence disposition"):
         assert field in host_request.lower()
+    continuity_request = (ANALYSIS / "CONTINUITY-REVIEW-REQUEST.md").read_text()
+    continuity = json.loads((ANALYSIS / "refresh-continuity-audit.json").read_text())
+    assert "Required weekly review fields" in continuity_request
+    assert f"{continuity['observed_distinct_week_count']}" in continuity_request
+    assert "104 distinct weekly windows" in continuity_request
+    for field in ("scheduled window", "freshness", "recovery evidence", "release-owner review"):
+        assert field in continuity_request.lower()
     precheck = json.loads((ANALYSIS / "candidate-independence-precheck.json").read_text())
     assert precheck["schema"] == "external-trend-intelligence.candidate-independence-precheck.v1"
     assert precheck["status"] == "machine_precheck_recorded_human_adjudication_required"

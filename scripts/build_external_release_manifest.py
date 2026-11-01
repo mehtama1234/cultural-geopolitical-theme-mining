@@ -29,6 +29,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/INDEPENDENCE-ADJUDICATION-REQUEST.md",
     "analysis/external-trend-intelligence/BACKTEST-DESIGN-REVIEW-REQUEST.md",
     "analysis/external-trend-intelligence/HOST-LINEAGE-REVIEW-REQUEST.md",
+    "analysis/external-trend-intelligence/CONTINUITY-REVIEW-REQUEST.md",
     "analysis/external-trend-intelligence/successor-review-packet.json",
     "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
     "analysis/external-trend-intelligence/operating-ownership-readiness.json",
