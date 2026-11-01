@@ -856,6 +856,9 @@
       fetch('forecast-outcome-acquisition-plan.json').then(r => r.json()).then(plan => {
         el('forecast-backtest').append(card('Outcome acquisition protocol', plan.status, `${plan.tracks.length} target tracks · ${plan.acceptance_criteria.join(' · ')} Stop rules: ${plan.stop_rules.join(' · ')}`));
       });
+      fetch('forecast-outcome-eligibility.json').then(r => r.json()).then(eligibility => {
+        el('forecast-backtest').append(card('Outcome eligibility timing', `${eligibility.not_yet_eligible_count} periods still open`, `${eligibility.eligible_outcome_missing_count} eligible outcomes missing · ${eligibility.outcome_present_count} outcomes present. ${eligibility.next_action}`));
+      });
       fetch('two-year-roadmap.json').then(r => r.json()).then(roadmap => {
         const target = el('two-year-roadmap');
         target.append(card(`${roadmap.horizon_months}-month horizon · ${roadmap.phase_count} phases`, 'operational_control', `${roadmap.current_focus} ${roadmap.boundary}`));

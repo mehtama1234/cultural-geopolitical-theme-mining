@@ -19,6 +19,7 @@ blockers.
 | Financial-room decision card | `financial-room-decision-card.json` | consolidates Australia/U.S. directional evidence, the JPMorgan chart endpoint, uncertainty, rights status, counter-signal, and the no-bridge company gate into one bounded mechanism-context card |
 | Synthetic pilot bridge simulation | `pilot-bridge-simulation.json` | exercises aggregate matching, unmatched and missing-outcome visibility, falsifier, and stop-rule behavior without accessing company data or authorizing a test |
 | Trend monitoring evaluation | `trend-monitoring-evaluation.json` | records current continue/hold decisions, reversal and retirement triggers, evidence basis, and next review for every watched candidate |
+| Forecast outcome eligibility | `forecast-outcome-eligibility.json` | distinguishes forecast periods still open from eligible-but-missing realized outcomes so the board never scores a partial-year result as a backtest |
 | Compatible-measure search | `compatible-measure-search.json` | scanned record count, candidate measure/unit groups, hosts, periods, review boundary |
 | Global forecast comparison | `global-growth-forecast-comparison.json` | publisher, forecast period, value, spread, vintage/uncertainty boundary, backtest next action |
 | Forecast lineage review | `forecast-lineage-review.json` | source host, publisher-distinct check, vintage/rights/uncertainty/outcome review status, boundary |

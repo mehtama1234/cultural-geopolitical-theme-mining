@@ -78,6 +78,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/forecast-lineage-review.json",
     "analysis/external-trend-intelligence/forecast-backtest-register.json",
     "analysis/external-trend-intelligence/forecast-outcome-acquisition-plan.json",
+    "analysis/external-trend-intelligence/forecast-outcome-eligibility.json",
     "analysis/external-trend-intelligence/two-year-roadmap.json",
     "analysis/external-trend-intelligence/source-registry-snapshot.json",
     "analysis/external-trend-intelligence/acquired-source-register.json",

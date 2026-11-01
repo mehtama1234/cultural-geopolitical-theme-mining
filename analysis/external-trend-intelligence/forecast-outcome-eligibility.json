@@ -1,0 +1,140 @@
+{
+  "schema": "external-trend-intelligence.forecast-outcome-eligibility.v1",
+  "as_of": "2026-10-31",
+  "row_count": 8,
+  "not_yet_eligible_count": 8,
+  "eligible_outcome_missing_count": 0,
+  "outcome_present_count": 0,
+  "rows": [
+    {
+      "backtest_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room::global_growth_2026",
+      "measure": "global_growth_2026",
+      "target_year": 2026,
+      "period_closed": false,
+      "eligibility_status": "not_yet_eligible_period_open",
+      "forecast_value": 2.9,
+      "observed_outcome_present": false,
+      "required_outcome_fields": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ],
+      "next_action": "Do not score yet; retain the forecast and wait for a full-year official realized release."
+    },
+    {
+      "backtest_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock::global_growth_2026",
+      "measure": "global_growth_2026",
+      "target_year": 2026,
+      "period_closed": false,
+      "eligibility_status": "not_yet_eligible_period_open",
+      "forecast_value": 2.6,
+      "observed_outcome_present": false,
+      "required_outcome_fields": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ],
+      "next_action": "Do not score yet; retain the forecast and wait for a full-year official realized release."
+    },
+    {
+      "backtest_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks::global_growth_2026",
+      "measure": "global_growth_2026",
+      "target_year": 2026,
+      "period_closed": false,
+      "eligibility_status": "not_yet_eligible_period_open",
+      "forecast_value": 2.5,
+      "observed_outcome_present": false,
+      "required_outcome_fields": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ],
+      "next_action": "Do not score yet; retain the forecast and wait for a full-year official realized release."
+    },
+    {
+      "backtest_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room::global_growth_2027",
+      "measure": "global_growth_2027",
+      "target_year": 2027,
+      "period_closed": false,
+      "eligibility_status": "not_yet_eligible_period_open",
+      "forecast_value": 3.0,
+      "observed_outcome_present": false,
+      "required_outcome_fields": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ],
+      "next_action": "Do not score yet; retain the forecast and wait for a full-year official realized release."
+    },
+    {
+      "backtest_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock::global_growth_2027",
+      "measure": "global_growth_2027",
+      "target_year": 2027,
+      "period_closed": false,
+      "eligibility_status": "not_yet_eligible_period_open",
+      "forecast_value": 2.9,
+      "observed_outcome_present": false,
+      "required_outcome_fields": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ],
+      "next_action": "Do not score yet; retain the forecast and wait for a full-year official realized release."
+    },
+    {
+      "backtest_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks::global_growth_2027",
+      "measure": "global_growth_2027",
+      "target_year": 2027,
+      "period_closed": false,
+      "eligibility_status": "not_yet_eligible_period_open",
+      "forecast_value": 2.8,
+      "observed_outcome_present": false,
+      "required_outcome_fields": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ],
+      "next_action": "Do not score yet; retain the forecast and wait for a full-year official realized release."
+    },
+    {
+      "backtest_id": "comparative-un-wesp-mid-2026-energy-inflation-supply-chain-shock::global_inflation_2026",
+      "measure": "global_inflation_2026",
+      "target_year": 2026,
+      "period_closed": false,
+      "eligibility_status": "not_yet_eligible_period_open",
+      "forecast_value": 3.9,
+      "observed_outcome_present": false,
+      "required_outcome_fields": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ],
+      "next_action": "Do not score yet; retain the forecast and wait for a full-year official realized release."
+    },
+    {
+      "backtest_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks::global_inflation_2026",
+      "measure": "global_inflation_2026",
+      "target_year": 2026,
+      "period_closed": false,
+      "eligibility_status": "not_yet_eligible_period_open",
+      "forecast_value": 4.0,
+      "observed_outcome_present": false,
+      "required_outcome_fields": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ],
+      "next_action": "Do not score yet; retain the forecast and wait for a full-year official realized release."
+    }
+  ],
+  "boundary": "Eligibility is a timing control, not evidence of forecast accuracy. No forecast error is calculated until a comparable full-year realized outcome, vintage, definition, and uncertainty are accepted.",
+  "next_action": "At each refresh, re-evaluate period closure; for eligible rows acquire the first comparable official outcome and preserve later revisions separately."
+}

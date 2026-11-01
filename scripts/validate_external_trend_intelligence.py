@@ -972,6 +972,11 @@ def main() -> int:
     assert len(forecast_plan["tracks"]) == 3
     assert all(track["official_source_url"] and track["earliest_acceptable_release"] for track in forecast_plan["tracks"])
     assert forecast_plan["stop_rules"]
+    forecast_eligibility = json.loads((ANALYSIS / "forecast-outcome-eligibility.json").read_text())
+    assert forecast_eligibility["schema"] == "external-trend-intelligence.forecast-outcome-eligibility.v1"
+    assert forecast_eligibility["row_count"] == backtest_register["row_count"]
+    assert forecast_eligibility["not_yet_eligible_count"] + forecast_eligibility["eligible_outcome_missing_count"] + forecast_eligibility["outcome_present_count"] == forecast_eligibility["row_count"]
+    assert forecast_eligibility["boundary"] and forecast_eligibility["next_action"]
     assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}
