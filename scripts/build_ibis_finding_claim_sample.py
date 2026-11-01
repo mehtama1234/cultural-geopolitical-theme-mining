@@ -16,8 +16,8 @@ OUTPUT = ANALYSIS / "ibis-finding-claim-sample.json"
 REPO = "/home/mehta/git-repo/ibis-industries"
 REVISION = "b895acd021fbe3dc1d610255952b1373748e3bc3"
 PATTERN_PATH = "cross_industry_pattern_inventory.json"
-SAMPLE_SIZE = 200
-COUNTEREXAMPLE_SIZE = 48
+SAMPLE_SIZE = 500
+COUNTEREXAMPLE_SIZE = 100
 
 
 def show(path: str) -> str:

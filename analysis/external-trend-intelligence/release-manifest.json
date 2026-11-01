@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "b2db5c854aab20c1320b7680b20841ac120ee9d1",
+  "source_tree_commit": "550b06ca01bf5793be36e25d83591bafe8e61728",
   "artifact_count": 92,
   "artifacts": [
     {
@@ -42,12 +42,12 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1002,
-      "sha256": "1bfd920277bbf06145f1bfd73f6cc85d42288443af899e12859c1c8820d7180b"
+      "sha256": "3659aec3e1a3e07957bd95ade6c21d768c0c3fe14ee6c9e015a07df38db179a1"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
       "bytes": 2214,
-      "sha256": "aead6dab8b59fc051acd1c1f5307e39f5f6c3d01dcb978064b723d58c349494c"
+      "sha256": "63aa7fafacbccd1446086b6bcfb19eaf9815eb4df4cf2f106a40eddfd7b67403"
     },
     {
       "path": "analysis/external-trend-intelligence/pilot-design-dry-run.json",
@@ -132,12 +132,12 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2510,
-      "sha256": "fe53c1bb472bbfb38e951285da1e93dc134e01678e2f6ca5db3f9e5db4adb455"
+      "sha256": "637cbc4be4545e48d2816e34e661b7906183b5408209f842bf323b53de9d09dd"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
       "bytes": 1989,
-      "sha256": "3957d8d6490a23bd2893dcb4d0dfbfeb4817d84a1f0194b935b5fd0ced7974cc"
+      "sha256": "4e9e7f16a04570a3ce41883e3df33a20c73a25d295482ccdb85a406958c8f7c2"
     },
     {
       "path": "analysis/external-trend-intelligence/review-calendar.json",
@@ -202,7 +202,7 @@
     {
       "path": "analysis/external-trend-intelligence/refresh-status.json",
       "bytes": 5735,
-      "sha256": "48104bd92043017320ade7371d14e03b2b366f90169e43ba954580ed668b6e62"
+      "sha256": "46e1c4a4a042603b8cbe1885ce737584e001d5eea5c0f27f84b3c62ecdfe7745"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-qualification-rubric.json",
@@ -232,7 +232,7 @@
     {
       "path": "analysis/external-trend-intelligence/external-family-observations.json",
       "bytes": 77160,
-      "sha256": "afeac3fd88b0f23cb78609565bf4f7723227e50a8b74adbf2c945dc8c8a97a79"
+      "sha256": "ad9f5feeb35f7c40dbdfdf08067eb1e731d53760b4615670e5bba9eeb4841de7"
     },
     {
       "path": "analysis/external-trend-intelligence/evidence-contract-audit.json",
@@ -251,8 +251,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-finding-claim-sample.json",
-      "bytes": 1951242,
-      "sha256": "bbb8cd1d91925bc83280cd8e688e744ac2009e9324edcdae082b9ddee267ecba"
+      "bytes": 4317492,
+      "sha256": "7adc48fad551db21756b793ed60c63587a82f1fe8a561626dc96e114da208242"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-force-claim-map.json",
@@ -291,13 +291,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-claim-source-review.json",
-      "bytes": 16584,
-      "sha256": "eee3a36ecc3034ab02dec8eafa9ae54293a262c2d7c9c2fedbc44ba61b96ddf8"
+      "bytes": 34807,
+      "sha256": "02c5c9260b7b4f9f5517726c3eb2a4a9a66cb66051b53d2c0371a130d1b68afa"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-claim-dependency-review.json",
-      "bytes": 17503,
-      "sha256": "61efc0f7d56c996218950b9264d23cdfcf9a5a0097eb51d926cce40c95e1a77d"
+      "bytes": 136315,
+      "sha256": "ec942d3022543fd0cd36c884da1f81b7a232aec80cf17a7552cc0f6a98960ab8"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-adult-day-outcome-review.json",
@@ -306,8 +306,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/refresh-history.json",
-      "bytes": 31733,
-      "sha256": "86a384ac93a8f0a4e34d5695c6a190d3b12421fc69b360b169e95a28ed38e6ee"
+      "bytes": 32167,
+      "sha256": "3a264b9fb979dcaa7aa457346d03d3bf986dbc855563813333df8f376f4aaf6c"
     },
     {
       "path": "analysis/external-trend-intelligence/federal-reserve-shed-financial-room-2013-2025.json",

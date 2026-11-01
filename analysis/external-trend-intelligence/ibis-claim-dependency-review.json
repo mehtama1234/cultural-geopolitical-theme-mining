@@ -2,12 +2,196 @@
   "schema": "external-trend-intelligence.ibis-claim-dependency-review.v1",
   "finding_slug": "compliance-as-economic-architecture",
   "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
-  "sample_industry_count": 200,
-  "claim_count": 600,
-  "unique_source_count": 1503,
-  "shared_source_id_count": 22,
-  "shared_url_count": 23,
+  "sample_industry_count": 500,
+  "claim_count": 1500,
+  "unique_source_count": 3082,
+  "shared_source_id_count": 239,
+  "shared_url_count": 172,
   "shared_source_ids": [
+    {
+      "source_id": "src_01069",
+      "industry_count": 4,
+      "industry_slugs": [
+        "concrete-reinforcing-bar-manufacturing",
+        "fabricated-structural-metal-manufacturing",
+        "farm-supply-stores",
+        "hardware-stores-in-the-us"
+      ],
+      "publisher": "Tax Foundation",
+      "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+    },
+    {
+      "source_id": "src_01349",
+      "industry_count": 4,
+      "industry_slugs": [
+        "bread-production-in-the-us",
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production",
+        "grocery-wholesaling-in-the-us"
+      ],
+      "publisher": "www.ers.usda.gov",
+      "url": "https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings"
+    },
+    {
+      "source_id": "src_01604",
+      "industry_count": 4,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing",
+        "dye-and-pigment-manufacturing-in-the-us",
+        "fertilizer-manufacturing-in-the-us"
+      ],
+      "publisher": "www.ibisworld.com",
+      "url": "https://www.ibisworld.com/united-states/industry/chemical-product-manufacturing/503/"
+    },
+    {
+      "source_id": "src_01605",
+      "industry_count": 4,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing",
+        "dye-and-pigment-manufacturing-in-the-us",
+        "fertilizer-manufacturing-in-the-us"
+      ],
+      "publisher": "hilcoglobal.com",
+      "url": "https://hilcoglobal.com/perspective/the-chemicals-market-in-the-2025-tariff-environment/"
+    },
+    {
+      "source_id": "src_01606",
+      "industry_count": 4,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing",
+        "dye-and-pigment-manufacturing-in-the-us",
+        "fertilizer-manufacturing-in-the-us"
+      ],
+      "publisher": "group.atradius.com",
+      "url": "https://group.atradius.com/knowledge-and-research/reports/industry-trends-chemicals-october-2025"
+    },
+    {
+      "source_id": "src_01607",
+      "industry_count": 4,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing",
+        "dye-and-pigment-manufacturing-in-the-us",
+        "fertilizer-manufacturing-in-the-us"
+      ],
+      "publisher": "www.fortunebusinessinsights.com",
+      "url": "https://www.fortunebusinessinsights.com/blog/us-trade-tariffs-chemical-materials-impact-2025-11086"
+    },
+    {
+      "source_id": "src_01618",
+      "industry_count": 4,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing",
+        "dye-and-pigment-manufacturing-in-the-us",
+        "fertilizer-manufacturing-in-the-us"
+      ],
+      "publisher": "cen.acs.org",
+      "url": "https://cen.acs.org/business/US-chemical-industry-see-slow/104/web/2026/01"
+    },
+    {
+      "source_id": "src_08558",
+      "industry_count": 4,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing",
+        "dye-and-pigment-manufacturing-in-the-us",
+        "fertilizer-manufacturing-in-the-us"
+      ],
+      "publisher": "www.americanchemistry.com",
+      "url": "https://www.americanchemistry.com/chemistry-in-america-industry-innovation-impact/chemical-industry-statistics-u.s.-jobs-economic-impact/resources/economic-sentiment-index/acc-chemical-manufacturing-economic-sentiment-index-findings-q4-2025"
+    },
+    {
+      "source_id": "src_00687",
+      "industry_count": 3,
+      "industry_slugs": [
+        "contact-lens-manufacturing",
+        "eyeglasses-frames-manufacturing",
+        "glasses-and-contact-lens-manufacturing-in-the-us"
+      ],
+      "publisher": "Grand View Research",
+      "url": "https://www.grandviewresearch.com/industry-analysis/contact-lenses-market"
+    },
+    {
+      "source_id": "src_00689",
+      "industry_count": 3,
+      "industry_slugs": [
+        "contact-lens-manufacturing",
+        "eyeglasses-frames-manufacturing",
+        "glasses-and-contact-lens-manufacturing-in-the-us"
+      ],
+      "publisher": "Contact Lens Spectrum",
+      "url": "https://www.clspectrum.com/issues/2026/january-february/contact-lenses-2025/"
+    },
+    {
+      "source_id": "src_00693",
+      "industry_count": 3,
+      "industry_slugs": [
+        "contact-lens-manufacturing",
+        "eyeglasses-frames-manufacturing",
+        "glasses-and-contact-lens-manufacturing-in-the-us"
+      ],
+      "publisher": "The Vision Council",
+      "url": "https://thevisioncouncil.org/blog/vision-council-provides-latest-updates-tariffs-impacting-optical-industry"
+    },
+    {
+      "source_id": "src_00887",
+      "industry_count": 3,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "family-clothing-stores-in-the-us",
+        "fashion-designers-in-the-us"
+      ],
+      "publisher": "Shenglu Fashion",
+      "url": "https://shenglufashion.com/2026/03/09/tariffs-impact-u-s-apparel-sourcing-and-trade-beyond-just-price-updated-march-2026/"
+    },
+    {
+      "source_id": "src_02835",
+      "industry_count": 3,
+      "industry_slugs": [
+        "agribusiness-in-the-us",
+        "farm-lawn-and-garden-equipment-wholesaling-in-the-us",
+        "farm-supplies-wholesaling-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.gfb.org/news/ag-news/post/farm-chapter-12-bankruptcies-in-2026-up-46-from-2024"
+    },
+    {
+      "source_id": "src_03244",
+      "industry_count": 3,
+      "industry_slugs": [
+        "automobile-interior-manufacturing-in-the-us",
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.ibisworld.com/united-states/industry/automobile-metal-stamping/836/"
+    },
+    {
+      "source_id": "src_03252",
+      "industry_count": 3,
+      "industry_slugs": [
+        "automobile-interior-manufacturing-in-the-us",
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.talenttraction.org/automotive-parts-manufacturing-workforce-trends/"
+    },
+    {
+      "source_id": "src_03253",
+      "industry_count": 3,
+      "industry_slugs": [
+        "automobile-interior-manufacturing-in-the-us",
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://tiretalent.com/workforce-trends-shaping-automotive-in-2026/"
+    },
     {
       "source_id": "src_03796",
       "industry_count": 3,
@@ -31,6 +215,186 @@
       "url": "https://press.spglobal.com/2025-05-21-U-S-Vehicle-Age-Rises-Again-to-12-8-Years-in-2025%2C-According-to-S-P-Global-Mobility"
     },
     {
+      "source_id": "src_00230",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/market-size/business-insurance/4779/"
+    },
+    {
+      "source_id": "src_00233",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ],
+      "publisher": "Insurance Business America",
+      "url": "https://www.insurancebusinessmag.com/us/news/excess-surplus/property-softens-liability-hardens-what-eands-midyear-data-means-for-brokers-585004.aspx"
+    },
+    {
+      "source_id": "src_00234",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ],
+      "publisher": "Inszone Insurance",
+      "url": "https://inszoneinsurance.com/blog/commercial-insurance-2025"
+    },
+    {
+      "source_id": "src_00236",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ],
+      "publisher": "Barchart",
+      "url": "https://www.barchart.com/story/news/36560964/strong-2025-underwriting-income-masks-persistent-property-casualty-insurance-pressures"
+    },
+    {
+      "source_id": "src_00239",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ],
+      "publisher": "Insurance Business America",
+      "url": "https://www.insurancebusinessmag.com/us/news/catastrophe/fewer-storms-expected-in-2026--but-insurers-still-face-losses-571329.aspx"
+    },
+    {
+      "source_id": "src_00242",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ],
+      "publisher": "Ceres",
+      "url": "https://www.ceres.org/resources/reports/the-2026-progress-report-climate-risk-reporting-in-the-insurance-sector"
+    },
+    {
+      "source_id": "src_00243",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ],
+      "publisher": "AM Best",
+      "url": "https://web.ambest.com/docs/default-source/events/market-segment-outlook---commercial-lines-2026.pdf"
+    },
+    {
+      "source_id": "src_00642",
+      "industry_count": 2,
+      "industry_slugs": [
+        "dialysis-centers",
+        "dialysis-equipment-manufacturing"
+      ],
+      "publisher": "Global Market Insights",
+      "url": "https://www.gminsights.com/industry-analysis/us-dialysis-services-market"
+    },
+    {
+      "source_id": "src_00692",
+      "industry_count": 2,
+      "industry_slugs": [
+        "contact-lens-manufacturing",
+        "eyeglasses-and-contact-lens-stores-in-the-us"
+      ],
+      "publisher": "Healio",
+      "url": "https://www.healio.com/news/optometry/20250423/optical-products-from-china-now-tariffed-as-high-as-178"
+    },
+    {
+      "source_id": "src_00890",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ],
+      "publisher": "TariffsTool",
+      "url": "https://www.tariffstool.com/guides/tariff-on-clothing-imports-2026"
+    },
+    {
+      "source_id": "src_00912",
+      "industry_count": 2,
+      "industry_slugs": [
+        "consumer-electronics-stores-in-the-us",
+        "e-commerce-and-online-auctions-in-the-us"
+      ],
+      "publisher": "www.statista.com",
+      "url": "https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/"
+    },
+    {
+      "source_id": "src_00929",
+      "industry_count": 2,
+      "industry_slugs": [
+        "convenience-stores-in-the-us",
+        "gas-stations-with-convenience-stores-in-the-us"
+      ],
+      "publisher": "www.cspdailynews.com",
+      "url": "https://www.cspdailynews.com/company-news/c-store-foodservice-merchandise-sales-surpass-340b-2025"
+    },
+    {
+      "source_id": "src_00930",
+      "industry_count": 2,
+      "industry_slugs": [
+        "convenience-stores-in-the-us",
+        "gas-stations-in-the-us"
+      ],
+      "publisher": "www.upside.com",
+      "url": "https://www.upside.com/business/retailer-blog/convenience-store-trends"
+    },
+    {
+      "source_id": "src_01020",
+      "industry_count": 2,
+      "industry_slugs": [
+        "farm-supply-stores",
+        "hardware-stores-in-the-us"
+      ],
+      "publisher": "www.thefarnsworthgroup.com",
+      "url": "https://www.thefarnsworthgroup.com/blog/diy-trends-home-improvement"
+    },
+    {
+      "source_id": "src_01196",
+      "industry_count": 2,
+      "industry_slugs": [
+        "farm-supply-stores",
+        "hardware-stores-in-the-us"
+      ],
+      "publisher": "www.ibisworld.com",
+      "url": "https://www.ibisworld.com/united-states/industry/farm supply-stores/1033/"
+    },
+    {
+      "source_id": "src_01197",
+      "industry_count": 2,
+      "industry_slugs": [
+        "farm-supply-stores",
+        "hardware-stores-in-the-us"
+      ],
+      "publisher": "www.mordorintelligence.com",
+      "url": "https://www.mordorintelligence.com/industry-reports/farm supply-stores-retail-market"
+    },
+    {
+      "source_id": "src_01198",
+      "industry_count": 2,
+      "industry_slugs": [
+        "farm-supply-stores",
+        "hardware-stores-in-the-us"
+      ],
+      "publisher": "www.giiresearch.com",
+      "url": "https://www.giiresearch.com/report/moi1521577-united-states-farm supply-stores-retail-market-share.html"
+    },
+    {
+      "source_id": "src_01291",
+      "industry_count": 2,
+      "industry_slugs": [
+        "breweries-in-the-us",
+        "craft-beer-production"
+      ],
+      "publisher": "www.brewersassociation.org",
+      "url": "https://www.brewersassociation.org/association-news/a-year-of-correction-for-craft-beer-with-early-signals-of-recovery/"
+    },
+    {
       "source_id": "src_01292",
       "industry_count": 2,
       "industry_slugs": [
@@ -39,6 +403,466 @@
       ],
       "publisher": "www.brewersassociation.org",
       "url": "https://www.brewersassociation.org/association-news/2026-midyear-report-pressure-persists-as-signs-of-stability-emerge/"
+    },
+    {
+      "source_id": "src_01377",
+      "industry_count": 2,
+      "industry_slugs": [
+        "dairy-product-production-in-the-us",
+        "farm-lawn-and-garden-equipment-wholesaling-in-the-us"
+      ],
+      "publisher": "www.fb.org",
+      "url": "https://www.fb.org/market-intel/farm-bankruptcies-continued-to-climb-in-2025"
+    },
+    {
+      "source_id": "src_01451",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ],
+      "publisher": "www.ibisworld.com",
+      "url": "https://www.ibisworld.com/industry-statistics/market-size/cookie-cracker-pasta-production-united-states/"
+    },
+    {
+      "source_id": "src_01452",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ],
+      "publisher": "www.researchandmarkets.com",
+      "url": "https://www.researchandmarkets.com/reports/5781335/cookie-cracker-pasta-tortilla-market-report"
+    },
+    {
+      "source_id": "src_01453",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ],
+      "publisher": "www.thebusinessresearchcompany.com",
+      "url": "https://www.thebusinessresearchcompany.com/report/cookie-cracker-pasta-and-tortilla-global-market-report"
+    },
+    {
+      "source_id": "src_01456",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ],
+      "publisher": "www.newsweek.com",
+      "url": "https://www.newsweek.com/these-pastas-could-vanish-from-us-shelves-trump-tariffs-11025427"
+    },
+    {
+      "source_id": "src_01457",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ],
+      "publisher": "www.wcnc.com",
+      "url": "https://www.wcnc.com/article/news/nation-world/tariffs-on-italian-made-pasta/507-7b601195-7f89-4490-9f3f-2de33e337f37"
+    },
+    {
+      "source_id": "src_01458",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ],
+      "publisher": "www.cnn.com",
+      "url": "https://www.cnn.com/2025/11/28/economy/us-tariffs-italian-pasta"
+    },
+    {
+      "source_id": "src_01468",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ],
+      "publisher": "www.fao.org",
+      "url": "https://www.fao.org/giews/food-prices/price-warnings/detail/en/c/1754781/"
+    },
+    {
+      "source_id": "src_01469",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ],
+      "publisher": "www.fao.org",
+      "url": "https://www.fao.org/giews/food-prices/price-warnings/detail/en/c/1757090/"
+    },
+    {
+      "source_id": "src_01470",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ],
+      "publisher": "truegradefoods.com",
+      "url": "https://truegradefoods.com/u-s-food-and-beverage-market-2025-inflation-review-and-2026-forecast/"
+    },
+    {
+      "source_id": "src_01637",
+      "industry_count": 2,
+      "industry_slugs": [
+        "computer-manufacturing-in-the-us",
+        "computer-peripheral-manufacturing-in-the-us"
+      ],
+      "publisher": "www.ibisworld.com",
+      "url": "[Computer Peripheral Manufacturing in the US Industry Analysis, 2025 | IBISWorld](https://www.ibisworld.com/united-states/industry/computer-peripheral-manufacturing/741/)"
+    },
+    {
+      "source_id": "src_01830",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-building-construction-in-the-us",
+        "electricians-in-the-us"
+      ],
+      "publisher": "news.nationwide.com",
+      "url": "https://news.nationwide.com/end-of-year-construction-outlook-what-to-know-heading-into-2026/"
+    },
+    {
+      "source_id": "src_01834",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-building-construction-in-the-us",
+        "construction-in-the-us"
+      ],
+      "publisher": "www.equipmentworld.com",
+      "url": "https://www.equipmentworld.com/market-pulse/article/15816534/data-center-construction-boom-to-grow-in-2026"
+    },
+    {
+      "source_id": "src_01843",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ],
+      "publisher": "www.ibisworld.com",
+      "url": "[US Drywall & Insulation Installers Industry Industry Analysis, 2025](https://www.ibisworld.com/united-states/industry/heavy-engineering-construction/181/)"
+    },
+    {
+      "source_id": "src_01844",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ],
+      "publisher": "www.ibisworld.com",
+      "url": "[IBISWorld Drywall and Insulation Installers Market Size (2005-2032)](https://www.ibisworld.com/industry-statistics/market-size/heavy-engineering-construction-united-states/)"
+    },
+    {
+      "source_id": "src_01845",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ],
+      "publisher": "www.deloitte.com",
+      "url": "[Transportation trends 2025–2026: Modernizing America's transportation infrastructure - Deloitte](https://www.deloitte.com/us/en/insights/industry/government-public-sector-services/transportation-trends.html)"
+    },
+    {
+      "source_id": "src_01846",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ],
+      "publisher": "www.blackridgeresearch.com",
+      "url": "[Top 10 Largest Infrastructure Projects in United States (2026) - Black Ridge Research](https://www.blackridgeresearch.com/blog/top-infrastructure-projects-us-united-states)"
+    },
+    {
+      "source_id": "src_01847",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ],
+      "publisher": "www.enr.com",
+      "url": "[Infrastructure Gains in New ASCE Report Card - Engineering News-Record](https://www.enr.com/articles/62214-infrastructure-gains-in-new-asce-report-cardbut-progress-hinges-on-post-2026-funds)"
+    },
+    {
+      "source_id": "src_01848",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ],
+      "publisher": "www.spartnerships.com",
+      "url": "[2026 will be a Year of Action as infrastructure momentum holds firm - Strategic Partnerships, Inc.](https://www.spartnerships.com/2026-will-be-a-year-of-action-as-infrastructure-momentum-holds-firm/)"
+    },
+    {
+      "source_id": "src_01852",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ],
+      "publisher": "www.quickbase.com",
+      "url": "[2026 Construction Outlook: Navigate Labor Shortages & AI Growth - Quickbase](https://www.quickbase.com/blog/whats-ahead-for-construction-in-2026-key-shifts-and-opportunities)"
+    },
+    {
+      "source_id": "src_01855",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ],
+      "publisher": "www.transportation.gov",
+      "url": "[FY 2026 Notice of Funding Opportunity - US Department of Transportation](https://www.transportation.gov/sites/dot.gov/files/2025-12/FY_2026_BUILD_NOFO_Final.pdf)"
+    },
+    {
+      "source_id": "src_01857",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ],
+      "publisher": "cyanbuild.com",
+      "url": "[Construction Profit Margins in 2026: Benchmarks Every Contractor Should Know - CyanBuild](https://cyanbuild.com/resources/construction-profit-margins)"
+    },
+    {
+      "source_id": "src_01917",
+      "industry_count": 2,
+      "industry_slugs": [
+        "concrete-contractors-in-the-us",
+        "faucet-manufacturing"
+      ],
+      "publisher": "www.census.gov",
+      "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf"
+    },
+    {
+      "source_id": "src_01941",
+      "industry_count": 2,
+      "industry_slugs": [
+        "general-freight-trucking-less-than-truckload",
+        "general-freight-trucking-truckload"
+      ],
+      "publisher": "www.ibisworld.com",
+      "url": "https://www.ibisworld.com/united-states/market-size/general-freight-trucking-truckload/6146/"
+    },
+    {
+      "source_id": "src_02234",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-property-remodeling",
+        "construction-in-the-us"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.yardimatrix.com/blog/us-office-market-outlook/"
+    },
+    {
+      "source_id": "src_02273",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.ibisworld.com/united-states/market-size/business-analytics-enterprise-software-publishing/1989/"
+    },
+    {
+      "source_id": "src_02274",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.saasmag.com/saas-consolidation-ma-wave-2026/"
+    },
+    {
+      "source_id": "src_02275",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025"
+    },
+    {
+      "source_id": "src_02276",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.alixpartners.com/newsroom/alixpartners-2026-enterprise-software-technology-predictions-report/"
+    },
+    {
+      "source_id": "src_02277",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.getmonetizely.com/blogs/the-2026-guide-to-saas-ai-and-agentic-pricing-models"
+    },
+    {
+      "source_id": "src_02279",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.kixie.com/sales-blog/crm-statistics-and-market-insights-for-2025/"
+    },
+    {
+      "source_id": "src_02280",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.grandviewresearch.com/industry-analysis/business-intelligence-software-market"
+    },
+    {
+      "source_id": "src_02282",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.researchandmarkets.com/reports/4591796/enterprise-application-integration-market"
+    },
+    {
+      "source_id": "src_02285",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ],
+      "publisher": "source inventory",
+      "url": "https://vantagepoint.io/blog/sf/insights/platform-consolidation-2026-saas-stack-reduction-ai"
+    },
+    {
+      "source_id": "src_02695",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.ibisworld.com/united-states/market-size/business-certification-it-schools/1536/"
+    },
+    {
+      "source_id": "src_02696",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://investor.coursera.com/news/news-details/2026/Coursera-Completes-Combination-with-Udemy-to-Build-the-Worlds-Most-Comprehensive-Skills-Platform/default.aspx"
+    },
+    {
+      "source_id": "src_02697",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://investors.udemy.com/news-releases/news-release-details/coursera-combine-udemy-empower-global-workforce-skills-ai-era"
+    },
+    {
+      "source_id": "src_02698",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.imarcgroup.com/it-training-market"
+    },
+    {
+      "source_id": "src_02699",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.grandviewresearch.com/industry-analysis/cyber-security-training-market-report"
+    },
+    {
+      "source_id": "src_02701",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.marketsandmarkets.com/PressReleases/cybersecurity-certification.asp"
+    },
+    {
+      "source_id": "src_02702",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://hakia.com/news/bootcamp-market-2026/"
+    },
+    {
+      "source_id": "src_02703",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.coursereport.com/blog/2025-year-in-review-coding-bootcamp-news"
+    },
+    {
+      "source_id": "src_02704",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://medium.com/@medamineelhour/why-the-online-course-boom-is-quietly-slowing-down-in-2026-94ef0408ba28"
+    },
+    {
+      "source_id": "src_02705",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://business.linkedin.com/learn/resources/workplace-learning-report"
+    },
+    {
+      "source_id": "src_02706",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.acilearning.com/blog/the-most-in-demand-it-certifications-in-2026-and-who-they-re-best-for/"
+    },
+    {
+      "source_id": "src_02708",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.informationweek.com/it-leadership/the-growing-it-skills-gap-a-looming-crisis-for-2025"
     },
     {
       "source_id": "src_02849",
@@ -91,6 +915,16 @@
       "url": "https://constructionreviewonline.com/major-us-airport-terminal-upgrades-taking-off/"
     },
     {
+      "source_id": "src_03016",
+      "industry_count": 2,
+      "industry_slugs": [
+        "apartment-and-condominium-construction-in-the-us",
+        "commercial-washing-machine-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.nahb.org/news-and-economics/press-releases/2026/02/multifamily-market-expected-to-cool-in-2026-as-vacancies-rise"
+    },
+    {
       "source_id": "src_03162",
       "industry_count": 2,
       "industry_slugs": [
@@ -141,34 +975,1274 @@
       "url": "https://primaryignition.com/2025/09/19/us-auto-parts-tariffs-spark-supply-chain-concerns-2/"
     },
     {
-      "source_id": "src_03244",
+      "source_id": "src_03245",
       "industry_count": 2,
       "industry_slugs": [
-        "automobile-interior-manufacturing-in-the-us",
-        "automobile-metal-stamping-in-the-us"
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
       ],
       "publisher": "source inventory",
-      "url": "https://www.ibisworld.com/united-states/industry/automobile-metal-stamping/836/"
+      "url": "https://www.marketresearchfuture.com/reports/us-automotive-metal-stamping-market-14511"
     },
     {
-      "source_id": "src_03252",
+      "source_id": "src_03246",
       "industry_count": 2,
       "industry_slugs": [
-        "automobile-interior-manufacturing-in-the-us",
-        "automobile-metal-stamping-in-the-us"
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
       ],
       "publisher": "source inventory",
-      "url": "https://www.talenttraction.org/automotive-parts-manufacturing-workforce-trends/"
+      "url": "https://www.mordorintelligence.com/industry-reports/automotive-metal-stamping-market"
     },
     {
-      "source_id": "src_03253",
+      "source_id": "src_03247",
       "industry_count": 2,
       "industry_slugs": [
-        "automobile-interior-manufacturing-in-the-us",
-        "automobile-metal-stamping-in-the-us"
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
       ],
       "publisher": "source inventory",
-      "url": "https://tiretalent.com/workforce-trends-shaping-automotive-in-2026/"
+      "url": "https://www.grandviewresearch.com/industry-analysis/automotive-metal-stamping-market"
+    },
+    {
+      "source_id": "src_03248",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://msadvisory.com/china-us-tariffs-guide/"
+    },
+    {
+      "source_id": "src_03249",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.supplychaindive.com/news/trump-tariffs-china-steel-aluminum-review/760394/"
+    },
+    {
+      "source_id": "src_03250",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.riotimesonline.com/nearshoring-mexico-2026-guide/"
+    },
+    {
+      "source_id": "src_03251",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://metalstampingatlas.com/news/the-future-of-the-metal-stamping-industry-in-2026-innovations-challenges-and-opportunities"
+    },
+    {
+      "source_id": "src_03254",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.amtec.us.com/blog/manufacturing-workforce-report"
+    },
+    {
+      "source_id": "src_03357",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-battery-recycling-market-report"
+    },
+    {
+      "source_id": "src_03358",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.imarcgroup.com/united-states-battery-recycling-market"
+    },
+    {
+      "source_id": "src_03359",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.snsinsider.com/reports/battery-recycling-market-5718"
+    },
+    {
+      "source_id": "src_03360",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.researchandmarkets.com/reports/5766861/ev-battery-recycling-market-report"
+    },
+    {
+      "source_id": "src_03362",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.indexbox.io/blog/us-battery-recyclers-redwood-materials-and-ascend-elements-face-tough-market-conditions/"
+    },
+    {
+      "source_id": "src_03364",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://resource-recycling.com/e-scrap/2026/04/13/battery-recycler-ascend-elements-files-for-bankruptcy/"
+    },
+    {
+      "source_id": "src_03365",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.gao.gov/products/gao-26-108687"
+    },
+    {
+      "source_id": "src_03366",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://invrecovery.org/ev-battery-recycling-investment-recovery-2026-playbook/"
+    },
+    {
+      "source_id": "src_03367",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.energy-storage.news/us-battery-recycling-in-doldrums-updates-from-redwood-materials-ascend-elements/"
+    },
+    {
+      "source_id": "src_03368",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://electrek.co/2026/06/09/gm-first-automaker-redwood-materials-full-battery-lifecycle/"
+    },
+    {
+      "source_id": "src_03369",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ],
+      "publisher": "source inventory",
+      "url": "https://americanbatterytechnology.com/press-release/american-battery-technology-company-named-recycling-technology-solution-2025-by-cleantech-breakthrough/"
+    },
+    {
+      "source_id": "src_03682",
+      "industry_count": 2,
+      "industry_slugs": [
+        "bridge-and-structure-painting-contractors",
+        "construction-project-management-services"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.fixr.com/articles/construction-industry-labor-report"
+    },
+    {
+      "source_id": "src_03707",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.researchandmarkets.com/report/lighting-control"
+    },
+    {
+      "source_id": "src_03708",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.marketsandmarkets.com/Market-Reports/lighting-control-system-market-66050609.html"
+    },
+    {
+      "source_id": "src_03709",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.mordorintelligence.com/industry-reports/lighting-control-system-market"
+    },
+    {
+      "source_id": "src_03710",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.imarcgroup.com/smart-lighting-market"
+    },
+    {
+      "source_id": "src_03711",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.psmarketresearch.com/market-analysis/us-building-lighting-control-system-market"
+    },
+    {
+      "source_id": "src_03713",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://inside.lighting/news/25-02/not-bluff-trump-tariffs-hit-lighting-supply-chains"
+    },
+    {
+      "source_id": "src_03714",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://edisonreport.com/2025/05/12/us-china-tariff-reduction-lighting-industry/"
+    },
+    {
+      "source_id": "src_03716",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://investors.acuityinc.com/news-releases/news-release-details/acuity-brands-reports-fiscal-2024-fourth-quarter-and-full-year-results"
+    },
+    {
+      "source_id": "src_03717",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://finance.yahoo.com/news/acuity-brands-q4-earnings-2-115459725.html"
+    },
+    {
+      "source_id": "src_03718",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.measurable.energy/blog/2026-energy-trends-for-buildings-efficiency-data-control"
+    },
+    {
+      "source_id": "src_03719",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://actionservicesgroup.com/blog/what-are-the-top-2026-lighting-trends-for-commercial-buildings/"
+    },
+    {
+      "source_id": "src_03720",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ],
+      "publisher": "source inventory",
+      "url": "https://www.sec.gov/Archives/edgar/data/1333822/000119312526303979/leds-ars-2026.pdf"
+    },
+    {
+      "source_id": "src_04062",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/industry/charter-flights/1127/"
+    },
+    {
+      "source_id": "src_04063",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "Fortune Business Insights",
+      "url": "https://www.fortunebusinessinsights.com/air-charter-service-market-108388"
+    },
+    {
+      "source_id": "src_04064",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "The Business Research Company",
+      "url": "https://www.thebusinessresearchcompany.com/report/private-jet-charter-services-global-market-report"
+    },
+    {
+      "source_id": "src_04065",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/02/03/3230783/0/en/Private-Jet-Charter-Services-Industry-Report-2026-A-25-Billion-Market-by-2031"
+    },
+    {
+      "source_id": "src_04066",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "Stratos Jets",
+      "url": "https://www.stratosjets.com/blog/state-of-private-aviation-2026/"
+    },
+    {
+      "source_id": "src_04067",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "ACC Aviation",
+      "url": "https://accaviation.com/charter-trends-for-2026-pricing-availability-and-the-event-horizon/"
+    },
+    {
+      "source_id": "src_04068",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/sites/douggollan/2026/08/02/netjets-curtails-jet-card-sales-and-competitors-see-opportunities/"
+    },
+    {
+      "source_id": "src_04069",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "SherpaReport",
+      "url": "https://www.sherpareport.com/aircraft/private-jet-flights-grow-2026.html"
+    },
+    {
+      "source_id": "src_04070",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "Inside Nova",
+      "url": "https://www.insidenova.com/travel-by-private-jet-hit-an-all-time-record-in-2025"
+    },
+    {
+      "source_id": "src_04075",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "PriveJets",
+      "url": "https://privejets.com/top-private-jet-travel-trends-2026-charter-memberships/"
+    },
+    {
+      "source_id": "src_04076",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ],
+      "publisher": "Holland & Knight",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/02/2025-aviation-bankruptcy-update"
+    },
+    {
+      "source_id": "src_04338",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ],
+      "publisher": "WWD / Sourcing Journal",
+      "url": "https://wwd.com/sourcing-journal/trade/kearney-reshoring-index-usa-domestic-apparel-manufacturing-1238945612/"
+    },
+    {
+      "source_id": "src_04377",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/industry/communications-equipment-manufacturing/746/"
+    },
+    {
+      "source_id": "src_04378",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ],
+      "publisher": "Grand View Research",
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-communication-equipment-market"
+    },
+    {
+      "source_id": "src_04379",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ],
+      "publisher": "Research and Markets",
+      "url": "https://www.researchandmarkets.com/report/united-states-telecommunications-equipment-market"
+    },
+    {
+      "source_id": "src_04380",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ],
+      "publisher": "Inside Telecom",
+      "url": "https://insidetelecom.com/best-5g-advanced-telecommunications-equipment-manufacturers-2025/"
+    },
+    {
+      "source_id": "src_04381",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ],
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2025/04/12/trump-exempts-phones-computers-chips-tariffs-apple-dell.html"
+    },
+    {
+      "source_id": "src_04384",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ],
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/sites/kenroberts/2026/03/31/after-two-decades-china-no-longer-dominates-us-cell-phone-imports/"
+    },
+    {
+      "source_id": "src_04385",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ],
+      "publisher": "Ericsson",
+      "url": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/united-states/5g-smart-factory"
+    },
+    {
+      "source_id": "src_04437",
+      "industry_count": 2,
+      "industry_slugs": [
+        "computer-and-packaged-software-wholesaling-in-the-us",
+        "electronic-part-and-equipment-wholesaling-in-the-us"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/industry/computer-packaged-software-wholesaling/928/"
+    },
+    {
+      "source_id": "src_04438",
+      "industry_count": 2,
+      "industry_slugs": [
+        "computer-and-packaged-software-wholesaling-in-the-us",
+        "electronic-part-and-equipment-wholesaling-in-the-us"
+      ],
+      "publisher": "Accuris",
+      "url": "https://accuristech.com/blog/ai-data-center-electronic-component-supply/"
+    },
+    {
+      "source_id": "src_04441",
+      "industry_count": 2,
+      "industry_slugs": [
+        "computer-and-packaged-software-wholesaling-in-the-us",
+        "electronic-part-and-equipment-wholesaling-in-the-us"
+      ],
+      "publisher": "Verified Market Research",
+      "url": "https://www.verifiedmarketresearch.com/product/ai-gpu-market/"
+    },
+    {
+      "source_id": "src_04443",
+      "industry_count": 2,
+      "industry_slugs": [
+        "computer-and-packaged-software-wholesaling-in-the-us",
+        "electronic-part-and-equipment-wholesaling-in-the-us"
+      ],
+      "publisher": "Expert Market Research",
+      "url": "https://www.expertmarketresearch.com/reports/computer-software-market"
+    },
+    {
+      "source_id": "src_04445",
+      "industry_count": 2,
+      "industry_slugs": [
+        "computer-and-packaged-software-wholesaling-in-the-us",
+        "electronic-part-and-equipment-wholesaling-in-the-us"
+      ],
+      "publisher": "Channel Futures",
+      "url": "https://www.channelfutures.com/channel-business/distribution-watch-ingram-micro-tech-data-arrow-electronics"
+    },
+    {
+      "source_id": "src_04486",
+      "industry_count": 2,
+      "industry_slugs": [
+        "concrete-reinforcing-bar-manufacturing",
+        "fabricated-structural-metal-manufacturing"
+      ],
+      "publisher": "SteelOrbis",
+      "url": "https://www.steelorbis.com/steel-news/latest-news/isa-reports-us-rebar-market-recovery-accelerating-in-q2-2026-1451268.htm"
+    },
+    {
+      "source_id": "src_04487",
+      "industry_count": 2,
+      "industry_slugs": [
+        "concrete-reinforcing-bar-manufacturing",
+        "fabricated-structural-metal-manufacturing"
+      ],
+      "publisher": "Market Data Forecast",
+      "url": "https://www.marketdataforecast.com/market-reports/united-states-rebar-market"
+    },
+    {
+      "source_id": "src_04488",
+      "industry_count": 2,
+      "industry_slugs": [
+        "concrete-reinforcing-bar-manufacturing",
+        "fabricated-structural-metal-manufacturing"
+      ],
+      "publisher": "Polaris Market Research",
+      "url": "https://www.polarismarketresearch.com/industry-analysis/steel-rebar-market"
+    },
+    {
+      "source_id": "src_04489",
+      "industry_count": 2,
+      "industry_slugs": [
+        "concrete-reinforcing-bar-manufacturing",
+        "fabricated-structural-metal-manufacturing"
+      ],
+      "publisher": "Buchanan Ingersoll & Rooney",
+      "url": "https://www.bhfs.com/insight/trump-admin-adjusts-tariffs-for-derivative-products-containing-steel-aluminum-and-copper/"
+    },
+    {
+      "source_id": "src_04609",
+      "industry_count": 2,
+      "industry_slugs": [
+        "contract-pharmaceutical-research-services",
+        "contract-research-organizations"
+      ],
+      "publisher": "Fortune Business Insights",
+      "url": "https://www.fortunebusinessinsights.com/industry-reports/contract-research-organization-cro-services-market-100864"
+    },
+    {
+      "source_id": "src_04610",
+      "industry_count": 2,
+      "industry_slugs": [
+        "contract-pharmaceutical-research-services",
+        "contract-research-organizations"
+      ],
+      "publisher": "MarketsandMarkets",
+      "url": "https://www.marketsandmarkets.com/Market-Reports/contract-research-organization-service-market-167410116.html"
+    },
+    {
+      "source_id": "src_04611",
+      "industry_count": 2,
+      "industry_slugs": [
+        "contract-pharmaceutical-research-services",
+        "contract-research-organizations"
+      ],
+      "publisher": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332337/28124/en/contract-research-organization-cro-services-market-insights-report-2026-industry-set-to-reach-usd-140-32-billion-by-2031-as-advanced-therapies-and-precision-medicine-accelerate-out.html"
+    },
+    {
+      "source_id": "src_04629",
+      "industry_count": 2,
+      "industry_slugs": [
+        "conveyancing-services-in-the-us",
+        "estate-lawyers-and-attorneys"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/industry/conveyancing-services/1391/"
+    },
+    {
+      "source_id": "src_04630",
+      "industry_count": 2,
+      "industry_slugs": [
+        "conveyancing-services-in-the-us",
+        "estate-lawyers-and-attorneys"
+      ],
+      "publisher": "HousingWire",
+      "url": "https://www.housingwire.com/articles/title-insurance-premium-volume-jumped-nearly-14-in-2025/"
+    },
+    {
+      "source_id": "src_04632",
+      "industry_count": 2,
+      "industry_slugs": [
+        "conveyancing-services-in-the-us",
+        "estate-lawyers-and-attorneys"
+      ],
+      "publisher": "US Securities and Exchange Commission",
+      "url": "https://www.sec.gov/Archives/edgar/data/1331875/000133187526000026/fnf-20251231.htm"
+    },
+    {
+      "source_id": "src_04633",
+      "industry_count": 2,
+      "industry_slugs": [
+        "conveyancing-services-in-the-us",
+        "estate-lawyers-and-attorneys"
+      ],
+      "publisher": "Fidelity National Financial",
+      "url": "https://www.prnewswire.com/news-releases/fnf-reports-first-quarter-2026-financial-results-302764544.html"
+    },
+    {
+      "source_id": "src_04634",
+      "industry_count": 2,
+      "industry_slugs": [
+        "conveyancing-services-in-the-us",
+        "estate-lawyers-and-attorneys"
+      ],
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/01/07/mortgage-demand-drops-nearly-10percent-to-end-2025.html"
+    },
+    {
+      "source_id": "src_04750",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "Verified Market Reports",
+      "url": "https://www.verifiedmarketreports.com/product/us-corporate-wellness-services-market/"
+    },
+    {
+      "source_id": "src_04751",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "Grand View Research",
+      "url": "https://www.grandviewresearch.com/industry-analysis/corporate-wellness-market"
+    },
+    {
+      "source_id": "src_04752",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "Research and Markets",
+      "url": "https://www.researchandmarkets.com/reports/5312400/the-us-corporate-wellness-services-market-size"
+    },
+    {
+      "source_id": "src_04753",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "Market Data Forecast",
+      "url": "https://www.marketdataforecast.com/market-reports/united-states-corporate-wellness-market"
+    },
+    {
+      "source_id": "src_04754",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "Market Research Future",
+      "url": "https://www.marketresearchfuture.com/reports/corporate-wellness-market-6963"
+    },
+    {
+      "source_id": "src_04755",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "Persistence Market Research",
+      "url": "https://www.persistencemarketresearch.com/market-research/us-corporate-wellness-market.asp"
+    },
+    {
+      "source_id": "src_04757",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "Fortune Business Insights",
+      "url": "https://www.fortunebusinessinsights.com/corporate-wellness-market-106931"
+    },
+    {
+      "source_id": "src_04760",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "BrightPlan",
+      "url": "https://www.brightplan.com/whats-next-for-employee-wellness-6-key-trends-for-2026"
+    },
+    {
+      "source_id": "src_04761",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "WellSteps",
+      "url": "https://www.wellsteps.com/blog/2025/11/05/employee-wellness-trends-2026-for-employers/"
+    },
+    {
+      "source_id": "src_04762",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "Global Wellness Institute",
+      "url": "https://globalwellnessinstitute.org/global-wellness-institute-blog/2026/04/07/workplace-wellbeing-initiative-trends-for-2026/"
+    },
+    {
+      "source_id": "src_04770",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "WorldatWork",
+      "url": "https://worldatwork.org/publications/workspan-daily/employers-facing-healthcare-cost-containment-challenge-for-2025"
+    },
+    {
+      "source_id": "src_04771",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "WTW",
+      "url": "https://www.wtwco.com/en-us/news/2024/09/healthcare-costs-at-a-post-pandemic-high-us-employers-prioritize-affordability-and-wellbeing"
+    },
+    {
+      "source_id": "src_04774",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "Harvard Business Review",
+      "url": "https://hbr.org/2024/10/why-workplace-well-being-programs-dont-achieve-better-outcomes"
+    },
+    {
+      "source_id": "src_04777",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ],
+      "publisher": "Knowledge Sourcing",
+      "url": "https://www.knowledge-sourcing.com/resources/thought-articles/us-workplace-burnout-employee-wellness-programs"
+    },
+    {
+      "source_id": "src_04802",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/market-size/cosmetic-beauty-products-manufacturing/499/"
+    },
+    {
+      "source_id": "src_04803",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/industry/cosmetic-beauty-product-manufacturing/499/"
+    },
+    {
+      "source_id": "src_04808",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ],
+      "publisher": "Cosmetics Business",
+      "url": "https://cosmeticsbusiness.com/estee-lauder-restructuring-costs-profit-recovery-growth-plan"
+    },
+    {
+      "source_id": "src_04809",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ],
+      "publisher": "Retail Dive",
+      "url": "https://www.retaildive.com/news/estee-lauder-layoffs-restructuring-plan/706558/"
+    },
+    {
+      "source_id": "src_04810",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ],
+      "publisher": "Cosmetics Business",
+      "url": "https://cosmeticsbusiness.com/update-revlon-exits-bankruptcy-after-year-long-battle-208625/"
+    },
+    {
+      "source_id": "src_04811",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ],
+      "publisher": "BeautyMatter",
+      "url": "https://beautymatter.com/articles/trumps-aluminum-tariffs-beautys-future"
+    },
+    {
+      "source_id": "src_04812",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ],
+      "publisher": "BeautyMatter",
+      "url": "https://beautymatter.com/articles/the-202-billion-tariff-problem-facing-small-beauty-brands"
+    },
+    {
+      "source_id": "src_04813",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ],
+      "publisher": "Boston Consulting Group",
+      "url": "https://www.bcg.com/publications/2025/navigating-tariffs-in-us-beauty-industry"
+    },
+    {
+      "source_id": "src_04976",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/industry/cut-sew-apparel-manufacturing/2035/"
+    },
+    {
+      "source_id": "src_04977",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ],
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/more-tariffs-bring-back-us-135523173.html"
+    },
+    {
+      "source_id": "src_04978",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ],
+      "publisher": "Supply Chain Dive",
+      "url": "https://www.supplychaindive.com/news/us-tariff-policies-domestic-sourcing-usfia-fashion-benchmarking-study-2025/801837/"
+    },
+    {
+      "source_id": "src_04982",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ],
+      "publisher": "FashionUnited",
+      "url": "https://fashionunited.uk/news/business/how-current-tariffs-are-impacting-garment-manufacturing-and-employment-in-bangladesh-vietnam-and-india/2026070789045.html"
+    },
+    {
+      "source_id": "src_04983",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ],
+      "publisher": "New Way Apparel",
+      "url": "https://www.newway-apparel.com/blog/china-apparel-tariffs-2026-what-small-brands-actually-pay-2026.html"
+    },
+    {
+      "source_id": "src_05046",
+      "industry_count": 2,
+      "industry_slugs": [
+        "deck-and-patio-construction",
+        "fence-construction-in-the-us"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/market-research-reports/deck-patio-construction-industry/"
+    },
+    {
+      "source_id": "src_05047",
+      "industry_count": 2,
+      "industry_slugs": [
+        "deck-and-patio-construction",
+        "fence-construction-in-the-us"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/market-size/deck-patio-construction/4717/"
+    },
+    {
+      "source_id": "src_05054",
+      "industry_count": 2,
+      "industry_slugs": [
+        "deck-and-patio-construction",
+        "fence-construction-in-the-us"
+      ],
+      "publisher": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/housing-starts"
+    },
+    {
+      "source_id": "src_05056",
+      "industry_count": 2,
+      "industry_slugs": [
+        "deck-and-patio-construction",
+        "fence-construction-in-the-us"
+      ],
+      "publisher": "This Old House",
+      "url": "https://www.thisoldhouse.com/home-finances/outdoor-living-trends"
+    },
+    {
+      "source_id": "src_05223",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-dishwasher-manufacturing",
+        "dishwasher-manufacturing"
+      ],
+      "publisher": "Mordor Intelligence",
+      "url": "https://www.mordorintelligence.com/industry-reports/united-states-commercial-dishwasher-market"
+    },
+    {
+      "source_id": "src_05224",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-dishwasher-manufacturing",
+        "dishwasher-manufacturing"
+      ],
+      "publisher": "Verified Market Research",
+      "url": "https://www.verifiedmarketresearch.com/product/united-states-commercial-dishwasher-market/"
+    },
+    {
+      "source_id": "src_05225",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-dishwasher-manufacturing",
+        "dishwasher-manufacturing"
+      ],
+      "publisher": "Market Research Future",
+      "url": "https://www.marketresearchfuture.com/reports/dishwasher-market-20667"
+    },
+    {
+      "source_id": "src_05229",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-dishwasher-manufacturing",
+        "dishwasher-manufacturing"
+      ],
+      "publisher": "U.S. Department of Energy",
+      "url": "https://www.energy.gov/articles/doe-announces-efficiency-rules-save-americans-more-650-million-annual-energy-and-water-bills"
+    },
+    {
+      "source_id": "src_05230",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-dishwasher-manufacturing",
+        "dishwasher-manufacturing"
+      ],
+      "publisher": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2024/04/24/2024-08212/energy-conservation-program-energy-conservation-standards-for-dishwashers"
+    },
+    {
+      "source_id": "src_06037",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fire-and-smoke-alarm-manufacturing",
+        "fire-extinguisher-manufacturing"
+      ],
+      "publisher": "Grand View Research",
+      "url": "https://www.grandviewresearch.com/industry-analysis/portable-fire-fire and smoke alarm-market"
+    },
+    {
+      "source_id": "src_06038",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fire-and-smoke-alarm-manufacturing",
+        "fire-extinguisher-manufacturing"
+      ],
+      "publisher": "360iResearch",
+      "url": "https://www.360iresearch.com/library/intelligence/fire-fire and smoke alarms"
+    },
+    {
+      "source_id": "src_06039",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fire-and-smoke-alarm-manufacturing",
+        "fire-extinguisher-manufacturing"
+      ],
+      "publisher": "Research and Markets",
+      "url": "https://www.researchandmarkets.com/report/fire-fire and smoke alarm"
+    },
+    {
+      "source_id": "src_06040",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fire-and-smoke-alarm-manufacturing",
+        "fire-extinguisher-manufacturing"
+      ],
+      "publisher": "Market Research Future",
+      "url": "https://www.marketresearchfuture.com/reports/fire-fire and smoke alarm-market-12437"
+    },
+    {
+      "source_id": "src_06041",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fire-and-smoke-alarm-manufacturing",
+        "fire-extinguisher-manufacturing"
+      ],
+      "publisher": "MarkWide Research",
+      "url": "https://markwideresearch.com/north-america-fire-fire and smoke alarm-market"
+    },
+    {
+      "source_id": "src_06042",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fire-and-smoke-alarm-manufacturing",
+        "fire-extinguisher-manufacturing"
+      ],
+      "publisher": "The Business Research Company",
+      "url": "https://www.thebusinessresearchcompany.com/report/portable-fire-fire and smoke alarm-global-market-report"
+    },
+    {
+      "source_id": "src_06050",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fire-and-smoke-alarm-manufacturing",
+        "fire-extinguisher-manufacturing"
+      ],
+      "publisher": "360iResearch",
+      "url": "https://www.360iresearch.com/library/intelligence/lithium-battery-fire-fire and smoke alarm"
+    },
+    {
+      "source_id": "src_06051",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fire-and-smoke-alarm-manufacturing",
+        "fire-extinguisher-manufacturing"
+      ],
+      "publisher": "IndustryToday",
+      "url": "https://industrytoday.co.uk/energy_and_environment/lithium-battery-fire-fire and smoke alarm-market-trends-indicate-12-usd-billion-expansion-with-194-cagr-through-2035"
+    },
+    {
+      "source_id": "src_06106",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fish-and-seafood-aquaculture-in-the-us",
+        "fishing-in-the-us"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/industry/fish and seafood aquaculture/81/"
+    },
+    {
+      "source_id": "src_06108",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fish-and-seafood-aquaculture-in-the-us",
+        "fishing-in-the-us"
+      ],
+      "publisher": "Inside Climate News",
+      "url": "https://insideclimatenews.org/news/21072026/california-commercial-salmon-fish and seafood aquaculture/"
+    },
+    {
+      "source_id": "src_06109",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fish-and-seafood-aquaculture-in-the-us",
+        "fishing-in-the-us"
+      ],
+      "publisher": "Ocean Conservancy",
+      "url": "https://oceanconservancy.org/newsroom/press-release/2026/04/22/us-fisheries-challenges-report/"
+    },
+    {
+      "source_id": "src_06111",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fish-and-seafood-aquaculture-in-the-us",
+        "fishing-in-the-us"
+      ],
+      "publisher": "NOAA Fisheries",
+      "url": "https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economics-united-states"
+    },
+    {
+      "source_id": "src_06113",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fish-and-seafood-aquaculture-in-the-us",
+        "fishing-in-the-us"
+      ],
+      "publisher": "Maine Public",
+      "url": "https://www.mainepublic.org/2026-04-02/skyrocketing-fuel-prices-squeeze-rhode-island-fishermen"
+    },
+    {
+      "source_id": "src_06114",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fish-and-seafood-aquaculture-in-the-us",
+        "fishing-in-the-us"
+      ],
+      "publisher": "OPB",
+      "url": "https://www.opb.org/article/2026/05/15/oregon-washington-fish and seafood aquaculture-industry-squeeze-high-fuel-costs/"
+    },
+    {
+      "source_id": "src_06501",
+      "industry_count": 2,
+      "industry_slugs": [
+        "floor-covering-stores-in-the-us",
+        "garage-door-manufacturing"
+      ],
+      "publisher": "Floor Covering News",
+      "url": "https://www.fcnews.net/2026/06/scoring-flooring-industry-stats-for-2025/"
+    },
+    {
+      "source_id": "src_06527",
+      "industry_count": 2,
+      "industry_slugs": [
+        "gas-stations-in-the-us",
+        "gas-stations-with-convenience-stores-in-the-us"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/market-size/gas-stations/1063/"
+    },
+    {
+      "source_id": "src_06539",
+      "industry_count": 2,
+      "industry_slugs": [
+        "gas-stations-in-the-us",
+        "gas-stations-with-convenience-stores-in-the-us"
+      ],
+      "publisher": "C-Store Dive",
+      "url": "https://www.cstoredive.com/news/8-trends-2026-convenience-retailing-c-store/807748/"
+    },
+    {
+      "source_id": "src_06617",
+      "industry_count": 2,
+      "industry_slugs": [
+        "gear-and-speed-changer-manufacturing",
+        "geophysical-services-in-the-us"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/industry/geophysical-services/1406/"
+    },
+    {
+      "source_id": "src_06684",
+      "industry_count": 2,
+      "industry_slugs": [
+        "go-kart-racing-tracks",
+        "golf-courses-and-country-clubs-in-the-us"
+      ],
+      "publisher": "Our Culture Mag",
+      "url": "https://ourculturemag.com/2025/03/30/global-consumer-spending-on-leisure-activities-reaches-new-highs-as-post-pandemic-experiences-boom-in-2025/"
+    },
+    {
+      "source_id": "src_06685",
+      "industry_count": 2,
+      "industry_slugs": [
+        "go-kart-racing-tracks",
+        "golf-courses-and-country-clubs-in-the-us"
+      ],
+      "publisher": "Integrated Insight",
+      "url": "https://integratedinsight.com/integrated-insight-releases-new-survey-data-on-2025-consumer-spending-plans-for-leisure-experiences/"
+    },
+    {
+      "source_id": "src_06701",
+      "industry_count": 2,
+      "industry_slugs": [
+        "florists-in-the-us",
+        "golf-cart-manufacturing"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/market-size/florists/1096"
+    },
+    {
+      "source_id": "src_06704",
+      "industry_count": 2,
+      "industry_slugs": [
+        "florists-in-the-us",
+        "golf-cart-manufacturing"
+      ],
+      "publisher": "BloomNation",
+      "url": "https://www.bloomnation.com/join/floral-tariffs-rising-costs-in-2026-whats-next/"
+    },
+    {
+      "source_id": "src_06710",
+      "industry_count": 2,
+      "industry_slugs": [
+        "florists-in-the-us",
+        "golf-cart-manufacturing"
+      ],
+      "publisher": "IBISWorld",
+      "url": "https://www.ibisworld.com/united-states/industry/florists/1096/"
     },
     {
       "source_id": "src_06787",
@@ -181,6 +2255,66 @@
       "url": "https://www.atv.com/atv/tariffs-affect-powersports-industry-44742991"
     },
     {
+      "source_id": "src_06806",
+      "industry_count": 2,
+      "industry_slugs": [
+        "abrasive-and-sandpaper-manufacturing-in-the-us",
+        "flour-milling-in-the-us"
+      ],
+      "publisher": "IMARC Group",
+      "url": "https://www.imarcgroup.com/global-semiconductor-wafer-polishing-grinding-equipment-market"
+    },
+    {
+      "source_id": "src_06901",
+      "industry_count": 2,
+      "industry_slugs": [
+        "flower-and-nursery-stock-wholesaling-in-the-us",
+        "water-heater-manufacturing"
+      ],
+      "publisher": "A. O. Smith",
+      "url": "https://www.aosmith.com/on/demandware.static/-/Sites-aosmith-Library/default/dw9faf4a3d/pdf/2025-Annual-Report.pdf"
+    },
+    {
+      "source_id": "src_06902",
+      "industry_count": 2,
+      "industry_slugs": [
+        "flower-and-nursery-stock-wholesaling-in-the-us",
+        "water-heater-manufacturing"
+      ],
+      "publisher": "SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/91142/000009114226000008/aos-20251231.htm"
+    },
+    {
+      "source_id": "src_06903",
+      "industry_count": 2,
+      "industry_slugs": [
+        "flower-and-nursery-stock-wholesaling-in-the-us",
+        "water-heater-manufacturing"
+      ],
+      "publisher": "AHRI",
+      "url": "https://www.ahrinet.org/sites/default/files/2026-01/November2025StatisticalRelease.pdf"
+    },
+    {
+      "source_id": "src_06907",
+      "industry_count": 2,
+      "industry_slugs": [
+        "flower-and-nursery-stock-wholesaling-in-the-us",
+        "water-heater-manufacturing"
+      ],
+      "publisher": "AHRI",
+      "url": "https://www.ahrinet.org/news-events/news/ahri-releases-february-2026-us-heating-and-cooling-equipment-shipment-data"
+    },
+    {
+      "source_id": "src_06908",
+      "industry_count": 2,
+      "industry_slugs": [
+        "flower-and-nursery-stock-wholesaling-in-the-us",
+        "water-heater-manufacturing"
+      ],
+      "publisher": "US Census Bureau",
+      "url": "https://www.census.gov/construction/nrc/pdf/newresconst_202604.pdf"
+    },
+    {
       "source_id": "src_08325",
       "industry_count": 2,
       "industry_slugs": [
@@ -189,6 +2323,26 @@
       ],
       "publisher": "U.S. Environmental Protection Agency",
       "url": "https://www.epa.gov/smm/us-recycling-infrastructure-assessment-and-state-data-collection-reports"
+    },
+    {
+      "source_id": "src_08485",
+      "industry_count": 2,
+      "industry_slugs": [
+        "gym-and-exercise-equipment-manufacturing-in-the-us",
+        "gym-health-and-fitness-clubs-in-the-us"
+      ],
+      "publisher": "Health & Fitness Association",
+      "url": "https://www.healthandfitness.org/81-million-americans-were-members-of-a-fitness-facility-in-2025-new-hfa-report-finds/"
+    },
+    {
+      "source_id": "src_09146",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fine-arts-schools-in-the-us",
+        "religious-organizations-in-the-us"
+      ],
+      "publisher": "Giving USA Foundation",
+      "url": "https://givingusa.org/giving-usa-charitable-giving-rose-to-617-20-billion-in-2025-surpassing-the-600-billion-mark-for-the-first-time/"
     },
     {
       "source_id": "src_09762",
@@ -211,6 +2365,16 @@
       "url": "https://www.fhwa.dot.gov/policyinformation/tables/vmt/vmt_forecast_sum.cfm"
     },
     {
+      "source_id": "src_13105",
+      "industry_count": 2,
+      "industry_slugs": [
+        "hair-and-nail-salons-in-the-us",
+        "hair-salons"
+      ],
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm"
+    },
+    {
       "source_id": "src_13250",
       "industry_count": 2,
       "industry_slugs": [
@@ -229,9 +2393,99 @@
       ],
       "publisher": "Hearth, Patio & Barbecue Association",
       "url": "https://hpba.org/fire-up-the-grill-celebrate-julys-national-grilling-month-with-insights-into-premium-outdoor-cooking-trends/"
+    },
+    {
+      "source_id": "src_15940",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fast-food-chicken-franchises",
+        "fast-food-restaurants-in-the-us"
+      ],
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/food/fda-food-code/food-code-2022"
+    },
+    {
+      "source_id": "src_15941",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fast-food-chicken-franchises",
+        "fast-food-restaurants-in-the-us"
+      ],
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/franchise-rule"
+    },
+    {
+      "source_id": "src_15943",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fast-food-chicken-franchises",
+        "fast-food-restaurants-in-the-us"
+      ],
+      "publisher": "California Department of Industrial Relations",
+      "url": "https://www.dir.ca.gov/dlse/Fast-Food-Minimum-Wage.html"
     }
   ],
   "shared_urls": [
+    {
+      "url": "https://cen.acs.org/business/US-chemical-industry-see-slow/104/web/2026/01",
+      "industry_count": 4,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing",
+        "dye-and-pigment-manufacturing-in-the-us",
+        "fertilizer-manufacturing-in-the-us"
+      ]
+    },
+    {
+      "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+      "industry_count": 4,
+      "industry_slugs": [
+        "concrete-reinforcing-bar-manufacturing",
+        "fabricated-structural-metal-manufacturing",
+        "farm-supply-stores",
+        "hardware-stores-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.americanchemistry.com/chemistry-in-america-industry-innovation-impact/chemical-industry-statistics-u.s.-jobs-economic-impact/resources/economic-sentiment-index/acc-chemical-manufacturing-economic-sentiment-index-findings-q4-2025",
+      "industry_count": 4,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing",
+        "dye-and-pigment-manufacturing-in-the-us",
+        "fertilizer-manufacturing-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings",
+      "industry_count": 4,
+      "industry_slugs": [
+        "bread-production-in-the-us",
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production",
+        "grocery-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.fortunebusinessinsights.com/blog/us-trade-tariffs-chemical-materials-impact-2025-11086",
+      "industry_count": 4,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing",
+        "dye-and-pigment-manufacturing-in-the-us",
+        "fertilizer-manufacturing-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/united-states/industry/chemical-product-manufacturing/503/",
+      "industry_count": 4,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing",
+        "dye-and-pigment-manufacturing-in-the-us",
+        "fertilizer-manufacturing-in-the-us"
+      ]
+    },
     {
       "url": "https://press.spglobal.com/2025-05-21-U-S-Vehicle-Age-Rises-Again-to-12-8-Years-in-2025%2C-According-to-S-P-Global-Mobility",
       "industry_count": 3,
@@ -239,6 +2493,24 @@
         "auto-glass-repair-and-replacement-franchises",
         "auto-maintenance-and-repair-franchises",
         "auto-windshield-repair-services"
+      ]
+    },
+    {
+      "url": "https://shenglufashion.com/2026/03/09/tariffs-impact-u-s-apparel-sourcing-and-trade-beyond-just-price-updated-march-2026/",
+      "industry_count": 3,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "family-clothing-stores-in-the-us",
+        "fashion-designers-in-the-us"
+      ]
+    },
+    {
+      "url": "https://thevisioncouncil.org/blog/vision-council-provides-latest-updates-tariffs-impacting-optical-industry",
+      "industry_count": 3,
+      "industry_slugs": [
+        "contact-lens-manufacturing",
+        "eyeglasses-frames-manufacturing",
+        "glasses-and-contact-lens-manufacturing-in-the-us"
       ]
     },
     {
@@ -251,11 +2523,94 @@
       ]
     },
     {
+      "url": "https://www.gfb.org/news/ag-news/post/farm-chapter-12-bankruptcies-in-2026-up-46-from-2024",
+      "industry_count": 3,
+      "industry_slugs": [
+        "agribusiness-in-the-us",
+        "farm-lawn-and-garden-equipment-wholesaling-in-the-us",
+        "farm-supplies-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.healthandfitness.org/81-million-americans-were-members-of-a-fitness-facility-in-2025-new-hfa-report-finds/",
+      "industry_count": 3,
+      "industry_slugs": [
+        "boxing-gyms-and-clubs",
+        "gym-and-exercise-equipment-manufacturing-in-the-us",
+        "gym-health-and-fitness-clubs-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/united-states/industry/automobile-metal-stamping/836/",
+      "industry_count": 3,
+      "industry_slugs": [
+        "automobile-interior-manufacturing-in-the-us",
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ]
+    },
+    {
+      "url": "[2026 Construction Outlook: Navigate Labor Shortages & AI Growth - Quickbase](https://www.quickbase.com/blog/whats-ahead-for-construction-in-2026-key-shifts-and-opportunities)",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ]
+    },
+    {
+      "url": "[Construction Profit Margins in 2026: Benchmarks Every Contractor Should Know - CyanBuild](https://cyanbuild.com/resources/construction-profit-margins)",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ]
+    },
+    {
+      "url": "[FY 2026 Notice of Funding Opportunity - US Department of Transportation](https://www.transportation.gov/sites/dot.gov/files/2025-12/FY_2026_BUILD_NOFO_Final.pdf)",
+      "industry_count": 2,
+      "industry_slugs": [
+        "drywall-and-insulation-installers-in-the-us",
+        "excavation-contractors-in-the-us"
+      ]
+    },
+    {
+      "url": "https://accuristech.com/blog/ai-data-center-electronic-component-supply/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "computer-and-packaged-software-wholesaling-in-the-us",
+        "electronic-part-and-equipment-wholesaling-in-the-us"
+      ]
+    },
+    {
       "url": "https://agamerica.com/blog/the-impact-of-the-farm-labor-shortage/",
       "industry_count": 2,
       "industry_slugs": [
         "agribusiness-in-the-us",
         "agriculture-forestry-fishing-and-hunting-in-the-us"
+      ]
+    },
+    {
+      "url": "https://beautymatter.com/articles/the-202-billion-tariff-problem-facing-small-beauty-brands",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ]
+    },
+    {
+      "url": "https://beautymatter.com/articles/trumps-aluminum-tariffs-beautys-future",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ]
+    },
+    {
+      "url": "https://business.linkedin.com/learn/resources/workplace-learning-report",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
       ]
     },
     {
@@ -267,11 +2622,107 @@
       ]
     },
     {
+      "url": "https://cosmeticsbusiness.com/estee-lauder-restructuring-costs-profit-recovery-growth-plan",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ]
+    },
+    {
+      "url": "https://cosmeticsbusiness.com/update-revlon-exits-bankruptcy-after-year-long-battle-208625/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ]
+    },
+    {
+      "url": "https://fashionunited.uk/news/business/how-current-tariffs-are-impacting-garment-manufacturing-and-employment-in-bangladesh-vietnam-and-india/2026070789045.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ]
+    },
+    {
+      "url": "https://finance.yahoo.com/economy/policy/articles/more-tariffs-bring-back-us-135523173.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ]
+    },
+    {
+      "url": "https://finance.yahoo.com/news/acuity-brands-q4-earnings-2-115459725.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ]
+    },
+    {
+      "url": "https://firstlinegarage.com/how-march-2025-tariffs-are-driving-up-garage-door-prices-what-you-need-to-know/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "garage-door-installation",
+        "garage-door-manufacturing"
+      ]
+    },
+    {
+      "url": "https://foodinstitute.com/focus/labor-pains-food-industry-braces-for-leaner-staff-in-2026/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "baking-mix-and-prepared-food-production-in-the-us",
+        "food-service-contractors-in-the-us"
+      ]
+    },
+    {
       "url": "https://fruitgrowersnews.com/article/2026-fgn-labor-survey-h2a-automation/",
       "industry_count": 2,
       "industry_slugs": [
         "agribusiness-in-the-us",
         "agriculture-forestry-fishing-and-hunting-in-the-us"
+      ]
+    },
+    {
+      "url": "https://givingusa.org/giving-usa-charitable-giving-rose-to-617-20-billion-in-2025-surpassing-the-600-billion-mark-for-the-first-time/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fine-arts-schools-in-the-us",
+        "religious-organizations-in-the-us"
+      ]
+    },
+    {
+      "url": "https://group.atradius.com/knowledge-and-research/reports/industry-trends-chemicals-october-2025",
+      "industry_count": 2,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing"
+      ]
+    },
+    {
+      "url": "https://hakia.com/news/bootcamp-market-2026/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ]
+    },
+    {
+      "url": "https://hbr.org/2024/10/why-workplace-well-being-programs-dont-achieve-better-outcomes",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ]
+    },
+    {
+      "url": "https://hilcoglobal.com/perspective/the-chemicals-market-in-the-2025-tariff-environment/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "chemical-product-manufacturing-in-the-us",
+        "disinfectant-manufacturing"
       ]
     },
     {
@@ -283,11 +2734,115 @@
       ]
     },
     {
+      "url": "https://insidetelecom.com/best-5g-advanced-telecommunications-equipment-manufacturers-2025/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ]
+    },
+    {
+      "url": "https://inszoneinsurance.com/blog/commercial-insurance-2025",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ]
+    },
+    {
+      "url": "https://integratedinsight.com/integrated-insight-releases-new-survey-data-on-2025-consumer-spending-plans-for-leisure-experiences/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "go-kart-racing-tracks",
+        "golf-courses-and-country-clubs-in-the-us"
+      ]
+    },
+    {
+      "url": "https://investor.coursera.com/news/news-details/2026/Coursera-Completes-Combination-with-Udemy-to-Build-the-Worlds-Most-Comprehensive-Skills-Platform/default.aspx",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ]
+    },
+    {
+      "url": "https://investors.acuityinc.com/news-releases/news-release-details/acuity-brands-reports-fiscal-2024-fourth-quarter-and-full-year-results",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ]
+    },
+    {
+      "url": "https://investors.udemy.com/news-releases/news-release-details/coursera-combine-udemy-empower-global-workforce-skills-ai-era",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ]
+    },
+    {
+      "url": "https://medium.com/@medamineelhour/why-the-online-course-boom-is-quietly-slowing-down-in-2026-94ef0408ba28",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ]
+    },
+    {
+      "url": "https://metalstampingatlas.com/news/the-future-of-the-metal-stamping-industry-in-2026-innovations-challenges-and-opportunities",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ]
+    },
+    {
+      "url": "https://msadvisory.com/china-us-tariffs-guide/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ]
+    },
+    {
+      "url": "https://news.nationwide.com/end-of-year-construction-outlook-what-to-know-heading-into-2026/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-building-construction-in-the-us",
+        "electricians-in-the-us"
+      ]
+    },
+    {
+      "url": "https://oceanconservancy.org/newsroom/press-release/2026/04/22/us-fisheries-challenges-report/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fish-and-seafood-aquaculture-in-the-us",
+        "fishing-in-the-us"
+      ]
+    },
+    {
+      "url": "https://ourculturemag.com/2025/03/30/global-consumer-spending-on-leisure-activities-reaches-new-highs-as-post-pandemic-experiences-boom-in-2025/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "go-kart-racing-tracks",
+        "golf-courses-and-country-clubs-in-the-us"
+      ]
+    },
+    {
       "url": "https://primaryignition.com/2025/09/19/us-auto-parts-tariffs-spark-supply-chain-concerns-2/",
       "industry_count": 2,
       "industry_slugs": [
         "auto-parts-remanufacturing",
         "auto-parts-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://privejets.com/top-private-jet-travel-trends-2026-charter-memberships/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
       ]
     },
     {
@@ -299,11 +2854,139 @@
       ]
     },
     {
+      "url": "https://tradingeconomics.com/united-states/housing-starts",
+      "industry_count": 2,
+      "industry_slugs": [
+        "deck-and-patio-construction",
+        "fence-construction-in-the-us"
+      ]
+    },
+    {
+      "url": "https://tradingeconomics.com/united-states/imports/china/tools-implements-cutlery-base-metal",
+      "industry_count": 2,
+      "industry_slugs": [
+        "hand-tool-and-cutlery-manufacturing-in-the-us",
+        "hand-tool-manufacturing"
+      ]
+    },
+    {
+      "url": "https://truegradefoods.com/u-s-food-and-beverage-market-2025-inflation-review-and-2026-forecast/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ]
+    },
+    {
+      "url": "https://vantagepoint.io/blog/sf/insights/platform-consolidation-2026-saas-stack-reduction-ai",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ]
+    },
+    {
+      "url": "https://web.ambest.com/docs/default-source/events/market-segment-outlook---commercial-lines-2026.pdf",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ]
+    },
+    {
+      "url": "https://worldatwork.org/publications/workspan-daily/employers-facing-healthcare-cost-containment-challenge-for-2025",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ]
+    },
+    {
+      "url": "https://wwd.com/sourcing-journal/trade/kearney-reshoring-index-usa-domestic-apparel-manufacturing-1238945612/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.alixpartners.com/newsroom/alixpartners-2026-enterprise-software-technology-predictions-report/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ]
+    },
+    {
+      "url": "https://www.amtec.us.com/blog/manufacturing-workforce-report",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ]
+    },
+    {
       "url": "https://www.atv.com/atv/tariffs-affect-powersports-industry-44742991",
       "industry_count": 2,
       "industry_slugs": [
         "atv-golf-cart-and-snowmobile-manufacturing-in-the-us",
         "atv-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.bakingbusiness.com/articles/65487-tariff-changes-on-the-horizon-for-2026/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "baking-mix-and-prepared-food-production-in-the-us",
+        "fresh-bread-and-bakery-goods-wholesaling"
+      ]
+    },
+    {
+      "url": "https://www.barchart.com/story/news/36560964/strong-2025-underwriting-income-masks-persistent-property-casualty-insurance-pressures",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.bcg.com/publications/2025/navigating-tariffs-in-us-beauty-industry",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.bhfs.com/insight/trump-admin-adjusts-tariffs-for-derivative-products-containing-steel-aluminum-and-copper/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "concrete-reinforcing-bar-manufacturing",
+        "fabricated-structural-metal-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.bloomnation.com/join/floral-tariffs-rising-costs-in-2026-whats-next/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "florists-in-the-us",
+        "flower-and-nursery-stock-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.bls.gov/news.release/cpi.htm?lv=true",
+      "industry_count": 2,
+      "industry_slugs": [
+        "hair-salons",
+        "health-and-wellness-spas"
+      ]
+    },
+    {
+      "url": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm",
+      "industry_count": 2,
+      "industry_slugs": [
+        "hair-and-nail-salons-in-the-us",
+        "hair-salons"
       ]
     },
     {
@@ -315,6 +2998,46 @@
       ]
     },
     {
+      "url": "https://www.brewersassociation.org/association-news/a-year-of-correction-for-craft-beer-with-early-signals-of-recovery/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "breweries-in-the-us",
+        "craft-beer-production"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+      "industry_count": 2,
+      "industry_slugs": [
+        "concrete-contractors-in-the-us",
+        "faucet-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.ceres.org/resources/reports/the-2026-progress-report-climate-risk-reporting-in-the-insurance-sector",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.channelfutures.com/channel-business/distribution-watch-ingram-micro-tech-data-arrow-electronics",
+      "industry_count": 2,
+      "industry_slugs": [
+        "computer-and-packaged-software-wholesaling-in-the-us",
+        "electronic-part-and-equipment-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.clspectrum.com/issues/2026/january-february/contact-lenses-2025/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "contact-lens-manufacturing",
+        "glasses-and-contact-lens-manufacturing-in-the-us"
+      ]
+    },
+    {
       "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
       "industry_count": 2,
       "industry_slugs": [
@@ -323,11 +3046,131 @@
       ]
     },
     {
+      "url": "https://www.cnbc.com/2025/04/12/trump-exempts-phones-computers-chips-tariffs-apple-dell.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.cnbc.com/2026/01/07/mortgage-demand-drops-nearly-10percent-to-end-2025.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "conveyancing-services-in-the-us",
+        "estate-lawyers-and-attorneys"
+      ]
+    },
+    {
+      "url": "https://www.cnn.com/2025/11/28/economy/us-tariffs-italian-pasta",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ]
+    },
+    {
+      "url": "https://www.coursereport.com/blog/2025-year-in-review-coding-bootcamp-news",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ]
+    },
+    {
+      "url": "https://www.cspdailynews.com/company-news/c-store-foodservice-merchandise-sales-surpass-340b-2025",
+      "industry_count": 2,
+      "industry_slugs": [
+        "convenience-stores-in-the-us",
+        "gas-stations-with-convenience-stores-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.cstoredive.com/news/8-trends-2026-convenience-retailing-c-store/807748/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "gas-stations-in-the-us",
+        "gas-stations-with-convenience-stores-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.dir.ca.gov/dlse/Fast-Food-Minimum-Wage.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fast-food-chicken-franchises",
+        "fast-food-restaurants-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.energy.gov/articles/doe-announces-efficiency-rules-save-americans-more-650-million-annual-energy-and-water-bills",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-dishwasher-manufacturing",
+        "dishwasher-manufacturing"
+      ]
+    },
+    {
       "url": "https://www.epa.gov/smm/us-recycling-infrastructure-assessment-and-state-data-collection-reports",
       "industry_count": 2,
       "industry_slugs": [
         "recyclable-material-wholesaling-in-the-us",
         "recycling-facilities-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.equipmentworld.com/market-pulse/article/15816534/data-center-construction-boom-to-grow-in-2026",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-building-construction-in-the-us",
+        "construction-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/united-states/5g-smart-factory",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.fao.org/giews/food-prices/price-warnings/detail/en/c/1754781/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ]
+    },
+    {
+      "url": "https://www.fao.org/giews/food-prices/price-warnings/detail/en/c/1757090/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ]
+    },
+    {
+      "url": "https://www.fb.org/market-intel/farm-bankruptcies-continued-to-climb-in-2025",
+      "industry_count": 2,
+      "industry_slugs": [
+        "dairy-product-production-in-the-us",
+        "farm-lawn-and-garden-equipment-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/fda-food-code/food-code-2022",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fast-food-chicken-franchises",
+        "fast-food-restaurants-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2024/04/24/2024-08212/energy-conservation-program-energy-conservation-standards-for-dishwashers",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-dishwasher-manufacturing",
+        "dishwasher-manufacturing"
       ]
     },
     {
@@ -347,11 +3190,115 @@
       ]
     },
     {
+      "url": "https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economics-united-states",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fish-and-seafood-aquaculture-in-the-us",
+        "fishing-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.fixr.com/articles/construction-industry-labor-report",
+      "industry_count": 2,
+      "industry_slugs": [
+        "bridge-and-structure-painting-contractors",
+        "construction-project-management-services"
+      ]
+    },
+    {
+      "url": "https://www.forbes.com/sites/douggollan/2026/08/02/netjets-curtails-jet-card-sales-and-competitors-see-opportunities/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ]
+    },
+    {
+      "url": "https://www.forbes.com/sites/kenroberts/2026/03/31/after-two-decades-china-no-longer-dominates-us-cell-phone-imports/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.fortunebusinessinsights.com/air-charter-service-market-108388",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ]
+    },
+    {
+      "url": "https://www.fortunebusinessinsights.com/industry-reports/contract-research-organization-cro-services-market-100864",
+      "industry_count": 2,
+      "industry_slugs": [
+        "contract-pharmaceutical-research-services",
+        "contract-research-organizations"
+      ]
+    },
+    {
       "url": "https://www.forvismazars.us/forsights/2025/04/tariff-implications-on-auto-parts-manufacturers",
       "industry_count": 2,
       "industry_slugs": [
         "auto-parts-remanufacturing",
         "auto-parts-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/rules/franchise-rule",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fast-food-chicken-franchises",
+        "fast-food-restaurants-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.gao.gov/products/gao-26-108687",
+      "industry_count": 2,
+      "industry_slugs": [
+        "battery-recycling",
+        "electronic-goods-recycling"
+      ]
+    },
+    {
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ]
+    },
+    {
+      "url": "https://www.getmonetizely.com/blogs/the-2026-guide-to-saas-ai-and-agentic-pricing-models",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ]
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/02/03/3230783/0/en/Private-Jet-Charter-Services-Industry-Report-2026-A-25-Billion-Market-by-2031",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ]
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332337/28124/en/contract-research-organization-cro-services-market-insights-report-2026-industry-set-to-reach-usd-140-32-billion-by-2031-as-advanced-therapies-and-precision-medicine-accelerate-out.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "contract-pharmaceutical-research-services",
+        "contract-research-organizations"
+      ]
+    },
+    {
+      "url": "https://www.gminsights.com/industry-analysis/us-dialysis-services-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "dialysis-centers",
+        "dialysis-equipment-manufacturing"
       ]
     },
     {
@@ -363,6 +3310,86 @@
       ]
     },
     {
+      "url": "https://www.grandviewresearch.com/industry-analysis/business-intelligence-software-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ]
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/contact-lenses-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "contact-lens-manufacturing",
+        "glasses-and-contact-lens-manufacturing-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/cyber-security-training-market-report",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ]
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/forklift-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "forklift-and-conveyor-manufacturing-in-the-us",
+        "forklift-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-communication-equipment-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-greeting-cards-market-report",
+      "industry_count": 2,
+      "industry_slugs": [
+        "gift-shops-and-card-stores-in-the-us",
+        "greeting-cards-and-other-publishing-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.healio.com/news/optometry/20250423/optical-products-from-china-now-tariffed-as-high-as-178",
+      "industry_count": 2,
+      "industry_slugs": [
+        "contact-lens-manufacturing",
+        "eyeglasses-and-contact-lens-stores-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.healthandfitnessbusiness.org/feb2026/research",
+      "industry_count": 2,
+      "industry_slugs": [
+        "boxing-gyms-and-clubs",
+        "gym-health-and-fitness-clubs-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.housingwire.com/articles/title-insurance-premium-volume-jumped-nearly-14-in-2025/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "conveyancing-services-in-the-us",
+        "estate-lawyers-and-attorneys"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/industry-statistics/market-size/cookie-cracker-pasta-production-united-states/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ]
+    },
+    {
       "url": "https://www.ibisworld.com/united-states/industry/auto-parts-wholesaling/914/",
       "industry_count": 2,
       "industry_slugs": [
@@ -371,11 +3398,131 @@
       ]
     },
     {
-      "url": "https://www.ibisworld.com/united-states/industry/automobile-metal-stamping/836/",
+      "url": "https://www.ibisworld.com/united-states/industry/communications-equipment-manufacturing/746/",
       "industry_count": 2,
       "industry_slugs": [
-        "automobile-interior-manufacturing-in-the-us",
-        "automobile-metal-stamping-in-the-us"
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/united-states/industry/cosmetic-beauty-product-manufacturing/499/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/united-states/industry/cut-sew-apparel-manufacturing/2035/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/united-states/industry/florists/1096/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "florists-in-the-us",
+        "flower-and-nursery-stock-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/united-states/market-size/business-analytics-enterprise-software-publishing/1989/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/united-states/market-size/cosmetic-beauty-products-manufacturing/499/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/united-states/market-size/gas-stations/1063/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "gas-stations-in-the-us",
+        "gas-stations-with-convenience-stores-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.ibisworld.com/united-states/market-size/general-freight-trucking-truckload/6146/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "general-freight-trucking-less-than-truckload",
+        "general-freight-trucking-truckload"
+      ]
+    },
+    {
+      "url": "https://www.imarcgroup.com/it-training-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ]
+    },
+    {
+      "url": "https://www.informationweek.com/it-leadership/the-growing-it-skills-gap-a-looming-crisis-for-2025",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-certification-and-it-schools-in-the-us",
+        "driving-schools"
+      ]
+    },
+    {
+      "url": "https://www.insidenova.com/travel-by-private-jet-hit-an-all-time-record-in-2025",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ]
+    },
+    {
+      "url": "https://www.insurancebusinessmag.com/us/news/excess-surplus/property-softens-liability-hardens-what-eands-midyear-data-means-for-brokers-585004.aspx",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-insurance",
+        "finance-and-insurance-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.kixie.com/sales-blog/crm-statistics-and-market-insights-for-2025/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ]
+    },
+    {
+      "url": "https://www.mainepublic.org/2026-04-02/skyrocketing-fuel-prices-squeeze-rhode-island-fishermen",
+      "industry_count": 2,
+      "industry_slugs": [
+        "fish-and-seafood-aquaculture-in-the-us",
+        "fishing-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.marketdataforecast.com/market-reports/united-states-rebar-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "concrete-reinforcing-bar-manufacturing",
+        "fabricated-structural-metal-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.marketresearchfuture.com/reports/dishwasher-market-20667",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-dishwasher-manufacturing",
+        "dishwasher-manufacturing"
       ]
     },
     {
@@ -387,11 +3534,83 @@
       ]
     },
     {
+      "url": "https://www.marketsandmarkets.com/Market-Reports/contract-research-organization-service-market-167410116.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "contract-pharmaceutical-research-services",
+        "contract-research-organizations"
+      ]
+    },
+    {
+      "url": "https://www.measurable.energy/blog/2026-energy-trends-for-buildings-efficiency-data-control",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.mordorintelligence.com/industry-reports/united-states-commercial-dishwasher-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-dishwasher-manufacturing",
+        "dishwasher-manufacturing"
+      ]
+    },
+    {
       "url": "https://www.mordorintelligence.com/industry-reports/us-aftermarket-automotive-parts-and-components-market",
       "industry_count": 2,
       "industry_slugs": [
         "auto-parts-remanufacturing",
         "auto-parts-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.mordorintelligence.com/industry-reports/us-forklift-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "forklift-and-conveyor-manufacturing-in-the-us",
+        "forklift-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.nahb.org/news-and-economics/press-releases/2026/02/multifamily-market-expected-to-cool-in-2026-as-vacancies-rise",
+      "industry_count": 2,
+      "industry_slugs": [
+        "apartment-and-condominium-construction-in-the-us",
+        "commercial-washing-machine-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.newsweek.com/these-pastas-could-vanish-from-us-shelves-trump-tariffs-11025427",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ]
+    },
+    {
+      "url": "https://www.newway-apparel.com/blog/china-apparel-tariffs-2026-what-small-brands-actually-pay-2026.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.polarismarketresearch.com/industry-analysis/steel-rebar-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "concrete-reinforcing-bar-manufacturing",
+        "fabricated-structural-metal-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/fnf-reports-first-quarter-2026-financial-results-302764544.html",
+      "industry_count": 2,
+      "industry_slugs": [
+        "conveyancing-services-in-the-us",
+        "estate-lawyers-and-attorneys"
       ]
     },
     {
@@ -403,11 +3622,115 @@
       ]
     },
     {
+      "url": "https://www.researchandmarkets.com/report/united-states-telecommunications-equipment-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "communication-equipment-manufacturing-in-the-us",
+        "fiber-optic-cable-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.researchandmarkets.com/reports/4591796/enterprise-application-integration-market",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ]
+    },
+    {
+      "url": "https://www.researchandmarkets.com/reports/5781335/cookie-cracker-pasta-tortilla-market-report",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ]
+    },
+    {
+      "url": "https://www.retaildive.com/news/estee-lauder-layoffs-restructuring-plan/706558/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cosmetic-and-beauty-products-manufacturing-in-the-us",
+        "essential-oil-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.riotimesonline.com/nearshoring-mexico-2026-guide/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.saasmag.com/saas-consolidation-ma-wave-2026/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "business-analytics-and-enterprise-software-publishing-in-the-us",
+        "electronic-medical-records-systems"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1331875/000133187526000026/fnf-20251231.htm",
+      "industry_count": 2,
+      "industry_slugs": [
+        "conveyancing-services-in-the-us",
+        "estate-lawyers-and-attorneys"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1333822/000119312526303979/leds-ars-2026.pdf",
+      "industry_count": 2,
+      "industry_slugs": [
+        "building-lighting-control-system-manufacturing",
+        "electronic-article-surveillance-product-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.statista.com/statistics/274255/market-share-of-the-leading-retailers-in-us-e-commerce/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "consumer-electronics-stores-in-the-us",
+        "e-commerce-and-online-auctions-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.steelorbis.com/steel-news/latest-news/isa-reports-us-rebar-market-recovery-accelerating-in-q2-2026-1451268.htm",
+      "industry_count": 2,
+      "industry_slugs": [
+        "concrete-reinforcing-bar-manufacturing",
+        "fabricated-structural-metal-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.supplychaindive.com/news/trump-tariffs-china-steel-aluminum-review/760394/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "automobile-metal-stamping-in-the-us",
+        "door-lock-and-lockset-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.supplychaindive.com/news/us-tariff-policies-domestic-sourcing-usfia-fashion-benchmarking-study-2025/801837/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
+      ]
+    },
+    {
       "url": "https://www.talenttraction.org/automotive-parts-manufacturing-workforce-trends/",
       "industry_count": 2,
       "industry_slugs": [
         "automobile-interior-manufacturing-in-the-us",
         "automobile-metal-stamping-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.tariffstool.com/guides/tariff-on-clothing-imports-2026",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cut-and-sew-manufacturers-in-the-us",
+        "fashion-designers-in-the-us"
       ]
     },
     {
@@ -417,176 +3740,256 @@
         "airport-shuttle-operators",
         "airport-terminal-construction"
       ]
+    },
+    {
+      "url": "https://www.thebusinessresearchcompany.com/report/cookie-cracker-pasta-and-tortilla-global-market-report",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ]
+    },
+    {
+      "url": "https://www.thebusinessresearchcompany.com/report/private-jet-charter-services-global-market-report",
+      "industry_count": 2,
+      "industry_slugs": [
+        "charter-flights-in-the-us",
+        "fishing-boat-charter"
+      ]
+    },
+    {
+      "url": "https://www.thefarnsworthgroup.com/blog/diy-trends-home-improvement",
+      "industry_count": 2,
+      "industry_slugs": [
+        "farm-supply-stores",
+        "hardware-stores-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.thisoldhouse.com/home-finances/outdoor-living-trends",
+      "industry_count": 2,
+      "industry_slugs": [
+        "deck-and-patio-construction",
+        "fence-construction-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.upside.com/business/retailer-blog/convenience-store-trends",
+      "industry_count": 2,
+      "industry_slugs": [
+        "convenience-stores-in-the-us",
+        "gas-stations-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.verifiedmarketresearch.com/product/ai-gpu-market/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "computer-and-packaged-software-wholesaling-in-the-us",
+        "electronic-part-and-equipment-wholesaling-in-the-us"
+      ]
+    },
+    {
+      "url": "https://www.verifiedmarketresearch.com/product/united-states-commercial-dishwasher-market/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-dishwasher-manufacturing",
+        "dishwasher-manufacturing"
+      ]
+    },
+    {
+      "url": "https://www.wcnc.com/article/news/nation-world/tariffs-on-italian-made-pasta/507-7b601195-7f89-4490-9f3f-2de33e337f37",
+      "industry_count": 2,
+      "industry_slugs": [
+        "cookie-cracker-and-pasta-production-in-the-us",
+        "dry-pasta-production"
+      ]
+    },
+    {
+      "url": "https://www.wtwco.com/en-us/news/2024/09/healthcare-costs-at-a-post-pandemic-high-us-employers-prioritize-affordability-and-wellbeing",
+      "industry_count": 2,
+      "industry_slugs": [
+        "corporate-wellness-services",
+        "employee-assistance-program-services"
+      ]
+    },
+    {
+      "url": "https://www.yardimatrix.com/blog/us-office-market-outlook/",
+      "industry_count": 2,
+      "industry_slugs": [
+        "commercial-property-remodeling",
+        "construction-in-the-us"
+      ]
     }
   ],
   "top_publishers_by_claim_link": [
     [
       "source inventory",
-      1047
+      1282
     ],
     [
       "IBISWorld",
-      41
+      286
     ],
     [
       "www.ibisworld.com",
-      37
+      113
     ],
     [
       "Grand View Research",
-      25
+      85
     ],
     [
       "Research and Markets",
-      17
-    ],
-    [
-      "US Census Bureau",
-      12
-    ],
-    [
-      "Fortune Business Insights",
-      11
-    ],
-    [
-      "U.S. Energy Information Administration",
-      11
+      53
     ],
     [
       "Mordor Intelligence",
-      11
+      36
     ],
     [
-      "Federal Reserve Bank of St. Louis",
-      10
+      "IBIS Industries",
+      34
+    ],
+    [
+      "Fortune Business Insights",
+      29
+    ],
+    [
+      "IBIS Industries research file",
+      28
     ],
     [
       "www.mordorintelligence.com",
-      9
-    ],
-    [
-      "IBISWorld local baseline",
-      9
-    ],
-    [
-      "Market Research Future",
-      8
-    ],
-    [
-      "Packaging Dive",
-      8
-    ],
-    [
-      "www.congress.gov",
-      8
-    ],
-    [
-      "www.fortunebusinessinsights.com",
-      7
-    ],
-    [
-      "www.brewersassociation.org",
-      7
-    ],
-    [
-      "www.imarcgroup.com",
-      7
-    ],
-    [
-      "IBIS Industries research corpus",
-      6
+      27
     ],
     [
       "GlobeNewswire",
-      6
+      25
+    ],
+    [
+      "Federal Reserve Bank of St. Louis",
+      25
+    ],
+    [
+      "Market Research Future",
+      21
+    ],
+    [
+      "Verified Market Reports",
+      21
+    ],
+    [
+      "U.S. Food and Drug Administration",
+      19
+    ],
+    [
+      "U.S. Energy Information Administration",
+      18
+    ],
+    [
+      "The Business Research Company",
+      18
+    ],
+    [
+      "www.grandviewresearch.com",
+      18
+    ],
+    [
+      "USDA Economic Research Service",
+      18
+    ],
+    [
+      "U.S. Census Bureau",
+      16
     ]
   ],
   "top_source_hosts_by_claim_link": [
     [
       "www.ibisworld.com",
-      188
+      520
     ],
     [
       "www.grandviewresearch.com",
-      73
+      157
     ],
     [
       "www.mordorintelligence.com",
-      69
+      119
     ],
     [
       "www.researchandmarkets.com",
-      50
-    ],
-    [
-      "www.fortunebusinessinsights.com",
-      39
+      107
     ],
     [
       "www.sec.gov",
-      38
+      76
     ],
     [
       "www.globenewswire.com",
-      32
+      66
+    ],
+    [
+      "www.fortunebusinessinsights.com",
+      62
     ],
     [
       "www.marketresearchfuture.com",
-      29
+      47
     ],
     [
       "www.imarcgroup.com",
-      25
+      45
     ],
     [
       "fred.stlouisfed.org",
-      23
-    ],
-    [
-      "www.gminsights.com",
-      17
-    ],
-    [
-      "www.thebusinessresearchcompany.com",
-      16
-    ],
-    [
-      "www.congress.gov",
-      15
+      42
     ],
     [
       "www.verifiedmarketreports.com",
-      15
+      39
+    ],
+    [
+      "www.thebusinessresearchcompany.com",
+      33
     ],
     [
       "www.prnewswire.com",
-      13
+      33
     ],
     [
-      "www.epa.gov",
-      12
+      "www.gminsights.com",
+      27
+    ],
+    [
+      "www.eia.gov",
+      26
     ],
     [
       "www.bls.gov",
-      12
+      24
+    ],
+    [
+      "www.fda.gov",
+      24
     ],
     [
       "www.census.gov",
-      12
+      22
     ],
     [
-      "www.globalgrowthinsights.com",
-      12
+      "www.coherentmarketinsights.com",
+      21
     ],
     [
-      "www.futuremarketinsights.com",
-      11
+      "finance.yahoo.com",
+      21
     ]
   ],
   "missing_metadata": {
-    "missing_url": 16,
+    "missing_url": 45,
     "missing_publisher": 0,
-    "missing_published_at": 1447,
+    "missing_published_at": 2931,
     "missing_source_type": 0
   },
   "independence_status": "partial_dependency_review",
@@ -600,5 +4003,5 @@
     "Separate primary observations from secondary summaries before counting corroboration.",
     "Add dated independent outcome measures for selected matched and non-matching industries."
   ],
-  "boundary": "This artifact audits source reuse inside the 200-industry matched sample. It does not establish independent corroboration, causal validity, rights clearance, or trend qualification."
+  "boundary": "This artifact audits source reuse inside the 500-industry matched sample. It does not establish independent corroboration, causal validity, rights clearance, or trend qualification."
 }
