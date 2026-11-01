@@ -99,6 +99,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/food-insecurity-independent-comparison.json",
     "analysis/external-trend-intelligence/mobility-access-independent-comparison.json",
     "analysis/external-trend-intelligence/mobility-access-rights-review.json",
+    "analysis/external-trend-intelligence/mobility-access-temporal-holdout.json",
     "analysis/external-trend-intelligence/food-insecurity-rights-review.json",
     "analysis/external-trend-intelligence/food-security-decision-brief.json",
     "analysis/external-trend-intelligence/financial-room-rights-review.json",

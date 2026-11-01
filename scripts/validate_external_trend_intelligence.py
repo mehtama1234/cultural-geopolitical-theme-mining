@@ -723,6 +723,11 @@ def main() -> int:
     assert mobility_rights["source_count"] == 2
     assert all(row["rights_status"] and row["terms_urls"] and row["next_action"] for row in mobility_rights["rows"])
     assert "do_not_redistribute" in mobility_rights["release_decision"]
+    mobility_holdout = json.loads((ANALYSIS / "mobility-access-temporal-holdout.json").read_text())
+    assert mobility_holdout["schema"] == "external-trend-intelligence.mobility-access-temporal-holdout.v1"
+    assert mobility_holdout["status"] == "descriptive_single_family_holdout"
+    assert len(mobility_holdout["measures"]) == 2
+    assert mobility_holdout["uncertainty"] and mobility_holdout["falsifier"]
     forecast_plan = json.loads((ANALYSIS / "forecast-outcome-acquisition-plan.json").read_text())
     assert forecast_plan["schema"] == "external-trend-intelligence.forecast-outcome-acquisition-plan.v1"
     assert forecast_plan["status"] == "protocol_ready_outcomes_pending"

@@ -743,6 +743,9 @@
       fetch('uncertainty-coverage-audit.json').then(r => r.json()).then(audit => {
         el('independent-comparison').append(card('Uncertainty coverage', audit.status, `${audit.complete_source_level_count}/${audit.artifact_count} artifacts have source-level uncertainty; ${audit.incomplete_or_pending_count} remain incomplete or pending. ${audit.next_action}`));
       });
+      fetch('mobility-access-temporal-holdout.json').then(r => r.json()).then(holdout => {
+        el('independent-comparison').append(card('Mobility ACS temporal holdout', holdout.status, `${holdout.measures.map(item => `${item.measure}: ${item.change_percentage_points} pp`).join(' · ')}. ${holdout.uncertainty} ${holdout.next_action}`));
+      });
       fetch('candidate-lineage-dependency-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => {
           const groups = row.dependency_groups.map(group => `${group.group_id}: ${group.classification}`).join(' · ') || 'no explicit dependency group recorded';
