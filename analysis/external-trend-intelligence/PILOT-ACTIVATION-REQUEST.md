@@ -56,3 +56,7 @@ Until all six steps are signed, the pilot status must remain
 The authoritative machine-readable contract remains
 `pilot-contract-intake.json`; the validation rules remain in
 `PILOT-VALIDATION-PROTOCOL.md` and `internal-bridge-schema.json`.
+
+The activation queue records a first-30-day action, evidence required before
+data access, and a fail-closed stop rule for each pilot. Completing the design
+template does not authorize an internal join or populate company fields.

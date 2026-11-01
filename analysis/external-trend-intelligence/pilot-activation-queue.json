@@ -49,6 +49,16 @@
         "analysis is preregistered with falsifier and stop rule"
       ],
       "company_data_accessed": false,
+      "first_30_day_action": "Complete the external-gate and rights review for this candidate, then fill only the named decision-owner and business-unit fields; do not provide internal data yet.",
+      "required_evidence_before_data_access": [
+        "candidate-qualification-matrix.json",
+        "rights-review-queue.json",
+        "pilot-contract-intake.json",
+        "PILOT-VALIDATION-PROTOCOL.md",
+        "signed privacy/lawful-access decision",
+        "preregistered analysis with falsifier and stop rule"
+      ],
+      "stop_rule": "Stop before internal access if any external qualification, rights, privacy, denominator, crosswalk, or preregistration check is incomplete.",
       "next_action": "Complete the next unmet prerequisite in order; do not connect internal data while any earlier gate is blocked."
     },
     {
@@ -93,6 +103,16 @@
         "analysis is preregistered with falsifier and stop rule"
       ],
       "company_data_accessed": false,
+      "first_30_day_action": "Complete the external-gate and rights review for this candidate, then fill only the named decision-owner and business-unit fields; do not provide internal data yet.",
+      "required_evidence_before_data_access": [
+        "candidate-qualification-matrix.json",
+        "rights-review-queue.json",
+        "pilot-contract-intake.json",
+        "PILOT-VALIDATION-PROTOCOL.md",
+        "signed privacy/lawful-access decision",
+        "preregistered analysis with falsifier and stop rule"
+      ],
+      "stop_rule": "Stop before internal access if any external qualification, rights, privacy, denominator, crosswalk, or preregistration check is incomplete.",
       "next_action": "Complete the next unmet prerequisite in order; do not connect internal data while any earlier gate is blocked."
     },
     {
@@ -138,6 +158,16 @@
         "analysis is preregistered with falsifier and stop rule"
       ],
       "company_data_accessed": false,
+      "first_30_day_action": "Complete the external-gate and rights review for this candidate, then fill only the named decision-owner and business-unit fields; do not provide internal data yet.",
+      "required_evidence_before_data_access": [
+        "candidate-qualification-matrix.json",
+        "rights-review-queue.json",
+        "pilot-contract-intake.json",
+        "PILOT-VALIDATION-PROTOCOL.md",
+        "signed privacy/lawful-access decision",
+        "preregistered analysis with falsifier and stop rule"
+      ],
+      "stop_rule": "Stop before internal access if any external qualification, rights, privacy, denominator, crosswalk, or preregistration check is incomplete.",
       "next_action": "Complete the next unmet prerequisite in order; do not connect internal data while any earlier gate is blocked."
     }
   ],
