@@ -63,6 +63,7 @@ STEPS = [
     ["scripts/test_refresh_stale_gate.py"],
     ["scripts/test_rights_release_gate.py"],
     ["scripts/test_internal_bridge_gate.py"],
+    ["scripts/test_external_only_boundary.py"],
     ["scripts/test_external_refresh_workflow.py"],
     ["scripts/build_refresh_history.py"],
     ["scripts/build_program_scorecard.py"],
