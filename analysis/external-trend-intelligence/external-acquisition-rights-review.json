@@ -56,7 +56,21 @@
       "derived_use_status": "internal_review_only_until_permission_or_licensed_derived_use_confirmed",
       "retention_scope": "retain citation, URL, retrieval date, and normalized metadata; do not redistribute report text, figures, or raw material without written permission",
       "next_action": "Confirm whether a derived internal comparison is permitted under the report's written-republication notice and record attribution requirements."
+    },
+    {
+      "acquisition_id": "ora-ords-v03-mobile-aggregate-202607",
+      "publisher": "Open Repair Alliance",
+      "source_url": "https://openrepair.org/wp-content/uploads/2026/10/OpenRepairData_v0.3_aggregate_202607.zip",
+      "terms_evidence_urls": ["https://openrepair.org/open-data/downloads/", "https://creativecommons.org/licenses/by-sa/4.0/"],
+      "official_policy_observation": "The official download page identifies the Open Repair Data Standard v0.3 aggregate release and states a CC BY-SA 4.0 license. Attribution and share-alike obligations must travel with derived summaries; the archive checksum and transformation notes remain part of the evidence chain.",
+      "access_basis": "official publisher download archive",
+      "upstream_identity": "Open Repair Data Standard v0.3 aggregate EEE file, filtered to ORDS product_category=Mobile",
+      "publisher_dependence": "single_publisher_for_community_repair_series",
+      "rights_evidence_status": "license_identified_exact_archive_review_open",
+      "derived_use_status": "derived_aggregate_display_appears_permitted_with_attribution_share_alike_subject_to_exact_archive_review",
+      "retention_scope": "retain archive URL, retrieval date, SHA-256, filtered field definition, attribution, and share-alike notice; do not imply that the license makes the sample representative or policy-valid",
+      "next_action": "Preserve the CC BY-SA attribution/share-alike notice in every frontend export and confirm whether any contributor-specific material or raw-row redistribution condition applies before external redistribution."
     }
   ],
-  "boundary": "This register records rights evidence and review tasks for four official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
+  "boundary": "This register records rights evidence and review tasks for five official acquisitions. It is not legal advice, permission, fair-use analysis, or a license grant."
 }

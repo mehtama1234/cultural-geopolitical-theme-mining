@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "ec0855b9b425834760ffa7336e6ba6ca788202aa",
+  "source_tree_commit": "00a21fba4eb5f9aa891d699ae61a4a64602e0b71",
   "artifact_count": 124,
   "artifacts": [
     {
@@ -516,8 +516,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/external-acquisition-rights-review.json",
-      "bytes": 6424,
-      "sha256": "bff94f4a61d2873b0924b362951aad54cf6a751cd68d6afa6b5e8a5bbcbbfb58"
+      "bytes": 8033,
+      "sha256": "3af9ef4a0e8779bebff27f468e73e926424a554be0bad911979f27a1517432c7"
     },
     {
       "path": "analysis/external-trend-intelligence/external-family-comparisons.json",
