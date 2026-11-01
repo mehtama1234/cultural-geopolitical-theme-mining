@@ -55,6 +55,12 @@ def main() -> int:
     assert host_queue["unassigned_count"] >= host_queue["high_priority_count"] >= 0
     assert len(host_queue["rows"]) <= host_queue["row_limit"]
     assert host_queue["boundary"] and host_queue["next_action"]
+    open_gates = json.loads((ANALYSIS / "open-gate-register.json").read_text())
+    assert open_gates["schema"] == "external-trend-intelligence.open-gate-register.v1"
+    assert open_gates["gate_count"] == len(open_gates["gates"])
+    assert open_gates["critical_gate_count"] >= 0
+    assert open_gates["total_open_work_items"] == sum(gate["open_count"] for gate in open_gates["gates"])
+    assert open_gates["boundary"] and open_gates["next_action"]
     ids = {record["trend_id"] for record in manifest["records"]}
     assert len(ids) == manifest["record_count"]
     for record in manifest["records"]:

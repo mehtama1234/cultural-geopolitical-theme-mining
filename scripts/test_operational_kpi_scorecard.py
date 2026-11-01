@@ -28,6 +28,7 @@ def main() -> int:
     record_quality = load("record-quality-audit.json")
     remediation = load("record-quality-remediation-queue.json")
     host_queue = load("host-dependence-review-queue.json")
+    open_gates = load("open-gate-register.json")
     dry_run = load("pilot-design-dry-run.json")
     intake = load("pilot-contract-intake.json")
     m = kpi["metrics"]
@@ -56,6 +57,9 @@ def main() -> int:
     assert m["record_quality_gap_count"] == remediation["record_count_with_gaps"]
     assert m["host_dependence_reviews_unassigned"] == host_queue["unassigned_count"]
     assert m["host_dependence_reviews_high_priority"] == host_queue["high_priority_count"]
+    assert m["open_gate_count"] == open_gates["gate_count"]
+    assert m["critical_open_gate_count"] == open_gates["critical_gate_count"]
+    assert m["open_gate_work_item_count"] == open_gates["total_open_work_items"]
     print("operational KPI scorecard: reconciled")
     return 0
 
