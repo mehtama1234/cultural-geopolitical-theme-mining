@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ANALYSIS = ROOT / "analysis" / "external-trend-intelligence"
 OUTPUT = ANALYSIS / "ibis-dock-defense-outcome-review.json"
+EXECUTION = ANALYSIS / "usaspending-bath-iron-works-execution-snapshot.json"
 URLS = {
     "maintenance_budget": "https://www.secnav.navy.mil/fmc/fmb/Documents/26pres/OMN_Book.pdf",
     "ship_production_schedule": "https://www.secnav.navy.mil/fmc/fmb/Documents/26pres/SCN_Book.pdf",
@@ -33,15 +34,22 @@ def main() -> int:
     for name, url in URLS.items():
         status, digest = retrieve(url)
         availability[name] = {"url": url, "status": status, "sha256": digest}
+    execution = json.loads(EXECUTION.read_text()) if EXECUTION.exists() else None
     payload = {
         "schema": "external-trend-intelligence.ibis-dock-defense-outcome-review.v1",
         "review_id": "ibis-independence::dry-docks-and-cargo-inspection-services-in-the-us::dock-defense",
         "industry_slug": "dry-docks-and-cargo-inspection-services-in-the-us",
         "claim_id": "dock-defense",
-        "review_status": "official_context_acquired_scope_review_pending",
+        "review_status": "official_execution_snapshot_acquired_lineage_review_pending" if execution else "official_context_acquired_scope_review_pending",
         "publisher": "U.S. Department of the Navy",
         "retrieved_at": checked_at,
         "source_artifacts": availability,
+        "execution_snapshot": {
+            "artifact": "usaspending-bath-iron-works-execution-snapshot.json",
+            "status": execution["status"] if execution else "not_yet_built",
+            "transaction_count": execution["summary"]["transaction_count"] if execution else 0,
+            "normalized_rows_sha256": execution["normalized_rows_sha256"] if execution else "pending",
+        },
         "observations": [
             {"period": "FY2026", "measure": "ship_maintenance_program_change", "value": 1900000000, "unit": "US dollars increase over PB2025 request", "geography": "United States Navy", "uncertainty": "Budget request context; not realized obligation or completed maintenance output."},
             {"period": "FY2026", "measure": "ship_maintenance_requirement_funded", "value": 97, "unit": "percent of total requirement", "geography": "United States Navy", "uncertainty": "Budget request percentage; not an outcome of delivery, utilization, or contractor revenue."},
@@ -54,7 +62,7 @@ def main() -> int:
         "counter_signal": "Budgeted workload can be delayed, reprogrammed, or executed by different facilities; planned availabilities do not establish realized demand or capacity utilization.",
         "falsifier": "Subsequent execution records show no corresponding awards, availabilities, or maintenance workload, or the budget context is not comparable to the IBIS claim's unit and period.",
         "release_decision": "retain_normalized_official_context_only",
-        "next_action": "Use NAVY-EXECUTION-DATA-REQUEST.md to acquire an official execution or award series with compatible period, geography, and outcome definition before treating this as independent confirmation or promoting the IBIS claim.",
+        "next_action": "Reconcile the USAspending execution snapshot against the Navy budget context and complete award, facility, fiscal-year, and rights review before treating this as independent confirmation or promoting the IBIS claim.",
         "boundary": "This artifact is a bounded official context acquisition. It does not validate the IBIS finding, establish causal defense demand, clear rights, or authorize an internal company bridge.",
     }
     OUTPUT.write_text(json.dumps(payload, indent=2) + "\n")

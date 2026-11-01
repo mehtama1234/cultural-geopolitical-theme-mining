@@ -3,9 +3,9 @@
   "review_id": "ibis-independence::dry-docks-and-cargo-inspection-services-in-the-us::dock-defense",
   "industry_slug": "dry-docks-and-cargo-inspection-services-in-the-us",
   "claim_id": "dock-defense",
-  "review_status": "official_context_acquired_scope_review_pending",
+  "review_status": "official_execution_snapshot_acquired_lineage_review_pending",
   "publisher": "U.S. Department of the Navy",
-  "retrieved_at": "2026-11-01T06:38:02.690119+00:00",
+  "retrieved_at": "2026-11-01T06:39:21.500288+00:00",
   "source_artifacts": {
     "maintenance_budget": {
       "url": "https://www.secnav.navy.mil/fmc/fmb/Documents/26pres/OMN_Book.pdf",
@@ -17,6 +17,12 @@
       "status": "official_source_check_failed:URLError",
       "sha256": "not_available"
     }
+  },
+  "execution_snapshot": {
+    "artifact": "usaspending-bath-iron-works-execution-snapshot.json",
+    "status": "official_execution_snapshot_lineage_review_pending",
+    "transaction_count": 658,
+    "normalized_rows_sha256": "sha256:579f4373570740a57594b08381501ec90ef401071759963c829451965c76aa40"
   },
   "observations": [
     {
@@ -58,6 +64,6 @@
   "counter_signal": "Budgeted workload can be delayed, reprogrammed, or executed by different facilities; planned availabilities do not establish realized demand or capacity utilization.",
   "falsifier": "Subsequent execution records show no corresponding awards, availabilities, or maintenance workload, or the budget context is not comparable to the IBIS claim's unit and period.",
   "release_decision": "retain_normalized_official_context_only",
-  "next_action": "Use NAVY-EXECUTION-DATA-REQUEST.md to acquire an official execution or award series with compatible period, geography, and outcome definition before treating this as independent confirmation or promoting the IBIS claim.",
+  "next_action": "Reconcile the USAspending execution snapshot against the Navy budget context and complete award, facility, fiscal-year, and rights review before treating this as independent confirmation or promoting the IBIS claim.",
   "boundary": "This artifact is a bounded official context acquisition. It does not validate the IBIS finding, establish causal defense demand, clear rights, or authorize an internal company bridge."
 }

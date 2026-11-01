@@ -379,10 +379,16 @@ def main() -> int:
     dock_outcome = json.loads((ANALYSIS / "ibis-dock-defense-outcome-review.json").read_text())
     assert dock_outcome["schema"] == "external-trend-intelligence.ibis-dock-defense-outcome-review.v1"
     assert dock_outcome["review_id"].endswith("dry-docks-and-cargo-inspection-services-in-the-us::dock-defense")
-    assert dock_outcome["review_status"] == "official_context_acquired_scope_review_pending"
+    assert dock_outcome["review_status"] == "official_execution_snapshot_acquired_lineage_review_pending"
     assert len(dock_outcome["observations"]) == 4
     assert dock_outcome["release_decision"] == "retain_normalized_official_context_only"
     assert dock_outcome["rights_boundary"] and dock_outcome["next_action"]
+    navy_execution = json.loads((ANALYSIS / "usaspending-bath-iron-works-execution-snapshot.json").read_text())
+    assert navy_execution["schema"] == "external-trend-intelligence.usaspending-bath-iron-works-execution-snapshot.v1"
+    assert navy_execution["status"] == "official_execution_snapshot_lineage_review_pending"
+    assert navy_execution["summary"]["transaction_count"] > 0
+    assert navy_execution["normalized_rows_sha256"].startswith("sha256:")
+    assert navy_execution["rights_boundary"] and navy_execution["counter_signal"]
     navy_request = (ANALYSIS / "NAVY-EXECUTION-DATA-REQUEST.md").read_text()
     assert "USAspending.gov" in navy_request
     assert "Required review fields" in navy_request

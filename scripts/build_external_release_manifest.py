@@ -122,6 +122,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/feeding-america-rights-review.json",
     "analysis/external-trend-intelligence/ibis-community-food-outcome-linkage-review.json",
     "analysis/external-trend-intelligence/ibis-dock-defense-outcome-review.json",
+    "analysis/external-trend-intelligence/usaspending-bath-iron-works-execution-snapshot.json",
     "analysis/external-trend-intelligence/NAVY-EXECUTION-DATA-REQUEST.md",
     "analysis/external-trend-intelligence/ibis-community-food-comparison.json",
     "analysis/external-trend-intelligence/FEEDING-AMERICA-DATA-REQUEST.md",

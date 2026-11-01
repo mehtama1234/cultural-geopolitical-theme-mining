@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "dd94c267bbabdc1ea3bc30bfc0b1df6f70c10017",
-  "artifact_count": 166,
+  "source_tree_commit": "17b692b01a7a4ac051084a9333c7e0274534ed7a",
+  "artifact_count": 167,
   "artifacts": [
     {
       "path": "analysis/external-trend-intelligence/TWO-YEAR-GOAL.md",
@@ -217,7 +217,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "fe70a17bccd676952b28692ede66462945b713b9fe1f7736f8e257fd9efc4ed2"
+      "sha256": "5361867eaf76f283d068f70af2f4347df3396ef9070701ce2d980b2ee856bec7"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -541,8 +541,13 @@
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-dock-defense-outcome-review.json",
-      "bytes": 3729,
-      "sha256": "ec1d01033241955e3f1d9847bdd999a99d2c6a7e28621def2ad555bfdd2b3e05"
+      "bytes": 4042,
+      "sha256": "2ba9471e8728b506aed3971df9a5d2d0385e9bc239feb64a16bf84dad6de0c95"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/usaspending-bath-iron-works-execution-snapshot.json",
+      "bytes": 796133,
+      "sha256": "5df617373b7a9c31a42077658dbbb0d967cd776e1ab0ae397a4508aca8b1dd42"
     },
     {
       "path": "analysis/external-trend-intelligence/NAVY-EXECUTION-DATA-REQUEST.md",
