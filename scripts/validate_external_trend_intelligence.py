@@ -717,6 +717,12 @@ def main() -> int:
     assert backtest_readiness["candidate_count"] == len(backtest_readiness["rows"]) == qualification_matrix["candidate_count"]
     assert backtest_readiness["ready_for_design_review_count"] == sum(row["status"] == "records_available_comparability_review" for row in backtest_readiness["rows"])
     assert backtest_readiness["blocked_missing_local_record_count"] == 0
+    backtest_request = (ANALYSIS / "BACKTEST-DESIGN-REVIEW-REQUEST.md").read_text()
+    assert "Required review fields" in backtest_request
+    for row in backtest_readiness["rows"]:
+        assert f"`{row['candidate_id']}`" in backtest_request
+    for field in ("construction period", "holdout period", "uncertainty", "falsifier", "second reviewer"):
+        assert field in backtest_request.lower()
     snapshot = json.loads((ANALYSIS / "backtest-source-snapshot.json").read_text())
     assert snapshot["schema"] == "external-trend-intelligence.backtest-source-snapshot.v1"
     assert snapshot["record_count"] == 31

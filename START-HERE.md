@@ -51,6 +51,9 @@ The [independence adjudication request](analysis/external-trend-intelligence/IND
 is the human handoff for resolving the five candidate-level publisher and
 upstream-dependence reviews before any candidate is counted as independently
 confirmed.
+The [backtest design review request](analysis/external-trend-intelligence/BACKTEST-DESIGN-REVIEW-REQUEST.md)
+is the human handoff for selecting compatible construction and holdout periods,
+units, outcomes, uncertainty, and falsifiers before any score is computed.
 The [held candidate comparisons](analysis/external-trend-intelligence/external-family-comparisons.json)
 show what is being tested without treating thematic similarity as a company join.
 The [lineage review](analysis/external-trend-intelligence/external-family-lineage-review.json)
