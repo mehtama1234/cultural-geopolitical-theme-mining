@@ -137,6 +137,7 @@ STEPS = [
     ["scripts/build_open_gate_history.py"],
     ["scripts/build_refresh_continuity_audit.py"],
     ["scripts/build_continuity_coverage_plan.py"],
+    ["scripts/build_continuity_review_packet.py"],
     ["scripts/build_program_scorecard.py"],
     ["scripts/build_review_calendar.py"],
     ["scripts/test_review_calendar.py"],

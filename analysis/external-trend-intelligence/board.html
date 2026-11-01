@@ -977,6 +977,9 @@
       fetch('continuity-coverage-plan.json').then(r => r.json()).then(plan => {
         refreshCards.prepend(card('Two-year weekly coverage plan', `${plan.observed_distinct_week_count}/${plan.required_week_count} weeks`, `${plan.remaining_week_count} weekly windows remain · ${plan.passed_run_count} passed runs observed · ${plan.next_action}`));
       });
+      fetch('continuity-review-packet.json').then(r => r.json()).then(packet => {
+        refreshCards.prepend(card('Weekly continuity review packet', packet.status, `${packet.observed_week_count}/${packet.required_week_count} slots observed · ${packet.remaining_week_count} remain blank until actual runs occur. ${packet.next_action}`));
+      });
       const lineageWarnings = el('lineage-warnings');
       lineageWarnings.append(card('Publisher dependence', `${publisherDependence.shared_host_count} shared hosts · ${publisherDependence.independence_status}`, `${publisherDependence.unique_host_count} hosts across ${Object.keys(publisherDependence.source_maps).length} normalized maps. Shared hosts are warnings, not independent confirmation. See publisher-dependence-summary.json.`));
       fetch('candidate-independence-adjudication-queue.json').then(r => r.json()).then(queue => {

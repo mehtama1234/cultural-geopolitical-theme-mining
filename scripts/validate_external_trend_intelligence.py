@@ -1105,6 +1105,15 @@ def main() -> int:
     assert continuity_plan["observed_distinct_week_count"] == len(continuity_plan["observed_weeks"])
     assert continuity_plan["remaining_week_count"] == max(continuity_plan["required_week_count"] - continuity_plan["observed_distinct_week_count"], 0)
     assert continuity_plan["acceptance"] and continuity_plan["boundary"] and continuity_plan["next_action"]
+    continuity_packet = json.loads((ANALYSIS / "continuity-review-packet.json").read_text())
+    assert continuity_packet["schema"] == "external-trend-intelligence.continuity-review-packet.v1"
+    assert continuity_packet["status"] == "ready_for_weekly_release_owner_review"
+    assert continuity_packet["required_week_count"] == continuity_plan["required_week_count"]
+    assert continuity_packet["observed_week_count"] == continuity_plan["observed_distinct_week_count"]
+    assert continuity_packet["remaining_week_count"] == continuity_plan["remaining_week_count"]
+    assert len(continuity_packet["rows"]) == continuity_plan["required_week_count"]
+    assert sum(row["status"] == "observed" for row in continuity_packet["rows"]) == continuity_packet["observed_week_count"]
+    assert all(row["status"] == "unobserved" for row in continuity_packet["rows"] if row["status"] != "observed")
     room_comparison = json.loads((ANALYSIS / "room-independent-comparison.json").read_text())
     assert room_comparison["schema"] == "external-trend-intelligence.room-independent-comparison.v1"
     assert room_comparison["status"] == "mechanism_comparison_only"

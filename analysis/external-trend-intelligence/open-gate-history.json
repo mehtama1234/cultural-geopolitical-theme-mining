@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.open-gate-history.v1",
   "status": "append_only_gate_workload_history",
-  "snapshot_count": 51,
-  "latest_run_id": "2026-11-01T08:05:21+00:00",
+  "snapshot_count": 52,
+  "latest_run_id": "2026-11-01T08:09:23+00:00",
   "latest_total_open_work_items": 242,
   "latest_critical_gate_count": 3,
   "snapshots": [
@@ -2659,6 +2659,59 @@
     {
       "run_id": "2026-11-01T08:05:21+00:00",
       "source_tree_revision": "f60ccd347e3454155930e617d45f255ba79c0c1d",
+      "total_open_work_items": 242,
+      "critical_gate_count": 3,
+      "gates": {
+        "source_family_rights": {
+          "priority": "critical",
+          "open_count": 8,
+          "status": "assignment_required"
+        },
+        "candidate_independence_adjudication": {
+          "priority": "high",
+          "open_count": 5,
+          "status": "manual_adjudication_queue_ready"
+        },
+        "shared_host_lineage": {
+          "priority": "high",
+          "open_count": 100,
+          "status": "review_required"
+        },
+        "trend_qualification": {
+          "priority": "high",
+          "open_count": 4,
+          "status": "held_candidates_present"
+        },
+        "candidate_backtest_design": {
+          "priority": "high",
+          "open_count": 5,
+          "status": "design_review_required"
+        },
+        "forecast_realized_outcomes": {
+          "priority": "normal",
+          "open_count": 8,
+          "status": "awaiting_realized_outcome"
+        },
+        "company_pilot_readiness": {
+          "priority": "critical",
+          "open_count": 3,
+          "status": "blocked_external_first"
+        },
+        "operating_ownership": {
+          "priority": "critical",
+          "open_count": 6,
+          "status": "assignment_required"
+        },
+        "two_year_continuity": {
+          "priority": "normal",
+          "open_count": 103,
+          "status": "not_demonstrated"
+        }
+      }
+    },
+    {
+      "run_id": "2026-11-01T08:09:23+00:00",
+      "source_tree_revision": "c199b30139a9768212d8948598192ed0b347e73a",
       "total_open_work_items": 242,
       "critical_gate_count": 3,
       "gates": {
