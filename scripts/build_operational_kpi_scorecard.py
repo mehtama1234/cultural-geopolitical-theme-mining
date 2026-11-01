@@ -30,6 +30,9 @@ def main() -> int:
     ownership = load("ownership-assignment-queue.json")
     independence_queue = load("candidate-independence-adjudication-queue.json")
     continuity = load("refresh-continuity-audit.json")
+    inventory_dependence = load("record-host-dependence-audit.json")
+    record_quality = load("record-quality-audit.json")
+    remediation = load("record-quality-remediation-queue.json")
     latest = history["latest"]
     metrics = {
         "refresh_runs_recorded": history["run_count"],
@@ -54,7 +57,12 @@ def main() -> int:
         "qualified_monitor_watches": monitoring["qualified_monitor_count"],
         "prequalification_watches": monitoring["prequalification_watch_count"],
         "shared_host_count": dependence["shared_host_count"],
+        "inventory_unique_host_count": inventory_dependence["unique_host_count"],
+        "inventory_shared_host_count": inventory_dependence["shared_host_count"],
+        "inventory_shared_host_record_count": inventory_dependence["shared_host_record_count"],
         "publisher_independence_status": dependence["independence_status"],
+        "record_quality_min_coverage": min(record_quality["field_coverage"].values()),
+        "record_quality_gap_count": remediation["record_count_with_gaps"],
         "unassigned_operating_roles": ownership["unassigned_role_count"],
         "independence_adjudication_pending": independence_queue["unassigned_count"],
         "independence_adjudication_high_priority": independence_queue["high_priority_count"],
@@ -71,7 +79,8 @@ def main() -> int:
         "pilot_design_contracts": {"target": "all design-only pilots pass contract dry run", "status": metrics["pilot_design_dry_run"]},
         "pilot_intake_contracts": {"target": "every design-only pilot has a fillable pre-registration contract", "status": "pass" if metrics["pilot_contract_count"] == pilots["pilot_count"] and metrics["pilot_contract_intake_status"] == "template_only_no_company_data" else "hold"},
         "monitoring_register_coverage": {"target": "every candidate has an execution state", "status": "pass" if metrics["monitoring_watches"] == qualification["candidate_count"] else "hold"},
-        "publisher_dependence_review": {"target": "shared hosts remain visible and reviewed", "status": "pass" if metrics["shared_host_count"] >= 0 and metrics["publisher_independence_status"] != "unreviewed" else "hold"},
+        "publisher_dependence_review": {"target": "shared hosts remain visible and reviewed", "status": "pass" if metrics["inventory_shared_host_count"] >= 0 and metrics["publisher_independence_status"] != "unreviewed" else "hold"},
+        "record_metadata_completeness": {"target": "all required record metadata fields explicitly present", "status": "pass" if metrics["record_quality_gap_count"] == 0 and metrics["record_quality_min_coverage"] == 1 else "hold"},
         "named_operating_ownership": {"target": "0 unassigned primary/backup roles", "status": "pass" if metrics["unassigned_operating_roles"] == 0 else "hold"},
         "independence_adjudication": {"target": "every candidate has a disposition and reviewer", "status": "pass" if metrics["independence_adjudication_pending"] == 0 else "hold"},
         "refresh_continuity": {"target": "weekly runs observed across distinct weeks", "status": "pass" if metrics["unattended_two_year_coverage"] == "demonstrated" else "hold"},
