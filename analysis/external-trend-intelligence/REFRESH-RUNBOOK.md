@@ -29,6 +29,10 @@ The global-growth forecast comparison is a bounded example of that search:
 forecast vintages separate and schedules a forecast-versus-outcome backtest.
 It is scenario context, not a realized trend or a pooled estimate.
 
+`forecast-backtest-register.json` preserves those forecast values and creates a
+separate realized-outcome slot. A missing outcome is left as missing; the
+register never converts it to zero or overwrites the original forecast.
+
 Verify the rights gate remains fail-closed while any family is unresolved:
 
 ```text

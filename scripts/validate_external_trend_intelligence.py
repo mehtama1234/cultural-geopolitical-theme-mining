@@ -466,6 +466,12 @@ def main() -> int:
     assert forecast["source_families"] == ["OECD", "UN DESA", "World Bank"]
     assert len(forecast["forecasts"]) == 3
     assert all(item["values"] and item["spread"] >= 0 for item in forecast["forecasts"])
+    backtest_register = json.loads((ANALYSIS / "forecast-backtest-register.json").read_text())
+    assert backtest_register["schema"] == "external-trend-intelligence.forecast-backtest-register.v1"
+    assert backtest_register["row_count"] == len(backtest_register["rows"])
+    assert backtest_register["pending_count"] == backtest_register["row_count"]
+    assert all(row["status"] == "awaiting_realized_outcome" and row["observed_outcome"] is None for row in backtest_register["rows"])
+    assert all(row["acceptance_criteria"] and row["refresh_trigger"] for row in backtest_register["rows"])
     ibis_dependency = json.loads((ANALYSIS / "ibis-claim-dependency-review.json").read_text())
     assert ibis_dependency["schema"] == "external-trend-intelligence.ibis-claim-dependency-review.v1"
     assert ibis_dependency["sample_industry_count"] == ibis_sample["sample_industry_count"]

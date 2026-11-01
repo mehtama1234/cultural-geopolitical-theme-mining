@@ -267,6 +267,11 @@
       <div class="promotion-gates" id="global-growth-forecast"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Forecast backtest register</h2>
+      <p class="muted">Each forecast keeps its original value and waits for a comparable realized outcome. An empty outcome is not treated as zero or as a failed forecast.</p>
+      <div class="promotion-gates" id="forecast-backtest"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Refresh control plane</h2>
       <p class="muted">This view reports whether scheduled artifacts exist and how old the local files are. It does not prove source freshness, licensing, independence, or outcome validity.</p>
       <div class="source-families" id="refresh-status"></div>
@@ -744,6 +749,10 @@
         const entries = comparison.forecasts.flatMap(item => item.values.map(value => [`${value.source_hosts[0] || value.record_id} · ${item.measure.replaceAll('_', ' ')}`, value.value]));
         barChart(el('global-growth-forecast-chart'), entries, Math.max(...entries.map(([, value]) => value), 1));
         el('global-growth-forecast').append(card(comparison.status.replaceAll('_', ' '), comparison.status, `${comparison.supports.join(' · ')}. Blocking: ${comparison.blocking_items.join(' · ')} Next: ${comparison.next_action}`));
+      });
+      fetch('forecast-backtest-register.json').then(r => r.json()).then(register => {
+        el('forecast-backtest').append(card(`${register.pending_count} forecasts awaiting outcomes`, 'backtest_pending', register.next_action));
+        register.rows.forEach(row => el('forecast-backtest').append(card(`${row.source_host} · ${row.measure}`, row.status, `${row.forecast_period}: ${row.forecast_value} ${row.unit}. ${row.refresh_trigger}`)));
       });
       const refreshCards = el('refresh-status'); refreshStatus.families.forEach(family => refreshCards.append(refreshStatusCard(family)));
       refreshCards.prepend(card('Release blockers', releaseHealth.release_status, releaseHealth.blockers.join(' · ')));

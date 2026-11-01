@@ -1,0 +1,171 @@
+{
+  "schema": "external-trend-intelligence.forecast-backtest-register.v1",
+  "comparison_artifact": "global-growth-forecast-comparison.json",
+  "row_count": 8,
+  "pending_count": 8,
+  "completed_count": 0,
+  "rows": [
+    {
+      "backtest_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room::global_growth_2026",
+      "source_record_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room",
+      "source_host": "www.oecd.org",
+      "measure": "global_growth_2026",
+      "unit": "percent projected global growth in 2026",
+      "forecast_period": "2026-2027; global growth and energy-shock baseline",
+      "forecast_value": 2.9,
+      "observed_outcome": null,
+      "observed_outcome_period": null,
+      "forecast_error": null,
+      "status": "awaiting_realized_outcome",
+      "refresh_trigger": "first comparable official realized release after the forecast period",
+      "acceptance_criteria": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ]
+    },
+    {
+      "backtest_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock::global_growth_2026",
+      "source_record_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock",
+      "source_host": "desapublications.un.org",
+      "measure": "global_growth_2026",
+      "unit": "percent projected global growth in 2026",
+      "forecast_period": "September 2026; global growth outlook",
+      "forecast_value": 2.6,
+      "observed_outcome": null,
+      "observed_outcome_period": null,
+      "forecast_error": null,
+      "status": "awaiting_realized_outcome",
+      "refresh_trigger": "first comparable official realized release after the forecast period",
+      "acceptance_criteria": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ]
+    },
+    {
+      "backtest_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks::global_growth_2026",
+      "source_record_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks",
+      "source_host": "www.worldbank.org",
+      "measure": "global_growth_2026",
+      "unit": "percent projected global growth in 2026",
+      "forecast_period": "2025-2028; global growth and geopolitical energy shock",
+      "forecast_value": 2.5,
+      "observed_outcome": null,
+      "observed_outcome_period": null,
+      "forecast_error": null,
+      "status": "awaiting_realized_outcome",
+      "refresh_trigger": "first comparable official realized release after the forecast period",
+      "acceptance_criteria": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ]
+    },
+    {
+      "backtest_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room::global_growth_2027",
+      "source_record_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room",
+      "source_host": "www.oecd.org",
+      "measure": "global_growth_2027",
+      "unit": "percent projected global growth in 2027",
+      "forecast_period": "2026-2027; global growth and energy-shock baseline",
+      "forecast_value": 3.0,
+      "observed_outcome": null,
+      "observed_outcome_period": null,
+      "forecast_error": null,
+      "status": "awaiting_realized_outcome",
+      "refresh_trigger": "first comparable official realized release after the forecast period",
+      "acceptance_criteria": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ]
+    },
+    {
+      "backtest_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock::global_growth_2027",
+      "source_record_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock",
+      "source_host": "desapublications.un.org",
+      "measure": "global_growth_2027",
+      "unit": "percent projected global growth in 2027",
+      "forecast_period": "September 2026; global growth outlook",
+      "forecast_value": 2.9,
+      "observed_outcome": null,
+      "observed_outcome_period": null,
+      "forecast_error": null,
+      "status": "awaiting_realized_outcome",
+      "refresh_trigger": "first comparable official realized release after the forecast period",
+      "acceptance_criteria": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ]
+    },
+    {
+      "backtest_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks::global_growth_2027",
+      "source_record_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks",
+      "source_host": "www.worldbank.org",
+      "measure": "global_growth_2027",
+      "unit": "percent projected global growth in 2027",
+      "forecast_period": "2025-2028; global growth and geopolitical energy shock",
+      "forecast_value": 2.8,
+      "observed_outcome": null,
+      "observed_outcome_period": null,
+      "forecast_error": null,
+      "status": "awaiting_realized_outcome",
+      "refresh_trigger": "first comparable official realized release after the forecast period",
+      "acceptance_criteria": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ]
+    },
+    {
+      "backtest_id": "comparative-un-wesp-mid-2026-energy-inflation-supply-chain-shock::global_inflation_2026",
+      "source_record_id": "comparative-un-wesp-mid-2026-energy-inflation-supply-chain-shock",
+      "source_host": "desapublications.un.org",
+      "measure": "global_inflation_2026",
+      "unit": "percent projected global inflation in 2026",
+      "forecast_period": "2026-2027; global growth and inflation outlook after the mid-2026 energy shock",
+      "forecast_value": 3.9,
+      "observed_outcome": null,
+      "observed_outcome_period": null,
+      "forecast_error": null,
+      "status": "awaiting_realized_outcome",
+      "refresh_trigger": "first comparable official realized release after the forecast period",
+      "acceptance_criteria": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ]
+    },
+    {
+      "backtest_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks::global_inflation_2026",
+      "source_record_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks",
+      "source_host": "www.worldbank.org",
+      "measure": "global_inflation_2026",
+      "unit": "percent projected global inflation in 2026",
+      "forecast_period": "2025-2028; global growth and geopolitical energy shock",
+      "forecast_value": 4.0,
+      "observed_outcome": null,
+      "observed_outcome_period": null,
+      "forecast_error": null,
+      "status": "awaiting_realized_outcome",
+      "refresh_trigger": "first comparable official realized release after the forecast period",
+      "acceptance_criteria": [
+        "same measure definition and geography recorded",
+        "realized outcome period and revision/vintage recorded",
+        "uncertainty or interval treatment recorded for forecast and outcome",
+        "forecast error retained without overwriting the original forecast"
+      ]
+    }
+  ],
+  "next_action": "At each comparable official release, append the realized outcome and uncertainty, calculate error, and retain forecast revisions as separate vintages.",
+  "boundary": "This register defines a future backtest; it is not evidence that any forecast was accurate and does not authorize company exposure."
+}
