@@ -886,6 +886,19 @@ def main() -> int:
     assert ora_rights["publisher"] == "Open Repair Alliance"
     assert "CC BY-SA" in ora_rights["official_policy_observation"]
     assert ora_rights["source_url"].endswith("OpenRepairData_v0.3_aggregate_202607.zip")
+    census_rights = {
+        row["acquisition_id"]: row
+        for row in acquisition_rights["rows"]
+        if row["acquisition_id"] in {"census-cbp-electronic-repair-2019-2023", "census-nes-electronic-repair-2019-2024"}
+    }
+    assert set(census_rights) == {"census-cbp-electronic-repair-2019-2023", "census-nes-electronic-repair-2019-2024"}
+    assert all(
+        "https://www.census.gov/data/developers/about/terms-of-service.html" in row["terms_evidence_urls"]
+        and "https://www.census.gov/about/policies/citation.html" in row["terms_evidence_urls"]
+        and row["rights_evidence_status"] == "official_terms_identified_exact_artifact_review_open"
+        and "exact" in row["next_action"]
+        for row in census_rights.values()
+    )
     financial_rights = json.loads((ANALYSIS / "financial-room-rights-review.json").read_text())
     assert financial_rights["schema"] == "external-trend-intelligence.financial-room-rights-review.v1"
     assert financial_rights["candidate_id"] == "candidate-time-financial-pressure-practical-room"
