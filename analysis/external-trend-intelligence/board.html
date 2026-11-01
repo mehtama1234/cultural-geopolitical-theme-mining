@@ -647,6 +647,10 @@
       fetch('external-acquisition-rights-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => el('rights-evidence').append(card(`Acquisition · ${row.publisher}`, row.rights_evidence_status, `${row.upstream_identity} · ${row.next_action}`)));
       });
+      fetch('financial-room-rights-review.json').then(r => r.json()).then(review => {
+        el('rights-evidence').append(card('Financial-room candidate rights', review.release_decision, `${review.source_count} source-specific reviews · ${review.boundary}`));
+        review.rows.forEach(row => el('rights-evidence').append(card(`Financial room · ${row.publisher}`, row.rights_status, `${row.observed_boundary} Next: ${row.next_action}`)));
+      });
       fetch('goal-completion-audit.json').then(r => r.json()).then(audit => {
         el('goal-audit').append(card(audit.overall_status, audit.release_status, audit.next_action));
         audit.requirements.forEach(item => el('goal-audit').append(card(item.id.replaceAll('_', ' '), item.status, `${item.gap} Evidence: ${item.evidence.join(', ')}`)));

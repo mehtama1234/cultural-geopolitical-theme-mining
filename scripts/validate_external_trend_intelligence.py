@@ -618,6 +618,12 @@ def main() -> int:
     assert acquisition_rights["schema"] == "external-trend-intelligence.external-acquisition-rights-review.v1"
     assert len(acquisition_rights["rows"]) == 4
     assert all(row["rights_evidence_status"] in {"official_policy_identified_exact_artifact_review_open", "restrictive_republication_notice_review_open"} for row in acquisition_rights["rows"])
+    financial_rights = json.loads((ANALYSIS / "financial-room-rights-review.json").read_text())
+    assert financial_rights["schema"] == "external-trend-intelligence.financial-room-rights-review.v1"
+    assert financial_rights["candidate_id"] == "candidate-time-financial-pressure-practical-room"
+    assert financial_rights["source_count"] == len(financial_rights["rows"]) >= 7
+    assert all(row["publisher"] and row["terms_urls"] and row["rights_status"] and row["next_action"] for row in financial_rights["rows"])
+    assert "do_not_redistribute" in financial_rights["release_decision"]
     assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}

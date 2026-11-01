@@ -27,6 +27,7 @@ ARTIFACTS = [
     "successor-run-evidence.json",
     "operational-kpi-scorecard.json",
     "review-calendar.json",
+    "financial-room-rights-review.json",
     "trend-monitoring-status.json",
     "falsification-review-queue.json",
 ]
@@ -61,6 +62,7 @@ def main() -> int:
                             "operational-kpi-scorecard.json",
                             "24-month review calendar",
                             "review-calendar.json",
+                            "financial-room-rights-review.json",
                             "Monitoring execution status",
                             "trend-monitoring-status.json",
                             "Falsification review queue",
