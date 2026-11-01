@@ -702,7 +702,7 @@ def main() -> int:
     acquired_sources = json.loads((ANALYSIS / "acquired-source-register.json").read_text())
     assert acquired_sources["schema"] == "external-trend-intelligence.acquired-source-register.v1"
     assert acquired_sources["status"] == "acquired_sources_registered_with_lineage_and_boundaries"
-    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 7
+    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 8
     community_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "usda-community-food-assistance-2024-ap126")
     assert community_source["artifact"] == "usda-community-food-assistance-2024.json"
     assert community_source["checksum"].startswith("sha256:")
@@ -715,7 +715,11 @@ def main() -> int:
         assert source["rights_boundary"] and source["next_review"]
     release_watchlist = json.loads((ANALYSIS / "source-release-watchlist.json").read_text())
     assert release_watchlist["schema"] == "external-trend-intelligence.source-release-watchlist.v1"
-    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 7
+    assert release_watchlist["source_count"] == len(release_watchlist["rows"]) == 8
+    navy_source = next(row for row in acquired_sources["sources"] if row["source_id"] == "us-navy-fy2026-ship-maintenance-context")
+    assert navy_source["artifact"] == "ibis-dock-defense-outcome-review.json"
+    navy_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "us-navy-fy2026-ship-maintenance-context")
+    assert navy_watch["next_target_period"] == "FY2027 Navy budget and execution release"
     community_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "usda-community-food-assistance-2024-ap126")
     assert community_watch["next_target_period"] == "2025 annual CPS Food Security Supplement"
     feeding_watch = next(row for row in release_watchlist["rows"] if row["source_id"] == "feeding-america-map-meal-gap-2026-national")

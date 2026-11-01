@@ -28,6 +28,7 @@ def main() -> int:
     shed = load("federal-reserve-shed-financial-room-2013-2025.json")
     community = load("usda-community-food-assistance-2024.json")
     feeding_america = load("feeding-america-map-meal-gap-2026-national.json")
+    dock_defense = load("ibis-dock-defense-outcome-review.json")
 
     cbp_latest = max(row["year"] for row in cbp["source"]["retrievals"])
     nes_latest = max(row["year"] for row in nes["source"]["retrievals"])
@@ -104,6 +105,16 @@ def main() -> int:
             "cadence_or_trigger": "annual Feeding America model and public-map release",
             "status": feeding_america["availability_check"]["availability"],
             "acquisition_action": feeding_america["next_action"],
+        },
+        {
+            "source_id": "us-navy-fy2026-ship-maintenance-context",
+            "publisher": dock_defense["publisher"],
+            "artifact": "ibis-dock-defense-outcome-review.json",
+            "latest_observation_period": "FY2026",
+            "next_target_period": "FY2027 Navy budget and execution release",
+            "cadence_or_trigger": "annual Navy budget release and execution/award update",
+            "status": dock_defense["review_status"],
+            "acquisition_action": dock_defense["next_action"],
         },
     ]
     payload = {

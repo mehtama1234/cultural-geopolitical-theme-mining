@@ -23,6 +23,7 @@ def main() -> int:
     shed = load("federal-reserve-shed-financial-room-2013-2025.json")
     community = load("usda-community-food-assistance-2024.json")
     feeding_america = load("feeding-america-map-meal-gap-2026-national.json")
+    dock_defense = load("ibis-dock-defense-outcome-review.json")
     rows = [
         {
             "source_id": ora["acquisition_id"],
@@ -149,6 +150,24 @@ def main() -> int:
             "interpretation_status": "independent_publisher_challenge_method_review_pending",
             "rights_boundary": feeding_america["rights_boundary"],
             "next_review": feeding_america["next_action"],
+        },
+        {
+            "source_id": "us-navy-fy2026-ship-maintenance-context",
+            "publisher": dock_defense["publisher"],
+            "dataset": "FY2026 Navy ship-maintenance budget and ship-production schedule context",
+            "artifact": "ibis-dock-defense-outcome-review.json",
+            "source_url": dock_defense["source_artifacts"]["maintenance_budget"]["url"],
+            "retrieved_at": dock_defense["retrieved_at"],
+            "revision_or_release": "FY2026 President's Budget; maintenance and ship-production context",
+            "checksum": dock_defense["source_artifacts"]["maintenance_budget"]["sha256"],
+            "license_or_terms": dock_defense["rights_boundary"],
+            "access_status": dock_defense["review_status"],
+            "population_and_unit": "US Navy planned maintenance funding, requirement coverage, and availability counts",
+            "geography_and_period": "United States Navy; FY2026 budget context",
+            "publisher_dependence": "single_publisher_official_budget_context",
+            "interpretation_status": dock_defense["independence_status"],
+            "rights_boundary": dock_defense["rights_boundary"],
+            "next_review": dock_defense["next_action"],
         },
     ]
     payload = {

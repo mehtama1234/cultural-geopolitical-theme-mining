@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.acquired-source-register.v1",
   "status": "acquired_sources_registered_with_lineage_and_boundaries",
-  "source_count": 7,
+  "source_count": 8,
   "required_fields": [
     "source_id",
     "publisher",
@@ -146,6 +146,24 @@
       "interpretation_status": "independent_publisher_challenge_method_review_pending",
       "rights_boundary": "The public page is observable and citable; the underlying county dataset is request-gated. Do not redistribute bulk data or create company-facing derived charts until exact dataset terms and permission are recorded.",
       "next_review": "Use as an independent publisher challenge and acquire the request-gated underlying data or technical appendix before any pooled estimate or IBIS promotion."
+    },
+    {
+      "source_id": "us-navy-fy2026-ship-maintenance-context",
+      "publisher": "U.S. Department of the Navy",
+      "dataset": "FY2026 Navy ship-maintenance budget and ship-production schedule context",
+      "artifact": "ibis-dock-defense-outcome-review.json",
+      "source_url": "https://www.secnav.navy.mil/fmc/fmb/Documents/26pres/OMN_Book.pdf",
+      "retrieved_at": "2026-11-01T06:35:13.672822+00:00",
+      "revision_or_release": "FY2026 President's Budget; maintenance and ship-production context",
+      "checksum": "not_available",
+      "license_or_terms": "Retain normalized observations, source URLs, retrieval time, hashes, and attribution. Do not redistribute the source PDFs or imply that metadata retention clears downstream commercial reuse without exact-artifact review.",
+      "access_status": "official_context_acquired_scope_review_pending",
+      "population_and_unit": "US Navy planned maintenance funding, requirement coverage, and availability counts",
+      "geography_and_period": "United States Navy; FY2026 budget context",
+      "publisher_dependence": "single_publisher_official_budget_context",
+      "interpretation_status": "publisher_distinct_official_budget_context_lineage_review_pending",
+      "rights_boundary": "Retain normalized observations, source URLs, retrieval time, hashes, and attribution. Do not redistribute the source PDFs or imply that metadata retention clears downstream commercial reuse without exact-artifact review.",
+      "next_review": "Acquire an official execution or award series with compatible period, geography, and outcome definition before treating this as independent confirmation or promoting the IBIS claim."
     }
   ],
   "boundary": "This register covers acquired artifacts only. It supplements, but does not replace, the 118-source discovery registry; it is not legal clearance, independence proof, or permission to pool unlike populations.",
