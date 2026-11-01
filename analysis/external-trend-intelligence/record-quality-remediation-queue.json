@@ -1,0 +1,1507 @@
+{
+  "schema": "external-trend-intelligence.record-quality-remediation-queue.v1",
+  "status": "remediation_required",
+  "record_count_with_gaps": 2132,
+  "missing_field_counts": {
+    "counter_signal": 2132,
+    "retrieval_hash": 1808
+  },
+  "high_priority_count": 2132,
+  "row_limit": 100,
+  "rows": [
+    {
+      "record_path": "analysis/records/au-al-hussein-reactivation-deemed-work-2025.json",
+      "trend_id": "au-al-hussein-reactivation-deemed-work-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/au-fwc-aitken-casual-dismissal-procedural-fairness-2025.json",
+      "trend_id": "au-fwc-aitken-casual-dismissal-procedural-fairness-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/au-fwc-alam-shah-injury-dismissal-reinstatement-2025.json",
+      "trend_id": "au-fwc-alam-shah-injury-dismissal-reinstatement-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/au-fwc-cartisano-backpay-no-return-2015.json",
+      "trend_id": "au-fwc-cartisano-backpay-no-return-2015",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/au-fwc-kaur-pregnancy-dismissal-reinstatement-2025.json",
+      "trend_id": "au-fwc-kaur-pregnancy-dismissal-reinstatement-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/au-fwc-khan-platform-repeat-deactivation-2026.json",
+      "trend_id": "au-fwc-khan-platform-repeat-deactivation-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/au-hotak-reactivation-continued-work-2025.json",
+      "trend_id": "au-hotak-reactivation-continued-work-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/au-kyei-merits-dismissal-2025.json",
+      "trend_id": "au-kyei-merits-dismissal-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/au-mansoor-platform-alternative-earnings-remedy-2025.json",
+      "trend_id": "au-mansoor-platform-alternative-earnings-remedy-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/au-rehman-platform-remedy-2026.json",
+      "trend_id": "au-rehman-platform-remedy-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/au-waheed-interim-payment-obligation-2026.json",
+      "trend_id": "au-waheed-interim-payment-obligation-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/bsa43-nhs-waiting-legitimacy-2026.json",
+      "trend_id": "bsa43-nhs-waiting-legitimacy-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/bsa43-welfare-deservingness-polarization-2026.json",
+      "trend_id": "bsa43-welfare-deservingness-polarization-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging.json",
+      "trend_id": "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-abs-australia-time-use-2024-disability-carer-free-time-2026.json",
+      "trend_id": "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection.json",
+      "trend_id": "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-abs-migrant-cultural-attendance-2005-06-english-country-arrival-baseline.json",
+      "trend_id": "comparative-abs-migrant-cultural-attendance-2005-06-english-country-arrival-baseline",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-abs-migrant-settlement-outcomes-2026-visa-stream-income-rent-language.json",
+      "trend_id": "comparative-abs-migrant-settlement-outcomes-2026-visa-stream-income-rent-language",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport.json",
+      "trend_id": "comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-abs-monthly-household-spending-july-2026-card-culture-volume.json",
+      "trend_id": "comparative-abs-monthly-household-spending-july-2026-card-culture-volume",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json",
+      "trend_id": "comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries.json",
+      "trend_id": "comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-acled-raleigh-report-september-2026-conflict-systems-disorder.json",
+      "trend_id": "comparative-acled-raleigh-report-september-2026-conflict-systems-disorder",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-adb-key-indicators-asia-pacific-2026-within-household-deprivation.json",
+      "trend_id": "comparative-adb-key-indicators-asia-pacific-2026-within-household-deprivation",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-africa-sustainable-development-report-2026-infrastructure-access-delivery.json",
+      "trend_id": "comparative-africa-sustainable-development-report-2026-infrastructure-access-delivery",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-africa-sustainable-development-report-2026-water-energy-cities-finance.json",
+      "trend_id": "comparative-africa-sustainable-development-report-2026-water-energy-cities-finance",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-afrobarometer-african-insights-2026-global-order-agency-trade-migration-climate.json",
+      "trend_id": "comparative-afrobarometer-african-insights-2026-global-order-agency-trade-migration-climate",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-afrobarometer-east-africa-reproductive-autonomy-sexuality-education-2026.json",
+      "trend_id": "comparative-afrobarometer-east-africa-reproductive-autonomy-sexuality-education-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion.json",
+      "trend_id": "comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-americasbarometer-pulse-democracy-2026-material-security-legitimacy.json",
+      "trend_id": "comparative-americasbarometer-pulse-democracy-2026-material-security-legitimacy",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-anupoll-financial-stress-2025.json",
+      "trend_id": "comparative-anupoll-financial-stress-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook.json",
+      "trend_id": "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-apsr-acute-financial-hardship-turnout-germany-2021.json",
+      "trend_id": "comparative-apsr-acute-financial-hardship-turnout-germany-2021",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-apsr-moving-to-opportunity-voting-2024.json",
+      "trend_id": "comparative-apsr-moving-to-opportunity-voting-2024",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-ark-ylt-northern-ireland-16-year-olds-community-social-media-politics-2026.json",
+      "trend_id": "comparative-ark-ylt-northern-ireland-16-year-olds-community-social-media-politics-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust.json",
+      "trend_id": "comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership.json",
+      "trend_id": "comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-athenalab-chile-national-identity-cohesion-2026.json",
+      "trend_id": "comparative-athenalab-chile-national-identity-cohesion-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability.json",
+      "trend_id": "comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-accc-dendy-cinema-drip-pricing-2025-booking-fee-transparency.json",
+      "trend_id": "comparative-australia-accc-dendy-cinema-drip-pricing-2025-booking-fee-transparency",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwc-adcon-liquidation-lower-paid-work-2024.json",
+      "trend_id": "comparative-australia-fwc-adcon-liquidation-lower-paid-work-2024",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwc-customer-allocation-nonreturn-remedy-2023.json",
+      "trend_id": "comparative-australia-fwc-customer-allocation-nonreturn-remedy-2023",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwc-meadley-payment-without-reinstatement-2013.json",
+      "trend_id": "comparative-australia-fwc-meadley-payment-without-reinstatement-2013",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwc-mudiyanselage-underpayment-forced-exit-2025.json",
+      "trend_id": "comparative-australia-fwc-mudiyanselage-underpayment-forced-exit-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwc-no-alternative-employment-remedy-2024.json",
+      "trend_id": "comparative-australia-fwc-no-alternative-employment-remedy-2024",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwc-site-clearance-lower-paid-alternative-2024-2025.json",
+      "trend_id": "comparative-australia-fwc-site-clearance-lower-paid-alternative-2024-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwc-westrip-dismissal-alternative-employment-remedy-2023.json",
+      "trend_id": "comparative-australia-fwc-westrip-dismissal-alternative-employment-remedy-2023",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018.json",
+      "trend_id": "comparative-australia-fwo-atkins-truck-driver-backpay-receipt-2018",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwo-innovative-associates-cashback-2026.json",
+      "trend_id": "comparative-australia-fwo-innovative-associates-cashback-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwo-longridge-underpayment-backpay-2011-2014.json",
+      "trend_id": "comparative-australia-fwo-longridge-underpayment-backpay-2011-2014",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-fwo-southern-cross-care-underpayment-reachability-2026.json",
+      "trend_id": "comparative-australia-fwo-southern-cross-care-underpayment-reachability-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-australia-intergenerational-report-2026-transitions-equity-care.json",
+      "trend_id": "comparative-australia-intergenerational-report-2026-transitions-equity-care",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-axa-mind-health-report-2026-awareness-decline-work-economic-social.json",
+      "trend_id": "comparative-axa-mind-health-report-2026-awareness-decline-work-economic-social",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-bcg-consumer-shifts-2026-value-solo-living-trust-ai.json",
+      "trend_id": "comparative-bcg-consumer-shifts-2026-value-solo-living-trust-ai",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight.json",
+      "trend_id": "comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-belgium-social-connection-postpandemic-youth-living-alone-2026.json",
+      "trend_id": "comparative-belgium-social-connection-postpandemic-youth-living-alone-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose.json",
+      "trend_id": "comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-bis-annual-economic-report-2026-ai-debt-money-trust-stability.json",
+      "trend_id": "comparative-bis-annual-economic-report-2026-ai-debt-money-trust-stability",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-bok-korea-consumer-survey-september-2026-sentiment-housing-expectations.json",
+      "trend_id": "comparative-bok-korea-consumer-survey-september-2026-sentiment-housing-expectations",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json",
+      "trend_id": "comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap.json",
+      "trend_id": "comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-brazil-ibge-cultural-indicators-2013-2024-work-formality-trade.json",
+      "trend_id": "comparative-brazil-ibge-cultural-indicators-2013-2024-work-formality-trade",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence.json",
+      "trend_id": "comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-brazil-minc-culture-habits-consumption-policy-legitimacy-2025.json",
+      "trend_id": "comparative-brazil-minc-culture-habits-consumption-policy-legitimacy-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-british-academy-youth-social-cultural-infrastructure-2025.json",
+      "trend_id": "comparative-british-academy-youth-social-cultural-infrastructure-2025",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-bti-2026-democratic-regression-resistance-governance.json",
+      "trend_id": "comparative-bti-2026-democratic-regression-resistance-governance",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-canada-ai-culture-summit-2026-creator-sovereignty-trust.json",
+      "trend_id": "comparative-canada-ai-culture-summit-2026-creator-sovereignty-trust",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-canada-arts-heritage-access-availability-2025-26-belonging-cost.json",
+      "trend_id": "comparative-canada-arts-heritage-access-availability-2025-26-belonging-cost",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-canada-express-entry-selection-occupational-mobility-2026.json",
+      "trend_id": "comparative-canada-express-entry-selection-occupational-mobility-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-canada-mhrc-poll29-2026-cost-pressure-social-connection-care-exit.json",
+      "trend_id": "comparative-canada-mhrc-poll29-2026-cost-pressure-social-connection-care-exit",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-capgemini-consumer-2026-value-ai-human-touch-fairness.json",
+      "trend_id": "comparative-capgemini-consumer-2026-value-ai-human-touch-fairness",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point.json",
+      "trend_id": "comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-catawba-yougov-election-ai-authenticity-trust-2026.json",
+      "trend_id": "comparative-catawba-yougov-election-ai-authenticity-trust-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-chile-enpccl-2024-cultural-participation-time-ses-disability.json",
+      "trend_id": "comparative-chile-enpccl-2024-cultural-participation-time-ses-disability",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-china-gallium-germanium-export-control-2023.json",
+      "trend_id": "comparative-china-gallium-germanium-export-control-2023",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-china-nbs-2025-household-consumption-culture-recreation-urban-rural.json",
+      "trend_id": "comparative-china-nbs-2025-household-consumption-culture-recreation-urban-rural",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json",
+      "trend_id": "comparative-china-nbs-august-2026-retail-cpi-category-pressure",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-china-nbs-cultural-enterprises-h1-2026-channel-creative-divergence.json",
+      "trend_id": "comparative-china-nbs-cultural-enterprises-h1-2026-channel-creative-divergence",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-china-nbs-household-consumption-education-culture-recreation-h1-2026.json",
+      "trend_id": "comparative-china-nbs-household-consumption-education-culture-recreation-h1-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-circana-eating-patterns-america-2026-food-occasions-channels.json",
+      "trend_id": "comparative-circana-eating-patterns-america-2026-food-occasions-channels",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-circle-community-trends-2026-human-connection-belonging.json",
+      "trend_id": "comparative-circle-community-trends-2026-human-connection-belonging",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-civicus-state-civil-society-2026-civic-space-resistance.json",
+      "trend_id": "comparative-civicus-state-civil-society-2026-civic-space-resistance",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-civicus-state-civil-society-2026-resistance-civic-space-geopolitics.json",
+      "trend_id": "comparative-civicus-state-civil-society-2026-resistance-civic-space-geopolitics",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-civicus-state-of-civil-society-2026-civic-space-global-governance.json",
+      "trend_id": "comparative-civicus-state-of-civil-society-2026-civic-space-global-governance",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-colombia-dane-cultural-creative-economy-2025-value-added-employment-divergence.json",
+      "trend_id": "comparative-colombia-dane-cultural-creative-economy-2025-value-added-employment-divergence",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration.json",
+      "trend_id": "comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-coresight-us-consumer-scale-value-retailer-choice-2026.json",
+      "trend_id": "comparative-coresight-us-consumer-scale-value-retailer-choice-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-council-europe-democratic-pact-2026-trust-social-rights-civic-space.json",
+      "trend_id": "comparative-council-europe-democratic-pact-2026-trust-social-rights-civic-space",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-council-europe-diaspora-democratic-engagement-social-cohesion-2026.json",
+      "trend_id": "comparative-council-europe-diaspora-democratic-engagement-social-cohesion-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-creative-australia-national-arts-participation-2025-cultural-background-cost.json",
+      "trend_id": "comparative-creative-australia-national-arts-participation-2025-cultural-background-cost",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-crisis-interdependence-social-cohesion-2026.json",
+      "trend_id": "comparative-crisis-interdependence-social-cohesion-2026",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-culturati-cultural-mosaic-2026-polycultural-identity-creators-ai.json",
+      "trend_id": "comparative-culturati-cultural-mosaic-2026-polycultural-identity-creators-ai",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-cultureamp-performance-culture-ai-2026-organizational-voice-resourcing.json",
+      "trend_id": "comparative-cultureamp-performance-culture-ai-2026-organizational-voice-resourcing",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-datareportal-digital-2026-midyear-ai-social-media-connectivity.json",
+      "trend_id": "comparative-datareportal-digital-2026-midyear-ai-social-media-connectivity",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-dco-digital-economy-trends-2026-ai-sovereignty-work-readiness.json",
+      "trend_id": "comparative-dco-digital-economy-trends-2026-ai-sovereignty-work-readiness",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social.json",
+      "trend_id": "comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-deloitte-ficci-india-consumer-trends-2026-ai-governance-commerce.json",
+      "trend_id": "comparative-deloitte-ficci-india-consumer-trends-2026-ai-governance-commerce",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-deloitte-genz-millennial-survey-2026-sequenced-ambition-ai-work.json",
+      "trend_id": "comparative-deloitte-genz-millennial-survey-2026-sequenced-ambition-ai-work",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json",
+      "trend_id": "comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    },
+    {
+      "record_path": "analysis/records/comparative-deloitte-human-capital-trends-2026-human-machine-adaptation-trust.json",
+      "trend_id": "comparative-deloitte-human-capital-trends-2026-human-machine-adaptation-trust",
+      "priority": "high",
+      "missing_fields": [
+        "counter_signal",
+        "retrieval_hash"
+      ],
+      "status": "unassigned",
+      "acceptance": {
+        "counter_signal": "Record a source-backed counter-signal or explicitly document that none was found after review.",
+        "retrieval_hash": "Pin the retrieved artifact hash and state its scope, or document why a hash is unavailable.",
+        "other_metadata": "Complete the missing field without inferring values from another source."
+      }
+    }
+  ],
+  "boundary": "This queue assigns metadata repair work only. It does not invent counter-signals, create retrieval evidence, clear rights, prove independence, or qualify a trend.",
+  "next_action": "Assign the high-priority counter-signal rows first; document an explicit null review when no counter-signal is found, then pin retrieval hashes where source custody permits."
+}

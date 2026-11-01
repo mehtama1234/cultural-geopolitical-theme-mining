@@ -36,6 +36,12 @@ def main() -> int:
     assert set(record_quality["field_counts"]) == set(record_quality["field_coverage"])
     assert all(0 <= value <= 1 for value in record_quality["field_coverage"].values())
     assert record_quality["boundary"] and record_quality["next_action"]
+    remediation = json.loads((ANALYSIS / "record-quality-remediation-queue.json").read_text())
+    assert remediation["schema"] == "external-trend-intelligence.record-quality-remediation-queue.v1"
+    assert remediation["status"] == "remediation_required"
+    assert remediation["record_count_with_gaps"] >= remediation["high_priority_count"] >= 0
+    assert len(remediation["rows"]) <= remediation["row_limit"]
+    assert remediation["boundary"] and remediation["next_action"]
     ids = {record["trend_id"] for record in manifest["records"]}
     assert len(ids) == manifest["record_count"]
     for record in manifest["records"]:

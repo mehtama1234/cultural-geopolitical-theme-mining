@@ -11,6 +11,7 @@ blockers.
 | --- | --- | --- |
 | Inventory charts | `observation-manifest.json` | record count, theme, host, source unit, geography, boundary |
 | Record quality audit | `record-quality-audit.json` | explicit coverage of lineage locator, period, unit, geography, uncertainty, counter-signal, boundary, and retrieval hash; missing metadata must remain visible |
+| Record quality remediation | `record-quality-remediation-queue.json` | prioritized records missing counter-signals or retrieval hashes, acceptance criteria, and fail-closed boundary |
 | Compatible-measure search | `compatible-measure-search.json` | scanned record count, candidate measure/unit groups, hosts, periods, review boundary |
 | Global forecast comparison | `global-growth-forecast-comparison.json` | publisher, forecast period, value, spread, vintage/uncertainty boundary, backtest next action |
 | Forecast lineage review | `forecast-lineage-review.json` | source host, publisher-distinct check, vintage/rights/uncertainty/outcome review status, boundary |
