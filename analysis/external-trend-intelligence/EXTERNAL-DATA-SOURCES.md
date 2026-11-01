@@ -26,6 +26,9 @@ These are the concrete source records already used in the release artifacts:
 - Urban Institute Well-Being and Basic Needs Survey food-insecurity series.
 - Federal Reserve SHED financial-room and emergency-expense series.
 - JPMorganChase Institute household-liquidity chart evidence.
+- ACS and NHTS mobility-access measures.
+- Census County Business Patterns and Nonemployer Statistics repair proxies.
+- CDC/NCHS NPALS public tables and Open Repair Alliance mobile-repair records.
 - ABS, HILDA/AIHW, ANUPoll, Roy Morgan, and related financial-pressure and
   time/care measures.
 - CDC capacity observations and CMS Medicaid-rate evidence in the bounded IBIS
