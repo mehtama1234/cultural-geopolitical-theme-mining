@@ -17,6 +17,7 @@ blockers.
 | Forecast outcome acquisition | `forecast-outcome-acquisition-plan.json` | target period, official release family, vintage rule, uncertainty fields, acceptance criteria, and stop rules |
 | 24-month roadmap | `two-year-roadmap.json` | phase window, current status, outcomes, acceptance criteria, evidence links, blocking requirement statuses |
 | Source family cards | `source-family-registry.json`, `source-family-controls.json`, `refresh-status.json` | role, cadence, revision, rights status, publisher dependence, lineage status, file age |
+| Acquired source register | `acquired-source-register.json` | acquired artifact, publisher, URL, revision, checksum, unit/population, geography/period, rights boundary, and next review |
 | Candidate cards | `candidate-comparisons.json`, `candidate-qualification-matrix.json` | title, mechanism, counter-signal, evidence count, gate status, blocking gates, next action |
 | Promotion queue | `promotion-queue.json` | current status, blocking gates, internal bridge readiness |
 | Backtest view | `backtest-readiness.json`, `backtest-comparability-review.json` | record availability, periods, units, geographies, outcomes, harmonization blockers |

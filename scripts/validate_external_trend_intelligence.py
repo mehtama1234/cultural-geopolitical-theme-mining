@@ -518,6 +518,15 @@ def main() -> int:
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     assert any(item["path"] == ".github/workflows/external-observatory-refresh.yml" for item in release_manifest["artifacts"])
+    acquired_sources = json.loads((ANALYSIS / "acquired-source-register.json").read_text())
+    assert acquired_sources["schema"] == "external-trend-intelligence.acquired-source-register.v1"
+    assert acquired_sources["status"] == "acquired_sources_registered_with_lineage_and_boundaries"
+    assert acquired_sources["source_count"] == len(acquired_sources["sources"]) == 5
+    required_acquired_fields = set(acquired_sources["required_fields"])
+    for source in acquired_sources["sources"]:
+        assert required_acquired_fields <= set(source)
+        assert source["artifact"] and source["source_url"] and source["checksum"]
+        assert source["rights_boundary"] and source["next_review"]
     publication_registry = json.loads((ANALYSIS / "frontend-publication-registry.json").read_text())
     assert publication_registry["schema"] == "external-trend-intelligence.frontend-publication-registry.v1"
     assert publication_registry["status"] == "reader_publications_registered_with_boundaries"
