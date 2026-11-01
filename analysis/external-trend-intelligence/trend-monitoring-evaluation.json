@@ -1,0 +1,134 @@
+{
+  "schema": "external-trend-intelligence.trend-monitoring-evaluation.v1",
+  "status": "monitoring_evaluated_no_reversal_triggered",
+  "evaluation_count": 5,
+  "reversal_trigger_count": 0,
+  "retirement_trigger_count": 0,
+  "rows": [
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "current_state": "pre_qualification_watch",
+      "evaluation_status": "not_eligible_for_reversal_decision",
+      "reversal_triggered": false,
+      "retirement_triggered": false,
+      "evidence_basis": [
+        "candidate-qualification-matrix.json",
+        "trend-monitoring-register.json",
+        "trend-monitoring-status.json"
+      ],
+      "gate_snapshot": {
+        "passed_gate_count": 2,
+        "gate_count": 8,
+        "blocking_gates": [
+          "comparability",
+          "independence",
+          "persistence",
+          "falsifier",
+          "backtest",
+          "decision_relevance"
+        ]
+      },
+      "next_review": "after the next comparable case panel is assembled",
+      "decision_boundary": "No reversal or retirement decision is made without a new comparable release, preserved definitions, and review of counter-signals and uncertainty."
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "current_state": "pre_qualification_watch",
+      "evaluation_status": "not_eligible_for_reversal_decision",
+      "reversal_triggered": false,
+      "retirement_triggered": false,
+      "evidence_basis": [
+        "candidate-qualification-matrix.json",
+        "trend-monitoring-register.json",
+        "trend-monitoring-status.json"
+      ],
+      "gate_snapshot": {
+        "passed_gate_count": 2,
+        "gate_count": 8,
+        "blocking_gates": [
+          "comparability",
+          "independence",
+          "persistence",
+          "falsifier",
+          "backtest",
+          "decision_relevance"
+        ]
+      },
+      "next_review": "after compatible denominator and participant-population reconciliation",
+      "decision_boundary": "No reversal or retirement decision is made without a new comparable release, preserved definitions, and review of counter-signals and uncertainty."
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "current_state": "pre_qualification_watch",
+      "evaluation_status": "not_eligible_for_reversal_decision",
+      "reversal_triggered": false,
+      "retirement_triggered": false,
+      "evidence_basis": [
+        "candidate-qualification-matrix.json",
+        "trend-monitoring-register.json",
+        "trend-monitoring-status.json"
+      ],
+      "gate_snapshot": {
+        "passed_gate_count": 2,
+        "gate_count": 8,
+        "blocking_gates": [
+          "comparability",
+          "independence",
+          "persistence",
+          "falsifier",
+          "backtest",
+          "decision_relevance"
+        ]
+      },
+      "next_review": "after repeated task-level measures are identified",
+      "decision_boundary": "No reversal or retirement decision is made without a new comparable release, preserved definitions, and review of counter-signals and uncertainty."
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "current_state": "pre_qualification_watch",
+      "evaluation_status": "not_eligible_for_reversal_decision",
+      "reversal_triggered": false,
+      "retirement_triggered": false,
+      "evidence_basis": [
+        "candidate-qualification-matrix.json",
+        "trend-monitoring-register.json",
+        "trend-monitoring-status.json"
+      ],
+      "gate_snapshot": {
+        "passed_gate_count": 2,
+        "gate_count": 8,
+        "blocking_gates": [
+          "comparability",
+          "independence",
+          "persistence",
+          "falsifier",
+          "backtest",
+          "decision_relevance"
+        ]
+      },
+      "next_review": "after operation-to-user-incidence evidence is linked",
+      "decision_boundary": "No reversal or retirement decision is made without a new comparable release, preserved definitions, and review of counter-signals and uncertainty."
+    },
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "current_state": "qualified_monitor",
+      "evaluation_status": "continue_watch_pending_next_comparable_release",
+      "reversal_triggered": false,
+      "retirement_triggered": false,
+      "evidence_basis": [
+        "candidate-qualification-matrix.json",
+        "trend-monitoring-register.json",
+        "trend-monitoring-status.json"
+      ],
+      "gate_snapshot": {
+        "passed_gate_count": 8,
+        "gate_count": 8,
+        "blocking_gates": []
+      },
+      "next_review": "next comparable USDA and Urban release with definitions and methodology preserved",
+      "decision_boundary": "No reversal or retirement decision is made without a new comparable release, preserved definitions, and review of counter-signals and uncertainty."
+    }
+  ],
+  "boundary": "This is a conservative control-plane evaluation. A zero trigger count means no current release has been adjudicated as a reversal; it does not prove that any trend will persist.",
+  "next_action": "At each scheduled or event-triggered review, attach the new release, compare it with the pre-specified reversal conditions, and record continue, reverse, retire, or hold explicitly."
+}

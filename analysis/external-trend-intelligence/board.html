@@ -967,6 +967,9 @@
       el('monitoring-status').append(card('Monitoring watches', 'measured', `${status.trend_count} watches · ${status.qualified_monitor_count} qualified monitor · ${status.prequalification_watch_count} pre-qualification`));
       status.rows.forEach(row => el('monitoring-status').append(card(row.candidate_id, row.execution_status, `${row.leading_indicator_count} leading indicators · ${row.reversal_condition_count} reversal conditions · next review: ${row.next_review}`)));
     });
+    fetch('trend-monitoring-evaluation.json').then(r => r.json()).then(evaluation => {
+      el('monitoring-status').append(card('Reversal / retirement evaluation', evaluation.status, `${evaluation.evaluation_count} watches evaluated · ${evaluation.reversal_trigger_count} reversals · ${evaluation.retirement_trigger_count} retirements. ${evaluation.next_action}`));
+    });
     fetch('falsification-review-queue.json').then(r => r.json()).then(queue => {
       el('falsification-queue').append(card('Challenge queue', 'measured', `${queue.candidate_count} candidates · ${queue.ready_for_monitoring_challenge_count} ready for monitoring challenge · ${queue.held_pending_decisive_evidence_count} held pending decisive evidence`));
       queue.rows.forEach(row => el('falsification-queue').append(card(row.candidate_id, row.review_state, `Falsifier: ${row.falsifier} Next test: ${row.next_decisive_test}`)));

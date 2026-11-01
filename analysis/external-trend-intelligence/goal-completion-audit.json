@@ -19,7 +19,7 @@
         "test_program_baseline_consistency.py",
         "program-scorecard.json"
       ],
-      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 118-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
+      "gap": "The weekly schedule contract, stale gate, baseline consistency, recovery path, and required-domain coverage (9/9 domains observed) are exercised and refresh runs are recorded with 119-step pass telemetry, but sustained unattended operation over the scheduled two-year cadence is not yet demonstrated."
     },
     {
       "id": "lineage_rights_units_periods_uncertainty",
@@ -77,9 +77,11 @@
       "status": "open",
       "evidence": [
         "candidate-qualification-matrix.json",
-        "trend-qualification-rubric.json"
+        "trend-qualification-rubric.json",
+        "trend-monitoring-status.json",
+        "trend-monitoring-evaluation.json"
       ],
-      "gap": "1 qualified trends; 4 candidates held."
+      "gap": "1 qualified trends; 4 candidates held. Monitoring evaluation records continue/hold state for all candidates, but no new comparable release has triggered a reversal or retirement decision."
     },
     {
       "id": "backtest_and_falsification",

@@ -655,6 +655,11 @@ def main() -> int:
     assert len(monitoring["trends"]) == qualification_matrix["candidate_count"]
     assert {item["candidate_id"] for item in monitoring["trends"]} == {row["candidate_id"] for row in qualification_matrix["rows"]}
     assert all(item["state"] in {"pre_qualification_watch", "qualified_monitor"} for item in monitoring["trends"])
+    monitoring_evaluation = json.loads((ANALYSIS / "trend-monitoring-evaluation.json").read_text())
+    assert monitoring_evaluation["schema"] == "external-trend-intelligence.trend-monitoring-evaluation.v1"
+    assert monitoring_evaluation["evaluation_count"] == qualification_matrix["candidate_count"]
+    assert monitoring_evaluation["reversal_trigger_count"] == monitoring_evaluation["retirement_trigger_count"] == 0
+    assert all(row["evidence_basis"] and row["next_review"] and row["decision_boundary"] for row in monitoring_evaluation["rows"])
     controls = json.loads((ANALYSIS / "source-family-controls.json").read_text())
     assert controls["schema"] == "external-trend-intelligence.source-family-controls.v1"
     assert controls["family_count"] == 8
