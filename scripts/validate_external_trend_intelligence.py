@@ -444,6 +444,12 @@ def main() -> int:
     assert len(successor_packet["review_tasks"]) == 3
     assert all(task["assignee"] is None and task["signoff"] is None for task in successor_packet["review_tasks"])
     assert successor_packet["acceptance_criteria"] and successor_packet["boundary"]
+    pilot_intake = json.loads((ANALYSIS / "pilot-contract-intake.json").read_text())
+    assert pilot_intake["schema"] == "external-trend-intelligence.pilot-contract-intake.v1"
+    assert pilot_intake["status"] == "template_only_no_company_data"
+    assert pilot_intake["pilot_count"] == 2
+    assert all(row["required_registration"]["internal_dataset"] is None for row in pilot_intake["pilots"])
+    assert all(row["prohibited_transitions"] and row["required_before_approved_test"] for row in pilot_intake["pilots"])
     assert ownership["role_count"] == len(ownership["roles"]) == 6
     assert ownership["unassigned_role_count"] + ownership["assigned_role_count"] == ownership["role_count"]
     assert ownership["status"] in {"assignment_required", "assigned_pending_successor_signoff"}

@@ -624,6 +624,9 @@
       const measurements = el('care-measurements'); careSubset.measures.forEach(measure => measurements.append(measurementCard(measure)));
       const queue = el('promotion-queue'); promotionQueue.candidates.forEach(candidate => queue.append(promotionCard(candidate)));
       const pilots = el('pilot-register'); const readinessByPilot = Object.fromEntries(pilotReadiness.pilots.map(item => [item.pilot_id, item])); pilotRegister.pilots.forEach(pilot => pilots.append(pilotCard(pilot, readinessByPilot[pilot.pilot_id])));
+      fetch('pilot-contract-intake.json').then(r => r.json()).then(intake => {
+        pilots.prepend(card('Pilot contract intake', intake.status, `${intake.pilot_count} fillable contracts · no company data or identity is present · ${intake.next_action}`));
+      });
       const monitoringCards = el('monitoring-register'); monitoringRegister.trends.forEach(trend => monitoringCards.append(monitoringCard(trend)));
       const stageCards = el('case-stage-panel'); stagePanel.cases.forEach(item => stageCards.append(caseStageCard(item)));
       const crossStageCards = el('cross-publisher-stage-panel');

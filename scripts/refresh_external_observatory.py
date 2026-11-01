@@ -87,6 +87,7 @@ STEPS = [
     ["scripts/build_uncertainty_coverage_audit.py"],
     ["scripts/build_refresh_schedule_health.py"],
     ["scripts/build_pilot_readiness.py"],
+    ["scripts/build_pilot_contract_intake.py"],
     ["scripts/build_release_health.py"],
     ["scripts/test_refresh_stale_gate.py"],
     ["scripts/test_rights_release_gate.py"],

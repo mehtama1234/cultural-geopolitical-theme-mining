@@ -1,0 +1,115 @@
+{
+  "schema": "external-trend-intelligence.pilot-contract-intake.v1",
+  "status": "template_only_no_company_data",
+  "pilot_count": 2,
+  "required_fields": [
+    "company_id",
+    "business_unit",
+    "decision_owner",
+    "internal_dataset",
+    "period",
+    "primary_outcome",
+    "unit",
+    "denominator",
+    "privacy_class",
+    "lawful_access_basis",
+    "analysis_owner",
+    "stop_rule"
+  ],
+  "pilots": [
+    {
+      "pilot_id": "pilot-care-time-workflow-capacity-001",
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "current_external_gate": "held",
+      "readiness_status": "blocked_external_first",
+      "decision_question": "Does a specific company workflow show measurable delay, repeat effort, absence, or retention differences consistent with an externally qualified time/care constraint pattern?",
+      "required_registration": {
+        "company_id": null,
+        "company_name": null,
+        "business_unit": null,
+        "decision_owner": null,
+        "decision_deadline": null,
+        "internal_dataset": null,
+        "snapshot_or_query": null,
+        "entity_or_aggregate_basis": null,
+        "geography": null,
+        "period": null,
+        "primary_outcome": null,
+        "secondary_outcomes": [],
+        "unit": null,
+        "denominator": null,
+        "comparison_group": null,
+        "external_to_internal_crosswalk": null,
+        "expected_unmatched_case_policy": "Report unmatched, suppressed, missing, and incompatible records separately; never drop them silently.",
+        "privacy_class": null,
+        "lawful_access_basis": null,
+        "retention_limit": null,
+        "redistribution_rule": null,
+        "analysis_owner": null,
+        "falsifier": "No measurable difference under the pre-specified comparison, a reversed direction, or a stronger explanation unrelated to the proposed time/care mechanism.",
+        "stop_rule": null
+      },
+      "required_before_approved_test": [
+        "external candidate is qualified or monitored under the matrix",
+        "source-specific rights owner approves proposed reuse",
+        "company decision owner and business unit are named",
+        "internal data contract and crosswalk are complete",
+        "privacy, lawful access, retention, and redistribution review pass",
+        "analysis is preregistered with primary outcome, comparison, falsifier, and stop rule"
+      ],
+      "prohibited_transitions": [
+        "Do not populate internal dataset fields from this template alone.",
+        "Do not change readiness_status to approved_for_test without all required checks passing.",
+        "Do not infer company exposure from the external candidate."
+      ]
+    },
+    {
+      "pilot_id": "pilot-food-security-service-room-001",
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "current_external_gate": "monitored_external_trend",
+      "readiness_status": "blocked_external_first",
+      "decision_question": "After rights and external monitoring gates are complete, does a bounded company service or support workflow show measurable differences associated with externally observed household food-security pressure?",
+      "required_registration": {
+        "company_id": null,
+        "company_name": null,
+        "business_unit": null,
+        "decision_owner": null,
+        "decision_deadline": null,
+        "internal_dataset": null,
+        "snapshot_or_query": null,
+        "entity_or_aggregate_basis": null,
+        "geography": null,
+        "period": null,
+        "primary_outcome": null,
+        "secondary_outcomes": [],
+        "unit": null,
+        "denominator": null,
+        "comparison_group": null,
+        "external_to_internal_crosswalk": null,
+        "expected_unmatched_case_policy": "Report unmatched, suppressed, missing, and incompatible records separately; never drop them silently.",
+        "privacy_class": null,
+        "lawful_access_basis": null,
+        "retention_limit": null,
+        "redistribution_rule": null,
+        "analysis_owner": null,
+        "falsifier": "No measurable difference under the pre-specified comparison, a reversed direction in the external monitor, or a stronger explanation unrelated to the proposed mechanism.",
+        "stop_rule": null
+      },
+      "required_before_approved_test": [
+        "external candidate is qualified or monitored under the matrix",
+        "source-specific rights owner approves proposed reuse",
+        "company decision owner and business unit are named",
+        "internal data contract and crosswalk are complete",
+        "privacy, lawful access, retention, and redistribution review pass",
+        "analysis is preregistered with primary outcome, comparison, falsifier, and stop rule"
+      ],
+      "prohibited_transitions": [
+        "Do not populate internal dataset fields from this template alone.",
+        "Do not change readiness_status to approved_for_test without all required checks passing.",
+        "Do not infer company exposure from the external candidate."
+      ]
+    }
+  ],
+  "boundary": "This is a fillable pre-registration contract, not an approval. It intentionally contains no company identity, internal dataset, or personal data.",
+  "next_action": "A named decision owner should complete one row only after the linked external candidate and rights gates pass."
+}
