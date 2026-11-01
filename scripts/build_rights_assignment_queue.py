@@ -31,6 +31,16 @@ def main() -> int:
                     "publisher and upstream dataset dependence assessed",
                     "permitted storage, transformation, and redistribution scope signed",
                 ],
+                "first_30_day_action": (
+                    f"Review {item['review_plan']['first_artifact']}, identify the authoritative terms source, "
+                    "and record one storage/transformation/redistribution decision or escalation."
+                ),
+                "required_evidence": [
+                    item["review_plan"]["first_artifact"],
+                    "rights-evidence-register.json",
+                    "publisher-dependence-summary.json",
+                ],
+                "stop_rule": item["stop_rule"],
                 "checkpoint": "before_external_trend_promotion_or_company_bridge",
             }
         )

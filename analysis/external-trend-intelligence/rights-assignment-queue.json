@@ -20,6 +20,13 @@
         "publisher and upstream dataset dependence assessed",
         "permitted storage, transformation, and redistribution scope signed"
       ],
+      "first_30_day_action": "Review source-registry-snapshot.json and observation-manifest.json, identify the authoritative terms source, and record one storage/transformation/redistribution decision or escalation.",
+      "required_evidence": [
+        "source-registry-snapshot.json and observation-manifest.json",
+        "rights-evidence-register.json",
+        "publisher-dependence-summary.json"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
       "checkpoint": "before_external_trend_promotion_or_company_bridge"
     },
     {
@@ -37,6 +44,13 @@
         "publisher and upstream dataset dependence assessed",
         "permitted storage, transformation, and redistribution scope signed"
       ],
+      "first_30_day_action": "Review social-publication-citation-map.json, identify the authoritative terms source, and record one storage/transformation/redistribution decision or escalation.",
+      "required_evidence": [
+        "social-publication-citation-map.json",
+        "rights-evidence-register.json",
+        "publisher-dependence-summary.json"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
       "checkpoint": "before_external_trend_promotion_or_company_bridge"
     },
     {
@@ -54,6 +68,13 @@
         "publisher and upstream dataset dependence assessed",
         "permitted storage, transformation, and redistribution scope signed"
       ],
+      "first_30_day_action": "Review trend-hunting-source-map.json, identify the authoritative terms source, and record one storage/transformation/redistribution decision or escalation.",
+      "required_evidence": [
+        "trend-hunting-source-map.json",
+        "rights-evidence-register.json",
+        "publisher-dependence-summary.json"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
       "checkpoint": "before_external_trend_promotion_or_company_bridge"
     },
     {
@@ -71,6 +92,13 @@
         "publisher and upstream dataset dependence assessed",
         "permitted storage, transformation, and redistribution scope signed"
       ],
+      "first_30_day_action": "Review annual-report-citation-map.json, identify the authoritative terms source, and record one storage/transformation/redistribution decision or escalation.",
+      "required_evidence": [
+        "annual-report-citation-map.json",
+        "rights-evidence-register.json",
+        "publisher-dependence-summary.json"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
       "checkpoint": "before_external_trend_promotion_or_company_bridge"
     },
     {
@@ -88,6 +116,13 @@
         "publisher and upstream dataset dependence assessed",
         "permitted storage, transformation, and redistribution scope signed"
       ],
+      "first_30_day_action": "Review inc5000-opportunity-source-map.json, identify the authoritative terms source, and record one storage/transformation/redistribution decision or escalation.",
+      "required_evidence": [
+        "inc5000-opportunity-source-map.json",
+        "rights-evidence-register.json",
+        "publisher-dependence-summary.json"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
       "checkpoint": "before_external_trend_promotion_or_company_bridge"
     },
     {
@@ -105,6 +140,13 @@
         "publisher and upstream dataset dependence assessed",
         "permitted storage, transformation, and redistribution scope signed"
       ],
+      "first_30_day_action": "Review ibis-force-claim-review.json and ibis-claim-dependency-review.json, identify the authoritative terms source, and record one storage/transformation/redistribution decision or escalation.",
+      "required_evidence": [
+        "ibis-force-claim-review.json and ibis-claim-dependency-review.json",
+        "rights-evidence-register.json",
+        "publisher-dependence-summary.json"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
       "checkpoint": "before_external_trend_promotion_or_company_bridge"
     },
     {
@@ -122,6 +164,13 @@
         "publisher and upstream dataset dependence assessed",
         "permitted storage, transformation, and redistribution scope signed"
       ],
+      "first_30_day_action": "Review source-family-registry.json and evidence-contract-audit.json, identify the authoritative terms source, and record one storage/transformation/redistribution decision or escalation.",
+      "required_evidence": [
+        "source-family-registry.json and evidence-contract-audit.json",
+        "rights-evidence-register.json",
+        "publisher-dependence-summary.json"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
       "checkpoint": "before_external_trend_promotion_or_company_bridge"
     },
     {
@@ -139,6 +188,13 @@
         "publisher and upstream dataset dependence assessed",
         "permitted storage, transformation, and redistribution scope signed"
       ],
+      "first_30_day_action": "Review source-family-registry.json and internal-bridge-schema.json, identify the authoritative terms source, and record one storage/transformation/redistribution decision or escalation.",
+      "required_evidence": [
+        "source-family-registry.json and internal-bridge-schema.json",
+        "rights-evidence-register.json",
+        "publisher-dependence-summary.json"
+      ],
+      "stop_rule": "Do not promote a trend or connect internal data while rights basis or publisher dependence remains unresolved.",
       "checkpoint": "before_external_trend_promotion_or_company_bridge"
     }
   ],

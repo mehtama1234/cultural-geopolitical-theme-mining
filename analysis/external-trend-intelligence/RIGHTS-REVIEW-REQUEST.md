@@ -14,14 +14,14 @@ decision.
 
 | Source family | Primary owner | Backup owner | Terms evidence | Storage / transform / redistribution decision | Effective date |
 | --- | --- | --- | --- | --- | --- |
-| cultural-geopolitical-theme-mining | __________ | __________ | __________ | __________ | __________ |
-| social-research | __________ | __________ | __________ | __________ | __________ |
-| trend-hunting | __________ | __________ | __________ | __________ | __________ |
-| annual-report-research | __________ | __________ | __________ | __________ | __________ |
-| inc5000-analysis | __________ | __________ | __________ | __________ | __________ |
-| ibis-industries | __________ | __________ | __________ | __________ | __________ |
-| research-signals | __________ | __________ | __________ | __________ | __________ |
-| organization-intelligence-system | __________ | __________ | __________ | __________ | __________ |
+| cultural-geopolitical-theme-mining | __________ | __________ | `source-registry-snapshot.json` + upstream terms | __________ | __________ |
+| social-research | __________ | __________ | `social-publication-citation-map.json` + platform/publisher terms | __________ | __________ |
+| trend-hunting | __________ | __________ | `trend-hunting-source-map.json` + synthesis-input terms | __________ | __________ |
+| annual-report-research | __________ | __________ | `annual-report-citation-map.json` + filing/report terms | __________ | __________ |
+| inc5000-analysis | __________ | __________ | `inc5000-opportunity-source-map.json` + ranking/company-page terms | __________ | __________ |
+| ibis-industries | __________ | __________ | `ibis-force-claim-review.json` + IBIS/source terms | __________ | __________ |
+| research-signals | __________ | __________ | `source-family-registry.json` + repository/upstream licenses | __________ | __________ |
+| organization-intelligence-system | __________ | __________ | `source-family-registry.json` + bridge/dependency licenses | __________ | __________ |
 
 ## Release rule
 
@@ -40,3 +40,8 @@ uncertain, retain the hold and record the next evidence request.
 
 The machine-readable queue remains `rights-assignment-queue.json`; the source
 evidence and readiness artifacts remain authoritative for current status.
+
+The queue also records a first-30-day action, required evidence, and stop rule
+for each family. A named owner is not enough to clear a family: the owner must
+attach exact terms evidence and a signed scope decision, while publisher
+dependence is adjudicated separately.
