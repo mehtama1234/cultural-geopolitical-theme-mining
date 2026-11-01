@@ -106,7 +106,7 @@ An attractive chart with missing provenance remains a candidate.
 
 ## Baseline at the start of this goal
 
-The current external layer already provides 2,134 indexed records across 14
+The current external layer already provides 2,135 indexed records across 14
 themes, eight source families, a source registry, refresh schedule, lineage
 review, evidence-gap queue, candidate comparisons, claim-level IBIS sampling,
 and a validated frontend release. The current boundary is intentionally strict:
@@ -118,7 +118,8 @@ run a few bounded decision tests.
 
 - Treat this document as the program charter and link it from the repository
   start page and release manifest.
-- Complete the first claim-to-source maps for the 100-industry IBIS sample,
+- Complete the first claim-to-source maps for the 200-industry IBIS sample
+  (with a 48-industry non-matching comparator set),
   annual-report themes, Inc. opportunities, and social atlas claims.
 - Add a repeatable refresh/checksum run and an explicit stale-source report.
 - Adopt a one-page qualification rubric covering source identity, comparability,
