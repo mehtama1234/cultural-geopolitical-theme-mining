@@ -21,6 +21,11 @@ def main() -> int:
     assert queue["unassigned_family_count"] + queue["assigned_family_count"] == queue["family_count"]
     assert all(row["acceptance_criteria"] and row["checkpoint"] for row in queue["rows"])
     assert all(row.get("review_plan") and row["review_plan"]["first_artifact"] for row in review["rows"])
+    request = (ANALYSIS / "RIGHTS-REVIEW-REQUEST.md").read_text()
+    for family_id in sorted(expected):
+        assert f"| {family_id} |" in request, family_id
+    for phrase in ["Terms evidence", "Storage / transform / redistribution decision", "Rights reviewer", "Lineage reviewer"]:
+        assert phrase in request, phrase
     print("rights assignment queue: reconciled")
     return 0
 
