@@ -12,7 +12,9 @@ OUTPUT = ANALYSIS / "food-insecurity-independent-comparison.json"
 
 
 def main() -> int:
-    urban = {2019: 24.0, 2020: 20.4, 2021: 19.9, 2022: 24.7, 2023: 27.2, 2024: 27.0, 2025: 27.7}
+    urban_release = json.loads((ANALYSIS / "urban-wbns-food-insecurity-2025.json").read_text())
+    urban_2025 = next(row["food_insecurity_percent"] for row in urban_release["rows"] if row["category"] == "working_age_adults_18_64")
+    urban = {2019: 24.0, 2020: 20.4, 2021: 19.9, 2022: 24.7, 2023: 27.2, 2024: 27.0, 2025: urban_2025}
     usda = {2022: 12.8, 2023: 13.5, 2024: 13.7}
     overlap = sorted(set(urban) & set(usda))
     rows = []
@@ -27,6 +29,7 @@ def main() -> int:
             {"publisher": "USDA Economic Research Service", "host": "www.ers.usda.gov", "population": "U.S. households", "instrument": "Current Population Survey Food Security Supplement", "measure": "food insecure at some time during the year", "periods": "2022-2024", "rights_status": "conditional_attribution_use_documented"},
         ],
         "overlap_rows": rows,
+        "source_artifacts": ["urban-wbns-food-insecurity-2025.json", "usda-temporal-holdout.json"],
         "directional_readout": {
             "urban_change_2022_to_2024_percentage_points": round(urban[2024] - urban[2022], 1),
             "usda_change_2022_to_2024_percentage_points": round(usda[2024] - usda[2022], 1),

@@ -1161,6 +1161,7 @@ def main() -> int:
     assert food_comparison["independence_review"]["publisher_distinct"] is True
     assert food_comparison["pooling_decision"] == "do_not_pool"
     assert len(food_comparison["overlap_rows"]) == 3
+    assert food_comparison["source_artifacts"] == ["urban-wbns-food-insecurity-2025.json", "usda-temporal-holdout.json"]
     assert food_comparison["source_families"][0]["measure"].endswith("prior 12 months using the six-item USDA short form")
     assert food_comparison["urban_methodology_review"]["reference_period_confirmed"] == "12 months"
     assert food_comparison["urban_methodology_review"]["sample_change"]

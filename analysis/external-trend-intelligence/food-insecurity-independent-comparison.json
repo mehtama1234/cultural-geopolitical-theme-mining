@@ -42,6 +42,10 @@
       "difference_percentage_points": 13.3
     }
   ],
+  "source_artifacts": [
+    "urban-wbns-food-insecurity-2025.json",
+    "usda-temporal-holdout.json"
+  ],
   "directional_readout": {
     "urban_change_2022_to_2024_percentage_points": 2.3,
     "usda_change_2022_to_2024_percentage_points": 0.9,
