@@ -36,6 +36,7 @@ STEPS = [
     ["scripts/build_ibis_claim_review_dispositions.py"],
     ["scripts/build_cell_phone_repair_outcome_plan.py"],
     ["scripts/build_census_repair_industry_snapshot.py"],
+    ["scripts/build_census_nonemployer_repair_snapshot.py"],
     ["scripts/build_ibis_claim_dependency_review.py"],
     ["scripts/build_ibis_adult_day_outcome_review.py"],
     ["scripts/build_npals_public_table_extract.py"],

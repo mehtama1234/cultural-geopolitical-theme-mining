@@ -88,6 +88,15 @@ movement, not a policy effect: 811211 establishments fell by 112 while
 employees rose by 296; 811213 establishments fell by 218 and employees fell
 by 8,869. These broad categories cannot be interpreted as phone-repair demand.
 
+The [Census NES snapshot](census-nonemployer-repair-snapshot.json) adds the
+small-business side for 2019–2024: one national row per year and 306 state
+rows for five-digit NAICS 81121, with checksummed downloads, receipts, and
+suppression flags. NES is more relevant to independent repair shops than CBP,
+but it still measures broad electronic/precision repair businesses rather than
+phone transactions, workers, policy exposure, or device-life outcomes. It is
+kept as context and is explicitly not pooled with CBP, policy, or global
+e-waste signals.
+
 Next test:
 
 1. Select one finding, beginning with “Compliance Is Becoming Economic

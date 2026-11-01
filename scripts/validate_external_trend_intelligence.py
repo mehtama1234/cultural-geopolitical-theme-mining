@@ -329,6 +329,15 @@ def main() -> int:
     assert len(census_repair["source"]["retrievals"]) == 10
     assert census_repair["pooling_decision"] == "do_not_pool_with_state_policy_or_global_ewaste"
     assert census_repair["interpretation_boundary"] and census_repair["uncertainty"]
+    census_nonemployer = json.loads((ANALYSIS / "census-nonemployer-repair-snapshot.json").read_text())
+    assert census_nonemployer["schema"] == "external-trend-intelligence.census-nonemployer-repair-snapshot.v1"
+    assert census_nonemployer["status"] == "descriptive_nonemployer_industry_proxy_not_phone_outcome"
+    assert census_nonemployer["coverage"]["years"] == [2019, 2020, 2021, 2022, 2023, 2024]
+    assert census_nonemployer["coverage"]["national_row_count"] == 6
+    assert census_nonemployer["coverage"]["state_row_count"] > 250
+    assert len(census_nonemployer["source"]["retrievals"]) == 12
+    assert census_nonemployer["pooling_decision"] == "do_not_pool_with_state_policy_global_ewaste_or_cbp_paid_employee_series"
+    assert census_nonemployer["interpretation_boundary"] and census_nonemployer["uncertainty"]
     ibis_force_map = json.loads((ANALYSIS / "ibis-force-claim-map.json").read_text())
     assert ibis_force_map["schema"] == "external-trend-intelligence.ibis-force-claim-map.v1"
     assert ibis_force_map["force_count"] == len(ibis_force_map["forces"]) == 6

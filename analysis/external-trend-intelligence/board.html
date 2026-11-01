@@ -841,6 +841,10 @@
         const changes = Object.values(snapshot.descriptive_readout).map(row => `${row.label}: ${row.establishment_change} establishments / ${row.employee_change} employees, ${row.first_year}→${row.last_year}`).join(' · ');
         ibisSamples.prepend(card('Census repair industry proxy', snapshot.status, `${changes}. ${snapshot.interpretation_boundary} ${snapshot.next_action}`));
       });
+      fetch('census-nonemployer-repair-snapshot.json').then(r => r.json()).then(snapshot => {
+        const d = snapshot.descriptive_readout;
+        ibisSamples.prepend(card('Census nonemployer repair proxy', snapshot.status, `${d.establishment_change} establishments and ${d.receipts_change_thousands_usd} thousand USD receipts, ${d.first_year}→${d.last_year}. ${snapshot.interpretation_boundary} ${snapshot.next_action}`));
+      });
       fetch('ibis-force-claim-review.json').then(r => r.json()).then(review => {
         review.rows.forEach(row => ibisSamples.append(card(`${row.title} · ${row.publisher_count} publishers`, row.review_status, `${row.claim_reference_count} claim references · ${row.claim_period_missing_count} missing periods · ${row.independence_status}. ${row.next_action}`)));
       });

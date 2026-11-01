@@ -1,0 +1,3238 @@
+{
+  "schema": "external-trend-intelligence.census-nonemployer-repair-snapshot.v1",
+  "acquisition_id": "census-nes-electronic-repair-2019-2024",
+  "status": "descriptive_nonemployer_industry_proxy_not_phone_outcome",
+  "retrieved_at": "2026-10-31",
+  "source": {
+    "publisher": "U.S. Census Bureau",
+    "dataset": "Nonemployer Statistics",
+    "program_url": "https://www.census.gov/programs-surveys/nonemployer-statistics.html",
+    "dataset_url": "https://www.census.gov/data/datasets/2024/econ/nonemployer-statistics/2024-ns.html",
+    "download_base": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/",
+    "retrievals": [
+      {
+        "year": 2019,
+        "geography": "us",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2019/historical-datasets/nonemp19us.zip",
+        "artifact_sha256": "sha256:32e7ffa5776ca42a5b72c91a4eac28c46e1e2427bdc06866d25c909818dea16e"
+      },
+      {
+        "year": 2019,
+        "geography": "state",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2019/historical-datasets/nonemp19st.zip",
+        "artifact_sha256": "sha256:985c665f9d1cfcde39d44f8904d6f2b9b2d4721f1cc803f37fb69fc2975d6953"
+      },
+      {
+        "year": 2020,
+        "geography": "us",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2020/historical-datasets/nonemp20us.zip",
+        "artifact_sha256": "sha256:4c3fed1117e3fb5b349ea2b708139d2e04f712ad2a8bafe795e726e2ce3de6f0"
+      },
+      {
+        "year": 2020,
+        "geography": "state",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2020/historical-datasets/nonemp20st.zip",
+        "artifact_sha256": "sha256:a5f3b190e5c56cff6210bd20b37f106d16bbaa80efd415d1aeeaf66200d1b928"
+      },
+      {
+        "year": 2021,
+        "geography": "us",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2021/historical-datasets/nonemp21us.zip",
+        "artifact_sha256": "sha256:2ebb5f7b6a1878b11c0dab0f87bd67fa03e32a33d065fa52ed8aa11a63eca865"
+      },
+      {
+        "year": 2021,
+        "geography": "state",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2021/historical-datasets/nonemp21st.zip",
+        "artifact_sha256": "sha256:dd3450f562ae7685e8f44797664fd8302a67f36daa5894b78fbdf885774921cc"
+      },
+      {
+        "year": 2022,
+        "geography": "us",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2022/historical-datasets/nonemp22us.zip",
+        "artifact_sha256": "sha256:a84ffd2de07af63971835349d09e3095305d4476bcb41eeb6363717ade35500f"
+      },
+      {
+        "year": 2022,
+        "geography": "state",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2022/historical-datasets/nonemp22st.zip",
+        "artifact_sha256": "sha256:b87b8b582de56dd36bd68c79fa7760d8c27ac71b045ffcb7c702e3bfafda1ad5"
+      },
+      {
+        "year": 2023,
+        "geography": "us",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2023/historical-datasets/nonemp23us.zip",
+        "artifact_sha256": "sha256:420e37afbf7c05f3cd399316e59f21df9022efc0fcde8c965354c920f9329576"
+      },
+      {
+        "year": 2023,
+        "geography": "state",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2023/historical-datasets/nonemp23st.zip",
+        "artifact_sha256": "sha256:2e75357e5ee8fe73ad83ba66bb6212df9e93e1b4edadda60425f7ff26c5741b7"
+      },
+      {
+        "year": 2024,
+        "geography": "us",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2024/historical-datasets/nonemp24us.zip",
+        "artifact_sha256": "sha256:57bcd22f25677e9b00cd5ecd4c58f206eb21b0f5105138a799007ac3a425969f"
+      },
+      {
+        "year": 2024,
+        "geography": "state",
+        "url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2024/historical-datasets/nonemp24st.zip",
+        "artifact_sha256": "sha256:67de9be965d4b154f92b834ca25777b1b07a0a8b5dc1f222a148b5a4890ed7e7"
+      }
+    ]
+  },
+  "coverage": {
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "national_row_count": 6,
+    "state_row_count": 306,
+    "naics": {
+      "81121": "electronic and precision equipment repair and maintenance"
+    }
+  },
+  "national": [
+    {
+      "year": 2019,
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 31177,
+      "receipts_thousands_usd": 1333360,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 29798,
+      "receipts_thousands_usd": 1282892,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 28908,
+      "receipts_thousands_usd": 1341794,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 29016,
+      "receipts_thousands_usd": 1448386,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 29040,
+      "receipts_thousands_usd": 1485498,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 30024,
+      "receipts_thousands_usd": 1528664,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    }
+  ],
+  "state": [
+    {
+      "year": 2019,
+      "state_fips": "01",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 446,
+      "receipts_thousands_usd": 16207,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "02",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 76,
+      "receipts_thousands_usd": 2619,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "04",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 683,
+      "receipts_thousands_usd": 27686,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "05",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 270,
+      "receipts_thousands_usd": 13253,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "06",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 4250,
+      "receipts_thousands_usd": 208880,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "08",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 515,
+      "receipts_thousands_usd": 19846,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "09",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 245,
+      "receipts_thousands_usd": 14663,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "10",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 70,
+      "receipts_thousands_usd": 3410,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "11",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 16,
+      "receipts_thousands_usd": 316,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "12",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3504,
+      "receipts_thousands_usd": 155460,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "13",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1351,
+      "receipts_thousands_usd": 51629,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "15",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 138,
+      "receipts_thousands_usd": 4958,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "16",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 174,
+      "receipts_thousands_usd": 6895,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "17",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 977,
+      "receipts_thousands_usd": 38719,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "18",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 478,
+      "receipts_thousands_usd": 18624,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "19",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 229,
+      "receipts_thousands_usd": 7661,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "20",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 211,
+      "receipts_thousands_usd": 10016,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "21",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 353,
+      "receipts_thousands_usd": 12522,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "22",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 472,
+      "receipts_thousands_usd": 18947,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "23",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 128,
+      "receipts_thousands_usd": 4928,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "24",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 549,
+      "receipts_thousands_usd": 22304,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "25",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 525,
+      "receipts_thousands_usd": 25671,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "26",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 847,
+      "receipts_thousands_usd": 34553,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "27",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 383,
+      "receipts_thousands_usd": 13488,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "28",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 297,
+      "receipts_thousands_usd": 9713,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "29",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 486,
+      "receipts_thousands_usd": 18749,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "30",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 109,
+      "receipts_thousands_usd": 3547,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "31",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 164,
+      "receipts_thousands_usd": 5949,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "32",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 302,
+      "receipts_thousands_usd": 13182,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "33",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 163,
+      "receipts_thousands_usd": 9119,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "34",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 742,
+      "receipts_thousands_usd": 44004,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "35",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 162,
+      "receipts_thousands_usd": 5565,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "36",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1617,
+      "receipts_thousands_usd": 72158,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "37",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 947,
+      "receipts_thousands_usd": 35233,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "38",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 65,
+      "receipts_thousands_usd": 2200,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "39",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 887,
+      "receipts_thousands_usd": 39553,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "40",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 335,
+      "receipts_thousands_usd": 15756,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "41",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 342,
+      "receipts_thousands_usd": 11767,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "42",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 901,
+      "receipts_thousands_usd": 35023,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "44",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 70,
+      "receipts_thousands_usd": 3152,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "45",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 501,
+      "receipts_thousands_usd": 18901,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "46",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 66,
+      "receipts_thousands_usd": 2230,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "47",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 726,
+      "receipts_thousands_usd": 28341,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "48",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3383,
+      "receipts_thousands_usd": 140574,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "49",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 261,
+      "receipts_thousands_usd": 13159,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "50",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 56,
+      "receipts_thousands_usd": 2775,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "51",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 647,
+      "receipts_thousands_usd": 25836,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "53",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 510,
+      "receipts_thousands_usd": 22431,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "54",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 112,
+      "receipts_thousands_usd": 3458,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "55",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 382,
+      "receipts_thousands_usd": 15848,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2019,
+      "state_fips": "56",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 54,
+      "receipts_thousands_usd": 1882,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "01",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 426,
+      "receipts_thousands_usd": 18188,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "02",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 62,
+      "receipts_thousands_usd": 2674,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "04",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 595,
+      "receipts_thousands_usd": 25172,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "05",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 244,
+      "receipts_thousands_usd": 13037,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "06",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3925,
+      "receipts_thousands_usd": 185909,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "08",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 482,
+      "receipts_thousands_usd": 20463,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "09",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 252,
+      "receipts_thousands_usd": 12609,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "10",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 76,
+      "receipts_thousands_usd": 3895,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "11",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 14,
+      "receipts_thousands_usd": 528,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "12",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3561,
+      "receipts_thousands_usd": 174364,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "13",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1297,
+      "receipts_thousands_usd": 50119,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "15",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 132,
+      "receipts_thousands_usd": 6440,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "16",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 172,
+      "receipts_thousands_usd": 6229,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "17",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1042,
+      "receipts_thousands_usd": 38710,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "18",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 441,
+      "receipts_thousands_usd": 16218,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "19",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 208,
+      "receipts_thousands_usd": 8145,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "20",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 217,
+      "receipts_thousands_usd": 8833,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "21",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 331,
+      "receipts_thousands_usd": 12934,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "22",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 433,
+      "receipts_thousands_usd": 17679,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "23",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 109,
+      "receipts_thousands_usd": 4636,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "24",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 544,
+      "receipts_thousands_usd": 22673,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "25",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 516,
+      "receipts_thousands_usd": 22168,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "26",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 783,
+      "receipts_thousands_usd": 30312,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "27",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 372,
+      "receipts_thousands_usd": 12009,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "28",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 248,
+      "receipts_thousands_usd": 8694,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "29",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 498,
+      "receipts_thousands_usd": 19544,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "30",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 108,
+      "receipts_thousands_usd": 3171,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "31",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 147,
+      "receipts_thousands_usd": 5983,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "32",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 296,
+      "receipts_thousands_usd": 11890,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "33",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 160,
+      "receipts_thousands_usd": 8747,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "34",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 691,
+      "receipts_thousands_usd": 38293,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "35",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 143,
+      "receipts_thousands_usd": 5228,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "36",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1596,
+      "receipts_thousands_usd": 69345,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "37",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 868,
+      "receipts_thousands_usd": 32628,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "38",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 56,
+      "receipts_thousands_usd": 2100,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "39",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 865,
+      "receipts_thousands_usd": 39532,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "40",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 331,
+      "receipts_thousands_usd": 14947,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "41",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 314,
+      "receipts_thousands_usd": 10242,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "42",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 854,
+      "receipts_thousands_usd": 33129,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "44",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 66,
+      "receipts_thousands_usd": 2592,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "45",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 466,
+      "receipts_thousands_usd": 19748,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "46",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 58,
+      "receipts_thousands_usd": 2194,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "47",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 675,
+      "receipts_thousands_usd": 27272,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "48",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3148,
+      "receipts_thousands_usd": 133329,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "49",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 262,
+      "receipts_thousands_usd": 13093,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "50",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 71,
+      "receipts_thousands_usd": 2436,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "51",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 685,
+      "receipts_thousands_usd": 24499,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "53",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 455,
+      "receipts_thousands_usd": 21850,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "54",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 109,
+      "receipts_thousands_usd": 2869,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "55",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 346,
+      "receipts_thousands_usd": 14141,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2020,
+      "state_fips": "56",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 48,
+      "receipts_thousands_usd": 1452,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "01",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 439,
+      "receipts_thousands_usd": 20433,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "02",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 56,
+      "receipts_thousands_usd": 2854,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "04",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 592,
+      "receipts_thousands_usd": 29710,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "05",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 236,
+      "receipts_thousands_usd": 11011,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "06",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3714,
+      "receipts_thousands_usd": 203935,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "08",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 454,
+      "receipts_thousands_usd": 20323,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "09",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 215,
+      "receipts_thousands_usd": 12073,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "10",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 72,
+      "receipts_thousands_usd": 3271,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "11",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 18,
+      "receipts_thousands_usd": 605,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "12",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3485,
+      "receipts_thousands_usd": 171529,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "13",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1279,
+      "receipts_thousands_usd": 55134,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "15",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 123,
+      "receipts_thousands_usd": 6789,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "16",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 151,
+      "receipts_thousands_usd": 5639,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "17",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1004,
+      "receipts_thousands_usd": 39813,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "18",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 438,
+      "receipts_thousands_usd": 18299,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "19",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 219,
+      "receipts_thousands_usd": 8572,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "20",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 221,
+      "receipts_thousands_usd": 9459,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "21",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 327,
+      "receipts_thousands_usd": 11966,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "22",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 437,
+      "receipts_thousands_usd": 20958,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "23",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 100,
+      "receipts_thousands_usd": 5031,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "24",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 537,
+      "receipts_thousands_usd": 22169,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "25",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 506,
+      "receipts_thousands_usd": 23770,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "26",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 767,
+      "receipts_thousands_usd": 33513,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "27",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 354,
+      "receipts_thousands_usd": 15056,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "28",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 238,
+      "receipts_thousands_usd": 7835,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "29",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 491,
+      "receipts_thousands_usd": 19479,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "30",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 91,
+      "receipts_thousands_usd": 3242,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "31",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 138,
+      "receipts_thousands_usd": 6204,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "32",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 328,
+      "receipts_thousands_usd": 14199,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "33",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 144,
+      "receipts_thousands_usd": 9256,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "34",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 703,
+      "receipts_thousands_usd": 43196,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "35",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 131,
+      "receipts_thousands_usd": 5158,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "36",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1502,
+      "receipts_thousands_usd": 71996,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "37",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 842,
+      "receipts_thousands_usd": 32763,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "38",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 54,
+      "receipts_thousands_usd": 2285,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "39",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 811,
+      "receipts_thousands_usd": 36036,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "40",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 316,
+      "receipts_thousands_usd": 13696,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "41",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 315,
+      "receipts_thousands_usd": 11629,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "42",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 840,
+      "receipts_thousands_usd": 35882,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "44",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 72,
+      "receipts_thousands_usd": 2638,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "45",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 452,
+      "receipts_thousands_usd": 17746,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "46",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 56,
+      "receipts_thousands_usd": 2663,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "47",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 694,
+      "receipts_thousands_usd": 32537,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "48",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3054,
+      "receipts_thousands_usd": 137094,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "49",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 248,
+      "receipts_thousands_usd": 13005,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "50",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 56,
+      "receipts_thousands_usd": 3024,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "51",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 639,
+      "receipts_thousands_usd": 23581,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "53",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 436,
+      "receipts_thousands_usd": 21934,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "54",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 114,
+      "receipts_thousands_usd": 3560,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "55",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 345,
+      "receipts_thousands_usd": 17183,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2021,
+      "state_fips": "56",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 54,
+      "receipts_thousands_usd": 2061,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "01",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 420,
+      "receipts_thousands_usd": 20710,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "02",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 65,
+      "receipts_thousands_usd": 3251,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "04",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 621,
+      "receipts_thousands_usd": 31633,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "05",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 253,
+      "receipts_thousands_usd": 11832,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "06",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3649,
+      "receipts_thousands_usd": 209297,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "08",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 453,
+      "receipts_thousands_usd": 23782,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "09",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 227,
+      "receipts_thousands_usd": 14280,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "10",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 74,
+      "receipts_thousands_usd": 2684,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "11",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 28,
+      "receipts_thousands_usd": 603,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "12",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3517,
+      "receipts_thousands_usd": 202098,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "13",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1245,
+      "receipts_thousands_usd": 51455,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "15",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 117,
+      "receipts_thousands_usd": 5910,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "16",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 154,
+      "receipts_thousands_usd": 8207,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "17",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 982,
+      "receipts_thousands_usd": 43718,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "18",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 421,
+      "receipts_thousands_usd": 18161,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "19",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 212,
+      "receipts_thousands_usd": 8700,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "20",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 211,
+      "receipts_thousands_usd": 9591,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "21",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 340,
+      "receipts_thousands_usd": 14137,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "22",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 434,
+      "receipts_thousands_usd": 22226,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "23",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 108,
+      "receipts_thousands_usd": 4929,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "24",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 533,
+      "receipts_thousands_usd": 21541,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "25",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 529,
+      "receipts_thousands_usd": 27128,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "26",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 781,
+      "receipts_thousands_usd": 32454,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "27",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 348,
+      "receipts_thousands_usd": 17790,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "28",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 244,
+      "receipts_thousands_usd": 9025,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "29",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 466,
+      "receipts_thousands_usd": 20313,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "30",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 76,
+      "receipts_thousands_usd": 2443,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "31",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 135,
+      "receipts_thousands_usd": 5506,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "32",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 325,
+      "receipts_thousands_usd": 16087,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "33",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 140,
+      "receipts_thousands_usd": 10117,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "34",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 743,
+      "receipts_thousands_usd": 43255,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "35",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 148,
+      "receipts_thousands_usd": 6441,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "36",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1534,
+      "receipts_thousands_usd": 86128,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "37",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 862,
+      "receipts_thousands_usd": 37799,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "38",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 62,
+      "receipts_thousands_usd": 3323,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "39",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 833,
+      "receipts_thousands_usd": 41081,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "40",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 307,
+      "receipts_thousands_usd": 17098,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "41",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 303,
+      "receipts_thousands_usd": 13469,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "42",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 822,
+      "receipts_thousands_usd": 36619,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "44",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 70,
+      "receipts_thousands_usd": 3706,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "45",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 463,
+      "receipts_thousands_usd": 18924,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "46",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 58,
+      "receipts_thousands_usd": 2612,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "47",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 667,
+      "receipts_thousands_usd": 32176,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "48",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3146,
+      "receipts_thousands_usd": 146511,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "49",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 254,
+      "receipts_thousands_usd": 15945,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "50",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 54,
+      "receipts_thousands_usd": 2719,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "51",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 631,
+      "receipts_thousands_usd": 23966,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "53",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 461,
+      "receipts_thousands_usd": 23155,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "54",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 94,
+      "receipts_thousands_usd": 4818,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "55",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 339,
+      "receipts_thousands_usd": 16353,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2022,
+      "state_fips": "56",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 57,
+      "receipts_thousands_usd": 2680,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "01",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 377,
+      "receipts_thousands_usd": 22662,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "02",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 53,
+      "receipts_thousands_usd": 3774,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "04",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 609,
+      "receipts_thousands_usd": 28504,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "05",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 236,
+      "receipts_thousands_usd": 10266,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "06",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3648,
+      "receipts_thousands_usd": 212776,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "08",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 465,
+      "receipts_thousands_usd": 23883,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "09",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 234,
+      "receipts_thousands_usd": 15223,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "10",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 60,
+      "receipts_thousands_usd": 2859,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "11",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 23,
+      "receipts_thousands_usd": 714,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "12",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3629,
+      "receipts_thousands_usd": 210591,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "13",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1203,
+      "receipts_thousands_usd": 54563,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "15",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 112,
+      "receipts_thousands_usd": 5913,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "16",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 155,
+      "receipts_thousands_usd": 7489,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "17",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1034,
+      "receipts_thousands_usd": 46066,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "18",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 427,
+      "receipts_thousands_usd": 19528,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "19",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 219,
+      "receipts_thousands_usd": 9420,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "20",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 210,
+      "receipts_thousands_usd": 10434,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "21",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 361,
+      "receipts_thousands_usd": 14616,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "22",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 388,
+      "receipts_thousands_usd": 17776,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "23",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 110,
+      "receipts_thousands_usd": 4511,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "24",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 549,
+      "receipts_thousands_usd": 26071,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "25",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 498,
+      "receipts_thousands_usd": 25806,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "26",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 737,
+      "receipts_thousands_usd": 34304,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "27",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 354,
+      "receipts_thousands_usd": 18535,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "28",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 252,
+      "receipts_thousands_usd": 8788,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "29",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 457,
+      "receipts_thousands_usd": 18536,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "30",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 80,
+      "receipts_thousands_usd": 3411,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "31",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 132,
+      "receipts_thousands_usd": 5381,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "32",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 335,
+      "receipts_thousands_usd": 17077,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "33",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 142,
+      "receipts_thousands_usd": 10535,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "34",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 757,
+      "receipts_thousands_usd": 45392,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "35",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 125,
+      "receipts_thousands_usd": 6050,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "36",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1573,
+      "receipts_thousands_usd": 89161,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "37",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 875,
+      "receipts_thousands_usd": 37371,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "38",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 64,
+      "receipts_thousands_usd": 2255,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "39",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 807,
+      "receipts_thousands_usd": 40390,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "40",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 283,
+      "receipts_thousands_usd": 14924,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "41",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 290,
+      "receipts_thousands_usd": 12679,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "42",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 827,
+      "receipts_thousands_usd": 40587,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "44",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 76,
+      "receipts_thousands_usd": 4541,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "45",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 461,
+      "receipts_thousands_usd": 18719,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "46",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 59,
+      "receipts_thousands_usd": 3123,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "47",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 659,
+      "receipts_thousands_usd": 33398,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "48",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3169,
+      "receipts_thousands_usd": 150878,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "49",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 264,
+      "receipts_thousands_usd": 16165,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "50",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 50,
+      "receipts_thousands_usd": 2939,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "51",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 662,
+      "receipts_thousands_usd": 25626,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "53",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 463,
+      "receipts_thousands_usd": 24522,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "54",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 100,
+      "receipts_thousands_usd": 4588,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "55",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 326,
+      "receipts_thousands_usd": 19234,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2023,
+      "state_fips": "56",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 61,
+      "receipts_thousands_usd": 2944,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "01",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 416,
+      "receipts_thousands_usd": 21791,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "02",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 53,
+      "receipts_thousands_usd": 2863,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "04",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 594,
+      "receipts_thousands_usd": 33000,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "05",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 230,
+      "receipts_thousands_usd": 9823,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "06",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3712,
+      "receipts_thousands_usd": 217164,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "08",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 458,
+      "receipts_thousands_usd": 22078,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "09",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 233,
+      "receipts_thousands_usd": 15407,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "10",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 63,
+      "receipts_thousands_usd": 2771,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "11",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 26,
+      "receipts_thousands_usd": 809,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "12",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3939,
+      "receipts_thousands_usd": 220248,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "13",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1463,
+      "receipts_thousands_usd": 63004,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "15",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 118,
+      "receipts_thousands_usd": 7028,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "16",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 137,
+      "receipts_thousands_usd": 4740,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "17",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1043,
+      "receipts_thousands_usd": 50507,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "18",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 414,
+      "receipts_thousands_usd": 19181,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "19",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 217,
+      "receipts_thousands_usd": 8741,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "20",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 230,
+      "receipts_thousands_usd": 9583,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "21",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 326,
+      "receipts_thousands_usd": 12978,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "22",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 432,
+      "receipts_thousands_usd": 19975,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "23",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 105,
+      "receipts_thousands_usd": 4947,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "24",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 493,
+      "receipts_thousands_usd": 21781,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "25",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 474,
+      "receipts_thousands_usd": 27377,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "26",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 782,
+      "receipts_thousands_usd": 34832,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "27",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 353,
+      "receipts_thousands_usd": 18042,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "28",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 228,
+      "receipts_thousands_usd": 8190,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "29",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 461,
+      "receipts_thousands_usd": 19890,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "30",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 85,
+      "receipts_thousands_usd": 3818,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "31",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 120,
+      "receipts_thousands_usd": 5118,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "32",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 328,
+      "receipts_thousands_usd": 15013,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "33",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 135,
+      "receipts_thousands_usd": 8875,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "34",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 735,
+      "receipts_thousands_usd": 41828,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "35",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 136,
+      "receipts_thousands_usd": 5997,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "36",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 1633,
+      "receipts_thousands_usd": 91641,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "37",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 886,
+      "receipts_thousands_usd": 37129,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "38",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 54,
+      "receipts_thousands_usd": 1930,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "39",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 830,
+      "receipts_thousands_usd": 43105,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "40",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 302,
+      "receipts_thousands_usd": 13810,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "41",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 291,
+      "receipts_thousands_usd": 12757,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "42",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 877,
+      "receipts_thousands_usd": 42628,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "44",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 77,
+      "receipts_thousands_usd": 3792,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "45",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 441,
+      "receipts_thousands_usd": 20342,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "46",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 61,
+      "receipts_thousands_usd": 3526,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "47",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 696,
+      "receipts_thousands_usd": 34169,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "48",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 3385,
+      "receipts_thousands_usd": 168495,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "49",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 253,
+      "receipts_thousands_usd": 15866,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "50",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 51,
+      "receipts_thousands_usd": 3328,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "51",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 671,
+      "receipts_thousands_usd": 27922,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "53",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 482,
+      "receipts_thousands_usd": 24603,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "54",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 89,
+      "receipts_thousands_usd": 4144,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "55",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 352,
+      "receipts_thousands_usd": 19273,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    },
+    {
+      "year": 2024,
+      "state_fips": "56",
+      "naics": "81121",
+      "naics_label": "electronic and precision equipment repair and maintenance",
+      "establishments": 54,
+      "receipts_thousands_usd": 2805,
+      "establishments_flag": "",
+      "receipts_flag": ""
+    }
+  ],
+  "descriptive_readout": {
+    "first_year": 2019,
+    "last_year": 2024,
+    "establishment_change": -1153,
+    "receipts_change_thousands_usd": 195304
+  },
+  "units": {
+    "establishments": "nonemployer businesses reported by Census",
+    "receipts_thousands_usd": "gross receipts in thousands of US dollars"
+  },
+  "uncertainty": "NES is based on administrative tax records and preserves Census suppression/noise flags; it does not provide sampling variance here.",
+  "interpretation_boundary": "NAICS 81121 is a broad five-digit repair category. It does not isolate cell-phone repair transactions, policy exposure, prices, waiting time, device life, or repair versus replacement decisions, and nonemployer establishments are not workers or jobs.",
+  "counter_signal": "Nonemployer repair counts or receipts can move because of tax classification, business entry/exit, broader equipment repair, inflation, or reporting changes without household phone-repair access changing.",
+  "pooling_decision": "do_not_pool_with_state_policy_global_ewaste_or_cbp_paid_employee_series",
+  "falsifier": "A phone-specific outcome panel does not move with this broad nonemployer proxy or shows different timing across policy-exposed and comparison geographies.",
+  "next_action": "Use as small-business context only; acquire phone-specific transactions or consumer outcomes before any policy, market, or causal claim.",
+  "rights_basis": "Official Census public downloads; retain normalized values, source URLs, checksums, and flags rather than raw ZIP files in the frontend.",
+  "boundary": "This is a reproducible external industry proxy, not evidence that right-to-repair policy changed phone repair demand or consumer outcomes."
+}
