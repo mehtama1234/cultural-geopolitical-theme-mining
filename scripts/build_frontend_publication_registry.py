@@ -93,6 +93,22 @@ def main() -> int:
             "evidence_boundary": "Mechanism challenge only; not a qualified trend, causal result, or company exposure finding.",
             "company_gate": "No internal bridge until independent comparable utilization outcomes are acquired.",
         },
+        {
+            "publication_id": "mobility-income-gradient-context",
+            "kind": "independent_directional_comparison",
+            "title": "Lower-income households show higher zero-vehicle prevalence across two mobility datasets",
+            "narrative_artifact": "mobility-access-independent-comparison.json",
+            "chart_artifacts": ["mobility-access-independent-comparison.json", "mobility-access-temporal-holdout.json"],
+            "status": "directional_challenge_not_common_holdout",
+            "period": "2022 NHTS, 2023-2024 ACS; source-specific periods",
+            "unit": "percent of each source's stated household frame",
+            "geography": "United States; NHTS urban frame and ACS national household frame",
+            "scope_or_denominator": "Income-stratified zero-vehicle prevalence; frames, sampling, weighting, and periods differ and are not pooled",
+            "uncertainty": "ACS and NHTS sampling and nonsampling error apply; source-specific margins of error are not propagated in this comparison.",
+            "counter_signal": "The rural NHTS income gradient persists but its level differs from the urban frame; vehicle status is not transport affordability or unmet access.",
+            "evidence_boundary": "Independent directional mobility evidence, not a common estimate, causal result, forecast, or company exposure finding.",
+            "company_gate": "No internal bridge until rights review and a repeated compatible mobility measure or harmonized geography pass.",
+        },
     ]
     required = ["period", "unit", "geography", "scope_or_denominator", "uncertainty", "counter_signal", "evidence_boundary", "company_gate"]
     for publication in publications:
