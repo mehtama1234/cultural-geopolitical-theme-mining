@@ -61,6 +61,13 @@ def main() -> int:
     assert host_queue["unassigned_count"] >= host_queue["high_priority_count"] >= 0
     assert len(host_queue["rows"]) <= host_queue["row_limit"]
     assert host_queue["boundary"] and host_queue["next_action"]
+    host_packet = json.loads((ANALYSIS / "host-lineage-review-packet.json").read_text())
+    assert host_packet["schema"] == "external-trend-intelligence.host-lineage-review-packet.v1"
+    assert host_packet["status"] == "ready_for_host_lineage_signoff"
+    assert host_packet["review_count"] == host_queue["row_limit"] == len(host_packet["rows"])
+    assert host_packet["high_priority_count"] == host_queue["high_priority_count"]
+    assert all(row["required_decision_fields"] and row["decision_options"] and row["stop_rule"] for row in host_packet["rows"])
+    assert all(value is None for row in host_packet["rows"] for value in row["signoff"].values())
     open_gates = json.loads((ANALYSIS / "open-gate-register.json").read_text())
     assert open_gates["schema"] == "external-trend-intelligence.open-gate-register.v1"
     assert open_gates["gate_count"] == len(open_gates["gates"])
