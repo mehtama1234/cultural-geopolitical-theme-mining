@@ -518,6 +518,16 @@ def main() -> int:
     assert re.fullmatch(r"[0-9a-f]{40}", release_manifest["source_tree_commit"])
     assert release_manifest["boundary"]
     assert any(item["path"] == ".github/workflows/external-observatory-refresh.yml" for item in release_manifest["artifacts"])
+    publication_registry = json.loads((ANALYSIS / "frontend-publication-registry.json").read_text())
+    assert publication_registry["schema"] == "external-trend-intelligence.frontend-publication-registry.v1"
+    assert publication_registry["status"] == "reader_publications_registered_with_boundaries"
+    assert publication_registry["publication_count"] == len(publication_registry["publications"]) >= 5
+    required_publication_fields = set(publication_registry["required_visible_fields"])
+    assert required_publication_fields >= {"period", "unit", "geography", "scope_or_denominator", "uncertainty", "counter_signal", "evidence_boundary", "company_gate"}
+    for publication in publication_registry["publications"]:
+        assert required_publication_fields <= set(publication)
+        assert publication["narrative_artifact"]
+        assert publication["chart_artifacts"]
     for artifact in release_manifest["artifacts"]:
         path = ROOT / artifact["path"]
         assert path.exists(), artifact["path"]

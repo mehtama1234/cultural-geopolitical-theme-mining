@@ -179,6 +179,11 @@
       <div class="promotion-gates" id="qualified-trend-brief"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Reader publication contract</h2>
+      <p class="muted">Every published chart or narrative is registered with its period, unit, scope, uncertainty, counter-signal, and company boundary.</p>
+      <div class="promotion-gates" id="publication-registry"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Successor validation control</h2>
       <p class="muted">This is a read-only reproducibility check. It does not substitute for named human ownership or approve an internal company pilot.</p>
       <div class="promotion-gates" id="successor-validation"></div>
@@ -725,6 +730,11 @@
         target.append(card('Signal', 'descriptive', `${brief.signal_summary} Falsifier: ${brief.falsifier}`));
         target.append(card('Uncertainty and rights', 'review_required', `${brief.uncertainty.join(' · ')} Rights: ${brief.rights_boundary}`));
         target.append(card('Company boundary', 'blocked_external_first', `${brief.company_gate} Next: ${brief.next_action}`));
+      });
+      fetch('frontend-publication-registry.json').then(r => r.json()).then(registry => {
+        const target = el('publication-registry');
+        target.append(card(`${registry.publication_count} reader publications`, registry.status, `${registry.boundary} Next: ${registry.next_action}`));
+        registry.publications.forEach(publication => target.append(card(publication.title, publication.status, `${publication.period} · ${publication.unit} · ${publication.geography}. ${publication.evidence_boundary} ${publication.company_gate}`)));
       });
       fetch('evidence-acquisition-plan.json').then(r => r.json()).then(plan => {
         plan.tracks.forEach(track => el('acquisition-queue').append(card(track.track_id.replaceAll('-', ' '), track.owner, `${track.target_source}. Acceptance: ${track.acceptance_criteria.join(' · ')} Stop: ${track.stop_rule}`)));

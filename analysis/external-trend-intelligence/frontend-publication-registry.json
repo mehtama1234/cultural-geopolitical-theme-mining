@@ -1,0 +1,114 @@
+{
+  "schema": "external-trend-intelligence.frontend-publication-registry.v1",
+  "status": "reader_publications_registered_with_boundaries",
+  "publication_count": 5,
+  "required_visible_fields": [
+    "period",
+    "unit",
+    "geography",
+    "scope_or_denominator",
+    "uncertainty",
+    "counter_signal",
+    "evidence_boundary",
+    "company_gate"
+  ],
+  "publications": [
+    {
+      "publication_id": "food-insecurity-persistence",
+      "kind": "narrative_with_charts",
+      "title": "U.S. food insecurity remains elevated after pandemic support changes",
+      "narrative_artifact": "food-security-decision-brief.json",
+      "chart_artifacts": [
+        "food-insecurity-temporal-holdout.json",
+        "usda-temporal-holdout.json"
+      ],
+      "status": "monitored_external_trend",
+      "period": "2019-2025 construction and later holdout releases",
+      "unit": "percent within each publisher's stated survey denominator",
+      "geography": "United States",
+      "scope_or_denominator": "Urban working-age/adult respondent frame and USDA household prevalence; not a common pooled denominator",
+      "uncertainty": "Different instruments, populations, weighting, and the Urban 2025 method change; USDA significance caveat retained.",
+      "counter_signal": "USDA did not report a statistically significant 2024 change versus 2023 or 2022.",
+      "evidence_boundary": "Descriptive persistence signal, not causal, forecast, population-pooled estimate, or company finding.",
+      "company_gate": "No internal bridge until rights and a separate decision contract pass."
+    },
+    {
+      "publication_id": "financial-room-temporal-context",
+      "kind": "narrative_with_charts",
+      "title": "Financial pressure and social reconnection are separate planning signals",
+      "narrative_artifact": "temporal-decision-narrative.json",
+      "chart_artifacts": [
+        "temporal-holdout-result.json",
+        "shed-temporal-holdout.json",
+        "us-financial-room-independent-comparison.json"
+      ],
+      "status": "bounded_external_narrative",
+      "period": "2020-2025, with source-specific construction and holdout windows",
+      "unit": "source-specific reported percentages and directional changes",
+      "geography": "Australia and United States source-specific frames",
+      "scope_or_denominator": "Repeated cross-sections and distinct household/adult frames; no pooled denominator",
+      "uncertainty": "Questionnaire, frame, denominator, and source-family differences remain visible.",
+      "counter_signal": "Social contact increased alongside financial-pressure measures.",
+      "evidence_boundary": "Mechanism context only; not a causal explanation, forecast, market size, or company finding.",
+      "company_gate": "No internal bridge until an independent compatible source and rights review pass."
+    },
+    {
+      "publication_id": "ora-mobile-repair-context",
+      "kind": "descriptive_outcome_card",
+      "title": "Open Repair Alliance mobile repair outcomes",
+      "narrative_artifact": "open-repair-alliance-mobile-adequacy-review.json",
+      "chart_artifacts": [
+        "open-repair-alliance-mobile-snapshot.json"
+      ],
+      "status": "acquired_but_policy_backtest_inadequate",
+      "period": "Events through July 2026; archive retrieved 2026-10-31",
+      "unit": "logged mobile repair attempts/items at participating community events",
+      "geography": "Global and country-level, including 230 USA records; no state geography",
+      "scope_or_denominator": "Convenience/community-event sample; no population denominator",
+      "uncertainty": "Selection, partner mix, missing product-age/barrier fields, and no sampling variance.",
+      "counter_signal": "A later representative, state-resolved outcome source may disagree with the descriptive direction or timing.",
+      "evidence_boundary": "Phone-specific descriptive context only; not a U.S. repair rate, policy effect, replacement measure, or company finding.",
+      "company_gate": "Blocked pending representative U.S. outcome data and external qualification."
+    },
+    {
+      "publication_id": "global-growth-forecast-comparison",
+      "kind": "forecast_comparison_chart",
+      "title": "Global growth forecast comparison",
+      "narrative_artifact": "global-growth-forecast-comparison.json",
+      "chart_artifacts": [
+        "global-growth-forecast-comparison.json",
+        "forecast-lineage-review.json",
+        "forecast-backtest-register.json"
+      ],
+      "status": "forecast_backtest_pending",
+      "period": "Publisher-specific forecast vintages and target periods",
+      "unit": "publisher-reported forecast value and unit",
+      "geography": "Global, as defined by each publisher",
+      "scope_or_denominator": "Publisher-specific forecast scope; values are not pooled",
+      "uncertainty": "Vintage, revision, interval, and realized-outcome fields remain source-specific.",
+      "counter_signal": "Publisher spread and later realized outcomes can weaken the apparent consensus.",
+      "evidence_boundary": "Comparison and backtest queue, not a forecast endorsement or company outlook.",
+      "company_gate": "No internal bridge until realized-outcome backtests and rights review pass."
+    },
+    {
+      "publication_id": "ibis-adult-day-capacity-context",
+      "kind": "mechanism_chart",
+      "title": "Adult-day capacity and utilization context",
+      "narrative_artifact": "ibis-adult-day-outcome-review.json",
+      "chart_artifacts": [
+        "ibis-adult-day-outcome-review.json"
+      ],
+      "status": "normalized_values_and_citations_only",
+      "period": "Source-specific dated observations",
+      "unit": "source-specific capacity, utilization, and rate measures",
+      "geography": "Source-specific jurisdictions",
+      "scope_or_denominator": "Distinct administrative and policy measures; no common denominator",
+      "uncertainty": "Coverage, rate definitions, and publisher differences remain unresolved.",
+      "counter_signal": "The measures may move differently because they describe separate stages of the mechanism.",
+      "evidence_boundary": "Mechanism challenge only; not a qualified trend, causal result, or company exposure finding.",
+      "company_gate": "No internal bridge until independent comparable utilization outcomes are acquired."
+    }
+  ],
+  "boundary": "Registration makes reader-facing metadata auditable; it does not grant redistribution rights, prove source independence, or authorize an internal company bridge.",
+  "next_action": "Keep this registry synchronized whenever a board chart or narrative is added, removed, or materially revised."
+}

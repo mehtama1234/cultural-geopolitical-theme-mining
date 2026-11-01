@@ -134,6 +134,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/adaptation-control-candidate.json",
     "analysis/external-trend-intelligence/held-candidates.json",
     "analysis/external-trend-intelligence/board.html",
+    "analysis/external-trend-intelligence/frontend-publication-registry.json",
     "analysis/external-trend-intelligence/CROSS-SOURCE-CANDIDATES.md",
     "analysis/external-trend-intelligence/promotion-queue.json",
     "analysis/records/comparative-jpmorgan-household-liquidity-2023.json",

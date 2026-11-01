@@ -42,6 +42,7 @@ blockers.
 | Program completion audit | `goal-completion-audit.json` | requirement status, evidence, gap, release status, next action |
 | Pilot view | `pilot-register.json` | design status, external gate, company/data contract, privacy, falsifier |
 | Release banner | `release-health.json`, `release-manifest.json` | release status, blockers, source commit, artifact count |
+| Publication registry | `frontend-publication-registry.json` | every reader-facing chart/narrative's period, unit, geography, denominator/scope, uncertainty, counter-signal, evidence boundary, and company gate |
 | Ownership queue | `ownership-assignment-queue.json` | assigned/unassigned roles, assignment SLA, backup activation, escalation path, and acceptance evidence |
 
 ## Status semantics

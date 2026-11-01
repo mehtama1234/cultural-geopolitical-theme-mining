@@ -112,6 +112,7 @@ STEPS = [
     ["scripts/test_ownership_assignment_queue.py"],
     ["scripts/build_operational_kpi_scorecard.py"],
     ["scripts/test_operational_kpi_scorecard.py"],
+    ["scripts/build_frontend_publication_registry.py"],
     ["scripts/build_external_release_manifest.py"],
     ["scripts/test_program_baseline_consistency.py"],
     ["scripts/validate_external_trend_intelligence.py"],
