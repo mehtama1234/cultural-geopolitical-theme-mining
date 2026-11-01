@@ -722,6 +722,12 @@ def main() -> int:
     assert mobility_rights["source_count"] == 2
     assert all(row["rights_status"] and row["terms_urls"] and row["next_action"] for row in mobility_rights["rows"])
     assert "do_not_redistribute" in mobility_rights["release_decision"]
+    forecast_plan = json.loads((ANALYSIS / "forecast-outcome-acquisition-plan.json").read_text())
+    assert forecast_plan["schema"] == "external-trend-intelligence.forecast-outcome-acquisition-plan.v1"
+    assert forecast_plan["status"] == "protocol_ready_outcomes_pending"
+    assert len(forecast_plan["tracks"]) == 3
+    assert all(track["official_source_url"] and track["earliest_acceptable_release"] for track in forecast_plan["tracks"])
+    assert forecast_plan["stop_rules"]
     assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}

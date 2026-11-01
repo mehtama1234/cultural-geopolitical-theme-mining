@@ -25,6 +25,7 @@ STEPS = [
     ["scripts/build_global_growth_forecast_comparison.py"],
     ["scripts/build_forecast_lineage_review.py"],
     ["scripts/build_forecast_backtest_register.py"],
+    ["scripts/build_forecast_outcome_acquisition_plan.py"],
     ["scripts/build_external_family_observations.py"],
     ["scripts/build_external_family_lineage_review.py"],
     ["scripts/build_ibis_finding_claim_sample.py"],

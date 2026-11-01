@@ -14,6 +14,7 @@ blockers.
 | Global forecast comparison | `global-growth-forecast-comparison.json` | publisher, forecast period, value, spread, vintage/uncertainty boundary, backtest next action |
 | Forecast lineage review | `forecast-lineage-review.json` | source host, publisher-distinct check, vintage/rights/uncertainty/outcome review status, boundary |
 | Forecast backtest register | `forecast-backtest-register.json` | original forecast, realized-outcome slot, error field, refresh trigger, acceptance criteria, pending/completed status |
+| Forecast outcome acquisition | `forecast-outcome-acquisition-plan.json` | target period, official release family, vintage rule, uncertainty fields, acceptance criteria, and stop rules |
 | 24-month roadmap | `two-year-roadmap.json` | phase window, current status, outcomes, acceptance criteria, evidence links, blocking requirement statuses |
 | Source family cards | `source-family-registry.json`, `source-family-controls.json`, `refresh-status.json` | role, cadence, revision, rights status, publisher dependence, lineage status, file age |
 | Candidate cards | `candidate-comparisons.json`, `candidate-qualification-matrix.json` | title, mechanism, counter-signal, evidence count, gate status, blocking gates, next action |
