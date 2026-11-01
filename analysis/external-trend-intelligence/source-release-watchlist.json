@@ -20,8 +20,33 @@
       "latest_observation_period": "2023",
       "next_target_period": "2024",
       "cadence_or_trigger": "annual CBP release",
-      "status": "next_annual_release_targeted",
-      "acquisition_action": "Use this only as a broad descriptive context series; acquire phone-specific transactions or consumer outcomes and verify policy effective dates before any causal or qualification claim."
+      "status": "target_not_published_or_unavailable",
+      "release_check": {
+        "schema": "external-trend-intelligence.census-cbp-release-check.v1",
+        "publisher": "U.S. Census Bureau",
+        "dataset": "County Business Patterns",
+        "checked_at": "2026-11-01T05:57:08.608170+00:00",
+        "latest_pinned_year": 2023,
+        "target_year": 2024,
+        "checks": [
+          {
+            "geography": "us",
+            "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2024/cbp24us.zip",
+            "http_status": 404,
+            "availability": "not_published"
+          },
+          {
+            "geography": "state",
+            "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2024/cbp24st.zip",
+            "http_status": 404,
+            "availability": "not_published"
+          }
+        ],
+        "status": "target_not_published_or_unavailable",
+        "next_action": "Retain the current pinned snapshot and recheck the exact official URLs at the next scheduled refresh; do not infer a zero or a missing observation from an unavailable release.",
+        "boundary": "An HTTP availability check is not data acquisition, rights clearance, or evidence about the repair industry. A 404 means the target was not published at this URL when checked."
+      },
+      "acquisition_action": "Retain the current pinned snapshot and recheck the exact official URLs at the next scheduled refresh; do not infer a zero or a missing observation from an unavailable release."
     },
     {
       "source_id": "census-nes-electronic-repair-2019-2024",

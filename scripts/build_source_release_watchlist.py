@@ -22,6 +22,7 @@ def load(name: str) -> dict:
 def main() -> int:
     ora = load("open-repair-alliance-mobile-snapshot.json")
     cbp = load("census-repair-industry-snapshot.json")
+    cbp_release = load("census-cbp-release-check.json")
     nes = load("census-nonemployer-repair-snapshot.json")
     npals = load("npals-public-table-extract.json")
     shed = load("federal-reserve-shed-financial-room-2013-2025.json")
@@ -48,8 +49,9 @@ def main() -> int:
             "latest_observation_period": str(cbp_latest),
             "next_target_period": str(cbp_latest + 1),
             "cadence_or_trigger": "annual CBP release",
-            "status": "next_annual_release_targeted",
-            "acquisition_action": cbp["next_action"],
+            "status": cbp_release["status"],
+            "release_check": cbp_release,
+            "acquisition_action": cbp_release["next_action"],
         },
         {
             "source_id": nes["acquisition_id"],

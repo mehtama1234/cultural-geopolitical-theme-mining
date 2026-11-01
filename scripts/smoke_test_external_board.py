@@ -49,6 +49,7 @@ ARTIFACTS = [
     "BACKTEST-DESIGN-REVIEW-REQUEST.md",
     "HOST-LINEAGE-REVIEW-REQUEST.md",
     "CONTINUITY-REVIEW-REQUEST.md",
+    "census-cbp-release-check.json",
     "pilot-activation-queue.json",
     "PILOT-ACTIVATION-REQUEST.md",
     "RIGHTS-REVIEW-REQUEST.md",

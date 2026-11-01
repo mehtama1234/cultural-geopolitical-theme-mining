@@ -560,6 +560,14 @@ def main() -> int:
     assert "104 distinct weekly windows" in continuity_request
     for field in ("scheduled window", "freshness", "recovery evidence", "release-owner review"):
         assert field in continuity_request.lower()
+    cbp_release = json.loads((ANALYSIS / "census-cbp-release-check.json").read_text())
+    assert cbp_release["schema"] == "external-trend-intelligence.census-cbp-release-check.v1"
+    assert cbp_release["target_year"] == cbp_release["latest_pinned_year"] + 1
+    assert len(cbp_release["checks"]) == 2
+    assert all(check["url"] and check["availability"] for check in cbp_release["checks"])
+    watchlist = json.loads((ANALYSIS / "source-release-watchlist.json").read_text())
+    cbp_watch = next(row for row in watchlist["rows"] if row["source_id"] == "census-cbp-electronic-repair-2019-2023")
+    assert cbp_watch["release_check"]["target_year"] == cbp_release["target_year"]
     precheck = json.loads((ANALYSIS / "candidate-independence-precheck.json").read_text())
     assert precheck["schema"] == "external-trend-intelligence.candidate-independence-precheck.v1"
     assert precheck["status"] == "machine_precheck_recorded_human_adjudication_required"
