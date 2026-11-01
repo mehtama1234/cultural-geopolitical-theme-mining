@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.pilot-design-dry-run.v1",
   "status": "pass",
-  "pilot_count": 2,
+  "pilot_count": 3,
   "checks": [
     {
       "pilot_id": "pilot-care-time-workflow-capacity-001",
@@ -10,6 +10,11 @@
     },
     {
       "pilot_id": "pilot-food-security-service-room-001",
+      "status": "pass",
+      "company_data_accessed": false
+    },
+    {
+      "pilot_id": "pilot-formal-response-recovery-workflow-001",
       "status": "pass",
       "company_data_accessed": false
     }

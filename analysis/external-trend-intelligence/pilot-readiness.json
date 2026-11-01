@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.pilot-readiness.v1",
-  "pilot_count": 2,
+  "pilot_count": 3,
   "ready_for_approved_test_count": 0,
-  "blocked_external_first_count": 2,
+  "blocked_external_first_count": 3,
   "blocked_company_gate_count": 0,
   "pilots": [
     {
@@ -114,6 +114,65 @@
         }
       ],
       "blocking_check_ids": [
+        "external_rights_reuse",
+        "company_decision_contract",
+        "internal_data_contract",
+        "access_privacy_rights",
+        "analysis_preregistration"
+      ],
+      "boundary": "A readiness pass authorizes only a separately approved test; it never proves causality or permits unregistered reuse of company data."
+    },
+    {
+      "pilot_id": "pilot-formal-response-recovery-workflow-001",
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "current_status": "design_only_external_gate",
+      "readiness_status": "blocked_external_first",
+      "checks": [
+        {
+          "id": "external_qualification",
+          "label": "External candidate has passed all qualification gates",
+          "status": "blocked",
+          "evidence": "candidate-qualification-matrix.json",
+          "detail": "candidate matrix: held; pilot gate record: held"
+        },
+        {
+          "id": "external_rights_reuse",
+          "label": "External source rights permit the proposed downstream company use",
+          "status": "blocked",
+          "evidence": "rights-review-queue.json",
+          "detail": "no candidate-specific rights reuse review is recorded"
+        },
+        {
+          "id": "company_decision_contract",
+          "label": "Company, business unit, decision owner, and decision are registered",
+          "status": "blocked",
+          "evidence": "pilot-register.json",
+          "detail": "company identity and decision owner are required before internal access"
+        },
+        {
+          "id": "internal_data_contract",
+          "label": "Internal dataset, snapshot, key, period, outcome, unit, and denominator are specified",
+          "status": "blocked",
+          "evidence": "pilot-register.json",
+          "detail": "no internal dataset is connected at design stage"
+        },
+        {
+          "id": "access_privacy_rights",
+          "label": "Lawful access, privacy class, retention, and redistribution rules are approved",
+          "status": "blocked",
+          "evidence": "PILOT-VALIDATION-PROTOCOL.md",
+          "detail": "data-owner and privacy review remain pending"
+        },
+        {
+          "id": "analysis_preregistration",
+          "label": "Crosswalk, comparison, primary outcome, falsifier, stop rule, and analysis owner are registered",
+          "status": "blocked",
+          "evidence": "PILOT-VALIDATION-PROTOCOL.md",
+          "detail": "pre-registration is prohibited until external qualification, rights reuse, and company access gates pass"
+        }
+      ],
+      "blocking_check_ids": [
+        "external_qualification",
         "external_rights_reuse",
         "company_decision_contract",
         "internal_data_contract",

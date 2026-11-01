@@ -78,6 +78,44 @@
         "redistribution_limit": "No connection, export, or decision use before approval"
       },
       "next_action": "Acquire the next comparable external release and resolve source-specific rights boundaries before selecting a company workflow."
+    },
+    {
+      "pilot_id": "pilot-formal-response-recovery-workflow-001",
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "status": "design_only_external_gate",
+      "decision_question": "After the external response-to-recovery pattern is qualified, does a bounded company case or service workflow show measurable time-to-resolution, receipt, durable-access, or repeat-contact differences?",
+      "company_ref": {
+        "company_id": null,
+        "company_name": null,
+        "business_unit": null,
+        "decision_owner": null
+      },
+      "internal_data_contract": {
+        "dataset": null,
+        "snapshot_or_query": null,
+        "entity_key": null,
+        "geography": null,
+        "period": null,
+        "outcome": null,
+        "unit": null,
+        "denominator": null,
+        "unmatched_case_policy": "Report unmatched, suppressed, missing, and incompatible records separately; never drop them silently."
+      },
+      "external_gate": {
+        "candidate_must_be": "qualified_external_trend_or_monitored_external_trend",
+        "required_gates": ["comparability", "independence", "persistence", "counter_signal", "falsifier", "backtest", "decision_relevance"],
+        "current_status": "held",
+        "current_blockers": ["common stage vocabulary", "independent non-Fair-Work outcome source", "receipt and durable-access evidence"]
+      },
+      "hypothesis": "After external qualification and a registered decision contract, a bounded workflow may show where formal response does or does not translate into receipt and durable resolution.",
+      "falsifier": "No measurable difference under the pre-specified comparison, repeated receipt before formal response, or durable resolution without the proposed response sequence.",
+      "privacy_and_rights": {
+        "access_basis": "Pending named data owner and lawful access review",
+        "privacy_class": "Not assessed",
+        "retention_limit": "Not assessed",
+        "redistribution_limit": "No connection, export, or decision use before approval"
+      },
+      "next_action": "Acquire an independent outcome source and complete the external stage-comparability gate before selecting any company workflow."
     }
   ]
 }
