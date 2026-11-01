@@ -2,17 +2,11 @@
   "schema": "external-trend-intelligence.ibis-claim-review-dispositions.v1",
   "finding_slug": "compliance-as-economic-architecture",
   "source_revision": "b895acd021fbe3dc1d610255952b1373748e3bc3",
-  "status": "five_conservative_triage_dispositions_recorded",
+  "status": "ten_conservative_triage_dispositions_recorded",
   "review_method": "metadata-only triage from pinned repository artifacts; not legal rights clearance or independent outcome validation",
-  "completed_disposition_count": 5,
-  "pending_first_batch_count": 5,
-  "pending_review_ids": [
-    "ibis-independence::community-housing-and-homeless-shelters-in-the-us::shelter-affordability",
-    "ibis-independence::dna-and-dna-forensic-laboratories::dna-public",
-    "ibis-independence::family-law-and-divorce-lawyers-and-attorneys::family-demographics",
-    "ibis-independence::commercial-oven-manufacturing::com-scale",
-    "ibis-independence::financial-data-service-providers::fdsp-alternative"
-  ],
+  "completed_disposition_count": 10,
+  "pending_first_batch_count": 0,
+  "pending_review_ids": [],
   "dispositions": [
     {
       "review_id": "ibis-independence::drug-and-alcohol-test-kit-manufacturing::test-demand",
@@ -180,8 +174,176 @@
       "next_test": "Acquire an independent FAA, enrollment, certification, or utilization series and separate company marketing claims from observed outcomes.",
       "company_bridge_status": "blocked_external_first_gate",
       "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
+    },
+    {
+      "review_id": "ibis-independence::community-housing-and-homeless-shelters-in-the-us::shelter-affordability",
+      "industry_slug": "community-housing-and-homeless-shelters-in-the-us",
+      "claim_id": "shelter-affordability",
+      "claim_text": "The brief reports 22.7 million renter households cost-burdened in 2024, including 12.1 million paying more than half of income for rent; affordability is treated as a primary inflow mechanism, not a direct operator revenue measure.",
+      "review_scope": "repository_metadata_triage",
+      "review_status": "triage_complete_full_review_required",
+      "disposition": "held_outcome_missing",
+      "evidence_checked": {
+        "source_count": 2,
+        "publisher_counts": {
+          "Urban Institute Housing Matters": 1,
+          "DESC": 1
+        },
+        "source_type_counts": {
+          "academic": 1,
+          "trade_association": 1
+        },
+        "missing_published_at_count": 2,
+        "source_urls": [
+          "https://housingmatters.urban.org/articles-features/housing-nonprofits-face-challenges-could-threaten-their-ability-meet-increasing-demand",
+          "https://www.desc.org/ssi-vs-rent-2025/"
+        ]
+      },
+      "independence_finding": "Provisional source diversity only: Urban Institute Housing Matters and DESC are distinct publishers, but the metadata does not establish a common rent-burden definition, underlying survey lineage, or independent outcome linkage.",
+      "outcome_finding": "Not observed: the claim reports affordability context but no dated shelter inflow, exit, bed, unit, or operating outcome with a compatible denominator.",
+      "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
+      "counter_signal": "Rent burden can rise without shelter demand moving in the same direction; affordability is a mechanism hypothesis, not an operator outcome.",
+      "next_test": "Map the exact rent-burden estimate and acquire a dated independent shelter-demand or housing-exit measure with geography and denominator.",
+      "company_bridge_status": "blocked_external_first_gate",
+      "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
+    },
+    {
+      "review_id": "ibis-independence::dna-and-dna-forensic-laboratories::dna-public",
+      "industry_slug": "dna-and-dna-forensic-laboratories",
+      "claim_id": "dna-public",
+      "claim_text": "Justice-sector grant sources document continuing public support for forensic laboratory capacity and technology.",
+      "review_scope": "repository_metadata_triage",
+      "review_status": "triage_complete_full_review_required",
+      "disposition": "held_insufficient_evidence",
+      "evidence_checked": {
+        "source_count": 2,
+        "publisher_counts": {
+          "Bureau of Justice Assistance": 1,
+          "Grants.gov": 1
+        },
+        "source_type_counts": {
+          "government": 2
+        },
+        "missing_published_at_count": 2,
+        "source_urls": [
+          "https://bja.ojp.gov/funding/opportunities/o-bja-2025-172441",
+          "https://simpler.grants.gov/opportunity/273fd722-0557-4307-a1d0-78e60404b8a3"
+        ]
+      },
+      "independence_finding": "Not established: Bureau of Justice Assistance and Grants.gov are both government publication routes, and the metadata does not establish separate study lineage or independent measurement.",
+      "outcome_finding": "Not observed: candidate measures are listed, but no dated forensic-lab workload, turnaround, case volume, or utilization outcome is attached.",
+      "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
+      "counter_signal": "A grant or program announcement can document policy attention without measuring realized laboratory demand or capacity.",
+      "next_test": "Recover the underlying program and award artifacts, then acquire a dated independent forensic workload or capacity series with an explicit denominator.",
+      "company_bridge_status": "blocked_external_first_gate",
+      "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
+    },
+    {
+      "review_id": "ibis-independence::family-law-and-divorce-lawyers-and-attorneys::family-demographics",
+      "industry_slug": "family-law-and-divorce-lawyers-and-attorneys",
+      "claim_id": "family-demographics",
+      "claim_text": "Divorce-rate and family-formation trends can reduce routine divorce volume while shifting demand toward custody, support, adoption, domestic-violence, and complex family matters; reported rates require primary demographic validation.",
+      "review_scope": "repository_metadata_triage",
+      "review_status": "triage_complete_full_review_required",
+      "disposition": "held_insufficient_evidence",
+      "evidence_checked": {
+        "source_count": 2,
+        "publisher_counts": {
+          "Divorce.com": 1,
+          "Bowling Green State University": 1
+        },
+        "source_type_counts": {
+          "company": 1,
+          "academic": 1
+        },
+        "missing_published_at_count": 2,
+        "source_urls": [
+          "https://divorce.com/blog/divorce-statistics/",
+          "https://www.bgsu.edu/ncfmr/resources/data/family-profiles/fp-25-31.html"
+        ]
+      },
+      "independence_finding": "Provisional diversity only: Divorce.com is a company source and Bowling Green State University is academic, but the metadata does not establish whether the reported demographic measures use compatible populations or independent source data.",
+      "outcome_finding": "Not observed: demographic context is not a dated legal-service demand, filings, case volume, or conversion outcome.",
+      "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
+      "counter_signal": "Population or marriage trends do not automatically translate into demand for a specific legal-service channel.",
+      "next_test": "Document the population and period for each source and acquire an independent dated family-law filing or service-utilization outcome.",
+      "company_bridge_status": "blocked_external_first_gate",
+      "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
+    },
+    {
+      "review_id": "ibis-independence::commercial-oven-manufacturing::com-scale",
+      "industry_slug": "commercial-oven-manufacturing",
+      "claim_id": "com-scale",
+      "claim_text": "Middleby, ITW, Ali Group, and Welbilt sources show food-equipment portfolio scale, consolidation, and platform strategy.",
+      "review_scope": "repository_metadata_triage",
+      "review_status": "triage_complete_full_review_required",
+      "disposition": "held_insufficient_evidence",
+      "evidence_checked": {
+        "source_count": 4,
+        "publisher_counts": {
+          "The Middleby Corporation": 1,
+          "Illinois Tool Works": 1,
+          "Ali Group": 1,
+          "Welbilt / Ali Group": 1
+        },
+        "source_type_counts": {
+          "company": 3,
+          "filing": 1
+        },
+        "missing_published_at_count": 4,
+        "source_urls": [
+          "https://middlebycorporation.gcs-web.com/news-releases/news-release-details/middleby-corporation-reports-fourth-quarter-and-fiscal-year'}",
+          "https://financialfilings.com/filings/illinois-tool-works-inc/annual-report/2026/20210929/'}",
+          "https://www.aligroup.com/news/ali-group-completes-acquisition-of-welbilt/'}",
+          "https://www.welbilt.us/News/News/2026/March/Ali-Group-Completes-Acquisition-of-BUNN'}"
+        ]
+      },
+      "independence_finding": "Not established: the four source rows are company or company-filing materials, including an Ali Group/Welbilt relationship; distinct URLs cannot count as independent market confirmation.",
+      "outcome_finding": "Not observed: the artifact lists candidate commercial-oven measures but no independent dated orders, shipments, installed base, or utilization series.",
+      "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
+      "counter_signal": "Corporate product and filing statements can describe strategy or positioning without revealing market-wide realized demand.",
+      "next_test": "Acquire an independent shipment, trade, procurement, or installed-base series and resolve the Ali/Welbilt source lineage before review.",
+      "company_bridge_status": "blocked_external_first_gate",
+      "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
+    },
+    {
+      "review_id": "ibis-independence::financial-data-service-providers::fdsp-alternative",
+      "industry_slug": "financial-data-service-providers",
+      "claim_id": "fdsp-alternative",
+      "claim_text": "Alternative-data sources describe continued adoption of web, geolocation, transaction, satellite, and other datasets, with growth and market-size estimates varying materially across providers.",
+      "review_scope": "repository_metadata_triage",
+      "review_status": "triage_complete_full_review_required",
+      "disposition": "held_insufficient_evidence",
+      "evidence_checked": {
+        "source_count": 4,
+        "publisher_counts": {
+          "Neudata": 1,
+          "Coalition Greenwich": 1,
+          "Ready Signal": 1,
+          "Integrity Research": 1
+        },
+        "source_type_counts": {
+          "trade_association": 1,
+          "research_firm": 2,
+          "company": 1
+        },
+        "missing_published_at_count": 4,
+        "source_urls": [
+          "https://www.neudata.co/blog/state-of-the-alternative-data-market-2026",
+          "https://www.greenwich.com/market-structure-technology/alternative-data-2025-fueling-ai-driven-investment-revolution",
+          "https://www.readysignal.com/alt-data-market-30b-2026-forecasting-playbook/",
+          "https://www.integrity-research.com/the-explosive-growth-of-the-alternative-data-industry-trends-drivers-and-revenue-forecasts-through-2028/"
+        ]
+      },
+      "independence_finding": "Not established: the four rows mix trade/research firms and a company source; the metadata does not establish separate samples, methods, or underlying data ownership.",
+      "outcome_finding": "Not observed: candidate measures are listed, but no dated independent revenue, client, adoption, or workflow outcome is linked to the claim.",
+      "rights_finding": "Not verified for the exact artifacts; retain links as evidence locators only.",
+      "counter_signal": "Vendor and analyst descriptions of alternative data can reflect market narratives rather than measured buyer adoption or realized outcomes.",
+      "next_test": "Map each publisher's underlying dataset and acquire an independent dated buyer, adoption, or revenue measure with a defined denominator.",
+      "company_bridge_status": "blocked_external_first_gate",
+      "stop_rule": "Do not count this claim as independent confirmation, use it to qualify the IBIS finding, or connect it to internal company data until the missing lineage, rights, and outcome fields are completed."
     }
   ],
   "next_action": "Complete the remaining first-batch reviews, then acquire dated independent outcomes for claims that survive metadata triage.",
-  "boundary": "This artifact records five held triage dispositions. It does not qualify any claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge."
+  "boundary": "This artifact records ten held triage dispositions. It does not qualify any claim, establish source independence, clear rights, validate an outcome, or authorize a company bridge."
 }
