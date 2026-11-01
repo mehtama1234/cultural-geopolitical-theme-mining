@@ -1,0 +1,367 @@
+{
+  "schema": "external-trend-intelligence.frontend-publication-review-packet.v1",
+  "status": "review_required_before_frontend_claims",
+  "catalog_chart_count": 11,
+  "registered_publication_count": 6,
+  "review_count": 11,
+  "open_review_count": 11,
+  "required_chart_metadata": [
+    "company_gate",
+    "concept",
+    "counter_signal",
+    "evidence_boundary",
+    "geography",
+    "period",
+    "scope_or_denominator",
+    "subtheme",
+    "theme",
+    "uncertainty",
+    "unit"
+  ],
+  "reviews": [
+    {
+      "chart_id": "domain-coverage",
+      "title": "Required enterprise domains observed",
+      "theme": "observatory-health",
+      "subtheme": "external-domain-coverage",
+      "concept": "breadth of observed external evidence",
+      "source_artifacts": [
+        "domain-coverage-audit.json"
+      ],
+      "required_visible_fields": [
+        "source_host_count",
+        "unique_source_url_count",
+        "coverage_status"
+      ],
+      "boundary": "Coverage is an inventory measure, not evidence that a domain trend is valid or decision-ready.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "counter_signal",
+        "geography",
+        "period",
+        "scope_or_denominator",
+        "subtheme",
+        "theme",
+        "uncertainty",
+        "unit"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    },
+    {
+      "chart_id": "qualified-and-held-trends",
+      "title": "Qualified, monitored, and held candidates",
+      "theme": "trend-qualification",
+      "subtheme": "promotion-and-holdout-gates",
+      "concept": "qualified signals versus unresolved hypotheses",
+      "source_artifacts": [
+        "candidate-qualification-matrix.json",
+        "trend-monitoring-evaluation.json"
+      ],
+      "required_visible_fields": [
+        "blocking_gates",
+        "next_action",
+        "counter_signal"
+      ],
+      "boundary": "Held candidates must remain visibly separate from qualified external trends.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "geography",
+        "period",
+        "scope_or_denominator",
+        "subtheme",
+        "theme",
+        "uncertainty",
+        "unit"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    },
+    {
+      "chart_id": "food-insecurity-holdout",
+      "title": "Food insecurity: construction versus holdout",
+      "theme": "social-and-economic-pressure",
+      "subtheme": "food-insecurity-persistence",
+      "concept": "persistence across construction and holdout periods",
+      "source_artifacts": [
+        "food-insecurity-temporal-holdout.json",
+        "food-insecurity-independent-comparison.json",
+        "urban-wbns-food-insecurity-2025.json",
+        "usda-temporal-holdout.json"
+      ],
+      "required_visible_fields": [
+        "period",
+        "unit",
+        "geography",
+        "uncertainty",
+        "counter_signal"
+      ],
+      "boundary": "Descriptive persistence only; publisher frames and methodology changes are not pooled.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "scope_or_denominator",
+        "subtheme",
+        "theme"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    },
+    {
+      "chart_id": "financial-room-context",
+      "title": "Financial pressure and social reconnection",
+      "theme": "financial-and-cultural-pressure",
+      "subtheme": "practical-room-and-social-connection",
+      "concept": "separate directional mechanisms under financial pressure",
+      "source_artifacts": [
+        "financial-room-decision-card.json",
+        "us-financial-room-independent-comparison.json"
+      ],
+      "required_visible_fields": [
+        "period",
+        "unit",
+        "geography",
+        "scope_or_denominator",
+        "counter_signal"
+      ],
+      "boundary": "Mechanism context only; incompatible denominators and rights prevent pooled estimation or company use.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "subtheme",
+        "theme",
+        "uncertainty"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    },
+    {
+      "chart_id": "mobility-income-gradient",
+      "title": "Zero-vehicle prevalence by income",
+      "theme": "infrastructure-and-access",
+      "subtheme": "mobility-constraint",
+      "concept": "income-stratified access differences across datasets",
+      "source_artifacts": [
+        "mobility-access-independent-comparison.json",
+        "mobility-access-temporal-holdout.json"
+      ],
+      "required_visible_fields": [
+        "period",
+        "unit",
+        "geography",
+        "scope_or_denominator",
+        "uncertainty"
+      ],
+      "boundary": "Independent directional challenge, not a common estimate or causal company exposure.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "counter_signal",
+        "subtheme",
+        "theme"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    },
+    {
+      "chart_id": "forecast-vintage-spread",
+      "title": "Global growth forecast vintages",
+      "theme": "financial-and-market",
+      "subtheme": "global-growth-forecast-risk",
+      "concept": "publisher disagreement and realized-outcome readiness",
+      "source_artifacts": [
+        "global-growth-forecast-comparison.json",
+        "forecast-lineage-review.json",
+        "forecast-backtest-register.json"
+      ],
+      "required_visible_fields": [
+        "vintage",
+        "uncertainty",
+        "backtest_status",
+        "evidence_boundary"
+      ],
+      "boundary": "Comparison queue, not an endorsed forecast; realized outcomes and rights remain open.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "counter_signal",
+        "geography",
+        "period",
+        "scope_or_denominator",
+        "subtheme",
+        "theme",
+        "unit"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    },
+    {
+      "chart_id": "source-freshness",
+      "title": "Source-family freshness decisions",
+      "theme": "observatory-health",
+      "subtheme": "refresh-reliability",
+      "concept": "whether each source family is safe to refresh into the release",
+      "source_artifacts": [
+        "refresh-freshness-decision.json",
+        "refresh-status.json"
+      ],
+      "required_visible_fields": [
+        "last_successful_refresh",
+        "age_days",
+        "missing_artifact_count",
+        "action"
+      ],
+      "boundary": "Freshness permits intake only; it does not establish rights, independence, or trend validity.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "counter_signal",
+        "geography",
+        "period",
+        "scope_or_denominator",
+        "subtheme",
+        "theme",
+        "uncertainty",
+        "unit"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    },
+    {
+      "chart_id": "ibis-adult-day-outcome-changes",
+      "title": "Adult-day outcome changes: separate measures",
+      "theme": "industry-and-workforce",
+      "subtheme": "adult-day-capacity-and-payer-context",
+      "concept": "bounded change across capacity, participation, and state payer context",
+      "source_artifacts": [
+        "ibis-adult-day-outcome-review.json",
+        "npals-public-table-extract.json"
+      ],
+      "required_visible_fields": [
+        "period",
+        "unit",
+        "geography",
+        "uncertainty",
+        "counter_signal"
+      ],
+      "boundary": "Separate descriptive changes only; survey-frame differences, state-specific rates, and rights boundaries prevent pooled estimation or causal company claims.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "scope_or_denominator",
+        "subtheme",
+        "theme"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    },
+    {
+      "chart_id": "ibis-dock-defense-execution-obligations",
+      "title": "Bath Iron Works execution obligations by fiscal year",
+      "theme": "geopolitical-and-infrastructure",
+      "subtheme": "naval-maintenance-execution-context",
+      "concept": "realized transaction obligations beside, but not pooled with, budget context",
+      "source_artifacts": [
+        "ibis-dock-defense-execution-comparison.json",
+        "usaspending-bath-iron-works-execution-snapshot.json"
+      ],
+      "required_visible_fields": [
+        "period",
+        "unit",
+        "geography",
+        "scope_or_denominator",
+        "uncertainty",
+        "counter_signal"
+      ],
+      "boundary": "Transaction obligations for one recipient are not completed work, total shipyard demand, or a pooled conversion of Navy budget-request dollars.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "subtheme",
+        "theme"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    },
+    {
+      "chart_id": "rights-readiness",
+      "title": "Rights review readiness by source family",
+      "theme": "governance-and-rights",
+      "subtheme": "publication-permission",
+      "concept": "local evidence and accountable ownership before rights sign-off",
+      "source_artifacts": [
+        "rights-review-readiness.json",
+        "rights-assignment-queue.json",
+        "rights-evidence-register.json"
+      ],
+      "required_visible_fields": [
+        "local_evidence_status",
+        "rights_status",
+        "owner_status",
+        "publisher_dependence"
+      ],
+      "boundary": "Readiness is not legal clearance or redistribution permission.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "counter_signal",
+        "geography",
+        "period",
+        "scope_or_denominator",
+        "subtheme",
+        "theme",
+        "uncertainty",
+        "unit"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    },
+    {
+      "chart_id": "open-gate-workload",
+      "title": "Open gates and review workload",
+      "theme": "operating-model",
+      "subtheme": "review-workload-and-continuity",
+      "concept": "what prevents promotion or company testing",
+      "source_artifacts": [
+        "open-gate-register.json",
+        "open-gate-history.json"
+      ],
+      "required_visible_fields": [
+        "owner",
+        "status",
+        "acceptance",
+        "priority"
+      ],
+      "boundary": "Workload is not evidence that a gate is closed; unresolved critical work stays visible.",
+      "contract_status": "source_contract_review_required",
+      "missing_chart_level_declarations": [
+        "concept",
+        "counter_signal",
+        "geography",
+        "period",
+        "scope_or_denominator",
+        "subtheme",
+        "theme",
+        "uncertainty",
+        "unit"
+      ],
+      "reviewer": "",
+      "reviewed_at": "",
+      "disposition": ""
+    }
+  ],
+  "boundary": "This packet checks publication-contract completeness only. It does not render charts, grant rights, qualify a trend, or authorize a company bridge.",
+  "next_action": "For every chart, map period, unit, geography, denominator, uncertainty, counter-signal, evidence boundary, and company gate to visible frontend fields; record reviewer disposition before calling the chart decision-ready."
+}

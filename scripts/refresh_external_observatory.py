@@ -161,6 +161,7 @@ STEPS = [
     ["scripts/build_source_release_review_packet.py"],
     ["scripts/build_frontend_publication_registry.py"],
     ["scripts/build_observatory_chart_catalog.py"],
+    ["scripts/build_frontend_publication_review_packet.py"],
     ["scripts/build_external_release_manifest.py"],
     ["scripts/test_frontend_publication_contract.py"],
     ["scripts/test_program_baseline_consistency.py"],

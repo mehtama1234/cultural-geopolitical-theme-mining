@@ -1108,6 +1108,11 @@ def main() -> int:
     assert all(value is None for row in rights_packet["rows"] for value in row["signoff"].values())
     chart_catalog = json.loads((ANALYSIS / "observatory-chart-catalog.json").read_text())
     assert chart_catalog["schema"] == "external-trend-intelligence.observatory-chart-catalog.v1"
+    frontend_packet = json.loads((ANALYSIS / "frontend-publication-review-packet.json").read_text())
+    assert frontend_packet["schema"] == "external-trend-intelligence.frontend-publication-review-packet.v1"
+    assert frontend_packet["review_count"] == chart_catalog["chart_count"]
+    assert frontend_packet["open_review_count"] >= 0
+    assert "analysis/external-trend-intelligence/frontend-publication-review-packet.json" in manifest_paths
     assert chart_catalog["chart_count"] == len(chart_catalog["charts"]) >= 8
     assert all(row["theme"] and row["subtheme"] and row["concept"] for row in chart_catalog["charts"])
     assert all(row["source_artifacts"] and row["required_visible_fields"] for row in chart_catalog["charts"])

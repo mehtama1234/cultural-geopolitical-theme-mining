@@ -58,6 +58,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/temporal-decision-narrative.json",
     "analysis/external-trend-intelligence/release-health.json",
     "analysis/external-trend-intelligence/observatory-chart-catalog.json",
+    "analysis/external-trend-intelligence/frontend-publication-review-packet.json",
     "analysis/external-trend-intelligence/bounded-subset-lineage-review.json",
     "analysis/external-trend-intelligence/program-progress.json",
     "analysis/external-trend-intelligence/program-scorecard.json",
