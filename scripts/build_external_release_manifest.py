@@ -119,6 +119,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/ibis-outcome-acquisition-queue.json",
     "analysis/external-trend-intelligence/usda-community-food-assistance-2024.json",
     "analysis/external-trend-intelligence/feeding-america-map-meal-gap-2026-national.json",
+    "analysis/external-trend-intelligence/feeding-america-rights-review.json",
     "analysis/external-trend-intelligence/ibis-community-food-outcome-linkage-review.json",
     "analysis/external-trend-intelligence/ibis-community-food-comparison.json",
     "analysis/external-trend-intelligence/FEEDING-AMERICA-DATA-REQUEST.md",

@@ -398,6 +398,12 @@ def main() -> int:
     assert "Required review before acquisition is counted" in feeding_request
     assert "request_ready_public_snapshot_only" in feeding_request
     assert "No company data may be connected" in feeding_request
+    feeding_rights = json.loads((ANALYSIS / "feeding-america-rights-review.json").read_text())
+    assert feeding_rights["schema"] == "external-trend-intelligence.feeding-america-rights-review.v1"
+    assert feeding_rights["source_id"] == "feeding-america-map-meal-gap-2026-national"
+    assert feeding_rights["rights_evidence_status"] == "public_page_citable_exact_dataset_terms_pending"
+    assert feeding_rights["release_decision"] == "retain_attributed_public_snapshot_for_internal_review_only"
+    assert feeding_rights["not_cleared"] and feeding_rights["next_action"]
     ibis_dispositions = json.loads((ANALYSIS / "ibis-claim-review-dispositions.json").read_text())
     assert ibis_dispositions["schema"] == "external-trend-intelligence.ibis-claim-review-dispositions.v1"
     assert ibis_dispositions["status"] == "ten_conservative_triage_dispositions_recorded"

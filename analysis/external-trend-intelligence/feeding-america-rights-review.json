@@ -1,0 +1,21 @@
+{
+  "schema": "external-trend-intelligence.feeding-america-rights-review.v1",
+  "source_id": "feeding-america-map-meal-gap-2026-national",
+  "publisher": "Feeding America",
+  "source_url": "https://map.feedingamerica.org/",
+  "terms_evidence_urls": [
+    "https://www.feedingamerica.org/research/map-the-meal-gap/by-county",
+    "https://www.feedingamerica.org/research/map-the-meal-gap/how-we-got-the-map-data",
+    "https://www.feedingamerica.org/terms-of-use"
+  ],
+  "access_basis": "official public national map page; county-level data request route remains separate",
+  "official_policy_observation": "The public map is observable and citable, while the underlying local data and download access are routed through a request process. The methodology page describes modeled estimates and input sources; it does not by itself grant redistribution rights for the underlying dataset or derived company-facing products.",
+  "publisher_dependence": "single_publisher_modeled_estimate_using_public_inputs",
+  "rights_evidence_status": "public_page_citable_exact_dataset_terms_pending",
+  "permitted_scope_for_this_observatory": "Retain the public-page URL, retrieval timestamp, page hash, normalized national values, methodology notes, and attribution for internal evidence review.",
+  "not_cleared": "Bulk county-data redistribution, raw-page reproduction, commercial reuse of request-gated data, and company-facing derived charts remain blocked until the exact dataset terms and permission route are recorded.",
+  "method_boundary": "The national estimate is modeled context, not provider transactions, visits, meals served, revenue, or causal proof of demand.",
+  "next_action": "Submit the bounded data request in FEEDING-AMERICA-DATA-REQUEST.md; attach the response, exact file terms, and permitted derived-use scope before promotion or company-data connection.",
+  "release_decision": "retain_attributed_public_snapshot_for_internal_review_only",
+  "boundary": "This is an operational rights review, not legal advice, a license grant, or evidence of independence from the underlying input series."
+}

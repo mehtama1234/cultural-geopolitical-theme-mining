@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "8d3823b9a2084f6c5a0251e9f99b82dc81e17824",
-  "artifact_count": 163,
+  "source_tree_commit": "30f8be6366a7e646728d866caec6124b2ecd7529",
+  "artifact_count": 164,
   "artifacts": [
     {
       "path": "analysis/external-trend-intelligence/TWO-YEAR-GOAL.md",
@@ -217,7 +217,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "1c4a29698a0d34efd1932344b54a8a02abc4e9af3a13bd59213c54d67c79716f"
+      "sha256": "06bd5adddc439c6fd2b10bdd377e2f33a8c979fb641e6460b851ae0e7c04534b"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -528,6 +528,11 @@
       "path": "analysis/external-trend-intelligence/feeding-america-map-meal-gap-2026-national.json",
       "bytes": 2455,
       "sha256": "e0ddcb6eaa6f20654d55655ae903defbda3eb75eeef2d668874ba50e229b5e5d"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/feeding-america-rights-review.json",
+      "bytes": 2104,
+      "sha256": "f12950824344a80bcf231bea1289f5908ff77595f16eeab2e62d80167e8888ba"
     },
     {
       "path": "analysis/external-trend-intelligence/ibis-community-food-outcome-linkage-review.json",
