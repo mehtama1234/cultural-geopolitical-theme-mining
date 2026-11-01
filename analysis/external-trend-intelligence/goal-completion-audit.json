@@ -33,6 +33,8 @@
         "mobility-access-rights-review.json",
         "uncertainty-coverage-audit.json",
         "external-acquisition-rights-review.json",
+        "candidate-lineage-dependency-review.json",
+        "candidate-independence-adjudication-queue.json",
         "ibis-claim-dependency-review.json",
         "ibis-claim-independence-audit.json",
         "ibis-claim-independence-review-queue.json",
@@ -44,7 +46,7 @@
         "test_rights_release_gate.py",
         "observation-manifest.json"
       ],
-      "gap": "Rights and publisher dependence remain unverified for all source families; the rights-assignment queue now makes the eight-family ownership work explicit, while candidate-specific reviews cover the monitored food-security lane, the mobility comparison, and 7 financial-room sources. The uncertainty coverage audit makes source-level, incomplete, and pending uncertainty visible across six decision-facing artifacts. The 500-industry IBIS sample and six-force review expose repeated source IDs, URLs, missing claim periods, and metadata gaps for dependency review; the claim-independence audit mechanically flags reused URLs, hosts, and publishers, the review queue turns the remaining low-dependency claims into assigned work, the first ten-claim packet provides a concrete starting batch, and two claims now have conservative held triage dispositions rather than unsupported promotion. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
+      "gap": "Rights and publisher dependence remain unverified for all source families; the rights-assignment queue now makes the eight-family ownership work explicit, and the candidate independence adjudication queue makes all five candidate reviews assignable with 4 high-priority rows. Candidate-specific reviews cover the monitored food-security lane, the mobility comparison, and 7 financial-room sources. The uncertainty coverage audit makes source-level, incomplete, and pending uncertainty visible across six decision-facing artifacts. The 500-industry IBIS sample and six-force review expose repeated source IDs, URLs, missing claim periods, and metadata gaps for dependency review; the claim-independence audit mechanically flags reused URLs, hosts, and publishers, the review queue turns the remaining low-dependency claims into assigned work, the first ten-claim packet provides a concrete starting batch, and two claims now have conservative held triage dispositions rather than unsupported promotion. Upstream redistribution and enterprise rights approval remain open. The SHED point estimate has only a non-release naive interval and design-based variance remains open."
     },
     {
       "id": "independent_source_comparison",

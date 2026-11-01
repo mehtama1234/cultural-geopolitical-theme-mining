@@ -22,6 +22,7 @@ def main() -> int:
     pilots = load("pilot-readiness.json")
     successor = load("successor-run-evidence.json")
     ownership = load("ownership-assignment-queue.json")
+    independence_queue = load("candidate-independence-adjudication-queue.json")
     continuity = load("refresh-continuity-audit.json")
     dry_run = load("pilot-design-dry-run.json")
     intake = load("pilot-contract-intake.json")
@@ -40,6 +41,8 @@ def main() -> int:
     assert m["pilot_contract_intake_status"] == intake["status"]
     assert m["pilot_contract_count"] == intake["pilot_count"]
     assert m["unassigned_operating_roles"] == ownership["unassigned_role_count"]
+    assert m["independence_adjudication_pending"] == independence_queue["unassigned_count"]
+    assert m["independence_adjudication_high_priority"] == independence_queue["high_priority_count"]
     assert m["observed_refresh_continuity"] == continuity["continuity_status"]
     assert m["unattended_two_year_coverage"] == continuity["unattended_two_year_coverage"]
     print("operational KPI scorecard: reconciled")

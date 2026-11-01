@@ -26,6 +26,8 @@
     "shared_host_count": 4,
     "publisher_independence_status": "unverified",
     "unassigned_operating_roles": 6,
+    "independence_adjudication_pending": 5,
+    "independence_adjudication_high_priority": 4,
     "observed_refresh_continuity": "observed_burst_only",
     "unattended_two_year_coverage": "not_demonstrated"
   },
@@ -72,6 +74,10 @@
     },
     "named_operating_ownership": {
       "target": "0 unassigned primary/backup roles",
+      "status": "hold"
+    },
+    "independence_adjudication": {
+      "target": "every candidate has a disposition and reviewer",
       "status": "hold"
     },
     "refresh_continuity": {

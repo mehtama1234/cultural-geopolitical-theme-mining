@@ -28,6 +28,7 @@ def main() -> int:
     monitoring = load("trend-monitoring-status.json")
     dependence = load("publisher-dependence-summary.json")
     ownership = load("ownership-assignment-queue.json")
+    independence_queue = load("candidate-independence-adjudication-queue.json")
     continuity = load("refresh-continuity-audit.json")
     latest = history["latest"]
     metrics = {
@@ -55,6 +56,8 @@ def main() -> int:
         "shared_host_count": dependence["shared_host_count"],
         "publisher_independence_status": dependence["independence_status"],
         "unassigned_operating_roles": ownership["unassigned_role_count"],
+        "independence_adjudication_pending": independence_queue["unassigned_count"],
+        "independence_adjudication_high_priority": independence_queue["high_priority_count"],
         "observed_refresh_continuity": continuity["continuity_status"],
         "unattended_two_year_coverage": continuity["unattended_two_year_coverage"],
     }
@@ -70,6 +73,7 @@ def main() -> int:
         "monitoring_register_coverage": {"target": "every candidate has an execution state", "status": "pass" if metrics["monitoring_watches"] == qualification["candidate_count"] else "hold"},
         "publisher_dependence_review": {"target": "shared hosts remain visible and reviewed", "status": "pass" if metrics["shared_host_count"] >= 0 and metrics["publisher_independence_status"] != "unreviewed" else "hold"},
         "named_operating_ownership": {"target": "0 unassigned primary/backup roles", "status": "pass" if metrics["unassigned_operating_roles"] == 0 else "hold"},
+        "independence_adjudication": {"target": "every candidate has a disposition and reviewer", "status": "pass" if metrics["independence_adjudication_pending"] == 0 else "hold"},
         "refresh_continuity": {"target": "weekly runs observed across distinct weeks", "status": "pass" if metrics["unattended_two_year_coverage"] == "demonstrated" else "hold"},
     }
     payload = {

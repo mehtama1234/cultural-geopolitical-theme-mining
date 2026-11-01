@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "117fecb44c6a309373b47910bc60b9580f38b019",
+  "source_tree_commit": "152612e1802f10cc12fa8f16fd01285ae159dc7d",
   "artifact_count": 121,
   "artifacts": [
     {
@@ -56,8 +56,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
-      "bytes": 2851,
-      "sha256": "41e508f38b969ec20124c07c86e3f0f9dfc58619981e710f86dc5ec4ff7b0a28"
+      "bytes": 3076,
+      "sha256": "f43f49375eb74c9f16c7636946af8a4782e0bb565cd7eec3456b8bec84da2f67"
     },
     {
       "path": "analysis/external-trend-intelligence/pilot-design-dry-run.json",
@@ -191,8 +191,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 7723,
-      "sha256": "53e44435fa1b93d39b1e877d321632ff9aade39cfc93f1c5b2a96a4bd8cb7f11"
+      "bytes": 7948,
+      "sha256": "b2826b2efdcb543b4364f59ebf640b76fb3e2c58d0bcf43bc0b9ec4b2349a37e"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
