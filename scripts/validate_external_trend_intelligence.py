@@ -365,6 +365,12 @@ def main() -> int:
     assert continuity["expected_cadence"] == "weekly"
     assert continuity["unattended_two_year_coverage"] == "not_demonstrated"
     assert continuity["next_action"] and continuity["boundary"]
+    ownership = json.loads((ANALYSIS / "ownership-assignment-queue.json").read_text())
+    assert ownership["schema"] == "external-trend-intelligence.ownership-assignment-queue.v1"
+    assert ownership["role_count"] == len(ownership["roles"]) == 6
+    assert ownership["unassigned_role_count"] + ownership["assigned_role_count"] == ownership["role_count"]
+    assert ownership["status"] in {"assignment_required", "assigned_pending_successor_signoff"}
+    assert all(item["acceptance_criteria"] and item["handoff_checkpoint"] for item in ownership["roles"])
     assert all(sample["claims"] for sample in ibis_sample["samples"])
     assert any(claim["sources"] for sample in ibis_sample["samples"] for claim in sample["claims"])
     assert ibis_sample["counter_signals"]

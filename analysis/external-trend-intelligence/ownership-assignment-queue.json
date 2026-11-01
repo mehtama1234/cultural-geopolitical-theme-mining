@@ -1,0 +1,95 @@
+{
+  "schema": "external-trend-intelligence.ownership-assignment-queue.v1",
+  "role_count": 6,
+  "assigned_role_count": 0,
+  "unassigned_role_count": 6,
+  "status": "assignment_required",
+  "roles": [
+    {
+      "role": "source_steward",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "evidence": "ANALYST-OPERATING-MODEL.md",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation"
+    },
+    {
+      "role": "evidence_analyst",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "evidence": "ANALYST-OPERATING-MODEL.md",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation"
+    },
+    {
+      "role": "lineage_reviewer",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "evidence": "SOURCE-LINEAGE-AUDIT.md",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation"
+    },
+    {
+      "role": "trend_challenger",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "evidence": "trend-qualification-rubric.json",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation"
+    },
+    {
+      "role": "decision_translator",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "evidence": "PILOT-VALIDATION-PROTOCOL.md",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation"
+    },
+    {
+      "role": "release_owner",
+      "primary_owner": null,
+      "backup_owner": null,
+      "current_status": "unassigned",
+      "evidence": "REFRESH-RUNBOOK.md",
+      "acceptance_criteria": [
+        "named primary owner recorded",
+        "named backup owner recorded",
+        "scope and escalation boundary acknowledged",
+        "one independently reviewable run or decision note signed"
+      ],
+      "handoff_checkpoint": "month_21_successor_validation"
+    }
+  ],
+  "next_action": "Record named primary and backup owners for every role, then have a second analyst run the full refresh and sign the handoff independently.",
+  "boundary": "This queue requests operational ownership; it does not infer identity, authorize internal data access, or prove that a successor run has occurred."
+}

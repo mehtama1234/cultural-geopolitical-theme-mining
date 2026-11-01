@@ -78,6 +78,7 @@ STEPS = [
     ["scripts/test_review_calendar.py"],
     ["scripts/build_goal_completion_audit.py"],
     ["scripts/test_successor_handoff.py"],
+    ["scripts/build_ownership_assignment_queue.py"],
     ["scripts/build_operational_kpi_scorecard.py"],
     ["scripts/test_operational_kpi_scorecard.py"],
     ["scripts/build_external_release_manifest.py"],

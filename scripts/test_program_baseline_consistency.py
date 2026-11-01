@@ -35,6 +35,7 @@ def main() -> int:
         "analysis/external-trend-intelligence/food-security-decision-brief.json",
         "analysis/external-trend-intelligence/operating-handoff.json",
         "analysis/external-trend-intelligence/successor-run-evidence.json",
+        "analysis/external-trend-intelligence/ownership-assignment-queue.json",
         "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
         "analysis/external-trend-intelligence/trend-monitoring-status.json",
         "analysis/external-trend-intelligence/falsification-review-queue.json",

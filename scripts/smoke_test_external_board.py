@@ -30,6 +30,7 @@ ARTIFACTS = [
     "financial-room-rights-review.json",
     "food-security-decision-brief.json",
     "refresh-continuity-audit.json",
+    "ownership-assignment-queue.json",
     "trend-monitoring-status.json",
     "falsification-review-queue.json",
 ]
@@ -68,6 +69,7 @@ def main() -> int:
                             "Qualified external trend brief",
                             "food-security-decision-brief.json",
                             "refresh-continuity-audit.json",
+                            "ownership-assignment-queue.json",
                             "Monitoring execution status",
                             "trend-monitoring-status.json",
                             "Falsification review queue",
