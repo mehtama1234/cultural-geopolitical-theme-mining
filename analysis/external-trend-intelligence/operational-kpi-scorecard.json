@@ -18,6 +18,8 @@
     "successor_validation_status": "pass",
     "external_only_boundary": "passed",
     "pilot_design_dry_run": "pass",
+    "pilot_contract_intake_status": "template_only_no_company_data",
+    "pilot_contract_count": 2,
     "monitoring_watches": 5,
     "qualified_monitor_watches": 1,
     "prequalification_watches": 4,
@@ -54,6 +56,10 @@
     },
     "pilot_design_contracts": {
       "target": "all design-only pilots pass contract dry run",
+      "status": "pass"
+    },
+    "pilot_intake_contracts": {
+      "target": "every design-only pilot has a fillable pre-registration contract",
       "status": "pass"
     },
     "monitoring_register_coverage": {

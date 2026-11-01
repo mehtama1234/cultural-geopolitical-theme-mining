@@ -24,6 +24,7 @@ def main() -> int:
     pilots = load("pilot-readiness.json")
     successor = load("successor-run-evidence.json")
     pilot_dry_run = load("pilot-design-dry-run.json")
+    pilot_intake = load("pilot-contract-intake.json")
     monitoring = load("trend-monitoring-status.json")
     dependence = load("publisher-dependence-summary.json")
     ownership = load("ownership-assignment-queue.json")
@@ -46,6 +47,8 @@ def main() -> int:
         "successor_validation_status": successor["status"],
         "external_only_boundary": "passed",
         "pilot_design_dry_run": pilot_dry_run["status"],
+        "pilot_contract_intake_status": pilot_intake["status"],
+        "pilot_contract_count": pilot_intake["pilot_count"],
         "monitoring_watches": monitoring["trend_count"],
         "qualified_monitor_watches": monitoring["qualified_monitor_count"],
         "prequalification_watches": monitoring["prequalification_watch_count"],
@@ -63,6 +66,7 @@ def main() -> int:
         "external_first_pilot_gate": {"target": "0 approved tests until all gates pass", "status": "pass" if metrics["approved_company_pilots"] == 0 else "review"},
         "external_only_boundary": {"target": "no connected company data in release", "status": metrics["external_only_boundary"]},
         "pilot_design_contracts": {"target": "all design-only pilots pass contract dry run", "status": metrics["pilot_design_dry_run"]},
+        "pilot_intake_contracts": {"target": "every design-only pilot has a fillable pre-registration contract", "status": "pass" if metrics["pilot_contract_count"] == pilots["pilot_count"] and metrics["pilot_contract_intake_status"] == "template_only_no_company_data" else "hold"},
         "monitoring_register_coverage": {"target": "every candidate has an execution state", "status": "pass" if metrics["monitoring_watches"] == qualification["candidate_count"] else "hold"},
         "publisher_dependence_review": {"target": "shared hosts remain visible and reviewed", "status": "pass" if metrics["shared_host_count"] >= 0 and metrics["publisher_independence_status"] != "unreviewed" else "hold"},
         "named_operating_ownership": {"target": "0 unassigned primary/backup roles", "status": "pass" if metrics["unassigned_operating_roles"] == 0 else "hold"},
