@@ -54,7 +54,7 @@ def main() -> int:
         "counter_signal": "Budgeted workload can be delayed, reprogrammed, or executed by different facilities; planned availabilities do not establish realized demand or capacity utilization.",
         "falsifier": "Subsequent execution records show no corresponding awards, availabilities, or maintenance workload, or the budget context is not comparable to the IBIS claim's unit and period.",
         "release_decision": "retain_normalized_official_context_only",
-        "next_action": "Acquire an official execution or award series with compatible period, geography, and outcome definition before treating this as independent confirmation or promoting the IBIS claim.",
+        "next_action": "Use NAVY-EXECUTION-DATA-REQUEST.md to acquire an official execution or award series with compatible period, geography, and outcome definition before treating this as independent confirmation or promoting the IBIS claim.",
         "boundary": "This artifact is a bounded official context acquisition. It does not validate the IBIS finding, establish causal defense demand, clear rights, or authorize an internal company bridge.",
     }
     OUTPUT.write_text(json.dumps(payload, indent=2) + "\n")

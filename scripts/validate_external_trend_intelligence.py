@@ -383,6 +383,11 @@ def main() -> int:
     assert len(dock_outcome["observations"]) == 4
     assert dock_outcome["release_decision"] == "retain_normalized_official_context_only"
     assert dock_outcome["rights_boundary"] and dock_outcome["next_action"]
+    navy_request = (ANALYSIS / "NAVY-EXECUTION-DATA-REQUEST.md").read_text()
+    assert "USAspending.gov" in navy_request
+    assert "Required review fields" in navy_request
+    assert "request_ready_execution_award_acquisition_only" in navy_request
+    assert "Do not promote the IBIS claim" in navy_request
     feeding_america = json.loads((ANALYSIS / "feeding-america-map-meal-gap-2026-national.json").read_text())
     assert feeding_america["schema"] == "external-trend-intelligence.feeding-america-map-meal-gap-snapshot.v1"
     assert feeding_america["status"] == "public_national_estimate_snapshot_method_review_pending"

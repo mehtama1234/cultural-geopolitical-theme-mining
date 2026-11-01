@@ -1012,6 +1012,7 @@
       fetch('ibis-dock-defense-outcome-review.json').then(r => r.json()).then(review => {
         el('ibis-outcome-acquisition').prepend(card('Navy ship-maintenance context', review.review_status, `${review.observations.length} FY2026 budget observations acquired. ${review.interpretation} Next: ${review.next_action}`));
       });
+      el('ibis-outcome-acquisition').append(card('Navy execution-data handoff', 'request_ready_execution_award_acquisition_only', '<a href="NAVY-EXECUTION-DATA-REQUEST.md">Open the request handoff</a> before treating budget context as realized demand or independent confirmation.'));
       el('ibis-outcome-acquisition').append(card('Feeding America data-request handoff', 'request_ready_public_snapshot_only', 'The underlying county/state release is request-gated. <a href="FEEDING-AMERICA-DATA-REQUEST.md">Open the request handoff</a> before any pooled comparison or company use.'));
     }).catch(error => { el('candidate-count').textContent = 'error'; const p = document.createElement('p'); p.className='muted'; p.textContent = error.message; el('candidates').append(p); });
     fetch('program-scorecard.json').then(r => r.json()).then(scorecard => {

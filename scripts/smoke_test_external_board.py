@@ -62,6 +62,7 @@ ARTIFACTS = [
     "feeding-america-rights-review.json",
     "ibis-community-food-outcome-linkage-review.json",
     "ibis-dock-defense-outcome-review.json",
+    "NAVY-EXECUTION-DATA-REQUEST.md",
     "ibis-community-food-comparison.json",
     "FEEDING-AMERICA-DATA-REQUEST.md",
 ]
@@ -166,6 +167,7 @@ def main() -> int:
                             "Official USDA outcome + Feeding America challenge",
                             "USDA versus Feeding America comparison",
                             "Navy ship-maintenance context",
+                            "NAVY-EXECUTION-DATA-REQUEST.md",
                             "ibis-food-comparison-chart",
                             "ibis-community-food-outcome-linkage-review.json",
                             "feeding-america-rights-review.json",
