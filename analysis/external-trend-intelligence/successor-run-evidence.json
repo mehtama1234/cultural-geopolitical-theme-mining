@@ -3,12 +3,12 @@
   "status": "pass",
   "mode": "read_only_successor_validation",
   "actor": "successor-analyst-simulation",
-  "source_tree_commit": "029179f472d56780d51b5cb659acef38044adb4b",
+  "source_tree_commit": "dce981cb2709e57281eb8a6ae5a1be37d00055ce",
   "checks": [
     {
       "id": "release_manifest_present",
       "status": "pass",
-      "detail": "86 artifacts"
+      "detail": "87 artifacts"
     },
     {
       "id": "external_only_boundary",
