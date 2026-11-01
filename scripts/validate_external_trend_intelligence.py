@@ -624,6 +624,13 @@ def main() -> int:
     assert financial_rights["source_count"] == len(financial_rights["rows"]) >= 7
     assert all(row["publisher"] and row["terms_urls"] and row["rights_status"] and row["next_action"] for row in financial_rights["rows"])
     assert "do_not_redistribute" in financial_rights["release_decision"]
+    brief = json.loads((ANALYSIS / "food-security-decision-brief.json").read_text())
+    assert brief["schema"] == "external-trend-intelligence.food-security-decision-brief.v1"
+    assert brief["candidate_id"] == "candidate-us-food-insecurity-persistence"
+    assert brief["qualification_state"] == "monitored_external_trend"
+    assert brief["evidence"]["primary_holdout"] == "food-insecurity-temporal-holdout.json"
+    assert brief["uncertainty"] and brief["falsifier"] and brief["company_gate"]
+    assert "not" in brief["boundary"]
     assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}

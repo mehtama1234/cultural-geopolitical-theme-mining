@@ -1,0 +1,32 @@
+{
+  "schema": "external-trend-intelligence.food-security-decision-brief.v1",
+  "candidate_id": "candidate-us-food-insecurity-persistence",
+  "qualification_state": "monitored_external_trend",
+  "headline": "U.S. food insecurity remains elevated after pandemic support changes, with persistence visible in a later Urban holdout and a non-pooled USDA challenge.",
+  "signal_summary": "The holdout remains above the 2019\u20132023 construction mean, supporting persistence of elevated food insecurity in the Urban working-age series.",
+  "decision_use": "Use this as an external planning signal for service-capacity, affordability, and support-scenario review. Do not infer company exposure, causality, or a pooled adult-household prevalence estimate.",
+  "evidence": {
+    "primary_holdout": "food-insecurity-temporal-holdout.json",
+    "independent_challenge": "usda-temporal-holdout.json",
+    "qualification_matrix": "candidate-qualification-matrix.json",
+    "rights_review": "food-insecurity-rights-review.json"
+  },
+  "chart_artifacts": [
+    "food-insecurity-temporal-holdout.json",
+    "usda-temporal-holdout.json"
+  ],
+  "counter_signals": [
+    "USDA household prevalence is not numerically pooled with the Urban adult-respondent series; USDA reports the 2024 change was not statistically significant versus 2023.",
+    "USDA reports that the 2024 prevalence was not statistically significantly different from 2023 or 2022."
+  ],
+  "uncertainty": [
+    "Urban and USDA use different populations, instruments, and denominators.",
+    "The 2025 Urban methodology break must remain visible in future refreshes.",
+    "The current result is descriptive persistence, not causal validation or a forecast."
+  ],
+  "falsifier": "A later Urban release that falls below the 2019\u20132021 baseline without a documented questionnaire or frame change, or a later USDA release showing a sustained reversal, would weaken the persistence claim.",
+  "next_action": "Refresh both source families on their next releases, preserve questionnaire and denominator definitions, and review whether the 2025 Urban method change alters the holdout interpretation.",
+  "rights_boundary": "retain_as_attributed_metadata_and_internal_review_only; do_not_redistribute_upstream_content_or_connect_company_data_until_rights_owner_approves",
+  "company_gate": "No company data connection or downstream redistribution is authorized until the rights owner approves reuse and a separate company decision contract, privacy review, and preregistered analysis pass.",
+  "boundary": "This brief is a decision-ready external narrative for monitoring and scenario framing. It is not a company finding, causal claim, forecast, or legal clearance."
+}

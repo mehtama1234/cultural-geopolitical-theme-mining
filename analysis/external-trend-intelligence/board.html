@@ -168,6 +168,11 @@
       <div class="promotion-gates" id="goal-audit"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>Qualified external trend brief</h2>
+      <p class="muted">This is the reader-ready external narrative. It preserves uncertainty and rights boundaries and does not authorize a company join.</p>
+      <div class="promotion-gates" id="qualified-trend-brief"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Successor validation control</h2>
       <p class="muted">This is a read-only reproducibility check. It does not substitute for named human ownership or approve an internal company pilot.</p>
       <div class="promotion-gates" id="successor-validation"></div>
@@ -654,6 +659,13 @@
       fetch('goal-completion-audit.json').then(r => r.json()).then(audit => {
         el('goal-audit').append(card(audit.overall_status, audit.release_status, audit.next_action));
         audit.requirements.forEach(item => el('goal-audit').append(card(item.id.replaceAll('_', ' '), item.status, `${item.gap} Evidence: ${item.evidence.join(', ')}`)));
+      });
+      fetch('food-security-decision-brief.json').then(r => r.json()).then(brief => {
+        const target = el('qualified-trend-brief');
+        target.append(card(brief.headline, brief.qualification_state, brief.decision_use));
+        target.append(card('Signal', 'descriptive', `${brief.signal_summary} Falsifier: ${brief.falsifier}`));
+        target.append(card('Uncertainty and rights', 'review_required', `${brief.uncertainty.join(' · ')} Rights: ${brief.rights_boundary}`));
+        target.append(card('Company boundary', 'blocked_external_first', `${brief.company_gate} Next: ${brief.next_action}`));
       });
       fetch('evidence-acquisition-plan.json').then(r => r.json()).then(plan => {
         plan.tracks.forEach(track => el('acquisition-queue').append(card(track.track_id.replaceAll('-', ' '), track.owner, `${track.target_source}. Acceptance: ${track.acceptance_criteria.join(' · ')} Stop: ${track.stop_rule}`)));
