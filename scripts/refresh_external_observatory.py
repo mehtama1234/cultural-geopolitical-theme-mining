@@ -68,6 +68,7 @@ STEPS = [
     ["scripts/build_refresh_history.py"],
     ["scripts/build_program_scorecard.py"],
     ["scripts/test_successor_handoff.py"],
+    ["scripts/build_operational_kpi_scorecard.py"],
     ["scripts/build_external_release_manifest.py"],
     ["scripts/test_program_baseline_consistency.py"],
     ["scripts/validate_external_trend_intelligence.py"],

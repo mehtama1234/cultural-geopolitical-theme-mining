@@ -163,6 +163,11 @@
       <div class="promotion-gates" id="successor-validation"></div>
     </section>
     <section style="margin-top:28px">
+      <h2>24-month operating KPI scorecard</h2>
+      <p class="muted">These metrics track whether the observatory is operating reliably and staying external-first; they do not imply legal, causal, or company-impact validation.</p>
+      <div class="promotion-gates" id="operational-kpis"></div>
+    </section>
+    <section style="margin-top:28px">
       <h2>Evidence acquisition queue</h2>
       <p class="muted">These tracks define the next external-only evidence work and its stop rules.</p>
       <div class="promotion-gates" id="acquisition-queue"></div>
@@ -688,6 +693,12 @@
     fetch('successor-run-evidence.json').then(r => r.json()).then(evidence => {
       const passed = evidence.checks.filter(check => check.status === 'pass').length;
       el('successor-validation').append(card('Read-only successor validation', evidence.status, `${passed}/${evidence.checks.length} checks passed · internal data access: ${evidence.internal_data_access} · human assignment: ${evidence.human_successor_assignment} · ${evidence.boundary}`));
+    });
+    fetch('operational-kpi-scorecard.json').then(r => r.json()).then(scorecard => {
+      const m = scorecard.metrics;
+      const t = scorecard.thresholds;
+      el('operational-kpis').append(card('Operating metrics', 'measured', `${m.refresh_runs_recorded} refresh runs · ${m.latest_pipeline_steps} steps ${m.latest_pipeline_status} · ${m.stale_source_families} stale families · ${m.rights_reviews_required} rights reviews · ${m.qualified_external_trends} qualified / ${m.held_candidates} held · ${m.approved_company_pilots} approved pilots`));
+      Object.entries(t).forEach(([name, value]) => el('operational-kpis').append(card(name.replaceAll('_', ' '), value.status, `Target: ${value.target}`)));
     });
   </script>
 </body>
