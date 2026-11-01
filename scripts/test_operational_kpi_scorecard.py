@@ -21,6 +21,8 @@ def main() -> int:
     rights = load("source-family-controls.json")
     pilots = load("pilot-readiness.json")
     successor = load("successor-run-evidence.json")
+    ownership = load("ownership-assignment-queue.json")
+    continuity = load("refresh-continuity-audit.json")
     dry_run = load("pilot-design-dry-run.json")
     m = kpi["metrics"]
     assert m["refresh_runs_recorded"] == history["run_count"]
@@ -34,6 +36,9 @@ def main() -> int:
     assert m["approved_company_pilots"] == pilots["ready_for_approved_test_count"]
     assert m["successor_validation_status"] == successor["status"]
     assert m["pilot_design_dry_run"] == dry_run["status"]
+    assert m["unassigned_operating_roles"] == ownership["unassigned_role_count"]
+    assert m["observed_refresh_continuity"] == continuity["continuity_status"]
+    assert m["unattended_two_year_coverage"] == continuity["unattended_two_year_coverage"]
     print("operational KPI scorecard: reconciled")
     return 0
 

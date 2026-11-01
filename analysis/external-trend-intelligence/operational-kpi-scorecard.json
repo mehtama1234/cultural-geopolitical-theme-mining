@@ -2,7 +2,7 @@
   "schema": "external-trend-intelligence.operational-kpi-scorecard.v1",
   "as_of": "2026-10-31",
   "metrics": {
-    "refresh_runs_recorded": 79,
+    "refresh_runs_recorded": 80,
     "latest_pipeline_steps": 76,
     "latest_pipeline_status": "passed",
     "stale_source_families": 0,
@@ -22,7 +22,10 @@
     "qualified_monitor_watches": 1,
     "prequalification_watches": 4,
     "shared_host_count": 4,
-    "publisher_independence_status": "unverified"
+    "publisher_independence_status": "unverified",
+    "unassigned_operating_roles": 6,
+    "observed_refresh_continuity": "observed_burst_only",
+    "unattended_two_year_coverage": "not_demonstrated"
   },
   "thresholds": {
     "refresh_pipeline_pass_rate": {
@@ -60,6 +63,14 @@
     "publisher_dependence_review": {
       "target": "shared hosts remain visible and reviewed",
       "status": "pass"
+    },
+    "named_operating_ownership": {
+      "target": "0 unassigned primary/backup roles",
+      "status": "hold"
+    },
+    "refresh_continuity": {
+      "target": "weekly runs observed across distinct weeks",
+      "status": "hold"
     }
   },
   "review_cadence": "weekly refresh review; monthly evidence and rights review; quarterly qualification and decision review",
