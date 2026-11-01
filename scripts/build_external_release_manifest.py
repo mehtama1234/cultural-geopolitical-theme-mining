@@ -93,6 +93,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/jpmorgan-household-liquidity-chart.json",
     "analysis/external-trend-intelligence/usda-temporal-holdout.json",
     "analysis/external-trend-intelligence/food-insecurity-temporal-holdout.json",
+    "analysis/external-trend-intelligence/food-insecurity-independent-comparison.json",
     "analysis/external-trend-intelligence/food-insecurity-rights-review.json",
     "analysis/external-trend-intelligence/food-security-decision-brief.json",
     "analysis/external-trend-intelligence/financial-room-rights-review.json",

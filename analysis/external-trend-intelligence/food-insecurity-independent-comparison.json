@@ -1,0 +1,67 @@
+{
+  "schema": "external-trend-intelligence.food-insecurity-independent-comparison.v1",
+  "candidate_id": "candidate-us-food-insecurity-persistence",
+  "status": "independent_directional_challenge_not_comparable",
+  "source_families": [
+    {
+      "publisher": "Urban Institute",
+      "host": "www.urban.org",
+      "population": "U.S. working-age adults",
+      "instrument": "Well-Being and Basic Needs Survey",
+      "measure": "food insecurity in the prior 30 days",
+      "periods": "2019-2025",
+      "rights_status": "permission_required_for_republication"
+    },
+    {
+      "publisher": "USDA Economic Research Service",
+      "host": "www.ers.usda.gov",
+      "population": "U.S. households",
+      "instrument": "Current Population Survey Food Security Supplement",
+      "measure": "food insecure at some time during the year",
+      "periods": "2022-2024",
+      "rights_status": "conditional_attribution_use_documented"
+    }
+  ],
+  "overlap_rows": [
+    {
+      "period": 2022,
+      "urban_working_age_percent": 24.7,
+      "usda_household_percent": 12.8,
+      "difference_percentage_points": 11.9
+    },
+    {
+      "period": 2023,
+      "urban_working_age_percent": 27.2,
+      "usda_household_percent": 13.5,
+      "difference_percentage_points": 13.7
+    },
+    {
+      "period": 2024,
+      "urban_working_age_percent": 27.0,
+      "usda_household_percent": 13.7,
+      "difference_percentage_points": 13.3
+    }
+  ],
+  "directional_readout": {
+    "urban_change_2022_to_2024_percentage_points": 2.3,
+    "usda_change_2022_to_2024_percentage_points": 0.9,
+    "direction": "both_series_increase",
+    "uncertainty": "USDA reports the 2024 change was not statistically significant; comparable Urban uncertainty was not available in the retained artifact."
+  },
+  "independence_review": {
+    "publisher_distinct": true,
+    "host_distinct": true,
+    "same_underlying_instrument": false,
+    "status": "distinct_publishers_but_population_measure_and_uncertainty_differ"
+  },
+  "pooling_decision": "do_not_pool",
+  "blocking_items": [
+    "different population denominator",
+    "30-day versus annual reference period",
+    "instrument and threshold differ",
+    "Urban uncertainty not retained",
+    "Urban republication permission remains open"
+  ],
+  "next_action": "Acquire comparable uncertainty and questionnaire documentation for the next Urban and USDA releases before revising the monitored trend or using it in a company decision contract.",
+  "boundary": "This is a directional independent challenge. It supports monitoring, not a common prevalence estimate, causal effect, forecast, or company exposure."
+}

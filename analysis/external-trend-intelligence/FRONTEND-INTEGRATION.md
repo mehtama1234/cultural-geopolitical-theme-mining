@@ -25,6 +25,7 @@ blockers.
 | NPALS public-table reconciliation | `npals-public-table-extract.json` | API query, retrieval/hash, 2020 state coverage, 2022/2025 national rows, definition mismatch and non-pooling boundary |
 | IBIS claim review | `ibis-finding-claim-sample.json` | sampled claim count, source identity, URL/publisher/time metadata, outcome-linkage candidate, independence pending status |
 | Independent comparison | `independent-stage-comparison.json`, `room-independent-comparison.json` | source families, mechanism status, blocking items, non-pooling boundary |
+| Food-insecurity independent challenge | `food-insecurity-independent-comparison.json` | distinct publishers/hosts, overlapping periods, directional change, uncertainty, pooling decision, rights and comparability blockers |
 | Temporal holdout and narrative | `temporal-holdout-design.json`, `temporal-holdout-result.json`, `temporal-decision-narrative.json` | construction/holdout periods, units, directional result, counter-signal, uncertainty, decision use |
 | Rights evidence | `rights-review-queue.json`, `rights-assignment-queue.json`, `rights-evidence-register.json` | rights status, accountable review owner, local evidence files, hashes, publisher dependence, stop rule |
 | Acquisition queue | `evidence-acquisition-plan.json` | target source, required fields, acceptance criteria, stop rule, owner |

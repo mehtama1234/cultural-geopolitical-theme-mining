@@ -665,6 +665,9 @@
       fetch('food-insecurity-rights-review.json').then(r => r.json()).then(review => {
         el('food-insecurity-holdout').append(card('Rights boundary', review.release_decision, review.sources.map(source => `${source.publisher}: ${source.rights_status}`).join(' · ')));
       });
+      fetch('food-insecurity-independent-comparison.json').then(r => r.json()).then(comparison => {
+        el('food-insecurity-holdout').append(card('Independent publisher challenge', comparison.status, `${comparison.directional_readout.direction}; ${comparison.pooling_decision}. ${comparison.blocking_items.join(' · ')}`));
+      });
       fetch('shed-point-estimate-reproduction-audit.json').then(r => r.json()).then(audit => {
         const target = el('shed-reproduction');
         target.append(card('Two-year point estimate', audit.status, `${audit.interpretation} ${audit.next_test}`));

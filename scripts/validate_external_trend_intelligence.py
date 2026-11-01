@@ -700,6 +700,12 @@ def main() -> int:
     assert brief["evidence"]["primary_holdout"] == "food-insecurity-temporal-holdout.json"
     assert brief["uncertainty"] and brief["falsifier"] and brief["company_gate"]
     assert "not" in brief["boundary"]
+    food_comparison = json.loads((ANALYSIS / "food-insecurity-independent-comparison.json").read_text())
+    assert food_comparison["schema"] == "external-trend-intelligence.food-insecurity-independent-comparison.v1"
+    assert food_comparison["status"] == "independent_directional_challenge_not_comparable"
+    assert food_comparison["independence_review"]["publisher_distinct"] is True
+    assert food_comparison["pooling_decision"] == "do_not_pool"
+    assert len(food_comparison["overlap_rows"]) == 3
     assert len(acquisition["tracks"]) == 4
     assert all(track["stop_rule"] for track in acquisition["tracks"])
     track_by_id = {track["track_id"]: track for track in acquisition["tracks"]}
