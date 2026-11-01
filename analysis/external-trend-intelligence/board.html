@@ -269,6 +269,7 @@
       <p class="muted">This is the first qualified external pattern. The holdout is descriptive and non-pooled; it does not authorize a company join.</p>
       <div class="panel" style="margin:12px 0"><h3>Urban construction mean → holdout mean</h3><div id="food-insecurity-holdout-chart"></div></div>
       <div class="promotion-gates" id="food-insecurity-holdout"></div>
+      <div class="promotion-gates" id="food-insecurity-chart-metadata"></div>
     </section>
     <section style="margin-top:28px">
       <h2>SHED point-estimate reproduction</h2>
@@ -387,6 +388,8 @@
     }
     function holdoutChart(target, rows) {
       target.replaceChildren();
+      target.setAttribute('role', 'img');
+      target.setAttribute('aria-label', 'Construction versus holdout comparison; exact values are shown at right.');
       const max = Math.max(...rows.flatMap(row => [row.construction_value, row.holdout_value].filter(value => typeof value === 'number')), 1);
       rows.forEach(row => {
         const article = document.createElement('div'); article.className = 'bar-row';
@@ -866,6 +869,8 @@
         target.append(card('Publisher-reported significance', 'source_annotation', `${significance.reference_estimate}; unchanged from ${significance.unchanged_comparisons}; higher than ${significance.higher_comparisons}. ${significance.annotation_basis} ${significance.interpretation_boundary}`));
         target.append(card('Uncertainty and rights', 'review_required', `${brief.uncertainty.join(' · ')} Rights: ${brief.rights_boundary}`));
         target.append(card('Company boundary', 'blocked_external_first', `${brief.company_gate} Next: ${brief.next_action}`));
+        const metadata = el('food-insecurity-chart-metadata');
+        metadata.append(card('Visible chart metadata', 'publication_contract', `Period: December 2019–2025 construction and holdout · Unit: percent within each publisher's stated denominator · Geography: United States · Scope: Urban working-age/adult respondent frame; USDA household frame is a non-pooled challenge. Uncertainty: ${brief.uncertainty.join(' ')} Counter-signal: ${brief.counter_signals.join(' ')} Evidence boundary: ${brief.boundary} Company gate: ${brief.company_gate}`));
       });
       fetch('food-security-release-tracker.json').then(r => r.json()).then(tracker => {
         el('qualified-trend-brief').append(card('Next food-security releases', tracker.monitoring_decision, `${tracker.source_records.map(row => `${row.publisher}: ${row.latest_observation_period} latest; next ${row.next_target_period}`).join(' · ')} Review: ${tracker.next_review}`));
