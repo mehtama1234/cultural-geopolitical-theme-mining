@@ -13,6 +13,15 @@ Only after a trend clears the external evidence gates will the team run a
 bounded connection to internal company data. Internal data is a test of company
 exposure or decision relevance, not a substitute for external evidence.
 
+## Persistence rule
+
+The observatory keeps running continuously for the full 24 months. External
+collection, refresh, comparison, trend discovery, falsification, chart
+publication, and monitoring do not stop when a rights, ownership, or company
+pilot decision is pending. Those items remain explicitly queued and held while
+unrelated external work continues. A missing approval is a local hold, never a
+program-wide stop condition.
+
 ## What success looks like after 24 months
 
 The organization has an operating capability, not a collection of one-off

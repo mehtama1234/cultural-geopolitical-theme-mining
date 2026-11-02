@@ -12,6 +12,15 @@ only then asks whether a bounded company decision test is appropriate.
 The system must be useful without company data. Internal data is a second-stage
 test, never the source of the external trend and never an automatic join.
 
+## Persistence rule
+
+This is a continuously running external observatory, not a one-time project
+that stops at an approval gate. Every refresh cycle continues source capture,
+normalization, lineage checks, trend discovery, falsification, chart updates,
+and monitoring. Missing rights, owners, or company decisions are recorded as
+queued gates and keep the affected item held; they never stop unrelated
+external work or the observatory itself.
+
 ## What the observatory must preserve
 
 Every observation and publication keeps:
@@ -106,14 +115,14 @@ comparability, independence, persistence, uncertainty, counter-signal,
 falsifier, backtest, and decision relevance before promotion. Keep held,
 monitored, reversed, and retired states visible.
 
-### Months 13–18: decision relevance
+### Months 13–18: decision relevance (without stopping external work)
 
 For a qualified or monitored external trend, define a bounded company decision
 question. Specify aggregate or approved identifier basis, period, geography,
 outcome, denominator, unmatched cases, privacy, rights, falsifier, and stop
 rule. No company data is connected until every approval gate passes.
 
-### Months 19–24: operationalize and hand off
+### Months 19–24: operationalize and hand off while external monitoring continues
 
 Measure refresh reliability, review time, promotion and reversal rates, chart
 usefulness, and pilot usefulness. Assign named primary and backup owners,
