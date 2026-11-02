@@ -83,6 +83,7 @@ STEPS = [
     ["scripts/build_candidate_qualification_review_packet.py"],
     ["scripts/build_trend_monitoring_status.py"],
     ["scripts/build_trend_monitoring_evaluation.py"],
+    ["scripts/build_trend_finding_summary.py"],
     ["scripts/build_falsification_review_queue.py"],
     ["scripts/test_falsification_review_queue.py"],
     ["scripts/build_backtest_source_snapshot.py"],

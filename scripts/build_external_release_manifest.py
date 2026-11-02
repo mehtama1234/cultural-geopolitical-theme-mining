@@ -185,6 +185,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/pilot-activation-queue.json",
     "analysis/external-trend-intelligence/trend-monitoring-register.json",
     "analysis/external-trend-intelligence/trend-monitoring-status.json",
+    "analysis/external-trend-intelligence/trend-finding-summary.json",
     "analysis/external-trend-intelligence/trend-monitoring-evaluation.json",
     "analysis/external-trend-intelligence/falsification-review-queue.json",
     "analysis/external-trend-intelligence/source-family-controls.json",
