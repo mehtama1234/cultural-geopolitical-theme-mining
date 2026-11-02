@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "cd98dd765dbcc62946ed275c159382d1b2448941",
-  "artifact_count": 183,
+  "source_tree_commit": "1908e2bc14c20310133f72071fd2ec8e481ed715",
+  "artifact_count": 184,
   "artifacts": [
     {
       "path": "analysis/external-trend-intelligence/TWO-YEAR-GOAL.md",
@@ -52,7 +52,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1003,
-      "sha256": "bfbe60c4b120c426a992dbce9da5c7d21f7b2e0cd1e2703f909e3f0a46a7ce03"
+      "sha256": "df7078d5462ce1ed177f4b428b5c69eefb76af72fd54619e9d92a2820188c09f"
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
@@ -97,7 +97,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
       "bytes": 3448,
-      "sha256": "56309aa8dea7b1e239ad600a6f85a57a13f5ef9d9c1bbb0bddda392e3b24121f"
+      "sha256": "45ccccc30ecf91bb0dea52ffc789abf026720b220fcd2f000a6ef72299f97c46"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
@@ -148,6 +148,11 @@
       "path": "analysis/external-trend-intelligence/pilot-bridge-simulation.json",
       "bytes": 2171,
       "sha256": "c814e8a6da65da522b75a16e340adc4f4d352c79d3604249bdf451257443d5e8"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/pilot-bridge-evaluation.json",
+      "bytes": 1486,
+      "sha256": "4008bfa5b67ab59691bad5e6730db08aff44dc5856b87e43bee7faea21e6b024"
     },
     {
       "path": "analysis/external-trend-intelligence/pilot-validation-review-packet.json",
@@ -237,7 +242,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "b3073c591b5bd5014f698a3b745a1074d73d7bfc0f9a474a9dc8a9a333014961"
+      "sha256": "9523c02ee5156fa6dfe7935af91c1a2ccafe8316f938a9d1c98eea5e8ef789bb"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -896,8 +901,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 109357,
-      "sha256": "50d637c2fbe878839c8932d4ec75e73b20f56f58168430b9de1812f731c0ac9c"
+      "bytes": 109809,
+      "sha256": "ac6384e404e65427f9828e21b156087a267d56faae77013892c0e4df6c13bf49"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",

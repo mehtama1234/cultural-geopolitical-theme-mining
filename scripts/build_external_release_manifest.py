@@ -43,6 +43,7 @@ ARTIFACTS = [
     "analysis/external-trend-intelligence/PILOT-ACTIVATION-REQUEST.md",
     "analysis/external-trend-intelligence/pilot-contract-intake.json",
     "analysis/external-trend-intelligence/pilot-bridge-simulation.json",
+    "analysis/external-trend-intelligence/pilot-bridge-evaluation.json",
     "analysis/external-trend-intelligence/pilot-validation-review-packet.json",
     "analysis/external-trend-intelligence/pilot-food-security-service-room-blueprint.json",
     "analysis/external-trend-intelligence/independent-stage-comparison.json",

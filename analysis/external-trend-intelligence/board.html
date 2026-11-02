@@ -737,6 +737,9 @@
       fetch('pilot-bridge-simulation.json').then(r => r.json()).then(simulation => {
         pilots.prepend(card('Synthetic bridge simulation', simulation.status, `${simulation.matched_cells.length} matched aggregate cells · ${simulation.unmatched_external_cells.length} unmatched external cells · ${simulation.missing_outcome_cells.length} missing-outcome cells remain visible · company data accessed: ${simulation.company_data_accessed}.`));
       });
+      fetch('pilot-bridge-evaluation.json').then(r => r.json()).then(evaluation => {
+        pilots.prepend(card('Synthetic bridge evaluation', evaluation.status, `${evaluation.matched_cell_count} matched cells · descriptive completion difference ${evaluation.descriptive_completion_difference} · unmatched ${evaluation.unmatched_external_cell_count} · missing outcomes ${evaluation.missing_outcome_cell_count}. ${evaluation.boundary}`));
+      });
       fetch('pilot-activation-queue.json').then(r => r.json()).then(queue => {
         const target = el('pilot-activation-queue');
         target.append(card(`${queue.design_complete_count}/${queue.pilot_count} design contracts complete`, queue.status, `${queue.approved_test_count} approved tests · company data accessed: ${queue.company_data_accessed}. ${queue.boundary}`));

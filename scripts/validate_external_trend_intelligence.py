@@ -866,6 +866,11 @@ def main() -> int:
     assert pilot_simulation["synthetic_only"] is True and pilot_simulation["company_data_accessed"] is False
     assert pilot_simulation["approved_test_count"] == 0
     assert all(pilot_simulation["required_visibility_checks"].values())
+    pilot_evaluation = json.loads((ANALYSIS / "pilot-bridge-evaluation.json").read_text())
+    assert pilot_evaluation["schema"] == "external-trend-intelligence.pilot-bridge-evaluation.v1"
+    assert pilot_evaluation["synthetic_only"] is True and pilot_evaluation["company_data_accessed"] is False
+    assert pilot_evaluation["matched_cell_count"] == len(pilot_simulation["matched_cells"])
+    assert pilot_evaluation["boundary"] and pilot_evaluation["stop_rule"]
     pilot_packet = json.loads((ANALYSIS / "pilot-validation-review-packet.json").read_text())
     assert pilot_packet["schema"] == "external-trend-intelligence.pilot-validation-review-packet.v1"
     assert pilot_packet["status"] == "design_only_ready_for_human_activation_review"

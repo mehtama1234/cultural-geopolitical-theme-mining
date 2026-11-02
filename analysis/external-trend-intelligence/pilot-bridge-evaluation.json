@@ -1,0 +1,25 @@
+{
+  "schema": "external-trend-intelligence.pilot-bridge-evaluation.v1",
+  "status": "synthetic_descriptive_readout_only",
+  "pilot_id": "pilot-food-security-service-room-001",
+  "synthetic_only": true,
+  "company_data_accessed": false,
+  "grouping_rule": "illustrative split at external_context_rate >= 0.15; not a preregistered company analysis",
+  "matched_cell_count": 2,
+  "unmatched_external_cell_count": 1,
+  "missing_outcome_cell_count": 1,
+  "high_context_completion_rate": 0.74,
+  "low_context_completion_rate": 0.81,
+  "descriptive_completion_difference": -0.07,
+  "interpretation": "Synthetic cells exercise the arithmetic and visibility contract only; they do not estimate a company effect or validate the external trend.",
+  "required_visibility_checks": {
+    "unmatched_remain_visible": true,
+    "missing_outcomes_remain_visible": true,
+    "denominators_present_for_matched": true,
+    "no_individual_identity": true
+  },
+  "falsifier": "A later compatible comparison with no stable difference, reversed direction, or stronger operational explanation stops the pilot claim.",
+  "stop_rule": "Stop before real internal access if rights, privacy, denominator, external monitoring, or preregistration gates fail.",
+  "boundary": "No company result, causal estimate, approval, or internal exposure is created by this evaluation.",
+  "next_action": "Replace synthetic cells only after external monitoring, rights, privacy, decision-owner, and preregistration gates pass."
+}
