@@ -1,0 +1,214 @@
+{
+  "schema": "external-trend-intelligence.trend-radar.v1",
+  "as_of": "2026-11-01",
+  "theme_count": 14,
+  "record_count": 2135,
+  "qualified_findings": 1,
+  "held_hypotheses": 4,
+  "themes": [
+    {
+      "theme": "unequal_exposure_status",
+      "record_count": 1833,
+      "observation_count": 5450,
+      "source_host_count": 766,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "open",
+        "reported"
+      ],
+      "signal_strength": "high"
+    },
+    {
+      "theme": "public_systems_feedback",
+      "record_count": 1595,
+      "observation_count": 4632,
+      "source_host_count": 709,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "open",
+        "reported"
+      ],
+      "signal_strength": "high"
+    },
+    {
+      "theme": "household_room_consumption",
+      "record_count": 1315,
+      "observation_count": 3955,
+      "source_host_count": 617,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "open",
+        "reported"
+      ],
+      "signal_strength": "high"
+    },
+    {
+      "theme": "trust_identity_meaning",
+      "record_count": 1310,
+      "observation_count": 3758,
+      "source_host_count": 669,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "open",
+        "reported"
+      ],
+      "signal_strength": "high"
+    },
+    {
+      "theme": "infrastructure_technology_dependency",
+      "record_count": 837,
+      "observation_count": 2543,
+      "source_host_count": 488,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "reported"
+      ],
+      "signal_strength": "medium"
+    },
+    {
+      "theme": "firm_sector_market_power",
+      "record_count": 790,
+      "observation_count": 2183,
+      "source_host_count": 412,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "open",
+        "reported"
+      ],
+      "signal_strength": "medium"
+    },
+    {
+      "theme": "political_judgment_action",
+      "record_count": 782,
+      "observation_count": 2428,
+      "source_host_count": 424,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "open",
+        "reported"
+      ],
+      "signal_strength": "medium"
+    },
+    {
+      "theme": "work_control_bargaining",
+      "record_count": 733,
+      "observation_count": 2255,
+      "source_host_count": 317,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "open",
+        "reported"
+      ],
+      "signal_strength": "medium"
+    },
+    {
+      "theme": "care_health_reproduction",
+      "record_count": 672,
+      "observation_count": 2144,
+      "source_host_count": 343,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "reported"
+      ],
+      "signal_strength": "medium"
+    },
+    {
+      "theme": "geopolitical_state_consequences",
+      "record_count": 621,
+      "observation_count": 1965,
+      "source_host_count": 378,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "reported"
+      ],
+      "signal_strength": "medium"
+    },
+    {
+      "theme": "housing_place_mobility",
+      "record_count": 469,
+      "observation_count": 1408,
+      "source_host_count": 272,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "observed",
+        "reported"
+      ],
+      "signal_strength": "medium"
+    },
+    {
+      "theme": "consumer_power_recourse",
+      "record_count": 440,
+      "observation_count": 1184,
+      "source_host_count": 282,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "open",
+        "reported"
+      ],
+      "signal_strength": "medium"
+    },
+    {
+      "theme": "time_hidden_price",
+      "record_count": 407,
+      "observation_count": 1195,
+      "source_host_count": 252,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "observed",
+        "reported"
+      ],
+      "signal_strength": "medium"
+    },
+    {
+      "theme": "platforms_data_attention",
+      "record_count": 379,
+      "observation_count": 1244,
+      "source_host_count": 272,
+      "observation_statuses": [
+        "compared",
+        "estimated",
+        "inferred",
+        "observed",
+        "open",
+        "reported"
+      ],
+      "signal_strength": "emerging"
+    }
+  ],
+  "boundary": "This radar prioritizes external review by evidence volume and host diversity. It is not a trend-qualification score, causal estimate, or authorization for internal data use."
+}

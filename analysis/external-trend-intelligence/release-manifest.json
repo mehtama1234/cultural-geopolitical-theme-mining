@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "9965700866b5919270eed778e65b82c3c43f2503",
-  "artifact_count": 185,
+  "source_tree_commit": "26d85a495e2daeb96458ac15772677d377d2fb66",
+  "artifact_count": 186,
   "artifacts": [
     {
       "path": "analysis/external-trend-intelligence/TWO-YEAR-GOAL.md",
@@ -52,7 +52,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1003,
-      "sha256": "2cc20eb7adb254351b306312809d1d12662dcef08407966372fe9cea9d93478a"
+      "sha256": "f4b3457034f13171a8df2105902c69dedd80d1014748cd660de008a0a5289186"
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
@@ -97,7 +97,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
       "bytes": 3448,
-      "sha256": "e23f020134d1f34e077b6eec2bb36969be8d6350da0a7ca97fbc996fa5329221"
+      "sha256": "e38361124f42d0db0541ed0872c89f67efb4b5a80f3698b2e149916e5f1479eb"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
@@ -242,7 +242,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "f6dee6277fd1a5ab31a1aeac9524a87ac398a3140b32ab9c2e1c232b8fa9026c"
+      "sha256": "90807138c52cbb3b445d83cd5c32f2df63e29496d2a3c530f9b44246166d9914"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -865,6 +865,11 @@
       "sha256": "dcd5abb0e6870277dca54c443c7836d5ea0f7a866500926d265746c5a4747e74"
     },
     {
+      "path": "analysis/external-trend-intelligence/trend-radar.json",
+      "bytes": 5022,
+      "sha256": "0b3b28305c3c1517e2d12494d2e01949b7db100e9a284bcb8a86382763b76517"
+    },
+    {
       "path": "analysis/external-trend-intelligence/trend-monitoring-evaluation.json",
       "bytes": 5358,
       "sha256": "77005f62b937c76c16f4b7fd86325bed7f842bfe8de8d65bf0ade6f53ed1c6f8"
@@ -906,8 +911,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/board.html",
-      "bytes": 110366,
-      "sha256": "08bcb498caf7a1e3e65d5d495c9fc57603291567969d1c104eff0521e6d0844a"
+      "bytes": 110922,
+      "sha256": "8faf448d5c98f7e34b0902f103520819ada30aaaf0e80ff1c5e8e0bc2cae2eba"
     },
     {
       "path": "analysis/external-trend-intelligence/frontend-publication-registry.json",
