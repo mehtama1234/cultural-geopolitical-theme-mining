@@ -4,7 +4,7 @@
   "required_week_count": 104,
   "observed_week_count": 2,
   "remaining_week_count": 102,
-  "passed_run_count": 195,
+  "passed_run_count": 196,
   "rows": [
     {
       "week": "2026-W44",
@@ -24,9 +24,9 @@
       "week": "2026-W45",
       "status": "observed",
       "scheduled_window_utc": null,
-      "actual_run_timestamp_utc": "2026-11-02T03:46:17+00:00",
-      "run_count": 11,
-      "passed_run_count": 11,
+      "actual_run_timestamp_utc": "2026-11-02T03:50:00+00:00",
+      "run_count": 12,
+      "passed_run_count": 12,
       "pipeline_status_and_step_count": "passed full refresh; see refresh-history.json",
       "source_family_freshness_decision": "see refresh-freshness-decision.json",
       "open_gate_delta": null,
