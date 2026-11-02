@@ -1,8 +1,8 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "3b5c442981ae0d6678148c638e0485eb7bf1331b",
-  "artifact_count": 186,
+  "source_tree_commit": "f1d02fb93bafe0bb558df00c9db5593bd93e98c6",
+  "artifact_count": 187,
   "artifacts": [
     {
       "path": "analysis/external-trend-intelligence/TWO-YEAR-GOAL.md",
@@ -52,7 +52,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1003,
-      "sha256": "b7a2644b6e9784eb31a9bd3e5b1bbd808dd5f3712e9f9a5e32a8c7b119ce9808"
+      "sha256": "8d8d24e9f57fe639566ce3c111c919d27f2e4f7231001707b4b7f7abbc3b7428"
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
@@ -97,7 +97,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
       "bytes": 3448,
-      "sha256": "22b0ca79760336ab5bdc2eccaa081f77bc084c956f05ae547a2c6669563cc43b"
+      "sha256": "9d7134cd1e61b5a207ac371b0281c13752d052ac99986832dfb9eff1d458b324"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
@@ -242,7 +242,7 @@
     {
       "path": "analysis/external-trend-intelligence/program-progress.json",
       "bytes": 2512,
-      "sha256": "bdc05bc724d060ca189eda2cd8159c6b630b1be4ddc4a0e4cfdaf54cdbf52e87"
+      "sha256": "e6722d73cfb7db40d1bf802e92b8c5edb144f33a90322b65d5d7b105c6419bb9"
     },
     {
       "path": "analysis/external-trend-intelligence/program-scorecard.json",
@@ -868,6 +868,11 @@
       "path": "analysis/external-trend-intelligence/trend-radar.json",
       "bytes": 5022,
       "sha256": "0b3b28305c3c1517e2d12494d2e01949b7db100e9a284bcb8a86382763b76517"
+    },
+    {
+      "path": "analysis/external-trend-intelligence/TREND-RADAR-READOUT.md",
+      "bytes": 3274,
+      "sha256": "3e51a44862ef74c49313c1def138a14a1abbc3d59ff3fcc40212101961a00227"
     },
     {
       "path": "analysis/external-trend-intelligence/trend-monitoring-evaluation.json",
