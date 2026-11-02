@@ -164,6 +164,11 @@ STEPS = [
     ["scripts/build_frontend_publication_registry.py"],
     ["scripts/build_observatory_chart_catalog.py"],
     ["scripts/build_frontend_publication_review_packet.py"],
+    # Reconcile the consolidated gate register and completion audit after the
+    # final ownership/pilot handoff artifacts have been rebuilt above.
+    ["scripts/build_open_gate_register.py"],
+    ["scripts/test_next_actions_gate_consistency.py"],
+    ["scripts/build_goal_completion_audit.py"],
     ["scripts/build_external_release_manifest.py"],
     # Rebuild handoff evidence against the freshly built manifest, then hash
     # those final handoff artifacts into a final manifest. This prevents the

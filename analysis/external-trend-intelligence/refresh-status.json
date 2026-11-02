@@ -1,6 +1,6 @@
 {
   "schema": "external-trend-intelligence.refresh-status.v1",
-  "generated_at": "2026-11-02T03:16:03.038494+00:00",
+  "generated_at": "2026-11-02T03:19:09.922957+00:00",
   "source_schedule": "refresh-schedule.json",
   "source_registry": "source-family-registry.json",
   "family_count": 8,
@@ -23,7 +23,7 @@
         {
           "path": "candidate-comparisons.json",
           "exists": true,
-          "age_hours": 27.7
+          "age_hours": 27.76
         }
       ],
       "status": "ready_for_review",
@@ -67,7 +67,7 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 31.97
+          "age_hours": 32.02
         }
       ],
       "status": "ready_for_review",
@@ -138,7 +138,7 @@
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 31.97
+          "age_hours": 32.02
         }
       ],
       "status": "ready_for_review",
@@ -155,12 +155,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 30.87
+          "age_hours": 30.93
         },
         {
           "path": "REFRESH-RUNBOOK.md",
           "exists": true,
-          "age_hours": 21.92
+          "age_hours": 21.97
         }
       ],
       "status": "ready_for_review",
@@ -177,12 +177,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 30.87
+          "age_hours": 30.93
         },
         {
           "path": "internal-bridge-schema.json",
           "exists": true,
-          "age_hours": 32.91
+          "age_hours": 32.96
         }
       ],
       "status": "ready_for_review",
