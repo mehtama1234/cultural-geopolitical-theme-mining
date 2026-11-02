@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "0d882314c7d058d494e2140cd1cbd6c4cd1f7208",
+  "source_tree_commit": "8b2074fb94bc150fc738347c3a8c4e84e82c2a0a",
   "artifact_count": 184,
   "artifacts": [
     {
@@ -52,7 +52,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1003,
-      "sha256": "0343688d523f134c1935d64bc4e2e13b2925e5be564890fec259bff1a384c8fa"
+      "sha256": "6ce686000b27e5603e135721b8d845a118e4237d6312593c67a1ffbccac54596"
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
@@ -97,7 +97,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
       "bytes": 3448,
-      "sha256": "72d44a070fb918d5aec6079f8412fa386aa6ad389fc4bdfc812b9fdb03c8c6c7"
+      "sha256": "72d4fafa150fa79294797dd8f05d703388f2d7ec51fc445f997b3455a5e60522"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
@@ -296,8 +296,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/goal-completion-audit.json",
-      "bytes": 12810,
-      "sha256": "e5d7ba5742173dfed1ceab7d2ef0723ac642c2d72a39d3d1e680f75e68cb9196"
+      "bytes": 12880,
+      "sha256": "630c1305c8e1c6b1f74b460e973b6544da7672419de6a7283bfaa7f79276b766"
     },
     {
       "path": "analysis/external-trend-intelligence/room-independent-result.json",
