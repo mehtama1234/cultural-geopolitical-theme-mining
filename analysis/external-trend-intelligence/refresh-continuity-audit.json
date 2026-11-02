@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.refresh-continuity-audit.v1",
-  "run_count": 196,
-  "passed_run_count": 186,
+  "run_count": 197,
+  "passed_run_count": 187,
   "observed_day_count": 3,
   "observed_days": [
     "2026-10-31",
@@ -9,7 +9,7 @@
     "2026-11-02"
   ],
   "first_observed_run": "2026-10-31T22:09:08+00:00",
-  "latest_observed_run": "2026-11-02T03:13:22+00:00",
+  "latest_observed_run": "2026-11-02T03:16:21+00:00",
   "max_interval_hours": 18.659,
   "median_interval_hours": 0.056,
   "expected_cadence": "weekly",

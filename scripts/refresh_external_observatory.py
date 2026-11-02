@@ -28,6 +28,7 @@ STEPS = [
     ["scripts/build_host_dependence_review_queue.py"],
     ["scripts/build_host_lineage_review_packet.py"],
     ["scripts/build_open_gate_register.py"],
+    ["scripts/test_next_actions_gate_consistency.py"],
     ["scripts/build_theme_coverage_audit.py"],
     ["scripts/build_domain_coverage_audit.py"],
     ["scripts/build_compatible_measure_search.py"],

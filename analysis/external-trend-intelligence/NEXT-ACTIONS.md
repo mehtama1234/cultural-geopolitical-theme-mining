@@ -20,7 +20,7 @@ an independence-review panel, not a pooled estimate.
 
 ## Current release gates
 
-The live release has nine open gates. They are prerequisites, not implied
+The live release has 9 open gates. They are prerequisites, not implied
 completion criteria: rights and publisher-dependence review, independent
 lineage adjudication, comparable holdout/backtest evidence, named operating
 owners, company-pilot contract/privacy approval, and observed two-year
