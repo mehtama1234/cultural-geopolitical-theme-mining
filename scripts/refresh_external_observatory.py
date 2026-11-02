@@ -86,6 +86,7 @@ STEPS = [
     ["scripts/build_trend_finding_summary.py"],
     ["scripts/build_trend_radar.py"],
     ["scripts/test_trend_radar.py"],
+    ["scripts/build_trend_radar_readout.py"],
     ["scripts/build_falsification_review_queue.py"],
     ["scripts/test_falsification_review_queue.py"],
     ["scripts/build_backtest_source_snapshot.py"],
