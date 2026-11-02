@@ -16,6 +16,11 @@ def load(name: str) -> dict:
 
 def main() -> int:
     register = load("pilot-register.json")
+    evaluation = load("pilot-bridge-evaluation.json")
+    assert evaluation["schema"] == "external-trend-intelligence.pilot-bridge-evaluation.v1"
+    assert evaluation["synthetic_only"] is True
+    assert evaluation["company_data_accessed"] is False
+    assert evaluation["boundary"] and evaluation["stop_rule"]
     checks = []
     for pilot in register["pilots"]:
         contract = pilot["internal_data_contract"]
